@@ -493,7 +493,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9430fdd57c7bc431702c4710e541f700" name="a9430fdd57c7bc431702c4710e541f700"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9430fdd57c7bc431702c4710e541f700">&#9670;&#160;</a></span>npc_titoAI()</h2>
 
@@ -517,7 +518,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  254</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -546,7 +549,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  266</span>        {</div>
+<div class="line"><span class="lineno">  267</span>            <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#afdeeccb48c5f74120d0fffe2a631a88a">DoZoneInCombat</a>();</div>
+<div class="line"><span class="lineno">  268</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_afdeeccb48c5f74120d0fffe2a631a88a"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#afdeeccb48c5f74120d0fffe2a631a88a">CreatureAI::DoZoneInCombat</a></div><div class="ttdeci">void DoZoneInCombat(Creature *creature=nullptr, float maxRangeToNearestTarget=250.0f)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:93</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2b09dc852162e88efff1cdf19c7ad370" name="a2b09dc852162e88efff1cdf19c7ad370"></a>
@@ -574,7 +581,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  271</span>        {</div>
+<div class="line"><span class="lineno">  272</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d36/structnpc__tito_1_1npc__tito_a_i.html#a42160f265896ad16bae87e36fa7fc9ce">DorotheeGUID</a>)</div>
+<div class="line"><span class="lineno">  273</span>            {</div>
+<div class="line"><span class="lineno">  274</span>                <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* Dorothee = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d1/d36/structnpc__tito_1_1npc__tito_a_i.html#a42160f265896ad16bae87e36fa7fc9ce">DorotheeGUID</a>);</div>
+<div class="line"><span class="lineno">  275</span>                <span class="keywordflow">if</span> (Dorothee &amp;&amp; Dorothee-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">  276</span>                {</div>
+<div class="line"><span class="lineno">  277</span>                    <a class="code hl_define" href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a>(<a class="code hl_struct" href="../../de/d04/structboss__dorothee_1_1boss__dorothee_a_i.html">boss_dorothee::boss_dorotheeAI</a>, Dorothee-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>())-&gt;TitoDied = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  278</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/dbd/bosses__opera_8cpp.html#a16774215bba3b38580ea51987d64cff1a34c8b64f649ae06780c99201c2c988a7">SAY_DOROTHEE_TITO_DEATH</a>, Dorothee);</div>
+<div class="line"><span class="lineno">  279</span>                }</div>
+<div class="line"><span class="lineno">  280</span>            }</div>
+<div class="line"><span class="lineno">  281</span>        }</div>
+<div class="ttc" id="a_scripted_creature_8h_html_a0476b18cfebeb691aabb4344ec4f8af3"><div class="ttname"><a href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a></div><div class="ttdeci">#define CAST_AI(a, b)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:27</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="abosses__opera_8cpp_html_a16774215bba3b38580ea51987d64cff1a34c8b64f649ae06780c99201c2c988a7"><div class="ttname"><a href="../../d1/dbd/bosses__opera_8cpp.html#a16774215bba3b38580ea51987d64cff1a34c8b64f649ae06780c99201c2c988a7">SAY_DOROTHEE_TITO_DEATH</a></div><div class="ttdeci">@ SAY_DOROTHEE_TITO_DEATH</div><div class="ttdef"><b>Definition:</b> bosses_opera.cpp:39</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructboss__dorothee_1_1boss__dorothee_a_i_html"><div class="ttname"><a href="../../de/d04/structboss__dorothee_1_1boss__dorothee_a_i.html">boss_dorothee::boss_dorotheeAI</a></div><div class="ttdef"><b>Definition:</b> bosses_opera.cpp:126</div></div>
+<div class="ttc" id="astructnpc__tito_1_1npc__tito_a_i_html_a42160f265896ad16bae87e36fa7fc9ce"><div class="ttname"><a href="../../d1/d36/structnpc__tito_1_1npc__tito_a_i.html#a42160f265896ad16bae87e36fa7fc9ce">npc_tito::npc_titoAI::DorotheeGUID</a></div><div class="ttdeci">ObjectGuid DorotheeGUID</div><div class="ttdef"><b>Definition:</b> bosses_opera.cpp:256</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3b08f5b2491caba7530d69b071f80c19" name="a3b08f5b2491caba7530d69b071f80c19"></a>
@@ -601,7 +629,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  260</span>        {</div>
+<div class="line"><span class="lineno">  261</span>            <a class="code hl_variable" href="../../d1/d36/structnpc__tito_1_1npc__tito_a_i.html#a42160f265896ad16bae87e36fa7fc9ce">DorotheeGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  262</span>            <a class="code hl_variable" href="../../d1/d36/structnpc__tito_1_1npc__tito_a_i.html#a0e2c863daa17c9ecd563ed4efb2a37a1">YipTimer</a> = 10000;</div>
+<div class="line"><span class="lineno">  263</span>        }</div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="astructnpc__tito_1_1npc__tito_a_i_html_a0e2c863daa17c9ecd563ed4efb2a37a1"><div class="ttname"><a href="../../d1/d36/structnpc__tito_1_1npc__tito_a_i.html#a0e2c863daa17c9ecd563ed4efb2a37a1">npc_tito::npc_titoAI::YipTimer</a></div><div class="ttdeci">uint32 YipTimer</div><div class="ttdef"><b>Definition:</b> bosses_opera.cpp:257</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af4ca8826345e529bba2ec24fccf13c4d" name="af4ca8826345e529bba2ec24fccf13c4d"></a>
@@ -629,7 +663,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  284</span>        {</div>
+<div class="line"><span class="lineno">  285</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  286</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  287</span> </div>
+<div class="line"><span class="lineno">  288</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d36/structnpc__tito_1_1npc__tito_a_i.html#a0e2c863daa17c9ecd563ed4efb2a37a1">YipTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  289</span>            {</div>
+<div class="line"><span class="lineno">  290</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d1/dbd/bosses__opera_8cpp.html#a5bd342133be8c2137b831460acc9298cae1919091ca63cca3116f42b45c97f648">SPELL_YIPPING</a>);</div>
+<div class="line"><span class="lineno">  291</span>                <a class="code hl_variable" href="../../d1/d36/structnpc__tito_1_1npc__tito_a_i.html#a0e2c863daa17c9ecd563ed4efb2a37a1">YipTimer</a> = 10000;</div>
+<div class="line"><span class="lineno">  292</span>            }</div>
+<div class="line"><span class="lineno">  293</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  294</span>                <a class="code hl_variable" href="../../d1/d36/structnpc__tito_1_1npc__tito_a_i.html#a0e2c863daa17c9ecd563ed4efb2a37a1">YipTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  295</span> </div>
+<div class="line"><span class="lineno">  296</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  297</span>        }</div>
+<div class="ttc" id="abosses__opera_8cpp_html_a5bd342133be8c2137b831460acc9298cae1919091ca63cca3116f42b45c97f648"><div class="ttname"><a href="../../d1/dbd/bosses__opera_8cpp.html#a5bd342133be8c2137b831460acc9298cae1919091ca63cca3116f42b45c97f648">SPELL_YIPPING</a></div><div class="ttdeci">@ SPELL_YIPPING</div><div class="ttdef"><b>Definition:</b> bosses_opera.cpp:68</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -662,7 +714,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/Karazhan/<a class="el" href="../../d1/dbd/bosses__opera_8cpp.html">bosses_opera.cpp</a></li>
+<li><a class="el" href="../../">bosses_opera.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -670,7 +722,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/df6/classnpc__tito.html">npc_tito</a></li><li class="navelem"><a class="el" href="../../d1/d36/structnpc__tito_1_1npc__tito_a_i.html">npc_titoAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:54 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:10 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

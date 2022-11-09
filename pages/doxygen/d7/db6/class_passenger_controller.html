@@ -143,7 +143,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a9c8fa44394c10eb2a7fec3c4f273f448"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dc9/struct_slot_info.html">SlotInfo</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/class_passenger_controller.html#a9c8fa44394c10eb2a7fec3c4f273f448">_slotInfo</a></td></tr>
 <tr class="separator:a9c8fa44394c10eb2a7fec3c4f273f448"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab834deac8dfd9a7ddd1bcb37b1e5c354" name="ab834deac8dfd9a7ddd1bcb37b1e5c354"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab834deac8dfd9a7ddd1bcb37b1e5c354">&#9670;&#160;</a></span>PassengerController()</h2>
 
@@ -166,7 +167,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  404</span>    {</div>
+<div class="line"><span class="lineno">  405</span>        <a class="code hl_function" href="../../d7/db6/class_passenger_controller.html#a2302ac8b9fac75ba58ced41e2b5236f0">ResetSlots</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a>, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">  406</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a></div><div class="ttdeci">@ TEAM_HORDE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:733</div></div>
+<div class="ttc" id="aclass_passenger_controller_html_a2302ac8b9fac75ba58ced41e2b5236f0"><div class="ttname"><a href="../../d7/db6/class_passenger_controller.html#a2302ac8b9fac75ba58ced41e2b5236f0">PassengerController::ResetSlots</a></div><div class="ttdeci">void ResetSlots(TeamId teamId, MotionTransport *t)</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:408</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -193,7 +199,17 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  462</span>    {</div>
+<div class="line"><span class="lineno">  463</span>        <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#af4271e53792477394a5c1022ed8fb30f">_controlledSlots</a>[slot].<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  464</span>        <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#a98a6d819ec193d5a1e96739ac507b146">_respawnCooldowns</a>[slot] = <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count() + <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#a9c8fa44394c10eb2a7fec3c4f273f448">_slotInfo</a>[slot].<a class="code hl_variable" href="../../d9/dc9/struct_slot_info.html#ac2f21814be8269023a2069f3eb03dfe2">Cooldown</a>;</div>
+<div class="line"><span class="lineno">  465</span>    }</div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="aclass_passenger_controller_html_a98a6d819ec193d5a1e96739ac507b146"><div class="ttname"><a href="../../d7/db6/class_passenger_controller.html#a98a6d819ec193d5a1e96739ac507b146">PassengerController::_respawnCooldowns</a></div><div class="ttdeci">time_t _respawnCooldowns[MAX_SLOTS]</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:481</div></div>
+<div class="ttc" id="aclass_passenger_controller_html_a9c8fa44394c10eb2a7fec3c4f273f448"><div class="ttname"><a href="../../d7/db6/class_passenger_controller.html#a9c8fa44394c10eb2a7fec3c4f273f448">PassengerController::_slotInfo</a></div><div class="ttdeci">SlotInfo const  * _slotInfo</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:484</div></div>
+<div class="ttc" id="aclass_passenger_controller_html_af4271e53792477394a5c1022ed8fb30f"><div class="ttname"><a href="../../d7/db6/class_passenger_controller.html#af4271e53792477394a5c1022ed8fb30f">PassengerController::_controlledSlots</a></div><div class="ttdeci">ObjectGuid _controlledSlots[MAX_SLOTS]</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:480</div></div>
+<div class="ttc" id="anamespace_game_time_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
+<div class="ttc" id="astruct_slot_info_html_ac2f21814be8269023a2069f3eb03dfe2"><div class="ttname"><a href="../../d9/dc9/struct_slot_info.html#ac2f21814be8269023a2069f3eb03dfe2">SlotInfo::Cooldown</a></div><div class="ttdeci">uint32 Cooldown</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:295</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2302ac8b9fac75ba58ced41e2b5236f0" name="a2302ac8b9fac75ba58ced41e2b5236f0"></a>
@@ -229,7 +245,27 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  409</span>    {</div>
+<div class="line"><span class="lineno">  410</span>        <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#ac2c664d3b5941c673c13f7e36aa2d974">_transport</a> = t;</div>
+<div class="line"><span class="lineno">  411</span> </div>
+<div class="line"><span class="lineno">  412</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#af63f90d211bdeb7a5f0187a8fd697e5dab01e9ba253990f7a0f0d23af95f9b207">MAX_SLOTS</a>; ++i)</div>
+<div class="line"><span class="lineno">  413</span>        {</div>
+<div class="line"><span class="lineno">  414</span>            <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#af4271e53792477394a5c1022ed8fb30f">_controlledSlots</a>[i].<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  415</span>            <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#a98a6d819ec193d5a1e96739ac507b146">_respawnCooldowns</a>[i] = time_t(0);</div>
+<div class="line"><span class="lineno">  416</span>        }</div>
+<div class="line"><span class="lineno">  417</span> </div>
+<div class="line"><span class="lineno">  418</span>        <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#ab168baee9c4d6343c7adb6978a3a56d2">_spawnPoint</a> = teamId == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a> ? &amp;<a class="code hl_variable" href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#aa9e2035889d7f58083a50c37b8bafa94">OrgrimsHammerAddsSpawnPos</a> : &amp;<a class="code hl_variable" href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#aa929fc158eababcbb9f59d4d91771d88">SkybreakerAddsSpawnPos</a>;</div>
+<div class="line"><span class="lineno">  419</span>        <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#a9c8fa44394c10eb2a7fec3c4f273f448">_slotInfo</a> = teamId == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a> ? <a class="code hl_variable" href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#a8626977492df6cceb21df7329ea45cca">OrgrimsHammerSlotInfo</a> : <a class="code hl_variable" href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#a643943fd1d4ba977492feddfa3fed018">SkybreakerSlotInfo</a>;</div>
+<div class="line"><span class="lineno">  420</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="aboss__icecrown__gunship__battle_8cpp_html_a643943fd1d4ba977492feddfa3fed018"><div class="ttname"><a href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#a643943fd1d4ba977492feddfa3fed018">SkybreakerSlotInfo</a></div><div class="ttdeci">SlotInfo const SkybreakerSlotInfo[MAX_SLOTS]</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:298</div></div>
+<div class="ttc" id="aboss__icecrown__gunship__battle_8cpp_html_a8626977492df6cceb21df7329ea45cca"><div class="ttname"><a href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#a8626977492df6cceb21df7329ea45cca">OrgrimsHammerSlotInfo</a></div><div class="ttdeci">SlotInfo const OrgrimsHammerSlotInfo[MAX_SLOTS]</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:332</div></div>
+<div class="ttc" id="aboss__icecrown__gunship__battle_8cpp_html_aa929fc158eababcbb9f59d4d91771d88"><div class="ttname"><a href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#aa929fc158eababcbb9f59d4d91771d88">SkybreakerAddsSpawnPos</a></div><div class="ttdeci">Position const SkybreakerAddsSpawnPos</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:201</div></div>
+<div class="ttc" id="aboss__icecrown__gunship__battle_8cpp_html_aa9e2035889d7f58083a50c37b8bafa94"><div class="ttname"><a href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#aa9e2035889d7f58083a50c37b8bafa94">OrgrimsHammerAddsSpawnPos</a></div><div class="ttdeci">Position const OrgrimsHammerAddsSpawnPos</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:202</div></div>
+<div class="ttc" id="aboss__icecrown__gunship__battle_8cpp_html_af63f90d211bdeb7a5f0187a8fd697e5dab01e9ba253990f7a0f0d23af95f9b207"><div class="ttname"><a href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#af63f90d211bdeb7a5f0187a8fd697e5dab01e9ba253990f7a0f0d23af95f9b207">MAX_SLOTS</a></div><div class="ttdeci">@ MAX_SLOTS</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:288</div></div>
+<div class="ttc" id="aclass_passenger_controller_html_ab168baee9c4d6343c7adb6978a3a56d2"><div class="ttname"><a href="../../d7/db6/class_passenger_controller.html#ab168baee9c4d6343c7adb6978a3a56d2">PassengerController::_spawnPoint</a></div><div class="ttdeci">Position const  * _spawnPoint</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:483</div></div>
+<div class="ttc" id="aclass_passenger_controller_html_ac2c664d3b5941c673c13f7e36aa2d974"><div class="ttname"><a href="../../d7/db6/class_passenger_controller.html#ac2c664d3b5941c673c13f7e36aa2d974">PassengerController::_transport</a></div><div class="ttdeci">MotionTransport * _transport</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:482</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4a4d575417a7c7940471f21e32d48b5c" name="a4a4d575417a7c7940471f21e32d48b5c"></a>
@@ -254,7 +290,29 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  469</span>    {</div>
+<div class="line"><span class="lineno">  470</span>        <span class="keywordtype">float</span> angle = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#a19bd31014583536af788a65b398e4406">frand</a>(-M_PI * 0.5f, M_PI * 0.5f);</div>
+<div class="line"><span class="lineno">  471</span>        <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> newPos;</div>
+<div class="line"><span class="lineno">  472</span>        newPos.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a4d45ff71d05bb3ff3d570905460f61cd">m_positionX</a> = <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#ab168baee9c4d6343c7adb6978a3a56d2">_spawnPoint</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>() + 2.0f * std::cos(angle);</div>
+<div class="line"><span class="lineno">  473</span>        newPos.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a4f8bb54eef056fd5a230c314d24c2ca6">m_positionY</a> = <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#ab168baee9c4d6343c7adb6978a3a56d2">_spawnPoint</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>() + 2.0f * std::sin(angle);</div>
+<div class="line"><span class="lineno">  474</span>        newPos.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a0d2305604dd27c15fd2d969f18c15b3e">m_positionZ</a> = <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#ab168baee9c4d6343c7adb6978a3a56d2">_spawnPoint</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>();</div>
+<div class="line"><span class="lineno">  475</span>        newPos.<a class="code hl_function" href="../../d1/d26/struct_position.html#aa547307fa2e6acedbcebda20a98a0fcf">SetOrientation</a>(<a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#ab168baee9c4d6343c7adb6978a3a56d2">_spawnPoint</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>());</div>
+<div class="line"><span class="lineno">  476</span>        <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#ac2c664d3b5941c673c13f7e36aa2d974">_transport</a>-&gt;<a class="code hl_function" href="../../d3/d36/class_transport.html#ae4e716194ce5e9c466a8fe5c53ee0980">CalculatePassengerPosition</a>(newPos.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a4d45ff71d05bb3ff3d570905460f61cd">m_positionX</a>, newPos.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a4f8bb54eef056fd5a230c314d24c2ca6">m_positionY</a>, newPos.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a0d2305604dd27c15fd2d969f18c15b3e">m_positionZ</a>, &amp;(newPos.<a class="code hl_variable" href="../../d1/d26/struct_position.html#ad3d198b8a361d95dc13daae4d2a34638">m_orientation</a>));</div>
+<div class="line"><span class="lineno">  477</span>        <span class="keywordflow">return</span> newPos;</div>
+<div class="line"><span class="lineno">  478</span>    }</div>
+<div class="ttc" id="a_random_8cpp_html_a19bd31014583536af788a65b398e4406"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#a19bd31014583536af788a65b398e4406">frand</a></div><div class="ttdeci">float frand(float min, float max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:57</div></div>
+<div class="ttc" id="aclass_transport_html_ae4e716194ce5e9c466a8fe5c53ee0980"><div class="ttname"><a href="../../d3/d36/class_transport.html#ae4e716194ce5e9c466a8fe5c53ee0980">Transport::CalculatePassengerPosition</a></div><div class="ttdeci">void CalculatePassengerPosition(float &amp;x, float &amp;y, float &amp;z, float *o=nullptr) const override</div><div class="ttdoc">This method transforms supplied transport offsets into global coordinates.</div><div class="ttdef"><b>Definition:</b> Transport.h:32</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="astruct_position_html_a0d2305604dd27c15fd2d969f18c15b3e"><div class="ttname"><a href="../../d1/d26/struct_position.html#a0d2305604dd27c15fd2d969f18c15b3e">Position::m_positionZ</a></div><div class="ttdeci">float m_positionZ</div><div class="ttdef"><b>Definition:</b> Position.h:58</div></div>
+<div class="ttc" id="astruct_position_html_a4d45ff71d05bb3ff3d570905460f61cd"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4d45ff71d05bb3ff3d570905460f61cd">Position::m_positionX</a></div><div class="ttdeci">float m_positionX</div><div class="ttdef"><b>Definition:</b> Position.h:56</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_a4f8bb54eef056fd5a230c314d24c2ca6"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4f8bb54eef056fd5a230c314d24c2ca6">Position::m_positionY</a></div><div class="ttdeci">float m_positionY</div><div class="ttdef"><b>Definition:</b> Position.h:57</div></div>
+<div class="ttc" id="astruct_position_html_a74cabfb8f441acb38e1abd5bf6ecdc84"><div class="ttname"><a href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">Position::GetOrientation</a></div><div class="ttdeci">float GetOrientation() const</div><div class="ttdef"><b>Definition:</b> Position.h:120</div></div>
+<div class="ttc" id="astruct_position_html_aa547307fa2e6acedbcebda20a98a0fcf"><div class="ttname"><a href="../../d1/d26/struct_position.html#aa547307fa2e6acedbcebda20a98a0fcf">Position::SetOrientation</a></div><div class="ttdeci">void SetOrientation(float orientation)</div><div class="ttdef"><b>Definition:</b> Position.h:112</div></div>
+<div class="ttc" id="astruct_position_html_ad3d198b8a361d95dc13daae4d2a34638"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad3d198b8a361d95dc13daae4d2a34638">Position::m_orientation</a></div><div class="ttdeci">float m_orientation</div><div class="ttdef"><b>Definition:</b> Position.h:59</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a287e4cafc1d3739edf90c00ad91e2c64" name="a287e4cafc1d3739edf90c00ad91e2c64"></a>
@@ -296,7 +354,57 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  423</span>    {</div>
+<div class="line"><span class="lineno">  424</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#ac2c664d3b5941c673c13f7e36aa2d974">_transport</a>)</div>
+<div class="line"><span class="lineno">  425</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  426</span> </div>
+<div class="line"><span class="lineno">  427</span>        <span class="keywordtype">bool</span> summoned = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  428</span>        time_t now = <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count();</div>
+<div class="line"><span class="lineno">  429</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> i = first; i &lt;= last; ++i)</div>
+<div class="line"><span class="lineno">  430</span>        {</div>
+<div class="line"><span class="lineno">  431</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#a98a6d819ec193d5a1e96739ac507b146">_respawnCooldowns</a>[i] &gt; now)</div>
+<div class="line"><span class="lineno">  432</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  433</span> </div>
+<div class="line"><span class="lineno">  434</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#af4271e53792477394a5c1022ed8fb30f">_controlledSlots</a>[i])</div>
+<div class="line"><span class="lineno">  435</span>            {</div>
+<div class="line"><span class="lineno">  436</span>                <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* current = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#ac2c664d3b5941c673c13f7e36aa2d974">_transport</a>, <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#af4271e53792477394a5c1022ed8fb30f">_controlledSlots</a>[i]);</div>
+<div class="line"><span class="lineno">  437</span>                <span class="keywordflow">if</span> (current &amp;&amp; current-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">  438</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  439</span>            }</div>
+<div class="line"><span class="lineno">  440</span> </div>
+<div class="line"><span class="lineno">  441</span>            <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> spawnPos = <a class="code hl_function" href="../../d7/db6/class_passenger_controller.html#a4a4d575417a7c7940471f21e32d48b5c">SelectSpawnPoint</a>();</div>
+<div class="line"><span class="lineno">  442</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* passenger = summoner-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#a9c8fa44394c10eb2a7fec3c4f273f448">_slotInfo</a>[i].<a class="code hl_variable" href="../../d9/dc9/struct_slot_info.html#a28ff8bdab669f7b4aec95857cc460a2f">Entry</a>, spawnPos, <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a>, 15000))</div>
+<div class="line"><span class="lineno">  443</span>            {</div>
+<div class="line"><span class="lineno">  444</span>                <span class="keywordflow">if</span> (!passenger-&gt;GetTransport())</div>
+<div class="line"><span class="lineno">  445</span>                    <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#ac2c664d3b5941c673c13f7e36aa2d974">_transport</a>-&gt;<a class="code hl_function" href="../../d2/d3b/class_motion_transport.html#a6f7fac08a333c9dc11f49ad62aad4850">AddPassenger</a>(passenger, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  446</span>                passenger-&gt;ApplySpellImmune(0, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a91d505a1e789c6ea6a338f3a3c85b6b9a981326220afec59126417e02e0b882de">IMMUNITY_ID</a>, 49576, <span class="keyword">true</span>); <span class="comment">// death grip</span></div>
+<div class="line"><span class="lineno">  447</span> </div>
+<div class="line"><span class="lineno">  448</span>                <span class="keywordflow">if</span> (i &gt;= <a class="code hl_enumvalue" href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#af63f90d211bdeb7a5f0187a8fd697e5da71fa32d971a209e8aab0390d87f52f62">SLOT_MAGE_1</a> &amp;&amp; i &lt;= <a class="code hl_enumvalue" href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#af63f90d211bdeb7a5f0187a8fd697e5da08d07551fa5d9fc66e579ac0de62ad7f">SLOT_MORTAR_4</a>) <span class="comment">// only these npcs are pooled</span></div>
+<div class="line"><span class="lineno">  449</span>                {</div>
+<div class="line"><span class="lineno">  450</span>                    <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#af4271e53792477394a5c1022ed8fb30f">_controlledSlots</a>[i] = passenger-&gt;GetGUID();</div>
+<div class="line"><span class="lineno">  451</span>                    <a class="code hl_variable" href="../../d7/db6/class_passenger_controller.html#a98a6d819ec193d5a1e96739ac507b146">_respawnCooldowns</a>[i] = time_t(0);</div>
+<div class="line"><span class="lineno">  452</span>                }</div>
+<div class="line"><span class="lineno">  453</span>                passenger-&gt;AI()-&gt;SetData(<a class="code hl_enumvalue" href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#a3d3d0368b97072191973f8c108f6bb21a356f54f46201c64d499d3ac22d6b79f4">ACTION_SET_SLOT</a>, i);</div>
+<div class="line"><span class="lineno">  454</span>                summoned = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  455</span>            }</div>
+<div class="line"><span class="lineno">  456</span>        }</div>
+<div class="line"><span class="lineno">  457</span> </div>
+<div class="line"><span class="lineno">  458</span>        <span class="keywordflow">return</span> summoned;</div>
+<div class="line"><span class="lineno">  459</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_CORPSE_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:47</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a91d505a1e789c6ea6a338f3a3c85b6b9a981326220afec59126417e02e0b882de"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a91d505a1e789c6ea6a338f3a3c85b6b9a981326220afec59126417e02e0b882de">IMMUNITY_ID</a></div><div class="ttdeci">@ IMMUNITY_ID</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1372</div></div>
+<div class="ttc" id="aboss__icecrown__gunship__battle_8cpp_html_a3d3d0368b97072191973f8c108f6bb21a356f54f46201c64d499d3ac22d6b79f4"><div class="ttname"><a href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#a3d3d0368b97072191973f8c108f6bb21a356f54f46201c64d499d3ac22d6b79f4">ACTION_SET_SLOT</a></div><div class="ttdeci">@ ACTION_SET_SLOT</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:194</div></div>
+<div class="ttc" id="aboss__icecrown__gunship__battle_8cpp_html_af63f90d211bdeb7a5f0187a8fd697e5da08d07551fa5d9fc66e579ac0de62ad7f"><div class="ttname"><a href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#af63f90d211bdeb7a5f0187a8fd697e5da08d07551fa5d9fc66e579ac0de62ad7f">SLOT_MORTAR_4</a></div><div class="ttdeci">@ SLOT_MORTAR_4</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:272</div></div>
+<div class="ttc" id="aboss__icecrown__gunship__battle_8cpp_html_af63f90d211bdeb7a5f0187a8fd697e5da71fa32d971a209e8aab0390d87f52f62"><div class="ttname"><a href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html#af63f90d211bdeb7a5f0187a8fd697e5da71fa32d971a209e8aab0390d87f52f62">SLOT_MAGE_1</a></div><div class="ttdeci">@ SLOT_MAGE_1</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:251</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_motion_transport_html_a6f7fac08a333c9dc11f49ad62aad4850"><div class="ttname"><a href="../../d2/d3b/class_motion_transport.html#a6f7fac08a333c9dc11f49ad62aad4850">MotionTransport::AddPassenger</a></div><div class="ttdeci">void AddPassenger(WorldObject *passenger, bool withAll=false) override</div><div class="ttdef"><b>Definition:</b> Transport.cpp:263</div></div>
+<div class="ttc" id="aclass_passenger_controller_html_a4a4d575417a7c7940471f21e32d48b5c"><div class="ttname"><a href="../../d7/db6/class_passenger_controller.html#a4a4d575417a7c7940471f21e32d48b5c">PassengerController::SelectSpawnPoint</a></div><div class="ttdeci">Position SelectSpawnPoint() const</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:468</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aclass_world_object_html_aaf7058bd6b40bbfd38cbcd4f740c0344"><div class="ttname"><a href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">WorldObject::SummonCreature</a></div><div class="ttdeci">TempSummon * SummonCreature(uint32 id, const Position &amp;pos, TempSummonType spwtype=TEMPSUMMON_MANUAL_DESPAWN, uint32 despwtime=0, uint32 vehId=0, SummonPropertiesEntry const *properties=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2301</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="astruct_slot_info_html_a28ff8bdab669f7b4aec95857cc460a2f"><div class="ttname"><a href="../../d9/dc9/struct_slot_info.html#a28ff8bdab669f7b4aec95857cc460a2f">SlotInfo::Entry</a></div><div class="ttdeci">uint32 Entry</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:293</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -411,7 +519,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html">boss_icecrown_gunship_battle.cpp</a></li>
+<li><a class="el" href="../../">boss_icecrown_gunship_battle.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -419,7 +527,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/db6/class_passenger_controller.html">PassengerController</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

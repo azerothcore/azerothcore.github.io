@@ -294,7 +294,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a76e8285baf1d14d560ad764eeab86cd5" name="a76e8285baf1d14d560ad764eeab86cd5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a76e8285baf1d14d560ad764eeab86cd5">&#9670;&#160;</a></span>FilterTargets()</h2>
 
@@ -318,7 +319,30 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  456</span>    {</div>
+<div class="line"><span class="lineno">  457</span>        targets.remove_if([&amp;](<a class="code hl_class" href="../../db/df7/class_world_object.html">WorldObject</a> <span class="keyword">const</span>* target) -&gt; <span class="keywordtype">bool</span></div>
+<div class="line"><span class="lineno">  458</span>            {</div>
+<div class="line"><span class="lineno">  459</span>                <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() != <a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a485374e988cafa135e5776f1f3aa8638">NPC_QIRAJI_SCARAB</a> &amp;&amp; target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() != <a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a193f6b29e1a4f07a90b5839e7cd9bd05">NPC_QIRAJI_SCORPION</a>)</div>
+<div class="line"><span class="lineno">  460</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  461</span>                if (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a> <span class="keyword">const</span>* creature = target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>())</div>
+<div class="line"><span class="lineno">  462</span>                    if (creature-&gt;HasAura(<a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca4f9bd22959b15fbf1cbdbf4ed3e70578">SPELL_EXPLODE_BUG</a>) || creature-&gt;HasAura(<a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca717f0f96796c5ba79a4cb9067e5abf9a">SPELL_MUTATE_BUG</a>))</div>
+<div class="line"><span class="lineno">  463</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  464</span> </div>
+<div class="line"><span class="lineno">  465</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  466</span>            });</div>
+<div class="line"><span class="lineno">  467</span> </div>
+<div class="line"><span class="lineno">  468</span>        <a class="code hl_function" href="../../d0/df6/namespace_acore_1_1_containers.html#ad8b2c621f5a22f8ae253a1c9733794b9">Acore::Containers::RandomResize</a>(targets, 1);</div>
+<div class="line"><span class="lineno">  469</span>    }</div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a193f6b29e1a4f07a90b5839e7cd9bd05"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a193f6b29e1a4f07a90b5839e7cd9bd05">NPC_QIRAJI_SCORPION</a></div><div class="ttdeci">@ NPC_QIRAJI_SCORPION</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:78</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a485374e988cafa135e5776f1f3aa8638"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a485374e988cafa135e5776f1f3aa8638">NPC_QIRAJI_SCARAB</a></div><div class="ttdeci">@ NPC_QIRAJI_SCARAB</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:77</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a5bd342133be8c2137b831460acc9298ca4f9bd22959b15fbf1cbdbf4ed3e70578"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca4f9bd22959b15fbf1cbdbf4ed3e70578">SPELL_EXPLODE_BUG</a></div><div class="ttdeci">@ SPELL_EXPLODE_BUG</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:37</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a5bd342133be8c2137b831460acc9298ca717f0f96796c5ba79a4cb9067e5abf9a"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca717f0f96796c5ba79a4cb9067e5abf9a">SPELL_MUTATE_BUG</a></div><div class="ttdeci">@ SPELL_MUTATE_BUG</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:43</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_object_html_ab0e2ef1ac1daa91476f749e0ec6ad3c6"><div class="ttname"><a href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">Object::ToCreature</a></div><div class="ttdeci">Creature * ToCreature()</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
+<div class="ttc" id="aclass_world_object_html"><div class="ttname"><a href="../../db/df7/class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> Object.h:393</div></div>
+<div class="ttc" id="anamespace_acore_1_1_containers_html_ad8b2c621f5a22f8ae253a1c9733794b9"><div class="ttname"><a href="../../d0/df6/namespace_acore_1_1_containers.html#ad8b2c621f5a22f8ae253a1c9733794b9">Acore::Containers::RandomResize</a></div><div class="ttdeci">void RandomResize(C &amp;container, std::size_t requestedSize)</div><div class="ttdef"><b>Definition:</b> Containers.h:81</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a587db6fa1dc5788e0cc9ec5e486e9393" name="a587db6fa1dc5788e0cc9ec5e486e9393"></a>
@@ -343,7 +367,31 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  472</span>    {</div>
+<div class="line"><span class="lineno">  473</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>())</div>
+<div class="line"><span class="lineno">  474</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  475</span> </div>
+<div class="line"><span class="lineno">  476</span>        <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* target = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>();</div>
+<div class="line"><span class="lineno">  477</span> </div>
+<div class="line"><span class="lineno">  478</span>        <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno">  479</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  480</span> </div>
+<div class="line"><span class="lineno">  481</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a> == <a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca717f0f96796c5ba79a4cb9067e5abf9a">SPELL_MUTATE_BUG</a>)</div>
+<div class="line"><span class="lineno">  482</span>            target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca39f8ade97df636ec291e84ac82f4aa9c">SPELL_VIRULENT_POISON_PROC</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  483</span>        target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9f091068e93fe04fde1b2d77d34d5fcf">FACTION_HOSTILE</a>);</div>
+<div class="line"><span class="lineno">  484</span>        target-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno">  485</span>        target-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">SetInCombatWithZone</a>();</div>
+<div class="line"><span class="lineno">  486</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a9f091068e93fe04fde1b2d77d34d5fcf"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9f091068e93fe04fde1b2d77d34d5fcf">FACTION_HOSTILE</a></div><div class="ttdeci">@ FACTION_HOSTILE</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:80</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a5bd342133be8c2137b831460acc9298ca39f8ade97df636ec291e84ac82f4aa9c"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca39f8ade97df636ec291e84ac82f4aa9c">SPELL_VIRULENT_POISON_PROC</a></div><div class="ttdeci">@ SPELL_VIRULENT_POISON_PROC</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:45</div></div>
+<div class="ttc" id="aclass___spell_script_html_ae2ab4203d324b2179ad06ffdb5d8626f"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">_SpellScript::m_scriptSpellId</a></div><div class="ttdeci">uint32 m_scriptSpellId</div><div class="ttdef"><b>Definition:</b> SpellScript.h:107</div></div>
+<div class="ttc" id="aclass_creature_html_a01ccacf28df6336a774bf1672caf3571"><div class="ttname"><a href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">Creature::SetInCombatWithZone</a></div><div class="ttdeci">void SetInCombatWithZone()</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2705</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad7372e543391a23c003b4121e0dd8a09" name="ad7372e543391a23c003b4121e0dd8a09"></a>
@@ -396,11 +444,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  489</span>    {</div>
+<div class="line"><span class="lineno">  490</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../db/de3/classspell__mutate__explode__bug.html#a76e8285baf1d14d560ad764eeab86cd5">spell_mutate_explode_bug::FilterTargets</a>, <a class="code hl_define" href="../../df/d0b/_shared_defines_8h.html#ac97ba74f30438a8b51ce05c9de303cd7">EFFECT_ALL</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a3f043071f052463518f0978322c782c6">TARGET_UNIT_SRC_AREA_ENTRY</a>);</div>
+<div class="line"><span class="lineno">  491</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a4ad6c271f820ea8f949e286512912d52">OnHit</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a>(<a class="code hl_function" href="../../db/de3/classspell__mutate__explode__bug.html#a587db6fa1dc5788e0cc9ec5e486e9393">spell_mutate_explode_bug::HandleOnHit</a>);</div>
+<div class="line"><span class="lineno">  492</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a3f043071f052463518f0978322c782c6"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a3f043071f052463518f0978322c782c6">TARGET_UNIT_SRC_AREA_ENTRY</a></div><div class="ttdeci">@ TARGET_UNIT_SRC_AREA_ENTRY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1388</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ac97ba74f30438a8b51ce05c9de303cd7"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac97ba74f30438a8b51ce05c9de303cd7">EFFECT_ALL</a></div><div class="ttdeci">#define EFFECT_ALL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:37</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a623f49512c3d12eceb55ca05cd53c4f2"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a></div><div class="ttdeci">#define SpellObjectAreaTargetSelectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:354</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ad33ae6ff74ef32eb5ec79707ff0ab5b1"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a></div><div class="ttdeci">#define SpellHitFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:349</div></div>
+<div class="ttc" id="aclass_spell_script_html_a4ad6c271f820ea8f949e286512912d52"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a4ad6c271f820ea8f949e286512912d52">SpellScript::OnHit</a></div><div class="ttdeci">HookList&lt; HitHandler &gt; OnHit</div><div class="ttdef"><b>Definition:</b> SpellScript.h:345</div></div>
+<div class="ttc" id="aclass_spell_script_html_af74f730c6dacd310a78036be6b7cc6b7"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">SpellScript::OnObjectAreaTargetSelect</a></div><div class="ttdeci">HookList&lt; ObjectAreaTargetSelectHandler &gt; OnObjectAreaTargetSelect</div><div class="ttdef"><b>Definition:</b> SpellScript.h:353</div></div>
+<div class="ttc" id="aclassspell__mutate__explode__bug_html_a587db6fa1dc5788e0cc9ec5e486e9393"><div class="ttname"><a href="../../db/de3/classspell__mutate__explode__bug.html#a587db6fa1dc5788e0cc9ec5e486e9393">spell_mutate_explode_bug::HandleOnHit</a></div><div class="ttdeci">void HandleOnHit()</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:471</div></div>
+<div class="ttc" id="aclassspell__mutate__explode__bug_html_a76e8285baf1d14d560ad764eeab86cd5"><div class="ttname"><a href="../../db/de3/classspell__mutate__explode__bug.html#a76e8285baf1d14d560ad764eeab86cd5">spell_mutate_explode_bug::FilterTargets</a></div><div class="ttdeci">void FilterTargets(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:455</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/TempleOfAhnQiraj/<a class="el" href="../../dd/d58/boss__twinemperors_8cpp.html">boss_twinemperors.cpp</a></li>
+<li><a class="el" href="../../">boss_twinemperors.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -408,7 +468,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/de3/classspell__mutate__explode__bug.html">spell_mutate_explode_bug</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:22 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

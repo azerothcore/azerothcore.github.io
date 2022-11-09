@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d8/d0d/struct_acore_1_1_world_object_s
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/dfa/_spell_8h_source.html">Spell.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Spell.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acore::WorldObjectSpellConeTargetCheck:</div>
 <div class="dyncontent">
@@ -167,7 +167,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a70b9331b5871e2e4d92d642715c8192a inherit pub_attribs_struct_acore_1_1_world_object_spell_target_check"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d62/_condition_mgr_8h.html#ae942a8e25dc24ce42e62625bb583c0dd">ConditionList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8a/struct_acore_1_1_world_object_spell_target_check.html#a70b9331b5871e2e4d92d642715c8192a">_condList</a></td></tr>
 <tr class="separator:a70b9331b5871e2e4d92d642715c8192a inherit pub_attribs_struct_acore_1_1_world_object_spell_target_check"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a51fa6de40d065bd7ba52f4dc982f9a5e" name="a51fa6de40d065bd7ba52f4dc982f9a5e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51fa6de40d065bd7ba52f4dc982f9a5e">&#9670;&#160;</a></span>WorldObjectSpellConeTargetCheck()</h2>
 
@@ -217,7 +218,12 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 9009</span>        : <a class="code hl_function" href="../../d8/db5/struct_acore_1_1_world_object_spell_area_target_check.html#a2b017300220426ac42de18e3a8699219">WorldObjectSpellAreaTargetCheck</a>(range, caster, caster, caster, spellInfo, selectionType, condList), <a class="code hl_variable" href="../../d8/d0d/struct_acore_1_1_world_object_spell_cone_target_check.html#a8f946789292320ea8b205dec5d1e1975">_coneAngle</a>(coneAngle)</div>
+<div class="line"><span class="lineno"> 9010</span>    {</div>
+<div class="line"><span class="lineno"> 9011</span>    }</div>
+<div class="ttc" id="astruct_acore_1_1_world_object_spell_area_target_check_html_a2b017300220426ac42de18e3a8699219"><div class="ttname"><a href="../../d8/db5/struct_acore_1_1_world_object_spell_area_target_check.html#a2b017300220426ac42de18e3a8699219">Acore::WorldObjectSpellAreaTargetCheck::WorldObjectSpellAreaTargetCheck</a></div><div class="ttdeci">WorldObjectSpellAreaTargetCheck(float range, Position const *position, Unit *caster, Unit *referer, SpellInfo const *spellInfo, SpellTargetCheckTypes selectionType, ConditionList *condList)</div><div class="ttdef"><b>Definition:</b> Spell.cpp:8987</div></div>
+<div class="ttc" id="astruct_acore_1_1_world_object_spell_cone_target_check_html_a8f946789292320ea8b205dec5d1e1975"><div class="ttname"><a href="../../d8/d0d/struct_acore_1_1_world_object_spell_cone_target_check.html#a8f946789292320ea8b205dec5d1e1975">Acore::WorldObjectSpellConeTargetCheck::_coneAngle</a></div><div class="ttdeci">float _coneAngle</div><div class="ttdef"><b>Definition:</b> Spell.h:828</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -236,7 +242,35 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 9014</span>    {</div>
+<div class="line"><span class="lineno"> 9015</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d8a/struct_acore_1_1_world_object_spell_target_check.html#a66bd07338943ee307be19f22326b29b7">_spellInfo</a>-&gt;<a class="code hl_function" href="../../d4/d7d/class_spell_info.html#a975746d6b737abb063ea037327abfc5a">HasAttribute</a>(<a class="code hl_enumvalue" href="../../dc/d70/_spell_info_8h.html#a93795b2131c8cbe38a7b23768a5a146da6f734acb36c68fcc4881a4d4e844ee11">SPELL_ATTR0_CU_CONE_BACK</a>))</div>
+<div class="line"><span class="lineno"> 9016</span>        {</div>
+<div class="line"><span class="lineno"> 9017</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/d8a/struct_acore_1_1_world_object_spell_target_check.html#ac090f8e47bcdfccb85fb791856355827">_caster</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab1245a01671d8012b9aee4c915028900">isInBack</a>(target, <a class="code hl_variable" href="../../d8/d0d/struct_acore_1_1_world_object_spell_cone_target_check.html#a8f946789292320ea8b205dec5d1e1975">_coneAngle</a>))</div>
+<div class="line"><span class="lineno"> 9018</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 9019</span>        }</div>
+<div class="line"><span class="lineno"> 9020</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d8a/struct_acore_1_1_world_object_spell_target_check.html#a66bd07338943ee307be19f22326b29b7">_spellInfo</a>-&gt;<a class="code hl_function" href="../../d4/d7d/class_spell_info.html#a975746d6b737abb063ea037327abfc5a">HasAttribute</a>(<a class="code hl_enumvalue" href="../../dc/d70/_spell_info_8h.html#a93795b2131c8cbe38a7b23768a5a146daf56afff0380689f8a82952e2db4a584c">SPELL_ATTR0_CU_CONE_LINE</a>))</div>
+<div class="line"><span class="lineno"> 9021</span>        {</div>
+<div class="line"><span class="lineno"> 9022</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/d8a/struct_acore_1_1_world_object_spell_target_check.html#ac090f8e47bcdfccb85fb791856355827">_caster</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a0c809407f6a671597467291f811e4a27">HasInLine</a>(target, <a class="code hl_variable" href="../../d4/d8a/struct_acore_1_1_world_object_spell_target_check.html#ac090f8e47bcdfccb85fb791856355827">_caster</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ae3ccd7ee8fcb156805c61b83e5c016ae">GetObjectSize</a>() + target-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ae3ccd7ee8fcb156805c61b83e5c016ae">GetObjectSize</a>()))</div>
+<div class="line"><span class="lineno"> 9023</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 9024</span>        }</div>
+<div class="line"><span class="lineno"> 9025</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 9026</span>        {</div>
+<div class="line"><span class="lineno"> 9027</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/d8a/struct_acore_1_1_world_object_spell_target_check.html#ac090f8e47bcdfccb85fb791856355827">_caster</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a00db62e79f895c1fe3893c95ee30b6fe">isInFront</a>(target, <a class="code hl_variable" href="../../d8/d0d/struct_acore_1_1_world_object_spell_cone_target_check.html#a8f946789292320ea8b205dec5d1e1975">_coneAngle</a>))</div>
+<div class="line"><span class="lineno"> 9028</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 9029</span>        }</div>
+<div class="line"><span class="lineno"> 9030</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/db5/struct_acore_1_1_world_object_spell_area_target_check.html#a36a7194e3ffbdc2ea1c4bd5ed5997da4">WorldObjectSpellAreaTargetCheck::operator ()</a>(target);</div>
+<div class="line"><span class="lineno"> 9031</span>    }</div>
+<div class="ttc" id="a_spell_info_8h_html_a93795b2131c8cbe38a7b23768a5a146da6f734acb36c68fcc4881a4d4e844ee11"><div class="ttname"><a href="../../dc/d70/_spell_info_8h.html#a93795b2131c8cbe38a7b23768a5a146da6f734acb36c68fcc4881a4d4e844ee11">SPELL_ATTR0_CU_CONE_BACK</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_CONE_BACK</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:177</div></div>
+<div class="ttc" id="a_spell_info_8h_html_a93795b2131c8cbe38a7b23768a5a146daf56afff0380689f8a82952e2db4a584c"><div class="ttname"><a href="../../dc/d70/_spell_info_8h.html#a93795b2131c8cbe38a7b23768a5a146daf56afff0380689f8a82952e2db4a584c">SPELL_ATTR0_CU_CONE_LINE</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_CONE_LINE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:178</div></div>
+<div class="ttc" id="aclass_spell_info_html_a975746d6b737abb063ea037327abfc5a"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#a975746d6b737abb063ea037327abfc5a">SpellInfo::HasAttribute</a></div><div class="ttdeci">bool HasAttribute(SpellAttr0 attribute) const</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:412</div></div>
+<div class="ttc" id="aclass_world_object_html_a00db62e79f895c1fe3893c95ee30b6fe"><div class="ttname"><a href="../../db/df7/class_world_object.html#a00db62e79f895c1fe3893c95ee30b6fe">WorldObject::isInFront</a></div><div class="ttdeci">bool isInFront(WorldObject const *target, float arc=M_PI) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1492</div></div>
+<div class="ttc" id="aclass_world_object_html_ab1245a01671d8012b9aee4c915028900"><div class="ttname"><a href="../../db/df7/class_world_object.html#ab1245a01671d8012b9aee4c915028900">WorldObject::isInBack</a></div><div class="ttdeci">bool isInBack(WorldObject const *target, float arc=M_PI) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1497</div></div>
+<div class="ttc" id="aclass_world_object_html_ae3ccd7ee8fcb156805c61b83e5c016ae"><div class="ttname"><a href="../../db/df7/class_world_object.html#ae3ccd7ee8fcb156805c61b83e5c016ae">WorldObject::GetObjectSize</a></div><div class="ttdeci">float GetObjectSize() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2717</div></div>
+<div class="ttc" id="astruct_acore_1_1_world_object_spell_area_target_check_html_a36a7194e3ffbdc2ea1c4bd5ed5997da4"><div class="ttname"><a href="../../d8/db5/struct_acore_1_1_world_object_spell_area_target_check.html#a36a7194e3ffbdc2ea1c4bd5ed5997da4">Acore::WorldObjectSpellAreaTargetCheck::operator()</a></div><div class="ttdeci">bool operator()(WorldObject *target)</div><div class="ttdef"><b>Definition:</b> Spell.cpp:8993</div></div>
+<div class="ttc" id="astruct_acore_1_1_world_object_spell_target_check_html_a66bd07338943ee307be19f22326b29b7"><div class="ttname"><a href="../../d4/d8a/struct_acore_1_1_world_object_spell_target_check.html#a66bd07338943ee307be19f22326b29b7">Acore::WorldObjectSpellTargetCheck::_spellInfo</a></div><div class="ttdeci">SpellInfo const  * _spellInfo</div><div class="ttdef"><b>Definition:</b> Spell.h:797</div></div>
+<div class="ttc" id="astruct_acore_1_1_world_object_spell_target_check_html_ac090f8e47bcdfccb85fb791856355827"><div class="ttname"><a href="../../d4/d8a/struct_acore_1_1_world_object_spell_target_check.html#ac090f8e47bcdfccb85fb791856355827">Acore::WorldObjectSpellTargetCheck::_caster</a></div><div class="ttdeci">Unit * _caster</div><div class="ttdef"><b>Definition:</b> Spell.h:795</div></div>
+<div class="ttc" id="astruct_position_html_a0c809407f6a671597467291f811e4a27"><div class="ttname"><a href="../../d1/d26/struct_position.html#a0c809407f6a671597467291f811e4a27">Position::HasInLine</a></div><div class="ttdeci">bool HasInLine(Position const *pos, float width) const</div><div class="ttdef"><b>Definition:</b> Position.cpp:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -255,8 +289,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/<a class="el" href="../../d5/dfa/_spell_8h_source.html">Spell.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/<a class="el" href="../../d8/d41/_spell_8cpp.html">Spell.cpp</a></li>
+<li><a class="el" href="../../">Spell.h</a></li>
+<li><a class="el" href="../../">Spell.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -264,7 +298,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../d8/d0d/struct_acore_1_1_world_object_spell_cone_target_check.html">WorldObjectSpellConeTargetCheck</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

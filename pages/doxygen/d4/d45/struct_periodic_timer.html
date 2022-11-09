@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d4/d45/struct_periodic_timer.html','..
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/d29/_timer_8h_source.html">Timer.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Timer.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -137,7 +137,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a7b889a1fbbf905c952834fb8d745f4a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/struct_periodic_timer.html#a7b889a1fbbf905c952834fb8d745f4a6">i_expireTime</a></td></tr>
 <tr class="separator:a7b889a1fbbf905c952834fb8d745f4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a82820c45f47f423315fe761f9c45c3b5" name="a82820c45f47f423315fe761f9c45c3b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a82820c45f47f423315fe761f9c45c3b5">&#9670;&#160;</a></span>PeriodicTimer()</h2>
 
@@ -171,7 +172,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  267</span>        : <a class="code hl_variable" href="../../d4/d45/struct_periodic_timer.html#a5b45d28e36d665190323f34776b87796">i_period</a>(period), <a class="code hl_variable" href="../../d4/d45/struct_periodic_timer.html#a7b889a1fbbf905c952834fb8d745f4a6">i_expireTime</a>(start_time)</div>
+<div class="line"><span class="lineno">  268</span>    {</div>
+<div class="line"><span class="lineno">  269</span>    }</div>
+<div class="ttc" id="astruct_periodic_timer_html_a5b45d28e36d665190323f34776b87796"><div class="ttname"><a href="../../d4/d45/struct_periodic_timer.html#a5b45d28e36d665190323f34776b87796">PeriodicTimer::i_period</a></div><div class="ttdeci">int32 i_period</div><div class="ttdef"><b>Definition:</b> Timer.h:294</div></div>
+<div class="ttc" id="astruct_periodic_timer_html_a7b889a1fbbf905c952834fb8d745f4a6"><div class="ttname"><a href="../../d4/d45/struct_periodic_timer.html#a7b889a1fbbf905c952834fb8d745f4a6">PeriodicTimer::i_expireTime</a></div><div class="ttdeci">int32 i_expireTime</div><div class="ttdef"><b>Definition:</b> Timer.h:295</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -208,7 +214,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  283</span>    {</div>
+<div class="line"><span class="lineno">  284</span>        <a class="code hl_variable" href="../../d4/d45/struct_periodic_timer.html#a7b889a1fbbf905c952834fb8d745f4a6">i_expireTime</a> = start_time;</div>
+<div class="line"><span class="lineno">  285</span>        <a class="code hl_variable" href="../../d4/d45/struct_periodic_timer.html#a5b45d28e36d665190323f34776b87796">i_period</a> = period;</div>
+<div class="line"><span class="lineno">  286</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3fdac0a26ee6f5db8d536ae44907930d" name="a3fdac0a26ee6f5db8d536ae44907930d"></a>
@@ -233,7 +243,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  290</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d45/struct_periodic_timer.html#a7b889a1fbbf905c952834fb8d745f4a6">i_expireTime</a> &lt;= 0; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af4e78fc1284797b50c2951c10f92b641" name="af4e78fc1284797b50c2951c10f92b641"></a>
@@ -269,7 +280,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  291</span>{ <a class="code hl_variable" href="../../d4/d45/struct_periodic_timer.html#a7b889a1fbbf905c952834fb8d745f4a6">i_expireTime</a> += period &gt; diff ? period : diff; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1b013fe47a2dfb131110d3a29ccf9868" name="a1b013fe47a2dfb131110d3a29ccf9868"></a>
@@ -295,7 +307,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  289</span>{ <a class="code hl_variable" href="../../d4/d45/struct_periodic_timer.html#a7b889a1fbbf905c952834fb8d745f4a6">i_expireTime</a> -= diff; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a535bd070d606ba5a8621469a7ddd3449" name="a535bd070d606ba5a8621469a7ddd3449"></a>
@@ -321,7 +334,17 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  272</span>    {</div>
+<div class="line"><span class="lineno">  273</span>        <span class="keywordflow">if</span> ((<a class="code hl_variable" href="../../d4/d45/struct_periodic_timer.html#a7b889a1fbbf905c952834fb8d745f4a6">i_expireTime</a> -= diff) &gt; 0)</div>
+<div class="line"><span class="lineno">  274</span>        {</div>
+<div class="line"><span class="lineno">  275</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  276</span>        }</div>
+<div class="line"><span class="lineno">  277</span> </div>
+<div class="line"><span class="lineno">  278</span>        <a class="code hl_variable" href="../../d4/d45/struct_periodic_timer.html#a7b889a1fbbf905c952834fb8d745f4a6">i_expireTime</a> += <a class="code hl_variable" href="../../d4/d45/struct_periodic_timer.html#a5b45d28e36d665190323f34776b87796">i_period</a> &gt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(diff) ? <a class="code hl_variable" href="../../d4/d45/struct_periodic_timer.html#a5b45d28e36d665190323f34776b87796">i_period</a> : diff;</div>
+<div class="line"><span class="lineno">  279</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  280</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -370,7 +393,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Utilities/<a class="el" href="../../d5/d29/_timer_8h_source.html">Timer.h</a></li>
+<li><a class="el" href="../../">Timer.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -378,7 +401,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d45/struct_periodic_timer.html">PeriodicTimer</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

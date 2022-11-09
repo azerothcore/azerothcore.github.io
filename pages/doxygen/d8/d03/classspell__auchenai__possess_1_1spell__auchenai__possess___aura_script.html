@@ -306,7 +306,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad244419a3b1d621f624e9d42d7ae1bcc" name="ad244419a3b1d621f624e9d42d7ae1bcc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad244419a3b1d621f624e9d42d7ae1bcc">&#9670;&#160;</a></span>CalcPeriodic()</h2>
 
@@ -346,7 +347,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  200</span>        {</div>
+<div class="line"><span class="lineno">  201</span>            isPeriodic = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  202</span>            amplitude = 2000;</div>
+<div class="line"><span class="lineno">  203</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a92237e6836351f7ebbd8463756b0d03f" name="a92237e6836351f7ebbd8463756b0d03f"></a>
@@ -382,7 +387,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  193</span>        {</div>
+<div class="line"><span class="lineno">  194</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>())</div>
+<div class="line"><span class="lineno">  195</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>())</div>
+<div class="line"><span class="lineno">  196</span>                    caster-&gt;CastSpell(target, 32830 <span class="comment">/*POSSESS*/</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  197</span>        }</div>
+<div class="ttc" id="aclass_aura_script_html_a67261dcb8b5f6089bdc1a906c91d61df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">AuraScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1010</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a89c6ead8e6e37ad528701670203b610a" name="a89c6ead8e6e37ad528701670203b610a"></a>
@@ -435,7 +448,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  214</span>        {</div>
+<div class="line"><span class="lineno">  215</span>            <span class="comment">// Base channel</span></div>
+<div class="line"><span class="lineno">  216</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a> == 33401)</div>
+<div class="line"><span class="lineno">  217</span>                <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab9127bc3610a6a30fa9bbf22f7339bcc">OnEffectRemove</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a>(<a class="code hl_function" href="../../d8/d03/classspell__auchenai__possess_1_1spell__auchenai__possess___aura_script.html#a92237e6836351f7ebbd8463756b0d03f">spell_auchenai_possess_AuraScript::OnRemove</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno">  218</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  219</span>            {</div>
+<div class="line"><span class="lineno">  220</span>                <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a266a051650b446c525aa6c16a256e464">DoEffectCalcPeriodic</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ab8d87844aaddbc3842b2cd99266fbd6f">AuraEffectCalcPeriodicFn</a>(<a class="code hl_function" href="../../d8/d03/classspell__auchenai__possess_1_1spell__auchenai__possess___aura_script.html#ad244419a3b1d621f624e9d42d7ae1bcc">spell_auchenai_possess_AuraScript::CalcPeriodic</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a7b5d0b48f9a7e84bf7a896602e8c66b9">SPELL_AURA_MOD_CHARM</a>);</div>
+<div class="line"><span class="lineno">  221</span>                <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a6baf2932d6e9170f5dc3aa969e6f0396">OnEffectUpdatePeriodic</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a715640892166108a23f30ed68346d395">AuraEffectUpdatePeriodicFn</a>(<a class="code hl_function" href="../../d8/d03/classspell__auchenai__possess_1_1spell__auchenai__possess___aura_script.html#a2dfeb921f3ae971207f8fa570c5c86d7">spell_auchenai_possess_AuraScript::Update</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a7b5d0b48f9a7e84bf7a896602e8c66b9">SPELL_AURA_MOD_CHARM</a>);</div>
+<div class="line"><span class="lineno">  222</span>            }</div>
+<div class="line"><span class="lineno">  223</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a7b5d0b48f9a7e84bf7a896602e8c66b9"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a7b5d0b48f9a7e84bf7a896602e8c66b9">SPELL_AURA_MOD_CHARM</a></div><div class="ttdeci">@ SPELL_AURA_MOD_CHARM</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:69</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_TRIGGER_SPELL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:86</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:42</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a715640892166108a23f30ed68346d395"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a715640892166108a23f30ed68346d395">AuraEffectUpdatePeriodicFn</a></div><div class="ttdeci">#define AuraEffectUpdatePeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:756</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ab8d87844aaddbc3842b2cd99266fbd6f"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ab8d87844aaddbc3842b2cd99266fbd6f">AuraEffectCalcPeriodicFn</a></div><div class="ttdeci">#define AuraEffectCalcPeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:768</div></div>
+<div class="ttc" id="a_spell_script_8h_html_af8f20adad60abdb901d6e7310afea31b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a></div><div class="ttdeci">#define AuraEffectRemoveFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:744</div></div>
+<div class="ttc" id="aclass___spell_script_html_ae2ab4203d324b2179ad06ffdb5d8626f"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">_SpellScript::m_scriptSpellId</a></div><div class="ttdeci">uint32 m_scriptSpellId</div><div class="ttdef"><b>Definition:</b> SpellScript.h:107</div></div>
+<div class="ttc" id="aclass_aura_script_html_a266a051650b446c525aa6c16a256e464"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a266a051650b446c525aa6c16a256e464">AuraScript::DoEffectCalcPeriodic</a></div><div class="ttdeci">HookList&lt; EffectCalcPeriodicHandler &gt; DoEffectCalcPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:767</div></div>
+<div class="ttc" id="aclass_aura_script_html_a6baf2932d6e9170f5dc3aa969e6f0396"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a6baf2932d6e9170f5dc3aa969e6f0396">AuraScript::OnEffectUpdatePeriodic</a></div><div class="ttdeci">HookList&lt; EffectUpdatePeriodicHandler &gt; OnEffectUpdatePeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:755</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab9127bc3610a6a30fa9bbf22f7339bcc"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab9127bc3610a6a30fa9bbf22f7339bcc">AuraScript::OnEffectRemove</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; OnEffectRemove</div><div class="ttdef"><b>Definition:</b> SpellScript.h:739</div></div>
+<div class="ttc" id="aclassspell__auchenai__possess_1_1spell__auchenai__possess___aura_script_html_a2dfeb921f3ae971207f8fa570c5c86d7"><div class="ttname"><a href="../../d8/d03/classspell__auchenai__possess_1_1spell__auchenai__possess___aura_script.html#a2dfeb921f3ae971207f8fa570c5c86d7">spell_auchenai_possess::spell_auchenai_possess_AuraScript::Update</a></div><div class="ttdeci">void Update(AuraEffect *)</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:205</div></div>
+<div class="ttc" id="aclassspell__auchenai__possess_1_1spell__auchenai__possess___aura_script_html_a92237e6836351f7ebbd8463756b0d03f"><div class="ttname"><a href="../../d8/d03/classspell__auchenai__possess_1_1spell__auchenai__possess___aura_script.html#a92237e6836351f7ebbd8463756b0d03f">spell_auchenai_possess::spell_auchenai_possess_AuraScript::OnRemove</a></div><div class="ttdeci">void OnRemove(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:192</div></div>
+<div class="ttc" id="aclassspell__auchenai__possess_1_1spell__auchenai__possess___aura_script_html_ad244419a3b1d621f624e9d42d7ae1bcc"><div class="ttname"><a href="../../d8/d03/classspell__auchenai__possess_1_1spell__auchenai__possess___aura_script.html#ad244419a3b1d621f624e9d42d7ae1bcc">spell_auchenai_possess::spell_auchenai_possess_AuraScript::CalcPeriodic</a></div><div class="ttdeci">void CalcPeriodic(AuraEffect const *, bool &amp;isPeriodic, int32 &amp;amplitude)</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:199</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2dfeb921f3ae971207f8fa570c5c86d7" name="a2dfeb921f3ae971207f8fa570c5c86d7"></a>
@@ -461,11 +498,19 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  206</span>        {</div>
+<div class="line"><span class="lineno">  207</span>            <span class="comment">// Xinef: Charm is removed when target is at or below 50%hp</span></div>
+<div class="line"><span class="lineno">  208</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* owner = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>())</div>
+<div class="line"><span class="lineno">  209</span>                <span class="keywordflow">if</span> (owner-&gt;GetHealthPct() &lt;= 50)</div>
+<div class="line"><span class="lineno">  210</span>                    <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a7087cacdb741a109d53fb82c06ff1cef">SetDuration</a>(0);</div>
+<div class="line"><span class="lineno">  211</span>        }</div>
+<div class="ttc" id="aclass_aura_script_html_a7087cacdb741a109d53fb82c06ff1cef"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a7087cacdb741a109d53fb82c06ff1cef">AuraScript::SetDuration</a></div><div class="ttdeci">void SetDuration(int32 duration, bool withMods=false)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1050</div></div>
+<div class="ttc" id="aclass_aura_script_html_ae0ce7b7a97c6bcb2734ac79f8fa86a15"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">AuraScript::GetUnitOwner</a></div><div class="ttdeci">Unit * GetUnitOwner() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1020</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/Auchindoun/AuchenaiCrypts/<a class="el" href="../../dc/dde/boss__shirrak__the__dead__watcher_8cpp.html">boss_shirrak_the_dead_watcher.cpp</a></li>
+<li><a class="el" href="../../">boss_shirrak_the_dead_watcher.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -473,7 +518,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d30/classspell__auchenai__possess.html">spell_auchenai_possess</a></li><li class="navelem"><a class="el" href="../../d8/d03/classspell__auchenai__possess_1_1spell__auchenai__possess___aura_script.html">spell_auchenai_possess_AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:15 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

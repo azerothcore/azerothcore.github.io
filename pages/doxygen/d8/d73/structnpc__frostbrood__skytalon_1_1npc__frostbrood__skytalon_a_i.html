@@ -394,7 +394,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afc14c60466f9f0f1b20062758f18c00d" name="afc14c60466f9f0f1b20062758f18c00d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afc14c60466f9f0f1b20062758f18c00d">&#9670;&#160;</a></span>npc_frostbrood_skytalonAI()</h2>
 
@@ -418,7 +419,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2128</span>: <a class="code hl_struct" href="../../df/d81/struct_vehicle_a_i.html">VehicleAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_vehicle_a_i_html"><div class="ttname"><a href="../../df/d81/struct_vehicle_a_i.html">VehicleAI</a></div><div class="ttdef"><b>Definition:</b> CombatAI.h:99</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -447,7 +450,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a717b3431bd49e191fc77afe0fa50d827">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2133</span>        {</div>
+<div class="line"><span class="lineno"> 2134</span>            <span class="keywordflow">if</span> (!summoner)</div>
+<div class="line"><span class="lineno"> 2135</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2136</span> </div>
+<div class="line"><span class="lineno"> 2137</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(<a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383a8707dee5103fdd7d52427963dc840327">POINT_GRAB_DECOY</a>, summoner-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), summoner-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), summoner-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>() + 3.0f);</div>
+<div class="line"><span class="lineno"> 2138</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="azone__icecrown_8cpp_html_accd05966dd315fd033526ca59b504383a8707dee5103fdd7d52427963dc840327"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383a8707dee5103fdd7d52427963dc840327">POINT_GRAB_DECOY</a></div><div class="ttdeci">@ POINT_GRAB_DECOY</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:2114</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae763333503176eb7e8ce407868243958" name="ae763333503176eb7e8ce407868243958"></a>
@@ -485,7 +501,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#ab0438b14dc1d7f038221d9d7a2f37043">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2141</span>        {</div>
+<div class="line"><span class="lineno"> 2142</span>            <span class="keywordflow">if</span> (type != <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a>)</div>
+<div class="line"><span class="lineno"> 2143</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2144</span> </div>
+<div class="line"><span class="lineno"> 2145</span>            <span class="keywordflow">if</span> (<span class="keywordtype">id</span> == <a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383a8707dee5103fdd7d52427963dc840327">POINT_GRAB_DECOY</a>)</div>
+<div class="line"><span class="lineno"> 2146</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/d6e/class_temp_summon.html">TempSummon</a>* summon = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">ToTempSummon</a>())</div>
+<div class="line"><span class="lineno"> 2147</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* summoner = summon-&gt;GetSummonerUnit())</div>
+<div class="line"><span class="lineno"> 2148</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(summoner, <a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383a399d29cb7ddcee9c8af71bbbcb9d2dca">SPELL_GRAB</a>);</div>
+<div class="line"><span class="lineno"> 2149</span>        }</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a></div><div class="ttdeci">@ POINT_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:46</div></div>
+<div class="ttc" id="aclass_temp_summon_html"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html">TempSummon</a></div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a6649e9ba10948d634bc0ac9c4a5800e5"><div class="ttname"><a href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">Unit::ToTempSummon</a></div><div class="ttdeci">TempSummon * ToTempSummon()</div><div class="ttdef"><b>Definition:</b> Unit.h:2395</div></div>
+<div class="ttc" id="azone__icecrown_8cpp_html_accd05966dd315fd033526ca59b504383a399d29cb7ddcee9c8af71bbbcb9d2dca"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383a399d29cb7ddcee9c8af71bbbcb9d2dca">SPELL_GRAB</a></div><div class="ttdeci">@ SPELL_GRAB</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:2107</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a24bb49f47dcf85c95039d0495a89e126" name="a24bb49f47dcf85c95039d0495a89e126"></a>
@@ -523,7 +554,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a6afb39c4bf86a1e882cc80fd7ec80a8f">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2169</span>        {</div>
+<div class="line"><span class="lineno"> 2170</span>            <span class="keywordflow">switch</span> (spell-&gt;Id)</div>
+<div class="line"><span class="lineno"> 2171</span>            {</div>
+<div class="line"><span class="lineno"> 2172</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383a0a7756a84f2f30a389576b6c33086973">SPELL_EXPLOSION</a>:</div>
+<div class="line"><span class="lineno"> 2173</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383a13f0566b0ca3096731d7cb26218482bb">SPELL_IMMOLATION</a>);</div>
+<div class="line"><span class="lineno"> 2174</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2175</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383acb8f040f79b312883fa2a0f4d5e4b79b">SPELL_RIDE</a>:</div>
+<div class="line"><span class="lineno"> 2176</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383a7317b5744bbdef8ec0de48be4e4469a9">SPELL_PING_BUNNY</a>);</div>
+<div class="line"><span class="lineno"> 2177</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383acc1fb5fc01aef70e2bc4dca65c231da8">EVENT_FLY_AWAY</a>, 100);</div>
+<div class="line"><span class="lineno"> 2178</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2179</span>            }</div>
+<div class="line"><span class="lineno"> 2180</span>        }</div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a1e37cbb75f91c247b04131afc7ce35f5"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">UnitAI::DoCastAOE</a></div><div class="ttdeci">SpellCastResult DoCastAOE(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:249</div></div>
+<div class="ttc" id="azone__icecrown_8cpp_html_accd05966dd315fd033526ca59b504383a0a7756a84f2f30a389576b6c33086973"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383a0a7756a84f2f30a389576b6c33086973">SPELL_EXPLOSION</a></div><div class="ttdeci">@ SPELL_EXPLOSION</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:2110</div></div>
+<div class="ttc" id="azone__icecrown_8cpp_html_accd05966dd315fd033526ca59b504383a13f0566b0ca3096731d7cb26218482bb"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383a13f0566b0ca3096731d7cb26218482bb">SPELL_IMMOLATION</a></div><div class="ttdeci">@ SPELL_IMMOLATION</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:2109</div></div>
+<div class="ttc" id="azone__icecrown_8cpp_html_accd05966dd315fd033526ca59b504383a7317b5744bbdef8ec0de48be4e4469a9"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383a7317b5744bbdef8ec0de48be4e4469a9">SPELL_PING_BUNNY</a></div><div class="ttdeci">@ SPELL_PING_BUNNY</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:2108</div></div>
+<div class="ttc" id="azone__icecrown_8cpp_html_accd05966dd315fd033526ca59b504383acb8f040f79b312883fa2a0f4d5e4b79b"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383acb8f040f79b312883fa2a0f4d5e4b79b">SPELL_RIDE</a></div><div class="ttdeci">@ SPELL_RIDE</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:2111</div></div>
+<div class="ttc" id="azone__icecrown_8cpp_html_accd05966dd315fd033526ca59b504383acc1fb5fc01aef70e2bc4dca65c231da8"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383acc1fb5fc01aef70e2bc4dca65c231da8">EVENT_FLY_AWAY</a></div><div class="ttdeci">@ EVENT_FLY_AWAY</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:2118</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0ffc4cd2e9b61ad17c516f062d161feb" name="a0ffc4cd2e9b61ad17c516f062d161feb"></a>
@@ -551,7 +601,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/d81/struct_vehicle_a_i.html#aac593372592d33fa008a66c6dcec1840">VehicleAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2152</span>        {</div>
+<div class="line"><span class="lineno"> 2153</span>            <a class="code hl_function" href="../../df/d81/struct_vehicle_a_i.html#aac593372592d33fa008a66c6dcec1840">VehicleAI::UpdateAI</a>(diff);</div>
+<div class="line"><span class="lineno"> 2154</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno"> 2155</span> </div>
+<div class="line"><span class="lineno"> 2156</span>            <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventId = <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno"> 2157</span>            {</div>
+<div class="line"><span class="lineno"> 2158</span>                <span class="keywordflow">if</span> (eventId == <a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383acc1fb5fc01aef70e2bc4dca65c231da8">EVENT_FLY_AWAY</a>)</div>
+<div class="line"><span class="lineno"> 2159</span>                {</div>
+<div class="line"><span class="lineno"> 2160</span>                    <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> randomPosOnRadius;</div>
+<div class="line"><span class="lineno"> 2161</span>                    randomPosOnRadius.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a0d2305604dd27c15fd2d969f18c15b3e">m_positionZ</a> = (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>() + 40.0f);</div>
+<div class="line"><span class="lineno"> 2162</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ac64a52b25d49a08ce2dd2e708b7948aa">GetNearPoint2D</a>(randomPosOnRadius.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a4d45ff71d05bb3ff3d570905460f61cd">m_positionX</a>, randomPosOnRadius.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a4f8bb54eef056fd5a230c314d24c2ca6">m_positionY</a>, 40.0f, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#aee80751b631ac7287aafe8f6df5891b4">GetAngle</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>));</div>
+<div class="line"><span class="lineno"> 2163</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(<a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383aca3b05354a38dab06632e912627733ab">POINT_FLY_AWAY</a>, randomPosOnRadius);</div>
+<div class="line"><span class="lineno"> 2164</span>                }</div>
+<div class="line"><span class="lineno"> 2165</span>            }</div>
+<div class="line"><span class="lineno"> 2166</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_world_object_html_ac64a52b25d49a08ce2dd2e708b7948aa"><div class="ttname"><a href="../../db/df7/class_world_object.html#ac64a52b25d49a08ce2dd2e708b7948aa">WorldObject::GetNearPoint2D</a></div><div class="ttdeci">void GetNearPoint2D(WorldObject const *searcher, float &amp;x, float &amp;y, float distance, float absAngle, Position const *startPos=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2535</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="astruct_position_html_a0d2305604dd27c15fd2d969f18c15b3e"><div class="ttname"><a href="../../d1/d26/struct_position.html#a0d2305604dd27c15fd2d969f18c15b3e">Position::m_positionZ</a></div><div class="ttdeci">float m_positionZ</div><div class="ttdef"><b>Definition:</b> Position.h:58</div></div>
+<div class="ttc" id="astruct_position_html_a4d45ff71d05bb3ff3d570905460f61cd"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4d45ff71d05bb3ff3d570905460f61cd">Position::m_positionX</a></div><div class="ttdeci">float m_positionX</div><div class="ttdef"><b>Definition:</b> Position.h:56</div></div>
+<div class="ttc" id="astruct_position_html_a4f8bb54eef056fd5a230c314d24c2ca6"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4f8bb54eef056fd5a230c314d24c2ca6">Position::m_positionY</a></div><div class="ttdeci">float m_positionY</div><div class="ttdef"><b>Definition:</b> Position.h:57</div></div>
+<div class="ttc" id="astruct_position_html_aee80751b631ac7287aafe8f6df5891b4"><div class="ttname"><a href="../../d1/d26/struct_position.html#aee80751b631ac7287aafe8f6df5891b4">Position::GetAngle</a></div><div class="ttdeci">float GetAngle(const Position *pos) const</div><div class="ttdef"><b>Definition:</b> Position.cpp:77</div></div>
+<div class="ttc" id="astruct_vehicle_a_i_html_aac593372592d33fa008a66c6dcec1840"><div class="ttname"><a href="../../df/d81/struct_vehicle_a_i.html#aac593372592d33fa008a66c6dcec1840">VehicleAI::UpdateAI</a></div><div class="ttdeci">void UpdateAI(uint32 diff) override</div><div class="ttdef"><b>Definition:</b> CombatAI.cpp:265</div></div>
+<div class="ttc" id="azone__icecrown_8cpp_html_accd05966dd315fd033526ca59b504383aca3b05354a38dab06632e912627733ab"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#accd05966dd315fd033526ca59b504383aca3b05354a38dab06632e912627733ab">POINT_FLY_AWAY</a></div><div class="ttdeci">@ POINT_FLY_AWAY</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:2115</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -570,7 +644,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d6/d81/zone__icecrown_8cpp.html">zone_icecrown.cpp</a></li>
+<li><a class="el" href="../../">zone_icecrown.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -578,7 +652,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d21/classnpc__frostbrood__skytalon.html">npc_frostbrood_skytalon</a></li><li class="navelem"><a class="el" href="../../d8/d73/structnpc__frostbrood__skytalon_1_1npc__frostbrood__skytalon_a_i.html">npc_frostbrood_skytalonAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/Combat/UnitEvents.h File Reference</title>
+<title>AzeorthCore: UnitEvents.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -112,9 +112,9 @@ $(document).ready(function(){initNavTree('d7/d87/_unit_events_8h.html','../../')
   <div class="headertitle"><div class="title">UnitEvents.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../db/d1f/_common_8h_source.html">Common.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
 </div>
-<p><a href="../../d7/d87/_unit_events_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -218,7 +218,42 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9" name="a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9"></a>UEV_THREAT_SET_NEXT_TARGET&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669" name="a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669"></a>UEV_THREAT_VICTIM_CHANGED&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    <span class="comment">// Player/Pet changed on/offline status</span></div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9">UEV_THREAT_REF_ONLINE_STATUS</a>        = 1 &lt;&lt; 0,</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <span class="comment">// Threat for Player/Pet changed</span></div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0">UEV_THREAT_REF_THREAT_CHANGE</a>        = 1 &lt;&lt; 1,</div>
+<div class="line"><span class="lineno">   37</span> </div>
+<div class="line"><span class="lineno">   38</span>    <span class="comment">// Player/Pet will be removed from list (dead) [for internal use]</span></div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0">UEV_THREAT_REF_REMOVE_FROM_LIST</a>     = 1 &lt;&lt; 2,</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    <span class="comment">// Player/Pet entered/left  water or some other place where it is/was not accessible for the creature</span></div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97abd7481924e1cb036704820e5be0407db">UEV_THREAT_REF_ASSECCIBLE_STATUS</a>    = 1 &lt;&lt; 3,</div>
+<div class="line"><span class="lineno">   43</span> </div>
+<div class="line"><span class="lineno">   44</span>    <span class="comment">// Threat list is going to be sorted (if dirty flag is set)</span></div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97a74092d5fa151b78ce0de1ddf3ed05865">UEV_THREAT_SORT_LIST</a>                = 1 &lt;&lt; 4,</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>    <span class="comment">// New target should be fetched, could tbe the current target as well</span></div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9">UEV_THREAT_SET_NEXT_TARGET</a>          = 1 &lt;&lt; 5,</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>    <span class="comment">// A new victim (target) was set. Could be nullptr</span></div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669">UEV_THREAT_VICTIM_CHANGED</a>           = 1 &lt;&lt; 6,</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>    <span class="comment">// Future use</span></div>
+<div class="line"><span class="lineno">   54</span>    <span class="comment">//UEV_UNIT_KILLED                   = 1&lt;&lt;7,</span></div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>    <span class="comment">//Future use</span></div>
+<div class="line"><span class="lineno">   57</span>    <span class="comment">//UEV_UNIT_HEALTH_CHANGE            = 1&lt;&lt;8,</span></div>
+<div class="line"><span class="lineno">   58</span>};</div>
+<div class="ttc" id="a_unit_events_8h_html_a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0"><div class="ttname"><a href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0">UEV_THREAT_REF_THREAT_CHANGE</a></div><div class="ttdeci">@ UEV_THREAT_REF_THREAT_CHANGE</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:36</div></div>
+<div class="ttc" id="a_unit_events_8h_html_a5207de6e2fb421d2579a9baf4c471e97a74092d5fa151b78ce0de1ddf3ed05865"><div class="ttname"><a href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97a74092d5fa151b78ce0de1ddf3ed05865">UEV_THREAT_SORT_LIST</a></div><div class="ttdeci">@ UEV_THREAT_SORT_LIST</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:45</div></div>
+<div class="ttc" id="a_unit_events_8h_html_a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9"><div class="ttname"><a href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9">UEV_THREAT_REF_ONLINE_STATUS</a></div><div class="ttdeci">@ UEV_THREAT_REF_ONLINE_STATUS</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:33</div></div>
+<div class="ttc" id="a_unit_events_8h_html_a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0"><div class="ttname"><a href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0">UEV_THREAT_REF_REMOVE_FROM_LIST</a></div><div class="ttdeci">@ UEV_THREAT_REF_REMOVE_FROM_LIST</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:39</div></div>
+<div class="ttc" id="a_unit_events_8h_html_a5207de6e2fb421d2579a9baf4c471e97abd7481924e1cb036704820e5be0407db"><div class="ttname"><a href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97abd7481924e1cb036704820e5be0407db">UEV_THREAT_REF_ASSECCIBLE_STATUS</a></div><div class="ttdeci">@ UEV_THREAT_REF_ASSECCIBLE_STATUS</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:42</div></div>
+<div class="ttc" id="a_unit_events_8h_html_a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9"><div class="ttname"><a href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9">UEV_THREAT_SET_NEXT_TARGET</a></div><div class="ttdeci">@ UEV_THREAT_SET_NEXT_TARGET</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:48</div></div>
+<div class="ttc" id="a_unit_events_8h_html_a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669"><div class="ttname"><a href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669">UEV_THREAT_VICTIM_CHANGED</a></div><div class="ttdeci">@ UEV_THREAT_VICTIM_CHANGED</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:51</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -227,7 +262,7 @@ Enumerations</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_6b63bbd5ab28cd54e716b5236a19bef7.html">Combat</a></li><li class="navelem"><a class="el" href="../../d7/d87/_unit_events_8h.html">UnitEvents.h</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

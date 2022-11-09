@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/AI/ScriptedAI/ScriptedGossip.cpp File Reference</title>
+<title>AzeorthCore: ScriptedGossip.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -110,10 +110,12 @@ $(document).ready(function(){initNavTree('d6/df2/_scripted_gossip_8cpp.html','..
   <div class="headertitle"><div class="title">ScriptedGossip.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../dc/d28/_scripted_gossip_8h_source.html">ScriptedGossip.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d93/_creature_8h_source.html">Creature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d39/_player_8h_source.html">Player.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptedGossip.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:af077a82741577a63a075c7d40b3b3dc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/df2/_scripted_gossip_8cpp.html#af077a82741577a63a075c7d40b3b3dc5">ClearGossipMenuFor</a> (<a class="el" href="../../d8/d53/class_player.html">Player</a> *player)</td></tr>
@@ -181,7 +183,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
+<div class="line"><span class="lineno">   42</span>    player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#acc519746fa45290cde3967dc5f604158">GetGossipMenu</a>().<a class="code hl_function" href="../../da/d41/class_gossip_menu.html#a47c99098962324ba20efb029df24fd3e">AddMenuItem</a>(gossipMenuID, gossipMenuItemID, sender, action, boxMoney);</div>
+<div class="line"><span class="lineno">   43</span>}</div>
+<div class="ttc" id="aclass_gossip_menu_html_a47c99098962324ba20efb029df24fd3e"><div class="ttname"><a href="../../da/d41/class_gossip_menu.html#a47c99098962324ba20efb029df24fd3e">GossipMenu::AddMenuItem</a></div><div class="ttdeci">void AddMenuItem(int32 menuItemId, uint8 icon, std::string const &amp;message, uint32 sender, uint32 action, std::string const &amp;boxMessage, uint32 boxMoney, bool coded=false)</div><div class="ttdef"><b>Definition:</b> GossipDef.cpp:40</div></div>
+<div class="ttc" id="aclass_player_html_af9651858db4302e3dff8ec5bff131f72"><div class="ttname"><a href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">Player::PlayerTalkClass</a></div><div class="ttdeci">PlayerMenu * PlayerTalkClass</div><div class="ttdef"><b>Definition:</b> Player.h:2187</div></div>
+<div class="ttc" id="aclass_player_menu_html_acc519746fa45290cde3967dc5f604158"><div class="ttname"><a href="../../d1/d29/class_player_menu.html#acc519746fa45290cde3967dc5f604158">PlayerMenu::GetGossipMenu</a></div><div class="ttdeci">GossipMenu &amp; GetGossipMenu()</div><div class="ttdef"><b>Definition:</b> GossipDef.h:263</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1d54254ae4ddb1bb0e9e2c74dffe5bf5" name="a1d54254ae4ddb1bb0e9e2c74dffe5bf5"></a>
@@ -227,7 +235,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   29</span>{</div>
+<div class="line"><span class="lineno">   30</span>    player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#acc519746fa45290cde3967dc5f604158">GetGossipMenu</a>().<a class="code hl_function" href="../../da/d41/class_gossip_menu.html#a47c99098962324ba20efb029df24fd3e">AddMenuItem</a>(-1, icon, text, sender, action, <span class="stringliteral">&quot;&quot;</span>, 0);</div>
+<div class="line"><span class="lineno">   31</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acd7e8e52a911742a99728cf9408e23b8" name="acd7e8e52a911742a99728cf9408e23b8"></a>
@@ -291,7 +302,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
+<div class="line"><span class="lineno">   36</span>    player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#acc519746fa45290cde3967dc5f604158">GetGossipMenu</a>().<a class="code hl_function" href="../../da/d41/class_gossip_menu.html#a47c99098962324ba20efb029df24fd3e">AddMenuItem</a>(-1, icon, text, sender, action, popupText, popupMoney, coded);</div>
+<div class="line"><span class="lineno">   37</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af077a82741577a63a075c7d40b3b3dc5" name="af077a82741577a63a075c7d40b3b3dc5"></a>
@@ -309,7 +323,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   23</span>{</div>
+<div class="line"><span class="lineno">   24</span>    player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#a64e6ddbdb6e894f56578339efa62e752">ClearMenus</a>();</div>
+<div class="line"><span class="lineno">   25</span>}</div>
+<div class="ttc" id="aclass_player_menu_html_a64e6ddbdb6e894f56578339efa62e752"><div class="ttname"><a href="../../d1/d29/class_player_menu.html#a64e6ddbdb6e894f56578339efa62e752">PlayerMenu::ClearMenus</a></div><div class="ttdeci">void ClearMenus()</div><div class="ttdef"><b>Definition:</b> GossipDef.cpp:186</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af8f7e54dac5ecc86e92d780c3918cb09" name="af8f7e54dac5ecc86e92d780c3918cb09"></a>
@@ -327,7 +345,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   57</span>{</div>
+<div class="line"><span class="lineno">   58</span>    player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#a1071f28b7138ecbd7e94d95175059ba1">SendCloseGossip</a>();</div>
+<div class="line"><span class="lineno">   59</span>}</div>
+<div class="ttc" id="aclass_player_menu_html_a1071f28b7138ecbd7e94d95175059ba1"><div class="ttname"><a href="../../d1/d29/class_player_menu.html#a1071f28b7138ecbd7e94d95175059ba1">PlayerMenu::SendCloseGossip</a></div><div class="ttdeci">void SendCloseGossip()</div><div class="ttdef"><b>Definition:</b> GossipDef.cpp:240</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad893abf2b09592b57715ef4a3222a2b3" name="ad893abf2b09592b57715ef4a3222a2b3"></a>
@@ -361,7 +383,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>
+<div class="line"><span class="lineno">   52</span>    <span class="keywordflow">if</span> (creature)</div>
+<div class="line"><span class="lineno">   53</span>        <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a>(player, npcTextID, creature-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">   54</span>}</div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_a18599cfc6649557de0d505ed4d4a0210"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a></div><div class="ttdeci">void SendGossipMenuFor(Player *player, uint32 npcTextID, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:45</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a18599cfc6649557de0d505ed4d4a0210" name="a18599cfc6649557de0d505ed4d4a0210"></a>
@@ -395,7 +422,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{</div>
+<div class="line"><span class="lineno">   47</span>    player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#a78a00a19e9e55fe5582dd70183b01e8b">SendGossipMenu</a>(npcTextID, guid);</div>
+<div class="line"><span class="lineno">   48</span>}</div>
+<div class="ttc" id="aclass_player_menu_html_a78a00a19e9e55fe5582dd70183b01e8b"><div class="ttname"><a href="../../d1/d29/class_player_menu.html#a78a00a19e9e55fe5582dd70183b01e8b">PlayerMenu::SendGossipMenu</a></div><div class="ttdeci">void SendGossipMenu(uint32 titleTextId, ObjectGuid objectGUID)</div><div class="ttdef"><b>Definition:</b> GossipDef.cpp:192</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -404,7 +435,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../dir_1f3214457037742cde290c7511bc5bd6.html">ScriptedAI</a></li><li class="navelem"><a class="el" href="../../d6/df2/_scripted_gossip_8cpp.html">ScriptedGossip.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

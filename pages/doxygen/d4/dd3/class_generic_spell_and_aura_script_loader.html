@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('d4/dd3/class_generic_spell_and_aura_sc
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">ScriptMgr.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for GenericSpellAndAuraScriptLoader&lt; Ts &gt;:</div>
 <div class="dyncontent">
@@ -180,7 +180,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename... Ts&gt;<br />
+class GenericSpellAndAuraScriptLoader&lt; Ts &gt;</div></div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a4ea4d3b165a196482ebe96af9c462658" name="a4ea4d3b165a196482ebe96af9c462658"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ea4d3b165a196482ebe96af9c462658">&#9670;&#160;</a></span>ArgsType</h2>
 
@@ -289,7 +291,10 @@ template&lt;typename... Ts&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2618</span>: <a class="code hl_class" href="../../d2/da0/class_spell_script_loader.html">SpellScriptLoader</a>(name), <a class="code hl_variable" href="../../d4/dd3/class_generic_spell_and_aura_script_loader.html#aad6527f64ede0d896880ffa90d05a378">_args</a>(std::move(args)) { }</div>
+<div class="ttc" id="aclass_generic_spell_and_aura_script_loader_html_aad6527f64ede0d896880ffa90d05a378"><div class="ttname"><a href="../../d4/dd3/class_generic_spell_and_aura_script_loader.html#aad6527f64ede0d896880ffa90d05a378">GenericSpellAndAuraScriptLoader::_args</a></div><div class="ttdeci">ArgsType _args</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2645</div></div>
+<div class="ttc" id="aclass_spell_script_loader_html"><div class="ttname"><a href="../../d2/da0/class_spell_script_loader.html">SpellScriptLoader</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:141</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -319,7 +324,17 @@ template&lt;typename... Ts&gt; </div>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/da0/class_spell_script_loader.html#a9c60850e39ffe3d151a128b12777859d">SpellScriptLoader</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2634</span>    {</div>
+<div class="line"><span class="lineno"> 2635</span>        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!std::is_same_v&lt;AuraScriptType, Acore::find_type_end&gt;)</div>
+<div class="line"><span class="lineno"> 2636</span>        {</div>
+<div class="line"><span class="lineno"> 2637</span>            <span class="keywordflow">return</span> Acore::new_from_tuple&lt;AuraScriptType&gt;(<a class="code hl_variable" href="../../d4/dd3/class_generic_spell_and_aura_script_loader.html#aad6527f64ede0d896880ffa90d05a378">_args</a>);</div>
+<div class="line"><span class="lineno"> 2638</span>        }</div>
+<div class="line"><span class="lineno"> 2639</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2640</span>        {</div>
+<div class="line"><span class="lineno"> 2641</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno"> 2642</span>        }</div>
+<div class="line"><span class="lineno"> 2643</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a913fa28d2a2cf100ce73cf641e333e01" name="a913fa28d2a2cf100ce73cf641e333e01"></a>
@@ -348,7 +363,17 @@ template&lt;typename... Ts&gt; </div>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/da0/class_spell_script_loader.html#a6f3a101a0517ba1440399809cf7f5b5b">SpellScriptLoader</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2622</span>    {</div>
+<div class="line"><span class="lineno"> 2623</span>        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (!std::is_same_v&lt;SpellScriptType, Acore::find_type_end&gt;)</div>
+<div class="line"><span class="lineno"> 2624</span>        {</div>
+<div class="line"><span class="lineno"> 2625</span>            <span class="keywordflow">return</span> Acore::new_from_tuple&lt;SpellScriptType&gt;(<a class="code hl_variable" href="../../d4/dd3/class_generic_spell_and_aura_script_loader.html#aad6527f64ede0d896880ffa90d05a378">_args</a>);</div>
+<div class="line"><span class="lineno"> 2626</span>        }</div>
+<div class="line"><span class="lineno"> 2627</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2628</span>        {</div>
+<div class="line"><span class="lineno"> 2629</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno"> 2630</span>        }</div>
+<div class="line"><span class="lineno"> 2631</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -377,7 +402,7 @@ template&lt;typename... Ts&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Scripting/<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a></li>
+<li><a class="el" href="../../">ScriptMgr.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -385,7 +410,7 @@ template&lt;typename... Ts&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/dd3/class_generic_spell_and_aura_script_loader.html">GenericSpellAndAuraScriptLoader</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

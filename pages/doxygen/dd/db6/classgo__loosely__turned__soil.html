@@ -189,7 +189,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3b4d51e2b3a604e030962127269236f1" name="a3b4d51e2b3a604e030962127269236f1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3b4d51e2b3a604e030962127269236f1">&#9670;&#160;</a></span>go_loosely_turned_soil()</h2>
 
@@ -212,7 +213,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1388</span>: <a class="code hl_class" href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a>(<span class="stringliteral">&quot;go_loosely_turned_soil&quot;</span>) { }</div>
+<div class="ttc" id="aclass_game_object_script_html"><div class="ttname"><a href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:758</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -241,7 +244,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#a05492473fa28c0f7c80770aa3445ce4e">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1418</span>    {</div>
+<div class="line"><span class="lineno"> 1419</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> go_loosely_turned_soilAI(go);</div>
+<div class="line"><span class="lineno"> 1420</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1ac57b34c5b3e21c033330eaeefaa6a8" name="a1ac57b34c5b3e21c033330eaeefaa6a8"></a>
@@ -291,11 +297,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#a233712ff412081583a8295cf512da48d">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1391</span>    {</div>
+<div class="line"><span class="lineno"> 1392</span>        <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d3/dec/hallows__end_8cpp.html#a30d4bfa88f3128cbf2103148eb02f20ca17744a5a7b9b550ff4be6d202f80ed8f">NPC_HEADLESS_HORSEMAN_MOUNTED</a>, 100.0f))</div>
+<div class="line"><span class="lineno"> 1393</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1394</span> </div>
+<div class="line"><span class="lineno"> 1395</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* horseman = go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_enumvalue" href="../../d3/dec/hallows__end_8cpp.html#a30d4bfa88f3128cbf2103148eb02f20ca17744a5a7b9b550ff4be6d202f80ed8f">NPC_HEADLESS_HORSEMAN_MOUNTED</a>, 1754.00f, 1346.00f, 17.50f, 0.0f, <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a">TEMPSUMMON_MANUAL_DESPAWN</a>, 0))</div>
+<div class="line"><span class="lineno"> 1396</span>            horseman-&gt;CastSpell(player, <a class="code hl_enumvalue" href="../../d3/dec/hallows__end_8cpp.html#a30d4bfa88f3128cbf2103148eb02f20ca6ace2e1f1dcb5ad05e9a8c0d5827d4f3">SPELL_SUMMONING_RHYME_TARGET</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1397</span> </div>
+<div class="line"><span class="lineno"> 1398</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1399</span>    }</div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a">TEMPSUMMON_MANUAL_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_MANUAL_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:49</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="aclass_world_object_html_aaf7058bd6b40bbfd38cbcd4f740c0344"><div class="ttname"><a href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">WorldObject::SummonCreature</a></div><div class="ttdeci">TempSummon * SummonCreature(uint32 id, const Position &amp;pos, TempSummonType spwtype=TEMPSUMMON_MANUAL_DESPAWN, uint32 despwtime=0, uint32 vehId=0, SummonPropertiesEntry const *properties=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2301</div></div>
+<div class="ttc" id="ahallows__end_8cpp_html_a30d4bfa88f3128cbf2103148eb02f20ca17744a5a7b9b550ff4be6d202f80ed8f"><div class="ttname"><a href="../../d3/dec/hallows__end_8cpp.html#a30d4bfa88f3128cbf2103148eb02f20ca17744a5a7b9b550ff4be6d202f80ed8f">NPC_HEADLESS_HORSEMAN_MOUNTED</a></div><div class="ttdeci">@ NPC_HEADLESS_HORSEMAN_MOUNTED</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:911</div></div>
+<div class="ttc" id="ahallows__end_8cpp_html_a30d4bfa88f3128cbf2103148eb02f20ca6ace2e1f1dcb5ad05e9a8c0d5827d4f3"><div class="ttname"><a href="../../d3/dec/hallows__end_8cpp.html#a30d4bfa88f3128cbf2103148eb02f20ca6ace2e1f1dcb5ad05e9a8c0d5827d4f3">SPELL_SUMMONING_RHYME_TARGET</a></div><div class="ttdeci">@ SPELL_SUMMONING_RHYME_TARGET</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:920</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../d3/dec/hallows__end_8cpp.html">hallows_end.cpp</a></li>
+<li><a class="el" href="../../">hallows_end.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -303,7 +324,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/db6/classgo__loosely__turned__soil.html">go_loosely_turned_soil</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -149,7 +149,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a7f5b4c41c459b65e30dea66f7459a7e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d26/struct_position.html">Position</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8a/class_frostwyrm_land_event.html#a7f5b4c41c459b65e30dea66f7459a7e9">_dest</a></td></tr>
 <tr class="separator:a7f5b4c41c459b65e30dea66f7459a7e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6b6a467c474a5b03be40e4d9a86eddc8" name="a6b6a467c474a5b03be40e4d9a86eddc8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6b6a467c474a5b03be40e4d9a86eddc8">&#9670;&#160;</a></span>FrostwyrmLandEvent()</h2>
 
@@ -183,7 +184,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  175</span>: <a class="code hl_variable" href="../../d4/d8a/class_frostwyrm_land_event.html#a6336050092606ebb27a180abff55dfa2">_owner</a>(owner), <a class="code hl_variable" href="../../d4/d8a/class_frostwyrm_land_event.html#a7f5b4c41c459b65e30dea66f7459a7e9">_dest</a>(dest) { }</div>
+<div class="ttc" id="aclass_frostwyrm_land_event_html_a6336050092606ebb27a180abff55dfa2"><div class="ttname"><a href="../../d4/d8a/class_frostwyrm_land_event.html#a6336050092606ebb27a180abff55dfa2">FrostwyrmLandEvent::_owner</a></div><div class="ttdeci">Creature &amp; _owner</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:184</div></div>
+<div class="ttc" id="aclass_frostwyrm_land_event_html_a7f5b4c41c459b65e30dea66f7459a7e9"><div class="ttname"><a href="../../d4/d8a/class_frostwyrm_land_event.html#a7f5b4c41c459b65e30dea66f7459a7e9">FrostwyrmLandEvent::_dest</a></div><div class="ttdeci">Position const  &amp; _dest</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:185</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -222,7 +226,14 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  178</span>    {</div>
+<div class="line"><span class="lineno">  179</span>        <a class="code hl_variable" href="../../d4/d8a/class_frostwyrm_land_event.html#a6336050092606ebb27a180abff55dfa2">_owner</a>.<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#aafe3a2f555b597f7904269a640c9dfd1">MoveLand</a>(<a class="code hl_enumvalue" href="../../de/de5/boss__sindragosa_8cpp.html#a9858e93f7add1600046aa49088cbebd5a0930e81ee0cdfdd929154ab1493abb60">POINT_FROSTWYRM_LAND</a>, <a class="code hl_variable" href="../../d4/d8a/class_frostwyrm_land_event.html#a7f5b4c41c459b65e30dea66f7459a7e9">_dest</a>, 8.5f);</div>
+<div class="line"><span class="lineno">  180</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  181</span>    }</div>
+<div class="ttc" id="aboss__sindragosa_8cpp_html_a9858e93f7add1600046aa49088cbebd5a0930e81ee0cdfdd929154ab1493abb60"><div class="ttname"><a href="../../de/de5/boss__sindragosa_8cpp.html#a9858e93f7add1600046aa49088cbebd5a0930e81ee0cdfdd929154ab1493abb60">POINT_FROSTWYRM_LAND</a></div><div class="ttdeci">@ POINT_FROSTWYRM_LAND</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:153</div></div>
+<div class="ttc" id="aclass_motion_master_html_aafe3a2f555b597f7904269a640c9dfd1"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#aafe3a2f555b597f7904269a640c9dfd1">MotionMaster::MoveLand</a></div><div class="ttdeci">void MoveLand(uint32 id, Position const &amp;pos, float speed=0.0f)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:425</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -271,7 +282,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../de/de5/boss__sindragosa_8cpp.html">boss_sindragosa.cpp</a></li>
+<li><a class="el" href="../../">boss_sindragosa.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -279,7 +290,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d8a/class_frostwyrm_land_event.html">FrostwyrmLandEvent</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

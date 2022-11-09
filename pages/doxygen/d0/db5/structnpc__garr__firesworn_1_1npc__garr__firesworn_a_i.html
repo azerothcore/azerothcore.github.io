@@ -479,7 +479,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af2454b2ddf93102378ebf9780d260e56" name="af2454b2ddf93102378ebf9780d260e56"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af2454b2ddf93102378ebf9780d260e56">&#9670;&#160;</a></span>npc_garr_fireswornAI()</h2>
 
@@ -503,7 +504,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  151</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) {}</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -554,11 +557,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  154</span>        {</div>
+<div class="line"><span class="lineno">  155</span>            <span class="keywordflow">if</span> (damage &gt;= <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a958172d6051b106e3b3c776e4f9f3952">GetHealth</a>())</div>
+<div class="line"><span class="lineno">  156</span>            {</div>
+<div class="line"><span class="lineno">  157</span>                <span class="comment">// Prevent double damage because Firesworn can kill himself with Massive Erruption</span></div>
+<div class="line"><span class="lineno">  158</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a> != attacker)</div>
+<div class="line"><span class="lineno">  159</span>                {</div>
+<div class="line"><span class="lineno">  160</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d6/ddb/boss__garr_8cpp.html#a5bd342133be8c2137b831460acc9298cad3aa09e162c24d71e623d266ac02a9e7">SPELL_ERUPTION</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  161</span>                }</div>
+<div class="line"><span class="lineno">  162</span> </div>
+<div class="line"><span class="lineno">  163</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../d6/ddb/boss__garr_8cpp.html#a5bd342133be8c2137b831460acc9298cad859da10fe6e79841a373d060ec863fe">SPELL_ENRAGE_TRIGGER</a>);</div>
+<div class="line"><span class="lineno">  164</span>            }</div>
+<div class="line"><span class="lineno">  165</span>        }</div>
+<div class="ttc" id="aboss__garr_8cpp_html_a5bd342133be8c2137b831460acc9298cad3aa09e162c24d71e623d266ac02a9e7"><div class="ttname"><a href="../../d6/ddb/boss__garr_8cpp.html#a5bd342133be8c2137b831460acc9298cad3aa09e162c24d71e623d266ac02a9e7">SPELL_ERUPTION</a></div><div class="ttdeci">@ SPELL_ERUPTION</div><div class="ttdef"><b>Definition:</b> boss_garr.cpp:42</div></div>
+<div class="ttc" id="aboss__garr_8cpp_html_a5bd342133be8c2137b831460acc9298cad859da10fe6e79841a373d060ec863fe"><div class="ttname"><a href="../../d6/ddb/boss__garr_8cpp.html#a5bd342133be8c2137b831460acc9298cad859da10fe6e79841a373d060ec863fe">SPELL_ENRAGE_TRIGGER</a></div><div class="ttdeci">@ SPELL_ENRAGE_TRIGGER</div><div class="ttdef"><b>Definition:</b> boss_garr.cpp:45</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a1e37cbb75f91c247b04131afc7ce35f5"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">UnitAI::DoCastAOE</a></div><div class="ttdeci">SpellCastResult DoCastAOE(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:249</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6ae5c7d15b747433f4d94f80bcebd215"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">UnitAI::DoCastSelf</a></div><div class="ttdeci">SpellCastResult DoCastSelf(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:323</div></div>
+<div class="ttc" id="aclass_unit_html_a958172d6051b106e3b3c776e4f9f3952"><div class="ttname"><a href="../../da/db7/class_unit.html#a958172d6051b106e3b3c776e4f9f3952">Unit::GetHealth</a></div><div class="ttdeci">uint32 GetHealth() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1438</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/<a class="el" href="../../d6/ddb/boss__garr_8cpp.html">boss_garr.cpp</a></li>
+<li><a class="el" href="../../">boss_garr.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -566,7 +587,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/dec/classnpc__garr__firesworn.html">npc_garr_firesworn</a></li><li class="navelem"><a class="el" href="../../d0/db5/structnpc__garr__firesworn_1_1npc__garr__firesworn_a_i.html">npc_garr_fireswornAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

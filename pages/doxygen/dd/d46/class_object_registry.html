@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('dd/d46/class_object_registry.html','..
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/dab/_object_registry_8h_source.html">ObjectRegistry.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">ObjectRegistry.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -200,7 +200,8 @@ template&lt;class T , class Key  = std::string&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   84</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2734a0e6001f597b43e006bc9d84a6b1" name="a2734a0e6001f597b43e006bc9d84a6b1"></a>
@@ -227,7 +228,8 @@ template&lt;class T , class Key  = std::string&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   85</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -257,7 +259,11 @@ template&lt;class T , class Key  = std::string&gt; </div>
 </div><div class="memdoc">
 
 <p>Return the map of registered items. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   76</span>    {</div>
+<div class="line"><span class="lineno">   77</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/d46/class_object_registry.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>;</div>
+<div class="line"><span class="lineno">   78</span>    }</div>
+<div class="ttc" id="aclass_object_registry_html_a61e6a6eb75512241e82092abfeba7a65"><div class="ttname"><a href="../../dd/d46/class_object_registry.html#a61e6a6eb75512241e82092abfeba7a65">ObjectRegistry::_registeredObjects</a></div><div class="ttdeci">RegistryMapType _registeredObjects</div><div class="ttdef"><b>Definition:</b> ObjectRegistry.h:81</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a474bdff0ab0f0a3db5f914b9dfaa48d1" name="a474bdff0ab0f0a3db5f914b9dfaa48d1"></a>
@@ -287,7 +293,13 @@ template&lt;class T , class Key  = std::string&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns a registry item. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   38</span>    {</div>
+<div class="line"><span class="lineno">   39</span>        <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../dd/d46/class_object_registry.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>.find(key);</div>
+<div class="line"><span class="lineno">   40</span>        <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../dd/d46/class_object_registry.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>.end())</div>
+<div class="line"><span class="lineno">   41</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   42</span>        <span class="keywordflow">return</span> itr-&gt;second.get();</div>
+<div class="line"><span class="lineno">   43</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3c95897734a780c1f299d24a058b3595" name="a3c95897734a780c1f299d24a058b3595"></a>
@@ -317,7 +329,10 @@ template&lt;class T , class Key  = std::string&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns true if registry contains an item. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   70</span>    {</div>
+<div class="line"><span class="lineno">   71</span>        <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../dd/d46/class_object_registry.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>.count(key) &gt; 0);</div>
+<div class="line"><span class="lineno">   72</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a55416824a5dff4138f5d828e352e3d7c" name="a55416824a5dff4138f5d828e352e3d7c"></a>
@@ -363,7 +378,21 @@ template&lt;class T , class Key  = std::string&gt; </div>
 </div><div class="memdoc">
 
 <p>Inserts a registry item. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   53</span>    {</div>
+<div class="line"><span class="lineno">   54</span>        <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../dd/d46/class_object_registry.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>.find(key);</div>
+<div class="line"><span class="lineno">   55</span>        <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../dd/d46/class_object_registry.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>.end())</div>
+<div class="line"><span class="lineno">   56</span>        {</div>
+<div class="line"><span class="lineno">   57</span>            <span class="keywordflow">if</span> (!force)</div>
+<div class="line"><span class="lineno">   58</span>            {</div>
+<div class="line"><span class="lineno">   59</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   60</span>            }</div>
+<div class="line"><span class="lineno">   61</span>            <a class="code hl_variable" href="../../dd/d46/class_object_registry.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>.erase(itr);</div>
+<div class="line"><span class="lineno">   62</span>        }</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>        <a class="code hl_variable" href="../../dd/d46/class_object_registry.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>.emplace(std::piecewise_construct, std::forward_as_tuple(key), std::forward_as_tuple(obj));</div>
+<div class="line"><span class="lineno">   65</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   66</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7a6582a84361d5ad1142f29c9e1d9cb5" name="a7a6582a84361d5ad1142f29c9e1d9cb5"></a>
@@ -390,7 +419,13 @@ template&lt;class T , class Key  = std::string&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   46</span>    {</div>
+<div class="line"><span class="lineno">   47</span>        <span class="keyword">static</span> <a class="code hl_class" href="../../dd/d46/class_object_registry.html">ObjectRegistry&lt;T, Key&gt;</a>* <a class="code hl_function" href="../../dd/d46/class_object_registry.html#a7a6582a84361d5ad1142f29c9e1d9cb5">instance</a> = <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d46/class_object_registry.html">ObjectRegistry&lt;T, Key&gt;</a>();</div>
+<div class="line"><span class="lineno">   48</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../dd/d46/class_object_registry.html#a7a6582a84361d5ad1142f29c9e1d9cb5">instance</a>;</div>
+<div class="line"><span class="lineno">   49</span>    }</div>
+<div class="ttc" id="aclass_object_registry_html"><div class="ttname"><a href="../../dd/d46/class_object_registry.html">ObjectRegistry</a></div><div class="ttdef"><b>Definition:</b> ObjectRegistry.h:32</div></div>
+<div class="ttc" id="aclass_object_registry_html_a7a6582a84361d5ad1142f29c9e1d9cb5"><div class="ttname"><a href="../../dd/d46/class_object_registry.html#a7a6582a84361d5ad1142f29c9e1d9cb5">ObjectRegistry::instance</a></div><div class="ttdeci">static ObjectRegistry&lt; T, Key &gt; * instance()</div><div class="ttdef"><b>Definition:</b> ObjectRegistry.h:45</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -419,7 +454,7 @@ template&lt;class T , class Key  = std::string&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Dynamic/<a class="el" href="../../d1/dab/_object_registry_8h_source.html">ObjectRegistry.h</a></li>
+<li><a class="el" href="../../">ObjectRegistry.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -427,7 +462,7 @@ template&lt;class T , class Key  = std::string&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d46/class_object_registry.html">ObjectRegistry</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

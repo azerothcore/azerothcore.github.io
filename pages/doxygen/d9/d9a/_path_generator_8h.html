@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/Movement/MovementGenerators/PathGenerator.h File Reference</title>
+<title>AzeorthCore: PathGenerator.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -114,14 +114,14 @@ $(document).ready(function(){initNavTree('d9/d9a/_path_generator_8h.html','../..
 <div class="contents">
 <div class="textblock"><code>#include &quot;DetourNavMesh.h&quot;</code><br />
 <code>#include &quot;DetourNavMeshQuery.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d9f/_m_map_factory_8h_source.html">MMapFactory.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d17/_m_map_mgr_8h_source.html">MMapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d17/_map_defines_8h_source.html">MapDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d8d/_move_spline_init_args_8h_source.html">MoveSplineInitArgs.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d0b/_shared_defines_8h_source.html">SharedDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MMapFactory.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MMapMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MoveSplineInitArgs.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
 <code>#include &lt;G3D/Vector3.h&gt;</code><br />
 </div>
-<p><a href="../../d9/d9a/_path_generator_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -294,7 +294,29 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9" name="ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9"></a>PATHFIND_FARFROMPOLY_END&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c" name="ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c"></a>PATHFIND_FARFROMPOLY&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0">PATHFIND_BLANK</a>             = 0x00,   <span class="comment">// path not built yet</span></div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1">PATHFIND_NORMAL</a>            = 0x01,   <span class="comment">// normal path</span></div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f">PATHFIND_SHORTCUT</a>          = 0x02,   <span class="comment">// travel through obstacles, terrain, air, etc (old behavior)</span></div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be">PATHFIND_INCOMPLETE</a>        = 0x04,   <span class="comment">// we have partial path to follow - getting closer to target</span></div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984">PATHFIND_NOPATH</a>            = 0x08,   <span class="comment">// no valid path at all or error in generating one</span></div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf">PATHFIND_NOT_USING_PATH</a>    = 0x10,   <span class="comment">// used when we are either flying/swiming or on map w/o mmaps</span></div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2">PATHFIND_SHORT</a>             = 0x20,   <span class="comment">// path is longer or equal to its limited path length</span></div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab">PATHFIND_FARFROMPOLY_START</a> = 0x40,   <span class="comment">// start position is far from the mmap poligon</span></div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9">PATHFIND_FARFROMPOLY_END</a>   = 0x80,   <span class="comment">// end positions is far from the mmap poligon</span></div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c">PATHFIND_FARFROMPOLY</a>       = <a class="code hl_enumvalue" href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab">PATHFIND_FARFROMPOLY_START</a> | <a class="code hl_enumvalue" href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9">PATHFIND_FARFROMPOLY_END</a>, <span class="comment">// start or end positions are far from the mmap poligon</span></div>
+<div class="line"><span class="lineno">   57</span>};</div>
+<div class="ttc" id="a_path_generator_8h_html_ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9"><div class="ttname"><a href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9">PATHFIND_FARFROMPOLY_END</a></div><div class="ttdeci">@ PATHFIND_FARFROMPOLY_END</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:55</div></div>
+<div class="ttc" id="a_path_generator_8h_html_ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf"><div class="ttname"><a href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf">PATHFIND_NOT_USING_PATH</a></div><div class="ttdeci">@ PATHFIND_NOT_USING_PATH</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:52</div></div>
+<div class="ttc" id="a_path_generator_8h_html_ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1"><div class="ttname"><a href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1">PATHFIND_NORMAL</a></div><div class="ttdeci">@ PATHFIND_NORMAL</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:48</div></div>
+<div class="ttc" id="a_path_generator_8h_html_ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984"><div class="ttname"><a href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984">PATHFIND_NOPATH</a></div><div class="ttdeci">@ PATHFIND_NOPATH</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:51</div></div>
+<div class="ttc" id="a_path_generator_8h_html_ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab"><div class="ttname"><a href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab">PATHFIND_FARFROMPOLY_START</a></div><div class="ttdeci">@ PATHFIND_FARFROMPOLY_START</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:54</div></div>
+<div class="ttc" id="a_path_generator_8h_html_ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c"><div class="ttname"><a href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c">PATHFIND_FARFROMPOLY</a></div><div class="ttdeci">@ PATHFIND_FARFROMPOLY</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:56</div></div>
+<div class="ttc" id="a_path_generator_8h_html_ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2"><div class="ttname"><a href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2">PATHFIND_SHORT</a></div><div class="ttdeci">@ PATHFIND_SHORT</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:53</div></div>
+<div class="ttc" id="a_path_generator_8h_html_ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f"><div class="ttname"><a href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f">PATHFIND_SHORTCUT</a></div><div class="ttdeci">@ PATHFIND_SHORTCUT</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:49</div></div>
+<div class="ttc" id="a_path_generator_8h_html_ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0"><div class="ttname"><a href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0">PATHFIND_BLANK</a></div><div class="ttdeci">@ PATHFIND_BLANK</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:47</div></div>
+<div class="ttc" id="a_path_generator_8h_html_ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be"><div class="ttname"><a href="../../d9/d9a/_path_generator_8h.html#ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be">PATHFIND_INCOMPLETE</a></div><div class="ttdeci">@ PATHFIND_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -303,7 +325,7 @@ Enumerations</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0787b0a4fdc11b0654465feaa92c32a3.html">Movement</a></li><li class="navelem"><a class="el" href="../../dir_5b912817ccf0063e74cbee75ff3a7169.html">MovementGenerators</a></li><li class="navelem"><a class="el" href="../../d9/d9a/_path_generator_8h.html">PathGenerator.h</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

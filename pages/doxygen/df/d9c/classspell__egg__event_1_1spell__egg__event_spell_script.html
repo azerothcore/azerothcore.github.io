@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4e441fbea62570614c8823afe5906d05" name="a4e441fbea62570614c8823afe5906d05"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e441fbea62570614c8823afe5906d05">&#9670;&#160;</a></span>HandleOnHit()</h2>
 
@@ -315,7 +316,34 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  299</span>        {</div>
+<div class="line"><span class="lineno">  300</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;GetInstanceScript())</div>
+<div class="line"><span class="lineno">  301</span>            {</div>
+<div class="line"><span class="lineno">  302</span>                instance-&gt;SetData(<a class="code hl_enumvalue" href="../../d8/d83/blackwing__lair_8h.html#a1adac81d8f2075505fecfde91953080fa2ab992d07fdd3a99a150abb72fdb074b">DATA_EGG_EVENT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694aaa5259d84d06214a7b0503d636790465">SPECIAL</a>);</div>
+<div class="line"><span class="lineno">  303</span>            }</div>
+<div class="line"><span class="lineno">  304</span> </div>
+<div class="line"><span class="lineno">  305</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* razorgore = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;ToCreature())</div>
+<div class="line"><span class="lineno">  306</span>            {</div>
+<div class="line"><span class="lineno">  307</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* egg = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a96ba2eed3fb3e3c62b3d68f3676a7062">GetHitGObj</a>())</div>
+<div class="line"><span class="lineno">  308</span>                {</div>
+<div class="line"><span class="lineno">  309</span>                    razorgore-&gt;AI()-&gt;DoAction(<a class="code hl_enumvalue" href="../../d8/d83/blackwing__lair_8h.html#a1adac81d8f2075505fecfde91953080fa0217d8a93a7104be8fe4dbf972c7393f">TALK_EGG_BROKEN_RAND</a>);</div>
+<div class="line"><span class="lineno">  310</span>                    egg-&gt;SetLootState(<a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07a8708de424ecaae41eb7271d399f1d5fc">GO_READY</a>);</div>
+<div class="line"><span class="lineno">  311</span>                    egg-&gt;UseDoorOrButton(10000);</div>
+<div class="line"><span class="lineno">  312</span>                    egg-&gt;SetRespawnTime(<a class="code hl_variable" href="../../db/d1f/_common_8h.html#a688431b3f57feed4c5408d11114cdf1a">WEEK</a>);</div>
+<div class="line"><span class="lineno">  313</span>                }</div>
+<div class="line"><span class="lineno">  314</span>            }</div>
+<div class="line"><span class="lineno">  315</span>        }</div>
+<div class="ttc" id="a_common_8h_html_a688431b3f57feed4c5408d11114cdf1a"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a688431b3f57feed4c5408d11114cdf1a">WEEK</a></div><div class="ttdeci">constexpr auto WEEK</div><div class="ttdef"><b>Definition:</b> Common.h:59</div></div>
+<div class="ttc" id="a_game_object_8h_html_a08733f20cea1f77cc9f1a549f8ce9f07a8708de424ecaae41eb7271d399f1d5fc"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07a8708de424ecaae41eb7271d399f1d5fc">GO_READY</a></div><div class="ttdeci">@ GO_READY</div><div class="ttdef"><b>Definition:</b> GameObject.h:801</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694aaa5259d84d06214a7b0503d636790465"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694aaa5259d84d06214a7b0503d636790465">SPECIAL</a></div><div class="ttdeci">@ SPECIAL</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:60</div></div>
+<div class="ttc" id="ablackwing__lair_8h_html_a1adac81d8f2075505fecfde91953080fa0217d8a93a7104be8fe4dbf972c7393f"><div class="ttname"><a href="../../d8/d83/blackwing__lair_8h.html#a1adac81d8f2075505fecfde91953080fa0217d8a93a7104be8fe4dbf972c7393f">TALK_EGG_BROKEN_RAND</a></div><div class="ttdeci">@ TALK_EGG_BROKEN_RAND</div><div class="ttdef"><b>Definition:</b> blackwing_lair.h:113</div></div>
+<div class="ttc" id="ablackwing__lair_8h_html_a1adac81d8f2075505fecfde91953080fa2ab992d07fdd3a99a150abb72fdb074b"><div class="ttname"><a href="../../d8/d83/blackwing__lair_8h.html#a1adac81d8f2075505fecfde91953080fa2ab992d07fdd3a99a150abb72fdb074b">DATA_EGG_EVENT</a></div><div class="ttdeci">@ DATA_EGG_EVENT</div><div class="ttdef"><b>Definition:</b> blackwing_lair.h:112</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_spell_script_html_a96ba2eed3fb3e3c62b3d68f3676a7062"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a96ba2eed3fb3e3c62b3d68f3676a7062">SpellScript::GetHitGObj</a></div><div class="ttdeci">GameObject * GetHitGObj()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:494</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af55d493c722026e3ab56b84d94a7babf" name="af55d493c722026e3ab56b84d94a7babf"></a>
@@ -368,11 +396,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  318</span>        {</div>
+<div class="line"><span class="lineno">  319</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a4ad6c271f820ea8f949e286512912d52">OnHit</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a>(<a class="code hl_function" href="../../df/d9c/classspell__egg__event_1_1spell__egg__event_spell_script.html#a4e441fbea62570614c8823afe5906d05">spell_egg_eventSpellScript::HandleOnHit</a>);</div>
+<div class="line"><span class="lineno">  320</span>        }</div>
+<div class="ttc" id="a_spell_script_8h_html_ad33ae6ff74ef32eb5ec79707ff0ab5b1"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a></div><div class="ttdeci">#define SpellHitFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:349</div></div>
+<div class="ttc" id="aclass_spell_script_html_a4ad6c271f820ea8f949e286512912d52"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a4ad6c271f820ea8f949e286512912d52">SpellScript::OnHit</a></div><div class="ttdeci">HookList&lt; HitHandler &gt; OnHit</div><div class="ttdef"><b>Definition:</b> SpellScript.h:345</div></div>
+<div class="ttc" id="aclassspell__egg__event_1_1spell__egg__event_spell_script_html_a4e441fbea62570614c8823afe5906d05"><div class="ttname"><a href="../../df/d9c/classspell__egg__event_1_1spell__egg__event_spell_script.html#a4e441fbea62570614c8823afe5906d05">spell_egg_event::spell_egg_eventSpellScript::HandleOnHit</a></div><div class="ttdeci">void HandleOnHit()</div><div class="ttdef"><b>Definition:</b> boss_razorgore.cpp:298</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/BlackwingLair/<a class="el" href="../../d4/df6/boss__razorgore_8cpp.html">boss_razorgore.cpp</a></li>
+<li><a class="el" href="../../">boss_razorgore.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -380,7 +414,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d7f/classspell__egg__event.html">spell_egg_event</a></li><li class="navelem"><a class="el" href="../../df/d9c/classspell__egg__event_1_1spell__egg__event_spell_script.html">spell_egg_eventSpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:17 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d8/df7/class___spell_script_1_1_effect
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">SpellScript.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for _SpellScript::EffectAuraNameCheck:</div>
 <div class="dyncontent">
@@ -148,7 +148,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:abcf90ed5a832b5fe5ce3913a812da05d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df7/class___spell_script_1_1_effect_aura_name_check.html#abcf90ed5a832b5fe5ce3913a812da05d">effAurName</a></td></tr>
 <tr class="separator:abcf90ed5a832b5fe5ce3913a812da05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4b10ec0fcb3ffd841cf790574875017d" name="a4b10ec0fcb3ffd841cf790574875017d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b10ec0fcb3ffd841cf790574875017d">&#9670;&#160;</a></span>EffectAuraNameCheck()</h2>
 
@@ -172,7 +173,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   98</span>{ <a class="code hl_variable" href="../../d8/df7/class___spell_script_1_1_effect_aura_name_check.html#abcf90ed5a832b5fe5ce3913a812da05d">effAurName</a> = _effAurName; }</div>
+<div class="ttc" id="aclass___spell_script_1_1_effect_aura_name_check_html_abcf90ed5a832b5fe5ce3913a812da05d"><div class="ttname"><a href="../../d8/df7/class___spell_script_1_1_effect_aura_name_check.html#abcf90ed5a832b5fe5ce3913a812da05d">_SpellScript::EffectAuraNameCheck::effAurName</a></div><div class="ttdeci">uint16 effAurName</div><div class="ttdef"><b>Definition:</b> SpellScript.h:102</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -201,7 +204,15 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  145</span>{</div>
+<div class="line"><span class="lineno">  146</span>    <span class="keywordflow">if</span> (!spellEntry-&gt;Effects[effIndex].ApplyAuraName &amp;&amp; !<a class="code hl_variable" href="../../d8/df7/class___spell_script_1_1_effect_aura_name_check.html#abcf90ed5a832b5fe5ce3913a812da05d">effAurName</a>)</div>
+<div class="line"><span class="lineno">  147</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  148</span>    <span class="keywordflow">if</span> (!spellEntry-&gt;Effects[effIndex].ApplyAuraName)</div>
+<div class="line"><span class="lineno">  149</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  150</span>    <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d8/df7/class___spell_script_1_1_effect_aura_name_check.html#abcf90ed5a832b5fe5ce3913a812da05d">effAurName</a> == <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#adc2aca3aa7cbad44c23b542d6bc0162a">SPELL_AURA_ANY</a>) || (spellEntry-&gt;Effects[effIndex].ApplyAuraName == <a class="code hl_variable" href="../../d8/df7/class___spell_script_1_1_effect_aura_name_check.html#abcf90ed5a832b5fe5ce3913a812da05d">effAurName</a>);</div>
+<div class="line"><span class="lineno">  151</span>}</div>
+<div class="ttc" id="a_spell_script_8h_html_adc2aca3aa7cbad44c23b542d6bc0162a"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#adc2aca3aa7cbad44c23b542d6bc0162a">SPELL_AURA_ANY</a></div><div class="ttdeci">#define SPELL_AURA_ANY</div><div class="ttdef"><b>Definition:</b> SpellScript.h:43</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a602fc1ddafe663e2e5ddceaeaec8b118" name="a602fc1ddafe663e2e5ddceaeaec8b118"></a>
@@ -218,7 +229,18 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  154</span>{</div>
+<div class="line"><span class="lineno">  155</span>    <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d8/df7/class___spell_script_1_1_effect_aura_name_check.html#abcf90ed5a832b5fe5ce3913a812da05d">effAurName</a>)</div>
+<div class="line"><span class="lineno">  156</span>    {</div>
+<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">case</span> <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#adc2aca3aa7cbad44c23b542d6bc0162a">SPELL_AURA_ANY</a>:</div>
+<div class="line"><span class="lineno">  158</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;SPELL_AURA_ANY&quot;</span>;</div>
+<div class="line"><span class="lineno">  159</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  160</span>            <span class="keywordtype">char</span> num[10];</div>
+<div class="line"><span class="lineno">  161</span>            sprintf (num, <span class="stringliteral">&quot;%u&quot;</span>, <a class="code hl_variable" href="../../d8/df7/class___spell_script_1_1_effect_aura_name_check.html#abcf90ed5a832b5fe5ce3913a812da05d">effAurName</a>);</div>
+<div class="line"><span class="lineno">  162</span>            <span class="keywordflow">return</span> num;</div>
+<div class="line"><span class="lineno">  163</span>    }</div>
+<div class="line"><span class="lineno">  164</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -245,8 +267,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/<a class="el" href="../../d8/db9/_spell_script_8cpp.html">SpellScript.cpp</a></li>
+<li><a class="el" href="../../">SpellScript.h</a></li>
+<li><a class="el" href="../../">SpellScript.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -254,7 +276,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d13/class___spell_script.html">_SpellScript</a></li><li class="navelem"><a class="el" href="../../d8/df7/class___spell_script_1_1_effect_aura_name_check.html">EffectAuraNameCheck</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:36 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

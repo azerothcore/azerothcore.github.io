@@ -497,7 +497,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac0606677b434b15dcbf17c9c4b2467a4" name="ac0606677b434b15dcbf17c9c4b2467a4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac0606677b434b15dcbf17c9c4b2467a4">&#9670;&#160;</a></span>npc_dream_fogAI()</h2>
 
@@ -521,7 +522,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  187</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -547,7 +550,22 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  237</span>        {</div>
+<div class="line"><span class="lineno">  238</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* dragon = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html#a90deaf0fab9f0ed64c806c22c200ba08">_dragonGUID</a>))</div>
+<div class="line"><span class="lineno">  239</span>            {</div>
+<div class="line"><span class="lineno">  240</span>                <span class="keywordflow">if</span> (dragon-&gt;GetAI())</div>
+<div class="line"><span class="lineno">  241</span>                {</div>
+<div class="line"><span class="lineno">  242</span>                    <span class="keywordflow">return</span> dragon-&gt;GetAI()-&gt;SelectTarget(SelectTargetMethod::Random, 0, 0.0f, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  243</span>                }</div>
+<div class="line"><span class="lineno">  244</span>            }</div>
+<div class="line"><span class="lineno">  245</span> </div>
+<div class="line"><span class="lineno">  246</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  247</span>        }</div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__dream__fog_1_1npc__dream__fog_a_i_html_a90deaf0fab9f0ed64c806c22c200ba08"><div class="ttname"><a href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html#a90deaf0fab9f0ed64c806c22c200ba08">npc_dream_fog::npc_dream_fogAI::_dragonGUID</a></div><div class="ttdeci">ObjectGuid _dragonGUID</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:259</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a595eeeae54d4bf323287fc408f706ac6" name="a595eeeae54d4bf323287fc408f706ac6"></a>
@@ -574,7 +592,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  190</span>        {</div>
+<div class="line"><span class="lineno">  191</span>            <a class="code hl_function" href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html#a6025e98731e8eb3e4450eb6ea7747d5f">ScheduleEvents</a>();</div>
+<div class="line"><span class="lineno">  192</span>        }</div>
+<div class="ttc" id="astructnpc__dream__fog_1_1npc__dream__fog_a_i_html_a6025e98731e8eb3e4450eb6ea7747d5f"><div class="ttname"><a href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html#a6025e98731e8eb3e4450eb6ea7747d5f">npc_dream_fog::npc_dream_fogAI::ScheduleEvents</a></div><div class="ttdeci">void ScheduleEvents()</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:194</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6025e98731e8eb3e4450eb6ea7747d5f" name="a6025e98731e8eb3e4450eb6ea7747d5f"></a>
@@ -599,7 +621,44 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  195</span>        {</div>
+<div class="line"><span class="lineno">  196</span>            <a class="code hl_variable" href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html#a0076affc559d4999e44a4be3e131062a">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">CancelAll</a>();</div>
+<div class="line"><span class="lineno">  197</span> </div>
+<div class="line"><span class="lineno">  198</span>            <a class="code hl_variable" href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html#a0076affc559d4999e44a4be3e131062a">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(1s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  199</span>            {</div>
+<div class="line"><span class="lineno">  200</span>                <span class="comment">// Chase target, but don&#39;t attack - otherwise just roam around</span></div>
+<div class="line"><span class="lineno">  201</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* chaseTarget = <a class="code hl_function" href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html#aa9ea076cdef0b1a0b21b18e42bf777c3">GetRandomUnitFromDragonThreatList</a>())</div>
+<div class="line"><span class="lineno">  202</span>                {</div>
+<div class="line"><span class="lineno">  203</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;Clear();</div>
+<div class="line"><span class="lineno">  204</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;MoveFollow(chaseTarget, 0.02f, 0.0f);</div>
+<div class="line"><span class="lineno">  205</span>                    <a class="code hl_variable" href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html#a44138ecd6ae6f07a624e26d82b0aa286">_targetGUID</a> = chaseTarget-&gt;GetGUID();</div>
+<div class="line"><span class="lineno">  206</span>                    context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(15s, 30s);</div>
+<div class="line"><span class="lineno">  207</span>                }</div>
+<div class="line"><span class="lineno">  208</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  209</span>                {</div>
+<div class="line"><span class="lineno">  210</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;Clear();</div>
+<div class="line"><span class="lineno">  211</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;MoveRandom(25.0f);</div>
+<div class="line"><span class="lineno">  212</span>                    context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(2500ms);</div>
+<div class="line"><span class="lineno">  213</span>                }</div>
+<div class="line"><span class="lineno">  214</span> </div>
+<div class="line"><span class="lineno">  215</span>                <span class="comment">// Seeping fog movement is slow enough for a player to be able to walk backwards and still outpace it</span></div>
+<div class="line"><span class="lineno">  216</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">SetWalk</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  217</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab30ea03b94379b25f1d75ea879b4a61c">SetSpeed</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#af91f7580a89722b7dc45a018bb46fce4af13a74f1c064b7481beaace4e25531f1">MOVE_WALK</a>, 0.75f);</div>
+<div class="line"><span class="lineno">  218</span>            });</div>
+<div class="line"><span class="lineno">  219</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_af91f7580a89722b7dc45a018bb46fce4af13a74f1c064b7481beaace4e25531f1"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#af91f7580a89722b7dc45a018bb46fce4af13a74f1c064b7481beaace4e25531f1">MOVE_WALK</a></div><div class="ttdeci">@ MOVE_WALK</div><div class="ttdef"><b>Definition:</b> Unit.h:378</div></div>
+<div class="ttc" id="aclass_creature_html_acb4a26180cdcb2266736f6aea4a695d8"><div class="ttname"><a href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">Creature::SetWalk</a></div><div class="ttdeci">bool SetWalk(bool enable) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3053</div></div>
+<div class="ttc" id="aclass_task_context_html"><div class="ttname"><a href="../../d2/dd9/class_task_context.html">TaskContext</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
+<div class="ttc" id="aclass_task_context_html_a380c596857dd0030414db5e8d28a3dda"><div class="ttname"><a href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">TaskContext::Repeat</a></div><div class="ttdeci">TaskContext &amp; Repeat(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:470</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a05da7a474b80d725c991dde9d24df4a4"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">TaskScheduler::CancelAll</a></div><div class="ttdeci">TaskScheduler &amp; CancelAll()</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:33</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a0e0579d2a2397de5a79c756d5e59a830"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">TaskScheduler::Schedule</a></div><div class="ttdeci">TaskScheduler &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:217</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_ab30ea03b94379b25f1d75ea879b4a61c"><div class="ttname"><a href="../../da/db7/class_unit.html#ab30ea03b94379b25f1d75ea879b4a61c">Unit::SetSpeed</a></div><div class="ttdeci">void SetSpeed(UnitMoveType mtype, float rate, bool forced=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14301</div></div>
+<div class="ttc" id="astructnpc__dream__fog_1_1npc__dream__fog_a_i_html_a0076affc559d4999e44a4be3e131062a"><div class="ttname"><a href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html#a0076affc559d4999e44a4be3e131062a">npc_dream_fog::npc_dream_fogAI::_scheduler</a></div><div class="ttdeci">TaskScheduler _scheduler</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:260</div></div>
+<div class="ttc" id="astructnpc__dream__fog_1_1npc__dream__fog_a_i_html_a44138ecd6ae6f07a624e26d82b0aa286"><div class="ttname"><a href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html#a44138ecd6ae6f07a624e26d82b0aa286">npc_dream_fog::npc_dream_fogAI::_targetGUID</a></div><div class="ttdeci">ObjectGuid _targetGUID</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:258</div></div>
+<div class="ttc" id="astructnpc__dream__fog_1_1npc__dream__fog_a_i_html_aa9ea076cdef0b1a0b21b18e42bf777c3"><div class="ttname"><a href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html#aa9ea076cdef0b1a0b21b18e42bf777c3">npc_dream_fog::npc_dream_fogAI::GetRandomUnitFromDragonThreatList</a></div><div class="ttdeci">Unit * GetRandomUnitFromDragonThreatList()</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:236</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa223fc3eaa1096d0bad578a88b81ab7e" name="aa223fc3eaa1096d0bad578a88b81ab7e"></a>
@@ -637,7 +696,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#aed57e805b8792eda265a1a426fcf152a">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  222</span>        {</div>
+<div class="line"><span class="lineno">  223</span>            <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a5ccb77b9b084142c8427d129aa9b1c5ba11e79a7f7a2e327977a61cf329c38a95">GUID_DRAGON</a>)</div>
+<div class="line"><span class="lineno">  224</span>            {</div>
+<div class="line"><span class="lineno">  225</span>                <a class="code hl_variable" href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html#a90deaf0fab9f0ed64c806c22c200ba08">_dragonGUID</a> = guid;</div>
+<div class="line"><span class="lineno">  226</span>            }</div>
+<div class="line"><span class="lineno">  227</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a5ccb77b9b084142c8427d129aa9b1c5baae26a07dcb8adf60285a9dc1235868ce">GUID_FOG_TARGET</a>)</div>
+<div class="line"><span class="lineno">  228</span>            {</div>
+<div class="line"><span class="lineno">  229</span>                <span class="keywordflow">if</span> (guid == <a class="code hl_variable" href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html#a44138ecd6ae6f07a624e26d82b0aa286">_targetGUID</a>)</div>
+<div class="line"><span class="lineno">  230</span>                {</div>
+<div class="line"><span class="lineno">  231</span>                    <a class="code hl_function" href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html#a6025e98731e8eb3e4450eb6ea7747d5f">ScheduleEvents</a>();</div>
+<div class="line"><span class="lineno">  232</span>                }</div>
+<div class="line"><span class="lineno">  233</span>            }</div>
+<div class="line"><span class="lineno">  234</span>        }</div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a5ccb77b9b084142c8427d129aa9b1c5ba11e79a7f7a2e327977a61cf329c38a95"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a5ccb77b9b084142c8427d129aa9b1c5ba11e79a7f7a2e327977a61cf329c38a95">GUID_DRAGON</a></div><div class="ttdeci">@ GUID_DRAGON</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:39</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a5ccb77b9b084142c8427d129aa9b1c5baae26a07dcb8adf60285a9dc1235868ce"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a5ccb77b9b084142c8427d129aa9b1c5baae26a07dcb8adf60285a9dc1235868ce">GUID_FOG_TARGET</a></div><div class="ttdeci">@ GUID_FOG_TARGET</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a881cbed8f1709071036b9f83cdbe1cad" name="a881cbed8f1709071036b9f83cdbe1cad"></a>
@@ -665,7 +739,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  250</span>        {</div>
+<div class="line"><span class="lineno">  251</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  252</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  253</span> </div>
+<div class="line"><span class="lineno">  254</span>            <a class="code hl_variable" href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html#a0076affc559d4999e44a4be3e131062a">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">Update</a>(diff);</div>
+<div class="line"><span class="lineno">  255</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a35c0891c7aded13c6ae7ecd2e6d480a9"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">TaskScheduler::Update</a></div><div class="ttdeci">TaskScheduler &amp; Update(success_t const &amp;callback=EmptyCallback)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:15</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -736,7 +818,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d2/d8e/boss__emerald__dragons_8cpp.html">boss_emerald_dragons.cpp</a></li>
+<li><a class="el" href="../../">boss_emerald_dragons.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -744,7 +826,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d42/classnpc__dream__fog.html">npc_dream_fog</a></li><li class="navelem"><a class="el" href="../../d5/d0b/structnpc__dream__fog_1_1npc__dream__fog_a_i.html">npc_dream_fogAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

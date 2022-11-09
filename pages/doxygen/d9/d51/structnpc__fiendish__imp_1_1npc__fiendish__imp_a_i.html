@@ -489,7 +489,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a17962e72d68019439ff2aabfe6c89189" name="a17962e72d68019439ff2aabfe6c89189"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a17962e72d68019439ff2aabfe6c89189">&#9670;&#160;</a></span>npc_fiendish_impAI()</h2>
 
@@ -513,7 +514,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  213</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -542,7 +545,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  222</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afb80882875bbb8a168fbb3cc8e204673" name="afb80882875bbb8a168fbb3cc8e204673"></a>
@@ -569,7 +573,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  218</span>        {</div>
+<div class="line"><span class="lineno">  219</span>            <a class="code hl_variable" href="../../d9/d51/structnpc__fiendish__imp_1_1npc__fiendish__imp_a_i.html#a37286e7537c64595f926906db97945d0">FireboltTimer</a> = 2000;</div>
+<div class="line"><span class="lineno">  220</span>        }</div>
+<div class="ttc" id="astructnpc__fiendish__imp_1_1npc__fiendish__imp_a_i_html_a37286e7537c64595f926906db97945d0"><div class="ttname"><a href="../../d9/d51/structnpc__fiendish__imp_1_1npc__fiendish__imp_a_i.html#a37286e7537c64595f926906db97945d0">npc_fiendish_imp::npc_fiendish_impAI::FireboltTimer</a></div><div class="ttdeci">uint32 FireboltTimer</div><div class="ttdef"><b>Definition:</b> boss_terestian_illhoof.cpp:215</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af1359ff94931b887f4dd33fc44b64123" name="af1359ff94931b887f4dd33fc44b64123"></a>
@@ -597,7 +605,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  225</span>        {</div>
+<div class="line"><span class="lineno">  226</span>            <span class="comment">//Return since we have no target</span></div>
+<div class="line"><span class="lineno">  227</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  228</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  229</span> </div>
+<div class="line"><span class="lineno">  230</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/d51/structnpc__fiendish__imp_1_1npc__fiendish__imp_a_i.html#a37286e7537c64595f926906db97945d0">FireboltTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  231</span>            {</div>
+<div class="line"><span class="lineno">  232</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d5/d68/boss__terestian__illhoof_8cpp.html#a5bd342133be8c2137b831460acc9298ca7400052aae10fcb8a8047d9a930a6d47">SPELL_FIREBOLT</a>);</div>
+<div class="line"><span class="lineno">  233</span>                <a class="code hl_variable" href="../../d9/d51/structnpc__fiendish__imp_1_1npc__fiendish__imp_a_i.html#a37286e7537c64595f926906db97945d0">FireboltTimer</a> = 2200;</div>
+<div class="line"><span class="lineno">  234</span>            }</div>
+<div class="line"><span class="lineno">  235</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  236</span>                <a class="code hl_variable" href="../../d9/d51/structnpc__fiendish__imp_1_1npc__fiendish__imp_a_i.html#a37286e7537c64595f926906db97945d0">FireboltTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  237</span> </div>
+<div class="line"><span class="lineno">  238</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  239</span>        }</div>
+<div class="ttc" id="aboss__terestian__illhoof_8cpp_html_a5bd342133be8c2137b831460acc9298ca7400052aae10fcb8a8047d9a930a6d47"><div class="ttname"><a href="../../d5/d68/boss__terestian__illhoof_8cpp.html#a5bd342133be8c2137b831460acc9298ca7400052aae10fcb8a8047d9a930a6d47">SPELL_FIREBOLT</a></div><div class="ttdeci">@ SPELL_FIREBOLT</div><div class="ttdef"><b>Definition:</b> boss_terestian_illhoof.cpp:53</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -616,7 +643,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/Karazhan/<a class="el" href="../../d5/d68/boss__terestian__illhoof_8cpp.html">boss_terestian_illhoof.cpp</a></li>
+<li><a class="el" href="../../">boss_terestian_illhoof.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -624,7 +651,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d5a/classnpc__fiendish__imp.html">npc_fiendish_imp</a></li><li class="navelem"><a class="el" href="../../d9/d51/structnpc__fiendish__imp_1_1npc__fiendish__imp_a_i.html">npc_fiendish_impAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

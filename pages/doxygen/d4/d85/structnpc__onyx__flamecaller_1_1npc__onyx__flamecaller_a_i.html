@@ -570,7 +570,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa0633855e57f6681cfc68a8dfee9a733" name="aa0633855e57f6681cfc68a8dfee9a733"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0633855e57f6681cfc68a8dfee9a733">&#9670;&#160;</a></span>npc_onyx_flamecallerAI()</h2>
 
@@ -594,7 +595,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  204</span>                                                   : <a class="code hl_struct" href="../../dd/d7f/structnpc__escort_a_i.html">npc_escortAI</a>(creature), <a class="code hl_variable" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a3fb01e6a8df3b8205f494f03faf8ace8">_instance</a>(creature-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno">  205</span>        {</div>
+<div class="line"><span class="lineno">  206</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#aa4c997f2f799be346c53299815720b36">npc_escortAI::SetDespawnAtEnd</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  207</span>        }</div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html">npc_escortAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:53</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_aa4c997f2f799be346c53299815720b36"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#aa4c997f2f799be346c53299815720b36">npc_escortAI::SetDespawnAtEnd</a></div><div class="ttdeci">void SetDespawnAtEnd(bool despawn)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:104</div></div>
+<div class="ttc" id="astructnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i_html_a3fb01e6a8df3b8205f494f03faf8ace8"><div class="ttname"><a href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a3fb01e6a8df3b8205f494f03faf8ace8">npc_onyx_flamecaller::npc_onyx_flamecallerAI::_instance</a></div><div class="ttdeci">InstanceScript * _instance</div><div class="ttdef"><b>Definition:</b> boss_general_zarithrian.cpp:287</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -620,7 +629,26 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  242</span>        {</div>
+<div class="line"><span class="lineno">  243</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>() &lt; 500.0f)</div>
+<div class="line"><span class="lineno">  244</span>            {</div>
+<div class="line"><span class="lineno">  245</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d0/de4/boss__general__zarithrian_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a42e391a37f26c6a27525ee75ae035ff2">MAX_PATH_FLAMECALLER_WAYPOINTS</a>; i++)</div>
+<div class="line"><span class="lineno">  246</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(i + 1, <a class="code hl_variable" href="../../d0/de4/boss__general__zarithrian_8cpp.html#ace9bd22dd95248bd988545e174ffa491">FlamecallerWaypointsE</a>[i].GetPositionX(), <a class="code hl_variable" href="../../d0/de4/boss__general__zarithrian_8cpp.html#ace9bd22dd95248bd988545e174ffa491">FlamecallerWaypointsE</a>[i].GetPositionY(), <a class="code hl_variable" href="../../d0/de4/boss__general__zarithrian_8cpp.html#ace9bd22dd95248bd988545e174ffa491">FlamecallerWaypointsE</a>[i].GetPositionZ());</div>
+<div class="line"><span class="lineno">  247</span>            }</div>
+<div class="line"><span class="lineno">  248</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  249</span>            {</div>
+<div class="line"><span class="lineno">  250</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d0/de4/boss__general__zarithrian_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a42e391a37f26c6a27525ee75ae035ff2">MAX_PATH_FLAMECALLER_WAYPOINTS</a>; i++)</div>
+<div class="line"><span class="lineno">  251</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(i + 1, <a class="code hl_variable" href="../../d0/de4/boss__general__zarithrian_8cpp.html#a88369afb975b4a22ccce21207c7b6e45">FlamecallerWaypointsW</a>[i].GetPositionX(), <a class="code hl_variable" href="../../d0/de4/boss__general__zarithrian_8cpp.html#a88369afb975b4a22ccce21207c7b6e45">FlamecallerWaypointsW</a>[i].GetPositionY(), <a class="code hl_variable" href="../../d0/de4/boss__general__zarithrian_8cpp.html#a88369afb975b4a22ccce21207c7b6e45">FlamecallerWaypointsW</a>[i].GetPositionZ());</div>
+<div class="line"><span class="lineno">  252</span>            }</div>
+<div class="line"><span class="lineno">  253</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="aboss__general__zarithrian_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a42e391a37f26c6a27525ee75ae035ff2"><div class="ttname"><a href="../../d0/de4/boss__general__zarithrian_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a42e391a37f26c6a27525ee75ae035ff2">MAX_PATH_FLAMECALLER_WAYPOINTS</a></div><div class="ttdeci">@ MAX_PATH_FLAMECALLER_WAYPOINTS</div><div class="ttdef"><b>Definition:</b> boss_general_zarithrian.cpp:56</div></div>
+<div class="ttc" id="aboss__general__zarithrian_8cpp_html_a88369afb975b4a22ccce21207c7b6e45"><div class="ttname"><a href="../../d0/de4/boss__general__zarithrian_8cpp.html#a88369afb975b4a22ccce21207c7b6e45">FlamecallerWaypointsW</a></div><div class="ttdeci">Position const FlamecallerWaypointsW[MAX_PATH_FLAMECALLER_WAYPOINTS]</div><div class="ttdef"><b>Definition:</b> boss_general_zarithrian.cpp:77</div></div>
+<div class="ttc" id="aboss__general__zarithrian_8cpp_html_ace9bd22dd95248bd988545e174ffa491"><div class="ttname"><a href="../../d0/de4/boss__general__zarithrian_8cpp.html#ace9bd22dd95248bd988545e174ffa491">FlamecallerWaypointsE</a></div><div class="ttdeci">Position const FlamecallerWaypointsE[MAX_PATH_FLAMECALLER_WAYPOINTS]</div><div class="ttdef"><b>Definition:</b> boss_general_zarithrian.cpp:60</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_af6676a7693026ce6a35975d2358ff3e6"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">npc_escortAI::AddWaypoint</a></div><div class="ttdeci">void AddWaypoint(uint32 id, float x, float y, float z, uint32 waitTime=0)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:397</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaa36bfe24d763199ff5998a74a506c5f" name="aaa36bfe24d763199ff5998a74a506c5f"></a>
@@ -648,7 +676,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  217</span>        {</div>
+<div class="line"><span class="lineno">  218</span>            <a class="code hl_variable" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a9280b604135308078860c20667da9819">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#afd6b5b23aa26797b6de1275c70268808">Reset</a>();</div>
+<div class="line"><span class="lineno">  219</span>            <a class="code hl_variable" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a9280b604135308078860c20667da9819">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d0/de4/boss__general__zarithrian_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9e1344e054aca207ba2ec5cfdbb3c4aa">EVENT_BLAST_NOVA</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(20000, 30000));</div>
+<div class="line"><span class="lineno">  220</span>            <a class="code hl_variable" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a9280b604135308078860c20667da9819">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d0/de4/boss__general__zarithrian_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ae2a074344f62cd405347312727078904">EVENT_LAVA_GOUT</a>, 5000);</div>
+<div class="line"><span class="lineno">  221</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__general__zarithrian_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a9e1344e054aca207ba2ec5cfdbb3c4aa"><div class="ttname"><a href="../../d0/de4/boss__general__zarithrian_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9e1344e054aca207ba2ec5cfdbb3c4aa">EVENT_BLAST_NOVA</a></div><div class="ttdeci">@ EVENT_BLAST_NOVA</div><div class="ttdef"><b>Definition:</b> boss_general_zarithrian.cpp:53</div></div>
+<div class="ttc" id="aboss__general__zarithrian_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6ae2a074344f62cd405347312727078904"><div class="ttname"><a href="../../d0/de4/boss__general__zarithrian_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ae2a074344f62cd405347312727078904">EVENT_LAVA_GOUT</a></div><div class="ttdeci">@ EVENT_LAVA_GOUT</div><div class="ttdef"><b>Definition:</b> boss_general_zarithrian.cpp:54</div></div>
+<div class="ttc" id="aclass_event_map_html_a5e6081bda8828001c0ed8677b2aecd65"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">EventMap::ScheduleEvent</a></div><div class="ttdeci">void ScheduleEvent(uint32 eventId, uint32 time, uint32 group=0, uint32 phase=0)</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:56</div></div>
+<div class="ttc" id="aclass_event_map_html_afd6b5b23aa26797b6de1275c70268808"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#afd6b5b23aa26797b6de1275c70268808">EventMap::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:21</div></div>
+<div class="ttc" id="astructnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i_html_a9280b604135308078860c20667da9819"><div class="ttname"><a href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a9280b604135308078860c20667da9819">npc_onyx_flamecaller::npc_onyx_flamecallerAI::_events</a></div><div class="ttdeci">EventMap _events</div><div class="ttdef"><b>Definition:</b> boss_general_zarithrian.cpp:286</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac29163e2e69cffbf21249eb3828b5b72" name="ac29163e2e69cffbf21249eb3828b5b72"></a>
@@ -676,7 +715,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#a02a04466099a97b80c86bf47ad9cb7b6">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  224</span>        {</div>
+<div class="line"><span class="lineno">  225</span>            <span class="comment">// Prevent EvadeMode</span></div>
+<div class="line"><span class="lineno">  226</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2c007042cdce006f76dac1caf934be15" name="a2c007042cdce006f76dac1caf934be15"></a>
@@ -704,7 +746,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a717b3431bd49e191fc77afe0fa50d827">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  229</span>        {</div>
+<div class="line"><span class="lineno">  230</span>            <span class="comment">// Let Zarithrian count as summoner. _instance cant be null since we got GetRubySanctumAI</span></div>
+<div class="line"><span class="lineno">  231</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* zarithrian = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a3fb01e6a8df3b8205f494f03faf8ace8">_instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">GetGuidData</a>(<a class="code hl_enumvalue" href="../../db/dd6/ruby__sanctum_8h.html#a23860b8d9499fb400f8921261b19efd2acb940cb7a249b2537334b2469d742ed1">NPC_GENERAL_ZARITHRIAN</a>)))</div>
+<div class="line"><span class="lineno">  232</span>                zarithrian-&gt;AI()-&gt;JustSummoned(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  233</span>        }</div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_instance_script_html_a3be7f24ca31c9433aca546e1087109b4"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript::GetGuidData</a></div><div class="ttdeci">ObjectGuid GetGuidData(uint32 type) const override</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:93</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="aruby__sanctum_8h_html_a23860b8d9499fb400f8921261b19efd2acb940cb7a249b2537334b2469d742ed1"><div class="ttname"><a href="../../db/dd6/ruby__sanctum_8h.html#a23860b8d9499fb400f8921261b19efd2acb940cb7a249b2537334b2469d742ed1">NPC_GENERAL_ZARITHRIAN</a></div><div class="ttdeci">@ NPC_GENERAL_ZARITHRIAN</div><div class="ttdef"><b>Definition:</b> ruby_sanctum.h:63</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a756a44feb79eb56f443ee16995a2566d" name="a756a44feb79eb56f443ee16995a2566d"></a>
@@ -731,7 +782,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  210</span>        {</div>
+<div class="line"><span class="lineno">  211</span>            <a class="code hl_variable" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a1f46c988316c1870f506a66f2390e79b">_lavaGoutCount</a> = 0;</div>
+<div class="line"><span class="lineno">  212</span>            <a class="code hl_function" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a308b99ee4d07ed1de0cabd94dafd5dd8">AddWaypoints</a>();</div>
+<div class="line"><span class="lineno">  213</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a3af9ad016ba42ce06db5d2ba7cdb6a5f">Start</a>(<span class="keyword">true</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  214</span>        }</div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a3af9ad016ba42ce06db5d2ba7cdb6a5f"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a3af9ad016ba42ce06db5d2ba7cdb6a5f">npc_escortAI::Start</a></div><div class="ttdeci">void Start(bool isActiveAttacker=true, bool run=false, ObjectGuid playerGUID=ObjectGuid::Empty, Quest const *quest=nullptr, bool instantRespawn=false, bool canLoopPath=false, bool resetWaypoints=true)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:450</div></div>
+<div class="ttc" id="astructnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i_html_a1f46c988316c1870f506a66f2390e79b"><div class="ttname"><a href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a1f46c988316c1870f506a66f2390e79b">npc_onyx_flamecaller::npc_onyx_flamecallerAI::_lavaGoutCount</a></div><div class="ttdeci">uint8 _lavaGoutCount</div><div class="ttdef"><b>Definition:</b> boss_general_zarithrian.cpp:288</div></div>
+<div class="ttc" id="astructnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i_html_a308b99ee4d07ed1de0cabd94dafd5dd8"><div class="ttname"><a href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a308b99ee4d07ed1de0cabd94dafd5dd8">npc_onyx_flamecaller::npc_onyx_flamecallerAI::AddWaypoints</a></div><div class="ttdeci">void AddWaypoints()</div><div class="ttdef"><b>Definition:</b> boss_general_zarithrian.cpp:241</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aab57193b332fdde2dd237a9cb15a06c1" name="aab57193b332fdde2dd237a9cb15a06c1"></a>
@@ -759,7 +818,46 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#aed1525b79824e29e0f93419c0b6b26e2">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  256</span>        {</div>
+<div class="line"><span class="lineno">  257</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  258</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  259</span> </div>
+<div class="line"><span class="lineno">  260</span>            <a class="code hl_variable" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a9280b604135308078860c20667da9819">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">Update</a>(diff);</div>
+<div class="line"><span class="lineno">  261</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">  262</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  263</span> </div>
+<div class="line"><span class="lineno">  264</span>            <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a9280b604135308078860c20667da9819">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">ExecuteEvent</a>())</div>
+<div class="line"><span class="lineno">  265</span>            {</div>
+<div class="line"><span class="lineno">  266</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/de4/boss__general__zarithrian_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9e1344e054aca207ba2ec5cfdbb3c4aa">EVENT_BLAST_NOVA</a>:</div>
+<div class="line"><span class="lineno">  267</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../d0/de4/boss__general__zarithrian_8cpp.html#a5bd342133be8c2137b831460acc9298cacd0b5cac8c9deb10c2f18f8191c662ee">SPELL_BLAST_NOVA</a>);</div>
+<div class="line"><span class="lineno">  268</span>                    <a class="code hl_variable" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a9280b604135308078860c20667da9819">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d0/de4/boss__general__zarithrian_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9e1344e054aca207ba2ec5cfdbb3c4aa">EVENT_BLAST_NOVA</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(20000, 30000));</div>
+<div class="line"><span class="lineno">  269</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  270</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/de4/boss__general__zarithrian_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ae2a074344f62cd405347312727078904">EVENT_LAVA_GOUT</a>:</div>
+<div class="line"><span class="lineno">  271</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a1f46c988316c1870f506a66f2390e79b">_lavaGoutCount</a> &gt;= 3)</div>
+<div class="line"><span class="lineno">  272</span>                    {</div>
+<div class="line"><span class="lineno">  273</span>                        <a class="code hl_variable" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a1f46c988316c1870f506a66f2390e79b">_lavaGoutCount</a> = 0;</div>
+<div class="line"><span class="lineno">  274</span>                        <a class="code hl_variable" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a9280b604135308078860c20667da9819">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d0/de4/boss__general__zarithrian_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ae2a074344f62cd405347312727078904">EVENT_LAVA_GOUT</a>, 8000);</div>
+<div class="line"><span class="lineno">  275</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  276</span>                    }</div>
+<div class="line"><span class="lineno">  277</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d0/de4/boss__general__zarithrian_8cpp.html#a5bd342133be8c2137b831460acc9298ca1e63d3606f4df10d9951bb06dbb5bc25">SPELL_LAVA_GOUT</a>);</div>
+<div class="line"><span class="lineno">  278</span>                    <a class="code hl_variable" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a1f46c988316c1870f506a66f2390e79b">_lavaGoutCount</a>++;</div>
+<div class="line"><span class="lineno">  279</span>                    <a class="code hl_variable" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html#a9280b604135308078860c20667da9819">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d0/de4/boss__general__zarithrian_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ae2a074344f62cd405347312727078904">EVENT_LAVA_GOUT</a>, 1500);</div>
+<div class="line"><span class="lineno">  280</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  281</span>            }</div>
+<div class="line"><span class="lineno">  282</span> </div>
+<div class="line"><span class="lineno">  283</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  284</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__general__zarithrian_8cpp_html_a5bd342133be8c2137b831460acc9298ca1e63d3606f4df10d9951bb06dbb5bc25"><div class="ttname"><a href="../../d0/de4/boss__general__zarithrian_8cpp.html#a5bd342133be8c2137b831460acc9298ca1e63d3606f4df10d9951bb06dbb5bc25">SPELL_LAVA_GOUT</a></div><div class="ttdeci">@ SPELL_LAVA_GOUT</div><div class="ttdef"><b>Definition:</b> boss_general_zarithrian.cpp:40</div></div>
+<div class="ttc" id="aboss__general__zarithrian_8cpp_html_a5bd342133be8c2137b831460acc9298cacd0b5cac8c9deb10c2f18f8191c662ee"><div class="ttname"><a href="../../d0/de4/boss__general__zarithrian_8cpp.html#a5bd342133be8c2137b831460acc9298cacd0b5cac8c9deb10c2f18f8191c662ee">SPELL_BLAST_NOVA</a></div><div class="ttdeci">@ SPELL_BLAST_NOVA</div><div class="ttdef"><b>Definition:</b> boss_general_zarithrian.cpp:39</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_event_map_html_a07764662d7571ae0e1c44203d189ba44"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">EventMap::ExecuteEvent</a></div><div class="ttdeci">uint32 ExecuteEvent()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:114</div></div>
+<div class="ttc" id="aclass_event_map_html_a33ba1058edd639c98258ba3e123ac2f9"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">EventMap::Update</a></div><div class="ttdeci">void Update(uint32 time)</div><div class="ttdef"><b>Definition:</b> EventMap.h:54</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a1e37cbb75f91c247b04131afc7ce35f5"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">UnitAI::DoCastAOE</a></div><div class="ttdeci">SpellCastResult DoCastAOE(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:249</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8b510bce47929e85741f5debd857de8d" name="a8b510bce47929e85741f5debd857de8d"></a>
@@ -787,7 +885,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#a59830f742b9967303df22f5bcf0d2b9d">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  236</span>        {</div>
+<div class="line"><span class="lineno">  237</span>            <span class="keywordflow">if</span> (waypointId == <a class="code hl_enumvalue" href="../../d0/de4/boss__general__zarithrian_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a42e391a37f26c6a27525ee75ae035ff2">MAX_PATH_FLAMECALLER_WAYPOINTS</a>)</div>
+<div class="line"><span class="lineno">  238</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">SetInCombatWithZone</a>();</div>
+<div class="line"><span class="lineno">  239</span>        }</div>
+<div class="ttc" id="aclass_creature_html_a01ccacf28df6336a774bf1672caf3571"><div class="ttname"><a href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">Creature::SetInCombatWithZone</a></div><div class="ttdeci">void SetInCombatWithZone()</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2705</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -858,7 +961,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/<a class="el" href="../../d0/de4/boss__general__zarithrian_8cpp.html">boss_general_zarithrian.cpp</a></li>
+<li><a class="el" href="../../">boss_general_zarithrian.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -866,7 +969,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d16/classnpc__onyx__flamecaller.html">npc_onyx_flamecaller</a></li><li class="navelem"><a class="el" href="../../d4/d85/structnpc__onyx__flamecaller_1_1npc__onyx__flamecaller_a_i.html">npc_onyx_flamecallerAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

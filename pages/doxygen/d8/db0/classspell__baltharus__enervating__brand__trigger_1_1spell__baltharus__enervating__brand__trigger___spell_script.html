@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="adbbed117455c24a20afe45891de38f43" name="adbbed117455c24a20afe45891de38f43"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adbbed117455c24a20afe45891de38f43">&#9670;&#160;</a></span>CheckDistance()</h2>
 
@@ -315,7 +316,21 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  343</span>        {</div>
+<div class="line"><span class="lineno">  344</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ad3b76d0716ab3113b56ef35336e75709">GetOriginalCaster</a>())</div>
+<div class="line"><span class="lineno">  345</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>())</div>
+<div class="line"><span class="lineno">  346</span>                    <span class="keywordflow">if</span> (target == <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()</div>
+<div class="line"><span class="lineno">  347</span>                            <span class="comment">// the spell has an unlimited range, so we need this check</span></div>
+<div class="line"><span class="lineno">  348</span>                            &amp;&amp; target-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">GetDistance2d</a>(caster) &lt;= 12.0f)</div>
+<div class="line"><span class="lineno">  349</span>                        target-&gt;CastSpell(caster, <a class="code hl_enumvalue" href="../../d5/dd6/boss__baltharus__the__warborn_8cpp.html#a5bd342133be8c2137b831460acc9298ca61c1c673dcdc637c18e45a16fcad5cbe">SPELL_SIPHONED_MIGHT</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  350</span>        }</div>
+<div class="ttc" id="aboss__baltharus__the__warborn_8cpp_html_a5bd342133be8c2137b831460acc9298ca61c1c673dcdc637c18e45a16fcad5cbe"><div class="ttname"><a href="../../d5/dd6/boss__baltharus__the__warborn_8cpp.html#a5bd342133be8c2137b831460acc9298ca61c1c673dcdc637c18e45a16fcad5cbe">SPELL_SIPHONED_MIGHT</a></div><div class="ttdeci">@ SPELL_SIPHONED_MIGHT</div><div class="ttdef"><b>Definition:</b> boss_baltharus_the_warborn.cpp:48</div></div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_spell_script_html_ad3b76d0716ab3113b56ef35336e75709"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ad3b76d0716ab3113b56ef35336e75709">SpellScript::GetOriginalCaster</a></div><div class="ttdeci">Unit * GetOriginalCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:406</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_world_object_html_a73f3c7fa817faebff6b2752ba3bb1a50"><div class="ttname"><a href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">WorldObject::GetDistance2d</a></div><div class="ttdeci">float GetDistance2d(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1263</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4d26a34b0db9bebb121766908b3c329b" name="a4d26a34b0db9bebb121766908b3c329b"></a>
@@ -368,11 +383,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  353</span>        {</div>
+<div class="line"><span class="lineno">  354</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a4ad6c271f820ea8f949e286512912d52">OnHit</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a>(<a class="code hl_function" href="../../d8/db0/classspell__baltharus__enervating__brand__trigger_1_1spell__baltharus__enervating__brand__trigger___spell_script.html#adbbed117455c24a20afe45891de38f43">spell_baltharus_enervating_brand_trigger_SpellScript::CheckDistance</a>);</div>
+<div class="line"><span class="lineno">  355</span>        }</div>
+<div class="ttc" id="a_spell_script_8h_html_ad33ae6ff74ef32eb5ec79707ff0ab5b1"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a></div><div class="ttdeci">#define SpellHitFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:349</div></div>
+<div class="ttc" id="aclass_spell_script_html_a4ad6c271f820ea8f949e286512912d52"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a4ad6c271f820ea8f949e286512912d52">SpellScript::OnHit</a></div><div class="ttdeci">HookList&lt; HitHandler &gt; OnHit</div><div class="ttdef"><b>Definition:</b> SpellScript.h:345</div></div>
+<div class="ttc" id="aclassspell__baltharus__enervating__brand__trigger_1_1spell__baltharus__enervating__brand__trigger___spell_script_html_adbbed117455c24a20afe45891de38f43"><div class="ttname"><a href="../../d8/db0/classspell__baltharus__enervating__brand__trigger_1_1spell__baltharus__enervating__brand__trigger___spell_script.html#adbbed117455c24a20afe45891de38f43">spell_baltharus_enervating_brand_trigger::spell_baltharus_enervating_brand_trigger_SpellScript::CheckDistance</a></div><div class="ttdeci">void CheckDistance()</div><div class="ttdef"><b>Definition:</b> boss_baltharus_the_warborn.cpp:342</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/<a class="el" href="../../d5/dd6/boss__baltharus__the__warborn_8cpp.html">boss_baltharus_the_warborn.cpp</a></li>
+<li><a class="el" href="../../">boss_baltharus_the_warborn.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -380,7 +401,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d5d/classspell__baltharus__enervating__brand__trigger.html">spell_baltharus_enervating_brand_trigger</a></li><li class="navelem"><a class="el" href="../../d8/db0/classspell__baltharus__enervating__brand__trigger_1_1spell__baltharus__enervating__brand__trigger___spell_script.html">spell_baltharus_enervating_brand_trigger_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:16 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

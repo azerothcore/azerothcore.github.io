@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('db/de5/struct_power_users_selector.htm
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d9/d71/_unit_a_i_8h_source.html">UnitAI.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">UnitAI.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for PowerUsersSelector:</div>
 <div class="dyncontent">
@@ -150,7 +150,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a6dcbf6789c1565b95f16de3d580118a9 inherit pub_types_struct_acore_1_1unary__function"><td class="memItemLeft" align="right" valign="top">typedef bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc9/struct_acore_1_1unary__function.html#a6dcbf6789c1565b95f16de3d580118a9">result_type</a></td></tr>
 <tr class="separator:a6dcbf6789c1565b95f16de3d580118a9 inherit pub_types_struct_acore_1_1unary__function"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abf9f85ea67a834024df56e622700f62d" name="abf9f85ea67a834024df56e622700f62d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abf9f85ea67a834024df56e622700f62d">&#9670;&#160;</a></span>PowerUsersSelector()</h2>
 
@@ -196,7 +197,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  125</span>: <a class="code hl_variable" href="../../db/de5/struct_power_users_selector.html#a7f6dda10c26982d9633fae57b64af7ef">_me</a>(unit), <a class="code hl_variable" href="../../db/de5/struct_power_users_selector.html#a9a518903606768e505e7230fe9344bbf">_power</a>(power), <a class="code hl_variable" href="../../db/de5/struct_power_users_selector.html#a1c63646bffb486c51ca07e0f8a70dd59">_dist</a>(dist), <a class="code hl_variable" href="../../db/de5/struct_power_users_selector.html#aea809984a6dd46c22f414e44c9794309">_playerOnly</a>(playerOnly) { }</div>
+<div class="ttc" id="astruct_power_users_selector_html_a1c63646bffb486c51ca07e0f8a70dd59"><div class="ttname"><a href="../../db/de5/struct_power_users_selector.html#a1c63646bffb486c51ca07e0f8a70dd59">PowerUsersSelector::_dist</a></div><div class="ttdeci">float const _dist</div><div class="ttdef"><b>Definition:</b> UnitAI.h:122</div></div>
+<div class="ttc" id="astruct_power_users_selector_html_a7f6dda10c26982d9633fae57b64af7ef"><div class="ttname"><a href="../../db/de5/struct_power_users_selector.html#a7f6dda10c26982d9633fae57b64af7ef">PowerUsersSelector::_me</a></div><div class="ttdeci">Unit const  * _me</div><div class="ttdef"><b>Definition:</b> UnitAI.h:120</div></div>
+<div class="ttc" id="astruct_power_users_selector_html_a9a518903606768e505e7230fe9344bbf"><div class="ttname"><a href="../../db/de5/struct_power_users_selector.html#a9a518903606768e505e7230fe9344bbf">PowerUsersSelector::_power</a></div><div class="ttdeci">Powers const _power</div><div class="ttdef"><b>Definition:</b> UnitAI.h:121</div></div>
+<div class="ttc" id="astruct_power_users_selector_html_aea809984a6dd46c22f414e44c9794309"><div class="ttname"><a href="../../db/de5/struct_power_users_selector.html#aea809984a6dd46c22f414e44c9794309">PowerUsersSelector::_playerOnly</a></div><div class="ttdeci">bool const _playerOnly</div><div class="ttdef"><b>Definition:</b> UnitAI.h:123</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -223,7 +229,27 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  128</span>    {</div>
+<div class="line"><span class="lineno">  129</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../db/de5/struct_power_users_selector.html#a7f6dda10c26982d9633fae57b64af7ef">_me</a> || !target)</div>
+<div class="line"><span class="lineno">  130</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  131</span> </div>
+<div class="line"><span class="lineno">  132</span>        <span class="keywordflow">if</span> (target-&gt;getPowerType() != <a class="code hl_variable" href="../../db/de5/struct_power_users_selector.html#a9a518903606768e505e7230fe9344bbf">_power</a>)</div>
+<div class="line"><span class="lineno">  133</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  134</span> </div>
+<div class="line"><span class="lineno">  135</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/de5/struct_power_users_selector.html#aea809984a6dd46c22f414e44c9794309">_playerOnly</a> &amp;&amp; target-&gt;GetTypeId() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  136</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  137</span> </div>
+<div class="line"><span class="lineno">  138</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/de5/struct_power_users_selector.html#a1c63646bffb486c51ca07e0f8a70dd59">_dist</a> &gt; 0.0f &amp;&amp; !<a class="code hl_variable" href="../../db/de5/struct_power_users_selector.html#a7f6dda10c26982d9633fae57b64af7ef">_me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2b32551adec993309c35e8e88e35b4be">IsWithinCombatRange</a>(target, <a class="code hl_variable" href="../../db/de5/struct_power_users_selector.html#a1c63646bffb486c51ca07e0f8a70dd59">_dist</a>))</div>
+<div class="line"><span class="lineno">  139</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  140</span> </div>
+<div class="line"><span class="lineno">  141</span>        <span class="keywordflow">if</span> (_dist &lt; 0.0f &amp;&amp; _me-&gt;IsWithinCombatRange(target, -<a class="code hl_variable" href="../../db/de5/struct_power_users_selector.html#a1c63646bffb486c51ca07e0f8a70dd59">_dist</a>))</div>
+<div class="line"><span class="lineno">  142</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  143</span> </div>
+<div class="line"><span class="lineno">  144</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  145</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_unit_html_a2b32551adec993309c35e8e88e35b4be"><div class="ttname"><a href="../../da/db7/class_unit.html#a2b32551adec993309c35e8e88e35b4be">Unit::IsWithinCombatRange</a></div><div class="ttdeci">bool IsWithinCombatRange(Unit const *obj, float dist2compare) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:666</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -284,7 +310,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/AI/CoreAI/<a class="el" href="../../d9/d71/_unit_a_i_8h_source.html">UnitAI.h</a></li>
+<li><a class="el" href="../../">UnitAI.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -292,7 +318,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/de5/struct_power_users_selector.html">PowerUsersSelector</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

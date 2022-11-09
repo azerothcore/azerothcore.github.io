@@ -1,0 +1,5 @@
+var a07972 =
+[
+    [ "PlayerClassInfo", "df/d10/a07972.html#a6a0a6db24e144593356e0505946e8f06", null ],
+    [ "levelInfo", "df/d10/a07972.html#aa234b353361ef0017ec974ca4c8e86f1", null ]
+];

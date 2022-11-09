@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d0/d0b/struct_script_info.html','../..
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d9/d77/_object_mgr_8h_source.html">ObjectMgr.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">ObjectMgr.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -351,7 +351,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a8e6bb55beee29c95bb0c8a27a80ee109"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a8e6bb55beee29c95bb0c8a27a80ee109"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad88abcd00c21de249431471075a233a3" name="ad88abcd00c21de249431471075a233a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad88abcd00c21de249431471075a233a3">&#9670;&#160;</a></span>GetDebugInfo()</h2>
 
@@ -366,7 +367,16 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  200</span>{</div>
+<div class="line"><span class="lineno">  201</span>    <span class="keywordtype">char</span> sz[256];</div>
+<div class="line"><span class="lineno">  202</span>    sprintf(sz, <span class="stringliteral">&quot;%s (&#39;%s&#39; script id: %u)&quot;</span>, <a class="code hl_function" href="../../d9/d77/_object_mgr_8h.html#a46371802334fe0589dc4f2b065b590e5">GetScriptCommandName</a>(<a class="code hl_variable" href="../../d0/d0b/struct_script_info.html#a7cdff6a71fd1e7dd5830f0fdd08c7462">command</a>).c_str(), <a class="code hl_function" href="../../d9/d77/_object_mgr_8h.html#acc60b4b0ead06280f2b3289f8da57cb9">GetScriptsTableNameByType</a>(<a class="code hl_variable" href="../../d0/d0b/struct_script_info.html#a12a7cfebf5c987ac9de10cd437af733c">type</a>).c_str(), <span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">  203</span>    <span class="keywordflow">return</span> std::string(sz);</div>
+<div class="line"><span class="lineno">  204</span>}</div>
+<div class="ttc" id="a_object_mgr_8h_html_a46371802334fe0589dc4f2b065b590e5"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a46371802334fe0589dc4f2b065b590e5">GetScriptCommandName</a></div><div class="ttdeci">std::string GetScriptCommandName(ScriptCommands command)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:101</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_acc60b4b0ead06280f2b3289f8da57cb9"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#acc60b4b0ead06280f2b3289f8da57cb9">GetScriptsTableNameByType</a></div><div class="ttdeci">std::string GetScriptsTableNameByType(ScriptsType type)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:61</div></div>
+<div class="ttc" id="astruct_script_info_html_a12a7cfebf5c987ac9de10cd437af733c"><div class="ttname"><a href="../../d0/d0b/struct_script_info.html#a12a7cfebf5c987ac9de10cd437af733c">ScriptInfo::type</a></div><div class="ttdeci">ScriptsType type</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:193</div></div>
+<div class="ttc" id="astruct_script_info_html_a7cdff6a71fd1e7dd5830f0fdd08c7462"><div class="ttname"><a href="../../d0/d0b/struct_script_info.html#a7cdff6a71fd1e7dd5830f0fdd08c7462">ScriptInfo::command</a></div><div class="ttdeci">ScriptCommands command</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:196</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -1463,8 +1473,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Globals/<a class="el" href="../../d9/d77/_object_mgr_8h_source.html">ObjectMgr.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Globals/<a class="el" href="../../df/d62/_object_mgr_8cpp.html">ObjectMgr.cpp</a></li>
+<li><a class="el" href="../../">ObjectMgr.h</a></li>
+<li><a class="el" href="../../">ObjectMgr.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1472,7 +1482,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d0b/struct_script_info.html">ScriptInfo</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:15 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

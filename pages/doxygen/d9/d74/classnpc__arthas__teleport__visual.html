@@ -185,7 +185,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a62d2caed6b12355f6d7aeceabba2ddaf" name="a62d2caed6b12355f6d7aeceabba2ddaf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a62d2caed6b12355f6d7aeceabba2ddaf">&#9670;&#160;</a></span>npc_arthas_teleport_visual()</h2>
 
@@ -208,7 +209,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1859</span>: <a class="code hl_class" href="../../d5/dca/class_creature_script.html">CreatureScript</a>(<span class="stringliteral">&quot;npc_arthas_teleport_visual&quot;</span>) { }</div>
+<div class="ttc" id="aclass_creature_script_html"><div class="ttname"><a href="../../d5/dca/class_creature_script.html">CreatureScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:718</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -237,11 +240,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a24ba3529655943afdf6598450d14e6c2">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1896</span>    {</div>
+<div class="line"><span class="lineno"> 1897</span>        <span class="comment">// Distance from the center of the spire</span></div>
+<div class="line"><span class="lineno"> 1898</span>        <span class="keywordflow">if</span> (creature-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a2c4639bb74233e1c02c99c465e28895e">GetExactDist2d</a>(4357.052f, 2769.421f) &lt; 100.0f &amp;&amp; creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a406ff2cf337ffe4dde864ecf85a6f54b">GetHomePosition</a>().GetPositionZ() &lt; 315.0f)</div>
+<div class="line"><span class="lineno"> 1899</span>            <span class="keywordflow">return</span> GetIcecrownCitadelAI&lt;npc_arthas_teleport_visualAI&gt;(creature);</div>
+<div class="line"><span class="lineno"> 1900</span> </div>
+<div class="line"><span class="lineno"> 1901</span>        <span class="comment">// Default to no script</span></div>
+<div class="line"><span class="lineno"> 1902</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno"> 1903</span>    }</div>
+<div class="ttc" id="aclass_creature_html_a406ff2cf337ffe4dde864ecf85a6f54b"><div class="ttname"><a href="../../d1/dac/class_creature.html#a406ff2cf337ffe4dde864ecf85a6f54b">Creature::GetHomePosition</a></div><div class="ttdeci">void GetHomePosition(float &amp;x, float &amp;y, float &amp;z, float &amp;ori) const</div><div class="ttdef"><b>Definition:</b> Creature.h:322</div></div>
+<div class="ttc" id="astruct_position_html_a2c4639bb74233e1c02c99c465e28895e"><div class="ttname"><a href="../../d1/d26/struct_position.html#a2c4639bb74233e1c02c99c465e28895e">Position::GetExactDist2d</a></div><div class="ttdeci">float GetExactDist2d(const float x, const float y) const</div><div class="ttdef"><b>Definition:</b> Position.h:166</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../db/dd3/icecrown__citadel_8cpp.html">icecrown_citadel.cpp</a></li>
+<li><a class="el" href="../../">icecrown_citadel.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -249,7 +262,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d74/classnpc__arthas__teleport__visual.html">npc_arthas_teleport_visual</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

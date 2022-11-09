@@ -386,7 +386,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a145001c6f1c1d505f810ae545ec62c69" name="a145001c6f1c1d505f810ae545ec62c69"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a145001c6f1c1d505f810ae545ec62c69">&#9670;&#160;</a></span>npc_ulduar_toasty_fireAI()</h2>
 
@@ -410,7 +411,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  724</span>                                                      : <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(pCreature)</div>
+<div class="line"><span class="lineno">  725</span>        {</div>
+<div class="line"><span class="lineno">  726</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../dc/d30/boss__hodir_8cpp.html#a0a6ae4eb8bbfccba730ab3001c4690d7a094b9fd1e5d11851ce6d6057de87069f">SPELL_MAGE_TOASTY_FIRE_AURA</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  727</span>        }</div>
+<div class="ttc" id="aboss__hodir_8cpp_html_a0a6ae4eb8bbfccba730ab3001c4690d7a094b9fd1e5d11851ce6d6057de87069f"><div class="ttname"><a href="../../dc/d30/boss__hodir_8cpp.html#a0a6ae4eb8bbfccba730ab3001c4690d7a094b9fd1e5d11851ce6d6057de87069f">SPELL_MAGE_TOASTY_FIRE_AURA</a></div><div class="ttdeci">@ SPELL_MAGE_TOASTY_FIRE_AURA</div><div class="ttdef"><b>Definition:</b> boss_hodir.cpp:79</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -439,7 +448,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  730</span>        {</div>
+<div class="line"><span class="lineno">  731</span>            <span class="keywordflow">if</span> (a == 1)</div>
+<div class="line"><span class="lineno">  732</span>            {</div>
+<div class="line"><span class="lineno">  733</span>                <span class="keywordflow">if</span>( <a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* fire = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a178c5ef685f97dc9bbd486dd6cabfb63">FindNearestGameObject</a>(194300, 1.0f) )</div>
+<div class="line"><span class="lineno">  734</span>                {</div>
+<div class="line"><span class="lineno">  735</span>                    fire-&gt;SetOwnerGUID(<a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
+<div class="line"><span class="lineno">  736</span>                    fire-&gt;Delete();</div>
+<div class="line"><span class="lineno">  737</span>                }</div>
+<div class="line"><span class="lineno">  738</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(); <span class="comment">// this will remove DynObjects</span></div>
+<div class="line"><span class="lineno">  739</span>            }</div>
+<div class="line"><span class="lineno">  740</span>        }</div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_object_guid_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+<div class="ttc" id="aclass_world_object_html_a178c5ef685f97dc9bbd486dd6cabfb63"><div class="ttname"><a href="../../db/df7/class_world_object.html#a178c5ef685f97dc9bbd486dd6cabfb63">WorldObject::FindNearestGameObject</a></div><div class="ttdeci">GameObject * FindNearestGameObject(uint32 entry, float range, bool onlySpawned=false) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2401</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0e4475382dfd754dc119d2e8dba61b7e" name="a0e4475382dfd754dc119d2e8dba61b7e"></a>
@@ -477,11 +501,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a6afb39c4bf86a1e882cc80fd7ec80a8f">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  743</span>        {</div>
+<div class="line"><span class="lineno">  744</span>            <span class="keywordflow">switch</span>( spell-&gt;Id )</div>
+<div class="line"><span class="lineno">  745</span>            {</div>
+<div class="line"><span class="lineno">  746</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d30/boss__hodir_8cpp.html#a0a6ae4eb8bbfccba730ab3001c4690d7a19e007045c8a4746dcbef3546a9b4c6f">SPELL_ICE_SHARDS_SMALL</a>:</div>
+<div class="line"><span class="lineno">  747</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d30/boss__hodir_8cpp.html#a0a6ae4eb8bbfccba730ab3001c4690d7a17225998eb29e5a7235bdb36dd8332cc">SPELL_ICE_SHARDS_BIG</a>:</div>
+<div class="line"><span class="lineno">  748</span>                    <a class="code hl_function" href="../../df/d1a/structnpc__ulduar__toasty__fire_1_1npc__ulduar__toasty__fire_a_i.html#a8ab71582cc5d8386f788fb95203fbab5">DoAction</a>(1);</div>
+<div class="line"><span class="lineno">  749</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  750</span>            }</div>
+<div class="line"><span class="lineno">  751</span>        }</div>
+<div class="ttc" id="aboss__hodir_8cpp_html_a0a6ae4eb8bbfccba730ab3001c4690d7a17225998eb29e5a7235bdb36dd8332cc"><div class="ttname"><a href="../../dc/d30/boss__hodir_8cpp.html#a0a6ae4eb8bbfccba730ab3001c4690d7a17225998eb29e5a7235bdb36dd8332cc">SPELL_ICE_SHARDS_BIG</a></div><div class="ttdeci">@ SPELL_ICE_SHARDS_BIG</div><div class="ttdef"><b>Definition:</b> boss_hodir.cpp:55</div></div>
+<div class="ttc" id="aboss__hodir_8cpp_html_a0a6ae4eb8bbfccba730ab3001c4690d7a19e007045c8a4746dcbef3546a9b4c6f"><div class="ttname"><a href="../../dc/d30/boss__hodir_8cpp.html#a0a6ae4eb8bbfccba730ab3001c4690d7a19e007045c8a4746dcbef3546a9b4c6f">SPELL_ICE_SHARDS_SMALL</a></div><div class="ttdeci">@ SPELL_ICE_SHARDS_SMALL</div><div class="ttdef"><b>Definition:</b> boss_hodir.cpp:54</div></div>
+<div class="ttc" id="astructnpc__ulduar__toasty__fire_1_1npc__ulduar__toasty__fire_a_i_html_a8ab71582cc5d8386f788fb95203fbab5"><div class="ttname"><a href="../../df/d1a/structnpc__ulduar__toasty__fire_1_1npc__ulduar__toasty__fire_a_i.html#a8ab71582cc5d8386f788fb95203fbab5">npc_ulduar_toasty_fire::npc_ulduar_toasty_fireAI::DoAction</a></div><div class="ttdeci">void DoAction(int32 a) override</div><div class="ttdef"><b>Definition:</b> boss_hodir.cpp:729</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../dc/d30/boss__hodir_8cpp.html">boss_hodir.cpp</a></li>
+<li><a class="el" href="../../">boss_hodir.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -489,7 +525,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d74/classnpc__ulduar__toasty__fire.html">npc_ulduar_toasty_fire</a></li><li class="navelem"><a class="el" href="../../df/d1a/structnpc__ulduar__toasty__fire_1_1npc__ulduar__toasty__fire_a_i.html">npc_ulduar_toasty_fireAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:55 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:11 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

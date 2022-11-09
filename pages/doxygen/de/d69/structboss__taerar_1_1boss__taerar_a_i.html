@@ -549,7 +549,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a69171fba79d49d12a2e96fb5c2baa0aa" name="a69171fba79d49d12a2e96fb5c2baa0aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a69171fba79d49d12a2e96fb5c2baa0aa">&#9670;&#160;</a></span>boss_taerarAI()</h2>
 
@@ -573,7 +574,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  610</span>                                          : <a class="code hl_struct" href="../../dc/d39/structemerald__dragon_a_i.html">emerald_dragonAI</a>(creature)</div>
+<div class="line"><span class="lineno">  611</span>        {</div>
+<div class="line"><span class="lineno">  612</span>        }</div>
+<div class="ttc" id="astructemerald__dragon_a_i_html"><div class="ttname"><a href="../../dc/d39/structemerald__dragon_a_i.html">emerald_dragonAI</a></div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:96</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -624,7 +629,50 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  640</span>        {</div>
+<div class="line"><span class="lineno">  641</span>            <span class="comment">// At 75, 50 or 25 percent health, we need to activate the shades and go &quot;banished&quot;</span></div>
+<div class="line"><span class="lineno">  642</span>            <span class="comment">// Note: _stage holds the amount of times they have been summoned</span></div>
+<div class="line"><span class="lineno">  643</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a8ee658a07f28df0c5f46cedac25f68ab">_banished</a> &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">HealthBelowPctDamaged</a>(100 - (25 * <a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a2d49f2ce95d16cfc1b9525256f0a6bc2">_stage</a>), damage))</div>
+<div class="line"><span class="lineno">  644</span>            {</div>
+<div class="line"><span class="lineno">  645</span>                <a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a8ee658a07f28df0c5f46cedac25f68ab">_banished</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  646</span>                <a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a6b7bd08d3e4362201ee904019f9e6b51">_banishedTimer</a> = 60000;</div>
+<div class="line"><span class="lineno">  647</span> </div>
+<div class="line"><span class="lineno">  648</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2bdfe38bdc28869a9002094e4341d56e">InterruptNonMeleeSpells</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  649</span>                <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a3109a39616dac324a0cf2c043d905919">DoStopAttack</a>();</div>
+<div class="line"><span class="lineno">  650</span> </div>
+<div class="line"><span class="lineno">  651</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a1e3486b04db0ac0cb8a330ee6cdf5692a69d6a1eef0a65977ee466626008149a7">SAY_TAERAR_SUMMON_SHADES</a>);</div>
+<div class="line"><span class="lineno">  652</span> </div>
+<div class="line"><span class="lineno">  653</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a64bbd191ff8adcd734165e2585f8b5aa">TaerarShadeSpells</a>) / <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>);</div>
+<div class="line"><span class="lineno">  654</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; count; ++i)</div>
+<div class="line"><span class="lineno">  655</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a64bbd191ff8adcd734165e2585f8b5aa">TaerarShadeSpells</a>[i]);</div>
+<div class="line"><span class="lineno">  656</span>                <a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a6e77285330fcd09fd13ef0d029e2a554">_shades</a> += count;</div>
+<div class="line"><span class="lineno">  657</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a7751dddcaf4c588f4cfb32cf55a19762a69b7878773c5b06004dba75928e2788a">SPELL_SHADE</a>);</div>
+<div class="line"><span class="lineno">  658</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a> | <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  659</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">  660</span> </div>
+<div class="line"><span class="lineno">  661</span>                ++<a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a2d49f2ce95d16cfc1b9525256f0a6bc2">_stage</a>;</div>
+<div class="line"><span class="lineno">  662</span>            }</div>
+<div class="line"><span class="lineno">  663</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a></div><div class="ttdeci">@ REACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1023</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NON_ATTACKABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:449</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NOT_SELECTABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:473</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a1e3486b04db0ac0cb8a330ee6cdf5692a69d6a1eef0a65977ee466626008149a7"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a1e3486b04db0ac0cb8a330ee6cdf5692a69d6a1eef0a65977ee466626008149a7">SAY_TAERAR_SUMMON_SHADES</a></div><div class="ttdeci">@ SAY_TAERAR_SUMMON_SHADES</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:586</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a64bbd191ff8adcd734165e2585f8b5aa"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a64bbd191ff8adcd734165e2585f8b5aa">TaerarShadeSpells</a></div><div class="ttdeci">uint32 const TaerarShadeSpells[]</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:599</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a7751dddcaf4c588f4cfb32cf55a19762a69b7878773c5b06004dba75928e2788a"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a7751dddcaf4c588f4cfb32cf55a19762a69b7878773c5b06004dba75928e2788a">SPELL_SHADE</a></div><div class="ttdeci">@ SPELL_SHADE</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:592</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html_a2bdfe38bdc28869a9002094e4341d56e"><div class="ttname"><a href="../../da/db7/class_unit.html#a2bdfe38bdc28869a9002094e4341d56e">Unit::InterruptNonMeleeSpells</a></div><div class="ttdeci">void InterruptNonMeleeSpells(bool withDelayed, uint32 spellid=0, bool withInstant=true, bool bySelf=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4057</div></div>
+<div class="ttc" id="aclass_unit_html_ad08665e79b8df4fd5339b05ae1538dd9"><div class="ttname"><a href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">Unit::HealthBelowPctDamaged</a></div><div class="ttdeci">bool HealthBelowPctDamaged(int32 pct, uint32 damage) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1443</div></div>
+<div class="ttc" id="aclass_unit_html_ad9f2d48b20f62e17abf5c1892cebe296"><div class="ttname"><a href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">Unit::SetUnitFlag</a></div><div class="ttdeci">void SetUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1479</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a3109a39616dac324a0cf2c043d905919"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a3109a39616dac324a0cf2c043d905919">ScriptedAI::DoStopAttack</a></div><div class="ttdeci">void DoStopAttack()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:237</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructboss__taerar_1_1boss__taerar_a_i_html_a2d49f2ce95d16cfc1b9525256f0a6bc2"><div class="ttname"><a href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a2d49f2ce95d16cfc1b9525256f0a6bc2">boss_taerar::boss_taerarAI::_stage</a></div><div class="ttdeci">uint8 _stage</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:721</div></div>
+<div class="ttc" id="astructboss__taerar_1_1boss__taerar_a_i_html_a6b7bd08d3e4362201ee904019f9e6b51"><div class="ttname"><a href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a6b7bd08d3e4362201ee904019f9e6b51">boss_taerar::boss_taerarAI::_banishedTimer</a></div><div class="ttdeci">uint32 _banishedTimer</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:719</div></div>
+<div class="ttc" id="astructboss__taerar_1_1boss__taerar_a_i_html_a6e77285330fcd09fd13ef0d029e2a554"><div class="ttname"><a href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a6e77285330fcd09fd13ef0d029e2a554">boss_taerar::boss_taerarAI::_shades</a></div><div class="ttdeci">uint8 _shades</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:720</div></div>
+<div class="ttc" id="astructboss__taerar_1_1boss__taerar_a_i_html_a8ee658a07f28df0c5f46cedac25f68ab"><div class="ttname"><a href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a8ee658a07f28df0c5f46cedac25f68ab">boss_taerar::boss_taerarAI::_banished</a></div><div class="ttdeci">bool _banished</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:718</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab2c2033882758a5cd43e2befa9a551e1" name="ab2c2033882758a5cd43e2befa9a551e1"></a>
@@ -652,7 +700,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d84/class_world_boss_a_i.html#a2cb7b852c57088804011b2d445b811b9">WorldBossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  629</span>        {</div>
+<div class="line"><span class="lineno">  630</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a1e3486b04db0ac0cb8a330ee6cdf5692a883458463903f283f9769fd3447740f9">SAY_TAERAR_AGGRO</a>);</div>
+<div class="line"><span class="lineno">  631</span>            <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a66bdb1b993788a4851e527d6df68a48d">emerald_dragonAI::EnterCombat</a>(who);</div>
+<div class="line"><span class="lineno">  632</span>        }</div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a1e3486b04db0ac0cb8a330ee6cdf5692a883458463903f283f9769fd3447740f9"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a1e3486b04db0ac0cb8a330ee6cdf5692a883458463903f283f9769fd3447740f9">SAY_TAERAR_AGGRO</a></div><div class="ttdeci">@ SAY_TAERAR_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:585</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_a66bdb1b993788a4851e527d6df68a48d"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a66bdb1b993788a4851e527d6df68a48d">CreatureAI::EnterCombat</a></div><div class="ttdeci">virtual void EnterCombat(Unit *)</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:119</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a89750136787d549ac4c744a0e3b9239c" name="a89750136787d549ac4c744a0e3b9239c"></a>
@@ -680,7 +734,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dc/d39/structemerald__dragon_a_i.html#a6e60f146c7b86a119f269bf755831ac6">emerald_dragonAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  666</span>        {</div>
+<div class="line"><span class="lineno">  667</span>            <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno">  668</span>            {</div>
+<div class="line"><span class="lineno">  669</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74">EVENT_ARCANE_BLAST</a>:</div>
+<div class="line"><span class="lineno">  670</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a7751dddcaf4c588f4cfb32cf55a19762af122c6c3fe00bd98cedb873409dc4803">SPELL_ARCANE_BLAST</a>);</div>
+<div class="line"><span class="lineno">  671</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74">EVENT_ARCANE_BLAST</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(7000, 12000));</div>
+<div class="line"><span class="lineno">  672</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  673</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9">EVENT_BELLOWING_ROAR</a>:</div>
+<div class="line"><span class="lineno">  674</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a7751dddcaf4c588f4cfb32cf55a19762a38eeee81428ca2033a198b7bce3e3d53">SPELL_BELLOWING_ROAR</a>);</div>
+<div class="line"><span class="lineno">  675</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9">EVENT_BELLOWING_ROAR</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(20000, 30000));</div>
+<div class="line"><span class="lineno">  676</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  677</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  678</span>                    <a class="code hl_function" href="../../dc/d39/structemerald__dragon_a_i.html#a6e60f146c7b86a119f269bf755831ac6">emerald_dragonAI::ExecuteEvent</a>(eventId);</div>
+<div class="line"><span class="lineno">  679</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  680</span>            }</div>
+<div class="line"><span class="lineno">  681</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a7751dddcaf4c588f4cfb32cf55a19762a38eeee81428ca2033a198b7bce3e3d53"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a7751dddcaf4c588f4cfb32cf55a19762a38eeee81428ca2033a198b7bce3e3d53">SPELL_BELLOWING_ROAR</a></div><div class="ttdeci">@ SPELL_BELLOWING_ROAR</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:591</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a7751dddcaf4c588f4cfb32cf55a19762af122c6c3fe00bd98cedb873409dc4803"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a7751dddcaf4c588f4cfb32cf55a19762af122c6c3fe00bd98cedb873409dc4803">SPELL_ARCANE_BLAST</a></div><div class="ttdeci">@ SPELL_ARCANE_BLAST</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:596</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74">EVENT_ARCANE_BLAST</a></div><div class="ttdeci">@ EVENT_ARCANE_BLAST</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:85</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9">EVENT_BELLOWING_ROAR</a></div><div class="ttdeci">@ EVENT_BELLOWING_ROAR</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:86</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="astructemerald__dragon_a_i_html_a6e60f146c7b86a119f269bf755831ac6"><div class="ttname"><a href="../../dc/d39/structemerald__dragon_a_i.html#a6e60f146c7b86a119f269bf755831ac6">emerald_dragonAI::ExecuteEvent</a></div><div class="ttdeci">void ExecuteEvent(uint32 eventId) override</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="add2712022edbd88504de2dd147a098a0" name="add2712022edbd88504de2dd147a098a0"></a>
@@ -708,7 +785,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d84/class_world_boss_a_i.html#a012c70e390c46b8f326b91014091b3d7">WorldBossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  712</span>        {</div>
+<div class="line"><span class="lineno">  713</span>            <a class="code hl_function" href="../../d7/d84/class_world_boss_a_i.html#a72e92da9585e41f742ee0ff964340230">_JustDied</a>();</div>
+<div class="line"><span class="lineno">  714</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a> | <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  715</span>        }</div>
+<div class="ttc" id="aclass_unit_html_af9a5a43c2d7940c38f8b101409666a0d"><div class="ttname"><a href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">Unit::RemoveUnitFlag</a></div><div class="ttdeci">void RemoveUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1480</div></div>
+<div class="ttc" id="aclass_world_boss_a_i_html_a72e92da9585e41f742ee0ff964340230"><div class="ttname"><a href="../../d7/d84/class_world_boss_a_i.html#a72e92da9585e41f742ee0ff964340230">WorldBossAI::_JustDied</a></div><div class="ttdeci">void _JustDied()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:650</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a74a53b7c4672bcba1cc4f69407c23c42" name="a74a53b7c4672bcba1cc4f69407c23c42"></a>
@@ -735,7 +818,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dc/d39/structemerald__dragon_a_i.html#aff24939b53a7d74b41ac9170a8a71e9c">emerald_dragonAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  615</span>        {</div>
+<div class="line"><span class="lineno">  616</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a7751dddcaf4c588f4cfb32cf55a19762a69b7878773c5b06004dba75928e2788a">SPELL_SHADE</a>);</div>
+<div class="line"><span class="lineno">  617</span>            <a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a2d49f2ce95d16cfc1b9525256f0a6bc2">_stage</a> = 1;</div>
+<div class="line"><span class="lineno">  618</span> </div>
+<div class="line"><span class="lineno">  619</span>            <a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a6e77285330fcd09fd13ef0d029e2a554">_shades</a> = 0;</div>
+<div class="line"><span class="lineno">  620</span>            <a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a8ee658a07f28df0c5f46cedac25f68ab">_banished</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  621</span>            <a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a6b7bd08d3e4362201ee904019f9e6b51">_banishedTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  622</span> </div>
+<div class="line"><span class="lineno">  623</span>            <a class="code hl_function" href="../../dc/d39/structemerald__dragon_a_i.html#aff24939b53a7d74b41ac9170a8a71e9c">emerald_dragonAI::Reset</a>();</div>
+<div class="line"><span class="lineno">  624</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74">EVENT_ARCANE_BLAST</a>, 12000);</div>
+<div class="line"><span class="lineno">  625</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9">EVENT_BELLOWING_ROAR</a>, 30000);</div>
+<div class="line"><span class="lineno">  626</span>        }</div>
+<div class="ttc" id="aclass_unit_html_aac612f06e84142d92dcfc432b5feb4ac"><div class="ttname"><a href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">Unit::RemoveAurasDueToSpell</a></div><div class="ttdeci">void RemoveAurasDueToSpell(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, uint8 reqEffMask=0, AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4823</div></div>
+<div class="ttc" id="astructemerald__dragon_a_i_html_aff24939b53a7d74b41ac9170a8a71e9c"><div class="ttname"><a href="../../dc/d39/structemerald__dragon_a_i.html#aff24939b53a7d74b41ac9170a8a71e9c">emerald_dragonAI::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:101</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a35557d97df6d83c9fafead3f59e1af2e" name="a35557d97df6d83c9fafead3f59e1af2e"></a>
@@ -773,7 +870,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#aa84f573bdb0e556cf911d0a00f6ed5fb">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  635</span>        {</div>
+<div class="line"><span class="lineno">  636</span>            --<a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a6e77285330fcd09fd13ef0d029e2a554">_shades</a>;</div>
+<div class="line"><span class="lineno">  637</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a406213e6b3a1397c0026d5dc857f08a9" name="a406213e6b3a1397c0026d5dc857f08a9"></a>
@@ -801,7 +901,36 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dc/d39/structemerald__dragon_a_i.html#a221768f9ad3c79bbcdefd3092228e3b0">emerald_dragonAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  684</span>        {</div>
+<div class="line"><span class="lineno">  685</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">IsInCombat</a>())</div>
+<div class="line"><span class="lineno">  686</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  687</span> </div>
+<div class="line"><span class="lineno">  688</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a8ee658a07f28df0c5f46cedac25f68ab">_banished</a>)</div>
+<div class="line"><span class="lineno">  689</span>            {</div>
+<div class="line"><span class="lineno">  690</span>                <span class="comment">// If all three shades are dead, OR it has taken too long, end the current event and get Taerar back into business</span></div>
+<div class="line"><span class="lineno">  691</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a6b7bd08d3e4362201ee904019f9e6b51">_banishedTimer</a> &lt;= diff || !<a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a6e77285330fcd09fd13ef0d029e2a554">_shades</a>)</div>
+<div class="line"><span class="lineno">  692</span>                {</div>
+<div class="line"><span class="lineno">  693</span>                    <a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a8ee658a07f28df0c5f46cedac25f68ab">_banished</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  694</span> </div>
+<div class="line"><span class="lineno">  695</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a> | <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  696</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a7751dddcaf4c588f4cfb32cf55a19762a69b7878773c5b06004dba75928e2788a">SPELL_SHADE</a>);</div>
+<div class="line"><span class="lineno">  697</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno">  698</span>                }</div>
+<div class="line"><span class="lineno">  699</span>                <span class="comment">// _banishtimer has not expired, and we still have active shades:</span></div>
+<div class="line"><span class="lineno">  700</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  701</span>                    <a class="code hl_variable" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a6b7bd08d3e4362201ee904019f9e6b51">_banishedTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  702</span> </div>
+<div class="line"><span class="lineno">  703</span>                <span class="comment">// Update the events before we return (handled under emerald_dragonAI::UpdateAI(diff); if we&#39;re not inside this check)</span></div>
+<div class="line"><span class="lineno">  704</span>                <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  705</span> </div>
+<div class="line"><span class="lineno">  706</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  707</span>            }</div>
+<div class="line"><span class="lineno">  708</span>            <a class="code hl_function" href="../../dc/d39/structemerald__dragon_a_i.html#a221768f9ad3c79bbcdefd3092228e3b0">emerald_dragonAI::UpdateAI</a>(diff);</div>
+<div class="line"><span class="lineno">  709</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="aclass_unit_html_af5e75d013dfa8a8b888d7714992e3f2a"><div class="ttname"><a href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">Unit::IsInCombat</a></div><div class="ttdeci">bool IsInCombat() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1685</div></div>
+<div class="ttc" id="astructemerald__dragon_a_i_html_a221768f9ad3c79bbcdefd3092228e3b0"><div class="ttname"><a href="../../dc/d39/structemerald__dragon_a_i.html#a221768f9ad3c79bbcdefd3092228e3b0">emerald_dragonAI::UpdateAI</a></div><div class="ttdeci">void UpdateAI(uint32 diff) override</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:159</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -894,7 +1023,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d2/d8e/boss__emerald__dragons_8cpp.html">boss_emerald_dragons.cpp</a></li>
+<li><a class="el" href="../../">boss_emerald_dragons.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -902,7 +1031,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/dee/classboss__taerar.html">boss_taerar</a></li><li class="navelem"><a class="el" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html">boss_taerarAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:42 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:55 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

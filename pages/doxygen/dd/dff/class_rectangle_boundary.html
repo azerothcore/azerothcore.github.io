@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('dd/dff/class_rectangle_boundary.html',
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/da8/_area_boundary_8h_source.html">AreaBoundary.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">AreaBoundary.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for RectangleBoundary:</div>
 <div class="dyncontent">
@@ -158,7 +158,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a9ec96dfb6b1ee804cceaae2f2dce6a22"><td class="memItemLeft" align="right" valign="top">float const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dff/class_rectangle_boundary.html#a9ec96dfb6b1ee804cceaae2f2dce6a22">_maxY</a></td></tr>
 <tr class="separator:a9ec96dfb6b1ee804cceaae2f2dce6a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af401f84700a15fa1d4fcf78358a74735" name="af401f84700a15fa1d4fcf78358a74735"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af401f84700a15fa1d4fcf78358a74735">&#9670;&#160;</a></span>RectangleBoundary()</h2>
 
@@ -202,7 +203,14 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   23</span>                                                                                                          :</div>
+<div class="line"><span class="lineno">   24</span>    <a class="code hl_class" href="../../dd/d81/class_area_boundary.html">AreaBoundary</a>(isInverted), <a class="code hl_variable" href="../../dd/dff/class_rectangle_boundary.html#a77db64ebe7e7f5e9621bbbd6e38837e1">_minX</a>(southX), <a class="code hl_variable" href="../../dd/dff/class_rectangle_boundary.html#a3eff421dfe942634814e7526334f1c07">_maxX</a>(northX), <a class="code hl_variable" href="../../dd/dff/class_rectangle_boundary.html#af5a7e35d5d9ff23c722643141f01a916">_minY</a>(eastY), <a class="code hl_variable" href="../../dd/dff/class_rectangle_boundary.html#a9ec96dfb6b1ee804cceaae2f2dce6a22">_maxY</a>(westY) { }</div>
+<div class="ttc" id="aclass_area_boundary_html"><div class="ttname"><a href="../../dd/d81/class_area_boundary.html">AreaBoundary</a></div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:24</div></div>
+<div class="ttc" id="aclass_rectangle_boundary_html_a3eff421dfe942634814e7526334f1c07"><div class="ttname"><a href="../../dd/dff/class_rectangle_boundary.html#a3eff421dfe942634814e7526334f1c07">RectangleBoundary::_maxX</a></div><div class="ttdeci">float const _maxX</div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:85</div></div>
+<div class="ttc" id="aclass_rectangle_boundary_html_a77db64ebe7e7f5e9621bbbd6e38837e1"><div class="ttname"><a href="../../dd/dff/class_rectangle_boundary.html#a77db64ebe7e7f5e9621bbbd6e38837e1">RectangleBoundary::_minX</a></div><div class="ttdeci">float const _minX</div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:85</div></div>
+<div class="ttc" id="aclass_rectangle_boundary_html_a9ec96dfb6b1ee804cceaae2f2dce6a22"><div class="ttname"><a href="../../dd/dff/class_rectangle_boundary.html#a9ec96dfb6b1ee804cceaae2f2dce6a22">RectangleBoundary::_maxY</a></div><div class="ttdeci">float const _maxY</div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:85</div></div>
+<div class="ttc" id="aclass_rectangle_boundary_html_af5a7e35d5d9ff23c722643141f01a916"><div class="ttname"><a href="../../dd/dff/class_rectangle_boundary.html#af5a7e35d5d9ff23c722643141f01a916">RectangleBoundary::_minY</a></div><div class="ttdeci">float const _minY</div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:85</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -231,7 +239,15 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../dd/d81/class_area_boundary.html#ae5580b0044dba24d100831fe51ee1abc">AreaBoundary</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <span class="keywordflow">return</span> !(</div>
+<div class="line"><span class="lineno">   28</span>        pos-&gt;GetPositionX() &lt; <a class="code hl_variable" href="../../dd/dff/class_rectangle_boundary.html#a77db64ebe7e7f5e9621bbbd6e38837e1">_minX</a> ||</div>
+<div class="line"><span class="lineno">   29</span>        pos-&gt;GetPositionX() &gt; <a class="code hl_variable" href="../../dd/dff/class_rectangle_boundary.html#a3eff421dfe942634814e7526334f1c07">_maxX</a> ||</div>
+<div class="line"><span class="lineno">   30</span>        pos-&gt;GetPositionY() &lt; <a class="code hl_variable" href="../../dd/dff/class_rectangle_boundary.html#af5a7e35d5d9ff23c722643141f01a916">_minY</a> ||</div>
+<div class="line"><span class="lineno">   31</span>        pos-&gt;GetPositionY() &gt; <a class="code hl_variable" href="../../dd/dff/class_rectangle_boundary.html#a9ec96dfb6b1ee804cceaae2f2dce6a22">_maxY</a></div>
+<div class="line"><span class="lineno">   32</span>        );</div>
+<div class="line"><span class="lineno">   33</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -324,8 +340,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Maps/<a class="el" href="../../d1/da8/_area_boundary_8h_source.html">AreaBoundary.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Maps/<a class="el" href="../../d5/d62/_area_boundary_8cpp.html">AreaBoundary.cpp</a></li>
+<li><a class="el" href="../../">AreaBoundary.h</a></li>
+<li><a class="el" href="../../">AreaBoundary.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -333,7 +349,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/dff/class_rectangle_boundary.html">RectangleBoundary</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

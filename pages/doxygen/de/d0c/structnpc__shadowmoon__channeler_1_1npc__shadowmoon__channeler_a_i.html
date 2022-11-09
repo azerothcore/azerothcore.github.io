@@ -493,7 +493,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9315c3136e6d9b424b5ba154a857e96f" name="a9315c3136e6d9b424b5ba154a857e96f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9315c3136e6d9b424b5ba154a857e96f">&#9670;&#160;</a></span>npc_shadowmoon_channelerAI()</h2>
 
@@ -517,7 +518,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  293</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) {}</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -546,7 +549,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  310</span>        {</div>
+<div class="line"><span class="lineno">  311</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* kelidan = <a class="code hl_function" href="../../de/d0c/structnpc__shadowmoon__channeler_1_1npc__shadowmoon__channeler_a_i.html#aba0a4e72a01cc067e109f55ab428920e">GetKelidan</a>())</div>
+<div class="line"><span class="lineno">  312</span>                kelidan-&gt;AI()-&gt;DoAction(<a class="code hl_enumvalue" href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780a360eab98f9121a8d550b55111d967d2c">ACTION_CHANNELER_ENGAGED</a>);</div>
+<div class="line"><span class="lineno">  313</span> </div>
+<div class="line"><span class="lineno">  314</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2bdfe38bdc28869a9002094e4341d56e">InterruptNonMeleeSpells</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  315</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780a97989e823ec77d02c224f173791a7d70">EVENT_SPELL_SHADOW_BOLT</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(1500, 3500));</div>
+<div class="line"><span class="lineno">  316</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780abca0b3e6ecc211bebc44955a1e5cf9a5">EVENT_SPELL_MARK</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(5000, 6500));</div>
+<div class="line"><span class="lineno">  317</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__kelidan__the__breaker_8cpp_html_af3ac4dea1d15f193174d05b8a50b0780a360eab98f9121a8d550b55111d967d2c"><div class="ttname"><a href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780a360eab98f9121a8d550b55111d967d2c">ACTION_CHANNELER_ENGAGED</a></div><div class="ttdeci">@ ACTION_CHANNELER_ENGAGED</div><div class="ttdef"><b>Definition:</b> boss_kelidan_the_breaker.cpp:54</div></div>
+<div class="ttc" id="aboss__kelidan__the__breaker_8cpp_html_af3ac4dea1d15f193174d05b8a50b0780a97989e823ec77d02c224f173791a7d70"><div class="ttname"><a href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780a97989e823ec77d02c224f173791a7d70">EVENT_SPELL_SHADOW_BOLT</a></div><div class="ttdeci">@ EVENT_SPELL_SHADOW_BOLT</div><div class="ttdef"><b>Definition:</b> boss_kelidan_the_breaker.cpp:50</div></div>
+<div class="ttc" id="aboss__kelidan__the__breaker_8cpp_html_af3ac4dea1d15f193174d05b8a50b0780abca0b3e6ecc211bebc44955a1e5cf9a5"><div class="ttname"><a href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780abca0b3e6ecc211bebc44955a1e5cf9a5">EVENT_SPELL_MARK</a></div><div class="ttdeci">@ EVENT_SPELL_MARK</div><div class="ttdef"><b>Definition:</b> boss_kelidan_the_breaker.cpp:51</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_unit_html_a2bdfe38bdc28869a9002094e4341d56e"><div class="ttname"><a href="../../da/db7/class_unit.html#a2bdfe38bdc28869a9002094e4341d56e">Unit::InterruptNonMeleeSpells</a></div><div class="ttdeci">void InterruptNonMeleeSpells(bool withDelayed, uint32 spellid=0, bool withInstant=true, bool bySelf=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4057</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__shadowmoon__channeler_1_1npc__shadowmoon__channeler_a_i_html_aba0a4e72a01cc067e109f55ab428920e"><div class="ttname"><a href="../../de/d0c/structnpc__shadowmoon__channeler_1_1npc__shadowmoon__channeler_a_i.html#aba0a4e72a01cc067e109f55ab428920e">npc_shadowmoon_channeler::npc_shadowmoon_channelerAI::GetKelidan</a></div><div class="ttdeci">Creature * GetKelidan()</div><div class="ttdef"><b>Definition:</b> boss_kelidan_the_breaker.cpp:302</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aba0a4e72a01cc067e109f55ab428920e" name="aba0a4e72a01cc067e109f55ab428920e"></a>
@@ -571,7 +591,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  303</span>        {</div>
+<div class="line"><span class="lineno">  304</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno">  305</span>                <span class="keywordflow">return</span> <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">GetGuidData</a>(<a class="code hl_enumvalue" href="../../de/d07/blood__furnace_8h.html#ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3">DATA_KELIDAN</a>));</div>
+<div class="line"><span class="lineno">  306</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  307</span>        }</div>
+<div class="ttc" id="ablood__furnace_8h_html_ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3"><div class="ttname"><a href="../../de/d07/blood__furnace_8h.html#ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3">DATA_KELIDAN</a></div><div class="ttdeci">@ DATA_KELIDAN</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:30</div></div>
+<div class="ttc" id="aclass_instance_script_html_a3be7f24ca31c9433aca546e1087109b4"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript::GetGuidData</a></div><div class="ttdeci">ObjectGuid GetGuidData(uint32 type) const override</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:93</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae0a0bbcac49cbce65abc8c44df82ba62" name="ae0a0bbcac49cbce65abc8c44df82ba62"></a>
@@ -599,7 +628,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  320</span>        {</div>
+<div class="line"><span class="lineno">  321</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* kelidan = <a class="code hl_function" href="../../de/d0c/structnpc__shadowmoon__channeler_1_1npc__shadowmoon__channeler_a_i.html#aba0a4e72a01cc067e109f55ab428920e">GetKelidan</a>())</div>
+<div class="line"><span class="lineno">  322</span>                kelidan-&gt;AI()-&gt;DoAction(<a class="code hl_enumvalue" href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780a34572bbcf4442b17010973accdad7b1e">ACTION_CHANNELER_DIED</a>);</div>
+<div class="line"><span class="lineno">  323</span>        }</div>
+<div class="ttc" id="aboss__kelidan__the__breaker_8cpp_html_af3ac4dea1d15f193174d05b8a50b0780a34572bbcf4442b17010973accdad7b1e"><div class="ttname"><a href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780a34572bbcf4442b17010973accdad7b1e">ACTION_CHANNELER_DIED</a></div><div class="ttdeci">@ ACTION_CHANNELER_DIED</div><div class="ttdef"><b>Definition:</b> boss_kelidan_the_breaker.cpp:55</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5cf3d34cfbcdcb092514d3338b953c9c" name="a5cf3d34cfbcdcb092514d3338b953c9c"></a>
@@ -626,7 +660,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  298</span>        {</div>
+<div class="line"><span class="lineno">  299</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">  300</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1c5a35f06dfebd47259a9773f32ebc1e" name="a1c5a35f06dfebd47259a9773f32ebc1e"></a>
@@ -654,7 +691,42 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  326</span>        {</div>
+<div class="line"><span class="lineno">  327</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  328</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  329</span> </div>
+<div class="line"><span class="lineno">  330</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  331</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">  332</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  333</span> </div>
+<div class="line"><span class="lineno">  334</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">  335</span>            {</div>
+<div class="line"><span class="lineno">  336</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780a97989e823ec77d02c224f173791a7d70">EVENT_SPELL_SHADOW_BOLT</a>:</div>
+<div class="line"><span class="lineno">  337</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a14abf83c60abf99df6186e0247ce20bd">IsHeroic</a>() ? <a class="code hl_enumvalue" href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780add02af55d4461814bd682194051aabb7">SPELL_SHADOW_BOLT_H</a> : <a class="code hl_enumvalue" href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780a8872edea8a2ac8c4e895c975482b9413">SPELL_SHADOW_BOLT</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  338</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(6000, 7500));</div>
+<div class="line"><span class="lineno">  339</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  340</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780abca0b3e6ecc211bebc44955a1e5cf9a5">EVENT_SPELL_MARK</a>:</div>
+<div class="line"><span class="lineno">  341</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0))</div>
+<div class="line"><span class="lineno">  342</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780a91f9f24a4f933a6dd1aaf35256bb3160">SPELL_MARK_OF_SHADOW</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  343</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(16000, 17500));</div>
+<div class="line"><span class="lineno">  344</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  345</span>            }</div>
+<div class="line"><span class="lineno">  346</span> </div>
+<div class="line"><span class="lineno">  347</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  348</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__kelidan__the__breaker_8cpp_html_af3ac4dea1d15f193174d05b8a50b0780a8872edea8a2ac8c4e895c975482b9413"><div class="ttname"><a href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780a8872edea8a2ac8c4e895c975482b9413">SPELL_SHADOW_BOLT</a></div><div class="ttdeci">@ SPELL_SHADOW_BOLT</div><div class="ttdef"><b>Definition:</b> boss_kelidan_the_breaker.cpp:40</div></div>
+<div class="ttc" id="aboss__kelidan__the__breaker_8cpp_html_af3ac4dea1d15f193174d05b8a50b0780a91f9f24a4f933a6dd1aaf35256bb3160"><div class="ttname"><a href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780a91f9f24a4f933a6dd1aaf35256bb3160">SPELL_MARK_OF_SHADOW</a></div><div class="ttdeci">@ SPELL_MARK_OF_SHADOW</div><div class="ttdef"><b>Definition:</b> boss_kelidan_the_breaker.cpp:42</div></div>
+<div class="ttc" id="aboss__kelidan__the__breaker_8cpp_html_af3ac4dea1d15f193174d05b8a50b0780add02af55d4461814bd682194051aabb7"><div class="ttname"><a href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html#af3ac4dea1d15f193174d05b8a50b0780add02af55d4461814bd682194051aabb7">SPELL_SHADOW_BOLT_H</a></div><div class="ttdeci">@ SPELL_SHADOW_BOLT_H</div><div class="ttdef"><b>Definition:</b> boss_kelidan_the_breaker.cpp:41</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a14abf83c60abf99df6186e0247ce20bd"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a14abf83c60abf99df6186e0247ce20bd">ScriptedAI::IsHeroic</a></div><div class="ttdeci">bool IsHeroic() const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:355</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -673,7 +745,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/HellfireCitadel/BloodFurnace/<a class="el" href="../../dc/d5b/boss__kelidan__the__breaker_8cpp.html">boss_kelidan_the_breaker.cpp</a></li>
+<li><a class="el" href="../../">boss_kelidan_the_breaker.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -681,7 +753,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/da0/classnpc__shadowmoon__channeler.html">npc_shadowmoon_channeler</a></li><li class="navelem"><a class="el" href="../../de/d0c/structnpc__shadowmoon__channeler_1_1npc__shadowmoon__channeler_a_i.html">npc_shadowmoon_channelerAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:53 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:09 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

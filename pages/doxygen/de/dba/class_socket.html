@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('de/dba/class_socket.html','../../'); i
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../de/d1c/_socket_8h_source.html">Socket.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Socket.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Socket&lt; T &gt;:</div>
 <div class="dyncontent">
@@ -192,7 +192,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:afd3e05d1d3f0079e2771558580a92ace"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dba/class_socket.html#afd3e05d1d3f0079e2771558580a92ace">_isWritingAsync</a></td></tr>
 <tr class="separator:afd3e05d1d3f0079e2771558580a92ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
+class Socket&lt; T &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a130e56b70353728a6d163e259776b969" name="a130e56b70353728a6d163e259776b969"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a130e56b70353728a6d163e259776b969">&#9670;&#160;</a></span>Socket()</h2>
 
@@ -218,7 +220,21 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   41</span>                                        : <a class="code hl_variable" href="../../de/dba/class_socket.html#ab97aba61be0146211d2a73e31f6a4c75">_socket</a>(std::move(socket)), <a class="code hl_variable" href="../../de/dba/class_socket.html#a691b6826b99a376b5f09fb9461ebc76a">_remoteAddress</a>(<a class="code hl_variable" href="../../de/dba/class_socket.html#ab97aba61be0146211d2a73e31f6a4c75">_socket</a>.remote_endpoint().address()),</div>
+<div class="line"><span class="lineno">   42</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#a3a90e7ac98df91df2cb0d34a63a82fc0">_remotePort</a>(<a class="code hl_variable" href="../../de/dba/class_socket.html#ab97aba61be0146211d2a73e31f6a4c75">_socket</a>.remote_endpoint().port()), <a class="code hl_variable" href="../../de/dba/class_socket.html#ad06cbfa1d83dd5c1d4c2a087c3078d70">_readBuffer</a>(), <a class="code hl_variable" href="../../de/dba/class_socket.html#a5e470cada88883def82807bf15fb5679">_closed</a>(<span class="keyword">false</span>), <a class="code hl_variable" href="../../de/dba/class_socket.html#a56f5095c4fd283729c4f14dc413a2934">_closing</a>(<span class="keyword">false</span>), <a class="code hl_variable" href="../../de/dba/class_socket.html#afd3e05d1d3f0079e2771558580a92ace">_isWritingAsync</a>(<span class="keyword">false</span>)</div>
+<div class="line"><span class="lineno">   43</span>    {</div>
+<div class="line"><span class="lineno">   44</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#ad06cbfa1d83dd5c1d4c2a087c3078d70">_readBuffer</a>.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a38f46c8d6dd9a13ee51d4a429837ae9b">Resize</a>(<a class="code hl_define" href="../../de/d1c/_socket_8h.html#a16ba013af02b9d4400b5e47d8daa022b">READ_BLOCK_SIZE</a>);</div>
+<div class="line"><span class="lineno">   45</span>    }</div>
+<div class="ttc" id="a_socket_8h_html_a16ba013af02b9d4400b5e47d8daa022b"><div class="ttname"><a href="../../de/d1c/_socket_8h.html#a16ba013af02b9d4400b5e47d8daa022b">READ_BLOCK_SIZE</a></div><div class="ttdeci">#define READ_BLOCK_SIZE</div><div class="ttdef"><b>Definition:</b> Socket.h:32</div></div>
+<div class="ttc" id="aclass_message_buffer_html_a38f46c8d6dd9a13ee51d4a429837ae9b"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#a38f46c8d6dd9a13ee51d4a429837ae9b">MessageBuffer::Resize</a></div><div class="ttdeci">void Resize(size_type bytes)</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:52</div></div>
+<div class="ttc" id="aclass_socket_html_a3a90e7ac98df91df2cb0d34a63a82fc0"><div class="ttname"><a href="../../de/dba/class_socket.html#a3a90e7ac98df91df2cb0d34a63a82fc0">Socket::_remotePort</a></div><div class="ttdeci">uint16 _remotePort</div><div class="ttdef"><b>Definition:</b> Socket.h:277</div></div>
+<div class="ttc" id="aclass_socket_html_a56f5095c4fd283729c4f14dc413a2934"><div class="ttname"><a href="../../de/dba/class_socket.html#a56f5095c4fd283729c4f14dc413a2934">Socket::_closing</a></div><div class="ttdeci">std::atomic&lt; bool &gt; _closing</div><div class="ttdef"><b>Definition:</b> Socket.h:283</div></div>
+<div class="ttc" id="aclass_socket_html_a5e470cada88883def82807bf15fb5679"><div class="ttname"><a href="../../de/dba/class_socket.html#a5e470cada88883def82807bf15fb5679">Socket::_closed</a></div><div class="ttdeci">std::atomic&lt; bool &gt; _closed</div><div class="ttdef"><b>Definition:</b> Socket.h:282</div></div>
+<div class="ttc" id="aclass_socket_html_a691b6826b99a376b5f09fb9461ebc76a"><div class="ttname"><a href="../../de/dba/class_socket.html#a691b6826b99a376b5f09fb9461ebc76a">Socket::_remoteAddress</a></div><div class="ttdeci">boost::asio::ip::address _remoteAddress</div><div class="ttdef"><b>Definition:</b> Socket.h:276</div></div>
+<div class="ttc" id="aclass_socket_html_ab97aba61be0146211d2a73e31f6a4c75"><div class="ttname"><a href="../../de/dba/class_socket.html#ab97aba61be0146211d2a73e31f6a4c75">Socket::_socket</a></div><div class="ttdeci">tcp::socket _socket</div><div class="ttdef"><b>Definition:</b> Socket.h:274</div></div>
+<div class="ttc" id="aclass_socket_html_ad06cbfa1d83dd5c1d4c2a087c3078d70"><div class="ttname"><a href="../../de/dba/class_socket.html#ad06cbfa1d83dd5c1d4c2a087c3078d70">Socket::_readBuffer</a></div><div class="ttdeci">MessageBuffer _readBuffer</div><div class="ttdef"><b>Definition:</b> Socket.h:279</div></div>
+<div class="ttc" id="aclass_socket_html_afd3e05d1d3f0079e2771558580a92ace"><div class="ttname"><a href="../../de/dba/class_socket.html#afd3e05d1d3f0079e2771558580a92ace">Socket::_isWritingAsync</a></div><div class="ttdeci">bool _isWritingAsync</div><div class="ttdef"><b>Definition:</b> Socket.h:285</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5f3e35a13e85c53883260a1fd296e98d" name="a5f3e35a13e85c53883260a1fd296e98d"></a>
@@ -245,7 +261,12 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   48</span>    {</div>
+<div class="line"><span class="lineno">   49</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#a5e470cada88883def82807bf15fb5679">_closed</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   50</span>        boost::system::error_code error;</div>
+<div class="line"><span class="lineno">   51</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#ab97aba61be0146211d2a73e31f6a4c75">_socket</a>.close(error);</div>
+<div class="line"><span class="lineno">   52</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -273,7 +294,28 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  150</span>    {</div>
+<div class="line"><span class="lineno">  151</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/dba/class_socket.html#afd3e05d1d3f0079e2771558580a92ace">_isWritingAsync</a>)</div>
+<div class="line"><span class="lineno">  152</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  153</span> </div>
+<div class="line"><span class="lineno">  154</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#afd3e05d1d3f0079e2771558580a92ace">_isWritingAsync</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  155</span> </div>
+<div class="line"><span class="lineno">  156</span><span class="preprocessor">#ifdef AC_SOCKET_USE_IOCP</span></div>
+<div class="line"><span class="lineno">  157</span>        <a class="code hl_class" href="../../d7/d8e/class_message_buffer.html">MessageBuffer</a>&amp; buffer = <a class="code hl_variable" href="../../de/dba/class_socket.html#a56e1175a1c6d8dc62d7c06076ba37147">_writeQueue</a>.front();</div>
+<div class="line"><span class="lineno">  158</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#ab97aba61be0146211d2a73e31f6a4c75">_socket</a>.async_write_some(boost::asio::buffer(buffer.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a78f07c4d5aaa7d405ddf8ca2c6d39f11">GetReadPointer</a>(), buffer.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a8ae995ff5da60ca581e3539a511780be">GetActiveSize</a>()), std::bind(&amp;<a class="code hl_class" href="../../de/dba/class_socket.html">Socket&lt;T&gt;::WriteHandler</a>,</div>
+<div class="line"><span class="lineno">  159</span>            this-&gt;shared_from_this(), std::placeholders::_1, std::placeholders::_2));</div>
+<div class="line"><span class="lineno">  160</span><span class="preprocessor">#else</span></div>
+<div class="line"><span class="lineno">  161</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#ab97aba61be0146211d2a73e31f6a4c75">_socket</a>.async_write_some(boost::asio::null_buffers(), std::bind(&amp;<a class="code hl_class" href="../../de/dba/class_socket.html">Socket&lt;T&gt;::WriteHandlerWrapper</a>,</div>
+<div class="line"><span class="lineno">  162</span>            this-&gt;shared_from_this(), std::placeholders::_1, std::placeholders::_2));</div>
+<div class="line"><span class="lineno">  163</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">  164</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  165</span>    }</div>
+<div class="ttc" id="aclass_message_buffer_html"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html">MessageBuffer</a></div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:26</div></div>
+<div class="ttc" id="aclass_message_buffer_html_a78f07c4d5aaa7d405ddf8ca2c6d39f11"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#a78f07c4d5aaa7d405ddf8ca2c6d39f11">MessageBuffer::GetReadPointer</a></div><div class="ttdeci">uint8 * GetReadPointer()</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:58</div></div>
+<div class="ttc" id="aclass_message_buffer_html_a8ae995ff5da60ca581e3539a511780be"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#a8ae995ff5da60ca581e3539a511780be">MessageBuffer::GetActiveSize</a></div><div class="ttdeci">size_type GetActiveSize() const</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:64</div></div>
+<div class="ttc" id="aclass_socket_html"><div class="ttname"><a href="../../de/dba/class_socket.html">Socket</a></div><div class="ttdef"><b>Definition:</b> Socket.h:39</div></div>
+<div class="ttc" id="aclass_socket_html_a56e1175a1c6d8dc62d7c06076ba37147"><div class="ttname"><a href="../../de/dba/class_socket.html#a56e1175a1c6d8dc62d7c06076ba37147">Socket::_writeQueue</a></div><div class="ttdeci">std::queue&lt; MessageBuffer &gt; _writeQueue</div><div class="ttdef"><b>Definition:</b> Socket.h:280</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa07b98bd510373e35257ed4a4898701c" name="aa07b98bd510373e35257ed4a4898701c"></a>
@@ -300,7 +342,24 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   87</span>    {</div>
+<div class="line"><span class="lineno">   88</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../de/dba/class_socket.html#af6865d7d857579a362047017956440ca">IsOpen</a>())</div>
+<div class="line"><span class="lineno">   89</span>        {</div>
+<div class="line"><span class="lineno">   90</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   91</span>        }</div>
+<div class="line"><span class="lineno">   92</span> </div>
+<div class="line"><span class="lineno">   93</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#ad06cbfa1d83dd5c1d4c2a087c3078d70">_readBuffer</a>.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#ae323e0a33bb1fa30100aa1e63a2cc6b8">Normalize</a>();</div>
+<div class="line"><span class="lineno">   94</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#ad06cbfa1d83dd5c1d4c2a087c3078d70">_readBuffer</a>.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#addcd9e859b706753af59a696d7b91c30">EnsureFreeSpace</a>();</div>
+<div class="line"><span class="lineno">   95</span> </div>
+<div class="line"><span class="lineno">   96</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#ab97aba61be0146211d2a73e31f6a4c75">_socket</a>.async_read_some(boost::asio::buffer(<a class="code hl_variable" href="../../de/dba/class_socket.html#ad06cbfa1d83dd5c1d4c2a087c3078d70">_readBuffer</a>.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a960c58291dd38003298dbcf85d649568">GetWritePointer</a>(), <a class="code hl_variable" href="../../de/dba/class_socket.html#ad06cbfa1d83dd5c1d4c2a087c3078d70">_readBuffer</a>.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a3cfe272533d018af34b8e83cf7a05138">GetRemainingSpace</a>()),</div>
+<div class="line"><span class="lineno">   97</span>            std::bind(&amp;<a class="code hl_class" href="../../de/dba/class_socket.html">Socket&lt;T&gt;::ReadHandlerInternal</a>, this-&gt;shared_from_this(), std::placeholders::_1, std::placeholders::_2));</div>
+<div class="line"><span class="lineno">   98</span>    }</div>
+<div class="ttc" id="aclass_message_buffer_html_a3cfe272533d018af34b8e83cf7a05138"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#a3cfe272533d018af34b8e83cf7a05138">MessageBuffer::GetRemainingSpace</a></div><div class="ttdeci">size_type GetRemainingSpace() const</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:65</div></div>
+<div class="ttc" id="aclass_message_buffer_html_a960c58291dd38003298dbcf85d649568"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#a960c58291dd38003298dbcf85d649568">MessageBuffer::GetWritePointer</a></div><div class="ttdeci">uint8 * GetWritePointer()</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:59</div></div>
+<div class="ttc" id="aclass_message_buffer_html_addcd9e859b706753af59a696d7b91c30"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#addcd9e859b706753af59a696d7b91c30">MessageBuffer::EnsureFreeSpace</a></div><div class="ttdeci">void EnsureFreeSpace()</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:84</div></div>
+<div class="ttc" id="aclass_message_buffer_html_ae323e0a33bb1fa30100aa1e63a2cc6b8"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#ae323e0a33bb1fa30100aa1e63a2cc6b8">MessageBuffer::Normalize</a></div><div class="ttdeci">void Normalize()</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:69</div></div>
+<div class="ttc" id="aclass_socket_html_af6865d7d857579a362047017956440ca"><div class="ttname"><a href="../../de/dba/class_socket.html#af6865d7d857579a362047017956440ca">Socket::IsOpen</a></div><div class="ttdeci">bool IsOpen() const</div><div class="ttdef"><b>Definition:</b> Socket.h:123</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af02ebda22cc92bd7394eb5f3cb0dec73" name="af02ebda22cc92bd7394eb5f3cb0dec73"></a>
@@ -328,7 +387,19 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  101</span>    {</div>
+<div class="line"><span class="lineno">  102</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../de/dba/class_socket.html#af6865d7d857579a362047017956440ca">IsOpen</a>())</div>
+<div class="line"><span class="lineno">  103</span>        {</div>
+<div class="line"><span class="lineno">  104</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  105</span>        }</div>
+<div class="line"><span class="lineno">  106</span> </div>
+<div class="line"><span class="lineno">  107</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#ad06cbfa1d83dd5c1d4c2a087c3078d70">_readBuffer</a>.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#ae323e0a33bb1fa30100aa1e63a2cc6b8">Normalize</a>();</div>
+<div class="line"><span class="lineno">  108</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#ad06cbfa1d83dd5c1d4c2a087c3078d70">_readBuffer</a>.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#addcd9e859b706753af59a696d7b91c30">EnsureFreeSpace</a>();</div>
+<div class="line"><span class="lineno">  109</span> </div>
+<div class="line"><span class="lineno">  110</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#ab97aba61be0146211d2a73e31f6a4c75">_socket</a>.async_read_some(boost::asio::buffer(<a class="code hl_variable" href="../../de/dba/class_socket.html#ad06cbfa1d83dd5c1d4c2a087c3078d70">_readBuffer</a>.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a960c58291dd38003298dbcf85d649568">GetWritePointer</a>(), <a class="code hl_variable" href="../../de/dba/class_socket.html#ad06cbfa1d83dd5c1d4c2a087c3078d70">_readBuffer</a>.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a3cfe272533d018af34b8e83cf7a05138">GetRemainingSpace</a>()),</div>
+<div class="line"><span class="lineno">  111</span>            std::bind(callback, this-&gt;shared_from_this(), std::placeholders::_1, std::placeholders::_2));</div>
+<div class="line"><span class="lineno">  112</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af7e10e251e6a419b44d7e87339343c2a" name="af7e10e251e6a419b44d7e87339343c2a"></a>
@@ -355,7 +426,23 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  126</span>    {</div>
+<div class="line"><span class="lineno">  127</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/dba/class_socket.html#a5e470cada88883def82807bf15fb5679">_closed</a>.exchange(<span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  128</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  129</span> </div>
+<div class="line"><span class="lineno">  130</span>        boost::system::error_code shutdownError;</div>
+<div class="line"><span class="lineno">  131</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#ab97aba61be0146211d2a73e31f6a4c75">_socket</a>.shutdown(boost::asio::socket_base::shutdown_send, shutdownError);</div>
+<div class="line"><span class="lineno">  132</span> </div>
+<div class="line"><span class="lineno">  133</span>        <span class="keywordflow">if</span> (shutdownError)</div>
+<div class="line"><span class="lineno">  134</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;Socket::CloseSocket: {} errored when shutting down socket: {} ({})&quot;</span>, <a class="code hl_function" href="../../de/dba/class_socket.html#a328c412cd257eebe6018d8f095d20cb6">GetRemoteIpAddress</a>().to_string(),</div>
+<div class="line"><span class="lineno">  135</span>                shutdownError.value(), shutdownError.message());</div>
+<div class="line"><span class="lineno">  136</span> </div>
+<div class="line"><span class="lineno">  137</span>        <a class="code hl_function" href="../../de/dba/class_socket.html#a8082c8dd26c52c7fc417a574335f5742">OnClose</a>();</div>
+<div class="line"><span class="lineno">  138</span>    }</div>
+<div class="ttc" id="a_log_8h_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:171</div></div>
+<div class="ttc" id="aclass_socket_html_a328c412cd257eebe6018d8f095d20cb6"><div class="ttname"><a href="../../de/dba/class_socket.html#a328c412cd257eebe6018d8f095d20cb6">Socket::GetRemoteIpAddress</a></div><div class="ttdeci">boost::asio::ip::address GetRemoteIpAddress() const</div><div class="ttdef"><b>Definition:</b> Socket.h:76</div></div>
+<div class="ttc" id="aclass_socket_html_a8082c8dd26c52c7fc417a574335f5742"><div class="ttname"><a href="../../de/dba/class_socket.html#a8082c8dd26c52c7fc417a574335f5742">Socket::OnClose</a></div><div class="ttdeci">virtual void OnClose()</div><div class="ttdef"><b>Definition:</b> Socket.h:146</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a161ac86aeb04ffb4881594a588df0ff8" name="a161ac86aeb04ffb4881594a588df0ff8"></a>
@@ -384,7 +471,8 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Marks the socket for closing after write buffer becomes empty. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  141</span>{ <a class="code hl_variable" href="../../de/dba/class_socket.html#a56f5095c4fd283729c4f14dc413a2934">_closing</a> = <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a043c2ffaa4a78ad3a1bcefa3b3714746" name="a043c2ffaa4a78ad3a1bcefa3b3714746"></a>
@@ -411,7 +499,8 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  143</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/dba/class_socket.html#ad06cbfa1d83dd5c1d4c2a087c3078d70">_readBuffer</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a328c412cd257eebe6018d8f095d20cb6" name="a328c412cd257eebe6018d8f095d20cb6"></a>
@@ -438,7 +527,10 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   77</span>    {</div>
+<div class="line"><span class="lineno">   78</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/dba/class_socket.html#a691b6826b99a376b5f09fb9461ebc76a">_remoteAddress</a>;</div>
+<div class="line"><span class="lineno">   79</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a56aa61c864740bc0ba911e0c425dbeec" name="a56aa61c864740bc0ba911e0c425dbeec"></a>
@@ -465,7 +557,10 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   82</span>    {</div>
+<div class="line"><span class="lineno">   83</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/dba/class_socket.html#a3a90e7ac98df91df2cb0d34a63a82fc0">_remotePort</a>;</div>
+<div class="line"><span class="lineno">   84</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abfadec68920ead4693d2f5343738e580" name="abfadec68920ead4693d2f5343738e580"></a>
@@ -492,7 +587,63 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  219</span>    {</div>
+<div class="line"><span class="lineno">  220</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/dba/class_socket.html#a56e1175a1c6d8dc62d7c06076ba37147">_writeQueue</a>.empty())</div>
+<div class="line"><span class="lineno">  221</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  222</span> </div>
+<div class="line"><span class="lineno">  223</span>        <a class="code hl_class" href="../../d7/d8e/class_message_buffer.html">MessageBuffer</a>&amp; queuedMessage = <a class="code hl_variable" href="../../de/dba/class_socket.html#a56e1175a1c6d8dc62d7c06076ba37147">_writeQueue</a>.front();</div>
+<div class="line"><span class="lineno">  224</span> </div>
+<div class="line"><span class="lineno">  225</span>        std::size_t bytesToSend = queuedMessage.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a8ae995ff5da60ca581e3539a511780be">GetActiveSize</a>();</div>
+<div class="line"><span class="lineno">  226</span> </div>
+<div class="line"><span class="lineno">  227</span>        boost::system::error_code error;</div>
+<div class="line"><span class="lineno">  228</span>        std::size_t bytesSent = <a class="code hl_variable" href="../../de/dba/class_socket.html#ab97aba61be0146211d2a73e31f6a4c75">_socket</a>.write_some(boost::asio::buffer(queuedMessage.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a78f07c4d5aaa7d405ddf8ca2c6d39f11">GetReadPointer</a>(), bytesToSend), error);</div>
+<div class="line"><span class="lineno">  229</span> </div>
+<div class="line"><span class="lineno">  230</span>        <span class="keywordflow">if</span> (error)</div>
+<div class="line"><span class="lineno">  231</span>        {</div>
+<div class="line"><span class="lineno">  232</span>            <span class="keywordflow">if</span> (error == boost::asio::error::would_block || error == boost::asio::error::try_again)</div>
+<div class="line"><span class="lineno">  233</span>            {</div>
+<div class="line"><span class="lineno">  234</span>                <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/dba/class_socket.html#abe1fda1e35b6ad5b4ea3a28681d8b1d1">AsyncProcessQueue</a>();</div>
+<div class="line"><span class="lineno">  235</span>            }</div>
+<div class="line"><span class="lineno">  236</span> </div>
+<div class="line"><span class="lineno">  237</span>            <a class="code hl_variable" href="../../de/dba/class_socket.html#a56e1175a1c6d8dc62d7c06076ba37147">_writeQueue</a>.pop();</div>
+<div class="line"><span class="lineno">  238</span> </div>
+<div class="line"><span class="lineno">  239</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/dba/class_socket.html#a56f5095c4fd283729c4f14dc413a2934">_closing</a> &amp;&amp; <a class="code hl_variable" href="../../de/dba/class_socket.html#a56e1175a1c6d8dc62d7c06076ba37147">_writeQueue</a>.empty())</div>
+<div class="line"><span class="lineno">  240</span>            {</div>
+<div class="line"><span class="lineno">  241</span>                <a class="code hl_function" href="../../de/dba/class_socket.html#af7e10e251e6a419b44d7e87339343c2a">CloseSocket</a>();</div>
+<div class="line"><span class="lineno">  242</span>            }</div>
+<div class="line"><span class="lineno">  243</span> </div>
+<div class="line"><span class="lineno">  244</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  245</span>        }</div>
+<div class="line"><span class="lineno">  246</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (bytesSent == 0)</div>
+<div class="line"><span class="lineno">  247</span>        {</div>
+<div class="line"><span class="lineno">  248</span>            <a class="code hl_variable" href="../../de/dba/class_socket.html#a56e1175a1c6d8dc62d7c06076ba37147">_writeQueue</a>.pop();</div>
+<div class="line"><span class="lineno">  249</span> </div>
+<div class="line"><span class="lineno">  250</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/dba/class_socket.html#a56f5095c4fd283729c4f14dc413a2934">_closing</a> &amp;&amp; <a class="code hl_variable" href="../../de/dba/class_socket.html#a56e1175a1c6d8dc62d7c06076ba37147">_writeQueue</a>.empty())</div>
+<div class="line"><span class="lineno">  251</span>            {</div>
+<div class="line"><span class="lineno">  252</span>                <a class="code hl_function" href="../../de/dba/class_socket.html#af7e10e251e6a419b44d7e87339343c2a">CloseSocket</a>();</div>
+<div class="line"><span class="lineno">  253</span>            }</div>
+<div class="line"><span class="lineno">  254</span> </div>
+<div class="line"><span class="lineno">  255</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  256</span>        }</div>
+<div class="line"><span class="lineno">  257</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (bytesSent &lt; bytesToSend) <span class="comment">// now n &gt; 0</span></div>
+<div class="line"><span class="lineno">  258</span>        {</div>
+<div class="line"><span class="lineno">  259</span>            queuedMessage.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a4e1d57cb13b6e270e336a36e21959c94">ReadCompleted</a>(bytesSent);</div>
+<div class="line"><span class="lineno">  260</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/dba/class_socket.html#abe1fda1e35b6ad5b4ea3a28681d8b1d1">AsyncProcessQueue</a>();</div>
+<div class="line"><span class="lineno">  261</span>        }</div>
+<div class="line"><span class="lineno">  262</span> </div>
+<div class="line"><span class="lineno">  263</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#a56e1175a1c6d8dc62d7c06076ba37147">_writeQueue</a>.pop();</div>
+<div class="line"><span class="lineno">  264</span> </div>
+<div class="line"><span class="lineno">  265</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/dba/class_socket.html#a56f5095c4fd283729c4f14dc413a2934">_closing</a> &amp;&amp; <a class="code hl_variable" href="../../de/dba/class_socket.html#a56e1175a1c6d8dc62d7c06076ba37147">_writeQueue</a>.empty())</div>
+<div class="line"><span class="lineno">  266</span>        {</div>
+<div class="line"><span class="lineno">  267</span>            <a class="code hl_function" href="../../de/dba/class_socket.html#af7e10e251e6a419b44d7e87339343c2a">CloseSocket</a>();</div>
+<div class="line"><span class="lineno">  268</span>        }</div>
+<div class="line"><span class="lineno">  269</span> </div>
+<div class="line"><span class="lineno">  270</span>        <span class="keywordflow">return</span> !<a class="code hl_variable" href="../../de/dba/class_socket.html#a56e1175a1c6d8dc62d7c06076ba37147">_writeQueue</a>.empty();</div>
+<div class="line"><span class="lineno">  271</span>    }</div>
+<div class="ttc" id="aclass_message_buffer_html_a4e1d57cb13b6e270e336a36e21959c94"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#a4e1d57cb13b6e270e336a36e21959c94">MessageBuffer::ReadCompleted</a></div><div class="ttdeci">void ReadCompleted(size_type bytes)</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:61</div></div>
+<div class="ttc" id="aclass_socket_html_abe1fda1e35b6ad5b4ea3a28681d8b1d1"><div class="ttname"><a href="../../de/dba/class_socket.html#abe1fda1e35b6ad5b4ea3a28681d8b1d1">Socket::AsyncProcessQueue</a></div><div class="ttdeci">bool AsyncProcessQueue()</div><div class="ttdef"><b>Definition:</b> Socket.h:149</div></div>
+<div class="ttc" id="aclass_socket_html_af7e10e251e6a419b44d7e87339343c2a"><div class="ttname"><a href="../../de/dba/class_socket.html#af7e10e251e6a419b44d7e87339343c2a">Socket::CloseSocket</a></div><div class="ttdeci">void CloseSocket()</div><div class="ttdef"><b>Definition:</b> Socket.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af6865d7d857579a362047017956440ca" name="af6865d7d857579a362047017956440ca"></a>
@@ -519,7 +670,8 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  123</span>{ <span class="keywordflow">return</span> !<a class="code hl_variable" href="../../de/dba/class_socket.html#a5e470cada88883def82807bf15fb5679">_closed</a> &amp;&amp; !<a class="code hl_variable" href="../../de/dba/class_socket.html#a56f5095c4fd283729c4f14dc413a2934">_closing</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8082c8dd26c52c7fc417a574335f5742" name="a8082c8dd26c52c7fc417a574335f5742"></a>
@@ -548,7 +700,8 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../d9/d64/class_world_socket.html#adc9c6839b43aec6349a58506cec0b1de">WorldSocket</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  146</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa3485effcdedca16ee060e024f5bce38" name="aa3485effcdedca16ee060e024f5bce38"></a>
@@ -576,7 +729,14 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  115</span>    {</div>
+<div class="line"><span class="lineno">  116</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#a56e1175a1c6d8dc62d7c06076ba37147">_writeQueue</a>.push(std::move(buffer));</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span><span class="preprocessor">#ifdef AC_SOCKET_USE_IOCP</span></div>
+<div class="line"><span class="lineno">  119</span>        <a class="code hl_function" href="../../de/dba/class_socket.html#abe1fda1e35b6ad5b4ea3a28681d8b1d1">AsyncProcessQueue</a>();</div>
+<div class="line"><span class="lineno">  120</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">  121</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5f9eb0e4b0ac2867c2dbe5d363d99a59" name="a5f9eb0e4b0ac2867c2dbe5d363d99a59"></a>
@@ -643,7 +803,19 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  179</span>    {</div>
+<div class="line"><span class="lineno">  180</span>        <span class="keywordflow">if</span> (error)</div>
+<div class="line"><span class="lineno">  181</span>        {</div>
+<div class="line"><span class="lineno">  182</span>            <a class="code hl_function" href="../../de/dba/class_socket.html#af7e10e251e6a419b44d7e87339343c2a">CloseSocket</a>();</div>
+<div class="line"><span class="lineno">  183</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  184</span>        }</div>
+<div class="line"><span class="lineno">  185</span> </div>
+<div class="line"><span class="lineno">  186</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#ad06cbfa1d83dd5c1d4c2a087c3078d70">_readBuffer</a>.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a5287bc1c7f82e3abcf3ee0d8daf8798b">WriteCompleted</a>(transferredBytes);</div>
+<div class="line"><span class="lineno">  187</span>        <a class="code hl_function" href="../../de/dba/class_socket.html#a5f9eb0e4b0ac2867c2dbe5d363d99a59">ReadHandler</a>();</div>
+<div class="line"><span class="lineno">  188</span>    }</div>
+<div class="ttc" id="aclass_message_buffer_html_a5287bc1c7f82e3abcf3ee0d8daf8798b"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#a5287bc1c7f82e3abcf3ee0d8daf8798b">MessageBuffer::WriteCompleted</a></div><div class="ttdeci">void WriteCompleted(size_type bytes)</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:62</div></div>
+<div class="ttc" id="aclass_socket_html_a5f9eb0e4b0ac2867c2dbe5d363d99a59"><div class="ttname"><a href="../../de/dba/class_socket.html#a5f9eb0e4b0ac2867c2dbe5d363d99a59">Socket::ReadHandler</a></div><div class="ttdeci">virtual void ReadHandler()=0</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2f7bca4f7c5bbcaf2d4b81ebf1ef3923" name="a2f7bca4f7c5bbcaf2d4b81ebf1ef3923"></a>
@@ -671,7 +843,15 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  168</span>    {</div>
+<div class="line"><span class="lineno">  169</span>        boost::system::error_code err;</div>
+<div class="line"><span class="lineno">  170</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#ab97aba61be0146211d2a73e31f6a4c75">_socket</a>.set_option(tcp::no_delay(enable), err);</div>
+<div class="line"><span class="lineno">  171</span> </div>
+<div class="line"><span class="lineno">  172</span>        <span class="keywordflow">if</span> (err)</div>
+<div class="line"><span class="lineno">  173</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;Socket::SetNoDelay: failed to set_option(boost::asio::ip::tcp::no_delay) for {} - {} ({})&quot;</span>,</div>
+<div class="line"><span class="lineno">  174</span>                <a class="code hl_function" href="../../de/dba/class_socket.html#a328c412cd257eebe6018d8f095d20cb6">GetRemoteIpAddress</a>().to_string(), err.value(), err.message());</div>
+<div class="line"><span class="lineno">  175</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a37ddbd85b76463756f314eaa05186a64" name="a37ddbd85b76463756f314eaa05186a64"></a>
@@ -729,7 +909,26 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../d7/d06/class_auth_session.html#aca8d471477596aaaacc036b8c6c9566e">AuthSession</a>, and <a class="el" href="../../d9/d64/class_world_socket.html#a3e21a1ffa2d0a1b1574a0cb925690b6f">WorldSocket</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   57</span>    {</div>
+<div class="line"><span class="lineno">   58</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/dba/class_socket.html#a5e470cada88883def82807bf15fb5679">_closed</a>)</div>
+<div class="line"><span class="lineno">   59</span>        {</div>
+<div class="line"><span class="lineno">   60</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   61</span>        }</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span><span class="preprocessor">#ifndef AC_SOCKET_USE_IOCP</span></div>
+<div class="line"><span class="lineno">   64</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/dba/class_socket.html#afd3e05d1d3f0079e2771558580a92ace">_isWritingAsync</a> || (<a class="code hl_variable" href="../../de/dba/class_socket.html#a56e1175a1c6d8dc62d7c06076ba37147">_writeQueue</a>.empty() &amp;&amp; !<a class="code hl_variable" href="../../de/dba/class_socket.html#a56f5095c4fd283729c4f14dc413a2934">_closing</a>))</div>
+<div class="line"><span class="lineno">   65</span>        {</div>
+<div class="line"><span class="lineno">   66</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   67</span>        }</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>        <span class="keywordflow">for</span> (; <a class="code hl_function" href="../../de/dba/class_socket.html#abfadec68920ead4693d2f5343738e580">HandleQueue</a>();)</div>
+<div class="line"><span class="lineno">   70</span>            ;</div>
+<div class="line"><span class="lineno">   71</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">   72</span> </div>
+<div class="line"><span class="lineno">   73</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   74</span>    }</div>
+<div class="ttc" id="aclass_socket_html_abfadec68920ead4693d2f5343738e580"><div class="ttname"><a href="../../de/dba/class_socket.html#abfadec68920ead4693d2f5343738e580">Socket::HandleQueue</a></div><div class="ttdeci">bool HandleQueue()</div><div class="ttdef"><b>Definition:</b> Socket.h:218</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a52b070acab79b742a0b5b0dd6df072f7" name="a52b070acab79b742a0b5b0dd6df072f7"></a>
@@ -767,7 +966,11 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  213</span>    {</div>
+<div class="line"><span class="lineno">  214</span>        <a class="code hl_variable" href="../../de/dba/class_socket.html#afd3e05d1d3f0079e2771558580a92ace">_isWritingAsync</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  215</span>        <a class="code hl_function" href="../../de/dba/class_socket.html#abfadec68920ead4693d2f5343738e580">HandleQueue</a>();</div>
+<div class="line"><span class="lineno">  216</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -964,7 +1167,7 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/shared/Network/<a class="el" href="../../de/d1c/_socket_8h_source.html">Socket.h</a></li>
+<li><a class="el" href="../../">Socket.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -972,7 +1175,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/dba/class_socket.html">Socket</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:15 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

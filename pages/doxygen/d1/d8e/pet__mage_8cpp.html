@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Pet/pet_mage.cpp File Reference</title>
+<title>AzeorthCore: pet_mage.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -112,13 +112,15 @@ $(document).ready(function(){initNavTree('d1/d8e/pet__mage_8cpp.html','../../');
   <div class="headertitle"><div class="title">pet_mage.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../dc/db7/_combat_a_i_8h_source.html">CombatAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d67/_pet_8h_source.html">Pet.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d39/_player_8h_source.html">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dad/_scripted_creature_8h_source.html">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dcf/_spell_auras_8h_source.html">SpellAuras.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CombatAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da8/class_death_event.html">DeathEvent</a></td></tr>
@@ -238,7 +240,23 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124ac553ca96324337663da102edbf50b474" name="ab25cd6fd3bfda5736fd43f449c1b5124ac553ca96324337663da102edbf50b474"></a>SPELL_MAGE_GLYPH_OF_BLAST_WAVE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ab25cd6fd3bfda5736fd43f449c1b5124a8361e4d18a35c3a0b98379c6186a12ad" name="ab25cd6fd3bfda5736fd43f449c1b5124a8361e4d18a35c3a0b98379c6186a12ad"></a>SPELL_MAGE_FINGERS_OF_FROST&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d1/d8e/pet__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124a490a27b1ed91b6f3f3a8cd41b5ded635">SPELL_MAGE_CLONE_ME</a>                 = 45204,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d1/d8e/pet__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124a73b29ac6b8c782654ff6d4e43542124f">SPELL_MAGE_MASTERS_THREAT_LIST</a>      = 58838,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d1/d8e/pet__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124a0699159f7383b3918ad087631975dbd8">SPELL_PET_HIT_SCALING</a>               = 61013,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d1/d8e/pet__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124a91857de5d74978531a10d32c8fc8058f">SPELL_SUMMON_MIRROR_IMAGE1</a>          = 58831,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d1/d8e/pet__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124ae877fb36424c6d02560270fbaee8f426">SPELL_SUMMON_MIRROR_IMAGE2</a>          = 58833,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d1/d8e/pet__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124ad95b243bb8c22a972eec724b562abb75">SPELL_SUMMON_MIRROR_IMAGE3</a>          = 58834,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d1/d8e/pet__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124adfa0626e20fe30b8c54819861210e763">SPELL_SUMMON_MIRROR_IMAGE_GLYPH</a>     = 65047</div>
+<div class="line"><span class="lineno">   39</span>};</div>
+<div class="ttc" id="apet__mage_8cpp_html_ab25cd6fd3bfda5736fd43f449c1b5124a0699159f7383b3918ad087631975dbd8"><div class="ttname"><a href="../../d1/d8e/pet__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124a0699159f7383b3918ad087631975dbd8">SPELL_PET_HIT_SCALING</a></div><div class="ttdeci">@ SPELL_PET_HIT_SCALING</div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:34</div></div>
+<div class="ttc" id="apet__mage_8cpp_html_ab25cd6fd3bfda5736fd43f449c1b5124a490a27b1ed91b6f3f3a8cd41b5ded635"><div class="ttname"><a href="../../d1/d8e/pet__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124a490a27b1ed91b6f3f3a8cd41b5ded635">SPELL_MAGE_CLONE_ME</a></div><div class="ttdeci">@ SPELL_MAGE_CLONE_ME</div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:32</div></div>
+<div class="ttc" id="apet__mage_8cpp_html_ab25cd6fd3bfda5736fd43f449c1b5124a73b29ac6b8c782654ff6d4e43542124f"><div class="ttname"><a href="../../d1/d8e/pet__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124a73b29ac6b8c782654ff6d4e43542124f">SPELL_MAGE_MASTERS_THREAT_LIST</a></div><div class="ttdeci">@ SPELL_MAGE_MASTERS_THREAT_LIST</div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:33</div></div>
+<div class="ttc" id="apet__mage_8cpp_html_ab25cd6fd3bfda5736fd43f449c1b5124a91857de5d74978531a10d32c8fc8058f"><div class="ttname"><a href="../../d1/d8e/pet__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124a91857de5d74978531a10d32c8fc8058f">SPELL_SUMMON_MIRROR_IMAGE1</a></div><div class="ttdeci">@ SPELL_SUMMON_MIRROR_IMAGE1</div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:35</div></div>
+<div class="ttc" id="apet__mage_8cpp_html_ab25cd6fd3bfda5736fd43f449c1b5124ad95b243bb8c22a972eec724b562abb75"><div class="ttname"><a href="../../d1/d8e/pet__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124ad95b243bb8c22a972eec724b562abb75">SPELL_SUMMON_MIRROR_IMAGE3</a></div><div class="ttdeci">@ SPELL_SUMMON_MIRROR_IMAGE3</div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:37</div></div>
+<div class="ttc" id="apet__mage_8cpp_html_ab25cd6fd3bfda5736fd43f449c1b5124adfa0626e20fe30b8c54819861210e763"><div class="ttname"><a href="../../d1/d8e/pet__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124adfa0626e20fe30b8c54819861210e763">SPELL_SUMMON_MIRROR_IMAGE_GLYPH</a></div><div class="ttdeci">@ SPELL_SUMMON_MIRROR_IMAGE_GLYPH</div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:38</div></div>
+<div class="ttc" id="apet__mage_8cpp_html_ab25cd6fd3bfda5736fd43f449c1b5124ae877fb36424c6d02560270fbaee8f426"><div class="ttname"><a href="../../d1/d8e/pet__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124ae877fb36424c6d02560270fbaee8f426">SPELL_SUMMON_MIRROR_IMAGE2</a></div><div class="ttdeci">@ SPELL_SUMMON_MIRROR_IMAGE2</div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:36</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -256,7 +274,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  221</span>{</div>
+<div class="line"><span class="lineno">  222</span>    <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d2/de1/structnpc__pet__mage__mirror__image.html">npc_pet_mage_mirror_image</a>);</div>
+<div class="line"><span class="lineno">  223</span>}</div>
+<div class="ttc" id="a_script_mgr_8h_html_a5e7352841895df7117e2830448eb533f"><div class="ttname"><a href="../../d0/d7d/_script_mgr_8h.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a></div><div class="ttdeci">#define RegisterCreatureAI(ai_name)</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2660</div></div>
+<div class="ttc" id="astructnpc__pet__mage__mirror__image_html"><div class="ttname"><a href="../../d2/de1/structnpc__pet__mage__mirror__image.html">npc_pet_mage_mirror_image</a></div><div class="ttdef"><b>Definition:</b> pet_mage.cpp:57</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -265,7 +288,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ff1fc60aa0464e46be01116f0901446f.html">Pet</a></li><li class="navelem"><a class="el" href="../../d1/d8e/pet__mage_8cpp.html">pet_mage.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:35 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

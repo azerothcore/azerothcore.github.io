@@ -314,7 +314,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a5971c42af47d1cc8045a130deb218a04" name="a5971c42af47d1cc8045a130deb218a04"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5971c42af47d1cc8045a130deb218a04">&#9670;&#160;</a></span>CheckProc()</h2>
 
@@ -338,7 +339,22 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  106</span>    {</div>
+<div class="line"><span class="lineno">  107</span>        <span class="keywordflow">if</span> (!eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a89d8ab0bf0b01e3e1ca4ae10a3cbde10">GetActor</a>())</div>
+<div class="line"><span class="lineno">  108</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  109</span> </div>
+<div class="line"><span class="lineno">  110</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* _procTarget = eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a89d8ab0bf0b01e3e1ca4ae10a3cbde10">GetActor</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ac454f081c03ef91925b33c7c55b05934">SelectNearbyNoTotemTarget</a>(eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#ae57fa4c37ca2a3fedb00079f4160bcc7">GetProcTarget</a>());</div>
+<div class="line"><span class="lineno">  111</span>        <span class="keywordflow">if</span> (_procTarget)</div>
+<div class="line"><span class="lineno">  112</span>            <a class="code hl_variable" href="../../dd/d4e/classspell__rog__blade__flurry.html#a13976d069846f29d2f744f3f03502787">_procTargetGUID</a> = _procTarget-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  113</span>        <span class="keywordflow">return</span> _procTarget;</div>
+<div class="line"><span class="lineno">  114</span>    }</div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_a89d8ab0bf0b01e3e1ca4ae10a3cbde10"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#a89d8ab0bf0b01e3e1ca4ae10a3cbde10">ProcEventInfo::GetActor</a></div><div class="ttdeci">Unit * GetActor()</div><div class="ttdef"><b>Definition:</b> Unit.h:858</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_ae57fa4c37ca2a3fedb00079f4160bcc7"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#ae57fa4c37ca2a3fedb00079f4160bcc7">ProcEventInfo::GetProcTarget</a></div><div class="ttdeci">Unit * GetProcTarget() const</div><div class="ttdef"><b>Definition:</b> Unit.h:860</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_ac454f081c03ef91925b33c7c55b05934"><div class="ttname"><a href="../../da/db7/class_unit.html#ac454f081c03ef91925b33c7c55b05934">Unit::SelectNearbyNoTotemTarget</a></div><div class="ttdeci">Unit * SelectNearbyNoTotemTarget(Unit *exclude=nullptr, float dist=NOMINAL_MELEE_RANGE) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:17080</div></div>
+<div class="ttc" id="aclassspell__rog__blade__flurry_html_a13976d069846f29d2f744f3f03502787"><div class="ttname"><a href="../../dd/d4e/classspell__rog__blade__flurry.html#a13976d069846f29d2f744f3f03502787">spell_rog_blade_flurry::_procTargetGUID</a></div><div class="ttdeci">ObjectGuid _procTargetGUID</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:141</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a45aaf5afebc2fa533240fcf8233430ed" name="a45aaf5afebc2fa533240fcf8233430ed"></a>
@@ -374,7 +390,39 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  117</span>    {</div>
+<div class="line"><span class="lineno">  118</span>        <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">PreventDefaultAction</a>();</div>
+<div class="line"><span class="lineno">  119</span>        <span class="comment">// Xinef: no _procTarget but checkproc passed??</span></div>
+<div class="line"><span class="lineno">  120</span>        <span class="comment">// Unit::CalculateAOEDamageReduction (this=0x0, damage=4118, schoolMask=1, caster=0x7ffdad089000)</span></div>
+<div class="line"><span class="lineno">  121</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* procTarget = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>(), <a class="code hl_variable" href="../../dd/d4e/classspell__rog__blade__flurry.html#a13976d069846f29d2f744f3f03502787">_procTargetGUID</a>);</div>
+<div class="line"><span class="lineno">  122</span>        <a class="code hl_class" href="../../d6/d2a/class_damage_info.html">DamageInfo</a>* damageInfo = eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#ad2eb8dffb2a2b91b02ca1b56861c7221">GetDamageInfo</a>();</div>
+<div class="line"><span class="lineno">  123</span>        <span class="keywordflow">if</span> (procTarget &amp;&amp; damageInfo)</div>
+<div class="line"><span class="lineno">  124</span>        {</div>
+<div class="line"><span class="lineno">  125</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> damage = damageInfo-&gt;<a class="code hl_function" href="../../d6/d2a/class_damage_info.html#a4a702f9a22aa05865c95e5eaf9640545">GetUnmitigatedDamage</a>();</div>
+<div class="line"><span class="lineno">  126</span> </div>
+<div class="line"><span class="lineno">  127</span>            <a class="code hl_class" href="../../d9/db0/class_custom_spell_values.html">CustomSpellValues</a> values;</div>
+<div class="line"><span class="lineno">  128</span>            values.<a class="code hl_function" href="../../d9/db0/class_custom_spell_values.html#a1c14e27dd094be2fccff3d74a1414a80">AddSpellMod</a>(<a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371bae5c19f392b2ebda372a39538fa9b592a">SPELLVALUE_BASE_POINT0</a>, damage);</div>
+<div class="line"><span class="lineno">  129</span>            values.<a class="code hl_function" href="../../d9/db0/class_custom_spell_values.html#a1c14e27dd094be2fccff3d74a1414a80">AddSpellMod</a>(<a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371baddd96fbac2ae4165f8af8a3a8eb07bf7">SPELLVALUE_FORCED_CRIT_RESULT</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a0129f2b5cfdebb9f3618331e297a0db1">GetHitMask</a>() &amp; <a class="code hl_enumvalue" href="../../d3/d75/_spell_mgr_8h.html#ac9aaef596a1061b6b944e1dc0e679b46a970bdf3e5f6192a44f1047c0a9c01310">PROC_EX_CRITICAL_HIT</a>));</div>
+<div class="line"><span class="lineno">  130</span>            <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">CastCustomSpell</a>(<a class="code hl_enumvalue" href="../../de/df2/spell__rogue_8cpp.html#a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4">SPELL_ROGUE_BLADE_FLURRY_EXTRA_ATTACK</a>, values, procTarget, <a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a">TRIGGERED_FULL_MASK</a>, <span class="keyword">nullptr</span>, aurEff);</div>
+<div class="line"><span class="lineno">  131</span>        }</div>
+<div class="line"><span class="lineno">  132</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_spell_defines_8h_html_a4ad87b8c967acbbcb154a32bc123371baddd96fbac2ae4165f8af8a3a8eb07bf7"><div class="ttname"><a href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371baddd96fbac2ae4165f8af8a3a8eb07bf7">SPELLVALUE_FORCED_CRIT_RESULT</a></div><div class="ttdeci">@ SPELLVALUE_FORCED_CRIT_RESULT</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:121</div></div>
+<div class="ttc" id="a_spell_defines_8h_html_a4ad87b8c967acbbcb154a32bc123371bae5c19f392b2ebda372a39538fa9b592a"><div class="ttname"><a href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371bae5c19f392b2ebda372a39538fa9b592a">SPELLVALUE_BASE_POINT0</a></div><div class="ttdeci">@ SPELLVALUE_BASE_POINT0</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:114</div></div>
+<div class="ttc" id="a_spell_defines_8h_html_a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a"><div class="ttname"><a href="../../d2/d6d/_spell_defines_8h.html#a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a">TRIGGERED_FULL_MASK</a></div><div class="ttdeci">@ TRIGGERED_FULL_MASK</div><div class="ttdoc">Will return SPELL_FAILED_DONT_REPORT in CheckCast functions.</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:148</div></div>
+<div class="ttc" id="a_spell_mgr_8h_html_ac9aaef596a1061b6b944e1dc0e679b46a970bdf3e5f6192a44f1047c0a9c01310"><div class="ttname"><a href="../../d3/d75/_spell_mgr_8h.html#ac9aaef596a1061b6b944e1dc0e679b46a970bdf3e5f6192a44f1047c0a9c01310">PROC_EX_CRITICAL_HIT</a></div><div class="ttdeci">@ PROC_EX_CRITICAL_HIT</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:195</div></div>
+<div class="ttc" id="aclass_aura_script_html_a19e0ed231d33245849ef31acb0f2bca3"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">AuraScript::PreventDefaultAction</a></div><div class="ttdeci">void PreventDefaultAction()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:975</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_custom_spell_values_html"><div class="ttname"><a href="../../d9/db0/class_custom_spell_values.html">CustomSpellValues</a></div><div class="ttdef"><b>Definition:</b> SpellDefines.h:162</div></div>
+<div class="ttc" id="aclass_custom_spell_values_html_a1c14e27dd094be2fccff3d74a1414a80"><div class="ttname"><a href="../../d9/db0/class_custom_spell_values.html#a1c14e27dd094be2fccff3d74a1414a80">CustomSpellValues::AddSpellMod</a></div><div class="ttdeci">void AddSpellMod(SpellValueMod mod, int32 value)</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:164</div></div>
+<div class="ttc" id="aclass_damage_info_html"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html">DamageInfo</a></div><div class="ttdef"><b>Definition:</b> Unit.h:761</div></div>
+<div class="ttc" id="aclass_damage_info_html_a4a702f9a22aa05865c95e5eaf9640545"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html#a4a702f9a22aa05865c95e5eaf9640545">DamageInfo::GetUnmitigatedDamage</a></div><div class="ttdeci">uint32 GetUnmitigatedDamage() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:174</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_a0129f2b5cfdebb9f3618331e297a0db1"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#a0129f2b5cfdebb9f3618331e297a0db1">ProcEventInfo::GetHitMask</a></div><div class="ttdeci">uint32 GetHitMask() const</div><div class="ttdef"><b>Definition:</b> Unit.h:864</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_ad2eb8dffb2a2b91b02ca1b56861c7221"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#ad2eb8dffb2a2b91b02ca1b56861c7221">ProcEventInfo::GetDamageInfo</a></div><div class="ttdeci">DamageInfo * GetDamageInfo() const</div><div class="ttdef"><b>Definition:</b> Unit.h:868</div></div>
+<div class="ttc" id="aclass_unit_html_a51ec81e114bf82a2485ba9f66200afd2"><div class="ttname"><a href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">Unit::CastCustomSpell</a></div><div class="ttdeci">SpellCastResult CastCustomSpell(Unit *victim, uint32 spellId, int32 const *bp0, int32 const *bp1, int32 const *bp2, bool triggered, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1225</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+<div class="ttc" id="aspell__rogue_8cpp_html_a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4"><div class="ttname"><a href="../../de/df2/spell__rogue_8cpp.html#a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4">SPELL_ROGUE_BLADE_FLURRY_EXTRA_ATTACK</a></div><div class="ttdeci">@ SPELL_ROGUE_BLADE_FLURRY_EXTRA_ATTACK</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:33</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7664b0f67c9e3b14841ed9e30447544d" name="a7664b0f67c9e3b14841ed9e30447544d"></a>
@@ -401,7 +449,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  100</span>    {</div>
+<div class="line"><span class="lineno">  101</span>        <a class="code hl_variable" href="../../dd/d4e/classspell__rog__blade__flurry.html#a13976d069846f29d2f744f3f03502787">_procTargetGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  102</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  103</span>    }</div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a291fcf1af497d1e83a31209cd01a360d" name="a291fcf1af497d1e83a31209cd01a360d"></a>
@@ -454,7 +507,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  135</span>    {</div>
+<div class="line"><span class="lineno">  136</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">DoCheckProc</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a>(<a class="code hl_function" href="../../dd/d4e/classspell__rog__blade__flurry.html#a5971c42af47d1cc8045a130deb218a04">spell_rog_blade_flurry::CheckProc</a>);</div>
+<div class="line"><span class="lineno">  137</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ae01a6d3f559913b72bd67a145c668457">OnEffectProc</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a477ed5ca0e8da0b293428f4596802c0b">AuraEffectProcFn</a>(<a class="code hl_function" href="../../dd/d4e/classspell__rog__blade__flurry.html#a45aaf5afebc2fa533240fcf8233430ed">spell_rog_blade_flurry::HandleProc</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a5a6e68377120c8a73c5256c24d95890b">SPELL_AURA_MOD_MELEE_HASTE</a>);</div>
+<div class="line"><span class="lineno">  138</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a5a6e68377120c8a73c5256c24d95890b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a5a6e68377120c8a73c5256c24d95890b">SPELL_AURA_MOD_MELEE_HASTE</a></div><div class="ttdeci">@ SPELL_AURA_MOD_MELEE_HASTE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:201</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a477ed5ca0e8da0b293428f4596802c0b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a477ed5ca0e8da0b293428f4596802c0b">AuraEffectProcFn</a></div><div class="ttdeci">#define AuraEffectProcFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:836</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ad25bcd0c3aa73ba267fa87ea50bc1780"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a></div><div class="ttdeci">#define AuraCheckProcFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:812</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab771dd972497502e5202fd48a1d6c17d"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">AuraScript::DoCheckProc</a></div><div class="ttdeci">HookList&lt; CheckProcHandler &gt; DoCheckProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:807</div></div>
+<div class="ttc" id="aclass_aura_script_html_ae01a6d3f559913b72bd67a145c668457"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ae01a6d3f559913b72bd67a145c668457">AuraScript::OnEffectProc</a></div><div class="ttdeci">HookList&lt; EffectProcHandler &gt; OnEffectProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:831</div></div>
+<div class="ttc" id="aclassspell__rog__blade__flurry_html_a45aaf5afebc2fa533240fcf8233430ed"><div class="ttname"><a href="../../dd/d4e/classspell__rog__blade__flurry.html#a45aaf5afebc2fa533240fcf8233430ed">spell_rog_blade_flurry::HandleProc</a></div><div class="ttdeci">void HandleProc(AuraEffect const *aurEff, ProcEventInfo &amp;eventInfo)</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:116</div></div>
+<div class="ttc" id="aclassspell__rog__blade__flurry_html_a5971c42af47d1cc8045a130deb218a04"><div class="ttname"><a href="../../dd/d4e/classspell__rog__blade__flurry.html#a5971c42af47d1cc8045a130deb218a04">spell_rog_blade_flurry::CheckProc</a></div><div class="ttdeci">bool CheckProc(ProcEventInfo &amp;eventInfo)</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:105</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac768a5f4738dee9ad7d885fa6136785e" name="ac768a5f4738dee9ad7d885fa6136785e"></a>
@@ -482,7 +547,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   95</span>    {</div>
+<div class="line"><span class="lineno">   96</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>({ <a class="code hl_enumvalue" href="../../de/df2/spell__rogue_8cpp.html#a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4">SPELL_ROGUE_BLADE_FLURRY_EXTRA_ATTACK</a> });</div>
+<div class="line"><span class="lineno">   97</span>    }</div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -509,7 +578,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../de/df2/spell__rogue_8cpp.html">spell_rogue.cpp</a></li>
+<li><a class="el" href="../../">spell_rogue.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -517,7 +586,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d4e/classspell__rog__blade__flurry.html">spell_rog_blade_flurry</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:24 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

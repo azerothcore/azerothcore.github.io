@@ -112,14 +112,15 @@ $(document).ready(function(){initNavTree('d2/d28/struct_world_packets_1_1_string
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d4/d0c/_packet_utilities_8h_source.html">PacketUtilities.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">PacketUtilities.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab0d4c07b4ce9903a913bdced5e05bbd6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d28/struct_world_packets_1_1_strings_1_1_utf8.html#ab0d4c07b4ce9903a913bdced5e05bbd6">Validate</a> (std::string const &amp;value)</td></tr>
 <tr class="separator:ab0d4c07b4ce9903a913bdced5e05bbd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab0d4c07b4ce9903a913bdced5e05bbd6" name="ab0d4c07b4ce9903a913bdced5e05bbd6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab0d4c07b4ce9903a913bdced5e05bbd6">&#9670;&#160;</a></span>Validate()</h2>
 
@@ -143,12 +144,18 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
+<div class="line"><span class="lineno">   38</span>    <span class="keywordflow">if</span> (!utf8::is_valid(value.begin(), value.end()))</div>
+<div class="line"><span class="lineno">   39</span>        <span class="keywordflow">throw</span> InvalidUtf8ValueException(value);</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   42</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Server/Packets/<a class="el" href="../../d4/d0c/_packet_utilities_8h_source.html">PacketUtilities.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Server/Packets/<a class="el" href="../../de/dd6/_packet_utilities_8cpp.html">PacketUtilities.cpp</a></li>
+<li><a class="el" href="../../">PacketUtilities.h</a></li>
+<li><a class="el" href="../../">PacketUtilities.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -156,7 +163,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d87/namespace_world_packets.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../d2/d8f/namespace_world_packets_1_1_strings.html">Strings</a></li><li class="navelem"><a class="el" href="../../d2/d28/struct_world_packets_1_1_strings_1_1_utf8.html">Utf8</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:33 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

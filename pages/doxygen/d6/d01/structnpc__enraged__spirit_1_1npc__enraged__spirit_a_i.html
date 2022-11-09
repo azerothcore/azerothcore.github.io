@@ -483,7 +483,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa487c906c1c0d15dc7761c7288e7d3c6" name="aa487c906c1c0d15dc7761c7288e7d3c6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa487c906c1c0d15dc7761c7288e7d3c6">&#9670;&#160;</a></span>npc_enraged_spiritAI()</h2>
 
@@ -507,7 +508,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1653</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -536,7 +539,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1657</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9322622f679dbc311bd8983f5037bd2e" name="a9322622f679dbc311bd8983f5037bd2e"></a>
@@ -564,7 +568,97 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1660</span>        {</div>
+<div class="line"><span class="lineno"> 1661</span>            <span class="comment">// always spawn spirit on death</span></div>
+<div class="line"><span class="lineno"> 1662</span>            <span class="comment">// if totem around</span></div>
+<div class="line"><span class="lineno"> 1663</span>            <span class="comment">// move spirit to totem and cast kill count</span></div>
+<div class="line"><span class="lineno"> 1664</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> entry = 0;</div>
+<div class="line"><span class="lineno"> 1665</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> credit = 0;</div>
+<div class="line"><span class="lineno"> 1666</span> </div>
+<div class="line"><span class="lineno"> 1667</span>            <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno"> 1668</span>            {</div>
+<div class="line"><span class="lineno"> 1669</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89af2a1f731d0c25557696e9cd443d290ea">NPC_ENRAGED_FIRE_SPIRIT</a>:</div>
+<div class="line"><span class="lineno"> 1670</span>                    entry  = <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89ae00c2ae7cc2379845930d79d7945a2f9">NPC_FIERY_SOUL</a>;</div>
+<div class="line"><span class="lineno"> 1671</span>                    <span class="comment">//credit = SPELL_FIERY_SOUL_CAPTURED_CREDIT;</span></div>
+<div class="line"><span class="lineno"> 1672</span>                    credit = <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89adf1cf0863ae1a073c5715469f763a51c">NPC_CREDIT_FIRE</a>;</div>
+<div class="line"><span class="lineno"> 1673</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1674</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a7960db784552c9c9e6844cdd45abe658">NPC_ENRAGED_EARTH_SPIRIT</a>:</div>
+<div class="line"><span class="lineno"> 1675</span>                    entry  = <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a7a6e0dbed6931227c0a227c71ab4f60d">NPC_EARTHEN_SOUL</a>;</div>
+<div class="line"><span class="lineno"> 1676</span>                    <span class="comment">//credit = SPELL_EARTHEN_SOUL_CAPTURED_CREDIT;</span></div>
+<div class="line"><span class="lineno"> 1677</span>                    credit = <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a96b0475391ed7efa5605477301d6911f">NPC_CREDIT_EARTH</a>;</div>
+<div class="line"><span class="lineno"> 1678</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1679</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a0aec9f00588d40567cb7dd671db50fed">NPC_ENRAGED_AIR_SPIRIT</a>:</div>
+<div class="line"><span class="lineno"> 1680</span>                    entry  = <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89af0e74bb51810c096483e41a3186f4387">NPC_ENRAGED_AIRY_SOUL</a>;</div>
+<div class="line"><span class="lineno"> 1681</span>                    <span class="comment">//credit = SPELL_AIRY_SOUL_CAPTURED_CREDIT;</span></div>
+<div class="line"><span class="lineno"> 1682</span>                    credit = <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a8942f47767ef2d47701cd2211925c693">NPC_CREDIT_AIR</a>;</div>
+<div class="line"><span class="lineno"> 1683</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1684</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a785b1b1793ba985baa020374d34ca3e0">NPC_ENRAGED_WATER_SPIRIT</a>:</div>
+<div class="line"><span class="lineno"> 1685</span>                    entry  = <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a994bd23bad1aa3506d5acbaead2f0686">NPC_ENRAGED_WATERY_SOUL</a>;</div>
+<div class="line"><span class="lineno"> 1686</span>                    <span class="comment">//credit = SPELL_WATERY_SOUL_CAPTURED_CREDIT;</span></div>
+<div class="line"><span class="lineno"> 1687</span>                    credit = <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a75a68f28eff876a9f96b31591d24b49d">NPC_CREDIT_WATER</a>;</div>
+<div class="line"><span class="lineno"> 1688</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1689</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1690</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1691</span>            }</div>
+<div class="line"><span class="lineno"> 1692</span> </div>
+<div class="line"><span class="lineno"> 1693</span>            <span class="comment">// Spawn Soul on Kill ALWAYS!</span></div>
+<div class="line"><span class="lineno"> 1694</span>            <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* Summoned = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno"> 1695</span>            <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* totemOspirits = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno"> 1696</span> </div>
+<div class="line"><span class="lineno"> 1697</span>            <span class="keywordflow">if</span> (entry != 0)</div>
+<div class="line"><span class="lineno"> 1698</span>                Summoned = <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#af99b82166b746d71646eca776570c90e">DoSpawnCreature</a>(entry, 0, 0, 1, 0, <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a>, 5000);</div>
+<div class="line"><span class="lineno"> 1699</span> </div>
+<div class="line"><span class="lineno"> 1700</span>            <span class="comment">// FIND TOTEM, PROCESS QUEST</span></div>
+<div class="line"><span class="lineno"> 1701</span>            <span class="keywordflow">if</span> (Summoned)</div>
+<div class="line"><span class="lineno"> 1702</span>            {</div>
+<div class="line"><span class="lineno"> 1703</span>                totemOspirits = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89aae37f2ca0fb9f937d7b9a4978fd01129">ENTRY_TOTEM_OF_SPIRITS</a>, <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a8cc75aff50e4b588c0c03b68843d8dd2">RADIUS_TOTEM_OF_SPIRITS</a>);</div>
+<div class="line"><span class="lineno"> 1704</span>                <span class="keywordflow">if</span> (totemOspirits)</div>
+<div class="line"><span class="lineno"> 1705</span>                {</div>
+<div class="line"><span class="lineno"> 1706</span>                    Summoned-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42">FACTION_FRIENDLY</a>);</div>
+<div class="line"><span class="lineno"> 1707</span>                    Summoned-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(0, totemOspirits-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), totemOspirits-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), Summoned-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>());</div>
+<div class="line"><span class="lineno"> 1708</span> </div>
+<div class="line"><span class="lineno"> 1709</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* owner = totemOspirits-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a16a73fea59a6ef3595093aa29225b37b">GetOwner</a>())</div>
+<div class="line"><span class="lineno"> 1710</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = owner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno"> 1711</span>                            player-&gt;KilledMonsterCredit(credit);</div>
+<div class="line"><span class="lineno"> 1712</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(totemOspirits, <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a41055491c9356e1ef93a9e68820237ce">SPELL_SOUL_CAPTURED</a>);</div>
+<div class="line"><span class="lineno"> 1713</span>                }</div>
+<div class="line"><span class="lineno"> 1714</span>            }</div>
+<div class="line"><span class="lineno"> 1715</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:42</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42">FACTION_FRIENDLY</a></div><div class="ttdeci">@ FACTION_FRIENDLY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:173</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a16a73fea59a6ef3595093aa29225b37b"><div class="ttname"><a href="../../da/db7/class_unit.html#a16a73fea59a6ef3595093aa29225b37b">Unit::GetOwner</a></div><div class="ttdeci">Unit * GetOwner() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10548</div></div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_af99b82166b746d71646eca776570c90e"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#af99b82166b746d71646eca776570c90e">ScriptedAI::DoSpawnCreature</a></div><div class="ttdeci">Creature * DoSpawnCreature(uint32 entry, float offsetX, float offsetY, float offsetZ, float angle, uint32 type, uint32 despawntime)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:305</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a90c0d27144e43f3959fcc5d52db82e89a0aec9f00588d40567cb7dd671db50fed"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a0aec9f00588d40567cb7dd671db50fed">NPC_ENRAGED_AIR_SPIRIT</a></div><div class="ttdeci">@ NPC_ENRAGED_AIR_SPIRIT</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1616</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a90c0d27144e43f3959fcc5d52db82e89a41055491c9356e1ef93a9e68820237ce"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a41055491c9356e1ef93a9e68820237ce">SPELL_SOUL_CAPTURED</a></div><div class="ttdeci">@ SPELL_SOUL_CAPTURED</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1638</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a90c0d27144e43f3959fcc5d52db82e89a75a68f28eff876a9f96b31591d24b49d"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a75a68f28eff876a9f96b31591d24b49d">NPC_CREDIT_WATER</a></div><div class="ttdeci">@ NPC_CREDIT_WATER</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1633</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a90c0d27144e43f3959fcc5d52db82e89a785b1b1793ba985baa020374d34ca3e0"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a785b1b1793ba985baa020374d34ca3e0">NPC_ENRAGED_WATER_SPIRIT</a></div><div class="ttdeci">@ NPC_ENRAGED_WATER_SPIRIT</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1617</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a90c0d27144e43f3959fcc5d52db82e89a7960db784552c9c9e6844cdd45abe658"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a7960db784552c9c9e6844cdd45abe658">NPC_ENRAGED_EARTH_SPIRIT</a></div><div class="ttdeci">@ NPC_ENRAGED_EARTH_SPIRIT</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1614</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a90c0d27144e43f3959fcc5d52db82e89a7a6e0dbed6931227c0a227c71ab4f60d"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a7a6e0dbed6931227c0a227c71ab4f60d">NPC_EARTHEN_SOUL</a></div><div class="ttdeci">@ NPC_EARTHEN_SOUL</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1620</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a90c0d27144e43f3959fcc5d52db82e89a8942f47767ef2d47701cd2211925c693"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a8942f47767ef2d47701cd2211925c693">NPC_CREDIT_AIR</a></div><div class="ttdeci">@ NPC_CREDIT_AIR</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1634</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a90c0d27144e43f3959fcc5d52db82e89a8cc75aff50e4b588c0c03b68843d8dd2"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a8cc75aff50e4b588c0c03b68843d8dd2">RADIUS_TOTEM_OF_SPIRITS</a></div><div class="ttdeci">@ RADIUS_TOTEM_OF_SPIRITS</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1611</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a90c0d27144e43f3959fcc5d52db82e89a96b0475391ed7efa5605477301d6911f"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a96b0475391ed7efa5605477301d6911f">NPC_CREDIT_EARTH</a></div><div class="ttdeci">@ NPC_CREDIT_EARTH</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1635</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a90c0d27144e43f3959fcc5d52db82e89a994bd23bad1aa3506d5acbaead2f0686"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89a994bd23bad1aa3506d5acbaead2f0686">NPC_ENRAGED_WATERY_SOUL</a></div><div class="ttdeci">@ NPC_ENRAGED_WATERY_SOUL</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1623</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a90c0d27144e43f3959fcc5d52db82e89aae37f2ca0fb9f937d7b9a4978fd01129"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89aae37f2ca0fb9f937d7b9a4978fd01129">ENTRY_TOTEM_OF_SPIRITS</a></div><div class="ttdeci">@ ENTRY_TOTEM_OF_SPIRITS</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1610</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a90c0d27144e43f3959fcc5d52db82e89adf1cf0863ae1a073c5715469f763a51c"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89adf1cf0863ae1a073c5715469f763a51c">NPC_CREDIT_FIRE</a></div><div class="ttdeci">@ NPC_CREDIT_FIRE</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1632</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a90c0d27144e43f3959fcc5d52db82e89ae00c2ae7cc2379845930d79d7945a2f9"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89ae00c2ae7cc2379845930d79d7945a2f9">NPC_FIERY_SOUL</a></div><div class="ttdeci">@ NPC_FIERY_SOUL</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1621</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a90c0d27144e43f3959fcc5d52db82e89af0e74bb51810c096483e41a3186f4387"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89af0e74bb51810c096483e41a3186f4387">NPC_ENRAGED_AIRY_SOUL</a></div><div class="ttdeci">@ NPC_ENRAGED_AIRY_SOUL</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1622</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a90c0d27144e43f3959fcc5d52db82e89af2a1f731d0c25557696e9cd443d290ea"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a90c0d27144e43f3959fcc5d52db82e89af2a1f731d0c25557696e9cd443d290ea">NPC_ENRAGED_FIRE_SPIRIT</a></div><div class="ttdeci">@ NPC_ENRAGED_FIRE_SPIRIT</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1615</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2d56572acf042ba34f468f0ff3b0bd1a" name="a2d56572acf042ba34f468f0ff3b0bd1a"></a>
@@ -591,11 +685,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1655</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/<a class="el" href="../../da/da4/zone__shadowmoon__valley_8cpp.html">zone_shadowmoon_valley.cpp</a></li>
+<li><a class="el" href="../../">zone_shadowmoon_valley.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -603,7 +698,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/dcb/classnpc__enraged__spirit.html">npc_enraged_spirit</a></li><li class="navelem"><a class="el" href="../../d6/d01/structnpc__enraged__spirit_1_1npc__enraged__spirit_a_i.html">npc_enraged_spiritAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

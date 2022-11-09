@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d7/d70/class_puppet.html','../../'); i
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d6/db3/_temporary_summon_8h_source.html">TemporarySummon.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">TemporarySummon.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Puppet:</div>
 <div class="dyncontent">
@@ -3297,7 +3297,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a8e79b5c25db2911cb945219bc460dfdc inherit pro_static_methods_class_creature"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dac/class_creature.html#a8e79b5c25db2911cb945219bc460dfdc">_GetHealthMod</a> (<a class="el" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> Rank)</td></tr>
 <tr class="separator:a8e79b5c25db2911cb945219bc460dfdc inherit pro_static_methods_class_creature"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab0082936291e6b7f5370656c7c9ed948" name="ab0082936291e6b7f5370656c7c9ed948"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab0082936291e6b7f5370656c7c9ed948">&#9670;&#160;</a></span>Puppet()</h2>
 
@@ -3323,7 +3324,18 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  444</span>                                                                        : <a class="code hl_class" href="../../d3/d0f/class_minion.html">Minion</a>(properties, owner, <span class="keyword">false</span>), <a class="code hl_variable" href="../../d7/d70/class_puppet.html#adae18eabdba52ef8a9f7c5c8768e060c">m_owner</a>(owner) <span class="comment">//maybe true?</span></div>
+<div class="line"><span class="lineno">  445</span>{</div>
+<div class="line"><span class="lineno">  446</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(owner.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a676c61adb79a8be696a771a116253ee1">IsPlayer</a>());</div>
+<div class="line"><span class="lineno">  447</span>    <a class="code hl_variable" href="../../da/db7/class_unit.html#a61daa592a2e6ad5e4751df7410dfd5cf">m_unitTypeMask</a> |= <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a111db1c9ed7ec701bc06841238cd7b04a0a83baf1dc26d88294abcc47268333bf">UNIT_MASK_PUPPET</a>;</div>
+<div class="line"><span class="lineno">  448</span>}</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="a_unit_8h_html_a111db1c9ed7ec701bc06841238cd7b04a0a83baf1dc26d88294abcc47268333bf"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a111db1c9ed7ec701bc06841238cd7b04a0a83baf1dc26d88294abcc47268333bf">UNIT_MASK_PUPPET</a></div><div class="ttdeci">@ UNIT_MASK_PUPPET</div><div class="ttdef"><b>Definition:</b> Unit.h:681</div></div>
+<div class="ttc" id="aclass_minion_html"><div class="ttname"><a href="../../d3/d0f/class_minion.html">Minion</a></div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:71</div></div>
+<div class="ttc" id="aclass_object_guid_html_a676c61adb79a8be696a771a116253ee1"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a676c61adb79a8be696a771a116253ee1">ObjectGuid::IsPlayer</a></div><div class="ttdeci">bool IsPlayer() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:170</div></div>
+<div class="ttc" id="aclass_puppet_html_adae18eabdba52ef8a9f7c5c8768e060c"><div class="ttname"><a href="../../d7/d70/class_puppet.html#adae18eabdba52ef8a9f7c5c8768e060c">Puppet::m_owner</a></div><div class="ttdeci">const ObjectGuid m_owner</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:118</div></div>
+<div class="ttc" id="aclass_unit_html_a61daa592a2e6ad5e4751df7410dfd5cf"><div class="ttname"><a href="../../da/db7/class_unit.html#a61daa592a2e6ad5e4751df7410dfd5cf">Unit::m_unitTypeMask</a></div><div class="ttdeci">uint32 m_unitTypeMask</div><div class="ttdef"><b>Definition:</b> Unit.h:2530</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -3349,7 +3361,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  496</span>{</div>
+<div class="line"><span class="lineno">  497</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<span class="keyword">this</span>, <a class="code hl_variable" href="../../d7/d70/class_puppet.html#adae18eabdba52ef8a9f7c5c8768e060c">m_owner</a>);</div>
+<div class="line"><span class="lineno">  498</span>}</div>
+<div class="ttc" id="anamespace_object_accessor_html_aeb3657e7ad09335b9a9ffa50473aa216"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer(Map const *, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:225</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac5dd23d7cf6d4b4a2ba073ae1128181b" name="ac5dd23d7cf6d4b4a2ba073ae1128181b"></a>
@@ -3377,7 +3393,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d3/d0f/class_minion.html#ad11b2900e990e2b5ba7d10b811cd1e5d">Minion</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  451</span>{</div>
+<div class="line"><span class="lineno">  452</span>    <a class="code hl_function" href="../../d3/d0f/class_minion.html#ad11b2900e990e2b5ba7d10b811cd1e5d">Minion::InitStats</a>(duration);</div>
+<div class="line"><span class="lineno">  453</span>    <a class="code hl_function" href="../../da/db7/class_unit.html#a815ff6e664524d768b65cc0428ad4d1f">SetLevel</a>(<a class="code hl_function" href="../../d7/d70/class_puppet.html#a38760bce8e8ebf28ae0143ad2931afd5">GetOwner</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#adc6d98745d565970b4a89088ec5b5a42">getLevel</a>());</div>
+<div class="line"><span class="lineno">  454</span>    <a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">  455</span>}</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a></div><div class="ttdeci">@ REACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1023</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_minion_html_ad11b2900e990e2b5ba7d10b811cd1e5d"><div class="ttname"><a href="../../d3/d0f/class_minion.html#ad11b2900e990e2b5ba7d10b811cd1e5d">Minion::InitStats</a></div><div class="ttdeci">void InitStats(uint32 duration) override</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:340</div></div>
+<div class="ttc" id="aclass_puppet_html_a38760bce8e8ebf28ae0143ad2931afd5"><div class="ttname"><a href="../../d7/d70/class_puppet.html#a38760bce8e8ebf28ae0143ad2931afd5">Puppet::GetOwner</a></div><div class="ttdeci">Player * GetOwner() const</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:495</div></div>
+<div class="ttc" id="aclass_unit_html_a815ff6e664524d768b65cc0428ad4d1f"><div class="ttname"><a href="../../da/db7/class_unit.html#a815ff6e664524d768b65cc0428ad4d1f">Unit::SetLevel</a></div><div class="ttdeci">void SetLevel(uint8 lvl, bool showLevelChange=true)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:15317</div></div>
+<div class="ttc" id="aclass_unit_html_adc6d98745d565970b4a89088ec5b5a42"><div class="ttname"><a href="../../da/db7/class_unit.html#adc6d98745d565970b4a89088ec5b5a42">Unit::getLevel</a></div><div class="ttdeci">uint8 getLevel() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1418</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abfc97f1d25cb1ac27b1bed6f61867fa3" name="abfc97f1d25cb1ac27b1bed6f61867fa3"></a>
@@ -3404,7 +3431,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d6e/class_temp_summon.html#a55ec70ec7811303644caea24642cc94c">TempSummon</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  458</span>{</div>
+<div class="line"><span class="lineno">  459</span>    <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a55ec70ec7811303644caea24642cc94c">Minion::InitSummon</a>();</div>
+<div class="line"><span class="lineno">  460</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../da/db7/class_unit.html#ad02c1207bd4ccb5df03df1d4eec80293">SetCharmedBy</a>(<a class="code hl_function" href="../../d7/d70/class_puppet.html#a38760bce8e8ebf28ae0143ad2931afd5">GetOwner</a>(), <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab341828eccd0b2de05fb7be084a9437aa2a5727b1c99073b12be5d2e5413cc9eb">CHARM_TYPE_POSSESS</a>))</div>
+<div class="line"><span class="lineno">  461</span>    {</div>
+<div class="line"><span class="lineno">  462</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* p = <a class="code hl_function" href="../../d7/d70/class_puppet.html#a38760bce8e8ebf28ae0143ad2931afd5">GetOwner</a>())</div>
+<div class="line"><span class="lineno">  463</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;misc&quot;</span>, <span class="stringliteral">&quot;Puppet::InitSummon (A1) - {}, {}, {}, {}, {}, {}, {}, {}&quot;</span>, p-&gt;GetGUID().ToString(), p-&gt;GetMapId(), p-&gt;GetInstanceId(), p-&gt;FindMap()-&gt;GetId(), p-&gt;IsInWorld() ? 1 : 0, p-&gt;IsDuringRemoveFromWorld() ? 1 : 0, p-&gt;IsBeingTeleported() ? 1 : 0, p-&gt;isBeingLoaded() ? 1 : 0);</div>
+<div class="line"><span class="lineno">  464</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  465</span>        {</div>
+<div class="line"><span class="lineno">  466</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;misc&quot;</span>, <span class="stringliteral">&quot;Puppet::InitSummon (B1)&quot;</span>);</div>
+<div class="line"><span class="lineno">  467</span>            <span class="comment">//ABORT();</span></div>
+<div class="line"><span class="lineno">  468</span>        }</div>
+<div class="line"><span class="lineno">  469</span>    }</div>
+<div class="line"><span class="lineno">  470</span>}</div>
+<div class="ttc" id="a_log_8h_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:167</div></div>
+<div class="ttc" id="a_unit_8h_html_ab341828eccd0b2de05fb7be084a9437aa2a5727b1c99073b12be5d2e5413cc9eb"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ab341828eccd0b2de05fb7be084a9437aa2a5727b1c99073b12be5d2e5413cc9eb">CHARM_TYPE_POSSESS</a></div><div class="ttdeci">@ CHARM_TYPE_POSSESS</div><div class="ttdef"><b>Definition:</b> Unit.h:1076</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a55ec70ec7811303644caea24642cc94c"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a55ec70ec7811303644caea24642cc94c">TempSummon::InitSummon</a></div><div class="ttdeci">virtual void InitSummon()</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:251</div></div>
+<div class="ttc" id="aclass_unit_html_ad02c1207bd4ccb5df03df1d4eec80293"><div class="ttname"><a href="../../da/db7/class_unit.html#ad02c1207bd4ccb5df03df1d4eec80293">Unit::SetCharmedBy</a></div><div class="ttdeci">bool SetCharmedBy(Unit *charmer, CharmType type, AuraApplication const *aurApp=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18385</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a61dcfc821c2221d1747fcb2180e03bfd" name="a61dcfc821c2221d1747fcb2180e03bfd"></a>
@@ -3431,7 +3476,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d3/d0f/class_minion.html#a35f8314d0a4bafeba1987eb0b1ececf3">Minion</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  487</span>{</div>
+<div class="line"><span class="lineno">  488</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d8/d83/class_object.html#a3aeab7def818ba6c50249f197ad2f9ca">IsInWorld</a>())</div>
+<div class="line"><span class="lineno">  489</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  490</span> </div>
+<div class="line"><span class="lineno">  491</span>    <a class="code hl_function" href="../../da/db7/class_unit.html#aa897a679d63c8d6272d4bc85395a708f">RemoveCharmedBy</a>(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">  492</span>    <a class="code hl_function" href="../../d3/d0f/class_minion.html#a35f8314d0a4bafeba1987eb0b1ececf3">Minion::RemoveFromWorld</a>();</div>
+<div class="line"><span class="lineno">  493</span>}</div>
+<div class="ttc" id="aclass_minion_html_a35f8314d0a4bafeba1987eb0b1ececf3"><div class="ttname"><a href="../../d3/d0f/class_minion.html#a35f8314d0a4bafeba1987eb0b1ececf3">Minion::RemoveFromWorld</a></div><div class="ttdeci">void RemoveFromWorld() override</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:354</div></div>
+<div class="ttc" id="aclass_object_html_a3aeab7def818ba6c50249f197ad2f9ca"><div class="ttname"><a href="../../d8/d83/class_object.html#a3aeab7def818ba6c50249f197ad2f9ca">Object::IsInWorld</a></div><div class="ttdeci">bool IsInWorld() const</div><div class="ttdef"><b>Definition:</b> Object.h:101</div></div>
+<div class="ttc" id="aclass_unit_html_aa897a679d63c8d6272d4bc85395a708f"><div class="ttname"><a href="../../da/db7/class_unit.html#aa897a679d63c8d6272d4bc85395a708f">Unit::RemoveCharmedBy</a></div><div class="ttdeci">void RemoveCharmedBy(Unit *charmer)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18584</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5281497d7689e1dd10f89b5a9f83006f" name="a5281497d7689e1dd10f89b5a9f83006f"></a>
@@ -3459,7 +3514,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d6e/class_temp_summon.html#a7340f280c2550fc495d3045a06ef5536">TempSummon</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  473</span>{</div>
+<div class="line"><span class="lineno">  474</span>    <a class="code hl_function" href="../../d1/dac/class_creature.html#a2aaf88eaaf8e376030dd034eff91bb37">Minion::Update</a>(time);</div>
+<div class="line"><span class="lineno">  475</span>    <span class="comment">//check if caster is channelling?</span></div>
+<div class="line"><span class="lineno">  476</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d8/d83/class_object.html#a3aeab7def818ba6c50249f197ad2f9ca">IsInWorld</a>())</div>
+<div class="line"><span class="lineno">  477</span>    {</div>
+<div class="line"><span class="lineno">  478</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">  479</span>        {</div>
+<div class="line"><span class="lineno">  480</span>            <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">UnSummon</a>();</div>
+<div class="line"><span class="lineno">  481</span>            <span class="comment">// TODO: why long distance .die does not remove it</span></div>
+<div class="line"><span class="lineno">  482</span>        }</div>
+<div class="line"><span class="lineno">  483</span>    }</div>
+<div class="line"><span class="lineno">  484</span>}</div>
+<div class="ttc" id="aclass_creature_html_a2aaf88eaaf8e376030dd034eff91bb37"><div class="ttname"><a href="../../d1/dac/class_creature.html#a2aaf88eaaf8e376030dd034eff91bb37">Creature::Update</a></div><div class="ttdeci">void Update(uint32 time) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:610</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a198ec16a2673b1e481427549b6029d56"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">TempSummon::UnSummon</a></div><div class="ttdeci">virtual void UnSummon(uint32 msTime=0)</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:270</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -3486,8 +3556,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Creature/<a class="el" href="../../d6/db3/_temporary_summon_8h_source.html">TemporarySummon.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Creature/<a class="el" href="../../d2/d8f/_temporary_summon_8cpp.html">TemporarySummon.cpp</a></li>
+<li><a class="el" href="../../">TemporarySummon.h</a></li>
+<li><a class="el" href="../../">TemporarySummon.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -3495,7 +3565,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d70/class_puppet.html">Puppet</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

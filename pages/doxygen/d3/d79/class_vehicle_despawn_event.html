@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d3/d79/class_vehicle_despawn_event.htm
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/d32/_unit_8h_source.html">Unit.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Unit.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for VehicleDespawnEvent:</div>
 <div class="dyncontent">
@@ -151,7 +151,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a3e9c695929c24728b2091940e511d5f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d79/class_vehicle_despawn_event.html#a3e9c695929c24728b2091940e511d5f0">_duration</a></td></tr>
 <tr class="separator:a3e9c695929c24728b2091940e511d5f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab6f88e60f1068ab79049c158314a87ab" name="ab6f88e60f1068ab79049c158314a87ab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab6f88e60f1068ab79049c158314a87ab">&#9670;&#160;</a></span>VehicleDespawnEvent()</h2>
 
@@ -185,7 +186,10 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2676</span>: <a class="code hl_variable" href="../../d3/d79/class_vehicle_despawn_event.html#a0d472ea9a1a7b615f01c73d20cfc6573">_self</a>(self), <a class="code hl_variable" href="../../d3/d79/class_vehicle_despawn_event.html#a3e9c695929c24728b2091940e511d5f0">_duration</a>(duration) { }</div>
+<div class="ttc" id="aclass_vehicle_despawn_event_html_a0d472ea9a1a7b615f01c73d20cfc6573"><div class="ttname"><a href="../../d3/d79/class_vehicle_despawn_event.html#a0d472ea9a1a7b615f01c73d20cfc6573">VehicleDespawnEvent::_self</a></div><div class="ttdeci">Unit &amp; _self</div><div class="ttdef"><b>Definition:</b> Unit.h:2680</div></div>
+<div class="ttc" id="aclass_vehicle_despawn_event_html_a3e9c695929c24728b2091940e511d5f0"><div class="ttname"><a href="../../d3/d79/class_vehicle_despawn_event.html#a3e9c695929c24728b2091940e511d5f0">VehicleDespawnEvent::_duration</a></div><div class="ttdeci">uint32 _duration</div><div class="ttdef"><b>Definition:</b> Unit.h:2681</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -224,7 +228,20 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">19779</span>{</div>
+<div class="line"><span class="lineno">19780</span>    <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> pos = <a class="code hl_variable" href="../../d3/d79/class_vehicle_despawn_event.html#a0d472ea9a1a7b615f01c73d20cfc6573">_self</a>;</div>
+<div class="line"><span class="lineno">19781</span>    <a class="code hl_variable" href="../../d3/d79/class_vehicle_despawn_event.html#a0d472ea9a1a7b615f01c73d20cfc6573">_self</a>.<a class="code hl_function" href="../../db/df7/class_world_object.html#a51ee0969c43fed32eacf1a56e24393eb">MovePositionToFirstCollision</a>(pos, 20.0f, M_PI);</div>
+<div class="line"><span class="lineno">19782</span>    <a class="code hl_variable" href="../../d3/d79/class_vehicle_despawn_event.html#a0d472ea9a1a7b615f01c73d20cfc6573">_self</a>.<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(0, pos);</div>
+<div class="line"><span class="lineno">19783</span>    <a class="code hl_variable" href="../../d3/d79/class_vehicle_despawn_event.html#a0d472ea9a1a7b615f01c73d20cfc6573">_self</a>.<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(<a class="code hl_variable" href="../../d3/d79/class_vehicle_despawn_event.html#a3e9c695929c24728b2091940e511d5f0">_duration</a>);</div>
+<div class="line"><span class="lineno">19784</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">19785</span>}</div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_object_html_ab0e2ef1ac1daa91476f749e0ec6ad3c6"><div class="ttname"><a href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">Object::ToCreature</a></div><div class="ttdeci">Creature * ToCreature()</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_world_object_html_a51ee0969c43fed32eacf1a56e24393eb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a51ee0969c43fed32eacf1a56e24393eb">WorldObject::MovePositionToFirstCollision</a></div><div class="ttdeci">void MovePositionToFirstCollision(Position &amp;pos, float dist, float angle)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2804</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -273,8 +290,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Unit/<a class="el" href="../../d5/d32/_unit_8h_source.html">Unit.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Unit/<a class="el" href="../../d2/d2e/_unit_8cpp.html">Unit.cpp</a></li>
+<li><a class="el" href="../../">Unit.h</a></li>
+<li><a class="el" href="../../">Unit.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -282,7 +299,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d79/class_vehicle_despawn_event.html">VehicleDespawnEvent</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:30 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

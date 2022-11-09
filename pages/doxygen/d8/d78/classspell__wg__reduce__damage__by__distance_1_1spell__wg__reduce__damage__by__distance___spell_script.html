@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad80665c68b78f5ae8bf54520f2a2cffb" name="ad80665c68b78f5ae8bf54520f2a2cffb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad80665c68b78f5ae8bf54520f2a2cffb">&#9670;&#160;</a></span>PrepareSpellScript()</h2>
 
@@ -341,7 +342,26 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1143</span>        {</div>
+<div class="line"><span class="lineno"> 1144</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a127150f1d3edb4f1d217884f882b015f">GetExplTargetDest</a>() || !<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>())</div>
+<div class="line"><span class="lineno"> 1145</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1146</span> </div>
+<div class="line"><span class="lineno"> 1147</span>            <span class="keywordtype">float</span> maxDistance = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#aa5bb0d7d6df03526d011d9cbfa3734e0">Effects</a>[<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>].CalcRadius(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()); <span class="comment">// Xinef: always stored in EFFECT_0</span></div>
+<div class="line"><span class="lineno"> 1148</span>            <span class="keywordtype">float</span> distance = std::min&lt;float&gt;(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>()-&gt;GetDistance(*<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a127150f1d3edb4f1d217884f882b015f">GetExplTargetDest</a>()), maxDistance);</div>
+<div class="line"><span class="lineno"> 1149</span> </div>
+<div class="line"><span class="lineno"> 1150</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> damage = std::max&lt;int32&gt;(0, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#aff69d3a9a6f02ae0afa8f8bbaa543493">GetHitDamage</a>() - floor(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#aff69d3a9a6f02ae0afa8f8bbaa543493">GetHitDamage</a>() * (distance / maxDistance))));</div>
+<div class="line"><span class="lineno"> 1151</span>            <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ac1cfda0b3181c0da3422765acf78922e">SetHitDamage</a>(damage);</div>
+<div class="line"><span class="lineno"> 1152</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="aclass_spell_info_html_aa5bb0d7d6df03526d011d9cbfa3734e0"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#aa5bb0d7d6df03526d011d9cbfa3734e0">SpellInfo::Effects</a></div><div class="ttdeci">std::array&lt; SpellEffectInfo, MAX_SPELL_EFFECTS &gt; Effects</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:391</div></div>
+<div class="ttc" id="aclass_spell_script_html_a127150f1d3edb4f1d217884f882b015f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a127150f1d3edb4f1d217884f882b015f">SpellScript::GetExplTargetDest</a></div><div class="ttdeci">WorldLocation const * GetExplTargetDest()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:416</div></div>
+<div class="ttc" id="aclass_spell_script_html_a3fa31d3b29c52993d3561fad3cd12af3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">SpellScript::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:411</div></div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_spell_script_html_ac1cfda0b3181c0da3422765acf78922e"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ac1cfda0b3181c0da3422765acf78922e">SpellScript::SetHitDamage</a></div><div class="ttdeci">void SetHitDamage(int32 damage)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:524</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_spell_script_html_aff69d3a9a6f02ae0afa8f8bbaa543493"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#aff69d3a9a6f02ae0afa8f8bbaa543493">SpellScript::GetHitDamage</a></div><div class="ttdeci">int32 GetHitDamage()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:514</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a584245a0e511f5d419177aaccf37a501" name="a584245a0e511f5d419177aaccf37a501"></a>
@@ -368,11 +388,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1155</span>        {</div>
+<div class="line"><span class="lineno"> 1156</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a4ad6c271f820ea8f949e286512912d52">OnHit</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a>(<a class="code hl_function" href="../../d8/d78/classspell__wg__reduce__damage__by__distance_1_1spell__wg__reduce__damage__by__distance___spell_script.html#ac9c02759adc50dab119bbad191a9562e">spell_wg_reduce_damage_by_distance_SpellScript::RecalculateDamage</a>);</div>
+<div class="line"><span class="lineno"> 1157</span>        }</div>
+<div class="ttc" id="a_spell_script_8h_html_ad33ae6ff74ef32eb5ec79707ff0ab5b1"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a></div><div class="ttdeci">#define SpellHitFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:349</div></div>
+<div class="ttc" id="aclass_spell_script_html_a4ad6c271f820ea8f949e286512912d52"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a4ad6c271f820ea8f949e286512912d52">SpellScript::OnHit</a></div><div class="ttdeci">HookList&lt; HitHandler &gt; OnHit</div><div class="ttdef"><b>Definition:</b> SpellScript.h:345</div></div>
+<div class="ttc" id="aclassspell__wg__reduce__damage__by__distance_1_1spell__wg__reduce__damage__by__distance___spell_script_html_ac9c02759adc50dab119bbad191a9562e"><div class="ttname"><a href="../../d8/d78/classspell__wg__reduce__damage__by__distance_1_1spell__wg__reduce__damage__by__distance___spell_script.html#ac9c02759adc50dab119bbad191a9562e">spell_wg_reduce_damage_by_distance::spell_wg_reduce_damage_by_distance_SpellScript::RecalculateDamage</a></div><div class="ttdeci">void RecalculateDamage()</div><div class="ttdef"><b>Definition:</b> zone_wintergrasp.cpp:1142</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d8/dd9/zone__wintergrasp_8cpp.html">zone_wintergrasp.cpp</a></li>
+<li><a class="el" href="../../">zone_wintergrasp.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -380,7 +406,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/df7/classspell__wg__reduce__damage__by__distance.html">spell_wg_reduce_damage_by_distance</a></li><li class="navelem"><a class="el" href="../../d8/d78/classspell__wg__reduce__damage__by__distance_1_1spell__wg__reduce__damage__by__distance___spell_script.html">spell_wg_reduce_damage_by_distance_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:10 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:27 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

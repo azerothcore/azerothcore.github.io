@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('d2/d04/class_chat_handler.html','../..
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d2/d55/_chat_8h_source.html">Chat.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Chat.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ChatHandler:</div>
 <div class="dyncontent">
@@ -239,7 +239,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ac3950d97f94ebc522133ea4a254924ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d04/class_chat_handler.html#ac3950d97f94ebc522133ea4a254924ca">sentErrorMessage</a></td></tr>
 <tr class="separator:ac3950d97f94ebc522133ea4a254924ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7ab2c0deb500bef6654274630815bb75" name="a7ab2c0deb500bef6654274630815bb75"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ab2c0deb500bef6654274630815bb75">&#9670;&#160;</a></span>ChatHandler() <span class="overload">[1/2]</span></h2>
 
@@ -263,7 +264,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   40</span>: <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>(session), <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#ac3950d97f94ebc522133ea4a254924ca">sentErrorMessage</a>(<span class="keyword">false</span>) {}</div>
+<div class="ttc" id="aclass_chat_handler_html_a7d91e1a37684e5794dd8cec360555ad4"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">ChatHandler::m_session</a></div><div class="ttdeci">WorldSession * m_session</div><div class="ttdef"><b>Definition:</b> Chat.h:128</div></div>
+<div class="ttc" id="aclass_chat_handler_html_ac3950d97f94ebc522133ea4a254924ca"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ac3950d97f94ebc522133ea4a254924ca">ChatHandler::sentErrorMessage</a></div><div class="ttdeci">bool sentErrorMessage</div><div class="ttdef"><b>Definition:</b> Chat.h:131</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8a6e1c0e80c356fc41360f2cc427c0f3" name="a8a6e1c0e80c356fc41360f2cc427c0f3"></a>
@@ -288,7 +292,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aae585fad45749fd46fa28d36fdad9760" name="aae585fad45749fd46fa28d36fdad9760"></a>
@@ -313,7 +318,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  125</span>: <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#ac3950d97f94ebc522133ea4a254924ca">sentErrorMessage</a>(<span class="keyword">false</span>) {}      <span class="comment">// for CLI subclass</span></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -332,7 +338,29 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  155</span>{</div>
+<div class="line"><span class="lineno">  156</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d2/d86/namespace_acore_1_1_chat_commands.html#aca39508e7753f6ca5d9aa21a854c0a77">Acore::ChatCommands::TryExecuteCommand</a>(*<span class="keyword">this</span>, text))</div>
+<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>    <span class="comment">// Pretend commands don&#39;t exist for regular players</span></div>
+<div class="line"><span class="lineno">  160</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a> &amp;&amp; <a class="code hl_function" href="../../df/d1b/namespace_account_mgr.html#a63751f144cb7acb57fc20f0caf5e7043">AccountMgr::IsPlayerAccount</a>(<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a38f29ba7dc5216093dd812cf3e7861df">GetSecurity</a>()) &amp;&amp; !<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getBoolConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#a1b4b88c03b7d0124998b4c22e957baf0a3dfae1e50981ef722e4960b933f8ce1a">CONFIG_ALLOW_PLAYER_COMMANDS</a>))</div>
+<div class="line"><span class="lineno">  161</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  162</span> </div>
+<div class="line"><span class="lineno">  163</span>    <span class="comment">// Send error message for GMs</span></div>
+<div class="line"><span class="lineno">  164</span>    <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a>(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaa3e02e1033c42b37d720795559642104">LANG_CMD_INVALID</a>, <a class="code hl_define" href="../../db/d35/_define_8h.html#a426f0c72f52eca709249d5962bf31b6d">STRING_VIEW_FMT_ARG</a>(text));</div>
+<div class="line"><span class="lineno">  165</span>    <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#aaabf84568161763e66bf375c14f100c5">SetSentErrorMessage</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  166</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  167</span>}</div>
+<div class="ttc" id="a_define_8h_html_a426f0c72f52eca709249d5962bf31b6d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a426f0c72f52eca709249d5962bf31b6d">STRING_VIEW_FMT_ARG</a></div><div class="ttdeci">#define STRING_VIEW_FMT_ARG(str)</div><div class="ttdef"><b>Definition:</b> Define.h:101</div></div>
+<div class="ttc" id="a_i_world_8h_html_a1b4b88c03b7d0124998b4c22e957baf0a3dfae1e50981ef722e4960b933f8ce1a"><div class="ttname"><a href="../../d2/d80/_i_world_8h.html#a1b4b88c03b7d0124998b4c22e957baf0a3dfae1e50981ef722e4960b933f8ce1a">CONFIG_ALLOW_PLAYER_COMMANDS</a></div><div class="ttdeci">@ CONFIG_ALLOW_PLAYER_COMMANDS</div><div class="ttdef"><b>Definition:</b> IWorld.h:73</div></div>
+<div class="ttc" id="a_language_8h_html_af9ee42b1cf006ecb2d2e74fe71c0761aaa3e02e1033c42b37d720795559642104"><div class="ttname"><a href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaa3e02e1033c42b37d720795559642104">LANG_CMD_INVALID</a></div><div class="ttdeci">@ LANG_CMD_INVALID</div><div class="ttdef"><b>Definition:</b> Language.h:38</div></div>
+<div class="ttc" id="aclass_chat_handler_html_aaabf84568161763e66bf375c14f100c5"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#aaabf84568161763e66bf375c14f100c5">ChatHandler::SetSentErrorMessage</a></div><div class="ttdeci">void SetSentErrorMessage(bool val)</div><div class="ttdef"><b>Definition:</b> Chat.h:118</div></div>
+<div class="ttc" id="aclass_chat_handler_html_ab2e685f37d4f0f3b763a6323cce7af25"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">ChatHandler::PSendSysMessage</a></div><div class="ttdeci">void PSendSysMessage(char const *fmt, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> Chat.h:60</div></div>
+<div class="ttc" id="aclass_world_session_html_a38f29ba7dc5216093dd812cf3e7861df"><div class="ttname"><a href="../../d1/d47/class_world_session.html#a38f29ba7dc5216093dd812cf3e7861df">WorldSession::GetSecurity</a></div><div class="ttdeci">AccountTypes GetSecurity() const</div><div class="ttdef"><b>Definition:</b> WorldSession.h:357</div></div>
+<div class="ttc" id="agroup__world_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:458</div></div>
+<div class="ttc" id="anamespace_account_mgr_html_a63751f144cb7acb57fc20f0caf5e7043"><div class="ttname"><a href="../../df/d1b/namespace_account_mgr.html#a63751f144cb7acb57fc20f0caf5e7043">AccountMgr::IsPlayerAccount</a></div><div class="ttdeci">bool IsPlayerAccount(uint32 gmlevel)</div><div class="ttdef"><b>Definition:</b> AccountMgr.cpp:276</div></div>
+<div class="ttc" id="anamespace_acore_1_1_chat_commands_html_aca39508e7753f6ca5d9aa21a854c0a77"><div class="ttname"><a href="../../d2/d86/namespace_acore_1_1_chat_commands.html#aca39508e7753f6ca5d9aa21a854c0a77">Acore::ChatCommands::TryExecuteCommand</a></div><div class="ttdeci">AC_GAME_API bool TryExecuteCommand(ChatHandler &amp;handler, std::string_view cmd)</div><div class="ttdef"><b>Definition:</b> ChatCommand.cpp:535</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af318eb4da322e4d8da321fded8dba478" name="af318eb4da322e4d8da321fded8dba478"></a>
@@ -428,7 +456,106 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  195</span>{</div>
+<div class="line"><span class="lineno">  196</span>    <span class="keywordtype">size_t</span> receiverGUIDPos = 0;</div>
+<div class="line"><span class="lineno">  197</span>    data.<a class="code hl_function" href="../../d6/d1a/class_world_packet.html#aa8631eaf078e6dc9e16ded96dd0b393f">Initialize</a>(!gmMessage ? <a class="code hl_enumvalue" href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9ba4c79b0cc83e509f31b580eb22f0ae116">SMSG_MESSAGECHAT</a> : <a class="code hl_enumvalue" href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9ba17d60a81f9b9634fa9d70a867dccc197">SMSG_GM_MESSAGECHAT</a>);</div>
+<div class="line"><span class="lineno">  198</span>    data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(chatType);</div>
+<div class="line"><span class="lineno">  199</span>    data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(language);</div>
+<div class="line"><span class="lineno">  200</span>    data &lt;&lt; senderGUID;</div>
+<div class="line"><span class="lineno">  201</span>    data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0);  <span class="comment">// some flags</span></div>
+<div class="line"><span class="lineno">  202</span>    <span class="keywordflow">switch</span> (chatType)</div>
+<div class="line"><span class="lineno">  203</span>    {</div>
+<div class="line"><span class="lineno">  204</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ac19150be20f289b113013388c0fcdc2a">CHAT_MSG_MONSTER_SAY</a>:</div>
+<div class="line"><span class="lineno">  205</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a8ede7d9bc6c1373aa7c8b15fe16d660d">CHAT_MSG_MONSTER_PARTY</a>:</div>
+<div class="line"><span class="lineno">  206</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ac49b0083a9c7ab8e1540b1e6c8e7f615">CHAT_MSG_MONSTER_YELL</a>:</div>
+<div class="line"><span class="lineno">  207</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a1156d69b4214408b80dc93c321e717d8">CHAT_MSG_MONSTER_WHISPER</a>:</div>
+<div class="line"><span class="lineno">  208</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ab131ee2d3718d1b5e87b4aee777ed652">CHAT_MSG_MONSTER_EMOTE</a>:</div>
+<div class="line"><span class="lineno">  209</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16aa6fdb2aa1d66427c20c2013bead78cea">CHAT_MSG_RAID_BOSS_EMOTE</a>:</div>
+<div class="line"><span class="lineno">  210</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a2aa825e5e35e3e6b5e2b9e1e519f322a">CHAT_MSG_RAID_BOSS_WHISPER</a>:</div>
+<div class="line"><span class="lineno">  211</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16aaba4eda4a83ec296459f59dff39d5f40">CHAT_MSG_BATTLENET</a>:</div>
+<div class="line"><span class="lineno">  212</span>            data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(senderName.length() + 1);</div>
+<div class="line"><span class="lineno">  213</span>            data &lt;&lt; senderName;</div>
+<div class="line"><span class="lineno">  214</span>            receiverGUIDPos = data.<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a822527905d8efa5938e6a9f1adde97fd">wpos</a>();</div>
+<div class="line"><span class="lineno">  215</span>            data &lt;&lt; receiverGUID;</div>
+<div class="line"><span class="lineno">  216</span>            <span class="keywordflow">if</span> (receiverGUID &amp;&amp; !receiverGUID.IsPlayer() &amp;&amp; !receiverGUID.IsPet())</div>
+<div class="line"><span class="lineno">  217</span>            {</div>
+<div class="line"><span class="lineno">  218</span>                data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(receiverName.length() + 1);</div>
+<div class="line"><span class="lineno">  219</span>                data &lt;&lt; receiverName;</div>
+<div class="line"><span class="lineno">  220</span>            }</div>
+<div class="line"><span class="lineno">  221</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  222</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a3c24cc49122d1ed918e299231a05fabc">CHAT_MSG_WHISPER_FOREIGN</a>:</div>
+<div class="line"><span class="lineno">  223</span>            data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(senderName.length() + 1);</div>
+<div class="line"><span class="lineno">  224</span>            data &lt;&lt; senderName;</div>
+<div class="line"><span class="lineno">  225</span>            receiverGUIDPos = data.<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a822527905d8efa5938e6a9f1adde97fd">wpos</a>();</div>
+<div class="line"><span class="lineno">  226</span>            data &lt;&lt; receiverGUID;</div>
+<div class="line"><span class="lineno">  227</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  228</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16af816113678bb2f0b90a4a70b0af7a737">CHAT_MSG_BG_SYSTEM_NEUTRAL</a>:</div>
+<div class="line"><span class="lineno">  229</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a46472c6ca8e985f54e9a0758b5ee0b27">CHAT_MSG_BG_SYSTEM_ALLIANCE</a>:</div>
+<div class="line"><span class="lineno">  230</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ac6012fbcfbbedfb058db86569ea7dd51">CHAT_MSG_BG_SYSTEM_HORDE</a>:</div>
+<div class="line"><span class="lineno">  231</span>            receiverGUIDPos = data.<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a822527905d8efa5938e6a9f1adde97fd">wpos</a>();</div>
+<div class="line"><span class="lineno">  232</span>            data &lt;&lt; receiverGUID;</div>
+<div class="line"><span class="lineno">  233</span>            <span class="keywordflow">if</span> (receiverGUID &amp;&amp; !receiverGUID.IsPlayer())</div>
+<div class="line"><span class="lineno">  234</span>            {</div>
+<div class="line"><span class="lineno">  235</span>                data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(receiverName.length() + 1);</div>
+<div class="line"><span class="lineno">  236</span>                data &lt;&lt; receiverName;</div>
+<div class="line"><span class="lineno">  237</span>            }</div>
+<div class="line"><span class="lineno">  238</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  239</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16aa2c64d8ca1bc348eca1b73a54d648414">CHAT_MSG_ACHIEVEMENT</a>:</div>
+<div class="line"><span class="lineno">  240</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a41765ef95abc2c480a403473a4474f57">CHAT_MSG_GUILD_ACHIEVEMENT</a>:</div>
+<div class="line"><span class="lineno">  241</span>            receiverGUIDPos = data.<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a822527905d8efa5938e6a9f1adde97fd">wpos</a>();</div>
+<div class="line"><span class="lineno">  242</span>            data &lt;&lt; receiverGUID;</div>
+<div class="line"><span class="lineno">  243</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  244</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  245</span>            <span class="keywordflow">if</span> (gmMessage)</div>
+<div class="line"><span class="lineno">  246</span>            {</div>
+<div class="line"><span class="lineno">  247</span>                data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(senderName.length() + 1);</div>
+<div class="line"><span class="lineno">  248</span>                data &lt;&lt; senderName;</div>
+<div class="line"><span class="lineno">  249</span>            }</div>
+<div class="line"><span class="lineno">  250</span> </div>
+<div class="line"><span class="lineno">  251</span>            <span class="keywordflow">if</span> (chatType == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16afc7597148545152e58f413cef8f7397f">CHAT_MSG_CHANNEL</a>)</div>
+<div class="line"><span class="lineno">  252</span>            {</div>
+<div class="line"><span class="lineno">  253</span>                <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(channelName.length() &gt; 0);</div>
+<div class="line"><span class="lineno">  254</span>                data &lt;&lt; channelName;</div>
+<div class="line"><span class="lineno">  255</span>            }</div>
+<div class="line"><span class="lineno">  256</span> </div>
+<div class="line"><span class="lineno">  257</span>            receiverGUIDPos = data.<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a822527905d8efa5938e6a9f1adde97fd">wpos</a>();</div>
+<div class="line"><span class="lineno">  258</span>            data &lt;&lt; receiverGUID;</div>
+<div class="line"><span class="lineno">  259</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  260</span>    }</div>
+<div class="line"><span class="lineno">  261</span> </div>
+<div class="line"><span class="lineno">  262</span>    data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(message.length() + 1);</div>
+<div class="line"><span class="lineno">  263</span>    data &lt;&lt; message;</div>
+<div class="line"><span class="lineno">  264</span>    data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(chatTag);</div>
+<div class="line"><span class="lineno">  265</span> </div>
+<div class="line"><span class="lineno">  266</span>    <span class="keywordflow">if</span> (chatType == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16aa2c64d8ca1bc348eca1b73a54d648414">CHAT_MSG_ACHIEVEMENT</a> || chatType == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a41765ef95abc2c480a403473a4474f57">CHAT_MSG_GUILD_ACHIEVEMENT</a>)</div>
+<div class="line"><span class="lineno">  267</span>        data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(achievementId);</div>
+<div class="line"><span class="lineno">  268</span> </div>
+<div class="line"><span class="lineno">  269</span>    <span class="keywordflow">return</span> receiverGUIDPos;</div>
+<div class="line"><span class="lineno">  270</span>}</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a1156d69b4214408b80dc93c321e717d8"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a1156d69b4214408b80dc93c321e717d8">CHAT_MSG_MONSTER_WHISPER</a></div><div class="ttdeci">@ CHAT_MSG_MONSTER_WHISPER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3139</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a2aa825e5e35e3e6b5e2b9e1e519f322a"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a2aa825e5e35e3e6b5e2b9e1e519f322a">CHAT_MSG_RAID_BOSS_WHISPER</a></div><div class="ttdeci">@ CHAT_MSG_RAID_BOSS_WHISPER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3166</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a3c24cc49122d1ed918e299231a05fabc"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a3c24cc49122d1ed918e299231a05fabc">CHAT_MSG_WHISPER_FOREIGN</a></div><div class="ttdeci">@ CHAT_MSG_WHISPER_FOREIGN</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3132</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a41765ef95abc2c480a403473a4474f57"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a41765ef95abc2c480a403473a4474f57">CHAT_MSG_GUILD_ACHIEVEMENT</a></div><div class="ttdeci">@ CHAT_MSG_GUILD_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3173</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a46472c6ca8e985f54e9a0758b5ee0b27"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a46472c6ca8e985f54e9a0758b5ee0b27">CHAT_MSG_BG_SYSTEM_ALLIANCE</a></div><div class="ttdeci">@ CHAT_MSG_BG_SYSTEM_ALLIANCE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3161</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a8ede7d9bc6c1373aa7c8b15fe16d660d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a8ede7d9bc6c1373aa7c8b15fe16d660d">CHAT_MSG_MONSTER_PARTY</a></div><div class="ttdeci">@ CHAT_MSG_MONSTER_PARTY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3137</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16aa2c64d8ca1bc348eca1b73a54d648414"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16aa2c64d8ca1bc348eca1b73a54d648414">CHAT_MSG_ACHIEVEMENT</a></div><div class="ttdeci">@ CHAT_MSG_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3172</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16aa6fdb2aa1d66427c20c2013bead78cea"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16aa6fdb2aa1d66427c20c2013bead78cea">CHAT_MSG_RAID_BOSS_EMOTE</a></div><div class="ttdeci">@ CHAT_MSG_RAID_BOSS_EMOTE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3165</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16aaba4eda4a83ec296459f59dff39d5f40"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16aaba4eda4a83ec296459f59dff39d5f40">CHAT_MSG_BATTLENET</a></div><div class="ttdeci">@ CHAT_MSG_BATTLENET</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3171</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16ab131ee2d3718d1b5e87b4aee777ed652"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ab131ee2d3718d1b5e87b4aee777ed652">CHAT_MSG_MONSTER_EMOTE</a></div><div class="ttdeci">@ CHAT_MSG_MONSTER_EMOTE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3140</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16ac19150be20f289b113013388c0fcdc2a"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ac19150be20f289b113013388c0fcdc2a">CHAT_MSG_MONSTER_SAY</a></div><div class="ttdeci">@ CHAT_MSG_MONSTER_SAY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3136</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16ac49b0083a9c7ab8e1540b1e6c8e7f615"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ac49b0083a9c7ab8e1540b1e6c8e7f615">CHAT_MSG_MONSTER_YELL</a></div><div class="ttdeci">@ CHAT_MSG_MONSTER_YELL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3138</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16ac6012fbcfbbedfb058db86569ea7dd51"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ac6012fbcfbbedfb058db86569ea7dd51">CHAT_MSG_BG_SYSTEM_HORDE</a></div><div class="ttdeci">@ CHAT_MSG_BG_SYSTEM_HORDE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3162</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16af816113678bb2f0b90a4a70b0af7a737"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16af816113678bb2f0b90a4a70b0af7a737">CHAT_MSG_BG_SYSTEM_NEUTRAL</a></div><div class="ttdeci">@ CHAT_MSG_BG_SYSTEM_NEUTRAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3160</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16afc7597148545152e58f413cef8f7397f"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16afc7597148545152e58f413cef8f7397f">CHAT_MSG_CHANNEL</a></div><div class="ttdeci">@ CHAT_MSG_CHANNEL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3141</div></div>
+<div class="ttc" id="aclass_byte_buffer_html_a822527905d8efa5938e6a9f1adde97fd"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#a822527905d8efa5938e6a9f1adde97fd">ByteBuffer::wpos</a></div><div class="ttdeci">size_t wpos() const</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:330</div></div>
+<div class="ttc" id="aclass_world_packet_html_aa8631eaf078e6dc9e16ded96dd0b393f"><div class="ttname"><a href="../../d6/d1a/class_world_packet.html#aa8631eaf078e6dc9e16ded96dd0b393f">WorldPacket::Initialize</a></div><div class="ttdeci">void Initialize(uint16 opcode, size_t newres=200)</div><div class="ttdef"><b>Definition:</b> WorldPacket.h:69</div></div>
+<div class="ttc" id="agroup__u2w_html_gga1073b6abb3a749f18bf1633020879e9ba17d60a81f9b9634fa9d70a867dccc197"><div class="ttname"><a href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9ba17d60a81f9b9634fa9d70a867dccc197">SMSG_GM_MESSAGECHAT</a></div><div class="ttdeci">@ SMSG_GM_MESSAGECHAT</div><div class="ttdef"><b>Definition:</b> Opcodes.h:977</div></div>
+<div class="ttc" id="agroup__u2w_html_gga1073b6abb3a749f18bf1633020879e9ba4c79b0cc83e509f31b580eb22f0ae116"><div class="ttname"><a href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9ba4c79b0cc83e509f31b580eb22f0ae116">SMSG_MESSAGECHAT</a></div><div class="ttdeci">@ SMSG_MESSAGECHAT</div><div class="ttdef"><b>Definition:</b> Opcodes.h:180</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac4a0ca2c6650399d5455a3d339b63551" name="ac4a0ca2c6650399d5455a3d339b63551"></a>
@@ -506,7 +633,37 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  274</span>{</div>
+<div class="line"><span class="lineno">  275</span>    <a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> senderGUID;</div>
+<div class="line"><span class="lineno">  276</span>    std::string senderName = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  277</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> chatTag = 0;</div>
+<div class="line"><span class="lineno">  278</span>    <span class="keywordtype">bool</span> gmMessage = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  279</span>    <a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> receiverGUID;</div>
+<div class="line"><span class="lineno">  280</span>    std::string receiverName = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  281</span>    <span class="keywordflow">if</span> (sender)</div>
+<div class="line"><span class="lineno">  282</span>    {</div>
+<div class="line"><span class="lineno">  283</span>        senderGUID = sender-&gt;GetGUID();</div>
+<div class="line"><span class="lineno">  284</span>        senderName = sender-&gt;GetNameForLocaleIdx(locale);</div>
+<div class="line"><span class="lineno">  285</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a> <span class="keyword">const</span>* playerSender = sender-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno">  286</span>        {</div>
+<div class="line"><span class="lineno">  287</span>            chatTag = playerSender-&gt;GetChatTag();</div>
+<div class="line"><span class="lineno">  288</span>            gmMessage = playerSender-&gt;IsGameMaster();</div>
+<div class="line"><span class="lineno">  289</span>        }</div>
+<div class="line"><span class="lineno">  290</span>    }</div>
+<div class="line"><span class="lineno">  291</span> </div>
+<div class="line"><span class="lineno">  292</span>    <span class="keywordflow">if</span> (receiver)</div>
+<div class="line"><span class="lineno">  293</span>    {</div>
+<div class="line"><span class="lineno">  294</span>        receiverGUID = receiver-&gt;GetGUID();</div>
+<div class="line"><span class="lineno">  295</span>        receiverName = receiver-&gt;GetNameForLocaleIdx(locale);</div>
+<div class="line"><span class="lineno">  296</span>    }</div>
+<div class="line"><span class="lineno">  297</span> </div>
+<div class="line"><span class="lineno">  298</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#af318eb4da322e4d8da321fded8dba478">BuildChatPacket</a>(data, chatType, language, senderGUID, receiverGUID, message, chatTag, senderName, receiverName, achievementId, gmMessage, channelName);</div>
+<div class="line"><span class="lineno">  299</span>}</div>
+<div class="ttc" id="aclass_chat_handler_html_af318eb4da322e4d8da321fded8dba478"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#af318eb4da322e4d8da321fded8dba478">ChatHandler::BuildChatPacket</a></div><div class="ttdeci">static size_t BuildChatPacket(WorldPacket &amp;data, ChatMsg chatType, Language language, ObjectGuid senderGUID, ObjectGuid receiverGUID, std::string_view message, uint8 chatTag, std::string const &amp;senderName=&quot;&quot;, std::string const &amp;receiverName=&quot;&quot;, uint32 achievementId=0, bool gmMessage=false, std::string const &amp;channelName=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:192</div></div>
+<div class="ttc" id="aclass_object_guid_html"><div class="ttname"><a href="../../d8/d03/class_object_guid.html">ObjectGuid</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:120</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a50cde803fdedb545931d81453d3131b7" name="a50cde803fdedb545931d81453d3131b7"></a>
@@ -546,7 +703,71 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  412</span>{</div>
+<div class="line"><span class="lineno">  413</span>    <span class="comment">// skip empty</span></div>
+<div class="line"><span class="lineno">  414</span>    <span class="keywordflow">if</span> (!text)</div>
+<div class="line"><span class="lineno">  415</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  416</span> </div>
+<div class="line"><span class="lineno">  417</span>    <span class="comment">// skip spaces</span></div>
+<div class="line"><span class="lineno">  418</span>    <span class="keywordflow">while</span> (*text == <span class="charliteral">&#39; &#39;</span> || *text == <span class="charliteral">&#39;\t&#39;</span> || *text == <span class="charliteral">&#39;\b&#39;</span>)</div>
+<div class="line"><span class="lineno">  419</span>        ++text;</div>
+<div class="line"><span class="lineno">  420</span> </div>
+<div class="line"><span class="lineno">  421</span>    <span class="keywordflow">if</span> (!*text)</div>
+<div class="line"><span class="lineno">  422</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  423</span> </div>
+<div class="line"><span class="lineno">  424</span>    <span class="comment">// return non link case</span></div>
+<div class="line"><span class="lineno">  425</span>    <span class="keywordflow">if</span> (text[0] != <span class="charliteral">&#39;|&#39;</span>)</div>
+<div class="line"><span class="lineno">  426</span>        <span class="keywordflow">return</span> strtok(text, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  427</span> </div>
+<div class="line"><span class="lineno">  428</span>    <span class="comment">// [name] Shift-click form |color|linkType:key|h[name]|h|r</span></div>
+<div class="line"><span class="lineno">  429</span>    <span class="comment">// or</span></div>
+<div class="line"><span class="lineno">  430</span>    <span class="comment">// [name] Shift-click form |color|linkType:key:something1:...:somethingN|h[name]|h|r</span></div>
+<div class="line"><span class="lineno">  431</span>    <span class="comment">// or</span></div>
+<div class="line"><span class="lineno">  432</span>    <span class="comment">// [name] Shift-click form |linkType:key|h[name]|h|r</span></div>
+<div class="line"><span class="lineno">  433</span> </div>
+<div class="line"><span class="lineno">  434</span>    <span class="keywordtype">char</span>* tail;</div>
+<div class="line"><span class="lineno">  435</span> </div>
+<div class="line"><span class="lineno">  436</span>    <span class="keywordflow">if</span> (text[1] == <span class="charliteral">&#39;c&#39;</span>)</div>
+<div class="line"><span class="lineno">  437</span>    {</div>
+<div class="line"><span class="lineno">  438</span>        <span class="keywordtype">char</span>* check = strtok(text, <span class="stringliteral">&quot;|&quot;</span>);                    <span class="comment">// skip color</span></div>
+<div class="line"><span class="lineno">  439</span>        <span class="keywordflow">if</span> (!check)</div>
+<div class="line"><span class="lineno">  440</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;                                    <span class="comment">// end of data</span></div>
+<div class="line"><span class="lineno">  441</span> </div>
+<div class="line"><span class="lineno">  442</span>        tail = strtok(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot;&quot;</span>);                            <span class="comment">// tail</span></div>
+<div class="line"><span class="lineno">  443</span>    }</div>
+<div class="line"><span class="lineno">  444</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  445</span>        tail = text + 1;                                    <span class="comment">// skip first |</span></div>
+<div class="line"><span class="lineno">  446</span> </div>
+<div class="line"><span class="lineno">  447</span>    <span class="keywordtype">char</span>* cLinkType = strtok(tail, <span class="stringliteral">&quot;:&quot;</span>);                    <span class="comment">// linktype</span></div>
+<div class="line"><span class="lineno">  448</span>    <span class="keywordflow">if</span> (!cLinkType)</div>
+<div class="line"><span class="lineno">  449</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;                                        <span class="comment">// end of data</span></div>
+<div class="line"><span class="lineno">  450</span> </div>
+<div class="line"><span class="lineno">  451</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; linkTypes[i]; ++i)</div>
+<div class="line"><span class="lineno">  452</span>    {</div>
+<div class="line"><span class="lineno">  453</span>        <span class="keywordflow">if</span> (strcmp(cLinkType, linkTypes[i]) == 0)</div>
+<div class="line"><span class="lineno">  454</span>        {</div>
+<div class="line"><span class="lineno">  455</span>            <span class="keywordtype">char</span>* cKeys = strtok(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot;|&quot;</span>);                <span class="comment">// extract keys and values</span></div>
+<div class="line"><span class="lineno">  456</span>            <span class="keywordtype">char</span>* cKeysTail = strtok(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  457</span> </div>
+<div class="line"><span class="lineno">  458</span>            <span class="keywordtype">char</span>* cKey = strtok(cKeys, <span class="stringliteral">&quot;:|&quot;</span>);               <span class="comment">// extract key</span></div>
+<div class="line"><span class="lineno">  459</span>            <span class="keywordflow">if</span> (something1)</div>
+<div class="line"><span class="lineno">  460</span>                *something1 = strtok(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot;:|&quot;</span>);           <span class="comment">// extract something</span></div>
+<div class="line"><span class="lineno">  461</span> </div>
+<div class="line"><span class="lineno">  462</span>            strtok(cKeysTail, <span class="stringliteral">&quot;]&quot;</span>);                         <span class="comment">// restart scan tail and skip name with possible spaces</span></div>
+<div class="line"><span class="lineno">  463</span>            strtok(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot; &quot;</span>);                              <span class="comment">// skip link tail (to allow continue strtok(nullptr, s) use after return from function</span></div>
+<div class="line"><span class="lineno">  464</span>            <span class="keywordflow">if</span> (found_idx)</div>
+<div class="line"><span class="lineno">  465</span>                *found_idx = i;</div>
+<div class="line"><span class="lineno">  466</span>            <span class="keywordflow">return</span> cKey;</div>
+<div class="line"><span class="lineno">  467</span>        }</div>
+<div class="line"><span class="lineno">  468</span>    }</div>
+<div class="line"><span class="lineno">  469</span> </div>
+<div class="line"><span class="lineno">  470</span>    strtok(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot; &quot;</span>);                                      <span class="comment">// skip link tail (to allow continue strtok(nullptr, s) use after return from function</span></div>
+<div class="line"><span class="lineno">  471</span>    <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaf908c73428eb5d62d65dab5098b46611">LANG_WRONG_LINK_TYPE</a>);</div>
+<div class="line"><span class="lineno">  472</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  473</span>}</div>
+<div class="ttc" id="a_language_8h_html_af9ee42b1cf006ecb2d2e74fe71c0761aaf908c73428eb5d62d65dab5098b46611"><div class="ttname"><a href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaf908c73428eb5d62d65dab5098b46611">LANG_WRONG_LINK_TYPE</a></div><div class="ttdeci">@ LANG_WRONG_LINK_TYPE</div><div class="ttdef"><b>Definition:</b> Language.h:537</div></div>
+<div class="ttc" id="aclass_chat_handler_html_ac1ed346507097817b3f8e00f0ae657a0"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">ChatHandler::SendSysMessage</a></div><div class="ttdeci">virtual void SendSysMessage(std::string_view str, bool escapeCharacters=false)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:103</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0ca0561c39cf8c5f34f00c37c3140350" name="a0ca0561c39cf8c5f34f00c37c3140350"></a>
@@ -580,7 +801,53 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  364</span>{</div>
+<div class="line"><span class="lineno">  365</span>    <span class="comment">// skip empty</span></div>
+<div class="line"><span class="lineno">  366</span>    <span class="keywordflow">if</span> (!text)</div>
+<div class="line"><span class="lineno">  367</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  368</span> </div>
+<div class="line"><span class="lineno">  369</span>    <span class="comment">// skip spaces</span></div>
+<div class="line"><span class="lineno">  370</span>    <span class="keywordflow">while</span> (*text == <span class="charliteral">&#39; &#39;</span> || *text == <span class="charliteral">&#39;\t&#39;</span> || *text == <span class="charliteral">&#39;\b&#39;</span>)</div>
+<div class="line"><span class="lineno">  371</span>        ++text;</div>
+<div class="line"><span class="lineno">  372</span> </div>
+<div class="line"><span class="lineno">  373</span>    <span class="keywordflow">if</span> (!*text)</div>
+<div class="line"><span class="lineno">  374</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  375</span> </div>
+<div class="line"><span class="lineno">  376</span>    <span class="comment">// return non link case</span></div>
+<div class="line"><span class="lineno">  377</span>    <span class="keywordflow">if</span> (text[0] != <span class="charliteral">&#39;|&#39;</span>)</div>
+<div class="line"><span class="lineno">  378</span>        <span class="keywordflow">return</span> strtok(text, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  379</span> </div>
+<div class="line"><span class="lineno">  380</span>    <span class="comment">// [name] Shift-click form |color|linkType:key|h[name]|h|r</span></div>
+<div class="line"><span class="lineno">  381</span>    <span class="comment">// or</span></div>
+<div class="line"><span class="lineno">  382</span>    <span class="comment">// [name] Shift-click form |color|linkType:key:something1:...:somethingN|h[name]|h|r</span></div>
+<div class="line"><span class="lineno">  383</span> </div>
+<div class="line"><span class="lineno">  384</span>    <span class="keywordtype">char</span>* check = strtok(text, <span class="stringliteral">&quot;|&quot;</span>);                        <span class="comment">// skip color</span></div>
+<div class="line"><span class="lineno">  385</span>    <span class="keywordflow">if</span> (!check)</div>
+<div class="line"><span class="lineno">  386</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;                                        <span class="comment">// end of data</span></div>
+<div class="line"><span class="lineno">  387</span> </div>
+<div class="line"><span class="lineno">  388</span>    <span class="keywordtype">char</span>* cLinkType = strtok(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot;:&quot;</span>);                    <span class="comment">// linktype</span></div>
+<div class="line"><span class="lineno">  389</span>    <span class="keywordflow">if</span> (!cLinkType)</div>
+<div class="line"><span class="lineno">  390</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;                                        <span class="comment">// end of data</span></div>
+<div class="line"><span class="lineno">  391</span> </div>
+<div class="line"><span class="lineno">  392</span>    <span class="keywordflow">if</span> (strcmp(cLinkType, linkType) != 0)</div>
+<div class="line"><span class="lineno">  393</span>    {</div>
+<div class="line"><span class="lineno">  394</span>        strtok(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot; &quot;</span>);                                  <span class="comment">// skip link tail (to allow continue strtok(nullptr, s) use after retturn from function</span></div>
+<div class="line"><span class="lineno">  395</span>        <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaf908c73428eb5d62d65dab5098b46611">LANG_WRONG_LINK_TYPE</a>);</div>
+<div class="line"><span class="lineno">  396</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  397</span>    }</div>
+<div class="line"><span class="lineno">  398</span> </div>
+<div class="line"><span class="lineno">  399</span>    <span class="keywordtype">char</span>* cKeys = strtok(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot;|&quot;</span>);                        <span class="comment">// extract keys and values</span></div>
+<div class="line"><span class="lineno">  400</span>    <span class="keywordtype">char</span>* cKeysTail = strtok(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  401</span> </div>
+<div class="line"><span class="lineno">  402</span>    <span class="keywordtype">char</span>* cKey = strtok(cKeys, <span class="stringliteral">&quot;:|&quot;</span>);                       <span class="comment">// extract key</span></div>
+<div class="line"><span class="lineno">  403</span>    <span class="keywordflow">if</span> (something1)</div>
+<div class="line"><span class="lineno">  404</span>        *something1 = strtok(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot;:|&quot;</span>);                   <span class="comment">// extract something</span></div>
+<div class="line"><span class="lineno">  405</span> </div>
+<div class="line"><span class="lineno">  406</span>    strtok(cKeysTail, <span class="stringliteral">&quot;]&quot;</span>);                                 <span class="comment">// restart scan tail and skip name with possible spaces</span></div>
+<div class="line"><span class="lineno">  407</span>    strtok(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot; &quot;</span>);                                      <span class="comment">// skip link tail (to allow continue strtok(nullptr, s) use after return from function</span></div>
+<div class="line"><span class="lineno">  408</span>    <span class="keywordflow">return</span> cKey;</div>
+<div class="line"><span class="lineno">  409</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aed537f61e8cbb15ebbe11243c0834744" name="aed537f61e8cbb15ebbe11243c0834744"></a>
@@ -608,7 +875,72 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  608</span>{</div>
+<div class="line"><span class="lineno">  609</span>    <span class="keywordtype">int</span> type = 0;</div>
+<div class="line"><span class="lineno">  610</span> </div>
+<div class="line"><span class="lineno">  611</span>    <span class="comment">// |color|Hcreature:creature_guid|h[name]|h|r</span></div>
+<div class="line"><span class="lineno">  612</span>    <span class="comment">// |color|Hgameobject:go_guid|h[name]|h|r</span></div>
+<div class="line"><span class="lineno">  613</span>    <span class="comment">// |color|Hplayer:name|h[name]|h|r</span></div>
+<div class="line"><span class="lineno">  614</span>    <span class="keywordtype">char</span>* idS = <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a0ca0561c39cf8c5f34f00c37c3140350">extractKeyFromLink</a>(text, <a class="code hl_variable" href="../../da/d11/_chat_8cpp.html#ae39447b85bcee503ddb354d2950d638a">guidKeys</a>, &amp;type);</div>
+<div class="line"><span class="lineno">  615</span>    <span class="keywordflow">if</span> (!idS)</div>
+<div class="line"><span class="lineno">  616</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  617</span> </div>
+<div class="line"><span class="lineno">  618</span>    <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><span class="lineno">  619</span>    {</div>
+<div class="line"><span class="lineno">  620</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d11/_chat_8cpp.html#a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028">SPELL_LINK_PLAYER</a>:</div>
+<div class="line"><span class="lineno">  621</span>            {</div>
+<div class="line"><span class="lineno">  622</span>                guidHigh = HighGuid::Player;</div>
+<div class="line"><span class="lineno">  623</span> </div>
+<div class="line"><span class="lineno">  624</span>                std::string name = idS;</div>
+<div class="line"><span class="lineno">  625</span>                <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../df/d62/_object_mgr_8cpp.html#af55111c173fd16ba2898f3046dfa3d9a">normalizePlayerName</a>(name))</div>
+<div class="line"><span class="lineno">  626</span>                    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  627</span> </div>
+<div class="line"><span class="lineno">  628</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#af5cb6806842c9689cf1d5f43ffdc4b0a">ObjectAccessor::FindPlayerByName</a>(name, <span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno">  629</span>                    <span class="keywordflow">return</span> player-&gt;GetGUID().GetCounter();</div>
+<div class="line"><span class="lineno">  630</span> </div>
+<div class="line"><span class="lineno">  631</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> guid = <a class="code hl_define" href="../../d0/d2a/_character_cache_8h.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a>-&gt;GetCharacterGuidByName(name))</div>
+<div class="line"><span class="lineno">  632</span>                    <span class="keywordflow">return</span> guid.GetCounter();</div>
+<div class="line"><span class="lineno">  633</span> </div>
+<div class="line"><span class="lineno">  634</span>                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  635</span>            }</div>
+<div class="line"><span class="lineno">  636</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d11/_chat_8cpp.html#a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8">SPELL_LINK_CREATURE</a>:</div>
+<div class="line"><span class="lineno">  637</span>            {</div>
+<div class="line"><span class="lineno">  638</span>                guidHigh = HighGuid::Unit;</div>
+<div class="line"><span class="lineno">  639</span> </div>
+<div class="line"><span class="lineno">  640</span>                <a class="code hl_typedef" href="../../d8/d03/class_object_guid.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> lowguid = (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)atol(idS);</div>
+<div class="line"><span class="lineno">  641</span> </div>
+<div class="line"><span class="lineno">  642</span>                <span class="keywordflow">if</span> (<a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetCreatureData(lowguid))</div>
+<div class="line"><span class="lineno">  643</span>                    <span class="keywordflow">return</span> lowguid;</div>
+<div class="line"><span class="lineno">  644</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  645</span>                    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  646</span>            }</div>
+<div class="line"><span class="lineno">  647</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d11/_chat_8cpp.html#a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7">SPELL_LINK_GAMEOBJECT</a>:</div>
+<div class="line"><span class="lineno">  648</span>            {</div>
+<div class="line"><span class="lineno">  649</span>                guidHigh = HighGuid::GameObject;</div>
+<div class="line"><span class="lineno">  650</span> </div>
+<div class="line"><span class="lineno">  651</span>                <a class="code hl_typedef" href="../../d8/d03/class_object_guid.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> lowguid = (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)atol(idS);</div>
+<div class="line"><span class="lineno">  652</span> </div>
+<div class="line"><span class="lineno">  653</span>                <span class="keywordflow">if</span> (<a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetGOData(lowguid))</div>
+<div class="line"><span class="lineno">  654</span>                    <span class="keywordflow">return</span> lowguid;</div>
+<div class="line"><span class="lineno">  655</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  656</span>                    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  657</span>            }</div>
+<div class="line"><span class="lineno">  658</span>    }</div>
+<div class="line"><span class="lineno">  659</span> </div>
+<div class="line"><span class="lineno">  660</span>    <span class="comment">// unknown type?</span></div>
+<div class="line"><span class="lineno">  661</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  662</span>}</div>
+<div class="ttc" id="a_character_cache_8h_html_a7a32c898b33d6163d83a32f46d58517c"><div class="ttname"><a href="../../d0/d2a/_character_cache_8h.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a></div><div class="ttdeci">#define sCharacterCache</div><div class="ttdef"><b>Definition:</b> CharacterCache.h:83</div></div>
+<div class="ttc" id="a_chat_8cpp_html_a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028"><div class="ttname"><a href="../../da/d11/_chat_8cpp.html#a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028">SPELL_LINK_PLAYER</a></div><div class="ttdeci">@ SPELL_LINK_PLAYER</div><div class="ttdef"><b>Definition:</b> Chat.cpp:594</div></div>
+<div class="ttc" id="a_chat_8cpp_html_a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8"><div class="ttname"><a href="../../da/d11/_chat_8cpp.html#a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8">SPELL_LINK_CREATURE</a></div><div class="ttdeci">@ SPELL_LINK_CREATURE</div><div class="ttdef"><b>Definition:</b> Chat.cpp:595</div></div>
+<div class="ttc" id="a_chat_8cpp_html_a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7"><div class="ttname"><a href="../../da/d11/_chat_8cpp.html#a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7">SPELL_LINK_GAMEOBJECT</a></div><div class="ttdeci">@ SPELL_LINK_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> Chat.cpp:596</div></div>
+<div class="ttc" id="a_chat_8cpp_html_ae39447b85bcee503ddb354d2950d638a"><div class="ttname"><a href="../../da/d11/_chat_8cpp.html#ae39447b85bcee503ddb354d2950d638a">guidKeys</a></div><div class="ttdeci">static char const  *const guidKeys[]</div><div class="ttdef"><b>Definition:</b> Chat.cpp:599</div></div>
+<div class="ttc" id="a_object_mgr_8cpp_html_af55111c173fd16ba2898f3046dfa3d9a"><div class="ttname"><a href="../../df/d62/_object_mgr_8cpp.html#af55111c173fd16ba2898f3046dfa3d9a">normalizePlayerName</a></div><div class="ttdeci">bool normalizePlayerName(std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:206</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1606</div></div>
+<div class="ttc" id="aclass_chat_handler_html_a0ca0561c39cf8c5f34f00c37c3140350"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#a0ca0561c39cf8c5f34f00c37c3140350">ChatHandler::extractKeyFromLink</a></div><div class="ttdeci">char * extractKeyFromLink(char *text, char const *linkType, char **something1=nullptr)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:363</div></div>
+<div class="ttc" id="aclass_object_guid_html_aa278d50613c05dc1333df5185a6993eb"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a></div><div class="ttdeci">uint32 LowType</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:124</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_af5cb6806842c9689cf1d5f43ffdc4b0a"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#af5cb6806842c9689cf1d5f43ffdc4b0a">ObjectAccessor::FindPlayerByName</a></div><div class="ttdeci">Player * FindPlayerByName(std::string const &amp;name, bool checkInWorld=true)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:276</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad8f01e73ff069d46b3a8ec5a3fe3b008" name="ad8f01e73ff069d46b3a8ec5a3fe3b008"></a>
@@ -626,7 +958,19 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  665</span>{</div>
+<div class="line"><span class="lineno">  666</span>    <span class="comment">// |color|Hplayer:name|h[name]|h|r</span></div>
+<div class="line"><span class="lineno">  667</span>    <span class="keywordtype">char</span>* name_str = <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a0ca0561c39cf8c5f34f00c37c3140350">extractKeyFromLink</a>(text, <span class="stringliteral">&quot;Hplayer&quot;</span>);</div>
+<div class="line"><span class="lineno">  668</span>    <span class="keywordflow">if</span> (!name_str)</div>
+<div class="line"><span class="lineno">  669</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  670</span> </div>
+<div class="line"><span class="lineno">  671</span>    std::string name = name_str;</div>
+<div class="line"><span class="lineno">  672</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../df/d62/_object_mgr_8cpp.html#af55111c173fd16ba2898f3046dfa3d9a">normalizePlayerName</a>(name))</div>
+<div class="line"><span class="lineno">  673</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  674</span> </div>
+<div class="line"><span class="lineno">  675</span>    <span class="keywordflow">return</span> name;</div>
+<div class="line"><span class="lineno">  676</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad2aadfd932dfb1f57cc7a0b2aeb5bd52" name="ad2aadfd932dfb1f57cc7a0b2aeb5bd52"></a>
@@ -666,7 +1010,69 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  679</span>{</div>
+<div class="line"><span class="lineno">  680</span>    <span class="keywordflow">if</span> (args &amp;&amp; *args)</div>
+<div class="line"><span class="lineno">  681</span>    {</div>
+<div class="line"><span class="lineno">  682</span>        std::string name = <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ad8f01e73ff069d46b3a8ec5a3fe3b008">extractPlayerNameFromLink</a>(args);</div>
+<div class="line"><span class="lineno">  683</span>        <span class="keywordflow">if</span> (name.empty())</div>
+<div class="line"><span class="lineno">  684</span>        {</div>
+<div class="line"><span class="lineno">  685</span>            <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaab2e8907c804b742a54d115d079d86a6">LANG_PLAYER_NOT_FOUND</a>);</div>
+<div class="line"><span class="lineno">  686</span>            <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#aaabf84568161763e66bf375c14f100c5">SetSentErrorMessage</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  687</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  688</span>        }</div>
+<div class="line"><span class="lineno">  689</span> </div>
+<div class="line"><span class="lineno">  690</span>        <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* pl = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#af5cb6806842c9689cf1d5f43ffdc4b0a">ObjectAccessor::FindPlayerByName</a>(name, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  691</span> </div>
+<div class="line"><span class="lineno">  692</span>        <span class="comment">// if allowed player pointer</span></div>
+<div class="line"><span class="lineno">  693</span>        <span class="keywordflow">if</span> (player)</div>
+<div class="line"><span class="lineno">  694</span>            *player = pl;</div>
+<div class="line"><span class="lineno">  695</span> </div>
+<div class="line"><span class="lineno">  696</span>        <span class="comment">// if need guid value from DB (in name case for check player existence)</span></div>
+<div class="line"><span class="lineno">  697</span>        <a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> guid = !pl &amp;&amp; (player_guid || player_name) ? <a class="code hl_define" href="../../d0/d2a/_character_cache_8h.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a>-&gt;GetCharacterGuidByName(name) : <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>;</div>
+<div class="line"><span class="lineno">  698</span> </div>
+<div class="line"><span class="lineno">  699</span>        <span class="comment">// if allowed player guid (if no then only online players allowed)</span></div>
+<div class="line"><span class="lineno">  700</span>        <span class="keywordflow">if</span> (player_guid)</div>
+<div class="line"><span class="lineno">  701</span>            *player_guid = pl ? pl-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>() : guid;</div>
+<div class="line"><span class="lineno">  702</span> </div>
+<div class="line"><span class="lineno">  703</span>        <span class="keywordflow">if</span> (player_name)</div>
+<div class="line"><span class="lineno">  704</span>            *player_name = pl || guid ? name : <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  705</span>    }</div>
+<div class="line"><span class="lineno">  706</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  707</span>    {</div>
+<div class="line"><span class="lineno">  708</span>        <span class="comment">// populate strtok buffer to prevent crashes</span></div>
+<div class="line"><span class="lineno">  709</span>        <span class="keyword">static</span> <span class="keywordtype">char</span> dummy[1] = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  710</span>        strtok(dummy, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  711</span> </div>
+<div class="line"><span class="lineno">  712</span>        <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* pl = <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ad948d4d7a2fe777df9d02f40201bcf4a">getSelectedPlayer</a>();</div>
+<div class="line"><span class="lineno">  713</span>        <span class="comment">// if allowed player pointer</span></div>
+<div class="line"><span class="lineno">  714</span>        <span class="keywordflow">if</span> (player)</div>
+<div class="line"><span class="lineno">  715</span>            *player = pl;</div>
+<div class="line"><span class="lineno">  716</span> </div>
+<div class="line"><span class="lineno">  717</span>        <span class="comment">// if allowed player guid (if no then only online players allowed)</span></div>
+<div class="line"><span class="lineno">  718</span>        <span class="keywordflow">if</span> (player_guid)</div>
+<div class="line"><span class="lineno">  719</span>            *player_guid = pl ? pl-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>() : <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>;</div>
+<div class="line"><span class="lineno">  720</span> </div>
+<div class="line"><span class="lineno">  721</span>        <span class="keywordflow">if</span> (player_name)</div>
+<div class="line"><span class="lineno">  722</span>            *player_name = pl ? pl-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>() : <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  723</span>    }</div>
+<div class="line"><span class="lineno">  724</span> </div>
+<div class="line"><span class="lineno">  725</span>    <span class="comment">// some from req. data must be provided (note: name is empty if player not exist)</span></div>
+<div class="line"><span class="lineno">  726</span>    <span class="keywordflow">if</span> ((!player || !*player) &amp;&amp; (!player_guid || !*player_guid) &amp;&amp; (!player_name || player_name-&gt;empty()))</div>
+<div class="line"><span class="lineno">  727</span>    {</div>
+<div class="line"><span class="lineno">  728</span>        <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaab2e8907c804b742a54d115d079d86a6">LANG_PLAYER_NOT_FOUND</a>);</div>
+<div class="line"><span class="lineno">  729</span>        <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#aaabf84568161763e66bf375c14f100c5">SetSentErrorMessage</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  730</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  731</span>    }</div>
+<div class="line"><span class="lineno">  732</span> </div>
+<div class="line"><span class="lineno">  733</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  734</span>}</div>
+<div class="ttc" id="a_language_8h_html_af9ee42b1cf006ecb2d2e74fe71c0761aaab2e8907c804b742a54d115d079d86a6"><div class="ttname"><a href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaab2e8907c804b742a54d115d079d86a6">LANG_PLAYER_NOT_FOUND</a></div><div class="ttdeci">@ LANG_PLAYER_NOT_FOUND</div><div class="ttdef"><b>Definition:</b> Language.h:522</div></div>
+<div class="ttc" id="aclass_chat_handler_html_ad8f01e73ff069d46b3a8ec5a3fe3b008"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ad8f01e73ff069d46b3a8ec5a3fe3b008">ChatHandler::extractPlayerNameFromLink</a></div><div class="ttdeci">std::string extractPlayerNameFromLink(char *text)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:664</div></div>
+<div class="ttc" id="aclass_chat_handler_html_ad948d4d7a2fe777df9d02f40201bcf4a"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ad948d4d7a2fe777df9d02f40201bcf4a">ChatHandler::getSelectedPlayer</a></div><div class="ttdeci">Player * getSelectedPlayer() const</div><div class="ttdef"><b>Definition:</b> Chat.cpp:301</div></div>
+<div class="ttc" id="aclass_object_guid_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_world_object_html_a7e67658eb5aa058bc7f46bf6b11a797c"><div class="ttname"><a href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">WorldObject::GetName</a></div><div class="ttdeci">std::string const &amp; GetName() const</div><div class="ttdef"><b>Definition:</b> Object.h:446</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a56773f00c74d5aeb327d188b0015e126" name="a56773f00c74d5aeb327d188b0015e126"></a>
@@ -684,7 +1090,45 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  737</span>{</div>
+<div class="line"><span class="lineno">  738</span>    <span class="keywordflow">if</span> (!*args)</div>
+<div class="line"><span class="lineno">  739</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  740</span> </div>
+<div class="line"><span class="lineno">  741</span>    <span class="keywordflow">if</span> (*args == <span class="charliteral">&#39;&quot;&#39;</span>)</div>
+<div class="line"><span class="lineno">  742</span>        <span class="keywordflow">return</span> strtok(args + 1, <span class="stringliteral">&quot;\&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  743</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  744</span>    {</div>
+<div class="line"><span class="lineno">  745</span>        <span class="comment">// skip spaces</span></div>
+<div class="line"><span class="lineno">  746</span>        <span class="keywordflow">while</span> (*args == <span class="charliteral">&#39; &#39;</span>)</div>
+<div class="line"><span class="lineno">  747</span>        {</div>
+<div class="line"><span class="lineno">  748</span>            args += 1;</div>
+<div class="line"><span class="lineno">  749</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  750</span>        }</div>
+<div class="line"><span class="lineno">  751</span> </div>
+<div class="line"><span class="lineno">  752</span>        <span class="comment">// return nullptr if we reached the end of the string</span></div>
+<div class="line"><span class="lineno">  753</span>        <span class="keywordflow">if</span> (!*args)</div>
+<div class="line"><span class="lineno">  754</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  755</span> </div>
+<div class="line"><span class="lineno">  756</span>        <span class="comment">// since we skipped all spaces, we expect another token now</span></div>
+<div class="line"><span class="lineno">  757</span>        <span class="keywordflow">if</span> (*args == <span class="charliteral">&#39;&quot;&#39;</span>)</div>
+<div class="line"><span class="lineno">  758</span>        {</div>
+<div class="line"><span class="lineno">  759</span>            <span class="comment">// return an empty string if there are 2 &quot;&quot; in a row.</span></div>
+<div class="line"><span class="lineno">  760</span>            <span class="comment">// strtok doesn&#39;t handle this case</span></div>
+<div class="line"><span class="lineno">  761</span>            <span class="keywordflow">if</span> (*(args + 1) == <span class="charliteral">&#39;&quot;&#39;</span>)</div>
+<div class="line"><span class="lineno">  762</span>            {</div>
+<div class="line"><span class="lineno">  763</span>                strtok(args, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  764</span>                <span class="keyword">static</span> <span class="keywordtype">char</span> arg[1];</div>
+<div class="line"><span class="lineno">  765</span>                arg[0] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno">  766</span>                <span class="keywordflow">return</span> arg;</div>
+<div class="line"><span class="lineno">  767</span>            }</div>
+<div class="line"><span class="lineno">  768</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  769</span>                <span class="keywordflow">return</span> strtok(args + 1, <span class="stringliteral">&quot;\&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  770</span>        }</div>
+<div class="line"><span class="lineno">  771</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  772</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  773</span>    }</div>
+<div class="line"><span class="lineno">  774</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9819eb4f3d8aecfe12d794fe87c811f4" name="a9819eb4f3d8aecfe12d794fe87c811f4"></a>
@@ -702,7 +1146,72 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  539</span>{</div>
+<div class="line"><span class="lineno">  540</span>    <span class="comment">// number or [name] Shift-click form |color|Henchant:recipe_spell_id|h[prof_name: recipe_name]|h|r</span></div>
+<div class="line"><span class="lineno">  541</span>    <span class="comment">// number or [name] Shift-click form |color|Hglyph:glyph_slot_id:glyph_prop_id|h[%s]|h|r</span></div>
+<div class="line"><span class="lineno">  542</span>    <span class="comment">// number or [name] Shift-click form |color|Hspell:spell_id|h[name]|h|r</span></div>
+<div class="line"><span class="lineno">  543</span>    <span class="comment">// number or [name] Shift-click form |color|Htalent:talent_id, rank|h[name]|h|r</span></div>
+<div class="line"><span class="lineno">  544</span>    <span class="comment">// number or [name] Shift-click form |color|Htrade:spell_id, skill_id, max_value, cur_value|h[name]|h|r</span></div>
+<div class="line"><span class="lineno">  545</span>    <span class="keywordtype">int</span> type = 0;</div>
+<div class="line"><span class="lineno">  546</span>    <span class="keywordtype">char</span>* param1_str = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  547</span>    <span class="keywordtype">char</span>* idS = <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a0ca0561c39cf8c5f34f00c37c3140350">extractKeyFromLink</a>(text, <a class="code hl_variable" href="../../da/d11/_chat_8cpp.html#a493fba30c4b66be28baeb971844ea593">spellKeys</a>, &amp;type, &amp;param1_str);</div>
+<div class="line"><span class="lineno">  548</span>    <span class="keywordflow">if</span> (!idS)</div>
+<div class="line"><span class="lineno">  549</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  550</span> </div>
+<div class="line"><span class="lineno">  551</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <span class="keywordtype">id</span> = (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)atol(idS);</div>
+<div class="line"><span class="lineno">  552</span> </div>
+<div class="line"><span class="lineno">  553</span>    <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><span class="lineno">  554</span>    {</div>
+<div class="line"><span class="lineno">  555</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d11/_chat_8cpp.html#a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd">SPELL_LINK_SPELL</a>:</div>
+<div class="line"><span class="lineno">  556</span>            <span class="keywordflow">return</span> id;</div>
+<div class="line"><span class="lineno">  557</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d11/_chat_8cpp.html#a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56">SPELL_LINK_TALENT</a>:</div>
+<div class="line"><span class="lineno">  558</span>            {</div>
+<div class="line"><span class="lineno">  559</span>                <span class="comment">// talent</span></div>
+<div class="line"><span class="lineno">  560</span>                <a class="code hl_struct" href="../../db/d1b/struct_talent_entry.html">TalentEntry</a> <span class="keyword">const</span>* talentEntry = <a class="code hl_variable" href="../../dd/d17/_d_b_c_stores_8cpp.html#abd81359499a4a51a71b17ea8f9f7ad62">sTalentStore</a>.LookupEntry(<span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">  561</span>                <span class="keywordflow">if</span> (!talentEntry)</div>
+<div class="line"><span class="lineno">  562</span>                    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  563</span> </div>
+<div class="line"><span class="lineno">  564</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> rank = param1_str ? (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)atol(param1_str) : 0;</div>
+<div class="line"><span class="lineno">  565</span>                <span class="keywordflow">if</span> (rank &gt;= <a class="code hl_define" href="../../d1/d22/_d_b_c_structure_8h.html#a8d6d5cac52d7a437e341e9f6ebc21a21">MAX_TALENT_RANK</a>)</div>
+<div class="line"><span class="lineno">  566</span>                    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  567</span> </div>
+<div class="line"><span class="lineno">  568</span>                <span class="keywordflow">if</span> (rank &lt; 0)</div>
+<div class="line"><span class="lineno">  569</span>                    rank = 0;</div>
+<div class="line"><span class="lineno">  570</span> </div>
+<div class="line"><span class="lineno">  571</span>                <span class="keywordflow">return</span> talentEntry-&gt;<a class="code hl_variable" href="../../db/d1b/struct_talent_entry.html#a96d0fd120ed3aa7fbd287d104fd87c26">RankID</a>[rank];</div>
+<div class="line"><span class="lineno">  572</span>            }</div>
+<div class="line"><span class="lineno">  573</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d11/_chat_8cpp.html#a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654">SPELL_LINK_ENCHANT</a>:</div>
+<div class="line"><span class="lineno">  574</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d11/_chat_8cpp.html#a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919">SPELL_LINK_TRADE</a>:</div>
+<div class="line"><span class="lineno">  575</span>            <span class="keywordflow">return</span> id;</div>
+<div class="line"><span class="lineno">  576</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d11/_chat_8cpp.html#a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e">SPELL_LINK_GLYPH</a>:</div>
+<div class="line"><span class="lineno">  577</span>            {</div>
+<div class="line"><span class="lineno">  578</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> glyph_prop_id = param1_str ? (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)atol(param1_str) : 0;</div>
+<div class="line"><span class="lineno">  579</span> </div>
+<div class="line"><span class="lineno">  580</span>                <a class="code hl_struct" href="../../d4/dcb/struct_glyph_properties_entry.html">GlyphPropertiesEntry</a> <span class="keyword">const</span>* glyphPropEntry = <a class="code hl_variable" href="../../dd/d17/_d_b_c_stores_8cpp.html#acea66fa4ab7a4e45db7d27aa86a15eda">sGlyphPropertiesStore</a>.LookupEntry(glyph_prop_id);</div>
+<div class="line"><span class="lineno">  581</span>                <span class="keywordflow">if</span> (!glyphPropEntry)</div>
+<div class="line"><span class="lineno">  582</span>                    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  583</span> </div>
+<div class="line"><span class="lineno">  584</span>                <span class="keywordflow">return</span> glyphPropEntry-&gt;<a class="code hl_variable" href="../../d4/dcb/struct_glyph_properties_entry.html#ae8c119bacf706916f331d3f316fb1347">SpellId</a>;</div>
+<div class="line"><span class="lineno">  585</span>            }</div>
+<div class="line"><span class="lineno">  586</span>    }</div>
+<div class="line"><span class="lineno">  587</span> </div>
+<div class="line"><span class="lineno">  588</span>    <span class="comment">// unknown type?</span></div>
+<div class="line"><span class="lineno">  589</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  590</span>}</div>
+<div class="ttc" id="a_chat_8cpp_html_a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd"><div class="ttname"><a href="../../da/d11/_chat_8cpp.html#a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd">SPELL_LINK_SPELL</a></div><div class="ttdeci">@ SPELL_LINK_SPELL</div><div class="ttdef"><b>Definition:</b> Chat.cpp:521</div></div>
+<div class="ttc" id="a_chat_8cpp_html_a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e"><div class="ttname"><a href="../../da/d11/_chat_8cpp.html#a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e">SPELL_LINK_GLYPH</a></div><div class="ttdeci">@ SPELL_LINK_GLYPH</div><div class="ttdef"><b>Definition:</b> Chat.cpp:525</div></div>
+<div class="ttc" id="a_chat_8cpp_html_a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56"><div class="ttname"><a href="../../da/d11/_chat_8cpp.html#a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56">SPELL_LINK_TALENT</a></div><div class="ttdeci">@ SPELL_LINK_TALENT</div><div class="ttdef"><b>Definition:</b> Chat.cpp:522</div></div>
+<div class="ttc" id="a_chat_8cpp_html_a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654"><div class="ttname"><a href="../../da/d11/_chat_8cpp.html#a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654">SPELL_LINK_ENCHANT</a></div><div class="ttdeci">@ SPELL_LINK_ENCHANT</div><div class="ttdef"><b>Definition:</b> Chat.cpp:523</div></div>
+<div class="ttc" id="a_chat_8cpp_html_a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919"><div class="ttname"><a href="../../da/d11/_chat_8cpp.html#a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919">SPELL_LINK_TRADE</a></div><div class="ttdeci">@ SPELL_LINK_TRADE</div><div class="ttdef"><b>Definition:</b> Chat.cpp:524</div></div>
+<div class="ttc" id="a_chat_8cpp_html_a493fba30c4b66be28baeb971844ea593"><div class="ttname"><a href="../../da/d11/_chat_8cpp.html#a493fba30c4b66be28baeb971844ea593">spellKeys</a></div><div class="ttdeci">static char const  *const spellKeys[]</div><div class="ttdef"><b>Definition:</b> Chat.cpp:528</div></div>
+<div class="ttc" id="a_d_b_c_stores_8cpp_html_abd81359499a4a51a71b17ea8f9f7ad62"><div class="ttname"><a href="../../dd/d17/_d_b_c_stores_8cpp.html#abd81359499a4a51a71b17ea8f9f7ad62">sTalentStore</a></div><div class="ttdeci">DBCStorage&lt; TalentEntry &gt; sTalentStore(TalentEntryfmt)</div></div>
+<div class="ttc" id="a_d_b_c_stores_8cpp_html_acea66fa4ab7a4e45db7d27aa86a15eda"><div class="ttname"><a href="../../dd/d17/_d_b_c_stores_8cpp.html#acea66fa4ab7a4e45db7d27aa86a15eda">sGlyphPropertiesStore</a></div><div class="ttdeci">DBCStorage&lt; GlyphPropertiesEntry &gt; sGlyphPropertiesStore(GlyphPropertiesfmt)</div></div>
+<div class="ttc" id="a_d_b_c_structure_8h_html_a8d6d5cac52d7a437e341e9f6ebc21a21"><div class="ttname"><a href="../../d1/d22/_d_b_c_structure_8h.html#a8d6d5cac52d7a437e341e9f6ebc21a21">MAX_TALENT_RANK</a></div><div class="ttdeci">#define MAX_TALENT_RANK</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1880</div></div>
+<div class="ttc" id="astruct_glyph_properties_entry_html"><div class="ttname"><a href="../../d4/dcb/struct_glyph_properties_entry.html">GlyphPropertiesEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1012</div></div>
+<div class="ttc" id="astruct_glyph_properties_entry_html_ae8c119bacf706916f331d3f316fb1347"><div class="ttname"><a href="../../d4/dcb/struct_glyph_properties_entry.html#ae8c119bacf706916f331d3f316fb1347">GlyphPropertiesEntry::SpellId</a></div><div class="ttdeci">uint32 SpellId</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1014</div></div>
+<div class="ttc" id="astruct_talent_entry_html"><div class="ttname"><a href="../../db/d1b/struct_talent_entry.html">TalentEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1885</div></div>
+<div class="ttc" id="astruct_talent_entry_html_a96d0fd120ed3aa7fbd287d104fd87c26"><div class="ttname"><a href="../../db/d1b/struct_talent_entry.html#a96d0fd120ed3aa7fbd287d104fd87c26">TalentEntry::RankID</a></div><div class="ttdeci">std::array&lt; uint32, MAX_TALENT_RANK &gt; RankID</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1890</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8ca438da44d3f43db97a03d32a777dad" name="a8ca438da44d3f43db97a03d32a777dad"></a>
@@ -730,7 +1239,11 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../df/d7f/class_cli_handler.html#a84a52cac4c1ac11e36e36c37f976af0e">CliHandler</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   43</span>{</div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#ae4964d2c0e33501d4399ae64b461f450">GetAcoreString</a>(entry);</div>
+<div class="line"><span class="lineno">   45</span>}</div>
+<div class="ttc" id="aclass_world_session_html_ae4964d2c0e33501d4399ae64b461f450"><div class="ttname"><a href="../../d1/d47/class_world_session.html#ae4964d2c0e33501d4399ae64b461f450">WorldSession::GetAcoreString</a></div><div class="ttdeci">char const * GetAcoreString(uint32 entry) const</div><div class="ttdef"><b>Definition:</b> WorldSession.cpp:798</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7f1f93fbd2856330821b565db4014cd3" name="a7f1f93fbd2856330821b565db4014cd3"></a>
@@ -748,7 +1261,28 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  489</span>{</div>
+<div class="line"><span class="lineno">  490</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>)</div>
+<div class="line"><span class="lineno">  491</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  492</span> </div>
+<div class="line"><span class="lineno">  493</span>    <span class="comment">// Select the first alive creature or a dead one if not found</span></div>
+<div class="line"><span class="lineno">  494</span>    <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* creature = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  495</span> </div>
+<div class="line"><span class="lineno">  496</span>    <span class="keyword">auto</span> bounds = <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>()-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ad8d292cbfb60dc5fa1d0210eb1f4b0ab">GetCreatureBySpawnIdStore</a>().equal_range(lowguid);</div>
+<div class="line"><span class="lineno">  497</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = bounds.first; it != bounds.second; ++it)</div>
+<div class="line"><span class="lineno">  498</span>    {</div>
+<div class="line"><span class="lineno">  499</span>        creature = it-&gt;second;</div>
+<div class="line"><span class="lineno">  500</span>        <span class="keywordflow">if</span> (it-&gt;second-&gt;IsAlive())</div>
+<div class="line"><span class="lineno">  501</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  502</span>    }</div>
+<div class="line"><span class="lineno">  503</span> </div>
+<div class="line"><span class="lineno">  504</span>    <span class="keywordflow">return</span> creature;</div>
+<div class="line"><span class="lineno">  505</span>}</div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_map_html_ad8d292cbfb60dc5fa1d0210eb1f4b0ab"><div class="ttname"><a href="../../dd/d11/class_map.html#ad8d292cbfb60dc5fa1d0210eb1f4b0ab">Map::GetCreatureBySpawnIdStore</a></div><div class="ttdeci">CreatureBySpawnIdContainer &amp; GetCreatureBySpawnIdStore()</div><div class="ttdef"><b>Definition:</b> Map.h:518</div></div>
+<div class="ttc" id="aclass_world_object_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:517</div></div>
+<div class="ttc" id="aclass_world_session_html_a62c786bcb829a021c267e7eb56809952"><div class="ttname"><a href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">WorldSession::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer() const</div><div class="ttdef"><b>Definition:</b> WorldSession.h:360</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0e2b0a9da9e25f17c2f995505eeea940" name="a0e2b0a9da9e25f17c2f995505eeea940"></a>
@@ -775,7 +1309,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../df/d7f/class_cli_handler.html#ae879bbfa69992caa7a0b1b2b3c7d939c">CliHandler</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   84</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a0e2b0a9da9e25f17c2f995505eeea940">GetNameLink</a>(<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>()); }</div>
+<div class="ttc" id="aclass_chat_handler_html_a0e2b0a9da9e25f17c2f995505eeea940"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#a0e2b0a9da9e25f17c2f995505eeea940">ChatHandler::GetNameLink</a></div><div class="ttdeci">virtual std::string GetNameLink() const</div><div class="ttdef"><b>Definition:</b> Chat.h:84</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a93c66f4db98f9fa0e8f09445f36acdac" name="a93c66f4db98f9fa0e8f09445f36acdac"></a>
@@ -793,7 +1329,11 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  793</span>{</div>
+<div class="line"><span class="lineno">  794</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a52c15179ec3eff1b6bb9551d96a8b901">playerLink</a>(chr-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>());</div>
+<div class="line"><span class="lineno">  795</span>}</div>
+<div class="ttc" id="aclass_chat_handler_html_a52c15179ec3eff1b6bb9551d96a8b901"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#a52c15179ec3eff1b6bb9551d96a8b901">ChatHandler::playerLink</a></div><div class="ttdeci">std::string playerLink(std::string const &amp;name) const</div><div class="ttdef"><b>Definition:</b> Chat.h:111</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac65d809c0ef89e094ece2258ab1cac7b" name="ac65d809c0ef89e094ece2258ab1cac7b"></a>
@@ -810,7 +1350,23 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  476</span>{</div>
+<div class="line"><span class="lineno">  477</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>)</div>
+<div class="line"><span class="lineno">  478</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  479</span> </div>
+<div class="line"><span class="lineno">  480</span>    <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* pl = <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>();</div>
+<div class="line"><span class="lineno">  481</span>    <a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* obj = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  482</span>    <a class="code hl_class" href="../../d6/d9f/class_acore_1_1_nearest_game_object_check.html">Acore::NearestGameObjectCheck</a> check(*pl);</div>
+<div class="line"><span class="lineno">  483</span>    <a class="code hl_struct" href="../../d9/d4b/struct_acore_1_1_game_object_last_searcher.html">Acore::GameObjectLastSearcher&lt;Acore::NearestGameObjectCheck&gt;</a> searcher(pl, obj, check);</div>
+<div class="line"><span class="lineno">  484</span>    <a class="code hl_function" href="../../dc/d9f/struct_cell.html#a7040fac6edc9c2b742ff1d91f786afa0">Cell::VisitGridObjects</a>(pl, searcher, <a class="code hl_define" href="../../d5/d17/_map_defines_8h.html#a55c9adba46c0c14cd4ac80ab51228816">SIZE_OF_GRIDS</a>);</div>
+<div class="line"><span class="lineno">  485</span>    <span class="keywordflow">return</span> obj;</div>
+<div class="line"><span class="lineno">  486</span>}</div>
+<div class="ttc" id="a_map_defines_8h_html_a55c9adba46c0c14cd4ac80ab51228816"><div class="ttname"><a href="../../d5/d17/_map_defines_8h.html#a55c9adba46c0c14cd4ac80ab51228816">SIZE_OF_GRIDS</a></div><div class="ttdeci">#define SIZE_OF_GRIDS</div><div class="ttdef"><b>Definition:</b> MapDefines.h:13</div></div>
+<div class="ttc" id="aclass_acore_1_1_nearest_game_object_check_html"><div class="ttname"><a href="../../d6/d9f/class_acore_1_1_nearest_game_object_check.html">Acore::NearestGameObjectCheck</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:700</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="astruct_acore_1_1_game_object_last_searcher_html"><div class="ttname"><a href="../../d9/d4b/struct_acore_1_1_game_object_last_searcher.html">Acore::GameObjectLastSearcher</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:332</div></div>
+<div class="ttc" id="astruct_cell_html_a7040fac6edc9c2b742ff1d91f786afa0"><div class="ttname"><a href="../../dc/d9f/struct_cell.html#a7040fac6edc9c2b742ff1d91f786afa0">Cell::VisitGridObjects</a></div><div class="ttdeci">static void VisitGridObjects(WorldObject const *obj, T &amp;visitor, float radius, bool dont_load=true)</div><div class="ttdef"><b>Definition:</b> CellImpl.h:179</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a951840fcd02a7b80eba052ff0639aad9" name="a951840fcd02a7b80eba052ff0639aad9"></a>
@@ -828,7 +1384,18 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  508</span>{</div>
+<div class="line"><span class="lineno">  509</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>)</div>
+<div class="line"><span class="lineno">  510</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  511</span> </div>
+<div class="line"><span class="lineno">  512</span>    <span class="keyword">auto</span> bounds = <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>()-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#aac4872f039e434e42170fb5eb45691f2">GetGameObjectBySpawnIdStore</a>().equal_range(lowguid);</div>
+<div class="line"><span class="lineno">  513</span>    <span class="keywordflow">if</span> (bounds.first != bounds.second)</div>
+<div class="line"><span class="lineno">  514</span>        <span class="keywordflow">return</span> bounds.first-&gt;second;</div>
+<div class="line"><span class="lineno">  515</span> </div>
+<div class="line"><span class="lineno">  516</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  517</span>}</div>
+<div class="ttc" id="aclass_map_html_aac4872f039e434e42170fb5eb45691f2"><div class="ttname"><a href="../../dd/d11/class_map.html#aac4872f039e434e42170fb5eb45691f2">Map::GetGameObjectBySpawnIdStore</a></div><div class="ttdeci">GameObjectBySpawnIdContainer &amp; GetGameObjectBySpawnIdStore()</div><div class="ttdef"><b>Definition:</b> Map.h:521</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab1fd0ff3281702b870de2aac859e9ace" name="ab1fd0ff3281702b870de2aac859e9ace"></a>
@@ -845,7 +1412,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   38</span>{</div>
+<div class="line"><span class="lineno">   39</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a> ? <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>() : <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   40</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac088da93123a1d564db3254b2a9deba7" name="ac088da93123a1d564db3254b2a9deba7"></a>
@@ -891,7 +1461,52 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  831</span>{</div>
+<div class="line"><span class="lineno">  832</span>    player = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  833</span>    guid = <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>;</div>
+<div class="line"><span class="lineno">  834</span> </div>
+<div class="line"><span class="lineno">  835</span>    <span class="keywordflow">if</span> (cname)</div>
+<div class="line"><span class="lineno">  836</span>    {</div>
+<div class="line"><span class="lineno">  837</span>        std::string name = cname;</div>
+<div class="line"><span class="lineno">  838</span>        <span class="keywordflow">if</span> (!name.empty())</div>
+<div class="line"><span class="lineno">  839</span>        {</div>
+<div class="line"><span class="lineno">  840</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../df/d62/_object_mgr_8cpp.html#af55111c173fd16ba2898f3046dfa3d9a">normalizePlayerName</a>(name))</div>
+<div class="line"><span class="lineno">  841</span>            {</div>
+<div class="line"><span class="lineno">  842</span>                <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a>(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaab2e8907c804b742a54d115d079d86a6">LANG_PLAYER_NOT_FOUND</a>);</div>
+<div class="line"><span class="lineno">  843</span>                <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#aaabf84568161763e66bf375c14f100c5">SetSentErrorMessage</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  844</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  845</span>            }</div>
+<div class="line"><span class="lineno">  846</span> </div>
+<div class="line"><span class="lineno">  847</span>            player = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#af5cb6806842c9689cf1d5f43ffdc4b0a">ObjectAccessor::FindPlayerByName</a>(name, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  848</span>            <span class="keywordflow">if</span> (offline)</div>
+<div class="line"><span class="lineno">  849</span>            {</div>
+<div class="line"><span class="lineno">  850</span>                guid = <a class="code hl_define" href="../../d0/d2a/_character_cache_8h.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a>-&gt;GetCharacterGuidByName(name);</div>
+<div class="line"><span class="lineno">  851</span>            }</div>
+<div class="line"><span class="lineno">  852</span>        }</div>
+<div class="line"><span class="lineno">  853</span>    }</div>
+<div class="line"><span class="lineno">  854</span> </div>
+<div class="line"><span class="lineno">  855</span>    <span class="keywordflow">if</span> (player)</div>
+<div class="line"><span class="lineno">  856</span>    {</div>
+<div class="line"><span class="lineno">  857</span>        group = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">GetGroup</a>();</div>
+<div class="line"><span class="lineno">  858</span>        <span class="keywordflow">if</span> (!guid || !offline)</div>
+<div class="line"><span class="lineno">  859</span>            guid = player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  860</span>    }</div>
+<div class="line"><span class="lineno">  861</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  862</span>    {</div>
+<div class="line"><span class="lineno">  863</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ad948d4d7a2fe777df9d02f40201bcf4a">getSelectedPlayer</a>())</div>
+<div class="line"><span class="lineno">  864</span>            player = <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ad948d4d7a2fe777df9d02f40201bcf4a">getSelectedPlayer</a>();</div>
+<div class="line"><span class="lineno">  865</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  866</span>            player = <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>();</div>
+<div class="line"><span class="lineno">  867</span> </div>
+<div class="line"><span class="lineno">  868</span>        <span class="keywordflow">if</span> (!guid || !offline)</div>
+<div class="line"><span class="lineno">  869</span>            guid  = player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  870</span>        group = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">GetGroup</a>();</div>
+<div class="line"><span class="lineno">  871</span>    }</div>
+<div class="line"><span class="lineno">  872</span> </div>
+<div class="line"><span class="lineno">  873</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  874</span>}</div>
+<div class="ttc" id="aclass_player_html_a99fc00f9ac903dbe9adcadc5f7415abb"><div class="ttname"><a href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">Player::GetGroup</a></div><div class="ttdeci">Group * GetGroup()</div><div class="ttdef"><b>Definition:</b> Player.h:2417</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="affa04b48f8ce2a0c11b9e245e200f68b" name="affa04b48f8ce2a0c11b9e245e200f68b"></a>
@@ -908,7 +1523,15 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  338</span>{</div>
+<div class="line"><span class="lineno">  339</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>)</div>
+<div class="line"><span class="lineno">  340</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  341</span> </div>
+<div class="line"><span class="lineno">  342</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#abe7c8995443541417f52b00973dbde6f">ObjectAccessor::GetCreatureOrPetOrVehicle</a>(*<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>(), <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af387d5e18806e37f65ebc3408c0b8712">GetTarget</a>());</div>
+<div class="line"><span class="lineno">  343</span>}</div>
+<div class="ttc" id="aclass_unit_html_af387d5e18806e37f65ebc3408c0b8712"><div class="ttname"><a href="../../da/db7/class_unit.html#af387d5e18806e37f65ebc3408c0b8712">Unit::GetTarget</a></div><div class="ttdeci">ObjectGuid GetTarget() const</div><div class="ttdef"><b>Definition:</b> Unit.h:2428</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_abe7c8995443541417f52b00973dbde6f"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#abe7c8995443541417f52b00973dbde6f">ObjectAccessor::GetCreatureOrPetOrVehicle</a></div><div class="ttdeci">Creature * GetCreatureOrPetOrVehicle(WorldObject const &amp;, ObjectGuid const)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:239</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa6ba050fe60067fcfb5fe02b4f2d5530" name="aa6ba050fe60067fcfb5fe02b4f2d5530"></a>
@@ -925,7 +1548,20 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  325</span>{</div>
+<div class="line"><span class="lineno">  326</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>)</div>
+<div class="line"><span class="lineno">  327</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  328</span> </div>
+<div class="line"><span class="lineno">  329</span>    <a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> guid = <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af387d5e18806e37f65ebc3408c0b8712">GetTarget</a>();</div>
+<div class="line"><span class="lineno">  330</span> </div>
+<div class="line"><span class="lineno">  331</span>    <span class="keywordflow">if</span> (!guid)</div>
+<div class="line"><span class="lineno">  332</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac65d809c0ef89e094ece2258ab1cac7b">GetNearbyGameObject</a>();</div>
+<div class="line"><span class="lineno">  333</span> </div>
+<div class="line"><span class="lineno">  334</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>(), guid);</div>
+<div class="line"><span class="lineno">  335</span>}</div>
+<div class="ttc" id="aclass_chat_handler_html_ac65d809c0ef89e094ece2258ab1cac7b"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ac65d809c0ef89e094ece2258ab1cac7b">ChatHandler::GetNearbyGameObject</a></div><div class="ttdeci">GameObject * GetNearbyGameObject() const</div><div class="ttdef"><b>Definition:</b> Chat.cpp:475</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad948d4d7a2fe777df9d02f40201bcf4a" name="ad948d4d7a2fe777df9d02f40201bcf4a"></a>
@@ -942,7 +1578,18 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  302</span>{</div>
+<div class="line"><span class="lineno">  303</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>)</div>
+<div class="line"><span class="lineno">  304</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  305</span> </div>
+<div class="line"><span class="lineno">  306</span>    <a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> selected = <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af387d5e18806e37f65ebc3408c0b8712">GetTarget</a>();</div>
+<div class="line"><span class="lineno">  307</span>    <span class="keywordflow">if</span> (!selected)</div>
+<div class="line"><span class="lineno">  308</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>();</div>
+<div class="line"><span class="lineno">  309</span> </div>
+<div class="line"><span class="lineno">  310</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0">ObjectAccessor::FindConnectedPlayer</a>(selected);</div>
+<div class="line"><span class="lineno">  311</span>}</div>
+<div class="ttc" id="anamespace_object_accessor_html_a354f7e7aaf4b12d6ad8fe8ef6291eaa0"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0">ObjectAccessor::FindConnectedPlayer</a></div><div class="ttdeci">Player * FindConnectedPlayer(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:262</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac007a55e6fd322fb27b9351c70e32c42" name="ac007a55e6fd322fb27b9351c70e32c42"></a>
@@ -959,7 +1606,23 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  346</span>{</div>
+<div class="line"><span class="lineno">  347</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>)</div>
+<div class="line"><span class="lineno">  348</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  349</span> </div>
+<div class="line"><span class="lineno">  350</span>    <a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> selected = <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af387d5e18806e37f65ebc3408c0b8712">GetTarget</a>();</div>
+<div class="line"><span class="lineno">  351</span>    <span class="keywordflow">if</span> (!selected)</div>
+<div class="line"><span class="lineno">  352</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>();</div>
+<div class="line"><span class="lineno">  353</span> </div>
+<div class="line"><span class="lineno">  354</span>    <span class="comment">// first try with selected target</span></div>
+<div class="line"><span class="lineno">  355</span>    <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* targetPlayer = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0">ObjectAccessor::FindConnectedPlayer</a>(selected);</div>
+<div class="line"><span class="lineno">  356</span>    <span class="comment">// if the target is not a player, then return self</span></div>
+<div class="line"><span class="lineno">  357</span>    <span class="keywordflow">if</span> (!targetPlayer)</div>
+<div class="line"><span class="lineno">  358</span>        targetPlayer = <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>();</div>
+<div class="line"><span class="lineno">  359</span> </div>
+<div class="line"><span class="lineno">  360</span>    <span class="keywordflow">return</span> targetPlayer;</div>
+<div class="line"><span class="lineno">  361</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae88a523ef51a6d51d38a8d524e49b179" name="ae88a523ef51a6d51d38a8d524e49b179"></a>
@@ -976,7 +1639,18 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  314</span>{</div>
+<div class="line"><span class="lineno">  315</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>)</div>
+<div class="line"><span class="lineno">  316</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  317</span> </div>
+<div class="line"><span class="lineno">  318</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* selected = <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ac7d583e914a735322c3d47a57a0c1645">GetSelectedUnit</a>())</div>
+<div class="line"><span class="lineno">  319</span>        <span class="keywordflow">return</span> selected;</div>
+<div class="line"><span class="lineno">  320</span> </div>
+<div class="line"><span class="lineno">  321</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>();</div>
+<div class="line"><span class="lineno">  322</span>}</div>
+<div class="ttc" id="aclass_player_html_ac7d583e914a735322c3d47a57a0c1645"><div class="ttname"><a href="../../d8/d53/class_player.html#ac7d583e914a735322c3d47a57a0c1645">Player::GetSelectedUnit</a></div><div class="ttdeci">Unit * GetSelectedUnit() const</div><div class="ttdef"><b>Definition:</b> Player.cpp:11249</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a635eca3065c9464e0cdcedd9f0740daa" name="a635eca3065c9464e0cdcedd9f0740daa"></a>
@@ -1001,7 +1675,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  122</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6cfa4cd171866cacb272e996aa75e487" name="a6cfa4cd171866cacb272e996aa75e487"></a>
@@ -1028,7 +1703,11 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../df/d7f/class_cli_handler.html#a610f7431dc7b064c964e0d446160d19f">CliHandler</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  783</span>{</div>
+<div class="line"><span class="lineno">  784</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a5698912bfbe31ab86c5249ba138af50a">GetSessionDbcLocale</a>();</div>
+<div class="line"><span class="lineno">  785</span>}</div>
+<div class="ttc" id="aclass_world_session_html_a5698912bfbe31ab86c5249ba138af50a"><div class="ttname"><a href="../../d1/d47/class_world_session.html#a5698912bfbe31ab86c5249ba138af50a">WorldSession::GetSessionDbcLocale</a></div><div class="ttdeci">LocaleConstant GetSessionDbcLocale() const</div><div class="ttdef"><b>Definition:</b> WorldSession.h:495</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8621cc03a3c12dcad208c11a9402c1c6" name="a8621cc03a3c12dcad208c11a9402c1c6"></a>
@@ -1055,7 +1734,11 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../df/d7f/class_cli_handler.html#a5a2118d9227aa53818d736e387d77dea">CliHandler</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  788</span>{</div>
+<div class="line"><span class="lineno">  789</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a38ff97828c0efe89c092f5772c543564">GetSessionDbLocaleIndex</a>();</div>
+<div class="line"><span class="lineno">  790</span>}</div>
+<div class="ttc" id="aclass_world_session_html_a38ff97828c0efe89c092f5772c543564"><div class="ttname"><a href="../../d1/d47/class_world_session.html#a38ff97828c0efe89c092f5772c543564">WorldSession::GetSessionDbLocaleIndex</a></div><div class="ttdeci">LocaleConstant GetSessionDbLocaleIndex() const</div><div class="ttdef"><b>Definition:</b> WorldSession.h:496</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afacb4b59756372ec32810be0d46da49c" name="afacb4b59756372ec32810be0d46da49c"></a>
@@ -1089,7 +1772,28 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   54</span>{</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_class" href="../../d1/d47/class_world_session.html">WorldSession</a>* target_session = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> target_account = 0;</div>
+<div class="line"><span class="lineno">   57</span> </div>
+<div class="line"><span class="lineno">   58</span>    <span class="keywordflow">if</span> (target)</div>
+<div class="line"><span class="lineno">   59</span>        target_session = target-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>();</div>
+<div class="line"><span class="lineno">   60</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (guid)</div>
+<div class="line"><span class="lineno">   61</span>        target_account = <a class="code hl_define" href="../../d0/d2a/_character_cache_8h.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a>-&gt;GetCharacterAccountIdByGuid(guid);</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span>    <span class="keywordflow">if</span> (!target_session &amp;&amp; !target_account)</div>
+<div class="line"><span class="lineno">   64</span>    {</div>
+<div class="line"><span class="lineno">   65</span>        <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaab2e8907c804b742a54d115d079d86a6">LANG_PLAYER_NOT_FOUND</a>);</div>
+<div class="line"><span class="lineno">   66</span>        <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#aaabf84568161763e66bf375c14f100c5">SetSentErrorMessage</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   67</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   68</span>    }</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#aedf236510ed1d2b75305b49243af84c4">HasLowerSecurityAccount</a>(target_session, target_account, strong);</div>
+<div class="line"><span class="lineno">   71</span>}</div>
+<div class="ttc" id="aclass_chat_handler_html_aedf236510ed1d2b75305b49243af84c4"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#aedf236510ed1d2b75305b49243af84c4">ChatHandler::HasLowerSecurityAccount</a></div><div class="ttdeci">bool HasLowerSecurityAccount(WorldSession *target, uint32 account, bool strong=false)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:73</div></div>
+<div class="ttc" id="aclass_player_html_a6ab11ca64cde7c5cde1f53998a6f7253"><div class="ttname"><a href="../../d8/d53/class_player.html#a6ab11ca64cde7c5cde1f53998a6f7253">Player::GetSession</a></div><div class="ttdeci">WorldSession * GetSession() const</div><div class="ttdef"><b>Definition:</b> Player.h:1947</div></div>
+<div class="ttc" id="aclass_world_session_html"><div class="ttname"><a href="../../d1/d47/class_world_session.html">WorldSession</a></div><div class="ttdoc">Player session in the World.</div><div class="ttdef"><b>Definition:</b> WorldSession.h:330</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aedf236510ed1d2b75305b49243af84c4" name="aedf236510ed1d2b75305b49243af84c4"></a>
@@ -1123,7 +1827,42 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   74</span>{</div>
+<div class="line"><span class="lineno">   75</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> target_sec;</div>
+<div class="line"><span class="lineno">   76</span> </div>
+<div class="line"><span class="lineno">   77</span>    <span class="comment">// allow everything from console and RA console</span></div>
+<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>)</div>
+<div class="line"><span class="lineno">   79</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   80</span> </div>
+<div class="line"><span class="lineno">   81</span>    <span class="comment">// ignore only for non-players for non strong checks (when allow apply command at least to same sec level)</span></div>
+<div class="line"><span class="lineno">   82</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../df/d1b/namespace_account_mgr.html#a63751f144cb7acb57fc20f0caf5e7043">AccountMgr::IsPlayerAccount</a>(<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a38f29ba7dc5216093dd812cf3e7861df">GetSecurity</a>()) &amp;&amp; !strong &amp;&amp; !<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getBoolConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#a1b4b88c03b7d0124998b4c22e957baf0a14be5dd23686af6c6df2c7496364ceb5">CONFIG_GM_LOWER_SECURITY</a>))</div>
+<div class="line"><span class="lineno">   83</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>    <span class="keywordflow">if</span> (target)</div>
+<div class="line"><span class="lineno">   86</span>        target_sec = target-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a38f29ba7dc5216093dd812cf3e7861df">GetSecurity</a>();</div>
+<div class="line"><span class="lineno">   87</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (target_account)</div>
+<div class="line"><span class="lineno">   88</span>        target_sec = <a class="code hl_function" href="../../df/d1b/namespace_account_mgr.html#a8280510b2564ec6ea76727218c1687b3">AccountMgr::GetSecurity</a>(target_account, <a class="code hl_variable" href="../../df/d17/group__world.html#gab842e78f86995775c494437356620779">realm</a>.<a class="code hl_variable" href="../../d3/d4d/struct_realm.html#ab0ccda7e7a58eee0965261767f3ee2ee">Id</a>.<a class="code hl_variable" href="../../da/d2c/struct_realm_handle.html#a31af0d9064a295b1579fce3c80217bfd">Realm</a>);</div>
+<div class="line"><span class="lineno">   89</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   90</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;                                        <span class="comment">// caller must report error for (target == nullptr &amp;&amp; target_account == 0)</span></div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>    <a class="code hl_enumeration" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7">AccountTypes</a> target_ac_sec = <a class="code hl_enumeration" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7">AccountTypes</a>(target_sec);</div>
+<div class="line"><span class="lineno">   93</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a38f29ba7dc5216093dd812cf3e7861df">GetSecurity</a>() &lt; target_ac_sec || (strong &amp;&amp; <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a38f29ba7dc5216093dd812cf3e7861df">GetSecurity</a>() &lt;= target_ac_sec))</div>
+<div class="line"><span class="lineno">   94</span>    {</div>
+<div class="line"><span class="lineno">   95</span>        <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaa89247ec6e813f1b0ab0d927fb792957">LANG_YOURS_SECURITY_IS_LOW</a>);</div>
+<div class="line"><span class="lineno">   96</span>        <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#aaabf84568161763e66bf375c14f100c5">SetSentErrorMessage</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   97</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   98</span>    }</div>
+<div class="line"><span class="lineno">   99</span> </div>
+<div class="line"><span class="lineno">  100</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  101</span>}</div>
+<div class="ttc" id="a_common_8h_html_adaa1cabfe05f8df3c272bdcfd89cdac7"><div class="ttname"><a href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7">AccountTypes</a></div><div class="ttdeci">AccountTypes</div><div class="ttdef"><b>Definition:</b> Common.h:65</div></div>
+<div class="ttc" id="a_i_world_8h_html_a1b4b88c03b7d0124998b4c22e957baf0a14be5dd23686af6c6df2c7496364ceb5"><div class="ttname"><a href="../../d2/d80/_i_world_8h.html#a1b4b88c03b7d0124998b4c22e957baf0a14be5dd23686af6c6df2c7496364ceb5">CONFIG_GM_LOWER_SECURITY</a></div><div class="ttdeci">@ CONFIG_GM_LOWER_SECURITY</div><div class="ttdef"><b>Definition:</b> IWorld.h:94</div></div>
+<div class="ttc" id="a_language_8h_html_af9ee42b1cf006ecb2d2e74fe71c0761aaa89247ec6e813f1b0ab0d927fb792957"><div class="ttname"><a href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaa89247ec6e813f1b0ab0d927fb792957">LANG_YOURS_SECURITY_IS_LOW</a></div><div class="ttdeci">@ LANG_YOURS_SECURITY_IS_LOW</div><div class="ttdef"><b>Definition:</b> Language.h:412</div></div>
+<div class="ttc" id="agroup__world_html_gab842e78f86995775c494437356620779"><div class="ttname"><a href="../../df/d17/group__world.html#gab842e78f86995775c494437356620779">realm</a></div><div class="ttdeci">Realm realm</div><div class="ttdef"><b>Definition:</b> World.cpp:112</div></div>
+<div class="ttc" id="anamespace_account_mgr_html_a8280510b2564ec6ea76727218c1687b3"><div class="ttname"><a href="../../df/d1b/namespace_account_mgr.html#a8280510b2564ec6ea76727218c1687b3">AccountMgr::GetSecurity</a></div><div class="ttdeci">uint32 GetSecurity(uint32 accountId)</div><div class="ttdef"><b>Definition:</b> AccountMgr.cpp:209</div></div>
+<div class="ttc" id="astruct_realm_handle_html_a31af0d9064a295b1579fce3c80217bfd"><div class="ttname"><a href="../../da/d2c/struct_realm_handle.html#a31af0d9064a295b1579fce3c80217bfd">RealmHandle::Realm</a></div><div class="ttdeci">uint32 Realm</div><div class="ttdef"><b>Definition:</b> Realm.h:42</div></div>
+<div class="ttc" id="astruct_realm_html_ab0ccda7e7a58eee0965261767f3ee2ee"><div class="ttname"><a href="../../d3/d4d/struct_realm.html#ab0ccda7e7a58eee0965261767f3ee2ee">Realm::Id</a></div><div class="ttdeci">RealmHandle Id</div><div class="ttdef"><b>Definition:</b> Realm.h:68</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a69622145e2598da0ec2964761f03c0dc" name="a69622145e2598da0ec2964761f03c0dc"></a>
@@ -1148,7 +1887,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  117</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#ac3950d97f94ebc522133ea4a254924ca">sentErrorMessage</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afdbe90fd350a062b2afae318284ce07d" name="afdbe90fd350a062b2afae318284ce07d"></a>
@@ -1166,7 +1906,12 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   48</span>{</div>
+<div class="line"><span class="lineno">   49</span>    <span class="comment">// check security level only for simple  command (without child commands)</span></div>
+<div class="line"><span class="lineno">   50</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ae10c7b226467f8e8e8eb149421f0fa51">IsConsole</a>() ? true : <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a38f29ba7dc5216093dd812cf3e7861df">GetSecurity</a>() &gt;= <a class="code hl_enumeration" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7">AccountTypes</a>(securityLevel);</div>
+<div class="line"><span class="lineno">   51</span>}</div>
+<div class="ttc" id="aclass_chat_handler_html_ae10c7b226467f8e8e8eb149421f0fa51"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ae10c7b226467f8e8e8eb149421f0fa51">ChatHandler::IsConsole</a></div><div class="ttdeci">bool IsConsole() const</div><div class="ttdef"><b>Definition:</b> Chat.h:120</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae10c7b226467f8e8e8eb149421f0fa51" name="ae10c7b226467f8e8e8eb149421f0fa51"></a>
@@ -1191,7 +1936,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  120</span>{ <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a> == <span class="keyword">nullptr</span>); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2276cef4cca3c6f8bdd75cc0faf37b34" name="a2276cef4cca3c6f8bdd75cc0faf37b34"></a>
@@ -1216,7 +1962,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   83</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac1e660df0286be7cd7e97ed7ad6e3fe2" name="ac1e660df0286be7cd7e97ed7ad6e3fe2"></a>
@@ -1242,7 +1989,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{ <span class="keywordtype">char</span>* start = strtok(pos, <span class="stringliteral">&quot;\n&quot;</span>); pos = <span class="keyword">nullptr</span>; <span class="keywordflow">return</span> start; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acfb8fb0453dd4025de15a909f78b206c" name="acfb8fb0453dd4025de15a909f78b206c"></a>
@@ -1270,7 +2018,12 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../df/d7f/class_cli_handler.html#ad8c4ee6e45afff55d94dea9704bd2097">CliHandler</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  777</span>{</div>
+<div class="line"><span class="lineno">  778</span>    <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* pl = <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>();</div>
+<div class="line"><span class="lineno">  779</span>    <span class="keywordflow">return</span> pl != chr &amp;&amp; pl-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#aa88ab08ee98b707c9db24ec8642379f7">IsVisibleGloballyFor</a>(chr);</div>
+<div class="line"><span class="lineno">  780</span>}</div>
+<div class="ttc" id="aclass_player_html_aa88ab08ee98b707c9db24ec8642379f7"><div class="ttname"><a href="../../d8/d53/class_player.html#aa88ab08ee98b707c9db24ec8642379f7">Player::IsVisibleGloballyFor</a></div><div class="ttdeci">bool IsVisibleGloballyFor(Player const *player) const</div><div class="ttdef"><b>Definition:</b> Player.cpp:11196</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab4ff10db3aa0048ff04bad699507869c" name="ab4ff10db3aa0048ff04bad699507869c"></a>
@@ -1298,7 +2051,30 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../df/d7f/class_cli_handler.html#abbd02247d6094bf39b2791ba45e9942e">CliHandler</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  170</span>{</div>
+<div class="line"><span class="lineno">  171</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!text.empty());</div>
+<div class="line"><span class="lineno">  172</span> </div>
+<div class="line"><span class="lineno">  173</span>    <span class="comment">// chat case (.command or !command format)</span></div>
+<div class="line"><span class="lineno">  174</span>    <span class="keywordflow">if</span> ((text[0] != <span class="charliteral">&#39;!&#39;</span>) &amp;&amp; (text[0] != <span class="charliteral">&#39;.&#39;</span>))</div>
+<div class="line"><span class="lineno">  175</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  176</span> </div>
+<div class="line"><span class="lineno">  177</span>    <span class="comment">// ignore single . and ! in line</span></div>
+<div class="line"><span class="lineno">  178</span>    <span class="keywordflow">if</span> (text.length() &lt; 2)</div>
+<div class="line"><span class="lineno">  179</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  180</span> </div>
+<div class="line"><span class="lineno">  181</span>    <span class="comment">// ignore messages staring from many dots.</span></div>
+<div class="line"><span class="lineno">  182</span>    <span class="keywordflow">if</span> (text[1] == text[0])</div>
+<div class="line"><span class="lineno">  183</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  184</span> </div>
+<div class="line"><span class="lineno">  185</span>    <span class="comment">// ignore messages with separator after .</span></div>
+<div class="line"><span class="lineno">  186</span>    <span class="keywordflow">if</span> (text[1] == <a class="code hl_variable" href="../../db/db5/namespace_acore_1_1_impl_1_1_chat_commands.html#a068db55731856ca7770e1b09a4225aa2">Acore::Impl::ChatCommands::COMMAND_DELIMITER</a>)</div>
+<div class="line"><span class="lineno">  187</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  188</span> </div>
+<div class="line"><span class="lineno">  189</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#adb2eb23afa00d3651e0c8ca426e76cd6">_ParseCommands</a>(text.substr(1));</div>
+<div class="line"><span class="lineno">  190</span>}</div>
+<div class="ttc" id="aclass_chat_handler_html_adb2eb23afa00d3651e0c8ca426e76cd6"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#adb2eb23afa00d3651e0c8ca426e76cd6">ChatHandler::_ParseCommands</a></div><div class="ttdeci">bool _ParseCommands(std::string_view text)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:154</div></div>
+<div class="ttc" id="anamespace_acore_1_1_impl_1_1_chat_commands_html_a068db55731856ca7770e1b09a4225aa2"><div class="ttname"><a href="../../db/db5/namespace_acore_1_1_impl_1_1_chat_commands.html#a068db55731856ca7770e1b09a4225aa2">Acore::Impl::ChatCommands::COMMAND_DELIMITER</a></div><div class="ttdeci">static constexpr char COMMAND_DELIMITER</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:38</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a83f46323707f472799b6393c3184dc07" name="a83f46323707f472799b6393c3184dc07"></a>
@@ -1336,7 +2112,12 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   73</span>    {</div>
+<div class="line"><span class="lineno">   74</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d1/d7d/namespace_acore.html#a20cdbbf36d71c2c01f75fd0e706a7b10">Acore::StringFormat</a>(<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a8ca438da44d3f43db97a03d32a777dad">GetAcoreString</a>(entry), std::forward&lt;Args&gt;(args)...);</div>
+<div class="line"><span class="lineno">   75</span>    }</div>
+<div class="ttc" id="aclass_chat_handler_html_a8ca438da44d3f43db97a03d32a777dad"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#a8ca438da44d3f43db97a03d32a777dad">ChatHandler::GetAcoreString</a></div><div class="ttdeci">virtual char const * GetAcoreString(uint32 entry) const</div><div class="ttdef"><b>Definition:</b> Chat.cpp:42</div></div>
+<div class="ttc" id="anamespace_acore_html_a20cdbbf36d71c2c01f75fd0e706a7b10"><div class="ttname"><a href="../../d1/d7d/namespace_acore.html#a20cdbbf36d71c2c01f75fd0e706a7b10">Acore::StringFormat</a></div><div class="ttdeci">std::string StringFormat(Format &amp;&amp;fmt, Args &amp;&amp;... args)</div><div class="ttdoc">Default AC string format function.</div><div class="ttdef"><b>Definition:</b> StringFormat.h:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a52c15179ec3eff1b6bb9551d96a8b901" name="a52c15179ec3eff1b6bb9551d96a8b901"></a>
@@ -1362,7 +2143,8 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  111</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a> ? <span class="stringliteral">&quot;|cffffffff|Hplayer:&quot;</span> + name + <span class="stringliteral">&quot;|h[&quot;</span> + name + <span class="stringliteral">&quot;]|h|r&quot;</span> : name; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab2e685f37d4f0f3b763a6323cce7af25" name="ab2e685f37d4f0f3b763a6323cce7af25"></a>
@@ -1400,7 +2182,10 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   61</span>    {</div>
+<div class="line"><span class="lineno">   62</span>        <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(<a class="code hl_function" href="../../d1/d7d/namespace_acore.html#a20cdbbf36d71c2c01f75fd0e706a7b10">Acore::StringFormat</a>(fmt, std::forward&lt;Args&gt;(args)...).c_str());</div>
+<div class="line"><span class="lineno">   63</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afcaa57574b1d32eaf14a7ce688e52f77" name="afcaa57574b1d32eaf14a7ce688e52f77"></a>
@@ -1438,7 +2223,11 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   67</span>    {</div>
+<div class="line"><span class="lineno">   68</span>        <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a83f46323707f472799b6393c3184dc07">PGetParseString</a>(entry, std::forward&lt;Args&gt;(args)...).c_str());</div>
+<div class="line"><span class="lineno">   69</span>    }</div>
+<div class="ttc" id="aclass_chat_handler_html_a83f46323707f472799b6393c3184dc07"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#a83f46323707f472799b6393c3184dc07">ChatHandler::PGetParseString</a></div><div class="ttdeci">std::string PGetParseString(uint32 entry, Args &amp;&amp;... args) const</div><div class="ttdef"><b>Definition:</b> Chat.h:72</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5886fc7866ef80ae4c66f176c8c3cc43" name="a5886fc7866ef80ae4c66f176c8c3cc43"></a>
@@ -1456,7 +2245,19 @@ template&lt;typename... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  140</span>{</div>
+<div class="line"><span class="lineno">  141</span>    <a class="code hl_class" href="../../d6/d1a/class_world_packet.html">WorldPacket</a> data;</div>
+<div class="line"><span class="lineno">  142</span>    <span class="keywordflow">for</span> (std::string_view line : <a class="code hl_function" href="../../d1/d7d/namespace_acore.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(str, <span class="charliteral">&#39;\n&#39;</span>, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  143</span>    {</div>
+<div class="line"><span class="lineno">  144</span>        <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#af318eb4da322e4d8da321fded8dba478">BuildChatPacket</a>(data, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a8fcd3e7170e686c1826b9f7fcdf5df96">CHAT_MSG_SYSTEM</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, line);</div>
+<div class="line"><span class="lineno">  145</span>        <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;SendGlobalGMMessage(&amp;data);</div>
+<div class="line"><span class="lineno">  146</span>    }</div>
+<div class="line"><span class="lineno">  147</span>}</div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a8fcd3e7170e686c1826b9f7fcdf5df96"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a8fcd3e7170e686c1826b9f7fcdf5df96">CHAT_MSG_SYSTEM</a></div><div class="ttdeci">@ CHAT_MSG_SYSTEM</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3124</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a></div><div class="ttdeci">@ LANG_UNIVERSAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:707</div></div>
+<div class="ttc" id="aclass_world_packet_html"><div class="ttname"><a href="../../d6/d1a/class_world_packet.html">WorldPacket</a></div><div class="ttdef"><b>Definition:</b> WorldPacket.h:27</div></div>
+<div class="ttc" id="anamespace_acore_html_a6b121485ace4118b9006db1fb89f90f2"><div class="ttname"><a href="../../d1/d7d/namespace_acore.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a></div><div class="ttdeci">std::vector&lt; std::string_view &gt; Tokenize(std::string_view str, char sep, bool keepEmpty)</div><div class="ttdef"><b>Definition:</b> Tokenize.cpp:20</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6667992ff46d34be574d10c74c8cb42b" name="a6667992ff46d34be574d10c74c8cb42b"></a>
@@ -1474,7 +2275,15 @@ template&lt;typename... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  130</span>{</div>
+<div class="line"><span class="lineno">  131</span>    <a class="code hl_class" href="../../d6/d1a/class_world_packet.html">WorldPacket</a> data;</div>
+<div class="line"><span class="lineno">  132</span>    <span class="keywordflow">for</span> (std::string_view line : <a class="code hl_function" href="../../d1/d7d/namespace_acore.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(str, <span class="charliteral">&#39;\n&#39;</span>, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  133</span>    {</div>
+<div class="line"><span class="lineno">  134</span>        <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#af318eb4da322e4d8da321fded8dba478">BuildChatPacket</a>(data, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a8fcd3e7170e686c1826b9f7fcdf5df96">CHAT_MSG_SYSTEM</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, line);</div>
+<div class="line"><span class="lineno">  135</span>        <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;SendGlobalMessage(&amp;data);</div>
+<div class="line"><span class="lineno">  136</span>    }</div>
+<div class="line"><span class="lineno">  137</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac1ed346507097817b3f8e00f0ae657a0" name="ac1ed346507097817b3f8e00f0ae657a0"></a>
@@ -1512,7 +2321,32 @@ template&lt;typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../df/d7f/class_cli_handler.html#a636be10a282a8d100b807dac119b3ff6">CliHandler</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  104</span>{</div>
+<div class="line"><span class="lineno">  105</span>    std::string msg{ str };</div>
+<div class="line"><span class="lineno">  106</span> </div>
+<div class="line"><span class="lineno">  107</span>    <span class="comment">// Replace every &quot;|&quot; with &quot;||&quot; in msg</span></div>
+<div class="line"><span class="lineno">  108</span>    <span class="keywordflow">if</span> (escapeCharacters &amp;&amp; msg.find(<span class="charliteral">&#39;|&#39;</span>) != std::string::npos)</div>
+<div class="line"><span class="lineno">  109</span>    {</div>
+<div class="line"><span class="lineno">  110</span>        std::vector&lt;std::string_view&gt; tokens = <a class="code hl_function" href="../../d1/d7d/namespace_acore.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(msg, <span class="charliteral">&#39;|&#39;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  111</span>        std::ostringstream stream;</div>
+<div class="line"><span class="lineno">  112</span> </div>
+<div class="line"><span class="lineno">  113</span>        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; tokens.size() - 1; ++i)</div>
+<div class="line"><span class="lineno">  114</span>            stream &lt;&lt; tokens[i] &lt;&lt; <span class="stringliteral">&quot;||&quot;</span>;</div>
+<div class="line"><span class="lineno">  115</span> </div>
+<div class="line"><span class="lineno">  116</span>        stream &lt;&lt; tokens[tokens.size() - 1];</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>        msg = stream.str();</div>
+<div class="line"><span class="lineno">  119</span>    }</div>
+<div class="line"><span class="lineno">  120</span> </div>
+<div class="line"><span class="lineno">  121</span>    <a class="code hl_class" href="../../d6/d1a/class_world_packet.html">WorldPacket</a> data;</div>
+<div class="line"><span class="lineno">  122</span>    <span class="keywordflow">for</span> (std::string_view line : <a class="code hl_function" href="../../d1/d7d/namespace_acore.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(str, <span class="charliteral">&#39;\n&#39;</span>, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  123</span>    {</div>
+<div class="line"><span class="lineno">  124</span>        <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#af318eb4da322e4d8da321fded8dba478">BuildChatPacket</a>(data, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a8fcd3e7170e686c1826b9f7fcdf5df96">CHAT_MSG_SYSTEM</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, line);</div>
+<div class="line"><span class="lineno">  125</span>        <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a2c74b80ca9b81765049e315813b29269">SendPacket</a>(&amp;data);</div>
+<div class="line"><span class="lineno">  126</span>    }</div>
+<div class="line"><span class="lineno">  127</span>}</div>
+<div class="ttc" id="aclass_world_session_html_a2c74b80ca9b81765049e315813b29269"><div class="ttname"><a href="../../d1/d47/class_world_session.html#a2c74b80ca9b81765049e315813b29269">WorldSession::SendPacket</a></div><div class="ttdeci">void SendPacket(WorldPacket const *packet)</div><div class="ttdoc">Send a packet to the client.</div><div class="ttdef"><b>Definition:</b> WorldSession.cpp:208</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1f915beeda589704808dc727c3edcb63" name="a1f915beeda589704808dc727c3edcb63"></a>
@@ -1530,7 +2364,10 @@ template&lt;typename... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  150</span>{</div>
+<div class="line"><span class="lineno">  151</span>    <a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a8ca438da44d3f43db97a03d32a777dad">GetAcoreString</a>(entry));</div>
+<div class="line"><span class="lineno">  152</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaabf84568161763e66bf375c14f100c5" name="aaabf84568161763e66bf375c14f100c5"></a>
@@ -1556,7 +2393,8 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  118</span>{ <a class="code hl_variable" href="../../d2/d04/class_chat_handler.html#ac3950d97f94ebc522133ea4a254924ca">sentErrorMessage</a> = val; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -1605,8 +2443,8 @@ template&lt;typename... Args&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Chat/<a class="el" href="../../d2/d55/_chat_8h_source.html">Chat.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Chat/<a class="el" href="../../da/d11/_chat_8cpp.html">Chat.cpp</a></li>
+<li><a class="el" href="../../">Chat.h</a></li>
+<li><a class="el" href="../../">Chat.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1614,7 +2452,7 @@ template&lt;typename... Args&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d04/class_chat_handler.html">ChatHandler</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

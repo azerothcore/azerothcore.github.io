@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d4/d41/struct_my_s_q_l_connection_info
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d8/dcd/_my_s_q_l_connection_8h_source.html">MySQLConnection.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">MySQLConnection.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -135,7 +135,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a90e5a934b4ec46e5783248a1a80a4830"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d41/struct_my_s_q_l_connection_info.html#a90e5a934b4ec46e5783248a1a80a4830">ssl</a></td></tr>
 <tr class="separator:a90e5a934b4ec46e5783248a1a80a4830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae60c54053d71eb9325df10701b1f42d3" name="ae60c54053d71eb9325df10701b1f42d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae60c54053d71eb9325df10701b1f42d3">&#9670;&#160;</a></span>MySQLConnectionInfo()</h2>
 
@@ -159,7 +160,29 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
+<div class="line"><span class="lineno">   36</span>    std::vector&lt;std::string_view&gt; tokens = <a class="code hl_function" href="../../d1/d7d/namespace_acore.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(infoString, <span class="charliteral">&#39;;&#39;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   37</span> </div>
+<div class="line"><span class="lineno">   38</span>    <span class="keywordflow">if</span> (tokens.size() != 5 &amp;&amp; tokens.size() != 6)</div>
+<div class="line"><span class="lineno">   39</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_variable" href="../../d4/d41/struct_my_s_q_l_connection_info.html#a2659372561aae5feb8da121984354ef3">host</a>.assign(tokens.at(0));</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_variable" href="../../d4/d41/struct_my_s_q_l_connection_info.html#a37b89660afb3ee085e817836e9d1d01f">port_or_socket</a>.assign(tokens.at(1));</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_variable" href="../../d4/d41/struct_my_s_q_l_connection_info.html#a6bf4166ebb99ea30a3894e3d8833bde6">user</a>.assign(tokens.at(2));</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_variable" href="../../d4/d41/struct_my_s_q_l_connection_info.html#af5a51bd38ce1d58f65444d69b0283966">password</a>.assign(tokens.at(3));</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_variable" href="../../d4/d41/struct_my_s_q_l_connection_info.html#a7e65a418ad668772e4ce1b298d92f10a">database</a>.assign(tokens.at(4));</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">if</span> (tokens.size() == 6)</div>
+<div class="line"><span class="lineno">   48</span>        <a class="code hl_variable" href="../../d4/d41/struct_my_s_q_l_connection_info.html#a90e5a934b4ec46e5783248a1a80a4830">ssl</a>.assign(tokens.at(5));</div>
+<div class="line"><span class="lineno">   49</span>}</div>
+<div class="ttc" id="anamespace_acore_html_a6b121485ace4118b9006db1fb89f90f2"><div class="ttname"><a href="../../d1/d7d/namespace_acore.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a></div><div class="ttdeci">std::vector&lt; std::string_view &gt; Tokenize(std::string_view str, char sep, bool keepEmpty)</div><div class="ttdef"><b>Definition:</b> Tokenize.cpp:20</div></div>
+<div class="ttc" id="astruct_my_s_q_l_connection_info_html_a2659372561aae5feb8da121984354ef3"><div class="ttname"><a href="../../d4/d41/struct_my_s_q_l_connection_info.html#a2659372561aae5feb8da121984354ef3">MySQLConnectionInfo::host</a></div><div class="ttdeci">std::string host</div><div class="ttdef"><b>Definition:</b> MySQLConnection.h:50</div></div>
+<div class="ttc" id="astruct_my_s_q_l_connection_info_html_a37b89660afb3ee085e817836e9d1d01f"><div class="ttname"><a href="../../d4/d41/struct_my_s_q_l_connection_info.html#a37b89660afb3ee085e817836e9d1d01f">MySQLConnectionInfo::port_or_socket</a></div><div class="ttdeci">std::string port_or_socket</div><div class="ttdef"><b>Definition:</b> MySQLConnection.h:51</div></div>
+<div class="ttc" id="astruct_my_s_q_l_connection_info_html_a6bf4166ebb99ea30a3894e3d8833bde6"><div class="ttname"><a href="../../d4/d41/struct_my_s_q_l_connection_info.html#a6bf4166ebb99ea30a3894e3d8833bde6">MySQLConnectionInfo::user</a></div><div class="ttdeci">std::string user</div><div class="ttdef"><b>Definition:</b> MySQLConnection.h:47</div></div>
+<div class="ttc" id="astruct_my_s_q_l_connection_info_html_a7e65a418ad668772e4ce1b298d92f10a"><div class="ttname"><a href="../../d4/d41/struct_my_s_q_l_connection_info.html#a7e65a418ad668772e4ce1b298d92f10a">MySQLConnectionInfo::database</a></div><div class="ttdeci">std::string database</div><div class="ttdef"><b>Definition:</b> MySQLConnection.h:49</div></div>
+<div class="ttc" id="astruct_my_s_q_l_connection_info_html_a90e5a934b4ec46e5783248a1a80a4830"><div class="ttname"><a href="../../d4/d41/struct_my_s_q_l_connection_info.html#a90e5a934b4ec46e5783248a1a80a4830">MySQLConnectionInfo::ssl</a></div><div class="ttdeci">std::string ssl</div><div class="ttdef"><b>Definition:</b> MySQLConnection.h:52</div></div>
+<div class="ttc" id="astruct_my_s_q_l_connection_info_html_af5a51bd38ce1d58f65444d69b0283966"><div class="ttname"><a href="../../d4/d41/struct_my_s_q_l_connection_info.html#af5a51bd38ce1d58f65444d69b0283966">MySQLConnectionInfo::password</a></div><div class="ttdeci">std::string password</div><div class="ttdef"><b>Definition:</b> MySQLConnection.h:48</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -248,8 +271,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/database/Database/<a class="el" href="../../d8/dcd/_my_s_q_l_connection_8h_source.html">MySQLConnection.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/database/Database/<a class="el" href="../../d0/d06/_my_s_q_l_connection_8cpp.html">MySQLConnection.cpp</a></li>
+<li><a class="el" href="../../">MySQLConnection.h</a></li>
+<li><a class="el" href="../../">MySQLConnection.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -257,7 +280,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d41/struct_my_s_q_l_connection_info.html">MySQLConnectionInfo</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

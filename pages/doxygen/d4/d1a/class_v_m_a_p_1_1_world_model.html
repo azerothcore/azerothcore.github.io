@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d4/d1a/class_v_m_a_p_1_1_world_model.h
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d3/d59/_world_model_8h_source.html">WorldModel.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">WorldModel.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -177,7 +177,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  107</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -196,7 +197,11 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  697</span>    {</div>
+<div class="line"><span class="lineno">  698</span>        outGroupModels = <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>;</div>
+<div class="line"><span class="lineno">  699</span>    }</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_world_model_html_ae44c57520cea5da5a5f082167e9f818d"><div class="ttname"><a href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">VMAP::WorldModel::groupModels</a></div><div class="ttdeci">std::vector&lt; GroupModel &gt; groupModels</div><div class="ttdef"><b>Definition:</b> WorldModel.h:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3a198d0cbd607e574cb53a08d6b7457a" name="a3a198d0cbd607e574cb53a08d6b7457a"></a>
@@ -236,7 +241,27 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  601</span>    {</div>
+<div class="line"><span class="lineno">  602</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>.empty())</div>
+<div class="line"><span class="lineno">  603</span>        {</div>
+<div class="line"><span class="lineno">  604</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  605</span>        }</div>
+<div class="line"><span class="lineno">  606</span> </div>
+<div class="line"><span class="lineno">  607</span>        WModelAreaCallback callback(<a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>, down);</div>
+<div class="line"><span class="lineno">  608</span>        <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a101692f46ae752cbde7b264b02e23168">groupTree</a>.<a class="code hl_function" href="../../d9/d28/class_b_i_h.html#af2ead3a6c24ec4e31b01ca28b82fc3a9">intersectPoint</a>(p, callback);</div>
+<div class="line"><span class="lineno">  609</span>        <span class="keywordflow">if</span> (callback.hit != <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>.end())</div>
+<div class="line"><span class="lineno">  610</span>        {</div>
+<div class="line"><span class="lineno">  611</span>            info.rootId   = <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a5a8745b313b1417e9dbb1d571fb173dd">RootWMOID</a>;</div>
+<div class="line"><span class="lineno">  612</span>            info.hitModel = &amp;(*callback.hit);</div>
+<div class="line"><span class="lineno">  613</span>            dist = callback.zDist;</div>
+<div class="line"><span class="lineno">  614</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  615</span>        }</div>
+<div class="line"><span class="lineno">  616</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  617</span>    }</div>
+<div class="ttc" id="aclass_b_i_h_html_af2ead3a6c24ec4e31b01ca28b82fc3a9"><div class="ttname"><a href="../../d9/d28/class_b_i_h.html#af2ead3a6c24ec4e31b01ca28b82fc3a9">BIH::intersectPoint</a></div><div class="ttdeci">void intersectPoint(const G3D::Vector3 &amp;p, IsectCallback &amp;intersectCallback) const</div><div class="ttdef"><b>Definition:</b> BoundingIntervalHierarchy.h:284</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_world_model_html_a101692f46ae752cbde7b264b02e23168"><div class="ttname"><a href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a101692f46ae752cbde7b264b02e23168">VMAP::WorldModel::groupTree</a></div><div class="ttdeci">BIH groupTree</div><div class="ttdef"><b>Definition:</b> WorldModel.h:122</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_world_model_html_a5a8745b313b1417e9dbb1d571fb173dd"><div class="ttname"><a href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a5a8745b313b1417e9dbb1d571fb173dd">VMAP::WorldModel::RootWMOID</a></div><div class="ttdeci">uint32 RootWMOID</div><div class="ttdef"><b>Definition:</b> WorldModel.h:120</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab049f44af8c65d8c41309157473a8b01" name="ab049f44af8c65d8c41309157473a8b01"></a>
@@ -276,7 +301,26 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  580</span>    {</div>
+<div class="line"><span class="lineno">  581</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>.empty())</div>
+<div class="line"><span class="lineno">  582</span>        {</div>
+<div class="line"><span class="lineno">  583</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  584</span>        }</div>
+<div class="line"><span class="lineno">  585</span> </div>
+<div class="line"><span class="lineno">  586</span>        WModelAreaCallback callback(<a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>, down);</div>
+<div class="line"><span class="lineno">  587</span>        <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a101692f46ae752cbde7b264b02e23168">groupTree</a>.<a class="code hl_function" href="../../d9/d28/class_b_i_h.html#af2ead3a6c24ec4e31b01ca28b82fc3a9">intersectPoint</a>(p, callback);</div>
+<div class="line"><span class="lineno">  588</span>        <span class="keywordflow">if</span> (callback.hit != <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>.end())</div>
+<div class="line"><span class="lineno">  589</span>        {</div>
+<div class="line"><span class="lineno">  590</span>            info.rootId = <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a5a8745b313b1417e9dbb1d571fb173dd">RootWMOID</a>;</div>
+<div class="line"><span class="lineno">  591</span>            info.groupId = callback.hit-&gt;GetWmoID();</div>
+<div class="line"><span class="lineno">  592</span>            info.flags = callback.hit-&gt;GetMogpFlags();</div>
+<div class="line"><span class="lineno">  593</span>            info.result = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  594</span>            dist = callback.zDist;</div>
+<div class="line"><span class="lineno">  595</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  596</span>        }</div>
+<div class="line"><span class="lineno">  597</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  598</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a63c3d4e85d0924d6c46d8b6c6f70a593" name="a63c3d4e85d0924d6c46d8b6c6f70a593"></a>
@@ -316,7 +360,34 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  518</span>    {</div>
+<div class="line"><span class="lineno">  519</span>        <span class="comment">// If the caller asked us to ignore certain objects we should check flags</span></div>
+<div class="line"><span class="lineno">  520</span>        <span class="keywordflow">if</span> ((ignoreFlags &amp; <a class="code hl_enumvalue" href="../../d6/d39/namespace_v_m_a_p.html#a6996c44f3ac72cd9dc04515186d2da28a9d8322530b67e2366e5b1ba67081ded9">ModelIgnoreFlags::M2</a>) != <a class="code hl_enumvalue" href="../../d6/d39/namespace_v_m_a_p.html#a6996c44f3ac72cd9dc04515186d2da28af80a4ad87fee7c9fdc19b7769495fdb5">ModelIgnoreFlags::Nothing</a>)</div>
+<div class="line"><span class="lineno">  521</span>        {</div>
+<div class="line"><span class="lineno">  522</span>            <span class="comment">// M2 models are not taken into account for LoS calculation if caller requested their ignoring.</span></div>
+<div class="line"><span class="lineno">  523</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#aea4d1e085733b0bbfbb389d7c4ac9bd1">Flags</a> &amp; <a class="code hl_enumvalue" href="../../d6/d39/namespace_v_m_a_p.html#ac540ff16efadcc07eeb9d8511b94ccceadfad2b6f6278e720b00314cd5117b673">MOD_M2</a>)</div>
+<div class="line"><span class="lineno">  524</span>            {</div>
+<div class="line"><span class="lineno">  525</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  526</span>            }</div>
+<div class="line"><span class="lineno">  527</span>        }</div>
+<div class="line"><span class="lineno">  528</span> </div>
+<div class="line"><span class="lineno">  529</span>        <span class="comment">// small M2 workaround, maybe better make separate class with virtual intersection funcs</span></div>
+<div class="line"><span class="lineno">  530</span>        <span class="comment">// in any case, there&#39;s no need to use a bound tree if we only have one submodel</span></div>
+<div class="line"><span class="lineno">  531</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>.size() == 1)</div>
+<div class="line"><span class="lineno">  532</span>        {</div>
+<div class="line"><span class="lineno">  533</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>[0].IntersectRay(ray, distance, stopAtFirstHit);</div>
+<div class="line"><span class="lineno">  534</span>        }</div>
+<div class="line"><span class="lineno">  535</span> </div>
+<div class="line"><span class="lineno">  536</span>        WModelRayCallBack isc(<a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>);</div>
+<div class="line"><span class="lineno">  537</span>        <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a101692f46ae752cbde7b264b02e23168">groupTree</a>.<a class="code hl_function" href="../../d9/d28/class_b_i_h.html#afafb40f54cd1e0239ca9bc414f0f3d85">intersectRay</a>(ray, isc, distance, stopAtFirstHit);</div>
+<div class="line"><span class="lineno">  538</span>        <span class="keywordflow">return</span> isc.hit;</div>
+<div class="line"><span class="lineno">  539</span>    }</div>
+<div class="ttc" id="aclass_b_i_h_html_afafb40f54cd1e0239ca9bc414f0f3d85"><div class="ttname"><a href="../../d9/d28/class_b_i_h.html#afafb40f54cd1e0239ca9bc414f0f3d85">BIH::intersectRay</a></div><div class="ttdeci">void intersectRay(const G3D::Ray &amp;r, RayCallback &amp;intersectCallback, float &amp;maxDist, bool stopAtFirstHit) const</div><div class="ttdef"><b>Definition:</b> BoundingIntervalHierarchy.h:121</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_world_model_html_aea4d1e085733b0bbfbb389d7c4ac9bd1"><div class="ttname"><a href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#aea4d1e085733b0bbfbb389d7c4ac9bd1">VMAP::WorldModel::Flags</a></div><div class="ttdeci">uint32 Flags</div><div class="ttdef"><b>Definition:</b> WorldModel.h:118</div></div>
+<div class="ttc" id="anamespace_v_m_a_p_html_a6996c44f3ac72cd9dc04515186d2da28a9d8322530b67e2366e5b1ba67081ded9"><div class="ttname"><a href="../../d6/d39/namespace_v_m_a_p.html#a6996c44f3ac72cd9dc04515186d2da28a9d8322530b67e2366e5b1ba67081ded9">VMAP::ModelIgnoreFlags::M2</a></div><div class="ttdeci">@ M2</div></div>
+<div class="ttc" id="anamespace_v_m_a_p_html_a6996c44f3ac72cd9dc04515186d2da28af80a4ad87fee7c9fdc19b7769495fdb5"><div class="ttname"><a href="../../d6/d39/namespace_v_m_a_p.html#a6996c44f3ac72cd9dc04515186d2da28af80a4ad87fee7c9fdc19b7769495fdb5">VMAP::ModelIgnoreFlags::Nothing</a></div><div class="ttdeci">@ Nothing</div></div>
+<div class="ttc" id="anamespace_v_m_a_p_html_ac540ff16efadcc07eeb9d8511b94ccceadfad2b6f6278e720b00314cd5117b673"><div class="ttname"><a href="../../d6/d39/namespace_v_m_a_p.html#ac540ff16efadcc07eeb9d8511b94ccceadfad2b6f6278e720b00314cd5117b673">VMAP::MOD_M2</a></div><div class="ttdeci">@ MOD_M2</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:36</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8e33038d14961c4f28b36d2bd2237df6" name="a8e33038d14961c4f28b36d2bd2237df6"></a>
@@ -334,7 +405,49 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  657</span>    {</div>
+<div class="line"><span class="lineno">  658</span>        FILE* rf = fopen(filename.c_str(), <span class="stringliteral">&quot;rb&quot;</span>);</div>
+<div class="line"><span class="lineno">  659</span>        <span class="keywordflow">if</span> (!rf)</div>
+<div class="line"><span class="lineno">  660</span>        {</div>
+<div class="line"><span class="lineno">  661</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  662</span>        }</div>
+<div class="line"><span class="lineno">  663</span> </div>
+<div class="line"><span class="lineno">  664</span>        <span class="keywordtype">bool</span> result = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  665</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> chunkSize = 0;</div>
+<div class="line"><span class="lineno">  666</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">  667</span>        <span class="keywordtype">char</span> chunk[8];                          <span class="comment">// Ignore the added magic header</span></div>
+<div class="line"><span class="lineno">  668</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d6/d39/namespace_v_m_a_p.html#a166f3eeee53079ac9df4f15ccd577974">readChunk</a>(rf, chunk, <a class="code hl_variable" href="../../d6/d39/namespace_v_m_a_p.html#aa7e5a571fdcb9d62ceefdcf5744746cb">VMAP_MAGIC</a>, 8)) { result = <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  669</span> </div>
+<div class="line"><span class="lineno">  670</span>        <span class="keywordflow">if</span> (result &amp;&amp; !<a class="code hl_function" href="../../d6/d39/namespace_v_m_a_p.html#a166f3eeee53079ac9df4f15ccd577974">readChunk</a>(rf, chunk, <span class="stringliteral">&quot;WMOD&quot;</span>, 4)) { result = <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  671</span>        <span class="keywordflow">if</span> (result &amp;&amp; fread(&amp;chunkSize, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, rf) != 1) { result = <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  672</span>        <span class="keywordflow">if</span> (result &amp;&amp; fread(&amp;<a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a5a8745b313b1417e9dbb1d571fb173dd">RootWMOID</a>, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, rf) != 1) { result = <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  673</span> </div>
+<div class="line"><span class="lineno">  674</span>        <span class="comment">// read group models</span></div>
+<div class="line"><span class="lineno">  675</span>        <span class="keywordflow">if</span> (result &amp;&amp; <a class="code hl_function" href="../../d6/d39/namespace_v_m_a_p.html#a166f3eeee53079ac9df4f15ccd577974">readChunk</a>(rf, chunk, <span class="stringliteral">&quot;GMOD&quot;</span>, 4))</div>
+<div class="line"><span class="lineno">  676</span>        {</div>
+<div class="line"><span class="lineno">  677</span>            <span class="comment">//if (fread(&amp;chunkSize, sizeof(uint32), 1, rf) != 1) result = false;</span></div>
+<div class="line"><span class="lineno">  678</span> </div>
+<div class="line"><span class="lineno">  679</span>            <span class="keywordflow">if</span> (fread(&amp;count, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, rf) != 1) { result = <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  680</span>            <span class="keywordflow">if</span> (result) { <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>.resize(count); }</div>
+<div class="line"><span class="lineno">  681</span>            <span class="comment">//if (result &amp;&amp; fread(&amp;groupModels[0], sizeof(GroupModel), count, rf) != count) result = false;</span></div>
+<div class="line"><span class="lineno">  682</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; count &amp;&amp; result; ++i)</div>
+<div class="line"><span class="lineno">  683</span>            {</div>
+<div class="line"><span class="lineno">  684</span>                result = <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>[i].readFromFile(rf);</div>
+<div class="line"><span class="lineno">  685</span>            }</div>
+<div class="line"><span class="lineno">  686</span> </div>
+<div class="line"><span class="lineno">  687</span>            <span class="comment">// read group BIH</span></div>
+<div class="line"><span class="lineno">  688</span>            <span class="keywordflow">if</span> (result &amp;&amp; !<a class="code hl_function" href="../../d6/d39/namespace_v_m_a_p.html#a166f3eeee53079ac9df4f15ccd577974">readChunk</a>(rf, chunk, <span class="stringliteral">&quot;GBIH&quot;</span>, 4)) { result = <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  689</span>            <span class="keywordflow">if</span> (result) { result = <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a101692f46ae752cbde7b264b02e23168">groupTree</a>.<a class="code hl_function" href="../../d9/d28/class_b_i_h.html#adeadee1970906f38ffe28696cb650e14">readFromFile</a>(rf); }</div>
+<div class="line"><span class="lineno">  690</span>        }</div>
+<div class="line"><span class="lineno">  691</span> </div>
+<div class="line"><span class="lineno">  692</span>        fclose(rf);</div>
+<div class="line"><span class="lineno">  693</span>        <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">  694</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_b_i_h_html_adeadee1970906f38ffe28696cb650e14"><div class="ttname"><a href="../../d9/d28/class_b_i_h.html#adeadee1970906f38ffe28696cb650e14">BIH::readFromFile</a></div><div class="ttdeci">bool readFromFile(FILE *rf)</div><div class="ttdef"><b>Definition:</b> BoundingIntervalHierarchy.cpp:286</div></div>
+<div class="ttc" id="anamespace_v_m_a_p_html_a166f3eeee53079ac9df4f15ccd577974"><div class="ttname"><a href="../../d6/d39/namespace_v_m_a_p.html#a166f3eeee53079ac9df4f15ccd577974">VMAP::readChunk</a></div><div class="ttdeci">bool readChunk(FILE *rf, char *dest, const char *compare, uint32 len)</div><div class="ttdef"><b>Definition:</b> TileAssembler.cpp:40</div></div>
+<div class="ttc" id="anamespace_v_m_a_p_html_aa7e5a571fdcb9d62ceefdcf5744746cb"><div class="ttname"><a href="../../d6/d39/namespace_v_m_a_p.html#aa7e5a571fdcb9d62ceefdcf5744746cb">VMAP::VMAP_MAGIC</a></div><div class="ttdeci">const char VMAP_MAGIC[]</div><div class="ttdef"><b>Definition:</b> VMapDefinitions.h:26</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aadf13de73aee68848ea6082418e625b0" name="aadf13de73aee68848ea6082418e625b0"></a>
@@ -354,7 +467,12 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>pass group models to <a class="el" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html">WorldModel</a> and create <a class="el" href="../../d9/d28/class_b_i_h.html">BIH</a>. Passed vector is swapped with old geometry! </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  499</span>    {</div>
+<div class="line"><span class="lineno">  500</span>        <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>.swap(models);</div>
+<div class="line"><span class="lineno">  501</span>        <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a101692f46ae752cbde7b264b02e23168">groupTree</a>.<a class="code hl_function" href="../../d9/d28/class_b_i_h.html#aa3e15e13327c9217a25c9047d7deb584">build</a>(<a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>, BoundsTrait&lt;GroupModel&gt;::GetBounds, 1);</div>
+<div class="line"><span class="lineno">  502</span>    }</div>
+<div class="ttc" id="aclass_b_i_h_html_aa3e15e13327c9217a25c9047d7deb584"><div class="ttname"><a href="../../d9/d28/class_b_i_h.html#aa3e15e13327c9217a25c9047d7deb584">BIH::build</a></div><div class="ttdeci">void build(const PrimArray &amp;primitives, BoundsFunc &amp;GetBounds, uint32 leafSize=3, bool printStats=false)</div><div class="ttdef"><b>Definition:</b> BoundingIntervalHierarchy.h:80</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5d6daa757304ceb69e578a6b9ae519d4" name="a5d6daa757304ceb69e578a6b9ae519d4"></a>
@@ -380,7 +498,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  111</span>{ <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a5a8745b313b1417e9dbb1d571fb173dd">RootWMOID</a> = id; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae449aaa575e98eac6838b0f18660697a" name="ae449aaa575e98eac6838b0f18660697a"></a>
@@ -398,7 +517,43 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  620</span>    {</div>
+<div class="line"><span class="lineno">  621</span>        FILE* wf = fopen(filename.c_str(), <span class="stringliteral">&quot;wb&quot;</span>);</div>
+<div class="line"><span class="lineno">  622</span>        <span class="keywordflow">if</span> (!wf)</div>
+<div class="line"><span class="lineno">  623</span>        {</div>
+<div class="line"><span class="lineno">  624</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  625</span>        }</div>
+<div class="line"><span class="lineno">  626</span> </div>
+<div class="line"><span class="lineno">  627</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> chunkSize, count;</div>
+<div class="line"><span class="lineno">  628</span>        <span class="keywordtype">bool</span> result = fwrite(<a class="code hl_variable" href="../../d6/d39/namespace_v_m_a_p.html#aa7e5a571fdcb9d62ceefdcf5744746cb">VMAP_MAGIC</a>, 1, 8, wf) == 8;</div>
+<div class="line"><span class="lineno">  629</span>        <span class="keywordflow">if</span> (result &amp;&amp; fwrite(<span class="stringliteral">&quot;WMOD&quot;</span>, 1, 4, wf) != 4) { result = <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  630</span>        chunkSize = <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) + <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>);</div>
+<div class="line"><span class="lineno">  631</span>        <span class="keywordflow">if</span> (result &amp;&amp; fwrite(&amp;chunkSize, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, wf) != 1) { result = <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  632</span>        <span class="keywordflow">if</span> (result &amp;&amp; fwrite(&amp;<a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a5a8745b313b1417e9dbb1d571fb173dd">RootWMOID</a>, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, wf) != 1) { result = <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  633</span> </div>
+<div class="line"><span class="lineno">  634</span>        <span class="comment">// write group models</span></div>
+<div class="line"><span class="lineno">  635</span>        count = <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>.size();</div>
+<div class="line"><span class="lineno">  636</span>        <span class="keywordflow">if</span> (count)</div>
+<div class="line"><span class="lineno">  637</span>        {</div>
+<div class="line"><span class="lineno">  638</span>            <span class="keywordflow">if</span> (result &amp;&amp; fwrite(<span class="stringliteral">&quot;GMOD&quot;</span>, 1, 4, wf) != 4) { result = <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  639</span>            <span class="comment">//chunkSize = sizeof(uint32)+ sizeof(GroupModel)*count;</span></div>
+<div class="line"><span class="lineno">  640</span>            <span class="comment">//if (result &amp;&amp; fwrite(&amp;chunkSize, sizeof(uint32), 1, wf) != 1) result = false;</span></div>
+<div class="line"><span class="lineno">  641</span>            <span class="keywordflow">if</span> (result &amp;&amp; fwrite(&amp;count, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, wf) != 1) { result = <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  642</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>.size() &amp;&amp; result; ++i)</div>
+<div class="line"><span class="lineno">  643</span>            {</div>
+<div class="line"><span class="lineno">  644</span>                result = <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ae44c57520cea5da5a5f082167e9f818d">groupModels</a>[i].writeToFile(wf);</div>
+<div class="line"><span class="lineno">  645</span>            }</div>
+<div class="line"><span class="lineno">  646</span> </div>
+<div class="line"><span class="lineno">  647</span>            <span class="comment">// write group BIH</span></div>
+<div class="line"><span class="lineno">  648</span>            <span class="keywordflow">if</span> (result &amp;&amp; fwrite(<span class="stringliteral">&quot;GBIH&quot;</span>, 1, 4, wf) != 4) { result = <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  649</span>            <span class="keywordflow">if</span> (result) { result = <a class="code hl_variable" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a101692f46ae752cbde7b264b02e23168">groupTree</a>.<a class="code hl_function" href="../../d9/d28/class_b_i_h.html#a21964109de360ae865064435ad4b1096">writeToFile</a>(wf); }</div>
+<div class="line"><span class="lineno">  650</span>        }</div>
+<div class="line"><span class="lineno">  651</span> </div>
+<div class="line"><span class="lineno">  652</span>        fclose(wf);</div>
+<div class="line"><span class="lineno">  653</span>        <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">  654</span>    }</div>
+<div class="ttc" id="aclass_b_i_h_html_a21964109de360ae865064435ad4b1096"><div class="ttname"><a href="../../d9/d28/class_b_i_h.html#a21964109de360ae865064435ad4b1096">BIH::writeToFile</a></div><div class="ttdeci">bool writeToFile(FILE *wf) const</div><div class="ttdef"><b>Definition:</b> BoundingIntervalHierarchy.cpp:272</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -483,8 +638,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/common/Collision/Models/<a class="el" href="../../d3/d59/_world_model_8h_source.html">WorldModel.h</a></li>
-<li>D:/azerothcore-wotlk/src/common/Collision/Models/<a class="el" href="../../dd/d51/_world_model_8cpp.html">WorldModel.cpp</a></li>
+<li><a class="el" href="../../">WorldModel.h</a></li>
+<li><a class="el" href="../../">WorldModel.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -492,7 +647,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d39/namespace_v_m_a_p.html">VMAP</a></li><li class="navelem"><a class="el" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html">WorldModel</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

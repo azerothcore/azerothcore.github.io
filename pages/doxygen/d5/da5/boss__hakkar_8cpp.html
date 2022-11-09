@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/ZulGurub/boss_hakkar.cpp File Reference</title>
+<title>AzeorthCore: boss_hakkar.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -112,12 +112,14 @@ $(document).ready(function(){initNavTree('d5/da5/boss__hakkar_8cpp.html','../../
   <div class="headertitle"><div class="title">boss_hakkar.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d1/d39/_player_8h_source.html">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dad/_scripted_creature_8h_source.html">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/df0/zulgurub_8h_source.html">zulgurub.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">zulgurub.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db8/classboss__hakkar.html">boss_hakkar</a></td></tr>
@@ -11387,7 +11389,28 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74" name="af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74"></a>EVENT_ARCANE_BLAST&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9" name="af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9"></a>EVENT_BELLOWING_ROAR&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   61</span>{</div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a7518dc486a8a16b5db79a7fd75d289a0">EVENT_BLOOD_SIPHON</a>          = 1,</div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9c0c5b19c2ca28b72e921a29ca524225">EVENT_CORRUPTED_BLOOD</a>       = 2,</div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a0dcac25aa39b11dbce8620673f22839f">EVENT_CAUSE_INSANITY</a>        = 3,</div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a470d03afa22c989a62d65ba1ce60863b">EVENT_ENRAGE</a>                = 4,</div>
+<div class="line"><span class="lineno">   66</span>    <span class="comment">// The Aspects of all High Priests events</span></div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a669ceda55e1f612c0cedc470a648858d">EVENT_ASPECT_OF_JEKLIK</a>      = 5,</div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a437cadf69dfa76402d1214077dc8ec5d">EVENT_ASPECT_OF_VENOXIS</a>     = 6,</div>
+<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9b2eceef68ed43d4b12e8fa774069298">EVENT_ASPECT_OF_MARLI</a>       = 7,</div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a46c7562b54063fbae7052bc6ee0c2caa">EVENT_ASPECT_OF_THEKAL</a>      = 8,</div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa0c081e8af3c57f4fe52983c2bd27fd9">EVENT_ASPECT_OF_ARLOKK</a>      = 9</div>
+<div class="line"><span class="lineno">   72</span>};</div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a0dcac25aa39b11dbce8620673f22839f"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a0dcac25aa39b11dbce8620673f22839f">EVENT_CAUSE_INSANITY</a></div><div class="ttdeci">@ EVENT_CAUSE_INSANITY</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:64</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a437cadf69dfa76402d1214077dc8ec5d"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a437cadf69dfa76402d1214077dc8ec5d">EVENT_ASPECT_OF_VENOXIS</a></div><div class="ttdeci">@ EVENT_ASPECT_OF_VENOXIS</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:68</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a46c7562b54063fbae7052bc6ee0c2caa"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a46c7562b54063fbae7052bc6ee0c2caa">EVENT_ASPECT_OF_THEKAL</a></div><div class="ttdeci">@ EVENT_ASPECT_OF_THEKAL</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:70</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a470d03afa22c989a62d65ba1ce60863b"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a470d03afa22c989a62d65ba1ce60863b">EVENT_ENRAGE</a></div><div class="ttdeci">@ EVENT_ENRAGE</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:65</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a669ceda55e1f612c0cedc470a648858d"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a669ceda55e1f612c0cedc470a648858d">EVENT_ASPECT_OF_JEKLIK</a></div><div class="ttdeci">@ EVENT_ASPECT_OF_JEKLIK</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:67</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a7518dc486a8a16b5db79a7fd75d289a0"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a7518dc486a8a16b5db79a7fd75d289a0">EVENT_BLOOD_SIPHON</a></div><div class="ttdeci">@ EVENT_BLOOD_SIPHON</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:62</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a9b2eceef68ed43d4b12e8fa774069298"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9b2eceef68ed43d4b12e8fa774069298">EVENT_ASPECT_OF_MARLI</a></div><div class="ttdeci">@ EVENT_ASPECT_OF_MARLI</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:69</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a9c0c5b19c2ca28b72e921a29ca524225"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9c0c5b19c2ca28b72e921a29ca524225">EVENT_CORRUPTED_BLOOD</a></div><div class="ttdeci">@ EVENT_CORRUPTED_BLOOD</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:63</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_af60e00b78607064c5be6aa9397ea49c1aa0c081e8af3c57f4fe52983c2bd27fd9"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa0c081e8af3c57f4fe52983c2bd27fd9">EVENT_ASPECT_OF_ARLOKK</a></div><div class="ttdeci">@ EVENT_ASPECT_OF_ARLOKK</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:71</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a16774215bba3b38580ea51987d64cff1" name="a16774215bba3b38580ea51987d64cff1"></a>
@@ -11927,7 +11950,25 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a16774215bba3b38580ea51987d64cff1a04c962d9b6aaafde54ff92a54369135e" name="a16774215bba3b38580ea51987d64cff1a04c962d9b6aaafde54ff92a54369135e"></a>SAY_DEATH&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a16774215bba3b38580ea51987d64cff1ad2203e884b912476a5ff5394ec266b2c" name="a16774215bba3b38580ea51987d64cff1ad2203e884b912476a5ff5394ec266b2c"></a>SAY_APPEAR&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>                       = 0,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1a7462473c85f346ffdf573d77a94ed89d">SAY_FLEEING</a>                     = 1,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1a662395fd18e572ee6eb3e5c628f6073e">SAY_MINION_DESTROY</a>              = 2,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1a15df3622955277bf3fc24419e71e240c">SAY_PROTECT_ALTAR</a>               = 3,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1a749755e7ff67eab9e050ccdd9bd6d71b">SAY_PROTECT_GURUBASHI_EMPIRE</a>    = 4,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1a97941b34cb2a4b8b516be6a536702515">SAY_PLEDGE_ALLEGIANCE</a>           = 5,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1a22178ed352742606eda6ebd93f6e8f95">SAY_WORLD_WILL_SUFFER</a>           = 6,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1ad089ecf6b1860e0cf125942c8697880d">SAY_EVADE</a>                       = 7</div>
+<div class="line"><span class="lineno">   41</span>};</div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a16774215bba3b38580ea51987d64cff1a15df3622955277bf3fc24419e71e240c"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1a15df3622955277bf3fc24419e71e240c">SAY_PROTECT_ALTAR</a></div><div class="ttdeci">@ SAY_PROTECT_ALTAR</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:36</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a16774215bba3b38580ea51987d64cff1a22178ed352742606eda6ebd93f6e8f95"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1a22178ed352742606eda6ebd93f6e8f95">SAY_WORLD_WILL_SUFFER</a></div><div class="ttdeci">@ SAY_WORLD_WILL_SUFFER</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:39</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a16774215bba3b38580ea51987d64cff1a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:33</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a16774215bba3b38580ea51987d64cff1a662395fd18e572ee6eb3e5c628f6073e"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1a662395fd18e572ee6eb3e5c628f6073e">SAY_MINION_DESTROY</a></div><div class="ttdeci">@ SAY_MINION_DESTROY</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:35</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a16774215bba3b38580ea51987d64cff1a7462473c85f346ffdf573d77a94ed89d"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1a7462473c85f346ffdf573d77a94ed89d">SAY_FLEEING</a></div><div class="ttdeci">@ SAY_FLEEING</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:34</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a16774215bba3b38580ea51987d64cff1a749755e7ff67eab9e050ccdd9bd6d71b"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1a749755e7ff67eab9e050ccdd9bd6d71b">SAY_PROTECT_GURUBASHI_EMPIRE</a></div><div class="ttdeci">@ SAY_PROTECT_GURUBASHI_EMPIRE</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:37</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a16774215bba3b38580ea51987d64cff1a97941b34cb2a4b8b516be6a536702515"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1a97941b34cb2a4b8b516be6a536702515">SAY_PLEDGE_ALLEGIANCE</a></div><div class="ttdeci">@ SAY_PLEDGE_ALLEGIANCE</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:38</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a16774215bba3b38580ea51987d64cff1ad089ecf6b1860e0cf125942c8697880d"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a16774215bba3b38580ea51987d64cff1ad089ecf6b1860e0cf125942c8697880d">SAY_EVADE</a></div><div class="ttdeci">@ SAY_EVADE</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5bd342133be8c2137b831460acc9298c" name="a5bd342133be8c2137b831460acc9298c"></a>
@@ -14839,7 +14880,34 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a5bd342133be8c2137b831460acc9298ca504d01cfc63a8b604bcd1b8e4885a5df" name="a5bd342133be8c2137b831460acc9298ca504d01cfc63a8b604bcd1b8e4885a5df"></a>SPELL_SUMMON_NETHER_WRAITH_3&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5bd342133be8c2137b831460acc9298cab148123342fab6e991d3dcc39a339386" name="a5bd342133be8c2137b831460acc9298cab148123342fab6e991d3dcc39a339386"></a>SPELL_SUMMON_NETHER_WRAITH_4&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   44</span>{</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca72fe0a5823dcd35a95b8dfed4ba48b64">SPELL_BLOOD_SIPHON</a>          = 24324,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca0079859f8c54c39532a07343cf08e014">SPELL_BLOOD_SIPHON_HEAL</a>     = 24322,</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298cacfc922219d1db6b2c203ed32a2811e6a">SPELL_BLOOD_SIPHON_DAMAGE</a>   = 24323,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca19f81401d671991f0e4aff1e394a1739">SPELL_CORRUPTED_BLOOD</a>       = 24328,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca02ceb4a4d1532702665fed8df9602cb6">SPELL_CAUSE_INSANITY</a>        = 24327,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca2a20f56307679be4d4f01a0d3d93cc7e">SPELL_ENRAGE</a>                = 24318,</div>
+<div class="line"><span class="lineno">   51</span>    <span class="comment">// The Aspects of all High Priests spells</span></div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298caf82d60b8b2c47d543c8500ec9140291e">SPELL_ASPECT_OF_JEKLIK</a>      = 24687,</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298caef2f2be9981c9690859dfb83ccb40dc0">SPELL_ASPECT_OF_VENOXIS</a>     = 24688,</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca13a5c940fa9c148f942c7dfafa064dbb">SPELL_ASPECT_OF_MARLI</a>       = 24686,</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298cad884441c2d29fa71a1fe2d33a37bcd64">SPELL_ASPECT_OF_THEKAL</a>      = 24689,</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca829691c9ea8410cab3bc498e0f88f271">SPELL_ASPECT_OF_ARLOKK</a>      = 24690,</div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca114faac50f4f9e705d47c5e45738d93b">SPELL_POISONOUS_BLOOD</a>       = 24321</div>
+<div class="line"><span class="lineno">   58</span>};</div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a5bd342133be8c2137b831460acc9298ca0079859f8c54c39532a07343cf08e014"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca0079859f8c54c39532a07343cf08e014">SPELL_BLOOD_SIPHON_HEAL</a></div><div class="ttdeci">@ SPELL_BLOOD_SIPHON_HEAL</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:46</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a5bd342133be8c2137b831460acc9298ca02ceb4a4d1532702665fed8df9602cb6"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca02ceb4a4d1532702665fed8df9602cb6">SPELL_CAUSE_INSANITY</a></div><div class="ttdeci">@ SPELL_CAUSE_INSANITY</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:49</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a5bd342133be8c2137b831460acc9298ca114faac50f4f9e705d47c5e45738d93b"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca114faac50f4f9e705d47c5e45738d93b">SPELL_POISONOUS_BLOOD</a></div><div class="ttdeci">@ SPELL_POISONOUS_BLOOD</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:57</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a5bd342133be8c2137b831460acc9298ca13a5c940fa9c148f942c7dfafa064dbb"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca13a5c940fa9c148f942c7dfafa064dbb">SPELL_ASPECT_OF_MARLI</a></div><div class="ttdeci">@ SPELL_ASPECT_OF_MARLI</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:54</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a5bd342133be8c2137b831460acc9298ca19f81401d671991f0e4aff1e394a1739"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca19f81401d671991f0e4aff1e394a1739">SPELL_CORRUPTED_BLOOD</a></div><div class="ttdeci">@ SPELL_CORRUPTED_BLOOD</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:48</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a5bd342133be8c2137b831460acc9298ca2a20f56307679be4d4f01a0d3d93cc7e"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca2a20f56307679be4d4f01a0d3d93cc7e">SPELL_ENRAGE</a></div><div class="ttdeci">@ SPELL_ENRAGE</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:50</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a5bd342133be8c2137b831460acc9298ca72fe0a5823dcd35a95b8dfed4ba48b64"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca72fe0a5823dcd35a95b8dfed4ba48b64">SPELL_BLOOD_SIPHON</a></div><div class="ttdeci">@ SPELL_BLOOD_SIPHON</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:45</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a5bd342133be8c2137b831460acc9298ca829691c9ea8410cab3bc498e0f88f271"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298ca829691c9ea8410cab3bc498e0f88f271">SPELL_ASPECT_OF_ARLOKK</a></div><div class="ttdeci">@ SPELL_ASPECT_OF_ARLOKK</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:56</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a5bd342133be8c2137b831460acc9298cacfc922219d1db6b2c203ed32a2811e6a"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298cacfc922219d1db6b2c203ed32a2811e6a">SPELL_BLOOD_SIPHON_DAMAGE</a></div><div class="ttdeci">@ SPELL_BLOOD_SIPHON_DAMAGE</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:47</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a5bd342133be8c2137b831460acc9298cad884441c2d29fa71a1fe2d33a37bcd64"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298cad884441c2d29fa71a1fe2d33a37bcd64">SPELL_ASPECT_OF_THEKAL</a></div><div class="ttdeci">@ SPELL_ASPECT_OF_THEKAL</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:55</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a5bd342133be8c2137b831460acc9298caef2f2be9981c9690859dfb83ccb40dc0"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298caef2f2be9981c9690859dfb83ccb40dc0">SPELL_ASPECT_OF_VENOXIS</a></div><div class="ttdeci">@ SPELL_ASPECT_OF_VENOXIS</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:53</div></div>
+<div class="ttc" id="aboss__hakkar_8cpp_html_a5bd342133be8c2137b831460acc9298caf82d60b8b2c47d543c8500ec9140291e"><div class="ttname"><a href="../../d5/da5/boss__hakkar_8cpp.html#a5bd342133be8c2137b831460acc9298caf82d60b8b2c47d543c8500ec9140291e">SPELL_ASPECT_OF_JEKLIK</a></div><div class="ttdeci">@ SPELL_ASPECT_OF_JEKLIK</div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:52</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -14857,7 +14925,26 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  405</span>{</div>
+<div class="line"><span class="lineno">  406</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/db8/classboss__hakkar.html">boss_hakkar</a>();</div>
+<div class="line"><span class="lineno">  407</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/de0/classat__zulgurub__entrance__speech.html">at_zulgurub_entrance_speech</a>();</div>
+<div class="line"><span class="lineno">  408</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/dba/classat__zulgurub__bridge__speech.html">at_zulgurub_bridge_speech</a>();</div>
+<div class="line"><span class="lineno">  409</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d62/classat__zulgurub__temple__speech.html">at_zulgurub_temple_speech</a>();</div>
+<div class="line"><span class="lineno">  410</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/dc8/classat__zulgurub__bloodfire__pit__speech.html">at_zulgurub_bloodfire_pit_speech</a>();</div>
+<div class="line"><span class="lineno">  411</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/d18/classat__zulgurub__edge__of__madness__speech.html">at_zulgurub_edge_of_madness_speech</a>();</div>
+<div class="line"><span class="lineno">  412</span>    <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d8/dba/classspell__blood__siphon.html">spell_blood_siphon</a>);</div>
+<div class="line"><span class="lineno">  413</span>    <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d9/de7/classspell__hakkar__power__down.html">spell_hakkar_power_down</a>);</div>
+<div class="line"><span class="lineno">  414</span>}</div>
+<div class="ttc" id="a_script_mgr_8h_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d0/d7d/_script_mgr_8h.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2649</div></div>
+<div class="ttc" id="aclassat__zulgurub__bloodfire__pit__speech_html"><div class="ttname"><a href="../../d3/dc8/classat__zulgurub__bloodfire__pit__speech.html">at_zulgurub_bloodfire_pit_speech</a></div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:300</div></div>
+<div class="ttc" id="aclassat__zulgurub__bridge__speech_html"><div class="ttname"><a href="../../d7/dba/classat__zulgurub__bridge__speech.html">at_zulgurub_bridge_speech</a></div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:248</div></div>
+<div class="ttc" id="aclassat__zulgurub__edge__of__madness__speech_html"><div class="ttname"><a href="../../db/d18/classat__zulgurub__edge__of__madness__speech.html">at_zulgurub_edge_of_madness_speech</a></div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:326</div></div>
+<div class="ttc" id="aclassat__zulgurub__entrance__speech_html"><div class="ttname"><a href="../../df/de0/classat__zulgurub__entrance__speech.html">at_zulgurub_entrance_speech</a></div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:221</div></div>
+<div class="ttc" id="aclassat__zulgurub__temple__speech_html"><div class="ttname"><a href="../../d2/d62/classat__zulgurub__temple__speech.html">at_zulgurub_temple_speech</a></div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:274</div></div>
+<div class="ttc" id="aclassboss__hakkar_html"><div class="ttname"><a href="../../de/db8/classboss__hakkar.html">boss_hakkar</a></div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:75</div></div>
+<div class="ttc" id="aclassspell__blood__siphon_html"><div class="ttname"><a href="../../d8/dba/classspell__blood__siphon.html">spell_blood_siphon</a></div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:352</div></div>
+<div class="ttc" id="aclassspell__hakkar__power__down_html"><div class="ttname"><a href="../../d9/de7/classspell__hakkar__power__down.html">spell_hakkar_power_down</a></div><div class="ttdef"><b>Definition:</b> boss_hakkar.cpp:388</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -14866,7 +14953,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ddeb450e5fe586f747c0635391d1d1d6.html">EasternKingdoms</a></li><li class="navelem"><a class="el" href="../../dir_704a0a1c688c1952f17cd27e5650d099.html">ZulGurub</a></li><li class="navelem"><a class="el" href="../../d5/da5/boss__hakkar_8cpp.html">boss_hakkar.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:24 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:37 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

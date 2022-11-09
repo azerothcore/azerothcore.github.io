@@ -499,7 +499,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2eaf8ff8d96971f20d528ecbd18869db" name="a2eaf8ff8d96971f20d528ecbd18869db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2eaf8ff8d96971f20d528ecbd18869db">&#9670;&#160;</a></span>boss_blackheart_the_inciterAI()</h2>
 
@@ -523,7 +524,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   53</span>                                                          : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">   54</span>        {</div>
+<div class="line"><span class="lineno">   55</span>            <a class="code hl_variable" href="../../d5/dc4/structboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i.html#a55b73e947b9bbce57bdeec5f93f20f8a">instance</a> = creature-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">   56</span>        }</div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astructboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i_html_a55b73e947b9bbce57bdeec5f93f20f8a"><div class="ttname"><a href="../../d5/dc4/structboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i.html#a55b73e947b9bbce57bdeec5f93f20f8a">boss_blackheart_the_inciter::boss_blackheart_the_inciterAI::instance</a></div><div class="ttdeci">InstanceScript * instance</div><div class="ttdef"><b>Definition:</b> boss_blackheart_the_inciter.cpp:58</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -552,7 +560,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   86</span>        {</div>
+<div class="line"><span class="lineno">   87</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>);</div>
+<div class="line"><span class="lineno">   88</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8aaf7395cf03b9fed37f1216ceb61b42d1">EVENT_SPELL_INCITE</a>, 20000);</div>
+<div class="line"><span class="lineno">   89</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8ac35d48fb639003a154660fa743bdc5f6">EVENT_INCITE_WAIT</a>, 15000);</div>
+<div class="line"><span class="lineno">   90</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8ad052bc8e0d5d46e040bc846ad5826176">EVENT_SPELL_CHARGE</a>, 0);</div>
+<div class="line"><span class="lineno">   91</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8a40b45b950d3809871537221b6ecf54e4">EVENT_SPELL_KNOCKBACK</a>, 15000);</div>
+<div class="line"><span class="lineno">   92</span> </div>
+<div class="line"><span class="lineno">   93</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/dc4/structboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i.html#a55b73e947b9bbce57bdeec5f93f20f8a">instance</a>)</div>
+<div class="line"><span class="lineno">   94</span>                <a class="code hl_variable" href="../../d5/dc4/structboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i.html#a55b73e947b9bbce57bdeec5f93f20f8a">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87da5e5ecb7b6f8d204717412ca517a3aa26">DATA_BLACKHEARTTHEINCITEREVENT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>);</div>
+<div class="line"><span class="lineno">   95</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="aboss__blackheart__the__inciter_8cpp_html_a64b241cafb13db01113a5ff36be599f8a40b45b950d3809871537221b6ecf54e4"><div class="ttname"><a href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8a40b45b950d3809871537221b6ecf54e4">EVENT_SPELL_KNOCKBACK</a></div><div class="ttdeci">@ EVENT_SPELL_KNOCKBACK</div><div class="ttdef"><b>Definition:</b> boss_blackheart_the_inciter.cpp:38</div></div>
+<div class="ttc" id="aboss__blackheart__the__inciter_8cpp_html_a64b241cafb13db01113a5ff36be599f8a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_blackheart_the_inciter.cpp:30</div></div>
+<div class="ttc" id="aboss__blackheart__the__inciter_8cpp_html_a64b241cafb13db01113a5ff36be599f8aaf7395cf03b9fed37f1216ceb61b42d1"><div class="ttname"><a href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8aaf7395cf03b9fed37f1216ceb61b42d1">EVENT_SPELL_INCITE</a></div><div class="ttdeci">@ EVENT_SPELL_INCITE</div><div class="ttdef"><b>Definition:</b> boss_blackheart_the_inciter.cpp:35</div></div>
+<div class="ttc" id="aboss__blackheart__the__inciter_8cpp_html_a64b241cafb13db01113a5ff36be599f8ac35d48fb639003a154660fa743bdc5f6"><div class="ttname"><a href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8ac35d48fb639003a154660fa743bdc5f6">EVENT_INCITE_WAIT</a></div><div class="ttdeci">@ EVENT_INCITE_WAIT</div><div class="ttdef"><b>Definition:</b> boss_blackheart_the_inciter.cpp:36</div></div>
+<div class="ttc" id="aboss__blackheart__the__inciter_8cpp_html_a64b241cafb13db01113a5ff36be599f8ad052bc8e0d5d46e040bc846ad5826176"><div class="ttname"><a href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8ad052bc8e0d5d46e040bc846ad5826176">EVENT_SPELL_CHARGE</a></div><div class="ttdeci">@ EVENT_SPELL_CHARGE</div><div class="ttdef"><b>Definition:</b> boss_blackheart_the_inciter.cpp:37</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_zone_script_html_a949e67ea24c7e4b70a20806952735576"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:53</div></div>
+<div class="ttc" id="ashadow__labyrinth_8h_html_a0bb87d52cf69de5a588288e14237b87da5e5ecb7b6f8d204717412ca517a3aa26"><div class="ttname"><a href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87da5e5ecb7b6f8d204717412ca517a3aa26">DATA_BLACKHEARTTHEINCITEREVENT</a></div><div class="ttdeci">@ DATA_BLACKHEARTTHEINCITEREVENT</div><div class="ttdef"><b>Definition:</b> shadow_labyrinth.h:32</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7516d07151bbae3f0f22246214505afd" name="a7516d07151bbae3f0f22246214505afd"></a>
@@ -580,7 +608,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   98</span>        {</div>
+<div class="line"><span class="lineno">   99</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/dc4/structboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i.html#a3d88eced640baa85e46cd8f997cc7693">InciteChaos</a> &amp;&amp; <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#afa14c52852b49c2179c7410dbd897ff4">SelectTargetFromPlayerList</a>(100.0f))</div>
+<div class="line"><span class="lineno">  100</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  101</span>            <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">CreatureAI::EnterEvadeMode</a>(why);</div>
+<div class="line"><span class="lineno">  102</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_afe5dd68e11d20028510eca29d4184778"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">CreatureAI::EnterEvadeMode</a></div><div class="ttdeci">virtual void EnterEvadeMode(EvadeReason why=EVADE_REASON_OTHER)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:195</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_afa14c52852b49c2179c7410dbd897ff4"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#afa14c52852b49c2179c7410dbd897ff4">ScriptedAI::SelectTargetFromPlayerList</a></div><div class="ttdeci">Player * SelectTargetFromPlayerList(float maxdist, uint32 excludeAura=0, bool mustBeInLOS=false) const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:508</div></div>
+<div class="ttc" id="astructboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i_html_a3d88eced640baa85e46cd8f997cc7693"><div class="ttname"><a href="../../d5/dc4/structboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i.html#a3d88eced640baa85e46cd8f997cc7693">boss_blackheart_the_inciter::boss_blackheart_the_inciterAI::InciteChaos</a></div><div class="ttdeci">bool InciteChaos</div><div class="ttdef"><b>Definition:</b> boss_blackheart_the_inciter.cpp:61</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a09f3a3088e03780773ace6e5da82518e" name="a09f3a3088e03780773ace6e5da82518e"></a>
@@ -608,7 +644,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   79</span>        {</div>
+<div class="line"><span class="lineno">   80</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>);</div>
+<div class="line"><span class="lineno">   81</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/dc4/structboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i.html#a55b73e947b9bbce57bdeec5f93f20f8a">instance</a>)</div>
+<div class="line"><span class="lineno">   82</span>                <a class="code hl_variable" href="../../d5/dc4/structboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i.html#a55b73e947b9bbce57bdeec5f93f20f8a">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87da5e5ecb7b6f8d204717412ca517a3aa26">DATA_BLACKHEARTTHEINCITEREVENT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>);</div>
+<div class="line"><span class="lineno">   83</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="aboss__blackheart__the__inciter_8cpp_html_a64b241cafb13db01113a5ff36be599f8a04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_blackheart_the_inciter.cpp:33</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a532bcac92a5f026a58832e081d61a3e4" name="a532bcac92a5f026a58832e081d61a3e4"></a>
@@ -636,7 +679,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   73</span>        {</div>
+<div class="line"><span class="lineno">   74</span>            <span class="keywordflow">if</span> (victim-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a> &amp;&amp; <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 1))</div>
+<div class="line"><span class="lineno">   75</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8a9e64f6e600dd42567d18006912811f75">SAY_SLAY</a>);</div>
+<div class="line"><span class="lineno">   76</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__blackheart__the__inciter_8cpp_html_a64b241cafb13db01113a5ff36be599f8a9e64f6e600dd42567d18006912811f75"><div class="ttname"><a href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8a9e64f6e600dd42567d18006912811f75">SAY_SLAY</a></div><div class="ttdeci">@ SAY_SLAY</div><div class="ttdef"><b>Definition:</b> boss_blackheart_the_inciter.cpp:31</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7ce1f43c37411d6a19ac81b6a6e8565d" name="a7ce1f43c37411d6a19ac81b6a6e8565d"></a>
@@ -663,7 +714,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   64</span>        {</div>
+<div class="line"><span class="lineno">   65</span>            <a class="code hl_variable" href="../../d5/dc4/structboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i.html#a3d88eced640baa85e46cd8f997cc7693">InciteChaos</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   66</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/dc4/structboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i.html#a55b73e947b9bbce57bdeec5f93f20f8a">instance</a>)</div>
+<div class="line"><span class="lineno">   69</span>                <a class="code hl_variable" href="../../d5/dc4/structboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i.html#a55b73e947b9bbce57bdeec5f93f20f8a">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87da5e5ecb7b6f8d204717412ca517a3aa26">DATA_BLACKHEARTTHEINCITEREVENT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>);</div>
+<div class="line"><span class="lineno">   70</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a></div><div class="ttdeci">@ NOT_STARTED</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:56</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9904aacd7f3c331b391dcd8df99eb520" name="a9904aacd7f3c331b391dcd8df99eb520"></a>
@@ -691,7 +750,66 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  105</span>        {</div>
+<div class="line"><span class="lineno">  106</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  107</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  108</span> </div>
+<div class="line"><span class="lineno">  109</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  110</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">  111</span>            {</div>
+<div class="line"><span class="lineno">  112</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8ac35d48fb639003a154660fa743bdc5f6">EVENT_INCITE_WAIT</a>:</div>
+<div class="line"><span class="lineno">  113</span>                    <a class="code hl_variable" href="../../d5/dc4/structboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i.html#a3d88eced640baa85e46cd8f997cc7693">InciteChaos</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  114</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  115</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8aaf7395cf03b9fed37f1216ceb61b42d1">EVENT_SPELL_INCITE</a>:</div>
+<div class="line"><span class="lineno">  116</span>                    {</div>
+<div class="line"><span class="lineno">  117</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8a5e1ac33c7fbf31e632a6b7d122991f58">SPELL_INCITE_CHAOS</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>                        std::list&lt;HostileReference*&gt; t_list = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad56089c61bf09419bedbb4edd2d94aeb">GetThreatMgr</a>().<a class="code hl_function" href="../../d0/db1/class_threat_mgr.html#aab795d716613d46818c7d65d9f49b1d4">GetThreatList</a>();</div>
+<div class="line"><span class="lineno">  120</span>                        <span class="keywordflow">for</span> (std::list&lt;HostileReference*&gt;::const_iterator itr = t_list.begin(); itr != t_list.end(); ++itr)</div>
+<div class="line"><span class="lineno">  121</span>                        {</div>
+<div class="line"><span class="lineno">  122</span>                            <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, (*itr)-&gt;getUnitGuid());</div>
+<div class="line"><span class="lineno">  123</span>                            <span class="keywordflow">if</span> (target &amp;&amp; target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  124</span>                                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8ad39824970b373b4225010b0ddc8ef66f">SPELL_INCITE_CHAOS_B</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  125</span>                        }</div>
+<div class="line"><span class="lineno">  126</span> </div>
+<div class="line"><span class="lineno">  127</span>                        <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a43a3abfa3e3d6baef01dfe1b7d372848">DoResetThreat</a>();</div>
+<div class="line"><span class="lineno">  128</span>                        <a class="code hl_variable" href="../../d5/dc4/structboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i.html#a3d88eced640baa85e46cd8f997cc7693">InciteChaos</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  129</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.DelayEvents(15000);</div>
+<div class="line"><span class="lineno">  130</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(40000);</div>
+<div class="line"><span class="lineno">  131</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8ac35d48fb639003a154660fa743bdc5f6">EVENT_INCITE_WAIT</a>, 15000);</div>
+<div class="line"><span class="lineno">  132</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  133</span>                    }</div>
+<div class="line"><span class="lineno">  134</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8ad052bc8e0d5d46e040bc846ad5826176">EVENT_SPELL_CHARGE</a>:</div>
+<div class="line"><span class="lineno">  135</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0))</div>
+<div class="line"><span class="lineno">  136</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8a379cd345f5bd4f776413760e5e279963">SPELL_CHARGE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  137</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(15000, 25000));</div>
+<div class="line"><span class="lineno">  138</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  139</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8a40b45b950d3809871537221b6ecf54e4">EVENT_SPELL_KNOCKBACK</a>:</div>
+<div class="line"><span class="lineno">  140</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8ab79970da263d22f87e8c192d563ac9e5">SPELL_WAR_STOMP</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  141</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(18000, 24000));</div>
+<div class="line"><span class="lineno">  142</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  143</span>            }</div>
+<div class="line"><span class="lineno">  144</span> </div>
+<div class="line"><span class="lineno">  145</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/dc4/structboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i.html#a3d88eced640baa85e46cd8f997cc7693">InciteChaos</a>)</div>
+<div class="line"><span class="lineno">  146</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  147</span> </div>
+<div class="line"><span class="lineno">  148</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  149</span>        }</div>
+<div class="ttc" id="aboss__blackheart__the__inciter_8cpp_html_a64b241cafb13db01113a5ff36be599f8a379cd345f5bd4f776413760e5e279963"><div class="ttname"><a href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8a379cd345f5bd4f776413760e5e279963">SPELL_CHARGE</a></div><div class="ttdeci">@ SPELL_CHARGE</div><div class="ttdef"><b>Definition:</b> boss_blackheart_the_inciter.cpp:26</div></div>
+<div class="ttc" id="aboss__blackheart__the__inciter_8cpp_html_a64b241cafb13db01113a5ff36be599f8a5e1ac33c7fbf31e632a6b7d122991f58"><div class="ttname"><a href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8a5e1ac33c7fbf31e632a6b7d122991f58">SPELL_INCITE_CHAOS</a></div><div class="ttdeci">@ SPELL_INCITE_CHAOS</div><div class="ttdef"><b>Definition:</b> boss_blackheart_the_inciter.cpp:24</div></div>
+<div class="ttc" id="aboss__blackheart__the__inciter_8cpp_html_a64b241cafb13db01113a5ff36be599f8ab79970da263d22f87e8c192d563ac9e5"><div class="ttname"><a href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8ab79970da263d22f87e8c192d563ac9e5">SPELL_WAR_STOMP</a></div><div class="ttdeci">@ SPELL_WAR_STOMP</div><div class="ttdef"><b>Definition:</b> boss_blackheart_the_inciter.cpp:27</div></div>
+<div class="ttc" id="aboss__blackheart__the__inciter_8cpp_html_a64b241cafb13db01113a5ff36be599f8ad39824970b373b4225010b0ddc8ef66f"><div class="ttname"><a href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html#a64b241cafb13db01113a5ff36be599f8ad39824970b373b4225010b0ddc8ef66f">SPELL_INCITE_CHAOS_B</a></div><div class="ttdeci">@ SPELL_INCITE_CHAOS_B</div><div class="ttdef"><b>Definition:</b> boss_blackheart_the_inciter.cpp:25</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_threat_mgr_html_aab795d716613d46818c7d65d9f49b1d4"><div class="ttname"><a href="../../d0/db1/class_threat_mgr.html#aab795d716613d46818c7d65d9f49b1d4">ThreatMgr::GetThreatList</a></div><div class="ttdeci">ThreatContainer::StorageType const &amp; GetThreatList() const</div><div class="ttdef"><b>Definition:</b> ThreatMgr.h:271</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_ad56089c61bf09419bedbb4edd2d94aeb"><div class="ttname"><a href="../../da/db7/class_unit.html#ad56089c61bf09419bedbb4edd2d94aeb">Unit::GetThreatMgr</a></div><div class="ttdeci">ThreatMgr &amp; GetThreatMgr()</div><div class="ttdef"><b>Definition:</b> Unit.h:2142</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a43a3abfa3e3d6baef01dfe1b7d372848"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a43a3abfa3e3d6baef01dfe1b7d372848">ScriptedAI::DoResetThreat</a></div><div class="ttdeci">void DoResetThreat()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:387</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -738,7 +856,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/Auchindoun/ShadowLabyrinth/<a class="el" href="../../d2/deb/boss__blackheart__the__inciter_8cpp.html">boss_blackheart_the_inciter.cpp</a></li>
+<li><a class="el" href="../../">boss_blackheart_the_inciter.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -746,7 +864,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d96/classboss__blackheart__the__inciter.html">boss_blackheart_the_inciter</a></li><li class="navelem"><a class="el" href="../../d5/dc4/structboss__blackheart__the__inciter_1_1boss__blackheart__the__inciter_a_i.html">boss_blackheart_the_inciterAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:38 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

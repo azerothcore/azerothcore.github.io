@@ -343,7 +343,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d83/class_instance_script.html#a5ab9bd10ed8736a816bfaf12c39bde59">GetBossSaveData</a> ()</td></tr>
 <tr class="separator:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa44359378462c0e0de9aad778bb67b6c" name="aa44359378462c0e0de9aad778bb67b6c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa44359378462c0e0de9aad778bb67b6c">&#9670;&#160;</a></span>instance_the_black_morass_InstanceMapScript()</h2>
 
@@ -367,7 +368,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   46</span>: <a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>(map) { }</div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -393,7 +396,35 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   63</span>        {</div>
+<div class="line"><span class="lineno">   64</span>            <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.Reset();</div>
+<div class="line"><span class="lineno">   65</span>            <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#aa994df6a0d7f6c5547ce7c9d0e643ef5">_currentRift</a> = 0;</div>
+<div class="line"><span class="lineno">   66</span>            <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a22c7095228121fb2a15e2f578caa14e2">_shieldPercent</a> = 100;</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>            <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a2bde51e9e566b6752bbc03bfe3633700">LoadGrid</a>(-2023.0f, 7121.0f);</div>
+<div class="line"><span class="lineno">   69</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* medivh = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(<a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a0c73c5030baf291873d9e2b0627f7d6e">_medivhGUID</a>))</div>
+<div class="line"><span class="lineno">   70</span>            {</div>
+<div class="line"><span class="lineno">   71</span>                medivh-&gt;DespawnOrUnsummon();</div>
+<div class="line"><span class="lineno">   72</span>                medivh-&gt;SetRespawnTime(3);</div>
+<div class="line"><span class="lineno">   73</span>            }</div>
+<div class="line"><span class="lineno">   74</span> </div>
+<div class="line"><span class="lineno">   75</span>            <a class="code hl_typedef" href="../../d9/d83/_object_guid_8h.html#a62874da4f73709809fa3c7609d3e30af">GuidSet</a> eCopy = <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ac8517d2e9925904e254343e6df387b0a">encounterNPCs</a>;</div>
+<div class="line"><span class="lineno">   76</span>            <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> <span class="keyword">const</span>&amp; guid : eCopy)</div>
+<div class="line"><span class="lineno">   77</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* creature = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(guid))</div>
+<div class="line"><span class="lineno">   78</span>                    creature-&gt;DespawnOrUnsummon();</div>
+<div class="line"><span class="lineno">   79</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a62874da4f73709809fa3c7609d3e30af"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a62874da4f73709809fa3c7609d3e30af">GuidSet</a></div><div class="ttdeci">std::set&lt; ObjectGuid &gt; GuidSet</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:255</div></div>
+<div class="ttc" id="aalterac__valley_8cpp_html_af60e00b78607064c5be6aa9397ea49c1"><div class="ttname"><a href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a></div><div class="ttdeci">Events</div><div class="ttdef"><b>Definition:</b> alterac_valley.cpp:53</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_instance_script_html_a4b84b9635742380ce5dc6e2f8d76e30b"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">InstanceScript::instance</a></div><div class="ttdeci">Map * instance</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:146</div></div>
+<div class="ttc" id="aclass_map_html_a2bde51e9e566b6752bbc03bfe3633700"><div class="ttname"><a href="../../dd/d11/class_map.html#a2bde51e9e566b6752bbc03bfe3633700">Map::LoadGrid</a></div><div class="ttdeci">void LoadGrid(float x, float y)</div><div class="ttdef"><b>Definition:</b> Map.cpp:494</div></div>
+<div class="ttc" id="aclass_map_html_a9c20f696cb8109183fbd81b13848b050"><div class="ttname"><a href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">Map::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> Map.cpp:3290</div></div>
+<div class="ttc" id="aclass_object_guid_html"><div class="ttname"><a href="../../d8/d03/class_object_guid.html">ObjectGuid</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:120</div></div>
+<div class="ttc" id="astructinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script_html_a0c73c5030baf291873d9e2b0627f7d6e"><div class="ttname"><a href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a0c73c5030baf291873d9e2b0627f7d6e">instance_the_black_morass::instance_the_black_morass_InstanceMapScript::_medivhGUID</a></div><div class="ttdeci">ObjectGuid _medivhGUID</div><div class="ttdef"><b>Definition:</b> instance_the_black_morass.cpp:50</div></div>
+<div class="ttc" id="astructinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script_html_a22c7095228121fb2a15e2f578caa14e2"><div class="ttname"><a href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a22c7095228121fb2a15e2f578caa14e2">instance_the_black_morass::instance_the_black_morass_InstanceMapScript::_shieldPercent</a></div><div class="ttdeci">uint8 _shieldPercent</div><div class="ttdef"><b>Definition:</b> instance_the_black_morass.cpp:52</div></div>
+<div class="ttc" id="astructinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script_html_aa994df6a0d7f6c5547ce7c9d0e643ef5"><div class="ttname"><a href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#aa994df6a0d7f6c5547ce7c9d0e643ef5">instance_the_black_morass::instance_the_black_morass_InstanceMapScript::_currentRift</a></div><div class="ttdeci">uint8 _currentRift</div><div class="ttdef"><b>Definition:</b> instance_the_black_morass.cpp:51</div></div>
+<div class="ttc" id="astructinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script_html_ac8517d2e9925904e254343e6df387b0a"><div class="ttname"><a href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ac8517d2e9925904e254343e6df387b0a">instance_the_black_morass::instance_the_black_morass_InstanceMapScript::encounterNPCs</a></div><div class="ttdeci">GuidSet encounterNPCs</div><div class="ttdef"><b>Definition:</b> instance_the_black_morass.cpp:48</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae8e2aa62fd1e96aef87cd4ef00d3bf5c" name="ae8e2aa62fd1e96aef87cd4ef00d3bf5c"></a>
@@ -421,7 +452,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  209</span>        {</div>
+<div class="line"><span class="lineno">  210</span>            <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><span class="lineno">  211</span>            {</div>
+<div class="line"><span class="lineno">  212</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22ad0cb96570c18ebf04d1c1c1905992c4c">TYPE_CHRONO_LORD_DEJA</a>:</div>
+<div class="line"><span class="lineno">  213</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a712e88702e26481418f60a960af60ca9">TYPE_TEMPORUS</a>:</div>
+<div class="line"><span class="lineno">  214</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a28f8a105e546672d5a191b83dab55ecf">TYPE_AEONUS</a>:</div>
+<div class="line"><span class="lineno">  215</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ab0d8f2b78a8484166c6c138677dea07a">encounters</a>[type];</div>
+<div class="line"><span class="lineno">  216</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22ac8529ab1ece7b5a5095384fb044ef078">DATA_SHIELD_PERCENT</a>:</div>
+<div class="line"><span class="lineno">  217</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a22c7095228121fb2a15e2f578caa14e2">_shieldPercent</a>;</div>
+<div class="line"><span class="lineno">  218</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a7f2aefa1e1eb05f3cb41a3c603a9c442">DATA_RIFT_NUMBER</a>:</div>
+<div class="line"><span class="lineno">  219</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#aa994df6a0d7f6c5547ce7c9d0e643ef5">_currentRift</a>;</div>
+<div class="line"><span class="lineno">  220</span>            }</div>
+<div class="line"><span class="lineno">  221</span>            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  222</span>        }</div>
+<div class="ttc" id="astructinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script_html_ab0d8f2b78a8484166c6c138677dea07a"><div class="ttname"><a href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ab0d8f2b78a8484166c6c138677dea07a">instance_the_black_morass::instance_the_black_morass_InstanceMapScript::encounters</a></div><div class="ttdeci">uint32 encounters[MAX_ENCOUNTER]</div><div class="ttdef"><b>Definition:</b> instance_the_black_morass.cpp:49</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_afb6eb4f28419b652027fad41104a6d22a28f8a105e546672d5a191b83dab55ecf"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a28f8a105e546672d5a191b83dab55ecf">TYPE_AEONUS</a></div><div class="ttdeci">@ TYPE_AEONUS</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:31</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_afb6eb4f28419b652027fad41104a6d22a712e88702e26481418f60a960af60ca9"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a712e88702e26481418f60a960af60ca9">TYPE_TEMPORUS</a></div><div class="ttdeci">@ TYPE_TEMPORUS</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:30</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_afb6eb4f28419b652027fad41104a6d22a7f2aefa1e1eb05f3cb41a3c603a9c442"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a7f2aefa1e1eb05f3cb41a3c603a9c442">DATA_RIFT_NUMBER</a></div><div class="ttdeci">@ DATA_RIFT_NUMBER</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:38</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_afb6eb4f28419b652027fad41104a6d22ac8529ab1ece7b5a5095384fb044ef078"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22ac8529ab1ece7b5a5095384fb044ef078">DATA_SHIELD_PERCENT</a></div><div class="ttdeci">@ DATA_SHIELD_PERCENT</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:37</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_afb6eb4f28419b652027fad41104a6d22ad0cb96570c18ebf04d1c1c1905992c4c"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22ad0cb96570c18ebf04d1c1c1905992c4c">TYPE_CHRONO_LORD_DEJA</a></div><div class="ttdeci">@ TYPE_CHRONO_LORD_DEJA</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a043e75baaab08edee92cbebd9cb8d670" name="a043e75baaab08edee92cbebd9cb8d670"></a>
@@ -449,7 +500,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  233</span>        {</div>
+<div class="line"><span class="lineno">  234</span>            <span class="keywordflow">if</span> (data == <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a0215f4ae99efc061f52ec79b9eb60ee0">DATA_MEDIVH</a>)</div>
+<div class="line"><span class="lineno">  235</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a0c73c5030baf291873d9e2b0627f7d6e">_medivhGUID</a>;</div>
+<div class="line"><span class="lineno">  236</span> </div>
+<div class="line"><span class="lineno">  237</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>;</div>
+<div class="line"><span class="lineno">  238</span>        }</div>
+<div class="ttc" id="aclass_object_guid_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_afb6eb4f28419b652027fad41104a6d22a0215f4ae99efc061f52ec79b9eb60ee0"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a0215f4ae99efc061f52ec79b9eb60ee0">DATA_MEDIVH</a></div><div class="ttdeci">@ DATA_MEDIVH</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:34</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a188ddbd65ae8eac2d476da99e2064431" name="a188ddbd65ae8eac2d476da99e2064431"></a>
@@ -476,7 +535,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#aa0e2d9bf4d757aad09d4773259ad8583">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  315</span>        {</div>
+<div class="line"><span class="lineno">  316</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a65ed3183971093dcebed99d1ec6d6d63">OUT_SAVE_INST_DATA</a>;</div>
+<div class="line"><span class="lineno">  317</span> </div>
+<div class="line"><span class="lineno">  318</span>            std::ostringstream saveStream;</div>
+<div class="line"><span class="lineno">  319</span>            saveStream &lt;&lt; <span class="stringliteral">&quot;B M &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ab0d8f2b78a8484166c6c138677dea07a">encounters</a>[0] &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ab0d8f2b78a8484166c6c138677dea07a">encounters</a>[1] &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ab0d8f2b78a8484166c6c138677dea07a">encounters</a>[2];</div>
+<div class="line"><span class="lineno">  320</span> </div>
+<div class="line"><span class="lineno">  321</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a3a93295e3500f757163145c03e90db3d">OUT_SAVE_INST_DATA_COMPLETE</a>;</div>
+<div class="line"><span class="lineno">  322</span>            <span class="keywordflow">return</span> saveStream.str();</div>
+<div class="line"><span class="lineno">  323</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a3a93295e3500f757163145c03e90db3d"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a3a93295e3500f757163145c03e90db3d">OUT_SAVE_INST_DATA_COMPLETE</a></div><div class="ttdeci">#define OUT_SAVE_INST_DATA_COMPLETE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:28</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a65ed3183971093dcebed99d1ec6d6d63"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a65ed3183971093dcebed99d1ec6d6d63">OUT_SAVE_INST_DATA</a></div><div class="ttdeci">#define OUT_SAVE_INST_DATA</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:27</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a95c0446b0634758b0a436c0b5a3fe277" name="a95c0446b0634758b0a436c0b5a3fe277"></a>
@@ -503,7 +573,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ae28a789e519af133bb744c796902294c">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   55</span>        {</div>
+<div class="line"><span class="lineno">   56</span>            memset(&amp;<a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ab0d8f2b78a8484166c6c138677dea07a">encounters</a>, 0, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ab0d8f2b78a8484166c6c138677dea07a">encounters</a>));</div>
+<div class="line"><span class="lineno">   57</span>            <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#aa994df6a0d7f6c5547ce7c9d0e643ef5">_currentRift</a> = 0;</div>
+<div class="line"><span class="lineno">   58</span>            <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a22c7095228121fb2a15e2f578caa14e2">_shieldPercent</a> = 100;</div>
+<div class="line"><span class="lineno">   59</span>            <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ac8517d2e9925904e254343e6df387b0a">encounterNPCs</a>.clear();</div>
+<div class="line"><span class="lineno">   60</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8f37a4932836af39a33d99022f0624a3" name="a8f37a4932836af39a33d99022f0624a3"></a>
@@ -530,7 +606,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a9753c3c71fef44fcbc33b89ff68350cd">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   82</span>        {</div>
+<div class="line"><span class="lineno">   83</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   84</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a818b899fb424a96aeb98ebd302240f7a" name="a818b899fb424a96aeb98ebd302240f7a"></a>
@@ -558,7 +637,35 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ad8be0d1c384b505f5b3fa1ab55eb1f61">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  326</span>        {</div>
+<div class="line"><span class="lineno">  327</span>            <span class="keywordflow">if</span> (!in)</div>
+<div class="line"><span class="lineno">  328</span>            {</div>
+<div class="line"><span class="lineno">  329</span>                <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a>;</div>
+<div class="line"><span class="lineno">  330</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  331</span>            }</div>
+<div class="line"><span class="lineno">  332</span> </div>
+<div class="line"><span class="lineno">  333</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#aafbf0073420e9a897ec0f243f4793a0f">OUT_LOAD_INST_DATA</a>(in);</div>
+<div class="line"><span class="lineno">  334</span> </div>
+<div class="line"><span class="lineno">  335</span>            <span class="keywordtype">char</span> dataHead1, dataHead2;</div>
+<div class="line"><span class="lineno">  336</span> </div>
+<div class="line"><span class="lineno">  337</span>            std::istringstream loadStream(in);</div>
+<div class="line"><span class="lineno">  338</span>            loadStream &gt;&gt; dataHead1 &gt;&gt; dataHead2;</div>
+<div class="line"><span class="lineno">  339</span>            <span class="keywordflow">if</span> (dataHead1 == <span class="charliteral">&#39;B&#39;</span> &amp;&amp; dataHead2 == <span class="charliteral">&#39;M&#39;</span>)</div>
+<div class="line"><span class="lineno">  340</span>            {</div>
+<div class="line"><span class="lineno">  341</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a>; ++i)</div>
+<div class="line"><span class="lineno">  342</span>                    loadStream &gt;&gt; <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ab0d8f2b78a8484166c6c138677dea07a">encounters</a>[i];</div>
+<div class="line"><span class="lineno">  343</span>            }</div>
+<div class="line"><span class="lineno">  344</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  345</span>                <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a>;</div>
+<div class="line"><span class="lineno">  346</span> </div>
+<div class="line"><span class="lineno">  347</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a490e19560f068912b0e3dbd61c689b44">OUT_LOAD_INST_DATA_COMPLETE</a>;</div>
+<div class="line"><span class="lineno">  348</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a141fd6fe34ebbd5c3ad507db42f41b4a"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA_FAIL</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:31</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a490e19560f068912b0e3dbd61c689b44"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a490e19560f068912b0e3dbd61c689b44">OUT_LOAD_INST_DATA_COMPLETE</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA_COMPLETE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:30</div></div>
+<div class="ttc" id="a_instance_script_8h_html_aafbf0073420e9a897ec0f243f4793a0f"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#aafbf0073420e9a897ec0f243f4793a0f">OUT_LOAD_INST_DATA</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA(a)</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:29</div></div>
+<div class="ttc" id="aviolet__hold_8h_html_ac6cdc058851f958e83d8104f6ed3efe2"><div class="ttname"><a href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a></div><div class="ttdeci">#define MAX_ENCOUNTER</div><div class="ttdef"><b>Definition:</b> violet_hold.h:21</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a024b2c41699ec1ee40b5adbfe355c498" name="a024b2c41699ec1ee40b5adbfe355c498"></a>
@@ -586,7 +693,50 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a07b3c70e8153dfd74edb86656bf2b254">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   97</span>        {</div>
+<div class="line"><span class="lineno">   98</span>            <span class="keywordflow">switch</span> (creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">   99</span>            {</div>
+<div class="line"><span class="lineno">  100</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea9e034e8b11eeb7b7ba07599e8a15d8fe">NPC_MEDIVH</a>:</div>
+<div class="line"><span class="lineno">  101</span>                    <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a0c73c5030baf291873d9e2b0627f7d6e">_medivhGUID</a> = creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  102</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  103</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/dcf/culling__of__stratholme_8h.html#a25a619e6b66096a4f05d048e4a96df08a43cd1ecd723247426433d4ffe659622e">NPC_TIME_RIFT</a>:</div>
+<div class="line"><span class="lineno">  104</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eafd46cf1f221e48307f134286df74e9ac">NPC_CHRONO_LORD_DEJA</a>:</div>
+<div class="line"><span class="lineno">  105</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea6b5a7917b1e5e67c45b448bd296dd0eb">NPC_INFINITE_CHRONO_LORD</a>:</div>
+<div class="line"><span class="lineno">  106</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eaaf4b8971c1948345e545bfd17d4da31a">NPC_TEMPORUS</a>:</div>
+<div class="line"><span class="lineno">  107</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea37c87e6ee5df3aebdf62475ffea1ac2c">NPC_INFINITE_TIMEREAVER</a>:</div>
+<div class="line"><span class="lineno">  108</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea0daaa0f52a80f5c29881ce2e836978cf">NPC_AEONUS</a>:</div>
+<div class="line"><span class="lineno">  109</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea4648e0cf84d79eb6796c20d36e541d59">NPC_RIFT_KEEPER_WARLOCK</a>:</div>
+<div class="line"><span class="lineno">  110</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eaf9b44c1e4fedf276a0d6f52bb375b624">NPC_RIFT_KEEPER_MAGE</a>:</div>
+<div class="line"><span class="lineno">  111</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eaa52ddeb5d5c9aae08774d698bbc642c5">NPC_RIFT_LORD</a>:</div>
+<div class="line"><span class="lineno">  112</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea7faa582e65416b38af6d70ec427448b1">NPC_RIFT_LORD_2</a>:</div>
+<div class="line"><span class="lineno">  113</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea9f06ff3ae6a44aec895f1bb2d1f8c719">NPC_INFINITE_ASSASIN</a>:</div>
+<div class="line"><span class="lineno">  114</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea22b0f60e919807ba111b9445dd25d96e">NPC_INFINITE_WHELP</a>:</div>
+<div class="line"><span class="lineno">  115</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea41f221418981c4a7db234164e569a6cf">NPC_INFINITE_CRONOMANCER</a>:</div>
+<div class="line"><span class="lineno">  116</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea12db3d9ed00d64b4815e0878a0f00d0a">NPC_INFINITE_EXECUTIONER</a>:</div>
+<div class="line"><span class="lineno">  117</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea2533a7492e31baddb65a3105286d06f0">NPC_INFINITE_VANQUISHER</a>:</div>
+<div class="line"><span class="lineno">  118</span>                    <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ac8517d2e9925904e254343e6df387b0a">encounterNPCs</a>.insert(creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  119</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  120</span>            }</div>
+<div class="line"><span class="lineno">  121</span>        }</div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aculling__of__stratholme_8h_html_a25a619e6b66096a4f05d048e4a96df08a43cd1ecd723247426433d4ffe659622e"><div class="ttname"><a href="../../d5/dcf/culling__of__stratholme_8h.html#a25a619e6b66096a4f05d048e4a96df08a43cd1ecd723247426433d4ffe659622e">NPC_TIME_RIFT</a></div><div class="ttdeci">@ NPC_TIME_RIFT</div><div class="ttdef"><b>Definition:</b> culling_of_stratholme.h:58</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a92f6fd626e1834a4cc509efc1186963ea0daaa0f52a80f5c29881ce2e836978cf"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea0daaa0f52a80f5c29881ce2e836978cf">NPC_AEONUS</a></div><div class="ttdeci">@ NPC_AEONUS</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:72</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a92f6fd626e1834a4cc509efc1186963ea12db3d9ed00d64b4815e0878a0f00d0a"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea12db3d9ed00d64b4815e0878a0f00d0a">NPC_INFINITE_EXECUTIONER</a></div><div class="ttdeci">@ NPC_INFINITE_EXECUTIONER</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:77</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a92f6fd626e1834a4cc509efc1186963ea22b0f60e919807ba111b9445dd25d96e"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea22b0f60e919807ba111b9445dd25d96e">NPC_INFINITE_WHELP</a></div><div class="ttdeci">@ NPC_INFINITE_WHELP</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:75</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a92f6fd626e1834a4cc509efc1186963ea2533a7492e31baddb65a3105286d06f0"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea2533a7492e31baddb65a3105286d06f0">NPC_INFINITE_VANQUISHER</a></div><div class="ttdeci">@ NPC_INFINITE_VANQUISHER</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:78</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a92f6fd626e1834a4cc509efc1186963ea37c87e6ee5df3aebdf62475ffea1ac2c"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea37c87e6ee5df3aebdf62475ffea1ac2c">NPC_INFINITE_TIMEREAVER</a></div><div class="ttdeci">@ NPC_INFINITE_TIMEREAVER</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:71</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a92f6fd626e1834a4cc509efc1186963ea41f221418981c4a7db234164e569a6cf"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea41f221418981c4a7db234164e569a6cf">NPC_INFINITE_CRONOMANCER</a></div><div class="ttdeci">@ NPC_INFINITE_CRONOMANCER</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:76</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a92f6fd626e1834a4cc509efc1186963ea4648e0cf84d79eb6796c20d36e541d59"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea4648e0cf84d79eb6796c20d36e541d59">NPC_RIFT_KEEPER_WARLOCK</a></div><div class="ttdeci">@ NPC_RIFT_KEEPER_WARLOCK</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:63</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a92f6fd626e1834a4cc509efc1186963ea6b5a7917b1e5e67c45b448bd296dd0eb"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea6b5a7917b1e5e67c45b448bd296dd0eb">NPC_INFINITE_CHRONO_LORD</a></div><div class="ttdeci">@ NPC_INFINITE_CHRONO_LORD</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:69</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a92f6fd626e1834a4cc509efc1186963ea7faa582e65416b38af6d70ec427448b1"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea7faa582e65416b38af6d70ec427448b1">NPC_RIFT_LORD_2</a></div><div class="ttdeci">@ NPC_RIFT_LORD_2</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:66</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a92f6fd626e1834a4cc509efc1186963ea9e034e8b11eeb7b7ba07599e8a15d8fe"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea9e034e8b11eeb7b7ba07599e8a15d8fe">NPC_MEDIVH</a></div><div class="ttdeci">@ NPC_MEDIVH</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:59</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a92f6fd626e1834a4cc509efc1186963ea9f06ff3ae6a44aec895f1bb2d1f8c719"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea9f06ff3ae6a44aec895f1bb2d1f8c719">NPC_INFINITE_ASSASIN</a></div><div class="ttdeci">@ NPC_INFINITE_ASSASIN</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:74</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a92f6fd626e1834a4cc509efc1186963eaa52ddeb5d5c9aae08774d698bbc642c5"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eaa52ddeb5d5c9aae08774d698bbc642c5">NPC_RIFT_LORD</a></div><div class="ttdeci">@ NPC_RIFT_LORD</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:65</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a92f6fd626e1834a4cc509efc1186963eaaf4b8971c1948345e545bfd17d4da31a"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eaaf4b8971c1948345e545bfd17d4da31a">NPC_TEMPORUS</a></div><div class="ttdeci">@ NPC_TEMPORUS</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:70</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a92f6fd626e1834a4cc509efc1186963eaf9b44c1e4fedf276a0d6f52bb375b624"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eaf9b44c1e4fedf276a0d6f52bb375b624">NPC_RIFT_KEEPER_MAGE</a></div><div class="ttdeci">@ NPC_RIFT_KEEPER_MAGE</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:64</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a92f6fd626e1834a4cc509efc1186963eafd46cf1f221e48307f134286df74e9ac"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eafd46cf1f221e48307f134286df74e9ac">NPC_CHRONO_LORD_DEJA</a></div><div class="ttdeci">@ NPC_CHRONO_LORD_DEJA</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:68</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af9f5df1e16ca32705fb66d39f5c2526b" name="af9f5df1e16ca32705fb66d39f5c2526b"></a>
@@ -614,7 +764,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a38f963b78b91f902c02a1cad21d131ae">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  124</span>        {</div>
+<div class="line"><span class="lineno">  125</span>            <span class="keywordflow">switch</span> (creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">  126</span>            {</div>
+<div class="line"><span class="lineno">  127</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/dcf/culling__of__stratholme_8h.html#a25a619e6b66096a4f05d048e4a96df08a43cd1ecd723247426433d4ffe659622e">NPC_TIME_RIFT</a>:</div>
+<div class="line"><span class="lineno">  128</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eafd46cf1f221e48307f134286df74e9ac">NPC_CHRONO_LORD_DEJA</a>:</div>
+<div class="line"><span class="lineno">  129</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea6b5a7917b1e5e67c45b448bd296dd0eb">NPC_INFINITE_CHRONO_LORD</a>:</div>
+<div class="line"><span class="lineno">  130</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eaaf4b8971c1948345e545bfd17d4da31a">NPC_TEMPORUS</a>:</div>
+<div class="line"><span class="lineno">  131</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea37c87e6ee5df3aebdf62475ffea1ac2c">NPC_INFINITE_TIMEREAVER</a>:</div>
+<div class="line"><span class="lineno">  132</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea0daaa0f52a80f5c29881ce2e836978cf">NPC_AEONUS</a>:</div>
+<div class="line"><span class="lineno">  133</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea4648e0cf84d79eb6796c20d36e541d59">NPC_RIFT_KEEPER_WARLOCK</a>:</div>
+<div class="line"><span class="lineno">  134</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eaf9b44c1e4fedf276a0d6f52bb375b624">NPC_RIFT_KEEPER_MAGE</a>:</div>
+<div class="line"><span class="lineno">  135</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eaa52ddeb5d5c9aae08774d698bbc642c5">NPC_RIFT_LORD</a>:</div>
+<div class="line"><span class="lineno">  136</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea7faa582e65416b38af6d70ec427448b1">NPC_RIFT_LORD_2</a>:</div>
+<div class="line"><span class="lineno">  137</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea9f06ff3ae6a44aec895f1bb2d1f8c719">NPC_INFINITE_ASSASIN</a>:</div>
+<div class="line"><span class="lineno">  138</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea22b0f60e919807ba111b9445dd25d96e">NPC_INFINITE_WHELP</a>:</div>
+<div class="line"><span class="lineno">  139</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea41f221418981c4a7db234164e569a6cf">NPC_INFINITE_CRONOMANCER</a>:</div>
+<div class="line"><span class="lineno">  140</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea12db3d9ed00d64b4815e0878a0f00d0a">NPC_INFINITE_EXECUTIONER</a>:</div>
+<div class="line"><span class="lineno">  141</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea2533a7492e31baddb65a3105286d06f0">NPC_INFINITE_VANQUISHER</a>:</div>
+<div class="line"><span class="lineno">  142</span>                    <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ac8517d2e9925904e254343e6df387b0a">encounterNPCs</a>.erase(creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  143</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  144</span>            }</div>
+<div class="line"><span class="lineno">  145</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a151c4f2b0e2210d261a29c2c5f8512c9" name="a151c4f2b0e2210d261a29c2c5f8512c9"></a>
@@ -642,7 +814,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ad87af1c183202b03307ff0694c8aa0e2">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   87</span>        {</div>
+<div class="line"><span class="lineno">   88</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#abdac644dc3c8b30989d16efe624c8894">GetPlayersCountExceptGMs</a>() &lt;= 1 &amp;&amp; <a class="code hl_function" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ae8e2aa62fd1e96aef87cd4ef00d3bf5c">GetData</a>(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a28f8a105e546672d5a191b83dab55ecf">TYPE_AEONUS</a>) != <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">   89</span>                <a class="code hl_function" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#afa6718d4aba7ed4f2cf3da1552bff6f0">CleanupInstance</a>();</div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a08a0076ecdd2fda9479edaf39dc2e758a5e83f6e25b19f47ea8f7922c5b2545b9">WORLD_STATE_BM</a>, <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#aa994df6a0d7f6c5547ce7c9d0e643ef5">_currentRift</a> &gt; 0 ? 1 : 0);</div>
+<div class="line"><span class="lineno">   92</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a08a0076ecdd2fda9479edaf39dc2e758a00f93fe2dc6dabf014f8f880575bb9f2">WORLD_STATE_BM_SHIELD</a>, <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a22c7095228121fb2a15e2f578caa14e2">_shieldPercent</a>);</div>
+<div class="line"><span class="lineno">   93</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a08a0076ecdd2fda9479edaf39dc2e758a31c03adad29f4c694bbfdab4c0d59a98">WORLD_STATE_BM_RIFT</a>, <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#aa994df6a0d7f6c5547ce7c9d0e643ef5">_currentRift</a>);</div>
+<div class="line"><span class="lineno">   94</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="aclass_map_html_abdac644dc3c8b30989d16efe624c8894"><div class="ttname"><a href="../../dd/d11/class_map.html#abdac644dc3c8b30989d16efe624c8894">Map::GetPlayersCountExceptGMs</a></div><div class="ttdeci">uint32 GetPlayersCountExceptGMs() const</div><div class="ttdef"><b>Definition:</b> Map.cpp:2729</div></div>
+<div class="ttc" id="aclass_player_html_a2a12863caf54ad9a8af56bda556d7a4b"><div class="ttname"><a href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">Player::SendUpdateWorldState</a></div><div class="ttdeci">void SendUpdateWorldState(uint32 variable, uint32 value) const</div><div class="ttdef"><b>Definition:</b> PlayerUpdates.cpp:2189</div></div>
+<div class="ttc" id="astructinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script_html_ae8e2aa62fd1e96aef87cd4ef00d3bf5c"><div class="ttname"><a href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ae8e2aa62fd1e96aef87cd4ef00d3bf5c">instance_the_black_morass::instance_the_black_morass_InstanceMapScript::GetData</a></div><div class="ttdeci">uint32 GetData(uint32 type) const override</div><div class="ttdef"><b>Definition:</b> instance_the_black_morass.cpp:208</div></div>
+<div class="ttc" id="astructinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script_html_afa6718d4aba7ed4f2cf3da1552bff6f0"><div class="ttname"><a href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#afa6718d4aba7ed4f2cf3da1552bff6f0">instance_the_black_morass::instance_the_black_morass_InstanceMapScript::CleanupInstance</a></div><div class="ttdeci">void CleanupInstance()</div><div class="ttdef"><b>Definition:</b> instance_the_black_morass.cpp:62</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a08a0076ecdd2fda9479edaf39dc2e758a00f93fe2dc6dabf014f8f880575bb9f2"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a08a0076ecdd2fda9479edaf39dc2e758a00f93fe2dc6dabf014f8f880575bb9f2">WORLD_STATE_BM_SHIELD</a></div><div class="ttdeci">@ WORLD_STATE_BM_SHIELD</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:47</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a08a0076ecdd2fda9479edaf39dc2e758a31c03adad29f4c694bbfdab4c0d59a98"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a08a0076ecdd2fda9479edaf39dc2e758a31c03adad29f4c694bbfdab4c0d59a98">WORLD_STATE_BM_RIFT</a></div><div class="ttdeci">@ WORLD_STATE_BM_RIFT</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:48</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a08a0076ecdd2fda9479edaf39dc2e758a5e83f6e25b19f47ea8f7922c5b2545b9"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a08a0076ecdd2fda9479edaf39dc2e758a5e83f6e25b19f47ea8f7922c5b2545b9">WORLD_STATE_BM</a></div><div class="ttdeci">@ WORLD_STATE_BM</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:46</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a776622a0396e593e20ebf72d03fd785e" name="a776622a0396e593e20ebf72d03fd785e"></a>
@@ -680,7 +868,83 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  148</span>        {</div>
+<div class="line"><span class="lineno">  149</span>            <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><span class="lineno">  150</span>            {</div>
+<div class="line"><span class="lineno">  151</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a28f8a105e546672d5a191b83dab55ecf">TYPE_AEONUS</a>:</div>
+<div class="line"><span class="lineno">  152</span>                    {</div>
+<div class="line"><span class="lineno">  153</span>                        <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ab0d8f2b78a8484166c6c138677dea07a">encounters</a>[type] = <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>;</div>
+<div class="line"><span class="lineno">  154</span>                        <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a99f69b7706e28b78008952ceefe09b69">SaveToDB</a>();</div>
+<div class="line"><span class="lineno">  155</span> </div>
+<div class="line"><span class="lineno">  156</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* medivh = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(<a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a0c73c5030baf291873d9e2b0627f7d6e">_medivhGUID</a>))</div>
+<div class="line"><span class="lineno">  157</span>                            medivh-&gt;AI()-&gt;DoAction(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a47ec8e0c80b260c7255274aafd89ac7d">ACTION_OUTRO</a>);</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>                        <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; players = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">  160</span>                        <span class="keywordflow">if</span> (!players.<a class="code hl_function" href="../../db/d2f/class_linked_list_head.html#a5f450b83a615d010bedc7b0c6aa18d70">IsEmpty</a>())</div>
+<div class="line"><span class="lineno">  161</span>                            <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> itr = players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); itr != players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  162</span>                                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = itr-&gt;GetSource())</div>
+<div class="line"><span class="lineno">  163</span>                                {</div>
+<div class="line"><span class="lineno">  164</span>                                    <span class="keywordflow">if</span> (player-&gt;GetQuestStatus(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a7b242f799a19891d37b493147655ef47af6a4dfb179ce196d4182612884d11479">QUEST_OPENING_PORTAL</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno">  165</span>                                        player-&gt;AreaExploredOrEventHappens(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a7b242f799a19891d37b493147655ef47af6a4dfb179ce196d4182612884d11479">QUEST_OPENING_PORTAL</a>);</div>
+<div class="line"><span class="lineno">  166</span> </div>
+<div class="line"><span class="lineno">  167</span>                                    <span class="keywordflow">if</span> (player-&gt;GetQuestStatus(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a7b242f799a19891d37b493147655ef47ae1f1c6d537d731e921ed0e71f832a9d0">QUEST_MASTER_TOUCH</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno">  168</span>                                        player-&gt;AreaExploredOrEventHappens(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a7b242f799a19891d37b493147655ef47ae1f1c6d537d731e921ed0e71f832a9d0">QUEST_MASTER_TOUCH</a>);</div>
+<div class="line"><span class="lineno">  169</span>                                }</div>
+<div class="line"><span class="lineno">  170</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  171</span>                    }</div>
+<div class="line"><span class="lineno">  172</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22ad0cb96570c18ebf04d1c1c1905992c4c">TYPE_CHRONO_LORD_DEJA</a>:</div>
+<div class="line"><span class="lineno">  173</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a712e88702e26481418f60a960af60ca9">TYPE_TEMPORUS</a>:</div>
+<div class="line"><span class="lineno">  174</span>                    <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ab0d8f2b78a8484166c6c138677dea07a">encounters</a>[type] = <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>;</div>
+<div class="line"><span class="lineno">  175</span>                    <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.RescheduleEvent(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a74a7770d97abf3309ddde6f45c5fa52a">EVENT_NEXT_PORTAL</a>, 60000);</div>
+<div class="line"><span class="lineno">  176</span>                    <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.SetPhase(1);</div>
+<div class="line"><span class="lineno">  177</span>                    <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a99f69b7706e28b78008952ceefe09b69">SaveToDB</a>();</div>
+<div class="line"><span class="lineno">  178</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  179</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22ac6ef87ef051f58b6f6793a7b0f4451b9">DATA_RIFT_KILLED</a>:</div>
+<div class="line"><span class="lineno">  180</span>                    <span class="keywordflow">if</span> (!<a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.IsInPhase(1))</div>
+<div class="line"><span class="lineno">  181</span>                        <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.RescheduleEvent(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a74a7770d97abf3309ddde6f45c5fa52a">EVENT_NEXT_PORTAL</a>, 4000);</div>
+<div class="line"><span class="lineno">  182</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  183</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a0215f4ae99efc061f52ec79b9eb60ee0">DATA_MEDIVH</a>:</div>
+<div class="line"><span class="lineno">  184</span>                    <a class="code hl_function" href="../../d8/d83/class_instance_script.html#aedd4eef2e0653d655e20fdd5343b372e">DoUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a08a0076ecdd2fda9479edaf39dc2e758a5e83f6e25b19f47ea8f7922c5b2545b9">WORLD_STATE_BM</a>, 1);</div>
+<div class="line"><span class="lineno">  185</span>                    <a class="code hl_function" href="../../d8/d83/class_instance_script.html#aedd4eef2e0653d655e20fdd5343b372e">DoUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a08a0076ecdd2fda9479edaf39dc2e758a00f93fe2dc6dabf014f8f880575bb9f2">WORLD_STATE_BM_SHIELD</a>, <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a22c7095228121fb2a15e2f578caa14e2">_shieldPercent</a>);</div>
+<div class="line"><span class="lineno">  186</span>                    <a class="code hl_function" href="../../d8/d83/class_instance_script.html#aedd4eef2e0653d655e20fdd5343b372e">DoUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a08a0076ecdd2fda9479edaf39dc2e758a31c03adad29f4c694bbfdab4c0d59a98">WORLD_STATE_BM_RIFT</a>, <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#aa994df6a0d7f6c5547ce7c9d0e643ef5">_currentRift</a>);</div>
+<div class="line"><span class="lineno">  187</span>                    <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.RescheduleEvent(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a74a7770d97abf3309ddde6f45c5fa52a">EVENT_NEXT_PORTAL</a>, 3000);</div>
+<div class="line"><span class="lineno">  188</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  189</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a4116b3890c8038f51437a4997089aa7c">DATA_DAMAGE_SHIELD</a>:</div>
+<div class="line"><span class="lineno">  190</span>                    --<a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a22c7095228121fb2a15e2f578caa14e2">_shieldPercent</a>;</div>
+<div class="line"><span class="lineno">  191</span>                    <a class="code hl_function" href="../../d8/d83/class_instance_script.html#aedd4eef2e0653d655e20fdd5343b372e">DoUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a08a0076ecdd2fda9479edaf39dc2e758a00f93fe2dc6dabf014f8f880575bb9f2">WORLD_STATE_BM_SHIELD</a>, <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a22c7095228121fb2a15e2f578caa14e2">_shieldPercent</a>);</div>
+<div class="line"><span class="lineno">  192</span>                    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a22c7095228121fb2a15e2f578caa14e2">_shieldPercent</a>)</div>
+<div class="line"><span class="lineno">  193</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* medivh = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(<a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a0c73c5030baf291873d9e2b0627f7d6e">_medivhGUID</a>))</div>
+<div class="line"><span class="lineno">  194</span>                            <span class="keywordflow">if</span> (medivh-&gt;IsAlive())</div>
+<div class="line"><span class="lineno">  195</span>                            {</div>
+<div class="line"><span class="lineno">  196</span>                                <a class="code hl_function" href="../../da/db7/class_unit.html#a413f3a85a1e57ce8c13b8870347830f5">Unit::Kill</a>(medivh, medivh);</div>
+<div class="line"><span class="lineno">  197</span> </div>
+<div class="line"><span class="lineno">  198</span>                                <span class="comment">// Xinef: delete all spawns</span></div>
+<div class="line"><span class="lineno">  199</span>                                <a class="code hl_typedef" href="../../d9/d83/_object_guid_8h.html#a62874da4f73709809fa3c7609d3e30af">GuidSet</a> eCopy = <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ac8517d2e9925904e254343e6df387b0a">encounterNPCs</a>;</div>
+<div class="line"><span class="lineno">  200</span>                                <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> <span class="keyword">const</span>&amp; guid : eCopy)</div>
+<div class="line"><span class="lineno">  201</span>                                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* creature = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(guid))</div>
+<div class="line"><span class="lineno">  202</span>                                        creature-&gt;DespawnOrUnsummon();</div>
+<div class="line"><span class="lineno">  203</span>                            }</div>
+<div class="line"><span class="lineno">  204</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  205</span>            }</div>
+<div class="line"><span class="lineno">  206</span>        }</div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="aclass_instance_script_html_a99f69b7706e28b78008952ceefe09b69"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a99f69b7706e28b78008952ceefe09b69">InstanceScript::SaveToDB</a></div><div class="ttdeci">void SaveToDB()</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:40</div></div>
+<div class="ttc" id="aclass_instance_script_html_aedd4eef2e0653d655e20fdd5343b372e"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#aedd4eef2e0653d655e20fdd5343b372e">InstanceScript::DoUpdateWorldState</a></div><div class="ttdeci">void DoUpdateWorldState(uint32 worldstateId, uint32 worldstateValue)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:418</div></div>
+<div class="ttc" id="aclass_linked_list_head_1_1_iterator_html"><div class="ttname"><a href="../../db/dfe/class_linked_list_head_1_1_iterator.html">LinkedListHead::Iterator</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:139</div></div>
+<div class="ttc" id="aclass_linked_list_head_html_a5f450b83a615d010bedc7b0c6aa18d70"><div class="ttname"><a href="../../db/d2f/class_linked_list_head.html#a5f450b83a615d010bedc7b0c6aa18d70">LinkedListHead::IsEmpty</a></div><div class="ttdeci">bool IsEmpty() const</div><div class="ttdef"><b>Definition:</b> LinkedList.h:97</div></div>
+<div class="ttc" id="aclass_map_html_ae37764185b1adf2c6438025e4fa9091a"><div class="ttname"><a href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">Map::GetPlayers</a></div><div class="ttdeci">PlayerList const &amp; GetPlayers() const</div><div class="ttdef"><b>Definition:</b> Map.h:484</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html">MapRefMgr</a></div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:26</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_a6774b551f0d64628e33594c7b486a872"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">MapRefMgr::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:36</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_af488c0096775085791b5fbc89e5851a0"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">MapRefMgr::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:37</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_html_a413f3a85a1e57ce8c13b8870347830f5"><div class="ttname"><a href="../../da/db7/class_unit.html#a413f3a85a1e57ce8c13b8870347830f5">Unit::Kill</a></div><div class="ttdeci">static void Kill(Unit *killer, Unit *victim, bool durabilityLoss=true, WeaponAttackType attackType=BASE_ATTACK, SpellInfo const *spellProto=nullptr, Spell const *spell=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:17752</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a47ec8e0c80b260c7255274aafd89ac7d"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a47ec8e0c80b260c7255274aafd89ac7d">ACTION_OUTRO</a></div><div class="ttdeci">@ ACTION_OUTRO</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:88</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a74a7770d97abf3309ddde6f45c5fa52a"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a74a7770d97abf3309ddde6f45c5fa52a">EVENT_NEXT_PORTAL</a></div><div class="ttdeci">@ EVENT_NEXT_PORTAL</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:85</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a7b242f799a19891d37b493147655ef47ae1f1c6d537d731e921ed0e71f832a9d0"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a7b242f799a19891d37b493147655ef47ae1f1c6d537d731e921ed0e71f832a9d0">QUEST_MASTER_TOUCH</a></div><div class="ttdeci">@ QUEST_MASTER_TOUCH</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:54</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a7b242f799a19891d37b493147655ef47af6a4dfb179ce196d4182612884d11479"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a7b242f799a19891d37b493147655ef47af6a4dfb179ce196d4182612884d11479">QUEST_OPENING_PORTAL</a></div><div class="ttdeci">@ QUEST_OPENING_PORTAL</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:53</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_afb6eb4f28419b652027fad41104a6d22a4116b3890c8038f51437a4997089aa7c"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a4116b3890c8038f51437a4997089aa7c">DATA_DAMAGE_SHIELD</a></div><div class="ttdeci">@ DATA_DAMAGE_SHIELD</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:36</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_afb6eb4f28419b652027fad41104a6d22ac6ef87ef051f58b6f6793a7b0f4451b9"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22ac6ef87ef051f58b6f6793a7b0f4451b9">DATA_RIFT_KILLED</a></div><div class="ttdeci">@ DATA_RIFT_KILLED</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:35</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afea12c09530a3a47ea17b5df8542b8c1" name="afea12c09530a3a47ea17b5df8542b8c1"></a>
@@ -718,7 +982,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#ac465d5e7d00a7e3b935942f1627763f4">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  225</span>        {</div>
+<div class="line"><span class="lineno">  226</span>            <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a3a56f984b74c9977c63ce05efa6142da">DATA_SUMMONED_NPC</a>)</div>
+<div class="line"><span class="lineno">  227</span>                <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ac8517d2e9925904e254343e6df387b0a">encounterNPCs</a>.insert(data);</div>
+<div class="line"><span class="lineno">  228</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a2fe587a3b1098d7eecfe38414c982bbc">DATA_DELETED_NPC</a>)</div>
+<div class="line"><span class="lineno">  229</span>                <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ac8517d2e9925904e254343e6df387b0a">encounterNPCs</a>.erase(data);</div>
+<div class="line"><span class="lineno">  230</span>        }</div>
+<div class="ttc" id="athe__black__morass_8h_html_afb6eb4f28419b652027fad41104a6d22a2fe587a3b1098d7eecfe38414c982bbc"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a2fe587a3b1098d7eecfe38414c982bbc">DATA_DELETED_NPC</a></div><div class="ttdeci">@ DATA_DELETED_NPC</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:41</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_afb6eb4f28419b652027fad41104a6d22a3a56f984b74c9977c63ce05efa6142da"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a3a56f984b74c9977c63ce05efa6142da">DATA_SUMMONED_NPC</a></div><div class="ttdeci">@ DATA_SUMMONED_NPC</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac93ddb00633f38eac43ca0094db91959" name="ac93ddb00633f38eac43ca0094db91959"></a>
@@ -743,7 +1015,72 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  241</span>        {</div>
+<div class="line"><span class="lineno">  242</span>            <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* rift = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  243</span>            <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> <span class="keyword">const</span>&amp; guid : <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ac8517d2e9925904e254343e6df387b0a">encounterNPCs</a>)</div>
+<div class="line"><span class="lineno">  244</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* summon = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(guid))</div>
+<div class="line"><span class="lineno">  245</span>                    <span class="keywordflow">if</span> (summon-&gt;GetEntry() == <a class="code hl_enumvalue" href="../../d5/dcf/culling__of__stratholme_8h.html#a25a619e6b66096a4f05d048e4a96df08a43cd1ecd723247426433d4ffe659622e">NPC_TIME_RIFT</a>)</div>
+<div class="line"><span class="lineno">  246</span>                    {</div>
+<div class="line"><span class="lineno">  247</span>                        rift = summon;</div>
+<div class="line"><span class="lineno">  248</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  249</span>                    }</div>
+<div class="line"><span class="lineno">  250</span> </div>
+<div class="line"><span class="lineno">  251</span>            <span class="keywordflow">if</span> (!rift)</div>
+<div class="line"><span class="lineno">  252</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  253</span> </div>
+<div class="line"><span class="lineno">  254</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> entry = 0;</div>
+<div class="line"><span class="lineno">  255</span>            <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#aa994df6a0d7f6c5547ce7c9d0e643ef5">_currentRift</a>)</div>
+<div class="line"><span class="lineno">  256</span>            {</div>
+<div class="line"><span class="lineno">  257</span>                <span class="keywordflow">case</span> 6:</div>
+<div class="line"><span class="lineno">  258</span>                    entry = <a class="code hl_function" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ae8e2aa62fd1e96aef87cd4ef00d3bf5c">GetData</a>(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22ad0cb96570c18ebf04d1c1c1905992c4c">TYPE_CHRONO_LORD_DEJA</a>) == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a> ? (<a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#adcbab2814bdaeba356c591bffd953cea">IsHeroic</a>() ? <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea6b5a7917b1e5e67c45b448bd296dd0eb">NPC_INFINITE_CHRONO_LORD</a> : -<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eafd46cf1f221e48307f134286df74e9ac">NPC_CHRONO_LORD_DEJA</a>) : <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eafd46cf1f221e48307f134286df74e9ac">NPC_CHRONO_LORD_DEJA</a>;</div>
+<div class="line"><span class="lineno">  259</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  260</span>                <span class="keywordflow">case</span> 12:</div>
+<div class="line"><span class="lineno">  261</span>                    entry = <a class="code hl_function" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ae8e2aa62fd1e96aef87cd4ef00d3bf5c">GetData</a>(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#afb6eb4f28419b652027fad41104a6d22a712e88702e26481418f60a960af60ca9">TYPE_TEMPORUS</a>) == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a> ? (<a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#adcbab2814bdaeba356c591bffd953cea">IsHeroic</a>() ? <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea37c87e6ee5df3aebdf62475ffea1ac2c">NPC_INFINITE_TIMEREAVER</a> : -<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eaaf4b8971c1948345e545bfd17d4da31a">NPC_TEMPORUS</a>) : <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eaaf4b8971c1948345e545bfd17d4da31a">NPC_TEMPORUS</a>;</div>
+<div class="line"><span class="lineno">  262</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  263</span>                <span class="keywordflow">case</span> 18:</div>
+<div class="line"><span class="lineno">  264</span>                    entry = <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea0daaa0f52a80f5c29881ce2e836978cf">NPC_AEONUS</a>;</div>
+<div class="line"><span class="lineno">  265</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  266</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  267</span>                    entry = <a class="code hl_function" href="../../d3/d01/_creature_a_i_impl_8h.html#a95d9a0c5ba0d54645670ba51c16ed33c">RAND</a>(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea4648e0cf84d79eb6796c20d36e541d59">NPC_RIFT_KEEPER_WARLOCK</a>, <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eaf9b44c1e4fedf276a0d6f52bb375b624">NPC_RIFT_KEEPER_MAGE</a>, <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963eaa52ddeb5d5c9aae08774d698bbc642c5">NPC_RIFT_LORD</a>, <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea7faa582e65416b38af6d70ec427448b1">NPC_RIFT_LORD_2</a>);</div>
+<div class="line"><span class="lineno">  268</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  269</span>            }</div>
+<div class="line"><span class="lineno">  270</span> </div>
+<div class="line"><span class="lineno">  271</span>            <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> pos = rift-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7342565b6b6b21ba611870ba1879ceec">GetNearPosition</a>(10.0f, 2 * M_PI * <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#af2f9363ceebb6f78067b4a146d1de9df">rand_norm</a>());</div>
+<div class="line"><span class="lineno">  272</span> </div>
+<div class="line"><span class="lineno">  273</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/d6e/class_temp_summon.html">TempSummon</a>* summon = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a308877cc402b40e6e1102349d7bed335">SummonCreature</a>(std::abs(entry), pos))</div>
+<div class="line"><span class="lineno">  274</span>            {</div>
+<div class="line"><span class="lineno">  275</span>                summon-&gt;SetTempSummonType(<a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a>);</div>
+<div class="line"><span class="lineno">  276</span>                summon-&gt;SetTimer(3 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">  277</span> </div>
+<div class="line"><span class="lineno">  278</span>                <span class="keywordflow">if</span> (entry &lt; 0)</div>
+<div class="line"><span class="lineno">  279</span>                    summon-&gt;SetLootMode(0);</div>
+<div class="line"><span class="lineno">  280</span> </div>
+<div class="line"><span class="lineno">  281</span>                <span class="keywordflow">if</span> (summon-&gt;GetEntry() != <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a92f6fd626e1834a4cc509efc1186963ea0daaa0f52a80f5c29881ce2e836978cf">NPC_AEONUS</a>)</div>
+<div class="line"><span class="lineno">  282</span>                {</div>
+<div class="line"><span class="lineno">  283</span>                    rift-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aed57e805b8792eda265a1a426fcf152a">SetGUID</a>(summon-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">  284</span>                    rift-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(summon, <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a48b455732fa8e07ae62b4a078cb794c5">SPELL_RIFT_CHANNEL</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  285</span>                }</div>
+<div class="line"><span class="lineno">  286</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  287</span>                    summon-&gt;SetReactState(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a7183e7251db222734d0d007a258d65c7">REACT_DEFENSIVE</a>);</div>
+<div class="line"><span class="lineno">  288</span>            }</div>
+<div class="line"><span class="lineno">  289</span>        }</div>
+<div class="ttc" id="a_common_8h_html_a84190f79c8167211609f67284e066c58"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></div><div class="ttdeci">constexpr auto IN_MILLISECONDS</div><div class="ttdef"><b>Definition:</b> Common.h:62</div></div>
+<div class="ttc" id="a_common_8h_html_afacf27522adfacf698390ddafc53fa30"><div class="ttname"><a href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a></div><div class="ttdeci">constexpr auto MINUTE</div><div class="ttdef"><b>Definition:</b> Common.h:56</div></div>
+<div class="ttc" id="a_creature_a_i_impl_8h_html_a95d9a0c5ba0d54645670ba51c16ed33c"><div class="ttname"><a href="../../d3/d01/_creature_a_i_impl_8h.html#a95d9a0c5ba0d54645670ba51c16ed33c">RAND</a></div><div class="ttdeci">static First const &amp; RAND(First const &amp;first, Second const &amp;second, Rest const &amp;... rest)</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:30</div></div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_CORPSE_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:47</div></div>
+<div class="ttc" id="a_random_8cpp_html_af2f9363ceebb6f78067b4a146d1de9df"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#af2f9363ceebb6f78067b4a146d1de9df">rand_norm</a></div><div class="ttdeci">double rand_norm()</div><div class="ttdef"><b>Definition:</b> Random.cpp:77</div></div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a7183e7251db222734d0d007a258d65c7"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a7183e7251db222734d0d007a258d65c7">REACT_DEFENSIVE</a></div><div class="ttdeci">@ REACT_DEFENSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1024</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_map_html_a308877cc402b40e6e1102349d7bed335"><div class="ttname"><a href="../../dd/d11/class_map.html#a308877cc402b40e6e1102349d7bed335">Map::SummonCreature</a></div><div class="ttdeci">TempSummon * SummonCreature(uint32 entry, Position const &amp;pos, SummonPropertiesEntry const *properties=nullptr, uint32 duration=0, WorldObject *summoner=nullptr, uint32 spellId=0, uint32 vehId=0)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2115</div></div>
+<div class="ttc" id="aclass_map_html_adcbab2814bdaeba356c591bffd953cea"><div class="ttname"><a href="../../dd/d11/class_map.html#adcbab2814bdaeba356c591bffd953cea">Map::IsHeroic</a></div><div class="ttdeci">bool IsHeroic() const</div><div class="ttdef"><b>Definition:</b> Map.h:451</div></div>
+<div class="ttc" id="aclass_temp_summon_html"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html">TempSummon</a></div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aed57e805b8792eda265a1a426fcf152a"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aed57e805b8792eda265a1a426fcf152a">UnitAI::SetGUID</a></div><div class="ttdeci">virtual void SetGUID(ObjectGuid, int32=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:199</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_world_object_html_a7342565b6b6b21ba611870ba1879ceec"><div class="ttname"><a href="../../db/df7/class_world_object.html#a7342565b6b6b21ba611870ba1879ceec">WorldObject::GetNearPosition</a></div><div class="ttdeci">Position GetNearPosition(float dist, float angle)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2674</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a48b455732fa8e07ae62b4a078cb794c5"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a48b455732fa8e07ae62b4a078cb794c5">SPELL_RIFT_CHANNEL</a></div><div class="ttdeci">@ SPELL_RIFT_CHANNEL</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:83</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa92607dccc1d83c0bbcfd98b6b420042" name="aa92607dccc1d83c0bbcfd98b6b420042"></a>
@@ -771,7 +1108,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ae8797bd504b9ad481dd491f4e2ee77e2">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  292</span>        {</div>
+<div class="line"><span class="lineno">  293</span>            <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  294</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">  295</span>            {</div>
+<div class="line"><span class="lineno">  296</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a74a7770d97abf3309ddde6f45c5fa52a">EVENT_NEXT_PORTAL</a>:</div>
+<div class="line"><span class="lineno">  297</span>                    ++<a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#aa994df6a0d7f6c5547ce7c9d0e643ef5">_currentRift</a>;</div>
+<div class="line"><span class="lineno">  298</span>                    <a class="code hl_function" href="../../d8/d83/class_instance_script.html#aedd4eef2e0653d655e20fdd5343b372e">DoUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a08a0076ecdd2fda9479edaf39dc2e758a31c03adad29f4c694bbfdab4c0d59a98">WORLD_STATE_BM_RIFT</a>, <a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#aa994df6a0d7f6c5547ce7c9d0e643ef5">_currentRift</a>);</div>
+<div class="line"><span class="lineno">  299</span>                    <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a5b4c682b6f79d10671e2df80fb4add86">EVENT_SUMMON_KEEPER</a>, 6000);</div>
+<div class="line"><span class="lineno">  300</span>                    <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.SetPhase(0);</div>
+<div class="line"><span class="lineno">  301</span> </div>
+<div class="line"><span class="lineno">  302</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(<a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#a0c73c5030baf291873d9e2b0627f7d6e">_medivhGUID</a>))</div>
+<div class="line"><span class="lineno">  303</span>                    {</div>
+<div class="line"><span class="lineno">  304</span>                        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> position = (<a class="code hl_variable" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#aa994df6a0d7f6c5547ce7c9d0e643ef5">_currentRift</a> - 1) % 4;</div>
+<div class="line"><span class="lineno">  305</span>                        <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a308877cc402b40e6e1102349d7bed335">SummonCreature</a>(<a class="code hl_enumvalue" href="../../d5/dcf/culling__of__stratholme_8h.html#a25a619e6b66096a4f05d048e4a96df08a43cd1ecd723247426433d4ffe659622e">NPC_TIME_RIFT</a>, <a class="code hl_variable" href="../../d0/d68/instance__the__black__morass_8cpp.html#a744b7235a198467a51550de127971bb1">PortalLocation</a>[position]);</div>
+<div class="line"><span class="lineno">  306</span>                    }</div>
+<div class="line"><span class="lineno">  307</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  308</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d48/the__black__morass_8h.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a5b4c682b6f79d10671e2df80fb4add86">EVENT_SUMMON_KEEPER</a>:</div>
+<div class="line"><span class="lineno">  309</span>                    <a class="code hl_function" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ac93ddb00633f38eac43ca0094db91959">SummonPortalKeeper</a>();</div>
+<div class="line"><span class="lineno">  310</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  311</span>            }</div>
+<div class="line"><span class="lineno">  312</span>        }</div>
+<div class="ttc" id="ainstance__the__black__morass_8cpp_html_a744b7235a198467a51550de127971bb1"><div class="ttname"><a href="../../d0/d68/instance__the__black__morass_8cpp.html#a744b7235a198467a51550de127971bb1">PortalLocation</a></div><div class="ttdeci">const Position PortalLocation[4]</div><div class="ttdef"><b>Definition:</b> instance_the_black_morass.cpp:26</div></div>
+<div class="ttc" id="astructinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script_html_ac93ddb00633f38eac43ca0094db91959"><div class="ttname"><a href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html#ac93ddb00633f38eac43ca0094db91959">instance_the_black_morass::instance_the_black_morass_InstanceMapScript::SummonPortalKeeper</a></div><div class="ttdeci">void SummonPortalKeeper()</div><div class="ttdef"><b>Definition:</b> instance_the_black_morass.cpp:240</div></div>
+<div class="ttc" id="athe__black__morass_8h_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a5b4c682b6f79d10671e2df80fb4add86"><div class="ttname"><a href="../../d5/d48/the__black__morass_8h.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a5b4c682b6f79d10671e2df80fb4add86">EVENT_SUMMON_KEEPER</a></div><div class="ttdeci">@ EVENT_SUMMON_KEEPER</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:86</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -868,7 +1229,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/CavernsOfTime/TheBlackMorass/<a class="el" href="../../d0/d68/instance__the__black__morass_8cpp.html">instance_the_black_morass.cpp</a></li>
+<li><a class="el" href="../../">instance_the_black_morass.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -876,7 +1237,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d34/classinstance__the__black__morass.html">instance_the_black_morass</a></li><li class="navelem"><a class="el" href="../../d1/d3b/structinstance__the__black__morass_1_1instance__the__black__morass___instance_map_script.html">instance_the_black_morass_InstanceMapScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

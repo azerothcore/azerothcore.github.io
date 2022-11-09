@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae9d9dd2d4937277c4595903769432cd7" name="ae9d9dd2d4937277c4595903769432cd7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae9d9dd2d4937277c4595903769432cd7">&#9670;&#160;</a></span>PrepareSpellScript()</h2>
 
@@ -343,7 +344,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  942</span>        {</div>
+<div class="line"><span class="lineno">  943</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a890d87273b164ec530e40a94a4e39741">BeforeCast</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#aa0eb707cdfb0f2fafeafd6ab32274654">SpellCastFn</a>(<a class="code hl_function" href="../../d3/da9/classspell__putricide__slime__puddle__spawn_1_1spell__putricide__slime__puddle__spawn___spell_script.html#a5d20bb804da4680ee836c6835c24737b">spell_putricide_slime_puddle_spawn_SpellScript::SelectDest</a>);</div>
+<div class="line"><span class="lineno">  944</span>        }</div>
+<div class="ttc" id="a_spell_script_8h_html_aa0eb707cdfb0f2fafeafd6ab32274654"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#aa0eb707cdfb0f2fafeafd6ab32274654">SpellCastFn</a></div><div class="ttdeci">#define SpellCastFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:324</div></div>
+<div class="ttc" id="aclass_spell_script_html_a890d87273b164ec530e40a94a4e39741"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a890d87273b164ec530e40a94a4e39741">SpellScript::BeforeCast</a></div><div class="ttdeci">HookList&lt; CastHandler &gt; BeforeCast</div><div class="ttdef"><b>Definition:</b> SpellScript.h:319</div></div>
+<div class="ttc" id="aclassspell__putricide__slime__puddle__spawn_1_1spell__putricide__slime__puddle__spawn___spell_script_html_a5d20bb804da4680ee836c6835c24737b"><div class="ttname"><a href="../../d3/da9/classspell__putricide__slime__puddle__spawn_1_1spell__putricide__slime__puddle__spawn___spell_script.html#a5d20bb804da4680ee836c6835c24737b">spell_putricide_slime_puddle_spawn::spell_putricide_slime_puddle_spawn_SpellScript::SelectDest</a></div><div class="ttdeci">void SelectDest()</div><div class="ttdef"><b>Definition:</b> boss_professor_putricide.cpp:931</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5d20bb804da4680ee836c6835c24737b" name="a5d20bb804da4680ee836c6835c24737b"></a>
@@ -368,11 +375,24 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  932</span>        {</div>
+<div class="line"><span class="lineno">  933</span>            <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a>* dest = <span class="keyword">const_cast&lt;</span><a class="code hl_class" href="../../d6/d64/class_world_location.html">WorldLocation</a>*<span class="keyword">&gt;</span>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a127150f1d3edb4f1d217884f882b015f">GetExplTargetDest</a>()))</div>
+<div class="line"><span class="lineno">  934</span>            {</div>
+<div class="line"><span class="lineno">  935</span>                <span class="keywordtype">float</span> destZ = 395.0f; <span class="comment">// random number close to ground, get exact in next call</span></div>
+<div class="line"><span class="lineno">  936</span>                <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaac0221148a65e0aec0cc92663f55c9b">UpdateGroundPositionZ</a>(dest-&gt;GetPositionX(), dest-&gt;GetPositionY(), destZ);</div>
+<div class="line"><span class="lineno">  937</span>                dest-&gt;m_positionZ = destZ;</div>
+<div class="line"><span class="lineno">  938</span>            }</div>
+<div class="line"><span class="lineno">  939</span>        }</div>
+<div class="ttc" id="aclass_spell_script_html_a127150f1d3edb4f1d217884f882b015f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a127150f1d3edb4f1d217884f882b015f">SpellScript::GetExplTargetDest</a></div><div class="ttdeci">WorldLocation const * GetExplTargetDest()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:416</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_world_location_html"><div class="ttname"><a href="../../d6/d64/class_world_location.html">WorldLocation</a></div><div class="ttdef"><b>Definition:</b> Position.h:251</div></div>
+<div class="ttc" id="aclass_world_object_html_aaac0221148a65e0aec0cc92663f55c9b"><div class="ttname"><a href="../../db/df7/class_world_object.html#aaac0221148a65e0aec0cc92663f55c9b">WorldObject::UpdateGroundPositionZ</a></div><div class="ttdeci">void UpdateGroundPositionZ(float x, float y, float &amp;z) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1530</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../d8/ddf/boss__professor__putricide_8cpp.html">boss_professor_putricide.cpp</a></li>
+<li><a class="el" href="../../">boss_professor_putricide.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -380,7 +400,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/dc2/classspell__putricide__slime__puddle__spawn.html">spell_putricide_slime_puddle_spawn</a></li><li class="navelem"><a class="el" href="../../d3/da9/classspell__putricide__slime__puddle__spawn_1_1spell__putricide__slime__puddle__spawn___spell_script.html">spell_putricide_slime_puddle_spawn_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:06 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:23 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

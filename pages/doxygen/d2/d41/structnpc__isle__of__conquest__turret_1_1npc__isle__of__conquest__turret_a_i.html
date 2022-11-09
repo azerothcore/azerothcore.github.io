@@ -394,7 +394,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0a0f24af22e4c72e843970c0d5c1ff87" name="a0a0f24af22e4c72e843970c0d5c1ff87"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a0f24af22e4c72e843970c0d5c1ff87">&#9670;&#160;</a></span>npc_isle_of_conquest_turretAI()</h2>
 
@@ -418,7 +419,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   39</span>: <a class="code hl_struct" href="../../df/d81/struct_vehicle_a_i.html">VehicleAI</a>(creature), <a class="code hl_variable" href="../../d2/d41/structnpc__isle__of__conquest__turret_1_1npc__isle__of__conquest__turret_a_i.html#aca941c070a97278c8ec27d7e6b4edede">faction</a>(0) { }</div>
+<div class="ttc" id="astruct_vehicle_a_i_html"><div class="ttname"><a href="../../df/d81/struct_vehicle_a_i.html">VehicleAI</a></div><div class="ttdef"><b>Definition:</b> CombatAI.h:99</div></div>
+<div class="ttc" id="astructnpc__isle__of__conquest__turret_1_1npc__isle__of__conquest__turret_a_i_html_aca941c070a97278c8ec27d7e6b4edede"><div class="ttname"><a href="../../d2/d41/structnpc__isle__of__conquest__turret_1_1npc__isle__of__conquest__turret_a_i.html#aca941c070a97278c8ec27d7e6b4edede">npc_isle_of_conquest_turret::npc_isle_of_conquest_turretAI::faction</a></div><div class="ttdeci">uint32 faction</div><div class="ttdef"><b>Definition:</b> isle_of_conquest.cpp:41</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -447,7 +451,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a8c0eee7b55a8cf3cd5f99cf6fa41b00b">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   45</span>        {</div>
+<div class="line"><span class="lineno">   46</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d4/daa/_battleground_i_c_8h.html#a2a3eb69ef969d155eb4b9d0eebd74d4fa6de32c01f1e625ac2fb6c71fdf89995c">NPC_KEEP_CANNON</a>)</div>
+<div class="line"><span class="lineno">   47</span>            {</div>
+<div class="line"><span class="lineno">   48</span>                <a class="code hl_variable" href="../../d2/d41/structnpc__isle__of__conquest__turret_1_1npc__isle__of__conquest__turret_a_i.html#aca941c070a97278c8ec27d7e6b4edede">faction</a> = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6727f9ef69f7cefb909dfc5db05df155">GetFaction</a>();</div>
+<div class="line"><span class="lineno">   49</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a1277512afd7e270a9d0b4acd90c17550">Respawn</a>();</div>
+<div class="line"><span class="lineno">   50</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a9446df6b2f65a4a845330ecb3904f75e">UpdateEntry</a>(<a class="code hl_enumvalue" href="../../d4/daa/_battleground_i_c_8h.html#a2a3eb69ef969d155eb4b9d0eebd74d4fa586b5e27d5a04335b0374fdbe068b788">NPC_BROKEN_KEEP_CANNON</a>, <span class="keyword">nullptr</span>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">   51</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a65ee899ca8381fb07b31ad005abd2349">RemoveVehicleKit</a>();</div>
+<div class="line"><span class="lineno">   52</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9c5739d268705d03fc40799b7c3d3239">SetNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2ab12179bddd93a8ab4889165d2be55c8e">UNIT_NPC_FLAG_SPELLCLICK</a>);</div>
+<div class="line"><span class="lineno">   53</span>            }</div>
+<div class="line"><span class="lineno">   54</span>        }</div>
+<div class="ttc" id="a_battleground_i_c_8h_html_a2a3eb69ef969d155eb4b9d0eebd74d4fa586b5e27d5a04335b0374fdbe068b788"><div class="ttname"><a href="../../d4/daa/_battleground_i_c_8h.html#a2a3eb69ef969d155eb4b9d0eebd74d4fa586b5e27d5a04335b0374fdbe068b788">NPC_BROKEN_KEEP_CANNON</a></div><div class="ttdeci">@ NPC_BROKEN_KEEP_CANNON</div><div class="ttdef"><b>Definition:</b> BattlegroundIC.h:38</div></div>
+<div class="ttc" id="a_battleground_i_c_8h_html_a2a3eb69ef969d155eb4b9d0eebd74d4fa6de32c01f1e625ac2fb6c71fdf89995c"><div class="ttname"><a href="../../d4/daa/_battleground_i_c_8h.html#a2a3eb69ef969d155eb4b9d0eebd74d4fa6de32c01f1e625ac2fb6c71fdf89995c">NPC_KEEP_CANNON</a></div><div class="ttdeci">@ NPC_KEEP_CANNON</div><div class="ttdef"><b>Definition:</b> BattlegroundIC.h:37</div></div>
+<div class="ttc" id="a_unit_8h_html_ab054baf099d873bce22a0e84ae1090e2ab12179bddd93a8ab4889165d2be55c8e"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2ab12179bddd93a8ab4889165d2be55c8e">UNIT_NPC_FLAG_SPELLCLICK</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_SPELLCLICK</div><div class="ttdef"><b>Definition:</b> Unit.h:540</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_creature_html_a1277512afd7e270a9d0b4acd90c17550"><div class="ttname"><a href="../../d1/dac/class_creature.html#a1277512afd7e270a9d0b4acd90c17550">Creature::Respawn</a></div><div class="ttdeci">void Respawn(bool force=false)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:1989</div></div>
+<div class="ttc" id="aclass_creature_html_a9446df6b2f65a4a845330ecb3904f75e"><div class="ttname"><a href="../../d1/dac/class_creature.html#a9446df6b2f65a4a845330ecb3904f75e">Creature::UpdateEntry</a></div><div class="ttdeci">bool UpdateEntry(uint32 entry, const CreatureData *data=nullptr, bool changelevel=true, bool updateAI=false)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:492</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_unit_html_a65ee899ca8381fb07b31ad005abd2349"><div class="ttname"><a href="../../da/db7/class_unit.html#a65ee899ca8381fb07b31ad005abd2349">Unit::RemoveVehicleKit</a></div><div class="ttdeci">void RemoveVehicleKit()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18759</div></div>
+<div class="ttc" id="aclass_unit_html_a6727f9ef69f7cefb909dfc5db05df155"><div class="ttname"><a href="../../da/db7/class_unit.html#a6727f9ef69f7cefb909dfc5db05df155">Unit::GetFaction</a></div><div class="ttdeci">uint32 GetFaction() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1493</div></div>
+<div class="ttc" id="aclass_unit_html_a9c5739d268705d03fc40799b7c3d3239"><div class="ttname"><a href="../../da/db7/class_unit.html#a9c5739d268705d03fc40799b7c3d3239">Unit::SetNpcFlag</a></div><div class="ttdeci">void SetNpcFlag(NPCFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1644</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afc8b8a9be6b0908fcb83af57bef7a57a" name="afc8b8a9be6b0908fcb83af57bef7a57a"></a>
@@ -485,7 +509,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a6afb39c4bf86a1e882cc80fd7ec80a8f">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   57</span>        {</div>
+<div class="line"><span class="lineno">   58</span>            <span class="keywordflow">if</span> (spellInfo-&gt;Id == <a class="code hl_enumvalue" href="../../d4/daa/_battleground_i_c_8h.html#a5bd342133be8c2137b831460acc9298ca42320915ebc38eba4b2a2862c33c4c68">SPELL_REPAIR_TURRET_DUMMY</a> &amp;&amp; <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d4/daa/_battleground_i_c_8h.html#a2a3eb69ef969d155eb4b9d0eebd74d4fa586b5e27d5a04335b0374fdbe068b788">NPC_BROKEN_KEEP_CANNON</a>)</div>
+<div class="line"><span class="lineno">   59</span>            {</div>
+<div class="line"><span class="lineno">   60</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a9446df6b2f65a4a845330ecb3904f75e">UpdateEntry</a>(<a class="code hl_enumvalue" href="../../d4/daa/_battleground_i_c_8h.html#a2a3eb69ef969d155eb4b9d0eebd74d4fa6de32c01f1e625ac2fb6c71fdf89995c">NPC_KEEP_CANNON</a>, <span class="keyword">nullptr</span>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">   61</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d41/structnpc__isle__of__conquest__turret_1_1npc__isle__of__conquest__turret_a_i.html#aca941c070a97278c8ec27d7e6b4edede">faction</a>)</div>
+<div class="line"><span class="lineno">   62</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_variable" href="../../d2/d41/structnpc__isle__of__conquest__turret_1_1npc__isle__of__conquest__turret_a_i.html#aca941c070a97278c8ec27d7e6b4edede">faction</a>);</div>
+<div class="line"><span class="lineno">   63</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa8ccfbea62971de629706f3800a09f52">CreateVehicleKit</a>(510, <a class="code hl_enumvalue" href="../../d4/daa/_battleground_i_c_8h.html#a2a3eb69ef969d155eb4b9d0eebd74d4fa6de32c01f1e625ac2fb6c71fdf89995c">NPC_KEEP_CANNON</a>);</div>
+<div class="line"><span class="lineno">   64</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a629e9a4f8c5987b034e409c9c74297b9">RemoveNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2ab12179bddd93a8ab4889165d2be55c8e">UNIT_NPC_FLAG_SPELLCLICK</a>);</div>
+<div class="line"><span class="lineno">   65</span>                <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/d4d/isle__of__conquest_8cpp.html#adaf2e7c1bbd2dc3cb5b21ae0b9e5ae7ba419dd1febeae7200574b048c68dc104c">EVENT_RESTORE_FLAG</a>, 4000);</div>
+<div class="line"><span class="lineno">   66</span>            }</div>
+<div class="line"><span class="lineno">   67</span>        }</div>
+<div class="ttc" id="a_battleground_i_c_8h_html_a5bd342133be8c2137b831460acc9298ca42320915ebc38eba4b2a2862c33c4c68"><div class="ttname"><a href="../../d4/daa/_battleground_i_c_8h.html#a5bd342133be8c2137b831460acc9298ca42320915ebc38eba4b2a2862c33c4c68">SPELL_REPAIR_TURRET_DUMMY</a></div><div class="ttdeci">@ SPELL_REPAIR_TURRET_DUMMY</div><div class="ttdef"><b>Definition:</b> BattlegroundIC.h:724</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="aclass_unit_html_a629e9a4f8c5987b034e409c9c74297b9"><div class="ttname"><a href="../../da/db7/class_unit.html#a629e9a4f8c5987b034e409c9c74297b9">Unit::RemoveNpcFlag</a></div><div class="ttdeci">void RemoveNpcFlag(NPCFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1645</div></div>
+<div class="ttc" id="aclass_unit_html_aa8ccfbea62971de629706f3800a09f52"><div class="ttname"><a href="../../da/db7/class_unit.html#aa8ccfbea62971de629706f3800a09f52">Unit::CreateVehicleKit</a></div><div class="ttdeci">bool CreateVehicleKit(uint32 id, uint32 creatureEntry)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18747</div></div>
+<div class="ttc" id="aisle__of__conquest_8cpp_html_adaf2e7c1bbd2dc3cb5b21ae0b9e5ae7ba419dd1febeae7200574b048c68dc104c"><div class="ttname"><a href="../../d8/d4d/isle__of__conquest_8cpp.html#adaf2e7c1bbd2dc3cb5b21ae0b9e5ae7ba419dd1febeae7200574b048c68dc104c">EVENT_RESTORE_FLAG</a></div><div class="ttdeci">@ EVENT_RESTORE_FLAG</div><div class="ttdef"><b>Definition:</b> isle_of_conquest.cpp:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a81c039a2a230b261967842161757b6f8" name="a81c039a2a230b261967842161757b6f8"></a>
@@ -513,7 +554,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/d81/struct_vehicle_a_i.html#aac593372592d33fa008a66c6dcec1840">VehicleAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   70</span>        {</div>
+<div class="line"><span class="lineno">   71</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">   72</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">   73</span>            {</div>
+<div class="line"><span class="lineno">   74</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/d4d/isle__of__conquest_8cpp.html#adaf2e7c1bbd2dc3cb5b21ae0b9e5ae7ba419dd1febeae7200574b048c68dc104c">EVENT_RESTORE_FLAG</a>:</div>
+<div class="line"><span class="lineno">   75</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9c5739d268705d03fc40799b7c3d3239">SetNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2ab12179bddd93a8ab4889165d2be55c8e">UNIT_NPC_FLAG_SPELLCLICK</a>);</div>
+<div class="line"><span class="lineno">   76</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   77</span>            }</div>
+<div class="line"><span class="lineno">   78</span> </div>
+<div class="line"><span class="lineno">   79</span>            <a class="code hl_function" href="../../df/d81/struct_vehicle_a_i.html#aac593372592d33fa008a66c6dcec1840">VehicleAI::UpdateAI</a>(diff);</div>
+<div class="line"><span class="lineno">   80</span>        }</div>
+<div class="ttc" id="astruct_vehicle_a_i_html_aac593372592d33fa008a66c6dcec1840"><div class="ttname"><a href="../../df/d81/struct_vehicle_a_i.html#aac593372592d33fa008a66c6dcec1840">VehicleAI::UpdateAI</a></div><div class="ttdeci">void UpdateAI(uint32 diff) override</div><div class="ttdef"><b>Definition:</b> CombatAI.cpp:265</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -546,7 +599,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d8/d4d/isle__of__conquest_8cpp.html">isle_of_conquest.cpp</a></li>
+<li><a class="el" href="../../">isle_of_conquest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -554,7 +607,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d6d/classnpc__isle__of__conquest__turret.html">npc_isle_of_conquest_turret</a></li><li class="navelem"><a class="el" href="../../d2/d41/structnpc__isle__of__conquest__turret_1_1npc__isle__of__conquest__turret_a_i.html">npc_isle_of_conquest_turretAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:51 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

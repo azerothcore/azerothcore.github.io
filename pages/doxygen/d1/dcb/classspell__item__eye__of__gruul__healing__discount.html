@@ -304,7 +304,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8a844ca9970584aa4bcbc0107e923ff5" name="a8a844ca9970584aa4bcbc0107e923ff5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8a844ca9970584aa4bcbc0107e923ff5">&#9670;&#160;</a></span>HandleProc()</h2>
 
@@ -338,7 +339,45 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1203</span>    {</div>
+<div class="line"><span class="lineno"> 1204</span>        <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">PreventDefaultAction</a>();</div>
+<div class="line"><span class="lineno"> 1205</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* unitTarget = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>())</div>
+<div class="line"><span class="lineno"> 1206</span>        {</div>
+<div class="line"><span class="lineno"> 1207</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spell_id = 0;</div>
+<div class="line"><span class="lineno"> 1208</span>            <span class="keywordflow">switch</span> (unitTarget-&gt;getClass())</div>
+<div class="line"><span class="lineno"> 1209</span>            {</div>
+<div class="line"><span class="lineno"> 1210</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a86e4e3df7a5142175aa5df522d3346cfa312316ea844ad336fad9eb5a00348636">CLASS_DRUID</a>:</div>
+<div class="line"><span class="lineno"> 1211</span>                    spell_id = <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#aee84f4a67ba9fdb3e463a3975ea8d923aa3c3045a9fe95dae08ef3a8f16453c98">SPELL_DRUID_ITEM_HEALING_TRANCE</a>;</div>
+<div class="line"><span class="lineno"> 1212</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1213</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a86e4e3df7a5142175aa5df522d3346cfaaaf23b801cec5bfa54bd93650af67128">CLASS_PALADIN</a>:</div>
+<div class="line"><span class="lineno"> 1214</span>                    spell_id = <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#aee84f4a67ba9fdb3e463a3975ea8d923ab60620f9ee854a1b11f7a659d166da38">SPELL_PALADIN_ITEM_HEALING_TRANCE</a>;</div>
+<div class="line"><span class="lineno"> 1215</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1216</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a86e4e3df7a5142175aa5df522d3346cfa59ec961e807113e366431dfb1b0d5fcc">CLASS_PRIEST</a>:</div>
+<div class="line"><span class="lineno"> 1217</span>                    spell_id = <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#aee84f4a67ba9fdb3e463a3975ea8d923afc6cdc6aa58e5609f93e57d1465799e0">SPELL_PRIEST_ITEM_HEALING_TRANCE</a>;</div>
+<div class="line"><span class="lineno"> 1218</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1219</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a86e4e3df7a5142175aa5df522d3346cfa3e5a6df9e9af2516746e51a4a03062a1">CLASS_SHAMAN</a>:</div>
+<div class="line"><span class="lineno"> 1220</span>                    spell_id = <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#aee84f4a67ba9fdb3e463a3975ea8d923a63b15fd509bec30938bc419f84dfde0a">SPELL_SHAMAN_ITEM_HEALING_TRANCE</a>;</div>
+<div class="line"><span class="lineno"> 1221</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1222</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1223</span>                    <span class="keywordflow">return</span>; <span class="comment">// ignore for non-healing classes</span></div>
+<div class="line"><span class="lineno"> 1224</span>            }</div>
+<div class="line"><span class="lineno"> 1225</span> </div>
+<div class="line"><span class="lineno"> 1226</span>            unitTarget-&gt;CastSpell(unitTarget, spell_id, <span class="keyword">true</span>, <span class="keyword">nullptr</span>, aurEff);</div>
+<div class="line"><span class="lineno"> 1227</span>        }</div>
+<div class="line"><span class="lineno"> 1228</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a86e4e3df7a5142175aa5df522d3346cfa312316ea844ad336fad9eb5a00348636"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a86e4e3df7a5142175aa5df522d3346cfa312316ea844ad336fad9eb5a00348636">CLASS_DRUID</a></div><div class="ttdeci">@ CLASS_DRUID</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:123</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a86e4e3df7a5142175aa5df522d3346cfa3e5a6df9e9af2516746e51a4a03062a1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a86e4e3df7a5142175aa5df522d3346cfa3e5a6df9e9af2516746e51a4a03062a1">CLASS_SHAMAN</a></div><div class="ttdeci">@ CLASS_SHAMAN</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:119</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a86e4e3df7a5142175aa5df522d3346cfa59ec961e807113e366431dfb1b0d5fcc"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a86e4e3df7a5142175aa5df522d3346cfa59ec961e807113e366431dfb1b0d5fcc">CLASS_PRIEST</a></div><div class="ttdeci">@ CLASS_PRIEST</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:117</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a86e4e3df7a5142175aa5df522d3346cfaaaf23b801cec5bfa54bd93650af67128"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a86e4e3df7a5142175aa5df522d3346cfaaaf23b801cec5bfa54bd93650af67128">CLASS_PALADIN</a></div><div class="ttdeci">@ CLASS_PALADIN</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:114</div></div>
+<div class="ttc" id="aclass_aura_script_html_a19e0ed231d33245849ef31acb0f2bca3"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">AuraScript::PreventDefaultAction</a></div><div class="ttdeci">void PreventDefaultAction()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:975</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_aee84f4a67ba9fdb3e463a3975ea8d923a63b15fd509bec30938bc419f84dfde0a"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#aee84f4a67ba9fdb3e463a3975ea8d923a63b15fd509bec30938bc419f84dfde0a">SPELL_SHAMAN_ITEM_HEALING_TRANCE</a></div><div class="ttdeci">@ SPELL_SHAMAN_ITEM_HEALING_TRANCE</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:1183</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_aee84f4a67ba9fdb3e463a3975ea8d923aa3c3045a9fe95dae08ef3a8f16453c98"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#aee84f4a67ba9fdb3e463a3975ea8d923aa3c3045a9fe95dae08ef3a8f16453c98">SPELL_DRUID_ITEM_HEALING_TRANCE</a></div><div class="ttdeci">@ SPELL_DRUID_ITEM_HEALING_TRANCE</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:1180</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_aee84f4a67ba9fdb3e463a3975ea8d923ab60620f9ee854a1b11f7a659d166da38"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#aee84f4a67ba9fdb3e463a3975ea8d923ab60620f9ee854a1b11f7a659d166da38">SPELL_PALADIN_ITEM_HEALING_TRANCE</a></div><div class="ttdeci">@ SPELL_PALADIN_ITEM_HEALING_TRANCE</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:1181</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_aee84f4a67ba9fdb3e463a3975ea8d923afc6cdc6aa58e5609f93e57d1465799e0"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#aee84f4a67ba9fdb3e463a3975ea8d923afc6cdc6aa58e5609f93e57d1465799e0">SPELL_PRIEST_ITEM_HEALING_TRANCE</a></div><div class="ttdeci">@ SPELL_PRIEST_ITEM_HEALING_TRANCE</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:1182</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0097e8c7603bf705115958dd5d96f6ad" name="a0097e8c7603bf705115958dd5d96f6ad"></a>
@@ -391,7 +430,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1231</span>    {</div>
+<div class="line"><span class="lineno"> 1232</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ae01a6d3f559913b72bd67a145c668457">OnEffectProc</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a477ed5ca0e8da0b293428f4596802c0b">AuraEffectProcFn</a>(<a class="code hl_function" href="../../d1/dcb/classspell__item__eye__of__gruul__healing__discount.html#a8a844ca9970584aa4bcbc0107e923ff5">spell_item_eye_of_gruul_healing_discount::HandleProc</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a3c6e04ab343a9f5ef767f8e8dd71af5b">SPELL_AURA_PROC_TRIGGER_SPELL</a>);</div>
+<div class="line"><span class="lineno"> 1233</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a3c6e04ab343a9f5ef767f8e8dd71af5b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a3c6e04ab343a9f5ef767f8e8dd71af5b">SPELL_AURA_PROC_TRIGGER_SPELL</a></div><div class="ttdeci">@ SPELL_AURA_PROC_TRIGGER_SPELL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:105</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a477ed5ca0e8da0b293428f4596802c0b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a477ed5ca0e8da0b293428f4596802c0b">AuraEffectProcFn</a></div><div class="ttdeci">#define AuraEffectProcFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:836</div></div>
+<div class="ttc" id="aclass_aura_script_html_ae01a6d3f559913b72bd67a145c668457"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ae01a6d3f559913b72bd67a145c668457">AuraScript::OnEffectProc</a></div><div class="ttdeci">HookList&lt; EffectProcHandler &gt; OnEffectProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:831</div></div>
+<div class="ttc" id="aclassspell__item__eye__of__gruul__healing__discount_html_a8a844ca9970584aa4bcbc0107e923ff5"><div class="ttname"><a href="../../d1/dcb/classspell__item__eye__of__gruul__healing__discount.html#a8a844ca9970584aa4bcbc0107e923ff5">spell_item_eye_of_gruul_healing_discount::HandleProc</a></div><div class="ttdeci">void HandleProc(AuraEffect const *aurEff, ProcEventInfo &amp;)</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:1202</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8df8750f53a7c618eb534f40fb17875e" name="a8df8750f53a7c618eb534f40fb17875e"></a>
@@ -419,11 +466,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1192</span>    {</div>
+<div class="line"><span class="lineno"> 1193</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>(</div>
+<div class="line"><span class="lineno"> 1194</span>            {</div>
+<div class="line"><span class="lineno"> 1195</span>                <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#aee84f4a67ba9fdb3e463a3975ea8d923aa3c3045a9fe95dae08ef3a8f16453c98">SPELL_DRUID_ITEM_HEALING_TRANCE</a>,</div>
+<div class="line"><span class="lineno"> 1196</span>                <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#aee84f4a67ba9fdb3e463a3975ea8d923ab60620f9ee854a1b11f7a659d166da38">SPELL_PALADIN_ITEM_HEALING_TRANCE</a>,</div>
+<div class="line"><span class="lineno"> 1197</span>                <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#aee84f4a67ba9fdb3e463a3975ea8d923afc6cdc6aa58e5609f93e57d1465799e0">SPELL_PRIEST_ITEM_HEALING_TRANCE</a>,</div>
+<div class="line"><span class="lineno"> 1198</span>                <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#aee84f4a67ba9fdb3e463a3975ea8d923a63b15fd509bec30938bc419f84dfde0a">SPELL_SHAMAN_ITEM_HEALING_TRANCE</a></div>
+<div class="line"><span class="lineno"> 1199</span>            });</div>
+<div class="line"><span class="lineno"> 1200</span>    }</div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../db/d6e/spell__item_8cpp.html">spell_item.cpp</a></li>
+<li><a class="el" href="../../">spell_item.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -431,7 +488,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/dcb/classspell__item__eye__of__gruul__healing__discount.html">spell_item_eye_of_gruul_healing_discount</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:03 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:20 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

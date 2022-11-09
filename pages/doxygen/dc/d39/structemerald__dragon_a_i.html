@@ -523,7 +523,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae80aa90ad978b8e3254a3c116bf05959" name="ae80aa90ad978b8e3254a3c116bf05959"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae80aa90ad978b8e3254a3c116bf05959">&#9670;&#160;</a></span>emerald_dragonAI()</h2>
 
@@ -547,7 +548,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   97</span>                                         : <a class="code hl_class" href="../../d7/d84/class_world_boss_a_i.html">WorldBossAI</a>(creature)</div>
+<div class="line"><span class="lineno">   98</span>    {</div>
+<div class="line"><span class="lineno">   99</span>    }</div>
+<div class="ttc" id="aclass_world_boss_a_i_html"><div class="ttname"><a href="../../d7/d84/class_world_boss_a_i.html">WorldBossAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:464</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -578,7 +583,50 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../d7/d84/class_world_boss_a_i.html#a477e7bc0bcf1ba99d64cffddbfa0c6d2">WorldBossAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../df/d3c/structboss__ysondre_1_1boss__ysondre_a_i.html#a88e3caa536a71730c757590be1bd3de1">boss_ysondre::boss_ysondreAI</a>, <a class="el" href="../../dc/d3d/structboss__emeriss_1_1boss__emeriss_a_i.html#ad3839ad4b0a930bc96154b5b0aab17fe">boss_emeriss::boss_emerissAI</a>, and <a class="el" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a89750136787d549ac4c744a0e3b9239c">boss_taerar::boss_taerarAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  122</span>    {</div>
+<div class="line"><span class="lineno">  123</span>        <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno">  124</span>        {</div>
+<div class="line"><span class="lineno">  125</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1af357cec611c81e4d0165679829923f3a">EVENT_SEEPING_FOG</a>:</div>
+<div class="line"><span class="lineno">  126</span>                <span class="comment">// Seeping Fog appears only as &quot;pairs&quot;, and only ONE pair at any given time!</span></div>
+<div class="line"><span class="lineno">  127</span>                <span class="comment">// Despawntime is 2 minutes, so reschedule it for new cast after 2 minutes + a minor &quot;random time&quot; (30 seconds at max)</span></div>
+<div class="line"><span class="lineno">  128</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a2ddc23c260c8fab8a1045665d3efb0d4ae377a9d3ee33f052c63d5070e9e14174">SPELL_SEEPING_FOG_LEFT</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  129</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a2ddc23c260c8fab8a1045665d3efb0d4a931490add8499402749c5b8af3cb84b8">SPELL_SEEPING_FOG_RIGHT</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  130</span>                <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1af357cec611c81e4d0165679829923f3a">EVENT_SEEPING_FOG</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(120000, 150000));</div>
+<div class="line"><span class="lineno">  131</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  132</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aefdf8c398ebf393607bff7d4995d2db4">EVENT_NOXIOUS_BREATH</a>:</div>
+<div class="line"><span class="lineno">  133</span>                <span class="comment">// Noxious Breath is cast on random intervals, no less than 7.5 seconds between</span></div>
+<div class="line"><span class="lineno">  134</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a2ddc23c260c8fab8a1045665d3efb0d4af23badac21c90027f01ef78852c5c3a6">SPELL_NOXIOUS_BREATH</a>);</div>
+<div class="line"><span class="lineno">  135</span>                <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aefdf8c398ebf393607bff7d4995d2db4">EVENT_NOXIOUS_BREATH</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(7500, 15000));</div>
+<div class="line"><span class="lineno">  136</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  137</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a17bfc27de87051c2b38ca746bfb1b732">EVENT_TAIL_SWEEP</a>:</div>
+<div class="line"><span class="lineno">  138</span>                <span class="comment">// Tail Sweep is cast every two seconds, no matter what goes on in front of the dragon</span></div>
+<div class="line"><span class="lineno">  139</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a2ddc23c260c8fab8a1045665d3efb0d4addcb3daa6cdc61ef04c65580e44ef823">SPELL_TAIL_SWEEP</a>);</div>
+<div class="line"><span class="lineno">  140</span>                <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a17bfc27de87051c2b38ca746bfb1b732">EVENT_TAIL_SWEEP</a>, 2000);</div>
+<div class="line"><span class="lineno">  141</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  142</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a4cb44df8d4d62eea9277246c9c117041">EVENT_SUMMON_PLAYER</a>:</div>
+<div class="line"><span class="lineno">  143</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>())</div>
+<div class="line"><span class="lineno">  144</span>                    <span class="keywordflow">if</span> (!target-&gt;IsWithinRange(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, 50.f))</div>
+<div class="line"><span class="lineno">  145</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a2ddc23c260c8fab8a1045665d3efb0d4a397012fccbcf2bdcf5ce7bd83c3c29b7">SPELL_SUMMON_PLAYER</a>);</div>
+<div class="line"><span class="lineno">  146</span>                <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a4cb44df8d4d62eea9277246c9c117041">EVENT_SUMMON_PLAYER</a>, 500ms);</div>
+<div class="line"><span class="lineno">  147</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  148</span>        }</div>
+<div class="line"><span class="lineno">  149</span>    }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a2ddc23c260c8fab8a1045665d3efb0d4a397012fccbcf2bdcf5ce7bd83c3c29b7"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a2ddc23c260c8fab8a1045665d3efb0d4a397012fccbcf2bdcf5ce7bd83c3c29b7">SPELL_SUMMON_PLAYER</a></div><div class="ttdeci">@ SPELL_SUMMON_PLAYER</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:50</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a2ddc23c260c8fab8a1045665d3efb0d4a931490add8499402749c5b8af3cb84b8"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a2ddc23c260c8fab8a1045665d3efb0d4a931490add8499402749c5b8af3cb84b8">SPELL_SEEPING_FOG_RIGHT</a></div><div class="ttdeci">@ SPELL_SEEPING_FOG_RIGHT</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:54</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a2ddc23c260c8fab8a1045665d3efb0d4addcb3daa6cdc61ef04c65580e44ef823"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a2ddc23c260c8fab8a1045665d3efb0d4addcb3daa6cdc61ef04c65580e44ef823">SPELL_TAIL_SWEEP</a></div><div class="ttdeci">@ SPELL_TAIL_SWEEP</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:49</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a2ddc23c260c8fab8a1045665d3efb0d4ae377a9d3ee33f052c63d5070e9e14174"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a2ddc23c260c8fab8a1045665d3efb0d4ae377a9d3ee33f052c63d5070e9e14174">SPELL_SEEPING_FOG_LEFT</a></div><div class="ttdeci">@ SPELL_SEEPING_FOG_LEFT</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:53</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a2ddc23c260c8fab8a1045665d3efb0d4af23badac21c90027f01ef78852c5c3a6"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a2ddc23c260c8fab8a1045665d3efb0d4af23badac21c90027f01ef78852c5c3a6">SPELL_NOXIOUS_BREATH</a></div><div class="ttdeci">@ SPELL_NOXIOUS_BREATH</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:55</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a17bfc27de87051c2b38ca746bfb1b732"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a17bfc27de87051c2b38ca746bfb1b732">EVENT_TAIL_SWEEP</a></div><div class="ttdeci">@ EVENT_TAIL_SWEEP</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:70</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a4cb44df8d4d62eea9277246c9c117041"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a4cb44df8d4d62eea9277246c9c117041">EVENT_SUMMON_PLAYER</a></div><div class="ttdeci">@ EVENT_SUMMON_PLAYER</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:71</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_af60e00b78607064c5be6aa9397ea49c1aefdf8c398ebf393607bff7d4995d2db4"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aefdf8c398ebf393607bff7d4995d2db4">EVENT_NOXIOUS_BREATH</a></div><div class="ttdeci">@ EVENT_NOXIOUS_BREATH</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:69</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_af60e00b78607064c5be6aa9397ea49c1af357cec611c81e4d0165679829923f3a"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1af357cec611c81e4d0165679829923f3a">EVENT_SEEPING_FOG</a></div><div class="ttdeci">@ EVENT_SEEPING_FOG</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:68</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4ec04284cdebfc5b594e083aa850f7cb" name="a4ec04284cdebfc5b594e083aa850f7cb"></a>
@@ -606,7 +654,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d84/class_world_boss_a_i.html#aa783665ce6e43e76a18515f511f82efb">WorldBossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  152</span>    {</div>
+<div class="line"><span class="lineno">  153</span>        <span class="keywordflow">if</span> (summon-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a5ccb77b9b084142c8427d129aa9b1c5baf5d003e615fedd9a9c581e7e7f819360">NPC_DREAM_FOG</a>)</div>
+<div class="line"><span class="lineno">  154</span>        {</div>
+<div class="line"><span class="lineno">  155</span>            summon-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aed57e805b8792eda265a1a426fcf152a">SetGUID</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>(), <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a5ccb77b9b084142c8427d129aa9b1c5ba11e79a7f7a2e327977a61cf329c38a95">GUID_DRAGON</a>);</div>
+<div class="line"><span class="lineno">  156</span>        }</div>
+<div class="line"><span class="lineno">  157</span>    }</div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a5ccb77b9b084142c8427d129aa9b1c5ba11e79a7f7a2e327977a61cf329c38a95"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a5ccb77b9b084142c8427d129aa9b1c5ba11e79a7f7a2e327977a61cf329c38a95">GUID_DRAGON</a></div><div class="ttdeci">@ GUID_DRAGON</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:39</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a5ccb77b9b084142c8427d129aa9b1c5baf5d003e615fedd9a9c581e7e7f819360"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a5ccb77b9b084142c8427d129aa9b1c5baf5d003e615fedd9a9c581e7e7f819360">NPC_DREAM_FOG</a></div><div class="ttdeci">@ NPC_DREAM_FOG</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:33</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aed57e805b8792eda265a1a426fcf152a"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aed57e805b8792eda265a1a426fcf152a">UnitAI::SetGUID</a></div><div class="ttdeci">virtual void SetGUID(ObjectGuid, int32=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:199</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a69b24bf865ecd38822d5602314cddf11" name="a69b24bf865ecd38822d5602314cddf11"></a>
@@ -636,7 +696,15 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../dc/d3d/structboss__emeriss_1_1boss__emeriss_a_i.html#ad851169bc09a362137e211dd10d30a1b">boss_emeriss::boss_emerissAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  115</span>    {</div>
+<div class="line"><span class="lineno">  116</span>        <span class="keywordflow">if</span> (who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  117</span>            who-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(who, <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a2ddc23c260c8fab8a1045665d3efb0d4a15b48ce49edb842723e40fdee9e9e151">SPELL_MARK_OF_NATURE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  118</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a2ddc23c260c8fab8a1045665d3efb0d4a15b48ce49edb842723e40fdee9e9e151"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a2ddc23c260c8fab8a1045665d3efb0d4a15b48ce49edb842723e40fdee9e9e151">SPELL_MARK_OF_NATURE</a></div><div class="ttdeci">@ SPELL_MARK_OF_NATURE</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:56</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aff24939b53a7d74b41ac9170a8a71e9c" name="aff24939b53a7d74b41ac9170a8a71e9c"></a>
@@ -665,7 +733,24 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../d7/d84/class_world_boss_a_i.html#ad19a91bf2344f531e01db07efd04c395">WorldBossAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../df/d3c/structboss__ysondre_1_1boss__ysondre_a_i.html#ac2ea95a5f8c032d7d9166d92bce51ba1">boss_ysondre::boss_ysondreAI</a>, <a class="el" href="../../d4/dd5/structboss__lethon_1_1boss__lethon_a_i.html#a0e53d139f64d104557e157a91176a47a">boss_lethon::boss_lethonAI</a>, <a class="el" href="../../dc/d3d/structboss__emeriss_1_1boss__emeriss_a_i.html#a44dfb325c4e8413662052137edc710ef">boss_emeriss::boss_emerissAI</a>, and <a class="el" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a74a53b7c4672bcba1cc4f69407c23c42">boss_taerar::boss_taerarAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  102</span>    {</div>
+<div class="line"><span class="lineno">  103</span>        <a class="code hl_function" href="../../d7/d84/class_world_boss_a_i.html#ad19a91bf2344f531e01db07efd04c395">WorldBossAI::Reset</a>();</div>
+<div class="line"><span class="lineno">  104</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a> | <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  105</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno">  106</span>        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a2ddc23c260c8fab8a1045665d3efb0d4a4596f84ec53728c8de69bd2452eedfb5">SPELL_MARK_OF_NATURE_AURA</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  107</span>        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a17bfc27de87051c2b38ca746bfb1b732">EVENT_TAIL_SWEEP</a>, 4000);</div>
+<div class="line"><span class="lineno">  108</span>        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aefdf8c398ebf393607bff7d4995d2db4">EVENT_NOXIOUS_BREATH</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(7500, 15000));</div>
+<div class="line"><span class="lineno">  109</span>        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1af357cec611c81e4d0165679829923f3a">EVENT_SEEPING_FOG</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(12500, 20000));</div>
+<div class="line"><span class="lineno">  110</span>        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a4cb44df8d4d62eea9277246c9c117041">EVENT_SUMMON_PLAYER</a>, 1s);</div>
+<div class="line"><span class="lineno">  111</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NON_ATTACKABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:449</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NOT_SELECTABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:473</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a2ddc23c260c8fab8a1045665d3efb0d4a4596f84ec53728c8de69bd2452eedfb5"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a2ddc23c260c8fab8a1045665d3efb0d4a4596f84ec53728c8de69bd2452eedfb5">SPELL_MARK_OF_NATURE_AURA</a></div><div class="ttdeci">@ SPELL_MARK_OF_NATURE_AURA</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:57</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_unit_html_af9a5a43c2d7940c38f8b101409666a0d"><div class="ttname"><a href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">Unit::RemoveUnitFlag</a></div><div class="ttdeci">void RemoveUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1480</div></div>
+<div class="ttc" id="aclass_world_boss_a_i_html_ad19a91bf2344f531e01db07efd04c395"><div class="ttname"><a href="../../d7/d84/class_world_boss_a_i.html#ad19a91bf2344f531e01db07efd04c395">WorldBossAI::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:480</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a221768f9ad3c79bbcdefd3092228e3b0" name="a221768f9ad3c79bbcdefd3092228e3b0"></a>
@@ -695,11 +780,31 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../d7/d84/class_world_boss_a_i.html#a31686947c399d780ea5220dae5e4820b">WorldBossAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a406213e6b3a1397c0026d5dc857f08a9">boss_taerar::boss_taerarAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  160</span>    {</div>
+<div class="line"><span class="lineno">  161</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  162</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  163</span> </div>
+<div class="line"><span class="lineno">  164</span>        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  165</span> </div>
+<div class="line"><span class="lineno">  166</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">  167</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  168</span> </div>
+<div class="line"><span class="lineno">  169</span>        <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventId = <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">  170</span>            <a class="code hl_function" href="../../dc/d39/structemerald__dragon_a_i.html#a6e60f146c7b86a119f269bf755831ac6">ExecuteEvent</a>(eventId);</div>
+<div class="line"><span class="lineno">  171</span> </div>
+<div class="line"><span class="lineno">  172</span>        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  173</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="astructemerald__dragon_a_i_html_a6e60f146c7b86a119f269bf755831ac6"><div class="ttname"><a href="../../dc/d39/structemerald__dragon_a_i.html#a6e60f146c7b86a119f269bf755831ac6">emerald_dragonAI::ExecuteEvent</a></div><div class="ttdeci">void ExecuteEvent(uint32 eventId) override</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d2/d8e/boss__emerald__dragons_8cpp.html">boss_emerald_dragons.cpp</a></li>
+<li><a class="el" href="../../">boss_emerald_dragons.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -707,7 +812,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d39/structemerald__dragon_a_i.html">emerald_dragonAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

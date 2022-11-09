@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/apps/worldserver/Main.cpp File Reference</title>
+<title>AzeorthCore: Main.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -110,42 +110,42 @@ $(document).ready(function(){initNavTree('db/d18/server_2apps_2worldserver_2_mai
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">Main.cpp File Reference<div class="ingroups"><a class="el" href="../../da/d06/group___acored.html">Acore Daemon</a></div></div></div>
+  <div class="headertitle"><div class="title">server/apps/worldserver/Main.cpp File Reference<div class="ingroups"><a class="el" href="../../da/d06/group___acored.html">Acore Daemon</a></div></div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d3/d47/_a_c_soap_8h_source.html">ACSoap.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/dae/_appender_d_b_8h_source.html">AppenderDB.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/de0/_async_acceptor_8h_source.html">AsyncAcceptor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/de6/_async_auction_listing_8h_source.html">AsyncAuctionListing.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d5c/_banner_8h_source.html">Banner.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/dcc/_battleground_mgr_8h_source.html">BattlegroundMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/dfa/_big_number_8h_source.html">BigNumber.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d5a/_cli_runnable_8h_source.html">CliRunnable.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d1f/_common_8h_source.html">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d71/_config_8h_source.html">Config.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/dd4/_database_env_8h_source.html">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d04/_database_loader_8h_source.html">DatabaseLoader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d45/_deadline_timer_8h_source.html">DeadlineTimer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d00/_git_revision_8h_source.html">GitRevision.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/da3/_io_context_8h_source.html">IoContext.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/dca/_map_mgr_8h_source.html">MapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/df3/_metric_8h_source.html">Metric.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d47/_module_mgr_8h_source.html">ModuleMgr.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ACSoap.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AppenderDB.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AsyncAcceptor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AsyncAuctionListing.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Banner.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BigNumber.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CliRunnable.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseLoader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DeadlineTimer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GitRevision.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">IoContext.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Metric.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ModuleMgr.h</a>&quot;</code><br />
 <code>#include &quot;ModulesScriptLoader.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d75/_my_s_q_l_threading_8h_source.html">MySQLThreading.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d3f/_open_s_s_l_crypto_8h_source.html">OpenSSLCrypto.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d5d/_outdoor_pv_p_mgr_8h_source.html">OutdoorPvPMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/dfd/_process_priority_8h_source.html">ProcessPriority.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/db1/_r_a_session_8h_source.html">RASession.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d69/_realm_list_8h_source.html">RealmList.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d2e/_resolver_8h_source.html">Resolver.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/daa/_script_loader_8h_source.html">ScriptLoader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/da7/_secret_mgr_8h_source.html">SecretMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d0b/_shared_defines_8h_source.html">SharedDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d86/_world_8h_source.html">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/dd1/_world_socket_8h_source.html">WorldSocket.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d74/_world_socket_mgr_8h_source.html">WorldSocketMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MySQLThreading.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">OpenSSLCrypto.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">OutdoorPvPMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ProcessPriority.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">RASession.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">RealmList.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Resolver.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptLoader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SecretMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSocket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSocketMgr.h</a>&quot;</code><br />
 <code>#include &lt;boost/asio/signal_set.hpp&gt;</code><br />
 <code>#include &lt;boost/program_options.hpp&gt;</code><br />
 <code>#include &lt;csignal&gt;</code><br />
@@ -153,8 +153,10 @@ $(document).ready(function(){initNavTree('db/d18/server_2apps_2worldserver_2_mai
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;openssl/crypto.h&gt;</code><br />
 <code>#include &lt;openssl/opensslv.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d86/_service_win32_8h_source.html">ServiceWin32.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<code>#include &quot;<a class="el" href="../../">ServiceWin32.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4f/class_freeze_detector.html">FreezeDetector</a></td></tr>
@@ -214,7 +216,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c8498b4bff487486cc5ffdac4c412cf7.html">apps</a></li><li class="navelem"><a class="el" href="../../dir_4a0dc471e712914507a0672b672729a4.html">worldserver</a></li><li class="navelem"><a class="el" href="../../db/d18/server_2apps_2worldserver_2_main_8cpp.html">Main.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

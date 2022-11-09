@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d4/dee/class_ip_location_store.html','
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../de/db6/_i_p_location_8h_source.html">IPLocation.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">IPLocation.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -137,7 +137,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:af7b7a5a4fc65c6af966be27f7bf7e07d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../de/d28/struct_ip_location_record.html">IpLocationRecord</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/class_ip_location_store.html#af7b7a5a4fc65c6af966be27f7bf7e07d">_ipLocationStore</a></td></tr>
 <tr class="separator:af7b7a5a4fc65c6af966be27f7bf7e07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1b3a38bbd932ae50d55ff15374aa2f37" name="a1b3a38bbd932ae50d55ff15374aa2f37"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b3a38bbd932ae50d55ff15374aa2f37">&#9670;&#160;</a></span>IpLocationStore()</h2>
 
@@ -152,7 +153,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a82360c1ce130670fde23d42135f91324" name="a82360c1ce130670fde23d42135f91324"></a>
@@ -169,7 +172,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
+<div class="line"><span class="lineno">   31</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -188,7 +193,27 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  109</span>{</div>
+<div class="line"><span class="lineno">  110</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> ip = <a class="code hl_function" href="../../d8/d0e/namespace_acore_1_1_net.html#abb8b9761e1df323f5c258c0a12da7bd4">Acore::Net::address_to_uint</a>(<a class="code hl_function" href="../../d8/d0e/namespace_acore_1_1_net.html#ab2f4b01d81930dc12b3843012d676953">Acore::Net::make_address_v4</a>(ipAddress));</div>
+<div class="line"><span class="lineno">  111</span>    <span class="keyword">auto</span> itr = std::upper_bound(<a class="code hl_variable" href="../../d4/dee/class_ip_location_store.html#af7b7a5a4fc65c6af966be27f7bf7e07d">_ipLocationStore</a>.begin(), <a class="code hl_variable" href="../../d4/dee/class_ip_location_store.html#af7b7a5a4fc65c6af966be27f7bf7e07d">_ipLocationStore</a>.end(), ip, [](<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> ip, <a class="code hl_struct" href="../../de/d28/struct_ip_location_record.html">IpLocationRecord</a> <span class="keyword">const</span>&amp; loc) { return ip &lt; loc.IpTo; });</div>
+<div class="line"><span class="lineno">  112</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d4/dee/class_ip_location_store.html#af7b7a5a4fc65c6af966be27f7bf7e07d">_ipLocationStore</a>.end())</div>
+<div class="line"><span class="lineno">  113</span>    {</div>
+<div class="line"><span class="lineno">  114</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  115</span>    }</div>
+<div class="line"><span class="lineno">  116</span> </div>
+<div class="line"><span class="lineno">  117</span>    <span class="keywordflow">if</span> (ip &lt; itr-&gt;IpFrom)</div>
+<div class="line"><span class="lineno">  118</span>    {</div>
+<div class="line"><span class="lineno">  119</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  120</span>    }</div>
+<div class="line"><span class="lineno">  121</span> </div>
+<div class="line"><span class="lineno">  122</span>    <span class="keywordflow">return</span> &amp;(*itr);</div>
+<div class="line"><span class="lineno">  123</span>}</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_ip_location_store_html_af7b7a5a4fc65c6af966be27f7bf7e07d"><div class="ttname"><a href="../../d4/dee/class_ip_location_store.html#af7b7a5a4fc65c6af966be27f7bf7e07d">IpLocationStore::_ipLocationStore</a></div><div class="ttdeci">std::vector&lt; IpLocationRecord &gt; _ipLocationStore</div><div class="ttdef"><b>Definition:</b> IPLocation.h:46</div></div>
+<div class="ttc" id="anamespace_acore_1_1_net_html_ab2f4b01d81930dc12b3843012d676953"><div class="ttname"><a href="../../d8/d0e/namespace_acore_1_1_net.html#ab2f4b01d81930dc12b3843012d676953">Acore::Net::make_address_v4</a></div><div class="ttdeci">boost::asio::ip::address_v4 make_address_v4(char const *str)</div><div class="ttdef"><b>Definition:</b> IpAddress.h:35</div></div>
+<div class="ttc" id="anamespace_acore_1_1_net_html_abb8b9761e1df323f5c258c0a12da7bd4"><div class="ttname"><a href="../../d8/d0e/namespace_acore_1_1_net.html#abb8b9761e1df323f5c258c0a12da7bd4">Acore::Net::address_to_uint</a></div><div class="ttdeci">uint32 address_to_uint(boost::asio::ip::address_v4 const &amp;address)</div><div class="ttdef"><b>Definition:</b> IpAddress.h:39</div></div>
+<div class="ttc" id="astruct_ip_location_record_html"><div class="ttname"><a href="../../de/d28/struct_ip_location_record.html">IpLocationRecord</a></div><div class="ttdef"><b>Definition:</b> IPLocation.h:23</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad740adf9b81b37cf147dc00e220b29db" name="ad740adf9b81b37cf147dc00e220b29db"></a>
@@ -213,7 +238,13 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  126</span>{</div>
+<div class="line"><span class="lineno">  127</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../d4/dee/class_ip_location_store.html">IpLocationStore</a> <a class="code hl_function" href="../../d4/dee/class_ip_location_store.html#ad740adf9b81b37cf147dc00e220b29db">instance</a>;</div>
+<div class="line"><span class="lineno">  128</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../d4/dee/class_ip_location_store.html#ad740adf9b81b37cf147dc00e220b29db">instance</a>;</div>
+<div class="line"><span class="lineno">  129</span>}</div>
+<div class="ttc" id="aclass_ip_location_store_html"><div class="ttname"><a href="../../d4/dee/class_ip_location_store.html">IpLocationStore</a></div><div class="ttdef"><b>Definition:</b> IPLocation.h:36</div></div>
+<div class="ttc" id="aclass_ip_location_store_html_ad740adf9b81b37cf147dc00e220b29db"><div class="ttname"><a href="../../d4/dee/class_ip_location_store.html#ad740adf9b81b37cf147dc00e220b29db">IpLocationStore::instance</a></div><div class="ttdeci">static IpLocationStore * instance()</div><div class="ttdef"><b>Definition:</b> IPLocation.cpp:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a411302e6bf5e5e82e5cd59e78e66bd0b" name="a411302e6bf5e5e82e5cd59e78e66bd0b"></a>
@@ -230,7 +261,84 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_variable" href="../../d4/dee/class_ip_location_store.html#af7b7a5a4fc65c6af966be27f7bf7e07d">_ipLocationStore</a>.clear();</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Loading IP Location Database...&quot;</span>);</div>
+<div class="line"><span class="lineno">   37</span> </div>
+<div class="line"><span class="lineno">   38</span>    std::string databaseFilePath = <a class="code hl_define" href="../../d4/d71/_config_8h.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;std::string&gt;(<span class="stringliteral">&quot;IPLocationFile&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">   39</span>    <span class="keywordflow">if</span> (databaseFilePath.empty())</div>
+<div class="line"><span class="lineno">   40</span>    {</div>
+<div class="line"><span class="lineno">   41</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   42</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   43</span>    }</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>    <span class="comment">// Check if file exists</span></div>
+<div class="line"><span class="lineno">   46</span>    std::ifstream databaseFile(databaseFilePath);</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">if</span> (!databaseFile)</div>
+<div class="line"><span class="lineno">   48</span>    {</div>
+<div class="line"><span class="lineno">   49</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;IPLocation: No ip database file exists ({}).&quot;</span>, databaseFilePath);</div>
+<div class="line"><span class="lineno">   50</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   51</span>    }</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>    <span class="keywordflow">if</span> (!databaseFile.is_open())</div>
+<div class="line"><span class="lineno">   54</span>    {</div>
+<div class="line"><span class="lineno">   55</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;IPLocation: Ip database file ({}) can not be opened.&quot;</span>, databaseFilePath);</div>
+<div class="line"><span class="lineno">   56</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   57</span>    }</div>
+<div class="line"><span class="lineno">   58</span> </div>
+<div class="line"><span class="lineno">   59</span>    std::string ipFrom;</div>
+<div class="line"><span class="lineno">   60</span>    std::string ipTo;</div>
+<div class="line"><span class="lineno">   61</span>    std::string countryCode;</div>
+<div class="line"><span class="lineno">   62</span>    std::string countryName;</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>    <span class="keywordflow">while</span> (databaseFile.good())</div>
+<div class="line"><span class="lineno">   65</span>    {</div>
+<div class="line"><span class="lineno">   66</span>        <span class="comment">// Read lines</span></div>
+<div class="line"><span class="lineno">   67</span>        <span class="keywordflow">if</span> (!std::getline(databaseFile, ipFrom, <span class="charliteral">&#39;,&#39;</span>))</div>
+<div class="line"><span class="lineno">   68</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   69</span>        <span class="keywordflow">if</span> (!std::getline(databaseFile, ipTo, <span class="charliteral">&#39;,&#39;</span>))</div>
+<div class="line"><span class="lineno">   70</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   71</span>        <span class="keywordflow">if</span> (!std::getline(databaseFile, countryCode, <span class="charliteral">&#39;,&#39;</span>))</div>
+<div class="line"><span class="lineno">   72</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   73</span>        <span class="keywordflow">if</span> (!std::getline(databaseFile, countryName, <span class="charliteral">&#39;\n&#39;</span>))</div>
+<div class="line"><span class="lineno">   74</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>        <span class="comment">// Remove new lines and return</span></div>
+<div class="line"><span class="lineno">   77</span>        countryName.erase(std::remove(countryName.begin(), countryName.end(), <span class="charliteral">&#39;\r&#39;</span>), countryName.end());</div>
+<div class="line"><span class="lineno">   78</span>        countryName.erase(std::remove(countryName.begin(), countryName.end(), <span class="charliteral">&#39;\n&#39;</span>), countryName.end());</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>        <span class="comment">// Remove quotation marks</span></div>
+<div class="line"><span class="lineno">   81</span>        ipFrom.erase(std::remove(ipFrom.begin(), ipFrom.end(), <span class="charliteral">&#39;&quot;&#39;</span>), ipFrom.end());</div>
+<div class="line"><span class="lineno">   82</span>        ipTo.erase(std::remove(ipTo.begin(), ipTo.end(), <span class="charliteral">&#39;&quot;&#39;</span>), ipTo.end());</div>
+<div class="line"><span class="lineno">   83</span>        countryCode.erase(std::remove(countryCode.begin(), countryCode.end(), <span class="charliteral">&#39;&quot;&#39;</span>), countryCode.end());</div>
+<div class="line"><span class="lineno">   84</span>        countryName.erase(std::remove(countryName.begin(), countryName.end(), <span class="charliteral">&#39;&quot;&#39;</span>), countryName.end());</div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>        <span class="comment">// Convert country code to lowercase</span></div>
+<div class="line"><span class="lineno">   87</span>        std::transform(countryCode.begin(), countryCode.end(), countryCode.begin(), ::tolower);</div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>        <span class="keyword">auto</span> IpFrom = Acore::StringTo&lt;uint32&gt;(ipFrom);</div>
+<div class="line"><span class="lineno">   90</span>        <span class="keyword">auto</span> IpTo = Acore::StringTo&lt;uint32&gt;(ipTo);</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>        <span class="keywordflow">if</span> (!IpFrom || !IpTo)</div>
+<div class="line"><span class="lineno">   93</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   94</span> </div>
+<div class="line"><span class="lineno">   95</span>        <a class="code hl_variable" href="../../d4/dee/class_ip_location_store.html#af7b7a5a4fc65c6af966be27f7bf7e07d">_ipLocationStore</a>.emplace_back(*IpFrom, *IpTo, std::move(countryCode), std::move(countryName));</div>
+<div class="line"><span class="lineno">   96</span>    }</div>
+<div class="line"><span class="lineno">   97</span> </div>
+<div class="line"><span class="lineno">   98</span>    std::sort(<a class="code hl_variable" href="../../d4/dee/class_ip_location_store.html#af7b7a5a4fc65c6af966be27f7bf7e07d">_ipLocationStore</a>.begin(), <a class="code hl_variable" href="../../d4/dee/class_ip_location_store.html#af7b7a5a4fc65c6af966be27f7bf7e07d">_ipLocationStore</a>.end(), [](<a class="code hl_struct" href="../../de/d28/struct_ip_location_record.html">IpLocationRecord</a> <span class="keyword">const</span>&amp; a, <a class="code hl_struct" href="../../de/d28/struct_ip_location_record.html">IpLocationRecord</a> <span class="keyword">const</span>&amp; b) { return a.IpFrom &lt; b.IpFrom; });</div>
+<div class="line"><span class="lineno">   99</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(std::is_sorted(<a class="code hl_variable" href="../../d4/dee/class_ip_location_store.html#af7b7a5a4fc65c6af966be27f7bf7e07d">_ipLocationStore</a>.begin(), <a class="code hl_variable" href="../../d4/dee/class_ip_location_store.html#af7b7a5a4fc65c6af966be27f7bf7e07d">_ipLocationStore</a>.end(), [](<a class="code hl_struct" href="../../de/d28/struct_ip_location_record.html">IpLocationRecord</a> <span class="keyword">const</span>&amp; a, <a class="code hl_struct" href="../../de/d28/struct_ip_location_record.html">IpLocationRecord</a> <span class="keyword">const</span>&amp; b) { return a.IpFrom &lt; b.IpTo; }),</div>
+<div class="line"><span class="lineno">  100</span>        <span class="stringliteral">&quot;Overlapping IP ranges detected in database file&quot;</span>);</div>
+<div class="line"><span class="lineno">  101</span> </div>
+<div class="line"><span class="lineno">  102</span>    databaseFile.close();</div>
+<div class="line"><span class="lineno">  103</span> </div>
+<div class="line"><span class="lineno">  104</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} ip location entries.&quot;</span>, <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a><span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../d4/dee/class_ip_location_store.html#af7b7a5a4fc65c6af966be27f7bf7e07d">_ipLocationStore</a>.size()));</div>
+<div class="line"><span class="lineno">  105</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  106</span>}</div>
+<div class="ttc" id="a_config_8h_html_a7236988e98bdd405bf435a029b70a26f"><div class="ttname"><a href="../../d4/d71/_config_8h.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a></div><div class="ttdeci">#define sConfigMgr</div><div class="ttdef"><b>Definition:</b> Config.h:92</div></div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="a_log_8h_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:167</div></div>
+<div class="ttc" id="a_log_8h_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -257,8 +365,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/common/IPLocation/<a class="el" href="../../de/db6/_i_p_location_8h_source.html">IPLocation.h</a></li>
-<li>D:/azerothcore-wotlk/src/common/IPLocation/<a class="el" href="../../d3/d8b/_i_p_location_8cpp.html">IPLocation.cpp</a></li>
+<li><a class="el" href="../../">IPLocation.h</a></li>
+<li><a class="el" href="../../">IPLocation.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -266,7 +374,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/dee/class_ip_location_store.html">IpLocationStore</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -154,7 +154,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1dfd7eb69ae515a59887c313001e4a4e" name="a1dfd7eb69ae515a59887c313001e4a4e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1dfd7eb69ae515a59887c313001e4a4e">&#9670;&#160;</a></span>at_commander_dawnforge()</h2>
 
@@ -177,7 +178,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1586</span>: <a class="code hl_class" href="../../d5/d6d/class_area_trigger_script.html">AreaTriggerScript</a>(<span class="stringliteral">&quot;at_commander_dawnforge&quot;</span>) { }</div>
+<div class="ttc" id="aclass_area_trigger_script_html"><div class="ttname"><a href="../../d5/d6d/class_area_trigger_script.html">AreaTriggerScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:800</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -216,11 +219,39 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/d6d/class_area_trigger_script.html#abb6cdada718e9fad7da98fbb667c6d53">AreaTriggerScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1589</span>    {</div>
+<div class="line"><span class="lineno"> 1590</span>        <span class="comment">//if player lost aura or not have at all, we should not try start event.</span></div>
+<div class="line"><span class="lineno"> 1591</span>        <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../dd/dd3/zone__netherstorm_8cpp.html#a470431f2b6d3fc2e926e101095179ffaaec35af0de8c856a359d85fff1c277290">SPELL_SUNFURY_DISGUISE</a>))</div>
+<div class="line"><span class="lineno"> 1592</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1593</span> </div>
+<div class="line"><span class="lineno"> 1594</span>        <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() &amp;&amp; player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../dd/dd3/zone__netherstorm_8cpp.html#a470431f2b6d3fc2e926e101095179ffaa0ee8f5f004065795c5f8caf9e789dcab">QUEST_INFO_GATHERING</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno"> 1595</span>        {</div>
+<div class="line"><span class="lineno"> 1596</span>            <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* Dawnforge = player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_struct" href="../../db/dcb/struct_acore_1_1_chat_commands_1_1_variant.html">CreatureEntry</a>[1], 30.0f);</div>
+<div class="line"><span class="lineno"> 1597</span>            <span class="keywordflow">if</span> (!Dawnforge)</div>
+<div class="line"><span class="lineno"> 1598</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1599</span> </div>
+<div class="line"><span class="lineno"> 1600</span>            <span class="keywordflow">if</span> (<a class="code hl_define" href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a>(<a class="code hl_struct" href="../../d1/d78/structnpc__commander__dawnforge_1_1npc__commander__dawnforge_a_i.html">npc_commander_dawnforge::npc_commander_dawnforgeAI</a>, Dawnforge-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>())-&gt;CanStartEvent(player))</div>
+<div class="line"><span class="lineno"> 1601</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1602</span>        }</div>
+<div class="line"><span class="lineno"> 1603</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1604</span>    }</div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="a_scripted_creature_8h_html_a0476b18cfebeb691aabb4344ec4f8af3"><div class="ttname"><a href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a></div><div class="ttdeci">#define CAST_AI(a, b)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:27</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="astruct_acore_1_1_chat_commands_1_1_variant_html"><div class="ttname"><a href="../../db/dcb/struct_acore_1_1_chat_commands_1_1_variant.html">Acore::ChatCommands::Variant</a></div><div class="ttdef"><b>Definition:</b> ChatCommandTags.h:258</div></div>
+<div class="ttc" id="astructnpc__commander__dawnforge_1_1npc__commander__dawnforge_a_i_html"><div class="ttname"><a href="../../d1/d78/structnpc__commander__dawnforge_1_1npc__commander__dawnforge_a_i.html">npc_commander_dawnforge::npc_commander_dawnforgeAI</a></div><div class="ttdef"><b>Definition:</b> zone_netherstorm.cpp:1361</div></div>
+<div class="ttc" id="azone__netherstorm_8cpp_html_a470431f2b6d3fc2e926e101095179ffaa0ee8f5f004065795c5f8caf9e789dcab"><div class="ttname"><a href="../../dd/dd3/zone__netherstorm_8cpp.html#a470431f2b6d3fc2e926e101095179ffaa0ee8f5f004065795c5f8caf9e789dcab">QUEST_INFO_GATHERING</a></div><div class="ttdeci">@ QUEST_INFO_GATHERING</div><div class="ttdef"><b>Definition:</b> zone_netherstorm.cpp:1338</div></div>
+<div class="ttc" id="azone__netherstorm_8cpp_html_a470431f2b6d3fc2e926e101095179ffaaec35af0de8c856a359d85fff1c277290"><div class="ttname"><a href="../../dd/dd3/zone__netherstorm_8cpp.html#a470431f2b6d3fc2e926e101095179ffaaec35af0de8c856a359d85fff1c277290">SPELL_SUNFURY_DISGUISE</a></div><div class="ttdeci">@ SPELL_SUNFURY_DISGUISE</div><div class="ttdef"><b>Definition:</b> zone_netherstorm.cpp:1339</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/<a class="el" href="../../dd/dd3/zone__netherstorm_8cpp.html">zone_netherstorm.cpp</a></li>
+<li><a class="el" href="../../">zone_netherstorm.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -228,7 +259,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/db4/classat__commander__dawnforge.html">at_commander_dawnforge</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:37 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

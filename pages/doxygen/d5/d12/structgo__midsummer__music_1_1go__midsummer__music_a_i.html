@@ -190,7 +190,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a22a51a980875ccae8a285d7804967747 inherit pro_attribs_class_game_object_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dd1/class_game_object.html">GameObject</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a></td></tr>
 <tr class="separator:a22a51a980875ccae8a285d7804967747 inherit pro_attribs_class_game_object_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8cbadc16a9588c469ff48dbaf51ac71c" name="a8cbadc16a9588c469ff48dbaf51ac71c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8cbadc16a9588c469ff48dbaf51ac71c">&#9670;&#160;</a></span>go_midsummer_musicAI()</h2>
 
@@ -214,7 +215,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  807</span>                                             : <a class="code hl_class" href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a>(go)</div>
+<div class="line"><span class="lineno">  808</span>        {</div>
+<div class="line"><span class="lineno">  809</span>            <a class="code hl_variable" href="../../d5/d12/structgo__midsummer__music_1_1go__midsummer__music_a_i.html#a31e45a754930cdc3206fe2b7f754d234">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#adc61da6c657a244735b14c8dea5f8b22a48b8c7eb34fb1be4c3ce19bf76d46bcc">EVENT_MM_START_MUSIC</a>, 1000);</div>
+<div class="line"><span class="lineno">  810</span>        }</div>
+<div class="ttc" id="aclass_event_map_html_a5e6081bda8828001c0ed8677b2aecd65"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">EventMap::ScheduleEvent</a></div><div class="ttdeci">void ScheduleEvent(uint32 eventId, uint32 time, uint32 group=0, uint32 phase=0)</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:56</div></div>
+<div class="ttc" id="aclass_game_object_a_i_html"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a></div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:33</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_adc61da6c657a244735b14c8dea5f8b22a48b8c7eb34fb1be4c3ce19bf76d46bcc"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#adc61da6c657a244735b14c8dea5f8b22a48b8c7eb34fb1be4c3ce19bf76d46bcc">EVENT_MM_START_MUSIC</a></div><div class="ttdeci">@ EVENT_MM_START_MUSIC</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:797</div></div>
+<div class="ttc" id="astructgo__midsummer__music_1_1go__midsummer__music_a_i_html_a31e45a754930cdc3206fe2b7f754d234"><div class="ttname"><a href="../../d5/d12/structgo__midsummer__music_1_1go__midsummer__music_a_i.html#a31e45a754930cdc3206fe2b7f754d234">go_midsummer_music::go_midsummer_musicAI::_events</a></div><div class="ttdeci">EventMap _events</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:849</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -243,7 +252,57 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/db8/class_game_object_a_i.html#aa9b59a4ec7d95a0702689fad902d956a">GameObjectAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  813</span>        {</div>
+<div class="line"><span class="lineno">  814</span>            <a class="code hl_variable" href="../../d5/d12/structgo__midsummer__music_1_1go__midsummer__music_a_i.html#a31e45a754930cdc3206fe2b7f754d234">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">Update</a>(diff);</div>
+<div class="line"><span class="lineno">  815</span>            <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventId = <a class="code hl_variable" href="../../d5/d12/structgo__midsummer__music_1_1go__midsummer__music_a_i.html#a31e45a754930cdc3206fe2b7f754d234">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">ExecuteEvent</a>())</div>
+<div class="line"><span class="lineno">  816</span>            {</div>
+<div class="line"><span class="lineno">  817</span>                <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno">  818</span>                {</div>
+<div class="line"><span class="lineno">  819</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#adc61da6c657a244735b14c8dea5f8b22a48b8c7eb34fb1be4c3ce19bf76d46bcc">EVENT_MM_START_MUSIC</a>:</div>
+<div class="line"><span class="lineno">  820</span>                        {</div>
+<div class="line"><span class="lineno">  821</span>                            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../dc/df4/_game_event_mgr_8cpp.html#a429db26781d2673aa2f031fc1327ffaf">IsHolidayActive</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ad279224fea61f9754572051fc5ff1faba12e81c747c303ff1176b9169ee2e1a00">HOLIDAY_FIRE_FESTIVAL</a>))</div>
+<div class="line"><span class="lineno">  822</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  823</span> </div>
+<div class="line"><span class="lineno">  824</span>                            std::list&lt;Player*&gt; targets;</div>
+<div class="line"><span class="lineno">  825</span>                            <a class="code hl_class" href="../../d2/de1/class_acore_1_1_any_player_in_object_range_check.html">Acore::AnyPlayerInObjectRangeCheck</a> check(<a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>, <a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#abc340e4279a3a719bf5e14ed332b722f">GetVisibilityRange</a>(), <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  826</span>                            <a class="code hl_struct" href="../../d2/d11/struct_acore_1_1_player_list_searcher_with_shared_vision.html">Acore::PlayerListSearcherWithSharedVision&lt;Acore::AnyPlayerInObjectRangeCheck&gt;</a> searcher(<a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>, targets, check);</div>
+<div class="line"><span class="lineno">  827</span>                            <a class="code hl_function" href="../../dc/d9f/struct_cell.html#a952f2c6008bbbc3b9ee1652ea5f9188a">Cell::VisitWorldObjects</a>(<a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>, searcher, <a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#abc340e4279a3a719bf5e14ed332b722f">GetVisibilityRange</a>());</div>
+<div class="line"><span class="lineno">  828</span>                            <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player : targets)</div>
+<div class="line"><span class="lineno">  829</span>                            {</div>
+<div class="line"><span class="lineno">  830</span>                                <span class="keywordflow">if</span> (player-&gt;GetTeamId() == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a>)</div>
+<div class="line"><span class="lineno">  831</span>                                {</div>
+<div class="line"><span class="lineno">  832</span>                                    <a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a74efe8ac3ff27491fec956625749178c">PlayDirectMusic</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#afb6224fffef0ad81bb5368a9a386f3fca65bfe4ffff93d1df9a6fdfcb6e760f0c">EVENTMIDSUMMERFIREFESTIVAL_H</a>, player);</div>
+<div class="line"><span class="lineno">  833</span>                                }</div>
+<div class="line"><span class="lineno">  834</span>                                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  835</span>                                {</div>
+<div class="line"><span class="lineno">  836</span>                                    <a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a74efe8ac3ff27491fec956625749178c">PlayDirectMusic</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#afb6224fffef0ad81bb5368a9a386f3fca51957276e00d01081d2a598d1055985b">EVENTMIDSUMMERFIREFESTIVAL_A</a>, player);</div>
+<div class="line"><span class="lineno">  837</span>                                }</div>
+<div class="line"><span class="lineno">  838</span>                            }</div>
+<div class="line"><span class="lineno">  839</span> </div>
+<div class="line"><span class="lineno">  840</span>                            <a class="code hl_variable" href="../../d5/d12/structgo__midsummer__music_1_1go__midsummer__music_a_i.html#a31e45a754930cdc3206fe2b7f754d234">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#adc61da6c657a244735b14c8dea5f8b22a48b8c7eb34fb1be4c3ce19bf76d46bcc">EVENT_MM_START_MUSIC</a>, 5000); <span class="comment">// Every 5 second&#39;s SMSG_PLAY_MUSIC packet (PlayDirectMusic) is pushed to the client (sniffed value)</span></div>
+<div class="line"><span class="lineno">  841</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  842</span>                        }</div>
+<div class="line"><span class="lineno">  843</span>                    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  844</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  845</span>                }</div>
+<div class="line"><span class="lineno">  846</span>            }</div>
+<div class="line"><span class="lineno">  847</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_game_event_mgr_8cpp_html_a429db26781d2673aa2f031fc1327ffaf"><div class="ttname"><a href="../../dc/df4/_game_event_mgr_8cpp.html#a429db26781d2673aa2f031fc1327ffaf">IsHolidayActive</a></div><div class="ttdeci">bool IsHolidayActive(HolidayIds id)</div><div class="ttdef"><b>Definition:</b> GameEventMgr.cpp:1910</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a></div><div class="ttdeci">@ TEAM_HORDE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:733</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ad279224fea61f9754572051fc5ff1faba12e81c747c303ff1176b9169ee2e1a00"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ad279224fea61f9754572051fc5ff1faba12e81c747c303ff1176b9169ee2e1a00">HOLIDAY_FIRE_FESTIVAL</a></div><div class="ttdeci">@ HOLIDAY_FIRE_FESTIVAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:2728</div></div>
+<div class="ttc" id="aclass_acore_1_1_any_player_in_object_range_check_html"><div class="ttname"><a href="../../d2/de1/class_acore_1_1_any_player_in_object_range_check.html">Acore::AnyPlayerInObjectRangeCheck</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1353</div></div>
+<div class="ttc" id="aclass_event_map_html_a07764662d7571ae0e1c44203d189ba44"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">EventMap::ExecuteEvent</a></div><div class="ttdeci">uint32 ExecuteEvent()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:114</div></div>
+<div class="ttc" id="aclass_event_map_html_a33ba1058edd639c98258ba3e123ac2f9"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">EventMap::Update</a></div><div class="ttdeci">void Update(uint32 time)</div><div class="ttdef"><b>Definition:</b> EventMap.h:54</div></div>
+<div class="ttc" id="aclass_game_object_a_i_html_a22a51a980875ccae8a285d7804967747"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">GameObjectAI::me</a></div><div class="ttdeci">GameObject *const me</div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:35</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_world_object_html_a74efe8ac3ff27491fec956625749178c"><div class="ttname"><a href="../../db/df7/class_world_object.html#a74efe8ac3ff27491fec956625749178c">WorldObject::PlayDirectMusic</a></div><div class="ttdeci">void PlayDirectMusic(uint32 music_id, Player *target=nullptr)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2844</div></div>
+<div class="ttc" id="aclass_world_object_html_abc340e4279a3a719bf5e14ed332b722f"><div class="ttname"><a href="../../db/df7/class_world_object.html#abc340e4279a3a719bf5e14ed332b722f">WorldObject::GetVisibilityRange</a></div><div class="ttdeci">float GetVisibilityRange() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1645</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_afb6224fffef0ad81bb5368a9a386f3fca51957276e00d01081d2a598d1055985b"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#afb6224fffef0ad81bb5368a9a386f3fca51957276e00d01081d2a598d1055985b">EVENTMIDSUMMERFIREFESTIVAL_A</a></div><div class="ttdeci">@ EVENTMIDSUMMERFIREFESTIVAL_A</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:791</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_afb6224fffef0ad81bb5368a9a386f3fca65bfe4ffff93d1df9a6fdfcb6e760f0c"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#afb6224fffef0ad81bb5368a9a386f3fca65bfe4ffff93d1df9a6fdfcb6e760f0c">EVENTMIDSUMMERFIREFESTIVAL_H</a></div><div class="ttdeci">@ EVENTMIDSUMMERFIREFESTIVAL_H</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:792</div></div>
+<div class="ttc" id="astruct_acore_1_1_player_list_searcher_with_shared_vision_html"><div class="ttname"><a href="../../d2/d11/struct_acore_1_1_player_list_searcher_with_shared_vision.html">Acore::PlayerListSearcherWithSharedVision</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:538</div></div>
+<div class="ttc" id="astruct_cell_html_a952f2c6008bbbc3b9ee1652ea5f9188a"><div class="ttname"><a href="../../dc/d9f/struct_cell.html#a952f2c6008bbbc3b9ee1652ea5f9188a">Cell::VisitWorldObjects</a></div><div class="ttdeci">static void VisitWorldObjects(WorldObject const *obj, T &amp;visitor, float radius, bool dont_load=true)</div><div class="ttdef"><b>Definition:</b> CellImpl.h:193</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -270,7 +329,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d6/d0c/go__scripts_8cpp.html">go_scripts.cpp</a></li>
+<li><a class="el" href="../../">go_scripts.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -278,7 +337,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/dd3/classgo__midsummer__music.html">go_midsummer_music</a></li><li class="navelem"><a class="el" href="../../d5/d12/structgo__midsummer__music_1_1go__midsummer__music_a_i.html">go_midsummer_musicAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

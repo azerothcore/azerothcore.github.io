@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('da/dba/struct_acore_1_1_player_worker.
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">GridNotifiers.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -132,7 +132,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae09b42f770e895b1c283ea7ca7527b7a"><td class="memItemLeft" align="right" valign="top">Do &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dba/struct_acore_1_1_player_worker.html#ae09b42f770e895b1c283ea7ca7527b7a">i_do</a></td></tr>
 <tr class="separator:ae09b42f770e895b1c283ea7ca7527b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class Do&gt;<br />
+struct Acore::PlayerWorker&lt; Do &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac7c16ec87b533b7b58b768cac116d7a2" name="ac7c16ec87b533b7b58b768cac116d7a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac7c16ec87b533b7b58b768cac116d7a2">&#9670;&#160;</a></span>PlayerWorker()</h2>
 
@@ -168,7 +170,10 @@ template&lt;class Do &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  575</span>            : <a class="code hl_variable" href="../../da/dba/struct_acore_1_1_player_worker.html#aa23944bde7aa8e3a77f33b0a93f92c57">i_phaseMask</a>(searcher-&gt;GetPhaseMask()), <a class="code hl_variable" href="../../da/dba/struct_acore_1_1_player_worker.html#ae09b42f770e895b1c283ea7ca7527b7a">i_do</a>(_do) {}</div>
+<div class="ttc" id="astruct_acore_1_1_player_worker_html_aa23944bde7aa8e3a77f33b0a93f92c57"><div class="ttname"><a href="../../da/dba/struct_acore_1_1_player_worker.html#aa23944bde7aa8e3a77f33b0a93f92c57">Acore::PlayerWorker::i_phaseMask</a></div><div class="ttdeci">uint32 i_phaseMask</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:571</div></div>
+<div class="ttc" id="astruct_acore_1_1_player_worker_html_ae09b42f770e895b1c283ea7ca7527b7a"><div class="ttname"><a href="../../da/dba/struct_acore_1_1_player_worker.html#ae09b42f770e895b1c283ea7ca7527b7a">Acore::PlayerWorker::i_do</a></div><div class="ttdeci">Do &amp; i_do</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:572</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -199,7 +204,8 @@ template&lt;class NOT_INTERESTED &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  584</span>{}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a19c56b5bde9e57ea0152a89ac05e292b" name="a19c56b5bde9e57ea0152a89ac05e292b"></a>
@@ -227,7 +233,15 @@ template&lt;class Do &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  578</span>        {</div>
+<div class="line"><span class="lineno">  579</span>            <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">PlayerMapType::iterator</a> itr = m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); itr != m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  580</span>                <span class="keywordflow">if</span> (itr-&gt;GetSource()-&gt;InSamePhase(<a class="code hl_variable" href="../../da/dba/struct_acore_1_1_player_worker.html#aa23944bde7aa8e3a77f33b0a93f92c57">i_phaseMask</a>))</div>
+<div class="line"><span class="lineno">  581</span>                    <a class="code hl_variable" href="../../da/dba/struct_acore_1_1_player_worker.html#ae09b42f770e895b1c283ea7ca7527b7a">i_do</a>(itr-&gt;GetSource());</div>
+<div class="line"><span class="lineno">  582</span>        }</div>
+<div class="ttc" id="aclass_grid_ref_mgr_html_a1e4e67ba11ac8da077942a6581647bf3"><div class="ttname"><a href="../../d6/d85/class_grid_ref_mgr.html#a1e4e67ba11ac8da077942a6581647bf3">GridRefMgr::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> GridRefMgr.h:35</div></div>
+<div class="ttc" id="aclass_grid_ref_mgr_html_a266acb421cfc6ccc56dc2acff3202971"><div class="ttname"><a href="../../d6/d85/class_grid_ref_mgr.html#a266acb421cfc6ccc56dc2acff3202971">GridRefMgr::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> GridRefMgr.h:36</div></div>
+<div class="ttc" id="aclass_linked_list_head_1_1_iterator_html"><div class="ttname"><a href="../../db/dfe/class_linked_list_head_1_1_iterator.html">LinkedListHead::Iterator</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:139</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -264,7 +278,7 @@ template&lt;class Do &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/Notifiers/<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a></li>
+<li><a class="el" href="../../">GridNotifiers.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -272,7 +286,7 @@ template&lt;class Do &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../da/dba/struct_acore_1_1_player_worker.html">PlayerWorker</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

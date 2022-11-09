@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('db/d16/struct_regular_grid2_d_1_1_cell
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d7/d0c/_regular_grid_8h_source.html">RegularGrid.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">RegularGrid.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -135,7 +135,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af3d5ae020727d58286ef7725958063a9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/struct_regular_grid2_d_1_1_cell.html#af3d5ae020727d58286ef7725958063a9">y</a></td></tr>
 <tr class="separator:af3d5ae020727d58286ef7725958063a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T, class Node, class NodeCreatorFunc = NodeCreator&lt;Node&gt;, class PositionFunc = PositionTrait&lt;T&gt;&gt;<br />
+struct RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell</div></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a32a8b5ab15a28fb06672fcf62ac63d1e" name="a32a8b5ab15a28fb06672fcf62ac63d1e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a32a8b5ab15a28fb06672fcf62ac63d1e">&#9670;&#160;</a></span>ComputeCell()</h2>
 
@@ -171,7 +173,14 @@ template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  152</span>        {</div>
+<div class="line"><span class="lineno">  153</span>            <a class="code hl_struct" href="../../dc/d9f/struct_cell.html">Cell</a> c = { int(fx * (1.f / <a class="code hl_define" href="../../d7/d0c/_regular_grid_8h.html#a7a4127f14f16563da90eb3c836bc404f">CELL_SIZE</a>) + (<a class="code hl_enumvalue" href="../../d1/dea/class_regular_grid2_d.html#a81322b12079e0e46cd2d62a402d1feb2ac99125975cf608fa0b0ec9671758bb60">CELL_NUMBER</a> / 2)), int(fy * (1.f / <a class="code hl_define" href="../../d7/d0c/_regular_grid_8h.html#a7a4127f14f16563da90eb3c836bc404f">CELL_SIZE</a>) + (<a class="code hl_enumvalue" href="../../d1/dea/class_regular_grid2_d.html#a81322b12079e0e46cd2d62a402d1feb2ac99125975cf608fa0b0ec9671758bb60">CELL_NUMBER</a> / 2)) };</div>
+<div class="line"><span class="lineno">  154</span>            <span class="keywordflow">return</span> c;</div>
+<div class="line"><span class="lineno">  155</span>        }</div>
+<div class="ttc" id="a_regular_grid_8h_html_a7a4127f14f16563da90eb3c836bc404f"><div class="ttname"><a href="../../d7/d0c/_regular_grid_8h.html#a7a4127f14f16563da90eb3c836bc404f">CELL_SIZE</a></div><div class="ttdeci">#define CELL_SIZE</div><div class="ttdef"><b>Definition:</b> RegularGrid.h:53</div></div>
+<div class="ttc" id="aclass_regular_grid2_d_html_a81322b12079e0e46cd2d62a402d1feb2ac99125975cf608fa0b0ec9671758bb60"><div class="ttname"><a href="../../d1/dea/class_regular_grid2_d.html#a81322b12079e0e46cd2d62a402d1feb2ac99125975cf608fa0b0ec9671758bb60">RegularGrid2D::CELL_NUMBER</a></div><div class="ttdeci">@ CELL_NUMBER</div><div class="ttdef"><b>Definition:</b> RegularGrid.h:49</div></div>
+<div class="ttc" id="astruct_cell_html"><div class="ttname"><a href="../../dc/d9f/struct_cell.html">Cell</a></div><div class="ttdef"><b>Definition:</b> Cell.h:46</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afe64d87e738675f1c8cb0fa6d440029c" name="afe64d87e738675f1c8cb0fa6d440029c"></a>
@@ -198,7 +207,10 @@ template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  157</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d16/struct_regular_grid2_d_1_1_cell.html#a8435f7d7b8f529dfe397ada59e3405a1">x</a> &gt;= 0 &amp;&amp; x &lt; CELL_NUMBER &amp;&amp; y &gt;= 0 &amp;&amp; <a class="code hl_variable" href="../../db/d16/struct_regular_grid2_d_1_1_cell.html#af3d5ae020727d58286ef7725958063a9">y</a> &lt; <a class="code hl_enumvalue" href="../../d1/dea/class_regular_grid2_d.html#a81322b12079e0e46cd2d62a402d1feb2ac99125975cf608fa0b0ec9671758bb60">CELL_NUMBER</a>;}</div>
+<div class="ttc" id="astruct_regular_grid2_d_1_1_cell_html_a8435f7d7b8f529dfe397ada59e3405a1"><div class="ttname"><a href="../../db/d16/struct_regular_grid2_d_1_1_cell.html#a8435f7d7b8f529dfe397ada59e3405a1">RegularGrid2D::Cell::x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> RegularGrid.h:148</div></div>
+<div class="ttc" id="astruct_regular_grid2_d_1_1_cell_html_af3d5ae020727d58286ef7725958063a9"><div class="ttname"><a href="../../db/d16/struct_regular_grid2_d_1_1_cell.html#af3d5ae020727d58286ef7725958063a9">RegularGrid2D::Cell::y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> RegularGrid.h:148</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a13e8b2fcda561f185777e4d8b48da3f5" name="a13e8b2fcda561f185777e4d8b48da3f5"></a>
@@ -226,7 +238,8 @@ template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  149</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d16/struct_regular_grid2_d_1_1_cell.html#a8435f7d7b8f529dfe397ada59e3405a1">x</a> == c2.x &amp;&amp; <a class="code hl_variable" href="../../db/d16/struct_regular_grid2_d_1_1_cell.html#af3d5ae020727d58286ef7725958063a9">y</a> == c2.y;}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -263,7 +276,7 @@ template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Collision/<a class="el" href="../../d7/d0c/_regular_grid_8h_source.html">RegularGrid.h</a></li>
+<li><a class="el" href="../../">RegularGrid.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -271,7 +284,7 @@ template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/dea/class_regular_grid2_d.html">RegularGrid2D</a></li><li class="navelem"><a class="el" href="../../db/d16/struct_regular_grid2_d_1_1_cell.html">Cell</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

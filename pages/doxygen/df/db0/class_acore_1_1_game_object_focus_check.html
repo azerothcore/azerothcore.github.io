@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('df/db0/class_acore_1_1_game_object_foc
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">GridNotifiers.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -129,7 +129,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ace009546c2dcc6dac5de98b3c34152a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db0/class_acore_1_1_game_object_focus_check.html#ace009546c2dcc6dac5de98b3c34152a5">i_focusId</a></td></tr>
 <tr class="separator:ace009546c2dcc6dac5de98b3c34152a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a06607ffa0ebf51c230f4584632a7444a" name="a06607ffa0ebf51c230f4584632a7444a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a06607ffa0ebf51c230f4584632a7444a">&#9670;&#160;</a></span>GameObjectFocusCheck()</h2>
 
@@ -163,7 +164,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  656</span>: <a class="code hl_variable" href="../../df/db0/class_acore_1_1_game_object_focus_check.html#a0afc07e086f5aa3301c2b46a0004213e">i_unit</a>(unit), <a class="code hl_variable" href="../../df/db0/class_acore_1_1_game_object_focus_check.html#ace009546c2dcc6dac5de98b3c34152a5">i_focusId</a>(focusId) {}</div>
+<div class="ttc" id="aclass_acore_1_1_game_object_focus_check_html_a0afc07e086f5aa3301c2b46a0004213e"><div class="ttname"><a href="../../df/db0/class_acore_1_1_game_object_focus_check.html#a0afc07e086f5aa3301c2b46a0004213e">Acore::GameObjectFocusCheck::i_unit</a></div><div class="ttdeci">Unit const  * i_unit</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:673</div></div>
+<div class="ttc" id="aclass_acore_1_1_game_object_focus_check_html_ace009546c2dcc6dac5de98b3c34152a5"><div class="ttname"><a href="../../df/db0/class_acore_1_1_game_object_focus_check.html#ace009546c2dcc6dac5de98b3c34152a5">Acore::GameObjectFocusCheck::i_focusId</a></div><div class="ttdeci">uint32 i_focusId</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:674</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -190,7 +194,29 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  658</span>        {</div>
+<div class="line"><span class="lineno">  659</span>            <span class="keywordflow">if</span> (go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GetGOInfo</a>()-&gt;<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a> != <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a19da3e0d6d3baeb2f62b2f2fc8b35405">GAMEOBJECT_TYPE_SPELL_FOCUS</a>)</div>
+<div class="line"><span class="lineno">  660</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  661</span> </div>
+<div class="line"><span class="lineno">  662</span>            <span class="keywordflow">if</span> (!go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a462386b3457bdd1da4821cd6e6f9c64c">isSpawned</a>()) <span class="comment">// xinef: dont allow to count deactivated objects</span></div>
+<div class="line"><span class="lineno">  663</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  664</span> </div>
+<div class="line"><span class="lineno">  665</span>            <span class="keywordflow">if</span> (go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GetGOInfo</a>()-&gt;<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aec31578eda76d19b6a4a0131027e5af0">spellFocus</a>.<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aba1538c08713a616500b51650896cd5b">focusId</a> != <a class="code hl_variable" href="../../df/db0/class_acore_1_1_game_object_focus_check.html#ace009546c2dcc6dac5de98b3c34152a5">i_focusId</a>)</div>
+<div class="line"><span class="lineno">  666</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  667</span> </div>
+<div class="line"><span class="lineno">  668</span>            <span class="keywordtype">float</span> dist = (float)((go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GetGOInfo</a>()-&gt;<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aec31578eda76d19b6a4a0131027e5af0">spellFocus</a>.<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a0ac32f94eef325076f8c17868af2559e">dist</a>) / 2);</div>
+<div class="line"><span class="lineno">  669</span> </div>
+<div class="line"><span class="lineno">  670</span>            <span class="keywordflow">return</span> go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a0e472403802c7a862e22c769ef4f8378">IsWithinDistInMap</a>(<a class="code hl_variable" href="../../df/db0/class_acore_1_1_game_object_focus_check.html#a0afc07e086f5aa3301c2b46a0004213e">i_unit</a>, dist);</div>
+<div class="line"><span class="lineno">  671</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a19da3e0d6d3baeb2f62b2f2fc8b35405"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a19da3e0d6d3baeb2f62b2f2fc8b35405">GAMEOBJECT_TYPE_SPELL_FOCUS</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_SPELL_FOCUS</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1540</div></div>
+<div class="ttc" id="aclass_game_object_html_a0e472403802c7a862e22c769ef4f8378"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a0e472403802c7a862e22c769ef4f8378">GameObject::IsWithinDistInMap</a></div><div class="ttdeci">bool IsWithinDistInMap(Player const *player) const</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:3022</div></div>
+<div class="ttc" id="aclass_game_object_html_a1415b5cb9b3b3f4f6691584c5b6d7324"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GameObject::GetGOInfo</a></div><div class="ttdeci">GameObjectTemplate const * GetGOInfo() const</div><div class="ttdef"><b>Definition:</b> GameObject.h:829</div></div>
+<div class="ttc" id="aclass_game_object_html_a462386b3457bdd1da4821cd6e6f9c64c"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a462386b3457bdd1da4821cd6e6f9c64c">GameObject::isSpawned</a></div><div class="ttdeci">bool isSpawned() const</div><div class="ttdef"><b>Definition:</b> GameObject.h:882</div></div>
+<div class="ttc" id="astruct_game_object_template_html_a0ac32f94eef325076f8c17868af2559e"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a0ac32f94eef325076f8c17868af2559e">GameObjectTemplate::dist</a></div><div class="ttdeci">uint32 dist</div><div class="ttdef"><b>Definition:</b> GameObject.h:153</div></div>
+<div class="ttc" id="astruct_game_object_template_html_a1c78664b7272010dac83e9f4ea132330"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">GameObjectTemplate::type</a></div><div class="ttdeci">uint32 type</div><div class="ttdef"><b>Definition:</b> GameObject.h:43</div></div>
+<div class="ttc" id="astruct_game_object_template_html_aba1538c08713a616500b51650896cd5b"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#aba1538c08713a616500b51650896cd5b">GameObjectTemplate::focusId</a></div><div class="ttdeci">uint32 focusId</div><div class="ttdef"><b>Definition:</b> GameObject.h:152</div></div>
+<div class="ttc" id="astruct_game_object_template_html_aec31578eda76d19b6a4a0131027e5af0"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#aec31578eda76d19b6a4a0131027e5af0">GameObjectTemplate::spellFocus</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@218 spellFocus</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -239,7 +265,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/Notifiers/<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a></li>
+<li><a class="el" href="../../">GridNotifiers.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -247,7 +273,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../df/db0/class_acore_1_1_game_object_focus_check.html">GameObjectFocusCheck</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

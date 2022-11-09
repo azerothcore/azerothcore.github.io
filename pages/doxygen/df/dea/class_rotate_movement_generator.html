@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('df/dea/class_rotate_movement_generator
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/d65/_idle_movement_generator_8h_source.html">IdleMovementGenerator.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">IdleMovementGenerator.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for RotateMovementGenerator:</div>
 <div class="dyncontent">
@@ -171,7 +171,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a8717e890670d9f4e2ff66c0981d14aa6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dea/_motion_master_8h.html#a1978c8aa3f81d04079c45fe56aa51233">RotateDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dea/class_rotate_movement_generator.html#a8717e890670d9f4e2ff66c0981d14aa6">m_direction</a></td></tr>
 <tr class="separator:a8717e890670d9f4e2ff66c0981d14aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a89a6559b4380210972e82c6ca6d5a9db" name="a89a6559b4380210972e82c6ca6d5a9db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a89a6559b4380210972e82c6ca6d5a9db">&#9670;&#160;</a></span>RotateMovementGenerator()</h2>
 
@@ -205,7 +206,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   36</span>: <a class="code hl_variable" href="../../df/dea/class_rotate_movement_generator.html#a2cb8d5fc3d26c24e62c7373f1ce49b13">m_duration</a>(time), <a class="code hl_variable" href="../../df/dea/class_rotate_movement_generator.html#a7cf10886bdd50ccbc5900b9229958e01">m_maxDuration</a>(time), <a class="code hl_variable" href="../../df/dea/class_rotate_movement_generator.html#a8717e890670d9f4e2ff66c0981d14aa6">m_direction</a>(direction) {}</div>
+<div class="ttc" id="aclass_rotate_movement_generator_html_a2cb8d5fc3d26c24e62c7373f1ce49b13"><div class="ttname"><a href="../../df/dea/class_rotate_movement_generator.html#a2cb8d5fc3d26c24e62c7373f1ce49b13">RotateMovementGenerator::m_duration</a></div><div class="ttdeci">uint32 m_duration</div><div class="ttdef"><b>Definition:</b> IdleMovementGenerator.h:45</div></div>
+<div class="ttc" id="aclass_rotate_movement_generator_html_a7cf10886bdd50ccbc5900b9229958e01"><div class="ttname"><a href="../../df/dea/class_rotate_movement_generator.html#a7cf10886bdd50ccbc5900b9229958e01">RotateMovementGenerator::m_maxDuration</a></div><div class="ttdeci">uint32 m_maxDuration</div><div class="ttdef"><b>Definition:</b> IdleMovementGenerator.h:45</div></div>
+<div class="ttc" id="aclass_rotate_movement_generator_html_a8717e890670d9f4e2ff66c0981d14aa6"><div class="ttname"><a href="../../df/dea/class_rotate_movement_generator.html#a8717e890670d9f4e2ff66c0981d14aa6">RotateMovementGenerator::m_direction</a></div><div class="ttdeci">RotateDirection m_direction</div><div class="ttdef"><b>Definition:</b> IdleMovementGenerator.h:46</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -234,7 +239,20 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#aef4cf800aa06dddac4efd36e3c058d2b">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   73</span>{</div>
+<div class="line"><span class="lineno">   74</span>    unit-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0234fee1df2999bda3ca22449164f7b5">ClearUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544ae2affd865e4b45cd3b8e93878bc1cd5e">UNIT_STATE_ROTATING</a>);</div>
+<div class="line"><span class="lineno">   75</span>    <span class="keywordflow">if</span> (unit-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>)</div>
+<div class="line"><span class="lineno">   76</span>        unit-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ab0438b14dc1d7f038221d9d7a2f37043">MovementInform</a>(<a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9a5e3cb574fe15a9c73536dab95be16c3f">ROTATE_MOTION_TYPE</a>, 0);</div>
+<div class="line"><span class="lineno">   77</span>}</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9a5e3cb574fe15a9c73536dab95be16c3f"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9a5e3cb574fe15a9c73536dab95be16c3f">ROTATE_MOTION_TYPE</a></div><div class="ttdeci">@ ROTATE_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:53</div></div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544ae2affd865e4b45cd3b8e93878bc1cd5e"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544ae2affd865e4b45cd3b8e93878bc1cd5e">UNIT_STATE_ROTATING</a></div><div class="ttdeci">@ UNIT_STATE_ROTATING</div><div class="ttdef"><b>Definition:</b> Unit.h:345</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ab0438b14dc1d7f038221d9d7a2f37043"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ab0438b14dc1d7f038221d9d7a2f37043">CreatureAI::MovementInform</a></div><div class="ttdeci">virtual void MovementInform(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:149</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_object_html_ab0e2ef1ac1daa91476f749e0ec6ad3c6"><div class="ttname"><a href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">Object::ToCreature</a></div><div class="ttdeci">Creature * ToCreature()</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
+<div class="ttc" id="aclass_unit_html_a0234fee1df2999bda3ca22449164f7b5"><div class="ttname"><a href="../../da/db7/class_unit.html#a0234fee1df2999bda3ca22449164f7b5">Unit::ClearUnitState</a></div><div class="ttdeci">void ClearUnitState(uint32 f)</div><div class="ttdef"><b>Definition:</b> Unit.h:1399</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a20677803edf5d93ceae3bf76ef426a81" name="a20677803edf5d93ceae3bf76ef426a81"></a>
@@ -261,7 +279,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#a60bac341b438ea7258986f234a952324">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   42</span>{ <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9a5e3cb574fe15a9c73536dab95be16c3f">ROTATE_MOTION_TYPE</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a18fea8760bb24912af9349a06ff7b596" name="a18fea8760bb24912af9349a06ff7b596"></a>
@@ -289,7 +308,24 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#a0040e427ac4a09273641a96a13fd4c1f">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   36</span>{</div>
+<div class="line"><span class="lineno">   37</span>    <span class="keywordflow">if</span> (!owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a03b7d419687e45a3dd0a1fc4f94398b3">IsStopped</a>())</div>
+<div class="line"><span class="lineno">   38</span>        owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a61edf6ab694fa8f7ed6ef194fd4dd103">StopMoving</a>();</div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>    <span class="keywordflow">if</span> (owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>())</div>
+<div class="line"><span class="lineno">   41</span>        owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae2ce6a171e27e575ad183809a78286ae">SetInFront</a>(owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>());</div>
+<div class="line"><span class="lineno">   42</span> </div>
+<div class="line"><span class="lineno">   43</span>    owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a752f5f516257bfdf139098c29a55c466">AddUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544ae2affd865e4b45cd3b8e93878bc1cd5e">UNIT_STATE_ROTATING</a>);</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>    owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aee07e22b70ed433a845b0673579d5fee">AttackStop</a>();</div>
+<div class="line"><span class="lineno">   46</span>}</div>
+<div class="ttc" id="aclass_unit_html_a03b7d419687e45a3dd0a1fc4f94398b3"><div class="ttname"><a href="../../da/db7/class_unit.html#a03b7d419687e45a3dd0a1fc4f94398b3">Unit::IsStopped</a></div><div class="ttdeci">bool IsStopped() const</div><div class="ttdef"><b>Definition:</b> Unit.h:2261</div></div>
+<div class="ttc" id="aclass_unit_html_a61edf6ab694fa8f7ed6ef194fd4dd103"><div class="ttname"><a href="../../da/db7/class_unit.html#a61edf6ab694fa8f7ed6ef194fd4dd103">Unit::StopMoving</a></div><div class="ttdeci">void StopMoving()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16736</div></div>
+<div class="ttc" id="aclass_unit_html_a752f5f516257bfdf139098c29a55c466"><div class="ttname"><a href="../../da/db7/class_unit.html#a752f5f516257bfdf139098c29a55c466">Unit::AddUnitState</a></div><div class="ttdeci">void AddUnitState(uint32 f)</div><div class="ttdef"><b>Definition:</b> Unit.h:1397</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_unit_html_ae2ce6a171e27e575ad183809a78286ae"><div class="ttname"><a href="../../da/db7/class_unit.html#ae2ce6a171e27e575ad183809a78286ae">Unit::SetInFront</a></div><div class="ttdeci">void SetInFront(WorldObject const *target)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20613</div></div>
+<div class="ttc" id="aclass_unit_html_aee07e22b70ed433a845b0673579d5fee"><div class="ttname"><a href="../../da/db7/class_unit.html#aee07e22b70ed433a845b0673579d5fee">Unit::AttackStop</a></div><div class="ttdeci">bool AttackStop()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10356</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3e177762fcfc11ac47aa820b46b93ed0" name="a3e177762fcfc11ac47aa820b46b93ed0"></a>
@@ -317,7 +353,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#aa6641fa1182551421fc8572afad8e083">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   40</span>{ <a class="code hl_function" href="../../df/dea/class_rotate_movement_generator.html#a18fea8760bb24912af9349a06ff7b596">Initialize</a>(owner); }</div>
+<div class="ttc" id="aclass_rotate_movement_generator_html_a18fea8760bb24912af9349a06ff7b596"><div class="ttname"><a href="../../df/dea/class_rotate_movement_generator.html#a18fea8760bb24912af9349a06ff7b596">RotateMovementGenerator::Initialize</a></div><div class="ttdeci">void Initialize(Unit *) override</div><div class="ttdef"><b>Definition:</b> IdleMovementGenerator.cpp:35</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0dc8600e3aa862a81735dfb927232e53" name="a0dc8600e3aa862a81735dfb927232e53"></a>
@@ -355,7 +393,32 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#ae3014d8c6e728799c86134ef64737ed5">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   49</span>{</div>
+<div class="line"><span class="lineno">   50</span>    <span class="keywordtype">float</span> angle = owner-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>();</div>
+<div class="line"><span class="lineno">   51</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/dea/class_rotate_movement_generator.html#a8717e890670d9f4e2ff66c0981d14aa6">m_direction</a> == <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a1978c8aa3f81d04079c45fe56aa51233af0378f46d4f9f1521d769f7c1c046d6a">ROTATE_DIRECTION_LEFT</a>)</div>
+<div class="line"><span class="lineno">   52</span>    {</div>
+<div class="line"><span class="lineno">   53</span>        angle += (float)diff * <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(M_PI * 2) / <a class="code hl_variable" href="../../df/dea/class_rotate_movement_generator.html#a7cf10886bdd50ccbc5900b9229958e01">m_maxDuration</a>;</div>
+<div class="line"><span class="lineno">   54</span>        <span class="keywordflow">while</span> (angle &gt;= <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(M_PI * 2)) angle -= <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(M_PI * 2);</div>
+<div class="line"><span class="lineno">   55</span>    }</div>
+<div class="line"><span class="lineno">   56</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   57</span>    {</div>
+<div class="line"><span class="lineno">   58</span>        angle -= (float)diff * <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(M_PI * 2) / <a class="code hl_variable" href="../../df/dea/class_rotate_movement_generator.html#a7cf10886bdd50ccbc5900b9229958e01">m_maxDuration</a>;</div>
+<div class="line"><span class="lineno">   59</span>        <span class="keywordflow">while</span> (angle &lt; 0) angle += <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(M_PI * 2);</div>
+<div class="line"><span class="lineno">   60</span>    }</div>
+<div class="line"><span class="lineno">   61</span> </div>
+<div class="line"><span class="lineno">   62</span>    owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a15935c3f574e8b3e72952561c75e6faf">SetFacingTo</a>(angle);</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/dea/class_rotate_movement_generator.html#a2cb8d5fc3d26c24e62c7373f1ce49b13">m_duration</a> &gt; diff)</div>
+<div class="line"><span class="lineno">   65</span>        <a class="code hl_variable" href="../../df/dea/class_rotate_movement_generator.html#a2cb8d5fc3d26c24e62c7373f1ce49b13">m_duration</a> -= diff;</div>
+<div class="line"><span class="lineno">   66</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   67</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   70</span>}</div>
+<div class="ttc" id="a_motion_master_8h_html_a1978c8aa3f81d04079c45fe56aa51233af0378f46d4f9f1521d769f7c1c046d6a"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a1978c8aa3f81d04079c45fe56aa51233af0378f46d4f9f1521d769f7c1c046d6a">ROTATE_DIRECTION_LEFT</a></div><div class="ttdeci">@ ROTATE_DIRECTION_LEFT</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:77</div></div>
+<div class="ttc" id="aclass_unit_html_a15935c3f574e8b3e72952561c75e6faf"><div class="ttname"><a href="../../da/db7/class_unit.html#a15935c3f574e8b3e72952561c75e6faf">Unit::SetFacingTo</a></div><div class="ttdeci">void SetFacingTo(float ori)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20619</div></div>
+<div class="ttc" id="astruct_position_html_a74cabfb8f441acb38e1abd5bf6ecdc84"><div class="ttname"><a href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">Position::GetOrientation</a></div><div class="ttdeci">float GetOrientation() const</div><div class="ttdef"><b>Definition:</b> Position.h:120</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -426,8 +489,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/MovementGenerators/<a class="el" href="../../d5/d65/_idle_movement_generator_8h_source.html">IdleMovementGenerator.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/MovementGenerators/<a class="el" href="../../d2/d09/_idle_movement_generator_8cpp.html">IdleMovementGenerator.cpp</a></li>
+<li><a class="el" href="../../">IdleMovementGenerator.h</a></li>
+<li><a class="el" href="../../">IdleMovementGenerator.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -435,7 +498,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dea/class_rotate_movement_generator.html">RotateMovementGenerator</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

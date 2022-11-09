@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d0/d87/class_global_cooldown_mgr.html'
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/d32/_unit_8h_source.html">Unit.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Unit.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -131,7 +131,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a80d03691d36758733f326b65992f266e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d32/_unit_8h.html#a2f37b877a5fc8dc31f4543660a5b1af9">GlobalCooldownList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d87/class_global_cooldown_mgr.html#a80d03691d36758733f326b65992f266e">m_GlobalCooldowns</a></td></tr>
 <tr class="separator:a80d03691d36758733f326b65992f266e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a116f4af13a4e10dc5eb3c3c6a17ad863" name="a116f4af13a4e10dc5eb3c3c6a17ad863"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a116f4af13a4e10dc5eb3c3c6a17ad863">&#9670;&#160;</a></span>GlobalCooldownMgr()</h2>
 
@@ -183,7 +184,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  347</span>{</div>
+<div class="line"><span class="lineno">  348</span>    <a class="code hl_variable" href="../../d0/d87/class_global_cooldown_mgr.html#a80d03691d36758733f326b65992f266e">m_GlobalCooldowns</a>[spellInfo-&gt;StartRecoveryCategory] = <a class="code hl_struct" href="../../d7/df4/struct_global_cooldown.html">GlobalCooldown</a>(gcd, <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a>().count());</div>
+<div class="line"><span class="lineno">  349</span>}</div>
+<div class="ttc" id="aclass_global_cooldown_mgr_html_a80d03691d36758733f326b65992f266e"><div class="ttname"><a href="../../d0/d87/class_global_cooldown_mgr.html#a80d03691d36758733f326b65992f266e">GlobalCooldownMgr::m_GlobalCooldowns</a></div><div class="ttdeci">GlobalCooldownList m_GlobalCooldowns</div><div class="ttdef"><b>Definition:</b> Unit.h:1008</div></div>
+<div class="ttc" id="anamespace_game_time_html_a6d0d49f37e25e497391157b2a2ec90c1"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a></div><div class="ttdeci">Milliseconds GetGameTimeMS()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:43</div></div>
+<div class="ttc" id="astruct_global_cooldown_html"><div class="ttname"><a href="../../d7/df4/struct_global_cooldown.html">GlobalCooldown</a></div><div class="ttdef"><b>Definition:</b> Unit.h:988</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aed6b479416104dc536116fdb1e24fcf3" name="aed6b479416104dc536116fdb1e24fcf3"></a>
@@ -201,7 +208,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  352</span>{</div>
+<div class="line"><span class="lineno">  353</span>    <a class="code hl_variable" href="../../d0/d87/class_global_cooldown_mgr.html#a80d03691d36758733f326b65992f266e">m_GlobalCooldowns</a>[spellInfo-&gt;StartRecoveryCategory].duration = 0;</div>
+<div class="line"><span class="lineno">  354</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7487d19ae8c59e5c5e871b2e1afabfba" name="a7487d19ae8c59e5c5e871b2e1afabfba"></a>
@@ -219,7 +229,12 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  341</span>{</div>
+<div class="line"><span class="lineno">  342</span>    GlobalCooldownList::const_iterator itr = <a class="code hl_variable" href="../../d0/d87/class_global_cooldown_mgr.html#a80d03691d36758733f326b65992f266e">m_GlobalCooldowns</a>.find(spellInfo-&gt;StartRecoveryCategory);</div>
+<div class="line"><span class="lineno">  343</span>    <span class="keywordflow">return</span> itr != <a class="code hl_variable" href="../../d0/d87/class_global_cooldown_mgr.html#a80d03691d36758733f326b65992f266e">m_GlobalCooldowns</a>.end() &amp;&amp; itr-&gt;second.duration &amp;&amp; <a class="code hl_function" href="../../d5/d29/_timer_8h.html#ad9f0d19bcdfb695da4f399b36471c7de">getMSTimeDiff</a>(itr-&gt;second.cast_time, <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a>().count()) &lt; itr-&gt;second.duration;</div>
+<div class="line"><span class="lineno">  344</span>}</div>
+<div class="ttc" id="a_timer_8h_html_ad9f0d19bcdfb695da4f399b36471c7de"><div class="ttname"><a href="../../d5/d29/_timer_8h.html#ad9f0d19bcdfb695da4f399b36471c7de">getMSTimeDiff</a></div><div class="ttdeci">uint32 getMSTimeDiff(uint32 oldMSTime, uint32 newMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:110</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -246,8 +261,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Unit/<a class="el" href="../../d5/d32/_unit_8h_source.html">Unit.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Unit/<a class="el" href="../../d2/d2e/_unit_8cpp.html">Unit.cpp</a></li>
+<li><a class="el" href="../../">Unit.h</a></li>
+<li><a class="el" href="../../">Unit.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -255,7 +270,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d87/class_global_cooldown_mgr.html">GlobalCooldownMgr</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

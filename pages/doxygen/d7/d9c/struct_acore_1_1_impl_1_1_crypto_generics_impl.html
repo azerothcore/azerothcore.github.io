@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d7/d9c/struct_acore_1_1_impl_1_1_crypt
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/d7b/_crypto_generics_8h_source.html">CryptoGenerics.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">CryptoGenerics.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -126,7 +126,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac27f3335f0fadf98dbd0bedebbfd8390"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d9c/struct_acore_1_1_impl_1_1_crypto_generics_impl.html#ac27f3335f0fadf98dbd0bedebbfd8390">SplitFromBack</a> (std::vector&lt; <a class="el" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; &amp;data, <a class="el" href="../../d9/d83/_object_guid_8h.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &amp;tail)</td></tr>
 <tr class="separator:ac27f3335f0fadf98dbd0bedebbfd8390"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a631dbb5771929cb72bd090e3ced49523" name="a631dbb5771929cb72bd090e3ced49523"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a631dbb5771929cb72bd090e3ced49523">&#9670;&#160;</a></span>AppendToBack()</h2>
 
@@ -162,7 +163,10 @@ template&lt;typename <a class="el" href="../../d9/d83/_object_guid_8h.html#abe86
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   42</span>        {</div>
+<div class="line"><span class="lineno">   43</span>            data.insert(data.end(), std::begin(tail), std::end(tail));</div>
+<div class="line"><span class="lineno">   44</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afd4b9dd6223e8bd48810b88adc24a4b7" name="afd4b9dd6223e8bd48810b88adc24a4b7"></a>
@@ -189,7 +193,13 @@ template&lt;typename Cipher &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>        {</div>
+<div class="line"><span class="lineno">   35</span>            <span class="keyword">typename</span> Cipher::IV iv;</div>
+<div class="line"><span class="lineno">   36</span>            <a class="code hl_function" href="../../dc/d06/namespace_acore_1_1_crypto.html#ab09d7cc2f8e11fc5fe6b2323d57b7184">Acore::Crypto::GetRandomBytes</a>(iv);</div>
+<div class="line"><span class="lineno">   37</span>            <span class="keywordflow">return</span> iv;</div>
+<div class="line"><span class="lineno">   38</span>        }</div>
+<div class="ttc" id="anamespace_acore_1_1_crypto_html_ab09d7cc2f8e11fc5fe6b2323d57b7184"><div class="ttname"><a href="../../dc/d06/namespace_acore_1_1_crypto.html#ab09d7cc2f8e11fc5fe6b2323d57b7184">Acore::Crypto::GetRandomBytes</a></div><div class="ttdeci">std::array&lt; uint8, S &gt; GetRandomBytes()</div><div class="ttdef"><b>Definition:</b> CryptoRandom.h:35</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac27f3335f0fadf98dbd0bedebbfd8390" name="ac27f3335f0fadf98dbd0bedebbfd8390"></a>
@@ -227,11 +237,20 @@ template&lt;typename <a class="el" href="../../d9/d83/_object_guid_8h.html#abe86
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   48</span>        {</div>
+<div class="line"><span class="lineno">   49</span>            <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(data.size() &gt;= std::size(tail));</div>
+<div class="line"><span class="lineno">   50</span>            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 1, N = std::size(tail); i &lt;= N; ++i)</div>
+<div class="line"><span class="lineno">   51</span>            {</div>
+<div class="line"><span class="lineno">   52</span>                tail[N - i] = data.back();</div>
+<div class="line"><span class="lineno">   53</span>                data.pop_back();</div>
+<div class="line"><span class="lineno">   54</span>            }</div>
+<div class="line"><span class="lineno">   55</span>        }</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Cryptography/<a class="el" href="../../d5/d7b/_crypto_generics_8h_source.html">CryptoGenerics.h</a></li>
+<li><a class="el" href="../../">CryptoGenerics.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -239,7 +258,7 @@ template&lt;typename <a class="el" href="../../d9/d83/_object_guid_8h.html#abe86
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../d1/da6/namespace_acore_1_1_impl.html">Impl</a></li><li class="navelem"><a class="el" href="../../d7/d9c/struct_acore_1_1_impl_1_1_crypto_generics_impl.html">CryptoGenericsImpl</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

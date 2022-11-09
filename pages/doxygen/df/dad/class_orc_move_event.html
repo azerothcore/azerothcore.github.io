@@ -147,7 +147,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ad8d09bbb659d44e9f4b9171cea7ef7e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dac/class_creature.html">Creature</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dad/class_orc_move_event.html#ad8d09bbb659d44e9f4b9171cea7ef7e8">_me</a></td></tr>
 <tr class="separator:ad8d09bbb659d44e9f4b9171cea7ef7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a71f7fe243741a1629bdd846fc97f0112" name="a71f7fe243741a1629bdd846fc97f0112"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a71f7fe243741a1629bdd846fc97f0112">&#9670;&#160;</a></span>OrcMoveEvent()</h2>
 
@@ -171,7 +172,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   60</span>: <a class="code hl_variable" href="../../df/dad/class_orc_move_event.html#ad8d09bbb659d44e9f4b9171cea7ef7e8">_me</a>(me) {}</div>
+<div class="ttc" id="aclass_orc_move_event_html_ad8d09bbb659d44e9f4b9171cea7ef7e8"><div class="ttname"><a href="../../df/dad/class_orc_move_event.html#ad8d09bbb659d44e9f4b9171cea7ef7e8">OrcMoveEvent::_me</a></div><div class="ttdeci">Creature * _me</div><div class="ttdef"><b>Definition:</b> boss_the_beast.cpp:71</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -210,7 +213,20 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   63</span>    {</div>
+<div class="line"><span class="lineno">   64</span>        <a class="code hl_variable" href="../../df/dad/class_orc_move_event.html#ad8d09bbb659d44e9f4b9171cea7ef7e8">_me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">   65</span>        <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> movePos = <a class="code hl_variable" href="../../df/dad/class_orc_move_event.html#ad8d09bbb659d44e9f4b9171cea7ef7e8">_me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ae62feea6a882131657f061fbd8652188">GetRandomPoint</a>(<a class="code hl_variable" href="../../d1/d58/boss__the__beast_8cpp.html#ad5fc13040993a965fdd63fd83cfa216e">OrcsRunawayPosition</a>, 10.0f);</div>
+<div class="line"><span class="lineno">   66</span>        <a class="code hl_variable" href="../../df/dad/class_orc_move_event.html#ad8d09bbb659d44e9f4b9171cea7ef7e8">_me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(1, movePos);</div>
+<div class="line"><span class="lineno">   67</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   68</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a></div><div class="ttdeci">@ REACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1023</div></div>
+<div class="ttc" id="aboss__the__beast_8cpp_html_ad5fc13040993a965fdd63fd83cfa216e"><div class="ttname"><a href="../../d1/d58/boss__the__beast_8cpp.html#ad5fc13040993a965fdd63fd83cfa216e">OrcsRunawayPosition</a></div><div class="ttdeci">Position const OrcsRunawayPosition</div><div class="ttdef"><b>Definition:</b> boss_the_beast.cpp:55</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_world_object_html_ae62feea6a882131657f061fbd8652188"><div class="ttname"><a href="../../db/df7/class_world_object.html#ae62feea6a882131657f061fbd8652188">WorldObject::GetRandomPoint</a></div><div class="ttdeci">void GetRandomPoint(const Position &amp;srcPos, float distance, float &amp;rand_x, float &amp;rand_y, float &amp;rand_z) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1502</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -237,7 +253,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/<a class="el" href="../../d1/d58/boss__the__beast_8cpp.html">boss_the_beast.cpp</a></li>
+<li><a class="el" href="../../">boss_the_beast.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -245,7 +261,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dad/class_orc_move_event.html">OrcMoveEvent</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

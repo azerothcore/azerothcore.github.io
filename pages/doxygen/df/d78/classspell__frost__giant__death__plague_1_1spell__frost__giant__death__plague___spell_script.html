@@ -294,7 +294,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aaf1312cc6981c3c3b472a57552f4f5f1" name="aaf1312cc6981c3c3b472a57552f4f5f1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf1312cc6981c3c3b472a57552f4f5f1">&#9670;&#160;</a></span>CountTargets()</h2>
 
@@ -318,7 +319,34 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2083</span>        {</div>
+<div class="line"><span class="lineno"> 2084</span>            targets.remove_if(<a class="code hl_class" href="../../d9/d17/class_acore_1_1_object_type_id_check.html">Acore::ObjectTypeIdCheck</a>(<a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>, <span class="keyword">false</span>));</div>
+<div class="line"><span class="lineno"> 2085</span>            targets.remove_if(<a class="code hl_class" href="../../de/d92/class_acore_1_1_object_g_u_i_d_check.html">Acore::ObjectGUIDCheck</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;GetGUID(), <span class="keyword">true</span>));</div>
+<div class="line"><span class="lineno"> 2086</span> </div>
+<div class="line"><span class="lineno"> 2087</span>            <span class="keywordtype">bool</span> kill = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 2088</span>            <span class="keywordflow">for</span> (std::list&lt;WorldObject*&gt;::const_iterator itr = targets.begin(); itr != targets.end(); ++itr)</div>
+<div class="line"><span class="lineno"> 2089</span>                <span class="keywordflow">if</span> (!(*itr)-&gt;ToUnit()-&gt;HasAura(<a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298cad5bdd2899696e7ad3be9ec7fc86e1783">SPELL_DEATH_PLAGUE_AURA</a>))</div>
+<div class="line"><span class="lineno"> 2090</span>                {</div>
+<div class="line"><span class="lineno"> 2091</span>                    kill = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2092</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2093</span>                }</div>
+<div class="line"><span class="lineno"> 2094</span>            <span class="keywordflow">if</span> (kill)</div>
+<div class="line"><span class="lineno"> 2095</span>                <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>(), <a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298cab48d7a3502601143851569404d72617c">SPELL_DEATH_PLAGUE_KILL</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2096</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2097</span>            {</div>
+<div class="line"><span class="lineno"> 2098</span>                <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>(), <a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298ca5842ac50888b66fbd2ea07e88a4b647d">SPELL_RECENTLY_INFECTED</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2099</span>                targets.push_back(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>());</div>
+<div class="line"><span class="lineno"> 2100</span>            }</div>
+<div class="line"><span class="lineno"> 2101</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_acore_1_1_object_g_u_i_d_check_html"><div class="ttname"><a href="../../de/d92/class_acore_1_1_object_g_u_i_d_check.html">Acore::ObjectGUIDCheck</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1612</div></div>
+<div class="ttc" id="aclass_acore_1_1_object_type_id_check_html"><div class="ttname"><a href="../../d9/d17/class_acore_1_1_object_type_id_check.html">Acore::ObjectTypeIdCheck</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1598</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aicecrown__citadel_8cpp_html_a5bd342133be8c2137b831460acc9298ca5842ac50888b66fbd2ea07e88a4b647d"><div class="ttname"><a href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298ca5842ac50888b66fbd2ea07e88a4b647d">SPELL_RECENTLY_INFECTED</a></div><div class="ttdeci">@ SPELL_RECENTLY_INFECTED</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:103</div></div>
+<div class="ttc" id="aicecrown__citadel_8cpp_html_a5bd342133be8c2137b831460acc9298cab48d7a3502601143851569404d72617c"><div class="ttname"><a href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298cab48d7a3502601143851569404d72617c">SPELL_DEATH_PLAGUE_KILL</a></div><div class="ttdeci">@ SPELL_DEATH_PLAGUE_KILL</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:104</div></div>
+<div class="ttc" id="aicecrown__citadel_8cpp_html_a5bd342133be8c2137b831460acc9298cad5bdd2899696e7ad3be9ec7fc86e1783"><div class="ttname"><a href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298cad5bdd2899696e7ad3be9ec7fc86e1783">SPELL_DEATH_PLAGUE_AURA</a></div><div class="ttdeci">@ SPELL_DEATH_PLAGUE_AURA</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:102</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a90728aa9269ce808ffb26d13ac770f12" name="a90728aa9269ce808ffb26d13ac770f12"></a>
@@ -344,7 +372,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2104</span>        {</div>
+<div class="line"><span class="lineno"> 2105</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>()-&gt;HasAura(<a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298ca5842ac50888b66fbd2ea07e88a4b647d">SPELL_RECENTLY_INFECTED</a>) &amp;&amp; !<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>()-&gt;HasAura(<a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298cad5bdd2899696e7ad3be9ec7fc86e1783">SPELL_DEATH_PLAGUE_AURA</a>))</div>
+<div class="line"><span class="lineno"> 2106</span>                <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>(), <a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298cad5bdd2899696e7ad3be9ec7fc86e1783">SPELL_DEATH_PLAGUE_AURA</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2107</span>        }</div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abbdc05c6984bc698c5c9a195c4d35f49" name="abbdc05c6984bc698c5c9a195c4d35f49"></a>
@@ -397,11 +430,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2110</span>        {</div>
+<div class="line"><span class="lineno"> 2111</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../df/d78/classspell__frost__giant__death__plague_1_1spell__frost__giant__death__plague___spell_script.html#aaf1312cc6981c3c3b472a57552f4f5f1">spell_frost_giant_death_plague_SpellScript::CountTargets</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a5636479f4e747c35d6eab829ac5ba6c1">TARGET_UNIT_SRC_AREA_ALLY</a>);</div>
+<div class="line"><span class="lineno"> 2112</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../df/d78/classspell__frost__giant__death__plague_1_1spell__frost__giant__death__plague___spell_script.html#a90728aa9269ce808ffb26d13ac770f12">spell_frost_giant_death_plague_SpellScript::HandleScript</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97abd12cbfc6a8daf7ca788d06a77256e01">SPELL_EFFECT_SCHOOL_DAMAGE</a>);</div>
+<div class="line"><span class="lineno"> 2113</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97abd12cbfc6a8daf7ca788d06a77256e01"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97abd12cbfc6a8daf7ca788d06a77256e01">SPELL_EFFECT_SCHOOL_DAMAGE</a></div><div class="ttdeci">@ SPELL_EFFECT_SCHOOL_DAMAGE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:752</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a5636479f4e747c35d6eab829ac5ba6c1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a5636479f4e747c35d6eab829ac5ba6c1">TARGET_UNIT_SRC_AREA_ALLY</a></div><div class="ttdeci">@ TARGET_UNIT_SRC_AREA_ALLY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1406</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a623f49512c3d12eceb55ca05cd53c4f2"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a></div><div class="ttdeci">#define SpellObjectAreaTargetSelectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:354</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclass_spell_script_html_af74f730c6dacd310a78036be6b7cc6b7"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">SpellScript::OnObjectAreaTargetSelect</a></div><div class="ttdeci">HookList&lt; ObjectAreaTargetSelectHandler &gt; OnObjectAreaTargetSelect</div><div class="ttdef"><b>Definition:</b> SpellScript.h:353</div></div>
+<div class="ttc" id="aclassspell__frost__giant__death__plague_1_1spell__frost__giant__death__plague___spell_script_html_a90728aa9269ce808ffb26d13ac770f12"><div class="ttname"><a href="../../df/d78/classspell__frost__giant__death__plague_1_1spell__frost__giant__death__plague___spell_script.html#a90728aa9269ce808ffb26d13ac770f12">spell_frost_giant_death_plague::spell_frost_giant_death_plague_SpellScript::HandleScript</a></div><div class="ttdeci">void HandleScript(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:2103</div></div>
+<div class="ttc" id="aclassspell__frost__giant__death__plague_1_1spell__frost__giant__death__plague___spell_script_html_aaf1312cc6981c3c3b472a57552f4f5f1"><div class="ttname"><a href="../../df/d78/classspell__frost__giant__death__plague_1_1spell__frost__giant__death__plague___spell_script.html#aaf1312cc6981c3c3b472a57552f4f5f1">spell_frost_giant_death_plague::spell_frost_giant_death_plague_SpellScript::CountTargets</a></div><div class="ttdeci">void CountTargets(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:2082</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../db/dd3/icecrown__citadel_8cpp.html">icecrown_citadel.cpp</a></li>
+<li><a class="el" href="../../">icecrown_citadel.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -409,7 +455,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d77/classspell__frost__giant__death__plague.html">spell_frost_giant_death_plague</a></li><li class="navelem"><a class="el" href="../../df/d78/classspell__frost__giant__death__plague_1_1spell__frost__giant__death__plague___spell_script.html">spell_frost_giant_death_plague_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:17 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

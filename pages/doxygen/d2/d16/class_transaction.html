@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d2/d16/class_transaction.html','../../
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d8/d99/_transaction_8h_source.html">Transaction.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Transaction.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Transaction&lt; T &gt;:</div>
 <div class="dyncontent">
@@ -156,7 +156,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a156f1a8316358c05285778e5734eade1 inherit pro_attribs_class_transaction_base"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/dac/struct_s_q_l_element_data.html">SQLElementData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/db9/class_transaction_base.html#a156f1a8316358c05285778e5734eade1">m_queries</a></td></tr>
 <tr class="separator:a156f1a8316358c05285778e5734eade1 inherit pro_attribs_class_transaction_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+class Transaction&lt; T &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a290b052f7cbd321c646e9e5e19484444" name="a290b052f7cbd321c646e9e5e19484444"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a290b052f7cbd321c646e9e5e19484444">&#9670;&#160;</a></span>Append() <span class="overload">[1/3]</span></h2>
 
@@ -182,7 +184,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   69</span>    {</div>
+<div class="line"><span class="lineno">   70</span>        <a class="code hl_function" href="../../dd/db9/class_transaction_base.html#a8e099a4f8775b5e5e3b95ad0273a716f">AppendPreparedStatement</a>(statement);</div>
+<div class="line"><span class="lineno">   71</span>    }</div>
+<div class="ttc" id="aclass_transaction_base_html_a8e099a4f8775b5e5e3b95ad0273a716f"><div class="ttname"><a href="../../dd/db9/class_transaction_base.html#a8e099a4f8775b5e5e3b95ad0273a716f">TransactionBase::AppendPreparedStatement</a></div><div class="ttdeci">void AppendPreparedStatement(PreparedStatementBase *statement)</div><div class="ttdef"><b>Definition:</b> Transaction.cpp:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a867b7a92080104278aef5fb4975a4a52" name="a867b7a92080104278aef5fb4975a4a52"></a>
@@ -202,7 +208,18 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_struct" href="../../d0/dac/struct_s_q_l_element_data.html">SQLElementData</a> data = {};</div>
+<div class="line"><span class="lineno">   36</span>    data.<a class="code hl_variable" href="../../d0/dac/struct_s_q_l_element_data.html#afb3f8dc82da740b1aaae165cb6a5b218">type</a> = <a class="code hl_enumvalue" href="../../da/d2f/_s_q_l_operation_8h.html#abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a">SQL_ELEMENT_RAW</a>;</div>
+<div class="line"><span class="lineno">   37</span>    data.<a class="code hl_variable" href="../../d0/dac/struct_s_q_l_element_data.html#ae5400b2932fe1a8c514c38fb6bab392f">element</a> = std::string(sql);</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_variable" href="../../dd/db9/class_transaction_base.html#a156f1a8316358c05285778e5734eade1">m_queries</a>.emplace_back(data);</div>
+<div class="line"><span class="lineno">   39</span>}</div>
+<div class="ttc" id="a_s_q_l_operation_8h_html_abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a"><div class="ttname"><a href="../../da/d2f/_s_q_l_operation_8h.html#abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a">SQL_ELEMENT_RAW</a></div><div class="ttdeci">@ SQL_ELEMENT_RAW</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:28</div></div>
+<div class="ttc" id="aclass_transaction_base_html_a156f1a8316358c05285778e5734eade1"><div class="ttname"><a href="../../dd/db9/class_transaction_base.html#a156f1a8316358c05285778e5734eade1">TransactionBase::m_queries</a></div><div class="ttdeci">std::vector&lt; SQLElementData &gt; m_queries</div><div class="ttdef"><b>Definition:</b> Transaction.h:56</div></div>
+<div class="ttc" id="astruct_s_q_l_element_data_html"><div class="ttname"><a href="../../d0/dac/struct_s_q_l_element_data.html">SQLElementData</a></div><div class="ttdef"><b>Definition:</b> SQLOperation.h:34</div></div>
+<div class="ttc" id="astruct_s_q_l_element_data_html_ae5400b2932fe1a8c514c38fb6bab392f"><div class="ttname"><a href="../../d0/dac/struct_s_q_l_element_data.html#ae5400b2932fe1a8c514c38fb6bab392f">SQLElementData::element</a></div><div class="ttdeci">std::variant&lt; PreparedStatementBase *, std::string &gt; element</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:35</div></div>
+<div class="ttc" id="astruct_s_q_l_element_data_html_afb3f8dc82da740b1aaae165cb6a5b218"><div class="ttname"><a href="../../d0/dac/struct_s_q_l_element_data.html#afb3f8dc82da740b1aaae165cb6a5b218">SQLElementData::type</a></div><div class="ttdeci">SQLElementDataType type</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:36</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa0a81814abe26d456018c3bc9153cd4d" name="aa0a81814abe26d456018c3bc9153cd4d"></a>
@@ -242,12 +259,17 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   47</span>    {</div>
+<div class="line"><span class="lineno">   48</span>        <a class="code hl_function" href="../../d2/d16/class_transaction.html#a290b052f7cbd321c646e9e5e19484444">Append</a>(<a class="code hl_function" href="../../d1/d7d/namespace_acore.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a>(sql, std::forward&lt;Args&gt;(args)...));</div>
+<div class="line"><span class="lineno">   49</span>    }</div>
+<div class="ttc" id="aclass_transaction_html_a290b052f7cbd321c646e9e5e19484444"><div class="ttname"><a href="../../d2/d16/class_transaction.html#a290b052f7cbd321c646e9e5e19484444">Transaction::Append</a></div><div class="ttdeci">void Append(PreparedStatement&lt; T &gt; *statement)</div><div class="ttdef"><b>Definition:</b> Transaction.h:68</div></div>
+<div class="ttc" id="anamespace_acore_html_a07b6432e111b17b737269191d9557f20"><div class="ttname"><a href="../../d1/d7d/namespace_acore.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a></div><div class="ttdeci">std::string StringFormatFmt(std::string_view fmt, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> StringFormat.h:44</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/database/Database/<a class="el" href="../../db/d04/_database_env_fwd_8h_source.html">DatabaseEnvFwd.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/database/Database/<a class="el" href="../../d8/d99/_transaction_8h_source.html">Transaction.h</a></li>
+<li><a class="el" href="../../">DatabaseEnvFwd.h</a></li>
+<li><a class="el" href="../../">Transaction.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -255,7 +277,7 @@ template&lt;typename... Args&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d16/class_transaction.html">Transaction</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:28 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

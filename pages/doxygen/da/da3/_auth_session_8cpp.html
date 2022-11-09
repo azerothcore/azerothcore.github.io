@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/apps/authserver/Server/AuthSession.cpp File Reference</title>
+<title>AzeorthCore: AuthSession.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -114,26 +114,28 @@ $(document).ready(function(){initNavTree('da/da3/_auth_session_8cpp.html','../..
   <div class="headertitle"><div class="title">AuthSession.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d8/d1e/_auth_session_8h_source.html">AuthSession.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d5e/_a_e_s_8h_source.html">AES.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d34/_auth_codes_8h_source.html">AuthCodes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d71/_config_8h_source.html">Config.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d7b/_crypto_generics_8h_source.html">CryptoGenerics.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d9b/_crypto_hash_8h_source.html">CryptoHash.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d8f/_crypto_random_8h_source.html">CryptoRandom.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/dd4/_database_env_8h_source.html">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d16/_errors_8h_source.html">Errors.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/db6/_i_p_location_8h_source.html">IPLocation.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/df4/_log_8h_source.html">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d69/_realm_list_8h_source.html">RealmList.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/da7/_secret_mgr_8h_source.html">SecretMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d14/_t_o_t_p_8h_source.html">TOTP.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d29/_timer_8h_source.html">Timer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d90/_util_8h_source.html">Util.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d3c/_string_convert_8h_source.html">StringConvert.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AuthSession.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AES.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AuthCodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CryptoGenerics.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CryptoHash.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CryptoRandom.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">IPLocation.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">RealmList.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SecretMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">TOTP.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Timer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">StringConvert.h</a>&quot;</code><br />
 <code>#include &lt;boost/lexical_cast.hpp&gt;</code><br />
 <code>#include &lt;openssl/crypto.h&gt;</code><br />
-</div><table class="memberdecls">
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d14/struct_a_u_t_h___l_o_g_o_n___c_h_a_l_l_e_n_g_e___c.html">AUTH_LOGON_CHALLENGE_C</a></td></tr>
@@ -340,7 +342,29 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a345cff35e97e1d164879db077b96607bae1d058bb15829274dff5133c8c041aa5" name="a345cff35e97e1d164879db077b96607bae1d058bb15829274dff5133c8c041aa5"></a>XFER_RESUME&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a345cff35e97e1d164879db077b96607ba178f53b59478d4e635be98a41873c5e1" name="a345cff35e97e1d164879db077b96607ba178f53b59478d4e635be98a41873c5e1"></a>XFER_CANCEL&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607ba62fe494e6ccbaae4d8869486af12ea48">AUTH_LOGON_CHALLENGE</a> = 0x00,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607baec69892078638b4c3a04d6a717e3cb2e">AUTH_LOGON_PROOF</a> = 0x01,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607bab5ca452edfc6d290784cefa1132ebfa4">AUTH_RECONNECT_CHALLENGE</a> = 0x02,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607ba968b2c14a04df9db06c0fa6ca2c7c9d3">AUTH_RECONNECT_PROOF</a> = 0x03,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607ba7de0619c3448ca95de937837fd5f27dc">REALM_LIST</a> = 0x10,</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607ba0152ea9553a4a08a9568de879167adb5">XFER_INITIATE</a> = 0x30,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607bac4bf4cd27a0fa1424639c5d11cac02f7">XFER_DATA</a> = 0x31,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607ba0faa0d818c7cac462c3b31df8adcbf01">XFER_ACCEPT</a> = 0x32,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607bae1d058bb15829274dff5133c8c041aa5">XFER_RESUME</a> = 0x33,</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607ba178f53b59478d4e635be98a41873c5e1">XFER_CANCEL</a> = 0x34</div>
+<div class="line"><span class="lineno">   52</span>};</div>
+<div class="ttc" id="a_auth_session_8cpp_html_a345cff35e97e1d164879db077b96607ba0152ea9553a4a08a9568de879167adb5"><div class="ttname"><a href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607ba0152ea9553a4a08a9568de879167adb5">XFER_INITIATE</a></div><div class="ttdeci">@ XFER_INITIATE</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:47</div></div>
+<div class="ttc" id="a_auth_session_8cpp_html_a345cff35e97e1d164879db077b96607ba0faa0d818c7cac462c3b31df8adcbf01"><div class="ttname"><a href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607ba0faa0d818c7cac462c3b31df8adcbf01">XFER_ACCEPT</a></div><div class="ttdeci">@ XFER_ACCEPT</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:49</div></div>
+<div class="ttc" id="a_auth_session_8cpp_html_a345cff35e97e1d164879db077b96607ba178f53b59478d4e635be98a41873c5e1"><div class="ttname"><a href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607ba178f53b59478d4e635be98a41873c5e1">XFER_CANCEL</a></div><div class="ttdeci">@ XFER_CANCEL</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:51</div></div>
+<div class="ttc" id="a_auth_session_8cpp_html_a345cff35e97e1d164879db077b96607ba62fe494e6ccbaae4d8869486af12ea48"><div class="ttname"><a href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607ba62fe494e6ccbaae4d8869486af12ea48">AUTH_LOGON_CHALLENGE</a></div><div class="ttdeci">@ AUTH_LOGON_CHALLENGE</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:42</div></div>
+<div class="ttc" id="a_auth_session_8cpp_html_a345cff35e97e1d164879db077b96607ba7de0619c3448ca95de937837fd5f27dc"><div class="ttname"><a href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607ba7de0619c3448ca95de937837fd5f27dc">REALM_LIST</a></div><div class="ttdeci">@ REALM_LIST</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:46</div></div>
+<div class="ttc" id="a_auth_session_8cpp_html_a345cff35e97e1d164879db077b96607ba968b2c14a04df9db06c0fa6ca2c7c9d3"><div class="ttname"><a href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607ba968b2c14a04df9db06c0fa6ca2c7c9d3">AUTH_RECONNECT_PROOF</a></div><div class="ttdeci">@ AUTH_RECONNECT_PROOF</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:45</div></div>
+<div class="ttc" id="a_auth_session_8cpp_html_a345cff35e97e1d164879db077b96607bab5ca452edfc6d290784cefa1132ebfa4"><div class="ttname"><a href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607bab5ca452edfc6d290784cefa1132ebfa4">AUTH_RECONNECT_CHALLENGE</a></div><div class="ttdeci">@ AUTH_RECONNECT_CHALLENGE</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:44</div></div>
+<div class="ttc" id="a_auth_session_8cpp_html_a345cff35e97e1d164879db077b96607bac4bf4cd27a0fa1424639c5d11cac02f7"><div class="ttname"><a href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607bac4bf4cd27a0fa1424639c5d11cac02f7">XFER_DATA</a></div><div class="ttdeci">@ XFER_DATA</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:48</div></div>
+<div class="ttc" id="a_auth_session_8cpp_html_a345cff35e97e1d164879db077b96607bae1d058bb15829274dff5133c8c041aa5"><div class="ttname"><a href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607bae1d058bb15829274dff5133c8c041aa5">XFER_RESUME</a></div><div class="ttdeci">@ XFER_RESUME</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:50</div></div>
+<div class="ttc" id="a_auth_session_8cpp_html_a345cff35e97e1d164879db077b96607baec69892078638b4c3a04d6a717e3cb2e"><div class="ttname"><a href="../../da/da3/_auth_session_8cpp.html#a345cff35e97e1d164879db077b96607baec69892078638b4c3a04d6a717e3cb2e">AUTH_LOGON_PROOF</a></div><div class="ttdeci">@ AUTH_LOGON_PROOF</div><div class="ttdef"><b>Definition:</b> AuthSession.cpp:43</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -378,7 +402,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c8498b4bff487486cc5ffdac4c412cf7.html">apps</a></li><li class="navelem"><a class="el" href="../../dir_5048a8ff141d56662c703e95f88ef858.html">authserver</a></li><li class="navelem"><a class="el" href="../../dir_7be2eb097abf40d728561c0a9bef8726.html">Server</a></li><li class="navelem"><a class="el" href="../../da/da3/_auth_session_8cpp.html">AuthSession.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

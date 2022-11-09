@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/boss_svala.cpp File Reference</title>
+<title>AzeorthCore: boss_svala.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -113,13 +113,15 @@ $(document).ready(function(){initNavTree('d6/d00/boss__svala_8cpp.html','../../'
   <div class="headertitle"><div class="title">boss_svala.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../dc/d85/_passive_a_i_8h_source.html">PassiveAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d39/_player_8h_source.html">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dad/_scripted_creature_8h_source.html">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d3a/utgarde__pinnacle_8h_source.html">utgarde_pinnacle.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">PassiveAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">utgarde_pinnacle.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db0/classboss__svala.html">boss_svala</a></td></tr>
@@ -6587,7 +6589,44 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74" name="af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74"></a>EVENT_ARCANE_BLAST&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9" name="af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9"></a>EVENT_BELLOWING_ROAR&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   65</span>{</div>
+<div class="line"><span class="lineno">   66</span>    <span class="comment">// BASE EVENT START</span></div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a0b71c7eb60422dc6df58d353e77798af">EVENT_SVALA_START</a>                   = 1,</div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ac88eaed340ec2f2ca8f7cfada67832ed">EVENT_SVALA_TALK1</a>                   = 2,</div>
+<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ab59c10bc8a72b1b46cd71ba99d728e04">EVENT_SVALA_TALK2</a>                   = 3,</div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a3df0fe51ad3bff559e701f0de2fd2fc0">EVENT_SVALA_TALK3</a>                   = 4,</div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a20e1c3685576c18dcf8a4ece0b902e60">EVENT_SVALA_TALK4</a>                   = 5,</div>
+<div class="line"><span class="lineno">   72</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a946d83235fe16690eea2fd7a411a9172">EVENT_SVALA_TALK5</a>                   = 6,</div>
+<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a00b8077971e08dba4a313fb98f53b2be">EVENT_SVALA_TALK6</a>                   = 7,</div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa6299ca9bb8928f588425168e549c434">EVENT_SVALA_TALK7</a>                   = 8,</div>
+<div class="line"><span class="lineno">   75</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a372891c9abf7475e34ade65e425f2086">EVENT_SVALA_TALK8</a>                   = 9,</div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9bc23b4de36879eb5d284f35e6da8e98">EVENT_SVALA_TALK9</a>                   = 20,</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>    <span class="comment">// FIGHT</span></div>
+<div class="line"><span class="lineno">   79</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a96e595b02e024dfca3b6b983f63bbe28">EVENT_SORROWGRAVE_SS</a>                = 10,</div>
+<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a1c82c71ea6604a8c176aa47fdfedfc98">EVENT_SORROWGRAVE_FLAMES</a>            = 11,</div>
+<div class="line"><span class="lineno">   81</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ada611aabb6d3a5bbfaa9afb3076100f8">EVENT_SORROWGRAVE_FLAMES2</a>           = 12,</div>
+<div class="line"><span class="lineno">   82</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a154790b1dc7e43d55354d34ea4511fb6">EVENT_SORROWGRAVE_RITUAL</a>            = 13,</div>
+<div class="line"><span class="lineno">   83</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ace0394e5d10e9964a86eed6dfc2e4876">EVENT_SORROWGRAVE_RITUAL_SPELLS</a>     = 14,</div>
+<div class="line"><span class="lineno">   84</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a98db85c97536a9020c11f6a261bfaf32">EVENT_SORROWGRAVE_FINISH_RITUAL</a>     = 15,</div>
+<div class="line"><span class="lineno">   85</span>};</div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a00b8077971e08dba4a313fb98f53b2be"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a00b8077971e08dba4a313fb98f53b2be">EVENT_SVALA_TALK6</a></div><div class="ttdeci">@ EVENT_SVALA_TALK6</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:73</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a0b71c7eb60422dc6df58d353e77798af"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a0b71c7eb60422dc6df58d353e77798af">EVENT_SVALA_START</a></div><div class="ttdeci">@ EVENT_SVALA_START</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:67</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a154790b1dc7e43d55354d34ea4511fb6"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a154790b1dc7e43d55354d34ea4511fb6">EVENT_SORROWGRAVE_RITUAL</a></div><div class="ttdeci">@ EVENT_SORROWGRAVE_RITUAL</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:82</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a1c82c71ea6604a8c176aa47fdfedfc98"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a1c82c71ea6604a8c176aa47fdfedfc98">EVENT_SORROWGRAVE_FLAMES</a></div><div class="ttdeci">@ EVENT_SORROWGRAVE_FLAMES</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:80</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a20e1c3685576c18dcf8a4ece0b902e60"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a20e1c3685576c18dcf8a4ece0b902e60">EVENT_SVALA_TALK4</a></div><div class="ttdeci">@ EVENT_SVALA_TALK4</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:71</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a372891c9abf7475e34ade65e425f2086"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a372891c9abf7475e34ade65e425f2086">EVENT_SVALA_TALK8</a></div><div class="ttdeci">@ EVENT_SVALA_TALK8</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:75</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a3df0fe51ad3bff559e701f0de2fd2fc0"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a3df0fe51ad3bff559e701f0de2fd2fc0">EVENT_SVALA_TALK3</a></div><div class="ttdeci">@ EVENT_SVALA_TALK3</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:70</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a946d83235fe16690eea2fd7a411a9172"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a946d83235fe16690eea2fd7a411a9172">EVENT_SVALA_TALK5</a></div><div class="ttdeci">@ EVENT_SVALA_TALK5</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:72</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a96e595b02e024dfca3b6b983f63bbe28"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a96e595b02e024dfca3b6b983f63bbe28">EVENT_SORROWGRAVE_SS</a></div><div class="ttdeci">@ EVENT_SORROWGRAVE_SS</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:79</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a98db85c97536a9020c11f6a261bfaf32"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a98db85c97536a9020c11f6a261bfaf32">EVENT_SORROWGRAVE_FINISH_RITUAL</a></div><div class="ttdeci">@ EVENT_SORROWGRAVE_FINISH_RITUAL</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:84</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a9bc23b4de36879eb5d284f35e6da8e98"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9bc23b4de36879eb5d284f35e6da8e98">EVENT_SVALA_TALK9</a></div><div class="ttdeci">@ EVENT_SVALA_TALK9</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:76</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1aa6299ca9bb8928f588425168e549c434"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa6299ca9bb8928f588425168e549c434">EVENT_SVALA_TALK7</a></div><div class="ttdeci">@ EVENT_SVALA_TALK7</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:74</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ab59c10bc8a72b1b46cd71ba99d728e04"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ab59c10bc8a72b1b46cd71ba99d728e04">EVENT_SVALA_TALK2</a></div><div class="ttdeci">@ EVENT_SVALA_TALK2</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:69</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ac88eaed340ec2f2ca8f7cfada67832ed"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ac88eaed340ec2f2ca8f7cfada67832ed">EVENT_SVALA_TALK1</a></div><div class="ttdeci">@ EVENT_SVALA_TALK1</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:68</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ace0394e5d10e9964a86eed6dfc2e4876"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ace0394e5d10e9964a86eed6dfc2e4876">EVENT_SORROWGRAVE_RITUAL_SPELLS</a></div><div class="ttdeci">@ EVENT_SORROWGRAVE_RITUAL_SPELLS</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:83</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ada611aabb6d3a5bbfaa9afb3076100f8"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ada611aabb6d3a5bbfaa9afb3076100f8">EVENT_SORROWGRAVE_FLAMES2</a></div><div class="ttdeci">@ EVENT_SORROWGRAVE_FLAMES2</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:81</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3329d9d369a4ae5cfa5d8eac33a0c0c6" name="a3329d9d369a4ae5cfa5d8eac33a0c0c6"></a>
@@ -7623,7 +7662,69 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a3329d9d369a4ae5cfa5d8eac33a0c0c6ab4e2567cf14e7f5312e0df378558e2cb" name="a3329d9d369a4ae5cfa5d8eac33a0c0c6ab4e2567cf14e7f5312e0df378558e2cb"></a>EVENT_SCENE_16&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3329d9d369a4ae5cfa5d8eac33a0c0c6afaba2ba84c4b5d02f3948821fd5850b3" name="a3329d9d369a4ae5cfa5d8eac33a0c0c6afaba2ba84c4b5d02f3948821fd5850b3"></a>NPC_DK_GHOUL&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <span class="comment">// SAY</span></div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab9c86d2d26f70b56cf43b82605f6dcdb">TALK_INTRO_A1</a>                           = 0,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a354d0179c32564f8966532c8c84cdfac">TALK_INTRO_A2</a>                           = 1,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a0b7ed79b9887d90785407629ab71932b">TALK_INTRO_S1</a>                           = 0,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a959580d69e96f5b9370909c40ca5bca9">TALK_INTRO_S2</a>                           = 0,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab8989b2bfa6173faa3c931ec48e0f7c4">TALK_INTRO_S3</a>                           = 1,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>                               = 2,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9e64f6e600dd42567d18006912811f75">SAY_SLAY</a>                                = 3,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>                               = 4,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a2846a5cb1800026956ef91145bd79590">SAY_SACRIFICE_PLAYER</a>                    = 5,</div>
+<div class="line"><span class="lineno">   37</span> </div>
+<div class="line"><span class="lineno">   38</span>    <span class="comment">// SPELLS</span></div>
+<div class="line"><span class="lineno">   39</span>    <span class="comment">// INTRO</span></div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a38c22e4423ec2050aee8fb5688a86ef7">SPELL_ARTHAS_TRANSFORMING_SVALA</a>         = 54142,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9695a4c93b402363fc965a6ddcd5d595">SPELL_SVALA_TRANSFORMING1</a>               = 54205,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6aaa98b1431ab364abb76185e1ec4a4711">SPELL_SVALA_TRANSFORMING2</a>               = 54140,</div>
+<div class="line"><span class="lineno">   43</span> </div>
+<div class="line"><span class="lineno">   44</span>    <span class="comment">// SORROWGRAVE</span></div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9b347a4bdea53ecd8ed92c5747265a87">SPELL_CALL_FLAMES</a>                       = 48258,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a291e288ad9115f4f51b797d7c2cf467d">SPELL_BALL_OF_FLAME</a>                     = 48246,</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab52abb40cd9646c4b82bd94f6683bae6">SPELL_RITUAL_OF_THE_SWORD</a>               = 48276,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a8834c7cb3bf7887836b7eb86eab56c19">SPELL_RITUAL_STRIKE</a>                     = 48331,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a24abdd2abfe0c433e298ed3458eaaf07">SPELL_SINSTER_STRIKE_N</a>                  = 15667,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6afbdc187141606faccc83958c1af4486a">SPELL_SINSTER_STRIKE_H</a>                  = 59409,</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a1bf81c2232a2868696971030a104f9e7">EQUIP_SWORD</a>                             = 40343,</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>    <span class="comment">// CHANNELERS</span></div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6abdce16544ce0bef6f5399bbf640e6f01">SPELL_PARALYZE</a>                          = 48278,</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a7b9b55d4534958ec997c7340f390d9c1">SPELL_SHADOWS_IN_THE_DARK</a>               = 59407,</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a73cc106ecf58fcd3a75fa23f9ff7a21c">SPELL_TELEPORT_VISUAL</a>                   = 64446,</div>
+<div class="line"><span class="lineno">   57</span> </div>
+<div class="line"><span class="lineno">   58</span>    <span class="comment">// NPCS</span></div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ae1ceb8b32b052fe8b07d0d5b088324d2">NPC_RITUAL_CHANNELER</a>                    = 27281,</div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a773ab2d711b2cf2061e2a722b70aa23b">NPC_ARTHAS</a>                              = 29280,</div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a179adf98fa515e251aaec56c68352847">NPC_FLAME_BRAZIER</a>                       = 27273,</div>
+<div class="line"><span class="lineno">   62</span>};</div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:35</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a0b7ed79b9887d90785407629ab71932b"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a0b7ed79b9887d90785407629ab71932b">TALK_INTRO_S1</a></div><div class="ttdeci">@ TALK_INTRO_S1</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:30</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a179adf98fa515e251aaec56c68352847"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a179adf98fa515e251aaec56c68352847">NPC_FLAME_BRAZIER</a></div><div class="ttdeci">@ NPC_FLAME_BRAZIER</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:61</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a1bf81c2232a2868696971030a104f9e7"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a1bf81c2232a2868696971030a104f9e7">EQUIP_SWORD</a></div><div class="ttdeci">@ EQUIP_SWORD</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:51</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a24abdd2abfe0c433e298ed3458eaaf07"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a24abdd2abfe0c433e298ed3458eaaf07">SPELL_SINSTER_STRIKE_N</a></div><div class="ttdeci">@ SPELL_SINSTER_STRIKE_N</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:49</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a2846a5cb1800026956ef91145bd79590"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a2846a5cb1800026956ef91145bd79590">SAY_SACRIFICE_PLAYER</a></div><div class="ttdeci">@ SAY_SACRIFICE_PLAYER</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:36</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a291e288ad9115f4f51b797d7c2cf467d"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a291e288ad9115f4f51b797d7c2cf467d">SPELL_BALL_OF_FLAME</a></div><div class="ttdeci">@ SPELL_BALL_OF_FLAME</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:46</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a354d0179c32564f8966532c8c84cdfac"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a354d0179c32564f8966532c8c84cdfac">TALK_INTRO_A2</a></div><div class="ttdeci">@ TALK_INTRO_A2</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:29</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a38c22e4423ec2050aee8fb5688a86ef7"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a38c22e4423ec2050aee8fb5688a86ef7">SPELL_ARTHAS_TRANSFORMING_SVALA</a></div><div class="ttdeci">@ SPELL_ARTHAS_TRANSFORMING_SVALA</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:40</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:33</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a73cc106ecf58fcd3a75fa23f9ff7a21c"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a73cc106ecf58fcd3a75fa23f9ff7a21c">SPELL_TELEPORT_VISUAL</a></div><div class="ttdeci">@ SPELL_TELEPORT_VISUAL</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:56</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a773ab2d711b2cf2061e2a722b70aa23b"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a773ab2d711b2cf2061e2a722b70aa23b">NPC_ARTHAS</a></div><div class="ttdeci">@ NPC_ARTHAS</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:60</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a7b9b55d4534958ec997c7340f390d9c1"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a7b9b55d4534958ec997c7340f390d9c1">SPELL_SHADOWS_IN_THE_DARK</a></div><div class="ttdeci">@ SPELL_SHADOWS_IN_THE_DARK</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:55</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a8834c7cb3bf7887836b7eb86eab56c19"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a8834c7cb3bf7887836b7eb86eab56c19">SPELL_RITUAL_STRIKE</a></div><div class="ttdeci">@ SPELL_RITUAL_STRIKE</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:48</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a959580d69e96f5b9370909c40ca5bca9"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a959580d69e96f5b9370909c40ca5bca9">TALK_INTRO_S2</a></div><div class="ttdeci">@ TALK_INTRO_S2</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:31</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a9695a4c93b402363fc965a6ddcd5d595"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9695a4c93b402363fc965a6ddcd5d595">SPELL_SVALA_TRANSFORMING1</a></div><div class="ttdeci">@ SPELL_SVALA_TRANSFORMING1</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:41</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a9b347a4bdea53ecd8ed92c5747265a87"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9b347a4bdea53ecd8ed92c5747265a87">SPELL_CALL_FLAMES</a></div><div class="ttdeci">@ SPELL_CALL_FLAMES</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:45</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a9e64f6e600dd42567d18006912811f75"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9e64f6e600dd42567d18006912811f75">SAY_SLAY</a></div><div class="ttdeci">@ SAY_SLAY</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:34</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6aaa98b1431ab364abb76185e1ec4a4711"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6aaa98b1431ab364abb76185e1ec4a4711">SPELL_SVALA_TRANSFORMING2</a></div><div class="ttdeci">@ SPELL_SVALA_TRANSFORMING2</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:42</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6ab52abb40cd9646c4b82bd94f6683bae6"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab52abb40cd9646c4b82bd94f6683bae6">SPELL_RITUAL_OF_THE_SWORD</a></div><div class="ttdeci">@ SPELL_RITUAL_OF_THE_SWORD</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:47</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6ab8989b2bfa6173faa3c931ec48e0f7c4"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab8989b2bfa6173faa3c931ec48e0f7c4">TALK_INTRO_S3</a></div><div class="ttdeci">@ TALK_INTRO_S3</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:32</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6ab9c86d2d26f70b56cf43b82605f6dcdb"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab9c86d2d26f70b56cf43b82605f6dcdb">TALK_INTRO_A1</a></div><div class="ttdeci">@ TALK_INTRO_A1</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:28</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6abdce16544ce0bef6f5399bbf640e6f01"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6abdce16544ce0bef6f5399bbf640e6f01">SPELL_PARALYZE</a></div><div class="ttdeci">@ SPELL_PARALYZE</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:54</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6ae1ceb8b32b052fe8b07d0d5b088324d2"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ae1ceb8b32b052fe8b07d0d5b088324d2">NPC_RITUAL_CHANNELER</a></div><div class="ttdeci">@ NPC_RITUAL_CHANNELER</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:59</div></div>
+<div class="ttc" id="aboss__svala_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6afbdc187141606faccc83958c1af4486a"><div class="ttname"><a href="../../d6/d00/boss__svala_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6afbdc187141606faccc83958c1af4486a">SPELL_SINSTER_STRIKE_H</a></div><div class="ttdeci">@ SPELL_SINSTER_STRIKE_H</div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -7641,7 +7742,15 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  452</span>{</div>
+<div class="line"><span class="lineno">  453</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/db0/classboss__svala.html">boss_svala</a>();</div>
+<div class="line"><span class="lineno">  454</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/dbf/classnpc__ritual__channeler.html">npc_ritual_channeler</a>();</div>
+<div class="line"><span class="lineno">  455</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/dc4/classspell__svala__ritual__strike.html">spell_svala_ritual_strike</a>();</div>
+<div class="line"><span class="lineno">  456</span>}</div>
+<div class="ttc" id="aclassboss__svala_html"><div class="ttname"><a href="../../df/db0/classboss__svala.html">boss_svala</a></div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:99</div></div>
+<div class="ttc" id="aclassnpc__ritual__channeler_html"><div class="ttname"><a href="../../d3/dbf/classnpc__ritual__channeler.html">npc_ritual_channeler</a></div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:371</div></div>
+<div class="ttc" id="aclassspell__svala__ritual__strike_html"><div class="ttname"><a href="../../db/dc4/classspell__svala__ritual__strike.html">spell_svala_ritual_strike</a></div><div class="ttdef"><b>Definition:</b> boss_svala.cpp:399</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -7671,7 +7780,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_d1549822ab15c727c75ddc2dceea56dd.html">UtgardeKeep</a></li><li class="navelem"><a class="el" href="../../dir_c6c1ef729e7487551f9ee2947f9e6a75.html">UtgardePinnacle</a></li><li class="navelem"><a class="el" href="../../d6/d00/boss__svala_8cpp.html">boss_svala.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

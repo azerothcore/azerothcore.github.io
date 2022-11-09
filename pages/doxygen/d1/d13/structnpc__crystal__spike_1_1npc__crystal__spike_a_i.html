@@ -394,7 +394,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac30dc3941c92fa0cda6639864f803a55" name="ac30dc3941c92fa0cda6639864f803a55"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac30dc3941c92fa0cda6639864f803a55">&#9670;&#160;</a></span>npc_crystal_spikeAI()</h2>
 
@@ -418,7 +419,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  194</span>                                         : <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(c)</div>
+<div class="line"><span class="lineno">  195</span>        {</div>
+<div class="line"><span class="lineno">  196</span>        }</div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -446,7 +451,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a43eb9ef68b977d98f6618d69a0d62115">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  202</span>        {</div>
+<div class="line"><span class="lineno">  203</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* gameobject = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ae5570989260234d213323c44ab5fb44c">SummonGameObject</a>(<a class="code hl_enumvalue" href="../../d5/d7b/boss__ormorok_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a61e12830df60166c3751543e2a744a66">GO_CRYSTAL_SPIKE</a>, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>(), 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 3500))</div>
+<div class="line"><span class="lineno">  204</span>                <a class="code hl_variable" href="../../d1/d13/structnpc__crystal__spike_1_1npc__crystal__spike_a_i.html#acdeacf285b083f4c802295d8d0583ed7">_gameObjectGUID</a> = gameobject-&gt;GetGUID();</div>
+<div class="line"><span class="lineno">  205</span> </div>
+<div class="line"><span class="lineno">  206</span>            <a class="code hl_variable" href="../../d1/d13/structnpc__crystal__spike_1_1npc__crystal__spike_a_i.html#a0bbd82d1c92be0ac595d1ab9704b6162">_damageTimer</a> = 1;</div>
+<div class="line"><span class="lineno">  207</span>        }</div>
+<div class="ttc" id="aboss__ormorok_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a61e12830df60166c3751543e2a744a66"><div class="ttname"><a href="../../d5/d7b/boss__ormorok_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a61e12830df60166c3751543e2a744a66">GO_CRYSTAL_SPIKE</a></div><div class="ttdeci">@ GO_CRYSTAL_SPIKE</div><div class="ttdef"><b>Definition:</b> boss_ormorok.cpp:59</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_world_object_html_ae5570989260234d213323c44ab5fb44c"><div class="ttname"><a href="../../db/df7/class_world_object.html#ae5570989260234d213323c44ab5fb44c">WorldObject::SummonGameObject</a></div><div class="ttdeci">GameObject * SummonGameObject(uint32 entry, float x, float y, float z, float ang, float rotation0, float rotation1, float rotation2, float rotation3, uint32 respawnTime, bool checkTransport=true, GOSummonType summonType=GO_SUMMON_TIMED_OR_CORPSE_DESPAWN)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2315</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astructnpc__crystal__spike_1_1npc__crystal__spike_a_i_html_a0bbd82d1c92be0ac595d1ab9704b6162"><div class="ttname"><a href="../../d1/d13/structnpc__crystal__spike_1_1npc__crystal__spike_a_i.html#a0bbd82d1c92be0ac595d1ab9704b6162">npc_crystal_spike::npc_crystal_spikeAI::_damageTimer</a></div><div class="ttdeci">int32 _damageTimer</div><div class="ttdef"><b>Definition:</b> boss_ormorok.cpp:198</div></div>
+<div class="ttc" id="astructnpc__crystal__spike_1_1npc__crystal__spike_a_i_html_acdeacf285b083f4c802295d8d0583ed7"><div class="ttname"><a href="../../d1/d13/structnpc__crystal__spike_1_1npc__crystal__spike_a_i.html#acdeacf285b083f4c802295d8d0583ed7">npc_crystal_spike::npc_crystal_spikeAI::_gameObjectGUID</a></div><div class="ttdeci">ObjectGuid _gameObjectGUID</div><div class="ttdef"><b>Definition:</b> boss_ormorok.cpp:199</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a158ca019d06e045358ba305bd6e20bc1" name="a158ca019d06e045358ba305bd6e20bc1"></a>
@@ -474,7 +494,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  210</span>        {</div>
+<div class="line"><span class="lineno">  211</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d13/structnpc__crystal__spike_1_1npc__crystal__spike_a_i.html#a0bbd82d1c92be0ac595d1ab9704b6162">_damageTimer</a>)</div>
+<div class="line"><span class="lineno">  212</span>            {</div>
+<div class="line"><span class="lineno">  213</span>                <a class="code hl_variable" href="../../d1/d13/structnpc__crystal__spike_1_1npc__crystal__spike_a_i.html#a0bbd82d1c92be0ac595d1ab9704b6162">_damageTimer</a> += diff;</div>
+<div class="line"><span class="lineno">  214</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d13/structnpc__crystal__spike_1_1npc__crystal__spike_a_i.html#a0bbd82d1c92be0ac595d1ab9704b6162">_damageTimer</a> &gt;= 2000)</div>
+<div class="line"><span class="lineno">  215</span>                {</div>
+<div class="line"><span class="lineno">  216</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* gameobject = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a424a63829a446dac6f97a464cc64ed48">ObjectAccessor::GetGameObject</a>(*<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_variable" href="../../d1/d13/structnpc__crystal__spike_1_1npc__crystal__spike_a_i.html#acdeacf285b083f4c802295d8d0583ed7">_gameObjectGUID</a>))</div>
+<div class="line"><span class="lineno">  217</span>                        gameobject-&gt;SetGoState(<a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a>);</div>
+<div class="line"><span class="lineno">  218</span> </div>
+<div class="line"><span class="lineno">  219</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d5/d7b/boss__ormorok_8cpp.html#a0ec08fe05ebfdddfa34c747c9c62a165af796c5dc017cbece6a3c89dd7cb8d190">SPELL_CRYSTAL_SPIKE_DAMAGE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  220</span>                    <a class="code hl_variable" href="../../d1/d13/structnpc__crystal__spike_1_1npc__crystal__spike_a_i.html#a0bbd82d1c92be0ac595d1ab9704b6162">_damageTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  221</span>                }</div>
+<div class="line"><span class="lineno">  222</span>            }</div>
+<div class="line"><span class="lineno">  223</span>        }</div>
+<div class="ttc" id="a_game_object_8h_html_ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a></div><div class="ttdeci">@ GO_STATE_ACTIVE</div><div class="ttdef"><b>Definition:</b> GameObject.h:734</div></div>
+<div class="ttc" id="aboss__ormorok_8cpp_html_a0ec08fe05ebfdddfa34c747c9c62a165af796c5dc017cbece6a3c89dd7cb8d190"><div class="ttname"><a href="../../d5/d7b/boss__ormorok_8cpp.html#a0ec08fe05ebfdddfa34c747c9c62a165af796c5dc017cbece6a3c89dd7cb8d190">SPELL_CRYSTAL_SPIKE_DAMAGE</a></div><div class="ttdeci">@ SPELL_CRYSTAL_SPIKE_DAMAGE</div><div class="ttdef"><b>Definition:</b> boss_ormorok.cpp:25</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a424a63829a446dac6f97a464cc64ed48"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a424a63829a446dac6f97a464cc64ed48">ObjectAccessor::GetGameObject</a></div><div class="ttdeci">GameObject * GetGameObject(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:189</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -507,7 +545,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Nexus/Nexus/<a class="el" href="../../d5/d7b/boss__ormorok_8cpp.html">boss_ormorok.cpp</a></li>
+<li><a class="el" href="../../">boss_ormorok.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -515,7 +553,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d8d/classnpc__crystal__spike.html">npc_crystal_spike</a></li><li class="navelem"><a class="el" href="../../d1/d13/structnpc__crystal__spike_1_1npc__crystal__spike_a_i.html">npc_crystal_spikeAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

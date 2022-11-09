@@ -147,7 +147,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a2b9e4c3d292b7e3deea57e1542b3ba12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9d/class_corrupt_triggers.html#a2b9e4c3d292b7e3deea57e1542b3ba12">_caster</a></td></tr>
 <tr class="separator:a2b9e4c3d292b7e3deea57e1542b3ba12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5ec60254ee2ac299ce99164189087a1c" name="a5ec60254ee2ac299ce99164189087a1c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5ec60254ee2ac299ce99164189087a1c">&#9670;&#160;</a></span>CorruptTriggers()</h2>
 
@@ -171,7 +172,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  108</span>                                  : <a class="code hl_variable" href="../../d4/d9d/class_corrupt_triggers.html#a2b9e4c3d292b7e3deea57e1542b3ba12">_caster</a>(caster)</div>
+<div class="line"><span class="lineno">  109</span>    {</div>
+<div class="line"><span class="lineno">  110</span>    }</div>
+<div class="ttc" id="aclass_corrupt_triggers_html_a2b9e4c3d292b7e3deea57e1542b3ba12"><div class="ttname"><a href="../../d4/d9d/class_corrupt_triggers.html#a2b9e4c3d292b7e3deea57e1542b3ba12">CorruptTriggers::_caster</a></div><div class="ttdeci">Unit * _caster</div><div class="ttdef"><b>Definition:</b> boss_felmyst.cpp:123</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -210,7 +215,19 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  113</span>    {</div>
+<div class="line"><span class="lineno">  114</span>        std::list&lt;Creature*&gt; cList;</div>
+<div class="line"><span class="lineno">  115</span>        <a class="code hl_variable" href="../../d4/d9d/class_corrupt_triggers.html#a2b9e4c3d292b7e3deea57e1542b3ba12">_caster</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa95da5ea65fa0d7f7cd74c11b70b1ed2">GetCreaturesWithEntryInRange</a>(cList, 70.0f, <a class="code hl_enumvalue" href="../../d6/de9/boss__felmyst_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a7693ca0f68e1a5d3d6c41858ac1587af">NPC_FOG_TRIGGER</a>);</div>
+<div class="line"><span class="lineno">  116</span>        <span class="keywordflow">for</span> (std::list&lt;Creature*&gt;::const_iterator itr = cList.begin(); itr != cList.end(); ++itr)</div>
+<div class="line"><span class="lineno">  117</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d9d/class_corrupt_triggers.html#a2b9e4c3d292b7e3deea57e1542b3ba12">_caster</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a2c4639bb74233e1c02c99c465e28895e">GetExactDist2d</a>(*itr) &lt;= 11.0f)</div>
+<div class="line"><span class="lineno">  118</span>                (*itr)-&gt;CastSpell(*itr, <a class="code hl_enumvalue" href="../../d6/de9/boss__felmyst_8cpp.html#a5bd342133be8c2137b831460acc9298ca8ea2135546670e7c28329850db865b74">SPELL_FOG_OF_CORRUPTION</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  119</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  120</span>    }</div>
+<div class="ttc" id="aboss__felmyst_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a7693ca0f68e1a5d3d6c41858ac1587af"><div class="ttname"><a href="../../d6/de9/boss__felmyst_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a7693ca0f68e1a5d3d6c41858ac1587af">NPC_FOG_TRIGGER</a></div><div class="ttdeci">@ NPC_FOG_TRIGGER</div><div class="ttdef"><b>Definition:</b> boss_felmyst.cpp:102</div></div>
+<div class="ttc" id="aboss__felmyst_8cpp_html_a5bd342133be8c2137b831460acc9298ca8ea2135546670e7c28329850db865b74"><div class="ttname"><a href="../../d6/de9/boss__felmyst_8cpp.html#a5bd342133be8c2137b831460acc9298ca8ea2135546670e7c28329850db865b74">SPELL_FOG_OF_CORRUPTION</a></div><div class="ttdeci">@ SPELL_FOG_OF_CORRUPTION</div><div class="ttdef"><b>Definition:</b> boss_felmyst.cpp:56</div></div>
+<div class="ttc" id="aclass_world_object_html_aa95da5ea65fa0d7f7cd74c11b70b1ed2"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa95da5ea65fa0d7f7cd74c11b70b1ed2">WorldObject::GetCreaturesWithEntryInRange</a></div><div class="ttdeci">void GetCreaturesWithEntryInRange(std::list&lt; Creature * &gt; &amp;creatureList, float radius, uint32 entry)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2998</div></div>
+<div class="ttc" id="astruct_position_html_a2c4639bb74233e1c02c99c465e28895e"><div class="ttname"><a href="../../d1/d26/struct_position.html#a2c4639bb74233e1c02c99c465e28895e">Position::GetExactDist2d</a></div><div class="ttdeci">float GetExactDist2d(const float x, const float y) const</div><div class="ttdef"><b>Definition:</b> Position.h:166</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -237,7 +254,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/SunwellPlateau/<a class="el" href="../../d6/de9/boss__felmyst_8cpp.html">boss_felmyst.cpp</a></li>
+<li><a class="el" href="../../">boss_felmyst.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -245,7 +262,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d9d/class_corrupt_triggers.html">CorruptTriggers</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

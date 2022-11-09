@@ -493,7 +493,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a415ea0ebd044236f5f4c4d6c28896e00" name="a415ea0ebd044236f5f4c4d6c28896e00"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a415ea0ebd044236f5f4c4d6c28896e00">&#9670;&#160;</a></span>npc_coren_direbrew_sisters()</h2>
 
@@ -517,7 +518,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1732</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -546,7 +549,52 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1753</span>    {</div>
+<div class="line"><span class="lineno"> 1754</span>        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0a743ff1167884afff634529ef21704d7a">SPELL_PORT_TO_COREN</a>);</div>
+<div class="line"><span class="lineno"> 1755</span> </div>
+<div class="line"><span class="lineno"> 1756</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ac0f691e5e38d07f709b42c1f70418f00a944f5d79c4cd160d36636a1e8c999a28">NPC_URSULA_DIREBREW</a>)</div>
+<div class="line"><span class="lineno"> 1757</span>        {</div>
+<div class="line"><span class="lineno"> 1758</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0ada3218f6bfaf55db59562a2e92649adc">SPELL_BARRELED_CONTROL_AURA</a>);</div>
+<div class="line"><span class="lineno"> 1759</span>        }</div>
+<div class="line"><span class="lineno"> 1760</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1761</span>        {</div>
+<div class="line"><span class="lineno"> 1762</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0a3e19a5a040db85ae93cb393673de5cfb">SPELL_SEND_MUG_CONTROL_AURA</a>);</div>
+<div class="line"><span class="lineno"> 1763</span>        }</div>
+<div class="line"><span class="lineno"> 1764</span> </div>
+<div class="line"><span class="lineno"> 1765</span>        <a class="code hl_variable" href="../../d4/d66/structnpc__coren__direbrew__sisters.html#a9d8ca85e7bbd3cc9c61c2bbb38b7d222">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#af2bb90b6b81ab1cacd9ac56c3d7e11b2">SetValidator</a>([<span class="keyword">this</span>]</div>
+<div class="line"><span class="lineno"> 1766</span>        {</div>
+<div class="line"><span class="lineno"> 1767</span>            <span class="keywordflow">return</span> !<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>);</div>
+<div class="line"><span class="lineno"> 1768</span>        })</div>
+<div class="line"><span class="lineno"> 1769</span>        .Schedule(<a class="code hl_typedef" href="../../da/dfd/_duration_8h.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>(2), [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> mugChuck)</div>
+<div class="line"><span class="lineno"> 1770</span>        {</div>
+<div class="line"><span class="lineno"> 1771</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 0.0f, <span class="keyword">false</span>, -<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0aff062d4f8fa16b6d72f2ce3b54a4fbbd">SPELL_HAS_DARK_BREWMAIDENS_BREW</a>))</div>
+<div class="line"><span class="lineno"> 1772</span>            {</div>
+<div class="line"><span class="lineno"> 1773</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0a8631c8d0b41e24ea4731240038765f16">SPELL_CHUCK_MUG</a>);</div>
+<div class="line"><span class="lineno"> 1774</span>            }</div>
+<div class="line"><span class="lineno"> 1775</span> </div>
+<div class="line"><span class="lineno"> 1776</span>            mugChuck.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(<a class="code hl_typedef" href="../../da/dfd/_duration_8h.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>(4));</div>
+<div class="line"><span class="lineno"> 1777</span>        });</div>
+<div class="line"><span class="lineno"> 1778</span>    }</div>
+<div class="ttc" id="a_duration_8h_html_a3cd82f1c195a0b935b4d66b02a41acd8"><div class="ttname"><a href="../../da/dfd/_duration_8h.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a></div><div class="ttdeci">std::chrono::seconds Seconds</div><div class="ttdoc">Seconds shorthand typedef.</div><div class="ttdef"><b>Definition:</b> Duration.h:30</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_ac0f691e5e38d07f709b42c1f70418f00a944f5d79c4cd160d36636a1e8c999a28"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ac0f691e5e38d07f709b42c1f70418f00a944f5d79c4cd160d36636a1e8c999a28">NPC_URSULA_DIREBREW</a></div><div class="ttdeci">@ NPC_URSULA_DIREBREW</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1457</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_acf86a0bbb7e655957dd212f3aea686d0a3e19a5a040db85ae93cb393673de5cfb"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0a3e19a5a040db85ae93cb393673de5cfb">SPELL_SEND_MUG_CONTROL_AURA</a></div><div class="ttdeci">@ SPELL_SEND_MUG_CONTROL_AURA</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1471</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_acf86a0bbb7e655957dd212f3aea686d0a743ff1167884afff634529ef21704d7a"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0a743ff1167884afff634529ef21704d7a">SPELL_PORT_TO_COREN</a></div><div class="ttdeci">@ SPELL_PORT_TO_COREN</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1470</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_acf86a0bbb7e655957dd212f3aea686d0a8631c8d0b41e24ea4731240038765f16"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0a8631c8d0b41e24ea4731240038765f16">SPELL_CHUCK_MUG</a></div><div class="ttdeci">@ SPELL_CHUCK_MUG</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1469</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_acf86a0bbb7e655957dd212f3aea686d0ada3218f6bfaf55db59562a2e92649adc"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0ada3218f6bfaf55db59562a2e92649adc">SPELL_BARRELED_CONTROL_AURA</a></div><div class="ttdeci">@ SPELL_BARRELED_CONTROL_AURA</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1477</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_acf86a0bbb7e655957dd212f3aea686d0aff062d4f8fa16b6d72f2ce3b54a4fbbd"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0aff062d4f8fa16b6d72f2ce3b54a4fbbd">SPELL_HAS_DARK_BREWMAIDENS_BREW</a></div><div class="ttdeci">@ SPELL_HAS_DARK_BREWMAIDENS_BREW</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1476</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_task_context_html"><div class="ttname"><a href="../../d2/dd9/class_task_context.html">TaskContext</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
+<div class="ttc" id="aclass_task_context_html_a380c596857dd0030414db5e8d28a3dda"><div class="ttname"><a href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">TaskContext::Repeat</a></div><div class="ttdeci">TaskContext &amp; Repeat(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:470</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_af2bb90b6b81ab1cacd9ac56c3d7e11b2"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#af2bb90b6b81ab1cacd9ac56c3d7e11b2">TaskScheduler::SetValidator</a></div><div class="ttdeci">TaskScheduler &amp; SetValidator(P &amp;&amp;predicate)</div><div class="ttdoc">Sets a validator which is asked if tasks are allowed to be executed.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:182</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6ae5c7d15b747433f4d94f80bcebd215"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">UnitAI::DoCastSelf</a></div><div class="ttdeci">SpellCastResult DoCastSelf(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:323</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__coren__direbrew__sisters_html_a9d8ca85e7bbd3cc9c61c2bbb38b7d222"><div class="ttname"><a href="../../d4/d66/structnpc__coren__direbrew__sisters.html#a9d8ca85e7bbd3cc9c61c2bbb38b7d222">npc_coren_direbrew_sisters::_scheduler</a></div><div class="ttdeci">TaskScheduler _scheduler</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1790</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a61863117e71ebfb7f1c4c83780ece7bc" name="a61863117e71ebfb7f1c4c83780ece7bc"></a>
@@ -574,7 +622,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a88b3f14630803365aeb7952d765a7cf1">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1743</span>    {</div>
+<div class="line"><span class="lineno"> 1744</span>        <span class="keywordflow">if</span> (data == <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4a2f0d7897edbeeb73848984e8f03fae75">DATA_TARGET_GUID</a>)</div>
+<div class="line"><span class="lineno"> 1745</span>        {</div>
+<div class="line"><span class="lineno"> 1746</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d66/structnpc__coren__direbrew__sisters.html#a801a6811124a7db3a31ec492ef954b20">_targetGUID</a>;</div>
+<div class="line"><span class="lineno"> 1747</span>        }</div>
+<div class="line"><span class="lineno"> 1748</span> </div>
+<div class="line"><span class="lineno"> 1749</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>;</div>
+<div class="line"><span class="lineno"> 1750</span>    }</div>
+<div class="ttc" id="abrewfest_8cpp_html_ad0fcc3268b0d04cfc8231f0143d898c4a2f0d7897edbeeb73848984e8f03fae75"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4a2f0d7897edbeeb73848984e8f03fae75">DATA_TARGET_GUID</a></div><div class="ttdeci">@ DATA_TARGET_GUID</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1507</div></div>
+<div class="ttc" id="aclass_object_guid_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+<div class="ttc" id="astructnpc__coren__direbrew__sisters_html_a801a6811124a7db3a31ec492ef954b20"><div class="ttname"><a href="../../d4/d66/structnpc__coren__direbrew__sisters.html#a801a6811124a7db3a31ec492ef954b20">npc_coren_direbrew_sisters::_targetGUID</a></div><div class="ttdeci">ObjectGuid _targetGUID</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1789</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ada2e446a929bbba088d3c7e09d117f93" name="ada2e446a929bbba088d3c7e09d117f93"></a>
@@ -612,7 +671,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#aed57e805b8792eda265a1a426fcf152a">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1735</span>    {</div>
+<div class="line"><span class="lineno"> 1736</span>        <span class="keywordflow">if</span> (<span class="keywordtype">id</span> == <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4a2f0d7897edbeeb73848984e8f03fae75">DATA_TARGET_GUID</a>)</div>
+<div class="line"><span class="lineno"> 1737</span>        {</div>
+<div class="line"><span class="lineno"> 1738</span>            <a class="code hl_variable" href="../../d4/d66/structnpc__coren__direbrew__sisters.html#a801a6811124a7db3a31ec492ef954b20">_targetGUID</a> = guid;</div>
+<div class="line"><span class="lineno"> 1739</span>        }</div>
+<div class="line"><span class="lineno"> 1740</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7434b08d12d3f0902d1944b75323560c" name="a7434b08d12d3f0902d1944b75323560c"></a>
@@ -640,7 +705,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1781</span>    {</div>
+<div class="line"><span class="lineno"> 1782</span>        <a class="code hl_variable" href="../../d4/d66/structnpc__coren__direbrew__sisters.html#a9d8ca85e7bbd3cc9c61c2bbb38b7d222">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">Update</a>(diff, [<span class="keyword">this</span>]</div>
+<div class="line"><span class="lineno"> 1783</span>        {</div>
+<div class="line"><span class="lineno"> 1784</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno"> 1785</span>        });</div>
+<div class="line"><span class="lineno"> 1786</span>    }</div>
+<div class="ttc" id="aclass_task_scheduler_html_a35c0891c7aded13c6ae7ecd2e6d480a9"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">TaskScheduler::Update</a></div><div class="ttdeci">TaskScheduler &amp; Update(success_t const &amp;callback=EmptyCallback)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:15</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -689,7 +762,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../dc/ddf/brewfest_8cpp.html">brewfest.cpp</a></li>
+<li><a class="el" href="../../">brewfest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -697,7 +770,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d66/structnpc__coren__direbrew__sisters.html">npc_coren_direbrew_sisters</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

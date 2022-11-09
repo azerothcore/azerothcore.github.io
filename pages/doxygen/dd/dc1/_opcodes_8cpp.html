@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/Server/Protocol/Opcodes.cpp File Reference</title>
+<title>AzeorthCore: Opcodes.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -113,13 +113,15 @@ $(document).ready(function(){initNavTree('dd/dc1/_opcodes_8cpp.html','../../'); 
   <div class="headertitle"><div class="title">Opcodes.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../da/d10/_opcodes_8h_source.html">Opcodes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/df4/_log_8h_source.html">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d9e/_all_packets_8h_source.html">Packets/AllPackets.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/dc6/_world_session_8h_source.html">WorldSession.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Packets/AllPackets.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
 <code>#include &lt;iomanip&gt;</code><br />
 <code>#include &lt;sstream&gt;</code><br />
-</div><table class="memberdecls">
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/class_packet_handler.html">PacketHandler&lt; PacketClass, HandlerFunction &gt;</a></td></tr>
@@ -251,7 +253,29 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1449</span>{</div>
+<div class="line"><span class="lineno"> 1450</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> opcode = <a class="code hl_typedef" href="../../db/d35/_define_8h.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>(<span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno"> 1451</span>    std::ostringstream ss;</div>
+<div class="line"><span class="lineno"> 1452</span>    ss &lt;&lt; <span class="charliteral">&#39;[&#39;</span>;</div>
+<div class="line"><span class="lineno"> 1453</span> </div>
+<div class="line"><span class="lineno"> 1454</span>    <span class="keywordflow">if</span> (<span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../db/d35/_define_8h.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a><span class="keyword">&gt;</span>(<span class="keywordtype">id</span>) &lt; <a class="code hl_enumvalue" href="../../d2/dec/group__u2w.html#ggace1bc0a234752bc4bc96594bd955f45ca2b55e6facd0266405bb0f7e775c6f611">NUM_OPCODE_HANDLERS</a>)</div>
+<div class="line"><span class="lineno"> 1455</span>    {</div>
+<div class="line"><span class="lineno"> 1456</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../df/df4/class_opcode_handler.html">OpcodeHandler</a> <span class="keyword">const</span>* handler = <a class="code hl_variable" href="../../d2/dec/group__u2w.html#gaab348862a5b8f265e05e5b0ac296162a">opcodeTable</a>[<span class="keywordtype">id</span>])</div>
+<div class="line"><span class="lineno"> 1457</span>            ss &lt;&lt; handler-&gt;Name;</div>
+<div class="line"><span class="lineno"> 1458</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1459</span>            ss &lt;&lt; <span class="stringliteral">&quot;UNKNOWN OPCODE&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1460</span>    }</div>
+<div class="line"><span class="lineno"> 1461</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1462</span>        ss &lt;&lt; <span class="stringliteral">&quot;INVALID OPCODE&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1463</span> </div>
+<div class="line"><span class="lineno"> 1464</span>    ss &lt;&lt; <span class="stringliteral">&quot; 0x&quot;</span> &lt;&lt; std::hex &lt;&lt; std::setw(4) &lt;&lt; std::setfill(<span class="charliteral">&#39;0&#39;</span>) &lt;&lt; std::uppercase &lt;&lt; opcode &lt;&lt; std::nouppercase &lt;&lt; std::dec &lt;&lt; <span class="stringliteral">&quot; (&quot;</span> &lt;&lt; opcode &lt;&lt; <span class="stringliteral">&quot;)]&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1465</span>    <span class="keywordflow">return</span> ss.str();</div>
+<div class="line"><span class="lineno"> 1466</span>}</div>
+<div class="ttc" id="a_define_8h_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../db/d35/_define_8h.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aclass_opcode_handler_html"><div class="ttname"><a href="../../df/df4/class_opcode_handler.html">OpcodeHandler</a></div><div class="ttdef"><b>Definition:</b> Opcodes.h:1374</div></div>
+<div class="ttc" id="agroup__u2w_html_gaab348862a5b8f265e05e5b0ac296162a"><div class="ttname"><a href="../../d2/dec/group__u2w.html#gaab348862a5b8f265e05e5b0ac296162a">opcodeTable</a></div><div class="ttdeci">OpcodeTable opcodeTable</div><div class="ttdef"><b>Definition:</b> Opcodes.cpp:51</div></div>
+<div class="ttc" id="agroup__u2w_html_ggace1bc0a234752bc4bc96594bd955f45ca2b55e6facd0266405bb0f7e775c6f611"><div class="ttname"><a href="../../d2/dec/group__u2w.html#ggace1bc0a234752bc4bc96594bd955f45ca2b55e6facd0266405bb0f7e775c6f611">NUM_OPCODE_HANDLERS</a></div><div class="ttdeci">@ NUM_OPCODE_HANDLERS</div><div class="ttdef"><b>Definition:</b> Opcodes.h:1346</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -260,7 +284,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_315286625446b425c001eecd2b17ef1a.html">Server</a></li><li class="navelem"><a class="el" href="../../dir_1fd92d9a30d0fdf42a981ea00259f736.html">Protocol</a></li><li class="navelem"><a class="el" href="../../dd/dc1/_opcodes_8cpp.html">Opcodes.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

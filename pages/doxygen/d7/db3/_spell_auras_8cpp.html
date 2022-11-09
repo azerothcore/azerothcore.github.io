@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/Spells/Auras/SpellAuras.cpp File Reference</title>
+<title>AzeorthCore: SpellAuras.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -110,27 +110,29 @@ $(document).ready(function(){initNavTree('d7/db3/_spell_auras_8cpp.html','../../
   <div class="headertitle"><div class="title">SpellAuras.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d9/ded/_arena_spectator_8h_source.html">ArenaSpectator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d39/_cell_impl_8h_source.html">CellImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d1f/_common_8h_source.html">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/daa/_game_time_8h_source.html">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/df4/_log_8h_source.html">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d59/_object_accessor_8h_source.html">ObjectAccessor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d77/_object_mgr_8h_source.html">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d10/_opcodes_8h_source.html">Opcodes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d39/_player_8h_source.html">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dfa/_spell_8h_source.html">Spell.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d82/_spell_aura_effects_8h_source.html">SpellAuraEffects.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d75/_spell_mgr_8h_source.html">SpellMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d32/_unit_8h_source.html">Unit.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d90/_util_8h_source.html">Util.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d90/_vehicle_8h_source.html">Vehicle.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d66/_world_packet_8h_source.html">WorldPacket.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/df9/_grid_notifiers_impl_8h_source.html">GridNotifiersImpl.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ArenaSpectator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Unit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a49c1eff45f8eb67e523f8593923a5df0"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db3/_spell_auras_8cpp.html#a49c1eff45f8eb67e523f8593923a5df0">UPDATE_TARGET_MAP_INTERVAL</a> = 500</td></tr>
@@ -165,7 +167,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_ef7aca743453a8310aabb86ba904b3f6.html">Spells</a></li><li class="navelem"><a class="el" href="../../dir_8af33554ddafa3432455437cc558c9c8.html">Auras</a></li><li class="navelem"><a class="el" href="../../d7/db3/_spell_auras_8cpp.html">SpellAuras.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

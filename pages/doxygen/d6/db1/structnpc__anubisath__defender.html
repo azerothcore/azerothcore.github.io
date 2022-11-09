@@ -495,7 +495,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae24a21ad3ebcaa4b8312a1fea66131ba" name="ae24a21ad3ebcaa4b8312a1fea66131ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae24a21ad3ebcaa4b8312a1fea66131ba">&#9670;&#160;</a></span>npc_anubisath_defender()</h2>
 
@@ -519,7 +520,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   75</span>                                               : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">   76</span>    {</div>
+<div class="line"><span class="lineno">   77</span>    }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -570,7 +575,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  149</span>    {</div>
+<div class="line"><span class="lineno">  150</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/db1/structnpc__anubisath__defender.html#a4adef63a5093e3c0ecb8b57283e94ff8">_enraged</a> &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">HealthBelowPctDamaged</a>(10, damage))</div>
+<div class="line"><span class="lineno">  151</span>        {</div>
+<div class="line"><span class="lineno">  152</span>            <a class="code hl_variable" href="../../d6/db1/structnpc__anubisath__defender.html#a4adef63a5093e3c0ecb8b57283e94ff8">_enraged</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  153</span>            damage = 0;</div>
+<div class="line"><span class="lineno">  154</span> </div>
+<div class="line"><span class="lineno">  155</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 1))</div>
+<div class="line"><span class="lineno">  156</span>            {</div>
+<div class="line"><span class="lineno">  157</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca2a20f56307679be4d4f01a0d3d93cc7e">SPELL_ENRAGE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  158</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298caf1e07bb745ccec2dbcf6b568b94d6a50">TALK_ENRAGE</a>);</div>
+<div class="line"><span class="lineno">  159</span>            }</div>
+<div class="line"><span class="lineno">  160</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  161</span>            {</div>
+<div class="line"><span class="lineno">  162</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298cac7fe4a075b9a9af0d891907d2f36a97b">SPELL_EXPLODE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  163</span>            }</div>
+<div class="line"><span class="lineno">  164</span>        }</div>
+<div class="line"><span class="lineno">  165</span>    }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6ae5c7d15b747433f4d94f80bcebd215"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">UnitAI::DoCastSelf</a></div><div class="ttdeci">SpellCastResult DoCastSelf(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:323</div></div>
+<div class="ttc" id="aclass_unit_html_ad08665e79b8df4fd5339b05ae1538dd9"><div class="ttname"><a href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">Unit::HealthBelowPctDamaged</a></div><div class="ttdeci">bool HealthBelowPctDamaged(int32 pct, uint32 damage) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1443</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__anubisath__defender_html_a4adef63a5093e3c0ecb8b57283e94ff8"><div class="ttname"><a href="../../d6/db1/structnpc__anubisath__defender.html#a4adef63a5093e3c0ecb8b57283e94ff8">npc_anubisath_defender::_enraged</a></div><div class="ttdeci">bool _enraged</div><div class="ttdef"><b>Definition:</b> temple_of_ahnqiraj.cpp:180</div></div>
+<div class="ttc" id="atemple__of__ahnqiraj_8cpp_html_a5bd342133be8c2137b831460acc9298ca2a20f56307679be4d4f01a0d3d93cc7e"><div class="ttname"><a href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca2a20f56307679be4d4f01a0d3d93cc7e">SPELL_ENRAGE</a></div><div class="ttdeci">@ SPELL_ENRAGE</div><div class="ttdef"><b>Definition:</b> temple_of_ahnqiraj.cpp:35</div></div>
+<div class="ttc" id="atemple__of__ahnqiraj_8cpp_html_a5bd342133be8c2137b831460acc9298cac7fe4a075b9a9af0d891907d2f36a97b"><div class="ttname"><a href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298cac7fe4a075b9a9af0d891907d2f36a97b">SPELL_EXPLODE</a></div><div class="ttdeci">@ SPELL_EXPLODE</div><div class="ttdef"><b>Definition:</b> temple_of_ahnqiraj.cpp:36</div></div>
+<div class="ttc" id="atemple__of__ahnqiraj_8cpp_html_a5bd342133be8c2137b831460acc9298caf1e07bb745ccec2dbcf6b568b94d6a50"><div class="ttname"><a href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298caf1e07bb745ccec2dbcf6b568b94d6a50">TALK_ENRAGE</a></div><div class="ttdeci">@ TALK_ENRAGE</div><div class="ttdef"><b>Definition:</b> temple_of_ahnqiraj.cpp:41</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2e3e707b114482f8e82f912b7ed24a63" name="a2e3e707b114482f8e82f912b7ed24a63"></a>
@@ -598,7 +629,79 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   86</span>    {</div>
+<div class="line"><span class="lineno">   87</span>        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 1) ? <a class="code hl_enumvalue" href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298cae2406a11d1bdb8b16b814464c4e4aa3f">SPELL_SHADOW_FROST_REFLECT</a> : <a class="code hl_enumvalue" href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca17b7a6ad8d4650eaaef54fa7a803a7ea">SPELL_FIRE_ARCANE_REFLECT</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 1))</div>
+<div class="line"><span class="lineno">   90</span>        {</div>
+<div class="line"><span class="lineno">   91</span>            <a class="code hl_variable" href="../../d6/db1/structnpc__anubisath__defender.html#ac8d2963f056e19c60ae82a2d1665d457">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(6s, 10s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">   92</span>            {</div>
+<div class="line"><span class="lineno">   93</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::MaxThreat, 1))</div>
+<div class="line"><span class="lineno">   94</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca9852a46c953e171195a8863b0248a328">SPELL_METEOR</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   95</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(6s, 10s);</div>
+<div class="line"><span class="lineno">   96</span>            });</div>
+<div class="line"><span class="lineno">   97</span>        }</div>
+<div class="line"><span class="lineno">   98</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   99</span>        {</div>
+<div class="line"><span class="lineno">  100</span>            <a class="code hl_variable" href="../../d6/db1/structnpc__anubisath__defender.html#ac8d2963f056e19c60ae82a2d1665d457">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(6s, 10s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  101</span>            {</div>
+<div class="line"><span class="lineno">  102</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::MaxThreat, 1))</div>
+<div class="line"><span class="lineno">  103</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298cabc33b11540726249fc549e501d963cc4">SPELL_PLAGUE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  104</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(6s, 10s);</div>
+<div class="line"><span class="lineno">  105</span>            });</div>
+<div class="line"><span class="lineno">  106</span>        }</div>
+<div class="line"><span class="lineno">  107</span> </div>
+<div class="line"><span class="lineno">  108</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 1))</div>
+<div class="line"><span class="lineno">  109</span>        {</div>
+<div class="line"><span class="lineno">  110</span>            <a class="code hl_variable" href="../../d6/db1/structnpc__anubisath__defender.html#ac8d2963f056e19c60ae82a2d1665d457">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(5s, 8s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  111</span>            {</div>
+<div class="line"><span class="lineno">  112</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca7f4e66bb0a1b5b2705975420f645b16e">SPELL_THUNDERCLAP</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  113</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(5s, 8s);</div>
+<div class="line"><span class="lineno">  114</span>            });</div>
+<div class="line"><span class="lineno">  115</span>        }</div>
+<div class="line"><span class="lineno">  116</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  117</span>        {</div>
+<div class="line"><span class="lineno">  118</span>            <a class="code hl_variable" href="../../d6/db1/structnpc__anubisath__defender.html#ac8d2963f056e19c60ae82a2d1665d457">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(5s, 8s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  119</span>            {</div>
+<div class="line"><span class="lineno">  120</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca853f7b688e2cee45b9ef6290a9393a7d">SPELL_SHADOW_STORM</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  121</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(5s, 8s);</div>
+<div class="line"><span class="lineno">  122</span>            });</div>
+<div class="line"><span class="lineno">  123</span>        }</div>
+<div class="line"><span class="lineno">  124</span> </div>
+<div class="line"><span class="lineno">  125</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 1))</div>
+<div class="line"><span class="lineno">  126</span>        {</div>
+<div class="line"><span class="lineno">  127</span>            <a class="code hl_variable" href="../../d6/db1/structnpc__anubisath__defender.html#ac8d2963f056e19c60ae82a2d1665d457">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(3s, 5s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  128</span>            {</div>
+<div class="line"><span class="lineno">  129</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca2cbca2a74cf6c73fc2fb28813653c694">SPELL_SUMMON_WARRIOR</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  130</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(12s, 16s);</div>
+<div class="line"><span class="lineno">  131</span>            });</div>
+<div class="line"><span class="lineno">  132</span>        }</div>
+<div class="line"><span class="lineno">  133</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  134</span>        {</div>
+<div class="line"><span class="lineno">  135</span>            <a class="code hl_variable" href="../../d6/db1/structnpc__anubisath__defender.html#ac8d2963f056e19c60ae82a2d1665d457">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(3s, 5s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  136</span>            {</div>
+<div class="line"><span class="lineno">  137</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca90187ae8d60b63dadadf994544987708">SPELL_SUMMON_SWARMGUARD</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  138</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(12s, 16s);</div>
+<div class="line"><span class="lineno">  139</span>            });</div>
+<div class="line"><span class="lineno">  140</span>        }</div>
+<div class="line"><span class="lineno">  141</span>    }</div>
+<div class="ttc" id="aclass_task_context_html"><div class="ttname"><a href="../../d2/dd9/class_task_context.html">TaskContext</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
+<div class="ttc" id="aclass_task_context_html_a380c596857dd0030414db5e8d28a3dda"><div class="ttname"><a href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">TaskContext::Repeat</a></div><div class="ttdeci">TaskContext &amp; Repeat(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:470</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a0e0579d2a2397de5a79c756d5e59a830"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">TaskScheduler::Schedule</a></div><div class="ttdeci">TaskScheduler &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:217</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a1e37cbb75f91c247b04131afc7ce35f5"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">UnitAI::DoCastAOE</a></div><div class="ttdeci">SpellCastResult DoCastAOE(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:249</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="astructnpc__anubisath__defender_html_ac8d2963f056e19c60ae82a2d1665d457"><div class="ttname"><a href="../../d6/db1/structnpc__anubisath__defender.html#ac8d2963f056e19c60ae82a2d1665d457">npc_anubisath_defender::_scheduler</a></div><div class="ttdeci">TaskScheduler _scheduler</div><div class="ttdef"><b>Definition:</b> temple_of_ahnqiraj.cpp:179</div></div>
+<div class="ttc" id="atemple__of__ahnqiraj_8cpp_html_a5bd342133be8c2137b831460acc9298ca17b7a6ad8d4650eaaef54fa7a803a7ea"><div class="ttname"><a href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca17b7a6ad8d4650eaaef54fa7a803a7ea">SPELL_FIRE_ARCANE_REFLECT</a></div><div class="ttdeci">@ SPELL_FIRE_ARCANE_REFLECT</div><div class="ttdef"><b>Definition:</b> temple_of_ahnqiraj.cpp:30</div></div>
+<div class="ttc" id="atemple__of__ahnqiraj_8cpp_html_a5bd342133be8c2137b831460acc9298ca2cbca2a74cf6c73fc2fb28813653c694"><div class="ttname"><a href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca2cbca2a74cf6c73fc2fb28813653c694">SPELL_SUMMON_WARRIOR</a></div><div class="ttdeci">@ SPELL_SUMMON_WARRIOR</div><div class="ttdef"><b>Definition:</b> temple_of_ahnqiraj.cpp:37</div></div>
+<div class="ttc" id="atemple__of__ahnqiraj_8cpp_html_a5bd342133be8c2137b831460acc9298ca7f4e66bb0a1b5b2705975420f645b16e"><div class="ttname"><a href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca7f4e66bb0a1b5b2705975420f645b16e">SPELL_THUNDERCLAP</a></div><div class="ttdeci">@ SPELL_THUNDERCLAP</div><div class="ttdef"><b>Definition:</b> temple_of_ahnqiraj.cpp:34</div></div>
+<div class="ttc" id="atemple__of__ahnqiraj_8cpp_html_a5bd342133be8c2137b831460acc9298ca853f7b688e2cee45b9ef6290a9393a7d"><div class="ttname"><a href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca853f7b688e2cee45b9ef6290a9393a7d">SPELL_SHADOW_STORM</a></div><div class="ttdeci">@ SPELL_SHADOW_STORM</div><div class="ttdef"><b>Definition:</b> temple_of_ahnqiraj.cpp:33</div></div>
+<div class="ttc" id="atemple__of__ahnqiraj_8cpp_html_a5bd342133be8c2137b831460acc9298ca90187ae8d60b63dadadf994544987708"><div class="ttname"><a href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca90187ae8d60b63dadadf994544987708">SPELL_SUMMON_SWARMGUARD</a></div><div class="ttdeci">@ SPELL_SUMMON_SWARMGUARD</div><div class="ttdef"><b>Definition:</b> temple_of_ahnqiraj.cpp:38</div></div>
+<div class="ttc" id="atemple__of__ahnqiraj_8cpp_html_a5bd342133be8c2137b831460acc9298ca9852a46c953e171195a8863b0248a328"><div class="ttname"><a href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca9852a46c953e171195a8863b0248a328">SPELL_METEOR</a></div><div class="ttdeci">@ SPELL_METEOR</div><div class="ttdef"><b>Definition:</b> temple_of_ahnqiraj.cpp:31</div></div>
+<div class="ttc" id="atemple__of__ahnqiraj_8cpp_html_a5bd342133be8c2137b831460acc9298cabc33b11540726249fc549e501d963cc4"><div class="ttname"><a href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298cabc33b11540726249fc549e501d963cc4">SPELL_PLAGUE</a></div><div class="ttdeci">@ SPELL_PLAGUE</div><div class="ttdef"><b>Definition:</b> temple_of_ahnqiraj.cpp:32</div></div>
+<div class="ttc" id="atemple__of__ahnqiraj_8cpp_html_a5bd342133be8c2137b831460acc9298cae2406a11d1bdb8b16b814464c4e4aa3f"><div class="ttname"><a href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298cae2406a11d1bdb8b16b814464c4e4aa3f">SPELL_SHADOW_FROST_REFLECT</a></div><div class="ttdeci">@ SPELL_SHADOW_FROST_REFLECT</div><div class="ttdef"><b>Definition:</b> temple_of_ahnqiraj.cpp:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a225ca1b3144953bcc5890caf0d32b606" name="a225ca1b3144953bcc5890caf0d32b606"></a>
@@ -626,7 +729,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  144</span>    {</div>
+<div class="line"><span class="lineno">  145</span>        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca6c816ad9675a0e5e8696f4c8c42a65f3">SPELL_SUMMON_LARGE_OBSIDIAN_CHUNK</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  146</span>    }</div>
+<div class="ttc" id="atemple__of__ahnqiraj_8cpp_html_a5bd342133be8c2137b831460acc9298ca6c816ad9675a0e5e8696f4c8c42a65f3"><div class="ttname"><a href="../../db/dec/temple__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca6c816ad9675a0e5e8696f4c8c42a65f3">SPELL_SUMMON_LARGE_OBSIDIAN_CHUNK</a></div><div class="ttdeci">@ SPELL_SUMMON_LARGE_OBSIDIAN_CHUNK</div><div class="ttdef"><b>Definition:</b> temple_of_ahnqiraj.cpp:39</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab10d9ac93aab97172f630e1d7d8faca0" name="ab10d9ac93aab97172f630e1d7d8faca0"></a>
@@ -653,7 +760,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   80</span>    {</div>
+<div class="line"><span class="lineno">   81</span>        <a class="code hl_variable" href="../../d6/db1/structnpc__anubisath__defender.html#ac8d2963f056e19c60ae82a2d1665d457">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">CancelAll</a>();</div>
+<div class="line"><span class="lineno">   82</span>        <a class="code hl_variable" href="../../d6/db1/structnpc__anubisath__defender.html#a4adef63a5093e3c0ecb8b57283e94ff8">_enraged</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   83</span>    }</div>
+<div class="ttc" id="aclass_task_scheduler_html_a05da7a474b80d725c991dde9d24df4a4"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">TaskScheduler::CancelAll</a></div><div class="ttdeci">TaskScheduler &amp; CancelAll()</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:33</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1f190f45ffbaf20f5565221780dc5cc6" name="a1f190f45ffbaf20f5565221780dc5cc6"></a>
@@ -681,7 +793,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  168</span>    {</div>
+<div class="line"><span class="lineno">  169</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  170</span>        {</div>
+<div class="line"><span class="lineno">  171</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  172</span>        }</div>
+<div class="line"><span class="lineno">  173</span> </div>
+<div class="line"><span class="lineno">  174</span>        <a class="code hl_variable" href="../../d6/db1/structnpc__anubisath__defender.html#ac8d2963f056e19c60ae82a2d1665d457">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">Update</a>(diff,</div>
+<div class="line"><span class="lineno">  175</span>            std::bind(&amp;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">ScriptedAI::DoMeleeAttackIfReady</a>, <span class="keyword">this</span>));</div>
+<div class="line"><span class="lineno">  176</span>    }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a35c0891c7aded13c6ae7ecd2e6d480a9"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">TaskScheduler::Update</a></div><div class="ttdeci">TaskScheduler &amp; Update(success_t const &amp;callback=EmptyCallback)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:15</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -730,7 +854,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/TempleOfAhnQiraj/<a class="el" href="../../db/dec/temple__of__ahnqiraj_8cpp.html">temple_of_ahnqiraj.cpp</a></li>
+<li><a class="el" href="../../">temple_of_ahnqiraj.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -738,7 +862,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/db1/structnpc__anubisath__defender.html">npc_anubisath_defender</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

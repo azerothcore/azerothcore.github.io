@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d4/ddd/class_dynamic_object.html','../
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/db0/_dynamic_object_8h_source.html">DynamicObject.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">DynamicObject.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for DynamicObject:</div>
 <div class="dyncontent">
@@ -952,7 +952,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ad9f4cb74c55993cfdfc5895aefc33cfb inherit pro_methods_class_movable_map_object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dca/class_movable_map_object.html#ad9f4cb74c55993cfdfc5895aefc33cfb">MovableMapObject</a> ()=default</td></tr>
 <tr class="separator:ad9f4cb74c55993cfdfc5895aefc33cfb inherit pro_methods_class_movable_map_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a47b4f5072cf01ca271234ea82492cf87" name="a47b4f5072cf01ca271234ea82492cf87"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a47b4f5072cf01ca271234ea82492cf87">&#9670;&#160;</a></span>DynamicObject()</h2>
 
@@ -968,7 +969,35 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   29</span>                                               : <a class="code hl_class" href="../../db/df7/class_world_object.html">WorldObject</a>(isWorldObject), <a class="code hl_function" href="../../dc/dca/class_movable_map_object.html#ad9f4cb74c55993cfdfc5895aefc33cfb">MovableMapObject</a>(),</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ac7b3ca8ea91e5995cb36654448a57a2f">_removedAura</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a2a8626ce02e7f1bd6a8c8f84d38b5625">_duration</a>(0), <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad1a6b47b129b8bb32bc9343e2d84d137">_isViewpoint</a>(<span class="keyword">false</span>), <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#afacef0933f6897e295e217bc8eaad69f">_updateViewerVisibilityTimer</a>(0)</div>
+<div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_variable" href="../../d8/d83/class_object.html#a139043a10260048589bb9c61292df815">m_objectType</a> |= <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#acfe503ba26d8a881f16958aaafd431e1a3a699b841ec20fb9c6d7b99e9bf88108">TYPEMASK_DYNAMICOBJECT</a>;</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_variable" href="../../d8/d83/class_object.html#aef58391bc14177dc481a25fae109988c">m_objectTypeId</a> = <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a86e2d54e816ea646c9cda372df01dc68">TYPEID_DYNAMICOBJECT</a>;</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_variable" href="../../d8/d83/class_object.html#ade938856f818c4a7e722b2c4509655c2">m_updateFlag</a> = (<a class="code hl_enumvalue" href="../../d8/dee/_update_data_8h.html#af1fc105a57ed0bc535d17509e4ad5e9ea65f9bb0b19a3ecbc46fbe3b4573cb15b">UPDATEFLAG_LOWGUID</a> | <a class="code hl_enumvalue" href="../../d8/dee/_update_data_8h.html#af1fc105a57ed0bc535d17509e4ad5e9ead20e13b8389c2680af0a59dc557d4ee1">UPDATEFLAG_STATIONARY_POSITION</a> | <a class="code hl_enumvalue" href="../../d8/dee/_update_data_8h.html#af1fc105a57ed0bc535d17509e4ad5e9ea2e4269d3be94ff8f1f715c41c060222b">UPDATEFLAG_POSITION</a>);</div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_variable" href="../../d8/d83/class_object.html#a742999a5b0741f84b7dbd594dfba693a">m_valuesCount</a> = <a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#ae2cf7880bbc4b76e73c4928370c0b030aae9c28d0118d9d15b37c6190829a6abb">DYNAMICOBJECT_END</a>;</div>
+<div class="line"><span class="lineno">   38</span>}</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2a86e2d54e816ea646c9cda372df01dc68"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a86e2d54e816ea646c9cda372df01dc68">TYPEID_DYNAMICOBJECT</a></div><div class="ttdeci">@ TYPEID_DYNAMICOBJECT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:40</div></div>
+<div class="ttc" id="a_object_guid_8h_html_acfe503ba26d8a881f16958aaafd431e1a3a699b841ec20fb9c6d7b99e9bf88108"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#acfe503ba26d8a881f16958aaafd431e1a3a699b841ec20fb9c6d7b99e9bf88108">TYPEMASK_DYNAMICOBJECT</a></div><div class="ttdeci">@ TYPEMASK_DYNAMICOBJECT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:54</div></div>
+<div class="ttc" id="a_update_data_8h_html_af1fc105a57ed0bc535d17509e4ad5e9ea2e4269d3be94ff8f1f715c41c060222b"><div class="ttname"><a href="../../d8/dee/_update_data_8h.html#af1fc105a57ed0bc535d17509e4ad5e9ea2e4269d3be94ff8f1f715c41c060222b">UPDATEFLAG_POSITION</a></div><div class="ttdeci">@ UPDATEFLAG_POSITION</div><div class="ttdef"><b>Definition:</b> UpdateData.h:47</div></div>
+<div class="ttc" id="a_update_data_8h_html_af1fc105a57ed0bc535d17509e4ad5e9ea65f9bb0b19a3ecbc46fbe3b4573cb15b"><div class="ttname"><a href="../../d8/dee/_update_data_8h.html#af1fc105a57ed0bc535d17509e4ad5e9ea65f9bb0b19a3ecbc46fbe3b4573cb15b">UPDATEFLAG_LOWGUID</a></div><div class="ttdeci">@ UPDATEFLAG_LOWGUID</div><div class="ttdef"><b>Definition:</b> UpdateData.h:43</div></div>
+<div class="ttc" id="a_update_data_8h_html_af1fc105a57ed0bc535d17509e4ad5e9ead20e13b8389c2680af0a59dc557d4ee1"><div class="ttname"><a href="../../d8/dee/_update_data_8h.html#af1fc105a57ed0bc535d17509e4ad5e9ead20e13b8389c2680af0a59dc557d4ee1">UPDATEFLAG_STATIONARY_POSITION</a></div><div class="ttdeci">@ UPDATEFLAG_STATIONARY_POSITION</div><div class="ttdef"><b>Definition:</b> UpdateData.h:45</div></div>
+<div class="ttc" id="a_update_fields_8h_html_ae2cf7880bbc4b76e73c4928370c0b030aae9c28d0118d9d15b37c6190829a6abb"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#ae2cf7880bbc4b76e73c4928370c0b030aae9c28d0118d9d15b37c6190829a6abb">DYNAMICOBJECT_END</a></div><div class="ttdeci">@ DYNAMICOBJECT_END</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:415</div></div>
+<div class="ttc" id="aclass_dynamic_object_html_a10357daa868050603b2d89cceda81500"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">DynamicObject::_caster</a></div><div class="ttdeci">Unit * _caster</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:68</div></div>
+<div class="ttc" id="aclass_dynamic_object_html_a2a8626ce02e7f1bd6a8c8f84d38b5625"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#a2a8626ce02e7f1bd6a8c8f84d38b5625">DynamicObject::_duration</a></div><div class="ttdeci">int32 _duration</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:69</div></div>
+<div class="ttc" id="aclass_dynamic_object_html_ac7b3ca8ea91e5995cb36654448a57a2f"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#ac7b3ca8ea91e5995cb36654448a57a2f">DynamicObject::_removedAura</a></div><div class="ttdeci">Aura * _removedAura</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:67</div></div>
+<div class="ttc" id="aclass_dynamic_object_html_ad1a6b47b129b8bb32bc9343e2d84d137"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#ad1a6b47b129b8bb32bc9343e2d84d137">DynamicObject::_isViewpoint</a></div><div class="ttdeci">bool _isViewpoint</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:70</div></div>
+<div class="ttc" id="aclass_dynamic_object_html_ad386e45b476f87b60ff5126ad03943f9"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">DynamicObject::_aura</a></div><div class="ttdeci">Aura * _aura</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:66</div></div>
+<div class="ttc" id="aclass_dynamic_object_html_afacef0933f6897e295e217bc8eaad69f"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#afacef0933f6897e295e217bc8eaad69f">DynamicObject::_updateViewerVisibilityTimer</a></div><div class="ttdeci">uint32 _updateViewerVisibilityTimer</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:71</div></div>
+<div class="ttc" id="aclass_movable_map_object_html_ad9f4cb74c55993cfdfc5895aefc33cfb"><div class="ttname"><a href="../../dc/dca/class_movable_map_object.html#ad9f4cb74c55993cfdfc5895aefc33cfb">MovableMapObject::MovableMapObject</a></div><div class="ttdeci">MovableMapObject()=default</div></div>
+<div class="ttc" id="aclass_object_html_a139043a10260048589bb9c61292df815"><div class="ttname"><a href="../../d8/d83/class_object.html#a139043a10260048589bb9c61292df815">Object::m_objectType</a></div><div class="ttdeci">uint16 m_objectType</div><div class="ttdef"><b>Definition:</b> Object.h:228</div></div>
+<div class="ttc" id="aclass_object_html_a742999a5b0741f84b7dbd594dfba693a"><div class="ttname"><a href="../../d8/d83/class_object.html#a742999a5b0741f84b7dbd594dfba693a">Object::m_valuesCount</a></div><div class="ttdeci">uint16 m_valuesCount</div><div class="ttdef"><b>Definition:</b> Object.h:242</div></div>
+<div class="ttc" id="aclass_object_html_ade938856f818c4a7e722b2c4509655c2"><div class="ttname"><a href="../../d8/d83/class_object.html#ade938856f818c4a7e722b2c4509655c2">Object::m_updateFlag</a></div><div class="ttdeci">uint16 m_updateFlag</div><div class="ttdef"><b>Definition:</b> Object.h:231</div></div>
+<div class="ttc" id="aclass_object_html_aef58391bc14177dc481a25fae109988c"><div class="ttname"><a href="../../d8/d83/class_object.html#aef58391bc14177dc481a25fae109988c">Object::m_objectTypeId</a></div><div class="ttdeci">TypeID m_objectTypeId</div><div class="ttdef"><b>Definition:</b> Object.h:230</div></div>
+<div class="ttc" id="aclass_world_object_html"><div class="ttname"><a href="../../db/df7/class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> Object.h:393</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a73ad0e77739b0eca3f07a64e7a24bef5" name="a73ad0e77739b0eca3f07a64e7a24bef5"></a>
@@ -993,7 +1022,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
+<div class="line"><span class="lineno">   42</span>    <span class="comment">// make sure all references were properly removed</span></div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a>);</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a>);</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad1a6b47b129b8bb32bc9343e2d84d137">_isViewpoint</a>);</div>
+<div class="line"><span class="lineno">   46</span>    <span class="keyword">delete</span> <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ac7b3ca8ea91e5995cb36654448a57a2f">_removedAura</a>;</div>
+<div class="line"><span class="lineno">   47</span>}</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -1024,7 +1061,25 @@ Additional Inherited Members</h2></td></tr>
 </ul>
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_object.html#acd880d19bc0c5c1ee3e6139bdb0cb07a">Object</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   63</span>{</div>
+<div class="line"><span class="lineno">   65</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d8/d83/class_object.html#a3aeab7def818ba6c50249f197ad2f9ca">IsInWorld</a>())</div>
+<div class="line"><span class="lineno">   66</span>    {</div>
+<div class="line"><span class="lineno">   67</span>        <a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a1bef904cde2aa309f70873821f164630">GetObjectsStore</a>().<a class="code hl_function" href="../../d3/d0b/class_type_unordered_map_container.html#ad61d9aa314133d8eba934fe56cff48e0">Insert</a>&lt;<a class="code hl_class" href="../../d4/ddd/class_dynamic_object.html">DynamicObject</a>&gt;(<a class="code hl_function" href="../../d8/d83/class_object.html#ae65fbd7720a9aa448516f6cf494bda67">GetGUID</a>(), <span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>        <a class="code hl_function" href="../../db/df7/class_world_object.html#a195655713fd15d78b6769ecf57357abf">WorldObject::AddToWorld</a>();</div>
+<div class="line"><span class="lineno">   70</span> </div>
+<div class="line"><span class="lineno">   71</span>        <a class="code hl_function" href="../../d4/ddd/class_dynamic_object.html#a18bd613e93e41322f76d729c7b3d6fd1">BindToCaster</a>();</div>
+<div class="line"><span class="lineno">   72</span>    }</div>
+<div class="line"><span class="lineno">   73</span>}</div>
+<div class="ttc" id="aclass_dynamic_object_html"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html">DynamicObject</a></div><div class="ttdef"><b>Definition:</b> DynamicObject.h:35</div></div>
+<div class="ttc" id="aclass_dynamic_object_html_a18bd613e93e41322f76d729c7b3d6fd1"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#a18bd613e93e41322f76d729c7b3d6fd1">DynamicObject::BindToCaster</a></div><div class="ttdeci">void BindToCaster()</div><div class="ttdef"><b>Definition:</b> DynamicObject.cpp:269</div></div>
+<div class="ttc" id="aclass_map_html_a1bef904cde2aa309f70873821f164630"><div class="ttname"><a href="../../dd/d11/class_map.html#a1bef904cde2aa309f70873821f164630">Map::GetObjectsStore</a></div><div class="ttdeci">MapStoredObjectTypesContainer &amp; GetObjectsStore()</div><div class="ttdef"><b>Definition:</b> Map.h:515</div></div>
+<div class="ttc" id="aclass_object_html_a3aeab7def818ba6c50249f197ad2f9ca"><div class="ttname"><a href="../../d8/d83/class_object.html#a3aeab7def818ba6c50249f197ad2f9ca">Object::IsInWorld</a></div><div class="ttdeci">bool IsInWorld() const</div><div class="ttdef"><b>Definition:</b> Object.h:101</div></div>
+<div class="ttc" id="aclass_object_html_ae65fbd7720a9aa448516f6cf494bda67"><div class="ttname"><a href="../../d8/d83/class_object.html#ae65fbd7720a9aa448516f6cf494bda67">Object::GetGUID</a></div><div class="ttdeci">ObjectGuid GetGUID() const</div><div class="ttdef"><b>Definition:</b> Object.h:107</div></div>
+<div class="ttc" id="aclass_type_unordered_map_container_html_ad61d9aa314133d8eba934fe56cff48e0"><div class="ttname"><a href="../../d3/d0b/class_type_unordered_map_container.html#ad61d9aa314133d8eba934fe56cff48e0">TypeUnorderedMapContainer::Insert</a></div><div class="ttdeci">bool Insert(KEY_TYPE const &amp;handle, SPECIFIC_TYPE *obj)</div><div class="ttdef"><b>Definition:</b> TypeContainer.h:135</div></div>
+<div class="ttc" id="aclass_world_object_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:517</div></div>
+<div class="ttc" id="aclass_world_object_html_a195655713fd15d78b6769ecf57357abf"><div class="ttname"><a href="../../db/df7/class_world_object.html#a195655713fd15d78b6769ecf57357abf">WorldObject::AddToWorld</a></div><div class="ttdeci">void AddToWorld() override</div><div class="ttdef"><b>Definition:</b> Object.cpp:1176</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a18bd613e93e41322f76d729c7b3d6fd1" name="a18bd613e93e41322f76d729c7b3d6fd1"></a>
@@ -1041,7 +1096,17 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  270</span>{</div>
+<div class="line"><span class="lineno">  271</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a>);</div>
+<div class="line"><span class="lineno">  272</span>    <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a> = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<span class="keyword">this</span>, <a class="code hl_function" href="../../d4/ddd/class_dynamic_object.html#aa327c9f2f09a1799b963c97d6a68918f">GetCasterGUID</a>());</div>
+<div class="line"><span class="lineno">  273</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a>);</div>
+<div class="line"><span class="lineno">  274</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>() == <a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>());</div>
+<div class="line"><span class="lineno">  275</span>    <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a341e2d8e8df4372808274d7af103da69">_RegisterDynObject</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  276</span>}</div>
+<div class="ttc" id="aclass_dynamic_object_html_aa327c9f2f09a1799b963c97d6a68918f"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#aa327c9f2f09a1799b963c97d6a68918f">DynamicObject::GetCasterGUID</a></div><div class="ttdeci">ObjectGuid GetCasterGUID() const</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:59</div></div>
+<div class="ttc" id="aclass_unit_html_a341e2d8e8df4372808274d7af103da69"><div class="ttname"><a href="../../da/db7/class_unit.html#a341e2d8e8df4372808274d7af103da69">Unit::_RegisterDynObject</a></div><div class="ttdeci">void _RegisterDynObject(DynamicObject *dynObj)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:6018</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2c3e069043b64ffca309bf4216851a53" name="a2c3e069043b64ffca309bf4216851a53"></a>
@@ -1069,7 +1134,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../db/df7/class_world_object.html#afaa66ed9f285255b1a24e06eb7b4d6b7">WorldObject</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   50</span>{</div>
+<div class="line"><span class="lineno">   51</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d3/d36/class_transport.html">Transport</a>* transport = <a class="code hl_function" href="../../db/df7/class_world_object.html#a9ffd4691b1ebdb5011e800739b4dd4f5">GetTransport</a>())</div>
+<div class="line"><span class="lineno">   52</span>    {</div>
+<div class="line"><span class="lineno">   53</span>        transport-&gt;RemovePassenger(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   54</span>        <a class="code hl_function" href="../../db/df7/class_world_object.html#a4afc2cb2208045cdd743e44fb0983010">SetTransport</a>(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   55</span>        <a class="code hl_variable" href="../../db/df7/class_world_object.html#ad7f9a1627d3568f34c381027145f39ee">m_movementInfo</a>.<a class="code hl_variable" href="../../db/d78/struct_movement_info.html#ac2b0f738ec695f4c9f032daad3e1f041">transport</a>.<a class="code hl_function" href="../../d0/d05/struct_movement_info_1_1_transport_info.html#a9c210ff536b49481f71bc6c3f60ee864">Reset</a>();</div>
+<div class="line"><span class="lineno">   56</span>        <a class="code hl_variable" href="../../db/df7/class_world_object.html#ad7f9a1627d3568f34c381027145f39ee">m_movementInfo</a>.<a class="code hl_function" href="../../db/d78/struct_movement_info.html#ab38114c14a8848a082b4f265eab11c72">RemoveMovementFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a083358a25d084fb928e170c453128f9da4e14e61d036d1d8edeb90a5bae80c7e1">MOVEMENTFLAG_ONTRANSPORT</a>);</div>
+<div class="line"><span class="lineno">   57</span>    }</div>
+<div class="line"><span class="lineno">   58</span> </div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_function" href="../../db/df7/class_world_object.html#afaa66ed9f285255b1a24e06eb7b4d6b7">WorldObject::CleanupsBeforeDelete</a>(finalCleanup);</div>
+<div class="line"><span class="lineno">   60</span>}</div>
+<div class="ttc" id="a_unit_8h_html_a083358a25d084fb928e170c453128f9da4e14e61d036d1d8edeb90a5bae80c7e1"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a083358a25d084fb928e170c453128f9da4e14e61d036d1d8edeb90a5bae80c7e1">MOVEMENTFLAG_ONTRANSPORT</a></div><div class="ttdeci">@ MOVEMENTFLAG_ONTRANSPORT</div><div class="ttdef"><b>Definition:</b> Unit.h:561</div></div>
+<div class="ttc" id="aclass_transport_html"><div class="ttname"><a href="../../d3/d36/class_transport.html">Transport</a></div><div class="ttdef"><b>Definition:</b> Transport.h:29</div></div>
+<div class="ttc" id="aclass_world_object_html_a4afc2cb2208045cdd743e44fb0983010"><div class="ttname"><a href="../../db/df7/class_world_object.html#a4afc2cb2208045cdd743e44fb0983010">WorldObject::SetTransport</a></div><div class="ttdeci">void SetTransport(Transport *t)</div><div class="ttdef"><b>Definition:</b> Object.h:593</div></div>
+<div class="ttc" id="aclass_world_object_html_a9ffd4691b1ebdb5011e800739b4dd4f5"><div class="ttname"><a href="../../db/df7/class_world_object.html#a9ffd4691b1ebdb5011e800739b4dd4f5">WorldObject::GetTransport</a></div><div class="ttdeci">Transport * GetTransport() const</div><div class="ttdef"><b>Definition:</b> Object.h:585</div></div>
+<div class="ttc" id="aclass_world_object_html_ad7f9a1627d3568f34c381027145f39ee"><div class="ttname"><a href="../../db/df7/class_world_object.html#ad7f9a1627d3568f34c381027145f39ee">WorldObject::m_movementInfo</a></div><div class="ttdeci">MovementInfo m_movementInfo</div><div class="ttdef"><b>Definition:</b> Object.h:595</div></div>
+<div class="ttc" id="aclass_world_object_html_afaa66ed9f285255b1a24e06eb7b4d6b7"><div class="ttname"><a href="../../db/df7/class_world_object.html#afaa66ed9f285255b1a24e06eb7b4d6b7">WorldObject::CleanupsBeforeDelete</a></div><div class="ttdeci">virtual void CleanupsBeforeDelete(bool finalCleanup=true)</div><div class="ttdef"><b>Definition:</b> Object.cpp:1133</div></div>
+<div class="ttc" id="astruct_movement_info_1_1_transport_info_html_a9c210ff536b49481f71bc6c3f60ee864"><div class="ttname"><a href="../../d0/d05/struct_movement_info_1_1_transport_info.html#a9c210ff536b49481f71bc6c3f60ee864">MovementInfo::TransportInfo::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdef"><b>Definition:</b> Object.h:275</div></div>
+<div class="ttc" id="astruct_movement_info_html_ab38114c14a8848a082b4f265eab11c72"><div class="ttname"><a href="../../db/d78/struct_movement_info.html#ab38114c14a8848a082b4f265eab11c72">MovementInfo::RemoveMovementFlag</a></div><div class="ttdeci">void RemoveMovementFlag(uint32 flag)</div><div class="ttdef"><b>Definition:</b> Object.h:321</div></div>
+<div class="ttc" id="astruct_movement_info_html_ac2b0f738ec695f4c9f032daad3e1f041"><div class="ttname"><a href="../../db/d78/struct_movement_info.html#ac2b0f738ec695f4c9f032daad3e1f041">MovementInfo::transport</a></div><div class="ttdeci">struct MovementInfo::TransportInfo transport</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac2546f7b4fcc9ee34a6493a46797a343" name="ac2546f7b4fcc9ee34a6493a46797a343"></a>
@@ -1121,7 +1206,71 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  102</span>{</div>
+<div class="line"><span class="lineno">  103</span>    <a class="code hl_function" href="../../db/df7/class_world_object.html#a7ef77a055df228f1e6580eb52d66cba8">SetMap</a>(caster-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>());</div>
+<div class="line"><span class="lineno">  104</span>    <a class="code hl_function" href="../../d1/d26/struct_position.html#afdbf0a257fcd7a48066fd92c4eacae3b">Relocate</a>(pos);</div>
+<div class="line"><span class="lineno">  105</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d1/d26/struct_position.html#a9a6eb63315f36a1aa56943cc6c6d0b12">IsPositionValid</a>())</div>
+<div class="line"><span class="lineno">  106</span>    {</div>
+<div class="line"><span class="lineno">  107</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;dyobject&quot;</span>, <span class="stringliteral">&quot;DynamicObject (spell {}) not created. Suggested coordinates isn&#39;t valid (X: {} Y: {})&quot;</span>, spellId, <a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>());</div>
+<div class="line"><span class="lineno">  108</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  109</span>    }</div>
+<div class="line"><span class="lineno">  110</span> </div>
+<div class="line"><span class="lineno">  111</span>    <a class="code hl_function" href="../../db/df7/class_world_object.html#a37401ba6edd4b7f1da216a9e5145970d">WorldObject::_Create</a>(guidlow, HighGuid::DynamicObject, caster-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a0a471b58ac8905281008aa4a730c4093">GetPhaseMask</a>());</div>
+<div class="line"><span class="lineno">  112</span> </div>
+<div class="line"><span class="lineno">  113</span>    <a class="code hl_function" href="../../db/df7/class_world_object.html#aa91e2188593c3ecc4822cdc518d0519c">UpdatePositionData</a>();</div>
+<div class="line"><span class="lineno">  114</span> </div>
+<div class="line"><span class="lineno">  115</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#ad5ba4799de88341246bc5ff7dd4b2d36">SetEntry</a>(spellId);</div>
+<div class="line"><span class="lineno">  116</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#ad951343e568f25e4db54e64d19c964dd">SetObjectScale</a>(1);</div>
+<div class="line"><span class="lineno">  117</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#a8ba71e40469281133c4e06d5f2de5d03">SetGuidValue</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#ae2cf7880bbc4b76e73c4928370c0b030a66017a65fb2917aa4c56d706de1100b9">DYNAMICOBJECT_CASTER</a>, caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>    <span class="comment">// The lower word of DYNAMICOBJECT_BYTES must be 0x0001. This value means that the visual radius will be overriden</span></div>
+<div class="line"><span class="lineno">  120</span>    <span class="comment">// by client for most of the &quot;ground patch&quot; visual effect spells and a few &quot;skyfall&quot; ones like Hurricane.</span></div>
+<div class="line"><span class="lineno">  121</span>    <span class="comment">// If any other value is used, the client will _always_ use the radius provided in DYNAMICOBJECT_RADIUS, but</span></div>
+<div class="line"><span class="lineno">  122</span>    <span class="comment">// precompensation is necessary (eg radius *= 2) for many spells. Anyway, blizz sends 0x0001 for all the spells</span></div>
+<div class="line"><span class="lineno">  123</span>    <span class="comment">// I saw sniffed...</span></div>
+<div class="line"><span class="lineno">  124</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#a0a29933a2da73d788a130f971511f2f5">SetByteValue</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#ae2cf7880bbc4b76e73c4928370c0b030aace34541f56d2230d2fbaeb4d8636704">DYNAMICOBJECT_BYTES</a>, 0, type);</div>
+<div class="line"><span class="lineno">  125</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#ae2cf7880bbc4b76e73c4928370c0b030a75f723aec0cff918ce0c3d9011bf67e1">DYNAMICOBJECT_SPELLID</a>, spellId);</div>
+<div class="line"><span class="lineno">  126</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#abc072fa242381b397e4d282e31bcb950">SetFloatValue</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#ae2cf7880bbc4b76e73c4928370c0b030a1f62b4d30ab80b6f531f8b1dab4b852b">DYNAMICOBJECT_RADIUS</a>, radius);</div>
+<div class="line"><span class="lineno">  127</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#ae2cf7880bbc4b76e73c4928370c0b030a5dfac011a33d7f93b15b329e30a24484">DYNAMICOBJECT_CASTTIME</a>, <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a>().count());</div>
+<div class="line"><span class="lineno">  128</span> </div>
+<div class="line"><span class="lineno">  129</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;AddToMap(<span class="keyword">this</span>, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  130</span>    {</div>
+<div class="line"><span class="lineno">  131</span>        <span class="comment">// Returning false will cause the object to be deleted - remove from transport</span></div>
+<div class="line"><span class="lineno">  132</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  133</span>    }</div>
+<div class="line"><span class="lineno">  134</span> </div>
+<div class="line"><span class="lineno">  135</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/df7/class_world_object.html#a1ec3a87ba5545d1111e166c9faef9865">IsWorldObject</a>())</div>
+<div class="line"><span class="lineno">  136</span>    {</div>
+<div class="line"><span class="lineno">  137</span>        <a class="code hl_function" href="../../db/df7/class_world_object.html#a7182e916128ed9d0942413c0f14315a7">setActive</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  138</span>    }</div>
+<div class="line"><span class="lineno">  139</span> </div>
+<div class="line"><span class="lineno">  140</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  141</span>}</div>
+<div class="ttc" id="a_log_8h_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+<div class="ttc" id="a_update_fields_8h_html_ae2cf7880bbc4b76e73c4928370c0b030a1f62b4d30ab80b6f531f8b1dab4b852b"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#ae2cf7880bbc4b76e73c4928370c0b030a1f62b4d30ab80b6f531f8b1dab4b852b">DYNAMICOBJECT_RADIUS</a></div><div class="ttdeci">@ DYNAMICOBJECT_RADIUS</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:413</div></div>
+<div class="ttc" id="a_update_fields_8h_html_ae2cf7880bbc4b76e73c4928370c0b030a5dfac011a33d7f93b15b329e30a24484"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#ae2cf7880bbc4b76e73c4928370c0b030a5dfac011a33d7f93b15b329e30a24484">DYNAMICOBJECT_CASTTIME</a></div><div class="ttdeci">@ DYNAMICOBJECT_CASTTIME</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:414</div></div>
+<div class="ttc" id="a_update_fields_8h_html_ae2cf7880bbc4b76e73c4928370c0b030a66017a65fb2917aa4c56d706de1100b9"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#ae2cf7880bbc4b76e73c4928370c0b030a66017a65fb2917aa4c56d706de1100b9">DYNAMICOBJECT_CASTER</a></div><div class="ttdeci">@ DYNAMICOBJECT_CASTER</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:410</div></div>
+<div class="ttc" id="a_update_fields_8h_html_ae2cf7880bbc4b76e73c4928370c0b030a75f723aec0cff918ce0c3d9011bf67e1"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#ae2cf7880bbc4b76e73c4928370c0b030a75f723aec0cff918ce0c3d9011bf67e1">DYNAMICOBJECT_SPELLID</a></div><div class="ttdeci">@ DYNAMICOBJECT_SPELLID</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:412</div></div>
+<div class="ttc" id="a_update_fields_8h_html_ae2cf7880bbc4b76e73c4928370c0b030aace34541f56d2230d2fbaeb4d8636704"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#ae2cf7880bbc4b76e73c4928370c0b030aace34541f56d2230d2fbaeb4d8636704">DYNAMICOBJECT_BYTES</a></div><div class="ttdeci">@ DYNAMICOBJECT_BYTES</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:411</div></div>
+<div class="ttc" id="aclass_object_html_a0a29933a2da73d788a130f971511f2f5"><div class="ttname"><a href="../../d8/d83/class_object.html#a0a29933a2da73d788a130f971511f2f5">Object::SetByteValue</a></div><div class="ttdeci">void SetByteValue(uint16 index, uint8 offset, uint8 value)</div><div class="ttdef"><b>Definition:</b> Object.cpp:750</div></div>
+<div class="ttc" id="aclass_object_html_a8ba71e40469281133c4e06d5f2de5d03"><div class="ttname"><a href="../../d8/d83/class_object.html#a8ba71e40469281133c4e06d5f2de5d03">Object::SetGuidValue</a></div><div class="ttdeci">void SetGuidValue(uint16 index, ObjectGuid value)</div><div class="ttdef"><b>Definition:</b> Object.cpp:723</div></div>
+<div class="ttc" id="aclass_object_html_abc072fa242381b397e4d282e31bcb950"><div class="ttname"><a href="../../d8/d83/class_object.html#abc072fa242381b397e4d282e31bcb950">Object::SetFloatValue</a></div><div class="ttdeci">void SetFloatValue(uint16 index, float value)</div><div class="ttdef"><b>Definition:</b> Object.cpp:737</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_object_html_ad5ba4799de88341246bc5ff7dd4b2d36"><div class="ttname"><a href="../../d8/d83/class_object.html#ad5ba4799de88341246bc5ff7dd4b2d36">Object::SetEntry</a></div><div class="ttdeci">void SetEntry(uint32 entry)</div><div class="ttdef"><b>Definition:</b> Object.h:110</div></div>
+<div class="ttc" id="aclass_object_html_ad951343e568f25e4db54e64d19c964dd"><div class="ttname"><a href="../../d8/d83/class_object.html#ad951343e568f25e4db54e64d19c964dd">Object::SetObjectScale</a></div><div class="ttdeci">virtual void SetObjectScale(float scale)</div><div class="ttdef"><b>Definition:</b> Object.h:113</div></div>
+<div class="ttc" id="aclass_object_html_adc7e9b205f35f9894ec9a4f0ec0871f9"><div class="ttname"><a href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">Object::SetUInt32Value</a></div><div class="ttdeci">void SetUInt32Value(uint16 index, uint32 value)</div><div class="ttdef"><b>Definition:</b> Object.cpp:650</div></div>
+<div class="ttc" id="aclass_world_object_html_a0a471b58ac8905281008aa4a730c4093"><div class="ttname"><a href="../../db/df7/class_world_object.html#a0a471b58ac8905281008aa4a730c4093">WorldObject::GetPhaseMask</a></div><div class="ttdeci">uint32 GetPhaseMask() const</div><div class="ttdef"><b>Definition:</b> Object.h:434</div></div>
+<div class="ttc" id="aclass_world_object_html_a1ec3a87ba5545d1111e166c9faef9865"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1ec3a87ba5545d1111e166c9faef9865">WorldObject::IsWorldObject</a></div><div class="ttdeci">bool IsWorldObject() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1074</div></div>
+<div class="ttc" id="aclass_world_object_html_a37401ba6edd4b7f1da216a9e5145970d"><div class="ttname"><a href="../../db/df7/class_world_object.html#a37401ba6edd4b7f1da216a9e5145970d">WorldObject::_Create</a></div><div class="ttdeci">void _Create(ObjectGuid::LowType guidlow, HighGuid guidhigh, uint32 phaseMask)</div><div class="ttdef"><b>Definition:</b> Object.cpp:1139</div></div>
+<div class="ttc" id="aclass_world_object_html_a7182e916128ed9d0942413c0f14315a7"><div class="ttname"><a href="../../db/df7/class_world_object.html#a7182e916128ed9d0942413c0f14315a7">WorldObject::setActive</a></div><div class="ttdeci">void setActive(bool isActiveObject)</div><div class="ttdef"><b>Definition:</b> Object.cpp:1085</div></div>
+<div class="ttc" id="aclass_world_object_html_a7ef77a055df228f1e6580eb52d66cba8"><div class="ttname"><a href="../../db/df7/class_world_object.html#a7ef77a055df228f1e6580eb52d66cba8">WorldObject::SetMap</a></div><div class="ttdeci">virtual void SetMap(Map *map)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2057</div></div>
+<div class="ttc" id="aclass_world_object_html_aa91e2188593c3ecc4822cdc518d0519c"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa91e2188593c3ecc4822cdc518d0519c">WorldObject::UpdatePositionData</a></div><div class="ttdeci">void UpdatePositionData()</div><div class="ttdef"><b>Definition:</b> Object.cpp:1154</div></div>
+<div class="ttc" id="anamespace_game_time_html_a6d0d49f37e25e497391157b2a2ec90c1"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a></div><div class="ttdeci">Milliseconds GetGameTimeMS()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:43</div></div>
+<div class="ttc" id="astruct_position_html_a9a6eb63315f36a1aa56943cc6c6d0b12"><div class="ttname"><a href="../../d1/d26/struct_position.html#a9a6eb63315f36a1aa56943cc6c6d0b12">Position::IsPositionValid</a></div><div class="ttdeci">bool IsPositionValid() const</div><div class="ttdef"><b>Definition:</b> Position.cpp:175</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astruct_position_html_afdbf0a257fcd7a48066fd92c4eacae3b"><div class="ttname"><a href="../../d1/d26/struct_position.html#afdbf0a257fcd7a48066fd92c4eacae3b">Position::Relocate</a></div><div class="ttdeci">void Relocate(float x, float y)</div><div class="ttdef"><b>Definition:</b> Position.h:73</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac921727b95b36775c517fb3616f54f19" name="ac921727b95b36775c517fb3616f54f19"></a>
@@ -1139,7 +1288,12 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  216</span>{</div>
+<div class="line"><span class="lineno">  217</span>    <a class="code hl_function" href="../../d4/ddd/class_dynamic_object.html#a4e4fd5f51680f5efeb0a700d27f986f1">SetDuration</a>(<a class="code hl_function" href="../../d4/ddd/class_dynamic_object.html#ad4c3f8f34d36c77a0baa98ae2b56397b">GetDuration</a>() - delaytime);</div>
+<div class="line"><span class="lineno">  218</span>}</div>
+<div class="ttc" id="aclass_dynamic_object_html_a4e4fd5f51680f5efeb0a700d27f986f1"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#a4e4fd5f51680f5efeb0a700d27f986f1">DynamicObject::SetDuration</a></div><div class="ttdeci">void SetDuration(int32 newDuration)</div><div class="ttdef"><b>Definition:</b> DynamicObject.cpp:207</div></div>
+<div class="ttc" id="aclass_dynamic_object_html_ad4c3f8f34d36c77a0baa98ae2b56397b"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#ad4c3f8f34d36c77a0baa98ae2b56397b">DynamicObject::GetDuration</a></div><div class="ttdeci">int32 GetDuration() const</div><div class="ttdef"><b>Definition:</b> DynamicObject.cpp:199</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1cf2186ab2a5f306d2a46db354767fdc" name="a1cf2186ab2a5f306d2a46db354767fdc"></a>
@@ -1164,7 +1318,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   55</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa327c9f2f09a1799b963c97d6a68918f" name="aa327c9f2f09a1799b963c97d6a68918f"></a>
@@ -1189,7 +1344,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   59</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/d83/class_object.html#af7b6a5afebd7c3297e369213be44e059">GetGuidValue</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#ae2cf7880bbc4b76e73c4928370c0b030a66017a65fb2917aa4c56d706de1100b9">DYNAMICOBJECT_CASTER</a>); }</div>
+<div class="ttc" id="aclass_object_html_af7b6a5afebd7c3297e369213be44e059"><div class="ttname"><a href="../../d8/d83/class_object.html#af7b6a5afebd7c3297e369213be44e059">Object::GetGuidValue</a></div><div class="ttdeci">ObjectGuid GetGuidValue(uint16 index) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:337</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad4c3f8f34d36c77a0baa98ae2b56397b" name="ad4c3f8f34d36c77a0baa98ae2b56397b"></a>
@@ -1206,7 +1363,14 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  200</span>{</div>
+<div class="line"><span class="lineno">  201</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a>)</div>
+<div class="line"><span class="lineno">  202</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a2a8626ce02e7f1bd6a8c8f84d38b5625">_duration</a>;</div>
+<div class="line"><span class="lineno">  203</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  204</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a5e79eaa33b5f9ae5aaa44a62d096d6fe">GetDuration</a>();</div>
+<div class="line"><span class="lineno">  205</span>}</div>
+<div class="ttc" id="aclass_aura_html_a5e79eaa33b5f9ae5aaa44a62d096d6fe"><div class="ttname"><a href="../../d2/dde/class_aura.html#a5e79eaa33b5f9ae5aaa44a62d096d6fe">Aura::GetDuration</a></div><div class="ttdeci">int32 GetDuration() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:133</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ada02fde0ea7b50b213957999024bf75f" name="ada02fde0ea7b50b213957999024bf75f"></a>
@@ -1231,7 +1395,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   63</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a847f961fb032f97be1b007b30ff225f3">_oldFarsightGUID</a>; }</div>
+<div class="ttc" id="aclass_dynamic_object_html_a847f961fb032f97be1b007b30ff225f3"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#a847f961fb032f97be1b007b30ff225f3">DynamicObject::_oldFarsightGUID</a></div><div class="ttdeci">ObjectGuid _oldFarsightGUID</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:72</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afb0de652437ede9d70a06b3c110b5ae9" name="afb0de652437ede9d70a06b3c110b5ae9"></a>
@@ -1256,7 +1422,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   60</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/d83/class_object.html#a8797257c31223076c1b76b4b1a6f8007">GetFloatValue</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#ae2cf7880bbc4b76e73c4928370c0b030a1f62b4d30ab80b6f531f8b1dab4b852b">DYNAMICOBJECT_RADIUS</a>); }</div>
+<div class="ttc" id="aclass_object_html_a8797257c31223076c1b76b4b1a6f8007"><div class="ttname"><a href="../../d8/d83/class_object.html#a8797257c31223076c1b76b4b1a6f8007">Object::GetFloatValue</a></div><div class="ttdeci">float GetFloatValue(uint16 index) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:317</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a687c54b3c4863fd2cb889dd54d44a21f" name="a687c54b3c4863fd2cb889dd54d44a21f"></a>
@@ -1281,7 +1449,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>{  <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/d83/class_object.html#a3264388b9f92da9de7641477b3dc77f9">GetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#ae2cf7880bbc4b76e73c4928370c0b030a75f723aec0cff918ce0c3d9011bf67e1">DYNAMICOBJECT_SPELLID</a>); }</div>
+<div class="ttc" id="aclass_object_html_a3264388b9f92da9de7641477b3dc77f9"><div class="ttname"><a href="../../d8/d83/class_object.html#a3264388b9f92da9de7641477b3dc77f9">Object::GetUInt32Value</a></div><div class="ttdeci">uint32 GetUInt32Value(uint16 index) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:305</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac9befb89dbebc4e1ab2fcf8e4edc68c9" name="ac9befb89dbebc4e1ab2fcf8e4edc68c9"></a>
@@ -1306,7 +1476,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   61</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad1a6b47b129b8bb32bc9343e2d84d137">_isViewpoint</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6e890d9004aa12aaa70457b391da7a13" name="a6e890d9004aa12aaa70457b391da7a13"></a>
@@ -1323,7 +1494,18 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  190</span>{</div>
+<div class="line"><span class="lineno">  191</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d8/d83/class_object.html#a3aeab7def818ba6c50249f197ad2f9ca">IsInWorld</a>())</div>
+<div class="line"><span class="lineno">  192</span>    {</div>
+<div class="line"><span class="lineno">  193</span>        <a class="code hl_function" href="../../db/df7/class_world_object.html#ab5a418c979525ebc39647471b1fb84ca">SendObjectDeSpawnAnim</a>(<a class="code hl_function" href="../../d8/d83/class_object.html#ae65fbd7720a9aa448516f6cf494bda67">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  194</span>        <a class="code hl_function" href="../../d4/ddd/class_dynamic_object.html#af4612a8755ad47e41f635f9e40df91ea">RemoveFromWorld</a>();</div>
+<div class="line"><span class="lineno">  195</span>        <a class="code hl_function" href="../../db/df7/class_world_object.html#a8b5bf67b1f64fee748e20a147455c141">AddObjectToRemoveList</a>();</div>
+<div class="line"><span class="lineno">  196</span>    }</div>
+<div class="line"><span class="lineno">  197</span>}</div>
+<div class="ttc" id="aclass_dynamic_object_html_af4612a8755ad47e41f635f9e40df91ea"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#af4612a8755ad47e41f635f9e40df91ea">DynamicObject::RemoveFromWorld</a></div><div class="ttdeci">void RemoveFromWorld() override</div><div class="ttdef"><b>Definition:</b> DynamicObject.cpp:75</div></div>
+<div class="ttc" id="aclass_world_object_html_a8b5bf67b1f64fee748e20a147455c141"><div class="ttname"><a href="../../db/df7/class_world_object.html#a8b5bf67b1f64fee748e20a147455c141">WorldObject::AddObjectToRemoveList</a></div><div class="ttdeci">void AddObjectToRemoveList()</div><div class="ttdef"><b>Definition:</b> Object.cpp:2101</div></div>
+<div class="ttc" id="aclass_world_object_html_ab5a418c979525ebc39647471b1fb84ca"><div class="ttname"><a href="../../db/df7/class_world_object.html#ab5a418c979525ebc39647471b1fb84ca">WorldObject::SendObjectDeSpawnAnim</a></div><div class="ttdeci">void SendObjectDeSpawnAnim(ObjectGuid guid)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2050</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad2abb4e82cf82b1d24baff5573bef384" name="ad2abb4e82cf82b1d24baff5573bef384"></a>
@@ -1340,7 +1522,17 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  227</span>{</div>
+<div class="line"><span class="lineno">  228</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a> &amp;&amp; !<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ac7b3ca8ea91e5995cb36654448a57a2f">_removedAura</a>);</div>
+<div class="line"><span class="lineno">  229</span>    <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ac7b3ca8ea91e5995cb36654448a57a2f">_removedAura</a> = <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a>;</div>
+<div class="line"><span class="lineno">  230</span>    <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  231</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ac7b3ca8ea91e5995cb36654448a57a2f">_removedAura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a462457cadd52ba8a0edd5609c71ebbc0">IsRemoved</a>())</div>
+<div class="line"><span class="lineno">  232</span>        <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ac7b3ca8ea91e5995cb36654448a57a2f">_removedAura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#afb6874ab08b221b2f1f9d7582c1c93be">_Remove</a>(<a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a9a4f502870485ba32e759067c9adca94a51dd2d6d8e90e4ea4113c02fb772b80c">AURA_REMOVE_BY_DEFAULT</a>);</div>
+<div class="line"><span class="lineno">  233</span>}</div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a9a4f502870485ba32e759067c9adca94a51dd2d6d8e90e4ea4113c02fb772b80c"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a9a4f502870485ba32e759067c9adca94a51dd2d6d8e90e4ea4113c02fb772b80c">AURA_REMOVE_BY_DEFAULT</a></div><div class="ttdeci">@ AURA_REMOVE_BY_DEFAULT</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:392</div></div>
+<div class="ttc" id="aclass_aura_html_a462457cadd52ba8a0edd5609c71ebbc0"><div class="ttname"><a href="../../d2/dde/class_aura.html#a462457cadd52ba8a0edd5609c71ebbc0">Aura::IsRemoved</a></div><div class="ttdeci">bool IsRemoved() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:161</div></div>
+<div class="ttc" id="aclass_aura_html_afb6874ab08b221b2f1f9d7582c1c93be"><div class="ttname"><a href="../../d2/dde/class_aura.html#afb6874ab08b221b2f1f9d7582c1c93be">Aura::_Remove</a></div><div class="ttdeci">void _Remove(AuraRemoveMode removeMode)</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:574</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5fdfe9e5a85072e6912e56e7f8a8b681" name="a5fdfe9e5a85072e6912e56e7f8a8b681"></a>
@@ -1357,7 +1549,25 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  254</span>{</div>
+<div class="line"><span class="lineno">  255</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* caster = <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno">  256</span>    {</div>
+<div class="line"><span class="lineno">  257</span>        caster-&gt;SetViewpoint(<span class="keyword">this</span>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  258</span>        <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad1a6b47b129b8bb32bc9343e2d84d137">_isViewpoint</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  259</span> </div>
+<div class="line"><span class="lineno">  260</span>        <span class="comment">// Restore prev farsight viewpoint</span></div>
+<div class="line"><span class="lineno">  261</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* farsightObject = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*caster, <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a847f961fb032f97be1b007b30ff225f3">_oldFarsightGUID</a>))</div>
+<div class="line"><span class="lineno">  262</span>        {</div>
+<div class="line"><span class="lineno">  263</span>            caster-&gt;SetViewpoint(farsightObject, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  264</span>        }</div>
+<div class="line"><span class="lineno">  265</span>        <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a847f961fb032f97be1b007b30ff225f3">_oldFarsightGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  266</span>    }</div>
+<div class="line"><span class="lineno">  267</span>}</div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af4612a8755ad47e41f635f9e40df91ea" name="af4612a8755ad47e41f635f9e40df91ea"></a>
@@ -1387,7 +1597,35 @@ Additional Inherited Members</h2></td></tr>
 </ul>
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_object.html#ad1cde7f4f2084e40ba5606653afc8cf4">Object</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   76</span>{</div>
+<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d8/d83/class_object.html#a3aeab7def818ba6c50249f197ad2f9ca">IsInWorld</a>())</div>
+<div class="line"><span class="lineno">   79</span>    {</div>
+<div class="line"><span class="lineno">   80</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad1a6b47b129b8bb32bc9343e2d84d137">_isViewpoint</a>)</div>
+<div class="line"><span class="lineno">   81</span>            <a class="code hl_function" href="../../d4/ddd/class_dynamic_object.html#a5fdfe9e5a85072e6912e56e7f8a8b681">RemoveCasterViewpoint</a>();</div>
+<div class="line"><span class="lineno">   82</span> </div>
+<div class="line"><span class="lineno">   83</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a>)</div>
+<div class="line"><span class="lineno">   84</span>            <a class="code hl_function" href="../../d4/ddd/class_dynamic_object.html#ad2abb4e82cf82b1d24baff5573bef384">RemoveAura</a>();</div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>        <span class="comment">// dynobj could get removed in Aura::RemoveAura</span></div>
+<div class="line"><span class="lineno">   87</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d8/d83/class_object.html#a3aeab7def818ba6c50249f197ad2f9ca">IsInWorld</a>())</div>
+<div class="line"><span class="lineno">   88</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   89</span> </div>
+<div class="line"><span class="lineno">   90</span>        <a class="code hl_function" href="../../d4/ddd/class_dynamic_object.html#a1e299e47e0355680e14a66daad32591b">UnbindFromCaster</a>();</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d3/d36/class_transport.html">Transport</a>* transport = <a class="code hl_function" href="../../db/df7/class_world_object.html#a9ffd4691b1ebdb5011e800739b4dd4f5">GetTransport</a>())</div>
+<div class="line"><span class="lineno">   93</span>            transport-&gt;RemovePassenger(<span class="keyword">this</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   94</span> </div>
+<div class="line"><span class="lineno">   95</span>        <a class="code hl_function" href="../../db/df7/class_world_object.html#a21de1db6f9d389433465f36b2f769861">WorldObject::RemoveFromWorld</a>();</div>
+<div class="line"><span class="lineno">   96</span> </div>
+<div class="line"><span class="lineno">   97</span>        <a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a1bef904cde2aa309f70873821f164630">GetObjectsStore</a>().<a class="code hl_function" href="../../d3/d0b/class_type_unordered_map_container.html#a5a9666fc5f0136a778d8c542a386d4bf">Remove</a>&lt;<a class="code hl_class" href="../../d4/ddd/class_dynamic_object.html">DynamicObject</a>&gt;(<a class="code hl_function" href="../../d8/d83/class_object.html#ae65fbd7720a9aa448516f6cf494bda67">GetGUID</a>());</div>
+<div class="line"><span class="lineno">   98</span>    }</div>
+<div class="line"><span class="lineno">   99</span>}</div>
+<div class="ttc" id="aclass_dynamic_object_html_a1e299e47e0355680e14a66daad32591b"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#a1e299e47e0355680e14a66daad32591b">DynamicObject::UnbindFromCaster</a></div><div class="ttdeci">void UnbindFromCaster()</div><div class="ttdef"><b>Definition:</b> DynamicObject.cpp:278</div></div>
+<div class="ttc" id="aclass_dynamic_object_html_a5fdfe9e5a85072e6912e56e7f8a8b681"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#a5fdfe9e5a85072e6912e56e7f8a8b681">DynamicObject::RemoveCasterViewpoint</a></div><div class="ttdeci">void RemoveCasterViewpoint()</div><div class="ttdef"><b>Definition:</b> DynamicObject.cpp:253</div></div>
+<div class="ttc" id="aclass_dynamic_object_html_ad2abb4e82cf82b1d24baff5573bef384"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#ad2abb4e82cf82b1d24baff5573bef384">DynamicObject::RemoveAura</a></div><div class="ttdeci">void RemoveAura()</div><div class="ttdef"><b>Definition:</b> DynamicObject.cpp:226</div></div>
+<div class="ttc" id="aclass_type_unordered_map_container_html_a5a9666fc5f0136a778d8c542a386d4bf"><div class="ttname"><a href="../../d3/d0b/class_type_unordered_map_container.html#a5a9666fc5f0136a778d8c542a386d4bf">TypeUnorderedMapContainer::Remove</a></div><div class="ttdeci">bool Remove(KEY_TYPE const &amp;handle)</div><div class="ttdef"><b>Definition:</b> TypeContainer.h:141</div></div>
+<div class="ttc" id="aclass_world_object_html_a21de1db6f9d389433465f36b2f769861"><div class="ttname"><a href="../../db/df7/class_world_object.html#a21de1db6f9d389433465f36b2f769861">WorldObject::RemoveFromWorld</a></div><div class="ttdeci">void RemoveFromWorld() override</div><div class="ttdef"><b>Definition:</b> Object.cpp:1182</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0e21e54eec1092b7ed05d1bacd0f8ed6" name="a0e21e54eec1092b7ed05d1bacd0f8ed6"></a>
@@ -1405,7 +1643,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  221</span>{</div>
+<div class="line"><span class="lineno">  222</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a> &amp;&amp; aura);</div>
+<div class="line"><span class="lineno">  223</span>    <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a> = aura;</div>
+<div class="line"><span class="lineno">  224</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7f9745451c9d6813498d07caaf13f8b3" name="a7f9745451c9d6813498d07caaf13f8b3"></a>
@@ -1423,7 +1665,24 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  236</span>{</div>
+<div class="line"><span class="lineno">  237</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* caster = <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno">  238</span>    {</div>
+<div class="line"><span class="lineno">  239</span>        <span class="comment">// Remove old farsight viewpoint</span></div>
+<div class="line"><span class="lineno">  240</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* farsightObject = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*caster, caster-&gt;GetGuidValue(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881acbbc2f72651995ffa95bda05c7e99349">PLAYER_FARSIGHT</a>)))</div>
+<div class="line"><span class="lineno">  241</span>        {</div>
+<div class="line"><span class="lineno">  242</span>            <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a847f961fb032f97be1b007b30ff225f3">_oldFarsightGUID</a> = caster-&gt;GetGuidValue(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881acbbc2f72651995ffa95bda05c7e99349">PLAYER_FARSIGHT</a>);</div>
+<div class="line"><span class="lineno">  243</span>            caster-&gt;SetViewpoint(farsightObject, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  244</span>        }</div>
+<div class="line"><span class="lineno">  245</span> </div>
+<div class="line"><span class="lineno">  246</span>        caster-&gt;SetViewpoint(<span class="keyword">this</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  247</span>        <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad1a6b47b129b8bb32bc9343e2d84d137">_isViewpoint</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  248</span>    }</div>
+<div class="line"><span class="lineno">  249</span> </div>
+<div class="line"><span class="lineno">  250</span>    <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#afacef0933f6897e295e217bc8eaad69f">_updateViewerVisibilityTimer</a> = updateViewerVisibility ? 100 : 0;</div>
+<div class="line"><span class="lineno">  251</span>}</div>
+<div class="ttc" id="a_update_fields_8h_html_a0e42dc606678c9df7884e1aad621e881acbbc2f72651995ffa95bda05c7e99349"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881acbbc2f72651995ffa95bda05c7e99349">PLAYER_FARSIGHT</a></div><div class="ttdeci">@ PLAYER_FARSIGHT</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:334</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4e4fd5f51680f5efeb0a700d27f986f1" name="a4e4fd5f51680f5efeb0a700d27f986f1"></a>
@@ -1441,7 +1700,14 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  208</span>{</div>
+<div class="line"><span class="lineno">  209</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a>)</div>
+<div class="line"><span class="lineno">  210</span>        <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a2a8626ce02e7f1bd6a8c8f84d38b5625">_duration</a> = newDuration;</div>
+<div class="line"><span class="lineno">  211</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  212</span>        <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a99930c42ad9f6e002ffe6de5e5fbe59b">SetDuration</a>(newDuration);</div>
+<div class="line"><span class="lineno">  213</span>}</div>
+<div class="ttc" id="aclass_aura_html_a99930c42ad9f6e002ffe6de5e5fbe59b"><div class="ttname"><a href="../../d2/dde/class_aura.html#a99930c42ad9f6e002ffe6de5e5fbe59b">Aura::SetDuration</a></div><div class="ttdeci">void SetDuration(int32 duration, bool withMods=false)</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:882</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1e299e47e0355680e14a66daad32591b" name="a1e299e47e0355680e14a66daad32591b"></a>
@@ -1458,7 +1724,13 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  279</span>{</div>
+<div class="line"><span class="lineno">  280</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a>);</div>
+<div class="line"><span class="lineno">  281</span>    <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1b2e0bb4188512b464d98062f503e857">_UnregisterDynObject</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  282</span>    <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  283</span>}</div>
+<div class="ttc" id="aclass_unit_html_a1b2e0bb4188512b464d98062f503e857"><div class="ttname"><a href="../../da/db7/class_unit.html#a1b2e0bb4188512b464d98062f503e857">Unit::_UnregisterDynObject</a></div><div class="ttdeci">void _UnregisterDynObject(DynamicObject *dynObj)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:6023</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a24ce0e641d6403750b3d32f358f9f059" name="a24ce0e641d6403750b3d32f358f9f059"></a>
@@ -1486,7 +1758,56 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../db/df7/class_world_object.html#a6561a43003fb90e4fecbe22186e6b3d2">WorldObject</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  144</span>{</div>
+<div class="line"><span class="lineno">  145</span>    <span class="comment">// caster has to be always available and in the same map</span></div>
+<div class="line"><span class="lineno">  146</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a>);</div>
+<div class="line"><span class="lineno">  147</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>() == <a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>());</div>
+<div class="line"><span class="lineno">  148</span> </div>
+<div class="line"><span class="lineno">  149</span>    <span class="keywordtype">bool</span> expired = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  150</span> </div>
+<div class="line"><span class="lineno">  151</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a>)</div>
+<div class="line"><span class="lineno">  152</span>    {</div>
+<div class="line"><span class="lineno">  153</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a462457cadd52ba8a0edd5609c71ebbc0">IsRemoved</a>())</div>
+<div class="line"><span class="lineno">  154</span>            <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a6349dd41e39827b8c55464982801d1b4">UpdateOwner</a>(p_time, <span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  155</span> </div>
+<div class="line"><span class="lineno">  156</span>        <span class="comment">// _aura may be set to null in Aura::UpdateOwner call</span></div>
+<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a> &amp;&amp; (<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a462457cadd52ba8a0edd5609c71ebbc0">IsRemoved</a>() || <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#ad386e45b476f87b60ff5126ad03943f9">_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#ace74284832d9713a175bb3905449f954">IsExpired</a>()))</div>
+<div class="line"><span class="lineno">  158</span>            expired = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  159</span>    }</div>
+<div class="line"><span class="lineno">  160</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  161</span>    {</div>
+<div class="line"><span class="lineno">  162</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d4/ddd/class_dynamic_object.html#ad4c3f8f34d36c77a0baa98ae2b56397b">GetDuration</a>() &gt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(p_time))</div>
+<div class="line"><span class="lineno">  163</span>            <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a2a8626ce02e7f1bd6a8c8f84d38b5625">_duration</a> -= p_time;</div>
+<div class="line"><span class="lineno">  164</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  165</span>            expired = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  166</span>    }</div>
+<div class="line"><span class="lineno">  167</span> </div>
+<div class="line"><span class="lineno">  168</span>    <span class="keywordflow">if</span> (expired)</div>
+<div class="line"><span class="lineno">  169</span>        <a class="code hl_function" href="../../d4/ddd/class_dynamic_object.html#a6e890d9004aa12aaa70457b391da7a13">Remove</a>();</div>
+<div class="line"><span class="lineno">  170</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  171</span>    {</div>
+<div class="line"><span class="lineno">  172</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#afacef0933f6897e295e217bc8eaad69f">_updateViewerVisibilityTimer</a>)</div>
+<div class="line"><span class="lineno">  173</span>        {</div>
+<div class="line"><span class="lineno">  174</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#afacef0933f6897e295e217bc8eaad69f">_updateViewerVisibilityTimer</a> &lt;= p_time)</div>
+<div class="line"><span class="lineno">  175</span>            {</div>
+<div class="line"><span class="lineno">  176</span>                <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#afacef0933f6897e295e217bc8eaad69f">_updateViewerVisibilityTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  177</span> </div>
+<div class="line"><span class="lineno">  178</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* playerCaster = <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#a10357daa868050603b2d89cceda81500">_caster</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno">  179</span>                    playerCaster-&gt;UpdateVisibilityForPlayer();</div>
+<div class="line"><span class="lineno">  180</span>            }</div>
+<div class="line"><span class="lineno">  181</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  182</span>                <a class="code hl_variable" href="../../d4/ddd/class_dynamic_object.html#afacef0933f6897e295e217bc8eaad69f">_updateViewerVisibilityTimer</a> -= p_time;</div>
+<div class="line"><span class="lineno">  183</span>        }</div>
+<div class="line"><span class="lineno">  184</span> </div>
+<div class="line"><span class="lineno">  185</span>        <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a>-&gt;OnDynamicObjectUpdate(<span class="keyword">this</span>, p_time);</div>
+<div class="line"><span class="lineno">  186</span>    }</div>
+<div class="line"><span class="lineno">  187</span>}</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_script_mgr_8h_html_ae8161e629869974bc49b1cbfc73c1087"><div class="ttname"><a href="../../d0/d7d/_script_mgr_8h.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a></div><div class="ttdeci">#define sScriptMgr</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2690</div></div>
+<div class="ttc" id="aclass_aura_html_a6349dd41e39827b8c55464982801d1b4"><div class="ttname"><a href="../../d2/dde/class_aura.html#a6349dd41e39827b8c55464982801d1b4">Aura::UpdateOwner</a></div><div class="ttdeci">void UpdateOwner(uint32 diff, WorldObject *owner)</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:770</div></div>
+<div class="ttc" id="aclass_aura_html_ace74284832d9713a175bb3905449f954"><div class="ttname"><a href="../../d2/dde/class_aura.html#ace74284832d9713a175bb3905449f954">Aura::IsExpired</a></div><div class="ttdeci">bool IsExpired() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:138</div></div>
+<div class="ttc" id="aclass_dynamic_object_html_a6e890d9004aa12aaa70457b391da7a13"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#a6e890d9004aa12aaa70457b391da7a13">DynamicObject::Remove</a></div><div class="ttdeci">void Remove()</div><div class="ttdef"><b>Definition:</b> DynamicObject.cpp:189</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -1645,8 +1966,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/DynamicObject/<a class="el" href="../../d0/db0/_dynamic_object_8h_source.html">DynamicObject.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/DynamicObject/<a class="el" href="../../d8/dbb/_dynamic_object_8cpp.html">DynamicObject.cpp</a></li>
+<li><a class="el" href="../../">DynamicObject.h</a></li>
+<li><a class="el" href="../../">DynamicObject.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1654,7 +1975,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/ddd/class_dynamic_object.html">DynamicObject</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

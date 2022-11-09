@@ -181,7 +181,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa44feb353ad1cb440e5b6707112af680" name="aa44feb353ad1cb440e5b6707112af680"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa44feb353ad1cb440e5b6707112af680">&#9670;&#160;</a></span>go_strange_pool()</h2>
 
@@ -204,7 +205,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  213</span>: <a class="code hl_class" href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a>(<span class="stringliteral">&quot;go_strange_pool&quot;</span>) { }</div>
+<div class="ttc" id="aclass_game_object_script_html"><div class="ttname"><a href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:758</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -243,11 +246,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#a58b56fc92ae87aea0530eceba1f3088d">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  216</span>    {</div>
+<div class="line"><span class="lineno">  217</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno">  218</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a>(instance-&gt;GetBossState(<a class="code hl_enumvalue" href="../../d2/dcb/serpent__shrine_8h.html#afb6eb4f28419b652027fad41104a6d22a42190d78fe99ad466676b37bcfba5499">DATA_THE_LURKER_BELOW</a>) != <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a> ? 25 : 0) &amp;&amp; !instance-&gt;IsEncounterInProgress())</div>
+<div class="line"><span class="lineno">  219</span>            {</div>
+<div class="line"><span class="lineno">  220</span>                player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(player, <a class="code hl_enumvalue" href="../../d2/d3d/boss__lurker__below_8cpp.html#a5bd342133be8c2137b831460acc9298cae493af2b1e3cd92dd82b6f410debbd5d">SPELL_LURKER_SPAWN_TRIGGER</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  221</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* lurker = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*go, instance-&gt;GetGuidData(<a class="code hl_enumvalue" href="../../d2/dcb/serpent__shrine_8h.html#a2ee1f33d8ee290d833dd84e07c1ff669adf6dfb0aecaa966977259b92ad16f17c">NPC_THE_LURKER_BELOW</a>)))</div>
+<div class="line"><span class="lineno">  222</span>                    lurker-&gt;AI()-&gt;DoAction(<a class="code hl_enumvalue" href="../../d2/d3d/boss__lurker__below_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a5a9d00590152ece2beb2305c6f271dd9">ACTION_START_EVENT</a>);</div>
+<div class="line"><span class="lineno">  223</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  224</span>            }</div>
+<div class="line"><span class="lineno">  225</span> </div>
+<div class="line"><span class="lineno">  226</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  227</span>    }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="a_random_8h_html_a50320d4edff86db31b25138ae72161ad"><div class="ttname"><a href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a></div><div class="ttdeci">bool roll_chance_i(int chance)</div><div class="ttdef"><b>Definition:</b> Random.h:59</div></div>
+<div class="ttc" id="aboss__lurker__below_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a5a9d00590152ece2beb2305c6f271dd9"><div class="ttname"><a href="../../d2/d3d/boss__lurker__below_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a5a9d00590152ece2beb2305c6f271dd9">ACTION_START_EVENT</a></div><div class="ttdeci">@ ACTION_START_EVENT</div><div class="ttdef"><b>Definition:</b> boss_lurker_below.cpp:35</div></div>
+<div class="ttc" id="aboss__lurker__below_8cpp_html_a5bd342133be8c2137b831460acc9298cae493af2b1e3cd92dd82b6f410debbd5d"><div class="ttname"><a href="../../d2/d3d/boss__lurker__below_8cpp.html#a5bd342133be8c2137b831460acc9298cae493af2b1e3cd92dd82b6f410debbd5d">SPELL_LURKER_SPAWN_TRIGGER</a></div><div class="ttdeci">@ SPELL_LURKER_SPAWN_TRIGGER</div><div class="ttdef"><b>Definition:</b> boss_lurker_below.cpp:29</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="aserpent__shrine_8h_html_a2ee1f33d8ee290d833dd84e07c1ff669adf6dfb0aecaa966977259b92ad16f17c"><div class="ttname"><a href="../../d2/dcb/serpent__shrine_8h.html#a2ee1f33d8ee290d833dd84e07c1ff669adf6dfb0aecaa966977259b92ad16f17c">NPC_THE_LURKER_BELOW</a></div><div class="ttdeci">@ NPC_THE_LURKER_BELOW</div><div class="ttdef"><b>Definition:</b> serpent_shrine.h:51</div></div>
+<div class="ttc" id="aserpent__shrine_8h_html_afb6eb4f28419b652027fad41104a6d22a42190d78fe99ad466676b37bcfba5499"><div class="ttname"><a href="../../d2/dcb/serpent__shrine_8h.html#afb6eb4f28419b652027fad41104a6d22a42190d78fe99ad466676b37bcfba5499">DATA_THE_LURKER_BELOW</a></div><div class="ttdeci">@ DATA_THE_LURKER_BELOW</div><div class="ttdef"><b>Definition:</b> serpent_shrine.h:33</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/CoilfangReservoir/SerpentShrine/<a class="el" href="../../d2/d3d/boss__lurker__below_8cpp.html">boss_lurker_below.cpp</a></li>
+<li><a class="el" href="../../">boss_lurker_below.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -255,7 +281,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/df0/classgo__strange__pool.html">go_strange_pool</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

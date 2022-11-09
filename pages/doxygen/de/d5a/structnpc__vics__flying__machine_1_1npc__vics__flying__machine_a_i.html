@@ -393,7 +393,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4464e0b1433c4ffb24ae7809b1a0eec5" name="a4464e0b1433c4ffb24ae7809b1a0eec5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4464e0b1433c4ffb24ae7809b1a0eec5">&#9670;&#160;</a></span>npc_vics_flying_machineAI()</h2>
 
@@ -417,7 +418,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1356</span>                                                      : <a class="code hl_struct" href="../../df/d81/struct_vehicle_a_i.html">VehicleAI</a>(creature)</div>
+<div class="line"><span class="lineno"> 1357</span>        {</div>
+<div class="line"><span class="lineno"> 1358</span>            <a class="code hl_variable" href="../../de/d5a/structnpc__vics__flying__machine_1_1npc__vics__flying__machine_a_i.html#aa1412c23f0c3b964262e145c51aea974">pointId</a> = 0;</div>
+<div class="line"><span class="lineno"> 1359</span>        }</div>
+<div class="ttc" id="astruct_vehicle_a_i_html"><div class="ttname"><a href="../../df/d81/struct_vehicle_a_i.html">VehicleAI</a></div><div class="ttdef"><b>Definition:</b> CombatAI.h:99</div></div>
+<div class="ttc" id="astructnpc__vics__flying__machine_1_1npc__vics__flying__machine_a_i_html_aa1412c23f0c3b964262e145c51aea974"><div class="ttname"><a href="../../de/d5a/structnpc__vics__flying__machine_1_1npc__vics__flying__machine_a_i.html#aa1412c23f0c3b964262e145c51aea974">npc_vics_flying_machine::npc_vics_flying_machineAI::pointId</a></div><div class="ttdeci">uint8 pointId</div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:1361</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -456,7 +463,62 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#ab0438b14dc1d7f038221d9d7a2f37043">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1382</span>        {</div>
+<div class="line"><span class="lineno"> 1383</span>            <span class="keywordflow">if</span> (type != <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9a61498726a0e9657284d8fb8b173cf4bf">ESCORT_MOTION_TYPE</a>)</div>
+<div class="line"><span class="lineno"> 1384</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1385</span> </div>
+<div class="line"><span class="lineno"> 1386</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dd/df6/class_vehicle.html">Vehicle</a>* veh = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae54fce65a1c084c982043777288895ec">GetVehicleKit</a>())</div>
+<div class="line"><span class="lineno"> 1387</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* pilot = veh-&gt;GetPassenger(0))</div>
+<div class="line"><span class="lineno"> 1388</span>                    <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../de/d5a/structnpc__vics__flying__machine_1_1npc__vics__flying__machine_a_i.html#aa1412c23f0c3b964262e145c51aea974">pointId</a>)</div>
+<div class="line"><span class="lineno"> 1389</span>                    {</div>
+<div class="line"><span class="lineno"> 1390</span>                        <span class="keywordflow">case</span> 5:</div>
+<div class="line"><span class="lineno"> 1391</span>                            pilot-&gt;ToCreature()-&gt;AI()-&gt;Talk(<a class="code hl_enumvalue" href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52daf851b8d3732d8cfa5c042d2003df4bc5">VIC_SAY_0</a>);</div>
+<div class="line"><span class="lineno"> 1392</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1393</span>                        <span class="keywordflow">case</span> 11:</div>
+<div class="line"><span class="lineno"> 1394</span>                            pilot-&gt;ToCreature()-&gt;AI()-&gt;Talk(<a class="code hl_enumvalue" href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52da03177c5f683e4e107a302158eae27674">VIC_SAY_1</a>);</div>
+<div class="line"><span class="lineno"> 1395</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1396</span>                        <span class="keywordflow">case</span> 12:</div>
+<div class="line"><span class="lineno"> 1397</span>                            pilot-&gt;ToCreature()-&gt;AI()-&gt;Talk(<a class="code hl_enumvalue" href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52dab7edb3b79f488240d89bd6fd385e3d4b">VIC_SAY_2</a>);</div>
+<div class="line"><span class="lineno"> 1398</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1399</span>                        <span class="keywordflow">case</span> 14:</div>
+<div class="line"><span class="lineno"> 1400</span>                            pilot-&gt;ToCreature()-&gt;AI()-&gt;Talk(<a class="code hl_enumvalue" href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52dadc3b3cb74ae0ccb5f7bb82c8d891ec3b">VIC_SAY_3</a>);</div>
+<div class="line"><span class="lineno"> 1401</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1402</span>                        <span class="keywordflow">case</span> 15:</div>
+<div class="line"><span class="lineno"> 1403</span>                            pilot-&gt;ToCreature()-&gt;ToCreature()-&gt;AI()-&gt;Talk(<a class="code hl_enumvalue" href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52dad7c4ea2b5c2035181a28d0e3d5e4b6b0">VIC_SAY_4</a>);</div>
+<div class="line"><span class="lineno"> 1404</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1405</span>                        <span class="keywordflow">case</span> 17:</div>
+<div class="line"><span class="lineno"> 1406</span>                            pilot-&gt;ToCreature()-&gt;AI()-&gt;Talk(<a class="code hl_enumvalue" href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52da4330f3fdcd0deec342bcdd9760a24fc4">VIC_SAY_5</a>);</div>
+<div class="line"><span class="lineno"> 1407</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1408</span>                        <span class="keywordflow">case</span> 21:</div>
+<div class="line"><span class="lineno"> 1409</span>                            pilot-&gt;ToCreature()-&gt;AI()-&gt;Talk(<a class="code hl_enumvalue" href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52da16d118efcca2482dbf317b80034053c1">VIC_SAY_6</a>);</div>
+<div class="line"><span class="lineno"> 1410</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1411</span>                        <span class="keywordflow">case</span> 25:</div>
+<div class="line"><span class="lineno"> 1412</span>                            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52da0c716ddde393d2ad7982fb525d453c2c">PLANE_EMOTE</a>);</div>
+<div class="line"><span class="lineno"> 1413</span>                            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_enumvalue" href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52daacf7d88fd3b13529c308febe9af93064">AURA_ENGINE</a>);</div>
+<div class="line"><span class="lineno"> 1414</span>                            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a585c0587bf93911ef964892c82b82172">SetUnitFlag2</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a3320fdc05dc07c396f8943de4018e682a6b5e14f64219057e58c20f8345702ed0">UNIT_FLAG2_FORCE_MOVEMENT</a>);</div>
+<div class="line"><span class="lineno"> 1415</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1416</span>                    }</div>
+<div class="line"><span class="lineno"> 1417</span>            <a class="code hl_variable" href="../../de/d5a/structnpc__vics__flying__machine_1_1npc__vics__flying__machine_a_i.html#aa1412c23f0c3b964262e145c51aea974">pointId</a>++;</div>
+<div class="line"><span class="lineno"> 1418</span>        }</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9a61498726a0e9657284d8fb8b173cf4bf"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9a61498726a0e9657284d8fb8b173cf4bf">ESCORT_MOTION_TYPE</a></div><div class="ttdeci">@ ESCORT_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:55</div></div>
+<div class="ttc" id="a_unit_8h_html_a3320fdc05dc07c396f8943de4018e682a6b5e14f64219057e58c20f8345702ed0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a3320fdc05dc07c396f8943de4018e682a6b5e14f64219057e58c20f8345702ed0">UNIT_FLAG2_FORCE_MOVEMENT</a></div><div class="ttdeci">@ UNIT_FLAG2_FORCE_MOVEMENT</div><div class="ttdef"><b>Definition:</b> Unit.h:494</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a585c0587bf93911ef964892c82b82172"><div class="ttname"><a href="../../da/db7/class_unit.html#a585c0587bf93911ef964892c82b82172">Unit::SetUnitFlag2</a></div><div class="ttdeci">void SetUnitFlag2(UnitFlags2 flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1485</div></div>
+<div class="ttc" id="aclass_unit_html_ae54fce65a1c084c982043777288895ec"><div class="ttname"><a href="../../da/db7/class_unit.html#ae54fce65a1c084c982043777288895ec">Unit::GetVehicleKit</a></div><div class="ttdeci">Vehicle * GetVehicleKit() const</div><div class="ttdef"><b>Definition:</b> Unit.h:2348</div></div>
+<div class="ttc" id="aclass_vehicle_html"><div class="ttname"><a href="../../dd/df6/class_vehicle.html">Vehicle</a></div><div class="ttdef"><b>Definition:</b> Vehicle.h:30</div></div>
+<div class="ttc" id="azone__sholazar__basin_8cpp_html_adfe4875d170be418cf524fc3141fa52da03177c5f683e4e107a302158eae27674"><div class="ttname"><a href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52da03177c5f683e4e107a302158eae27674">VIC_SAY_1</a></div><div class="ttdeci">@ VIC_SAY_1</div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:1335</div></div>
+<div class="ttc" id="azone__sholazar__basin_8cpp_html_adfe4875d170be418cf524fc3141fa52da0c716ddde393d2ad7982fb525d453c2c"><div class="ttname"><a href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52da0c716ddde393d2ad7982fb525d453c2c">PLANE_EMOTE</a></div><div class="ttdeci">@ PLANE_EMOTE</div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:1341</div></div>
+<div class="ttc" id="azone__sholazar__basin_8cpp_html_adfe4875d170be418cf524fc3141fa52da16d118efcca2482dbf317b80034053c1"><div class="ttname"><a href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52da16d118efcca2482dbf317b80034053c1">VIC_SAY_6</a></div><div class="ttdeci">@ VIC_SAY_6</div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:1340</div></div>
+<div class="ttc" id="azone__sholazar__basin_8cpp_html_adfe4875d170be418cf524fc3141fa52da4330f3fdcd0deec342bcdd9760a24fc4"><div class="ttname"><a href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52da4330f3fdcd0deec342bcdd9760a24fc4">VIC_SAY_5</a></div><div class="ttdeci">@ VIC_SAY_5</div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:1339</div></div>
+<div class="ttc" id="azone__sholazar__basin_8cpp_html_adfe4875d170be418cf524fc3141fa52daacf7d88fd3b13529c308febe9af93064"><div class="ttname"><a href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52daacf7d88fd3b13529c308febe9af93064">AURA_ENGINE</a></div><div class="ttdeci">@ AURA_ENGINE</div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:1343</div></div>
+<div class="ttc" id="azone__sholazar__basin_8cpp_html_adfe4875d170be418cf524fc3141fa52dab7edb3b79f488240d89bd6fd385e3d4b"><div class="ttname"><a href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52dab7edb3b79f488240d89bd6fd385e3d4b">VIC_SAY_2</a></div><div class="ttdeci">@ VIC_SAY_2</div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:1336</div></div>
+<div class="ttc" id="azone__sholazar__basin_8cpp_html_adfe4875d170be418cf524fc3141fa52dad7c4ea2b5c2035181a28d0e3d5e4b6b0"><div class="ttname"><a href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52dad7c4ea2b5c2035181a28d0e3d5e4b6b0">VIC_SAY_4</a></div><div class="ttdeci">@ VIC_SAY_4</div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:1338</div></div>
+<div class="ttc" id="azone__sholazar__basin_8cpp_html_adfe4875d170be418cf524fc3141fa52dadc3b3cb74ae0ccb5f7bb82c8d891ec3b"><div class="ttname"><a href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52dadc3b3cb74ae0ccb5f7bb82c8d891ec3b">VIC_SAY_3</a></div><div class="ttdeci">@ VIC_SAY_3</div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:1337</div></div>
+<div class="ttc" id="azone__sholazar__basin_8cpp_html_adfe4875d170be418cf524fc3141fa52daf851b8d3732d8cfa5c042d2003df4bc5"><div class="ttname"><a href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52daf851b8d3732d8cfa5c042d2003df4bc5">VIC_SAY_0</a></div><div class="ttdeci">@ VIC_SAY_0</div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:1334</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa67dcbb4b43b047398fec2619ad61829" name="aa67dcbb4b43b047398fec2619ad61829"></a>
@@ -502,7 +564,38 @@ Additional Inherited Members</h2></td></tr>
 <p>== Fields ======================================= </p>
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#ac5f77a4717d02695e089042fa12f5c1e">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1364</span>        {</div>
+<div class="line"><span class="lineno"> 1365</span>            <span class="keywordflow">if</span> (apply &amp;&amp; passenger-&gt;GetTypeId() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno"> 1366</span>            {</div>
+<div class="line"><span class="lineno"> 1367</span>                <a class="code hl_typedef" href="../../d1/dc5/namespace_movement.html#a86528b2e04ddf38b80888e45d6b9c37d">Movement::PointsArray</a> pathPoints;</div>
+<div class="line"><span class="lineno"> 1368</span>                pathPoints.push_back(G3D::Vector3(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>()));</div>
+<div class="line"><span class="lineno"> 1369</span> </div>
+<div class="line"><span class="lineno"> 1370</span>                <a class="code hl_typedef" href="../../d4/dcd/_waypoint_mgr_8h.html#a3884c0cb3f926b9869757242cf112630">WaypointPath</a> <span class="keyword">const</span>* i_path = <a class="code hl_define" href="../../d4/dcd/_waypoint_mgr_8h.html#a8e3218ae672aeeb8c1d9dc23a3a1a627">sWaypointMgr</a>-&gt;GetPath(<a class="code hl_enumvalue" href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52dafd45e27538c79b4202bc05e0bf310ae5">NPC_PLANE</a>);</div>
+<div class="line"><span class="lineno"> 1371</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; i_path-&gt;size(); ++i)</div>
+<div class="line"><span class="lineno"> 1372</span>                {</div>
+<div class="line"><span class="lineno"> 1373</span>                    <a class="code hl_struct" href="../../df/d2d/struct_waypoint_data.html">WaypointData</a> <span class="keyword">const</span>* node = i_path-&gt;at(i);</div>
+<div class="line"><span class="lineno"> 1374</span>                    pathPoints.push_back(G3D::Vector3(node-&gt;<a class="code hl_variable" href="../../df/d2d/struct_waypoint_data.html#a2dfd7f1f946ebef0b67d8f1542198b4b">x</a>, node-&gt;<a class="code hl_variable" href="../../df/d2d/struct_waypoint_data.html#a574c5ba7eb5e6bd55f6c55bb511c03f7">y</a>, node-&gt;<a class="code hl_variable" href="../../df/d2d/struct_waypoint_data.html#a013fa650f43e790e652016fbce2e1bd5">z</a>));</div>
+<div class="line"><span class="lineno"> 1375</span>                }</div>
+<div class="line"><span class="lineno"> 1376</span> </div>
+<div class="line"><span class="lineno"> 1377</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#ab52449f221ce972a8c5291d21eb71635">MoveSplinePath</a>(&amp;pathPoints);</div>
+<div class="line"><span class="lineno"> 1378</span>            }</div>
+<div class="line"><span class="lineno"> 1379</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="a_waypoint_mgr_8h_html_a3884c0cb3f926b9869757242cf112630"><div class="ttname"><a href="../../d4/dcd/_waypoint_mgr_8h.html#a3884c0cb3f926b9869757242cf112630">WaypointPath</a></div><div class="ttdeci">std::vector&lt; WaypointData * &gt; WaypointPath</div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:46</div></div>
+<div class="ttc" id="a_waypoint_mgr_8h_html_a8e3218ae672aeeb8c1d9dc23a3a1a627"><div class="ttname"><a href="../../d4/dcd/_waypoint_mgr_8h.html#a8e3218ae672aeeb8c1d9dc23a3a1a627">sWaypointMgr</a></div><div class="ttdeci">#define sWaypointMgr</div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:77</div></div>
+<div class="ttc" id="aclass_motion_master_html_ab52449f221ce972a8c5291d21eb71635"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#ab52449f221ce972a8c5291d21eb71635">MotionMaster::MoveSplinePath</a></div><div class="ttdeci">void MoveSplinePath(Movement::PointsArray *path)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:409</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="anamespace_movement_html_a86528b2e04ddf38b80888e45d6b9c37d"><div class="ttname"><a href="../../d1/dc5/namespace_movement.html#a86528b2e04ddf38b80888e45d6b9c37d">Movement::PointsArray</a></div><div class="ttdeci">std::vector&lt; Vector3 &gt; PointsArray</div><div class="ttdef"><b>Definition:</b> MoveSplineInitArgs.h:28</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astruct_waypoint_data_html"><div class="ttname"><a href="../../df/d2d/struct_waypoint_data.html">WaypointData</a></div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:36</div></div>
+<div class="ttc" id="astruct_waypoint_data_html_a013fa650f43e790e652016fbce2e1bd5"><div class="ttname"><a href="../../df/d2d/struct_waypoint_data.html#a013fa650f43e790e652016fbce2e1bd5">WaypointData::z</a></div><div class="ttdeci">float z</div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:38</div></div>
+<div class="ttc" id="astruct_waypoint_data_html_a2dfd7f1f946ebef0b67d8f1542198b4b"><div class="ttname"><a href="../../df/d2d/struct_waypoint_data.html#a2dfd7f1f946ebef0b67d8f1542198b4b">WaypointData::x</a></div><div class="ttdeci">float x</div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:38</div></div>
+<div class="ttc" id="astruct_waypoint_data_html_a574c5ba7eb5e6bd55f6c55bb511c03f7"><div class="ttname"><a href="../../df/d2d/struct_waypoint_data.html#a574c5ba7eb5e6bd55f6c55bb511c03f7">WaypointData::y</a></div><div class="ttdeci">float y</div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:38</div></div>
+<div class="ttc" id="azone__sholazar__basin_8cpp_html_adfe4875d170be418cf524fc3141fa52dafd45e27538c79b4202bc05e0bf310ae5"><div class="ttname"><a href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52dafd45e27538c79b4202bc05e0bf310ae5">NPC_PLANE</a></div><div class="ttdeci">@ NPC_PLANE</div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:1331</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa81229a104e1521d570abec4b6f7bca7" name="aa81229a104e1521d570abec4b6f7bca7"></a>
@@ -540,7 +633,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a6afb39c4bf86a1e882cc80fd7ec80a8f">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1421</span>        {</div>
+<div class="line"><span class="lineno"> 1422</span>            <span class="keywordflow">if</span> (spell-&gt;Id == <a class="code hl_enumvalue" href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52daca6291a64117feefb2c895d7eb7959fb">SPELL_LAND</a>)</div>
+<div class="line"><span class="lineno"> 1423</span>            {</div>
+<div class="line"><span class="lineno"> 1424</span>                <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* passenger = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae54fce65a1c084c982043777288895ec">GetVehicleKit</a>()-&gt;<a class="code hl_function" href="../../dd/df6/class_vehicle.html#a250a3ae75407ecbf79d3235a9c56679f">GetPassenger</a>(1); <span class="comment">// player should be on seat 1</span></div>
+<div class="line"><span class="lineno"> 1425</span>                <span class="keywordflow">if</span> (passenger &amp;&amp; passenger-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno"> 1426</span>                    passenger-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(passenger, <a class="code hl_enumvalue" href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52da4cac52f68a7a26b807deb613362f6137">SPELL_CREDIT</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1427</span> </div>
+<div class="line"><span class="lineno"> 1428</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>();</div>
+<div class="line"><span class="lineno"> 1429</span>            }</div>
+<div class="line"><span class="lineno"> 1430</span>        }</div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_vehicle_html_a250a3ae75407ecbf79d3235a9c56679f"><div class="ttname"><a href="../../dd/df6/class_vehicle.html#a250a3ae75407ecbf79d3235a9c56679f">Vehicle::GetPassenger</a></div><div class="ttdeci">Unit * GetPassenger(int8 seatId) const</div><div class="ttdef"><b>Definition:</b> Vehicle.cpp:226</div></div>
+<div class="ttc" id="azone__sholazar__basin_8cpp_html_adfe4875d170be418cf524fc3141fa52da4cac52f68a7a26b807deb613362f6137"><div class="ttname"><a href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52da4cac52f68a7a26b807deb613362f6137">SPELL_CREDIT</a></div><div class="ttdeci">@ SPELL_CREDIT</div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:1346</div></div>
+<div class="ttc" id="azone__sholazar__basin_8cpp_html_adfe4875d170be418cf524fc3141fa52daca6291a64117feefb2c895d7eb7959fb"><div class="ttname"><a href="../../d3/d6e/zone__sholazar__basin_8cpp.html#adfe4875d170be418cf524fc3141fa52daca6291a64117feefb2c895d7eb7959fb">SPELL_LAND</a></div><div class="ttdeci">@ SPELL_LAND</div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:1345</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -559,7 +668,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d3/d6e/zone__sholazar__basin_8cpp.html">zone_sholazar_basin.cpp</a></li>
+<li><a class="el" href="../../">zone_sholazar_basin.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -567,7 +676,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d0d/classnpc__vics__flying__machine.html">npc_vics_flying_machine</a></li><li class="navelem"><a class="el" href="../../de/d5a/structnpc__vics__flying__machine_1_1npc__vics__flying__machine_a_i.html">npc_vics_flying_machineAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:11 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

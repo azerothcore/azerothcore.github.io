@@ -499,7 +499,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa463497ba576eea70892498b03e8fb6f" name="aa463497ba576eea70892498b03e8fb6f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa463497ba576eea70892498b03e8fb6f">&#9670;&#160;</a></span>boss_pandemoniusAI()</h2>
 
@@ -523,7 +524,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   55</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -552,7 +555,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   66</span>        {</div>
+<div class="line"><span class="lineno">   67</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">SetInCombatWithZone</a>();</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d2/d7e/boss__pandemonius_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>);</div>
+<div class="line"><span class="lineno">   70</span> </div>
+<div class="line"><span class="lineno">   71</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d7e/boss__pandemonius_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afcce2111e82b773263b2ce9b630d7034">EVENT_DARK_SHELL</a>, 20000);</div>
+<div class="line"><span class="lineno">   72</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d7e/boss__pandemonius_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a483d4e744ea225f8a1c193d67f6a40ea">EVENT_VOID_BLAST</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(8000, 23000));</div>
+<div class="line"><span class="lineno">   73</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__pandemonius_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d2/d7e/boss__pandemonius_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_pandemonius.cpp:25</div></div>
+<div class="ttc" id="aboss__pandemonius_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a483d4e744ea225f8a1c193d67f6a40ea"><div class="ttname"><a href="../../d2/d7e/boss__pandemonius_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a483d4e744ea225f8a1c193d67f6a40ea">EVENT_VOID_BLAST</a></div><div class="ttdeci">@ EVENT_VOID_BLAST</div><div class="ttdef"><b>Definition:</b> boss_pandemonius.cpp:39</div></div>
+<div class="ttc" id="aboss__pandemonius_8cpp_html_af60e00b78607064c5be6aa9397ea49c1afcce2111e82b773263b2ce9b630d7034"><div class="ttname"><a href="../../d2/d7e/boss__pandemonius_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afcce2111e82b773263b2ce9b630d7034">EVENT_DARK_SHELL</a></div><div class="ttdeci">@ EVENT_DARK_SHELL</div><div class="ttdef"><b>Definition:</b> boss_pandemonius.cpp:40</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_creature_html_a01ccacf28df6336a774bf1672caf3571"><div class="ttname"><a href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">Creature::SetInCombatWithZone</a></div><div class="ttdeci">void SetInCombatWithZone()</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2705</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a880ad1cde7b6cc2c57071521e0b397e3" name="a880ad1cde7b6cc2c57071521e0b397e3"></a>
@@ -580,7 +599,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   82</span>        {</div>
+<div class="line"><span class="lineno">   83</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d2/d7e/boss__pandemonius_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>);</div>
+<div class="line"><span class="lineno">   84</span>        }</div>
+<div class="ttc" id="aboss__pandemonius_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../d2/d7e/boss__pandemonius_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_pandemonius.cpp:27</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aceec1a32ee2213d5f9565b6f2d8cf98f" name="aceec1a32ee2213d5f9565b6f2d8cf98f"></a>
@@ -608,7 +631,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   76</span>        {</div>
+<div class="line"><span class="lineno">   77</span>            <span class="keywordflow">if</span> (victim-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">   78</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d2/d7e/boss__pandemonius_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a>);</div>
+<div class="line"><span class="lineno">   79</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aboss__pandemonius_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a7f4f26c3b97b953fd229ac5d308024d5"><div class="ttname"><a href="../../d2/d7e/boss__pandemonius_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a></div><div class="ttdeci">@ SAY_KILL</div><div class="ttdef"><b>Definition:</b> boss_pandemonius.cpp:26</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab73a56b9b7dd207d06ec64414e0bda2e" name="ab73a56b9b7dd207d06ec64414e0bda2e"></a>
@@ -635,7 +665,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   60</span>        {</div>
+<div class="line"><span class="lineno">   61</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">   62</span>            <a class="code hl_variable" href="../../de/de2/structboss__pandemonius_1_1boss__pandemonius_a_i.html#acf8317391eb5bd571a5d60201a38c31a">VoidBlastCounter</a> = 0;</div>
+<div class="line"><span class="lineno">   63</span>        }</div>
+<div class="ttc" id="astructboss__pandemonius_1_1boss__pandemonius_a_i_html_acf8317391eb5bd571a5d60201a38c31a"><div class="ttname"><a href="../../de/de2/structboss__pandemonius_1_1boss__pandemonius_a_i.html#acf8317391eb5bd571a5d60201a38c31a">boss_pandemonius::boss_pandemoniusAI::VoidBlastCounter</a></div><div class="ttdeci">uint32 VoidBlastCounter</div><div class="ttdef"><b>Definition:</b> boss_pandemonius.cpp:133</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abf854f4387f162f9bc0499a728dd00ae" name="abf854f4387f162f9bc0499a728dd00ae"></a>
@@ -663,7 +698,63 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   87</span>        {</div>
+<div class="line"><span class="lineno">   88</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">   89</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">   92</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">   93</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   94</span> </div>
+<div class="line"><span class="lineno">   95</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">   96</span>            {</div>
+<div class="line"><span class="lineno">   97</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d7e/boss__pandemonius_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a483d4e744ea225f8a1c193d67f6a40ea">EVENT_VOID_BLAST</a>:</div>
+<div class="line"><span class="lineno">   98</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 100.0f, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">   99</span>                    {</div>
+<div class="line"><span class="lineno">  100</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../d2/d7e/boss__pandemonius_8cpp.html#a5bd342133be8c2137b831460acc9298ca2d7b9fecb06ff3fa25fd746043075fc9">SPELL_VOID_BLAST</a>);</div>
+<div class="line"><span class="lineno">  101</span>                        ++<a class="code hl_variable" href="../../de/de2/structboss__pandemonius_1_1boss__pandemonius_a_i.html#acf8317391eb5bd571a5d60201a38c31a">VoidBlastCounter</a>;</div>
+<div class="line"><span class="lineno">  102</span>                    }</div>
+<div class="line"><span class="lineno">  103</span> </div>
+<div class="line"><span class="lineno">  104</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/de2/structboss__pandemonius_1_1boss__pandemonius_a_i.html#acf8317391eb5bd571a5d60201a38c31a">VoidBlastCounter</a> == 5)</div>
+<div class="line"><span class="lineno">  105</span>                    {</div>
+<div class="line"><span class="lineno">  106</span>                        <a class="code hl_variable" href="../../de/de2/structboss__pandemonius_1_1boss__pandemonius_a_i.html#acf8317391eb5bd571a5d60201a38c31a">VoidBlastCounter</a> = 0;</div>
+<div class="line"><span class="lineno">  107</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RescheduleEvent(<a class="code hl_enumvalue" href="../../d2/d7e/boss__pandemonius_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a483d4e744ea225f8a1c193d67f6a40ea">EVENT_VOID_BLAST</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(15000, 25000));</div>
+<div class="line"><span class="lineno">  108</span>                    }</div>
+<div class="line"><span class="lineno">  109</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  110</span>                    {</div>
+<div class="line"><span class="lineno">  111</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RescheduleEvent(<a class="code hl_enumvalue" href="../../d2/d7e/boss__pandemonius_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a483d4e744ea225f8a1c193d67f6a40ea">EVENT_VOID_BLAST</a>, 500);</div>
+<div class="line"><span class="lineno">  112</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.DelayEvents(<a class="code hl_enumvalue" href="../../d2/d7e/boss__pandemonius_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afcce2111e82b773263b2ce9b630d7034">EVENT_DARK_SHELL</a>, 500);</div>
+<div class="line"><span class="lineno">  113</span>                    }</div>
+<div class="line"><span class="lineno">  114</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  115</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d7e/boss__pandemonius_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afcce2111e82b773263b2ce9b630d7034">EVENT_DARK_SHELL</a>:</div>
+<div class="line"><span class="lineno">  116</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4f932514c30f50c8eb35101c1a89fa5b">IsNonMeleeSpellCast</a>(<span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno">  117</span>                    {</div>
+<div class="line"><span class="lineno">  118</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2bdfe38bdc28869a9002094e4341d56e">InterruptNonMeleeSpells</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  119</span>                    }</div>
+<div class="line"><span class="lineno">  120</span> </div>
+<div class="line"><span class="lineno">  121</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d2/d7e/boss__pandemonius_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ab25682f7ab54b53ab3290cf500e7d3ae">EMOTE_DARK_SHELL</a>);</div>
+<div class="line"><span class="lineno">  122</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d2/d7e/boss__pandemonius_8cpp.html#a5bd342133be8c2137b831460acc9298ca6af861bdf5e1db9d3c51b7d3ceb1b984">SPELL_DARK_SHELL</a>);</div>
+<div class="line"><span class="lineno">  123</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RescheduleEvent(<a class="code hl_enumvalue" href="../../d2/d7e/boss__pandemonius_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afcce2111e82b773263b2ce9b630d7034">EVENT_DARK_SHELL</a>, 20000);</div>
+<div class="line"><span class="lineno">  124</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  125</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  126</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  127</span>            }</div>
+<div class="line"><span class="lineno">  128</span> </div>
+<div class="line"><span class="lineno">  129</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  130</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__pandemonius_8cpp_html_a5bd342133be8c2137b831460acc9298ca2d7b9fecb06ff3fa25fd746043075fc9"><div class="ttname"><a href="../../d2/d7e/boss__pandemonius_8cpp.html#a5bd342133be8c2137b831460acc9298ca2d7b9fecb06ff3fa25fd746043075fc9">SPELL_VOID_BLAST</a></div><div class="ttdeci">@ SPELL_VOID_BLAST</div><div class="ttdef"><b>Definition:</b> boss_pandemonius.cpp:33</div></div>
+<div class="ttc" id="aboss__pandemonius_8cpp_html_a5bd342133be8c2137b831460acc9298ca6af861bdf5e1db9d3c51b7d3ceb1b984"><div class="ttname"><a href="../../d2/d7e/boss__pandemonius_8cpp.html#a5bd342133be8c2137b831460acc9298ca6af861bdf5e1db9d3c51b7d3ceb1b984">SPELL_DARK_SHELL</a></div><div class="ttdeci">@ SPELL_DARK_SHELL</div><div class="ttdef"><b>Definition:</b> boss_pandemonius.cpp:34</div></div>
+<div class="ttc" id="aboss__pandemonius_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31ab25682f7ab54b53ab3290cf500e7d3ae"><div class="ttname"><a href="../../d2/d7e/boss__pandemonius_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ab25682f7ab54b53ab3290cf500e7d3ae">EMOTE_DARK_SHELL</a></div><div class="ttdeci">@ EMOTE_DARK_SHELL</div><div class="ttdef"><b>Definition:</b> boss_pandemonius.cpp:28</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a2bdfe38bdc28869a9002094e4341d56e"><div class="ttname"><a href="../../da/db7/class_unit.html#a2bdfe38bdc28869a9002094e4341d56e">Unit::InterruptNonMeleeSpells</a></div><div class="ttdeci">void InterruptNonMeleeSpells(bool withDelayed, uint32 spellid=0, bool withInstant=true, bool bySelf=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4057</div></div>
+<div class="ttc" id="aclass_unit_html_a4f932514c30f50c8eb35101c1a89fa5b"><div class="ttname"><a href="../../da/db7/class_unit.html#a4f932514c30f50c8eb35101c1a89fa5b">Unit::IsNonMeleeSpellCast</a></div><div class="ttdeci">bool IsNonMeleeSpellCast(bool withDelayed, bool skipChanneled=false, bool skipAutorepeat=false, bool isAutoshoot=false, bool skipInstant=true) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4027</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -704,7 +795,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/Auchindoun/ManaTombs/<a class="el" href="../../d2/d7e/boss__pandemonius_8cpp.html">boss_pandemonius.cpp</a></li>
+<li><a class="el" href="../../">boss_pandemonius.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -712,7 +803,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d71/classboss__pandemonius.html">boss_pandemonius</a></li><li class="navelem"><a class="el" href="../../de/de2/structboss__pandemonius_1_1boss__pandemonius_a_i.html">boss_pandemoniusAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:42 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:54 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

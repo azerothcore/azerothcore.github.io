@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/Mails/Mail.h File Reference</title>
+<title>AzeorthCore: Mail.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -113,13 +113,13 @@ $(document).ready(function(){initNavTree('d8/d23/_mail_8h.html','../../'); initR
   <div class="headertitle"><div class="title">Mail.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../db/d1f/_common_8h_source.html">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d04/_database_env_fwd_8h_source.html">DatabaseEnvFwd.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d83/_object_guid_8h_source.html">ObjectGuid.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnvFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
 <code>#include &lt;map&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
 </div>
-<p><a href="../../d8/d23/_mail_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -284,7 +284,21 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a0409511b5ca7192d457a7e550a1c6e26a348c2227a2767173436f2f88dfe37716" name="a0409511b5ca7192d457a7e550a1c6e26a348c2227a2767173436f2f88dfe37716"></a>MAIL_CHECK_MASK_HAS_BODY&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a65bb77bc25220e08e3c065ad070b9888">MAIL_CHECK_MASK_NONE</a>        = 0x00,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a3b48ed5fecdcd88c0a15e74b0853c03b">MAIL_CHECK_MASK_READ</a>        = 0x01,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a5f7f5d671d1137cc0dd8b88a6579454a">MAIL_CHECK_MASK_RETURNED</a>    = 0x02,                     </div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a9170ec2a04d365ca0a6167cad4a2e2fb">MAIL_CHECK_MASK_COPIED</a>      = 0x04,                     </div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a4cef0afe6ff002d8e7089cb2eddf1468">MAIL_CHECK_MASK_COD_PAYMENT</a> = 0x08,</div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a348c2227a2767173436f2f88dfe37716">MAIL_CHECK_MASK_HAS_BODY</a>    = 0x10,                     </div>
+<div class="line"><span class="lineno">   53</span>};</div>
+<div class="ttc" id="a_mail_8h_html_a0409511b5ca7192d457a7e550a1c6e26a348c2227a2767173436f2f88dfe37716"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a348c2227a2767173436f2f88dfe37716">MAIL_CHECK_MASK_HAS_BODY</a></div><div class="ttdeci">@ MAIL_CHECK_MASK_HAS_BODY</div><div class="ttdef"><b>Definition:</b> Mail.h:52</div></div>
+<div class="ttc" id="a_mail_8h_html_a0409511b5ca7192d457a7e550a1c6e26a3b48ed5fecdcd88c0a15e74b0853c03b"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a3b48ed5fecdcd88c0a15e74b0853c03b">MAIL_CHECK_MASK_READ</a></div><div class="ttdeci">@ MAIL_CHECK_MASK_READ</div><div class="ttdef"><b>Definition:</b> Mail.h:48</div></div>
+<div class="ttc" id="a_mail_8h_html_a0409511b5ca7192d457a7e550a1c6e26a4cef0afe6ff002d8e7089cb2eddf1468"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a4cef0afe6ff002d8e7089cb2eddf1468">MAIL_CHECK_MASK_COD_PAYMENT</a></div><div class="ttdeci">@ MAIL_CHECK_MASK_COD_PAYMENT</div><div class="ttdoc">This mail was copied. Do not allow making a copy of items in mail.</div><div class="ttdef"><b>Definition:</b> Mail.h:51</div></div>
+<div class="ttc" id="a_mail_8h_html_a0409511b5ca7192d457a7e550a1c6e26a5f7f5d671d1137cc0dd8b88a6579454a"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a5f7f5d671d1137cc0dd8b88a6579454a">MAIL_CHECK_MASK_RETURNED</a></div><div class="ttdeci">@ MAIL_CHECK_MASK_RETURNED</div><div class="ttdef"><b>Definition:</b> Mail.h:49</div></div>
+<div class="ttc" id="a_mail_8h_html_a0409511b5ca7192d457a7e550a1c6e26a65bb77bc25220e08e3c065ad070b9888"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a65bb77bc25220e08e3c065ad070b9888">MAIL_CHECK_MASK_NONE</a></div><div class="ttdeci">@ MAIL_CHECK_MASK_NONE</div><div class="ttdef"><b>Definition:</b> Mail.h:47</div></div>
+<div class="ttc" id="a_mail_8h_html_a0409511b5ca7192d457a7e550a1c6e26a9170ec2a04d365ca0a6167cad4a2e2fb"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a9170ec2a04d365ca0a6167cad4a2e2fb">MAIL_CHECK_MASK_COPIED</a></div><div class="ttdeci">@ MAIL_CHECK_MASK_COPIED</div><div class="ttdoc">This mail was returned. Do not allow returning mail back again.</div><div class="ttdef"><b>Definition:</b> Mail.h:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afb83216fd8c410f5d4bdfef0f9b302ed" name="afb83216fd8c410f5d4bdfef0f9b302ed"></a>
@@ -305,7 +319,19 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="afb83216fd8c410f5d4bdfef0f9b302eda4398082ad7546f3811f818835522100d" name="afb83216fd8c410f5d4bdfef0f9b302eda4398082ad7546f3811f818835522100d"></a>MAIL_GAMEOBJECT&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="afb83216fd8c410f5d4bdfef0f9b302eda99dc24213703b6afb3639762a349c258" name="afb83216fd8c410f5d4bdfef0f9b302eda99dc24213703b6afb3639762a349c258"></a>MAIL_CALENDAR&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#afb83216fd8c410f5d4bdfef0f9b302edaad2526a166df2caa50762ff348a2f54a">MAIL_NORMAL</a>         = 0,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#afb83216fd8c410f5d4bdfef0f9b302eda1c6b723dd78af975a7ec8a3562361330">MAIL_AUCTION</a>        = 2,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#afb83216fd8c410f5d4bdfef0f9b302eda462b01f59d339ec67b080f100e97256c">MAIL_CREATURE</a>       = 3,                                <span class="comment">// client send CMSG_CREATURE_QUERY on this mailmessagetype</span></div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#afb83216fd8c410f5d4bdfef0f9b302eda4398082ad7546f3811f818835522100d">MAIL_GAMEOBJECT</a>     = 4,                                <span class="comment">// client send CMSG_GAMEOBJECT_QUERY on this mailmessagetype</span></div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#afb83216fd8c410f5d4bdfef0f9b302eda99dc24213703b6afb3639762a349c258">MAIL_CALENDAR</a>       = 5</div>
+<div class="line"><span class="lineno">   43</span>};</div>
+<div class="ttc" id="a_mail_8h_html_afb83216fd8c410f5d4bdfef0f9b302eda1c6b723dd78af975a7ec8a3562361330"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#afb83216fd8c410f5d4bdfef0f9b302eda1c6b723dd78af975a7ec8a3562361330">MAIL_AUCTION</a></div><div class="ttdeci">@ MAIL_AUCTION</div><div class="ttdef"><b>Definition:</b> Mail.h:39</div></div>
+<div class="ttc" id="a_mail_8h_html_afb83216fd8c410f5d4bdfef0f9b302eda4398082ad7546f3811f818835522100d"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#afb83216fd8c410f5d4bdfef0f9b302eda4398082ad7546f3811f818835522100d">MAIL_GAMEOBJECT</a></div><div class="ttdeci">@ MAIL_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> Mail.h:41</div></div>
+<div class="ttc" id="a_mail_8h_html_afb83216fd8c410f5d4bdfef0f9b302eda462b01f59d339ec67b080f100e97256c"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#afb83216fd8c410f5d4bdfef0f9b302eda462b01f59d339ec67b080f100e97256c">MAIL_CREATURE</a></div><div class="ttdeci">@ MAIL_CREATURE</div><div class="ttdef"><b>Definition:</b> Mail.h:40</div></div>
+<div class="ttc" id="a_mail_8h_html_afb83216fd8c410f5d4bdfef0f9b302eda99dc24213703b6afb3639762a349c258"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#afb83216fd8c410f5d4bdfef0f9b302eda99dc24213703b6afb3639762a349c258">MAIL_CALENDAR</a></div><div class="ttdeci">@ MAIL_CALENDAR</div><div class="ttdef"><b>Definition:</b> Mail.h:42</div></div>
+<div class="ttc" id="a_mail_8h_html_afb83216fd8c410f5d4bdfef0f9b302edaad2526a166df2caa50762ff348a2f54a"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#afb83216fd8c410f5d4bdfef0f9b302edaad2526a166df2caa50762ff348a2f54a">MAIL_NORMAL</a></div><div class="ttdeci">@ MAIL_NORMAL</div><div class="ttdef"><b>Definition:</b> Mail.h:38</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a03de18fb5d90aaaa9daa333ddbe2d394" name="a03de18fb5d90aaaa9daa333ddbe2d394"></a>
@@ -326,7 +352,19 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a03de18fb5d90aaaa9daa333ddbe2d394a2fe725e9d54355a13c1322a8d81da6a3" name="a03de18fb5d90aaaa9daa333ddbe2d394a2fe725e9d54355a13c1322a8d81da6a3"></a>MAIL_SHOW_UNK2&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a03de18fb5d90aaaa9daa333ddbe2d394a9bfa489acd6be01c57410679c81d5a9e" name="a03de18fb5d90aaaa9daa333ddbe2d394a9bfa489acd6be01c57410679c81d5a9e"></a>MAIL_SHOW_RETURN&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   75</span>{</div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a03de18fb5d90aaaa9daa333ddbe2d394a5d741597d486fff4283ab7bfeaa32ecc">MAIL_SHOW_UNK0</a>    = 0x0001,</div>
+<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a03de18fb5d90aaaa9daa333ddbe2d394a7d87ac4c7be1c9b63837bd39706eba07">MAIL_SHOW_DELETE</a>  = 0x0002,                             <span class="comment">// forced show delete button instead return button</span></div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a03de18fb5d90aaaa9daa333ddbe2d394ac82b5f53ff29204c00b9479712bfeb72">MAIL_SHOW_AUCTION</a> = 0x0004,                             <span class="comment">// from old comment</span></div>
+<div class="line"><span class="lineno">   79</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a03de18fb5d90aaaa9daa333ddbe2d394a2fe725e9d54355a13c1322a8d81da6a3">MAIL_SHOW_UNK2</a>    = 0x0008,                             <span class="comment">// unknown, COD will be shown even without that flag</span></div>
+<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a03de18fb5d90aaaa9daa333ddbe2d394a9bfa489acd6be01c57410679c81d5a9e">MAIL_SHOW_RETURN</a>  = 0x0010,</div>
+<div class="line"><span class="lineno">   81</span>};</div>
+<div class="ttc" id="a_mail_8h_html_a03de18fb5d90aaaa9daa333ddbe2d394a2fe725e9d54355a13c1322a8d81da6a3"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a03de18fb5d90aaaa9daa333ddbe2d394a2fe725e9d54355a13c1322a8d81da6a3">MAIL_SHOW_UNK2</a></div><div class="ttdeci">@ MAIL_SHOW_UNK2</div><div class="ttdef"><b>Definition:</b> Mail.h:79</div></div>
+<div class="ttc" id="a_mail_8h_html_a03de18fb5d90aaaa9daa333ddbe2d394a5d741597d486fff4283ab7bfeaa32ecc"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a03de18fb5d90aaaa9daa333ddbe2d394a5d741597d486fff4283ab7bfeaa32ecc">MAIL_SHOW_UNK0</a></div><div class="ttdeci">@ MAIL_SHOW_UNK0</div><div class="ttdef"><b>Definition:</b> Mail.h:76</div></div>
+<div class="ttc" id="a_mail_8h_html_a03de18fb5d90aaaa9daa333ddbe2d394a7d87ac4c7be1c9b63837bd39706eba07"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a03de18fb5d90aaaa9daa333ddbe2d394a7d87ac4c7be1c9b63837bd39706eba07">MAIL_SHOW_DELETE</a></div><div class="ttdeci">@ MAIL_SHOW_DELETE</div><div class="ttdef"><b>Definition:</b> Mail.h:77</div></div>
+<div class="ttc" id="a_mail_8h_html_a03de18fb5d90aaaa9daa333ddbe2d394a9bfa489acd6be01c57410679c81d5a9e"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a03de18fb5d90aaaa9daa333ddbe2d394a9bfa489acd6be01c57410679c81d5a9e">MAIL_SHOW_RETURN</a></div><div class="ttdeci">@ MAIL_SHOW_RETURN</div><div class="ttdef"><b>Definition:</b> Mail.h:80</div></div>
+<div class="ttc" id="a_mail_8h_html_a03de18fb5d90aaaa9daa333ddbe2d394ac82b5f53ff29204c00b9479712bfeb72"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a03de18fb5d90aaaa9daa333ddbe2d394ac82b5f53ff29204c00b9479712bfeb72">MAIL_SHOW_AUCTION</a></div><div class="ttdeci">@ MAIL_SHOW_AUCTION</div><div class="ttdef"><b>Definition:</b> Mail.h:78</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a38d587a785c6fa4c4342574233684a20" name="a38d587a785c6fa4c4342574233684a20"></a>
@@ -345,7 +383,15 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a38d587a785c6fa4c4342574233684a20aac816c9be99273eb826bf89eda08f1bb" name="a38d587a785c6fa4c4342574233684a20aac816c9be99273eb826bf89eda08f1bb"></a>MAIL_STATE_CHANGED&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a38d587a785c6fa4c4342574233684a20a3645936325ffbfb6858bcbb312b9072a" name="a38d587a785c6fa4c4342574233684a20a3645936325ffbfb6858bcbb312b9072a"></a>MAIL_STATE_DELETED&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   68</span>{</div>
+<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a38d587a785c6fa4c4342574233684a20ae16408762dbf072dd193ffe6b3097047">MAIL_STATE_UNCHANGED</a> = 1,</div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a38d587a785c6fa4c4342574233684a20aac816c9be99273eb826bf89eda08f1bb">MAIL_STATE_CHANGED</a>   = 2,</div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a38d587a785c6fa4c4342574233684a20a3645936325ffbfb6858bcbb312b9072a">MAIL_STATE_DELETED</a>   = 3</div>
+<div class="line"><span class="lineno">   72</span>};</div>
+<div class="ttc" id="a_mail_8h_html_a38d587a785c6fa4c4342574233684a20a3645936325ffbfb6858bcbb312b9072a"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a38d587a785c6fa4c4342574233684a20a3645936325ffbfb6858bcbb312b9072a">MAIL_STATE_DELETED</a></div><div class="ttdeci">@ MAIL_STATE_DELETED</div><div class="ttdef"><b>Definition:</b> Mail.h:71</div></div>
+<div class="ttc" id="a_mail_8h_html_a38d587a785c6fa4c4342574233684a20aac816c9be99273eb826bf89eda08f1bb"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a38d587a785c6fa4c4342574233684a20aac816c9be99273eb826bf89eda08f1bb">MAIL_STATE_CHANGED</a></div><div class="ttdeci">@ MAIL_STATE_CHANGED</div><div class="ttdef"><b>Definition:</b> Mail.h:70</div></div>
+<div class="ttc" id="a_mail_8h_html_a38d587a785c6fa4c4342574233684a20ae16408762dbf072dd193ffe6b3097047"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a38d587a785c6fa4c4342574233684a20ae16408762dbf072dd193ffe6b3097047">MAIL_STATE_UNCHANGED</a></div><div class="ttdeci">@ MAIL_STATE_UNCHANGED</div><div class="ttdef"><b>Definition:</b> Mail.h:69</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a97c589393fcefa82854f195693493094" name="a97c589393fcefa82854f195693493094"></a>
@@ -368,7 +414,23 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a97c589393fcefa82854f195693493094a3f6ed9e1ee49995d1854786d3ab7b5a0" name="a97c589393fcefa82854f195693493094a3f6ed9e1ee49995d1854786d3ab7b5a0"></a>MAIL_STATIONERY_CHR&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a97c589393fcefa82854f195693493094aa349afbb838c106b8d4e161b7611583c" name="a97c589393fcefa82854f195693493094aa349afbb838c106b8d4e161b7611583c"></a>MAIL_STATIONERY_ORP&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   57</span>{</div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094a08c959967722eb59a73866b06fff4ee1">MAIL_STATIONERY_TEST</a>    = 1,</div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094ab18c50370e3504660676eeab1fed7a68">MAIL_STATIONERY_DEFAULT</a> = 41,</div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094a39230800d1e1c4dbd3c46fbaaba39541">MAIL_STATIONERY_GM</a>      = 61,</div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094aef86d2a36ec87427177f03b971bf4fcd">MAIL_STATIONERY_AUCTION</a> = 62,</div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094acf69185a7c40dad17bf89924f8c89cd5">MAIL_STATIONERY_VAL</a>     = 64,                           <span class="comment">// Valentine</span></div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094a3f6ed9e1ee49995d1854786d3ab7b5a0">MAIL_STATIONERY_CHR</a>     = 65,                           <span class="comment">// Christmas</span></div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094aa349afbb838c106b8d4e161b7611583c">MAIL_STATIONERY_ORP</a>     = 67,                           <span class="comment">// Orphan</span></div>
+<div class="line"><span class="lineno">   65</span>};</div>
+<div class="ttc" id="a_mail_8h_html_a97c589393fcefa82854f195693493094a08c959967722eb59a73866b06fff4ee1"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094a08c959967722eb59a73866b06fff4ee1">MAIL_STATIONERY_TEST</a></div><div class="ttdeci">@ MAIL_STATIONERY_TEST</div><div class="ttdef"><b>Definition:</b> Mail.h:58</div></div>
+<div class="ttc" id="a_mail_8h_html_a97c589393fcefa82854f195693493094a39230800d1e1c4dbd3c46fbaaba39541"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094a39230800d1e1c4dbd3c46fbaaba39541">MAIL_STATIONERY_GM</a></div><div class="ttdeci">@ MAIL_STATIONERY_GM</div><div class="ttdef"><b>Definition:</b> Mail.h:60</div></div>
+<div class="ttc" id="a_mail_8h_html_a97c589393fcefa82854f195693493094a3f6ed9e1ee49995d1854786d3ab7b5a0"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094a3f6ed9e1ee49995d1854786d3ab7b5a0">MAIL_STATIONERY_CHR</a></div><div class="ttdeci">@ MAIL_STATIONERY_CHR</div><div class="ttdef"><b>Definition:</b> Mail.h:63</div></div>
+<div class="ttc" id="a_mail_8h_html_a97c589393fcefa82854f195693493094aa349afbb838c106b8d4e161b7611583c"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094aa349afbb838c106b8d4e161b7611583c">MAIL_STATIONERY_ORP</a></div><div class="ttdeci">@ MAIL_STATIONERY_ORP</div><div class="ttdef"><b>Definition:</b> Mail.h:64</div></div>
+<div class="ttc" id="a_mail_8h_html_a97c589393fcefa82854f195693493094ab18c50370e3504660676eeab1fed7a68"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094ab18c50370e3504660676eeab1fed7a68">MAIL_STATIONERY_DEFAULT</a></div><div class="ttdeci">@ MAIL_STATIONERY_DEFAULT</div><div class="ttdef"><b>Definition:</b> Mail.h:59</div></div>
+<div class="ttc" id="a_mail_8h_html_a97c589393fcefa82854f195693493094acf69185a7c40dad17bf89924f8c89cd5"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094acf69185a7c40dad17bf89924f8c89cd5">MAIL_STATIONERY_VAL</a></div><div class="ttdeci">@ MAIL_STATIONERY_VAL</div><div class="ttdef"><b>Definition:</b> Mail.h:62</div></div>
+<div class="ttc" id="a_mail_8h_html_a97c589393fcefa82854f195693493094aef86d2a36ec87427177f03b971bf4fcd"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094aef86d2a36ec87427177f03b971bf4fcd">MAIL_STATIONERY_AUCTION</a></div><div class="ttdeci">@ MAIL_STATIONERY_AUCTION</div><div class="ttdef"><b>Definition:</b> Mail.h:61</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -377,7 +439,7 @@ Enumerations</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e5b41f27617119c832debc7577c7457a.html">Mails</a></li><li class="navelem"><a class="el" href="../../d8/d23/_mail_8h.html">Mail.h</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -154,7 +154,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a97cdf51a8992b3d9edc138351770fd75" name="a97cdf51a8992b3d9edc138351770fd75"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97cdf51a8992b3d9edc138351770fd75">&#9670;&#160;</a></span>AreaTrigger_at_stormwright_shelf()</h2>
 
@@ -177,7 +178,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  151</span>        : <a class="code hl_class" href="../../d5/d6d/class_area_trigger_script.html">AreaTriggerScript</a>(<span class="stringliteral">&quot;at_stormwright_shelf&quot;</span>)</div>
+<div class="line"><span class="lineno">  152</span>    {</div>
+<div class="line"><span class="lineno">  153</span>    }</div>
+<div class="ttc" id="aclass_area_trigger_script_html"><div class="ttname"><a href="../../d5/d6d/class_area_trigger_script.html">AreaTriggerScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:800</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -216,11 +221,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/d6d/class_area_trigger_script.html#abb6cdada718e9fad7da98fbb667c6d53">AreaTriggerScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  156</span>    {</div>
+<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#afd7aa5f7719cba4d967bb7f009582d2f">isDead</a>() &amp;&amp; player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../df/d20/areatrigger__scripts_8cpp.html#abdd676bd524ed3ea6915b8b1348861ddae6b91cb73e581fe9558469357a90ec24">QUEST_STRENGTH_OF_THE_TEMPEST</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno">  158</span>            player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(player, <a class="code hl_enumvalue" href="../../df/d20/areatrigger__scripts_8cpp.html#abdd676bd524ed3ea6915b8b1348861dda55079b9b218f67c0dcae1b7da0dcb277">SPELL_CREATE_TRUE_POWER_OF_THE_TEMPEST</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  161</span>    }</div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="aareatrigger__scripts_8cpp_html_abdd676bd524ed3ea6915b8b1348861dda55079b9b218f67c0dcae1b7da0dcb277"><div class="ttname"><a href="../../df/d20/areatrigger__scripts_8cpp.html#abdd676bd524ed3ea6915b8b1348861dda55079b9b218f67c0dcae1b7da0dcb277">SPELL_CREATE_TRUE_POWER_OF_THE_TEMPEST</a></div><div class="ttdeci">@ SPELL_CREATE_TRUE_POWER_OF_THE_TEMPEST</div><div class="ttdef"><b>Definition:</b> areatrigger_scripts.cpp:144</div></div>
+<div class="ttc" id="aareatrigger__scripts_8cpp_html_abdd676bd524ed3ea6915b8b1348861ddae6b91cb73e581fe9558469357a90ec24"><div class="ttname"><a href="../../df/d20/areatrigger__scripts_8cpp.html#abdd676bd524ed3ea6915b8b1348861ddae6b91cb73e581fe9558469357a90ec24">QUEST_STRENGTH_OF_THE_TEMPEST</a></div><div class="ttdeci">@ QUEST_STRENGTH_OF_THE_TEMPEST</div><div class="ttdef"><b>Definition:</b> areatrigger_scripts.cpp:142</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_afd7aa5f7719cba4d967bb7f009582d2f"><div class="ttname"><a href="../../da/db7/class_unit.html#afd7aa5f7719cba4d967bb7f009582d2f">Unit::isDead</a></div><div class="ttdeci">bool isDead() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1807</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../df/d20/areatrigger__scripts_8cpp.html">areatrigger_scripts.cpp</a></li>
+<li><a class="el" href="../../">areatrigger_scripts.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -228,7 +245,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/dfe/class_area_trigger__at__stormwright__shelf.html">AreaTrigger_at_stormwright_shelf</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:37 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

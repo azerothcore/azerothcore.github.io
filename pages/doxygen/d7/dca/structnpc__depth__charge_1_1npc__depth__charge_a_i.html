@@ -495,7 +495,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a088848c16418964973107e125c20f508" name="a088848c16418964973107e125c20f508"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a088848c16418964973107e125c20f508">&#9670;&#160;</a></span>npc_depth_chargeAI()</h2>
 
@@ -519,7 +520,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  411</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -548,7 +551,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  427</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa0b5d045be9558f7d269ab18e956f968" name="aa0b5d045be9558f7d269ab18e956f968"></a>
@@ -576,7 +580,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  425</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8342b7fc7677ac94757c725ec4063e9e" name="a8342b7fc7677ac94757c725ec4063e9e"></a>
@@ -604,7 +609,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  430</span>        {</div>
+<div class="line"><span class="lineno">  431</span>            <span class="keywordflow">if</span> (!who)</div>
+<div class="line"><span class="lineno">  432</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  433</span> </div>
+<div class="line"><span class="lineno">  434</span>            <span class="keywordflow">if</span> (who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a> &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(who, 5))</div>
+<div class="line"><span class="lineno">  435</span>            {</div>
+<div class="line"><span class="lineno">  436</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(who, <a class="code hl_enumvalue" href="../../db/da5/zone__azshara_8cpp.html#ad694d8f9c4171422b48a06322c8bf5a3a685ae5385fd93ebf978ae918d8e88afe">SPELL_DEPTH_CHARGE_TRAP</a>);</div>
+<div class="line"><span class="lineno">  437</span>                <a class="code hl_variable" href="../../d7/dca/structnpc__depth__charge_1_1npc__depth__charge_a_i.html#a7b25b1228cf5029f1ebe653c76cf9843">WeMustDie</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  438</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  439</span>            }</div>
+<div class="line"><span class="lineno">  440</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_world_object_html_ab73407bcdf13a30519a953d24773ed02"><div class="ttname"><a href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">WorldObject::IsWithinDistInMap</a></div><div class="ttdeci">bool IsWithinDistInMap(WorldObject const *obj, float dist2compare, bool is3D=true, bool useBoundingRadius=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1321</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__depth__charge_1_1npc__depth__charge_a_i_html_a7b25b1228cf5029f1ebe653c76cf9843"><div class="ttname"><a href="../../d7/dca/structnpc__depth__charge_1_1npc__depth__charge_a_i.html#a7b25b1228cf5029f1ebe653c76cf9843">npc_depth_charge::npc_depth_chargeAI::WeMustDie</a></div><div class="ttdeci">bool WeMustDie</div><div class="ttdef"><b>Definition:</b> zone_azshara.cpp:413</div></div>
+<div class="ttc" id="azone__azshara_8cpp_html_ad694d8f9c4171422b48a06322c8bf5a3a685ae5385fd93ebf978ae918d8e88afe"><div class="ttname"><a href="../../db/da5/zone__azshara_8cpp.html#ad694d8f9c4171422b48a06322c8bf5a3a685ae5385fd93ebf978ae918d8e88afe">SPELL_DEPTH_CHARGE_TRAP</a></div><div class="ttdeci">@ SPELL_DEPTH_CHARGE_TRAP</div><div class="ttdef"><b>Definition:</b> zone_azshara.cpp:140</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaccf632a50749c0f6d6f29bb1b1bf5a4" name="aaccf632a50749c0f6d6f29bb1b1bf5a4"></a>
@@ -631,7 +654,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  417</span>        {</div>
+<div class="line"><span class="lineno">  418</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a43a33dfc9f244228962a4a0416da81b2">SetHover</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  419</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#ae24a913e4f69142bab2ebc176ba5ea8e">SetSwim</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  420</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">  421</span>            <a class="code hl_variable" href="../../d7/dca/structnpc__depth__charge_1_1npc__depth__charge_a_i.html#a7b25b1228cf5029f1ebe653c76cf9843">WeMustDie</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  422</span>            <a class="code hl_variable" href="../../d7/dca/structnpc__depth__charge_1_1npc__depth__charge_a_i.html#a23e4f1f7079d12e78c74c21171d95cc7">WeMustDieTimer</a> = 1000;</div>
+<div class="line"><span class="lineno">  423</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NOT_SELECTABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:473</div></div>
+<div class="ttc" id="aclass_creature_html_a43a33dfc9f244228962a4a0416da81b2"><div class="ttname"><a href="../../d1/dac/class_creature.html#a43a33dfc9f244228962a4a0416da81b2">Creature::SetHover</a></div><div class="ttdeci">bool SetHover(bool enable, bool packetOnly=false, bool updateAnimationTier=true) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3229</div></div>
+<div class="ttc" id="aclass_creature_html_ae24a913e4f69142bab2ebc176ba5ea8e"><div class="ttname"><a href="../../d1/dac/class_creature.html#ae24a913e4f69142bab2ebc176ba5ea8e">Creature::SetSwim</a></div><div class="ttdeci">bool SetSwim(bool enable) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3101</div></div>
+<div class="ttc" id="aclass_unit_html_ad9f2d48b20f62e17abf5c1892cebe296"><div class="ttname"><a href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">Unit::SetUnitFlag</a></div><div class="ttdeci">void SetUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1479</div></div>
+<div class="ttc" id="astructnpc__depth__charge_1_1npc__depth__charge_a_i_html_a23e4f1f7079d12e78c74c21171d95cc7"><div class="ttname"><a href="../../d7/dca/structnpc__depth__charge_1_1npc__depth__charge_a_i.html#a23e4f1f7079d12e78c74c21171d95cc7">npc_depth_charge::npc_depth_chargeAI::WeMustDieTimer</a></div><div class="ttdeci">uint32 WeMustDieTimer</div><div class="ttdef"><b>Definition:</b> zone_azshara.cpp:414</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af34e55c3aee40f840edf695adc06495e" name="af34e55c3aee40f840edf695adc06495e"></a>
@@ -659,7 +694,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  443</span>        {</div>
+<div class="line"><span class="lineno">  444</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/dca/structnpc__depth__charge_1_1npc__depth__charge_a_i.html#a7b25b1228cf5029f1ebe653c76cf9843">WeMustDie</a>)</div>
+<div class="line"><span class="lineno">  445</span>            {</div>
+<div class="line"><span class="lineno">  446</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/dca/structnpc__depth__charge_1_1npc__depth__charge_a_i.html#a23e4f1f7079d12e78c74c21171d95cc7">WeMustDieTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  447</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>();</div>
+<div class="line"><span class="lineno">  448</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  449</span>                    <a class="code hl_variable" href="../../d7/dca/structnpc__depth__charge_1_1npc__depth__charge_a_i.html#a23e4f1f7079d12e78c74c21171d95cc7">WeMustDieTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  450</span>            }</div>
+<div class="line"><span class="lineno">  451</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  452</span>        }</div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -692,7 +738,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/<a class="el" href="../../db/da5/zone__azshara_8cpp.html">zone_azshara.cpp</a></li>
+<li><a class="el" href="../../">zone_azshara.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -700,7 +746,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d07/classnpc__depth__charge.html">npc_depth_charge</a></li><li class="navelem"><a class="el" href="../../d7/dca/structnpc__depth__charge_1_1npc__depth__charge_a_i.html">npc_depth_chargeAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

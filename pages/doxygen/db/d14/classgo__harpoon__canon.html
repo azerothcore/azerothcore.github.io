@@ -181,7 +181,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa7651e111cade00bbbdb9d0feced03e6" name="aa7651e111cade00bbbdb9d0feced03e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa7651e111cade00bbbdb9d0feced03e6">&#9670;&#160;</a></span>go_harpoon_canon()</h2>
 
@@ -204,7 +205,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  501</span>: <a class="code hl_class" href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a>(<span class="stringliteral">&quot;go_harpoon_canon&quot;</span>) { }</div>
+<div class="ttc" id="aclass_game_object_script_html"><div class="ttname"><a href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:758</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -243,11 +246,52 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#a58b56fc92ae87aea0530eceba1f3088d">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  504</span>    {</div>
+<div class="line"><span class="lineno">  505</span>        <a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* m_pInstance = go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">  506</span>        <span class="keywordflow">if</span> (m_pInstance &amp;&amp; m_pInstance-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">GetData</a>(<a class="code hl_enumvalue" href="../../d8/d3a/utgarde__pinnacle_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a05f175bf4725d1ec71bb899fe1317c1b">DATA_SKADI_THE_RUTHLESS</a>) == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>)</div>
+<div class="line"><span class="lineno">  507</span>            <span class="keywordflow">if</span> (m_pInstance-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">GetData</a>(<a class="code hl_enumvalue" href="../../d8/d3a/utgarde__pinnacle_8h.html#af5baa506e65b4caa6be6d1c6661dfe63adf2f910591ec2a6398db24babe1074d1">SKADI_IN_RANGE</a>) == 1)</div>
+<div class="line"><span class="lineno">  508</span>            {</div>
+<div class="line"><span class="lineno">  509</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> count = m_pInstance-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">GetData</a>(<a class="code hl_enumvalue" href="../../d8/d3a/utgarde__pinnacle_8h.html#af5baa506e65b4caa6be6d1c6661dfe63aab883b29f929b720574039172fffdbe5">SKADI_HITS</a>) + 1;</div>
+<div class="line"><span class="lineno">  510</span>                m_pInstance-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d8/d3a/utgarde__pinnacle_8h.html#af5baa506e65b4caa6be6d1c6661dfe63aab883b29f929b720574039172fffdbe5">SKADI_HITS</a>, count);</div>
+<div class="line"><span class="lineno">  511</span> </div>
+<div class="line"><span class="lineno">  512</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* grauf = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*pPlayer, m_pInstance-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">GetGuidData</a>(<a class="code hl_enumvalue" href="../../d8/d3a/utgarde__pinnacle_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a665a05c0338d9037767b5c828d3864e6">DATA_GRAUF</a>)))</div>
+<div class="line"><span class="lineno">  513</span>                {</div>
+<div class="line"><span class="lineno">  514</span>                    <span class="keywordflow">if</span> (count &gt;= 3)</div>
+<div class="line"><span class="lineno">  515</span>                    {</div>
+<div class="line"><span class="lineno">  516</span>                        m_pInstance-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d8/d3a/utgarde__pinnacle_8h.html#af5baa506e65b4caa6be6d1c6661dfe63adf2f910591ec2a6398db24babe1074d1">SKADI_IN_RANGE</a>, 0);</div>
+<div class="line"><span class="lineno">  517</span>                        grauf-&gt;AI()-&gt;DoAction(<a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a23ad67139df344342263dca07927c122">ACTION_REMOVE_SKADI</a>);</div>
+<div class="line"><span class="lineno">  518</span>                    }</div>
+<div class="line"><span class="lineno">  519</span> </div>
+<div class="line"><span class="lineno">  520</span>                    grauf-&gt;AI()-&gt;DoAction(<a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad28da1f63ce17b73f4f1fe56681c6c1f">ACTION_MYGIRL_ACHIEVEMENT</a>);</div>
+<div class="line"><span class="lineno">  521</span>                }</div>
+<div class="line"><span class="lineno">  522</span>                go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#aca9173ae7fbd46664919d3d1caef4770">CastSpell</a>((<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>*)<span class="keyword">nullptr</span>, <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a8df3cb823481152d8c01063608b461b6">SPELL_LAUNCH_HARPOON</a>);</div>
+<div class="line"><span class="lineno">  523</span>            }</div>
+<div class="line"><span class="lineno">  524</span> </div>
+<div class="line"><span class="lineno">  525</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  526</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a23ad67139df344342263dca07927c122"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a23ad67139df344342263dca07927c122">ACTION_REMOVE_SKADI</a></div><div class="ttdeci">@ ACTION_REMOVE_SKADI</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:63</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a8df3cb823481152d8c01063608b461b6"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a8df3cb823481152d8c01063608b461b6">SPELL_LAUNCH_HARPOON</a></div><div class="ttdeci">@ SPELL_LAUNCH_HARPOON</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:51</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6ad28da1f63ce17b73f4f1fe56681c6c1f"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad28da1f63ce17b73f4f1fe56681c6c1f">ACTION_MYGIRL_ACHIEVEMENT</a></div><div class="ttdeci">@ ACTION_MYGIRL_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:65</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_game_object_html_aca9173ae7fbd46664919d3d1caef4770"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#aca9173ae7fbd46664919d3d1caef4770">GameObject::CastSpell</a></div><div class="ttdeci">void CastSpell(Unit *target, uint32 spell)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:2054</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_instance_script_html_a3be7f24ca31c9433aca546e1087109b4"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript::GetGuidData</a></div><div class="ttdeci">ObjectGuid GetGuidData(uint32 type) const override</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:93</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="aclass_zone_script_html_a8997612fdbdacbf5e28e4de60d03e805"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">ZoneScript::GetData</a></div><div class="ttdeci">virtual uint32 GetData(uint32) const</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:52</div></div>
+<div class="ttc" id="aclass_zone_script_html_a949e67ea24c7e4b70a20806952735576"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:53</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="autgarde__pinnacle_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a05f175bf4725d1ec71bb899fe1317c1b"><div class="ttname"><a href="../../d8/d3a/utgarde__pinnacle_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a05f175bf4725d1ec71bb899fe1317c1b">DATA_SKADI_THE_RUTHLESS</a></div><div class="ttdeci">@ DATA_SKADI_THE_RUTHLESS</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:30</div></div>
+<div class="ttc" id="autgarde__pinnacle_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a665a05c0338d9037767b5c828d3864e6"><div class="ttname"><a href="../../d8/d3a/utgarde__pinnacle_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a665a05c0338d9037767b5c828d3864e6">DATA_GRAUF</a></div><div class="ttdeci">@ DATA_GRAUF</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:32</div></div>
+<div class="ttc" id="autgarde__pinnacle_8h_html_af5baa506e65b4caa6be6d1c6661dfe63aab883b29f929b720574039172fffdbe5"><div class="ttname"><a href="../../d8/d3a/utgarde__pinnacle_8h.html#af5baa506e65b4caa6be6d1c6661dfe63aab883b29f929b720574039172fffdbe5">SKADI_HITS</a></div><div class="ttdeci">@ SKADI_HITS</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:42</div></div>
+<div class="ttc" id="autgarde__pinnacle_8h_html_af5baa506e65b4caa6be6d1c6661dfe63adf2f910591ec2a6398db24babe1074d1"><div class="ttname"><a href="../../d8/d3a/utgarde__pinnacle_8h.html#af5baa506e65b4caa6be6d1c6661dfe63adf2f910591ec2a6398db24babe1074d1">SKADI_IN_RANGE</a></div><div class="ttdeci">@ SKADI_IN_RANGE</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:43</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/<a class="el" href="../../d6/dd9/boss__skadi_8cpp.html">boss_skadi.cpp</a></li>
+<li><a class="el" href="../../">boss_skadi.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -255,7 +299,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d14/classgo__harpoon__canon.html">go_harpoon_canon</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

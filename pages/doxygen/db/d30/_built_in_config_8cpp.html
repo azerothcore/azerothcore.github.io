@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/common/Configuration/BuiltInConfig.cpp File Reference</title>
+<title>AzeorthCore: BuiltInConfig.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -110,10 +110,12 @@ $(document).ready(function(){initNavTree('db/d30/_built_in_config_8cpp.html','..
   <div class="headertitle"><div class="title">BuiltInConfig.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d8/d18/_built_in_config_8h_source.html">BuiltInConfig.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d71/_config_8h_source.html">Config.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d00/_git_revision_8h_source.html">GitRevision.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">BuiltInConfig.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GitRevision.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a659c80f8f32962119a0640bbcd2009c9"><td class="memTemplParams" colspan="2">template&lt;typename Fn &gt; </td></tr>
@@ -156,7 +158,12 @@ template&lt;typename Fn &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    std::string <span class="keyword">const</span> value = <a class="code hl_define" href="../../d4/d71/_config_8h.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;std::string&gt;(key, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">   27</span>    <span class="keywordflow">return</span> value.empty() ? getter() : value;</div>
+<div class="line"><span class="lineno">   28</span>}</div>
+<div class="ttc" id="a_config_8h_html_a7236988e98bdd405bf435a029b70a26f"><div class="ttname"><a href="../../d4/d71/_config_8h.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a></div><div class="ttdeci">#define sConfigMgr</div><div class="ttdef"><b>Definition:</b> Config.h:92</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -165,7 +172,7 @@ template&lt;typename Fn &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_e8df728d6a6e829c2d0f8060a021b576.html">Configuration</a></li><li class="navelem"><a class="el" href="../../db/d30/_built_in_config_8cpp.html">BuiltInConfig.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:17 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

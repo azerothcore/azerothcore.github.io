@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2acaaf3716237f147429cb07779ae49e" name="a2acaaf3716237f147429cb07779ae49e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2acaaf3716237f147429cb07779ae49e">&#9670;&#160;</a></span>HandleScriptEffect()</h2>
 
@@ -316,7 +317,43 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  227</span>    {</div>
+<div class="line"><span class="lineno">  228</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ad3b76d0716ab3113b56ef35336e75709">GetOriginalCaster</a>();</div>
+<div class="line"><span class="lineno">  229</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>();</div>
+<div class="line"><span class="lineno">  230</span>        <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno">  231</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  232</span> </div>
+<div class="line"><span class="lineno">  233</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;Id == <a class="code hl_enumvalue" href="../../d2/d57/winter__veil_8cpp.html#a0a0aa9e1464024e9f2c7b6ec598e13ffaef31b2903ed373a76624e81b5928b3af">SPELL_AIR_RIFLE_HIT_TRIGGER</a>)</div>
+<div class="line"><span class="lineno">  234</span>        {</div>
+<div class="line"><span class="lineno">  235</span>            <span class="keywordflow">if</span> (!caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#abdfe022523c40277d917754f75edb722">IsFriendlyTo</a>(target))</div>
+<div class="line"><span class="lineno">  236</span>                caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../d2/d57/winter__veil_8cpp.html#a0a0aa9e1464024e9f2c7b6ec598e13ffada448247eeb3a3e93e78e6d367af2ea4">SPELL_AIR_RIFLE_PELTED_DAMAGE</a>, <span class="keyword">true</span>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  237</span>        }</div>
+<div class="line"><span class="lineno">  238</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  239</span>        {</div>
+<div class="line"><span class="lineno">  240</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> rand = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 99);</div>
+<div class="line"><span class="lineno">  241</span>            <span class="keywordflow">if</span> (rand &lt; 15)</div>
+<div class="line"><span class="lineno">  242</span>                caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(caster, <a class="code hl_enumvalue" href="../../d2/d57/winter__veil_8cpp.html#a0a0aa9e1464024e9f2c7b6ec598e13ffa5a3aacd3d3eb74e1020f0e24c3de3d64">SPELL_AIR_RIFLE_RIGHT_IN_THE_EYE</a>, <span class="keyword">true</span>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  243</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rand &lt; 35)</div>
+<div class="line"><span class="lineno">  244</span>                caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../d2/d57/winter__veil_8cpp.html#a0a0aa9e1464024e9f2c7b6ec598e13ffaab4b4a71800d5b266ac17392701535bd">SPELL_AIR_RIFLE_STARLED</a>, <span class="keyword">true</span>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  245</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  246</span>                caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../d2/d57/winter__veil_8cpp.html#a0a0aa9e1464024e9f2c7b6ec598e13ffadebbc458f6f97c23c78a5d77355557a0">SPELL_AIR_RIFLE_HIT</a>, <span class="keyword">true</span>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  247</span>        }</div>
+<div class="line"><span class="lineno">  248</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_spell_script_html_a3fa31d3b29c52993d3561fad3cd12af3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">SpellScript::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:411</div></div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_spell_script_html_ad3b76d0716ab3113b56ef35336e75709"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ad3b76d0716ab3113b56ef35336e75709">SpellScript::GetOriginalCaster</a></div><div class="ttdeci">Unit * GetOriginalCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:406</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_abdfe022523c40277d917754f75edb722"><div class="ttname"><a href="../../da/db7/class_unit.html#abdfe022523c40277d917754f75edb722">Unit::IsFriendlyTo</a></div><div class="ttdeci">bool IsFriendlyTo(Unit const *unit) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10202</div></div>
+<div class="ttc" id="awinter__veil_8cpp_html_a0a0aa9e1464024e9f2c7b6ec598e13ffa5a3aacd3d3eb74e1020f0e24c3de3d64"><div class="ttname"><a href="../../d2/d57/winter__veil_8cpp.html#a0a0aa9e1464024e9f2c7b6ec598e13ffa5a3aacd3d3eb74e1020f0e24c3de3d64">SPELL_AIR_RIFLE_RIGHT_IN_THE_EYE</a></div><div class="ttdeci">@ SPELL_AIR_RIFLE_RIGHT_IN_THE_EYE</div><div class="ttdef"><b>Definition:</b> winter_veil.cpp:213</div></div>
+<div class="ttc" id="awinter__veil_8cpp_html_a0a0aa9e1464024e9f2c7b6ec598e13ffaab4b4a71800d5b266ac17392701535bd"><div class="ttname"><a href="../../d2/d57/winter__veil_8cpp.html#a0a0aa9e1464024e9f2c7b6ec598e13ffaab4b4a71800d5b266ac17392701535bd">SPELL_AIR_RIFLE_STARLED</a></div><div class="ttdeci">@ SPELL_AIR_RIFLE_STARLED</div><div class="ttdef"><b>Definition:</b> winter_veil.cpp:214</div></div>
+<div class="ttc" id="awinter__veil_8cpp_html_a0a0aa9e1464024e9f2c7b6ec598e13ffada448247eeb3a3e93e78e6d367af2ea4"><div class="ttname"><a href="../../d2/d57/winter__veil_8cpp.html#a0a0aa9e1464024e9f2c7b6ec598e13ffada448247eeb3a3e93e78e6d367af2ea4">SPELL_AIR_RIFLE_PELTED_DAMAGE</a></div><div class="ttdeci">@ SPELL_AIR_RIFLE_PELTED_DAMAGE</div><div class="ttdef"><b>Definition:</b> winter_veil.cpp:217</div></div>
+<div class="ttc" id="awinter__veil_8cpp_html_a0a0aa9e1464024e9f2c7b6ec598e13ffadebbc458f6f97c23c78a5d77355557a0"><div class="ttname"><a href="../../d2/d57/winter__veil_8cpp.html#a0a0aa9e1464024e9f2c7b6ec598e13ffadebbc458f6f97c23c78a5d77355557a0">SPELL_AIR_RIFLE_HIT</a></div><div class="ttdeci">@ SPELL_AIR_RIFLE_HIT</div><div class="ttdef"><b>Definition:</b> winter_veil.cpp:215</div></div>
+<div class="ttc" id="awinter__veil_8cpp_html_a0a0aa9e1464024e9f2c7b6ec598e13ffaef31b2903ed373a76624e81b5928b3af"><div class="ttname"><a href="../../d2/d57/winter__veil_8cpp.html#a0a0aa9e1464024e9f2c7b6ec598e13ffaef31b2903ed373a76624e81b5928b3af">SPELL_AIR_RIFLE_HIT_TRIGGER</a></div><div class="ttdeci">@ SPELL_AIR_RIFLE_HIT_TRIGGER</div><div class="ttdef"><b>Definition:</b> winter_veil.cpp:216</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a55df717ede47b17a32ae33ecd64617cd" name="a55df717ede47b17a32ae33ecd64617cd"></a>
@@ -369,11 +406,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  251</span>    {</div>
+<div class="line"><span class="lineno">  252</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a> == <a class="code hl_enumvalue" href="../../d2/d57/winter__veil_8cpp.html#a0a0aa9e1464024e9f2c7b6ec598e13ffaef31b2903ed373a76624e81b5928b3af">SPELL_AIR_RIFLE_HIT_TRIGGER</a>)</div>
+<div class="line"><span class="lineno">  253</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d1/dc8/classspell__winter__veil__shoot__air__rifle.html#a2acaaf3716237f147429cb07779ae49e">spell_winter_veil_shoot_air_rifle::HandleScriptEffect</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a>);</div>
+<div class="line"><span class="lineno">  254</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  255</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d1/dc8/classspell__winter__veil__shoot__air__rifle.html#a2acaaf3716237f147429cb07779ae49e">spell_winter_veil_shoot_air_rifle::HandleScriptEffect</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a>);</div>
+<div class="line"><span class="lineno">  256</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a></div><div class="ttdeci">@ EFFECT_1</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:31</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a></div><div class="ttdeci">@ SPELL_EFFECT_SCRIPT_EFFECT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:827</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass___spell_script_html_ae2ab4203d324b2179ad06ffdb5d8626f"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">_SpellScript::m_scriptSpellId</a></div><div class="ttdeci">uint32 m_scriptSpellId</div><div class="ttdef"><b>Definition:</b> SpellScript.h:107</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__winter__veil__shoot__air__rifle_html_a2acaaf3716237f147429cb07779ae49e"><div class="ttname"><a href="../../d1/dc8/classspell__winter__veil__shoot__air__rifle.html#a2acaaf3716237f147429cb07779ae49e">spell_winter_veil_shoot_air_rifle::HandleScriptEffect</a></div><div class="ttdeci">void HandleScriptEffect(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> winter_veil.cpp:226</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../d2/d57/winter__veil_8cpp.html">winter_veil.cpp</a></li>
+<li><a class="el" href="../../">winter_veil.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -381,7 +431,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/dc8/classspell__winter__veil__shoot__air__rifle.html">spell_winter_veil_shoot_air_rifle</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:10 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:27 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

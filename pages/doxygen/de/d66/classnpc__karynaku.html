@@ -179,7 +179,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa6a3cb409cdbc990f1eee4137c7519d2" name="aa6a3cb409cdbc990f1eee4137c7519d2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa6a3cb409cdbc990f1eee4137c7519d2">&#9670;&#160;</a></span>npc_karynaku()</h2>
 
@@ -202,7 +203,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  800</span>: <a class="code hl_class" href="../../d5/dca/class_creature_script.html">CreatureScript</a>(<span class="stringliteral">&quot;npc_karynaku&quot;</span>) { }</div>
+<div class="ttc" id="aclass_creature_script_html"><div class="ttname"><a href="../../d5/dca/class_creature_script.html">CreatureScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:718</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -247,11 +250,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a6b106a237886f49e523ae7b07e9c5979">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  803</span>    {</div>
+<div class="line"><span class="lineno">  804</span>        <span class="keywordflow">if</span> (quest-&gt;GetQuestId() == <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a123c4b1ebb762013db19c932e44a4e24a0cea5be66aa00f0a720a75b2dfe52849">QUEST_ALLY_OF_NETHER</a>)</div>
+<div class="line"><span class="lineno">  805</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a582a0cd15b37f0b0302e6f758e299e2c">ActivateTaxiPathTo</a>(<a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a123c4b1ebb762013db19c932e44a4e24a5e1e78493c55a69bd98f896ff332f0f1">TAXI_PATH_ID</a>);</div>
+<div class="line"><span class="lineno">  806</span> </div>
+<div class="line"><span class="lineno">  807</span>        <span class="keywordflow">if</span> (quest-&gt;GetQuestId() == <a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a123c4b1ebb762013db19c932e44a4e24a8a25a8632e923dc91043d53eb9d8d45c">QUEST_ZUHULED_THE_WACK</a>)</div>
+<div class="line"><span class="lineno">  808</span>            creature-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_enumvalue" href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a123c4b1ebb762013db19c932e44a4e24a9071f3130c4bfcd8cdaee5304999a930">NPC_ZUHULED_THE_WACKED</a>, -4204.94f, 316.397f, 122.508f, 1.309f, <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a>, 300000);</div>
+<div class="line"><span class="lineno">  809</span> </div>
+<div class="line"><span class="lineno">  810</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  811</span>    }</div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:42</div></div>
+<div class="ttc" id="aclass_player_html_a582a0cd15b37f0b0302e6f758e299e2c"><div class="ttname"><a href="../../d8/d53/class_player.html#a582a0cd15b37f0b0302e6f758e299e2c">Player::ActivateTaxiPathTo</a></div><div class="ttdeci">bool ActivateTaxiPathTo(std::vector&lt; uint32 &gt; const &amp;nodes, Creature *npc=nullptr, uint32 spellid=1)</div><div class="ttdef"><b>Definition:</b> Player.cpp:9960</div></div>
+<div class="ttc" id="aclass_world_object_html_aaf7058bd6b40bbfd38cbcd4f740c0344"><div class="ttname"><a href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">WorldObject::SummonCreature</a></div><div class="ttdeci">TempSummon * SummonCreature(uint32 id, const Position &amp;pos, TempSummonType spwtype=TEMPSUMMON_MANUAL_DESPAWN, uint32 despwtime=0, uint32 vehId=0, SummonPropertiesEntry const *properties=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2301</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a123c4b1ebb762013db19c932e44a4e24a0cea5be66aa00f0a720a75b2dfe52849"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a123c4b1ebb762013db19c932e44a4e24a0cea5be66aa00f0a720a75b2dfe52849">QUEST_ALLY_OF_NETHER</a></div><div class="ttdeci">@ QUEST_ALLY_OF_NETHER</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:789</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a123c4b1ebb762013db19c932e44a4e24a5e1e78493c55a69bd98f896ff332f0f1"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a123c4b1ebb762013db19c932e44a4e24a5e1e78493c55a69bd98f896ff332f0f1">TAXI_PATH_ID</a></div><div class="ttdeci">@ TAXI_PATH_ID</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:794</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a123c4b1ebb762013db19c932e44a4e24a8a25a8632e923dc91043d53eb9d8d45c"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a123c4b1ebb762013db19c932e44a4e24a8a25a8632e923dc91043d53eb9d8d45c">QUEST_ZUHULED_THE_WACK</a></div><div class="ttdeci">@ QUEST_ZUHULED_THE_WACK</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:790</div></div>
+<div class="ttc" id="azone__shadowmoon__valley_8cpp_html_a123c4b1ebb762013db19c932e44a4e24a9071f3130c4bfcd8cdaee5304999a930"><div class="ttname"><a href="../../da/da4/zone__shadowmoon__valley_8cpp.html#a123c4b1ebb762013db19c932e44a4e24a9071f3130c4bfcd8cdaee5304999a930">NPC_ZUHULED_THE_WACKED</a></div><div class="ttdeci">@ NPC_ZUHULED_THE_WACKED</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:792</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/<a class="el" href="../../da/da4/zone__shadowmoon__valley_8cpp.html">zone_shadowmoon_valley.cpp</a></li>
+<li><a class="el" href="../../">zone_shadowmoon_valley.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -259,7 +278,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d66/classnpc__karynaku.html">npc_karynaku</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:51 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

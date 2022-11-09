@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d1/ddd/class_world_packets_1_1_charact
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../dc/df0/_character_packets_8h_source.html">CharacterPackets.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">CharacterPackets.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for WorldPackets::Character::LogoutResponse:</div>
 <div class="dyncontent">
@@ -175,7 +175,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ab85f1c9f20117bc5015180165c7b458a inherit pro_attribs_class_world_packets_1_1_packet"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d1a/class_world_packet.html">WorldPacket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a></td></tr>
 <tr class="separator:ab85f1c9f20117bc5015180165c7b458a inherit pro_attribs_class_world_packets_1_1_packet"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a434ee19fbc4d3e336444b1c62ac2be84" name="a434ee19fbc4d3e336444b1c62ac2be84"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a434ee19fbc4d3e336444b1c62ac2be84">&#9670;&#160;</a></span>LogoutResponse()</h2>
 
@@ -198,7 +199,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>: <a class="code hl_function" href="../../d6/d50/class_world_packets_1_1_server_packet.html#ad2222011e1251791799f97b149cef8b9">ServerPacket</a>(<a class="code hl_enumvalue" href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9ba5d16c2f4e0859a0e24b1ee1f9cd9ad9e">SMSG_LOGOUT_RESPONSE</a>, 4 + 1) { }</div>
+<div class="ttc" id="aclass_world_packets_1_1_server_packet_html_ad2222011e1251791799f97b149cef8b9"><div class="ttname"><a href="../../d6/d50/class_world_packets_1_1_server_packet.html#ad2222011e1251791799f97b149cef8b9">WorldPackets::ServerPacket::ServerPacket</a></div><div class="ttdeci">ServerPacket(OpcodeServer opcode, size_t initialSize=200)</div><div class="ttdef"><b>Definition:</b> Packet.cpp:25</div></div>
+<div class="ttc" id="agroup__u2w_html_gga1073b6abb3a749f18bf1633020879e9ba5d16c2f4e0859a0e24b1ee1f9cd9ad9e"><div class="ttname"><a href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9ba5d16c2f4e0859a0e24b1ee1f9cd9ad9e">SMSG_LOGOUT_RESPONSE</a></div><div class="ttdeci">@ SMSG_LOGOUT_RESPONSE</div><div class="ttdef"><b>Definition:</b> Opcodes.h:106</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -226,7 +230,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d4e/class_world_packets_1_1_packet.html#af7c79156d7b6cfe3142fc530f9ed262a">WorldPackets::Packet</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d1/ddd/class_world_packets_1_1_character_1_1_logout_response.html#a5543bf1a6342e9a217cd906e4a185b2e">LogoutResult</a>);</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(<a class="code hl_variable" href="../../d1/ddd/class_world_packets_1_1_character_1_1_logout_response.html#aad6819dc426b91b6ad43f180a53e12ef">Instant</a>);</div>
+<div class="line"><span class="lineno">   34</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>;</div>
+<div class="line"><span class="lineno">   35</span>}</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_character_1_1_logout_response_html_a5543bf1a6342e9a217cd906e4a185b2e"><div class="ttname"><a href="../../d1/ddd/class_world_packets_1_1_character_1_1_logout_response.html#a5543bf1a6342e9a217cd906e4a185b2e">WorldPackets::Character::LogoutResponse::LogoutResult</a></div><div class="ttdeci">uint32 LogoutResult</div><div class="ttdef"><b>Definition:</b> CharacterPackets.h:62</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_character_1_1_logout_response_html_aad6819dc426b91b6ad43f180a53e12ef"><div class="ttname"><a href="../../d1/ddd/class_world_packets_1_1_character_1_1_logout_response.html#aad6819dc426b91b6ad43f180a53e12ef">WorldPackets::Character::LogoutResponse::Instant</a></div><div class="ttdeci">bool Instant</div><div class="ttdef"><b>Definition:</b> CharacterPackets.h:63</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_packet_html_ab85f1c9f20117bc5015180165c7b458a"><div class="ttname"><a href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">WorldPackets::Packet::_worldPacket</a></div><div class="ttdeci">WorldPacket _worldPacket</div><div class="ttdef"><b>Definition:</b> Packet.h:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -259,8 +273,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Server/Packets/<a class="el" href="../../dc/df0/_character_packets_8h_source.html">CharacterPackets.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Server/Packets/<a class="el" href="../../dd/d1b/_character_packets_8cpp.html">CharacterPackets.cpp</a></li>
+<li><a class="el" href="../../">CharacterPackets.h</a></li>
+<li><a class="el" href="../../">CharacterPackets.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -268,7 +282,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d87/namespace_world_packets.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../da/d58/namespace_world_packets_1_1_character.html">Character</a></li><li class="navelem"><a class="el" href="../../d1/ddd/class_world_packets_1_1_character_1_1_logout_response.html">LogoutResponse</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

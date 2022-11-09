@@ -159,7 +159,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1565aa67743cfd3e5fe5179b4100bd20" name="a1565aa67743cfd3e5fe5179b4100bd20"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1565aa67743cfd3e5fe5179b4100bd20">&#9670;&#160;</a></span>player_commandscript()</h2>
 
@@ -182,7 +183,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   26</span>: <a class="code hl_class" href="../../d8/ddd/class_command_script.html">CommandScript</a>(<span class="stringliteral">&quot;player_commandscript&quot;</span>) { }</div>
+<div class="ttc" id="aclass_command_script_html"><div class="ttname"><a href="../../d8/ddd/class_command_script.html">CommandScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:849</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -210,7 +213,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d8/ddd/class_command_script.html#a97dc7d00b78e0030ba2a950d23b2ebd2">CommandScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   29</span>    {</div>
+<div class="line"><span class="lineno">   30</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">ChatCommandTable</a> playerCommandTable =</div>
+<div class="line"><span class="lineno">   31</span>        {</div>
+<div class="line"><span class="lineno">   32</span>            { <span class="stringliteral">&quot;learn&quot;</span>,   <a class="code hl_function" href="../../da/dfd/classplayer__commandscript.html#a6ca511bcecf73049665772cb80dbcf40">HandlePlayerLearnCommand</a>,   <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1">SEC_GAMEMASTER</a>, Console::Yes },</div>
+<div class="line"><span class="lineno">   33</span>            { <span class="stringliteral">&quot;unlearn&quot;</span>, <a class="code hl_function" href="../../da/dfd/classplayer__commandscript.html#a22fddb5da1278fe794a78a899c423bfd">HandlePlayerUnLearnCommand</a>, <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1">SEC_GAMEMASTER</a>, Console::Yes }</div>
+<div class="line"><span class="lineno">   34</span>        };</div>
+<div class="line"><span class="lineno">   35</span> </div>
+<div class="line"><span class="lineno">   36</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">ChatCommandTable</a> commandTable =</div>
+<div class="line"><span class="lineno">   37</span>        {</div>
+<div class="line"><span class="lineno">   38</span>            { <span class="stringliteral">&quot;player&quot;</span>, playerCommandTable }</div>
+<div class="line"><span class="lineno">   39</span>        };</div>
+<div class="line"><span class="lineno">   40</span>        <span class="keywordflow">return</span> commandTable;</div>
+<div class="line"><span class="lineno">   41</span>    }</div>
+<div class="ttc" id="a_common_8h_html_adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1"><div class="ttname"><a href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1">SEC_GAMEMASTER</a></div><div class="ttdeci">@ SEC_GAMEMASTER</div><div class="ttdef"><b>Definition:</b> Common.h:68</div></div>
+<div class="ttc" id="aclassplayer__commandscript_html_a22fddb5da1278fe794a78a899c423bfd"><div class="ttname"><a href="../../da/dfd/classplayer__commandscript.html#a22fddb5da1278fe794a78a899c423bfd">player_commandscript::HandlePlayerUnLearnCommand</a></div><div class="ttdeci">static bool HandlePlayerUnLearnCommand(ChatHandler *handler, Optional&lt; PlayerIdentifier &gt; player, SpellInfo const *spell, Optional&lt; EXACT_SEQUENCE(&quot;all&quot;)&gt; allRanks)</div><div class="ttdef"><b>Definition:</b> cs_player.cpp:54</div></div>
+<div class="ttc" id="aclassplayer__commandscript_html_a6ca511bcecf73049665772cb80dbcf40"><div class="ttname"><a href="../../da/dfd/classplayer__commandscript.html#a6ca511bcecf73049665772cb80dbcf40">player_commandscript::HandlePlayerLearnCommand</a></div><div class="ttdeci">static bool HandlePlayerLearnCommand(ChatHandler *handler, Optional&lt; PlayerIdentifier &gt; player, SpellInfo const *spell, Optional&lt; EXACT_SEQUENCE(&quot;all&quot;)&gt; allRanks)</div><div class="ttdef"><b>Definition:</b> cs_player.cpp:43</div></div>
+<div class="ttc" id="anamespace_acore_1_1_chat_commands_html_a7aa1549a95f760a19b9b7ffd8e669626"><div class="ttname"><a href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">Acore::ChatCommands::ChatCommandTable</a></div><div class="ttdeci">std::vector&lt; ChatCommandBuilder &gt; ChatCommandTable</div><div class="ttdef"><b>Definition:</b> ChatCommand.h:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6ca511bcecf73049665772cb80dbcf40" name="a6ca511bcecf73049665772cb80dbcf40"></a>
@@ -258,7 +278,19 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   44</span>    {</div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno">   46</span>            player = <a class="code hl_function" href="../../d3/dd3/struct_acore_1_1_chat_commands_1_1_player_identifier.html#a617834cc8474970950b45066f2e86dbd">PlayerIdentifier::FromTargetOrSelf</a>(handler);</div>
+<div class="line"><span class="lineno">   47</span>        <span class="keywordflow">if</span> (!player || !player-&gt;IsConnected())</div>
+<div class="line"><span class="lineno">   48</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>        <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* targetPlayer = player-&gt;GetConnectedPlayer();</div>
+<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d0/dbb/namespace_acore_1_1_player_command.html#acbe37f872cbc981a27671ebdf10904de">Acore::PlayerCommand::HandleLearnSpellCommand</a>(handler, targetPlayer, spell, allRanks);</div>
+<div class="line"><span class="lineno">   52</span>    }</div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="anamespace_acore_1_1_player_command_html_acbe37f872cbc981a27671ebdf10904de"><div class="ttname"><a href="../../d0/dbb/namespace_acore_1_1_player_command.html#acbe37f872cbc981a27671ebdf10904de">Acore::PlayerCommand::HandleLearnSpellCommand</a></div><div class="ttdeci">bool HandleLearnSpellCommand(ChatHandler *handler, Player *targetPlayer, SpellInfo const *spell, Optional&lt; EXACT_SEQUENCE(&quot;all&quot;)&gt; allRanks)</div><div class="ttdef"><b>Definition:</b> PlayerCommand.cpp:24</div></div>
+<div class="ttc" id="astruct_acore_1_1_chat_commands_1_1_player_identifier_html_a617834cc8474970950b45066f2e86dbd"><div class="ttname"><a href="../../d3/dd3/struct_acore_1_1_chat_commands_1_1_player_identifier.html#a617834cc8474970950b45066f2e86dbd">Acore::ChatCommands::PlayerIdentifier::FromTargetOrSelf</a></div><div class="ttdeci">static Optional&lt; PlayerIdentifier &gt; FromTargetOrSelf(ChatHandler *handler)</div><div class="ttdef"><b>Definition:</b> ChatCommandTags.h:189</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a22fddb5da1278fe794a78a899c423bfd" name="a22fddb5da1278fe794a78a899c423bfd"></a>
@@ -306,11 +338,21 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   55</span>    {</div>
+<div class="line"><span class="lineno">   56</span>        <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno">   57</span>            player = <a class="code hl_function" href="../../d3/dd3/struct_acore_1_1_chat_commands_1_1_player_identifier.html#a617834cc8474970950b45066f2e86dbd">PlayerIdentifier::FromTargetOrSelf</a>(handler);</div>
+<div class="line"><span class="lineno">   58</span>        <span class="keywordflow">if</span> (!player || !player-&gt;IsConnected())</div>
+<div class="line"><span class="lineno">   59</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>        <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* targetPlayer = player-&gt;GetConnectedPlayer();</div>
+<div class="line"><span class="lineno">   62</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d0/dbb/namespace_acore_1_1_player_command.html#ad36f90f90b3d9aaf782f7efc859f7e7a">Acore::PlayerCommand::HandleUnlearnSpellCommand</a>(handler, targetPlayer, spell, allRanks);</div>
+<div class="line"><span class="lineno">   63</span>    }</div>
+<div class="ttc" id="anamespace_acore_1_1_player_command_html_ad36f90f90b3d9aaf782f7efc859f7e7a"><div class="ttname"><a href="../../d0/dbb/namespace_acore_1_1_player_command.html#ad36f90f90b3d9aaf782f7efc859f7e7a">Acore::PlayerCommand::HandleUnlearnSpellCommand</a></div><div class="ttdeci">bool HandleUnlearnSpellCommand(ChatHandler *handler, Player *targetPlayer, SpellInfo const *spell, Optional&lt; EXACT_SEQUENCE(&quot;all&quot;)&gt; allRanks)</div><div class="ttdef"><b>Definition:</b> PlayerCommand.cpp:68</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Commands/<a class="el" href="../../d8/df2/cs__player_8cpp.html">cs_player.cpp</a></li>
+<li><a class="el" href="../../">cs_player.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -318,7 +360,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/dfd/classplayer__commandscript.html">player_commandscript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -479,7 +479,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa5c01fd7cf2b9fad15a3059b4fe38d13" name="aa5c01fd7cf2b9fad15a3059b4fe38d13"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa5c01fd7cf2b9fad15a3059b4fe38d13">&#9670;&#160;</a></span>npc_pet_trainerAI()</h2>
 
@@ -503,7 +504,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1823</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -548,11 +551,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#ab4adb2abfabe081acf0e4c5670607f87">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1826</span>        {</div>
+<div class="line"><span class="lineno"> 1827</span>            <span class="keywordflow">if</span> (menuId == <a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#a31f4c889233803e83d5692ffda190595ade06fbaacc54b9a03a93e09f5c51db7e">PET_UNLEARN</a> &amp;&amp; gossipListId == <a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#a31f4c889233803e83d5692ffda190595a2ced7cd57bec439c9966fd4b41850718">YES_PLEASE_DO</a>)</div>
+<div class="line"><span class="lineno"> 1828</span>            {</div>
+<div class="line"><span class="lineno"> 1829</span>                player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a7326336e1713d96da8d2b1c04479a6e1">ResetPetTalents</a>();</div>
+<div class="line"><span class="lineno"> 1830</span>                player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#a1071f28b7138ecbd7e94d95175059ba1">SendCloseGossip</a>();</div>
+<div class="line"><span class="lineno"> 1831</span>            }</div>
+<div class="line"><span class="lineno"> 1832</span>        }</div>
+<div class="ttc" id="aclass_player_html_a7326336e1713d96da8d2b1c04479a6e1"><div class="ttname"><a href="../../d8/d53/class_player.html#a7326336e1713d96da8d2b1c04479a6e1">Player::ResetPetTalents</a></div><div class="ttdeci">void ResetPetTalents()</div><div class="ttdef"><b>Definition:</b> Player.cpp:8745</div></div>
+<div class="ttc" id="aclass_player_html_af9651858db4302e3dff8ec5bff131f72"><div class="ttname"><a href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">Player::PlayerTalkClass</a></div><div class="ttdeci">PlayerMenu * PlayerTalkClass</div><div class="ttdef"><b>Definition:</b> Player.h:2187</div></div>
+<div class="ttc" id="aclass_player_menu_html_a1071f28b7138ecbd7e94d95175059ba1"><div class="ttname"><a href="../../d1/d29/class_player_menu.html#a1071f28b7138ecbd7e94d95175059ba1">PlayerMenu::SendCloseGossip</a></div><div class="ttdeci">void SendCloseGossip()</div><div class="ttdef"><b>Definition:</b> GossipDef.cpp:240</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_a31f4c889233803e83d5692ffda190595a2ced7cd57bec439c9966fd4b41850718"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#a31f4c889233803e83d5692ffda190595a2ced7cd57bec439c9966fd4b41850718">YES_PLEASE_DO</a></div><div class="ttdeci">@ YES_PLEASE_DO</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:1813</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_a31f4c889233803e83d5692ffda190595ade06fbaacc54b9a03a93e09f5c51db7e"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#a31f4c889233803e83d5692ffda190595ade06fbaacc54b9a03a93e09f5c51db7e">PET_UNLEARN</a></div><div class="ttdeci">@ PET_UNLEARN</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:1812</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../db/dae/npcs__special_8cpp.html">npcs_special.cpp</a></li>
+<li><a class="el" href="../../">npcs_special.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -560,7 +575,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d7d/classnpc__pet__trainer.html">npc_pet_trainer</a></li><li class="navelem"><a class="el" href="../../d9/d4e/structnpc__pet__trainer_1_1npc__pet__trainer_a_i.html">npc_pet_trainerAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

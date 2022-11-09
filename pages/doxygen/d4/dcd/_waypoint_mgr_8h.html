@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/Movement/Waypoints/WaypointMgr.h File Reference</title>
+<title>AzeorthCore: WaypointMgr.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -113,11 +113,11 @@ $(document).ready(function(){initNavTree('d4/dcd/_waypoint_mgr_8h.html','../../'
   <div class="headertitle"><div class="title">WaypointMgr.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../db/d1f/_common_8h_source.html">Common.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 </div>
-<p><a href="../../d4/dcd/_waypoint_mgr_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -217,7 +217,20 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="ac26115060a1cd0169937b206edddd863a6c91e1f2cbadf7be7393f34b5de1b843" name="ac26115060a1cd0169937b206edddd863a6c91e1f2cbadf7be7393f34b5de1b843"></a>WAYPOINT_MOVE_TYPE_TAKEOFF&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac26115060a1cd0169937b206edddd863a32847b8584f9ff3ce07eb01923c37188" name="ac26115060a1cd0169937b206edddd863a32847b8584f9ff3ce07eb01923c37188"></a>WAYPOINT_MOVE_TYPE_MAX&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d4/dcd/_waypoint_mgr_8h.html#ac26115060a1cd0169937b206edddd863acc641c64fa11ca399fe52e963d2ad1ff">WAYPOINT_MOVE_TYPE_WALK</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d4/dcd/_waypoint_mgr_8h.html#ac26115060a1cd0169937b206edddd863a1a68f8f06e0a7c3d6f9b007c79630f55">WAYPOINT_MOVE_TYPE_RUN</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d4/dcd/_waypoint_mgr_8h.html#ac26115060a1cd0169937b206edddd863a3190ebe456b4d1effe17f57ecc3379fa">WAYPOINT_MOVE_TYPE_LAND</a>,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d4/dcd/_waypoint_mgr_8h.html#ac26115060a1cd0169937b206edddd863a6c91e1f2cbadf7be7393f34b5de1b843">WAYPOINT_MOVE_TYPE_TAKEOFF</a>,</div>
+<div class="line"><span class="lineno">   31</span> </div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d4/dcd/_waypoint_mgr_8h.html#ac26115060a1cd0169937b206edddd863a32847b8584f9ff3ce07eb01923c37188">WAYPOINT_MOVE_TYPE_MAX</a></div>
+<div class="line"><span class="lineno">   33</span>};</div>
+<div class="ttc" id="a_waypoint_mgr_8h_html_ac26115060a1cd0169937b206edddd863a1a68f8f06e0a7c3d6f9b007c79630f55"><div class="ttname"><a href="../../d4/dcd/_waypoint_mgr_8h.html#ac26115060a1cd0169937b206edddd863a1a68f8f06e0a7c3d6f9b007c79630f55">WAYPOINT_MOVE_TYPE_RUN</a></div><div class="ttdeci">@ WAYPOINT_MOVE_TYPE_RUN</div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:28</div></div>
+<div class="ttc" id="a_waypoint_mgr_8h_html_ac26115060a1cd0169937b206edddd863a3190ebe456b4d1effe17f57ecc3379fa"><div class="ttname"><a href="../../d4/dcd/_waypoint_mgr_8h.html#ac26115060a1cd0169937b206edddd863a3190ebe456b4d1effe17f57ecc3379fa">WAYPOINT_MOVE_TYPE_LAND</a></div><div class="ttdeci">@ WAYPOINT_MOVE_TYPE_LAND</div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:29</div></div>
+<div class="ttc" id="a_waypoint_mgr_8h_html_ac26115060a1cd0169937b206edddd863a32847b8584f9ff3ce07eb01923c37188"><div class="ttname"><a href="../../d4/dcd/_waypoint_mgr_8h.html#ac26115060a1cd0169937b206edddd863a32847b8584f9ff3ce07eb01923c37188">WAYPOINT_MOVE_TYPE_MAX</a></div><div class="ttdeci">@ WAYPOINT_MOVE_TYPE_MAX</div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:32</div></div>
+<div class="ttc" id="a_waypoint_mgr_8h_html_ac26115060a1cd0169937b206edddd863a6c91e1f2cbadf7be7393f34b5de1b843"><div class="ttname"><a href="../../d4/dcd/_waypoint_mgr_8h.html#ac26115060a1cd0169937b206edddd863a6c91e1f2cbadf7be7393f34b5de1b843">WAYPOINT_MOVE_TYPE_TAKEOFF</a></div><div class="ttdeci">@ WAYPOINT_MOVE_TYPE_TAKEOFF</div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:30</div></div>
+<div class="ttc" id="a_waypoint_mgr_8h_html_ac26115060a1cd0169937b206edddd863acc641c64fa11ca399fe52e963d2ad1ff"><div class="ttname"><a href="../../d4/dcd/_waypoint_mgr_8h.html#ac26115060a1cd0169937b206edddd863acc641c64fa11ca399fe52e963d2ad1ff">WAYPOINT_MOVE_TYPE_WALK</a></div><div class="ttdeci">@ WAYPOINT_MOVE_TYPE_WALK</div><div class="ttdef"><b>Definition:</b> WaypointMgr.h:27</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -226,7 +239,7 @@ Enumerations</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0787b0a4fdc11b0654465feaa92c32a3.html">Movement</a></li><li class="navelem"><a class="el" href="../../dir_10cc9e05dd2639963b68719a523d1ea8.html">Waypoints</a></li><li class="navelem"><a class="el" href="../../d4/dcd/_waypoint_mgr_8h.html">WaypointMgr.h</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

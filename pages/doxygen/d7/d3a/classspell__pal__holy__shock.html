@@ -296,7 +296,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a0d7910cd2b9d9f4174575532502d40f9" name="a0d7910cd2b9d9f4174575532502d40f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d7910cd2b9d9f4174575532502d40f9">&#9670;&#160;</a></span>CheckCast()</h2>
 
@@ -319,7 +320,33 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  816</span>    {</div>
+<div class="line"><span class="lineno">  817</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno">  818</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a0a4da6da2613261bd66a2ecc22ddc767">GetExplTargetUnit</a>())</div>
+<div class="line"><span class="lineno">  819</span>        {</div>
+<div class="line"><span class="lineno">  820</span>            <span class="keywordflow">if</span> (!caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#abdfe022523c40277d917754f75edb722">IsFriendlyTo</a>(target))</div>
+<div class="line"><span class="lineno">  821</span>            {</div>
+<div class="line"><span class="lineno">  822</span>                <span class="keywordflow">if</span> (!caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1a733a908c073be90e5174601d448002">IsValidAttackTarget</a>(target))</div>
+<div class="line"><span class="lineno">  823</span>                    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daabac1a9f442523ff297fbca0beea649b3">SPELL_FAILED_BAD_TARGETS</a>;</div>
+<div class="line"><span class="lineno">  824</span> </div>
+<div class="line"><span class="lineno">  825</span>                <span class="keywordflow">if</span> (!caster-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a00db62e79f895c1fe3893c95ee30b6fe">isInFront</a>(target))</div>
+<div class="line"><span class="lineno">  826</span>                    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daa0201f3ee2e3101af63e54aafbf14c226">SPELL_FAILED_UNIT_NOT_INFRONT</a>;</div>
+<div class="line"><span class="lineno">  827</span>            }</div>
+<div class="line"><span class="lineno">  828</span>        }</div>
+<div class="line"><span class="lineno">  829</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  830</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daabac1a9f442523ff297fbca0beea649b3">SPELL_FAILED_BAD_TARGETS</a>;</div>
+<div class="line"><span class="lineno">  831</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6">SPELL_CAST_OK</a>;</div>
+<div class="line"><span class="lineno">  832</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_ade9b4e913a84079f5311c2817e3de9daa0201f3ee2e3101af63e54aafbf14c226"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daa0201f3ee2e3101af63e54aafbf14c226">SPELL_FAILED_UNIT_NOT_INFRONT</a></div><div class="ttdeci">@ SPELL_FAILED_UNIT_NOT_INFRONT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1055</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ade9b4e913a84079f5311c2817e3de9daabac1a9f442523ff297fbca0beea649b3"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daabac1a9f442523ff297fbca0beea649b3">SPELL_FAILED_BAD_TARGETS</a></div><div class="ttdeci">@ SPELL_FAILED_BAD_TARGETS</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:933</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6">SPELL_CAST_OK</a></div><div class="ttdeci">@ SPELL_CAST_OK</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1110</div></div>
+<div class="ttc" id="aclass_spell_script_html_a0a4da6da2613261bd66a2ecc22ddc767"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a0a4da6da2613261bd66a2ecc22ddc767">SpellScript::GetExplTargetUnit</a></div><div class="ttdeci">Unit * GetExplTargetUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:433</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a1a733a908c073be90e5174601d448002"><div class="ttname"><a href="../../da/db7/class_unit.html#a1a733a908c073be90e5174601d448002">Unit::IsValidAttackTarget</a></div><div class="ttdeci">bool IsValidAttackTarget(Unit const *target) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:13764</div></div>
+<div class="ttc" id="aclass_unit_html_abdfe022523c40277d917754f75edb722"><div class="ttname"><a href="../../da/db7/class_unit.html#abdfe022523c40277d917754f75edb722">Unit::IsFriendlyTo</a></div><div class="ttdeci">bool IsFriendlyTo(Unit const *unit) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10202</div></div>
+<div class="ttc" id="aclass_world_object_html_a00db62e79f895c1fe3893c95ee30b6fe"><div class="ttname"><a href="../../db/df7/class_world_object.html#a00db62e79f895c1fe3893c95ee30b6fe">WorldObject::isInFront</a></div><div class="ttdeci">bool isInFront(WorldObject const *target, float arc=M_PI) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1492</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1eac1eb5f39093ff48942e82728478dd" name="a1eac1eb5f39093ff48942e82728478dd"></a>
@@ -345,7 +372,26 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  803</span>    {</div>
+<div class="line"><span class="lineno">  804</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno">  805</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* unitTarget = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>())</div>
+<div class="line"><span class="lineno">  806</span>        {</div>
+<div class="line"><span class="lineno">  807</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> rank = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;<a class="code hl_function" href="../../d4/d7d/class_spell_info.html#a49c70ec610efb184d46fb39737bd4a1a">GetRank</a>();</div>
+<div class="line"><span class="lineno">  808</span>            <span class="keywordflow">if</span> (caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#abdfe022523c40277d917754f75edb722">IsFriendlyTo</a>(unitTarget))</div>
+<div class="line"><span class="lineno">  809</span>                caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(unitTarget, <a class="code hl_define" href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellWithRank(<a class="code hl_enumvalue" href="../../db/d16/spell__paladin_8cpp.html#a0d9fc6ef3866d56692ca47a1a36dc997a102ddef0ca316849f71ab2776c431507">SPELL_PALADIN_HOLY_SHOCK_R1_HEALING</a>, rank), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  810</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  811</span>                caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(unitTarget, <a class="code hl_define" href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellWithRank(<a class="code hl_enumvalue" href="../../db/d16/spell__paladin_8cpp.html#a0d9fc6ef3866d56692ca47a1a36dc997a025899e97617212364a7bf3174d200de">SPELL_PALADIN_HOLY_SHOCK_R1_DAMAGE</a>, rank), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  812</span>        }</div>
+<div class="line"><span class="lineno">  813</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_spell_mgr_8h_html_aa21e14d8e1145507b746a69b5487109d"><div class="ttname"><a href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a></div><div class="ttdeci">#define sSpellMgr</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:803</div></div>
+<div class="ttc" id="aclass_spell_info_html_a49c70ec610efb184d46fb39737bd4a1a"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#a49c70ec610efb184d46fb39737bd4a1a">SpellInfo::GetRank</a></div><div class="ttdeci">uint8 GetRank() const</div><div class="ttdef"><b>Definition:</b> SpellInfo.cpp:2474</div></div>
+<div class="ttc" id="aclass_spell_script_html_a3fa31d3b29c52993d3561fad3cd12af3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">SpellScript::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:411</div></div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aspell__paladin_8cpp_html_a0d9fc6ef3866d56692ca47a1a36dc997a025899e97617212364a7bf3174d200de"><div class="ttname"><a href="../../db/d16/spell__paladin_8cpp.html#a0d9fc6ef3866d56692ca47a1a36dc997a025899e97617212364a7bf3174d200de">SPELL_PALADIN_HOLY_SHOCK_R1_DAMAGE</a></div><div class="ttdeci">@ SPELL_PALADIN_HOLY_SHOCK_R1_DAMAGE</div><div class="ttdef"><b>Definition:</b> spell_paladin.cpp:39</div></div>
+<div class="ttc" id="aspell__paladin_8cpp_html_a0d9fc6ef3866d56692ca47a1a36dc997a102ddef0ca316849f71ab2776c431507"><div class="ttname"><a href="../../db/d16/spell__paladin_8cpp.html#a0d9fc6ef3866d56692ca47a1a36dc997a102ddef0ca316849f71ab2776c431507">SPELL_PALADIN_HOLY_SHOCK_R1_HEALING</a></div><div class="ttdeci">@ SPELL_PALADIN_HOLY_SHOCK_R1_HEALING</div><div class="ttdef"><b>Definition:</b> spell_paladin.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="adbb58b75232560d101b291c0d99a2a20" name="adbb58b75232560d101b291c0d99a2a20"></a>
@@ -398,7 +444,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  835</span>    {</div>
+<div class="line"><span class="lineno">  836</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a1212a7fd9c9b531c13d5781f60b05590">OnCheckCast</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a44cc78b7e05a8f3b83e430f5115a2183">SpellCheckCastFn</a>(<a class="code hl_function" href="../../d7/d3a/classspell__pal__holy__shock.html#a0d7910cd2b9d9f4174575532502d40f9">spell_pal_holy_shock::CheckCast</a>);</div>
+<div class="line"><span class="lineno">  837</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d7/d3a/classspell__pal__holy__shock.html#a1eac1eb5f39093ff48942e82728478dd">spell_pal_holy_shock::HandleDummy</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a>);</div>
+<div class="line"><span class="lineno">  838</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a></div><div class="ttdeci">@ SPELL_EFFECT_DUMMY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:753</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a44cc78b7e05a8f3b83e430f5115a2183"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a44cc78b7e05a8f3b83e430f5115a2183">SpellCheckCastFn</a></div><div class="ttdeci">#define SpellCheckCastFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:329</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a1212a7fd9c9b531c13d5781f60b05590"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a1212a7fd9c9b531c13d5781f60b05590">SpellScript::OnCheckCast</a></div><div class="ttdeci">HookList&lt; CheckCastHandler &gt; OnCheckCast</div><div class="ttdef"><b>Definition:</b> SpellScript.h:328</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__pal__holy__shock_html_a0d7910cd2b9d9f4174575532502d40f9"><div class="ttname"><a href="../../d7/d3a/classspell__pal__holy__shock.html#a0d7910cd2b9d9f4174575532502d40f9">spell_pal_holy_shock::CheckCast</a></div><div class="ttdeci">SpellCastResult CheckCast()</div><div class="ttdef"><b>Definition:</b> spell_paladin.cpp:815</div></div>
+<div class="ttc" id="aclassspell__pal__holy__shock_html_a1eac1eb5f39093ff48942e82728478dd"><div class="ttname"><a href="../../d7/d3a/classspell__pal__holy__shock.html#a1eac1eb5f39093ff48942e82728478dd">spell_pal_holy_shock::HandleDummy</a></div><div class="ttdeci">void HandleDummy(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> spell_paladin.cpp:802</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4b67c348685a8094668e4ed2f0c78446" name="a4b67c348685a8094668e4ed2f0c78446"></a>
@@ -426,11 +484,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  786</span>    {</div>
+<div class="line"><span class="lineno">  787</span>        <a class="code hl_class" href="../../d4/d7d/class_spell_info.html">SpellInfo</a> <span class="keyword">const</span>* firstRankSpellInfo = <a class="code hl_define" href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(<a class="code hl_enumvalue" href="../../db/d16/spell__paladin_8cpp.html#a0d9fc6ef3866d56692ca47a1a36dc997af4bfe8574c1cf0f1c342e05fea2f232a">SPELL_PALADIN_HOLY_SHOCK_R1</a>);</div>
+<div class="line"><span class="lineno">  788</span>        <span class="keywordflow">if</span> (!firstRankSpellInfo)</div>
+<div class="line"><span class="lineno">  789</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  790</span> </div>
+<div class="line"><span class="lineno">  791</span>        <span class="comment">// can&#39;t use other spell than holy shock due to spell_ranks dependency</span></div>
+<div class="line"><span class="lineno">  792</span>        <span class="keywordflow">if</span> (!spellInfo-&gt;IsRankOf(firstRankSpellInfo))</div>
+<div class="line"><span class="lineno">  793</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  794</span> </div>
+<div class="line"><span class="lineno">  795</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> rank = spellInfo-&gt;GetRank();</div>
+<div class="line"><span class="lineno">  796</span>        <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellWithRank(<a class="code hl_enumvalue" href="../../db/d16/spell__paladin_8cpp.html#a0d9fc6ef3866d56692ca47a1a36dc997a025899e97617212364a7bf3174d200de">SPELL_PALADIN_HOLY_SHOCK_R1_DAMAGE</a>, rank, <span class="keyword">true</span>) || !<a class="code hl_define" href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellWithRank(<a class="code hl_enumvalue" href="../../db/d16/spell__paladin_8cpp.html#a0d9fc6ef3866d56692ca47a1a36dc997a102ddef0ca316849f71ab2776c431507">SPELL_PALADIN_HOLY_SHOCK_R1_HEALING</a>, rank, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  797</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  798</span> </div>
+<div class="line"><span class="lineno">  799</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  800</span>    }</div>
+<div class="ttc" id="aclass_spell_info_html"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html">SpellInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:314</div></div>
+<div class="ttc" id="aspell__paladin_8cpp_html_a0d9fc6ef3866d56692ca47a1a36dc997af4bfe8574c1cf0f1c342e05fea2f232a"><div class="ttname"><a href="../../db/d16/spell__paladin_8cpp.html#a0d9fc6ef3866d56692ca47a1a36dc997af4bfe8574c1cf0f1c342e05fea2f232a">SPELL_PALADIN_HOLY_SHOCK_R1</a></div><div class="ttdeci">@ SPELL_PALADIN_HOLY_SHOCK_R1</div><div class="ttdef"><b>Definition:</b> spell_paladin.cpp:38</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../db/d16/spell__paladin_8cpp.html">spell_paladin.cpp</a></li>
+<li><a class="el" href="../../">spell_paladin.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -438,7 +513,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d3a/classspell__pal__holy__shock.html">spell_pal_holy_shock</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:06 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:22 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

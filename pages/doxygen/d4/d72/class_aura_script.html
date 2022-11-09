@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('d4/d72/class_aura_script.html','../../
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">SpellScript.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for AuraScript:</div>
 <div class="dyncontent">
@@ -910,7 +910,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a926652b8b5f116a13674f8b423db706c" name="a926652b8b5f116a13674f8b423db706c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a926652b8b5f116a13674f8b423db706c">&#9670;&#160;</a></span>ScriptStateStack</h2>
 
@@ -956,7 +957,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  678</span>                 : <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a1094c9cbb65098fe0733ff54dce04388">_SpellScript</a>(), <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a3429872992970c72980b9fb97eb3421a">m_auraApplication</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a4aac179d6c9be8fe8aa11e4b2725ba62">m_defaultActionPrevented</a>(<span class="keyword">false</span>)</div>
+<div class="line"><span class="lineno">  679</span>    {}</div>
+<div class="ttc" id="aclass___spell_script_html_a1094c9cbb65098fe0733ff54dce04388"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a1094c9cbb65098fe0733ff54dce04388">_SpellScript::_SpellScript</a></div><div class="ttdeci">_SpellScript()</div><div class="ttdef"><b>Definition:</b> SpellScript.h:63</div></div>
+<div class="ttc" id="aclass_aura_script_html_a3429872992970c72980b9fb97eb3421a"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a3429872992970c72980b9fb97eb3421a">AuraScript::m_auraApplication</a></div><div class="ttdeci">AuraApplication const  * m_auraApplication</div><div class="ttdef"><b>Definition:</b> SpellScript.h:687</div></div>
+<div class="ttc" id="aclass_aura_script_html_a4aac179d6c9be8fe8aa11e4b2725ba62"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a4aac179d6c9be8fe8aa11e4b2725ba62">AuraScript::m_defaultActionPrevented</a></div><div class="ttdeci">bool m_defaultActionPrevented</div><div class="ttdef"><b>Definition:</b> SpellScript.h:688</div></div>
+<div class="ttc" id="aclass_aura_script_html_aa20688e53015abdcd4498b016b544dea"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">AuraScript::m_aura</a></div><div class="ttdeci">Aura * m_aura</div><div class="ttdef"><b>Definition:</b> SpellScript.h:686</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -974,7 +981,16 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  948</span>{</div>
+<div class="line"><span class="lineno">  949</span>    ScriptStateStore stateStore = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ac8f2649c0916c38eb26efd3fbcff5765">m_scriptStates</a>.top();</div>
+<div class="line"><span class="lineno">  950</span>    <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a3f9d5cd0ea4eadbdb6a72f73875c0585">m_currentScriptState</a> = stateStore._currentScriptState;</div>
+<div class="line"><span class="lineno">  951</span>    <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a3429872992970c72980b9fb97eb3421a">m_auraApplication</a> = stateStore._auraApplication;</div>
+<div class="line"><span class="lineno">  952</span>    <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a4aac179d6c9be8fe8aa11e4b2725ba62">m_defaultActionPrevented</a> = stateStore._defaultActionPrevented;</div>
+<div class="line"><span class="lineno">  953</span>    <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ac8f2649c0916c38eb26efd3fbcff5765">m_scriptStates</a>.pop();</div>
+<div class="line"><span class="lineno">  954</span>}</div>
+<div class="ttc" id="aclass___spell_script_html_a3f9d5cd0ea4eadbdb6a72f73875c0585"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a3f9d5cd0ea4eadbdb6a72f73875c0585">_SpellScript::m_currentScriptState</a></div><div class="ttdeci">uint8 m_currentScriptState</div><div class="ttdef"><b>Definition:</b> SpellScript.h:105</div></div>
+<div class="ttc" id="aclass_aura_script_html_ac8f2649c0916c38eb26efd3fbcff5765"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ac8f2649c0916c38eb26efd3fbcff5765">AuraScript::m_scriptStates</a></div><div class="ttdeci">ScriptStateStack m_scriptStates</div><div class="ttdef"><b>Definition:</b> SpellScript.h:701</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa243c674795b036eb0a59c7cda5da5b1" name="aa243c674795b036eb0a59c7cda5da5b1"></a>
@@ -991,7 +1007,33 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  957</span>{</div>
+<div class="line"><span class="lineno">  958</span>    <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a3f9d5cd0ea4eadbdb6a72f73875c0585">m_currentScriptState</a>)</div>
+<div class="line"><span class="lineno">  959</span>    {</div>
+<div class="line"><span class="lineno">  960</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236aa70d783c590006f1a8cbf2b3d144e94c">AURA_SCRIPT_HOOK_EFFECT_APPLY</a>:</div>
+<div class="line"><span class="lineno">  961</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a1794d2594c7b6dfe59a79a48aba6f142">AURA_SCRIPT_HOOK_EFFECT_REMOVE</a>:</div>
+<div class="line"><span class="lineno">  962</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236aaf214dbb6995dfa6ae911fa471484b01">AURA_SCRIPT_HOOK_EFFECT_PERIODIC</a>:</div>
+<div class="line"><span class="lineno">  963</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236ac1dc8a3040268f42f5fbce32d51c71e3">AURA_SCRIPT_HOOK_EFFECT_ABSORB</a>:</div>
+<div class="line"><span class="lineno">  964</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236aca91b48c557565055039bb70ba1fd2eb">AURA_SCRIPT_HOOK_EFFECT_SPLIT</a>:</div>
+<div class="line"><span class="lineno">  965</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a35f3fc9519440c5f846a1cb2789706df">AURA_SCRIPT_HOOK_PREPARE_PROC</a>:</div>
+<div class="line"><span class="lineno">  966</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a7ab83bc59e26f2a76b49c41feebe0726">AURA_SCRIPT_HOOK_PROC</a>:</div>
+<div class="line"><span class="lineno">  967</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236ac81ead411b37d2496c7a9993f339a39d">AURA_SCRIPT_HOOK_EFFECT_PROC</a>:</div>
+<div class="line"><span class="lineno">  968</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a4aac179d6c9be8fe8aa11e4b2725ba62">m_defaultActionPrevented</a>;</div>
+<div class="line"><span class="lineno">  969</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  970</span>            <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<span class="keyword">false</span> &amp;&amp; <span class="stringliteral">&quot;AuraScript::_IsDefaultActionPrevented is called in a wrong place&quot;</span>);</div>
+<div class="line"><span class="lineno">  971</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  972</span>    }</div>
+<div class="line"><span class="lineno">  973</span>}</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236a1794d2594c7b6dfe59a79a48aba6f142"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a1794d2594c7b6dfe59a79a48aba6f142">AURA_SCRIPT_HOOK_EFFECT_REMOVE</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_EFFECT_REMOVE</div><div class="ttdef"><b>Definition:</b> SpellScript.h:485</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236a35f3fc9519440c5f846a1cb2789706df"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a35f3fc9519440c5f846a1cb2789706df">AURA_SCRIPT_HOOK_PREPARE_PROC</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_PREPARE_PROC</div><div class="ttdef"><b>Definition:</b> SpellScript.h:503</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236a7ab83bc59e26f2a76b49c41feebe0726"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a7ab83bc59e26f2a76b49c41feebe0726">AURA_SCRIPT_HOOK_PROC</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_PROC</div><div class="ttdef"><b>Definition:</b> SpellScript.h:504</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236aa70d783c590006f1a8cbf2b3d144e94c"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236aa70d783c590006f1a8cbf2b3d144e94c">AURA_SCRIPT_HOOK_EFFECT_APPLY</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_EFFECT_APPLY</div><div class="ttdef"><b>Definition:</b> SpellScript.h:483</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236aaf214dbb6995dfa6ae911fa471484b01"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236aaf214dbb6995dfa6ae911fa471484b01">AURA_SCRIPT_HOOK_EFFECT_PERIODIC</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_EFFECT_PERIODIC</div><div class="ttdef"><b>Definition:</b> SpellScript.h:487</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236ac1dc8a3040268f42f5fbce32d51c71e3"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236ac1dc8a3040268f42f5fbce32d51c71e3">AURA_SCRIPT_HOOK_EFFECT_ABSORB</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_EFFECT_ABSORB</div><div class="ttdef"><b>Definition:</b> SpellScript.h:492</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236ac81ead411b37d2496c7a9993f339a39d"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236ac81ead411b37d2496c7a9993f339a39d">AURA_SCRIPT_HOOK_EFFECT_PROC</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_EFFECT_PROC</div><div class="ttdef"><b>Definition:</b> SpellScript.h:505</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236aca91b48c557565055039bb70ba1fd2eb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236aca91b48c557565055039bb70ba1fd2eb">AURA_SCRIPT_HOOK_EFFECT_SPLIT</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_EFFECT_SPLIT</div><div class="ttdef"><b>Definition:</b> SpellScript.h:496</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab8d29f3b759d2a05f502518feaed6398" name="ab8d29f3b759d2a05f502518feaed6398"></a>
@@ -1009,7 +1051,19 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  931</span>{</div>
+<div class="line"><span class="lineno">  932</span>    <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a> = aura;</div>
+<div class="line"><span class="lineno">  933</span>    <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a1f9860750c47ab8b3de0d1b947f837db">_PrepareScriptCall</a>((<a class="code hl_enumeration" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236">AuraScriptHookType</a>)<a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a34a30288cb2dc9cf4c558b61eef526ffa10ff698fcd9cd1e8d81871901e427b6b">SPELL_SCRIPT_STATE_LOADING</a>, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">  934</span>    <span class="keywordtype">bool</span> load = <a class="code hl_function" href="../../d7/d13/class___spell_script.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443">Load</a>();</div>
+<div class="line"><span class="lineno">  935</span>    <a class="code hl_function" href="../../d4/d72/class_aura_script.html#aeb118564a21b1c4a16c01463c59f6406">_FinishScriptCall</a>();</div>
+<div class="line"><span class="lineno">  936</span>    <span class="keywordflow">return</span> load;</div>
+<div class="line"><span class="lineno">  937</span>}</div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236">AuraScriptHookType</a></div><div class="ttdeci">AuraScriptHookType</div><div class="ttdef"><b>Definition:</b> SpellScript.h:482</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a34a30288cb2dc9cf4c558b61eef526ffa10ff698fcd9cd1e8d81871901e427b6b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a34a30288cb2dc9cf4c558b61eef526ffa10ff698fcd9cd1e8d81871901e427b6b">SPELL_SCRIPT_STATE_LOADING</a></div><div class="ttdeci">@ SPELL_SCRIPT_STATE_LOADING</div><div class="ttdef"><b>Definition:</b> SpellScript.h:49</div></div>
+<div class="ttc" id="aclass___spell_script_html_ad3b8fb5dd2bc5ca4dd34da5a98a76443"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443">_SpellScript::Load</a></div><div class="ttdeci">virtual bool Load()</div><div class="ttdef"><b>Definition:</b> SpellScript.h:120</div></div>
+<div class="ttc" id="aclass_aura_script_html_a1f9860750c47ab8b3de0d1b947f837db"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a1f9860750c47ab8b3de0d1b947f837db">AuraScript::_PrepareScriptCall</a></div><div class="ttdeci">void _PrepareScriptCall(AuraScriptHookType hookType, AuraApplication const *aurApp=nullptr)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:939</div></div>
+<div class="ttc" id="aclass_aura_script_html_aeb118564a21b1c4a16c01463c59f6406"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#aeb118564a21b1c4a16c01463c59f6406">AuraScript::_FinishScriptCall</a></div><div class="ttdeci">void _FinishScriptCall()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:947</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1f9860750c47ab8b3de0d1b947f837db" name="a1f9860750c47ab8b3de0d1b947f837db"></a>
@@ -1037,7 +1091,13 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  940</span>{</div>
+<div class="line"><span class="lineno">  941</span>    <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ac8f2649c0916c38eb26efd3fbcff5765">m_scriptStates</a>.push(ScriptStateStore(<a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a3f9d5cd0ea4eadbdb6a72f73875c0585">m_currentScriptState</a>, <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a3429872992970c72980b9fb97eb3421a">m_auraApplication</a>, <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a4aac179d6c9be8fe8aa11e4b2725ba62">m_defaultActionPrevented</a>));</div>
+<div class="line"><span class="lineno">  942</span>    <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a3f9d5cd0ea4eadbdb6a72f73875c0585">m_currentScriptState</a> = hookType;</div>
+<div class="line"><span class="lineno">  943</span>    <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a4aac179d6c9be8fe8aa11e4b2725ba62">m_defaultActionPrevented</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  944</span>    <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a3429872992970c72980b9fb97eb3421a">m_auraApplication</a> = aurApp;</div>
+<div class="line"><span class="lineno">  945</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9256947ce172fcf7947390e893c154f6" name="a9256947ce172fcf7947390e893c154f6"></a>
@@ -1065,7 +1125,135 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#af46024e85e0618c84bf72dc61df05673">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  663</span>{</div>
+<div class="line"><span class="lineno">  664</span>    <span class="keywordflow">for</span> (std::list&lt;CheckAreaTargetHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a9afe5ca2d01661fb7fab59aa5d58c405">DoCheckAreaTarget</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a9afe5ca2d01661fb7fab59aa5d58c405">DoCheckAreaTarget</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  665</span>        <span class="keywordflow">if</span> (!entry-&gt;HasAreaAuraEffect() &amp;&amp; !entry-&gt;HasEffect(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97aa3290e738b6cd09859039989143f9ac1">SPELL_EFFECT_PERSISTENT_AREA_AURA</a>))</div>
+<div class="line"><span class="lineno">  666</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` of script `{}` does not have area aura effect - handler bound to hook `DoCheckAreaTarget` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  667</span> </div>
+<div class="line"><span class="lineno">  668</span>    <span class="keywordflow">for</span> (std::list&lt;AuraDispelHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aaec2f0ceeeab30bc149ee5313abf1110">OnDispel</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aaec2f0ceeeab30bc149ee5313abf1110">OnDispel</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  669</span>        <span class="keywordflow">if</span> (!entry-&gt;HasEffect(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97af737ae1ce32d016e21279dfed355d63d">SPELL_EFFECT_APPLY_AURA</a>) &amp;&amp; !entry-&gt;HasAreaAuraEffect())</div>
+<div class="line"><span class="lineno">  670</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` of script `{}` does not have apply aura effect - handler bound to hook `OnDispel` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  671</span> </div>
+<div class="line"><span class="lineno">  672</span>    <span class="keywordflow">for</span> (std::list&lt;AuraDispelHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#abbfd3de68cd278d4dcc99e0a5f5b4822">AfterDispel</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#abbfd3de68cd278d4dcc99e0a5f5b4822">AfterDispel</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  673</span>        <span class="keywordflow">if</span> (!entry-&gt;HasEffect(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97af737ae1ce32d016e21279dfed355d63d">SPELL_EFFECT_APPLY_AURA</a>) &amp;&amp; !entry-&gt;HasAreaAuraEffect())</div>
+<div class="line"><span class="lineno">  674</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` of script `{}` does not have apply aura effect - handler bound to hook `AfterDispel` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  675</span> </div>
+<div class="line"><span class="lineno">  676</span>    <span class="keywordflow">for</span> (std::list&lt;EffectApplyHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#af325738f50fb9df450999e5e04ea65ed">OnEffectApply</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#af325738f50fb9df450999e5e04ea65ed">OnEffectApply</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  677</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  678</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `OnEffectApply` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  679</span> </div>
+<div class="line"><span class="lineno">  680</span>    <span class="keywordflow">for</span> (std::list&lt;EffectApplyHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab9127bc3610a6a30fa9bbf22f7339bcc">OnEffectRemove</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab9127bc3610a6a30fa9bbf22f7339bcc">OnEffectRemove</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  681</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  682</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `OnEffectRemove` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  683</span> </div>
+<div class="line"><span class="lineno">  684</span>    <span class="keywordflow">for</span> (std::list&lt;EffectApplyHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a509262d9721d83783e19142eee1645df">AfterEffectApply</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a509262d9721d83783e19142eee1645df">AfterEffectApply</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  685</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  686</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `AfterEffectApply` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  687</span> </div>
+<div class="line"><span class="lineno">  688</span>    <span class="keywordflow">for</span> (std::list&lt;EffectApplyHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AfterEffectRemove</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AfterEffectRemove</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  689</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  690</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `AfterEffectRemove` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  691</span> </div>
+<div class="line"><span class="lineno">  692</span>    <span class="keywordflow">for</span> (std::list&lt;EffectPeriodicHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  693</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  694</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `OnEffectPeriodic` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  695</span> </div>
+<div class="line"><span class="lineno">  696</span>    <span class="keywordflow">for</span> (std::list&lt;EffectUpdatePeriodicHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a6baf2932d6e9170f5dc3aa969e6f0396">OnEffectUpdatePeriodic</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a6baf2932d6e9170f5dc3aa969e6f0396">OnEffectUpdatePeriodic</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  697</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  698</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `OnEffectUpdatePeriodic` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  699</span> </div>
+<div class="line"><span class="lineno">  700</span>    <span class="keywordflow">for</span> (std::list&lt;EffectCalcAmountHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a5b3cca86dbe3a8e042a0517a2621acf2">DoEffectCalcAmount</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a5b3cca86dbe3a8e042a0517a2621acf2">DoEffectCalcAmount</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  701</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  702</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `DoEffectCalcAmount` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  703</span> </div>
+<div class="line"><span class="lineno">  704</span>    <span class="keywordflow">for</span> (std::list&lt;EffectCalcPeriodicHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a266a051650b446c525aa6c16a256e464">DoEffectCalcPeriodic</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a266a051650b446c525aa6c16a256e464">DoEffectCalcPeriodic</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  705</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  706</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `DoEffectCalcPeriodic` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  707</span> </div>
+<div class="line"><span class="lineno">  708</span>    <span class="keywordflow">for</span> (std::list&lt;EffectCalcSpellModHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a6dc45e5ec317cf955e089bf5f9d4b354">DoEffectCalcSpellMod</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a6dc45e5ec317cf955e089bf5f9d4b354">DoEffectCalcSpellMod</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  709</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  710</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `DoEffectCalcSpellMod` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  711</span> </div>
+<div class="line"><span class="lineno">  712</span>    <span class="keywordflow">for</span> (std::list&lt;EffectAbsorbHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a909387711ea2be188172d2f72391e2cf">OnEffectAbsorb</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a909387711ea2be188172d2f72391e2cf">OnEffectAbsorb</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  713</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  714</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `OnEffectAbsorb` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  715</span> </div>
+<div class="line"><span class="lineno">  716</span>    <span class="keywordflow">for</span> (std::list&lt;EffectAbsorbHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a5af04c13248e2f458447c3609ec2c097">AfterEffectAbsorb</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a5af04c13248e2f458447c3609ec2c097">AfterEffectAbsorb</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  717</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  718</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `AfterEffectAbsorb` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  719</span> </div>
+<div class="line"><span class="lineno">  720</span>    <span class="keywordflow">for</span> (std::list&lt;EffectManaShieldHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a7c1f27274e6bca07fd844372dd145360">OnEffectManaShield</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a7c1f27274e6bca07fd844372dd145360">OnEffectManaShield</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  721</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  722</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `OnEffectManaShield` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  723</span> </div>
+<div class="line"><span class="lineno">  724</span>    <span class="keywordflow">for</span> (std::list&lt;EffectManaShieldHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a0a966375b8d732b9da55a8ba457b1045">AfterEffectManaShield</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a0a966375b8d732b9da55a8ba457b1045">AfterEffectManaShield</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  725</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  726</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `AfterEffectManaShield` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  727</span> </div>
+<div class="line"><span class="lineno">  728</span>    <span class="keywordflow">for</span> (std::list&lt;EffectSplitHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ae87bcded7283b33d67460d4419beaf70">OnEffectSplit</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ae87bcded7283b33d67460d4419beaf70">OnEffectSplit</a>.end();  ++itr)</div>
+<div class="line"><span class="lineno">  729</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  730</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `OnEffectSplit` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  731</span> </div>
+<div class="line"><span class="lineno">  732</span>    <span class="keywordflow">for</span> (std::list&lt;CheckProcHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">DoCheckProc</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">DoCheckProc</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  733</span>        <span class="keywordflow">if</span> (!entry-&gt;HasEffect(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97af737ae1ce32d016e21279dfed355d63d">SPELL_EFFECT_APPLY_AURA</a>) &amp;&amp; !entry-&gt;HasAreaAuraEffect())</div>
+<div class="line"><span class="lineno">  734</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` of script `{}` does not have apply aura effect - handler bound to hook `DoCheckProc` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  735</span> </div>
+<div class="line"><span class="lineno">  736</span>    <span class="keywordflow">for</span> (std::list&lt;CheckProcHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ae5df87e8db15dce5ef25ca9920257672">DoCheckAfterProc</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ae5df87e8db15dce5ef25ca9920257672">DoCheckAfterProc</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  737</span>        <span class="keywordflow">if</span> (!entry-&gt;HasEffect(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97af737ae1ce32d016e21279dfed355d63d">SPELL_EFFECT_APPLY_AURA</a>) &amp;&amp; !entry-&gt;HasAreaAuraEffect())</div>
+<div class="line"><span class="lineno">  738</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` of script `{}` does not have apply aura effect - handler bound to hook `DoCheckAfterProc` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  739</span> </div>
+<div class="line"><span class="lineno">  740</span>    <span class="keywordflow">for</span> (std::list&lt;AuraProcHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ae173467579cfbc1584fd0489c1f14c75">DoPrepareProc</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ae173467579cfbc1584fd0489c1f14c75">DoPrepareProc</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  741</span>        <span class="keywordflow">if</span> (!entry-&gt;HasEffect(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97af737ae1ce32d016e21279dfed355d63d">SPELL_EFFECT_APPLY_AURA</a>) &amp;&amp; !entry-&gt;HasAreaAuraEffect())</div>
+<div class="line"><span class="lineno">  742</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` of script `{}` does not have apply aura effect - handler bound to hook `DoPrepareProc` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  743</span> </div>
+<div class="line"><span class="lineno">  744</span>    <span class="keywordflow">for</span> (std::list&lt;AuraProcHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ae83ae85373b045e22b5c20ec574f701b">OnProc</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ae83ae85373b045e22b5c20ec574f701b">OnProc</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  745</span>        <span class="keywordflow">if</span> (!entry-&gt;HasEffect(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97af737ae1ce32d016e21279dfed355d63d">SPELL_EFFECT_APPLY_AURA</a>) &amp;&amp; !entry-&gt;HasAreaAuraEffect())</div>
+<div class="line"><span class="lineno">  746</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` of script `{}` does not have apply aura effect - handler bound to hook `OnProc` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  747</span> </div>
+<div class="line"><span class="lineno">  748</span>    <span class="keywordflow">for</span> (std::list&lt;AuraProcHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aaa931897d7190dbc2a1e780d9ea87a2b">AfterProc</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aaa931897d7190dbc2a1e780d9ea87a2b">AfterProc</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  749</span>        <span class="keywordflow">if</span> (!entry-&gt;HasEffect(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97af737ae1ce32d016e21279dfed355d63d">SPELL_EFFECT_APPLY_AURA</a>) &amp;&amp; !entry-&gt;HasAreaAuraEffect())</div>
+<div class="line"><span class="lineno">  750</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` of script `{}` does not have apply aura effect - handler bound to hook `AfterProc` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  751</span> </div>
+<div class="line"><span class="lineno">  752</span>    <span class="keywordflow">for</span> (std::list&lt;EffectProcHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ae01a6d3f559913b72bd67a145c668457">OnEffectProc</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ae01a6d3f559913b72bd67a145c668457">OnEffectProc</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  753</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  754</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `OnEffectProc` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  755</span> </div>
+<div class="line"><span class="lineno">  756</span>    <span class="keywordflow">for</span> (std::list&lt;EffectProcHandler&gt;::iterator itr = <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a537a64e3d248f230b6e3aab384261918">AfterEffectProc</a>.begin(); itr != <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a537a64e3d248f230b6e3aab384261918">AfterEffectProc</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  757</span>        <span class="keywordflow">if</span> (!(*itr).GetAffectedEffectsMask(entry))</div>
+<div class="line"><span class="lineno">  758</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Spell `{}` Effect `{}` of script `{}` did not match dbc effect data - handler bound to hook `AfterEffectProc` of AuraScript won&#39;t be executed&quot;</span>, entry-&gt;Id, (*itr).ToString(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str());</div>
+<div class="line"><span class="lineno">  759</span> </div>
+<div class="line"><span class="lineno">  760</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#af46024e85e0618c84bf72dc61df05673">_SpellScript::_Validate</a>(entry);</div>
+<div class="line"><span class="lineno">  761</span>}</div>
+<div class="ttc" id="a_log_8h_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97aa3290e738b6cd09859039989143f9ac1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97aa3290e738b6cd09859039989143f9ac1">SPELL_EFFECT_PERSISTENT_AREA_AURA</a></div><div class="ttdeci">@ SPELL_EFFECT_PERSISTENT_AREA_AURA</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:777</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97af737ae1ce32d016e21279dfed355d63d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97af737ae1ce32d016e21279dfed355d63d">SPELL_EFFECT_APPLY_AURA</a></div><div class="ttdeci">@ SPELL_EFFECT_APPLY_AURA</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:756</div></div>
+<div class="ttc" id="aclass___spell_script_html_a38bdb79ae6d11489dd6007485c1510de"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">_SpellScript::m_scriptName</a></div><div class="ttdeci">std::string const  * m_scriptName</div><div class="ttdef"><b>Definition:</b> SpellScript.h:106</div></div>
+<div class="ttc" id="aclass___spell_script_html_af46024e85e0618c84bf72dc61df05673"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#af46024e85e0618c84bf72dc61df05673">_SpellScript::_Validate</a></div><div class="ttdeci">virtual bool _Validate(SpellInfo const *entry)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:24</div></div>
+<div class="ttc" id="aclass_aura_script_html_a0a966375b8d732b9da55a8ba457b1045"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a0a966375b8d732b9da55a8ba457b1045">AuraScript::AfterEffectManaShield</a></div><div class="ttdeci">HookList&lt; EffectManaShieldHandler &gt; AfterEffectManaShield</div><div class="ttdef"><b>Definition:</b> SpellScript.h:796</div></div>
+<div class="ttc" id="aclass_aura_script_html_a266a051650b446c525aa6c16a256e464"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a266a051650b446c525aa6c16a256e464">AuraScript::DoEffectCalcPeriodic</a></div><div class="ttdeci">HookList&lt; EffectCalcPeriodicHandler &gt; DoEffectCalcPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:767</div></div>
+<div class="ttc" id="aclass_aura_script_html_a2bfb775dfbe8cfc3cff876469c78ddcf"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AuraScript::AfterEffectRemove</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; AfterEffectRemove</div><div class="ttdef"><b>Definition:</b> SpellScript.h:743</div></div>
+<div class="ttc" id="aclass_aura_script_html_a491e7fc0a1acd202b60fa1aed79a9377"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">AuraScript::OnEffectPeriodic</a></div><div class="ttdeci">HookList&lt; EffectPeriodicHandler &gt; OnEffectPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:749</div></div>
+<div class="ttc" id="aclass_aura_script_html_a509262d9721d83783e19142eee1645df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a509262d9721d83783e19142eee1645df">AuraScript::AfterEffectApply</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; AfterEffectApply</div><div class="ttdef"><b>Definition:</b> SpellScript.h:732</div></div>
+<div class="ttc" id="aclass_aura_script_html_a537a64e3d248f230b6e3aab384261918"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a537a64e3d248f230b6e3aab384261918">AuraScript::AfterEffectProc</a></div><div class="ttdeci">HookList&lt; EffectProcHandler &gt; AfterEffectProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:835</div></div>
+<div class="ttc" id="aclass_aura_script_html_a5af04c13248e2f458447c3609ec2c097"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a5af04c13248e2f458447c3609ec2c097">AuraScript::AfterEffectAbsorb</a></div><div class="ttdeci">HookList&lt; EffectAbsorbHandler &gt; AfterEffectAbsorb</div><div class="ttdef"><b>Definition:</b> SpellScript.h:785</div></div>
+<div class="ttc" id="aclass_aura_script_html_a5b3cca86dbe3a8e042a0517a2621acf2"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a5b3cca86dbe3a8e042a0517a2621acf2">AuraScript::DoEffectCalcAmount</a></div><div class="ttdeci">HookList&lt; EffectCalcAmountHandler &gt; DoEffectCalcAmount</div><div class="ttdef"><b>Definition:</b> SpellScript.h:761</div></div>
+<div class="ttc" id="aclass_aura_script_html_a6baf2932d6e9170f5dc3aa969e6f0396"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a6baf2932d6e9170f5dc3aa969e6f0396">AuraScript::OnEffectUpdatePeriodic</a></div><div class="ttdeci">HookList&lt; EffectUpdatePeriodicHandler &gt; OnEffectUpdatePeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:755</div></div>
+<div class="ttc" id="aclass_aura_script_html_a6dc45e5ec317cf955e089bf5f9d4b354"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a6dc45e5ec317cf955e089bf5f9d4b354">AuraScript::DoEffectCalcSpellMod</a></div><div class="ttdeci">HookList&lt; EffectCalcSpellModHandler &gt; DoEffectCalcSpellMod</div><div class="ttdef"><b>Definition:</b> SpellScript.h:773</div></div>
+<div class="ttc" id="aclass_aura_script_html_a7c1f27274e6bca07fd844372dd145360"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a7c1f27274e6bca07fd844372dd145360">AuraScript::OnEffectManaShield</a></div><div class="ttdeci">HookList&lt; EffectManaShieldHandler &gt; OnEffectManaShield</div><div class="ttdef"><b>Definition:</b> SpellScript.h:790</div></div>
+<div class="ttc" id="aclass_aura_script_html_a909387711ea2be188172d2f72391e2cf"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a909387711ea2be188172d2f72391e2cf">AuraScript::OnEffectAbsorb</a></div><div class="ttdeci">HookList&lt; EffectAbsorbHandler &gt; OnEffectAbsorb</div><div class="ttdef"><b>Definition:</b> SpellScript.h:779</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9afe5ca2d01661fb7fab59aa5d58c405"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9afe5ca2d01661fb7fab59aa5d58c405">AuraScript::DoCheckAreaTarget</a></div><div class="ttdeci">HookList&lt; CheckAreaTargetHandler &gt; DoCheckAreaTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:711</div></div>
+<div class="ttc" id="aclass_aura_script_html_aaa931897d7190dbc2a1e780d9ea87a2b"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#aaa931897d7190dbc2a1e780d9ea87a2b">AuraScript::AfterProc</a></div><div class="ttdeci">HookList&lt; AuraProcHandler &gt; AfterProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:825</div></div>
+<div class="ttc" id="aclass_aura_script_html_aaec2f0ceeeab30bc149ee5313abf1110"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#aaec2f0ceeeab30bc149ee5313abf1110">AuraScript::OnDispel</a></div><div class="ttdeci">HookList&lt; AuraDispelHandler &gt; OnDispel</div><div class="ttdef"><b>Definition:</b> SpellScript.h:717</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab771dd972497502e5202fd48a1d6c17d"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">AuraScript::DoCheckProc</a></div><div class="ttdeci">HookList&lt; CheckProcHandler &gt; DoCheckProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:807</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab9127bc3610a6a30fa9bbf22f7339bcc"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab9127bc3610a6a30fa9bbf22f7339bcc">AuraScript::OnEffectRemove</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; OnEffectRemove</div><div class="ttdef"><b>Definition:</b> SpellScript.h:739</div></div>
+<div class="ttc" id="aclass_aura_script_html_abbfd3de68cd278d4dcc99e0a5f5b4822"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#abbfd3de68cd278d4dcc99e0a5f5b4822">AuraScript::AfterDispel</a></div><div class="ttdeci">HookList&lt; AuraDispelHandler &gt; AfterDispel</div><div class="ttdef"><b>Definition:</b> SpellScript.h:721</div></div>
+<div class="ttc" id="aclass_aura_script_html_ae01a6d3f559913b72bd67a145c668457"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ae01a6d3f559913b72bd67a145c668457">AuraScript::OnEffectProc</a></div><div class="ttdeci">HookList&lt; EffectProcHandler &gt; OnEffectProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:831</div></div>
+<div class="ttc" id="aclass_aura_script_html_ae173467579cfbc1584fd0489c1f14c75"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ae173467579cfbc1584fd0489c1f14c75">AuraScript::DoPrepareProc</a></div><div class="ttdeci">HookList&lt; AuraProcHandler &gt; DoPrepareProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:817</div></div>
+<div class="ttc" id="aclass_aura_script_html_ae5df87e8db15dce5ef25ca9920257672"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ae5df87e8db15dce5ef25ca9920257672">AuraScript::DoCheckAfterProc</a></div><div class="ttdeci">HookList&lt; CheckProcHandler &gt; DoCheckAfterProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:811</div></div>
+<div class="ttc" id="aclass_aura_script_html_ae83ae85373b045e22b5c20ec574f701b"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ae83ae85373b045e22b5c20ec574f701b">AuraScript::OnProc</a></div><div class="ttdeci">HookList&lt; AuraProcHandler &gt; OnProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:821</div></div>
+<div class="ttc" id="aclass_aura_script_html_ae87bcded7283b33d67460d4419beaf70"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ae87bcded7283b33d67460d4419beaf70">AuraScript::OnEffectSplit</a></div><div class="ttdeci">HookList&lt; EffectSplitHandler &gt; OnEffectSplit</div><div class="ttdef"><b>Definition:</b> SpellScript.h:801</div></div>
+<div class="ttc" id="aclass_aura_script_html_af325738f50fb9df450999e5e04ea65ed"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#af325738f50fb9df450999e5e04ea65ed">AuraScript::OnEffectApply</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; OnEffectApply</div><div class="ttdef"><b>Definition:</b> SpellScript.h:728</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4e5ac5af07b755490bed3aed69fdc766" name="a4e5ac5af07b755490bed3aed69fdc766"></a>
@@ -1082,7 +1270,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1101</span>{</div>
+<div class="line"><span class="lineno"> 1102</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a744d6c3e73a644a84d5f49863c1bca53">CalcMaxCharges</a>();</div>
+<div class="line"><span class="lineno"> 1103</span>}</div>
+<div class="ttc" id="aclass_aura_html_a744d6c3e73a644a84d5f49863c1bca53"><div class="ttname"><a href="../../d2/dde/class_aura.html#a744d6c3e73a644a84d5f49863c1bca53">Aura::CalcMaxCharges</a></div><div class="ttdeci">uint8 CalcMaxCharges(Unit *caster) const</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:975</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac9cec41d91e99fa7676cf8aada4de850" name="ac9cec41d91e99fa7676cf8aada4de850"></a>
@@ -1099,7 +1291,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1076</span>{</div>
+<div class="line"><span class="lineno"> 1077</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a97f212bb7332fdf03fccafe5389c1e0a">CalcMaxDuration</a>();</div>
+<div class="line"><span class="lineno"> 1078</span>}</div>
+<div class="ttc" id="aclass_aura_html_a97f212bb7332fdf03fccafe5389c1e0a"><div class="ttname"><a href="../../d2/dde/class_aura.html#a97f212bb7332fdf03fccafe5389c1e0a">Aura::CalcMaxDuration</a></div><div class="ttdeci">int32 CalcMaxDuration() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:131</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7392ed795eff307a1c5d57fcad9136eb" name="a7392ed795eff307a1c5d57fcad9136eb"></a>
@@ -1117,7 +1313,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1111</span>{</div>
+<div class="line"><span class="lineno"> 1112</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#af9803e108cc68b115fec9043b03f1118">DropCharge</a>(removeMode);</div>
+<div class="line"><span class="lineno"> 1113</span>}</div>
+<div class="ttc" id="aclass_aura_html_af9803e108cc68b115fec9043b03f1118"><div class="ttname"><a href="../../d2/dde/class_aura.html#af9803e108cc68b115fec9043b03f1118">Aura::DropCharge</a></div><div class="ttdeci">bool DropCharge(AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:146</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a59209736d336b3fdfb6f52a5d0e4b426" name="a59209736d336b3fdfb6f52a5d0e4b426"></a>
@@ -1134,7 +1334,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1061</span>{</div>
+<div class="line"><span class="lineno"> 1062</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#ae88253dbdddede64cf443796dc155852">GetApplyTime</a>();</div>
+<div class="line"><span class="lineno"> 1063</span>}</div>
+<div class="ttc" id="aclass_aura_html_ae88253dbdddede64cf443796dc155852"><div class="ttname"><a href="../../d2/dde/class_aura.html#ae88253dbdddede64cf443796dc155852">Aura::GetApplyTime</a></div><div class="ttdeci">time_t GetApplyTime() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:128</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a99cbee6d75732fbd9aa54d2d9679986f" name="a99cbee6d75732fbd9aa54d2d9679986f"></a>
@@ -1151,7 +1355,10 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1036</span>{</div>
+<div class="line"><span class="lineno"> 1037</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>;</div>
+<div class="line"><span class="lineno"> 1038</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a67261dcb8b5f6089bdc1a906c91d61df" name="a67261dcb8b5f6089bdc1a906c91d61df"></a>
@@ -1168,7 +1375,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1011</span>{</div>
+<div class="line"><span class="lineno"> 1012</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a6fc52109b7711606f15d9880fda8f815">GetCaster</a>();</div>
+<div class="line"><span class="lineno"> 1013</span>}</div>
+<div class="ttc" id="aclass_aura_html_a6fc52109b7711606f15d9880fda8f815"><div class="ttname"><a href="../../d2/dde/class_aura.html#a6fc52109b7711606f15d9880fda8f815">Aura::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:471</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9bb1cb08922b17a40a33fd6d8e8e3067" name="a9bb1cb08922b17a40a33fd6d8e8e3067"></a>
@@ -1185,7 +1396,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1006</span>{</div>
+<div class="line"><span class="lineno"> 1007</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a3c4dfe75dad16fbf2afaf23ce77e4262">GetCasterGUID</a>();</div>
+<div class="line"><span class="lineno"> 1008</span>}</div>
+<div class="ttc" id="aclass_aura_html_a3c4dfe75dad16fbf2afaf23ce77e4262"><div class="ttname"><a href="../../d2/dde/class_aura.html#a3c4dfe75dad16fbf2afaf23ce77e4262">Aura::GetCasterGUID</a></div><div class="ttdeci">ObjectGuid GetCasterGUID() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:105</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ada83b4f362ece508ff191b02999524b9" name="ada83b4f362ece508ff191b02999524b9"></a>
@@ -1202,7 +1417,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1091</span>{</div>
+<div class="line"><span class="lineno"> 1092</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#ab07705be94c0c10fce558c80d7208e0b">GetCharges</a>();</div>
+<div class="line"><span class="lineno"> 1093</span>}</div>
+<div class="ttc" id="aclass_aura_html_ab07705be94c0c10fce558c80d7208e0b"><div class="ttname"><a href="../../d2/dde/class_aura.html#ab07705be94c0c10fce558c80d7208e0b">Aura::GetCharges</a></div><div class="ttdeci">uint8 GetCharges() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:141</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2b5a29909fe800f007606045de187409" name="a2b5a29909fe800f007606045de187409"></a>
@@ -1219,7 +1438,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1046</span>{</div>
+<div class="line"><span class="lineno"> 1047</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a5e79eaa33b5f9ae5aaa44a62d096d6fe">GetDuration</a>();</div>
+<div class="line"><span class="lineno"> 1048</span>}</div>
+<div class="ttc" id="aclass_aura_html_a5e79eaa33b5f9ae5aaa44a62d096d6fe"><div class="ttname"><a href="../../d2/dde/class_aura.html#a5e79eaa33b5f9ae5aaa44a62d096d6fe">Aura::GetDuration</a></div><div class="ttdeci">int32 GetDuration() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:133</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af52d622ce5d3865fb02e0ecbb2a872ea" name="af52d622ce5d3865fb02e0ecbb2a872ea"></a>
@@ -1236,7 +1459,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1026</span>{</div>
+<div class="line"><span class="lineno"> 1027</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>();</div>
+<div class="line"><span class="lineno"> 1028</span>}</div>
+<div class="ttc" id="aclass_aura_html_a34626ddba98ab48275cfa6be44ed8390"><div class="ttname"><a href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">Aura::GetDynobjOwner</a></div><div class="ttdeci">DynamicObject * GetDynobjOwner() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:109</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a80b4589d9fb316ef3e53ffdc811738b4" name="a80b4589d9fb316ef3e53ffdc811738b4"></a>
@@ -1254,7 +1481,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1146</span>{</div>
+<div class="line"><span class="lineno"> 1147</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a6ee04786fcd54da7e3e2b7a0277adeb8">GetEffect</a>(effIndex);</div>
+<div class="line"><span class="lineno"> 1148</span>}</div>
+<div class="ttc" id="aclass_aura_html_a6ee04786fcd54da7e3e2b7a0277adeb8"><div class="ttname"><a href="../../d2/dde/class_aura.html#a6ee04786fcd54da7e3e2b7a0277adeb8">Aura::GetEffect</a></div><div class="ttdeci">AuraEffect * GetEffect(uint8 effIndex) const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:175</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afca894c30f544ccf512e0966eb7e10ce" name="afca894c30f544ccf512e0966eb7e10ce"></a>
@@ -1271,7 +1502,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1001</span>{</div>
+<div class="line"><span class="lineno"> 1002</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a54447127bfb738f6722d3f6feddfc168">GetId</a>();</div>
+<div class="line"><span class="lineno"> 1003</span>}</div>
+<div class="ttc" id="aclass_aura_html_a54447127bfb738f6722d3f6feddfc168"><div class="ttname"><a href="../../d2/dde/class_aura.html#a54447127bfb738f6722d3f6feddfc168">Aura::GetId</a></div><div class="ttdeci">uint32 GetId() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:466</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a54240ef7a7f2394f3e64c84bdc7ed61b" name="a54240ef7a7f2394f3e64c84bdc7ed61b"></a>
@@ -1288,7 +1523,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1066</span>{</div>
+<div class="line"><span class="lineno"> 1067</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a14457cfa6d589b8024bbeeb1d4aa03d3">GetMaxDuration</a>();</div>
+<div class="line"><span class="lineno"> 1068</span>}</div>
+<div class="ttc" id="aclass_aura_html_a14457cfa6d589b8024bbeeb1d4aa03d3"><div class="ttname"><a href="../../d2/dde/class_aura.html#a14457cfa6d589b8024bbeeb1d4aa03d3">Aura::GetMaxDuration</a></div><div class="ttdeci">int32 GetMaxDuration() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:129</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4e53f9ab5182bab19267607e4d33c5d7" name="a4e53f9ab5182bab19267607e4d33c5d7"></a>
@@ -1305,7 +1544,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1016</span>{</div>
+<div class="line"><span class="lineno"> 1017</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a5041a8d07612a0ddf3bc2b944e14c9ad">GetOwner</a>();</div>
+<div class="line"><span class="lineno"> 1018</span>}</div>
+<div class="ttc" id="aclass_aura_html_a5041a8d07612a0ddf3bc2b944e14c9ad"><div class="ttname"><a href="../../d2/dde/class_aura.html#a5041a8d07612a0ddf3bc2b944e14c9ad">Aura::GetOwner</a></div><div class="ttdeci">WorldObject * GetOwner() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:107</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4bb3068ac63e4645787fac6ff0085662" name="a4bb3068ac63e4645787fac6ff0085662"></a>
@@ -1322,7 +1565,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  996</span>{</div>
+<div class="line"><span class="lineno">  997</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#ab4abe60bbc09777bab95a0a0ec66af25">GetSpellInfo</a>();</div>
+<div class="line"><span class="lineno">  998</span>}</div>
+<div class="ttc" id="aclass_aura_html_ab4abe60bbc09777bab95a0a0ec66af25"><div class="ttname"><a href="../../d2/dde/class_aura.html#ab4abe60bbc09777bab95a0a0ec66af25">Aura::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:100</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aeec67792a625ebfcd9c5f3e431d5da32" name="aeec67792a625ebfcd9c5f3e431d5da32"></a>
@@ -1339,7 +1586,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1116</span>{</div>
+<div class="line"><span class="lineno"> 1117</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#aae0b7e0da61a681e67a19b6d23c2cee6">GetStackAmount</a>();</div>
+<div class="line"><span class="lineno"> 1118</span>}</div>
+<div class="ttc" id="aclass_aura_html_aae0b7e0da61a681e67a19b6d23c2cee6"><div class="ttname"><a href="../../d2/dde/class_aura.html#aae0b7e0da61a681e67a19b6d23c2cee6">Aura::GetStackAmount</a></div><div class="ttdeci">uint8 GetStackAmount() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:148</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9b2ee1254bdbef7f6ee93f6fae6eb912" name="a9b2ee1254bdbef7f6ee93f6fae6eb912"></a>
@@ -1356,7 +1607,45 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1156</span>{</div>
+<div class="line"><span class="lineno"> 1157</span>    <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a3f9d5cd0ea4eadbdb6a72f73875c0585">m_currentScriptState</a>)</div>
+<div class="line"><span class="lineno"> 1158</span>    {</div>
+<div class="line"><span class="lineno"> 1159</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236aa70d783c590006f1a8cbf2b3d144e94c">AURA_SCRIPT_HOOK_EFFECT_APPLY</a>:</div>
+<div class="line"><span class="lineno"> 1160</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a1794d2594c7b6dfe59a79a48aba6f142">AURA_SCRIPT_HOOK_EFFECT_REMOVE</a>:</div>
+<div class="line"><span class="lineno"> 1161</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a3d296fe0adb2f6f3c0ae690ef48e0626">AURA_SCRIPT_HOOK_EFFECT_AFTER_APPLY</a>:</div>
+<div class="line"><span class="lineno"> 1162</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a419d135d3d232ceabcb89fba6b5cc2b1">AURA_SCRIPT_HOOK_EFFECT_AFTER_REMOVE</a>:</div>
+<div class="line"><span class="lineno"> 1163</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236aaf214dbb6995dfa6ae911fa471484b01">AURA_SCRIPT_HOOK_EFFECT_PERIODIC</a>:</div>
+<div class="line"><span class="lineno"> 1164</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236ac1dc8a3040268f42f5fbce32d51c71e3">AURA_SCRIPT_HOOK_EFFECT_ABSORB</a>:</div>
+<div class="line"><span class="lineno"> 1165</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a9bab1f8dcc1dccde2a98e7f492c9d5a9">AURA_SCRIPT_HOOK_EFFECT_AFTER_ABSORB</a>:</div>
+<div class="line"><span class="lineno"> 1166</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a67050daee69746f58a49b0f131a4a4de">AURA_SCRIPT_HOOK_EFFECT_MANASHIELD</a>:</div>
+<div class="line"><span class="lineno"> 1167</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a2ef312bd29f036eb8b15fedd4d2bc082">AURA_SCRIPT_HOOK_EFFECT_AFTER_MANASHIELD</a>:</div>
+<div class="line"><span class="lineno"> 1168</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236aca91b48c557565055039bb70ba1fd2eb">AURA_SCRIPT_HOOK_EFFECT_SPLIT</a>:</div>
+<div class="line"><span class="lineno"> 1169</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236add4f24c7c71aa1892b4f7aa25f162420">AURA_SCRIPT_HOOK_CHECK_PROC</a>:</div>
+<div class="line"><span class="lineno"> 1170</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a0542ae03b0c1c1158b48220dcb9a5c13">AURA_SCRIPT_HOOK_CHECK_AFTER_PROC</a>:</div>
+<div class="line"><span class="lineno"> 1171</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a35f3fc9519440c5f846a1cb2789706df">AURA_SCRIPT_HOOK_PREPARE_PROC</a>:</div>
+<div class="line"><span class="lineno"> 1172</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a7ab83bc59e26f2a76b49c41feebe0726">AURA_SCRIPT_HOOK_PROC</a>:</div>
+<div class="line"><span class="lineno"> 1173</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a4bfd62ef873930a2ed1f6da09b85296d">AURA_SCRIPT_HOOK_AFTER_PROC</a>:</div>
+<div class="line"><span class="lineno"> 1174</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236ac81ead411b37d2496c7a9993f339a39d">AURA_SCRIPT_HOOK_EFFECT_PROC</a>:</div>
+<div class="line"><span class="lineno"> 1175</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236ab303f97a56ee2f3d7ecd4e7a7950236c">AURA_SCRIPT_HOOK_EFFECT_AFTER_PROC</a>:</div>
+<div class="line"><span class="lineno"> 1176</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a3429872992970c72980b9fb97eb3421a">m_auraApplication</a>-&gt;<a class="code hl_function" href="../../d8/da3/class_aura_application.html#a0447441f89446b170d751abbdda541b8">GetTarget</a>();</div>
+<div class="line"><span class="lineno"> 1177</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1178</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Script: `{}` Spell: `{}` AuraScript::GetTarget called in a hook in which the call won&#39;t have effect!&quot;</span>, <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a>);</div>
+<div class="line"><span class="lineno"> 1179</span>    }</div>
+<div class="line"><span class="lineno"> 1180</span> </div>
+<div class="line"><span class="lineno"> 1181</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno"> 1182</span>}</div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236a0542ae03b0c1c1158b48220dcb9a5c13"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a0542ae03b0c1c1158b48220dcb9a5c13">AURA_SCRIPT_HOOK_CHECK_AFTER_PROC</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_CHECK_AFTER_PROC</div><div class="ttdef"><b>Definition:</b> SpellScript.h:502</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236a2ef312bd29f036eb8b15fedd4d2bc082"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a2ef312bd29f036eb8b15fedd4d2bc082">AURA_SCRIPT_HOOK_EFFECT_AFTER_MANASHIELD</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_EFFECT_AFTER_MANASHIELD</div><div class="ttdef"><b>Definition:</b> SpellScript.h:495</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236a3d296fe0adb2f6f3c0ae690ef48e0626"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a3d296fe0adb2f6f3c0ae690ef48e0626">AURA_SCRIPT_HOOK_EFFECT_AFTER_APPLY</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_EFFECT_AFTER_APPLY</div><div class="ttdef"><b>Definition:</b> SpellScript.h:484</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236a419d135d3d232ceabcb89fba6b5cc2b1"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a419d135d3d232ceabcb89fba6b5cc2b1">AURA_SCRIPT_HOOK_EFFECT_AFTER_REMOVE</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_EFFECT_AFTER_REMOVE</div><div class="ttdef"><b>Definition:</b> SpellScript.h:486</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236a4bfd62ef873930a2ed1f6da09b85296d"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a4bfd62ef873930a2ed1f6da09b85296d">AURA_SCRIPT_HOOK_AFTER_PROC</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_AFTER_PROC</div><div class="ttdef"><b>Definition:</b> SpellScript.h:507</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236a67050daee69746f58a49b0f131a4a4de"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a67050daee69746f58a49b0f131a4a4de">AURA_SCRIPT_HOOK_EFFECT_MANASHIELD</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_EFFECT_MANASHIELD</div><div class="ttdef"><b>Definition:</b> SpellScript.h:494</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236a9bab1f8dcc1dccde2a98e7f492c9d5a9"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a9bab1f8dcc1dccde2a98e7f492c9d5a9">AURA_SCRIPT_HOOK_EFFECT_AFTER_ABSORB</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_EFFECT_AFTER_ABSORB</div><div class="ttdef"><b>Definition:</b> SpellScript.h:493</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236ab303f97a56ee2f3d7ecd4e7a7950236c"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236ab303f97a56ee2f3d7ecd4e7a7950236c">AURA_SCRIPT_HOOK_EFFECT_AFTER_PROC</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_EFFECT_AFTER_PROC</div><div class="ttdef"><b>Definition:</b> SpellScript.h:506</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a0106a0551a3a660c390c8335a1655236add4f24c7c71aa1892b4f7aa25f162420"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236add4f24c7c71aa1892b4f7aa25f162420">AURA_SCRIPT_HOOK_CHECK_PROC</a></div><div class="ttdeci">@ AURA_SCRIPT_HOOK_CHECK_PROC</div><div class="ttdef"><b>Definition:</b> SpellScript.h:501</div></div>
+<div class="ttc" id="aclass___spell_script_html_ae2ab4203d324b2179ad06ffdb5d8626f"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">_SpellScript::m_scriptSpellId</a></div><div class="ttdeci">uint32 m_scriptSpellId</div><div class="ttdef"><b>Definition:</b> SpellScript.h:107</div></div>
+<div class="ttc" id="aclass_aura_application_html_a0447441f89446b170d751abbdda541b8"><div class="ttname"><a href="../../d8/da3/class_aura_application.html#a0447441f89446b170d751abbdda541b8">AuraApplication::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:61</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a29e48f1dc7011926160e2ed80ebf2f8e" name="a29e48f1dc7011926160e2ed80ebf2f8e"></a>
@@ -1373,7 +1662,10 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1185</span>{</div>
+<div class="line"><span class="lineno"> 1186</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a3429872992970c72980b9fb97eb3421a">m_auraApplication</a>;</div>
+<div class="line"><span class="lineno"> 1187</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1bba6d07c0749c0747fc639fe1fcd875" name="a1bba6d07c0749c0747fc639fe1fcd875"></a>
@@ -1390,7 +1682,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1041</span>{</div>
+<div class="line"><span class="lineno"> 1042</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#aaddb94cd3bd95b145a8b8392e9feecca">GetType</a>();</div>
+<div class="line"><span class="lineno"> 1043</span>}</div>
+<div class="ttc" id="aclass_aura_html_aaddb94cd3bd95b145a8b8392e9feecca"><div class="ttname"><a href="../../d2/dde/class_aura.html#aaddb94cd3bd95b145a8b8392e9feecca">Aura::GetType</a></div><div class="ttdeci">AuraObjectType GetType() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:481</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae0ce7b7a97c6bcb2734ac79f8fa86a15" name="ae0ce7b7a97c6bcb2734ac79f8fa86a15"></a>
@@ -1407,7 +1703,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1021</span>{</div>
+<div class="line"><span class="lineno"> 1022</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a25ce9277dfb99c46f2f0136e4aa5ab7c">GetUnitOwner</a>();</div>
+<div class="line"><span class="lineno"> 1023</span>}</div>
+<div class="ttc" id="aclass_aura_html_a25ce9277dfb99c46f2f0136e4aa5ab7c"><div class="ttname"><a href="../../d2/dde/class_aura.html#a25ce9277dfb99c46f2f0136e4aa5ab7c">Aura::GetUnitOwner</a></div><div class="ttdeci">Unit * GetUnitOwner() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:108</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aeb7afc1de85a47ece2dd5e8df05f85ca" name="aeb7afc1de85a47ece2dd5e8df05f85ca"></a>
@@ -1425,7 +1725,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1141</span>{</div>
+<div class="line"><span class="lineno"> 1142</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a3d22c519ba658770e61a1616be667a09">HasEffect</a>(effIndex);</div>
+<div class="line"><span class="lineno"> 1143</span>}</div>
+<div class="ttc" id="aclass_aura_html_a3d22c519ba658770e61a1616be667a09"><div class="ttname"><a href="../../d2/dde/class_aura.html#a3d22c519ba658770e61a1616be667a09">Aura::HasEffect</a></div><div class="ttdeci">bool HasEffect(uint8 effIndex) const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:173</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a80da96635d7bab5bebd929ce9a82628d" name="a80da96635d7bab5bebd929ce9a82628d"></a>
@@ -1443,7 +1747,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1151</span>{</div>
+<div class="line"><span class="lineno"> 1152</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a6890e111fba863b7163fa5eb0b0870f5">HasEffectType</a>(type);</div>
+<div class="line"><span class="lineno"> 1153</span>}</div>
+<div class="ttc" id="aclass_aura_html_a6890e111fba863b7163fa5eb0b0870f5"><div class="ttname"><a href="../../d2/dde/class_aura.html#a6890e111fba863b7163fa5eb0b0870f5">Aura::HasEffectType</a></div><div class="ttdeci">bool HasEffectType(AuraType type) const</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:1236</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9ea2451f8249334b36b6193a8f8063f1" name="a9ea2451f8249334b36b6193a8f8063f1"></a>
@@ -1460,7 +1768,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1136</span>{</div>
+<div class="line"><span class="lineno"> 1137</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a64355d207f7177e6d35a568b93ec322f">IsDeathPersistent</a>();</div>
+<div class="line"><span class="lineno"> 1138</span>}</div>
+<div class="ttc" id="aclass_aura_html_a64355d207f7177e6d35a568b93ec322f"><div class="ttname"><a href="../../d2/dde/class_aura.html#a64355d207f7177e6d35a568b93ec322f">Aura::IsDeathPersistent</a></div><div class="ttdeci">bool IsDeathPersistent() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:1101</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1ec94856ad4abf54ca0e00345920148b" name="a1ec94856ad4abf54ca0e00345920148b"></a>
@@ -1477,7 +1789,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1081</span>{</div>
+<div class="line"><span class="lineno"> 1082</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#ace74284832d9713a175bb3905449f954">IsExpired</a>();</div>
+<div class="line"><span class="lineno"> 1083</span>}</div>
+<div class="ttc" id="aclass_aura_html_ace74284832d9713a175bb3905449f954"><div class="ttname"><a href="../../d2/dde/class_aura.html#ace74284832d9713a175bb3905449f954">Aura::IsExpired</a></div><div class="ttdeci">bool IsExpired() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:138</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af7a113f3cf83244506379f65a38d1027" name="af7a113f3cf83244506379f65a38d1027"></a>
@@ -1494,7 +1810,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1131</span>{</div>
+<div class="line"><span class="lineno"> 1132</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#ae24c050668e78ef9d8728e6b5bd77c12">IsPassive</a>();</div>
+<div class="line"><span class="lineno"> 1133</span>}</div>
+<div class="ttc" id="aclass_aura_html_ae24c050668e78ef9d8728e6b5bd77c12"><div class="ttname"><a href="../../d2/dde/class_aura.html#ae24c050668e78ef9d8728e6b5bd77c12">Aura::IsPassive</a></div><div class="ttdeci">bool IsPassive() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:1096</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a069a26ac564864ffb21fe3055d000ee2" name="a069a26ac564864ffb21fe3055d000ee2"></a>
@@ -1511,7 +1831,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1086</span>{</div>
+<div class="line"><span class="lineno"> 1087</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#af70f37c9e40b7038cf952c2969ae9ab2">IsPermanent</a>();</div>
+<div class="line"><span class="lineno"> 1088</span>}</div>
+<div class="ttc" id="aclass_aura_html_af70f37c9e40b7038cf952c2969ae9ab2"><div class="ttname"><a href="../../d2/dde/class_aura.html#af70f37c9e40b7038cf952c2969ae9ab2">Aura::IsPermanent</a></div><div class="ttdeci">bool IsPermanent() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:139</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4458705c531aedf5865911395d184120" name="a4458705c531aedf5865911395d184120"></a>
@@ -1539,7 +1863,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1106</span>{</div>
+<div class="line"><span class="lineno"> 1107</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a52fbcc7d7f48d46bed2873889640e6d3">ModCharges</a>(num, removeMode);</div>
+<div class="line"><span class="lineno"> 1108</span>}</div>
+<div class="ttc" id="aclass_aura_html_a52fbcc7d7f48d46bed2873889640e6d3"><div class="ttname"><a href="../../d2/dde/class_aura.html#a52fbcc7d7f48d46bed2873889640e6d3">Aura::ModCharges</a></div><div class="ttdeci">bool ModCharges(int32 num, AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:987</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afe631d7dac9971919237be37b6693fdb" name="afe631d7dac9971919237be37b6693fdb"></a>
@@ -1567,7 +1895,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1126</span>{</div>
+<div class="line"><span class="lineno"> 1127</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a69b589a7414d5d73ed75d12d5ba736ef">ModStackAmount</a>(num, removeMode);</div>
+<div class="line"><span class="lineno"> 1128</span>}</div>
+<div class="ttc" id="aclass_aura_html_a69b589a7414d5d73ed75d12d5ba736ef"><div class="ttname"><a href="../../d2/dde/class_aura.html#a69b589a7414d5d73ed75d12d5ba736ef">Aura::ModStackAmount</a></div><div class="ttdeci">bool ModStackAmount(int32 num, AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT, bool periodicReset=false)</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:1035</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a19e0ed231d33245849ef31acb0f2bca3" name="a19e0ed231d33245849ef31acb0f2bca3"></a>
@@ -1584,7 +1916,25 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  976</span>{</div>
+<div class="line"><span class="lineno">  977</span>    <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a3f9d5cd0ea4eadbdb6a72f73875c0585">m_currentScriptState</a>)</div>
+<div class="line"><span class="lineno">  978</span>    {</div>
+<div class="line"><span class="lineno">  979</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236aa70d783c590006f1a8cbf2b3d144e94c">AURA_SCRIPT_HOOK_EFFECT_APPLY</a>:</div>
+<div class="line"><span class="lineno">  980</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a1794d2594c7b6dfe59a79a48aba6f142">AURA_SCRIPT_HOOK_EFFECT_REMOVE</a>:</div>
+<div class="line"><span class="lineno">  981</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236aaf214dbb6995dfa6ae911fa471484b01">AURA_SCRIPT_HOOK_EFFECT_PERIODIC</a>:</div>
+<div class="line"><span class="lineno">  982</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236ac1dc8a3040268f42f5fbce32d51c71e3">AURA_SCRIPT_HOOK_EFFECT_ABSORB</a>:</div>
+<div class="line"><span class="lineno">  983</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236aca91b48c557565055039bb70ba1fd2eb">AURA_SCRIPT_HOOK_EFFECT_SPLIT</a>:</div>
+<div class="line"><span class="lineno">  984</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a35f3fc9519440c5f846a1cb2789706df">AURA_SCRIPT_HOOK_PREPARE_PROC</a>:</div>
+<div class="line"><span class="lineno">  985</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236a7ab83bc59e26f2a76b49c41feebe0726">AURA_SCRIPT_HOOK_PROC</a>:</div>
+<div class="line"><span class="lineno">  986</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/df6/_spell_script_8h.html#a0106a0551a3a660c390c8335a1655236ac81ead411b37d2496c7a9993f339a39d">AURA_SCRIPT_HOOK_EFFECT_PROC</a>:</div>
+<div class="line"><span class="lineno">  987</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a4aac179d6c9be8fe8aa11e4b2725ba62">m_defaultActionPrevented</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  988</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  989</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  990</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells.scripts&quot;</span>, <span class="stringliteral">&quot;Script: `{}` Spell: `{}` AuraScript::PreventDefaultAction called in a hook in which the call won&#39;t have effect!&quot;</span>, <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#a38bdb79ae6d11489dd6007485c1510de">m_scriptName</a>-&gt;c_str(), <a class="code hl_variable" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a>);</div>
+<div class="line"><span class="lineno">  991</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  992</span>    }</div>
+<div class="line"><span class="lineno">  993</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9c9a9a7c9d5b45effdea8a391442b056" name="a9c9a9a7c9d5b45effdea8a391442b056"></a>
@@ -1601,7 +1951,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1056</span>{</div>
+<div class="line"><span class="lineno"> 1057</span>    <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a2f108f33766c253a827d41c2f3fdc45e">RefreshDuration</a>();</div>
+<div class="line"><span class="lineno"> 1058</span>}</div>
+<div class="ttc" id="aclass_aura_html_a2f108f33766c253a827d41c2f3fdc45e"><div class="ttname"><a href="../../d2/dde/class_aura.html#a2f108f33766c253a827d41c2f3fdc45e">Aura::RefreshDuration</a></div><div class="ttdeci">void RefreshDuration(bool withMods=false)</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:894</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1c17121710636e7e8e7e8ac6feed75db" name="a1c17121710636e7e8e7e8ac6feed75db"></a>
@@ -1619,7 +1973,12 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1031</span>{</div>
+<div class="line"><span class="lineno"> 1032</span>    <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#af9799e5670c2bc3899e3430aa793ca20">Remove</a>((<a class="code hl_enumeration" href="../../d7/d5a/_spell_aura_defines_8h.html#a9a4f502870485ba32e759067c9adca94">AuraRemoveMode</a>)removeMode);</div>
+<div class="line"><span class="lineno"> 1033</span>}</div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a9a4f502870485ba32e759067c9adca94"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a9a4f502870485ba32e759067c9adca94">AuraRemoveMode</a></div><div class="ttdeci">AuraRemoveMode</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:390</div></div>
+<div class="ttc" id="aclass_aura_html_af9799e5670c2bc3899e3430aa793ca20"><div class="ttname"><a href="../../d2/dde/class_aura.html#af9799e5670c2bc3899e3430aa793ca20">Aura::Remove</a></div><div class="ttdeci">virtual void Remove(AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)=0</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5a84f314e19eb34770aa853d48a3d86a" name="a5a84f314e19eb34770aa853d48a3d86a"></a>
@@ -1637,7 +1996,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1096</span>{</div>
+<div class="line"><span class="lineno"> 1097</span>    <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a7f7d613279717173c13708425f3a8083">SetCharges</a>(charges);</div>
+<div class="line"><span class="lineno"> 1098</span>}</div>
+<div class="ttc" id="aclass_aura_html_a7f7d613279717173c13708425f3a8083"><div class="ttname"><a href="../../d2/dde/class_aura.html#a7f7d613279717173c13708425f3a8083">Aura::SetCharges</a></div><div class="ttdeci">void SetCharges(uint8 charges)</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:966</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7087cacdb741a109d53fb82c06ff1cef" name="a7087cacdb741a109d53fb82c06ff1cef"></a>
@@ -1665,7 +2028,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1051</span>{</div>
+<div class="line"><span class="lineno"> 1052</span>    <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a99930c42ad9f6e002ffe6de5e5fbe59b">SetDuration</a>(duration, withMods);</div>
+<div class="line"><span class="lineno"> 1053</span>}</div>
+<div class="ttc" id="aclass_aura_html_a99930c42ad9f6e002ffe6de5e5fbe59b"><div class="ttname"><a href="../../d2/dde/class_aura.html#a99930c42ad9f6e002ffe6de5e5fbe59b">Aura::SetDuration</a></div><div class="ttdeci">void SetDuration(int32 duration, bool withMods=false)</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:882</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a20904deae87d9179691f160ddede3425" name="a20904deae87d9179691f160ddede3425"></a>
@@ -1683,7 +2050,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1071</span>{</div>
+<div class="line"><span class="lineno"> 1072</span>    <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#abf0ff1d6e3be882ce7e8ddd7e935ab66">SetMaxDuration</a>(duration);</div>
+<div class="line"><span class="lineno"> 1073</span>}</div>
+<div class="ttc" id="aclass_aura_html_abf0ff1d6e3be882ce7e8ddd7e935ab66"><div class="ttname"><a href="../../d2/dde/class_aura.html#abf0ff1d6e3be882ce7e8ddd7e935ab66">Aura::SetMaxDuration</a></div><div class="ttdeci">void SetMaxDuration(int32 duration)</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:130</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="add941c04ad4802ec8a68253d436e082f" name="add941c04ad4802ec8a68253d436e082f"></a>
@@ -1701,7 +2072,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1121</span>{</div>
+<div class="line"><span class="lineno"> 1122</span>    <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#aa20688e53015abdcd4498b016b544dea">m_aura</a>-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a1f6c2606d7dc499c1fc1ba0cee1f255b">SetStackAmount</a>(num);</div>
+<div class="line"><span class="lineno"> 1123</span>}</div>
+<div class="ttc" id="aclass_aura_html_a1f6c2606d7dc499c1fc1ba0cee1f255b"><div class="ttname"><a href="../../d2/dde/class_aura.html#a1f6c2606d7dc499c1fc1ba0cee1f255b">Aura::SetStackAmount</a></div><div class="ttdeci">void SetStackAmount(uint8 num)</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:1009</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -2130,8 +2505,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/<a class="el" href="../../d8/db9/_spell_script_8cpp.html">SpellScript.cpp</a></li>
+<li><a class="el" href="../../">SpellScript.h</a></li>
+<li><a class="el" href="../../">SpellScript.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -2139,7 +2514,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d72/class_aura_script.html">AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:37 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

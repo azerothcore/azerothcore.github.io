@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a299bea63d14ea55401d48ffba7075f03" name="a299bea63d14ea55401d48ffba7075f03"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a299bea63d14ea55401d48ffba7075f03">&#9670;&#160;</a></span>FilterTargets()</h2>
 
@@ -326,7 +327,52 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  323</span>        {</div>
+<div class="line"><span class="lineno">  324</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>())</div>
+<div class="line"><span class="lineno">  325</span>            {</div>
+<div class="line"><span class="lineno">  326</span>                std::list&lt;GameObject*&gt; blockList;</div>
+<div class="line"><span class="lineno">  327</span>                caster-&gt;GetGameObjectListWithEntryInGrid(blockList, <a class="code hl_enumvalue" href="../../d1/d43/boss__forgemaster__garfrost_8cpp.html#a1df2a0c7338a4dff24c5b303ccaf2e8ba2ac001856e01c362c049523348770be1">GO_SARONITE_ROCK</a>, 100.0f);</div>
+<div class="line"><span class="lineno">  328</span> </div>
+<div class="line"><span class="lineno">  329</span>                <span class="keywordflow">if</span> (!blockList.empty())</div>
+<div class="line"><span class="lineno">  330</span>                {</div>
+<div class="line"><span class="lineno">  331</span>                    <span class="keywordflow">for</span> (std::list&lt;WorldObject*&gt;::iterator itrU = targets.begin(); itrU != targets.end(); ++itrU)</div>
+<div class="line"><span class="lineno">  332</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/df7/class_world_object.html">WorldObject</a>* target = (*itrU))</div>
+<div class="line"><span class="lineno">  333</span>                        {</div>
+<div class="line"><span class="lineno">  334</span>                            <span class="keywordtype">bool</span> valid = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  335</span>                            <span class="keywordflow">if</span> (!caster-&gt;IsWithinMeleeRange(target-&gt;ToUnit()))</div>
+<div class="line"><span class="lineno">  336</span>                                <span class="keywordflow">for</span> (std::list&lt;GameObject*&gt;::const_iterator itr = blockList.begin(); itr != blockList.end(); ++itr)</div>
+<div class="line"><span class="lineno">  337</span>                                    <span class="keywordflow">if</span> (!(*itr)-&gt;IsInvisibleDueToDespawn())</div>
+<div class="line"><span class="lineno">  338</span>                                        <span class="keywordflow">if</span> ((*itr)-&gt;IsInBetween(caster, target, 4.0f))</div>
+<div class="line"><span class="lineno">  339</span>                                        {</div>
+<div class="line"><span class="lineno">  340</span>                                            valid = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  341</span>                                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  342</span>                                        }</div>
+<div class="line"><span class="lineno">  343</span>                            <span class="keywordflow">if</span> (valid)</div>
+<div class="line"><span class="lineno">  344</span>                            {</div>
+<div class="line"><span class="lineno">  345</span>                                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/dde/class_aura.html">Aura</a>* aur = target-&gt;ToUnit()-&gt;GetAura(70336))</div>
+<div class="line"><span class="lineno">  346</span>                                    <span class="keywordflow">if</span> (aur-&gt;GetStackAmount() &gt;= 10 &amp;&amp; caster-&gt;GetTypeId() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>)</div>
+<div class="line"><span class="lineno">  347</span>                                        caster-&gt;ToCreature()-&gt;AI()-&gt;SetData(1, aur-&gt;GetStackAmount());</div>
+<div class="line"><span class="lineno">  348</span>                                <a class="code hl_variable" href="../../dc/df4/classspell__garfrost__permafrost_1_1spell__garfrost__permafrost___spell_script.html#a36aedcba37686684ff238e9049442e2a">targetList</a>.push_back(*itrU);</div>
+<div class="line"><span class="lineno">  349</span>                            }</div>
+<div class="line"><span class="lineno">  350</span>                        }</div>
+<div class="line"><span class="lineno">  351</span>                }</div>
+<div class="line"><span class="lineno">  352</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  353</span>                {</div>
+<div class="line"><span class="lineno">  354</span>                    <a class="code hl_variable" href="../../dc/df4/classspell__garfrost__permafrost_1_1spell__garfrost__permafrost___spell_script.html#a36aedcba37686684ff238e9049442e2a">targetList</a> = targets;</div>
+<div class="line"><span class="lineno">  355</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  356</span>                }</div>
+<div class="line"><span class="lineno">  357</span>            }</div>
+<div class="line"><span class="lineno">  358</span> </div>
+<div class="line"><span class="lineno">  359</span>            targets = <a class="code hl_variable" href="../../dc/df4/classspell__garfrost__permafrost_1_1spell__garfrost__permafrost___spell_script.html#a36aedcba37686684ff238e9049442e2a">targetList</a>;</div>
+<div class="line"><span class="lineno">  360</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
+<div class="ttc" id="aboss__forgemaster__garfrost_8cpp_html_a1df2a0c7338a4dff24c5b303ccaf2e8ba2ac001856e01c362c049523348770be1"><div class="ttname"><a href="../../d1/d43/boss__forgemaster__garfrost_8cpp.html#a1df2a0c7338a4dff24c5b303ccaf2e8ba2ac001856e01c362c049523348770be1">GO_SARONITE_ROCK</a></div><div class="ttdeci">@ GO_SARONITE_ROCK</div><div class="ttdef"><b>Definition:</b> boss_forgemaster_garfrost.cpp:46</div></div>
+<div class="ttc" id="aclass_aura_html"><div class="ttname"><a href="../../d2/dde/class_aura.html">Aura</a></div><div class="ttdef"><b>Definition:</b> SpellAuras.h:87</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_world_object_html"><div class="ttname"><a href="../../db/df7/class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> Object.h:393</div></div>
+<div class="ttc" id="aclassspell__garfrost__permafrost_1_1spell__garfrost__permafrost___spell_script_html_a36aedcba37686684ff238e9049442e2a"><div class="ttname"><a href="../../dc/df4/classspell__garfrost__permafrost_1_1spell__garfrost__permafrost___spell_script.html#a36aedcba37686684ff238e9049442e2a">spell_garfrost_permafrost::spell_garfrost_permafrost_SpellScript::targetList</a></div><div class="ttdeci">std::list&lt; WorldObject * &gt; targetList</div><div class="ttdef"><b>Definition:</b> boss_forgemaster_garfrost.cpp:315</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae2cdffbc9991ffbaea939c936b54864c" name="ae2cdffbc9991ffbaea939c936b54864c"></a>
@@ -352,7 +398,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  363</span>        {</div>
+<div class="line"><span class="lineno">  364</span>            targets = <a class="code hl_variable" href="../../dc/df4/classspell__garfrost__permafrost_1_1spell__garfrost__permafrost___spell_script.html#a36aedcba37686684ff238e9049442e2a">targetList</a>;</div>
+<div class="line"><span class="lineno">  365</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3738ca41c09a0b1fe84fe631377240b8" name="a3738ca41c09a0b1fe84fe631377240b8"></a>
@@ -405,7 +454,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  368</span>        {</div>
+<div class="line"><span class="lineno">  369</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../dc/df4/classspell__garfrost__permafrost_1_1spell__garfrost__permafrost___spell_script.html#a299bea63d14ea55401d48ffba7075f03">spell_garfrost_permafrost_SpellScript::FilterTargets</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a423eed54c405c7e51816127214e8ea82">TARGET_UNIT_DEST_AREA_ENEMY</a>);</div>
+<div class="line"><span class="lineno">  370</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../dc/df4/classspell__garfrost__permafrost_1_1spell__garfrost__permafrost___spell_script.html#ae2cdffbc9991ffbaea939c936b54864c">spell_garfrost_permafrost_SpellScript::FilterTargetsNext</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a423eed54c405c7e51816127214e8ea82">TARGET_UNIT_DEST_AREA_ENEMY</a>);</div>
+<div class="line"><span class="lineno">  371</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../dc/df4/classspell__garfrost__permafrost_1_1spell__garfrost__permafrost___spell_script.html#ae2cdffbc9991ffbaea939c936b54864c">spell_garfrost_permafrost_SpellScript::FilterTargetsNext</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1">EFFECT_2</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a423eed54c405c7e51816127214e8ea82">TARGET_UNIT_DEST_AREA_ENEMY</a>);</div>
+<div class="line"><span class="lineno">  372</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a></div><div class="ttdeci">@ EFFECT_1</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:31</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1">EFFECT_2</a></div><div class="ttdeci">@ EFFECT_2</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:32</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a423eed54c405c7e51816127214e8ea82"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a423eed54c405c7e51816127214e8ea82">TARGET_UNIT_DEST_AREA_ENEMY</a></div><div class="ttdeci">@ TARGET_UNIT_DEST_AREA_ENEMY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1393</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a623f49512c3d12eceb55ca05cd53c4f2"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a></div><div class="ttdeci">#define SpellObjectAreaTargetSelectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:354</div></div>
+<div class="ttc" id="aclass_spell_script_html_af74f730c6dacd310a78036be6b7cc6b7"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">SpellScript::OnObjectAreaTargetSelect</a></div><div class="ttdeci">HookList&lt; ObjectAreaTargetSelectHandler &gt; OnObjectAreaTargetSelect</div><div class="ttdef"><b>Definition:</b> SpellScript.h:353</div></div>
+<div class="ttc" id="aclassspell__garfrost__permafrost_1_1spell__garfrost__permafrost___spell_script_html_a299bea63d14ea55401d48ffba7075f03"><div class="ttname"><a href="../../dc/df4/classspell__garfrost__permafrost_1_1spell__garfrost__permafrost___spell_script.html#a299bea63d14ea55401d48ffba7075f03">spell_garfrost_permafrost::spell_garfrost_permafrost_SpellScript::FilterTargets</a></div><div class="ttdeci">void FilterTargets(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> boss_forgemaster_garfrost.cpp:322</div></div>
+<div class="ttc" id="aclassspell__garfrost__permafrost_1_1spell__garfrost__permafrost___spell_script_html_ae2cdffbc9991ffbaea939c936b54864c"><div class="ttname"><a href="../../dc/df4/classspell__garfrost__permafrost_1_1spell__garfrost__permafrost___spell_script.html#ae2cdffbc9991ffbaea939c936b54864c">spell_garfrost_permafrost::spell_garfrost_permafrost_SpellScript::FilterTargetsNext</a></div><div class="ttdeci">void FilterTargetsNext(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> boss_forgemaster_garfrost.cpp:362</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8c8aa8405df09cb1bf3e64ee1bd374ea" name="a8c8aa8405df09cb1bf3e64ee1bd374ea"></a>
@@ -432,7 +494,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#ad501b6dde3e42c3af93589b117e2cafc">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  318</span>        {</div>
+<div class="line"><span class="lineno">  319</span>            <a class="code hl_variable" href="../../dc/df4/classspell__garfrost__permafrost_1_1spell__garfrost__permafrost___spell_script.html#a36aedcba37686684ff238e9049442e2a">targetList</a>.clear();</div>
+<div class="line"><span class="lineno">  320</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -459,7 +524,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/FrozenHalls/PitOfSaron/<a class="el" href="../../d1/d43/boss__forgemaster__garfrost_8cpp.html">boss_forgemaster_garfrost.cpp</a></li>
+<li><a class="el" href="../../">boss_forgemaster_garfrost.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -467,7 +532,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/de9/classspell__garfrost__permafrost.html">spell_garfrost_permafrost</a></li><li class="navelem"><a class="el" href="../../dc/df4/classspell__garfrost__permafrost_1_1spell__garfrost__permafrost___spell_script.html">spell_garfrost_permafrost_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

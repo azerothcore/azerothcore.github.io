@@ -497,7 +497,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a25eed717395b4e1ca5504d2d473e2500" name="a25eed717395b4e1ca5504d2d473e2500"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a25eed717395b4e1ca5504d2d473e2500">&#9670;&#160;</a></span>boss_essence_of_angerAI()</h2>
 
@@ -521,7 +522,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  494</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -550,7 +553,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  506</span>        {</div>
+<div class="line"><span class="lineno">  507</span>            <span class="keywordflow">if</span> (param == <a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a330320b43f0e6ad07928c51a5b9f99bb">ACTION_ENGAGE_ESSENCE</a>)</div>
+<div class="line"><span class="lineno">  508</span>            {</div>
+<div class="line"><span class="lineno">  509</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a> | <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  510</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno">  511</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">SetInCombatWithZone</a>();</div>
+<div class="line"><span class="lineno">  512</span>            }</div>
+<div class="line"><span class="lineno">  513</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NON_ATTACKABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:449</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NOT_SELECTABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:473</div></div>
+<div class="ttc" id="aboss__reliquary__of__souls_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a330320b43f0e6ad07928c51a5b9f99bb"><div class="ttname"><a href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a330320b43f0e6ad07928c51a5b9f99bb">ACTION_ENGAGE_ESSENCE</a></div><div class="ttdeci">@ ACTION_ENGAGE_ESSENCE</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:85</div></div>
+<div class="ttc" id="aclass_creature_html_a01ccacf28df6336a774bf1672caf3571"><div class="ttname"><a href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">Creature::SetInCombatWithZone</a></div><div class="ttdeci">void SetInCombatWithZone()</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2705</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_unit_html_af9a5a43c2d7940c38f8b101409666a0d"><div class="ttname"><a href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">Unit::RemoveUnitFlag</a></div><div class="ttdeci">void RemoveUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1480</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a707ede3d191332979b683f1a43179e1c" name="a707ede3d191332979b683f1a43179e1c"></a>
@@ -578,7 +597,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  533</span>        {</div>
+<div class="line"><span class="lineno">  534</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a16774215bba3b38580ea51987d64cff1a7284e6700ed912c65b87bbe8397455c0">ANGER_SAY_FREED</a>);</div>
+<div class="line"><span class="lineno">  535</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a5bd342133be8c2137b831460acc9298ca36f79c95d1bfba6c9cbb3888399c836d">SPELL_AURA_OF_ANGER</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  536</span> </div>
+<div class="line"><span class="lineno">  537</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9d95da779406b3588f6a9286b154eef7">EVENT_ANGER_SPITE</a>, 15000);</div>
+<div class="line"><span class="lineno">  538</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a841581f3a6187b078e59964cab04b131">EVENT_ANGER_SOUL_SCREAM</a>, 10000);</div>
+<div class="line"><span class="lineno">  539</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3a888777fbc235851f116357d6d0c066">EVENT_ANGER_SEETHE</a>, 1000);</div>
+<div class="line"><span class="lineno">  540</span>        }</div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__reliquary__of__souls_8cpp_html_a16774215bba3b38580ea51987d64cff1a7284e6700ed912c65b87bbe8397455c0"><div class="ttname"><a href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a16774215bba3b38580ea51987d64cff1a7284e6700ed912c65b87bbe8397455c0">ANGER_SAY_FREED</a></div><div class="ttdeci">@ ANGER_SAY_FREED</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:42</div></div>
+<div class="ttc" id="aboss__reliquary__of__souls_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a3a888777fbc235851f116357d6d0c066"><div class="ttname"><a href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3a888777fbc235851f116357d6d0c066">EVENT_ANGER_SEETHE</a></div><div class="ttdeci">@ EVENT_ANGER_SEETHE</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:105</div></div>
+<div class="ttc" id="aboss__reliquary__of__souls_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a841581f3a6187b078e59964cab04b131"><div class="ttname"><a href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a841581f3a6187b078e59964cab04b131">EVENT_ANGER_SOUL_SCREAM</a></div><div class="ttdeci">@ EVENT_ANGER_SOUL_SCREAM</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:104</div></div>
+<div class="ttc" id="aboss__reliquary__of__souls_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a9d95da779406b3588f6a9286b154eef7"><div class="ttname"><a href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9d95da779406b3588f6a9286b154eef7">EVENT_ANGER_SPITE</a></div><div class="ttdeci">@ EVENT_ANGER_SPITE</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:103</div></div>
+<div class="ttc" id="aboss__reliquary__of__souls_8cpp_html_a5bd342133be8c2137b831460acc9298ca36f79c95d1bfba6c9cbb3888399c836d"><div class="ttname"><a href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a5bd342133be8c2137b831460acc9298ca36f79c95d1bfba6c9cbb3888399c836d">SPELL_AURA_OF_ANGER</a></div><div class="ttdeci">@ SPELL_AURA_OF_ANGER</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:73</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a997d75ad388e790f9863e1b15fa1c899" name="a997d75ad388e790f9863e1b15fa1c899"></a>
@@ -606,7 +641,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  525</span>        {</div>
+<div class="line"><span class="lineno">  526</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a16774215bba3b38580ea51987d64cff1ae6e652a1f0ae50a8ebfbeee2c80d2856">ANGER_SAY_DEATH</a>);</div>
+<div class="line"><span class="lineno">  527</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9534e161f94312c5ee5c81fd75cc16ee">IsSummon</a>())</div>
+<div class="line"><span class="lineno">  528</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* summoner = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">ToTempSummon</a>()-&gt;<a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#ae76cc9614974a4e0ae95c3715aab3a70">GetSummonerUnit</a>())</div>
+<div class="line"><span class="lineno">  529</span>                    <a class="code hl_function" href="../../da/db7/class_unit.html#a413f3a85a1e57ce8c13b8870347830f5">Unit::Kill</a>(summoner, summoner);</div>
+<div class="line"><span class="lineno">  530</span>        }</div>
+<div class="ttc" id="aboss__reliquary__of__souls_8cpp_html_a16774215bba3b38580ea51987d64cff1ae6e652a1f0ae50a8ebfbeee2c80d2856"><div class="ttname"><a href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a16774215bba3b38580ea51987d64cff1ae6e652a1f0ae50a8ebfbeee2c80d2856">ANGER_SAY_DEATH</a></div><div class="ttdeci">@ ANGER_SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:46</div></div>
+<div class="ttc" id="aclass_temp_summon_html_ae76cc9614974a4e0ae95c3715aab3a70"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#ae76cc9614974a4e0ae95c3715aab3a70">TempSummon::GetSummonerUnit</a></div><div class="ttdeci">Unit * GetSummonerUnit() const</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:43</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a413f3a85a1e57ce8c13b8870347830f5"><div class="ttname"><a href="../../da/db7/class_unit.html#a413f3a85a1e57ce8c13b8870347830f5">Unit::Kill</a></div><div class="ttdeci">static void Kill(Unit *killer, Unit *victim, bool durabilityLoss=true, WeaponAttackType attackType=BASE_ATTACK, SpellInfo const *spellProto=nullptr, Spell const *spell=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:17752</div></div>
+<div class="ttc" id="aclass_unit_html_a6649e9ba10948d634bc0ac9c4a5800e5"><div class="ttname"><a href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">Unit::ToTempSummon</a></div><div class="ttdeci">TempSummon * ToTempSummon()</div><div class="ttdef"><b>Definition:</b> Unit.h:2395</div></div>
+<div class="ttc" id="aclass_unit_html_a9534e161f94312c5ee5c81fd75cc16ee"><div class="ttname"><a href="../../da/db7/class_unit.html#a9534e161f94312c5ee5c81fd75cc16ee">Unit::IsSummon</a></div><div class="ttdeci">bool IsSummon() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1410</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6a900f9a9dc5509c36e5bdaaaacc197d" name="a6a900f9a9dc5509c36e5bdaaaacc197d"></a>
@@ -634,7 +681,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  516</span>        {</div>
+<div class="line"><span class="lineno">  517</span>            <span class="keywordflow">if</span> (<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.GetNextEventTime(<a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a19e2d7e7feeb728214e70da2b689c36b">EVENT_KILL_TALK</a>) == 0)</div>
+<div class="line"><span class="lineno">  518</span>            {</div>
+<div class="line"><span class="lineno">  519</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a16774215bba3b38580ea51987d64cff1a2f6233c1156cc83135bb5d9641f79bd7">ANGER_SAY_SLAY</a>);</div>
+<div class="line"><span class="lineno">  520</span>                <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a19e2d7e7feeb728214e70da2b689c36b">EVENT_KILL_TALK</a>, 6000);</div>
+<div class="line"><span class="lineno">  521</span>            }</div>
+<div class="line"><span class="lineno">  522</span>        }</div>
+<div class="ttc" id="aboss__reliquary__of__souls_8cpp_html_a16774215bba3b38580ea51987d64cff1a2f6233c1156cc83135bb5d9641f79bd7"><div class="ttname"><a href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a16774215bba3b38580ea51987d64cff1a2f6233c1156cc83135bb5d9641f79bd7">ANGER_SAY_SLAY</a></div><div class="ttdeci">@ ANGER_SAY_SLAY</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:43</div></div>
+<div class="ttc" id="aboss__reliquary__of__souls_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a19e2d7e7feeb728214e70da2b689c36b"><div class="ttname"><a href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a19e2d7e7feeb728214e70da2b689c36b">EVENT_KILL_TALK</a></div><div class="ttdeci">@ EVENT_KILL_TALK</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:107</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ade57a575bd84e8e095b1ab5a5c81d3f6" name="ade57a575bd84e8e095b1ab5a5c81d3f6"></a>
@@ -661,7 +717,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  500</span>        {</div>
+<div class="line"><span class="lineno">  501</span>            <a class="code hl_variable" href="../../d9/dc8/structboss__essence__of__anger_1_1boss__essence__of__anger_a_i.html#adc3867a4446375f1217809299f3dd9bb">targetGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  502</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">  503</span>        }</div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="astructboss__essence__of__anger_1_1boss__essence__of__anger_a_i_html_adc3867a4446375f1217809299f3dd9bb"><div class="ttname"><a href="../../d9/dc8/structboss__essence__of__anger_1_1boss__essence__of__anger_a_i.html#adc3867a4446375f1217809299f3dd9bb">boss_essence_of_anger::boss_essence_of_angerAI::targetGUID</a></div><div class="ttdeci">ObjectGuid targetGUID</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:497</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a67e9f5a361894aa227f2a74f9222740d" name="a67e9f5a361894aa227f2a74f9222740d"></a>
@@ -689,7 +751,55 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  543</span>        {</div>
+<div class="line"><span class="lineno">  544</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  545</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  546</span> </div>
+<div class="line"><span class="lineno">  547</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  548</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">  549</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  550</span> </div>
+<div class="line"><span class="lineno">  551</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">  552</span>            {</div>
+<div class="line"><span class="lineno">  553</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9d95da779406b3588f6a9286b154eef7">EVENT_ANGER_SPITE</a>:</div>
+<div class="line"><span class="lineno">  554</span>                    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a>(30))</div>
+<div class="line"><span class="lineno">  555</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a16774215bba3b38580ea51987d64cff1ab2a6eb0728df4650d5339a15dce2793d">ANGER_SAY_SPEC</a>);</div>
+<div class="line"><span class="lineno">  556</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">CastCustomSpell</a>(<a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a5bd342133be8c2137b831460acc9298ca251f124346c0b3fea500cd7ce987302c">SPELL_SPITE</a>, <a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371baac4a68bd47fc6d4dd83453928def284b">SPELLVALUE_MAX_TARGETS</a>, 3, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  557</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9d95da779406b3588f6a9286b154eef7">EVENT_ANGER_SPITE</a>, 25000);</div>
+<div class="line"><span class="lineno">  558</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  559</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a841581f3a6187b078e59964cab04b131">EVENT_ANGER_SOUL_SCREAM</a>:</div>
+<div class="line"><span class="lineno">  560</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a5bd342133be8c2137b831460acc9298caa0cfe2b0e6e353cf8f8e4fc864ba9a0a">SPELL_SOUL_SCREAM</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  561</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a841581f3a6187b078e59964cab04b131">EVENT_ANGER_SOUL_SCREAM</a>, 10000);</div>
+<div class="line"><span class="lineno">  562</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  563</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3a888777fbc235851f116357d6d0c066">EVENT_ANGER_SEETHE</a>:</div>
+<div class="line"><span class="lineno">  564</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* victim = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>())</div>
+<div class="line"><span class="lineno">  565</span>                    {</div>
+<div class="line"><span class="lineno">  566</span>                        <a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> victimGUID = victim-&gt;GetGUID();</div>
+<div class="line"><span class="lineno">  567</span>                        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/dc8/structboss__essence__of__anger_1_1boss__essence__of__anger_a_i.html#adc3867a4446375f1217809299f3dd9bb">targetGUID</a> &amp;&amp; <a class="code hl_variable" href="../../d9/dc8/structboss__essence__of__anger_1_1boss__essence__of__anger_a_i.html#adc3867a4446375f1217809299f3dd9bb">targetGUID</a> != victimGUID)</div>
+<div class="line"><span class="lineno">  568</span>                            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a5bd342133be8c2137b831460acc9298cafb8dced78bd1feb6ddef65f694130abf">SPELL_SEETHE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  569</span>                        <span class="comment">// victim can be lost</span></div>
+<div class="line"><span class="lineno">  570</span>                        <a class="code hl_variable" href="../../d9/dc8/structboss__essence__of__anger_1_1boss__essence__of__anger_a_i.html#adc3867a4446375f1217809299f3dd9bb">targetGUID</a> = victimGUID;</div>
+<div class="line"><span class="lineno">  571</span>                    }</div>
+<div class="line"><span class="lineno">  572</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3a888777fbc235851f116357d6d0c066">EVENT_ANGER_SEETHE</a>, 1000);</div>
+<div class="line"><span class="lineno">  573</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  574</span>            }</div>
+<div class="line"><span class="lineno">  575</span> </div>
+<div class="line"><span class="lineno">  576</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  577</span>        }</div>
+<div class="ttc" id="a_random_8h_html_a50320d4edff86db31b25138ae72161ad"><div class="ttname"><a href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a></div><div class="ttdeci">bool roll_chance_i(int chance)</div><div class="ttdef"><b>Definition:</b> Random.h:59</div></div>
+<div class="ttc" id="a_spell_defines_8h_html_a4ad87b8c967acbbcb154a32bc123371baac4a68bd47fc6d4dd83453928def284b"><div class="ttname"><a href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371baac4a68bd47fc6d4dd83453928def284b">SPELLVALUE_MAX_TARGETS</a></div><div class="ttdeci">@ SPELLVALUE_MAX_TARGETS</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:118</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__reliquary__of__souls_8cpp_html_a16774215bba3b38580ea51987d64cff1ab2a6eb0728df4650d5339a15dce2793d"><div class="ttname"><a href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a16774215bba3b38580ea51987d64cff1ab2a6eb0728df4650d5339a15dce2793d">ANGER_SAY_SPEC</a></div><div class="ttdeci">@ ANGER_SAY_SPEC</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:44</div></div>
+<div class="ttc" id="aboss__reliquary__of__souls_8cpp_html_a5bd342133be8c2137b831460acc9298ca251f124346c0b3fea500cd7ce987302c"><div class="ttname"><a href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a5bd342133be8c2137b831460acc9298ca251f124346c0b3fea500cd7ce987302c">SPELL_SPITE</a></div><div class="ttdeci">@ SPELL_SPITE</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:74</div></div>
+<div class="ttc" id="aboss__reliquary__of__souls_8cpp_html_a5bd342133be8c2137b831460acc9298caa0cfe2b0e6e353cf8f8e4fc864ba9a0a"><div class="ttname"><a href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a5bd342133be8c2137b831460acc9298caa0cfe2b0e6e353cf8f8e4fc864ba9a0a">SPELL_SOUL_SCREAM</a></div><div class="ttdeci">@ SPELL_SOUL_SCREAM</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:76</div></div>
+<div class="ttc" id="aboss__reliquary__of__souls_8cpp_html_a5bd342133be8c2137b831460acc9298cafb8dced78bd1feb6ddef65f694130abf"><div class="ttname"><a href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a5bd342133be8c2137b831460acc9298cafb8dced78bd1feb6ddef65f694130abf">SPELL_SEETHE</a></div><div class="ttdeci">@ SPELL_SEETHE</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:77</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_object_guid_html"><div class="ttname"><a href="../../d8/d03/class_object_guid.html">ObjectGuid</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:120</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_html_a51ec81e114bf82a2485ba9f66200afd2"><div class="ttname"><a href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">Unit::CastCustomSpell</a></div><div class="ttdeci">SpellCastResult CastCustomSpell(Unit *victim, uint32 spellId, int32 const *bp0, int32 const *bp1, int32 const *bp2, bool triggered, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1225</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -722,7 +832,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/BlackTemple/<a class="el" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html">boss_reliquary_of_souls.cpp</a></li>
+<li><a class="el" href="../../">boss_reliquary_of_souls.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -730,7 +840,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d25/classboss__essence__of__anger.html">boss_essence_of_anger</a></li><li class="navelem"><a class="el" href="../../d9/dc8/structboss__essence__of__anger_1_1boss__essence__of__anger_a_i.html">boss_essence_of_angerAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:39 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:51 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -189,7 +189,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a900713d6b029015f8868a96e5e1b9018" name="a900713d6b029015f8868a96e5e1b9018"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a900713d6b029015f8868a96e5e1b9018">&#9670;&#160;</a></span>go_suppression_device()</h2>
 
@@ -212,7 +213,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  145</span>: <a class="code hl_class" href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a>(<span class="stringliteral">&quot;go_suppression_device&quot;</span>) { }</div>
+<div class="ttc" id="aclass_game_object_script_html"><div class="ttname"><a href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:758</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -241,7 +244,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#a05492473fa28c0f7c80770aa3445ce4e">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  246</span>        {</div>
+<div class="line"><span class="lineno">  247</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> go_suppression_deviceAI(go);</div>
+<div class="line"><span class="lineno">  248</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a684546c3ce0c0785d52a87eb011ef313" name="a684546c3ce0c0785d52a87eb011ef313"></a>
@@ -285,11 +291,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#ab93c178f2137e92da28665d28bfec1d5">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  148</span>        {</div>
+<div class="line"><span class="lineno">  149</span>            <span class="keywordflow">switch</span> (state)</div>
+<div class="line"><span class="lineno">  150</span>            {</div>
+<div class="line"><span class="lineno">  151</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07af69d13b3580b3c24d26f66bcf0db43d5">GO_JUST_DEACTIVATED</a>: <span class="comment">// This case prevents the Gameobject despawn by Disarm Trap</span></div>
+<div class="line"><span class="lineno">  152</span>                    go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a643b94ed112dc4e4fd2e335ecfbfe92d">SetLootState</a>(<a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07a8708de424ecaae41eb7271d399f1d5fc">GO_READY</a>);</div>
+<div class="line"><span class="lineno">  153</span>                    [[fallthrough]];</div>
+<div class="line"><span class="lineno">  154</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07a3e50ac5f6829b981fdff39a85a48959e">GO_ACTIVATED</a>:</div>
+<div class="line"><span class="lineno">  155</span>                    go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a6c584d5d6a7e7d357d8d8975e967edd5">AI</a>()-&gt;<a class="code hl_function" href="../../d7/db8/class_game_object_a_i.html#a2f4505971257f8a7335b6ca1a7d60b21">DoAction</a>(<a class="code hl_enumvalue" href="../../df/dc5/boss__broodlord__lashlayer_8cpp.html#a250372292659bed7ae290d8621f88ccfa803d2e7c4916d465806dda8c50193087">ACTION_DISARMED</a>);</div>
+<div class="line"><span class="lineno">  156</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  157</span>            }</div>
+<div class="line"><span class="lineno">  158</span>        }</div>
+<div class="ttc" id="a_game_object_8h_html_a08733f20cea1f77cc9f1a549f8ce9f07a3e50ac5f6829b981fdff39a85a48959e"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07a3e50ac5f6829b981fdff39a85a48959e">GO_ACTIVATED</a></div><div class="ttdeci">@ GO_ACTIVATED</div><div class="ttdef"><b>Definition:</b> GameObject.h:802</div></div>
+<div class="ttc" id="a_game_object_8h_html_a08733f20cea1f77cc9f1a549f8ce9f07a8708de424ecaae41eb7271d399f1d5fc"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07a8708de424ecaae41eb7271d399f1d5fc">GO_READY</a></div><div class="ttdeci">@ GO_READY</div><div class="ttdef"><b>Definition:</b> GameObject.h:801</div></div>
+<div class="ttc" id="a_game_object_8h_html_a08733f20cea1f77cc9f1a549f8ce9f07af69d13b3580b3c24d26f66bcf0db43d5"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07af69d13b3580b3c24d26f66bcf0db43d5">GO_JUST_DEACTIVATED</a></div><div class="ttdeci">@ GO_JUST_DEACTIVATED</div><div class="ttdef"><b>Definition:</b> GameObject.h:803</div></div>
+<div class="ttc" id="aboss__broodlord__lashlayer_8cpp_html_a250372292659bed7ae290d8621f88ccfa803d2e7c4916d465806dda8c50193087"><div class="ttname"><a href="../../df/dc5/boss__broodlord__lashlayer_8cpp.html#a250372292659bed7ae290d8621f88ccfa803d2e7c4916d465806dda8c50193087">ACTION_DISARMED</a></div><div class="ttdeci">@ ACTION_DISARMED</div><div class="ttdef"><b>Definition:</b> boss_broodlord_lashlayer.cpp:56</div></div>
+<div class="ttc" id="aclass_game_object_a_i_html_a2f4505971257f8a7335b6ca1a7d60b21"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html#a2f4505971257f8a7335b6ca1a7d60b21">GameObjectAI::DoAction</a></div><div class="ttdeci">virtual void DoAction(int32)</div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:48</div></div>
+<div class="ttc" id="aclass_game_object_html_a643b94ed112dc4e4fd2e335ecfbfe92d"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a643b94ed112dc4e4fd2e335ecfbfe92d">GameObject::SetLootState</a></div><div class="ttdeci">void SetLootState(LootState s, Unit *unit=nullptr)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:2413</div></div>
+<div class="ttc" id="aclass_game_object_html_a6c584d5d6a7e7d357d8d8975e967edd5"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a6c584d5d6a7e7d357d8d8975e967edd5">GameObject::AI</a></div><div class="ttdeci">GameObjectAI * AI() const</div><div class="ttdef"><b>Definition:</b> GameObject.h:1001</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/BlackwingLair/<a class="el" href="../../df/dc5/boss__broodlord__lashlayer_8cpp.html">boss_broodlord_lashlayer.cpp</a></li>
+<li><a class="el" href="../../">boss_broodlord_lashlayer.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -297,7 +321,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d9b/classgo__suppression__device.html">go_suppression_device</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

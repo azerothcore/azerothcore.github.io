@@ -304,7 +304,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad8f4404f239f3e3bebc990cc85f7bda7" name="ad8f4404f239f3e3bebc990cc85f7bda7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad8f4404f239f3e3bebc990cc85f7bda7">&#9670;&#160;</a></span>OnApply()</h2>
 
@@ -338,7 +339,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  842</span>        {</div>
+<div class="line"><span class="lineno">  843</span>            <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a7087cacdb741a109d53fb82c06ff1cef">SetDuration</a>(6500);</div>
+<div class="line"><span class="lineno">  844</span>        }</div>
+<div class="ttc" id="aclass_aura_script_html_a7087cacdb741a109d53fb82c06ff1cef"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a7087cacdb741a109d53fb82c06ff1cef">AuraScript::SetDuration</a></div><div class="ttdeci">void SetDuration(int32 duration, bool withMods=false)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1050</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3cdbc1c21d611de6e758405a51d6b131" name="a3cdbc1c21d611de6e758405a51d6b131"></a>
@@ -374,7 +379,26 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  847</span>        {</div>
+<div class="line"><span class="lineno">  848</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>())</div>
+<div class="line"><span class="lineno">  849</span>            {</div>
+<div class="line"><span class="lineno">  850</span>                <span class="keywordflow">if</span> (!caster-&gt;GetInstanceScript() || !caster-&gt;GetInstanceScript()-&gt;IsEncounterInProgress())</div>
+<div class="line"><span class="lineno">  851</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  852</span> </div>
+<div class="line"><span class="lineno">  853</span>                caster-&gt;CastSpell(caster, <a class="code hl_enumvalue" href="../../dd/dd6/boss__halion_8cpp.html#a5bd342133be8c2137b831460acc9298ca49865232220f97ee38c65b238f3981a3">SPELL_METEOR_STRIKE_AOE_DAMAGE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  854</span>                caster-&gt;CastSpell(caster, <a class="code hl_enumvalue" href="../../dd/dd6/boss__halion_8cpp.html#a5bd342133be8c2137b831460acc9298ca1d84c5e84ab2105bf2cd74a38e3987bf">SPELL_METEOR_STRIKE_FIRE_AURA_1</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  855</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId = <a class="code hl_enumvalue" href="../../dd/dd6/boss__halion_8cpp.html#a5bd342133be8c2137b831460acc9298ca1f420ae6495f9260b6cca99d16cb5ae0">SPELL_SUMMON_METEOR_STRIKE1</a>; spellId &lt;= <a class="code hl_enumvalue" href="../../dd/dd6/boss__halion_8cpp.html#a5bd342133be8c2137b831460acc9298caa23f0852bd7a9a8d7983113dad337467">SPELL_SUMMON_METEOR_STRIKE4</a>; ++spellId)</div>
+<div class="line"><span class="lineno">  856</span>                    caster-&gt;CastSpell(caster, spellId, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  857</span>            }</div>
+<div class="line"><span class="lineno">  858</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aboss__halion_8cpp_html_a5bd342133be8c2137b831460acc9298ca1d84c5e84ab2105bf2cd74a38e3987bf"><div class="ttname"><a href="../../dd/dd6/boss__halion_8cpp.html#a5bd342133be8c2137b831460acc9298ca1d84c5e84ab2105bf2cd74a38e3987bf">SPELL_METEOR_STRIKE_FIRE_AURA_1</a></div><div class="ttdeci">@ SPELL_METEOR_STRIKE_FIRE_AURA_1</div><div class="ttdef"><b>Definition:</b> boss_halion.cpp:90</div></div>
+<div class="ttc" id="aboss__halion_8cpp_html_a5bd342133be8c2137b831460acc9298ca1f420ae6495f9260b6cca99d16cb5ae0"><div class="ttname"><a href="../../dd/dd6/boss__halion_8cpp.html#a5bd342133be8c2137b831460acc9298ca1f420ae6495f9260b6cca99d16cb5ae0">SPELL_SUMMON_METEOR_STRIKE1</a></div><div class="ttdeci">@ SPELL_SUMMON_METEOR_STRIKE1</div><div class="ttdef"><b>Definition:</b> boss_halion.cpp:80</div></div>
+<div class="ttc" id="aboss__halion_8cpp_html_a5bd342133be8c2137b831460acc9298ca49865232220f97ee38c65b238f3981a3"><div class="ttname"><a href="../../dd/dd6/boss__halion_8cpp.html#a5bd342133be8c2137b831460acc9298ca49865232220f97ee38c65b238f3981a3">SPELL_METEOR_STRIKE_AOE_DAMAGE</a></div><div class="ttdeci">@ SPELL_METEOR_STRIKE_AOE_DAMAGE</div><div class="ttdef"><b>Definition:</b> boss_halion.cpp:89</div></div>
+<div class="ttc" id="aboss__halion_8cpp_html_a5bd342133be8c2137b831460acc9298caa23f0852bd7a9a8d7983113dad337467"><div class="ttname"><a href="../../dd/dd6/boss__halion_8cpp.html#a5bd342133be8c2137b831460acc9298caa23f0852bd7a9a8d7983113dad337467">SPELL_SUMMON_METEOR_STRIKE4</a></div><div class="ttdeci">@ SPELL_SUMMON_METEOR_STRIKE4</div><div class="ttdef"><b>Definition:</b> boss_halion.cpp:83</div></div>
+<div class="ttc" id="aclass_aura_script_html_a67261dcb8b5f6089bdc1a906c91d61df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">AuraScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1010</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af466e82545082d891be7d0691ed7e272" name="af466e82545082d891be7d0691ed7e272"></a>
@@ -427,11 +451,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  861</span>        {</div>
+<div class="line"><span class="lineno">  862</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#af325738f50fb9df450999e5e04ea65ed">OnEffectApply</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a>(<a class="code hl_function" href="../../d8/de8/classspell__halion__meteor__strike__marker_1_1spell__halion__meteor__strike__marker___aura_script.html#ad8f4404f239f3e3bebc990cc85f7bda7">spell_halion_meteor_strike_marker_AuraScript::OnApply</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno">  863</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AfterEffectRemove</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a>(<a class="code hl_function" href="../../d8/de8/classspell__halion__meteor__strike__marker_1_1spell__halion__meteor__strike__marker___aura_script.html#a3cdbc1c21d611de6e758405a51d6b131">spell_halion_meteor_strike_marker_AuraScript::OnRemove</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno">  864</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a></div><div class="ttdeci">@ SPELL_AURA_DUMMY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:67</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:42</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ac47070c5a13a5436cc5d204a1445c993"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a></div><div class="ttdeci">#define AuraEffectApplyFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:733</div></div>
+<div class="ttc" id="a_spell_script_8h_html_af8f20adad60abdb901d6e7310afea31b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a></div><div class="ttdeci">#define AuraEffectRemoveFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:744</div></div>
+<div class="ttc" id="aclass_aura_script_html_a2bfb775dfbe8cfc3cff876469c78ddcf"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AuraScript::AfterEffectRemove</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; AfterEffectRemove</div><div class="ttdef"><b>Definition:</b> SpellScript.h:743</div></div>
+<div class="ttc" id="aclass_aura_script_html_af325738f50fb9df450999e5e04ea65ed"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#af325738f50fb9df450999e5e04ea65ed">AuraScript::OnEffectApply</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; OnEffectApply</div><div class="ttdef"><b>Definition:</b> SpellScript.h:728</div></div>
+<div class="ttc" id="aclassspell__halion__meteor__strike__marker_1_1spell__halion__meteor__strike__marker___aura_script_html_a3cdbc1c21d611de6e758405a51d6b131"><div class="ttname"><a href="../../d8/de8/classspell__halion__meteor__strike__marker_1_1spell__halion__meteor__strike__marker___aura_script.html#a3cdbc1c21d611de6e758405a51d6b131">spell_halion_meteor_strike_marker::spell_halion_meteor_strike_marker_AuraScript::OnRemove</a></div><div class="ttdeci">void OnRemove(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> boss_halion.cpp:846</div></div>
+<div class="ttc" id="aclassspell__halion__meteor__strike__marker_1_1spell__halion__meteor__strike__marker___aura_script_html_ad8f4404f239f3e3bebc990cc85f7bda7"><div class="ttname"><a href="../../d8/de8/classspell__halion__meteor__strike__marker_1_1spell__halion__meteor__strike__marker___aura_script.html#ad8f4404f239f3e3bebc990cc85f7bda7">spell_halion_meteor_strike_marker::spell_halion_meteor_strike_marker_AuraScript::OnApply</a></div><div class="ttdeci">void OnApply(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> boss_halion.cpp:841</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/<a class="el" href="../../dd/dd6/boss__halion_8cpp.html">boss_halion.cpp</a></li>
+<li><a class="el" href="../../">boss_halion.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -439,7 +476,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/dda/classspell__halion__meteor__strike__marker.html">spell_halion_meteor_strike_marker</a></li><li class="navelem"><a class="el" href="../../d8/de8/classspell__halion__meteor__strike__marker_1_1spell__halion__meteor__strike__marker___aura_script.html">spell_halion_meteor_strike_marker_AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:19 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

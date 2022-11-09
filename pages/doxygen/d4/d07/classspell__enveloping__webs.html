@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a36909ef786940eb1a05539c968d78e80" name="a36909ef786940eb1a05539c968d78e80"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36909ef786940eb1a05539c968d78e80">&#9670;&#160;</a></span>HandleOnHit()</h2>
 
@@ -315,7 +316,22 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  312</span>    {</div>
+<div class="line"><span class="lineno">  313</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno">  314</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* hitUnit = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>();</div>
+<div class="line"><span class="lineno">  315</span>        <span class="keywordflow">if</span> (caster &amp;&amp; hitUnit &amp;&amp; hitUnit-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  316</span>        {</div>
+<div class="line"><span class="lineno">  317</span>            caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad56089c61bf09419bedbb4edd2d94aeb">GetThreatMgr</a>().<a class="code hl_function" href="../../d0/db1/class_threat_mgr.html#a96d81c92595064eee010ae40a7311e99">ModifyThreatByPercent</a>(hitUnit, -100);</div>
+<div class="line"><span class="lineno">  318</span>        }</div>
+<div class="line"><span class="lineno">  319</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_threat_mgr_html_a96d81c92595064eee010ae40a7311e99"><div class="ttname"><a href="../../d0/db1/class_threat_mgr.html#a96d81c92595064eee010ae40a7311e99">ThreatMgr::ModifyThreatByPercent</a></div><div class="ttdeci">void ModifyThreatByPercent(Unit *victim, int32 percent)</div><div class="ttdef"><b>Definition:</b> ThreatMgr.cpp:493</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_ad56089c61bf09419bedbb4edd2d94aeb"><div class="ttname"><a href="../../da/db7/class_unit.html#ad56089c61bf09419bedbb4edd2d94aeb">Unit::GetThreatMgr</a></div><div class="ttdeci">ThreatMgr &amp; GetThreatMgr()</div><div class="ttdef"><b>Definition:</b> Unit.h:2142</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4bc6792c99b40834ec1a8a9764589e24" name="a4bc6792c99b40834ec1a8a9764589e24"></a>
@@ -368,11 +384,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  322</span>    {</div>
+<div class="line"><span class="lineno">  323</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a4ad6c271f820ea8f949e286512912d52">OnHit</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a>(<a class="code hl_function" href="../../d4/d07/classspell__enveloping__webs.html#a36909ef786940eb1a05539c968d78e80">spell_enveloping_webs::HandleOnHit</a>);</div>
+<div class="line"><span class="lineno">  324</span>    }</div>
+<div class="ttc" id="a_spell_script_8h_html_ad33ae6ff74ef32eb5ec79707ff0ab5b1"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a></div><div class="ttdeci">#define SpellHitFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:349</div></div>
+<div class="ttc" id="aclass_spell_script_html_a4ad6c271f820ea8f949e286512912d52"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a4ad6c271f820ea8f949e286512912d52">SpellScript::OnHit</a></div><div class="ttdeci">HookList&lt; HitHandler &gt; OnHit</div><div class="ttdef"><b>Definition:</b> SpellScript.h:345</div></div>
+<div class="ttc" id="aclassspell__enveloping__webs_html_a36909ef786940eb1a05539c968d78e80"><div class="ttname"><a href="../../d4/d07/classspell__enveloping__webs.html#a36909ef786940eb1a05539c968d78e80">spell_enveloping_webs::HandleOnHit</a></div><div class="ttdeci">void HandleOnHit()</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:311</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/ZulGurub/<a class="el" href="../../d7/da7/boss__marli_8cpp.html">boss_marli.cpp</a></li>
+<li><a class="el" href="../../">boss_marli.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -380,7 +402,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d07/classspell__enveloping__webs.html">spell_enveloping_webs</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:17 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

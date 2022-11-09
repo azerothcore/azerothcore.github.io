@@ -127,7 +127,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a09c3c6f832c20776f11b72a468a4b0bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d80/class_stone_grip_target_selector.html#a09c3c6f832c20776f11b72a468a4b0bb">_victim</a></td></tr>
 <tr class="separator:a09c3c6f832c20776f11b72a468a4b0bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a74fc772e2bc0694dee05fe82de4463e2" name="a74fc772e2bc0694dee05fe82de4463e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a74fc772e2bc0694dee05fe82de4463e2">&#9670;&#160;</a></span>StoneGripTargetSelector()</h2>
 
@@ -161,7 +162,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  669</span>: <a class="code hl_variable" href="../../d4/d80/class_stone_grip_target_selector.html#ae5781d6b553491a1e3e8bfde2b965c3a">_me</a>(me), <a class="code hl_variable" href="../../d4/d80/class_stone_grip_target_selector.html#a09c3c6f832c20776f11b72a468a4b0bb">_victim</a>(victim) {}</div>
+<div class="ttc" id="aclass_stone_grip_target_selector_html_a09c3c6f832c20776f11b72a468a4b0bb"><div class="ttname"><a href="../../d4/d80/class_stone_grip_target_selector.html#a09c3c6f832c20776f11b72a468a4b0bb">StoneGripTargetSelector::_victim</a></div><div class="ttdeci">Unit const  * _victim</div><div class="ttdef"><b>Definition:</b> boss_kologarn.cpp:684</div></div>
+<div class="ttc" id="aclass_stone_grip_target_selector_html_ae5781d6b553491a1e3e8bfde2b965c3a"><div class="ttname"><a href="../../d4/d80/class_stone_grip_target_selector.html#ae5781d6b553491a1e3e8bfde2b965c3a">StoneGripTargetSelector::_me</a></div><div class="ttdeci">Creature * _me</div><div class="ttdef"><b>Definition:</b> boss_kologarn.cpp:683</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -188,7 +192,20 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  672</span>    {</div>
+<div class="line"><span class="lineno">  673</span>        <span class="keywordflow">if</span> (target == <a class="code hl_variable" href="../../d4/d80/class_stone_grip_target_selector.html#a09c3c6f832c20776f11b72a468a4b0bb">_victim</a> &amp;&amp; <a class="code hl_variable" href="../../d4/d80/class_stone_grip_target_selector.html#ae5781d6b553491a1e3e8bfde2b965c3a">_me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad56089c61bf09419bedbb4edd2d94aeb">GetThreatMgr</a>().<a class="code hl_function" href="../../d0/db1/class_threat_mgr.html#a7fe45d13a55cd657c383f8be4d7801c2">GetThreatListSize</a>() &gt; 1)</div>
+<div class="line"><span class="lineno">  674</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  675</span> </div>
+<div class="line"><span class="lineno">  676</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  677</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  678</span> </div>
+<div class="line"><span class="lineno">  679</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  680</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_threat_mgr_html_a7fe45d13a55cd657c383f8be4d7801c2"><div class="ttname"><a href="../../d0/db1/class_threat_mgr.html#a7fe45d13a55cd657c383f8be4d7801c2">ThreatMgr::GetThreatListSize</a></div><div class="ttdeci">float GetThreatListSize() const</div><div class="ttdef"><b>Definition:</b> ThreatMgr.h:222</div></div>
+<div class="ttc" id="aclass_unit_html_ad56089c61bf09419bedbb4edd2d94aeb"><div class="ttname"><a href="../../da/db7/class_unit.html#ad56089c61bf09419bedbb4edd2d94aeb">Unit::GetThreatMgr</a></div><div class="ttdeci">ThreatMgr &amp; GetThreatMgr()</div><div class="ttdef"><b>Definition:</b> Unit.h:2142</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -237,7 +254,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../d3/de1/boss__kologarn_8cpp.html">boss_kologarn.cpp</a></li>
+<li><a class="el" href="../../">boss_kologarn.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -245,7 +262,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d80/class_stone_grip_target_selector.html">StoneGripTargetSelector</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:11 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:28 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

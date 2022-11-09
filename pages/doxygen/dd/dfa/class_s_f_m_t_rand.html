@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('dd/dfa/class_s_f_m_t_rand.html','../..
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/dcb/_s_f_m_t_rand_8h_source.html">SFMTRand.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">SFMTRand.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -143,7 +143,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a9bc20836138e5dd4db93f7d03a9e856b"><td class="memItemLeft" align="right" valign="top">sfmt_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfa/class_s_f_m_t_rand.html#a9bc20836138e5dd4db93f7d03a9e856b">_state</a></td></tr>
 <tr class="separator:a9bc20836138e5dd4db93f7d03a9e856b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa40843ec8c3162e4be6cbf8067f93c9b" name="aa40843ec8c3162e4be6cbf8067f93c9b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa40843ec8c3162e4be6cbf8067f93c9b">&#9670;&#160;</a></span>SFMTRand()</h2>
 
@@ -158,7 +159,25 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   60</span>{</div>
+<div class="line"><span class="lineno">   61</span>    std::random_device dev;</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span>    <span class="keywordflow">if</span> (dev.entropy() &gt; 0)</div>
+<div class="line"><span class="lineno">   64</span>    {</div>
+<div class="line"><span class="lineno">   65</span>        std::array&lt;uint32, SFMT_N32&gt; seed;</div>
+<div class="line"><span class="lineno">   66</span>        std::generate(seed.begin(), seed.end(), std::ref(dev));</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>        sfmt_init_by_array(&amp;<a class="code hl_variable" href="../../dd/dfa/class_s_f_m_t_rand.html#a9bc20836138e5dd4db93f7d03a9e856b">_state</a>, seed.data(), seed.size());</div>
+<div class="line"><span class="lineno">   69</span>    }</div>
+<div class="line"><span class="lineno">   70</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   71</span>    {</div>
+<div class="line"><span class="lineno">   72</span>        sfmt_init_gen_rand(&amp;<a class="code hl_variable" href="../../dd/dfa/class_s_f_m_t_rand.html#a9bc20836138e5dd4db93f7d03a9e856b">_state</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_function" href="../../d5/d29/_timer_8h.html#ac26feb8a0cb9d57ffe71c1a86ae8108e">GetEpochTime</a>().count()));</div>
+<div class="line"><span class="lineno">   73</span>    }</div>
+<div class="line"><span class="lineno">   74</span>}</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_timer_8h_html_ac26feb8a0cb9d57ffe71c1a86ae8108e"><div class="ttname"><a href="../../d5/d29/_timer_8h.html#ac26feb8a0cb9d57ffe71c1a86ae8108e">GetEpochTime</a></div><div class="ttdeci">Seconds GetEpochTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:141</div></div>
+<div class="ttc" id="aclass_s_f_m_t_rand_html_a9bc20836138e5dd4db93f7d03a9e856b"><div class="ttname"><a href="../../dd/dfa/class_s_f_m_t_rand.html#a9bc20836138e5dd4db93f7d03a9e856b">SFMTRand::_state</a></div><div class="ttdeci">sfmt_t _state</div><div class="ttdef"><b>Definition:</b> SFMTRand.h:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -177,7 +196,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   97</span>{</div>
+<div class="line"><span class="lineno">   98</span>    _mm_free(ptr);</div>
+<div class="line"><span class="lineno">   99</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac6267ac04c03814f574a155a4a0cffcb" name="ac6267ac04c03814f574a155a4a0cffcb"></a>
@@ -205,7 +227,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   87</span>{</div>
+<div class="line"><span class="lineno">   88</span>    _mm_free(ptr);</div>
+<div class="line"><span class="lineno">   89</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5051cdb95e18230b7fee753beb621603" name="a5051cdb95e18230b7fee753beb621603"></a>
@@ -223,7 +248,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  117</span>{</div>
+<div class="line"><span class="lineno">  118</span>    _mm_free(ptr);</div>
+<div class="line"><span class="lineno">  119</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7cfe99d3c100b6ba124b82fce756960f" name="a7cfe99d3c100b6ba124b82fce756960f"></a>
@@ -251,7 +279,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  107</span>{</div>
+<div class="line"><span class="lineno">  108</span>    _mm_free(ptr);</div>
+<div class="line"><span class="lineno">  109</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2aeb7be6e4330872312d025c20f38cde" name="a2aeb7be6e4330872312d025c20f38cde"></a>
@@ -269,7 +300,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   92</span>{</div>
+<div class="line"><span class="lineno">   93</span>    <span class="keywordflow">return</span> _mm_malloc(size, 16);</div>
+<div class="line"><span class="lineno">   94</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aca05c084eb681e29c2e6d94004d2211d" name="aca05c084eb681e29c2e6d94004d2211d"></a>
@@ -297,7 +331,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   82</span>{</div>
+<div class="line"><span class="lineno">   83</span>    <span class="keywordflow">return</span> _mm_malloc(size, 16);</div>
+<div class="line"><span class="lineno">   84</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8ec91b566c3b1defe53ea094c31e9aac" name="a8ec91b566c3b1defe53ea094c31e9aac"></a>
@@ -315,7 +352,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  112</span>{</div>
+<div class="line"><span class="lineno">  113</span>    <span class="keywordflow">return</span> _mm_malloc(size, 16);</div>
+<div class="line"><span class="lineno">  114</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7fc8af93666391048ac284fb21838d00" name="a7fc8af93666391048ac284fb21838d00"></a>
@@ -343,7 +383,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  102</span>{</div>
+<div class="line"><span class="lineno">  103</span>    <span class="keywordflow">return</span> _mm_malloc(size, 16);</div>
+<div class="line"><span class="lineno">  104</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8d129952ad2916419cdf54aa474c23c0" name="a8d129952ad2916419cdf54aa474c23c0"></a>
@@ -360,7 +403,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   77</span>{</div>
+<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">return</span> sfmt_genrand_uint32(&amp;<a class="code hl_variable" href="../../dd/dfa/class_s_f_m_t_rand.html#a9bc20836138e5dd4db93f7d03a9e856b">_state</a>);</div>
+<div class="line"><span class="lineno">   79</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -387,8 +433,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/common/Utilities/<a class="el" href="../../d0/dcb/_s_f_m_t_rand_8h_source.html">SFMTRand.h</a></li>
-<li>D:/azerothcore-wotlk/src/common/Utilities/<a class="el" href="../../d7/db0/_s_f_m_t_rand_8cpp.html">SFMTRand.cpp</a></li>
+<li><a class="el" href="../../">SFMTRand.h</a></li>
+<li><a class="el" href="../../">SFMTRand.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -396,7 +442,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/dfa/class_s_f_m_t_rand.html">SFMTRand</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:15 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

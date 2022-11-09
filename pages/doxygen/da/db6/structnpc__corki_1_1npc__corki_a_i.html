@@ -491,7 +491,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a819ac0a04c74de6e1cd5dd14c6a194a7" name="a819ac0a04c74de6e1cd5dd14c6a194a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a819ac0a04c74de6e1cd5dd14c6a194a7">&#9670;&#160;</a></span>npc_corkiAI()</h2>
 
@@ -515,7 +516,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  341</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -554,7 +557,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#ac737070ba7a8645d0e0ccf6bd6107004">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  367</span>        {</div>
+<div class="line"><span class="lineno">  368</span>            <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a> &amp;&amp; <span class="keywordtype">id</span> == 1)</div>
+<div class="line"><span class="lineno">  369</span>            {</div>
+<div class="line"><span class="lineno">  370</span>                <a class="code hl_variable" href="../../da/db6/structnpc__corki_1_1npc__corki_a_i.html#ac8f01f801436175c3f4011fc7d4a6417">Say_Timer</a> = 5000;</div>
+<div class="line"><span class="lineno">  371</span>                <a class="code hl_variable" href="../../da/db6/structnpc__corki_1_1npc__corki_a_i.html#a3b5265f1c2c03fa0f1cba70e497f191d">ReleasedFromCage</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  372</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d0/d6a/zone__nagrand_8cpp.html#ad43a37744a94e3a9c28ea457505e175faa0427bab44dac666141affb8b0aee094">NPC_CORKI</a>)</div>
+<div class="line"><span class="lineno">  373</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d0/d6a/zone__nagrand_8cpp.html#ad43a37744a94e3a9c28ea457505e175fa38a773f635538b7a9d579396c7da3f01">CORKI_SAY_THANKS</a>);</div>
+<div class="line"><span class="lineno">  374</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d0/d6a/zone__nagrand_8cpp.html#ad43a37744a94e3a9c28ea457505e175fa63a65b1d68765452875f11b1aa274cfc">NPC_CORKI_2</a>)</div>
+<div class="line"><span class="lineno">  375</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d0/d6a/zone__nagrand_8cpp.html#ad43a37744a94e3a9c28ea457505e175faef3d3ac86638bbcec9aaa9f4ed96a4ca">CORKI_SAY_PROMISE</a>);</div>
+<div class="line"><span class="lineno">  376</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d0/d6a/zone__nagrand_8cpp.html#ad43a37744a94e3a9c28ea457505e175fa7f461f55940f10691695669311a870af">NPC_CORKI_3</a>)</div>
+<div class="line"><span class="lineno">  377</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d0/d6a/zone__nagrand_8cpp.html#ad43a37744a94e3a9c28ea457505e175fab58311dda86c9706540e80ca14724fd7">CORKI_SAY_LAST</a>);</div>
+<div class="line"><span class="lineno">  378</span>            }</div>
+<div class="line"><span class="lineno">  379</span>        };</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a></div><div class="ttdeci">@ POINT_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:46</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__corki_1_1npc__corki_a_i_html_a3b5265f1c2c03fa0f1cba70e497f191d"><div class="ttname"><a href="../../da/db6/structnpc__corki_1_1npc__corki_a_i.html#a3b5265f1c2c03fa0f1cba70e497f191d">npc_corki::npc_corkiAI::ReleasedFromCage</a></div><div class="ttdeci">bool ReleasedFromCage</div><div class="ttdef"><b>Definition:</b> zone_nagrand.cpp:344</div></div>
+<div class="ttc" id="astructnpc__corki_1_1npc__corki_a_i_html_ac8f01f801436175c3f4011fc7d4a6417"><div class="ttname"><a href="../../da/db6/structnpc__corki_1_1npc__corki_a_i.html#ac8f01f801436175c3f4011fc7d4a6417">npc_corki::npc_corkiAI::Say_Timer</a></div><div class="ttdeci">uint32 Say_Timer</div><div class="ttdef"><b>Definition:</b> zone_nagrand.cpp:343</div></div>
+<div class="ttc" id="azone__nagrand_8cpp_html_ad43a37744a94e3a9c28ea457505e175fa38a773f635538b7a9d579396c7da3f01"><div class="ttname"><a href="../../d0/d6a/zone__nagrand_8cpp.html#ad43a37744a94e3a9c28ea457505e175fa38a773f635538b7a9d579396c7da3f01">CORKI_SAY_THANKS</a></div><div class="ttdeci">@ CORKI_SAY_THANKS</div><div class="ttdef"><b>Definition:</b> zone_nagrand.cpp:273</div></div>
+<div class="ttc" id="azone__nagrand_8cpp_html_ad43a37744a94e3a9c28ea457505e175fa63a65b1d68765452875f11b1aa274cfc"><div class="ttname"><a href="../../d0/d6a/zone__nagrand_8cpp.html#ad43a37744a94e3a9c28ea457505e175fa63a65b1d68765452875f11b1aa274cfc">NPC_CORKI_2</a></div><div class="ttdeci">@ NPC_CORKI_2</div><div class="ttdef"><b>Definition:</b> zone_nagrand.cpp:276</div></div>
+<div class="ttc" id="azone__nagrand_8cpp_html_ad43a37744a94e3a9c28ea457505e175fa7f461f55940f10691695669311a870af"><div class="ttname"><a href="../../d0/d6a/zone__nagrand_8cpp.html#ad43a37744a94e3a9c28ea457505e175fa7f461f55940f10691695669311a870af">NPC_CORKI_3</a></div><div class="ttdeci">@ NPC_CORKI_3</div><div class="ttdef"><b>Definition:</b> zone_nagrand.cpp:281</div></div>
+<div class="ttc" id="azone__nagrand_8cpp_html_ad43a37744a94e3a9c28ea457505e175faa0427bab44dac666141affb8b0aee094"><div class="ttname"><a href="../../d0/d6a/zone__nagrand_8cpp.html#ad43a37744a94e3a9c28ea457505e175faa0427bab44dac666141affb8b0aee094">NPC_CORKI</a></div><div class="ttdeci">@ NPC_CORKI</div><div class="ttdef"><b>Definition:</b> zone_nagrand.cpp:270</div></div>
+<div class="ttc" id="azone__nagrand_8cpp_html_ad43a37744a94e3a9c28ea457505e175fab58311dda86c9706540e80ca14724fd7"><div class="ttname"><a href="../../d0/d6a/zone__nagrand_8cpp.html#ad43a37744a94e3a9c28ea457505e175fab58311dda86c9706540e80ca14724fd7">CORKI_SAY_LAST</a></div><div class="ttdeci">@ CORKI_SAY_LAST</div><div class="ttdef"><b>Definition:</b> zone_nagrand.cpp:284</div></div>
+<div class="ttc" id="azone__nagrand_8cpp_html_ad43a37744a94e3a9c28ea457505e175faef3d3ac86638bbcec9aaa9f4ed96a4ca"><div class="ttname"><a href="../../d0/d6a/zone__nagrand_8cpp.html#ad43a37744a94e3a9c28ea457505e175faef3d3ac86638bbcec9aaa9f4ed96a4ca">CORKI_SAY_PROMISE</a></div><div class="ttdeci">@ CORKI_SAY_PROMISE</div><div class="ttdef"><b>Definition:</b> zone_nagrand.cpp:278</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a41de11053cb2e0dca61f12b5a15feb88" name="a41de11053cb2e0dca61f12b5a15feb88"></a>
@@ -581,7 +609,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  347</span>        {</div>
+<div class="line"><span class="lineno">  348</span>            <a class="code hl_variable" href="../../da/db6/structnpc__corki_1_1npc__corki_a_i.html#ac8f01f801436175c3f4011fc7d4a6417">Say_Timer</a> = 5000;</div>
+<div class="line"><span class="lineno">  349</span>            <a class="code hl_variable" href="../../da/db6/structnpc__corki_1_1npc__corki_a_i.html#a3b5265f1c2c03fa0f1cba70e497f191d">ReleasedFromCage</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  350</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aee7c72e9284834c78b4fd63044598d19" name="aee7c72e9284834c78b4fd63044598d19"></a>
@@ -609,7 +641,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  353</span>        {</div>
+<div class="line"><span class="lineno">  354</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/db6/structnpc__corki_1_1npc__corki_a_i.html#a3b5265f1c2c03fa0f1cba70e497f191d">ReleasedFromCage</a>)</div>
+<div class="line"><span class="lineno">  355</span>            {</div>
+<div class="line"><span class="lineno">  356</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/db6/structnpc__corki_1_1npc__corki_a_i.html#ac8f01f801436175c3f4011fc7d4a6417">Say_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  357</span>                {</div>
+<div class="line"><span class="lineno">  358</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>();</div>
+<div class="line"><span class="lineno">  359</span>                    <a class="code hl_variable" href="../../da/db6/structnpc__corki_1_1npc__corki_a_i.html#a3b5265f1c2c03fa0f1cba70e497f191d">ReleasedFromCage</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  360</span>                }</div>
+<div class="line"><span class="lineno">  361</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  362</span>                    <a class="code hl_variable" href="../../da/db6/structnpc__corki_1_1npc__corki_a_i.html#ac8f01f801436175c3f4011fc7d4a6417">Say_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  363</span>            }</div>
+<div class="line"><span class="lineno">  364</span>        }</div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -642,7 +687,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/<a class="el" href="../../d0/d6a/zone__nagrand_8cpp.html">zone_nagrand.cpp</a></li>
+<li><a class="el" href="../../">zone_nagrand.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -650,7 +695,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d41/classnpc__corki.html">npc_corki</a></li><li class="navelem"><a class="el" href="../../da/db6/structnpc__corki_1_1npc__corki_a_i.html">npc_corkiAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -159,7 +159,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2e37c7d761982f7185b2418ae5aa4315" name="a2e37c7d761982f7185b2418ae5aa4315"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e37c7d761982f7185b2418ae5aa4315">&#9670;&#160;</a></span>gear_commandscript()</h2>
 
@@ -182,7 +183,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   30</span>: <a class="code hl_class" href="../../d8/ddd/class_command_script.html">CommandScript</a>(<span class="stringliteral">&quot;gear_commandscript&quot;</span>) { }</div>
+<div class="ttc" id="aclass_command_script_html"><div class="ttname"><a href="../../d8/ddd/class_command_script.html">CommandScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:849</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -210,7 +213,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d8/ddd/class_command_script.html#a97dc7d00b78e0030ba2a950d23b2ebd2">CommandScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   33</span>    {</div>
+<div class="line"><span class="lineno">   34</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">ChatCommandTable</a> gearCommandTable =</div>
+<div class="line"><span class="lineno">   35</span>        {</div>
+<div class="line"><span class="lineno">   36</span>            { <span class="stringliteral">&quot;repair&quot;</span>,  <a class="code hl_function" href="../../d2/d68/classgear__commandscript.html#a28cd5680f07f984326d79d91adbbfd70">HandleGearRepairCommand</a>, <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1">SEC_GAMEMASTER</a>, Console::No },</div>
+<div class="line"><span class="lineno">   37</span>            { <span class="stringliteral">&quot;stats&quot;</span>,   <a class="code hl_function" href="../../d2/d68/classgear__commandscript.html#acca4bc7e8cae51ee2a6172b32f87aa56">HandleGearStatsCommand</a>,  <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0">SEC_PLAYER</a>,     Console::No }</div>
+<div class="line"><span class="lineno">   38</span>        };</div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">ChatCommandTable</a> commandTable =</div>
+<div class="line"><span class="lineno">   41</span>        {</div>
+<div class="line"><span class="lineno">   42</span>            { <span class="stringliteral">&quot;gear&quot;</span>, gearCommandTable }</div>
+<div class="line"><span class="lineno">   43</span>        };</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">return</span> commandTable;</div>
+<div class="line"><span class="lineno">   46</span>    }</div>
+<div class="ttc" id="a_common_8h_html_adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0"><div class="ttname"><a href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0">SEC_PLAYER</a></div><div class="ttdeci">@ SEC_PLAYER</div><div class="ttdef"><b>Definition:</b> Common.h:66</div></div>
+<div class="ttc" id="a_common_8h_html_adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1"><div class="ttname"><a href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1">SEC_GAMEMASTER</a></div><div class="ttdeci">@ SEC_GAMEMASTER</div><div class="ttdef"><b>Definition:</b> Common.h:68</div></div>
+<div class="ttc" id="aclassgear__commandscript_html_a28cd5680f07f984326d79d91adbbfd70"><div class="ttname"><a href="../../d2/d68/classgear__commandscript.html#a28cd5680f07f984326d79d91adbbfd70">gear_commandscript::HandleGearRepairCommand</a></div><div class="ttdeci">static bool HandleGearRepairCommand(ChatHandler *handler, Optional&lt; PlayerIdentifier &gt; target)</div><div class="ttdef"><b>Definition:</b> cs_gear.cpp:48</div></div>
+<div class="ttc" id="aclassgear__commandscript_html_acca4bc7e8cae51ee2a6172b32f87aa56"><div class="ttname"><a href="../../d2/d68/classgear__commandscript.html#acca4bc7e8cae51ee2a6172b32f87aa56">gear_commandscript::HandleGearStatsCommand</a></div><div class="ttdeci">static bool HandleGearStatsCommand(ChatHandler *handler)</div><div class="ttdef"><b>Definition:</b> cs_gear.cpp:81</div></div>
+<div class="ttc" id="anamespace_acore_1_1_chat_commands_html_a7aa1549a95f760a19b9b7ffd8e669626"><div class="ttname"><a href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">Acore::ChatCommands::ChatCommandTable</a></div><div class="ttdeci">std::vector&lt; ChatCommandBuilder &gt; ChatCommandTable</div><div class="ttdef"><b>Definition:</b> ChatCommand.h:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a28cd5680f07f984326d79d91adbbfd70" name="a28cd5680f07f984326d79d91adbbfd70"></a>
@@ -246,7 +268,46 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   49</span>    {</div>
+<div class="line"><span class="lineno">   50</span>        <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno">   51</span>        {</div>
+<div class="line"><span class="lineno">   52</span>            target = <a class="code hl_function" href="../../d3/dd3/struct_acore_1_1_chat_commands_1_1_player_identifier.html#a617834cc8474970950b45066f2e86dbd">PlayerIdentifier::FromTargetOrSelf</a>(handler);</div>
+<div class="line"><span class="lineno">   53</span>        }</div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>        <span class="keywordflow">if</span> (!target || !target-&gt;IsConnected())</div>
+<div class="line"><span class="lineno">   56</span>        {</div>
+<div class="line"><span class="lineno">   57</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   58</span>        }</div>
+<div class="line"><span class="lineno">   59</span> </div>
+<div class="line"><span class="lineno">   60</span>        <span class="comment">// check online security</span></div>
+<div class="line"><span class="lineno">   61</span>        <span class="keywordflow">if</span> (handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#afacb4b59756372ec32810be0d46da49c">HasLowerSecurity</a>(target-&gt;GetConnectedPlayer()))</div>
+<div class="line"><span class="lineno">   62</span>        {</div>
+<div class="line"><span class="lineno">   63</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   64</span>        }</div>
+<div class="line"><span class="lineno">   65</span> </div>
+<div class="line"><span class="lineno">   66</span>        <span class="comment">// Repair items</span></div>
+<div class="line"><span class="lineno">   67</span>        target-&gt;GetConnectedPlayer()-&gt;DurabilityRepairAll(<span class="keyword">false</span>, 0, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>        std::string nameLink = handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a52c15179ec3eff1b6bb9551d96a8b901">playerLink</a>(target-&gt;GetName());</div>
+<div class="line"><span class="lineno">   70</span> </div>
+<div class="line"><span class="lineno">   71</span>        handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a>(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aa81c83d136e0ccb5da5bef12bb0494adf">LANG_YOU_REPAIR_ITEMS</a>, nameLink.c_str());</div>
+<div class="line"><span class="lineno">   72</span> </div>
+<div class="line"><span class="lineno">   73</span>        <span class="keywordflow">if</span> (handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#acfb8fb0453dd4025de15a909f78b206c">needReportToTarget</a>(target-&gt;GetConnectedPlayer()))</div>
+<div class="line"><span class="lineno">   74</span>        {</div>
+<div class="line"><span class="lineno">   75</span>            <a class="code hl_class" href="../../d2/d04/class_chat_handler.html">ChatHandler</a>(target-&gt;GetConnectedPlayer()-&gt;GetSession()).<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a>(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aa92ad3678374f6941cf258bb655403905">LANG_YOUR_ITEMS_REPAIRED</a>, nameLink.c_str());</div>
+<div class="line"><span class="lineno">   76</span>        }</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   79</span>    }</div>
+<div class="ttc" id="a_language_8h_html_af9ee42b1cf006ecb2d2e74fe71c0761aa81c83d136e0ccb5da5bef12bb0494adf"><div class="ttname"><a href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aa81c83d136e0ccb5da5bef12bb0494adf">LANG_YOU_REPAIR_ITEMS</a></div><div class="ttdeci">@ LANG_YOU_REPAIR_ITEMS</div><div class="ttdef"><b>Definition:</b> Language.h:377</div></div>
+<div class="ttc" id="a_language_8h_html_af9ee42b1cf006ecb2d2e74fe71c0761aa92ad3678374f6941cf258bb655403905"><div class="ttname"><a href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aa92ad3678374f6941cf258bb655403905">LANG_YOUR_ITEMS_REPAIRED</a></div><div class="ttdeci">@ LANG_YOUR_ITEMS_REPAIRED</div><div class="ttdef"><b>Definition:</b> Language.h:378</div></div>
+<div class="ttc" id="aclass_chat_handler_html"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html">ChatHandler</a></div><div class="ttdef"><b>Definition:</b> Chat.h:38</div></div>
+<div class="ttc" id="aclass_chat_handler_html_a52c15179ec3eff1b6bb9551d96a8b901"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#a52c15179ec3eff1b6bb9551d96a8b901">ChatHandler::playerLink</a></div><div class="ttdeci">std::string playerLink(std::string const &amp;name) const</div><div class="ttdef"><b>Definition:</b> Chat.h:111</div></div>
+<div class="ttc" id="aclass_chat_handler_html_ab2e685f37d4f0f3b763a6323cce7af25"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">ChatHandler::PSendSysMessage</a></div><div class="ttdeci">void PSendSysMessage(char const *fmt, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> Chat.h:60</div></div>
+<div class="ttc" id="aclass_chat_handler_html_acfb8fb0453dd4025de15a909f78b206c"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#acfb8fb0453dd4025de15a909f78b206c">ChatHandler::needReportToTarget</a></div><div class="ttdeci">virtual bool needReportToTarget(Player *chr) const</div><div class="ttdef"><b>Definition:</b> Chat.cpp:776</div></div>
+<div class="ttc" id="aclass_chat_handler_html_afacb4b59756372ec32810be0d46da49c"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#afacb4b59756372ec32810be0d46da49c">ChatHandler::HasLowerSecurity</a></div><div class="ttdeci">bool HasLowerSecurity(Player *target, ObjectGuid guid=ObjectGuid::Empty, bool strong=false)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:53</div></div>
+<div class="ttc" id="astruct_acore_1_1_chat_commands_1_1_player_identifier_html_a617834cc8474970950b45066f2e86dbd"><div class="ttname"><a href="../../d3/dd3/struct_acore_1_1_chat_commands_1_1_player_identifier.html#a617834cc8474970950b45066f2e86dbd">Acore::ChatCommands::PlayerIdentifier::FromTargetOrSelf</a></div><div class="ttdeci">static Optional&lt; PlayerIdentifier &gt; FromTargetOrSelf(ChatHandler *handler)</div><div class="ttdef"><b>Definition:</b> ChatCommandTags.h:189</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acca4bc7e8cae51ee2a6172b32f87aa56" name="acca4bc7e8cae51ee2a6172b32f87aa56"></a>
@@ -272,11 +333,69 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   82</span>    {</div>
+<div class="line"><span class="lineno">   83</span>        <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac007a55e6fd322fb27b9351c70e32c42">getSelectedPlayerOrSelf</a>();</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>        <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno">   86</span>        {</div>
+<div class="line"><span class="lineno">   87</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   88</span>        }</div>
+<div class="line"><span class="lineno">   89</span> </div>
+<div class="line"><span class="lineno">   90</span>        handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a>(<span class="stringliteral">&quot;Character: %s&quot;</span>, player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a03e4cda1cd23c74701c71b479a00529c">GetPlayerName</a>().c_str());</div>
+<div class="line"><span class="lineno">   91</span>        handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a>(<span class="stringliteral">&quot;Current equipment average item level: |cff00ffff%u|r&quot;</span>, (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#aecf4e3680a32207d17f62a3426731878">int16</a>)player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a94856b35ce42f7e8c87ac1a53be3405e">GetAverageItemLevel</a>());</div>
+<div class="line"><span class="lineno">   92</span> </div>
+<div class="line"><span class="lineno">   93</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#a17aac4c166ebe43e3b8fdccf9e012e41a652be4634ff10d7eb37bda10afe8b51b">CONFIG_MIN_LEVEL_STAT_SAVE</a>))</div>
+<div class="line"><span class="lineno">   94</span>        {</div>
+<div class="line"><span class="lineno">   95</span>            <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7a7395442cafa52523af229f72c6cc681b">CHAR_SEL_CHAR_STATS</a>);</div>
+<div class="line"><span class="lineno">   96</span>            stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
+<div class="line"><span class="lineno">   97</span>            <a class="code hl_typedef" href="../../db/d04/_database_env_fwd_8h.html#ac6110b8d867b5f84f677555d07037acb">PreparedQueryResult</a> result = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(stmt);</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span>            <span class="keywordflow">if</span> (result)</div>
+<div class="line"><span class="lineno">  100</span>            {</div>
+<div class="line"><span class="lineno">  101</span>                <a class="code hl_class" href="../../dc/d67/class_field.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">  102</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> MaxHealth = fields[0].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  103</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Strength = fields[1].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  104</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Agility = fields[2].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  105</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Stamina = fields[3].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  106</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Intellect = fields[4].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  107</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Spirit = fields[5].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  108</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Armor = fields[6].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  109</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> AttackPower = fields[7].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  110</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SpellPower = fields[8].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  111</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Resilience = fields[9].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  112</span> </div>
+<div class="line"><span class="lineno">  113</span>                handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a>(<span class="stringliteral">&quot;Health: |cff00ffff%u|r - Stamina: |cff00ffff%u|r&quot;</span>, MaxHealth, Stamina);</div>
+<div class="line"><span class="lineno">  114</span>                handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a>(<span class="stringliteral">&quot;Strength: |cff00ffff%u|r - Agility: |cff00ffff%u|r&quot;</span>, Strength, Agility);</div>
+<div class="line"><span class="lineno">  115</span>                handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a>(<span class="stringliteral">&quot;Intellect: |cff00ffff%u|r - Spirit: |cff00ffff%u|r&quot;</span>, Intellect, Spirit);</div>
+<div class="line"><span class="lineno">  116</span>                handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a>(<span class="stringliteral">&quot;AttackPower: |cff00ffff%u|r - SpellPower: |cff00ffff%u|r&quot;</span>, AttackPower, SpellPower);</div>
+<div class="line"><span class="lineno">  117</span>                handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a>(<span class="stringliteral">&quot;Armor: |cff00ffff%u|r - Resilience: |cff00ffff%u|r&quot;</span>, Armor, Resilience);</div>
+<div class="line"><span class="lineno">  118</span>            }</div>
+<div class="line"><span class="lineno">  119</span>        }</div>
+<div class="line"><span class="lineno">  120</span> </div>
+<div class="line"><span class="lineno">  121</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  122</span>    }</div>
+<div class="ttc" id="a_character_database_8h_html_a76116b4fa282d8e35bf8f8e940b5cba7a7395442cafa52523af229f72c6cc681b"><div class="ttname"><a href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7a7395442cafa52523af229f72c6cc681b">CHAR_SEL_CHAR_STATS</a></div><div class="ttdeci">@ CHAR_SEL_CHAR_STATS</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:446</div></div>
+<div class="ttc" id="a_database_env_8cpp_html_a7e7534bc66d79434bd280b77cb124eec"><div class="ttname"><a href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt; CharacterDatabase</div><div class="ttdoc">Accessor to the character database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:21</div></div>
+<div class="ttc" id="a_database_env_fwd_8h_html_ac6110b8d867b5f84f677555d07037acb"><div class="ttname"><a href="../../db/d04/_database_env_fwd_8h.html#ac6110b8d867b5f84f677555d07037acb">PreparedQueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; PreparedResultSet &gt; PreparedQueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:46</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_define_8h_html_aecf4e3680a32207d17f62a3426731878"><div class="ttname"><a href="../../db/d35/_define_8h.html#aecf4e3680a32207d17f62a3426731878">int16</a></div><div class="ttdeci">std::int16_t int16</div><div class="ttdef"><b>Definition:</b> Define.h:105</div></div>
+<div class="ttc" id="a_i_world_8h_html_a17aac4c166ebe43e3b8fdccf9e012e41a652be4634ff10d7eb37bda10afe8b51b"><div class="ttname"><a href="../../d2/d80/_i_world_8h.html#a17aac4c166ebe43e3b8fdccf9e012e41a652be4634ff10d7eb37bda10afe8b51b">CONFIG_MIN_LEVEL_STAT_SAVE</a></div><div class="ttdeci">@ CONFIG_MIN_LEVEL_STAT_SAVE</div><div class="ttdef"><b>Definition:</b> IWorld.h:339</div></div>
+<div class="ttc" id="aclass_chat_handler_html_ac007a55e6fd322fb27b9351c70e32c42"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ac007a55e6fd322fb27b9351c70e32c42">ChatHandler::getSelectedPlayerOrSelf</a></div><div class="ttdeci">Player * getSelectedPlayerOrSelf() const</div><div class="ttdef"><b>Definition:</b> Chat.cpp:345</div></div>
+<div class="ttc" id="aclass_field_html"><div class="ttname"><a href="../../dc/d67/class_field.html">Field</a></div><div class="ttdoc">Class used to access individual fields of database query result.</div><div class="ttdef"><b>Definition:</b> Field.h:99</div></div>
+<div class="ttc" id="aclass_field_html_aae507d21d3570ffdaf1643ba02946f01"><div class="ttname"><a href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Field::Get</a></div><div class="ttdeci">std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;, T &gt; Get() const</div><div class="ttdef"><b>Definition:</b> Field.h:113</div></div>
+<div class="ttc" id="aclass_object_guid_html_a0df27b85c91a2c619e8f1d9c2cb31677"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a0df27b85c91a2c619e8f1d9c2cb31677">ObjectGuid::GetCounter</a></div><div class="ttdeci">LowType GetCounter() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:147</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_player_html_a03e4cda1cd23c74701c71b479a00529c"><div class="ttname"><a href="../../d8/d53/class_player.html#a03e4cda1cd23c74701c71b479a00529c">Player::GetPlayerName</a></div><div class="ttdeci">std::string GetPlayerName()</div><div class="ttdef"><b>Definition:</b> Player.cpp:15985</div></div>
+<div class="ttc" id="aclass_player_html_a94856b35ce42f7e8c87ac1a53be3405e"><div class="ttname"><a href="../../d8/d53/class_player.html#a94856b35ce42f7e8c87ac1a53be3405e">Player::GetAverageItemLevel</a></div><div class="ttdeci">float GetAverageItemLevel()</div><div class="ttdef"><b>Definition:</b> Player.cpp:15412</div></div>
+<div class="ttc" id="aclass_prepared_statement_base_html_a52fc2e65042c1db51f0923725a0f0ed0"><div class="ttname"><a href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">PreparedStatementBase::SetData</a></div><div class="ttdeci">Acore::Types::is_default&lt; T &gt; SetData(const uint8 index, T value)</div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:78</div></div>
+<div class="ttc" id="aclass_prepared_statement_html"><div class="ttname"><a href="../../da/d37/class_prepared_statement.html">PreparedStatement</a></div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:158</div></div>
+<div class="ttc" id="agroup__world_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:458</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Commands/<a class="el" href="../../de/d14/cs__gear_8cpp.html">cs_gear.cpp</a></li>
+<li><a class="el" href="../../">cs_gear.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -284,7 +403,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d68/classgear__commandscript.html">gear_commandscript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -187,7 +187,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aacec717b5b91ae55307c9642779c15ec" name="aacec717b5b91ae55307c9642779c15ec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aacec717b5b91ae55307c9642779c15ec">&#9670;&#160;</a></span>npc_battle_at_valhalas()</h2>
 
@@ -210,7 +211,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  113</span>: <a class="code hl_class" href="../../d5/dca/class_creature_script.html">CreatureScript</a>(<span class="stringliteral">&quot;npc_battle_at_valhalas&quot;</span>) { }</div>
+<div class="ttc" id="aclass_creature_script_html"><div class="ttname"><a href="../../d5/dca/class_creature_script.html">CreatureScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:718</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -239,7 +242,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a24ba3529655943afdf6598450d14e6c2">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  373</span>    {</div>
+<div class="line"><span class="lineno">  374</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> npc_battle_at_valhalasAI(creature);</div>
+<div class="line"><span class="lineno">  375</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="addd76fd9f4b4f8ce706693614b80966b" name="addd76fd9f4b4f8ce706693614b80966b"></a>
@@ -283,11 +289,58 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a6b106a237886f49e523ae7b07e9c5979">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  339</span>    {</div>
+<div class="line"><span class="lineno">  340</span>        npc_battle_at_valhalasAI* vAI = <a class="code hl_define" href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a>(<a class="code hl_struct" href="../../d5/dbf/structnpc__battle__at__valhalas_1_1npc__battle__at__valhalas_a_i.html">npc_battle_at_valhalas::npc_battle_at_valhalasAI</a>, creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>());</div>
+<div class="line"><span class="lineno">  341</span>        vAI-&gt;ResetData();</div>
+<div class="line"><span class="lineno">  342</span> </div>
+<div class="line"><span class="lineno">  343</span>        creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a629e9a4f8c5987b034e409c9c74297b9">RemoveNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d">UNIT_NPC_FLAG_QUESTGIVER</a>);</div>
+<div class="line"><span class="lineno">  344</span>        <span class="keywordflow">if</span> (vAI)</div>
+<div class="line"><span class="lineno">  345</span>            vAI-&gt;StartBattle(player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>(), quest-&gt;GetQuestId());</div>
+<div class="line"><span class="lineno">  346</span> </div>
+<div class="line"><span class="lineno">  347</span>        <span class="keywordflow">switch</span> (quest-&gt;GetQuestId())</div>
+<div class="line"><span class="lineno">  348</span>        {</div>
+<div class="line"><span class="lineno">  349</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#a924899e72eb277474ea041b708efca1ea668b3e3e40c588e6ddac4314c4fe18ab">QUEST_BFV_FALLEN_HEROES</a>:</div>
+<div class="line"><span class="lineno">  350</span>                creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a27d1fd6a83052ee1843832208e407e87">Say</a>(<span class="stringliteral">&quot;Valhalas is yours to win or die in, $N. But whatever you do, stay within the bounds of the arena. To flee is to lose and be dishonored.&quot;</span>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>, player);</div>
+<div class="line"><span class="lineno">  351</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  352</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#a924899e72eb277474ea041b708efca1ea43975e4ae2548724d961127f962b1f2e">QUEST_BFV_DARK_MASTER</a>:</div>
+<div class="line"><span class="lineno">  353</span>                creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a27d1fd6a83052ee1843832208e407e87">Say</a>(<span class="stringliteral">&quot;Prepare yourself. Khit&#39;rix will be entering Valhalas from the southeast. Remember, do not leave the ring or you will lose the battle.&quot;</span>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>, player);</div>
+<div class="line"><span class="lineno">  354</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  355</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#a924899e72eb277474ea041b708efca1ea6b3badbabae26cbe0dc549e50029130d">QUEST_BFV_SIGRID</a>:</div>
+<div class="line"><span class="lineno">  356</span>                creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a3c20bbd85474cc42ac23b3bd1c5f54c5">Yell</a>(<span class="stringliteral">&quot;Sigrid Iceborn has returned to the heights of Jotunheim to prove herself against $N. When last they met, $N bester her in personal combat. Let us see the outcome of this match.&quot;</span>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>, player);</div>
+<div class="line"><span class="lineno">  357</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  358</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#a924899e72eb277474ea041b708efca1ea1fd65387dbeda545e7e8162dc6b1adb9">QUEST_BFV_CARNAGE</a>:</div>
+<div class="line"><span class="lineno">  359</span>                creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a27d1fd6a83052ee1843832208e407e87">Say</a>(<span class="stringliteral">&quot;Carnage is coming! Remember, no matter what you do, do NOT leave the battle ring or I will disqualify you and your group.&quot;</span>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>);</div>
+<div class="line"><span class="lineno">  360</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  361</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#a924899e72eb277474ea041b708efca1eacd3c6091fc78f162f69904387e80bb76">QUEST_BFV_THANE</a>:</div>
+<div class="line"><span class="lineno">  362</span>                creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a27d1fd6a83052ee1843832208e407e87">Say</a>(<span class="stringliteral">&quot;Look to the southeast and you will see the thane upon the platform near Gjonner the Merciless when he shows himself. Let him come down. Stay within the ring of Valhalas.&quot;</span>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>);</div>
+<div class="line"><span class="lineno">  363</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  364</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#a924899e72eb277474ea041b708efca1ea035a492cfe8b41e766c94145059e5af2">QUEST_BFV_FINAL</a>:</div>
+<div class="line"><span class="lineno">  365</span>                creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a27d1fd6a83052ee1843832208e407e87">Say</a>(<span class="stringliteral">&quot;It&#39;s too late to run now. Do not leave the ring. Die bravely, $N!&quot;</span>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>);</div>
+<div class="line"><span class="lineno">  366</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  367</span>        }</div>
+<div class="line"><span class="lineno">  368</span> </div>
+<div class="line"><span class="lineno">  369</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  370</span>    }</div>
+<div class="ttc" id="a_scripted_creature_8h_html_a0476b18cfebeb691aabb4344ec4f8af3"><div class="ttname"><a href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a></div><div class="ttdeci">#define CAST_AI(a, b)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:27</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a></div><div class="ttdeci">@ LANG_UNIVERSAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:707</div></div>
+<div class="ttc" id="a_unit_8h_html_ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d">UNIT_NPC_FLAG_QUESTGIVER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_QUESTGIVER</div><div class="ttdef"><b>Definition:</b> Unit.h:517</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_unit_html_a27d1fd6a83052ee1843832208e407e87"><div class="ttname"><a href="../../da/db7/class_unit.html#a27d1fd6a83052ee1843832208e407e87">Unit::Say</a></div><div class="ttdeci">virtual void Say(std::string_view text, Language language, WorldObject const *target=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:21143</div></div>
+<div class="ttc" id="aclass_unit_html_a3c20bbd85474cc42ac23b3bd1c5f54c5"><div class="ttname"><a href="../../da/db7/class_unit.html#a3c20bbd85474cc42ac23b3bd1c5f54c5">Unit::Yell</a></div><div class="ttdeci">virtual void Yell(std::string_view text, Language language, WorldObject const *target=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:21148</div></div>
+<div class="ttc" id="aclass_unit_html_a629e9a4f8c5987b034e409c9c74297b9"><div class="ttname"><a href="../../da/db7/class_unit.html#a629e9a4f8c5987b034e409c9c74297b9">Unit::RemoveNpcFlag</a></div><div class="ttdeci">void RemoveNpcFlag(NPCFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1645</div></div>
+<div class="ttc" id="astructnpc__battle__at__valhalas_1_1npc__battle__at__valhalas_a_i_html"><div class="ttname"><a href="../../d5/dbf/structnpc__battle__at__valhalas_1_1npc__battle__at__valhalas_a_i.html">npc_battle_at_valhalas::npc_battle_at_valhalasAI</a></div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:116</div></div>
+<div class="ttc" id="azone__icecrown_8cpp_html_a924899e72eb277474ea041b708efca1ea035a492cfe8b41e766c94145059e5af2"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#a924899e72eb277474ea041b708efca1ea035a492cfe8b41e766c94145059e5af2">QUEST_BFV_FINAL</a></div><div class="ttdeci">@ QUEST_BFV_FINAL</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:88</div></div>
+<div class="ttc" id="azone__icecrown_8cpp_html_a924899e72eb277474ea041b708efca1ea1fd65387dbeda545e7e8162dc6b1adb9"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#a924899e72eb277474ea041b708efca1ea1fd65387dbeda545e7e8162dc6b1adb9">QUEST_BFV_CARNAGE</a></div><div class="ttdeci">@ QUEST_BFV_CARNAGE</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:86</div></div>
+<div class="ttc" id="azone__icecrown_8cpp_html_a924899e72eb277474ea041b708efca1ea43975e4ae2548724d961127f962b1f2e"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#a924899e72eb277474ea041b708efca1ea43975e4ae2548724d961127f962b1f2e">QUEST_BFV_DARK_MASTER</a></div><div class="ttdeci">@ QUEST_BFV_DARK_MASTER</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:84</div></div>
+<div class="ttc" id="azone__icecrown_8cpp_html_a924899e72eb277474ea041b708efca1ea668b3e3e40c588e6ddac4314c4fe18ab"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#a924899e72eb277474ea041b708efca1ea668b3e3e40c588e6ddac4314c4fe18ab">QUEST_BFV_FALLEN_HEROES</a></div><div class="ttdeci">@ QUEST_BFV_FALLEN_HEROES</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:83</div></div>
+<div class="ttc" id="azone__icecrown_8cpp_html_a924899e72eb277474ea041b708efca1ea6b3badbabae26cbe0dc549e50029130d"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#a924899e72eb277474ea041b708efca1ea6b3badbabae26cbe0dc549e50029130d">QUEST_BFV_SIGRID</a></div><div class="ttdeci">@ QUEST_BFV_SIGRID</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:85</div></div>
+<div class="ttc" id="azone__icecrown_8cpp_html_a924899e72eb277474ea041b708efca1eacd3c6091fc78f162f69904387e80bb76"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#a924899e72eb277474ea041b708efca1eacd3c6091fc78f162f69904387e80bb76">QUEST_BFV_THANE</a></div><div class="ttdeci">@ QUEST_BFV_THANE</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:87</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d6/d81/zone__icecrown_8cpp.html">zone_icecrown.cpp</a></li>
+<li><a class="el" href="../../">zone_icecrown.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -295,7 +348,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d29/classnpc__battle__at__valhalas.html">npc_battle_at_valhalas</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:03 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

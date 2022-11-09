@@ -396,7 +396,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acbf4d330bb5bf4a032732895e8f7e35b" name="acbf4d330bb5bf4a032732895e8f7e35b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acbf4d330bb5bf4a032732895e8f7e35b">&#9670;&#160;</a></span>boss_freya_nature_bombAI()</h2>
 
@@ -420,7 +421,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1213</span>                                                      : <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(pCreature)</div>
+<div class="line"><span class="lineno"> 1214</span>        {</div>
+<div class="line"><span class="lineno"> 1215</span>            <a class="code hl_variable" href="../../d3/d10/structboss__freya__nature__bomb_1_1boss__freya__nature__bomb_a_i.html#a1a7579cc6957a52d65a1d302d5ba1da0">_goGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno"> 1216</span>        }</div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="astructboss__freya__nature__bomb_1_1boss__freya__nature__bomb_a_i_html_a1a7579cc6957a52d65a1d302d5ba1da0"><div class="ttname"><a href="../../d3/d10/structboss__freya__nature__bomb_1_1boss__freya__nature__bomb_a_i.html#a1a7579cc6957a52d65a1d302d5ba1da0">boss_freya_nature_bomb::boss_freya_nature_bombAI::_goGUID</a></div><div class="ttdeci">ObjectGuid _goGUID</div><div class="ttdef"><b>Definition:</b> boss_freya.cpp:1218</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -448,7 +456,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a43eb9ef68b977d98f6618d69a0d62115">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1222</span>        {</div>
+<div class="line"><span class="lineno"> 1223</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a377db81f5f6922aae4a4c3fcac603be2">SetObjectScale</a>(0.5f);</div>
+<div class="line"><span class="lineno"> 1224</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../df/d87/boss__freya_8cpp.html#ab11cf06593f4e436af59534b8b96644fa72d2a0f288eec28f92c56eb0bbda7654">SPELL_GREEN_BANISH_STATE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1225</span> </div>
+<div class="line"><span class="lineno"> 1226</span>            <a class="code hl_variable" href="../../d3/d10/structboss__freya__nature__bomb_1_1boss__freya__nature__bomb_a_i.html#a2af9ed2067097eec2a647f17f8b1ef71">_explodeTimer</a> = 0;</div>
+<div class="line"><span class="lineno"> 1227</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* go = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ae5570989260234d213323c44ab5fb44c">SummonGameObject</a>(194902 <span class="comment">/*GO_NATURE_BOMB*/</span>, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>(), 0, 0, 0, 0, 0, 0))</div>
+<div class="line"><span class="lineno"> 1228</span>                <a class="code hl_variable" href="../../d3/d10/structboss__freya__nature__bomb_1_1boss__freya__nature__bomb_a_i.html#a1a7579cc6957a52d65a1d302d5ba1da0">_goGUID</a> = go-&gt;GetGUID();</div>
+<div class="line"><span class="lineno"> 1229</span>        }</div>
+<div class="ttc" id="aboss__freya_8cpp_html_ab11cf06593f4e436af59534b8b96644fa72d2a0f288eec28f92c56eb0bbda7654"><div class="ttname"><a href="../../df/d87/boss__freya_8cpp.html#ab11cf06593f4e436af59534b8b96644fa72d2a0f288eec28f92c56eb0bbda7654">SPELL_GREEN_BANISH_STATE</a></div><div class="ttdeci">@ SPELL_GREEN_BANISH_STATE</div><div class="ttdef"><b>Definition:</b> boss_freya.cpp:44</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_creature_html_a377db81f5f6922aae4a4c3fcac603be2"><div class="ttname"><a href="../../d1/dac/class_creature.html#a377db81f5f6922aae4a4c3fcac603be2">Creature::SetObjectScale</a></div><div class="ttdeci">void SetObjectScale(float scale) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3353</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_world_object_html_ae5570989260234d213323c44ab5fb44c"><div class="ttname"><a href="../../db/df7/class_world_object.html#ae5570989260234d213323c44ab5fb44c">WorldObject::SummonGameObject</a></div><div class="ttdeci">GameObject * SummonGameObject(uint32 entry, float x, float y, float z, float ang, float rotation0, float rotation1, float rotation2, float rotation3, uint32 respawnTime, bool checkTransport=true, GOSummonType summonType=GO_SUMMON_TIMED_OR_CORPSE_DESPAWN)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2315</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astructboss__freya__nature__bomb_1_1boss__freya__nature__bomb_a_i_html_a2af9ed2067097eec2a647f17f8b1ef71"><div class="ttname"><a href="../../d3/d10/structboss__freya__nature__bomb_1_1boss__freya__nature__bomb_a_i.html#a2af9ed2067097eec2a647f17f8b1ef71">boss_freya_nature_bomb::boss_freya_nature_bombAI::_explodeTimer</a></div><div class="ttdeci">uint32 _explodeTimer</div><div class="ttdef"><b>Definition:</b> boss_freya.cpp:1219</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4bfa9df3e3151743485f59c4d318d7f9" name="a4bfa9df3e3151743485f59c4d318d7f9"></a>
@@ -476,7 +502,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1233</span>        {</div>
+<div class="line"><span class="lineno"> 1234</span>            <a class="code hl_variable" href="../../d3/d10/structboss__freya__nature__bomb_1_1boss__freya__nature__bomb_a_i.html#a2af9ed2067097eec2a647f17f8b1ef71">_explodeTimer</a> += diff;</div>
+<div class="line"><span class="lineno"> 1235</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d10/structboss__freya__nature__bomb_1_1boss__freya__nature__bomb_a_i.html#a2af9ed2067097eec2a647f17f8b1ef71">_explodeTimer</a> &gt;= 11000)</div>
+<div class="line"><span class="lineno"> 1236</span>            {</div>
+<div class="line"><span class="lineno"> 1237</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a594813fab209738971cc54b69fff4aa1">Is25ManRaid</a>() ? <a class="code hl_enumvalue" href="../../df/d87/boss__freya_8cpp.html#ab11cf06593f4e436af59534b8b96644fa2f733248b8ea973eea768d9b3c9ab598">SPELL_NATURE_BOMB_DAMAGE_25</a> : <a class="code hl_enumvalue" href="../../df/d87/boss__freya_8cpp.html#ab11cf06593f4e436af59534b8b96644fa1a46469986549e9c9000594857365fbc">SPELL_NATURE_BOMB_DAMAGE_10</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 1238</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(1000);</div>
+<div class="line"><span class="lineno"> 1239</span>                <a class="code hl_variable" href="../../d3/d10/structboss__freya__nature__bomb_1_1boss__freya__nature__bomb_a_i.html#a2af9ed2067097eec2a647f17f8b1ef71">_explodeTimer</a> = 0;</div>
+<div class="line"><span class="lineno"> 1240</span>            }</div>
+<div class="line"><span class="lineno"> 1241</span> </div>
+<div class="line"><span class="lineno"> 1242</span>            <span class="comment">// Delay explosion a little, visual</span></div>
+<div class="line"><span class="lineno"> 1243</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d10/structboss__freya__nature__bomb_1_1boss__freya__nature__bomb_a_i.html#a2af9ed2067097eec2a647f17f8b1ef71">_explodeTimer</a> &gt;= 5000 &amp;&amp; <a class="code hl_variable" href="../../d3/d10/structboss__freya__nature__bomb_1_1boss__freya__nature__bomb_a_i.html#a2af9ed2067097eec2a647f17f8b1ef71">_explodeTimer</a> &lt; 10000)</div>
+<div class="line"><span class="lineno"> 1244</span>            {</div>
+<div class="line"><span class="lineno"> 1245</span>                <a class="code hl_variable" href="../../d3/d10/structboss__freya__nature__bomb_1_1boss__freya__nature__bomb_a_i.html#a2af9ed2067097eec2a647f17f8b1ef71">_explodeTimer</a> = 10000;</div>
+<div class="line"><span class="lineno"> 1246</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* go = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a92001d81940cdfec678ec714248052a5">GetGameObject</a>(<a class="code hl_variable" href="../../d3/d10/structboss__freya__nature__bomb_1_1boss__freya__nature__bomb_a_i.html#a1a7579cc6957a52d65a1d302d5ba1da0">_goGUID</a>))</div>
+<div class="line"><span class="lineno"> 1247</span>                    go-&gt;SetGoState(<a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a>);</div>
+<div class="line"><span class="lineno"> 1248</span>            }</div>
+<div class="line"><span class="lineno"> 1249</span>        }</div>
+<div class="ttc" id="a_game_object_8h_html_ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a></div><div class="ttdeci">@ GO_STATE_ACTIVE</div><div class="ttdef"><b>Definition:</b> GameObject.h:734</div></div>
+<div class="ttc" id="aboss__freya_8cpp_html_ab11cf06593f4e436af59534b8b96644fa1a46469986549e9c9000594857365fbc"><div class="ttname"><a href="../../df/d87/boss__freya_8cpp.html#ab11cf06593f4e436af59534b8b96644fa1a46469986549e9c9000594857365fbc">SPELL_NATURE_BOMB_DAMAGE_10</a></div><div class="ttdeci">@ SPELL_NATURE_BOMB_DAMAGE_10</div><div class="ttdef"><b>Definition:</b> boss_freya.cpp:42</div></div>
+<div class="ttc" id="aboss__freya_8cpp_html_ab11cf06593f4e436af59534b8b96644fa2f733248b8ea973eea768d9b3c9ab598"><div class="ttname"><a href="../../df/d87/boss__freya_8cpp.html#ab11cf06593f4e436af59534b8b96644fa2f733248b8ea973eea768d9b3c9ab598">SPELL_NATURE_BOMB_DAMAGE_25</a></div><div class="ttdeci">@ SPELL_NATURE_BOMB_DAMAGE_25</div><div class="ttdef"><b>Definition:</b> boss_freya.cpp:43</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_map_html_a594813fab209738971cc54b69fff4aa1"><div class="ttname"><a href="../../dd/d11/class_map.html#a594813fab209738971cc54b69fff4aa1">Map::Is25ManRaid</a></div><div class="ttdeci">bool Is25ManRaid() const</div><div class="ttdef"><b>Definition:</b> Map.h:452</div></div>
+<div class="ttc" id="aclass_map_html_a92001d81940cdfec678ec714248052a5"><div class="ttname"><a href="../../dd/d11/class_map.html#a92001d81940cdfec678ec714248052a5">Map::GetGameObject</a></div><div class="ttdeci">GameObject * GetGameObject(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> Map.cpp:3295</div></div>
+<div class="ttc" id="aclass_world_object_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:517</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -523,7 +573,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../df/d87/boss__freya_8cpp.html">boss_freya.cpp</a></li>
+<li><a class="el" href="../../">boss_freya.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -531,7 +581,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d37/classboss__freya__nature__bomb.html">boss_freya_nature_bomb</a></li><li class="navelem"><a class="el" href="../../d3/d10/structboss__freya__nature__bomb_1_1boss__freya__nature__bomb_a_i.html">boss_freya_nature_bombAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:39 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:51 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -524,7 +524,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a984b3d32d5f231a019f2c0f1bb027907" name="a984b3d32d5f231a019f2c0f1bb027907"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a984b3d32d5f231a019f2c0f1bb027907">&#9670;&#160;</a></span>boss_shazzrahAI()</h2>
 
@@ -548,7 +549,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   50</span>: <a class="code hl_class" href="../../d4/d0e/class_boss_a_i.html">BossAI</a>(creature, <a class="code hl_enumvalue" href="../../d0/dad/molten__core_8h.html#a7c5374c5c88b8d5b5f91cf4ba0b06cfeae0b75a46ae6efb1e3184a33445bd99a0">DATA_SHAZZRAH</a>) {}</div>
+<div class="ttc" id="aclass_boss_a_i_html"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html">BossAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:424</div></div>
+<div class="ttc" id="amolten__core_8h_html_a7c5374c5c88b8d5b5f91cf4ba0b06cfeae0b75a46ae6efb1e3184a33445bd99a0"><div class="ttname"><a href="../../d0/dad/molten__core_8h.html#a7c5374c5c88b8d5b5f91cf4ba0b06cfeae0b75a46ae6efb1e3184a33445bd99a0">DATA_SHAZZRAH</a></div><div class="ttdeci">@ DATA_SHAZZRAH</div><div class="ttdef"><b>Definition:</b> molten_core.h:34</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -577,7 +581,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a2f3d2c15114cff26b92dedd45dff0905">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   53</span>        {</div>
+<div class="line"><span class="lineno">   54</span>            <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">_EnterCombat</a>();</div>
+<div class="line"><span class="lineno">   55</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a77555109b1c145d26a3e4e3faa3e37a5">EVENT_ARCANE_EXPLOSION</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(2000, 4000));</div>
+<div class="line"><span class="lineno">   56</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ab13564888e52fad8973a6c5cd9034fc3">EVENT_SHAZZRAH_CURSE</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(7000, 11000));</div>
+<div class="line"><span class="lineno">   57</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ac30f8c8354deee6931f7b67cdfc1394a">EVENT_MAGIC_GROUNDING</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(14000, 19000));</div>
+<div class="line"><span class="lineno">   58</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a3a1bacca4a652d58adaa186c72b16c4d">EVENT_COUNTERSPELL</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(9000, 10000));</div>
+<div class="line"><span class="lineno">   59</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa190a1a901ad052af84001e8cafb1972">EVENT_SHAZZRAH_GATE</a>, 30000);</div>
+<div class="line"><span class="lineno">   60</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aboss__shazzrah_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a3a1bacca4a652d58adaa186c72b16c4d"><div class="ttname"><a href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a3a1bacca4a652d58adaa186c72b16c4d">EVENT_COUNTERSPELL</a></div><div class="ttdeci">@ EVENT_COUNTERSPELL</div><div class="ttdef"><b>Definition:</b> boss_shazzrah.cpp:39</div></div>
+<div class="ttc" id="aboss__shazzrah_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a77555109b1c145d26a3e4e3faa3e37a5"><div class="ttname"><a href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a77555109b1c145d26a3e4e3faa3e37a5">EVENT_ARCANE_EXPLOSION</a></div><div class="ttdeci">@ EVENT_ARCANE_EXPLOSION</div><div class="ttdef"><b>Definition:</b> boss_shazzrah.cpp:36</div></div>
+<div class="ttc" id="aboss__shazzrah_8cpp_html_af60e00b78607064c5be6aa9397ea49c1aa190a1a901ad052af84001e8cafb1972"><div class="ttname"><a href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa190a1a901ad052af84001e8cafb1972">EVENT_SHAZZRAH_GATE</a></div><div class="ttdeci">@ EVENT_SHAZZRAH_GATE</div><div class="ttdef"><b>Definition:</b> boss_shazzrah.cpp:40</div></div>
+<div class="ttc" id="aboss__shazzrah_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ab13564888e52fad8973a6c5cd9034fc3"><div class="ttname"><a href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ab13564888e52fad8973a6c5cd9034fc3">EVENT_SHAZZRAH_CURSE</a></div><div class="ttdeci">@ EVENT_SHAZZRAH_CURSE</div><div class="ttdef"><b>Definition:</b> boss_shazzrah.cpp:37</div></div>
+<div class="ttc" id="aboss__shazzrah_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ac30f8c8354deee6931f7b67cdfc1394a"><div class="ttname"><a href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ac30f8c8354deee6931f7b67cdfc1394a">EVENT_MAGIC_GROUNDING</a></div><div class="ttdeci">@ EVENT_MAGIC_GROUNDING</div><div class="ttdef"><b>Definition:</b> boss_shazzrah.cpp:38</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_adbdded8bea1d5cf779f2aed9bc2a4821"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">BossAI::_EnterCombat</a></div><div class="ttdeci">void _EnterCombat()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:562</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0f6e3e6876b9b769ea53db5c9028c6ff" name="a0f6e3e6876b9b769ea53db5c9028c6ff"></a>
@@ -605,11 +625,61 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a8bf8914221409d5403cf3522f70d28d6">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   63</span>        {</div>
+<div class="line"><span class="lineno">   64</span>            <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno">   65</span>            {</div>
+<div class="line"><span class="lineno">   66</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a77555109b1c145d26a3e4e3faa3e37a5">EVENT_ARCANE_EXPLOSION</a>:</div>
+<div class="line"><span class="lineno">   67</span>                {</div>
+<div class="line"><span class="lineno">   68</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#a5bd342133be8c2137b831460acc9298ca6cef4c5e88133771f6b27aec8b8cfdce">SPELL_ARCANE_EXPLOSION</a>);</div>
+<div class="line"><span class="lineno">   69</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(4000, 5000));</div>
+<div class="line"><span class="lineno">   70</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   71</span>                }</div>
+<div class="line"><span class="lineno">   72</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ab13564888e52fad8973a6c5cd9034fc3">EVENT_SHAZZRAH_CURSE</a>:</div>
+<div class="line"><span class="lineno">   73</span>                {</div>
+<div class="line"><span class="lineno">   74</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 0.0f, <span class="keyword">true</span>, -<a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#a5bd342133be8c2137b831460acc9298cad1f34032baac5d21eff433ee40814963">SPELL_SHAZZRAH_CURSE</a>))</div>
+<div class="line"><span class="lineno">   75</span>                    {</div>
+<div class="line"><span class="lineno">   76</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#a5bd342133be8c2137b831460acc9298cad1f34032baac5d21eff433ee40814963">SPELL_SHAZZRAH_CURSE</a>);</div>
+<div class="line"><span class="lineno">   77</span>                    }</div>
+<div class="line"><span class="lineno">   78</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(23000, 26000));</div>
+<div class="line"><span class="lineno">   79</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   80</span>                }</div>
+<div class="line"><span class="lineno">   81</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ac30f8c8354deee6931f7b67cdfc1394a">EVENT_MAGIC_GROUNDING</a>:</div>
+<div class="line"><span class="lineno">   82</span>                {</div>
+<div class="line"><span class="lineno">   83</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#a5bd342133be8c2137b831460acc9298caaaa5ae3a08209e161a52da70e8beef40">SPELL_MAGIC_GROUNDING</a>);</div>
+<div class="line"><span class="lineno">   84</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(7000, 9000));</div>
+<div class="line"><span class="lineno">   85</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   86</span>                }</div>
+<div class="line"><span class="lineno">   87</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a3a1bacca4a652d58adaa186c72b16c4d">EVENT_COUNTERSPELL</a>:</div>
+<div class="line"><span class="lineno">   88</span>                {</div>
+<div class="line"><span class="lineno">   89</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#a5bd342133be8c2137b831460acc9298ca361e156e4e2b1aab5b2a522871b5abdb">SPELL_COUNTERSPELL</a>);</div>
+<div class="line"><span class="lineno">   90</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(15000, 18000));</div>
+<div class="line"><span class="lineno">   91</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   92</span>                }</div>
+<div class="line"><span class="lineno">   93</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa190a1a901ad052af84001e8cafb1972">EVENT_SHAZZRAH_GATE</a>:</div>
+<div class="line"><span class="lineno">   94</span>                {</div>
+<div class="line"><span class="lineno">   95</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#a5bd342133be8c2137b831460acc9298ca85e3ca243067820c549e3c0c0ee34f6d">SPELL_SHAZZRAH_GATE_DUMMY</a>);</div>
+<div class="line"><span class="lineno">   96</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RescheduleEvent(<a class="code hl_enumvalue" href="../../d5/d5d/boss__shazzrah_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a77555109b1c145d26a3e4e3faa3e37a5">EVENT_ARCANE_EXPLOSION</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(3000, 6000));</div>
+<div class="line"><span class="lineno">   97</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(45000);</div>
+<div class="line"><span class="lineno">   98</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   99</span>                }</div>
+<div class="line"><span class="lineno">  100</span>            }</div>
+<div class="line"><span class="lineno">  101</span>        }</div>
+<div class="ttc" id="aboss__shazzrah_8cpp_html_a5bd342133be8c2137b831460acc9298ca361e156e4e2b1aab5b2a522871b5abdb"><div class="ttname"><a href="../../d5/d5d/boss__shazzrah_8cpp.html#a5bd342133be8c2137b831460acc9298ca361e156e4e2b1aab5b2a522871b5abdb">SPELL_COUNTERSPELL</a></div><div class="ttdeci">@ SPELL_COUNTERSPELL</div><div class="ttdef"><b>Definition:</b> boss_shazzrah.cpp:29</div></div>
+<div class="ttc" id="aboss__shazzrah_8cpp_html_a5bd342133be8c2137b831460acc9298ca6cef4c5e88133771f6b27aec8b8cfdce"><div class="ttname"><a href="../../d5/d5d/boss__shazzrah_8cpp.html#a5bd342133be8c2137b831460acc9298ca6cef4c5e88133771f6b27aec8b8cfdce">SPELL_ARCANE_EXPLOSION</a></div><div class="ttdeci">@ SPELL_ARCANE_EXPLOSION</div><div class="ttdef"><b>Definition:</b> boss_shazzrah.cpp:26</div></div>
+<div class="ttc" id="aboss__shazzrah_8cpp_html_a5bd342133be8c2137b831460acc9298ca85e3ca243067820c549e3c0c0ee34f6d"><div class="ttname"><a href="../../d5/d5d/boss__shazzrah_8cpp.html#a5bd342133be8c2137b831460acc9298ca85e3ca243067820c549e3c0c0ee34f6d">SPELL_SHAZZRAH_GATE_DUMMY</a></div><div class="ttdeci">@ SPELL_SHAZZRAH_GATE_DUMMY</div><div class="ttdef"><b>Definition:</b> boss_shazzrah.cpp:30</div></div>
+<div class="ttc" id="aboss__shazzrah_8cpp_html_a5bd342133be8c2137b831460acc9298caaaa5ae3a08209e161a52da70e8beef40"><div class="ttname"><a href="../../d5/d5d/boss__shazzrah_8cpp.html#a5bd342133be8c2137b831460acc9298caaaa5ae3a08209e161a52da70e8beef40">SPELL_MAGIC_GROUNDING</a></div><div class="ttdeci">@ SPELL_MAGIC_GROUNDING</div><div class="ttdef"><b>Definition:</b> boss_shazzrah.cpp:28</div></div>
+<div class="ttc" id="aboss__shazzrah_8cpp_html_a5bd342133be8c2137b831460acc9298cad1f34032baac5d21eff433ee40814963"><div class="ttname"><a href="../../d5/d5d/boss__shazzrah_8cpp.html#a5bd342133be8c2137b831460acc9298cad1f34032baac5d21eff433ee40814963">SPELL_SHAZZRAH_CURSE</a></div><div class="ttdeci">@ SPELL_SHAZZRAH_CURSE</div><div class="ttdef"><b>Definition:</b> boss_shazzrah.cpp:27</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a1e37cbb75f91c247b04131afc7ce35f5"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">UnitAI::DoCastAOE</a></div><div class="ttdeci">SpellCastResult DoCastAOE(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:249</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6ae5c7d15b747433f4d94f80bcebd215"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">UnitAI::DoCastSelf</a></div><div class="ttdeci">SpellCastResult DoCastSelf(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:323</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/<a class="el" href="../../d5/d5d/boss__shazzrah_8cpp.html">boss_shazzrah.cpp</a></li>
+<li><a class="el" href="../../">boss_shazzrah.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -617,7 +687,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d78/classboss__shazzrah.html">boss_shazzrah</a></li><li class="navelem"><a class="el" href="../../d1/dd6/structboss__shazzrah_1_1boss__shazzrah_a_i.html">boss_shazzrahAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:42 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:55 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

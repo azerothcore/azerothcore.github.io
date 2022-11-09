@@ -181,7 +181,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa992bd7029a56faca4b92637688fe845" name="aa992bd7029a56faca4b92637688fe845"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa992bd7029a56faca4b92637688fe845">&#9670;&#160;</a></span>go_father_flame()</h2>
 
@@ -204,7 +205,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  818</span>: <a class="code hl_class" href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a>(<span class="stringliteral">&quot;go_father_flame&quot;</span>) {}</div>
+<div class="ttc" id="aclass_game_object_script_html"><div class="ttname"><a href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:758</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -249,11 +252,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#ab93c178f2137e92da28665d28bfec1d5">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  821</span>    {</div>
+<div class="line"><span class="lineno">  822</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno">  823</span>        {</div>
+<div class="line"><span class="lineno">  824</span>            <span class="keywordflow">if</span> (state == <a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07a3e50ac5f6829b981fdff39a85a48959e">GO_ACTIVATED</a>)</div>
+<div class="line"><span class="lineno">  825</span>            {</div>
+<div class="line"><span class="lineno">  826</span>                <span class="keywordflow">if</span> (instance-&gt;GetData(<a class="code hl_enumvalue" href="../../df/d13/blackrock__spire_8h.html#afb6eb4f28419b652027fad41104a6d22a327a9d57691f8ba2aeeede72e89909eb">DATA_SOLAKAR_FLAMEWREATH</a>) == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a> || instance-&gt;GetData(<a class="code hl_enumvalue" href="../../df/d13/blackrock__spire_8h.html#afb6eb4f28419b652027fad41104a6d22a327a9d57691f8ba2aeeede72e89909eb">DATA_SOLAKAR_FLAMEWREATH</a>) == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">  827</span>                {</div>
+<div class="line"><span class="lineno">  828</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  829</span>                }</div>
+<div class="line"><span class="lineno">  830</span> </div>
+<div class="line"><span class="lineno">  831</span>                instance-&gt;SetData(<a class="code hl_enumvalue" href="../../df/d13/blackrock__spire_8h.html#afb6eb4f28419b652027fad41104a6d22a327a9d57691f8ba2aeeede72e89909eb">DATA_SOLAKAR_FLAMEWREATH</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>);</div>
+<div class="line"><span class="lineno">  832</span>            }</div>
+<div class="line"><span class="lineno">  833</span>        }</div>
+<div class="line"><span class="lineno">  834</span>    }</div>
+<div class="ttc" id="a_game_object_8h_html_a08733f20cea1f77cc9f1a549f8ce9f07a3e50ac5f6829b981fdff39a85a48959e"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07a3e50ac5f6829b981fdff39a85a48959e">GO_ACTIVATED</a></div><div class="ttdeci">@ GO_ACTIVATED</div><div class="ttdef"><b>Definition:</b> GameObject.h:802</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="ablackrock__spire_8h_html_afb6eb4f28419b652027fad41104a6d22a327a9d57691f8ba2aeeede72e89909eb"><div class="ttname"><a href="../../df/d13/blackrock__spire_8h.html#afb6eb4f28419b652027fad41104a6d22a327a9d57691f8ba2aeeede72e89909eb">DATA_SOLAKAR_FLAMEWREATH</a></div><div class="ttdeci">@ DATA_SOLAKAR_FLAMEWREATH</div><div class="ttdef"><b>Definition:</b> blackrock_spire.h:53</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/<a class="el" href="../../df/d1e/instance__blackrock__spire_8cpp.html">instance_blackrock_spire.cpp</a></li>
+<li><a class="el" href="../../">instance_blackrock_spire.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -261,7 +284,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/dcb/classgo__father__flame.html">go_father_flame</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

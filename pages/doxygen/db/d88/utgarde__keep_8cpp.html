@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Northrend/UtgardeKeep/UtgardeKeep/utgarde_keep.cpp File Reference</title>
+<title>AzeorthCore: utgarde_keep.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -113,12 +113,14 @@ $(document).ready(function(){initNavTree('db/d88/utgarde__keep_8cpp.html','../..
   <div class="headertitle"><div class="title">utgarde_keep.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d1/dbc/utgarde__keep_8h_source.html">utgarde_keep.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dcc/_game_object_a_i_8h_source.html">GameObjectAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dad/_scripted_creature_8h_source.html">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d90/_vehicle_8h_source.html">Vehicle.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">utgarde_keep.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObjectAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d07/classnpc__dragonflayer__forge__master.html">npc_dragonflayer_forge_master</a></td></tr>
@@ -197,7 +199,33 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a5858242a9c3f514606e1286c62fcf278aa72ede58fa3714726fab8d4b7252f5fa" name="a5858242a9c3f514606e1286c62fcf278aa72ede58fa3714726fab8d4b7252f5fa"></a>SPELL_KNOCK_AWAY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5858242a9c3f514606e1286c62fcf278a9075532cf57e3c71280e99da7ca250ee" name="a5858242a9c3f514606e1286c62fcf278a9075532cf57e3c71280e99da7ca250ee"></a>POINT_LAST&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   93</span>{</div>
+<div class="line"><span class="lineno">   94</span>    <a class="code hl_enumvalue" href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278a67b1878880ae995cdbaec79457546a56">TYPE_PROTODRAKE_AT</a>      = 28,</div>
+<div class="line"><span class="lineno">   95</span>    <a class="code hl_enumvalue" href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278a70a656538162760f8556efa23d8e4aad">DATA_PROTODRAKE_MOVE</a>    = 6,</div>
+<div class="line"><span class="lineno">   96</span> </div>
+<div class="line"><span class="lineno">   97</span>    <a class="code hl_enumvalue" href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278a9657512d7b2350f4b622e2e6abbb5076">PATH_PROTODRAKE</a>         = 125946,</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span>    <a class="code hl_enumvalue" href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278a4330423ee013a070a273cb7ffefebd5d">EVENT_REND</a>              = 1,</div>
+<div class="line"><span class="lineno">  100</span>    <a class="code hl_enumvalue" href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278a150e396f9798bfba68078c51afc82d40">EVENT_FLAME_BREATH</a>      = 2,</div>
+<div class="line"><span class="lineno">  101</span>    <a class="code hl_enumvalue" href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278ae40c8bf9c431d3b6ad432c7193166517">EVENT_KNOCKAWAY</a>         = 3,</div>
+<div class="line"><span class="lineno">  102</span> </div>
+<div class="line"><span class="lineno">  103</span>    <a class="code hl_enumvalue" href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278ac553ad24710435636bd9736df18484c6">SPELL_REND</a>              = 43931,</div>
+<div class="line"><span class="lineno">  104</span>    <a class="code hl_enumvalue" href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278a4ee087423aeceb0f7c0aa5108e9b443b">SPELL_FLAME_BREATH</a>      = 50653,</div>
+<div class="line"><span class="lineno">  105</span>    <a class="code hl_enumvalue" href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278aa72ede58fa3714726fab8d4b7252f5fa">SPELL_KNOCK_AWAY</a>        = 49722,</div>
+<div class="line"><span class="lineno">  106</span> </div>
+<div class="line"><span class="lineno">  107</span>    <a class="code hl_enumvalue" href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278a9075532cf57e3c71280e99da7ca250ee">POINT_LAST</a>              = 5,</div>
+<div class="line"><span class="lineno">  108</span>};</div>
+<div class="ttc" id="autgarde__keep_8cpp_html_a5858242a9c3f514606e1286c62fcf278a150e396f9798bfba68078c51afc82d40"><div class="ttname"><a href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278a150e396f9798bfba68078c51afc82d40">EVENT_FLAME_BREATH</a></div><div class="ttdeci">@ EVENT_FLAME_BREATH</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:100</div></div>
+<div class="ttc" id="autgarde__keep_8cpp_html_a5858242a9c3f514606e1286c62fcf278a4330423ee013a070a273cb7ffefebd5d"><div class="ttname"><a href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278a4330423ee013a070a273cb7ffefebd5d">EVENT_REND</a></div><div class="ttdeci">@ EVENT_REND</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:99</div></div>
+<div class="ttc" id="autgarde__keep_8cpp_html_a5858242a9c3f514606e1286c62fcf278a4ee087423aeceb0f7c0aa5108e9b443b"><div class="ttname"><a href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278a4ee087423aeceb0f7c0aa5108e9b443b">SPELL_FLAME_BREATH</a></div><div class="ttdeci">@ SPELL_FLAME_BREATH</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:104</div></div>
+<div class="ttc" id="autgarde__keep_8cpp_html_a5858242a9c3f514606e1286c62fcf278a67b1878880ae995cdbaec79457546a56"><div class="ttname"><a href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278a67b1878880ae995cdbaec79457546a56">TYPE_PROTODRAKE_AT</a></div><div class="ttdeci">@ TYPE_PROTODRAKE_AT</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:94</div></div>
+<div class="ttc" id="autgarde__keep_8cpp_html_a5858242a9c3f514606e1286c62fcf278a70a656538162760f8556efa23d8e4aad"><div class="ttname"><a href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278a70a656538162760f8556efa23d8e4aad">DATA_PROTODRAKE_MOVE</a></div><div class="ttdeci">@ DATA_PROTODRAKE_MOVE</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:95</div></div>
+<div class="ttc" id="autgarde__keep_8cpp_html_a5858242a9c3f514606e1286c62fcf278a9075532cf57e3c71280e99da7ca250ee"><div class="ttname"><a href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278a9075532cf57e3c71280e99da7ca250ee">POINT_LAST</a></div><div class="ttdeci">@ POINT_LAST</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:107</div></div>
+<div class="ttc" id="autgarde__keep_8cpp_html_a5858242a9c3f514606e1286c62fcf278a9657512d7b2350f4b622e2e6abbb5076"><div class="ttname"><a href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278a9657512d7b2350f4b622e2e6abbb5076">PATH_PROTODRAKE</a></div><div class="ttdeci">@ PATH_PROTODRAKE</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:97</div></div>
+<div class="ttc" id="autgarde__keep_8cpp_html_a5858242a9c3f514606e1286c62fcf278aa72ede58fa3714726fab8d4b7252f5fa"><div class="ttname"><a href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278aa72ede58fa3714726fab8d4b7252f5fa">SPELL_KNOCK_AWAY</a></div><div class="ttdeci">@ SPELL_KNOCK_AWAY</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:105</div></div>
+<div class="ttc" id="autgarde__keep_8cpp_html_a5858242a9c3f514606e1286c62fcf278ac553ad24710435636bd9736df18484c6"><div class="ttname"><a href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278ac553ad24710435636bd9736df18484c6">SPELL_REND</a></div><div class="ttdeci">@ SPELL_REND</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:103</div></div>
+<div class="ttc" id="autgarde__keep_8cpp_html_a5858242a9c3f514606e1286c62fcf278ae40c8bf9c431d3b6ad432c7193166517"><div class="ttname"><a href="../../db/d88/utgarde__keep_8cpp.html#a5858242a9c3f514606e1286c62fcf278ae40c8bf9c431d3b6ad432c7193166517">EVENT_KNOCKAWAY</a></div><div class="ttdeci">@ EVENT_KNOCKAWAY</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:101</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9126ee26be77d9dcf83d14c8abae1cca" name="a9126ee26be77d9dcf83d14c8abae1cca"></a>
@@ -214,7 +242,11 @@ Variables</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9126ee26be77d9dcf83d14c8abae1ccaa7a62cc5b3c327da89b890c8c1ecac56b" name="a9126ee26be77d9dcf83d14c8abae1ccaa7a62cc5b3c327da89b890c8c1ecac56b"></a>SPELL_TICKING_TIME_BOMB_EXPLODE&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">  206</span>{</div>
+<div class="line"><span class="lineno">  207</span>    <a class="code hl_enumvalue" href="../../db/d88/utgarde__keep_8cpp.html#a9126ee26be77d9dcf83d14c8abae1ccaa7a62cc5b3c327da89b890c8c1ecac56b">SPELL_TICKING_TIME_BOMB_EXPLODE</a> = 59687</div>
+<div class="line"><span class="lineno">  208</span>};</div>
+<div class="ttc" id="autgarde__keep_8cpp_html_a9126ee26be77d9dcf83d14c8abae1ccaa7a62cc5b3c327da89b890c8c1ecac56b"><div class="ttname"><a href="../../db/d88/utgarde__keep_8cpp.html#a9126ee26be77d9dcf83d14c8abae1ccaa7a62cc5b3c327da89b890c8c1ecac56b">SPELL_TICKING_TIME_BOMB_EXPLODE</a></div><div class="ttdeci">@ SPELL_TICKING_TIME_BOMB_EXPLODE</div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:207</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -232,7 +264,16 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  245</span>{</div>
+<div class="line"><span class="lineno">  246</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/d07/classnpc__dragonflayer__forge__master.html">npc_dragonflayer_forge_master</a>();</div>
+<div class="line"><span class="lineno">  247</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d90/classnpc__enslaved__proto__drake.html">npc_enslaved_proto_drake</a>();</div>
+<div class="line"><span class="lineno">  248</span> </div>
+<div class="line"><span class="lineno">  249</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/daa/classspell__ticking__time__bomb.html">spell_ticking_time_bomb</a>();</div>
+<div class="line"><span class="lineno">  250</span>}</div>
+<div class="ttc" id="aclassnpc__dragonflayer__forge__master_html"><div class="ttname"><a href="../../df/d07/classnpc__dragonflayer__forge__master.html">npc_dragonflayer_forge_master</a></div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:25</div></div>
+<div class="ttc" id="aclassnpc__enslaved__proto__drake_html"><div class="ttname"><a href="../../d7/d90/classnpc__enslaved__proto__drake.html">npc_enslaved_proto_drake</a></div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:113</div></div>
+<div class="ttc" id="aclassspell__ticking__time__bomb_html"><div class="ttname"><a href="../../d8/daa/classspell__ticking__time__bomb.html">spell_ticking_time_bomb</a></div><div class="ttdef"><b>Definition:</b> utgarde_keep.cpp:211</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -256,7 +297,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_d1549822ab15c727c75ddc2dceea56dd.html">UtgardeKeep</a></li><li class="navelem"><a class="el" href="../../dir_14e88a38456ce636c6ee65eed9c3a2a1.html">UtgardeKeep</a></li><li class="navelem"><a class="el" href="../../db/d88/utgarde__keep_8cpp.html">utgarde_keep.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:43 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

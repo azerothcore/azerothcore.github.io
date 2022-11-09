@@ -483,7 +483,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1a4268b745e63992f4d0fc2028b717aa" name="a1a4268b745e63992f4d0fc2028b717aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a4268b745e63992f4d0fc2028b717aa">&#9670;&#160;</a></span>npc_greengill_slaveAI()</h2>
 
@@ -507,7 +508,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  659</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -536,7 +539,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  661</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0e75a3e8eb3503fdb3aea12e65ccc6e4" name="a0e75a3e8eb3503fdb3aea12e65ccc6e4"></a>
@@ -574,7 +578,41 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a7c4ff5a7547e75576c127ba4a514e548">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  664</span>        {</div>
+<div class="line"><span class="lineno">  665</span>            <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>();</div>
+<div class="line"><span class="lineno">  666</span>            <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno">  667</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  668</span> </div>
+<div class="line"><span class="lineno">  669</span>            <span class="keywordflow">if</span> (spellInfo-&gt;Id == <a class="code hl_define" href="../../df/d9d/zone__isle__of__queldanas_8cpp.html#a24a9b050b733edb162cbeb44b1a417b1">ORB</a> &amp;&amp; !<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_define" href="../../df/d9d/zone__isle__of__queldanas_8cpp.html#a86d4061361d537399219ef314efffca7">ENRAGE</a>))</div>
+<div class="line"><span class="lineno">  670</span>            {</div>
+<div class="line"><span class="lineno">  671</span>                <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_define" href="../../df/d9d/zone__isle__of__queldanas_8cpp.html#ad0762b57282cb563e9f6633b502fab10">QUESTG</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno">  672</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(player, 45110, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  673</span> </div>
+<div class="line"><span class="lineno">  674</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_define" href="../../df/d9d/zone__isle__of__queldanas_8cpp.html#a86d4061361d537399219ef314efffca7">ENRAGE</a>);</div>
+<div class="line"><span class="lineno">  675</span> </div>
+<div class="line"><span class="lineno">  676</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* Myrmidon = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_define" href="../../df/d9d/zone__isle__of__queldanas_8cpp.html#a9a9aac904e687286501946469e2903d6">DM</a>, 70))</div>
+<div class="line"><span class="lineno">  677</span>                {</div>
+<div class="line"><span class="lineno">  678</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a3b4dad985e3b5dde28d89afc956999e4">AddThreat</a>(Myrmidon, 100000.0f);</div>
+<div class="line"><span class="lineno">  679</span>                    <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">AttackStart</a>(Myrmidon);</div>
+<div class="line"><span class="lineno">  680</span>                }</div>
+<div class="line"><span class="lineno">  681</span>            }</div>
+<div class="line"><span class="lineno">  682</span>        }</div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html_a3b4dad985e3b5dde28d89afc956999e4"><div class="ttname"><a href="../../da/db7/class_unit.html#a3b4dad985e3b5dde28d89afc956999e4">Unit::AddThreat</a></div><div class="ttdeci">void AddThreat(Unit *victim, float fThreat, SpellSchoolMask schoolMask=SPELL_SCHOOL_MASK_NORMAL, SpellInfo const *threatSpell=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14523</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a4c91d8d2c1a6e8b234c1c4f15936c7a4"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI::AttackStart</a></div><div class="ttdeci">void AttackStart(Unit *) override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:206</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="azone__isle__of__queldanas_8cpp_html_a24a9b050b733edb162cbeb44b1a417b1"><div class="ttname"><a href="../../df/d9d/zone__isle__of__queldanas_8cpp.html#a24a9b050b733edb162cbeb44b1a417b1">ORB</a></div><div class="ttdeci">#define ORB</div><div class="ttdef"><b>Definition:</b> zone_isle_of_queldanas.cpp:643</div></div>
+<div class="ttc" id="azone__isle__of__queldanas_8cpp_html_a86d4061361d537399219ef314efffca7"><div class="ttname"><a href="../../df/d9d/zone__isle__of__queldanas_8cpp.html#a86d4061361d537399219ef314efffca7">ENRAGE</a></div><div class="ttdeci">#define ENRAGE</div><div class="ttdef"><b>Definition:</b> zone_isle_of_queldanas.cpp:642</div></div>
+<div class="ttc" id="azone__isle__of__queldanas_8cpp_html_a9a9aac904e687286501946469e2903d6"><div class="ttname"><a href="../../df/d9d/zone__isle__of__queldanas_8cpp.html#a9a9aac904e687286501946469e2903d6">DM</a></div><div class="ttdeci">#define DM</div><div class="ttdef"><b>Definition:</b> zone_isle_of_queldanas.cpp:645</div></div>
+<div class="ttc" id="azone__isle__of__queldanas_8cpp_html_ad0762b57282cb563e9f6633b502fab10"><div class="ttname"><a href="../../df/d9d/zone__isle__of__queldanas_8cpp.html#ad0762b57282cb563e9f6633b502fab10">QUESTG</a></div><div class="ttdeci">#define QUESTG</div><div class="ttdef"><b>Definition:</b> zone_isle_of_queldanas.cpp:644</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6fa27328cf47bef81c3465b8a3e2ace1" name="a6fa27328cf47bef81c3465b8a3e2ace1"></a>
@@ -602,11 +640,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  685</span>        {</div>
+<div class="line"><span class="lineno">  686</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  687</span>        }</div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/<a class="el" href="../../df/d9d/zone__isle__of__queldanas_8cpp.html">zone_isle_of_queldanas.cpp</a></li>
+<li><a class="el" href="../../">zone_isle_of_queldanas.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -614,7 +656,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/dd2/classnpc__greengill__slave.html">npc_greengill_slave</a></li><li class="navelem"><a class="el" href="../../dd/df2/structnpc__greengill__slave_1_1npc__greengill__slave_a_i.html">npc_greengill_slaveAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

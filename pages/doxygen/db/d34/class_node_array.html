@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('db/d34/class_node_array.html','../../'
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d7/d0c/_regular_grid_8h_source.html">RegularGrid.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">RegularGrid.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -127,7 +127,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a581a71d15d245efc585297c218313134"><td class="memItemLeft" align="right" valign="top">Node *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d34/class_node_array.html#a581a71d15d245efc585297c218313134">_nodes</a> [9]</td></tr>
 <tr class="separator:a581a71d15d245efc585297c218313134"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class Node&gt;<br />
+class NodeArray&lt; Node &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad14de28828d5dd9c425e47a261125423" name="ad14de28828d5dd9c425e47a261125423"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad14de28828d5dd9c425e47a261125423">&#9670;&#160;</a></span>NodeArray()</h2>
 
@@ -152,7 +154,9 @@ template&lt;class Node &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   15</span>{ memset(&amp;<a class="code hl_variable" href="../../db/d34/class_node_array.html#a581a71d15d245efc585297c218313134">_nodes</a>, 0, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../db/d34/class_node_array.html#a581a71d15d245efc585297c218313134">_nodes</a>)); }</div>
+<div class="ttc" id="aclass_node_array_html_a581a71d15d245efc585297c218313134"><div class="ttname"><a href="../../db/d34/class_node_array.html#a581a71d15d245efc585297c218313134">NodeArray::_nodes</a></div><div class="ttdeci">Node * _nodes[9]</div><div class="ttdef"><b>Definition:</b> RegularGrid.h:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -181,7 +185,20 @@ template&lt;class Node &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   17</span>    {</div>
+<div class="line"><span class="lineno">   18</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; 9; ++i)</div>
+<div class="line"><span class="lineno">   19</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/d34/class_node_array.html#a581a71d15d245efc585297c218313134">_nodes</a>[i] == 0)</div>
+<div class="line"><span class="lineno">   20</span>            {</div>
+<div class="line"><span class="lineno">   21</span>                <a class="code hl_variable" href="../../db/d34/class_node_array.html#a581a71d15d245efc585297c218313134">_nodes</a>[i] = n;</div>
+<div class="line"><span class="lineno">   22</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   23</span>            }</div>
+<div class="line"><span class="lineno">   24</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/d34/class_node_array.html#a581a71d15d245efc585297c218313134">_nodes</a>[i] == n)</div>
+<div class="line"><span class="lineno">   25</span>            {</div>
+<div class="line"><span class="lineno">   26</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   27</span>            }</div>
+<div class="line"><span class="lineno">   28</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -202,7 +219,7 @@ template&lt;class Node &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Collision/<a class="el" href="../../d7/d0c/_regular_grid_8h_source.html">RegularGrid.h</a></li>
+<li><a class="el" href="../../">RegularGrid.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -210,7 +227,7 @@ template&lt;class Node &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d34/class_node_array.html">NodeArray</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

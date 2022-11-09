@@ -181,7 +181,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa5bcd36c6d0250571f6721f71864ab59" name="aa5bcd36c6d0250571f6721f71864ab59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa5bcd36c6d0250571f6721f71864ab59">&#9670;&#160;</a></span>go_tablet_of_the_seven()</h2>
 
@@ -204,7 +205,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  952</span>: <a class="code hl_class" href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a>(<span class="stringliteral">&quot;go_tablet_of_the_seven&quot;</span>) { }</div>
+<div class="ttc" id="aclass_game_object_script_html"><div class="ttname"><a href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:758</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -243,11 +246,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#a58b56fc92ae87aea0530eceba1f3088d">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  956</span>    {</div>
+<div class="line"><span class="lineno">  957</span>        <span class="keywordflow">if</span> (go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a7a8cef98e188ac088c48db167d1f46ac">GetGoType</a>() != <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6a57ca6d40b18de6228dc353a4a3ace1">GAMEOBJECT_TYPE_QUESTGIVER</a>)</div>
+<div class="line"><span class="lineno">  958</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  959</span> </div>
+<div class="line"><span class="lineno">  960</span>        <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(4296) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno">  961</span>            player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(player, 15065, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  962</span> </div>
+<div class="line"><span class="lineno">  963</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  964</span>    }</div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a6a57ca6d40b18de6228dc353a4a3ace1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6a57ca6d40b18de6228dc353a4a3ace1">GAMEOBJECT_TYPE_QUESTGIVER</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_QUESTGIVER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1534</div></div>
+<div class="ttc" id="aclass_game_object_html_a7a8cef98e188ac088c48db167d1f46ac"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a7a8cef98e188ac088c48db167d1f46ac">GameObject::GetGoType</a></div><div class="ttdeci">GameobjectTypes GetGoType() const</div><div class="ttdef"><b>Definition:</b> GameObject.h:896</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d6/d0c/go__scripts_8cpp.html">go_scripts.cpp</a></li>
+<li><a class="el" href="../../">go_scripts.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -255,7 +272,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d5a/classgo__tablet__of__the__seven.html">go_tablet_of_the_seven</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -181,7 +181,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adac53a8451abd6ace227a66afc7e61e8" name="adac53a8451abd6ace227a66afc7e61e8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adac53a8451abd6ace227a66afc7e61e8">&#9670;&#160;</a></span>go_simon_cluster()</h2>
 
@@ -204,7 +205,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1019</span>: <a class="code hl_class" href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a>(<span class="stringliteral">&quot;go_simon_cluster&quot;</span>) { }</div>
+<div class="ttc" id="aclass_game_object_script_html"><div class="ttname"><a href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:758</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -243,11 +246,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#a58b56fc92ae87aea0530eceba1f3088d">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1022</span>    {</div>
+<div class="line"><span class="lineno"> 1023</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* bunny = go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d9/d60/zone__blades__edge__mountains_8cpp.html#ab88e2ce3a4528840cc00abc58af76610a5b40808418f7f29bd535436e5b25d6c2">NPC_SIMON_BUNNY</a>, 12.0f, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno"> 1024</span>            bunny-&gt;AI()-&gt;SetData(go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>(), 0);</div>
+<div class="line"><span class="lineno"> 1025</span> </div>
+<div class="line"><span class="lineno"> 1026</span>        player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(player, go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GetGOInfo</a>()-&gt;<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aea7c6df2ff891df15ea1fd523a56545a">goober</a>.<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a70157d695d22d221ef89b6901d2e7b5c">spellId</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1027</span>        go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a20c822c26c33c0e2328e899d25a3ab6c">AddUse</a>();</div>
+<div class="line"><span class="lineno"> 1028</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1029</span>    }</div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_game_object_html_a1415b5cb9b3b3f4f6691584c5b6d7324"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GameObject::GetGOInfo</a></div><div class="ttdeci">GameObjectTemplate const * GetGOInfo() const</div><div class="ttdef"><b>Definition:</b> GameObject.h:829</div></div>
+<div class="ttc" id="aclass_game_object_html_a20c822c26c33c0e2328e899d25a3ab6c"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a20c822c26c33c0e2328e899d25a3ab6c">GameObject::AddUse</a></div><div class="ttdeci">void AddUse()</div><div class="ttdef"><b>Definition:</b> GameObject.h:932</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="astruct_game_object_template_html_a70157d695d22d221ef89b6901d2e7b5c"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a70157d695d22d221ef89b6901d2e7b5c">GameObjectTemplate::spellId</a></div><div class="ttdeci">uint32 spellId</div><div class="ttdef"><b>Definition:</b> GameObject.h:128</div></div>
+<div class="ttc" id="astruct_game_object_template_html_aea7c6df2ff891df15ea1fd523a56545a"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#aea7c6df2ff891df15ea1fd523a56545a">GameObjectTemplate::goober</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@220 goober</div></div>
+<div class="ttc" id="azone__blades__edge__mountains_8cpp_html_ab88e2ce3a4528840cc00abc58af76610a5b40808418f7f29bd535436e5b25d6c2"><div class="ttname"><a href="../../d9/d60/zone__blades__edge__mountains_8cpp.html#ab88e2ce3a4528840cc00abc58af76610a5b40808418f7f29bd535436e5b25d6c2">NPC_SIMON_BUNNY</a></div><div class="ttdeci">@ NPC_SIMON_BUNNY</div><div class="ttdef"><b>Definition:</b> zone_blades_edge_mountains.cpp:496</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/<a class="el" href="../../d9/d60/zone__blades__edge__mountains_8cpp.html">zone_blades_edge_mountains.cpp</a></li>
+<li><a class="el" href="../../">zone_blades_edge_mountains.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -255,7 +275,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d59/classgo__simon__cluster.html">go_simon_cluster</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

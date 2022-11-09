@@ -495,7 +495,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a07ece54edee7bcf83c0807f73b821403" name="a07ece54edee7bcf83c0807f73b821403"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a07ece54edee7bcf83c0807f73b821403">&#9670;&#160;</a></span>npc_doomfire_targettingAI()</h2>
 
@@ -519,7 +520,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  198</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -570,7 +573,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  221</span>        {</div>
+<div class="line"><span class="lineno">  222</span>            damage = 0;</div>
+<div class="line"><span class="lineno">  223</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac46afe2dd051342ee577cf9a88f81f05" name="ac46afe2dd051342ee577cf9a88f81f05"></a>
@@ -598,7 +604,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  218</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1bf5c9024b607d5734e10be114cc7e65" name="a1bf5c9024b607d5734e10be114cc7e65"></a>
@@ -626,7 +633,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  211</span>        {</div>
+<div class="line"><span class="lineno">  212</span>            <span class="comment">//will update once TargetGUID is 0. In case noone actually moves(not likely) and this is 0</span></div>
+<div class="line"><span class="lineno">  213</span>            <span class="comment">//when UpdateAI needs it, it will be forced to select randomPoint</span></div>
+<div class="line"><span class="lineno">  214</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dd/dfc/structnpc__doomfire__targetting_1_1npc__doomfire__targetting_a_i.html#a9c96a59db9123dec192e0868bd775321">TargetGUID</a> &amp;&amp; who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  215</span>                <a class="code hl_variable" href="../../dd/dfc/structnpc__doomfire__targetting_1_1npc__doomfire__targetting_a_i.html#a9c96a59db9123dec192e0868bd775321">TargetGUID</a> = who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  216</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="astructnpc__doomfire__targetting_1_1npc__doomfire__targetting_a_i_html_a9c96a59db9123dec192e0868bd775321"><div class="ttname"><a href="../../dd/dfc/structnpc__doomfire__targetting_1_1npc__doomfire__targetting_a_i.html#a9c96a59db9123dec192e0868bd775321">npc_doomfire_targetting::npc_doomfire_targettingAI::TargetGUID</a></div><div class="ttdeci">ObjectGuid TargetGUID</div><div class="ttdef"><b>Definition:</b> boss_archimonde.cpp:200</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0dc4f7aa069fd077b90799bc2a0c9627" name="a0dc4f7aa069fd077b90799bc2a0c9627"></a>
@@ -653,7 +670,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  204</span>        {</div>
+<div class="line"><span class="lineno">  205</span>            <a class="code hl_variable" href="../../dd/dfc/structnpc__doomfire__targetting_1_1npc__doomfire__targetting_a_i.html#a9c96a59db9123dec192e0868bd775321">TargetGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  206</span>            <a class="code hl_variable" href="../../dd/dfc/structnpc__doomfire__targetting_1_1npc__doomfire__targetting_a_i.html#a5fa8995bc43274706361e8f929a5bc50">ChangeTargetTimer</a> = 5000;</div>
+<div class="line"><span class="lineno">  207</span>        }</div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="astructnpc__doomfire__targetting_1_1npc__doomfire__targetting_a_i_html_a5fa8995bc43274706361e8f929a5bc50"><div class="ttname"><a href="../../dd/dfc/structnpc__doomfire__targetting_1_1npc__doomfire__targetting_a_i.html#a5fa8995bc43274706361e8f929a5bc50">npc_doomfire_targetting::npc_doomfire_targettingAI::ChangeTargetTimer</a></div><div class="ttdeci">uint32 ChangeTargetTimer</div><div class="ttdef"><b>Definition:</b> boss_archimonde.cpp:201</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abf01058da8dab586dc2f910bc17296c5" name="abf01058da8dab586dc2f910bc17296c5"></a>
@@ -681,7 +704,36 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  226</span>        {</div>
+<div class="line"><span class="lineno">  227</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dfc/structnpc__doomfire__targetting_1_1npc__doomfire__targetting_a_i.html#a5fa8995bc43274706361e8f929a5bc50">ChangeTargetTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  228</span>            {</div>
+<div class="line"><span class="lineno">  229</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* temp = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../dd/dfc/structnpc__doomfire__targetting_1_1npc__doomfire__targetting_a_i.html#a9c96a59db9123dec192e0868bd775321">TargetGUID</a>))</div>
+<div class="line"><span class="lineno">  230</span>                {</div>
+<div class="line"><span class="lineno">  231</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MoveFollow</a>(temp, 0.0f, 0.0f);</div>
+<div class="line"><span class="lineno">  232</span>                    <a class="code hl_variable" href="../../dd/dfc/structnpc__doomfire__targetting_1_1npc__doomfire__targetting_a_i.html#a9c96a59db9123dec192e0868bd775321">TargetGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  233</span>                }</div>
+<div class="line"><span class="lineno">  234</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  235</span>                {</div>
+<div class="line"><span class="lineno">  236</span>                    <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> pos = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7889cc2ed6e3ef398fbc091c6144bd04">GetRandomNearPosition</a>(40);</div>
+<div class="line"><span class="lineno">  237</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(0, pos.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a4d45ff71d05bb3ff3d570905460f61cd">m_positionX</a>, pos.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a4f8bb54eef056fd5a230c314d24c2ca6">m_positionY</a>, pos.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a0d2305604dd27c15fd2d969f18c15b3e">m_positionZ</a>);</div>
+<div class="line"><span class="lineno">  238</span>                }</div>
+<div class="line"><span class="lineno">  239</span> </div>
+<div class="line"><span class="lineno">  240</span>                <a class="code hl_variable" href="../../dd/dfc/structnpc__doomfire__targetting_1_1npc__doomfire__targetting_a_i.html#a5fa8995bc43274706361e8f929a5bc50">ChangeTargetTimer</a> = 5000;</div>
+<div class="line"><span class="lineno">  241</span>            }</div>
+<div class="line"><span class="lineno">  242</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dd/dfc/structnpc__doomfire__targetting_1_1npc__doomfire__targetting_a_i.html#a5fa8995bc43274706361e8f929a5bc50">ChangeTargetTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  243</span>        }</div>
+<div class="ttc" id="aclass_motion_master_html_a5c4f6d1163174b909c83901d7f770d72"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MotionMaster::MoveFollow</a></div><div class="ttdeci">void MoveFollow(Unit *target, float dist, float angle, MovementSlot slot=MOTION_SLOT_ACTIVE)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:367</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_world_object_html_a7889cc2ed6e3ef398fbc091c6144bd04"><div class="ttname"><a href="../../db/df7/class_world_object.html#a7889cc2ed6e3ef398fbc091c6144bd04">WorldObject::GetRandomNearPosition</a></div><div class="ttdeci">Position GetRandomNearPosition(float radius)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2681</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="astruct_position_html_a0d2305604dd27c15fd2d969f18c15b3e"><div class="ttname"><a href="../../d1/d26/struct_position.html#a0d2305604dd27c15fd2d969f18c15b3e">Position::m_positionZ</a></div><div class="ttdeci">float m_positionZ</div><div class="ttdef"><b>Definition:</b> Position.h:58</div></div>
+<div class="ttc" id="astruct_position_html_a4d45ff71d05bb3ff3d570905460f61cd"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4d45ff71d05bb3ff3d570905460f61cd">Position::m_positionX</a></div><div class="ttdeci">float m_positionX</div><div class="ttdef"><b>Definition:</b> Position.h:56</div></div>
+<div class="ttc" id="astruct_position_html_a4f8bb54eef056fd5a230c314d24c2ca6"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4f8bb54eef056fd5a230c314d24c2ca6">Position::m_positionY</a></div><div class="ttdeci">float m_positionY</div><div class="ttdef"><b>Definition:</b> Position.h:57</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -714,7 +766,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/CavernsOfTime/BattleForMountHyjal/<a class="el" href="../../dc/db3/boss__archimonde_8cpp.html">boss_archimonde.cpp</a></li>
+<li><a class="el" href="../../">boss_archimonde.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -722,7 +774,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d82/classnpc__doomfire__targetting.html">npc_doomfire_targetting</a></li><li class="navelem"><a class="el" href="../../dd/dfc/structnpc__doomfire__targetting_1_1npc__doomfire__targetting_a_i.html">npc_doomfire_targettingAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

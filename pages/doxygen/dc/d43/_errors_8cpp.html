@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/common/Debugging/Errors.cpp File Reference</title>
+<title>AzeorthCore: Errors.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -115,13 +115,15 @@ $(document).ready(function(){initNavTree('dc/d43/_errors_8cpp.html','../../'); i
 
 <p>This file contains definitions of functions used for reporting critical application errors.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="../../db/d16/_errors_8h_source.html">Errors.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/dfd/_duration_8h_source.html">Duration.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Duration.h</a>&quot;</code><br />
 <code>#include &lt;cstdio&gt;</code><br />
 <code>#include &lt;cstdlib&gt;</code><br />
 <code>#include &lt;thread&gt;</code><br />
 <code>#include &lt;Windows.h&gt;</code><br />
-</div><table class="memberdecls">
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d9/d48/namespaceanonymous__namespace_02_errors_8cpp_03"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/namespaceanonymous__namespace_02_errors_8cpp_03.html">anonymous_namespace{Errors.cpp}</a></td></tr>
@@ -171,6 +173,8 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >This file contains definitions of functions used for reporting critical application errors. </p>
 <p >It is very important that (std::)abort is NEVER called in place of *((volatile int*)nullptr) = 0; Calling abort() on Windows does not invoke unhandled exception filters - a mechanism used by <a class="el" href="../../d5/d58/class_wheaty_exception_report.html">WheatyExceptionReport</a> to log crashes. exit(1) calls here are for static analysis tools to indicate that calling functions defined in this file terminates the application. </p>
+
+<p class="definition">Definition in file <a class="el" href="../../">Errors.cpp</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a510bae7d9948cf497418ec913452009f" name="a510bae7d9948cf497418ec913452009f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a510bae7d9948cf497418ec913452009f">&#9670;&#160;</a></span>Crash</h2>
@@ -208,7 +212,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  158</span>{</div>
+<div class="line"><span class="lineno">  159</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  160</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -217,7 +224,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_6c98940a6e08261f1f635365628c2cb0.html">Debugging</a></li><li class="navelem"><a class="el" href="../../dc/d43/_errors_8cpp.html">Errors.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:17 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

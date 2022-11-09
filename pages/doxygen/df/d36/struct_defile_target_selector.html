@@ -125,7 +125,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a427b4304b5a93f26741eda90d20ff13b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dac/class_creature.html">Creature</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d36/struct_defile_target_selector.html#a427b4304b5a93f26741eda90d20ff13b">_source</a></td></tr>
 <tr class="separator:a427b4304b5a93f26741eda90d20ff13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9c13a04378d6550dd135d2cb41c9bc1c" name="a9c13a04378d6550dd135d2cb41c9bc1c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c13a04378d6550dd135d2cb41c9bc1c">&#9670;&#160;</a></span>DefileTargetSelector()</h2>
 
@@ -149,7 +150,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  437</span>: <a class="code hl_variable" href="../../df/d36/struct_defile_target_selector.html#a427b4304b5a93f26741eda90d20ff13b">_source</a>(source) { }</div>
+<div class="ttc" id="astruct_defile_target_selector_html_a427b4304b5a93f26741eda90d20ff13b"><div class="ttname"><a href="../../df/d36/struct_defile_target_selector.html#a427b4304b5a93f26741eda90d20ff13b">DefileTargetSelector::_source</a></div><div class="ttdeci">Creature const  * _source</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:456</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -176,7 +179,27 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  439</span>    {</div>
+<div class="line"><span class="lineno">  440</span>        <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno">  441</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  442</span>        <span class="keywordflow">if</span> (!target-&gt;IsAlive())</div>
+<div class="line"><span class="lineno">  443</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  444</span>        <span class="keywordflow">if</span> (target-&gt;GetTypeId() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  445</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  446</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d36/struct_defile_target_selector.html#a427b4304b5a93f26741eda90d20ff13b">_source</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a45b83c2b057421d190c01b819b513cdc">GetExactDist</a>(target) &gt; 100.0f)</div>
+<div class="line"><span class="lineno">  447</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  448</span>        <span class="keywordflow">if</span> (target-&gt;HasAura(<a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298caf4d2e40352d0a9efb15fa453b8f328ad">SPELL_HARVEST_SOUL_VALKYR</a>) || target-&gt;HasAura(<a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298ca370445762e5ea606a0338a5e0dcb6752">SPELL_VALKYR_TARGET_SEARCH</a>))</div>
+<div class="line"><span class="lineno">  449</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  450</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../df/d36/struct_defile_target_selector.html#a427b4304b5a93f26741eda90d20ff13b">_source</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a3b4bf64ce1648c214c4f049cfff8eb93">IsWithinLOSInMap</a>(target))</div>
+<div class="line"><span class="lineno">  451</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  452</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  453</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aboss__the__lich__king_8cpp_html_a5bd342133be8c2137b831460acc9298ca370445762e5ea606a0338a5e0dcb6752"><div class="ttname"><a href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298ca370445762e5ea606a0338a5e0dcb6752">SPELL_VALKYR_TARGET_SEARCH</a></div><div class="ttdeci">@ SPELL_VALKYR_TARGET_SEARCH</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:141</div></div>
+<div class="ttc" id="aboss__the__lich__king_8cpp_html_a5bd342133be8c2137b831460acc9298caf4d2e40352d0a9efb15fa453b8f328ad"><div class="ttname"><a href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298caf4d2e40352d0a9efb15fa453b8f328ad">SPELL_HARVEST_SOUL_VALKYR</a></div><div class="ttdeci">@ SPELL_HARVEST_SOUL_VALKYR</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:142</div></div>
+<div class="ttc" id="aclass_world_object_html_a3b4bf64ce1648c214c4f049cfff8eb93"><div class="ttname"><a href="../../db/df7/class_world_object.html#a3b4bf64ce1648c214c4f049cfff8eb93">WorldObject::IsWithinLOSInMap</a></div><div class="ttdeci">bool IsWithinLOSInMap(WorldObject const *obj, VMAP::ModelIgnoreFlags ignoreFlags=VMAP::ModelIgnoreFlags::Nothing, LineOfSightChecks checks=LINEOFSIGHT_ALL_CHECKS, Optional&lt; float &gt; collisionHeight={ }) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1347</div></div>
+<div class="ttc" id="astruct_position_html_a45b83c2b057421d190c01b819b513cdc"><div class="ttname"><a href="../../d1/d26/struct_position.html#a45b83c2b057421d190c01b819b513cdc">Position::GetExactDist</a></div><div class="ttdeci">float GetExactDist(float x, float y, float z) const</div><div class="ttdef"><b>Definition:</b> Position.h:178</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -203,7 +226,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../da/d78/boss__the__lich__king_8cpp.html">boss_the_lich_king.cpp</a></li>
+<li><a class="el" href="../../">boss_the_lich_king.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -211,7 +234,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d36/struct_defile_target_selector.html">DefileTargetSelector</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

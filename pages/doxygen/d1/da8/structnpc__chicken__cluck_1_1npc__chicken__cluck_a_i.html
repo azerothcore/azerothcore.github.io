@@ -491,7 +491,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4f2eaa107e2a8b4900fac54780ac9693" name="a4f2eaa107e2a8b4900fac54780ac9693"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4f2eaa107e2a8b4900fac54780ac9693">&#9670;&#160;</a></span>npc_chicken_cluckAI()</h2>
 
@@ -515,7 +516,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  692</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -544,7 +547,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  703</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa5d6d3ea3ad4d0f81781581a39933fc8" name="aa5d6d3ea3ad4d0f81781581a39933fc8"></a>
@@ -582,7 +586,42 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#abb43fe424c8e27543a935a335c133c86">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  724</span>        {</div>
+<div class="line"><span class="lineno">  725</span>            <span class="keywordflow">switch</span> (emote)</div>
+<div class="line"><span class="lineno">  726</span>            {</div>
+<div class="line"><span class="lineno">  727</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a745c5be4d6fbeb9a2744f84c81734ba9a3af87cb0381a1ef42b78dd2c6596bdfe">TEXT_EMOTE_CHICKEN</a>:</div>
+<div class="line"><span class="lineno">  728</span>                    <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#a9b6994183c01efc82b0e2454268e0d12a1863f50571416414bf0d95d331b71670">QUEST_CLUCK</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8abefdf5f7417012e5d2adedf1dc155f28">QUEST_STATUS_NONE</a> &amp;&amp; rand() % 30 == 1)</div>
+<div class="line"><span class="lineno">  729</span>                    {</div>
+<div class="line"><span class="lineno">  730</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9c5739d268705d03fc40799b7c3d3239">SetNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d">UNIT_NPC_FLAG_QUESTGIVER</a>);</div>
+<div class="line"><span class="lineno">  731</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42">FACTION_FRIENDLY</a>);</div>
+<div class="line"><span class="lineno">  732</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#a9b6994183c01efc82b0e2454268e0d12ab7a3d0305247219a01578de9b55430fd">EMOTE_HELLO</a>);</div>
+<div class="line"><span class="lineno">  733</span>                    }</div>
+<div class="line"><span class="lineno">  734</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  735</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a745c5be4d6fbeb9a2744f84c81734ba9a437098073f606e7442db807e046ae19a">TEXT_EMOTE_CHEER</a>:</div>
+<div class="line"><span class="lineno">  736</span>                    <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#a9b6994183c01efc82b0e2454268e0d12a1863f50571416414bf0d95d331b71670">QUEST_CLUCK</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8ae1b2fe2d9de28cc70b59a4bdd5f0abed">QUEST_STATUS_COMPLETE</a>)</div>
+<div class="line"><span class="lineno">  737</span>                    {</div>
+<div class="line"><span class="lineno">  738</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9c5739d268705d03fc40799b7c3d3239">SetNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d">UNIT_NPC_FLAG_QUESTGIVER</a>);</div>
+<div class="line"><span class="lineno">  739</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42">FACTION_FRIENDLY</a>);</div>
+<div class="line"><span class="lineno">  740</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#a9b6994183c01efc82b0e2454268e0d12a775688ed88bff206532d5e2ebbd57d2a">EMOTE_CLUCK_TEXT</a>);</div>
+<div class="line"><span class="lineno">  741</span>                    }</div>
+<div class="line"><span class="lineno">  742</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  743</span>            }</div>
+<div class="line"><span class="lineno">  744</span>        }</div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8abefdf5f7417012e5d2adedf1dc155f28"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8abefdf5f7417012e5d2adedf1dc155f28">QUEST_STATUS_NONE</a></div><div class="ttdeci">@ QUEST_STATUS_NONE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:100</div></div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8ae1b2fe2d9de28cc70b59a4bdd5f0abed"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8ae1b2fe2d9de28cc70b59a4bdd5f0abed">QUEST_STATUS_COMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_COMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:101</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a745c5be4d6fbeb9a2744f84c81734ba9a3af87cb0381a1ef42b78dd2c6596bdfe"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a745c5be4d6fbeb9a2744f84c81734ba9a3af87cb0381a1ef42b78dd2c6596bdfe">TEXT_EMOTE_CHICKEN</a></div><div class="ttdeci">@ TEXT_EMOTE_CHICKEN</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1629</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a745c5be4d6fbeb9a2744f84c81734ba9a437098073f606e7442db807e046ae19a"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a745c5be4d6fbeb9a2744f84c81734ba9a437098073f606e7442db807e046ae19a">TEXT_EMOTE_CHEER</a></div><div class="ttdeci">@ TEXT_EMOTE_CHEER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1628</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42">FACTION_FRIENDLY</a></div><div class="ttdeci">@ FACTION_FRIENDLY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:173</div></div>
+<div class="ttc" id="a_unit_8h_html_ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d">UNIT_NPC_FLAG_QUESTGIVER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_QUESTGIVER</div><div class="ttdef"><b>Definition:</b> Unit.h:517</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="aclass_unit_html_a9c5739d268705d03fc40799b7c3d3239"><div class="ttname"><a href="../../da/db7/class_unit.html#a9c5739d268705d03fc40799b7c3d3239">Unit::SetNpcFlag</a></div><div class="ttdeci">void SetNpcFlag(NPCFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1644</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_a9b6994183c01efc82b0e2454268e0d12a1863f50571416414bf0d95d331b71670"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#a9b6994183c01efc82b0e2454268e0d12a1863f50571416414bf0d95d331b71670">QUEST_CLUCK</a></div><div class="ttdeci">@ QUEST_CLUCK</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:682</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_a9b6994183c01efc82b0e2454268e0d12a775688ed88bff206532d5e2ebbd57d2a"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#a9b6994183c01efc82b0e2454268e0d12a775688ed88bff206532d5e2ebbd57d2a">EMOTE_CLUCK_TEXT</a></div><div class="ttdeci">@ EMOTE_CLUCK_TEXT</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:680</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_a9b6994183c01efc82b0e2454268e0d12ab7a3d0305247219a01578de9b55430fd"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#a9b6994183c01efc82b0e2454268e0d12ab7a3d0305247219a01578de9b55430fd">EMOTE_HELLO</a></div><div class="ttdeci">@ EMOTE_HELLO</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:679</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5a32f458a7f09282e7ac53fa7d6255b4" name="a5a32f458a7f09282e7ac53fa7d6255b4"></a>
@@ -609,7 +648,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  697</span>        {</div>
+<div class="line"><span class="lineno">  698</span>            <a class="code hl_variable" href="../../d1/da8/structnpc__chicken__cluck_1_1npc__chicken__cluck_a_i.html#a0d0507ae7a1eca369df288515856e1b5">ResetFlagTimer</a> = 120000;</div>
+<div class="line"><span class="lineno">  699</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a9ca9a789451b622b45de845083429b0b">FACTION_PREY</a>);</div>
+<div class="line"><span class="lineno">  700</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a629e9a4f8c5987b034e409c9c74297b9">RemoveNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d">UNIT_NPC_FLAG_QUESTGIVER</a>);</div>
+<div class="line"><span class="lineno">  701</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_ac5c8e776fe109c83a63abe41eb5e80f2a9ca9a789451b622b45de845083429b0b"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a9ca9a789451b622b45de845083429b0b">FACTION_PREY</a></div><div class="ttdeci">@ FACTION_PREY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:171</div></div>
+<div class="ttc" id="aclass_unit_html_a629e9a4f8c5987b034e409c9c74297b9"><div class="ttname"><a href="../../da/db7/class_unit.html#a629e9a4f8c5987b034e409c9c74297b9">Unit::RemoveNpcFlag</a></div><div class="ttdeci">void RemoveNpcFlag(NPCFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1645</div></div>
+<div class="ttc" id="astructnpc__chicken__cluck_1_1npc__chicken__cluck_a_i_html_a0d0507ae7a1eca369df288515856e1b5"><div class="ttname"><a href="../../d1/da8/structnpc__chicken__cluck_1_1npc__chicken__cluck_a_i.html#a0d0507ae7a1eca369df288515856e1b5">npc_chicken_cluck::npc_chicken_cluckAI::ResetFlagTimer</a></div><div class="ttdeci">uint32 ResetFlagTimer</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:694</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a86c8f74d0a55b9a041a789f16de8189d" name="a86c8f74d0a55b9a041a789f16de8189d"></a>
@@ -637,7 +684,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  706</span>        {</div>
+<div class="line"><span class="lineno">  707</span>            <span class="comment">// Reset flags after a certain time has passed so that the next player has to start the &#39;event&#39; again</span></div>
+<div class="line"><span class="lineno">  708</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa259415c642bf3a9c625bee6ae0a62e9">HasNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d">UNIT_NPC_FLAG_QUESTGIVER</a>))</div>
+<div class="line"><span class="lineno">  709</span>            {</div>
+<div class="line"><span class="lineno">  710</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/da8/structnpc__chicken__cluck_1_1npc__chicken__cluck_a_i.html#a0d0507ae7a1eca369df288515856e1b5">ResetFlagTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  711</span>                {</div>
+<div class="line"><span class="lineno">  712</span>                    <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">EnterEvadeMode</a>();</div>
+<div class="line"><span class="lineno">  713</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  714</span>                }</div>
+<div class="line"><span class="lineno">  715</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  716</span>                    <a class="code hl_variable" href="../../d1/da8/structnpc__chicken__cluck_1_1npc__chicken__cluck_a_i.html#a0d0507ae7a1eca369df288515856e1b5">ResetFlagTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  717</span>            }</div>
+<div class="line"><span class="lineno">  718</span> </div>
+<div class="line"><span class="lineno">  719</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  720</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  721</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_afe5dd68e11d20028510eca29d4184778"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">CreatureAI::EnterEvadeMode</a></div><div class="ttdeci">virtual void EnterEvadeMode(EvadeReason why=EVADE_REASON_OTHER)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:195</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_html_aa259415c642bf3a9c625bee6ae0a62e9"><div class="ttname"><a href="../../da/db7/class_unit.html#aa259415c642bf3a9c625bee6ae0a62e9">Unit::HasNpcFlag</a></div><div class="ttdeci">bool HasNpcFlag(NPCFlags flags) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1643</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -656,7 +723,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../db/dae/npcs__special_8cpp.html">npcs_special.cpp</a></li>
+<li><a class="el" href="../../">npcs_special.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -664,7 +731,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d64/classnpc__chicken__cluck.html">npc_chicken_cluck</a></li><li class="navelem"><a class="el" href="../../d1/da8/structnpc__chicken__cluck_1_1npc__chicken__cluck_a_i.html">npc_chicken_cluckAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:03 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

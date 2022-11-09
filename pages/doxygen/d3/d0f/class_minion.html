@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d3/d0f/class_minion.html','../../'); i
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d6/db3/_temporary_summon_8h_source.html">TemporarySummon.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">TemporarySummon.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Minion:</div>
 <div class="dyncontent">
@@ -3280,7 +3280,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a8e79b5c25db2911cb945219bc460dfdc inherit pro_static_methods_class_creature"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dac/class_creature.html#a8e79b5c25db2911cb945219bc460dfdc">_GetHealthMod</a> (<a class="el" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> Rank)</td></tr>
 <tr class="separator:a8e79b5c25db2911cb945219bc460dfdc inherit pro_static_methods_class_creature"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4a560a702e9f655615797ee4dcd7fbb4" name="a4a560a702e9f655615797ee4dcd7fbb4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a560a702e9f655615797ee4dcd7fbb4">&#9670;&#160;</a></span>Minion()</h2>
 
@@ -3312,7 +3313,21 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  332</span>                                                                                            : <a class="code hl_class" href="../../d2/d6e/class_temp_summon.html">TempSummon</a>(properties, owner, isWorldObject)</div>
+<div class="line"><span class="lineno">  333</span>    , <a class="code hl_variable" href="../../d3/d0f/class_minion.html#a135c4341d5f617d1f69ee9f7deeea755">m_owner</a>(owner)</div>
+<div class="line"><span class="lineno">  334</span>{</div>
+<div class="line"><span class="lineno">  335</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d3/d0f/class_minion.html#a135c4341d5f617d1f69ee9f7deeea755">m_owner</a>);</div>
+<div class="line"><span class="lineno">  336</span>    <a class="code hl_variable" href="../../da/db7/class_unit.html#a61daa592a2e6ad5e4751df7410dfd5cf">m_unitTypeMask</a> |= <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a111db1c9ed7ec701bc06841238cd7b04ad9417209eeafc0af3ac6810ae3721ef1">UNIT_MASK_MINION</a>;</div>
+<div class="line"><span class="lineno">  337</span>    <a class="code hl_variable" href="../../d3/d0f/class_minion.html#a02806f2eae429a33e0d2b0c115892c77">m_followAngle</a> = <a class="code hl_define" href="../../d7/d23/_pet_defines_8h.html#a346068e848cb7777695f170d2c7958de">PET_FOLLOW_ANGLE</a>;</div>
+<div class="line"><span class="lineno">  338</span>}</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="a_pet_defines_8h_html_a346068e848cb7777695f170d2c7958de"><div class="ttname"><a href="../../d7/d23/_pet_defines_8h.html#a346068e848cb7777695f170d2c7958de">PET_FOLLOW_ANGLE</a></div><div class="ttdeci">#define PET_FOLLOW_ANGLE</div><div class="ttdef"><b>Definition:</b> PetDefines.h:194</div></div>
+<div class="ttc" id="a_unit_8h_html_a111db1c9ed7ec701bc06841238cd7b04ad9417209eeafc0af3ac6810ae3721ef1"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a111db1c9ed7ec701bc06841238cd7b04ad9417209eeafc0af3ac6810ae3721ef1">UNIT_MASK_MINION</a></div><div class="ttdeci">@ UNIT_MASK_MINION</div><div class="ttdef"><b>Definition:</b> Unit.h:676</div></div>
+<div class="ttc" id="aclass_minion_html_a02806f2eae429a33e0d2b0c115892c77"><div class="ttname"><a href="../../d3/d0f/class_minion.html#a02806f2eae429a33e0d2b0c115892c77">Minion::m_followAngle</a></div><div class="ttdeci">float m_followAngle</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:86</div></div>
+<div class="ttc" id="aclass_minion_html_a135c4341d5f617d1f69ee9f7deeea755"><div class="ttname"><a href="../../d3/d0f/class_minion.html#a135c4341d5f617d1f69ee9f7deeea755">Minion::m_owner</a></div><div class="ttdeci">const ObjectGuid m_owner</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:85</div></div>
+<div class="ttc" id="aclass_temp_summon_html"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html">TempSummon</a></div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:40</div></div>
+<div class="ttc" id="aclass_unit_html_a61daa592a2e6ad5e4751df7410dfd5cf"><div class="ttname"><a href="../../da/db7/class_unit.html#a61daa592a2e6ad5e4751df7410dfd5cf">Unit::m_unitTypeMask</a></div><div class="ttdeci">uint32 m_unitTypeMask</div><div class="ttdef"><b>Definition:</b> Unit.h:2530</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -3342,7 +3357,18 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../d2/d6e/class_temp_summon.html#a9171c6fa87d58744029776bd7d182320">TempSummon</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../dc/dd7/class_guardian.html#ace47e7d3fb3162786329cbcf1c6cab46">Guardian</a>, and <a class="el" href="../../d6/d98/class_pet.html#a782a0dd61ab205062011b5caae00884d">Pet</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  391</span>{</div>
+<div class="line"><span class="lineno">  392</span>    std::stringstream sstr;</div>
+<div class="line"><span class="lineno">  393</span>    sstr &lt;&lt; <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a9171c6fa87d58744029776bd7d182320">TempSummon::GetDebugInfo</a>() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line"><span class="lineno">  394</span>        &lt;&lt; std::boolalpha</div>
+<div class="line"><span class="lineno">  395</span>        &lt;&lt; <span class="stringliteral">&quot;Owner: &quot;</span> &lt;&lt; (<a class="code hl_function" href="../../d3/d0f/class_minion.html#a4610f459936e40b530dae8429f139cfe">GetOwner</a>() ? <a class="code hl_function" href="../../d3/d0f/class_minion.html#a4610f459936e40b530dae8429f139cfe">GetOwner</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>() : <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  396</span>    <span class="keywordflow">return</span> sstr.str();</div>
+<div class="line"><span class="lineno">  397</span>}</div>
+<div class="ttc" id="aclass_minion_html_a4610f459936e40b530dae8429f139cfe"><div class="ttname"><a href="../../d3/d0f/class_minion.html#a4610f459936e40b530dae8429f139cfe">Minion::GetOwner</a></div><div class="ttdeci">Unit * GetOwner() const</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:365</div></div>
+<div class="ttc" id="aclass_object_guid_html_a78f5fb47e3b35addf8984000c175125b"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a78f5fb47e3b35addf8984000c175125b">ObjectGuid::ToString</a></div><div class="ttdeci">std::string ToString() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.cpp:47</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a9171c6fa87d58744029776bd7d182320"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a9171c6fa87d58744029776bd7d182320">TempSummon::GetDebugInfo</a></div><div class="ttdeci">std::string GetDebugInfo() const override</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:323</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6b4a4409bd7a8ff455bb13f8c4e5560a" name="a6b4a4409bd7a8ff455bb13f8c4e5560a"></a>
@@ -3369,7 +3395,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../da/db7/class_unit.html#aacb06d14c640d7758b3ac3afa874a151">Unit</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   77</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d0f/class_minion.html#a02806f2eae429a33e0d2b0c115892c77">m_followAngle</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4610f459936e40b530dae8429f139cfe" name="a4610f459936e40b530dae8429f139cfe"></a>
@@ -3386,7 +3413,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  366</span>{</div>
+<div class="line"><span class="lineno">  367</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<span class="keyword">this</span>, <a class="code hl_variable" href="../../d3/d0f/class_minion.html#a135c4341d5f617d1f69ee9f7deeea755">m_owner</a>);</div>
+<div class="line"><span class="lineno">  368</span>}</div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad11b2900e990e2b5ba7d10b811cd1e5d" name="ad11b2900e990e2b5ba7d10b811cd1e5d"></a>
@@ -3416,7 +3447,25 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../d2/d6e/class_temp_summon.html#a671477f035313e96517c1c92079d9911">TempSummon</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../dc/dd7/class_guardian.html#a698ac009e39a2e8461b40135b75609ef">Guardian</a>, <a class="el" href="../../d7/d70/class_puppet.html#ac5dd23d7cf6d4b4a2ba073ae1128181b">Puppet</a>, and <a class="el" href="../../d0/d27/class_totem.html#a4661c91b5123862fc44e7a290cf70d1f">Totem</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  341</span>{</div>
+<div class="line"><span class="lineno">  342</span>    <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a671477f035313e96517c1c92079d9911">TempSummon::InitStats</a>(duration);</div>
+<div class="line"><span class="lineno">  343</span> </div>
+<div class="line"><span class="lineno">  344</span>    <a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">  345</span> </div>
+<div class="line"><span class="lineno">  346</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* owner = <a class="code hl_function" href="../../d3/d0f/class_minion.html#a4610f459936e40b530dae8429f139cfe">GetOwner</a>())</div>
+<div class="line"><span class="lineno">  347</span>    {</div>
+<div class="line"><span class="lineno">  348</span>        <a class="code hl_function" href="../../da/db7/class_unit.html#ad5dfdae7e2ebb21335b459c6426e0cfc">SetCreatorGUID</a>(owner-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">  349</span>        <a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(owner-&gt;GetFaction());</div>
+<div class="line"><span class="lineno">  350</span>        owner-&gt;SetMinion(<span class="keyword">this</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  351</span>    }</div>
+<div class="line"><span class="lineno">  352</span>}</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a></div><div class="ttdeci">@ REACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1023</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a671477f035313e96517c1c92079d9911"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a671477f035313e96517c1c92079d9911">TempSummon::InitStats</a></div><div class="ttdeci">virtual void InitStats(uint32 lifetime)</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:199</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="aclass_unit_html_ad5dfdae7e2ebb21335b459c6426e0cfc"><div class="ttname"><a href="../../da/db7/class_unit.html#ad5dfdae7e2ebb21335b459c6426e0cfc">Unit::SetCreatorGUID</a></div><div class="ttdeci">void SetCreatorGUID(ObjectGuid creator)</div><div class="ttdef"><b>Definition:</b> Unit.h:1814</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a63335ad34731e8a26ab027bf690f9d4d" name="a63335ad34731e8a26ab027bf690f9d4d"></a>
@@ -3433,7 +3482,14 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  371</span>{</div>
+<div class="line"><span class="lineno">  372</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../da/db7/class_unit.html#a4ad2fdcc45e2c3c85ad59ff49268b58c">IsPet</a>() || (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a267f8af8ae1f496571569e8ec67faf73">m_Properties</a> &amp;&amp; <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a267f8af8ae1f496571569e8ec67faf73">m_Properties</a>-&gt;<a class="code hl_variable" href="../../dc/da8/struct_summon_properties_entry.html#acd933f251a1faa1f705420307136681d">Category</a> == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#aec2f46e883369a535607f981c323c094a7e4ba700ac08e92a5bd292b5c3507c0e">SUMMON_CATEGORY_PET</a>);</div>
+<div class="line"><span class="lineno">  373</span>}</div>
+<div class="ttc" id="a_shared_defines_8h_html_aec2f46e883369a535607f981c323c094a7e4ba700ac08e92a5bd292b5c3507c0e"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#aec2f46e883369a535607f981c323c094a7e4ba700ac08e92a5bd292b5c3507c0e">SUMMON_CATEGORY_PET</a></div><div class="ttdeci">@ SUMMON_CATEGORY_PET</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3257</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a267f8af8ae1f496571569e8ec67faf73"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a267f8af8ae1f496571569e8ec67faf73">TempSummon::m_Properties</a></div><div class="ttdeci">const SummonPropertiesEntry *const m_Properties</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:60</div></div>
+<div class="ttc" id="aclass_unit_html_a4ad2fdcc45e2c3c85ad59ff49268b58c"><div class="ttname"><a href="../../da/db7/class_unit.html#a4ad2fdcc45e2c3c85ad59ff49268b58c">Unit::IsPet</a></div><div class="ttdeci">bool IsPet() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1413</div></div>
+<div class="ttc" id="astruct_summon_properties_entry_html_acd933f251a1faa1f705420307136681d"><div class="ttname"><a href="../../dc/da8/struct_summon_properties_entry.html#acd933f251a1faa1f705420307136681d">SummonPropertiesEntry::Category</a></div><div class="ttdeci">uint32 Category</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1873</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae56acaeea6d1cf9735345cb784f3dcd3" name="ae56acaeea6d1cf9735345cb784f3dcd3"></a>
@@ -3458,7 +3514,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   79</span>{<span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 26125 <span class="comment">/*normal ghoul*/</span> || <a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 30230 <span class="comment">/*Raise Ally ghoul*/</span>;} <span class="comment">// Ghoul may be guardian or pet</span></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a35f8314d0a4bafeba1987eb0b1ececf3" name="a35f8314d0a4bafeba1987eb0b1ececf3"></a>
@@ -3487,7 +3545,18 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../d2/d6e/class_temp_summon.html#a6ed76ef6de27814adf38bce8666d2a15">TempSummon</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../d7/d70/class_puppet.html#a61dcfc821c2221d1747fcb2180e03bfd">Puppet</a>, and <a class="el" href="../../d6/d98/class_pet.html#a10d8a224dc5726395aa872a6caaf9429">Pet</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  355</span>{</div>
+<div class="line"><span class="lineno">  356</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d8/d83/class_object.html#a3aeab7def818ba6c50249f197ad2f9ca">IsInWorld</a>())</div>
+<div class="line"><span class="lineno">  357</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  358</span> </div>
+<div class="line"><span class="lineno">  359</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* owner = <a class="code hl_function" href="../../d3/d0f/class_minion.html#a4610f459936e40b530dae8429f139cfe">GetOwner</a>())</div>
+<div class="line"><span class="lineno">  360</span>        owner-&gt;SetMinion(<span class="keyword">this</span>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  361</span> </div>
+<div class="line"><span class="lineno">  362</span>    <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a6ed76ef6de27814adf38bce8666d2a15">TempSummon::RemoveFromWorld</a>();</div>
+<div class="line"><span class="lineno">  363</span>}</div>
+<div class="ttc" id="aclass_object_html_a3aeab7def818ba6c50249f197ad2f9ca"><div class="ttname"><a href="../../d8/d83/class_object.html#a3aeab7def818ba6c50249f197ad2f9ca">Object::IsInWorld</a></div><div class="ttdeci">bool IsInWorld() const</div><div class="ttdef"><b>Definition:</b> Object.h:101</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a6ed76ef6de27814adf38bce8666d2a15"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a6ed76ef6de27814adf38bce8666d2a15">TempSummon::RemoveFromWorld</a></div><div class="ttdeci">void RemoveFromWorld() override</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:306</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab954627fc409e08616cf080974d30a82" name="ab954627fc409e08616cf080974d30a82"></a>
@@ -3527,7 +3596,25 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../d1/dac/class_creature.html#a00d974a3f97e003cadb1760538d8be27">Creature</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../d6/d98/class_pet.html#a2dbea061451c0aba0ed87810d5f74c2d">Pet</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  376</span>{</div>
+<div class="line"><span class="lineno">  377</span>    <a class="code hl_function" href="../../d1/dac/class_creature.html#a00d974a3f97e003cadb1760538d8be27">Creature::setDeathState</a>(s, despawn);</div>
+<div class="line"><span class="lineno">  378</span>    <span class="keywordflow">if</span> (s == <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a671007e5c9d47b3ccb212f971e65baedab1727b82509eb59005a3b6b60107f51b">JUST_DIED</a> &amp;&amp; <a class="code hl_function" href="../../d3/d0f/class_minion.html#a63335ad34731e8a26ab027bf690f9d4d">IsGuardianPet</a>())</div>
+<div class="line"><span class="lineno">  379</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* owner = <a class="code hl_function" href="../../d3/d0f/class_minion.html#a4610f459936e40b530dae8429f139cfe">GetOwner</a>())</div>
+<div class="line"><span class="lineno">  380</span>            <span class="keywordflow">if</span> (owner-&gt;GetTypeId() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a> &amp;&amp; owner-&gt;GetMinionGUID() == <a class="code hl_function" href="../../d8/d83/class_object.html#ae65fbd7720a9aa448516f6cf494bda67">GetGUID</a>())</div>
+<div class="line"><span class="lineno">  381</span>                <span class="keywordflow">for</span> (Unit::ControlSet::const_iterator itr = owner-&gt;m_Controlled.begin(); itr != owner-&gt;m_Controlled.end(); ++itr)</div>
+<div class="line"><span class="lineno">  382</span>                    <span class="keywordflow">if</span> ((*itr)-&gt;IsAlive() &amp;&amp; (*itr)-&gt;GetEntry() == <a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">  383</span>                    {</div>
+<div class="line"><span class="lineno">  384</span>                        owner-&gt;SetMinionGUID((*itr)-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">  385</span>                        owner-&gt;SetPetGUID((*itr)-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">  386</span>                        owner-&gt;ToPlayer()-&gt;CharmSpellInitialize();</div>
+<div class="line"><span class="lineno">  387</span>                    }</div>
+<div class="line"><span class="lineno">  388</span>}</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="a_unit_8h_html_a671007e5c9d47b3ccb212f971e65baedab1727b82509eb59005a3b6b60107f51b"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a671007e5c9d47b3ccb212f971e65baedab1727b82509eb59005a3b6b60107f51b">JUST_DIED</a></div><div class="ttdeci">@ JUST_DIED</div><div class="ttdef"><b>Definition:</b> Unit.h:317</div></div>
+<div class="ttc" id="aclass_creature_html_a00d974a3f97e003cadb1760538d8be27"><div class="ttname"><a href="../../d1/dac/class_creature.html#a00d974a3f97e003cadb1760538d8be27">Creature::setDeathState</a></div><div class="ttdeci">void setDeathState(DeathState s, bool despawn=false) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:1918</div></div>
+<div class="ttc" id="aclass_minion_html_a63335ad34731e8a26ab027bf690f9d4d"><div class="ttname"><a href="../../d3/d0f/class_minion.html#a63335ad34731e8a26ab027bf690f9d4d">Minion::IsGuardianPet</a></div><div class="ttdeci">bool IsGuardianPet() const</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:370</div></div>
+<div class="ttc" id="aclass_object_html_ae65fbd7720a9aa448516f6cf494bda67"><div class="ttname"><a href="../../d8/d83/class_object.html#ae65fbd7720a9aa448516f6cf494bda67">Object::GetGUID</a></div><div class="ttdeci">ObjectGuid GetGUID() const</div><div class="ttdef"><b>Definition:</b> Object.h:107</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3b7be3e8dc649b939056ee6a5a66c506" name="a3b7be3e8dc649b939056ee6a5a66c506"></a>
@@ -3553,7 +3640,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   78</span>{ <a class="code hl_variable" href="../../d3/d0f/class_minion.html#a02806f2eae429a33e0d2b0c115892c77">m_followAngle</a> = angle; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -3602,8 +3690,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Creature/<a class="el" href="../../d6/db3/_temporary_summon_8h_source.html">TemporarySummon.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Creature/<a class="el" href="../../d2/d8f/_temporary_summon_8cpp.html">TemporarySummon.cpp</a></li>
+<li><a class="el" href="../../">TemporarySummon.h</a></li>
+<li><a class="el" href="../../">TemporarySummon.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -3611,7 +3699,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d0f/class_minion.html">Minion</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

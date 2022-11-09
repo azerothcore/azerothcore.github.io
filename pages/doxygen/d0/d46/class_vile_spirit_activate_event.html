@@ -147,7 +147,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a385fc75b5d77d8776d5a8e948fa69724"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dac/class_creature.html">Creature</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d46/class_vile_spirit_activate_event.html#a385fc75b5d77d8776d5a8e948fa69724">_owner</a></td></tr>
 <tr class="separator:a385fc75b5d77d8776d5a8e948fa69724"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac7d37d3b7b3173015a2af9ce93b8f2f9" name="ac7d37d3b7b3173015a2af9ce93b8f2f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac7d37d3b7b3173015a2af9ce93b8f2f9">&#9670;&#160;</a></span>VileSpiritActivateEvent()</h2>
 
@@ -171,7 +172,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  520</span>: <a class="code hl_variable" href="../../d0/d46/class_vile_spirit_activate_event.html#a385fc75b5d77d8776d5a8e948fa69724">_owner</a>(owner) {}</div>
+<div class="ttc" id="aclass_vile_spirit_activate_event_html_a385fc75b5d77d8776d5a8e948fa69724"><div class="ttname"><a href="../../d0/d46/class_vile_spirit_activate_event.html#a385fc75b5d77d8776d5a8e948fa69724">VileSpiritActivateEvent::_owner</a></div><div class="ttdeci">Creature * _owner</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:531</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -210,7 +213,19 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  523</span>    {</div>
+<div class="line"><span class="lineno">  524</span>        <a class="code hl_variable" href="../../d0/d46/class_vile_spirit_activate_event.html#a385fc75b5d77d8776d5a8e948fa69724">_owner</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno">  525</span>        <a class="code hl_variable" href="../../d0/d46/class_vile_spirit_activate_event.html#a385fc75b5d77d8776d5a8e948fa69724">_owner</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d0/d46/class_vile_spirit_activate_event.html#a385fc75b5d77d8776d5a8e948fa69724">_owner</a>, <a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298ca59a9556066ef7245c03dfb8b53dce807">SPELL_VILE_SPIRIT_MOVE_SEARCH</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  526</span>        <a class="code hl_variable" href="../../d0/d46/class_vile_spirit_activate_event.html#a385fc75b5d77d8776d5a8e948fa69724">_owner</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>((<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>*)<span class="keyword">nullptr</span>, <a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298ca74110a9268ec6cd3596f1c4a4daa7ce0">SPELL_VILE_SPIRIT_DAMAGE_SEARCH</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  527</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  528</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="aboss__the__lich__king_8cpp_html_a5bd342133be8c2137b831460acc9298ca59a9556066ef7245c03dfb8b53dce807"><div class="ttname"><a href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298ca59a9556066ef7245c03dfb8b53dce807">SPELL_VILE_SPIRIT_MOVE_SEARCH</a></div><div class="ttdeci">@ SPELL_VILE_SPIRIT_MOVE_SEARCH</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:151</div></div>
+<div class="ttc" id="aboss__the__lich__king_8cpp_html_a5bd342133be8c2137b831460acc9298ca74110a9268ec6cd3596f1c4a4daa7ce0"><div class="ttname"><a href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298ca74110a9268ec6cd3596f1c4a4daa7ce0">SPELL_VILE_SPIRIT_DAMAGE_SEARCH</a></div><div class="ttdeci">@ SPELL_VILE_SPIRIT_DAMAGE_SEARCH</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:152</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -237,7 +252,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../da/d78/boss__the__lich__king_8cpp.html">boss_the_lich_king.cpp</a></li>
+<li><a class="el" href="../../">boss_the_lich_king.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -245,7 +260,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d46/class_vile_spirit_activate_event.html">VileSpiritActivateEvent</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:30 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

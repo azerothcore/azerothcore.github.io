@@ -384,7 +384,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac0217b8fb3a0fbf418ce2d3ca286f2eb" name="ac0217b8fb3a0fbf418ce2d3ca286f2eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac0217b8fb3a0fbf418ce2d3ca286f2eb">&#9670;&#160;</a></span>npc_pilgrims_bounty_plate()</h2>
 
@@ -408,7 +409,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  282</span>: <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(creature) { }</div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -447,11 +450,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a6afb39c4bf86a1e882cc80fd7ec80a8f">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  285</span>    {</div>
+<div class="line"><span class="lineno">  286</span>        <span class="keywordflow">switch</span> (spellInfo-&gt;Id)</div>
+<div class="line"><span class="lineno">  287</span>        {</div>
+<div class="line"><span class="lineno">  288</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/dca/pilgrims__bounty_8cpp.html#a17b51282bc11e48a2d4a6fb006c041c7aa5931d70053310df21f77bd52ec96125">SPELL_VISUAL_THROW_TURKEY</a>:</div>
+<div class="line"><span class="lineno">  289</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/dca/pilgrims__bounty_8cpp.html#a17b51282bc11e48a2d4a6fb006c041c7a41fd5712c812c0289502fc623df6e6b4">SPELL_VISUAL_THROW_STUFFING</a>:</div>
+<div class="line"><span class="lineno">  290</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/dca/pilgrims__bounty_8cpp.html#a17b51282bc11e48a2d4a6fb006c041c7acab7c3f158088ebdafcc019f17359fdd">SPELL_VISUAL_THROW_PIE</a>:</div>
+<div class="line"><span class="lineno">  291</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/dca/pilgrims__bounty_8cpp.html#a17b51282bc11e48a2d4a6fb006c041c7a7147fa8e1a282b2df457ca86cd4a3898">SPELL_VISUAL_THROW_CRANBERRY</a>:</div>
+<div class="line"><span class="lineno">  292</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/dca/pilgrims__bounty_8cpp.html#a17b51282bc11e48a2d4a6fb006c041c7ab820572aa06225fa43273f1346661d34">SPELL_VISUAL_THROW_SWEET_POTATO</a>:</div>
+<div class="line"><span class="lineno">  293</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/d6e/class_temp_summon.html">TempSummon</a>* ts = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">ToTempSummon</a>())</div>
+<div class="line"><span class="lineno">  294</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* owner = ts-&gt;GetSummonerUnit())</div>
+<div class="line"><span class="lineno">  295</span>                        owner-&gt;ToCreature()-&gt;AI()-&gt;DoAction(spellInfo-&gt;Id);</div>
+<div class="line"><span class="lineno">  296</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  297</span>        }</div>
+<div class="line"><span class="lineno">  298</span>    }</div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_temp_summon_html"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html">TempSummon</a></div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:40</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a6649e9ba10948d634bc0ac9c4a5800e5"><div class="ttname"><a href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">Unit::ToTempSummon</a></div><div class="ttdeci">TempSummon * ToTempSummon()</div><div class="ttdef"><b>Definition:</b> Unit.h:2395</div></div>
+<div class="ttc" id="apilgrims__bounty_8cpp_html_a17b51282bc11e48a2d4a6fb006c041c7a41fd5712c812c0289502fc623df6e6b4"><div class="ttname"><a href="../../d6/dca/pilgrims__bounty_8cpp.html#a17b51282bc11e48a2d4a6fb006c041c7a41fd5712c812c0289502fc623df6e6b4">SPELL_VISUAL_THROW_STUFFING</a></div><div class="ttdeci">@ SPELL_VISUAL_THROW_STUFFING</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:41</div></div>
+<div class="ttc" id="apilgrims__bounty_8cpp_html_a17b51282bc11e48a2d4a6fb006c041c7a7147fa8e1a282b2df457ca86cd4a3898"><div class="ttname"><a href="../../d6/dca/pilgrims__bounty_8cpp.html#a17b51282bc11e48a2d4a6fb006c041c7a7147fa8e1a282b2df457ca86cd4a3898">SPELL_VISUAL_THROW_CRANBERRY</a></div><div class="ttdeci">@ SPELL_VISUAL_THROW_CRANBERRY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:43</div></div>
+<div class="ttc" id="apilgrims__bounty_8cpp_html_a17b51282bc11e48a2d4a6fb006c041c7aa5931d70053310df21f77bd52ec96125"><div class="ttname"><a href="../../d6/dca/pilgrims__bounty_8cpp.html#a17b51282bc11e48a2d4a6fb006c041c7aa5931d70053310df21f77bd52ec96125">SPELL_VISUAL_THROW_TURKEY</a></div><div class="ttdeci">@ SPELL_VISUAL_THROW_TURKEY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:40</div></div>
+<div class="ttc" id="apilgrims__bounty_8cpp_html_a17b51282bc11e48a2d4a6fb006c041c7ab820572aa06225fa43273f1346661d34"><div class="ttname"><a href="../../d6/dca/pilgrims__bounty_8cpp.html#a17b51282bc11e48a2d4a6fb006c041c7ab820572aa06225fa43273f1346661d34">SPELL_VISUAL_THROW_SWEET_POTATO</a></div><div class="ttdeci">@ SPELL_VISUAL_THROW_SWEET_POTATO</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:44</div></div>
+<div class="ttc" id="apilgrims__bounty_8cpp_html_a17b51282bc11e48a2d4a6fb006c041c7acab7c3f158088ebdafcc019f17359fdd"><div class="ttname"><a href="../../d6/dca/pilgrims__bounty_8cpp.html#a17b51282bc11e48a2d4a6fb006c041c7acab7c3f158088ebdafcc019f17359fdd">SPELL_VISUAL_THROW_PIE</a></div><div class="ttdeci">@ SPELL_VISUAL_THROW_PIE</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../d6/dca/pilgrims__bounty_8cpp.html">pilgrims_bounty.cpp</a></li>
+<li><a class="el" href="../../">pilgrims_bounty.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -459,7 +485,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d4b/structnpc__pilgrims__bounty__plate.html">npc_pilgrims_bounty_plate</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

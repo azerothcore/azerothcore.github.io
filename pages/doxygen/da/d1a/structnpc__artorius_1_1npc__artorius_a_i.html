@@ -554,7 +554,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a71056d1f537671a9f790ebbc1c2baf9c" name="a71056d1f537671a9f790ebbc1c2baf9c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a71056d1f537671a9f790ebbc1c2baf9c">&#9670;&#160;</a></span>npc_artoriusAI()</h2>
 
@@ -578,7 +579,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  284</span>: <a class="code hl_struct" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html">NPCStaveQuestAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html">NPCStaveQuestAI</a></div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:135</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -629,7 +632,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  398</span>        {</div>
+<div class="line"><span class="lineno">  399</span>            <span class="keywordflow">if</span> (attacker == <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>)</div>
+<div class="line"><span class="lineno">  400</span>            {</div>
+<div class="line"><span class="lineno">  401</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#ade3dddee0d9a81b1357473a1cdf7016c">LowerPlayerDamageReq</a>(damage);</div>
+<div class="line"><span class="lineno">  402</span>            }</div>
+<div class="line"><span class="lineno">  403</span>        }</div>
+<div class="ttc" id="aclass_creature_html_ade3dddee0d9a81b1357473a1cdf7016c"><div class="ttname"><a href="../../d1/dac/class_creature.html#ade3dddee0d9a81b1357473a1cdf7016c">Creature::LowerPlayerDamageReq</a></div><div class="ttdeci">void LowerPlayerDamageReq(uint32 unDamage, bool damagedByPlayer=true)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3656</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abbfc9ee752d97f1694dbd739719843c2" name="abbfc9ee752d97f1694dbd739719843c2"></a>
@@ -657,7 +668,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  422</span>        {</div>
+<div class="line"><span class="lineno">  423</span>            <span class="keywordflow">if</span> (action == <a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda0f5bec07177a7a6bdbdf76abcbadf05a">EVENT_ENCOUNTER_START</a>)</div>
+<div class="line"><span class="lineno">  424</span>            {</div>
+<div class="line"><span class="lineno">  425</span>                <a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a5adddedf655d743566adc76e4a1a9dc6">PrepareForEncounter</a>();</div>
+<div class="line"><span class="lineno">  426</span>                <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda0f5bec07177a7a6bdbdf76abcbadf05a">EVENT_ENCOUNTER_START</a>, 5000);</div>
+<div class="line"><span class="lineno">  427</span>            }</div>
+<div class="line"><span class="lineno">  428</span>        }</div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_a2898ea5b5bdc6f6ebd68c36327a6cecda0f5bec07177a7a6bdbdf76abcbadf05a"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda0f5bec07177a7a6bdbdf76abcbadf05a">EVENT_ENCOUNTER_START</a></div><div class="ttdeci">@ EVENT_ENCOUNTER_START</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:30</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a5adddedf655d743566adc76e4a1a9dc6"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a5adddedf655d743566adc76e4a1a9dc6">NPCStaveQuestAI::PrepareForEncounter</a></div><div class="ttdeci">void PrepareForEncounter()</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:152</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af18e39f2ed4e3e44c88f45d61c91dabc" name="af18e39f2ed4e3e44c88f45d61c91dabc"></a>
@@ -685,7 +706,42 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  295</span>        {</div>
+<div class="line"><span class="lineno">  296</span>            <a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#ab1f2c4d3673ced2eec226741d73f38b0">RevealForm</a>();</div>
+<div class="line"><span class="lineno">  297</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a629e9a4f8c5987b034e409c9c74297b9">RemoveNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0">UNIT_NPC_FLAG_GOSSIP</a>);</div>
+<div class="line"><span class="lineno">  298</span> </div>
+<div class="line"><span class="lineno">  299</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a4ac102757e65c86433b7a758aeb248ba">InNormalForm</a>())</div>
+<div class="line"><span class="lineno">  300</span>            {</div>
+<div class="line"><span class="lineno">  301</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  302</span>            }</div>
+<div class="line"><span class="lineno">  303</span> </div>
+<div class="line"><span class="lineno">  304</span>            <span class="keywordflow">if</span> (victim &amp;&amp; (<a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#ad830292fa123bd4bf2057eadb07fb60b">UnitIsUnfair</a>(victim) || !<a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a41eb9c433d6b5afff7620fc22953e858">QuestIncomplete</a>(victim, <a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edea7dfe6305ba551298a4074c2aba0cdd62">ARTORIUS_HEAD</a>)))</div>
+<div class="line"><span class="lineno">  305</span>            {</div>
+<div class="line"><span class="lineno">  306</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(victim, <a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf781ca12c0d42795eae352e22e9f89ee">SPELL_FOOLS_PLIGHT</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  307</span>            }</div>
+<div class="line"><span class="lineno">  308</span> </div>
+<div class="line"><span class="lineno">  309</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda2ec763aa4426d90ec616777639d20d1c">EVENT_FOOLS_PLIGHT</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(2000, 3000));</div>
+<div class="line"><span class="lineno">  310</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda7fcd9a3142a87856248cbc51a25268ee">EVENT_RANGE_CHECK</a>, 1000);</div>
+<div class="line"><span class="lineno">  311</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda1d894628cbd27d1bcf490577a9ae22f0">EVENT_UNFAIR_FIGHT</a>, 1000);</div>
+<div class="line"><span class="lineno">  312</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edea5630fafdd2954b2520ba2b721872555f">ARTORIUS_EVENT_DEMONIC_DOOM</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(3000, 5000));</div>
+<div class="line"><span class="lineno">  313</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edea45adb6c2214dbf19fde4a3273ca3ad24">ARTORIUS_EVENT_DEMONIC_ENRAGE</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(6000, 8000));</div>
+<div class="line"><span class="lineno">  314</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="a_unit_8h_html_ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0">UNIT_NPC_FLAG_GOSSIP</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_GOSSIP</div><div class="ttdef"><b>Definition:</b> Unit.h:516</div></div>
+<div class="ttc" id="aclass_unit_html_a629e9a4f8c5987b034e409c9c74297b9"><div class="ttname"><a href="../../da/db7/class_unit.html#a629e9a4f8c5987b034e409c9c74297b9">Unit::RemoveNpcFlag</a></div><div class="ttdeci">void RemoveNpcFlag(NPCFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1645</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_a2898ea5b5bdc6f6ebd68c36327a6cecda1d894628cbd27d1bcf490577a9ae22f0"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda1d894628cbd27d1bcf490577a9ae22f0">EVENT_UNFAIR_FIGHT</a></div><div class="ttdeci">@ EVENT_UNFAIR_FIGHT</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:34</div></div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_a2898ea5b5bdc6f6ebd68c36327a6cecda2ec763aa4426d90ec616777639d20d1c"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda2ec763aa4426d90ec616777639d20d1c">EVENT_FOOLS_PLIGHT</a></div><div class="ttdeci">@ EVENT_FOOLS_PLIGHT</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:32</div></div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_a2898ea5b5bdc6f6ebd68c36327a6cecda7fcd9a3142a87856248cbc51a25268ee"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda7fcd9a3142a87856248cbc51a25268ee">EVENT_RANGE_CHECK</a></div><div class="ttdeci">@ EVENT_RANGE_CHECK</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:33</div></div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_a2898ea5b5bdc6f6ebd68c36327a6cecdaf781ca12c0d42795eae352e22e9f89ee"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf781ca12c0d42795eae352e22e9f89ee">SPELL_FOOLS_PLIGHT</a></div><div class="ttdeci">@ SPELL_FOOLS_PLIGHT</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:43</div></div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_abe201f9ef5f58feb36b74aed845c1edea45adb6c2214dbf19fde4a3273ca3ad24"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edea45adb6c2214dbf19fde4a3273ca3ad24">ARTORIUS_EVENT_DEMONIC_ENRAGE</a></div><div class="ttdeci">@ ARTORIUS_EVENT_DEMONIC_ENRAGE</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:49</div></div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_abe201f9ef5f58feb36b74aed845c1edea5630fafdd2954b2520ba2b721872555f"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edea5630fafdd2954b2520ba2b721872555f">ARTORIUS_EVENT_DEMONIC_DOOM</a></div><div class="ttdeci">@ ARTORIUS_EVENT_DEMONIC_DOOM</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:48</div></div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_abe201f9ef5f58feb36b74aed845c1edea7dfe6305ba551298a4074c2aba0cdd62"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edea7dfe6305ba551298a4074c2aba0cdd62">ARTORIUS_HEAD</a></div><div class="ttdeci">@ ARTORIUS_HEAD</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:57</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a41eb9c433d6b5afff7620fc22953e858"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a41eb9c433d6b5afff7620fc22953e858">NPCStaveQuestAI::QuestIncomplete</a></div><div class="ttdeci">bool QuestIncomplete(Unit *unit, uint32 questItem)</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:213</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a4ac102757e65c86433b7a758aeb248ba"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a4ac102757e65c86433b7a758aeb248ba">NPCStaveQuestAI::InNormalForm</a></div><div class="ttdeci">bool InNormalForm()</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:34</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_ab1f2c4d3673ced2eec226741d73f38b0"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#ab1f2c4d3673ced2eec226741d73f38b0">NPCStaveQuestAI::RevealForm</a></div><div class="ttdeci">void RevealForm()</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:39</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_ad830292fa123bd4bf2057eadb07fb60b"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#ad830292fa123bd4bf2057eadb07fb60b">NPCStaveQuestAI::UnitIsUnfair</a></div><div class="ttdeci">bool UnitIsUnfair(Unit *unit)</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:77</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a862cc52a9251e2dfe486f1152dae9500" name="a862cc52a9251e2dfe486f1152dae9500"></a>
@@ -712,7 +768,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  289</span>        {</div>
+<div class="line"><span class="lineno">  290</span>            <a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#ad134dbf9931d2d7f3d9c2b7d14fcb76c">ResetState</a>(<a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edeaf78c2ad18353df6ab6937f7e48ee8363">ARTORIUS_SPELL_STINGING_TRAUMA</a>);</div>
+<div class="line"><span class="lineno">  291</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">  292</span>        }</div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_abe201f9ef5f58feb36b74aed845c1edeaf78c2ad18353df6ab6937f7e48ee8363"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edeaf78c2ad18353df6ab6937f7e48ee8363">ARTORIUS_SPELL_STINGING_TRAUMA</a></div><div class="ttdeci">@ ARTORIUS_SPELL_STINGING_TRAUMA</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:60</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_ad134dbf9931d2d7f3d9c2b7d14fcb76c"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#ad134dbf9931d2d7f3d9c2b7d14fcb76c">NPCStaveQuestAI::ResetState</a></div><div class="ttdeci">void ResetState(uint32)</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:227</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac6ce7235c4399a5a8f2e771f5cd652ba" name="ac6ce7235c4399a5a8f2e771f5cd652ba"></a>
@@ -750,7 +812,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a7c4ff5a7547e75576c127ba4a514e548">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  406</span>        {</div>
+<div class="line"><span class="lineno">  407</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> serpentStings[12] = { 1978, 13549, 13550, 13551, 13552, 13553, 13554, 13555, 25295, 27016, 49000, 49001 };</div>
+<div class="line"><span class="lineno">  408</span> </div>
+<div class="line"><span class="lineno">  409</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a4ac102757e65c86433b7a758aeb248ba">InNormalForm</a>())</div>
+<div class="line"><span class="lineno">  410</span>            {</div>
+<div class="line"><span class="lineno">  411</span>                <span class="keywordtype">bool</span> applyAura = std::find(std::begin(serpentStings), std::end(serpentStings), <a class="code hl_class" href="../../d8/d0d/class_spell.html">Spell</a>-&gt;Id) != std::end(serpentStings);</div>
+<div class="line"><span class="lineno">  412</span> </div>
+<div class="line"><span class="lineno">  413</span>                <span class="keywordflow">if</span> (applyAura)</div>
+<div class="line"><span class="lineno">  414</span>                {</div>
+<div class="line"><span class="lineno">  415</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a51d433dde350cd94d7c3c43e30ca997f">AddAura</a>(<a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edeaf78c2ad18353df6ab6937f7e48ee8363">ARTORIUS_SPELL_STINGING_TRAUMA</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  416</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9675dc6e2f84f8604e0df5b5ea4cf6d5">TextEmote</a>(<a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edea07c2a58a57c5aaac815f93d435707ba8">ARTORIUS_WEAKNESS_EMOTE</a>);</div>
+<div class="line"><span class="lineno">  417</span>                }</div>
+<div class="line"><span class="lineno">  418</span>            }</div>
+<div class="line"><span class="lineno">  419</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_spell_html"><div class="ttname"><a href="../../d8/d0d/class_spell.html">Spell</a></div><div class="ttdef"><b>Definition:</b> Spell.h:284</div></div>
+<div class="ttc" id="aclass_unit_html_a51d433dde350cd94d7c3c43e30ca997f"><div class="ttname"><a href="../../da/db7/class_unit.html#a51d433dde350cd94d7c3c43e30ca997f">Unit::AddAura</a></div><div class="ttdeci">Aura * AddAura(uint32 spellId, Unit *target)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18895</div></div>
+<div class="ttc" id="aclass_unit_html_a9675dc6e2f84f8604e0df5b5ea4cf6d5"><div class="ttname"><a href="../../da/db7/class_unit.html#a9675dc6e2f84f8604e0df5b5ea4cf6d5">Unit::TextEmote</a></div><div class="ttdeci">virtual void TextEmote(std::string_view text, WorldObject const *target=nullptr, bool isBossEmote=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:21153</div></div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_abe201f9ef5f58feb36b74aed845c1edea07c2a58a57c5aaac815f93d435707ba8"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edea07c2a58a57c5aaac815f93d435707ba8">ARTORIUS_WEAKNESS_EMOTE</a></div><div class="ttdeci">@ ARTORIUS_WEAKNESS_EMOTE</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:51</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afdd2821ce916b65ed33fe7ab75ef56a5" name="afdd2821ce916b65ed33fe7ab75ef56a5"></a>
@@ -778,7 +859,111 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  317</span>        {</div>
+<div class="line"><span class="lineno">  318</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  319</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventId = <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent();</div>
+<div class="line"><span class="lineno">  320</span> </div>
+<div class="line"><span class="lineno">  321</span>            <span class="comment">// Out of combat events</span></div>
+<div class="line"><span class="lineno">  322</span>            <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno">  323</span>            {</div>
+<div class="line"><span class="lineno">  324</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda0f5bec07177a7a6bdbdf76abcbadf05a">EVENT_ENCOUNTER_START</a>:</div>
+<div class="line"><span class="lineno">  325</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a27d1fd6a83052ee1843832208e407e87">Say</a>(<a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edea980b15e2a702653cf8a1d03ffb34d236">ARTORIUS_SAY</a>);</div>
+<div class="line"><span class="lineno">  326</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#adeebdc78f840a40e89361e5c792b0e53">HandleEmoteCommand</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574afd62875bd674b4d020ce2217e4ad0ab6">EMOTE_ONESHOT_TALK</a>);</div>
+<div class="line"><span class="lineno">  327</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  328</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecdab1074563852eb0de868ad858b218823c">EVENT_REVEAL</a>, 5000);</div>
+<div class="line"><span class="lineno">  329</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  330</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecdab1074563852eb0de868ad858b218823c">EVENT_REVEAL</a>:</div>
+<div class="line"><span class="lineno">  331</span>                    <a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#ab1f2c4d3673ced2eec226741d73f38b0">RevealForm</a>();</div>
+<div class="line"><span class="lineno">  332</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  333</span>            }</div>
+<div class="line"><span class="lineno">  334</span> </div>
+<div class="line"><span class="lineno">  335</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  336</span>            {</div>
+<div class="line"><span class="lineno">  337</span>                <span class="comment">// This should prevent hunters from staying in combat when feign death is used and there is a bystander with 0 threat</span></div>
+<div class="line"><span class="lineno">  338</span>                <a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a2f6e72696b409907a367c13f2207127b">EvadeOnFeignDeath</a>();</div>
+<div class="line"><span class="lineno">  339</span>            }</div>
+<div class="line"><span class="lineno">  340</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  341</span>            {</div>
+<div class="line"><span class="lineno">  342</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  343</span>            }</div>
+<div class="line"><span class="lineno">  344</span> </div>
+<div class="line"><span class="lineno">  345</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">  346</span>            {</div>
+<div class="line"><span class="lineno">  347</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  348</span>            }</div>
+<div class="line"><span class="lineno">  349</span> </div>
+<div class="line"><span class="lineno">  350</span>            <span class="comment">// In combat events</span></div>
+<div class="line"><span class="lineno">  351</span>            <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno">  352</span>            {</div>
+<div class="line"><span class="lineno">  353</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda2ec763aa4426d90ec616777639d20d1c">EVENT_FOOLS_PLIGHT</a>:</div>
+<div class="line"><span class="lineno">  354</span>                    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#ad830292fa123bd4bf2057eadb07fb60b">UnitIsUnfair</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>()) || !<a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a41eb9c433d6b5afff7620fc22953e858">QuestIncomplete</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edea7dfe6305ba551298a4074c2aba0cdd62">ARTORIUS_HEAD</a>))</div>
+<div class="line"><span class="lineno">  355</span>                    {</div>
+<div class="line"><span class="lineno">  356</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf781ca12c0d42795eae352e22e9f89ee">SPELL_FOOLS_PLIGHT</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  357</span>                    }</div>
+<div class="line"><span class="lineno">  358</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(3000, 6000));</div>
+<div class="line"><span class="lineno">  359</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  360</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda7fcd9a3142a87856248cbc51a25268ee">EVENT_RANGE_CHECK</a>:</div>
+<div class="line"><span class="lineno">  361</span>                    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>() || !<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>()-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a0ecfe05a8965ef2d2764685fff1cc961">IsWithinDist2d</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, 60.0f))</div>
+<div class="line"><span class="lineno">  362</span>                    {</div>
+<div class="line"><span class="lineno">  363</span>                        <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">EnterEvadeMode</a>();</div>
+<div class="line"><span class="lineno">  364</span>                    }</div>
+<div class="line"><span class="lineno">  365</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  366</span>                    {</div>
+<div class="line"><span class="lineno">  367</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(2000);</div>
+<div class="line"><span class="lineno">  368</span>                    }</div>
+<div class="line"><span class="lineno">  369</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  370</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda1d894628cbd27d1bcf490577a9ae22f0">EVENT_UNFAIR_FIGHT</a>:</div>
+<div class="line"><span class="lineno">  371</span>                    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a3a3158ab28c9a199100f91362694d691">ValidThreatlist</a>())</div>
+<div class="line"><span class="lineno">  372</span>                    {</div>
+<div class="line"><span class="lineno">  373</span>                        <a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a803fd42a51521c869b2e734f124eca9d">SetHomePosition</a>();</div>
+<div class="line"><span class="lineno">  374</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a88d4148840a6a1106f35646a4580d6fe">UNIT_FLAG_DISABLE_MOVE</a> | <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a> | <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934ab09e74a0f81436c6512becde08fd3d43">UNIT_FLAG_NOT_ATTACKABLE_1</a>);</div>
+<div class="line"><span class="lineno">  375</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af11c4cb6be962a4162cc987c69a7884f">SetImmuneToAll</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  376</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(5000);</div>
+<div class="line"><span class="lineno">  377</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  378</span>                    }</div>
+<div class="line"><span class="lineno">  379</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(2000);</div>
+<div class="line"><span class="lineno">  380</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  381</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edea5630fafdd2954b2520ba2b721872555f">ARTORIUS_EVENT_DEMONIC_DOOM</a>:</div>
+<div class="line"><span class="lineno">  382</span>                    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edeadc3e9c5249b4da7a9f2e1c97caaa900e">ARTORIUS_SPELL_DEMONIC_DOOM</a>))</div>
+<div class="line"><span class="lineno">  383</span>                    {</div>
+<div class="line"><span class="lineno">  384</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edeadc3e9c5249b4da7a9f2e1c97caaa900e">ARTORIUS_SPELL_DEMONIC_DOOM</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  385</span>                    }</div>
+<div class="line"><span class="lineno">  386</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(5000, 10000));</div>
+<div class="line"><span class="lineno">  387</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  388</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edea45adb6c2214dbf19fde4a3273ca3ad24">ARTORIUS_EVENT_DEMONIC_ENRAGE</a>:</div>
+<div class="line"><span class="lineno">  389</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda607e929a10d88ac2761d12fef6cab706">SPELL_DEMONIC_ENRAGE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  390</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(22000, 39000));</div>
+<div class="line"><span class="lineno">  391</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  392</span>            }</div>
+<div class="line"><span class="lineno">  393</span> </div>
+<div class="line"><span class="lineno">  394</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  395</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0e527855c554e31654c9beb340145574afd62875bd674b4d020ce2217e4ad0ab6"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574afd62875bd674b4d020ce2217e4ad0ab6">EMOTE_ONESHOT_TALK</a></div><div class="ttdeci">@ EMOTE_ONESHOT_TALK</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1867</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NON_ATTACKABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:449</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a88d4148840a6a1106f35646a4580d6fe"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a88d4148840a6a1106f35646a4580d6fe">UNIT_FLAG_DISABLE_MOVE</a></div><div class="ttdeci">@ UNIT_FLAG_DISABLE_MOVE</div><div class="ttdef"><b>Definition:</b> Unit.h:450</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934ab09e74a0f81436c6512becde08fd3d43"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934ab09e74a0f81436c6512becde08fd3d43">UNIT_FLAG_NOT_ATTACKABLE_1</a></div><div class="ttdeci">@ UNIT_FLAG_NOT_ATTACKABLE_1</div><div class="ttdef"><b>Definition:</b> Unit.h:455</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_afe5dd68e11d20028510eca29d4184778"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">CreatureAI::EnterEvadeMode</a></div><div class="ttdeci">virtual void EnterEvadeMode(EvadeReason why=EVADE_REASON_OTHER)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:195</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_html_a27d1fd6a83052ee1843832208e407e87"><div class="ttname"><a href="../../da/db7/class_unit.html#a27d1fd6a83052ee1843832208e407e87">Unit::Say</a></div><div class="ttdeci">virtual void Say(std::string_view text, Language language, WorldObject const *target=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:21143</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="aclass_unit_html_ad9f2d48b20f62e17abf5c1892cebe296"><div class="ttname"><a href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">Unit::SetUnitFlag</a></div><div class="ttdeci">void SetUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1479</div></div>
+<div class="ttc" id="aclass_unit_html_adeebdc78f840a40e89361e5c792b0e53"><div class="ttname"><a href="../../da/db7/class_unit.html#adeebdc78f840a40e89361e5c792b0e53">Unit::HandleEmoteCommand</a></div><div class="ttdeci">void HandleEmoteCommand(uint32 emoteId)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1958</div></div>
+<div class="ttc" id="aclass_unit_html_af11c4cb6be962a4162cc987c69a7884f"><div class="ttname"><a href="../../da/db7/class_unit.html#af11c4cb6be962a4162cc987c69a7884f">Unit::SetImmuneToAll</a></div><div class="ttdeci">void SetImmuneToAll(bool apply, bool keepCombat=false)</div><div class="ttdef"><b>Definition:</b> Unit.h:1675</div></div>
+<div class="ttc" id="aclass_unit_html_af9a5a43c2d7940c38f8b101409666a0d"><div class="ttname"><a href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">Unit::RemoveUnitFlag</a></div><div class="ttdeci">void RemoveUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1480</div></div>
+<div class="ttc" id="aclass_world_object_html_a0ecfe05a8965ef2d2764685fff1cc961"><div class="ttname"><a href="../../db/df7/class_world_object.html#a0ecfe05a8965ef2d2764685fff1cc961">WorldObject::IsWithinDist2d</a></div><div class="ttdeci">bool IsWithinDist2d(float x, float y, float dist) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1305</div></div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_a2898ea5b5bdc6f6ebd68c36327a6cecda607e929a10d88ac2761d12fef6cab706"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda607e929a10d88ac2761d12fef6cab706">SPELL_DEMONIC_ENRAGE</a></div><div class="ttdeci">@ SPELL_DEMONIC_ENRAGE</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:42</div></div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_a2898ea5b5bdc6f6ebd68c36327a6cecdab1074563852eb0de868ad858b218823c"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecdab1074563852eb0de868ad858b218823c">EVENT_REVEAL</a></div><div class="ttdeci">@ EVENT_REVEAL</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:31</div></div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_abe201f9ef5f58feb36b74aed845c1edea980b15e2a702653cf8a1d03ffb34d236"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edea980b15e2a702653cf8a1d03ffb34d236">ARTORIUS_SAY</a></div><div class="ttdeci">@ ARTORIUS_SAY</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:52</div></div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_abe201f9ef5f58feb36b74aed845c1edeadc3e9c5249b4da7a9f2e1c97caaa900e"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#abe201f9ef5f58feb36b74aed845c1edeadc3e9c5249b4da7a9f2e1c97caaa900e">ARTORIUS_SPELL_DEMONIC_DOOM</a></div><div class="ttdeci">@ ARTORIUS_SPELL_DEMONIC_DOOM</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:59</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a2f6e72696b409907a367c13f2207127b"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a2f6e72696b409907a367c13f2207127b">NPCStaveQuestAI::EvadeOnFeignDeath</a></div><div class="ttdeci">void EvadeOnFeignDeath()</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:242</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a3a3158ab28c9a199100f91362694d691"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a3a3158ab28c9a199100f91362694d691">NPCStaveQuestAI::ValidThreatlist</a></div><div class="ttdeci">bool ValidThreatlist()</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:130</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a803fd42a51521c869b2e734f124eca9d"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a803fd42a51521c869b2e734f124eca9d">NPCStaveQuestAI::SetHomePosition</a></div><div class="ttdeci">void SetHomePosition()</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:142</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -797,7 +982,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d7/d93/npc__stave__of__ancients_8cpp.html">npc_stave_of_ancients.cpp</a></li>
+<li><a class="el" href="../../">npc_stave_of_ancients.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -805,7 +990,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d36/classnpc__artorius.html">npc_artorius</a></li><li class="navelem"><a class="el" href="../../da/d1a/structnpc__artorius_1_1npc__artorius_a_i.html">npc_artoriusAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:03 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -495,7 +495,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a189ce3cc82b486178f06c340615b640b" name="a189ce3cc82b486178f06c340615b640b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a189ce3cc82b486178f06c340615b640b">&#9670;&#160;</a></span>npc_floonAI()</h2>
 
@@ -519,7 +520,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  570</span>                                        : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">  571</span>        {</div>
+<div class="line"><span class="lineno">  572</span>            <a class="code hl_variable" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a58960005f1ec7bbab0be0731e67d9b82">m_uiNormFaction</a> = creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6727f9ef69f7cefb909dfc5db05df155">GetFaction</a>();</div>
+<div class="line"><span class="lineno">  573</span>        }</div>
+<div class="ttc" id="aclass_unit_html_a6727f9ef69f7cefb909dfc5db05df155"><div class="ttname"><a href="../../da/db7/class_unit.html#a6727f9ef69f7cefb909dfc5db05df155">Unit::GetFaction</a></div><div class="ttdeci">uint32 GetFaction() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1493</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astructnpc__floon_1_1npc__floon_a_i_html_a58960005f1ec7bbab0be0731e67d9b82"><div class="ttname"><a href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a58960005f1ec7bbab0be0731e67d9b82">npc_floon::npc_floonAI::m_uiNormFaction</a></div><div class="ttdeci">uint32 m_uiNormFaction</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:575</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -548,7 +556,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  589</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0bc567259daa6b3c2c70589c35425210" name="a0bc567259daa6b3c2c70589c35425210"></a>
@@ -575,7 +584,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  581</span>        {</div>
+<div class="line"><span class="lineno">  582</span>            <a class="code hl_variable" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a1171013a4bd0227ab92a9c3c971cddd4">Silence_Timer</a> = 2000;</div>
+<div class="line"><span class="lineno">  583</span>            <a class="code hl_variable" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a5895a32d35724b190108eaab2c30ae13">Frostbolt_Timer</a> = 4000;</div>
+<div class="line"><span class="lineno">  584</span>            <a class="code hl_variable" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a53f394a8aa07fb5ee6a5ef64cc45fadd">FrostNova_Timer</a> = 9000;</div>
+<div class="line"><span class="lineno">  585</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6727f9ef69f7cefb909dfc5db05df155">GetFaction</a>() != <a class="code hl_variable" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a58960005f1ec7bbab0be0731e67d9b82">m_uiNormFaction</a>)</div>
+<div class="line"><span class="lineno">  586</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_variable" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a58960005f1ec7bbab0be0731e67d9b82">m_uiNormFaction</a>);</div>
+<div class="line"><span class="lineno">  587</span>        }</div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__floon_1_1npc__floon_a_i_html_a1171013a4bd0227ab92a9c3c971cddd4"><div class="ttname"><a href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a1171013a4bd0227ab92a9c3c971cddd4">npc_floon::npc_floonAI::Silence_Timer</a></div><div class="ttdeci">uint32 Silence_Timer</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:576</div></div>
+<div class="ttc" id="astructnpc__floon_1_1npc__floon_a_i_html_a53f394a8aa07fb5ee6a5ef64cc45fadd"><div class="ttname"><a href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a53f394a8aa07fb5ee6a5ef64cc45fadd">npc_floon::npc_floonAI::FrostNova_Timer</a></div><div class="ttdeci">uint32 FrostNova_Timer</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:578</div></div>
+<div class="ttc" id="astructnpc__floon_1_1npc__floon_a_i_html_a5895a32d35724b190108eaab2c30ae13"><div class="ttname"><a href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a5895a32d35724b190108eaab2c30ae13">npc_floon::npc_floonAI::Frostbolt_Timer</a></div><div class="ttdeci">uint32 Frostbolt_Timer</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:577</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5741592304c3b97205449bbe82edd5f1" name="a5741592304c3b97205449bbe82edd5f1"></a>
@@ -603,7 +624,41 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  592</span>        {</div>
+<div class="line"><span class="lineno">  593</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  594</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  595</span> </div>
+<div class="line"><span class="lineno">  596</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a1171013a4bd0227ab92a9c3c971cddd4">Silence_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  597</span>            {</div>
+<div class="line"><span class="lineno">  598</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d6/d75/zone__terokkar__forest_8cpp.html#aadcb2f195cbf5c24ba7bdb3f4a995b5ba3fb0854cb76a3dd2c796a5339f0e4eba">SPELL_SILENCE</a>);</div>
+<div class="line"><span class="lineno">  599</span>                <a class="code hl_variable" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a1171013a4bd0227ab92a9c3c971cddd4">Silence_Timer</a> = 30000;</div>
+<div class="line"><span class="lineno">  600</span>            }</div>
+<div class="line"><span class="lineno">  601</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a1171013a4bd0227ab92a9c3c971cddd4">Silence_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  602</span> </div>
+<div class="line"><span class="lineno">  603</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a53f394a8aa07fb5ee6a5ef64cc45fadd">FrostNova_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  604</span>            {</div>
+<div class="line"><span class="lineno">  605</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d6/d75/zone__terokkar__forest_8cpp.html#aadcb2f195cbf5c24ba7bdb3f4a995b5bab913503b67c5b8f901cfc4f207bcba03">SPELL_FROST_NOVA</a>);</div>
+<div class="line"><span class="lineno">  606</span>                <a class="code hl_variable" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a53f394a8aa07fb5ee6a5ef64cc45fadd">FrostNova_Timer</a> = 20000;</div>
+<div class="line"><span class="lineno">  607</span>            }</div>
+<div class="line"><span class="lineno">  608</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a53f394a8aa07fb5ee6a5ef64cc45fadd">FrostNova_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  609</span> </div>
+<div class="line"><span class="lineno">  610</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a5895a32d35724b190108eaab2c30ae13">Frostbolt_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  611</span>            {</div>
+<div class="line"><span class="lineno">  612</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d6/d75/zone__terokkar__forest_8cpp.html#aadcb2f195cbf5c24ba7bdb3f4a995b5ba1c6a7f86c2818960d6f6f23a4554e39e">SPELL_FROSTBOLT</a>);</div>
+<div class="line"><span class="lineno">  613</span>                <a class="code hl_variable" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a5895a32d35724b190108eaab2c30ae13">Frostbolt_Timer</a> = 5000;</div>
+<div class="line"><span class="lineno">  614</span>            }</div>
+<div class="line"><span class="lineno">  615</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html#a5895a32d35724b190108eaab2c30ae13">Frostbolt_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  616</span> </div>
+<div class="line"><span class="lineno">  617</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  618</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="azone__terokkar__forest_8cpp_html_aadcb2f195cbf5c24ba7bdb3f4a995b5ba1c6a7f86c2818960d6f6f23a4554e39e"><div class="ttname"><a href="../../d6/d75/zone__terokkar__forest_8cpp.html#aadcb2f195cbf5c24ba7bdb3f4a995b5ba1c6a7f86c2818960d6f6f23a4554e39e">SPELL_FROSTBOLT</a></div><div class="ttdeci">@ SPELL_FROSTBOLT</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:525</div></div>
+<div class="ttc" id="azone__terokkar__forest_8cpp_html_aadcb2f195cbf5c24ba7bdb3f4a995b5ba3fb0854cb76a3dd2c796a5339f0e4eba"><div class="ttname"><a href="../../d6/d75/zone__terokkar__forest_8cpp.html#aadcb2f195cbf5c24ba7bdb3f4a995b5ba3fb0854cb76a3dd2c796a5339f0e4eba">SPELL_SILENCE</a></div><div class="ttdeci">@ SPELL_SILENCE</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:524</div></div>
+<div class="ttc" id="azone__terokkar__forest_8cpp_html_aadcb2f195cbf5c24ba7bdb3f4a995b5bab913503b67c5b8f901cfc4f207bcba03"><div class="ttname"><a href="../../d6/d75/zone__terokkar__forest_8cpp.html#aadcb2f195cbf5c24ba7bdb3f4a995b5bab913503b67c5b8f901cfc4f207bcba03">SPELL_FROST_NOVA</a></div><div class="ttdeci">@ SPELL_FROST_NOVA</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:526</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -664,7 +719,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/<a class="el" href="../../d6/d75/zone__terokkar__forest_8cpp.html">zone_terokkar_forest.cpp</a></li>
+<li><a class="el" href="../../">zone_terokkar_forest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -672,7 +727,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/dd5/classnpc__floon.html">npc_floon</a></li><li class="navelem"><a class="el" href="../../da/ded/structnpc__floon_1_1npc__floon_a_i.html">npc_floonAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

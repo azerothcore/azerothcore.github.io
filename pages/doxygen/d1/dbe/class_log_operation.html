@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d1/dbe/class_log_operation.html','../.
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d4/d88/_log_operation_8h_source.html">LogOperation.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">LogOperation.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -131,7 +131,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a665effc48367f396f3e714f5d3d56d75"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../d4/ddb/struct_log_message.html">LogMessage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/class_log_operation.html#a665effc48367f396f3e714f5d3d56d75">msg</a></td></tr>
 <tr class="separator:a665effc48367f396f3e714f5d3d56d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a19e5e4731bd71697876110348f86d737" name="a19e5e4731bd71697876110348f86d737"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a19e5e4731bd71697876110348f86d737">&#9670;&#160;</a></span>LogOperation()</h2>
 
@@ -157,7 +158,12 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   22</span>                                                                                  : <a class="code hl_variable" href="../../d1/dbe/class_log_operation.html#af1d8611d116a3575e59a99e8cba5fc84">logger</a>(_logger), <a class="code hl_variable" href="../../d1/dbe/class_log_operation.html#a665effc48367f396f3e714f5d3d56d75">msg</a>(std::forward&lt;std::unique_ptr&lt;LogMessage&gt;&gt;(_msg))</div>
+<div class="line"><span class="lineno">   23</span>{</div>
+<div class="line"><span class="lineno">   24</span>}</div>
+<div class="ttc" id="aclass_log_operation_html_a665effc48367f396f3e714f5d3d56d75"><div class="ttname"><a href="../../d1/dbe/class_log_operation.html#a665effc48367f396f3e714f5d3d56d75">LogOperation::msg</a></div><div class="ttdeci">std::unique_ptr&lt; LogMessage &gt; msg</div><div class="ttdef"><b>Definition:</b> LogOperation.h:38</div></div>
+<div class="ttc" id="aclass_log_operation_html_af1d8611d116a3575e59a99e8cba5fc84"><div class="ttname"><a href="../../d1/dbe/class_log_operation.html#af1d8611d116a3575e59a99e8cba5fc84">LogOperation::logger</a></div><div class="ttdeci">Logger const  * logger</div><div class="ttdef"><b>Definition:</b> LogOperation.h:37</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aae305e293044badac1a628edd501ed35" name="aae305e293044badac1a628edd501ed35"></a>
@@ -174,7 +180,9 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
+<div class="line"><span class="lineno">   28</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -192,7 +200,12 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_variable" href="../../d1/dbe/class_log_operation.html#af1d8611d116a3575e59a99e8cba5fc84">logger</a>-&gt;<a class="code hl_function" href="../../d3/d42/class_logger.html#a3627f98e8676ee7b68a34a4d9439082e">write</a>(<a class="code hl_variable" href="../../d1/dbe/class_log_operation.html#a665effc48367f396f3e714f5d3d56d75">msg</a>.get());</div>
+<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   34</span>}</div>
+<div class="ttc" id="aclass_logger_html_a3627f98e8676ee7b68a34a4d9439082e"><div class="ttname"><a href="../../d3/d42/class_logger.html#a3627f98e8676ee7b68a34a4d9439082e">Logger::write</a></div><div class="ttdeci">void write(LogMessage *message) const</div><div class="ttdef"><b>Definition:</b> Logger.cpp:49</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -241,8 +254,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/common/Logging/<a class="el" href="../../d4/d88/_log_operation_8h_source.html">LogOperation.h</a></li>
-<li>D:/azerothcore-wotlk/src/common/Logging/<a class="el" href="../../d6/d90/_log_operation_8cpp.html">LogOperation.cpp</a></li>
+<li><a class="el" href="../../">LogOperation.h</a></li>
+<li><a class="el" href="../../">LogOperation.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -250,7 +263,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/dbe/class_log_operation.html">LogOperation</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

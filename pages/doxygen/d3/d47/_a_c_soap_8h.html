@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/apps/worldserver/ACSoap/ACSoap.h File Reference</title>
+<title>AzeorthCore: ACSoap.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -111,11 +111,11 @@ $(document).ready(function(){initNavTree('d3/d47/_a_c_soap_8h.html','../../'); i
   <div class="headertitle"><div class="title">ACSoap.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../db/d35/_define_8h_source.html">Define.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
 <code>#include &lt;future&gt;</code><br />
 <code>#include &lt;mutex&gt;</code><br />
 </div>
-<p><a href="../../d3/d47/_a_c_soap_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -155,7 +155,46 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <span class="keyword">struct </span>soap soap;</div>
+<div class="line"><span class="lineno">   27</span>    soap_init(&amp;soap);</div>
+<div class="line"><span class="lineno">   28</span>    soap_set_imode(&amp;soap, SOAP_C_UTFSTRING);</div>
+<div class="line"><span class="lineno">   29</span>    soap_set_omode(&amp;soap, SOAP_C_UTFSTRING);</div>
+<div class="line"><span class="lineno">   30</span> </div>
+<div class="line"><span class="lineno">   31</span>    <span class="comment">// check every 3 seconds if world ended</span></div>
+<div class="line"><span class="lineno">   32</span>    soap.accept_timeout = 3;</div>
+<div class="line"><span class="lineno">   33</span>    soap.recv_timeout = 5;</div>
+<div class="line"><span class="lineno">   34</span>    soap.send_timeout = 5;</div>
+<div class="line"><span class="lineno">   35</span> </div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">if</span> (!soap_valid_socket(soap_bind(&amp;soap, host.c_str(), port, 100)))</div>
+<div class="line"><span class="lineno">   37</span>    {</div>
+<div class="line"><span class="lineno">   38</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;network.soap&quot;</span>, <span class="stringliteral">&quot;ACSoap: couldn&#39;t bind to {}:{}&quot;</span>, host, port);</div>
+<div class="line"><span class="lineno">   39</span>        exit(-1);</div>
+<div class="line"><span class="lineno">   40</span>    }</div>
+<div class="line"><span class="lineno">   41</span> </div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;network.soap&quot;</span>, <span class="stringliteral">&quot;ACSoap: bound to http://{}:{}&quot;</span>, host, port);</div>
+<div class="line"><span class="lineno">   43</span> </div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">while</span> (!<a class="code hl_function" href="../../d3/d21/class_world.html#ae1716f62b00fe8ba87a92850bf4d054c">World::IsStopped</a>())</div>
+<div class="line"><span class="lineno">   45</span>    {</div>
+<div class="line"><span class="lineno">   46</span>        <span class="keywordflow">if</span> (!soap_valid_socket(soap_accept(&amp;soap)))</div>
+<div class="line"><span class="lineno">   47</span>            <span class="keywordflow">continue</span>;   <span class="comment">// ran into an accept timeout</span></div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;network.soap&quot;</span>, <span class="stringliteral">&quot;ACSoap: accepted connection from IP={}.{}.{}.{}&quot;</span>, (<span class="keywordtype">int</span>)(soap.ip &gt;&gt; 24) &amp; 0xFF, (<span class="keywordtype">int</span>)(soap.ip &gt;&gt; 16) &amp; 0xFF, (<span class="keywordtype">int</span>)(soap.ip &gt;&gt; 8) &amp; 0xFF, (<span class="keywordtype">int</span>)soap.ip &amp; 0xFF);</div>
+<div class="line"><span class="lineno">   50</span>        <span class="keyword">struct </span>soap* thread_soap = soap_copy(&amp;soap);<span class="comment">// make a safe copy</span></div>
+<div class="line"><span class="lineno">   51</span> </div>
+<div class="line"><span class="lineno">   52</span>        <a class="code hl_function" href="../../de/dda/_a_c_soap_8cpp.html#abf914e30c869f88f2fafb9f656320c6a">process_message</a>(thread_soap);</div>
+<div class="line"><span class="lineno">   53</span>    }</div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>    soap_destroy(&amp;soap);</div>
+<div class="line"><span class="lineno">   56</span>    soap_end(&amp;soap);</div>
+<div class="line"><span class="lineno">   57</span>    soap_done(&amp;soap);</div>
+<div class="line"><span class="lineno">   58</span>}</div>
+<div class="ttc" id="a_a_c_soap_8cpp_html_abf914e30c869f88f2fafb9f656320c6a"><div class="ttname"><a href="../../de/dda/_a_c_soap_8cpp.html#abf914e30c869f88f2fafb9f656320c6a">process_message</a></div><div class="ttdeci">void process_message(struct soap *soap_message)</div><div class="ttdef"><b>Definition:</b> ACSoap.cpp:60</div></div>
+<div class="ttc" id="a_log_8h_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:167</div></div>
+<div class="ttc" id="a_log_8h_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+<div class="ttc" id="a_log_8h_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:171</div></div>
+<div class="ttc" id="aclass_world_html_ae1716f62b00fe8ba87a92850bf4d054c"><div class="ttname"><a href="../../d3/d21/class_world.html#ae1716f62b00fe8ba87a92850bf4d054c">World::IsStopped</a></div><div class="ttdeci">static bool IsStopped()</div><div class="ttdef"><b>Definition:</b> World.h:263</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abf914e30c869f88f2fafb9f656320c6a" name="abf914e30c869f88f2fafb9f656320c6a"></a>
@@ -173,7 +212,16 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   61</span>{</div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5">LOG_TRACE</a>(<span class="stringliteral">&quot;network.soap&quot;</span>, <span class="stringliteral">&quot;SOAPWorkingThread::process_message&quot;</span>);</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>    soap_serve(soap_message);</div>
+<div class="line"><span class="lineno">   65</span>    soap_destroy(soap_message); <span class="comment">// dealloc C++ data</span></div>
+<div class="line"><span class="lineno">   66</span>    soap_end(soap_message); <span class="comment">// dealloc data and clean up</span></div>
+<div class="line"><span class="lineno">   67</span>    soap_free(soap_message); <span class="comment">// detach soap struct and fre up the memory</span></div>
+<div class="line"><span class="lineno">   68</span>}</div>
+<div class="ttc" id="a_log_8h_html_ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5"><div class="ttname"><a href="../../da/df4/_log_8h.html#ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5">LOG_TRACE</a></div><div class="ttdeci">#define LOG_TRACE(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:175</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -182,7 +230,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c8498b4bff487486cc5ffdac4c412cf7.html">apps</a></li><li class="navelem"><a class="el" href="../../dir_4a0dc471e712914507a0672b672729a4.html">worldserver</a></li><li class="navelem"><a class="el" href="../../dir_d5546cd048ce0388ac9df91d37210e56.html">ACSoap</a></li><li class="navelem"><a class="el" href="../../d3/d47/_a_c_soap_8h.html">ACSoap.h</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

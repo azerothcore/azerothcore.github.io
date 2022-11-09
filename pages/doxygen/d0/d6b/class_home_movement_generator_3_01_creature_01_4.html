@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d0/d6b/class_home_movement_generator_3
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../df/d7e/_home_movement_generator_8h_source.html">HomeMovementGenerator.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">HomeMovementGenerator.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for HomeMovementGenerator&lt; Creature &gt;:</div>
 <div class="dyncontent">
@@ -189,7 +189,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a77b40bcbada8ea43accae23ceb642628"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html#a77b40bcbada8ea43accae23ceb642628">i_recalculateTravel</a>: 1</td></tr>
 <tr class="separator:a77b40bcbada8ea43accae23ceb642628"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5b8aa20d834bedb9775a604a5c81cb17" name="a5b8aa20d834bedb9775a604a5c81cb17"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5b8aa20d834bedb9775a604a5c81cb17">&#9670;&#160;</a></span>HomeMovementGenerator()</h2>
 
@@ -212,7 +213,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   32</span>: <a class="code hl_variable" href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html#aab9cd0057a625afef2d96feebd6428fb">arrived</a>(<span class="keyword">false</span>), <a class="code hl_variable" href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html#a77b40bcbada8ea43accae23ceb642628">i_recalculateTravel</a>(<span class="keyword">false</span>) {}</div>
+<div class="ttc" id="aclass_home_movement_generator_3_01_creature_01_4_html_a77b40bcbada8ea43accae23ceb642628"><div class="ttname"><a href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html#a77b40bcbada8ea43accae23ceb642628">HomeMovementGenerator&lt; Creature &gt;::i_recalculateTravel</a></div><div class="ttdeci">bool i_recalculateTravel</div><div class="ttdef"><b>Definition:</b> HomeMovementGenerator.h:45</div></div>
+<div class="ttc" id="aclass_home_movement_generator_3_01_creature_01_4_html_aab9cd0057a625afef2d96feebd6428fb"><div class="ttname"><a href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html#aab9cd0057a625afef2d96feebd6428fb">HomeMovementGenerator&lt; Creature &gt;::arrived</a></div><div class="ttdeci">bool arrived</div><div class="ttdef"><b>Definition:</b> HomeMovementGenerator.h:44</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9d889b5112f6c93a0707227fc65dd902" name="a9d889b5112f6c93a0707227fc65dd902"></a>
@@ -237,7 +241,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   33</span>{}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -264,7 +269,50 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   50</span>{</div>
+<div class="line"><span class="lineno">   51</span>    <span class="comment">// Xinef: dont interrupt in any cast!</span></div>
+<div class="line"><span class="lineno">   52</span>    <span class="comment">//if (owner-&gt;HasUnitState(UNIT_STATE_ROOT | UNIT_STATE_STUNNED | UNIT_STATE_DISTRACTED))</span></div>
+<div class="line"><span class="lineno">   53</span>    <span class="comment">//    return;</span></div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_class" href="../../d6/d88/class_movement_1_1_move_spline_init.html">Movement::MoveSplineInit</a> init(owner);</div>
+<div class="line"><span class="lineno">   55</span>    <span class="keywordtype">float</span> x, y, z, o;</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>    <span class="comment">// Xinef: if there is motion generator on controlled slot, this one is not updated</span></div>
+<div class="line"><span class="lineno">   58</span>    <span class="comment">// Xinef: always get reset pos from idle slot</span></div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_class" href="../../d9/d70/class_movement_generator.html">MovementGenerator</a>* gen = owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a6467513eb801179256c4bf899268f33a">GetMotionSlot</a>(<a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a42f80f4e5d95e3ba656adbee43cfc3f5a8c7bb505a87bb49d9e66390133eed5a7">MOTION_SLOT_IDLE</a>);</div>
+<div class="line"><span class="lineno">   60</span>    <span class="keywordflow">if</span> (owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a92e69c7f390d4c64eee74f071f1ba306">empty</a>() || !gen || !gen-&gt;<a class="code hl_function" href="../../d9/d70/class_movement_generator.html#a60ac9e99f41d1f5c320441cf78b4b46a">GetResetPosition</a>(x, y, z))</div>
+<div class="line"><span class="lineno">   61</span>    {</div>
+<div class="line"><span class="lineno">   62</span>        owner-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a406ff2cf337ffe4dde864ecf85a6f54b">GetHomePosition</a>(x, y, z, o);</div>
+<div class="line"><span class="lineno">   63</span>        init.SetFacing(o);</div>
+<div class="line"><span class="lineno">   64</span>    }</div>
+<div class="line"><span class="lineno">   65</span> </div>
+<div class="line"><span class="lineno">   66</span>    owner-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1789853fc4dad288f626d8ca60ee9e07">UpdateAllowedPositionZ</a>(x, y, z);</div>
+<div class="line"><span class="lineno">   67</span>    init.MoveTo(x, y, z, <a class="code hl_function" href="../../dd/d42/namespace_disable_mgr.html#ad6a338e6f295d785a4f9256703ffbd71">DisableMgr::IsPathfindingEnabled</a>(owner-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1e43fee59e696ae47ed06191ae3b1b82">FindMap</a>()), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   68</span>    init.SetWalk(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">   69</span>    init.Launch();</div>
+<div class="line"><span class="lineno">   70</span> </div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_variable" href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html#aab9cd0057a625afef2d96feebd6428fb">arrived</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   72</span> </div>
+<div class="line"><span class="lineno">   73</span>    owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0234fee1df2999bda3ca22449164f7b5">ClearUnitState</a>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a3391cb7ab3dac2ac1c8ca42b22dcc12d">UNIT_STATE_ALL_STATE</a> &amp; ~(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a26762a66b52e7a046b7b50be2745fd79">UNIT_STATE_POSSESSED</a> | <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a1ecb2438cddaf1339aec3cf4f37e4fba">UNIT_STATE_EVADE</a> | <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544aa1f9ce0e24f1efdfee3e190a2e5bd80d">UNIT_STATE_IGNORE_PATHFINDING</a> | <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544ab272e3fe4edd5b0f25024c9da85e83a2">UNIT_STATE_NO_ENVIRONMENT_UPD</a>)));</div>
+<div class="line"><span class="lineno">   74</span>}</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_motion_master_8h_html_a42f80f4e5d95e3ba656adbee43cfc3f5a8c7bb505a87bb49d9e66390133eed5a7"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a42f80f4e5d95e3ba656adbee43cfc3f5a8c7bb505a87bb49d9e66390133eed5a7">MOTION_SLOT_IDLE</a></div><div class="ttdeci">@ MOTION_SLOT_IDLE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:61</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544a1ecb2438cddaf1339aec3cf4f37e4fba"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a1ecb2438cddaf1339aec3cf4f37e4fba">UNIT_STATE_EVADE</a></div><div class="ttdeci">@ UNIT_STATE_EVADE</div><div class="ttdef"><b>Definition:</b> Unit.h:346</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544a26762a66b52e7a046b7b50be2745fd79"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a26762a66b52e7a046b7b50be2745fd79">UNIT_STATE_POSSESSED</a></div><div class="ttdeci">@ UNIT_STATE_POSSESSED</div><div class="ttdef"><b>Definition:</b> Unit.h:341</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544a3391cb7ab3dac2ac1c8ca42b22dcc12d"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a3391cb7ab3dac2ac1c8ca42b22dcc12d">UNIT_STATE_ALL_STATE</a></div><div class="ttdeci">@ UNIT_STATE_ALL_STATE</div><div class="ttdef"><b>Definition:</b> Unit.h:373</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544aa1f9ce0e24f1efdfee3e190a2e5bd80d"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544aa1f9ce0e24f1efdfee3e190a2e5bd80d">UNIT_STATE_IGNORE_PATHFINDING</a></div><div class="ttdeci">@ UNIT_STATE_IGNORE_PATHFINDING</div><div class="ttdef"><b>Definition:</b> Unit.h:352</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544ab272e3fe4edd5b0f25024c9da85e83a2"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544ab272e3fe4edd5b0f25024c9da85e83a2">UNIT_STATE_NO_ENVIRONMENT_UPD</a></div><div class="ttdeci">@ UNIT_STATE_NO_ENVIRONMENT_UPD</div><div class="ttdef"><b>Definition:</b> Unit.h:353</div></div>
+<div class="ttc" id="aclass_creature_html_a406ff2cf337ffe4dde864ecf85a6f54b"><div class="ttname"><a href="../../d1/dac/class_creature.html#a406ff2cf337ffe4dde864ecf85a6f54b">Creature::GetHomePosition</a></div><div class="ttdeci">void GetHomePosition(float &amp;x, float &amp;y, float &amp;z, float &amp;ori) const</div><div class="ttdef"><b>Definition:</b> Creature.h:322</div></div>
+<div class="ttc" id="aclass_motion_master_html_a6467513eb801179256c4bf899268f33a"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a6467513eb801179256c4bf899268f33a">MotionMaster::GetMotionSlot</a></div><div class="ttdeci">_Ty GetMotionSlot(int slot) const</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:153</div></div>
+<div class="ttc" id="aclass_motion_master_html_a92e69c7f390d4c64eee74f071f1ba306"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a92e69c7f390d4c64eee74f071f1ba306">MotionMaster::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:146</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_init_html"><div class="ttname"><a href="../../d6/d88/class_movement_1_1_move_spline_init.html">Movement::MoveSplineInit</a></div><div class="ttdef"><b>Definition:</b> MoveSplineInit.h:71</div></div>
+<div class="ttc" id="aclass_movement_generator_html"><div class="ttname"><a href="../../d9/d70/class_movement_generator.html">MovementGenerator</a></div><div class="ttdef"><b>Definition:</b> MovementGenerator.h:30</div></div>
+<div class="ttc" id="aclass_movement_generator_html_a60ac9e99f41d1f5c320441cf78b4b46a"><div class="ttname"><a href="../../d9/d70/class_movement_generator.html#a60ac9e99f41d1f5c320441cf78b4b46a">MovementGenerator::GetResetPosition</a></div><div class="ttdeci">virtual bool GetResetPosition(float &amp;, float &amp;, float &amp;)</div><div class="ttdef"><b>Definition:</b> MovementGenerator.h:53</div></div>
+<div class="ttc" id="aclass_unit_html_a0234fee1df2999bda3ca22449164f7b5"><div class="ttname"><a href="../../da/db7/class_unit.html#a0234fee1df2999bda3ca22449164f7b5">Unit::ClearUnitState</a></div><div class="ttdeci">void ClearUnitState(uint32 f)</div><div class="ttdef"><b>Definition:</b> Unit.h:1399</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_world_object_html_a1789853fc4dad288f626d8ca60ee9e07"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1789853fc4dad288f626d8ca60ee9e07">WorldObject::UpdateAllowedPositionZ</a></div><div class="ttdeci">void UpdateAllowedPositionZ(float x, float y, float &amp;z, float *groundZ=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1554</div></div>
+<div class="ttc" id="aclass_world_object_html_a1e43fee59e696ae47ed06191ae3b1b82"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1e43fee59e696ae47ed06191ae3b1b82">WorldObject::FindMap</a></div><div class="ttdeci">Map * FindMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:518</div></div>
+<div class="ttc" id="anamespace_disable_mgr_html_ad6a338e6f295d785a4f9256703ffbd71"><div class="ttname"><a href="../../dd/d42/namespace_disable_mgr.html#ad6a338e6f295d785a4f9256703ffbd71">DisableMgr::IsPathfindingEnabled</a></div><div class="ttdeci">bool IsPathfindingEnabled(const Map *map)</div><div class="ttdef"><b>Definition:</b> DisableMgr.cpp:402</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab1ce2df22dba7759ca28a77532a17db1" name="ab1ce2df22dba7759ca28a77532a17db1"></a>
@@ -282,7 +330,26 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0234fee1df2999bda3ca22449164f7b5">ClearUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a1ecb2438cddaf1339aec3cf4f37e4fba">UNIT_STATE_EVADE</a>);</div>
+<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html#aab9cd0057a625afef2d96feebd6428fb">arrived</a>)</div>
+<div class="line"><span class="lineno">   34</span>    {</div>
+<div class="line"><span class="lineno">   35</span>        <span class="comment">// Xinef: npc run by default</span></div>
+<div class="line"><span class="lineno">   36</span>        <span class="comment">//owner-&gt;SetWalk(true);</span></div>
+<div class="line"><span class="lineno">   37</span>        owner-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a10017926811f5d8805b0681895327c1e">LoadCreaturesAddon</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   38</span>        owner-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a85468652a394c5f2b3b14d822ac2d222">JustReachedHome</a>();</div>
+<div class="line"><span class="lineno">   39</span>    }</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">if</span> (!owner-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a967138cdf1d8c3287d6a88ccc53b41ec">HasSwimmingFlagOutOfCombat</a>())</div>
+<div class="line"><span class="lineno">   42</span>        owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a7c47a69fe9ab7bc2e1330c83e22257ca">UNIT_FLAG_SWIMMING</a>);</div>
+<div class="line"><span class="lineno">   43</span>}</div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a7c47a69fe9ab7bc2e1330c83e22257ca"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a7c47a69fe9ab7bc2e1330c83e22257ca">UNIT_FLAG_SWIMMING</a></div><div class="ttdeci">@ UNIT_FLAG_SWIMMING</div><div class="ttdef"><b>Definition:</b> Unit.h:463</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_a85468652a394c5f2b3b14d822ac2d222"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a85468652a394c5f2b3b14d822ac2d222">CreatureAI::JustReachedHome</a></div><div class="ttdeci">virtual void JustReachedHome()</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:157</div></div>
+<div class="ttc" id="aclass_creature_html_a10017926811f5d8805b0681895327c1e"><div class="ttname"><a href="../../d1/dac/class_creature.html#a10017926811f5d8805b0681895327c1e">Creature::LoadCreaturesAddon</a></div><div class="ttdeci">bool LoadCreaturesAddon(bool reload=false)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2607</div></div>
+<div class="ttc" id="aclass_creature_html_a967138cdf1d8c3287d6a88ccc53b41ec"><div class="ttname"><a href="../../d1/dac/class_creature.html#a967138cdf1d8c3287d6a88ccc53b41ec">Creature::HasSwimmingFlagOutOfCombat</a></div><div class="ttdeci">bool HasSwimmingFlagOutOfCombat() const</div><div class="ttdef"><b>Definition:</b> Creature.h:377</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_unit_html_af9a5a43c2d7940c38f8b101409666a0d"><div class="ttname"><a href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">Unit::RemoveUnitFlag</a></div><div class="ttdeci">void RemoveUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1480</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaa6f7b1aa064be00a726539830d6c30e" name="aaa6f7b1aa064be00a726539830d6c30e"></a>
@@ -300,7 +367,11 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_function" href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html#a7ac3be92303b77b640c7199ec65184dd">_setTargetLocation</a>(owner);</div>
+<div class="line"><span class="lineno">   28</span>}</div>
+<div class="ttc" id="aclass_home_movement_generator_3_01_creature_01_4_html_a7ac3be92303b77b640c7199ec65184dd"><div class="ttname"><a href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html#a7ac3be92303b77b640c7199ec65184dd">HomeMovementGenerator&lt; Creature &gt;::_setTargetLocation</a></div><div class="ttdeci">void _setTargetLocation(Creature *)</div><div class="ttdef"><b>Definition:</b> HomeMovementGenerator.cpp:49</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acfebf75bcd7cc62c1b0105eb0c5e9100" name="acfebf75bcd7cc62c1b0105eb0c5e9100"></a>
@@ -318,7 +389,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{</div>
+<div class="line"><span class="lineno">   47</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4e3c1f79f8115312f22612a4b8c6fede" name="a4e3c1f79f8115312f22612a4b8c6fede"></a>
@@ -346,7 +419,22 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   77</span>{</div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_variable" href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html#aab9cd0057a625afef2d96feebd6428fb">arrived</a> = owner-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#a1805acabea4c9a75ad7c0bcab734f627">movespline</a>-&gt;<a class="code hl_function" href="../../df/dd4/class_movement_1_1_move_spline.html#a4c375981abbfa1ea7335cd9369fd93f6">Finalized</a>();</div>
+<div class="line"><span class="lineno">   79</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html#aab9cd0057a625afef2d96feebd6428fb">arrived</a>)</div>
+<div class="line"><span class="lineno">   80</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html#a77b40bcbada8ea43accae23ceb642628">i_recalculateTravel</a>)</div>
+<div class="line"><span class="lineno">   83</span>    {</div>
+<div class="line"><span class="lineno">   84</span>        <a class="code hl_function" href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html#a7ac3be92303b77b640c7199ec65184dd">_setTargetLocation</a>(owner);</div>
+<div class="line"><span class="lineno">   85</span>        <a class="code hl_variable" href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html#a77b40bcbada8ea43accae23ceb642628">i_recalculateTravel</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   86</span>    }</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   89</span>}</div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_html_a4c375981abbfa1ea7335cd9369fd93f6"><div class="ttname"><a href="../../df/dd4/class_movement_1_1_move_spline.html#a4c375981abbfa1ea7335cd9369fd93f6">Movement::MoveSpline::Finalized</a></div><div class="ttdeci">bool Finalized() const</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:116</div></div>
+<div class="ttc" id="aclass_unit_html_a1805acabea4c9a75ad7c0bcab734f627"><div class="ttname"><a href="../../da/db7/class_unit.html#a1805acabea4c9a75ad7c0bcab734f627">Unit::movespline</a></div><div class="ttdeci">Movement::MoveSpline * movespline</div><div class="ttdef"><b>Definition:</b> Unit.h:2435</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaa203c37c8259c8b54ad5ec70db484f1" name="aaa203c37c8259c8b54ad5ec70db484f1"></a>
@@ -373,7 +461,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#a60bac341b438ea7258986f234a952324">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   39</span>{ <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ab50c687899070d507c7858b481807426">HOME_MOTION_TYPE</a>; }</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9ab50c687899070d507c7858b481807426"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ab50c687899070d507c7858b481807426">HOME_MOTION_TYPE</a></div><div class="ttdeci">@ HOME_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:44</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac5078f624899e574a7b56b72e2824b9a" name="ac5078f624899e574a7b56b72e2824b9a"></a>
@@ -400,7 +490,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/d70/class_movement_generator.html#a0f9c4fd52947688dcda1161924e829bb">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   40</span>{ <a class="code hl_variable" href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html#a77b40bcbada8ea43accae23ceb642628">i_recalculateTravel</a> = <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -449,8 +540,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/MovementGenerators/<a class="el" href="../../df/d7e/_home_movement_generator_8h_source.html">HomeMovementGenerator.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/MovementGenerators/<a class="el" href="../../d0/dcd/_home_movement_generator_8cpp.html">HomeMovementGenerator.cpp</a></li>
+<li><a class="el" href="../../">HomeMovementGenerator.h</a></li>
+<li><a class="el" href="../../">HomeMovementGenerator.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -458,7 +549,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d6b/class_home_movement_generator_3_01_creature_01_4.html">HomeMovementGenerator&lt; Creature &gt;</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

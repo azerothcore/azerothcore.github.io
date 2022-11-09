@@ -538,7 +538,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acf180bbe881ba1f6e49c075254759c00" name="acf180bbe881ba1f6e49c075254759c00"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acf180bbe881ba1f6e49c075254759c00">&#9670;&#160;</a></span>boss_baroness_anastariAI()</h2>
 
@@ -562,7 +563,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   43</span>                                                     : <a class="code hl_class" href="../../d4/d0e/class_boss_a_i.html">BossAI</a>(creature, <a class="code hl_enumvalue" href="../../d0/d0b/stratholme_8h.html#afb6eb4f28419b652027fad41104a6d22a16aa32a994b857058f0c0443873cba2f">TYPE_ZIGGURAT1</a>)</div>
+<div class="line"><span class="lineno">   44</span>        {</div>
+<div class="line"><span class="lineno">   45</span>        }</div>
+<div class="ttc" id="aclass_boss_a_i_html"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html">BossAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:424</div></div>
+<div class="ttc" id="astratholme_8h_html_afb6eb4f28419b652027fad41104a6d22a16aa32a994b857058f0c0443873cba2f"><div class="ttname"><a href="../../d0/d0b/stratholme_8h.html#afb6eb4f28419b652027fad41104a6d22a16aa32a994b857058f0c0443873cba2f">TYPE_ZIGGURAT1</a></div><div class="ttdeci">@ TYPE_ZIGGURAT1</div><div class="ttdef"><b>Definition:</b> stratholme.h:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -591,7 +597,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a2f3d2c15114cff26b92dedd45dff0905">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   64</span>        {</div>
+<div class="line"><span class="lineno">   65</span>            <a class="code hl_variable" href="../../d3/d3c/structboss__baroness__anastari_1_1boss__baroness__anastari_a_i.html#aa59518627a5e64e371dbbb45cfced75f">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(1s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context){</div>
+<div class="line"><span class="lineno">   66</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298ca2dd4e74a58154af51310142b2fbb07ca">SPELL_BANSHEEWAIL</a>);</div>
+<div class="line"><span class="lineno">   67</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(4s);</div>
+<div class="line"><span class="lineno">   68</span>            })</div>
+<div class="line"><span class="lineno">   69</span>            .Schedule(11s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context){</div>
+<div class="line"><span class="lineno">   70</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298cacea830f2112252838897453d0163291a">SPELL_BANSHEECURSE</a>);</div>
+<div class="line"><span class="lineno">   71</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(18s);</div>
+<div class="line"><span class="lineno">   72</span>            })</div>
+<div class="line"><span class="lineno">   73</span>            .Schedule(13s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context){</div>
+<div class="line"><span class="lineno">   74</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298ca3fb0854cb76a3dd2c796a5339f0e4eba">SPELL_SILENCE</a>);</div>
+<div class="line"><span class="lineno">   75</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(13s);</div>
+<div class="line"><span class="lineno">   76</span>            });</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>            <a class="code hl_function" href="../../d3/d3c/structboss__baroness__anastari_1_1boss__baroness__anastari_a_i.html#afbf2d4e9c3e8e50815c398b97afb3970">SchedulePossession</a>();</div>
+<div class="line"><span class="lineno">   79</span>        }</div>
+<div class="ttc" id="aboss__baroness__anastari_8cpp_html_a5bd342133be8c2137b831460acc9298ca2dd4e74a58154af51310142b2fbb07ca"><div class="ttname"><a href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298ca2dd4e74a58154af51310142b2fbb07ca">SPELL_BANSHEEWAIL</a></div><div class="ttdeci">@ SPELL_BANSHEEWAIL</div><div class="ttdef"><b>Definition:</b> boss_baroness_anastari.cpp:28</div></div>
+<div class="ttc" id="aboss__baroness__anastari_8cpp_html_a5bd342133be8c2137b831460acc9298ca3fb0854cb76a3dd2c796a5339f0e4eba"><div class="ttname"><a href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298ca3fb0854cb76a3dd2c796a5339f0e4eba">SPELL_SILENCE</a></div><div class="ttdeci">@ SPELL_SILENCE</div><div class="ttdef"><b>Definition:</b> boss_baroness_anastari.cpp:30</div></div>
+<div class="ttc" id="aboss__baroness__anastari_8cpp_html_a5bd342133be8c2137b831460acc9298cacea830f2112252838897453d0163291a"><div class="ttname"><a href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298cacea830f2112252838897453d0163291a">SPELL_BANSHEECURSE</a></div><div class="ttdeci">@ SPELL_BANSHEECURSE</div><div class="ttdef"><b>Definition:</b> boss_baroness_anastari.cpp:29</div></div>
+<div class="ttc" id="aclass_task_context_html"><div class="ttname"><a href="../../d2/dd9/class_task_context.html">TaskContext</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
+<div class="ttc" id="aclass_task_context_html_a380c596857dd0030414db5e8d28a3dda"><div class="ttname"><a href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">TaskContext::Repeat</a></div><div class="ttdeci">TaskContext &amp; Repeat(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:470</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a0e0579d2a2397de5a79c756d5e59a830"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">TaskScheduler::Schedule</a></div><div class="ttdeci">TaskScheduler &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:217</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="astructboss__baroness__anastari_1_1boss__baroness__anastari_a_i_html_aa59518627a5e64e371dbbb45cfced75f"><div class="ttname"><a href="../../d3/d3c/structboss__baroness__anastari_1_1boss__baroness__anastari_a_i.html#aa59518627a5e64e371dbbb45cfced75f">boss_baroness_anastari::boss_baroness_anastariAI::_scheduler</a></div><div class="ttdeci">TaskScheduler _scheduler</div><div class="ttdef"><b>Definition:</b> boss_baroness_anastari.cpp:137</div></div>
+<div class="ttc" id="astructboss__baroness__anastari_1_1boss__baroness__anastari_a_i_html_afbf2d4e9c3e8e50815c398b97afb3970"><div class="ttname"><a href="../../d3/d3c/structboss__baroness__anastari_1_1boss__baroness__anastari_a_i.html#afbf2d4e9c3e8e50815c398b97afb3970">boss_baroness_anastari::boss_baroness_anastariAI::SchedulePossession</a></div><div class="ttdeci">void SchedulePossession()</div><div class="ttdef"><b>Definition:</b> boss_baroness_anastari.cpp:86</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1a7bf1e6c39b0b61e95390e7ee1c5e6b" name="a1a7bf1e6c39b0b61e95390e7ee1c5e6b"></a>
@@ -619,7 +650,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a3980e3c1e8e9992034c9ec35a8b3e298">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   82</span>        {</div>
+<div class="line"><span class="lineno">   83</span>            <a class="code hl_variable" href="../../d4/d0e/class_boss_a_i.html#a05890dbd00c482b204af44f69d3efdc0">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d0/d0b/stratholme_8h.html#afb6eb4f28419b652027fad41104a6d22a16aa32a994b857058f0c0443873cba2f">TYPE_ZIGGURAT1</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>);</div>
+<div class="line"><span class="lineno">   84</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_a05890dbd00c482b204af44f69d3efdc0"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#a05890dbd00c482b204af44f69d3efdc0">BossAI::instance</a></div><div class="ttdeci">InstanceScript *const instance</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:429</div></div>
+<div class="ttc" id="aclass_zone_script_html_a949e67ea24c7e4b70a20806952735576"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a80c99c59486d2a7850a3a54ffebe998b" name="a80c99c59486d2a7850a3a54ffebe998b"></a>
@@ -646,7 +683,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#abe75353ec3f0c86502696b8ccb059cb7">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   48</span>        {</div>
+<div class="line"><span class="lineno">   49</span>            <a class="code hl_variable" href="../../d3/d3c/structboss__baroness__anastari_1_1boss__baroness__anastari_a_i.html#a36e386b847c7032b5ce95a01070518ad">_possessedTargetGuid</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>            <a class="code hl_variable" href="../../d4/d0e/class_boss_a_i.html#a05890dbd00c482b204af44f69d3efdc0">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a5a3faff18c32a8f4da68b00489b7e480">DoRemoveAurasDueToSpellOnPlayers</a>(<a class="code hl_enumvalue" href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298caa6eda124699fe83419ebc16ea7847376">SPELL_POSSESS</a>);</div>
+<div class="line"><span class="lineno">   52</span>            <a class="code hl_variable" href="../../d4/d0e/class_boss_a_i.html#a05890dbd00c482b204af44f69d3efdc0">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a5a3faff18c32a8f4da68b00489b7e480">DoRemoveAurasDueToSpellOnPlayers</a>(<a class="code hl_enumvalue" href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298cad1ed310f0dd57bda68c88fb5f3a33b8a">SPELL_POSSESSED</a>);</div>
+<div class="line"><span class="lineno">   53</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_enumvalue" href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298ca9bc8b1f313ed3738fc07c109d7a84d8b">SPELL_POSSESS_INV</a>);</div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>            <a class="code hl_variable" href="../../d3/d3c/structboss__baroness__anastari_1_1boss__baroness__anastari_a_i.html#aa59518627a5e64e371dbbb45cfced75f">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">CancelAll</a>();</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>            <a class="code hl_variable" href="../../d3/d3c/structboss__baroness__anastari_1_1boss__baroness__anastari_a_i.html#aa59518627a5e64e371dbbb45cfced75f">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#af2bb90b6b81ab1cacd9ac56c3d7e11b2">SetValidator</a>([<span class="keyword">this</span>]</div>
+<div class="line"><span class="lineno">   58</span>            {</div>
+<div class="line"><span class="lineno">   59</span>                <span class="keywordflow">return</span> !<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>);</div>
+<div class="line"><span class="lineno">   60</span>            });</div>
+<div class="line"><span class="lineno">   61</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__baroness__anastari_8cpp_html_a5bd342133be8c2137b831460acc9298ca9bc8b1f313ed3738fc07c109d7a84d8b"><div class="ttname"><a href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298ca9bc8b1f313ed3738fc07c109d7a84d8b">SPELL_POSSESS_INV</a></div><div class="ttdeci">@ SPELL_POSSESS_INV</div><div class="ttdef"><b>Definition:</b> boss_baroness_anastari.cpp:33</div></div>
+<div class="ttc" id="aboss__baroness__anastari_8cpp_html_a5bd342133be8c2137b831460acc9298caa6eda124699fe83419ebc16ea7847376"><div class="ttname"><a href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298caa6eda124699fe83419ebc16ea7847376">SPELL_POSSESS</a></div><div class="ttdeci">@ SPELL_POSSESS</div><div class="ttdef"><b>Definition:</b> boss_baroness_anastari.cpp:31</div></div>
+<div class="ttc" id="aboss__baroness__anastari_8cpp_html_a5bd342133be8c2137b831460acc9298cad1ed310f0dd57bda68c88fb5f3a33b8a"><div class="ttname"><a href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298cad1ed310f0dd57bda68c88fb5f3a33b8a">SPELL_POSSESSED</a></div><div class="ttdeci">@ SPELL_POSSESSED</div><div class="ttdef"><b>Definition:</b> boss_baroness_anastari.cpp:32</div></div>
+<div class="ttc" id="aclass_instance_script_html_a5a3faff18c32a8f4da68b00489b7e480"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a5a3faff18c32a8f4da68b00489b7e480">InstanceScript::DoRemoveAurasDueToSpellOnPlayers</a></div><div class="ttdeci">void DoRemoveAurasDueToSpellOnPlayers(uint32 spell)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:486</div></div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a05da7a474b80d725c991dde9d24df4a4"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">TaskScheduler::CancelAll</a></div><div class="ttdeci">TaskScheduler &amp; CancelAll()</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:33</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_af2bb90b6b81ab1cacd9ac56c3d7e11b2"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#af2bb90b6b81ab1cacd9ac56c3d7e11b2">TaskScheduler::SetValidator</a></div><div class="ttdeci">TaskScheduler &amp; SetValidator(P &amp;&amp;predicate)</div><div class="ttdoc">Sets a validator which is asked if tasks are allowed to be executed.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:182</div></div>
+<div class="ttc" id="aclass_unit_html_aac612f06e84142d92dcfc432b5feb4ac"><div class="ttname"><a href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">Unit::RemoveAurasDueToSpell</a></div><div class="ttdeci">void RemoveAurasDueToSpell(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, uint8 reqEffMask=0, AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4823</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructboss__baroness__anastari_1_1boss__baroness__anastari_a_i_html_a36e386b847c7032b5ce95a01070518ad"><div class="ttname"><a href="../../d3/d3c/structboss__baroness__anastari_1_1boss__baroness__anastari_a_i.html#a36e386b847c7032b5ce95a01070518ad">boss_baroness_anastari::boss_baroness_anastariAI::_possessedTargetGuid</a></div><div class="ttdeci">ObjectGuid _possessedTargetGuid</div><div class="ttdef"><b>Definition:</b> boss_baroness_anastari.cpp:136</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afbf2d4e9c3e8e50815c398b97afb3970" name="afbf2d4e9c3e8e50815c398b97afb3970"></a>
@@ -671,7 +734,49 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   87</span>        {</div>
+<div class="line"><span class="lineno">   88</span>            <a class="code hl_variable" href="../../d3/d3c/structboss__baroness__anastari_1_1boss__baroness__anastari_a_i.html#aa59518627a5e64e371dbbb45cfced75f">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(20s, 30s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context){</div>
+<div class="line"><span class="lineno">   89</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* possessTarget = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 1, 0, <span class="keyword">true</span>, <span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno">   90</span>                {</div>
+<div class="line"><span class="lineno">   91</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(possessTarget, <a class="code hl_enumvalue" href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298caa6eda124699fe83419ebc16ea7847376">SPELL_POSSESS</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   92</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(possessTarget, <a class="code hl_enumvalue" href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298cad1ed310f0dd57bda68c88fb5f3a33b8a">SPELL_POSSESSED</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   93</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298ca9bc8b1f313ed3738fc07c109d7a84d8b">SPELL_POSSESS_INV</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   94</span>                    <a class="code hl_variable" href="../../d3/d3c/structboss__baroness__anastari_1_1boss__baroness__anastari_a_i.html#a36e386b847c7032b5ce95a01070518ad">_possessedTargetGuid</a> = possessTarget-&gt;GetGUID();</div>
+<div class="line"><span class="lineno">   95</span> </div>
+<div class="line"><span class="lineno">   96</span>                    <span class="comment">// We must keep track of the possessed player, the aura falls off when their health drops below 50%.</span></div>
+<div class="line"><span class="lineno">   97</span>                    <span class="comment">// The encounter resumes when the aura falls off.</span></div>
+<div class="line"><span class="lineno">   98</span>                    <a class="code hl_variable" href="../../d3/d3c/structboss__baroness__anastari_1_1boss__baroness__anastari_a_i.html#aa59518627a5e64e371dbbb45cfced75f">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(1s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> possessionContext) {</div>
+<div class="line"><span class="lineno">   99</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* possessedTarget = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d3/d3c/structboss__baroness__anastari_1_1boss__baroness__anastari_a_i.html#a36e386b847c7032b5ce95a01070518ad">_possessedTargetGuid</a>))</div>
+<div class="line"><span class="lineno">  100</span>                        {</div>
+<div class="line"><span class="lineno">  101</span>                            <span class="keywordflow">if</span> (!possessedTarget-&gt;HasAura(<a class="code hl_enumvalue" href="../../d7/d60/boss__baroness__anastari_8cpp.html#a5bd342133be8c2137b831460acc9298cad1ed310f0dd57bda68c88fb5f3a33b8a">SPELL_POSSESSED</a>) || possessedTarget-&gt;HealthBelowPct(50))</div>
+<div class="line"><span class="lineno">  102</span>                            {</div>
+<div class="line"><span class="lineno">  103</span>                                possessedTarget-&gt;RemoveAurasDueToSpell(SPELL_POSSESS);</div>
+<div class="line"><span class="lineno">  104</span>                                possessedTarget-&gt;RemoveAurasDueToSpell(SPELL_POSSESSED);</div>
+<div class="line"><span class="lineno">  105</span>                                me-&gt;RemoveAurasDueToSpell(SPELL_POSSESS_INV);</div>
+<div class="line"><span class="lineno">  106</span>                                _possessedTargetGuid.Clear();</div>
+<div class="line"><span class="lineno">  107</span>                                SchedulePossession();</div>
+<div class="line"><span class="lineno">  108</span>                            }</div>
+<div class="line"><span class="lineno">  109</span>                            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  110</span>                            {</div>
+<div class="line"><span class="lineno">  111</span>                                possessionContext.Repeat(1s);</div>
+<div class="line"><span class="lineno">  112</span>                            }</div>
+<div class="line"><span class="lineno">  113</span>                        }</div>
+<div class="line"><span class="lineno">  114</span>                    });</div>
+<div class="line"><span class="lineno">  115</span>                }</div>
+<div class="line"><span class="lineno">  116</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  117</span>                {</div>
+<div class="line"><span class="lineno">  118</span>                    <span class="comment">// No valid possession targets found, retry.</span></div>
+<div class="line"><span class="lineno">  119</span>                    context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(1s);</div>
+<div class="line"><span class="lineno">  120</span>                }</div>
+<div class="line"><span class="lineno">  121</span>            });</div>
+<div class="line"><span class="lineno">  122</span>        }</div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6ae5c7d15b747433f4d94f80bcebd215"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">UnitAI::DoCastSelf</a></div><div class="ttdeci">SpellCastResult DoCastSelf(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:323</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_aeb3657e7ad09335b9a9ffa50473aa216"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer(Map const *, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:225</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a962e4e3091d126682825c326af5f6922" name="a962e4e3091d126682825c326af5f6922"></a>
@@ -699,7 +804,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a840cc108b3135ee19402e61d591f18d0">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  125</span>        {</div>
+<div class="line"><span class="lineno">  126</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  127</span>            {</div>
+<div class="line"><span class="lineno">  128</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  129</span>            }</div>
+<div class="line"><span class="lineno">  130</span> </div>
+<div class="line"><span class="lineno">  131</span>            <a class="code hl_variable" href="../../d3/d3c/structboss__baroness__anastari_1_1boss__baroness__anastari_a_i.html#aa59518627a5e64e371dbbb45cfced75f">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">Update</a>(diff,</div>
+<div class="line"><span class="lineno">  132</span>                std::bind(&amp;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">ScriptedAI::DoMeleeAttackIfReady</a>, <span class="keyword">this</span>));</div>
+<div class="line"><span class="lineno">  133</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a35c0891c7aded13c6ae7ecd2e6d480a9"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">TaskScheduler::Update</a></div><div class="ttdeci">TaskScheduler &amp; Update(success_t const &amp;callback=EmptyCallback)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:15</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -748,7 +865,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/Stratholme/<a class="el" href="../../d7/d60/boss__baroness__anastari_8cpp.html">boss_baroness_anastari.cpp</a></li>
+<li><a class="el" href="../../">boss_baroness_anastari.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -756,7 +873,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d8a/classboss__baroness__anastari.html">boss_baroness_anastari</a></li><li class="navelem"><a class="el" href="../../d3/d3c/structboss__baroness__anastari_1_1boss__baroness__anastari_a_i.html">boss_baroness_anastariAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:38 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

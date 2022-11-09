@@ -304,7 +304,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a9261d2331ef250ba394db80f58500c70" name="a9261d2331ef250ba394db80f58500c70"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9261d2331ef250ba394db80f58500c70">&#9670;&#160;</a></span>OnPeriodic()</h2>
 
@@ -328,7 +329,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  691</span>        {</div>
+<div class="line"><span class="lineno">  692</span>            <span class="keywordflow">if</span> (aurEff-&gt;GetTickNumber() &gt; 1 &amp;&amp; aurEff-&gt;GetTickNumber() % 5 == 1)</div>
+<div class="line"><span class="lineno">  693</span>                <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a99cbee6d75732fbd9aa54d2d9679986f">GetAura</a>()-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a6ee04786fcd54da7e3e2b7a0277adeb8">GetEffect</a>(aurEff-&gt;GetEffIndex())-&gt;<a class="code hl_function" href="../../da/df1/class_aura_effect.html#a9790b9f33c52c6d3b830dc6f56f08bf0">SetAmount</a>(aurEff-&gt;GetAmount() * 2);</div>
+<div class="line"><span class="lineno">  694</span>        }</div>
+<div class="ttc" id="aclass_aura_effect_html_a9790b9f33c52c6d3b830dc6f56f08bf0"><div class="ttname"><a href="../../da/df1/class_aura_effect.html#a9790b9f33c52c6d3b830dc6f56f08bf0">AuraEffect::SetAmount</a></div><div class="ttdeci">void SetAmount(int32 amount)</div><div class="ttdef"><b>Definition:</b> SpellAuraEffects.h:65</div></div>
+<div class="ttc" id="aclass_aura_html_a6ee04786fcd54da7e3e2b7a0277adeb8"><div class="ttname"><a href="../../d2/dde/class_aura.html#a6ee04786fcd54da7e3e2b7a0277adeb8">Aura::GetEffect</a></div><div class="ttdeci">AuraEffect * GetEffect(uint8 effIndex) const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:175</div></div>
+<div class="ttc" id="aclass_aura_script_html_a99cbee6d75732fbd9aa54d2d9679986f"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a99cbee6d75732fbd9aa54d2d9679986f">AuraScript::GetAura</a></div><div class="ttdeci">Aura * GetAura() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1035</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2363ffec26af0879f9cefcea4c4ba226" name="a2363ffec26af0879f9cefcea4c4ba226"></a>
@@ -364,7 +372,17 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  684</span>        {</div>
+<div class="line"><span class="lineno">  685</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;GetInstanceScript())</div>
+<div class="line"><span class="lineno">  686</span>                <span class="keywordflow">if</span> (instance-&gt;IsEncounterInProgress())</div>
+<div class="line"><span class="lineno">  687</span>                    <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">CastCustomSpell</a>(<a class="code hl_enumvalue" href="../../d4/dc9/boss__kalecgos_8cpp.html#a5bd342133be8c2137b831460acc9298caa862c8513866200a59b644da6348f5d3">SPELL_CURSE_OF_BOUNDLESS_AGONY_PLR</a>, <a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371baac4a68bd47fc6d4dd83453928def284b">SPELLVALUE_MAX_TARGETS</a>, 1, <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>(), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  688</span>        }</div>
+<div class="ttc" id="a_spell_defines_8h_html_a4ad87b8c967acbbcb154a32bc123371baac4a68bd47fc6d4dd83453928def284b"><div class="ttname"><a href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371baac4a68bd47fc6d4dd83453928def284b">SPELLVALUE_MAX_TARGETS</a></div><div class="ttdeci">@ SPELLVALUE_MAX_TARGETS</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:118</div></div>
+<div class="ttc" id="aboss__kalecgos_8cpp_html_a5bd342133be8c2137b831460acc9298caa862c8513866200a59b644da6348f5d3"><div class="ttname"><a href="../../d4/dc9/boss__kalecgos_8cpp.html#a5bd342133be8c2137b831460acc9298caa862c8513866200a59b644da6348f5d3">SPELL_CURSE_OF_BOUNDLESS_AGONY_PLR</a></div><div class="ttdeci">@ SPELL_CURSE_OF_BOUNDLESS_AGONY_PLR</div><div class="ttdef"><b>Definition:</b> boss_kalecgos.cpp:68</div></div>
+<div class="ttc" id="aclass_aura_script_html_ae0ce7b7a97c6bcb2734ac79f8fa86a15"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">AuraScript::GetUnitOwner</a></div><div class="ttdeci">Unit * GetUnitOwner() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1020</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_unit_html_a51ec81e114bf82a2485ba9f66200afd2"><div class="ttname"><a href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">Unit::CastCustomSpell</a></div><div class="ttdeci">SpellCastResult CastCustomSpell(Unit *victim, uint32 spellId, int32 const *bp0, int32 const *bp1, int32 const *bp2, bool triggered, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1225</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4563b88ec817cbcb1f7a3519dfdb17f4" name="a4563b88ec817cbcb1f7a3519dfdb17f4"></a>
@@ -417,11 +435,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  697</span>        {</div>
+<div class="line"><span class="lineno">  698</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AfterEffectRemove</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a>(<a class="code hl_function" href="../../d5/da4/classspell__kalecgos__curse__of__boundless__agony_1_1spell__kalecgos__curse__of__boundless__agony___aura_script.html#a2363ffec26af0879f9cefcea4c4ba226">spell_kalecgos_curse_of_boundless_agony_AuraScript::OnRemove</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a11166673929d2fda5967add284832fad">SPELL_AURA_PERIODIC_DAMAGE</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno">  699</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a>(<a class="code hl_function" href="../../d5/da4/classspell__kalecgos__curse__of__boundless__agony_1_1spell__kalecgos__curse__of__boundless__agony___aura_script.html#a9261d2331ef250ba394db80f58500c70">spell_kalecgos_curse_of_boundless_agony_AuraScript::OnPeriodic</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a11166673929d2fda5967add284832fad">SPELL_AURA_PERIODIC_DAMAGE</a>);</div>
+<div class="line"><span class="lineno">  700</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a11166673929d2fda5967add284832fad"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a11166673929d2fda5967add284832fad">SPELL_AURA_PERIODIC_DAMAGE</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_DAMAGE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:66</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:42</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a63dd33eaa91292bfb53b1d9f2b0eba29"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a></div><div class="ttdeci">#define AuraEffectPeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:750</div></div>
+<div class="ttc" id="a_spell_script_8h_html_af8f20adad60abdb901d6e7310afea31b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a></div><div class="ttdeci">#define AuraEffectRemoveFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:744</div></div>
+<div class="ttc" id="aclass_aura_script_html_a2bfb775dfbe8cfc3cff876469c78ddcf"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AuraScript::AfterEffectRemove</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; AfterEffectRemove</div><div class="ttdef"><b>Definition:</b> SpellScript.h:743</div></div>
+<div class="ttc" id="aclass_aura_script_html_a491e7fc0a1acd202b60fa1aed79a9377"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">AuraScript::OnEffectPeriodic</a></div><div class="ttdeci">HookList&lt; EffectPeriodicHandler &gt; OnEffectPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:749</div></div>
+<div class="ttc" id="aclassspell__kalecgos__curse__of__boundless__agony_1_1spell__kalecgos__curse__of__boundless__agony___aura_script_html_a2363ffec26af0879f9cefcea4c4ba226"><div class="ttname"><a href="../../d5/da4/classspell__kalecgos__curse__of__boundless__agony_1_1spell__kalecgos__curse__of__boundless__agony___aura_script.html#a2363ffec26af0879f9cefcea4c4ba226">spell_kalecgos_curse_of_boundless_agony::spell_kalecgos_curse_of_boundless_agony_AuraScript::OnRemove</a></div><div class="ttdeci">void OnRemove(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> boss_kalecgos.cpp:683</div></div>
+<div class="ttc" id="aclassspell__kalecgos__curse__of__boundless__agony_1_1spell__kalecgos__curse__of__boundless__agony___aura_script_html_a9261d2331ef250ba394db80f58500c70"><div class="ttname"><a href="../../d5/da4/classspell__kalecgos__curse__of__boundless__agony_1_1spell__kalecgos__curse__of__boundless__agony___aura_script.html#a9261d2331ef250ba394db80f58500c70">spell_kalecgos_curse_of_boundless_agony::spell_kalecgos_curse_of_boundless_agony_AuraScript::OnPeriodic</a></div><div class="ttdeci">void OnPeriodic(AuraEffect const *aurEff)</div><div class="ttdef"><b>Definition:</b> boss_kalecgos.cpp:690</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/SunwellPlateau/<a class="el" href="../../d4/dc9/boss__kalecgos_8cpp.html">boss_kalecgos.cpp</a></li>
+<li><a class="el" href="../../">boss_kalecgos.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -429,7 +460,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/df7/classspell__kalecgos__curse__of__boundless__agony.html">spell_kalecgos_curse_of_boundless_agony</a></li><li class="navelem"><a class="el" href="../../d5/da4/classspell__kalecgos__curse__of__boundless__agony_1_1spell__kalecgos__curse__of__boundless__agony___aura_script.html">spell_kalecgos_curse_of_boundless_agony_AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:21 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

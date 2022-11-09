@@ -550,7 +550,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a33afad6262abe2a0c9224a4b5bb3ce28" name="a33afad6262abe2a0c9224a4b5bb3ce28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a33afad6262abe2a0c9224a4b5bb3ce28">&#9670;&#160;</a></span>boss_ambassador_flamelashAI()</h2>
 
@@ -574,7 +575,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   65</span>: <a class="code hl_class" href="../../d4/d0e/class_boss_a_i.html">BossAI</a>(creature, <a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#a12f080ffb40a9cfa70f01269458f77b6a75348ec9edcca36d4dbdaecbe689e087">BOSS_AMBASSADOR_FLAMELASH</a>), <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a6c1a07a1a59b46d65683436f32f76bf9">summons</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>) { }</div>
+<div class="ttc" id="ablackrock__depths_8h_html_a12f080ffb40a9cfa70f01269458f77b6a75348ec9edcca36d4dbdaecbe689e087"><div class="ttname"><a href="../../d7/d26/blackrock__depths_8h.html#a12f080ffb40a9cfa70f01269458f77b6a75348ec9edcca36d4dbdaecbe689e087">BOSS_AMBASSADOR_FLAMELASH</a></div><div class="ttdeci">@ BOSS_AMBASSADOR_FLAMELASH</div><div class="ttdef"><b>Definition:</b> blackrock_depths.h:33</div></div>
+<div class="ttc" id="aclass_boss_a_i_html"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html">BossAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:424</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i_html_a6c1a07a1a59b46d65683436f32f76bf9"><div class="ttname"><a href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a6c1a07a1a59b46d65683436f32f76bf9">boss_ambassador_flamelash::boss_ambassador_flamelashAI::summons</a></div><div class="ttdeci">SummonList summons</div><div class="ttdef"><b>Definition:</b> boss_ambassador_flamelash.cpp:70</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -603,7 +609,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   79</span>        {</div>
+<div class="line"><span class="lineno">   80</span>            <span class="keywordflow">switch</span> (param)</div>
+<div class="line"><span class="lineno">   81</span>            {</div>
+<div class="line"><span class="lineno">   82</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a6408fb2256d254e95ca33854b1e92f3ead73498fbe1c096cdcb15c0fc31bcf62c">EVENT_SUMMON_SPIRITS</a>:</div>
+<div class="line"><span class="lineno">   83</span>                    <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a80aaeb0ce3a5fe101aedbdfc2489bafe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a6408fb2256d254e95ca33854b1e92f3ead73498fbe1c096cdcb15c0fc31bcf62c">EVENT_SUMMON_SPIRITS</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(12, 14)*<a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">   84</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   85</span>            }</div>
+<div class="line"><span class="lineno">   86</span>        }</div>
+<div class="ttc" id="a_common_8h_html_a84190f79c8167211609f67284e066c58"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></div><div class="ttdeci">constexpr auto IN_MILLISECONDS</div><div class="ttdef"><b>Definition:</b> Common.h:62</div></div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__ambassador__flamelash_8cpp_html_a6408fb2256d254e95ca33854b1e92f3ead73498fbe1c096cdcb15c0fc31bcf62c"><div class="ttname"><a href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a6408fb2256d254e95ca33854b1e92f3ead73498fbe1c096cdcb15c0fc31bcf62c">EVENT_SUMMON_SPIRITS</a></div><div class="ttdeci">@ EVENT_SUMMON_SPIRITS</div><div class="ttdef"><b>Definition:</b> boss_ambassador_flamelash.cpp:34</div></div>
+<div class="ttc" id="aclass_event_map_html_a5e6081bda8828001c0ed8677b2aecd65"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">EventMap::ScheduleEvent</a></div><div class="ttdeci">void ScheduleEvent(uint32 eventId, uint32 time, uint32 group=0, uint32 phase=0)</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:56</div></div>
+<div class="ttc" id="astructboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i_html_a80aaeb0ce3a5fe101aedbdfc2489bafe"><div class="ttname"><a href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a80aaeb0ce3a5fe101aedbdfc2489bafe">boss_ambassador_flamelash::boss_ambassador_flamelashAI::_events</a></div><div class="ttdeci">EventMap _events</div><div class="ttdef"><b>Definition:</b> boss_ambassador_flamelash.cpp:67</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac9370fc7661f4dd88692a42ac600b581" name="ac9370fc7661f4dd88692a42ac600b581"></a>
@@ -631,7 +650,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a2f3d2c15114cff26b92dedd45dff0905">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  108</span>        {</div>
+<div class="line"><span class="lineno">  109</span>            <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a80aaeb0ce3a5fe101aedbdfc2489bafe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a6408fb2256d254e95ca33854b1e92f3eaf938480f48b00e9201b4290fa26de919">EVENT_SPELL_FIREBLAST</a>, 2 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">  110</span> </div>
+<div class="line"><span class="lineno">  111</span>            <span class="comment">// Spawn 7 Embers initially</span></div>
+<div class="line"><span class="lineno">  112</span>            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 4; ++i)</div>
+<div class="line"><span class="lineno">  113</span>                <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a80aaeb0ce3a5fe101aedbdfc2489bafe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a6408fb2256d254e95ca33854b1e92f3ead73498fbe1c096cdcb15c0fc31bcf62c">EVENT_SUMMON_SPIRITS</a>, 4 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">  114</span> </div>
+<div class="line"><span class="lineno">  115</span>            <span class="comment">// Activate the runes (Start burning)</span></div>
+<div class="line"><span class="lineno">  116</span>            <a class="code hl_function" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#aefcdf4c5b663671fb96395e280141bbb">TurnRunes</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a6408fb2256d254e95ca33854b1e92f3ea5b8aad11d0c55c9f7c0a9a6f2fa819d9">AGGRO_TEXT</a>);</div>
+<div class="line"><span class="lineno">  119</span>        }</div>
+<div class="ttc" id="aboss__ambassador__flamelash_8cpp_html_a6408fb2256d254e95ca33854b1e92f3ea5b8aad11d0c55c9f7c0a9a6f2fa819d9"><div class="ttname"><a href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a6408fb2256d254e95ca33854b1e92f3ea5b8aad11d0c55c9f7c0a9a6f2fa819d9">AGGRO_TEXT</a></div><div class="ttdeci">@ AGGRO_TEXT</div><div class="ttdef"><b>Definition:</b> boss_ambassador_flamelash.cpp:32</div></div>
+<div class="ttc" id="aboss__ambassador__flamelash_8cpp_html_a6408fb2256d254e95ca33854b1e92f3eaf938480f48b00e9201b4290fa26de919"><div class="ttname"><a href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a6408fb2256d254e95ca33854b1e92f3eaf938480f48b00e9201b4290fa26de919">EVENT_SPELL_FIREBLAST</a></div><div class="ttdeci">@ EVENT_SPELL_FIREBLAST</div><div class="ttdef"><b>Definition:</b> boss_ambassador_flamelash.cpp:33</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="astructboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i_html_aefcdf4c5b663671fb96395e280141bbb"><div class="ttname"><a href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#aefcdf4c5b663671fb96395e280141bbb">boss_ambassador_flamelash::boss_ambassador_flamelashAI::TurnRunes</a></div><div class="ttdeci">void TurnRunes(bool mode)</div><div class="ttdef"><b>Definition:</b> boss_ambassador_flamelash.cpp:97</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae9faa36cdc7a0d6faf0b7d4ec5b380e9" name="ae9faa36cdc7a0d6faf0b7d4ec5b380e9"></a>
@@ -656,7 +691,61 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  129</span>        {</div>
+<div class="line"><span class="lineno">  130</span>            <span class="comment">/* Generate a random position which</span></div>
+<div class="line"><span class="lineno">  131</span><span class="comment">             * have not been used in 4 summonings.</span></div>
+<div class="line"><span class="lineno">  132</span><span class="comment">             * Since we are calling the event whenever the Spirit</span></div>
+<div class="line"><span class="lineno">  133</span><span class="comment">             * dies and not all at the time, we need to save at</span></div>
+<div class="line"><span class="lineno">  134</span><span class="comment">             * least 4 positions until reseting the vector</span></div>
+<div class="line"><span class="lineno">  135</span><span class="comment">            */</span></div>
+<div class="line"><span class="lineno">  136</span> </div>
+<div class="line"><span class="lineno">  137</span>            <span class="comment">// Searching a new position so reset this bool check</span></div>
+<div class="line"><span class="lineno">  138</span>            <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a4b3a75fa687361efc85ebc0da7bf2b75">foundValidPosition</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  139</span>            <span class="keywordtype">int</span> randomPosition;</div>
+<div class="line"><span class="lineno">  140</span> </div>
+<div class="line"><span class="lineno">  141</span>            <span class="keywordflow">while</span> (!<a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a4b3a75fa687361efc85ebc0da7bf2b75">foundValidPosition</a>)</div>
+<div class="line"><span class="lineno">  142</span>            {</div>
+<div class="line"><span class="lineno">  143</span>                <span class="comment">/* When we have summoned 4 creatures, reset the vector</span></div>
+<div class="line"><span class="lineno">  144</span><span class="comment">                 * so we can summon new spirits in other positions.*/</span></div>
+<div class="line"><span class="lineno">  145</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#af11a0cddced13c34a012c8df964ab68a">validPosition</a>.size() == 4)</div>
+<div class="line"><span class="lineno">  146</span>                    <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#af11a0cddced13c34a012c8df964ab68a">validPosition</a>.clear();</div>
+<div class="line"><span class="lineno">  147</span> </div>
+<div class="line"><span class="lineno">  148</span>                <span class="comment">// The random ranges from the position 0 to the position 6</span></div>
+<div class="line"><span class="lineno">  149</span>                randomPosition = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 6);</div>
+<div class="line"><span class="lineno">  150</span> </div>
+<div class="line"><span class="lineno">  151</span>                <span class="comment">// When we have an empty vector we can use any random position generated.</span></div>
+<div class="line"><span class="lineno">  152</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#af11a0cddced13c34a012c8df964ab68a">validPosition</a>.empty())</div>
+<div class="line"><span class="lineno">  153</span>                    <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a4b3a75fa687361efc85ebc0da7bf2b75">foundValidPosition</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  154</span> </div>
+<div class="line"><span class="lineno">  155</span>                <span class="comment">/* This check is done to avoid running the vector</span></div>
+<div class="line"><span class="lineno">  156</span><span class="comment">                 * when it is empty. Because if it is empty, then any</span></div>
+<div class="line"><span class="lineno">  157</span><span class="comment">                 * position can be used to summon Spirits.</span></div>
+<div class="line"><span class="lineno">  158</span><span class="comment">                 */</span></div>
+<div class="line"><span class="lineno">  159</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a4b3a75fa687361efc85ebc0da7bf2b75">foundValidPosition</a>)</div>
+<div class="line"><span class="lineno">  160</span>                {</div>
+<div class="line"><span class="lineno">  161</span>                    <span class="comment">// Check every position inside the vector</span></div>
+<div class="line"><span class="lineno">  162</span>                    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> pos : <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#af11a0cddced13c34a012c8df964ab68a">validPosition</a>)</div>
+<div class="line"><span class="lineno">  163</span>                    {</div>
+<div class="line"><span class="lineno">  164</span>                        <span class="comment">// If the random is different, we found a temporary true,</span></div>
+<div class="line"><span class="lineno">  165</span>                        <span class="comment">// until we find one that is equal, which means it has been used.</span></div>
+<div class="line"><span class="lineno">  166</span>                        <span class="keywordflow">if</span> (pos != randomPosition)</div>
+<div class="line"><span class="lineno">  167</span>                            <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a4b3a75fa687361efc85ebc0da7bf2b75">foundValidPosition</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  168</span>                        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  169</span>                        {</div>
+<div class="line"><span class="lineno">  170</span>                            <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a4b3a75fa687361efc85ebc0da7bf2b75">foundValidPosition</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  171</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  172</span>                        }</div>
+<div class="line"><span class="lineno">  173</span>                    }</div>
+<div class="line"><span class="lineno">  174</span>                }</div>
+<div class="line"><span class="lineno">  175</span>            }</div>
+<div class="line"><span class="lineno">  176</span> </div>
+<div class="line"><span class="lineno">  177</span>            <span class="comment">// We found a valid position. Save it and return it to summon.</span></div>
+<div class="line"><span class="lineno">  178</span>            <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#af11a0cddced13c34a012c8df964ab68a">validPosition</a>.emplace_back(randomPosition);</div>
+<div class="line"><span class="lineno">  179</span>            <span class="keywordflow">return</span> randomPosition;</div>
+<div class="line"><span class="lineno">  180</span>        }</div>
+<div class="ttc" id="astructboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i_html_a4b3a75fa687361efc85ebc0da7bf2b75"><div class="ttname"><a href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a4b3a75fa687361efc85ebc0da7bf2b75">boss_ambassador_flamelash::boss_ambassador_flamelashAI::foundValidPosition</a></div><div class="ttdeci">bool foundValidPosition</div><div class="ttdef"><b>Definition:</b> boss_ambassador_flamelash.cpp:74</div></div>
+<div class="ttc" id="astructboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i_html_af11a0cddced13c34a012c8df964ab68a"><div class="ttname"><a href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#af11a0cddced13c34a012c8df964ab68a">boss_ambassador_flamelash::boss_ambassador_flamelashAI::validPosition</a></div><div class="ttdeci">std::vector&lt; int &gt; validPosition</div><div class="ttdef"><b>Definition:</b> boss_ambassador_flamelash.cpp:73</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2d2a162132b7f4c0a5faf1f86a476002" name="a2d2a162132b7f4c0a5faf1f86a476002"></a>
@@ -684,7 +773,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a3980e3c1e8e9992034c9ec35a8b3e298">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  122</span>        {</div>
+<div class="line"><span class="lineno">  123</span>            <a class="code hl_function" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#aefcdf4c5b663671fb96395e280141bbb">TurnRunes</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  124</span>            <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a80aaeb0ce3a5fe101aedbdfc2489bafe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#afd6b5b23aa26797b6de1275c70268808">Reset</a>();</div>
+<div class="line"><span class="lineno">  125</span>            <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a6c1a07a1a59b46d65683436f32f76bf9">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">DespawnAll</a>();</div>
+<div class="line"><span class="lineno">  126</span>        }</div>
+<div class="ttc" id="aclass_event_map_html_afd6b5b23aa26797b6de1275c70268808"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#afd6b5b23aa26797b6de1275c70268808">EventMap::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:21</div></div>
+<div class="ttc" id="aclass_summon_list_html_a902c1d4535ccdb1b82801547a94151bb"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">SummonList::DespawnAll</a></div><div class="ttdeci">void DespawnAll(uint32 delay=0)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:67</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9ec61ccf9984a9a68091ca9fba7582df" name="a9ec61ccf9984a9a68091ca9fba7582df"></a>
@@ -712,7 +808,9 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a55938a5ee8ad433cca9fad829cc0d915">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   76</span>{ <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a6c1a07a1a59b46d65683436f32f76bf9">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a4b10347a4407bb6351230423019d9786">Summon</a>(cr); }</div>
+<div class="ttc" id="aclass_summon_list_html_a4b10347a4407bb6351230423019d9786"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a4b10347a4407bb6351230423019d9786">SummonList::Summon</a></div><div class="ttdeci">void Summon(Creature const *summon)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:89</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae2dd71a0edfc489645de130a8b731392" name="ae2dd71a0edfc489645de130a8b731392"></a>
@@ -739,7 +837,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#abe75353ec3f0c86502696b8ccb059cb7">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   89</span>        {</div>
+<div class="line"><span class="lineno">   90</span>            <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a80aaeb0ce3a5fe101aedbdfc2489bafe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#afd6b5b23aa26797b6de1275c70268808">Reset</a>();</div>
+<div class="line"><span class="lineno">   91</span>            <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a6c1a07a1a59b46d65683436f32f76bf9">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">DespawnAll</a>();</div>
+<div class="line"><span class="lineno">   92</span>            <a class="code hl_function" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#aefcdf4c5b663671fb96395e280141bbb">TurnRunes</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">   93</span>            <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a4b3a75fa687361efc85ebc0da7bf2b75">foundValidPosition</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   94</span>            <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#af11a0cddced13c34a012c8df964ab68a">validPosition</a>.clear();</div>
+<div class="line"><span class="lineno">   95</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6c88f2f38d3072f5192fc0b9bd2c6e04" name="a6c88f2f38d3072f5192fc0b9bd2c6e04"></a>
@@ -764,7 +869,17 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  183</span>        {</div>
+<div class="line"><span class="lineno">  184</span>            <span class="comment">// Make the Spirits chase Ambassador Flamelash</span></div>
+<div class="line"><span class="lineno">  185</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_variable" href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a4e4eac020cc962efc8e71493bb7172c5">NPC_FIRE_SPIRIT</a>, <a class="code hl_variable" href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a84fa1f7b02d6c26848a5ae0f210386a7">SummonPositions</a>[<a class="code hl_function" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#ae9faa36cdc7a0d6faf0b7d4ec5b380e9">getValidRandomPosition</a>()], <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a>, 60 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">  186</span>            <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a80aaeb0ce3a5fe101aedbdfc2489bafe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a6408fb2256d254e95ca33854b1e92f3ead73498fbe1c096cdcb15c0fc31bcf62c">EVENT_SUMMON_SPIRITS</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(12, 14) * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">  187</span>        }</div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_CORPSE_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:47</div></div>
+<div class="ttc" id="aboss__ambassador__flamelash_8cpp_html_a4e4eac020cc962efc8e71493bb7172c5"><div class="ttname"><a href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a4e4eac020cc962efc8e71493bb7172c5">NPC_FIRE_SPIRIT</a></div><div class="ttdeci">const uint32 NPC_FIRE_SPIRIT</div><div class="ttdef"><b>Definition:</b> boss_ambassador_flamelash.cpp:38</div></div>
+<div class="ttc" id="aboss__ambassador__flamelash_8cpp_html_a84fa1f7b02d6c26848a5ae0f210386a7"><div class="ttname"><a href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a84fa1f7b02d6c26848a5ae0f210386a7">SummonPositions</a></div><div class="ttdeci">const Position SummonPositions[7]</div><div class="ttdef"><b>Definition:</b> boss_ambassador_flamelash.cpp:40</div></div>
+<div class="ttc" id="aclass_world_object_html_aaf7058bd6b40bbfd38cbcd4f740c0344"><div class="ttname"><a href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">WorldObject::SummonCreature</a></div><div class="ttdeci">TempSummon * SummonCreature(uint32 id, const Position &amp;pos, TempSummonType spwtype=TEMPSUMMON_MANUAL_DESPAWN, uint32 despwtime=0, uint32 vehId=0, SummonPropertiesEntry const *properties=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2301</div></div>
+<div class="ttc" id="astructboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i_html_ae9faa36cdc7a0d6faf0b7d4ec5b380e9"><div class="ttname"><a href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#ae9faa36cdc7a0d6faf0b7d4ec5b380e9">boss_ambassador_flamelash::boss_ambassador_flamelashAI::getValidRandomPosition</a></div><div class="ttdeci">int getValidRandomPosition()</div><div class="ttdef"><b>Definition:</b> boss_ambassador_flamelash.cpp:128</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aefcdf4c5b663671fb96395e280141bbb" name="aefcdf4c5b663671fb96395e280141bbb"></a>
@@ -790,7 +905,21 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   98</span>        {</div>
+<div class="line"><span class="lineno">   99</span>            <span class="comment">// Active makes the runes burn, ready turns them off</span></div>
+<div class="line"><span class="lineno">  100</span>            <a class="code hl_enumeration" href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5ab">GOState</a> state = mode ? <a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a> : <a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650">GO_STATE_READY</a>;</div>
+<div class="line"><span class="lineno">  101</span> </div>
+<div class="line"><span class="lineno">  102</span>            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> RuneEntry : <a class="code hl_variable" href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#ae7d69ca4aac867874231b63ef6000b66">gobjectDwarfRunesEntry</a>)</div>
+<div class="line"><span class="lineno">  103</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* dwarfRune = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a178c5ef685f97dc9bbd486dd6cabfb63">FindNearestGameObject</a>(RuneEntry, 200.0f))</div>
+<div class="line"><span class="lineno">  104</span>                    dwarfRune-&gt;SetGoState(state);</div>
+<div class="line"><span class="lineno">  105</span>        }</div>
+<div class="ttc" id="a_game_object_8h_html_ac17cd142af80da019367bb796b15e5ab"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5ab">GOState</a></div><div class="ttdeci">GOState</div><div class="ttdef"><b>Definition:</b> GameObject.h:733</div></div>
+<div class="ttc" id="a_game_object_8h_html_ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650">GO_STATE_READY</a></div><div class="ttdeci">@ GO_STATE_READY</div><div class="ttdef"><b>Definition:</b> GameObject.h:735</div></div>
+<div class="ttc" id="a_game_object_8h_html_ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a></div><div class="ttdeci">@ GO_STATE_ACTIVE</div><div class="ttdef"><b>Definition:</b> GameObject.h:734</div></div>
+<div class="ttc" id="aboss__ambassador__flamelash_8cpp_html_ae7d69ca4aac867874231b63ef6000b66"><div class="ttname"><a href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#ae7d69ca4aac867874231b63ef6000b66">gobjectDwarfRunesEntry</a></div><div class="ttdeci">std::vector&lt; int &gt; gobjectDwarfRunesEntry</div><div class="ttdef"><b>Definition:</b> boss_ambassador_flamelash.cpp:51</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_world_object_html_a178c5ef685f97dc9bbd486dd6cabfb63"><div class="ttname"><a href="../../db/df7/class_world_object.html#a178c5ef685f97dc9bbd486dd6cabfb63">WorldObject::FindNearestGameObject</a></div><div class="ttdeci">GameObject * FindNearestGameObject(uint32 entry, float range, bool onlySpawned=false) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2401</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a528436b7e4e55910d1eb6e00831e7e41" name="a528436b7e4e55910d1eb6e00831e7e41"></a>
@@ -818,7 +947,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a840cc108b3135ee19402e61d591f18d0">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  190</span>        {</div>
+<div class="line"><span class="lineno">  191</span>            <span class="comment">//Return since we have no target</span></div>
+<div class="line"><span class="lineno">  192</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  193</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  194</span> </div>
+<div class="line"><span class="lineno">  195</span>            <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a80aaeb0ce3a5fe101aedbdfc2489bafe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">Update</a>(diff);</div>
+<div class="line"><span class="lineno">  196</span> </div>
+<div class="line"><span class="lineno">  197</span>            <span class="keywordflow">switch</span>(<a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a80aaeb0ce3a5fe101aedbdfc2489bafe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">ExecuteEvent</a>())</div>
+<div class="line"><span class="lineno">  198</span>            {</div>
+<div class="line"><span class="lineno">  199</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a6408fb2256d254e95ca33854b1e92f3eaf938480f48b00e9201b4290fa26de919">EVENT_SPELL_FIREBLAST</a>:</div>
+<div class="line"><span class="lineno">  200</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a5bd342133be8c2137b831460acc9298ca250533bd2923a3390fcb7c2492b6c05b">SPELL_FIREBLAST</a>);</div>
+<div class="line"><span class="lineno">  201</span>                    <a class="code hl_variable" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a80aaeb0ce3a5fe101aedbdfc2489bafe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a6408fb2256d254e95ca33854b1e92f3eaf938480f48b00e9201b4290fa26de919">EVENT_SPELL_FIREBLAST</a>, 7 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">  202</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  203</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a6408fb2256d254e95ca33854b1e92f3ead73498fbe1c096cdcb15c0fc31bcf62c">EVENT_SUMMON_SPIRITS</a>:</div>
+<div class="line"><span class="lineno">  204</span>                    <a class="code hl_function" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a6c88f2f38d3072f5192fc0b9bd2c6e04">SummonSpirits</a>();</div>
+<div class="line"><span class="lineno">  205</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  206</span>            }</div>
+<div class="line"><span class="lineno">  207</span> </div>
+<div class="line"><span class="lineno">  208</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  209</span>        }</div>
+<div class="ttc" id="aboss__ambassador__flamelash_8cpp_html_a5bd342133be8c2137b831460acc9298ca250533bd2923a3390fcb7c2492b6c05b"><div class="ttname"><a href="../../d1/da0/boss__ambassador__flamelash_8cpp.html#a5bd342133be8c2137b831460acc9298ca250533bd2923a3390fcb7c2492b6c05b">SPELL_FIREBLAST</a></div><div class="ttdeci">@ SPELL_FIREBLAST</div><div class="ttdef"><b>Definition:</b> boss_ambassador_flamelash.cpp:26</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_event_map_html_a07764662d7571ae0e1c44203d189ba44"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">EventMap::ExecuteEvent</a></div><div class="ttdeci">uint32 ExecuteEvent()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:114</div></div>
+<div class="ttc" id="aclass_event_map_html_a33ba1058edd639c98258ba3e123ac2f9"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">EventMap::Update</a></div><div class="ttdeci">void Update(uint32 time)</div><div class="ttdef"><b>Definition:</b> EventMap.h:54</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="astructboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i_html_a6c88f2f38d3072f5192fc0b9bd2c6e04"><div class="ttname"><a href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html#a6c88f2f38d3072f5192fc0b9bd2c6e04">boss_ambassador_flamelash::boss_ambassador_flamelashAI::SummonSpirits</a></div><div class="ttdeci">void SummonSpirits()</div><div class="ttdef"><b>Definition:</b> boss_ambassador_flamelash.cpp:182</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -879,7 +1035,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/<a class="el" href="../../d1/da0/boss__ambassador__flamelash_8cpp.html">boss_ambassador_flamelash.cpp</a></li>
+<li><a class="el" href="../../">boss_ambassador_flamelash.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -887,7 +1043,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d89/classboss__ambassador__flamelash.html">boss_ambassador_flamelash</a></li><li class="navelem"><a class="el" href="../../da/d67/structboss__ambassador__flamelash_1_1boss__ambassador__flamelash_a_i.html">boss_ambassador_flamelashAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:38 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

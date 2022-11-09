@@ -517,7 +517,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5030ce0d8d9fd9e8ef697d6a2ce85d25" name="a5030ce0d8d9fd9e8ef697d6a2ce85d25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5030ce0d8d9fd9e8ef697d6a2ce85d25">&#9670;&#160;</a></span>boss_ichoronAI()</h2>
 
@@ -541,7 +542,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   85</span>                                    : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(c), <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a5de54a4d56b95e5f3f445539a5dd7030">globules</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>)</div>
+<div class="line"><span class="lineno">   86</span>        {</div>
+<div class="line"><span class="lineno">   87</span>            <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a11dc0853f1262b11c7d58559864698e2">pInstance</a> = c-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">   88</span>        }</div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructboss__ichoron_1_1boss__ichoron_a_i_html_a11dc0853f1262b11c7d58559864698e2"><div class="ttname"><a href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a11dc0853f1262b11c7d58559864698e2">boss_ichoron::boss_ichoronAI::pInstance</a></div><div class="ttdeci">InstanceScript * pInstance</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:90</div></div>
+<div class="ttc" id="astructboss__ichoron_1_1boss__ichoron_a_i_html_a5de54a4d56b95e5f3f445539a5dd7030"><div class="ttname"><a href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a5de54a4d56b95e5f3f445539a5dd7030">boss_ichoron::boss_ichoronAI::globules</a></div><div class="ttdeci">SummonList globules</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:91</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -570,7 +580,41 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  109</span>        {</div>
+<div class="line"><span class="lineno">  110</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">  111</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  112</span> </div>
+<div class="line"><span class="lineno">  113</span>            <span class="keywordflow">switch</span>(param)</div>
+<div class="line"><span class="lineno">  114</span>            {</div>
+<div class="line"><span class="lineno">  115</span>                <span class="keywordflow">case</span> <a class="code hl_define" href="../../d8/dbf/boss__ichoron_8cpp.html#a604a96878790aff47651e4539253d716">ACTION_WATER_ELEMENT_HIT</a>:</div>
+<div class="line"><span class="lineno">  116</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a11dc0853f1262b11c7d58559864698e2">pInstance</a>)</div>
+<div class="line"><span class="lineno">  117</span>                        <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a11dc0853f1262b11c7d58559864698e2">pInstance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../da/d4c/violet__hold_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a017589bf4c8a9c402a3a436adbd2a933">DATA_ACHIEV</a>, 0);</div>
+<div class="line"><span class="lineno">  118</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a009a87eeb9cc40ed7017610cbb914b9b">ModifyHealth</a>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ac6fc3f50b72cb6f2fd8bb988d48a8dba">CountPctFromMaxHealth</a>(1)));</div>
+<div class="line"><span class="lineno">  119</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#aa638234a023ef69d3e5829064475f45c">bIsExploded</a>)</div>
+<div class="line"><span class="lineno">  120</span>                        <a class="code hl_function" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a4312f74f67649f5f2f3cfaf2a46b09e8">DoExplodeCompleted</a>();</div>
+<div class="line"><span class="lineno">  121</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  122</span>                <span class="keywordflow">case</span> <a class="code hl_define" href="../../d8/dbf/boss__ichoron_8cpp.html#a0819f535f9b98d41695eeb883e6d94a4">ACTION_WATER_ELEMENT_KILLED</a>:</div>
+<div class="line"><span class="lineno">  123</span>                    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> damage = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ac6fc3f50b72cb6f2fd8bb988d48a8dba">CountPctFromMaxHealth</a>(3);</div>
+<div class="line"><span class="lineno">  124</span>                    damage = std::min(damage, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a958172d6051b106e3b3c776e4f9f3952">GetHealth</a>() - 1);</div>
+<div class="line"><span class="lineno">  125</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a009a87eeb9cc40ed7017610cbb914b9b">ModifyHealth</a>(-<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(damage));</div>
+<div class="line"><span class="lineno">  126</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#ade3dddee0d9a81b1357473a1cdf7016c">LowerPlayerDamageReq</a>(damage);</div>
+<div class="line"><span class="lineno">  127</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  128</span>            }</div>
+<div class="line"><span class="lineno">  129</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_a0819f535f9b98d41695eeb883e6d94a4"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#a0819f535f9b98d41695eeb883e6d94a4">ACTION_WATER_ELEMENT_KILLED</a></div><div class="ttdeci">#define ACTION_WATER_ELEMENT_KILLED</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:25</div></div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_a604a96878790aff47651e4539253d716"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#a604a96878790aff47651e4539253d716">ACTION_WATER_ELEMENT_HIT</a></div><div class="ttdeci">#define ACTION_WATER_ELEMENT_HIT</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:24</div></div>
+<div class="ttc" id="aclass_creature_html_ade3dddee0d9a81b1357473a1cdf7016c"><div class="ttname"><a href="../../d1/dac/class_creature.html#ade3dddee0d9a81b1357473a1cdf7016c">Creature::LowerPlayerDamageReq</a></div><div class="ttdeci">void LowerPlayerDamageReq(uint32 unDamage, bool damagedByPlayer=true)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3656</div></div>
+<div class="ttc" id="aclass_unit_html_a009a87eeb9cc40ed7017610cbb914b9b"><div class="ttname"><a href="../../da/db7/class_unit.html#a009a87eeb9cc40ed7017610cbb914b9b">Unit::ModifyHealth</a></div><div class="ttdeci">int32 ModifyHealth(int32 val)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:13981</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aclass_unit_html_a958172d6051b106e3b3c776e4f9f3952"><div class="ttname"><a href="../../da/db7/class_unit.html#a958172d6051b106e3b3c776e4f9f3952">Unit::GetHealth</a></div><div class="ttdeci">uint32 GetHealth() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1438</div></div>
+<div class="ttc" id="aclass_unit_html_ac6fc3f50b72cb6f2fd8bb988d48a8dba"><div class="ttname"><a href="../../da/db7/class_unit.html#ac6fc3f50b72cb6f2fd8bb988d48a8dba">Unit::CountPctFromMaxHealth</a></div><div class="ttdeci">uint32 CountPctFromMaxHealth(int32 pct) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1447</div></div>
+<div class="ttc" id="aclass_zone_script_html_a949e67ea24c7e4b70a20806952735576"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:53</div></div>
+<div class="ttc" id="astructboss__ichoron_1_1boss__ichoron_a_i_html_a4312f74f67649f5f2f3cfaf2a46b09e8"><div class="ttname"><a href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a4312f74f67649f5f2f3cfaf2a46b09e8">boss_ichoron::boss_ichoronAI::DoExplodeCompleted</a></div><div class="ttdeci">void DoExplodeCompleted()</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:131</div></div>
+<div class="ttc" id="astructboss__ichoron_1_1boss__ichoron_a_i_html_aa638234a023ef69d3e5829064475f45c"><div class="ttname"><a href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#aa638234a023ef69d3e5829064475f45c">boss_ichoron::boss_ichoronAI::bIsExploded</a></div><div class="ttdeci">bool bIsExploded</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:92</div></div>
+<div class="ttc" id="aviolet__hold_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a017589bf4c8a9c402a3a436adbd2a933"><div class="ttname"><a href="../../da/d4c/violet__hold_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a017589bf4c8a9c402a3a436adbd2a933">DATA_ACHIEV</a></div><div class="ttdeci">@ DATA_ACHIEV</div><div class="ttdef"><b>Definition:</b> violet_hold.h:142</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4312f74f67649f5f2f3cfaf2a46b09e8" name="a4312f74f67649f5f2f3cfaf2a46b09e8"></a>
@@ -595,7 +639,30 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  132</span>        {</div>
+<div class="line"><span class="lineno">  133</span>            <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#aa638234a023ef69d3e5829064475f45c">bIsExploded</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  134</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1be09c524dfdd2c3538f2ae977c58399">RemoveAura</a>(<a class="code hl_enumvalue" href="../../d8/dbf/boss__ichoron_8cpp.html#ad55cdc1f9b28ac7c9d9b316ba4b039a0af79cfc4321afabb4a953755504a91ce5">SPELL_DRAINED</a>);</div>
+<div class="line"><span class="lineno">  135</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#aa4e7196924ef7710dc780b0321e09002">HealthBelowPct</a>(25))</div>
+<div class="line"><span class="lineno">  136</span>            {</div>
+<div class="line"><span class="lineno">  137</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d8/dbf/boss__ichoron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a7c48200a5f24eaf69ec88a8892ba83f5">SAY_BUBBLE</a>);</div>
+<div class="line"><span class="lineno">  138</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d8/dbf/boss__ichoron_8cpp.html#ad55cdc1f9b28ac7c9d9b316ba4b039a0abac9cf5b45c34842b2d2e0d4de4e6ff2">SPELL_PROTECTIVE_BUBBLE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  139</span>            }</div>
+<div class="line"><span class="lineno">  140</span> </div>
+<div class="line"><span class="lineno">  141</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">  142</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a294f22689bb98a36b2b8da1c33dd87f9">SetDisplayId</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a8ac9fa13ad31b42e5d1372694d22a799">GetNativeDisplayId</a>());</div>
+<div class="line"><span class="lineno">  143</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NOT_SELECTABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:473</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a7c48200a5f24eaf69ec88a8892ba83f5"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a7c48200a5f24eaf69ec88a8892ba83f5">SAY_BUBBLE</a></div><div class="ttdeci">@ SAY_BUBBLE</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:45</div></div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_ad55cdc1f9b28ac7c9d9b316ba4b039a0abac9cf5b45c34842b2d2e0d4de4e6ff2"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#ad55cdc1f9b28ac7c9d9b316ba4b039a0abac9cf5b45c34842b2d2e0d4de4e6ff2">SPELL_PROTECTIVE_BUBBLE</a></div><div class="ttdeci">@ SPELL_PROTECTIVE_BUBBLE</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:58</div></div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_ad55cdc1f9b28ac7c9d9b316ba4b039a0af79cfc4321afabb4a953755504a91ce5"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#ad55cdc1f9b28ac7c9d9b316ba4b039a0af79cfc4321afabb4a953755504a91ce5">SPELL_DRAINED</a></div><div class="ttdeci">@ SPELL_DRAINED</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:55</div></div>
+<div class="ttc" id="aclass_creature_html_a294f22689bb98a36b2b8da1c33dd87f9"><div class="ttname"><a href="../../d1/dac/class_creature.html#a294f22689bb98a36b2b8da1c33dd87f9">Creature::SetDisplayId</a></div><div class="ttdeci">void SetDisplayId(uint32 modelId) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3372</div></div>
+<div class="ttc" id="aclass_unit_html_a1be09c524dfdd2c3538f2ae977c58399"><div class="ttname"><a href="../../da/db7/class_unit.html#a1be09c524dfdd2c3538f2ae977c58399">Unit::RemoveAura</a></div><div class="ttdeci">void RemoveAura(AuraApplicationMap::iterator &amp;i, AuraRemoveMode mode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4696</div></div>
+<div class="ttc" id="aclass_unit_html_a8ac9fa13ad31b42e5d1372694d22a799"><div class="ttname"><a href="../../da/db7/class_unit.html#a8ac9fa13ad31b42e5d1372694d22a799">Unit::GetNativeDisplayId</a></div><div class="ttdeci">uint32 GetNativeDisplayId() const</div><div class="ttdef"><b>Definition:</b> Unit.h:2165</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_af9a5a43c2d7940c38f8b101409666a0d"><div class="ttname"><a href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">Unit::RemoveUnitFlag</a></div><div class="ttdeci">void RemoveUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1480</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_aa4e7196924ef7710dc780b0321e09002"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#aa4e7196924ef7710dc780b0321e09002">ScriptedAI::HealthBelowPct</a></div><div class="ttdeci">bool HealthBelowPct(uint32 pct) const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:332</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac4fe5e8471ea8449270f79bbc08303c4" name="ac4fe5e8471ea8449270f79bbc08303c4"></a>
@@ -623,7 +690,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  157</span>        {</div>
+<div class="line"><span class="lineno">  158</span>            <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#aa638234a023ef69d3e5829064475f45c">bIsExploded</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  159</span>            <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a72664f34a55c45cbacd9b28aaf6abbc9">bIsFrenzy</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  160</span>            <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a0cc9573f8e2a35faaeee48ff9095e93f">uiDrainedTimer</a> = 15000;</div>
+<div class="line"><span class="lineno">  161</span>            <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a4ae6bd152ccfa4813ba5ea4ba5fd14ee">uiWaterBoltVolleyTimer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(7000, 12000);</div>
+<div class="line"><span class="lineno">  162</span>            <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#afdeeccb48c5f74120d0fffe2a631a88a">DoZoneInCombat</a>();</div>
+<div class="line"><span class="lineno">  163</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d8/dbf/boss__ichoron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>);</div>
+<div class="line"><span class="lineno">  164</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d8/dbf/boss__ichoron_8cpp.html#ad55cdc1f9b28ac7c9d9b316ba4b039a0abac9cf5b45c34842b2d2e0d4de4e6ff2">SPELL_PROTECTIVE_BUBBLE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  165</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a11dc0853f1262b11c7d58559864698e2">pInstance</a>)</div>
+<div class="line"><span class="lineno">  166</span>                <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a11dc0853f1262b11c7d58559864698e2">pInstance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../da/d4c/violet__hold_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a017589bf4c8a9c402a3a436adbd2a933">DATA_ACHIEV</a>, 1);</div>
+<div class="line"><span class="lineno">  167</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:39</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_afdeeccb48c5f74120d0fffe2a631a88a"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#afdeeccb48c5f74120d0fffe2a631a88a">CreatureAI::DoZoneInCombat</a></div><div class="ttdeci">void DoZoneInCombat(Creature *creature=nullptr, float maxRangeToNearestTarget=250.0f)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:93</div></div>
+<div class="ttc" id="astructboss__ichoron_1_1boss__ichoron_a_i_html_a0cc9573f8e2a35faaeee48ff9095e93f"><div class="ttname"><a href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a0cc9573f8e2a35faaeee48ff9095e93f">boss_ichoron::boss_ichoronAI::uiDrainedTimer</a></div><div class="ttdeci">uint32 uiDrainedTimer</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:95</div></div>
+<div class="ttc" id="astructboss__ichoron_1_1boss__ichoron_a_i_html_a4ae6bd152ccfa4813ba5ea4ba5fd14ee"><div class="ttname"><a href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a4ae6bd152ccfa4813ba5ea4ba5fd14ee">boss_ichoron::boss_ichoronAI::uiWaterBoltVolleyTimer</a></div><div class="ttdeci">uint32 uiWaterBoltVolleyTimer</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:94</div></div>
+<div class="ttc" id="astructboss__ichoron_1_1boss__ichoron_a_i_html_a72664f34a55c45cbacd9b28aaf6abbc9"><div class="ttname"><a href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a72664f34a55c45cbacd9b28aaf6abbc9">boss_ichoron::boss_ichoronAI::bIsFrenzy</a></div><div class="ttdeci">bool bIsFrenzy</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:93</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aca9b17c0051847800705943a58e56f5f" name="aca9b17c0051847800705943a58e56f5f"></a>
@@ -651,7 +735,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  293</span>        {</div>
+<div class="line"><span class="lineno">  294</span>            <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">ScriptedAI::EnterEvadeMode</a>(why);</div>
+<div class="line"><span class="lineno">  295</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  296</span> </div>
+<div class="line"><span class="lineno">  297</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a11dc0853f1262b11c7d58559864698e2">pInstance</a>)</div>
+<div class="line"><span class="lineno">  298</span>                <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a11dc0853f1262b11c7d58559864698e2">pInstance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../da/d4c/violet__hold_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a6acd4d8bf2168a3de36a0ce6a6679ce0">DATA_FAILED</a>, 1);</div>
+<div class="line"><span class="lineno">  299</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NON_ATTACKABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:449</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_afe5dd68e11d20028510eca29d4184778"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">CreatureAI::EnterEvadeMode</a></div><div class="ttdeci">virtual void EnterEvadeMode(EvadeReason why=EVADE_REASON_OTHER)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:195</div></div>
+<div class="ttc" id="aclass_unit_html_ad9f2d48b20f62e17abf5c1892cebe296"><div class="ttname"><a href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">Unit::SetUnitFlag</a></div><div class="ttdeci">void SetUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1479</div></div>
+<div class="ttc" id="aviolet__hold_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a6acd4d8bf2168a3de36a0ce6a6679ce0"><div class="ttname"><a href="../../da/d4c/violet__hold_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a6acd4d8bf2168a3de36a0ce6a6679ce0">DATA_FAILED</a></div><div class="ttdeci">@ DATA_FAILED</div><div class="ttdef"><b>Definition:</b> violet_hold.h:137</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aeeb18f0aee11e7f0bbd7e4c7936e8869" name="aeeb18f0aee11e7f0bbd7e4c7936e8869"></a>
@@ -687,7 +782,24 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  146</span>        {</div>
+<div class="line"><span class="lineno">  147</span>            <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; PlayerList = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">  148</span>            <span class="keywordflow">if</span> (PlayerList.<a class="code hl_function" href="../../db/d2f/class_linked_list_head.html#a5f450b83a615d010bedc7b0c6aa18d70">IsEmpty</a>())</div>
+<div class="line"><span class="lineno">  149</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  150</span> </div>
+<div class="line"><span class="lineno">  151</span>            <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> i = PlayerList.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); i != PlayerList.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++i)</div>
+<div class="line"><span class="lineno">  152</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* plr = i-&gt;GetSource())</div>
+<div class="line"><span class="lineno">  153</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(plr, spellId, triggered);</div>
+<div class="line"><span class="lineno">  154</span>        }</div>
+<div class="ttc" id="aclass_linked_list_head_1_1_iterator_html"><div class="ttname"><a href="../../db/dfe/class_linked_list_head_1_1_iterator.html">LinkedListHead::Iterator</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:139</div></div>
+<div class="ttc" id="aclass_linked_list_head_html_a5f450b83a615d010bedc7b0c6aa18d70"><div class="ttname"><a href="../../db/d2f/class_linked_list_head.html#a5f450b83a615d010bedc7b0c6aa18d70">LinkedListHead::IsEmpty</a></div><div class="ttdeci">bool IsEmpty() const</div><div class="ttdef"><b>Definition:</b> LinkedList.h:97</div></div>
+<div class="ttc" id="aclass_map_html_ae37764185b1adf2c6438025e4fa9091a"><div class="ttname"><a href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">Map::GetPlayers</a></div><div class="ttdeci">PlayerList const &amp; GetPlayers() const</div><div class="ttdef"><b>Definition:</b> Map.h:484</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html">MapRefMgr</a></div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:26</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_a6774b551f0d64628e33594c7b486a872"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">MapRefMgr::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:36</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_af488c0096775085791b5fbc89e5851a0"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">MapRefMgr::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:37</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_world_object_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:517</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad0049ff1954cd26b1914ed3a074ed17a" name="ad0049ff1954cd26b1914ed3a074ed17a"></a>
@@ -715,7 +827,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  273</span>        {</div>
+<div class="line"><span class="lineno">  274</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d8/dbf/boss__ichoron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>);</div>
+<div class="line"><span class="lineno">  275</span>            <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#aa638234a023ef69d3e5829064475f45c">bIsExploded</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  276</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">  277</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a294f22689bb98a36b2b8da1c33dd87f9">SetDisplayId</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a8ac9fa13ad31b42e5d1372694d22a799">GetNativeDisplayId</a>());</div>
+<div class="line"><span class="lineno">  278</span>            <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a5de54a4d56b95e5f3f445539a5dd7030">globules</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">DespawnAll</a>();</div>
+<div class="line"><span class="lineno">  279</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a11dc0853f1262b11c7d58559864698e2">pInstance</a>)</div>
+<div class="line"><span class="lineno">  280</span>                <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a11dc0853f1262b11c7d58559864698e2">pInstance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../da/d4c/violet__hold_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a3f5b31beabd1002ac1af0a329ba47836">DATA_BOSS_DIED</a>, 0);</div>
+<div class="line"><span class="lineno">  281</span>        }</div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:41</div></div>
+<div class="ttc" id="aclass_summon_list_html_a902c1d4535ccdb1b82801547a94151bb"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">SummonList::DespawnAll</a></div><div class="ttdeci">void DespawnAll(uint32 delay=0)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:67</div></div>
+<div class="ttc" id="aviolet__hold_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a3f5b31beabd1002ac1af0a329ba47836"><div class="ttname"><a href="../../da/d4c/violet__hold_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a3f5b31beabd1002ac1af0a329ba47836">DATA_BOSS_DIED</a></div><div class="ttdeci">@ DATA_BOSS_DIED</div><div class="ttdef"><b>Definition:</b> violet_hold.h:136</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4c0201fa18a2720548d7f88a6dfd9f36" name="a4c0201fa18a2720548d7f88a6dfd9f36"></a>
@@ -743,7 +867,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a1625d27c60b9833cc9bdebffb80833cb">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  249</span>        {</div>
+<div class="line"><span class="lineno">  250</span>            <span class="keywordflow">if</span> (pSummoned)</div>
+<div class="line"><span class="lineno">  251</span>            {</div>
+<div class="line"><span class="lineno">  252</span>                pSummoned-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab30ea03b94379b25f1d75ea879b4a61c">SetSpeed</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#af91f7580a89722b7dc45a018bb46fce4ad231571a48b7742c2a432eb7a8a849de">MOVE_RUN</a>, 0.3f);</div>
+<div class="line"><span class="lineno">  253</span>                pSummoned-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#abeb7f8bf0fe8c1e6ee5b5758f1b044b6">RemoveUnitMovementFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a083358a25d084fb928e170c453128f9daf3910f63fbfc30d508a4fd6a461ab84d">MOVEMENTFLAG_WALKING</a>);</div>
+<div class="line"><span class="lineno">  254</span>                pSummoned-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MoveFollow</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, 0, 0);</div>
+<div class="line"><span class="lineno">  255</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(pSummoned, <a class="code hl_enumvalue" href="../../d8/dbf/boss__ichoron_8cpp.html#ad55cdc1f9b28ac7c9d9b316ba4b039a0abef9faa25fb4217708127950200bb0a3">SPELL_CREATE_GLOBULE_VISUAL</a>, <span class="keyword">true</span>); <span class="comment">// triggered should ignore los</span></div>
+<div class="line"><span class="lineno">  256</span>                <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a5de54a4d56b95e5f3f445539a5dd7030">globules</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a4b10347a4407bb6351230423019d9786">Summon</a>(pSummoned);</div>
+<div class="line"><span class="lineno">  257</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a11dc0853f1262b11c7d58559864698e2">pInstance</a>)</div>
+<div class="line"><span class="lineno">  258</span>                    <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a11dc0853f1262b11c7d58559864698e2">pInstance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#ac465d5e7d00a7e3b935942f1627763f4">SetGuidData</a>(<a class="code hl_enumvalue" href="../../da/d4c/violet__hold_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a449b19f3bebee5f7f2217c277b0f894e">DATA_ADD_TRASH_MOB</a>, pSummoned-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  259</span>            }</div>
+<div class="line"><span class="lineno">  260</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_a083358a25d084fb928e170c453128f9daf3910f63fbfc30d508a4fd6a461ab84d"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a083358a25d084fb928e170c453128f9daf3910f63fbfc30d508a4fd6a461ab84d">MOVEMENTFLAG_WALKING</a></div><div class="ttdeci">@ MOVEMENTFLAG_WALKING</div><div class="ttdef"><b>Definition:</b> Unit.h:560</div></div>
+<div class="ttc" id="a_unit_8h_html_af91f7580a89722b7dc45a018bb46fce4ad231571a48b7742c2a432eb7a8a849de"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#af91f7580a89722b7dc45a018bb46fce4ad231571a48b7742c2a432eb7a8a849de">MOVE_RUN</a></div><div class="ttdeci">@ MOVE_RUN</div><div class="ttdef"><b>Definition:</b> Unit.h:379</div></div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_ad55cdc1f9b28ac7c9d9b316ba4b039a0abef9faa25fb4217708127950200bb0a3"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#ad55cdc1f9b28ac7c9d9b316ba4b039a0abef9faa25fb4217708127950200bb0a3">SPELL_CREATE_GLOBULE_VISUAL</a></div><div class="ttdeci">@ SPELL_CREATE_GLOBULE_VISUAL</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:66</div></div>
+<div class="ttc" id="aclass_motion_master_html_a5c4f6d1163174b909c83901d7f770d72"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MotionMaster::MoveFollow</a></div><div class="ttdeci">void MoveFollow(Unit *target, float dist, float angle, MovementSlot slot=MOTION_SLOT_ACTIVE)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:367</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_summon_list_html_a4b10347a4407bb6351230423019d9786"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a4b10347a4407bb6351230423019d9786">SummonList::Summon</a></div><div class="ttdeci">void Summon(Creature const *summon)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:89</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_ab30ea03b94379b25f1d75ea879b4a61c"><div class="ttname"><a href="../../da/db7/class_unit.html#ab30ea03b94379b25f1d75ea879b4a61c">Unit::SetSpeed</a></div><div class="ttdeci">void SetSpeed(UnitMoveType mtype, float rate, bool forced=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14301</div></div>
+<div class="ttc" id="aclass_unit_html_abeb7f8bf0fe8c1e6ee5b5758f1b044b6"><div class="ttname"><a href="../../da/db7/class_unit.html#abeb7f8bf0fe8c1e6ee5b5758f1b044b6">Unit::RemoveUnitMovementFlag</a></div><div class="ttdeci">void RemoveUnitMovementFlag(uint32 f)</div><div class="ttdef"><b>Definition:</b> Unit.h:2268</div></div>
+<div class="ttc" id="aclass_zone_script_html_ac465d5e7d00a7e3b935942f1627763f4"><div class="ttname"><a href="../../df/dad/class_zone_script.html#ac465d5e7d00a7e3b935942f1627763f4">ZoneScript::SetGuidData</a></div><div class="ttdeci">virtual void SetGuidData(uint32, ObjectGuid)</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:46</div></div>
+<div class="ttc" id="aviolet__hold_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a449b19f3bebee5f7f2217c277b0f894e"><div class="ttname"><a href="../../da/d4c/violet__hold_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a449b19f3bebee5f7f2217c277b0f894e">DATA_ADD_TRASH_MOB</a></div><div class="ttdeci">@ DATA_ADD_TRASH_MOB</div><div class="ttdef"><b>Definition:</b> violet_hold.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6038b1e91341653f7feb2e906901f224" name="a6038b1e91341653f7feb2e906901f224"></a>
@@ -771,7 +918,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  284</span>        {</div>
+<div class="line"><span class="lineno">  285</span>            <span class="keywordflow">if</span> (victim &amp;&amp; victim-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>() == <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>())</div>
+<div class="line"><span class="lineno">  286</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  287</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d8/dbf/boss__ichoron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a9e64f6e600dd42567d18006912811f75">SAY_SLAY</a>);</div>
+<div class="line"><span class="lineno">  288</span>        }</div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a9e64f6e600dd42567d18006912811f75"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a9e64f6e600dd42567d18006912811f75">SAY_SLAY</a></div><div class="ttdeci">@ SAY_SLAY</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aba923f9bebfd6b23a168e7761c1167f4" name="aba923f9bebfd6b23a168e7761c1167f4"></a>
@@ -799,7 +952,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  290</span>{}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3b04d35967c6e475f54e7bc52e828954" name="a3b04d35967c6e475f54e7bc52e828954"></a>
@@ -826,7 +980,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   98</span>        {</div>
+<div class="line"><span class="lineno">   99</span>            <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a5de54a4d56b95e5f3f445539a5dd7030">globules</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">DespawnAll</a>();</div>
+<div class="line"><span class="lineno">  100</span>            <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#aa638234a023ef69d3e5829064475f45c">bIsExploded</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  101</span>            <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a72664f34a55c45cbacd9b28aaf6abbc9">bIsFrenzy</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  102</span>            <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a0cc9573f8e2a35faaeee48ff9095e93f">uiDrainedTimer</a> = 15000;</div>
+<div class="line"><span class="lineno">  103</span>            <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a4ae6bd152ccfa4813ba5ea4ba5fd14ee">uiWaterBoltVolleyTimer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(7000, 12000);</div>
+<div class="line"><span class="lineno">  104</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">  105</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a294f22689bb98a36b2b8da1c33dd87f9">SetDisplayId</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a8ac9fa13ad31b42e5d1372694d22a799">GetNativeDisplayId</a>());</div>
+<div class="line"><span class="lineno">  106</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a84d3e3b7e7f587e585f0f4ec47de5c1d" name="a84d3e3b7e7f587e585f0f4ec47de5c1d"></a>
@@ -854,7 +1017,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a36dac2235051431e12efb9ea595f2902">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  263</span>        {</div>
+<div class="line"><span class="lineno">  264</span>            <span class="keywordflow">if</span> (pSummoned)</div>
+<div class="line"><span class="lineno">  265</span>            {</div>
+<div class="line"><span class="lineno">  266</span>                <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a5de54a4d56b95e5f3f445539a5dd7030">globules</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a2022b190043330dce78fdd60a15670a7">Despawn</a>(pSummoned);</div>
+<div class="line"><span class="lineno">  267</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a11dc0853f1262b11c7d58559864698e2">pInstance</a>)</div>
+<div class="line"><span class="lineno">  268</span>                    <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a11dc0853f1262b11c7d58559864698e2">pInstance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#ac465d5e7d00a7e3b935942f1627763f4">SetGuidData</a>(<a class="code hl_enumvalue" href="../../da/d4c/violet__hold_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a0b6308febcdfd661a238367b497b7779">DATA_DELETE_TRASH_MOB</a>, pSummoned-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  269</span>            }</div>
+<div class="line"><span class="lineno">  270</span>        }</div>
+<div class="ttc" id="aclass_summon_list_html_a2022b190043330dce78fdd60a15670a7"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a2022b190043330dce78fdd60a15670a7">SummonList::Despawn</a></div><div class="ttdeci">void Despawn(Creature const *summon)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:90</div></div>
+<div class="ttc" id="aviolet__hold_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a0b6308febcdfd661a238367b497b7779"><div class="ttname"><a href="../../da/d4c/violet__hold_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a0b6308febcdfd661a238367b497b7779">DATA_DELETE_TRASH_MOB</a></div><div class="ttdeci">@ DATA_DELETE_TRASH_MOB</div><div class="ttdef"><b>Definition:</b> violet_hold.h:126</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2eb918a85cd7025f5f65c1aec7e9fd1f" name="a2eb918a85cd7025f5f65c1aec7e9fd1f"></a>
@@ -882,7 +1055,107 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  170</span>        {</div>
+<div class="line"><span class="lineno">  171</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  172</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  173</span> </div>
+<div class="line"><span class="lineno">  174</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a72664f34a55c45cbacd9b28aaf6abbc9">bIsFrenzy</a> &amp;&amp; !<a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#aa638234a023ef69d3e5829064475f45c">bIsExploded</a> &amp;&amp; <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#aa4e7196924ef7710dc780b0321e09002">HealthBelowPct</a>(25))</div>
+<div class="line"><span class="lineno">  175</span>            {</div>
+<div class="line"><span class="lineno">  176</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d8/dbf/boss__ichoron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3ac90d9311ef3cf3f33564ce22ff904f54">SAY_ENRAGE</a>);</div>
+<div class="line"><span class="lineno">  177</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_define" href="../../d8/dbf/boss__ichoron_8cpp.html#aa890c9b519b6820c6be20b102be68781">SPELL_FRENZY</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  178</span>                <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a72664f34a55c45cbacd9b28aaf6abbc9">bIsFrenzy</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  179</span>            }</div>
+<div class="line"><span class="lineno">  180</span> </div>
+<div class="line"><span class="lineno">  181</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a72664f34a55c45cbacd9b28aaf6abbc9">bIsFrenzy</a>)</div>
+<div class="line"><span class="lineno">  182</span>            {</div>
+<div class="line"><span class="lineno">  183</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#aa638234a023ef69d3e5829064475f45c">bIsExploded</a>)</div>
+<div class="line"><span class="lineno">  184</span>                {</div>
+<div class="line"><span class="lineno">  185</span>                    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d8/dbf/boss__ichoron_8cpp.html#ad55cdc1f9b28ac7c9d9b316ba4b039a0abac9cf5b45c34842b2d2e0d4de4e6ff2">SPELL_PROTECTIVE_BUBBLE</a>))</div>
+<div class="line"><span class="lineno">  186</span>                    {</div>
+<div class="line"><span class="lineno">  187</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2bdfe38bdc28869a9002094e4341d56e">InterruptNonMeleeSpells</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  188</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d8/dbf/boss__ichoron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3ab9eb8f4d4045b8d34928378cb15f3d4a">SAY_SHATTER</a>);</div>
+<div class="line"><span class="lineno">  189</span>                        <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#afdeeccb48c5f74120d0fffe2a631a88a">DoZoneInCombat</a>();</div>
+<div class="line"><span class="lineno">  190</span>                        <a class="code hl_function" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#aeeb18f0aee11e7f0bbd7e4c7936e8869">IchoronDoCastToAllHostilePlayers</a>(<a class="code hl_define" href="../../d8/dbf/boss__ichoron_8cpp.html#a53a73c5923e11a404fc10a81ffe4ceed">SPELL_WATER_BLAST</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  191</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d8/dbf/boss__ichoron_8cpp.html#ad55cdc1f9b28ac7c9d9b316ba4b039a0af79cfc4321afabb4a953755504a91ce5">SPELL_DRAINED</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  192</span>                        <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#aa638234a023ef69d3e5829064475f45c">bIsExploded</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  193</span>                        <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a0cc9573f8e2a35faaeee48ff9095e93f">uiDrainedTimer</a> = 15000;</div>
+<div class="line"><span class="lineno">  194</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">  195</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a294f22689bb98a36b2b8da1c33dd87f9">SetDisplayId</a>(11686);</div>
+<div class="line"><span class="lineno">  196</span>                        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../d8/dbf/boss__ichoron_8cpp.html#a986d752f01bfa1c34b10e82145538920">MAX_SPAWN_LOC</a>; ++i)</div>
+<div class="line"><span class="lineno">  197</span>                        {</div>
+<div class="line"><span class="lineno">  198</span>                            <span class="keywordtype">float</span> angle = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#af2f9363ceebb6f78067b4a146d1de9df">rand_norm</a>() * 2 * M_PI;</div>
+<div class="line"><span class="lineno">  199</span>                            <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> p1(<a class="code hl_variable" href="../../d8/dbf/boss__ichoron_8cpp.html#a739fd279eba84cdf21959893b95f2134">SpawnLoc</a>[i]), p2(<a class="code hl_variable" href="../../d8/dbf/boss__ichoron_8cpp.html#a739fd279eba84cdf21959893b95f2134">SpawnLoc</a>[i]);</div>
+<div class="line"><span class="lineno">  200</span>                            p1.m_positionX += 2.5f * cos(angle);</div>
+<div class="line"><span class="lineno">  201</span>                            p1.m_positionY += 2.5f * std::sin(angle);</div>
+<div class="line"><span class="lineno">  202</span>                            p2.m_positionX -= 2.5f * cos(angle);</div>
+<div class="line"><span class="lineno">  203</span>                            p2.m_positionY -= 2.5f * std::sin(angle);</div>
+<div class="line"><span class="lineno">  204</span>                            <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a4813dbd4c14f1b7ba74f14c76f80823d">DoSummon</a>(<a class="code hl_enumvalue" href="../../d8/dbf/boss__ichoron_8cpp.html#a59602e8f26d052c0b6f6bdfe896510b8a5c39abb26566ef9fb1e3afe0cecc9762">NPC_ICHOR_GLOBULE</a>, p1, 60000, <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a>);</div>
+<div class="line"><span class="lineno">  205</span>                            <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a4813dbd4c14f1b7ba74f14c76f80823d">DoSummon</a>(<a class="code hl_enumvalue" href="../../d8/dbf/boss__ichoron_8cpp.html#a59602e8f26d052c0b6f6bdfe896510b8a5c39abb26566ef9fb1e3afe0cecc9762">NPC_ICHOR_GLOBULE</a>, p2, 60000, <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a>);</div>
+<div class="line"><span class="lineno">  206</span>                        }</div>
+<div class="line"><span class="lineno">  207</span>                    }</div>
+<div class="line"><span class="lineno">  208</span>                }</div>
+<div class="line"><span class="lineno">  209</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  210</span>                {</div>
+<div class="line"><span class="lineno">  211</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a0cc9573f8e2a35faaeee48ff9095e93f">uiDrainedTimer</a> &lt;= uiDiff)</div>
+<div class="line"><span class="lineno">  212</span>                        <a class="code hl_function" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a4312f74f67649f5f2f3cfaf2a46b09e8">DoExplodeCompleted</a>();</div>
+<div class="line"><span class="lineno">  213</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  214</span>                    {</div>
+<div class="line"><span class="lineno">  215</span>                        <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a0cc9573f8e2a35faaeee48ff9095e93f">uiDrainedTimer</a> -= uiDiff;</div>
+<div class="line"><span class="lineno">  216</span> </div>
+<div class="line"><span class="lineno">  217</span>                        <span class="keywordtype">bool</span> bIsWaterElementsAlive = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  218</span>                        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a5de54a4d56b95e5f3f445539a5dd7030">globules</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a10b29ba099a9b99fde54101358dea8dc">empty</a>())</div>
+<div class="line"><span class="lineno">  219</span>                        {</div>
+<div class="line"><span class="lineno">  220</span>                            <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> <span class="keyword">const</span>&amp; guid : <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a5de54a4d56b95e5f3f445539a5dd7030">globules</a>)</div>
+<div class="line"><span class="lineno">  221</span>                                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* pTemp = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, guid))</div>
+<div class="line"><span class="lineno">  222</span>                                    <span class="keywordflow">if</span> (pTemp-&gt;IsAlive())</div>
+<div class="line"><span class="lineno">  223</span>                                    {</div>
+<div class="line"><span class="lineno">  224</span>                                        bIsWaterElementsAlive = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  225</span>                                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  226</span>                                    }</div>
+<div class="line"><span class="lineno">  227</span>                        }</div>
+<div class="line"><span class="lineno">  228</span> </div>
+<div class="line"><span class="lineno">  229</span>                        <span class="keywordflow">if</span> (!bIsWaterElementsAlive)</div>
+<div class="line"><span class="lineno">  230</span>                            <a class="code hl_function" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a4312f74f67649f5f2f3cfaf2a46b09e8">DoExplodeCompleted</a>();</div>
+<div class="line"><span class="lineno">  231</span>                    }</div>
+<div class="line"><span class="lineno">  232</span>                }</div>
+<div class="line"><span class="lineno">  233</span>            }</div>
+<div class="line"><span class="lineno">  234</span> </div>
+<div class="line"><span class="lineno">  235</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#aa638234a023ef69d3e5829064475f45c">bIsExploded</a>)</div>
+<div class="line"><span class="lineno">  236</span>            {</div>
+<div class="line"><span class="lineno">  237</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a4ae6bd152ccfa4813ba5ea4ba5fd14ee">uiWaterBoltVolleyTimer</a> &lt;= uiDiff)</div>
+<div class="line"><span class="lineno">  238</span>                {</div>
+<div class="line"><span class="lineno">  239</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>((<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>*)<span class="keyword">nullptr</span>, <a class="code hl_define" href="../../d8/dbf/boss__ichoron_8cpp.html#aa4f1d6724126f7ffd248093f5167b5f2">SPELL_WATER_BOLT_VOLLEY</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  240</span>                    <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a4ae6bd152ccfa4813ba5ea4ba5fd14ee">uiWaterBoltVolleyTimer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(10000, 15000);</div>
+<div class="line"><span class="lineno">  241</span>                }</div>
+<div class="line"><span class="lineno">  242</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#a4ae6bd152ccfa4813ba5ea4ba5fd14ee">uiWaterBoltVolleyTimer</a> -= uiDiff;</div>
+<div class="line"><span class="lineno">  243</span>            }</div>
+<div class="line"><span class="lineno">  244</span> </div>
+<div class="line"><span class="lineno">  245</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  246</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:42</div></div>
+<div class="ttc" id="a_random_8cpp_html_af2f9363ceebb6f78067b4a146d1de9df"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#af2f9363ceebb6f78067b4a146d1de9df">rand_norm</a></div><div class="ttdeci">double rand_norm()</div><div class="ttdef"><b>Definition:</b> Random.cpp:77</div></div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3ab9eb8f4d4045b8d34928378cb15f3d4a"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3ab9eb8f4d4045b8d34928378cb15f3d4a">SAY_SHATTER</a></div><div class="ttdeci">@ SAY_SHATTER</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:44</div></div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3ac90d9311ef3cf3f33564ce22ff904f54"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3ac90d9311ef3cf3f33564ce22ff904f54">SAY_ENRAGE</a></div><div class="ttdeci">@ SAY_ENRAGE</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:43</div></div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_a53a73c5923e11a404fc10a81ffe4ceed"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#a53a73c5923e11a404fc10a81ffe4ceed">SPELL_WATER_BLAST</a></div><div class="ttdeci">#define SPELL_WATER_BLAST</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:69</div></div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_a59602e8f26d052c0b6f6bdfe896510b8a5c39abb26566ef9fb1e3afe0cecc9762"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#a59602e8f26d052c0b6f6bdfe896510b8a5c39abb26566ef9fb1e3afe0cecc9762">NPC_ICHOR_GLOBULE</a></div><div class="ttdeci">@ NPC_ICHOR_GLOBULE</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:50</div></div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_a739fd279eba84cdf21959893b95f2134"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#a739fd279eba84cdf21959893b95f2134">SpawnLoc</a></div><div class="ttdeci">static Position SpawnLoc[MAX_SPAWN_LOC]</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:28</div></div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_a986d752f01bfa1c34b10e82145538920"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#a986d752f01bfa1c34b10e82145538920">MAX_SPAWN_LOC</a></div><div class="ttdeci">#define MAX_SPAWN_LOC</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:27</div></div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_aa4f1d6724126f7ffd248093f5167b5f2"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#aa4f1d6724126f7ffd248093f5167b5f2">SPELL_WATER_BOLT_VOLLEY</a></div><div class="ttdeci">#define SPELL_WATER_BOLT_VOLLEY</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:70</div></div>
+<div class="ttc" id="aboss__ichoron_8cpp_html_aa890c9b519b6820c6be20b102be68781"><div class="ttname"><a href="../../d8/dbf/boss__ichoron_8cpp.html#aa890c9b519b6820c6be20b102be68781">SPELL_FRENZY</a></div><div class="ttdeci">#define SPELL_FRENZY</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:71</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_a4813dbd4c14f1b7ba74f14c76f80823d"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a4813dbd4c14f1b7ba74f14c76f80823d">CreatureAI::DoSummon</a></div><div class="ttdeci">Creature * DoSummon(uint32 entry, Position const &amp;pos, uint32 despawnTime=30000, TempSummonType summonType=TEMPSUMMON_CORPSE_TIMED_DESPAWN)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:399</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_object_guid_html"><div class="ttname"><a href="../../d8/d03/class_object_guid.html">ObjectGuid</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:120</div></div>
+<div class="ttc" id="aclass_summon_list_html_a10b29ba099a9b99fde54101358dea8dc"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a10b29ba099a9b99fde54101358dea8dc">SummonList::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:74</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a2bdfe38bdc28869a9002094e4341d56e"><div class="ttname"><a href="../../da/db7/class_unit.html#a2bdfe38bdc28869a9002094e4341d56e">Unit::InterruptNonMeleeSpells</a></div><div class="ttdeci">void InterruptNonMeleeSpells(bool withDelayed, uint32 spellid=0, bool withInstant=true, bool bySelf=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4057</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="astructboss__ichoron_1_1boss__ichoron_a_i_html_aeeb18f0aee11e7f0bbd7e4c7936e8869"><div class="ttname"><a href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html#aeeb18f0aee11e7f0bbd7e4c7936e8869">boss_ichoron::boss_ichoronAI::IchoronDoCastToAllHostilePlayers</a></div><div class="ttdeci">void IchoronDoCastToAllHostilePlayers(uint32 spellId, bool triggered)</div><div class="ttdef"><b>Definition:</b> boss_ichoron.cpp:145</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -971,7 +1244,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/VioletHold/<a class="el" href="../../d8/dbf/boss__ichoron_8cpp.html">boss_ichoron.cpp</a></li>
+<li><a class="el" href="../../">boss_ichoron.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -979,7 +1252,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d6c/classboss__ichoron.html">boss_ichoron</a></li><li class="navelem"><a class="el" href="../../dc/d59/structboss__ichoron_1_1boss__ichoron_a_i.html">boss_ichoronAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:40 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

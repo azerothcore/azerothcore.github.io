@@ -495,7 +495,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a521decece7a53165349ebcfb9fb8dfb5" name="a521decece7a53165349ebcfb9fb8dfb5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a521decece7a53165349ebcfb9fb8dfb5">&#9670;&#160;</a></span>boss_maiden_of_griefAI()</h2>
 
@@ -519,7 +520,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   63</span>                                            : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(c)</div>
+<div class="line"><span class="lineno">   64</span>        {</div>
+<div class="line"><span class="lineno">   65</span>            <a class="code hl_variable" href="../../d6/d90/structboss__maiden__of__grief_1_1boss__maiden__of__grief_a_i.html#abc195718a208a926f978d7f0fe0e7925">pInstance</a> = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">   66</span>        }</div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructboss__maiden__of__grief_1_1boss__maiden__of__grief_a_i_html_abc195718a208a926f978d7f0fe0e7925"><div class="ttname"><a href="../../d6/d90/structboss__maiden__of__grief_1_1boss__maiden__of__grief_a_i.html#abc195718a208a926f978d7f0fe0e7925">boss_maiden_of_grief::boss_maiden_of_griefAI::pInstance</a></div><div class="ttdeci">InstanceScript * pInstance</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:68</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -548,7 +557,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   82</span>        {</div>
+<div class="line"><span class="lineno">   83</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#aea422c10a74cba6e6b02928aed3498faab8f407096c5f3f605cb87401cd5dd01e">EVENT_STORM</a>, 5000);</div>
+<div class="line"><span class="lineno">   84</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#aea422c10a74cba6e6b02928aed3498faa2f956980ba952c8febcd4bde3fa27d5c">EVENT_SHOCK</a>, 26000 + rand() % 6000);</div>
+<div class="line"><span class="lineno">   85</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#aea422c10a74cba6e6b02928aed3498faad95330b3d45c48517e7d806752878756">EVENT_PILLAR</a>, 12000 + rand() % 8000);</div>
+<div class="line"><span class="lineno">   86</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#aea422c10a74cba6e6b02928aed3498faa0992d683bc7d0448b2e32fdf931c00d3">EVENT_PARTING</a>, 8000);</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>);</div>
+<div class="line"><span class="lineno">   89</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d90/structboss__maiden__of__grief_1_1boss__maiden__of__grief_a_i.html#abc195718a208a926f978d7f0fe0e7925">pInstance</a>)</div>
+<div class="line"><span class="lineno">   90</span>            {</div>
+<div class="line"><span class="lineno">   91</span>                <a class="code hl_variable" href="../../d6/d90/structboss__maiden__of__grief_1_1boss__maiden__of__grief_a_i.html#abc195718a208a926f978d7f0fe0e7925">pInstance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#ac01ba61e0495829df66878fca191f7eb">DoStartTimedAchievement</a>(<a class="code hl_enumvalue" href="../../dc/d6e/_d_b_c_enums_8h.html#a282f094fb8ee80177dd57d2086ddd35bac02bba0f3ad69a2fc8ccde1efade56a3">ACHIEVEMENT_TIMED_TYPE_EVENT</a>, <a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2a36889144f6bc798e085d3a653bfe0c97">ACHIEVEMENT_GOOD_GRIEF</a>);</div>
+<div class="line"><span class="lineno">   92</span>                <a class="code hl_variable" href="../../d6/d90/structboss__maiden__of__grief_1_1boss__maiden__of__grief_a_i.html#abc195718a208a926f978d7f0fe0e7925">pInstance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d5/d9e/halls__of__stone_8h.html#a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c">BOSS_MAIDEN_OF_GRIEF</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>);</div>
+<div class="line"><span class="lineno">   93</span>            }</div>
+<div class="line"><span class="lineno">   94</span>        }</div>
+<div class="ttc" id="a_d_b_c_enums_8h_html_a282f094fb8ee80177dd57d2086ddd35bac02bba0f3ad69a2fc8ccde1efade56a3"><div class="ttname"><a href="../../dc/d6e/_d_b_c_enums_8h.html#a282f094fb8ee80177dd57d2086ddd35bac02bba0f3ad69a2fc8ccde1efade56a3">ACHIEVEMENT_TIMED_TYPE_EVENT</a></div><div class="ttdeci">@ ACHIEVEMENT_TIMED_TYPE_EVENT</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:116</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:45</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_abdbd89eacbc02a7997082886574e8ec2a36889144f6bc798e085d3a653bfe0c97"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2a36889144f6bc798e085d3a653bfe0c97">ACHIEVEMENT_GOOD_GRIEF</a></div><div class="ttdeci">@ ACHIEVEMENT_GOOD_GRIEF</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:32</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_aea422c10a74cba6e6b02928aed3498faa0992d683bc7d0448b2e32fdf931c00d3"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#aea422c10a74cba6e6b02928aed3498faa0992d683bc7d0448b2e32fdf931c00d3">EVENT_PARTING</a></div><div class="ttdeci">@ EVENT_PARTING</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:40</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_aea422c10a74cba6e6b02928aed3498faa2f956980ba952c8febcd4bde3fa27d5c"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#aea422c10a74cba6e6b02928aed3498faa2f956980ba952c8febcd4bde3fa27d5c">EVENT_SHOCK</a></div><div class="ttdeci">@ EVENT_SHOCK</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:38</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_aea422c10a74cba6e6b02928aed3498faab8f407096c5f3f605cb87401cd5dd01e"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#aea422c10a74cba6e6b02928aed3498faab8f407096c5f3f605cb87401cd5dd01e">EVENT_STORM</a></div><div class="ttdeci">@ EVENT_STORM</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:37</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_aea422c10a74cba6e6b02928aed3498faad95330b3d45c48517e7d806752878756"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#aea422c10a74cba6e6b02928aed3498faad95330b3d45c48517e7d806752878756">EVENT_PILLAR</a></div><div class="ttdeci">@ EVENT_PILLAR</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:39</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_instance_script_html_ac01ba61e0495829df66878fca191f7eb"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#ac01ba61e0495829df66878fca191f7eb">InstanceScript::DoStartTimedAchievement</a></div><div class="ttdeci">void DoStartTimedAchievement(AchievementCriteriaTimedTypes type, uint32 entry)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:464</div></div>
+<div class="ttc" id="aclass_zone_script_html_a949e67ea24c7e4b70a20806952735576"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:53</div></div>
+<div class="ttc" id="ahalls__of__stone_8h_html_a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c"><div class="ttname"><a href="../../d5/d9e/halls__of__stone_8h.html#a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c">BOSS_MAIDEN_OF_GRIEF</a></div><div class="ttdeci">@ BOSS_MAIDEN_OF_GRIEF</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abd3977cca1cbbf4b64c278a641514fc8" name="abd3977cca1cbbf4b64c278a641514fc8"></a>
@@ -576,7 +611,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  144</span>        {</div>
+<div class="line"><span class="lineno">  145</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>);</div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d90/structboss__maiden__of__grief_1_1boss__maiden__of__grief_a_i.html#abc195718a208a926f978d7f0fe0e7925">pInstance</a>)</div>
+<div class="line"><span class="lineno">  148</span>                <a class="code hl_variable" href="../../d6/d90/structboss__maiden__of__grief_1_1boss__maiden__of__grief_a_i.html#abc195718a208a926f978d7f0fe0e7925">pInstance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d5/d9e/halls__of__stone_8h.html#a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c">BOSS_MAIDEN_OF_GRIEF</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>);</div>
+<div class="line"><span class="lineno">  149</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:47</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3d2173db5a852a356c187b2d2771b75f" name="a3d2173db5a852a356c187b2d2771b75f"></a>
@@ -604,7 +647,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  152</span>        {</div>
+<div class="line"><span class="lineno">  153</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 1))</div>
+<div class="line"><span class="lineno">  154</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  155</span> </div>
+<div class="line"><span class="lineno">  156</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a9e64f6e600dd42567d18006912811f75">SAY_SLAY</a>);</div>
+<div class="line"><span class="lineno">  157</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a9e64f6e600dd42567d18006912811f75"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a9e64f6e600dd42567d18006912811f75">SAY_SLAY</a></div><div class="ttdeci">@ SAY_SLAY</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:46</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a46776004549b0dcfcf73351225adaad8" name="a46776004549b0dcfcf73351225adaad8"></a>
@@ -631,7 +682,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   72</span>        {</div>
+<div class="line"><span class="lineno">   73</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">   74</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d90/structboss__maiden__of__grief_1_1boss__maiden__of__grief_a_i.html#abc195718a208a926f978d7f0fe0e7925">pInstance</a>)</div>
+<div class="line"><span class="lineno">   75</span>            {</div>
+<div class="line"><span class="lineno">   76</span>                <a class="code hl_variable" href="../../d6/d90/structboss__maiden__of__grief_1_1boss__maiden__of__grief_a_i.html#abc195718a208a926f978d7f0fe0e7925">pInstance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#ae9b6369a3b84cf474f74265c8c97f1fd">DoStopTimedAchievement</a>(<a class="code hl_enumvalue" href="../../dc/d6e/_d_b_c_enums_8h.html#a282f094fb8ee80177dd57d2086ddd35bac02bba0f3ad69a2fc8ccde1efade56a3">ACHIEVEMENT_TIMED_TYPE_EVENT</a>, <a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2a36889144f6bc798e085d3a653bfe0c97">ACHIEVEMENT_GOOD_GRIEF</a>);</div>
+<div class="line"><span class="lineno">   77</span>                <a class="code hl_variable" href="../../d6/d90/structboss__maiden__of__grief_1_1boss__maiden__of__grief_a_i.html#abc195718a208a926f978d7f0fe0e7925">pInstance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d5/d9e/halls__of__stone_8h.html#a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c">BOSS_MAIDEN_OF_GRIEF</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>);</div>
+<div class="line"><span class="lineno">   78</span>            }</div>
+<div class="line"><span class="lineno">   79</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a></div><div class="ttdeci">@ NOT_STARTED</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:56</div></div>
+<div class="ttc" id="aclass_instance_script_html_ae9b6369a3b84cf474f74265c8c97f1fd"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#ae9b6369a3b84cf474f74265c8c97f1fd">InstanceScript::DoStopTimedAchievement</a></div><div class="ttdeci">void DoStopTimedAchievement(AchievementCriteriaTimedTypes type, uint32 entry)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:475</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4e26fc785b3c72982f9d98e0b120e929" name="a4e26fc785b3c72982f9d98e0b120e929"></a>
@@ -659,7 +720,69 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   97</span>        {</div>
+<div class="line"><span class="lineno">   98</span>            <span class="keywordflow">if</span>(!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">   99</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  100</span> </div>
+<div class="line"><span class="lineno">  101</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  102</span> </div>
+<div class="line"><span class="lineno">  103</span>            <span class="keywordflow">if</span>( <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>) )</div>
+<div class="line"><span class="lineno">  104</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>            <span class="keywordflow">switch</span>( <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent() )</div>
+<div class="line"><span class="lineno">  107</span>            {</div>
+<div class="line"><span class="lineno">  108</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#aea422c10a74cba6e6b02928aed3498faab8f407096c5f3f605cb87401cd5dd01e">EVENT_STORM</a>:</div>
+<div class="line"><span class="lineno">  109</span>                    {</div>
+<div class="line"><span class="lineno">  110</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a1ca3b73dcbf8a3e8b35c334a97a8dcf9">DUNGEON_MODE</a>(<a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2aae11fdab86d81638daa38e7a6d2c2378">STORM_OF_GRIEF</a>, <a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2a0ef3f59f8e1657636ee160eba01246b0">STORM_OF_GRIEF_H</a>), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  111</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(10000);</div>
+<div class="line"><span class="lineno">  112</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  113</span>                    }</div>
+<div class="line"><span class="lineno">  114</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#aea422c10a74cba6e6b02928aed3498faa2f956980ba952c8febcd4bde3fa27d5c">EVENT_SHOCK</a>:</div>
+<div class="line"><span class="lineno">  115</span>                    {</div>
+<div class="line"><span class="lineno">  116</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a1ca3b73dcbf8a3e8b35c334a97a8dcf9">DUNGEON_MODE</a>(<a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2a5b97c5198240f4c93b386eb4f4ba0212">SHOCK_OF_SORROW</a>, <a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2a8d4d1921d0600ec1d80db94ae28ece71">SHOCK_OF_SORROW_H</a>), <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  117</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a7383ad6f7ac5159821054233685b7bb8">SAY_STUN</a>);</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(16000 + rand() % 6000);</div>
+<div class="line"><span class="lineno">  120</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  121</span>                    }</div>
+<div class="line"><span class="lineno">  122</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#aea422c10a74cba6e6b02928aed3498faad95330b3d45c48517e7d806752878756">EVENT_PILLAR</a>:</div>
+<div class="line"><span class="lineno">  123</span>                    {</div>
+<div class="line"><span class="lineno">  124</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 50.0f, <span class="keyword">true</span>, 0))</div>
+<div class="line"><span class="lineno">  125</span>                            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a1ca3b73dcbf8a3e8b35c334a97a8dcf9">DUNGEON_MODE</a>(<a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2a51ed5feeba323856f831a4e8e128c5fe">PILLAR_OF_WOE</a>, <a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2ac128df2d0c92bf7377c0df59a379330c">PILLAR_OF_WOE_H</a>), <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  126</span> </div>
+<div class="line"><span class="lineno">  127</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(12000 + rand() % 8000);</div>
+<div class="line"><span class="lineno">  128</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  129</span>                    }</div>
+<div class="line"><span class="lineno">  130</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#aea422c10a74cba6e6b02928aed3498faa0992d683bc7d0448b2e32fdf931c00d3">EVENT_PARTING</a>:</div>
+<div class="line"><span class="lineno">  131</span>                    {</div>
+<div class="line"><span class="lineno">  132</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 50.0f, <span class="keyword">true</span>, 0))</div>
+<div class="line"><span class="lineno">  133</span>                            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2af3454b7726ff200f857b79943aac2cf8">PARTING_SORROW</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  134</span> </div>
+<div class="line"><span class="lineno">  135</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(6000 + rand() % 10000);</div>
+<div class="line"><span class="lineno">  136</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  137</span>                    }</div>
+<div class="line"><span class="lineno">  138</span>            }</div>
+<div class="line"><span class="lineno">  139</span> </div>
+<div class="line"><span class="lineno">  140</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  141</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a7383ad6f7ac5159821054233685b7bb8"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a7383ad6f7ac5159821054233685b7bb8">SAY_STUN</a></div><div class="ttdeci">@ SAY_STUN</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:48</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_abdbd89eacbc02a7997082886574e8ec2a0ef3f59f8e1657636ee160eba01246b0"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2a0ef3f59f8e1657636ee160eba01246b0">STORM_OF_GRIEF_H</a></div><div class="ttdeci">@ STORM_OF_GRIEF_H</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:30</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_abdbd89eacbc02a7997082886574e8ec2a51ed5feeba323856f831a4e8e128c5fe"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2a51ed5feeba323856f831a4e8e128c5fe">PILLAR_OF_WOE</a></div><div class="ttdeci">@ PILLAR_OF_WOE</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:25</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_abdbd89eacbc02a7997082886574e8ec2a5b97c5198240f4c93b386eb4f4ba0212"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2a5b97c5198240f4c93b386eb4f4ba0212">SHOCK_OF_SORROW</a></div><div class="ttdeci">@ SHOCK_OF_SORROW</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:27</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_abdbd89eacbc02a7997082886574e8ec2a8d4d1921d0600ec1d80db94ae28ece71"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2a8d4d1921d0600ec1d80db94ae28ece71">SHOCK_OF_SORROW_H</a></div><div class="ttdeci">@ SHOCK_OF_SORROW_H</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:28</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_abdbd89eacbc02a7997082886574e8ec2aae11fdab86d81638daa38e7a6d2c2378"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2aae11fdab86d81638daa38e7a6d2c2378">STORM_OF_GRIEF</a></div><div class="ttdeci">@ STORM_OF_GRIEF</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:29</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_abdbd89eacbc02a7997082886574e8ec2ac128df2d0c92bf7377c0df59a379330c"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2ac128df2d0c92bf7377c0df59a379330c">PILLAR_OF_WOE_H</a></div><div class="ttdeci">@ PILLAR_OF_WOE_H</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:26</div></div>
+<div class="ttc" id="aboss__maiden__of__grief_8cpp_html_abdbd89eacbc02a7997082886574e8ec2af3454b7726ff200f857b79943aac2cf8"><div class="ttname"><a href="../../d8/de5/boss__maiden__of__grief_8cpp.html#abdbd89eacbc02a7997082886574e8ec2af3454b7726ff200f857b79943aac2cf8">PARTING_SORROW</a></div><div class="ttdeci">@ PARTING_SORROW</div><div class="ttdef"><b>Definition:</b> boss_maiden_of_grief.cpp:24</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a1ca3b73dcbf8a3e8b35c334a97a8dcf9"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a1ca3b73dcbf8a3e8b35c334a97a8dcf9">ScriptedAI::DUNGEON_MODE</a></div><div class="ttdeci">const T &amp; DUNGEON_MODE(const T &amp;normal5, const T &amp;heroic10) const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:364</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -692,7 +815,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/HallsOfStone/<a class="el" href="../../d8/de5/boss__maiden__of__grief_8cpp.html">boss_maiden_of_grief.cpp</a></li>
+<li><a class="el" href="../../">boss_maiden_of_grief.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -700,7 +823,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d9f/classboss__maiden__of__grief.html">boss_maiden_of_grief</a></li><li class="navelem"><a class="el" href="../../d6/d90/structboss__maiden__of__grief_1_1boss__maiden__of__grief_a_i.html">boss_maiden_of_griefAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:41 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:53 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Kalimdor/CavernsOfTime/EscapeFromDurnholdeKeep/boss_lieutenant_drake.cpp File Reference</title>
+<title>AzeorthCore: boss_lieutenant_drake.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -112,12 +112,14 @@ $(document).ready(function(){initNavTree('d8/db6/boss__lieutenant__drake_8cpp.ht
   <div class="headertitle"><div class="title">boss_lieutenant_drake.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../dd/d9c/_move_spline_init_8h_source.html">MoveSplineInit.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dad/_scripted_creature_8h_source.html">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d48/_smart_script_mgr_8h_source.html">SmartScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dfb/old__hillsbrad_8h_source.html">old_hillsbrad.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">MoveSplineInit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SmartScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">old_hillsbrad.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/classboss__lieutenant__drake.html">boss_lieutenant_drake</a></td></tr>
@@ -198,7 +200,43 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a033aa2310e9320f7f70eebde8bad3f18a555c0f944c1b69b930b96c21c2f0b3ff" name="a033aa2310e9320f7f70eebde8bad3f18a555c0f944c1b69b930b96c21c2f0b3ff"></a>EVENT_HAMSTRING&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a033aa2310e9320f7f70eebde8bad3f18a16226c58824d0d8a6ed3245b19757883" name="a033aa2310e9320f7f70eebde8bad3f18a16226c58824d0d8a6ed3245b19757883"></a>EVENT_EXPLODING_SHOT&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18abde0ca14c874b2c3317dd55732863028">SAY_ENTER</a>               = 0,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>               = 1,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a9e64f6e600dd42567d18006912811f75">SAY_SLAY</a>                = 2,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18acf31848e308314a00240ce3ef60f0cac">SAY_MORTAL</a>              = 3,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18ac8586005f7f9c20d2a347bde8583cefd">SAY_SHOUT</a>               = 4,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>               = 5,</div>
+<div class="line"><span class="lineno">   32</span> </div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18aed3f27157e41ec7644a53b6f9a827801">SPELL_WHIRLWIND</a>         = 31909,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18aefb7632b415102184ad53e85801175d5">SPELL_EXPLODING_SHOT</a>    = 33792,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a079fdbedeb449ce76d26fa93301be553">SPELL_HAMSTRING</a>         = 9080,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a7794ace87705e2898f8b60f1f5228110">SPELL_MORTAL_STRIKE</a>     = 31911,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a99346d181da7e06bc6c08427a2b39880">SPELL_FRIGHTENING_SHOUT</a> = 33789,</div>
+<div class="line"><span class="lineno">   38</span> </div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a4e49fde4fe8ce8fa992cf9a3a4584afc">EVENT_WHIRLWIND</a>         = 1,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a514a4e3ec4111bd86552e0a733f4e018">EVENT_FRIGHTENING_SHOUT</a> = 2,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18adbcdc7932b4e3141c4e5fb1a807bc236">EVENT_MORTAL_STRIKE</a>     = 3,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a555c0f944c1b69b930b96c21c2f0b3ff">EVENT_HAMSTRING</a>         = 4,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a16226c58824d0d8a6ed3245b19757883">EVENT_EXPLODING_SHOT</a>    = 5</div>
+<div class="line"><span class="lineno">   44</span>};</div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:31</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a079fdbedeb449ce76d26fa93301be553"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a079fdbedeb449ce76d26fa93301be553">SPELL_HAMSTRING</a></div><div class="ttdeci">@ SPELL_HAMSTRING</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:35</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a16226c58824d0d8a6ed3245b19757883"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a16226c58824d0d8a6ed3245b19757883">EVENT_EXPLODING_SHOT</a></div><div class="ttdeci">@ EVENT_EXPLODING_SHOT</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:43</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:27</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a4e49fde4fe8ce8fa992cf9a3a4584afc"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a4e49fde4fe8ce8fa992cf9a3a4584afc">EVENT_WHIRLWIND</a></div><div class="ttdeci">@ EVENT_WHIRLWIND</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:39</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a514a4e3ec4111bd86552e0a733f4e018"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a514a4e3ec4111bd86552e0a733f4e018">EVENT_FRIGHTENING_SHOUT</a></div><div class="ttdeci">@ EVENT_FRIGHTENING_SHOUT</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:40</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a555c0f944c1b69b930b96c21c2f0b3ff"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a555c0f944c1b69b930b96c21c2f0b3ff">EVENT_HAMSTRING</a></div><div class="ttdeci">@ EVENT_HAMSTRING</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:42</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a7794ace87705e2898f8b60f1f5228110"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a7794ace87705e2898f8b60f1f5228110">SPELL_MORTAL_STRIKE</a></div><div class="ttdeci">@ SPELL_MORTAL_STRIKE</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:36</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a99346d181da7e06bc6c08427a2b39880"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a99346d181da7e06bc6c08427a2b39880">SPELL_FRIGHTENING_SHOUT</a></div><div class="ttdeci">@ SPELL_FRIGHTENING_SHOUT</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:37</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a9e64f6e600dd42567d18006912811f75"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a9e64f6e600dd42567d18006912811f75">SAY_SLAY</a></div><div class="ttdeci">@ SAY_SLAY</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:28</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18abde0ca14c874b2c3317dd55732863028"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18abde0ca14c874b2c3317dd55732863028">SAY_ENTER</a></div><div class="ttdeci">@ SAY_ENTER</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:26</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18ac8586005f7f9c20d2a347bde8583cefd"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18ac8586005f7f9c20d2a347bde8583cefd">SAY_SHOUT</a></div><div class="ttdeci">@ SAY_SHOUT</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:30</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18acf31848e308314a00240ce3ef60f0cac"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18acf31848e308314a00240ce3ef60f0cac">SAY_MORTAL</a></div><div class="ttdeci">@ SAY_MORTAL</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:29</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18adbcdc7932b4e3141c4e5fb1a807bc236"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18adbcdc7932b4e3141c4e5fb1a807bc236">EVENT_MORTAL_STRIKE</a></div><div class="ttdeci">@ EVENT_MORTAL_STRIKE</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:41</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18aed3f27157e41ec7644a53b6f9a827801"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18aed3f27157e41ec7644a53b6f9a827801">SPELL_WHIRLWIND</a></div><div class="ttdeci">@ SPELL_WHIRLWIND</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:33</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18aefb7632b415102184ad53e85801175d5"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18aefb7632b415102184ad53e85801175d5">SPELL_EXPLODING_SHOT</a></div><div class="ttdeci">@ SPELL_EXPLODING_SHOT</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:34</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -216,7 +254,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  169</span>{</div>
+<div class="line"><span class="lineno">  170</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/dcd/classboss__lieutenant__drake.html">boss_lieutenant_drake</a>();</div>
+<div class="line"><span class="lineno">  171</span>}</div>
+<div class="ttc" id="aclassboss__lieutenant__drake_html"><div class="ttname"><a href="../../df/dcd/classboss__lieutenant__drake.html">boss_lieutenant_drake</a></div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:47</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -225,7 +267,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ee14a0f6ab8ad29bd27b6821baacc69.html">Kalimdor</a></li><li class="navelem"><a class="el" href="../../dir_5833980719a36b6f6a864b11e72f0bc7.html">CavernsOfTime</a></li><li class="navelem"><a class="el" href="../../dir_b82ba46dd8181098d322eb7aa98764c9.html">EscapeFromDurnholdeKeep</a></li><li class="navelem"><a class="el" href="../../d8/db6/boss__lieutenant__drake_8cpp.html">boss_lieutenant_drake.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:25 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:38 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

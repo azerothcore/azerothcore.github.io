@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d7/d84/class_world_boss_a_i.html','../
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d3/dad/_scripted_creature_8h_source.html">ScriptedCreature.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">ScriptedCreature.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for WorldBossAI:</div>
 <div class="dyncontent">
@@ -518,7 +518,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:adaf99f0a5a2d4993e5408eec175f5e24 inherit pub_static_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dd/d2b/struct_a_i_spell_info_type.html">AISpellInfoType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#adaf99f0a5a2d4993e5408eec175f5e24">AISpellInfo</a></td></tr>
 <tr class="separator:adaf99f0a5a2d4993e5408eec175f5e24 inherit pub_static_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aad7ffc5fb8215f6bf36fe72aef40c9e1" name="aad7ffc5fb8215f6bf36fe72aef40c9e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aad7ffc5fb8215f6bf36fe72aef40c9e1">&#9670;&#160;</a></span>WorldBossAI()</h2>
 
@@ -534,7 +535,14 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  635</span>                                           :</div>
+<div class="line"><span class="lineno">  636</span>    <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature),</div>
+<div class="line"><span class="lineno">  637</span>    <a class="code hl_variable" href="../../d7/d84/class_world_boss_a_i.html#adb0612a97ccab6c817d9fa69b63cfff7">summons</a>(creature)</div>
+<div class="line"><span class="lineno">  638</span>{</div>
+<div class="line"><span class="lineno">  639</span>}</div>
+<div class="ttc" id="aclass_world_boss_a_i_html_adb0612a97ccab6c817d9fa69b63cfff7"><div class="ttname"><a href="../../d7/d84/class_world_boss_a_i.html#adb0612a97ccab6c817d9fa69b63cfff7">WorldBossAI::summons</a></div><div class="ttdeci">SummonList summons</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:490</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2877e6056f3ff51c625d46d5b7d7d008" name="a2877e6056f3ff51c625d46d5b7d7d008"></a>
@@ -559,7 +567,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  467</span>{}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -585,7 +594,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  657</span>{</div>
+<div class="line"><span class="lineno">  658</span>    <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 0.0f, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  659</span>    <span class="keywordflow">if</span> (target)</div>
+<div class="line"><span class="lineno">  660</span>        <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">AttackStart</a>(target);</div>
+<div class="line"><span class="lineno">  661</span>}</div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a4c91d8d2c1a6e8b234c1c4f15936c7a4"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI::AttackStart</a></div><div class="ttdeci">void AttackStart(Unit *) override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:206</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a72e92da9585e41f742ee0ff964340230" name="a72e92da9585e41f742ee0ff964340230"></a>
@@ -610,7 +627,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  651</span>{</div>
+<div class="line"><span class="lineno">  652</span>    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">  653</span>    <a class="code hl_variable" href="../../d7/d84/class_world_boss_a_i.html#adb0612a97ccab6c817d9fa69b63cfff7">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">DespawnAll</a>();</div>
+<div class="line"><span class="lineno">  654</span>}</div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_summon_list_html_a902c1d4535ccdb1b82801547a94151bb"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">SummonList::DespawnAll</a></div><div class="ttdeci">void DespawnAll(uint32 delay=0)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:67</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac11f7b51038891d8e10427ca10aa516c" name="ac11f7b51038891d8e10427ca10aa516c"></a>
@@ -635,7 +658,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  642</span>{</div>
+<div class="line"><span class="lineno">  643</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">  644</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  645</span> </div>
+<div class="line"><span class="lineno">  646</span>    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">  647</span>    <a class="code hl_variable" href="../../d7/d84/class_world_boss_a_i.html#adb0612a97ccab6c817d9fa69b63cfff7">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">DespawnAll</a>();</div>
+<div class="line"><span class="lineno">  648</span>}</div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2cb7b852c57088804011b2d445b811b9" name="a2cb7b852c57088804011b2d445b811b9"></a>
@@ -665,7 +697,9 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../df/d3c/structboss__ysondre_1_1boss__ysondre_a_i.html#a7f01962cd6a78fbe608cfbacf5bf989f">boss_ysondre::boss_ysondreAI</a>, <a class="el" href="../../d4/dd5/structboss__lethon_1_1boss__lethon_a_i.html#a58659ec2e70e157e53b42f5cc79d6404">boss_lethon::boss_lethonAI</a>, <a class="el" href="../../dc/d3d/structboss__emeriss_1_1boss__emeriss_a_i.html#a3c2e2aec49565f46c79203112710c983">boss_emeriss::boss_emerissAI</a>, and <a class="el" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#ab2c2033882758a5cd43e2befa9a551e1">boss_taerar::boss_taerarAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  481</span>{ <a class="code hl_function" href="../../d7/d84/class_world_boss_a_i.html#a67de57af69e3887741d3dcf2e5a3830a">_EnterCombat</a>(); }</div>
+<div class="ttc" id="aclass_world_boss_a_i_html_a67de57af69e3887741d3dcf2e5a3830a"><div class="ttname"><a href="../../d7/d84/class_world_boss_a_i.html#a67de57af69e3887741d3dcf2e5a3830a">WorldBossAI::_EnterCombat</a></div><div class="ttdeci">void _EnterCombat()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:656</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a477e7bc0bcf1ba99d64cffddbfa0c6d2" name="a477e7bc0bcf1ba99d64cffddbfa0c6d2"></a>
@@ -693,7 +727,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../dc/d39/structemerald__dragon_a_i.html#a6e60f146c7b86a119f269bf755831ac6">emerald_dragonAI</a>, <a class="el" href="../../df/d3c/structboss__ysondre_1_1boss__ysondre_a_i.html#a88e3caa536a71730c757590be1bd3de1">boss_ysondre::boss_ysondreAI</a>, <a class="el" href="../../dc/d3d/structboss__emeriss_1_1boss__emeriss_a_i.html#ad3839ad4b0a930bc96154b5b0aab17fe">boss_emeriss::boss_emerissAI</a>, and <a class="el" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a89750136787d549ac4c744a0e3b9239c">boss_taerar::boss_taerarAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  478</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a012c70e390c46b8f326b91014091b3d7" name="a012c70e390c46b8f326b91014091b3d7"></a>
@@ -723,7 +758,9 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#add2712022edbd88504de2dd147a098a0">boss_taerar::boss_taerarAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  482</span>{ <a class="code hl_function" href="../../d7/d84/class_world_boss_a_i.html#a72e92da9585e41f742ee0ff964340230">_JustDied</a>(); }</div>
+<div class="ttc" id="aclass_world_boss_a_i_html_a72e92da9585e41f742ee0ff964340230"><div class="ttname"><a href="../../d7/d84/class_world_boss_a_i.html#a72e92da9585e41f742ee0ff964340230">WorldBossAI::_JustDied</a></div><div class="ttdeci">void _JustDied()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:650</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa783665ce6e43e76a18515f511f82efb" name="aa783665ce6e43e76a18515f511f82efb"></a>
@@ -753,7 +790,16 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a1625d27c60b9833cc9bdebffb80833cb">ScriptedAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../dc/d39/structemerald__dragon_a_i.html#a4ec04284cdebfc5b594e083aa850f7cb">emerald_dragonAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  664</span>{</div>
+<div class="line"><span class="lineno">  665</span>    <a class="code hl_variable" href="../../d7/d84/class_world_boss_a_i.html#adb0612a97ccab6c817d9fa69b63cfff7">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a4b10347a4407bb6351230423019d9786">Summon</a>(summon);</div>
+<div class="line"><span class="lineno">  666</span>    <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 0.0f, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  667</span>    <span class="keywordflow">if</span> (target)</div>
+<div class="line"><span class="lineno">  668</span>        summon-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">AttackStart</a>(target);</div>
+<div class="line"><span class="lineno">  669</span>}</div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_summon_list_html_a4b10347a4407bb6351230423019d9786"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a4b10347a4407bb6351230423019d9786">SummonList::Summon</a></div><div class="ttdeci">void Summon(Creature const *summon)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:89</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_ae120634c255d365f1567e341e2cf1feb"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">UnitAI::AttackStart</a></div><div class="ttdeci">virtual void AttackStart(Unit *)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad19a91bf2344f531e01db07efd04c395" name="ad19a91bf2344f531e01db07efd04c395"></a>
@@ -782,7 +828,9 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../dc/d39/structemerald__dragon_a_i.html#aff24939b53a7d74b41ac9170a8a71e9c">emerald_dragonAI</a>, <a class="el" href="../../df/d3c/structboss__ysondre_1_1boss__ysondre_a_i.html#ac2ea95a5f8c032d7d9166d92bce51ba1">boss_ysondre::boss_ysondreAI</a>, <a class="el" href="../../d4/dd5/structboss__lethon_1_1boss__lethon_a_i.html#a0e53d139f64d104557e157a91176a47a">boss_lethon::boss_lethonAI</a>, <a class="el" href="../../dc/d3d/structboss__emeriss_1_1boss__emeriss_a_i.html#a44dfb325c4e8413662052137edc710ef">boss_emeriss::boss_emerissAI</a>, and <a class="el" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a74a53b7c4672bcba1cc4f69407c23c42">boss_taerar::boss_taerarAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  480</span>{ <a class="code hl_function" href="../../d7/d84/class_world_boss_a_i.html#ac11f7b51038891d8e10427ca10aa516c">_Reset</a>(); }</div>
+<div class="ttc" id="aclass_world_boss_a_i_html_ac11f7b51038891d8e10427ca10aa516c"><div class="ttname"><a href="../../d7/d84/class_world_boss_a_i.html#ac11f7b51038891d8e10427ca10aa516c">WorldBossAI::_Reset</a></div><div class="ttdeci">void _Reset()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:641</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af7a1e062b13d997def99c077a79cd12f" name="af7a1e062b13d997def99c077a79cd12f"></a>
@@ -810,7 +858,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a36dac2235051431e12efb9ea595f2902">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  672</span>{</div>
+<div class="line"><span class="lineno">  673</span>    <a class="code hl_variable" href="../../d7/d84/class_world_boss_a_i.html#adb0612a97ccab6c817d9fa69b63cfff7">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a2022b190043330dce78fdd60a15670a7">Despawn</a>(summon);</div>
+<div class="line"><span class="lineno">  674</span>}</div>
+<div class="ttc" id="aclass_summon_list_html_a2022b190043330dce78fdd60a15670a7"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a2022b190043330dce78fdd60a15670a7">SummonList::Despawn</a></div><div class="ttdeci">void Despawn(Creature const *summon)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:90</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a31686947c399d780ea5220dae5e4820b" name="a31686947c399d780ea5220dae5e4820b"></a>
@@ -840,7 +892,27 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../dc/d39/structemerald__dragon_a_i.html#a221768f9ad3c79bbcdefd3092228e3b0">emerald_dragonAI</a>, and <a class="el" href="../../de/d69/structboss__taerar_1_1boss__taerar_a_i.html#a406213e6b3a1397c0026d5dc857f08a9">boss_taerar::boss_taerarAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  677</span>{</div>
+<div class="line"><span class="lineno">  678</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  679</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  680</span> </div>
+<div class="line"><span class="lineno">  681</span>    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  682</span> </div>
+<div class="line"><span class="lineno">  683</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">  684</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  685</span> </div>
+<div class="line"><span class="lineno">  686</span>    <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventId = <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">  687</span>        <a class="code hl_function" href="../../d7/d84/class_world_boss_a_i.html#a477e7bc0bcf1ba99d64cffddbfa0c6d2">ExecuteEvent</a>(eventId);</div>
+<div class="line"><span class="lineno">  688</span> </div>
+<div class="line"><span class="lineno">  689</span>    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  690</span>}</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="aclass_world_boss_a_i_html_a477e7bc0bcf1ba99d64cffddbfa0c6d2"><div class="ttname"><a href="../../d7/d84/class_world_boss_a_i.html#a477e7bc0bcf1ba99d64cffddbfa0c6d2">WorldBossAI::ExecuteEvent</a></div><div class="ttdeci">virtual void ExecuteEvent(uint32)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:478</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -889,8 +961,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/AI/ScriptedAI/<a class="el" href="../../d3/dad/_scripted_creature_8h_source.html">ScriptedCreature.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/AI/ScriptedAI/<a class="el" href="../../d4/d43/_scripted_creature_8cpp.html">ScriptedCreature.cpp</a></li>
+<li><a class="el" href="../../">ScriptedCreature.h</a></li>
+<li><a class="el" href="../../">ScriptedCreature.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -898,7 +970,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d84/class_world_boss_a_i.html">WorldBossAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:30 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

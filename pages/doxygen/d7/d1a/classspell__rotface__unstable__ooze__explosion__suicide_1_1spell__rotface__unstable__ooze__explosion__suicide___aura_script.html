@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a5345a03dcd239786fd52a19749b86a62" name="a5345a03dcd239786fd52a19749b86a62"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5345a03dcd239786fd52a19749b86a62">&#9670;&#160;</a></span>DespawnSelf()</h2>
 
@@ -326,7 +327,27 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  850</span>        {</div>
+<div class="line"><span class="lineno">  851</span>            <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">PreventDefaultAction</a>();</div>
+<div class="line"><span class="lineno">  852</span>            <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>();</div>
+<div class="line"><span class="lineno">  853</span>            <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>)</div>
+<div class="line"><span class="lineno">  854</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  855</span> </div>
+<div class="line"><span class="lineno">  856</span>            target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a08f6c21ed1d05cf54e8351b80e152c90">SetVisible</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  857</span>            target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aca967faa985dbe4062dd23360cdb607c">RemoveAllAuras</a>();</div>
+<div class="line"><span class="lineno">  858</span>            <span class="comment">//target-&gt;ToCreature()-&gt;DespawnOrUnsummon();</span></div>
+<div class="line"><span class="lineno">  859</span>            target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(60000);</div>
+<div class="line"><span class="lineno">  860</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
+<div class="ttc" id="aclass_aura_script_html_a19e0ed231d33245849ef31acb0f2bca3"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">AuraScript::PreventDefaultAction</a></div><div class="ttdeci">void PreventDefaultAction()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:975</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_object_html_ab0e2ef1ac1daa91476f749e0ec6ad3c6"><div class="ttname"><a href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">Object::ToCreature</a></div><div class="ttdeci">Creature * ToCreature()</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a08f6c21ed1d05cf54e8351b80e152c90"><div class="ttname"><a href="../../da/db7/class_unit.html#a08f6c21ed1d05cf54e8351b80e152c90">Unit::SetVisible</a></div><div class="ttdeci">void SetVisible(bool x)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14117</div></div>
+<div class="ttc" id="aclass_unit_html_aca967faa985dbe4062dd23360cdb607c"><div class="ttname"><a href="../../da/db7/class_unit.html#aca967faa985dbe4062dd23360cdb607c">Unit::RemoveAllAuras</a></div><div class="ttdeci">void RemoveAllAuras()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5227</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7c2d322d08514b993569bf6852494c05" name="a7c2d322d08514b993569bf6852494c05"></a>
@@ -379,11 +400,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  863</span>        {</div>
+<div class="line"><span class="lineno">  864</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a>(<a class="code hl_function" href="../../d7/d1a/classspell__rotface__unstable__ooze__explosion__suicide_1_1spell__rotface__unstable__ooze__explosion__suicide___aura_script.html#a5345a03dcd239786fd52a19749b86a62">spell_rotface_unstable_ooze_explosion_suicide_AuraScript::DespawnSelf</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1">EFFECT_2</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a>);</div>
+<div class="line"><span class="lineno">  865</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1">EFFECT_2</a></div><div class="ttdeci">@ EFFECT_2</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:32</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_TRIGGER_SPELL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:86</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a63dd33eaa91292bfb53b1d9f2b0eba29"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a></div><div class="ttdeci">#define AuraEffectPeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:750</div></div>
+<div class="ttc" id="aclass_aura_script_html_a491e7fc0a1acd202b60fa1aed79a9377"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">AuraScript::OnEffectPeriodic</a></div><div class="ttdeci">HookList&lt; EffectPeriodicHandler &gt; OnEffectPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:749</div></div>
+<div class="ttc" id="aclassspell__rotface__unstable__ooze__explosion__suicide_1_1spell__rotface__unstable__ooze__explosion__suicide___aura_script_html_a5345a03dcd239786fd52a19749b86a62"><div class="ttname"><a href="../../d7/d1a/classspell__rotface__unstable__ooze__explosion__suicide_1_1spell__rotface__unstable__ooze__explosion__suicide___aura_script.html#a5345a03dcd239786fd52a19749b86a62">spell_rotface_unstable_ooze_explosion_suicide::spell_rotface_unstable_ooze_explosion_suicide_AuraScript::DespawnSelf</a></div><div class="ttdeci">void DespawnSelf(AuraEffect const *)</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:849</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../d7/d2b/boss__rotface_8cpp.html">boss_rotface.cpp</a></li>
+<li><a class="el" href="../../">boss_rotface.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -391,7 +420,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/db4/classspell__rotface__unstable__ooze__explosion__suicide.html">spell_rotface_unstable_ooze_explosion_suicide</a></li><li class="navelem"><a class="el" href="../../d7/d1a/classspell__rotface__unstable__ooze__explosion__suicide_1_1spell__rotface__unstable__ooze__explosion__suicide___aura_script.html">spell_rotface_unstable_ooze_explosion_suicide_AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:24 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

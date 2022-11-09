@@ -493,7 +493,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0d15c62bead7a4da3c8a8abd0b2ee612" name="a0d15c62bead7a4da3c8a8abd0b2ee612"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d15c62bead7a4da3c8a8abd0b2ee612">&#9670;&#160;</a></span>npc_shambling_horror_iccAI()</h2>
 
@@ -517,7 +518,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1811</span>                                                       : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno"> 1812</span>        {</div>
+<div class="line"><span class="lineno"> 1813</span>            <a class="code hl_variable" href="../../d8/df3/structnpc__shambling__horror__icc_1_1npc__shambling__horror__icc_a_i.html#a34347cbecea4c6f538345b7285e8f1c0">_frenzied</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1814</span>        }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astructnpc__shambling__horror__icc_1_1npc__shambling__horror__icc_a_i_html_a34347cbecea4c6f538345b7285e8f1c0"><div class="ttname"><a href="../../d8/df3/structnpc__shambling__horror__icc_1_1npc__shambling__horror__icc_a_i.html#a34347cbecea4c6f538345b7285e8f1c0">npc_shambling_horror_icc::npc_shambling_horror_iccAI::_frenzied</a></div><div class="ttdeci">bool _frenzied</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:1817</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -546,7 +553,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a5a2ee2c8c34726e0dd7d2e7a25047690">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1863</span>        {</div>
+<div class="line"><span class="lineno"> 1864</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="../../da/d78/boss__the__lich__king_8cpp.html#a8f35686a1928770ef6a57ed8f217845b">IsValidPlatformTarget</a>(target) &amp;&amp; !target-&gt;GetVehicle();</div>
+<div class="line"><span class="lineno"> 1865</span>        }</div>
+<div class="ttc" id="aboss__the__lich__king_8cpp_html_a8f35686a1928770ef6a57ed8f217845b"><div class="ttname"><a href="../../da/d78/boss__the__lich__king_8cpp.html#a8f35686a1928770ef6a57ed8f217845b">IsValidPlatformTarget</a></div><div class="ttdeci">bool IsValidPlatformTarget(Unit const *target)</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:358</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aed90f2c487c28190c7af630f4ea2fa13" name="aed90f2c487c28190c7af630f4ea2fa13"></a>
@@ -596,7 +607,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1827</span>        {</div>
+<div class="line"><span class="lineno"> 1828</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d8/df3/structnpc__shambling__horror__icc_1_1npc__shambling__horror__icc_a_i.html#a34347cbecea4c6f538345b7285e8f1c0">_frenzied</a> &amp;&amp; <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a14abf83c60abf99df6186e0247ce20bd">IsHeroic</a>() &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">HealthBelowPctDamaged</a>(20, damage))</div>
+<div class="line"><span class="lineno"> 1829</span>            {</div>
+<div class="line"><span class="lineno"> 1830</span>                <a class="code hl_variable" href="../../d8/df3/structnpc__shambling__horror__icc_1_1npc__shambling__horror__icc_a_i.html#a34347cbecea4c6f538345b7285e8f1c0">_frenzied</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1831</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298cab54f261ba282273bed875abe6642a293">SPELL_FRENZY</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1832</span>            }</div>
+<div class="line"><span class="lineno"> 1833</span>        }</div>
+<div class="ttc" id="aboss__the__lich__king_8cpp_html_a5bd342133be8c2137b831460acc9298cab54f261ba282273bed875abe6642a293"><div class="ttname"><a href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298cab54f261ba282273bed875abe6642a293">SPELL_FRENZY</a></div><div class="ttdeci">@ SPELL_FRENZY</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:183</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_ad08665e79b8df4fd5339b05ae1538dd9"><div class="ttname"><a href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">Unit::HealthBelowPctDamaged</a></div><div class="ttdeci">bool HealthBelowPctDamaged(int32 pct, uint32 damage) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1443</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a14abf83c60abf99df6186e0247ce20bd"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a14abf83c60abf99df6186e0247ce20bd">ScriptedAI::IsHeroic</a></div><div class="ttdeci">bool IsHeroic() const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:355</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac5bab3d9f360e4e00dcab9abc3799865" name="ac5bab3d9f360e4e00dcab9abc3799865"></a>
@@ -623,7 +646,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1820</span>        {</div>
+<div class="line"><span class="lineno"> 1821</span>            <a class="code hl_variable" href="../../d8/df3/structnpc__shambling__horror__icc_1_1npc__shambling__horror__icc_a_i.html#af12b65fe4f77e8b2d3f5c87379dd69d2">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#afd6b5b23aa26797b6de1275c70268808">Reset</a>();</div>
+<div class="line"><span class="lineno"> 1822</span>            <a class="code hl_variable" href="../../d8/df3/structnpc__shambling__horror__icc_1_1npc__shambling__horror__icc_a_i.html#af12b65fe4f77e8b2d3f5c87379dd69d2">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ade40d104ed3268809acfe5d537a6828d">EVENT_SHOCKWAVE</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(20000, 25000));</div>
+<div class="line"><span class="lineno"> 1823</span>            <a class="code hl_variable" href="../../d8/df3/structnpc__shambling__horror__icc_1_1npc__shambling__horror__icc_a_i.html#af12b65fe4f77e8b2d3f5c87379dd69d2">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a470d03afa22c989a62d65ba1ce60863b">EVENT_ENRAGE</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(11000, 14000));</div>
+<div class="line"><span class="lineno"> 1824</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__the__lich__king_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a470d03afa22c989a62d65ba1ce60863b"><div class="ttname"><a href="../../da/d78/boss__the__lich__king_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a470d03afa22c989a62d65ba1ce60863b">EVENT_ENRAGE</a></div><div class="ttdeci">@ EVENT_ENRAGE</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:261</div></div>
+<div class="ttc" id="aboss__the__lich__king_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ade40d104ed3268809acfe5d537a6828d"><div class="ttname"><a href="../../da/d78/boss__the__lich__king_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ade40d104ed3268809acfe5d537a6828d">EVENT_SHOCKWAVE</a></div><div class="ttdeci">@ EVENT_SHOCKWAVE</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:260</div></div>
+<div class="ttc" id="aclass_event_map_html_a5e6081bda8828001c0ed8677b2aecd65"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">EventMap::ScheduleEvent</a></div><div class="ttdeci">void ScheduleEvent(uint32 eventId, uint32 time, uint32 group=0, uint32 phase=0)</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:56</div></div>
+<div class="ttc" id="aclass_event_map_html_afd6b5b23aa26797b6de1275c70268808"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#afd6b5b23aa26797b6de1275c70268808">EventMap::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:21</div></div>
+<div class="ttc" id="astructnpc__shambling__horror__icc_1_1npc__shambling__horror__icc_a_i_html_af12b65fe4f77e8b2d3f5c87379dd69d2"><div class="ttname"><a href="../../d8/df3/structnpc__shambling__horror__icc_1_1npc__shambling__horror__icc_a_i.html#af12b65fe4f77e8b2d3f5c87379dd69d2">npc_shambling_horror_icc::npc_shambling_horror_iccAI::_events</a></div><div class="ttdeci">EventMap _events</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:1816</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abae6058591022057e93d48da3db1b8bc" name="abae6058591022057e93d48da3db1b8bc"></a>
@@ -651,7 +685,41 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1836</span>        {</div>
+<div class="line"><span class="lineno"> 1837</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno"> 1838</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1839</span> </div>
+<div class="line"><span class="lineno"> 1840</span>            <a class="code hl_variable" href="../../d8/df3/structnpc__shambling__horror__icc_1_1npc__shambling__horror__icc_a_i.html#af12b65fe4f77e8b2d3f5c87379dd69d2">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">Update</a>(diff);</div>
+<div class="line"><span class="lineno"> 1841</span> </div>
+<div class="line"><span class="lineno"> 1842</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno"> 1843</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1844</span> </div>
+<div class="line"><span class="lineno"> 1845</span>            <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d8/df3/structnpc__shambling__horror__icc_1_1npc__shambling__horror__icc_a_i.html#af12b65fe4f77e8b2d3f5c87379dd69d2">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">ExecuteEvent</a>())</div>
+<div class="line"><span class="lineno"> 1846</span>            {</div>
+<div class="line"><span class="lineno"> 1847</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ade40d104ed3268809acfe5d537a6828d">EVENT_SHOCKWAVE</a>:</div>
+<div class="line"><span class="lineno"> 1848</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298cab65c3dc8c71f1173faf3f05d85be33bf">SPELL_SHOCKWAVE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 1849</span>                    <a class="code hl_variable" href="../../d8/df3/structnpc__shambling__horror__icc_1_1npc__shambling__horror__icc_a_i.html#af12b65fe4f77e8b2d3f5c87379dd69d2">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ade40d104ed3268809acfe5d537a6828d">EVENT_SHOCKWAVE</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(20000, 25000));</div>
+<div class="line"><span class="lineno"> 1850</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1851</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a470d03afa22c989a62d65ba1ce60863b">EVENT_ENRAGE</a>:</div>
+<div class="line"><span class="lineno"> 1852</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298ca2a20f56307679be4d4f01a0d3d93cc7e">SPELL_ENRAGE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 1853</span>                    <a class="code hl_variable" href="../../d8/df3/structnpc__shambling__horror__icc_1_1npc__shambling__horror__icc_a_i.html#af12b65fe4f77e8b2d3f5c87379dd69d2">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a470d03afa22c989a62d65ba1ce60863b">EVENT_ENRAGE</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(20000, 25000));</div>
+<div class="line"><span class="lineno"> 1854</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1855</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1856</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1857</span>            }</div>
+<div class="line"><span class="lineno"> 1858</span> </div>
+<div class="line"><span class="lineno"> 1859</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno"> 1860</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__the__lich__king_8cpp_html_a5bd342133be8c2137b831460acc9298ca2a20f56307679be4d4f01a0d3d93cc7e"><div class="ttname"><a href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298ca2a20f56307679be4d4f01a0d3d93cc7e">SPELL_ENRAGE</a></div><div class="ttdeci">@ SPELL_ENRAGE</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:182</div></div>
+<div class="ttc" id="aboss__the__lich__king_8cpp_html_a5bd342133be8c2137b831460acc9298cab65c3dc8c71f1173faf3f05d85be33bf"><div class="ttname"><a href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298cab65c3dc8c71f1173faf3f05d85be33bf">SPELL_SHOCKWAVE</a></div><div class="ttdeci">@ SPELL_SHOCKWAVE</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:181</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_event_map_html_a07764662d7571ae0e1c44203d189ba44"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">EventMap::ExecuteEvent</a></div><div class="ttdeci">uint32 ExecuteEvent()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:114</div></div>
+<div class="ttc" id="aclass_event_map_html_a33ba1058edd639c98258ba3e123ac2f9"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">EventMap::Update</a></div><div class="ttdeci">void Update(uint32 time)</div><div class="ttdef"><b>Definition:</b> EventMap.h:54</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -684,7 +752,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../da/d78/boss__the__lich__king_8cpp.html">boss_the_lich_king.cpp</a></li>
+<li><a class="el" href="../../">boss_the_lich_king.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -692,7 +760,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d5b/classnpc__shambling__horror__icc.html">npc_shambling_horror_icc</a></li><li class="navelem"><a class="el" href="../../d8/df3/structnpc__shambling__horror__icc_1_1npc__shambling__horror__icc_a_i.html">npc_shambling_horror_iccAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:53 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:09 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

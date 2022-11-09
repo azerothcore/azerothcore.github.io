@@ -306,7 +306,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac3145df90b6b179fece1c76da114e395" name="ac3145df90b6b179fece1c76da114e395"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3145df90b6b179fece1c76da114e395">&#9670;&#160;</a></span>Apply()</h2>
 
@@ -340,7 +341,30 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  594</span>    {</div>
+<div class="line"><span class="lineno">  595</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>())</div>
+<div class="line"><span class="lineno">  596</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  597</span>        <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* owner = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a3bd4bddb1a2ef1b1aaf427576b78a683">GetCharmerOrOwnerPlayerOrPlayerItself</a>();</div>
+<div class="line"><span class="lineno">  598</span>        <span class="keywordflow">if</span> (!owner)</div>
+<div class="line"><span class="lineno">  599</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  600</span>        <span class="comment">// Storm, Earth and Fire</span></div>
+<div class="line"><span class="lineno">  601</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/df1/class_aura_effect.html">AuraEffect</a>* aurEff = owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9a5d1b838ff5996c29f34026c2bd4758">GetAuraEffectOfRankedSpell</a>(<a class="code hl_enumvalue" href="../../df/dd5/spell__shaman_8cpp.html#aa87108001ed3860c7adcb67ee9e52019ab7a6e3e33f811c9d9d85285a1e7e0d60">SPELL_SHAMAN_STORM_EARTH_AND_FIRE</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>))</div>
+<div class="line"><span class="lineno">  602</span>        {</div>
+<div class="line"><span class="lineno">  603</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a>(aurEff-&gt;GetAmount()))</div>
+<div class="line"><span class="lineno">  604</span>                <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>(), <a class="code hl_enumvalue" href="../../df/dd5/spell__shaman_8cpp.html#aa87108001ed3860c7adcb67ee9e52019a04c3dfea37fa8eeb0af97d7cd6e499a2">SPELL_SHAMAN_TOTEM_EARTHBIND_EARTHGRAB</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  605</span>        }</div>
+<div class="line"><span class="lineno">  606</span>    }</div>
+<div class="ttc" id="a_random_8h_html_a50320d4edff86db31b25138ae72161ad"><div class="ttname"><a href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a></div><div class="ttdeci">bool roll_chance_i(int chance)</div><div class="ttdef"><b>Definition:</b> Random.h:59</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a></div><div class="ttdeci">@ EFFECT_1</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:31</div></div>
+<div class="ttc" id="aclass_aura_effect_html"><div class="ttname"><a href="../../da/df1/class_aura_effect.html">AuraEffect</a></div><div class="ttdef"><b>Definition:</b> SpellAuraEffects.h:39</div></div>
+<div class="ttc" id="aclass_aura_script_html_a67261dcb8b5f6089bdc1a906c91d61df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">AuraScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1010</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_html_a3bd4bddb1a2ef1b1aaf427576b78a683"><div class="ttname"><a href="../../da/db7/class_unit.html#a3bd4bddb1a2ef1b1aaf427576b78a683">Unit::GetCharmerOrOwnerPlayerOrPlayerItself</a></div><div class="ttdeci">Player * GetCharmerOrOwnerPlayerOrPlayerItself() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10564</div></div>
+<div class="ttc" id="aclass_unit_html_a9a5d1b838ff5996c29f34026c2bd4758"><div class="ttname"><a href="../../da/db7/class_unit.html#a9a5d1b838ff5996c29f34026c2bd4758">Unit::GetAuraEffectOfRankedSpell</a></div><div class="ttdeci">AuraEffect * GetAuraEffectOfRankedSpell(uint32 spellId, uint8 effIndex, ObjectGuid casterGUID=ObjectGuid::Empty) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5414</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aspell__shaman_8cpp_html_aa87108001ed3860c7adcb67ee9e52019a04c3dfea37fa8eeb0af97d7cd6e499a2"><div class="ttname"><a href="../../df/dd5/spell__shaman_8cpp.html#aa87108001ed3860c7adcb67ee9e52019a04c3dfea37fa8eeb0af97d7cd6e499a2">SPELL_SHAMAN_TOTEM_EARTHBIND_EARTHGRAB</a></div><div class="ttdeci">@ SPELL_SHAMAN_TOTEM_EARTHBIND_EARTHGRAB</div><div class="ttdef"><b>Definition:</b> spell_shaman.cpp:56</div></div>
+<div class="ttc" id="aspell__shaman_8cpp_html_aa87108001ed3860c7adcb67ee9e52019ab7a6e3e33f811c9d9d85285a1e7e0d60"><div class="ttname"><a href="../../df/dd5/spell__shaman_8cpp.html#aa87108001ed3860c7adcb67ee9e52019ab7a6e3e33f811c9d9d85285a1e7e0d60">SPELL_SHAMAN_STORM_EARTH_AND_FIRE</a></div><div class="ttdeci">@ SPELL_SHAMAN_STORM_EARTH_AND_FIRE</div><div class="ttdef"><b>Definition:</b> spell_shaman.cpp:55</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a480dd240981f91666e25ea2f1f73e4d7" name="a480dd240981f91666e25ea2f1f73e4d7"></a>
@@ -366,7 +390,19 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  584</span>    {</div>
+<div class="line"><span class="lineno">  585</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>())</div>
+<div class="line"><span class="lineno">  586</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  587</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* owner = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>()-&gt;GetCharmerOrOwnerPlayerOrPlayerItself())</div>
+<div class="line"><span class="lineno">  588</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/df1/class_aura_effect.html">AuraEffect</a>* aur = owner-&gt;GetDummyAuraEffect(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a9264ae6b0ef1b61a6eeb7fdac9fbab1ba9c8a9c6e102c760263471a93e58e80ea">SPELLFAMILY_SHAMAN</a>, 2289, 0))</div>
+<div class="line"><span class="lineno">  589</span>                <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a>(aur-&gt;GetBaseAmount()))</div>
+<div class="line"><span class="lineno">  590</span>                    <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>((<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>*)<span class="keyword">nullptr</span>, <a class="code hl_enumvalue" href="../../df/dd5/spell__shaman_8cpp.html#aa87108001ed3860c7adcb67ee9e52019ab3f8d2e2ded26eb9e6ebcecb9442649e">SPELL_SHAMAN_TOTEM_EARTHEN_POWER</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  591</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a9264ae6b0ef1b61a6eeb7fdac9fbab1ba9c8a9c6e102c760263471a93e58e80ea"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a9264ae6b0ef1b61a6eeb7fdac9fbab1ba9c8a9c6e102c760263471a93e58e80ea">SPELLFAMILY_SHAMAN</a></div><div class="ttdeci">@ SPELLFAMILY_SHAMAN</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3511</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aspell__shaman_8cpp_html_aa87108001ed3860c7adcb67ee9e52019ab3f8d2e2ded26eb9e6ebcecb9442649e"><div class="ttname"><a href="../../df/dd5/spell__shaman_8cpp.html#aa87108001ed3860c7adcb67ee9e52019ab3f8d2e2ded26eb9e6ebcecb9442649e">SPELL_SHAMAN_TOTEM_EARTHEN_POWER</a></div><div class="ttdeci">@ SPELL_SHAMAN_TOTEM_EARTHEN_POWER</div><div class="ttdef"><b>Definition:</b> spell_shaman.cpp:58</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa911ba0b5a13a933bf50a072799a040f" name="aa911ba0b5a13a933bf50a072799a040f"></a>
@@ -419,7 +455,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  609</span>    {</div>
+<div class="line"><span class="lineno">  610</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a>(<a class="code hl_function" href="../../d0/d4f/classspell__sha__earthbind__totem.html#a480dd240981f91666e25ea2f1f73e4d7">spell_sha_earthbind_totem::HandleEffectPeriodic</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a>);</div>
+<div class="line"><span class="lineno">  611</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#af325738f50fb9df450999e5e04ea65ed">OnEffectApply</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a>(<a class="code hl_function" href="../../d0/d4f/classspell__sha__earthbind__totem.html#ac3145df90b6b179fece1c76da114e395">spell_sha_earthbind_totem::Apply</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno">  612</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_TRIGGER_SPELL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:86</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:42</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a63dd33eaa91292bfb53b1d9f2b0eba29"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a></div><div class="ttdeci">#define AuraEffectPeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:750</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ac47070c5a13a5436cc5d204a1445c993"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a></div><div class="ttdeci">#define AuraEffectApplyFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:733</div></div>
+<div class="ttc" id="aclass_aura_script_html_a491e7fc0a1acd202b60fa1aed79a9377"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">AuraScript::OnEffectPeriodic</a></div><div class="ttdeci">HookList&lt; EffectPeriodicHandler &gt; OnEffectPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:749</div></div>
+<div class="ttc" id="aclass_aura_script_html_af325738f50fb9df450999e5e04ea65ed"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#af325738f50fb9df450999e5e04ea65ed">AuraScript::OnEffectApply</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; OnEffectApply</div><div class="ttdef"><b>Definition:</b> SpellScript.h:728</div></div>
+<div class="ttc" id="aclassspell__sha__earthbind__totem_html_a480dd240981f91666e25ea2f1f73e4d7"><div class="ttname"><a href="../../d0/d4f/classspell__sha__earthbind__totem.html#a480dd240981f91666e25ea2f1f73e4d7">spell_sha_earthbind_totem::HandleEffectPeriodic</a></div><div class="ttdeci">void HandleEffectPeriodic(AuraEffect const *)</div><div class="ttdef"><b>Definition:</b> spell_shaman.cpp:583</div></div>
+<div class="ttc" id="aclassspell__sha__earthbind__totem_html_ac3145df90b6b179fece1c76da114e395"><div class="ttname"><a href="../../d0/d4f/classspell__sha__earthbind__totem.html#ac3145df90b6b179fece1c76da114e395">spell_sha_earthbind_totem::Apply</a></div><div class="ttdeci">void Apply(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> spell_shaman.cpp:593</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad81184b508474a89fbafc63594ef0ab1" name="ad81184b508474a89fbafc63594ef0ab1"></a>
@@ -447,11 +496,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  579</span>    {</div>
+<div class="line"><span class="lineno">  580</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>({ <a class="code hl_enumvalue" href="../../df/dd5/spell__shaman_8cpp.html#aa87108001ed3860c7adcb67ee9e52019a4709b8c9c037c648bb265d2f7695f4e7">SPELL_SHAMAN_TOTEM_EARTHBIND_TOTEM</a>, <a class="code hl_enumvalue" href="../../df/dd5/spell__shaman_8cpp.html#aa87108001ed3860c7adcb67ee9e52019ab3f8d2e2ded26eb9e6ebcecb9442649e">SPELL_SHAMAN_TOTEM_EARTHEN_POWER</a> });</div>
+<div class="line"><span class="lineno">  581</span>    }</div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+<div class="ttc" id="aspell__shaman_8cpp_html_aa87108001ed3860c7adcb67ee9e52019a4709b8c9c037c648bb265d2f7695f4e7"><div class="ttname"><a href="../../df/dd5/spell__shaman_8cpp.html#aa87108001ed3860c7adcb67ee9e52019a4709b8c9c037c648bb265d2f7695f4e7">SPELL_SHAMAN_TOTEM_EARTHBIND_TOTEM</a></div><div class="ttdeci">@ SPELL_SHAMAN_TOTEM_EARTHBIND_TOTEM</div><div class="ttdef"><b>Definition:</b> spell_shaman.cpp:57</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../df/dd5/spell__shaman_8cpp.html">spell_shaman.cpp</a></li>
+<li><a class="el" href="../../">spell_shaman.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -459,7 +513,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d4f/classspell__sha__earthbind__totem.html">spell_sha_earthbind_totem</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:25 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

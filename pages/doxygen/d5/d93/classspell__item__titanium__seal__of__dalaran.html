@@ -290,7 +290,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a9137654c01f41c735f477b85e4ec6d73" name="a9137654c01f41c735f477b85e4ec6d73"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9137654c01f41c735f477b85e4ec6d73">&#9670;&#160;</a></span>PrepareSpellScript()</h2>
 
@@ -314,7 +315,40 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   70</span>    {</div>
+<div class="line"><span class="lineno">   71</span>        <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">PreventHitDefaultEffect</a>(effIndex);</div>
+<div class="line"><span class="lineno">   72</span> </div>
+<div class="line"><span class="lineno">   73</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno">   74</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno">   75</span>        {</div>
+<div class="line"><span class="lineno">   76</span>            <a class="code hl_enumeration" href="../../db/d1f/_common_8h.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> loc_idx = player-&gt;GetSession()-&gt;GetSessionDbLocaleIndex();</div>
+<div class="line"><span class="lineno">   77</span>            <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d0/d3b/struct_broadcast_text.html">BroadcastText</a> <span class="keyword">const</span>* bct = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetBroadcastText(<a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a07c8a9f10fb70a104c556d78659c2ae6a562cc88fc3b360d4f8c546663c7cd37a">TITANIUM_SEAL_OF_DALARAN_BROADCAST_TEXT_ID_FLIP</a>))</div>
+<div class="line"><span class="lineno">   78</span>                player-&gt;TextEmote(bct-&gt;GetText(loc_idx, player-&gt;getGender()));</div>
+<div class="line"><span class="lineno">   79</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 1))</div>
+<div class="line"><span class="lineno">   80</span>            {</div>
+<div class="line"><span class="lineno">   81</span>                <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d0/d3b/struct_broadcast_text.html">BroadcastText</a> <span class="keyword">const</span>* bct = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetBroadcastText(<a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a07c8a9f10fb70a104c556d78659c2ae6abb9006e229c5372620d863e09c647042">TITANIUM_SEAL_OF_DALARAN_BROADCAST_TEXT_ID_FACE_DOWN</a>))</div>
+<div class="line"><span class="lineno">   82</span>                    player-&gt;TextEmote(bct-&gt;GetText(loc_idx, player-&gt;getGender()));</div>
+<div class="line"><span class="lineno">   83</span>            }</div>
+<div class="line"><span class="lineno">   84</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   85</span>            {</div>
+<div class="line"><span class="lineno">   86</span>                <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d0/d3b/struct_broadcast_text.html">BroadcastText</a> <span class="keyword">const</span>* bct = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetBroadcastText(<a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a07c8a9f10fb70a104c556d78659c2ae6a74eeeaafa7ca82412a9678412ba72c06">TITANIUM_SEAL_OF_DALARAN_BROADCAST_TEXT_ID_HEADS_UP</a>))</div>
+<div class="line"><span class="lineno">   87</span>                    player-&gt;TextEmote(bct-&gt;GetText(loc_idx, player-&gt;getGender()));</div>
+<div class="line"><span class="lineno">   88</span>            }</div>
+<div class="line"><span class="lineno">   89</span>        }</div>
+<div class="line"><span class="lineno">   90</span>    }</div>
+<div class="ttc" id="a_common_8h_html_a54c9b637be7283ba1a04fb5215594332"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a></div><div class="ttdeci">LocaleConstant</div><div class="ttdef"><b>Definition:</b> Common.h:74</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1606</div></div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_spell_script_html_a56ed3ad5cf4ebc848946a9d8f1c35d5f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">SpellScript::PreventHitDefaultEffect</a></div><div class="ttdeci">void PreventHitDefaultEffect(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:590</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a07c8a9f10fb70a104c556d78659c2ae6a562cc88fc3b360d4f8c546663c7cd37a"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a07c8a9f10fb70a104c556d78659c2ae6a562cc88fc3b360d4f8c546663c7cd37a">TITANIUM_SEAL_OF_DALARAN_BROADCAST_TEXT_ID_FLIP</a></div><div class="ttdeci">@ TITANIUM_SEAL_OF_DALARAN_BROADCAST_TEXT_ID_FLIP</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:60</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a07c8a9f10fb70a104c556d78659c2ae6a74eeeaafa7ca82412a9678412ba72c06"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a07c8a9f10fb70a104c556d78659c2ae6a74eeeaafa7ca82412a9678412ba72c06">TITANIUM_SEAL_OF_DALARAN_BROADCAST_TEXT_ID_HEADS_UP</a></div><div class="ttdeci">@ TITANIUM_SEAL_OF_DALARAN_BROADCAST_TEXT_ID_HEADS_UP</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:61</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a07c8a9f10fb70a104c556d78659c2ae6abb9006e229c5372620d863e09c647042"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a07c8a9f10fb70a104c556d78659c2ae6abb9006e229c5372620d863e09c647042">TITANIUM_SEAL_OF_DALARAN_BROADCAST_TEXT_ID_FACE_DOWN</a></div><div class="ttdeci">@ TITANIUM_SEAL_OF_DALARAN_BROADCAST_TEXT_ID_FACE_DOWN</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:62</div></div>
+<div class="ttc" id="astruct_broadcast_text_html"><div class="ttname"><a href="../../d0/d3b/struct_broadcast_text.html">BroadcastText</a></div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:435</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af1002e90bc0801c0759393d2d4af8778" name="af1002e90bc0801c0759393d2d4af8778"></a>
@@ -341,11 +375,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   93</span>    {</div>
+<div class="line"><span class="lineno">   94</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(spell_item_titanium_seal_of_dalaran::OnScriptEffect, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a>);</div>
+<div class="line"><span class="lineno">   95</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a></div><div class="ttdeci">@ SPELL_EFFECT_SCRIPT_EFFECT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:827</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../db/d6e/spell__item_8cpp.html">spell_item.cpp</a></li>
+<li><a class="el" href="../../">spell_item.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -353,7 +394,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d93/classspell__item__titanium__seal__of__dalaran.html">spell_item_titanium_seal_of_dalaran</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:20 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

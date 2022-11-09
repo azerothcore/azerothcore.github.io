@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/common/Configuration/Config.cpp File Reference</title>
+<title>AzeorthCore: Config.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -113,16 +113,18 @@ $(document).ready(function(){initNavTree('d7/dd3/_config_8cpp.html','../../'); i
   <div class="headertitle"><div class="title">Config.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d4/d71/_config_8h_source.html">Config.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/df4/_log_8h_source.html">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d3c/_string_convert_8h_source.html">StringConvert.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/ded/_string_format_8h_source.html">StringFormat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d43/_tokenize_8h_source.html">Tokenize.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d90/_util_8h_source.html">Util.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">StringConvert.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">StringFormat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Tokenize.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
 <code>#include &lt;fstream&gt;</code><br />
 <code>#include &lt;mutex&gt;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
-</div><table class="memberdecls">
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d2/db4/namespaceanonymous__namespace_02_config_8cpp_03"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html">anonymous_namespace{Config.cpp}</a></td></tr>
@@ -220,7 +222,24 @@ template&lt;&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  282</span>{</div>
+<div class="line"><span class="lineno">  283</span>    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; itr = <a class="code hl_variable" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a4c4d5bd9313e617a40ed0f27d79dbae9">_configOptions</a>.find(name);</div>
+<div class="line"><span class="lineno">  284</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a4c4d5bd9313e617a40ed0f27d79dbae9">_configOptions</a>.end())</div>
+<div class="line"><span class="lineno">  285</span>    {</div>
+<div class="line"><span class="lineno">  286</span>        <span class="keywordflow">if</span> (showLogs)</div>
+<div class="line"><span class="lineno">  287</span>        {</div>
+<div class="line"><span class="lineno">  288</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Missing option {}, add \&quot;{} = {}\&quot;&quot;</span>,</div>
+<div class="line"><span class="lineno">  289</span>                name, name, def);</div>
+<div class="line"><span class="lineno">  290</span>        }</div>
+<div class="line"><span class="lineno">  291</span> </div>
+<div class="line"><span class="lineno">  292</span>        <span class="keywordflow">return</span> def;</div>
+<div class="line"><span class="lineno">  293</span>    }</div>
+<div class="line"><span class="lineno">  294</span> </div>
+<div class="line"><span class="lineno">  295</span>    <span class="keywordflow">return</span> itr-&gt;second;</div>
+<div class="line"><span class="lineno">  296</span>}</div>
+<div class="ttc" id="a_log_8h_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02_config_8cpp_03_html_a4c4d5bd9313e617a40ed0f27d79dbae9"><div class="ttname"><a href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a4c4d5bd9313e617a40ed0f27d79dbae9">anonymous_namespace{Config.cpp}::_configOptions</a></div><div class="ttdeci">std::unordered_map&lt; std::string, std::string &gt; _configOptions</div><div class="ttdef"><b>Definition:</b> Config.cpp:33</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -229,7 +248,7 @@ template&lt;&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_e8df728d6a6e829c2d0f8060a021b576.html">Configuration</a></li><li class="navelem"><a class="el" href="../../d7/dd3/_config_8cpp.html">Config.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:17 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

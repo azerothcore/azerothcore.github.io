@@ -487,7 +487,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af267e395fbd539f871e498dc6745c610" name="af267e395fbd539f871e498dc6745c610"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af267e395fbd539f871e498dc6745c610">&#9670;&#160;</a></span>boss_blight_wormAI()</h2>
 
@@ -511,7 +512,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2169</span>                                               : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno"> 2170</span>        {</div>
+<div class="line"><span class="lineno"> 2171</span>            <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a4e491fe0db6bf156ba26fa64349ceab3">SetCombatMovement</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 2172</span>        }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a4e491fe0db6bf156ba26fa64349ceab3"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a4e491fe0db6bf156ba26fa64349ceab3">ScriptedAI::SetCombatMovement</a></div><div class="ttdeci">void SetCombatMovement(bool allowMovement)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:495</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -539,7 +546,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2175</span>        {</div>
+<div class="line"><span class="lineno"> 2176</span>            <a class="code hl_variable" href="../../d5/d33/structboss__blight__worm_1_1boss__blight__worm_a_i.html#a65f7fd4f73c727eeb5988d7ec77b94ce">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a8d18f081e5af4df17ca5ab71489900fea737c33193f12241e682a2965cb34ecab">EVENT_INFEST</a>, 2 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 2177</span>            <a class="code hl_variable" href="../../d5/d33/structboss__blight__worm_1_1boss__blight__worm_a_i.html#a65f7fd4f73c727eeb5988d7ec77b94ce">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a8d18f081e5af4df17ca5ab71489900fea965b4145d701db7d4363a57e6e025673">EVENT_BLIGHT_BREATH</a>, 7.5 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 2178</span>        }</div>
+<div class="ttc" id="a_common_8h_html_a84190f79c8167211609f67284e066c58"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></div><div class="ttdeci">constexpr auto IN_MILLISECONDS</div><div class="ttdef"><b>Definition:</b> Common.h:62</div></div>
+<div class="ttc" id="aclass_event_map_html_a5e6081bda8828001c0ed8677b2aecd65"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">EventMap::ScheduleEvent</a></div><div class="ttdeci">void ScheduleEvent(uint32 eventId, uint32 time, uint32 group=0, uint32 phase=0)</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:56</div></div>
+<div class="ttc" id="astructboss__blight__worm_1_1boss__blight__worm_a_i_html_a65f7fd4f73c727eeb5988d7ec77b94ce"><div class="ttname"><a href="../../d5/d33/structboss__blight__worm_1_1boss__blight__worm_a_i.html#a65f7fd4f73c727eeb5988d7ec77b94ce">boss_blight_worm::boss_blight_wormAI::_events</a></div><div class="ttdeci">EventMap _events</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:2212</div></div>
+<div class="ttc" id="azone__undercity_8cpp_html_a8d18f081e5af4df17ca5ab71489900fea737c33193f12241e682a2965cb34ecab"><div class="ttname"><a href="../../d1/d2d/zone__undercity_8cpp.html#a8d18f081e5af4df17ca5ab71489900fea737c33193f12241e682a2965cb34ecab">EVENT_INFEST</a></div><div class="ttdeci">@ EVENT_INFEST</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:597</div></div>
+<div class="ttc" id="azone__undercity_8cpp_html_a8d18f081e5af4df17ca5ab71489900fea965b4145d701db7d4363a57e6e025673"><div class="ttname"><a href="../../d1/d2d/zone__undercity_8cpp.html#a8d18f081e5af4df17ca5ab71489900fea965b4145d701db7d4363a57e6e025673">EVENT_BLIGHT_BREATH</a></div><div class="ttdeci">@ EVENT_BLIGHT_BREATH</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:598</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac8e4c5a7a251173a2afb369498c88a1d" name="ac8e4c5a7a251173a2afb369498c88a1d"></a>
@@ -567,7 +583,49 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2181</span>        {</div>
+<div class="line"><span class="lineno"> 2182</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno"> 2183</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2184</span> </div>
+<div class="line"><span class="lineno"> 2185</span>            <a class="code hl_variable" href="../../d5/d33/structboss__blight__worm_1_1boss__blight__worm_a_i.html#a65f7fd4f73c727eeb5988d7ec77b94ce">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">Update</a>(diff);</div>
+<div class="line"><span class="lineno"> 2186</span> </div>
+<div class="line"><span class="lineno"> 2187</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno"> 2188</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2189</span> </div>
+<div class="line"><span class="lineno"> 2190</span>            <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventId = <a class="code hl_variable" href="../../d5/d33/structboss__blight__worm_1_1boss__blight__worm_a_i.html#a65f7fd4f73c727eeb5988d7ec77b94ce">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">ExecuteEvent</a>())</div>
+<div class="line"><span class="lineno"> 2191</span>            {</div>
+<div class="line"><span class="lineno"> 2192</span>                <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno"> 2193</span>                {</div>
+<div class="line"><span class="lineno"> 2194</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a8d18f081e5af4df17ca5ab71489900fea737c33193f12241e682a2965cb34ecab">EVENT_INFEST</a>:</div>
+<div class="line"><span class="lineno"> 2195</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 0, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno"> 2196</span>                            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a8d18f081e5af4df17ca5ab71489900fea0992d2e3c66a51f1b321ffe0f1c9f55e">SPELL_INGEST</a>);</div>
+<div class="line"><span class="lineno"> 2197</span>                        <a class="code hl_variable" href="../../d5/d33/structboss__blight__worm_1_1boss__blight__worm_a_i.html#a65f7fd4f73c727eeb5988d7ec77b94ce">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a8d18f081e5af4df17ca5ab71489900fea737c33193f12241e682a2965cb34ecab">EVENT_INFEST</a>, 20 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 2198</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2199</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a8d18f081e5af4df17ca5ab71489900fea965b4145d701db7d4363a57e6e025673">EVENT_BLIGHT_BREATH</a>:</div>
+<div class="line"><span class="lineno"> 2200</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a8d18f081e5af4df17ca5ab71489900fea6259d7ae776cf1650aab68ed9f31a48e">SPELL_BLIGHT_BREATH</a>);</div>
+<div class="line"><span class="lineno"> 2201</span>                        <a class="code hl_variable" href="../../d5/d33/structboss__blight__worm_1_1boss__blight__worm_a_i.html#a65f7fd4f73c727eeb5988d7ec77b94ce">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a8d18f081e5af4df17ca5ab71489900fea965b4145d701db7d4363a57e6e025673">EVENT_BLIGHT_BREATH</a>, 15 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 2202</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2203</span>                    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 2204</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2205</span>                }</div>
+<div class="line"><span class="lineno"> 2206</span>            }</div>
+<div class="line"><span class="lineno"> 2207</span> </div>
+<div class="line"><span class="lineno"> 2208</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno"> 2209</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_event_map_html_a07764662d7571ae0e1c44203d189ba44"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">EventMap::ExecuteEvent</a></div><div class="ttdeci">uint32 ExecuteEvent()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:114</div></div>
+<div class="ttc" id="aclass_event_map_html_a33ba1058edd639c98258ba3e123ac2f9"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">EventMap::Update</a></div><div class="ttdeci">void Update(uint32 time)</div><div class="ttdef"><b>Definition:</b> EventMap.h:54</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="azone__undercity_8cpp_html_a8d18f081e5af4df17ca5ab71489900fea0992d2e3c66a51f1b321ffe0f1c9f55e"><div class="ttname"><a href="../../d1/d2d/zone__undercity_8cpp.html#a8d18f081e5af4df17ca5ab71489900fea0992d2e3c66a51f1b321ffe0f1c9f55e">SPELL_INGEST</a></div><div class="ttdeci">@ SPELL_INGEST</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:592</div></div>
+<div class="ttc" id="azone__undercity_8cpp_html_a8d18f081e5af4df17ca5ab71489900fea6259d7ae776cf1650aab68ed9f31a48e"><div class="ttname"><a href="../../d1/d2d/zone__undercity_8cpp.html#a8d18f081e5af4df17ca5ab71489900fea6259d7ae776cf1650aab68ed9f31a48e">SPELL_BLIGHT_BREATH</a></div><div class="ttdeci">@ SPELL_BLIGHT_BREATH</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:594</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -594,7 +652,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/<a class="el" href="../../d1/d2d/zone__undercity_8cpp.html">zone_undercity.cpp</a></li>
+<li><a class="el" href="../../">zone_undercity.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -602,7 +660,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d28/classboss__blight__worm.html">boss_blight_worm</a></li><li class="navelem"><a class="el" href="../../d5/d33/structboss__blight__worm_1_1boss__blight__worm_a_i.html">boss_blight_wormAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:38 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

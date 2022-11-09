@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d8/daf/class_hash_map_holder.html','..
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../db/d59/_object_accessor_8h_source.html">ObjectAccessor.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">ObjectAccessor.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -139,7 +139,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ad10240097462af2a8a76c9429bd7cbca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/daf/class_hash_map_holder.html#ad10240097462af2a8a76c9429bd7cbca">HashMapHolder</a> ()=default</td></tr>
 <tr class="separator:ad10240097462af2a8a76c9429bd7cbca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
+class HashMapHolder&lt; T &gt;</div></div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a8fa5f0aca9316901f42b2df8251c5a5d" name="a8fa5f0aca9316901f42b2df8251c5a5d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8fa5f0aca9316901f42b2df8251c5a5d">&#9670;&#160;</a></span>MapType</h2>
 
@@ -210,7 +212,15 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   59</span>{</div>
+<div class="line"><span class="lineno">   60</span>    std::shared_lock&lt;std::shared_mutex&gt; lock(*<a class="code hl_function" href="../../d8/daf/class_hash_map_holder.html#a52cc052c8d73d5b700c7f9253138942f">GetLock</a>());</div>
+<div class="line"><span class="lineno">   61</span> </div>
+<div class="line"><span class="lineno">   62</span>    <span class="keyword">typename</span> MapType::iterator itr = <a class="code hl_function" href="../../d8/daf/class_hash_map_holder.html#ad9dfe5d223496a379a4aec0fc12c42d9">GetContainer</a>().find(guid);</div>
+<div class="line"><span class="lineno">   63</span>    <span class="keywordflow">return</span> (itr != <a class="code hl_function" href="../../d8/daf/class_hash_map_holder.html#ad9dfe5d223496a379a4aec0fc12c42d9">GetContainer</a>().end()) ? itr-&gt;second : <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   64</span>}</div>
+<div class="ttc" id="aclass_hash_map_holder_html_a52cc052c8d73d5b700c7f9253138942f"><div class="ttname"><a href="../../d8/daf/class_hash_map_holder.html#a52cc052c8d73d5b700c7f9253138942f">HashMapHolder::GetLock</a></div><div class="ttdeci">static std::shared_mutex * GetLock()</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:74</div></div>
+<div class="ttc" id="aclass_hash_map_holder_html_ad9dfe5d223496a379a4aec0fc12c42d9"><div class="ttname"><a href="../../d8/daf/class_hash_map_holder.html#ad9dfe5d223496a379a4aec0fc12c42d9">HashMapHolder::GetContainer</a></div><div class="ttdeci">static MapType &amp; GetContainer()</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:67</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad9dfe5d223496a379a4aec0fc12c42d9" name="ad9dfe5d223496a379a4aec0fc12c42d9"></a>
@@ -234,7 +244,12 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   68</span>{</div>
+<div class="line"><span class="lineno">   69</span>    <span class="keyword">static</span> <a class="code hl_typedef" href="../../d8/daf/class_hash_map_holder.html#a8fa5f0aca9316901f42b2df8251c5a5d">MapType</a> _objectMap;</div>
+<div class="line"><span class="lineno">   70</span>    <span class="keywordflow">return</span> _objectMap;</div>
+<div class="line"><span class="lineno">   71</span>}</div>
+<div class="ttc" id="aclass_hash_map_holder_html_a8fa5f0aca9316901f42b2df8251c5a5d"><div class="ttname"><a href="../../d8/daf/class_hash_map_holder.html#a8fa5f0aca9316901f42b2df8251c5a5d">HashMapHolder::MapType</a></div><div class="ttdeci">std::unordered_map&lt; ObjectGuid, T * &gt; MapType</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.h:51</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a52cc052c8d73d5b700c7f9253138942f" name="a52cc052c8d73d5b700c7f9253138942f"></a>
@@ -258,7 +273,11 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   75</span>{</div>
+<div class="line"><span class="lineno">   76</span>    <span class="keyword">static</span> std::shared_mutex _lock;</div>
+<div class="line"><span class="lineno">   77</span>    <span class="keywordflow">return</span> &amp;_lock;</div>
+<div class="line"><span class="lineno">   78</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af5c618228c141e28ffa11468cfffb21a" name="af5c618228c141e28ffa11468cfffb21a"></a>
@@ -286,7 +305,16 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
+<div class="line"><span class="lineno">   40</span>    <span class="keyword">static_assert</span>(std::is_same&lt;Player, T&gt;::value</div>
+<div class="line"><span class="lineno">   41</span>        || std::is_same&lt;MotionTransport, T&gt;::value,</div>
+<div class="line"><span class="lineno">   42</span>        <span class="stringliteral">&quot;Only Player and Motion Transport can be registered in global HashMapHolder&quot;</span>);</div>
+<div class="line"><span class="lineno">   43</span> </div>
+<div class="line"><span class="lineno">   44</span>    std::unique_lock&lt;std::shared_mutex&gt; lock(*<a class="code hl_function" href="../../d8/daf/class_hash_map_holder.html#a52cc052c8d73d5b700c7f9253138942f">GetLock</a>());</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_function" href="../../d8/daf/class_hash_map_holder.html#ad9dfe5d223496a379a4aec0fc12c42d9">GetContainer</a>()[o-&gt;GetGUID()] = o;</div>
+<div class="line"><span class="lineno">   47</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7b9c3761746641133d4a9837559c0bb0" name="a7b9c3761746641133d4a9837559c0bb0"></a>
@@ -314,12 +342,17 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>
+<div class="line"><span class="lineno">   52</span>    std::unique_lock&lt;std::shared_mutex&gt; lock(*<a class="code hl_function" href="../../d8/daf/class_hash_map_holder.html#a52cc052c8d73d5b700c7f9253138942f">GetLock</a>());</div>
+<div class="line"><span class="lineno">   53</span> </div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_function" href="../../d8/daf/class_hash_map_holder.html#ad9dfe5d223496a379a4aec0fc12c42d9">GetContainer</a>().erase(o-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">   55</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Globals/<a class="el" href="../../db/d59/_object_accessor_8h_source.html">ObjectAccessor.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Globals/<a class="el" href="../../df/d5d/_object_accessor_8cpp.html">ObjectAccessor.cpp</a></li>
+<li><a class="el" href="../../">ObjectAccessor.h</a></li>
+<li><a class="el" href="../../">ObjectAccessor.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -327,7 +360,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/daf/class_hash_map_holder.html">HashMapHolder</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

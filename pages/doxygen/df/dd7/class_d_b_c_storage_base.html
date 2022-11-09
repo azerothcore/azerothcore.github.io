@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('df/dd7/class_d_b_c_storage_base.html',
 <p>Interface class for common access.  
  <a href="../../df/dd7/class_d_b_c_storage_base.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../de/dc8/_d_b_c_store_8h_source.html">DBCStore.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">DBCStore.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for DBCStorageBase:</div>
 <div class="dyncontent">
@@ -185,7 +185,14 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   21</span>                                              : <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#aa9bebefe18610016bef2c7d087d20abe">_fieldCount</a>(0), <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#a3ac1c70817c9b7a351ea0e0d2e602351">_fileFormat</a>(fmt), <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#ab13a1018e69345a3665f50d696bc7236">_dataTable</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#aa17bb429de3b9df9bb6ffcbc9bf9010b">_indexTableSize</a>(0)</div>
+<div class="line"><span class="lineno">   22</span>{</div>
+<div class="line"><span class="lineno">   23</span>}</div>
+<div class="ttc" id="aclass_d_b_c_storage_base_html_a3ac1c70817c9b7a351ea0e0d2e602351"><div class="ttname"><a href="../../df/dd7/class_d_b_c_storage_base.html#a3ac1c70817c9b7a351ea0e0d2e602351">DBCStorageBase::_fileFormat</a></div><div class="ttdeci">char const  * _fileFormat</div><div class="ttdef"><b>Definition:</b> DBCStore.h:47</div></div>
+<div class="ttc" id="aclass_d_b_c_storage_base_html_aa17bb429de3b9df9bb6ffcbc9bf9010b"><div class="ttname"><a href="../../df/dd7/class_d_b_c_storage_base.html#aa17bb429de3b9df9bb6ffcbc9bf9010b">DBCStorageBase::_indexTableSize</a></div><div class="ttdeci">uint32 _indexTableSize</div><div class="ttdef"><b>Definition:</b> DBCStore.h:50</div></div>
+<div class="ttc" id="aclass_d_b_c_storage_base_html_aa9bebefe18610016bef2c7d087d20abe"><div class="ttname"><a href="../../df/dd7/class_d_b_c_storage_base.html#aa9bebefe18610016bef2c7d087d20abe">DBCStorageBase::_fieldCount</a></div><div class="ttdeci">uint32 _fieldCount</div><div class="ttdef"><b>Definition:</b> DBCStore.h:46</div></div>
+<div class="ttc" id="aclass_d_b_c_storage_base_html_ab13a1018e69345a3665f50d696bc7236"><div class="ttname"><a href="../../df/dd7/class_d_b_c_storage_base.html#ab13a1018e69345a3665f50d696bc7236">DBCStorageBase::_dataTable</a></div><div class="ttdeci">char * _dataTable</div><div class="ttdef"><b>Definition:</b> DBCStore.h:48</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a39d4e4f05a50b952c2f952a452beb010" name="a39d4e4f05a50b952c2f952a452beb010"></a>
@@ -210,7 +217,13 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <span class="keyword">delete</span>[] <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#ab13a1018e69345a3665f50d696bc7236">_dataTable</a>;</div>
+<div class="line"><span class="lineno">   28</span>    <span class="keywordflow">for</span> (<span class="keywordtype">char</span>* strings : <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#a8d571b107344a2dbde0b2cbcfa3c9b52">_stringPool</a>)</div>
+<div class="line"><span class="lineno">   29</span>        <span class="keyword">delete</span>[] strings;</div>
+<div class="line"><span class="lineno">   30</span>}</div>
+<div class="ttc" id="aclass_d_b_c_storage_base_html_a8d571b107344a2dbde0b2cbcfa3c9b52"><div class="ttname"><a href="../../df/dd7/class_d_b_c_storage_base.html#a8d571b107344a2dbde0b2cbcfa3c9b52">DBCStorageBase::_stringPool</a></div><div class="ttdeci">std::vector&lt; char * &gt; _stringPool</div><div class="ttdef"><b>Definition:</b> DBCStore.h:49</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -236,7 +249,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#aa9bebefe18610016bef2c7d087d20abe">_fieldCount</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab333cdbf4cb7c6f527045902256fdf2f" name="ab333cdbf4cb7c6f527045902256fdf2f"></a>
@@ -261,7 +275,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#a3ac1c70817c9b7a351ea0e0d2e602351">_fileFormat</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a779bd666cbdc6587eab6a81e51e894d8" name="a779bd666cbdc6587eab6a81e51e894d8"></a>
@@ -325,7 +340,33 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   33</span>{</div>
+<div class="line"><span class="lineno">   34</span>    indexTable = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   35</span> </div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_class" href="../../da/d44/class_d_b_c_file_loader.html">DBCFileLoader</a> dbc;</div>
+<div class="line"><span class="lineno">   37</span> </div>
+<div class="line"><span class="lineno">   38</span>    <span class="comment">// Check if load was sucessful, only then continue</span></div>
+<div class="line"><span class="lineno">   39</span>    <span class="keywordflow">if</span> (!dbc.<a class="code hl_function" href="../../da/d44/class_d_b_c_file_loader.html#a32c6a04567395f66270858c5feb57f5f">Load</a>(path, <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#a3ac1c70817c9b7a351ea0e0d2e602351">_fileFormat</a>))</div>
+<div class="line"><span class="lineno">   40</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   41</span> </div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#aa9bebefe18610016bef2c7d087d20abe">_fieldCount</a> = dbc.<a class="code hl_function" href="../../da/d44/class_d_b_c_file_loader.html#a3c536a9333a06213a37c95087eaaf8e3">GetCols</a>();</div>
+<div class="line"><span class="lineno">   43</span> </div>
+<div class="line"><span class="lineno">   44</span>    <span class="comment">// load raw non-string data</span></div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#ab13a1018e69345a3665f50d696bc7236">_dataTable</a> = dbc.<a class="code hl_function" href="../../da/d44/class_d_b_c_file_loader.html#af8810dd9cef9ed82036bbebb4c938521">AutoProduceData</a>(<a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#a3ac1c70817c9b7a351ea0e0d2e602351">_fileFormat</a>, <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#aa17bb429de3b9df9bb6ffcbc9bf9010b">_indexTableSize</a>, indexTable);</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>    <span class="comment">// load strings from dbc data</span></div>
+<div class="line"><span class="lineno">   48</span>    <span class="keywordflow">if</span> (<span class="keywordtype">char</span>* stringBlock = dbc.<a class="code hl_function" href="../../da/d44/class_d_b_c_file_loader.html#a12054e13d90636076ce04587aacf8ff6">AutoProduceStrings</a>(<a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#a3ac1c70817c9b7a351ea0e0d2e602351">_fileFormat</a>, <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#ab13a1018e69345a3665f50d696bc7236">_dataTable</a>))</div>
+<div class="line"><span class="lineno">   49</span>        <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#a8d571b107344a2dbde0b2cbcfa3c9b52">_stringPool</a>.push_back(stringBlock);</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>    <span class="comment">// error in dbc file at loading if nullptr</span></div>
+<div class="line"><span class="lineno">   52</span>    <span class="keywordflow">return</span> indexTable != <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   53</span>}</div>
+<div class="ttc" id="aclass_d_b_c_file_loader_html"><div class="ttname"><a href="../../da/d44/class_d_b_c_file_loader.html">DBCFileLoader</a></div><div class="ttdef"><b>Definition:</b> DBCFileLoader.h:39</div></div>
+<div class="ttc" id="aclass_d_b_c_file_loader_html_a12054e13d90636076ce04587aacf8ff6"><div class="ttname"><a href="../../da/d44/class_d_b_c_file_loader.html#a12054e13d90636076ce04587aacf8ff6">DBCFileLoader::AutoProduceStrings</a></div><div class="ttdeci">char * AutoProduceStrings(char const *fmt, char *dataTable)</div><div class="ttdef"><b>Definition:</b> DBCFileLoader.cpp:277</div></div>
+<div class="ttc" id="aclass_d_b_c_file_loader_html_a32c6a04567395f66270858c5feb57f5f"><div class="ttname"><a href="../../da/d44/class_d_b_c_file_loader.html#a32c6a04567395f66270858c5feb57f5f">DBCFileLoader::Load</a></div><div class="ttdeci">bool Load(const char *filename, const char *fmt)</div><div class="ttdef"><b>Definition:</b> DBCFileLoader.cpp:25</div></div>
+<div class="ttc" id="aclass_d_b_c_file_loader_html_a3c536a9333a06213a37c95087eaaf8e3"><div class="ttname"><a href="../../da/d44/class_d_b_c_file_loader.html#a3c536a9333a06213a37c95087eaaf8e3">DBCFileLoader::GetCols</a></div><div class="ttdeci">uint32 GetCols() const</div><div class="ttdef"><b>Definition:</b> DBCFileLoader.h:92</div></div>
+<div class="ttc" id="aclass_d_b_c_file_loader_html_af8810dd9cef9ed82036bbebb4c938521"><div class="ttname"><a href="../../da/d44/class_d_b_c_file_loader.html#af8810dd9cef9ed82036bbebb4c938521">DBCFileLoader::AutoProduceData</a></div><div class="ttdeci">char * AutoProduceData(char const *fmt, uint32 &amp;count, char **&amp;indexTable)</div><div class="ttdef"><b>Definition:</b> DBCFileLoader.cpp:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abea56cf48880a3ae02d322b6283032b4" name="abea56cf48880a3ae02d322b6283032b4"></a>
@@ -405,7 +446,12 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   75</span>{</div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#a8d571b107344a2dbde0b2cbcfa3c9b52">_stringPool</a>.push_back(<a class="code hl_struct" href="../../de/de1/struct_d_b_c_database_loader.html">DBCDatabaseLoader</a>(table, format, <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#a8d571b107344a2dbde0b2cbcfa3c9b52">_stringPool</a>).<a class="code hl_function" href="../../df/dd7/class_d_b_c_storage_base.html#a779bd666cbdc6587eab6a81e51e894d8">Load</a>(<a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#aa17bb429de3b9df9bb6ffcbc9bf9010b">_indexTableSize</a>, indexTable));</div>
+<div class="line"><span class="lineno">   77</span>}</div>
+<div class="ttc" id="aclass_d_b_c_storage_base_html_a779bd666cbdc6587eab6a81e51e894d8"><div class="ttname"><a href="../../df/dd7/class_d_b_c_storage_base.html#a779bd666cbdc6587eab6a81e51e894d8">DBCStorageBase::Load</a></div><div class="ttdeci">virtual bool Load(char const *path)=0</div></div>
+<div class="ttc" id="astruct_d_b_c_database_loader_html"><div class="ttname"><a href="../../de/de1/struct_d_b_c_database_loader.html">DBCDatabaseLoader</a></div><div class="ttdef"><b>Definition:</b> DBCDatabaseLoader.h:26</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a912b4793ddc3e3ff3bc9279693373b79" name="a912b4793ddc3e3ff3bc9279693373b79"></a>
@@ -469,7 +515,24 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   56</span>{</div>
+<div class="line"><span class="lineno">   57</span>    <span class="comment">// DBC must be already loaded using Load</span></div>
+<div class="line"><span class="lineno">   58</span>    <span class="keywordflow">if</span> (!indexTable)</div>
+<div class="line"><span class="lineno">   59</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_class" href="../../da/d44/class_d_b_c_file_loader.html">DBCFileLoader</a> dbc;</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span>    <span class="comment">// Check if load was successful, only then continue</span></div>
+<div class="line"><span class="lineno">   64</span>    <span class="keywordflow">if</span> (!dbc.<a class="code hl_function" href="../../da/d44/class_d_b_c_file_loader.html#a32c6a04567395f66270858c5feb57f5f">Load</a>(path, <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#a3ac1c70817c9b7a351ea0e0d2e602351">_fileFormat</a>))</div>
+<div class="line"><span class="lineno">   65</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   66</span> </div>
+<div class="line"><span class="lineno">   67</span>    <span class="comment">// load strings from another locale dbc data</span></div>
+<div class="line"><span class="lineno">   68</span>    <span class="keywordflow">if</span> (<span class="keywordtype">char</span>* stringBlock = dbc.<a class="code hl_function" href="../../da/d44/class_d_b_c_file_loader.html#a12054e13d90636076ce04587aacf8ff6">AutoProduceStrings</a>(<a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#a3ac1c70817c9b7a351ea0e0d2e602351">_fileFormat</a>, <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#ab13a1018e69345a3665f50d696bc7236">_dataTable</a>))</div>
+<div class="line"><span class="lineno">   69</span>        <a class="code hl_variable" href="../../df/dd7/class_d_b_c_storage_base.html#a8d571b107344a2dbde0b2cbcfa3c9b52">_stringPool</a>.push_back(stringBlock);</div>
+<div class="line"><span class="lineno">   70</span> </div>
+<div class="line"><span class="lineno">   71</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   72</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -584,8 +647,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/shared/DataStores/<a class="el" href="../../de/dc8/_d_b_c_store_8h_source.html">DBCStore.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/shared/DataStores/<a class="el" href="../../d4/d7c/_d_b_c_store_8cpp.html">DBCStore.cpp</a></li>
+<li><a class="el" href="../../">DBCStore.h</a></li>
+<li><a class="el" href="../../">DBCStore.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -593,7 +656,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dd7/class_d_b_c_storage_base.html">DBCStorageBase</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

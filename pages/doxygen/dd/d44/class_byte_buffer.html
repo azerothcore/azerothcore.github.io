@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('dd/d44/class_byte_buffer.html','../../
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d6/d6c/_byte_buffer_8h_source.html">ByteBuffer.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">ByteBuffer.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ByteBuffer:</div>
 <div class="dyncontent">
@@ -303,7 +303,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a242f4610e8cc4876af2296c933fa2213"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a></td></tr>
 <tr class="separator:a242f4610e8cc4876af2296c933fa2213"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adc1d4da00319096a5eb0043f4a37e2be" name="adc1d4da00319096a5eb0043f4a37e2be"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adc1d4da00319096a5eb0043f4a37e2be">&#9670;&#160;</a></span>ByteBuffer() <span class="overload">[1/5]</span></h2>
 
@@ -326,7 +327,12 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   76</span>    {</div>
+<div class="line"><span class="lineno">   77</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.reserve(<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#abaf91e732df5d14e3d709a4f2dd95a9b">DEFAULT_SIZE</a>);</div>
+<div class="line"><span class="lineno">   78</span>    }</div>
+<div class="ttc" id="aclass_byte_buffer_html_a242f4610e8cc4876af2296c933fa2213"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">ByteBuffer::_storage</a></div><div class="ttdeci">std::vector&lt; uint8 &gt; _storage</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:532</div></div>
+<div class="ttc" id="aclass_byte_buffer_html_abaf91e732df5d14e3d709a4f2dd95a9b"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#abaf91e732df5d14e3d709a4f2dd95a9b">ByteBuffer::DEFAULT_SIZE</a></div><div class="ttdeci">static constexpr size_t DEFAULT_SIZE</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:72</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a199c2d46cce671e56e00a451b8b20810" name="a199c2d46cce671e56e00a451b8b20810"></a>
@@ -352,7 +358,14 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   80</span>                               : <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a>(0), <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a>(0)</div>
+<div class="line"><span class="lineno">   81</span>    {</div>
+<div class="line"><span class="lineno">   82</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.reserve(<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a2561da6a9423880162eaf47c60284dbe">reserve</a>);</div>
+<div class="line"><span class="lineno">   83</span>    }</div>
+<div class="ttc" id="aclass_byte_buffer_html_a077e4ef0b12a178983d1beb1e1efccad"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">ByteBuffer::_wpos</a></div><div class="ttdeci">size_t _wpos</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:531</div></div>
+<div class="ttc" id="aclass_byte_buffer_html_a2561da6a9423880162eaf47c60284dbe"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#a2561da6a9423880162eaf47c60284dbe">ByteBuffer::reserve</a></div><div class="ttdeci">void reserve(size_t ressize)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:454</div></div>
+<div class="ttc" id="aclass_byte_buffer_html_acd1ed42ba76c596232eb7e0e5b92079b"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">ByteBuffer::_rpos</a></div><div class="ttdeci">size_t _rpos</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:531</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab271141a122689d48a5780c2e6165dba" name="ab271141a122689d48a5780c2e6165dba"></a>
@@ -378,7 +391,13 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   85</span>                                          :</div>
+<div class="line"><span class="lineno">   86</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a>(buf.<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a>), <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a>(buf.<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a>), <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>(std::move(buf.<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>))</div>
+<div class="line"><span class="lineno">   87</span>    {</div>
+<div class="line"><span class="lineno">   88</span>        buf.<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a> = 0;</div>
+<div class="line"><span class="lineno">   89</span>        buf.<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a> = 0;</div>
+<div class="line"><span class="lineno">   90</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac856755dba10e0a96cb3da4b22f8bb68" name="ac856755dba10e0a96cb3da4b22f8bb68"></a>
@@ -422,7 +441,10 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   28</span>                                             :</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a>(0), <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a>(0), <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>(buffer.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#acc13033dd688408760116899ca38f94e">Move</a>()) { }</div>
+<div class="ttc" id="aclass_message_buffer_html_acc13033dd688408760116899ca38f94e"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#acc13033dd688408760116899ca38f94e">MessageBuffer::Move</a></div><div class="ttdeci">std::vector&lt; uint8 &gt; &amp;&amp; Move()</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:102</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afc443ee2b0c09e7578b8af8dfb493cf7" name="afc443ee2b0c09e7578b8af8dfb493cf7"></a>
@@ -474,7 +496,14 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  480</span>    {</div>
+<div class="line"><span class="lineno">  481</span>        <span class="keywordflow">if</span> (buffer.wpos())</div>
+<div class="line"><span class="lineno">  482</span>        {</div>
+<div class="line"><span class="lineno">  483</span>            <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a5811e6da355e8c3d0f45997a557a666b">append</a>(buffer.contents(), buffer.wpos());</div>
+<div class="line"><span class="lineno">  484</span>        }</div>
+<div class="line"><span class="lineno">  485</span>    }</div>
+<div class="ttc" id="aclass_byte_buffer_html_a5811e6da355e8c3d0f45997a557a666b"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#a5811e6da355e8c3d0f45997a557a666b">ByteBuffer::append</a></div><div class="ttdeci">void append(T value)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:129</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad6e56fe234fe3bad7dd46125b7064ca2" name="ad6e56fe234fe3bad7dd46125b7064ca2"></a>
@@ -510,7 +539,11 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  468</span>    {</div>
+<div class="line"><span class="lineno">  469</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a5811e6da355e8c3d0f45997a557a666b">append</a>((<span class="keyword">const</span> <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *)src, cnt);</div>
+<div class="line"><span class="lineno">  470</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a609e146678bdf4c563bfa442329f1e06" name="a609e146678bdf4c563bfa442329f1e06"></a>
@@ -548,7 +581,10 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  473</span>    {</div>
+<div class="line"><span class="lineno">  474</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a5811e6da355e8c3d0f45997a557a666b">append</a>((<span class="keyword">const</span> <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>*)src, cnt * <span class="keyword">sizeof</span>(T));</div>
+<div class="line"><span class="lineno">  475</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a00ca375ab87d05aee2a7444265664623" name="a00ca375ab87d05aee2a7444265664623"></a>
@@ -576,7 +612,10 @@ template&lt;size_t Size&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  489</span>    {</div>
+<div class="line"><span class="lineno">  490</span>        <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a5811e6da355e8c3d0f45997a557a666b">append</a>(arr.data(), Size);</div>
+<div class="line"><span class="lineno">  491</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5811e6da355e8c3d0f45997a557a666b" name="a5811e6da355e8c3d0f45997a557a666b"></a>
@@ -604,7 +643,13 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  130</span>    {</div>
+<div class="line"><span class="lineno">  131</span>        <span class="keyword">static_assert</span>(std::is_fundamental&lt;T&gt;::value, <span class="stringliteral">&quot;append(compound)&quot;</span>);</div>
+<div class="line"><span class="lineno">  132</span>        <a class="code hl_function" href="../../d8/db2/_byte_converter_8h.html#a9d20b1e463a04f0a22d79ca802902be6">EndianConvert</a>(value);</div>
+<div class="line"><span class="lineno">  133</span>        <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a5811e6da355e8c3d0f45997a557a666b">append</a>((<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>*)&amp;value, <span class="keyword">sizeof</span>(value));</div>
+<div class="line"><span class="lineno">  134</span>    }</div>
+<div class="ttc" id="a_byte_converter_8h_html_a9d20b1e463a04f0a22d79ca802902be6"><div class="ttname"><a href="../../d8/db2/_byte_converter_8h.html#a9d20b1e463a04f0a22d79ca802902be6">EndianConvert</a></div><div class="ttdeci">void EndianConvert(T &amp;val)</div><div class="ttdef"><b>Definition:</b> ByteConverter.h:47</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acf05965a1864b62745a082ef2b193998" name="acf05965a1864b62745a082ef2b193998"></a>
@@ -632,7 +677,34 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  112</span>{</div>
+<div class="line"><span class="lineno">  113</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(src, <span class="stringliteral">&quot;Attempted to put a NULL-pointer in ByteBuffer (pos: {} size: {})&quot;</span>, <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a>, <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>());</div>
+<div class="line"><span class="lineno">  114</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(cnt, <span class="stringliteral">&quot;Attempted to put a zero-sized value in ByteBuffer (pos: {} size: {})&quot;</span>, <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a>, <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>());</div>
+<div class="line"><span class="lineno">  115</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>() &lt; 10000000);</div>
+<div class="line"><span class="lineno">  116</span> </div>
+<div class="line"><span class="lineno">  117</span>    <span class="keywordtype">size_t</span> <span class="keyword">const</span> newSize = <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a> + cnt;</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.capacity() &lt; newSize) <span class="comment">// custom memory allocation rules</span></div>
+<div class="line"><span class="lineno">  120</span>    {</div>
+<div class="line"><span class="lineno">  121</span>        <span class="keywordflow">if</span> (newSize &lt; 100)</div>
+<div class="line"><span class="lineno">  122</span>            <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.reserve(300);</div>
+<div class="line"><span class="lineno">  123</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (newSize &lt; 750)</div>
+<div class="line"><span class="lineno">  124</span>            <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.reserve(2500);</div>
+<div class="line"><span class="lineno">  125</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (newSize &lt; 6000)</div>
+<div class="line"><span class="lineno">  126</span>            <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.reserve(10000);</div>
+<div class="line"><span class="lineno">  127</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  128</span>            <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.reserve(400000);</div>
+<div class="line"><span class="lineno">  129</span>    }</div>
+<div class="line"><span class="lineno">  130</span> </div>
+<div class="line"><span class="lineno">  131</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.size() &lt; newSize)</div>
+<div class="line"><span class="lineno">  132</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.resize(newSize);</div>
+<div class="line"><span class="lineno">  133</span> </div>
+<div class="line"><span class="lineno">  134</span>    std::memcpy(&amp;<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>[<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a>], src, cnt);</div>
+<div class="line"><span class="lineno">  135</span>    <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a> = newSize;</div>
+<div class="line"><span class="lineno">  136</span>}</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aclass_byte_buffer_html_ac06a598447807d32f6594a97a32bce94"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">ByteBuffer::size</a></div><div class="ttdeci">size_t size() const</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:444</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa7b1246e84bc9010cf14a66385b85e07" name="aa7b1246e84bc9010cf14a66385b85e07"></a>
@@ -650,7 +722,12 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  139</span>{</div>
+<div class="line"><span class="lineno">  140</span>    tm lt = <a class="code hl_function" href="../../d9/d3a/namespace_acore_1_1_time.html#ab6a946894ec0cb9fa9bf76afa8e7fec8">Acore::Time::TimeBreakdown</a>(time);</div>
+<div class="line"><span class="lineno">  141</span>    append&lt;uint32&gt;((lt.tm_year - 100) &lt;&lt; 24 | lt.tm_mon &lt;&lt; 20 | (lt.tm_mday - 1) &lt;&lt; 14 | lt.tm_wday &lt;&lt; 11 | lt.tm_hour &lt;&lt; 6 | lt.tm_min);</div>
+<div class="line"><span class="lineno">  142</span>}</div>
+<div class="ttc" id="anamespace_acore_1_1_time_html_ab6a946894ec0cb9fa9bf76afa8e7fec8"><div class="ttname"><a href="../../d9/d3a/namespace_acore_1_1_time.html#ab6a946894ec0cb9fa9bf76afa8e7fec8">Acore::Time::TimeBreakdown</a></div><div class="ttdeci">AC_COMMON_API std::tm TimeBreakdown(time_t t=0)</div><div class="ttdef"><b>Definition:</b> Timer.cpp:233</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2dd5e1c2c674c3a0a4c368f6fa833dd6" name="a2dd5e1c2c674c3a0a4c368f6fa833dd6"></a>
@@ -676,7 +753,26 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  504</span>    {</div>
+<div class="line"><span class="lineno">  505</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> packGUID[8 + 1];</div>
+<div class="line"><span class="lineno">  506</span>        packGUID[0] = 0;</div>
+<div class="line"><span class="lineno">  507</span>        <span class="keywordtype">size_t</span> <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a> = 1;</div>
+<div class="line"><span class="lineno">  508</span> </div>
+<div class="line"><span class="lineno">  509</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; guid != 0;++i)</div>
+<div class="line"><span class="lineno">  510</span>        {</div>
+<div class="line"><span class="lineno">  511</span>            <span class="keywordflow">if</span> (guid &amp; 0xFF)</div>
+<div class="line"><span class="lineno">  512</span>            {</div>
+<div class="line"><span class="lineno">  513</span>                packGUID[0] |= <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(1 &lt;&lt; i);</div>
+<div class="line"><span class="lineno">  514</span>                packGUID[<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>] =  <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(guid &amp; 0xFF);</div>
+<div class="line"><span class="lineno">  515</span>                ++<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>;</div>
+<div class="line"><span class="lineno">  516</span>            }</div>
+<div class="line"><span class="lineno">  517</span> </div>
+<div class="line"><span class="lineno">  518</span>            guid &gt;&gt;= 8;</div>
+<div class="line"><span class="lineno">  519</span>        }</div>
+<div class="line"><span class="lineno">  520</span> </div>
+<div class="line"><span class="lineno">  521</span>        <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a5811e6da355e8c3d0f45997a557a666b">append</a>(packGUID, <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>);</div>
+<div class="line"><span class="lineno">  522</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1c3b7fe10221e5c32f3b542b37d453cf" name="a1c3b7fe10221e5c32f3b542b37d453cf"></a>
@@ -718,7 +814,15 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  495</span>    {</div>
+<div class="line"><span class="lineno">  496</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> packed = 0;</div>
+<div class="line"><span class="lineno">  497</span>        packed |= ((int)(x / 0.25f) &amp; 0x7FF);</div>
+<div class="line"><span class="lineno">  498</span>        packed |= ((int)(y / 0.25f) &amp; 0x7FF) &lt;&lt; 11;</div>
+<div class="line"><span class="lineno">  499</span>        packed |= ((int)(z / 0.25f) &amp; 0x3FF) &lt;&lt; 22;</div>
+<div class="line"><span class="lineno">  500</span>        *<span class="keyword">this</span> &lt;&lt; packed;</div>
+<div class="line"><span class="lineno">  501</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab9fbbcf0abe4049e2016c1262795c97e" name="ab9fbbcf0abe4049e2016c1262795c97e"></a>
@@ -743,7 +847,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  123</span>    {</div>
+<div class="line"><span class="lineno">  124</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.clear();</div>
+<div class="line"><span class="lineno">  125</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a> = <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a> = 0;</div>
+<div class="line"><span class="lineno">  126</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af0e8fd90f17049711204ae51a4ac86e4" name="af0e8fd90f17049711204ae51a4ac86e4"></a>
@@ -768,7 +876,16 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  425</span>    {</div>
+<div class="line"><span class="lineno">  426</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.empty())</div>
+<div class="line"><span class="lineno">  427</span>        {</div>
+<div class="line"><span class="lineno">  428</span>            <span class="keywordflow">throw</span> <a class="code hl_class" href="../../d3/d70/class_byte_buffer_exception.html">ByteBufferException</a>();</div>
+<div class="line"><span class="lineno">  429</span>        }</div>
+<div class="line"><span class="lineno">  430</span> </div>
+<div class="line"><span class="lineno">  431</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.data();</div>
+<div class="line"><span class="lineno">  432</span>    }</div>
+<div class="ttc" id="aclass_byte_buffer_exception_html"><div class="ttname"><a href="../../d3/d70/class_byte_buffer_exception.html">ByteBufferException</a></div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:32</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a25bf7a7a4c55f915b7ae0eb221e54fef" name="a25bf7a7a4c55f915b7ae0eb221e54fef"></a>
@@ -793,7 +910,15 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  435</span>    {</div>
+<div class="line"><span class="lineno">  436</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.empty())</div>
+<div class="line"><span class="lineno">  437</span>        {</div>
+<div class="line"><span class="lineno">  438</span>            <span class="keywordflow">throw</span> <a class="code hl_class" href="../../d3/d70/class_byte_buffer_exception.html">ByteBufferException</a>();</div>
+<div class="line"><span class="lineno">  439</span>        }</div>
+<div class="line"><span class="lineno">  440</span> </div>
+<div class="line"><span class="lineno">  441</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.data();</div>
+<div class="line"><span class="lineno">  442</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac1bd3fa1333a0b1140398dca94582bf9" name="ac1bd3fa1333a0b1140398dca94582bf9"></a>
@@ -818,7 +943,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  445</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.empty(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a45e6b7d03df82a0be6eab9975193881e" name="a45e6b7d03df82a0be6eab9975193881e"></a>
@@ -835,7 +961,42 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  190</span>{</div>
+<div class="line"><span class="lineno">  191</span>    <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../da/df4/_log_8h.html#ab5487500f5b4b12072043104b916d582">sLog</a>-&gt;ShouldLog(<span class="stringliteral">&quot;network.opcode.buffer&quot;</span>, LogLevel::LOG_LEVEL_TRACE)) <span class="comment">// optimize disabled trace output</span></div>
+<div class="line"><span class="lineno">  192</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  193</span> </div>
+<div class="line"><span class="lineno">  194</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> j = 1, k = 1;</div>
+<div class="line"><span class="lineno">  195</span> </div>
+<div class="line"><span class="lineno">  196</span>    std::ostringstream o;</div>
+<div class="line"><span class="lineno">  197</span>    o &lt;&lt; <span class="stringliteral">&quot;STORAGE_SIZE: &quot;</span> &lt;&lt; <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>();</div>
+<div class="line"><span class="lineno">  198</span> </div>
+<div class="line"><span class="lineno">  199</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>(); ++i)</div>
+<div class="line"><span class="lineno">  200</span>    {</div>
+<div class="line"><span class="lineno">  201</span>        <span class="keywordtype">char</span> buf[4];</div>
+<div class="line"><span class="lineno">  202</span>        snprintf(buf, 4, <span class="stringliteral">&quot;%2X &quot;</span>, read&lt;uint8&gt;(i));</div>
+<div class="line"><span class="lineno">  203</span> </div>
+<div class="line"><span class="lineno">  204</span>        <span class="keywordflow">if</span> ((i == (j * 8)) &amp;&amp; ((i != (k * 16))))</div>
+<div class="line"><span class="lineno">  205</span>        {</div>
+<div class="line"><span class="lineno">  206</span>            o &lt;&lt; <span class="stringliteral">&quot;| &quot;</span>;</div>
+<div class="line"><span class="lineno">  207</span>            ++j;</div>
+<div class="line"><span class="lineno">  208</span>        }</div>
+<div class="line"><span class="lineno">  209</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (i == (k * 16))</div>
+<div class="line"><span class="lineno">  210</span>        {</div>
+<div class="line"><span class="lineno">  211</span>            o &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  212</span>            ++k;</div>
+<div class="line"><span class="lineno">  213</span>            ++j;</div>
+<div class="line"><span class="lineno">  214</span>        }</div>
+<div class="line"><span class="lineno">  215</span> </div>
+<div class="line"><span class="lineno">  216</span>        o &lt;&lt; buf;</div>
+<div class="line"><span class="lineno">  217</span>    }</div>
+<div class="line"><span class="lineno">  218</span> </div>
+<div class="line"><span class="lineno">  219</span>    o &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno">  220</span> </div>
+<div class="line"><span class="lineno">  221</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5">LOG_TRACE</a>(<span class="stringliteral">&quot;network.opcode.buffer&quot;</span>, <span class="stringliteral">&quot;{}&quot;</span>, o.str());</div>
+<div class="line"><span class="lineno">  222</span>}</div>
+<div class="ttc" id="a_log_8h_html_ab5487500f5b4b12072043104b916d582"><div class="ttname"><a href="../../da/df4/_log_8h.html#ab5487500f5b4b12072043104b916d582">sLog</a></div><div class="ttdeci">#define sLog</div><div class="ttdef"><b>Definition:</b> Log.h:128</div></div>
+<div class="ttc" id="a_log_8h_html_ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5"><div class="ttname"><a href="../../da/df4/_log_8h.html#ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5">LOG_TRACE</a></div><div class="ttdeci">#define LOG_TRACE(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:175</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a00350606ebe9f3febcede0679367b2a7" name="a00350606ebe9f3febcede0679367b2a7"></a>
@@ -861,7 +1022,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  145</span>    {</div>
+<div class="line"><span class="lineno">  146</span>        append&lt;uint8&gt;(value ? 1 : 0);</div>
+<div class="line"><span class="lineno">  147</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  148</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af408de5bdd2e1e9c33351eebbc70c99e" name="af408de5bdd2e1e9c33351eebbc70c99e"></a>
@@ -887,7 +1052,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  229</span>    {</div>
+<div class="line"><span class="lineno">  230</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a00350606ebe9f3febcede0679367b2a7">operator&lt;&lt;</a>(std::string_view(str ? str : <span class="stringliteral">&quot;&quot;</span>));</div>
+<div class="line"><span class="lineno">  231</span>    }</div>
+<div class="ttc" id="aclass_byte_buffer_html_a00350606ebe9f3febcede0679367b2a7"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#a00350606ebe9f3febcede0679367b2a7">ByteBuffer::operator&lt;&lt;</a></div><div class="ttdeci">ByteBuffer &amp; operator&lt;&lt;(bool value)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:144</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a177ac23fc6f11fbc89d9e93259f84e4b" name="a177ac23fc6f11fbc89d9e93259f84e4b"></a>
@@ -913,7 +1082,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  207</span>    {</div>
+<div class="line"><span class="lineno">  208</span>        append&lt;double&gt;(value);</div>
+<div class="line"><span class="lineno">  209</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  210</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5d2b326c6a5dee7c12d31812e521c632" name="a5d2b326c6a5dee7c12d31812e521c632"></a>
@@ -939,7 +1112,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  201</span>    {</div>
+<div class="line"><span class="lineno">  202</span>        append&lt;float&gt;(value);</div>
+<div class="line"><span class="lineno">  203</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  204</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abf79846b58cb799ca54a2935d29dc4e8" name="abf79846b58cb799ca54a2935d29dc4e8"></a>
@@ -965,7 +1142,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  182</span>    {</div>
+<div class="line"><span class="lineno">  183</span>        append&lt;int16&gt;(value);</div>
+<div class="line"><span class="lineno">  184</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  185</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a254d93fdded17cc8f0a7a1743d062a42" name="a254d93fdded17cc8f0a7a1743d062a42"></a>
@@ -991,7 +1172,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  188</span>    {</div>
+<div class="line"><span class="lineno">  189</span>        append&lt;int32&gt;(value);</div>
+<div class="line"><span class="lineno">  190</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  191</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a33b142e608c77fb829d9888cd61c0e4e" name="a33b142e608c77fb829d9888cd61c0e4e"></a>
@@ -1017,7 +1202,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  194</span>    {</div>
+<div class="line"><span class="lineno">  195</span>        append&lt;int64&gt;(value);</div>
+<div class="line"><span class="lineno">  196</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  197</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad2b3bb576047c3287595cf6129b06411" name="ad2b3bb576047c3287595cf6129b06411"></a>
@@ -1043,7 +1232,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  176</span>    {</div>
+<div class="line"><span class="lineno">  177</span>        append&lt;int8&gt;(value);</div>
+<div class="line"><span class="lineno">  178</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  179</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a195c157d1bbe2949bbbbf278f04c4497" name="a195c157d1bbe2949bbbbf278f04c4497"></a>
@@ -1069,7 +1262,10 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  224</span>    {</div>
+<div class="line"><span class="lineno">  225</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a00350606ebe9f3febcede0679367b2a7">operator&lt;&lt;</a>(std::string_view(str));</div>
+<div class="line"><span class="lineno">  226</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a369557455fa86d67ab4a1531f23ecc02" name="a369557455fa86d67ab4a1531f23ecc02"></a>
@@ -1095,7 +1291,16 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  213</span>    {</div>
+<div class="line"><span class="lineno">  214</span>        <span class="keywordflow">if</span> (<span class="keywordtype">size_t</span> len = value.length())</div>
+<div class="line"><span class="lineno">  215</span>        {</div>
+<div class="line"><span class="lineno">  216</span>            <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a5811e6da355e8c3d0f45997a557a666b">append</a>(<span class="keyword">reinterpret_cast&lt;</span><a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> const*<span class="keyword">&gt;</span>(value.data()), len);</div>
+<div class="line"><span class="lineno">  217</span>        }</div>
+<div class="line"><span class="lineno">  218</span> </div>
+<div class="line"><span class="lineno">  219</span>        <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a5811e6da355e8c3d0f45997a557a666b">append</a>(<span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a><span class="keyword">&gt;</span>(0));</div>
+<div class="line"><span class="lineno">  220</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  221</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a80b1cfe1258515038f57204073765c2a" name="a80b1cfe1258515038f57204073765c2a"></a>
@@ -1121,7 +1326,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  157</span>    {</div>
+<div class="line"><span class="lineno">  158</span>        append&lt;uint16&gt;(value);</div>
+<div class="line"><span class="lineno">  159</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  160</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0d8be0376e6b2a6e74821d0dc471f9fd" name="a0d8be0376e6b2a6e74821d0dc471f9fd"></a>
@@ -1147,7 +1356,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  163</span>    {</div>
+<div class="line"><span class="lineno">  164</span>        append&lt;uint32&gt;(value);</div>
+<div class="line"><span class="lineno">  165</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  166</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abd9454c5585a24a4f5609b7965419fa1" name="abd9454c5585a24a4f5609b7965419fa1"></a>
@@ -1173,7 +1386,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  169</span>    {</div>
+<div class="line"><span class="lineno">  170</span>        append&lt;uint64&gt;(value);</div>
+<div class="line"><span class="lineno">  171</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  172</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1ea8f6df50599c237863ab33ce7ac7b2" name="a1ea8f6df50599c237863ab33ce7ac7b2"></a>
@@ -1199,7 +1416,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  151</span>    {</div>
+<div class="line"><span class="lineno">  152</span>        append&lt;uint8&gt;(value);</div>
+<div class="line"><span class="lineno">  153</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  154</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa70d33b89e626033048985b9340a414f" name="aa70d33b89e626033048985b9340a414f"></a>
@@ -1225,7 +1446,19 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  109</span>    {</div>
+<div class="line"><span class="lineno">  110</span>        <span class="keywordflow">if</span> (<span class="keyword">this</span> != &amp;right)</div>
+<div class="line"><span class="lineno">  111</span>        {</div>
+<div class="line"><span class="lineno">  112</span>            <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a> = right.<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a>;</div>
+<div class="line"><span class="lineno">  113</span>            right.<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a> = 0;</div>
+<div class="line"><span class="lineno">  114</span>            <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a> = right.<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a>;</div>
+<div class="line"><span class="lineno">  115</span>            right.<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a> = 0;</div>
+<div class="line"><span class="lineno">  116</span>            <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a> = std::move(right.<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>);</div>
+<div class="line"><span class="lineno">  117</span>        }</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  120</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2b3c467b38b384e3900c15b278480598" name="a2b3c467b38b384e3900c15b278480598"></a>
@@ -1251,7 +1484,17 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   97</span>    {</div>
+<div class="line"><span class="lineno">   98</span>        <span class="keywordflow">if</span> (<span class="keyword">this</span> != &amp;right)</div>
+<div class="line"><span class="lineno">   99</span>        {</div>
+<div class="line"><span class="lineno">  100</span>            <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a> = right._rpos;</div>
+<div class="line"><span class="lineno">  101</span>            <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a> = right._wpos;</div>
+<div class="line"><span class="lineno">  102</span>            <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a> = right._storage;</div>
+<div class="line"><span class="lineno">  103</span>        }</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  106</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae7a3b48d7c68c8b96df10b149b3c6b00" name="ae7a3b48d7c68c8b96df10b149b3c6b00"></a>
@@ -1277,7 +1520,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  234</span>    {</div>
+<div class="line"><span class="lineno">  235</span>        value = read&lt;char&gt;() &gt; 0;</div>
+<div class="line"><span class="lineno">  236</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  237</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aef3df0cb7f7731f92857880d4c241e0c" name="aef3df0cb7f7731f92857880d4c241e0c"></a>
@@ -1295,7 +1542,16 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   69</span>{</div>
+<div class="line"><span class="lineno">   70</span>    value = read&lt;double&gt;();</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>    <span class="keywordflow">if</span> (!std::isfinite(value))</div>
+<div class="line"><span class="lineno">   73</span>        <span class="keywordflow">throw</span> <a class="code hl_class" href="../../df/d42/class_byte_buffer_invalid_value_exception.html">ByteBufferInvalidValueException</a>(<span class="stringliteral">&quot;double&quot;</span>, <span class="stringliteral">&quot;infinity&quot;</span>);</div>
+<div class="line"><span class="lineno">   74</span> </div>
+<div class="line"><span class="lineno">   75</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   76</span>}</div>
+<div class="ttc" id="aclass_byte_buffer_invalid_value_exception_html"><div class="ttname"><a href="../../df/d42/class_byte_buffer_invalid_value_exception.html">ByteBufferInvalidValueException</a></div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:62</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a29fb7124d40e89d17017e98c7f0c811f" name="a29fb7124d40e89d17017e98c7f0c811f"></a>
@@ -1313,7 +1569,15 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   59</span>{</div>
+<div class="line"><span class="lineno">   60</span>    value = read&lt;float&gt;();</div>
+<div class="line"><span class="lineno">   61</span> </div>
+<div class="line"><span class="lineno">   62</span>    <span class="keywordflow">if</span> (!std::isfinite(value))</div>
+<div class="line"><span class="lineno">   63</span>        <span class="keywordflow">throw</span> <a class="code hl_class" href="../../df/d42/class_byte_buffer_invalid_value_exception.html">ByteBufferInvalidValueException</a>(<span class="stringliteral">&quot;float&quot;</span>, <span class="stringliteral">&quot;infinity&quot;</span>);</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   66</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4820106e12718330e61a21ff15f28a3d" name="a4820106e12718330e61a21ff15f28a3d"></a>
@@ -1339,7 +1603,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  271</span>    {</div>
+<div class="line"><span class="lineno">  272</span>        value = read&lt;int16&gt;();</div>
+<div class="line"><span class="lineno">  273</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  274</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab8a60a8541fca5e7a2c55dcdcebf16e3" name="ab8a60a8541fca5e7a2c55dcdcebf16e3"></a>
@@ -1365,7 +1633,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  277</span>    {</div>
+<div class="line"><span class="lineno">  278</span>        value = read&lt;int32&gt;();</div>
+<div class="line"><span class="lineno">  279</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  280</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a11e4079a2e77e3869d43e693d43fecc9" name="a11e4079a2e77e3869d43e693d43fecc9"></a>
@@ -1391,7 +1663,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  283</span>    {</div>
+<div class="line"><span class="lineno">  284</span>        value = read&lt;int64&gt;();</div>
+<div class="line"><span class="lineno">  285</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  286</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a62ba17e3b17886975cd4c157e4050f83" name="a62ba17e3b17886975cd4c157e4050f83"></a>
@@ -1417,7 +1693,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  265</span>    {</div>
+<div class="line"><span class="lineno">  266</span>        value = read&lt;int8&gt;();</div>
+<div class="line"><span class="lineno">  267</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  268</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9af52b14e94ffc0a0f5f78a0dae242db" name="a9af52b14e94ffc0a0f5f78a0dae242db"></a>
@@ -1443,7 +1723,12 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  292</span>    {</div>
+<div class="line"><span class="lineno">  293</span>        value = <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a7762b0b05a274ebe1ef7ce9c06ca5401">ReadCString</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  294</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  295</span>    }</div>
+<div class="ttc" id="aclass_byte_buffer_html_a7762b0b05a274ebe1ef7ce9c06ca5401"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#a7762b0b05a274ebe1ef7ce9c06ca5401">ByteBuffer::ReadCString</a></div><div class="ttdeci">std::string ReadCString(bool requireValidUtf8=true)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.cpp:78</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a671cdb610adcd05664a975ba40d21bb6" name="a671cdb610adcd05664a975ba40d21bb6"></a>
@@ -1469,7 +1754,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  246</span>    {</div>
+<div class="line"><span class="lineno">  247</span>        value = read&lt;uint16&gt;();</div>
+<div class="line"><span class="lineno">  248</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  249</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1de198bd2e6f96e1508ba32c7e9764b1" name="a1de198bd2e6f96e1508ba32c7e9764b1"></a>
@@ -1495,7 +1784,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  252</span>    {</div>
+<div class="line"><span class="lineno">  253</span>        value = read&lt;uint32&gt;();</div>
+<div class="line"><span class="lineno">  254</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  255</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af33400f18549278ea8ce969a6a86d44e" name="af33400f18549278ea8ce969a6a86d44e"></a>
@@ -1521,7 +1814,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  258</span>    {</div>
+<div class="line"><span class="lineno">  259</span>        value = read&lt;uint64&gt;();</div>
+<div class="line"><span class="lineno">  260</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  261</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a50c22f913b35b6d4f10786d8f1e45600" name="a50c22f913b35b6d4f10786d8f1e45600"></a>
@@ -1547,7 +1844,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  240</span>    {</div>
+<div class="line"><span class="lineno">  241</span>        value = read&lt;uint8&gt;();</div>
+<div class="line"><span class="lineno">  242</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  243</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a70d0cc1ca10cf329fbe60dfa67b2cffe" name="a70d0cc1ca10cf329fbe60dfa67b2cffe"></a>
@@ -1573,7 +1874,16 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  298</span>    {</div>
+<div class="line"><span class="lineno">  299</span>        <span class="keywordflow">if</span> (pos &gt;= <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>())</div>
+<div class="line"><span class="lineno">  300</span>        {</div>
+<div class="line"><span class="lineno">  301</span>            <span class="keywordflow">throw</span> <a class="code hl_class" href="../../dd/d16/class_byte_buffer_position_exception.html">ByteBufferPositionException</a>(<span class="keyword">false</span>, pos, 1, <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>());</div>
+<div class="line"><span class="lineno">  302</span>        }</div>
+<div class="line"><span class="lineno">  303</span> </div>
+<div class="line"><span class="lineno">  304</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>[pos];</div>
+<div class="line"><span class="lineno">  305</span>    }</div>
+<div class="ttc" id="aclass_byte_buffer_position_exception_html"><div class="ttname"><a href="../../dd/d16/class_byte_buffer_position_exception.html">ByteBufferPositionException</a></div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:46</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a74fb1d29ca8d54350cf3d4439ed7dec2" name="a74fb1d29ca8d54350cf3d4439ed7dec2"></a>
@@ -1599,7 +1909,15 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  308</span>    {</div>
+<div class="line"><span class="lineno">  309</span>        <span class="keywordflow">if</span> (pos &gt;= <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>())</div>
+<div class="line"><span class="lineno">  310</span>        {</div>
+<div class="line"><span class="lineno">  311</span>            <span class="keywordflow">throw</span> <a class="code hl_class" href="../../dd/d16/class_byte_buffer_position_exception.html">ByteBufferPositionException</a>(<span class="keyword">false</span>, pos, 1, <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>());</div>
+<div class="line"><span class="lineno">  312</span>        }</div>
+<div class="line"><span class="lineno">  313</span> </div>
+<div class="line"><span class="lineno">  314</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>[pos];</div>
+<div class="line"><span class="lineno">  315</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4b2ea80e6832431ad45758246f49a850" name="a4b2ea80e6832431ad45758246f49a850"></a>
@@ -1616,7 +1934,21 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  154</span>{</div>
+<div class="line"><span class="lineno">  155</span>    <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../da/df4/_log_8h.html#ab5487500f5b4b12072043104b916d582">sLog</a>-&gt;ShouldLog(<span class="stringliteral">&quot;network.opcode.buffer&quot;</span>, LogLevel::LOG_LEVEL_TRACE)) <span class="comment">// optimize disabled trace output</span></div>
+<div class="line"><span class="lineno">  156</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  157</span> </div>
+<div class="line"><span class="lineno">  158</span>    std::ostringstream o;</div>
+<div class="line"><span class="lineno">  159</span>    o &lt;&lt; <span class="stringliteral">&quot;STORAGE_SIZE: &quot;</span> &lt;&lt; <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>();</div>
+<div class="line"><span class="lineno">  160</span> </div>
+<div class="line"><span class="lineno">  161</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>(); ++i)</div>
+<div class="line"><span class="lineno">  162</span>        o &lt;&lt; read&lt;uint8&gt;(i) &lt;&lt; <span class="stringliteral">&quot; - &quot;</span>;</div>
+<div class="line"><span class="lineno">  163</span> </div>
+<div class="line"><span class="lineno">  164</span>    o &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno">  165</span> </div>
+<div class="line"><span class="lineno">  166</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5">LOG_TRACE</a>(<span class="stringliteral">&quot;network.opcode.buffer&quot;</span>, <span class="stringliteral">&quot;{}&quot;</span>, o.str());</div>
+<div class="line"><span class="lineno">  167</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6cdb78ef255a35d29ffe2ca0feb98f73" name="a6cdb78ef255a35d29ffe2ca0feb98f73"></a>
@@ -1650,7 +1982,14 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  145</span>{</div>
+<div class="line"><span class="lineno">  146</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(pos + cnt &lt;= <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>(), <span class="stringliteral">&quot;Attempted to put value with size: {} in ByteBuffer (pos: {} size: {})&quot;</span>, cnt, pos, <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>());</div>
+<div class="line"><span class="lineno">  147</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(src, <span class="stringliteral">&quot;Attempted to put a NULL-pointer in ByteBuffer (pos: {} size: {})&quot;</span>, pos, <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>());</div>
+<div class="line"><span class="lineno">  148</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(cnt, <span class="stringliteral">&quot;Attempted to put a zero-sized value in ByteBuffer (pos: {} size: {})&quot;</span>, pos, <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>());</div>
+<div class="line"><span class="lineno">  149</span> </div>
+<div class="line"><span class="lineno">  150</span>    std::memcpy(&amp;<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>[pos], src, cnt);</div>
+<div class="line"><span class="lineno">  151</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab14206d336f09c4096a84a27c9bb6777" name="ab14206d336f09c4096a84a27c9bb6777"></a>
@@ -1688,7 +2027,13 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  138</span>    {</div>
+<div class="line"><span class="lineno">  139</span>        <span class="keyword">static_assert</span>(std::is_fundamental&lt;T&gt;::value, <span class="stringliteral">&quot;append(compound)&quot;</span>);</div>
+<div class="line"><span class="lineno">  140</span>        <a class="code hl_function" href="../../d8/db2/_byte_converter_8h.html#a9d20b1e463a04f0a22d79ca802902be6">EndianConvert</a>(value);</div>
+<div class="line"><span class="lineno">  141</span>        <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ab14206d336f09c4096a84a27c9bb6777">put</a>(pos, (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>*)&amp;value, <span class="keyword">sizeof</span>(value));</div>
+<div class="line"><span class="lineno">  142</span>    }</div>
+<div class="ttc" id="aclass_byte_buffer_html_ab14206d336f09c4096a84a27c9bb6777"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#ab14206d336f09c4096a84a27c9bb6777">ByteBuffer::put</a></div><div class="ttdeci">void put(std::size_t pos, T value)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:137</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afab3484e1af821859f16b7bdacf2af9c" name="afab3484e1af821859f16b7bdacf2af9c"></a>
@@ -1715,7 +2060,12 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  352</span>    {</div>
+<div class="line"><span class="lineno">  353</span>        T r = read&lt;T&gt;(<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a>);</div>
+<div class="line"><span class="lineno">  354</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a> += <span class="keyword">sizeof</span>(T);</div>
+<div class="line"><span class="lineno">  355</span>        <span class="keywordflow">return</span> r;</div>
+<div class="line"><span class="lineno">  356</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a36e80bfabae00bd1c58e319a0d6e51b4" name="a36e80bfabae00bd1c58e319a0d6e51b4"></a>
@@ -1743,7 +2093,17 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  359</span>    {</div>
+<div class="line"><span class="lineno">  360</span>        <span class="keywordflow">if</span> (pos + <span class="keyword">sizeof</span>(T) &gt; <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>())</div>
+<div class="line"><span class="lineno">  361</span>        {</div>
+<div class="line"><span class="lineno">  362</span>            <span class="keywordflow">throw</span> <a class="code hl_class" href="../../dd/d16/class_byte_buffer_position_exception.html">ByteBufferPositionException</a>(<span class="keyword">false</span>, pos, <span class="keyword">sizeof</span>(T), <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>());</div>
+<div class="line"><span class="lineno">  363</span>        }</div>
+<div class="line"><span class="lineno">  364</span> </div>
+<div class="line"><span class="lineno">  365</span>        T val = *((T <span class="keyword">const</span>*)&amp;<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>[pos]);</div>
+<div class="line"><span class="lineno">  366</span>        <a class="code hl_function" href="../../d8/db2/_byte_converter_8h.html#a9d20b1e463a04f0a22d79ca802902be6">EndianConvert</a>(val);</div>
+<div class="line"><span class="lineno">  367</span>        <span class="keywordflow">return</span> val;</div>
+<div class="line"><span class="lineno">  368</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0cd006e3d269e68f472f9c4d5590567b" name="a0cd006e3d269e68f472f9c4d5590567b"></a>
@@ -1771,7 +2131,11 @@ template&lt;size_t Size&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  383</span>    {</div>
+<div class="line"><span class="lineno">  384</span>        <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#afab3484e1af821859f16b7bdacf2af9c">read</a>(arr.data(), Size);</div>
+<div class="line"><span class="lineno">  385</span>    }</div>
+<div class="ttc" id="aclass_byte_buffer_html_afab3484e1af821859f16b7bdacf2af9c"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#afab3484e1af821859f16b7bdacf2af9c">ByteBuffer::read</a></div><div class="ttdeci">T read()</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:351</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afd915966ccefdd33d7a1ca3d8846b114" name="afd915966ccefdd33d7a1ca3d8846b114"></a>
@@ -1807,7 +2171,16 @@ template&lt;size_t Size&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  371</span>    {</div>
+<div class="line"><span class="lineno">  372</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a>  + len &gt; <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>())</div>
+<div class="line"><span class="lineno">  373</span>        {</div>
+<div class="line"><span class="lineno">  374</span>            <span class="keywordflow">throw</span> <a class="code hl_class" href="../../dd/d16/class_byte_buffer_position_exception.html">ByteBufferPositionException</a>(<span class="keyword">false</span>, <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a>, len, <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>());</div>
+<div class="line"><span class="lineno">  375</span>        }</div>
+<div class="line"><span class="lineno">  376</span> </div>
+<div class="line"><span class="lineno">  377</span>        std::memcpy(dest, &amp;<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>[<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a>], len);</div>
+<div class="line"><span class="lineno">  378</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a> += len;</div>
+<div class="line"><span class="lineno">  379</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a13c94e2d389aa4c7427d1ba0c79fc955" name="a13c94e2d389aa4c7427d1ba0c79fc955"></a>
@@ -1834,7 +2207,9 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  339</span>{ <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a13c94e2d389aa4c7427d1ba0c79fc955">read_skip</a>(<span class="keyword">sizeof</span>(T)); }</div>
+<div class="ttc" id="aclass_byte_buffer_html_a13c94e2d389aa4c7427d1ba0c79fc955"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#a13c94e2d389aa4c7427d1ba0c79fc955">ByteBuffer::read_skip</a></div><div class="ttdeci">void read_skip()</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:339</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aae5d8ea772e7adcea4e7b533ae25fb94" name="aae5d8ea772e7adcea4e7b533ae25fb94"></a>
@@ -1861,7 +2236,11 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  546</span>{</div>
+<div class="line"><span class="lineno">  547</span>    std::string temp;</div>
+<div class="line"><span class="lineno">  548</span>    *<span class="keyword">this</span> &gt;&gt; temp;</div>
+<div class="line"><span class="lineno">  549</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aae5d8ea772e7adcea4e7b533ae25fb94" name="aae5d8ea772e7adcea4e7b533ae25fb94"></a>
@@ -1888,7 +2267,10 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  553</span>{</div>
+<div class="line"><span class="lineno">  554</span>    read_skip&lt;char*&gt;();</div>
+<div class="line"><span class="lineno">  555</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4baaaf49c2875496222f138338acee57" name="a4baaaf49c2875496222f138338acee57"></a>
@@ -1914,7 +2296,15 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  342</span>    {</div>
+<div class="line"><span class="lineno">  343</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a> + skip &gt; <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>())</div>
+<div class="line"><span class="lineno">  344</span>        {</div>
+<div class="line"><span class="lineno">  345</span>            <span class="keywordflow">throw</span> <a class="code hl_class" href="../../dd/d16/class_byte_buffer_position_exception.html">ByteBufferPositionException</a>(<span class="keyword">false</span>, <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a>, skip, <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>());</div>
+<div class="line"><span class="lineno">  346</span>        }</div>
+<div class="line"><span class="lineno">  347</span> </div>
+<div class="line"><span class="lineno">  348</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a> += skip;</div>
+<div class="line"><span class="lineno">  349</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7762b0b05a274ebe1ef7ce9c06ca5401" name="a7762b0b05a274ebe1ef7ce9c06ca5401"></a>
@@ -1932,7 +2322,24 @@ template&lt;&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   79</span>{</div>
+<div class="line"><span class="lineno">   80</span>    std::string value;</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>    <span class="keywordflow">while</span> (<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a1e1a47f362861d8cd61cdf27f7eb1812">rpos</a>() &lt; <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>()) <span class="comment">// prevent crash at wrong string format in packet</span></div>
+<div class="line"><span class="lineno">   83</span>    {</div>
+<div class="line"><span class="lineno">   84</span>        <span class="keywordtype">char</span> c = read&lt;char&gt;();</div>
+<div class="line"><span class="lineno">   85</span>        <span class="keywordflow">if</span> (c == 0)</div>
+<div class="line"><span class="lineno">   86</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   87</span>        value += c;</div>
+<div class="line"><span class="lineno">   88</span>    }</div>
+<div class="line"><span class="lineno">   89</span> </div>
+<div class="line"><span class="lineno">   90</span>    <span class="keywordflow">if</span> (requireValidUtf8 &amp;&amp; !utf8::is_valid(value.begin(), value.end()))</div>
+<div class="line"><span class="lineno">   91</span>        <span class="keywordflow">throw</span> <a class="code hl_class" href="../../df/d42/class_byte_buffer_invalid_value_exception.html">ByteBufferInvalidValueException</a>(<span class="stringliteral">&quot;string&quot;</span>, value.c_str());</div>
+<div class="line"><span class="lineno">   92</span> </div>
+<div class="line"><span class="lineno">   93</span>    <span class="keywordflow">return</span> value;</div>
+<div class="line"><span class="lineno">   94</span>}</div>
+<div class="ttc" id="aclass_byte_buffer_html_a1e1a47f362861d8cd61cdf27f7eb1812"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#a1e1a47f362861d8cd61cdf27f7eb1812">ByteBuffer::rpos</a></div><div class="ttdeci">size_t rpos() const</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:317</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af29889550c94a21bfd6bef3a2f139382" name="af29889550c94a21bfd6bef3a2f139382"></a>
@@ -1949,7 +2356,20 @@ template&lt;&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   97</span>{</div>
+<div class="line"><span class="lineno">   98</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> packedDate = read&lt;uint32&gt;();</div>
+<div class="line"><span class="lineno">   99</span>    tm lt = tm();</div>
+<div class="line"><span class="lineno">  100</span> </div>
+<div class="line"><span class="lineno">  101</span>    lt.tm_min = packedDate &amp; 0x3F;</div>
+<div class="line"><span class="lineno">  102</span>    lt.tm_hour = (packedDate &gt;&gt; 6) &amp; 0x1F;</div>
+<div class="line"><span class="lineno">  103</span>    <span class="comment">//lt.tm_wday = (packedDate &gt;&gt; 11) &amp; 7;</span></div>
+<div class="line"><span class="lineno">  104</span>    lt.tm_mday = ((packedDate &gt;&gt; 14) &amp; 0x3F) + 1;</div>
+<div class="line"><span class="lineno">  105</span>    lt.tm_mon = (packedDate &gt;&gt; 20) &amp; 0xF;</div>
+<div class="line"><span class="lineno">  106</span>    lt.tm_year = ((packedDate &gt;&gt; 24) &amp; 0x1F) + 100;</div>
+<div class="line"><span class="lineno">  107</span> </div>
+<div class="line"><span class="lineno">  108</span>    <span class="keywordflow">return</span> <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(mktime(&amp;lt));</div>
+<div class="line"><span class="lineno">  109</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8a5dd268b2d844c242dfa2f5eb1e893f" name="a8a5dd268b2d844c242dfa2f5eb1e893f"></a>
@@ -1975,7 +2395,12 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  419</span>    {</div>
+<div class="line"><span class="lineno">  420</span>        time = <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#af29889550c94a21bfd6bef3a2f139382">ReadPackedTime</a>();</div>
+<div class="line"><span class="lineno">  421</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  422</span>    }</div>
+<div class="ttc" id="aclass_byte_buffer_html_af29889550c94a21bfd6bef3a2f139382"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#af29889550c94a21bfd6bef3a2f139382">ByteBuffer::ReadPackedTime</a></div><div class="ttdeci">uint32 ReadPackedTime()</div><div class="ttdef"><b>Definition:</b> ByteBuffer.cpp:96</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad04535f80c6d32211f3b377ca8c32e68" name="ad04535f80c6d32211f3b377ca8c32e68"></a>
@@ -2001,7 +2426,34 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  388</span>    {</div>
+<div class="line"><span class="lineno">  389</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a1e1a47f362861d8cd61cdf27f7eb1812">rpos</a>() + 1 &gt; <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>())</div>
+<div class="line"><span class="lineno">  390</span>        {</div>
+<div class="line"><span class="lineno">  391</span>            <span class="keywordflow">throw</span> <a class="code hl_class" href="../../dd/d16/class_byte_buffer_position_exception.html">ByteBufferPositionException</a>(<span class="keyword">false</span>, <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a>, 1, <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>());</div>
+<div class="line"><span class="lineno">  392</span>        }</div>
+<div class="line"><span class="lineno">  393</span> </div>
+<div class="line"><span class="lineno">  394</span>        guid = 0;</div>
+<div class="line"><span class="lineno">  395</span> </div>
+<div class="line"><span class="lineno">  396</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> guidmark = 0;</div>
+<div class="line"><span class="lineno">  397</span>        (*this) &gt;&gt; guidmark;</div>
+<div class="line"><span class="lineno">  398</span> </div>
+<div class="line"><span class="lineno">  399</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 8; ++i)</div>
+<div class="line"><span class="lineno">  400</span>        {</div>
+<div class="line"><span class="lineno">  401</span>            <span class="keywordflow">if</span> (guidmark &amp; (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(1) &lt;&lt; i))</div>
+<div class="line"><span class="lineno">  402</span>            {</div>
+<div class="line"><span class="lineno">  403</span>                <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a1e1a47f362861d8cd61cdf27f7eb1812">rpos</a>() + 1 &gt; <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>())</div>
+<div class="line"><span class="lineno">  404</span>                {</div>
+<div class="line"><span class="lineno">  405</span>                    <span class="keywordflow">throw</span> <a class="code hl_class" href="../../dd/d16/class_byte_buffer_position_exception.html">ByteBufferPositionException</a>(<span class="keyword">false</span>, <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a>, 1, <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>());</div>
+<div class="line"><span class="lineno">  406</span>                }</div>
+<div class="line"><span class="lineno">  407</span> </div>
+<div class="line"><span class="lineno">  408</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> bit;</div>
+<div class="line"><span class="lineno">  409</span>                (*this) &gt;&gt; bit;</div>
+<div class="line"><span class="lineno">  410</span>                guid |= (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>(bit) &lt;&lt; (i * 8));</div>
+<div class="line"><span class="lineno">  411</span>            }</div>
+<div class="line"><span class="lineno">  412</span>        }</div>
+<div class="line"><span class="lineno">  413</span>    }</div>
+<div class="ttc" id="a_define_8h_html_ac4dd6ce78ce3b840c53bd4b3c63ed09b"><div class="ttname"><a href="../../db/d35/_define_8h.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a></div><div class="ttdeci">std::uint64_t uint64</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2561da6a9423880162eaf47c60284dbe" name="a2561da6a9423880162eaf47c60284dbe"></a>
@@ -2027,7 +2479,13 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  455</span>    {</div>
+<div class="line"><span class="lineno">  456</span>        <span class="keywordflow">if</span> (ressize &gt; <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>())</div>
+<div class="line"><span class="lineno">  457</span>        {</div>
+<div class="line"><span class="lineno">  458</span>            <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.reserve(ressize);</div>
+<div class="line"><span class="lineno">  459</span>        }</div>
+<div class="line"><span class="lineno">  460</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4062fd07fb3de1b099c21fe98e73751c" name="a4062fd07fb3de1b099c21fe98e73751c"></a>
@@ -2053,7 +2511,12 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  448</span>    {</div>
+<div class="line"><span class="lineno">  449</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.resize(newsize, 0);</div>
+<div class="line"><span class="lineno">  450</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a> = 0;</div>
+<div class="line"><span class="lineno">  451</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a> = <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>();</div>
+<div class="line"><span class="lineno">  452</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a68aceada27f7897fbb59c13264ad9517" name="a68aceada27f7897fbb59c13264ad9517"></a>
@@ -2078,7 +2541,11 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  326</span>    {</div>
+<div class="line"><span class="lineno">  327</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a> = <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a822527905d8efa5938e6a9f1adde97fd">wpos</a>();</div>
+<div class="line"><span class="lineno">  328</span>    }</div>
+<div class="ttc" id="aclass_byte_buffer_html_a822527905d8efa5938e6a9f1adde97fd"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#a822527905d8efa5938e6a9f1adde97fd">ByteBuffer::wpos</a></div><div class="ttdeci">size_t wpos() const</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:330</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1e1a47f362861d8cd61cdf27f7eb1812" name="a1e1a47f362861d8cd61cdf27f7eb1812"></a>
@@ -2103,7 +2570,8 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  317</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa7831aa11854477a7f78464bc49b5db5" name="aa7831aa11854477a7f78464bc49b5db5"></a>
@@ -2129,7 +2597,11 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  320</span>    {</div>
+<div class="line"><span class="lineno">  321</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a> = rpos_;</div>
+<div class="line"><span class="lineno">  322</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#acd1ed42ba76c596232eb7e0e5b92079b">_rpos</a>;</div>
+<div class="line"><span class="lineno">  323</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4f98988a7528081215fe378775e16402" name="a4f98988a7528081215fe378775e16402"></a>
@@ -2154,7 +2626,10 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  463</span>    {</div>
+<div class="line"><span class="lineno">  464</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.shrink_to_fit();</div>
+<div class="line"><span class="lineno">  465</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac06a598447807d32f6594a97a32bce94" name="ac06a598447807d32f6594a97a32bce94"></a>
@@ -2179,7 +2654,8 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  444</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a>.size(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9ce46ba3fcd156ea7119a91231339aa9" name="a9ce46ba3fcd156ea7119a91231339aa9"></a>
@@ -2196,7 +2672,25 @@ template&lt;&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  170</span>{</div>
+<div class="line"><span class="lineno">  171</span>    <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../da/df4/_log_8h.html#ab5487500f5b4b12072043104b916d582">sLog</a>-&gt;ShouldLog(<span class="stringliteral">&quot;network.opcode.buffer&quot;</span>, LogLevel::LOG_LEVEL_TRACE)) <span class="comment">// optimize disabled trace output</span></div>
+<div class="line"><span class="lineno">  172</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  173</span> </div>
+<div class="line"><span class="lineno">  174</span>    std::ostringstream o;</div>
+<div class="line"><span class="lineno">  175</span>    o &lt;&lt; <span class="stringliteral">&quot;STORAGE_SIZE: &quot;</span> &lt;&lt; <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>();</div>
+<div class="line"><span class="lineno">  176</span> </div>
+<div class="line"><span class="lineno">  177</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ac06a598447807d32f6594a97a32bce94">size</a>(); ++i)</div>
+<div class="line"><span class="lineno">  178</span>    {</div>
+<div class="line"><span class="lineno">  179</span>        <span class="keywordtype">char</span> buf[2];</div>
+<div class="line"><span class="lineno">  180</span>        snprintf(buf, 2, <span class="stringliteral">&quot;%c&quot;</span>, read&lt;uint8&gt;(i));</div>
+<div class="line"><span class="lineno">  181</span>        o &lt;&lt; buf;</div>
+<div class="line"><span class="lineno">  182</span>    }</div>
+<div class="line"><span class="lineno">  183</span> </div>
+<div class="line"><span class="lineno">  184</span>    o &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno">  185</span> </div>
+<div class="line"><span class="lineno">  186</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5">LOG_TRACE</a>(<span class="stringliteral">&quot;network.opcode.buffer&quot;</span>, <span class="stringliteral">&quot;{}&quot;</span>, o.str());</div>
+<div class="line"><span class="lineno">  187</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a822527905d8efa5938e6a9f1adde97fd" name="a822527905d8efa5938e6a9f1adde97fd"></a>
@@ -2221,7 +2715,8 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  330</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad06a154575b13c9afd85be2b574f0729" name="ad06a154575b13c9afd85be2b574f0729"></a>
@@ -2247,7 +2742,11 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  333</span>    {</div>
+<div class="line"><span class="lineno">  334</span>        <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a> = wpos_;</div>
+<div class="line"><span class="lineno">  335</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/d44/class_byte_buffer.html#a077e4ef0b12a178983d1beb1e1efccad">_wpos</a>;</div>
+<div class="line"><span class="lineno">  336</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -2340,8 +2839,8 @@ template&lt;&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/shared/Packets/<a class="el" href="../../d6/d6c/_byte_buffer_8h_source.html">ByteBuffer.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/shared/Packets/<a class="el" href="../../d4/d6c/_byte_buffer_8cpp.html">ByteBuffer.cpp</a></li>
+<li><a class="el" href="../../">ByteBuffer.h</a></li>
+<li><a class="el" href="../../">ByteBuffer.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -2349,7 +2848,7 @@ template&lt;&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d44/class_byte_buffer.html">ByteBuffer</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

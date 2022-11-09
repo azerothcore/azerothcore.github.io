@@ -540,7 +540,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a7cd0b6bf7ee616d4d4e98045f7b808c0 inherit pro_methods_class_creature_a_i"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d68/class_creature_a_i.html#a7cd0b6bf7ee616d4d4e98045f7b808c0">_EnterEvadeMode</a> (<a class="el" href="../../d2/d68/class_creature_a_i.html#a48b996440be01f98686cd088857a5dbb">EvadeReason</a> why=<a class="el" href="../../d2/d68/class_creature_a_i.html#a48b996440be01f98686cd088857a5dbba0a93738d4e35efeb13a3ce07963de027">EVADE_REASON_OTHER</a>)</td></tr>
 <tr class="separator:a7cd0b6bf7ee616d4d4e98045f7b808c0 inherit pro_methods_class_creature_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a736a25e60ae367a45c7d6451be96126d" name="a736a25e60ae367a45c7d6451be96126d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a736a25e60ae367a45c7d6451be96126d">&#9670;&#160;</a></span>boss_isalien()</h2>
 
@@ -564,7 +565,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   50</span>: <a class="code hl_class" href="../../d4/d0e/class_boss_a_i.html">BossAI</a>(creature, <a class="code hl_enumvalue" href="../../d9/d8f/dire__maul_8h.html#afb6eb4f28419b652027fad41104a6d22af0f02956415b9090a710dd0ca88a19ca">DATA_ISALIEN</a>) { }</div>
+<div class="ttc" id="aclass_boss_a_i_html"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html">BossAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:424</div></div>
+<div class="ttc" id="adire__maul_8h_html_afb6eb4f28419b652027fad41104a6d22af0f02956415b9090a710dd0ca88a19ca"><div class="ttname"><a href="../../d9/d8f/dire__maul_8h.html#afb6eb4f28419b652027fad41104a6d22af0f02956415b9090a710dd0ca88a19ca">DATA_ISALIEN</a></div><div class="ttdeci">@ DATA_ISALIEN</div><div class="ttdef"><b>Definition:</b> dire_maul.h:32</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -615,7 +619,40 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   66</span>    {</div>
+<div class="line"><span class="lineno">   67</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/de3/structboss__isalien.html#a954bbd32948e6c416197199d96142056">_phase</a> != <a class="code hl_enumvalue" href="../../da/dcc/boss__isalien_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219a9804f458758271100faa8cf4fe112f3e">PHASE_REGROWTH</a> &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a8bcfed25889f307b4849743956ae67fc">HealthBelowPct</a>(80.f))</div>
+<div class="line"><span class="lineno">   68</span>        {</div>
+<div class="line"><span class="lineno">   69</span>            <a class="code hl_variable" href="../../dc/de3/structboss__isalien.html#a954bbd32948e6c416197199d96142056">_phase</a> = <a class="code hl_enumvalue" href="../../da/dcc/boss__isalien_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219a9804f458758271100faa8cf4fe112f3e">PHASE_REGROWTH</a>;</div>
+<div class="line"><span class="lineno">   70</span>            <a class="code hl_variable" href="../../dc/de3/structboss__isalien.html#a8eb56a907e3395b9e81588aab7c07ca6">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(25s, 30s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">   71</span>                {</div>
+<div class="line"><span class="lineno">   72</span>                    <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> randomPos = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ae62feea6a882131657f061fbd8652188">GetRandomPoint</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">GetPosition</a>(), 15.f);</div>
+<div class="line"><span class="lineno">   73</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(<a class="code hl_enumvalue" href="../../da/dcc/boss__isalien_8cpp.html#a50ba2acfd483f395e71abb80f687463ead3736a25f6ba0a1f7fd078a34d9f3bf4">POINT_RANDOM</a>, randomPos);</div>
+<div class="line"><span class="lineno">   74</span>                    context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#ada6565daabe9a55c0ca2379ed7b23741">Schedule</a>(3s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> <span class="comment">/*context*/</span>)</div>
+<div class="line"><span class="lineno">   75</span>                        {</div>
+<div class="line"><span class="lineno">   76</span>                            me-&gt;GetMotionMaster()-&gt;Clear();</div>
+<div class="line"><span class="lineno">   77</span>                            me-&gt;GetMotionMaster()-&gt;MoveChase(me-&gt;GetVictim());</div>
+<div class="line"><span class="lineno">   78</span>                            DoCastSelf(SPELL_REGROWTH);</div>
+<div class="line"><span class="lineno">   79</span>                        });</div>
+<div class="line"><span class="lineno">   80</span>                    context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(25s, 30s);</div>
+<div class="line"><span class="lineno">   81</span>                });</div>
+<div class="line"><span class="lineno">   82</span>        }</div>
+<div class="line"><span class="lineno">   83</span>    }</div>
+<div class="ttc" id="aboss__isalien_8cpp_html_a50ba2acfd483f395e71abb80f687463ead3736a25f6ba0a1f7fd078a34d9f3bf4"><div class="ttname"><a href="../../da/dcc/boss__isalien_8cpp.html#a50ba2acfd483f395e71abb80f687463ead3736a25f6ba0a1f7fd078a34d9f3bf4">POINT_RANDOM</a></div><div class="ttdeci">@ POINT_RANDOM</div><div class="ttdef"><b>Definition:</b> boss_isalien.cpp:45</div></div>
+<div class="ttc" id="aboss__isalien_8cpp_html_a5d32d09cde4f13ec4fb05a824d3e3219a9804f458758271100faa8cf4fe112f3e"><div class="ttname"><a href="../../da/dcc/boss__isalien_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219a9804f458758271100faa8cf4fe112f3e">PHASE_REGROWTH</a></div><div class="ttdeci">@ PHASE_REGROWTH</div><div class="ttdef"><b>Definition:</b> boss_isalien.cpp:40</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_task_context_html"><div class="ttname"><a href="../../d2/dd9/class_task_context.html">TaskContext</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
+<div class="ttc" id="aclass_task_context_html_a380c596857dd0030414db5e8d28a3dda"><div class="ttname"><a href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">TaskContext::Repeat</a></div><div class="ttdeci">TaskContext &amp; Repeat(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:470</div></div>
+<div class="ttc" id="aclass_task_context_html_ada6565daabe9a55c0ca2379ed7b23741"><div class="ttname"><a href="../../d2/dd9/class_task_context.html#ada6565daabe9a55c0ca2379ed7b23741">TaskContext::Schedule</a></div><div class="ttdeci">TaskContext &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, TaskScheduler::task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:510</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a0e0579d2a2397de5a79c756d5e59a830"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">TaskScheduler::Schedule</a></div><div class="ttdeci">TaskScheduler &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:217</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_a8bcfed25889f307b4849743956ae67fc"><div class="ttname"><a href="../../da/db7/class_unit.html#a8bcfed25889f307b4849743956ae67fc">Unit::HealthBelowPct</a></div><div class="ttdeci">bool HealthBelowPct(int32 pct) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1442</div></div>
+<div class="ttc" id="aclass_world_object_html_ae62feea6a882131657f061fbd8652188"><div class="ttname"><a href="../../db/df7/class_world_object.html#ae62feea6a882131657f061fbd8652188">WorldObject::GetRandomPoint</a></div><div class="ttdeci">void GetRandomPoint(const Position &amp;srcPos, float distance, float &amp;rand_x, float &amp;rand_y, float &amp;rand_z) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1502</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="astruct_position_html_ad8e55f9b39618093aa625abe3a06e1ed"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">Position::GetPosition</a></div><div class="ttdeci">void GetPosition(float &amp;x, float &amp;y) const</div><div class="ttdef"><b>Definition:</b> Position.h:122</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructboss__isalien_html_a8eb56a907e3395b9e81588aab7c07ca6"><div class="ttname"><a href="../../dc/de3/structboss__isalien.html#a8eb56a907e3395b9e81588aab7c07ca6">boss_isalien::_scheduler</a></div><div class="ttdeci">TaskScheduler _scheduler</div><div class="ttdef"><b>Definition:</b> boss_isalien.cpp:134</div></div>
+<div class="ttc" id="astructboss__isalien_html_a954bbd32948e6c416197199d96142056"><div class="ttname"><a href="../../dc/de3/structboss__isalien.html#a954bbd32948e6c416197199d96142056">boss_isalien::_phase</a></div><div class="ttdeci">uint8 _phase</div><div class="ttdef"><b>Definition:</b> boss_isalien.cpp:135</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a275e4b5cd57ec1e9d9e873b9c54d0f6d" name="a275e4b5cd57ec1e9d9e873b9c54d0f6d"></a>
@@ -643,7 +680,36 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a2f3d2c15114cff26b92dedd45dff0905">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   91</span>    {</div>
+<div class="line"><span class="lineno">   92</span>        <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">_EnterCombat</a>();</div>
+<div class="line"><span class="lineno">   93</span>        <a class="code hl_variable" href="../../dc/de3/structboss__isalien.html#a8eb56a907e3395b9e81588aab7c07ca6">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(4s, 5s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">   94</span>            {</div>
+<div class="line"><span class="lineno">   95</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ab0dadfc6e68d67b01c1156e8439fe0f8">DoCastRandomTarget</a>(<a class="code hl_enumvalue" href="../../da/dcc/boss__isalien_8cpp.html#a5bd342133be8c2137b831460acc9298cad629b7c9e5a74890e7d6a77a13a38bcf">SPELL_NET</a>);</div>
+<div class="line"><span class="lineno">   96</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(12s, 15s);</div>
+<div class="line"><span class="lineno">   97</span>            })</div>
+<div class="line"><span class="lineno">   98</span>        .Schedule(7s, 12s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">   99</span>            {</div>
+<div class="line"><span class="lineno">  100</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ab0dadfc6e68d67b01c1156e8439fe0f8">DoCastRandomTarget</a>(<a class="code hl_enumvalue" href="../../da/dcc/boss__isalien_8cpp.html#a5bd342133be8c2137b831460acc9298cac7138c3b5a7250d35e73359c3d5e2987">SPELL_MULTI_SHOT</a>);</div>
+<div class="line"><span class="lineno">  101</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(7s, 12s);</div>
+<div class="line"><span class="lineno">  102</span>            })</div>
+<div class="line"><span class="lineno">  103</span>        .Schedule(20s, 30s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  104</span>            {</div>
+<div class="line"><span class="lineno">  105</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../da/dcc/boss__isalien_8cpp.html#a5bd342133be8c2137b831460acc9298ca5fc73e71edff866ad53ac9432ac74109">SPELL_STARSHARDS</a>);</div>
+<div class="line"><span class="lineno">  106</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(20s, 30s);</div>
+<div class="line"><span class="lineno">  107</span>            })</div>
+<div class="line"><span class="lineno">  108</span>        .Schedule(8s, 10s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> <span class="comment">/*context*/</span>)</div>
+<div class="line"><span class="lineno">  109</span>            {</div>
+<div class="line"><span class="lineno">  110</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../da/dcc/boss__isalien_8cpp.html#a5bd342133be8c2137b831460acc9298caf898991201b1c1cdce65911c5666fa11">SPELL_CALL_EMPYREAN</a>);</div>
+<div class="line"><span class="lineno">  111</span>            });</div>
+<div class="line"><span class="lineno">  112</span>    }</div>
+<div class="ttc" id="aboss__isalien_8cpp_html_a5bd342133be8c2137b831460acc9298ca5fc73e71edff866ad53ac9432ac74109"><div class="ttname"><a href="../../da/dcc/boss__isalien_8cpp.html#a5bd342133be8c2137b831460acc9298ca5fc73e71edff866ad53ac9432ac74109">SPELL_STARSHARDS</a></div><div class="ttdeci">@ SPELL_STARSHARDS</div><div class="ttdef"><b>Definition:</b> boss_isalien.cpp:33</div></div>
+<div class="ttc" id="aboss__isalien_8cpp_html_a5bd342133be8c2137b831460acc9298cac7138c3b5a7250d35e73359c3d5e2987"><div class="ttname"><a href="../../da/dcc/boss__isalien_8cpp.html#a5bd342133be8c2137b831460acc9298cac7138c3b5a7250d35e73359c3d5e2987">SPELL_MULTI_SHOT</a></div><div class="ttdeci">@ SPELL_MULTI_SHOT</div><div class="ttdef"><b>Definition:</b> boss_isalien.cpp:31</div></div>
+<div class="ttc" id="aboss__isalien_8cpp_html_a5bd342133be8c2137b831460acc9298cad629b7c9e5a74890e7d6a77a13a38bcf"><div class="ttname"><a href="../../da/dcc/boss__isalien_8cpp.html#a5bd342133be8c2137b831460acc9298cad629b7c9e5a74890e7d6a77a13a38bcf">SPELL_NET</a></div><div class="ttdeci">@ SPELL_NET</div><div class="ttdef"><b>Definition:</b> boss_isalien.cpp:32</div></div>
+<div class="ttc" id="aboss__isalien_8cpp_html_a5bd342133be8c2137b831460acc9298caf898991201b1c1cdce65911c5666fa11"><div class="ttname"><a href="../../da/dcc/boss__isalien_8cpp.html#a5bd342133be8c2137b831460acc9298caf898991201b1c1cdce65911c5666fa11">SPELL_CALL_EMPYREAN</a></div><div class="ttdeci">@ SPELL_CALL_EMPYREAN</div><div class="ttdef"><b>Definition:</b> boss_isalien.cpp:30</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_adbdded8bea1d5cf779f2aed9bc2a4821"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">BossAI::_EnterCombat</a></div><div class="ttdeci">void _EnterCombat()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:562</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a1e37cbb75f91c247b04131afc7ce35f5"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">UnitAI::DoCastAOE</a></div><div class="ttdeci">SpellCastResult DoCastAOE(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:249</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_ab0dadfc6e68d67b01c1156e8439fe0f8"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#ab0dadfc6e68d67b01c1156e8439fe0f8">UnitAI::DoCastRandomTarget</a></div><div class="ttdeci">SpellCastResult DoCastRandomTarget(uint32 spellId, uint32 threatTablePosition=0, float dist=0.0f, bool playerOnly=true, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:257</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6544b5eb398eb2fc9cae05709e4a5cc1" name="a6544b5eb398eb2fc9cae05709e4a5cc1"></a>
@@ -671,7 +737,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a3980e3c1e8e9992034c9ec35a8b3e298">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  128</span>    {</div>
+<div class="line"><span class="lineno">  129</span>        <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#acb0ee118bdfc7f7aef660e44b5fb18ae">_JustDied</a>();</div>
+<div class="line"><span class="lineno">  130</span>        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../da/dcc/boss__isalien_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>);</div>
+<div class="line"><span class="lineno">  131</span>    }</div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__isalien_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../da/dcc/boss__isalien_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_isalien.cpp:25</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_acb0ee118bdfc7f7aef660e44b5fb18ae"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#acb0ee118bdfc7f7aef660e44b5fb18ae">BossAI::_JustDied</a></div><div class="ttdeci">void _JustDied()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:551</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a84a94a1a8889b48cd02d5cb6a205a487" name="a84a94a1a8889b48cd02d5cb6a205a487"></a>
@@ -699,7 +772,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a55938a5ee8ad433cca9fad829cc0d915">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   86</span>    {</div>
+<div class="line"><span class="lineno">   87</span>        <a class="code hl_variable" href="../../d4/d0e/class_boss_a_i.html#a9deaaae20cd3bd12dcc3889f79b2c6cc">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a4b10347a4407bb6351230423019d9786">Summon</a>(summon);</div>
+<div class="line"><span class="lineno">   88</span>    }</div>
+<div class="ttc" id="aclass_boss_a_i_html_a9deaaae20cd3bd12dcc3889f79b2c6cc"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#a9deaaae20cd3bd12dcc3889f79b2c6cc">BossAI::summons</a></div><div class="ttdeci">SummonList summons</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:457</div></div>
+<div class="ttc" id="aclass_summon_list_html_a4b10347a4407bb6351230423019d9786"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a4b10347a4407bb6351230423019d9786">SummonList::Summon</a></div><div class="ttdeci">void Summon(Creature const *summon)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:89</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4995c18e2baa62d05717617d0b1e3529" name="a4995c18e2baa62d05717617d0b1e3529"></a>
@@ -726,7 +804,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#abe75353ec3f0c86502696b8ccb059cb7">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   53</span>    {</div>
+<div class="line"><span class="lineno">   54</span>        <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#acdc89a1df0e62952becf83d9e1bd6299">_Reset</a>();</div>
+<div class="line"><span class="lineno">   55</span>        <a class="code hl_variable" href="../../dc/de3/structboss__isalien.html#a8eb56a907e3395b9e81588aab7c07ca6">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">CancelAll</a>();</div>
+<div class="line"><span class="lineno">   56</span>        <a class="code hl_variable" href="../../d4/d0e/class_boss_a_i.html#a9deaaae20cd3bd12dcc3889f79b2c6cc">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">DespawnAll</a>();</div>
+<div class="line"><span class="lineno">   57</span>        <a class="code hl_variable" href="../../dc/de3/structboss__isalien.html#a954bbd32948e6c416197199d96142056">_phase</a> = <a class="code hl_enumvalue" href="../../da/dcc/boss__isalien_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219a61e900515aec51ba22cfdd63c1082fc7">PHASE_NONE</a>;</div>
+<div class="line"><span class="lineno">   58</span> </div>
+<div class="line"><span class="lineno">   59</span>        <a class="code hl_variable" href="../../dc/de3/structboss__isalien.html#a8eb56a907e3395b9e81588aab7c07ca6">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#af2bb90b6b81ab1cacd9ac56c3d7e11b2">SetValidator</a>([<span class="keyword">this</span>]</div>
+<div class="line"><span class="lineno">   60</span>            {</div>
+<div class="line"><span class="lineno">   61</span>                <span class="keywordflow">return</span> !<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>);</div>
+<div class="line"><span class="lineno">   62</span>            });</div>
+<div class="line"><span class="lineno">   63</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__isalien_8cpp_html_a5d32d09cde4f13ec4fb05a824d3e3219a61e900515aec51ba22cfdd63c1082fc7"><div class="ttname"><a href="../../da/dcc/boss__isalien_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219a61e900515aec51ba22cfdd63c1082fc7">PHASE_NONE</a></div><div class="ttdeci">@ PHASE_NONE</div><div class="ttdef"><b>Definition:</b> boss_isalien.cpp:39</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_acdc89a1df0e62952becf83d9e1bd6299"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#acdc89a1df0e62952becf83d9e1bd6299">BossAI::_Reset</a></div><div class="ttdeci">void _Reset()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:539</div></div>
+<div class="ttc" id="aclass_summon_list_html_a902c1d4535ccdb1b82801547a94151bb"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">SummonList::DespawnAll</a></div><div class="ttdeci">void DespawnAll(uint32 delay=0)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:67</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a05da7a474b80d725c991dde9d24df4a4"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">TaskScheduler::CancelAll</a></div><div class="ttdeci">TaskScheduler &amp; CancelAll()</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:33</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_af2bb90b6b81ab1cacd9ac56c3d7e11b2"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#af2bb90b6b81ab1cacd9ac56c3d7e11b2">TaskScheduler::SetValidator</a></div><div class="ttdeci">TaskScheduler &amp; SetValidator(P &amp;&amp;predicate)</div><div class="ttdoc">Sets a validator which is asked if tasks are allowed to be executed.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:182</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa067bea34557a4b2fe840ef305852bc0" name="aa067bea34557a4b2fe840ef305852bc0"></a>
@@ -754,7 +850,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a840cc108b3135ee19402e61d591f18d0">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  115</span>    {</div>
+<div class="line"><span class="lineno">  116</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  117</span>        {</div>
+<div class="line"><span class="lineno">  118</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  119</span>        }</div>
+<div class="line"><span class="lineno">  120</span> </div>
+<div class="line"><span class="lineno">  121</span>        <a class="code hl_variable" href="../../dc/de3/structboss__isalien.html#a8eb56a907e3395b9e81588aab7c07ca6">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">Update</a>(diff, [<span class="keyword">this</span>]</div>
+<div class="line"><span class="lineno">  122</span>            {</div>
+<div class="line"><span class="lineno">  123</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  124</span>            });</div>
+<div class="line"><span class="lineno">  125</span>    }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a35c0891c7aded13c6ae7ecd2e6d480a9"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">TaskScheduler::Update</a></div><div class="ttdeci">TaskScheduler &amp; Update(success_t const &amp;callback=EmptyCallback)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:15</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -803,7 +913,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/DireMaul/<a class="el" href="../../da/dcc/boss__isalien_8cpp.html">boss_isalien.cpp</a></li>
+<li><a class="el" href="../../">boss_isalien.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -811,7 +921,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/de3/structboss__isalien.html">boss_isalien</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:40 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:53 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -300,7 +300,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a554aed7557e3c00f1c6de9b9872ee70b" name="a554aed7557e3c00f1c6de9b9872ee70b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a554aed7557e3c00f1c6de9b9872ee70b">&#9670;&#160;</a></span>PrepareAuraScript()</h2>
 
@@ -324,7 +325,21 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2093</span>        {</div>
+<div class="line"><span class="lineno"> 2094</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* c = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>())</div>
+<div class="line"><span class="lineno"> 2095</span>            {</div>
+<div class="line"><span class="lineno"> 2096</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <span class="keywordtype">id</span> = ( c-&gt;GetMap()-&gt;Is25ManRaid() ? ((aurEff-&gt;GetTickNumber() % 2) ? <a class="code hl_enumvalue" href="../../dc/d29/boss__mimiron_8cpp.html#a8aad05826c6de945fac0de45623cdf36aa707d97de2df36c7415874ab959c2b8a">SPELL_RAPID_BURST_DAMAGE_25_2</a> : <a class="code hl_enumvalue" href="../../dc/d29/boss__mimiron_8cpp.html#a8aad05826c6de945fac0de45623cdf36acc9b8e490544501c4543d26754ae8e3b">SPELL_RAPID_BURST_DAMAGE_25_1</a>) : ((aurEff-&gt;GetTickNumber() % 2) ? <a class="code hl_enumvalue" href="../../dc/d29/boss__mimiron_8cpp.html#a8aad05826c6de945fac0de45623cdf36a564d1cc0c41b5bd2181102967f267490">SPELL_RAPID_BURST_DAMAGE_10_2</a> : <a class="code hl_enumvalue" href="../../dc/d29/boss__mimiron_8cpp.html#a8aad05826c6de945fac0de45623cdf36a146ebf970264d129a110c96dac04225f">SPELL_RAPID_BURST_DAMAGE_10_1</a>) );</div>
+<div class="line"><span class="lineno"> 2097</span>                c-&gt;CastSpell((<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>*)<span class="keyword">nullptr</span>, id, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2098</span>            }</div>
+<div class="line"><span class="lineno"> 2099</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aboss__mimiron_8cpp_html_a8aad05826c6de945fac0de45623cdf36a146ebf970264d129a110c96dac04225f"><div class="ttname"><a href="../../dc/d29/boss__mimiron_8cpp.html#a8aad05826c6de945fac0de45623cdf36a146ebf970264d129a110c96dac04225f">SPELL_RAPID_BURST_DAMAGE_10_1</a></div><div class="ttdeci">@ SPELL_RAPID_BURST_DAMAGE_10_1</div><div class="ttdef"><b>Definition:</b> boss_mimiron.cpp:59</div></div>
+<div class="ttc" id="aboss__mimiron_8cpp_html_a8aad05826c6de945fac0de45623cdf36a564d1cc0c41b5bd2181102967f267490"><div class="ttname"><a href="../../dc/d29/boss__mimiron_8cpp.html#a8aad05826c6de945fac0de45623cdf36a564d1cc0c41b5bd2181102967f267490">SPELL_RAPID_BURST_DAMAGE_10_2</a></div><div class="ttdeci">@ SPELL_RAPID_BURST_DAMAGE_10_2</div><div class="ttdef"><b>Definition:</b> boss_mimiron.cpp:60</div></div>
+<div class="ttc" id="aboss__mimiron_8cpp_html_a8aad05826c6de945fac0de45623cdf36aa707d97de2df36c7415874ab959c2b8a"><div class="ttname"><a href="../../dc/d29/boss__mimiron_8cpp.html#a8aad05826c6de945fac0de45623cdf36aa707d97de2df36c7415874ab959c2b8a">SPELL_RAPID_BURST_DAMAGE_25_2</a></div><div class="ttdeci">@ SPELL_RAPID_BURST_DAMAGE_25_2</div><div class="ttdef"><b>Definition:</b> boss_mimiron.cpp:58</div></div>
+<div class="ttc" id="aboss__mimiron_8cpp_html_a8aad05826c6de945fac0de45623cdf36acc9b8e490544501c4543d26754ae8e3b"><div class="ttname"><a href="../../dc/d29/boss__mimiron_8cpp.html#a8aad05826c6de945fac0de45623cdf36acc9b8e490544501c4543d26754ae8e3b">SPELL_RAPID_BURST_DAMAGE_25_1</a></div><div class="ttdeci">@ SPELL_RAPID_BURST_DAMAGE_25_1</div><div class="ttdef"><b>Definition:</b> boss_mimiron.cpp:57</div></div>
+<div class="ttc" id="aclass_aura_script_html_a67261dcb8b5f6089bdc1a906c91d61df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">AuraScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1010</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0cf02d4c43b83ba5d86eaeab024f9012" name="a0cf02d4c43b83ba5d86eaeab024f9012"></a>
@@ -351,11 +366,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2102</span>        {</div>
+<div class="line"><span class="lineno"> 2103</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a>(spell_mimiron_rapid_burst_AuraScript::HandleEffectPeriodic, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56">SPELL_AURA_PERIODIC_DUMMY</a>);</div>
+<div class="line"><span class="lineno"> 2104</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a></div><div class="ttdeci">@ EFFECT_1</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:31</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56">SPELL_AURA_PERIODIC_DUMMY</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_DUMMY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:289</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a63dd33eaa91292bfb53b1d9f2b0eba29"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a></div><div class="ttdeci">#define AuraEffectPeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:750</div></div>
+<div class="ttc" id="aclass_aura_script_html_a491e7fc0a1acd202b60fa1aed79a9377"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">AuraScript::OnEffectPeriodic</a></div><div class="ttdeci">HookList&lt; EffectPeriodicHandler &gt; OnEffectPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:749</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../dc/d29/boss__mimiron_8cpp.html">boss_mimiron.cpp</a></li>
+<li><a class="el" href="../../">boss_mimiron.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -363,7 +385,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/db2/classspell__mimiron__rapid__burst.html">spell_mimiron_rapid_burst</a></li><li class="navelem"><a class="el" href="../../d0/db5/classspell__mimiron__rapid__burst_1_1spell__mimiron__rapid__burst___aura_script.html">spell_mimiron_rapid_burst_AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:22 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

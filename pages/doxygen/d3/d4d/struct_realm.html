@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d3/d4d/struct_realm.html','../../'); i
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/d94/_realm_8h_source.html">Realm.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Realm.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -147,7 +147,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a63cdbd47c50f368974b43c3db2f32cee"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4d/struct_realm.html#a63cdbd47c50f368974b43c3db2f32cee">PopulationLevel</a></td></tr>
 <tr class="separator:a63cdbd47c50f368974b43c3db2f32cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2a3f3db57bb7e6f69ca4f030b65c7331" name="a2a3f3db57bb7e6f69ca4f030b65c7331"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2a3f3db57bb7e6f69ca4f030b65c7331">&#9670;&#160;</a></span>GetAddressForClient()</h2>
 
@@ -163,7 +164,46 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   24</span>{</div>
+<div class="line"><span class="lineno">   25</span>    boost::asio::ip::address realmIp;</div>
+<div class="line"><span class="lineno">   26</span> </div>
+<div class="line"><span class="lineno">   27</span>    <span class="comment">// Attempt to send best address for client</span></div>
+<div class="line"><span class="lineno">   28</span>    <span class="keywordflow">if</span> (clientAddr.is_loopback())</div>
+<div class="line"><span class="lineno">   29</span>    {</div>
+<div class="line"><span class="lineno">   30</span>        <span class="comment">// Try guessing if realm is also connected locally</span></div>
+<div class="line"><span class="lineno">   31</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d4d/struct_realm.html#a61f429ddc92895e66dff2808e17cc322">LocalAddress</a>-&gt;is_loopback() || <a class="code hl_variable" href="../../d3/d4d/struct_realm.html#a703504aaf54f1ecf934b9184e9737367">ExternalAddress</a>-&gt;is_loopback())</div>
+<div class="line"><span class="lineno">   32</span>        {</div>
+<div class="line"><span class="lineno">   33</span>            realmIp = clientAddr;</div>
+<div class="line"><span class="lineno">   34</span>        }</div>
+<div class="line"><span class="lineno">   35</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   36</span>        {</div>
+<div class="line"><span class="lineno">   37</span>            <span class="comment">// Assume that user connecting from the machine that bnetserver is located on</span></div>
+<div class="line"><span class="lineno">   38</span>            <span class="comment">// has all realms available in his local network</span></div>
+<div class="line"><span class="lineno">   39</span>            realmIp = *<a class="code hl_variable" href="../../d3/d4d/struct_realm.html#a61f429ddc92895e66dff2808e17cc322">LocalAddress</a>;</div>
+<div class="line"><span class="lineno">   40</span>        }</div>
+<div class="line"><span class="lineno">   41</span>    }</div>
+<div class="line"><span class="lineno">   42</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   43</span>    {</div>
+<div class="line"><span class="lineno">   44</span>        <span class="keywordflow">if</span> (clientAddr.is_v4() &amp;&amp; <a class="code hl_function" href="../../d8/d0e/namespace_acore_1_1_net.html#af108d05a57113d16ab9c8f3b26870be2">Acore::Net::IsInNetwork</a>(<a class="code hl_variable" href="../../d3/d4d/struct_realm.html#a61f429ddc92895e66dff2808e17cc322">LocalAddress</a>-&gt;to_v4(), <a class="code hl_variable" href="../../d3/d4d/struct_realm.html#a52a4b2704e7f76d8ea296148cefb9482">LocalSubnetMask</a>-&gt;to_v4(), clientAddr.to_v4()))</div>
+<div class="line"><span class="lineno">   45</span>        {</div>
+<div class="line"><span class="lineno">   46</span>            realmIp = *<a class="code hl_variable" href="../../d3/d4d/struct_realm.html#a61f429ddc92895e66dff2808e17cc322">LocalAddress</a>;</div>
+<div class="line"><span class="lineno">   47</span>        }</div>
+<div class="line"><span class="lineno">   48</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   49</span>        {</div>
+<div class="line"><span class="lineno">   50</span>            realmIp = *<a class="code hl_variable" href="../../d3/d4d/struct_realm.html#a703504aaf54f1ecf934b9184e9737367">ExternalAddress</a>;</div>
+<div class="line"><span class="lineno">   51</span>        }</div>
+<div class="line"><span class="lineno">   52</span>    }</div>
+<div class="line"><span class="lineno">   53</span> </div>
+<div class="line"><span class="lineno">   54</span>    <span class="comment">// Return external IP</span></div>
+<div class="line"><span class="lineno">   55</span>    <span class="keywordflow">return</span> <a class="code hl_typedef" href="../../d0/d23/namespaceboost_1_1asio_1_1ip.html#a27a44b709519f6caccf33bc420c4698b">boost::asio::ip::tcp_endpoint</a>(realmIp, <a class="code hl_variable" href="../../d3/d4d/struct_realm.html#a0131d758f10cbae0c610c2c088299feb">Port</a>);</div>
+<div class="line"><span class="lineno">   56</span>}</div>
+<div class="ttc" id="anamespace_acore_1_1_net_html_af108d05a57113d16ab9c8f3b26870be2"><div class="ttname"><a href="../../d8/d0e/namespace_acore_1_1_net.html#af108d05a57113d16ab9c8f3b26870be2">Acore::Net::IsInNetwork</a></div><div class="ttdeci">bool IsInNetwork(boost::asio::ip::address_v4 const &amp;networkAddress, boost::asio::ip::address_v4 const &amp;mask, boost::asio::ip::address_v4 const &amp;clientAddress)</div><div class="ttdef"><b>Definition:</b> IpNetwork.h:32</div></div>
+<div class="ttc" id="anamespaceboost_1_1asio_1_1ip_html_a27a44b709519f6caccf33bc420c4698b"><div class="ttname"><a href="../../d0/d23/namespaceboost_1_1asio_1_1ip.html#a27a44b709519f6caccf33bc420c4698b">boost::asio::ip::tcp_endpoint</a></div><div class="ttdeci">basic_endpoint&lt; tcp &gt; tcp_endpoint</div><div class="ttdef"><b>Definition:</b> AsioHacksFwd.h:45</div></div>
+<div class="ttc" id="astruct_realm_html_a0131d758f10cbae0c610c2c088299feb"><div class="ttname"><a href="../../d3/d4d/struct_realm.html#a0131d758f10cbae0c610c2c088299feb">Realm::Port</a></div><div class="ttdeci">uint16 Port</div><div class="ttdef"><b>Definition:</b> Realm.h:73</div></div>
+<div class="ttc" id="astruct_realm_html_a52a4b2704e7f76d8ea296148cefb9482"><div class="ttname"><a href="../../d3/d4d/struct_realm.html#a52a4b2704e7f76d8ea296148cefb9482">Realm::LocalSubnetMask</a></div><div class="ttdeci">std::unique_ptr&lt; boost::asio::ip::address &gt; LocalSubnetMask</div><div class="ttdef"><b>Definition:</b> Realm.h:72</div></div>
+<div class="ttc" id="astruct_realm_html_a61f429ddc92895e66dff2808e17cc322"><div class="ttname"><a href="../../d3/d4d/struct_realm.html#a61f429ddc92895e66dff2808e17cc322">Realm::LocalAddress</a></div><div class="ttdeci">std::unique_ptr&lt; boost::asio::ip::address &gt; LocalAddress</div><div class="ttdef"><b>Definition:</b> Realm.h:71</div></div>
+<div class="ttc" id="astruct_realm_html_a703504aaf54f1ecf934b9184e9737367"><div class="ttname"><a href="../../d3/d4d/struct_realm.html#a703504aaf54f1ecf934b9184e9737367">Realm::ExternalAddress</a></div><div class="ttdeci">std::unique_ptr&lt; boost::asio::ip::address &gt; ExternalAddress</div><div class="ttdef"><b>Definition:</b> Realm.h:70</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -336,8 +376,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/shared/Realms/<a class="el" href="../../d5/d94/_realm_8h_source.html">Realm.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/shared/Realms/<a class="el" href="../../da/d10/_realm_8cpp.html">Realm.cpp</a></li>
+<li><a class="el" href="../../">Realm.h</a></li>
+<li><a class="el" href="../../">Realm.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -345,7 +385,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d4d/struct_realm.html">Realm</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d7/d02/class___spell_script_1_1_effect
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">SpellScript.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for _SpellScript::EffectNameCheck:</div>
 <div class="dyncontent">
@@ -138,7 +138,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a905224fb028ea0eab350773b7230f871"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/class___spell_script_1_1_effect_name_check.html#a905224fb028ea0eab350773b7230f871">effName</a></td></tr>
 <tr class="separator:a905224fb028ea0eab350773b7230f871"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa82307388bdda7864bb085a349b63f29" name="aa82307388bdda7864bb085a349b63f29"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa82307388bdda7864bb085a349b63f29">&#9670;&#160;</a></span>EffectNameCheck()</h2>
 
@@ -162,7 +163,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   88</span>{ <a class="code hl_variable" href="../../d7/d02/class___spell_script_1_1_effect_name_check.html#a905224fb028ea0eab350773b7230f871">effName</a> = _effName; }</div>
+<div class="ttc" id="aclass___spell_script_1_1_effect_name_check_html_a905224fb028ea0eab350773b7230f871"><div class="ttname"><a href="../../d7/d02/class___spell_script_1_1_effect_name_check.html#a905224fb028ea0eab350773b7230f871">_SpellScript::EffectNameCheck::effName</a></div><div class="ttdeci">uint16 effName</div><div class="ttdef"><b>Definition:</b> SpellScript.h:92</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -191,7 +194,15 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  123</span>{</div>
+<div class="line"><span class="lineno">  124</span>    <span class="keywordflow">if</span> (!spellEntry-&gt;Effects[effIndex].Effect &amp;&amp; !<a class="code hl_variable" href="../../d7/d02/class___spell_script_1_1_effect_name_check.html#a905224fb028ea0eab350773b7230f871">effName</a>)</div>
+<div class="line"><span class="lineno">  125</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  126</span>    <span class="keywordflow">if</span> (!spellEntry-&gt;Effects[effIndex].Effect)</div>
+<div class="line"><span class="lineno">  127</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  128</span>    <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d7/d02/class___spell_script_1_1_effect_name_check.html#a905224fb028ea0eab350773b7230f871">effName</a> == <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ab6f3711ba6eb0532447359165e60172a">SPELL_EFFECT_ANY</a>) || (spellEntry-&gt;Effects[effIndex].Effect == <a class="code hl_variable" href="../../d7/d02/class___spell_script_1_1_effect_name_check.html#a905224fb028ea0eab350773b7230f871">effName</a>);</div>
+<div class="line"><span class="lineno">  129</span>}</div>
+<div class="ttc" id="a_spell_script_8h_html_ab6f3711ba6eb0532447359165e60172a"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ab6f3711ba6eb0532447359165e60172a">SPELL_EFFECT_ANY</a></div><div class="ttdeci">#define SPELL_EFFECT_ANY</div><div class="ttdef"><b>Definition:</b> SpellScript.h:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a31e545b0ae22cad4be815ea9e3b44377" name="a31e545b0ae22cad4be815ea9e3b44377"></a>
@@ -208,7 +219,18 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  132</span>{</div>
+<div class="line"><span class="lineno">  133</span>    <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d7/d02/class___spell_script_1_1_effect_name_check.html#a905224fb028ea0eab350773b7230f871">effName</a>)</div>
+<div class="line"><span class="lineno">  134</span>    {</div>
+<div class="line"><span class="lineno">  135</span>        <span class="keywordflow">case</span> <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ab6f3711ba6eb0532447359165e60172a">SPELL_EFFECT_ANY</a>:</div>
+<div class="line"><span class="lineno">  136</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;SPELL_EFFECT_ANY&quot;</span>;</div>
+<div class="line"><span class="lineno">  137</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  138</span>            <span class="keywordtype">char</span> num[10];</div>
+<div class="line"><span class="lineno">  139</span>            sprintf (num, <span class="stringliteral">&quot;%u&quot;</span>, <a class="code hl_variable" href="../../d7/d02/class___spell_script_1_1_effect_name_check.html#a905224fb028ea0eab350773b7230f871">effName</a>);</div>
+<div class="line"><span class="lineno">  140</span>            <span class="keywordflow">return</span> num;</div>
+<div class="line"><span class="lineno">  141</span>    }</div>
+<div class="line"><span class="lineno">  142</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -235,8 +257,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/<a class="el" href="../../d8/db9/_spell_script_8cpp.html">SpellScript.cpp</a></li>
+<li><a class="el" href="../../">SpellScript.h</a></li>
+<li><a class="el" href="../../">SpellScript.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -244,7 +266,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d13/class___spell_script.html">_SpellScript</a></li><li class="navelem"><a class="el" href="../../d7/d02/class___spell_script_1_1_effect_name_check.html">EffectNameCheck</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:36 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

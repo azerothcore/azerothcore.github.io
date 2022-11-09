@@ -584,7 +584,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af5a78c00f2df9a6e7f810821e478b334" name="af5a78c00f2df9a6e7f810821e478b334"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af5a78c00f2df9a6e7f810821e478b334">&#9670;&#160;</a></span>npc_grimstoneAI()</h2>
 
@@ -608,7 +609,34 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  198</span>                                            : <a class="code hl_struct" href="../../dd/d7f/structnpc__escort_a_i.html">npc_escortAI</a>(creature), <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#acc981f16561558187a4f73f30477087e">summons</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>)</div>
+<div class="line"><span class="lineno">  199</span>        {</div>
+<div class="line"><span class="lineno">  200</span>            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ae9c1e204ed846b77a118bae352a16a0a">instance</a> = creature-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">  201</span>            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ab17115539c7778849eb7a5d7b3c14955">MobSpawnId</a>    = <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ae9c1e204ed846b77a118bae352a16a0a">instance</a> ? <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ae9c1e204ed846b77a118bae352a16a0a">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">GetData</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22ae405a4644ad229ef399425964bcbee9a">DATA_ARENA_MOBS</a>) : <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 5);</div>
+<div class="line"><span class="lineno">  202</span>            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a31f7ff1c08dd33abdae1414f385e5d9e">BossSpawnId</a>   = <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ae9c1e204ed846b77a118bae352a16a0a">instance</a> ? <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ae9c1e204ed846b77a118bae352a16a0a">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">GetData</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22a6b452f1118390453a0a198a0e77b222b">DATA_ARENA_BOSS</a>) : <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 5);</div>
+<div class="line"><span class="lineno">  203</span>            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a2e68549ad81f51bf596a7727a32c6e03">eventPhase</a> = 0;</div>
+<div class="line"><span class="lineno">  204</span>            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> = 1000;</div>
+<div class="line"><span class="lineno">  205</span>            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ac22a90e5fcf04dae8cbf5aea715a5412">resetTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  206</span>            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ad3811c9392c8849770d60398f5c9ed5b">theldrenEvent</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  207</span>            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#acc981f16561558187a4f73f30477087e">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">DespawnAll</a>();</div>
+<div class="line"><span class="lineno">  208</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="ablackrock__depths_8h_html_afb6eb4f28419b652027fad41104a6d22a6b452f1118390453a0a198a0e77b222b"><div class="ttname"><a href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22a6b452f1118390453a0a198a0e77b222b">DATA_ARENA_BOSS</a></div><div class="ttdeci">@ DATA_ARENA_BOSS</div><div class="ttdef"><b>Definition:</b> blackrock_depths.h:83</div></div>
+<div class="ttc" id="ablackrock__depths_8h_html_afb6eb4f28419b652027fad41104a6d22ae405a4644ad229ef399425964bcbee9a"><div class="ttname"><a href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22ae405a4644ad229ef399425964bcbee9a">DATA_ARENA_MOBS</a></div><div class="ttdeci">@ DATA_ARENA_MOBS</div><div class="ttdef"><b>Definition:</b> blackrock_depths.h:82</div></div>
+<div class="ttc" id="aclass_summon_list_html_a902c1d4535ccdb1b82801547a94151bb"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">SummonList::DespawnAll</a></div><div class="ttdeci">void DespawnAll(uint32 delay=0)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:67</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="aclass_zone_script_html_a8997612fdbdacbf5e28e4de60d03e805"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">ZoneScript::GetData</a></div><div class="ttdeci">virtual uint32 GetData(uint32) const</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:52</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html">npc_escortAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:53</div></div>
+<div class="ttc" id="astructnpc__grimstone_1_1npc__grimstone_a_i_html_a2e68549ad81f51bf596a7727a32c6e03"><div class="ttname"><a href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a2e68549ad81f51bf596a7727a32c6e03">npc_grimstone::npc_grimstoneAI::eventPhase</a></div><div class="ttdeci">uint8 eventPhase</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:213</div></div>
+<div class="ttc" id="astructnpc__grimstone_1_1npc__grimstone_a_i_html_a31f7ff1c08dd33abdae1414f385e5d9e"><div class="ttname"><a href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a31f7ff1c08dd33abdae1414f385e5d9e">npc_grimstone::npc_grimstoneAI::BossSpawnId</a></div><div class="ttdeci">uint8 BossSpawnId</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:217</div></div>
+<div class="ttc" id="astructnpc__grimstone_1_1npc__grimstone_a_i_html_a48a153973c4a5d8b911a5f89d3c968eb"><div class="ttname"><a href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">npc_grimstone::npc_grimstoneAI::eventTimer</a></div><div class="ttdeci">uint32 eventTimer</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:214</div></div>
+<div class="ttc" id="astructnpc__grimstone_1_1npc__grimstone_a_i_html_ab17115539c7778849eb7a5d7b3c14955"><div class="ttname"><a href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ab17115539c7778849eb7a5d7b3c14955">npc_grimstone::npc_grimstoneAI::MobSpawnId</a></div><div class="ttdeci">uint8 MobSpawnId</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:216</div></div>
+<div class="ttc" id="astructnpc__grimstone_1_1npc__grimstone_a_i_html_ac22a90e5fcf04dae8cbf5aea715a5412"><div class="ttname"><a href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ac22a90e5fcf04dae8cbf5aea715a5412">npc_grimstone::npc_grimstoneAI::resetTimer</a></div><div class="ttdeci">uint32 resetTimer</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:215</div></div>
+<div class="ttc" id="astructnpc__grimstone_1_1npc__grimstone_a_i_html_acc981f16561558187a4f73f30477087e"><div class="ttname"><a href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#acc981f16561558187a4f73f30477087e">npc_grimstone::npc_grimstoneAI::summons</a></div><div class="ttdeci">SummonList summons</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:211</div></div>
+<div class="ttc" id="astructnpc__grimstone_1_1npc__grimstone_a_i_html_ad3811c9392c8849770d60398f5c9ed5b"><div class="ttname"><a href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ad3811c9392c8849770d60398f5c9ed5b">npc_grimstone::npc_grimstoneAI::theldrenEvent</a></div><div class="ttdeci">bool theldrenEvent</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:218</div></div>
+<div class="ttc" id="astructnpc__grimstone_1_1npc__grimstone_a_i_html_ae9c1e204ed846b77a118bae352a16a0a"><div class="ttname"><a href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ae9c1e204ed846b77a118bae352a16a0a">npc_grimstone::npc_grimstoneAI::instance</a></div><div class="ttdeci">InstanceScript * instance</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:210</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -645,7 +673,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  279</span>        {</div>
+<div class="line"><span class="lineno">  280</span>            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ae9c1e204ed846b77a118bae352a16a0a">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a1961c04a44bb8d0fc3e5c6dc0c39790f">HandleGameObject</a>(<a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ae9c1e204ed846b77a118bae352a16a0a">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">GetGuidData</a>(<span class="keywordtype">id</span>), open);</div>
+<div class="line"><span class="lineno">  281</span>        }</div>
+<div class="ttc" id="aclass_instance_script_html_a1961c04a44bb8d0fc3e5c6dc0c39790f"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a1961c04a44bb8d0fc3e5c6dc0c39790f">InstanceScript::HandleGameObject</a></div><div class="ttdeci">void HandleGameObject(ObjectGuid guid, bool open, GameObject *go=nullptr)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:108</div></div>
+<div class="ttc" id="aclass_instance_script_html_a3be7f24ca31c9433aca546e1087109b4"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript::GetGuidData</a></div><div class="ttdeci">ObjectGuid GetGuidData(uint32 type) const override</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:93</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a152416e33edf5117ecb11946bae31059" name="a152416e33edf5117ecb11946bae31059"></a>
@@ -673,7 +706,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a1625d27c60b9833cc9bdebffb80833cb">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  226</span>        {</div>
+<div class="line"><span class="lineno">  227</span>            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#acc981f16561558187a4f73f30477087e">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a4b10347a4407bb6351230423019d9786">Summon</a>(summon);</div>
+<div class="line"><span class="lineno">  228</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#afa14c52852b49c2179c7410dbd897ff4">SelectTargetFromPlayerList</a>(100.0f))</div>
+<div class="line"><span class="lineno">  229</span>                summon-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">AttackStart</a>(target);</div>
+<div class="line"><span class="lineno">  230</span>        }</div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_summon_list_html_a4b10347a4407bb6351230423019d9786"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a4b10347a4407bb6351230423019d9786">SummonList::Summon</a></div><div class="ttdeci">void Summon(Creature const *summon)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:89</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_ae120634c255d365f1567e341e2cf1feb"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">UnitAI::AttackStart</a></div><div class="ttdeci">virtual void AttackStart(Unit *)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:28</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_afa14c52852b49c2179c7410dbd897ff4"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#afa14c52852b49c2179c7410dbd897ff4">ScriptedAI::SelectTargetFromPlayerList</a></div><div class="ttdeci">Player * SelectTargetFromPlayerList(float maxdist, uint32 excludeAura=0, bool mustBeInLOS=false) const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:508</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad7b769ce27c4cd22a2383762426a5792" name="ad7b769ce27c4cd22a2383762426a5792"></a>
@@ -700,7 +743,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  221</span>        {</div>
+<div class="line"><span class="lineno">  222</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  223</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NON_ATTACKABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:449</div></div>
+<div class="ttc" id="aclass_unit_html_ad9f2d48b20f62e17abf5c1892cebe296"><div class="ttname"><a href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">Unit::SetUnitFlag</a></div><div class="ttdeci">void SetUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1479</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad83bf99a15a8a80fe572e8927f533921" name="ad83bf99a15a8a80fe572e8927f533921"></a>
@@ -726,7 +774,19 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  327</span>        {</div>
+<div class="line"><span class="lineno">  328</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_variable" href="../../df/d57/blackrock__depths_8cpp.html#aeaaff400dde055a68a28b33dd6546434">RingMobs</a>[mobId].<a class="code hl_variable" href="../../d0/d49/struct_wave.html#a76f76a4b84b8eaad6b5556a27b1239d5">amount</a>; i++)</div>
+<div class="line"><span class="lineno">  329</span>            {</div>
+<div class="line"><span class="lineno">  330</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_variable" href="../../df/d57/blackrock__depths_8cpp.html#aeaaff400dde055a68a28b33dd6546434">RingMobs</a>[mobId].entry, 608.960f + 0.4f * i, -235.322f, -53.907f, 1.857f, <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a>, 0);</div>
+<div class="line"><span class="lineno">  331</span>            }</div>
+<div class="line"><span class="lineno">  332</span>            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ac22a90e5fcf04dae8cbf5aea715a5412">resetTimer</a> = 30000;</div>
+<div class="line"><span class="lineno">  333</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_DEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:48</div></div>
+<div class="ttc" id="ablackrock__depths_8cpp_html_aeaaff400dde055a68a28b33dd6546434"><div class="ttname"><a href="../../df/d57/blackrock__depths_8cpp.html#aeaaff400dde055a68a28b33dd6546434">RingMobs</a></div><div class="ttdeci">static Wave RingMobs[]</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:130</div></div>
+<div class="ttc" id="aclass_world_object_html_aaf7058bd6b40bbfd38cbcd4f740c0344"><div class="ttname"><a href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">WorldObject::SummonCreature</a></div><div class="ttdeci">TempSummon * SummonCreature(uint32 id, const Position &amp;pos, TempSummonType spwtype=TEMPSUMMON_MANUAL_DESPAWN, uint32 despwtime=0, uint32 vehId=0, SummonPropertiesEntry const *properties=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2301</div></div>
+<div class="ttc" id="astruct_wave_html_a76f76a4b84b8eaad6b5556a27b1239d5"><div class="ttname"><a href="../../d0/d49/struct_wave.html#a76f76a4b84b8eaad6b5556a27b1239d5">Wave::amount</a></div><div class="ttdeci">uint32 amount</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:127</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac019b66c330d228a4baa4c81b14f825a" name="ac019b66c330d228a4baa4c81b14f825a"></a>
@@ -751,7 +811,26 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  284</span>        {</div>
+<div class="line"><span class="lineno">  285</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a178c5ef685f97dc9bbd486dd6cabfb63">FindNearestGameObject</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#a2f2e8b4a6f1b51adcbf0e07e2cc282ddaef99d0b7ff9f40ee83faacf3856088e8">GO_BANNER_OF_PROVOCATION</a>, 100.0f))</div>
+<div class="line"><span class="lineno">  286</span>            {</div>
+<div class="line"><span class="lineno">  287</span>                <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ad3811c9392c8849770d60398f5c9ed5b">theldrenEvent</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  288</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#a2f2e8b4a6f1b51adcbf0e07e2cc282dda488dee0fbf41c0936bc3fbf26d220c10">NPC_THELDREN</a>, 644.300f, -175.989f, -53.739f, 3.418f, <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a>, 0);</div>
+<div class="line"><span class="lineno">  289</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> rand = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 4);</div>
+<div class="line"><span class="lineno">  290</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = rand; i &lt; rand + 4; ++i)</div>
+<div class="line"><span class="lineno">  291</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_variable" href="../../d7/d26/blackrock__depths_8h.html#a072ab479782ab4b7bb38d5712fff097f">theldrenTeam</a>[i], 644.300f, -175.989f, -53.739f, 3.418f, <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a>, 0);</div>
+<div class="line"><span class="lineno">  292</span>            }</div>
+<div class="line"><span class="lineno">  293</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  294</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_variable" href="../../df/d57/blackrock__depths_8cpp.html#af2fce71fa3dcd5348828dd274e1872ec">RingBoss</a>[<a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a31f7ff1c08dd33abdae1414f385e5d9e">BossSpawnId</a>], 644.300f, -175.989f, -53.739f, 3.418f, <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a>, 0);</div>
+<div class="line"><span class="lineno">  295</span>            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ac22a90e5fcf04dae8cbf5aea715a5412">resetTimer</a> = 30000;</div>
+<div class="line"><span class="lineno">  296</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="ablackrock__depths_8cpp_html_af2fce71fa3dcd5348828dd274e1872ec"><div class="ttname"><a href="../../df/d57/blackrock__depths_8cpp.html#af2fce71fa3dcd5348828dd274e1872ec">RingBoss</a></div><div class="ttdeci">uint32 RingBoss[]</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:139</div></div>
+<div class="ttc" id="ablackrock__depths_8h_html_a072ab479782ab4b7bb38d5712fff097f"><div class="ttname"><a href="../../d7/d26/blackrock__depths_8h.html#a072ab479782ab4b7bb38d5712fff097f">theldrenTeam</a></div><div class="ttdeci">const uint32 theldrenTeam[]</div><div class="ttdef"><b>Definition:</b> blackrock_depths.h:144</div></div>
+<div class="ttc" id="ablackrock__depths_8h_html_a2f2e8b4a6f1b51adcbf0e07e2cc282dda488dee0fbf41c0936bc3fbf26d220c10"><div class="ttname"><a href="../../d7/d26/blackrock__depths_8h.html#a2f2e8b4a6f1b51adcbf0e07e2cc282dda488dee0fbf41c0936bc3fbf26d220c10">NPC_THELDREN</a></div><div class="ttdeci">@ NPC_THELDREN</div><div class="ttdef"><b>Definition:</b> blackrock_depths.h:141</div></div>
+<div class="ttc" id="ablackrock__depths_8h_html_a2f2e8b4a6f1b51adcbf0e07e2cc282ddaef99d0b7ff9f40ee83faacf3856088e8"><div class="ttname"><a href="../../d7/d26/blackrock__depths_8h.html#a2f2e8b4a6f1b51adcbf0e07e2cc282ddaef99d0b7ff9f40ee83faacf3856088e8">GO_BANNER_OF_PROVOCATION</a></div><div class="ttdeci">@ GO_BANNER_OF_PROVOCATION</div><div class="ttdef"><b>Definition:</b> blackrock_depths.h:137</div></div>
+<div class="ttc" id="aclass_world_object_html_a178c5ef685f97dc9bbd486dd6cabfb63"><div class="ttname"><a href="../../db/df7/class_world_object.html#a178c5ef685f97dc9bbd486dd6cabfb63">WorldObject::FindNearestGameObject</a></div><div class="ttdeci">GameObject * FindNearestGameObject(uint32 entry, float range, bool onlySpawned=false) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2401</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6cf74375a89074ebfdaef1f189f58f57" name="a6cf74375a89074ebfdaef1f189f58f57"></a>
@@ -789,7 +868,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#aa84f573bdb0e556cf911d0a00f6ed5fb">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  233</span>        {</div>
+<div class="line"><span class="lineno">  234</span>            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#acc981f16561558187a4f73f30477087e">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a2022b190043330dce78fdd60a15670a7">Despawn</a>(summon);</div>
+<div class="line"><span class="lineno">  235</span>            <span class="comment">// All Summons killed, next phase</span></div>
+<div class="line"><span class="lineno">  236</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#acc981f16561558187a4f73f30477087e">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a10b29ba099a9b99fde54101358dea8dc">empty</a>())</div>
+<div class="line"><span class="lineno">  237</span>            {</div>
+<div class="line"><span class="lineno">  238</span>                <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ac22a90e5fcf04dae8cbf5aea715a5412">resetTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  239</span>                <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> = 5000;</div>
+<div class="line"><span class="lineno">  240</span>            }</div>
+<div class="line"><span class="lineno">  241</span>        }</div>
+<div class="ttc" id="aclass_summon_list_html_a10b29ba099a9b99fde54101358dea8dc"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a10b29ba099a9b99fde54101358dea8dc">SummonList::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:74</div></div>
+<div class="ttc" id="aclass_summon_list_html_a2022b190043330dce78fdd60a15670a7"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a2022b190043330dce78fdd60a15670a7">SummonList::Despawn</a></div><div class="ttdeci">void Despawn(Creature const *summon)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:90</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1442439a8e8ea38fc46e65160f2fbe40" name="a1442439a8e8ea38fc46e65160f2fbe40"></a>
@@ -817,7 +907,128 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#aed1525b79824e29e0f93419c0b6b26e2">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  336</span>        {</div>
+<div class="line"><span class="lineno">  337</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ae9c1e204ed846b77a118bae352a16a0a">instance</a>)</div>
+<div class="line"><span class="lineno">  338</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  339</span> </div>
+<div class="line"><span class="lineno">  340</span>            <span class="comment">// reset if our mobs don&#39;t have a target.</span></div>
+<div class="line"><span class="lineno">  341</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a7c28d3cca183390116a7f6e3c094aa6b">updateReset</a>(diff))</div>
+<div class="line"><span class="lineno">  342</span>            {</div>
+<div class="line"><span class="lineno">  343</span>                <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#acc981f16561558187a4f73f30477087e">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">DespawnAll</a>();</div>
+<div class="line"><span class="lineno">  344</span>                <a class="code hl_function" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#aeb8bb46e75506889ddb1f32c7846618d">HandleGameObject</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22ad52ecae8e6baa0483641ffd628de6b39">DATA_ARENA4</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  345</span>                <a class="code hl_function" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#aeb8bb46e75506889ddb1f32c7846618d">HandleGameObject</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22aa64b5ba2ccf7b78093412a8051a4cae8">DATA_ARENA3</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  346</span>                <a class="code hl_function" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#aeb8bb46e75506889ddb1f32c7846618d">HandleGameObject</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22ab549265e9a148c5f7a9c03c6f07115d1">DATA_ARENA2</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  347</span>                <a class="code hl_function" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#aeb8bb46e75506889ddb1f32c7846618d">HandleGameObject</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22adb192726b0c70f2b1a8e9c8a849f7b14">DATA_ARENA1</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  348</span>                <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ae9c1e204ed846b77a118bae352a16a0a">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22a1c9f95dc82dd6ef7017753b231810d01">TYPE_RING_OF_LAW</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a936c4a5547a9360243178f726f6b2715">FAIL</a>);</div>
+<div class="line"><span class="lineno">  349</span>            }</div>
+<div class="line"><span class="lineno">  350</span> </div>
+<div class="line"><span class="lineno">  351</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a>)</div>
+<div class="line"><span class="lineno">  352</span>            {</div>
+<div class="line"><span class="lineno">  353</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  354</span>                {</div>
+<div class="line"><span class="lineno">  355</span>                    <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a2e68549ad81f51bf596a7727a32c6e03">eventPhase</a>)</div>
+<div class="line"><span class="lineno">  356</span>                    {</div>
+<div class="line"><span class="lineno">  357</span>                        <span class="keywordflow">case</span> 0:</div>
+<div class="line"><span class="lineno">  358</span>                            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../df/d57/blackrock__depths_8cpp.html#a0c9ac53db659fd636b9dc88ea37a3954abb8aafd7f2dbaa933f3d2c0f858cc16d">SAY_TEXT5</a>);</div>
+<div class="line"><span class="lineno">  359</span>                            <a class="code hl_function" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#aeb8bb46e75506889ddb1f32c7846618d">HandleGameObject</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22ad52ecae8e6baa0483641ffd628de6b39">DATA_ARENA4</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  360</span>                            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a3af9ad016ba42ce06db5d2ba7cdb6a5f">Start</a>(<span class="keyword">false</span>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  361</span>                            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  362</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  363</span>                        <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno">  364</span>                            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#aab2ae80bf9d5b6382fc6f8390808bc74">SetEscortPaused</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  365</span>                            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  366</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  367</span>                        <span class="keywordflow">case</span> 2:</div>
+<div class="line"><span class="lineno">  368</span>                            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> = 2000;</div>
+<div class="line"><span class="lineno">  369</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  370</span>                        <span class="keywordflow">case</span> 3:</div>
+<div class="line"><span class="lineno">  371</span>                            <a class="code hl_function" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#aeb8bb46e75506889ddb1f32c7846618d">HandleGameObject</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22adb192726b0c70f2b1a8e9c8a849f7b14">DATA_ARENA1</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  372</span>                            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> = 3000;</div>
+<div class="line"><span class="lineno">  373</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  374</span>                        <span class="keywordflow">case</span> 4:</div>
+<div class="line"><span class="lineno">  375</span>                            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#aab2ae80bf9d5b6382fc6f8390808bc74">SetEscortPaused</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  376</span>                            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a08f6c21ed1d05cf54e8351b80e152c90">SetVisible</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  377</span>                            <a class="code hl_function" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ad83bf99a15a8a80fe572e8927f533921">SpawnWave</a>(<a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ab17115539c7778849eb7a5d7b3c14955">MobSpawnId</a>); <span class="comment">// wave 1</span></div>
+<div class="line"><span class="lineno">  378</span>                            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> = 15000;</div>
+<div class="line"><span class="lineno">  379</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  380</span>                        <span class="keywordflow">case</span> 5:</div>
+<div class="line"><span class="lineno">  381</span>                            <a class="code hl_function" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ad83bf99a15a8a80fe572e8927f533921">SpawnWave</a>(<a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ab17115539c7778849eb7a5d7b3c14955">MobSpawnId</a>); <span class="comment">// wave 2</span></div>
+<div class="line"><span class="lineno">  382</span>                            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> = 0; <span class="comment">// will be set from SummonedCreatureDies</span></div>
+<div class="line"><span class="lineno">  383</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  384</span>                        <span class="keywordflow">case</span> 6:</div>
+<div class="line"><span class="lineno">  385</span>                            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a08f6c21ed1d05cf54e8351b80e152c90">SetVisible</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  386</span>                            <a class="code hl_function" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#aeb8bb46e75506889ddb1f32c7846618d">HandleGameObject</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22adb192726b0c70f2b1a8e9c8a849f7b14">DATA_ARENA1</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  387</span>                            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../df/d57/blackrock__depths_8cpp.html#a0c9ac53db659fd636b9dc88ea37a3954a5b808298bfd32a4b30c81da55f921803">SAY_TEXT6</a>);</div>
+<div class="line"><span class="lineno">  388</span>                            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#aab2ae80bf9d5b6382fc6f8390808bc74">SetEscortPaused</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  389</span>                            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  390</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  391</span>                        <span class="keywordflow">case</span> 7:</div>
+<div class="line"><span class="lineno">  392</span>                            <a class="code hl_function" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#aeb8bb46e75506889ddb1f32c7846618d">HandleGameObject</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22ab549265e9a148c5f7a9c03c6f07115d1">DATA_ARENA2</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  393</span>                            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> = 5000;</div>
+<div class="line"><span class="lineno">  394</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  395</span>                        <span class="keywordflow">case</span> 8:</div>
+<div class="line"><span class="lineno">  396</span>                            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a08f6c21ed1d05cf54e8351b80e152c90">SetVisible</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  397</span>                            <a class="code hl_function" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ac019b66c330d228a4baa4c81b14f825a">SummonBoss</a>();</div>
+<div class="line"><span class="lineno">  398</span>                            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  399</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  400</span>                        <span class="keywordflow">case</span> 9:</div>
+<div class="line"><span class="lineno">  401</span>                            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ad3811c9392c8849770d60398f5c9ed5b">theldrenEvent</a>)</div>
+<div class="line"><span class="lineno">  402</span>                            {</div>
+<div class="line"><span class="lineno">  403</span>                                <span class="comment">// All objects are removed from world once tempsummons despawn, so have a player spawn it instead.</span></div>
+<div class="line"><span class="lineno">  404</span>                                <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a8bcd0563ce34a4ed2336034e762ce7fb">SelectNearestPlayer</a>(100.0f);</div>
+<div class="line"><span class="lineno">  405</span>                                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* go = player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ae5570989260234d213323c44ab5fb44c">SummonGameObject</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#a2f2e8b4a6f1b51adcbf0e07e2cc282dda456d218c4e29980af41c866d42a7da27">GO_ARENA_SPOILS</a>, 596.48f, -187.91f, -54.14f, 4.9f, 0.0f, 0.0f, 0.0f, 0.0f, 300))</div>
+<div class="line"><span class="lineno">  406</span>                                {</div>
+<div class="line"><span class="lineno">  407</span>                                    go-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab28ae6d3c6631e4fc0d1201c788e6b39">SetOwnerGUID</a>(<a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
+<div class="line"><span class="lineno">  408</span>                                }</div>
+<div class="line"><span class="lineno">  409</span> </div>
+<div class="line"><span class="lineno">  410</span>                                <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; pl = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">  411</span>                                <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> itr = pl.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); itr != pl.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  412</span>                                    itr-&gt;GetSource()-&gt;KilledMonsterCredit(16166);</div>
+<div class="line"><span class="lineno">  413</span>                            }</div>
+<div class="line"><span class="lineno">  414</span> </div>
+<div class="line"><span class="lineno">  415</span>                            <a class="code hl_function" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#aeb8bb46e75506889ddb1f32c7846618d">HandleGameObject</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22ab549265e9a148c5f7a9c03c6f07115d1">DATA_ARENA2</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  416</span>                            <a class="code hl_function" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#aeb8bb46e75506889ddb1f32c7846618d">HandleGameObject</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22aa64b5ba2ccf7b78093412a8051a4cae8">DATA_ARENA3</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  417</span>                            <a class="code hl_function" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#aeb8bb46e75506889ddb1f32c7846618d">HandleGameObject</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22ad52ecae8e6baa0483641ffd628de6b39">DATA_ARENA4</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  418</span>                            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#aab2ae80bf9d5b6382fc6f8390808bc74">SetEscortPaused</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  419</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  420</span>                    }</div>
+<div class="line"><span class="lineno">  421</span>                    ++<a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a2e68549ad81f51bf596a7727a32c6e03">eventPhase</a>;</div>
+<div class="line"><span class="lineno">  422</span>                }</div>
+<div class="line"><span class="lineno">  423</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  424</span>                    <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  425</span>            }</div>
+<div class="line"><span class="lineno">  426</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a936c4a5547a9360243178f726f6b2715"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a936c4a5547a9360243178f726f6b2715">FAIL</a></div><div class="ttdeci">@ FAIL</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:58</div></div>
+<div class="ttc" id="ablackrock__depths_8cpp_html_a0c9ac53db659fd636b9dc88ea37a3954a5b808298bfd32a4b30c81da55f921803"><div class="ttname"><a href="../../df/d57/blackrock__depths_8cpp.html#a0c9ac53db659fd636b9dc88ea37a3954a5b808298bfd32a4b30c81da55f921803">SAY_TEXT6</a></div><div class="ttdeci">@ SAY_TEXT6</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:183</div></div>
+<div class="ttc" id="ablackrock__depths_8cpp_html_a0c9ac53db659fd636b9dc88ea37a3954abb8aafd7f2dbaa933f3d2c0f858cc16d"><div class="ttname"><a href="../../df/d57/blackrock__depths_8cpp.html#a0c9ac53db659fd636b9dc88ea37a3954abb8aafd7f2dbaa933f3d2c0f858cc16d">SAY_TEXT5</a></div><div class="ttdeci">@ SAY_TEXT5</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:182</div></div>
+<div class="ttc" id="ablackrock__depths_8h_html_a2f2e8b4a6f1b51adcbf0e07e2cc282dda456d218c4e29980af41c866d42a7da27"><div class="ttname"><a href="../../d7/d26/blackrock__depths_8h.html#a2f2e8b4a6f1b51adcbf0e07e2cc282dda456d218c4e29980af41c866d42a7da27">GO_ARENA_SPOILS</a></div><div class="ttdeci">@ GO_ARENA_SPOILS</div><div class="ttdef"><b>Definition:</b> blackrock_depths.h:138</div></div>
+<div class="ttc" id="ablackrock__depths_8h_html_afb6eb4f28419b652027fad41104a6d22a1c9f95dc82dd6ef7017753b231810d01"><div class="ttname"><a href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22a1c9f95dc82dd6ef7017753b231810d01">TYPE_RING_OF_LAW</a></div><div class="ttdeci">@ TYPE_RING_OF_LAW</div><div class="ttdef"><b>Definition:</b> blackrock_depths.h:38</div></div>
+<div class="ttc" id="ablackrock__depths_8h_html_afb6eb4f28419b652027fad41104a6d22aa64b5ba2ccf7b78093412a8051a4cae8"><div class="ttname"><a href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22aa64b5ba2ccf7b78093412a8051a4cae8">DATA_ARENA3</a></div><div class="ttdeci">@ DATA_ARENA3</div><div class="ttdef"><b>Definition:</b> blackrock_depths.h:50</div></div>
+<div class="ttc" id="ablackrock__depths_8h_html_afb6eb4f28419b652027fad41104a6d22ab549265e9a148c5f7a9c03c6f07115d1"><div class="ttname"><a href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22ab549265e9a148c5f7a9c03c6f07115d1">DATA_ARENA2</a></div><div class="ttdeci">@ DATA_ARENA2</div><div class="ttdef"><b>Definition:</b> blackrock_depths.h:49</div></div>
+<div class="ttc" id="ablackrock__depths_8h_html_afb6eb4f28419b652027fad41104a6d22ad52ecae8e6baa0483641ffd628de6b39"><div class="ttname"><a href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22ad52ecae8e6baa0483641ffd628de6b39">DATA_ARENA4</a></div><div class="ttdeci">@ DATA_ARENA4</div><div class="ttdef"><b>Definition:</b> blackrock_depths.h:51</div></div>
+<div class="ttc" id="ablackrock__depths_8h_html_afb6eb4f28419b652027fad41104a6d22adb192726b0c70f2b1a8e9c8a849f7b14"><div class="ttname"><a href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22adb192726b0c70f2b1a8e9c8a849f7b14">DATA_ARENA1</a></div><div class="ttdeci">@ DATA_ARENA1</div><div class="ttdef"><b>Definition:</b> blackrock_depths.h:48</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_linked_list_head_1_1_iterator_html"><div class="ttname"><a href="../../db/dfe/class_linked_list_head_1_1_iterator.html">LinkedListHead::Iterator</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:139</div></div>
+<div class="ttc" id="aclass_map_html_ae37764185b1adf2c6438025e4fa9091a"><div class="ttname"><a href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">Map::GetPlayers</a></div><div class="ttdeci">PlayerList const &amp; GetPlayers() const</div><div class="ttdef"><b>Definition:</b> Map.h:484</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html">MapRefMgr</a></div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:26</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_a6774b551f0d64628e33594c7b486a872"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">MapRefMgr::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:36</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_af488c0096775085791b5fbc89e5851a0"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">MapRefMgr::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:37</div></div>
+<div class="ttc" id="aclass_object_guid_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_html_a08f6c21ed1d05cf54e8351b80e152c90"><div class="ttname"><a href="../../da/db7/class_unit.html#a08f6c21ed1d05cf54e8351b80e152c90">Unit::SetVisible</a></div><div class="ttdeci">void SetVisible(bool x)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14117</div></div>
+<div class="ttc" id="aclass_unit_html_ab28ae6d3c6631e4fc0d1201c788e6b39"><div class="ttname"><a href="../../da/db7/class_unit.html#ab28ae6d3c6631e4fc0d1201c788e6b39">Unit::SetOwnerGUID</a></div><div class="ttdeci">void SetOwnerGUID(ObjectGuid owner)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10521</div></div>
+<div class="ttc" id="aclass_world_object_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:517</div></div>
+<div class="ttc" id="aclass_world_object_html_a8bcd0563ce34a4ed2336034e762ce7fb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a8bcd0563ce34a4ed2336034e762ce7fb">WorldObject::SelectNearestPlayer</a></div><div class="ttdeci">Player * SelectNearestPlayer(float distance=0) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2419</div></div>
+<div class="ttc" id="aclass_world_object_html_ae5570989260234d213323c44ab5fb44c"><div class="ttname"><a href="../../db/df7/class_world_object.html#ae5570989260234d213323c44ab5fb44c">WorldObject::SummonGameObject</a></div><div class="ttdeci">GameObject * SummonGameObject(uint32 entry, float x, float y, float z, float ang, float rotation0, float rotation1, float rotation2, float rotation3, uint32 respawnTime, bool checkTransport=true, GOSummonType summonType=GO_SUMMON_TIMED_OR_CORPSE_DESPAWN)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2315</div></div>
+<div class="ttc" id="aclass_zone_script_html_a949e67ea24c7e4b70a20806952735576"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:53</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a3af9ad016ba42ce06db5d2ba7cdb6a5f"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a3af9ad016ba42ce06db5d2ba7cdb6a5f">npc_escortAI::Start</a></div><div class="ttdeci">void Start(bool isActiveAttacker=true, bool run=false, ObjectGuid playerGUID=ObjectGuid::Empty, Quest const *quest=nullptr, bool instantRespawn=false, bool canLoopPath=false, bool resetWaypoints=true)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:450</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_aab2ae80bf9d5b6382fc6f8390808bc74"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#aab2ae80bf9d5b6382fc6f8390808bc74">npc_escortAI::SetEscortPaused</a></div><div class="ttdeci">void SetEscortPaused(bool on)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:524</div></div>
+<div class="ttc" id="astructnpc__grimstone_1_1npc__grimstone_a_i_html_a7c28d3cca183390116a7f6e3c094aa6b"><div class="ttname"><a href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a7c28d3cca183390116a7f6e3c094aa6b">npc_grimstone::npc_grimstoneAI::updateReset</a></div><div class="ttdeci">bool updateReset(uint32 diff)</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:298</div></div>
+<div class="ttc" id="astructnpc__grimstone_1_1npc__grimstone_a_i_html_ac019b66c330d228a4baa4c81b14f825a"><div class="ttname"><a href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ac019b66c330d228a4baa4c81b14f825a">npc_grimstone::npc_grimstoneAI::SummonBoss</a></div><div class="ttdeci">void SummonBoss()</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:283</div></div>
+<div class="ttc" id="astructnpc__grimstone_1_1npc__grimstone_a_i_html_ad83bf99a15a8a80fe572e8927f533921"><div class="ttname"><a href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ad83bf99a15a8a80fe572e8927f533921">npc_grimstone::npc_grimstoneAI::SpawnWave</a></div><div class="ttdeci">void SpawnWave(uint32 mobId)</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:326</div></div>
+<div class="ttc" id="astructnpc__grimstone_1_1npc__grimstone_a_i_html_aeb8bb46e75506889ddb1f32c7846618d"><div class="ttname"><a href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#aeb8bb46e75506889ddb1f32c7846618d">npc_grimstone::npc_grimstoneAI::HandleGameObject</a></div><div class="ttdeci">void HandleGameObject(uint32 id, bool open)</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:278</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7c28d3cca183390116a7f6e3c094aa6b" name="a7c28d3cca183390116a7f6e3c094aa6b"></a>
@@ -843,7 +1054,35 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  299</span>        {</div>
+<div class="line"><span class="lineno">  300</span>            <span class="comment">// as long as the summoned creatures have someone to attack, we reset the timer.</span></div>
+<div class="line"><span class="lineno">  301</span>            <span class="comment">// once they don&#39;t find anyone, the timer will count down until it is smaller than diff and reset.</span></div>
+<div class="line"><span class="lineno">  302</span>            <span class="keywordtype">bool</span> doReset = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  303</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ac22a90e5fcf04dae8cbf5aea715a5412">resetTimer</a> &gt; 0)</div>
+<div class="line"><span class="lineno">  304</span>            {</div>
+<div class="line"><span class="lineno">  305</span>                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; sum : <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#acc981f16561558187a4f73f30477087e">summons</a>)</div>
+<div class="line"><span class="lineno">  306</span>                {</div>
+<div class="line"><span class="lineno">  307</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* creature = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, sum))</div>
+<div class="line"><span class="lineno">  308</span>                    {</div>
+<div class="line"><span class="lineno">  309</span>                        <span class="keywordflow">if</span> (creature-&gt;IsAlive() &amp;&amp; creature-&gt;GetVictim())</div>
+<div class="line"><span class="lineno">  310</span>                        {</div>
+<div class="line"><span class="lineno">  311</span>                            <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ac22a90e5fcf04dae8cbf5aea715a5412">resetTimer</a> = 30000;</div>
+<div class="line"><span class="lineno">  312</span>                            <span class="keywordflow">break</span>; <span class="comment">// only need to find one.</span></div>
+<div class="line"><span class="lineno">  313</span>                        }</div>
+<div class="line"><span class="lineno">  314</span>                    }</div>
+<div class="line"><span class="lineno">  315</span>                }</div>
+<div class="line"><span class="lineno">  316</span> </div>
+<div class="line"><span class="lineno">  317</span>                <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ac22a90e5fcf04dae8cbf5aea715a5412">resetTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  318</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ac22a90e5fcf04dae8cbf5aea715a5412">resetTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  319</span>                {</div>
+<div class="line"><span class="lineno">  320</span>                    doReset = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  321</span>                }</div>
+<div class="line"><span class="lineno">  322</span>            }</div>
+<div class="line"><span class="lineno">  323</span>            <span class="keywordflow">return</span> doReset;</div>
+<div class="line"><span class="lineno">  324</span>        }</div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a73452b365d3095ce584d7a2bcd38d275" name="a73452b365d3095ce584d7a2bcd38d275"></a>
@@ -871,7 +1110,48 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#a59830f742b9967303df22f5bcf0d2b9d">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  244</span>        {</div>
+<div class="line"><span class="lineno">  245</span>            <span class="keywordflow">switch</span> (waypointId)</div>
+<div class="line"><span class="lineno">  246</span>            {</div>
+<div class="line"><span class="lineno">  247</span>                <span class="keywordflow">case</span> 0:</div>
+<div class="line"><span class="lineno">  248</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../df/d57/blackrock__depths_8cpp.html#a0c9ac53db659fd636b9dc88ea37a3954abe56e2dc1daa55ecb206c40203e2c43f">SAY_TEXT1</a>);</div>
+<div class="line"><span class="lineno">  249</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#aab2ae80bf9d5b6382fc6f8390808bc74">SetEscortPaused</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  250</span>                    <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> = 5000;</div>
+<div class="line"><span class="lineno">  251</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  252</span>                <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno">  253</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../df/d57/blackrock__depths_8cpp.html#a0c9ac53db659fd636b9dc88ea37a3954ab6be9087c9f91d239f09f746f54c7134">SAY_TEXT2</a>);</div>
+<div class="line"><span class="lineno">  254</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#aab2ae80bf9d5b6382fc6f8390808bc74">SetEscortPaused</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  255</span>                    <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> = 5000;</div>
+<div class="line"><span class="lineno">  256</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  257</span>                <span class="keywordflow">case</span> 2:</div>
+<div class="line"><span class="lineno">  258</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#aab2ae80bf9d5b6382fc6f8390808bc74">SetEscortPaused</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  259</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  260</span>                <span class="keywordflow">case</span> 3:</div>
+<div class="line"><span class="lineno">  261</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../df/d57/blackrock__depths_8cpp.html#a0c9ac53db659fd636b9dc88ea37a3954a2ba8965d5901749a12d1480d8ac009b9">SAY_TEXT3</a>);</div>
+<div class="line"><span class="lineno">  262</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  263</span>                <span class="keywordflow">case</span> 4:</div>
+<div class="line"><span class="lineno">  264</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../df/d57/blackrock__depths_8cpp.html#a0c9ac53db659fd636b9dc88ea37a3954a07d6839dbfc7d4b3580bfa4dbafd9e5c">SAY_TEXT4</a>);</div>
+<div class="line"><span class="lineno">  265</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#aab2ae80bf9d5b6382fc6f8390808bc74">SetEscortPaused</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  266</span>                    <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#a48a153973c4a5d8b911a5f89d3c968eb">eventTimer</a> = 5000;</div>
+<div class="line"><span class="lineno">  267</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  268</span>                <span class="keywordflow">case</span> 5:</div>
+<div class="line"><span class="lineno">  269</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ae9c1e204ed846b77a118bae352a16a0a">instance</a>)</div>
+<div class="line"><span class="lineno">  270</span>                    {</div>
+<div class="line"><span class="lineno">  271</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a7e8d668e4830ebbf1b82c807ab4964e2">UpdateEncounterState</a>(<a class="code hl_enumvalue" href="../../d3/d63/_map_8h.html#a0b496ae912a68ca7a6f8fd555cf62437a9f7df7852d0cd0994fbc5c531928a03f">ENCOUNTER_CREDIT_KILL_CREATURE</a>, <a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#a2f2e8b4a6f1b51adcbf0e07e2cc282dda5f0d6b85c79a6d2f6cad9747b57dd299">NPC_GRIMSTONE</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  272</span>                        <a class="code hl_variable" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html#ae9c1e204ed846b77a118bae352a16a0a">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22a1c9f95dc82dd6ef7017753b231810d01">TYPE_RING_OF_LAW</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>);</div>
+<div class="line"><span class="lineno">  273</span>                    }</div>
+<div class="line"><span class="lineno">  274</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  275</span>            }</div>
+<div class="line"><span class="lineno">  276</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="a_map_8h_html_a0b496ae912a68ca7a6f8fd555cf62437a9f7df7852d0cd0994fbc5c531928a03f"><div class="ttname"><a href="../../d3/d63/_map_8h.html#a0b496ae912a68ca7a6f8fd555cf62437a9f7df7852d0cd0994fbc5c531928a03f">ENCOUNTER_CREDIT_KILL_CREATURE</a></div><div class="ttdeci">@ ENCOUNTER_CREDIT_KILL_CREATURE</div><div class="ttdef"><b>Definition:</b> Map.h:307</div></div>
+<div class="ttc" id="ablackrock__depths_8cpp_html_a0c9ac53db659fd636b9dc88ea37a3954a07d6839dbfc7d4b3580bfa4dbafd9e5c"><div class="ttname"><a href="../../df/d57/blackrock__depths_8cpp.html#a0c9ac53db659fd636b9dc88ea37a3954a07d6839dbfc7d4b3580bfa4dbafd9e5c">SAY_TEXT4</a></div><div class="ttdeci">@ SAY_TEXT4</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:181</div></div>
+<div class="ttc" id="ablackrock__depths_8cpp_html_a0c9ac53db659fd636b9dc88ea37a3954a2ba8965d5901749a12d1480d8ac009b9"><div class="ttname"><a href="../../df/d57/blackrock__depths_8cpp.html#a0c9ac53db659fd636b9dc88ea37a3954a2ba8965d5901749a12d1480d8ac009b9">SAY_TEXT3</a></div><div class="ttdeci">@ SAY_TEXT3</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:180</div></div>
+<div class="ttc" id="ablackrock__depths_8cpp_html_a0c9ac53db659fd636b9dc88ea37a3954ab6be9087c9f91d239f09f746f54c7134"><div class="ttname"><a href="../../df/d57/blackrock__depths_8cpp.html#a0c9ac53db659fd636b9dc88ea37a3954ab6be9087c9f91d239f09f746f54c7134">SAY_TEXT2</a></div><div class="ttdeci">@ SAY_TEXT2</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:179</div></div>
+<div class="ttc" id="ablackrock__depths_8cpp_html_a0c9ac53db659fd636b9dc88ea37a3954abe56e2dc1daa55ecb206c40203e2c43f"><div class="ttname"><a href="../../df/d57/blackrock__depths_8cpp.html#a0c9ac53db659fd636b9dc88ea37a3954abe56e2dc1daa55ecb206c40203e2c43f">SAY_TEXT1</a></div><div class="ttdeci">@ SAY_TEXT1</div><div class="ttdef"><b>Definition:</b> blackrock_depths.cpp:178</div></div>
+<div class="ttc" id="ablackrock__depths_8h_html_a2f2e8b4a6f1b51adcbf0e07e2cc282dda5f0d6b85c79a6d2f6cad9747b57dd299"><div class="ttname"><a href="../../d7/d26/blackrock__depths_8h.html#a2f2e8b4a6f1b51adcbf0e07e2cc282dda5f0d6b85c79a6d2f6cad9747b57dd299">NPC_GRIMSTONE</a></div><div class="ttdeci">@ NPC_GRIMSTONE</div><div class="ttdef"><b>Definition:</b> blackrock_depths.h:140</div></div>
+<div class="ttc" id="aclass_map_html_a7e8d668e4830ebbf1b82c807ab4964e2"><div class="ttname"><a href="../../dd/d11/class_map.html#a7e8d668e4830ebbf1b82c807ab4964e2">Map::UpdateEncounterState</a></div><div class="ttdeci">void UpdateEncounterState(EncounterCreditType type, uint32 creditEntry, Unit *source)</div><div class="ttdef"><b>Definition:</b> Map.cpp:3447</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -988,7 +1268,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/<a class="el" href="../../df/d57/blackrock__depths_8cpp.html">blackrock_depths.cpp</a></li>
+<li><a class="el" href="../../">blackrock_depths.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -996,7 +1276,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d18/classnpc__grimstone.html">npc_grimstone</a></li><li class="navelem"><a class="el" href="../../d5/d7d/structnpc__grimstone_1_1npc__grimstone_a_i.html">npc_grimstoneAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

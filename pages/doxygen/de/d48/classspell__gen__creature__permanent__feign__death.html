@@ -304,7 +304,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a96b84a256ace08dd34cc4858031158fc" name="a96b84a256ace08dd34cc4858031158fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a96b84a256ace08dd34cc4858031158fc">&#9670;&#160;</a></span>HandleEffectApply()</h2>
 
@@ -338,7 +339,28 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1772</span>    {</div>
+<div class="line"><span class="lineno"> 1773</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>();</div>
+<div class="line"><span class="lineno"> 1774</span>        target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a8626753766b8e3ee11889f096d6fca6f">SetDynamicFlag</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a6d2f7a5452237dadf8fd3aed70f44039a0d49a1984bca491e07dc726a7b2b53fe">UNIT_DYNFLAG_DEAD</a>);</div>
+<div class="line"><span class="lineno"> 1775</span>        target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a585c0587bf93911ef964892c82b82172">SetUnitFlag2</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a3320fdc05dc07c396f8943de4018e682a79163df63e20fe477d0b2a6f5043a515">UNIT_FLAG2_FEIGN_DEATH</a>);</div>
+<div class="line"><span class="lineno"> 1776</span>        target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af11c4cb6be962a4162cc987c69a7884f">SetImmuneToAll</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1777</span> </div>
+<div class="line"><span class="lineno"> 1778</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>)</div>
+<div class="line"><span class="lineno"> 1779</span>            target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno"> 1780</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a6d2f7a5452237dadf8fd3aed70f44039a0d49a1984bca491e07dc726a7b2b53fe"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a6d2f7a5452237dadf8fd3aed70f44039a0d49a1984bca491e07dc726a7b2b53fe">UNIT_DYNFLAG_DEAD</a></div><div class="ttdeci">@ UNIT_DYNFLAG_DEAD</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3098</div></div>
+<div class="ttc" id="a_unit_8h_html_a3320fdc05dc07c396f8943de4018e682a79163df63e20fe477d0b2a6f5043a515"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a3320fdc05dc07c396f8943de4018e682a79163df63e20fe477d0b2a6f5043a515">UNIT_FLAG2_FEIGN_DEATH</a></div><div class="ttdeci">@ UNIT_FLAG2_FEIGN_DEATH</div><div class="ttdef"><b>Definition:</b> Unit.h:488</div></div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a></div><div class="ttdeci">@ REACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1023</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_object_html_a8626753766b8e3ee11889f096d6fca6f"><div class="ttname"><a href="../../d8/d83/class_object.html#a8626753766b8e3ee11889f096d6fca6f">Object::SetDynamicFlag</a></div><div class="ttdeci">virtual void SetDynamicFlag(uint32 flag)</div><div class="ttdef"><b>Definition:</b> Object.h:117</div></div>
+<div class="ttc" id="aclass_object_html_ab0e2ef1ac1daa91476f749e0ec6ad3c6"><div class="ttname"><a href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">Object::ToCreature</a></div><div class="ttdeci">Creature * ToCreature()</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a585c0587bf93911ef964892c82b82172"><div class="ttname"><a href="../../da/db7/class_unit.html#a585c0587bf93911ef964892c82b82172">Unit::SetUnitFlag2</a></div><div class="ttdeci">void SetUnitFlag2(UnitFlags2 flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1485</div></div>
+<div class="ttc" id="aclass_unit_html_af11c4cb6be962a4162cc987c69a7884f"><div class="ttname"><a href="../../da/db7/class_unit.html#af11c4cb6be962a4162cc987c69a7884f">Unit::SetImmuneToAll</a></div><div class="ttdeci">void SetImmuneToAll(bool apply, bool keepCombat=false)</div><div class="ttdef"><b>Definition:</b> Unit.h:1675</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7638a66d969802e43c5123fd0c31fefe" name="a7638a66d969802e43c5123fd0c31fefe"></a>
@@ -374,7 +396,19 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1783</span>    {</div>
+<div class="line"><span class="lineno"> 1784</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>();</div>
+<div class="line"><span class="lineno"> 1785</span>        target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a096f5f52e6dad97fbe373004e9213f01">RemoveDynamicFlag</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a6d2f7a5452237dadf8fd3aed70f44039a0d49a1984bca491e07dc726a7b2b53fe">UNIT_DYNFLAG_DEAD</a>);</div>
+<div class="line"><span class="lineno"> 1786</span>        target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a999bdc0f7dfd67915713460cf0e451bd">RemoveUnitFlag2</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a3320fdc05dc07c396f8943de4018e682a79163df63e20fe477d0b2a6f5043a515">UNIT_FLAG2_FEIGN_DEATH</a>);</div>
+<div class="line"><span class="lineno"> 1787</span>        target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af11c4cb6be962a4162cc987c69a7884f">SetImmuneToAll</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 1788</span> </div>
+<div class="line"><span class="lineno"> 1789</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>)</div>
+<div class="line"><span class="lineno"> 1790</span>            target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno"> 1791</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="aclass_object_html_a096f5f52e6dad97fbe373004e9213f01"><div class="ttname"><a href="../../d8/d83/class_object.html#a096f5f52e6dad97fbe373004e9213f01">Object::RemoveDynamicFlag</a></div><div class="ttdeci">virtual void RemoveDynamicFlag(uint32 flag)</div><div class="ttdef"><b>Definition:</b> Object.h:118</div></div>
+<div class="ttc" id="aclass_unit_html_a999bdc0f7dfd67915713460cf0e451bd"><div class="ttname"><a href="../../da/db7/class_unit.html#a999bdc0f7dfd67915713460cf0e451bd">Unit::RemoveUnitFlag2</a></div><div class="ttdeci">void RemoveUnitFlag2(UnitFlags2 flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1486</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3e7ab7b75daf547161a3ffce3e05384b" name="a3e7ab7b75daf547161a3ffce3e05384b"></a>
@@ -427,11 +461,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1794</span>    {</div>
+<div class="line"><span class="lineno"> 1795</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#af325738f50fb9df450999e5e04ea65ed">OnEffectApply</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a>(<a class="code hl_function" href="../../de/d48/classspell__gen__creature__permanent__feign__death.html#a96b84a256ace08dd34cc4858031158fc">spell_gen_creature_permanent_feign_death::HandleEffectApply</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno"> 1796</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab9127bc3610a6a30fa9bbf22f7339bcc">OnEffectRemove</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a>(<a class="code hl_function" href="../../de/d48/classspell__gen__creature__permanent__feign__death.html#a7638a66d969802e43c5123fd0c31fefe">spell_gen_creature_permanent_feign_death::HandleEffectRemove</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno"> 1797</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a></div><div class="ttdeci">@ SPELL_AURA_DUMMY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:67</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:42</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ac47070c5a13a5436cc5d204a1445c993"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a></div><div class="ttdeci">#define AuraEffectApplyFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:733</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab9127bc3610a6a30fa9bbf22f7339bcc"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab9127bc3610a6a30fa9bbf22f7339bcc">AuraScript::OnEffectRemove</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; OnEffectRemove</div><div class="ttdef"><b>Definition:</b> SpellScript.h:739</div></div>
+<div class="ttc" id="aclass_aura_script_html_af325738f50fb9df450999e5e04ea65ed"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#af325738f50fb9df450999e5e04ea65ed">AuraScript::OnEffectApply</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; OnEffectApply</div><div class="ttdef"><b>Definition:</b> SpellScript.h:728</div></div>
+<div class="ttc" id="aclassspell__gen__creature__permanent__feign__death_html_a7638a66d969802e43c5123fd0c31fefe"><div class="ttname"><a href="../../de/d48/classspell__gen__creature__permanent__feign__death.html#a7638a66d969802e43c5123fd0c31fefe">spell_gen_creature_permanent_feign_death::HandleEffectRemove</a></div><div class="ttdeci">void HandleEffectRemove(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:1782</div></div>
+<div class="ttc" id="aclassspell__gen__creature__permanent__feign__death_html_a96b84a256ace08dd34cc4858031158fc"><div class="ttname"><a href="../../de/d48/classspell__gen__creature__permanent__feign__death.html#a96b84a256ace08dd34cc4858031158fc">spell_gen_creature_permanent_feign_death::HandleEffectApply</a></div><div class="ttdeci">void HandleEffectApply(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:1771</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../d1/de4/spell__generic_8cpp.html">spell_generic.cpp</a></li>
+<li><a class="el" href="../../">spell_generic.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -439,7 +485,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d48/classspell__gen__creature__permanent__feign__death.html">spell_gen_creature_permanent_feign_death</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

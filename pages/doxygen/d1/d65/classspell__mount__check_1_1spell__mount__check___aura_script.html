@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a093a682bc5043b63af016aa130fdc0b8" name="a093a682bc5043b63af016aa130fdc0b8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a093a682bc5043b63af016aa130fdc0b8">&#9670;&#160;</a></span>HandleEffectPeriodic()</h2>
 
@@ -326,7 +327,38 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  375</span>        {</div>
+<div class="line"><span class="lineno">  376</span>            <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>();</div>
+<div class="line"><span class="lineno">  377</span>            <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* owner = target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a16a73fea59a6ef3595093aa29225b37b">GetOwner</a>();</div>
+<div class="line"><span class="lineno">  378</span> </div>
+<div class="line"><span class="lineno">  379</span>            <span class="keywordflow">if</span> (!owner)</div>
+<div class="line"><span class="lineno">  380</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  381</span> </div>
+<div class="line"><span class="lineno">  382</span>            <span class="keywordflow">if</span> (owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa8ff700c8aec70f3ab1e1385262959b1">IsMounted</a>() &amp;&amp; !target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa8ff700c8aec70f3ab1e1385262959b1">IsMounted</a>())</div>
+<div class="line"><span class="lineno">  383</span>            {</div>
+<div class="line"><span class="lineno">  384</span>                <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d4/d0e/structnpc__troll__volunteer_1_1npc__troll__volunteer_a_i.html">VolunteerAI</a>* volunteerAI = <a class="code hl_define" href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a>(<a class="code hl_struct" href="../../d4/d0e/structnpc__troll__volunteer_1_1npc__troll__volunteer_a_i.html">VolunteerAI</a>, target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ac53944779fa1544c06a3fc3dc74f5294">GetAI</a>()))</div>
+<div class="line"><span class="lineno">  385</span>                    target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a76a05f1a743edc939472c8402674b5e0">Mount</a>(volunteerAI-&gt;GetMountId());</div>
+<div class="line"><span class="lineno">  386</span>            }</div>
+<div class="line"><span class="lineno">  387</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa8ff700c8aec70f3ab1e1385262959b1">IsMounted</a>() &amp;&amp; target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa8ff700c8aec70f3ab1e1385262959b1">IsMounted</a>())</div>
+<div class="line"><span class="lineno">  388</span>                target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4c786d459751c90df99fb7f1526e43e7">Dismount</a>();</div>
+<div class="line"><span class="lineno">  389</span> </div>
+<div class="line"><span class="lineno">  390</span>            target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab30ea03b94379b25f1d75ea879b4a61c">SetSpeed</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#af91f7580a89722b7dc45a018bb46fce4ad231571a48b7742c2a432eb7a8a849de">MOVE_RUN</a>, owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aab66f0084b10c4a2a45f064567cf1118">GetSpeedRate</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#af91f7580a89722b7dc45a018bb46fce4ad231571a48b7742c2a432eb7a8a849de">MOVE_RUN</a>));</div>
+<div class="line"><span class="lineno">  391</span>            target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab30ea03b94379b25f1d75ea879b4a61c">SetSpeed</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#af91f7580a89722b7dc45a018bb46fce4af13a74f1c064b7481beaace4e25531f1">MOVE_WALK</a>, owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aab66f0084b10c4a2a45f064567cf1118">GetSpeedRate</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#af91f7580a89722b7dc45a018bb46fce4af13a74f1c064b7481beaace4e25531f1">MOVE_WALK</a>));</div>
+<div class="line"><span class="lineno">  392</span>        }</div>
+<div class="ttc" id="a_scripted_creature_8h_html_a0476b18cfebeb691aabb4344ec4f8af3"><div class="ttname"><a href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a></div><div class="ttdeci">#define CAST_AI(a, b)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:27</div></div>
+<div class="ttc" id="a_unit_8h_html_af91f7580a89722b7dc45a018bb46fce4ad231571a48b7742c2a432eb7a8a849de"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#af91f7580a89722b7dc45a018bb46fce4ad231571a48b7742c2a432eb7a8a849de">MOVE_RUN</a></div><div class="ttdeci">@ MOVE_RUN</div><div class="ttdef"><b>Definition:</b> Unit.h:379</div></div>
+<div class="ttc" id="a_unit_8h_html_af91f7580a89722b7dc45a018bb46fce4af13a74f1c064b7481beaace4e25531f1"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#af91f7580a89722b7dc45a018bb46fce4af13a74f1c064b7481beaace4e25531f1">MOVE_WALK</a></div><div class="ttdeci">@ MOVE_WALK</div><div class="ttdef"><b>Definition:</b> Unit.h:378</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a16a73fea59a6ef3595093aa29225b37b"><div class="ttname"><a href="../../da/db7/class_unit.html#a16a73fea59a6ef3595093aa29225b37b">Unit::GetOwner</a></div><div class="ttdeci">Unit * GetOwner() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10548</div></div>
+<div class="ttc" id="aclass_unit_html_a4c786d459751c90df99fb7f1526e43e7"><div class="ttname"><a href="../../da/db7/class_unit.html#a4c786d459751c90df99fb7f1526e43e7">Unit::Dismount</a></div><div class="ttdeci">void Dismount()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:13428</div></div>
+<div class="ttc" id="aclass_unit_html_a76a05f1a743edc939472c8402674b5e0"><div class="ttname"><a href="../../da/db7/class_unit.html#a76a05f1a743edc939472c8402674b5e0">Unit::Mount</a></div><div class="ttdeci">void Mount(uint32 mount, uint32 vehicleId=0, uint32 creatureEntry=0)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:13369</div></div>
+<div class="ttc" id="aclass_unit_html_aa8ff700c8aec70f3ab1e1385262959b1"><div class="ttname"><a href="../../da/db7/class_unit.html#aa8ff700c8aec70f3ab1e1385262959b1">Unit::IsMounted</a></div><div class="ttdeci">bool IsMounted() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1540</div></div>
+<div class="ttc" id="aclass_unit_html_aab66f0084b10c4a2a45f064567cf1118"><div class="ttname"><a href="../../da/db7/class_unit.html#aab66f0084b10c4a2a45f064567cf1118">Unit::GetSpeedRate</a></div><div class="ttdeci">float GetSpeedRate(UnitMoveType mtype) const</div><div class="ttdef"><b>Definition:</b> Unit.h:2243</div></div>
+<div class="ttc" id="aclass_unit_html_ab30ea03b94379b25f1d75ea879b4a61c"><div class="ttname"><a href="../../da/db7/class_unit.html#ab30ea03b94379b25f1d75ea879b4a61c">Unit::SetSpeed</a></div><div class="ttdeci">void SetSpeed(UnitMoveType mtype, float rate, bool forced=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14301</div></div>
+<div class="ttc" id="aclass_unit_html_ac53944779fa1544c06a3fc3dc74f5294"><div class="ttname"><a href="../../da/db7/class_unit.html#ac53944779fa1544c06a3fc3dc74f5294">Unit::GetAI</a></div><div class="ttdeci">UnitAI * GetAI()</div><div class="ttdef"><b>Definition:</b> Unit.h:1316</div></div>
+<div class="ttc" id="astructnpc__troll__volunteer_1_1npc__troll__volunteer_a_i_html"><div class="ttname"><a href="../../d4/d0e/structnpc__troll__volunteer_1_1npc__troll__volunteer_a_i.html">npc_troll_volunteer::npc_troll_volunteerAI</a></div><div class="ttdef"><b>Definition:</b> zone_durotar.cpp:277</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a035cc2dfc78a0ee292ddab3633d44c10" name="a035cc2dfc78a0ee292ddab3633d44c10"></a>
@@ -352,7 +384,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  370</span>        {</div>
+<div class="line"><span class="lineno">  371</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>({ <a class="code hl_enumvalue" href="../../da/d1d/zone__durotar_8cpp.html#a5bd342133be8c2137b831460acc9298ca892b72bdde0d826b340d523efc0b0dd2">SPELL_MOUNTING_CHECK</a> });</div>
+<div class="line"><span class="lineno">  372</span>        }</div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+<div class="ttc" id="azone__durotar_8cpp_html_a5bd342133be8c2137b831460acc9298ca892b72bdde0d826b340d523efc0b0dd2"><div class="ttname"><a href="../../da/d1d/zone__durotar_8cpp.html#a5bd342133be8c2137b831460acc9298ca892b72bdde0d826b340d523efc0b0dd2">SPELL_MOUNTING_CHECK</a></div><div class="ttdeci">@ SPELL_MOUNTING_CHECK</div><div class="ttdef"><b>Definition:</b> zone_durotar.cpp:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a74c29ca2047da995d6d6f89f17ecb52f" name="a74c29ca2047da995d6d6f89f17ecb52f"></a>
@@ -379,11 +416,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  395</span>        {</div>
+<div class="line"><span class="lineno">  396</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a>(<a class="code hl_function" href="../../d1/d65/classspell__mount__check_1_1spell__mount__check___aura_script.html#a093a682bc5043b63af016aa130fdc0b8">spell_mount_check_AuraScript::HandleEffectPeriodic</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56">SPELL_AURA_PERIODIC_DUMMY</a>);</div>
+<div class="line"><span class="lineno">  397</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56">SPELL_AURA_PERIODIC_DUMMY</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_DUMMY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:289</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a63dd33eaa91292bfb53b1d9f2b0eba29"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a></div><div class="ttdeci">#define AuraEffectPeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:750</div></div>
+<div class="ttc" id="aclass_aura_script_html_a491e7fc0a1acd202b60fa1aed79a9377"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">AuraScript::OnEffectPeriodic</a></div><div class="ttdeci">HookList&lt; EffectPeriodicHandler &gt; OnEffectPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:749</div></div>
+<div class="ttc" id="aclassspell__mount__check_1_1spell__mount__check___aura_script_html_a093a682bc5043b63af016aa130fdc0b8"><div class="ttname"><a href="../../d1/d65/classspell__mount__check_1_1spell__mount__check___aura_script.html#a093a682bc5043b63af016aa130fdc0b8">spell_mount_check::spell_mount_check_AuraScript::HandleEffectPeriodic</a></div><div class="ttdeci">void HandleEffectPeriodic(AuraEffect const *)</div><div class="ttdef"><b>Definition:</b> zone_durotar.cpp:374</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/<a class="el" href="../../da/d1d/zone__durotar_8cpp.html">zone_durotar.cpp</a></li>
+<li><a class="el" href="../../">zone_durotar.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -391,7 +436,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d6f/classspell__mount__check.html">spell_mount_check</a></li><li class="navelem"><a class="el" href="../../d1/d65/classspell__mount__check_1_1spell__mount__check___aura_script.html">spell_mount_check_AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:22 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

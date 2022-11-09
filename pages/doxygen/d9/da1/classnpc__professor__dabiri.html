@@ -181,7 +181,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a820d0564312308e0487bf5f757543be9" name="a820d0564312308e0487bf5f757543be9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a820d0564312308e0487bf5f757543be9">&#9670;&#160;</a></span>npc_professor_dabiri()</h2>
 
@@ -204,7 +205,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1625</span>: <a class="code hl_class" href="../../d5/dca/class_creature_script.html">CreatureScript</a>(<span class="stringliteral">&quot;npc_professor_dabiri&quot;</span>) { }</div>
+<div class="ttc" id="aclass_creature_script_html"><div class="ttname"><a href="../../d5/dca/class_creature_script.html">CreatureScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:718</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -243,7 +246,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a6268b132444845302ada504f48629a4f">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1644</span>    {</div>
+<div class="line"><span class="lineno"> 1645</span>        <span class="keywordflow">if</span> (creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a66aca559340b09926d956b58773398cb">IsQuestGiver</a>())</div>
+<div class="line"><span class="lineno"> 1646</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#aa352798726d935f9e76f97137e47ee33">PrepareQuestMenu</a>(creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno"> 1647</span> </div>
+<div class="line"><span class="lineno"> 1648</span>        <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../dd/dd3/zone__netherstorm_8cpp.html#a2b74e7b5e8831753d7e1e076546e42d1a5804cf8bf0fb5129594b1a963dcf24cb">QUEST_ON_NETHERY_WINGS</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a> &amp;&amp; !player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a3b6b7692a9496e07088b96315decc78c">HasItemCount</a>(29778))</div>
+<div class="line"><span class="lineno"> 1649</span>            <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5">AddGossipItemFor</a>(player, <a class="code hl_enumvalue" href="../../de/d79/_gossip_def_8h.html#a31ddf0cc0674d4ee32d9c78aa90b097ea1a460e97e269ca0a62d06279484d4428">GOSSIP_ICON_CHAT</a>, <a class="code hl_define" href="../../dd/dd3/zone__netherstorm_8cpp.html#abf9231cd1b66093efaeed75eb652f56a">GOSSIP_ITEM</a>, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a>, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a> + 1);</div>
+<div class="line"><span class="lineno"> 1650</span> </div>
+<div class="line"><span class="lineno"> 1651</span>        <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a>(player, player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ae22a64659346d2a5017d4b47e796146c">GetGossipTextId</a>(creature), creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno"> 1652</span> </div>
+<div class="line"><span class="lineno"> 1653</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1654</span>    }</div>
+<div class="ttc" id="a_gossip_def_8h_html_a31ddf0cc0674d4ee32d9c78aa90b097ea1a460e97e269ca0a62d06279484d4428"><div class="ttname"><a href="../../de/d79/_gossip_def_8h.html#a31ddf0cc0674d4ee32d9c78aa90b097ea1a460e97e269ca0a62d06279484d4428">GOSSIP_ICON_CHAT</a></div><div class="ttdeci">@ GOSSIP_ICON_CHAT</div><div class="ttdef"><b>Definition:</b> GossipDef.h:60</div></div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_a18599cfc6649557de0d505ed4d4a0210"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a></div><div class="ttdeci">void SendGossipMenuFor(Player *player, uint32 npcTextID, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:45</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_a1d54254ae4ddb1bb0e9e2c74dffe5bf5"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5">AddGossipItemFor</a></div><div class="ttdeci">void AddGossipItemFor(Player *player, uint32 icon, std::string const &amp;text, uint32 sender, uint32 action)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:28</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a></div><div class="ttdeci">@ GOSSIP_SENDER_MAIN</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:70</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a></div><div class="ttdeci">@ GOSSIP_ACTION_INFO_DEF</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:68</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_player_html_a3b6b7692a9496e07088b96315decc78c"><div class="ttname"><a href="../../d8/d53/class_player.html#a3b6b7692a9496e07088b96315decc78c">Player::HasItemCount</a></div><div class="ttdeci">bool HasItemCount(uint32 item, uint32 count=1, bool inBankAlso=false) const</div><div class="ttdef"><b>Definition:</b> PlayerStorage.cpp:686</div></div>
+<div class="ttc" id="aclass_player_html_aa352798726d935f9e76f97137e47ee33"><div class="ttname"><a href="../../d8/d53/class_player.html#aa352798726d935f9e76f97137e47ee33">Player::PrepareQuestMenu</a></div><div class="ttdeci">void PrepareQuestMenu(ObjectGuid guid)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:38</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="aclass_player_html_ae22a64659346d2a5017d4b47e796146c"><div class="ttname"><a href="../../d8/d53/class_player.html#ae22a64659346d2a5017d4b47e796146c">Player::GetGossipTextId</a></div><div class="ttdeci">uint32 GetGossipTextId(uint32 menuId, WorldObject *source)</div><div class="ttdef"><b>Definition:</b> PlayerGossip.cpp:405</div></div>
+<div class="ttc" id="aclass_unit_html_a66aca559340b09926d956b58773398cb"><div class="ttname"><a href="../../da/db7/class_unit.html#a66aca559340b09926d956b58773398cb">Unit::IsQuestGiver</a></div><div class="ttdeci">bool IsQuestGiver() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1650</div></div>
+<div class="ttc" id="azone__netherstorm_8cpp_html_a2b74e7b5e8831753d7e1e076546e42d1a5804cf8bf0fb5129594b1a963dcf24cb"><div class="ttname"><a href="../../dd/dd3/zone__netherstorm_8cpp.html#a2b74e7b5e8831753d7e1e076546e42d1a5804cf8bf0fb5129594b1a963dcf24cb">QUEST_ON_NETHERY_WINGS</a></div><div class="ttdeci">@ QUEST_ON_NETHERY_WINGS</div><div class="ttdef"><b>Definition:</b> zone_netherstorm.cpp:1617</div></div>
+<div class="ttc" id="azone__netherstorm_8cpp_html_abf9231cd1b66093efaeed75eb652f56a"><div class="ttname"><a href="../../dd/dd3/zone__netherstorm_8cpp.html#abf9231cd1b66093efaeed75eb652f56a">GOSSIP_ITEM</a></div><div class="ttdeci">#define GOSSIP_ITEM</div><div class="ttdef"><b>Definition:</b> zone_netherstorm.cpp:1620</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a65eba61053e1086e551de7dd8c20a5cd" name="a65eba61053e1086e551de7dd8c20a5cd"></a>
@@ -293,11 +321,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a30f160576b4cb97d940ecf3468834667">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1632</span>    {</div>
+<div class="line"><span class="lineno"> 1633</span>        <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#af077a82741577a63a075c7d40b3b3dc5">ClearGossipMenuFor</a>(player);</div>
+<div class="line"><span class="lineno"> 1634</span>        <span class="keywordflow">if</span> (action == <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a> + 1)</div>
+<div class="line"><span class="lineno"> 1635</span>        {</div>
+<div class="line"><span class="lineno"> 1636</span>            creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(player, <a class="code hl_enumvalue" href="../../dd/dd3/zone__netherstorm_8cpp.html#a2b74e7b5e8831753d7e1e076546e42d1af2bde7ef04fbe7bd17f9fab74958e1e2">SPELL_PHASE_DISTRUPTOR</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 1637</span>            <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#af8f7e54dac5ecc86e92d780c3918cb09">CloseGossipMenuFor</a>(player);</div>
+<div class="line"><span class="lineno"> 1638</span>        }</div>
+<div class="line"><span class="lineno"> 1639</span> </div>
+<div class="line"><span class="lineno"> 1640</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1641</span>    }</div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_af077a82741577a63a075c7d40b3b3dc5"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#af077a82741577a63a075c7d40b3b3dc5">ClearGossipMenuFor</a></div><div class="ttdeci">void ClearGossipMenuFor(Player *player)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:22</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_af8f7e54dac5ecc86e92d780c3918cb09"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#af8f7e54dac5ecc86e92d780c3918cb09">CloseGossipMenuFor</a></div><div class="ttdeci">void CloseGossipMenuFor(Player *player)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:56</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="azone__netherstorm_8cpp_html_a2b74e7b5e8831753d7e1e076546e42d1af2bde7ef04fbe7bd17f9fab74958e1e2"><div class="ttname"><a href="../../dd/dd3/zone__netherstorm_8cpp.html#a2b74e7b5e8831753d7e1e076546e42d1af2bde7ef04fbe7bd17f9fab74958e1e2">SPELL_PHASE_DISTRUPTOR</a></div><div class="ttdeci">@ SPELL_PHASE_DISTRUPTOR</div><div class="ttdef"><b>Definition:</b> zone_netherstorm.cpp:1612</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/<a class="el" href="../../dd/dd3/zone__netherstorm_8cpp.html">zone_netherstorm.cpp</a></li>
+<li><a class="el" href="../../">zone_netherstorm.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -305,7 +347,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/da1/classnpc__professor__dabiri.html">npc_professor_dabiri</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:53 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d6/d6e/class_acore_1_1_asio_1_1_resolv
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/d2e/_resolver_8h_source.html">Resolver.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Resolver.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -153,7 +153,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>: <a class="code hl_variable" href="../../d6/d6e/class_acore_1_1_asio_1_1_resolver.html#a08ed9183a6338606524c44f0fd5695a0">_impl</a>(ioContext) { }</div>
+<div class="ttc" id="aclass_acore_1_1_asio_1_1_resolver_html_a08ed9183a6338606524c44f0fd5695a0"><div class="ttname"><a href="../../d6/d6e/class_acore_1_1_asio_1_1_resolver.html#a08ed9183a6338606524c44f0fd5695a0">Acore::Asio::Resolver::_impl</a></div><div class="ttdeci">boost::asio::ip::tcp::resolver _impl</div><div class="ttdef"><b>Definition:</b> Resolver.h:59</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -196,7 +198,27 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   37</span>        {</div>
+<div class="line"><span class="lineno">   38</span>            boost::system::error_code ec;</div>
+<div class="line"><span class="lineno">   39</span><span class="preprocessor">#if BOOST_VERSION &gt;= 106600</span></div>
+<div class="line"><span class="lineno">   40</span>            boost::asio::ip::resolver_base::flags flagsResolver = boost::asio::ip::resolver_base::all_matching;</div>
+<div class="line"><span class="lineno">   41</span>            boost::asio::ip::tcp::resolver::results_type results = <a class="code hl_variable" href="../../d6/d6e/class_acore_1_1_asio_1_1_resolver.html#a08ed9183a6338606524c44f0fd5695a0">_impl</a>.resolve(protocol, host, service, flagsResolver, ec);</div>
+<div class="line"><span class="lineno">   42</span>            <span class="keywordflow">if</span> (results.begin() == results.end() || ec)</div>
+<div class="line"><span class="lineno">   43</span>                <span class="keywordflow">return</span> {};</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>            <span class="keywordflow">return</span> results.begin()-&gt;endpoint();</div>
+<div class="line"><span class="lineno">   46</span><span class="preprocessor">#else</span></div>
+<div class="line"><span class="lineno">   47</span>            boost::asio::ip::resolver_query_base::flags flagsQuery = boost::asio::ip::tcp::resolver::query::all_matching;</div>
+<div class="line"><span class="lineno">   48</span>            boost::asio::ip::tcp::resolver::query query(std::move(protocol), std::move(host), std::move(service), flagsQuery);</div>
+<div class="line"><span class="lineno">   49</span>            boost::asio::ip::tcp::resolver::iterator itr = <a class="code hl_variable" href="../../d6/d6e/class_acore_1_1_asio_1_1_resolver.html#a08ed9183a6338606524c44f0fd5695a0">_impl</a>.resolve(query, ec);</div>
+<div class="line"><span class="lineno">   50</span>            boost::asio::ip::tcp::resolver::iterator end;</div>
+<div class="line"><span class="lineno">   51</span>            <span class="keywordflow">if</span> (itr == end || ec)</div>
+<div class="line"><span class="lineno">   52</span>                <span class="keywordflow">return</span> {};</div>
+<div class="line"><span class="lineno">   53</span> </div>
+<div class="line"><span class="lineno">   54</span>            <span class="keywordflow">return</span> itr-&gt;endpoint();</div>
+<div class="line"><span class="lineno">   55</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">   56</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -223,7 +245,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Asio/<a class="el" href="../../d1/d2e/_resolver_8h_source.html">Resolver.h</a></li>
+<li><a class="el" href="../../">Resolver.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -231,7 +253,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../de/de6/namespace_acore_1_1_asio.html">Asio</a></li><li class="navelem"><a class="el" href="../../d6/d6e/class_acore_1_1_asio_1_1_resolver.html">Resolver</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

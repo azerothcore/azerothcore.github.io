@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('dd/dad/class_transaction_callback.html
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d8/d99/_transaction_8h_source.html">Transaction.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Transaction.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -135,7 +135,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:abb0dbcebb22ea716025ed6aca99f6afb"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(bool)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/class_transaction_callback.html#abb0dbcebb22ea716025ed6aca99f6afb">m_callback</a></td></tr>
 <tr class="separator:abb0dbcebb22ea716025ed6aca99f6afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a89e9ebf06ffbad9dcf77a78f9f989450" name="a89e9ebf06ffbad9dcf77a78f9f989450"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a89e9ebf06ffbad9dcf77a78f9f989450">&#9670;&#160;</a></span>TransactionCallback() <span class="overload">[1/2]</span></h2>
 
@@ -159,7 +160,9 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  112</span>: <a class="code hl_variable" href="../../dd/dad/class_transaction_callback.html#a381e889074bc5ca48574d37fe6eea00f">m_future</a>(std::move(future)) { }</div>
+<div class="ttc" id="aclass_transaction_callback_html_a381e889074bc5ca48574d37fe6eea00f"><div class="ttname"><a href="../../dd/dad/class_transaction_callback.html#a381e889074bc5ca48574d37fe6eea00f">TransactionCallback::m_future</a></div><div class="ttdeci">TransactionFuture m_future</div><div class="ttdef"><b>Definition:</b> Transaction.h:124</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="adeff62976c11d9d90169e4650640118b" name="adeff62976c11d9d90169e4650640118b"></a>
@@ -212,7 +215,11 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  118</span>    {</div>
+<div class="line"><span class="lineno">  119</span>        <a class="code hl_variable" href="../../dd/dad/class_transaction_callback.html#abb0dbcebb22ea716025ed6aca99f6afb">m_callback</a> = std::move(callback);</div>
+<div class="line"><span class="lineno">  120</span>    }</div>
+<div class="ttc" id="aclass_transaction_callback_html_abb0dbcebb22ea716025ed6aca99f6afb"><div class="ttname"><a href="../../dd/dad/class_transaction_callback.html#abb0dbcebb22ea716025ed6aca99f6afb">TransactionCallback::m_callback</a></div><div class="ttdeci">std::function&lt; void(bool)&gt; m_callback</div><div class="ttdef"><b>Definition:</b> Transaction.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7937d93dbd22617a2fd3893a6fe8c23c" name="a7937d93dbd22617a2fd3893a6fe8c23c"></a>
@@ -229,7 +236,16 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  183</span>{</div>
+<div class="line"><span class="lineno">  184</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dad/class_transaction_callback.html#a381e889074bc5ca48574d37fe6eea00f">m_future</a>.valid() &amp;&amp; <a class="code hl_variable" href="../../dd/dad/class_transaction_callback.html#a381e889074bc5ca48574d37fe6eea00f">m_future</a>.wait_for(0s) == std::future_status::ready)</div>
+<div class="line"><span class="lineno">  185</span>    {</div>
+<div class="line"><span class="lineno">  186</span>        <a class="code hl_variable" href="../../dd/dad/class_transaction_callback.html#abb0dbcebb22ea716025ed6aca99f6afb">m_callback</a>(<a class="code hl_variable" href="../../dd/dad/class_transaction_callback.html#a381e889074bc5ca48574d37fe6eea00f">m_future</a>.get());</div>
+<div class="line"><span class="lineno">  187</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  188</span>    }</div>
+<div class="line"><span class="lineno">  189</span> </div>
+<div class="line"><span class="lineno">  190</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  191</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab73d1741c21ea9fd86f65a647768e972" name="ab73d1741c21ea9fd86f65a647768e972"></a>
@@ -288,8 +304,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/database/Database/<a class="el" href="../../d8/d99/_transaction_8h_source.html">Transaction.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/database/Database/<a class="el" href="../../df/d11/_transaction_8cpp.html">Transaction.cpp</a></li>
+<li><a class="el" href="../../">Transaction.h</a></li>
+<li><a class="el" href="../../">Transaction.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -297,7 +313,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/dad/class_transaction_callback.html">TransactionCallback</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:28 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

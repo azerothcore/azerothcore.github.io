@@ -505,7 +505,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6040dc7c76f412e5ad8c5380ae7c0c45" name="a6040dc7c76f412e5ad8c5380ae7c0c45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6040dc7c76f412e5ad8c5380ae7c0c45">&#9670;&#160;</a></span>boss_high_inquisitor_whitemaneAI()</h2>
 
@@ -529,7 +530,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  550</span>                                                             : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">  551</span>        {</div>
+<div class="line"><span class="lineno">  552</span>            <a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#aa56d60c038bef7f1b1d42b84edb256bc">instance</a> = creature-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">  553</span>        }</div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astructboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i_html_aa56d60c038bef7f1b1d42b84edb256bc"><div class="ttname"><a href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#aa56d60c038bef7f1b1d42b84edb256bc">boss_high_inquisitor_whitemane::boss_high_inquisitor_whitemaneAI::instance</a></div><div class="ttdeci">InstanceScript * instance</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:671</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -580,7 +588,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  577</span>        {</div>
+<div class="line"><span class="lineno">  578</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a12dde2e25f5deeb31bfed3c7db230962">canResurrectCheck</a> &amp;&amp; damage &gt;= <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a958172d6051b106e3b3c776e4f9f3952">GetHealth</a>())</div>
+<div class="line"><span class="lineno">  579</span>                damage = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a958172d6051b106e3b3c776e4f9f3952">GetHealth</a>() - 1;</div>
+<div class="line"><span class="lineno">  580</span>        }</div>
+<div class="ttc" id="aclass_unit_html_a958172d6051b106e3b3c776e4f9f3952"><div class="ttname"><a href="../../da/db7/class_unit.html#a958172d6051b106e3b3c776e4f9f3952">Unit::GetHealth</a></div><div class="ttdeci">uint32 GetHealth() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1438</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i_html_a12dde2e25f5deeb31bfed3c7db230962"><div class="ttname"><a href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a12dde2e25f5deeb31bfed3c7db230962">boss_high_inquisitor_whitemane::boss_high_inquisitor_whitemaneAI::canResurrectCheck</a></div><div class="ttdeci">bool canResurrectCheck</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:674</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aad22b37177d6635910fc5f489057814f" name="aad22b37177d6635910fc5f489057814f"></a>
@@ -608,7 +623,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  569</span>        {</div>
+<div class="line"><span class="lineno">  570</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a16774215bba3b38580ea51987d64cff1acc38d73228718743952b8a1e24f13d19">SAY_WH_INTRO</a>);</div>
+<div class="line"><span class="lineno">  571</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5a280b8624987b46673a521067becefca3c1e5064253393b56f9c3dd49653a410">EVENT_SPELL_HOLY_SMITE</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(1000, 3000));</div>
+<div class="line"><span class="lineno">  572</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5a280b8624987b46673a521067becefcab40a93f360bb3c5888a31fd55d055d79">EVENT_SPELL_POWER_WORLD_SHIELD</a>, 6000);</div>
+<div class="line"><span class="lineno">  573</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5a280b8624987b46673a521067becefca0a4ca2a4e782ead9bd179ad3568cc88c">EVENT_SPELL_HEAL</a>, 9000);</div>
+<div class="line"><span class="lineno">  574</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="ainstance__scarlet__monastery_8cpp_html_a16774215bba3b38580ea51987d64cff1acc38d73228718743952b8a1e24f13d19"><div class="ttname"><a href="../../db/d20/instance__scarlet__monastery_8cpp.html#a16774215bba3b38580ea51987d64cff1acc38d73228718743952b8a1e24f13d19">SAY_WH_INTRO</a></div><div class="ttdeci">@ SAY_WH_INTRO</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:284</div></div>
+<div class="ttc" id="ainstance__scarlet__monastery_8cpp_html_a5a280b8624987b46673a521067becefca0a4ca2a4e782ead9bd179ad3568cc88c"><div class="ttname"><a href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5a280b8624987b46673a521067becefca0a4ca2a4e782ead9bd179ad3568cc88c">EVENT_SPELL_HEAL</a></div><div class="ttdeci">@ EVENT_SPELL_HEAL</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:255</div></div>
+<div class="ttc" id="ainstance__scarlet__monastery_8cpp_html_a5a280b8624987b46673a521067becefca3c1e5064253393b56f9c3dd49653a410"><div class="ttname"><a href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5a280b8624987b46673a521067becefca3c1e5064253393b56f9c3dd49653a410">EVENT_SPELL_HOLY_SMITE</a></div><div class="ttdeci">@ EVENT_SPELL_HOLY_SMITE</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:253</div></div>
+<div class="ttc" id="ainstance__scarlet__monastery_8cpp_html_a5a280b8624987b46673a521067becefcab40a93f360bb3c5888a31fd55d055d79"><div class="ttname"><a href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5a280b8624987b46673a521067becefcab40a93f360bb3c5888a31fd55d055d79">EVENT_SPELL_POWER_WORLD_SHIELD</a></div><div class="ttdeci">@ EVENT_SPELL_POWER_WORLD_SHIELD</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:254</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaf19e27d7ae94ebeb27d653c177dedcb" name="aaf19e27d7ae94ebeb27d653c177dedcb"></a>
@@ -635,7 +663,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a85468652a394c5f2b3b14d822ac2d222">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  564</span>        {</div>
+<div class="line"><span class="lineno">  565</span>            <a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#aa56d60c038bef7f1b1d42b84edb256bc">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#afb6eb4f28419b652027fad41104a6d22ad9a2909a4cd4c59bd1d47c84ead1be8c">TYPE_MOGRAINE_AND_WHITE_EVENT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a936c4a5547a9360243178f726f6b2715">FAIL</a>);</div>
+<div class="line"><span class="lineno">  566</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a936c4a5547a9360243178f726f6b2715"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a936c4a5547a9360243178f726f6b2715">FAIL</a></div><div class="ttdeci">@ FAIL</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:58</div></div>
+<div class="ttc" id="aclass_zone_script_html_a949e67ea24c7e4b70a20806952735576"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:53</div></div>
+<div class="ttc" id="ainstance__scarlet__monastery_8cpp_html_afb6eb4f28419b652027fad41104a6d22ad9a2909a4cd4c59bd1d47c84ead1be8c"><div class="ttname"><a href="../../db/d20/instance__scarlet__monastery_8cpp.html#afb6eb4f28419b652027fad41104a6d22ad9a2909a4cd4c59bd1d47c84ead1be8c">TYPE_MOGRAINE_AND_WHITE_EVENT</a></div><div class="ttdeci">@ TYPE_MOGRAINE_AND_WHITE_EVENT</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:44</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7cf5eef4aa4b2a0ed8095befd64e17d0" name="a7cf5eef4aa4b2a0ed8095befd64e17d0"></a>
@@ -663,7 +697,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  583</span>        {</div>
+<div class="line"><span class="lineno">  584</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a16774215bba3b38580ea51987d64cff1a05e6d8f13a1c4e88a7b203337cb53d62">SAY_WH_KILL</a>);</div>
+<div class="line"><span class="lineno">  585</span>        }</div>
+<div class="ttc" id="ainstance__scarlet__monastery_8cpp_html_a16774215bba3b38580ea51987d64cff1a05e6d8f13a1c4e88a7b203337cb53d62"><div class="ttname"><a href="../../db/d20/instance__scarlet__monastery_8cpp.html#a16774215bba3b38580ea51987d64cff1a05e6d8f13a1c4e88a7b203337cb53d62">SAY_WH_KILL</a></div><div class="ttdeci">@ SAY_WH_KILL</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:285</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abae3b2903800eeb072358f8904dc4f3f" name="abae3b2903800eeb072358f8904dc4f3f"></a>
@@ -690,7 +728,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  556</span>        {</div>
+<div class="line"><span class="lineno">  557</span>            <a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a12dde2e25f5deeb31bfed3c7db230962">canResurrectCheck</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  558</span>            <a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a9fc35ca56d2a7f0b1def6bf636dc4399">canResurrect</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  559</span>            <a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a5e120b449199bdcb7a31fe51cdb1e62f">Wait_Timer</a> = 7000;</div>
+<div class="line"><span class="lineno">  560</span>            <a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a0451b9ce74fb96a1a0a6935faf0171d1">Heal_Timer</a> = 10000;</div>
+<div class="line"><span class="lineno">  561</span>        }</div>
+<div class="ttc" id="astructboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i_html_a0451b9ce74fb96a1a0a6935faf0171d1"><div class="ttname"><a href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a0451b9ce74fb96a1a0a6935faf0171d1">boss_high_inquisitor_whitemane::boss_high_inquisitor_whitemaneAI::Heal_Timer</a></div><div class="ttdeci">uint32 Heal_Timer</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:672</div></div>
+<div class="ttc" id="astructboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i_html_a5e120b449199bdcb7a31fe51cdb1e62f"><div class="ttname"><a href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a5e120b449199bdcb7a31fe51cdb1e62f">boss_high_inquisitor_whitemane::boss_high_inquisitor_whitemaneAI::Wait_Timer</a></div><div class="ttdeci">uint32 Wait_Timer</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:673</div></div>
+<div class="ttc" id="astructboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i_html_a9fc35ca56d2a7f0b1def6bf636dc4399"><div class="ttname"><a href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a9fc35ca56d2a7f0b1def6bf636dc4399">boss_high_inquisitor_whitemane::boss_high_inquisitor_whitemaneAI::canResurrect</a></div><div class="ttdeci">bool canResurrect</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:675</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a047bcf3557ca45eed5aea8614bebe190" name="a047bcf3557ca45eed5aea8614bebe190"></a>
@@ -718,7 +765,109 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  588</span>        {</div>
+<div class="line"><span class="lineno">  589</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  590</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  591</span> </div>
+<div class="line"><span class="lineno">  592</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a9fc35ca56d2a7f0b1def6bf636dc4399">canResurrect</a>)</div>
+<div class="line"><span class="lineno">  593</span>            {</div>
+<div class="line"><span class="lineno">  594</span>                <span class="comment">//When casting resuruction make sure to delay so on rez when reinstate battle deepsleep runs out</span></div>
+<div class="line"><span class="lineno">  595</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a5e120b449199bdcb7a31fe51cdb1e62f">Wait_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  596</span>                {</div>
+<div class="line"><span class="lineno">  597</span>                    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#aa56d60c038bef7f1b1d42b84edb256bc">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">GetGuidData</a>(<a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#afb6eb4f28419b652027fad41104a6d22a1183107df36da23266fd9938a3132beb">DATA_MOGRAINE</a>)))</div>
+<div class="line"><span class="lineno">  598</span>                    {</div>
+<div class="line"><span class="lineno">  599</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5bd342133be8c2137b831460acc9298ca2552e76ecd9869062d18e07c3853fcde">SPELL_SCARLET_RESURRECTION</a>);</div>
+<div class="line"><span class="lineno">  600</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a16774215bba3b38580ea51987d64cff1ad73806ed6e06c25c65544cdf8c4eb377">SAY_WH_RESURRECT</a>);</div>
+<div class="line"><span class="lineno">  601</span>                        <a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a9fc35ca56d2a7f0b1def6bf636dc4399">canResurrect</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  602</span>                    }</div>
+<div class="line"><span class="lineno">  603</span>                }</div>
+<div class="line"><span class="lineno">  604</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a5e120b449199bdcb7a31fe51cdb1e62f">Wait_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  605</span>            }</div>
+<div class="line"><span class="lineno">  606</span> </div>
+<div class="line"><span class="lineno">  607</span>            <span class="comment">//Cast Deep sleep when health is less than 50%</span></div>
+<div class="line"><span class="lineno">  608</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a12dde2e25f5deeb31bfed3c7db230962">canResurrectCheck</a> &amp;&amp; !<a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a63cc63198b59f5cd7c5301ad02eabed0">HealthAbovePct</a>(50))</div>
+<div class="line"><span class="lineno">  609</span>            {</div>
+<div class="line"><span class="lineno">  610</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4f932514c30f50c8eb35101c1a89fa5b">IsNonMeleeSpellCast</a>(<span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno">  611</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2bdfe38bdc28869a9002094e4341d56e">InterruptNonMeleeSpells</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  612</span> </div>
+<div class="line"><span class="lineno">  613</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5bd342133be8c2137b831460acc9298cae8a2e413b4d046ecfdf9d12f3b506126">SPELL_DEEP_SLEEP</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  614</span>                <a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a12dde2e25f5deeb31bfed3c7db230962">canResurrectCheck</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  615</span>                <a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a9fc35ca56d2a7f0b1def6bf636dc4399">canResurrect</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  616</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  617</span>            }</div>
+<div class="line"><span class="lineno">  618</span> </div>
+<div class="line"><span class="lineno">  619</span>            <span class="comment">//while in &quot;resurrect-mode&quot;, don&#39;t do anything</span></div>
+<div class="line"><span class="lineno">  620</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a9fc35ca56d2a7f0b1def6bf636dc4399">canResurrect</a>)</div>
+<div class="line"><span class="lineno">  621</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  622</span> </div>
+<div class="line"><span class="lineno">  623</span>            <span class="comment">//If we are &lt;75% hp cast healing spells at self or Mograine</span></div>
+<div class="line"><span class="lineno">  624</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a0451b9ce74fb96a1a0a6935faf0171d1">Heal_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  625</span>            {</div>
+<div class="line"><span class="lineno">  626</span>                <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* target = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  627</span> </div>
+<div class="line"><span class="lineno">  628</span>                <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a63cc63198b59f5cd7c5301ad02eabed0">HealthAbovePct</a>(75))</div>
+<div class="line"><span class="lineno">  629</span>                    target = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>;</div>
+<div class="line"><span class="lineno">  630</span> </div>
+<div class="line"><span class="lineno">  631</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* mograine = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#aa56d60c038bef7f1b1d42b84edb256bc">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">GetGuidData</a>(<a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#afb6eb4f28419b652027fad41104a6d22a1183107df36da23266fd9938a3132beb">DATA_MOGRAINE</a>)))</div>
+<div class="line"><span class="lineno">  632</span>                {</div>
+<div class="line"><span class="lineno">  633</span>                    <span class="comment">// checking canResurrectCheck prevents her healing Mograine while he is &quot;faking death&quot;</span></div>
+<div class="line"><span class="lineno">  634</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a12dde2e25f5deeb31bfed3c7db230962">canResurrectCheck</a> &amp;&amp; mograine-&gt;IsAlive() &amp;&amp; !mograine-&gt;HealthAbovePct(75))</div>
+<div class="line"><span class="lineno">  635</span>                        target = mograine;</div>
+<div class="line"><span class="lineno">  636</span>                }</div>
+<div class="line"><span class="lineno">  637</span> </div>
+<div class="line"><span class="lineno">  638</span>                <span class="keywordflow">if</span> (target)</div>
+<div class="line"><span class="lineno">  639</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5bd342133be8c2137b831460acc9298ca69fcca2d13e03c684fa0459f960ef9a7">SPELL_HEAL</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  640</span> </div>
+<div class="line"><span class="lineno">  641</span>                <a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a0451b9ce74fb96a1a0a6935faf0171d1">Heal_Timer</a> = 13000;</div>
+<div class="line"><span class="lineno">  642</span>            }</div>
+<div class="line"><span class="lineno">  643</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html#a0451b9ce74fb96a1a0a6935faf0171d1">Heal_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  644</span> </div>
+<div class="line"><span class="lineno">  645</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  646</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">  647</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  648</span> </div>
+<div class="line"><span class="lineno">  649</span>            <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventId = <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">  650</span>            {</div>
+<div class="line"><span class="lineno">  651</span>                <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno">  652</span>                {</div>
+<div class="line"><span class="lineno">  653</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5a280b8624987b46673a521067becefcab40a93f360bb3c5888a31fd55d055d79">EVENT_SPELL_POWER_WORLD_SHIELD</a>:</div>
+<div class="line"><span class="lineno">  654</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5bd342133be8c2137b831460acc9298ca6537e5147d1dcdbe6f7dd4e60aed302d">SPELL_POWER_WORD_SHIELD</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  655</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5a280b8624987b46673a521067becefcab40a93f360bb3c5888a31fd55d055d79">EVENT_SPELL_POWER_WORLD_SHIELD</a>, 15000);</div>
+<div class="line"><span class="lineno">  656</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  657</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5a280b8624987b46673a521067becefca3c1e5064253393b56f9c3dd49653a410">EVENT_SPELL_HOLY_SMITE</a>:</div>
+<div class="line"><span class="lineno">  658</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5bd342133be8c2137b831460acc9298ca74efbfbc358f01ad96a6e402941ee122">SPELL_HOLY_SMITE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  659</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5a280b8624987b46673a521067becefca3c1e5064253393b56f9c3dd49653a410">EVENT_SPELL_HOLY_SMITE</a>, 6000);</div>
+<div class="line"><span class="lineno">  660</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  661</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5a280b8624987b46673a521067becefca0a4ca2a4e782ead9bd179ad3568cc88c">EVENT_SPELL_HEAL</a>:</div>
+<div class="line"><span class="lineno">  662</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5bd342133be8c2137b831460acc9298ca69fcca2d13e03c684fa0459f960ef9a7">SPELL_HEAL</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  663</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  664</span>                }</div>
+<div class="line"><span class="lineno">  665</span>            }</div>
+<div class="line"><span class="lineno">  666</span> </div>
+<div class="line"><span class="lineno">  667</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  668</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_instance_script_html_a3be7f24ca31c9433aca546e1087109b4"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript::GetGuidData</a></div><div class="ttdeci">ObjectGuid GetGuidData(uint32 type) const override</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:93</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html_a2bdfe38bdc28869a9002094e4341d56e"><div class="ttname"><a href="../../da/db7/class_unit.html#a2bdfe38bdc28869a9002094e4341d56e">Unit::InterruptNonMeleeSpells</a></div><div class="ttdeci">void InterruptNonMeleeSpells(bool withDelayed, uint32 spellid=0, bool withInstant=true, bool bySelf=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4057</div></div>
+<div class="ttc" id="aclass_unit_html_a4f932514c30f50c8eb35101c1a89fa5b"><div class="ttname"><a href="../../da/db7/class_unit.html#a4f932514c30f50c8eb35101c1a89fa5b">Unit::IsNonMeleeSpellCast</a></div><div class="ttdeci">bool IsNonMeleeSpellCast(bool withDelayed, bool skipChanneled=false, bool skipAutorepeat=false, bool isAutoshoot=false, bool skipInstant=true) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4027</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="ainstance__scarlet__monastery_8cpp_html_a16774215bba3b38580ea51987d64cff1ad73806ed6e06c25c65544cdf8c4eb377"><div class="ttname"><a href="../../db/d20/instance__scarlet__monastery_8cpp.html#a16774215bba3b38580ea51987d64cff1ad73806ed6e06c25c65544cdf8c4eb377">SAY_WH_RESURRECT</a></div><div class="ttdeci">@ SAY_WH_RESURRECT</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:286</div></div>
+<div class="ttc" id="ainstance__scarlet__monastery_8cpp_html_a5bd342133be8c2137b831460acc9298ca2552e76ecd9869062d18e07c3853fcde"><div class="ttname"><a href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5bd342133be8c2137b831460acc9298ca2552e76ecd9869062d18e07c3853fcde">SPELL_SCARLET_RESURRECTION</a></div><div class="ttdeci">@ SPELL_SCARLET_RESURRECTION</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:268</div></div>
+<div class="ttc" id="ainstance__scarlet__monastery_8cpp_html_a5bd342133be8c2137b831460acc9298ca6537e5147d1dcdbe6f7dd4e60aed302d"><div class="ttname"><a href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5bd342133be8c2137b831460acc9298ca6537e5147d1dcdbe6f7dd4e60aed302d">SPELL_POWER_WORD_SHIELD</a></div><div class="ttdeci">@ SPELL_POWER_WORD_SHIELD</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:273</div></div>
+<div class="ttc" id="ainstance__scarlet__monastery_8cpp_html_a5bd342133be8c2137b831460acc9298ca69fcca2d13e03c684fa0459f960ef9a7"><div class="ttname"><a href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5bd342133be8c2137b831460acc9298ca69fcca2d13e03c684fa0459f960ef9a7">SPELL_HEAL</a></div><div class="ttdeci">@ SPELL_HEAL</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:272</div></div>
+<div class="ttc" id="ainstance__scarlet__monastery_8cpp_html_a5bd342133be8c2137b831460acc9298ca74efbfbc358f01ad96a6e402941ee122"><div class="ttname"><a href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5bd342133be8c2137b831460acc9298ca74efbfbc358f01ad96a6e402941ee122">SPELL_HOLY_SMITE</a></div><div class="ttdeci">@ SPELL_HOLY_SMITE</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:271</div></div>
+<div class="ttc" id="ainstance__scarlet__monastery_8cpp_html_a5bd342133be8c2137b831460acc9298cae8a2e413b4d046ecfdf9d12f3b506126"><div class="ttname"><a href="../../db/d20/instance__scarlet__monastery_8cpp.html#a5bd342133be8c2137b831460acc9298cae8a2e413b4d046ecfdf9d12f3b506126">SPELL_DEEP_SLEEP</a></div><div class="ttdeci">@ SPELL_DEEP_SLEEP</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:269</div></div>
+<div class="ttc" id="ainstance__scarlet__monastery_8cpp_html_afb6eb4f28419b652027fad41104a6d22a1183107df36da23266fd9938a3132beb"><div class="ttname"><a href="../../db/d20/instance__scarlet__monastery_8cpp.html#afb6eb4f28419b652027fad41104a6d22a1183107df36da23266fd9938a3132beb">DATA_MOGRAINE</a></div><div class="ttdeci">@ DATA_MOGRAINE</div><div class="ttdef"><b>Definition:</b> instance_scarlet_monastery.cpp:46</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a63cc63198b59f5cd7c5301ad02eabed0"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a63cc63198b59f5cd7c5301ad02eabed0">ScriptedAI::HealthAbovePct</a></div><div class="ttdeci">bool HealthAbovePct(uint32 pct) const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:333</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -855,7 +1004,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/ScarletMonastery/<a class="el" href="../../db/d20/instance__scarlet__monastery_8cpp.html">instance_scarlet_monastery.cpp</a></li>
+<li><a class="el" href="../../">instance_scarlet_monastery.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -863,7 +1012,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/dae/classboss__high__inquisitor__whitemane.html">boss_high_inquisitor_whitemane</a></li><li class="navelem"><a class="el" href="../../da/dd1/structboss__high__inquisitor__whitemane_1_1boss__high__inquisitor__whitemane_a_i.html">boss_high_inquisitor_whitemaneAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:40 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

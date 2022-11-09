@@ -485,7 +485,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a07c8b1add555697fdb29fda89f42c4af" name="a07c8b1add555697fdb29fda89f42c4af"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a07c8b1add555697fdb29fda89f42c4af">&#9670;&#160;</a></span>npc_midsummer_bonfire()</h2>
 
@@ -509,7 +510,30 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   51</span>                                              : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">   52</span>    {</div>
+<div class="line"><span class="lineno">   53</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#ab395fef0b407c0af40ba6274c32730a6">IsAIEnabled</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   54</span>        <a class="code hl_variable" href="../../db/d41/structnpc__midsummer__bonfire.html#af31285399f8d117d2f7d40c20bc60ee2">goGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">   55</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* go = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ae5570989260234d213323c44ab5fb44c">SummonGameObject</a>(<a class="code hl_enumvalue" href="../../d6/dba/midsummer_8cpp.html#a4ecd6ad6b0b0972c78e0e7b2a0463d47abda2123ebdb50afadf5ad013cdcba8a9">GO_MIDSUMMER_BONFIRE</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>(), <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>(), 0.0f, 0.0f, 0.0f, 0.0f, 0))</div>
+<div class="line"><span class="lineno">   56</span>        {</div>
+<div class="line"><span class="lineno">   57</span>            <a class="code hl_variable" href="../../db/d41/structnpc__midsummer__bonfire.html#af31285399f8d117d2f7d40c20bc60ee2">goGUID</a> = go-&gt;GetGUID();</div>
+<div class="line"><span class="lineno">   58</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0abdc922cb68a81459935b54b59fad2e">RemoveGameObject</a>(go, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">   59</span>        }</div>
+<div class="line"><span class="lineno">   60</span>    }</div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="aclass_unit_html_a0abdc922cb68a81459935b54b59fad2e"><div class="ttname"><a href="../../da/db7/class_unit.html#a0abdc922cb68a81459935b54b59fad2e">Unit::RemoveGameObject</a></div><div class="ttdeci">void RemoveGameObject(GameObject *gameObj, bool del)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:6097</div></div>
+<div class="ttc" id="aclass_unit_html_ab395fef0b407c0af40ba6274c32730a6"><div class="ttname"><a href="../../da/db7/class_unit.html#ab395fef0b407c0af40ba6274c32730a6">Unit::IsAIEnabled</a></div><div class="ttdeci">bool IsAIEnabled</div><div class="ttdef"><b>Definition:</b> Unit.h:2345</div></div>
+<div class="ttc" id="aclass_world_object_html_ae5570989260234d213323c44ab5fb44c"><div class="ttname"><a href="../../db/df7/class_world_object.html#ae5570989260234d213323c44ab5fb44c">WorldObject::SummonGameObject</a></div><div class="ttdeci">GameObject * SummonGameObject(uint32 entry, float x, float y, float z, float ang, float rotation0, float rotation1, float rotation2, float rotation3, uint32 respawnTime, bool checkTransport=true, GOSummonType summonType=GO_SUMMON_TIMED_OR_CORPSE_DESPAWN)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2315</div></div>
+<div class="ttc" id="amidsummer_8cpp_html_a4ecd6ad6b0b0972c78e0e7b2a0463d47abda2123ebdb50afadf5ad013cdcba8a9"><div class="ttname"><a href="../../d6/dba/midsummer_8cpp.html#a4ecd6ad6b0b0972c78e0e7b2a0463d47abda2123ebdb50afadf5ad013cdcba8a9">GO_MIDSUMMER_BONFIRE</a></div><div class="ttdeci">@ GO_MIDSUMMER_BONFIRE</div><div class="ttdef"><b>Definition:</b> midsummer.cpp:29</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_a74cabfb8f441acb38e1abd5bf6ecdc84"><div class="ttname"><a href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">Position::GetOrientation</a></div><div class="ttdeci">float GetOrientation() const</div><div class="ttdef"><b>Definition:</b> Position.h:120</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__midsummer__bonfire_html_af31285399f8d117d2f7d40c20bc60ee2"><div class="ttname"><a href="../../db/d41/structnpc__midsummer__bonfire.html#af31285399f8d117d2f7d40c20bc60ee2">npc_midsummer_bonfire::goGUID</a></div><div class="ttdeci">ObjectGuid goGUID</div><div class="ttdef"><b>Definition:</b> midsummer.cpp:62</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -548,7 +572,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a7c4ff5a7547e75576c127ba4a514e548">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   65</span>    {</div>
+<div class="line"><span class="lineno">   66</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../db/d41/structnpc__midsummer__bonfire.html#af31285399f8d117d2f7d40c20bc60ee2">goGUID</a>)</div>
+<div class="line"><span class="lineno">   67</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>        <span class="comment">// Extinguish fire</span></div>
+<div class="line"><span class="lineno">   70</span>        <span class="keywordflow">if</span> (spellInfo-&gt;Id == <a class="code hl_enumvalue" href="../../d6/dba/midsummer_8cpp.html#a4ecd6ad6b0b0972c78e0e7b2a0463d47a0f5326e1703b8f8cf5486ffd73a16522">SPELL_STAMP_OUT_BONFIRE</a>)</div>
+<div class="line"><span class="lineno">   71</span>        {</div>
+<div class="line"><span class="lineno">   72</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* go = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a424a63829a446dac6f97a464cc64ed48">ObjectAccessor::GetGameObject</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../db/d41/structnpc__midsummer__bonfire.html#af31285399f8d117d2f7d40c20bc60ee2">goGUID</a>))</div>
+<div class="line"><span class="lineno">   73</span>                go-&gt;SetPhaseMask(2, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   74</span>        }</div>
+<div class="line"><span class="lineno">   75</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (spellInfo-&gt;Id == <a class="code hl_enumvalue" href="../../d6/dba/midsummer_8cpp.html#a4ecd6ad6b0b0972c78e0e7b2a0463d47acc1f22707bc834373f22a7f458a9cea3">SPELL_LIGHT_BONFIRE</a>)</div>
+<div class="line"><span class="lineno">   76</span>        {</div>
+<div class="line"><span class="lineno">   77</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* go = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a424a63829a446dac6f97a464cc64ed48">ObjectAccessor::GetGameObject</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../db/d41/structnpc__midsummer__bonfire.html#af31285399f8d117d2f7d40c20bc60ee2">goGUID</a>))</div>
+<div class="line"><span class="lineno">   78</span>            {</div>
+<div class="line"><span class="lineno">   79</span>                go-&gt;SetPhaseMask(1, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   80</span>                go-&gt;SendCustomAnim(1);</div>
+<div class="line"><span class="lineno">   81</span>            }</div>
+<div class="line"><span class="lineno">   82</span>        }</div>
+<div class="line"><span class="lineno">   83</span>    }</div>
+<div class="ttc" id="amidsummer_8cpp_html_a4ecd6ad6b0b0972c78e0e7b2a0463d47a0f5326e1703b8f8cf5486ffd73a16522"><div class="ttname"><a href="../../d6/dba/midsummer_8cpp.html#a4ecd6ad6b0b0972c78e0e7b2a0463d47a0f5326e1703b8f8cf5486ffd73a16522">SPELL_STAMP_OUT_BONFIRE</a></div><div class="ttdeci">@ SPELL_STAMP_OUT_BONFIRE</div><div class="ttdef"><b>Definition:</b> midsummer.cpp:31</div></div>
+<div class="ttc" id="amidsummer_8cpp_html_a4ecd6ad6b0b0972c78e0e7b2a0463d47acc1f22707bc834373f22a7f458a9cea3"><div class="ttname"><a href="../../d6/dba/midsummer_8cpp.html#a4ecd6ad6b0b0972c78e0e7b2a0463d47acc1f22707bc834373f22a7f458a9cea3">SPELL_LIGHT_BONFIRE</a></div><div class="ttdeci">@ SPELL_LIGHT_BONFIRE</div><div class="ttdef"><b>Definition:</b> midsummer.cpp:32</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a424a63829a446dac6f97a464cc64ed48"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a424a63829a446dac6f97a464cc64ed48">ObjectAccessor::GetGameObject</a></div><div class="ttdeci">GameObject * GetGameObject(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:189</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -567,7 +613,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../d6/dba/midsummer_8cpp.html">midsummer.cpp</a></li>
+<li><a class="el" href="../../">midsummer.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -575,7 +621,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d41/structnpc__midsummer__bonfire.html">npc_midsummer_bonfire</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

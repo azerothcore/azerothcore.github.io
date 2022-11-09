@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/Entities/Creature/Creature.cpp File Reference</title>
+<title>AzeorthCore: Creature.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -108,48 +108,50 @@ $(document).ready(function(){initNavTree('d3/d9d/_creature_8cpp.html','../../');
   <div class="headertitle"><div class="title">Creature.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d8/d93/_creature_8h_source.html">Creature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/dcc/_battleground_mgr_8h_source.html">BattlegroundMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d39/_cell_impl_8h_source.html">CellImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d1f/_common_8h_source.html">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d43/_creature_a_i_8h_source.html">CreatureAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d61/_creature_a_i_selector_8h_source.html">CreatureAISelector.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d7b/_creature_groups_8h_source.html">CreatureGroups.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/dd4/_database_env_8h_source.html">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d7b/_formulas_8h_source.html">Formulas.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d13/_game_event_mgr_8h_source.html">GameEventMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/daa/_game_time_8h_source.html">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/dc4/_group_8h_source.html">Group.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d6f/_group_mgr_8h_source.html">GroupMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d42/_instance_script_8h_source.html">InstanceScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/df4/_log_8h_source.html">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/dda/_loot_mgr_8h_source.html">LootMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/dca/_map_mgr_8h_source.html">MapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d77/_object_mgr_8h_source.html">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d10/_opcodes_8h_source.html">Opcodes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d5d/_outdoor_pv_p_mgr_8h_source.html">OutdoorPvPMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d67/_pet_8h_source.html">Pet.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d39/_player_8h_source.html">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/dc6/_pool_mgr_8h_source.html">PoolMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d28/_scripted_gossip_8h_source.html">ScriptedGossip.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d82/_spell_aura_effects_8h_source.html">SpellAuraEffects.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d75/_spell_mgr_8h_source.html">SpellMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/db3/_temporary_summon_8h_source.html">TemporarySummon.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d93/_transport_8h_source.html">Transport.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d90/_util_8h_source.html">Util.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d90/_vehicle_8h_source.html">Vehicle.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d33/_waypoint_movement_generator_8h_source.html">WaypointMovementGenerator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d86/_world_8h_source.html">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d66/_world_packet_8h_source.html">WorldPacket.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/df9/_grid_notifiers_impl_8h_source.html">GridNotifiersImpl.h</a>&quot;</code><br />
-</div></div><!-- contents -->
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureAISelector.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureGroups.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Formulas.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameEventMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GroupMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LootMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">OutdoorPvPMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PoolMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedGossip.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">TemporarySummon.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WaypointMovementGenerator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_27c47d768f113c084c0b575dcbf4137a.html">Creature</a></li><li class="navelem"><a class="el" href="../../d3/d9d/_creature_8cpp.html">Creature.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

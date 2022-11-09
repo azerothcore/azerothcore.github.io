@@ -1,9 +1,9 @@
 var dir_ba629fe3cce3d6c1ca366c03f65ff143 =
 [
-    [ "boss_krystallus.cpp", "df/dab/boss__krystallus_8cpp.html", "df/dab/boss__krystallus_8cpp" ],
-    [ "boss_maiden_of_grief.cpp", "d8/de5/boss__maiden__of__grief_8cpp.html", "d8/de5/boss__maiden__of__grief_8cpp" ],
-    [ "boss_sjonnir.cpp", "dd/dab/boss__sjonnir_8cpp.html", "dd/dab/boss__sjonnir_8cpp" ],
-    [ "brann_bronzebeard.cpp", "d4/d3c/brann__bronzebeard_8cpp.html", "d4/d3c/brann__bronzebeard_8cpp" ],
-    [ "halls_of_stone.h", "d5/d9e/halls__of__stone_8h.html", "d5/d9e/halls__of__stone_8h" ],
-    [ "instance_halls_of_stone.cpp", "df/d98/instance__halls__of__stone_8cpp.html", "df/d98/instance__halls__of__stone_8cpp" ]
+    [ "boss_krystallus.cpp", "d4/dbd/a03563.html", "d4/dbd/a03563" ],
+    [ "boss_maiden_of_grief.cpp", "d2/d6e/a03566.html", "d2/d6e/a03566" ],
+    [ "boss_sjonnir.cpp", "dd/d87/a03569.html", "dd/d87/a03569" ],
+    [ "brann_bronzebeard.cpp", "d8/db0/a03572.html", "d8/db0/a03572" ],
+    [ "halls_of_stone.h", "d3/dbd/a03575.html", "d3/dbd/a03575" ],
+    [ "instance_halls_of_stone.cpp", "d9/d65/a03578.html", "d9/d65/a03578" ]
 ];

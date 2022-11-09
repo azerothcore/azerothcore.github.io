@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d2/d4b/class_locked_queue.html','../..
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d9/dce/_locked_queue_8h_source.html">LockedQueue.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">LockedQueue.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -170,7 +170,9 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a1af6fe1c19a40d2b94873920dd7e8da7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancellation flag.  <a href="../../d2/d4b/class_locked_queue.html#a1af6fe1c19a40d2b94873920dd7e8da7">More...</a><br /></td></tr>
 <tr class="separator:a1af6fe1c19a40d2b94873920dd7e8da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T, typename StorageType = std::deque&lt;T&gt;&gt;<br />
+class LockedQueue&lt; T, StorageType &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5ce001c1fba3468b513aa7e345113128" name="a5ce001c1fba3468b513aa7e345113128"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5ce001c1fba3468b513aa7e345113128">&#9670;&#160;</a></span>LockedQueue()</h2>
 
@@ -257,7 +259,17 @@ template&lt;class T , typename StorageType  = std::deque&lt;T&gt;&gt; </div>
 </div><div class="memdoc">
 
 <p>Adds an item to the queue. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   46</span>    {</div>
+<div class="line"><span class="lineno">   47</span>        <a class="code hl_function" href="../../d2/d4b/class_locked_queue.html#a86647b0df50a7f3ce7a312eb8647f624">lock</a>();</div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>        <a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a55ced2abb0a6dd64554597347b61ebf1">_queue</a>.push_back(item);</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>        <a class="code hl_function" href="../../d2/d4b/class_locked_queue.html#a3d74de7cc364ba891c538ee3d166e9aa">unlock</a>();</div>
+<div class="line"><span class="lineno">   52</span>    }</div>
+<div class="ttc" id="aclass_locked_queue_html_a3d74de7cc364ba891c538ee3d166e9aa"><div class="ttname"><a href="../../d2/d4b/class_locked_queue.html#a3d74de7cc364ba891c538ee3d166e9aa">LockedQueue::unlock</a></div><div class="ttdeci">void unlock()</div><div class="ttdoc">Unlocks the queue.</div><div class="ttdef"><b>Definition:</b> LockedQueue.h:135</div></div>
+<div class="ttc" id="aclass_locked_queue_html_a55ced2abb0a6dd64554597347b61ebf1"><div class="ttname"><a href="../../d2/d4b/class_locked_queue.html#a55ced2abb0a6dd64554597347b61ebf1">LockedQueue::_queue</a></div><div class="ttdeci">StorageType _queue</div><div class="ttdoc">Storage backing the queue.</div><div class="ttdef"><b>Definition:</b> LockedQueue.h:31</div></div>
+<div class="ttc" id="aclass_locked_queue_html_a86647b0df50a7f3ce7a312eb8647f624"><div class="ttname"><a href="../../d2/d4b/class_locked_queue.html#a86647b0df50a7f3ce7a312eb8647f624">LockedQueue::lock</a></div><div class="ttdeci">void lock()</div><div class="ttdoc">Locks the queue for access.</div><div class="ttdef"><b>Definition:</b> LockedQueue.h:129</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab3d04497f8a07c5c6b6208b136a297a4" name="ab3d04497f8a07c5c6b6208b136a297a4"></a>
@@ -286,7 +298,14 @@ template&lt;class T , typename StorageType  = std::deque&lt;T&gt;&gt; </div>
 </div><div class="memdoc">
 
 <p>Cancels the queue. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  115</span>    {</div>
+<div class="line"><span class="lineno">  116</span>        std::lock_guard&lt;std::mutex&gt; <a class="code hl_function" href="../../d2/d4b/class_locked_queue.html#a86647b0df50a7f3ce7a312eb8647f624">lock</a>(<a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a64be27c5d4ab7cc4a8c559dd6e1d4ebb">_lock</a>);</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>        <a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a1af6fe1c19a40d2b94873920dd7e8da7">_canceled</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  119</span>    }</div>
+<div class="ttc" id="aclass_locked_queue_html_a1af6fe1c19a40d2b94873920dd7e8da7"><div class="ttname"><a href="../../d2/d4b/class_locked_queue.html#a1af6fe1c19a40d2b94873920dd7e8da7">LockedQueue::_canceled</a></div><div class="ttdeci">volatile bool _canceled</div><div class="ttdoc">Cancellation flag.</div><div class="ttdef"><b>Definition:</b> LockedQueue.h:34</div></div>
+<div class="ttc" id="aclass_locked_queue_html_a64be27c5d4ab7cc4a8c559dd6e1d4ebb"><div class="ttname"><a href="../../d2/d4b/class_locked_queue.html#a64be27c5d4ab7cc4a8c559dd6e1d4ebb">LockedQueue::_lock</a></div><div class="ttdeci">std::mutex _lock</div><div class="ttdoc">Lock access to the queue.</div><div class="ttdef"><b>Definition:</b> LockedQueue.h:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a75e84b63025f270a4c8a7d49043cf18e" name="a75e84b63025f270a4c8a7d49043cf18e"></a>
@@ -315,7 +334,11 @@ template&lt;class T , typename StorageType  = std::deque&lt;T&gt;&gt; </div>
 </div><div class="memdoc">
 
 <p>Checks if the queue is cancelled. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  123</span>    {</div>
+<div class="line"><span class="lineno">  124</span>        std::lock_guard&lt;std::mutex&gt; <a class="code hl_function" href="../../d2/d4b/class_locked_queue.html#a86647b0df50a7f3ce7a312eb8647f624">lock</a>(<a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a64be27c5d4ab7cc4a8c559dd6e1d4ebb">_lock</a>);</div>
+<div class="line"><span class="lineno">  125</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a1af6fe1c19a40d2b94873920dd7e8da7">_canceled</a>;</div>
+<div class="line"><span class="lineno">  126</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a82207d6574c3eb09d747b97c78205a37" name="a82207d6574c3eb09d747b97c78205a37"></a>
@@ -344,7 +367,11 @@ template&lt;class T , typename StorageType  = std::deque&lt;T&gt;&gt; </div>
 </div><div class="memdoc">
 
 <p>! Checks if we're empty or not with locks held </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  149</span>    {</div>
+<div class="line"><span class="lineno">  150</span>        std::lock_guard&lt;std::mutex&gt; <a class="code hl_function" href="../../d2/d4b/class_locked_queue.html#a86647b0df50a7f3ce7a312eb8647f624">lock</a>(<a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a64be27c5d4ab7cc4a8c559dd6e1d4ebb">_lock</a>);</div>
+<div class="line"><span class="lineno">  151</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a55ced2abb0a6dd64554597347b61ebf1">_queue</a>.empty();</div>
+<div class="line"><span class="lineno">  152</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a86647b0df50a7f3ce7a312eb8647f624" name="a86647b0df50a7f3ce7a312eb8647f624"></a>
@@ -373,7 +400,10 @@ template&lt;class T , typename StorageType  = std::deque&lt;T&gt;&gt; </div>
 </div><div class="memdoc">
 
 <p>Locks the queue for access. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  130</span>    {</div>
+<div class="line"><span class="lineno">  131</span>        this-&gt;<a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a64be27c5d4ab7cc4a8c559dd6e1d4ebb">_lock</a>.lock();</div>
+<div class="line"><span class="lineno">  132</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac818ec56d60e2ec059857e0aaa99f8a4" name="ac818ec56d60e2ec059857e0aaa99f8a4"></a>
@@ -403,7 +433,20 @@ template&lt;class T , typename StorageType  = std::deque&lt;T&gt;&gt; </div>
 </div><div class="memdoc">
 
 <p>Gets the next result in the queue, if any. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   64</span>    {</div>
+<div class="line"><span class="lineno">   65</span>        std::lock_guard&lt;std::mutex&gt; <a class="code hl_function" href="../../d2/d4b/class_locked_queue.html#a86647b0df50a7f3ce7a312eb8647f624">lock</a>(<a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a64be27c5d4ab7cc4a8c559dd6e1d4ebb">_lock</a>);</div>
+<div class="line"><span class="lineno">   66</span> </div>
+<div class="line"><span class="lineno">   67</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a55ced2abb0a6dd64554597347b61ebf1">_queue</a>.empty())</div>
+<div class="line"><span class="lineno">   68</span>        {</div>
+<div class="line"><span class="lineno">   69</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   70</span>        }</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>        result = <a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a55ced2abb0a6dd64554597347b61ebf1">_queue</a>.front();</div>
+<div class="line"><span class="lineno">   73</span>        <a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a55ced2abb0a6dd64554597347b61ebf1">_queue</a>.pop_front();</div>
+<div class="line"><span class="lineno">   74</span> </div>
+<div class="line"><span class="lineno">   75</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   76</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acaade33a01794600c72efbf389fe7664" name="acaade33a01794600c72efbf389fe7664"></a>
@@ -443,7 +486,24 @@ template&lt;class Checker &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   80</span>    {</div>
+<div class="line"><span class="lineno">   81</span>        std::lock_guard&lt;std::mutex&gt; <a class="code hl_function" href="../../d2/d4b/class_locked_queue.html#a86647b0df50a7f3ce7a312eb8647f624">lock</a>(<a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a64be27c5d4ab7cc4a8c559dd6e1d4ebb">_lock</a>);</div>
+<div class="line"><span class="lineno">   82</span> </div>
+<div class="line"><span class="lineno">   83</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a55ced2abb0a6dd64554597347b61ebf1">_queue</a>.empty())</div>
+<div class="line"><span class="lineno">   84</span>        {</div>
+<div class="line"><span class="lineno">   85</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   86</span>        }</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>        result = <a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a55ced2abb0a6dd64554597347b61ebf1">_queue</a>.front();</div>
+<div class="line"><span class="lineno">   89</span>        <span class="keywordflow">if</span> (!check.Process(result))</div>
+<div class="line"><span class="lineno">   90</span>        {</div>
+<div class="line"><span class="lineno">   91</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   92</span>        }</div>
+<div class="line"><span class="lineno">   93</span> </div>
+<div class="line"><span class="lineno">   94</span>        <a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a55ced2abb0a6dd64554597347b61ebf1">_queue</a>.pop_front();</div>
+<div class="line"><span class="lineno">   95</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   96</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af3f78bdfffafa51fce6162128abf987a" name="af3f78bdfffafa51fce6162128abf987a"></a>
@@ -473,7 +533,19 @@ template&lt;class T , typename StorageType  = std::deque&lt;T&gt;&gt; </div>
 </div><div class="memdoc">
 
 <p>Peeks at the top of the queue. Check if the queue is empty before calling! Remember to unlock after use if autoUnlock == false. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  100</span>    {</div>
+<div class="line"><span class="lineno">  101</span>        <a class="code hl_function" href="../../d2/d4b/class_locked_queue.html#a86647b0df50a7f3ce7a312eb8647f624">lock</a>();</div>
+<div class="line"><span class="lineno">  102</span> </div>
+<div class="line"><span class="lineno">  103</span>        T&amp; result = <a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a55ced2abb0a6dd64554597347b61ebf1">_queue</a>.front();</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>        <span class="keywordflow">if</span> (autoUnlock)</div>
+<div class="line"><span class="lineno">  106</span>        {</div>
+<div class="line"><span class="lineno">  107</span>            <a class="code hl_function" href="../../d2/d4b/class_locked_queue.html#a3d74de7cc364ba891c538ee3d166e9aa">unlock</a>();</div>
+<div class="line"><span class="lineno">  108</span>        }</div>
+<div class="line"><span class="lineno">  109</span> </div>
+<div class="line"><span class="lineno">  110</span>        <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">  111</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa57d3a3964071fd3e0ba6b7840041c65" name="aa57d3a3964071fd3e0ba6b7840041c65"></a>
@@ -502,7 +574,11 @@ template&lt;class T , typename StorageType  = std::deque&lt;T&gt;&gt; </div>
 </div><div class="memdoc">
 
 <p>! Calls pop_front of the queue </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  142</span>    {</div>
+<div class="line"><span class="lineno">  143</span>        std::lock_guard&lt;std::mutex&gt; <a class="code hl_function" href="../../d2/d4b/class_locked_queue.html#a86647b0df50a7f3ce7a312eb8647f624">lock</a>(<a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a64be27c5d4ab7cc4a8c559dd6e1d4ebb">_lock</a>);</div>
+<div class="line"><span class="lineno">  144</span>        <a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a55ced2abb0a6dd64554597347b61ebf1">_queue</a>.pop_front();</div>
+<div class="line"><span class="lineno">  145</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4eb9aea8b399a2acc2dd893e83d16120" name="a4eb9aea8b399a2acc2dd893e83d16120"></a>
@@ -544,7 +620,11 @@ template&lt;class Iterator &gt; </div>
 </div><div class="memdoc">
 
 <p>Adds items back to front of the queue. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   57</span>    {</div>
+<div class="line"><span class="lineno">   58</span>        std::lock_guard&lt;std::mutex&gt; <a class="code hl_function" href="../../d2/d4b/class_locked_queue.html#a86647b0df50a7f3ce7a312eb8647f624">lock</a>(<a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a64be27c5d4ab7cc4a8c559dd6e1d4ebb">_lock</a>);</div>
+<div class="line"><span class="lineno">   59</span>        <a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a55ced2abb0a6dd64554597347b61ebf1">_queue</a>.insert(<a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a55ced2abb0a6dd64554597347b61ebf1">_queue</a>.begin(), begin, end);</div>
+<div class="line"><span class="lineno">   60</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3d74de7cc364ba891c538ee3d166e9aa" name="a3d74de7cc364ba891c538ee3d166e9aa"></a>
@@ -573,7 +653,10 @@ template&lt;class T , typename StorageType  = std::deque&lt;T&gt;&gt; </div>
 </div><div class="memdoc">
 
 <p>Unlocks the queue. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  136</span>    {</div>
+<div class="line"><span class="lineno">  137</span>        this-&gt;<a class="code hl_variable" href="../../d2/d4b/class_locked_queue.html#a64be27c5d4ab7cc4a8c559dd6e1d4ebb">_lock</a>.unlock();</div>
+<div class="line"><span class="lineno">  138</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -656,7 +739,7 @@ template&lt;class T , typename StorageType  = std::deque&lt;T&gt;&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Threading/<a class="el" href="../../d9/dce/_locked_queue_8h_source.html">LockedQueue.h</a></li>
+<li><a class="el" href="../../">LockedQueue.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -664,7 +747,7 @@ template&lt;class T , typename StorageType  = std::deque&lt;T&gt;&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d4b/class_locked_queue.html">LockedQueue</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('db/d54/class_acore_1_1_localized_packe
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">GridNotifiers.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -137,7 +137,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ae2ec6175868c4c82274ce7a623a954a3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#a27bf64080270086d6dbc752f8d96ec4c">WorldPacketList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#ae2ec6175868c4c82274ce7a623a954a3">i_data_cache</a></td></tr>
 <tr class="separator:ae2ec6175868c4c82274ce7a623a954a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class Builder&gt;<br />
+class Acore::LocalizedPacketListDo&lt; Builder &gt;</div></div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a27bf64080270086d6dbc752f8d96ec4c" name="a27bf64080270086d6dbc752f8d96ec4c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a27bf64080270086d6dbc752f8d96ec4c">&#9670;&#160;</a></span>WorldPacketList</h2>
 
@@ -180,7 +182,9 @@ template&lt;class Builder &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1728</span>: <a class="code hl_variable" href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#a83bda52b10d30f7fd633c285b79e740b">i_builder</a>(builder) {}</div>
+<div class="ttc" id="aclass_acore_1_1_localized_packet_list_do_html_a83bda52b10d30f7fd633c285b79e740b"><div class="ttname"><a href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#a83bda52b10d30f7fd633c285b79e740b">Acore::LocalizedPacketListDo::i_builder</a></div><div class="ttdeci">Builder &amp; i_builder</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1739</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8442452027bcb5c98d60830e016803b5" name="a8442452027bcb5c98d60830e016803b5"></a>
@@ -207,7 +211,13 @@ template&lt;class Builder &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1731</span>        {</div>
+<div class="line"><span class="lineno"> 1732</span>            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code hl_variable" href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#ae2ec6175868c4c82274ce7a623a954a3">i_data_cache</a>.size(); ++i)</div>
+<div class="line"><span class="lineno"> 1733</span>                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> j = 0; j &lt; <a class="code hl_variable" href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#ae2ec6175868c4c82274ce7a623a954a3">i_data_cache</a>[i].size(); ++j)</div>
+<div class="line"><span class="lineno"> 1734</span>                    <span class="keyword">delete</span> <a class="code hl_variable" href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#ae2ec6175868c4c82274ce7a623a954a3">i_data_cache</a>[i][j];</div>
+<div class="line"><span class="lineno"> 1735</span>        }</div>
+<div class="ttc" id="aclass_acore_1_1_localized_packet_list_do_html_ae2ec6175868c4c82274ce7a623a954a3"><div class="ttname"><a href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#ae2ec6175868c4c82274ce7a623a954a3">Acore::LocalizedPacketListDo::i_data_cache</a></div><div class="ttdeci">std::vector&lt; WorldPacketList &gt; i_data_cache</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1740</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -228,7 +238,34 @@ template&lt;class Builder &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  565</span>{</div>
+<div class="line"><span class="lineno">  566</span>    <a class="code hl_enumeration" href="../../db/d1f/_common_8h.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> loc_idx = p-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a38ff97828c0efe89c092f5772c543564">GetSessionDbLocaleIndex</a>();</div>
+<div class="line"><span class="lineno">  567</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> cache_idx = loc_idx + 1;</div>
+<div class="line"><span class="lineno">  568</span>    <a class="code hl_typedef" href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#a27bf64080270086d6dbc752f8d96ec4c">WorldPacketList</a>* data_list;</div>
+<div class="line"><span class="lineno">  569</span> </div>
+<div class="line"><span class="lineno">  570</span>    <span class="comment">// create if not cached yet</span></div>
+<div class="line"><span class="lineno">  571</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#ae2ec6175868c4c82274ce7a623a954a3">i_data_cache</a>.size() &lt; cache_idx + 1 || <a class="code hl_variable" href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#ae2ec6175868c4c82274ce7a623a954a3">i_data_cache</a>[cache_idx].empty())</div>
+<div class="line"><span class="lineno">  572</span>    {</div>
+<div class="line"><span class="lineno">  573</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#ae2ec6175868c4c82274ce7a623a954a3">i_data_cache</a>.size() &lt; cache_idx + 1)</div>
+<div class="line"><span class="lineno">  574</span>            <a class="code hl_variable" href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#ae2ec6175868c4c82274ce7a623a954a3">i_data_cache</a>.resize(cache_idx + 1);</div>
+<div class="line"><span class="lineno">  575</span> </div>
+<div class="line"><span class="lineno">  576</span>        data_list = &amp;<a class="code hl_variable" href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#ae2ec6175868c4c82274ce7a623a954a3">i_data_cache</a>[cache_idx];</div>
+<div class="line"><span class="lineno">  577</span> </div>
+<div class="line"><span class="lineno">  578</span>        <a class="code hl_variable" href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#a83bda52b10d30f7fd633c285b79e740b">i_builder</a>(*data_list, loc_idx);</div>
+<div class="line"><span class="lineno">  579</span>    }</div>
+<div class="line"><span class="lineno">  580</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  581</span>        data_list = &amp;<a class="code hl_variable" href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#ae2ec6175868c4c82274ce7a623a954a3">i_data_cache</a>[cache_idx];</div>
+<div class="line"><span class="lineno">  582</span> </div>
+<div class="line"><span class="lineno">  583</span>    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; data_list-&gt;size(); ++i)</div>
+<div class="line"><span class="lineno">  584</span>        p-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2ad9b8f6c94365d5afe104567198aba8">SendDirectMessage</a>((*data_list)[i]);</div>
+<div class="line"><span class="lineno">  585</span>}</div>
+<div class="ttc" id="a_common_8h_html_a54c9b637be7283ba1a04fb5215594332"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a></div><div class="ttdeci">LocaleConstant</div><div class="ttdef"><b>Definition:</b> Common.h:74</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_acore_1_1_localized_packet_list_do_html_a27bf64080270086d6dbc752f8d96ec4c"><div class="ttname"><a href="../../db/d54/class_acore_1_1_localized_packet_list_do.html#a27bf64080270086d6dbc752f8d96ec4c">Acore::LocalizedPacketListDo::WorldPacketList</a></div><div class="ttdeci">std::vector&lt; WorldPacket * &gt; WorldPacketList</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1727</div></div>
+<div class="ttc" id="aclass_player_html_a2ad9b8f6c94365d5afe104567198aba8"><div class="ttname"><a href="../../d8/d53/class_player.html#a2ad9b8f6c94365d5afe104567198aba8">Player::SendDirectMessage</a></div><div class="ttdeci">void SendDirectMessage(WorldPacket const *data) const</div><div class="ttdef"><b>Definition:</b> Player.cpp:5578</div></div>
+<div class="ttc" id="aclass_player_html_a6ab11ca64cde7c5cde1f53998a6f7253"><div class="ttname"><a href="../../d8/d53/class_player.html#a6ab11ca64cde7c5cde1f53998a6f7253">Player::GetSession</a></div><div class="ttdeci">WorldSession * GetSession() const</div><div class="ttdef"><b>Definition:</b> Player.h:1947</div></div>
+<div class="ttc" id="aclass_world_session_html_a38ff97828c0efe89c092f5772c543564"><div class="ttname"><a href="../../d1/d47/class_world_session.html#a38ff97828c0efe89c092f5772c543564">WorldSession::GetSessionDbLocaleIndex</a></div><div class="ttdeci">LocaleConstant GetSessionDbLocaleIndex() const</div><div class="ttdef"><b>Definition:</b> WorldSession.h:496</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -281,8 +318,8 @@ template&lt;class Builder &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/Notifiers/<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/Notifiers/<a class="el" href="../../dd/df9/_grid_notifiers_impl_8h_source.html">GridNotifiersImpl.h</a></li>
+<li><a class="el" href="../../">GridNotifiers.h</a></li>
+<li><a class="el" href="../../">GridNotifiersImpl.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -290,7 +327,7 @@ template&lt;class Builder &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../db/d54/class_acore_1_1_localized_packet_list_do.html">LocalizedPacketListDo</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

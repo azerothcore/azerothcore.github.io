@@ -304,7 +304,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad99a4176d27864280a79ac548a57a4c8" name="ad99a4176d27864280a79ac548a57a4c8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad99a4176d27864280a79ac548a57a4c8">&#9670;&#160;</a></span>CalculateAmount()</h2>
 
@@ -344,7 +345,35 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1511</span>    {</div>
+<div class="line"><span class="lineno"> 1512</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>())</div>
+<div class="line"><span class="lineno"> 1513</span>        {</div>
+<div class="line"><span class="lineno"> 1514</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> value = amount;</div>
+<div class="line"><span class="lineno"> 1515</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> defValue = <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(caster-&gt;ToPlayer()-&gt;GetSkillValue(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#af4541d30ebbff76b1f9f689519789234a1c73e94578e3650948e1848854274649">SKILL_DEFENSE</a>) + caster-&gt;ToPlayer()-&gt;GetRatingBonusValue(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#aa60e4ef21982cf41b489e5242f01b64fa832531ac5d4a382e49391f88cd399ca4">CR_DEFENSE_SKILL</a>));</div>
+<div class="line"><span class="lineno"> 1516</span> </div>
+<div class="line"><span class="lineno"> 1517</span>            <span class="keywordflow">if</span> (defValue &gt; 400)</div>
+<div class="line"><span class="lineno"> 1518</span>                value -= <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>((defValue - 400) * 0.15);</div>
+<div class="line"><span class="lineno"> 1519</span> </div>
+<div class="line"><span class="lineno"> 1520</span>            <span class="comment">// Glyph of Icebound Fortitude</span></div>
+<div class="line"><span class="lineno"> 1521</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/df1/class_aura_effect.html">AuraEffect</a> <span class="keyword">const</span>* aurEff = caster-&gt;GetAuraEffect(<a class="code hl_enumvalue" href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499a0d2da08157a1e148fabf62841ed0e853">SPELL_DK_GLYPH_OF_ICEBOUND_FORTITUDE</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>))</div>
+<div class="line"><span class="lineno"> 1522</span>            {</div>
+<div class="line"><span class="lineno"> 1523</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> valMax = -aurEff-&gt;GetAmount();</div>
+<div class="line"><span class="lineno"> 1524</span>                <span class="keywordflow">if</span> (value &gt; valMax)</div>
+<div class="line"><span class="lineno"> 1525</span>                    value = valMax;</div>
+<div class="line"><span class="lineno"> 1526</span>            }</div>
+<div class="line"><span class="lineno"> 1527</span>            amount = value;</div>
+<div class="line"><span class="lineno"> 1528</span>        }</div>
+<div class="line"><span class="lineno"> 1529</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_af4541d30ebbff76b1f9f689519789234a1c73e94578e3650948e1848854274649"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#af4541d30ebbff76b1f9f689519789234a1c73e94578e3650948e1848854274649">SKILL_DEFENSE</a></div><div class="ttdeci">@ SKILL_DEFENSE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:2853</div></div>
+<div class="ttc" id="a_unit_8h_html_aa60e4ef21982cf41b489e5242f01b64fa832531ac5d4a382e49391f88cd399ca4"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#aa60e4ef21982cf41b489e5242f01b64fa832531ac5d4a382e49391f88cd399ca4">CR_DEFENSE_SKILL</a></div><div class="ttdeci">@ CR_DEFENSE_SKILL</div><div class="ttdef"><b>Definition:</b> Unit.h:405</div></div>
+<div class="ttc" id="aclass_aura_effect_html"><div class="ttname"><a href="../../da/df1/class_aura_effect.html">AuraEffect</a></div><div class="ttdef"><b>Definition:</b> SpellAuraEffects.h:39</div></div>
+<div class="ttc" id="aclass_aura_script_html_a67261dcb8b5f6089bdc1a906c91d61df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">AuraScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1010</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aspell__dk_8cpp_html_a70990262974db7bc1730b177eb17a499a0d2da08157a1e148fabf62841ed0e853"><div class="ttname"><a href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499a0d2da08157a1e148fabf62841ed0e853">SPELL_DK_GLYPH_OF_ICEBOUND_FORTITUDE</a></div><div class="ttdeci">@ SPELL_DK_GLYPH_OF_ICEBOUND_FORTITUDE</div><div class="ttdef"><b>Definition:</b> spell_dk.cpp:58</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aeafec50b06b5dd2f69ca6ab4096aea4d" name="aeafec50b06b5dd2f69ca6ab4096aea4d"></a>
@@ -371,7 +400,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1505</span>    {</div>
+<div class="line"><span class="lineno"> 1506</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>();</div>
+<div class="line"><span class="lineno"> 1507</span>        <span class="keywordflow">return</span> caster &amp;&amp; caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>;</div>
+<div class="line"><span class="lineno"> 1508</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a76528513f0f6728e73085a3d403c3e59" name="a76528513f0f6728e73085a3d403c3e59"></a>
@@ -424,11 +459,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1532</span>    {</div>
+<div class="line"><span class="lineno"> 1533</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a5b3cca86dbe3a8e042a0517a2621acf2">DoEffectCalcAmount</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a5f7926ca012466d6b220655a1bb6e912">AuraEffectCalcAmountFn</a>(<a class="code hl_function" href="../../dc/dc6/classspell__dk__icebound__fortitude.html#ad99a4176d27864280a79ac548a57a4c8">spell_dk_icebound_fortitude::CalculateAmount</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1">EFFECT_2</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a6796b359cee58ecae94d38098c91e74e">SPELL_AURA_MOD_DAMAGE_PERCENT_TAKEN</a>);</div>
+<div class="line"><span class="lineno"> 1534</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1">EFFECT_2</a></div><div class="ttdeci">@ EFFECT_2</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:32</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a6796b359cee58ecae94d38098c91e74e"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a6796b359cee58ecae94d38098c91e74e">SPELL_AURA_MOD_DAMAGE_PERCENT_TAKEN</a></div><div class="ttdeci">@ SPELL_AURA_MOD_DAMAGE_PERCENT_TAKEN</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:150</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a5f7926ca012466d6b220655a1bb6e912"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a5f7926ca012466d6b220655a1bb6e912">AuraEffectCalcAmountFn</a></div><div class="ttdeci">#define AuraEffectCalcAmountFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:762</div></div>
+<div class="ttc" id="aclass_aura_script_html_a5b3cca86dbe3a8e042a0517a2621acf2"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a5b3cca86dbe3a8e042a0517a2621acf2">AuraScript::DoEffectCalcAmount</a></div><div class="ttdeci">HookList&lt; EffectCalcAmountHandler &gt; DoEffectCalcAmount</div><div class="ttdef"><b>Definition:</b> SpellScript.h:761</div></div>
+<div class="ttc" id="aclassspell__dk__icebound__fortitude_html_ad99a4176d27864280a79ac548a57a4c8"><div class="ttname"><a href="../../dc/dc6/classspell__dk__icebound__fortitude.html#ad99a4176d27864280a79ac548a57a4c8">spell_dk_icebound_fortitude::CalculateAmount</a></div><div class="ttdeci">void CalculateAmount(AuraEffect const *, int32 &amp;amount, bool &amp;)</div><div class="ttdef"><b>Definition:</b> spell_dk.cpp:1510</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../d6/d51/spell__dk_8cpp.html">spell_dk.cpp</a></li>
+<li><a class="el" href="../../">spell_dk.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -436,7 +479,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/dc6/classspell__dk__icebound__fortitude.html">spell_dk_icebound_fortitude</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:17 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

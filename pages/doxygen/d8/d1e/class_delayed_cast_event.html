@@ -153,7 +153,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:acc9e22eb1908e4c458199fc4cccd56c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d1e/class_delayed_cast_event.html#acc9e22eb1908e4c458199fc4cccd56c6">_despawnTime</a></td></tr>
 <tr class="separator:acc9e22eb1908e4c458199fc4cccd56c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae6d57612065d56ce79197aedebedf9f9" name="ae6d57612065d56ce79197aedebedf9f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae6d57612065d56ce79197aedebedf9f9">&#9670;&#160;</a></span>DelayedCastEvent()</h2>
 
@@ -199,7 +200,14 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  177</span>                                                                                                       : <a class="code hl_variable" href="../../d8/d1e/class_delayed_cast_event.html#a85471a151a3165cc906f3a41103c3f5d">_trigger</a>(trigger), <a class="code hl_variable" href="../../d8/d1e/class_delayed_cast_event.html#adb07c24a947d59d2ef1f61b8ab18d328">_originalCaster</a>(originalCaster), <a class="code hl_variable" href="../../d8/d1e/class_delayed_cast_event.html#abe28a6749101233302634ed226a289e8">_spellId</a>(spellId), <a class="code hl_variable" href="../../d8/d1e/class_delayed_cast_event.html#acc9e22eb1908e4c458199fc4cccd56c6">_despawnTime</a>(despawnTime)</div>
+<div class="line"><span class="lineno">  178</span>    {</div>
+<div class="line"><span class="lineno">  179</span>    }</div>
+<div class="ttc" id="aclass_delayed_cast_event_html_a85471a151a3165cc906f3a41103c3f5d"><div class="ttname"><a href="../../d8/d1e/class_delayed_cast_event.html#a85471a151a3165cc906f3a41103c3f5d">DelayedCastEvent::_trigger</a></div><div class="ttdeci">Creature * _trigger</div><div class="ttdef"><b>Definition:</b> boss_valithria_dreamwalker.cpp:190</div></div>
+<div class="ttc" id="aclass_delayed_cast_event_html_abe28a6749101233302634ed226a289e8"><div class="ttname"><a href="../../d8/d1e/class_delayed_cast_event.html#abe28a6749101233302634ed226a289e8">DelayedCastEvent::_spellId</a></div><div class="ttdeci">uint32 _spellId</div><div class="ttdef"><b>Definition:</b> boss_valithria_dreamwalker.cpp:192</div></div>
+<div class="ttc" id="aclass_delayed_cast_event_html_acc9e22eb1908e4c458199fc4cccd56c6"><div class="ttname"><a href="../../d8/d1e/class_delayed_cast_event.html#acc9e22eb1908e4c458199fc4cccd56c6">DelayedCastEvent::_despawnTime</a></div><div class="ttdeci">uint32 _despawnTime</div><div class="ttdef"><b>Definition:</b> boss_valithria_dreamwalker.cpp:193</div></div>
+<div class="ttc" id="aclass_delayed_cast_event_html_adb07c24a947d59d2ef1f61b8ab18d328"><div class="ttname"><a href="../../d8/d1e/class_delayed_cast_event.html#adb07c24a947d59d2ef1f61b8ab18d328">DelayedCastEvent::_originalCaster</a></div><div class="ttdeci">ObjectGuid _originalCaster</div><div class="ttdef"><b>Definition:</b> boss_valithria_dreamwalker.cpp:191</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -238,7 +246,15 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  182</span>    {</div>
+<div class="line"><span class="lineno">  183</span>        <a class="code hl_variable" href="../../d8/d1e/class_delayed_cast_event.html#a85471a151a3165cc906f3a41103c3f5d">_trigger</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d8/d1e/class_delayed_cast_event.html#a85471a151a3165cc906f3a41103c3f5d">_trigger</a>, <a class="code hl_variable" href="../../d8/d1e/class_delayed_cast_event.html#abe28a6749101233302634ed226a289e8">_spellId</a>, <span class="keyword">false</span>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, <a class="code hl_variable" href="../../d8/d1e/class_delayed_cast_event.html#adb07c24a947d59d2ef1f61b8ab18d328">_originalCaster</a>);</div>
+<div class="line"><span class="lineno">  184</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d1e/class_delayed_cast_event.html#acc9e22eb1908e4c458199fc4cccd56c6">_despawnTime</a>)</div>
+<div class="line"><span class="lineno">  185</span>            <a class="code hl_variable" href="../../d8/d1e/class_delayed_cast_event.html#a85471a151a3165cc906f3a41103c3f5d">_trigger</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(<a class="code hl_variable" href="../../d8/d1e/class_delayed_cast_event.html#acc9e22eb1908e4c458199fc4cccd56c6">_despawnTime</a>);</div>
+<div class="line"><span class="lineno">  186</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  187</span>    }</div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -331,7 +347,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../d6/d1a/boss__valithria__dreamwalker_8cpp.html">boss_valithria_dreamwalker.cpp</a></li>
+<li><a class="el" href="../../">boss_valithria_dreamwalker.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -339,7 +355,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d1e/class_delayed_cast_event.html">DelayedCastEvent</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

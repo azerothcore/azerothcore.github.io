@@ -147,7 +147,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a30de77ee751f1c10231088cb84942342"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dac/class_creature.html">Creature</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d65/class_boom_event.html#a30de77ee751f1c10231088cb84942342">_me</a></td></tr>
 <tr class="separator:a30de77ee751f1c10231088cb84942342"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa9b7a8785f382068bb4510ffc0b43004" name="aa9b7a8785f382068bb4510ffc0b43004"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa9b7a8785f382068bb4510ffc0b43004">&#9670;&#160;</a></span>BoomEvent()</h2>
 
@@ -171,7 +172,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  697</span>                            : <a class="code hl_variable" href="../../d0/d65/class_boom_event.html#a30de77ee751f1c10231088cb84942342">_me</a>(me)</div>
+<div class="line"><span class="lineno">  698</span>    {</div>
+<div class="line"><span class="lineno">  699</span>    }</div>
+<div class="ttc" id="aclass_boom_event_html_a30de77ee751f1c10231088cb84942342"><div class="ttname"><a href="../../d0/d65/class_boom_event.html#a30de77ee751f1c10231088cb84942342">BoomEvent::_me</a></div><div class="ttdeci">Creature * _me</div><div class="ttdef"><b>Definition:</b> boss_xt002.cpp:714</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -210,7 +215,19 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  702</span>    {</div>
+<div class="line"><span class="lineno">  703</span>        <span class="comment">// This hack is here because we suspect our implementation of spell effect execution on targets</span></div>
+<div class="line"><span class="lineno">  704</span>        <span class="comment">// is done in the wrong order. We suspect that EFFECT_0 needs to be applied on all targets,</span></div>
+<div class="line"><span class="lineno">  705</span>        <span class="comment">// then EFFECT_1, etc - instead of applying each effect on target1, then target2, etc.</span></div>
+<div class="line"><span class="lineno">  706</span>        <span class="comment">// The above situation causes the visual for this spell to be bugged, so we remove the instakill</span></div>
+<div class="line"><span class="lineno">  707</span>        <span class="comment">// effect and implement a script hack for that.</span></div>
+<div class="line"><span class="lineno">  708</span> </div>
+<div class="line"><span class="lineno">  709</span>        <a class="code hl_variable" href="../../d0/d65/class_boom_event.html#a30de77ee751f1c10231088cb84942342">_me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d0/d65/class_boom_event.html#a30de77ee751f1c10231088cb84942342">_me</a>, <a class="code hl_enumvalue" href="../../d5/d7d/boss__xt002_8cpp.html#a42170363d3d70af9b65253693ae22effa5b32d47676c32f999f67818517d15073">SPELL_BOOM</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  710</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  711</span>    }</div>
+<div class="ttc" id="aboss__xt002_8cpp_html_a42170363d3d70af9b65253693ae22effa5b32d47676c32f999f67818517d15073"><div class="ttname"><a href="../../d5/d7d/boss__xt002_8cpp.html#a42170363d3d70af9b65253693ae22effa5b32d47676c32f999f67818517d15073">SPELL_BOOM</a></div><div class="ttdeci">@ SPELL_BOOM</div><div class="ttdef"><b>Definition:</b> boss_xt002.cpp:42</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -237,7 +254,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../d5/d7d/boss__xt002_8cpp.html">boss_xt002.cpp</a></li>
+<li><a class="el" href="../../">boss_xt002.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -245,7 +262,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d65/class_boom_event.html">BoomEvent</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:38 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

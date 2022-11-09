@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('db/dc7/class_who_list_cache_mgr.html',
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d7/dd2/_who_list_cache_mgr_8h_source.html">WhoListCacheMgr.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">WhoListCacheMgr.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -149,7 +149,8 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a80615aa0a66ac29765f27598e605c712"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dc7/class_who_list_cache_mgr.html">WhoListCacheMgr</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dc7/class_who_list_cache_mgr.html#a80615aa0a66ac29765f27598e605c712">operator=</a> (<a class="el" href="../../db/dc7/class_who_list_cache_mgr.html">WhoListCacheMgr</a> &amp;&amp;)=delete</td></tr>
 <tr class="separator:a80615aa0a66ac29765f27598e605c712"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2190c113c3d38bd316b17a4400c113e6" name="a2190c113c3d38bd316b17a4400c113e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2190c113c3d38bd316b17a4400c113e6">&#9670;&#160;</a></span>WhoListCacheMgr() <span class="overload">[1/3]</span></h2>
 
@@ -275,7 +276,9 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   90</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/dc7/class_who_list_cache_mgr.html#a75495cb910c6de65d60a5080248e1e25">_whoListStorage</a>; }</div>
+<div class="ttc" id="aclass_who_list_cache_mgr_html_a75495cb910c6de65d60a5080248e1e25"><div class="ttname"><a href="../../db/dc7/class_who_list_cache_mgr.html#a75495cb910c6de65d60a5080248e1e25">WhoListCacheMgr::_whoListStorage</a></div><div class="ttdeci">WhoListInfoVector _whoListStorage</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:93</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1e8ce970e3213cd0361af303df98b387" name="a1e8ce970e3213cd0361af303df98b387"></a>
@@ -300,7 +303,13 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   24</span>{</div>
+<div class="line"><span class="lineno">   25</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../db/dc7/class_who_list_cache_mgr.html">WhoListCacheMgr</a> <a class="code hl_function" href="../../db/dc7/class_who_list_cache_mgr.html#a1e8ce970e3213cd0361af303df98b387">instance</a>;</div>
+<div class="line"><span class="lineno">   26</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../db/dc7/class_who_list_cache_mgr.html#a1e8ce970e3213cd0361af303df98b387">instance</a>;</div>
+<div class="line"><span class="lineno">   27</span>}</div>
+<div class="ttc" id="aclass_who_list_cache_mgr_html"><div class="ttname"><a href="../../db/dc7/class_who_list_cache_mgr.html">WhoListCacheMgr</a></div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:77</div></div>
+<div class="ttc" id="aclass_who_list_cache_mgr_html_a1e8ce970e3213cd0361af303df98b387"><div class="ttname"><a href="../../db/dc7/class_who_list_cache_mgr.html#a1e8ce970e3213cd0361af303df98b387">WhoListCacheMgr::instance</a></div><div class="ttdeci">static WhoListCacheMgr * instance()</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.cpp:23</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a80615aa0a66ac29765f27598e605c712" name="a80615aa0a66ac29765f27598e605c712"></a>
@@ -369,7 +378,44 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
+<div class="line"><span class="lineno">   31</span>    <span class="comment">// clear current list</span></div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_variable" href="../../db/dc7/class_who_list_cache_mgr.html#a75495cb910c6de65d60a5080248e1e25">_whoListStorage</a>.clear();</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_variable" href="../../db/dc7/class_who_list_cache_mgr.html#a75495cb910c6de65d60a5080248e1e25">_whoListStorage</a>.reserve(<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;GetPlayerCount() + 1);</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; [guid, player] : <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a868ecab21b3e6e3ac68beed32f4ea793">ObjectAccessor::GetPlayers</a>())</div>
+<div class="line"><span class="lineno">   36</span>    {</div>
+<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">if</span> (!player-&gt;FindMap() || player-&gt;GetSession()-&gt;PlayerLoading())</div>
+<div class="line"><span class="lineno">   38</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>        std::string playerName = player-&gt;GetName();</div>
+<div class="line"><span class="lineno">   41</span>        std::wstring widePlayerName;</div>
+<div class="line"><span class="lineno">   42</span> </div>
+<div class="line"><span class="lineno">   43</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../db/d35/_util_8cpp.html#adaef8bf262f1d546b903005e5a06e565">Utf8toWStr</a>(playerName, widePlayerName))</div>
+<div class="line"><span class="lineno">   44</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>        <a class="code hl_function" href="../../db/d35/_util_8cpp.html#a58af07e1af657c56b4a20b6c7ef83615">wstrToLower</a>(widePlayerName);</div>
+<div class="line"><span class="lineno">   47</span> </div>
+<div class="line"><span class="lineno">   48</span>        std::string guildName = <a class="code hl_define" href="../../df/dce/_guild_mgr_8h.html#aef171903a38e30c347ff11360f682f81">sGuildMgr</a>-&gt;GetGuildNameById(player-&gt;GetGuildId());</div>
+<div class="line"><span class="lineno">   49</span>        std::wstring wideGuildName;</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../db/d35/_util_8cpp.html#adaef8bf262f1d546b903005e5a06e565">Utf8toWStr</a>(guildName, wideGuildName))</div>
+<div class="line"><span class="lineno">   52</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   53</span> </div>
+<div class="line"><span class="lineno">   54</span>        <a class="code hl_function" href="../../db/d35/_util_8cpp.html#a58af07e1af657c56b4a20b6c7ef83615">wstrToLower</a>(wideGuildName);</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>        <a class="code hl_variable" href="../../db/dc7/class_who_list_cache_mgr.html#a75495cb910c6de65d60a5080248e1e25">_whoListStorage</a>.emplace_back(player-&gt;GetGUID(), player-&gt;GetTeamId(), player-&gt;GetSession()-&gt;GetSecurity(), player-&gt;getLevel(),</div>
+<div class="line"><span class="lineno">   57</span>            player-&gt;getClass(), player-&gt;getRace(),</div>
+<div class="line"><span class="lineno">   58</span>            (player-&gt;IsSpectator() ? 4395 <span class="comment">/*Dalaran*/</span> : player-&gt;GetZoneId()), player-&gt;getGender(), player-&gt;IsVisible(),</div>
+<div class="line"><span class="lineno">   59</span>            widePlayerName, wideGuildName, playerName, guildName);</div>
+<div class="line"><span class="lineno">   60</span>    }</div>
+<div class="line"><span class="lineno">   61</span>}</div>
+<div class="ttc" id="a_guild_mgr_8h_html_aef171903a38e30c347ff11360f682f81"><div class="ttname"><a href="../../df/dce/_guild_mgr_8h.html#aef171903a38e30c347ff11360f682f81">sGuildMgr</a></div><div class="ttdeci">#define sGuildMgr</div><div class="ttdef"><b>Definition:</b> GuildMgr.h:51</div></div>
+<div class="ttc" id="a_util_8cpp_html_a58af07e1af657c56b4a20b6c7ef83615"><div class="ttname"><a href="../../db/d35/_util_8cpp.html#a58af07e1af657c56b4a20b6c7ef83615">wstrToLower</a></div><div class="ttdeci">void wstrToLower(std::wstring &amp;str)</div><div class="ttdef"><b>Definition:</b> Util.cpp:383</div></div>
+<div class="ttc" id="a_util_8cpp_html_adaef8bf262f1d546b903005e5a06e565"><div class="ttname"><a href="../../db/d35/_util_8cpp.html#adaef8bf262f1d546b903005e5a06e565">Utf8toWStr</a></div><div class="ttdeci">bool Utf8toWStr(char const *utf8str, size_t csize, wchar_t *wstr, size_t &amp;wsize)</div><div class="ttdef"><b>Definition:</b> Util.cpp:282</div></div>
+<div class="ttc" id="agroup__world_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:458</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a868ecab21b3e6e3ac68beed32f4ea793"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a868ecab21b3e6e3ac68beed32f4ea793">ObjectAccessor::GetPlayers</a></div><div class="ttdeci">HashMapHolder&lt; Player &gt;::MapType const &amp; GetPlayers()</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:80</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -396,8 +442,8 @@ Private Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Cache/<a class="el" href="../../d7/dd2/_who_list_cache_mgr_8h_source.html">WhoListCacheMgr.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Cache/<a class="el" href="../../d3/dfb/_who_list_cache_mgr_8cpp.html">WhoListCacheMgr.cpp</a></li>
+<li><a class="el" href="../../">WhoListCacheMgr.h</a></li>
+<li><a class="el" href="../../">WhoListCacheMgr.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -405,7 +451,7 @@ Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/dc7/class_who_list_cache_mgr.html">WhoListCacheMgr</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:30 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

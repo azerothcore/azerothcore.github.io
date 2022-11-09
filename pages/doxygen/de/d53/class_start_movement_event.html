@@ -149,7 +149,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ac2f4166af128a161c471b243144856ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dac/class_creature.html">Creature</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d53/class_start_movement_event.html#ac2f4166af128a161c471b243144856ba">_owner</a></td></tr>
 <tr class="separator:ac2f4166af128a161c471b243144856ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4f0fd5e835f742c876f37f31bf03c56f" name="a4f0fd5e835f742c876f37f31bf03c56f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4f0fd5e835f742c876f37f31bf03c56f">&#9670;&#160;</a></span>StartMovementEvent()</h2>
 
@@ -183,7 +184,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  497</span>: <a class="code hl_variable" href="../../de/d53/class_start_movement_event.html#afe1f7bcb3569758bc075380a24527067">_summoner</a>(summoner), <a class="code hl_variable" href="../../de/d53/class_start_movement_event.html#ac2f4166af128a161c471b243144856ba">_owner</a>(owner) {}</div>
+<div class="ttc" id="aclass_start_movement_event_html_ac2f4166af128a161c471b243144856ba"><div class="ttname"><a href="../../de/d53/class_start_movement_event.html#ac2f4166af128a161c471b243144856ba">StartMovementEvent::_owner</a></div><div class="ttdeci">Creature * _owner</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:514</div></div>
+<div class="ttc" id="aclass_start_movement_event_html_afe1f7bcb3569758bc075380a24527067"><div class="ttname"><a href="../../de/d53/class_start_movement_event.html#afe1f7bcb3569758bc075380a24527067">StartMovementEvent::_summoner</a></div><div class="ttdeci">Creature * _summoner</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:513</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -222,7 +226,30 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  500</span>    {</div>
+<div class="line"><span class="lineno">  501</span>        <a class="code hl_variable" href="../../de/d53/class_start_movement_event.html#ac2f4166af128a161c471b243144856ba">_owner</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno">  502</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d53/class_start_movement_event.html#ac2f4166af128a161c471b243144856ba">_owner</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad56089c61bf09419bedbb4edd2d94aeb">GetThreatMgr</a>().<a class="code hl_function" href="../../d0/db1/class_threat_mgr.html#adcf06946662ccb10e22b53844871ebbe">isThreatListEmpty</a>())</div>
+<div class="line"><span class="lineno">  503</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_variable" href="../../de/d53/class_start_movement_event.html#ac2f4166af128a161c471b243144856ba">_owner</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abb2a08ef5b7ea16dc71e813b464e4b7d">SelectVictim</a>())</div>
+<div class="line"><span class="lineno">  504</span>                <a class="code hl_variable" href="../../de/d53/class_start_movement_event.html#ac2f4166af128a161c471b243144856ba">_owner</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">AttackStart</a>(target);</div>
+<div class="line"><span class="lineno">  505</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d53/class_start_movement_event.html#ac2f4166af128a161c471b243144856ba">_owner</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>())</div>
+<div class="line"><span class="lineno">  506</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_variable" href="../../de/d53/class_start_movement_event.html#afe1f7bcb3569758bc075380a24527067">_summoner</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, <a class="code hl_struct" href="../../d5/d90/struct_non_tank_l_k_target_selector.html">NonTankLKTargetSelector</a>(<a class="code hl_variable" href="../../de/d53/class_start_movement_event.html#afe1f7bcb3569758bc075380a24527067">_summoner</a>)))</div>
+<div class="line"><span class="lineno">  507</span>                <a class="code hl_variable" href="../../de/d53/class_start_movement_event.html#ac2f4166af128a161c471b243144856ba">_owner</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">AttackStart</a>(target);</div>
+<div class="line"><span class="lineno">  508</span>        <a class="code hl_variable" href="../../de/d53/class_start_movement_event.html#ac2f4166af128a161c471b243144856ba">_owner</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#afdeeccb48c5f74120d0fffe2a631a88a">DoZoneInCombat</a>();</div>
+<div class="line"><span class="lineno">  509</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  510</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_afdeeccb48c5f74120d0fffe2a631a88a"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#afdeeccb48c5f74120d0fffe2a631a88a">CreatureAI::DoZoneInCombat</a></div><div class="ttdeci">void DoZoneInCombat(Creature *creature=nullptr, float maxRangeToNearestTarget=250.0f)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:93</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_creature_html_abb2a08ef5b7ea16dc71e813b464e4b7d"><div class="ttname"><a href="../../d1/dac/class_creature.html#abb2a08ef5b7ea16dc71e813b464e4b7d">Creature::SelectVictim</a></div><div class="ttdeci">Unit * SelectVictim()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14600</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_threat_mgr_html_adcf06946662ccb10e22b53844871ebbe"><div class="ttname"><a href="../../d0/db1/class_threat_mgr.html#adcf06946662ccb10e22b53844871ebbe">ThreatMgr::isThreatListEmpty</a></div><div class="ttdeci">bool isThreatListEmpty() const</div><div class="ttdef"><b>Definition:</b> ThreatMgr.h:225</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_ae120634c255d365f1567e341e2cf1feb"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">UnitAI::AttackStart</a></div><div class="ttdeci">virtual void AttackStart(Unit *)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:28</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_unit_html_ad56089c61bf09419bedbb4edd2d94aeb"><div class="ttname"><a href="../../da/db7/class_unit.html#ad56089c61bf09419bedbb4edd2d94aeb">Unit::GetThreatMgr</a></div><div class="ttdeci">ThreatMgr &amp; GetThreatMgr()</div><div class="ttdef"><b>Definition:</b> Unit.h:2142</div></div>
+<div class="ttc" id="astruct_non_tank_l_k_target_selector_html"><div class="ttname"><a href="../../d5/d90/struct_non_tank_l_k_target_selector.html">NonTankLKTargetSelector</a></div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:401</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -271,7 +298,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../da/d78/boss__the__lich__king_8cpp.html">boss_the_lich_king.cpp</a></li>
+<li><a class="el" href="../../">boss_the_lich_king.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -279,7 +306,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d53/class_start_movement_event.html">StartMovementEvent</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:11 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:28 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

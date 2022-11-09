@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a5b8ee53249a19954e4d46b17422207d5" name="a5b8ee53249a19954e4d46b17422207d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5b8ee53249a19954e4d46b17422207d5">&#9670;&#160;</a></span>CheckProc()</h2>
 
@@ -326,7 +327,31 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1033</span>    {</div>
+<div class="line"><span class="lineno"> 1034</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/dde/class_aura.html">Aura</a>* aura = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>()-&gt;GetAuraOfRankedSpell(<a class="code hl_enumvalue" href="../../d3/df8/spell__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124a8361e4d18a35c3a0b98379c6186a12ad">SPELL_MAGE_FINGERS_OF_FROST</a>))</div>
+<div class="line"><span class="lineno"> 1035</span>        {</div>
+<div class="line"><span class="lineno"> 1036</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d6/d72/classspell__mage__fingers__of__frost__proc__aura.html">spell_mage_fingers_of_frost_proc_aura_script</a>* script = <span class="keyword">dynamic_cast&lt;</span><a class="code hl_class" href="../../d6/d72/classspell__mage__fingers__of__frost__proc__aura.html">spell_mage_fingers_of_frost_proc_aura_script</a>*<span class="keyword">&gt;</span>(aura-&gt;GetScriptByName(<a class="code hl_define" href="../../d3/df8/spell__mage_8cpp.html#ad6bfccb0b8bd38205ed780b1ec5f9670">FingersOfFrostScriptName</a>)))</div>
+<div class="line"><span class="lineno"> 1037</span>            {</div>
+<div class="line"><span class="lineno"> 1038</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d0d/class_spell.html">Spell</a> <span class="keyword">const</span>* fofProcSpell = script-&gt;GetProcSpell())</div>
+<div class="line"><span class="lineno"> 1039</span>                {</div>
+<div class="line"><span class="lineno"> 1040</span>                    <span class="keywordflow">if</span> (fofProcSpell == eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a4fc02fb30c7c964a4fa804e69c47c9a2">GetProcSpell</a>())</div>
+<div class="line"><span class="lineno"> 1041</span>                    {</div>
+<div class="line"><span class="lineno"> 1042</span>                        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1043</span>                    }</div>
+<div class="line"><span class="lineno"> 1044</span>                }</div>
+<div class="line"><span class="lineno"> 1045</span>            }</div>
+<div class="line"><span class="lineno"> 1046</span>        }</div>
+<div class="line"><span class="lineno"> 1047</span> </div>
+<div class="line"><span class="lineno"> 1048</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1049</span>    }</div>
+<div class="ttc" id="aclass_aura_html"><div class="ttname"><a href="../../d2/dde/class_aura.html">Aura</a></div><div class="ttdef"><b>Definition:</b> SpellAuras.h:87</div></div>
+<div class="ttc" id="aclass_aura_script_html_a67261dcb8b5f6089bdc1a906c91d61df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">AuraScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1010</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_a4fc02fb30c7c964a4fa804e69c47c9a2"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#a4fc02fb30c7c964a4fa804e69c47c9a2">ProcEventInfo::GetProcSpell</a></div><div class="ttdeci">Spell const * GetProcSpell() const</div><div class="ttdef"><b>Definition:</b> Unit.h:867</div></div>
+<div class="ttc" id="aclass_spell_html"><div class="ttname"><a href="../../d8/d0d/class_spell.html">Spell</a></div><div class="ttdef"><b>Definition:</b> Spell.h:284</div></div>
+<div class="ttc" id="aclassspell__mage__fingers__of__frost__proc__aura_html"><div class="ttname"><a href="../../d6/d72/classspell__mage__fingers__of__frost__proc__aura.html">spell_mage_fingers_of_frost_proc_aura</a></div><div class="ttdef"><b>Definition:</b> spell_mage.cpp:951</div></div>
+<div class="ttc" id="aspell__mage_8cpp_html_ab25cd6fd3bfda5736fd43f449c1b5124a8361e4d18a35c3a0b98379c6186a12ad"><div class="ttname"><a href="../../d3/df8/spell__mage_8cpp.html#ab25cd6fd3bfda5736fd43f449c1b5124a8361e4d18a35c3a0b98379c6186a12ad">SPELL_MAGE_FINGERS_OF_FROST</a></div><div class="ttdeci">@ SPELL_MAGE_FINGERS_OF_FROST</div><div class="ttdef"><b>Definition:</b> spell_mage.cpp:58</div></div>
+<div class="ttc" id="aspell__mage_8cpp_html_ad6bfccb0b8bd38205ed780b1ec5f9670"><div class="ttname"><a href="../../d3/df8/spell__mage_8cpp.html#ad6bfccb0b8bd38205ed780b1ec5f9670">FingersOfFrostScriptName</a></div><div class="ttdeci">#define FingersOfFrostScriptName</div><div class="ttdef"><b>Definition:</b> spell_mage.cpp:949</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2640f58f3e7442c37615b61ecf938a6f" name="a2640f58f3e7442c37615b61ecf938a6f"></a>
@@ -379,11 +404,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1052</span>    {</div>
+<div class="line"><span class="lineno"> 1053</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">DoCheckProc</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a>(<a class="code hl_function" href="../../df/dd4/classspell__mage__fingers__of__frost__proc.html#a5b8ee53249a19954e4d46b17422207d5">spell_mage_fingers_of_frost_proc::CheckProc</a>);</div>
+<div class="line"><span class="lineno"> 1054</span>    }</div>
+<div class="ttc" id="a_spell_script_8h_html_ad25bcd0c3aa73ba267fa87ea50bc1780"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a></div><div class="ttdeci">#define AuraCheckProcFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:812</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab771dd972497502e5202fd48a1d6c17d"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">AuraScript::DoCheckProc</a></div><div class="ttdeci">HookList&lt; CheckProcHandler &gt; DoCheckProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:807</div></div>
+<div class="ttc" id="aclassspell__mage__fingers__of__frost__proc_html_a5b8ee53249a19954e4d46b17422207d5"><div class="ttname"><a href="../../df/dd4/classspell__mage__fingers__of__frost__proc.html#a5b8ee53249a19954e4d46b17422207d5">spell_mage_fingers_of_frost_proc::CheckProc</a></div><div class="ttdeci">bool CheckProc(ProcEventInfo &amp;eventInfo)</div><div class="ttdef"><b>Definition:</b> spell_mage.cpp:1032</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../d3/df8/spell__mage_8cpp.html">spell_mage.cpp</a></li>
+<li><a class="el" href="../../">spell_mage.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -391,7 +422,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dd4/classspell__mage__fingers__of__frost__proc.html">spell_mage_fingers_of_frost_proc</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:21 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

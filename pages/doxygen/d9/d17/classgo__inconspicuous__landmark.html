@@ -187,7 +187,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae6bc5e3abcec6aaabc594fff2d014593" name="ae6bc5e3abcec6aaabc594fff2d014593"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae6bc5e3abcec6aaabc594fff2d014593">&#9670;&#160;</a></span>go_inconspicuous_landmark()</h2>
 
@@ -210,7 +211,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1397</span>                                : <a class="code hl_class" href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a>(<span class="stringliteral">&quot;go_inconspicuous_landmark&quot;</span>)</div>
+<div class="line"><span class="lineno"> 1398</span>    {</div>
+<div class="line"><span class="lineno"> 1399</span>        <a class="code hl_variable" href="../../d9/d17/classgo__inconspicuous__landmark.html#af1f0bcb6e86c595614dc39476e01dc1e">_lastUsedTime</a> = <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count();</div>
+<div class="line"><span class="lineno"> 1400</span>    }</div>
+<div class="ttc" id="aclass_game_object_script_html"><div class="ttname"><a href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:758</div></div>
+<div class="ttc" id="aclassgo__inconspicuous__landmark_html_af1f0bcb6e86c595614dc39476e01dc1e"><div class="ttname"><a href="../../d9/d17/classgo__inconspicuous__landmark.html#af1f0bcb6e86c595614dc39476e01dc1e">go_inconspicuous_landmark::_lastUsedTime</a></div><div class="ttdeci">uint32 _lastUsedTime</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1416</div></div>
+<div class="ttc" id="anamespace_game_time_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -249,7 +257,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#a58b56fc92ae87aea0530eceba1f3088d">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1403</span>    {</div>
+<div class="line"><span class="lineno"> 1404</span>        <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a3b6b7692a9496e07088b96315decc78c">HasItemCount</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ac433c426b96baf32d97c2923220d1b49aaed533e57b9816d4dc98d5f9642f6c87">ITEM_CUERGOS_KEY</a>))</div>
+<div class="line"><span class="lineno"> 1405</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1406</span> </div>
+<div class="line"><span class="lineno"> 1407</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/d17/classgo__inconspicuous__landmark.html#af1f0bcb6e86c595614dc39476e01dc1e">_lastUsedTime</a> &gt; <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count())</div>
+<div class="line"><span class="lineno"> 1408</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1409</span> </div>
+<div class="line"><span class="lineno"> 1410</span>        <a class="code hl_variable" href="../../d9/d17/classgo__inconspicuous__landmark.html#af1f0bcb6e86c595614dc39476e01dc1e">_lastUsedTime</a> = <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count() + <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a>;</div>
+<div class="line"><span class="lineno"> 1411</span>        player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(player, <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ac433c426b96baf32d97c2923220d1b49a6e27e38f00dd8cc5b5e1bbcd44cc52ac">SPELL_SUMMON_PIRATES_TREASURE_AND_TRIGGER_MOB</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1412</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1413</span>    }</div>
+<div class="ttc" id="a_common_8h_html_afacf27522adfacf698390ddafc53fa30"><div class="ttname"><a href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a></div><div class="ttdeci">constexpr auto MINUTE</div><div class="ttdef"><b>Definition:</b> Common.h:56</div></div>
+<div class="ttc" id="aclass_player_html_a3b6b7692a9496e07088b96315decc78c"><div class="ttname"><a href="../../d8/d53/class_player.html#a3b6b7692a9496e07088b96315decc78c">Player::HasItemCount</a></div><div class="ttdeci">bool HasItemCount(uint32 item, uint32 count=1, bool inBankAlso=false) const</div><div class="ttdef"><b>Definition:</b> PlayerStorage.cpp:686</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ac433c426b96baf32d97c2923220d1b49a6e27e38f00dd8cc5b5e1bbcd44cc52ac"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ac433c426b96baf32d97c2923220d1b49a6e27e38f00dd8cc5b5e1bbcd44cc52ac">SPELL_SUMMON_PIRATES_TREASURE_AND_TRIGGER_MOB</a></div><div class="ttdeci">@ SPELL_SUMMON_PIRATES_TREASURE_AND_TRIGGER_MOB</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1390</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ac433c426b96baf32d97c2923220d1b49aaed533e57b9816d4dc98d5f9642f6c87"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ac433c426b96baf32d97c2923220d1b49aaed533e57b9816d4dc98d5f9642f6c87">ITEM_CUERGOS_KEY</a></div><div class="ttdeci">@ ITEM_CUERGOS_KEY</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1391</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -276,7 +300,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d6/d0c/go__scripts_8cpp.html">go_scripts.cpp</a></li>
+<li><a class="el" href="../../">go_scripts.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -284,7 +308,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d17/classgo__inconspicuous__landmark.html">go_inconspicuous_landmark</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a738e105a48f6c603f3d9a690f44b8745" name="a738e105a48f6c603f3d9a690f44b8745"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a738e105a48f6c603f3d9a690f44b8745">&#9670;&#160;</a></span>PrepareSpellScript()</h2>
 
@@ -343,7 +344,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 3627</span>    {</div>
+<div class="line"><span class="lineno"> 3628</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a3e67064a6f789b69c5533602c72173b8">OnDestinationTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#aa25d575ee7dc16898562e3906eb3ca1b">SpellDestinationTargetSelectFn</a>(<a class="code hl_function" href="../../dc/dca/classspell__item__recall.html#a59641895cead08de4a4503262505ee73">spell_item_recall::SetDest</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a26506da78f6a6950f7ac66718b775817">TARGET_DEST_DB</a>);</div>
+<div class="line"><span class="lineno"> 3629</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a26506da78f6a6950f7ac66718b775817"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a26506da78f6a6950f7ac66718b775817">TARGET_DEST_DB</a></div><div class="ttdeci">@ TARGET_DEST_DB</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1394</div></div>
+<div class="ttc" id="a_spell_script_8h_html_aa25d575ee7dc16898562e3906eb3ca1b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#aa25d575ee7dc16898562e3906eb3ca1b">SpellDestinationTargetSelectFn</a></div><div class="ttdeci">#define SpellDestinationTargetSelectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:364</div></div>
+<div class="ttc" id="aclass_spell_script_html_a3e67064a6f789b69c5533602c72173b8"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a3e67064a6f789b69c5533602c72173b8">SpellScript::OnDestinationTargetSelect</a></div><div class="ttdeci">HookList&lt; DestinationTargetSelectHandler &gt; OnDestinationTargetSelect</div><div class="ttdef"><b>Definition:</b> SpellScript.h:363</div></div>
+<div class="ttc" id="aclassspell__item__recall_html_a59641895cead08de4a4503262505ee73"><div class="ttname"><a href="../../dc/dca/classspell__item__recall.html#a59641895cead08de4a4503262505ee73">spell_item_recall::SetDest</a></div><div class="ttdeci">void SetDest(SpellDestination &amp;dest)</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:3607</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a59641895cead08de4a4503262505ee73" name="a59641895cead08de4a4503262505ee73"></a>
@@ -369,11 +378,41 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 3608</span>    {</div>
+<div class="line"><span class="lineno"> 3609</span>        <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>();</div>
+<div class="line"><span class="lineno"> 3610</span>        <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno"> 3611</span>        {</div>
+<div class="line"><span class="lineno"> 3612</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 3613</span>        }</div>
+<div class="line"><span class="lineno"> 3614</span> </div>
+<div class="line"><span class="lineno"> 3615</span>        <a class="code hl_enumeration" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324d">TeamId</a> bgTeam = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#afcf1880d221c0af14b0e0c6b54b328ab">GetBgTeamId</a>();</div>
+<div class="line"><span class="lineno"> 3616</span>        <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>(<span class="keyword">true</span>) != bgTeam)</div>
+<div class="line"><span class="lineno"> 3617</span>        {</div>
+<div class="line"><span class="lineno"> 3618</span>            <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../da/dcc/struct_spell_target_position.html">SpellTargetPosition</a> <span class="keyword">const</span>* recallSpellTarget = <a class="code hl_define" href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellTargetPosition(bgTeam == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a> ? <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a205fd186c57331c4cc54fb414647d6b1a457ceb0e5e302c32fb406834a35c6906">SPELL_RECALL_HORDE</a> : <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a205fd186c57331c4cc54fb414647d6b1a7ae317c8f9594d706a87b560d77af1fd">SPELL_RECALL_ALLIANCE</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>))</div>
+<div class="line"><span class="lineno"> 3619</span>            {</div>
+<div class="line"><span class="lineno"> 3620</span>                <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> pos = <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a>(recallSpellTarget-&gt;target_X, recallSpellTarget-&gt;target_Y, recallSpellTarget-&gt;target_Z, recallSpellTarget-&gt;target_Orientation);</div>
+<div class="line"><span class="lineno"> 3621</span>                dest.<a class="code hl_function" href="../../db/d26/struct_spell_destination.html#ab565861d5013130639013e3c4d22d712">Relocate</a>(pos);</div>
+<div class="line"><span class="lineno"> 3622</span>            }</div>
+<div class="line"><span class="lineno"> 3623</span>        }</div>
+<div class="line"><span class="lineno"> 3624</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a7513eda5ac39f7f649b82c80de7c324d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324d">TeamId</a></div><div class="ttdeci">TeamId</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:731</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a></div><div class="ttdeci">@ TEAM_HORDE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:733</div></div>
+<div class="ttc" id="a_spell_mgr_8h_html_aa21e14d8e1145507b746a69b5487109d"><div class="ttname"><a href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a></div><div class="ttdeci">#define sSpellMgr</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:803</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_player_html_a4874f5c152e187c381c2a349f16aa0d4"><div class="ttname"><a href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">Player::GetTeamId</a></div><div class="ttdeci">TeamId GetTeamId(bool original=false) const</div><div class="ttdef"><b>Definition:</b> Player.h:2058</div></div>
+<div class="ttc" id="aclass_player_html_afcf1880d221c0af14b0e0c6b54b328ab"><div class="ttname"><a href="../../d8/d53/class_player.html#afcf1880d221c0af14b0e0c6b54b328ab">Player::GetBgTeamId</a></div><div class="ttdeci">TeamId GetBgTeamId() const</div><div class="ttdef"><b>Definition:</b> Player.h:2226</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a205fd186c57331c4cc54fb414647d6b1a457ceb0e5e302c32fb406834a35c6906"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a205fd186c57331c4cc54fb414647d6b1a457ceb0e5e302c32fb406834a35c6906">SPELL_RECALL_HORDE</a></div><div class="ttdeci">@ SPELL_RECALL_HORDE</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:3599</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a205fd186c57331c4cc54fb414647d6b1a7ae317c8f9594d706a87b560d77af1fd"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a205fd186c57331c4cc54fb414647d6b1a7ae317c8f9594d706a87b560d77af1fd">SPELL_RECALL_ALLIANCE</a></div><div class="ttdeci">@ SPELL_RECALL_ALLIANCE</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:3600</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="astruct_spell_destination_html_ab565861d5013130639013e3c4d22d712"><div class="ttname"><a href="../../db/d26/struct_spell_destination.html#ab565861d5013130639013e3c4d22d712">SpellDestination::Relocate</a></div><div class="ttdeci">void Relocate(Position const &amp;pos)</div><div class="ttdef"><b>Definition:</b> Spell.cpp:87</div></div>
+<div class="ttc" id="astruct_spell_target_position_html"><div class="ttname"><a href="../../da/dcc/struct_spell_target_position.html">SpellTargetPosition</a></div><div class="ttdef"><b>Definition:</b> SpellMgr.h:389</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../db/d6e/spell__item_8cpp.html">spell_item.cpp</a></li>
+<li><a class="el" href="../../">spell_item.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -381,7 +420,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/dca/classspell__item__recall.html">spell_item_recall</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:20 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

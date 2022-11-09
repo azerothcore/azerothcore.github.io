@@ -495,7 +495,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a147f346ab9216a1831c82deaf4524b43" name="a147f346ab9216a1831c82deaf4524b43"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a147f346ab9216a1831c82deaf4524b43">&#9670;&#160;</a></span>boss_thespiaAI()</h2>
 
@@ -519,7 +520,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   50</span>                                           : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">   51</span>        {</div>
+<div class="line"><span class="lineno">   52</span>            <a class="code hl_variable" href="../../d1/d61/structboss__hydromancer__thespia_1_1boss__thespia_a_i.html#a98fa102f6e89e473414280d09ef5cd3c">instance</a> = creature-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">   53</span>        }</div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astructboss__hydromancer__thespia_1_1boss__thespia_a_i_html_a98fa102f6e89e473414280d09ef5cd3c"><div class="ttname"><a href="../../d1/d61/structboss__hydromancer__thespia_1_1boss__thespia_a_i.html#a98fa102f6e89e473414280d09ef5cd3c">boss_hydromancer_thespia::boss_thespiaAI::instance</a></div><div class="ttdeci">InstanceScript * instance</div><div class="ttdef"><b>Definition:</b> boss_hydromancer_thespia.cpp:55</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -548,7 +556,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   79</span>        {</div>
+<div class="line"><span class="lineno">   80</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130da47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>);</div>
+<div class="line"><span class="lineno">   81</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130da772f71f0ca3430dfec7b4b756f4e87db">EVENT_SPELL_LIGHTNING</a>, 15000);</div>
+<div class="line"><span class="lineno">   82</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130dae72b6fc8defb13ef49e55126dba4472b">EVENT_SPELL_LUNG</a>, 7000);</div>
+<div class="line"><span class="lineno">   83</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130dab3e1f2d9ffd635af020a3405c6fef059">EVENT_SPELL_ENVELOPING</a>, 9000);</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d61/structboss__hydromancer__thespia_1_1boss__thespia_a_i.html#a98fa102f6e89e473414280d09ef5cd3c">instance</a>)</div>
+<div class="line"><span class="lineno">   86</span>                <a class="code hl_variable" href="../../d1/d61/structboss__hydromancer__thespia_1_1boss__thespia_a_i.html#a98fa102f6e89e473414280d09ef5cd3c">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../dd/dc6/steam__vault_8h.html#a4c1a879f002628919b28fdb323896e06a2990f81132f5b916c62195316f1a2a43">TYPE_HYDROMANCER_THESPIA</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>);</div>
+<div class="line"><span class="lineno">   87</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__hydromancer__thespia_8cpp_html_a3f4b673ff8add0ad1c96080f6252130da47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130da47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_hydromancer_thespia.cpp:25</div></div>
+<div class="ttc" id="aboss__hydromancer__thespia_8cpp_html_a3f4b673ff8add0ad1c96080f6252130da772f71f0ca3430dfec7b4b756f4e87db"><div class="ttname"><a href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130da772f71f0ca3430dfec7b4b756f4e87db">EVENT_SPELL_LIGHTNING</a></div><div class="ttdeci">@ EVENT_SPELL_LIGHTNING</div><div class="ttdef"><b>Definition:</b> boss_hydromancer_thespia.cpp:33</div></div>
+<div class="ttc" id="aboss__hydromancer__thespia_8cpp_html_a3f4b673ff8add0ad1c96080f6252130dab3e1f2d9ffd635af020a3405c6fef059"><div class="ttname"><a href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130dab3e1f2d9ffd635af020a3405c6fef059">EVENT_SPELL_ENVELOPING</a></div><div class="ttdeci">@ EVENT_SPELL_ENVELOPING</div><div class="ttdef"><b>Definition:</b> boss_hydromancer_thespia.cpp:35</div></div>
+<div class="ttc" id="aboss__hydromancer__thespia_8cpp_html_a3f4b673ff8add0ad1c96080f6252130dae72b6fc8defb13ef49e55126dba4472b"><div class="ttname"><a href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130dae72b6fc8defb13ef49e55126dba4472b">EVENT_SPELL_LUNG</a></div><div class="ttdeci">@ EVENT_SPELL_LUNG</div><div class="ttdef"><b>Definition:</b> boss_hydromancer_thespia.cpp:34</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_zone_script_html_a949e67ea24c7e4b70a20806952735576"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:53</div></div>
+<div class="ttc" id="asteam__vault_8h_html_a4c1a879f002628919b28fdb323896e06a2990f81132f5b916c62195316f1a2a43"><div class="ttname"><a href="../../dd/dc6/steam__vault_8h.html#a4c1a879f002628919b28fdb323896e06a2990f81132f5b916c62195316f1a2a43">TYPE_HYDROMANCER_THESPIA</a></div><div class="ttdeci">@ TYPE_HYDROMANCER_THESPIA</div><div class="ttdef"><b>Definition:</b> steam_vault.h:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afd71c6384c9b28c0f62cc7430b67e337" name="afd71c6384c9b28c0f62cc7430b67e337"></a>
@@ -576,7 +602,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   66</span>        {</div>
+<div class="line"><span class="lineno">   67</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130dafeeb59e6533ea7f2f818422052e0b671">SAY_DEAD</a>);</div>
+<div class="line"><span class="lineno">   68</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d61/structboss__hydromancer__thespia_1_1boss__thespia_a_i.html#a98fa102f6e89e473414280d09ef5cd3c">instance</a>)</div>
+<div class="line"><span class="lineno">   69</span>                <a class="code hl_variable" href="../../d1/d61/structboss__hydromancer__thespia_1_1boss__thespia_a_i.html#a98fa102f6e89e473414280d09ef5cd3c">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../dd/dc6/steam__vault_8h.html#a4c1a879f002628919b28fdb323896e06a2990f81132f5b916c62195316f1a2a43">TYPE_HYDROMANCER_THESPIA</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>);</div>
+<div class="line"><span class="lineno">   70</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="aboss__hydromancer__thespia_8cpp_html_a3f4b673ff8add0ad1c96080f6252130dafeeb59e6533ea7f2f818422052e0b671"><div class="ttname"><a href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130dafeeb59e6533ea7f2f818422052e0b671">SAY_DEAD</a></div><div class="ttdeci">@ SAY_DEAD</div><div class="ttdef"><b>Definition:</b> boss_hydromancer_thespia.cpp:27</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a77d358e0e7116bb38dd572af66473cab" name="a77d358e0e7116bb38dd572af66473cab"></a>
@@ -604,7 +637,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   73</span>        {</div>
+<div class="line"><span class="lineno">   74</span>            <span class="keywordflow">if</span> (victim-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">   75</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130da9e64f6e600dd42567d18006912811f75">SAY_SLAY</a>);</div>
+<div class="line"><span class="lineno">   76</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aboss__hydromancer__thespia_8cpp_html_a3f4b673ff8add0ad1c96080f6252130da9e64f6e600dd42567d18006912811f75"><div class="ttname"><a href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130da9e64f6e600dd42567d18006912811f75">SAY_SLAY</a></div><div class="ttdeci">@ SAY_SLAY</div><div class="ttdef"><b>Definition:</b> boss_hydromancer_thespia.cpp:26</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a325f4a4e008c71410b26426b27dbb213" name="a325f4a4e008c71410b26426b27dbb213"></a>
@@ -631,7 +671,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   59</span>        {</div>
+<div class="line"><span class="lineno">   60</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">   61</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d61/structboss__hydromancer__thespia_1_1boss__thespia_a_i.html#a98fa102f6e89e473414280d09ef5cd3c">instance</a>)</div>
+<div class="line"><span class="lineno">   62</span>                <a class="code hl_variable" href="../../d1/d61/structboss__hydromancer__thespia_1_1boss__thespia_a_i.html#a98fa102f6e89e473414280d09ef5cd3c">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../dd/dc6/steam__vault_8h.html#a4c1a879f002628919b28fdb323896e06a2990f81132f5b916c62195316f1a2a43">TYPE_HYDROMANCER_THESPIA</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>);</div>
+<div class="line"><span class="lineno">   63</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a></div><div class="ttdeci">@ NOT_STARTED</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:56</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afdfc997da33b9d2eeda826d445e6a1a8" name="afdfc997da33b9d2eeda826d445e6a1a8"></a>
@@ -659,7 +705,48 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   90</span>        {</div>
+<div class="line"><span class="lineno">   91</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">   92</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   93</span> </div>
+<div class="line"><span class="lineno">   94</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">   95</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">   96</span>            {</div>
+<div class="line"><span class="lineno">   97</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130da772f71f0ca3430dfec7b4b756f4e87db">EVENT_SPELL_LIGHTNING</a>:</div>
+<div class="line"><span class="lineno">   98</span>                    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a1ca3b73dcbf8a3e8b35c334a97a8dcf9">DUNGEON_MODE</a>(1, 2); ++i)</div>
+<div class="line"><span class="lineno">   99</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0))</div>
+<div class="line"><span class="lineno">  100</span>                            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130dae91e1d3d8c305d3f37313774206628f2">SPELL_LIGHTNING_CLOUD</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  101</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(15000, 25000));</div>
+<div class="line"><span class="lineno">  102</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  103</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130dae72b6fc8defb13ef49e55126dba4472b">EVENT_SPELL_LUNG</a>:</div>
+<div class="line"><span class="lineno">  104</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0))</div>
+<div class="line"><span class="lineno">  105</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130da56e2d21d9894c6b11ae15da9572894c6">SPELL_LUNG_BURST</a>);</div>
+<div class="line"><span class="lineno">  106</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(7000, 12000));</div>
+<div class="line"><span class="lineno">  107</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  108</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130dab3e1f2d9ffd635af020a3405c6fef059">EVENT_SPELL_ENVELOPING</a>:</div>
+<div class="line"><span class="lineno">  109</span>                    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a1ca3b73dcbf8a3e8b35c334a97a8dcf9">DUNGEON_MODE</a>(1, 2); ++i)</div>
+<div class="line"><span class="lineno">  110</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0))</div>
+<div class="line"><span class="lineno">  111</span>                            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130dacf98b779c795324d47e44b043eeacf92">SPELL_ENVELOPING_WINDS</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  112</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(10000, 15000));</div>
+<div class="line"><span class="lineno">  113</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  114</span>            }</div>
+<div class="line"><span class="lineno">  115</span> </div>
+<div class="line"><span class="lineno">  116</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  117</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__hydromancer__thespia_8cpp_html_a3f4b673ff8add0ad1c96080f6252130da56e2d21d9894c6b11ae15da9572894c6"><div class="ttname"><a href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130da56e2d21d9894c6b11ae15da9572894c6">SPELL_LUNG_BURST</a></div><div class="ttdeci">@ SPELL_LUNG_BURST</div><div class="ttdef"><b>Definition:</b> boss_hydromancer_thespia.cpp:30</div></div>
+<div class="ttc" id="aboss__hydromancer__thespia_8cpp_html_a3f4b673ff8add0ad1c96080f6252130dacf98b779c795324d47e44b043eeacf92"><div class="ttname"><a href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130dacf98b779c795324d47e44b043eeacf92">SPELL_ENVELOPING_WINDS</a></div><div class="ttdeci">@ SPELL_ENVELOPING_WINDS</div><div class="ttdef"><b>Definition:</b> boss_hydromancer_thespia.cpp:31</div></div>
+<div class="ttc" id="aboss__hydromancer__thespia_8cpp_html_a3f4b673ff8add0ad1c96080f6252130dae91e1d3d8c305d3f37313774206628f2"><div class="ttname"><a href="../../dc/d16/boss__hydromancer__thespia_8cpp.html#a3f4b673ff8add0ad1c96080f6252130dae91e1d3d8c305d3f37313774206628f2">SPELL_LIGHTNING_CLOUD</a></div><div class="ttdeci">@ SPELL_LIGHTNING_CLOUD</div><div class="ttdef"><b>Definition:</b> boss_hydromancer_thespia.cpp:29</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a1ca3b73dcbf8a3e8b35c334a97a8dcf9"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a1ca3b73dcbf8a3e8b35c334a97a8dcf9">ScriptedAI::DUNGEON_MODE</a></div><div class="ttdeci">const T &amp; DUNGEON_MODE(const T &amp;normal5, const T &amp;heroic10) const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:364</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -692,7 +779,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/CoilfangReservoir/SteamVault/<a class="el" href="../../dc/d16/boss__hydromancer__thespia_8cpp.html">boss_hydromancer_thespia.cpp</a></li>
+<li><a class="el" href="../../">boss_hydromancer_thespia.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -700,7 +787,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d8a/classboss__hydromancer__thespia.html">boss_hydromancer_thespia</a></li><li class="navelem"><a class="el" href="../../d1/d61/structboss__hydromancer__thespia_1_1boss__thespia_a_i.html">boss_thespiaAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:40 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

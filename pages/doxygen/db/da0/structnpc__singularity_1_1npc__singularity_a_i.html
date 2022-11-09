@@ -392,7 +392,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3385a5ff1216daed82fb8bf7bb830b21" name="a3385a5ff1216daed82fb8bf7bb830b21"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3385a5ff1216daed82fb8bf7bb830b21">&#9670;&#160;</a></span>npc_singularityAI()</h2>
 
@@ -416,7 +417,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  280</span>                                              : <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(creature)</div>
+<div class="line"><span class="lineno">  281</span>        {</div>
+<div class="line"><span class="lineno">  282</span>        }</div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -444,7 +449,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a43eb9ef68b977d98f6618d69a0d62115">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  287</span>        {</div>
+<div class="line"><span class="lineno">  288</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(18000);</div>
+<div class="line"><span class="lineno">  289</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d9/d3f/boss__muru_8cpp.html#a5bd342133be8c2137b831460acc9298ca23774b52390332d7deb748a26be41544">SPELL_BLACK_HOLE_SUMMON_VISUAL</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  290</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d9/d3f/boss__muru_8cpp.html#a5bd342133be8c2137b831460acc9298ca2b6c2c704bd34e907bcfbc0ae4708f96">SPELL_BLACK_HOLE_SUMMON_VISUAL2</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  291</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d9/d3f/boss__muru_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3fb98156b69353a14adfde3422d10e65">EVENT_START_BLACK_HOLE</a>, 3500);</div>
+<div class="line"><span class="lineno">  292</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d9/d3f/boss__muru_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3fbc4e14b94152ae108e48b4098f8dd1">EVENT_SWITCH_BLACK_HOLE_TARGET</a>, 5000);</div>
+<div class="line"><span class="lineno">  293</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d9/d3f/boss__muru_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab58450219ccf79e7e831b0df2fe6cbe0">EVENT_SINGULARITY_DEATH</a>, 17000);</div>
+<div class="line"><span class="lineno">  294</span>        }</div>
+<div class="ttc" id="aboss__muru_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a3fb98156b69353a14adfde3422d10e65"><div class="ttname"><a href="../../d9/d3f/boss__muru_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3fb98156b69353a14adfde3422d10e65">EVENT_START_BLACK_HOLE</a></div><div class="ttdeci">@ EVENT_START_BLACK_HOLE</div><div class="ttdef"><b>Definition:</b> boss_muru.cpp:62</div></div>
+<div class="ttc" id="aboss__muru_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a3fbc4e14b94152ae108e48b4098f8dd1"><div class="ttname"><a href="../../d9/d3f/boss__muru_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3fbc4e14b94152ae108e48b4098f8dd1">EVENT_SWITCH_BLACK_HOLE_TARGET</a></div><div class="ttdeci">@ EVENT_SWITCH_BLACK_HOLE_TARGET</div><div class="ttdef"><b>Definition:</b> boss_muru.cpp:63</div></div>
+<div class="ttc" id="aboss__muru_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6ab58450219ccf79e7e831b0df2fe6cbe0"><div class="ttname"><a href="../../d9/d3f/boss__muru_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab58450219ccf79e7e831b0df2fe6cbe0">EVENT_SINGULARITY_DEATH</a></div><div class="ttdeci">@ EVENT_SINGULARITY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_muru.cpp:66</div></div>
+<div class="ttc" id="aboss__muru_8cpp_html_a5bd342133be8c2137b831460acc9298ca23774b52390332d7deb748a26be41544"><div class="ttname"><a href="../../d9/d3f/boss__muru_8cpp.html#a5bd342133be8c2137b831460acc9298ca23774b52390332d7deb748a26be41544">SPELL_BLACK_HOLE_SUMMON_VISUAL</a></div><div class="ttdeci">@ SPELL_BLACK_HOLE_SUMMON_VISUAL</div><div class="ttdef"><b>Definition:</b> boss_muru.cpp:48</div></div>
+<div class="ttc" id="aboss__muru_8cpp_html_a5bd342133be8c2137b831460acc9298ca2b6c2c704bd34e907bcfbc0ae4708f96"><div class="ttname"><a href="../../d9/d3f/boss__muru_8cpp.html#a5bd342133be8c2137b831460acc9298ca2b6c2c704bd34e907bcfbc0ae4708f96">SPELL_BLACK_HOLE_SUMMON_VISUAL2</a></div><div class="ttdeci">@ SPELL_BLACK_HOLE_SUMMON_VISUAL2</div><div class="ttdef"><b>Definition:</b> boss_muru.cpp:49</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aafa3ceeeb22492ef1ead260a33833bd3" name="aafa3ceeeb22492ef1ead260a33833bd3"></a>
@@ -472,7 +494,50 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  297</span>        {</div>
+<div class="line"><span class="lineno">  298</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  299</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">  300</span>            {</div>
+<div class="line"><span class="lineno">  301</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d3f/boss__muru_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab58450219ccf79e7e831b0df2fe6cbe0">EVENT_SINGULARITY_DEATH</a>:</div>
+<div class="line"><span class="lineno">  302</span>                    <a class="code hl_function" href="../../da/db7/class_unit.html#a413f3a85a1e57ce8c13b8870347830f5">Unit::Kill</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>);</div>
+<div class="line"><span class="lineno">  303</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  304</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d3f/boss__muru_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3fb98156b69353a14adfde3422d10e65">EVENT_START_BLACK_HOLE</a>:</div>
+<div class="line"><span class="lineno">  305</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_enumvalue" href="../../d9/d3f/boss__muru_8cpp.html#a5bd342133be8c2137b831460acc9298ca2b6c2c704bd34e907bcfbc0ae4708f96">SPELL_BLACK_HOLE_SUMMON_VISUAL2</a>);</div>
+<div class="line"><span class="lineno">  306</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d9/d3f/boss__muru_8cpp.html#a5bd342133be8c2137b831460acc9298ca10635ca1d4cf574666082abe31d4a0bd">SPELL_BLACK_HOLE_VISUAL2</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  307</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d9/d3f/boss__muru_8cpp.html#a5bd342133be8c2137b831460acc9298cae9e5a94175d13b0956f52736e2706085">SPELL_BLACK_HOLE_PASSIVE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  308</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  309</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d3f/boss__muru_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3fbc4e14b94152ae108e48b4098f8dd1">EVENT_SWITCH_BLACK_HOLE_TARGET</a>:</div>
+<div class="line"><span class="lineno">  310</span>                    {</div>
+<div class="line"><span class="lineno">  311</span>                        <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; players = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">  312</span>                        <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> itr = players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); itr != players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  313</span>                            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = itr-&gt;GetSource())</div>
+<div class="line"><span class="lineno">  314</span>                                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">GetDistance2d</a>(player) &lt; 15.0f &amp;&amp; player-&gt;GetPositionZ() &lt; 72.0f &amp;&amp; player-&gt;IsAlive() &amp;&amp; !player-&gt;HasAura(<a class="code hl_enumvalue" href="../../d9/d3f/boss__muru_8cpp.html#a5bd342133be8c2137b831460acc9298ca51d12f35581fed6247a539f5d711996f">SPELL_BLACK_HOLE_EFFECT</a>))</div>
+<div class="line"><span class="lineno">  315</span>                                {</div>
+<div class="line"><span class="lineno">  316</span>                                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(0, player-&gt;GetPositionX(), player-&gt;GetPositionY(), player-&gt;GetPositionZ(), <span class="keyword">false</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  317</span>                                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d9/d3f/boss__muru_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3fbc4e14b94152ae108e48b4098f8dd1">EVENT_SWITCH_BLACK_HOLE_TARGET</a>, 5000);</div>
+<div class="line"><span class="lineno">  318</span>                                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  319</span>                                }</div>
+<div class="line"><span class="lineno">  320</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d9/d3f/boss__muru_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3fbc4e14b94152ae108e48b4098f8dd1">EVENT_SWITCH_BLACK_HOLE_TARGET</a>, 500);</div>
+<div class="line"><span class="lineno">  321</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  322</span>                    }</div>
+<div class="line"><span class="lineno">  323</span>            }</div>
+<div class="line"><span class="lineno">  324</span>        }</div>
+<div class="ttc" id="aboss__muru_8cpp_html_a5bd342133be8c2137b831460acc9298ca10635ca1d4cf574666082abe31d4a0bd"><div class="ttname"><a href="../../d9/d3f/boss__muru_8cpp.html#a5bd342133be8c2137b831460acc9298ca10635ca1d4cf574666082abe31d4a0bd">SPELL_BLACK_HOLE_VISUAL2</a></div><div class="ttdeci">@ SPELL_BLACK_HOLE_VISUAL2</div><div class="ttdef"><b>Definition:</b> boss_muru.cpp:50</div></div>
+<div class="ttc" id="aboss__muru_8cpp_html_a5bd342133be8c2137b831460acc9298ca51d12f35581fed6247a539f5d711996f"><div class="ttname"><a href="../../d9/d3f/boss__muru_8cpp.html#a5bd342133be8c2137b831460acc9298ca51d12f35581fed6247a539f5d711996f">SPELL_BLACK_HOLE_EFFECT</a></div><div class="ttdeci">@ SPELL_BLACK_HOLE_EFFECT</div><div class="ttdef"><b>Definition:</b> boss_muru.cpp:52</div></div>
+<div class="ttc" id="aboss__muru_8cpp_html_a5bd342133be8c2137b831460acc9298cae9e5a94175d13b0956f52736e2706085"><div class="ttname"><a href="../../d9/d3f/boss__muru_8cpp.html#a5bd342133be8c2137b831460acc9298cae9e5a94175d13b0956f52736e2706085">SPELL_BLACK_HOLE_PASSIVE</a></div><div class="ttdeci">@ SPELL_BLACK_HOLE_PASSIVE</div><div class="ttdef"><b>Definition:</b> boss_muru.cpp:51</div></div>
+<div class="ttc" id="aclass_linked_list_head_1_1_iterator_html"><div class="ttname"><a href="../../db/dfe/class_linked_list_head_1_1_iterator.html">LinkedListHead::Iterator</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:139</div></div>
+<div class="ttc" id="aclass_map_html_ae37764185b1adf2c6438025e4fa9091a"><div class="ttname"><a href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">Map::GetPlayers</a></div><div class="ttdeci">PlayerList const &amp; GetPlayers() const</div><div class="ttdef"><b>Definition:</b> Map.h:484</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html">MapRefMgr</a></div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:26</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_a6774b551f0d64628e33594c7b486a872"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">MapRefMgr::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:36</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_af488c0096775085791b5fbc89e5851a0"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">MapRefMgr::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:37</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_html_a413f3a85a1e57ce8c13b8870347830f5"><div class="ttname"><a href="../../da/db7/class_unit.html#a413f3a85a1e57ce8c13b8870347830f5">Unit::Kill</a></div><div class="ttdeci">static void Kill(Unit *killer, Unit *victim, bool durabilityLoss=true, WeaponAttackType attackType=BASE_ATTACK, SpellInfo const *spellProto=nullptr, Spell const *spell=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:17752</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_aac612f06e84142d92dcfc432b5feb4ac"><div class="ttname"><a href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">Unit::RemoveAurasDueToSpell</a></div><div class="ttdeci">void RemoveAurasDueToSpell(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, uint8 reqEffMask=0, AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4823</div></div>
+<div class="ttc" id="aclass_world_object_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:517</div></div>
+<div class="ttc" id="aclass_world_object_html_a73f3c7fa817faebff6b2752ba3bb1a50"><div class="ttname"><a href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">WorldObject::GetDistance2d</a></div><div class="ttdeci">float GetDistance2d(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1263</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -491,7 +556,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/SunwellPlateau/<a class="el" href="../../d9/d3f/boss__muru_8cpp.html">boss_muru.cpp</a></li>
+<li><a class="el" href="../../">boss_muru.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -499,7 +564,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d31/classnpc__singularity.html">npc_singularity</a></li><li class="navelem"><a class="el" href="../../db/da0/structnpc__singularity_1_1npc__singularity_a_i.html">npc_singularityAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:54 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:09 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

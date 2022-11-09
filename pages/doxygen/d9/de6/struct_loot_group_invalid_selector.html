@@ -144,7 +144,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a6dcbf6789c1565b95f16de3d580118a9 inherit pub_types_struct_acore_1_1unary__function"><td class="memItemLeft" align="right" valign="top">typedef bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc9/struct_acore_1_1unary__function.html#a6dcbf6789c1565b95f16de3d580118a9">result_type</a></td></tr>
 <tr class="separator:a6dcbf6789c1565b95f16de3d580118a9 inherit pub_types_struct_acore_1_1unary__function"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abea815e8ee0d31cc64b3fd7f46033cca" name="abea815e8ee0d31cc64b3fd7f46033cca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abea815e8ee0d31cc64b3fd7f46033cca">&#9670;&#160;</a></span>LootGroupInvalidSelector()</h2>
 
@@ -178,7 +179,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   59</span>: <a class="code hl_variable" href="../../d9/de6/struct_loot_group_invalid_selector.html#a67b9d223426512af79bbf5b035c18a6d">_loot</a>(loot), <a class="code hl_variable" href="../../d9/de6/struct_loot_group_invalid_selector.html#a10e307846a0731aa812388c29c0d4bc8">_lootMode</a>(lootMode) { }</div>
+<div class="ttc" id="astruct_loot_group_invalid_selector_html_a10e307846a0731aa812388c29c0d4bc8"><div class="ttname"><a href="../../d9/de6/struct_loot_group_invalid_selector.html#a10e307846a0731aa812388c29c0d4bc8">LootGroupInvalidSelector::_lootMode</a></div><div class="ttdeci">uint16 _lootMode</div><div class="ttdef"><b>Definition:</b> LootMgr.cpp:89</div></div>
+<div class="ttc" id="astruct_loot_group_invalid_selector_html_a67b9d223426512af79bbf5b035c18a6d"><div class="ttname"><a href="../../d9/de6/struct_loot_group_invalid_selector.html#a67b9d223426512af79bbf5b035c18a6d">LootGroupInvalidSelector::_loot</a></div><div class="ttdeci">Loot const  &amp; _loot</div><div class="ttdef"><b>Definition:</b> LootMgr.cpp:88</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -205,7 +209,40 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   62</span>    {</div>
+<div class="line"><span class="lineno">   63</span>        <span class="keywordflow">if</span> (!(item-&gt;<a class="code hl_variable" href="../../d5/d0b/struct_loot_store_item.html#ab5f7b258bd5cfe4263acd9e0b253b166">lootmode</a> &amp; <a class="code hl_variable" href="../../d9/de6/struct_loot_group_invalid_selector.html#a10e307846a0731aa812388c29c0d4bc8">_lootMode</a>))</div>
+<div class="line"><span class="lineno">   64</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   65</span> </div>
+<div class="line"><span class="lineno">   66</span>        <span class="keywordflow">if</span> (!item-&gt;<a class="code hl_variable" href="../../d5/d0b/struct_loot_store_item.html#a374a94e34095a1beb38abca43069d0b6">reference</a>)</div>
+<div class="line"><span class="lineno">   67</span>        {</div>
+<div class="line"><span class="lineno">   68</span>            <a class="code hl_struct" href="../../da/d61/struct_item_template.html">ItemTemplate</a> <span class="keyword">const</span>* _proto = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(item-&gt;<a class="code hl_variable" href="../../d5/d0b/struct_loot_store_item.html#a5df1d4fde5f3358470bd16f7ad9154c1">itemid</a>);</div>
+<div class="line"><span class="lineno">   69</span>            <span class="keywordflow">if</span> (!_proto)</div>
+<div class="line"><span class="lineno">   70</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> foundDuplicates = 0;</div>
+<div class="line"><span class="lineno">   73</span>            <span class="keywordflow">for</span> (std::vector&lt;LootItem&gt;::const_iterator itr = <a class="code hl_variable" href="../../d9/de6/struct_loot_group_invalid_selector.html#a67b9d223426512af79bbf5b035c18a6d">_loot</a>.<a class="code hl_variable" href="../../df/d9e/struct_loot.html#ab9d61ed7d2aacadda6b4a648ab8c41b3">items</a>.begin(); itr != <a class="code hl_variable" href="../../d9/de6/struct_loot_group_invalid_selector.html#a67b9d223426512af79bbf5b035c18a6d">_loot</a>.<a class="code hl_variable" href="../../df/d9e/struct_loot.html#ab9d61ed7d2aacadda6b4a648ab8c41b3">items</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">   74</span>                <span class="keywordflow">if</span> (itr-&gt;itemid == item-&gt;<a class="code hl_variable" href="../../d5/d0b/struct_loot_store_item.html#a5df1d4fde5f3358470bd16f7ad9154c1">itemid</a>)</div>
+<div class="line"><span class="lineno">   75</span>                {</div>
+<div class="line"><span class="lineno">   76</span>                    ++foundDuplicates;</div>
+<div class="line"><span class="lineno">   77</span>                    <span class="keywordflow">if</span> (_proto-&gt;<a class="code hl_variable" href="../../da/d61/struct_item_template.html#ac47429e999906b62258c7ade930efcbf">InventoryType</a> == 0 &amp;&amp; foundDuplicates == 3 &amp;&amp; _proto-&gt;<a class="code hl_variable" href="../../da/d61/struct_item_template.html#af8e238c0d7bc950b984de7ed656e5bae">ItemId</a> != 47242 <span class="comment">/*Trophy of the Crusade*/</span>) <span class="comment">// Non-equippable items are limited to 3 drops</span></div>
+<div class="line"><span class="lineno">   78</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   79</span>                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (_proto-&gt;<a class="code hl_variable" href="../../da/d61/struct_item_template.html#ac47429e999906b62258c7ade930efcbf">InventoryType</a> != 0 &amp;&amp; foundDuplicates == 1) <span class="comment">// Equippable item are limited to 1 drop</span></div>
+<div class="line"><span class="lineno">   80</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   81</span>                }</div>
+<div class="line"><span class="lineno">   82</span>        }</div>
+<div class="line"><span class="lineno">   83</span> </div>
+<div class="line"><span class="lineno">   84</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   85</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1606</div></div>
+<div class="ttc" id="astruct_item_template_html"><div class="ttname"><a href="../../da/d61/struct_item_template.html">ItemTemplate</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:628</div></div>
+<div class="ttc" id="astruct_item_template_html_ac47429e999906b62258c7ade930efcbf"><div class="ttname"><a href="../../da/d61/struct_item_template.html#ac47429e999906b62258c7ade930efcbf">ItemTemplate::InventoryType</a></div><div class="ttdeci">uint32 InventoryType</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:641</div></div>
+<div class="ttc" id="astruct_item_template_html_af8e238c0d7bc950b984de7ed656e5bae"><div class="ttname"><a href="../../da/d61/struct_item_template.html#af8e238c0d7bc950b984de7ed656e5bae">ItemTemplate::ItemId</a></div><div class="ttdeci">uint32 ItemId</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:629</div></div>
+<div class="ttc" id="astruct_loot_html_ab9d61ed7d2aacadda6b4a648ab8c41b3"><div class="ttname"><a href="../../df/d9e/struct_loot.html#ab9d61ed7d2aacadda6b4a648ab8c41b3">Loot::items</a></div><div class="ttdeci">std::vector&lt; LootItem &gt; items</div><div class="ttdef"><b>Definition:</b> LootMgr.h:320</div></div>
+<div class="ttc" id="astruct_loot_store_item_html_a374a94e34095a1beb38abca43069d0b6"><div class="ttname"><a href="../../d5/d0b/struct_loot_store_item.html#a374a94e34095a1beb38abca43069d0b6">LootStoreItem::reference</a></div><div class="ttdeci">int32 reference</div><div class="ttdef"><b>Definition:</b> LootMgr.h:131</div></div>
+<div class="ttc" id="astruct_loot_store_item_html_a5df1d4fde5f3358470bd16f7ad9154c1"><div class="ttname"><a href="../../d5/d0b/struct_loot_store_item.html#a5df1d4fde5f3358470bd16f7ad9154c1">LootStoreItem::itemid</a></div><div class="ttdeci">uint32 itemid</div><div class="ttdef"><b>Definition:</b> LootMgr.h:130</div></div>
+<div class="ttc" id="astruct_loot_store_item_html_ab5f7b258bd5cfe4263acd9e0b253b166"><div class="ttname"><a href="../../d5/d0b/struct_loot_store_item.html#ab5f7b258bd5cfe4263acd9e0b253b166">LootStoreItem::lootmode</a></div><div class="ttdeci">uint16 lootmode</div><div class="ttdef"><b>Definition:</b> LootMgr.h:134</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -254,7 +291,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Loot/<a class="el" href="../../d1/dbe/_loot_mgr_8cpp.html">LootMgr.cpp</a></li>
+<li><a class="el" href="../../">LootMgr.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -262,7 +299,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/de6/struct_loot_group_invalid_selector.html">LootGroupInvalidSelector</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

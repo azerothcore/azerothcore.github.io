@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae206ef80cf9e2c68a627107c06c1cdfe" name="ae206ef80cf9e2c68a627107c06c1cdfe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae206ef80cf9e2c68a627107c06c1cdfe">&#9670;&#160;</a></span>HandleScript()</h2>
 
@@ -316,7 +317,17 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  224</span>        {</div>
+<div class="line"><span class="lineno">  225</span>            <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">PreventHitDefaultEffect</a>(effIndex);</div>
+<div class="line"><span class="lineno">  226</span>            <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>(), <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a6ba5ab05dcd8acb861a8037866037e30">GetEffectValue</a>()), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  227</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_spell_script_html_a56ed3ad5cf4ebc848946a9d8f1c35d5f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">SpellScript::PreventHitDefaultEffect</a></div><div class="ttdeci">void PreventHitDefaultEffect(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:590</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6ba5ab05dcd8acb861a8037866037e30"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6ba5ab05dcd8acb861a8037866037e30">SpellScript::GetEffectValue</a></div><div class="ttdeci">int32 GetEffectValue() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:600</div></div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a091e035d5d15822538d49633bb0f6786" name="a091e035d5d15822538d49633bb0f6786"></a>
@@ -369,11 +380,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  230</span>        {</div>
+<div class="line"><span class="lineno">  231</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d1/da5/classspell__saviana__conflagration__throwback_1_1spell__saviana__conflagration__throwback___spell_script.html#ae206ef80cf9e2c68a627107c06c1cdfe">spell_saviana_conflagration_throwback_SpellScript::HandleScript</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a>);</div>
+<div class="line"><span class="lineno">  232</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a></div><div class="ttdeci">@ SPELL_EFFECT_SCRIPT_EFFECT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:827</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__saviana__conflagration__throwback_1_1spell__saviana__conflagration__throwback___spell_script_html_ae206ef80cf9e2c68a627107c06c1cdfe"><div class="ttname"><a href="../../d1/da5/classspell__saviana__conflagration__throwback_1_1spell__saviana__conflagration__throwback___spell_script.html#ae206ef80cf9e2c68a627107c06c1cdfe">spell_saviana_conflagration_throwback::spell_saviana_conflagration_throwback_SpellScript::HandleScript</a></div><div class="ttdeci">void HandleScript(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> boss_saviana_ragefire.cpp:223</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/<a class="el" href="../../dc/db6/boss__saviana__ragefire_8cpp.html">boss_saviana_ragefire.cpp</a></li>
+<li><a class="el" href="../../">boss_saviana_ragefire.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -381,7 +400,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d5d/classspell__saviana__conflagration__throwback.html">spell_saviana_conflagration_throwback</a></li><li class="navelem"><a class="el" href="../../d1/da5/classspell__saviana__conflagration__throwback_1_1spell__saviana__conflagration__throwback___spell_script.html">spell_saviana_conflagration_throwback_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:24 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d3/def/class_acore_1_1_friendly_c_ced_
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">GridNotifiers.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -129,7 +129,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a49e79f3aea0c7e8c321c9f297b71a9b2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/def/class_acore_1_1_friendly_c_ced_in_range.html#a49e79f3aea0c7e8c321c9f297b71a9b2">i_range</a></td></tr>
 <tr class="separator:a49e79f3aea0c7e8c321c9f297b71a9b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae8dcff3f285f208b0db8aa3efed202a1" name="ae8dcff3f285f208b0db8aa3efed202a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae8dcff3f285f208b0db8aa3efed202a1">&#9670;&#160;</a></span>FriendlyCCedInRange()</h2>
 
@@ -163,7 +164,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  817</span>: <a class="code hl_variable" href="../../d3/def/class_acore_1_1_friendly_c_ced_in_range.html#a73d3e29bbdc7fd4aa162be3cb7ecbe08">i_obj</a>(obj), <a class="code hl_variable" href="../../d3/def/class_acore_1_1_friendly_c_ced_in_range.html#a49e79f3aea0c7e8c321c9f297b71a9b2">i_range</a>(range) {}</div>
+<div class="ttc" id="aclass_acore_1_1_friendly_c_ced_in_range_html_a49e79f3aea0c7e8c321c9f297b71a9b2"><div class="ttname"><a href="../../d3/def/class_acore_1_1_friendly_c_ced_in_range.html#a49e79f3aea0c7e8c321c9f297b71a9b2">Acore::FriendlyCCedInRange::i_range</a></div><div class="ttdeci">float i_range</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:829</div></div>
+<div class="ttc" id="aclass_acore_1_1_friendly_c_ced_in_range_html_a73d3e29bbdc7fd4aa162be3cb7ecbe08"><div class="ttname"><a href="../../d3/def/class_acore_1_1_friendly_c_ced_in_range.html#a73d3e29bbdc7fd4aa162be3cb7ecbe08">Acore::FriendlyCCedInRange::i_obj</a></div><div class="ttdeci">Unit const  * i_obj</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:828</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -190,7 +194,25 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  819</span>        {</div>
+<div class="line"><span class="lineno">  820</span>            <span class="keywordflow">if</span> (u-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() &amp;&amp; u-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">IsInCombat</a>() &amp;&amp; !<a class="code hl_variable" href="../../d3/def/class_acore_1_1_friendly_c_ced_in_range.html#a73d3e29bbdc7fd4aa162be3cb7ecbe08">i_obj</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae8d112bd8c9cc28d1186e773945291b6">IsHostileTo</a>(u) &amp;&amp; <a class="code hl_variable" href="../../d3/def/class_acore_1_1_friendly_c_ced_in_range.html#a73d3e29bbdc7fd4aa162be3cb7ecbe08">i_obj</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(u, <a class="code hl_variable" href="../../d3/def/class_acore_1_1_friendly_c_ced_in_range.html#a49e79f3aea0c7e8c321c9f297b71a9b2">i_range</a>) &amp;&amp;</div>
+<div class="line"><span class="lineno">  821</span>                    (u-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a800adc27562611bcf1db8b79aec153f1">isFeared</a>() || u-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0679821cba7b3361497706bc348d8d32">IsCharmed</a>() || u-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a35a2361f5a1b719e6032f564c4f9028b">isFrozen</a>() || u-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106">UNIT_STATE_STUNNED</a>) || u-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a3d7431ccd5efc9f24766e69bf19845c0">UNIT_STATE_CONFUSED</a>)))</div>
+<div class="line"><span class="lineno">  822</span>            {</div>
+<div class="line"><span class="lineno">  823</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  824</span>            }</div>
+<div class="line"><span class="lineno">  825</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  826</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544a3d7431ccd5efc9f24766e69bf19845c0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a3d7431ccd5efc9f24766e69bf19845c0">UNIT_STATE_CONFUSED</a></div><div class="ttdeci">@ UNIT_STATE_CONFUSED</div><div class="ttdef"><b>Definition:</b> Unit.h:336</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106">UNIT_STATE_STUNNED</a></div><div class="ttdeci">@ UNIT_STATE_STUNNED</div><div class="ttdef"><b>Definition:</b> Unit.h:328</div></div>
+<div class="ttc" id="aclass_unit_html_a0679821cba7b3361497706bc348d8d32"><div class="ttname"><a href="../../da/db7/class_unit.html#a0679821cba7b3361497706bc348d8d32">Unit::IsCharmed</a></div><div class="ttdeci">bool IsCharmed() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1868</div></div>
+<div class="ttc" id="aclass_unit_html_a35a2361f5a1b719e6032f564c4f9028b"><div class="ttname"><a href="../../da/db7/class_unit.html#a35a2361f5a1b719e6032f564c4f9028b">Unit::isFrozen</a></div><div class="ttdeci">bool isFrozen() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:15927</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aclass_unit_html_a800adc27562611bcf1db8b79aec153f1"><div class="ttname"><a href="../../da/db7/class_unit.html#a800adc27562611bcf1db8b79aec153f1">Unit::isFeared</a></div><div class="ttdeci">bool isFeared() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1705</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="aclass_unit_html_ae8d112bd8c9cc28d1186e773945291b6"><div class="ttname"><a href="../../da/db7/class_unit.html#ae8d112bd8c9cc28d1186e773945291b6">Unit::IsHostileTo</a></div><div class="ttdeci">bool IsHostileTo(Unit const *unit) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10197</div></div>
+<div class="ttc" id="aclass_unit_html_af5e75d013dfa8a8b888d7714992e3f2a"><div class="ttname"><a href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">Unit::IsInCombat</a></div><div class="ttdeci">bool IsInCombat() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1685</div></div>
+<div class="ttc" id="aclass_world_object_html_ab73407bcdf13a30519a953d24773ed02"><div class="ttname"><a href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">WorldObject::IsWithinDistInMap</a></div><div class="ttdeci">bool IsWithinDistInMap(WorldObject const *obj, float dist2compare, bool is3D=true, bool useBoundingRadius=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1321</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -239,7 +261,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/Notifiers/<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a></li>
+<li><a class="el" href="../../">GridNotifiers.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -247,7 +269,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../d3/def/class_acore_1_1_friendly_c_ced_in_range.html">FriendlyCCedInRange</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -192,7 +192,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a22a51a980875ccae8a285d7804967747 inherit pro_attribs_class_game_object_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dd1/class_game_object.html">GameObject</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a></td></tr>
 <tr class="separator:a22a51a980875ccae8a285d7804967747 inherit pro_attribs_class_game_object_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4e667ad9e572e93c045ae01f63bea648" name="a4e667ad9e572e93c045ae01f63bea648"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e667ad9e572e93c045ae01f63bea648">&#9670;&#160;</a></span>go_direbrew_mole_machineAI()</h2>
 
@@ -216,7 +217,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1853</span>: <a class="code hl_class" href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a>(go) { }</div>
+<div class="ttc" id="aclass_game_object_a_i_html"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a></div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:33</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -244,7 +247,36 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/db8/class_game_object_a_i.html#ae2f0f24cae721a75e4df8e7aa1c75b7c">GameObjectAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1856</span>        {</div>
+<div class="line"><span class="lineno"> 1857</span>            <a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a643b94ed112dc4e4fd2e335ecfbfe92d">SetLootState</a>(<a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07a8708de424ecaae41eb7271d399f1d5fc">GO_READY</a>);</div>
+<div class="line"><span class="lineno"> 1858</span> </div>
+<div class="line"><span class="lineno"> 1859</span>            <a class="code hl_variable" href="../../da/d67/structgo__direbrew__mole__machine_1_1go__direbrew__mole__machine_a_i.html#a5960ff83f21cf5964f422e3a7b297f22">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(<a class="code hl_typedef" href="../../da/dfd/_duration_8h.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>(1), [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> <span class="comment">/*context*/</span>)</div>
+<div class="line"><span class="lineno"> 1860</span>            {</div>
+<div class="line"><span class="lineno"> 1861</span>                <a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a12000cdd8344e082611a6dafc6d283fa">UseDoorOrButton</a>();</div>
+<div class="line"><span class="lineno"> 1862</span>                <a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#aca9173ae7fbd46664919d3d1caef4770">CastSpell</a>(<span class="keyword">nullptr</span>, <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0a28639d4e8aa2f3a174fd993670d495f7">SPELL_MOLE_MACHINE_EMERGE</a>);</div>
+<div class="line"><span class="lineno"> 1863</span>            })</div>
+<div class="line"><span class="lineno"> 1864</span>            .Schedule(<a class="code hl_typedef" href="../../da/dfd/_duration_8h.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>(4), [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> <span class="comment">/*context*/</span>)</div>
+<div class="line"><span class="lineno"> 1865</span>            {</div>
+<div class="line"><span class="lineno"> 1866</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* trap = <a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a711ba7caffb564c6d26e3460f80047cb">GetLinkedTrap</a>())</div>
+<div class="line"><span class="lineno"> 1867</span>                {</div>
+<div class="line"><span class="lineno"> 1868</span>                    trap-&gt;UseDoorOrButton();</div>
+<div class="line"><span class="lineno"> 1869</span>                    trap-&gt;SetLootState(GO_READY);</div>
+<div class="line"><span class="lineno"> 1870</span>                }</div>
+<div class="line"><span class="lineno"> 1871</span>            });</div>
+<div class="line"><span class="lineno"> 1872</span>        }</div>
+<div class="ttc" id="a_duration_8h_html_a3cd82f1c195a0b935b4d66b02a41acd8"><div class="ttname"><a href="../../da/dfd/_duration_8h.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a></div><div class="ttdeci">std::chrono::seconds Seconds</div><div class="ttdoc">Seconds shorthand typedef.</div><div class="ttdef"><b>Definition:</b> Duration.h:30</div></div>
+<div class="ttc" id="a_game_object_8h_html_a08733f20cea1f77cc9f1a549f8ce9f07a8708de424ecaae41eb7271d399f1d5fc"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07a8708de424ecaae41eb7271d399f1d5fc">GO_READY</a></div><div class="ttdeci">@ GO_READY</div><div class="ttdef"><b>Definition:</b> GameObject.h:801</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_acf86a0bbb7e655957dd212f3aea686d0a28639d4e8aa2f3a174fd993670d495f7"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0a28639d4e8aa2f3a174fd993670d495f7">SPELL_MOLE_MACHINE_EMERGE</a></div><div class="ttdeci">@ SPELL_MOLE_MACHINE_EMERGE</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1463</div></div>
+<div class="ttc" id="aclass_game_object_a_i_html_a22a51a980875ccae8a285d7804967747"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">GameObjectAI::me</a></div><div class="ttdeci">GameObject *const me</div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:35</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_game_object_html_a12000cdd8344e082611a6dafc6d283fa"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a12000cdd8344e082611a6dafc6d283fa">GameObject::UseDoorOrButton</a></div><div class="ttdeci">void UseDoorOrButton(uint32 time_to_restore=0, bool alternative=false, Unit *user=nullptr)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:1400</div></div>
+<div class="ttc" id="aclass_game_object_html_a643b94ed112dc4e4fd2e335ecfbfe92d"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a643b94ed112dc4e4fd2e335ecfbfe92d">GameObject::SetLootState</a></div><div class="ttdeci">void SetLootState(LootState s, Unit *unit=nullptr)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:2413</div></div>
+<div class="ttc" id="aclass_game_object_html_a711ba7caffb564c6d26e3460f80047cb"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a711ba7caffb564c6d26e3460f80047cb">GameObject::GetLinkedTrap</a></div><div class="ttdeci">GameObject * GetLinkedTrap()</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:2754</div></div>
+<div class="ttc" id="aclass_game_object_html_aca9173ae7fbd46664919d3d1caef4770"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#aca9173ae7fbd46664919d3d1caef4770">GameObject::CastSpell</a></div><div class="ttdeci">void CastSpell(Unit *target, uint32 spell)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:2054</div></div>
+<div class="ttc" id="aclass_task_context_html"><div class="ttname"><a href="../../d2/dd9/class_task_context.html">TaskContext</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a0e0579d2a2397de5a79c756d5e59a830"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">TaskScheduler::Schedule</a></div><div class="ttdeci">TaskScheduler &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:217</div></div>
+<div class="ttc" id="astructgo__direbrew__mole__machine_1_1go__direbrew__mole__machine_a_i_html_a5960ff83f21cf5964f422e3a7b297f22"><div class="ttname"><a href="../../da/d67/structgo__direbrew__mole__machine_1_1go__direbrew__mole__machine_a_i.html#a5960ff83f21cf5964f422e3a7b297f22">go_direbrew_mole_machine::go_direbrew_mole_machineAI::_scheduler</a></div><div class="ttdeci">TaskScheduler _scheduler</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1880</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2eaa8a0ad0907e4aa497a7e1c3a31b29" name="a2eaa8a0ad0907e4aa497a7e1c3a31b29"></a>
@@ -272,7 +304,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/db8/class_game_object_a_i.html#aa9b59a4ec7d95a0702689fad902d956a">GameObjectAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1875</span>        {</div>
+<div class="line"><span class="lineno"> 1876</span>            <a class="code hl_variable" href="../../da/d67/structgo__direbrew__mole__machine_1_1go__direbrew__mole__machine_a_i.html#a5960ff83f21cf5964f422e3a7b297f22">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">Update</a>(diff);</div>
+<div class="line"><span class="lineno"> 1877</span>        }</div>
+<div class="ttc" id="aclass_task_scheduler_html_a35c0891c7aded13c6ae7ecd2e6d480a9"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">TaskScheduler::Update</a></div><div class="ttdeci">TaskScheduler &amp; Update(success_t const &amp;callback=EmptyCallback)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:15</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -299,7 +335,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../dc/ddf/brewfest_8cpp.html">brewfest.cpp</a></li>
+<li><a class="el" href="../../">brewfest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -307,7 +343,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/df1/classgo__direbrew__mole__machine.html">go_direbrew_mole_machine</a></li><li class="navelem"><a class="el" href="../../da/d67/structgo__direbrew__mole__machine_1_1go__direbrew__mole__machine_a_i.html">go_direbrew_mole_machineAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

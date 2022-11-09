@@ -301,7 +301,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d83/class_instance_script.html#a5ab9bd10ed8736a816bfaf12c39bde59">GetBossSaveData</a> ()</td></tr>
 <tr class="separator:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a86c5e55fe8f7e40d041abbcdb2d23797" name="a86c5e55fe8f7e40d041abbcdb2d23797"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a86c5e55fe8f7e40d041abbcdb2d23797">&#9670;&#160;</a></span>instance_the_botanica_InstanceMapScript()</h2>
 
@@ -325,7 +326,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   30</span>                                                          : <a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>(map)</div>
+<div class="line"><span class="lineno">   31</span>        {</div>
+<div class="line"><span class="lineno">   32</span>            <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a046e1b0124a2a0df9bc9557133365343">SetBossNumber</a>(<a class="code hl_define" href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a>);</div>
+<div class="line"><span class="lineno">   33</span>        }</div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_instance_script_html_a046e1b0124a2a0df9bc9557133365343"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a046e1b0124a2a0df9bc9557133365343">InstanceScript::SetBossNumber</a></div><div class="ttdeci">void SetBossNumber(uint32 number)</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:258</div></div>
+<div class="ttc" id="aviolet__hold_8h_html_ac6cdc058851f958e83d8104f6ed3efe2"><div class="ttname"><a href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a></div><div class="ttdeci">#define MAX_ENCOUNTER</div><div class="ttdef"><b>Definition:</b> violet_hold.h:21</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -353,7 +361,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#aa0e2d9bf4d757aad09d4773259ad8583">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   44</span>        {</div>
+<div class="line"><span class="lineno">   45</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a65ed3183971093dcebed99d1ec6d6d63">OUT_SAVE_INST_DATA</a>;</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>            std::ostringstream saveStream;</div>
+<div class="line"><span class="lineno">   48</span>            saveStream &lt;&lt; <span class="stringliteral">&quot;B O &quot;</span> &lt;&lt; <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a5ab9bd10ed8736a816bfaf12c39bde59">GetBossSaveData</a>();</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a3a93295e3500f757163145c03e90db3d">OUT_SAVE_INST_DATA_COMPLETE</a>;</div>
+<div class="line"><span class="lineno">   51</span>            <span class="keywordflow">return</span> saveStream.str();</div>
+<div class="line"><span class="lineno">   52</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a3a93295e3500f757163145c03e90db3d"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a3a93295e3500f757163145c03e90db3d">OUT_SAVE_INST_DATA_COMPLETE</a></div><div class="ttdeci">#define OUT_SAVE_INST_DATA_COMPLETE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:28</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a65ed3183971093dcebed99d1ec6d6d63"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a65ed3183971093dcebed99d1ec6d6d63">OUT_SAVE_INST_DATA</a></div><div class="ttdeci">#define OUT_SAVE_INST_DATA</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:27</div></div>
+<div class="ttc" id="aclass_instance_script_html_a5ab9bd10ed8736a816bfaf12c39bde59"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a5ab9bd10ed8736a816bfaf12c39bde59">InstanceScript::GetBossSaveData</a></div><div class="ttdeci">std::string GetBossSaveData()</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:357</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a792dd60daee400b54b4de62aa37b3844" name="a792dd60daee400b54b4de62aa37b3844"></a>
@@ -381,7 +401,46 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ad8be0d1c384b505f5b3fa1ab55eb1f61">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   55</span>        {</div>
+<div class="line"><span class="lineno">   56</span>            <span class="keywordflow">if</span> (!str)</div>
+<div class="line"><span class="lineno">   57</span>            {</div>
+<div class="line"><span class="lineno">   58</span>                <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a>;</div>
+<div class="line"><span class="lineno">   59</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   60</span>            }</div>
+<div class="line"><span class="lineno">   61</span> </div>
+<div class="line"><span class="lineno">   62</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#aafbf0073420e9a897ec0f243f4793a0f">OUT_LOAD_INST_DATA</a>(str);</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>            <span class="keywordtype">char</span> dataHead1, dataHead2;</div>
+<div class="line"><span class="lineno">   65</span> </div>
+<div class="line"><span class="lineno">   66</span>            std::istringstream loadStream(str);</div>
+<div class="line"><span class="lineno">   67</span>            loadStream &gt;&gt; dataHead1 &gt;&gt; dataHead2;</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>            <span class="keywordflow">if</span> (dataHead1 == <span class="charliteral">&#39;B&#39;</span> &amp;&amp; dataHead2 == <span class="charliteral">&#39;O&#39;</span>)</div>
+<div class="line"><span class="lineno">   70</span>            {</div>
+<div class="line"><span class="lineno">   71</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_define" href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a>; ++i)</div>
+<div class="line"><span class="lineno">   72</span>                {</div>
+<div class="line"><span class="lineno">   73</span>                    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> tmpState;</div>
+<div class="line"><span class="lineno">   74</span>                    loadStream &gt;&gt; tmpState;</div>
+<div class="line"><span class="lineno">   75</span>                    <span class="keywordflow">if</span> (tmpState == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a> || tmpState &gt; <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694aaa5259d84d06214a7b0503d636790465">SPECIAL</a>)</div>
+<div class="line"><span class="lineno">   76</span>                        tmpState = <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>;</div>
+<div class="line"><span class="lineno">   77</span>                    <a class="code hl_function" href="../../d3/d0f/structinstance__the__botanica_1_1instance__the__botanica___instance_map_script.html#a0a5b91547b2fa633c08c87c2546eb351">SetBossState</a>(i, <a class="code hl_enumeration" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694">EncounterState</a>(tmpState));</div>
+<div class="line"><span class="lineno">   78</span>                }</div>
+<div class="line"><span class="lineno">   79</span>            }</div>
+<div class="line"><span class="lineno">   80</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   81</span>                <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a>;</div>
+<div class="line"><span class="lineno">   82</span> </div>
+<div class="line"><span class="lineno">   83</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a490e19560f068912b0e3dbd61c689b44">OUT_LOAD_INST_DATA_COMPLETE</a>;</div>
+<div class="line"><span class="lineno">   84</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a141fd6fe34ebbd5c3ad507db42f41b4a"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA_FAIL</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:31</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694">EncounterState</a></div><div class="ttdeci">EncounterState</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:55</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694aaa5259d84d06214a7b0503d636790465"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694aaa5259d84d06214a7b0503d636790465">SPECIAL</a></div><div class="ttdeci">@ SPECIAL</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:60</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a></div><div class="ttdeci">@ NOT_STARTED</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:56</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a490e19560f068912b0e3dbd61c689b44"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a490e19560f068912b0e3dbd61c689b44">OUT_LOAD_INST_DATA_COMPLETE</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA_COMPLETE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:30</div></div>
+<div class="ttc" id="a_instance_script_8h_html_aafbf0073420e9a897ec0f243f4793a0f"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#aafbf0073420e9a897ec0f243f4793a0f">OUT_LOAD_INST_DATA</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA(a)</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:29</div></div>
+<div class="ttc" id="astructinstance__the__botanica_1_1instance__the__botanica___instance_map_script_html_a0a5b91547b2fa633c08c87c2546eb351"><div class="ttname"><a href="../../d3/d0f/structinstance__the__botanica_1_1instance__the__botanica___instance_map_script.html#a0a5b91547b2fa633c08c87c2546eb351">instance_the_botanica::instance_the_botanica_InstanceMapScript::SetBossState</a></div><div class="ttdeci">bool SetBossState(uint32 type, EncounterState state) override</div><div class="ttdef"><b>Definition:</b> instance_the_botanica.cpp:35</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0a5b91547b2fa633c08c87c2546eb351" name="a0a5b91547b2fa633c08c87c2546eb351"></a>
@@ -419,11 +478,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a04fbee37682f3a3e08a9ad726eb0223c">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   36</span>        {</div>
+<div class="line"><span class="lineno">   37</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a04fbee37682f3a3e08a9ad726eb0223c">InstanceScript::SetBossState</a>(type, state))</div>
+<div class="line"><span class="lineno">   38</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   41</span>        }</div>
+<div class="ttc" id="aclass_instance_script_html_a04fbee37682f3a3e08a9ad726eb0223c"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a04fbee37682f3a3e08a9ad726eb0223c">InstanceScript::SetBossState</a></div><div class="ttdeci">virtual bool SetBossState(uint32 id, EncounterState state)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:305</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/TempestKeep/botanica/<a class="el" href="../../d0/d06/instance__the__botanica_8cpp.html">instance_the_botanica.cpp</a></li>
+<li><a class="el" href="../../">instance_the_botanica.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -431,7 +497,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d92/classinstance__the__botanica.html">instance_the_botanica</a></li><li class="navelem"><a class="el" href="../../d3/d0f/structinstance__the__botanica_1_1instance__the__botanica___instance_map_script.html">instance_the_botanica_InstanceMapScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

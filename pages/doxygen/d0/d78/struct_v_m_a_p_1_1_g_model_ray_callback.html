@@ -129,7 +129,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad8861bd8f8c15ff9955c62f5cb1e13bf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d78/struct_v_m_a_p_1_1_g_model_ray_callback.html#ad8861bd8f8c15ff9955c62f5cb1e13bf">hit</a></td></tr>
 <tr class="separator:ad8861bd8f8c15ff9955c62f5cb1e13bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a39bc53ae3bf18800ea215a5a54568606" name="a39bc53ae3bf18800ea215a5a54568606"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39bc53ae3bf18800ea215a5a54568606">&#9670;&#160;</a></span>GModelRayCallback()</h2>
 
@@ -163,7 +164,12 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  429</span>                                                                                              :</div>
+<div class="line"><span class="lineno">  430</span>            <a class="code hl_variable" href="../../d0/d78/struct_v_m_a_p_1_1_g_model_ray_callback.html#af80815b123c6611f38e3d5b41e501546">vertices</a>(vert.begin()), <a class="code hl_variable" href="../../d0/d78/struct_v_m_a_p_1_1_g_model_ray_callback.html#a09ef515a1b16d184071e708ed9245b3d">triangles</a>(tris.begin()), <a class="code hl_variable" href="../../d0/d78/struct_v_m_a_p_1_1_g_model_ray_callback.html#ad8861bd8f8c15ff9955c62f5cb1e13bf">hit</a>(<span class="keyword">false</span>) { }</div>
+<div class="ttc" id="astruct_v_m_a_p_1_1_g_model_ray_callback_html_a09ef515a1b16d184071e708ed9245b3d"><div class="ttname"><a href="../../d0/d78/struct_v_m_a_p_1_1_g_model_ray_callback.html#a09ef515a1b16d184071e708ed9245b3d">VMAP::GModelRayCallback::triangles</a></div><div class="ttdeci">std::vector&lt; MeshTriangle &gt;::const_iterator triangles</div><div class="ttdef"><b>Definition:</b> WorldModel.cpp:438</div></div>
+<div class="ttc" id="astruct_v_m_a_p_1_1_g_model_ray_callback_html_ad8861bd8f8c15ff9955c62f5cb1e13bf"><div class="ttname"><a href="../../d0/d78/struct_v_m_a_p_1_1_g_model_ray_callback.html#ad8861bd8f8c15ff9955c62f5cb1e13bf">VMAP::GModelRayCallback::hit</a></div><div class="ttdeci">bool hit</div><div class="ttdef"><b>Definition:</b> WorldModel.cpp:439</div></div>
+<div class="ttc" id="astruct_v_m_a_p_1_1_g_model_ray_callback_html_af80815b123c6611f38e3d5b41e501546"><div class="ttname"><a href="../../d0/d78/struct_v_m_a_p_1_1_g_model_ray_callback.html#af80815b123c6611f38e3d5b41e501546">VMAP::GModelRayCallback::vertices</a></div><div class="ttdeci">std::vector&lt; Vector3 &gt;::const_iterator vertices</div><div class="ttdef"><b>Definition:</b> WorldModel.cpp:437</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -212,7 +218,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  432</span>        {</div>
+<div class="line"><span class="lineno">  433</span>            <span class="keywordtype">bool</span> result = <a class="code hl_function" href="../../d6/d39/namespace_v_m_a_p.html#a4fa75e5ca5211394c63abc7ff28eb741">IntersectTriangle</a>(<a class="code hl_variable" href="../../d0/d78/struct_v_m_a_p_1_1_g_model_ray_callback.html#a09ef515a1b16d184071e708ed9245b3d">triangles</a>[entry], <a class="code hl_variable" href="../../d0/d78/struct_v_m_a_p_1_1_g_model_ray_callback.html#af80815b123c6611f38e3d5b41e501546">vertices</a>, ray, distance);</div>
+<div class="line"><span class="lineno">  434</span>            <span class="keywordflow">if</span> (result) { <a class="code hl_variable" href="../../d0/d78/struct_v_m_a_p_1_1_g_model_ray_callback.html#ad8861bd8f8c15ff9955c62f5cb1e13bf">hit</a> = <span class="keyword">true</span>; }</div>
+<div class="line"><span class="lineno">  435</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d78/struct_v_m_a_p_1_1_g_model_ray_callback.html#ad8861bd8f8c15ff9955c62f5cb1e13bf">hit</a>;</div>
+<div class="line"><span class="lineno">  436</span>        }</div>
+<div class="ttc" id="anamespace_v_m_a_p_html_a4fa75e5ca5211394c63abc7ff28eb741"><div class="ttname"><a href="../../d6/d39/namespace_v_m_a_p.html#a4fa75e5ca5211394c63abc7ff28eb741">VMAP::IntersectTriangle</a></div><div class="ttdeci">bool IntersectTriangle(const MeshTriangle &amp;tri, std::vector&lt; Vector3 &gt;::const_iterator points, const G3D::Ray &amp;ray, float &amp;distance)</div><div class="ttdef"><b>Definition:</b> WorldModel.cpp:34</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -259,7 +271,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Collision/Models/<a class="el" href="../../dd/d51/_world_model_8cpp.html">WorldModel.cpp</a></li>
+<li><a class="el" href="../../">WorldModel.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -267,7 +279,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d39/namespace_v_m_a_p.html">VMAP</a></li><li class="navelem"><a class="el" href="../../d0/d78/struct_v_m_a_p_1_1_g_model_ray_callback.html">GModelRayCallback</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

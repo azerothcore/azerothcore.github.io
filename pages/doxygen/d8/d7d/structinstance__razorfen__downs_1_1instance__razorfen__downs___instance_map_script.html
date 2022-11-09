@@ -315,7 +315,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d83/class_instance_script.html#a5ab9bd10ed8736a816bfaf12c39bde59">GetBossSaveData</a> ()</td></tr>
 <tr class="separator:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a04d36b66a5570d03bb95ef2225a5c902" name="a04d36b66a5570d03bb95ef2225a5c902"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a04d36b66a5570d03bb95ef2225a5c902">&#9670;&#160;</a></span>instance_razorfen_downs_InstanceMapScript()</h2>
 
@@ -339,7 +340,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   30</span>                                                            : <a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>(map)</div>
+<div class="line"><span class="lineno">   31</span>        {</div>
+<div class="line"><span class="lineno">   32</span>        }</div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -368,7 +373,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>        {</div>
+<div class="line"><span class="lineno">   59</span>            <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../da/d10/razorfen__downs_8h.html#a57d2d4154291532e405ab880a40a999fa73e3200e01acf1c7fcc96e371710676d">GO_GONG</a>)</div>
+<div class="line"><span class="lineno">   60</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d7d/structinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script.html#a23485a35f0aa2f2ffad53398882d163a">_gongPhase</a>;</div>
+<div class="line"><span class="lineno">   61</span>            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   62</span>        }</div>
+<div class="ttc" id="arazorfen__downs_8h_html_a57d2d4154291532e405ab880a40a999fa73e3200e01acf1c7fcc96e371710676d"><div class="ttname"><a href="../../da/d10/razorfen__downs_8h.html#a57d2d4154291532e405ab880a40a999fa73e3200e01acf1c7fcc96e371710676d">GO_GONG</a></div><div class="ttdeci">@ GO_GONG</div><div class="ttdef"><b>Definition:</b> razorfen_downs.h:37</div></div>
+<div class="ttc" id="astructinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script_html_a23485a35f0aa2f2ffad53398882d163a"><div class="ttname"><a href="../../d8/d7d/structinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script.html#a23485a35f0aa2f2ffad53398882d163a">instance_razorfen_downs::instance_razorfen_downs_InstanceMapScript::_gongPhase</a></div><div class="ttdeci">uint32 _gongPhase</div><div class="ttdef"><b>Definition:</b> instance_razorfen_downs.cpp:97</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af3345787581e3d3783152efd9b10ae20" name="af3345787581e3d3783152efd9b10ae20"></a>
@@ -395,7 +407,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#aa0e2d9bf4d757aad09d4773259ad8583">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   74</span>        {</div>
+<div class="line"><span class="lineno">   75</span>            std::ostringstream saveStream;</div>
+<div class="line"><span class="lineno">   76</span>            saveStream &lt;&lt; <span class="stringliteral">&quot;R D &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d8/d7d/structinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script.html#a23485a35f0aa2f2ffad53398882d163a">_gongPhase</a> &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code hl_variable" href="../../d8/d7d/structinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script.html#a74809429d3d2b1db5374dacf34d8a1b7">_firesState</a>;</div>
+<div class="line"><span class="lineno">   77</span>            <span class="keywordflow">return</span> saveStream.str();</div>
+<div class="line"><span class="lineno">   78</span>        }</div>
+<div class="ttc" id="astructinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script_html_a74809429d3d2b1db5374dacf34d8a1b7"><div class="ttname"><a href="../../d8/d7d/structinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script.html#a74809429d3d2b1db5374dacf34d8a1b7">instance_razorfen_downs::instance_razorfen_downs_InstanceMapScript::_firesState</a></div><div class="ttdeci">uint32 _firesState</div><div class="ttdef"><b>Definition:</b> instance_razorfen_downs.cpp:98</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aed9ab9542badb0296ca0660c39541cb8" name="aed9ab9542badb0296ca0660c39541cb8"></a>
@@ -422,7 +440,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ae28a789e519af133bb744c796902294c">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>        {</div>
+<div class="line"><span class="lineno">   36</span>            <a class="code hl_variable" href="../../d8/d7d/structinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script.html#a23485a35f0aa2f2ffad53398882d163a">_gongPhase</a> = 0;</div>
+<div class="line"><span class="lineno">   37</span>            <a class="code hl_variable" href="../../d8/d7d/structinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script.html#a74809429d3d2b1db5374dacf34d8a1b7">_firesState</a> = 0;</div>
+<div class="line"><span class="lineno">   38</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a937e03d0bbe4c7bd23581c23589ba7e8" name="a937e03d0bbe4c7bd23581c23589ba7e8"></a>
@@ -450,7 +472,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ad8be0d1c384b505f5b3fa1ab55eb1f61">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   81</span>        {</div>
+<div class="line"><span class="lineno">   82</span>            <span class="keywordflow">if</span> (!str)</div>
+<div class="line"><span class="lineno">   83</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>            <span class="keywordtype">char</span> dataHead1, dataHead2;</div>
+<div class="line"><span class="lineno">   86</span>            std::istringstream loadStream(str);</div>
+<div class="line"><span class="lineno">   87</span>            loadStream &gt;&gt; dataHead1 &gt;&gt; dataHead2;</div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>            <span class="keywordflow">if</span> (dataHead1 == <span class="charliteral">&#39;R&#39;</span> &amp;&amp; dataHead2 == <span class="charliteral">&#39;D&#39;</span>)</div>
+<div class="line"><span class="lineno">   90</span>            {</div>
+<div class="line"><span class="lineno">   91</span>                loadStream &gt;&gt; <a class="code hl_variable" href="../../d8/d7d/structinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script.html#a23485a35f0aa2f2ffad53398882d163a">_gongPhase</a>;</div>
+<div class="line"><span class="lineno">   92</span>                loadStream &gt;&gt; <a class="code hl_variable" href="../../d8/d7d/structinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script.html#a74809429d3d2b1db5374dacf34d8a1b7">_firesState</a>;</div>
+<div class="line"><span class="lineno">   93</span>            }</div>
+<div class="line"><span class="lineno">   94</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a567ac5d9a17514ede5b84c5d78204072" name="a567ac5d9a17514ede5b84c5d78204072"></a>
@@ -478,7 +514,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a95f23d1bff59799247babdd0d077bb7c">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   41</span>        {</div>
+<div class="line"><span class="lineno">   42</span>            <span class="keywordflow">switch</span> (gameobject-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">   43</span>            {</div>
+<div class="line"><span class="lineno">   44</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d10/razorfen__downs_8h.html#a57d2d4154291532e405ab880a40a999fa4e42e1ff64b7363b2e3bd418de8380ea">GO_IDOL_OVEN_FIRE</a>:</div>
+<div class="line"><span class="lineno">   45</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d10/razorfen__downs_8h.html#a57d2d4154291532e405ab880a40a999fa0d7dfa05bbcec3b53e1e8c95f760e6d9">GO_IDOL_CUP_FIRE</a>:</div>
+<div class="line"><span class="lineno">   46</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d10/razorfen__downs_8h.html#a57d2d4154291532e405ab880a40a999fa69ac2f30a29f01e1ef7585e712ac7dd3">GO_IDOL_MOUTH_FIRE</a>:</div>
+<div class="line"><span class="lineno">   47</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d7d/structinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script.html#a74809429d3d2b1db5374dacf34d8a1b7">_firesState</a> == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">   48</span>                        gameobject-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a322beae90ff8c484e0c52da2c8b4a2a5">Delete</a>();</div>
+<div class="line"><span class="lineno">   49</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   50</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d10/razorfen__downs_8h.html#a57d2d4154291532e405ab880a40a999fa73e3200e01acf1c7fcc96e371710676d">GO_GONG</a>:</div>
+<div class="line"><span class="lineno">   51</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d7d/structinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script.html#a23485a35f0aa2f2ffad53398882d163a">_gongPhase</a> == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">   52</span>                        gameobject-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a0a114d2b10c05ab2203d4cd2b5bef50c">SetGameObjectFlag</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7716f26c46ee49831358c2993e79582fa923ad52f14738a794626655f6b1109c9">GO_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">   53</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   54</span>            }</div>
+<div class="line"><span class="lineno">   55</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a7716f26c46ee49831358c2993e79582fa923ad52f14738a794626655f6b1109c9"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7716f26c46ee49831358c2993e79582fa923ad52f14738a794626655f6b1109c9">GO_FLAG_NOT_SELECTABLE</a></div><div class="ttdeci">@ GO_FLAG_NOT_SELECTABLE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1579</div></div>
+<div class="ttc" id="aclass_game_object_html_a0a114d2b10c05ab2203d4cd2b5bef50c"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a0a114d2b10c05ab2203d4cd2b5bef50c">GameObject::SetGameObjectFlag</a></div><div class="ttdeci">void SetGameObjectFlag(GameObjectFlags flags)</div><div class="ttdef"><b>Definition:</b> GameObject.h:911</div></div>
+<div class="ttc" id="aclass_game_object_html_a322beae90ff8c484e0c52da2c8b4a2a5"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a322beae90ff8c484e0c52da2c8b4a2a5">GameObject::Delete</a></div><div class="ttdeci">void Delete()</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:949</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="arazorfen__downs_8h_html_a57d2d4154291532e405ab880a40a999fa0d7dfa05bbcec3b53e1e8c95f760e6d9"><div class="ttname"><a href="../../da/d10/razorfen__downs_8h.html#a57d2d4154291532e405ab880a40a999fa0d7dfa05bbcec3b53e1e8c95f760e6d9">GO_IDOL_CUP_FIRE</a></div><div class="ttdeci">@ GO_IDOL_CUP_FIRE</div><div class="ttdef"><b>Definition:</b> razorfen_downs.h:40</div></div>
+<div class="ttc" id="arazorfen__downs_8h_html_a57d2d4154291532e405ab880a40a999fa4e42e1ff64b7363b2e3bd418de8380ea"><div class="ttname"><a href="../../da/d10/razorfen__downs_8h.html#a57d2d4154291532e405ab880a40a999fa4e42e1ff64b7363b2e3bd418de8380ea">GO_IDOL_OVEN_FIRE</a></div><div class="ttdeci">@ GO_IDOL_OVEN_FIRE</div><div class="ttdef"><b>Definition:</b> razorfen_downs.h:39</div></div>
+<div class="ttc" id="arazorfen__downs_8h_html_a57d2d4154291532e405ab880a40a999fa69ac2f30a29f01e1ef7585e712ac7dd3"><div class="ttname"><a href="../../da/d10/razorfen__downs_8h.html#a57d2d4154291532e405ab880a40a999fa69ac2f30a29f01e1ef7585e712ac7dd3">GO_IDOL_MOUTH_FIRE</a></div><div class="ttdeci">@ GO_IDOL_MOUTH_FIRE</div><div class="ttdef"><b>Definition:</b> razorfen_downs.h:41</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1dfd39d65b16bb6e1373fe83ba4053c5" name="a1dfd39d65b16bb6e1373fe83ba4053c5"></a>
@@ -516,7 +575,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   65</span>        {</div>
+<div class="line"><span class="lineno">   66</span>            <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../da/d10/razorfen__downs_8h.html#a57d2d4154291532e405ab880a40a999fa73e3200e01acf1c7fcc96e371710676d">GO_GONG</a>)</div>
+<div class="line"><span class="lineno">   67</span>                <a class="code hl_variable" href="../../d8/d7d/structinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script.html#a23485a35f0aa2f2ffad53398882d163a">_gongPhase</a> = data;</div>
+<div class="line"><span class="lineno">   68</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../da/d10/razorfen__downs_8h.html#a57d2d4154291532e405ab880a40a999fac8f04796fa79a343dafe7e37da6a03d3">GO_BELNISTRASZS_BRAZIER</a>)</div>
+<div class="line"><span class="lineno">   69</span>                <a class="code hl_variable" href="../../d8/d7d/structinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script.html#a74809429d3d2b1db5374dacf34d8a1b7">_firesState</a> = <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>;</div>
+<div class="line"><span class="lineno">   70</span>            <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a99f69b7706e28b78008952ceefe09b69">SaveToDB</a>();</div>
+<div class="line"><span class="lineno">   71</span>        }</div>
+<div class="ttc" id="aclass_instance_script_html_a99f69b7706e28b78008952ceefe09b69"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a99f69b7706e28b78008952ceefe09b69">InstanceScript::SaveToDB</a></div><div class="ttdeci">void SaveToDB()</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:40</div></div>
+<div class="ttc" id="arazorfen__downs_8h_html_a57d2d4154291532e405ab880a40a999fac8f04796fa79a343dafe7e37da6a03d3"><div class="ttname"><a href="../../da/d10/razorfen__downs_8h.html#a57d2d4154291532e405ab880a40a999fac8f04796fa79a343dafe7e37da6a03d3">GO_BELNISTRASZS_BRAZIER</a></div><div class="ttdeci">@ GO_BELNISTRASZS_BRAZIER</div><div class="ttdef"><b>Definition:</b> razorfen_downs.h:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -565,7 +633,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/RazorfenDowns/<a class="el" href="../../da/dab/instance__razorfen__downs_8cpp.html">instance_razorfen_downs.cpp</a></li>
+<li><a class="el" href="../../">instance_razorfen_downs.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -573,7 +641,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d96/classinstance__razorfen__downs.html">instance_razorfen_downs</a></li><li class="navelem"><a class="el" href="../../d8/d7d/structinstance__razorfen__downs_1_1instance__razorfen__downs___instance_map_script.html">instance_razorfen_downs_InstanceMapScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

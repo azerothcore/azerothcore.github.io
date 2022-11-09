@@ -493,7 +493,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a042c0854b4cc08861fabbd347acbb9d7" name="a042c0854b4cc08861fabbd347acbb9d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a042c0854b4cc08861fabbd347acbb9d7">&#9670;&#160;</a></span>npc_omenAI()</h2>
 
@@ -517,7 +518,17 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  585</span>                                       : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">  586</span>        {</div>
+<div class="line"><span class="lineno">  587</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae60ed2cee8b340a5efb62f2acd249284">SetImmuneToPC</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  588</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(1, 7549.977f, -2855.137f, 456.9678f);</div>
+<div class="line"><span class="lineno">  589</span>        }</div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_ae60ed2cee8b340a5efb62f2acd249284"><div class="ttname"><a href="../../da/db7/class_unit.html#ae60ed2cee8b340a5efb62f2acd249284">Unit::SetImmuneToPC</a></div><div class="ttdeci">void SetImmuneToPC(bool apply, bool keepCombat=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:13511</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -546,7 +557,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  608</span>        {</div>
+<div class="line"><span class="lineno">  609</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">  610</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a9b4959d7ea485f12c7d67e5bd7672383">EVENT_CAST_CLEAVE</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(3000, 5000));</div>
+<div class="line"><span class="lineno">  611</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a59097ac157a655e4c9371e19a53820fc">EVENT_CAST_STARFALL</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(8000, 10000));</div>
+<div class="line"><span class="lineno">  612</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="azone__moonglade_8cpp_html_a7fb152206db70a70437b235647a95793a59097ac157a655e4c9371e19a53820fc"><div class="ttname"><a href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a59097ac157a655e4c9371e19a53820fc">EVENT_CAST_STARFALL</a></div><div class="ttdeci">@ EVENT_CAST_STARFALL</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:574</div></div>
+<div class="ttc" id="azone__moonglade_8cpp_html_a7fb152206db70a70437b235647a95793a9b4959d7ea485f12c7d67e5bd7672383"><div class="ttname"><a href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a9b4959d7ea485f12c7d67e5bd7672383">EVENT_CAST_CLEAVE</a></div><div class="ttdeci">@ EVENT_CAST_CLEAVE</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:573</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5a5d61081c2c59d637739de0f2fe39d4" name="a5a5d61081c2c59d637739de0f2fe39d4"></a>
@@ -574,7 +594,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  615</span>        {</div>
+<div class="line"><span class="lineno">  616</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_enumvalue" href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a09afe0a7256990b201fc144424201c79">SPELL_OMEN_SUMMON_SPOTLIGHT</a>);</div>
+<div class="line"><span class="lineno">  617</span>        }</div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="azone__moonglade_8cpp_html_a7fb152206db70a70437b235647a95793a09afe0a7256990b201fc144424201c79"><div class="ttname"><a href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a09afe0a7256990b201fc144424201c79">SPELL_OMEN_SUMMON_SPOTLIGHT</a></div><div class="ttdeci">@ SPELL_OMEN_SUMMON_SPOTLIGHT</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:567</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a92e59bde1f0da2ee537a836304a3c385" name="a92e59bde1f0da2ee537a836304a3c385"></a>
@@ -612,7 +637,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#ac737070ba7a8645d0e0ccf6bd6107004">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  594</span>        {</div>
+<div class="line"><span class="lineno">  595</span>            <span class="keywordflow">if</span> (type != <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a>)</div>
+<div class="line"><span class="lineno">  596</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  597</span> </div>
+<div class="line"><span class="lineno">  598</span>            <span class="keywordflow">if</span> (pointId == 1)</div>
+<div class="line"><span class="lineno">  599</span>            {</div>
+<div class="line"><span class="lineno">  600</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a0ab9e2649cc4b0103aea6a52e8f1a5ea">SetHomePosition</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>(), <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>());</div>
+<div class="line"><span class="lineno">  601</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae60ed2cee8b340a5efb62f2acd249284">SetImmuneToPC</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  602</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a8bcd0563ce34a4ed2336034e762ce7fb">SelectNearestPlayer</a>(40.0f))</div>
+<div class="line"><span class="lineno">  603</span>                    <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">AttackStart</a>(player);</div>
+<div class="line"><span class="lineno">  604</span>            }</div>
+<div class="line"><span class="lineno">  605</span>        }</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a></div><div class="ttdeci">@ POINT_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_a0ab9e2649cc4b0103aea6a52e8f1a5ea"><div class="ttname"><a href="../../d1/dac/class_creature.html#a0ab9e2649cc4b0103aea6a52e8f1a5ea">Creature::SetHomePosition</a></div><div class="ttdeci">void SetHomePosition(float x, float y, float z, float o)</div><div class="ttdef"><b>Definition:</b> Creature.h:320</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_world_object_html_a8bcd0563ce34a4ed2336034e762ce7fb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a8bcd0563ce34a4ed2336034e762ce7fb">WorldObject::SelectNearestPlayer</a></div><div class="ttdeci">Player * SelectNearestPlayer(float distance=0) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2419</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_a74cabfb8f441acb38e1abd5bf6ecdc84"><div class="ttname"><a href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">Position::GetOrientation</a></div><div class="ttdeci">float GetOrientation() const</div><div class="ttdef"><b>Definition:</b> Position.h:120</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a4c91d8d2c1a6e8b234c1c4f15936c7a4"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI::AttackStart</a></div><div class="ttdeci">void AttackStart(Unit *) override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:206</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4e3960d506fd0435de055a365906a9c9" name="a4e3960d506fd0435de055a365906a9c9"></a>
@@ -650,7 +696,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a7c4ff5a7547e75576c127ba4a514e548">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  620</span>        {</div>
+<div class="line"><span class="lineno">  621</span>            <span class="keywordflow">if</span> (spell-&gt;Id == <a class="code hl_enumvalue" href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a333999af862b8d1706a4b34ced3448e6">SPELL_ELUNE_CANDLE</a>)</div>
+<div class="line"><span class="lineno">  622</span>            {</div>
+<div class="line"><span class="lineno">  623</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a8a65e86a799ba7daf95b45212e2d0cac">SPELL_OMEN_STARFALL</a>))</div>
+<div class="line"><span class="lineno">  624</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_enumvalue" href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a8a65e86a799ba7daf95b45212e2d0cac">SPELL_OMEN_STARFALL</a>);</div>
+<div class="line"><span class="lineno">  625</span> </div>
+<div class="line"><span class="lineno">  626</span>                <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RescheduleEvent(<a class="code hl_enumvalue" href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a59097ac157a655e4c9371e19a53820fc">EVENT_CAST_STARFALL</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(14000, 16000));</div>
+<div class="line"><span class="lineno">  627</span>            }</div>
+<div class="line"><span class="lineno">  628</span>        }</div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="aclass_unit_html_aac612f06e84142d92dcfc432b5feb4ac"><div class="ttname"><a href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">Unit::RemoveAurasDueToSpell</a></div><div class="ttdeci">void RemoveAurasDueToSpell(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, uint8 reqEffMask=0, AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4823</div></div>
+<div class="ttc" id="azone__moonglade_8cpp_html_a7fb152206db70a70437b235647a95793a333999af862b8d1706a4b34ced3448e6"><div class="ttname"><a href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a333999af862b8d1706a4b34ced3448e6">SPELL_ELUNE_CANDLE</a></div><div class="ttdeci">@ SPELL_ELUNE_CANDLE</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:568</div></div>
+<div class="ttc" id="azone__moonglade_8cpp_html_a7fb152206db70a70437b235647a95793a8a65e86a799ba7daf95b45212e2d0cac"><div class="ttname"><a href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a8a65e86a799ba7daf95b45212e2d0cac">SPELL_OMEN_STARFALL</a></div><div class="ttdeci">@ SPELL_OMEN_STARFALL</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:566</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6f114ab4bbe3e6e1fd6d74da93a36027" name="a6f114ab4bbe3e6e1fd6d74da93a36027"></a>
@@ -678,7 +737,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  631</span>        {</div>
+<div class="line"><span class="lineno">  632</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  633</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  634</span> </div>
+<div class="line"><span class="lineno">  635</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  636</span> </div>
+<div class="line"><span class="lineno">  637</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">  638</span>            {</div>
+<div class="line"><span class="lineno">  639</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a9b4959d7ea485f12c7d67e5bd7672383">EVENT_CAST_CLEAVE</a>:</div>
+<div class="line"><span class="lineno">  640</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a525d07772748bd50623894654941eebb">SPELL_OMEN_CLEAVE</a>);</div>
+<div class="line"><span class="lineno">  641</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a9b4959d7ea485f12c7d67e5bd7672383">EVENT_CAST_CLEAVE</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(8000, 10000));</div>
+<div class="line"><span class="lineno">  642</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  643</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a59097ac157a655e4c9371e19a53820fc">EVENT_CAST_STARFALL</a>:</div>
+<div class="line"><span class="lineno">  644</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0))</div>
+<div class="line"><span class="lineno">  645</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a8a65e86a799ba7daf95b45212e2d0cac">SPELL_OMEN_STARFALL</a>);</div>
+<div class="line"><span class="lineno">  646</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a59097ac157a655e4c9371e19a53820fc">EVENT_CAST_STARFALL</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(14000, 16000));</div>
+<div class="line"><span class="lineno">  647</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  648</span>            }</div>
+<div class="line"><span class="lineno">  649</span> </div>
+<div class="line"><span class="lineno">  650</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  651</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="azone__moonglade_8cpp_html_a7fb152206db70a70437b235647a95793a525d07772748bd50623894654941eebb"><div class="ttname"><a href="../../d5/d05/zone__moonglade_8cpp.html#a7fb152206db70a70437b235647a95793a525d07772748bd50623894654941eebb">SPELL_OMEN_CLEAVE</a></div><div class="ttdeci">@ SPELL_OMEN_CLEAVE</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:565</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -697,7 +783,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/<a class="el" href="../../d5/d05/zone__moonglade_8cpp.html">zone_moonglade.cpp</a></li>
+<li><a class="el" href="../../">zone_moonglade.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -705,7 +791,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d34/classnpc__omen.html">npc_omen</a></li><li class="navelem"><a class="el" href="../../d2/de8/structnpc__omen_1_1npc__omen_a_i.html">npc_omenAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

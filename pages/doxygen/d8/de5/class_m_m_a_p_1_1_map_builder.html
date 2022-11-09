@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('d8/de5/class_m_m_a_p_1_1_map_builder.h
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d2/dbb/_map_builder_8h_source.html">MapBuilder.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">MapBuilder.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -201,7 +201,8 @@ Friends</h2></td></tr>
 <tr class="memitem:a958080aa4f2d78d750a34c9a15fac6dd"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a958080aa4f2d78d750a34c9a15fac6dd">TileBuilder</a></td></tr>
 <tr class="separator:a958080aa4f2d78d750a34c9a15fac6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a17634a316737ca31fd89d13d48e7467d" name="a17634a316737ca31fd89d13d48e7467d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a17634a316737ca31fd89d13d48e7467d">&#9670;&#160;</a></span>MapBuilder()</h2>
 
@@ -275,7 +276,49 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   61</span>                                                                                                                             :</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ae68a24d427865a7e3b2f2a2c9748d7f0">m_debugOutput</a>        (debugOutput),</div>
+<div class="line"><span class="lineno">   64</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a0a5843c2b412f6cc82b3a376df3c6ff0">m_offMeshFilePath</a>    (offMeshFilePath),</div>
+<div class="line"><span class="lineno">   65</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#afc097381dd4ebd9f0f997663a7817e29">m_threads</a>            (threads),</div>
+<div class="line"><span class="lineno">   66</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a5d5f764203520de0f3de746d06b9ce6f">m_skipContinents</a>     (skipContinents),</div>
+<div class="line"><span class="lineno">   67</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad6ef793458272711dffa5ae826ce11ae">m_skipJunkMaps</a>       (skipJunkMaps),</div>
+<div class="line"><span class="lineno">   68</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ab3e398f460a9c880d09d90efa40802eb">m_skipBattlegrounds</a>  (skipBattlegrounds),</div>
+<div class="line"><span class="lineno">   69</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a7273d85fbc478a3e5724cc792f4dedd4">m_skipLiquid</a>         (skipLiquid),</div>
+<div class="line"><span class="lineno">   70</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ac9ff987f286adb4199060011da3f43c4">m_maxWalkableAngle</a>   (maxWalkableAngle),</div>
+<div class="line"><span class="lineno">   71</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a86844a7a55ff6f1cf05a3392b066f619">m_bigBaseUnit</a>        (bigBaseUnit),</div>
+<div class="line"><span class="lineno">   72</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a3dfc20dcb3b5e8e85a6f3fa7e2cfd057">m_mapid</a>              (mapid),</div>
+<div class="line"><span class="lineno">   73</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a85fc5eafb9c5f94a9f8e3455842c406f">m_totalTiles</a>         (0u),</div>
+<div class="line"><span class="lineno">   74</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#add36069c0521738ff600d6a4c63aae43">m_totalTilesProcessed</a>(0u),</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#aa9daeb3044b0997170981788b84c2fae">_cancelationToken</a>    (<span class="keyword">false</span>)</div>
+<div class="line"><span class="lineno">   77</span>    {</div>
+<div class="line"><span class="lineno">   78</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#af82b3d2aa0ba72146b0ddefbf3619c86">m_terrainBuilder</a> = <span class="keyword">new</span> TerrainBuilder(skipLiquid);</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a89ef1a7fa881b10710e7850b5f4226f6">m_rcContext</a> = <span class="keyword">new</span> rcContext(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>        <span class="comment">// At least 1 thread is needed</span></div>
+<div class="line"><span class="lineno">   83</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#afc097381dd4ebd9f0f997663a7817e29">m_threads</a> = std::max(1u, <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#afc097381dd4ebd9f0f997663a7817e29">m_threads</a>);</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>        <a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a5d8f293d48f9d039261feda1c27c37ee">discoverTiles</a>();</div>
+<div class="line"><span class="lineno">   86</span>    }</div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a0a5843c2b412f6cc82b3a376df3c6ff0"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a0a5843c2b412f6cc82b3a376df3c6ff0">MMAP::MapBuilder::m_offMeshFilePath</a></div><div class="ttdeci">const char * m_offMeshFilePath</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:199</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a3dfc20dcb3b5e8e85a6f3fa7e2cfd057"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a3dfc20dcb3b5e8e85a6f3fa7e2cfd057">MMAP::MapBuilder::m_mapid</a></div><div class="ttdeci">int32 m_mapid</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:208</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a5d5f764203520de0f3de746d06b9ce6f"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a5d5f764203520de0f3de746d06b9ce6f">MMAP::MapBuilder::m_skipContinents</a></div><div class="ttdeci">bool m_skipContinents</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:201</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a5d8f293d48f9d039261feda1c27c37ee"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a5d8f293d48f9d039261feda1c27c37ee">MMAP::MapBuilder::discoverTiles</a></div><div class="ttdeci">void discoverTiles()</div><div class="ttdef"><b>Definition:</b> MapBuilder.cpp:102</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a7273d85fbc478a3e5724cc792f4dedd4"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a7273d85fbc478a3e5724cc792f4dedd4">MMAP::MapBuilder::m_skipLiquid</a></div><div class="ttdeci">bool m_skipLiquid</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:204</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a85fc5eafb9c5f94a9f8e3455842c406f"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a85fc5eafb9c5f94a9f8e3455842c406f">MMAP::MapBuilder::m_totalTiles</a></div><div class="ttdeci">std::atomic&lt; uint32 &gt; m_totalTiles</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:210</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a86844a7a55ff6f1cf05a3392b066f619"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a86844a7a55ff6f1cf05a3392b066f619">MMAP::MapBuilder::m_bigBaseUnit</a></div><div class="ttdeci">bool m_bigBaseUnit</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:207</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a89ef1a7fa881b10710e7850b5f4226f6"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a89ef1a7fa881b10710e7850b5f4226f6">MMAP::MapBuilder::m_rcContext</a></div><div class="ttdeci">rcContext * m_rcContext</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:214</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_aa9daeb3044b0997170981788b84c2fae"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#aa9daeb3044b0997170981788b84c2fae">MMAP::MapBuilder::_cancelationToken</a></div><div class="ttdeci">std::atomic&lt; bool &gt; _cancelationToken</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:218</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_ab3e398f460a9c880d09d90efa40802eb"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ab3e398f460a9c880d09d90efa40802eb">MMAP::MapBuilder::m_skipBattlegrounds</a></div><div class="ttdeci">bool m_skipBattlegrounds</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:203</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_ac9ff987f286adb4199060011da3f43c4"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ac9ff987f286adb4199060011da3f43c4">MMAP::MapBuilder::m_maxWalkableAngle</a></div><div class="ttdeci">float m_maxWalkableAngle</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:206</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_ad6ef793458272711dffa5ae826ce11ae"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad6ef793458272711dffa5ae826ce11ae">MMAP::MapBuilder::m_skipJunkMaps</a></div><div class="ttdeci">bool m_skipJunkMaps</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:202</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_add36069c0521738ff600d6a4c63aae43"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#add36069c0521738ff600d6a4c63aae43">MMAP::MapBuilder::m_totalTilesProcessed</a></div><div class="ttdeci">std::atomic&lt; uint32 &gt; m_totalTilesProcessed</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:211</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_ae68a24d427865a7e3b2f2a2c9748d7f0"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ae68a24d427865a7e3b2f2a2c9748d7f0">MMAP::MapBuilder::m_debugOutput</a></div><div class="ttdeci">bool m_debugOutput</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:197</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_af82b3d2aa0ba72146b0ddefbf3619c86"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#af82b3d2aa0ba72146b0ddefbf3619c86">MMAP::MapBuilder::m_terrainBuilder</a></div><div class="ttdeci">TerrainBuilder * m_terrainBuilder</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:194</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_afc097381dd4ebd9f0f997663a7817e29"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#afc097381dd4ebd9f0f997663a7817e29">MMAP::MapBuilder::m_threads</a></div><div class="ttdeci">unsigned int m_threads</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:200</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aef85f4c8c7f4d69255dfb5e48ecc1c6b" name="aef85f4c8c7f4d69255dfb5e48ecc1c6b"></a>
@@ -292,7 +335,18 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   90</span>    {</div>
+<div class="line"><span class="lineno">   91</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp; m_tile : <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>)</div>
+<div class="line"><span class="lineno">   92</span>        {</div>
+<div class="line"><span class="lineno">   93</span>            m_tile.m_tiles-&gt;clear();</div>
+<div class="line"><span class="lineno">   94</span>            <span class="keyword">delete</span> m_tile.m_tiles;</div>
+<div class="line"><span class="lineno">   95</span>        }</div>
+<div class="line"><span class="lineno">   96</span> </div>
+<div class="line"><span class="lineno">   97</span>        <span class="keyword">delete</span> <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#af82b3d2aa0ba72146b0ddefbf3619c86">m_terrainBuilder</a>;</div>
+<div class="line"><span class="lineno">   98</span>        <span class="keyword">delete</span> <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a89ef1a7fa881b10710e7850b5f4226f6">m_rcContext</a>;</div>
+<div class="line"><span class="lineno">   99</span>    }</div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_ad566e85e9c80373c778052d8e82b402f"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">MMAP::MapBuilder::m_tiles</a></div><div class="ttdeci">TileList m_tiles</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:195</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -319,7 +373,47 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  425</span>    {</div>
+<div class="line"><span class="lineno">  426</span>        std::set&lt;uint32&gt;* tiles = <a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a467bf3cc9632a15b5c1da779bce94446">getTileList</a>(mapID);</div>
+<div class="line"><span class="lineno">  427</span> </div>
+<div class="line"><span class="lineno">  428</span>        <span class="keywordflow">if</span> (!tiles-&gt;empty())</div>
+<div class="line"><span class="lineno">  429</span>        {</div>
+<div class="line"><span class="lineno">  430</span>            <span class="comment">// build navMesh</span></div>
+<div class="line"><span class="lineno">  431</span>            dtNavMesh* navMesh = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  432</span>            <a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a72b56549b0639e3a1a6234f2d220dd9c">buildNavMesh</a>(mapID, navMesh);</div>
+<div class="line"><span class="lineno">  433</span>            <span class="keywordflow">if</span> (!navMesh)</div>
+<div class="line"><span class="lineno">  434</span>            {</div>
+<div class="line"><span class="lineno">  435</span>                printf(<span class="stringliteral">&quot;[Map %03i] Failed creating navmesh!\n&quot;</span>, mapID);</div>
+<div class="line"><span class="lineno">  436</span>                <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#add36069c0521738ff600d6a4c63aae43">m_totalTilesProcessed</a> += tiles-&gt;size();</div>
+<div class="line"><span class="lineno">  437</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  438</span>            }</div>
+<div class="line"><span class="lineno">  439</span> </div>
+<div class="line"><span class="lineno">  440</span>            <span class="comment">// now start building mmtiles for each tile</span></div>
+<div class="line"><span class="lineno">  441</span>            printf(<span class="stringliteral">&quot;[Map %03i] We have %u tiles.                          \n&quot;</span>, mapID, (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>)tiles-&gt;size());</div>
+<div class="line"><span class="lineno">  442</span>            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> tile : *tiles)</div>
+<div class="line"><span class="lineno">  443</span>            {</div>
+<div class="line"><span class="lineno">  444</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> tileX, tileY;</div>
+<div class="line"><span class="lineno">  445</span> </div>
+<div class="line"><span class="lineno">  446</span>                <span class="comment">// unpack tile coords</span></div>
+<div class="line"><span class="lineno">  447</span>                <a class="code hl_function" href="../../d9/db8/class_v_m_a_p_1_1_static_map_tree.html#ac35d2a2b9ff9940717dc19558ce0a890">StaticMapTree::unpackTileID</a>(tile, tileX, tileY);</div>
+<div class="line"><span class="lineno">  448</span> </div>
+<div class="line"><span class="lineno">  449</span>                TileInfo tileInfo;</div>
+<div class="line"><span class="lineno">  450</span>                tileInfo.m_mapId = mapID;</div>
+<div class="line"><span class="lineno">  451</span>                tileInfo.m_tileX = tileX;</div>
+<div class="line"><span class="lineno">  452</span>                tileInfo.m_tileY = tileY;</div>
+<div class="line"><span class="lineno">  453</span>                memcpy(&amp;tileInfo.m_navMeshParams, navMesh-&gt;getParams(), <span class="keyword">sizeof</span>(dtNavMeshParams));</div>
+<div class="line"><span class="lineno">  454</span>                <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a4016c48626d420fe1eed0aa21b7932a1">_queue</a>.Push(tileInfo);</div>
+<div class="line"><span class="lineno">  455</span>            }</div>
+<div class="line"><span class="lineno">  456</span> </div>
+<div class="line"><span class="lineno">  457</span>            dtFreeNavMesh(navMesh);</div>
+<div class="line"><span class="lineno">  458</span>        }</div>
+<div class="line"><span class="lineno">  459</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a4016c48626d420fe1eed0aa21b7932a1"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a4016c48626d420fe1eed0aa21b7932a1">MMAP::MapBuilder::_queue</a></div><div class="ttdeci">ProducerConsumerQueue&lt; TileInfo &gt; _queue</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:217</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a467bf3cc9632a15b5c1da779bce94446"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a467bf3cc9632a15b5c1da779bce94446">MMAP::MapBuilder::getTileList</a></div><div class="ttdeci">std::set&lt; uint32 &gt; * getTileList(uint32 mapID)</div><div class="ttdef"><b>Definition:</b> MapBuilder.cpp:195</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a72b56549b0639e3a1a6234f2d220dd9c"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a72b56549b0639e3a1a6234f2d220dd9c">MMAP::MapBuilder::buildNavMesh</a></div><div class="ttdeci">void buildNavMesh(uint32 mapID, dtNavMesh *&amp;navMesh)</div><div class="ttdef"><b>Definition:</b> MapBuilder.cpp:515</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_static_map_tree_html_ac35d2a2b9ff9940717dc19558ce0a890"><div class="ttname"><a href="../../d9/db8/class_v_m_a_p_1_1_static_map_tree.html#ac35d2a2b9ff9940717dc19558ce0a890">VMAP::StaticMapTree::unpackTileID</a></div><div class="ttdeci">static void unpackTileID(uint32 ID, uint32 &amp;tileX, uint32 &amp;tileY)</div><div class="ttdef"><b>Definition:</b> MapTree.h:67</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2f266b4cd1ed376df97f345d6e41996e" name="a2f266b4cd1ed376df97f345d6e41996e"></a>
@@ -337,7 +431,47 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  208</span>    {</div>
+<div class="line"><span class="lineno">  209</span>        printf(<span class="stringliteral">&quot;Using %u threads to generate mmaps\n&quot;</span>, <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#afc097381dd4ebd9f0f997663a7817e29">m_threads</a>);</div>
+<div class="line"><span class="lineno">  210</span> </div>
+<div class="line"><span class="lineno">  211</span>        <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#afc097381dd4ebd9f0f997663a7817e29">m_threads</a>; ++i)</div>
+<div class="line"><span class="lineno">  212</span>        {</div>
+<div class="line"><span class="lineno">  213</span>            <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a406a8bd0d859f46136d7231f74fd874c">m_tileBuilders</a>.push_back(<span class="keyword">new</span> <a class="code hl_friend" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a958080aa4f2d78d750a34c9a15fac6dd">TileBuilder</a>(<span class="keyword">this</span>, <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a7273d85fbc478a3e5724cc792f4dedd4">m_skipLiquid</a>, <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a86844a7a55ff6f1cf05a3392b066f619">m_bigBaseUnit</a>, <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ae68a24d427865a7e3b2f2a2c9748d7f0">m_debugOutput</a>));</div>
+<div class="line"><span class="lineno">  214</span>        }</div>
+<div class="line"><span class="lineno">  215</span> </div>
+<div class="line"><span class="lineno">  216</span>        <span class="keywordflow">if</span> (mapID)</div>
+<div class="line"><span class="lineno">  217</span>        {</div>
+<div class="line"><span class="lineno">  218</span>            <a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad03f36a25938f99df3dab2806cecfaa0">buildMap</a>(*mapID);</div>
+<div class="line"><span class="lineno">  219</span>        }</div>
+<div class="line"><span class="lineno">  220</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  221</span>        {</div>
+<div class="line"><span class="lineno">  222</span>            <span class="comment">// Build all maps if no map id has been specified</span></div>
+<div class="line"><span class="lineno">  223</span>            <span class="keywordflow">for</span> (TileList::iterator it = <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>.begin(); it != <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>.end(); ++it)</div>
+<div class="line"><span class="lineno">  224</span>            {</div>
+<div class="line"><span class="lineno">  225</span>                <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a8018d41bf14eb1255a2a7ea40b4d5a18">shouldSkipMap</a>(it-&gt;m_mapId))</div>
+<div class="line"><span class="lineno">  226</span>                    <a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad03f36a25938f99df3dab2806cecfaa0">buildMap</a>(it-&gt;m_mapId);</div>
+<div class="line"><span class="lineno">  227</span>            }</div>
+<div class="line"><span class="lineno">  228</span>        }</div>
+<div class="line"><span class="lineno">  229</span> </div>
+<div class="line"><span class="lineno">  230</span>        <span class="keywordflow">while</span> (!<a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a4016c48626d420fe1eed0aa21b7932a1">_queue</a>.Empty())</div>
+<div class="line"><span class="lineno">  231</span>        {</div>
+<div class="line"><span class="lineno">  232</span>            std::this_thread::sleep_for(std::chrono::milliseconds(1000));</div>
+<div class="line"><span class="lineno">  233</span>        }</div>
+<div class="line"><span class="lineno">  234</span> </div>
+<div class="line"><span class="lineno">  235</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#aa9daeb3044b0997170981788b84c2fae">_cancelationToken</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  236</span> </div>
+<div class="line"><span class="lineno">  237</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a4016c48626d420fe1eed0aa21b7932a1">_queue</a>.Cancel();</div>
+<div class="line"><span class="lineno">  238</span> </div>
+<div class="line"><span class="lineno">  239</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; builder : <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a406a8bd0d859f46136d7231f74fd874c">m_tileBuilders</a>)</div>
+<div class="line"><span class="lineno">  240</span>            <span class="keyword">delete</span> builder;</div>
+<div class="line"><span class="lineno">  241</span> </div>
+<div class="line"><span class="lineno">  242</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a406a8bd0d859f46136d7231f74fd874c">m_tileBuilders</a>.clear();</div>
+<div class="line"><span class="lineno">  243</span>    }</div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a406a8bd0d859f46136d7231f74fd874c"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a406a8bd0d859f46136d7231f74fd874c">MMAP::MapBuilder::m_tileBuilders</a></div><div class="ttdeci">std::vector&lt; TileBuilder * &gt; m_tileBuilders</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:216</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a8018d41bf14eb1255a2a7ea40b4d5a18"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a8018d41bf14eb1255a2a7ea40b4d5a18">MMAP::MapBuilder::shouldSkipMap</a></div><div class="ttdeci">bool shouldSkipMap(uint32 mapID) const</div><div class="ttdef"><b>Definition:</b> MapBuilder.cpp:928</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a958080aa4f2d78d750a34c9a15fac6dd"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a958080aa4f2d78d750a34c9a15fac6dd">MMAP::MapBuilder::TileBuilder</a></div><div class="ttdeci">friend class TileBuilder</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:148</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_ad03f36a25938f99df3dab2806cecfaa0"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad03f36a25938f99df3dab2806cecfaa0">MMAP::MapBuilder::buildMap</a></div><div class="ttdeci">void buildMap(uint32 mapID)</div><div class="ttdef"><b>Definition:</b> MapBuilder.cpp:424</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a419909cd4450b520d3fec523f4839970" name="a419909cd4450b520d3fec523f4839970"></a>
@@ -355,7 +489,93 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  291</span>    {</div>
+<div class="line"><span class="lineno">  292</span>        FILE* file = fopen(name, <span class="stringliteral">&quot;rb&quot;</span>);</div>
+<div class="line"><span class="lineno">  293</span>        <span class="keywordflow">if</span> (!file)</div>
+<div class="line"><span class="lineno">  294</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  295</span> </div>
+<div class="line"><span class="lineno">  296</span>        printf(<span class="stringliteral">&quot;Building mesh from file\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  297</span>        <span class="keywordtype">int</span> tileX, tileY, mapId;</div>
+<div class="line"><span class="lineno">  298</span>        <span class="keywordflow">if</span> (fread(&amp;mapId, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>), 1, file) != 1)</div>
+<div class="line"><span class="lineno">  299</span>        {</div>
+<div class="line"><span class="lineno">  300</span>            fclose(file);</div>
+<div class="line"><span class="lineno">  301</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  302</span>        }</div>
+<div class="line"><span class="lineno">  303</span>        <span class="keywordflow">if</span> (fread(&amp;tileX, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>), 1, file) != 1)</div>
+<div class="line"><span class="lineno">  304</span>        {</div>
+<div class="line"><span class="lineno">  305</span>            fclose(file);</div>
+<div class="line"><span class="lineno">  306</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  307</span>        }</div>
+<div class="line"><span class="lineno">  308</span>        <span class="keywordflow">if</span> (fread(&amp;tileY, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>), 1, file) != 1)</div>
+<div class="line"><span class="lineno">  309</span>        {</div>
+<div class="line"><span class="lineno">  310</span>            fclose(file);</div>
+<div class="line"><span class="lineno">  311</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  312</span>        }</div>
+<div class="line"><span class="lineno">  313</span> </div>
+<div class="line"><span class="lineno">  314</span>        dtNavMesh* navMesh = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  315</span>        <a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a72b56549b0639e3a1a6234f2d220dd9c">buildNavMesh</a>(mapId, navMesh);</div>
+<div class="line"><span class="lineno">  316</span>        <span class="keywordflow">if</span> (!navMesh)</div>
+<div class="line"><span class="lineno">  317</span>        {</div>
+<div class="line"><span class="lineno">  318</span>            printf(<span class="stringliteral">&quot;Failed creating navmesh!              \n&quot;</span>);</div>
+<div class="line"><span class="lineno">  319</span>            fclose(file);</div>
+<div class="line"><span class="lineno">  320</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  321</span>        }</div>
+<div class="line"><span class="lineno">  322</span> </div>
+<div class="line"><span class="lineno">  323</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> verticesCount, indicesCount;</div>
+<div class="line"><span class="lineno">  324</span>        <span class="keywordflow">if</span> (fread(&amp;verticesCount, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, file) != 1)</div>
+<div class="line"><span class="lineno">  325</span>        {</div>
+<div class="line"><span class="lineno">  326</span>            fclose(file);</div>
+<div class="line"><span class="lineno">  327</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  328</span>        }</div>
+<div class="line"><span class="lineno">  329</span> </div>
+<div class="line"><span class="lineno">  330</span>        <span class="keywordflow">if</span> (fread(&amp;indicesCount, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, file) != 1)</div>
+<div class="line"><span class="lineno">  331</span>        {</div>
+<div class="line"><span class="lineno">  332</span>            fclose(file);</div>
+<div class="line"><span class="lineno">  333</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  334</span>        }</div>
+<div class="line"><span class="lineno">  335</span> </div>
+<div class="line"><span class="lineno">  336</span>        <span class="keywordtype">float</span>* verts = <span class="keyword">new</span> <span class="keywordtype">float</span>[verticesCount];</div>
+<div class="line"><span class="lineno">  337</span>        <span class="keywordtype">int</span>* inds = <span class="keyword">new</span> <span class="keywordtype">int</span>[indicesCount];</div>
+<div class="line"><span class="lineno">  338</span> </div>
+<div class="line"><span class="lineno">  339</span>        <span class="keywordflow">if</span> (fread(verts, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), verticesCount, file) != verticesCount)</div>
+<div class="line"><span class="lineno">  340</span>        {</div>
+<div class="line"><span class="lineno">  341</span>            fclose(file);</div>
+<div class="line"><span class="lineno">  342</span>            <span class="keyword">delete</span>[] verts;</div>
+<div class="line"><span class="lineno">  343</span>            <span class="keyword">delete</span>[] inds;</div>
+<div class="line"><span class="lineno">  344</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  345</span>        }</div>
+<div class="line"><span class="lineno">  346</span> </div>
+<div class="line"><span class="lineno">  347</span>        <span class="keywordflow">if</span> (fread(inds, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>), indicesCount, file) != indicesCount)</div>
+<div class="line"><span class="lineno">  348</span>        {</div>
+<div class="line"><span class="lineno">  349</span>            fclose(file);</div>
+<div class="line"><span class="lineno">  350</span>            <span class="keyword">delete</span>[] verts;</div>
+<div class="line"><span class="lineno">  351</span>            <span class="keyword">delete</span>[] inds;</div>
+<div class="line"><span class="lineno">  352</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  353</span>        }</div>
+<div class="line"><span class="lineno">  354</span> </div>
+<div class="line"><span class="lineno">  355</span>        MeshData data;</div>
+<div class="line"><span class="lineno">  356</span> </div>
+<div class="line"><span class="lineno">  357</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; verticesCount; ++i)</div>
+<div class="line"><span class="lineno">  358</span>            data.solidVerts.append(verts[i]);</div>
+<div class="line"><span class="lineno">  359</span>        <span class="keyword">delete</span>[] verts;</div>
+<div class="line"><span class="lineno">  360</span> </div>
+<div class="line"><span class="lineno">  361</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; indicesCount; ++i)</div>
+<div class="line"><span class="lineno">  362</span>            data.solidTris.append(inds[i]);</div>
+<div class="line"><span class="lineno">  363</span>        <span class="keyword">delete</span>[] inds;</div>
+<div class="line"><span class="lineno">  364</span> </div>
+<div class="line"><span class="lineno">  365</span>        <a class="code hl_function" href="../../d4/d87/class_m_m_a_p_1_1_terrain_builder.html#a7a3f53367758b6effcc7899894c148de">TerrainBuilder::cleanVertices</a>(data.solidVerts, data.solidTris);</div>
+<div class="line"><span class="lineno">  366</span>        <span class="comment">// get bounds of current tile</span></div>
+<div class="line"><span class="lineno">  367</span>        <span class="keywordtype">float</span> bmin[3], bmax[3];</div>
+<div class="line"><span class="lineno">  368</span>        <a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad757b128d73f36665ccc63fbc28f2e74">getTileBounds</a>(tileX, tileY, data.solidVerts.getCArray(), data.solidVerts.size() / 3, bmin, bmax);</div>
+<div class="line"><span class="lineno">  369</span> </div>
+<div class="line"><span class="lineno">  370</span>        <span class="comment">// build navmesh tile</span></div>
+<div class="line"><span class="lineno">  371</span>        <a class="code hl_friend" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a958080aa4f2d78d750a34c9a15fac6dd">TileBuilder</a> tileBuilder = <a class="code hl_friend" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a958080aa4f2d78d750a34c9a15fac6dd">TileBuilder</a>(<span class="keyword">this</span>, <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a7273d85fbc478a3e5724cc792f4dedd4">m_skipLiquid</a>, <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a86844a7a55ff6f1cf05a3392b066f619">m_bigBaseUnit</a>, <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ae68a24d427865a7e3b2f2a2c9748d7f0">m_debugOutput</a>);</div>
+<div class="line"><span class="lineno">  372</span>        tileBuilder.buildMoveMapTile(mapId, tileX, tileY, data, bmin, bmax, navMesh);</div>
+<div class="line"><span class="lineno">  373</span>        fclose(file);</div>
+<div class="line"><span class="lineno">  374</span>    }</div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_ad757b128d73f36665ccc63fbc28f2e74"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad757b128d73f36665ccc63fbc28f2e74">MMAP::MapBuilder::getTileBounds</a></div><div class="ttdeci">void getTileBounds(uint32 tileX, uint32 tileY, float *verts, int vertCount, float *bmin, float *bmax) const</div><div class="ttdef"><b>Definition:</b> MapBuilder.cpp:909</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_terrain_builder_html_a7a3f53367758b6effcc7899894c148de"><div class="ttname"><a href="../../d4/d87/class_m_m_a_p_1_1_terrain_builder.html#a7a3f53367758b6effcc7899894c148de">MMAP::TerrainBuilder::cleanVertices</a></div><div class="ttdeci">static void cleanVertices(G3D::Array&lt; float &gt; &amp;verts, G3D::Array&lt; int &gt; &amp;tris)</div><div class="ttdef"><b>Definition:</b> TerrainBuilder.cpp:877</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a72b56549b0639e3a1a6234f2d220dd9c" name="a72b56549b0639e3a1a6234f2d220dd9c"></a>
@@ -392,7 +612,79 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p >&zwj;*** calculate number of bits needed to store tiles &amp; polys ***&zwj;/</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  516</span>    {</div>
+<div class="line"><span class="lineno">  517</span>        std::set&lt;uint32&gt;* tiles = <a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a467bf3cc9632a15b5c1da779bce94446">getTileList</a>(mapID);</div>
+<div class="line"><span class="lineno">  518</span> </div>
+<div class="line"><span class="lineno">  519</span>        <span class="comment">// old code for non-statically assigned bitmask sizes:</span></div>
+<div class="line"><span class="lineno">  521</span><span class="comment"></span>        <span class="comment">//int tileBits = dtIlog2(dtNextPow2(tiles-&gt;size()));</span></div>
+<div class="line"><span class="lineno">  522</span>        <span class="comment">//if (tileBits &lt; 1) tileBits = 1;                                     // need at least one bit!</span></div>
+<div class="line"><span class="lineno">  523</span>        <span class="comment">//int polyBits = sizeof(dtPolyRef)*8 - SALT_MIN_BITS - tileBits;</span></div>
+<div class="line"><span class="lineno">  524</span> </div>
+<div class="line"><span class="lineno">  525</span>        <span class="keywordtype">int</span> polyBits = DT_POLY_BITS;</div>
+<div class="line"><span class="lineno">  526</span> </div>
+<div class="line"><span class="lineno">  527</span>        <span class="keywordtype">int</span> maxTiles = tiles-&gt;size();</div>
+<div class="line"><span class="lineno">  528</span>        <span class="keywordtype">int</span> maxPolysPerTile = 1 &lt;&lt; polyBits;</div>
+<div class="line"><span class="lineno">  529</span> </div>
+<div class="line"><span class="lineno">  530</span><span class="comment">        /***          calculate bounds of map         ***/</span></div>
+<div class="line"><span class="lineno">  531</span> </div>
+<div class="line"><span class="lineno">  532</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> tileXMin = 64, tileYMin = 64, tileXMax = 0, tileYMax = 0, tileX, tileY;</div>
+<div class="line"><span class="lineno">  533</span>        <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> tile : *tiles)</div>
+<div class="line"><span class="lineno">  534</span>        {</div>
+<div class="line"><span class="lineno">  535</span>            <a class="code hl_function" href="../../d9/db8/class_v_m_a_p_1_1_static_map_tree.html#ac35d2a2b9ff9940717dc19558ce0a890">StaticMapTree::unpackTileID</a>(tile, tileX, tileY);</div>
+<div class="line"><span class="lineno">  536</span> </div>
+<div class="line"><span class="lineno">  537</span>            <span class="keywordflow">if</span> (tileX &gt; tileXMax)</div>
+<div class="line"><span class="lineno">  538</span>                tileXMax = tileX;</div>
+<div class="line"><span class="lineno">  539</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (tileX &lt; tileXMin)</div>
+<div class="line"><span class="lineno">  540</span>                tileXMin = tileX;</div>
+<div class="line"><span class="lineno">  541</span> </div>
+<div class="line"><span class="lineno">  542</span>            <span class="keywordflow">if</span> (tileY &gt; tileYMax)</div>
+<div class="line"><span class="lineno">  543</span>                tileYMax = tileY;</div>
+<div class="line"><span class="lineno">  544</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (tileY &lt; tileYMin)</div>
+<div class="line"><span class="lineno">  545</span>                tileYMin = tileY;</div>
+<div class="line"><span class="lineno">  546</span>        }</div>
+<div class="line"><span class="lineno">  547</span> </div>
+<div class="line"><span class="lineno">  548</span>        <span class="comment">// use Max because &#39;32 - tileX&#39; is negative for values over 32</span></div>
+<div class="line"><span class="lineno">  549</span>        <span class="keywordtype">float</span> bmin[3], bmax[3];</div>
+<div class="line"><span class="lineno">  550</span>        <a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad757b128d73f36665ccc63fbc28f2e74">getTileBounds</a>(tileXMax, tileYMax, <span class="keyword">nullptr</span>, 0, bmin, bmax);</div>
+<div class="line"><span class="lineno">  551</span> </div>
+<div class="line"><span class="lineno">  552</span><span class="comment">        /***       now create the navmesh       ***/</span></div>
+<div class="line"><span class="lineno">  553</span> </div>
+<div class="line"><span class="lineno">  554</span>        <span class="comment">// navmesh creation params</span></div>
+<div class="line"><span class="lineno">  555</span>        dtNavMeshParams navMeshParams;</div>
+<div class="line"><span class="lineno">  556</span>        memset(&amp;navMeshParams, 0, <span class="keyword">sizeof</span>(dtNavMeshParams));</div>
+<div class="line"><span class="lineno">  557</span>        navMeshParams.tileWidth = <a class="code hl_variable" href="../../db/def/namespace_m_m_a_p.html#a16e4fdf7de4239156a5a8eb83dcc9e8c">GRID_SIZE</a>;</div>
+<div class="line"><span class="lineno">  558</span>        navMeshParams.tileHeight = <a class="code hl_variable" href="../../db/def/namespace_m_m_a_p.html#a16e4fdf7de4239156a5a8eb83dcc9e8c">GRID_SIZE</a>;</div>
+<div class="line"><span class="lineno">  559</span>        rcVcopy(navMeshParams.orig, bmin);</div>
+<div class="line"><span class="lineno">  560</span>        navMeshParams.maxTiles = maxTiles;</div>
+<div class="line"><span class="lineno">  561</span>        navMeshParams.maxPolys = maxPolysPerTile;</div>
+<div class="line"><span class="lineno">  562</span> </div>
+<div class="line"><span class="lineno">  563</span>        navMesh = dtAllocNavMesh();</div>
+<div class="line"><span class="lineno">  564</span>        printf(<span class="stringliteral">&quot;[Map %03i] Creating navMesh...\n&quot;</span>, mapID);</div>
+<div class="line"><span class="lineno">  565</span>        <span class="keywordflow">if</span> (!navMesh-&gt;init(&amp;navMeshParams))</div>
+<div class="line"><span class="lineno">  566</span>        {</div>
+<div class="line"><span class="lineno">  567</span>            printf(<span class="stringliteral">&quot;[Map %03i] Failed creating navmesh!                \n&quot;</span>, mapID);</div>
+<div class="line"><span class="lineno">  568</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  569</span>        }</div>
+<div class="line"><span class="lineno">  570</span> </div>
+<div class="line"><span class="lineno">  571</span>        <span class="keywordtype">char</span> fileName[25];</div>
+<div class="line"><span class="lineno">  572</span>        sprintf(fileName, <span class="stringliteral">&quot;mmaps/%03u.mmap&quot;</span>, mapID);</div>
+<div class="line"><span class="lineno">  573</span> </div>
+<div class="line"><span class="lineno">  574</span>        FILE* file = fopen(fileName, <span class="stringliteral">&quot;wb&quot;</span>);</div>
+<div class="line"><span class="lineno">  575</span>        <span class="keywordflow">if</span> (!file)</div>
+<div class="line"><span class="lineno">  576</span>        {</div>
+<div class="line"><span class="lineno">  577</span>            dtFreeNavMesh(navMesh);</div>
+<div class="line"><span class="lineno">  578</span>            <span class="keywordtype">char</span> message[1024];</div>
+<div class="line"><span class="lineno">  579</span>            sprintf(message, <span class="stringliteral">&quot;[Map %03i] Failed to open %s for writing!\n&quot;</span>, mapID, fileName);</div>
+<div class="line"><span class="lineno">  580</span>            perror(message);</div>
+<div class="line"><span class="lineno">  581</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  582</span>        }</div>
+<div class="line"><span class="lineno">  583</span> </div>
+<div class="line"><span class="lineno">  584</span>        <span class="comment">// now that we know navMesh params are valid, we can write them to file</span></div>
+<div class="line"><span class="lineno">  585</span>        fwrite(&amp;navMeshParams, <span class="keyword">sizeof</span>(dtNavMeshParams), 1, file);</div>
+<div class="line"><span class="lineno">  586</span>        fclose(file);</div>
+<div class="line"><span class="lineno">  587</span>    }</div>
+<div class="ttc" id="anamespace_m_m_a_p_html_a16e4fdf7de4239156a5a8eb83dcc9e8c"><div class="ttname"><a href="../../db/def/namespace_m_m_a_p.html#a16e4fdf7de4239156a5a8eb83dcc9e8c">MMAP::GRID_SIZE</a></div><div class="ttdeci">static const float GRID_SIZE</div><div class="ttdef"><b>Definition:</b> TerrainBuilder.h:49</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af8243a8931f7b0dbbb1f1ff4e2465327" name="af8243a8931f7b0dbbb1f1ff4e2465327"></a>
@@ -426,7 +718,26 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  378</span>    {</div>
+<div class="line"><span class="lineno">  379</span>        dtNavMesh* navMesh = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  380</span>        <a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a72b56549b0639e3a1a6234f2d220dd9c">buildNavMesh</a>(mapID, navMesh);</div>
+<div class="line"><span class="lineno">  381</span>        <span class="keywordflow">if</span> (!navMesh)</div>
+<div class="line"><span class="lineno">  382</span>        {</div>
+<div class="line"><span class="lineno">  383</span>            printf(<span class="stringliteral">&quot;Failed creating navmesh!              \n&quot;</span>);</div>
+<div class="line"><span class="lineno">  384</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  385</span>        }</div>
+<div class="line"><span class="lineno">  386</span> </div>
+<div class="line"><span class="lineno">  387</span>        <span class="comment">// ToDo: delete the old tile as the user clearly wants to rebuild it</span></div>
+<div class="line"><span class="lineno">  388</span> </div>
+<div class="line"><span class="lineno">  389</span>        <a class="code hl_friend" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a958080aa4f2d78d750a34c9a15fac6dd">TileBuilder</a> tileBuilder = <a class="code hl_friend" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a958080aa4f2d78d750a34c9a15fac6dd">TileBuilder</a>(<span class="keyword">this</span>, <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a7273d85fbc478a3e5724cc792f4dedd4">m_skipLiquid</a>, <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a86844a7a55ff6f1cf05a3392b066f619">m_bigBaseUnit</a>, <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ae68a24d427865a7e3b2f2a2c9748d7f0">m_debugOutput</a>);</div>
+<div class="line"><span class="lineno">  390</span>        tileBuilder.buildTile(mapID, tileX, tileY, navMesh);</div>
+<div class="line"><span class="lineno">  391</span>        dtFreeNavMesh(navMesh);</div>
+<div class="line"><span class="lineno">  392</span> </div>
+<div class="line"><span class="lineno">  393</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#aa9daeb3044b0997170981788b84c2fae">_cancelationToken</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  394</span> </div>
+<div class="line"><span class="lineno">  395</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a4016c48626d420fe1eed0aa21b7932a1">_queue</a>.Cancel();</div>
+<div class="line"><span class="lineno">  396</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7191e674e6c08c325a181bef5f61a2a6" name="a7191e674e6c08c325a181bef5f61a2a6"></a>
@@ -451,7 +762,11 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1108</span>    {</div>
+<div class="line"><span class="lineno"> 1109</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a570066d38271b47c96862db3a3583a13">percentageDone</a>(<a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a85fc5eafb9c5f94a9f8e3455842c406f">m_totalTiles</a>, <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#add36069c0521738ff600d6a4c63aae43">m_totalTilesProcessed</a>);</div>
+<div class="line"><span class="lineno"> 1110</span>    }</div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a570066d38271b47c96862db3a3583a13"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a570066d38271b47c96862db3a3583a13">MMAP::MapBuilder::percentageDone</a></div><div class="ttdeci">uint32 percentageDone(uint32 totalTiles, uint32 totalTilesDone) const</div><div class="ttdef"><b>Definition:</b> MapBuilder.cpp:1099</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5d8f293d48f9d039261feda1c27c37ee" name="a5d8f293d48f9d039261feda1c27c37ee"></a>
@@ -476,7 +791,100 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  103</span>    {</div>
+<div class="line"><span class="lineno">  104</span>        std::vector&lt;std::string&gt; files;</div>
+<div class="line"><span class="lineno">  105</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapID, tileX, tileY, tileID, count = 0, fsize = 0;</div>
+<div class="line"><span class="lineno">  106</span>        <span class="keywordtype">char</span> filter[12];</div>
+<div class="line"><span class="lineno">  107</span> </div>
+<div class="line"><span class="lineno">  108</span>        printf(<span class="stringliteral">&quot;Discovering maps... &quot;</span>);</div>
+<div class="line"><span class="lineno">  109</span>        <a class="code hl_function" href="../../db/def/namespace_m_m_a_p.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab">getDirContents</a>(files, <span class="stringliteral">&quot;maps&quot;</span>);</div>
+<div class="line"><span class="lineno">  110</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp; file : files)</div>
+<div class="line"><span class="lineno">  111</span>        {</div>
+<div class="line"><span class="lineno">  112</span>            mapID = <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(atoi(file.substr(0, file.size() - 8).c_str()));</div>
+<div class="line"><span class="lineno">  113</span>            <span class="keywordflow">if</span> (std::find(<a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>.begin(), <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>.end(), mapID) == <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>.end())</div>
+<div class="line"><span class="lineno">  114</span>            {</div>
+<div class="line"><span class="lineno">  115</span>                <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>.emplace_back(MapTiles(mapID, <span class="keyword">new</span> std::set&lt;uint32&gt;));</div>
+<div class="line"><span class="lineno">  116</span>                count++;</div>
+<div class="line"><span class="lineno">  117</span>            }</div>
+<div class="line"><span class="lineno">  118</span>        }</div>
+<div class="line"><span class="lineno">  119</span> </div>
+<div class="line"><span class="lineno">  120</span>        files.clear();</div>
+<div class="line"><span class="lineno">  121</span>        <a class="code hl_function" href="../../db/def/namespace_m_m_a_p.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab">getDirContents</a>(files, <span class="stringliteral">&quot;vmaps&quot;</span>, <span class="stringliteral">&quot;*.vmtree&quot;</span>);</div>
+<div class="line"><span class="lineno">  122</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp; file : files)</div>
+<div class="line"><span class="lineno">  123</span>        {</div>
+<div class="line"><span class="lineno">  124</span>            mapID = <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(atoi(file.substr(0, file.size() - 7).c_str()));</div>
+<div class="line"><span class="lineno">  125</span>            <span class="keywordflow">if</span> (std::find(<a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>.begin(), <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>.end(), mapID) == <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>.end())</div>
+<div class="line"><span class="lineno">  126</span>            {</div>
+<div class="line"><span class="lineno">  127</span>                <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>.emplace_back(MapTiles(mapID, <span class="keyword">new</span> std::set&lt;uint32&gt;));</div>
+<div class="line"><span class="lineno">  128</span>                count++;</div>
+<div class="line"><span class="lineno">  129</span>            }</div>
+<div class="line"><span class="lineno">  130</span>        }</div>
+<div class="line"><span class="lineno">  131</span>        printf(<span class="stringliteral">&quot;found %u.\n&quot;</span>, count);</div>
+<div class="line"><span class="lineno">  132</span> </div>
+<div class="line"><span class="lineno">  133</span>        count = 0;</div>
+<div class="line"><span class="lineno">  134</span>        printf(<span class="stringliteral">&quot;Discovering tiles... &quot;</span>);</div>
+<div class="line"><span class="lineno">  135</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp; m_tile : <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>)</div>
+<div class="line"><span class="lineno">  136</span>        {</div>
+<div class="line"><span class="lineno">  137</span>            std::set&lt;uint32&gt;* tiles = m_tile.m_tiles;</div>
+<div class="line"><span class="lineno">  138</span>            mapID = m_tile.m_mapId;</div>
+<div class="line"><span class="lineno">  139</span> </div>
+<div class="line"><span class="lineno">  140</span>            sprintf(filter, <span class="stringliteral">&quot;%03u*.vmtile&quot;</span>, mapID);</div>
+<div class="line"><span class="lineno">  141</span>            files.clear();</div>
+<div class="line"><span class="lineno">  142</span>            <a class="code hl_function" href="../../db/def/namespace_m_m_a_p.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab">getDirContents</a>(files, <span class="stringliteral">&quot;vmaps&quot;</span>, filter);</div>
+<div class="line"><span class="lineno">  143</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp; file : files)</div>
+<div class="line"><span class="lineno">  144</span>            {</div>
+<div class="line"><span class="lineno">  145</span>                fsize = file.size();</div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>                tileY = <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(atoi(file.substr(fsize - 12, 2).c_str()));</div>
+<div class="line"><span class="lineno">  148</span>                tileX = <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(atoi(file.substr(fsize - 9, 2).c_str()));</div>
+<div class="line"><span class="lineno">  149</span>                tileID = <a class="code hl_function" href="../../d9/db8/class_v_m_a_p_1_1_static_map_tree.html#a6ebfb44b85eae52a0c346c8c33c52d4f">StaticMapTree::packTileID</a>(tileY, tileX);</div>
+<div class="line"><span class="lineno">  150</span> </div>
+<div class="line"><span class="lineno">  151</span>                tiles-&gt;insert(tileID);</div>
+<div class="line"><span class="lineno">  152</span>                count++;</div>
+<div class="line"><span class="lineno">  153</span>            }</div>
+<div class="line"><span class="lineno">  154</span> </div>
+<div class="line"><span class="lineno">  155</span>            sprintf(filter, <span class="stringliteral">&quot;%03u*&quot;</span>, mapID);</div>
+<div class="line"><span class="lineno">  156</span>            files.clear();</div>
+<div class="line"><span class="lineno">  157</span>            <a class="code hl_function" href="../../db/def/namespace_m_m_a_p.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab">getDirContents</a>(files, <span class="stringliteral">&quot;maps&quot;</span>, filter);</div>
+<div class="line"><span class="lineno">  158</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp; file : files)</div>
+<div class="line"><span class="lineno">  159</span>            {</div>
+<div class="line"><span class="lineno">  160</span>                fsize = file.size();</div>
+<div class="line"><span class="lineno">  161</span> </div>
+<div class="line"><span class="lineno">  162</span>                tileY = <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(atoi(file.substr(fsize - 8, 2).c_str()));</div>
+<div class="line"><span class="lineno">  163</span>                tileX = <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(atoi(file.substr(fsize - 6, 2).c_str()));</div>
+<div class="line"><span class="lineno">  164</span>                tileID = <a class="code hl_function" href="../../d9/db8/class_v_m_a_p_1_1_static_map_tree.html#a6ebfb44b85eae52a0c346c8c33c52d4f">StaticMapTree::packTileID</a>(tileX, tileY);</div>
+<div class="line"><span class="lineno">  165</span> </div>
+<div class="line"><span class="lineno">  166</span>                <span class="keywordflow">if</span> (tiles-&gt;insert(tileID).second)</div>
+<div class="line"><span class="lineno">  167</span>                    count++;</div>
+<div class="line"><span class="lineno">  168</span>            }</div>
+<div class="line"><span class="lineno">  169</span> </div>
+<div class="line"><span class="lineno">  170</span>            <span class="comment">// make sure we process maps which don&#39;t have tiles</span></div>
+<div class="line"><span class="lineno">  171</span>            <span class="keywordflow">if</span> (tiles-&gt;empty())</div>
+<div class="line"><span class="lineno">  172</span>            {</div>
+<div class="line"><span class="lineno">  173</span>                <span class="comment">// convert coord bounds to grid bounds</span></div>
+<div class="line"><span class="lineno">  174</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> minX, minY, maxX, maxY;</div>
+<div class="line"><span class="lineno">  175</span>                <a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#acf5a3dcedd68410396ab47065e774430">getGridBounds</a>(mapID, minX, minY, maxX, maxY);</div>
+<div class="line"><span class="lineno">  176</span> </div>
+<div class="line"><span class="lineno">  177</span>                <span class="comment">// add all tiles within bounds to tile list.</span></div>
+<div class="line"><span class="lineno">  178</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = minX; i &lt;= maxX; ++i)</div>
+<div class="line"><span class="lineno">  179</span>                    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> j = minY; j &lt;= maxY; ++j)</div>
+<div class="line"><span class="lineno">  180</span>                        <span class="keywordflow">if</span> (tiles-&gt;insert(<a class="code hl_function" href="../../d9/db8/class_v_m_a_p_1_1_static_map_tree.html#a6ebfb44b85eae52a0c346c8c33c52d4f">StaticMapTree::packTileID</a>(i, j)).second)</div>
+<div class="line"><span class="lineno">  181</span>                            count++;</div>
+<div class="line"><span class="lineno">  182</span>            }</div>
+<div class="line"><span class="lineno">  183</span>        }</div>
+<div class="line"><span class="lineno">  184</span>        printf(<span class="stringliteral">&quot;found %u.\n\n&quot;</span>, count);</div>
+<div class="line"><span class="lineno">  185</span> </div>
+<div class="line"><span class="lineno">  186</span>        <span class="comment">// Calculate tiles to process in total</span></div>
+<div class="line"><span class="lineno">  187</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp; m_tile : <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>)</div>
+<div class="line"><span class="lineno">  188</span>        {</div>
+<div class="line"><span class="lineno">  189</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a8018d41bf14eb1255a2a7ea40b4d5a18">shouldSkipMap</a>(m_tile.m_mapId))</div>
+<div class="line"><span class="lineno">  190</span>                <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a85fc5eafb9c5f94a9f8e3455842c406f">m_totalTiles</a> += m_tile.m_tiles-&gt;size();</div>
+<div class="line"><span class="lineno">  191</span>        }</div>
+<div class="line"><span class="lineno">  192</span>    }</div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_acf5a3dcedd68410396ab47065e774430"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#acf5a3dcedd68410396ab47065e774430">MMAP::MapBuilder::getGridBounds</a></div><div class="ttdeci">void getGridBounds(uint32 mapID, uint32 &amp;minX, uint32 &amp;minY, uint32 &amp;maxX, uint32 &amp;maxY) const</div><div class="ttdef"><b>Definition:</b> MapBuilder.cpp:246</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_static_map_tree_html_a6ebfb44b85eae52a0c346c8c33c52d4f"><div class="ttname"><a href="../../d9/db8/class_v_m_a_p_1_1_static_map_tree.html#a6ebfb44b85eae52a0c346c8c33c52d4f">VMAP::StaticMapTree::packTileID</a></div><div class="ttdeci">static uint32 packTileID(uint32 tileX, uint32 tileY)</div><div class="ttdef"><b>Definition:</b> MapTree.h:66</div></div>
+<div class="ttc" id="anamespace_m_m_a_p_html_a3620968f3c1f5c1a3bb0c809ab0eb4ab"><div class="ttname"><a href="../../db/def/namespace_m_m_a_p.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab">MMAP::getDirContents</a></div><div class="ttdeci">ListFilesResult getDirContents(std::vector&lt; std::string &gt; &amp;fileList, std::string dirpath=&quot;.&quot;, std::string filter=&quot;*&quot;)</div><div class="ttdef"><b>Definition:</b> PathCommon.h:77</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acf5a3dcedd68410396ab47065e774430" name="acf5a3dcedd68410396ab47065e774430"></a>
@@ -530,7 +938,50 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  247</span>    {</div>
+<div class="line"><span class="lineno">  248</span>        <span class="comment">// min and max are initialized to invalid values so the caller iterating the [min, max] range</span></div>
+<div class="line"><span class="lineno">  249</span>        <span class="comment">// will never enter the loop unless valid min/max values are found</span></div>
+<div class="line"><span class="lineno">  250</span>        maxX = 0;</div>
+<div class="line"><span class="lineno">  251</span>        maxY = 0;</div>
+<div class="line"><span class="lineno">  252</span>        minX = std::numeric_limits&lt;uint32&gt;::max();</div>
+<div class="line"><span class="lineno">  253</span>        minY = std::numeric_limits&lt;uint32&gt;::max();</div>
+<div class="line"><span class="lineno">  254</span> </div>
+<div class="line"><span class="lineno">  255</span>        <span class="keywordtype">float</span> bmin[3] = { 0, 0, 0 };</div>
+<div class="line"><span class="lineno">  256</span>        <span class="keywordtype">float</span> bmax[3] = { 0, 0, 0 };</div>
+<div class="line"><span class="lineno">  257</span>        <span class="keywordtype">float</span> lmin[3] = { 0, 0, 0 };</div>
+<div class="line"><span class="lineno">  258</span>        <span class="keywordtype">float</span> lmax[3] = { 0, 0, 0 };</div>
+<div class="line"><span class="lineno">  259</span>        MeshData meshData;</div>
+<div class="line"><span class="lineno">  260</span> </div>
+<div class="line"><span class="lineno">  261</span>        <span class="comment">// make sure we process maps which don&#39;t have tiles</span></div>
+<div class="line"><span class="lineno">  262</span>        <span class="comment">// initialize the static tree, which loads WDT models</span></div>
+<div class="line"><span class="lineno">  263</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#af82b3d2aa0ba72146b0ddefbf3619c86">m_terrainBuilder</a>-&gt;<a class="code hl_function" href="../../d4/d87/class_m_m_a_p_1_1_terrain_builder.html#ae816d445265bde3c3866069bcd9e5184">loadVMap</a>(mapID, 64, 64, meshData))</div>
+<div class="line"><span class="lineno">  264</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  265</span> </div>
+<div class="line"><span class="lineno">  266</span>        <span class="comment">// get the coord bounds of the model data</span></div>
+<div class="line"><span class="lineno">  267</span>        <span class="keywordflow">if</span> (meshData.solidVerts.size() + meshData.liquidVerts.size() == 0)</div>
+<div class="line"><span class="lineno">  268</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  269</span> </div>
+<div class="line"><span class="lineno">  270</span>        <span class="comment">// get the coord bounds of the model data</span></div>
+<div class="line"><span class="lineno">  271</span>        <span class="keywordflow">if</span> (meshData.solidVerts.size() &amp;&amp; meshData.liquidVerts.size())</div>
+<div class="line"><span class="lineno">  272</span>        {</div>
+<div class="line"><span class="lineno">  273</span>            rcCalcBounds(meshData.solidVerts.getCArray(), meshData.solidVerts.size() / 3, bmin, bmax);</div>
+<div class="line"><span class="lineno">  274</span>            rcCalcBounds(meshData.liquidVerts.getCArray(), meshData.liquidVerts.size() / 3, lmin, lmax);</div>
+<div class="line"><span class="lineno">  275</span>            rcVmin(bmin, lmin);</div>
+<div class="line"><span class="lineno">  276</span>            rcVmax(bmax, lmax);</div>
+<div class="line"><span class="lineno">  277</span>        }</div>
+<div class="line"><span class="lineno">  278</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (meshData.solidVerts.size())</div>
+<div class="line"><span class="lineno">  279</span>            rcCalcBounds(meshData.solidVerts.getCArray(), meshData.solidVerts.size() / 3, bmin, bmax);</div>
+<div class="line"><span class="lineno">  280</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  281</span>            rcCalcBounds(meshData.liquidVerts.getCArray(), meshData.liquidVerts.size() / 3, lmin, lmax);</div>
+<div class="line"><span class="lineno">  282</span> </div>
+<div class="line"><span class="lineno">  283</span>        <span class="comment">// convert coord bounds to grid bounds</span></div>
+<div class="line"><span class="lineno">  284</span>        maxX = 32 - bmin[0] / <a class="code hl_variable" href="../../db/def/namespace_m_m_a_p.html#a16e4fdf7de4239156a5a8eb83dcc9e8c">GRID_SIZE</a>;</div>
+<div class="line"><span class="lineno">  285</span>        maxY = 32 - bmin[2] / <a class="code hl_variable" href="../../db/def/namespace_m_m_a_p.html#a16e4fdf7de4239156a5a8eb83dcc9e8c">GRID_SIZE</a>;</div>
+<div class="line"><span class="lineno">  286</span>        minX = 32 - bmax[0] / <a class="code hl_variable" href="../../db/def/namespace_m_m_a_p.html#a16e4fdf7de4239156a5a8eb83dcc9e8c">GRID_SIZE</a>;</div>
+<div class="line"><span class="lineno">  287</span>        minY = 32 - bmax[2] / <a class="code hl_variable" href="../../db/def/namespace_m_m_a_p.html#a16e4fdf7de4239156a5a8eb83dcc9e8c">GRID_SIZE</a>;</div>
+<div class="line"><span class="lineno">  288</span>    }</div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_terrain_builder_html_ae816d445265bde3c3866069bcd9e5184"><div class="ttname"><a href="../../d4/d87/class_m_m_a_p_1_1_terrain_builder.html#ae816d445265bde3c3866069bcd9e5184">MMAP::TerrainBuilder::loadVMap</a></div><div class="ttdeci">bool loadVMap(uint32 mapID, uint32 tileX, uint32 tileY, MeshData &amp;meshData)</div><div class="ttdef"><b>Definition:</b> TerrainBuilder.cpp:660</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a86e75f8857980cff57f87558342fbeb1" name="a86e75f8857980cff57f87558342fbeb1"></a>
@@ -578,7 +1029,50 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1054</span>    {</div>
+<div class="line"><span class="lineno"> 1055</span>        rcConfig config;</div>
+<div class="line"><span class="lineno"> 1056</span>        memset(&amp;config, 0, <span class="keyword">sizeof</span>(rcConfig));</div>
+<div class="line"><span class="lineno"> 1057</span> </div>
+<div class="line"><span class="lineno"> 1058</span>        rcVcopy(config.bmin, bmin);</div>
+<div class="line"><span class="lineno"> 1059</span>        rcVcopy(config.bmax, bmax);</div>
+<div class="line"><span class="lineno"> 1060</span> </div>
+<div class="line"><span class="lineno"> 1061</span>        config.maxVertsPerPoly = DT_VERTS_PER_POLYGON;</div>
+<div class="line"><span class="lineno"> 1062</span>        config.cs = tileConfig.BASE_UNIT_DIM;</div>
+<div class="line"><span class="lineno"> 1063</span>        config.ch = tileConfig.BASE_UNIT_DIM;</div>
+<div class="line"><span class="lineno"> 1064</span>        config.walkableSlopeAngle = <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ac9ff987f286adb4199060011da3f43c4">m_maxWalkableAngle</a>;</div>
+<div class="line"><span class="lineno"> 1065</span>        config.tileSize = tileConfig.VERTEX_PER_TILE;</div>
+<div class="line"><span class="lineno"> 1066</span>        config.walkableRadius = <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a86844a7a55ff6f1cf05a3392b066f619">m_bigBaseUnit</a> ? 1 : 2;</div>
+<div class="line"><span class="lineno"> 1067</span>        config.borderSize = config.walkableRadius + 3;</div>
+<div class="line"><span class="lineno"> 1068</span>        config.maxEdgeLen = tileConfig.VERTEX_PER_TILE + 1;        <span class="comment">// anything bigger than tileSize</span></div>
+<div class="line"><span class="lineno"> 1069</span>        config.walkableHeight = <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a86844a7a55ff6f1cf05a3392b066f619">m_bigBaseUnit</a> ? 3 : 6;</div>
+<div class="line"><span class="lineno"> 1070</span>        <span class="comment">// a value &gt;= 3|6 allows npcs to walk over some fences</span></div>
+<div class="line"><span class="lineno"> 1071</span>        <span class="comment">// a value &gt;= 4|8 allows npcs to walk over all fences</span></div>
+<div class="line"><span class="lineno"> 1072</span>        config.walkableClimb = <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a86844a7a55ff6f1cf05a3392b066f619">m_bigBaseUnit</a> ? 3 : 6;</div>
+<div class="line"><span class="lineno"> 1073</span>        config.minRegionArea = rcSqr(60);</div>
+<div class="line"><span class="lineno"> 1074</span>        config.mergeRegionArea = rcSqr(50);</div>
+<div class="line"><span class="lineno"> 1075</span>        config.maxSimplificationError = 1.8f;           <span class="comment">// eliminates most jagged edges (tiny polygons)</span></div>
+<div class="line"><span class="lineno"> 1076</span>        config.detailSampleDist = config.cs * 16;</div>
+<div class="line"><span class="lineno"> 1077</span>        config.detailSampleMaxError = config.ch * 1;</div>
+<div class="line"><span class="lineno"> 1078</span> </div>
+<div class="line"><span class="lineno"> 1079</span>        <span class="keywordflow">switch</span> (mapID)</div>
+<div class="line"><span class="lineno"> 1080</span>        {</div>
+<div class="line"><span class="lineno"> 1081</span>            <span class="comment">// Blade&#39;s Edge Arena</span></div>
+<div class="line"><span class="lineno"> 1082</span>            <span class="keywordflow">case</span> 562:</div>
+<div class="line"><span class="lineno"> 1083</span>                <span class="comment">// This allows to walk on the ropes to the pillars</span></div>
+<div class="line"><span class="lineno"> 1084</span>                config.walkableRadius = 0;</div>
+<div class="line"><span class="lineno"> 1085</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1086</span>            <span class="comment">// Blackfathom Deeps</span></div>
+<div class="line"><span class="lineno"> 1087</span>            <span class="keywordflow">case</span> 48:</div>
+<div class="line"><span class="lineno"> 1088</span>                <span class="comment">// Reduce the chance to have underground levels</span></div>
+<div class="line"><span class="lineno"> 1089</span>                config.ch *= 2;</div>
+<div class="line"><span class="lineno"> 1090</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1091</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1092</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1093</span>        }</div>
+<div class="line"><span class="lineno"> 1094</span> </div>
+<div class="line"><span class="lineno"> 1095</span>        <span class="keywordflow">return</span> config;</div>
+<div class="line"><span class="lineno"> 1096</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad757b128d73f36665ccc63fbc28f2e74" name="ad757b128d73f36665ccc63fbc28f2e74"></a>
@@ -638,7 +1132,23 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  910</span>    {</div>
+<div class="line"><span class="lineno">  911</span>        <span class="comment">// this is for elevation</span></div>
+<div class="line"><span class="lineno">  912</span>        <span class="keywordflow">if</span> (verts &amp;&amp; vertCount)</div>
+<div class="line"><span class="lineno">  913</span>            rcCalcBounds(verts, vertCount, bmin, bmax);</div>
+<div class="line"><span class="lineno">  914</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  915</span>        {</div>
+<div class="line"><span class="lineno">  916</span>            bmin[1] = FLT_MIN;</div>
+<div class="line"><span class="lineno">  917</span>            bmax[1] = FLT_MAX;</div>
+<div class="line"><span class="lineno">  918</span>        }</div>
+<div class="line"><span class="lineno">  919</span> </div>
+<div class="line"><span class="lineno">  920</span>        <span class="comment">// this is for width and depth</span></div>
+<div class="line"><span class="lineno">  921</span>        bmax[0] = (32 - int(tileX)) * <a class="code hl_variable" href="../../db/def/namespace_m_m_a_p.html#a16e4fdf7de4239156a5a8eb83dcc9e8c">GRID_SIZE</a>;</div>
+<div class="line"><span class="lineno">  922</span>        bmax[2] = (32 - int(tileY)) * <a class="code hl_variable" href="../../db/def/namespace_m_m_a_p.html#a16e4fdf7de4239156a5a8eb83dcc9e8c">GRID_SIZE</a>;</div>
+<div class="line"><span class="lineno">  923</span>        bmin[0] = bmax[0] - <a class="code hl_variable" href="../../db/def/namespace_m_m_a_p.html#a16e4fdf7de4239156a5a8eb83dcc9e8c">GRID_SIZE</a>;</div>
+<div class="line"><span class="lineno">  924</span>        bmin[2] = bmax[2] - <a class="code hl_variable" href="../../db/def/namespace_m_m_a_p.html#a16e4fdf7de4239156a5a8eb83dcc9e8c">GRID_SIZE</a>;</div>
+<div class="line"><span class="lineno">  925</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a467bf3cc9632a15b5c1da779bce94446" name="a467bf3cc9632a15b5c1da779bce94446"></a>
@@ -664,7 +1174,16 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  196</span>    {</div>
+<div class="line"><span class="lineno">  197</span>        TileList::iterator itr = std::find(<a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>.begin(), <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>.end(), mapID);</div>
+<div class="line"><span class="lineno">  198</span>        <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>.end())</div>
+<div class="line"><span class="lineno">  199</span>            <span class="keywordflow">return</span> (*itr).m_tiles;</div>
+<div class="line"><span class="lineno">  200</span> </div>
+<div class="line"><span class="lineno">  201</span>        std::set&lt;uint32&gt;* tiles = <span class="keyword">new</span> std::set&lt;uint32&gt;();</div>
+<div class="line"><span class="lineno">  202</span>        <a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad566e85e9c80373c778052d8e82b402f">m_tiles</a>.emplace_back(MapTiles(mapID, tiles));</div>
+<div class="line"><span class="lineno">  203</span>        <span class="keywordflow">return</span> tiles;</div>
+<div class="line"><span class="lineno">  204</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab51c0ef6381c77c78e404aff25ec15dd" name="ab51c0ef6381c77c78e404aff25ec15dd"></a>
@@ -690,7 +1209,19 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1016</span>    {</div>
+<div class="line"><span class="lineno"> 1017</span>        <span class="keywordflow">switch</span> (mapID)</div>
+<div class="line"><span class="lineno"> 1018</span>        {</div>
+<div class="line"><span class="lineno"> 1019</span>            <span class="keywordflow">case</span> 0:</div>
+<div class="line"><span class="lineno"> 1020</span>            <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno"> 1021</span>            <span class="keywordflow">case</span> 530:</div>
+<div class="line"><span class="lineno"> 1022</span>            <span class="keywordflow">case</span> 571:</div>
+<div class="line"><span class="lineno"> 1023</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1024</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1025</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1026</span>        }</div>
+<div class="line"><span class="lineno"> 1027</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a91ab78af6aa7e5613f674a99410bc57a" name="a91ab78af6aa7e5613f674a99410bc57a"></a>
@@ -716,7 +1247,44 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  977</span>    {</div>
+<div class="line"><span class="lineno">  978</span>        <span class="keywordflow">switch</span> (mapID)</div>
+<div class="line"><span class="lineno">  979</span>        {</div>
+<div class="line"><span class="lineno">  980</span>            <span class="comment">// transport maps</span></div>
+<div class="line"><span class="lineno">  981</span>            <span class="keywordflow">case</span> 582:</div>
+<div class="line"><span class="lineno">  982</span>            <span class="keywordflow">case</span> 584:</div>
+<div class="line"><span class="lineno">  983</span>            <span class="keywordflow">case</span> 586:</div>
+<div class="line"><span class="lineno">  984</span>            <span class="keywordflow">case</span> 587:</div>
+<div class="line"><span class="lineno">  985</span>            <span class="keywordflow">case</span> 588:</div>
+<div class="line"><span class="lineno">  986</span>            <span class="keywordflow">case</span> 589:</div>
+<div class="line"><span class="lineno">  987</span>            <span class="keywordflow">case</span> 590:</div>
+<div class="line"><span class="lineno">  988</span>            <span class="keywordflow">case</span> 591:</div>
+<div class="line"><span class="lineno">  989</span>            <span class="keywordflow">case</span> 592:</div>
+<div class="line"><span class="lineno">  990</span>            <span class="keywordflow">case</span> 593:</div>
+<div class="line"><span class="lineno">  991</span>            <span class="keywordflow">case</span> 594:</div>
+<div class="line"><span class="lineno">  992</span>            <span class="keywordflow">case</span> 596:</div>
+<div class="line"><span class="lineno">  993</span>            <span class="keywordflow">case</span> 610:</div>
+<div class="line"><span class="lineno">  994</span>            <span class="keywordflow">case</span> 612:</div>
+<div class="line"><span class="lineno">  995</span>            <span class="keywordflow">case</span> 613:</div>
+<div class="line"><span class="lineno">  996</span>            <span class="keywordflow">case</span> 614:</div>
+<div class="line"><span class="lineno">  997</span>            <span class="keywordflow">case</span> 620:</div>
+<div class="line"><span class="lineno">  998</span>            <span class="keywordflow">case</span> 621:</div>
+<div class="line"><span class="lineno">  999</span>            <span class="keywordflow">case</span> 622:</div>
+<div class="line"><span class="lineno"> 1000</span>            <span class="keywordflow">case</span> 623:</div>
+<div class="line"><span class="lineno"> 1001</span>            <span class="keywordflow">case</span> 641:</div>
+<div class="line"><span class="lineno"> 1002</span>            <span class="keywordflow">case</span> 642:</div>
+<div class="line"><span class="lineno"> 1003</span>            <span class="keywordflow">case</span> 647:</div>
+<div class="line"><span class="lineno"> 1004</span>            <span class="keywordflow">case</span> 672:</div>
+<div class="line"><span class="lineno"> 1005</span>            <span class="keywordflow">case</span> 673:</div>
+<div class="line"><span class="lineno"> 1006</span>            <span class="keywordflow">case</span> 712:</div>
+<div class="line"><span class="lineno"> 1007</span>            <span class="keywordflow">case</span> 713:</div>
+<div class="line"><span class="lineno"> 1008</span>            <span class="keywordflow">case</span> 718:</div>
+<div class="line"><span class="lineno"> 1009</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1010</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1011</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1012</span>        }</div>
+<div class="line"><span class="lineno"> 1013</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a570066d38271b47c96862db3a3583a13" name="a570066d38271b47c96862db3a3583a13"></a>
@@ -752,7 +1320,13 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1100</span>    {</div>
+<div class="line"><span class="lineno"> 1101</span>        <span class="keywordflow">if</span> (totalTiles)</div>
+<div class="line"><span class="lineno"> 1102</span>            <span class="keywordflow">return</span> totalTilesBuilt * 100 / totalTiles;</div>
+<div class="line"><span class="lineno"> 1103</span> </div>
+<div class="line"><span class="lineno"> 1104</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno"> 1105</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8018d41bf14eb1255a2a7ea40b4d5a18" name="a8018d41bf14eb1255a2a7ea40b4d5a18"></a>
@@ -778,7 +1352,54 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  929</span>    {</div>
+<div class="line"><span class="lineno">  930</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a3dfc20dcb3b5e8e85a6f3fa7e2cfd057">m_mapid</a> &gt;= 0)</div>
+<div class="line"><span class="lineno">  931</span>            <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a><span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a3dfc20dcb3b5e8e85a6f3fa7e2cfd057">m_mapid</a>) != mapID;</div>
+<div class="line"><span class="lineno">  932</span> </div>
+<div class="line"><span class="lineno">  933</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a5d5f764203520de0f3de746d06b9ce6f">m_skipContinents</a>)</div>
+<div class="line"><span class="lineno">  934</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ab51c0ef6381c77c78e404aff25ec15dd">isContinentMap</a>(mapID))</div>
+<div class="line"><span class="lineno">  935</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  936</span> </div>
+<div class="line"><span class="lineno">  937</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ad6ef793458272711dffa5ae826ce11ae">m_skipJunkMaps</a>)</div>
+<div class="line"><span class="lineno">  938</span>            <span class="keywordflow">switch</span> (mapID)</div>
+<div class="line"><span class="lineno">  939</span>            {</div>
+<div class="line"><span class="lineno">  940</span>                <span class="keywordflow">case</span> 13:    <span class="comment">// test.wdt</span></div>
+<div class="line"><span class="lineno">  941</span>                <span class="keywordflow">case</span> 25:    <span class="comment">// ScottTest.wdt</span></div>
+<div class="line"><span class="lineno">  942</span>                <span class="keywordflow">case</span> 29:    <span class="comment">// Test.wdt</span></div>
+<div class="line"><span class="lineno">  943</span>                <span class="keywordflow">case</span> 42:    <span class="comment">// Colin.wdt</span></div>
+<div class="line"><span class="lineno">  944</span>                <span class="keywordflow">case</span> 169:   <span class="comment">// EmeraldDream.wdt (unused, and very large)</span></div>
+<div class="line"><span class="lineno">  945</span>                <span class="keywordflow">case</span> 451:   <span class="comment">// development.wdt</span></div>
+<div class="line"><span class="lineno">  946</span>                <span class="keywordflow">case</span> 573:   <span class="comment">// ExteriorTest.wdt</span></div>
+<div class="line"><span class="lineno">  947</span>                <span class="keywordflow">case</span> 597:   <span class="comment">// CraigTest.wdt</span></div>
+<div class="line"><span class="lineno">  948</span>                <span class="keywordflow">case</span> 605:   <span class="comment">// development_nonweighted.wdt</span></div>
+<div class="line"><span class="lineno">  949</span>                <span class="keywordflow">case</span> 606:   <span class="comment">// QA_DVD.wdt</span></div>
+<div class="line"><span class="lineno">  950</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  951</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  952</span>                    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a91ab78af6aa7e5613f674a99410bc57a">isTransportMap</a>(mapID))</div>
+<div class="line"><span class="lineno">  953</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  954</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  955</span>            }</div>
+<div class="line"><span class="lineno">  956</span> </div>
+<div class="line"><span class="lineno">  957</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ab3e398f460a9c880d09d90efa40802eb">m_skipBattlegrounds</a>)</div>
+<div class="line"><span class="lineno">  958</span>            <span class="keywordflow">switch</span> (mapID)</div>
+<div class="line"><span class="lineno">  959</span>            {</div>
+<div class="line"><span class="lineno">  960</span>                <span class="keywordflow">case</span> 30:    <span class="comment">// AV</span></div>
+<div class="line"><span class="lineno">  961</span>                <span class="keywordflow">case</span> 37:    <span class="comment">// ?</span></div>
+<div class="line"><span class="lineno">  962</span>                <span class="keywordflow">case</span> 489:   <span class="comment">// WSG</span></div>
+<div class="line"><span class="lineno">  963</span>                <span class="keywordflow">case</span> 529:   <span class="comment">// AB</span></div>
+<div class="line"><span class="lineno">  964</span>                <span class="keywordflow">case</span> 566:   <span class="comment">// EotS</span></div>
+<div class="line"><span class="lineno">  965</span>                <span class="keywordflow">case</span> 607:   <span class="comment">// SotA</span></div>
+<div class="line"><span class="lineno">  966</span>                <span class="keywordflow">case</span> 628:   <span class="comment">// IoC</span></div>
+<div class="line"><span class="lineno">  967</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  968</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  969</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  970</span>            }</div>
+<div class="line"><span class="lineno">  971</span> </div>
+<div class="line"><span class="lineno">  972</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  973</span>    }</div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_a91ab78af6aa7e5613f674a99410bc57a"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#a91ab78af6aa7e5613f674a99410bc57a">MMAP::MapBuilder::isTransportMap</a></div><div class="ttdeci">bool isTransportMap(uint32 mapID) const</div><div class="ttdef"><b>Definition:</b> MapBuilder.cpp:976</div></div>
+<div class="ttc" id="aclass_m_m_a_p_1_1_map_builder_html_ab51c0ef6381c77c78e404aff25ec15dd"><div class="ttname"><a href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html#ab51c0ef6381c77c78e404aff25ec15dd">MMAP::MapBuilder::isContinentMap</a></div><div class="ttdeci">bool isContinentMap(uint32 mapID) const</div><div class="ttdef"><b>Definition:</b> MapBuilder.cpp:1015</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
@@ -1202,8 +1823,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/tools/mmaps_generator/<a class="el" href="../../d2/dbb/_map_builder_8h_source.html">MapBuilder.h</a></li>
-<li>D:/azerothcore-wotlk/src/tools/mmaps_generator/<a class="el" href="../../d3/dd6/_map_builder_8cpp.html">MapBuilder.cpp</a></li>
+<li><a class="el" href="../../">MapBuilder.h</a></li>
+<li><a class="el" href="../../">MapBuilder.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1211,7 +1832,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/def/namespace_m_m_a_p.html">MMAP</a></li><li class="navelem"><a class="el" href="../../d8/de5/class_m_m_a_p_1_1_map_builder.html">MapBuilder</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

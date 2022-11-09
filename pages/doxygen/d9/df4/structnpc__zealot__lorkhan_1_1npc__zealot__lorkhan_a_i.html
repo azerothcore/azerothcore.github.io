@@ -497,7 +497,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6bd33418c6739cd1401b807d2d5dc81c" name="a6bd33418c6739cd1401b807d2d5dc81c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6bd33418c6739cd1401b807d2d5dc81c">&#9670;&#160;</a></span>npc_zealot_lorkhanAI()</h2>
 
@@ -521,7 +522,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  292</span>                                                 : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">  293</span>        {</div>
+<div class="line"><span class="lineno">  294</span>            <a class="code hl_variable" href="../../d9/df4/structnpc__zealot__lorkhan_1_1npc__zealot__lorkhan_a_i.html#aa4f244f468ca7bbe0060ddfabecfd8c9">instance</a> = creature-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">  295</span>        }</div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astructnpc__zealot__lorkhan_1_1npc__zealot__lorkhan_a_i_html_aa4f244f468ca7bbe0060ddfabecfd8c9"><div class="ttname"><a href="../../d9/df4/structnpc__zealot__lorkhan_1_1npc__zealot__lorkhan_a_i.html#aa4f244f468ca7bbe0060ddfabecfd8c9">npc_zealot_lorkhan::npc_zealot_lorkhanAI::instance</a></div><div class="ttdeci">InstanceScript * instance</div><div class="ttdef"><b>Definition:</b> boss_thekal.cpp:297</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -550,7 +558,53 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  310</span>        {</div>
+<div class="line"><span class="lineno">  311</span>            <a class="code hl_variable" href="../../d9/df4/structnpc__zealot__lorkhan_1_1npc__zealot__lorkhan_a_i.html#a16f44ccff4887ed5bf3dcab1250e70cd">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(1s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context) {</div>
+<div class="line"><span class="lineno">  312</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d1/db4/boss__thekal_8cpp.html#a5bd342133be8c2137b831460acc9298caf4b3b7a5e8b4481dcb60a25093408bb2">SPELL_SHIELD</a>);</div>
+<div class="line"><span class="lineno">  313</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(1min);</div>
+<div class="line"><span class="lineno">  314</span>            }).Schedule(32s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context) {</div>
+<div class="line"><span class="lineno">  315</span>                <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* thekal = <a class="code hl_variable" href="../../d9/df4/structnpc__zealot__lorkhan_1_1npc__zealot__lorkhan_a_i.html#aa4f244f468ca7bbe0060ddfabecfd8c9">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a1541c403bcc65b54c0a2c523c8eaf0b1">GetCreature</a>(<a class="code hl_enumvalue" href="../../dc/df0/zulgurub_8h.html#afb6eb4f28419b652027fad41104a6d22a107858797dc4fd29d6b7b6a1d7590de6">DATA_THEKAL</a>);</div>
+<div class="line"><span class="lineno">  316</span>                <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* zath = <a class="code hl_variable" href="../../d9/df4/structnpc__zealot__lorkhan_1_1npc__zealot__lorkhan_a_i.html#aa4f244f468ca7bbe0060ddfabecfd8c9">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a1541c403bcc65b54c0a2c523c8eaf0b1">GetCreature</a>(<a class="code hl_enumvalue" href="../../dc/df0/zulgurub_8h.html#afb6eb4f28419b652027fad41104a6d22a6fb6dafeb13f966a4be293589e809949">DATA_ZATH</a>);</div>
+<div class="line"><span class="lineno">  317</span> </div>
+<div class="line"><span class="lineno">  318</span>                <span class="keywordflow">if</span> (!thekal || !zath)</div>
+<div class="line"><span class="lineno">  319</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  320</span> </div>
+<div class="line"><span class="lineno">  321</span>                <span class="keywordflow">if</span> ((<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0cb842af542d302eb67b743078e1ac01">GetHealthPct</a>() &lt;= thekal-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0cb842af542d302eb67b743078e1ac01">GetHealthPct</a>()) || (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0cb842af542d302eb67b743078e1ac01">GetHealthPct</a>() &lt;= zath-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0cb842af542d302eb67b743078e1ac01">GetHealthPct</a>()))</div>
+<div class="line"><span class="lineno">  322</span>                {</div>
+<div class="line"><span class="lineno">  323</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d1/db4/boss__thekal_8cpp.html#a5bd342133be8c2137b831460acc9298ca8dd5130e5df36da731e5a55c3fc8e8f5">SPELL_GREATERHEAL</a>);</div>
+<div class="line"><span class="lineno">  324</span>                }</div>
+<div class="line"><span class="lineno">  325</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (zath-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0cb842af542d302eb67b743078e1ac01">GetHealthPct</a>() &lt;= thekal-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0cb842af542d302eb67b743078e1ac01">GetHealthPct</a>())</div>
+<div class="line"><span class="lineno">  326</span>                {</div>
+<div class="line"><span class="lineno">  327</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(zath, <a class="code hl_enumvalue" href="../../d1/db4/boss__thekal_8cpp.html#a5bd342133be8c2137b831460acc9298ca8dd5130e5df36da731e5a55c3fc8e8f5">SPELL_GREATERHEAL</a>);</div>
+<div class="line"><span class="lineno">  328</span>                }</div>
+<div class="line"><span class="lineno">  329</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  330</span>                {</div>
+<div class="line"><span class="lineno">  331</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(thekal, <a class="code hl_enumvalue" href="../../d1/db4/boss__thekal_8cpp.html#a5bd342133be8c2137b831460acc9298ca8dd5130e5df36da731e5a55c3fc8e8f5">SPELL_GREATERHEAL</a>);</div>
+<div class="line"><span class="lineno">  332</span>                }</div>
+<div class="line"><span class="lineno">  333</span> </div>
+<div class="line"><span class="lineno">  334</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(15s, 20s);</div>
+<div class="line"><span class="lineno">  335</span>            }).Schedule(6s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context) {</div>
+<div class="line"><span class="lineno">  336</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d1/db4/boss__thekal_8cpp.html#a5bd342133be8c2137b831460acc9298cafa4e2a4c2a24bc29010bc0903e35ee22">SPELL_DISARM</a>);</div>
+<div class="line"><span class="lineno">  337</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(15s, 25s);</div>
+<div class="line"><span class="lineno">  338</span>            });</div>
+<div class="line"><span class="lineno">  339</span>        }</div>
+<div class="ttc" id="aboss__thekal_8cpp_html_a5bd342133be8c2137b831460acc9298ca8dd5130e5df36da731e5a55c3fc8e8f5"><div class="ttname"><a href="../../d1/db4/boss__thekal_8cpp.html#a5bd342133be8c2137b831460acc9298ca8dd5130e5df36da731e5a55c3fc8e8f5">SPELL_GREATERHEAL</a></div><div class="ttdeci">@ SPELL_GREATERHEAL</div><div class="ttdef"><b>Definition:</b> boss_thekal.cpp:47</div></div>
+<div class="ttc" id="aboss__thekal_8cpp_html_a5bd342133be8c2137b831460acc9298caf4b3b7a5e8b4481dcb60a25093408bb2"><div class="ttname"><a href="../../d1/db4/boss__thekal_8cpp.html#a5bd342133be8c2137b831460acc9298caf4b3b7a5e8b4481dcb60a25093408bb2">SPELL_SHIELD</a></div><div class="ttdeci">@ SPELL_SHIELD</div><div class="ttdef"><b>Definition:</b> boss_thekal.cpp:45</div></div>
+<div class="ttc" id="aboss__thekal_8cpp_html_a5bd342133be8c2137b831460acc9298cafa4e2a4c2a24bc29010bc0903e35ee22"><div class="ttname"><a href="../../d1/db4/boss__thekal_8cpp.html#a5bd342133be8c2137b831460acc9298cafa4e2a4c2a24bc29010bc0903e35ee22">SPELL_DISARM</a></div><div class="ttdeci">@ SPELL_DISARM</div><div class="ttdef"><b>Definition:</b> boss_thekal.cpp:48</div></div>
+<div class="ttc" id="aclass_instance_script_html_a1541c403bcc65b54c0a2c523c8eaf0b1"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a1541c403bcc65b54c0a2c523c8eaf0b1">InstanceScript::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(uint32 type)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:98</div></div>
+<div class="ttc" id="aclass_task_context_html"><div class="ttname"><a href="../../d2/dd9/class_task_context.html">TaskContext</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
+<div class="ttc" id="aclass_task_context_html_a380c596857dd0030414db5e8d28a3dda"><div class="ttname"><a href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">TaskContext::Repeat</a></div><div class="ttdeci">TaskContext &amp; Repeat(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:470</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a0e0579d2a2397de5a79c756d5e59a830"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">TaskScheduler::Schedule</a></div><div class="ttdeci">TaskScheduler &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:217</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6ae5c7d15b747433f4d94f80bcebd215"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">UnitAI::DoCastSelf</a></div><div class="ttdeci">SpellCastResult DoCastSelf(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:323</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a0cb842af542d302eb67b743078e1ac01"><div class="ttname"><a href="../../da/db7/class_unit.html#a0cb842af542d302eb67b743078e1ac01">Unit::GetHealthPct</a></div><div class="ttdeci">float GetHealthPct() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1446</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__zealot__lorkhan_1_1npc__zealot__lorkhan_a_i_html_a16f44ccff4887ed5bf3dcab1250e70cd"><div class="ttname"><a href="../../d9/df4/structnpc__zealot__lorkhan_1_1npc__zealot__lorkhan_a_i.html#a16f44ccff4887ed5bf3dcab1250e70cd">npc_zealot_lorkhan::npc_zealot_lorkhanAI::_scheduler</a></div><div class="ttdeci">TaskScheduler _scheduler</div><div class="ttdef"><b>Definition:</b> boss_thekal.cpp:361</div></div>
+<div class="ttc" id="azulgurub_8h_html_afb6eb4f28419b652027fad41104a6d22a107858797dc4fd29d6b7b6a1d7590de6"><div class="ttname"><a href="../../dc/df0/zulgurub_8h.html#afb6eb4f28419b652027fad41104a6d22a107858797dc4fd29d6b7b6a1d7590de6">DATA_THEKAL</a></div><div class="ttdeci">@ DATA_THEKAL</div><div class="ttdef"><b>Definition:</b> zulgurub.h:33</div></div>
+<div class="ttc" id="azulgurub_8h_html_afb6eb4f28419b652027fad41104a6d22a6fb6dafeb13f966a4be293589e809949"><div class="ttname"><a href="../../dc/df0/zulgurub_8h.html#afb6eb4f28419b652027fad41104a6d22a6fb6dafeb13f966a4be293589e809949">DATA_ZATH</a></div><div class="ttdeci">@ DATA_ZATH</div><div class="ttdef"><b>Definition:</b> zulgurub.h:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a00842d49683f1a8bc79e64091c0e7721" name="a00842d49683f1a8bc79e64091c0e7721"></a>
@@ -578,7 +632,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  342</span>        {</div>
+<div class="line"><span class="lineno">  343</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/db4/boss__thekal_8cpp.html#a16774215bba3b38580ea51987d64cff1a436e410ce8f1aafb7f7282d41f035b04">EMOTE_ZEALOT_DIES</a>);</div>
+<div class="line"><span class="lineno">  344</span> </div>
+<div class="line"><span class="lineno">  345</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* thekal = <a class="code hl_variable" href="../../d9/df4/structnpc__zealot__lorkhan_1_1npc__zealot__lorkhan_a_i.html#aa4f244f468ca7bbe0060ddfabecfd8c9">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a1541c403bcc65b54c0a2c523c8eaf0b1">GetCreature</a>(<a class="code hl_enumvalue" href="../../dc/df0/zulgurub_8h.html#afb6eb4f28419b652027fad41104a6d22a107858797dc4fd29d6b7b6a1d7590de6">DATA_THEKAL</a>))</div>
+<div class="line"><span class="lineno">  346</span>            {</div>
+<div class="line"><span class="lineno">  347</span>                thekal-&gt;AI()-&gt;SetData(<a class="code hl_enumvalue" href="../../d1/db4/boss__thekal_8cpp.html#a250372292659bed7ae290d8621f88ccfae3bff20470d6c07bfd26f3d4fa8faf97">ACTION_RESSURRECT</a>, <a class="code hl_enumvalue" href="../../dc/df0/zulgurub_8h.html#afb6eb4f28419b652027fad41104a6d22a0c3c72cb67d3f3ee9204ff95714703bc">DATA_LORKHAN</a>);</div>
+<div class="line"><span class="lineno">  348</span>            }</div>
+<div class="line"><span class="lineno">  349</span>        }</div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__thekal_8cpp_html_a16774215bba3b38580ea51987d64cff1a436e410ce8f1aafb7f7282d41f035b04"><div class="ttname"><a href="../../d1/db4/boss__thekal_8cpp.html#a16774215bba3b38580ea51987d64cff1a436e410ce8f1aafb7f7282d41f035b04">EMOTE_ZEALOT_DIES</a></div><div class="ttdeci">@ EMOTE_ZEALOT_DIES</div><div class="ttdef"><b>Definition:</b> boss_thekal.cpp:28</div></div>
+<div class="ttc" id="aboss__thekal_8cpp_html_a250372292659bed7ae290d8621f88ccfae3bff20470d6c07bfd26f3d4fa8faf97"><div class="ttname"><a href="../../d1/db4/boss__thekal_8cpp.html#a250372292659bed7ae290d8621f88ccfae3bff20470d6c07bfd26f3d4fa8faf97">ACTION_RESSURRECT</a></div><div class="ttdeci">@ ACTION_RESSURRECT</div><div class="ttdef"><b>Definition:</b> boss_thekal.cpp:59</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="azulgurub_8h_html_afb6eb4f28419b652027fad41104a6d22a0c3c72cb67d3f3ee9204ff95714703bc"><div class="ttname"><a href="../../dc/df0/zulgurub_8h.html#afb6eb4f28419b652027fad41104a6d22a0c3c72cb67d3f3ee9204ff95714703bc">DATA_LORKHAN</a></div><div class="ttdeci">@ DATA_LORKHAN</div><div class="ttdef"><b>Definition:</b> zulgurub.h:39</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abd2aa2e17f616726629a192274cecd9b" name="abd2aa2e17f616726629a192274cecd9b"></a>
@@ -605,7 +672,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  300</span>        {</div>
+<div class="line"><span class="lineno">  301</span>            <a class="code hl_variable" href="../../d9/df4/structnpc__zealot__lorkhan_1_1npc__zealot__lorkhan_a_i.html#a16f44ccff4887ed5bf3dcab1250e70cd">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">CancelAll</a>();</div>
+<div class="line"><span class="lineno">  302</span> </div>
+<div class="line"><span class="lineno">  303</span>            <a class="code hl_variable" href="../../d9/df4/structnpc__zealot__lorkhan_1_1npc__zealot__lorkhan_a_i.html#a16f44ccff4887ed5bf3dcab1250e70cd">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#af2bb90b6b81ab1cacd9ac56c3d7e11b2">SetValidator</a>([<span class="keyword">this</span>]</div>
+<div class="line"><span class="lineno">  304</span>            {</div>
+<div class="line"><span class="lineno">  305</span>                <span class="keywordflow">return</span> !<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>) &amp;&amp; !<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a46a7576522c3b964bd50388091f95951">HasReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">  306</span>            });</div>
+<div class="line"><span class="lineno">  307</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a></div><div class="ttdeci">@ REACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1023</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aclass_creature_html_a46a7576522c3b964bd50388091f95951"><div class="ttname"><a href="../../d1/dac/class_creature.html#a46a7576522c3b964bd50388091f95951">Creature::HasReactState</a></div><div class="ttdeci">bool HasReactState(ReactStates state) const</div><div class="ttdef"><b>Definition:</b> Creature.h:90</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a05da7a474b80d725c991dde9d24df4a4"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">TaskScheduler::CancelAll</a></div><div class="ttdeci">TaskScheduler &amp; CancelAll()</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:33</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_af2bb90b6b81ab1cacd9ac56c3d7e11b2"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#af2bb90b6b81ab1cacd9ac56c3d7e11b2">TaskScheduler::SetValidator</a></div><div class="ttdeci">TaskScheduler &amp; SetValidator(P &amp;&amp;predicate)</div><div class="ttdoc">Sets a validator which is asked if tasks are allowed to be executed.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:182</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a712f414c6f230da861ef4a6bbeea0d8b" name="a712f414c6f230da861ef4a6bbeea0d8b"></a>
@@ -633,7 +714,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  352</span>        {</div>
+<div class="line"><span class="lineno">  353</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#ac8053a37866fdc948648683c358498a3">GetReactState</a>() != <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a> &amp;&amp; !<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  354</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  355</span> </div>
+<div class="line"><span class="lineno">  356</span>            <a class="code hl_variable" href="../../d9/df4/structnpc__zealot__lorkhan_1_1npc__zealot__lorkhan_a_i.html#a16f44ccff4887ed5bf3dcab1250e70cd">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">Update</a>(diff,</div>
+<div class="line"><span class="lineno">  357</span>                std::bind(&amp;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">ScriptedAI::DoMeleeAttackIfReady</a>, <span class="keyword">this</span>));</div>
+<div class="line"><span class="lineno">  358</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_creature_html_ac8053a37866fdc948648683c358498a3"><div class="ttname"><a href="../../d1/dac/class_creature.html#ac8053a37866fdc948648683c358498a3">Creature::GetReactState</a></div><div class="ttdeci">ReactStates GetReactState() const</div><div class="ttdef"><b>Definition:</b> Creature.h:89</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a35c0891c7aded13c6ae7ecd2e6d480a9"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">TaskScheduler::Update</a></div><div class="ttdeci">TaskScheduler &amp; Update(success_t const &amp;callback=EmptyCallback)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:15</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -674,7 +766,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/ZulGurub/<a class="el" href="../../d1/db4/boss__thekal_8cpp.html">boss_thekal.cpp</a></li>
+<li><a class="el" href="../../">boss_thekal.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -682,7 +774,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d6d/classnpc__zealot__lorkhan.html">npc_zealot_lorkhan</a></li><li class="navelem"><a class="el" href="../../d9/df4/structnpc__zealot__lorkhan_1_1npc__zealot__lorkhan_a_i.html">npc_zealot_lorkhanAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

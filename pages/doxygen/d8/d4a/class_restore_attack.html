@@ -147,7 +147,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a493ef909da834b0befd90f57f54fb10c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dac/class_creature.html">Creature</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4a/class_restore_attack.html#a493ef909da834b0befd90f57f54fb10c">_boss</a></td></tr>
 <tr class="separator:a493ef909da834b0befd90f57f54fb10c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8c5b3b0cbe7f5bfebb1c09987c4066e3" name="a8c5b3b0cbe7f5bfebb1c09987c4066e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8c5b3b0cbe7f5bfebb1c09987c4066e3">&#9670;&#160;</a></span>RestoreAttack()</h2>
 
@@ -171,7 +172,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   78</span>: <a class="code hl_variable" href="../../d8/d4a/class_restore_attack.html#a493ef909da834b0befd90f57f54fb10c">_boss</a>(boss) {}</div>
+<div class="ttc" id="aclass_restore_attack_html_a493ef909da834b0befd90f57f54fb10c"><div class="ttname"><a href="../../d8/d4a/class_restore_attack.html#a493ef909da834b0befd90f57f54fb10c">RestoreAttack::_boss</a></div><div class="ttdeci">Creature * _boss</div><div class="ttdef"><b>Definition:</b> instance_blackrock_depths.cpp:95</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -210,7 +213,30 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   81</span>    {</div>
+<div class="line"><span class="lineno">   82</span>        <a class="code hl_variable" href="../../d8/d4a/class_restore_attack.html#a493ef909da834b0befd90f57f54fb10c">_boss</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno">   83</span>        <a class="code hl_variable" href="../../d8/d4a/class_restore_attack.html#a493ef909da834b0befd90f57f54fb10c">_boss</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a14c40dcfec28989cc630fa571c67ebb7">SetData</a>(<a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22a9a302d8ab42ffcdd4f1309c8530a51cd">DATA_GOLEM_LORD_ARGELMACH_INIT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>);</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* victim = <a class="code hl_variable" href="../../d8/d4a/class_restore_attack.html#a493ef909da834b0befd90f57f54fb10c">_boss</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>())</div>
+<div class="line"><span class="lineno">   86</span>        {</div>
+<div class="line"><span class="lineno">   87</span>            <a class="code hl_variable" href="../../d8/d4a/class_restore_attack.html#a493ef909da834b0befd90f57f54fb10c">_boss</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a50cbb98572134a854c21c0ff8221c380">SetTarget</a>(victim-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">   88</span>            <a class="code hl_variable" href="../../d8/d4a/class_restore_attack.html#a493ef909da834b0befd90f57f54fb10c">_boss</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a3ff14061961bcc5cf1d34842683d90ac">MoveChase</a>(victim);</div>
+<div class="line"><span class="lineno">   89</span>        }</div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   92</span>    }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="ablackrock__depths_8h_html_afb6eb4f28419b652027fad41104a6d22a9a302d8ab42ffcdd4f1309c8530a51cd"><div class="ttname"><a href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22a9a302d8ab42ffcdd4f1309c8530a51cd">DATA_GOLEM_LORD_ARGELMACH_INIT</a></div><div class="ttdeci">@ DATA_GOLEM_LORD_ARGELMACH_INIT</div><div class="ttdef"><b>Definition:</b> blackrock_depths.h:69</div></div>
+<div class="ttc" id="aclass_creature_html_a50cbb98572134a854c21c0ff8221c380"><div class="ttname"><a href="../../d1/dac/class_creature.html#a50cbb98572134a854c21c0ff8221c380">Creature::SetTarget</a></div><div class="ttdeci">void SetTarget(ObjectGuid guid=ObjectGuid::Empty) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3391</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_motion_master_html_a3ff14061961bcc5cf1d34842683d90ac"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a3ff14061961bcc5cf1d34842683d90ac">MotionMaster::MoveChase</a></div><div class="ttdeci">void MoveChase(Unit *target, std::optional&lt; ChaseRange &gt; dist={}, std::optional&lt; ChaseAngle &gt; angle={})</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:299</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a14c40dcfec28989cc630fa571c67ebb7"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a14c40dcfec28989cc630fa571c67ebb7">UnitAI::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:198</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -237,7 +263,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/<a class="el" href="../../d6/d61/instance__blackrock__depths_8cpp.html">instance_blackrock_depths.cpp</a></li>
+<li><a class="el" href="../../">instance_blackrock_depths.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -245,7 +271,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d4a/class_restore_attack.html">RestoreAttack</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

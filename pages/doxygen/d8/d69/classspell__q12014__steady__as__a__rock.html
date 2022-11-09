@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a53263ce51581f36c2df80b49c93fa9d3" name="a53263ce51581f36c2df80b49c93fa9d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a53263ce51581f36c2df80b49c93fa9d3">&#9670;&#160;</a></span>HandleFinish()</h2>
 
@@ -315,7 +316,30 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  158</span>    {</div>
+<div class="line"><span class="lineno">  159</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno">  160</span>        <span class="keywordflow">if</span> (!caster || !caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()) <span class="comment">// caster cant be null, but meh :p</span></div>
+<div class="line"><span class="lineno">  161</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  162</span> </div>
+<div class="line"><span class="lineno">  163</span>        <span class="keywordflow">if</span> (caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(12014 <span class="comment">/*QUEST_STEADY_AS_A_ROCK*/</span>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno">  164</span>        {</div>
+<div class="line"><span class="lineno">  165</span>            <span class="keywordtype">float</span> x = caster-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>() + 3.0f * cos(caster-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>());</div>
+<div class="line"><span class="lineno">  166</span>            <span class="keywordtype">float</span> y = caster-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>() + 3.0f * std::sin(caster-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>());</div>
+<div class="line"><span class="lineno">  167</span>            <span class="keywordtype">float</span> o = caster-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>() &lt; M_PI ? caster-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>() + M_PI : caster-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>() - M_PI;</div>
+<div class="line"><span class="lineno">  168</span>            caster-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ae5570989260234d213323c44ab5fb44c">SummonGameObject</a>(188367, x, y, caster-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>(), o, 0.0f, 0.0f, 0.0f, 0.0f, 60000);</div>
+<div class="line"><span class="lineno">  169</span>        }</div>
+<div class="line"><span class="lineno">  170</span>    }</div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_world_object_html_ae5570989260234d213323c44ab5fb44c"><div class="ttname"><a href="../../db/df7/class_world_object.html#ae5570989260234d213323c44ab5fb44c">WorldObject::SummonGameObject</a></div><div class="ttdeci">GameObject * SummonGameObject(uint32 entry, float x, float y, float z, float ang, float rotation0, float rotation1, float rotation2, float rotation3, uint32 respawnTime, bool checkTransport=true, GOSummonType summonType=GO_SUMMON_TIMED_OR_CORPSE_DESPAWN)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2315</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_a74cabfb8f441acb38e1abd5bf6ecdc84"><div class="ttname"><a href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">Position::GetOrientation</a></div><div class="ttdeci">float GetOrientation() const</div><div class="ttdef"><b>Definition:</b> Position.h:120</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8113f61816473399f0ceab18b104d058" name="a8113f61816473399f0ceab18b104d058"></a>
@@ -368,11 +392,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  173</span>    {</div>
+<div class="line"><span class="lineno">  174</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a05948ff5c05b05d77ed69043972eaa4f">AfterCast</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#aa0eb707cdfb0f2fafeafd6ab32274654">SpellCastFn</a>(<a class="code hl_function" href="../../d8/d69/classspell__q12014__steady__as__a__rock.html#a53263ce51581f36c2df80b49c93fa9d3">spell_q12014_steady_as_a_rock::HandleFinish</a>);</div>
+<div class="line"><span class="lineno">  175</span>    }</div>
+<div class="ttc" id="a_spell_script_8h_html_aa0eb707cdfb0f2fafeafd6ab32274654"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#aa0eb707cdfb0f2fafeafd6ab32274654">SpellCastFn</a></div><div class="ttdeci">#define SpellCastFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:324</div></div>
+<div class="ttc" id="aclass_spell_script_html_a05948ff5c05b05d77ed69043972eaa4f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a05948ff5c05b05d77ed69043972eaa4f">SpellScript::AfterCast</a></div><div class="ttdeci">HookList&lt; CastHandler &gt; AfterCast</div><div class="ttdef"><b>Definition:</b> SpellScript.h:323</div></div>
+<div class="ttc" id="aclassspell__q12014__steady__as__a__rock_html_a53263ce51581f36c2df80b49c93fa9d3"><div class="ttname"><a href="../../d8/d69/classspell__q12014__steady__as__a__rock.html#a53263ce51581f36c2df80b49c93fa9d3">spell_q12014_steady_as_a_rock::HandleFinish</a></div><div class="ttdeci">void HandleFinish()</div><div class="ttdef"><b>Definition:</b> spell_quest.cpp:157</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../db/dfb/spell__quest_8cpp.html">spell_quest.cpp</a></li>
+<li><a class="el" href="../../">spell_quest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -380,7 +410,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d69/classspell__q12014__steady__as__a__rock.html">spell_q12014_steady_as_a_rock</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:23 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

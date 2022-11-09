@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d2/d2e/class_instance_map_script.html'
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">ScriptMgr.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for InstanceMapScript:</div>
 <div class="dyncontent">
@@ -256,7 +256,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a350d328f82cc5e7ea43f3c8779d25a67" name="a350d328f82cc5e7ea43f3c8779d25a67"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a350d328f82cc5e7ea43f3c8779d25a67">&#9670;&#160;</a></span>InstanceMapScript()</h2>
 
@@ -290,7 +291,14 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  348</span>    : <a class="code hl_class" href="../../d0/d5d/class_script_object.html">ScriptObject</a>(name), <a class="code hl_class" href="../../d6/d09/class_map_script.html">MapScript&lt;InstanceMap&gt;</a>(mapId)</div>
+<div class="line"><span class="lineno">  349</span>{</div>
+<div class="line"><span class="lineno">  350</span>    <a class="code hl_function" href="../../dd/da5/class_script_registry.html#aec80d2fe317ee906bafab2efc75e752c">ScriptRegistry&lt;InstanceMapScript&gt;::AddScript</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  351</span>}</div>
+<div class="ttc" id="aclass_map_script_html"><div class="ttname"><a href="../../d6/d09/class_map_script.html">MapScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:283</div></div>
+<div class="ttc" id="aclass_script_object_html"><div class="ttname"><a href="../../d0/d5d/class_script_object.html">ScriptObject</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:107</div></div>
+<div class="ttc" id="aclass_script_registry_html_aec80d2fe317ee906bafab2efc75e752c"><div class="ttname"><a href="../../dd/da5/class_script_registry.html#aec80d2fe317ee906bafab2efc75e752c">ScriptRegistry::AddScript</a></div><div class="ttdeci">static void AddScript(TScript *const script)</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2708</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -318,7 +326,16 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/d5d/class_script_object.html#a585e75e34aed7aa32205daad85f8fe08">ScriptObject</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  353</span>    {</div>
+<div class="line"><span class="lineno">  354</span>        <a class="code hl_function" href="../../d6/d09/class_map_script.html#abf3fbb90119e1ac5d13455217ac95a2f">checkMap</a>();</div>
+<div class="line"><span class="lineno">  355</span> </div>
+<div class="line"><span class="lineno">  356</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d6/d09/class_map_script.html#aa2da3eeec627cb67719d774d35f03488">GetEntry</a>() &amp;&amp; !<a class="code hl_function" href="../../d6/d09/class_map_script.html#aa2da3eeec627cb67719d774d35f03488">GetEntry</a>()-&gt;IsDungeon())</div>
+<div class="line"><span class="lineno">  357</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;maps.script&quot;</span>, <span class="stringliteral">&quot;InstanceMapScript for map {} is invalid.&quot;</span>, <a class="code hl_function" href="../../d6/d09/class_map_script.html#aa2da3eeec627cb67719d774d35f03488">GetEntry</a>()-&gt;MapID);</div>
+<div class="line"><span class="lineno">  358</span>    }</div>
+<div class="ttc" id="a_log_8h_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+<div class="ttc" id="aclass_map_script_html_aa2da3eeec627cb67719d774d35f03488"><div class="ttname"><a href="../../d6/d09/class_map_script.html#aa2da3eeec627cb67719d774d35f03488">MapScript&lt; InstanceMap &gt;::GetEntry</a></div><div class="ttdeci">MapEntry const * GetEntry()</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:303</div></div>
+<div class="ttc" id="aclass_map_script_html_abf3fbb90119e1ac5d13455217ac95a2f"><div class="ttname"><a href="../../d6/d09/class_map_script.html#abf3fbb90119e1ac5d13455217ac95a2f">MapScript&lt; InstanceMap &gt;::checkMap</a></div><div class="ttdeci">void checkMap()</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:294</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa5a9acfc5a7c81a4953fe0e296f9bcc8" name="aa5a9acfc5a7c81a4953fe0e296f9bcc8"></a>
@@ -346,7 +363,8 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../d5/d5a/classinstance__blackrock__depths.html#af8f8c9929cae50c098efc5a0dbdd727a">instance_blackrock_depths</a>, <a class="el" href="../../d2/d84/classinstance__blackrock__spire.html#a5ee2cc38a36ce2cd8c1196ce9f687e2a">instance_blackrock_spire</a>, <a class="el" href="../../d7/d22/classinstance__blackwing__lair.html#a70aff4e1bb406f232d0b4961037ed0a1">instance_blackwing_lair</a>, <a class="el" href="../../d1/dd4/classinstance__molten__core.html#ab7c794f1503f0ecad8d41ace72737a5d">instance_molten_core</a>, <a class="el" href="../../d6/d93/classinstance__deadmines.html#ac5cb65972d52324cedf662cc44dca626">instance_deadmines</a>, <a class="el" href="../../d8/d73/classinstance__gnomeregan.html#ad2130ba5eb3cd37cd2cc464a62381eda">instance_gnomeregan</a>, <a class="el" href="../../d5/d12/classinstance__karazhan.html#a4ce148ba13d0541ad2aaecdd1ed2f3a5">instance_karazhan</a>, <a class="el" href="../../d4/dae/classinstance__magisters__terrace.html#a465cbaebb13535cdb7f6a2108e026fc5">instance_magisters_terrace</a>, <a class="el" href="../../dc/dbd/classinstance__scarlet__monastery.html#a1c66031217457809fbe56303085715a0">instance_scarlet_monastery</a>, <a class="el" href="../../d2/d21/classinstance__scholomance.html#a9e2030e41154c92dbe45d7895ddf37b8">instance_scholomance</a>, <a class="el" href="../../d8/d18/classinstance__shadowfang__keep.html#a5c076ed86470247de5b4e3733b70fa25">instance_shadowfang_keep</a>, <a class="el" href="../../df/d5b/classinstance__stratholme.html#a3d3d2e773029dd1c4bc1a59a94c4e015">instance_stratholme</a>, <a class="el" href="../../d1/db4/classinstance__sunken__temple.html#a1a783056b681f1f3b90e2e33e6a4a86d">instance_sunken_temple</a>, <a class="el" href="../../d3/d67/classinstance__sunwell__plateau.html#a5960785a845c87e2e1730cfd865b44b4">instance_sunwell_plateau</a>, <a class="el" href="../../d0/d0a/classinstance__the__stockade.html#a7a5a4adcd71ae5d22e6729a2d11d68d3">instance_the_stockade</a>, <a class="el" href="../../d4/d46/classinstance__uldaman.html#a672bb8b5a16d29d25a191ab90d8007b4">instance_uldaman</a>, <a class="el" href="../../d2/d4a/classinstance__zulaman.html#a2144a517b22c5d6e7f6cc31d344669fc">instance_zulaman</a>, <a class="el" href="../../d3/db1/classinstance__zulgurub.html#a51f17d1135c7e97ff082d0d95ec3ffa4">instance_zulgurub</a>, <a class="el" href="../../d8/d90/classinstance__blackfathom__deeps.html#a62cdab4f3118ab030b4ef55243690f73">instance_blackfathom_deeps</a>, <a class="el" href="../../d9/d64/classinstance__hyjal.html#ae6e39933d7cfd6563f6d37636f1c6f68">instance_hyjal</a>, <a class="el" href="../../df/dff/classinstance__old__hillsbrad.html#a1929c38b1c745b2df1ccaf462113e220">instance_old_hillsbrad</a>, <a class="el" href="../../dd/d34/classinstance__the__black__morass.html#a44b01fc7ab23c8f4ecfa1e375a237463">instance_the_black_morass</a>, <a class="el" href="../../d6/de1/classinstance__dire__maul.html#a7fc2511e0c9475512286006f0bbaed0b">instance_dire_maul</a>, <a class="el" href="../../d5/de5/classinstance__maraudon.html#ac4f5c7c3ee755226449c96b3e351f12d">instance_maraudon</a>, <a class="el" href="../../de/da5/classinstance__ragefire__chasm.html#a0568996a61ef91688b9f223cb3782e5a">instance_ragefire_chasm</a>, <a class="el" href="../../d5/d96/classinstance__razorfen__downs.html#a5010fc2704c3c699e39bf969f6f6ce2c">instance_razorfen_downs</a>, <a class="el" href="../../d8/dad/classinstance__razorfen__kraul.html#a78e77010ebb055b9530733ca25533110">instance_razorfen_kraul</a>, <a class="el" href="../../d9/d4a/classinstance__ruins__of__ahnqiraj.html#a6a661e961c2599498de0ccd41c0763b4">instance_ruins_of_ahnqiraj</a>, <a class="el" href="../../db/d47/classinstance__temple__of__ahnqiraj.html#a9e3060d9f2188f410da8aa3e9526e79d">instance_temple_of_ahnqiraj</a>, <a class="el" href="../../d6/d2a/classinstance__wailing__caverns.html#a0f1020e86443d6902b3c4d8726f3e610">instance_wailing_caverns</a>, <a class="el" href="../../d5/d4b/classinstance__zulfarrak.html#a5f092341e49848c9d321452be2193d56">instance_zulfarrak</a>, <a class="el" href="../../d5/dc6/classinstance__ahnkahet.html#a8847099c88f11de363c45e27998f10b7">instance_ahnkahet</a>, <a class="el" href="../../d6/dba/classinstance__azjol__nerub.html#a8bb8477669c6369afe508a400bd4d489">instance_azjol_nerub</a>, <a class="el" href="../../da/da9/classinstance__ruby__sanctum.html#ad0329f328d4be2c475d8bcd5ccefd4e1">instance_ruby_sanctum</a>, <a class="el" href="../../d3/dd7/classinstance__trial__of__the__crusader.html#a792034e9e5687bf5fa543175692bed66">instance_trial_of_the_crusader</a>, <a class="el" href="../../d5/d26/classinstance__drak__tharon__keep.html#aca6364452dc39e747af152695d479bf8">instance_drak_tharon_keep</a>, <a class="el" href="../../d1/d0a/classinstance__forge__of__souls.html#a64982b527cfa6057315b8e628549480b">instance_forge_of_souls</a>, <a class="el" href="../../de/d9d/classinstance__pit__of__saron.html#a2a1bc125bfe653a1da8b8c36b86aae67">instance_pit_of_saron</a>, <a class="el" href="../../de/d58/classinstance__icecrown__citadel.html#a787c32626681f15f5515385a9ba6b848">instance_icecrown_citadel</a>, <a class="el" href="../../d2/d71/classinstance__nexus.html#a156210ba08caa0572c775dbd5851b250">instance_nexus</a>, <a class="el" href="../../d3/d44/classinstance__vault__of__archavon.html#abb955a8873a3a3021e164225dd1f857a">instance_vault_of_archavon</a>, <a class="el" href="../../d0/d0b/classinstance__auchenai__crypts.html#a99e47df95fde07d4a6e7687634805b93">instance_auchenai_crypts</a>, <a class="el" href="../../d4/dd8/classinstance__mana__tombs.html#a26e4dad0957df886bc446396ab48ceda">instance_mana_tombs</a>, <a class="el" href="../../d3/da0/classinstance__sethekk__halls.html#adc07afe1aa8132f70474f9a534ecb76c">instance_sethekk_halls</a>, <a class="el" href="../../d9/d8c/classinstance__shadow__labyrinth.html#af9edf624413593a5cdf025dd9a1c3631">instance_shadow_labyrinth</a>, <a class="el" href="../../d6/dfd/classinstance__black__temple.html#a947a1279eabde75d9884b1ef84b295a3">instance_black_temple</a>, <a class="el" href="../../d3/df0/classinstance__serpent__shrine.html#aa81add2f4aeb8b2084bcc81c05b606c7">instance_serpent_shrine</a>, <a class="el" href="../../de/df3/classinstance__the__slave__pens.html#a0eedcecf1ddc27e139898cacf6f48965">instance_the_slave_pens</a>, <a class="el" href="../../d5/de7/classinstance__steam__vault.html#a3a2edb84cc7067d3c8fa2151b4763c5a">instance_steam_vault</a>, <a class="el" href="../../d0/d3d/classinstance__the__underbog.html#ace939fb7fd89e7c9c84c17d3ca31208b">instance_the_underbog</a>, <a class="el" href="../../d3/dee/classinstance__gruuls__lair.html#ab8b5b000f6099111244b4ea48f0ab029">instance_gruuls_lair</a>, <a class="el" href="../../df/d68/classinstance__blood__furnace.html#a885ba94e1777dfd6586daca304622d3d">instance_blood_furnace</a>, <a class="el" href="../../d9/df9/classinstance__hellfire__ramparts.html#a6f2dc361984b33c1d14d62d67a563e8d">instance_hellfire_ramparts</a>, <a class="el" href="../../d3/d9c/classinstance__magtheridons__lair.html#a6c9cc959cf4f294e6173d244f54bcd02">instance_magtheridons_lair</a>, <a class="el" href="../../d7/d5b/classinstance__shattered__halls.html#a82388466811b022a725ba721845cadf3">instance_shattered_halls</a>, <a class="el" href="../../df/d3c/classinstance__arcatraz.html#ad3f78e41ef2c96443ed3bd1ba4ab55bb">instance_arcatraz</a>, <a class="el" href="../../d8/d92/classinstance__the__botanica.html#a335f671443ca0fb9db5956cefdf37182">instance_the_botanica</a>, <a class="el" href="../../db/d8d/classinstance__the__eye.html#a811c7d161469f33ce4fb7d792ce30a4e">instance_the_eye</a>, <a class="el" href="../../dd/d01/classinstance__mechanar.html#ae8e9810a9bfd6b0ec256dd6a288392ed">instance_mechanar</a>, <a class="el" href="../../d6/d9c/classinstance__culling__of__stratholme.html#ad8cbcb198666d44d79d6255d066c8315">instance_culling_of_stratholme</a>, <a class="el" href="../../d6/dec/classinstance__onyxias__lair.html#abbdc474ce17bca0cb55180661c5204a8">instance_onyxias_lair</a>, <a class="el" href="../../d1/d6f/classinstance__obsidian__sanctum.html#a67acb36f65c1bc3d6eca59bf71a5c220">instance_obsidian_sanctum</a>, <a class="el" href="../../d3/d20/classinstance__trial__of__the__champion.html#a9227119fc47f38cd82a1fc07c04b0c86">instance_trial_of_the_champion</a>, <a class="el" href="../../db/dd7/classinstance__halls__of__reflection.html#aca27a4f654f41fe6f238c905b48285b7">instance_halls_of_reflection</a>, <a class="el" href="../../d7/d62/classinstance__gundrak.html#a738b4ea54d1e0d7b1db90b9cc3a9c83c">instance_gundrak</a>, <a class="el" href="../../d3/d5d/classinstance__naxxramas.html#ac5dd8d591af2239faab17727eb1ef66e">instance_naxxramas</a>, <a class="el" href="../../dc/ddc/classinstance__eye__of__eternity.html#af51319609d355fe87a77a87eb697f434">instance_eye_of_eternity</a>, <a class="el" href="../../d6/dba/classinstance__oculus.html#ae6d28dfd615e79d4308e4384b7c8857f">instance_oculus</a>, <a class="el" href="../../d5/d0f/classinstance__halls__of__lightning.html#a5ce157aeaf2ed78e98e864059a599b36">instance_halls_of_lightning</a>, <a class="el" href="../../d1/d06/classinstance__halls__of__stone.html#a784906c7710a216016101cf7a6a915f3">instance_halls_of_stone</a>, <a class="el" href="../../d8/dc2/classinstance__ulduar.html#ad15f003a90e656910fc32d661ca9baba">instance_ulduar</a>, <a class="el" href="../../d6/d03/classinstance__utgarde__keep.html#a9a42e0dde1c7598eb2ef665f11e25e92">instance_utgarde_keep</a>, <a class="el" href="../../dc/d74/classinstance__utgarde__pinnacle.html#a41bd06d5f42b09193c5f1b2bbb2323ac">instance_utgarde_pinnacle</a>, and <a class="el" href="../../d1/d06/classinstance__violet__hold.html#aeedcbb24b0709bd172ebbbc6d9851532">instance_violet_hold</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  361</span>{ <span class="keywordflow">return</span> <span class="keyword">nullptr</span>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab77651bb427813a7e119057c3dc53ca8" name="ab77651bb427813a7e119057c3dc53ca8"></a>
@@ -373,12 +391,13 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/d5d/class_script_object.html#a37da453729d5c8fbe2d06f905563f47c">ScriptObject</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  350</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Scripting/<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Scripting/<a class="el" href="../../dd/d96/_script_mgr_8cpp.html">ScriptMgr.cpp</a></li>
+<li><a class="el" href="../../">ScriptMgr.h</a></li>
+<li><a class="el" href="../../">ScriptMgr.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -386,7 +405,7 @@ Protected Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d2e/class_instance_map_script.html">InstanceMapScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

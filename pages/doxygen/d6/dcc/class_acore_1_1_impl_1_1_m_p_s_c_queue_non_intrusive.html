@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('d6/dcc/class_acore_1_1_impl_1_1_m_p_s_
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d8/dc5/_m_p_s_c_queue_8h_source.html">MPSCQueue.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">MPSCQueue.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -147,7 +147,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a8a568d842fc8da8e39b325b459cdb44d"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; <a class="el" href="../../dc/dc3/struct_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive_1_1_node.html">Node</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dcc/class_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive.html#a8a568d842fc8da8e39b325b459cdb44d">_tail</a></td></tr>
 <tr class="separator:a8a568d842fc8da8e39b325b459cdb44d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+class Acore::Impl::MPSCQueueNonIntrusive&lt; T &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a962c10fff5c86b00cc2e847ae758b9ce" name="a962c10fff5c86b00cc2e847ae758b9ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a962c10fff5c86b00cc2e847ae758b9ce">&#9670;&#160;</a></span>MPSCQueueNonIntrusive() <span class="overload">[1/2]</span></h2>
 
@@ -172,7 +174,14 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   33</span>                                : <a class="code hl_variable" href="../../d6/dcc/class_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive.html#a2fb1ef015f7b9a790ba1af73dc80ba35">_head</a>(<span class="keyword">new</span> Node()), <a class="code hl_variable" href="../../d6/dcc/class_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive.html#a8a568d842fc8da8e39b325b459cdb44d">_tail</a>(<a class="code hl_variable" href="../../d6/dcc/class_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive.html#a2fb1ef015f7b9a790ba1af73dc80ba35">_head</a>.load(std::memory_order_relaxed))</div>
+<div class="line"><span class="lineno">   34</span>        {</div>
+<div class="line"><span class="lineno">   35</span>            Node* front = <a class="code hl_variable" href="../../d6/dcc/class_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive.html#a2fb1ef015f7b9a790ba1af73dc80ba35">_head</a>.load(std::memory_order_relaxed);</div>
+<div class="line"><span class="lineno">   36</span>            front-&gt;Next.store(<span class="keyword">nullptr</span>, std::memory_order_relaxed);</div>
+<div class="line"><span class="lineno">   37</span>        }</div>
+<div class="ttc" id="aclass_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive_html_a2fb1ef015f7b9a790ba1af73dc80ba35"><div class="ttname"><a href="../../d6/dcc/class_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive.html#a2fb1ef015f7b9a790ba1af73dc80ba35">Acore::Impl::MPSCQueueNonIntrusive::_head</a></div><div class="ttdeci">std::atomic&lt; Node * &gt; _head</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:82</div></div>
+<div class="ttc" id="aclass_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive_html_a8a568d842fc8da8e39b325b459cdb44d"><div class="ttname"><a href="../../d6/dcc/class_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive.html#a8a568d842fc8da8e39b325b459cdb44d">Acore::Impl::MPSCQueueNonIntrusive::_tail</a></div><div class="ttdeci">std::atomic&lt; Node * &gt; _tail</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:83</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a599e2093215f70dc4f2f7db08965d816" name="a599e2093215f70dc4f2f7db08965d816"></a>
@@ -199,7 +208,16 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   40</span>        {</div>
+<div class="line"><span class="lineno">   41</span>            T* output;</div>
+<div class="line"><span class="lineno">   42</span>            <span class="keywordflow">while</span> (<a class="code hl_function" href="../../d6/dcc/class_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive.html#abadcc4a4ff97f4fa132978fbd0f37e1d">Dequeue</a>(output))</div>
+<div class="line"><span class="lineno">   43</span>                <span class="keyword">delete</span> output;</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>            Node* front = <a class="code hl_variable" href="../../d6/dcc/class_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive.html#a2fb1ef015f7b9a790ba1af73dc80ba35">_head</a>.load(std::memory_order_relaxed);</div>
+<div class="line"><span class="lineno">   46</span>            <span class="keyword">delete</span> front;</div>
+<div class="line"><span class="lineno">   47</span>        }</div>
+<div class="ttc" id="aclass_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive_html_abadcc4a4ff97f4fa132978fbd0f37e1d"><div class="ttname"><a href="../../d6/dcc/class_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive.html#abadcc4a4ff97f4fa132978fbd0f37e1d">Acore::Impl::MPSCQueueNonIntrusive::Dequeue</a></div><div class="ttdeci">bool Dequeue(T *&amp;result)</div><div class="ttdef"><b>Definition:</b> MPSCQueue.h:56</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2d543ed2b5d1ab7f23ad82ee156e42ea" name="a2d543ed2b5d1ab7f23ad82ee156e42ea"></a>
@@ -256,7 +274,18 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   57</span>        {</div>
+<div class="line"><span class="lineno">   58</span>            Node* tail = <a class="code hl_variable" href="../../d6/dcc/class_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive.html#a8a568d842fc8da8e39b325b459cdb44d">_tail</a>.load(std::memory_order_relaxed);</div>
+<div class="line"><span class="lineno">   59</span>            Node* next = tail-&gt;Next.load(std::memory_order_acquire);</div>
+<div class="line"><span class="lineno">   60</span>            <span class="keywordflow">if</span> (!next)</div>
+<div class="line"><span class="lineno">   61</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span>            result = next-&gt;Data;</div>
+<div class="line"><span class="lineno">   64</span>            <a class="code hl_variable" href="../../d6/dcc/class_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive.html#a8a568d842fc8da8e39b325b459cdb44d">_tail</a>.store(next, std::memory_order_release);</div>
+<div class="line"><span class="lineno">   65</span>            <span class="keyword">delete</span> tail;</div>
+<div class="line"><span class="lineno">   66</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   67</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a63d8a4e4c085467d33d56fd3adf0f751" name="a63d8a4e4c085467d33d56fd3adf0f751"></a>
@@ -284,7 +313,12 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   50</span>        {</div>
+<div class="line"><span class="lineno">   51</span>            Node* node = <span class="keyword">new</span> Node(input);</div>
+<div class="line"><span class="lineno">   52</span>            Node* prevHead = <a class="code hl_variable" href="../../d6/dcc/class_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive.html#a2fb1ef015f7b9a790ba1af73dc80ba35">_head</a>.exchange(node, std::memory_order_acq_rel);</div>
+<div class="line"><span class="lineno">   53</span>            prevHead-&gt;Next.store(node, std::memory_order_release);</div>
+<div class="line"><span class="lineno">   54</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a75063e89049903fb5305d67ea1a02034" name="a75063e89049903fb5305d67ea1a02034"></a>
@@ -365,7 +399,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Threading/<a class="el" href="../../d8/dc5/_m_p_s_c_queue_8h_source.html">MPSCQueue.h</a></li>
+<li><a class="el" href="../../">MPSCQueue.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -373,7 +407,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../d1/da6/namespace_acore_1_1_impl.html">Impl</a></li><li class="navelem"><a class="el" href="../../d6/dcc/class_acore_1_1_impl_1_1_m_p_s_c_queue_non_intrusive.html">MPSCQueueNonIntrusive</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -409,7 +409,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa719d87c65294fc483b424b125619a10" name="aa719d87c65294fc483b424b125619a10"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa719d87c65294fc483b424b125619a10">&#9670;&#160;</a></span>npc_boss_gothik_minionAI()</h2>
 
@@ -433,7 +434,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  530</span>                                                       : <a class="code hl_class" href="../../de/d10/class_combat_a_i.html">CombatAI</a>(c)</div>
+<div class="line"><span class="lineno">  531</span>        {</div>
+<div class="line"><span class="lineno">  532</span>            <a class="code hl_variable" href="../../d9/d25/structnpc__boss__gothik__minion_1_1npc__boss__gothik__minion_a_i.html#a2545d00e04bae9ee0a1bf9f9d6162c74">livingSide</a> = <a class="code hl_define" href="../../d8/db8/boss__gothik_8cpp.html#ad42058ab3d240d516651468d3d624008">IN_LIVE_SIDE</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>);</div>
+<div class="line"><span class="lineno">  533</span>        }</div>
+<div class="ttc" id="aboss__gothik_8cpp_html_ad42058ab3d240d516651468d3d624008"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#ad42058ab3d240d516651468d3d624008">IN_LIVE_SIDE</a></div><div class="ttdeci">#define IN_LIVE_SIDE(who)</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:173</div></div>
+<div class="ttc" id="aclass_combat_a_i_html"><div class="ttname"><a href="../../de/d10/class_combat_a_i.html">CombatAI</a></div><div class="ttdef"><b>Definition:</b> CombatAI.h:40</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="astructnpc__boss__gothik__minion_1_1npc__boss__gothik__minion_a_i_html_a2545d00e04bae9ee0a1bf9f9d6162c74"><div class="ttname"><a href="../../d9/d25/structnpc__boss__gothik__minion_1_1npc__boss__gothik__minion_a_i.html#a2545d00e04bae9ee0a1bf9f9d6162c74">npc_boss_gothik_minion::npc_boss_gothik_minionAI::livingSide</a></div><div class="ttdeci">bool livingSide</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:535</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -484,7 +493,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#aca924c2f1f249c2dcffaaea0fa35cd91">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  575</span>        {</div>
+<div class="line"><span class="lineno">  576</span>            <span class="keywordflow">if</span> (!attacker || !<a class="code hl_function" href="../../d9/d25/structnpc__boss__gothik__minion_1_1npc__boss__gothik__minion_a_i.html#a7d305be5e3d66c1317fa91e588223da0">IsOnSameSide</a>(attacker))</div>
+<div class="line"><span class="lineno">  577</span>            {</div>
+<div class="line"><span class="lineno">  578</span>                damage = 0;</div>
+<div class="line"><span class="lineno">  579</span>            }</div>
+<div class="line"><span class="lineno">  580</span> </div>
+<div class="line"><span class="lineno">  581</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">IsInCombat</a>())</div>
+<div class="line"><span class="lineno">  582</span>            {</div>
+<div class="line"><span class="lineno">  583</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#ad32f2bf50c234d1a512e6123d0b4c4ef">CallForHelp</a>(25.0f);</div>
+<div class="line"><span class="lineno">  584</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">AttackStart</a>(attacker);</div>
+<div class="line"><span class="lineno">  585</span>            }</div>
+<div class="line"><span class="lineno">  586</span>        }</div>
+<div class="ttc" id="aclass_creature_html_ad32f2bf50c234d1a512e6123d0b4c4ef"><div class="ttname"><a href="../../d1/dac/class_creature.html#ad32f2bf50c234d1a512e6123d0b4c4ef">Creature::CallForHelp</a></div><div class="ttdeci">void CallForHelp(float fRadius, Unit *target=nullptr)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2375</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_ae120634c255d365f1567e341e2cf1feb"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">UnitAI::AttackStart</a></div><div class="ttdeci">virtual void AttackStart(Unit *)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:28</div></div>
+<div class="ttc" id="aclass_unit_html_af5e75d013dfa8a8b888d7714992e3f2a"><div class="ttname"><a href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">Unit::IsInCombat</a></div><div class="ttdeci">bool IsInCombat() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1685</div></div>
+<div class="ttc" id="astructnpc__boss__gothik__minion_1_1npc__boss__gothik__minion_a_i_html_a7d305be5e3d66c1317fa91e588223da0"><div class="ttname"><a href="../../d9/d25/structnpc__boss__gothik__minion_1_1npc__boss__gothik__minion_a_i.html#a7d305be5e3d66c1317fa91e588223da0">npc_boss_gothik_minion::npc_boss_gothik_minionAI::IsOnSameSide</a></div><div class="ttdeci">bool IsOnSameSide(Unit const *who) const</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:536</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2a64f078707fab0affc17a9c769b9291" name="a2a64f078707fab0affc17a9c769b9291"></a>
@@ -512,7 +537,52 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d10/class_combat_a_i.html#a1ee949cd3c10a8b1b5e6ab2be4af941e">CombatAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  546</span>        {</div>
+<div class="line"><span class="lineno">  547</span>            <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">  548</span>            {</div>
+<div class="line"><span class="lineno">  549</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ae05dc092bb50bad35884fc7f2c334fb5">NPC_LIVING_TRAINEE</a>:</div>
+<div class="line"><span class="lineno">  550</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afefc42e540b189283452d0f6c0bfd77a">EVENT_DEATH_PLAGUE</a>, 3000);</div>
+<div class="line"><span class="lineno">  551</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  552</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a1830c90f849c52241e5c68234fd374ef">NPC_DEAD_TRAINEE</a>:</div>
+<div class="line"><span class="lineno">  553</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a77555109b1c145d26a3e4e3faa3e37a5">EVENT_ARCANE_EXPLOSION</a>, 2500);</div>
+<div class="line"><span class="lineno">  554</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  555</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab20f5b26ef86cfaf2a6a061d6687358b">NPC_LIVING_KNIGHT</a>:</div>
+<div class="line"><span class="lineno">  556</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a0c617e9f95a3797c617dab880f4ba5eb">EVENT_SHADOW_MARK</a>, 3000);</div>
+<div class="line"><span class="lineno">  557</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  558</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a523968170d66b0e44feedbac7613b293">NPC_DEAD_KNIGHT</a>:</div>
+<div class="line"><span class="lineno">  559</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a4e49fde4fe8ce8fa992cf9a3a4584afc">EVENT_WHIRLWIND</a>, 2000);</div>
+<div class="line"><span class="lineno">  560</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  561</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3c2797ff0e2e93812a085e7d0436a5ab">NPC_LIVING_RIDER</a>:</div>
+<div class="line"><span class="lineno">  562</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a2867ab9328928a5bdaab3248d0a6c7c2">EVENT_SHADOW_BOLT_VOLLEY</a>, 3000);</div>
+<div class="line"><span class="lineno">  563</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  564</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a4d25f01fd5e72e1023957bc915f3ba25">NPC_DEAD_RIDER</a>:</div>
+<div class="line"><span class="lineno">  565</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a1f96723b5b114cf38ca6d3951c892582">EVENT_DRAIN_LIFE</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(2000, 3500));</div>
+<div class="line"><span class="lineno">  566</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a333bb1129ecc500d80874b29d49b168f">EVENT_UNHOLY_FRENZY</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(5000, 9000));</div>
+<div class="line"><span class="lineno">  567</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  568</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a0e1fee0705041a2baf901bff8a3ffe5e">NPC_DEAD_HORSE</a>:</div>
+<div class="line"><span class="lineno">  569</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aae6a7bd26e8ee17a505a5f6c6f720316">EVENT_STOMP</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(2000, 5000));</div>
+<div class="line"><span class="lineno">  570</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  571</span>            }</div>
+<div class="line"><span class="lineno">  572</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a0e1fee0705041a2baf901bff8a3ffe5e"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a0e1fee0705041a2baf901bff8a3ffe5e">NPC_DEAD_HORSE</a></div><div class="ttdeci">@ NPC_DEAD_HORSE</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:82</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a1830c90f849c52241e5c68234fd374ef"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a1830c90f849c52241e5c68234fd374ef">NPC_DEAD_TRAINEE</a></div><div class="ttdeci">@ NPC_DEAD_TRAINEE</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:80</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a3c2797ff0e2e93812a085e7d0436a5ab"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3c2797ff0e2e93812a085e7d0436a5ab">NPC_LIVING_RIDER</a></div><div class="ttdeci">@ NPC_LIVING_RIDER</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:79</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a4d25f01fd5e72e1023957bc915f3ba25"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a4d25f01fd5e72e1023957bc915f3ba25">NPC_DEAD_RIDER</a></div><div class="ttdeci">@ NPC_DEAD_RIDER</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:83</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a523968170d66b0e44feedbac7613b293"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a523968170d66b0e44feedbac7613b293">NPC_DEAD_KNIGHT</a></div><div class="ttdeci">@ NPC_DEAD_KNIGHT</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:81</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6ab20f5b26ef86cfaf2a6a061d6687358b"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab20f5b26ef86cfaf2a6a061d6687358b">NPC_LIVING_KNIGHT</a></div><div class="ttdeci">@ NPC_LIVING_KNIGHT</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:78</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6ae05dc092bb50bad35884fc7f2c334fb5"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ae05dc092bb50bad35884fc7f2c334fb5">NPC_LIVING_TRAINEE</a></div><div class="ttdeci">@ NPC_LIVING_TRAINEE</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:77</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a0c617e9f95a3797c617dab880f4ba5eb"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a0c617e9f95a3797c617dab880f4ba5eb">EVENT_SHADOW_MARK</a></div><div class="ttdeci">@ EVENT_SHADOW_MARK</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:101</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a1f96723b5b114cf38ca6d3951c892582"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a1f96723b5b114cf38ca6d3951c892582">EVENT_DRAIN_LIFE</a></div><div class="ttdeci">@ EVENT_DRAIN_LIFE</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:107</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a2867ab9328928a5bdaab3248d0a6c7c2"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a2867ab9328928a5bdaab3248d0a6c7c2">EVENT_SHADOW_BOLT_VOLLEY</a></div><div class="ttdeci">@ EVENT_SHADOW_BOLT_VOLLEY</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:105</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a333bb1129ecc500d80874b29d49b168f"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a333bb1129ecc500d80874b29d49b168f">EVENT_UNHOLY_FRENZY</a></div><div class="ttdeci">@ EVENT_UNHOLY_FRENZY</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:108</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a4e49fde4fe8ce8fa992cf9a3a4584afc"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a4e49fde4fe8ce8fa992cf9a3a4584afc">EVENT_WHIRLWIND</a></div><div class="ttdeci">@ EVENT_WHIRLWIND</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:103</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a77555109b1c145d26a3e4e3faa3e37a5"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a77555109b1c145d26a3e4e3faa3e37a5">EVENT_ARCANE_EXPLOSION</a></div><div class="ttdeci">@ EVENT_ARCANE_EXPLOSION</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:99</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_af60e00b78607064c5be6aa9397ea49c1aae6a7bd26e8ee17a505a5f6c6f720316"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aae6a7bd26e8ee17a505a5f6c6f720316">EVENT_STOMP</a></div><div class="ttdeci">@ EVENT_STOMP</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:110</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_af60e00b78607064c5be6aa9397ea49c1afefc42e540b189283452d0f6c0bfd77a"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afefc42e540b189283452d0f6c0bfd77a">EVENT_DEATH_PLAGUE</a></div><div class="ttdeci">@ EVENT_DEATH_PLAGUE</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:97</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7d305be5e3d66c1317fa91e588223da0" name="a7d305be5e3d66c1317fa91e588223da0"></a>
@@ -538,7 +608,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  536</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/d25/structnpc__boss__gothik__minion_1_1npc__boss__gothik__minion_a_i.html#a2545d00e04bae9ee0a1bf9f9d6162c74">livingSide</a> == <a class="code hl_define" href="../../d8/db8/boss__gothik_8cpp.html#ad42058ab3d240d516651468d3d624008">IN_LIVE_SIDE</a>(who); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a752b6eab9cf1b016962c6f535586b59d" name="a752b6eab9cf1b016962c6f535586b59d"></a>
@@ -566,7 +637,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d10/class_combat_a_i.html#a9176b9b9c7a5e13fb05dae636c7ef2d4">CombatAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  589</span>        {</div>
+<div class="line"><span class="lineno">  590</span>            <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">  591</span>            {</div>
+<div class="line"><span class="lineno">  592</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ae05dc092bb50bad35884fc7f2c334fb5">NPC_LIVING_TRAINEE</a>:</div>
+<div class="line"><span class="lineno">  593</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca08b4dbd948ace76f6b4f7368a30d29af">SPELL_INFORM_LIVING_TRAINEE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  594</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  595</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab20f5b26ef86cfaf2a6a061d6687358b">NPC_LIVING_KNIGHT</a>:</div>
+<div class="line"><span class="lineno">  596</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca1c6e846319139b0f50c4adab8e3ba6e4">SPELL_INFORM_LIVING_KNIGHT</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  597</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  598</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3c2797ff0e2e93812a085e7d0436a5ab">NPC_LIVING_RIDER</a>:</div>
+<div class="line"><span class="lineno">  599</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca1ba31664c6eb184868390d50dfb042a8">SPELL_INFORM_LIVING_RIDER</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  600</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  601</span>            }</div>
+<div class="line"><span class="lineno">  602</span>        }</div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a5bd342133be8c2137b831460acc9298ca08b4dbd948ace76f6b4f7368a30d29af"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca08b4dbd948ace76f6b4f7368a30d29af">SPELL_INFORM_LIVING_TRAINEE</a></div><div class="ttdeci">@ SPELL_INFORM_LIVING_TRAINEE</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:49</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a5bd342133be8c2137b831460acc9298ca1ba31664c6eb184868390d50dfb042a8"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca1ba31664c6eb184868390d50dfb042a8">SPELL_INFORM_LIVING_RIDER</a></div><div class="ttdeci">@ SPELL_INFORM_LIVING_RIDER</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:51</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a5bd342133be8c2137b831460acc9298ca1c6e846319139b0f50c4adab8e3ba6e4"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca1c6e846319139b0f50c4adab8e3ba6e4">SPELL_INFORM_LIVING_KNIGHT</a></div><div class="ttdeci">@ SPELL_INFORM_LIVING_KNIGHT</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:50</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6a09440d623dcee51b7e0d4ed77d624e" name="a6a09440d623dcee51b7e0d4ed77d624e"></a>
@@ -594,7 +683,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#ab9ec4de552a9f0b08b8494bb782eed58">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  605</span>        {</div>
+<div class="line"><span class="lineno">  606</span>            <span class="keywordflow">if</span> (who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a> &amp;&amp; <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno">  607</span>            {</div>
+<div class="line"><span class="lineno">  608</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>()-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d6/d84/naxxramas_8h.html#a50b8d798ed90e15f1532f6d604c62740a8f8b30616e2ccea74a2d082dcfaa2aea">DATA_IMMORTAL_FAIL</a>, 0);</div>
+<div class="line"><span class="lineno">  609</span>            }</div>
+<div class="line"><span class="lineno">  610</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="aclass_zone_script_html_a949e67ea24c7e4b70a20806952735576"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:53</div></div>
+<div class="ttc" id="anaxxramas_8h_html_a50b8d798ed90e15f1532f6d604c62740a8f8b30616e2ccea74a2d082dcfaa2aea"><div class="ttname"><a href="../../d6/d84/naxxramas_8h.html#a50b8d798ed90e15f1532f6d604c62740a8f8b30616e2ccea74a2d082dcfaa2aea">DATA_IMMORTAL_FAIL</a></div><div class="ttdeci">@ DATA_IMMORTAL_FAIL</div><div class="ttdef"><b>Definition:</b> naxxramas.h:71</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a309401236c254cd850759a0cbb4004e0" name="a309401236c254cd850759a0cbb4004e0"></a>
@@ -621,7 +721,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d10/class_combat_a_i.html#a7a39daea9b9bd09572472ae0d8689edd">CombatAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  539</span>        {</div>
+<div class="line"><span class="lineno">  540</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno">  541</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#ae0de152b2fd7b000237f2e6f8d7bfc6e">SetNoCallAssistance</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  542</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">  543</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_creature_html_ae0de152b2fd7b000237f2e6f8d7bfc6e"><div class="ttname"><a href="../../d1/dac/class_creature.html#ae0de152b2fd7b000237f2e6f8d7bfc6e">Creature::SetNoCallAssistance</a></div><div class="ttdeci">void SetNoCallAssistance(bool val)</div><div class="ttdef"><b>Definition:</b> Creature.h:258</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a43744e96be00d8bc0afc34a570e79947" name="a43744e96be00d8bc0afc34a570e79947"></a>
@@ -649,7 +757,93 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d10/class_combat_a_i.html#af12583d15ccd183f6236c1889d539b9b">CombatAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  613</span>        {</div>
+<div class="line"><span class="lineno">  614</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  615</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5a2a334aaff89c950e6d1f7ff0b05d25">GetUnitState</a>() == <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>)</div>
+<div class="line"><span class="lineno">  616</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  617</span> </div>
+<div class="line"><span class="lineno">  618</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">  619</span>            {</div>
+<div class="line"><span class="lineno">  620</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afefc42e540b189283452d0f6c0bfd77a">EVENT_DEATH_PLAGUE</a>:</div>
+<div class="line"><span class="lineno">  621</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca65c51ba4c57b8b1a4e144fcd17de40a7">SPELL_DEATH_PLAGUE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  622</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(4000, 7000));</div>
+<div class="line"><span class="lineno">  623</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  624</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a77555109b1c145d26a3e4e3faa3e37a5">EVENT_ARCANE_EXPLOSION</a>:</div>
+<div class="line"><span class="lineno">  625</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* victim = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>())</div>
+<div class="line"><span class="lineno">  626</span>                    {</div>
+<div class="line"><span class="lineno">  627</span>                        <span class="keywordflow">if</span> (victim-&gt;IsWithinDist(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, 20))</div>
+<div class="line"><span class="lineno">  628</span>                        {</div>
+<div class="line"><span class="lineno">  629</span>                            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(victim, <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca6cef4c5e88133771f6b27aec8b8cfdce">SPELL_ARCANE_EXPLOSION</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  630</span>                        }</div>
+<div class="line"><span class="lineno">  631</span>                    }</div>
+<div class="line"><span class="lineno">  632</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(2500);</div>
+<div class="line"><span class="lineno">  633</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  634</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a0c617e9f95a3797c617dab880f4ba5eb">EVENT_SHADOW_MARK</a>:</div>
+<div class="line"><span class="lineno">  635</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* victim = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>())</div>
+<div class="line"><span class="lineno">  636</span>                    {</div>
+<div class="line"><span class="lineno">  637</span>                        <span class="keywordflow">if</span> (!victim-&gt;HasAura(<a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298cada361e74c79d29101750e477166c3da1">SPELL_SHADOW_MARK</a>))</div>
+<div class="line"><span class="lineno">  638</span>                        {</div>
+<div class="line"><span class="lineno">  639</span>                            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298cada361e74c79d29101750e477166c3da1">SPELL_SHADOW_MARK</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  640</span>                        }</div>
+<div class="line"><span class="lineno">  641</span>                    }</div>
+<div class="line"><span class="lineno">  642</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(5000, 7000));</div>
+<div class="line"><span class="lineno">  643</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  644</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a4e49fde4fe8ce8fa992cf9a3a4584afc">EVENT_WHIRLWIND</a>:</div>
+<div class="line"><span class="lineno">  645</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* victim = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>())</div>
+<div class="line"><span class="lineno">  646</span>                    {</div>
+<div class="line"><span class="lineno">  647</span>                        <span class="keywordflow">if</span> (victim-&gt;IsWithinDist(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, 10))</div>
+<div class="line"><span class="lineno">  648</span>                        {</div>
+<div class="line"><span class="lineno">  649</span>                            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(victim, <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298caed3f27157e41ec7644a53b6f9a827801">SPELL_WHIRLWIND</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  650</span>                        }</div>
+<div class="line"><span class="lineno">  651</span>                    }</div>
+<div class="line"><span class="lineno">  652</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(4000, 6000));</div>
+<div class="line"><span class="lineno">  653</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  654</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a2867ab9328928a5bdaab3248d0a6c7c2">EVENT_SHADOW_BOLT_VOLLEY</a>:</div>
+<div class="line"><span class="lineno">  655</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca04a753f9853968682b9643fa1de110fd">SPELL_SHADOW_BOLT_VOLLEY</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  656</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(5000);</div>
+<div class="line"><span class="lineno">  657</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  658</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a1f96723b5b114cf38ca6d3951c892582">EVENT_DRAIN_LIFE</a>:</div>
+<div class="line"><span class="lineno">  659</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* victim = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>())</div>
+<div class="line"><span class="lineno">  660</span>                    {</div>
+<div class="line"><span class="lineno">  661</span>                        <span class="keywordflow">if</span> (victim-&gt;IsWithinDist(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, 20))</div>
+<div class="line"><span class="lineno">  662</span>                        {</div>
+<div class="line"><span class="lineno">  663</span>                            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(victim, <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298caf9dde7a188d35d2ff6c520391261e2f6">SPELL_DRAIN_LIFE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  664</span>                        }</div>
+<div class="line"><span class="lineno">  665</span>                    }</div>
+<div class="line"><span class="lineno">  666</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(8000, 12000));</div>
+<div class="line"><span class="lineno">  667</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  668</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a333bb1129ecc500d80874b29d49b168f">EVENT_UNHOLY_FRENZY</a>:</div>
+<div class="line"><span class="lineno">  669</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a51d433dde350cd94d7c3c43e30ca997f">AddAura</a>(<a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca559de54704bf485e506f5cadff10e67a">SPELL_UNHOLY_FRENZY</a>, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>);</div>
+<div class="line"><span class="lineno">  670</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(15000, 17000));</div>
+<div class="line"><span class="lineno">  671</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  672</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aae6a7bd26e8ee17a505a5f6c6f720316">EVENT_STOMP</a>:</div>
+<div class="line"><span class="lineno">  673</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* victim = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>())</div>
+<div class="line"><span class="lineno">  674</span>                    {</div>
+<div class="line"><span class="lineno">  675</span>                        <span class="keywordflow">if</span> (victim-&gt;IsWithinDist(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, 10))</div>
+<div class="line"><span class="lineno">  676</span>                        {</div>
+<div class="line"><span class="lineno">  677</span>                            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(victim, <a class="code hl_enumvalue" href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca0003f01b1bddea1320bae3be9a66073a">SPELL_STOMP</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  678</span>                        }</div>
+<div class="line"><span class="lineno">  679</span>                    }</div>
+<div class="line"><span class="lineno">  680</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(4000, 9000));</div>
+<div class="line"><span class="lineno">  681</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  682</span>            }</div>
+<div class="line"><span class="lineno">  683</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  684</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a5bd342133be8c2137b831460acc9298ca0003f01b1bddea1320bae3be9a66073a"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca0003f01b1bddea1320bae3be9a66073a">SPELL_STOMP</a></div><div class="ttdeci">@ SPELL_STOMP</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:72</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a5bd342133be8c2137b831460acc9298ca04a753f9853968682b9643fa1de110fd"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca04a753f9853968682b9643fa1de110fd">SPELL_SHADOW_BOLT_VOLLEY</a></div><div class="ttdeci">@ SPELL_SHADOW_BOLT_VOLLEY</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:67</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a5bd342133be8c2137b831460acc9298ca559de54704bf485e506f5cadff10e67a"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca559de54704bf485e506f5cadff10e67a">SPELL_UNHOLY_FRENZY</a></div><div class="ttdeci">@ SPELL_UNHOLY_FRENZY</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:70</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a5bd342133be8c2137b831460acc9298ca65c51ba4c57b8b1a4e144fcd17de40a7"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca65c51ba4c57b8b1a4e144fcd17de40a7">SPELL_DEATH_PLAGUE</a></div><div class="ttdeci">@ SPELL_DEATH_PLAGUE</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:59</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a5bd342133be8c2137b831460acc9298ca6cef4c5e88133771f6b27aec8b8cfdce"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298ca6cef4c5e88133771f6b27aec8b8cfdce">SPELL_ARCANE_EXPLOSION</a></div><div class="ttdeci">@ SPELL_ARCANE_EXPLOSION</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:61</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a5bd342133be8c2137b831460acc9298cada361e74c79d29101750e477166c3da1"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298cada361e74c79d29101750e477166c3da1">SPELL_SHADOW_MARK</a></div><div class="ttdeci">@ SPELL_SHADOW_MARK</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:63</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a5bd342133be8c2137b831460acc9298caed3f27157e41ec7644a53b6f9a827801"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298caed3f27157e41ec7644a53b6f9a827801">SPELL_WHIRLWIND</a></div><div class="ttdeci">@ SPELL_WHIRLWIND</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:65</div></div>
+<div class="ttc" id="aboss__gothik_8cpp_html_a5bd342133be8c2137b831460acc9298caf9dde7a188d35d2ff6c520391261e2f6"><div class="ttname"><a href="../../d8/db8/boss__gothik_8cpp.html#a5bd342133be8c2137b831460acc9298caf9dde7a188d35d2ff6c520391261e2f6">SPELL_DRAIN_LIFE</a></div><div class="ttdeci">@ SPELL_DRAIN_LIFE</div><div class="ttdef"><b>Definition:</b> boss_gothik.cpp:69</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a51d433dde350cd94d7c3c43e30ca997f"><div class="ttname"><a href="../../da/db7/class_unit.html#a51d433dde350cd94d7c3c43e30ca997f">Unit::AddAura</a></div><div class="ttdeci">Aura * AddAura(uint32 spellId, Unit *target)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18895</div></div>
+<div class="ttc" id="aclass_unit_html_a5a2a334aaff89c950e6d1f7ff0b05d25"><div class="ttname"><a href="../../da/db7/class_unit.html#a5a2a334aaff89c950e6d1f7ff0b05d25">Unit::GetUnitState</a></div><div class="ttdeci">uint32 GetUnitState() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1400</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -682,7 +876,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Naxxramas/<a class="el" href="../../d8/db8/boss__gothik_8cpp.html">boss_gothik.cpp</a></li>
+<li><a class="el" href="../../">boss_gothik.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -690,7 +884,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/db9/classnpc__boss__gothik__minion.html">npc_boss_gothik_minion</a></li><li class="navelem"><a class="el" href="../../d9/d25/structnpc__boss__gothik__minion_1_1npc__boss__gothik__minion_a_i.html">npc_boss_gothik_minionAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:03 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

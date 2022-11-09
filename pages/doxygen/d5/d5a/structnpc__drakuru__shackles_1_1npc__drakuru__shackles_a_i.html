@@ -400,7 +400,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aeb55bf23d97e963b0fb9a18596bb58b1" name="aeb55bf23d97e963b0fb9a18596bb58b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeb55bf23d97e963b0fb9a18596bb58b1">&#9670;&#160;</a></span>npc_drakuru_shacklesAI()</h2>
 
@@ -424,7 +425,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  630</span>                                                   : <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(creature)</div>
+<div class="line"><span class="lineno">  631</span>        {</div>
+<div class="line"><span class="lineno">  632</span>            <a class="code hl_variable" href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#a1c991305f4ef30146930747881e57de4">_rageclawGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  633</span>            <a class="code hl_variable" href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#a2a6484216abd731ad016284a79575e1c">timer</a> = 0;</div>
+<div class="line"><span class="lineno">  634</span>        }</div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="astructnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i_html_a1c991305f4ef30146930747881e57de4"><div class="ttname"><a href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#a1c991305f4ef30146930747881e57de4">npc_drakuru_shackles::npc_drakuru_shacklesAI::_rageclawGUID</a></div><div class="ttdeci">ObjectGuid _rageclawGUID</div><div class="ttdef"><b>Definition:</b> zone_zuldrak.cpp:695</div></div>
+<div class="ttc" id="astructnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i_html_a2a6484216abd731ad016284a79575e1c"><div class="ttname"><a href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#a2a6484216abd731ad016284a79575e1c">npc_drakuru_shackles::npc_drakuru_shacklesAI::timer</a></div><div class="ttdeci">uint32 timer</div><div class="ttdef"><b>Definition:</b> zone_zuldrak.cpp:696</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -451,7 +461,20 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  659</span>        {</div>
+<div class="line"><span class="lineno">  660</span>            <span class="comment">// pointer check not needed</span></div>
+<div class="line"><span class="lineno">  661</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a549e721b14f15635bd6572505b366e78">SetFacingToObject</a>(rageclaw);</div>
+<div class="line"><span class="lineno">  662</span>            rageclaw-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a549e721b14f15635bd6572505b366e78">SetFacingToObject</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>);</div>
+<div class="line"><span class="lineno">  663</span> </div>
+<div class="line"><span class="lineno">  664</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(rageclaw, <a class="code hl_enumvalue" href="../../d7/d1f/zone__zuldrak_8cpp.html#ae1b47c6bf1ad1b8dc31220da558d468ea9ca1c028e4b4efb8f1b64fdb1aa9458f">SPELL_LEFT_CHAIN</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  665</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(rageclaw, <a class="code hl_enumvalue" href="../../d7/d1f/zone__zuldrak_8cpp.html#ae1b47c6bf1ad1b8dc31220da558d468ea78a87217309119207f5733d5b75c1bf1">SPELL_RIGHT_CHAIN</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  666</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html_a549e721b14f15635bd6572505b366e78"><div class="ttname"><a href="../../da/db7/class_unit.html#a549e721b14f15635bd6572505b366e78">Unit::SetFacingToObject</a></div><div class="ttdeci">void SetFacingToObject(WorldObject *object)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20629</div></div>
+<div class="ttc" id="azone__zuldrak_8cpp_html_ae1b47c6bf1ad1b8dc31220da558d468ea78a87217309119207f5733d5b75c1bf1"><div class="ttname"><a href="../../d7/d1f/zone__zuldrak_8cpp.html#ae1b47c6bf1ad1b8dc31220da558d468ea78a87217309119207f5733d5b75c1bf1">SPELL_RIGHT_CHAIN</a></div><div class="ttdeci">@ SPELL_RIGHT_CHAIN</div><div class="ttdef"><b>Definition:</b> zone_zuldrak.cpp:618</div></div>
+<div class="ttc" id="azone__zuldrak_8cpp_html_ae1b47c6bf1ad1b8dc31220da558d468ea9ca1c028e4b4efb8f1b64fdb1aa9458f"><div class="ttname"><a href="../../d7/d1f/zone__zuldrak_8cpp.html#ae1b47c6bf1ad1b8dc31220da558d468ea9ca1c028e4b4efb8f1b64fdb1aa9458f">SPELL_LEFT_CHAIN</a></div><div class="ttdeci">@ SPELL_LEFT_CHAIN</div><div class="ttdef"><b>Definition:</b> zone_zuldrak.cpp:617</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a566fba51edcddab8c5b0bf5688571f80" name="a566fba51edcddab8c5b0bf5688571f80"></a>
@@ -478,7 +501,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a43eb9ef68b977d98f6618d69a0d62115">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  637</span>        {</div>
+<div class="line"><span class="lineno">  638</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">  639</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NOT_SELECTABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:473</div></div>
+<div class="ttc" id="aclass_unit_html_ad9f2d48b20f62e17abf5c1892cebe296"><div class="ttname"><a href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">Unit::SetUnitFlag</a></div><div class="ttdeci">void SetUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1479</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a04a9f0cc28cd8cab89120e66972b74cf" name="a04a9f0cc28cd8cab89120e66972b74cf"></a>
@@ -516,7 +544,35 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a6afb39c4bf86a1e882cc80fd7ec80a8f">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  677</span>        {</div>
+<div class="line"><span class="lineno">  678</span>            <span class="keywordflow">if</span> (spell-&gt;Id == <a class="code hl_enumvalue" href="../../d7/d1f/zone__zuldrak_8cpp.html#ae1b47c6bf1ad1b8dc31220da558d468ea38d299dfaf2a1a9d3796e60bc5792e51">SPELL_UNLOCK_SHACKLE</a>)</div>
+<div class="line"><span class="lineno">  679</span>            {</div>
+<div class="line"><span class="lineno">  680</span>                <span class="keywordflow">if</span> (caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../d7/d1f/zone__zuldrak_8cpp.html#ae1b47c6bf1ad1b8dc31220da558d468ead865536461e82af4c716fcc6b05bca0d">QUEST_TROLLS_IS_GONE_CRAZY</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno">  681</span>                {</div>
+<div class="line"><span class="lineno">  682</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* rageclaw = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_variable" href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#a1c991305f4ef30146930747881e57de4">_rageclawGUID</a>))</div>
+<div class="line"><span class="lineno">  683</span>                    {</div>
+<div class="line"><span class="lineno">  684</span>                        <a class="code hl_function" href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#a65a4b408ac09ffa3155b955dc054d971">UnlockRageclaw</a>(caster, rageclaw);</div>
+<div class="line"><span class="lineno">  685</span>                        caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a60ef0de3403e8c16c065fe12f5f856e5">KilledMonster</a>(rageclaw-&gt;GetCreatureTemplate(), <a class="code hl_variable" href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#a1c991305f4ef30146930747881e57de4">_rageclawGUID</a>);</div>
+<div class="line"><span class="lineno">  686</span>                        <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>();</div>
+<div class="line"><span class="lineno">  687</span>                    }</div>
+<div class="line"><span class="lineno">  688</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  689</span>                        <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a00d974a3f97e003cadb1760538d8be27">setDeathState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a671007e5c9d47b3ccb212f971e65baedab1727b82509eb59005a3b6b60107f51b">JUST_DIED</a>);</div>
+<div class="line"><span class="lineno">  690</span>                }</div>
+<div class="line"><span class="lineno">  691</span>            }</div>
+<div class="line"><span class="lineno">  692</span>        }</div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="a_unit_8h_html_a671007e5c9d47b3ccb212f971e65baedab1727b82509eb59005a3b6b60107f51b"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a671007e5c9d47b3ccb212f971e65baedab1727b82509eb59005a3b6b60107f51b">JUST_DIED</a></div><div class="ttdeci">@ JUST_DIED</div><div class="ttdef"><b>Definition:</b> Unit.h:317</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_a00d974a3f97e003cadb1760538d8be27"><div class="ttname"><a href="../../d1/dac/class_creature.html#a00d974a3f97e003cadb1760538d8be27">Creature::setDeathState</a></div><div class="ttdeci">void setDeathState(DeathState s, bool despawn=false) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:1918</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_player_html_a60ef0de3403e8c16c065fe12f5f856e5"><div class="ttname"><a href="../../d8/d53/class_player.html#a60ef0de3403e8c16c065fe12f5f856e5">Player::KilledMonster</a></div><div class="ttdeci">void KilledMonster(CreatureTemplate const *cInfo, ObjectGuid guid)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1892</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="astructnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i_html_a65a4b408ac09ffa3155b955dc054d971"><div class="ttname"><a href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#a65a4b408ac09ffa3155b955dc054d971">npc_drakuru_shackles::npc_drakuru_shacklesAI::UnlockRageclaw</a></div><div class="ttdeci">void UnlockRageclaw(Unit *, Creature *rageclaw)</div><div class="ttdef"><b>Definition:</b> zone_zuldrak.cpp:668</div></div>
+<div class="ttc" id="azone__zuldrak_8cpp_html_ae1b47c6bf1ad1b8dc31220da558d468ea38d299dfaf2a1a9d3796e60bc5792e51"><div class="ttname"><a href="../../d7/d1f/zone__zuldrak_8cpp.html#ae1b47c6bf1ad1b8dc31220da558d468ea38d299dfaf2a1a9d3796e60bc5792e51">SPELL_UNLOCK_SHACKLE</a></div><div class="ttdeci">@ SPELL_UNLOCK_SHACKLE</div><div class="ttdef"><b>Definition:</b> zone_zuldrak.cpp:619</div></div>
+<div class="ttc" id="azone__zuldrak_8cpp_html_ae1b47c6bf1ad1b8dc31220da558d468ead865536461e82af4c716fcc6b05bca0d"><div class="ttname"><a href="../../d7/d1f/zone__zuldrak_8cpp.html#ae1b47c6bf1ad1b8dc31220da558d468ead865536461e82af4c716fcc6b05bca0d">QUEST_TROLLS_IS_GONE_CRAZY</a></div><div class="ttdeci">@ QUEST_TROLLS_IS_GONE_CRAZY</div><div class="ttdef"><b>Definition:</b> zone_zuldrak.cpp:616</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a65a4b408ac09ffa3155b955dc054d971" name="a65a4b408ac09ffa3155b955dc054d971"></a>
@@ -552,7 +608,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  669</span>        {</div>
+<div class="line"><span class="lineno">  670</span>            <span class="comment">// pointer check not needed</span></div>
+<div class="line"><span class="lineno">  671</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(rageclaw, <a class="code hl_enumvalue" href="../../d7/d1f/zone__zuldrak_8cpp.html#ae1b47c6bf1ad1b8dc31220da558d468eaa4c76adb98fdd5265f5e156cdeb0dcf2">SPELL_FREE_RAGECLAW</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  672</span>            <a class="code hl_variable" href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#a1c991305f4ef30146930747881e57de4">_rageclawGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  673</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(1);</div>
+<div class="line"><span class="lineno">  674</span>        }</div>
+<div class="ttc" id="azone__zuldrak_8cpp_html_ae1b47c6bf1ad1b8dc31220da558d468eaa4c76adb98fdd5265f5e156cdeb0dcf2"><div class="ttname"><a href="../../d7/d1f/zone__zuldrak_8cpp.html#ae1b47c6bf1ad1b8dc31220da558d468eaa4c76adb98fdd5265f5e156cdeb0dcf2">SPELL_FREE_RAGECLAW</a></div><div class="ttdeci">@ SPELL_FREE_RAGECLAW</div><div class="ttdef"><b>Definition:</b> zone_zuldrak.cpp:620</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8a04ac89e5ec9ce841445913765a1a73" name="a8a04ac89e5ec9ce841445913765a1a73"></a>
@@ -580,7 +643,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  642</span>        {</div>
+<div class="line"><span class="lineno">  643</span>            <a class="code hl_variable" href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#a2a6484216abd731ad016284a79575e1c">timer</a> += diff;</div>
+<div class="line"><span class="lineno">  644</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#a2a6484216abd731ad016284a79575e1c">timer</a> &gt;= 2000)</div>
+<div class="line"><span class="lineno">  645</span>            {</div>
+<div class="line"><span class="lineno">  646</span>                <a class="code hl_variable" href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#a2a6484216abd731ad016284a79575e1c">timer</a> = 0;</div>
+<div class="line"><span class="lineno">  647</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#a1c991305f4ef30146930747881e57de4">_rageclawGUID</a>)</div>
+<div class="line"><span class="lineno">  648</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  649</span> </div>
+<div class="line"><span class="lineno">  650</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* cr = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d7/d1f/zone__zuldrak_8cpp.html#ae1b47c6bf1ad1b8dc31220da558d468eae5a7cc3995ea1ec6bf0e6b10cf88b42c">NPC_RAGECLAW</a>, 10.0f))</div>
+<div class="line"><span class="lineno">  651</span>                {</div>
+<div class="line"><span class="lineno">  652</span>                    <a class="code hl_variable" href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#a1c991305f4ef30146930747881e57de4">_rageclawGUID</a> = cr-&gt;GetGUID();</div>
+<div class="line"><span class="lineno">  653</span>                    <a class="code hl_function" href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#aa58fff9ee8e6cbe4d2dd0d391215f1f4">LockRageclaw</a>(cr);</div>
+<div class="line"><span class="lineno">  654</span>                }</div>
+<div class="line"><span class="lineno">  655</span>            }</div>
+<div class="line"><span class="lineno">  656</span>        }</div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="astructnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i_html_aa58fff9ee8e6cbe4d2dd0d391215f1f4"><div class="ttname"><a href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html#aa58fff9ee8e6cbe4d2dd0d391215f1f4">npc_drakuru_shackles::npc_drakuru_shacklesAI::LockRageclaw</a></div><div class="ttdeci">void LockRageclaw(Creature *rageclaw)</div><div class="ttdef"><b>Definition:</b> zone_zuldrak.cpp:658</div></div>
+<div class="ttc" id="azone__zuldrak_8cpp_html_ae1b47c6bf1ad1b8dc31220da558d468eae5a7cc3995ea1ec6bf0e6b10cf88b42c"><div class="ttname"><a href="../../d7/d1f/zone__zuldrak_8cpp.html#ae1b47c6bf1ad1b8dc31220da558d468eae5a7cc3995ea1ec6bf0e6b10cf88b42c">NPC_RAGECLAW</a></div><div class="ttdeci">@ NPC_RAGECLAW</div><div class="ttdef"><b>Definition:</b> zone_zuldrak.cpp:615</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -629,7 +710,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d7/d1f/zone__zuldrak_8cpp.html">zone_zuldrak.cpp</a></li>
+<li><a class="el" href="../../">zone_zuldrak.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -637,7 +718,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/dfa/classnpc__drakuru__shackles.html">npc_drakuru_shackles</a></li><li class="navelem"><a class="el" href="../../d5/d5a/structnpc__drakuru__shackles_1_1npc__drakuru__shackles_a_i.html">npc_drakuru_shacklesAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

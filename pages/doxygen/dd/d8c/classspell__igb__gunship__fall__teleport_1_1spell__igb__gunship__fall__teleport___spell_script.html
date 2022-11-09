@@ -296,7 +296,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a28df32c3bae8cc46bedd949b0fc0463d" name="a28df32c3bae8cc46bedd949b0fc0463d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a28df32c3bae8cc46bedd949b0fc0463d">&#9670;&#160;</a></span>Load()</h2>
 
@@ -321,7 +322,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2135</span>        {</div>
+<div class="line"><span class="lineno"> 2136</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno"> 2137</span>        }</div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aab7460be248cddc37e634cf1e1b505fd" name="aab7460be248cddc37e634cf1e1b505fd"></a>
@@ -374,7 +380,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2153</span>        {</div>
+<div class="line"><span class="lineno"> 2154</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a7ed2ae7fcbd576aff87d34eb57290af4">OnObjectTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a1e2662636123cae835d18e21b9c24db2">SpellObjectTargetSelectFn</a>(<a class="code hl_function" href="../../dd/d8c/classspell__igb__gunship__fall__teleport_1_1spell__igb__gunship__fall__teleport___spell_script.html#aa020ce5e5c172a32ee13b0b715e4a461">spell_igb_gunship_fall_teleport_SpellScript::SelectTransport</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a68d3b4e7a2c39d089b9cb7af45d11d3e">TARGET_DEST_NEARBY_ENTRY</a>);</div>
+<div class="line"><span class="lineno"> 2155</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#acf9d3c62feafc004af1f45af05652e3b">OnEffectLaunch</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../dd/d8c/classspell__igb__gunship__fall__teleport_1_1spell__igb__gunship__fall__teleport___spell_script.html#a933794f0e99e63c27cf0da61d2686a03">spell_igb_gunship_fall_teleport_SpellScript::RelocateDest</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97aea1b56989980b9b6059bcd31de21bf59">SPELL_EFFECT_TELEPORT_UNITS</a>);</div>
+<div class="line"><span class="lineno"> 2156</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97aea1b56989980b9b6059bcd31de21bf59"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97aea1b56989980b9b6059bcd31de21bf59">SPELL_EFFECT_TELEPORT_UNITS</a></div><div class="ttdeci">@ SPELL_EFFECT_TELEPORT_UNITS</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:755</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a68d3b4e7a2c39d089b9cb7af45d11d3e"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a68d3b4e7a2c39d089b9cb7af45d11d3e">TARGET_DEST_NEARBY_ENTRY</a></div><div class="ttdeci">@ TARGET_DEST_NEARBY_ENTRY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1422</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a1e2662636123cae835d18e21b9c24db2"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a1e2662636123cae835d18e21b9c24db2">SpellObjectTargetSelectFn</a></div><div class="ttdeci">#define SpellObjectTargetSelectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:359</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a7ed2ae7fcbd576aff87d34eb57290af4"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a7ed2ae7fcbd576aff87d34eb57290af4">SpellScript::OnObjectTargetSelect</a></div><div class="ttdeci">HookList&lt; ObjectTargetSelectHandler &gt; OnObjectTargetSelect</div><div class="ttdef"><b>Definition:</b> SpellScript.h:358</div></div>
+<div class="ttc" id="aclass_spell_script_html_acf9d3c62feafc004af1f45af05652e3b"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#acf9d3c62feafc004af1f45af05652e3b">SpellScript::OnEffectLaunch</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectLaunch</div><div class="ttdef"><b>Definition:</b> SpellScript.h:333</div></div>
+<div class="ttc" id="aclassspell__igb__gunship__fall__teleport_1_1spell__igb__gunship__fall__teleport___spell_script_html_a933794f0e99e63c27cf0da61d2686a03"><div class="ttname"><a href="../../dd/d8c/classspell__igb__gunship__fall__teleport_1_1spell__igb__gunship__fall__teleport___spell_script.html#a933794f0e99e63c27cf0da61d2686a03">spell_igb_gunship_fall_teleport::spell_igb_gunship_fall_teleport_SpellScript::RelocateDest</a></div><div class="ttdeci">void RelocateDest(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:2145</div></div>
+<div class="ttc" id="aclassspell__igb__gunship__fall__teleport_1_1spell__igb__gunship__fall__teleport___spell_script_html_aa020ce5e5c172a32ee13b0b715e4a461"><div class="ttname"><a href="../../dd/d8c/classspell__igb__gunship__fall__teleport_1_1spell__igb__gunship__fall__teleport___spell_script.html#aa020ce5e5c172a32ee13b0b715e4a461">spell_igb_gunship_fall_teleport::spell_igb_gunship_fall_teleport_SpellScript::SelectTransport</a></div><div class="ttdeci">void SelectTransport(WorldObject *&amp;target)</div><div class="ttdef"><b>Definition:</b> boss_icecrown_gunship_battle.cpp:2139</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a933794f0e99e63c27cf0da61d2686a03" name="a933794f0e99e63c27cf0da61d2686a03"></a>
@@ -400,7 +419,19 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2146</span>        {</div>
+<div class="line"><span class="lineno"> 2147</span>            <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> offset = {0.0f, 0.0f, 0.0f, 0.0f};</div>
+<div class="line"><span class="lineno"> 2148</span>            offset.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a0d2305604dd27c15fd2d969f18c15b3e">m_positionZ</a> = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>()-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">GetData</a>(<a class="code hl_enumvalue" href="../../d3/d81/trial__of__the__champion_8h.html#a8d0deb2f48ff4560c08e13e9a1f92c19aa65ac0ac68c78f1c2ea895c7db9bf159">DATA_TEAMID_IN_INSTANCE</a>) == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a> ? 36.0f : 21.0f;</div>
+<div class="line"><span class="lineno"> 2149</span>            <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a85b9373e02f5abbec6c6cde8c9784e0a">GetHitDest</a>()-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a1ee5670db2621e59adf12c225e726cd7">RelocateOffset</a>(offset);</div>
+<div class="line"><span class="lineno"> 2150</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a></div><div class="ttdeci">@ TEAM_HORDE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:733</div></div>
+<div class="ttc" id="aclass_spell_script_html_a85b9373e02f5abbec6c6cde8c9784e0a"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a85b9373e02f5abbec6c6cde8c9784e0a">SpellScript::GetHitDest</a></div><div class="ttdeci">WorldLocation * GetHitDest()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:504</div></div>
+<div class="ttc" id="aclass_zone_script_html_a8997612fdbdacbf5e28e4de60d03e805"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">ZoneScript::GetData</a></div><div class="ttdeci">virtual uint32 GetData(uint32) const</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:52</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="astruct_position_html_a0d2305604dd27c15fd2d969f18c15b3e"><div class="ttname"><a href="../../d1/d26/struct_position.html#a0d2305604dd27c15fd2d969f18c15b3e">Position::m_positionZ</a></div><div class="ttdeci">float m_positionZ</div><div class="ttdef"><b>Definition:</b> Position.h:58</div></div>
+<div class="ttc" id="astruct_position_html_a1ee5670db2621e59adf12c225e726cd7"><div class="ttname"><a href="../../d1/d26/struct_position.html#a1ee5670db2621e59adf12c225e726cd7">Position::RelocateOffset</a></div><div class="ttdeci">void RelocateOffset(const Position &amp;offset)</div><div class="ttdef"><b>Definition:</b> Position.cpp:58</div></div>
+<div class="ttc" id="atrial__of__the__champion_8h_html_a8d0deb2f48ff4560c08e13e9a1f92c19aa65ac0ac68c78f1c2ea895c7db9bf159"><div class="ttname"><a href="../../d3/d81/trial__of__the__champion_8h.html#a8d0deb2f48ff4560c08e13e9a1f92c19aa65ac0ac68c78f1c2ea895c7db9bf159">DATA_TEAMID_IN_INSTANCE</a></div><div class="ttdeci">@ DATA_TEAMID_IN_INSTANCE</div><div class="ttdef"><b>Definition:</b> trial_of_the_champion.h:43</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa020ce5e5c172a32ee13b0b715e4a461" name="aa020ce5e5c172a32ee13b0b715e4a461"></a>
@@ -426,11 +457,18 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2140</span>        {</div>
+<div class="line"><span class="lineno"> 2141</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = target-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno"> 2142</span>                target = instance-&gt;instance-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a9ffd4691b1ebdb5011e800739b4dd4f5">GetTransport</a>(instance-&gt;GetGuidData(<a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#afb6eb4f28419b652027fad41104a6d22a565b8d0d0342f588725ed38475bdd01c">DATA_ICECROWN_GUNSHIP_BATTLE</a>));</div>
+<div class="line"><span class="lineno"> 2143</span>        }</div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_world_object_html_a9ffd4691b1ebdb5011e800739b4dd4f5"><div class="ttname"><a href="../../db/df7/class_world_object.html#a9ffd4691b1ebdb5011e800739b4dd4f5">WorldObject::GetTransport</a></div><div class="ttdeci">Transport * GetTransport() const</div><div class="ttdef"><b>Definition:</b> Object.h:585</div></div>
+<div class="ttc" id="aicecrown__citadel_8h_html_afb6eb4f28419b652027fad41104a6d22a565b8d0d0342f588725ed38475bdd01c"><div class="ttname"><a href="../../d9/d6a/icecrown__citadel_8h.html#afb6eb4f28419b652027fad41104a6d22a565b8d0d0342f588725ed38475bdd01c">DATA_ICECROWN_GUNSHIP_BATTLE</a></div><div class="ttdeci">@ DATA_ICECROWN_GUNSHIP_BATTLE</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.h:93</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../df/dda/boss__icecrown__gunship__battle_8cpp.html">boss_icecrown_gunship_battle.cpp</a></li>
+<li><a class="el" href="../../">boss_icecrown_gunship_battle.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -438,7 +476,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/de0/classspell__igb__gunship__fall__teleport.html">spell_igb_gunship_fall_teleport</a></li><li class="navelem"><a class="el" href="../../dd/d8c/classspell__igb__gunship__fall__teleport_1_1spell__igb__gunship__fall__teleport___spell_script.html">spell_igb_gunship_fall_teleport_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:03 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:19 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

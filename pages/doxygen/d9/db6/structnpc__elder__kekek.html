@@ -495,7 +495,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6084af39be5c70699c9fdcf3cd58e954" name="a6084af39be5c70699c9fdcf3cd58e954"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6084af39be5c70699c9fdcf3cd58e954">&#9670;&#160;</a></span>npc_elder_kekek()</h2>
 
@@ -519,7 +520,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  473</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) {}</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -548,7 +551,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  484</span>    {</div>
+<div class="line"><span class="lineno">  485</span>        <span class="keywordflow">if</span> (!<a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a> &amp;&amp; who &amp;&amp; who-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">GetDistance2d</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>) &lt; 10.0f)</div>
+<div class="line"><span class="lineno">  486</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno">  487</span>                <span class="keywordflow">if</span> (player-&gt;GetQuestStatus(<a class="code hl_enumvalue" href="../../dd/d7d/childrens__week_8cpp.html#a2f2591166460d6d958c50f3317939e22af64eb53a45f0a7f0ba668c8bd587599c">QUEST_THE_BRONZE_DRAGONSHRINE_WOLVAR</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno">  488</span>                {</div>
+<div class="line"><span class="lineno">  489</span>                    <a class="code hl_variable" href="../../d9/db6/structnpc__elder__kekek.html#a614ed3332f4af3c5178aa69da968a3d3">playerGUID</a> = player-&gt;GetGUID();</div>
+<div class="line"><span class="lineno">  490</span>                    <a class="code hl_variable" href="../../d9/db6/structnpc__elder__kekek.html#a98c79e46e051c35819c6025828a519cb">orphanGUID</a> = <a class="code hl_function" href="../../dd/d7d/childrens__week_8cpp.html#a9fc37dedd34ecd790b25bb92cf68347c">getOrphanGUID</a>(player, <a class="code hl_enumvalue" href="../../dd/d7d/childrens__week_8cpp.html#adf0f5181a6e088ccac9a3576a13e2b70a5f2fa8ecf29dce8a14f0e1842b6c78ef">ORPHAN_WOLVAR</a>);</div>
+<div class="line"><span class="lineno">  491</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/db6/structnpc__elder__kekek.html#a98c79e46e051c35819c6025828a519cb">orphanGUID</a>)</div>
+<div class="line"><span class="lineno">  492</span>                        <a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a> = 1;</div>
+<div class="line"><span class="lineno">  493</span>                }</div>
+<div class="line"><span class="lineno">  494</span>    }</div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a4432ad5c680b2372adf2f56998516c6d"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a></div><div class="ttdeci">phase</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:102</div></div>
+<div class="ttc" id="achildrens__week_8cpp_html_a2f2591166460d6d958c50f3317939e22af64eb53a45f0a7f0ba668c8bd587599c"><div class="ttname"><a href="../../dd/d7d/childrens__week_8cpp.html#a2f2591166460d6d958c50f3317939e22af64eb53a45f0a7f0ba668c8bd587599c">QUEST_THE_BRONZE_DRAGONSHRINE_WOLVAR</a></div><div class="ttdeci">@ QUEST_THE_BRONZE_DRAGONSHRINE_WOLVAR</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:80</div></div>
+<div class="ttc" id="achildrens__week_8cpp_html_a9fc37dedd34ecd790b25bb92cf68347c"><div class="ttname"><a href="../../dd/d7d/childrens__week_8cpp.html#a9fc37dedd34ecd790b25bb92cf68347c">getOrphanGUID</a></div><div class="ttdeci">ObjectGuid getOrphanGUID(Player *player, uint32 orphan)</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:134</div></div>
+<div class="ttc" id="achildrens__week_8cpp_html_adf0f5181a6e088ccac9a3576a13e2b70a5f2fa8ecf29dce8a14f0e1842b6c78ef"><div class="ttname"><a href="../../dd/d7d/childrens__week_8cpp.html#adf0f5181a6e088ccac9a3576a13e2b70a5f2fa8ecf29dce8a14f0e1842b6c78ef">ORPHAN_WOLVAR</a></div><div class="ttdeci">@ ORPHAN_WOLVAR</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:26</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_world_object_html_a73f3c7fa817faebff6b2752ba3bb1a50"><div class="ttname"><a href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">WorldObject::GetDistance2d</a></div><div class="ttdeci">float GetDistance2d(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1263</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__elder__kekek_html_a614ed3332f4af3c5178aa69da968a3d3"><div class="ttname"><a href="../../d9/db6/structnpc__elder__kekek.html#a614ed3332f4af3c5178aa69da968a3d3">npc_elder_kekek::playerGUID</a></div><div class="ttdeci">ObjectGuid playerGUID</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:539</div></div>
+<div class="ttc" id="astructnpc__elder__kekek_html_a98c79e46e051c35819c6025828a519cb"><div class="ttname"><a href="../../d9/db6/structnpc__elder__kekek.html#a98c79e46e051c35819c6025828a519cb">npc_elder_kekek::orphanGUID</a></div><div class="ttdeci">ObjectGuid orphanGUID</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:540</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a97e615bdefba5baf459960fc2987cd69" name="a97e615bdefba5baf459960fc2987cd69"></a>
@@ -575,7 +600,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  476</span>    {</div>
+<div class="line"><span class="lineno">  477</span>        <a class="code hl_variable" href="../../d9/db6/structnpc__elder__kekek.html#a445c048d8858f5dc7c1e88308ed7e5ab">timer</a> = 0;</div>
+<div class="line"><span class="lineno">  478</span>        <a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a> = 0;</div>
+<div class="line"><span class="lineno">  479</span>        <a class="code hl_variable" href="../../d9/db6/structnpc__elder__kekek.html#a614ed3332f4af3c5178aa69da968a3d3">playerGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  480</span>        <a class="code hl_variable" href="../../d9/db6/structnpc__elder__kekek.html#a98c79e46e051c35819c6025828a519cb">orphanGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  481</span>    }</div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="astructnpc__elder__kekek_html_a445c048d8858f5dc7c1e88308ed7e5ab"><div class="ttname"><a href="../../d9/db6/structnpc__elder__kekek.html#a445c048d8858f5dc7c1e88308ed7e5ab">npc_elder_kekek::timer</a></div><div class="ttdeci">uint32 timer</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:537</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5823bc7164d797c40d48b9b74642d9b5" name="a5823bc7164d797c40d48b9b74642d9b5"></a>
@@ -603,7 +636,66 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  497</span>    {</div>
+<div class="line"><span class="lineno">  498</span>        <span class="keywordflow">if</span> (!<a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a>)</div>
+<div class="line"><span class="lineno">  499</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  500</span> </div>
+<div class="line"><span class="lineno">  501</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/db6/structnpc__elder__kekek.html#a445c048d8858f5dc7c1e88308ed7e5ab">timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  502</span>        {</div>
+<div class="line"><span class="lineno">  503</span>            <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d9/db6/structnpc__elder__kekek.html#a614ed3332f4af3c5178aa69da968a3d3">playerGUID</a>);</div>
+<div class="line"><span class="lineno">  504</span>            <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* orphan = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d9/db6/structnpc__elder__kekek.html#a98c79e46e051c35819c6025828a519cb">orphanGUID</a>);</div>
+<div class="line"><span class="lineno">  505</span> </div>
+<div class="line"><span class="lineno">  506</span>            <span class="keywordflow">if</span> (!player || !orphan)</div>
+<div class="line"><span class="lineno">  507</span>            {</div>
+<div class="line"><span class="lineno">  508</span>                <a class="code hl_function" href="../../d9/db6/structnpc__elder__kekek.html#a97e615bdefba5baf459960fc2987cd69">Reset</a>();</div>
+<div class="line"><span class="lineno">  509</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  510</span>            }</div>
+<div class="line"><span class="lineno">  511</span> </div>
+<div class="line"><span class="lineno">  512</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a>)</div>
+<div class="line"><span class="lineno">  513</span>            {</div>
+<div class="line"><span class="lineno">  514</span>                <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno">  515</span>                    orphan-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(0, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>() + cos(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>()) * 5, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>() + std::sin(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>()) * 5, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>());</div>
+<div class="line"><span class="lineno">  516</span>                    orphan-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">Talk</a>(<a class="code hl_enumvalue" href="../../dd/d7d/childrens__week_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a09f811ffc17b7c7e0b5267a253580ce0">TEXT_WOLVAR_ORPHAN_4</a>);</div>
+<div class="line"><span class="lineno">  517</span>                    <a class="code hl_variable" href="../../d9/db6/structnpc__elder__kekek.html#a445c048d8858f5dc7c1e88308ed7e5ab">timer</a> = 3000;</div>
+<div class="line"><span class="lineno">  518</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  519</span>                <span class="keywordflow">case</span> 2:</div>
+<div class="line"><span class="lineno">  520</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dd/d7d/childrens__week_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a3dd8ab04a3e0ac26955fccea41590162">TEXT_ELDER_KEKEK_1</a>);</div>
+<div class="line"><span class="lineno">  521</span>                    <a class="code hl_variable" href="../../d9/db6/structnpc__elder__kekek.html#a445c048d8858f5dc7c1e88308ed7e5ab">timer</a> = 6000;</div>
+<div class="line"><span class="lineno">  522</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  523</span>                <span class="keywordflow">case</span> 3:</div>
+<div class="line"><span class="lineno">  524</span>                    orphan-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">Talk</a>(<a class="code hl_enumvalue" href="../../dd/d7d/childrens__week_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a75807ae773ba2281a740372a582cbdfb">TEXT_WOLVAR_ORPHAN_5</a>);</div>
+<div class="line"><span class="lineno">  525</span>                    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a5407b30447c557eb4bcb441d0e4df355">GroupEventHappens</a>(<a class="code hl_enumvalue" href="../../dd/d7d/childrens__week_8cpp.html#a2f2591166460d6d958c50f3317939e22af64eb53a45f0a7f0ba668c8bd587599c">QUEST_THE_BRONZE_DRAGONSHRINE_WOLVAR</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  526</span>                    orphan-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MoveFollow</a>(player, <a class="code hl_define" href="../../d7/d23/_pet_defines_8h.html#a83e96c6d024ceb5d1189baac7b823d5d">PET_FOLLOW_DIST</a>, <a class="code hl_define" href="../../d7/d23/_pet_defines_8h.html#a346068e848cb7777695f170d2c7958de">PET_FOLLOW_ANGLE</a>);</div>
+<div class="line"><span class="lineno">  527</span>                    <a class="code hl_function" href="../../d9/db6/structnpc__elder__kekek.html#a97e615bdefba5baf459960fc2987cd69">Reset</a>();</div>
+<div class="line"><span class="lineno">  528</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  529</span>            }</div>
+<div class="line"><span class="lineno">  530</span>            ++<a class="code hl_variable" href="../../d9/db6/structnpc__elder__kekek.html#a99fd9d984f92d5ba8b5876675855d4f6">phase</a>;</div>
+<div class="line"><span class="lineno">  531</span>        }</div>
+<div class="line"><span class="lineno">  532</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  533</span>            <a class="code hl_variable" href="../../d9/db6/structnpc__elder__kekek.html#a445c048d8858f5dc7c1e88308ed7e5ab">timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  534</span>    }</div>
+<div class="ttc" id="a_pet_defines_8h_html_a346068e848cb7777695f170d2c7958de"><div class="ttname"><a href="../../d7/d23/_pet_defines_8h.html#a346068e848cb7777695f170d2c7958de">PET_FOLLOW_ANGLE</a></div><div class="ttdeci">#define PET_FOLLOW_ANGLE</div><div class="ttdef"><b>Definition:</b> PetDefines.h:194</div></div>
+<div class="ttc" id="a_pet_defines_8h_html_a83e96c6d024ceb5d1189baac7b823d5d"><div class="ttname"><a href="../../d7/d23/_pet_defines_8h.html#a83e96c6d024ceb5d1189baac7b823d5d">PET_FOLLOW_DIST</a></div><div class="ttdeci">#define PET_FOLLOW_DIST</div><div class="ttdef"><b>Definition:</b> PetDefines.h:193</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="achildrens__week_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a09f811ffc17b7c7e0b5267a253580ce0"><div class="ttname"><a href="../../dd/d7d/childrens__week_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a09f811ffc17b7c7e0b5267a253580ce0">TEXT_WOLVAR_ORPHAN_4</a></div><div class="ttdeci">@ TEXT_WOLVAR_ORPHAN_4</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:53</div></div>
+<div class="ttc" id="achildrens__week_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a3dd8ab04a3e0ac26955fccea41590162"><div class="ttname"><a href="../../dd/d7d/childrens__week_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a3dd8ab04a3e0ac26955fccea41590162">TEXT_ELDER_KEKEK_1</a></div><div class="ttdeci">@ TEXT_ELDER_KEKEK_1</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:68</div></div>
+<div class="ttc" id="achildrens__week_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a75807ae773ba2281a740372a582cbdfb"><div class="ttname"><a href="../../dd/d7d/childrens__week_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a75807ae773ba2281a740372a582cbdfb">TEXT_WOLVAR_ORPHAN_5</a></div><div class="ttdeci">@ TEXT_WOLVAR_ORPHAN_5</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:54</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_a96b82ee318c4d46f16b94192de654bed"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">CreatureAI::Talk</a></div><div class="ttdeci">void Talk(uint8 id, WorldObject const *whisperTarget=nullptr)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:58</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_motion_master_html_a5c4f6d1163174b909c83901d7f770d72"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MotionMaster::MoveFollow</a></div><div class="ttdeci">void MoveFollow(Unit *target, float dist, float angle, MovementSlot slot=MOTION_SLOT_ACTIVE)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:367</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_player_html_a5407b30447c557eb4bcb441d0e4df355"><div class="ttname"><a href="../../d8/d53/class_player.html#a5407b30447c557eb4bcb441d0e4df355">Player::GroupEventHappens</a></div><div class="ttdeci">void GroupEventHappens(uint32 questId, WorldObject const *pEventObject)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1795</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_aeb3657e7ad09335b9a9ffa50473aa216"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer(Map const *, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:225</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_a74cabfb8f441acb38e1abd5bf6ecdc84"><div class="ttname"><a href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">Position::GetOrientation</a></div><div class="ttdeci">float GetOrientation() const</div><div class="ttdef"><b>Definition:</b> Position.h:120</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astructnpc__elder__kekek_html_a97e615bdefba5baf459960fc2987cd69"><div class="ttname"><a href="../../d9/db6/structnpc__elder__kekek.html#a97e615bdefba5baf459960fc2987cd69">npc_elder_kekek::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:475</div></div>
+<div class="ttc" id="astructnpc__elder__kekek_html_a99fd9d984f92d5ba8b5876675855d4f6"><div class="ttname"><a href="../../d9/db6/structnpc__elder__kekek.html#a99fd9d984f92d5ba8b5876675855d4f6">npc_elder_kekek::phase</a></div><div class="ttdeci">int8 phase</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:538</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -696,7 +788,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../dd/d7d/childrens__week_8cpp.html">childrens_week.cpp</a></li>
+<li><a class="el" href="../../">childrens_week.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -704,7 +796,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/db6/structnpc__elder__kekek.html">npc_elder_kekek</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7acd2500fe7f82272047b301812d1e8b" name="a7acd2500fe7f82272047b301812d1e8b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7acd2500fe7f82272047b301812d1e8b">&#9670;&#160;</a></span>HandleHealPct()</h2>
 
@@ -316,7 +317,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1433</span>        {</div>
+<div class="line"><span class="lineno"> 1434</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* target = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a043ed22727560e0cb812009a30f0a37a">GetHitCreature</a>())</div>
+<div class="line"><span class="lineno"> 1435</span>                target-&gt;AI()-&gt;Talk(<a class="code hl_enumvalue" href="../../dd/dd6/boss__halion_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ab52e36c60b9606b8d6b1e0c6f7f57903">SAY_REGENERATE</a>);</div>
+<div class="line"><span class="lineno"> 1436</span>        }</div>
+<div class="ttc" id="aboss__halion_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31ab52e36c60b9606b8d6b1e0c6f7f57903"><div class="ttname"><a href="../../dd/dd6/boss__halion_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ab52e36c60b9606b8d6b1e0c6f7f57903">SAY_REGENERATE</a></div><div class="ttdeci">@ SAY_REGENERATE</div><div class="ttdef"><b>Definition:</b> boss_halion.cpp:33</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_spell_script_html_a043ed22727560e0cb812009a30f0a37a"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a043ed22727560e0cb812009a30f0a37a">SpellScript::GetHitCreature</a></div><div class="ttdeci">Creature * GetHitCreature()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:458</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8a93787bef057e2c07257cfecf8bed67" name="a8a93787bef057e2c07257cfecf8bed67"></a>
@@ -369,11 +377,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1439</span>        {</div>
+<div class="line"><span class="lineno"> 1440</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d4/d05/classspell__halion__twilight__mending_1_1spell__halion__twilight__mending___spell_script.html#a7acd2500fe7f82272047b301812d1e8b">spell_halion_twilight_mending_SpellScript::HandleHealPct</a>, <a class="code hl_define" href="../../df/d0b/_shared_defines_8h.html#ac97ba74f30438a8b51ce05c9de303cd7">EFFECT_ALL</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97ae0cab2a09ad0acd69cdc260048bf31b5">SPELL_EFFECT_HEAL_PCT</a>);</div>
+<div class="line"><span class="lineno"> 1441</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97ae0cab2a09ad0acd69cdc260048bf31b5"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97ae0cab2a09ad0acd69cdc260048bf31b5">SPELL_EFFECT_HEAL_PCT</a></div><div class="ttdeci">@ SPELL_EFFECT_HEAL_PCT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:886</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ac97ba74f30438a8b51ce05c9de303cd7"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac97ba74f30438a8b51ce05c9de303cd7">EFFECT_ALL</a></div><div class="ttdeci">#define EFFECT_ALL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:37</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__halion__twilight__mending_1_1spell__halion__twilight__mending___spell_script_html_a7acd2500fe7f82272047b301812d1e8b"><div class="ttname"><a href="../../d4/d05/classspell__halion__twilight__mending_1_1spell__halion__twilight__mending___spell_script.html#a7acd2500fe7f82272047b301812d1e8b">spell_halion_twilight_mending::spell_halion_twilight_mending_SpellScript::HandleHealPct</a></div><div class="ttdeci">void HandleHealPct(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> boss_halion.cpp:1432</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/<a class="el" href="../../dd/dd6/boss__halion_8cpp.html">boss_halion.cpp</a></li>
+<li><a class="el" href="../../">boss_halion.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -381,7 +397,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d48/classspell__halion__twilight__mending.html">spell_halion_twilight_mending</a></li><li class="navelem"><a class="el" href="../../d4/d05/classspell__halion__twilight__mending_1_1spell__halion__twilight__mending___spell_script.html">spell_halion_twilight_mending_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:19 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -489,7 +489,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9991db9eaa01ee3e776b196ba2eb2ea1" name="a9991db9eaa01ee3e776b196ba2eb2ea1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9991db9eaa01ee3e776b196ba2eb2ea1">&#9670;&#160;</a></span>water_elementalAI()</h2>
 
@@ -513,7 +514,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  576</span>                                              : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">  577</span>        {</div>
+<div class="line"><span class="lineno">  578</span>        }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -542,7 +547,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  587</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9fe1707da5fb63983c843d1baf6f23e1" name="a9fe1707da5fb63983c843d1baf6f23e1"></a>
@@ -569,7 +575,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  583</span>        {</div>
+<div class="line"><span class="lineno">  584</span>            <a class="code hl_variable" href="../../d6/d19/structnpc__aran__elemental_1_1water__elemental_a_i.html#a24ef5fd7e36391ea1118b63230f271d9">CastTimer</a> = 2000 + (rand() % 3000);</div>
+<div class="line"><span class="lineno">  585</span>        }</div>
+<div class="ttc" id="astructnpc__aran__elemental_1_1water__elemental_a_i_html_a24ef5fd7e36391ea1118b63230f271d9"><div class="ttname"><a href="../../d6/d19/structnpc__aran__elemental_1_1water__elemental_a_i.html#a24ef5fd7e36391ea1118b63230f271d9">npc_aran_elemental::water_elementalAI::CastTimer</a></div><div class="ttdeci">uint32 CastTimer</div><div class="ttdef"><b>Definition:</b> boss_shade_of_aran.cpp:580</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a491ab9b1e65e3e43a73442d53e2b9267" name="a491ab9b1e65e3e43a73442d53e2b9267"></a>
@@ -597,7 +607,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  590</span>        {</div>
+<div class="line"><span class="lineno">  591</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  592</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  593</span> </div>
+<div class="line"><span class="lineno">  594</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d19/structnpc__aran__elemental_1_1water__elemental_a_i.html#a24ef5fd7e36391ea1118b63230f271d9">CastTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  595</span>            {</div>
+<div class="line"><span class="lineno">  596</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa1c24a9da48685f3b699190f5d7b68d56">SPELL_WATERBOLT</a>);</div>
+<div class="line"><span class="lineno">  597</span>                <a class="code hl_variable" href="../../d6/d19/structnpc__aran__elemental_1_1water__elemental_a_i.html#a24ef5fd7e36391ea1118b63230f271d9">CastTimer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(2000, 5000);</div>
+<div class="line"><span class="lineno">  598</span>            }</div>
+<div class="line"><span class="lineno">  599</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  600</span>                <a class="code hl_variable" href="../../d6/d19/structnpc__aran__elemental_1_1water__elemental_a_i.html#a24ef5fd7e36391ea1118b63230f271d9">CastTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  601</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__shade__of__aran_8cpp_html_a6e64648088fc7b5a246d79ceeff6cf1fa1c24a9da48685f3b699190f5d7b68d56"><div class="ttname"><a href="../../db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa1c24a9da48685f3b699190f5d7b68d56">SPELL_WATERBOLT</a></div><div class="ttdeci">@ SPELL_WATERBOLT</div><div class="ttdef"><b>Definition:</b> boss_shade_of_aran.cpp:57</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -616,7 +642,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/Karazhan/<a class="el" href="../../db/dde/boss__shade__of__aran_8cpp.html">boss_shade_of_aran.cpp</a></li>
+<li><a class="el" href="../../">boss_shade_of_aran.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -624,7 +650,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d6a/classnpc__aran__elemental.html">npc_aran_elemental</a></li><li class="navelem"><a class="el" href="../../d6/d19/structnpc__aran__elemental_1_1water__elemental_a_i.html">water_elementalAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

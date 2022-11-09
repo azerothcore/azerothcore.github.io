@@ -483,7 +483,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ade8c407083cf094f0767412e7b6d7730" name="ade8c407083cf094f0767412e7b6d7730"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ade8c407083cf094f0767412e7b6d7730">&#9670;&#160;</a></span>ChatLogScript()</h2>
 
@@ -506,7 +507,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   32</span>: <a class="code hl_class" href="../../d9/dd2/class_player_script.html">PlayerScript</a>(<span class="stringliteral">&quot;ChatLogScript&quot;</span>) { }</div>
+<div class="ttc" id="aclass_player_script_html"><div class="ttname"><a href="../../d9/dd2/class_player_script.html">PlayerScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:986</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -557,7 +560,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dd2/class_player_script.html#a423eb2696a3efd29bb322e512985ef48">PlayerScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>    {</div>
+<div class="line"><span class="lineno">   36</span>        <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><span class="lineno">   37</span>        {</div>
+<div class="line"><span class="lineno">   38</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a28c3161b355228688af8d419d3db5ac7">CHAT_MSG_SAY</a>:</div>
+<div class="line"><span class="lineno">   39</span>                <a class="code hl_define" href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a>(<span class="stringliteral">&quot;say&quot;</span>, <span class="stringliteral">&quot;Player {} says (language {}): {}&quot;</span>,</div>
+<div class="line"><span class="lineno">   40</span>                    player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), lang, msg);</div>
+<div class="line"><span class="lineno">   41</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   42</span> </div>
+<div class="line"><span class="lineno">   43</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a7cf03a8d72a39cc87ea20db8c1c11166">CHAT_MSG_EMOTE</a>:</div>
+<div class="line"><span class="lineno">   44</span>                <a class="code hl_define" href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a>(<span class="stringliteral">&quot;emote&quot;</span>, <span class="stringliteral">&quot;Player {} emotes: {}&quot;</span>,</div>
+<div class="line"><span class="lineno">   45</span>                    player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), msg);</div>
+<div class="line"><span class="lineno">   46</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   47</span> </div>
+<div class="line"><span class="lineno">   48</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a6ff7819969e9a69f2fb392abf633dc66">CHAT_MSG_YELL</a>:</div>
+<div class="line"><span class="lineno">   49</span>                <a class="code hl_define" href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a>(<span class="stringliteral">&quot;yell&quot;</span>, <span class="stringliteral">&quot;Player {} yells (language {}): {}&quot;</span>,</div>
+<div class="line"><span class="lineno">   50</span>                    player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), lang, msg);</div>
+<div class="line"><span class="lineno">   51</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   52</span>        }</div>
+<div class="line"><span class="lineno">   53</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a28c3161b355228688af8d419d3db5ac7"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a28c3161b355228688af8d419d3db5ac7">CHAT_MSG_SAY</a></div><div class="ttdeci">@ CHAT_MSG_SAY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3125</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a6ff7819969e9a69f2fb392abf633dc66"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a6ff7819969e9a69f2fb392abf633dc66">CHAT_MSG_YELL</a></div><div class="ttdeci">@ CHAT_MSG_YELL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3130</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a7cf03a8d72a39cc87ea20db8c1c11166"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a7cf03a8d72a39cc87ea20db8c1c11166">CHAT_MSG_EMOTE</a></div><div class="ttdeci">@ CHAT_MSG_EMOTE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3134</div></div>
+<div class="ttc" id="achat__log_8cpp_html_a01e5e85a6f0ca392f94da26b0f2fc9ba"><div class="ttname"><a href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a></div><div class="ttdeci">#define LOG_CHAT(TYPE,...)</div><div class="ttdef"><b>Definition:</b> chat_log.cpp:23</div></div>
+<div class="ttc" id="aclass_world_object_html_a7e67658eb5aa058bc7f46bf6b11a797c"><div class="ttname"><a href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">WorldObject::GetName</a></div><div class="ttdeci">std::string const &amp; GetName() const</div><div class="ttdef"><b>Definition:</b> Object.h:446</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac0a0f2e7d63cb5ff94be3d1a7c7a62b4" name="ac0a0f2e7d63cb5ff94be3d1a7c7a62b4"></a>
@@ -614,7 +641,54 @@ Additional Inherited Members</h2></td></tr>
 <p >NOTE: LANG_ADDON can only be sent by client in "PARTY", "RAID", "GUILD", "BATTLEGROUND", "WHISPER"</p>
 
 <p>Reimplemented from <a class="el" href="../../d9/dd2/class_player_script.html#ad20fe5266ff59278e36361edbf146d9e">PlayerScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   62</span>    {</div>
+<div class="line"><span class="lineno">   65</span>        <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><span class="lineno">   66</span>        {</div>
+<div class="line"><span class="lineno">   67</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a78bce32545cbd266d634421e3ed9ba38">CHAT_MSG_PARTY</a>:</div>
+<div class="line"><span class="lineno">   68</span>                <a class="code hl_define" href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a>(<span class="stringliteral">&quot;party&quot;</span>, <span class="stringliteral">&quot;Player {} tells group with leader {}: {}&quot;</span>,</div>
+<div class="line"><span class="lineno">   69</span>                    player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), group ? group-&gt;<a class="code hl_function" href="../../da/d50/class_group.html#abc7040480ba4f1c98d393a3e6b38035b">GetLeaderName</a>() : <span class="stringliteral">&quot;&lt;unknown&gt;&quot;</span>, msg);</div>
+<div class="line"><span class="lineno">   70</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a46fd824799cdefa7951765d9f5364ee5">CHAT_MSG_PARTY_LEADER</a>:</div>
+<div class="line"><span class="lineno">   73</span>                <a class="code hl_define" href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a>(<span class="stringliteral">&quot;party&quot;</span>, <span class="stringliteral">&quot;Leader {} tells group: {}&quot;</span>,</div>
+<div class="line"><span class="lineno">   74</span>                    player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), msg);</div>
+<div class="line"><span class="lineno">   75</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   76</span> </div>
+<div class="line"><span class="lineno">   77</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a0f0750b603f27417e7b5916e49c284d7">CHAT_MSG_RAID</a>:</div>
+<div class="line"><span class="lineno">   78</span>                <a class="code hl_define" href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a>(<span class="stringliteral">&quot;raid&quot;</span>, <span class="stringliteral">&quot;Player {} tells raid with leader {}: {}&quot;</span>,</div>
+<div class="line"><span class="lineno">   79</span>                    player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), group ? group-&gt;<a class="code hl_function" href="../../da/d50/class_group.html#abc7040480ba4f1c98d393a3e6b38035b">GetLeaderName</a>() : <span class="stringliteral">&quot;&lt;unknown&gt;&quot;</span>, msg);</div>
+<div class="line"><span class="lineno">   80</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a4b5f992df0753b7018fc9a0cc063a0c2">CHAT_MSG_RAID_LEADER</a>:</div>
+<div class="line"><span class="lineno">   83</span>                <a class="code hl_define" href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a>(<span class="stringliteral">&quot;raid&quot;</span>, <span class="stringliteral">&quot;Leader player {} tells raid: {}&quot;</span>,</div>
+<div class="line"><span class="lineno">   84</span>                    player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), msg);</div>
+<div class="line"><span class="lineno">   85</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a00ef760af7e7ac20c4c43e3ec77a1650">CHAT_MSG_RAID_WARNING</a>:</div>
+<div class="line"><span class="lineno">   88</span>                <a class="code hl_define" href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a>(<span class="stringliteral">&quot;raid&quot;</span>, <span class="stringliteral">&quot;Leader player {} warns raid with: {}&quot;</span>,</div>
+<div class="line"><span class="lineno">   89</span>                    player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), msg);</div>
+<div class="line"><span class="lineno">   90</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ab9bdcbdf0456821cbb74a5f57b3f2534">CHAT_MSG_BATTLEGROUND</a>:</div>
+<div class="line"><span class="lineno">   93</span>                <a class="code hl_define" href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a>(<span class="stringliteral">&quot;bg&quot;</span>, <span class="stringliteral">&quot;Player {} tells battleground with leader {}: {}&quot;</span>,</div>
+<div class="line"><span class="lineno">   94</span>                    player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), group ? group-&gt;<a class="code hl_function" href="../../da/d50/class_group.html#abc7040480ba4f1c98d393a3e6b38035b">GetLeaderName</a>() : <span class="stringliteral">&quot;&lt;unknown&gt;&quot;</span>, msg);</div>
+<div class="line"><span class="lineno">   95</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   96</span> </div>
+<div class="line"><span class="lineno">   97</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16abd17674b67b2f5953597579f7b710c62">CHAT_MSG_BATTLEGROUND_LEADER</a>:</div>
+<div class="line"><span class="lineno">   98</span>                <a class="code hl_define" href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a>(<span class="stringliteral">&quot;bg&quot;</span>, <span class="stringliteral">&quot;Leader player {} tells battleground: {}&quot;</span>,</div>
+<div class="line"><span class="lineno">   99</span>                    player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), msg);</div>
+<div class="line"><span class="lineno">  100</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  101</span>        }</div>
+<div class="line"><span class="lineno">  102</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a00ef760af7e7ac20c4c43e3ec77a1650"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a00ef760af7e7ac20c4c43e3ec77a1650">CHAT_MSG_RAID_WARNING</a></div><div class="ttdeci">@ CHAT_MSG_RAID_WARNING</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3164</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a0f0750b603f27417e7b5916e49c284d7"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a0f0750b603f27417e7b5916e49c284d7">CHAT_MSG_RAID</a></div><div class="ttdeci">@ CHAT_MSG_RAID</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3127</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a46fd824799cdefa7951765d9f5364ee5"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a46fd824799cdefa7951765d9f5364ee5">CHAT_MSG_PARTY_LEADER</a></div><div class="ttdeci">@ CHAT_MSG_PARTY_LEADER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3175</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a4b5f992df0753b7018fc9a0cc063a0c2"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a4b5f992df0753b7018fc9a0cc063a0c2">CHAT_MSG_RAID_LEADER</a></div><div class="ttdeci">@ CHAT_MSG_RAID_LEADER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3163</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a78bce32545cbd266d634421e3ed9ba38"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a78bce32545cbd266d634421e3ed9ba38">CHAT_MSG_PARTY</a></div><div class="ttdeci">@ CHAT_MSG_PARTY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3126</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16ab9bdcbdf0456821cbb74a5f57b3f2534"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ab9bdcbdf0456821cbb74a5f57b3f2534">CHAT_MSG_BATTLEGROUND</a></div><div class="ttdeci">@ CHAT_MSG_BATTLEGROUND</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3168</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16abd17674b67b2f5953597579f7b710c62"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16abd17674b67b2f5953597579f7b710c62">CHAT_MSG_BATTLEGROUND_LEADER</a></div><div class="ttdeci">@ CHAT_MSG_BATTLEGROUND_LEADER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3169</div></div>
+<div class="ttc" id="aclass_group_html_abc7040480ba4f1c98d393a3e6b38035b"><div class="ttname"><a href="../../da/d50/class_group.html#abc7040480ba4f1c98d393a3e6b38035b">Group::GetLeaderName</a></div><div class="ttdeci">const char * GetLeaderName() const</div><div class="ttdef"><b>Definition:</b> Group.cpp:2246</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a53b69eaa690266d38f08aa3920048353" name="a53b69eaa690266d38f08aa3920048353"></a>
@@ -670,7 +744,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dd2/class_player_script.html#a6911e023982fcda6434af80caa210d09">PlayerScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  105</span>    {</div>
+<div class="line"><span class="lineno">  106</span>        <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><span class="lineno">  107</span>        {</div>
+<div class="line"><span class="lineno">  108</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a830d06520a1ea15d80dd30f304971e47">CHAT_MSG_GUILD</a>:</div>
+<div class="line"><span class="lineno">  109</span>                <a class="code hl_define" href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a>(<span class="stringliteral">&quot;guild&quot;</span>, <span class="stringliteral">&quot;Player {} tells guild {}: {}&quot;</span>,</div>
+<div class="line"><span class="lineno">  110</span>                    player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), guild ? guild-&gt;<a class="code hl_function" href="../../d5/dfe/class_guild.html#a73c93908066e72bf5519728bddd23d80">GetName</a>() : <span class="stringliteral">&quot;&lt;unknown&gt;&quot;</span>, msg);</div>
+<div class="line"><span class="lineno">  111</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  112</span> </div>
+<div class="line"><span class="lineno">  113</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16aa16f87e02db2c6203c23cd4f94b1a67c">CHAT_MSG_OFFICER</a>:</div>
+<div class="line"><span class="lineno">  114</span>                <a class="code hl_define" href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a>(<span class="stringliteral">&quot;guild.officer&quot;</span>, <span class="stringliteral">&quot;Player {} tells guild {} officers: {}&quot;</span>,</div>
+<div class="line"><span class="lineno">  115</span>                    player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), guild ? guild-&gt;<a class="code hl_function" href="../../d5/dfe/class_guild.html#a73c93908066e72bf5519728bddd23d80">GetName</a>() : <span class="stringliteral">&quot;&lt;unknown&gt;&quot;</span>, msg);</div>
+<div class="line"><span class="lineno">  116</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  117</span>        }</div>
+<div class="line"><span class="lineno">  118</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a830d06520a1ea15d80dd30f304971e47"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a830d06520a1ea15d80dd30f304971e47">CHAT_MSG_GUILD</a></div><div class="ttdeci">@ CHAT_MSG_GUILD</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3128</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16aa16f87e02db2c6203c23cd4f94b1a67c"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16aa16f87e02db2c6203c23cd4f94b1a67c">CHAT_MSG_OFFICER</a></div><div class="ttdeci">@ CHAT_MSG_OFFICER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3129</div></div>
+<div class="ttc" id="aclass_guild_html_a73c93908066e72bf5519728bddd23d80"><div class="ttname"><a href="../../d5/dfe/class_guild.html#a73c93908066e72bf5519728bddd23d80">Guild::GetName</a></div><div class="ttdeci">std::string const &amp; GetName() const</div><div class="ttdef"><b>Definition:</b> Guild.h:684</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac4845332fd6498f8f33101a6af50edfb" name="ac4845332fd6498f8f33101a6af50edfb"></a>
@@ -726,7 +817,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dd2/class_player_script.html#aa5953aef1cbb4852c87357d6fd3e356e">PlayerScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  121</span>    {</div>
+<div class="line"><span class="lineno">  122</span>        <span class="keywordtype">bool</span> isSystem = channel &amp;&amp;</div>
+<div class="line"><span class="lineno">  123</span>                        (channel-&gt;<a class="code hl_function" href="../../de/db6/class_channel.html#a35849fec3a2108f30f6f21bbfc35f7bd">HasFlag</a>(<a class="code hl_enumvalue" href="../../d5/da1/_channel_8h.html#a22db5479a3c9cd5559a483e29146af57a49ddcd0dc7a5e8def2216a6230286b17">CHANNEL_FLAG_TRADE</a>) ||</div>
+<div class="line"><span class="lineno">  124</span>                         channel-&gt;<a class="code hl_function" href="../../de/db6/class_channel.html#a35849fec3a2108f30f6f21bbfc35f7bd">HasFlag</a>(<a class="code hl_enumvalue" href="../../d5/da1/_channel_8h.html#a22db5479a3c9cd5559a483e29146af57a6d9feda90f58dbb57b3b32b1a7a8ac0d">CHANNEL_FLAG_GENERAL</a>) ||</div>
+<div class="line"><span class="lineno">  125</span>                         channel-&gt;<a class="code hl_function" href="../../de/db6/class_channel.html#a35849fec3a2108f30f6f21bbfc35f7bd">HasFlag</a>(<a class="code hl_enumvalue" href="../../d5/da1/_channel_8h.html#a22db5479a3c9cd5559a483e29146af57ac802678a452211b1a576fcfcf7e8309c">CHANNEL_FLAG_CITY</a>) ||</div>
+<div class="line"><span class="lineno">  126</span>                         channel-&gt;<a class="code hl_function" href="../../de/db6/class_channel.html#a35849fec3a2108f30f6f21bbfc35f7bd">HasFlag</a>(<a class="code hl_enumvalue" href="../../d5/da1/_channel_8h.html#a22db5479a3c9cd5559a483e29146af57aa62854ac734664a38c5eff4c3176ed77">CHANNEL_FLAG_LFG</a>));</div>
+<div class="line"><span class="lineno">  127</span> </div>
+<div class="line"><span class="lineno">  128</span>        <span class="keywordflow">if</span> (isSystem)</div>
+<div class="line"><span class="lineno">  129</span>        {</div>
+<div class="line"><span class="lineno">  130</span>            <a class="code hl_define" href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a>(<span class="stringliteral">&quot;system&quot;</span>, <span class="stringliteral">&quot;Player {} tells channel {}: {}&quot;</span>,</div>
+<div class="line"><span class="lineno">  131</span>                player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), channel-&gt;<a class="code hl_function" href="../../de/db6/class_channel.html#ac05a03415b2e3176ca5327d3dd9d5746">GetName</a>(), msg);</div>
+<div class="line"><span class="lineno">  132</span>        }</div>
+<div class="line"><span class="lineno">  133</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  134</span>        {</div>
+<div class="line"><span class="lineno">  135</span>            std::string channelName = channel ? channel-&gt;<a class="code hl_function" href="../../de/db6/class_channel.html#ac05a03415b2e3176ca5327d3dd9d5746">GetName</a>() : <span class="stringliteral">&quot;&lt;unknown&gt;&quot;</span>;</div>
+<div class="line"><span class="lineno">  136</span>            <a class="code hl_define" href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a>(<span class="stringliteral">&quot;channel.&quot;</span> + channelName, <span class="stringliteral">&quot;Player {} tells channel {}: {}&quot;</span>,</div>
+<div class="line"><span class="lineno">  137</span>                player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), channelName, msg);</div>
+<div class="line"><span class="lineno">  138</span>        }</div>
+<div class="line"><span class="lineno">  139</span>    }</div>
+<div class="ttc" id="a_channel_8h_html_a22db5479a3c9cd5559a483e29146af57a49ddcd0dc7a5e8def2216a6230286b17"><div class="ttname"><a href="../../d5/da1/_channel_8h.html#a22db5479a3c9cd5559a483e29146af57a49ddcd0dc7a5e8def2216a6230286b17">CHANNEL_FLAG_TRADE</a></div><div class="ttdeci">@ CHANNEL_FLAG_TRADE</div><div class="ttdef"><b>Definition:</b> Channel.h:81</div></div>
+<div class="ttc" id="a_channel_8h_html_a22db5479a3c9cd5559a483e29146af57a6d9feda90f58dbb57b3b32b1a7a8ac0d"><div class="ttname"><a href="../../d5/da1/_channel_8h.html#a22db5479a3c9cd5559a483e29146af57a6d9feda90f58dbb57b3b32b1a7a8ac0d">CHANNEL_FLAG_GENERAL</a></div><div class="ttdeci">@ CHANNEL_FLAG_GENERAL</div><div class="ttdef"><b>Definition:</b> Channel.h:83</div></div>
+<div class="ttc" id="a_channel_8h_html_a22db5479a3c9cd5559a483e29146af57aa62854ac734664a38c5eff4c3176ed77"><div class="ttname"><a href="../../d5/da1/_channel_8h.html#a22db5479a3c9cd5559a483e29146af57aa62854ac734664a38c5eff4c3176ed77">CHANNEL_FLAG_LFG</a></div><div class="ttdeci">@ CHANNEL_FLAG_LFG</div><div class="ttdef"><b>Definition:</b> Channel.h:85</div></div>
+<div class="ttc" id="a_channel_8h_html_a22db5479a3c9cd5559a483e29146af57ac802678a452211b1a576fcfcf7e8309c"><div class="ttname"><a href="../../d5/da1/_channel_8h.html#a22db5479a3c9cd5559a483e29146af57ac802678a452211b1a576fcfcf7e8309c">CHANNEL_FLAG_CITY</a></div><div class="ttdeci">@ CHANNEL_FLAG_CITY</div><div class="ttdef"><b>Definition:</b> Channel.h:84</div></div>
+<div class="ttc" id="aclass_channel_html_a35849fec3a2108f30f6f21bbfc35f7bd"><div class="ttname"><a href="../../de/db6/class_channel.html#a35849fec3a2108f30f6f21bbfc35f7bd">Channel::HasFlag</a></div><div class="ttdeci">bool HasFlag(uint8 flag) const</div><div class="ttdef"><b>Definition:</b> Channel.h:192</div></div>
+<div class="ttc" id="aclass_channel_html_ac05a03415b2e3176ca5327d3dd9d5746"><div class="ttname"><a href="../../de/db6/class_channel.html#ac05a03415b2e3176ca5327d3dd9d5746">Channel::GetName</a></div><div class="ttdeci">std::string const &amp; GetName() const</div><div class="ttdef"><b>Definition:</b> Channel.h:183</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7b6ce21ddcda078a0ed32ce130a3b376" name="a7b6ce21ddcda078a0ed32ce130a3b376"></a>
@@ -782,11 +898,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dd2/class_player_script.html#a9d081f3fd8d3bd8e8d10cf0daa43f53a">PlayerScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   56</span>    {</div>
+<div class="line"><span class="lineno">   57</span>        <a class="code hl_define" href="../../d3/da8/chat__log_8cpp.html#a01e5e85a6f0ca392f94da26b0f2fc9ba">LOG_CHAT</a>(<span class="stringliteral">&quot;whisper&quot;</span>, <span class="stringliteral">&quot;Player {} tells {}: {}&quot;</span>,</div>
+<div class="line"><span class="lineno">   58</span>               player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), receiver ? receiver-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>() : <span class="stringliteral">&quot;&lt;unknown&gt;&quot;</span>, msg);</div>
+<div class="line"><span class="lineno">   59</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d3/da8/chat__log_8cpp.html">chat_log.cpp</a></li>
+<li><a class="el" href="../../">chat_log.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -794,7 +914,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d4d/class_chat_log_script.html">ChatLogScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -400,7 +400,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a48e29edad38f8ecbab54579203c93044" name="a48e29edad38f8ecbab54579203c93044"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a48e29edad38f8ecbab54579203c93044">&#9670;&#160;</a></span>npc_ulduar_expedition_engineerAI()</h2>
 
@@ -424,7 +425,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  838</span>                                                              : <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(pCreature)</div>
+<div class="line"><span class="lineno">  839</span>        {</div>
+<div class="line"><span class="lineno">  840</span>            <a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#a6b858d46eda05493ec0cac22e174854c">pInstance</a> = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">  841</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astructnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i_html_a6b858d46eda05493ec0cac22e174854c"><div class="ttname"><a href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#a6b858d46eda05493ec0cac22e174854c">npc_ulduar_expedition_engineer::npc_ulduar_expedition_engineerAI::pInstance</a></div><div class="ttdeci">InstanceScript * pInstance</div><div class="ttdef"><b>Definition:</b> boss_razorscale.cpp:843</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -452,7 +461,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a43eb9ef68b977d98f6618d69a0d62115">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  849</span>        {</div>
+<div class="line"><span class="lineno">  850</span>            <a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#ab8e436472efd91f2d400c02c1b500746">working</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  851</span>            <a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#a926b343da3d3953d386b18f24bc72867">timer</a> = 0;</div>
+<div class="line"><span class="lineno">  852</span>            <a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#ae0ba3ddbff054a948709e70f0bf9961a">fixingGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  853</span>        }</div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="astructnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i_html_a926b343da3d3953d386b18f24bc72867"><div class="ttname"><a href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#a926b343da3d3953d386b18f24bc72867">npc_ulduar_expedition_engineer::npc_ulduar_expedition_engineerAI::timer</a></div><div class="ttdeci">uint16 timer</div><div class="ttdef"><b>Definition:</b> boss_razorscale.cpp:845</div></div>
+<div class="ttc" id="astructnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i_html_ab8e436472efd91f2d400c02c1b500746"><div class="ttname"><a href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#ab8e436472efd91f2d400c02c1b500746">npc_ulduar_expedition_engineer::npc_ulduar_expedition_engineerAI::working</a></div><div class="ttdeci">bool working</div><div class="ttdef"><b>Definition:</b> boss_razorscale.cpp:844</div></div>
+<div class="ttc" id="astructnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i_html_ae0ba3ddbff054a948709e70f0bf9961a"><div class="ttname"><a href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#ae0ba3ddbff054a948709e70f0bf9961a">npc_ulduar_expedition_engineer::npc_ulduar_expedition_engineerAI::fixingGUID</a></div><div class="ttdeci">ObjectGuid fixingGUID</div><div class="ttdef"><b>Definition:</b> boss_razorscale.cpp:846</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a31db1ae61777b8f1a38d381e785ce158" name="a31db1ae61777b8f1a38d381e785ce158"></a>
@@ -490,7 +508,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a14c40dcfec28989cc630fa571c67ebb7">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  856</span>        {</div>
+<div class="line"><span class="lineno">  857</span>            <span class="keywordflow">switch</span> (<span class="keywordtype">id</span>)</div>
+<div class="line"><span class="lineno">  858</span>            {</div>
+<div class="line"><span class="lineno">  859</span>                <span class="keywordflow">case</span> 1: <span class="comment">// start/resume repairing</span></div>
+<div class="line"><span class="lineno">  860</span>                    <a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#ab8e436472efd91f2d400c02c1b500746">working</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  861</span>                    <a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#a926b343da3d3953d386b18f24bc72867">timer</a> = 0;</div>
+<div class="line"><span class="lineno">  862</span>                    <a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#ae0ba3ddbff054a948709e70f0bf9961a">fixingGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  863</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  864</span>                <span class="keywordflow">case</span> 2: <span class="comment">// stop repairing</span></div>
+<div class="line"><span class="lineno">  865</span>                    <a class="code hl_function" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#a8a68e3a58133913d0eb0bf9fd2532db2">Reset</a>();</div>
+<div class="line"><span class="lineno">  866</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881aaf5220c031538f14e62edb39923a0ccf">UNIT_NPC_EMOTESTATE</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a318c9e24ffba3782912742d35d733cb5">EMOTE_STATE_STAND</a>);</div>
+<div class="line"><span class="lineno">  867</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#acbbc91faf8981b57f171ae18447bbb37">MoveTargetedHome</a>();</div>
+<div class="line"><span class="lineno">  868</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  869</span>            }</div>
+<div class="line"><span class="lineno">  870</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0e527855c554e31654c9beb340145574a318c9e24ffba3782912742d35d733cb5"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a318c9e24ffba3782912742d35d733cb5">EMOTE_STATE_STAND</a></div><div class="ttdeci">@ EMOTE_STATE_STAND</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1890</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a0e42dc606678c9df7884e1aad621e881aaf5220c031538f14e62edb39923a0ccf"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881aaf5220c031538f14e62edb39923a0ccf">UNIT_NPC_EMOTESTATE</a></div><div class="ttdeci">@ UNIT_NPC_EMOTESTATE</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:140</div></div>
+<div class="ttc" id="aclass_motion_master_html_acbbc91faf8981b57f171ae18447bbb37"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#acbbc91faf8981b57f171ae18447bbb37">MotionMaster::MoveTargetedHome</a></div><div class="ttdeci">void MoveTargetedHome()</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:251</div></div>
+<div class="ttc" id="aclass_object_html_adc7e9b205f35f9894ec9a4f0ec0871f9"><div class="ttname"><a href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">Object::SetUInt32Value</a></div><div class="ttdeci">void SetUInt32Value(uint16 index, uint32 value)</div><div class="ttdef"><b>Definition:</b> Object.cpp:650</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="astructnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i_html_a8a68e3a58133913d0eb0bf9fd2532db2"><div class="ttname"><a href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#a8a68e3a58133913d0eb0bf9fd2532db2">npc_ulduar_expedition_engineer::npc_ulduar_expedition_engineerAI::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdef"><b>Definition:</b> boss_razorscale.cpp:848</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab6d29aaae95038282fece78479448459" name="ab6d29aaae95038282fece78479448459"></a>
@@ -518,7 +557,80 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  873</span>        {</div>
+<div class="line"><span class="lineno">  874</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#ab8e436472efd91f2d400c02c1b500746">working</a>)</div>
+<div class="line"><span class="lineno">  875</span>            {</div>
+<div class="line"><span class="lineno">  876</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#a926b343da3d3953d386b18f24bc72867">timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  877</span>                {</div>
+<div class="line"><span class="lineno">  878</span>                    <a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#a926b343da3d3953d386b18f24bc72867">timer</a> = 3000;</div>
+<div class="line"><span class="lineno">  879</span> </div>
+<div class="line"><span class="lineno">  880</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#ae0ba3ddbff054a948709e70f0bf9961a">fixingGUID</a>)</div>
+<div class="line"><span class="lineno">  881</span>                    {</div>
+<div class="line"><span class="lineno">  882</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* c = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#ae0ba3ddbff054a948709e70f0bf9961a">fixingGUID</a>))</div>
+<div class="line"><span class="lineno">  883</span>                            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a18d31b5e7b176a14502dcb667a898865">GetExactDist2dSq</a>(c) &lt;= 25.0f)</div>
+<div class="line"><span class="lineno">  884</span>                            {</div>
+<div class="line"><span class="lineno">  885</span>                                <span class="keywordflow">if</span>( <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a3264388b9f92da9de7641477b3dc77f9">GetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881aaf5220c031538f14e62edb39923a0ccf">UNIT_NPC_EMOTESTATE</a>) != <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574adfee5d9c2f03d2ad1b1b8af93285216e">EMOTE_STATE_WORK</a> )</div>
+<div class="line"><span class="lineno">  886</span>                                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881aaf5220c031538f14e62edb39923a0ccf">UNIT_NPC_EMOTESTATE</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574adfee5d9c2f03d2ad1b1b8af93285216e">EMOTE_STATE_WORK</a>);</div>
+<div class="line"><span class="lineno">  887</span> </div>
+<div class="line"><span class="lineno">  888</span>                                <span class="keywordflow">if</span> (std::fabs(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>() - <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#aee80751b631ac7287aafe8f6df5891b4">GetAngle</a>(c)) &gt; M_PI / 4)</div>
+<div class="line"><span class="lineno">  889</span>                                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a549e721b14f15635bd6572505b366e78">SetFacingToObject</a>(c);</div>
+<div class="line"><span class="lineno">  890</span> </div>
+<div class="line"><span class="lineno">  891</span>                                c-&gt;AI()-&gt;SetData(2, 0);</div>
+<div class="line"><span class="lineno">  892</span>                                <span class="keywordflow">if</span> (c-&gt;AI()-&gt;GetData(2))</div>
+<div class="line"><span class="lineno">  893</span>                                    <a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#ae0ba3ddbff054a948709e70f0bf9961a">fixingGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  894</span>                            }</div>
+<div class="line"><span class="lineno">  895</span>                    }</div>
+<div class="line"><span class="lineno">  896</span> </div>
+<div class="line"><span class="lineno">  897</span>                    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#ae0ba3ddbff054a948709e70f0bf9961a">fixingGUID</a>)</div>
+<div class="line"><span class="lineno">  898</span>                    {</div>
+<div class="line"><span class="lineno">  899</span>                        <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* razorscale = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  900</span>                        <span class="keywordflow">if</span>( <a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> rsGUID = <a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#a6b858d46eda05493ec0cac22e174854c">pInstance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">GetGuidData</a>(<a class="code hl_enumvalue" href="../../d9/df7/ulduar_8h.html#aefe442e31fe12a6b87afdf94f88d4bbfa75a14d6fe2af7d3ef829eb0c8af63209">TYPE_RAZORSCALE</a>) )</div>
+<div class="line"><span class="lineno">  901</span>                            razorscale = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, rsGUID);</div>
+<div class="line"><span class="lineno">  902</span> </div>
+<div class="line"><span class="lineno">  903</span>                        <span class="keywordflow">if</span>( !razorscale || !razorscale-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">IsInCombat</a>() )</div>
+<div class="line"><span class="lineno">  904</span>                        {</div>
+<div class="line"><span class="lineno">  905</span>                            <a class="code hl_function" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#a8a68e3a58133913d0eb0bf9fd2532db2">Reset</a>();</div>
+<div class="line"><span class="lineno">  906</span>                            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#acbbc91faf8981b57f171ae18447bbb37">MoveTargetedHome</a>();</div>
+<div class="line"><span class="lineno">  907</span>                            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  908</span>                        }</div>
+<div class="line"><span class="lineno">  909</span> </div>
+<div class="line"><span class="lineno">  910</span>                        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> i = 0; i &lt; 4; ++i )</div>
+<div class="line"><span class="lineno">  911</span>                            <span class="keywordflow">if</span>( <a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> fs_GUID = <a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#a6b858d46eda05493ec0cac22e174854c">pInstance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">GetGuidData</a>(<a class="code hl_enumvalue" href="../../d9/df7/ulduar_8h.html#a637b611fb0e8ff96b12cacdde24ac9b2a534f9f6de8863c71fe15bff58ac58bea">DATA_HARPOON_FIRE_STATE_1</a> + i) )</div>
+<div class="line"><span class="lineno">  912</span>                                <span class="keywordflow">if</span>( <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* fs = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, fs_GUID) )</div>
+<div class="line"><span class="lineno">  913</span>                                    <span class="keywordflow">if</span> (!fs-&gt;AI()-&gt;GetData(2))</div>
+<div class="line"><span class="lineno">  914</span>                                    {</div>
+<div class="line"><span class="lineno">  915</span>                                        <span class="keywordtype">float</span> a = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#af2f9363ceebb6f78067b4a146d1de9df">rand_norm</a>() * M_PI;</div>
+<div class="line"><span class="lineno">  916</span>                                        <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(0, fs-&gt;GetPositionX() + 3.0f * cos(a), fs-&gt;GetPositionY() + 3.0f * std::sin(a), fs-&gt;GetPositionZ());</div>
+<div class="line"><span class="lineno">  917</span>                                        <a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#ae0ba3ddbff054a948709e70f0bf9961a">fixingGUID</a> = fs-&gt;GetGUID();</div>
+<div class="line"><span class="lineno">  918</span>                                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  919</span>                                    }</div>
+<div class="line"><span class="lineno">  920</span> </div>
+<div class="line"><span class="lineno">  921</span>                        <a class="code hl_function" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#a8a68e3a58133913d0eb0bf9fd2532db2">Reset</a>(); <span class="comment">// all harpoons repaired</span></div>
+<div class="line"><span class="lineno">  922</span>                        <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#acbbc91faf8981b57f171ae18447bbb37">MoveTargetedHome</a>();</div>
+<div class="line"><span class="lineno">  923</span>                    }</div>
+<div class="line"><span class="lineno">  924</span>                }</div>
+<div class="line"><span class="lineno">  925</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  926</span>                    <a class="code hl_variable" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html#a926b343da3d3953d386b18f24bc72867">timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  927</span>            }</div>
+<div class="line"><span class="lineno">  928</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a3264388b9f92da9de7641477b3dc77f9">GetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881aaf5220c031538f14e62edb39923a0ccf">UNIT_NPC_EMOTESTATE</a>) == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574adfee5d9c2f03d2ad1b1b8af93285216e">EMOTE_STATE_WORK</a>)</div>
+<div class="line"><span class="lineno">  929</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881aaf5220c031538f14e62edb39923a0ccf">UNIT_NPC_EMOTESTATE</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a318c9e24ffba3782912742d35d733cb5">EMOTE_STATE_STAND</a>);</div>
+<div class="line"><span class="lineno">  930</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_af2f9363ceebb6f78067b4a146d1de9df"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#af2f9363ceebb6f78067b4a146d1de9df">rand_norm</a></div><div class="ttdeci">double rand_norm()</div><div class="ttdef"><b>Definition:</b> Random.cpp:77</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0e527855c554e31654c9beb340145574adfee5d9c2f03d2ad1b1b8af93285216e"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574adfee5d9c2f03d2ad1b1b8af93285216e">EMOTE_STATE_WORK</a></div><div class="ttdeci">@ EMOTE_STATE_WORK</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1925</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_instance_script_html_a3be7f24ca31c9433aca546e1087109b4"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript::GetGuidData</a></div><div class="ttdeci">ObjectGuid GetGuidData(uint32 type) const override</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:93</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_object_guid_html"><div class="ttname"><a href="../../d8/d03/class_object_guid.html">ObjectGuid</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:120</div></div>
+<div class="ttc" id="aclass_object_html_a3264388b9f92da9de7641477b3dc77f9"><div class="ttname"><a href="../../d8/d83/class_object.html#a3264388b9f92da9de7641477b3dc77f9">Object::GetUInt32Value</a></div><div class="ttdeci">uint32 GetUInt32Value(uint16 index) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:305</div></div>
+<div class="ttc" id="aclass_unit_html_a549e721b14f15635bd6572505b366e78"><div class="ttname"><a href="../../da/db7/class_unit.html#a549e721b14f15635bd6572505b366e78">Unit::SetFacingToObject</a></div><div class="ttdeci">void SetFacingToObject(WorldObject *object)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20629</div></div>
+<div class="ttc" id="aclass_unit_html_af5e75d013dfa8a8b888d7714992e3f2a"><div class="ttname"><a href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">Unit::IsInCombat</a></div><div class="ttdeci">bool IsInCombat() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1685</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="astruct_position_html_a18d31b5e7b176a14502dcb667a898865"><div class="ttname"><a href="../../d1/d26/struct_position.html#a18d31b5e7b176a14502dcb667a898865">Position::GetExactDist2dSq</a></div><div class="ttdeci">float GetExactDist2dSq(const float x, const float y) const</div><div class="ttdef"><b>Definition:</b> Position.h:157</div></div>
+<div class="ttc" id="astruct_position_html_a74cabfb8f441acb38e1abd5bf6ecdc84"><div class="ttname"><a href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">Position::GetOrientation</a></div><div class="ttdeci">float GetOrientation() const</div><div class="ttdef"><b>Definition:</b> Position.h:120</div></div>
+<div class="ttc" id="astruct_position_html_aee80751b631ac7287aafe8f6df5891b4"><div class="ttname"><a href="../../d1/d26/struct_position.html#aee80751b631ac7287aafe8f6df5891b4">Position::GetAngle</a></div><div class="ttdeci">float GetAngle(const Position *pos) const</div><div class="ttdef"><b>Definition:</b> Position.cpp:77</div></div>
+<div class="ttc" id="aulduar_8h_html_a637b611fb0e8ff96b12cacdde24ac9b2a534f9f6de8863c71fe15bff58ac58bea"><div class="ttname"><a href="../../d9/df7/ulduar_8h.html#a637b611fb0e8ff96b12cacdde24ac9b2a534f9f6de8863c71fe15bff58ac58bea">DATA_HARPOON_FIRE_STATE_1</a></div><div class="ttdeci">@ DATA_HARPOON_FIRE_STATE_1</div><div class="ttdef"><b>Definition:</b> ulduar.h:63</div></div>
+<div class="ttc" id="aulduar_8h_html_aefe442e31fe12a6b87afdf94f88d4bbfa75a14d6fe2af7d3ef829eb0c8af63209"><div class="ttname"><a href="../../d9/df7/ulduar_8h.html#aefe442e31fe12a6b87afdf94f88d4bbfa75a14d6fe2af7d3ef829eb0c8af63209">TYPE_RAZORSCALE</a></div><div class="ttdeci">@ TYPE_RAZORSCALE</div><div class="ttdef"><b>Definition:</b> ulduar.h:35</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -579,7 +691,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../dd/dca/boss__razorscale_8cpp.html">boss_razorscale.cpp</a></li>
+<li><a class="el" href="../../">boss_razorscale.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -587,7 +699,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/df9/classnpc__ulduar__expedition__engineer.html">npc_ulduar_expedition_engineer</a></li><li class="navelem"><a class="el" href="../../d8/dda/structnpc__ulduar__expedition__engineer_1_1npc__ulduar__expedition__engineer_a_i.html">npc_ulduar_expedition_engineerAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:55 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:11 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

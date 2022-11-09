@@ -335,7 +335,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d83/class_instance_script.html#a5ab9bd10ed8736a816bfaf12c39bde59">GetBossSaveData</a> ()</td></tr>
 <tr class="separator:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab0f9e62a516c2a572d438ee6b33ffe89" name="ab0f9e62a516c2a572d438ee6b33ffe89"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab0f9e62a516c2a572d438ee6b33ffe89">&#9670;&#160;</a></span>instance_vault_of_archavon_InstanceMapScript()</h2>
 
@@ -359,7 +360,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   41</span>                                                               : <a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>(map)</div>
+<div class="line"><span class="lineno">   42</span>        {</div>
+<div class="line"><span class="lineno">   43</span>        }</div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -410,7 +415,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a2d682a63bb3099ffdc35517d004fe723">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  212</span>        {</div>
+<div class="line"><span class="lineno">  213</span>            <span class="keywordflow">switch</span> (criteria_id)</div>
+<div class="line"><span class="lineno">  214</span>            {</div>
+<div class="line"><span class="lineno">  215</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#a28778a1d686a0babf608cbd20d967c11abcae9f8565a66a68ce338e808a699df1">CRITERIA_EARTH_WIND_FIRE_10</a>:</div>
+<div class="line"><span class="lineno">  216</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#a28778a1d686a0babf608cbd20d967c11a805a284152e067cf32004ddf4abd83a7">CRITERIA_EARTH_WIND_FIRE_25</a>:</div>
+<div class="line"><span class="lineno">  217</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a1259cf1ed03095fb3e93f6aab203aa99">ArchavonDeath</a> &amp;&amp; <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#ac9235ec40c6648bb2a7d252b0053bc47">EmalonDeath</a> &amp;&amp; <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a544c022446c0ddb39797417271ec1259">KoralonDeath</a>)</div>
+<div class="line"><span class="lineno">  218</span>                    {</div>
+<div class="line"><span class="lineno">  219</span>                        <span class="comment">// instance difficulty check is already done in db (achievement_criteria_data)</span></div>
+<div class="line"><span class="lineno">  220</span>                        <span class="comment">// int() for Visual Studio, compile errors with std::abs(time_t)</span></div>
+<div class="line"><span class="lineno">  221</span>                        <span class="keywordflow">return</span> (std::abs(<span class="keywordtype">int</span>(<a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a1259cf1ed03095fb3e93f6aab203aa99">ArchavonDeath</a> - <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#ac9235ec40c6648bb2a7d252b0053bc47">EmalonDeath</a>)) &lt; <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> &amp;&amp; \</div>
+<div class="line"><span class="lineno">  222</span>                                std::abs(<span class="keywordtype">int</span>(<a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#ac9235ec40c6648bb2a7d252b0053bc47">EmalonDeath</a> - <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a544c022446c0ddb39797417271ec1259">KoralonDeath</a>)) &lt; <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> &amp;&amp; \</div>
+<div class="line"><span class="lineno">  223</span>                                std::abs(<span class="keywordtype">int</span>(<a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a544c022446c0ddb39797417271ec1259">KoralonDeath</a> - <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a1259cf1ed03095fb3e93f6aab203aa99">ArchavonDeath</a>)) &lt; <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a>);</div>
+<div class="line"><span class="lineno">  224</span>                    }</div>
+<div class="line"><span class="lineno">  225</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  226</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  227</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  228</span>            }</div>
+<div class="line"><span class="lineno">  229</span> </div>
+<div class="line"><span class="lineno">  230</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  231</span>        }</div>
+<div class="ttc" id="a_common_8h_html_afacf27522adfacf698390ddafc53fa30"><div class="ttname"><a href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a></div><div class="ttdeci">constexpr auto MINUTE</div><div class="ttdef"><b>Definition:</b> Common.h:56</div></div>
+<div class="ttc" id="astructinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script_html_a1259cf1ed03095fb3e93f6aab203aa99"><div class="ttname"><a href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a1259cf1ed03095fb3e93f6aab203aa99">instance_vault_of_archavon::instance_vault_of_archavon_InstanceMapScript::ArchavonDeath</a></div><div class="ttdeci">time_t ArchavonDeath</div><div class="ttdef"><b>Definition:</b> instance_vault_of_archavon.cpp:274</div></div>
+<div class="ttc" id="astructinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script_html_a544c022446c0ddb39797417271ec1259"><div class="ttname"><a href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a544c022446c0ddb39797417271ec1259">instance_vault_of_archavon::instance_vault_of_archavon_InstanceMapScript::KoralonDeath</a></div><div class="ttdeci">time_t KoralonDeath</div><div class="ttdef"><b>Definition:</b> instance_vault_of_archavon.cpp:276</div></div>
+<div class="ttc" id="astructinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script_html_ac9235ec40c6648bb2a7d252b0053bc47"><div class="ttname"><a href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#ac9235ec40c6648bb2a7d252b0053bc47">instance_vault_of_archavon::instance_vault_of_archavon_InstanceMapScript::EmalonDeath</a></div><div class="ttdeci">time_t EmalonDeath</div><div class="ttdef"><b>Definition:</b> instance_vault_of_archavon.cpp:275</div></div>
+<div class="ttc" id="avault__of__archavon_8h_html_a28778a1d686a0babf608cbd20d967c11a805a284152e067cf32004ddf4abd83a7"><div class="ttname"><a href="../../d7/d0c/vault__of__archavon_8h.html#a28778a1d686a0babf608cbd20d967c11a805a284152e067cf32004ddf4abd83a7">CRITERIA_EARTH_WIND_FIRE_25</a></div><div class="ttdeci">@ CRITERIA_EARTH_WIND_FIRE_25</div><div class="ttdef"><b>Definition:</b> vault_of_archavon.h:46</div></div>
+<div class="ttc" id="avault__of__archavon_8h_html_a28778a1d686a0babf608cbd20d967c11abcae9f8565a66a68ce338e808a699df1"><div class="ttname"><a href="../../d7/d0c/vault__of__archavon_8h.html#a28778a1d686a0babf608cbd20d967c11abcae9f8565a66a68ce338e808a699df1">CRITERIA_EARTH_WIND_FIRE_10</a></div><div class="ttdeci">@ CRITERIA_EARTH_WIND_FIRE_10</div><div class="ttdef"><b>Definition:</b> vault_of_archavon.h:45</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa3f41b9c79c7bcdd9ad330fa58376799" name="aa3f41b9c79c7bcdd9ad330fa58376799"></a>
@@ -438,7 +469,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  170</span>        {</div>
+<div class="line"><span class="lineno">  171</span>            <span class="keywordflow">if</span> (identifier == <a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63ac043dcd883c573c1879ec36d05f239f2">DATA_STONED</a>)</div>
+<div class="line"><span class="lineno">  172</span>                <span class="keywordflow">return</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)<a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#acde4794f2e980d523e873c0e610f726a">stoned</a>;</div>
+<div class="line"><span class="lineno">  173</span>            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  174</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="astructinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script_html_acde4794f2e980d523e873c0e610f726a"><div class="ttname"><a href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#acde4794f2e980d523e873c0e610f726a">instance_vault_of_archavon::instance_vault_of_archavon_InstanceMapScript::stoned</a></div><div class="ttdeci">bool stoned</div><div class="ttdef"><b>Definition:</b> instance_vault_of_archavon.cpp:278</div></div>
+<div class="ttc" id="avault__of__archavon_8h_html_af5baa506e65b4caa6be6d1c6661dfe63ac043dcd883c573c1879ec36d05f239f2"><div class="ttname"><a href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63ac043dcd883c573c1879ec36d05f239f2">DATA_STONED</a></div><div class="ttdeci">@ DATA_STONED</div><div class="ttdef"><b>Definition:</b> vault_of_archavon.h:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a371a688192e9c7c239fc4c1de8e45877" name="a371a688192e9c7c239fc4c1de8e45877"></a>
@@ -466,7 +505,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  162</span>        {</div>
+<div class="line"><span class="lineno">  163</span>            <span class="keywordflow">if</span> (identifier &lt; <a class="code hl_define" href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a>)</div>
+<div class="line"><span class="lineno">  164</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a6dc53f3e4385f09869d91f59520b79d4">bossGUIDs</a>[identifier];</div>
+<div class="line"><span class="lineno">  165</span> </div>
+<div class="line"><span class="lineno">  166</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>;</div>
+<div class="line"><span class="lineno">  167</span>        }</div>
+<div class="ttc" id="aclass_object_guid_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+<div class="ttc" id="astructinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script_html_a6dc53f3e4385f09869d91f59520b79d4"><div class="ttname"><a href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a6dc53f3e4385f09869d91f59520b79d4">instance_vault_of_archavon::instance_vault_of_archavon_InstanceMapScript::bossGUIDs</a></div><div class="ttdeci">ObjectGuid bossGUIDs[MAX_ENCOUNTER]</div><div class="ttdef"><b>Definition:</b> instance_vault_of_archavon.cpp:281</div></div>
+<div class="ttc" id="aviolet__hold_8h_html_ac6cdc058851f958e83d8104f6ed3efe2"><div class="ttname"><a href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a></div><div class="ttdeci">#define MAX_ENCOUNTER</div><div class="ttdef"><b>Definition:</b> violet_hold.h:21</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7d507f2bc085815393c078849237e4cd" name="a7d507f2bc085815393c078849237e4cd"></a>
@@ -493,7 +541,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#aa0e2d9bf4d757aad09d4773259ad8583">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  234</span>        {</div>
+<div class="line"><span class="lineno">  235</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a65ed3183971093dcebed99d1ec6d6d63">OUT_SAVE_INST_DATA</a>;</div>
+<div class="line"><span class="lineno">  236</span> </div>
+<div class="line"><span class="lineno">  237</span>            std::ostringstream saveStream;</div>
+<div class="line"><span class="lineno">  238</span>            saveStream &lt;&lt; <span class="stringliteral">&quot;V O A &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a708d88ed26d8c00cd9fc8f1601c9358e">m_auiEncounter</a>[0] &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a708d88ed26d8c00cd9fc8f1601c9358e">m_auiEncounter</a>[1] &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a708d88ed26d8c00cd9fc8f1601c9358e">m_auiEncounter</a>[2] &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a708d88ed26d8c00cd9fc8f1601c9358e">m_auiEncounter</a>[3];</div>
+<div class="line"><span class="lineno">  239</span> </div>
+<div class="line"><span class="lineno">  240</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a3a93295e3500f757163145c03e90db3d">OUT_SAVE_INST_DATA_COMPLETE</a>;</div>
+<div class="line"><span class="lineno">  241</span>            <span class="keywordflow">return</span> saveStream.str();</div>
+<div class="line"><span class="lineno">  242</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a3a93295e3500f757163145c03e90db3d"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a3a93295e3500f757163145c03e90db3d">OUT_SAVE_INST_DATA_COMPLETE</a></div><div class="ttdeci">#define OUT_SAVE_INST_DATA_COMPLETE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:28</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a65ed3183971093dcebed99d1ec6d6d63"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a65ed3183971093dcebed99d1ec6d6d63">OUT_SAVE_INST_DATA</a></div><div class="ttdeci">#define OUT_SAVE_INST_DATA</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:27</div></div>
+<div class="ttc" id="astructinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script_html_a708d88ed26d8c00cd9fc8f1601c9358e"><div class="ttname"><a href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a708d88ed26d8c00cd9fc8f1601c9358e">instance_vault_of_archavon::instance_vault_of_archavon_InstanceMapScript::m_auiEncounter</a></div><div class="ttdeci">uint32 m_auiEncounter[MAX_ENCOUNTER]</div><div class="ttdef"><b>Definition:</b> instance_vault_of_archavon.cpp:280</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acc0816a05728b59ddf7aeb4077a7329d" name="acc0816a05728b59ddf7aeb4077a7329d"></a>
@@ -520,7 +580,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ae28a789e519af133bb744c796902294c">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   46</span>        {</div>
+<div class="line"><span class="lineno">   47</span>            memset(&amp;<a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a708d88ed26d8c00cd9fc8f1601c9358e">m_auiEncounter</a>, 0, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a708d88ed26d8c00cd9fc8f1601c9358e">m_auiEncounter</a>));</div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>            <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a1259cf1ed03095fb3e93f6aab203aa99">ArchavonDeath</a> = 0;</div>
+<div class="line"><span class="lineno">   50</span>            <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#ac9235ec40c6648bb2a7d252b0053bc47">EmalonDeath</a> = 0;</div>
+<div class="line"><span class="lineno">   51</span>            <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a544c022446c0ddb39797417271ec1259">KoralonDeath</a> = 0;</div>
+<div class="line"><span class="lineno">   52</span>            <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#aabf39e7d3cef7951c861c194dfff9ecd">checkTimer</a> = 0;</div>
+<div class="line"><span class="lineno">   53</span>            <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#acde4794f2e980d523e873c0e610f726a">stoned</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   54</span>        }</div>
+<div class="ttc" id="astructinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script_html_aabf39e7d3cef7951c861c194dfff9ecd"><div class="ttname"><a href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#aabf39e7d3cef7951c861c194dfff9ecd">instance_vault_of_archavon::instance_vault_of_archavon_InstanceMapScript::checkTimer</a></div><div class="ttdeci">uint32 checkTimer</div><div class="ttdef"><b>Definition:</b> instance_vault_of_archavon.cpp:277</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae2607badcd241cf6b0d4b3a224acc802" name="ae2607badcd241cf6b0d4b3a224acc802"></a>
@@ -547,7 +617,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a9753c3c71fef44fcbc33b89ff68350cd">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  130</span>        {</div>
+<div class="line"><span class="lineno">  131</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a>; ++i)</div>
+<div class="line"><span class="lineno">  132</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a708d88ed26d8c00cd9fc8f1601c9358e">m_auiEncounter</a>[i] == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>)</div>
+<div class="line"><span class="lineno">  133</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  134</span> </div>
+<div class="line"><span class="lineno">  135</span>            <a class="code hl_class" href="../../d3/d42/class_battlefield.html">Battlefield</a>* bf = <a class="code hl_define" href="../../dc/df4/_battlefield_mgr_8h.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldByBattleId(<a class="code hl_enumvalue" href="../../d0/d88/_battlefield_8h.html#aff53bf428d550c270744c9a188d4187fa38e75e8c40750cb29f0d478d19974010">BATTLEFIELD_BATTLEID_WG</a>);</div>
+<div class="line"><span class="lineno">  136</span>            <span class="keywordflow">if</span> (!bf || bf-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a8b0c38a6d6ef3096cfb333ca3fea72b5">IsWarTime</a>() || bf-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a75ece63c4c8ae98ace080bcce190a16d">GetTimer</a>() &lt;= 10 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>)</div>
+<div class="line"><span class="lineno">  137</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  138</span> </div>
+<div class="line"><span class="lineno">  139</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  140</span>        }</div>
+<div class="ttc" id="a_battlefield_8h_html_aff53bf428d550c270744c9a188d4187fa38e75e8c40750cb29f0d478d19974010"><div class="ttname"><a href="../../d0/d88/_battlefield_8h.html#aff53bf428d550c270744c9a188d4187fa38e75e8c40750cb29f0d478d19974010">BATTLEFIELD_BATTLEID_WG</a></div><div class="ttdeci">@ BATTLEFIELD_BATTLEID_WG</div><div class="ttdef"><b>Definition:</b> Battlefield.h:37</div></div>
+<div class="ttc" id="a_battlefield_mgr_8h_html_a4545b2a440043037e8dad52c0f644f48"><div class="ttname"><a href="../../dc/df4/_battlefield_mgr_8h.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a></div><div class="ttdeci">#define sBattlefieldMgr</div><div class="ttdef"><b>Definition:</b> BattlefieldMgr.h:77</div></div>
+<div class="ttc" id="a_common_8h_html_a84190f79c8167211609f67284e066c58"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></div><div class="ttdeci">constexpr auto IN_MILLISECONDS</div><div class="ttdef"><b>Definition:</b> Common.h:62</div></div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="aclass_battlefield_html"><div class="ttname"><a href="../../d3/d42/class_battlefield.html">Battlefield</a></div><div class="ttdef"><b>Definition:</b> Battlefield.h:205</div></div>
+<div class="ttc" id="aclass_battlefield_html_a75ece63c4c8ae98ace080bcce190a16d"><div class="ttname"><a href="../../d3/d42/class_battlefield.html#a75ece63c4c8ae98ace080bcce190a16d">Battlefield::GetTimer</a></div><div class="ttdeci">uint32 GetTimer()</div><div class="ttdef"><b>Definition:</b> Battlefield.h:353</div></div>
+<div class="ttc" id="aclass_battlefield_html_a8b0c38a6d6ef3096cfb333ca3fea72b5"><div class="ttname"><a href="../../d3/d42/class_battlefield.html#a8b0c38a6d6ef3096cfb333ca3fea72b5">Battlefield::IsWarTime</a></div><div class="ttdeci">bool IsWarTime()</div><div class="ttdoc">Return true if battle is start, false if battle is not started.</div><div class="ttdef"><b>Definition:</b> Battlefield.h:248</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab4f39e2ef72e7be560699c4c5b5fe7dd" name="ab4f39e2ef72e7be560699c4c5b5fe7dd"></a>
@@ -575,7 +664,38 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ad8be0d1c384b505f5b3fa1ab55eb1f61">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  245</span>        {</div>
+<div class="line"><span class="lineno">  246</span>            <span class="keywordflow">if</span> (!in)</div>
+<div class="line"><span class="lineno">  247</span>            {</div>
+<div class="line"><span class="lineno">  248</span>                <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a>;</div>
+<div class="line"><span class="lineno">  249</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  250</span>            }</div>
+<div class="line"><span class="lineno">  251</span> </div>
+<div class="line"><span class="lineno">  252</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#aafbf0073420e9a897ec0f243f4793a0f">OUT_LOAD_INST_DATA</a>(in);</div>
+<div class="line"><span class="lineno">  253</span> </div>
+<div class="line"><span class="lineno">  254</span>            <span class="keywordtype">char</span> dataHead1, dataHead2, dataHead3;</div>
+<div class="line"><span class="lineno">  255</span>            std::istringstream loadStream(in);</div>
+<div class="line"><span class="lineno">  256</span>            loadStream &gt;&gt; dataHead1 &gt;&gt; dataHead2 &gt;&gt; dataHead3;</div>
+<div class="line"><span class="lineno">  257</span> </div>
+<div class="line"><span class="lineno">  258</span>            <span class="keywordflow">if</span> (dataHead1 == <span class="charliteral">&#39;V&#39;</span> &amp;&amp; dataHead2 == <span class="charliteral">&#39;O&#39;</span> &amp;&amp; dataHead3 == <span class="charliteral">&#39;A&#39;</span>)</div>
+<div class="line"><span class="lineno">  259</span>            {</div>
+<div class="line"><span class="lineno">  260</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a>; ++i)</div>
+<div class="line"><span class="lineno">  261</span>                {</div>
+<div class="line"><span class="lineno">  262</span>                    loadStream &gt;&gt; <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a708d88ed26d8c00cd9fc8f1601c9358e">m_auiEncounter</a>[i];</div>
+<div class="line"><span class="lineno">  263</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a708d88ed26d8c00cd9fc8f1601c9358e">m_auiEncounter</a>[i] == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>)</div>
+<div class="line"><span class="lineno">  264</span>                        <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a708d88ed26d8c00cd9fc8f1601c9358e">m_auiEncounter</a>[i] = <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>;</div>
+<div class="line"><span class="lineno">  265</span>                }</div>
+<div class="line"><span class="lineno">  266</span> </div>
+<div class="line"><span class="lineno">  267</span>                <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a490e19560f068912b0e3dbd61c689b44">OUT_LOAD_INST_DATA_COMPLETE</a>;</div>
+<div class="line"><span class="lineno">  268</span>            }</div>
+<div class="line"><span class="lineno">  269</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  270</span>                <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a>;</div>
+<div class="line"><span class="lineno">  271</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a141fd6fe34ebbd5c3ad507db42f41b4a"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA_FAIL</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:31</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a></div><div class="ttdeci">@ NOT_STARTED</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:56</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a490e19560f068912b0e3dbd61c689b44"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a490e19560f068912b0e3dbd61c689b44">OUT_LOAD_INST_DATA_COMPLETE</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA_COMPLETE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:30</div></div>
+<div class="ttc" id="a_instance_script_8h_html_aafbf0073420e9a897ec0f243f4793a0f"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#aafbf0073420e9a897ec0f243f4793a0f">OUT_LOAD_INST_DATA</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA(a)</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae16d97e5a2cfe7fce6ede12874cb9243" name="ae16d97e5a2cfe7fce6ede12874cb9243"></a>
@@ -603,7 +723,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a07b3c70e8153dfd74edb86656bf2b254">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  143</span>        {</div>
+<div class="line"><span class="lineno">  144</span>            <span class="keywordflow">switch</span> (creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">  145</span>            {</div>
+<div class="line"><span class="lineno">  146</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#a25a619e6b66096a4f05d048e4a96df08aa791befe3672a4465ba24aaf9fcbacc6">CREATURE_TORAVON</a>:</div>
+<div class="line"><span class="lineno">  147</span>                    <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a6dc53f3e4385f09869d91f59520b79d4">bossGUIDs</a>[<a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a2b7257100054a2be4acb0addeab89989">EVENT_TORAVON</a>] = creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  148</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  149</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#a25a619e6b66096a4f05d048e4a96df08a80c84b716bcc8b8a742b4f3294d50f1e">CREATURE_ARCHAVON</a>:</div>
+<div class="line"><span class="lineno">  150</span>                    <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a6dc53f3e4385f09869d91f59520b79d4">bossGUIDs</a>[<a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63aa5abd29a74790b35b5baffb698d18029">EVENT_ARCHAVON</a>] = creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  151</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  152</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#a25a619e6b66096a4f05d048e4a96df08a7b88f97f5546ff6365247ab0eeaf4f0d">CREATURE_KORALON</a>:</div>
+<div class="line"><span class="lineno">  153</span>                    <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a6dc53f3e4385f09869d91f59520b79d4">bossGUIDs</a>[<a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a962459d2bd086cbb418c46ff25ff8bbf">EVENT_KORALON</a>] = creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  154</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  155</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#a25a619e6b66096a4f05d048e4a96df08a028c7ae8e6735dd1402dc7516b7662f1">CREATURE_EMALON</a>:</div>
+<div class="line"><span class="lineno">  156</span>                    <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a6dc53f3e4385f09869d91f59520b79d4">bossGUIDs</a>[<a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63adc280c4712578c2969c61318e1630c2f">EVENT_EMALON</a>] = creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  157</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  158</span>            }</div>
+<div class="line"><span class="lineno">  159</span>        }</div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="avault__of__archavon_8h_html_a25a619e6b66096a4f05d048e4a96df08a028c7ae8e6735dd1402dc7516b7662f1"><div class="ttname"><a href="../../d7/d0c/vault__of__archavon_8h.html#a25a619e6b66096a4f05d048e4a96df08a028c7ae8e6735dd1402dc7516b7662f1">CREATURE_EMALON</a></div><div class="ttdeci">@ CREATURE_EMALON</div><div class="ttdef"><b>Definition:</b> vault_of_archavon.h:28</div></div>
+<div class="ttc" id="avault__of__archavon_8h_html_a25a619e6b66096a4f05d048e4a96df08a7b88f97f5546ff6365247ab0eeaf4f0d"><div class="ttname"><a href="../../d7/d0c/vault__of__archavon_8h.html#a25a619e6b66096a4f05d048e4a96df08a7b88f97f5546ff6365247ab0eeaf4f0d">CREATURE_KORALON</a></div><div class="ttdeci">@ CREATURE_KORALON</div><div class="ttdef"><b>Definition:</b> vault_of_archavon.h:29</div></div>
+<div class="ttc" id="avault__of__archavon_8h_html_a25a619e6b66096a4f05d048e4a96df08a80c84b716bcc8b8a742b4f3294d50f1e"><div class="ttname"><a href="../../d7/d0c/vault__of__archavon_8h.html#a25a619e6b66096a4f05d048e4a96df08a80c84b716bcc8b8a742b4f3294d50f1e">CREATURE_ARCHAVON</a></div><div class="ttdeci">@ CREATURE_ARCHAVON</div><div class="ttdef"><b>Definition:</b> vault_of_archavon.h:27</div></div>
+<div class="ttc" id="avault__of__archavon_8h_html_a25a619e6b66096a4f05d048e4a96df08aa791befe3672a4465ba24aaf9fcbacc6"><div class="ttname"><a href="../../d7/d0c/vault__of__archavon_8h.html#a25a619e6b66096a4f05d048e4a96df08aa791befe3672a4465ba24aaf9fcbacc6">CREATURE_TORAVON</a></div><div class="ttdeci">@ CREATURE_TORAVON</div><div class="ttdef"><b>Definition:</b> vault_of_archavon.h:30</div></div>
+<div class="ttc" id="avault__of__archavon_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a2b7257100054a2be4acb0addeab89989"><div class="ttname"><a href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a2b7257100054a2be4acb0addeab89989">EVENT_TORAVON</a></div><div class="ttdeci">@ EVENT_TORAVON</div><div class="ttdef"><b>Definition:</b> vault_of_archavon.h:38</div></div>
+<div class="ttc" id="avault__of__archavon_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a962459d2bd086cbb418c46ff25ff8bbf"><div class="ttname"><a href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a962459d2bd086cbb418c46ff25ff8bbf">EVENT_KORALON</a></div><div class="ttdeci">@ EVENT_KORALON</div><div class="ttdef"><b>Definition:</b> vault_of_archavon.h:37</div></div>
+<div class="ttc" id="avault__of__archavon_8h_html_af5baa506e65b4caa6be6d1c6661dfe63aa5abd29a74790b35b5baffb698d18029"><div class="ttname"><a href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63aa5abd29a74790b35b5baffb698d18029">EVENT_ARCHAVON</a></div><div class="ttdeci">@ EVENT_ARCHAVON</div><div class="ttdef"><b>Definition:</b> vault_of_archavon.h:35</div></div>
+<div class="ttc" id="avault__of__archavon_8h_html_af5baa506e65b4caa6be6d1c6661dfe63adc280c4712578c2969c61318e1630c2f"><div class="ttname"><a href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63adc280c4712578c2969c61318e1630c2f">EVENT_EMALON</a></div><div class="ttdeci">@ EVENT_EMALON</div><div class="ttdef"><b>Definition:</b> vault_of_archavon.h:36</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a82fdae36261fa7d845e8d7fdf2428637" name="a82fdae36261fa7d845e8d7fdf2428637"></a>
@@ -631,7 +778,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ad87af1c183202b03307ff0694c8aa0e2">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   57</span>        {</div>
+<div class="line"><span class="lineno">   58</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#acde4794f2e980d523e873c0e610f726a">stoned</a>)</div>
+<div class="line"><span class="lineno">   59</span>            {</div>
+<div class="line"><span class="lineno">   60</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a>; ++i)</div>
+<div class="line"><span class="lineno">   61</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* cr = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(<a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a6dc53f3e4385f09869d91f59520b79d4">bossGUIDs</a>[i]))</div>
+<div class="line"><span class="lineno">   62</span>                        <span class="keywordflow">if</span> (!cr-&gt;IsInCombat())</div>
+<div class="line"><span class="lineno">   63</span>                            cr-&gt;RemoveAllAuras();</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>                <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#acde4794f2e980d523e873c0e610f726a">stoned</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   66</span>            }</div>
+<div class="line"><span class="lineno">   67</span>        }</div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_instance_script_html_a4b84b9635742380ce5dc6e2f8d76e30b"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">InstanceScript::instance</a></div><div class="ttdeci">Map * instance</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:146</div></div>
+<div class="ttc" id="aclass_map_html_a9c20f696cb8109183fbd81b13848b050"><div class="ttname"><a href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">Map::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> Map.cpp:3290</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a336bd80e5118d6b5cfa0f76f5d207fc5" name="a336bd80e5118d6b5cfa0f76f5d207fc5"></a>
@@ -669,7 +830,45 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  177</span>        {</div>
+<div class="line"><span class="lineno">  178</span>            <span class="keywordflow">switch</span>(type)</div>
+<div class="line"><span class="lineno">  179</span>            {</div>
+<div class="line"><span class="lineno">  180</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63aa5abd29a74790b35b5baffb698d18029">EVENT_ARCHAVON</a>:</div>
+<div class="line"><span class="lineno">  181</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63adc280c4712578c2969c61318e1630c2f">EVENT_EMALON</a>:</div>
+<div class="line"><span class="lineno">  182</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a962459d2bd086cbb418c46ff25ff8bbf">EVENT_KORALON</a>:</div>
+<div class="line"><span class="lineno">  183</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a2b7257100054a2be4acb0addeab89989">EVENT_TORAVON</a>:</div>
+<div class="line"><span class="lineno">  184</span>                    <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a708d88ed26d8c00cd9fc8f1601c9358e">m_auiEncounter</a>[type] = data;</div>
+<div class="line"><span class="lineno">  185</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  186</span>            }</div>
+<div class="line"><span class="lineno">  187</span> </div>
+<div class="line"><span class="lineno">  188</span>            <span class="keywordflow">if</span> (data == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">  189</span>            {</div>
+<div class="line"><span class="lineno">  190</span>                <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a99f69b7706e28b78008952ceefe09b69">SaveToDB</a>();</div>
+<div class="line"><span class="lineno">  191</span>                <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><span class="lineno">  192</span>                {</div>
+<div class="line"><span class="lineno">  193</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63aa5abd29a74790b35b5baffb698d18029">EVENT_ARCHAVON</a>:</div>
+<div class="line"><span class="lineno">  194</span>                        <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a1259cf1ed03095fb3e93f6aab203aa99">ArchavonDeath</a> = <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count();</div>
+<div class="line"><span class="lineno">  195</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  196</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63adc280c4712578c2969c61318e1630c2f">EVENT_EMALON</a>:</div>
+<div class="line"><span class="lineno">  197</span>                        <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#ac9235ec40c6648bb2a7d252b0053bc47">EmalonDeath</a> = <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count();</div>
+<div class="line"><span class="lineno">  198</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  199</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a962459d2bd086cbb418c46ff25ff8bbf">EVENT_KORALON</a>:</div>
+<div class="line"><span class="lineno">  200</span>                        <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a544c022446c0ddb39797417271ec1259">KoralonDeath</a> = <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count();</div>
+<div class="line"><span class="lineno">  201</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  202</span>                    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  203</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  204</span>                }</div>
+<div class="line"><span class="lineno">  205</span> </div>
+<div class="line"><span class="lineno">  206</span>                <span class="comment">// on every death of Archavon, Emalon and Koralon check our achievement</span></div>
+<div class="line"><span class="lineno">  207</span>                <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a412517a781b8d03830e36343c757b21f">DoCastSpellOnPlayers</a>(<a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#a66953f33f30c50777bc2e2b5f4f6b157a37f9f0556b29628ab2cff4892d913297">SPELL_EARTH_WIND_FIRE_ACHIEVEMENT_CHECK</a>);</div>
+<div class="line"><span class="lineno">  208</span>            }</div>
+<div class="line"><span class="lineno">  209</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="aclass_instance_script_html_a412517a781b8d03830e36343c757b21f"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a412517a781b8d03830e36343c757b21f">InstanceScript::DoCastSpellOnPlayers</a></div><div class="ttdeci">void DoCastSpellOnPlayers(uint32 spell)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:504</div></div>
+<div class="ttc" id="aclass_instance_script_html_a99f69b7706e28b78008952ceefe09b69"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a99f69b7706e28b78008952ceefe09b69">InstanceScript::SaveToDB</a></div><div class="ttdeci">void SaveToDB()</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:40</div></div>
+<div class="ttc" id="anamespace_game_time_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
+<div class="ttc" id="avault__of__archavon_8h_html_a66953f33f30c50777bc2e2b5f4f6b157a37f9f0556b29628ab2cff4892d913297"><div class="ttname"><a href="../../d7/d0c/vault__of__archavon_8h.html#a66953f33f30c50777bc2e2b5f4f6b157a37f9f0556b29628ab2cff4892d913297">SPELL_EARTH_WIND_FIRE_ACHIEVEMENT_CHECK</a></div><div class="ttdeci">@ SPELL_EARTH_WIND_FIRE_ACHIEVEMENT_CHECK</div><div class="ttdef"><b>Definition:</b> vault_of_archavon.h:51</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac22e9b215c1351f543289af2875491b4" name="ac22e9b215c1351f543289af2875491b4"></a>
@@ -697,7 +896,74 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ae8797bd504b9ad481dd491f4e2ee77e2">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   70</span>        {</div>
+<div class="line"><span class="lineno">   71</span>            <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#aabf39e7d3cef7951c861c194dfff9ecd">checkTimer</a> += diff;</div>
+<div class="line"><span class="lineno">   72</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#aabf39e7d3cef7951c861c194dfff9ecd">checkTimer</a> &gt;= 60000)</div>
+<div class="line"><span class="lineno">   73</span>            {</div>
+<div class="line"><span class="lineno">   74</span>                <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#aabf39e7d3cef7951c861c194dfff9ecd">checkTimer</a> -= 60000; <span class="comment">// one minute</span></div>
+<div class="line"><span class="lineno">   75</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d3/d42/class_battlefield.html">Battlefield</a>* bf = <a class="code hl_define" href="../../dc/df4/_battlefield_mgr_8h.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldByBattleId(<a class="code hl_enumvalue" href="../../d0/d88/_battlefield_8h.html#aff53bf428d550c270744c9a188d4187fa38e75e8c40750cb29f0d478d19974010">BATTLEFIELD_BATTLEID_WG</a>))</div>
+<div class="line"><span class="lineno">   76</span>                {</div>
+<div class="line"><span class="lineno">   77</span>                    <span class="keywordflow">if</span> (!bf-&gt;IsWarTime())</div>
+<div class="line"><span class="lineno">   78</span>                    {</div>
+<div class="line"><span class="lineno">   79</span>                        <span class="keywordflow">if</span> (bf-&gt;GetTimer() &lt;= (16 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>) &amp;&amp; bf-&gt;GetTimer() &gt;= (15 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>))</div>
+<div class="line"><span class="lineno">   80</span>                        {</div>
+<div class="line"><span class="lineno">   81</span>                            <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; PlayerList = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">   82</span>                            <span class="keywordflow">if</span> (!PlayerList.<a class="code hl_function" href="../../db/d2f/class_linked_list_head.html#a5f450b83a615d010bedc7b0c6aa18d70">IsEmpty</a>())</div>
+<div class="line"><span class="lineno">   83</span>                                <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> i = PlayerList.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); i != PlayerList.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++i)</div>
+<div class="line"><span class="lineno">   84</span>                                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = i-&gt;GetSource())</div>
+<div class="line"><span class="lineno">   85</span>                                        player-&gt;TextEmote(<span class="stringliteral">&quot;This instance will reset in 15 minutes.&quot;</span>, <span class="keyword">nullptr</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   86</span>                        }</div>
+<div class="line"><span class="lineno">   87</span>                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (bf-&gt;GetTimer() &lt;= (10 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>) &amp;&amp; bf-&gt;GetTimer() &gt;= (9 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>))</div>
+<div class="line"><span class="lineno">   88</span>                        {</div>
+<div class="line"><span class="lineno">   89</span>                            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a>; ++i)</div>
+<div class="line"><span class="lineno">   90</span>                                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* cr = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(<a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a6dc53f3e4385f09869d91f59520b79d4">bossGUIDs</a>[i]))</div>
+<div class="line"><span class="lineno">   91</span>                                    <span class="keywordflow">if</span> (!cr-&gt;IsInCombat())</div>
+<div class="line"><span class="lineno">   92</span>                                    {</div>
+<div class="line"><span class="lineno">   93</span>                                        cr-&gt;RemoveAllAuras();</div>
+<div class="line"><span class="lineno">   94</span>                                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/dde/class_aura.html">Aura</a>* aur = cr-&gt;AddAura(<a class="code hl_enumvalue" href="../../d7/d0c/vault__of__archavon_8h.html#a66953f33f30c50777bc2e2b5f4f6b157a3ed529e57d6105439af69ed5ed66d537">SPELL_STONED_AURA</a>, cr))</div>
+<div class="line"><span class="lineno">   95</span>                                        {</div>
+<div class="line"><span class="lineno">   96</span>                                            aur-&gt;SetMaxDuration(60 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">   97</span>                                            aur-&gt;SetDuration(60 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">   98</span>                                        }</div>
+<div class="line"><span class="lineno">   99</span>                                    }</div>
+<div class="line"><span class="lineno">  100</span> </div>
+<div class="line"><span class="lineno">  101</span>                            <a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#acde4794f2e980d523e873c0e610f726a">stoned</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  102</span>                        }</div>
+<div class="line"><span class="lineno">  103</span>                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (bf-&gt;GetTimer() &lt;= (2 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>) &amp;&amp; bf-&gt;GetTimer() &gt; (<a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>))</div>
+<div class="line"><span class="lineno">  104</span>                        {</div>
+<div class="line"><span class="lineno">  105</span>                            <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; PlayerList = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">  106</span>                            <span class="keywordflow">if</span> (!PlayerList.<a class="code hl_function" href="../../db/d2f/class_linked_list_head.html#a5f450b83a615d010bedc7b0c6aa18d70">IsEmpty</a>())</div>
+<div class="line"><span class="lineno">  107</span>                                <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> i = PlayerList.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); i != PlayerList.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++i)</div>
+<div class="line"><span class="lineno">  108</span>                                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = i-&gt;GetSource())</div>
+<div class="line"><span class="lineno">  109</span>                                        player-&gt;TextEmote(<span class="stringliteral">&quot;This instance is about to reset. Prepare to be removed.&quot;</span>, <span class="keyword">nullptr</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  110</span>                        }</div>
+<div class="line"><span class="lineno">  111</span>                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (bf-&gt;GetTimer() &lt;= <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>)</div>
+<div class="line"><span class="lineno">  112</span>                        {</div>
+<div class="line"><span class="lineno">  113</span>                            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a>; ++i)</div>
+<div class="line"><span class="lineno">  114</span>                                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* cr = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(<a class="code hl_variable" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html#a6dc53f3e4385f09869d91f59520b79d4">bossGUIDs</a>[i]))</div>
+<div class="line"><span class="lineno">  115</span>                                    <span class="keywordflow">if</span> (cr-&gt;IsInCombat() &amp;&amp; cr-&gt;AI())</div>
+<div class="line"><span class="lineno">  116</span>                                        cr-&gt;AI()-&gt;EnterEvadeMode();</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>                            <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; PlayerList = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">  119</span>                            <span class="keywordflow">if</span> (!PlayerList.<a class="code hl_function" href="../../db/d2f/class_linked_list_head.html#a5f450b83a615d010bedc7b0c6aa18d70">IsEmpty</a>())</div>
+<div class="line"><span class="lineno">  120</span>                                <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> i = PlayerList.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); i != PlayerList.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++i)</div>
+<div class="line"><span class="lineno">  121</span>                                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = i-&gt;GetSource())</div>
+<div class="line"><span class="lineno">  122</span>                                        player-&gt;TeleportTo(player-&gt;m_homebindMapId, player-&gt;m_homebindX, player-&gt;m_homebindY, player-&gt;m_homebindZ, player-&gt;m_homebindO);</div>
+<div class="line"><span class="lineno">  123</span>                        }</div>
+<div class="line"><span class="lineno">  124</span>                    }</div>
+<div class="line"><span class="lineno">  125</span>                }</div>
+<div class="line"><span class="lineno">  126</span>            }</div>
+<div class="line"><span class="lineno">  127</span>        }</div>
+<div class="ttc" id="aclass_aura_html"><div class="ttname"><a href="../../d2/dde/class_aura.html">Aura</a></div><div class="ttdef"><b>Definition:</b> SpellAuras.h:87</div></div>
+<div class="ttc" id="aclass_linked_list_head_1_1_iterator_html"><div class="ttname"><a href="../../db/dfe/class_linked_list_head_1_1_iterator.html">LinkedListHead::Iterator</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:139</div></div>
+<div class="ttc" id="aclass_linked_list_head_html_a5f450b83a615d010bedc7b0c6aa18d70"><div class="ttname"><a href="../../db/d2f/class_linked_list_head.html#a5f450b83a615d010bedc7b0c6aa18d70">LinkedListHead::IsEmpty</a></div><div class="ttdeci">bool IsEmpty() const</div><div class="ttdef"><b>Definition:</b> LinkedList.h:97</div></div>
+<div class="ttc" id="aclass_map_html_ae37764185b1adf2c6438025e4fa9091a"><div class="ttname"><a href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">Map::GetPlayers</a></div><div class="ttdeci">PlayerList const &amp; GetPlayers() const</div><div class="ttdef"><b>Definition:</b> Map.h:484</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html">MapRefMgr</a></div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:26</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_a6774b551f0d64628e33594c7b486a872"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">MapRefMgr::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:36</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_af488c0096775085791b5fbc89e5851a0"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">MapRefMgr::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:37</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="avault__of__archavon_8h_html_a66953f33f30c50777bc2e2b5f4f6b157a3ed529e57d6105439af69ed5ed66d537"><div class="ttname"><a href="../../d7/d0c/vault__of__archavon_8h.html#a66953f33f30c50777bc2e2b5f4f6b157a3ed529e57d6105439af69ed5ed66d537">SPELL_STONED_AURA</a></div><div class="ttdeci">@ SPELL_STONED_AURA</div><div class="ttdef"><b>Definition:</b> vault_of_archavon.h:52</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -856,7 +1122,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/VaultOfArchavon/<a class="el" href="../../dd/d0b/instance__vault__of__archavon_8cpp.html">instance_vault_of_archavon.cpp</a></li>
+<li><a class="el" href="../../">instance_vault_of_archavon.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -864,7 +1130,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d44/classinstance__vault__of__archavon.html">instance_vault_of_archavon</a></li><li class="navelem"><a class="el" href="../../d3/d21/structinstance__vault__of__archavon_1_1instance__vault__of__archavon___instance_map_script.html">instance_vault_of_archavon_InstanceMapScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

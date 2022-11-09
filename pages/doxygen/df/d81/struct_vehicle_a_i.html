@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('df/d81/struct_vehicle_a_i.html','../..
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../dc/db7/_combat_a_i_8h_source.html">CombatAI.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">CombatAI.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for VehicleAI:</div>
 <div class="dyncontent">
@@ -417,7 +417,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aeb8d08eeea0ac12a72ff5dbaf40e9835" name="aeb8d08eeea0ac12a72ff5dbaf40e9835"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeb8d08eeea0ac12a72ff5dbaf40e9835">&#9670;&#160;</a></span>VehicleAI()</h2>
 
@@ -441,7 +442,20 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  257</span>                                : <a class="code hl_class" href="../../d2/d68/class_creature_a_i.html">CreatureAI</a>(c), <a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#a3a46c5f18b019852460170e1200b11b4">m_ConditionsTimer</a>(<a class="code hl_define" href="../../dc/db7/_combat_a_i_8h.html#a2842973ff947088648cd327dc9e1d379">VEHICLE_CONDITION_CHECK_TIME</a>)</div>
+<div class="line"><span class="lineno">  258</span>{</div>
+<div class="line"><span class="lineno">  259</span>    <a class="code hl_function" href="../../df/d81/struct_vehicle_a_i.html#a2c49067fa9953ba4db4cc6b03a7a9fb0">LoadConditions</a>();</div>
+<div class="line"><span class="lineno">  260</span>    <a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#a505c1bacb159950e19518ad3b5740a3e">m_DoDismiss</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  261</span>    <a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#a34000f32495dbee3a550147e1e86d761">m_DismissTimer</a> = <a class="code hl_define" href="../../dc/db7/_combat_a_i_8h.html#a9b232fec810abbe5eaf5536e608b6e38">VEHICLE_DISMISS_TIME</a>;</div>
+<div class="line"><span class="lineno">  262</span>}</div>
+<div class="ttc" id="a_combat_a_i_8h_html_a2842973ff947088648cd327dc9e1d379"><div class="ttname"><a href="../../dc/db7/_combat_a_i_8h.html#a2842973ff947088648cd327dc9e1d379">VEHICLE_CONDITION_CHECK_TIME</a></div><div class="ttdeci">#define VEHICLE_CONDITION_CHECK_TIME</div><div class="ttdef"><b>Definition:</b> CombatAI.h:96</div></div>
+<div class="ttc" id="a_combat_a_i_8h_html_a9b232fec810abbe5eaf5536e608b6e38"><div class="ttname"><a href="../../dc/db7/_combat_a_i_8h.html#a9b232fec810abbe5eaf5536e608b6e38">VEHICLE_DISMISS_TIME</a></div><div class="ttdeci">#define VEHICLE_DISMISS_TIME</div><div class="ttdef"><b>Definition:</b> CombatAI.h:97</div></div>
+<div class="ttc" id="aclass_creature_a_i_html"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html">CreatureAI</a></div><div class="ttdef"><b>Definition:</b> CreatureAI.h:70</div></div>
+<div class="ttc" id="astruct_vehicle_a_i_html_a2c49067fa9953ba4db4cc6b03a7a9fb0"><div class="ttname"><a href="../../df/d81/struct_vehicle_a_i.html#a2c49067fa9953ba4db4cc6b03a7a9fb0">VehicleAI::LoadConditions</a></div><div class="ttdeci">void LoadConditions()</div><div class="ttdef"><b>Definition:</b> CombatAI.cpp:291</div></div>
+<div class="ttc" id="astruct_vehicle_a_i_html_a34000f32495dbee3a550147e1e86d761"><div class="ttname"><a href="../../df/d81/struct_vehicle_a_i.html#a34000f32495dbee3a550147e1e86d761">VehicleAI::m_DismissTimer</a></div><div class="ttdeci">uint32 m_DismissTimer</div><div class="ttdef"><b>Definition:</b> CombatAI.h:116</div></div>
+<div class="ttc" id="astruct_vehicle_a_i_html_a3a46c5f18b019852460170e1200b11b4"><div class="ttname"><a href="../../df/d81/struct_vehicle_a_i.html#a3a46c5f18b019852460170e1200b11b4">VehicleAI::m_ConditionsTimer</a></div><div class="ttdeci">uint32 m_ConditionsTimer</div><div class="ttdef"><b>Definition:</b> CombatAI.h:114</div></div>
+<div class="ttc" id="astruct_vehicle_a_i_html_a505c1bacb159950e19518ad3b5740a3e"><div class="ttname"><a href="../../df/d81/struct_vehicle_a_i.html#a505c1bacb159950e19518ad3b5740a3e">VehicleAI::m_DoDismiss</a></div><div class="ttdeci">bool m_DoDismiss</div><div class="ttdef"><b>Definition:</b> CombatAI.h:115</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -472,7 +486,8 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">UnitAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../d4/d39/structnpc__pilgrims__bounty__chair.html#ad2ed9436e8c6d3afa4ac747b925e66a4">npc_pilgrims_bounty_chair</a>, <a class="el" href="../../dd/de5/structnpc__vortex__ride_1_1npc__vortex__ride_a_i.html#a810c0c03317672d5a4a904a1e96cbba9">npc_vortex_ride::npc_vortex_rideAI</a>, <a class="el" href="../../d2/d20/structnpc__hover__disk_1_1npc__hover__disk_a_i.html#aec7920845132af74ecf83bbbcf221f06">npc_hover_disk::npc_hover_diskAI</a>, and <a class="el" href="../../d9/da8/structboss__flame__leviathan__seat_1_1boss__flame__leviathan__seat_a_i.html#a39efb927928e19a040144bab7dfa3ba2">boss_flame_leviathan_seat::boss_flame_leviathan_seatAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  105</span>{}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afcee52b5173ec8b9850da63c1d58cded" name="afcee52b5173ec8b9850da63c1d58cded"></a>
@@ -498,7 +513,40 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  299</span>{</div>
+<div class="line"><span class="lineno">  300</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#a3a46c5f18b019852460170e1200b11b4">m_ConditionsTimer</a> &lt; diff)</div>
+<div class="line"><span class="lineno">  301</span>    {</div>
+<div class="line"><span class="lineno">  302</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#ae95dc46465404271faaae4b2dc61277a">conditions</a>.empty())</div>
+<div class="line"><span class="lineno">  303</span>        {</div>
+<div class="line"><span class="lineno">  304</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dd/df6/class_vehicle.html">Vehicle</a>* vehicleKit = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae54fce65a1c084c982043777288895ec">GetVehicleKit</a>())</div>
+<div class="line"><span class="lineno">  305</span>                <span class="keywordflow">for</span> (SeatMap::iterator itr = vehicleKit-&gt;Seats.begin(); itr != vehicleKit-&gt;Seats.end(); ++itr)</div>
+<div class="line"><span class="lineno">  306</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* passenger = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, itr-&gt;second.Passenger.Guid))</div>
+<div class="line"><span class="lineno">  307</span>                    {</div>
+<div class="line"><span class="lineno">  308</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = passenger-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno">  309</span>                        {</div>
+<div class="line"><span class="lineno">  310</span>                            <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../d0/d62/_condition_mgr_8h.html#a5ab0412c3dc24dbd690ba6d7f01657f8">sConditionMgr</a>-&gt;IsObjectMeetToConditions(player, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#ae95dc46465404271faaae4b2dc61277a">conditions</a>))</div>
+<div class="line"><span class="lineno">  311</span>                            {</div>
+<div class="line"><span class="lineno">  312</span>                                player-&gt;ExitVehicle();</div>
+<div class="line"><span class="lineno">  313</span>                                <span class="keywordflow">return</span>; <span class="comment">// check other pessanger in next tick</span></div>
+<div class="line"><span class="lineno">  314</span>                            }</div>
+<div class="line"><span class="lineno">  315</span>                        }</div>
+<div class="line"><span class="lineno">  316</span>                    }</div>
+<div class="line"><span class="lineno">  317</span>        }</div>
+<div class="line"><span class="lineno">  318</span>        <a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#a3a46c5f18b019852460170e1200b11b4">m_ConditionsTimer</a> = <a class="code hl_define" href="../../dc/db7/_combat_a_i_8h.html#a2842973ff947088648cd327dc9e1d379">VEHICLE_CONDITION_CHECK_TIME</a>;</div>
+<div class="line"><span class="lineno">  319</span>    }</div>
+<div class="line"><span class="lineno">  320</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  321</span>        <a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#a3a46c5f18b019852460170e1200b11b4">m_ConditionsTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  322</span>}</div>
+<div class="ttc" id="a_condition_mgr_8h_html_a5ab0412c3dc24dbd690ba6d7f01657f8"><div class="ttname"><a href="../../d0/d62/_condition_mgr_8h.html#a5ab0412c3dc24dbd690ba6d7f01657f8">sConditionMgr</a></div><div class="ttdeci">#define sConditionMgr</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:289</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_ae54fce65a1c084c982043777288895ec"><div class="ttname"><a href="../../da/db7/class_unit.html#ae54fce65a1c084c982043777288895ec">Unit::GetVehicleKit</a></div><div class="ttdeci">Vehicle * GetVehicleKit() const</div><div class="ttdef"><b>Definition:</b> Unit.h:2348</div></div>
+<div class="ttc" id="aclass_vehicle_html"><div class="ttname"><a href="../../dd/df6/class_vehicle.html">Vehicle</a></div><div class="ttdef"><b>Definition:</b> Vehicle.h:30</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+<div class="ttc" id="astruct_vehicle_a_i_html_ae95dc46465404271faaae4b2dc61277a"><div class="ttname"><a href="../../df/d81/struct_vehicle_a_i.html#ae95dc46465404271faaae4b2dc61277a">VehicleAI::conditions</a></div><div class="ttdeci">ConditionList conditions</div><div class="ttdef"><b>Definition:</b> CombatAI.h:113</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2c49067fa9953ba4db4cc6b03a7a9fb0" name="a2c49067fa9953ba4db4cc6b03a7a9fb0"></a>
@@ -523,7 +571,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  292</span>{</div>
+<div class="line"><span class="lineno">  293</span>    <a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#ae95dc46465404271faaae4b2dc61277a">conditions</a> = <a class="code hl_define" href="../../d0/d62/_condition_mgr_8h.html#a5ab0412c3dc24dbd690ba6d7f01657f8">sConditionMgr</a>-&gt;GetConditionsForNotGroupedEntry(<a class="code hl_enumvalue" href="../../d0/d62/_condition_mgr_8h.html#a5ba040e3c1f6efbefb512efb9bd69a7fac1625e19a6b847c6626c418ffb8ee624">CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE</a>, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
+<div class="line"><span class="lineno">  294</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#ae95dc46465404271faaae4b2dc61277a">conditions</a>.empty())</div>
+<div class="line"><span class="lineno">  295</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;condition&quot;</span>, <span class="stringliteral">&quot;VehicleAI::LoadConditions: loaded {} conditions&quot;</span>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#ae95dc46465404271faaae4b2dc61277a">conditions</a>.size()));</div>
+<div class="line"><span class="lineno">  296</span>}</div>
+<div class="ttc" id="a_condition_mgr_8h_html_a5ba040e3c1f6efbefb512efb9bd69a7fac1625e19a6b847c6626c418ffb8ee624"><div class="ttname"><a href="../../d0/d62/_condition_mgr_8h.html#a5ba040e3c1f6efbefb512efb9bd69a7fac1625e19a6b847c6626c418ffb8ee624">CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE</a></div><div class="ttdeci">@ CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE</div><div class="ttdef"><b>Definition:</b> ConditionMgr.h:138</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_log_8h_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:171</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a48213b69fa4f0034cdc3cd60841d0636" name="a48213b69fa4f0034cdc3cd60841d0636"></a>
@@ -553,7 +610,8 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../d4/d39/structnpc__pilgrims__bounty__chair.html#aa44fc14f98ac00cfe098516963cc3c8b">npc_pilgrims_bounty_chair</a>, <a class="el" href="../../dd/de5/structnpc__vortex__ride_1_1npc__vortex__ride_a_i.html#a2c810e2fe14e4681a0092a0c6bb3eadc">npc_vortex_ride::npc_vortex_rideAI</a>, and <a class="el" href="../../d2/d20/structnpc__hover__disk_1_1npc__hover__disk_a_i.html#a770bbfc63a3aef7801b6ba9a542c459c">npc_hover_disk::npc_hover_diskAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  104</span>{}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2a593f895c6296c4100af075d971b5b3" name="a2a593f895c6296c4100af075d971b5b3"></a>
@@ -581,7 +639,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../dd/d9c/class_unit_a_i.html#af09c59bb8f40f0c3470175c1123a9c55">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  282</span>{</div>
+<div class="line"><span class="lineno">  283</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae54fce65a1c084c982043777288895ec">GetVehicleKit</a>()-&gt;<a class="code hl_function" href="../../dd/df6/class_vehicle.html#a06211ca71a5a6a44f7430d7c6c430c51">IsVehicleInUse</a>() &amp;&amp; !apply &amp;&amp; !<a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#ae95dc46465404271faaae4b2dc61277a">conditions</a>.empty()) <span class="comment">// was used and has conditions</span></div>
+<div class="line"><span class="lineno">  284</span>        <a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#a505c1bacb159950e19518ad3b5740a3e">m_DoDismiss</a> = <span class="keyword">true</span>; <span class="comment">// needs reset</span></div>
+<div class="line"><span class="lineno">  285</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (apply)</div>
+<div class="line"><span class="lineno">  286</span>        <a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#a505c1bacb159950e19518ad3b5740a3e">m_DoDismiss</a> = <span class="keyword">false</span>; <span class="comment">// in use again</span></div>
+<div class="line"><span class="lineno">  287</span> </div>
+<div class="line"><span class="lineno">  288</span>    <a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#a34000f32495dbee3a550147e1e86d761">m_DismissTimer</a> = <a class="code hl_define" href="../../dc/db7/_combat_a_i_8h.html#a9b232fec810abbe5eaf5536e608b6e38">VEHICLE_DISMISS_TIME</a>;<span class="comment">//reset timer</span></div>
+<div class="line"><span class="lineno">  289</span>}</div>
+<div class="ttc" id="aclass_vehicle_html_a06211ca71a5a6a44f7430d7c6c430c51"><div class="ttname"><a href="../../dd/df6/class_vehicle.html#a06211ca71a5a6a44f7430d7c6c430c51">Vehicle::IsVehicleInUse</a></div><div class="ttdeci">bool IsVehicleInUse()</div><div class="ttdef"><b>Definition:</b> Vehicle.cpp:536</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a39ad0764dce6586aef86fcd96c2c221c" name="a39ad0764dce6586aef86fcd96c2c221c"></a>
@@ -607,7 +674,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  325</span>{</div>
+<div class="line"><span class="lineno">  326</span>    <span class="keywordflow">if</span> (creature-&gt;IsVehicle())</div>
+<div class="line"><span class="lineno">  327</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d7/d43/_creature_a_i_8h.html#adf806592547de59418c6070d69c5efb9a01dc7d3add2acacf44721592378df415">PERMIT_BASE_SPECIAL</a>;</div>
+<div class="line"><span class="lineno">  328</span> </div>
+<div class="line"><span class="lineno">  329</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d7/d43/_creature_a_i_8h.html#adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0">PERMIT_BASE_NO</a>;</div>
+<div class="line"><span class="lineno">  330</span>}</div>
+<div class="ttc" id="a_creature_a_i_8h_html_adf806592547de59418c6070d69c5efb9a01dc7d3add2acacf44721592378df415"><div class="ttname"><a href="../../d7/d43/_creature_a_i_8h.html#adf806592547de59418c6070d69c5efb9a01dc7d3add2acacf44721592378df415">PERMIT_BASE_SPECIAL</a></div><div class="ttdeci">@ PERMIT_BASE_SPECIAL</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:235</div></div>
+<div class="ttc" id="a_creature_a_i_8h_html_adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0"><div class="ttname"><a href="../../d7/d43/_creature_a_i_8h.html#adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0">PERMIT_BASE_NO</a></div><div class="ttdeci">@ PERMIT_BASE_NO</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:230</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aac593372592d33fa008a66c6dcec1840" name="aac593372592d33fa008a66c6dcec1840"></a>
@@ -637,7 +712,23 @@ Additional Inherited Members</h2></td></tr>
 <p>Implements <a class="el" href="../../dd/d9c/class_unit_a_i.html#a7288294b38c6161ab1218d75fe622fc0">UnitAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../dc/da5/structnpc__scarlet__cannon_1_1npc__scarlet__cannon_a_i.html#a18ebb585e9b83f3781d3c49de5dc73b5">npc_scarlet_cannon::npc_scarlet_cannonAI</a>, <a class="el" href="../../d4/d39/structnpc__pilgrims__bounty__chair.html#aebe6eb7aca62faece6dfb6dff27d775e">npc_pilgrims_bounty_chair</a>, <a class="el" href="../../d2/d41/structnpc__isle__of__conquest__turret_1_1npc__isle__of__conquest__turret_a_i.html#a81c039a2a230b261967842161757b6f8">npc_isle_of_conquest_turret::npc_isle_of_conquest_turretAI</a>, <a class="el" href="../../dd/de5/structnpc__vortex__ride_1_1npc__vortex__ride_a_i.html#ad450120965f9e85bdb69ffc4c092c901">npc_vortex_ride::npc_vortex_rideAI</a>, <a class="el" href="../../d2/d20/structnpc__hover__disk_1_1npc__hover__disk_a_i.html#a5213e9b9a750e53b83621cd981741773">npc_hover_disk::npc_hover_diskAI</a>, <a class="el" href="../../de/d80/structnpc__oculus__drake_1_1npc__oculus__drake_a_i.html#a8ecaebfcf1c1fbe8ed263be6148ccef6">npc_oculus_drake::npc_oculus_drakeAI</a>, <a class="el" href="../../d9/da8/structboss__flame__leviathan__seat_1_1boss__flame__leviathan__seat_a_i.html#a857b1e927ae6574e00e25a20a21d4427">boss_flame_leviathan_seat::boss_flame_leviathan_seatAI</a>, <a class="el" href="../../de/d15/structboss__skadi__grauf_1_1boss__skadi__grauf_a_i.html#add5671b1f9e20590e1121f8c18d064cc">boss_skadi_grauf::boss_skadi_graufAI</a>, <a class="el" href="../../d1/dab/classnpc__wintergarde__gryphon.html#aa161f280e7a7370696cecc27c51ee55c">npc_wintergarde_gryphon</a>, <a class="el" href="../../d8/d73/structnpc__frostbrood__skytalon_1_1npc__frostbrood__skytalon_a_i.html#a0ffc4cd2e9b61ad17c516f062d161feb">npc_frostbrood_skytalon::npc_frostbrood_skytalonAI</a>, <a class="el" href="../../d6/daa/structnpc__freed__protodrake_1_1npc__freed__protodrake_a_i.html#a9e83b133444e977c35e90b700149472c">npc_freed_protodrake::npc_freed_protodrakeAI</a>, and <a class="el" href="../../db/dfd/structnpc__wg__siege__machine_1_1npc__wg__siege__machine_a_i.html#a8ddd21047a857facc767a9edc0ec5408">npc_wg_siege_machine::npc_wg_siege_machineAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  266</span>{</div>
+<div class="line"><span class="lineno">  267</span>    <a class="code hl_function" href="../../df/d81/struct_vehicle_a_i.html#afcee52b5173ec8b9850da63c1d58cded">CheckConditions</a>(diff);</div>
+<div class="line"><span class="lineno">  268</span> </div>
+<div class="line"><span class="lineno">  269</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#a505c1bacb159950e19518ad3b5740a3e">m_DoDismiss</a>)</div>
+<div class="line"><span class="lineno">  270</span>    {</div>
+<div class="line"><span class="lineno">  271</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#a34000f32495dbee3a550147e1e86d761">m_DismissTimer</a> &lt; diff)</div>
+<div class="line"><span class="lineno">  272</span>        {</div>
+<div class="line"><span class="lineno">  273</span>            <a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#a505c1bacb159950e19518ad3b5740a3e">m_DoDismiss</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  274</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>();</div>
+<div class="line"><span class="lineno">  275</span>        }</div>
+<div class="line"><span class="lineno">  276</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  277</span>            <a class="code hl_variable" href="../../df/d81/struct_vehicle_a_i.html#a34000f32495dbee3a550147e1e86d761">m_DismissTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  278</span>    }</div>
+<div class="line"><span class="lineno">  279</span>}</div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="astruct_vehicle_a_i_html_afcee52b5173ec8b9850da63c1d58cded"><div class="ttname"><a href="../../df/d81/struct_vehicle_a_i.html#afcee52b5173ec8b9850da63c1d58cded">VehicleAI::CheckConditions</a></div><div class="ttdeci">void CheckConditions(uint32 diff)</div><div class="ttdef"><b>Definition:</b> CombatAI.cpp:298</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -730,8 +821,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/AI/CoreAI/<a class="el" href="../../dc/db7/_combat_a_i_8h_source.html">CombatAI.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/AI/CoreAI/<a class="el" href="../../dd/d32/_combat_a_i_8cpp.html">CombatAI.cpp</a></li>
+<li><a class="el" href="../../">CombatAI.h</a></li>
+<li><a class="el" href="../../">CombatAI.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -739,7 +830,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d81/struct_vehicle_a_i.html">VehicleAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:30 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

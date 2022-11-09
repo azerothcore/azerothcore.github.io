@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('da/da2/class_petition_mgr.html','../..
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d9/de4/_petition_mgr_8h_source.html">PetitionMgr.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">PetitionMgr.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -165,7 +165,8 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a110d7d33ff92a87b78cd132c6228bd03"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da2/class_petition_mgr.html#a110d7d33ff92a87b78cd132c6228bd03">~PetitionMgr</a> ()</td></tr>
 <tr class="separator:a110d7d33ff92a87b78cd132c6228bd03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2101165239e2f58faeb1ded69fb6d0b8" name="a2101165239e2f58faeb1ded69fb6d0b8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2101165239e2f58faeb1ded69fb6d0b8">&#9670;&#160;</a></span>PetitionMgr()</h2>
 
@@ -188,7 +189,9 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
+<div class="line"><span class="lineno">   28</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a110d7d33ff92a87b78cd132c6228bd03" name="a110d7d33ff92a87b78cd132c6228bd03"></a>
@@ -213,7 +216,9 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -254,7 +259,28 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   91</span>{</div>
+<div class="line"><span class="lineno">   92</span>    <a class="code hl_struct" href="../../d7/de2/struct_petition.html">Petition</a>&amp; p = <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a49bb11e33b39fa77f5394130e8405537">PetitionStore</a>[petitionGUID];</div>
+<div class="line"><span class="lineno">   93</span>    p.<a class="code hl_variable" href="../../d7/de2/struct_petition.html#a1bbf412a221b76c4a20765d9a6612182">petitionGuid</a> = petitionGUID;</div>
+<div class="line"><span class="lineno">   94</span>    p.<a class="code hl_variable" href="../../d7/de2/struct_petition.html#a7c66ffa9f54768a0e81f61e5bcdde014">ownerGuid</a> = ownerGuid;</div>
+<div class="line"><span class="lineno">   95</span>    p.<a class="code hl_variable" href="../../d7/de2/struct_petition.html#a91c81356e9aa77641eaa881cd04af5af">petitionName</a> = name;</div>
+<div class="line"><span class="lineno">   96</span>    p.<a class="code hl_variable" href="../../d7/de2/struct_petition.html#aeaf6c421d7545cf98d88b4e552dcff23">petitionType</a> = type;</div>
+<div class="line"><span class="lineno">   97</span> </div>
+<div class="line"><span class="lineno">   98</span>    <a class="code hl_struct" href="../../d2/dfd/struct_signatures.html">Signatures</a>&amp; s = <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a784ff7990f17d4cfdc4f24b6f863e88e">SignatureStore</a>[petitionGUID];</div>
+<div class="line"><span class="lineno">   99</span>    s.<a class="code hl_variable" href="../../d2/dfd/struct_signatures.html#adafc1020d722bd3885429041ce9a292c">petitionGuid</a> = petitionGUID;</div>
+<div class="line"><span class="lineno">  100</span>    s.<a class="code hl_variable" href="../../d2/dfd/struct_signatures.html#a70bd865a5b11ffc0ceed08b683548b42">signatureMap</a>.clear();</div>
+<div class="line"><span class="lineno">  101</span>}</div>
+<div class="ttc" id="aclass_petition_mgr_html_a49bb11e33b39fa77f5394130e8405537"><div class="ttname"><a href="../../da/da2/class_petition_mgr.html#a49bb11e33b39fa77f5394130e8405537">PetitionMgr::PetitionStore</a></div><div class="ttdeci">PetitionContainer PetitionStore</div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:84</div></div>
+<div class="ttc" id="aclass_petition_mgr_html_a784ff7990f17d4cfdc4f24b6f863e88e"><div class="ttname"><a href="../../da/da2/class_petition_mgr.html#a784ff7990f17d4cfdc4f24b6f863e88e">PetitionMgr::SignatureStore</a></div><div class="ttdeci">SignatureContainer SignatureStore</div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:85</div></div>
+<div class="ttc" id="astruct_petition_html"><div class="ttname"><a href="../../d7/de2/struct_petition.html">Petition</a></div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:40</div></div>
+<div class="ttc" id="astruct_petition_html_a1bbf412a221b76c4a20765d9a6612182"><div class="ttname"><a href="../../d7/de2/struct_petition.html#a1bbf412a221b76c4a20765d9a6612182">Petition::petitionGuid</a></div><div class="ttdeci">ObjectGuid petitionGuid</div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:41</div></div>
+<div class="ttc" id="astruct_petition_html_a7c66ffa9f54768a0e81f61e5bcdde014"><div class="ttname"><a href="../../d7/de2/struct_petition.html#a7c66ffa9f54768a0e81f61e5bcdde014">Petition::ownerGuid</a></div><div class="ttdeci">ObjectGuid ownerGuid</div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:42</div></div>
+<div class="ttc" id="astruct_petition_html_a91c81356e9aa77641eaa881cd04af5af"><div class="ttname"><a href="../../d7/de2/struct_petition.html#a91c81356e9aa77641eaa881cd04af5af">Petition::petitionName</a></div><div class="ttdeci">std::string petitionName</div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:44</div></div>
+<div class="ttc" id="astruct_petition_html_aeaf6c421d7545cf98d88b4e552dcff23"><div class="ttname"><a href="../../d7/de2/struct_petition.html#aeaf6c421d7545cf98d88b4e552dcff23">Petition::petitionType</a></div><div class="ttdeci">uint8 petitionType</div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:43</div></div>
+<div class="ttc" id="astruct_signatures_html"><div class="ttname"><a href="../../d2/dfd/struct_signatures.html">Signatures</a></div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:48</div></div>
+<div class="ttc" id="astruct_signatures_html_a70bd865a5b11ffc0ceed08b683548b42"><div class="ttname"><a href="../../d2/dfd/struct_signatures.html#a70bd865a5b11ffc0ceed08b683548b42">Signatures::signatureMap</a></div><div class="ttdeci">SignatureMap signatureMap</div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:50</div></div>
+<div class="ttc" id="astruct_signatures_html_adafc1020d722bd3885429041ce9a292c"><div class="ttname"><a href="../../d2/dfd/struct_signatures.html#adafc1020d722bd3885429041ce9a292c">Signatures::petitionGuid</a></div><div class="ttdeci">ObjectGuid petitionGuid</div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:49</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a00f47487f06ced804371e63427f4afdb" name="a00f47487f06ced804371e63427f4afdb"></a>
@@ -288,7 +314,11 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  156</span>{</div>
+<div class="line"><span class="lineno">  157</span>    <a class="code hl_struct" href="../../d2/dfd/struct_signatures.html">Signatures</a>&amp; s = <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a784ff7990f17d4cfdc4f24b6f863e88e">SignatureStore</a>[petitionGUID];</div>
+<div class="line"><span class="lineno">  158</span>    s.<a class="code hl_variable" href="../../d2/dfd/struct_signatures.html#a70bd865a5b11ffc0ceed08b683548b42">signatureMap</a>[playerGuid] = accountId;</div>
+<div class="line"><span class="lineno">  159</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6532eb8de34893d4f63ea68180ca9038" name="a6532eb8de34893d4f63ea68180ca9038"></a>
@@ -306,7 +336,13 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  139</span>{</div>
+<div class="line"><span class="lineno">  140</span>    PetitionContainer::const_iterator itr = <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a49bb11e33b39fa77f5394130e8405537">PetitionStore</a>.find(petitionGUID);</div>
+<div class="line"><span class="lineno">  141</span>    <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a49bb11e33b39fa77f5394130e8405537">PetitionStore</a>.end())</div>
+<div class="line"><span class="lineno">  142</span>        <span class="keywordflow">return</span> &amp;itr-&gt;second;</div>
+<div class="line"><span class="lineno">  143</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  144</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a70ae6e41835983678bb9d37d2b766088" name="a70ae6e41835983678bb9d37d2b766088"></a>
@@ -334,7 +370,14 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  147</span>{</div>
+<div class="line"><span class="lineno">  148</span>    <span class="keywordflow">for</span> (PetitionContainer::const_iterator itr = <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a49bb11e33b39fa77f5394130e8405537">PetitionStore</a>.begin(); itr != <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a49bb11e33b39fa77f5394130e8405537">PetitionStore</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  149</span>        <span class="keywordflow">if</span> (itr-&gt;second.ownerGuid == ownerGuid &amp;&amp; itr-&gt;second.petitionType == type)</div>
+<div class="line"><span class="lineno">  150</span>            <span class="keywordflow">return</span> &amp;itr-&gt;second;</div>
+<div class="line"><span class="lineno">  151</span> </div>
+<div class="line"><span class="lineno">  152</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  153</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab23b6ae6303e2dabcde1981860da8873" name="ab23b6ae6303e2dabcde1981860da8873"></a>
@@ -359,7 +402,8 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   74</span>{ <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a49bb11e33b39fa77f5394130e8405537">PetitionStore</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a90db48e86ad855a4f3c33347dc2991e6" name="a90db48e86ad855a4f3c33347dc2991e6"></a>
@@ -377,7 +421,13 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  162</span>{</div>
+<div class="line"><span class="lineno">  163</span>    SignatureContainer::const_iterator itr = <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a784ff7990f17d4cfdc4f24b6f863e88e">SignatureStore</a>.find(petitionGUID);</div>
+<div class="line"><span class="lineno">  164</span>    <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a784ff7990f17d4cfdc4f24b6f863e88e">SignatureStore</a>.end())</div>
+<div class="line"><span class="lineno">  165</span>        <span class="keywordflow">return</span> &amp;itr-&gt;second;</div>
+<div class="line"><span class="lineno">  166</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  167</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af5f18d9200b61cd5e84652c51206f1d7" name="af5f18d9200b61cd5e84652c51206f1d7"></a>
@@ -402,7 +452,8 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   81</span>{ <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a784ff7990f17d4cfdc4f24b6f863e88e">SignatureStore</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3bda5778fbc38fefedd463b0b12893cd" name="a3bda5778fbc38fefedd463b0b12893cd"></a>
@@ -427,7 +478,13 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
+<div class="line"><span class="lineno">   36</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../da/da2/class_petition_mgr.html">PetitionMgr</a> <a class="code hl_function" href="../../da/da2/class_petition_mgr.html#a3bda5778fbc38fefedd463b0b12893cd">instance</a>;</div>
+<div class="line"><span class="lineno">   37</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../da/da2/class_petition_mgr.html#a3bda5778fbc38fefedd463b0b12893cd">instance</a>;</div>
+<div class="line"><span class="lineno">   38</span>}</div>
+<div class="ttc" id="aclass_petition_mgr_html"><div class="ttname"><a href="../../da/da2/class_petition_mgr.html">PetitionMgr</a></div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:57</div></div>
+<div class="ttc" id="aclass_petition_mgr_html_a3bda5778fbc38fefedd463b0b12893cd"><div class="ttname"><a href="../../da/da2/class_petition_mgr.html#a3bda5778fbc38fefedd463b0b12893cd">PetitionMgr::instance</a></div><div class="ttdeci">static PetitionMgr * instance()</div><div class="ttdef"><b>Definition:</b> PetitionMgr.cpp:34</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa612824469e47955f3a231e4abd9bc84" name="aa612824469e47955f3a231e4abd9bc84"></a>
@@ -444,7 +501,39 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d5/d29/_timer_8h.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a49bb11e33b39fa77f5394130e8405537">PetitionStore</a>.clear();</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_typedef" href="../../db/d04/_database_env_fwd_8h.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT ownerguid, petitionguid, name, type FROM petition&quot;</span>);</div>
+<div class="line"><span class="lineno">   46</span>    <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">   47</span>    {</div>
+<div class="line"><span class="lineno">   48</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 Petitions!&quot;</span>);</div>
+<div class="line"><span class="lineno">   49</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   50</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   51</span>    }</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">   55</span>    {</div>
+<div class="line"><span class="lineno">   56</span>        <a class="code hl_class" href="../../dc/d67/class_field.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">   57</span>        <a class="code hl_function" href="../../da/da2/class_petition_mgr.html#a0175d79b865a34bc1451bb6c748d785f">AddPetition</a>(ObjectGuid::Create&lt;HighGuid::Item&gt;(fields[1].Get&lt;uint32&gt;()), ObjectGuid::Create&lt;HighGuid::Player&gt;(fields[0].Get&lt;uint32&gt;()), fields[2].Get&lt;std::string&gt;(), fields[3].Get&lt;uint8&gt;());</div>
+<div class="line"><span class="lineno">   58</span>        ++count;</div>
+<div class="line"><span class="lineno">   59</span>    } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} Petitions in {} ms&quot;</span>, count, <a class="code hl_function" href="../../d5/d29/_timer_8h.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   63</span>}</div>
+<div class="ttc" id="a_database_env_8cpp_html_a7e7534bc66d79434bd280b77cb124eec"><div class="ttname"><a href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt; CharacterDatabase</div><div class="ttdoc">Accessor to the character database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:21</div></div>
+<div class="ttc" id="a_database_env_fwd_8h_html_ab0c9feeec448a181290fcb39565b8253"><div class="ttname"><a href="../../db/d04/_database_env_fwd_8h.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; ResultSet &gt; QueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:28</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_log_8h_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:167</div></div>
+<div class="ttc" id="a_log_8h_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../da/df4/_log_8h.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:163</div></div>
+<div class="ttc" id="a_timer_8h_html_a23a2c8663a05f2b03a6f85501972e8c0"><div class="ttname"><a href="../../d5/d29/_timer_8h.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a></div><div class="ttdeci">uint32 GetMSTimeDiffToNow(uint32 oldMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
+<div class="ttc" id="a_timer_8h_html_a4476c8e13ea790c3536f2749105f9cb9"><div class="ttname"><a href="../../d5/d29/_timer_8h.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a></div><div class="ttdeci">uint32 getMSTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:103</div></div>
+<div class="ttc" id="aclass_field_html"><div class="ttname"><a href="../../dc/d67/class_field.html">Field</a></div><div class="ttdoc">Class used to access individual fields of database query result.</div><div class="ttdef"><b>Definition:</b> Field.h:99</div></div>
+<div class="ttc" id="aclass_petition_mgr_html_a0175d79b865a34bc1451bb6c748d785f"><div class="ttname"><a href="../../da/da2/class_petition_mgr.html#a0175d79b865a34bc1451bb6c748d785f">PetitionMgr::AddPetition</a></div><div class="ttdeci">void AddPetition(ObjectGuid petitionGUID, ObjectGuid ownerGuid, std::string const &amp;name, uint8 type)</div><div class="ttdef"><b>Definition:</b> PetitionMgr.cpp:90</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad3fa9f06bda57a2ff4bac0f1650f5257" name="ad3fa9f06bda57a2ff4bac0f1650f5257"></a>
@@ -461,7 +550,31 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   66</span>{</div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d5/d29/_timer_8h.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a784ff7990f17d4cfdc4f24b6f863e88e">SignatureStore</a>.clear();</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_typedef" href="../../db/d04/_database_env_fwd_8h.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT petitionguid, playerguid, player_account FROM petition_sign&quot;</span>);</div>
+<div class="line"><span class="lineno">   71</span>    <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">   72</span>    {</div>
+<div class="line"><span class="lineno">   73</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 Petition signs!&quot;</span>);</div>
+<div class="line"><span class="lineno">   74</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   75</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   76</span>    }</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">   79</span>    <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">   80</span>    {</div>
+<div class="line"><span class="lineno">   81</span>        <a class="code hl_class" href="../../dc/d67/class_field.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">   82</span>        <a class="code hl_function" href="../../da/da2/class_petition_mgr.html#a00f47487f06ced804371e63427f4afdb">AddSignature</a>(ObjectGuid::Create&lt;HighGuid::Item&gt;(fields[0].Get&lt;uint32&gt;()), fields[2].Get&lt;uint32&gt;(), ObjectGuid::Create&lt;HighGuid::Player&gt;(fields[1].Get&lt;uint32&gt;()));</div>
+<div class="line"><span class="lineno">   83</span>        ++count;</div>
+<div class="line"><span class="lineno">   84</span>    } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} Petition signs in {} ms&quot;</span>, count, <a class="code hl_function" href="../../d5/d29/_timer_8h.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">   87</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   88</span>}</div>
+<div class="ttc" id="aclass_petition_mgr_html_a00f47487f06ced804371e63427f4afdb"><div class="ttname"><a href="../../da/da2/class_petition_mgr.html#a00f47487f06ced804371e63427f4afdb">PetitionMgr::AddSignature</a></div><div class="ttdeci">void AddSignature(ObjectGuid petitionGUID, uint32 accountId, ObjectGuid playerGuid)</div><div class="ttdef"><b>Definition:</b> PetitionMgr.cpp:155</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad6ad64ff57918817def0f948a3c03717" name="ad6ad64ff57918817def0f948a3c03717"></a>
@@ -479,7 +592,13 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  104</span>{</div>
+<div class="line"><span class="lineno">  105</span>    <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a49bb11e33b39fa77f5394130e8405537">PetitionStore</a>.erase(petitionGUID);</div>
+<div class="line"><span class="lineno">  106</span> </div>
+<div class="line"><span class="lineno">  107</span>    <span class="comment">// remove signatures</span></div>
+<div class="line"><span class="lineno">  108</span>    <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a784ff7990f17d4cfdc4f24b6f863e88e">SignatureStore</a>.erase(petitionGUID);</div>
+<div class="line"><span class="lineno">  109</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab4284c466ee19dfb7d5214c598289441" name="ab4284c466ee19dfb7d5214c598289441"></a>
@@ -507,7 +626,35 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  112</span>{</div>
+<div class="line"><span class="lineno">  113</span>    <span class="keywordflow">for</span> (PetitionContainer::iterator itr = <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a49bb11e33b39fa77f5394130e8405537">PetitionStore</a>.begin(); itr != <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a49bb11e33b39fa77f5394130e8405537">PetitionStore</a>.end();)</div>
+<div class="line"><span class="lineno">  114</span>    {</div>
+<div class="line"><span class="lineno">  115</span>        <span class="keywordflow">if</span> (itr-&gt;second.ownerGuid == ownerGuid &amp;&amp; (!type || type == itr-&gt;second.petitionType))</div>
+<div class="line"><span class="lineno">  116</span>        {</div>
+<div class="line"><span class="lineno">  117</span>            <span class="comment">// Remove invalid charter item</span></div>
+<div class="line"><span class="lineno">  118</span>            <span class="keywordflow">if</span> (type == itr-&gt;second.petitionType)</div>
+<div class="line"><span class="lineno">  119</span>            {</div>
+<div class="line"><span class="lineno">  120</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* owner = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0">ObjectAccessor::FindConnectedPlayer</a>(ownerGuid))</div>
+<div class="line"><span class="lineno">  121</span>                {</div>
+<div class="line"><span class="lineno">  122</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dc/d32/class_item.html">Item</a>* item = owner-&gt;GetItemByGuid(itr-&gt;first))</div>
+<div class="line"><span class="lineno">  123</span>                    {</div>
+<div class="line"><span class="lineno">  124</span>                        owner-&gt;DestroyItem(item-&gt;GetBagSlot(), item-&gt;GetSlot(), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  125</span>                    }</div>
+<div class="line"><span class="lineno">  126</span>                }</div>
+<div class="line"><span class="lineno">  127</span>            }</div>
+<div class="line"><span class="lineno">  128</span> </div>
+<div class="line"><span class="lineno">  129</span>            <span class="comment">// remove signatures</span></div>
+<div class="line"><span class="lineno">  130</span>            <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a784ff7990f17d4cfdc4f24b6f863e88e">SignatureStore</a>.erase(itr-&gt;first);</div>
+<div class="line"><span class="lineno">  131</span>            <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a49bb11e33b39fa77f5394130e8405537">PetitionStore</a>.erase(itr++);</div>
+<div class="line"><span class="lineno">  132</span>        }</div>
+<div class="line"><span class="lineno">  133</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  134</span>            ++itr;</div>
+<div class="line"><span class="lineno">  135</span>    }</div>
+<div class="line"><span class="lineno">  136</span>}</div>
+<div class="ttc" id="aclass_item_html"><div class="ttname"><a href="../../dc/d32/class_item.html">Item</a></div><div class="ttdef"><b>Definition:</b> Item.h:214</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a354f7e7aaf4b12d6ad8fe8ef6291eaa0"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0">ObjectAccessor::FindConnectedPlayer</a></div><div class="ttdeci">Player * FindConnectedPlayer(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:262</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a289f09d808c81b5ada9b26e98260f5be" name="a289f09d808c81b5ada9b26e98260f5be"></a>
@@ -525,7 +672,15 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  170</span>{</div>
+<div class="line"><span class="lineno">  171</span>    <span class="keywordflow">for</span> (SignatureContainer::iterator itr = <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a784ff7990f17d4cfdc4f24b6f863e88e">SignatureStore</a>.begin(); itr != <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a784ff7990f17d4cfdc4f24b6f863e88e">SignatureStore</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  172</span>    {</div>
+<div class="line"><span class="lineno">  173</span>        SignatureMap::iterator signItr = itr-&gt;second.signatureMap.find(playerGuid);</div>
+<div class="line"><span class="lineno">  174</span>        <span class="keywordflow">if</span> (signItr != itr-&gt;second.signatureMap.end())</div>
+<div class="line"><span class="lineno">  175</span>            itr-&gt;second.signatureMap.erase(signItr);</div>
+<div class="line"><span class="lineno">  176</span>    }</div>
+<div class="line"><span class="lineno">  177</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8d30eb7c2d048ada34765193ee823a96" name="a8d30eb7c2d048ada34765193ee823a96"></a>
@@ -553,7 +708,20 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  180</span>{</div>
+<div class="line"><span class="lineno">  181</span>    <span class="keywordflow">for</span> (SignatureContainer::iterator itr = <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a784ff7990f17d4cfdc4f24b6f863e88e">SignatureStore</a>.begin(); itr != <a class="code hl_variable" href="../../da/da2/class_petition_mgr.html#a784ff7990f17d4cfdc4f24b6f863e88e">SignatureStore</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  182</span>    {</div>
+<div class="line"><span class="lineno">  183</span>        <a class="code hl_struct" href="../../d7/de2/struct_petition.html">Petition</a> <span class="keyword">const</span>* petition = <a class="code hl_define" href="../../d9/de4/_petition_mgr_8h.html#a2910b9c8b8c58925b562acf66b3e46d2">sPetitionMgr</a>-&gt;GetPetition(itr-&gt;first);</div>
+<div class="line"><span class="lineno">  184</span>        <span class="keywordflow">if</span> (!petition || petition-&gt;<a class="code hl_variable" href="../../d7/de2/struct_petition.html#aeaf6c421d7545cf98d88b4e552dcff23">petitionType</a> != type)</div>
+<div class="line"><span class="lineno">  185</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  186</span> </div>
+<div class="line"><span class="lineno">  187</span>        SignatureMap::iterator signItr = itr-&gt;second.signatureMap.find(playerGuid);</div>
+<div class="line"><span class="lineno">  188</span>        <span class="keywordflow">if</span> (signItr != itr-&gt;second.signatureMap.end())</div>
+<div class="line"><span class="lineno">  189</span>            itr-&gt;second.signatureMap.erase(signItr);</div>
+<div class="line"><span class="lineno">  190</span>    }</div>
+<div class="line"><span class="lineno">  191</span>}</div>
+<div class="ttc" id="a_petition_mgr_8h_html_a2910b9c8b8c58925b562acf66b3e46d2"><div class="ttname"><a href="../../d9/de4/_petition_mgr_8h.html#a2910b9c8b8c58925b562acf66b3e46d2">sPetitionMgr</a></div><div class="ttdeci">#define sPetitionMgr</div><div class="ttdef"><b>Definition:</b> PetitionMgr.h:88</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -602,8 +770,8 @@ Private Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Petitions/<a class="el" href="../../d9/de4/_petition_mgr_8h_source.html">PetitionMgr.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Petitions/<a class="el" href="../../d5/dd1/_petition_mgr_8cpp.html">PetitionMgr.cpp</a></li>
+<li><a class="el" href="../../">PetitionMgr.h</a></li>
+<li><a class="el" href="../../">PetitionMgr.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -611,7 +779,7 @@ Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/da2/class_petition_mgr.html">PetitionMgr</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

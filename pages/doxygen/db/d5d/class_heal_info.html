@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('db/d5d/class_heal_info.html','../../')
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/d32/_unit_8h_source.html">Unit.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Unit.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -151,7 +151,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:af2fd7934b1b1cd08dd4dcfeadc9c02df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0b/_shared_defines_8h.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5d/class_heal_info.html#af2fd7934b1b1cd08dd4dcfeadc9c02df">m_schoolMask</a></td></tr>
 <tr class="separator:af2fd7934b1b1cd08dd4dcfeadc9c02df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a25fe1984f6c3ef5eeb90049ef4749437" name="a25fe1984f6c3ef5eeb90049ef4749437"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a25fe1984f6c3ef5eeb90049ef4749437">&#9670;&#160;</a></span>HealInfo()</h2>
 
@@ -203,7 +204,17 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  814</span>        : <a class="code hl_variable" href="../../db/d5d/class_heal_info.html#ad291e8e65eb0a9a9054ac1827cf0d315">m_healer</a>(_healer), <a class="code hl_variable" href="../../db/d5d/class_heal_info.html#a3a13a815e870e6745888ed082e8498e8">m_target</a>(_target), <a class="code hl_variable" href="../../db/d5d/class_heal_info.html#af0a2d7c40710cabbb88122de2650c705">m_heal</a>(_heal), <a class="code hl_variable" href="../../db/d5d/class_heal_info.html#a68d6d63fdd1efb458615e24f65e643be">m_spellInfo</a>(_spellInfo), <a class="code hl_variable" href="../../db/d5d/class_heal_info.html#af2fd7934b1b1cd08dd4dcfeadc9c02df">m_schoolMask</a>(_schoolMask)</div>
+<div class="line"><span class="lineno">  815</span>    {</div>
+<div class="line"><span class="lineno">  816</span>        <a class="code hl_variable" href="../../db/d5d/class_heal_info.html#a383cc7bb4d30dd72cbfeaedd9b5d5042">m_absorb</a> = 0;</div>
+<div class="line"><span class="lineno">  817</span>    }</div>
+<div class="ttc" id="aclass_heal_info_html_a383cc7bb4d30dd72cbfeaedd9b5d5042"><div class="ttname"><a href="../../db/d5d/class_heal_info.html#a383cc7bb4d30dd72cbfeaedd9b5d5042">HealInfo::m_absorb</a></div><div class="ttdeci">uint32 m_absorb</div><div class="ttdef"><b>Definition:</b> Unit.h:809</div></div>
+<div class="ttc" id="aclass_heal_info_html_a3a13a815e870e6745888ed082e8498e8"><div class="ttname"><a href="../../db/d5d/class_heal_info.html#a3a13a815e870e6745888ed082e8498e8">HealInfo::m_target</a></div><div class="ttdeci">Unit *const m_target</div><div class="ttdef"><b>Definition:</b> Unit.h:807</div></div>
+<div class="ttc" id="aclass_heal_info_html_a68d6d63fdd1efb458615e24f65e643be"><div class="ttname"><a href="../../db/d5d/class_heal_info.html#a68d6d63fdd1efb458615e24f65e643be">HealInfo::m_spellInfo</a></div><div class="ttdeci">SpellInfo const  *const m_spellInfo</div><div class="ttdef"><b>Definition:</b> Unit.h:810</div></div>
+<div class="ttc" id="aclass_heal_info_html_ad291e8e65eb0a9a9054ac1827cf0d315"><div class="ttname"><a href="../../db/d5d/class_heal_info.html#ad291e8e65eb0a9a9054ac1827cf0d315">HealInfo::m_healer</a></div><div class="ttdeci">Unit *const m_healer</div><div class="ttdef"><b>Definition:</b> Unit.h:806</div></div>
+<div class="ttc" id="aclass_heal_info_html_af0a2d7c40710cabbb88122de2650c705"><div class="ttname"><a href="../../db/d5d/class_heal_info.html#af0a2d7c40710cabbb88122de2650c705">HealInfo::m_heal</a></div><div class="ttdeci">uint32 m_heal</div><div class="ttdef"><b>Definition:</b> Unit.h:808</div></div>
+<div class="ttc" id="aclass_heal_info_html_af2fd7934b1b1cd08dd4dcfeadc9c02df"><div class="ttname"><a href="../../db/d5d/class_heal_info.html#af2fd7934b1b1cd08dd4dcfeadc9c02df">HealInfo::m_schoolMask</a></div><div class="ttdeci">SpellSchoolMask const m_schoolMask</div><div class="ttdef"><b>Definition:</b> Unit.h:811</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -230,7 +241,13 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  819</span>    {</div>
+<div class="line"><span class="lineno">  820</span>        amount = std::min(amount, <a class="code hl_function" href="../../db/d5d/class_heal_info.html#af95a6d6c94a72874c150a3deabce20ee">GetHeal</a>());</div>
+<div class="line"><span class="lineno">  821</span>        <a class="code hl_variable" href="../../db/d5d/class_heal_info.html#a383cc7bb4d30dd72cbfeaedd9b5d5042">m_absorb</a> += amount;</div>
+<div class="line"><span class="lineno">  822</span>        <a class="code hl_variable" href="../../db/d5d/class_heal_info.html#af0a2d7c40710cabbb88122de2650c705">m_heal</a> -= amount;</div>
+<div class="line"><span class="lineno">  823</span>    }</div>
+<div class="ttc" id="aclass_heal_info_html_af95a6d6c94a72874c150a3deabce20ee"><div class="ttname"><a href="../../db/d5d/class_heal_info.html#af95a6d6c94a72874c150a3deabce20ee">HealInfo::GetHeal</a></div><div class="ttdeci">uint32 GetHeal() const</div><div class="ttdef"><b>Definition:</b> Unit.h:832</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3a29dc8e520997a58c7da005945d96e2" name="a3a29dc8e520997a58c7da005945d96e2"></a>
@@ -255,7 +272,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  833</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d5d/class_heal_info.html#a383cc7bb4d30dd72cbfeaedd9b5d5042">m_absorb</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af95a6d6c94a72874c150a3deabce20ee" name="af95a6d6c94a72874c150a3deabce20ee"></a>
@@ -280,7 +298,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  832</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d5d/class_heal_info.html#af0a2d7c40710cabbb88122de2650c705">m_heal</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2139bd1efadb23063a67d3fef35b424d" name="a2139bd1efadb23063a67d3fef35b424d"></a>
@@ -305,7 +324,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  830</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d5d/class_heal_info.html#ad291e8e65eb0a9a9054ac1827cf0d315">m_healer</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aca2b1e31608a7c186a06e9bbe8977a9d" name="aca2b1e31608a7c186a06e9bbe8977a9d"></a>
@@ -330,7 +350,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  835</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d5d/class_heal_info.html#af2fd7934b1b1cd08dd4dcfeadc9c02df">m_schoolMask</a>; };</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a53b73d5b297e341be237723269c7644d" name="a53b73d5b297e341be237723269c7644d"></a>
@@ -355,7 +376,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  834</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d5d/class_heal_info.html#a68d6d63fdd1efb458615e24f65e643be">m_spellInfo</a>; };</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae7a08b2e27a5ac316ed2d3bca7d2395d" name="ae7a08b2e27a5ac316ed2d3bca7d2395d"></a>
@@ -380,7 +402,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  831</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d5d/class_heal_info.html#a3a13a815e870e6745888ed082e8498e8">m_target</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a622e0993c76b43f30d9cc774c70a92b0" name="a622e0993c76b43f30d9cc774c70a92b0"></a>
@@ -406,7 +429,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  826</span>    {</div>
+<div class="line"><span class="lineno">  827</span>        <a class="code hl_variable" href="../../db/d5d/class_heal_info.html#af0a2d7c40710cabbb88122de2650c705">m_heal</a> = amount;</div>
+<div class="line"><span class="lineno">  828</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -543,7 +569,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Unit/<a class="el" href="../../d5/d32/_unit_8h_source.html">Unit.h</a></li>
+<li><a class="el" href="../../">Unit.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -551,7 +577,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d5d/class_heal_info.html">HealInfo</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -132,7 +132,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a756665eafa08f3c8c51ccef69bdd619f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d18/class_game_event_a_i_hook_worker.html#a756665eafa08f3c8c51ccef69bdd619f">_activate</a></td></tr>
 <tr class="separator:a756665eafa08f3c8c51ccef69bdd619f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad72640a18d2d32a9201c965089ee49cf" name="ad72640a18d2d32a9201c965089ee49cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad72640a18d2d32a9201c965089ee49cf">&#9670;&#160;</a></span>GameEventAIHookWorker()</h2>
 
@@ -166,7 +167,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1764</span>: <a class="code hl_variable" href="../../dc/d18/class_game_event_a_i_hook_worker.html#ab1ee68bb7134e84780772eba2cfac766">_eventId</a>(eventId), <a class="code hl_variable" href="../../dc/d18/class_game_event_a_i_hook_worker.html#a756665eafa08f3c8c51ccef69bdd619f">_activate</a>(activate) { }</div>
+<div class="ttc" id="aclass_game_event_a_i_hook_worker_html_a756665eafa08f3c8c51ccef69bdd619f"><div class="ttname"><a href="../../dc/d18/class_game_event_a_i_hook_worker.html#a756665eafa08f3c8c51ccef69bdd619f">GameEventAIHookWorker::_activate</a></div><div class="ttdeci">bool _activate</div><div class="ttdef"><b>Definition:</b> GameEventMgr.cpp:1785</div></div>
+<div class="ttc" id="aclass_game_event_a_i_hook_worker_html_ab1ee68bb7134e84780772eba2cfac766"><div class="ttname"><a href="../../dc/d18/class_game_event_a_i_hook_worker.html#ab1ee68bb7134e84780772eba2cfac766">GameEventAIHookWorker::_eventId</a></div><div class="ttdeci">uint16 _eventId</div><div class="ttdef"><b>Definition:</b> GameEventMgr.cpp:1784</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -193,7 +197,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1767</span>    {</div>
+<div class="line"><span class="lineno"> 1768</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; p : creatureMap)</div>
+<div class="line"><span class="lineno"> 1769</span>            <span class="keywordflow">if</span> (p.second-&gt;IsInWorld() &amp;&amp; !p.second-&gt;IsDuringRemoveFromWorld() &amp;&amp; p.second-&gt;FindMap() &amp;&amp; p.second-&gt;IsAIEnabled &amp;&amp; p.second-&gt;AI())</div>
+<div class="line"><span class="lineno"> 1770</span>                p.second-&gt;AI()-&gt;sOnGameEvent(<a class="code hl_variable" href="../../dc/d18/class_game_event_a_i_hook_worker.html#a756665eafa08f3c8c51ccef69bdd619f">_activate</a>, <a class="code hl_variable" href="../../dc/d18/class_game_event_a_i_hook_worker.html#ab1ee68bb7134e84780772eba2cfac766">_eventId</a>);</div>
+<div class="line"><span class="lineno"> 1771</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a79106ec550d072d690bbf3496d76cb0a" name="a79106ec550d072d690bbf3496d76cb0a"></a>
@@ -219,7 +228,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1774</span>    {</div>
+<div class="line"><span class="lineno"> 1775</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; p : gameObjectMap)</div>
+<div class="line"><span class="lineno"> 1776</span>            <span class="keywordflow">if</span> (p.second-&gt;IsInWorld() &amp;&amp; p.second-&gt;FindMap() &amp;&amp; p.second-&gt;AI())</div>
+<div class="line"><span class="lineno"> 1777</span>                p.second-&gt;AI()-&gt;OnGameEvent(<a class="code hl_variable" href="../../dc/d18/class_game_event_a_i_hook_worker.html#a756665eafa08f3c8c51ccef69bdd619f">_activate</a>, <a class="code hl_variable" href="../../dc/d18/class_game_event_a_i_hook_worker.html#ab1ee68bb7134e84780772eba2cfac766">_eventId</a>);</div>
+<div class="line"><span class="lineno"> 1778</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a165476edd8b252bbb90b8b78fae963a6" name="a165476edd8b252bbb90b8b78fae963a6"></a>
@@ -247,7 +261,8 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1781</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -296,7 +311,7 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Events/<a class="el" href="../../dc/df4/_game_event_mgr_8cpp.html">GameEventMgr.cpp</a></li>
+<li><a class="el" href="../../">GameEventMgr.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -304,7 +319,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d18/class_game_event_a_i_hook_worker.html">GameEventAIHookWorker</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

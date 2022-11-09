@@ -304,7 +304,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac8b9ba8782c26cf9db9f4e878e37a8ce" name="ac8b9ba8782c26cf9db9f4e878e37a8ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac8b9ba8782c26cf9db9f4e878e37a8ce">&#9670;&#160;</a></span>OnApply()</h2>
 
@@ -338,7 +339,18 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  774</span>        {</div>
+<div class="line"><span class="lineno">  775</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;GetInstanceScript())</div>
+<div class="line"><span class="lineno">  776</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* bloodQueen = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>(), instance-&gt;GetGuidData(<a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#afb6eb4f28419b652027fad41104a6d22aa0ad426266441f83890f3bacec9d6818">DATA_BLOOD_QUEEN_LANA_THEL</a>)))</div>
+<div class="line"><span class="lineno">  777</span>                    bloodQueen-&gt;AI()-&gt;Talk(<a class="code hl_enumvalue" href="../../df/df3/boss__blood__queen__lana__thel_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a9e3630f53c29fff33fb8d4d1bf20e745">EMOTE_BLOODTHIRST</a>, <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>());</div>
+<div class="line"><span class="lineno">  778</span>        }</div>
+<div class="ttc" id="aboss__blood__queen__lana__thel_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a9e3630f53c29fff33fb8d4d1bf20e745"><div class="ttname"><a href="../../df/df3/boss__blood__queen__lana__thel_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a9e3630f53c29fff33fb8d4d1bf20e745">EMOTE_BLOODTHIRST</a></div><div class="ttdeci">@ EMOTE_BLOODTHIRST</div><div class="ttdef"><b>Definition:</b> boss_blood_queen_lana_thel.cpp:31</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aicecrown__citadel_8h_html_afb6eb4f28419b652027fad41104a6d22aa0ad426266441f83890f3bacec9d6818"><div class="ttname"><a href="../../d9/d6a/icecrown__citadel_8h.html#afb6eb4f28419b652027fad41104a6d22aa0ad426266441f83890f3bacec9d6818">DATA_BLOOD_QUEEN_LANA_THEL</a></div><div class="ttdeci">@ DATA_BLOOD_QUEEN_LANA_THEL</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.h:99</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abbadaa94095ce6ab9626227950f4377f" name="abbadaa94095ce6ab9626227950f4377f"></a>
@@ -374,7 +386,30 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  781</span>        {</div>
+<div class="line"><span class="lineno">  782</span>            <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>();</div>
+<div class="line"><span class="lineno">  783</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a29e48f1dc7011926160e2ed80ebf2f8e">GetTargetApplication</a>()-&gt;GetRemoveMode() == <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a9a4f502870485ba32e759067c9adca94a9ca05b22853d12d44ac7e80a9e864a10">AURA_REMOVE_BY_EXPIRE</a>)</div>
+<div class="line"><span class="lineno">  784</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = target-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno">  785</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* bloodQueen = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*target, instance-&gt;GetGuidData(<a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#afb6eb4f28419b652027fad41104a6d22aa0ad426266441f83890f3bacec9d6818">DATA_BLOOD_QUEEN_LANA_THEL</a>)))</div>
+<div class="line"><span class="lineno">  786</span>                        <span class="keywordflow">if</span> (bloodQueen-&gt;IsAlive() &amp;&amp; bloodQueen-&gt;IsInCombat())</div>
+<div class="line"><span class="lineno">  787</span>                        {</div>
+<div class="line"><span class="lineno">  788</span>                            <span class="comment">// this needs to be done BEFORE charm aura or we hit an assert in Unit::SetCharmedBy</span></div>
+<div class="line"><span class="lineno">  789</span>                            <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae54fce65a1c084c982043777288895ec">GetVehicleKit</a>())</div>
+<div class="line"><span class="lineno">  790</span>                                target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a65ee899ca8381fb07b31ad005abd2349">RemoveVehicleKit</a>();</div>
+<div class="line"><span class="lineno">  791</span> </div>
+<div class="line"><span class="lineno">  792</span>                            bloodQueen-&gt;AI()-&gt;Talk(<a class="code hl_enumvalue" href="../../df/df3/boss__blood__queen__lana__thel_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ad036e5be3774c27480a351d13f0ce472">SAY_MIND_CONTROL</a>);</div>
+<div class="line"><span class="lineno">  793</span>                            bloodQueen-&gt;CastSpell(target, <a class="code hl_enumvalue" href="../../df/df3/boss__blood__queen__lana__thel_8cpp.html#a5bd342133be8c2137b831460acc9298ca3c16645b78c3764edea238c20ad3d3e3">SPELL_UNCONTROLLABLE_FRENZY</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  794</span>                        }</div>
+<div class="line"><span class="lineno">  795</span>        }</div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a9a4f502870485ba32e759067c9adca94a9ca05b22853d12d44ac7e80a9e864a10"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a9a4f502870485ba32e759067c9adca94a9ca05b22853d12d44ac7e80a9e864a10">AURA_REMOVE_BY_EXPIRE</a></div><div class="ttdeci">@ AURA_REMOVE_BY_EXPIRE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:395</div></div>
+<div class="ttc" id="aboss__blood__queen__lana__thel_8cpp_html_a5bd342133be8c2137b831460acc9298ca3c16645b78c3764edea238c20ad3d3e3"><div class="ttname"><a href="../../df/df3/boss__blood__queen__lana__thel_8cpp.html#a5bd342133be8c2137b831460acc9298ca3c16645b78c3764edea238c20ad3d3e3">SPELL_UNCONTROLLABLE_FRENZY</a></div><div class="ttdeci">@ SPELL_UNCONTROLLABLE_FRENZY</div><div class="ttdef"><b>Definition:</b> boss_blood_queen_lana_thel.cpp:52</div></div>
+<div class="ttc" id="aboss__blood__queen__lana__thel_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31ad036e5be3774c27480a351d13f0ce472"><div class="ttname"><a href="../../df/df3/boss__blood__queen__lana__thel_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ad036e5be3774c27480a351d13f0ce472">SAY_MIND_CONTROL</a></div><div class="ttdeci">@ SAY_MIND_CONTROL</div><div class="ttdef"><b>Definition:</b> boss_blood_queen_lana_thel.cpp:30</div></div>
+<div class="ttc" id="aclass_aura_script_html_a29e48f1dc7011926160e2ed80ebf2f8e"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a29e48f1dc7011926160e2ed80ebf2f8e">AuraScript::GetTargetApplication</a></div><div class="ttdeci">AuraApplication const * GetTargetApplication() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1184</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a65ee899ca8381fb07b31ad005abd2349"><div class="ttname"><a href="../../da/db7/class_unit.html#a65ee899ca8381fb07b31ad005abd2349">Unit::RemoveVehicleKit</a></div><div class="ttdeci">void RemoveVehicleKit()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18759</div></div>
+<div class="ttc" id="aclass_unit_html_ae54fce65a1c084c982043777288895ec"><div class="ttname"><a href="../../da/db7/class_unit.html#ae54fce65a1c084c982043777288895ec">Unit::GetVehicleKit</a></div><div class="ttdeci">Vehicle * GetVehicleKit() const</div><div class="ttdef"><b>Definition:</b> Unit.h:2348</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a51ba62ba76b53667559114fd19fedc46" name="a51ba62ba76b53667559114fd19fedc46"></a>
@@ -427,11 +462,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  798</span>        {</div>
+<div class="line"><span class="lineno">  799</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#af325738f50fb9df450999e5e04ea65ed">OnEffectApply</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a>(<a class="code hl_function" href="../../dc/d82/classspell__blood__queen__frenzied__bloodthirst_1_1spell__blood__queen__frenzied__bloodthirst___aura_script.html#ac8b9ba8782c26cf9db9f4e878e37a8ce">spell_blood_queen_frenzied_bloodthirst_AuraScript::OnApply</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a752c8a8288062a6e3a61cf987724134c">SPELL_AURA_OVERRIDE_SPELLS</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno">  800</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AfterEffectRemove</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a>(<a class="code hl_function" href="../../dc/d82/classspell__blood__queen__frenzied__bloodthirst_1_1spell__blood__queen__frenzied__bloodthirst___aura_script.html#abbadaa94095ce6ab9626227950f4377f">spell_blood_queen_frenzied_bloodthirst_AuraScript::OnRemove</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a752c8a8288062a6e3a61cf987724134c">SPELL_AURA_OVERRIDE_SPELLS</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno">  801</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a752c8a8288062a6e3a61cf987724134c"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a752c8a8288062a6e3a61cf987724134c">SPELL_AURA_OVERRIDE_SPELLS</a></div><div class="ttdeci">@ SPELL_AURA_OVERRIDE_SPELLS</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:356</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:42</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ac47070c5a13a5436cc5d204a1445c993"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a></div><div class="ttdeci">#define AuraEffectApplyFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:733</div></div>
+<div class="ttc" id="a_spell_script_8h_html_af8f20adad60abdb901d6e7310afea31b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a></div><div class="ttdeci">#define AuraEffectRemoveFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:744</div></div>
+<div class="ttc" id="aclass_aura_script_html_a2bfb775dfbe8cfc3cff876469c78ddcf"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AuraScript::AfterEffectRemove</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; AfterEffectRemove</div><div class="ttdef"><b>Definition:</b> SpellScript.h:743</div></div>
+<div class="ttc" id="aclass_aura_script_html_af325738f50fb9df450999e5e04ea65ed"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#af325738f50fb9df450999e5e04ea65ed">AuraScript::OnEffectApply</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; OnEffectApply</div><div class="ttdef"><b>Definition:</b> SpellScript.h:728</div></div>
+<div class="ttc" id="aclassspell__blood__queen__frenzied__bloodthirst_1_1spell__blood__queen__frenzied__bloodthirst___aura_script_html_abbadaa94095ce6ab9626227950f4377f"><div class="ttname"><a href="../../dc/d82/classspell__blood__queen__frenzied__bloodthirst_1_1spell__blood__queen__frenzied__bloodthirst___aura_script.html#abbadaa94095ce6ab9626227950f4377f">spell_blood_queen_frenzied_bloodthirst::spell_blood_queen_frenzied_bloodthirst_AuraScript::OnRemove</a></div><div class="ttdeci">void OnRemove(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> boss_blood_queen_lana_thel.cpp:780</div></div>
+<div class="ttc" id="aclassspell__blood__queen__frenzied__bloodthirst_1_1spell__blood__queen__frenzied__bloodthirst___aura_script_html_ac8b9ba8782c26cf9db9f4e878e37a8ce"><div class="ttname"><a href="../../dc/d82/classspell__blood__queen__frenzied__bloodthirst_1_1spell__blood__queen__frenzied__bloodthirst___aura_script.html#ac8b9ba8782c26cf9db9f4e878e37a8ce">spell_blood_queen_frenzied_bloodthirst::spell_blood_queen_frenzied_bloodthirst_AuraScript::OnApply</a></div><div class="ttdeci">void OnApply(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> boss_blood_queen_lana_thel.cpp:773</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../df/df3/boss__blood__queen__lana__thel_8cpp.html">boss_blood_queen_lana_thel.cpp</a></li>
+<li><a class="el" href="../../">boss_blood_queen_lana_thel.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -439,7 +487,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d25/classspell__blood__queen__frenzied__bloodthirst.html">spell_blood_queen_frenzied_bloodthirst</a></li><li class="navelem"><a class="el" href="../../dc/d82/classspell__blood__queen__frenzied__bloodthirst_1_1spell__blood__queen__frenzied__bloodthirst___aura_script.html">spell_blood_queen_frenzied_bloodthirst_AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:16 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

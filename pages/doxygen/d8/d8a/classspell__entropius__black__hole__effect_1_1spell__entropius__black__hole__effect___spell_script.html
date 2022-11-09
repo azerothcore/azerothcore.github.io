@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae854764446010d6c781c1569df0972d9" name="ae854764446010d6c781c1569df0972d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae854764446010d6c781c1569df0972d9">&#9670;&#160;</a></span>HandlePull()</h2>
 
@@ -316,7 +317,42 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  475</span>        {</div>
+<div class="line"><span class="lineno">  476</span>            <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">PreventHitDefaultEffect</a>(effIndex);</div>
+<div class="line"><span class="lineno">  477</span>            <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>();</div>
+<div class="line"><span class="lineno">  478</span>            <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno">  479</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  480</span> </div>
+<div class="line"><span class="lineno">  481</span>            <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> pos;</div>
+<div class="line"><span class="lineno">  482</span>            <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#acaa0cccbbb9cac74080c8279a571a68c">GetDistance</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()) &lt; 5.0f)</div>
+<div class="line"><span class="lineno">  483</span>            {</div>
+<div class="line"><span class="lineno">  484</span>                <span class="keywordtype">float</span> o = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#a19bd31014583536af788a65b398e4406">frand</a>(0, 2 * M_PI);</div>
+<div class="line"><span class="lineno">  485</span>                pos.<a class="code hl_function" href="../../d1/d26/struct_position.html#afdbf0a257fcd7a48066fd92c4eacae3b">Relocate</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;GetPositionX() + 4.0f * cos(o), <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;GetPositionY() + 4.0f * std::sin(o), <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;GetPositionZ() + <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#a19bd31014583536af788a65b398e4406">frand</a>(10.0f, 15.0f));</div>
+<div class="line"><span class="lineno">  486</span>            }</div>
+<div class="line"><span class="lineno">  487</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  488</span>                pos.<a class="code hl_function" href="../../d1/d26/struct_position.html#afdbf0a257fcd7a48066fd92c4eacae3b">Relocate</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;GetPositionX(), <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;GetPositionY(), <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;GetPositionZ() + 1.0f);</div>
+<div class="line"><span class="lineno">  489</span> </div>
+<div class="line"><span class="lineno">  490</span>            <span class="keywordtype">float</span> speedXY = float(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;Effects[effIndex].MiscValue) * 0.1f;</div>
+<div class="line"><span class="lineno">  491</span>            <span class="keywordtype">float</span> speedZ = target-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#acaa0cccbbb9cac74080c8279a571a68c">GetDistance</a>(pos) / speedXY * 0.5f * <a class="code hl_variable" href="../../d1/dc5/namespace_movement.html#a15b376933a666c7f7c4600e62d7afe91">Movement::gravity</a>;</div>
+<div class="line"><span class="lineno">  492</span> </div>
+<div class="line"><span class="lineno">  493</span>            target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a9744b1869b88241035117268f3edc591">MoveJump</a>(pos.<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), pos.<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), pos.<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>(), speedXY, speedZ);</div>
+<div class="line"><span class="lineno">  494</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_a19bd31014583536af788a65b398e4406"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#a19bd31014583536af788a65b398e4406">frand</a></div><div class="ttdeci">float frand(float min, float max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:57</div></div>
+<div class="ttc" id="aclass_motion_master_html_a9744b1869b88241035117268f3edc591"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a9744b1869b88241035117268f3edc591">MotionMaster::MoveJump</a></div><div class="ttdeci">void MoveJump(Position const &amp;pos, float speedXY, float speedZ, uint32 id=0)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:225</div></div>
+<div class="ttc" id="aclass_spell_script_html_a3fa31d3b29c52993d3561fad3cd12af3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">SpellScript::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:411</div></div>
+<div class="ttc" id="aclass_spell_script_html_a56ed3ad5cf4ebc848946a9d8f1c35d5f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">SpellScript::PreventHitDefaultEffect</a></div><div class="ttdeci">void PreventHitDefaultEffect(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:590</div></div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_world_object_html_acaa0cccbbb9cac74080c8279a571a68c"><div class="ttname"><a href="../../db/df7/class_world_object.html#acaa0cccbbb9cac74080c8279a571a68c">WorldObject::GetDistance</a></div><div class="ttdeci">float GetDistance(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1245</div></div>
+<div class="ttc" id="anamespace_movement_html_a15b376933a666c7f7c4600e62d7afe91"><div class="ttname"><a href="../../d1/dc5/namespace_movement.html#a15b376933a666c7f7c4600e62d7afe91">Movement::gravity</a></div><div class="ttdeci">double gravity</div><div class="ttdef"><b>Definition:</b> MovementUtil.cpp:24</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astruct_position_html_afdbf0a257fcd7a48066fd92c4eacae3b"><div class="ttname"><a href="../../d1/d26/struct_position.html#afdbf0a257fcd7a48066fd92c4eacae3b">Position::Relocate</a></div><div class="ttdeci">void Relocate(float x, float y)</div><div class="ttdef"><b>Definition:</b> Position.h:73</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a02e8286ade771a3d69245cfbaf2ddd44" name="a02e8286ade771a3d69245cfbaf2ddd44"></a>
@@ -369,11 +405,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  497</span>        {</div>
+<div class="line"><span class="lineno">  498</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d8/d8a/classspell__entropius__black__hole__effect_1_1spell__entropius__black__hole__effect___spell_script.html#ae854764446010d6c781c1569df0972d9">spell_entropius_black_hole_effect_SpellScript::HandlePull</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a5fc14c003823605eab8e7b27d9670c1d">SPELL_EFFECT_PULL_TOWARDS_DEST</a>);</div>
+<div class="line"><span class="lineno">  499</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a5fc14c003823605eab8e7b27d9670c1d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a5fc14c003823605eab8e7b27d9670c1d">SPELL_EFFECT_PULL_TOWARDS_DEST</a></div><div class="ttdeci">@ SPELL_EFFECT_PULL_TOWARDS_DEST</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:895</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__entropius__black__hole__effect_1_1spell__entropius__black__hole__effect___spell_script_html_ae854764446010d6c781c1569df0972d9"><div class="ttname"><a href="../../d8/d8a/classspell__entropius__black__hole__effect_1_1spell__entropius__black__hole__effect___spell_script.html#ae854764446010d6c781c1569df0972d9">spell_entropius_black_hole_effect::spell_entropius_black_hole_effect_SpellScript::HandlePull</a></div><div class="ttdeci">void HandlePull(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> boss_muru.cpp:474</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/SunwellPlateau/<a class="el" href="../../d9/d3f/boss__muru_8cpp.html">boss_muru.cpp</a></li>
+<li><a class="el" href="../../">boss_muru.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -381,7 +425,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/ddd/classspell__entropius__black__hole__effect.html">spell_entropius_black_hole_effect</a></li><li class="navelem"><a class="el" href="../../d8/d8a/classspell__entropius__black__hole__effect_1_1spell__entropius__black__hole__effect___spell_script.html">spell_entropius_black_hole_effect_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:17 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -119,7 +119,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a09ba840692b7fd50f7f6a537de1b240e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dea/class_mage_spell_mod_pred.html#a09ba840692b7fd50f7f6a537de1b240e">operator()</a> (<a class="el" href="../../d3/d39/struct_spell_modifier.html">SpellModifier</a> const *a, <a class="el" href="../../d3/d39/struct_spell_modifier.html">SpellModifier</a> const *b) const</td></tr>
 <tr class="separator:a09ba840692b7fd50f7f6a537de1b240e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af97aacdd47bd4427bb7dc1093ea1f63c" name="af97aacdd47bd4427bb7dc1093ea1f63c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af97aacdd47bd4427bb7dc1093ea1f63c">&#9670;&#160;</a></span>MageSpellModPred()</h2>
 
@@ -142,7 +143,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 9606</span>{}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -179,11 +181,21 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 9608</span>    {</div>
+<div class="line"><span class="lineno"> 9609</span>        <span class="keywordflow">if</span> (a-&gt;type != b-&gt;type)</div>
+<div class="line"><span class="lineno"> 9610</span>            <span class="keywordflow">return</span> a-&gt;type == <a class="code hl_enumvalue" href="../../d1/d39/_player_8h.html#a946f1b98541e5df18b4b45f6fb144ce8a8ebc303e6990a35340cd39cef55f4dd7">SPELLMOD_FLAT</a>;</div>
+<div class="line"><span class="lineno"> 9611</span>        <span class="keywordflow">if</span> (a-&gt;spellId == 44401)</div>
+<div class="line"><span class="lineno"> 9612</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 9613</span>        <span class="keywordflow">if</span> (b-&gt;spellId == 44401)</div>
+<div class="line"><span class="lineno"> 9614</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 9615</span>        <span class="keywordflow">return</span> a-&gt;value &lt; b-&gt;value;</div>
+<div class="line"><span class="lineno"> 9616</span>    }</div>
+<div class="ttc" id="a_player_8h_html_a946f1b98541e5df18b4b45f6fb144ce8a8ebc303e6990a35340cd39cef55f4dd7"><div class="ttname"><a href="../../d1/d39/_player_8h.html#a946f1b98541e5df18b4b45f6fb144ce8a8ebc303e6990a35340cd39cef55f4dd7">SPELLMOD_FLAT</a></div><div class="ttdeci">@ SPELLMOD_FLAT</div><div class="ttdef"><b>Definition:</b> Player.h:94</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Player/<a class="el" href="../../d2/d82/_player_8cpp.html">Player.cpp</a></li>
+<li><a class="el" href="../../">Player.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -191,7 +203,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/dea/class_mage_spell_mod_pred.html">MageSpellModPred</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

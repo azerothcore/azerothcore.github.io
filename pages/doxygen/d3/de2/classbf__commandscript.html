@@ -165,7 +165,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a806ca440ae1b51fffefee9d298dab3df" name="a806ca440ae1b51fffefee9d298dab3df"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a806ca440ae1b51fffefee9d298dab3df">&#9670;&#160;</a></span>bf_commandscript()</h2>
 
@@ -188,7 +189,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>: <a class="code hl_class" href="../../d8/ddd/class_command_script.html">CommandScript</a>(<span class="stringliteral">&quot;bf_commandscript&quot;</span>) { }</div>
+<div class="ttc" id="aclass_command_script_html"><div class="ttname"><a href="../../d8/ddd/class_command_script.html">CommandScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:849</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -216,7 +219,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d8/ddd/class_command_script.html#a97dc7d00b78e0030ba2a950d23b2ebd2">CommandScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   37</span>    {</div>
+<div class="line"><span class="lineno">   38</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">ChatCommandTable</a> battlefieldcommandTable =</div>
+<div class="line"><span class="lineno">   39</span>        {</div>
+<div class="line"><span class="lineno">   40</span>            { <span class="stringliteral">&quot;start&quot;</span>,  <a class="code hl_function" href="../../d3/de2/classbf__commandscript.html#a55102cc3b29a3ded0832ec82be1e3a5e">HandleBattlefieldStart</a>,  <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a6a04b5fbbc52adb152bfb45b600db102">SEC_ADMINISTRATOR</a>, Console::No },</div>
+<div class="line"><span class="lineno">   41</span>            { <span class="stringliteral">&quot;stop&quot;</span>,   <a class="code hl_function" href="../../d3/de2/classbf__commandscript.html#af7100032ad26a66fbc9d9b37d1da98e1">HandleBattlefieldEnd</a>,    <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a6a04b5fbbc52adb152bfb45b600db102">SEC_ADMINISTRATOR</a>, Console::No },</div>
+<div class="line"><span class="lineno">   42</span>            { <span class="stringliteral">&quot;switch&quot;</span>, <a class="code hl_function" href="../../d3/de2/classbf__commandscript.html#ac12cac377007d90b25b9797f2b2cc8de">HandleBattlefieldSwitch</a>, <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a6a04b5fbbc52adb152bfb45b600db102">SEC_ADMINISTRATOR</a>, Console::No },</div>
+<div class="line"><span class="lineno">   43</span>            { <span class="stringliteral">&quot;timer&quot;</span>,  <a class="code hl_function" href="../../d3/de2/classbf__commandscript.html#a7168b3db9435d70e2c5ca5eb41fc8ef2">HandleBattlefieldTimer</a>,  <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a6a04b5fbbc52adb152bfb45b600db102">SEC_ADMINISTRATOR</a>, Console::No },</div>
+<div class="line"><span class="lineno">   44</span>            { <span class="stringliteral">&quot;enable&quot;</span>, <a class="code hl_function" href="../../d3/de2/classbf__commandscript.html#a08dd3bdd279c760fe0f126200a01619e">HandleBattlefieldEnable</a>, <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a6a04b5fbbc52adb152bfb45b600db102">SEC_ADMINISTRATOR</a>, Console::No }</div>
+<div class="line"><span class="lineno">   45</span>        };</div>
+<div class="line"><span class="lineno">   46</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">ChatCommandTable</a> commandTable =</div>
+<div class="line"><span class="lineno">   47</span>        {</div>
+<div class="line"><span class="lineno">   48</span>            { <span class="stringliteral">&quot;bf&quot;</span>, battlefieldcommandTable }</div>
+<div class="line"><span class="lineno">   49</span>        };</div>
+<div class="line"><span class="lineno">   50</span>        <span class="keywordflow">return</span> commandTable;</div>
+<div class="line"><span class="lineno">   51</span>    }</div>
+<div class="ttc" id="a_common_8h_html_adaa1cabfe05f8df3c272bdcfd89cdac7a6a04b5fbbc52adb152bfb45b600db102"><div class="ttname"><a href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a6a04b5fbbc52adb152bfb45b600db102">SEC_ADMINISTRATOR</a></div><div class="ttdeci">@ SEC_ADMINISTRATOR</div><div class="ttdef"><b>Definition:</b> Common.h:69</div></div>
+<div class="ttc" id="aclassbf__commandscript_html_a08dd3bdd279c760fe0f126200a01619e"><div class="ttname"><a href="../../d3/de2/classbf__commandscript.html#a08dd3bdd279c760fe0f126200a01619e">bf_commandscript::HandleBattlefieldEnable</a></div><div class="ttdeci">static bool HandleBattlefieldEnable(ChatHandler *handler, uint32 battleId)</div><div class="ttdef"><b>Definition:</b> cs_bf.cpp:83</div></div>
+<div class="ttc" id="aclassbf__commandscript_html_a55102cc3b29a3ded0832ec82be1e3a5e"><div class="ttname"><a href="../../d3/de2/classbf__commandscript.html#a55102cc3b29a3ded0832ec82be1e3a5e">bf_commandscript::HandleBattlefieldStart</a></div><div class="ttdeci">static bool HandleBattlefieldStart(ChatHandler *handler, uint32 battleId)</div><div class="ttdef"><b>Definition:</b> cs_bf.cpp:53</div></div>
+<div class="ttc" id="aclassbf__commandscript_html_a7168b3db9435d70e2c5ca5eb41fc8ef2"><div class="ttname"><a href="../../d3/de2/classbf__commandscript.html#a7168b3db9435d70e2c5ca5eb41fc8ef2">bf_commandscript::HandleBattlefieldTimer</a></div><div class="ttdeci">static bool HandleBattlefieldTimer(ChatHandler *handler, uint32 battleId, std::string timeStr)</div><div class="ttdef"><b>Definition:</b> cs_bf.cpp:120</div></div>
+<div class="ttc" id="aclassbf__commandscript_html_ac12cac377007d90b25b9797f2b2cc8de"><div class="ttname"><a href="../../d3/de2/classbf__commandscript.html#ac12cac377007d90b25b9797f2b2cc8de">bf_commandscript::HandleBattlefieldSwitch</a></div><div class="ttdeci">static bool HandleBattlefieldSwitch(ChatHandler *handler, uint32 battleId)</div><div class="ttdef"><b>Definition:</b> cs_bf.cpp:106</div></div>
+<div class="ttc" id="aclassbf__commandscript_html_af7100032ad26a66fbc9d9b37d1da98e1"><div class="ttname"><a href="../../d3/de2/classbf__commandscript.html#af7100032ad26a66fbc9d9b37d1da98e1">bf_commandscript::HandleBattlefieldEnd</a></div><div class="ttdeci">static bool HandleBattlefieldEnd(ChatHandler *handler, uint32 battleId)</div><div class="ttdef"><b>Definition:</b> cs_bf.cpp:68</div></div>
+<div class="ttc" id="anamespace_acore_1_1_chat_commands_html_a7aa1549a95f760a19b9b7ffd8e669626"><div class="ttname"><a href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">Acore::ChatCommands::ChatCommandTable</a></div><div class="ttdeci">std::vector&lt; ChatCommandBuilder &gt; ChatCommandTable</div><div class="ttdef"><b>Definition:</b> ChatCommand.h:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a08dd3bdd279c760fe0f126200a01619e" name="a08dd3bdd279c760fe0f126200a01619e"></a>
@@ -252,7 +277,33 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   84</span>    {</div>
+<div class="line"><span class="lineno">   85</span>        <a class="code hl_class" href="../../d3/d42/class_battlefield.html">Battlefield</a>* bf = <a class="code hl_define" href="../../dc/df4/_battlefield_mgr_8h.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldByBattleId(battleId);</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>        <span class="keywordflow">if</span> (!bf)</div>
+<div class="line"><span class="lineno">   88</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   89</span> </div>
+<div class="line"><span class="lineno">   90</span>        <span class="keywordflow">if</span> (bf-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#aee7e2f5a3c28facecae318575f54fca0">IsEnabled</a>())</div>
+<div class="line"><span class="lineno">   91</span>        {</div>
+<div class="line"><span class="lineno">   92</span>            bf-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#ac61a83d36bfb7e6505fa2584139763d1">ToggleBattlefield</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">   93</span>            <span class="keywordflow">if</span> (battleId == 1)</div>
+<div class="line"><span class="lineno">   94</span>                handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a5886fc7866ef80ae4c66f176c8c3cc43">SendGlobalGMSysMessage</a>(<span class="stringliteral">&quot;Wintergrasp is disabled&quot;</span>);</div>
+<div class="line"><span class="lineno">   95</span>        }</div>
+<div class="line"><span class="lineno">   96</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   97</span>        {</div>
+<div class="line"><span class="lineno">   98</span>            bf-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#ac61a83d36bfb7e6505fa2584139763d1">ToggleBattlefield</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   99</span>            <span class="keywordflow">if</span> (battleId == 1)</div>
+<div class="line"><span class="lineno">  100</span>                handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a5886fc7866ef80ae4c66f176c8c3cc43">SendGlobalGMSysMessage</a>(<span class="stringliteral">&quot;Wintergrasp is enabled&quot;</span>);</div>
+<div class="line"><span class="lineno">  101</span>        }</div>
+<div class="line"><span class="lineno">  102</span> </div>
+<div class="line"><span class="lineno">  103</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  104</span>    }</div>
+<div class="ttc" id="a_battlefield_mgr_8h_html_a4545b2a440043037e8dad52c0f644f48"><div class="ttname"><a href="../../dc/df4/_battlefield_mgr_8h.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a></div><div class="ttdeci">#define sBattlefieldMgr</div><div class="ttdef"><b>Definition:</b> BattlefieldMgr.h:77</div></div>
+<div class="ttc" id="aclass_battlefield_html"><div class="ttname"><a href="../../d3/d42/class_battlefield.html">Battlefield</a></div><div class="ttdef"><b>Definition:</b> Battlefield.h:205</div></div>
+<div class="ttc" id="aclass_battlefield_html_ac61a83d36bfb7e6505fa2584139763d1"><div class="ttname"><a href="../../d3/d42/class_battlefield.html#ac61a83d36bfb7e6505fa2584139763d1">Battlefield::ToggleBattlefield</a></div><div class="ttdeci">void ToggleBattlefield(bool enable)</div><div class="ttdoc">Enable or Disable battlefield.</div><div class="ttdef"><b>Definition:</b> Battlefield.h:251</div></div>
+<div class="ttc" id="aclass_battlefield_html_aee7e2f5a3c28facecae318575f54fca0"><div class="ttname"><a href="../../d3/d42/class_battlefield.html#aee7e2f5a3c28facecae318575f54fca0">Battlefield::IsEnabled</a></div><div class="ttdeci">bool IsEnabled()</div><div class="ttdoc">Return if battlefield is enable.</div><div class="ttdef"><b>Definition:</b> Battlefield.h:253</div></div>
+<div class="ttc" id="aclass_chat_handler_html_a5886fc7866ef80ae4c66f176c8c3cc43"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#a5886fc7866ef80ae4c66f176c8c3cc43">ChatHandler::SendGlobalGMSysMessage</a></div><div class="ttdeci">void SendGlobalGMSysMessage(const char *str)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:139</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af7100032ad26a66fbc9d9b37d1da98e1" name="af7100032ad26a66fbc9d9b37d1da98e1"></a>
@@ -288,7 +339,21 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   69</span>    {</div>
+<div class="line"><span class="lineno">   70</span>        <a class="code hl_class" href="../../d3/d42/class_battlefield.html">Battlefield</a>* bf = <a class="code hl_define" href="../../dc/df4/_battlefield_mgr_8h.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldByBattleId(battleId);</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>        <span class="keywordflow">if</span> (!bf)</div>
+<div class="line"><span class="lineno">   73</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   74</span> </div>
+<div class="line"><span class="lineno">   75</span>        bf-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a37273312df76cae483824bb433d0b7d9">EndBattle</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   76</span> </div>
+<div class="line"><span class="lineno">   77</span>        <span class="keywordflow">if</span> (battleId == 1)</div>
+<div class="line"><span class="lineno">   78</span>            handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a5886fc7866ef80ae4c66f176c8c3cc43">SendGlobalGMSysMessage</a>(<span class="stringliteral">&quot;Wintergrasp (Command stop used)&quot;</span>);</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   81</span>    }</div>
+<div class="ttc" id="aclass_battlefield_html_a37273312df76cae483824bb433d0b7d9"><div class="ttname"><a href="../../d3/d42/class_battlefield.html#a37273312df76cae483824bb433d0b7d9">Battlefield::EndBattle</a></div><div class="ttdeci">void EndBattle(bool endByTimer)</div><div class="ttdef"><b>Definition:</b> Battlefield.cpp:352</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a55102cc3b29a3ded0832ec82be1e3a5e" name="a55102cc3b29a3ded0832ec82be1e3a5e"></a>
@@ -324,7 +389,21 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   54</span>    {</div>
+<div class="line"><span class="lineno">   55</span>        <a class="code hl_class" href="../../d3/d42/class_battlefield.html">Battlefield</a>* bf = <a class="code hl_define" href="../../dc/df4/_battlefield_mgr_8h.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldByBattleId(battleId);</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>        <span class="keywordflow">if</span> (!bf)</div>
+<div class="line"><span class="lineno">   58</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   59</span> </div>
+<div class="line"><span class="lineno">   60</span>        bf-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a740e22ee66149876955d9fe592a6e56a">StartBattle</a>();</div>
+<div class="line"><span class="lineno">   61</span> </div>
+<div class="line"><span class="lineno">   62</span>        <span class="keywordflow">if</span> (battleId == 1)</div>
+<div class="line"><span class="lineno">   63</span>            handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a5886fc7866ef80ae4c66f176c8c3cc43">SendGlobalGMSysMessage</a>(<span class="stringliteral">&quot;Wintergrasp (Command start used)&quot;</span>);</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   66</span>    }</div>
+<div class="ttc" id="aclass_battlefield_html_a740e22ee66149876955d9fe592a6e56a"><div class="ttname"><a href="../../d3/d42/class_battlefield.html#a740e22ee66149876955d9fe592a6e56a">Battlefield::StartBattle</a></div><div class="ttdeci">void StartBattle()</div><div class="ttdef"><b>Definition:</b> Battlefield.cpp:330</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac12cac377007d90b25b9797f2b2cc8de" name="ac12cac377007d90b25b9797f2b2cc8de"></a>
@@ -360,7 +439,19 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  107</span>    {</div>
+<div class="line"><span class="lineno">  108</span>        <a class="code hl_class" href="../../d3/d42/class_battlefield.html">Battlefield</a>* bf = <a class="code hl_define" href="../../dc/df4/_battlefield_mgr_8h.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldByBattleId(battleId);</div>
+<div class="line"><span class="lineno">  109</span> </div>
+<div class="line"><span class="lineno">  110</span>        <span class="keywordflow">if</span> (!bf)</div>
+<div class="line"><span class="lineno">  111</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  112</span> </div>
+<div class="line"><span class="lineno">  113</span>        bf-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a37273312df76cae483824bb433d0b7d9">EndBattle</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  114</span>        <span class="keywordflow">if</span> (battleId == 1)</div>
+<div class="line"><span class="lineno">  115</span>            handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a5886fc7866ef80ae4c66f176c8c3cc43">SendGlobalGMSysMessage</a>(<span class="stringliteral">&quot;Wintergrasp (Command switch used)&quot;</span>);</div>
+<div class="line"><span class="lineno">  116</span> </div>
+<div class="line"><span class="lineno">  117</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  118</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7168b3db9435d70e2c5ca5eb41fc8ef2" name="a7168b3db9435d70e2c5ca5eb41fc8ef2"></a>
@@ -402,11 +493,57 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  121</span>    {</div>
+<div class="line"><span class="lineno">  122</span>        <span class="keywordflow">if</span> (timeStr.empty())</div>
+<div class="line"><span class="lineno">  123</span>        {</div>
+<div class="line"><span class="lineno">  124</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  125</span>        }</div>
+<div class="line"><span class="lineno">  126</span> </div>
+<div class="line"><span class="lineno">  127</span>        <span class="keywordflow">if</span> (Acore::StringTo&lt;int32&gt;(timeStr).value_or(0) &lt; 0)</div>
+<div class="line"><span class="lineno">  128</span>        {</div>
+<div class="line"><span class="lineno">  129</span>            handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaba84876eafcef3a821f7a2a52fd3497e">LANG_BAD_VALUE</a>);</div>
+<div class="line"><span class="lineno">  130</span>            handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#aaabf84568161763e66bf375c14f100c5">SetSentErrorMessage</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  131</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  132</span>        }</div>
+<div class="line"><span class="lineno">  133</span> </div>
+<div class="line"><span class="lineno">  134</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> time = <a class="code hl_function" href="../../db/d35/_util_8cpp.html#a6afbc7b52fa1fe844f66ffcf8230ff93">TimeStringToSecs</a>(timeStr);</div>
+<div class="line"><span class="lineno">  135</span>        <span class="keywordflow">if</span> (time &lt;= 0)</div>
+<div class="line"><span class="lineno">  136</span>        {</div>
+<div class="line"><span class="lineno">  137</span>            time = Acore::StringTo&lt;int32&gt;(timeStr).value_or(0);</div>
+<div class="line"><span class="lineno">  138</span>        }</div>
+<div class="line"><span class="lineno">  139</span> </div>
+<div class="line"><span class="lineno">  140</span>        <span class="keywordflow">if</span> (time &lt;= 0)</div>
+<div class="line"><span class="lineno">  141</span>        {</div>
+<div class="line"><span class="lineno">  142</span>            handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaba84876eafcef3a821f7a2a52fd3497e">LANG_BAD_VALUE</a>);</div>
+<div class="line"><span class="lineno">  143</span>            handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#aaabf84568161763e66bf375c14f100c5">SetSentErrorMessage</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  144</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  145</span>        }</div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>        <a class="code hl_class" href="../../d3/d42/class_battlefield.html">Battlefield</a>* bf = <a class="code hl_define" href="../../dc/df4/_battlefield_mgr_8h.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldByBattleId(battleId);</div>
+<div class="line"><span class="lineno">  148</span> </div>
+<div class="line"><span class="lineno">  149</span>        <span class="keywordflow">if</span> (!bf)</div>
+<div class="line"><span class="lineno">  150</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  151</span> </div>
+<div class="line"><span class="lineno">  152</span>        bf-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a26fe6cf5ff329608506a3ee390f407cb">SetTimer</a>(time * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">  153</span>        bf-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a3465aabf6b7ee665df523c59b05bed68">SendInitWorldStatesToAll</a>();</div>
+<div class="line"><span class="lineno">  154</span>        <span class="keywordflow">if</span> (battleId == 1)</div>
+<div class="line"><span class="lineno">  155</span>            handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a5886fc7866ef80ae4c66f176c8c3cc43">SendGlobalGMSysMessage</a>(<span class="stringliteral">&quot;Wintergrasp (Command timer used)&quot;</span>);</div>
+<div class="line"><span class="lineno">  156</span> </div>
+<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  158</span>    }</div>
+<div class="ttc" id="a_common_8h_html_a84190f79c8167211609f67284e066c58"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></div><div class="ttdeci">constexpr auto IN_MILLISECONDS</div><div class="ttdef"><b>Definition:</b> Common.h:62</div></div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_language_8h_html_af9ee42b1cf006ecb2d2e74fe71c0761aaba84876eafcef3a821f7a2a52fd3497e"><div class="ttname"><a href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaba84876eafcef3a821f7a2a52fd3497e">LANG_BAD_VALUE</a></div><div class="ttdeci">@ LANG_BAD_VALUE</div><div class="ttdef"><b>Definition:</b> Language.h:147</div></div>
+<div class="ttc" id="a_util_8cpp_html_a6afbc7b52fa1fe844f66ffcf8230ff93"><div class="ttname"><a href="../../db/d35/_util_8cpp.html#a6afbc7b52fa1fe844f66ffcf8230ff93">TimeStringToSecs</a></div><div class="ttdeci">uint32 TimeStringToSecs(const std::string &amp;timestring)</div><div class="ttdef"><b>Definition:</b> Util.cpp:164</div></div>
+<div class="ttc" id="aclass_battlefield_html_a26fe6cf5ff329608506a3ee390f407cb"><div class="ttname"><a href="../../d3/d42/class_battlefield.html#a26fe6cf5ff329608506a3ee390f407cb">Battlefield::SetTimer</a></div><div class="ttdeci">void SetTimer(uint32 timer)</div><div class="ttdef"><b>Definition:</b> Battlefield.h:354</div></div>
+<div class="ttc" id="aclass_battlefield_html_a3465aabf6b7ee665df523c59b05bed68"><div class="ttname"><a href="../../d3/d42/class_battlefield.html#a3465aabf6b7ee665df523c59b05bed68">Battlefield::SendInitWorldStatesToAll</a></div><div class="ttdeci">virtual void SendInitWorldStatesToAll()=0</div><div class="ttdoc">Send all worldstate data to all player in zone.</div></div>
+<div class="ttc" id="aclass_chat_handler_html_aaabf84568161763e66bf375c14f100c5"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#aaabf84568161763e66bf375c14f100c5">ChatHandler::SetSentErrorMessage</a></div><div class="ttdeci">void SetSentErrorMessage(bool val)</div><div class="ttdef"><b>Definition:</b> Chat.h:118</div></div>
+<div class="ttc" id="aclass_chat_handler_html_ac1ed346507097817b3f8e00f0ae657a0"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">ChatHandler::SendSysMessage</a></div><div class="ttdeci">virtual void SendSysMessage(std::string_view str, bool escapeCharacters=false)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:103</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Commands/<a class="el" href="../../d4/d49/cs__bf_8cpp.html">cs_bf.cpp</a></li>
+<li><a class="el" href="../../">cs_bf.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -414,7 +551,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/de2/classbf__commandscript.html">bf_commandscript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:38 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

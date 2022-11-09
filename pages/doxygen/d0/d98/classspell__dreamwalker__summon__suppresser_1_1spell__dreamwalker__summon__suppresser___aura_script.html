@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a293ee8ed5d8460faef42cc5871ea96e7" name="a293ee8ed5d8460faef42cc5871ea96e7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a293ee8ed5d8460faef42cc5871ea96e7">&#9670;&#160;</a></span>PeriodicTick()</h2>
 
@@ -326,7 +327,41 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1375</span>        {</div>
+<div class="line"><span class="lineno"> 1376</span>            <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">PreventDefaultAction</a>();</div>
+<div class="line"><span class="lineno"> 1377</span>            <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>();</div>
+<div class="line"><span class="lineno"> 1378</span>            <span class="keywordflow">if</span> (!caster)</div>
+<div class="line"><span class="lineno"> 1379</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1380</span> </div>
+<div class="line"><span class="lineno"> 1381</span>            std::list&lt;Creature*&gt; summoners;</div>
+<div class="line"><span class="lineno"> 1382</span>            caster-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa95da5ea65fa0d7f7cd74c11b70b1ed2">GetCreaturesWithEntryInRange</a>(summoners, 200.0f, <a class="code hl_enumvalue" href="../../da/de8/trial__of__the__crusader_8h.html#a6986ec7b2d3274669934af9795f26d5ca2de54d34271fcadd2d72ee13d7e0ce48">NPC_WORLD_TRIGGER</a>);</div>
+<div class="line"><span class="lineno"> 1383</span>            std::list&lt;Creature*&gt; list_copy = summoners;</div>
+<div class="line"><span class="lineno"> 1384</span>            summoners.remove_if(<a class="code hl_class" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html">Acore::UnitAuraCheck</a>(<span class="keyword">true</span>, <a class="code hl_enumvalue" href="../../d6/d1a/boss__valithria__dreamwalker_8cpp.html#a5bd342133be8c2137b831460acc9298ca8743fced78474c945d4d5b6cfd08137a">SPELL_RECENTLY_SPAWNED</a>));</div>
+<div class="line"><span class="lineno"> 1385</span>            <span class="keywordflow">if</span> (summoners.empty())</div>
+<div class="line"><span class="lineno"> 1386</span>            {</div>
+<div class="line"><span class="lineno"> 1387</span>                <span class="keywordflow">if</span> (list_copy.empty())</div>
+<div class="line"><span class="lineno"> 1388</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1389</span>                summoners = list_copy;</div>
+<div class="line"><span class="lineno"> 1390</span>            }</div>
+<div class="line"><span class="lineno"> 1391</span>            <a class="code hl_function" href="../../d0/df6/namespace_acore_1_1_containers.html#ad8b2c621f5a22f8ae253a1c9733794b9">Acore::Containers::RandomResize</a>(summoners, 2);</div>
+<div class="line"><span class="lineno"> 1392</span> </div>
+<div class="line"><span class="lineno"> 1393</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; 3; ++i)</div>
+<div class="line"><span class="lineno"> 1394</span>                caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(summoners.front(), <a class="code hl_enumvalue" href="../../d6/d1a/boss__valithria__dreamwalker_8cpp.html#a5bd342133be8c2137b831460acc9298ca3c7fa37c76c0fe94e8b68d28a7977246">SPELL_SUMMON_SUPPRESSER</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1395</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; 3; ++i)</div>
+<div class="line"><span class="lineno"> 1396</span>                caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(summoners.back(), <a class="code hl_enumvalue" href="../../d6/d1a/boss__valithria__dreamwalker_8cpp.html#a5bd342133be8c2137b831460acc9298ca3c7fa37c76c0fe94e8b68d28a7977246">SPELL_SUMMON_SUPPRESSER</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1397</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aboss__valithria__dreamwalker_8cpp_html_a5bd342133be8c2137b831460acc9298ca3c7fa37c76c0fe94e8b68d28a7977246"><div class="ttname"><a href="../../d6/d1a/boss__valithria__dreamwalker_8cpp.html#a5bd342133be8c2137b831460acc9298ca3c7fa37c76c0fe94e8b68d28a7977246">SPELL_SUMMON_SUPPRESSER</a></div><div class="ttdeci">@ SPELL_SUMMON_SUPPRESSER</div><div class="ttdef"><b>Definition:</b> boss_valithria_dreamwalker.cpp:69</div></div>
+<div class="ttc" id="aboss__valithria__dreamwalker_8cpp_html_a5bd342133be8c2137b831460acc9298ca8743fced78474c945d4d5b6cfd08137a"><div class="ttname"><a href="../../d6/d1a/boss__valithria__dreamwalker_8cpp.html#a5bd342133be8c2137b831460acc9298ca8743fced78474c945d4d5b6cfd08137a">SPELL_RECENTLY_SPAWNED</a></div><div class="ttdeci">@ SPELL_RECENTLY_SPAWNED</div><div class="ttdef"><b>Definition:</b> boss_valithria_dreamwalker.cpp:70</div></div>
+<div class="ttc" id="aclass_acore_1_1_unit_aura_check_html"><div class="ttname"><a href="../../d7/d2b/class_acore_1_1_unit_aura_check.html">Acore::UnitAuraCheck</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1626</div></div>
+<div class="ttc" id="aclass_aura_script_html_a19e0ed231d33245849ef31acb0f2bca3"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">AuraScript::PreventDefaultAction</a></div><div class="ttdeci">void PreventDefaultAction()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:975</div></div>
+<div class="ttc" id="aclass_aura_script_html_a67261dcb8b5f6089bdc1a906c91d61df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">AuraScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1010</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_world_object_html_aa95da5ea65fa0d7f7cd74c11b70b1ed2"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa95da5ea65fa0d7f7cd74c11b70b1ed2">WorldObject::GetCreaturesWithEntryInRange</a></div><div class="ttdeci">void GetCreaturesWithEntryInRange(std::list&lt; Creature * &gt; &amp;creatureList, float radius, uint32 entry)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2998</div></div>
+<div class="ttc" id="anamespace_acore_1_1_containers_html_ad8b2c621f5a22f8ae253a1c9733794b9"><div class="ttname"><a href="../../d0/df6/namespace_acore_1_1_containers.html#ad8b2c621f5a22f8ae253a1c9733794b9">Acore::Containers::RandomResize</a></div><div class="ttdeci">void RandomResize(C &amp;container, std::size_t requestedSize)</div><div class="ttdef"><b>Definition:</b> Containers.h:81</div></div>
+<div class="ttc" id="atrial__of__the__crusader_8h_html_a6986ec7b2d3274669934af9795f26d5ca2de54d34271fcadd2d72ee13d7e0ce48"><div class="ttname"><a href="../../da/de8/trial__of__the__crusader_8h.html#a6986ec7b2d3274669934af9795f26d5ca2de54d34271fcadd2d72ee13d7e0ce48">NPC_WORLD_TRIGGER</a></div><div class="ttdeci">@ NPC_WORLD_TRIGGER</div><div class="ttdef"><b>Definition:</b> trial_of_the_crusader.h:151</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a62aff682f50ce01067c37b11bb2bd202" name="a62aff682f50ce01067c37b11bb2bd202"></a>
@@ -379,11 +414,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1400</span>        {</div>
+<div class="line"><span class="lineno"> 1401</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a>(<a class="code hl_function" href="../../d0/d98/classspell__dreamwalker__summon__suppresser_1_1spell__dreamwalker__summon__suppresser___aura_script.html#a293ee8ed5d8460faef42cc5871ea96e7">spell_dreamwalker_summon_suppresser_AuraScript::PeriodicTick</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a>);</div>
+<div class="line"><span class="lineno"> 1402</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_TRIGGER_SPELL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:86</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a63dd33eaa91292bfb53b1d9f2b0eba29"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a></div><div class="ttdeci">#define AuraEffectPeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:750</div></div>
+<div class="ttc" id="aclass_aura_script_html_a491e7fc0a1acd202b60fa1aed79a9377"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">AuraScript::OnEffectPeriodic</a></div><div class="ttdeci">HookList&lt; EffectPeriodicHandler &gt; OnEffectPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:749</div></div>
+<div class="ttc" id="aclassspell__dreamwalker__summon__suppresser_1_1spell__dreamwalker__summon__suppresser___aura_script_html_a293ee8ed5d8460faef42cc5871ea96e7"><div class="ttname"><a href="../../d0/d98/classspell__dreamwalker__summon__suppresser_1_1spell__dreamwalker__summon__suppresser___aura_script.html#a293ee8ed5d8460faef42cc5871ea96e7">spell_dreamwalker_summon_suppresser::spell_dreamwalker_summon_suppresser_AuraScript::PeriodicTick</a></div><div class="ttdeci">void PeriodicTick(AuraEffect const *)</div><div class="ttdef"><b>Definition:</b> boss_valithria_dreamwalker.cpp:1374</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../d6/d1a/boss__valithria__dreamwalker_8cpp.html">boss_valithria_dreamwalker.cpp</a></li>
+<li><a class="el" href="../../">boss_valithria_dreamwalker.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -391,7 +434,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d62/classspell__dreamwalker__summon__suppresser.html">spell_dreamwalker_summon_suppresser</a></li><li class="navelem"><a class="el" href="../../d0/d98/classspell__dreamwalker__summon__suppresser_1_1spell__dreamwalker__summon__suppresser___aura_script.html">spell_dreamwalker_summon_suppresser_AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:17 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

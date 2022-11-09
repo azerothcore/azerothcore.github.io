@@ -544,7 +544,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a7cd0b6bf7ee616d4d4e98045f7b808c0 inherit pro_methods_class_creature_a_i"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d68/class_creature_a_i.html#a7cd0b6bf7ee616d4d4e98045f7b808c0">_EnterEvadeMode</a> (<a class="el" href="../../d2/d68/class_creature_a_i.html#a48b996440be01f98686cd088857a5dbb">EvadeReason</a> why=<a class="el" href="../../d2/d68/class_creature_a_i.html#a48b996440be01f98686cd088857a5dbba0a93738d4e35efeb13a3ce07963de027">EVADE_REASON_OTHER</a>)</td></tr>
 <tr class="separator:a7cd0b6bf7ee616d4d4e98045f7b808c0 inherit pro_methods_class_creature_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2e7283078d4049ff339f29c3fdfc69cf" name="a2e7283078d4049ff339f29c3fdfc69cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e7283078d4049ff339f29c3fdfc69cf">&#9670;&#160;</a></span>boss_sothos()</h2>
 
@@ -568,7 +569,35 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  231</span>                                    : <a class="code hl_class" href="../../d4/d0e/class_boss_a_i.html">BossAI</a>(creature, <a class="code hl_enumvalue" href="../../d0/d0b/stratholme_8h.html#afb6eb4f28419b652027fad41104a6d22ae9a448021dde128c1fda57f777035af5">DATA_SOTHOS</a>)</div>
+<div class="line"><span class="lineno">  232</span>    {</div>
+<div class="line"><span class="lineno">  233</span>        <a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a5e18256858cd594b45628508500e5f1a">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#af2bb90b6b81ab1cacd9ac56c3d7e11b2">SetValidator</a>([<span class="keyword">this</span>]</div>
+<div class="line"><span class="lineno">  234</span>            {</div>
+<div class="line"><span class="lineno">  235</span>                <span class="keywordflow">return</span> !<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>);</div>
+<div class="line"><span class="lineno">  236</span>            });</div>
+<div class="line"><span class="lineno">  237</span> </div>
+<div class="line"><span class="lineno">  238</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">  239</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  240</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a30916cea4482178e6ef32ed5c0087367">SetImmuneToNPC</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  241</span>        <a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a3f3c0d0a079aad1306b638e8ff34f2f6">_talked</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  242</span>        <a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a5719cd4a85527c256fb7f048be6489f7">_phase</a> = <a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219a6b34ef8295e09ac556868d560a98812c">PHASE_TALK</a>;</div>
+<div class="line"><span class="lineno">  243</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a></div><div class="ttdeci">@ REACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1023</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NON_ATTACKABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:449</div></div>
+<div class="ttc" id="aboss__jarien__and__sothos_8cpp_html_a5d32d09cde4f13ec4fb05a824d3e3219a6b34ef8295e09ac556868d560a98812c"><div class="ttname"><a href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219a6b34ef8295e09ac556868d560a98812c">PHASE_TALK</a></div><div class="ttdeci">@ PHASE_TALK</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:61</div></div>
+<div class="ttc" id="aclass_boss_a_i_html"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html">BossAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:424</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_af2bb90b6b81ab1cacd9ac56c3d7e11b2"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#af2bb90b6b81ab1cacd9ac56c3d7e11b2">TaskScheduler::SetValidator</a></div><div class="ttdeci">TaskScheduler &amp; SetValidator(P &amp;&amp;predicate)</div><div class="ttdoc">Sets a validator which is asked if tasks are allowed to be executed.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:182</div></div>
+<div class="ttc" id="aclass_unit_html_a30916cea4482178e6ef32ed5c0087367"><div class="ttname"><a href="../../da/db7/class_unit.html#a30916cea4482178e6ef32ed5c0087367">Unit::SetImmuneToNPC</a></div><div class="ttdeci">void SetImmuneToNPC(bool apply, bool keepCombat=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:13520</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="aclass_unit_html_ad9f2d48b20f62e17abf5c1892cebe296"><div class="ttname"><a href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">Unit::SetUnitFlag</a></div><div class="ttdeci">void SetUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1479</div></div>
+<div class="ttc" id="astratholme_8h_html_afb6eb4f28419b652027fad41104a6d22ae9a448021dde128c1fda57f777035af5"><div class="ttname"><a href="../../d0/d0b/stratholme_8h.html#afb6eb4f28419b652027fad41104a6d22ae9a448021dde128c1fda57f777035af5">DATA_SOTHOS</a></div><div class="ttdeci">@ DATA_SOTHOS</div><div class="ttdef"><b>Definition:</b> stratholme.h:37</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructboss__sothos_html_a3f3c0d0a079aad1306b638e8ff34f2f6"><div class="ttname"><a href="../../d9/d8b/structboss__sothos.html#a3f3c0d0a079aad1306b638e8ff34f2f6">boss_sothos::_talked</a></div><div class="ttdeci">bool _talked</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:356</div></div>
+<div class="ttc" id="astructboss__sothos_html_a5719cd4a85527c256fb7f048be6489f7"><div class="ttname"><a href="../../d9/d8b/structboss__sothos.html#a5719cd4a85527c256fb7f048be6489f7">boss_sothos::_phase</a></div><div class="ttdeci">uint8 _phase</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:355</div></div>
+<div class="ttc" id="astructboss__sothos_html_a5e18256858cd594b45628508500e5f1a"><div class="ttname"><a href="../../d9/d8b/structboss__sothos.html#a5e18256858cd594b45628508500e5f1a">boss_sothos::_scheduler</a></div><div class="ttdeci">TaskScheduler _scheduler</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:354</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -597,7 +626,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  297</span>    {</div>
+<div class="line"><span class="lineno">  298</span>        <span class="keywordflow">if</span> (action == <a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a250372292659bed7ae290d8621f88ccfa9596c5f6c482ca54060d713f650093cd">ACTION_PARTNER_DEAD</a>)</div>
+<div class="line"><span class="lineno">  299</span>        {</div>
+<div class="line"><span class="lineno">  300</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1d52e887c40e087252647958a47e933c">SetFullHealth</a>();</div>
+<div class="line"><span class="lineno">  301</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5bd342133be8c2137b831460acc9298ca1a7799016b55afde2db1b879d1a71ad9">SPELL_VENGEANCE</a>);</div>
+<div class="line"><span class="lineno">  302</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* jarien = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d0/d0b/stratholme_8h.html#a92f6fd626e1834a4cc509efc1186963ea5d14adc524200bcbc5b0f9fdc267ba12">NPC_JARIEN</a>, 200.f, <span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno">  303</span>            {</div>
+<div class="line"><span class="lineno">  304</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a5ef6bbd7b3f5a733eb7dd739b3574022">EMOTE_SOTHOS_VENGEANCE</a>, jarien);</div>
+<div class="line"><span class="lineno">  305</span>            }</div>
+<div class="line"><span class="lineno">  306</span>            <a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a74725d8a4b3ce9fbfb9f06868fa02055">_jarienDied</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  307</span>        }</div>
+<div class="line"><span class="lineno">  308</span>    }</div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__jarien__and__sothos_8cpp_html_a250372292659bed7ae290d8621f88ccfa9596c5f6c482ca54060d713f650093cd"><div class="ttname"><a href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a250372292659bed7ae290d8621f88ccfa9596c5f6c482ca54060d713f650093cd">ACTION_PARTNER_DEAD</a></div><div class="ttdeci">@ ACTION_PARTNER_DEAD</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:67</div></div>
+<div class="ttc" id="aboss__jarien__and__sothos_8cpp_html_a5bd342133be8c2137b831460acc9298ca1a7799016b55afde2db1b879d1a71ad9"><div class="ttname"><a href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5bd342133be8c2137b831460acc9298ca1a7799016b55afde2db1b879d1a71ad9">SPELL_VENGEANCE</a></div><div class="ttdeci">@ SPELL_VENGEANCE</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:56</div></div>
+<div class="ttc" id="aboss__jarien__and__sothos_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a5ef6bbd7b3f5a733eb7dd739b3574022"><div class="ttname"><a href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a5ef6bbd7b3f5a733eb7dd739b3574022">EMOTE_SOTHOS_VENGEANCE</a></div><div class="ttdeci">@ EMOTE_SOTHOS_VENGEANCE</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:28</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6ae5c7d15b747433f4d94f80bcebd215"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">UnitAI::DoCastSelf</a></div><div class="ttdeci">SpellCastResult DoCastSelf(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:323</div></div>
+<div class="ttc" id="aclass_unit_html_a1d52e887c40e087252647958a47e933c"><div class="ttname"><a href="../../da/db7/class_unit.html#a1d52e887c40e087252647958a47e933c">Unit::SetFullHealth</a></div><div class="ttdeci">void SetFullHealth()</div><div class="ttdef"><b>Definition:</b> Unit.h:1453</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="astratholme_8h_html_a92f6fd626e1834a4cc509efc1186963ea5d14adc524200bcbc5b0f9fdc267ba12"><div class="ttname"><a href="../../d0/d0b/stratholme_8h.html#a92f6fd626e1834a4cc509efc1186963ea5d14adc524200bcbc5b0f9fdc267ba12">NPC_JARIEN</a></div><div class="ttdeci">@ NPC_JARIEN</div><div class="ttdef"><b>Definition:</b> stratholme.h:52</div></div>
+<div class="ttc" id="astructboss__sothos_html_a74725d8a4b3ce9fbfb9f06868fa02055"><div class="ttname"><a href="../../d9/d8b/structboss__sothos.html#a74725d8a4b3ce9fbfb9f06868fa02055">boss_sothos::_jarienDied</a></div><div class="ttdeci">bool _jarienDied</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:357</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9ea0cedade429b6bba52721b1f285ece" name="a9ea0cedade429b6bba52721b1f285ece"></a>
@@ -625,7 +676,47 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a2f3d2c15114cff26b92dedd45dff0905">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  311</span>    {</div>
+<div class="line"><span class="lineno">  312</span>        <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">_EnterCombat</a>();</div>
+<div class="line"><span class="lineno">  313</span>        <a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a5e18256858cd594b45628508500e5f1a">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(10s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  314</span>            {</div>
+<div class="line"><span class="lineno">  315</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5bd342133be8c2137b831460acc9298ca5a0d904d66dec096d1d013333b118f88">SPELL_FEAR</a>);</div>
+<div class="line"><span class="lineno">  316</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(18s, 20s);</div>
+<div class="line"><span class="lineno">  317</span>            })</div>
+<div class="line"><span class="lineno">  318</span>        .Schedule(9s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  319</span>            {</div>
+<div class="line"><span class="lineno">  320</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5bd342133be8c2137b831460acc9298ca8872edea8a2ac8c4e895c975482b9413">SPELL_SHADOW_BOLT</a>);</div>
+<div class="line"><span class="lineno">  321</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(10s, 11s);</div>
+<div class="line"><span class="lineno">  322</span>            })</div>
+<div class="line"><span class="lineno">  323</span>        .Schedule(15s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  324</span>            {</div>
+<div class="line"><span class="lineno">  325</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ab0dadfc6e68d67b01c1156e8439fe0f8">DoCastRandomTarget</a>(<a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5bd342133be8c2137b831460acc9298ca87e97c72d7c0b8816b9ff97ee3f715d3">SPELL_SHIELD_CHARGE</a>);</div>
+<div class="line"><span class="lineno">  326</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>();</div>
+<div class="line"><span class="lineno">  327</span>            })</div>
+<div class="line"><span class="lineno">  328</span>        .Schedule(3s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  329</span>            {</div>
+<div class="line"><span class="lineno">  330</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5bd342133be8c2137b831460acc9298cade43966ce83ffaeeac0b9ab8ce3a86ff">SPELL_SHIELD_BLOCK</a>);</div>
+<div class="line"><span class="lineno">  331</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(10s, 12s);</div>
+<div class="line"><span class="lineno">  332</span>            })</div>
+<div class="line"><span class="lineno">  333</span>        .Schedule(4s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  334</span>            {</div>
+<div class="line"><span class="lineno">  335</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5bd342133be8c2137b831460acc9298cac4c6a55dc540f5e9df4db71c3fd594d7">SPELL_SHIELD_SLAM</a>);</div>
+<div class="line"><span class="lineno">  336</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(14s);</div>
+<div class="line"><span class="lineno">  337</span>            });</div>
+<div class="line"><span class="lineno">  338</span>    }</div>
+<div class="ttc" id="aboss__jarien__and__sothos_8cpp_html_a5bd342133be8c2137b831460acc9298ca5a0d904d66dec096d1d013333b118f88"><div class="ttname"><a href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5bd342133be8c2137b831460acc9298ca5a0d904d66dec096d1d013333b118f88">SPELL_FEAR</a></div><div class="ttdeci">@ SPELL_FEAR</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:53</div></div>
+<div class="ttc" id="aboss__jarien__and__sothos_8cpp_html_a5bd342133be8c2137b831460acc9298ca87e97c72d7c0b8816b9ff97ee3f715d3"><div class="ttname"><a href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5bd342133be8c2137b831460acc9298ca87e97c72d7c0b8816b9ff97ee3f715d3">SPELL_SHIELD_CHARGE</a></div><div class="ttdeci">@ SPELL_SHIELD_CHARGE</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:49</div></div>
+<div class="ttc" id="aboss__jarien__and__sothos_8cpp_html_a5bd342133be8c2137b831460acc9298ca8872edea8a2ac8c4e895c975482b9413"><div class="ttname"><a href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5bd342133be8c2137b831460acc9298ca8872edea8a2ac8c4e895c975482b9413">SPELL_SHADOW_BOLT</a></div><div class="ttdeci">@ SPELL_SHADOW_BOLT</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:52</div></div>
+<div class="ttc" id="aboss__jarien__and__sothos_8cpp_html_a5bd342133be8c2137b831460acc9298cac4c6a55dc540f5e9df4db71c3fd594d7"><div class="ttname"><a href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5bd342133be8c2137b831460acc9298cac4c6a55dc540f5e9df4db71c3fd594d7">SPELL_SHIELD_SLAM</a></div><div class="ttdeci">@ SPELL_SHIELD_SLAM</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:50</div></div>
+<div class="ttc" id="aboss__jarien__and__sothos_8cpp_html_a5bd342133be8c2137b831460acc9298cade43966ce83ffaeeac0b9ab8ce3a86ff"><div class="ttname"><a href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5bd342133be8c2137b831460acc9298cade43966ce83ffaeeac0b9ab8ce3a86ff">SPELL_SHIELD_BLOCK</a></div><div class="ttdeci">@ SPELL_SHIELD_BLOCK</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:51</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_adbdded8bea1d5cf779f2aed9bc2a4821"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">BossAI::_EnterCombat</a></div><div class="ttdeci">void _EnterCombat()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:562</div></div>
+<div class="ttc" id="aclass_task_context_html"><div class="ttname"><a href="../../d2/dd9/class_task_context.html">TaskContext</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
+<div class="ttc" id="aclass_task_context_html_a380c596857dd0030414db5e8d28a3dda"><div class="ttname"><a href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">TaskContext::Repeat</a></div><div class="ttdeci">TaskContext &amp; Repeat(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:470</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a0e0579d2a2397de5a79c756d5e59a830"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">TaskScheduler::Schedule</a></div><div class="ttdeci">TaskScheduler &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:217</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a1e37cbb75f91c247b04131afc7ce35f5"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">UnitAI::DoCastAOE</a></div><div class="ttdeci">SpellCastResult DoCastAOE(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:249</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_ab0dadfc6e68d67b01c1156e8439fe0f8"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#ab0dadfc6e68d67b01c1156e8439fe0f8">UnitAI::DoCastRandomTarget</a></div><div class="ttdeci">SpellCastResult DoCastRandomTarget(uint32 spellId, uint32 threatTablePosition=0, float dist=0.0f, bool playerOnly=true, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:257</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acc5b106d6d161be621966956461eaded" name="acc5b106d6d161be621966956461eaded"></a>
@@ -653,7 +744,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a717b3431bd49e191fc77afe0fa50d827">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  261</span>    {</div>
+<div class="line"><span class="lineno">  262</span>        <a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a5e18256858cd594b45628508500e5f1a">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(12s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> <span class="comment">/*context*/</span>)</div>
+<div class="line"><span class="lineno">  263</span>            {</div>
+<div class="line"><span class="lineno">  264</span>                <a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a3f3c0d0a079aad1306b638e8ff34f2f6">_talked</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  265</span>                <a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a5719cd4a85527c256fb7f048be6489f7">_phase</a> = <a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219a2fd171d98f13f3d0942bc91fcffd8a47">PHASE_FIGHT</a>;</div>
+<div class="line"><span class="lineno">  266</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno">  267</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  268</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a30916cea4482178e6ef32ed5c0087367">SetImmuneToNPC</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  269</span>            })</div>
+<div class="line"><span class="lineno">  270</span>        .Schedule(3s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> <span class="comment">/*context*/</span>)</div>
+<div class="line"><span class="lineno">  271</span>            {</div>
+<div class="line"><span class="lineno">  272</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a5ff4c0382e9aa8b93e504711df10bbe5">SAY_SOTHOS_ON_SUMMON_0</a>);</div>
+<div class="line"><span class="lineno">  273</span>            })</div>
+<div class="line"><span class="lineno">  274</span>        .Schedule(9s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> <span class="comment">/*context*/</span>)</div>
+<div class="line"><span class="lineno">  275</span>            {</div>
+<div class="line"><span class="lineno">  276</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a4fb05b5bb819df05d3b8ff7149f21626">SAY_SOTHOS_ON_SUMMON_1</a>);</div>
+<div class="line"><span class="lineno">  277</span>            });</div>
+<div class="line"><span class="lineno">  278</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="aboss__jarien__and__sothos_8cpp_html_a5d32d09cde4f13ec4fb05a824d3e3219a2fd171d98f13f3d0942bc91fcffd8a47"><div class="ttname"><a href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219a2fd171d98f13f3d0942bc91fcffd8a47">PHASE_FIGHT</a></div><div class="ttdeci">@ PHASE_FIGHT</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:62</div></div>
+<div class="ttc" id="aboss__jarien__and__sothos_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a4fb05b5bb819df05d3b8ff7149f21626"><div class="ttname"><a href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a4fb05b5bb819df05d3b8ff7149f21626">SAY_SOTHOS_ON_SUMMON_1</a></div><div class="ttdeci">@ SAY_SOTHOS_ON_SUMMON_1</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:27</div></div>
+<div class="ttc" id="aboss__jarien__and__sothos_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a5ff4c0382e9aa8b93e504711df10bbe5"><div class="ttname"><a href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a5ff4c0382e9aa8b93e504711df10bbe5">SAY_SOTHOS_ON_SUMMON_0</a></div><div class="ttdeci">@ SAY_SOTHOS_ON_SUMMON_0</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:26</div></div>
+<div class="ttc" id="aclass_unit_html_af9a5a43c2d7940c38f8b101409666a0d"><div class="ttname"><a href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">Unit::RemoveUnitFlag</a></div><div class="ttdeci">void RemoveUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1480</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2d634aade37ea887f6bbf4b43baf061d" name="a2d634aade37ea887f6bbf4b43baf061d"></a>
@@ -681,7 +795,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a3980e3c1e8e9992034c9ec35a8b3e298">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  281</span>    {</div>
+<div class="line"><span class="lineno">  282</span>        <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#acb0ee118bdfc7f7aef660e44b5fb18ae">_JustDied</a>();</div>
+<div class="line"><span class="lineno">  283</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* jarien = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d0/d0b/stratholme_8h.html#a92f6fd626e1834a4cc509efc1186963ea5d14adc524200bcbc5b0f9fdc267ba12">NPC_JARIEN</a>, 200.f))</div>
+<div class="line"><span class="lineno">  284</span>        {</div>
+<div class="line"><span class="lineno">  285</span>            jarien-&gt;AI()-&gt;DoAction(<a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a250372292659bed7ae290d8621f88ccfa9596c5f6c482ca54060d713f650093cd">ACTION_PARTNER_DEAD</a>);</div>
+<div class="line"><span class="lineno">  286</span>        }</div>
+<div class="line"><span class="lineno">  287</span> </div>
+<div class="line"><span class="lineno">  288</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_enumvalue" href="../../d0/d0b/stratholme_8h.html#a92f6fd626e1834a4cc509efc1186963eae31f1d099a0d746c91963f7289c49aa3">NPC_SPIRIT_OF_SOTHOS</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">GetPosition</a>());</div>
+<div class="line"><span class="lineno">  289</span> </div>
+<div class="line"><span class="lineno">  290</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a74725d8a4b3ce9fbfb9f06868fa02055">_jarienDied</a> &amp;&amp; killer)</div>
+<div class="line"><span class="lineno">  291</span>        {</div>
+<div class="line"><span class="lineno">  292</span>            <a class="code hl_function" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a4a651cf3644baf11ad0f06cafeb35b8d">HandleBothDead</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <span class="keyword">false</span>, killer);</div>
+<div class="line"><span class="lineno">  293</span>        }</div>
+<div class="line"><span class="lineno">  294</span>    }</div>
+<div class="ttc" id="aboss__jarien__and__sothos_8cpp_html_a4a651cf3644baf11ad0f06cafeb35b8d"><div class="ttname"><a href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a4a651cf3644baf11ad0f06cafeb35b8d">HandleBothDead</a></div><div class="ttdeci">void HandleBothDead(Creature *creature, bool jarien, Unit *killer)</div><div class="ttdef"><b>Definition:</b> boss_jarien_and_sothos.cpp:72</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_acb0ee118bdfc7f7aef660e44b5fb18ae"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#acb0ee118bdfc7f7aef660e44b5fb18ae">BossAI::_JustDied</a></div><div class="ttdeci">void _JustDied()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:551</div></div>
+<div class="ttc" id="aclass_world_object_html_aaf7058bd6b40bbfd38cbcd4f740c0344"><div class="ttname"><a href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">WorldObject::SummonCreature</a></div><div class="ttdeci">TempSummon * SummonCreature(uint32 id, const Position &amp;pos, TempSummonType spwtype=TEMPSUMMON_MANUAL_DESPAWN, uint32 despwtime=0, uint32 vehId=0, SummonPropertiesEntry const *properties=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2301</div></div>
+<div class="ttc" id="astratholme_8h_html_a92f6fd626e1834a4cc509efc1186963eae31f1d099a0d746c91963f7289c49aa3"><div class="ttname"><a href="../../d0/d0b/stratholme_8h.html#a92f6fd626e1834a4cc509efc1186963eae31f1d099a0d746c91963f7289c49aa3">NPC_SPIRIT_OF_SOTHOS</a></div><div class="ttdeci">@ NPC_SPIRIT_OF_SOTHOS</div><div class="ttdef"><b>Definition:</b> stratholme.h:55</div></div>
+<div class="ttc" id="astruct_position_html_ad8e55f9b39618093aa625abe3a06e1ed"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">Position::GetPosition</a></div><div class="ttdeci">void GetPosition(float &amp;x, float &amp;y) const</div><div class="ttdef"><b>Definition:</b> Position.h:122</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a042578148cae9a0b9befb7c5747a8e99" name="a042578148cae9a0b9befb7c5747a8e99"></a>
@@ -708,7 +841,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#abe75353ec3f0c86502696b8ccb059cb7">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  246</span>    {</div>
+<div class="line"><span class="lineno">  247</span>        <a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a5e18256858cd594b45628508500e5f1a">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">CancelAll</a>();</div>
+<div class="line"><span class="lineno">  248</span>        <a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a5719cd4a85527c256fb7f048be6489f7">_phase</a> = <a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a3f3c0d0a079aad1306b638e8ff34f2f6">_talked</a> ? <a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219a2fd171d98f13f3d0942bc91fcffd8a47">PHASE_FIGHT</a> : <a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219a6b34ef8295e09ac556868d560a98812c">PHASE_TALK</a>;</div>
+<div class="line"><span class="lineno">  249</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a74725d8a4b3ce9fbfb9f06868fa02055">_jarienDied</a>)</div>
+<div class="line"><span class="lineno">  250</span>        {</div>
+<div class="line"><span class="lineno">  251</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* jarien = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d0/d0b/stratholme_8h.html#a92f6fd626e1834a4cc509efc1186963ea5d14adc524200bcbc5b0f9fdc267ba12">NPC_JARIEN</a>, 200.f, <span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno">  252</span>            {</div>
+<div class="line"><span class="lineno">  253</span>                jarien-&gt;Respawn();</div>
+<div class="line"><span class="lineno">  254</span>            }</div>
+<div class="line"><span class="lineno">  255</span>        }</div>
+<div class="line"><span class="lineno">  256</span>        <a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a74725d8a4b3ce9fbfb9f06868fa02055">_jarienDied</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  257</span>        <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#acdc89a1df0e62952becf83d9e1bd6299">_Reset</a>();</div>
+<div class="line"><span class="lineno">  258</span>    }</div>
+<div class="ttc" id="aclass_boss_a_i_html_acdc89a1df0e62952becf83d9e1bd6299"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#acdc89a1df0e62952becf83d9e1bd6299">BossAI::_Reset</a></div><div class="ttdeci">void _Reset()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:539</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a05da7a474b80d725c991dde9d24df4a4"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">TaskScheduler::CancelAll</a></div><div class="ttdeci">TaskScheduler &amp; CancelAll()</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:33</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a35e247fa9bfe00927b844af8d0ef916f" name="a35e247fa9bfe00927b844af8d0ef916f"></a>
@@ -736,7 +884,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a840cc108b3135ee19402e61d591f18d0">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  341</span>    {</div>
+<div class="line"><span class="lineno">  342</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>() &amp;&amp; <a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a5719cd4a85527c256fb7f048be6489f7">_phase</a> != <a class="code hl_enumvalue" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219a6b34ef8295e09ac556868d560a98812c">PHASE_TALK</a>)</div>
+<div class="line"><span class="lineno">  343</span>        {</div>
+<div class="line"><span class="lineno">  344</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  345</span>        }</div>
+<div class="line"><span class="lineno">  346</span> </div>
+<div class="line"><span class="lineno">  347</span>        <a class="code hl_variable" href="../../d9/d8b/structboss__sothos.html#a5e18256858cd594b45628508500e5f1a">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">Update</a>(diff, [<span class="keyword">this</span>]</div>
+<div class="line"><span class="lineno">  348</span>            {</div>
+<div class="line"><span class="lineno">  349</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  350</span>            });</div>
+<div class="line"><span class="lineno">  351</span>    }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a35c0891c7aded13c6ae7ecd2e6d480a9"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">TaskScheduler::Update</a></div><div class="ttdeci">TaskScheduler &amp; Update(success_t const &amp;callback=EmptyCallback)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:15</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -829,7 +991,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/Stratholme/<a class="el" href="../../d7/d85/boss__jarien__and__sothos_8cpp.html">boss_jarien_and_sothos.cpp</a></li>
+<li><a class="el" href="../../">boss_jarien_and_sothos.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -837,7 +999,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d8b/structboss__sothos.html">boss_sothos</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:42 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:55 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

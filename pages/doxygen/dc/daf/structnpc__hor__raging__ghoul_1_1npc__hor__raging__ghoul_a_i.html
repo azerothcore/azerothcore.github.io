@@ -489,7 +489,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac4b2b3acf8a7acda73c7158f1565a274" name="ac4b2b3acf8a7acda73c7158f1565a274"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac4b2b3acf8a7acda73c7158f1565a274">&#9670;&#160;</a></span>npc_hor_raging_ghoulAI()</h2>
 
@@ -513,7 +514,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1830</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) {}</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -542,7 +545,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1859</span>        {</div>
+<div class="line"><span class="lineno"> 1860</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#aa8a50e4ad6c377c87844b6db31c1489f">SetCorpseDelay</a>(10);</div>
+<div class="line"><span class="lineno"> 1861</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* pInstance = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno"> 1862</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* lk = pInstance-&gt;instance-&gt;GetCreature(pInstance-&gt;GetGuidData(<a class="code hl_enumvalue" href="../../d4/d1e/halls__of__reflection_8h.html#a25a619e6b66096a4f05d048e4a96df08a6192ce5c7f05b93952861ccc2aa47c3d">NPC_LICH_KING_BOSS</a>)))</div>
+<div class="line"><span class="lineno"> 1863</span>                    lk-&gt;AI()-&gt;DoAction(<a class="code hl_enumvalue" href="../../d4/d1e/halls__of__reflection_8h.html#a68a3aa965a19156844e14a626767467caa636c04a9bedffd46a188fe4d0e51c34">ACTION_INFORM_TRASH_DIED</a>);</div>
+<div class="line"><span class="lineno"> 1864</span>        }</div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_aa8a50e4ad6c377c87844b6db31c1489f"><div class="ttname"><a href="../../d1/dac/class_creature.html#aa8a50e4ad6c377c87844b6db31c1489f">Creature::SetCorpseDelay</a></div><div class="ttdeci">void SetCorpseDelay(uint32 delay)</div><div class="ttdef"><b>Definition:</b> Creature.h:71</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="ahalls__of__reflection_8h_html_a25a619e6b66096a4f05d048e4a96df08a6192ce5c7f05b93952861ccc2aa47c3d"><div class="ttname"><a href="../../d4/d1e/halls__of__reflection_8h.html#a25a619e6b66096a4f05d048e4a96df08a6192ce5c7f05b93952861ccc2aa47c3d">NPC_LICH_KING_BOSS</a></div><div class="ttdeci">@ NPC_LICH_KING_BOSS</div><div class="ttdef"><b>Definition:</b> halls_of_reflection.h:58</div></div>
+<div class="ttc" id="ahalls__of__reflection_8h_html_a68a3aa965a19156844e14a626767467caa636c04a9bedffd46a188fe4d0e51c34"><div class="ttname"><a href="../../d4/d1e/halls__of__reflection_8h.html#a68a3aa965a19156844e14a626767467caa636c04a9bedffd46a188fe4d0e51c34">ACTION_INFORM_TRASH_DIED</a></div><div class="ttdeci">@ ACTION_INFORM_TRASH_DIED</div><div class="ttdef"><b>Definition:</b> halls_of_reflection.h:220</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa52576d94e230797209dfc938d62187f" name="aa52576d94e230797209dfc938d62187f"></a>
@@ -569,7 +585,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1835</span>        {</div>
+<div class="line"><span class="lineno"> 1836</span>            <a class="code hl_variable" href="../../dc/daf/structnpc__hor__raging__ghoul_1_1npc__hor__raging__ghoul_a_i.html#a12f6e6d5911b2b8b9caa01a9a83570bc">leaped</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1837</span>        }</div>
+<div class="ttc" id="astructnpc__hor__raging__ghoul_1_1npc__hor__raging__ghoul_a_i_html_a12f6e6d5911b2b8b9caa01a9a83570bc"><div class="ttname"><a href="../../dc/daf/structnpc__hor__raging__ghoul_1_1npc__hor__raging__ghoul_a_i.html#a12f6e6d5911b2b8b9caa01a9a83570bc">npc_hor_raging_ghoul::npc_hor_raging_ghoulAI::leaped</a></div><div class="ttdeci">bool leaped</div><div class="ttdef"><b>Definition:</b> halls_of_reflection.cpp:1832</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac7c8571eac32f722a5fb0c28092b7e8f" name="ac7c8571eac32f722a5fb0c28092b7e8f"></a>
@@ -597,7 +617,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1840</span>        {</div>
+<div class="line"><span class="lineno"> 1841</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno"> 1842</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1843</span> </div>
+<div class="line"><span class="lineno"> 1844</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>) || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a800adc27562611bcf1db8b79aec153f1">isFeared</a>() || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0679821cba7b3361497706bc348d8d32">IsCharmed</a>() || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a35a2361f5a1b719e6032f564c4f9028b">isFrozen</a>() || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106">UNIT_STATE_STUNNED</a>) || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a3d7431ccd5efc9f24766e69bf19845c0">UNIT_STATE_CONFUSED</a>))</div>
+<div class="line"><span class="lineno"> 1845</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1846</span> </div>
+<div class="line"><span class="lineno"> 1847</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/daf/structnpc__hor__raging__ghoul_1_1npc__hor__raging__ghoul_a_i.html#a12f6e6d5911b2b8b9caa01a9a83570bc">leaped</a>)</div>
+<div class="line"><span class="lineno"> 1848</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a8bcd0563ce34a4ed2336034e762ce7fb">SelectNearestPlayer</a>(30.0f))</div>
+<div class="line"><span class="lineno"> 1849</span>                {</div>
+<div class="line"><span class="lineno"> 1850</span>                    <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">AttackStart</a>(target);</div>
+<div class="line"><span class="lineno"> 1851</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, 70150, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 1852</span>                    <a class="code hl_variable" href="../../dc/daf/structnpc__hor__raging__ghoul_1_1npc__hor__raging__ghoul_a_i.html#a12f6e6d5911b2b8b9caa01a9a83570bc">leaped</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1853</span>                }</div>
+<div class="line"><span class="lineno"> 1854</span> </div>
+<div class="line"><span class="lineno"> 1855</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno"> 1856</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544a3d7431ccd5efc9f24766e69bf19845c0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a3d7431ccd5efc9f24766e69bf19845c0">UNIT_STATE_CONFUSED</a></div><div class="ttdeci">@ UNIT_STATE_CONFUSED</div><div class="ttdef"><b>Definition:</b> Unit.h:336</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106">UNIT_STATE_STUNNED</a></div><div class="ttdeci">@ UNIT_STATE_STUNNED</div><div class="ttdef"><b>Definition:</b> Unit.h:328</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a0679821cba7b3361497706bc348d8d32"><div class="ttname"><a href="../../da/db7/class_unit.html#a0679821cba7b3361497706bc348d8d32">Unit::IsCharmed</a></div><div class="ttdeci">bool IsCharmed() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1868</div></div>
+<div class="ttc" id="aclass_unit_html_a35a2361f5a1b719e6032f564c4f9028b"><div class="ttname"><a href="../../da/db7/class_unit.html#a35a2361f5a1b719e6032f564c4f9028b">Unit::isFrozen</a></div><div class="ttdeci">bool isFrozen() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:15927</div></div>
+<div class="ttc" id="aclass_unit_html_a800adc27562611bcf1db8b79aec153f1"><div class="ttname"><a href="../../da/db7/class_unit.html#a800adc27562611bcf1db8b79aec153f1">Unit::isFeared</a></div><div class="ttdeci">bool isFeared() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1705</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="aclass_world_object_html_a8bcd0563ce34a4ed2336034e762ce7fb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a8bcd0563ce34a4ed2336034e762ce7fb">WorldObject::SelectNearestPlayer</a></div><div class="ttdeci">Player * SelectNearestPlayer(float distance=0) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2419</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a4c91d8d2c1a6e8b234c1c4f15936c7a4"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI::AttackStart</a></div><div class="ttdeci">void AttackStart(Unit *) override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:206</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -616,7 +666,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/FrozenHalls/HallsOfReflection/<a class="el" href="../../dc/d07/halls__of__reflection_8cpp.html">halls_of_reflection.cpp</a></li>
+<li><a class="el" href="../../">halls_of_reflection.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -624,7 +674,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d07/classnpc__hor__raging__ghoul.html">npc_hor_raging_ghoul</a></li><li class="navelem"><a class="el" href="../../dc/daf/structnpc__hor__raging__ghoul_1_1npc__hor__raging__ghoul_a_i.html">npc_hor_raging_ghoulAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:06 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

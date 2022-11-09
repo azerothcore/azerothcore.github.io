@@ -154,7 +154,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5be8c0a8a51d81c4014ec0ab92c21f79" name="a5be8c0a8a51d81c4014ec0ab92c21f79"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5be8c0a8a51d81c4014ec0ab92c21f79">&#9670;&#160;</a></span>achievement_xt002_nerf_engineering()</h2>
 
@@ -177,7 +178,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1049</span>: <a class="code hl_class" href="../../d6/d44/class_achievement_criteria_script.html">AchievementCriteriaScript</a>(<span class="stringliteral">&quot;achievement_xt002_nerf_engineering&quot;</span>) {}</div>
+<div class="ttc" id="aclass_achievement_criteria_script_html"><div class="ttname"><a href="../../d6/d44/class_achievement_criteria_script.html">AchievementCriteriaScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:975</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -222,11 +225,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/d44/class_achievement_criteria_script.html#a9fab6f158219db6d5a65b0b302cf285e">AchievementCriteriaScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1052</span>    {</div>
+<div class="line"><span class="lineno"> 1053</span>        <span class="keywordflow">if</span> (target)</div>
+<div class="line"><span class="lineno"> 1054</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = target-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno"> 1055</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* cr = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*target, instance-&gt;GetGuidData(<a class="code hl_enumvalue" href="../../d9/df7/ulduar_8h.html#aefe442e31fe12a6b87afdf94f88d4bbfa31015dfcab0f9e4ac1bbf7ee41510eb7">TYPE_XT002</a>)))</div>
+<div class="line"><span class="lineno"> 1056</span>                    <span class="keywordflow">return</span> cr-&gt;AI()-&gt;GetData(<a class="code hl_enumvalue" href="../../d5/d7d/boss__xt002_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6af6b152c4395b438ecad55a51f2227ba9">DATA_XT002_NERF_ENGINEERING</a>);</div>
+<div class="line"><span class="lineno"> 1057</span> </div>
+<div class="line"><span class="lineno"> 1058</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1059</span>    }</div>
+<div class="ttc" id="aboss__xt002_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6af6b152c4395b438ecad55a51f2227ba9"><div class="ttname"><a href="../../d5/d7d/boss__xt002_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6af6b152c4395b438ecad55a51f2227ba9">DATA_XT002_NERF_ENGINEERING</a></div><div class="ttdeci">@ DATA_XT002_NERF_ENGINEERING</div><div class="ttdef"><b>Definition:</b> boss_xt002.cpp:120</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="aulduar_8h_html_aefe442e31fe12a6b87afdf94f88d4bbfa31015dfcab0f9e4ac1bbf7ee41510eb7"><div class="ttname"><a href="../../d9/df7/ulduar_8h.html#aefe442e31fe12a6b87afdf94f88d4bbfa31015dfcab0f9e4ac1bbf7ee41510eb7">TYPE_XT002</a></div><div class="ttdeci">@ TYPE_XT002</div><div class="ttdef"><b>Definition:</b> ulduar.h:36</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../d5/d7d/boss__xt002_8cpp.html">boss_xt002.cpp</a></li>
+<li><a class="el" href="../../">boss_xt002.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -234,7 +251,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/db7/classachievement__xt002__nerf__engineering.html">achievement_xt002_nerf_engineering</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:36 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

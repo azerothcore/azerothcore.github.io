@@ -512,7 +512,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1fe09b93be658660ba3c127c142e2ee6" name="a1fe09b93be658660ba3c127c142e2ee6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1fe09b93be658660ba3c127c142e2ee6">&#9670;&#160;</a></span>npc_captain_brandonAI()</h2>
 
@@ -536,7 +537,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1399</span>                                                  : <a class="code hl_struct" href="../../d6/dda/structnpc__argent__captain_a_i.html">npc_argent_captainAI</a>(creature)</div>
+<div class="line"><span class="lineno"> 1400</span>        {</div>
+<div class="line"><span class="lineno"> 1401</span>        }</div>
+<div class="ttc" id="astructnpc__argent__captain_a_i_html"><div class="ttname"><a href="../../d6/dda/structnpc__argent__captain_a_i.html">npc_argent_captainAI</a></div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:1201</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -564,7 +569,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/dda/structnpc__argent__captain_a_i.html#a0709350a6841b6008935c050a1db7784">npc_argent_captainAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1404</span>        {</div>
+<div class="line"><span class="lineno"> 1405</span>            <a class="code hl_function" href="../../d6/dda/structnpc__argent__captain_a_i.html#a0709350a6841b6008935c050a1db7784">npc_argent_captainAI::Reset</a>();</div>
+<div class="line"><span class="lineno"> 1406</span>            <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.Reset();</div>
+<div class="line"><span class="lineno"> 1407</span>            <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8a18439ab4178721a268883d02eb0b7f44">EVENT_BRANDON_CRUSADER_STRIKE</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(6000, 10000));</div>
+<div class="line"><span class="lineno"> 1408</span>            <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8ad96290761524fbfe9e1f6cd336275353">EVENT_BRANDON_DIVINE_SHIELD</a>, 500);</div>
+<div class="line"><span class="lineno"> 1409</span>            <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8a891accdd68c3a4803687eb4a135ee5c9">EVENT_BRANDON_JUDGEMENT_OF_COMMAND</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(8000, 13000));</div>
+<div class="line"><span class="lineno"> 1410</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/dda/structnpc__argent__captain_a_i.html#a9eaf5d2c9e52650c28b8f7feef0e681c">IsUndead</a>)</div>
+<div class="line"><span class="lineno"> 1411</span>                <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8a9788dc534e43b58a805bcbf7c4f68d45">EVENT_BRANDON_HAMMER_OF_BETRAYAL</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(25000, 30000));</div>
+<div class="line"><span class="lineno"> 1412</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aalterac__valley_8cpp_html_af60e00b78607064c5be6aa9397ea49c1"><div class="ttname"><a href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a></div><div class="ttdeci">Events</div><div class="ttdef"><b>Definition:</b> alterac_valley.cpp:53</div></div>
+<div class="ttc" id="aicecrown__citadel_8cpp_html_a914d2da0ec9f0e22cd5e400bc1f968b8a18439ab4178721a268883d02eb0b7f44"><div class="ttname"><a href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8a18439ab4178721a268883d02eb0b7f44">EVENT_BRANDON_CRUSADER_STRIKE</a></div><div class="ttdeci">@ EVENT_BRANDON_CRUSADER_STRIKE</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:235</div></div>
+<div class="ttc" id="aicecrown__citadel_8cpp_html_a914d2da0ec9f0e22cd5e400bc1f968b8a891accdd68c3a4803687eb4a135ee5c9"><div class="ttname"><a href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8a891accdd68c3a4803687eb4a135ee5c9">EVENT_BRANDON_JUDGEMENT_OF_COMMAND</a></div><div class="ttdeci">@ EVENT_BRANDON_JUDGEMENT_OF_COMMAND</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:237</div></div>
+<div class="ttc" id="aicecrown__citadel_8cpp_html_a914d2da0ec9f0e22cd5e400bc1f968b8a9788dc534e43b58a805bcbf7c4f68d45"><div class="ttname"><a href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8a9788dc534e43b58a805bcbf7c4f68d45">EVENT_BRANDON_HAMMER_OF_BETRAYAL</a></div><div class="ttdeci">@ EVENT_BRANDON_HAMMER_OF_BETRAYAL</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:238</div></div>
+<div class="ttc" id="aicecrown__citadel_8cpp_html_a914d2da0ec9f0e22cd5e400bc1f968b8ad96290761524fbfe9e1f6cd336275353"><div class="ttname"><a href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8ad96290761524fbfe9e1f6cd336275353">EVENT_BRANDON_DIVINE_SHIELD</a></div><div class="ttdeci">@ EVENT_BRANDON_DIVINE_SHIELD</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:236</div></div>
+<div class="ttc" id="astructnpc__argent__captain_a_i_html_a0709350a6841b6008935c050a1db7784"><div class="ttname"><a href="../../d6/dda/structnpc__argent__captain_a_i.html#a0709350a6841b6008935c050a1db7784">npc_argent_captainAI::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:1209</div></div>
+<div class="ttc" id="astructnpc__argent__captain_a_i_html_a9eaf5d2c9e52650c28b8f7feef0e681c"><div class="ttname"><a href="../../d6/dda/structnpc__argent__captain_a_i.html#a9eaf5d2c9e52650c28b8f7feef0e681c">npc_argent_captainAI::IsUndead</a></div><div class="ttdeci">bool IsUndead</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:1309</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a721f8f7395cd57d4dba74f66ae40169f" name="a721f8f7395cd57d4dba74f66ae40169f"></a>
@@ -592,11 +614,64 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1415</span>        {</div>
+<div class="line"><span class="lineno"> 1416</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno"> 1417</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1418</span> </div>
+<div class="line"><span class="lineno"> 1419</span>            <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.Update(diff);</div>
+<div class="line"><span class="lineno"> 1420</span> </div>
+<div class="line"><span class="lineno"> 1421</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno"> 1422</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1423</span> </div>
+<div class="line"><span class="lineno"> 1424</span>            <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventId = <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno"> 1425</span>            {</div>
+<div class="line"><span class="lineno"> 1426</span>                <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno"> 1427</span>                {</div>
+<div class="line"><span class="lineno"> 1428</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8a18439ab4178721a268883d02eb0b7f44">EVENT_BRANDON_CRUSADER_STRIKE</a>:</div>
+<div class="line"><span class="lineno"> 1429</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298ca748c886ad604af3db71d021ecb7f3b52">SPELL_CRUSADER_STRIKE</a>);</div>
+<div class="line"><span class="lineno"> 1430</span>                        <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8a18439ab4178721a268883d02eb0b7f44">EVENT_BRANDON_CRUSADER_STRIKE</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(6000, 12000));</div>
+<div class="line"><span class="lineno"> 1431</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1432</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8ad96290761524fbfe9e1f6cd336275353">EVENT_BRANDON_DIVINE_SHIELD</a>:</div>
+<div class="line"><span class="lineno"> 1433</span>                        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#aa4e7196924ef7710dc780b0321e09002">HealthBelowPct</a>(20))</div>
+<div class="line"><span class="lineno"> 1434</span>                            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298ca901e60dd92a92f9b0f3e1d709857498f">SPELL_DIVINE_SHIELD</a>);</div>
+<div class="line"><span class="lineno"> 1435</span>                        <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8ad96290761524fbfe9e1f6cd336275353">EVENT_BRANDON_DIVINE_SHIELD</a>, 500);</div>
+<div class="line"><span class="lineno"> 1436</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1437</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8a891accdd68c3a4803687eb4a135ee5c9">EVENT_BRANDON_JUDGEMENT_OF_COMMAND</a>:</div>
+<div class="line"><span class="lineno"> 1438</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298ca31604718f775e298f1e7c26524351a75">SPELL_JUDGEMENT_OF_COMMAND</a>);</div>
+<div class="line"><span class="lineno"> 1439</span>                        <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8a891accdd68c3a4803687eb4a135ee5c9">EVENT_BRANDON_JUDGEMENT_OF_COMMAND</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(8000, 13000));</div>
+<div class="line"><span class="lineno"> 1440</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1441</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8a9788dc534e43b58a805bcbf7c4f68d45">EVENT_BRANDON_HAMMER_OF_BETRAYAL</a>:</div>
+<div class="line"><span class="lineno"> 1442</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 1, 0.0f, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno"> 1443</span>                            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298caaaf7104ec0652810cf8be6f1690ae885">SPELL_HAMMER_OF_BETRAYAL</a>);</div>
+<div class="line"><span class="lineno"> 1444</span>                        <a class="code hl_enumeration" href="../../d0/d58/alterac__valley_8cpp.html#af60e00b78607064c5be6aa9397ea49c1">Events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../db/dd3/icecrown__citadel_8cpp.html#a914d2da0ec9f0e22cd5e400bc1f968b8a9788dc534e43b58a805bcbf7c4f68d45">EVENT_BRANDON_HAMMER_OF_BETRAYAL</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(45000, 60000));</div>
+<div class="line"><span class="lineno"> 1445</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1446</span>                    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1447</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1448</span>                }</div>
+<div class="line"><span class="lineno"> 1449</span>            }</div>
+<div class="line"><span class="lineno"> 1450</span> </div>
+<div class="line"><span class="lineno"> 1451</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno"> 1452</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="aicecrown__citadel_8cpp_html_a5bd342133be8c2137b831460acc9298ca31604718f775e298f1e7c26524351a75"><div class="ttname"><a href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298ca31604718f775e298f1e7c26524351a75">SPELL_JUDGEMENT_OF_COMMAND</a></div><div class="ttdeci">@ SPELL_JUDGEMENT_OF_COMMAND</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:141</div></div>
+<div class="ttc" id="aicecrown__citadel_8cpp_html_a5bd342133be8c2137b831460acc9298ca748c886ad604af3db71d021ecb7f3b52"><div class="ttname"><a href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298ca748c886ad604af3db71d021ecb7f3b52">SPELL_CRUSADER_STRIKE</a></div><div class="ttdeci">@ SPELL_CRUSADER_STRIKE</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:139</div></div>
+<div class="ttc" id="aicecrown__citadel_8cpp_html_a5bd342133be8c2137b831460acc9298ca901e60dd92a92f9b0f3e1d709857498f"><div class="ttname"><a href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298ca901e60dd92a92f9b0f3e1d709857498f">SPELL_DIVINE_SHIELD</a></div><div class="ttdeci">@ SPELL_DIVINE_SHIELD</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:140</div></div>
+<div class="ttc" id="aicecrown__citadel_8cpp_html_a5bd342133be8c2137b831460acc9298caaaf7104ec0652810cf8be6f1690ae885"><div class="ttname"><a href="../../db/dd3/icecrown__citadel_8cpp.html#a5bd342133be8c2137b831460acc9298caaaf7104ec0652810cf8be6f1690ae885">SPELL_HAMMER_OF_BETRAYAL</a></div><div class="ttdeci">@ SPELL_HAMMER_OF_BETRAYAL</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:142</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_aa4e7196924ef7710dc780b0321e09002"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#aa4e7196924ef7710dc780b0321e09002">ScriptedAI::HealthBelowPct</a></div><div class="ttdeci">bool HealthBelowPct(uint32 pct) const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:332</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../db/dd3/icecrown__citadel_8cpp.html">icecrown_citadel.cpp</a></li>
+<li><a class="el" href="../../">icecrown_citadel.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -604,7 +679,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d07/classnpc__captain__brandon.html">npc_captain_brandon</a></li><li class="navelem"><a class="el" href="../../db/d35/structnpc__captain__brandon_1_1npc__captain__brandon_a_i.html">npc_captain_brandonAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:03 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

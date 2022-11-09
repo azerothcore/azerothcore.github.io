@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8d5d43ae12fb6d65029008eadd56973a" name="a8d5d43ae12fb6d65029008eadd56973a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8d5d43ae12fb6d65029008eadd56973a">&#9670;&#160;</a></span>HandleEffectRemove()</h2>
 
@@ -336,7 +337,18 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  991</span>    {</div>
+<div class="line"><span class="lineno">  992</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>())</div>
+<div class="line"><span class="lineno">  993</span>        {</div>
+<div class="line"><span class="lineno">  994</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/dde/class_aura.html">Aura</a>* aur = target-&gt;GetAura(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad4b3aaf9f254862105723498475a0e8eadddc942268210bdb243ecdb59e76fb74">SPELL_RAM_FATIGUE</a>))</div>
+<div class="line"><span class="lineno">  995</span>                aur-&gt;ModStackAmount(-15);</div>
+<div class="line"><span class="lineno">  996</span>        }</div>
+<div class="line"><span class="lineno">  997</span>    }</div>
+<div class="ttc" id="abrewfest_8cpp_html_ad4b3aaf9f254862105723498475a0e8eadddc942268210bdb243ecdb59e76fb74"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ad4b3aaf9f254862105723498475a0e8eadddc942268210bdb243ecdb59e76fb74">SPELL_RAM_FATIGUE</a></div><div class="ttdeci">@ SPELL_RAM_FATIGUE</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:813</div></div>
+<div class="ttc" id="aclass_aura_html"><div class="ttname"><a href="../../d2/dde/class_aura.html">Aura</a></div><div class="ttdef"><b>Definition:</b> SpellAuras.h:87</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abe527a7a4fda32c833f4762e82e2bd3d" name="abe527a7a4fda32c833f4762e82e2bd3d"></a>
@@ -362,7 +374,38 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  963</span>    {</div>
+<div class="line"><span class="lineno">  964</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a> fatigue = 0;</div>
+<div class="line"><span class="lineno">  965</span>        <span class="keywordflow">switch</span> (aurEff-&gt;GetId())</div>
+<div class="line"><span class="lineno">  966</span>        {</div>
+<div class="line"><span class="lineno">  967</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad4b3aaf9f254862105723498475a0e8ea82564c43d592033e9e8bfc6181450928">SPELL_TROT</a>:</div>
+<div class="line"><span class="lineno">  968</span>                fatigue = -2;</div>
+<div class="line"><span class="lineno">  969</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  970</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad4b3aaf9f254862105723498475a0e8ea390ab2cfc30916ec5b00ae56f5502e68">SPELL_CANTER</a>:</div>
+<div class="line"><span class="lineno">  971</span>                fatigue = 1;</div>
+<div class="line"><span class="lineno">  972</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  973</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad4b3aaf9f254862105723498475a0e8ea705362846c84af3c7965bdb23caffe14">SPELL_GALLOP</a>:</div>
+<div class="line"><span class="lineno">  974</span>                fatigue = 5;</div>
+<div class="line"><span class="lineno">  975</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  976</span>        }</div>
+<div class="line"><span class="lineno">  977</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>())</div>
+<div class="line"><span class="lineno">  978</span>        {</div>
+<div class="line"><span class="lineno">  979</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/dde/class_aura.html">Aura</a>* aur = target-&gt;GetAura(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad4b3aaf9f254862105723498475a0e8eadddc942268210bdb243ecdb59e76fb74">SPELL_RAM_FATIGUE</a>))</div>
+<div class="line"><span class="lineno">  980</span>            {</div>
+<div class="line"><span class="lineno">  981</span>                aur-&gt;ModStackAmount(fatigue);</div>
+<div class="line"><span class="lineno">  982</span>                <span class="keywordflow">if</span> (aur-&gt;GetStackAmount() &gt;= 100)</div>
+<div class="line"><span class="lineno">  983</span>                    target-&gt;CastSpell(target, <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad4b3aaf9f254862105723498475a0e8ea09de7ce3b856ca5205416e36f8572cd8">SPELL_RAM_EXHAUSTED</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  984</span>            }</div>
+<div class="line"><span class="lineno">  985</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  986</span>                target-&gt;CastSpell(target, <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad4b3aaf9f254862105723498475a0e8eadddc942268210bdb243ecdb59e76fb74">SPELL_RAM_FATIGUE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  987</span>        }</div>
+<div class="line"><span class="lineno">  988</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a3bb8a71f4ae9af551f71e9eb2c9c3325"><div class="ttname"><a href="../../db/d35/_define_8h.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a></div><div class="ttdeci">std::int8_t int8</div><div class="ttdef"><b>Definition:</b> Define.h:106</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_ad4b3aaf9f254862105723498475a0e8ea09de7ce3b856ca5205416e36f8572cd8"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ad4b3aaf9f254862105723498475a0e8ea09de7ce3b856ca5205416e36f8572cd8">SPELL_RAM_EXHAUSTED</a></div><div class="ttdeci">@ SPELL_RAM_EXHAUSTED</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:814</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_ad4b3aaf9f254862105723498475a0e8ea390ab2cfc30916ec5b00ae56f5502e68"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ad4b3aaf9f254862105723498475a0e8ea390ab2cfc30916ec5b00ae56f5502e68">SPELL_CANTER</a></div><div class="ttdeci">@ SPELL_CANTER</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:811</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_ad4b3aaf9f254862105723498475a0e8ea705362846c84af3c7965bdb23caffe14"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ad4b3aaf9f254862105723498475a0e8ea705362846c84af3c7965bdb23caffe14">SPELL_GALLOP</a></div><div class="ttdeci">@ SPELL_GALLOP</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:812</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_ad4b3aaf9f254862105723498475a0e8ea82564c43d592033e9e8bfc6181450928"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ad4b3aaf9f254862105723498475a0e8ea82564c43d592033e9e8bfc6181450928">SPELL_TROT</a></div><div class="ttdeci">@ SPELL_TROT</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:810</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa436788f638fedacb217ca508da5f426" name="aa436788f638fedacb217ca508da5f426"></a>
@@ -389,11 +432,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1000</span>    {</div>
+<div class="line"><span class="lineno"> 1001</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a> != 43332)</div>
+<div class="line"><span class="lineno"> 1002</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a>(spell_brewfest_ram_fatigue::HandleEffectPeriodic, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56">SPELL_AURA_PERIODIC_DUMMY</a>);</div>
+<div class="line"><span class="lineno"> 1003</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1004</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab9127bc3610a6a30fa9bbf22f7339bcc">OnEffectRemove</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a>(<a class="code hl_function" href="../../d1/d76/classspell__brewfest__ram__fatigue.html#a8d5d43ae12fb6d65029008eadd56973a">spell_brewfest_ram_fatigue::HandleEffectRemove</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799ab3987db9e154ae9a2086efb43e5af610">SPELL_AURA_MOD_DECREASE_SPEED</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno"> 1005</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a></div><div class="ttdeci">@ EFFECT_1</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:31</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799ab3987db9e154ae9a2086efb43e5af610"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799ab3987db9e154ae9a2086efb43e5af610">SPELL_AURA_MOD_DECREASE_SPEED</a></div><div class="ttdeci">@ SPELL_AURA_MOD_DECREASE_SPEED</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:96</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56">SPELL_AURA_PERIODIC_DUMMY</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_DUMMY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:289</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:42</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a63dd33eaa91292bfb53b1d9f2b0eba29"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a></div><div class="ttdeci">#define AuraEffectPeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:750</div></div>
+<div class="ttc" id="a_spell_script_8h_html_af8f20adad60abdb901d6e7310afea31b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a></div><div class="ttdeci">#define AuraEffectRemoveFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:744</div></div>
+<div class="ttc" id="aclass___spell_script_html_ae2ab4203d324b2179ad06ffdb5d8626f"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">_SpellScript::m_scriptSpellId</a></div><div class="ttdeci">uint32 m_scriptSpellId</div><div class="ttdef"><b>Definition:</b> SpellScript.h:107</div></div>
+<div class="ttc" id="aclass_aura_script_html_a491e7fc0a1acd202b60fa1aed79a9377"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">AuraScript::OnEffectPeriodic</a></div><div class="ttdeci">HookList&lt; EffectPeriodicHandler &gt; OnEffectPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:749</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab9127bc3610a6a30fa9bbf22f7339bcc"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab9127bc3610a6a30fa9bbf22f7339bcc">AuraScript::OnEffectRemove</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; OnEffectRemove</div><div class="ttdef"><b>Definition:</b> SpellScript.h:739</div></div>
+<div class="ttc" id="aclassspell__brewfest__ram__fatigue_html_a8d5d43ae12fb6d65029008eadd56973a"><div class="ttname"><a href="../../d1/d76/classspell__brewfest__ram__fatigue.html#a8d5d43ae12fb6d65029008eadd56973a">spell_brewfest_ram_fatigue::HandleEffectRemove</a></div><div class="ttdeci">void HandleEffectRemove(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:990</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../dc/ddf/brewfest_8cpp.html">brewfest.cpp</a></li>
+<li><a class="el" href="../../">brewfest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -401,7 +461,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d76/classspell__brewfest__ram__fatigue.html">spell_brewfest_ram_fatigue</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:16 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

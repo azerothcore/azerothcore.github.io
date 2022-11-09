@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/Handlers/ChatHandler.cpp File Reference</title>
+<title>AzeorthCore: ChatHandler.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -112,32 +112,34 @@ $(document).ready(function(){initNavTree('d0/d27/_chat_handler_8cpp.html','../..
   <div class="headertitle"><div class="title">ChatHandler.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d3/da7/_account_mgr_8h_source.html">AccountMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d39/_cell_impl_8h_source.html">CellImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/da5/_channel_mgr_8h_source.html">ChannelMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d55/_chat_8h_source.html">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d48/_chat_packets_8h_source.html">ChatPackets.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d1f/_common_8h_source.html">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/daa/_game_time_8h_source.html">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/df9/_grid_notifiers_impl_8h_source.html">GridNotifiersImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/dc4/_group_8h_source.html">Group.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/da3/_guild_8h_source.html">Guild.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/dce/_guild_mgr_8h_source.html">GuildMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d4b/_language_8h_source.html">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/df4/_log_8h_source.html">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d59/_object_accessor_8h_source.html">ObjectAccessor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d77/_object_mgr_8h_source.html">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d10/_opcodes_8h_source.html">Opcodes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d39/_player_8h_source.html">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d82/_spell_aura_effects_8h_source.html">SpellAuraEffects.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dcf/_spell_auras_8h_source.html">SpellAuras.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d90/_util_8h_source.html">Util.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/db4/_warden_8h_source.html">Warden.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d86/_world_8h_source.html">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d66/_world_packet_8h_source.html">WorldPacket.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/dc6/_world_session_8h_source.html">WorldSession.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AccountMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ChannelMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ChatPackets.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Guild.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GuildMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Warden.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html">Acore::EmoteChatBuilder</a></td></tr>
@@ -177,7 +179,20 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
+<div class="line"><span class="lineno">   46</span>    <span class="keywordflow">if</span> (c == <span class="charliteral">&#39;\t&#39;</span>)</div>
+<div class="line"><span class="lineno">   47</span>    {</div>
+<div class="line"><span class="lineno">   48</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   49</span>    }</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>    <span class="keywordflow">if</span> (c &lt;= <span class="charliteral">&#39;\037&#39;</span>) <span class="comment">// ASCII control block</span></div>
+<div class="line"><span class="lineno">   52</span>    {</div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   54</span>    }</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   57</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -186,7 +201,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_c6aa1690377d4e56e32ba0c89772ac1d.html">Handlers</a></li><li class="navelem"><a class="el" href="../../d0/d27/_chat_handler_8cpp.html">ChatHandler.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

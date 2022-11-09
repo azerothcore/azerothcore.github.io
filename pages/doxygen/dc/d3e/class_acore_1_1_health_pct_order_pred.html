@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('dc/d3e/class_acore_1_1_health_pct_orde
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/d32/_unit_8h_source.html">Unit.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Unit.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -129,7 +129,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a4c34feefafc014b50ba2869a9bdb9959"><td class="memItemLeft" align="right" valign="top">bool const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3e/class_acore_1_1_health_pct_order_pred.html#a4c34feefafc014b50ba2869a9bdb9959">_ascending</a></td></tr>
 <tr class="separator:a4c34feefafc014b50ba2869a9bdb9959"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5c83c0ba35b9febbe6a62dae63995f97" name="a5c83c0ba35b9febbe6a62dae63995f97"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5c83c0ba35b9febbe6a62dae63995f97">&#9670;&#160;</a></span>HealthPctOrderPred()</h2>
 
@@ -153,7 +154,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2627</span>: <a class="code hl_variable" href="../../dc/d3e/class_acore_1_1_health_pct_order_pred.html#a4c34feefafc014b50ba2869a9bdb9959">_ascending</a>(ascending) { }</div>
+<div class="ttc" id="aclass_acore_1_1_health_pct_order_pred_html_a4c34feefafc014b50ba2869a9bdb9959"><div class="ttname"><a href="../../dc/d3e/class_acore_1_1_health_pct_order_pred.html#a4c34feefafc014b50ba2869a9bdb9959">Acore::HealthPctOrderPred::_ascending</a></div><div class="ttdeci">bool const _ascending</div><div class="ttdef"><b>Definition:</b> Unit.h:2646</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -190,7 +193,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2639</span>        {</div>
+<div class="line"><span class="lineno"> 2640</span>            <span class="keywordtype">float</span> rA = a-&gt;GetMaxHealth() ? float(a-&gt;GetHealth()) / float(a-&gt;GetMaxHealth()) : 0.0f;</div>
+<div class="line"><span class="lineno"> 2641</span>            <span class="keywordtype">float</span> rB = b-&gt;GetMaxHealth() ? float(b-&gt;GetHealth()) / float(b-&gt;GetMaxHealth()) : 0.0f;</div>
+<div class="line"><span class="lineno"> 2642</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d3e/class_acore_1_1_health_pct_order_pred.html#a4c34feefafc014b50ba2869a9bdb9959">_ascending</a> ? rA &lt; rB : rA &gt; rB;</div>
+<div class="line"><span class="lineno"> 2643</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a23f2dc594fd531d02cd6eae0faa7f6b7" name="a23f2dc594fd531d02cd6eae0faa7f6b7"></a>
@@ -226,7 +234,18 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2630</span>        {</div>
+<div class="line"><span class="lineno"> 2631</span>            <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a> <span class="keyword">const</span>* a = objA-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#afd88f95deffad982ca0b5ef16b6244e8">ToUnit</a>();</div>
+<div class="line"><span class="lineno"> 2632</span>            <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a> <span class="keyword">const</span>* b = objB-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#afd88f95deffad982ca0b5ef16b6244e8">ToUnit</a>();</div>
+<div class="line"><span class="lineno"> 2633</span>            <span class="keywordtype">float</span> rA = (a &amp;&amp; a-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5173c1774b09b42c409bf31280c37d36">GetMaxHealth</a>()) ? <span class="keywordtype">float</span>(a-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a958172d6051b106e3b3c776e4f9f3952">GetHealth</a>()) / <span class="keywordtype">float</span>(a-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5173c1774b09b42c409bf31280c37d36">GetMaxHealth</a>()) : 0.0f;</div>
+<div class="line"><span class="lineno"> 2634</span>            <span class="keywordtype">float</span> rB = (b &amp;&amp; b-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5173c1774b09b42c409bf31280c37d36">GetMaxHealth</a>()) ? <span class="keywordtype">float</span>(b-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a958172d6051b106e3b3c776e4f9f3952">GetHealth</a>()) / <span class="keywordtype">float</span>(b-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5173c1774b09b42c409bf31280c37d36">GetMaxHealth</a>()) : 0.0f;</div>
+<div class="line"><span class="lineno"> 2635</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d3e/class_acore_1_1_health_pct_order_pred.html#a4c34feefafc014b50ba2869a9bdb9959">_ascending</a> ? rA &lt; rB : rA &gt; rB;</div>
+<div class="line"><span class="lineno"> 2636</span>        }</div>
+<div class="ttc" id="aclass_object_html_afd88f95deffad982ca0b5ef16b6244e8"><div class="ttname"><a href="../../d8/d83/class_object.html#afd88f95deffad982ca0b5ef16b6244e8">Object::ToUnit</a></div><div class="ttdeci">Unit * ToUnit()</div><div class="ttdef"><b>Definition:</b> Object.h:200</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a5173c1774b09b42c409bf31280c37d36"><div class="ttname"><a href="../../da/db7/class_unit.html#a5173c1774b09b42c409bf31280c37d36">Unit::GetMaxHealth</a></div><div class="ttdeci">uint32 GetMaxHealth() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1439</div></div>
+<div class="ttc" id="aclass_unit_html_a958172d6051b106e3b3c776e4f9f3952"><div class="ttname"><a href="../../da/db7/class_unit.html#a958172d6051b106e3b3c776e4f9f3952">Unit::GetHealth</a></div><div class="ttdeci">uint32 GetHealth() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1438</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -253,7 +272,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Unit/<a class="el" href="../../d5/d32/_unit_8h_source.html">Unit.h</a></li>
+<li><a class="el" href="../../">Unit.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -261,7 +280,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../dc/d3e/class_acore_1_1_health_pct_order_pred.html">HealthPctOrderPred</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

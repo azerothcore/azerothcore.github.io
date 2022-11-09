@@ -311,7 +311,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d83/class_instance_script.html#a5ab9bd10ed8736a816bfaf12c39bde59">GetBossSaveData</a> ()</td></tr>
 <tr class="separator:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0080fdf557ad8159a8934dce5b39a535" name="a0080fdf557ad8159a8934dce5b39a535"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0080fdf557ad8159a8934dce5b39a535">&#9670;&#160;</a></span>instance_gnomeregan_InstanceMapScript()</h2>
 
@@ -335,7 +336,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   37</span>                                                        : <a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>(map)</div>
+<div class="line"><span class="lineno">   38</span>        {</div>
+<div class="line"><span class="lineno">   39</span>        }</div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -363,7 +368,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#aa0e2d9bf4d757aad09d4773259ad8583">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   81</span>        {</div>
+<div class="line"><span class="lineno">   82</span>            std::ostringstream saveStream;</div>
+<div class="line"><span class="lineno">   83</span>            saveStream &lt;&lt; <span class="stringliteral">&quot;D E &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d6/d61/structinstance__gnomeregan_1_1instance__gnomeregan___instance_map_script.html#ae19a56e7fdcb2d0204d444cba11b7441">_encounters</a>[0];</div>
+<div class="line"><span class="lineno">   84</span>            <span class="keywordflow">return</span> saveStream.str();</div>
+<div class="line"><span class="lineno">   85</span>        }</div>
+<div class="ttc" id="astructinstance__gnomeregan_1_1instance__gnomeregan___instance_map_script_html_ae19a56e7fdcb2d0204d444cba11b7441"><div class="ttname"><a href="../../d6/d61/structinstance__gnomeregan_1_1instance__gnomeregan___instance_map_script.html#ae19a56e7fdcb2d0204d444cba11b7441">instance_gnomeregan::instance_gnomeregan_InstanceMapScript::_encounters</a></div><div class="ttdeci">uint32 _encounters[MAX_ENCOUNTERS]</div><div class="ttdef"><b>Definition:</b> instance_gnomeregan.cpp:107</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a880ae1c9ad8d427f0a3daf2b2d373049" name="a880ae1c9ad8d427f0a3daf2b2d373049"></a>
@@ -391,7 +402,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ad8be0d1c384b505f5b3fa1ab55eb1f61">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   88</span>        {</div>
+<div class="line"><span class="lineno">   89</span>            <span class="keywordflow">if</span> (!in)</div>
+<div class="line"><span class="lineno">   90</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>            <span class="keywordtype">char</span> dataHead1, dataHead2;</div>
+<div class="line"><span class="lineno">   93</span>            std::istringstream loadStream(in);</div>
+<div class="line"><span class="lineno">   94</span>            loadStream &gt;&gt; dataHead1 &gt;&gt; dataHead2;</div>
+<div class="line"><span class="lineno">   95</span>            <span class="keywordflow">if</span> (dataHead1 == <span class="charliteral">&#39;D&#39;</span> &amp;&amp; dataHead2 == <span class="charliteral">&#39;E&#39;</span>)</div>
+<div class="line"><span class="lineno">   96</span>            {</div>
+<div class="line"><span class="lineno">   97</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../df/d23/deadmines_8h.html#afb6eb4f28419b652027fad41104a6d22a9cfa5bdc17e1d5a590d300b530b36a25">MAX_ENCOUNTERS</a>; ++i)</div>
+<div class="line"><span class="lineno">   98</span>                {</div>
+<div class="line"><span class="lineno">   99</span>                    loadStream &gt;&gt; <a class="code hl_variable" href="../../d6/d61/structinstance__gnomeregan_1_1instance__gnomeregan___instance_map_script.html#ae19a56e7fdcb2d0204d444cba11b7441">_encounters</a>[i];</div>
+<div class="line"><span class="lineno">  100</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d61/structinstance__gnomeregan_1_1instance__gnomeregan___instance_map_script.html#ae19a56e7fdcb2d0204d444cba11b7441">_encounters</a>[i] == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>)</div>
+<div class="line"><span class="lineno">  101</span>                        <a class="code hl_variable" href="../../d6/d61/structinstance__gnomeregan_1_1instance__gnomeregan___instance_map_script.html#ae19a56e7fdcb2d0204d444cba11b7441">_encounters</a>[i] = <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>;</div>
+<div class="line"><span class="lineno">  102</span>                }</div>
+<div class="line"><span class="lineno">  103</span>            }</div>
+<div class="line"><span class="lineno">  104</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a></div><div class="ttdeci">@ NOT_STARTED</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:56</div></div>
+<div class="ttc" id="adeadmines_8h_html_afb6eb4f28419b652027fad41104a6d22a9cfa5bdc17e1d5a590d300b530b36a25"><div class="ttname"><a href="../../df/d23/deadmines_8h.html#afb6eb4f28419b652027fad41104a6d22a9cfa5bdc17e1d5a590d300b530b36a25">MAX_ENCOUNTERS</a></div><div class="ttdeci">@ MAX_ENCOUNTERS</div><div class="ttdef"><b>Definition:</b> deadmines.h:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac607601becc7fbf4ea9c64d87c93287c" name="ac607601becc7fbf4ea9c64d87c93287c"></a>
@@ -419,7 +451,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a07b3c70e8153dfd74edb86656bf2b254">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   42</span>        {</div>
+<div class="line"><span class="lineno">   43</span>            <span class="keywordflow">switch</span> (creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">   44</span>            {</div>
+<div class="line"><span class="lineno">   45</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/df7/gnomeregan_8h.html#a6986ec7b2d3274669934af9795f26d5ca9e4a9c0c7e0adc0ef8c70ad7a302078a">NPC_EMI_SHORTFUSE</a>:</div>
+<div class="line"><span class="lineno">   46</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d61/structinstance__gnomeregan_1_1instance__gnomeregan___instance_map_script.html#ae19a56e7fdcb2d0204d444cba11b7441">_encounters</a>[<a class="code hl_enumvalue" href="../../d3/df7/gnomeregan_8h.html#afb6eb4f28419b652027fad41104a6d22a32c932ab07cefdbe17d15290ab965746">TYPE_GRUBBIS</a>] == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">   47</span>                    {</div>
+<div class="line"><span class="lineno">   48</span>                        creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>();</div>
+<div class="line"><span class="lineno">   49</span>                    }</div>
+<div class="line"><span class="lineno">   50</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   51</span>            }</div>
+<div class="line"><span class="lineno">   52</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="agnomeregan_8h_html_a6986ec7b2d3274669934af9795f26d5ca9e4a9c0c7e0adc0ef8c70ad7a302078a"><div class="ttname"><a href="../../d3/df7/gnomeregan_8h.html#a6986ec7b2d3274669934af9795f26d5ca9e4a9c0c7e0adc0ef8c70ad7a302078a">NPC_EMI_SHORTFUSE</a></div><div class="ttdeci">@ NPC_EMI_SHORTFUSE</div><div class="ttdef"><b>Definition:</b> gnomeregan.h:47</div></div>
+<div class="ttc" id="agnomeregan_8h_html_afb6eb4f28419b652027fad41104a6d22a32c932ab07cefdbe17d15290ab965746"><div class="ttname"><a href="../../d3/df7/gnomeregan_8h.html#afb6eb4f28419b652027fad41104a6d22a32c932ab07cefdbe17d15290ab965746">TYPE_GRUBBIS</a></div><div class="ttdeci">@ TYPE_GRUBBIS</div><div class="ttdef"><b>Definition:</b> gnomeregan.h:33</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0c2f4d615394ef1d6e1b930ed6aff82f" name="a0c2f4d615394ef1d6e1b930ed6aff82f"></a>
@@ -447,7 +495,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a95f23d1bff59799247babdd0d077bb7c">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   55</span>        {</div>
+<div class="line"><span class="lineno">   56</span>            <span class="keywordflow">switch</span> (gameobject-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">   57</span>            {</div>
+<div class="line"><span class="lineno">   58</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/df7/gnomeregan_8h.html#a11b4fe9f4efc221e06a058a1b6650e3da1361d5d9b957a262fe7f88441f7d1690">GO_CAVE_IN_1</a>:</div>
+<div class="line"><span class="lineno">   59</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/df7/gnomeregan_8h.html#a11b4fe9f4efc221e06a058a1b6650e3daf79e76e21dbda033c783ed95a0a12ff7">GO_CAVE_IN_2</a>:</div>
+<div class="line"><span class="lineno">   60</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/df7/gnomeregan_8h.html#a11b4fe9f4efc221e06a058a1b6650e3da02bc5961ef003d0a269c7a49273c147e">GO_WORKSHOP_DOOR</a>:</div>
+<div class="line"><span class="lineno">   61</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/df7/gnomeregan_8h.html#a11b4fe9f4efc221e06a058a1b6650e3da9aaef9156bbd2b2036f20598f14ebd81">GO_FINAL_CHAMBER_DOOR</a>:</div>
+<div class="line"><span class="lineno">   62</span>                    gameobject-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#af2d78467d6a30482d2ad30b64224f9d5">UpdateSaveToDb</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   63</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   64</span>            }</div>
+<div class="line"><span class="lineno">   65</span>        }</div>
+<div class="ttc" id="aclass_game_object_html_af2d78467d6a30482d2ad30b64224f9d5"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#af2d78467d6a30482d2ad30b64224f9d5">GameObject::UpdateSaveToDb</a></div><div class="ttdeci">void UpdateSaveToDb(bool enable)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:2549</div></div>
+<div class="ttc" id="agnomeregan_8h_html_a11b4fe9f4efc221e06a058a1b6650e3da02bc5961ef003d0a269c7a49273c147e"><div class="ttname"><a href="../../d3/df7/gnomeregan_8h.html#a11b4fe9f4efc221e06a058a1b6650e3da02bc5961ef003d0a269c7a49273c147e">GO_WORKSHOP_DOOR</a></div><div class="ttdeci">@ GO_WORKSHOP_DOOR</div><div class="ttdef"><b>Definition:</b> gnomeregan.h:41</div></div>
+<div class="ttc" id="agnomeregan_8h_html_a11b4fe9f4efc221e06a058a1b6650e3da1361d5d9b957a262fe7f88441f7d1690"><div class="ttname"><a href="../../d3/df7/gnomeregan_8h.html#a11b4fe9f4efc221e06a058a1b6650e3da1361d5d9b957a262fe7f88441f7d1690">GO_CAVE_IN_1</a></div><div class="ttdeci">@ GO_CAVE_IN_1</div><div class="ttdef"><b>Definition:</b> gnomeregan.h:39</div></div>
+<div class="ttc" id="agnomeregan_8h_html_a11b4fe9f4efc221e06a058a1b6650e3da9aaef9156bbd2b2036f20598f14ebd81"><div class="ttname"><a href="../../d3/df7/gnomeregan_8h.html#a11b4fe9f4efc221e06a058a1b6650e3da9aaef9156bbd2b2036f20598f14ebd81">GO_FINAL_CHAMBER_DOOR</a></div><div class="ttdeci">@ GO_FINAL_CHAMBER_DOOR</div><div class="ttdef"><b>Definition:</b> gnomeregan.h:42</div></div>
+<div class="ttc" id="agnomeregan_8h_html_a11b4fe9f4efc221e06a058a1b6650e3daf79e76e21dbda033c783ed95a0a12ff7"><div class="ttname"><a href="../../d3/df7/gnomeregan_8h.html#a11b4fe9f4efc221e06a058a1b6650e3daf79e76e21dbda033c783ed95a0a12ff7">GO_CAVE_IN_2</a></div><div class="ttdeci">@ GO_CAVE_IN_2</div><div class="ttdef"><b>Definition:</b> gnomeregan.h:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af800a1906c532f61f0299f8aa9359a66" name="af800a1906c532f61f0299f8aa9359a66"></a>
@@ -485,7 +549,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   68</span>        {</div>
+<div class="line"><span class="lineno">   69</span>            <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><span class="lineno">   70</span>            {</div>
+<div class="line"><span class="lineno">   71</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/df7/gnomeregan_8h.html#afb6eb4f28419b652027fad41104a6d22a32c932ab07cefdbe17d15290ab965746">TYPE_GRUBBIS</a>:</div>
+<div class="line"><span class="lineno">   72</span>                <a class="code hl_variable" href="../../d6/d61/structinstance__gnomeregan_1_1instance__gnomeregan___instance_map_script.html#ae19a56e7fdcb2d0204d444cba11b7441">_encounters</a>[type] = data;</div>
+<div class="line"><span class="lineno">   73</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   74</span>            }</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>            <span class="keywordflow">if</span> (data == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">   77</span>                <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a99f69b7706e28b78008952ceefe09b69">SaveToDB</a>();</div>
+<div class="line"><span class="lineno">   78</span>        }</div>
+<div class="ttc" id="aclass_instance_script_html_a99f69b7706e28b78008952ceefe09b69"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a99f69b7706e28b78008952ceefe09b69">InstanceScript::SaveToDB</a></div><div class="ttdeci">void SaveToDB()</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -512,7 +588,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/Gnomeregan/<a class="el" href="../../d9/d68/instance__gnomeregan_8cpp.html">instance_gnomeregan.cpp</a></li>
+<li><a class="el" href="../../">instance_gnomeregan.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -520,7 +596,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d73/classinstance__gnomeregan.html">instance_gnomeregan</a></li><li class="navelem"><a class="el" href="../../d6/d61/structinstance__gnomeregan_1_1instance__gnomeregan___instance_map_script.html">instance_gnomeregan_InstanceMapScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

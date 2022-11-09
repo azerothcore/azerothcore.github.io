@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('dc/d70/struct_default_target_selector.
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d9/d71/_unit_a_i_8h_source.html">UnitAI.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">UnitAI.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for DefaultTargetSelector:</div>
 <div class="dyncontent">
@@ -150,7 +150,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a6dcbf6789c1565b95f16de3d580118a9 inherit pub_types_struct_acore_1_1unary__function"><td class="memItemLeft" align="right" valign="top">typedef bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc9/struct_acore_1_1unary__function.html#a6dcbf6789c1565b95f16de3d580118a9">result_type</a></td></tr>
 <tr class="separator:a6dcbf6789c1565b95f16de3d580118a9 inherit pub_types_struct_acore_1_1unary__function"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a44f58aae627daee46179061bd37e0a55" name="a44f58aae627daee46179061bd37e0a55"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44f58aae627daee46179061bd37e0a55">&#9670;&#160;</a></span>DefaultTargetSelector()</h2>
 
@@ -196,7 +197,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   53</span>: <a class="code hl_variable" href="../../dc/d70/struct_default_target_selector.html#a4e468ce5a085ef402659db46f71d6262">me</a>(unit), <a class="code hl_variable" href="../../dc/d70/struct_default_target_selector.html#a57b3cdce9605ab6ff6bdfdf7bf264a5f">m_dist</a>(dist), <a class="code hl_variable" href="../../dc/d70/struct_default_target_selector.html#aa7d50214f6fcb051279373e3373a6f68">m_playerOnly</a>(playerOnly), <a class="code hl_variable" href="../../dc/d70/struct_default_target_selector.html#a93cae8f794de101a6a0a821961c312b8">m_aura</a>(aura) {}</div>
+<div class="ttc" id="astruct_default_target_selector_html_a4e468ce5a085ef402659db46f71d6262"><div class="ttname"><a href="../../dc/d70/struct_default_target_selector.html#a4e468ce5a085ef402659db46f71d6262">DefaultTargetSelector::me</a></div><div class="ttdeci">Unit const  * me</div><div class="ttdef"><b>Definition:</b> UnitAI.h:44</div></div>
+<div class="ttc" id="astruct_default_target_selector_html_a57b3cdce9605ab6ff6bdfdf7bf264a5f"><div class="ttname"><a href="../../dc/d70/struct_default_target_selector.html#a57b3cdce9605ab6ff6bdfdf7bf264a5f">DefaultTargetSelector::m_dist</a></div><div class="ttdeci">float m_dist</div><div class="ttdef"><b>Definition:</b> UnitAI.h:45</div></div>
+<div class="ttc" id="astruct_default_target_selector_html_a93cae8f794de101a6a0a821961c312b8"><div class="ttname"><a href="../../dc/d70/struct_default_target_selector.html#a93cae8f794de101a6a0a821961c312b8">DefaultTargetSelector::m_aura</a></div><div class="ttdeci">int32 m_aura</div><div class="ttdef"><b>Definition:</b> UnitAI.h:47</div></div>
+<div class="ttc" id="astruct_default_target_selector_html_aa7d50214f6fcb051279373e3373a6f68"><div class="ttname"><a href="../../dc/d70/struct_default_target_selector.html#aa7d50214f6fcb051279373e3373a6f68">DefaultTargetSelector::m_playerOnly</a></div><div class="ttdeci">bool m_playerOnly</div><div class="ttdef"><b>Definition:</b> UnitAI.h:46</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -223,7 +229,41 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   56</span>    {</div>
+<div class="line"><span class="lineno">   57</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/d70/struct_default_target_selector.html#a4e468ce5a085ef402659db46f71d6262">me</a>)</div>
+<div class="line"><span class="lineno">   58</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   59</span> </div>
+<div class="line"><span class="lineno">   60</span>        <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno">   61</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d70/struct_default_target_selector.html#aa7d50214f6fcb051279373e3373a6f68">m_playerOnly</a> &amp;&amp; (target-&gt;GetTypeId() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>))</div>
+<div class="line"><span class="lineno">   64</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   65</span> </div>
+<div class="line"><span class="lineno">   66</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d70/struct_default_target_selector.html#a57b3cdce9605ab6ff6bdfdf7bf264a5f">m_dist</a> &gt; 0.0f &amp;&amp; !<a class="code hl_variable" href="../../dc/d70/struct_default_target_selector.html#a4e468ce5a085ef402659db46f71d6262">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2b32551adec993309c35e8e88e35b4be">IsWithinCombatRange</a>(target, <a class="code hl_variable" href="../../dc/d70/struct_default_target_selector.html#a57b3cdce9605ab6ff6bdfdf7bf264a5f">m_dist</a>))</div>
+<div class="line"><span class="lineno">   67</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>        <span class="keywordflow">if</span> (m_dist &lt; 0.0f &amp;&amp; me-&gt;IsWithinCombatRange(target, -<a class="code hl_variable" href="../../dc/d70/struct_default_target_selector.html#a57b3cdce9605ab6ff6bdfdf7bf264a5f">m_dist</a>))</div>
+<div class="line"><span class="lineno">   70</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d70/struct_default_target_selector.html#a93cae8f794de101a6a0a821961c312b8">m_aura</a>)</div>
+<div class="line"><span class="lineno">   73</span>        {</div>
+<div class="line"><span class="lineno">   74</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d70/struct_default_target_selector.html#a93cae8f794de101a6a0a821961c312b8">m_aura</a> &gt; 0)</div>
+<div class="line"><span class="lineno">   75</span>            {</div>
+<div class="line"><span class="lineno">   76</span>                <span class="keywordflow">if</span> (!target-&gt;HasAura(<a class="code hl_variable" href="../../dc/d70/struct_default_target_selector.html#a93cae8f794de101a6a0a821961c312b8">m_aura</a>))</div>
+<div class="line"><span class="lineno">   77</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   78</span>            }</div>
+<div class="line"><span class="lineno">   79</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   80</span>            {</div>
+<div class="line"><span class="lineno">   81</span>                <span class="keywordflow">if</span> (target-&gt;HasAura(-<a class="code hl_variable" href="../../dc/d70/struct_default_target_selector.html#a93cae8f794de101a6a0a821961c312b8">m_aura</a>))</div>
+<div class="line"><span class="lineno">   82</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   83</span>            }</div>
+<div class="line"><span class="lineno">   84</span>        }</div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   87</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_unit_html_a2b32551adec993309c35e8e88e35b4be"><div class="ttname"><a href="../../da/db7/class_unit.html#a2b32551adec993309c35e8e88e35b4be">Unit::IsWithinCombatRange</a></div><div class="ttdeci">bool IsWithinCombatRange(Unit const *obj, float dist2compare) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:666</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -284,7 +324,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/AI/CoreAI/<a class="el" href="../../d9/d71/_unit_a_i_8h_source.html">UnitAI.h</a></li>
+<li><a class="el" href="../../">UnitAI.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -292,7 +332,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d70/struct_default_target_selector.html">DefaultTargetSelector</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

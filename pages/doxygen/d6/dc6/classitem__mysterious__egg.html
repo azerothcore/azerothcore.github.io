@@ -166,7 +166,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac32e296dcb700f32f6d0296f2921e6c7" name="ac32e296dcb700f32f6d0296f2921e6c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac32e296dcb700f32f6d0296f2921e6c7">&#9670;&#160;</a></span>item_mysterious_egg()</h2>
 
@@ -189,7 +190,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  154</span>: <a class="code hl_class" href="../../d2/dd6/class_item_script.html">ItemScript</a>(<span class="stringliteral">&quot;item_mysterious_egg&quot;</span>) { }</div>
+<div class="ttc" id="aclass_item_script_html"><div class="ttname"><a href="../../d2/dd6/class_item_script.html">ItemScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:382</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -228,11 +231,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/dd6/class_item_script.html#a2ac915f9f966df87a963a328363deb77">ItemScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  157</span>    {</div>
+<div class="line"><span class="lineno">  158</span>        <a class="code hl_typedef" href="../../d1/d39/_player_8h.html#a06f492a0a20f5264c8395684220fec84">ItemPosCountVec</a> dest;</div>
+<div class="line"><span class="lineno">  159</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> msg = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#af059a10625d50ca7674771ea1c1c4c4c">CanStoreNewItem</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#aadcc1e3338f8cbbe511ad060db42dfb5a843659af0a40139bfa505d7e7982477b">NULL_BAG</a>, <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#aadcc1e3338f8cbbe511ad060db42dfb5aeb5cbd7990d2f5e679ec4ecc65e83130">NULL_SLOT</a>, dest, 39883, 1); <span class="comment">// Cracked Egg</span></div>
+<div class="line"><span class="lineno">  160</span>        <span class="keywordflow">if</span> (msg == <a class="code hl_enumvalue" href="../../da/d43/_item_8h.html#a73617af2b3e5e935646638fa13678391a939b6661cd19d6c18274906abb28021c">EQUIP_ERR_OK</a>)</div>
+<div class="line"><span class="lineno">  161</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ac996a41fc3f89d8683de8695bb7db13c">StoreNewItem</a>(dest, 39883, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  162</span> </div>
+<div class="line"><span class="lineno">  163</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  164</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_item_8h_html_a73617af2b3e5e935646638fa13678391a939b6661cd19d6c18274906abb28021c"><div class="ttname"><a href="../../da/d43/_item_8h.html#a73617af2b3e5e935646638fa13678391a939b6661cd19d6c18274906abb28021c">EQUIP_ERR_OK</a></div><div class="ttdeci">@ EQUIP_ERR_OK</div><div class="ttdef"><b>Definition:</b> Item.h:41</div></div>
+<div class="ttc" id="a_player_8h_html_a06f492a0a20f5264c8395684220fec84"><div class="ttname"><a href="../../d1/d39/_player_8h.html#a06f492a0a20f5264c8395684220fec84">ItemPosCountVec</a></div><div class="ttdeci">std::vector&lt; ItemPosCount &gt; ItemPosCountVec</div><div class="ttdef"><b>Definition:</b> Player.h:772</div></div>
+<div class="ttc" id="a_unit_8h_html_aadcc1e3338f8cbbe511ad060db42dfb5a843659af0a40139bfa505d7e7982477b"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#aadcc1e3338f8cbbe511ad060db42dfb5a843659af0a40139bfa505d7e7982477b">NULL_BAG</a></div><div class="ttdeci">@ NULL_BAG</div><div class="ttdef"><b>Definition:</b> Unit.h:210</div></div>
+<div class="ttc" id="a_unit_8h_html_aadcc1e3338f8cbbe511ad060db42dfb5aeb5cbd7990d2f5e679ec4ecc65e83130"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#aadcc1e3338f8cbbe511ad060db42dfb5aeb5cbd7990d2f5e679ec4ecc65e83130">NULL_SLOT</a></div><div class="ttdeci">@ NULL_SLOT</div><div class="ttdef"><b>Definition:</b> Unit.h:211</div></div>
+<div class="ttc" id="aclass_player_html_ac996a41fc3f89d8683de8695bb7db13c"><div class="ttname"><a href="../../d8/d53/class_player.html#ac996a41fc3f89d8683de8695bb7db13c">Player::StoreNewItem</a></div><div class="ttdeci">Item * StoreNewItem(ItemPosCountVec const &amp;pos, uint32 item, bool update, int32 randomPropertyId=0)</div><div class="ttdef"><b>Definition:</b> PlayerStorage.cpp:2552</div></div>
+<div class="ttc" id="aclass_player_html_af059a10625d50ca7674771ea1c1c4c4c"><div class="ttname"><a href="../../d8/d53/class_player.html#af059a10625d50ca7674771ea1c1c4c4c">Player::CanStoreNewItem</a></div><div class="ttdeci">InventoryResult CanStoreNewItem(uint8 bag, uint8 slot, ItemPosCountVec &amp;dest, uint32 item, uint32 count, uint32 *no_space_count=nullptr) const</div><div class="ttdef"><b>Definition:</b> Player.h:1248</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../dc/da0/item__scripts_8cpp.html">item_scripts.cpp</a></li>
+<li><a class="el" href="../../">item_scripts.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -240,7 +258,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/dc6/classitem__mysterious__egg.html">item_mysterious_egg</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

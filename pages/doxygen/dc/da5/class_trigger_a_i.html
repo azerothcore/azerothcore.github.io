@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('dc/da5/class_trigger_a_i.html','../../
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../dc/d85/_passive_a_i_8h_source.html">PassiveAI.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">PassiveAI.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for TriggerAI:</div>
 <div class="dyncontent">
@@ -392,7 +392,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad8cc7eae28b11af049db88e0d8ff149b" name="ad8cc7eae28b11af049db88e0d8ff149b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad8cc7eae28b11af049db88e0d8ff149b">&#9670;&#160;</a></span>TriggerAI()</h2>
 
@@ -416,7 +417,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   84</span>: <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(c) {}</div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -445,7 +448,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a717b3431bd49e191fc77afe0fa50d827">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  107</span>{</div>
+<div class="line"><span class="lineno">  108</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_variable" href="../../d1/dac/class_creature.html#a38727e1fc7443d11afa6e37598e932ea">m_spells</a>[0])</div>
+<div class="line"><span class="lineno">  109</span>        <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_variable" href="../../d1/dac/class_creature.html#a38727e1fc7443d11afa6e37598e932ea">m_spells</a>[0], <span class="keyword">false</span>, 0, 0, summoner ? summoner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>() : <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
+<div class="line"><span class="lineno">  110</span>}</div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_creature_html_a38727e1fc7443d11afa6e37598e932ea"><div class="ttname"><a href="../../d1/dac/class_creature.html#a38727e1fc7443d11afa6e37598e932ea">Creature::m_spells</a></div><div class="ttdeci">uint32 m_spells[MAX_CREATURE_SPELLS]</div><div class="ttdef"><b>Definition:</b> Creature.h:241</div></div>
+<div class="ttc" id="aclass_object_guid_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa979e7a4774b35bf83ed137543d517b1" name="aa979e7a4774b35bf83ed137543d517b1"></a>
@@ -471,12 +483,20 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  113</span>{</div>
+<div class="line"><span class="lineno">  114</span>    <span class="keywordflow">if</span> (creature-&gt;IsTrigger() &amp;&amp; creature-&gt;m_spells[0])</div>
+<div class="line"><span class="lineno">  115</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d7/d43/_creature_a_i_8h.html#adf806592547de59418c6070d69c5efb9a01dc7d3add2acacf44721592378df415">PERMIT_BASE_SPECIAL</a>;</div>
+<div class="line"><span class="lineno">  116</span> </div>
+<div class="line"><span class="lineno">  117</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d7/d43/_creature_a_i_8h.html#adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0">PERMIT_BASE_NO</a>;</div>
+<div class="line"><span class="lineno">  118</span>}</div>
+<div class="ttc" id="a_creature_a_i_8h_html_adf806592547de59418c6070d69c5efb9a01dc7d3add2acacf44721592378df415"><div class="ttname"><a href="../../d7/d43/_creature_a_i_8h.html#adf806592547de59418c6070d69c5efb9a01dc7d3add2acacf44721592378df415">PERMIT_BASE_SPECIAL</a></div><div class="ttdeci">@ PERMIT_BASE_SPECIAL</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:235</div></div>
+<div class="ttc" id="a_creature_a_i_8h_html_adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0"><div class="ttname"><a href="../../d7/d43/_creature_a_i_8h.html#adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0">PERMIT_BASE_NO</a></div><div class="ttdeci">@ PERMIT_BASE_NO</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:230</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/AI/CoreAI/<a class="el" href="../../dc/d85/_passive_a_i_8h_source.html">PassiveAI.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/AI/CoreAI/<a class="el" href="../../d2/d36/_passive_a_i_8cpp.html">PassiveAI.cpp</a></li>
+<li><a class="el" href="../../">PassiveAI.h</a></li>
+<li><a class="el" href="../../">PassiveAI.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -484,7 +504,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/da5/class_trigger_a_i.html">TriggerAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:29 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

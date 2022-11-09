@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d0/d2f/class_simple_charmed_a_i.html',
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d9/d71/_unit_a_i_8h_source.html">UnitAI.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">UnitAI.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for SimpleCharmedAI:</div>
 <div class="dyncontent">
@@ -242,7 +242,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ada8d12d7df75dca5c87c633348d1b27b" name="ada8d12d7df75dca5c87c633348d1b27b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ada8d12d7df75dca5c87c633348d1b27b">&#9670;&#160;</a></span>SimpleCharmedAI()</h2>
 
@@ -266,7 +267,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  367</span>: <a class="code hl_class" href="../../d2/d46/class_player_a_i.html">PlayerAI</a>(player) {}</div>
+<div class="ttc" id="aclass_player_a_i_html"><div class="ttname"><a href="../../d2/d46/class_player_a_i.html">PlayerAI</a></div><div class="ttdef"><b>Definition:</b> UnitAI.h:354</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -295,12 +298,55 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../dd/d9c/class_unit_a_i.html#a7288294b38c6161ab1218d75fe622fc0">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  327</span>{</div>
+<div class="line"><span class="lineno">  328</span>    <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* charmer = <a class="code hl_variable" href="../../d2/d46/class_player_a_i.html#a70a995521c55fb3d73d14e6be883eccc">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a3e41c41854a54e38fbdff48ed8ce5062">GetCharmer</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>();</div>
+<div class="line"><span class="lineno">  329</span> </div>
+<div class="line"><span class="lineno">  330</span>    <span class="comment">//kill self if charm aura has infinite duration</span></div>
+<div class="line"><span class="lineno">  331</span>    <span class="keywordflow">if</span> (charmer-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#aef9d08b3201a7ca820db28b6bbdd9463">IsInEvadeMode</a>())</div>
+<div class="line"><span class="lineno">  332</span>    {</div>
+<div class="line"><span class="lineno">  333</span>        <a class="code hl_typedef" href="../../da/db7/class_unit.html#adcdd87d0c137619dfc869536c1315dd7">Unit::AuraEffectList</a> <span class="keyword">const</span>&amp; auras = <a class="code hl_variable" href="../../d2/d46/class_player_a_i.html#a70a995521c55fb3d73d14e6be883eccc">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0b6417e1489c3f2e1ced1e0384d48ff8">GetAuraEffectsByType</a>(<a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a7b5d0b48f9a7e84bf7a896602e8c66b9">SPELL_AURA_MOD_CHARM</a>);</div>
+<div class="line"><span class="lineno">  334</span>        <span class="keywordflow">for</span> (Unit::AuraEffectList::const_iterator iter = auras.begin(); iter != auras.end(); ++iter)</div>
+<div class="line"><span class="lineno">  335</span>            <span class="keywordflow">if</span> ((*iter)-&gt;GetCasterGUID() == charmer-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>() &amp;&amp; (*iter)-&gt;GetBase()-&gt;IsPermanent())</div>
+<div class="line"><span class="lineno">  336</span>            {</div>
+<div class="line"><span class="lineno">  337</span>                <a class="code hl_function" href="../../da/db7/class_unit.html#a413f3a85a1e57ce8c13b8870347830f5">Unit::Kill</a>(charmer, <a class="code hl_variable" href="../../d2/d46/class_player_a_i.html#a70a995521c55fb3d73d14e6be883eccc">me</a>);</div>
+<div class="line"><span class="lineno">  338</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  339</span>            }</div>
+<div class="line"><span class="lineno">  340</span>    }</div>
+<div class="line"><span class="lineno">  341</span> </div>
+<div class="line"><span class="lineno">  342</span>    <span class="keywordflow">if</span> (!charmer-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">IsInCombat</a>())</div>
+<div class="line"><span class="lineno">  343</span>        <a class="code hl_variable" href="../../d2/d46/class_player_a_i.html#a70a995521c55fb3d73d14e6be883eccc">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MoveFollow</a>(charmer, <a class="code hl_define" href="../../d7/d23/_pet_defines_8h.html#a83e96c6d024ceb5d1189baac7b823d5d">PET_FOLLOW_DIST</a>, <a class="code hl_variable" href="../../d2/d46/class_player_a_i.html#a70a995521c55fb3d73d14e6be883eccc">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aacb06d14c640d7758b3ac3afa874a151">GetFollowAngle</a>());</div>
+<div class="line"><span class="lineno">  344</span> </div>
+<div class="line"><span class="lineno">  345</span>    <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_variable" href="../../d2/d46/class_player_a_i.html#a70a995521c55fb3d73d14e6be883eccc">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>();</div>
+<div class="line"><span class="lineno">  346</span>    <span class="keywordflow">if</span> (!target || !charmer-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1a733a908c073be90e5174601d448002">IsValidAttackTarget</a>(target))</div>
+<div class="line"><span class="lineno">  347</span>        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">AttackStart</a>(charmer-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#aac094f3afa9cbb202f7a6e42c23122b1">SelectNearestTargetInAttackDistance</a>(<a class="code hl_define" href="../../de/daf/_object_defines_8h.html#a076c4dc8a346115fe776c593c413ef2c">ATTACK_DISTANCE</a>));</div>
+<div class="line"><span class="lineno">  348</span>}</div>
+<div class="ttc" id="a_object_defines_8h_html_a076c4dc8a346115fe776c593c413ef2c"><div class="ttname"><a href="../../de/daf/_object_defines_8h.html#a076c4dc8a346115fe776c593c413ef2c">ATTACK_DISTANCE</a></div><div class="ttdeci">#define ATTACK_DISTANCE</div><div class="ttdef"><b>Definition:</b> ObjectDefines.h:25</div></div>
+<div class="ttc" id="a_pet_defines_8h_html_a83e96c6d024ceb5d1189baac7b823d5d"><div class="ttname"><a href="../../d7/d23/_pet_defines_8h.html#a83e96c6d024ceb5d1189baac7b823d5d">PET_FOLLOW_DIST</a></div><div class="ttdeci">#define PET_FOLLOW_DIST</div><div class="ttdef"><b>Definition:</b> PetDefines.h:193</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a7b5d0b48f9a7e84bf7a896602e8c66b9"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a7b5d0b48f9a7e84bf7a896602e8c66b9">SPELL_AURA_MOD_CHARM</a></div><div class="ttdeci">@ SPELL_AURA_MOD_CHARM</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:69</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_aac094f3afa9cbb202f7a6e42c23122b1"><div class="ttname"><a href="../../d1/dac/class_creature.html#aac094f3afa9cbb202f7a6e42c23122b1">Creature::SelectNearestTargetInAttackDistance</a></div><div class="ttdeci">Unit * SelectNearestTargetInAttackDistance(float dist) const</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2312</div></div>
+<div class="ttc" id="aclass_creature_html_aef9d08b3201a7ca820db28b6bbdd9463"><div class="ttname"><a href="../../d1/dac/class_creature.html#aef9d08b3201a7ca820db28b6bbdd9463">Creature::IsInEvadeMode</a></div><div class="ttdeci">bool IsInEvadeMode() const</div><div class="ttdef"><b>Definition:</b> Creature.h:128</div></div>
+<div class="ttc" id="aclass_motion_master_html_a5c4f6d1163174b909c83901d7f770d72"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MotionMaster::MoveFollow</a></div><div class="ttdeci">void MoveFollow(Unit *target, float dist, float angle, MovementSlot slot=MOTION_SLOT_ACTIVE)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:367</div></div>
+<div class="ttc" id="aclass_object_html_ab0e2ef1ac1daa91476f749e0ec6ad3c6"><div class="ttname"><a href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">Object::ToCreature</a></div><div class="ttdeci">Creature * ToCreature()</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_player_a_i_html_a70a995521c55fb3d73d14e6be883eccc"><div class="ttname"><a href="../../d2/d46/class_player_a_i.html#a70a995521c55fb3d73d14e6be883eccc">PlayerAI::me</a></div><div class="ttdeci">Player *const me</div><div class="ttdef"><b>Definition:</b> UnitAI.h:356</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_ae120634c255d365f1567e341e2cf1feb"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">UnitAI::AttackStart</a></div><div class="ttdeci">virtual void AttackStart(Unit *)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:28</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a0b6417e1489c3f2e1ced1e0384d48ff8"><div class="ttname"><a href="../../da/db7/class_unit.html#a0b6417e1489c3f2e1ced1e0384d48ff8">Unit::GetAuraEffectsByType</a></div><div class="ttdeci">AuraEffectList const &amp; GetAuraEffectsByType(AuraType type) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1964</div></div>
+<div class="ttc" id="aclass_unit_html_a1a733a908c073be90e5174601d448002"><div class="ttname"><a href="../../da/db7/class_unit.html#a1a733a908c073be90e5174601d448002">Unit::IsValidAttackTarget</a></div><div class="ttdeci">bool IsValidAttackTarget(Unit const *target) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:13764</div></div>
+<div class="ttc" id="aclass_unit_html_a3e41c41854a54e38fbdff48ed8ce5062"><div class="ttname"><a href="../../da/db7/class_unit.html#a3e41c41854a54e38fbdff48ed8ce5062">Unit::GetCharmer</a></div><div class="ttdeci">Unit * GetCharmer() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10556</div></div>
+<div class="ttc" id="aclass_unit_html_a413f3a85a1e57ce8c13b8870347830f5"><div class="ttname"><a href="../../da/db7/class_unit.html#a413f3a85a1e57ce8c13b8870347830f5">Unit::Kill</a></div><div class="ttdeci">static void Kill(Unit *killer, Unit *victim, bool durabilityLoss=true, WeaponAttackType attackType=BASE_ATTACK, SpellInfo const *spellProto=nullptr, Spell const *spell=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:17752</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_aacb06d14c640d7758b3ac3afa874a151"><div class="ttname"><a href="../../da/db7/class_unit.html#aacb06d14c640d7758b3ac3afa874a151">Unit::GetFollowAngle</a></div><div class="ttdeci">virtual float GetFollowAngle() const</div><div class="ttdef"><b>Definition:</b> Unit.h:2387</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_unit_html_adcdd87d0c137619dfc869536c1315dd7"><div class="ttname"><a href="../../da/db7/class_unit.html#adcdd87d0c137619dfc869536c1315dd7">Unit::AuraEffectList</a></div><div class="ttdeci">std::list&lt; AuraEffect * &gt; AuraEffectList</div><div class="ttdef"><b>Definition:</b> Unit.h:1306</div></div>
+<div class="ttc" id="aclass_unit_html_af5e75d013dfa8a8b888d7714992e3f2a"><div class="ttname"><a href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">Unit::IsInCombat</a></div><div class="ttdeci">bool IsInCombat() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1685</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/AI/CoreAI/<a class="el" href="../../d9/d71/_unit_a_i_8h_source.html">UnitAI.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/AI/CoreAI/<a class="el" href="../../dd/d36/_unit_a_i_8cpp.html">UnitAI.cpp</a></li>
+<li><a class="el" href="../../">UnitAI.h</a></li>
+<li><a class="el" href="../../">UnitAI.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -308,7 +354,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d2f/class_simple_charmed_a_i.html">SimpleCharmedAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:15 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d5/d5f/struct_non_tank_target_selector
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d9/d71/_unit_a_i_8h_source.html">UnitAI.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">UnitAI.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for NonTankTargetSelector:</div>
 <div class="dyncontent">
@@ -146,7 +146,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a6dcbf6789c1565b95f16de3d580118a9 inherit pub_types_struct_acore_1_1unary__function"><td class="memItemLeft" align="right" valign="top">typedef bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc9/struct_acore_1_1unary__function.html#a6dcbf6789c1565b95f16de3d580118a9">result_type</a></td></tr>
 <tr class="separator:a6dcbf6789c1565b95f16de3d580118a9 inherit pub_types_struct_acore_1_1unary__function"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac8d9ecc1fa9a29dc54e33eae9c1fb8ce" name="ac8d9ecc1fa9a29dc54e33eae9c1fb8ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac8d9ecc1fa9a29dc54e33eae9c1fb8ce">&#9670;&#160;</a></span>NonTankTargetSelector()</h2>
 
@@ -180,7 +181,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  109</span>: <a class="code hl_variable" href="../../d5/d5f/struct_non_tank_target_selector.html#a314c5cb35708814844a5c8f72d91511f">_source</a>(source), <a class="code hl_variable" href="../../d5/d5f/struct_non_tank_target_selector.html#a59a14629522e0a3850991b1852d368ee">_playerOnly</a>(playerOnly) { }</div>
+<div class="ttc" id="astruct_non_tank_target_selector_html_a314c5cb35708814844a5c8f72d91511f"><div class="ttname"><a href="../../d5/d5f/struct_non_tank_target_selector.html#a314c5cb35708814844a5c8f72d91511f">NonTankTargetSelector::_source</a></div><div class="ttdeci">Creature const  * _source</div><div class="ttdef"><b>Definition:</b> UnitAI.h:113</div></div>
+<div class="ttc" id="astruct_non_tank_target_selector_html_a59a14629522e0a3850991b1852d368ee"><div class="ttname"><a href="../../d5/d5f/struct_non_tank_target_selector.html#a59a14629522e0a3850991b1852d368ee">NonTankTargetSelector::_playerOnly</a></div><div class="ttdeci">bool _playerOnly</div><div class="ttdef"><b>Definition:</b> UnitAI.h:114</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -199,7 +203,18 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  393</span>{</div>
+<div class="line"><span class="lineno">  394</span>    <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno">  395</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  396</span> </div>
+<div class="line"><span class="lineno">  397</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d5f/struct_non_tank_target_selector.html#a59a14629522e0a3850991b1852d368ee">_playerOnly</a> &amp;&amp; target-&gt;GetTypeId() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  398</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  399</span> </div>
+<div class="line"><span class="lineno">  400</span>    <span class="keywordflow">return</span> target != <a class="code hl_variable" href="../../d5/d5f/struct_non_tank_target_selector.html#a314c5cb35708814844a5c8f72d91511f">_source</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>();</div>
+<div class="line"><span class="lineno">  401</span>}</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -248,8 +263,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/AI/CoreAI/<a class="el" href="../../d9/d71/_unit_a_i_8h_source.html">UnitAI.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/AI/CoreAI/<a class="el" href="../../dd/d36/_unit_a_i_8cpp.html">UnitAI.cpp</a></li>
+<li><a class="el" href="../../">UnitAI.h</a></li>
+<li><a class="el" href="../../">UnitAI.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -257,7 +272,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d5f/struct_non_tank_target_selector.html">NonTankTargetSelector</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

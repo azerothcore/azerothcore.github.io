@@ -118,7 +118,7 @@ $(document).ready(function(){initNavTree('d7/dc4/class_task_scheduler.html','../
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../db/dd6/_task_scheduler_8h_source.html">TaskScheduler.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">TaskScheduler.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -531,7 +531,13 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  170</span>        : <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#a506cce7f63a31174db2b929982e8f658">self_reference</a>(<span class="keyword">this</span>, [](<a class="code hl_class" href="../../d7/dc4/class_task_scheduler.html">TaskScheduler</a> <span class="keyword">const</span>*) { }), <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#ac9a7571a8ccedf953d232597cbbd95cc">_now</a>(clock_t::now()), <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#a92d2acde727cf1db3eeed35281b75341">_predicate</a>(<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#aeabbb2b8f0438a81f10bf650d5c8a7ee">EmptyValidator</a>) { }</div>
+<div class="ttc" id="aclass_task_scheduler_html"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html">TaskScheduler</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:36</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a506cce7f63a31174db2b929982e8f658"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a506cce7f63a31174db2b929982e8f658">TaskScheduler::self_reference</a></div><div class="ttdeci">std::shared_ptr&lt; TaskScheduler &gt; self_reference</div><div class="ttdoc">Contains a self reference to track if this object was deleted or not.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:143</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a92d2acde727cf1db3eeed35281b75341"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a92d2acde727cf1db3eeed35281b75341">TaskScheduler::_predicate</a></div><div class="ttdeci">predicate_t _predicate</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:157</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_ac9a7571a8ccedf953d232597cbbd95cc"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#ac9a7571a8ccedf953d232597cbbd95cc">TaskScheduler::_now</a></div><div class="ttdeci">timepoint_t _now</div><div class="ttdoc">The current time point (now)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:146</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_aeabbb2b8f0438a81f10bf650d5c8a7ee"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#aeabbb2b8f0438a81f10bf650d5c8a7ee">TaskScheduler::EmptyValidator</a></div><div class="ttdeci">static bool EmptyValidator()</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:159</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7a4238b1a25be51166721ab89ecae50d" name="a7a4238b1a25be51166721ab89ecae50d"></a>
@@ -559,7 +565,8 @@ template&lt;typename P &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  173</span>        : <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#a506cce7f63a31174db2b929982e8f658">self_reference</a>(<span class="keyword">this</span>, [](<a class="code hl_class" href="../../d7/dc4/class_task_scheduler.html">TaskScheduler</a> <span class="keyword">const</span>*) { }), <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#ac9a7571a8ccedf953d232597cbbd95cc">_now</a>(clock_t::now()), <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#a92d2acde727cf1db3eeed35281b75341">_predicate</a>(std::forward&lt;P&gt;(predicate)) { }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abdd7c9c3694ee4784b511bd622c5d1c3" name="abdd7c9c3694ee4784b511bd622c5d1c3"></a>
@@ -631,7 +638,12 @@ template&lt;typename P &gt; </div>
       </table>
 </div><div class="memdoc">
 <p >Schedule an callable function that is executed at the next update tick. Its safe to modify the <a class="el" href="../../d7/dc4/class_task_scheduler.html">TaskScheduler</a> from within the callable. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#a752db7785ee3a4cb54e674a7a85e1156">_asyncHolder</a>.push(callable);</div>
+<div class="line"><span class="lineno">   30</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   31</span>}</div>
+<div class="ttc" id="aclass_task_scheduler_html_a752db7785ee3a4cb54e674a7a85e1156"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a752db7785ee3a4cb54e674a7a85e1156">TaskScheduler::_asyncHolder</a></div><div class="ttdeci">AsyncHolder _asyncHolder</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:155</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a05da7a474b80d725c991dde9d24df4a4" name="a05da7a474b80d725c991dde9d24df4a4"></a>
@@ -650,7 +662,15 @@ template&lt;typename P &gt; </div>
 </div><div class="memdoc">
 <p >Cancels all tasks. Never call this from within a task context! Use <a class="el" href="../../d2/dd9/class_task_context.html#a6aa85817c2bf7c7f2f868d4a0a9fdf98" title="Cancels all tasks from within the context.">TaskContext::CancelAll</a> instead! </p>
 <p >Clear the task holder</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#af1ed48e830753b5ca1b209d6d137bbeb">_task_holder</a>.<a class="code hl_function" href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#adc64d35670bf0d41519cb9998d3db17e">Clear</a>();</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#a752db7785ee3a4cb54e674a7a85e1156">_asyncHolder</a> = <a class="code hl_typedef" href="../../d7/dc4/class_task_scheduler.html#acdbf8f3c6c8515347b4fd2ad48d3f822">AsyncHolder</a>();</div>
+<div class="line"><span class="lineno">   38</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   39</span>}</div>
+<div class="ttc" id="aclass_task_scheduler_1_1_task_queue_html_adc64d35670bf0d41519cb9998d3db17e"><div class="ttname"><a href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#adc64d35670bf0d41519cb9998d3db17e">TaskScheduler::TaskQueue::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:127</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_acdbf8f3c6c8515347b4fd2ad48d3f822"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#acdbf8f3c6c8515347b4fd2ad48d3f822">TaskScheduler::AsyncHolder</a></div><div class="ttdeci">std::queue&lt; std::function&lt; void()&gt; &gt; AsyncHolder</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:151</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_af1ed48e830753b5ca1b209d6d137bbeb"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#af1ed48e830753b5ca1b209d6d137bbeb">TaskScheduler::_task_holder</a></div><div class="ttdeci">TaskQueue _task_holder</div><div class="ttdoc">The Task Queue which contains all task objects.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:149</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa4076cb693d644584f7475dd4f5f4b5d" name="aa4076cb693d644584f7475dd4f5f4b5d"></a>
@@ -669,7 +689,16 @@ template&lt;typename P &gt; </div>
       </table>
 </div><div class="memdoc">
 <p >Cancel all tasks of a single group. Never call this from within a task context! Use <a class="el" href="../../d2/dd9/class_task_context.html#a95dca8900ebf6709d9c5535f39c7277f" title="Cancel all tasks of a single group from within the context.">TaskContext::CancelGroup</a> instead! </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   42</span>{</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#af1ed48e830753b5ca1b209d6d137bbeb">_task_holder</a>.<a class="code hl_function" href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#a6efe3145679913fde4d4cc1f8cc819e6">RemoveIf</a>([group](<a class="code hl_typedef" href="../../d7/dc4/class_task_scheduler.html#a0c6c7a95026322208866b6b829e0b598">TaskContainer</a> <span class="keyword">const</span> &amp; task) -&gt; <span class="keywordtype">bool</span></div>
+<div class="line"><span class="lineno">   44</span>    {</div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">return</span> task-&gt;IsInGroup(group);</div>
+<div class="line"><span class="lineno">   46</span>    });</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   48</span>}</div>
+<div class="ttc" id="aclass_task_scheduler_1_1_task_queue_html_a6efe3145679913fde4d4cc1f8cc819e6"><div class="ttname"><a href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#a6efe3145679913fde4d4cc1f8cc819e6">TaskScheduler::TaskQueue::RemoveIf</a></div><div class="ttdeci">void RemoveIf(std::function&lt; bool(TaskContainer const &amp;)&gt; const &amp;filter)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:132</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a0c6c7a95026322208866b6b829e0b598"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0c6c7a95026322208866b6b829e0b598">TaskScheduler::TaskContainer</a></div><div class="ttdeci">std::shared_ptr&lt; Task &gt; TaskContainer</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:109</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a16b63643c58023c8e22f75e5782af4bf" name="a16b63643c58023c8e22f75e5782af4bf"></a>
@@ -688,7 +717,14 @@ template&lt;typename P &gt; </div>
       </table>
 </div><div class="memdoc">
 <p >Cancels all groups in the given std::vector. Hint: Use std::initializer_list for this: "{1, 2, 3, 4}" </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>
+<div class="line"><span class="lineno">   52</span>    std::for_each(groups.begin(), groups.end(),</div>
+<div class="line"><span class="lineno">   53</span>                  std::bind(&amp;<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#aa4076cb693d644584f7475dd4f5f4b5d">TaskScheduler::CancelGroup</a>, <span class="keyword">this</span>, std::placeholders::_1));</div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   56</span>}</div>
+<div class="ttc" id="aclass_task_scheduler_html_aa4076cb693d644584f7475dd4f5f4b5d"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#aa4076cb693d644584f7475dd4f5f4b5d">TaskScheduler::CancelGroup</a></div><div class="ttdeci">TaskScheduler &amp; CancelGroup(group_t const group)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:41</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abba53e9320119263b413086d3cf98b06" name="abba53e9320119263b413086d3cf98b06"></a>
@@ -707,7 +743,11 @@ template&lt;typename P &gt; </div>
 </div><div class="memdoc">
 
 <p>Clears the validator which is asked if tasks are allowed to be executed. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   10</span>{</div>
+<div class="line"><span class="lineno">   11</span>    <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#a92d2acde727cf1db3eeed35281b75341">_predicate</a> = <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#aeabbb2b8f0438a81f10bf650d5c8a7ee">EmptyValidator</a>;</div>
+<div class="line"><span class="lineno">   12</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   13</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0254703c6e20f5214682fbad8f96dcb2" name="a0254703c6e20f5214682fbad8f96dcb2"></a>
@@ -737,7 +777,16 @@ template&lt;class _Rep , class _Period &gt; </div>
 </div><div class="memdoc">
 
 <p>Delays all tasks with the given duration. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  266</span>    {</div>
+<div class="line"><span class="lineno">  267</span>        <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#af1ed48e830753b5ca1b209d6d137bbeb">_task_holder</a>.<a class="code hl_function" href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#a0ad5b4de404b1f8312341a28a1a58b5b">ModifyIf</a>([&amp;duration](<a class="code hl_typedef" href="../../d7/dc4/class_task_scheduler.html#a0c6c7a95026322208866b6b829e0b598">TaskContainer</a> <span class="keyword">const</span> &amp; task) -&gt; <span class="keywordtype">bool</span></div>
+<div class="line"><span class="lineno">  268</span>        {</div>
+<div class="line"><span class="lineno">  269</span>            task-&gt;_end += duration;</div>
+<div class="line"><span class="lineno">  270</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  271</span>        });</div>
+<div class="line"><span class="lineno">  272</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  273</span>    }</div>
+<div class="ttc" id="aclass_task_scheduler_1_1_task_queue_html_a0ad5b4de404b1f8312341a28a1a58b5b"><div class="ttname"><a href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#a0ad5b4de404b1f8312341a28a1a58b5b">TaskScheduler::TaskQueue::ModifyIf</a></div><div class="ttdeci">void ModifyIf(std::function&lt; bool(TaskContainer const &amp;)&gt; const &amp;filter)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:145</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a710aca9b74eabea0163fcb2b321a39e3" name="a710aca9b74eabea0163fcb2b321a39e3"></a>
@@ -777,7 +826,12 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
 </div><div class="memdoc">
 
 <p>Delays all tasks with a random duration between min and max. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  279</span>    {</div>
+<div class="line"><span class="lineno">  280</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0254703c6e20f5214682fbad8f96dcb2">DelayAll</a>(<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#aef5466d24be443ceaacd982b960eefd6">RandomDurationBetween</a>(min, max));</div>
+<div class="line"><span class="lineno">  281</span>    }</div>
+<div class="ttc" id="aclass_task_scheduler_html_a0254703c6e20f5214682fbad8f96dcb2"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0254703c6e20f5214682fbad8f96dcb2">TaskScheduler::DelayAll</a></div><div class="ttdeci">TaskScheduler &amp; DelayAll(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdoc">Delays all tasks with the given duration.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:265</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_aef5466d24be443ceaacd982b960eefd6"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#aef5466d24be443ceaacd982b960eefd6">TaskScheduler::RandomDurationBetween</a></div><div class="ttdeci">static std::chrono::milliseconds RandomDurationBetween(std::chrono::duration&lt; _RepLeft, _PeriodLeft &gt; const &amp;min, std::chrono::duration&lt; _RepRight, _PeriodRight &gt; const &amp;max)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:385</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a91f6ef47e22b95b487999bbaaa303c82" name="a91f6ef47e22b95b487999bbaaa303c82"></a>
@@ -817,7 +871,22 @@ template&lt;class _Rep , class _Period &gt; </div>
 </div><div class="memdoc">
 
 <p>Delays all tasks of a group with the given duration. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  286</span>    {</div>
+<div class="line"><span class="lineno">  287</span>        <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#af1ed48e830753b5ca1b209d6d137bbeb">_task_holder</a>.<a class="code hl_function" href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#a0ad5b4de404b1f8312341a28a1a58b5b">ModifyIf</a>([&amp;duration, group](<a class="code hl_typedef" href="../../d7/dc4/class_task_scheduler.html#a0c6c7a95026322208866b6b829e0b598">TaskContainer</a> <span class="keyword">const</span> &amp; task) -&gt; <span class="keywordtype">bool</span></div>
+<div class="line"><span class="lineno">  288</span>        {</div>
+<div class="line"><span class="lineno">  289</span>            <span class="keywordflow">if</span> (task-&gt;IsInGroup(group))</div>
+<div class="line"><span class="lineno">  290</span>            {</div>
+<div class="line"><span class="lineno">  291</span>                task-&gt;_end += duration;</div>
+<div class="line"><span class="lineno">  292</span>                return true;</div>
+<div class="line"><span class="lineno">  293</span>            }</div>
+<div class="line"><span class="lineno">  294</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  295</span>            {</div>
+<div class="line"><span class="lineno">  296</span>                return false;</div>
+<div class="line"><span class="lineno">  297</span>            }</div>
+<div class="line"><span class="lineno">  298</span>        });</div>
+<div class="line"><span class="lineno">  299</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  300</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae5d12183c090335b291217db5c670e6f" name="ae5d12183c090335b291217db5c670e6f"></a>
@@ -863,7 +932,11 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
 </div><div class="memdoc">
 
 <p>Delays all tasks of a group with a random duration between min and max. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  307</span>    {</div>
+<div class="line"><span class="lineno">  308</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a91f6ef47e22b95b487999bbaaa303c82">DelayGroup</a>(group, <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#aef5466d24be443ceaacd982b960eefd6">RandomDurationBetween</a>(min, max));</div>
+<div class="line"><span class="lineno">  309</span>    }</div>
+<div class="ttc" id="aclass_task_scheduler_html_a91f6ef47e22b95b487999bbaaa303c82"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a91f6ef47e22b95b487999bbaaa303c82">TaskScheduler::DelayGroup</a></div><div class="ttdeci">TaskScheduler &amp; DelayGroup(group_t const group, std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdoc">Delays all tasks of a group with the given duration.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:285</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1a4145dfbe6e4914a05ddfe6895a2272" name="a1a4145dfbe6e4914a05ddfe6895a2272"></a>
@@ -891,7 +964,55 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
 </div><div class="memdoc">
 
 <p>Dispatch remaining tasks. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   65</span>{</div>
+<div class="line"><span class="lineno">   66</span>    <span class="comment">// If the validation failed abort the dispatching here.</span></div>
+<div class="line"><span class="lineno">   67</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#a92d2acde727cf1db3eeed35281b75341">_predicate</a>())</div>
+<div class="line"><span class="lineno">   68</span>    {</div>
+<div class="line"><span class="lineno">   69</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   70</span>    }</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>    <span class="comment">// Process all asyncs</span></div>
+<div class="line"><span class="lineno">   73</span>    <span class="keywordflow">while</span> (!<a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#a752db7785ee3a4cb54e674a7a85e1156">_asyncHolder</a>.empty())</div>
+<div class="line"><span class="lineno">   74</span>    {</div>
+<div class="line"><span class="lineno">   75</span>        <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#a752db7785ee3a4cb54e674a7a85e1156">_asyncHolder</a>.front()();</div>
+<div class="line"><span class="lineno">   76</span>        <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#a752db7785ee3a4cb54e674a7a85e1156">_asyncHolder</a>.pop();</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>        <span class="comment">// If the validation failed abort the dispatching here.</span></div>
+<div class="line"><span class="lineno">   79</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#a92d2acde727cf1db3eeed35281b75341">_predicate</a>())</div>
+<div class="line"><span class="lineno">   80</span>        {</div>
+<div class="line"><span class="lineno">   81</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   82</span>        }</div>
+<div class="line"><span class="lineno">   83</span>    }</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>    <span class="keywordflow">while</span> (!<a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#af1ed48e830753b5ca1b209d6d137bbeb">_task_holder</a>.<a class="code hl_function" href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#a151898f14e9a1628ddb52b6840fcc4fc">IsEmpty</a>())</div>
+<div class="line"><span class="lineno">   86</span>    {</div>
+<div class="line"><span class="lineno">   87</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#af1ed48e830753b5ca1b209d6d137bbeb">_task_holder</a>.<a class="code hl_function" href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#a8bbd41b304f7e69df565af75f4846bda">First</a>()-&gt;_end &gt; <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#ac9a7571a8ccedf953d232597cbbd95cc">_now</a>)</div>
+<div class="line"><span class="lineno">   88</span>        {</div>
+<div class="line"><span class="lineno">   89</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   90</span>        }</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>        <span class="comment">// Perfect forward the context to the handler</span></div>
+<div class="line"><span class="lineno">   93</span>        <span class="comment">// Use weak references to catch destruction before callbacks.</span></div>
+<div class="line"><span class="lineno">   94</span>        <a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context(<a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#af1ed48e830753b5ca1b209d6d137bbeb">_task_holder</a>.<a class="code hl_function" href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#a5f5d6b5a4a5e4ec93ff94619485736cb">Pop</a>(), std::weak_ptr&lt;TaskScheduler&gt;(<a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#a506cce7f63a31174db2b929982e8f658">self_reference</a>));</div>
+<div class="line"><span class="lineno">   95</span> </div>
+<div class="line"><span class="lineno">   96</span>        <span class="comment">// Invoke the context</span></div>
+<div class="line"><span class="lineno">   97</span>        context.Invoke();</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span>        <span class="comment">// If the validation failed abort the dispatching here.</span></div>
+<div class="line"><span class="lineno">  100</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#a92d2acde727cf1db3eeed35281b75341">_predicate</a>())</div>
+<div class="line"><span class="lineno">  101</span>        {</div>
+<div class="line"><span class="lineno">  102</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  103</span>        }</div>
+<div class="line"><span class="lineno">  104</span>    }</div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>    <span class="comment">// On finish call the final callback</span></div>
+<div class="line"><span class="lineno">  107</span>    callback();</div>
+<div class="line"><span class="lineno">  108</span>}</div>
+<div class="ttc" id="aclass_task_context_html"><div class="ttname"><a href="../../d2/dd9/class_task_context.html">TaskContext</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
+<div class="ttc" id="aclass_task_scheduler_1_1_task_queue_html_a151898f14e9a1628ddb52b6840fcc4fc"><div class="ttname"><a href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#a151898f14e9a1628ddb52b6840fcc4fc">TaskScheduler::TaskQueue::IsEmpty</a></div><div class="ttdeci">bool IsEmpty() const</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:162</div></div>
+<div class="ttc" id="aclass_task_scheduler_1_1_task_queue_html_a5f5d6b5a4a5e4ec93ff94619485736cb"><div class="ttname"><a href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#a5f5d6b5a4a5e4ec93ff94619485736cb">TaskScheduler::TaskQueue::Pop</a></div><div class="ttdeci">TaskContainer Pop()</div><div class="ttdoc">Pops the task out of the container.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:115</div></div>
+<div class="ttc" id="aclass_task_scheduler_1_1_task_queue_html_a8bbd41b304f7e69df565af75f4846bda"><div class="ttname"><a href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#a8bbd41b304f7e69df565af75f4846bda">TaskScheduler::TaskQueue::First</a></div><div class="ttdeci">TaskContainer const &amp; First() const</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:122</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afa0f29cd0a38f5af81b8cd2888c81fa1" name="afa0f29cd0a38f5af81b8cd2888c81fa1"></a>
@@ -916,7 +1037,9 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  165</span>    {</div>
+<div class="line"><span class="lineno">  166</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aeabbb2b8f0438a81f10bf650d5c8a7ee" name="aeabbb2b8f0438a81f10bf650d5c8a7ee"></a>
@@ -941,7 +1064,10 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  160</span>    {</div>
+<div class="line"><span class="lineno">  161</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  162</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab507424a3a38170bb67f1a44d52d5e04" name="ab507424a3a38170bb67f1a44d52d5e04"></a>
@@ -969,7 +1095,12 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
 </div><div class="memdoc">
 
 <p>Insert a new task to the enqueued tasks. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   59</span>{</div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#af1ed48e830753b5ca1b209d6d137bbeb">_task_holder</a>.<a class="code hl_function" href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#aff6bc8c7fae6640b555ddb027cf0f6ab">Push</a>(std::move(task));</div>
+<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   62</span>}</div>
+<div class="ttc" id="aclass_task_scheduler_1_1_task_queue_html_aff6bc8c7fae6640b555ddb027cf0f6ab"><div class="ttname"><a href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#aff6bc8c7fae6640b555ddb027cf0f6ab">TaskScheduler::TaskQueue::Push</a></div><div class="ttdeci">void Push(TaskContainer &amp;&amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:110</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9d138ac49b394ad151661465e4180de6" name="a9d138ac49b394ad151661465e4180de6"></a>
@@ -1059,7 +1190,16 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  387</span>    {</div>
+<div class="line"><span class="lineno">  388</span>        <span class="keyword">auto</span> <span class="keyword">const</span> milli_min = std::chrono::duration_cast&lt;std::chrono::milliseconds&gt;(min);</div>
+<div class="line"><span class="lineno">  389</span>        <span class="keyword">auto</span> <span class="keyword">const</span> milli_max = std::chrono::duration_cast&lt;std::chrono::milliseconds&gt;(max);</div>
+<div class="line"><span class="lineno">  390</span> </div>
+<div class="line"><span class="lineno">  391</span>        <span class="comment">// TC specific: use SFMT URandom</span></div>
+<div class="line"><span class="lineno">  392</span>        <span class="keywordflow">return</span> std::chrono::milliseconds(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(milli_min.count()), <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(milli_max.count())));</div>
+<div class="line"><span class="lineno">  393</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a05c6f74e1be5aa699988908b3151b901" name="a05c6f74e1be5aa699988908b3151b901"></a>
@@ -1089,7 +1229,16 @@ template&lt;class _Rep , class _Period &gt; </div>
 </div><div class="memdoc">
 
 <p>Reschedule all tasks with a given duration. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  314</span>    {</div>
+<div class="line"><span class="lineno">  315</span>        <span class="keyword">auto</span> <span class="keyword">const</span> end = <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#ac9a7571a8ccedf953d232597cbbd95cc">_now</a> + duration;</div>
+<div class="line"><span class="lineno">  316</span>        <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#af1ed48e830753b5ca1b209d6d137bbeb">_task_holder</a>.<a class="code hl_function" href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#a0ad5b4de404b1f8312341a28a1a58b5b">ModifyIf</a>([end](<a class="code hl_typedef" href="../../d7/dc4/class_task_scheduler.html#a0c6c7a95026322208866b6b829e0b598">TaskContainer</a> <span class="keyword">const</span> &amp; task) -&gt; <span class="keywordtype">bool</span></div>
+<div class="line"><span class="lineno">  317</span>        {</div>
+<div class="line"><span class="lineno">  318</span>            task-&gt;_end = end;</div>
+<div class="line"><span class="lineno">  319</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  320</span>        });</div>
+<div class="line"><span class="lineno">  321</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  322</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afd7ca0f744e8f492f18b42d186ec0723" name="afd7ca0f744e8f492f18b42d186ec0723"></a>
@@ -1129,7 +1278,11 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
 </div><div class="memdoc">
 
 <p>Reschedule all tasks with a random duration between min and max. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  328</span>    {</div>
+<div class="line"><span class="lineno">  329</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a05c6f74e1be5aa699988908b3151b901">RescheduleAll</a>(<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#aef5466d24be443ceaacd982b960eefd6">RandomDurationBetween</a>(min, max));</div>
+<div class="line"><span class="lineno">  330</span>    }</div>
+<div class="ttc" id="aclass_task_scheduler_html_a05c6f74e1be5aa699988908b3151b901"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a05c6f74e1be5aa699988908b3151b901">TaskScheduler::RescheduleAll</a></div><div class="ttdeci">TaskScheduler &amp; RescheduleAll(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdoc">Reschedule all tasks with a given duration.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:313</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afabf8f475205d00eedb9c39d84af7aa3" name="afabf8f475205d00eedb9c39d84af7aa3"></a>
@@ -1169,7 +1322,23 @@ template&lt;class _Rep , class _Period &gt; </div>
 </div><div class="memdoc">
 
 <p>Reschedule all tasks of a group with the given duration. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  335</span>    {</div>
+<div class="line"><span class="lineno">  336</span>        <span class="keyword">auto</span> <span class="keyword">const</span> end = <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#ac9a7571a8ccedf953d232597cbbd95cc">_now</a> + duration;</div>
+<div class="line"><span class="lineno">  337</span>        <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#af1ed48e830753b5ca1b209d6d137bbeb">_task_holder</a>.<a class="code hl_function" href="../../d4/d0f/class_task_scheduler_1_1_task_queue.html#a0ad5b4de404b1f8312341a28a1a58b5b">ModifyIf</a>([end, group](<a class="code hl_typedef" href="../../d7/dc4/class_task_scheduler.html#a0c6c7a95026322208866b6b829e0b598">TaskContainer</a> <span class="keyword">const</span> &amp; task) -&gt; <span class="keywordtype">bool</span></div>
+<div class="line"><span class="lineno">  338</span>        {</div>
+<div class="line"><span class="lineno">  339</span>            <span class="keywordflow">if</span> (task-&gt;IsInGroup(group))</div>
+<div class="line"><span class="lineno">  340</span>            {</div>
+<div class="line"><span class="lineno">  341</span>                task-&gt;_end = end;</div>
+<div class="line"><span class="lineno">  342</span>                return true;</div>
+<div class="line"><span class="lineno">  343</span>            }</div>
+<div class="line"><span class="lineno">  344</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  345</span>            {</div>
+<div class="line"><span class="lineno">  346</span>                return false;</div>
+<div class="line"><span class="lineno">  347</span>            }</div>
+<div class="line"><span class="lineno">  348</span>        });</div>
+<div class="line"><span class="lineno">  349</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  350</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a762836fbd5252c247acedbe4d740cf09" name="a762836fbd5252c247acedbe4d740cf09"></a>
@@ -1215,7 +1384,11 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
 </div><div class="memdoc">
 
 <p>Reschedule all tasks of a group with a random duration between min and max. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  357</span>    {</div>
+<div class="line"><span class="lineno">  358</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#afabf8f475205d00eedb9c39d84af7aa3">RescheduleGroup</a>(group, <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#aef5466d24be443ceaacd982b960eefd6">RandomDurationBetween</a>(min, max));</div>
+<div class="line"><span class="lineno">  359</span>    }</div>
+<div class="ttc" id="aclass_task_scheduler_html_afabf8f475205d00eedb9c39d84af7aa3"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#afabf8f475205d00eedb9c39d84af7aa3">TaskScheduler::RescheduleGroup</a></div><div class="ttdeci">TaskScheduler &amp; RescheduleGroup(group_t const group, std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdoc">Reschedule all tasks of a group with the given duration.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:334</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaed6d647d6b01913e9e1223d951cfeba" name="aaed6d647d6b01913e9e1223d951cfeba"></a>
@@ -1260,7 +1433,11 @@ template&lt;class _Rep , class _Period &gt; </div>
 </table>
 </div><div class="memdoc">
 <p >Schedule an event with a fixed rate. Never call this from within a task context! Use <a class="el" href="../../d2/dd9/class_task_context.html#ada6565daabe9a55c0ca2379ed7b23741">TaskContext::Schedule</a> instead! </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  228</span>    {</div>
+<div class="line"><span class="lineno">  229</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a32b427f48c112891c6914243975d75e5">ScheduleAt</a>(<a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#ac9a7571a8ccedf953d232597cbbd95cc">_now</a>, time, group, task);</div>
+<div class="line"><span class="lineno">  230</span>    }</div>
+<div class="ttc" id="aclass_task_scheduler_html_a32b427f48c112891c6914243975d75e5"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a32b427f48c112891c6914243975d75e5">TaskScheduler::ScheduleAt</a></div><div class="ttdeci">TaskScheduler &amp; ScheduleAt(timepoint_t const &amp;end, std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:366</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0e0579d2a2397de5a79c756d5e59a830" name="a0e0579d2a2397de5a79c756d5e59a830"></a>
@@ -1299,7 +1476,10 @@ template&lt;class _Rep , class _Period &gt; </div>
 </table>
 </div><div class="memdoc">
 <p >Schedule an event with a fixed rate. Never call this from within a task context! Use <a class="el" href="../../d2/dd9/class_task_context.html#ada6565daabe9a55c0ca2379ed7b23741">TaskContext::Schedule</a> instead! </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  219</span>    {</div>
+<div class="line"><span class="lineno">  220</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a32b427f48c112891c6914243975d75e5">ScheduleAt</a>(<a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#ac9a7571a8ccedf953d232597cbbd95cc">_now</a>, time, task);</div>
+<div class="line"><span class="lineno">  221</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abd4d216bb9cc2ab3ae1441f079b7d7d3" name="abd4d216bb9cc2ab3ae1441f079b7d7d3"></a>
@@ -1350,7 +1530,11 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
 </table>
 </div><div class="memdoc">
 <p >Schedule an event with a fixed rate. Never call this from within a task context! Use <a class="el" href="../../d2/dd9/class_task_context.html#ada6565daabe9a55c0ca2379ed7b23741">TaskContext::Schedule</a> instead! </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  247</span>    {</div>
+<div class="line"><span class="lineno">  248</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#aef5466d24be443ceaacd982b960eefd6">RandomDurationBetween</a>(min, max), group, task);</div>
+<div class="line"><span class="lineno">  249</span>    }</div>
+<div class="ttc" id="aclass_task_scheduler_html_a0e0579d2a2397de5a79c756d5e59a830"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">TaskScheduler::Schedule</a></div><div class="ttdeci">TaskScheduler &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:217</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa80bbdd8dc6723f5fb85ffdd327a3938" name="aa80bbdd8dc6723f5fb85ffdd327a3938"></a>
@@ -1395,7 +1579,10 @@ template&lt;class _RepLeft , class _PeriodLeft , class _RepRight , class _Period
 </table>
 </div><div class="memdoc">
 <p >Schedule an event with a randomized rate between min and max rate. Never call this from within a task context! Use <a class="el" href="../../d2/dd9/class_task_context.html#ada6565daabe9a55c0ca2379ed7b23741">TaskContext::Schedule</a> instead! </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  237</span>    {</div>
+<div class="line"><span class="lineno">  238</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#aef5466d24be443ceaacd982b960eefd6">RandomDurationBetween</a>(min, max), task);</div>
+<div class="line"><span class="lineno">  239</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aebd126d269ff3806ffa03f3b5d6a6284" name="aebd126d269ff3806ffa03f3b5d6a6284"></a>
@@ -1446,7 +1633,13 @@ template&lt;class _Rep , class _Period &gt; </div>
 </table>
 </div><div class="memdoc">
 <p >Schedule an event with a fixed rate. Never call this from within a task context! Use TaskContext::schedule instead! </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  378</span>    {</div>
+<div class="line"><span class="lineno">  379</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../d7/dc4/class_task_scheduler.html#af3067f67a46b296be44fca007a2d3690">repeated_t</a> <span class="keyword">const</span> DEFAULT_REPEATED = 0;</div>
+<div class="line"><span class="lineno">  380</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#ab507424a3a38170bb67f1a44d52d5e04">InsertTask</a>(<a class="code hl_typedef" href="../../d7/dc4/class_task_scheduler.html#a0c6c7a95026322208866b6b829e0b598">TaskContainer</a>(<span class="keyword">new</span> Task(end + time, time, group, DEFAULT_REPEATED, task)));</div>
+<div class="line"><span class="lineno">  381</span>    }</div>
+<div class="ttc" id="aclass_task_scheduler_html_ab507424a3a38170bb67f1a44d52d5e04"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#ab507424a3a38170bb67f1a44d52d5e04">TaskScheduler::InsertTask</a></div><div class="ttdeci">TaskScheduler &amp; InsertTask(TaskContainer task)</div><div class="ttdoc">Insert a new task to the enqueued tasks.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:58</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_af3067f67a46b296be44fca007a2d3690"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#af3067f67a46b296be44fca007a2d3690">TaskScheduler::repeated_t</a></div><div class="ttdeci">uint32 repeated_t</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:47</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a32b427f48c112891c6914243975d75e5" name="a32b427f48c112891c6914243975d75e5"></a>
@@ -1490,7 +1683,10 @@ template&lt;class _Rep , class _Period &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  368</span>    {</div>
+<div class="line"><span class="lineno">  369</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#ab507424a3a38170bb67f1a44d52d5e04">InsertTask</a>(<a class="code hl_typedef" href="../../d7/dc4/class_task_scheduler.html#a0c6c7a95026322208866b6b829e0b598">TaskContainer</a>(<span class="keyword">new</span> Task(end + time, time, task)));</div>
+<div class="line"><span class="lineno">  370</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af2bb90b6b81ab1cacd9ac56c3d7e11b2" name="af2bb90b6b81ab1cacd9ac56c3d7e11b2"></a>
@@ -1520,7 +1716,11 @@ template&lt;typename P &gt; </div>
 </div><div class="memdoc">
 
 <p>Sets a validator which is asked if tasks are allowed to be executed. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  183</span>    {</div>
+<div class="line"><span class="lineno">  184</span>        <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#a92d2acde727cf1db3eeed35281b75341">_predicate</a> = std::forward&lt;P&gt;(predicate);</div>
+<div class="line"><span class="lineno">  185</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  186</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acaf9b729e1247cb61d5dce87934e05d7" name="acaf9b729e1247cb61d5dce87934e05d7"></a>
@@ -1549,7 +1749,11 @@ template&lt;typename P &gt; </div>
       </table>
 </div><div class="memdoc">
 <p >Update the scheduler with a difftime in ms. Calls the optional callback on successfully finish. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   23</span>{</div>
+<div class="line"><span class="lineno">   24</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">Update</a>(std::chrono::milliseconds(milliseconds), callback);</div>
+<div class="line"><span class="lineno">   25</span>}</div>
+<div class="ttc" id="aclass_task_scheduler_html_a35c0891c7aded13c6ae7ecd2e6d480a9"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">TaskScheduler::Update</a></div><div class="ttdeci">TaskScheduler &amp; Update(success_t const &amp;callback=EmptyCallback)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:15</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3b2df04710a7d6a4d15e0776eb077920" name="a3b2df04710a7d6a4d15e0776eb077920"></a>
@@ -1588,7 +1792,13 @@ template&lt;class _Rep , class _Period &gt; </div>
 </table>
 </div><div class="memdoc">
 <p >Update the scheduler with a difftime. Calls the optional callback on successfully finish. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  204</span>    {</div>
+<div class="line"><span class="lineno">  205</span>        <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#ac9a7571a8ccedf953d232597cbbd95cc">_now</a> += difftime;</div>
+<div class="line"><span class="lineno">  206</span>        <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a1a4145dfbe6e4914a05ddfe6895a2272">Dispatch</a>(callback);</div>
+<div class="line"><span class="lineno">  207</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  208</span>    }</div>
+<div class="ttc" id="aclass_task_scheduler_html_a1a4145dfbe6e4914a05ddfe6895a2272"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a1a4145dfbe6e4914a05ddfe6895a2272">TaskScheduler::Dispatch</a></div><div class="ttdeci">void Dispatch(success_t const &amp;callback)</div><div class="ttdoc">Dispatch remaining tasks.</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:64</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a35c0891c7aded13c6ae7ecd2e6d480a9" name="a35c0891c7aded13c6ae7ecd2e6d480a9"></a>
@@ -1607,7 +1817,12 @@ template&lt;class _Rep , class _Period &gt; </div>
       </table>
 </div><div class="memdoc">
 <p >Update the scheduler to the current time. Calls the optional callback on successfully finish. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   16</span>{</div>
+<div class="line"><span class="lineno">   17</span>    <a class="code hl_variable" href="../../d7/dc4/class_task_scheduler.html#ac9a7571a8ccedf953d232597cbbd95cc">_now</a> = clock_t::now();</div>
+<div class="line"><span class="lineno">   18</span>    <a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a1a4145dfbe6e4914a05ddfe6895a2272">Dispatch</a>(callback);</div>
+<div class="line"><span class="lineno">   19</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   20</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
@@ -1752,8 +1967,8 @@ template&lt;class _Rep , class _Period &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/common/Utilities/<a class="el" href="../../db/dd6/_task_scheduler_8h_source.html">TaskScheduler.h</a></li>
-<li>D:/azerothcore-wotlk/src/common/Utilities/<a class="el" href="../../d8/d3f/_task_scheduler_8cpp.html">TaskScheduler.cpp</a></li>
+<li><a class="el" href="../../">TaskScheduler.h</a></li>
+<li><a class="el" href="../../">TaskScheduler.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1761,7 +1976,7 @@ template&lt;class _Rep , class _Period &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/dc4/class_task_scheduler.html">TaskScheduler</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:28 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

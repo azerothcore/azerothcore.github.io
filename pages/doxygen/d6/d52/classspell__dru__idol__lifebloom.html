@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aaf21dafa72b58245f548ed946a49659d" name="aaf21dafa72b58245f548ed946a49659d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf21dafa72b58245f548ed946a49659d">&#9670;&#160;</a></span>HandleEffectCalcSpellMod()</h2>
 
@@ -336,7 +337,30 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  494</span>    {</div>
+<div class="line"><span class="lineno">  495</span>        <span class="keywordflow">if</span> (!spellMod)</div>
+<div class="line"><span class="lineno">  496</span>        {</div>
+<div class="line"><span class="lineno">  497</span>            spellMod = <span class="keyword">new</span> <a class="code hl_struct" href="../../d3/d39/struct_spell_modifier.html">SpellModifier</a>(<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a99cbee6d75732fbd9aa54d2d9679986f">GetAura</a>());</div>
+<div class="line"><span class="lineno">  498</span>            spellMod-&gt;<a class="code hl_variable" href="../../d3/d39/struct_spell_modifier.html#a21d017f0c8d3108a0eb5f48798103356">op</a> = <a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a39b60e1f12cca9b6873cb817e7717351a2a167c2fe9bd2f6024abced67a7ed055">SPELLMOD_DOT</a>;</div>
+<div class="line"><span class="lineno">  499</span>            spellMod-&gt;<a class="code hl_variable" href="../../d3/d39/struct_spell_modifier.html#a22f64b9c021f5a87f30f01ef117ebb0b">type</a> = <a class="code hl_enumvalue" href="../../d1/d39/_player_8h.html#a946f1b98541e5df18b4b45f6fb144ce8a8ebc303e6990a35340cd39cef55f4dd7">SPELLMOD_FLAT</a>;</div>
+<div class="line"><span class="lineno">  500</span>            spellMod-&gt;<a class="code hl_variable" href="../../d3/d39/struct_spell_modifier.html#a465803efab27b2ba0a49c6571b65b908">spellId</a> = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#afca894c30f544ccf512e0966eb7e10ce">GetId</a>();</div>
+<div class="line"><span class="lineno">  501</span>            spellMod-&gt;<a class="code hl_variable" href="../../d3/d39/struct_spell_modifier.html#aba1b01bf3486d61cc1876b03078a35ee">mask</a> = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a4bb3068ac63e4645787fac6ff0085662">GetSpellInfo</a>()-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#aa5bb0d7d6df03526d011d9cbfa3734e0">Effects</a>[aurEff-&gt;GetEffIndex()].SpellClassMask;</div>
+<div class="line"><span class="lineno">  502</span>        }</div>
+<div class="line"><span class="lineno">  503</span>        spellMod-&gt;<a class="code hl_variable" href="../../d3/d39/struct_spell_modifier.html#a31742662ba8112c9e9b972897a928e57">value</a> = aurEff-&gt;GetAmount() / 7;</div>
+<div class="line"><span class="lineno">  504</span>    }</div>
+<div class="ttc" id="a_player_8h_html_a946f1b98541e5df18b4b45f6fb144ce8a8ebc303e6990a35340cd39cef55f4dd7"><div class="ttname"><a href="../../d1/d39/_player_8h.html#a946f1b98541e5df18b4b45f6fb144ce8a8ebc303e6990a35340cd39cef55f4dd7">SPELLMOD_FLAT</a></div><div class="ttdeci">@ SPELLMOD_FLAT</div><div class="ttdef"><b>Definition:</b> Player.h:94</div></div>
+<div class="ttc" id="a_spell_defines_8h_html_a39b60e1f12cca9b6873cb817e7717351a2a167c2fe9bd2f6024abced67a7ed055"><div class="ttname"><a href="../../d2/d6d/_spell_defines_8h.html#a39b60e1f12cca9b6873cb817e7717351a2a167c2fe9bd2f6024abced67a7ed055">SPELLMOD_DOT</a></div><div class="ttdeci">@ SPELLMOD_DOT</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:99</div></div>
+<div class="ttc" id="aclass_aura_script_html_a4bb3068ac63e4645787fac6ff0085662"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a4bb3068ac63e4645787fac6ff0085662">AuraScript::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:995</div></div>
+<div class="ttc" id="aclass_aura_script_html_a99cbee6d75732fbd9aa54d2d9679986f"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a99cbee6d75732fbd9aa54d2d9679986f">AuraScript::GetAura</a></div><div class="ttdeci">Aura * GetAura() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1035</div></div>
+<div class="ttc" id="aclass_aura_script_html_afca894c30f544ccf512e0966eb7e10ce"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#afca894c30f544ccf512e0966eb7e10ce">AuraScript::GetId</a></div><div class="ttdeci">uint32 GetId() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1000</div></div>
+<div class="ttc" id="aclass_spell_info_html_aa5bb0d7d6df03526d011d9cbfa3734e0"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#aa5bb0d7d6df03526d011d9cbfa3734e0">SpellInfo::Effects</a></div><div class="ttdeci">std::array&lt; SpellEffectInfo, MAX_SPELL_EFFECTS &gt; Effects</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:391</div></div>
+<div class="ttc" id="astruct_spell_modifier_html"><div class="ttname"><a href="../../d3/d39/struct_spell_modifier.html">SpellModifier</a></div><div class="ttdef"><b>Definition:</b> Player.h:182</div></div>
+<div class="ttc" id="astruct_spell_modifier_html_a21d017f0c8d3108a0eb5f48798103356"><div class="ttname"><a href="../../d3/d39/struct_spell_modifier.html#a21d017f0c8d3108a0eb5f48798103356">SpellModifier::op</a></div><div class="ttdeci">SpellModOp op</div><div class="ttdef"><b>Definition:</b> Player.h:184</div></div>
+<div class="ttc" id="astruct_spell_modifier_html_a22f64b9c021f5a87f30f01ef117ebb0b"><div class="ttname"><a href="../../d3/d39/struct_spell_modifier.html#a22f64b9c021f5a87f30f01ef117ebb0b">SpellModifier::type</a></div><div class="ttdeci">SpellModType type</div><div class="ttdef"><b>Definition:</b> Player.h:185</div></div>
+<div class="ttc" id="astruct_spell_modifier_html_a31742662ba8112c9e9b972897a928e57"><div class="ttname"><a href="../../d3/d39/struct_spell_modifier.html#a31742662ba8112c9e9b972897a928e57">SpellModifier::value</a></div><div class="ttdeci">int32 value</div><div class="ttdef"><b>Definition:</b> Player.h:187</div></div>
+<div class="ttc" id="astruct_spell_modifier_html_a465803efab27b2ba0a49c6571b65b908"><div class="ttname"><a href="../../d3/d39/struct_spell_modifier.html#a465803efab27b2ba0a49c6571b65b908">SpellModifier::spellId</a></div><div class="ttdeci">uint32 spellId</div><div class="ttdef"><b>Definition:</b> Player.h:189</div></div>
+<div class="ttc" id="astruct_spell_modifier_html_aba1b01bf3486d61cc1876b03078a35ee"><div class="ttname"><a href="../../d3/d39/struct_spell_modifier.html#aba1b01bf3486d61cc1876b03078a35ee">SpellModifier::mask</a></div><div class="ttdeci">flag96 mask</div><div class="ttdef"><b>Definition:</b> Player.h:188</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac05d3ae466ad64ac590f399827aac0c9" name="ac05d3ae466ad64ac590f399827aac0c9"></a>
@@ -389,11 +413,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  507</span>    {</div>
+<div class="line"><span class="lineno">  508</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a6dc45e5ec317cf955e089bf5f9d4b354">DoEffectCalcSpellMod</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ae0e218d3b7359beb034b0a6f929ced84">AuraEffectCalcSpellModFn</a>(<a class="code hl_function" href="../../d6/d52/classspell__dru__idol__lifebloom.html#aaf21dafa72b58245f548ed946a49659d">spell_dru_idol_lifebloom::HandleEffectCalcSpellMod</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a>);</div>
+<div class="line"><span class="lineno">  509</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a></div><div class="ttdeci">@ SPELL_AURA_DUMMY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:67</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ae0e218d3b7359beb034b0a6f929ced84"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ae0e218d3b7359beb034b0a6f929ced84">AuraEffectCalcSpellModFn</a></div><div class="ttdeci">#define AuraEffectCalcSpellModFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:774</div></div>
+<div class="ttc" id="aclass_aura_script_html_a6dc45e5ec317cf955e089bf5f9d4b354"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a6dc45e5ec317cf955e089bf5f9d4b354">AuraScript::DoEffectCalcSpellMod</a></div><div class="ttdeci">HookList&lt; EffectCalcSpellModHandler &gt; DoEffectCalcSpellMod</div><div class="ttdef"><b>Definition:</b> SpellScript.h:773</div></div>
+<div class="ttc" id="aclassspell__dru__idol__lifebloom_html_aaf21dafa72b58245f548ed946a49659d"><div class="ttname"><a href="../../d6/d52/classspell__dru__idol__lifebloom.html#aaf21dafa72b58245f548ed946a49659d">spell_dru_idol_lifebloom::HandleEffectCalcSpellMod</a></div><div class="ttdeci">void HandleEffectCalcSpellMod(AuraEffect const *aurEff, SpellModifier *&amp;spellMod)</div><div class="ttdef"><b>Definition:</b> spell_druid.cpp:493</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../db/d55/spell__druid_8cpp.html">spell_druid.cpp</a></li>
+<li><a class="el" href="../../">spell_druid.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -401,7 +433,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d52/classspell__dru__idol__lifebloom.html">spell_dru_idol_lifebloom</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:17 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

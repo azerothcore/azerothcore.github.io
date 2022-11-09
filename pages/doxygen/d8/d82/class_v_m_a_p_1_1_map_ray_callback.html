@@ -131,7 +131,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a6fc14ac7ae20effec9d2657a46b838fc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_v_m_a_p_1_1_map_ray_callback.html#a6fc14ac7ae20effec9d2657a46b838fc">hit</a></td></tr>
 <tr class="separator:a6fc14ac7ae20effec9d2657a46b838fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1a4a654bc929dab5b5a2804c4b88389d" name="a1a4a654bc929dab5b5a2804c4b88389d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a4a654bc929dab5b5a2804c4b88389d">&#9670;&#160;</a></span>MapRayCallback()</h2>
 
@@ -165,7 +166,11 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   37</span>: <a class="code hl_variable" href="../../d8/d82/class_v_m_a_p_1_1_map_ray_callback.html#a389d8ee31e0cb665bfd9084d786750c5">prims</a>(val), <a class="code hl_variable" href="../../d8/d82/class_v_m_a_p_1_1_map_ray_callback.html#a88d1e6d6fa43608bcee21a822488f061">flags</a>(ignoreFlags), <a class="code hl_variable" href="../../d8/d82/class_v_m_a_p_1_1_map_ray_callback.html#a6fc14ac7ae20effec9d2657a46b838fc">hit</a>(<span class="keyword">false</span>) { }</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_map_ray_callback_html_a389d8ee31e0cb665bfd9084d786750c5"><div class="ttname"><a href="../../d8/d82/class_v_m_a_p_1_1_map_ray_callback.html#a389d8ee31e0cb665bfd9084d786750c5">VMAP::MapRayCallback::prims</a></div><div class="ttdeci">ModelInstance * prims</div><div class="ttdef"><b>Definition:</b> MapTree.cpp:49</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_map_ray_callback_html_a6fc14ac7ae20effec9d2657a46b838fc"><div class="ttname"><a href="../../d8/d82/class_v_m_a_p_1_1_map_ray_callback.html#a6fc14ac7ae20effec9d2657a46b838fc">VMAP::MapRayCallback::hit</a></div><div class="ttdeci">bool hit</div><div class="ttdef"><b>Definition:</b> MapTree.cpp:51</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_map_ray_callback_html_a88d1e6d6fa43608bcee21a822488f061"><div class="ttname"><a href="../../d8/d82/class_v_m_a_p_1_1_map_ray_callback.html#a88d1e6d6fa43608bcee21a822488f061">VMAP::MapRayCallback::flags</a></div><div class="ttdeci">ModelIgnoreFlags flags</div><div class="ttdef"><b>Definition:</b> MapTree.cpp:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -191,7 +196,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   47</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d82/class_v_m_a_p_1_1_map_ray_callback.html#a6fc14ac7ae20effec9d2657a46b838fc">hit</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0f218465b321da5f8289dfa815acbfd4" name="a0f218465b321da5f8289dfa815acbfd4"></a>
@@ -239,7 +245,16 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   39</span>        {</div>
+<div class="line"><span class="lineno">   40</span>            <span class="keywordtype">bool</span> result = <a class="code hl_variable" href="../../d8/d82/class_v_m_a_p_1_1_map_ray_callback.html#a389d8ee31e0cb665bfd9084d786750c5">prims</a>[entry].<a class="code hl_function" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#aca8a2a07911eba5ec362080e2790453c">intersectRay</a>(ray, distance, StopAtFirstHit, <a class="code hl_variable" href="../../d8/d82/class_v_m_a_p_1_1_map_ray_callback.html#a88d1e6d6fa43608bcee21a822488f061">flags</a>);</div>
+<div class="line"><span class="lineno">   41</span>            <span class="keywordflow">if</span> (result)</div>
+<div class="line"><span class="lineno">   42</span>            {</div>
+<div class="line"><span class="lineno">   43</span>                <a class="code hl_variable" href="../../d8/d82/class_v_m_a_p_1_1_map_ray_callback.html#a6fc14ac7ae20effec9d2657a46b838fc">hit</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   44</span>            }</div>
+<div class="line"><span class="lineno">   45</span>            <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">   46</span>        }</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_instance_html_aca8a2a07911eba5ec362080e2790453c"><div class="ttname"><a href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#aca8a2a07911eba5ec362080e2790453c">VMAP::ModelInstance::intersectRay</a></div><div class="ttdeci">bool intersectRay(const G3D::Ray &amp;pRay, float &amp;pMaxDist, bool StopAtFirstHit, ModelIgnoreFlags ignoreFlags) const</div><div class="ttdef"><b>Definition:</b> ModelInstance.cpp:33</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -310,7 +325,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Collision/Maps/<a class="el" href="../../dc/d22/_map_tree_8cpp.html">MapTree.cpp</a></li>
+<li><a class="el" href="../../">MapTree.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -318,7 +333,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d39/namespace_v_m_a_p.html">VMAP</a></li><li class="navelem"><a class="el" href="../../d8/d82/class_v_m_a_p_1_1_map_ray_callback.html">MapRayCallback</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

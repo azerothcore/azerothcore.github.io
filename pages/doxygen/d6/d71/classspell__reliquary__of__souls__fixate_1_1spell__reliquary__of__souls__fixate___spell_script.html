@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a0a74b1ae8e3e8b1319219fdb9f2594af" name="a0a74b1ae8e3e8b1319219fdb9f2594af"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a74b1ae8e3e8b1319219fdb9f2594af">&#9670;&#160;</a></span>FilterTargets()</h2>
 
@@ -316,7 +317,19 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  623</span>        {</div>
+<div class="line"><span class="lineno">  624</span>            <span class="keywordflow">if</span> (targets.empty())</div>
+<div class="line"><span class="lineno">  625</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  626</span> </div>
+<div class="line"><span class="lineno">  627</span>            targets.sort(<a class="code hl_class" href="../../dc/dc3/class_acore_1_1_object_distance_order_pred.html">Acore::ObjectDistanceOrderPred</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()));</div>
+<div class="line"><span class="lineno">  628</span>            <a class="code hl_class" href="../../db/df7/class_world_object.html">WorldObject</a>* target = targets.front();</div>
+<div class="line"><span class="lineno">  629</span>            targets.clear();</div>
+<div class="line"><span class="lineno">  630</span>            targets.push_back(target);</div>
+<div class="line"><span class="lineno">  631</span>        }</div>
+<div class="ttc" id="aclass_acore_1_1_object_distance_order_pred_html"><div class="ttname"><a href="../../dc/dc3/class_acore_1_1_object_distance_order_pred.html">Acore::ObjectDistanceOrderPred</a></div><div class="ttdef"><b>Definition:</b> Object.h:681</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_world_object_html"><div class="ttname"><a href="../../db/df7/class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> Object.h:393</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa33cc61b79407e3998b7ff3dd03e81d9" name="aa33cc61b79407e3998b7ff3dd03e81d9"></a>
@@ -369,11 +382,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  634</span>        {</div>
+<div class="line"><span class="lineno">  635</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../d6/d71/classspell__reliquary__of__souls__fixate_1_1spell__reliquary__of__souls__fixate___spell_script.html#a0a74b1ae8e3e8b1319219fdb9f2594af">spell_reliquary_of_souls_fixate_SpellScript::FilterTargets</a>, <a class="code hl_define" href="../../df/d0b/_shared_defines_8h.html#ac97ba74f30438a8b51ce05c9de303cd7">EFFECT_ALL</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a7b8c7cf5819db17b9ed16dfbb93addb4">TARGET_UNIT_SRC_AREA_ENEMY</a>);</div>
+<div class="line"><span class="lineno">  636</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a7b8c7cf5819db17b9ed16dfbb93addb4"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a7b8c7cf5819db17b9ed16dfbb93addb4">TARGET_UNIT_SRC_AREA_ENEMY</a></div><div class="ttdeci">@ TARGET_UNIT_SRC_AREA_ENEMY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1392</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ac97ba74f30438a8b51ce05c9de303cd7"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac97ba74f30438a8b51ce05c9de303cd7">EFFECT_ALL</a></div><div class="ttdeci">#define EFFECT_ALL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:37</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a623f49512c3d12eceb55ca05cd53c4f2"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a></div><div class="ttdeci">#define SpellObjectAreaTargetSelectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:354</div></div>
+<div class="ttc" id="aclass_spell_script_html_af74f730c6dacd310a78036be6b7cc6b7"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">SpellScript::OnObjectAreaTargetSelect</a></div><div class="ttdeci">HookList&lt; ObjectAreaTargetSelectHandler &gt; OnObjectAreaTargetSelect</div><div class="ttdef"><b>Definition:</b> SpellScript.h:353</div></div>
+<div class="ttc" id="aclassspell__reliquary__of__souls__fixate_1_1spell__reliquary__of__souls__fixate___spell_script_html_a0a74b1ae8e3e8b1319219fdb9f2594af"><div class="ttname"><a href="../../d6/d71/classspell__reliquary__of__souls__fixate_1_1spell__reliquary__of__souls__fixate___spell_script.html#a0a74b1ae8e3e8b1319219fdb9f2594af">spell_reliquary_of_souls_fixate::spell_reliquary_of_souls_fixate_SpellScript::FilterTargets</a></div><div class="ttdeci">void FilterTargets(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:622</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/BlackTemple/<a class="el" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html">boss_reliquary_of_souls.cpp</a></li>
+<li><a class="el" href="../../">boss_reliquary_of_souls.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -381,7 +402,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/dd8/classspell__reliquary__of__souls__fixate.html">spell_reliquary_of_souls_fixate</a></li><li class="navelem"><a class="el" href="../../d6/d71/classspell__reliquary__of__souls__fixate_1_1spell__reliquary__of__souls__fixate___spell_script.html">spell_reliquary_of_souls_fixate_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:24 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

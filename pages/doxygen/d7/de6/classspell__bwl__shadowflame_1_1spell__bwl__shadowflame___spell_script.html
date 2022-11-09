@@ -294,7 +294,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a87628f160774050b0195d3e6bf9c16c9" name="a87628f160774050b0195d3e6bf9c16c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a87628f160774050b0195d3e6bf9c16c9">&#9670;&#160;</a></span>HandleEffectScriptEffect()</h2>
 
@@ -318,7 +319,17 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  531</span>        {</div>
+<div class="line"><span class="lineno">  532</span>            <span class="comment">// If the victim of the spell does not have &quot;Onyxia Scale Cloak&quot; - add the Shadow Flame DoT (22682)</span></div>
+<div class="line"><span class="lineno">  533</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* victim = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>())</div>
+<div class="line"><span class="lineno">  534</span>                <span class="keywordflow">if</span> (!victim-&gt;HasAura(<a class="code hl_enumvalue" href="../../df/d20/instance__blackwing__lair_8cpp.html#a18a82309d32c08f1de5944fde20789faa2f64e1a42a1d2fb4d6c849100de2c7d0">SPELL_ONYXIA_SCALE_CLOAK</a>))</div>
+<div class="line"><span class="lineno">  535</span>                    victim-&gt;AddAura(<a class="code hl_enumvalue" href="../../df/d20/instance__blackwing__lair_8cpp.html#a18a82309d32c08f1de5944fde20789faaed2cf39ef97aea751e32c5249fc8fc3e">SPELL_SHADOW_FLAME_DOT</a>, victim);</div>
+<div class="line"><span class="lineno">  536</span>        }</div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="ainstance__blackwing__lair_8cpp_html_a18a82309d32c08f1de5944fde20789faa2f64e1a42a1d2fb4d6c849100de2c7d0"><div class="ttname"><a href="../../df/d20/instance__blackwing__lair_8cpp.html#a18a82309d32c08f1de5944fde20789faa2f64e1a42a1d2fb4d6c849100de2c7d0">SPELL_ONYXIA_SCALE_CLOAK</a></div><div class="ttdeci">@ SPELL_ONYXIA_SCALE_CLOAK</div><div class="ttdef"><b>Definition:</b> instance_blackwing_lair.cpp:511</div></div>
+<div class="ttc" id="ainstance__blackwing__lair_8cpp_html_a18a82309d32c08f1de5944fde20789faaed2cf39ef97aea751e32c5249fc8fc3e"><div class="ttname"><a href="../../df/d20/instance__blackwing__lair_8cpp.html#a18a82309d32c08f1de5944fde20789faaed2cf39ef97aea751e32c5249fc8fc3e">SPELL_SHADOW_FLAME_DOT</a></div><div class="ttdeci">@ SPELL_SHADOW_FLAME_DOT</div><div class="ttdef"><b>Definition:</b> instance_blackwing_lair.cpp:512</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3967b727fa292957851fa75cd1058c05" name="a3967b727fa292957851fa75cd1058c05"></a>
@@ -371,7 +382,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  539</span>        {</div>
+<div class="line"><span class="lineno">  540</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d7/de6/classspell__bwl__shadowflame_1_1spell__bwl__shadowflame___spell_script.html#a87628f160774050b0195d3e6bf9c16c9">spell_bwl_shadowflame_SpellScript::HandleEffectScriptEffect</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97abd12cbfc6a8daf7ca788d06a77256e01">SPELL_EFFECT_SCHOOL_DAMAGE</a>);</div>
+<div class="line"><span class="lineno">  541</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97abd12cbfc6a8daf7ca788d06a77256e01"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97abd12cbfc6a8daf7ca788d06a77256e01">SPELL_EFFECT_SCHOOL_DAMAGE</a></div><div class="ttdeci">@ SPELL_EFFECT_SCHOOL_DAMAGE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:752</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__bwl__shadowflame_1_1spell__bwl__shadowflame___spell_script_html_a87628f160774050b0195d3e6bf9c16c9"><div class="ttname"><a href="../../d7/de6/classspell__bwl__shadowflame_1_1spell__bwl__shadowflame___spell_script.html#a87628f160774050b0195d3e6bf9c16c9">spell_bwl_shadowflame::spell_bwl_shadowflame_SpellScript::HandleEffectScriptEffect</a></div><div class="ttdeci">void HandleEffectScriptEffect(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> instance_blackwing_lair.cpp:530</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad5816a60ffac395be3bf1d485a9ae545" name="ad5816a60ffac395be3bf1d485a9ae545"></a>
@@ -399,11 +418,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  526</span>        {</div>
+<div class="line"><span class="lineno">  527</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>({ <a class="code hl_enumvalue" href="../../df/d20/instance__blackwing__lair_8cpp.html#a18a82309d32c08f1de5944fde20789faa2f64e1a42a1d2fb4d6c849100de2c7d0">SPELL_ONYXIA_SCALE_CLOAK</a>, <a class="code hl_enumvalue" href="../../df/d20/instance__blackwing__lair_8cpp.html#a18a82309d32c08f1de5944fde20789faaed2cf39ef97aea751e32c5249fc8fc3e">SPELL_SHADOW_FLAME_DOT</a> });</div>
+<div class="line"><span class="lineno">  528</span>        }</div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/BlackwingLair/<a class="el" href="../../df/d20/instance__blackwing__lair_8cpp.html">instance_blackwing_lair.cpp</a></li>
+<li><a class="el" href="../../">instance_blackwing_lair.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -411,7 +434,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d17/classspell__bwl__shadowflame.html">spell_bwl_shadowflame</a></li><li class="navelem"><a class="el" href="../../d7/de6/classspell__bwl__shadowflame_1_1spell__bwl__shadowflame___spell_script.html">spell_bwl_shadowflame_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:16 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -605,7 +605,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6980885853711b6c7f32606ddc828c1f" name="a6980885853711b6c7f32606ddc828c1f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6980885853711b6c7f32606ddc828c1f">&#9670;&#160;</a></span>boss_rage_winterchillAI()</h2>
 
@@ -629,7 +630,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   52</span>                                                    : <a class="code hl_struct" href="../../d2/df2/structhyjal__trash_a_i.html">hyjal_trashAI</a>(creature)</div>
+<div class="line"><span class="lineno">   53</span>        {</div>
+<div class="line"><span class="lineno">   54</span>            <a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#aa402559aeeda4ba00d72529353e5df3e">instance</a> = creature-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">   55</span>            <a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#a6d0c0c2038cb5e4c534b651cbc057dd0">go</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   56</span>        }</div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astructboss__rage__winterchill_1_1boss__rage__winterchill_a_i_html_a6d0c0c2038cb5e4c534b651cbc057dd0"><div class="ttname"><a href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#a6d0c0c2038cb5e4c534b651cbc057dd0">boss_rage_winterchill::boss_rage_winterchillAI::go</a></div><div class="ttdeci">bool go</div><div class="ttdef"><b>Definition:</b> boss_rage_winterchill.cpp:62</div></div>
+<div class="ttc" id="astructhyjal__trash_a_i_html"><div class="ttname"><a href="../../d2/df2/structhyjal__trash_a_i.html">hyjal_trashAI</a></div><div class="ttdef"><b>Definition:</b> hyjal_trash.h:27</div></div>
+<div class="ttc" id="astructhyjal__trash_a_i_html_aa402559aeeda4ba00d72529353e5df3e"><div class="ttname"><a href="../../d2/df2/structhyjal__trash_a_i.html#aa402559aeeda4ba00d72529353e5df3e">hyjal_trashAI::instance</a></div><div class="ttdeci">InstanceScript * instance</div><div class="ttdef"><b>Definition:</b> hyjal_trash.h:37</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -658,7 +668,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   77</span>        {</div>
+<div class="line"><span class="lineno">   78</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#ac02c112ce1f38a17123340057fccf867">IsEvent</a>)</div>
+<div class="line"><span class="lineno">   79</span>                <a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#aa402559aeeda4ba00d72529353e5df3e">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d0/dff/hyjal_8h.html#afb6eb4f28419b652027fad41104a6d22a59fdd46dda969f05ff2bdd6b43172e3a">DATA_RAGEWINTERCHILLEVENT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>);</div>
+<div class="line"><span class="lineno">   80</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dc/d34/boss__rage__winterchill_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a5faa5beff47916de3a8ea9d3f16bbcdb">SAY_ONAGGRO</a>);</div>
+<div class="line"><span class="lineno">   81</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__rage__winterchill_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a5faa5beff47916de3a8ea9d3f16bbcdb"><div class="ttname"><a href="../../dc/d34/boss__rage__winterchill_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a5faa5beff47916de3a8ea9d3f16bbcdb">SAY_ONAGGRO</a></div><div class="ttdeci">@ SAY_ONAGGRO</div><div class="ttdef"><b>Definition:</b> boss_rage_winterchill.cpp:37</div></div>
+<div class="ttc" id="aclass_zone_script_html_a949e67ea24c7e4b70a20806952735576"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:53</div></div>
+<div class="ttc" id="ahyjal_8h_html_afb6eb4f28419b652027fad41104a6d22a59fdd46dda969f05ff2bdd6b43172e3a"><div class="ttname"><a href="../../d0/dff/hyjal_8h.html#afb6eb4f28419b652027fad41104a6d22a59fdd46dda969f05ff2bdd6b43172e3a">DATA_RAGEWINTERCHILLEVENT</a></div><div class="ttdeci">@ DATA_RAGEWINTERCHILLEVENT</div><div class="ttdef"><b>Definition:</b> hyjal.h:45</div></div>
+<div class="ttc" id="astructhyjal__trash_a_i_html_ac02c112ce1f38a17123340057fccf867"><div class="ttname"><a href="../../d2/df2/structhyjal__trash_a_i.html#ac02c112ce1f38a17123340057fccf867">hyjal_trashAI::IsEvent</a></div><div class="ttdeci">bool IsEvent</div><div class="ttdef"><b>Definition:</b> hyjal_trash.h:38</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afef10757e3accd816ed7531f526e6147" name="afef10757e3accd816ed7531f526e6147"></a>
@@ -686,7 +707,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#ae25140568b7dccf0ab73aa87452bd985">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   99</span>        {</div>
+<div class="line"><span class="lineno">  100</span>            <a class="code hl_function" href="../../d2/df2/structhyjal__trash_a_i.html#a5f1528ab0f32f9fbb593c06c7bf7b71f">hyjal_trashAI::JustDied</a>(killer);</div>
+<div class="line"><span class="lineno">  101</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#ac02c112ce1f38a17123340057fccf867">IsEvent</a>)</div>
+<div class="line"><span class="lineno">  102</span>                <a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#aa402559aeeda4ba00d72529353e5df3e">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d0/dff/hyjal_8h.html#afb6eb4f28419b652027fad41104a6d22a59fdd46dda969f05ff2bdd6b43172e3a">DATA_RAGEWINTERCHILLEVENT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>);</div>
+<div class="line"><span class="lineno">  103</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dc/d34/boss__rage__winterchill_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ad35764f66527c79f568416706f54f562">SAY_ONDEATH</a>);</div>
+<div class="line"><span class="lineno">  104</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="aboss__rage__winterchill_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31ad35764f66527c79f568416706f54f562"><div class="ttname"><a href="../../dc/d34/boss__rage__winterchill_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ad35764f66527c79f568416706f54f562">SAY_ONDEATH</a></div><div class="ttdeci">@ SAY_ONDEATH</div><div class="ttdef"><b>Definition:</b> boss_rage_winterchill.cpp:33</div></div>
+<div class="ttc" id="astructhyjal__trash_a_i_html_a5f1528ab0f32f9fbb593c06c7bf7b71f"><div class="ttname"><a href="../../d2/df2/structhyjal__trash_a_i.html#a5f1528ab0f32f9fbb593c06c7bf7b71f">hyjal_trashAI::JustDied</a></div><div class="ttdeci">void JustDied(Unit *) override</div><div class="ttdef"><b>Definition:</b> hyjal_trash.cpp:397</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab87040c99a6c61c6b677212a7e3868c3" name="ab87040c99a6c61c6b677212a7e3868c3"></a>
@@ -714,7 +744,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   84</span>        {</div>
+<div class="line"><span class="lineno">   85</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dc/d34/boss__rage__winterchill_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31abe3ec15f85f2e2aac71b780624653fcc">SAY_ONSLAY</a>);</div>
+<div class="line"><span class="lineno">   86</span>        }</div>
+<div class="ttc" id="aboss__rage__winterchill_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31abe3ec15f85f2e2aac71b780624653fcc"><div class="ttname"><a href="../../dc/d34/boss__rage__winterchill_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31abe3ec15f85f2e2aac71b780624653fcc">SAY_ONSLAY</a></div><div class="ttdeci">@ SAY_ONSLAY</div><div class="ttdef"><b>Definition:</b> boss_rage_winterchill.cpp:34</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7f252eebe5bf69b3d30df32f73c8b2f0" name="a7f252eebe5bf69b3d30df32f73c8b2f0"></a>
@@ -741,7 +775,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   65</span>        {</div>
+<div class="line"><span class="lineno">   66</span>            <a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#a9544098011a22b0ed7c838f6b246c72e">damageTaken</a> = 0;</div>
+<div class="line"><span class="lineno">   67</span>            <a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#a495deaefba5e64e18d41dc508c5b7e18">FrostArmorTimer</a> = 37000;</div>
+<div class="line"><span class="lineno">   68</span>            <a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#abb4bec7ff9fea7b317fbd325bb08fc37">DecayTimer</a> = 45000;</div>
+<div class="line"><span class="lineno">   69</span>            <a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#aedb1ebd3fd74b4aa82f16f25ea36d22f">NovaTimer</a> = 15000;</div>
+<div class="line"><span class="lineno">   70</span>            <a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#af18b787f71094b592b36f6470fd8b831">IceboltTimer</a> = 10000;</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#ac02c112ce1f38a17123340057fccf867">IsEvent</a>)</div>
+<div class="line"><span class="lineno">   73</span>                <a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#aa402559aeeda4ba00d72529353e5df3e">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d0/dff/hyjal_8h.html#afb6eb4f28419b652027fad41104a6d22a59fdd46dda969f05ff2bdd6b43172e3a">DATA_RAGEWINTERCHILLEVENT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>);</div>
+<div class="line"><span class="lineno">   74</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a></div><div class="ttdeci">@ NOT_STARTED</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:56</div></div>
+<div class="ttc" id="astructboss__rage__winterchill_1_1boss__rage__winterchill_a_i_html_a495deaefba5e64e18d41dc508c5b7e18"><div class="ttname"><a href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#a495deaefba5e64e18d41dc508c5b7e18">boss_rage_winterchill::boss_rage_winterchillAI::FrostArmorTimer</a></div><div class="ttdeci">uint32 FrostArmorTimer</div><div class="ttdef"><b>Definition:</b> boss_rage_winterchill.cpp:58</div></div>
+<div class="ttc" id="astructboss__rage__winterchill_1_1boss__rage__winterchill_a_i_html_abb4bec7ff9fea7b317fbd325bb08fc37"><div class="ttname"><a href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#abb4bec7ff9fea7b317fbd325bb08fc37">boss_rage_winterchill::boss_rage_winterchillAI::DecayTimer</a></div><div class="ttdeci">uint32 DecayTimer</div><div class="ttdef"><b>Definition:</b> boss_rage_winterchill.cpp:59</div></div>
+<div class="ttc" id="astructboss__rage__winterchill_1_1boss__rage__winterchill_a_i_html_aedb1ebd3fd74b4aa82f16f25ea36d22f"><div class="ttname"><a href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#aedb1ebd3fd74b4aa82f16f25ea36d22f">boss_rage_winterchill::boss_rage_winterchillAI::NovaTimer</a></div><div class="ttdeci">uint32 NovaTimer</div><div class="ttdef"><b>Definition:</b> boss_rage_winterchill.cpp:60</div></div>
+<div class="ttc" id="astructboss__rage__winterchill_1_1boss__rage__winterchill_a_i_html_af18b787f71094b592b36f6470fd8b831"><div class="ttname"><a href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#af18b787f71094b592b36f6470fd8b831">boss_rage_winterchill::boss_rage_winterchillAI::IceboltTimer</a></div><div class="ttdeci">uint32 IceboltTimer</div><div class="ttdef"><b>Definition:</b> boss_rage_winterchill.cpp:61</div></div>
+<div class="ttc" id="astructhyjal__trash_a_i_html_a9544098011a22b0ed7c838f6b246c72e"><div class="ttname"><a href="../../d2/df2/structhyjal__trash_a_i.html#a9544098011a22b0ed7c838f6b246c72e">hyjal_trashAI::damageTaken</a></div><div class="ttdeci">uint32 damageTaken</div><div class="ttdef"><b>Definition:</b> hyjal_trash.h:46</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7f6f988afd904bb379f583059ceb5196" name="a7f6f988afd904bb379f583059ceb5196"></a>
@@ -769,7 +819,77 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#a5e9c333411c54ff4d644812e53ba1831">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  107</span>        {</div>
+<div class="line"><span class="lineno">  108</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#ac02c112ce1f38a17123340057fccf867">IsEvent</a>)</div>
+<div class="line"><span class="lineno">  109</span>            {</div>
+<div class="line"><span class="lineno">  110</span>                <span class="comment">//Must update npc_escortAI</span></div>
+<div class="line"><span class="lineno">  111</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a5e9c333411c54ff4d644812e53ba1831">npc_escortAI::UpdateAI</a>(diff);</div>
+<div class="line"><span class="lineno">  112</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#a6d0c0c2038cb5e4c534b651cbc057dd0">go</a>)</div>
+<div class="line"><span class="lineno">  113</span>                {</div>
+<div class="line"><span class="lineno">  114</span>                    <a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#a6d0c0c2038cb5e4c534b651cbc057dd0">go</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  115</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(0, 4896.08f,    -1576.35f,    1333.65f);</div>
+<div class="line"><span class="lineno">  116</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(1, 4898.68f,    -1615.02f,    1329.48f);</div>
+<div class="line"><span class="lineno">  117</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(2, 4907.12f,    -1667.08f,    1321.00f);</div>
+<div class="line"><span class="lineno">  118</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(3, 4963.18f,    -1699.35f,    1340.51f);</div>
+<div class="line"><span class="lineno">  119</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(4, 4989.16f,    -1716.67f,    1335.74f);</div>
+<div class="line"><span class="lineno">  120</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(5, 5026.27f,    -1736.89f,    1323.02f);</div>
+<div class="line"><span class="lineno">  121</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(6, 5037.77f,    -1770.56f,    1324.36f);</div>
+<div class="line"><span class="lineno">  122</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(7, 5067.23f,    -1789.95f,    1321.17f);</div>
+<div class="line"><span class="lineno">  123</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a3af9ad016ba42ce06db5d2ba7cdb6a5f">Start</a>(<span class="keyword">false</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  124</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#aa4c997f2f799be346c53299815720b36">SetDespawnAtEnd</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  125</span>                }</div>
+<div class="line"><span class="lineno">  126</span>            }</div>
+<div class="line"><span class="lineno">  127</span> </div>
+<div class="line"><span class="lineno">  128</span>            <span class="comment">//Return since we have no target</span></div>
+<div class="line"><span class="lineno">  129</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  130</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  131</span> </div>
+<div class="line"><span class="lineno">  132</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#a495deaefba5e64e18d41dc508c5b7e18">FrostArmorTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  133</span>            {</div>
+<div class="line"><span class="lineno">  134</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../dc/d34/boss__rage__winterchill_8cpp.html#a5bd342133be8c2137b831460acc9298ca9ae0ef67fad278c0f119dd3ceb49e475">SPELL_FROST_ARMOR</a>);</div>
+<div class="line"><span class="lineno">  135</span>                <a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#a495deaefba5e64e18d41dc508c5b7e18">FrostArmorTimer</a> = 40000 + rand() % 20000;</div>
+<div class="line"><span class="lineno">  136</span>            }</div>
+<div class="line"><span class="lineno">  137</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#a495deaefba5e64e18d41dc508c5b7e18">FrostArmorTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  138</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#abb4bec7ff9fea7b317fbd325bb08fc37">DecayTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  139</span>            {</div>
+<div class="line"><span class="lineno">  140</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../dc/d34/boss__rage__winterchill_8cpp.html#a5bd342133be8c2137b831460acc9298ca6d343d8659aac6c2c356387e867baf5f">SPELL_DEATH_AND_DECAY</a>);</div>
+<div class="line"><span class="lineno">  141</span>                <a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#abb4bec7ff9fea7b317fbd325bb08fc37">DecayTimer</a> = 60000 + rand() % 20000;</div>
+<div class="line"><span class="lineno">  142</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dc/d34/boss__rage__winterchill_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ad63ecb274b6fd82552c2d94b90509ef8">SAY_DECAY</a>);</div>
+<div class="line"><span class="lineno">  143</span>            }</div>
+<div class="line"><span class="lineno">  144</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#abb4bec7ff9fea7b317fbd325bb08fc37">DecayTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  145</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#aedb1ebd3fd74b4aa82f16f25ea36d22f">NovaTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  146</span>            {</div>
+<div class="line"><span class="lineno">  147</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../dc/d34/boss__rage__winterchill_8cpp.html#a5bd342133be8c2137b831460acc9298cab913503b67c5b8f901cfc4f207bcba03">SPELL_FROST_NOVA</a>);</div>
+<div class="line"><span class="lineno">  148</span>                <a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#aedb1ebd3fd74b4aa82f16f25ea36d22f">NovaTimer</a> = 30000 + rand() % 15000;</div>
+<div class="line"><span class="lineno">  149</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dc/d34/boss__rage__winterchill_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31aab11c139c2084261fe97e62ba3aa6c37">SAY_NOVA</a>);</div>
+<div class="line"><span class="lineno">  150</span>            }</div>
+<div class="line"><span class="lineno">  151</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#aedb1ebd3fd74b4aa82f16f25ea36d22f">NovaTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  152</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#af18b787f71094b592b36f6470fd8b831">IceboltTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  153</span>            {</div>
+<div class="line"><span class="lineno">  154</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 40, <span class="keyword">true</span>), <a class="code hl_enumvalue" href="../../dc/d34/boss__rage__winterchill_8cpp.html#a5bd342133be8c2137b831460acc9298ca07e091ecb8a2612b504b5d38e97179cc">SPELL_ICEBOLT</a>);</div>
+<div class="line"><span class="lineno">  155</span>                <a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#af18b787f71094b592b36f6470fd8b831">IceboltTimer</a> = 11000 + rand() % 20000;</div>
+<div class="line"><span class="lineno">  156</span>            }</div>
+<div class="line"><span class="lineno">  157</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html#af18b787f71094b592b36f6470fd8b831">IceboltTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  160</span>        }</div>
+<div class="ttc" id="aboss__rage__winterchill_8cpp_html_a5bd342133be8c2137b831460acc9298ca07e091ecb8a2612b504b5d38e97179cc"><div class="ttname"><a href="../../dc/d34/boss__rage__winterchill_8cpp.html#a5bd342133be8c2137b831460acc9298ca07e091ecb8a2612b504b5d38e97179cc">SPELL_ICEBOLT</a></div><div class="ttdeci">@ SPELL_ICEBOLT</div><div class="ttdef"><b>Definition:</b> boss_rage_winterchill.cpp:28</div></div>
+<div class="ttc" id="aboss__rage__winterchill_8cpp_html_a5bd342133be8c2137b831460acc9298ca6d343d8659aac6c2c356387e867baf5f"><div class="ttname"><a href="../../dc/d34/boss__rage__winterchill_8cpp.html#a5bd342133be8c2137b831460acc9298ca6d343d8659aac6c2c356387e867baf5f">SPELL_DEATH_AND_DECAY</a></div><div class="ttdeci">@ SPELL_DEATH_AND_DECAY</div><div class="ttdef"><b>Definition:</b> boss_rage_winterchill.cpp:26</div></div>
+<div class="ttc" id="aboss__rage__winterchill_8cpp_html_a5bd342133be8c2137b831460acc9298ca9ae0ef67fad278c0f119dd3ceb49e475"><div class="ttname"><a href="../../dc/d34/boss__rage__winterchill_8cpp.html#a5bd342133be8c2137b831460acc9298ca9ae0ef67fad278c0f119dd3ceb49e475">SPELL_FROST_ARMOR</a></div><div class="ttdeci">@ SPELL_FROST_ARMOR</div><div class="ttdef"><b>Definition:</b> boss_rage_winterchill.cpp:25</div></div>
+<div class="ttc" id="aboss__rage__winterchill_8cpp_html_a5bd342133be8c2137b831460acc9298cab913503b67c5b8f901cfc4f207bcba03"><div class="ttname"><a href="../../dc/d34/boss__rage__winterchill_8cpp.html#a5bd342133be8c2137b831460acc9298cab913503b67c5b8f901cfc4f207bcba03">SPELL_FROST_NOVA</a></div><div class="ttdeci">@ SPELL_FROST_NOVA</div><div class="ttdef"><b>Definition:</b> boss_rage_winterchill.cpp:27</div></div>
+<div class="ttc" id="aboss__rage__winterchill_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31aab11c139c2084261fe97e62ba3aa6c37"><div class="ttname"><a href="../../dc/d34/boss__rage__winterchill_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31aab11c139c2084261fe97e62ba3aa6c37">SAY_NOVA</a></div><div class="ttdeci">@ SAY_NOVA</div><div class="ttdef"><b>Definition:</b> boss_rage_winterchill.cpp:36</div></div>
+<div class="ttc" id="aboss__rage__winterchill_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31ad63ecb274b6fd82552c2d94b90509ef8"><div class="ttname"><a href="../../dc/d34/boss__rage__winterchill_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ad63ecb274b6fd82552c2d94b90509ef8">SAY_DECAY</a></div><div class="ttdeci">@ SAY_DECAY</div><div class="ttdef"><b>Definition:</b> boss_rage_winterchill.cpp:35</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a3af9ad016ba42ce06db5d2ba7cdb6a5f"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a3af9ad016ba42ce06db5d2ba7cdb6a5f">npc_escortAI::Start</a></div><div class="ttdeci">void Start(bool isActiveAttacker=true, bool run=false, ObjectGuid playerGUID=ObjectGuid::Empty, Quest const *quest=nullptr, bool instantRespawn=false, bool canLoopPath=false, bool resetWaypoints=true)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:450</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a5e9c333411c54ff4d644812e53ba1831"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a5e9c333411c54ff4d644812e53ba1831">npc_escortAI::UpdateAI</a></div><div class="ttdeci">void UpdateAI(uint32 diff) override</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:241</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_aa4c997f2f799be346c53299815720b36"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#aa4c997f2f799be346c53299815720b36">npc_escortAI::SetDespawnAtEnd</a></div><div class="ttdeci">void SetDespawnAtEnd(bool despawn)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:104</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_af6676a7693026ce6a35975d2358ff3e6"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">npc_escortAI::AddWaypoint</a></div><div class="ttdeci">void AddWaypoint(uint32 id, float x, float y, float z, uint32 waitTime=0)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:397</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1b0edae614873fe14bb3a428fa4eeebc" name="a1b0edae614873fe14bb3a428fa4eeebc"></a>
@@ -797,7 +917,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#a59830f742b9967303df22f5bcf0d2b9d">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   89</span>        {</div>
+<div class="line"><span class="lineno">   90</span>            <span class="keywordflow">if</span> (waypointId == 7 &amp;&amp; <a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#aa402559aeeda4ba00d72529353e5df3e">instance</a>)</div>
+<div class="line"><span class="lineno">   91</span>            {</div>
+<div class="line"><span class="lineno">   92</span>                <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#aa402559aeeda4ba00d72529353e5df3e">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">GetGuidData</a>(<a class="code hl_enumvalue" href="../../d0/dff/hyjal_8h.html#afb6eb4f28419b652027fad41104a6d22ae5e43aa5240f502d505d8a0168fe6be8">DATA_JAINAPROUDMOORE</a>));</div>
+<div class="line"><span class="lineno">   93</span>                <span class="keywordflow">if</span> (target &amp;&amp; target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">   94</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a3b4dad985e3b5dde28d89afc956999e4">AddThreat</a>(target, 0.0f);</div>
+<div class="line"><span class="lineno">   95</span>            }</div>
+<div class="line"><span class="lineno">   96</span>        }</div>
+<div class="ttc" id="aclass_instance_script_html_a3be7f24ca31c9433aca546e1087109b4"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript::GetGuidData</a></div><div class="ttdeci">ObjectGuid GetGuidData(uint32 type) const override</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:93</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a3b4dad985e3b5dde28d89afc956999e4"><div class="ttname"><a href="../../da/db7/class_unit.html#a3b4dad985e3b5dde28d89afc956999e4">Unit::AddThreat</a></div><div class="ttdeci">void AddThreat(Unit *victim, float fThreat, SpellSchoolMask schoolMask=SPELL_SCHOOL_MASK_NORMAL, SpellInfo const *threatSpell=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14523</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="ahyjal_8h_html_afb6eb4f28419b652027fad41104a6d22ae5e43aa5240f502d505d8a0168fe6be8"><div class="ttname"><a href="../../d0/dff/hyjal_8h.html#afb6eb4f28419b652027fad41104a6d22ae5e43aa5240f502d505d8a0168fe6be8">DATA_JAINAPROUDMOORE</a></div><div class="ttdeci">@ DATA_JAINAPROUDMOORE</div><div class="ttdef"><b>Definition:</b> hyjal.h:41</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -872,7 +1006,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/CavernsOfTime/BattleForMountHyjal/<a class="el" href="../../dc/d34/boss__rage__winterchill_8cpp.html">boss_rage_winterchill.cpp</a></li>
+<li><a class="el" href="../../">boss_rage_winterchill.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -880,7 +1014,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/dda/classboss__rage__winterchill.html">boss_rage_winterchill</a></li><li class="navelem"><a class="el" href="../../dc/d14/structboss__rage__winterchill_1_1boss__rage__winterchill_a_i.html">boss_rage_winterchillAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:42 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:54 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

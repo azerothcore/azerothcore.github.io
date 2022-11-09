@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/Scripting/ScriptSystem.h File Reference</title>
+<title>AzeorthCore: ScriptSystem.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -113,9 +113,9 @@ $(document).ready(function(){initNavTree('d5/d9a/_script_system_8h.html','../../
   <div class="headertitle"><div class="title">ScriptSystem.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
 </div>
-<p><a href="../../d5/d9a/_script_system_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -236,7 +236,37 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a3c2424ea523bc5d5e44a7fa49a67f476a088789de59f359faa6e7270fbc3282cb" name="a3c2424ea523bc5d5e44a7fa49a67f476a088789de59f359faa6e7270fbc3282cb"></a>FACTION_ESCORT_N_ACTIVE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3c2424ea523bc5d5e44a7fa49a67f476aa84d311b43a21c70f8891649f42f48cb" name="a3c2424ea523bc5d5e44a7fa49a67f476aa84d311b43a21c70f8891649f42f48cb"></a>FACTION_ESCORT_H_ACTIVE&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476ae8f5cc64dc2681d7820b83cf2706b6d9">FACTION_ESCORT_A_NEUTRAL_PASSIVE</a>    = 10,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476a76f714900c0c47ea2066410f61de6bea">FACTION_ESCORT_H_NEUTRAL_PASSIVE</a>    = 33,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476a19efd80bb177a094d312d3ad2c957e54">FACTION_ESCORT_N_NEUTRAL_PASSIVE</a>    = 113,</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476a38e0e3e6e5620e31120d084e73b63cf1">FACTION_ESCORT_A_NEUTRAL_ACTIVE</a>     = 231,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476aa2786ec02fa5514ae8d0091a51d8dd04">FACTION_ESCORT_H_NEUTRAL_ACTIVE</a>     = 232,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae">FACTION_ESCORT_N_NEUTRAL_ACTIVE</a>     = 250,</div>
+<div class="line"><span class="lineno">   38</span> </div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476aac0cf8b8049ca4f1750637f7eaa1d96b">FACTION_ESCORT_N_FRIEND_PASSIVE</a>     = 290,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476af9b814fa1617dc2a10a9764234998470">FACTION_ESCORT_N_FRIEND_ACTIVE</a>      = 495,</div>
+<div class="line"><span class="lineno">   41</span> </div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476a569c2ddb2269af72a41a1a3cd525b013">FACTION_ESCORT_A_PASSIVE</a>            = 774,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476ad766637f2bae4d1bbb75b2ac4ffd7e73">FACTION_ESCORT_H_PASSIVE</a>            = 775,</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476a088789de59f359faa6e7270fbc3282cb">FACTION_ESCORT_N_ACTIVE</a>             = 1986,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476aa84d311b43a21c70f8891649f42f48cb">FACTION_ESCORT_H_ACTIVE</a>             = 2046</div>
+<div class="line"><span class="lineno">   47</span>};</div>
+<div class="ttc" id="a_script_system_8h_html_a3c2424ea523bc5d5e44a7fa49a67f476a088789de59f359faa6e7270fbc3282cb"><div class="ttname"><a href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476a088789de59f359faa6e7270fbc3282cb">FACTION_ESCORT_N_ACTIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_N_ACTIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:45</div></div>
+<div class="ttc" id="a_script_system_8h_html_a3c2424ea523bc5d5e44a7fa49a67f476a19efd80bb177a094d312d3ad2c957e54"><div class="ttname"><a href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476a19efd80bb177a094d312d3ad2c957e54">FACTION_ESCORT_N_NEUTRAL_PASSIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_N_NEUTRAL_PASSIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:33</div></div>
+<div class="ttc" id="a_script_system_8h_html_a3c2424ea523bc5d5e44a7fa49a67f476a38e0e3e6e5620e31120d084e73b63cf1"><div class="ttname"><a href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476a38e0e3e6e5620e31120d084e73b63cf1">FACTION_ESCORT_A_NEUTRAL_ACTIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_A_NEUTRAL_ACTIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:35</div></div>
+<div class="ttc" id="a_script_system_8h_html_a3c2424ea523bc5d5e44a7fa49a67f476a569c2ddb2269af72a41a1a3cd525b013"><div class="ttname"><a href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476a569c2ddb2269af72a41a1a3cd525b013">FACTION_ESCORT_A_PASSIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_A_PASSIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:42</div></div>
+<div class="ttc" id="a_script_system_8h_html_a3c2424ea523bc5d5e44a7fa49a67f476a76f714900c0c47ea2066410f61de6bea"><div class="ttname"><a href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476a76f714900c0c47ea2066410f61de6bea">FACTION_ESCORT_H_NEUTRAL_PASSIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_H_NEUTRAL_PASSIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:32</div></div>
+<div class="ttc" id="a_script_system_8h_html_a3c2424ea523bc5d5e44a7fa49a67f476aa2786ec02fa5514ae8d0091a51d8dd04"><div class="ttname"><a href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476aa2786ec02fa5514ae8d0091a51d8dd04">FACTION_ESCORT_H_NEUTRAL_ACTIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_H_NEUTRAL_ACTIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:36</div></div>
+<div class="ttc" id="a_script_system_8h_html_a3c2424ea523bc5d5e44a7fa49a67f476aa84d311b43a21c70f8891649f42f48cb"><div class="ttname"><a href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476aa84d311b43a21c70f8891649f42f48cb">FACTION_ESCORT_H_ACTIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_H_ACTIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:46</div></div>
+<div class="ttc" id="a_script_system_8h_html_a3c2424ea523bc5d5e44a7fa49a67f476aac0cf8b8049ca4f1750637f7eaa1d96b"><div class="ttname"><a href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476aac0cf8b8049ca4f1750637f7eaa1d96b">FACTION_ESCORT_N_FRIEND_PASSIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_N_FRIEND_PASSIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:39</div></div>
+<div class="ttc" id="a_script_system_8h_html_a3c2424ea523bc5d5e44a7fa49a67f476ad766637f2bae4d1bbb75b2ac4ffd7e73"><div class="ttname"><a href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476ad766637f2bae4d1bbb75b2ac4ffd7e73">FACTION_ESCORT_H_PASSIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_H_PASSIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:43</div></div>
+<div class="ttc" id="a_script_system_8h_html_a3c2424ea523bc5d5e44a7fa49a67f476ae8f5cc64dc2681d7820b83cf2706b6d9"><div class="ttname"><a href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476ae8f5cc64dc2681d7820b83cf2706b6d9">FACTION_ESCORT_A_NEUTRAL_PASSIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_A_NEUTRAL_PASSIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:31</div></div>
+<div class="ttc" id="a_script_system_8h_html_a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae"><div class="ttname"><a href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae">FACTION_ESCORT_N_NEUTRAL_ACTIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_N_NEUTRAL_ACTIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:37</div></div>
+<div class="ttc" id="a_script_system_8h_html_a3c2424ea523bc5d5e44a7fa49a67f476af9b814fa1617dc2a10a9764234998470"><div class="ttname"><a href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476af9b814fa1617dc2a10a9764234998470">FACTION_ESCORT_N_FRIEND_ACTIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_N_FRIEND_ACTIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -245,7 +275,7 @@ Enumerations</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../d5/d9a/_script_system_8h.html">ScriptSystem.h</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

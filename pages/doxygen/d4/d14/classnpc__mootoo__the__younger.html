@@ -187,7 +187,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a91e10489ed6a98cfa764fd4de8448317" name="a91e10489ed6a98cfa764fd4de8448317"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a91e10489ed6a98cfa764fd4de8448317">&#9670;&#160;</a></span>npc_mootoo_the_younger()</h2>
 
@@ -210,7 +211,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  846</span>: <a class="code hl_class" href="../../d5/dca/class_creature_script.html">CreatureScript</a>(<span class="stringliteral">&quot;npc_mootoo_the_younger&quot;</span>) { }</div>
+<div class="ttc" id="aclass_creature_script_html"><div class="ttname"><a href="../../d5/dca/class_creature_script.html">CreatureScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:718</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -239,7 +242,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a24ba3529655943afdf6598450d14e6c2">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  907</span>    {</div>
+<div class="line"><span class="lineno">  908</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> npc_mootoo_the_youngerAI(creature);</div>
+<div class="line"><span class="lineno">  909</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5fce360ef989f5b2fe42cd04361e33bc" name="a5fce360ef989f5b2fe42cd04361e33bc"></a>
@@ -283,11 +289,35 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a6b106a237886f49e523ae7b07e9c5979">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  849</span>    {</div>
+<div class="line"><span class="lineno">  850</span>        <span class="keywordflow">if</span> (quest-&gt;GetQuestId() == <a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a96ad48d605d3ed4333336d5d262d1f37a2c687699621b5fc72a0cf29864a51c22">QUEST_ESCAPING_THE_MIST</a>)</div>
+<div class="line"><span class="lineno">  851</span>        {</div>
+<div class="line"><span class="lineno">  852</span>            creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>() == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a> ? <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2ab3ab97955295a89493b78e6ebcb80c43">FACTION_ESCORTEE_A_PASSIVE</a> : <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a719a8616c2bc862a0a67691b0cf0fc7f">FACTION_ESCORTEE_H_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">  853</span>            creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aeae261b4b6d3ccacc8819ca19b4ef0cc">SetStandState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1ae36b6864d89399e04b14123d3194e224">UNIT_STAND_STATE_STAND</a>);</div>
+<div class="line"><span class="lineno">  854</span>            creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a96ad48d605d3ed4333336d5d262d1f37a307d891e05530d70a32ad2047cfe6dab">SAY_1</a>, player);</div>
+<div class="line"><span class="lineno">  855</span>            <a class="code hl_define" href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a>(<a class="code hl_struct" href="../../dd/d7f/structnpc__escort_a_i.html">npc_escortAI</a>, (creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()))-&gt;Start(<span class="keyword">true</span>, <span class="keyword">false</span>, player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  856</span>        }</div>
+<div class="line"><span class="lineno">  857</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  858</span>    }</div>
+<div class="ttc" id="a_scripted_creature_8h_html_a0476b18cfebeb691aabb4344ec4f8af3"><div class="ttname"><a href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a></div><div class="ttdeci">#define CAST_AI(a, b)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:27</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a></div><div class="ttdeci">@ TEAM_ALLIANCE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:732</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ac5c8e776fe109c83a63abe41eb5e80f2a719a8616c2bc862a0a67691b0cf0fc7f"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a719a8616c2bc862a0a67691b0cf0fc7f">FACTION_ESCORTEE_H_PASSIVE</a></div><div class="ttdeci">@ FACTION_ESCORTEE_H_PASSIVE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:196</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ac5c8e776fe109c83a63abe41eb5e80f2ab3ab97955295a89493b78e6ebcb80c43"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2ab3ab97955295a89493b78e6ebcb80c43">FACTION_ESCORTEE_A_PASSIVE</a></div><div class="ttdeci">@ FACTION_ESCORTEE_A_PASSIVE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:195</div></div>
+<div class="ttc" id="a_unit_8h_html_a809d475cf0ffeaa1ddad86f73e24a7c1ae36b6864d89399e04b14123d3194e224"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1ae36b6864d89399e04b14123d3194e224">UNIT_STAND_STATE_STAND</a></div><div class="ttdeci">@ UNIT_STAND_STATE_STAND</div><div class="ttdef"><b>Definition:</b> Unit.h:53</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_a96b82ee318c4d46f16b94192de654bed"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">CreatureAI::Talk</a></div><div class="ttdeci">void Talk(uint8 id, WorldObject const *whisperTarget=nullptr)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:58</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_player_html_a4874f5c152e187c381c2a349f16aa0d4"><div class="ttname"><a href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">Player::GetTeamId</a></div><div class="ttdeci">TeamId GetTeamId(bool original=false) const</div><div class="ttdef"><b>Definition:</b> Player.h:2058</div></div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="aclass_unit_html_aeae261b4b6d3ccacc8819ca19b4ef0cc"><div class="ttname"><a href="../../da/db7/class_unit.html#aeae261b4b6d3ccacc8819ca19b4ef0cc">Unit::SetStandState</a></div><div class="ttdeci">void SetStandState(uint8 state)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16812</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html">npc_escortAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:53</div></div>
+<div class="ttc" id="azone__borean__tundra_8cpp_html_a96ad48d605d3ed4333336d5d262d1f37a2c687699621b5fc72a0cf29864a51c22"><div class="ttname"><a href="../../d3/d09/zone__borean__tundra_8cpp.html#a96ad48d605d3ed4333336d5d262d1f37a2c687699621b5fc72a0cf29864a51c22">QUEST_ESCAPING_THE_MIST</a></div><div class="ttdeci">@ QUEST_ESCAPING_THE_MIST</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:840</div></div>
+<div class="ttc" id="azone__borean__tundra_8cpp_html_a96ad48d605d3ed4333336d5d262d1f37a307d891e05530d70a32ad2047cfe6dab"><div class="ttname"><a href="../../d3/d09/zone__borean__tundra_8cpp.html#a96ad48d605d3ed4333336d5d262d1f37a307d891e05530d70a32ad2047cfe6dab">SAY_1</a></div><div class="ttdeci">@ SAY_1</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:833</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d3/d09/zone__borean__tundra_8cpp.html">zone_borean_tundra.cpp</a></li>
+<li><a class="el" href="../../">zone_borean_tundra.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -295,7 +325,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d14/classnpc__mootoo__the__younger.html">npc_mootoo_the_younger</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

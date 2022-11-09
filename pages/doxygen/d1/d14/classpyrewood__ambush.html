@@ -187,7 +187,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a07dfe00bcc86320c4968ca10e9480322" name="a07dfe00bcc86320c4968ca10e9480322"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a07dfe00bcc86320c4968ca10e9480322">&#9670;&#160;</a></span>pyrewood_ambush()</h2>
 
@@ -210,7 +211,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  168</span>: <a class="code hl_class" href="../../d5/dca/class_creature_script.html">CreatureScript</a>(<span class="stringliteral">&quot;pyrewood_ambush&quot;</span>) { }</div>
+<div class="ttc" id="aclass_creature_script_html"><div class="ttname"><a href="../../d5/dca/class_creature_script.html">CreatureScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:718</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -239,7 +242,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a24ba3529655943afdf6598450d14e6c2">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  184</span>    {</div>
+<div class="line"><span class="lineno">  185</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> pyrewood_ambushAI(creature);</div>
+<div class="line"><span class="lineno">  186</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="add2804a9a76559dc5f051102f067e0bf" name="add2804a9a76559dc5f051102f067e0bf"></a>
@@ -283,11 +289,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a6b106a237886f49e523ae7b07e9c5979">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  171</span>    {</div>
+<div class="line"><span class="lineno">  172</span>        <span class="keywordflow">if</span> (quest-&gt;<a class="code hl_function" href="../../d8/d63/class_quest.html#a992449032653d9405898a3419f8c28c0">GetQuestId</a>() == <a class="code hl_enumvalue" href="../../d2/d5b/zone__silverpine__forest_8cpp.html#a877721d69d53f57a970e68fafa98f026a92b54f289feb991fd918a0e654bd6c77">QUEST_PYREWOOD_AMBUSH</a> &amp;&amp; !<a class="code hl_define" href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a>(<a class="code hl_struct" href="../../d0/d7e/structpyrewood__ambush_1_1pyrewood__ambush_a_i.html">pyrewood_ambush::pyrewood_ambushAI</a>, creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>())-&gt;QuestInProgress)</div>
+<div class="line"><span class="lineno">  173</span>        {</div>
+<div class="line"><span class="lineno">  174</span>            <a class="code hl_define" href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a>(<a class="code hl_struct" href="../../d0/d7e/structpyrewood__ambush_1_1pyrewood__ambush_a_i.html">pyrewood_ambush::pyrewood_ambushAI</a>, creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>())-&gt;QuestInProgress = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  175</span>            <a class="code hl_define" href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a>(<a class="code hl_struct" href="../../d0/d7e/structpyrewood__ambush_1_1pyrewood__ambush_a_i.html">pyrewood_ambush::pyrewood_ambushAI</a>, creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>())-&gt;Phase = 0;</div>
+<div class="line"><span class="lineno">  176</span>            <a class="code hl_define" href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a>(<a class="code hl_struct" href="../../d0/d7e/structpyrewood__ambush_1_1pyrewood__ambush_a_i.html">pyrewood_ambush::pyrewood_ambushAI</a>, creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>())-&gt;KillCount = 0;</div>
+<div class="line"><span class="lineno">  177</span>            <a class="code hl_define" href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a>(<a class="code hl_struct" href="../../d0/d7e/structpyrewood__ambush_1_1pyrewood__ambush_a_i.html">pyrewood_ambush::pyrewood_ambushAI</a>, creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>())-&gt;PlayerGUID = player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  178</span>        }</div>
+<div class="line"><span class="lineno">  179</span> </div>
+<div class="line"><span class="lineno">  180</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  181</span>    }</div>
+<div class="ttc" id="a_scripted_creature_8h_html_a0476b18cfebeb691aabb4344ec4f8af3"><div class="ttname"><a href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a></div><div class="ttdeci">#define CAST_AI(a, b)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:27</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_quest_html_a992449032653d9405898a3419f8c28c0"><div class="ttname"><a href="../../d8/d63/class_quest.html#a992449032653d9405898a3419f8c28c0">Quest::GetQuestId</a></div><div class="ttdeci">uint32 GetQuestId() const</div><div class="ttdef"><b>Definition:</b> QuestDef.h:225</div></div>
+<div class="ttc" id="astructpyrewood__ambush_1_1pyrewood__ambush_a_i_html"><div class="ttname"><a href="../../d0/d7e/structpyrewood__ambush_1_1pyrewood__ambush_a_i.html">pyrewood_ambush::pyrewood_ambushAI</a></div><div class="ttdef"><b>Definition:</b> zone_silverpine_forest.cpp:189</div></div>
+<div class="ttc" id="azone__silverpine__forest_8cpp_html_a877721d69d53f57a970e68fafa98f026a92b54f289feb991fd918a0e654bd6c77"><div class="ttname"><a href="../../d2/d5b/zone__silverpine__forest_8cpp.html#a877721d69d53f57a970e68fafa98f026a92b54f289feb991fd918a0e654bd6c77">QUEST_PYREWOOD_AMBUSH</a></div><div class="ttdeci">@ QUEST_PYREWOOD_AMBUSH</div><div class="ttdef"><b>Definition:</b> zone_silverpine_forest.cpp:143</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/<a class="el" href="../../d2/d5b/zone__silverpine__forest_8cpp.html">zone_silverpine_forest.cpp</a></li>
+<li><a class="el" href="../../">zone_silverpine_forest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -295,7 +318,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d14/classpyrewood__ambush.html">pyrewood_ambush</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d0/d69/class_async_callback_processor.
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d2/d48/_async_callback_processor_8h_source.html">AsyncCallbackProcessor.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">AsyncCallbackProcessor.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -139,7 +139,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a372d9496b9a1b3e3f718cefe50164209"><td class="memItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d69/class_async_callback_processor.html#a372d9496b9a1b3e3f718cefe50164209">_callbacks</a></td></tr>
 <tr class="separator:a372d9496b9a1b3e3f718cefe50164209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+class AsyncCallbackProcessor&lt; T &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aee6f273ab86fad749de85cd12ea32a98" name="aee6f273ab86fad749de85cd12ea32a98"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aee6f273ab86fad749de85cd12ea32a98">&#9670;&#160;</a></span>AsyncCallbackProcessor() <span class="overload">[1/2]</span></h2>
 
@@ -248,7 +250,12 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   36</span>    {</div>
+<div class="line"><span class="lineno">   37</span>        <a class="code hl_variable" href="../../d0/d69/class_async_callback_processor.html#a372d9496b9a1b3e3f718cefe50164209">_callbacks</a>.emplace_back(std::move(query));</div>
+<div class="line"><span class="lineno">   38</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d69/class_async_callback_processor.html#a372d9496b9a1b3e3f718cefe50164209">_callbacks</a>.back();</div>
+<div class="line"><span class="lineno">   39</span>    }</div>
+<div class="ttc" id="aclass_async_callback_processor_html_a372d9496b9a1b3e3f718cefe50164209"><div class="ttname"><a href="../../d0/d69/class_async_callback_processor.html#a372d9496b9a1b3e3f718cefe50164209">AsyncCallbackProcessor::_callbacks</a></div><div class="ttdeci">std::vector&lt; T &gt; _callbacks</div><div class="ttdef"><b>Definition:</b> AsyncCallbackProcessor.h:60</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae95508c8bd67d6246279f37cbe6ca8d3" name="ae95508c8bd67d6246279f37cbe6ca8d3"></a>
@@ -303,7 +310,20 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   42</span>    {</div>
+<div class="line"><span class="lineno">   43</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d69/class_async_callback_processor.html#a372d9496b9a1b3e3f718cefe50164209">_callbacks</a>.empty())</div>
+<div class="line"><span class="lineno">   44</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>        std::vector&lt;T&gt; updateCallbacks{ std::move(<a class="code hl_variable" href="../../d0/d69/class_async_callback_processor.html#a372d9496b9a1b3e3f718cefe50164209">_callbacks</a>) };</div>
+<div class="line"><span class="lineno">   47</span> </div>
+<div class="line"><span class="lineno">   48</span>        updateCallbacks.erase(std::remove_if(updateCallbacks.begin(), updateCallbacks.end(), [](T&amp; callback)</div>
+<div class="line"><span class="lineno">   49</span>        {</div>
+<div class="line"><span class="lineno">   50</span>            return callback.InvokeIfReady();</div>
+<div class="line"><span class="lineno">   51</span>        }), updateCallbacks.end());</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>        <a class="code hl_variable" href="../../d0/d69/class_async_callback_processor.html#a372d9496b9a1b3e3f718cefe50164209">_callbacks</a>.insert(<a class="code hl_variable" href="../../d0/d69/class_async_callback_processor.html#a372d9496b9a1b3e3f718cefe50164209">_callbacks</a>.end(), std::make_move_iterator(updateCallbacks.begin()), std::make_move_iterator(updateCallbacks.end()));</div>
+<div class="line"><span class="lineno">   54</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -332,7 +352,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Utilities/<a class="el" href="../../d2/d48/_async_callback_processor_8h_source.html">AsyncCallbackProcessor.h</a></li>
+<li><a class="el" href="../../">AsyncCallbackProcessor.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -340,7 +360,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d69/class_async_callback_processor.html">AsyncCallbackProcessor</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:37 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

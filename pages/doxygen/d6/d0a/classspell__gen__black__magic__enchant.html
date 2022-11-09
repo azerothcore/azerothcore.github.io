@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="afa477049b9a4fa18594b203a6066d205" name="afa477049b9a4fa18594b203a6066d205"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa477049b9a4fa18594b203a6066d205">&#9670;&#160;</a></span>CheckProc()</h2>
 
@@ -326,7 +327,31 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  608</span>    {</div>
+<div class="line"><span class="lineno">  609</span>        <a class="code hl_class" href="../../d4/d7d/class_spell_info.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a759add2c89e786125196eb6bd3b20c6d">GetSpellInfo</a>();</div>
+<div class="line"><span class="lineno">  610</span>        <span class="keywordflow">if</span> (!spellInfo)</div>
+<div class="line"><span class="lineno">  611</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  612</span> </div>
+<div class="line"><span class="lineno">  613</span>        <span class="comment">// Xinef: Old &#39;code&#39;</span></div>
+<div class="line"><span class="lineno">  614</span>        <span class="keywordflow">if</span> (eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a5e2c60a3e242f69afa2cb2bccf5a072b">GetTypeMask</a>() &amp; <a class="code hl_enumvalue" href="../../d3/d75/_spell_mgr_8h.html#ade1c2af066d4cf1bbcd88f13f01cd4d6afe7895d66dfe7eb26eb655d393b0cd67">PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_NEG</a>)</div>
+<div class="line"><span class="lineno">  615</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  616</span> </div>
+<div class="line"><span class="lineno">  617</span>        <span class="comment">// Implement Black Magic enchant Bug</span></div>
+<div class="line"><span class="lineno">  618</span>        <span class="keywordflow">if</span> (spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#af6ec577353f7d3cc59badd7d332153b0">SpellFamilyName</a> == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a9264ae6b0ef1b61a6eeb7fdac9fbab1bac3788ce010075b8bd4e6083638d8cd40">SPELLFAMILY_DRUID</a>)</div>
+<div class="line"><span class="lineno">  619</span>            <span class="keywordflow">if</span> (spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#ac1a82f9330481616b4b87ed9eff0f785">SpellIconID</a> == 2857 <span class="comment">/*SPELL_INFECTED_WOUNDS*/</span> || spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#ac1a82f9330481616b4b87ed9eff0f785">SpellIconID</a> == 147 <span class="comment">/*SPELL_SHRED*/</span> || spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#a30452de2bd62607418f3962d00124144">SpellFamilyFlags</a>[1] &amp; 0x400 <span class="comment">/*SPELL_MANGLE_(CAT)*/</span>)</div>
+<div class="line"><span class="lineno">  620</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  621</span> </div>
+<div class="line"><span class="lineno">  622</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  623</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a9264ae6b0ef1b61a6eeb7fdac9fbab1bac3788ce010075b8bd4e6083638d8cd40"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a9264ae6b0ef1b61a6eeb7fdac9fbab1bac3788ce010075b8bd4e6083638d8cd40">SPELLFAMILY_DRUID</a></div><div class="ttdeci">@ SPELLFAMILY_DRUID</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3507</div></div>
+<div class="ttc" id="a_spell_mgr_8h_html_ade1c2af066d4cf1bbcd88f13f01cd4d6afe7895d66dfe7eb26eb655d393b0cd67"><div class="ttname"><a href="../../d3/d75/_spell_mgr_8h.html#ade1c2af066d4cf1bbcd88f13f01cd4d6afe7895d66dfe7eb26eb655d393b0cd67">PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_NEG</a></div><div class="ttdeci">@ PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_NEG</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:131</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_a5e2c60a3e242f69afa2cb2bccf5a072b"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#a5e2c60a3e242f69afa2cb2bccf5a072b">ProcEventInfo::GetTypeMask</a></div><div class="ttdeci">uint32 GetTypeMask() const</div><div class="ttdef"><b>Definition:</b> Unit.h:861</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_a759add2c89e786125196eb6bd3b20c6d"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#a759add2c89e786125196eb6bd3b20c6d">ProcEventInfo::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:186</div></div>
+<div class="ttc" id="aclass_spell_info_html"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html">SpellInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:314</div></div>
+<div class="ttc" id="aclass_spell_info_html_a30452de2bd62607418f3962d00124144"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#a30452de2bd62607418f3962d00124144">SpellInfo::SpellFamilyFlags</a></div><div class="ttdeci">flag96 SpellFamilyFlags</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:386</div></div>
+<div class="ttc" id="aclass_spell_info_html_ac1a82f9330481616b4b87ed9eff0f785"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#ac1a82f9330481616b4b87ed9eff0f785">SpellInfo::SpellIconID</a></div><div class="ttdeci">uint32 SpellIconID</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:378</div></div>
+<div class="ttc" id="aclass_spell_info_html_af6ec577353f7d3cc59badd7d332153b0"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#af6ec577353f7d3cc59badd7d332153b0">SpellInfo::SpellFamilyName</a></div><div class="ttdeci">uint32 SpellFamilyName</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:385</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9fff895957dfedb5d975e4a8e9588aa9" name="a9fff895957dfedb5d975e4a8e9588aa9"></a>
@@ -379,11 +404,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  626</span>    {</div>
+<div class="line"><span class="lineno">  627</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">DoCheckProc</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a>(<a class="code hl_function" href="../../d6/d0a/classspell__gen__black__magic__enchant.html#afa477049b9a4fa18594b203a6066d205">spell_gen_black_magic_enchant::CheckProc</a>);</div>
+<div class="line"><span class="lineno">  628</span>    }</div>
+<div class="ttc" id="a_spell_script_8h_html_ad25bcd0c3aa73ba267fa87ea50bc1780"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a></div><div class="ttdeci">#define AuraCheckProcFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:812</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab771dd972497502e5202fd48a1d6c17d"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">AuraScript::DoCheckProc</a></div><div class="ttdeci">HookList&lt; CheckProcHandler &gt; DoCheckProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:807</div></div>
+<div class="ttc" id="aclassspell__gen__black__magic__enchant_html_afa477049b9a4fa18594b203a6066d205"><div class="ttname"><a href="../../d6/d0a/classspell__gen__black__magic__enchant.html#afa477049b9a4fa18594b203a6066d205">spell_gen_black_magic_enchant::CheckProc</a></div><div class="ttdeci">bool CheckProc(ProcEventInfo &amp;eventInfo)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:607</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../d1/de4/spell__generic_8cpp.html">spell_generic.cpp</a></li>
+<li><a class="el" href="../../">spell_generic.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -391,7 +422,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d0a/classspell__gen__black__magic__enchant.html">spell_gen_black_magic_enchant</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -167,7 +167,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1bf79d739a6af02405bc268c9bb50c26" name="a1bf79d739a6af02405bc268c9bb50c26"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1bf79d739a6af02405bc268c9bb50c26">&#9670;&#160;</a></span>spectator_commandscript()</h2>
 
@@ -190,7 +191,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   31</span>: <a class="code hl_class" href="../../d8/ddd/class_command_script.html">CommandScript</a>(<span class="stringliteral">&quot;spectator_commandscript&quot;</span>) { }</div>
+<div class="ttc" id="aclass_command_script_html"><div class="ttname"><a href="../../d8/ddd/class_command_script.html">CommandScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:849</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -218,7 +221,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d8/ddd/class_command_script.html#a97dc7d00b78e0030ba2a950d23b2ebd2">CommandScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>    {</div>
+<div class="line"><span class="lineno">   35</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">ChatCommandTable</a> spectatorCommandTable =</div>
+<div class="line"><span class="lineno">   36</span>        {</div>
+<div class="line"><span class="lineno">   37</span>            { <span class="stringliteral">&quot;version&quot;</span>,  <a class="code hl_function" href="../../d4/da1/classspectator__commandscript.html#aaf7c57603d263f7ab919f12d9680f058">HandleSpectatorVersionCommand</a>,  <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0">SEC_PLAYER</a>, Console::No },</div>
+<div class="line"><span class="lineno">   38</span>            { <span class="stringliteral">&quot;reset&quot;</span>,    <a class="code hl_function" href="../../d4/da1/classspectator__commandscript.html#a23a1a3740609a6d0caa6e0f10c7e8653">HandleSpectatorResetCommand</a>,    <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0">SEC_PLAYER</a>, Console::No },</div>
+<div class="line"><span class="lineno">   39</span>            { <span class="stringliteral">&quot;spectate&quot;</span>, <a class="code hl_function" href="../../d4/da1/classspectator__commandscript.html#ad1f117a77c0154fc25e937dfe21870a2">HandleSpectatorSpectateCommand</a>, <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0">SEC_PLAYER</a>, Console::No },</div>
+<div class="line"><span class="lineno">   40</span>            { <span class="stringliteral">&quot;watch&quot;</span>,    <a class="code hl_function" href="../../d4/da1/classspectator__commandscript.html#a1ee822e332374b375962d1ae87adbc61">HandleSpectatorWatchCommand</a>,    <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0">SEC_PLAYER</a>, Console::No },</div>
+<div class="line"><span class="lineno">   41</span>            { <span class="stringliteral">&quot;leave&quot;</span>,    <a class="code hl_function" href="../../d4/da1/classspectator__commandscript.html#a15e661891f4e08c3efa0bd844c3954aa">HandleSpectatorLeaveCommand</a>,    <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0">SEC_PLAYER</a>, Console::No },</div>
+<div class="line"><span class="lineno">   42</span>            { <span class="stringliteral">&quot;&quot;</span>,         <a class="code hl_function" href="../../d4/da1/classspectator__commandscript.html#aaf331e54c3c19b5d16d9d5f5c9d28721">HandleSpectatorCommand</a>,         <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0">SEC_PLAYER</a>, Console::No }</div>
+<div class="line"><span class="lineno">   43</span>        };</div>
+<div class="line"><span class="lineno">   44</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">ChatCommandTable</a> commandTable =</div>
+<div class="line"><span class="lineno">   45</span>        {</div>
+<div class="line"><span class="lineno">   46</span>            { <span class="stringliteral">&quot;spect&quot;</span>, spectatorCommandTable }</div>
+<div class="line"><span class="lineno">   47</span>        };</div>
+<div class="line"><span class="lineno">   48</span>        <span class="keywordflow">return</span> commandTable;</div>
+<div class="line"><span class="lineno">   49</span>    }</div>
+<div class="ttc" id="a_common_8h_html_adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0"><div class="ttname"><a href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0">SEC_PLAYER</a></div><div class="ttdeci">@ SEC_PLAYER</div><div class="ttdef"><b>Definition:</b> Common.h:66</div></div>
+<div class="ttc" id="aclassspectator__commandscript_html_a15e661891f4e08c3efa0bd844c3954aa"><div class="ttname"><a href="../../d4/da1/classspectator__commandscript.html#a15e661891f4e08c3efa0bd844c3954aa">spectator_commandscript::HandleSpectatorLeaveCommand</a></div><div class="ttdeci">static bool HandleSpectatorLeaveCommand(ChatHandler *handler)</div><div class="ttdef"><b>Definition:</b> cs_spectator.cpp:76</div></div>
+<div class="ttc" id="aclassspectator__commandscript_html_a1ee822e332374b375962d1ae87adbc61"><div class="ttname"><a href="../../d4/da1/classspectator__commandscript.html#a1ee822e332374b375962d1ae87adbc61">spectator_commandscript::HandleSpectatorWatchCommand</a></div><div class="ttdeci">static bool HandleSpectatorWatchCommand(ChatHandler *handler, std::string const &amp;name)</div><div class="ttdef"><b>Definition:</b> cs_spectator.cpp:98</div></div>
+<div class="ttc" id="aclassspectator__commandscript_html_a23a1a3740609a6d0caa6e0f10c7e8653"><div class="ttname"><a href="../../d4/da1/classspectator__commandscript.html#a23a1a3740609a6d0caa6e0f10c7e8653">spectator_commandscript::HandleSpectatorResetCommand</a></div><div class="ttdeci">static bool HandleSpectatorResetCommand(ChatHandler *handler)</div><div class="ttdef"><b>Definition:</b> cs_spectator.cpp:67</div></div>
+<div class="ttc" id="aclassspectator__commandscript_html_aaf331e54c3c19b5d16d9d5f5c9d28721"><div class="ttname"><a href="../../d4/da1/classspectator__commandscript.html#aaf331e54c3c19b5d16d9d5f5c9d28721">spectator_commandscript::HandleSpectatorCommand</a></div><div class="ttdeci">static bool HandleSpectatorCommand(ChatHandler *handler)</div><div class="ttdef"><b>Definition:</b> cs_spectator.cpp:51</div></div>
+<div class="ttc" id="aclassspectator__commandscript_html_aaf7c57603d263f7ab919f12d9680f058"><div class="ttname"><a href="../../d4/da1/classspectator__commandscript.html#aaf7c57603d263f7ab919f12d9680f058">spectator_commandscript::HandleSpectatorVersionCommand</a></div><div class="ttdeci">static bool HandleSpectatorVersionCommand(ChatHandler *handler, uint16 version)</div><div class="ttdef"><b>Definition:</b> cs_spectator.cpp:60</div></div>
+<div class="ttc" id="aclassspectator__commandscript_html_ad1f117a77c0154fc25e937dfe21870a2"><div class="ttname"><a href="../../d4/da1/classspectator__commandscript.html#ad1f117a77c0154fc25e937dfe21870a2">spectator_commandscript::HandleSpectatorSpectateCommand</a></div><div class="ttdeci">static bool HandleSpectatorSpectateCommand(ChatHandler *handler, std::string const &amp;name)</div><div class="ttdef"><b>Definition:</b> cs_spectator.cpp:90</div></div>
+<div class="ttc" id="anamespace_acore_1_1_chat_commands_html_a7aa1549a95f760a19b9b7ffd8e669626"><div class="ttname"><a href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">Acore::ChatCommands::ChatCommandTable</a></div><div class="ttdeci">std::vector&lt; ChatCommandBuilder &gt; ChatCommandTable</div><div class="ttdef"><b>Definition:</b> ChatCommand.h:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaf331e54c3c19b5d16d9d5f5c9d28721" name="aaf331e54c3c19b5d16d9d5f5c9d28721"></a>
@@ -244,7 +271,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   52</span>    {</div>
+<div class="line"><span class="lineno">   53</span>        handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a>(<span class="stringliteral">&quot;Incorrect syntax.&quot;</span>);</div>
+<div class="line"><span class="lineno">   54</span>        handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a>(<span class="stringliteral">&quot;Command has subcommands:&quot;</span>);</div>
+<div class="line"><span class="lineno">   55</span>        handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a>(<span class="stringliteral">&quot;   spectate&quot;</span>);</div>
+<div class="line"><span class="lineno">   56</span>        handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a>(<span class="stringliteral">&quot;   leave&quot;</span>);</div>
+<div class="line"><span class="lineno">   57</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   58</span>    }</div>
+<div class="ttc" id="aclass_chat_handler_html_ab2e685f37d4f0f3b763a6323cce7af25"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ab2e685f37d4f0f3b763a6323cce7af25">ChatHandler::PSendSysMessage</a></div><div class="ttdeci">void PSendSysMessage(char const *fmt, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> Chat.h:60</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a15e661891f4e08c3efa0bd844c3954aa" name="a15e661891f4e08c3efa0bd844c3954aa"></a>
@@ -270,7 +305,27 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   77</span>    {</div>
+<div class="line"><span class="lineno">   78</span>        <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a635eca3065c9464e0cdcedd9f0740daa">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>();</div>
+<div class="line"><span class="lineno">   79</span>        <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ac5d6db67faffc024da4d9f83b434bed3">IsSpectator</a>() || !player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1e43fee59e696ae47ed06191ae3b1b82">FindMap</a>() || !player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1e43fee59e696ae47ed06191ae3b1b82">FindMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#afe645aa76713224c7e7fcd0f5e12fc79">IsBattleArena</a>())</div>
+<div class="line"><span class="lineno">   80</span>        {</div>
+<div class="line"><span class="lineno">   81</span>            handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(<span class="stringliteral">&quot;You are not a spectator.&quot;</span>);</div>
+<div class="line"><span class="lineno">   82</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   83</span>        }</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>        <span class="comment">//player-&gt;SetIsSpectator(false);</span></div>
+<div class="line"><span class="lineno">   86</span>        player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a612ee4e2afffb61647cf493eb1008ea6">TeleportToEntryPoint</a>();</div>
+<div class="line"><span class="lineno">   87</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   88</span>    }</div>
+<div class="ttc" id="aclass_chat_handler_html_a635eca3065c9464e0cdcedd9f0740daa"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#a635eca3065c9464e0cdcedd9f0740daa">ChatHandler::GetSession</a></div><div class="ttdeci">WorldSession * GetSession()</div><div class="ttdef"><b>Definition:</b> Chat.h:122</div></div>
+<div class="ttc" id="aclass_chat_handler_html_ac1ed346507097817b3f8e00f0ae657a0"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">ChatHandler::SendSysMessage</a></div><div class="ttdeci">virtual void SendSysMessage(std::string_view str, bool escapeCharacters=false)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:103</div></div>
+<div class="ttc" id="aclass_map_html_afe645aa76713224c7e7fcd0f5e12fc79"><div class="ttname"><a href="../../dd/d11/class_map.html#afe645aa76713224c7e7fcd0f5e12fc79">Map::IsBattleArena</a></div><div class="ttdeci">bool IsBattleArena() const</div><div class="ttdef"><b>Definition:</b> Map.h:454</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_player_html_a612ee4e2afffb61647cf493eb1008ea6"><div class="ttname"><a href="../../d8/d53/class_player.html#a612ee4e2afffb61647cf493eb1008ea6">Player::TeleportToEntryPoint</a></div><div class="ttdeci">bool TeleportToEntryPoint()</div><div class="ttdef"><b>Definition:</b> Player.cpp:1578</div></div>
+<div class="ttc" id="aclass_player_html_ac5d6db67faffc024da4d9f83b434bed3"><div class="ttname"><a href="../../d8/d53/class_player.html#ac5d6db67faffc024da4d9f83b434bed3">Player::IsSpectator</a></div><div class="ttdeci">bool IsSpectator() const</div><div class="ttdef"><b>Definition:</b> Player.h:2521</div></div>
+<div class="ttc" id="aclass_world_object_html_a1e43fee59e696ae47ed06191ae3b1b82"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1e43fee59e696ae47ed06191ae3b1b82">WorldObject::FindMap</a></div><div class="ttdeci">Map * FindMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:518</div></div>
+<div class="ttc" id="aclass_world_session_html_a62c786bcb829a021c267e7eb56809952"><div class="ttname"><a href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">WorldSession::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer() const</div><div class="ttdef"><b>Definition:</b> WorldSession.h:360</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a23a1a3740609a6d0caa6e0f10c7e8653" name="a23a1a3740609a6d0caa6e0f10c7e8653"></a>
@@ -296,7 +351,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   68</span>    {</div>
+<div class="line"><span class="lineno">   69</span>        <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* p = handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a635eca3065c9464e0cdcedd9f0740daa">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>();</div>
+<div class="line"><span class="lineno">   70</span>        <span class="keywordflow">if</span> (!p-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ac5d6db67faffc024da4d9f83b434bed3">IsSpectator</a>())</div>
+<div class="line"><span class="lineno">   71</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   72</span>        <a class="code hl_function" href="../../da/d60/namespace_arena_spectator.html#a4508ccc26eb193b85e4d229a088c6be5">ArenaSpectator::HandleResetCommand</a>(p);</div>
+<div class="line"><span class="lineno">   73</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   74</span>    }</div>
+<div class="ttc" id="anamespace_arena_spectator_html_a4508ccc26eb193b85e4d229a088c6be5"><div class="ttname"><a href="../../da/d60/namespace_arena_spectator.html#a4508ccc26eb193b85e4d229a088c6be5">ArenaSpectator::HandleResetCommand</a></div><div class="ttdeci">AC_GAME_API void HandleResetCommand(Player *player)</div><div class="ttdef"><b>Definition:</b> ArenaSpectator.cpp:227</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad1f117a77c0154fc25e937dfe21870a2" name="ad1f117a77c0154fc25e937dfe21870a2"></a>
@@ -332,7 +395,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   91</span>    {</div>
+<div class="line"><span class="lineno">   92</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../da/d60/namespace_arena_spectator.html#ac3b35eed76fdcf00f43b226912317b4a">ArenaSpectator::HandleSpectatorSpectateCommand</a>(handler, name))</div>
+<div class="line"><span class="lineno">   93</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   94</span> </div>
+<div class="line"><span class="lineno">   95</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   96</span>    }</div>
+<div class="ttc" id="anamespace_arena_spectator_html_ac3b35eed76fdcf00f43b226912317b4a"><div class="ttname"><a href="../../da/d60/namespace_arena_spectator.html#ac3b35eed76fdcf00f43b226912317b4a">ArenaSpectator::HandleSpectatorSpectateCommand</a></div><div class="ttdeci">AC_GAME_API bool HandleSpectatorSpectateCommand(ChatHandler *handler, std::string const &amp;name)</div><div class="ttdef"><b>Definition:</b> ArenaSpectator.cpp:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaf7c57603d263f7ab919f12d9680f058" name="aaf7c57603d263f7ab919f12d9680f058"></a>
@@ -368,7 +438,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   61</span>    {</div>
+<div class="line"><span class="lineno">   62</span>        <span class="keywordflow">if</span> (version &lt; <a class="code hl_define" href="../../d9/ded/_arena_spectator_8h.html#ae3d7b03163a946f567eb34e902d0b424">SPECTATOR_ADDON_VERSION</a>)</div>
+<div class="line"><span class="lineno">   63</span>            <a class="code hl_function" href="../../da/d60/namespace_arena_spectator.html#a4824203dd64e1ddcd47642df9d465ea0">ArenaSpectator::SendCommand</a>(handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a635eca3065c9464e0cdcedd9f0740daa">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>(), <span class="stringliteral">&quot;%sOUTDATED&quot;</span>, <a class="code hl_define" href="../../d9/ded/_arena_spectator_8h.html#ad208fe13d99ebdd4ecc344c284d15e68">SPECTATOR_ADDON_PREFIX</a>);</div>
+<div class="line"><span class="lineno">   64</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   65</span>    }</div>
+<div class="ttc" id="a_arena_spectator_8h_html_ad208fe13d99ebdd4ecc344c284d15e68"><div class="ttname"><a href="../../d9/ded/_arena_spectator_8h.html#ad208fe13d99ebdd4ecc344c284d15e68">SPECTATOR_ADDON_PREFIX</a></div><div class="ttdeci">#define SPECTATOR_ADDON_PREFIX</div><div class="ttdef"><b>Definition:</b> ArenaSpectator.h:35</div></div>
+<div class="ttc" id="a_arena_spectator_8h_html_ae3d7b03163a946f567eb34e902d0b424"><div class="ttname"><a href="../../d9/ded/_arena_spectator_8h.html#ae3d7b03163a946f567eb34e902d0b424">SPECTATOR_ADDON_VERSION</a></div><div class="ttdeci">#define SPECTATOR_ADDON_VERSION</div><div class="ttdef"><b>Definition:</b> ArenaSpectator.h:33</div></div>
+<div class="ttc" id="anamespace_arena_spectator_html_a4824203dd64e1ddcd47642df9d465ea0"><div class="ttname"><a href="../../da/d60/namespace_arena_spectator.html#a4824203dd64e1ddcd47642df9d465ea0">ArenaSpectator::SendCommand</a></div><div class="ttdeci">void SendCommand(T *o, Format &amp;&amp;fmt, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> ArenaSpectator.h:47</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1ee822e332374b375962d1ae87adbc61" name="a1ee822e332374b375962d1ae87adbc61"></a>
@@ -404,11 +482,18 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   99</span>    {</div>
+<div class="line"><span class="lineno">  100</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../da/d60/namespace_arena_spectator.html#ae611c9f6783ca983d1ff667f36dd7c7d">ArenaSpectator::HandleSpectatorWatchCommand</a>(handler, name))</div>
+<div class="line"><span class="lineno">  101</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  102</span> </div>
+<div class="line"><span class="lineno">  103</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  104</span>    }</div>
+<div class="ttc" id="anamespace_arena_spectator_html_ae611c9f6783ca983d1ff667f36dd7c7d"><div class="ttname"><a href="../../da/d60/namespace_arena_spectator.html#ae611c9f6783ca983d1ff667f36dd7c7d">ArenaSpectator::HandleSpectatorWatchCommand</a></div><div class="ttdeci">AC_GAME_API bool HandleSpectatorWatchCommand(ChatHandler *handler, std::string const &amp;name)</div><div class="ttdef"><b>Definition:</b> ArenaSpectator.cpp:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Commands/<a class="el" href="../../dc/d44/cs__spectator_8cpp.html">cs_spectator.cpp</a></li>
+<li><a class="el" href="../../">cs_spectator.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -416,7 +501,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/da1/classspectator__commandscript.html">spectator_commandscript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:15 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

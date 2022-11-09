@@ -125,7 +125,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ab10d10dd0de7717078d31ac026d4c933"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dac/class_creature.html">Creature</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d44/struct_last_phase_ice_tomb_target_selector.html#ab10d10dd0de7717078d31ac026d4c933">_source</a></td></tr>
 <tr class="separator:ab10d10dd0de7717078d31ac026d4c933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac01f20b199bb0ee63b9c8f8206321057" name="ac01f20b199bb0ee63b9c8f8206321057"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac01f20b199bb0ee63b9c8f8206321057">&#9670;&#160;</a></span>LastPhaseIceTombTargetSelector()</h2>
 
@@ -149,7 +150,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  244</span>: <a class="code hl_variable" href="../../d3/d44/struct_last_phase_ice_tomb_target_selector.html#ab10d10dd0de7717078d31ac026d4c933">_source</a>(source) { }</div>
+<div class="ttc" id="astruct_last_phase_ice_tomb_target_selector_html_ab10d10dd0de7717078d31ac026d4c933"><div class="ttname"><a href="../../d3/d44/struct_last_phase_ice_tomb_target_selector.html#ab10d10dd0de7717078d31ac026d4c933">LastPhaseIceTombTargetSelector::_source</a></div><div class="ttdeci">Creature const  * _source</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:266</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -176,7 +179,33 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  246</span>    {</div>
+<div class="line"><span class="lineno">  247</span>        <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno">  248</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  249</span> </div>
+<div class="line"><span class="lineno">  250</span>        <span class="keywordflow">if</span> (target-&gt;GetExactDist(<a class="code hl_variable" href="../../d3/d44/struct_last_phase_ice_tomb_target_selector.html#ab10d10dd0de7717078d31ac026d4c933">_source</a>) &gt; 80.0f)</div>
+<div class="line"><span class="lineno">  251</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  252</span> </div>
+<div class="line"><span class="lineno">  253</span>        <span class="keywordflow">if</span> (target-&gt;GetTypeId() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  254</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  255</span> </div>
+<div class="line"><span class="lineno">  256</span>        <span class="keywordflow">if</span> (target-&gt;HasAura(<a class="code hl_enumvalue" href="../../de/de5/boss__sindragosa_8cpp.html#aa95b79e156766fc09a64d3217691f0d2aa66c1da9054c9537f93429076211aec9">SPELL_FROST_IMBUED_BLADE</a>))</div>
+<div class="line"><span class="lineno">  257</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  258</span> </div>
+<div class="line"><span class="lineno">  259</span>        <span class="keywordflow">if</span> (target-&gt;IsImmunedToDamageOrSchool(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#aff6913cfd69489c107a071be9ec2ec8fa65c125a1722e326c066d8aa1350911c8">SPELL_SCHOOL_MASK_ALL</a>) || target-&gt;HasAura(<a class="code hl_enumvalue" href="../../de/de5/boss__sindragosa_8cpp.html#a5bd342133be8c2137b831460acc9298ca63bd8724211948a800fccae9a1769a28">SPELL_ICE_TOMB_UNTARGETABLE</a>) || target-&gt;HasAura(<a class="code hl_enumvalue" href="../../de/de5/boss__sindragosa_8cpp.html#a5bd342133be8c2137b831460acc9298ca40c273d24661de99cb950a82007a7d25">SPELL_ICE_TOMB_DAMAGE</a>) || target-&gt;HasAura(<a class="code hl_enumvalue" href="../../de/de5/boss__sindragosa_8cpp.html#a5bd342133be8c2137b831460acc9298ca5a9cfb30554823d5b6f748a63e4f63cb">SPELL_TANK_MARKER_AURA</a>) || target-&gt;HasAuraType(<a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a5b09d71c8d286bff5c7cfd7ccec9a5f3">SPELL_AURA_SPIRIT_OF_REDEMPTION</a>))</div>
+<div class="line"><span class="lineno">  260</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  261</span> </div>
+<div class="line"><span class="lineno">  262</span>        <span class="keywordflow">return</span> target != <a class="code hl_variable" href="../../d3/d44/struct_last_phase_ice_tomb_target_selector.html#ab10d10dd0de7717078d31ac026d4c933">_source</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>();</div>
+<div class="line"><span class="lineno">  263</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_aff6913cfd69489c107a071be9ec2ec8fa65c125a1722e326c066d8aa1350911c8"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#aff6913cfd69489c107a071be9ec2ec8fa65c125a1722e326c066d8aa1350911c8">SPELL_SCHOOL_MASK_ALL</a></div><div class="ttdeci">@ SPELL_SCHOOL_MASK_ALL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:287</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a5b09d71c8d286bff5c7cfd7ccec9a5f3"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a5b09d71c8d286bff5c7cfd7ccec9a5f3">SPELL_AURA_SPIRIT_OF_REDEMPTION</a></div><div class="ttdeci">@ SPELL_AURA_SPIRIT_OF_REDEMPTION</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:239</div></div>
+<div class="ttc" id="aboss__sindragosa_8cpp_html_a5bd342133be8c2137b831460acc9298ca40c273d24661de99cb950a82007a7d25"><div class="ttname"><a href="../../de/de5/boss__sindragosa_8cpp.html#a5bd342133be8c2137b831460acc9298ca40c273d24661de99cb950a82007a7d25">SPELL_ICE_TOMB_DAMAGE</a></div><div class="ttdeci">@ SPELL_ICE_TOMB_DAMAGE</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:66</div></div>
+<div class="ttc" id="aboss__sindragosa_8cpp_html_a5bd342133be8c2137b831460acc9298ca5a9cfb30554823d5b6f748a63e4f63cb"><div class="ttname"><a href="../../de/de5/boss__sindragosa_8cpp.html#a5bd342133be8c2137b831460acc9298ca5a9cfb30554823d5b6f748a63e4f63cb">SPELL_TANK_MARKER_AURA</a></div><div class="ttdeci">@ SPELL_TANK_MARKER_AURA</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:49</div></div>
+<div class="ttc" id="aboss__sindragosa_8cpp_html_a5bd342133be8c2137b831460acc9298ca63bd8724211948a800fccae9a1769a28"><div class="ttname"><a href="../../de/de5/boss__sindragosa_8cpp.html#a5bd342133be8c2137b831460acc9298ca63bd8724211948a800fccae9a1769a28">SPELL_ICE_TOMB_UNTARGETABLE</a></div><div class="ttdeci">@ SPELL_ICE_TOMB_UNTARGETABLE</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:65</div></div>
+<div class="ttc" id="aboss__sindragosa_8cpp_html_aa95b79e156766fc09a64d3217691f0d2aa66c1da9054c9537f93429076211aec9"><div class="ttname"><a href="../../de/de5/boss__sindragosa_8cpp.html#aa95b79e156766fc09a64d3217691f0d2aa66c1da9054c9537f93429076211aec9">SPELL_FROST_IMBUED_BLADE</a></div><div class="ttdeci">@ SPELL_FROST_IMBUED_BLADE</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:95</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -203,7 +232,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../de/de5/boss__sindragosa_8cpp.html">boss_sindragosa.cpp</a></li>
+<li><a class="el" href="../../">boss_sindragosa.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -211,7 +240,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d44/struct_last_phase_ice_tomb_target_selector.html">LastPhaseIceTombTargetSelector</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

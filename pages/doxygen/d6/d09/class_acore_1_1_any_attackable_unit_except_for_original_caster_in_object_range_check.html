@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d6/d09/class_acore_1_1_any_attackable_
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">GridNotifiers.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -131,7 +131,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aff91ead572f2ed0d1912dbd0180196d5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d09/class_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check.html#aff91ead572f2ed0d1912dbd0180196d5">i_range</a></td></tr>
 <tr class="separator:aff91ead572f2ed0d1912dbd0180196d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab3a1ebf25ef0da5df75a5a6a8bbf3ddf" name="ab3a1ebf25ef0da5df75a5a6a8bbf3ddf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab3a1ebf25ef0da5df75a5a6a8bbf3ddf">&#9670;&#160;</a></span>AnyAttackableUnitExceptForOriginalCasterInObjectRangeCheck()</h2>
 
@@ -171,7 +172,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1124</span>            : <a class="code hl_variable" href="../../d6/d09/class_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check.html#a65245ce627d5ccfde557f2d7e744ead6">i_obj</a>(obj), <a class="code hl_variable" href="../../d6/d09/class_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check.html#aed6fe2e6d17e2076a373b32de071cd18">i_funit</a>(funit), <a class="code hl_variable" href="../../d6/d09/class_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check.html#aff91ead572f2ed0d1912dbd0180196d5">i_range</a>(range)</div>
+<div class="line"><span class="lineno"> 1125</span>        {}</div>
+<div class="ttc" id="aclass_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check_html_a65245ce627d5ccfde557f2d7e744ead6"><div class="ttname"><a href="../../d6/d09/class_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check.html#a65245ce627d5ccfde557f2d7e744ead6">Acore::AnyAttackableUnitExceptForOriginalCasterInObjectRangeCheck::i_obj</a></div><div class="ttdeci">WorldObject const  * i_obj</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1139</div></div>
+<div class="ttc" id="aclass_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check_html_aed6fe2e6d17e2076a373b32de071cd18"><div class="ttname"><a href="../../d6/d09/class_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check.html#aed6fe2e6d17e2076a373b32de071cd18">Acore::AnyAttackableUnitExceptForOriginalCasterInObjectRangeCheck::i_funit</a></div><div class="ttdeci">Unit const  * i_funit</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1140</div></div>
+<div class="ttc" id="aclass_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check_html_aff91ead572f2ed0d1912dbd0180196d5"><div class="ttname"><a href="../../d6/d09/class_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check.html#aff91ead572f2ed0d1912dbd0180196d5">Acore::AnyAttackableUnitExceptForOriginalCasterInObjectRangeCheck::i_range</a></div><div class="ttdeci">float i_range</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1141</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -198,7 +204,26 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1127</span>        {</div>
+<div class="line"><span class="lineno"> 1128</span>            <span class="keywordflow">if</span> (!u-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() || u-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4af419c3eef4085ecaad8fd08e536800">HasUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a> | <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>) || (u-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aeed924120267a3f71ceea1851ba33022">IsImmuneToPC</a>() &amp;&amp; !u-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">IsInCombat</a>()))</div>
+<div class="line"><span class="lineno"> 1129</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1130</span>            <span class="keywordflow">if</span> (u-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>() == <a class="code hl_variable" href="../../d6/d09/class_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check.html#aed6fe2e6d17e2076a373b32de071cd18">i_funit</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>())</div>
+<div class="line"><span class="lineno"> 1131</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1132</span> </div>
+<div class="line"><span class="lineno"> 1133</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d09/class_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check.html#a65245ce627d5ccfde557f2d7e744ead6">i_obj</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(u, <a class="code hl_variable" href="../../d6/d09/class_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check.html#aff91ead572f2ed0d1912dbd0180196d5">i_range</a>))</div>
+<div class="line"><span class="lineno"> 1134</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1135</span> </div>
+<div class="line"><span class="lineno"> 1136</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1137</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NON_ATTACKABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:449</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NOT_SELECTABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:473</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_unit_html_a4af419c3eef4085ecaad8fd08e536800"><div class="ttname"><a href="../../da/db7/class_unit.html#a4af419c3eef4085ecaad8fd08e536800">Unit::HasUnitFlag</a></div><div class="ttdeci">bool HasUnitFlag(UnitFlags flags) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1478</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aclass_unit_html_aeed924120267a3f71ceea1851ba33022"><div class="ttname"><a href="../../da/db7/class_unit.html#aeed924120267a3f71ceea1851ba33022">Unit::IsImmuneToPC</a></div><div class="ttdeci">bool IsImmuneToPC() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1678</div></div>
+<div class="ttc" id="aclass_unit_html_af5e75d013dfa8a8b888d7714992e3f2a"><div class="ttname"><a href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">Unit::IsInCombat</a></div><div class="ttdeci">bool IsInCombat() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1685</div></div>
+<div class="ttc" id="aclass_world_object_html_ab73407bcdf13a30519a953d24773ed02"><div class="ttname"><a href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">WorldObject::IsWithinDistInMap</a></div><div class="ttdeci">bool IsWithinDistInMap(WorldObject const *obj, float dist2compare, bool is3D=true, bool useBoundingRadius=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1321</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -269,7 +294,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/Notifiers/<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a></li>
+<li><a class="el" href="../../">GridNotifiers.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -277,7 +302,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../d6/d09/class_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check.html">AnyAttackableUnitExceptForOriginalCasterInObjectRangeCheck</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

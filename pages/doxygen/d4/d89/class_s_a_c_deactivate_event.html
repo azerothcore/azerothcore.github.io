@@ -147,7 +147,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:acc87b2f689bf2e6a3f19440dceb6ea6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dac/class_creature.html">Creature</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d89/class_s_a_c_deactivate_event.html#acc87b2f689bf2e6a3f19440dceb6ea6d">_owner</a></td></tr>
 <tr class="separator:acc87b2f689bf2e6a3f19440dceb6ea6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a14f1db2f3bf7e82d0e5c5b5135d46cf9" name="a14f1db2f3bf7e82d0e5c5b5135d46cf9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a14f1db2f3bf7e82d0e5c5b5135d46cf9">&#9670;&#160;</a></span>SACDeactivateEvent()</h2>
 
@@ -171,7 +172,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1395</span>: <a class="code hl_variable" href="../../d4/d89/class_s_a_c_deactivate_event.html#acc87b2f689bf2e6a3f19440dceb6ea6d">_owner</a>(owner) {}</div>
+<div class="ttc" id="aclass_s_a_c_deactivate_event_html_acc87b2f689bf2e6a3f19440dceb6ea6d"><div class="ttname"><a href="../../d4/d89/class_s_a_c_deactivate_event.html#acc87b2f689bf2e6a3f19440dceb6ea6d">SACDeactivateEvent::_owner</a></div><div class="ttdeci">Creature * _owner</div><div class="ttdef"><b>Definition:</b> zone_dragonblight.cpp:1406</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -210,7 +213,18 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1398</span>    {</div>
+<div class="line"><span class="lineno"> 1399</span>        <a class="code hl_variable" href="../../d4/d89/class_s_a_c_deactivate_event.html#acc87b2f689bf2e6a3f19440dceb6ea6d">_owner</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno"> 1400</span>        <a class="code hl_variable" href="../../d4/d89/class_s_a_c_deactivate_event.html#acc87b2f689bf2e6a3f19440dceb6ea6d">_owner</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno"> 1401</span>        <a class="code hl_variable" href="../../d4/d89/class_s_a_c_deactivate_event.html#acc87b2f689bf2e6a3f19440dceb6ea6d">_owner</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a294f22689bb98a36b2b8da1c33dd87f9">SetDisplayId</a>(11686);</div>
+<div class="line"><span class="lineno"> 1402</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1403</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a></div><div class="ttdeci">@ REACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1023</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NOT_SELECTABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:473</div></div>
+<div class="ttc" id="aclass_creature_html_a294f22689bb98a36b2b8da1c33dd87f9"><div class="ttname"><a href="../../d1/dac/class_creature.html#a294f22689bb98a36b2b8da1c33dd87f9">Creature::SetDisplayId</a></div><div class="ttdeci">void SetDisplayId(uint32 modelId) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3372</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_unit_html_ad9f2d48b20f62e17abf5c1892cebe296"><div class="ttname"><a href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">Unit::SetUnitFlag</a></div><div class="ttdeci">void SetUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1479</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -237,7 +251,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../de/da6/zone__dragonblight_8cpp.html">zone_dragonblight.cpp</a></li>
+<li><a class="el" href="../../">zone_dragonblight.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -245,7 +259,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d89/class_s_a_c_deactivate_event.html">SACDeactivateEvent</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

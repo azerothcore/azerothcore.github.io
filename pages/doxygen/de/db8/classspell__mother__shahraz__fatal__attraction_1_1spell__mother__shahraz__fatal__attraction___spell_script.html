@@ -296,7 +296,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="acb326101969ede6b41b2deb995769550" name="acb326101969ede6b41b2deb995769550"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb326101969ede6b41b2deb995769550">&#9670;&#160;</a></span>FilterTargets()</h2>
 
@@ -320,7 +321,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  273</span>        {</div>
+<div class="line"><span class="lineno">  274</span>            targets.remove_if(<a class="code hl_class" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html">Acore::UnitAuraCheck</a>(<span class="keyword">true</span>, <a class="code hl_enumvalue" href="../../de/d97/boss__mother__shahraz_8cpp.html#a5bd342133be8c2137b831460acc9298ca1b196a6efe17ff73f768f2fd461fd026">SPELL_SABER_LASH_IMMUNITY</a>));</div>
+<div class="line"><span class="lineno">  275</span>            <span class="keywordflow">if</span> (targets.size() &lt;= 1)</div>
+<div class="line"><span class="lineno">  276</span>                <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a34c3118760e4a30dd144a34fa9f7019f">FinishCast</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daa768883072914aec215a9b37c0f8d7565">SPELL_FAILED_DONT_REPORT</a>);</div>
+<div class="line"><span class="lineno">  277</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_ade9b4e913a84079f5311c2817e3de9daa768883072914aec215a9b37c0f8d7565"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daa768883072914aec215a9b37c0f8d7565">SPELL_FAILED_DONT_REPORT</a></div><div class="ttdeci">@ SPELL_FAILED_DONT_REPORT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:948</div></div>
+<div class="ttc" id="aboss__mother__shahraz_8cpp_html_a5bd342133be8c2137b831460acc9298ca1b196a6efe17ff73f768f2fd461fd026"><div class="ttname"><a href="../../de/d97/boss__mother__shahraz_8cpp.html#a5bd342133be8c2137b831460acc9298ca1b196a6efe17ff73f768f2fd461fd026">SPELL_SABER_LASH_IMMUNITY</a></div><div class="ttdeci">@ SPELL_SABER_LASH_IMMUNITY</div><div class="ttdef"><b>Definition:</b> boss_mother_shahraz.cpp:54</div></div>
+<div class="ttc" id="aclass_acore_1_1_unit_aura_check_html"><div class="ttname"><a href="../../d7/d2b/class_acore_1_1_unit_aura_check.html">Acore::UnitAuraCheck</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1626</div></div>
+<div class="ttc" id="aclass_spell_script_html_a34c3118760e4a30dd144a34fa9f7019f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a34c3118760e4a30dd144a34fa9f7019f">SpellScript::FinishCast</a></div><div class="ttdeci">void FinishCast(SpellCastResult result)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:635</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab2b266f53c83421e7f54fb01bb8aba04" name="ab2b266f53c83421e7f54fb01bb8aba04"></a>
@@ -346,7 +356,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  292</span>        {</div>
+<div class="line"><span class="lineno">  293</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>())</div>
+<div class="line"><span class="lineno">  294</span>                <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../de/d97/boss__mother__shahraz_8cpp.html#a5bd342133be8c2137b831460acc9298ca04841b753e2450f3f91c4517d8016b02">SPELL_FATAL_ATTRACTION_AURA</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  295</span>        }</div>
+<div class="ttc" id="aboss__mother__shahraz_8cpp_html_a5bd342133be8c2137b831460acc9298ca04841b753e2450f3f91c4517d8016b02"><div class="ttname"><a href="../../de/d97/boss__mother__shahraz_8cpp.html#a5bd342133be8c2137b831460acc9298ca04841b753e2450f3f91c4517d8016b02">SPELL_FATAL_ATTRACTION_AURA</a></div><div class="ttdeci">@ SPELL_FATAL_ATTRACTION_AURA</div><div class="ttdef"><b>Definition:</b> boss_mother_shahraz.cpp:50</div></div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8fc8bfb34758821fffa0eeb625f00de8" name="a8fc8bfb34758821fffa0eeb625f00de8"></a>
@@ -399,7 +418,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  298</span>        {</div>
+<div class="line"><span class="lineno">  299</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../de/db8/classspell__mother__shahraz__fatal__attraction_1_1spell__mother__shahraz__fatal__attraction___spell_script.html#acb326101969ede6b41b2deb995769550">spell_mother_shahraz_fatal_attraction_SpellScript::FilterTargets</a>, <a class="code hl_define" href="../../df/d0b/_shared_defines_8h.html#ac97ba74f30438a8b51ce05c9de303cd7">EFFECT_ALL</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a7b8c7cf5819db17b9ed16dfbb93addb4">TARGET_UNIT_SRC_AREA_ENEMY</a>);</div>
+<div class="line"><span class="lineno">  300</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a3e67064a6f789b69c5533602c72173b8">OnDestinationTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#aa25d575ee7dc16898562e3906eb3ca1b">SpellDestinationTargetSelectFn</a>(<a class="code hl_function" href="../../de/db8/classspell__mother__shahraz__fatal__attraction_1_1spell__mother__shahraz__fatal__attraction___spell_script.html#a1451ef6f8a16c4dcc4ebba48819c25a6">spell_mother_shahraz_fatal_attraction_SpellScript::SetDest</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a174dffb981d16cab87a0672e1afac9db">TARGET_DEST_CASTER_RANDOM</a>);</div>
+<div class="line"><span class="lineno">  301</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../de/db8/classspell__mother__shahraz__fatal__attraction_1_1spell__mother__shahraz__fatal__attraction___spell_script.html#ab2b266f53c83421e7f54fb01bb8aba04">spell_mother_shahraz_fatal_attraction_SpellScript::HandleTeleportUnits</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97aea1b56989980b9b6059bcd31de21bf59">SPELL_EFFECT_TELEPORT_UNITS</a>);</div>
+<div class="line"><span class="lineno">  302</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a></div><div class="ttdeci">@ EFFECT_1</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:31</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97aea1b56989980b9b6059bcd31de21bf59"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97aea1b56989980b9b6059bcd31de21bf59">SPELL_EFFECT_TELEPORT_UNITS</a></div><div class="ttdeci">@ SPELL_EFFECT_TELEPORT_UNITS</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:755</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a174dffb981d16cab87a0672e1afac9db"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a174dffb981d16cab87a0672e1afac9db">TARGET_DEST_CASTER_RANDOM</a></div><div class="ttdeci">@ TARGET_DEST_CASTER_RANDOM</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1448</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a7b8c7cf5819db17b9ed16dfbb93addb4"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a7b8c7cf5819db17b9ed16dfbb93addb4">TARGET_UNIT_SRC_AREA_ENEMY</a></div><div class="ttdeci">@ TARGET_UNIT_SRC_AREA_ENEMY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1392</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ac97ba74f30438a8b51ce05c9de303cd7"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac97ba74f30438a8b51ce05c9de303cd7">EFFECT_ALL</a></div><div class="ttdeci">#define EFFECT_ALL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:37</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a623f49512c3d12eceb55ca05cd53c4f2"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a></div><div class="ttdeci">#define SpellObjectAreaTargetSelectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:354</div></div>
+<div class="ttc" id="a_spell_script_8h_html_aa25d575ee7dc16898562e3906eb3ca1b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#aa25d575ee7dc16898562e3906eb3ca1b">SpellDestinationTargetSelectFn</a></div><div class="ttdeci">#define SpellDestinationTargetSelectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:364</div></div>
+<div class="ttc" id="aclass_spell_script_html_a3e67064a6f789b69c5533602c72173b8"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a3e67064a6f789b69c5533602c72173b8">SpellScript::OnDestinationTargetSelect</a></div><div class="ttdeci">HookList&lt; DestinationTargetSelectHandler &gt; OnDestinationTargetSelect</div><div class="ttdef"><b>Definition:</b> SpellScript.h:363</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclass_spell_script_html_af74f730c6dacd310a78036be6b7cc6b7"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">SpellScript::OnObjectAreaTargetSelect</a></div><div class="ttdeci">HookList&lt; ObjectAreaTargetSelectHandler &gt; OnObjectAreaTargetSelect</div><div class="ttdef"><b>Definition:</b> SpellScript.h:353</div></div>
+<div class="ttc" id="aclassspell__mother__shahraz__fatal__attraction_1_1spell__mother__shahraz__fatal__attraction___spell_script_html_a1451ef6f8a16c4dcc4ebba48819c25a6"><div class="ttname"><a href="../../de/db8/classspell__mother__shahraz__fatal__attraction_1_1spell__mother__shahraz__fatal__attraction___spell_script.html#a1451ef6f8a16c4dcc4ebba48819c25a6">spell_mother_shahraz_fatal_attraction::spell_mother_shahraz_fatal_attraction_SpellScript::SetDest</a></div><div class="ttdeci">void SetDest(SpellDestination &amp;dest)</div><div class="ttdef"><b>Definition:</b> boss_mother_shahraz.cpp:279</div></div>
+<div class="ttc" id="aclassspell__mother__shahraz__fatal__attraction_1_1spell__mother__shahraz__fatal__attraction___spell_script_html_ab2b266f53c83421e7f54fb01bb8aba04"><div class="ttname"><a href="../../de/db8/classspell__mother__shahraz__fatal__attraction_1_1spell__mother__shahraz__fatal__attraction___spell_script.html#ab2b266f53c83421e7f54fb01bb8aba04">spell_mother_shahraz_fatal_attraction::spell_mother_shahraz_fatal_attraction_SpellScript::HandleTeleportUnits</a></div><div class="ttdeci">void HandleTeleportUnits(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> boss_mother_shahraz.cpp:291</div></div>
+<div class="ttc" id="aclassspell__mother__shahraz__fatal__attraction_1_1spell__mother__shahraz__fatal__attraction___spell_script_html_acb326101969ede6b41b2deb995769550"><div class="ttname"><a href="../../de/db8/classspell__mother__shahraz__fatal__attraction_1_1spell__mother__shahraz__fatal__attraction___spell_script.html#acb326101969ede6b41b2deb995769550">spell_mother_shahraz_fatal_attraction::spell_mother_shahraz_fatal_attraction_SpellScript::FilterTargets</a></div><div class="ttdeci">void FilterTargets(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> boss_mother_shahraz.cpp:272</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1451ef6f8a16c4dcc4ebba48819c25a6" name="a1451ef6f8a16c4dcc4ebba48819c25a6"></a>
@@ -425,11 +463,26 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  280</span>        {</div>
+<div class="line"><span class="lineno">  281</span>            std::list&lt;TargetInfo&gt; <span class="keyword">const</span>* targetsInfo = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a926f5fbcba4bc513a7cd3777888fa895">GetSpell</a>()-&gt;<a class="code hl_function" href="../../d8/d0d/class_spell.html#ac60eb5ed3630c60f4e6723b3832778a3">GetUniqueTargetInfo</a>();</div>
+<div class="line"><span class="lineno">  282</span>            <span class="keywordflow">for</span> (std::list&lt;TargetInfo&gt;::const_iterator ihit = targetsInfo-&gt;begin(); ihit != targetsInfo-&gt;end(); ++ihit)</div>
+<div class="line"><span class="lineno">  283</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>(), ihit-&gt;targetGUID))</div>
+<div class="line"><span class="lineno">  284</span>                {</div>
+<div class="line"><span class="lineno">  285</span>                    dest.<a class="code hl_function" href="../../db/d26/struct_spell_destination.html#ab565861d5013130639013e3c4d22d712">Relocate</a>(*target);</div>
+<div class="line"><span class="lineno">  286</span>                    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a>(50))</div>
+<div class="line"><span class="lineno">  287</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  288</span>                }</div>
+<div class="line"><span class="lineno">  289</span>        }</div>
+<div class="ttc" id="a_random_8h_html_a50320d4edff86db31b25138ae72161ad"><div class="ttname"><a href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a></div><div class="ttdeci">bool roll_chance_i(int chance)</div><div class="ttdef"><b>Definition:</b> Random.h:59</div></div>
+<div class="ttc" id="aclass_spell_html_ac60eb5ed3630c60f4e6723b3832778a3"><div class="ttname"><a href="../../d8/d0d/class_spell.html#ac60eb5ed3630c60f4e6723b3832778a3">Spell::GetUniqueTargetInfo</a></div><div class="ttdeci">std::list&lt; TargetInfo &gt; * GetUniqueTargetInfo()</div><div class="ttdef"><b>Definition:</b> Spell.h:586</div></div>
+<div class="ttc" id="aclass_spell_script_html_a926f5fbcba4bc513a7cd3777888fa895"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a926f5fbcba4bc513a7cd3777888fa895">SpellScript::GetSpell</a></div><div class="ttdeci">Spell * GetSpell()</div><div class="ttdef"><b>Definition:</b> SpellScript.h:442</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+<div class="ttc" id="astruct_spell_destination_html_ab565861d5013130639013e3c4d22d712"><div class="ttname"><a href="../../db/d26/struct_spell_destination.html#ab565861d5013130639013e3c4d22d712">SpellDestination::Relocate</a></div><div class="ttdeci">void Relocate(Position const &amp;pos)</div><div class="ttdef"><b>Definition:</b> Spell.cpp:87</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/BlackTemple/<a class="el" href="../../de/d97/boss__mother__shahraz_8cpp.html">boss_mother_shahraz.cpp</a></li>
+<li><a class="el" href="../../">boss_mother_shahraz.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -437,7 +490,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/dc5/classspell__mother__shahraz__fatal__attraction.html">spell_mother_shahraz_fatal_attraction</a></li><li class="navelem"><a class="el" href="../../de/db8/classspell__mother__shahraz__fatal__attraction_1_1spell__mother__shahraz__fatal__attraction___spell_script.html">spell_mother_shahraz_fatal_attraction_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:22 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

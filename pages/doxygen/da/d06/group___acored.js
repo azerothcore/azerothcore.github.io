@@ -2,7 +2,7 @@ var group___acored =
 [
     [ "CliRunnable.cpp", "d9/d7c/_cli_runnable_8cpp.html", null ],
     [ "CliRunnable.h", "de/d5a/_cli_runnable_8h.html", null ],
-    [ "Main.cpp", "db/d18/server_2apps_2worldserver_2_main_8cpp.html", null ],
+    [ "server/apps/worldserver/Main.cpp", "db/d18/server_2apps_2worldserver_2_main_8cpp.html", null ],
     [ "FreezeDetector", "d6/d4f/class_freeze_detector.html", [
       [ "FreezeDetector", "da/d06/group___acored.html#gae4bea4699ff716ee22295d12bc9f1b9b", null ],
       [ "Handler", "da/d06/group___acored.html#gad4c4e5b291e0c6c2dc169a7dbffdfabb", null ],

@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('da/d8c/class_m_p_q_archive.html','../.
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/da0/map__extractor_2mpq__libmpq04_8h_source.html">mpq_libmpq04.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">mpq_libmpq04.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -145,7 +145,8 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a2026335b9ede29197acfaac8513456d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8c/class_m_p_q_archive.html#a2026335b9ede29197acfaac8513456d5">isOpened</a> () const</td></tr>
 <tr class="separator:a2026335b9ede29197acfaac8513456d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a58d57322334966ca16a22e52e5198d9f" name="a58d57322334966ca16a22e52e5198d9f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a58d57322334966ca16a22e52e5198d9f">&#9670;&#160;</a></span>MPQArchive() <span class="overload">[1/2]</span></h2>
 
@@ -161,7 +162,39 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <span class="keywordtype">int</span> result = libmpq__archive_open(&amp;<a class="code hl_variable" href="../../da/d8c/class_m_p_q_archive.html#a72b9fb96b1e3db6c7be652e426978b4a">mpq_a</a>, filename, -1);</div>
+<div class="line"><span class="lineno">   27</span>    printf(<span class="stringliteral">&quot;Opening %s\n&quot;</span>, filename);</div>
+<div class="line"><span class="lineno">   28</span>    <span class="keywordflow">if</span> (result)</div>
+<div class="line"><span class="lineno">   29</span>    {</div>
+<div class="line"><span class="lineno">   30</span>        <span class="keywordflow">switch</span> (result)</div>
+<div class="line"><span class="lineno">   31</span>        {</div>
+<div class="line"><span class="lineno">   32</span>            <span class="keywordflow">case</span> LIBMPQ_ERROR_OPEN :</div>
+<div class="line"><span class="lineno">   33</span>                printf(<span class="stringliteral">&quot;Error opening archive &#39;%s&#39;: Does file really exist?\n&quot;</span>, filename);</div>
+<div class="line"><span class="lineno">   34</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   35</span>            <span class="keywordflow">case</span> LIBMPQ_ERROR_FORMAT :            <span class="comment">/* bad file format */</span></div>
+<div class="line"><span class="lineno">   36</span>                printf(<span class="stringliteral">&quot;Error opening archive &#39;%s&#39;: Bad file format\n&quot;</span>, filename);</div>
+<div class="line"><span class="lineno">   37</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   38</span>            <span class="keywordflow">case</span> LIBMPQ_ERROR_SEEK :         <span class="comment">/* seeking in file failed */</span></div>
+<div class="line"><span class="lineno">   39</span>                printf(<span class="stringliteral">&quot;Error opening archive &#39;%s&#39;: Seeking in file failed\n&quot;</span>, filename);</div>
+<div class="line"><span class="lineno">   40</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   41</span>            <span class="keywordflow">case</span> LIBMPQ_ERROR_READ :              <span class="comment">/* Read error in archive */</span></div>
+<div class="line"><span class="lineno">   42</span>                printf(<span class="stringliteral">&quot;Error opening archive &#39;%s&#39;: Read error in archive\n&quot;</span>, filename);</div>
+<div class="line"><span class="lineno">   43</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   44</span>            <span class="keywordflow">case</span> LIBMPQ_ERROR_MALLOC :               <span class="comment">/* maybe not enough memory? :) */</span></div>
+<div class="line"><span class="lineno">   45</span>                printf(<span class="stringliteral">&quot;Error opening archive &#39;%s&#39;: Maybe not enough memory\n&quot;</span>, filename);</div>
+<div class="line"><span class="lineno">   46</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   47</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">   48</span>                printf(<span class="stringliteral">&quot;Error opening archive &#39;%s&#39;: Unknown error\n&quot;</span>, filename);</div>
+<div class="line"><span class="lineno">   49</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   50</span>        }</div>
+<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   52</span>    }</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_variable" href="../../d3/db9/map__extractor_2mpq__libmpq_8cpp.html#a8ae40ebe73635e831bc65b70e7f97f3c">gOpenArchives</a>.push_front(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   54</span>}</div>
+<div class="ttc" id="aclass_m_p_q_archive_html_a72b9fb96b1e3db6c7be652e426978b4a"><div class="ttname"><a href="../../da/d8c/class_m_p_q_archive.html#a72b9fb96b1e3db6c7be652e426978b4a">MPQArchive::mpq_a</a></div><div class="ttdeci">mpq_archive_s * mpq_a</div><div class="ttdef"><b>Definition:</b> map_extractor/mpq_libmpq04.h:34</div></div>
+<div class="ttc" id="amap__extractor_2mpq__libmpq_8cpp_html_a8ae40ebe73635e831bc65b70e7f97f3c"><div class="ttname"><a href="../../d3/db9/map__extractor_2mpq__libmpq_8cpp.html#a8ae40ebe73635e831bc65b70e7f97f3c">gOpenArchives</a></div><div class="ttdeci">ArchiveSet gOpenArchives</div><div class="ttdef"><b>Definition:</b> map_extractor/mpq_libmpq.cpp:22</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5bce22525ca16381fbb4729540a165e2" name="a5bce22525ca16381fbb4729540a165e2"></a>
@@ -186,7 +219,9 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{ <a class="code hl_function" href="../../da/d8c/class_m_p_q_archive.html#ac40182c8e52d70aa1f53325f1b48f259">close</a>(); }</div>
+<div class="ttc" id="aclass_m_p_q_archive_html_ac40182c8e52d70aa1f53325f1b48f259"><div class="ttname"><a href="../../da/d8c/class_m_p_q_archive.html#ac40182c8e52d70aa1f53325f1b48f259">MPQArchive::close</a></div><div class="ttdeci">void close()</div><div class="ttdef"><b>Definition:</b> map_extractor/mpq_libmpq.cpp:56</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a58d57322334966ca16a22e52e5198d9f" name="a58d57322334966ca16a22e52e5198d9f"></a>
@@ -229,7 +264,9 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{ <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/d8c/class_m_p_q_archive.html#a2026335b9ede29197acfaac8513456d5">isOpened</a>()) <a class="code hl_function" href="../../da/d8c/class_m_p_q_archive.html#ac40182c8e52d70aa1f53325f1b48f259">close</a>(); }</div>
+<div class="ttc" id="aclass_m_p_q_archive_html_a2026335b9ede29197acfaac8513456d5"><div class="ttname"><a href="../../da/d8c/class_m_p_q_archive.html#a2026335b9ede29197acfaac8513456d5">MPQArchive::isOpened</a></div><div class="ttdeci">bool isOpened() const</div><div class="ttdef"><b>Definition:</b> vmap4_extractor/mpq_libmpq.cpp:57</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -247,7 +284,11 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   57</span>{</div>
+<div class="line"><span class="lineno">   58</span>    <span class="comment">//gOpenArchives.erase(erase(&amp;mpq_a);</span></div>
+<div class="line"><span class="lineno">   59</span>    libmpq__archive_close(<a class="code hl_variable" href="../../da/d8c/class_m_p_q_archive.html#a72b9fb96b1e3db6c7be652e426978b4a">mpq_a</a>);</div>
+<div class="line"><span class="lineno">   60</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac40182c8e52d70aa1f53325f1b48f259" name="ac40182c8e52d70aa1f53325f1b48f259"></a>
@@ -298,7 +339,36 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   41</span>    {</div>
+<div class="line"><span class="lineno">   42</span>        uint32_t filenum;</div>
+<div class="line"><span class="lineno">   43</span>        <span class="keywordflow">if</span> (libmpq__file_number(<a class="code hl_variable" href="../../da/d8c/class_m_p_q_archive.html#a72b9fb96b1e3db6c7be652e426978b4a">mpq_a</a>, <span class="stringliteral">&quot;(listfile)&quot;</span>, &amp;filenum)) <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   44</span>        libmpq__off_t size, transferred;</div>
+<div class="line"><span class="lineno">   45</span>        libmpq__file_unpacked_size(<a class="code hl_variable" href="../../da/d8c/class_m_p_q_archive.html#a72b9fb96b1e3db6c7be652e426978b4a">mpq_a</a>, filenum, &amp;size);</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>        <span class="keywordtype">char</span>* buffer = <span class="keyword">new</span> <span class="keywordtype">char</span>[size + 1];</div>
+<div class="line"><span class="lineno">   48</span>        buffer[size] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>        libmpq__file_read(<a class="code hl_variable" href="../../da/d8c/class_m_p_q_archive.html#a72b9fb96b1e3db6c7be652e426978b4a">mpq_a</a>, filenum, (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*)buffer, size, &amp;transferred);</div>
+<div class="line"><span class="lineno">   51</span> </div>
+<div class="line"><span class="lineno">   52</span>        <span class="keywordtype">char</span> seps[] = <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordtype">char</span>* token;</div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>        token = strtok( buffer, seps );</div>
+<div class="line"><span class="lineno">   56</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> counter = 0;</div>
+<div class="line"><span class="lineno">   57</span>        <span class="keywordflow">while</span> ((token != <span class="keyword">nullptr</span>) &amp;&amp; (counter &lt; size))</div>
+<div class="line"><span class="lineno">   58</span>        {</div>
+<div class="line"><span class="lineno">   59</span>            <span class="comment">//cout &lt;&lt; token &lt;&lt; endl;</span></div>
+<div class="line"><span class="lineno">   60</span>            token[strlen(token) - 1] = 0;</div>
+<div class="line"><span class="lineno">   61</span>            <span class="keywordtype">string</span> s = token;</div>
+<div class="line"><span class="lineno">   62</span>            filelist.push_back(s);</div>
+<div class="line"><span class="lineno">   63</span>            counter += strlen(token) + 2;</div>
+<div class="line"><span class="lineno">   64</span>            token = strtok(<span class="keyword">nullptr</span>, seps);</div>
+<div class="line"><span class="lineno">   65</span>        }</div>
+<div class="line"><span class="lineno">   66</span> </div>
+<div class="line"><span class="lineno">   67</span>        <span class="keyword">delete</span>[] buffer;</div>
+<div class="line"><span class="lineno">   68</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab91bd82370a1ebcf6b46fc3047188640" name="ab91bd82370a1ebcf6b46fc3047188640"></a>
@@ -324,7 +394,35 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   40</span>    {</div>
+<div class="line"><span class="lineno">   41</span>        uint32_t filenum;</div>
+<div class="line"><span class="lineno">   42</span>        <span class="keywordflow">if</span> (libmpq__file_number(<a class="code hl_variable" href="../../da/d8c/class_m_p_q_archive.html#a72b9fb96b1e3db6c7be652e426978b4a">mpq_a</a>, <span class="stringliteral">&quot;(listfile)&quot;</span>, &amp;filenum)) <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   43</span>        libmpq__off_t size, transferred;</div>
+<div class="line"><span class="lineno">   44</span>        libmpq__file_unpacked_size(<a class="code hl_variable" href="../../da/d8c/class_m_p_q_archive.html#a72b9fb96b1e3db6c7be652e426978b4a">mpq_a</a>, filenum, &amp;size);</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>        <span class="keywordtype">char</span>* buffer = <span class="keyword">new</span> <span class="keywordtype">char</span>[size + 1];</div>
+<div class="line"><span class="lineno">   47</span>        buffer[size] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>        libmpq__file_read(<a class="code hl_variable" href="../../da/d8c/class_m_p_q_archive.html#a72b9fb96b1e3db6c7be652e426978b4a">mpq_a</a>, filenum, (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*)buffer, size, &amp;transferred);</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>        <span class="keywordtype">char</span> seps[] = <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><span class="lineno">   52</span>        <span class="keywordtype">char</span>* token;</div>
+<div class="line"><span class="lineno">   53</span> </div>
+<div class="line"><span class="lineno">   54</span>        token = strtok( buffer, seps );</div>
+<div class="line"><span class="lineno">   55</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> counter = 0;</div>
+<div class="line"><span class="lineno">   56</span>        <span class="keywordflow">while</span> ((token != <span class="keyword">nullptr</span>) &amp;&amp; (counter &lt; size))</div>
+<div class="line"><span class="lineno">   57</span>        {</div>
+<div class="line"><span class="lineno">   58</span>            <span class="comment">//cout &lt;&lt; token &lt;&lt; endl;</span></div>
+<div class="line"><span class="lineno">   59</span>            token[strlen(token) - 1] = 0;</div>
+<div class="line"><span class="lineno">   60</span>            <span class="keywordtype">string</span> s = token;</div>
+<div class="line"><span class="lineno">   61</span>            filelist.push_back(s);</div>
+<div class="line"><span class="lineno">   62</span>            counter += strlen(token) + 2;</div>
+<div class="line"><span class="lineno">   63</span>            token = strtok(<span class="keyword">nullptr</span>, seps);</div>
+<div class="line"><span class="lineno">   64</span>        }</div>
+<div class="line"><span class="lineno">   65</span> </div>
+<div class="line"><span class="lineno">   66</span>        <span class="keyword">delete</span>[] buffer;</div>
+<div class="line"><span class="lineno">   67</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2026335b9ede29197acfaac8513456d5" name="a2026335b9ede29197acfaac8513456d5"></a>
@@ -349,7 +447,10 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>{</div>
+<div class="line"><span class="lineno">   59</span>    <span class="keywordflow">return</span> std::find(<a class="code hl_variable" href="../../d3/db9/map__extractor_2mpq__libmpq_8cpp.html#a8ae40ebe73635e831bc65b70e7f97f3c">gOpenArchives</a>.begin(), <a class="code hl_variable" href="../../d3/db9/map__extractor_2mpq__libmpq_8cpp.html#a8ae40ebe73635e831bc65b70e7f97f3c">gOpenArchives</a>.end(), <span class="keyword">this</span>) != <a class="code hl_variable" href="../../d3/db9/map__extractor_2mpq__libmpq_8cpp.html#a8ae40ebe73635e831bc65b70e7f97f3c">gOpenArchives</a>.end();</div>
+<div class="line"><span class="lineno">   60</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -368,10 +469,10 @@ Private Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/tools/map_extractor/<a class="el" href="../../d5/da0/map__extractor_2mpq__libmpq04_8h_source.html">mpq_libmpq04.h</a></li>
-<li>D:/azerothcore-wotlk/src/tools/vmap4_extractor/<a class="el" href="../../d7/d99/vmap4__extractor_2mpq__libmpq04_8h_source.html">mpq_libmpq04.h</a></li>
-<li>D:/azerothcore-wotlk/src/tools/map_extractor/<a class="el" href="../../d3/db9/map__extractor_2mpq__libmpq_8cpp.html">mpq_libmpq.cpp</a></li>
-<li>D:/azerothcore-wotlk/src/tools/vmap4_extractor/<a class="el" href="../../dd/d5b/vmap4__extractor_2mpq__libmpq_8cpp.html">mpq_libmpq.cpp</a></li>
+<li><a class="el" href="../../">map_extractor/mpq_libmpq04.h</a></li>
+<li><a class="el" href="../../">vmap4_extractor/mpq_libmpq04.h</a></li>
+<li><a class="el" href="../../">map_extractor/mpq_libmpq.cpp</a></li>
+<li><a class="el" href="../../">vmap4_extractor/mpq_libmpq.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -379,7 +480,7 @@ Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d8c/class_m_p_q_archive.html">MPQArchive</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d4/dbe/class_linked_list_element.html'
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../de/dc6/_linked_list_8h_source.html">LinkedList.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">LinkedList.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for LinkedListElement:</div>
 <div class="dyncontent">
@@ -185,7 +185,8 @@ Friends</h2></td></tr>
 <tr class="memitem:a3e79720cb367ba3c26eeeee4536473e7"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/class_linked_list_element.html#a3e79720cb367ba3c26eeeee4536473e7">LinkedListHead</a></td></tr>
 <tr class="separator:a3e79720cb367ba3c26eeeee4536473e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac1194068a8be3b5633aee45147bdcdc3" name="ac1194068a8be3b5633aee45147bdcdc3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac1194068a8be3b5633aee45147bdcdc3">&#9670;&#160;</a></span>LinkedListElement()</h2>
 
@@ -233,7 +234,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   36</span>{ <a class="code hl_function" href="../../d4/dbe/class_linked_list_element.html#a56583d2ad1e6e3b9b37d1dcbf55d2a10">delink</a>(); }</div>
+<div class="ttc" id="aclass_linked_list_element_html_a56583d2ad1e6e3b9b37d1dcbf55d2a10"><div class="ttname"><a href="../../d4/dbe/class_linked_list_element.html#a56583d2ad1e6e3b9b37d1dcbf55d2a10">LinkedListElement::delink</a></div><div class="ttdeci">void delink()</div><div class="ttdef"><b>Definition:</b> LinkedList.h:52</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -259,7 +262,19 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   53</span>    {</div>
+<div class="line"><span class="lineno">   54</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d4/dbe/class_linked_list_element.html#ac1f61be0f1b485899870ddafec4f0daf">isInList</a>())</div>
+<div class="line"><span class="lineno">   55</span>        {</div>
+<div class="line"><span class="lineno">   56</span>            <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a>-&gt;<a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a> = <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a>;</div>
+<div class="line"><span class="lineno">   57</span>            <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a>-&gt;<a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a> = <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a>;</div>
+<div class="line"><span class="lineno">   58</span>            <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   59</span>            <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   60</span>        }</div>
+<div class="line"><span class="lineno">   61</span>    }</div>
+<div class="ttc" id="aclass_linked_list_element_html_a3d763a3685504dab0940d2201052b990"><div class="ttname"><a href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">LinkedListElement::iPrev</a></div><div class="ttdeci">LinkedListElement * iPrev</div><div class="ttdef"><b>Definition:</b> LinkedList.h:33</div></div>
+<div class="ttc" id="aclass_linked_list_element_html_ac1f61be0f1b485899870ddafec4f0daf"><div class="ttname"><a href="../../d4/dbe/class_linked_list_element.html#ac1f61be0f1b485899870ddafec4f0daf">LinkedListElement::isInList</a></div><div class="ttdeci">bool isInList() const</div><div class="ttdef"><b>Definition:</b> LinkedList.h:40</div></div>
+<div class="ttc" id="aclass_linked_list_element_html_adbad5e71eaae55ad05b8fd836e1da809"><div class="ttname"><a href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">LinkedListElement::iNext</a></div><div class="ttdeci">LinkedListElement * iNext</div><div class="ttdef"><b>Definition:</b> LinkedList.h:32</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6a31a6cb9b48a00ceeb0c05506020fad" name="a6a31a6cb9b48a00ceeb0c05506020fad"></a>
@@ -284,7 +299,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   38</span>{ <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a> &amp;&amp; <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a>-&gt;<a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a> != <span class="keyword">nullptr</span>); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9aa9698ff9aab072a12bb38fab4533b5" name="a9aa9698ff9aab072a12bb38fab4533b5"></a>
@@ -309,7 +325,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   39</span>{ <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a> &amp;&amp; <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a>-&gt;<a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a> != <span class="keyword">nullptr</span>); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5815d1c7015ca4671993137703dc3fc1" name="a5815d1c7015ca4671993137703dc3fc1"></a>
@@ -335,7 +352,13 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   72</span>    {</div>
+<div class="line"><span class="lineno">   73</span>        pElem-&gt;<a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a> = <span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   74</span>        pElem-&gt;<a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a> = <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a>;</div>
+<div class="line"><span class="lineno">   75</span>        <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a>-&gt;<a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a> = pElem;</div>
+<div class="line"><span class="lineno">   76</span>        <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a> = pElem;</div>
+<div class="line"><span class="lineno">   77</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac1a009d1d2f1c782d7882e5990854bf9" name="ac1a009d1d2f1c782d7882e5990854bf9"></a>
@@ -361,7 +384,13 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   64</span>    {</div>
+<div class="line"><span class="lineno">   65</span>        pElem-&gt;<a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a> = <span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   66</span>        pElem-&gt;<a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a> = <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a>;</div>
+<div class="line"><span class="lineno">   67</span>        <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a>-&gt;<a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a> = pElem;</div>
+<div class="line"><span class="lineno">   68</span>        <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a> = pElem;</div>
+<div class="line"><span class="lineno">   69</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac1f61be0f1b485899870ddafec4f0daf" name="ac1f61be0f1b485899870ddafec4f0daf"></a>
@@ -386,7 +415,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   40</span>{ <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a> != <span class="keyword">nullptr</span> &amp;&amp; <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a> != <span class="keyword">nullptr</span>); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acbcdd7cb06a928d4d3c23b017abd715d" name="acbcdd7cb06a928d4d3c23b017abd715d"></a>
@@ -411,7 +441,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   42</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d4/dbe/class_linked_list_element.html#a6a31a6cb9b48a00ceeb0c05506020fad">hasNext</a>() ? <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a> : <span class="keyword">nullptr</span>; }</div>
+<div class="ttc" id="aclass_linked_list_element_html_a6a31a6cb9b48a00ceeb0c05506020fad"><div class="ttname"><a href="../../d4/dbe/class_linked_list_element.html#a6a31a6cb9b48a00ceeb0c05506020fad">LinkedListElement::hasNext</a></div><div class="ttdeci">bool hasNext() const</div><div class="ttdef"><b>Definition:</b> LinkedList.h:38</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7e17b9a27128db95781737096401ae6f" name="a7e17b9a27128db95781737096401ae6f"></a>
@@ -436,7 +468,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   43</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d4/dbe/class_linked_list_element.html#a6a31a6cb9b48a00ceeb0c05506020fad">hasNext</a>() ? <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a> : <span class="keyword">nullptr</span>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a36ba2530546c52b5ef3ea91bb45f7c9c" name="a36ba2530546c52b5ef3ea91bb45f7c9c"></a>
@@ -461,7 +494,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   47</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa5de440f42d0df69d021d1fdbde96dee" name="aa5de440f42d0df69d021d1fdbde96dee"></a>
@@ -486,7 +520,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   48</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#adbad5e71eaae55ad05b8fd836e1da809">iNext</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abe1be90c1bf7b22096e611ef46b5dfb4" name="abe1be90c1bf7b22096e611ef46b5dfb4"></a>
@@ -511,7 +546,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   49</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae8c8580dfa196cc39385d8d171375545" name="ae8c8580dfa196cc39385d8d171375545"></a>
@@ -536,7 +572,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   50</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a78fb6e3984ca951c45fb48781f2a6861" name="a78fb6e3984ca951c45fb48781f2a6861"></a>
@@ -561,7 +598,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   44</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d4/dbe/class_linked_list_element.html#a9aa9698ff9aab072a12bb38fab4533b5">hasPrev</a>() ? <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a> : <span class="keyword">nullptr</span>; }</div>
+<div class="ttc" id="aclass_linked_list_element_html_a9aa9698ff9aab072a12bb38fab4533b5"><div class="ttname"><a href="../../d4/dbe/class_linked_list_element.html#a9aa9698ff9aab072a12bb38fab4533b5">LinkedListElement::hasPrev</a></div><div class="ttdeci">bool hasPrev() const</div><div class="ttdef"><b>Definition:</b> LinkedList.h:39</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aad9ba71b4169621a6be2881c5883d147" name="aad9ba71b4169621a6be2881c5883d147"></a>
@@ -586,7 +625,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d4/dbe/class_linked_list_element.html#a9aa9698ff9aab072a12bb38fab4533b5">hasPrev</a>() ? <a class="code hl_variable" href="../../d4/dbe/class_linked_list_element.html#a3d763a3685504dab0940d2201052b990">iPrev</a> : <span class="keyword">nullptr</span>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
@@ -658,7 +698,7 @@ Friends</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Dynamic/<a class="el" href="../../de/dc6/_linked_list_8h_source.html">LinkedList.h</a></li>
+<li><a class="el" href="../../">LinkedList.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -666,7 +706,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/dbe/class_linked_list_element.html">LinkedListElement</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

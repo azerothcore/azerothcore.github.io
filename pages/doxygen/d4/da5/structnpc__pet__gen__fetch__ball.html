@@ -396,7 +396,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4cd4dabd5df72ad1e64bdc8d6efb2f1b" name="a4cd4dabd5df72ad1e64bdc8d6efb2f1b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4cd4dabd5df72ad1e64bdc8d6efb2f1b">&#9670;&#160;</a></span>npc_pet_gen_fetch_ball()</h2>
 
@@ -420,7 +421,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  723</span>                                        : <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(c)</div>
+<div class="line"><span class="lineno">  724</span>    {</div>
+<div class="line"><span class="lineno">  725</span>    }</div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -449,7 +454,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a717b3431bd49e191fc77afe0fa50d827">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  731</span>    {</div>
+<div class="line"><span class="lineno">  732</span>        <span class="keywordflow">if</span> (!summoner)</div>
+<div class="line"><span class="lineno">  733</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  734</span> </div>
+<div class="line"><span class="lineno">  735</span>        <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab28ae6d3c6631e4fc0d1201c788e6b39">SetOwnerGUID</a>(summoner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  736</span>        <a class="code hl_variable" href="../../d4/da5/structnpc__pet__gen__fetch__ball.html#ab8d0a3a9ba2a8e0d6f58b3867f20974e">checkTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  737</span>        <a class="code hl_variable" href="../../d4/da5/structnpc__pet__gen__fetch__ball.html#ae474374af7c2270e218ed236d90c789c">targetGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  738</span>        <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, 48649 <span class="comment">/*SPELL_PET_TOY_FETCH_BALL_COME_HERE*/</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  739</span>    }</div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_ab28ae6d3c6631e4fc0d1201c788e6b39"><div class="ttname"><a href="../../da/db7/class_unit.html#ab28ae6d3c6631e4fc0d1201c788e6b39">Unit::SetOwnerGUID</a></div><div class="ttdeci">void SetOwnerGUID(ObjectGuid owner)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10521</div></div>
+<div class="ttc" id="astructnpc__pet__gen__fetch__ball_html_ab8d0a3a9ba2a8e0d6f58b3867f20974e"><div class="ttname"><a href="../../d4/da5/structnpc__pet__gen__fetch__ball.html#ab8d0a3a9ba2a8e0d6f58b3867f20974e">npc_pet_gen_fetch_ball::checkTimer</a></div><div class="ttdeci">uint32 checkTimer</div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:727</div></div>
+<div class="ttc" id="astructnpc__pet__gen__fetch__ball_html_ae474374af7c2270e218ed236d90c789c"><div class="ttname"><a href="../../d4/da5/structnpc__pet__gen__fetch__ball.html#ae474374af7c2270e218ed236d90c789c">npc_pet_gen_fetch_ball::targetGUID</a></div><div class="ttdeci">ObjectGuid targetGUID</div><div class="ttdef"><b>Definition:</b> pet_generic.cpp:728</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a87bdded236f6584d9b71507a1253f7d0" name="a87bdded236f6584d9b71507a1253f7d0"></a>
@@ -487,7 +508,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1e545b8b2c9f8538d8663ef06c2c1030">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  742</span>    {</div>
+<div class="line"><span class="lineno">  743</span>        <span class="keywordflow">if</span> (spellInfo-&gt;Id == 48649 <span class="comment">/*SPELL_PET_TOY_FETCH_BALL_COME_HERE*/</span>)</div>
+<div class="line"><span class="lineno">  744</span>        {</div>
+<div class="line"><span class="lineno">  745</span>            target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(50, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a406ff2cf337ffe4dde864ecf85a6f54b">GetHomePosition</a>());</div>
+<div class="line"><span class="lineno">  746</span>            <a class="code hl_variable" href="../../d4/da5/structnpc__pet__gen__fetch__ball.html#ae474374af7c2270e218ed236d90c789c">targetGUID</a> = target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  747</span>        }</div>
+<div class="line"><span class="lineno">  748</span>    }</div>
+<div class="ttc" id="aclass_creature_html_a406ff2cf337ffe4dde864ecf85a6f54b"><div class="ttname"><a href="../../d1/dac/class_creature.html#a406ff2cf337ffe4dde864ecf85a6f54b">Creature::GetHomePosition</a></div><div class="ttdeci">void GetHomePosition(float &amp;x, float &amp;y, float &amp;z, float &amp;ori) const</div><div class="ttdef"><b>Definition:</b> Creature.h:322</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1e0f75d5cd438d500ad94c5024bf83ae" name="a1e0f75d5cd438d500ad94c5024bf83ae"></a>
@@ -515,7 +546,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  751</span>    {</div>
+<div class="line"><span class="lineno">  752</span>        <a class="code hl_variable" href="../../d4/da5/structnpc__pet__gen__fetch__ball.html#ab8d0a3a9ba2a8e0d6f58b3867f20974e">checkTimer</a> += diff;</div>
+<div class="line"><span class="lineno">  753</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/da5/structnpc__pet__gen__fetch__ball.html#ab8d0a3a9ba2a8e0d6f58b3867f20974e">checkTimer</a> &gt;= 1000)</div>
+<div class="line"><span class="lineno">  754</span>        {</div>
+<div class="line"><span class="lineno">  755</span>            <a class="code hl_variable" href="../../d4/da5/structnpc__pet__gen__fetch__ball.html#ab8d0a3a9ba2a8e0d6f58b3867f20974e">checkTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  756</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* target = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_variable" href="../../d4/da5/structnpc__pet__gen__fetch__ball.html#ae474374af7c2270e218ed236d90c789c">targetGUID</a>))</div>
+<div class="line"><span class="lineno">  757</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">GetDistance2d</a>(target) &lt; 2.0f)</div>
+<div class="line"><span class="lineno">  758</span>                {</div>
+<div class="line"><span class="lineno">  759</span>                    target-&gt;AI()-&gt;EnterEvadeMode();</div>
+<div class="line"><span class="lineno">  760</span>                    target-&gt;CastSpell(target, 48708 <span class="comment">/*SPELL_PET_TOY_FETCH_BALL_HAS_BALL*/</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  761</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(1);</div>
+<div class="line"><span class="lineno">  762</span>                }</div>
+<div class="line"><span class="lineno">  763</span>        }</div>
+<div class="line"><span class="lineno">  764</span>    }</div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_world_object_html_a73f3c7fa817faebff6b2752ba3bb1a50"><div class="ttname"><a href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">WorldObject::GetDistance2d</a></div><div class="ttdeci">float GetDistance2d(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1263</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -548,7 +597,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Pet/<a class="el" href="../../d2/d66/pet__generic_8cpp.html">pet_generic.cpp</a></li>
+<li><a class="el" href="../../">pet_generic.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -556,7 +605,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/da5/structnpc__pet__gen__fetch__ball.html">npc_pet_gen_fetch_ball</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

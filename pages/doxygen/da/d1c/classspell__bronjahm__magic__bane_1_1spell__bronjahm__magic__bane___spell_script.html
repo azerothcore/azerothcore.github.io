@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa8d0e805a2517a65f4ccbe86309a927f" name="aa8d0e805a2517a65f4ccbe86309a927f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa8d0e805a2517a65f4ccbe86309a927f">&#9670;&#160;</a></span>PrepareSpellScript()</h2>
 
@@ -341,7 +342,29 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  275</span>        {</div>
+<div class="line"><span class="lineno">  276</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>()-&gt;getPowerType() != <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a17e15fab4b89f4840e745f31ca76a414ab3e4f73d6494c917b99431bae75a4d5f">POWER_MANA</a>)</div>
+<div class="line"><span class="lineno">  277</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  278</span> </div>
+<div class="line"><span class="lineno">  279</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>())</div>
+<div class="line"><span class="lineno">  280</span>            {</div>
+<div class="line"><span class="lineno">  281</span>                <span class="keyword">const</span> <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> maxDamage = caster-&gt;GetMap()-&gt;GetSpawnMode() == 1 ? 15000 : 10000;</div>
+<div class="line"><span class="lineno">  282</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> newDamage = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#aff69d3a9a6f02ae0afa8f8bbaa543493">GetHitDamage</a>();</div>
+<div class="line"><span class="lineno">  283</span>                newDamage += <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a93f83fd909310de2c76382d00d7dbbf1">GetMaxPower</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a17e15fab4b89f4840e745f31ca76a414ab3e4f73d6494c917b99431bae75a4d5f">POWER_MANA</a>) / 2;</div>
+<div class="line"><span class="lineno">  284</span>                newDamage = std::min&lt;int32&gt;(maxDamage, newDamage);</div>
+<div class="line"><span class="lineno">  285</span> </div>
+<div class="line"><span class="lineno">  286</span>                <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ac1cfda0b3181c0da3422765acf78922e">SetHitDamage</a>(newDamage);</div>
+<div class="line"><span class="lineno">  287</span>            }</div>
+<div class="line"><span class="lineno">  288</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a17e15fab4b89f4840e745f31ca76a414ab3e4f73d6494c917b99431bae75a4d5f"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a17e15fab4b89f4840e745f31ca76a414ab3e4f73d6494c917b99431bae75a4d5f">POWER_MANA</a></div><div class="ttdeci">@ POWER_MANA</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:241</div></div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_spell_script_html_ac1cfda0b3181c0da3422765acf78922e"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ac1cfda0b3181c0da3422765acf78922e">SpellScript::SetHitDamage</a></div><div class="ttdeci">void SetHitDamage(int32 damage)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:524</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_spell_script_html_aff69d3a9a6f02ae0afa8f8bbaa543493"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#aff69d3a9a6f02ae0afa8f8bbaa543493">SpellScript::GetHitDamage</a></div><div class="ttdeci">int32 GetHitDamage()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:514</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a93f83fd909310de2c76382d00d7dbbf1"><div class="ttname"><a href="../../da/db7/class_unit.html#a93f83fd909310de2c76382d00d7dbbf1">Unit::GetMaxPower</a></div><div class="ttdeci">uint32 GetMaxPower(Powers power) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1460</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a568455b554880fec8f488ff91815f914" name="a568455b554880fec8f488ff91815f914"></a>
@@ -368,11 +391,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  291</span>        {</div>
+<div class="line"><span class="lineno">  292</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a4ad6c271f820ea8f949e286512912d52">OnHit</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a>(<a class="code hl_function" href="../../da/d1c/classspell__bronjahm__magic__bane_1_1spell__bronjahm__magic__bane___spell_script.html#a9ac67073a6fa1bdcf24c6880a6806d7f">spell_bronjahm_magic_bane_SpellScript::RecalculateDamage</a>);</div>
+<div class="line"><span class="lineno">  293</span>        }</div>
+<div class="ttc" id="a_spell_script_8h_html_ad33ae6ff74ef32eb5ec79707ff0ab5b1"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a></div><div class="ttdeci">#define SpellHitFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:349</div></div>
+<div class="ttc" id="aclass_spell_script_html_a4ad6c271f820ea8f949e286512912d52"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a4ad6c271f820ea8f949e286512912d52">SpellScript::OnHit</a></div><div class="ttdeci">HookList&lt; HitHandler &gt; OnHit</div><div class="ttdef"><b>Definition:</b> SpellScript.h:345</div></div>
+<div class="ttc" id="aclassspell__bronjahm__magic__bane_1_1spell__bronjahm__magic__bane___spell_script_html_a9ac67073a6fa1bdcf24c6880a6806d7f"><div class="ttname"><a href="../../da/d1c/classspell__bronjahm__magic__bane_1_1spell__bronjahm__magic__bane___spell_script.html#a9ac67073a6fa1bdcf24c6880a6806d7f">spell_bronjahm_magic_bane::spell_bronjahm_magic_bane_SpellScript::RecalculateDamage</a></div><div class="ttdeci">void RecalculateDamage()</div><div class="ttdef"><b>Definition:</b> boss_bronjahm.cpp:274</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/FrozenHalls/ForgeOfSouls/<a class="el" href="../../de/dc0/boss__bronjahm_8cpp.html">boss_bronjahm.cpp</a></li>
+<li><a class="el" href="../../">boss_bronjahm.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -380,7 +409,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d4b/classspell__bronjahm__magic__bane.html">spell_bronjahm_magic_bane</a></li><li class="navelem"><a class="el" href="../../da/d1c/classspell__bronjahm__magic__bane_1_1spell__bronjahm__magic__bane___spell_script.html">spell_bronjahm_magic_bane_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:16 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

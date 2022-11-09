@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d4/d0c/class_acore_1_1_crypto_1_1_a_r_
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d9/d13/_a_r_c4_8h_source.html">ARC4.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">ARC4.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -137,7 +137,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a8539413b1e0344abe9545f742cc8e6df"><td class="memItemLeft" align="right" valign="top">EVP_CIPHER_CTX *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0c/class_acore_1_1_crypto_1_1_a_r_c4.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a></td></tr>
 <tr class="separator:a8539413b1e0344abe9545f742cc8e6df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac05d4f85233abfc5cbcb87cd2a87bc5a" name="ac05d4f85233abfc5cbcb87cd2a87bc5a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac05d4f85233abfc5cbcb87cd2a87bc5a">&#9670;&#160;</a></span>ARC4()</h2>
 
@@ -152,7 +153,15 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   22</span>    : <a class="code hl_variable" href="../../d4/d0c/class_acore_1_1_crypto_1_1_a_r_c4.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>(EVP_CIPHER_CTX_new())</div>
+<div class="line"><span class="lineno">   23</span>{</div>
+<div class="line"><span class="lineno">   24</span>    EVP_CIPHER_CTX_init(<a class="code hl_variable" href="../../d4/d0c/class_acore_1_1_crypto_1_1_a_r_c4.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>);</div>
+<div class="line"><span class="lineno">   25</span>    <span class="keywordtype">int</span> result = EVP_EncryptInit_ex(<a class="code hl_variable" href="../../d4/d0c/class_acore_1_1_crypto_1_1_a_r_c4.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>, EVP_rc4(), <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(result == 1);</div>
+<div class="line"><span class="lineno">   27</span>}</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aclass_acore_1_1_crypto_1_1_a_r_c4_html_a8539413b1e0344abe9545f742cc8e6df"><div class="ttname"><a href="../../d4/d0c/class_acore_1_1_crypto_1_1_a_r_c4.html#a8539413b1e0344abe9545f742cc8e6df">Acore::Crypto::ARC4::_ctx</a></div><div class="ttdeci">EVP_CIPHER_CTX * _ctx</div><div class="ttdef"><b>Definition:</b> ARC4.h:41</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af3a8b63c2073120026c262a685eef8f2" name="af3a8b63c2073120026c262a685eef8f2"></a>
@@ -169,7 +178,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
+<div class="line"><span class="lineno">   31</span>    EVP_CIPHER_CTX_free(<a class="code hl_variable" href="../../d4/d0c/class_acore_1_1_crypto_1_1_a_r_c4.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>);</div>
+<div class="line"><span class="lineno">   32</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -198,7 +210,9 @@ template&lt;typename <a class="el" href="../../d9/d83/_object_guid_8h.html#abe86
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{ <a class="code hl_function" href="../../d4/d0c/class_acore_1_1_crypto_1_1_a_r_c4.html#a13bd9c79d4535d115831303b14b5f89d">Init</a>(std::data(c), std::size(c)); }</div>
+<div class="ttc" id="aclass_acore_1_1_crypto_1_1_a_r_c4_html_a13bd9c79d4535d115831303b14b5f89d"><div class="ttname"><a href="../../d4/d0c/class_acore_1_1_crypto_1_1_a_r_c4.html#a13bd9c79d4535d115831303b14b5f89d">Acore::Crypto::ARC4::Init</a></div><div class="ttdeci">void Init(uint8 const *seed, size_t len)</div><div class="ttdef"><b>Definition:</b> ARC4.cpp:34</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a13bd9c79d4535d115831303b14b5f89d" name="a13bd9c79d4535d115831303b14b5f89d"></a>
@@ -226,7 +240,13 @@ template&lt;typename <a class="el" href="../../d9/d83/_object_guid_8h.html#abe86
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordtype">int</span> result1 = EVP_CIPHER_CTX_set_key_length(<a class="code hl_variable" href="../../d4/d0c/class_acore_1_1_crypto_1_1_a_r_c4.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>, len);</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(result1 == 1);</div>
+<div class="line"><span class="lineno">   38</span>    <span class="keywordtype">int</span> result2 = EVP_EncryptInit_ex(<a class="code hl_variable" href="../../d4/d0c/class_acore_1_1_crypto_1_1_a_r_c4.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, seed, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(result2 == 1);</div>
+<div class="line"><span class="lineno">   40</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae350945f2713305e977e4a3e4fc3d5b5" name="ae350945f2713305e977e4a3e4fc3d5b5"></a>
@@ -254,7 +274,9 @@ template&lt;typename <a class="el" href="../../d9/d83/_object_guid_8h.html#abe86
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   39</span>{ <a class="code hl_class" href="../../dc/d19/class_update_data.html">UpdateData</a>(std::data(c), std::size(c)); }</div>
+<div class="ttc" id="aclass_update_data_html"><div class="ttname"><a href="../../dc/d19/class_update_data.html">UpdateData</a></div><div class="ttdef"><b>Definition:</b> UpdateData.h:52</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afeb8a273bac5a73417e8026421c6ea70" name="afeb8a273bac5a73417e8026421c6ea70"></a>
@@ -282,7 +304,14 @@ template&lt;typename <a class="el" href="../../d9/d83/_object_guid_8h.html#abe86
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   43</span>{</div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordtype">int</span> outlen = 0;</div>
+<div class="line"><span class="lineno">   45</span>    <span class="keywordtype">int</span> result1 = EVP_EncryptUpdate(<a class="code hl_variable" href="../../d4/d0c/class_acore_1_1_crypto_1_1_a_r_c4.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>, data, &amp;outlen, data, len);</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(result1 == 1);</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordtype">int</span> result2 = EVP_EncryptFinal_ex(<a class="code hl_variable" href="../../d4/d0c/class_acore_1_1_crypto_1_1_a_r_c4.html#a8539413b1e0344abe9545f742cc8e6df">_ctx</a>, data, &amp;outlen);</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(result2 == 1);</div>
+<div class="line"><span class="lineno">   49</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -309,8 +338,8 @@ template&lt;typename <a class="el" href="../../d9/d83/_object_guid_8h.html#abe86
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/common/Cryptography/<a class="el" href="../../d9/d13/_a_r_c4_8h_source.html">ARC4.h</a></li>
-<li>D:/azerothcore-wotlk/src/common/Cryptography/<a class="el" href="../../da/d7b/_a_r_c4_8cpp.html">ARC4.cpp</a></li>
+<li><a class="el" href="../../">ARC4.h</a></li>
+<li><a class="el" href="../../">ARC4.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -318,7 +347,7 @@ template&lt;typename <a class="el" href="../../d9/d83/_object_guid_8h.html#abe86
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../dc/d06/namespace_acore_1_1_crypto.html">Crypto</a></li><li class="navelem"><a class="el" href="../../d4/d0c/class_acore_1_1_crypto_1_1_a_r_c4.html">ARC4</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

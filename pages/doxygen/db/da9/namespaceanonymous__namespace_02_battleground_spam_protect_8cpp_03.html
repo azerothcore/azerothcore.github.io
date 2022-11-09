@@ -142,7 +142,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   30</span>    {</div>
+<div class="line"><span class="lineno">   31</span>        <a class="code hl_variable" href="../../db/da9/namespaceanonymous__namespace_02_battleground_spam_protect_8cpp_03.html#af8ad5db2c36ddfbca0b6b18e3478c2c5">_players</a>.insert_or_assign(guid, <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count());</div>
+<div class="line"><span class="lineno">   32</span>    }</div>
+<div class="ttc" id="anamespace_game_time_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02_battleground_spam_protect_8cpp_03_html_af8ad5db2c36ddfbca0b6b18e3478c2c5"><div class="ttname"><a href="../../db/da9/namespaceanonymous__namespace_02_battleground_spam_protect_8cpp_03.html#af8ad5db2c36ddfbca0b6b18e3478c2c5">anonymous_namespace{BattlegroundSpamProtect.cpp}::_players</a></div><div class="ttdeci">std::unordered_map&lt; ObjectGuid, uint32 &gt; _players</div><div class="ttdef"><b>Definition:</b> BattlegroundSpamProtect.cpp:27</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae44f550ac340528abe454269c2273d73" name="ae44f550ac340528abe454269c2273d73"></a>
@@ -160,7 +165,16 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>    {</div>
+<div class="line"><span class="lineno">   36</span>        <span class="keyword">auto</span> <span class="keyword">const</span>&amp; itr = <a class="code hl_variable" href="../../db/da9/namespaceanonymous__namespace_02_battleground_spam_protect_8cpp_03.html#af8ad5db2c36ddfbca0b6b18e3478c2c5">_players</a>.find(guid);</div>
+<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../db/da9/namespaceanonymous__namespace_02_battleground_spam_protect_8cpp_03.html#af8ad5db2c36ddfbca0b6b18e3478c2c5">_players</a>.end())</div>
+<div class="line"><span class="lineno">   38</span>        {</div>
+<div class="line"><span class="lineno">   39</span>            <span class="keywordflow">return</span> itr-&gt;second;</div>
+<div class="line"><span class="lineno">   40</span>        }</div>
+<div class="line"><span class="lineno">   41</span> </div>
+<div class="line"><span class="lineno">   42</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   43</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a18121c73cd31656af9ee5e5da754e4bd" name="a18121c73cd31656af9ee5e5da754e4bd"></a>
@@ -178,7 +192,14 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   46</span>    {</div>
+<div class="line"><span class="lineno">   47</span>        <span class="comment">// Skip if spam time &lt; 30 secs (default)</span></div>
+<div class="line"><span class="lineno">   48</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count() - <a class="code hl_function" href="../../db/da9/namespaceanonymous__namespace_02_battleground_spam_protect_8cpp_03.html#ae44f550ac340528abe454269c2273d73">GetTime</a>(guid) &gt;= <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#a17aac4c166ebe43e3b8fdccf9e012e41a14135f0427466de34d3120273c6f2073">CONFIG_BATTLEGROUND_QUEUE_ANNOUNCER_SPAM_DELAY</a>);</div>
+<div class="line"><span class="lineno">   49</span>    }</div>
+<div class="ttc" id="a_i_world_8h_html_a17aac4c166ebe43e3b8fdccf9e012e41a14135f0427466de34d3120273c6f2073"><div class="ttname"><a href="../../d2/d80/_i_world_8h.html#a17aac4c166ebe43e3b8fdccf9e012e41a14135f0427466de34d3120273c6f2073">CONFIG_BATTLEGROUND_QUEUE_ANNOUNCER_SPAM_DELAY</a></div><div class="ttdeci">@ CONFIG_BATTLEGROUND_QUEUE_ANNOUNCER_SPAM_DELAY</div><div class="ttdef"><b>Definition:</b> IWorld.h:301</div></div>
+<div class="ttc" id="agroup__world_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:458</div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02_battleground_spam_protect_8cpp_03_html_ae44f550ac340528abe454269c2273d73"><div class="ttname"><a href="../../db/da9/namespaceanonymous__namespace_02_battleground_spam_protect_8cpp_03.html#ae44f550ac340528abe454269c2273d73">anonymous_namespace{BattlegroundSpamProtect.cpp}::GetTime</a></div><div class="ttdeci">uint32 GetTime(ObjectGuid guid)</div><div class="ttdef"><b>Definition:</b> BattlegroundSpamProtect.cpp:34</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -202,7 +223,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/da9/namespaceanonymous__namespace_02_battleground_spam_protect_8cpp_03.html">anonymous_namespace{BattlegroundSpamProtect.cpp}</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

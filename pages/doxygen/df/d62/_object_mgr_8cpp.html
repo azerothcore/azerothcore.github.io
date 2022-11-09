@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/Globals/ObjectMgr.cpp File Reference</title>
+<title>AzeorthCore: ObjectMgr.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -112,45 +112,47 @@ $(document).ready(function(){initNavTree('df/d62/_object_mgr_8cpp.html','../../'
   <div class="headertitle"><div class="title">ObjectMgr.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d9/d77/_object_mgr_8h_source.html">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/da7/_account_mgr_8h_source.html">AccountMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d42/_achievement_mgr_8h_source.html">AchievementMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d49/_arena_team_mgr_8h_source.html">ArenaTeamMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d2a/_character_cache_8h_source.html">CharacterCache.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d55/_chat_8h_source.html">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d1f/_common_8h_source.html">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d4e/_creature_a_i_factory_8h_source.html">CreatureAIFactory.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d71/_config_8h_source.html">Config.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d62/_containers_8h_source.html">Containers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/dd4/_database_env_8h_source.html">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d01/_disable_mgr_8h_source.html">DisableMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d45/_game_object_a_i_factory_8h_source.html">GameObjectAIFactory.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d13/_game_event_mgr_8h_source.html">GameEventMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/daa/_game_time_8h_source.html">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d79/_gossip_def_8h_source.html">GossipDef.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d6f/_group_mgr_8h_source.html">GroupMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/dce/_guild_mgr_8h_source.html">GuildMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/dfb/_l_f_g_mgr_8h_source.html">LFGMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d4b/_language_8h_source.html">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/df4/_log_8h_source.html">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/dca/_map_mgr_8h_source.html">MapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d67/_pet_8h_source.html">Pet.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/dc6/_pool_mgr_8h_source.html">PoolMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d7d/_reputation_mgr_8h_source.html">ReputationMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dfa/_spell_8h_source.html">Spell.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dcf/_spell_auras_8h_source.html">SpellAuras.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d75/_spell_mgr_8h_source.html">SpellMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d93/_transport_8h_source.html">Transport.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d32/_unit_8h_source.html">Unit.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d03/_update_mask_8h_source.html">UpdateMask.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d90/_util_8h_source.html">Util.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d90/_vehicle_8h_source.html">Vehicle.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d86/_world_8h_source.html">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d3c/_string_convert_8h_source.html">StringConvert.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d43/_tokenize_8h_source.html">Tokenize.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AccountMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AchievementMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ArenaTeamMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CharacterCache.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureAIFactory.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Containers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DisableMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObjectAIFactory.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameEventMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GossipDef.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GroupMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GuildMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LFGMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PoolMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ReputationMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Unit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">UpdateMask.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">StringConvert.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Tokenize.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:ada735c6d6b04a8714b2751f0c4053e34"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34">LanguageType</a> { <br />
@@ -228,7 +230,19 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="ada735c6d6b04a8714b2751f0c4053e34aa059d83464c94afd9e5a7257238efa40" name="ada735c6d6b04a8714b2751f0c4053e34aa059d83464c94afd9e5a7257238efa40"></a>LT_EAST_ASIA&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ada735c6d6b04a8714b2751f0c4053e34a400f6aeeb5f21442c121cccfda55689c" name="ada735c6d6b04a8714b2751f0c4053e34a400f6aeeb5f21442c121cccfda55689c"></a>LT_ANY&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno"> 8057</span>{</div>
+<div class="line"><span class="lineno"> 8058</span>    <a class="code hl_enumvalue" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34ab693cfd22bb1894887b280b4d51ea3f5">LT_BASIC_LATIN</a>    = 0x0000,</div>
+<div class="line"><span class="lineno"> 8059</span>    <a class="code hl_enumvalue" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34a42315588f1a9e4d3e29a1b49e7d973b8">LT_EXTENDEN_LATIN</a> = 0x0001,</div>
+<div class="line"><span class="lineno"> 8060</span>    <a class="code hl_enumvalue" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34aef4a14b5eb73e84982c14ba00e70b402">LT_CYRILLIC</a>       = 0x0002,</div>
+<div class="line"><span class="lineno"> 8061</span>    <a class="code hl_enumvalue" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34aa059d83464c94afd9e5a7257238efa40">LT_EAST_ASIA</a>      = 0x0004,</div>
+<div class="line"><span class="lineno"> 8062</span>    <a class="code hl_enumvalue" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34a400f6aeeb5f21442c121cccfda55689c">LT_ANY</a>            = 0xFFFF</div>
+<div class="line"><span class="lineno"> 8063</span>};</div>
+<div class="ttc" id="a_object_mgr_8cpp_html_ada735c6d6b04a8714b2751f0c4053e34a400f6aeeb5f21442c121cccfda55689c"><div class="ttname"><a href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34a400f6aeeb5f21442c121cccfda55689c">LT_ANY</a></div><div class="ttdeci">@ LT_ANY</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:8062</div></div>
+<div class="ttc" id="a_object_mgr_8cpp_html_ada735c6d6b04a8714b2751f0c4053e34a42315588f1a9e4d3e29a1b49e7d973b8"><div class="ttname"><a href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34a42315588f1a9e4d3e29a1b49e7d973b8">LT_EXTENDEN_LATIN</a></div><div class="ttdeci">@ LT_EXTENDEN_LATIN</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:8059</div></div>
+<div class="ttc" id="a_object_mgr_8cpp_html_ada735c6d6b04a8714b2751f0c4053e34aa059d83464c94afd9e5a7257238efa40"><div class="ttname"><a href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34aa059d83464c94afd9e5a7257238efa40">LT_EAST_ASIA</a></div><div class="ttdeci">@ LT_EAST_ASIA</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:8061</div></div>
+<div class="ttc" id="a_object_mgr_8cpp_html_ada735c6d6b04a8714b2751f0c4053e34ab693cfd22bb1894887b280b4d51ea3f5"><div class="ttname"><a href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34ab693cfd22bb1894887b280b4d51ea3f5">LT_BASIC_LATIN</a></div><div class="ttdeci">@ LT_BASIC_LATIN</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:8058</div></div>
+<div class="ttc" id="a_object_mgr_8cpp_html_ada735c6d6b04a8714b2751f0c4053e34aef4a14b5eb73e84982c14ba00e70b402"><div class="ttname"><a href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34aef4a14b5eb73e84982c14ba00e70b402">LT_CYRILLIC</a></div><div class="ttdeci">@ LT_CYRILLIC</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:8060</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -271,7 +285,21 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 6987</span>{</div>
+<div class="line"><span class="lineno"> 6988</span>    <span class="keywordflow">if</span> (dataN &lt;= (<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1a12c50220041ceecc2aa5e9a33c9f7305">UNIT_STAND_STATE_SIT_HIGH_CHAIR</a> - <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1a5f69ecdd2ac916f689d75e1aa3b3a24d">UNIT_STAND_STATE_SIT_LOW_CHAIR</a>))</div>
+<div class="line"><span class="lineno"> 6989</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 6990</span> </div>
+<div class="line"><span class="lineno"> 6991</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Gameobject (Entry: {} GoType: {}) have data{}={} but correct chair height in range 0..{}.&quot;</span>,</div>
+<div class="line"><span class="lineno"> 6992</span>                     goInfo-&gt;entry, goInfo-&gt;type, N, dataN, <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1a12c50220041ceecc2aa5e9a33c9f7305">UNIT_STAND_STATE_SIT_HIGH_CHAIR</a> - <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1a5f69ecdd2ac916f689d75e1aa3b3a24d">UNIT_STAND_STATE_SIT_LOW_CHAIR</a>);</div>
+<div class="line"><span class="lineno"> 6993</span> </div>
+<div class="line"><span class="lineno"> 6994</span>    <span class="comment">// prevent client and server unexpected work</span></div>
+<div class="line"><span class="lineno"> 6995</span>    <span class="keyword">const_cast&lt;</span><a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&amp;<span class="keyword">&gt;</span>(dataN) = 0;</div>
+<div class="line"><span class="lineno"> 6996</span>}</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_log_8h_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+<div class="ttc" id="a_unit_8h_html_a809d475cf0ffeaa1ddad86f73e24a7c1a12c50220041ceecc2aa5e9a33c9f7305"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1a12c50220041ceecc2aa5e9a33c9f7305">UNIT_STAND_STATE_SIT_HIGH_CHAIR</a></div><div class="ttdeci">@ UNIT_STAND_STATE_SIT_HIGH_CHAIR</div><div class="ttdef"><b>Definition:</b> Unit.h:59</div></div>
+<div class="ttc" id="a_unit_8h_html_a809d475cf0ffeaa1ddad86f73e24a7c1a5f69ecdd2ac916f689d75e1aa3b3a24d"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1a5f69ecdd2ac916f689d75e1aa3b3a24d">UNIT_STAND_STATE_SIT_LOW_CHAIR</a></div><div class="ttdeci">@ UNIT_STAND_STATE_SIT_LOW_CHAIR</div><div class="ttdef"><b>Definition:</b> Unit.h:57</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9be9514be7df6dd6a73a9b3889eccb7c" name="a9be9514be7df6dd6a73a9b3889eccb7c"></a>
@@ -313,7 +341,15 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 7008</span>{</div>
+<div class="line"><span class="lineno"> 7009</span>    <span class="comment">// 0/1 correct values</span></div>
+<div class="line"><span class="lineno"> 7010</span>    <span class="keywordflow">if</span> (dataN &lt;= 1)</div>
+<div class="line"><span class="lineno"> 7011</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 7012</span> </div>
+<div class="line"><span class="lineno"> 7013</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Gameobject (Entry: {} GoType: {}) have data{}={} but expected boolean (0/1) consumable field value.&quot;</span>,</div>
+<div class="line"><span class="lineno"> 7014</span>                     goInfo-&gt;entry, goInfo-&gt;type, N, dataN);</div>
+<div class="line"><span class="lineno"> 7015</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa667048b6811121b380981beec1541fd" name="aa667048b6811121b380981beec1541fd"></a>
@@ -355,7 +391,18 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 6968</span>{</div>
+<div class="line"><span class="lineno"> 6969</span>    <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../dc/d45/struct_game_object_template.html">GameObjectTemplate</a> <span class="keyword">const</span>* trapInfo = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetGameObjectTemplate(dataN))</div>
+<div class="line"><span class="lineno"> 6970</span>    {</div>
+<div class="line"><span class="lineno"> 6971</span>        <span class="keywordflow">if</span> (trapInfo-&gt;type != <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a53f894b7f924900a25913535b9ae3e00">GAMEOBJECT_TYPE_TRAP</a>)</div>
+<div class="line"><span class="lineno"> 6972</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Gameobject (Entry: {} GoType: {}) have data{}={} but GO (Entry {}) have not GAMEOBJECT_TYPE_TRAP ({}) type.&quot;</span>,</div>
+<div class="line"><span class="lineno"> 6973</span>                             goInfo-&gt;entry, goInfo-&gt;type, N, dataN, dataN, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a53f894b7f924900a25913535b9ae3e00">GAMEOBJECT_TYPE_TRAP</a>);</div>
+<div class="line"><span class="lineno"> 6974</span>    }</div>
+<div class="line"><span class="lineno"> 6975</span>}</div>
+<div class="ttc" id="a_object_mgr_8h_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1606</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a53f894b7f924900a25913535b9ae3e00"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a53f894b7f924900a25913535b9ae3e00">GAMEOBJECT_TYPE_TRAP</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_TRAP</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1538</div></div>
+<div class="ttc" id="astruct_game_object_template_html"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html">GameObjectTemplate</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:41</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abc01124dd1fecdf98bbe1948541557b0" name="abc01124dd1fecdf98bbe1948541557b0"></a>
@@ -397,7 +444,15 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 6959</span>{</div>
+<div class="line"><span class="lineno"> 6960</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/d17/_d_b_c_stores_8cpp.html#a4702d03a245a571da652d6c354d94cff">sLockStore</a>.LookupEntry(dataN))</div>
+<div class="line"><span class="lineno"> 6961</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 6962</span> </div>
+<div class="line"><span class="lineno"> 6963</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Gameobject (Entry: {} GoType: {}) have data{}={} but lock (Id: {}) not found.&quot;</span>,</div>
+<div class="line"><span class="lineno"> 6964</span>                     goInfo-&gt;entry, goInfo-&gt;type, N, goInfo-&gt;door.lockId, goInfo-&gt;door.lockId);</div>
+<div class="line"><span class="lineno"> 6965</span>}</div>
+<div class="ttc" id="a_d_b_c_stores_8cpp_html_a4702d03a245a571da652d6c354d94cff"><div class="ttname"><a href="../../dd/d17/_d_b_c_stores_8cpp.html#a4702d03a245a571da652d6c354d94cff">sLockStore</a></div><div class="ttdeci">DBCStorage&lt; LockEntry &gt; sLockStore(LockEntryfmt)</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a288e20914d793779cf9f2bfd9951b812" name="a288e20914d793779cf9f2bfd9951b812"></a>
@@ -439,7 +494,16 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 6999</span>{</div>
+<div class="line"><span class="lineno"> 7000</span>    <span class="comment">// 0/1 correct values</span></div>
+<div class="line"><span class="lineno"> 7001</span>    <span class="keywordflow">if</span> (dataN &lt;= 1)</div>
+<div class="line"><span class="lineno"> 7002</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 7003</span> </div>
+<div class="line"><span class="lineno"> 7004</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Gameobject (Entry: {} GoType: {}) have data{}={} but expected boolean (0/1) noDamageImmune field value.&quot;</span>, goTemplate-&gt;<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a2a6f00cb9178f48c4e79e0640eaad81b">entry</a>, goTemplate-&gt;<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a>, N, dataN);</div>
+<div class="line"><span class="lineno"> 7005</span>}</div>
+<div class="ttc" id="astruct_game_object_template_html_a1c78664b7272010dac83e9f4ea132330"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">GameObjectTemplate::type</a></div><div class="ttdeci">uint32 type</div><div class="ttdef"><b>Definition:</b> GameObject.h:43</div></div>
+<div class="ttc" id="astruct_game_object_template_html_a2a6f00cb9178f48c4e79e0640eaad81b"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a2a6f00cb9178f48c4e79e0640eaad81b">GameObjectTemplate::entry</a></div><div class="ttdeci">uint32 entry</div><div class="ttdef"><b>Definition:</b> GameObject.h:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a288fa8c196f7adce5d43050849366b84" name="a288fa8c196f7adce5d43050849366b84"></a>
@@ -481,7 +545,15 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 6978</span>{</div>
+<div class="line"><span class="lineno"> 6979</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(dataN))</div>
+<div class="line"><span class="lineno"> 6980</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 6981</span> </div>
+<div class="line"><span class="lineno"> 6982</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Gameobject (Entry: {} GoType: {}) have data{}={} but Spell (Entry {}) not exist.&quot;</span>,</div>
+<div class="line"><span class="lineno"> 6983</span>                     goInfo-&gt;entry, goInfo-&gt;type, N, dataN, dataN);</div>
+<div class="line"><span class="lineno"> 6984</span>}</div>
+<div class="ttc" id="a_spell_mgr_8h_html_aa21e14d8e1145507b746a69b5487109d"><div class="ttname"><a href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a></div><div class="ttdeci">#define sSpellMgr</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:803</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5e723b66ad85198f3b0625903f5edac6" name="a5e723b66ad85198f3b0625903f5edac6"></a>
@@ -499,7 +571,19 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  252</span>{</div>
+<div class="line"><span class="lineno">  253</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../df/d0b/_shared_defines_8h.html#a27a1fd993f2db7b4025c32c736e1886b">LANGUAGES_COUNT</a>; ++i)</div>
+<div class="line"><span class="lineno">  254</span>    {</div>
+<div class="line"><span class="lineno">  255</span>        <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../df/d62/_object_mgr_8cpp.html#a04765c27af649777907160e1147fb8fa">lang_description</a>[i].lang_id) == lang)</div>
+<div class="line"><span class="lineno">  256</span>            <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../df/d62/_object_mgr_8cpp.html#a04765c27af649777907160e1147fb8fa">lang_description</a>[i];</div>
+<div class="line"><span class="lineno">  257</span>    }</div>
+<div class="line"><span class="lineno">  258</span> </div>
+<div class="line"><span class="lineno">  259</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  260</span>}</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_object_mgr_8cpp_html_a04765c27af649777907160e1147fb8fa"><div class="ttname"><a href="../../df/d62/_object_mgr_8cpp.html#a04765c27af649777907160e1147fb8fa">lang_description</a></div><div class="ttdeci">LanguageDesc lang_description[LANGUAGES_COUNT]</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:228</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a27a1fd993f2db7b4025c32c736e1886b"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a27a1fd993f2db7b4025c32c736e1886b">LANGUAGES_COUNT</a></div><div class="ttdeci">#define LANGUAGES_COUNT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:728</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1d95dafadc9b3a7d7bc91fa7f188d464" name="a1d95dafadc9b3a7d7bc91fa7f188d464"></a>
@@ -525,7 +609,50 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 8066</span>{</div>
+<div class="line"><span class="lineno"> 8067</span>    <span class="keywordflow">switch</span> (<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#a17aac4c166ebe43e3b8fdccf9e012e41a9f75f33a95d06bac344dadef85d7674e">CONFIG_REALM_ZONE</a>))</div>
+<div class="line"><span class="lineno"> 8068</span>    {</div>
+<div class="line"><span class="lineno"> 8069</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba507b40d8e1860051d9bd9d2fcada3053">REALM_ZONE_UNKNOWN</a>:                            <span class="comment">// any language</span></div>
+<div class="line"><span class="lineno"> 8070</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7abae7a19f9c62c04561c69306240938c64e">REALM_ZONE_DEVELOPMENT</a>:</div>
+<div class="line"><span class="lineno"> 8071</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba09e6d6b40910f762c092171266a042cc">REALM_ZONE_TEST_SERVER</a>:</div>
+<div class="line"><span class="lineno"> 8072</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba984d95c5dabcb241fc9e4888e6544417">REALM_ZONE_QA_SERVER</a>:</div>
+<div class="line"><span class="lineno"> 8073</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34a400f6aeeb5f21442c121cccfda55689c">LT_ANY</a>;</div>
+<div class="line"><span class="lineno"> 8074</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba6832d41458638376fa102ad339beafd2">REALM_ZONE_UNITED_STATES</a>:                      <span class="comment">// extended-Latin</span></div>
+<div class="line"><span class="lineno"> 8075</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba4ac5df4b9eff2cf69d2312d1cf3174db">REALM_ZONE_OCEANIC</a>:</div>
+<div class="line"><span class="lineno"> 8076</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba3b6507bcbebedb32e913002e218ff156">REALM_ZONE_LATIN_AMERICA</a>:</div>
+<div class="line"><span class="lineno"> 8077</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba81e54f655d7352ad0fb5f74b7a7af326">REALM_ZONE_ENGLISH</a>:</div>
+<div class="line"><span class="lineno"> 8078</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7abafea27caf1483a582a7377c67b122334b">REALM_ZONE_GERMAN</a>:</div>
+<div class="line"><span class="lineno"> 8079</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba86bbc26ecd3cbf3bb1d2337033394ed8">REALM_ZONE_FRENCH</a>:</div>
+<div class="line"><span class="lineno"> 8080</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba4a3d3718b458559db2843274259e9caf">REALM_ZONE_SPANISH</a>:</div>
+<div class="line"><span class="lineno"> 8081</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34a42315588f1a9e4d3e29a1b49e7d973b8">LT_EXTENDEN_LATIN</a>;</div>
+<div class="line"><span class="lineno"> 8082</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba4f8f0506d09c5079326b000d5d074611">REALM_ZONE_KOREA</a>:                              <span class="comment">// East-Asian</span></div>
+<div class="line"><span class="lineno"> 8083</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7abafcdb39c5842623895a4019df95d6dad8">REALM_ZONE_TAIWAN</a>:</div>
+<div class="line"><span class="lineno"> 8084</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7abac109484ffee5df2c967a65b4104d22e5">REALM_ZONE_CHINA</a>:</div>
+<div class="line"><span class="lineno"> 8085</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34aa059d83464c94afd9e5a7257238efa40">LT_EAST_ASIA</a>;</div>
+<div class="line"><span class="lineno"> 8086</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7abae5bd48e696a93fdab8960b7a2880dd61">REALM_ZONE_RUSSIAN</a>:                            <span class="comment">// Cyrillic</span></div>
+<div class="line"><span class="lineno"> 8087</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34aef4a14b5eb73e84982c14ba00e70b402">LT_CYRILLIC</a>;</div>
+<div class="line"><span class="lineno"> 8088</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 8089</span>            <span class="keywordflow">return</span> create ? <a class="code hl_enumvalue" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34ab693cfd22bb1894887b280b4d51ea3f5">LT_BASIC_LATIN</a> : <a class="code hl_enumvalue" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34a400f6aeeb5f21442c121cccfda55689c">LT_ANY</a>;        <span class="comment">// basic-Latin at create, any at login</span></div>
+<div class="line"><span class="lineno"> 8090</span>    }</div>
+<div class="line"><span class="lineno"> 8091</span>}</div>
+<div class="ttc" id="a_i_world_8h_html_a17aac4c166ebe43e3b8fdccf9e012e41a9f75f33a95d06bac344dadef85d7674e"><div class="ttname"><a href="../../d2/d80/_i_world_8h.html#a17aac4c166ebe43e3b8fdccf9e012e41a9f75f33a95d06bac344dadef85d7674e">CONFIG_REALM_ZONE</a></div><div class="ttdeci">@ CONFIG_REALM_ZONE</div><div class="ttdef"><b>Definition:</b> IWorld.h:212</div></div>
+<div class="ttc" id="agroup__world_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:458</div></div>
+<div class="ttc" id="agroup__world_html_gga26aa1cb8ae0de12da27fef70a5b9c7aba09e6d6b40910f762c092171266a042cc"><div class="ttname"><a href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba09e6d6b40910f762c092171266a042cc">REALM_ZONE_TEST_SERVER</a></div><div class="ttdeci">@ REALM_ZONE_TEST_SERVER</div><div class="ttdef"><b>Definition:</b> World.h:118</div></div>
+<div class="ttc" id="agroup__world_html_gga26aa1cb8ae0de12da27fef70a5b9c7aba3b6507bcbebedb32e913002e218ff156"><div class="ttname"><a href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba3b6507bcbebedb32e913002e218ff156">REALM_ZONE_LATIN_AMERICA</a></div><div class="ttdeci">@ REALM_ZONE_LATIN_AMERICA</div><div class="ttdef"><b>Definition:</b> World.h:96</div></div>
+<div class="ttc" id="agroup__world_html_gga26aa1cb8ae0de12da27fef70a5b9c7aba4a3d3718b458559db2843274259e9caf"><div class="ttname"><a href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba4a3d3718b458559db2843274259e9caf">REALM_ZONE_SPANISH</a></div><div class="ttdeci">@ REALM_ZONE_SPANISH</div><div class="ttdef"><b>Definition:</b> World.h:103</div></div>
+<div class="ttc" id="agroup__world_html_gga26aa1cb8ae0de12da27fef70a5b9c7aba4ac5df4b9eff2cf69d2312d1cf3174db"><div class="ttname"><a href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba4ac5df4b9eff2cf69d2312d1cf3174db">REALM_ZONE_OCEANIC</a></div><div class="ttdeci">@ REALM_ZONE_OCEANIC</div><div class="ttdef"><b>Definition:</b> World.h:95</div></div>
+<div class="ttc" id="agroup__world_html_gga26aa1cb8ae0de12da27fef70a5b9c7aba4f8f0506d09c5079326b000d5d074611"><div class="ttname"><a href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba4f8f0506d09c5079326b000d5d074611">REALM_ZONE_KOREA</a></div><div class="ttdeci">@ REALM_ZONE_KOREA</div><div class="ttdef"><b>Definition:</b> World.h:98</div></div>
+<div class="ttc" id="agroup__world_html_gga26aa1cb8ae0de12da27fef70a5b9c7aba507b40d8e1860051d9bd9d2fcada3053"><div class="ttname"><a href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba507b40d8e1860051d9bd9d2fcada3053">REALM_ZONE_UNKNOWN</a></div><div class="ttdeci">@ REALM_ZONE_UNKNOWN</div><div class="ttdef"><b>Definition:</b> World.h:92</div></div>
+<div class="ttc" id="agroup__world_html_gga26aa1cb8ae0de12da27fef70a5b9c7aba6832d41458638376fa102ad339beafd2"><div class="ttname"><a href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba6832d41458638376fa102ad339beafd2">REALM_ZONE_UNITED_STATES</a></div><div class="ttdeci">@ REALM_ZONE_UNITED_STATES</div><div class="ttdef"><b>Definition:</b> World.h:94</div></div>
+<div class="ttc" id="agroup__world_html_gga26aa1cb8ae0de12da27fef70a5b9c7aba81e54f655d7352ad0fb5f74b7a7af326"><div class="ttname"><a href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba81e54f655d7352ad0fb5f74b7a7af326">REALM_ZONE_ENGLISH</a></div><div class="ttdeci">@ REALM_ZONE_ENGLISH</div><div class="ttdef"><b>Definition:</b> World.h:100</div></div>
+<div class="ttc" id="agroup__world_html_gga26aa1cb8ae0de12da27fef70a5b9c7aba86bbc26ecd3cbf3bb1d2337033394ed8"><div class="ttname"><a href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba86bbc26ecd3cbf3bb1d2337033394ed8">REALM_ZONE_FRENCH</a></div><div class="ttdeci">@ REALM_ZONE_FRENCH</div><div class="ttdef"><b>Definition:</b> World.h:102</div></div>
+<div class="ttc" id="agroup__world_html_gga26aa1cb8ae0de12da27fef70a5b9c7aba984d95c5dabcb241fc9e4888e6544417"><div class="ttname"><a href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7aba984d95c5dabcb241fc9e4888e6544417">REALM_ZONE_QA_SERVER</a></div><div class="ttdeci">@ REALM_ZONE_QA_SERVER</div><div class="ttdef"><b>Definition:</b> World.h:120</div></div>
+<div class="ttc" id="agroup__world_html_gga26aa1cb8ae0de12da27fef70a5b9c7abac109484ffee5df2c967a65b4104d22e5"><div class="ttname"><a href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7abac109484ffee5df2c967a65b4104d22e5">REALM_ZONE_CHINA</a></div><div class="ttdeci">@ REALM_ZONE_CHINA</div><div class="ttdef"><b>Definition:</b> World.h:108</div></div>
+<div class="ttc" id="agroup__world_html_gga26aa1cb8ae0de12da27fef70a5b9c7abae5bd48e696a93fdab8960b7a2880dd61"><div class="ttname"><a href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7abae5bd48e696a93fdab8960b7a2880dd61">REALM_ZONE_RUSSIAN</a></div><div class="ttdeci">@ REALM_ZONE_RUSSIAN</div><div class="ttdef"><b>Definition:</b> World.h:104</div></div>
+<div class="ttc" id="agroup__world_html_gga26aa1cb8ae0de12da27fef70a5b9c7abae7a19f9c62c04561c69306240938c64e"><div class="ttname"><a href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7abae7a19f9c62c04561c69306240938c64e">REALM_ZONE_DEVELOPMENT</a></div><div class="ttdeci">@ REALM_ZONE_DEVELOPMENT</div><div class="ttdef"><b>Definition:</b> World.h:93</div></div>
+<div class="ttc" id="agroup__world_html_gga26aa1cb8ae0de12da27fef70a5b9c7abafcdb39c5842623895a4019df95d6dad8"><div class="ttname"><a href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7abafcdb39c5842623895a4019df95d6dad8">REALM_ZONE_TAIWAN</a></div><div class="ttdeci">@ REALM_ZONE_TAIWAN</div><div class="ttdef"><b>Definition:</b> World.h:106</div></div>
+<div class="ttc" id="agroup__world_html_gga26aa1cb8ae0de12da27fef70a5b9c7abafea27caf1483a582a7377c67b122334b"><div class="ttname"><a href="../../df/d17/group__world.html#gga26aa1cb8ae0de12da27fef70a5b9c7abafea27caf1483a582a7377c67b122334b">REALM_ZONE_GERMAN</a></div><div class="ttdeci">@ REALM_ZONE_GERMAN</div><div class="ttdef"><b>Definition:</b> World.h:101</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a46371802334fe0589dc4f2b065b590e5" name="a46371802334fe0589dc4f2b065b590e5"></a>
@@ -543,7 +670,130 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  102</span>{</div>
+<div class="line"><span class="lineno">  103</span>    std::string res = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  104</span>    <span class="keywordflow">switch</span> (command)</div>
+<div class="line"><span class="lineno">  105</span>    {</div>
+<div class="line"><span class="lineno">  106</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a557e396d18284cd0b2720c4d116efaf2">SCRIPT_COMMAND_TALK</a>:</div>
+<div class="line"><span class="lineno">  107</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_TALK&quot;</span>;</div>
+<div class="line"><span class="lineno">  108</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  109</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a07934cfc5549d0b0c00336404054a634">SCRIPT_COMMAND_EMOTE</a>:</div>
+<div class="line"><span class="lineno">  110</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_EMOTE&quot;</span>;</div>
+<div class="line"><span class="lineno">  111</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  112</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a7277b5094e7148c6ddc212cde5c203f1">SCRIPT_COMMAND_FIELD_SET</a>:</div>
+<div class="line"><span class="lineno">  113</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_FIELD_SET&quot;</span>;</div>
+<div class="line"><span class="lineno">  114</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  115</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a8fd93000c340721cbb753fdd9815d1a3">SCRIPT_COMMAND_MOVE_TO</a>:</div>
+<div class="line"><span class="lineno">  116</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_MOVE_TO&quot;</span>;</div>
+<div class="line"><span class="lineno">  117</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  118</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a9efe52b8902149190d7ce752c2aa23a3">SCRIPT_COMMAND_FLAG_SET</a>:</div>
+<div class="line"><span class="lineno">  119</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_FLAG_SET&quot;</span>;</div>
+<div class="line"><span class="lineno">  120</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  121</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1ae63cbc716e0c18cfd582a8e999c24ff5">SCRIPT_COMMAND_FLAG_REMOVE</a>:</div>
+<div class="line"><span class="lineno">  122</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_FLAG_REMOVE&quot;</span>;</div>
+<div class="line"><span class="lineno">  123</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  124</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a8715e5628e28cb805c7696e57010f04c">SCRIPT_COMMAND_TELEPORT_TO</a>:</div>
+<div class="line"><span class="lineno">  125</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_TELEPORT_TO&quot;</span>;</div>
+<div class="line"><span class="lineno">  126</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  127</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a496300fa10e038ca4636e65bb21efa25">SCRIPT_COMMAND_QUEST_EXPLORED</a>:</div>
+<div class="line"><span class="lineno">  128</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_QUEST_EXPLORED&quot;</span>;</div>
+<div class="line"><span class="lineno">  129</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  130</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1aa1d41cb6a839eaada47dd419c21b1a00">SCRIPT_COMMAND_KILL_CREDIT</a>:</div>
+<div class="line"><span class="lineno">  131</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_KILL_CREDIT&quot;</span>;</div>
+<div class="line"><span class="lineno">  132</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  133</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a44e424b7ba51ff13c1646c9e78cc7f22">SCRIPT_COMMAND_RESPAWN_GAMEOBJECT</a>:</div>
+<div class="line"><span class="lineno">  134</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_RESPAWN_GAMEOBJECT&quot;</span>;</div>
+<div class="line"><span class="lineno">  135</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  136</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a9ffc1e49ed4cb980ad553802a707883b">SCRIPT_COMMAND_TEMP_SUMMON_CREATURE</a>:</div>
+<div class="line"><span class="lineno">  137</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_TEMP_SUMMON_CREATURE&quot;</span>;</div>
+<div class="line"><span class="lineno">  138</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  139</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a5fdf5556403c282bc3cd94dc56fbace0">SCRIPT_COMMAND_OPEN_DOOR</a>:</div>
+<div class="line"><span class="lineno">  140</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_OPEN_DOOR&quot;</span>;</div>
+<div class="line"><span class="lineno">  141</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  142</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a325d5cee7289c38e3dab82bcaef7744b">SCRIPT_COMMAND_CLOSE_DOOR</a>:</div>
+<div class="line"><span class="lineno">  143</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_CLOSE_DOOR&quot;</span>;</div>
+<div class="line"><span class="lineno">  144</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  145</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a50aa732afb5613a93b21f9d4384bbf48">SCRIPT_COMMAND_ACTIVATE_OBJECT</a>:</div>
+<div class="line"><span class="lineno">  146</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_ACTIVATE_OBJECT&quot;</span>;</div>
+<div class="line"><span class="lineno">  147</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  148</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1ac79f317cb60b763b07a031407cb58e3b">SCRIPT_COMMAND_REMOVE_AURA</a>:</div>
+<div class="line"><span class="lineno">  149</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_REMOVE_AURA&quot;</span>;</div>
+<div class="line"><span class="lineno">  150</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  151</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a361af1be830a773001e83e20df570cf6">SCRIPT_COMMAND_CAST_SPELL</a>:</div>
+<div class="line"><span class="lineno">  152</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_CAST_SPELL&quot;</span>;</div>
+<div class="line"><span class="lineno">  153</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  154</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1ab91cf8605c2ff15416499a62599f929c">SCRIPT_COMMAND_PLAY_SOUND</a>:</div>
+<div class="line"><span class="lineno">  155</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_PLAY_SOUND&quot;</span>;</div>
+<div class="line"><span class="lineno">  156</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a0c3067ad6a4ce61b97189771f8e4cb19">SCRIPT_COMMAND_CREATE_ITEM</a>:</div>
+<div class="line"><span class="lineno">  158</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_CREATE_ITEM&quot;</span>;</div>
+<div class="line"><span class="lineno">  159</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  160</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a2feb542dd9468174570162fe2d99eb78">SCRIPT_COMMAND_DESPAWN_SELF</a>:</div>
+<div class="line"><span class="lineno">  161</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_DESPAWN_SELF&quot;</span>;</div>
+<div class="line"><span class="lineno">  162</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  163</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1aa3f07d4a701c45a3eb3b0618dbbf4988">SCRIPT_COMMAND_LOAD_PATH</a>:</div>
+<div class="line"><span class="lineno">  164</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_LOAD_PATH&quot;</span>;</div>
+<div class="line"><span class="lineno">  165</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  166</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a7a0d2762bd6ba8af165f08d824b7585b">SCRIPT_COMMAND_CALLSCRIPT_TO_UNIT</a>:</div>
+<div class="line"><span class="lineno">  167</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_CALLSCRIPT_TO_UNIT&quot;</span>;</div>
+<div class="line"><span class="lineno">  168</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  169</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1aa3e0fa2c9f2463d4860dfe12f3c50baf">SCRIPT_COMMAND_KILL</a>:</div>
+<div class="line"><span class="lineno">  170</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_KILL&quot;</span>;</div>
+<div class="line"><span class="lineno">  171</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  172</span>        <span class="comment">// AzerothCore only</span></div>
+<div class="line"><span class="lineno">  173</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1ab671fec2ae711f8a71847b9ff223f753">SCRIPT_COMMAND_ORIENTATION</a>:</div>
+<div class="line"><span class="lineno">  174</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_ORIENTATION&quot;</span>;</div>
+<div class="line"><span class="lineno">  175</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  176</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a6a64985f5a189ba7252a447565661e5f">SCRIPT_COMMAND_EQUIP</a>:</div>
+<div class="line"><span class="lineno">  177</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_EQUIP&quot;</span>;</div>
+<div class="line"><span class="lineno">  178</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  179</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1abf6b0143074365cfcfe390d4ee04e65d">SCRIPT_COMMAND_MODEL</a>:</div>
+<div class="line"><span class="lineno">  180</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_MODEL&quot;</span>;</div>
+<div class="line"><span class="lineno">  181</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  182</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1ac60e397bde6e50bbf131a9a643aa4cf6">SCRIPT_COMMAND_CLOSE_GOSSIP</a>:</div>
+<div class="line"><span class="lineno">  183</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_CLOSE_GOSSIP&quot;</span>;</div>
+<div class="line"><span class="lineno">  184</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  185</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a7714b19c1781b6cadddb0d569ccdb9a9">SCRIPT_COMMAND_PLAYMOVIE</a>:</div>
+<div class="line"><span class="lineno">  186</span>            res = <span class="stringliteral">&quot;SCRIPT_COMMAND_PLAYMOVIE&quot;</span>;</div>
+<div class="line"><span class="lineno">  187</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  188</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  189</span>            {</div>
+<div class="line"><span class="lineno">  190</span>                <span class="keywordtype">char</span> sz[32];</div>
+<div class="line"><span class="lineno">  191</span>                sprintf(sz, <span class="stringliteral">&quot;Unknown command: %d&quot;</span>, command);</div>
+<div class="line"><span class="lineno">  192</span>                res = sz;</div>
+<div class="line"><span class="lineno">  193</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  194</span>            }</div>
+<div class="line"><span class="lineno">  195</span>    }</div>
+<div class="line"><span class="lineno">  196</span>    <span class="keywordflow">return</span> res;</div>
+<div class="line"><span class="lineno">  197</span>}</div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a07934cfc5549d0b0c00336404054a634"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a07934cfc5549d0b0c00336404054a634">SCRIPT_COMMAND_EMOTE</a></div><div class="ttdeci">@ SCRIPT_COMMAND_EMOTE</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:96</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a0c3067ad6a4ce61b97189771f8e4cb19"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a0c3067ad6a4ce61b97189771f8e4cb19">SCRIPT_COMMAND_CREATE_ITEM</a></div><div class="ttdeci">@ SCRIPT_COMMAND_CREATE_ITEM</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:112</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a2feb542dd9468174570162fe2d99eb78"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a2feb542dd9468174570162fe2d99eb78">SCRIPT_COMMAND_DESPAWN_SELF</a></div><div class="ttdeci">@ SCRIPT_COMMAND_DESPAWN_SELF</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:113</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a325d5cee7289c38e3dab82bcaef7744b"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a325d5cee7289c38e3dab82bcaef7744b">SCRIPT_COMMAND_CLOSE_DOOR</a></div><div class="ttdeci">@ SCRIPT_COMMAND_CLOSE_DOOR</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:107</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a361af1be830a773001e83e20df570cf6"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a361af1be830a773001e83e20df570cf6">SCRIPT_COMMAND_CAST_SPELL</a></div><div class="ttdeci">@ SCRIPT_COMMAND_CAST_SPELL</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:110</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a44e424b7ba51ff13c1646c9e78cc7f22"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a44e424b7ba51ff13c1646c9e78cc7f22">SCRIPT_COMMAND_RESPAWN_GAMEOBJECT</a></div><div class="ttdeci">@ SCRIPT_COMMAND_RESPAWN_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:104</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a496300fa10e038ca4636e65bb21efa25"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a496300fa10e038ca4636e65bb21efa25">SCRIPT_COMMAND_QUEST_EXPLORED</a></div><div class="ttdeci">@ SCRIPT_COMMAND_QUEST_EXPLORED</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:102</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a50aa732afb5613a93b21f9d4384bbf48"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a50aa732afb5613a93b21f9d4384bbf48">SCRIPT_COMMAND_ACTIVATE_OBJECT</a></div><div class="ttdeci">@ SCRIPT_COMMAND_ACTIVATE_OBJECT</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:108</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a557e396d18284cd0b2720c4d116efaf2"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a557e396d18284cd0b2720c4d116efaf2">SCRIPT_COMMAND_TALK</a></div><div class="ttdeci">@ SCRIPT_COMMAND_TALK</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:95</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a5fdf5556403c282bc3cd94dc56fbace0"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a5fdf5556403c282bc3cd94dc56fbace0">SCRIPT_COMMAND_OPEN_DOOR</a></div><div class="ttdeci">@ SCRIPT_COMMAND_OPEN_DOOR</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:106</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a6a64985f5a189ba7252a447565661e5f"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a6a64985f5a189ba7252a447565661e5f">SCRIPT_COMMAND_EQUIP</a></div><div class="ttdeci">@ SCRIPT_COMMAND_EQUIP</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:121</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a7277b5094e7148c6ddc212cde5c203f1"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a7277b5094e7148c6ddc212cde5c203f1">SCRIPT_COMMAND_FIELD_SET</a></div><div class="ttdeci">@ SCRIPT_COMMAND_FIELD_SET</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:97</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a7714b19c1781b6cadddb0d569ccdb9a9"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a7714b19c1781b6cadddb0d569ccdb9a9">SCRIPT_COMMAND_PLAYMOVIE</a></div><div class="ttdeci">@ SCRIPT_COMMAND_PLAYMOVIE</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:124</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a7a0d2762bd6ba8af165f08d824b7585b"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a7a0d2762bd6ba8af165f08d824b7585b">SCRIPT_COMMAND_CALLSCRIPT_TO_UNIT</a></div><div class="ttdeci">@ SCRIPT_COMMAND_CALLSCRIPT_TO_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:116</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a8715e5628e28cb805c7696e57010f04c"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a8715e5628e28cb805c7696e57010f04c">SCRIPT_COMMAND_TELEPORT_TO</a></div><div class="ttdeci">@ SCRIPT_COMMAND_TELEPORT_TO</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:101</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a8fd93000c340721cbb753fdd9815d1a3"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a8fd93000c340721cbb753fdd9815d1a3">SCRIPT_COMMAND_MOVE_TO</a></div><div class="ttdeci">@ SCRIPT_COMMAND_MOVE_TO</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:98</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a9efe52b8902149190d7ce752c2aa23a3"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a9efe52b8902149190d7ce752c2aa23a3">SCRIPT_COMMAND_FLAG_SET</a></div><div class="ttdeci">@ SCRIPT_COMMAND_FLAG_SET</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:99</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1a9ffc1e49ed4cb980ad553802a707883b"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1a9ffc1e49ed4cb980ad553802a707883b">SCRIPT_COMMAND_TEMP_SUMMON_CREATURE</a></div><div class="ttdeci">@ SCRIPT_COMMAND_TEMP_SUMMON_CREATURE</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:105</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1aa1d41cb6a839eaada47dd419c21b1a00"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1aa1d41cb6a839eaada47dd419c21b1a00">SCRIPT_COMMAND_KILL_CREDIT</a></div><div class="ttdeci">@ SCRIPT_COMMAND_KILL_CREDIT</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:103</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1aa3e0fa2c9f2463d4860dfe12f3c50baf"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1aa3e0fa2c9f2463d4860dfe12f3c50baf">SCRIPT_COMMAND_KILL</a></div><div class="ttdeci">@ SCRIPT_COMMAND_KILL</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:117</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1aa3f07d4a701c45a3eb3b0618dbbf4988"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1aa3f07d4a701c45a3eb3b0618dbbf4988">SCRIPT_COMMAND_LOAD_PATH</a></div><div class="ttdeci">@ SCRIPT_COMMAND_LOAD_PATH</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:115</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1ab671fec2ae711f8a71847b9ff223f753"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1ab671fec2ae711f8a71847b9ff223f753">SCRIPT_COMMAND_ORIENTATION</a></div><div class="ttdeci">@ SCRIPT_COMMAND_ORIENTATION</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:120</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1ab91cf8605c2ff15416499a62599f929c"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1ab91cf8605c2ff15416499a62599f929c">SCRIPT_COMMAND_PLAY_SOUND</a></div><div class="ttdeci">@ SCRIPT_COMMAND_PLAY_SOUND</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:111</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1abf6b0143074365cfcfe390d4ee04e65d"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1abf6b0143074365cfcfe390d4ee04e65d">SCRIPT_COMMAND_MODEL</a></div><div class="ttdeci">@ SCRIPT_COMMAND_MODEL</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:122</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1ac60e397bde6e50bbf131a9a643aa4cf6"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1ac60e397bde6e50bbf131a9a643aa4cf6">SCRIPT_COMMAND_CLOSE_GOSSIP</a></div><div class="ttdeci">@ SCRIPT_COMMAND_CLOSE_GOSSIP</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:123</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1ac79f317cb60b763b07a031407cb58e3b"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1ac79f317cb60b763b07a031407cb58e3b">SCRIPT_COMMAND_REMOVE_AURA</a></div><div class="ttdeci">@ SCRIPT_COMMAND_REMOVE_AURA</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:109</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a3b5dc6beed23a198fcf9b4b0c2da57e1ae63cbc716e0c18cfd582a8e999c24ff5"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a3b5dc6beed23a198fcf9b4b0c2da57e1ae63cbc716e0c18cfd582a8e999c24ff5">SCRIPT_COMMAND_FLAG_REMOVE</a></div><div class="ttdeci">@ SCRIPT_COMMAND_FLAG_REMOVE</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:100</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a34339a53afbec181844cc9d936d1d9a2" name="a34339a53afbec181844cc9d936d1d9a2"></a>
@@ -561,7 +811,32 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   82</span>{</div>
+<div class="line"><span class="lineno">   83</span>    <a class="code hl_typedef" href="../../d9/d77/_object_mgr_8h.html#aa132ba0e71cb8e912545ffd9a6ee5b16">ScriptMapMap</a>* res = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   84</span>    <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><span class="lineno">   85</span>    {</div>
+<div class="line"><span class="lineno">   86</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#ae0061fb890317fec4256af76d67272bda604b727cddbbea4da351ba9b20333c13">SCRIPTS_SPELL</a>:</div>
+<div class="line"><span class="lineno">   87</span>            res = &amp;<a class="code hl_variable" href="../../df/d62/_object_mgr_8cpp.html#a3c2a9c06ca944c1ce8c2f02692bda619">sSpellScripts</a>;</div>
+<div class="line"><span class="lineno">   88</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   89</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#ae0061fb890317fec4256af76d67272bda1962508e9a154073ebdd62dec764dcb5">SCRIPTS_EVENT</a>:</div>
+<div class="line"><span class="lineno">   90</span>            res = &amp;<a class="code hl_variable" href="../../df/d62/_object_mgr_8cpp.html#a99fc90e0f89dbe2684b6563324d8c23b">sEventScripts</a>;</div>
+<div class="line"><span class="lineno">   91</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   92</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#ae0061fb890317fec4256af76d67272bda00844b0c2b1d7ad346a98bb2e1c4d980">SCRIPTS_WAYPOINT</a>:</div>
+<div class="line"><span class="lineno">   93</span>            res = &amp;<a class="code hl_variable" href="../../df/d62/_object_mgr_8cpp.html#ad3bd41d0f54f2baa59f94e7fb1b426d1">sWaypointScripts</a>;</div>
+<div class="line"><span class="lineno">   94</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   95</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">   96</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   97</span>    }</div>
+<div class="line"><span class="lineno">   98</span>    <span class="keywordflow">return</span> res;</div>
+<div class="line"><span class="lineno">   99</span>}</div>
+<div class="ttc" id="a_object_mgr_8cpp_html_a3c2a9c06ca944c1ce8c2f02692bda619"><div class="ttname"><a href="../../df/d62/_object_mgr_8cpp.html#a3c2a9c06ca944c1ce8c2f02692bda619">sSpellScripts</a></div><div class="ttdeci">ScriptMapMap sSpellScripts</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:57</div></div>
+<div class="ttc" id="a_object_mgr_8cpp_html_a99fc90e0f89dbe2684b6563324d8c23b"><div class="ttname"><a href="../../df/d62/_object_mgr_8cpp.html#a99fc90e0f89dbe2684b6563324d8c23b">sEventScripts</a></div><div class="ttdeci">ScriptMapMap sEventScripts</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:58</div></div>
+<div class="ttc" id="a_object_mgr_8cpp_html_ad3bd41d0f54f2baa59f94e7fb1b426d1"><div class="ttname"><a href="../../df/d62/_object_mgr_8cpp.html#ad3bd41d0f54f2baa59f94e7fb1b426d1">sWaypointScripts</a></div><div class="ttdeci">ScriptMapMap sWaypointScripts</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:59</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_aa132ba0e71cb8e912545ffd9a6ee5b16"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#aa132ba0e71cb8e912545ffd9a6ee5b16">ScriptMapMap</a></div><div class="ttdeci">std::map&lt; uint32, ScriptMap &gt; ScriptMapMap</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:387</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_ae0061fb890317fec4256af76d67272bda00844b0c2b1d7ad346a98bb2e1c4d980"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#ae0061fb890317fec4256af76d67272bda00844b0c2b1d7ad346a98bb2e1c4d980">SCRIPTS_WAYPOINT</a></div><div class="ttdeci">@ SCRIPTS_WAYPOINT</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:153</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_ae0061fb890317fec4256af76d67272bda1962508e9a154073ebdd62dec764dcb5"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#ae0061fb890317fec4256af76d67272bda1962508e9a154073ebdd62dec764dcb5">SCRIPTS_EVENT</a></div><div class="ttdeci">@ SCRIPTS_EVENT</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:152</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_ae0061fb890317fec4256af76d67272bda604b727cddbbea4da351ba9b20333c13"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#ae0061fb890317fec4256af76d67272bda604b727cddbbea4da351ba9b20333c13">SCRIPTS_SPELL</a></div><div class="ttdeci">@ SCRIPTS_SPELL</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:151</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acc60b4b0ead06280f2b3289f8da57cb9" name="acc60b4b0ead06280f2b3289f8da57cb9"></a>
@@ -579,7 +854,25 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   62</span>{</div>
+<div class="line"><span class="lineno">   63</span>    std::string res = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">   64</span>    <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><span class="lineno">   65</span>    {</div>
+<div class="line"><span class="lineno">   66</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#ae0061fb890317fec4256af76d67272bda604b727cddbbea4da351ba9b20333c13">SCRIPTS_SPELL</a>:</div>
+<div class="line"><span class="lineno">   67</span>            res = <span class="stringliteral">&quot;spell_scripts&quot;</span>;</div>
+<div class="line"><span class="lineno">   68</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   69</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#ae0061fb890317fec4256af76d67272bda1962508e9a154073ebdd62dec764dcb5">SCRIPTS_EVENT</a>:</div>
+<div class="line"><span class="lineno">   70</span>            res = <span class="stringliteral">&quot;event_scripts&quot;</span>;</div>
+<div class="line"><span class="lineno">   71</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   72</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#ae0061fb890317fec4256af76d67272bda00844b0c2b1d7ad346a98bb2e1c4d980">SCRIPTS_WAYPOINT</a>:</div>
+<div class="line"><span class="lineno">   73</span>            res = <span class="stringliteral">&quot;waypoint_scripts&quot;</span>;</div>
+<div class="line"><span class="lineno">   74</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   75</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">   76</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   77</span>    }</div>
+<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">return</span> res;</div>
+<div class="line"><span class="lineno">   79</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2e3e576d2e15a5033a24dec106b42453" name="a2e3e576d2e15a5033a24dec106b42453"></a>
@@ -597,7 +890,46 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 8439</span>{</div>
+<div class="line"><span class="lineno"> 8440</span>    <a class="code hl_struct" href="../../df/da3/struct_skill_line_entry.html">SkillLineEntry</a> <span class="keyword">const</span>* skill = <a class="code hl_variable" href="../../dd/d17/_d_b_c_stores_8cpp.html#ab4bb35cde6511a56d8b9d23f4290f8e7">sSkillLineStore</a>.LookupEntry(rcEntry-&gt;SkillID);</div>
+<div class="line"><span class="lineno"> 8441</span>    <span class="keywordflow">if</span> (!skill)</div>
+<div class="line"><span class="lineno"> 8442</span>    {</div>
+<div class="line"><span class="lineno"> 8443</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#affa6a379d099508f3a01ff6af8eed1c1a45a5df47172b7b6a42469001aaf5a980">SKILL_RANGE_NONE</a>;</div>
+<div class="line"><span class="lineno"> 8444</span>    }</div>
+<div class="line"><span class="lineno"> 8445</span> </div>
+<div class="line"><span class="lineno"> 8446</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/d17/_d_b_c_stores_8cpp.html#a48f208d73a9f906cf5f8f92d8d885fa9">sSkillTiersStore</a>.LookupEntry(rcEntry-&gt;SkillTierID))</div>
+<div class="line"><span class="lineno"> 8447</span>    {</div>
+<div class="line"><span class="lineno"> 8448</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#affa6a379d099508f3a01ff6af8eed1c1a74c910b835e0492fb79550380d3f163b">SKILL_RANGE_RANK</a>;</div>
+<div class="line"><span class="lineno"> 8449</span>    }</div>
+<div class="line"><span class="lineno"> 8450</span> </div>
+<div class="line"><span class="lineno"> 8451</span>    <span class="keywordflow">if</span> (rcEntry-&gt;SkillID == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#af4541d30ebbff76b1f9f689519789234ab05776d4e4650677906614d28589caf1">SKILL_RUNEFORGING</a>)</div>
+<div class="line"><span class="lineno"> 8452</span>    {</div>
+<div class="line"><span class="lineno"> 8453</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#affa6a379d099508f3a01ff6af8eed1c1a0e2fa46595e86120500ebed3364c4517">SKILL_RANGE_MONO</a>;</div>
+<div class="line"><span class="lineno"> 8454</span>    }</div>
+<div class="line"><span class="lineno"> 8455</span> </div>
+<div class="line"><span class="lineno"> 8456</span>    <span class="keywordflow">switch</span> (skill-&gt;<a class="code hl_variable" href="../../df/da3/struct_skill_line_entry.html#abf285e69e8e2a90626a157cb0c50d158">categoryId</a>)</div>
+<div class="line"><span class="lineno"> 8457</span>    {</div>
+<div class="line"><span class="lineno"> 8458</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a347be03c72c20860f46f78c9bed72ad4a3cb6651c3e5e2219229f886cd86dd411">SKILL_CATEGORY_ARMOR</a>:</div>
+<div class="line"><span class="lineno"> 8459</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#affa6a379d099508f3a01ff6af8eed1c1a0e2fa46595e86120500ebed3364c4517">SKILL_RANGE_MONO</a>;</div>
+<div class="line"><span class="lineno"> 8460</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a347be03c72c20860f46f78c9bed72ad4a79e1863d69891d47892f384391f85359">SKILL_CATEGORY_LANGUAGES</a>:</div>
+<div class="line"><span class="lineno"> 8461</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#affa6a379d099508f3a01ff6af8eed1c1a5bdaad82dcbdf2065149c45bc78d8169">SKILL_RANGE_LANGUAGE</a>;</div>
+<div class="line"><span class="lineno"> 8462</span>    }</div>
+<div class="line"><span class="lineno"> 8463</span> </div>
+<div class="line"><span class="lineno"> 8464</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d77/_object_mgr_8h.html#affa6a379d099508f3a01ff6af8eed1c1ab034e8b421a29b919345eb6f46f498fd">SKILL_RANGE_LEVEL</a>;</div>
+<div class="line"><span class="lineno"> 8465</span>}</div>
+<div class="ttc" id="a_d_b_c_stores_8cpp_html_a48f208d73a9f906cf5f8f92d8d885fa9"><div class="ttname"><a href="../../dd/d17/_d_b_c_stores_8cpp.html#a48f208d73a9f906cf5f8f92d8d885fa9">sSkillTiersStore</a></div><div class="ttdeci">DBCStorage&lt; SkillTiersEntry &gt; sSkillTiersStore(SkillTiersfmt)</div></div>
+<div class="ttc" id="a_d_b_c_stores_8cpp_html_ab4bb35cde6511a56d8b9d23f4290f8e7"><div class="ttname"><a href="../../dd/d17/_d_b_c_stores_8cpp.html#ab4bb35cde6511a56d8b9d23f4290f8e7">sSkillLineStore</a></div><div class="ttdeci">DBCStorage&lt; SkillLineEntry &gt; sSkillLineStore(SkillLinefmt)</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_affa6a379d099508f3a01ff6af8eed1c1a0e2fa46595e86120500ebed3364c4517"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#affa6a379d099508f3a01ff6af8eed1c1a0e2fa46595e86120500ebed3364c4517">SKILL_RANGE_MONO</a></div><div class="ttdeci">@ SKILL_RANGE_MONO</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:679</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_affa6a379d099508f3a01ff6af8eed1c1a45a5df47172b7b6a42469001aaf5a980"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#affa6a379d099508f3a01ff6af8eed1c1a45a5df47172b7b6a42469001aaf5a980">SKILL_RANGE_NONE</a></div><div class="ttdeci">@ SKILL_RANGE_NONE</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:681</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_affa6a379d099508f3a01ff6af8eed1c1a5bdaad82dcbdf2065149c45bc78d8169"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#affa6a379d099508f3a01ff6af8eed1c1a5bdaad82dcbdf2065149c45bc78d8169">SKILL_RANGE_LANGUAGE</a></div><div class="ttdeci">@ SKILL_RANGE_LANGUAGE</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:677</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_affa6a379d099508f3a01ff6af8eed1c1a74c910b835e0492fb79550380d3f163b"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#affa6a379d099508f3a01ff6af8eed1c1a74c910b835e0492fb79550380d3f163b">SKILL_RANGE_RANK</a></div><div class="ttdeci">@ SKILL_RANGE_RANK</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:680</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_affa6a379d099508f3a01ff6af8eed1c1ab034e8b421a29b919345eb6f46f498fd"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#affa6a379d099508f3a01ff6af8eed1c1ab034e8b421a29b919345eb6f46f498fd">SKILL_RANGE_LEVEL</a></div><div class="ttdeci">@ SKILL_RANGE_LEVEL</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:678</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a347be03c72c20860f46f78c9bed72ad4a3cb6651c3e5e2219229f886cd86dd411"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a347be03c72c20860f46f78c9bed72ad4a3cb6651c3e5e2219229f886cd86dd411">SKILL_CATEGORY_ARMOR</a></div><div class="ttdeci">@ SKILL_CATEGORY_ARMOR</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3047</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a347be03c72c20860f46f78c9bed72ad4a79e1863d69891d47892f384391f85359"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a347be03c72c20860f46f78c9bed72ad4a79e1863d69891d47892f384391f85359">SKILL_CATEGORY_LANGUAGES</a></div><div class="ttdeci">@ SKILL_CATEGORY_LANGUAGES</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3049</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_af4541d30ebbff76b1f9f689519789234ab05776d4e4650677906614d28589caf1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#af4541d30ebbff76b1f9f689519789234ab05776d4e4650677906614d28589caf1">SKILL_RUNEFORGING</a></div><div class="ttdeci">@ SKILL_RUNEFORGING</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:2976</div></div>
+<div class="ttc" id="astruct_skill_line_entry_html"><div class="ttname"><a href="../../df/da3/struct_skill_line_entry.html">SkillLineEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1542</div></div>
+<div class="ttc" id="astruct_skill_line_entry_html_abf285e69e8e2a90626a157cb0c50d158"><div class="ttname"><a href="../../df/da3/struct_skill_line_entry.html#abf285e69e8e2a90626a157cb0c50d158">SkillLineEntry::categoryId</a></div><div class="ttdeci">int32 categoryId</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1544</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4f5a667f6078863c869b5c92387532fa" name="a4f5a667f6078863c869b5c92387532fa"></a>
@@ -637,7 +969,47 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 8094</span>{</div>
+<div class="line"><span class="lineno"> 8095</span>    <span class="keywordflow">if</span> (strictMask == 0)                                       <span class="comment">// any language, ignore realm</span></div>
+<div class="line"><span class="lineno"> 8096</span>    {</div>
+<div class="line"><span class="lineno"> 8097</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d90/_util_8h.html#ac8c6579d9a48433260196b0d175b5753">isExtendedLatinString</a>(wstr, numericOrSpace))</div>
+<div class="line"><span class="lineno"> 8098</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 8099</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d90/_util_8h.html#a1e1dc42a29190b67dacf6d732fd3b858">isCyrillicString</a>(wstr, numericOrSpace))</div>
+<div class="line"><span class="lineno"> 8100</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 8101</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d90/_util_8h.html#a9d36a3ef3837ebd69d58afb115a3d476">isEastAsianString</a>(wstr, numericOrSpace))</div>
+<div class="line"><span class="lineno"> 8102</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 8103</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 8104</span>    }</div>
+<div class="line"><span class="lineno"> 8105</span> </div>
+<div class="line"><span class="lineno"> 8106</span>    <span class="keywordflow">if</span> (strictMask &amp; 0x2)                                    <span class="comment">// realm zone specific</span></div>
+<div class="line"><span class="lineno"> 8107</span>    {</div>
+<div class="line"><span class="lineno"> 8108</span>        <a class="code hl_enumeration" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34">LanguageType</a> lt = <a class="code hl_function" href="../../df/d62/_object_mgr_8cpp.html#a1d95dafadc9b3a7d7bc91fa7f188d464">GetRealmLanguageType</a>(create);</div>
+<div class="line"><span class="lineno"> 8109</span>        <span class="keywordflow">if</span> (lt &amp; <a class="code hl_enumvalue" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34a42315588f1a9e4d3e29a1b49e7d973b8">LT_EXTENDEN_LATIN</a>)</div>
+<div class="line"><span class="lineno"> 8110</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d90/_util_8h.html#ac8c6579d9a48433260196b0d175b5753">isExtendedLatinString</a>(wstr, numericOrSpace))</div>
+<div class="line"><span class="lineno"> 8111</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 8112</span>        <span class="keywordflow">if</span> (lt &amp; <a class="code hl_enumvalue" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34aef4a14b5eb73e84982c14ba00e70b402">LT_CYRILLIC</a>)</div>
+<div class="line"><span class="lineno"> 8113</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d90/_util_8h.html#a1e1dc42a29190b67dacf6d732fd3b858">isCyrillicString</a>(wstr, numericOrSpace))</div>
+<div class="line"><span class="lineno"> 8114</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 8115</span>        <span class="keywordflow">if</span> (lt &amp; <a class="code hl_enumvalue" href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34aa059d83464c94afd9e5a7257238efa40">LT_EAST_ASIA</a>)</div>
+<div class="line"><span class="lineno"> 8116</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d90/_util_8h.html#a9d36a3ef3837ebd69d58afb115a3d476">isEastAsianString</a>(wstr, numericOrSpace))</div>
+<div class="line"><span class="lineno"> 8117</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 8118</span>    }</div>
+<div class="line"><span class="lineno"> 8119</span> </div>
+<div class="line"><span class="lineno"> 8120</span>    <span class="keywordflow">if</span> (strictMask &amp; 0x1)                                    <span class="comment">// basic Latin</span></div>
+<div class="line"><span class="lineno"> 8121</span>    {</div>
+<div class="line"><span class="lineno"> 8122</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d90/_util_8h.html#a78011ad560b15ee8f60de80494709c10">isBasicLatinString</a>(wstr, numericOrSpace))</div>
+<div class="line"><span class="lineno"> 8123</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 8124</span>    }</div>
+<div class="line"><span class="lineno"> 8125</span> </div>
+<div class="line"><span class="lineno"> 8126</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 8127</span>}</div>
+<div class="ttc" id="a_object_mgr_8cpp_html_a1d95dafadc9b3a7d7bc91fa7f188d464"><div class="ttname"><a href="../../df/d62/_object_mgr_8cpp.html#a1d95dafadc9b3a7d7bc91fa7f188d464">GetRealmLanguageType</a></div><div class="ttdeci">static LanguageType GetRealmLanguageType(bool create)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:8065</div></div>
+<div class="ttc" id="a_object_mgr_8cpp_html_ada735c6d6b04a8714b2751f0c4053e34"><div class="ttname"><a href="../../df/d62/_object_mgr_8cpp.html#ada735c6d6b04a8714b2751f0c4053e34">LanguageType</a></div><div class="ttdeci">LanguageType</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:8057</div></div>
+<div class="ttc" id="a_util_8h_html_a1e1dc42a29190b67dacf6d732fd3b858"><div class="ttname"><a href="../../dd/d90/_util_8h.html#a1e1dc42a29190b67dacf6d732fd3b858">isCyrillicString</a></div><div class="ttdeci">bool isCyrillicString(std::wstring_view wstr, bool numericOrSpace)</div><div class="ttdef"><b>Definition:</b> Util.h:250</div></div>
+<div class="ttc" id="a_util_8h_html_a78011ad560b15ee8f60de80494709c10"><div class="ttname"><a href="../../dd/d90/_util_8h.html#a78011ad560b15ee8f60de80494709c10">isBasicLatinString</a></div><div class="ttdeci">bool isBasicLatinString(std::wstring_view wstr, bool numericOrSpace)</div><div class="ttdef"><b>Definition:</b> Util.h:230</div></div>
+<div class="ttc" id="a_util_8h_html_a9d36a3ef3837ebd69d58afb115a3d476"><div class="ttname"><a href="../../dd/d90/_util_8h.html#a9d36a3ef3837ebd69d58afb115a3d476">isEastAsianString</a></div><div class="ttdeci">bool isEastAsianString(std::wstring_view wstr, bool numericOrSpace)</div><div class="ttdef"><b>Definition:</b> Util.h:260</div></div>
+<div class="ttc" id="a_util_8h_html_ac8c6579d9a48433260196b0d175b5753"><div class="ttname"><a href="../../dd/d90/_util_8h.html#ac8c6579d9a48433260196b0d175b5753">isExtendedLatinString</a></div><div class="ttdeci">bool isExtendedLatinString(std::wstring_view wstr, bool numericOrSpace)</div><div class="ttdef"><b>Definition:</b> Util.h:240</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af55111c173fd16ba2898f3046dfa3d9a" name="af55111c173fd16ba2898f3046dfa3d9a"></a>
@@ -655,7 +1027,31 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  207</span>{</div>
+<div class="line"><span class="lineno">  208</span>    <span class="keywordflow">if</span> (name.empty())</div>
+<div class="line"><span class="lineno">  209</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  210</span> </div>
+<div class="line"><span class="lineno">  211</span>    <span class="keywordflow">if</span> (name.find(<span class="stringliteral">&quot; &quot;</span>) != std::string::npos)</div>
+<div class="line"><span class="lineno">  212</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  213</span> </div>
+<div class="line"><span class="lineno">  214</span>    std::wstring tmp;</div>
+<div class="line"><span class="lineno">  215</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../db/d35/_util_8cpp.html#adaef8bf262f1d546b903005e5a06e565">Utf8toWStr</a>(name, tmp))</div>
+<div class="line"><span class="lineno">  216</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  217</span> </div>
+<div class="line"><span class="lineno">  218</span>    <a class="code hl_function" href="../../db/d35/_util_8cpp.html#a58af07e1af657c56b4a20b6c7ef83615">wstrToLower</a>(tmp);</div>
+<div class="line"><span class="lineno">  219</span>    <span class="keywordflow">if</span> (!tmp.empty())</div>
+<div class="line"><span class="lineno">  220</span>        tmp[0] = <a class="code hl_function" href="../../dd/d90/_util_8h.html#a80a7f6cc28920544273725ac0fb1c734">wcharToUpper</a>(tmp[0]);</div>
+<div class="line"><span class="lineno">  221</span> </div>
+<div class="line"><span class="lineno">  222</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../db/d35/_util_8cpp.html#a4f9e5dc9c32cf5db4c4614452d873110">WStrToUtf8</a>(tmp, name))</div>
+<div class="line"><span class="lineno">  223</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  224</span> </div>
+<div class="line"><span class="lineno">  225</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  226</span>}</div>
+<div class="ttc" id="a_util_8cpp_html_a4f9e5dc9c32cf5db4c4614452d873110"><div class="ttname"><a href="../../db/d35/_util_8cpp.html#a4f9e5dc9c32cf5db4c4614452d873110">WStrToUtf8</a></div><div class="ttdeci">bool WStrToUtf8(wchar_t const *wstr, size_t size, std::string &amp;utf8str)</div><div class="ttdef"><b>Definition:</b> Util.cpp:334</div></div>
+<div class="ttc" id="a_util_8cpp_html_a58af07e1af657c56b4a20b6c7ef83615"><div class="ttname"><a href="../../db/d35/_util_8cpp.html#a58af07e1af657c56b4a20b6c7ef83615">wstrToLower</a></div><div class="ttdeci">void wstrToLower(std::wstring &amp;str)</div><div class="ttdef"><b>Definition:</b> Util.cpp:383</div></div>
+<div class="ttc" id="a_util_8cpp_html_adaef8bf262f1d546b903005e5a06e565"><div class="ttname"><a href="../../db/d35/_util_8cpp.html#adaef8bf262f1d546b903005e5a06e565">Utf8toWStr</a></div><div class="ttdeci">bool Utf8toWStr(char const *utf8str, size_t csize, wchar_t *wstr, size_t &amp;wsize)</div><div class="ttdef"><b>Definition:</b> Util.cpp:282</div></div>
+<div class="ttc" id="a_util_8h_html_a80a7f6cc28920544273725ac0fb1c734"><div class="ttname"><a href="../../dd/d90/_util_8h.html#a80a7f6cc28920544273725ac0fb1c734">wcharToUpper</a></div><div class="ttdeci">wchar_t wcharToUpper(wchar_t wchar)</div><div class="ttdef"><b>Definition:</b> Util.h:273</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -776,7 +1172,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_a12bdf17fc4860c5ac78d8e274fbb711.html">Globals</a></li><li class="navelem"><a class="el" href="../../df/d62/_object_mgr_8cpp.html">ObjectMgr.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

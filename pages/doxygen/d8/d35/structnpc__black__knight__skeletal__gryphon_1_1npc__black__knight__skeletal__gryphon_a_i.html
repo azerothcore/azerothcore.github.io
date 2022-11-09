@@ -554,7 +554,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ada99dced1e560aebc908a0efb6c23d0a" name="ada99dced1e560aebc908a0efb6c23d0a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ada99dced1e560aebc908a0efb6c23d0a">&#9670;&#160;</a></span>npc_black_knight_skeletal_gryphonAI()</h2>
 
@@ -578,7 +579,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  341</span>: <a class="code hl_struct" href="../../dd/d7f/structnpc__escort_a_i.html">npc_escortAI</a>(pCreature) {}</div>
+<div class="ttc" id="astructnpc__escort_a_i_html"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html">npc_escortAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -607,7 +610,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  352</span>        {</div>
+<div class="line"><span class="lineno">  353</span>            <span class="keywordflow">if</span>( param == 1 )</div>
+<div class="line"><span class="lineno">  354</span>            {</div>
+<div class="line"><span class="lineno">  355</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">SetControlled</a>(<span class="keyword">false</span>, <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14">UNIT_STATE_ROOT</a>);</div>
+<div class="line"><span class="lineno">  356</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a797b3869276649bca754b48063927730">DisableRotate</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  357</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881aaf5220c031538f14e62edb39923a0ccf">UNIT_NPC_EMOTESTATE</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574abf6bb7031ec3c29baf7830d91ea9af30">EMOTE_STATE_NONE</a>);</div>
+<div class="line"><span class="lineno">  358</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#aab2ae80bf9d5b6382fc6f8390808bc74">SetEscortPaused</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  359</span>            }</div>
+<div class="line"><span class="lineno">  360</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0e527855c554e31654c9beb340145574abf6bb7031ec3c29baf7830d91ea9af30"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574abf6bb7031ec3c29baf7830d91ea9af30">EMOTE_STATE_NONE</a></div><div class="ttdeci">@ EMOTE_STATE_NONE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1894</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14">UNIT_STATE_ROOT</a></div><div class="ttdeci">@ UNIT_STATE_ROOT</div><div class="ttdef"><b>Definition:</b> Unit.h:335</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a0e42dc606678c9df7884e1aad621e881aaf5220c031538f14e62edb39923a0ccf"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881aaf5220c031538f14e62edb39923a0ccf">UNIT_NPC_EMOTESTATE</a></div><div class="ttdeci">@ UNIT_NPC_EMOTESTATE</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:140</div></div>
+<div class="ttc" id="aclass_object_html_adc7e9b205f35f9894ec9a4f0ec0871f9"><div class="ttname"><a href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">Object::SetUInt32Value</a></div><div class="ttdeci">void SetUInt32Value(uint16 index, uint32 value)</div><div class="ttdef"><b>Definition:</b> Object.cpp:650</div></div>
+<div class="ttc" id="aclass_unit_html_a2903449b4183e13866c6e98d77578887"><div class="ttname"><a href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">Unit::SetControlled</a></div><div class="ttdeci">void SetControlled(bool apply, UnitState state)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18071</div></div>
+<div class="ttc" id="aclass_unit_html_a797b3869276649bca754b48063927730"><div class="ttname"><a href="../../da/db7/class_unit.html#a797b3869276649bca754b48063927730">Unit::DisableRotate</a></div><div class="ttdeci">void DisableRotate(bool apply)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18293</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_aab2ae80bf9d5b6382fc6f8390808bc74"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#aab2ae80bf9d5b6382fc6f8390808bc74">npc_escortAI::SetEscortPaused</a></div><div class="ttdeci">void SetEscortPaused(bool on)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:524</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5e20d5e17baaac92a560a5b2fe15fe7b" name="a5e20d5e17baaac92a560a5b2fe15fe7b"></a>
@@ -634,7 +654,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  344</span>        {</div>
+<div class="line"><span class="lineno">  345</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a3af9ad016ba42ce06db5d2ba7cdb6a5f">Start</a>(<span class="keyword">false</span>, <span class="keyword">true</span>, <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">  346</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#aa4c997f2f799be346c53299815720b36">SetDespawnAtEnd</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  347</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a79a7a80acdec46961b4d8aaead4ae631">SetFlag</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881aab4868b631f1cfaf30faee627f7c9dbf">UNIT_FIELD_FLAGS</a>, <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  348</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af11c4cb6be962a4162cc987c69a7884f">SetImmuneToAll</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  349</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NON_ATTACKABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:449</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a0e42dc606678c9df7884e1aad621e881aab4868b631f1cfaf30faee627f7c9dbf"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881aab4868b631f1cfaf30faee627f7c9dbf">UNIT_FIELD_FLAGS</a></div><div class="ttdeci">@ UNIT_FIELD_FLAGS</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:117</div></div>
+<div class="ttc" id="aclass_object_guid_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+<div class="ttc" id="aclass_object_html_a79a7a80acdec46961b4d8aaead4ae631"><div class="ttname"><a href="../../d8/d83/class_object.html#a79a7a80acdec46961b4d8aaead4ae631">Object::SetFlag</a></div><div class="ttdeci">void SetFlag(uint16 index, uint32 newFlag)</div><div class="ttdef"><b>Definition:</b> Object.cpp:845</div></div>
+<div class="ttc" id="aclass_unit_html_af11c4cb6be962a4162cc987c69a7884f"><div class="ttname"><a href="../../da/db7/class_unit.html#af11c4cb6be962a4162cc987c69a7884f">Unit::SetImmuneToAll</a></div><div class="ttdeci">void SetImmuneToAll(bool apply, bool keepCombat=false)</div><div class="ttdef"><b>Definition:</b> Unit.h:1675</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a3af9ad016ba42ce06db5d2ba7cdb6a5f"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a3af9ad016ba42ce06db5d2ba7cdb6a5f">npc_escortAI::Start</a></div><div class="ttdeci">void Start(bool isActiveAttacker=true, bool run=false, ObjectGuid playerGUID=ObjectGuid::Empty, Quest const *quest=nullptr, bool instantRespawn=false, bool canLoopPath=false, bool resetWaypoints=true)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:450</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_aa4c997f2f799be346c53299815720b36"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#aa4c997f2f799be346c53299815720b36">npc_escortAI::SetDespawnAtEnd</a></div><div class="ttdeci">void SetDespawnAtEnd(bool despawn)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:104</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a851008790128831c5c10710b4cccb196" name="a851008790128831c5c10710b4cccb196"></a>
@@ -662,7 +695,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#a5e9c333411c54ff4d644812e53ba1831">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  378</span>        {</div>
+<div class="line"><span class="lineno">  379</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a5e9c333411c54ff4d644812e53ba1831">npc_escortAI::UpdateAI</a>(uiDiff);</div>
+<div class="line"><span class="lineno">  380</span>        }</div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a5e9c333411c54ff4d644812e53ba1831"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a5e9c333411c54ff4d644812e53ba1831">npc_escortAI::UpdateAI</a></div><div class="ttdeci">void UpdateAI(uint32 diff) override</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:241</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a74b5fb1d3631c404e7797085e45e6159" name="a74b5fb1d3631c404e7797085e45e6159"></a>
@@ -690,11 +727,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#a59830f742b9967303df22f5bcf0d2b9d">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  363</span>        {</div>
+<div class="line"><span class="lineno">  364</span>            <span class="keywordflow">if</span>( i == 12 )</div>
+<div class="line"><span class="lineno">  365</span>            {</div>
+<div class="line"><span class="lineno">  366</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#aab2ae80bf9d5b6382fc6f8390808bc74">SetEscortPaused</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  367</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#aa547307fa2e6acedbcebda20a98a0fcf">SetOrientation</a>(3.62f);</div>
+<div class="line"><span class="lineno">  368</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">SetControlled</a>(<span class="keyword">true</span>, <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14">UNIT_STATE_ROOT</a>);</div>
+<div class="line"><span class="lineno">  369</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a797b3869276649bca754b48063927730">DisableRotate</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  370</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a15935c3f574e8b3e72952561c75e6faf">SetFacingTo</a>(3.62f);</div>
+<div class="line"><span class="lineno">  371</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881aaf5220c031538f14e62edb39923a0ccf">UNIT_NPC_EMOTESTATE</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574ad590c34428e5f30c54cc4c748789cdeb">EMOTE_ONESHOT_MOUNT_SPECIAL</a>);</div>
+<div class="line"><span class="lineno">  372</span>                <span class="keywordflow">if</span>( <a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* pInstance = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>() )</div>
+<div class="line"><span class="lineno">  373</span>                    pInstance-&gt;SetData(<a class="code hl_enumvalue" href="../../d3/d81/trial__of__the__champion_8h.html#a8d0deb2f48ff4560c08e13e9a1f92c19a09f670fffcb277f8eb1cf5203921ee11">DATA_SKELETAL_GRYPHON_LANDED</a>, 0);</div>
+<div class="line"><span class="lineno">  374</span>            }</div>
+<div class="line"><span class="lineno">  375</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0e527855c554e31654c9beb340145574ad590c34428e5f30c54cc4c748789cdeb"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574ad590c34428e5f30c54cc4c748789cdeb">EMOTE_ONESHOT_MOUNT_SPECIAL</a></div><div class="ttdeci">@ EMOTE_ONESHOT_MOUNT_SPECIAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1944</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_unit_html_a15935c3f574e8b3e72952561c75e6faf"><div class="ttname"><a href="../../da/db7/class_unit.html#a15935c3f574e8b3e72952561c75e6faf">Unit::SetFacingTo</a></div><div class="ttdeci">void SetFacingTo(float ori)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20619</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astruct_position_html_aa547307fa2e6acedbcebda20a98a0fcf"><div class="ttname"><a href="../../d1/d26/struct_position.html#aa547307fa2e6acedbcebda20a98a0fcf">Position::SetOrientation</a></div><div class="ttdeci">void SetOrientation(float orientation)</div><div class="ttdef"><b>Definition:</b> Position.h:112</div></div>
+<div class="ttc" id="atrial__of__the__champion_8h_html_a8d0deb2f48ff4560c08e13e9a1f92c19a09f670fffcb277f8eb1cf5203921ee11"><div class="ttname"><a href="../../d3/d81/trial__of__the__champion_8h.html#a8d0deb2f48ff4560c08e13e9a1f92c19a09f670fffcb277f8eb1cf5203921ee11">DATA_SKELETAL_GRYPHON_LANDED</a></div><div class="ttdeci">@ DATA_SKELETAL_GRYPHON_LANDED</div><div class="ttdef"><b>Definition:</b> trial_of_the_champion.h:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheChampion/<a class="el" href="../../df/da1/boss__black__knight_8cpp.html">boss_black_knight.cpp</a></li>
+<li><a class="el" href="../../">boss_black_knight.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -702,7 +758,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d3b/classnpc__black__knight__skeletal__gryphon.html">npc_black_knight_skeletal_gryphon</a></li><li class="navelem"><a class="el" href="../../d8/d35/structnpc__black__knight__skeletal__gryphon_1_1npc__black__knight__skeletal__gryphon_a_i.html">npc_black_knight_skeletal_gryphonAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:03 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

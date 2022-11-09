@@ -304,7 +304,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2f608e8391e61434ef1b164c023854fe" name="a2f608e8391e61434ef1b164c023854fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2f608e8391e61434ef1b164c023854fe">&#9670;&#160;</a></span>CalculateDamageAmount()</h2>
 
@@ -344,7 +345,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  569</span>    {</div>
+<div class="line"><span class="lineno">  570</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>())</div>
+<div class="line"><span class="lineno">  571</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  572</span> </div>
+<div class="line"><span class="lineno">  573</span>        amount = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5173c1774b09b42c409bf31280c37d36">GetMaxHealth</a>() * 0.12f; <span class="comment">// 5 ticks which reduce health by 60%</span></div>
+<div class="line"><span class="lineno">  574</span>    }</div>
+<div class="ttc" id="aclass_aura_script_html_a67261dcb8b5f6089bdc1a906c91d61df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">AuraScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1010</div></div>
+<div class="ttc" id="aclass_unit_html_a5173c1774b09b42c409bf31280c37d36"><div class="ttname"><a href="../../da/db7/class_unit.html#a5173c1774b09b42c409bf31280c37d36">Unit::GetMaxHealth</a></div><div class="ttdeci">uint32 GetMaxHealth() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1439</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8a4946d1718d8045a72c92355ff38ecb" name="a8a4946d1718d8045a72c92355ff38ecb"></a>
@@ -386,7 +395,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  577</span>    {</div>
+<div class="line"><span class="lineno">  578</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>() || <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>()-&gt;getPowerType() != <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a17e15fab4b89f4840e745f31ca76a414ab3e4f73d6494c917b99431bae75a4d5f">POWER_MANA</a>)</div>
+<div class="line"><span class="lineno">  579</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  580</span> </div>
+<div class="line"><span class="lineno">  581</span>        amount = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a93f83fd909310de2c76382d00d7dbbf1">GetMaxPower</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a17e15fab4b89f4840e745f31ca76a414ab3e4f73d6494c917b99431bae75a4d5f">POWER_MANA</a>) * 0.12f; <span class="comment">// 5 ticks which reduce health by 60%</span></div>
+<div class="line"><span class="lineno">  582</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a17e15fab4b89f4840e745f31ca76a414ab3e4f73d6494c917b99431bae75a4d5f"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a17e15fab4b89f4840e745f31ca76a414ab3e4f73d6494c917b99431bae75a4d5f">POWER_MANA</a></div><div class="ttdeci">@ POWER_MANA</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:241</div></div>
+<div class="ttc" id="aclass_unit_html_a93f83fd909310de2c76382d00d7dbbf1"><div class="ttname"><a href="../../da/db7/class_unit.html#a93f83fd909310de2c76382d00d7dbbf1">Unit::GetMaxPower</a></div><div class="ttdeci">uint32 GetMaxPower(Powers power) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1460</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a63d24d3ca4b2de1aa7f67376ded7bc59" name="a63d24d3ca4b2de1aa7f67376ded7bc59"></a>
@@ -439,11 +456,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  585</span>    {</div>
+<div class="line"><span class="lineno">  586</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a5b3cca86dbe3a8e042a0517a2621acf2">DoEffectCalcAmount</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a5f7926ca012466d6b220655a1bb6e912">AuraEffectCalcAmountFn</a>(<a class="code hl_function" href="../../d4/da9/classspell__item__skull__of__impeding__doom.html#a2f608e8391e61434ef1b164c023854fe">spell_item_skull_of_impeding_doom::CalculateDamageAmount</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a11166673929d2fda5967add284832fad">SPELL_AURA_PERIODIC_DAMAGE</a>);</div>
+<div class="line"><span class="lineno">  587</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a5b3cca86dbe3a8e042a0517a2621acf2">DoEffectCalcAmount</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a5f7926ca012466d6b220655a1bb6e912">AuraEffectCalcAmountFn</a>(<a class="code hl_function" href="../../d4/da9/classspell__item__skull__of__impeding__doom.html#a8a4946d1718d8045a72c92355ff38ecb">spell_item_skull_of_impeding_doom::CalculateManaLeechAmount</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1">EFFECT_2</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a2eb3f6e6a49bc0b70fa9726b1fa12bb3">SPELL_AURA_PERIODIC_MANA_LEECH</a>);</div>
+<div class="line"><span class="lineno">  588</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a></div><div class="ttdeci">@ EFFECT_1</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:31</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1">EFFECT_2</a></div><div class="ttdeci">@ EFFECT_2</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:32</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a11166673929d2fda5967add284832fad"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a11166673929d2fda5967add284832fad">SPELL_AURA_PERIODIC_DAMAGE</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_DAMAGE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:66</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a2eb3f6e6a49bc0b70fa9726b1fa12bb3"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a2eb3f6e6a49bc0b70fa9726b1fa12bb3">SPELL_AURA_PERIODIC_MANA_LEECH</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_MANA_LEECH</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:127</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a5f7926ca012466d6b220655a1bb6e912"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a5f7926ca012466d6b220655a1bb6e912">AuraEffectCalcAmountFn</a></div><div class="ttdeci">#define AuraEffectCalcAmountFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:762</div></div>
+<div class="ttc" id="aclass_aura_script_html_a5b3cca86dbe3a8e042a0517a2621acf2"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a5b3cca86dbe3a8e042a0517a2621acf2">AuraScript::DoEffectCalcAmount</a></div><div class="ttdeci">HookList&lt; EffectCalcAmountHandler &gt; DoEffectCalcAmount</div><div class="ttdef"><b>Definition:</b> SpellScript.h:761</div></div>
+<div class="ttc" id="aclassspell__item__skull__of__impeding__doom_html_a2f608e8391e61434ef1b164c023854fe"><div class="ttname"><a href="../../d4/da9/classspell__item__skull__of__impeding__doom.html#a2f608e8391e61434ef1b164c023854fe">spell_item_skull_of_impeding_doom::CalculateDamageAmount</a></div><div class="ttdeci">void CalculateDamageAmount(AuraEffect const *, int32 &amp;amount, bool &amp;)</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:568</div></div>
+<div class="ttc" id="aclassspell__item__skull__of__impeding__doom_html_a8a4946d1718d8045a72c92355ff38ecb"><div class="ttname"><a href="../../d4/da9/classspell__item__skull__of__impeding__doom.html#a8a4946d1718d8045a72c92355ff38ecb">spell_item_skull_of_impeding_doom::CalculateManaLeechAmount</a></div><div class="ttdeci">void CalculateManaLeechAmount(AuraEffect const *, int32 &amp;amount, bool &amp;)</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:576</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../db/d6e/spell__item_8cpp.html">spell_item.cpp</a></li>
+<li><a class="el" href="../../">spell_item.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -451,7 +480,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/da9/classspell__item__skull__of__impeding__doom.html">spell_item_skull_of_impeding_doom</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:20 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

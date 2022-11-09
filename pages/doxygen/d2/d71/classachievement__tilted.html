@@ -154,7 +154,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a868d7b8a437434d6dc34b5000c429e66" name="a868d7b8a437434d6dc34b5000c429e66"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a868d7b8a437434d6dc34b5000c429e66">&#9670;&#160;</a></span>achievement_tilted()</h2>
 
@@ -177,7 +178,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  209</span>: <a class="code hl_class" href="../../d6/d44/class_achievement_criteria_script.html">AchievementCriteriaScript</a>(<span class="stringliteral">&quot;achievement_tilted&quot;</span>) {}</div>
+<div class="ttc" id="aclass_achievement_criteria_script_html"><div class="ttname"><a href="../../d6/d44/class_achievement_criteria_script.html">AchievementCriteriaScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:975</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -222,11 +225,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/d44/class_achievement_criteria_script.html#a9fab6f158219db6d5a65b0b302cf285e">AchievementCriteriaScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  212</span>    {</div>
+<div class="line"><span class="lineno">  213</span>        <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno">  214</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  215</span> </div>
+<div class="line"><span class="lineno">  216</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> areaid = player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#acdd585ef58eb876c506389ff96a4fbd9">GetAreaId</a>();</div>
+<div class="line"><span class="lineno">  217</span>        <span class="keywordtype">bool</span> checkArea =    areaid == <a class="code hl_enumvalue" href="../../d2/d2e/achievement__scripts_8cpp.html#a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737">AREA_ARGENT_TOURNAMENT_FIELDS</a> ||</div>
+<div class="line"><span class="lineno">  218</span>                            areaid == <a class="code hl_enumvalue" href="../../d2/d2e/achievement__scripts_8cpp.html#a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf">AREA_RING_OF_ASPIRANTS</a> ||</div>
+<div class="line"><span class="lineno">  219</span>                            areaid == <a class="code hl_enumvalue" href="../../d2/d2e/achievement__scripts_8cpp.html#a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d">AREA_RING_OF_ARGENT_VALIANTS</a> ||</div>
+<div class="line"><span class="lineno">  220</span>                            areaid == <a class="code hl_enumvalue" href="../../d2/d2e/achievement__scripts_8cpp.html#a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504">AREA_RING_OF_ALLIANCE_VALIANTS</a> ||</div>
+<div class="line"><span class="lineno">  221</span>                            areaid == <a class="code hl_enumvalue" href="../../d2/d2e/achievement__scripts_8cpp.html#a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826">AREA_RING_OF_HORDE_VALIANTS</a> ||</div>
+<div class="line"><span class="lineno">  222</span>                            areaid == <a class="code hl_enumvalue" href="../../d2/d2e/achievement__scripts_8cpp.html#a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7">AREA_RING_OF_CHAMPIONS</a>;</div>
+<div class="line"><span class="lineno">  223</span> </div>
+<div class="line"><span class="lineno">  224</span>        <span class="keywordflow">return</span> checkArea &amp;&amp; player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#ad27cc2a187a5fd95caea942957061a9b">duel</a> &amp;&amp; player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#ad27cc2a187a5fd95caea942957061a9b">duel</a>-&gt;IsMounted;</div>
+<div class="line"><span class="lineno">  225</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aachievement__scripts_8cpp_html_a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504"><div class="ttname"><a href="../../d2/d2e/achievement__scripts_8cpp.html#a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504">AREA_RING_OF_ALLIANCE_VALIANTS</a></div><div class="ttdeci">@ AREA_RING_OF_ALLIANCE_VALIANTS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:201</div></div>
+<div class="ttc" id="aachievement__scripts_8cpp_html_a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d"><div class="ttname"><a href="../../d2/d2e/achievement__scripts_8cpp.html#a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d">AREA_RING_OF_ARGENT_VALIANTS</a></div><div class="ttdeci">@ AREA_RING_OF_ARGENT_VALIANTS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:200</div></div>
+<div class="ttc" id="aachievement__scripts_8cpp_html_a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737"><div class="ttname"><a href="../../d2/d2e/achievement__scripts_8cpp.html#a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737">AREA_ARGENT_TOURNAMENT_FIELDS</a></div><div class="ttdeci">@ AREA_ARGENT_TOURNAMENT_FIELDS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:198</div></div>
+<div class="ttc" id="aachievement__scripts_8cpp_html_a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7"><div class="ttname"><a href="../../d2/d2e/achievement__scripts_8cpp.html#a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7">AREA_RING_OF_CHAMPIONS</a></div><div class="ttdeci">@ AREA_RING_OF_CHAMPIONS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:203</div></div>
+<div class="ttc" id="aachievement__scripts_8cpp_html_a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf"><div class="ttname"><a href="../../d2/d2e/achievement__scripts_8cpp.html#a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf">AREA_RING_OF_ASPIRANTS</a></div><div class="ttdeci">@ AREA_RING_OF_ASPIRANTS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:199</div></div>
+<div class="ttc" id="aachievement__scripts_8cpp_html_a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826"><div class="ttname"><a href="../../d2/d2e/achievement__scripts_8cpp.html#a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826">AREA_RING_OF_HORDE_VALIANTS</a></div><div class="ttdeci">@ AREA_RING_OF_HORDE_VALIANTS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:202</div></div>
+<div class="ttc" id="aclass_player_html_ad27cc2a187a5fd95caea942957061a9b"><div class="ttname"><a href="../../d8/d53/class_player.html#ad27cc2a187a5fd95caea942957061a9b">Player::duel</a></div><div class="ttdeci">std::unique_ptr&lt; DuelInfo &gt; duel</div><div class="ttdef"><b>Definition:</b> Player.h:1827</div></div>
+<div class="ttc" id="aclass_world_object_html_acdd585ef58eb876c506389ff96a4fbd9"><div class="ttname"><a href="../../db/df7/class_world_object.html#acdd585ef58eb876c506389ff96a4fbd9">WorldObject::GetAreaId</a></div><div class="ttdeci">uint32 GetAreaId() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:3066</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d2/d2e/achievement__scripts_8cpp.html">achievement_scripts.cpp</a></li>
+<li><a class="el" href="../../">achievement_scripts.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -234,7 +260,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d71/classachievement__tilted.html">achievement_tilted</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:36 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

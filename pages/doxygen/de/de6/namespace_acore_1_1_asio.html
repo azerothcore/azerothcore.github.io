@@ -171,7 +171,10 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   44</span>    {</div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">return</span> strand.wrap(std::forward&lt;T&gt;(t));</div>
+<div class="line"><span class="lineno">   46</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a580110f00d3cdca7a351bf42ed7cdeac" name="a580110f00d3cdca7a351bf42ed7cdeac"></a>
@@ -199,7 +202,14 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   68</span>    {</div>
+<div class="line"><span class="lineno">   69</span><span class="preprocessor">#if BOOST_VERSION &gt;= 106600</span></div>
+<div class="line"><span class="lineno">   70</span>        <span class="keywordflow">return</span> ioObject.get_executor().context();</div>
+<div class="line"><span class="lineno">   71</span><span class="preprocessor">#else</span></div>
+<div class="line"><span class="lineno">   72</span>        <span class="keywordflow">return</span> ioObject.get_io_service();</div>
+<div class="line"><span class="lineno">   73</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">   74</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac437e3511a92ead72c7d3c1f6004daaf" name="ac437e3511a92ead72c7d3c1f6004daaf"></a>
@@ -237,7 +247,14 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>    {</div>
+<div class="line"><span class="lineno">   59</span><span class="preprocessor">#if BOOST_VERSION &gt;= 106600</span></div>
+<div class="line"><span class="lineno">   60</span>        <span class="keywordflow">return</span> boost::asio::post(ioContext, std::forward&lt;T&gt;(t));</div>
+<div class="line"><span class="lineno">   61</span><span class="preprocessor">#else</span></div>
+<div class="line"><span class="lineno">   62</span>        <span class="keywordflow">return</span> ioContext.post(std::forward&lt;T&gt;(t));</div>
+<div class="line"><span class="lineno">   63</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">   64</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -246,7 +263,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../de/de6/namespace_acore_1_1_asio.html">Asio</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

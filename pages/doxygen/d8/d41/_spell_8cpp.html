@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/Spells/Spell.cpp File Reference</title>
+<title>AzeorthCore: Spell.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -115,47 +115,49 @@ $(document).ready(function(){initNavTree('d8/d41/_spell_8cpp.html','../../'); in
   <div class="headertitle"><div class="title">Spell.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d5/dfa/_spell_8h_source.html">Spell.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/ded/_arena_spectator_8h_source.html">ArenaSpectator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/df4/_battlefield_mgr_8h_source.html">BattlefieldMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/db3/_battleground_8h_source.html">Battleground.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/daa/_battleground_i_c_8h_source.html">BattlegroundIC.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d39/_cell_impl_8h_source.html">CellImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d1f/_common_8h_source.html">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d62/_condition_mgr_8h_source.html">ConditionMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d01/_disable_mgr_8h_source.html">DisableMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/db0/_dynamic_object_8h_source.html">DynamicObject.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dcc/_game_object_a_i_8h_source.html">GameObjectAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/daa/_game_time_8h_source.html">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/df9/_grid_notifiers_impl_8h_source.html">GridNotifiersImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/dc4/_group_8h_source.html">Group.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d42/_instance_script_8h_source.html">InstanceScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/df4/_log_8h_source.html">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/dda/_loot_mgr_8h_source.html">LootMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/dca/_map_mgr_8h_source.html">MapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d59/_object_accessor_8h_source.html">ObjectAccessor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d77/_object_mgr_8h_source.html">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d10/_opcodes_8h_source.html">Opcodes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d67/_pet_8h_source.html">Pet.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d39/_player_8h_source.html">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d0b/_shared_defines_8h_source.html">SharedDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d82/_spell_aura_effects_8h_source.html">SpellAuraEffects.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d70/_spell_info_8h_source.html">SpellInfo.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d75/_spell_mgr_8h_source.html">SpellMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/db3/_temporary_summon_8h_source.html">TemporarySummon.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/dd0/_totem_8h_source.html">Totem.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d32/_unit_8h_source.html">Unit.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/dee/_update_data_8h_source.html">UpdateData.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d03/_update_mask_8h_source.html">UpdateMask.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d90/_util_8h_source.html">Util.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/de0/_v_map_factory_8h_source.html">VMapFactory.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d90/_vehicle_8h_source.html">Vehicle.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d86/_world_8h_source.html">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d66/_world_packet_8h_source.html">WorldPacket.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ArenaSpectator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlefieldMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Battleground.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundIC.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ConditionMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DisableMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DynamicObject.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObjectAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LootMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">TemporarySummon.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Totem.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Unit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">UpdateData.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">UpdateMask.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">VMapFactory.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ddc/class_spell_event.html">SpellEvent</a></td></tr>
@@ -252,7 +254,13 @@ Variables</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aea36520bcbaa2ebe9c062b9c5d9df777a08310e07fc7bc96f8485dbcc9487785f" name="aea36520bcbaa2ebe9c062b9c5d9df777a08310e07fc7bc96f8485dbcc9487785f"></a>MIN_GCD&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aea36520bcbaa2ebe9c062b9c5d9df777accf1639a1cf684725784e02ddf1aef8c" name="aea36520bcbaa2ebe9c062b9c5d9df777accf1639a1cf684725784e02ddf1aef8c"></a>MAX_GCD&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno"> 8772</span>{</div>
+<div class="line"><span class="lineno"> 8773</span>    <a class="code hl_enumvalue" href="../../d8/d41/_spell_8cpp.html#aea36520bcbaa2ebe9c062b9c5d9df777a08310e07fc7bc96f8485dbcc9487785f">MIN_GCD</a> = 1000,</div>
+<div class="line"><span class="lineno"> 8774</span>    <a class="code hl_enumvalue" href="../../d8/d41/_spell_8cpp.html#aea36520bcbaa2ebe9c062b9c5d9df777accf1639a1cf684725784e02ddf1aef8c">MAX_GCD</a> = 1500</div>
+<div class="line"><span class="lineno"> 8775</span>};</div>
+<div class="ttc" id="a_spell_8cpp_html_aea36520bcbaa2ebe9c062b9c5d9df777a08310e07fc7bc96f8485dbcc9487785f"><div class="ttname"><a href="../../d8/d41/_spell_8cpp.html#aea36520bcbaa2ebe9c062b9c5d9df777a08310e07fc7bc96f8485dbcc9487785f">MIN_GCD</a></div><div class="ttdeci">@ MIN_GCD</div><div class="ttdef"><b>Definition:</b> Spell.cpp:8773</div></div>
+<div class="ttc" id="a_spell_8cpp_html_aea36520bcbaa2ebe9c062b9c5d9df777accf1639a1cf684725784e02ddf1aef8c"><div class="ttname"><a href="../../d8/d41/_spell_8cpp.html#aea36520bcbaa2ebe9c062b9c5d9df777accf1639a1cf684725784e02ddf1aef8c">MAX_GCD</a></div><div class="ttdeci">@ MAX_GCD</div><div class="ttdef"><b>Definition:</b> Spell.cpp:8774</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -271,7 +279,17 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1838</span>{</div>
+<div class="line"><span class="lineno"> 1839</span>    x = tan(x);</div>
+<div class="line"><span class="lineno"> 1840</span>    <span class="comment">//if (x &lt; std::numeric_limits&lt;float&gt;::max() &amp;&amp; x &gt; -std::numeric_limits&lt;float&gt;::max()) return x;</span></div>
+<div class="line"><span class="lineno"> 1841</span>    <span class="comment">//if (x &gt;= std::numeric_limits&lt;float&gt;::max()) return std::numeric_limits&lt;float&gt;::max();</span></div>
+<div class="line"><span class="lineno"> 1842</span>    <span class="comment">//if (x &lt;= -std::numeric_limits&lt;float&gt;::max()) return -std::numeric_limits&lt;float&gt;::max();</span></div>
+<div class="line"><span class="lineno"> 1843</span>    <span class="keywordflow">if</span> (x &lt; 100000.0f &amp;&amp; x &gt; -100000.0f) <span class="keywordflow">return</span> x;</div>
+<div class="line"><span class="lineno"> 1844</span>    <span class="keywordflow">if</span> (x &gt;= 100000.0f) <span class="keywordflow">return</span> 100000.0f;</div>
+<div class="line"><span class="lineno"> 1845</span>    <span class="keywordflow">if</span> (x &lt;= 100000.0f) <span class="keywordflow">return</span> -100000.0f;</div>
+<div class="line"><span class="lineno"> 1846</span>    <span class="keywordflow">return</span> 0.0f;</div>
+<div class="line"><span class="lineno"> 1847</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -303,7 +321,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_ef7aca743453a8310aabb86ba904b3f6.html">Spells</a></li><li class="navelem"><a class="el" href="../../d8/d41/_spell_8cpp.html">Spell.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

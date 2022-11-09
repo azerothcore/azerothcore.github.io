@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d9/d12/struct_arena_team_score.html','
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../dc/d0d/_arena_score_8h_source.html">ArenaScore.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">ArenaScore.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -147,7 +147,8 @@ Friends</h2></td></tr>
 <tr class="memitem:a0c4048053f5f5cabe5bfbfdde8eded86"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d12/struct_arena_team_score.html#a0c4048053f5f5cabe5bfbfdde8eded86">Battleground</a></td></tr>
 <tr class="separator:a0c4048053f5f5cabe5bfbfdde8eded86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a017cd1a4d90a466b42aeab8ff1a12f3a" name="a017cd1a4d90a466b42aeab8ff1a12f3a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a017cd1a4d90a466b42aeab8ff1a12f3a">&#9670;&#160;</a></span>ArenaTeamScore()</h2>
 
@@ -238,7 +239,15 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   61</span>    {</div>
+<div class="line"><span class="lineno">   62</span>        <a class="code hl_variable" href="../../d9/d12/struct_arena_team_score.html#a61c85f158b767a6c81de87d7ad5007db">RatingChange</a> = ratingChange;</div>
+<div class="line"><span class="lineno">   63</span>        <a class="code hl_variable" href="../../d9/d12/struct_arena_team_score.html#a1e82169562a459371f973932d22e2f15">MatchmakerRating</a> = matchMakerRating;</div>
+<div class="line"><span class="lineno">   64</span>        <a class="code hl_variable" href="../../d9/d12/struct_arena_team_score.html#ab99de3b9213f3ccab1791858df6aa3e8">TeamName</a> = std::string(teamName);</div>
+<div class="line"><span class="lineno">   65</span>    }</div>
+<div class="ttc" id="astruct_arena_team_score_html_a1e82169562a459371f973932d22e2f15"><div class="ttname"><a href="../../d9/d12/struct_arena_team_score.html#a1e82169562a459371f973932d22e2f15">ArenaTeamScore::MatchmakerRating</a></div><div class="ttdeci">uint32 MatchmakerRating</div><div class="ttdef"><b>Definition:</b> ArenaScore.h:71</div></div>
+<div class="ttc" id="astruct_arena_team_score_html_a61c85f158b767a6c81de87d7ad5007db"><div class="ttname"><a href="../../d9/d12/struct_arena_team_score.html#a61c85f158b767a6c81de87d7ad5007db">ArenaTeamScore::RatingChange</a></div><div class="ttdeci">int32 RatingChange</div><div class="ttdef"><b>Definition:</b> ArenaScore.h:70</div></div>
+<div class="ttc" id="astruct_arena_team_score_html_ab99de3b9213f3ccab1791858df6aa3e8"><div class="ttname"><a href="../../d9/d12/struct_arena_team_score.html#ab99de3b9213f3ccab1791858df6aa3e8">ArenaTeamScore::TeamName</a></div><div class="ttdeci">std::string TeamName</div><div class="ttdef"><b>Definition:</b> ArenaScore.h:72</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae3e2b8e8a29c50ca20a42a0364349764" name="ae3e2b8e8a29c50ca20a42a0364349764"></a>
@@ -264,7 +273,17 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   47</span>{</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> ratingLost = std::abs(std::min(<a class="code hl_variable" href="../../d9/d12/struct_arena_team_score.html#a61c85f158b767a6c81de87d7ad5007db">RatingChange</a>, 0));</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> ratingWon = std::max(<a class="code hl_variable" href="../../d9/d12/struct_arena_team_score.html#a61c85f158b767a6c81de87d7ad5007db">RatingChange</a>, 0);</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>    <span class="comment">// should be old rating, new rating, and client will calculate rating change itself</span></div>
+<div class="line"><span class="lineno">   52</span>    data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(ratingLost);</div>
+<div class="line"><span class="lineno">   53</span>    data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(ratingWon);</div>
+<div class="line"><span class="lineno">   54</span>    data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d9/d12/struct_arena_team_score.html#a1e82169562a459371f973932d22e2f15">MatchmakerRating</a>);</div>
+<div class="line"><span class="lineno">   55</span>}</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa876e0cf0b36f8fdb9efe8989092f143" name="aa876e0cf0b36f8fdb9efe8989092f143"></a>
@@ -290,7 +309,10 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>{</div>
+<div class="line"><span class="lineno">   59</span>    data &lt;&lt; <a class="code hl_variable" href="../../d9/d12/struct_arena_team_score.html#ab99de3b9213f3ccab1791858df6aa3e8">TeamName</a>;</div>
+<div class="line"><span class="lineno">   60</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a90611fd5e656d2d62917003ff0a5ff00" name="a90611fd5e656d2d62917003ff0a5ff00"></a>
@@ -315,7 +337,12 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   54</span>    {</div>
+<div class="line"><span class="lineno">   55</span>        <a class="code hl_variable" href="../../d9/d12/struct_arena_team_score.html#a61c85f158b767a6c81de87d7ad5007db">RatingChange</a> = 0;</div>
+<div class="line"><span class="lineno">   56</span>        <a class="code hl_variable" href="../../d9/d12/struct_arena_team_score.html#a1e82169562a459371f973932d22e2f15">MatchmakerRating</a> = 0;</div>
+<div class="line"><span class="lineno">   57</span>        <a class="code hl_variable" href="../../d9/d12/struct_arena_team_score.html#ab99de3b9213f3ccab1791858df6aa3e8">TeamName</a> = {};</div>
+<div class="line"><span class="lineno">   58</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
@@ -431,8 +458,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Battlegrounds/<a class="el" href="../../dc/d0d/_arena_score_8h_source.html">ArenaScore.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Battlegrounds/<a class="el" href="../../d6/d79/_arena_8cpp.html">Arena.cpp</a></li>
+<li><a class="el" href="../../">ArenaScore.h</a></li>
+<li><a class="el" href="../../">Arena.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -440,7 +467,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d12/struct_arena_team_score.html">ArenaTeamScore</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:37 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

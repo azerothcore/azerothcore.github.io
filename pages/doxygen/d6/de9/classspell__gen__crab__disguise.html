@@ -306,7 +306,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a6bc23ff885f4fbc25d00fe35173bad3e" name="a6bc23ff885f4fbc25d00fe35173bad3e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6bc23ff885f4fbc25d00fe35173bad3e">&#9670;&#160;</a></span>OnApply()</h2>
 
@@ -340,7 +341,18 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  213</span>    {</div>
+<div class="line"><span class="lineno">  214</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>())</div>
+<div class="line"><span class="lineno">  215</span>        {</div>
+<div class="line"><span class="lineno">  216</span>            caster-&gt;CastSpell(caster, <a class="code hl_enumvalue" href="../../d6/dba/midsummer_8cpp.html#afd8a3a151093c0630847d5c80e1f854fafe8114d2aab172e16869e5adbdd3cbc7">SPELL_APPLY_DIGUISE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  217</span>            caster-&gt;SetFaction(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2aeb8e97228dc88b5d00b1df868d3c474c">FACTION_BLACKFATHOM</a>);</div>
+<div class="line"><span class="lineno">  218</span>        }</div>
+<div class="line"><span class="lineno">  219</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_ac5c8e776fe109c83a63abe41eb5e80f2aeb8e97228dc88b5d00b1df868d3c474c"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2aeb8e97228dc88b5d00b1df868d3c474c">FACTION_BLACKFATHOM</a></div><div class="ttdeci">@ FACTION_BLACKFATHOM</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:179</div></div>
+<div class="ttc" id="aclass_aura_script_html_a67261dcb8b5f6089bdc1a906c91d61df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">AuraScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1010</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="amidsummer_8cpp_html_afd8a3a151093c0630847d5c80e1f854fafe8114d2aab172e16869e5adbdd3cbc7"><div class="ttname"><a href="../../d6/dba/midsummer_8cpp.html#afd8a3a151093c0630847d5c80e1f854fafe8114d2aab172e16869e5adbdd3cbc7">SPELL_APPLY_DIGUISE</a></div><div class="ttdeci">@ SPELL_APPLY_DIGUISE</div><div class="ttdef"><b>Definition:</b> midsummer.cpp:199</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aed62006fe08bfaad0a8bb51d5e739c67" name="aed62006fe08bfaad0a8bb51d5e739c67"></a>
@@ -376,7 +388,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  222</span>    {</div>
+<div class="line"><span class="lineno">  223</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>())</div>
+<div class="line"><span class="lineno">  224</span>        {</div>
+<div class="line"><span class="lineno">  225</span>            caster-&gt;CastSpell(caster, <a class="code hl_enumvalue" href="../../d6/dba/midsummer_8cpp.html#afd8a3a151093c0630847d5c80e1f854fab392a22637923eff71caf3a47749ca9a">SPELL_FADE_DIGUISE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  226</span>            caster-&gt;RestoreFaction();</div>
+<div class="line"><span class="lineno">  227</span>        }</div>
+<div class="line"><span class="lineno">  228</span>    }</div>
+<div class="ttc" id="amidsummer_8cpp_html_afd8a3a151093c0630847d5c80e1f854fab392a22637923eff71caf3a47749ca9a"><div class="ttname"><a href="../../d6/dba/midsummer_8cpp.html#afd8a3a151093c0630847d5c80e1f854fab392a22637923eff71caf3a47749ca9a">SPELL_FADE_DIGUISE</a></div><div class="ttdeci">@ SPELL_FADE_DIGUISE</div><div class="ttdef"><b>Definition:</b> midsummer.cpp:200</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac7388aa4c0746ce963cbbb97dbfb4765" name="ac7388aa4c0746ce963cbbb97dbfb4765"></a>
@@ -429,7 +449,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  231</span>    {</div>
+<div class="line"><span class="lineno">  232</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a509262d9721d83783e19142eee1645df">AfterEffectApply</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a>(<a class="code hl_function" href="../../d6/de9/classspell__gen__crab__disguise.html#a6bc23ff885f4fbc25d00fe35173bad3e">spell_gen_crab_disguise::OnApply</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799aef80f9d88ee929ba8a7101de7f9b7ad7">SPELL_AURA_FORCE_REACTION</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno">  233</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AfterEffectRemove</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a>(<a class="code hl_function" href="../../d6/de9/classspell__gen__crab__disguise.html#aed62006fe08bfaad0a8bb51d5e739c67">spell_gen_crab_disguise::OnRemove</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799aef80f9d88ee929ba8a7101de7f9b7ad7">SPELL_AURA_FORCE_REACTION</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno">  234</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799aef80f9d88ee929ba8a7101de7f9b7ad7"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799aef80f9d88ee929ba8a7101de7f9b7ad7">SPELL_AURA_FORCE_REACTION</a></div><div class="ttdeci">@ SPELL_AURA_FORCE_REACTION</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:202</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:42</div></div>
+<div class="ttc" id="a_spell_script_8h_html_af8f20adad60abdb901d6e7310afea31b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a></div><div class="ttdeci">#define AuraEffectRemoveFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:744</div></div>
+<div class="ttc" id="aclass_aura_script_html_a2bfb775dfbe8cfc3cff876469c78ddcf"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AuraScript::AfterEffectRemove</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; AfterEffectRemove</div><div class="ttdef"><b>Definition:</b> SpellScript.h:743</div></div>
+<div class="ttc" id="aclass_aura_script_html_a509262d9721d83783e19142eee1645df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a509262d9721d83783e19142eee1645df">AuraScript::AfterEffectApply</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; AfterEffectApply</div><div class="ttdef"><b>Definition:</b> SpellScript.h:732</div></div>
+<div class="ttc" id="aclassspell__gen__crab__disguise_html_a6bc23ff885f4fbc25d00fe35173bad3e"><div class="ttname"><a href="../../d6/de9/classspell__gen__crab__disguise.html#a6bc23ff885f4fbc25d00fe35173bad3e">spell_gen_crab_disguise::OnApply</a></div><div class="ttdeci">void OnApply(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> midsummer.cpp:212</div></div>
+<div class="ttc" id="aclassspell__gen__crab__disguise_html_aed62006fe08bfaad0a8bb51d5e739c67"><div class="ttname"><a href="../../d6/de9/classspell__gen__crab__disguise.html#aed62006fe08bfaad0a8bb51d5e739c67">spell_gen_crab_disguise::OnRemove</a></div><div class="ttdeci">void OnRemove(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> midsummer.cpp:221</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0ed19bc16fa8e2da2332766bbc1110e5" name="a0ed19bc16fa8e2da2332766bbc1110e5"></a>
@@ -457,11 +489,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  208</span>    {</div>
+<div class="line"><span class="lineno">  209</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>({ <a class="code hl_enumvalue" href="../../d6/dba/midsummer_8cpp.html#afd8a3a151093c0630847d5c80e1f854fa183b2dd04793fbe4c195242a3a2bccf5">SPELL_CRAB_DISGUISE</a> });</div>
+<div class="line"><span class="lineno">  210</span>    }</div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+<div class="ttc" id="amidsummer_8cpp_html_afd8a3a151093c0630847d5c80e1f854fa183b2dd04793fbe4c195242a3a2bccf5"><div class="ttname"><a href="../../d6/dba/midsummer_8cpp.html#afd8a3a151093c0630847d5c80e1f854fa183b2dd04793fbe4c195242a3a2bccf5">SPELL_CRAB_DISGUISE</a></div><div class="ttdeci">@ SPELL_CRAB_DISGUISE</div><div class="ttdef"><b>Definition:</b> midsummer.cpp:198</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../d6/dba/midsummer_8cpp.html">midsummer.cpp</a></li>
+<li><a class="el" href="../../">midsummer.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -469,7 +506,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/de9/classspell__gen__crab__disguise.html">spell_gen_crab_disguise</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

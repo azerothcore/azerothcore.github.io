@@ -310,7 +310,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a195737908fd685418f01fd5cb3c5af92" name="a195737908fd685418f01fd5cb3c5af92"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a195737908fd685418f01fd5cb3c5af92">&#9670;&#160;</a></span>CheckProc()</h2>
 
@@ -334,7 +335,34 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  949</span>        {</div>
+<div class="line"><span class="lineno">  950</span>            <a class="code hl_class" href="../../d4/d7d/class_spell_info.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a759add2c89e786125196eb6bd3b20c6d">GetSpellInfo</a>();</div>
+<div class="line"><span class="lineno">  951</span>            <span class="keywordflow">if</span> (!spellInfo)</div>
+<div class="line"><span class="lineno">  952</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  953</span> </div>
+<div class="line"><span class="lineno">  954</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> currMSTime = <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a>().count();</div>
+<div class="line"><span class="lineno">  955</span>            std::map&lt;uint32, uint32&gt;::iterator itr = <a class="code hl_variable" href="../../da/d10/classspell__sindragosa__unchained__magic_1_1spell__sindragosa__unchained__magic___aura_script.html#a7b3c1a7afb429cd3859ce39d3ad6dedb">_lastMSTimeForSpell</a>.find(spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#a49bc14059c2bd3785231c52e0d54d382">Id</a>);</div>
+<div class="line"><span class="lineno">  956</span>            <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../da/d10/classspell__sindragosa__unchained__magic_1_1spell__sindragosa__unchained__magic___aura_script.html#a7b3c1a7afb429cd3859ce39d3ad6dedb">_lastMSTimeForSpell</a>.end())</div>
+<div class="line"><span class="lineno">  957</span>            {</div>
+<div class="line"><span class="lineno">  958</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lastMSTime = itr-&gt;second;</div>
+<div class="line"><span class="lineno">  959</span>                itr-&gt;second = currMSTime;</div>
+<div class="line"><span class="lineno">  960</span>                <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d5/d29/_timer_8h.html#ad9f0d19bcdfb695da4f399b36471c7de">getMSTimeDiff</a>(lastMSTime, currMSTime) &lt; 600)</div>
+<div class="line"><span class="lineno">  961</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  962</span> </div>
+<div class="line"><span class="lineno">  963</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  964</span>            }</div>
+<div class="line"><span class="lineno">  965</span> </div>
+<div class="line"><span class="lineno">  966</span>            <a class="code hl_variable" href="../../da/d10/classspell__sindragosa__unchained__magic_1_1spell__sindragosa__unchained__magic___aura_script.html#a7b3c1a7afb429cd3859ce39d3ad6dedb">_lastMSTimeForSpell</a>[spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#a49bc14059c2bd3785231c52e0d54d382">Id</a>] = currMSTime;</div>
+<div class="line"><span class="lineno">  967</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  968</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_timer_8h_html_ad9f0d19bcdfb695da4f399b36471c7de"><div class="ttname"><a href="../../d5/d29/_timer_8h.html#ad9f0d19bcdfb695da4f399b36471c7de">getMSTimeDiff</a></div><div class="ttdeci">uint32 getMSTimeDiff(uint32 oldMSTime, uint32 newMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:110</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_a759add2c89e786125196eb6bd3b20c6d"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#a759add2c89e786125196eb6bd3b20c6d">ProcEventInfo::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:186</div></div>
+<div class="ttc" id="aclass_spell_info_html"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html">SpellInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:314</div></div>
+<div class="ttc" id="aclass_spell_info_html_a49bc14059c2bd3785231c52e0d54d382"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#a49bc14059c2bd3785231c52e0d54d382">SpellInfo::Id</a></div><div class="ttdeci">uint32 Id</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:318</div></div>
+<div class="ttc" id="aclassspell__sindragosa__unchained__magic_1_1spell__sindragosa__unchained__magic___aura_script_html_a7b3c1a7afb429cd3859ce39d3ad6dedb"><div class="ttname"><a href="../../da/d10/classspell__sindragosa__unchained__magic_1_1spell__sindragosa__unchained__magic___aura_script.html#a7b3c1a7afb429cd3859ce39d3ad6dedb">spell_sindragosa_unchained_magic::spell_sindragosa_unchained_magic_AuraScript::_lastMSTimeForSpell</a></div><div class="ttdeci">std::map&lt; uint32, uint32 &gt; _lastMSTimeForSpell</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:940</div></div>
+<div class="ttc" id="anamespace_game_time_html_a6d0d49f37e25e497391157b2a2ec90c1"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a></div><div class="ttdeci">Milliseconds GetGameTimeMS()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:43</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a641ccd9be53fea5c5b7f827385f33090" name="a641ccd9be53fea5c5b7f827385f33090"></a>
@@ -387,7 +415,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  971</span>        {</div>
+<div class="line"><span class="lineno">  972</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">DoCheckProc</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a>(<a class="code hl_function" href="../../da/d10/classspell__sindragosa__unchained__magic_1_1spell__sindragosa__unchained__magic___aura_script.html#a195737908fd685418f01fd5cb3c5af92">spell_sindragosa_unchained_magic_AuraScript::CheckProc</a>);</div>
+<div class="line"><span class="lineno">  973</span>        }</div>
+<div class="ttc" id="a_spell_script_8h_html_ad25bcd0c3aa73ba267fa87ea50bc1780"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a></div><div class="ttdeci">#define AuraCheckProcFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:812</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab771dd972497502e5202fd48a1d6c17d"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">AuraScript::DoCheckProc</a></div><div class="ttdeci">HookList&lt; CheckProcHandler &gt; DoCheckProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:807</div></div>
+<div class="ttc" id="aclassspell__sindragosa__unchained__magic_1_1spell__sindragosa__unchained__magic___aura_script_html_a195737908fd685418f01fd5cb3c5af92"><div class="ttname"><a href="../../da/d10/classspell__sindragosa__unchained__magic_1_1spell__sindragosa__unchained__magic___aura_script.html#a195737908fd685418f01fd5cb3c5af92">spell_sindragosa_unchained_magic::spell_sindragosa_unchained_magic_AuraScript::CheckProc</a></div><div class="ttdeci">bool CheckProc(ProcEventInfo &amp;eventInfo)</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:948</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae2d9739bad9567fa148871edc8fa60b3" name="ae2d9739bad9567fa148871edc8fa60b3"></a>
@@ -415,7 +449,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  943</span>        {</div>
+<div class="line"><span class="lineno">  944</span>            <a class="code hl_variable" href="../../da/d10/classspell__sindragosa__unchained__magic_1_1spell__sindragosa__unchained__magic___aura_script.html#a7b3c1a7afb429cd3859ce39d3ad6dedb">_lastMSTimeForSpell</a>.clear();</div>
+<div class="line"><span class="lineno">  945</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  946</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -442,7 +480,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../de/de5/boss__sindragosa_8cpp.html">boss_sindragosa.cpp</a></li>
+<li><a class="el" href="../../">boss_sindragosa.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -450,7 +488,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/da6/classspell__sindragosa__unchained__magic.html">spell_sindragosa_unchained_magic</a></li><li class="navelem"><a class="el" href="../../da/d10/classspell__sindragosa__unchained__magic_1_1spell__sindragosa__unchained__magic___aura_script.html">spell_sindragosa_unchained_magic_AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:25 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

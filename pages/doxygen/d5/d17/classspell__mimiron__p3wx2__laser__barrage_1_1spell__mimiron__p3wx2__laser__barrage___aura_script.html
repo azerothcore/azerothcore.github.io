@@ -310,7 +310,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ade51556206853c273950937e52447f41" name="ade51556206853c273950937e52447f41"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ade51556206853c273950937e52447f41">&#9670;&#160;</a></span>HandleEffectPeriodic()</h2>
 
@@ -334,7 +335,35 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2133</span>        {</div>
+<div class="line"><span class="lineno"> 2134</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* c = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>())</div>
+<div class="line"><span class="lineno"> 2135</span>            {</div>
+<div class="line"><span class="lineno"> 2136</span>                <span class="keywordflow">if</span> (c-&gt;GetTypeId() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>)</div>
+<div class="line"><span class="lineno"> 2137</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2138</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> diff = <a class="code hl_function" href="../../d5/d29/_timer_8h.html#ad9f0d19bcdfb695da4f399b36471c7de">getMSTimeDiff</a>(lastMSTime, <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a>().count());</div>
+<div class="line"><span class="lineno"> 2139</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d17/classspell__mimiron__p3wx2__laser__barrage_1_1spell__mimiron__p3wx2__laser__barrage___aura_script.html#a349426d5f23a7da8fbc645b72a234479">lastOrientation</a> == -1.0f)</div>
+<div class="line"><span class="lineno"> 2140</span>                {</div>
+<div class="line"><span class="lineno"> 2141</span>                    <a class="code hl_variable" href="../../d5/d17/classspell__mimiron__p3wx2__laser__barrage_1_1spell__mimiron__p3wx2__laser__barrage___aura_script.html#a349426d5f23a7da8fbc645b72a234479">lastOrientation</a> = (c-&gt;ToCreature()-&gt;AI()-&gt;GetData(0) * 2 * M_PI) / 100.0f;</div>
+<div class="line"><span class="lineno"> 2142</span>                    diff = 0;</div>
+<div class="line"><span class="lineno"> 2143</span>                }</div>
+<div class="line"><span class="lineno"> 2144</span>                <span class="keywordtype">float</span> new_o = <a class="code hl_function" href="../../d1/d26/struct_position.html#a47dfa17a367a4824c454c3fa0997b2ee">Position::NormalizeOrientation</a>(<a class="code hl_variable" href="../../d5/d17/classspell__mimiron__p3wx2__laser__barrage_1_1spell__mimiron__p3wx2__laser__barrage___aura_script.html#a349426d5f23a7da8fbc645b72a234479">lastOrientation</a> - (M_PI / 60) * (diff / 250.0f));</div>
+<div class="line"><span class="lineno"> 2145</span>                lastMSTime = <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a>().count();</div>
+<div class="line"><span class="lineno"> 2146</span>                <a class="code hl_variable" href="../../d5/d17/classspell__mimiron__p3wx2__laser__barrage_1_1spell__mimiron__p3wx2__laser__barrage___aura_script.html#a349426d5f23a7da8fbc645b72a234479">lastOrientation</a> = new_o;</div>
+<div class="line"><span class="lineno"> 2147</span>                c-&gt;SetFacingTo(new_o);</div>
+<div class="line"><span class="lineno"> 2148</span> </div>
+<div class="line"><span class="lineno"> 2149</span>                c-&gt;CastSpell((<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>*)<span class="keyword">nullptr</span>, 63297, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2150</span>                c-&gt;CastSpell((<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>*)<span class="keyword">nullptr</span>, 64042, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2151</span>            }</div>
+<div class="line"><span class="lineno"> 2152</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
+<div class="ttc" id="a_timer_8h_html_ad9f0d19bcdfb695da4f399b36471c7de"><div class="ttname"><a href="../../d5/d29/_timer_8h.html#ad9f0d19bcdfb695da4f399b36471c7de">getMSTimeDiff</a></div><div class="ttdeci">uint32 getMSTimeDiff(uint32 oldMSTime, uint32 newMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:110</div></div>
+<div class="ttc" id="aclass_aura_script_html_a67261dcb8b5f6089bdc1a906c91d61df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">AuraScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1010</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclassspell__mimiron__p3wx2__laser__barrage_1_1spell__mimiron__p3wx2__laser__barrage___aura_script_html_a349426d5f23a7da8fbc645b72a234479"><div class="ttname"><a href="../../d5/d17/classspell__mimiron__p3wx2__laser__barrage_1_1spell__mimiron__p3wx2__laser__barrage___aura_script.html#a349426d5f23a7da8fbc645b72a234479">spell_mimiron_p3wx2_laser_barrage::spell_mimiron_p3wx2_laser_barrage_AuraScript::lastOrientation</a></div><div class="ttdeci">float lastOrientation</div><div class="ttdef"><b>Definition:</b> boss_mimiron.cpp:2123</div></div>
+<div class="ttc" id="anamespace_game_time_html_a6d0d49f37e25e497391157b2a2ec90c1"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a></div><div class="ttdeci">Milliseconds GetGameTimeMS()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:43</div></div>
+<div class="ttc" id="astruct_position_html_a47dfa17a367a4824c454c3fa0997b2ee"><div class="ttname"><a href="../../d1/d26/struct_position.html#a47dfa17a367a4824c454c3fa0997b2ee">Position::NormalizeOrientation</a></div><div class="ttdeci">static float NormalizeOrientation(float o)</div><div class="ttdef"><b>Definition:</b> Position.h:233</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a81f9c53e3052932fbdc93ef74e4b8df3" name="a81f9c53e3052932fbdc93ef74e4b8df3"></a>
@@ -361,7 +390,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2126</span>        {</div>
+<div class="line"><span class="lineno"> 2127</span>            lastMSTime = <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a>().count();</div>
+<div class="line"><span class="lineno"> 2128</span>            <a class="code hl_variable" href="../../d5/d17/classspell__mimiron__p3wx2__laser__barrage_1_1spell__mimiron__p3wx2__laser__barrage___aura_script.html#a349426d5f23a7da8fbc645b72a234479">lastOrientation</a> = -1.0f;</div>
+<div class="line"><span class="lineno"> 2129</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 2130</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abacc5a8478bb665fe406fdf8ff0a7543" name="abacc5a8478bb665fe406fdf8ff0a7543"></a>
@@ -414,7 +448,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2155</span>        {</div>
+<div class="line"><span class="lineno"> 2156</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a>(<a class="code hl_function" href="../../d5/d17/classspell__mimiron__p3wx2__laser__barrage_1_1spell__mimiron__p3wx2__laser__barrage___aura_script.html#ade51556206853c273950937e52447f41">spell_mimiron_p3wx2_laser_barrage_AuraScript::HandleEffectPeriodic</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a>);</div>
+<div class="line"><span class="lineno"> 2157</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a></div><div class="ttdeci">@ EFFECT_1</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:31</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_TRIGGER_SPELL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:86</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a63dd33eaa91292bfb53b1d9f2b0eba29"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a></div><div class="ttdeci">#define AuraEffectPeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:750</div></div>
+<div class="ttc" id="aclass_aura_script_html_a491e7fc0a1acd202b60fa1aed79a9377"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">AuraScript::OnEffectPeriodic</a></div><div class="ttdeci">HookList&lt; EffectPeriodicHandler &gt; OnEffectPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:749</div></div>
+<div class="ttc" id="aclassspell__mimiron__p3wx2__laser__barrage_1_1spell__mimiron__p3wx2__laser__barrage___aura_script_html_ade51556206853c273950937e52447f41"><div class="ttname"><a href="../../d5/d17/classspell__mimiron__p3wx2__laser__barrage_1_1spell__mimiron__p3wx2__laser__barrage___aura_script.html#ade51556206853c273950937e52447f41">spell_mimiron_p3wx2_laser_barrage::spell_mimiron_p3wx2_laser_barrage_AuraScript::HandleEffectPeriodic</a></div><div class="ttdeci">void HandleEffectPeriodic(AuraEffect const *)</div><div class="ttdef"><b>Definition:</b> boss_mimiron.cpp:2132</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -441,7 +483,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../dc/d29/boss__mimiron_8cpp.html">boss_mimiron.cpp</a></li>
+<li><a class="el" href="../../">boss_mimiron.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -449,7 +491,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d99/classspell__mimiron__p3wx2__laser__barrage.html">spell_mimiron_p3wx2_laser_barrage</a></li><li class="navelem"><a class="el" href="../../d5/d17/classspell__mimiron__p3wx2__laser__barrage_1_1spell__mimiron__p3wx2__laser__barrage___aura_script.html">spell_mimiron_p3wx2_laser_barrage_AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:22 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

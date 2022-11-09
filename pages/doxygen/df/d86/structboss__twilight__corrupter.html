@@ -497,7 +497,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afe140d6231d9ad8543e17c4a8a8230c0" name="afe140d6231d9ad8543e17c4a8a8230c0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afe140d6231d9ad8543e17c4a8a8230c0">&#9670;&#160;</a></span>boss_twilight_corrupter()</h2>
 
@@ -521,7 +522,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   49</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -550,7 +553,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   87</span>    {</div>
+<div class="line"><span class="lineno">   88</span>        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../de/df1/zone__duskwood_8cpp.html#aa58e311eb19c72984d1fb3bcf9ae2a68a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>);</div>
+<div class="line"><span class="lineno">   89</span>        <a class="code hl_variable" href="../../df/d86/structboss__twilight__corrupter.html#a6c49eee2be24199418096cc48c50d384">_scheduler</a></div>
+<div class="line"><span class="lineno">   90</span>            .<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(12s, 18s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">   91</span>            {</div>
+<div class="line"><span class="lineno">   92</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ab0dadfc6e68d67b01c1156e8439fe0f8">DoCastRandomTarget</a>(<a class="code hl_enumvalue" href="../../de/df1/zone__duskwood_8cpp.html#a5bd342133be8c2137b831460acc9298ca0bb6ecbd56340192fb160a288f42d69f">SPELL_CREATURE_OF_NIGHTMARE</a>, 1, 100.f);</div>
+<div class="line"><span class="lineno">   93</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(35s, 45s);</div>
+<div class="line"><span class="lineno">   94</span>            })</div>
+<div class="line"><span class="lineno">   95</span>            .Schedule(9s, 16s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">   96</span>            {</div>
+<div class="line"><span class="lineno">   97</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../de/df1/zone__duskwood_8cpp.html#a5bd342133be8c2137b831460acc9298cadf9dc8cb0274ecae5a575b3aa8f5f87b">SPELL_SOUL_CORRUPTION</a>);</div>
+<div class="line"><span class="lineno">   98</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(5s, 9s);</div>
+<div class="line"><span class="lineno">   99</span>            });</div>
+<div class="line"><span class="lineno">  100</span>    }</div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_task_context_html"><div class="ttname"><a href="../../d2/dd9/class_task_context.html">TaskContext</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
+<div class="ttc" id="aclass_task_context_html_a380c596857dd0030414db5e8d28a3dda"><div class="ttname"><a href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">TaskContext::Repeat</a></div><div class="ttdeci">TaskContext &amp; Repeat(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:470</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a0e0579d2a2397de5a79c756d5e59a830"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">TaskScheduler::Schedule</a></div><div class="ttdeci">TaskScheduler &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:217</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_ab0dadfc6e68d67b01c1156e8439fe0f8"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#ab0dadfc6e68d67b01c1156e8439fe0f8">UnitAI::DoCastRandomTarget</a></div><div class="ttdeci">SpellCastResult DoCastRandomTarget(uint32 spellId, uint32 threatTablePosition=0, float dist=0.0f, bool playerOnly=true, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:257</div></div>
+<div class="ttc" id="astructboss__twilight__corrupter_html_a6c49eee2be24199418096cc48c50d384"><div class="ttname"><a href="../../df/d86/structboss__twilight__corrupter.html#a6c49eee2be24199418096cc48c50d384">boss_twilight_corrupter::_scheduler</a></div><div class="ttdeci">TaskScheduler _scheduler</div><div class="ttdef"><b>Definition:</b> zone_duskwood.cpp:124</div></div>
+<div class="ttc" id="azone__duskwood_8cpp_html_a5bd342133be8c2137b831460acc9298ca0bb6ecbd56340192fb160a288f42d69f"><div class="ttname"><a href="../../de/df1/zone__duskwood_8cpp.html#a5bd342133be8c2137b831460acc9298ca0bb6ecbd56340192fb160a288f42d69f">SPELL_CREATURE_OF_NIGHTMARE</a></div><div class="ttdeci">@ SPELL_CREATURE_OF_NIGHTMARE</div><div class="ttdef"><b>Definition:</b> zone_duskwood.cpp:26</div></div>
+<div class="ttc" id="azone__duskwood_8cpp_html_a5bd342133be8c2137b831460acc9298cadf9dc8cb0274ecae5a575b3aa8f5f87b"><div class="ttname"><a href="../../de/df1/zone__duskwood_8cpp.html#a5bd342133be8c2137b831460acc9298cadf9dc8cb0274ecae5a575b3aa8f5f87b">SPELL_SOUL_CORRUPTION</a></div><div class="ttdeci">@ SPELL_SOUL_CORRUPTION</div><div class="ttdef"><b>Definition:</b> zone_duskwood.cpp:25</div></div>
+<div class="ttc" id="azone__duskwood_8cpp_html_aa58e311eb19c72984d1fb3bcf9ae2a68a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../de/df1/zone__duskwood_8cpp.html#aa58e311eb19c72984d1fb3bcf9ae2a68a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> zone_duskwood.cpp:39</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afe06461e9f3e1549da6631d2f89406c4" name="afe06461e9f3e1549da6631d2f89406c4"></a>
@@ -577,7 +604,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#aa88ecdf57b44fb013c3fed4ff59aec0d">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>    {</div>
+<div class="line"><span class="lineno">   59</span>        <span class="comment">// Xinef: check if copy is summoned</span></div>
+<div class="line"><span class="lineno">   60</span>        std::list&lt;Creature*&gt; cList;</div>
+<div class="line"><span class="lineno">   61</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa0a6f93bf47966d32dae1ef3fee55ac7">GetCreatureListWithEntryInGrid</a>(cList, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>(), 50.0f);</div>
+<div class="line"><span class="lineno">   62</span>        <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* creature : cList)</div>
+<div class="line"><span class="lineno">   63</span>        {</div>
+<div class="line"><span class="lineno">   64</span>            <span class="keywordflow">if</span> (creature-&gt;IsAlive() &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>() != creature-&gt;GetGUID())</div>
+<div class="line"><span class="lineno">   65</span>            {</div>
+<div class="line"><span class="lineno">   66</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(1);</div>
+<div class="line"><span class="lineno">   67</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   68</span>            }</div>
+<div class="line"><span class="lineno">   69</span>        }</div>
+<div class="line"><span class="lineno">   70</span> </div>
+<div class="line"><span class="lineno">   71</span>        <a class="code hl_variable" href="../../df/d86/structboss__twilight__corrupter.html#a1924750c9d41ed588a29aace3c40742d">_introSpoken</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   72</span>        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aa88ecdf57b44fb013c3fed4ff59aec0d">ScriptedAI::InitializeAI</a>();</div>
+<div class="line"><span class="lineno">   73</span>    }</div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aa88ecdf57b44fb013c3fed4ff59aec0d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aa88ecdf57b44fb013c3fed4ff59aec0d">UnitAI::InitializeAI</a></div><div class="ttdeci">virtual void InitializeAI()</div><div class="ttdef"><b>Definition:</b> UnitAI.h:188</div></div>
+<div class="ttc" id="aclass_world_object_html_aa0a6f93bf47966d32dae1ef3fee55ac7"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa0a6f93bf47966d32dae1ef3fee55ac7">WorldObject::GetCreatureListWithEntryInGrid</a></div><div class="ttdeci">void GetCreatureListWithEntryInGrid(std::list&lt; Creature * &gt; &amp;lList, uint32 uiEntry, float fMaxSearchRange) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2446</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructboss__twilight__corrupter_html_a1924750c9d41ed588a29aace3c40742d"><div class="ttname"><a href="../../df/d86/structboss__twilight__corrupter.html#a1924750c9d41ed588a29aace3c40742d">boss_twilight_corrupter::_introSpoken</a></div><div class="ttdeci">bool _introSpoken</div><div class="ttdef"><b>Definition:</b> zone_duskwood.cpp:123</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa18d2fc90e1ccd322ec9d3128ba206d2" name="aa18d2fc90e1ccd322ec9d3128ba206d2"></a>
@@ -605,7 +656,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  103</span>    {</div>
+<div class="line"><span class="lineno">  104</span>        <span class="keywordflow">if</span> (victim-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  105</span>        {</div>
+<div class="line"><span class="lineno">  106</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../de/df1/zone__duskwood_8cpp.html#aa58e311eb19c72984d1fb3bcf9ae2a68a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a>, victim);</div>
+<div class="line"><span class="lineno">  107</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../de/df1/zone__duskwood_8cpp.html#a5bd342133be8c2137b831460acc9298ca12cc1a7913b3324d03e18e7efef54df9">SPELL_SWELL_OF_SOULS</a>);</div>
+<div class="line"><span class="lineno">  108</span>        }</div>
+<div class="line"><span class="lineno">  109</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6ae5c7d15b747433f4d94f80bcebd215"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">UnitAI::DoCastSelf</a></div><div class="ttdeci">SpellCastResult DoCastSelf(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:323</div></div>
+<div class="ttc" id="azone__duskwood_8cpp_html_a5bd342133be8c2137b831460acc9298ca12cc1a7913b3324d03e18e7efef54df9"><div class="ttname"><a href="../../de/df1/zone__duskwood_8cpp.html#a5bd342133be8c2137b831460acc9298ca12cc1a7913b3324d03e18e7efef54df9">SPELL_SWELL_OF_SOULS</a></div><div class="ttdeci">@ SPELL_SWELL_OF_SOULS</div><div class="ttdef"><b>Definition:</b> zone_duskwood.cpp:27</div></div>
+<div class="ttc" id="azone__duskwood_8cpp_html_aa58e311eb19c72984d1fb3bcf9ae2a68a7f4f26c3b97b953fd229ac5d308024d5"><div class="ttname"><a href="../../de/df1/zone__duskwood_8cpp.html#aa58e311eb19c72984d1fb3bcf9ae2a68a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a></div><div class="ttdeci">@ SAY_KILL</div><div class="ttdef"><b>Definition:</b> zone_duskwood.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a637cdd43f2f9a4f773b4b8e8f3c88730" name="a637cdd43f2f9a4f773b4b8e8f3c88730"></a>
@@ -633,7 +696,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   76</span>    {</div>
+<div class="line"><span class="lineno">   77</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../df/d86/structboss__twilight__corrupter.html#a1924750c9d41ed588a29aace3c40742d">_introSpoken</a> &amp;&amp; who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">   78</span>        {</div>
+<div class="line"><span class="lineno">   79</span>            <a class="code hl_variable" href="../../df/d86/structboss__twilight__corrupter.html#a1924750c9d41ed588a29aace3c40742d">_introSpoken</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   80</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../de/df1/zone__duskwood_8cpp.html#aa58e311eb19c72984d1fb3bcf9ae2a68a075209927f03e99c695fcf57e68d1611">SAY_RESPAWN</a>, who);</div>
+<div class="line"><span class="lineno">   81</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2ad5df5c249f2a8680cdf3cdf81931f1a9">FACTION_MONSTER</a>);</div>
+<div class="line"><span class="lineno">   82</span>        }</div>
+<div class="line"><span class="lineno">   83</span>        <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">ScriptedAI::MoveInLineOfSight</a>(who);</div>
+<div class="line"><span class="lineno">   84</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_ac5c8e776fe109c83a63abe41eb5e80f2ad5df5c249f2a8680cdf3cdf81931f1a9"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2ad5df5c249f2a8680cdf3cdf81931f1a9">FACTION_MONSTER</a></div><div class="ttdeci">@ FACTION_MONSTER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:167</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_a1280f8bcf72254ad31c453b810615f87"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI::MoveInLineOfSight</a></div><div class="ttdeci">virtual void MoveInLineOfSight(Unit *)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:156</div></div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="azone__duskwood_8cpp_html_aa58e311eb19c72984d1fb3bcf9ae2a68a075209927f03e99c695fcf57e68d1611"><div class="ttname"><a href="../../de/df1/zone__duskwood_8cpp.html#aa58e311eb19c72984d1fb3bcf9ae2a68a075209927f03e99c695fcf57e68d1611">SAY_RESPAWN</a></div><div class="ttdeci">@ SAY_RESPAWN</div><div class="ttdef"><b>Definition:</b> zone_duskwood.cpp:38</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a27720f58056206c09bce41ae50018a83" name="a27720f58056206c09bce41ae50018a83"></a>
@@ -660,7 +736,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   52</span>    {</div>
+<div class="line"><span class="lineno">   53</span>        <a class="code hl_variable" href="../../df/d86/structboss__twilight__corrupter.html#a6c49eee2be24199418096cc48c50d384">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">CancelAll</a>();</div>
+<div class="line"><span class="lineno">   54</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_enumvalue" href="../../de/df1/zone__duskwood_8cpp.html#a5bd342133be8c2137b831460acc9298ca12cc1a7913b3324d03e18e7efef54df9">SPELL_SWELL_OF_SOULS</a>);</div>
+<div class="line"><span class="lineno">   55</span>    }</div>
+<div class="ttc" id="aclass_task_scheduler_html_a05da7a474b80d725c991dde9d24df4a4"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">TaskScheduler::CancelAll</a></div><div class="ttdeci">TaskScheduler &amp; CancelAll()</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:33</div></div>
+<div class="ttc" id="aclass_unit_html_aac612f06e84142d92dcfc432b5feb4ac"><div class="ttname"><a href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">Unit::RemoveAurasDueToSpell</a></div><div class="ttdeci">void RemoveAurasDueToSpell(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, uint8 reqEffMask=0, AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4823</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a580fbaa55a5c0193c1ef2c6b281d8d9e" name="a580fbaa55a5c0193c1ef2c6b281d8d9e"></a>
@@ -688,7 +770,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  112</span>    {</div>
+<div class="line"><span class="lineno">  113</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  114</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  115</span> </div>
+<div class="line"><span class="lineno">  116</span>        <a class="code hl_variable" href="../../df/d86/structboss__twilight__corrupter.html#a6c49eee2be24199418096cc48c50d384">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">Update</a>(diff, [<span class="keyword">this</span>]</div>
+<div class="line"><span class="lineno">  117</span>            {</div>
+<div class="line"><span class="lineno">  118</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  119</span>            });</div>
+<div class="line"><span class="lineno">  120</span>    }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a35c0891c7aded13c6ae7ecd2e6d480a9"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">TaskScheduler::Update</a></div><div class="ttdeci">TaskScheduler &amp; Update(success_t const &amp;callback=EmptyCallback)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:15</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -737,7 +831,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/<a class="el" href="../../de/df1/zone__duskwood_8cpp.html">zone_duskwood.cpp</a></li>
+<li><a class="el" href="../../">zone_duskwood.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -745,7 +839,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d86/structboss__twilight__corrupter.html">boss_twilight_corrupter</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:43 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

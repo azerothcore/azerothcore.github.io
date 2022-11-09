@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4bc121ecc9357709ec2f1ea395d0b6b1" name="a4bc121ecc9357709ec2f1ea395d0b6b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4bc121ecc9357709ec2f1ea395d0b6b1">&#9670;&#160;</a></span>HandleEffectApply()</h2>
 
@@ -336,7 +337,25 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  676</span>    {</div>
+<div class="line"><span class="lineno">  677</span>        <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">PreventDefaultAction</a>();</div>
+<div class="line"><span class="lineno">  678</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* owner = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;ToTempSummon()-&gt;GetSummonerUnit())</div>
+<div class="line"><span class="lineno">  679</span>        {</div>
+<div class="line"><span class="lineno">  680</span>            <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881a89f1b8c28d6c8813b9ece7c17144995c">UNIT_VIRTUAL_ITEM_SLOT_ID</a>, owner-&gt;GetUInt32Value(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881a7c77babca17795b8279db88d4aa055a5">PLAYER_VISIBLE_ITEM_16_ENTRYID</a>));</div>
+<div class="line"><span class="lineno">  681</span>            <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881a89f1b8c28d6c8813b9ece7c17144995c">UNIT_VIRTUAL_ITEM_SLOT_ID</a> + 1, owner-&gt;GetUInt32Value(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881a5b60b147baeb896f437d653a272d6501">PLAYER_VISIBLE_ITEM_17_ENTRYID</a>));</div>
+<div class="line"><span class="lineno">  682</span>            <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#abc072fa242381b397e4d282e31bcb950">SetFloatValue</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881a5d4231a6ae9534b6e7984b5c1e269cb3">UNIT_FIELD_COMBATREACH</a>, 0.01f);</div>
+<div class="line"><span class="lineno">  683</span>        }</div>
+<div class="line"><span class="lineno">  684</span>    }</div>
+<div class="ttc" id="a_update_fields_8h_html_a0e42dc606678c9df7884e1aad621e881a5b60b147baeb896f437d653a272d6501"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881a5b60b147baeb896f437d653a272d6501">PLAYER_VISIBLE_ITEM_17_ENTRYID</a></div><div class="ttdeci">@ PLAYER_VISIBLE_ITEM_17_ENTRYID</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:318</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a0e42dc606678c9df7884e1aad621e881a5d4231a6ae9534b6e7984b5c1e269cb3"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881a5d4231a6ae9534b6e7984b5c1e269cb3">UNIT_FIELD_COMBATREACH</a></div><div class="ttdeci">@ UNIT_FIELD_COMBATREACH</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:123</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a0e42dc606678c9df7884e1aad621e881a7c77babca17795b8279db88d4aa055a5"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881a7c77babca17795b8279db88d4aa055a5">PLAYER_VISIBLE_ITEM_16_ENTRYID</a></div><div class="ttdeci">@ PLAYER_VISIBLE_ITEM_16_ENTRYID</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:316</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a0e42dc606678c9df7884e1aad621e881a89f1b8c28d6c8813b9ece7c17144995c"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881a89f1b8c28d6c8813b9ece7c17144995c">UNIT_VIRTUAL_ITEM_SLOT_ID</a></div><div class="ttdeci">@ UNIT_VIRTUAL_ITEM_SLOT_ID</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:116</div></div>
+<div class="ttc" id="aclass_aura_script_html_a19e0ed231d33245849ef31acb0f2bca3"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">AuraScript::PreventDefaultAction</a></div><div class="ttdeci">void PreventDefaultAction()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:975</div></div>
+<div class="ttc" id="aclass_aura_script_html_ae0ce7b7a97c6bcb2734ac79f8fa86a15"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">AuraScript::GetUnitOwner</a></div><div class="ttdeci">Unit * GetUnitOwner() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1020</div></div>
+<div class="ttc" id="aclass_object_html_abc072fa242381b397e4d282e31bcb950"><div class="ttname"><a href="../../d8/d83/class_object.html#abc072fa242381b397e4d282e31bcb950">Object::SetFloatValue</a></div><div class="ttdeci">void SetFloatValue(uint16 index, float value)</div><div class="ttdef"><b>Definition:</b> Object.cpp:737</div></div>
+<div class="ttc" id="aclass_object_html_adc7e9b205f35f9894ec9a4f0ec0871f9"><div class="ttname"><a href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">Object::SetUInt32Value</a></div><div class="ttdeci">void SetUInt32Value(uint16 index, uint32 value)</div><div class="ttdef"><b>Definition:</b> Object.cpp:650</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac7f16aed55aedba6da0672c3102a5fae" name="ac7f16aed55aedba6da0672c3102a5fae"></a>
@@ -389,11 +408,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  687</span>    {</div>
+<div class="line"><span class="lineno">  688</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#af325738f50fb9df450999e5e04ea65ed">OnEffectApply</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a>(<a class="code hl_function" href="../../d2/dcd/classspell__dk__dancing__rune__weapon__visual.html#a4bc121ecc9357709ec2f1ea395d0b6b1">spell_dk_dancing_rune_weapon_visual::HandleEffectApply</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno">  689</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a></div><div class="ttdeci">@ SPELL_AURA_DUMMY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:67</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:42</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ac47070c5a13a5436cc5d204a1445c993"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a></div><div class="ttdeci">#define AuraEffectApplyFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:733</div></div>
+<div class="ttc" id="aclass_aura_script_html_af325738f50fb9df450999e5e04ea65ed"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#af325738f50fb9df450999e5e04ea65ed">AuraScript::OnEffectApply</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; OnEffectApply</div><div class="ttdef"><b>Definition:</b> SpellScript.h:728</div></div>
+<div class="ttc" id="aclassspell__dk__dancing__rune__weapon__visual_html_a4bc121ecc9357709ec2f1ea395d0b6b1"><div class="ttname"><a href="../../d2/dcd/classspell__dk__dancing__rune__weapon__visual.html#a4bc121ecc9357709ec2f1ea395d0b6b1">spell_dk_dancing_rune_weapon_visual::HandleEffectApply</a></div><div class="ttdeci">void HandleEffectApply(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> spell_dk.cpp:675</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../d6/d51/spell__dk_8cpp.html">spell_dk.cpp</a></li>
+<li><a class="el" href="../../">spell_dk.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -401,7 +429,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/dcd/classspell__dk__dancing__rune__weapon__visual.html">spell_dk_dancing_rune_weapon_visual</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:17 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

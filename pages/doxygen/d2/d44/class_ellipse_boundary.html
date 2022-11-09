@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d2/d44/class_ellipse_boundary.html','.
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/da8/_area_boundary_8h_source.html">AreaBoundary.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">AreaBoundary.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for EllipseBoundary:</div>
 <div class="dyncontent">
@@ -156,7 +156,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ad781cadd6c09e482d3a93ad71440a4c2"><td class="memItemLeft" align="right" valign="top">double const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d44/class_ellipse_boundary.html#ad781cadd6c09e482d3a93ad71440a4c2">_scaleXSq</a></td></tr>
 <tr class="separator:ad781cadd6c09e482d3a93ad71440a4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aeb8c822a8c4c745de0c848721a624545" name="aeb8c822a8c4c745de0c848721a624545"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeb8c822a8c4c745de0c848721a624545">&#9670;&#160;</a></span>EllipseBoundary()</h2>
 
@@ -194,7 +195,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   50</span>                                                                                                        :</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_class" href="../../dd/d81/class_area_boundary.html">AreaBoundary</a>(isInverted), <a class="code hl_variable" href="../../d2/d44/class_ellipse_boundary.html#aa84bae8bced77e38fec652e473cf39c7">_center</a>(center), <a class="code hl_variable" href="../../d2/d44/class_ellipse_boundary.html#ae933c6b1e62967f98c95cfbd4822b818">_radiusYSq</a>(radiusY*radiusY), <a class="code hl_variable" href="../../d2/d44/class_ellipse_boundary.html#ad781cadd6c09e482d3a93ad71440a4c2">_scaleXSq</a>(<a class="code hl_variable" href="../../d2/d44/class_ellipse_boundary.html#ae933c6b1e62967f98c95cfbd4822b818">_radiusYSq</a> / (radiusX*radiusX)) { }</div>
+<div class="ttc" id="aclass_area_boundary_html"><div class="ttname"><a href="../../dd/d81/class_area_boundary.html">AreaBoundary</a></div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:24</div></div>
+<div class="ttc" id="aclass_ellipse_boundary_html_aa84bae8bced77e38fec652e473cf39c7"><div class="ttname"><a href="../../d2/d44/class_ellipse_boundary.html#aa84bae8bced77e38fec652e473cf39c7">EllipseBoundary::_center</a></div><div class="ttdeci">DoublePosition const _center</div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:111</div></div>
+<div class="ttc" id="aclass_ellipse_boundary_html_ad781cadd6c09e482d3a93ad71440a4c2"><div class="ttname"><a href="../../d2/d44/class_ellipse_boundary.html#ad781cadd6c09e482d3a93ad71440a4c2">EllipseBoundary::_scaleXSq</a></div><div class="ttdeci">double const _scaleXSq</div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:112</div></div>
+<div class="ttc" id="aclass_ellipse_boundary_html_ae933c6b1e62967f98c95cfbd4822b818"><div class="ttname"><a href="../../d2/d44/class_ellipse_boundary.html#ae933c6b1e62967f98c95cfbd4822b818">EllipseBoundary::_radiusYSq</a></div><div class="ttdeci">double const _radiusYSq</div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:112</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -223,7 +230,14 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../dd/d81/class_area_boundary.html#ae5580b0044dba24d100831fe51ee1abc">AreaBoundary</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   54</span>{</div>
+<div class="line"><span class="lineno">   55</span>    <span class="keywordtype">double</span> offX = <a class="code hl_variable" href="../../d2/d44/class_ellipse_boundary.html#aa84bae8bced77e38fec652e473cf39c7">_center</a>.<a class="code hl_function" href="../../d3/df7/struct_area_boundary_1_1_double_position.html#a7c769d1762f99150a46ceaa2b2bfa8e8">GetDoublePositionX</a>() - pos-&gt;GetPositionX();</div>
+<div class="line"><span class="lineno">   56</span>    <span class="keywordtype">double</span> offY = <a class="code hl_variable" href="../../d2/d44/class_ellipse_boundary.html#aa84bae8bced77e38fec652e473cf39c7">_center</a>.<a class="code hl_function" href="../../d3/df7/struct_area_boundary_1_1_double_position.html#a201096c85022d54b1d9dbe9264df901f">GetDoublePositionY</a>() - pos-&gt;GetPositionY();</div>
+<div class="line"><span class="lineno">   57</span>    <span class="keywordflow">return</span> (offX*offX)*<a class="code hl_variable" href="../../d2/d44/class_ellipse_boundary.html#ad781cadd6c09e482d3a93ad71440a4c2">_scaleXSq</a> + (offY*offY)  &lt;=  <a class="code hl_variable" href="../../d2/d44/class_ellipse_boundary.html#ae933c6b1e62967f98c95cfbd4822b818">_radiusYSq</a>;</div>
+<div class="line"><span class="lineno">   58</span>}</div>
+<div class="ttc" id="astruct_area_boundary_1_1_double_position_html_a201096c85022d54b1d9dbe9264df901f"><div class="ttname"><a href="../../d3/df7/struct_area_boundary_1_1_double_position.html#a201096c85022d54b1d9dbe9264df901f">AreaBoundary::DoublePosition::GetDoublePositionY</a></div><div class="ttdeci">double GetDoublePositionY() const</div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:46</div></div>
+<div class="ttc" id="astruct_area_boundary_1_1_double_position_html_a7c769d1762f99150a46ceaa2b2bfa8e8"><div class="ttname"><a href="../../d3/df7/struct_area_boundary_1_1_double_position.html#a7c769d1762f99150a46ceaa2b2bfa8e8">AreaBoundary::DoublePosition::GetDoublePositionX</a></div><div class="ttdeci">double GetDoublePositionX() const</div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:45</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -294,8 +308,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Maps/<a class="el" href="../../d1/da8/_area_boundary_8h_source.html">AreaBoundary.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Maps/<a class="el" href="../../d5/d62/_area_boundary_8cpp.html">AreaBoundary.cpp</a></li>
+<li><a class="el" href="../../">AreaBoundary.h</a></li>
+<li><a class="el" href="../../">AreaBoundary.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -303,7 +317,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d44/class_ellipse_boundary.html">EllipseBoundary</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

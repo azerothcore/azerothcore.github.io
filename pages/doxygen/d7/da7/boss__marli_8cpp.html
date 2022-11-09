@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/ZulGurub/boss_marli.cpp File Reference</title>
+<title>AzeorthCore: boss_marli.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -112,13 +112,15 @@ $(document).ready(function(){initNavTree('d7/da7/boss__marli_8cpp.html','../../'
   <div class="headertitle"><div class="title">boss_marli.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d5/dcc/_game_object_a_i_8h_source.html">GameObjectAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dad/_scripted_creature_8h_source.html">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/dd6/_task_scheduler_8h_source.html">TaskScheduler.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/df0/zulgurub_8h_source.html">zulgurub.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">GameObjectAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">TaskScheduler.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">zulgurub.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dda/structboss__marli.html">boss_marli</a></td></tr>
@@ -13540,7 +13542,40 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74" name="af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74"></a>EVENT_ARCANE_BLAST&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9" name="af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9"></a>EVENT_BELLOWING_ROAR&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   65</span>{</div>
+<div class="line"><span class="lineno">   66</span>    <span class="comment">// Spider form</span></div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a963a4bedbec5664f3c83e0b595e02321">EVENT_CHARGE_PLAYER</a>       = 7,</div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a5d270268a39521363216eb2c57399189">EVENT_ENVELOPING_WEB</a>      = 8,</div>
+<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a822bcf9ea2f0272fc110a78c1384cda4">EVENT_CORROSIVE_POISON</a>    = 9,</div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a2b3d2f181bb5438916e0dc823aff2e70">EVENT_POISON_SHOCK</a>        = 10,</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>    <span class="comment">// Troll form</span></div>
+<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a21d2e6fa3139869dac0908733a9600e4">EVENT_POISON_VOLLEY</a>       = 11,</div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a1f96723b5b114cf38ca6d3951c892582">EVENT_DRAIN_LIFE</a>          = 12,</div>
+<div class="line"><span class="lineno">   75</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a6292f176a154b79b6d35df9a93ce7d93">EVENT_ENLARGE</a>             = 13,</div>
+<div class="line"><span class="lineno">   76</span> </div>
+<div class="line"><span class="lineno">   77</span>    <span class="comment">// All</span></div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ad144f31edf7d5629e34748409084ddb7">EVENT_SPAWN_START_SPIDERS</a> = 1,</div>
+<div class="line"><span class="lineno">   79</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1acd7dec721d0a4badc019ba61162fa21e">EVENT_TRANSFORM</a>           = 2,</div>
+<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a5915d30ae12d04f2a5459eeaaf4c2033">EVENT_TRANSFORM_BACK</a>      = 3,</div>
+<div class="line"><span class="lineno">   81</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a57594089cadebc46787db713b22fcd80">EVENT_HATCH_SPIDER_EGG</a>    = 4,</div>
+<div class="line"><span class="lineno">   82</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aebaaa45e8931cb1260ee80ba87bd2f0d">EVENT_THRASH</a>              = 5,</div>
+<div class="line"><span class="lineno">   83</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a3ea9b9ae5e9899f226ac3fe12866e42a">EVENT_TALK_FIRST_SPIDERS</a>  = 6,</div>
+<div class="line"><span class="lineno">   84</span>};</div>
+<div class="ttc" id="aboss__marli_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a1f96723b5b114cf38ca6d3951c892582"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a1f96723b5b114cf38ca6d3951c892582">EVENT_DRAIN_LIFE</a></div><div class="ttdeci">@ EVENT_DRAIN_LIFE</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:74</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a21d2e6fa3139869dac0908733a9600e4"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a21d2e6fa3139869dac0908733a9600e4">EVENT_POISON_VOLLEY</a></div><div class="ttdeci">@ EVENT_POISON_VOLLEY</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:73</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a2b3d2f181bb5438916e0dc823aff2e70"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a2b3d2f181bb5438916e0dc823aff2e70">EVENT_POISON_SHOCK</a></div><div class="ttdeci">@ EVENT_POISON_SHOCK</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:70</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a3ea9b9ae5e9899f226ac3fe12866e42a"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a3ea9b9ae5e9899f226ac3fe12866e42a">EVENT_TALK_FIRST_SPIDERS</a></div><div class="ttdeci">@ EVENT_TALK_FIRST_SPIDERS</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:83</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a57594089cadebc46787db713b22fcd80"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a57594089cadebc46787db713b22fcd80">EVENT_HATCH_SPIDER_EGG</a></div><div class="ttdeci">@ EVENT_HATCH_SPIDER_EGG</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:81</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a5915d30ae12d04f2a5459eeaaf4c2033"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a5915d30ae12d04f2a5459eeaaf4c2033">EVENT_TRANSFORM_BACK</a></div><div class="ttdeci">@ EVENT_TRANSFORM_BACK</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:80</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a5d270268a39521363216eb2c57399189"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a5d270268a39521363216eb2c57399189">EVENT_ENVELOPING_WEB</a></div><div class="ttdeci">@ EVENT_ENVELOPING_WEB</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:68</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a6292f176a154b79b6d35df9a93ce7d93"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a6292f176a154b79b6d35df9a93ce7d93">EVENT_ENLARGE</a></div><div class="ttdeci">@ EVENT_ENLARGE</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:75</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a822bcf9ea2f0272fc110a78c1384cda4"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a822bcf9ea2f0272fc110a78c1384cda4">EVENT_CORROSIVE_POISON</a></div><div class="ttdeci">@ EVENT_CORROSIVE_POISON</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:69</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a963a4bedbec5664f3c83e0b595e02321"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a963a4bedbec5664f3c83e0b595e02321">EVENT_CHARGE_PLAYER</a></div><div class="ttdeci">@ EVENT_CHARGE_PLAYER</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:67</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_af60e00b78607064c5be6aa9397ea49c1acd7dec721d0a4badc019ba61162fa21e"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1acd7dec721d0a4badc019ba61162fa21e">EVENT_TRANSFORM</a></div><div class="ttdeci">@ EVENT_TRANSFORM</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:79</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ad144f31edf7d5629e34748409084ddb7"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ad144f31edf7d5629e34748409084ddb7">EVENT_SPAWN_START_SPIDERS</a></div><div class="ttdeci">@ EVENT_SPAWN_START_SPIDERS</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:78</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_af60e00b78607064c5be6aa9397ea49c1aebaaa45e8931cb1260ee80ba87bd2f0d"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aebaaa45e8931cb1260ee80ba87bd2f0d">EVENT_THRASH</a></div><div class="ttdeci">@ EVENT_THRASH</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:82</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3329d9d369a4ae5cfa5d8eac33a0c0c6" name="a3329d9d369a4ae5cfa5d8eac33a0c0c6"></a>
@@ -14576,7 +14611,11 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a3329d9d369a4ae5cfa5d8eac33a0c0c6ab4e2567cf14e7f5312e0df378558e2cb" name="a3329d9d369a4ae5cfa5d8eac33a0c0c6ab4e2567cf14e7f5312e0df378558e2cb"></a>EVENT_SCENE_16&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3329d9d369a4ae5cfa5d8eac33a0c0c6afaba2ba84c4b5d02f3948821fd5850b3" name="a3329d9d369a4ae5cfa5d8eac33a0c0c6afaba2ba84c4b5d02f3948821fd5850b3"></a>NPC_DK_GHOUL&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   94</span>{</div>
+<div class="line"><span class="lineno">   95</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a66e0a04d85c64a529b72b7701387a5a0">GO_SPIDER_EGGS</a>            = 179985,</div>
+<div class="line"><span class="lineno">   96</span>};</div>
+<div class="ttc" id="aboss__marli_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a66e0a04d85c64a529b72b7701387a5a0"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a66e0a04d85c64a529b72b7701387a5a0">GO_SPIDER_EGGS</a></div><div class="ttdeci">@ GO_SPIDER_EGGS</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:95</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5d32d09cde4f13ec4fb05a824d3e3219" name="a5d32d09cde4f13ec4fb05a824d3e3219"></a>
@@ -14649,7 +14688,15 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a5d32d09cde4f13ec4fb05a824d3e3219ad306b605b01d26aee45d81b8a241cb65" name="a5d32d09cde4f13ec4fb05a824d3e3219ad306b605b01d26aee45d81b8a241cb65"></a>PHASE_TWO&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5d32d09cde4f13ec4fb05a824d3e3219ab240c367c5e45c91ba387ac010e238bf" name="a5d32d09cde4f13ec4fb05a824d3e3219ab240c367c5e45c91ba387ac010e238bf"></a>PHASE_THREE&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   87</span>{</div>
+<div class="line"><span class="lineno">   88</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219a010c34255c53692507f4cf089853cd05">PHASE_ONE</a>                 = 1,</div>
+<div class="line"><span class="lineno">   89</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219ad306b605b01d26aee45d81b8a241cb65">PHASE_TWO</a>                 = 2,</div>
+<div class="line"><span class="lineno">   90</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219ab240c367c5e45c91ba387ac010e238bf">PHASE_THREE</a>               = 3</div>
+<div class="line"><span class="lineno">   91</span>};</div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5d32d09cde4f13ec4fb05a824d3e3219a010c34255c53692507f4cf089853cd05"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219a010c34255c53692507f4cf089853cd05">PHASE_ONE</a></div><div class="ttdeci">@ PHASE_ONE</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:88</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5d32d09cde4f13ec4fb05a824d3e3219ab240c367c5e45c91ba387ac010e238bf"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219ab240c367c5e45c91ba387ac010e238bf">PHASE_THREE</a></div><div class="ttdeci">@ PHASE_THREE</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:90</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5d32d09cde4f13ec4fb05a824d3e3219ad306b605b01d26aee45d81b8a241cb65"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5d32d09cde4f13ec4fb05a824d3e3219ad306b605b01d26aee45d81b8a241cb65">PHASE_TWO</a></div><div class="ttdeci">@ PHASE_TWO</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:89</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a16774215bba3b38580ea51987d64cff1" name="a16774215bba3b38580ea51987d64cff1"></a>
@@ -15189,7 +15236,24 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a16774215bba3b38580ea51987d64cff1a04c962d9b6aaafde54ff92a54369135e" name="a16774215bba3b38580ea51987d64cff1a04c962d9b6aaafde54ff92a54369135e"></a>SAY_DEATH&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a16774215bba3b38580ea51987d64cff1ad2203e884b912476a5ff5394ec266b2c" name="a16774215bba3b38580ea51987d64cff1ad2203e884b912476a5ff5394ec266b2c"></a>SAY_APPEAR&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <span class="comment">// Mar&#39;li</span></div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a16774215bba3b38580ea51987d64cff1a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>               = 0,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a16774215bba3b38580ea51987d64cff1a4cec6539806038c489243e3726b6d2bd">SAY_TRANSFORM</a>           = 1,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a16774215bba3b38580ea51987d64cff1ab7657369774f39dfd7604e28ca4edfb0">SAY_SPIDER_SPAWN</a>        = 2,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a16774215bba3b38580ea51987d64cff1a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>               = 3,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a16774215bba3b38580ea51987d64cff1ad7c2f68633e33a5001fdbda463537155">SAY_TRANSFORM_BACK</a>      = 4,</div>
+<div class="line"><span class="lineno">   33</span> </div>
+<div class="line"><span class="lineno">   34</span>    <span class="comment">// Spawn of Mar&#39;li</span></div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a16774215bba3b38580ea51987d64cff1a3018776f704a1b94253f1ee488058f8f">EMOTE_FULL_GROWN</a>        = 0</div>
+<div class="line"><span class="lineno">   36</span>};</div>
+<div class="ttc" id="aboss__marli_8cpp_html_a16774215bba3b38580ea51987d64cff1a04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a16774215bba3b38580ea51987d64cff1a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:31</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a16774215bba3b38580ea51987d64cff1a3018776f704a1b94253f1ee488058f8f"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a16774215bba3b38580ea51987d64cff1a3018776f704a1b94253f1ee488058f8f">EMOTE_FULL_GROWN</a></div><div class="ttdeci">@ EMOTE_FULL_GROWN</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:35</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a16774215bba3b38580ea51987d64cff1a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a16774215bba3b38580ea51987d64cff1a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:28</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a16774215bba3b38580ea51987d64cff1a4cec6539806038c489243e3726b6d2bd"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a16774215bba3b38580ea51987d64cff1a4cec6539806038c489243e3726b6d2bd">SAY_TRANSFORM</a></div><div class="ttdeci">@ SAY_TRANSFORM</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:29</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a16774215bba3b38580ea51987d64cff1ab7657369774f39dfd7604e28ca4edfb0"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a16774215bba3b38580ea51987d64cff1ab7657369774f39dfd7604e28ca4edfb0">SAY_SPIDER_SPAWN</a></div><div class="ttdeci">@ SAY_SPIDER_SPAWN</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:30</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a16774215bba3b38580ea51987d64cff1ad7c2f68633e33a5001fdbda463537155"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a16774215bba3b38580ea51987d64cff1ad7c2f68633e33a5001fdbda463537155">SAY_TRANSFORM_BACK</a></div><div class="ttdeci">@ SAY_TRANSFORM_BACK</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:32</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5bd342133be8c2137b831460acc9298c" name="a5bd342133be8c2137b831460acc9298c"></a>
@@ -18101,7 +18165,46 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a5bd342133be8c2137b831460acc9298ca504d01cfc63a8b604bcd1b8e4885a5df" name="a5bd342133be8c2137b831460acc9298ca504d01cfc63a8b604bcd1b8e4885a5df"></a>SPELL_SUMMON_NETHER_WRAITH_3&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5bd342133be8c2137b831460acc9298cab148123342fab6e991d3dcc39a339386" name="a5bd342133be8c2137b831460acc9298cab148123342fab6e991d3dcc39a339386"></a>SPELL_SUMMON_NETHER_WRAITH_4&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
+<div class="line"><span class="lineno">   40</span>    <span class="comment">// Spider form</span></div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca379cd345f5bd4f776413760e5e279963">SPELL_CHARGE</a>              = 22911,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298cae1ec2f172e62528644ddad62bf99e5bb">SPELL_ENVELOPING_WEB</a>      = 24110,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca818edbfea0cf0c02ff4960dc3223a5f3">SPELL_CORROSIVE_POISON</a>    = 24111,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca1060b31df8e0a9bb9da396eb250017bb">SPELL_POISON_SHOCK</a>        = 24112,</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>    <span class="comment">//Troll form</span></div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298cad15341823b58a566640a9a35fb1d99fc">SPELL_POISON_VOLLEY</a>       = 24099,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298caf9dde7a188d35d2ff6c520391261e2f6">SPELL_DRAIN_LIFE</a>          = 24300,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298cad5e088ba088e96347d6be84c979bfa7f">SPELL_ENLARGE</a>             = 24109,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca5bbb88c8e93c5fd79d36a9efc347fdbf">SPELL_SPIDER_EGGS</a>         = 24082,</div>
+<div class="line"><span class="lineno">   51</span> </div>
+<div class="line"><span class="lineno">   52</span>    <span class="comment">// All</span></div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca445a98b6affbda6348c80a74dfc08e6d">SPELL_SPIDER_FORM</a>         = 24084,</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca4736ccdb0e811b4a78cd9a05cab96631">SPELL_TRANSFORM_BACK</a>      = 24085,</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298caab4ccf93bfa07a14df4f49c08ca4318b">SPELL_THRASH</a>              = 3391,</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca372c9561f86690cacd0f17a341108cb1">SPELL_HATCH_SPIDER_EGG</a>    = 24082,</div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca9d2f1f6ab52e1c9cb3a745d504f81938">SPELL_HATCH_EGGS</a>          = 24083,</div>
+<div class="line"><span class="lineno">   58</span> </div>
+<div class="line"><span class="lineno">   59</span>    <span class="comment">// Spawn of Mar&#39;li</span></div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298cab5ffa8b48976a4b2c53e4ecad4c37615">SPELL_GROWTH</a>              = 24086,</div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca71badf74a8035220faac683a85143e6e">SPELL_FULL_GROWN</a>          = 24088</div>
+<div class="line"><span class="lineno">   62</span>};</div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5bd342133be8c2137b831460acc9298ca1060b31df8e0a9bb9da396eb250017bb"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca1060b31df8e0a9bb9da396eb250017bb">SPELL_POISON_SHOCK</a></div><div class="ttdeci">@ SPELL_POISON_SHOCK</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:44</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5bd342133be8c2137b831460acc9298ca372c9561f86690cacd0f17a341108cb1"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca372c9561f86690cacd0f17a341108cb1">SPELL_HATCH_SPIDER_EGG</a></div><div class="ttdeci">@ SPELL_HATCH_SPIDER_EGG</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:56</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5bd342133be8c2137b831460acc9298ca379cd345f5bd4f776413760e5e279963"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca379cd345f5bd4f776413760e5e279963">SPELL_CHARGE</a></div><div class="ttdeci">@ SPELL_CHARGE</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:41</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5bd342133be8c2137b831460acc9298ca445a98b6affbda6348c80a74dfc08e6d"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca445a98b6affbda6348c80a74dfc08e6d">SPELL_SPIDER_FORM</a></div><div class="ttdeci">@ SPELL_SPIDER_FORM</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:53</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5bd342133be8c2137b831460acc9298ca4736ccdb0e811b4a78cd9a05cab96631"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca4736ccdb0e811b4a78cd9a05cab96631">SPELL_TRANSFORM_BACK</a></div><div class="ttdeci">@ SPELL_TRANSFORM_BACK</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:54</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5bd342133be8c2137b831460acc9298ca5bbb88c8e93c5fd79d36a9efc347fdbf"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca5bbb88c8e93c5fd79d36a9efc347fdbf">SPELL_SPIDER_EGGS</a></div><div class="ttdeci">@ SPELL_SPIDER_EGGS</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:50</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5bd342133be8c2137b831460acc9298ca71badf74a8035220faac683a85143e6e"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca71badf74a8035220faac683a85143e6e">SPELL_FULL_GROWN</a></div><div class="ttdeci">@ SPELL_FULL_GROWN</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:61</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5bd342133be8c2137b831460acc9298ca818edbfea0cf0c02ff4960dc3223a5f3"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca818edbfea0cf0c02ff4960dc3223a5f3">SPELL_CORROSIVE_POISON</a></div><div class="ttdeci">@ SPELL_CORROSIVE_POISON</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:43</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5bd342133be8c2137b831460acc9298ca9d2f1f6ab52e1c9cb3a745d504f81938"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298ca9d2f1f6ab52e1c9cb3a745d504f81938">SPELL_HATCH_EGGS</a></div><div class="ttdeci">@ SPELL_HATCH_EGGS</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:57</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5bd342133be8c2137b831460acc9298caab4ccf93bfa07a14df4f49c08ca4318b"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298caab4ccf93bfa07a14df4f49c08ca4318b">SPELL_THRASH</a></div><div class="ttdeci">@ SPELL_THRASH</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:55</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5bd342133be8c2137b831460acc9298cab5ffa8b48976a4b2c53e4ecad4c37615"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298cab5ffa8b48976a4b2c53e4ecad4c37615">SPELL_GROWTH</a></div><div class="ttdeci">@ SPELL_GROWTH</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:60</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5bd342133be8c2137b831460acc9298cad15341823b58a566640a9a35fb1d99fc"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298cad15341823b58a566640a9a35fb1d99fc">SPELL_POISON_VOLLEY</a></div><div class="ttdeci">@ SPELL_POISON_VOLLEY</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:47</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5bd342133be8c2137b831460acc9298cad5e088ba088e96347d6be84c979bfa7f"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298cad5e088ba088e96347d6be84c979bfa7f">SPELL_ENLARGE</a></div><div class="ttdeci">@ SPELL_ENLARGE</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:49</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5bd342133be8c2137b831460acc9298cae1ec2f172e62528644ddad62bf99e5bb"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298cae1ec2f172e62528644ddad62bf99e5bb">SPELL_ENVELOPING_WEB</a></div><div class="ttdeci">@ SPELL_ENVELOPING_WEB</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:42</div></div>
+<div class="ttc" id="aboss__marli_8cpp_html_a5bd342133be8c2137b831460acc9298caf9dde7a188d35d2ff6c520391261e2f6"><div class="ttname"><a href="../../d7/da7/boss__marli_8cpp.html#a5bd342133be8c2137b831460acc9298caf9dde7a188d35d2ff6c520391261e2f6">SPELL_DRAIN_LIFE</a></div><div class="ttdeci">@ SPELL_DRAIN_LIFE</div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:48</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -18119,7 +18222,21 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  352</span>{</div>
+<div class="line"><span class="lineno">  353</span>    <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../dd/dda/structboss__marli.html">boss_marli</a>);</div>
+<div class="line"><span class="lineno">  354</span>    <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d8/df6/structnpc__spawn__of__marli.html">npc_spawn_of_marli</a>);</div>
+<div class="line"><span class="lineno">  355</span>    <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dc/d9a/classspell__hatch__eggs.html">spell_hatch_eggs</a>);</div>
+<div class="line"><span class="lineno">  356</span>    <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d4/d07/classspell__enveloping__webs.html">spell_enveloping_webs</a>);</div>
+<div class="line"><span class="lineno">  357</span>    <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d5/dc0/classspell__marli__transform.html">spell_marli_transform</a>);</div>
+<div class="line"><span class="lineno">  358</span>}</div>
+<div class="ttc" id="a_script_mgr_8h_html_a5e7352841895df7117e2830448eb533f"><div class="ttname"><a href="../../d0/d7d/_script_mgr_8h.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a></div><div class="ttdeci">#define RegisterCreatureAI(ai_name)</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2660</div></div>
+<div class="ttc" id="a_script_mgr_8h_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d0/d7d/_script_mgr_8h.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2649</div></div>
+<div class="ttc" id="aclassspell__enveloping__webs_html"><div class="ttname"><a href="../../d4/d07/classspell__enveloping__webs.html">spell_enveloping_webs</a></div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:308</div></div>
+<div class="ttc" id="aclassspell__hatch__eggs_html"><div class="ttname"><a href="../../dc/d9a/classspell__hatch__eggs.html">spell_hatch_eggs</a></div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:291</div></div>
+<div class="ttc" id="aclassspell__marli__transform_html"><div class="ttname"><a href="../../d5/dc0/classspell__marli__transform.html">spell_marli_transform</a></div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:329</div></div>
+<div class="ttc" id="astructboss__marli_html"><div class="ttname"><a href="../../dd/dda/structboss__marli.html">boss_marli</a></div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:99</div></div>
+<div class="ttc" id="astructnpc__spawn__of__marli_html"><div class="ttname"><a href="../../d8/df6/structnpc__spawn__of__marli.html">npc_spawn_of_marli</a></div><div class="ttdef"><b>Definition:</b> boss_marli.cpp:248</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -18128,7 +18245,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ddeb450e5fe586f747c0635391d1d1d6.html">EasternKingdoms</a></li><li class="navelem"><a class="el" href="../../dir_704a0a1c688c1952f17cd27e5650d099.html">ZulGurub</a></li><li class="navelem"><a class="el" href="../../d7/da7/boss__marli_8cpp.html">boss_marli.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:24 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:37 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

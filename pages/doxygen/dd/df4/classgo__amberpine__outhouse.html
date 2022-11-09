@@ -183,7 +183,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a953ea72b3954c89b6c391de5aca3b6ce" name="a953ea72b3954c89b6c391de5aca3b6ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a953ea72b3954c89b6c391de5aca3b6ce">&#9670;&#160;</a></span>go_amberpine_outhouse()</h2>
 
@@ -206,7 +207,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1609</span>: <a class="code hl_class" href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a>(<span class="stringliteral">&quot;go_amberpine_outhouse&quot;</span>) { }</div>
+<div class="ttc" id="aclass_game_object_script_html"><div class="ttname"><a href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:758</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -245,7 +248,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#a58b56fc92ae87aea0530eceba1f3088d">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1612</span>    {</div>
+<div class="line"><span class="lineno"> 1613</span>        <a class="code hl_enumeration" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8">QuestStatus</a> status = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5a4389108dbe12ffc01dd5a03fee33f7ac">QUEST_DOING_YOUR_DUTY</a>);</div>
+<div class="line"><span class="lineno"> 1614</span>        <span class="keywordflow">if</span> (status == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a> || status == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8ae1b2fe2d9de28cc70b59a4bdd5f0abed">QUEST_STATUS_COMPLETE</a> || status == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a8aa7be8f8f2585bb49ad2e1d33a65d3c">QUEST_STATUS_REWARDED</a>)</div>
+<div class="line"><span class="lineno"> 1615</span>        {</div>
+<div class="line"><span class="lineno"> 1616</span>            <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5">AddGossipItemFor</a>(player, <a class="code hl_enumvalue" href="../../de/d79/_gossip_def_8h.html#a31ddf0cc0674d4ee32d9c78aa90b097ea1a460e97e269ca0a62d06279484d4428">GOSSIP_ICON_CHAT</a>, <a class="code hl_define" href="../../d6/d0c/go__scripts_8cpp.html#a398924c585a5209bd1fda5954adaa210">GOSSIP_USE_OUTHOUSE</a>, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a>, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a> + 1);</div>
+<div class="line"><span class="lineno"> 1617</span>            <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a>(player, <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5aeb1b8d27de342c6446f4a5fb2d8fbe8e">GOSSIP_OUTHOUSE_VACANT</a>, go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno"> 1618</span>        }</div>
+<div class="line"><span class="lineno"> 1619</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1620</span>            <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a>(player, <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5a8ea6d407949a26f6201c64b851ac7d1a">GOSSIP_OUTHOUSE_INUSE</a>, go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno"> 1621</span> </div>
+<div class="line"><span class="lineno"> 1622</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1623</span>    }</div>
+<div class="ttc" id="a_gossip_def_8h_html_a31ddf0cc0674d4ee32d9c78aa90b097ea1a460e97e269ca0a62d06279484d4428"><div class="ttname"><a href="../../de/d79/_gossip_def_8h.html#a31ddf0cc0674d4ee32d9c78aa90b097ea1a460e97e269ca0a62d06279484d4428">GOSSIP_ICON_CHAT</a></div><div class="ttdeci">@ GOSSIP_ICON_CHAT</div><div class="ttdef"><b>Definition:</b> GossipDef.h:60</div></div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8">QuestStatus</a></div><div class="ttdeci">QuestStatus</div><div class="ttdef"><b>Definition:</b> QuestDef.h:99</div></div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a8aa7be8f8f2585bb49ad2e1d33a65d3c"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a8aa7be8f8f2585bb49ad2e1d33a65d3c">QUEST_STATUS_REWARDED</a></div><div class="ttdeci">@ QUEST_STATUS_REWARDED</div><div class="ttdef"><b>Definition:</b> QuestDef.h:106</div></div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8ae1b2fe2d9de28cc70b59a4bdd5f0abed"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8ae1b2fe2d9de28cc70b59a4bdd5f0abed">QUEST_STATUS_COMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_COMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:101</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_a18599cfc6649557de0d505ed4d4a0210"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a></div><div class="ttdeci">void SendGossipMenuFor(Player *player, uint32 npcTextID, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:45</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_a1d54254ae4ddb1bb0e9e2c74dffe5bf5"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5">AddGossipItemFor</a></div><div class="ttdeci">void AddGossipItemFor(Player *player, uint32 icon, std::string const &amp;text, uint32 sender, uint32 action)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:28</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a></div><div class="ttdeci">@ GOSSIP_SENDER_MAIN</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:70</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a></div><div class="ttdeci">@ GOSSIP_ACTION_INFO_DEF</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:68</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a07b88edc032123dd2823904f2f4bbcb5a4389108dbe12ffc01dd5a03fee33f7ac"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5a4389108dbe12ffc01dd5a03fee33f7ac">QUEST_DOING_YOUR_DUTY</a></div><div class="ttdeci">@ QUEST_DOING_YOUR_DUTY</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1598</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a07b88edc032123dd2823904f2f4bbcb5a8ea6d407949a26f6201c64b851ac7d1a"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5a8ea6d407949a26f6201c64b851ac7d1a">GOSSIP_OUTHOUSE_INUSE</a></div><div class="ttdeci">@ GOSSIP_OUTHOUSE_INUSE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1602</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a07b88edc032123dd2823904f2f4bbcb5aeb1b8d27de342c6446f4a5fb2d8fbe8e"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5aeb1b8d27de342c6446f4a5fb2d8fbe8e">GOSSIP_OUTHOUSE_VACANT</a></div><div class="ttdeci">@ GOSSIP_OUTHOUSE_VACANT</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1603</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a398924c585a5209bd1fda5954adaa210"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a398924c585a5209bd1fda5954adaa210">GOSSIP_USE_OUTHOUSE</a></div><div class="ttdeci">#define GOSSIP_USE_OUTHOUSE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1591</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad0312b00c0f58bba20c442a7cb1a8b41" name="ad0312b00c0f58bba20c442a7cb1a8b41"></a>
@@ -295,11 +325,52 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#a612884c70eed9c56958ab49dc1e2bb1f">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1626</span>    {</div>
+<div class="line"><span class="lineno"> 1627</span>        <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#af077a82741577a63a075c7d40b3b3dc5">ClearGossipMenuFor</a>(player);</div>
+<div class="line"><span class="lineno"> 1628</span>        <span class="keywordflow">if</span> (action == <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a> + 1)</div>
+<div class="line"><span class="lineno"> 1629</span>        {</div>
+<div class="line"><span class="lineno"> 1630</span>            <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#af8f7e54dac5ecc86e92d780c3918cb09">CloseGossipMenuFor</a>(player);</div>
+<div class="line"><span class="lineno"> 1631</span>            <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* target = <a class="code hl_function" href="../../d4/d43/_scripted_creature_8cpp.html#a136c0c059281a05f9cb91237ce55be7b">GetClosestCreatureWithEntry</a>(player, <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5a3e62528e4220d838d85fa96bf1a8544e">NPC_OUTHOUSE_BUNNY</a>, 3.0f);</div>
+<div class="line"><span class="lineno"> 1632</span>            <span class="keywordflow">if</span> (target)</div>
+<div class="line"><span class="lineno"> 1633</span>            {</div>
+<div class="line"><span class="lineno"> 1634</span>                target-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a14c40dcfec28989cc630fa571c67ebb7">SetData</a>(1, player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0d13935c40d0392f7f7b5a34540461b2">getGender</a>());</div>
+<div class="line"><span class="lineno"> 1635</span>                go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#aca9173ae7fbd46664919d3d1caef4770">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5a63300779615323ee6c136ef363e76eeb">SPELL_INDISPOSED_III</a>);</div>
+<div class="line"><span class="lineno"> 1636</span>            }</div>
+<div class="line"><span class="lineno"> 1637</span>            go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#aca9173ae7fbd46664919d3d1caef4770">CastSpell</a>(player, <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5a73f8f5f559193c507f19dfa3b60b5147">SPELL_INDISPOSED</a>);</div>
+<div class="line"><span class="lineno"> 1638</span>            <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a3b6b7692a9496e07088b96315decc78c">HasItemCount</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5a87dd31147530587136b5ad9170479572">ITEM_ANDERHOLS_SLIDER_CIDER</a>))</div>
+<div class="line"><span class="lineno"> 1639</span>                player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(player, <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5af0cc98c4d3754f83a70e0884cbfea4ce">SPELL_CREATE_AMBERSEEDS</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1640</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1641</span>        }</div>
+<div class="line"><span class="lineno"> 1642</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1643</span>        {</div>
+<div class="line"><span class="lineno"> 1644</span>            <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#af8f7e54dac5ecc86e92d780c3918cb09">CloseGossipMenuFor</a>(player);</div>
+<div class="line"><span class="lineno"> 1645</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a2ddc739b3a6f948c1e2e4c86ab366326">SendNotification</a>(<a class="code hl_define" href="../../d6/d0c/go__scripts_8cpp.html#a15e95edb3a432c2276b12e06ee1d25f5">GO_ANDERHOLS_SLIDER_CIDER_NOT_FOUND</a>);</div>
+<div class="line"><span class="lineno"> 1646</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1647</span>        }</div>
+<div class="line"><span class="lineno"> 1648</span>    }</div>
+<div class="ttc" id="a_scripted_creature_8cpp_html_a136c0c059281a05f9cb91237ce55be7b"><div class="ttname"><a href="../../d4/d43/_scripted_creature_8cpp.html#a136c0c059281a05f9cb91237ce55be7b">GetClosestCreatureWithEntry</a></div><div class="ttdeci">Creature * GetClosestCreatureWithEntry(WorldObject *source, uint32 entry, float maxSearchRange, bool alive)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:693</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_af077a82741577a63a075c7d40b3b3dc5"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#af077a82741577a63a075c7d40b3b3dc5">ClearGossipMenuFor</a></div><div class="ttdeci">void ClearGossipMenuFor(Player *player)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:22</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_af8f7e54dac5ecc86e92d780c3918cb09"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#af8f7e54dac5ecc86e92d780c3918cb09">CloseGossipMenuFor</a></div><div class="ttdeci">void CloseGossipMenuFor(Player *player)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:56</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_game_object_html_aca9173ae7fbd46664919d3d1caef4770"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#aca9173ae7fbd46664919d3d1caef4770">GameObject::CastSpell</a></div><div class="ttdeci">void CastSpell(Unit *target, uint32 spell)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:2054</div></div>
+<div class="ttc" id="aclass_player_html_a3b6b7692a9496e07088b96315decc78c"><div class="ttname"><a href="../../d8/d53/class_player.html#a3b6b7692a9496e07088b96315decc78c">Player::HasItemCount</a></div><div class="ttdeci">bool HasItemCount(uint32 item, uint32 count=1, bool inBankAlso=false) const</div><div class="ttdef"><b>Definition:</b> PlayerStorage.cpp:686</div></div>
+<div class="ttc" id="aclass_player_html_a6ab11ca64cde7c5cde1f53998a6f7253"><div class="ttname"><a href="../../d8/d53/class_player.html#a6ab11ca64cde7c5cde1f53998a6f7253">Player::GetSession</a></div><div class="ttdeci">WorldSession * GetSession() const</div><div class="ttdef"><b>Definition:</b> Player.h:1947</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a14c40dcfec28989cc630fa571c67ebb7"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a14c40dcfec28989cc630fa571c67ebb7">UnitAI::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:198</div></div>
+<div class="ttc" id="aclass_unit_html_a0d13935c40d0392f7f7b5a34540461b2"><div class="ttname"><a href="../../da/db7/class_unit.html#a0d13935c40d0392f7f7b5a34540461b2">Unit::getGender</a></div><div class="ttdeci">uint8 getGender() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1426</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_world_session_html_a2ddc739b3a6f948c1e2e4c86ab366326"><div class="ttname"><a href="../../d1/d47/class_world_session.html#a2ddc739b3a6f948c1e2e4c86ab366326">WorldSession::SendNotification</a></div><div class="ttdeci">void SendNotification(const char *format,...) ATTR_PRINTF(2</div><div class="ttdef"><b>Definition:</b> WorldSession.cpp:763</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a07b88edc032123dd2823904f2f4bbcb5a3e62528e4220d838d85fa96bf1a8544e"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5a3e62528e4220d838d85fa96bf1a8544e">NPC_OUTHOUSE_BUNNY</a></div><div class="ttdeci">@ NPC_OUTHOUSE_BUNNY</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1597</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a07b88edc032123dd2823904f2f4bbcb5a63300779615323ee6c136ef363e76eeb"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5a63300779615323ee6c136ef363e76eeb">SPELL_INDISPOSED_III</a></div><div class="ttdeci">@ SPELL_INDISPOSED_III</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1600</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a07b88edc032123dd2823904f2f4bbcb5a73f8f5f559193c507f19dfa3b60b5147"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5a73f8f5f559193c507f19dfa3b60b5147">SPELL_INDISPOSED</a></div><div class="ttdeci">@ SPELL_INDISPOSED</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1599</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a07b88edc032123dd2823904f2f4bbcb5a87dd31147530587136b5ad9170479572"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5a87dd31147530587136b5ad9170479572">ITEM_ANDERHOLS_SLIDER_CIDER</a></div><div class="ttdeci">@ ITEM_ANDERHOLS_SLIDER_CIDER</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1596</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a07b88edc032123dd2823904f2f4bbcb5af0cc98c4d3754f83a70e0884cbfea4ce"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a07b88edc032123dd2823904f2f4bbcb5af0cc98c4d3754f83a70e0884cbfea4ce">SPELL_CREATE_AMBERSEEDS</a></div><div class="ttdeci">@ SPELL_CREATE_AMBERSEEDS</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1601</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a15e95edb3a432c2276b12e06ee1d25f5"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a15e95edb3a432c2276b12e06ee1d25f5">GO_ANDERHOLS_SLIDER_CIDER_NOT_FOUND</a></div><div class="ttdeci">#define GO_ANDERHOLS_SLIDER_CIDER_NOT_FOUND</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1592</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d6/d0c/go__scripts_8cpp.html">go_scripts.cpp</a></li>
+<li><a class="el" href="../../">go_scripts.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -307,7 +378,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/df4/classgo__amberpine__outhouse.html">go_amberpine_outhouse</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

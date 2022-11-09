@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('de/d41/class_config_mgr.html','../../'
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d4/d71/_config_8h_source.html">Config.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Config.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -185,7 +185,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aa5a8c891e53c6d76cf63d0a40fd799e1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d41/class_config_mgr.html#aa5a8c891e53c6d76cf63d0a40fd799e1">_moduleConfigFiles</a></td></tr>
 <tr class="separator:aa5a8c891e53c6d76cf63d0a40fd799e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af5206e9fdadc2123af20aba4534d2988" name="af5206e9fdadc2123af20aba4534d2988"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af5206e9fdadc2123af20aba4534d2988">&#9670;&#160;</a></span>ConfigMgr() <span class="overload">[1/2]</span></h2>
 
@@ -294,7 +295,24 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  364</span>{</div>
+<div class="line"><span class="lineno">  365</span>    <a class="code hl_variable" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a8bfa20db83fbdc4e649e394ea8d05d0d">_filename</a> = initFileName;</div>
+<div class="line"><span class="lineno">  366</span>    <a class="code hl_variable" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#aa324820f5ede7eec5a4d8eefc77298f4">_args</a> = std::move(args);</div>
+<div class="line"><span class="lineno">  367</span> </div>
+<div class="line"><span class="lineno">  368</span>    <span class="comment">// Add modules config if exist</span></div>
+<div class="line"><span class="lineno">  369</span>    <span class="keywordflow">if</span> (!modulesConfigList.empty())</div>
+<div class="line"><span class="lineno">  370</span>    {</div>
+<div class="line"><span class="lineno">  371</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; itr : <a class="code hl_function" href="../../d1/d7d/namespace_acore.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(modulesConfigList, <span class="charliteral">&#39;,&#39;</span>, <span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno">  372</span>        {</div>
+<div class="line"><span class="lineno">  373</span>            <a class="code hl_variable" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#ac4608b63b3297653b81c9c4196c12141">_additonalFiles</a>.emplace_back(itr);</div>
+<div class="line"><span class="lineno">  374</span>        }</div>
+<div class="line"><span class="lineno">  375</span>    }</div>
+<div class="line"><span class="lineno">  376</span>}</div>
+<div class="ttc" id="anamespace_acore_html_a6b121485ace4118b9006db1fb89f90f2"><div class="ttname"><a href="../../d1/d7d/namespace_acore.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a></div><div class="ttdeci">std::vector&lt; std::string_view &gt; Tokenize(std::string_view str, char sep, bool keepEmpty)</div><div class="ttdef"><b>Definition:</b> Tokenize.cpp:20</div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02_config_8cpp_03_html_a8bfa20db83fbdc4e649e394ea8d05d0d"><div class="ttname"><a href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a8bfa20db83fbdc4e649e394ea8d05d0d">anonymous_namespace{Config.cpp}::_filename</a></div><div class="ttdeci">std::string _filename</div><div class="ttdef"><b>Definition:</b> Config.cpp:30</div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02_config_8cpp_03_html_aa324820f5ede7eec5a4d8eefc77298f4"><div class="ttname"><a href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#aa324820f5ede7eec5a4d8eefc77298f4">anonymous_namespace{Config.cpp}::_args</a></div><div class="ttdeci">std::vector&lt; std::string &gt; _args</div><div class="ttdef"><b>Definition:</b> Config.cpp:32</div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02_config_8cpp_03_html_ac4608b63b3297653b81c9c4196c12141"><div class="ttname"><a href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#ac4608b63b3297653b81c9c4196c12141">anonymous_namespace{Config.cpp}::_additonalFiles</a></div><div class="ttdeci">std::vector&lt; std::string &gt; _additonalFiles</div><div class="ttdef"><b>Definition:</b> Config.cpp:31</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a824a06c1dc274c92c33d1f5681994be0" name="a824a06c1dc274c92c33d1f5681994be0"></a>
@@ -311,7 +329,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  348</span>{</div>
+<div class="line"><span class="lineno">  349</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#aa324820f5ede7eec5a4d8eefc77298f4">_args</a>;</div>
+<div class="line"><span class="lineno">  350</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa6657949e5ed59b6091b56ab1fd74b0d" name="aa6657949e5ed59b6091b56ab1fd74b0d"></a>
@@ -345,7 +366,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  480</span>{</div>
+<div class="line"><span class="lineno">  481</span>    <span class="keywordflow">return</span> GetOption&lt;bool&gt;(name, def, showLogs);</div>
+<div class="line"><span class="lineno">  482</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a104bef8d83f8c3b643f7538ac7bf5c30" name="a104bef8d83f8c3b643f7538ac7bf5c30"></a>
@@ -362,7 +386,16 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  353</span>{</div>
+<div class="line"><span class="lineno">  354</span>    std::lock_guard&lt;std::mutex&gt; lock(_configLock);</div>
+<div class="line"><span class="lineno">  355</span> </div>
+<div class="line"><span class="lineno">  356</span><span class="preprocessor">#if AC_PLATFORM == AC_PLATFORM_WINDOWS</span></div>
+<div class="line"><span class="lineno">  357</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;configs/&quot;</span>;</div>
+<div class="line"><span class="lineno">  358</span><span class="preprocessor">#else</span></div>
+<div class="line"><span class="lineno">  359</span>    <span class="keywordflow">return</span> std::string(_CONF_DIR) + <span class="stringliteral">&quot;/&quot;</span>;</div>
+<div class="line"><span class="lineno">  360</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">  361</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad002777983ff9399976fc5d4447536de" name="ad002777983ff9399976fc5d4447536de"></a>
@@ -379,7 +412,12 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  342</span>{</div>
+<div class="line"><span class="lineno">  343</span>    std::lock_guard&lt;std::mutex&gt; lock(_configLock);</div>
+<div class="line"><span class="lineno">  344</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a9e717f4e6b91b588bd101d94f32edcbd">_usingDistConfig</a> ? <a class="code hl_variable" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a8bfa20db83fbdc4e649e394ea8d05d0d">_filename</a> + <span class="stringliteral">&quot;.dist&quot;</span> : <a class="code hl_variable" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a8bfa20db83fbdc4e649e394ea8d05d0d">_filename</a>;</div>
+<div class="line"><span class="lineno">  345</span>}</div>
+<div class="ttc" id="anamespaceanonymous__namespace_02_config_8cpp_03_html_a9e717f4e6b91b588bd101d94f32edcbd"><div class="ttname"><a href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a9e717f4e6b91b588bd101d94f32edcbd">anonymous_namespace{Config.cpp}::_usingDistConfig</a></div><div class="ttdeci">bool _usingDistConfig</div><div class="ttdef"><b>Definition:</b> Config.cpp:35</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a91f6e5959a46861603e3d2daec73771d" name="a91f6e5959a46861603e3d2daec73771d"></a>
@@ -413,7 +451,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  492</span>{</div>
+<div class="line"><span class="lineno">  493</span>    <span class="keywordflow">return</span> GetOption&lt;float&gt;(name, def, showLogs);</div>
+<div class="line"><span class="lineno">  494</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5d280b4ed358e37bce586db7a3fc9e0c" name="a5d280b4ed358e37bce586db7a3fc9e0c"></a>
@@ -447,7 +488,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  486</span>{</div>
+<div class="line"><span class="lineno">  487</span>    <span class="keywordflow">return</span> GetOption&lt;int32&gt;(name, def, showLogs);</div>
+<div class="line"><span class="lineno">  488</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6172d618b5f96b7f58c8dca984afecb4" name="a6172d618b5f96b7f58c8dca984afecb4"></a>
@@ -465,7 +509,22 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  325</span>{</div>
+<div class="line"><span class="lineno">  326</span>    std::lock_guard&lt;std::mutex&gt; lock(_configLock);</div>
+<div class="line"><span class="lineno">  327</span> </div>
+<div class="line"><span class="lineno">  328</span>    std::vector&lt;std::string&gt; keys;</div>
+<div class="line"><span class="lineno">  329</span> </div>
+<div class="line"><span class="lineno">  330</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; [optionName, key] : _configOptions)</div>
+<div class="line"><span class="lineno">  331</span>    {</div>
+<div class="line"><span class="lineno">  332</span>        <span class="keywordflow">if</span> (!optionName.compare(0, name.length(), name))</div>
+<div class="line"><span class="lineno">  333</span>        {</div>
+<div class="line"><span class="lineno">  334</span>            keys.emplace_back(optionName);</div>
+<div class="line"><span class="lineno">  335</span>        }</div>
+<div class="line"><span class="lineno">  336</span>    }</div>
+<div class="line"><span class="lineno">  337</span> </div>
+<div class="line"><span class="lineno">  338</span>    <span class="keywordflow">return</span> keys;</div>
+<div class="line"><span class="lineno">  339</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac30a389fa563bf0360ac833a4a029573" name="ac30a389fa563bf0360ac833a4a029573"></a>
@@ -501,7 +560,26 @@ template&lt;&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  306</span>{</div>
+<div class="line"><span class="lineno">  307</span>    std::string val = <a class="code hl_function" href="../../de/d41/class_config_mgr.html#a4a122373714bb95f10e6532e30735e55">GetValueDefault</a>(name, std::string(def ? <span class="stringliteral">&quot;1&quot;</span> : <span class="stringliteral">&quot;0&quot;</span>), showLogs);</div>
+<div class="line"><span class="lineno">  308</span> </div>
+<div class="line"><span class="lineno">  309</span>    <span class="keyword">auto</span> boolVal = Acore::StringTo&lt;bool&gt;(val);</div>
+<div class="line"><span class="lineno">  310</span>    <span class="keywordflow">if</span> (!boolVal)</div>
+<div class="line"><span class="lineno">  311</span>    {</div>
+<div class="line"><span class="lineno">  312</span>        <span class="keywordflow">if</span> (showLogs)</div>
+<div class="line"><span class="lineno">  313</span>        {</div>
+<div class="line"><span class="lineno">  314</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Bad value defined for name &#39;{}&#39;, going to use &#39;{}&#39; instead&quot;</span>,</div>
+<div class="line"><span class="lineno">  315</span>                name, def ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>);</div>
+<div class="line"><span class="lineno">  316</span>        }</div>
+<div class="line"><span class="lineno">  317</span> </div>
+<div class="line"><span class="lineno">  318</span>        <span class="keywordflow">return</span> def;</div>
+<div class="line"><span class="lineno">  319</span>    }</div>
+<div class="line"><span class="lineno">  320</span> </div>
+<div class="line"><span class="lineno">  321</span>    <span class="keywordflow">return</span> *boolVal;</div>
+<div class="line"><span class="lineno">  322</span>}</div>
+<div class="ttc" id="a_log_8h_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+<div class="ttc" id="aclass_config_mgr_html_a4a122373714bb95f10e6532e30735e55"><div class="ttname"><a href="../../de/d41/class_config_mgr.html#a4a122373714bb95f10e6532e30735e55">ConfigMgr::GetValueDefault</a></div><div class="ttdeci">T GetValueDefault(std::string const &amp;name, T const &amp;def, bool showLogs=true) const</div><div class="ttdef"><b>Definition:</b> Config.cpp:251</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a711be8eda4077d967a3677bd138998ac" name="a711be8eda4077d967a3677bd138998ac"></a>
@@ -537,7 +615,10 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  300</span>{</div>
+<div class="line"><span class="lineno">  301</span>    <span class="keywordflow">return</span> GetValueDefault&lt;T&gt;(name, def, showLogs);</div>
+<div class="line"><span class="lineno">  302</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8e952e2273feb8b7b5c7ff67f71481f5" name="a8e952e2273feb8b7b5c7ff67f71481f5"></a>
@@ -571,7 +652,10 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  474</span>{</div>
+<div class="line"><span class="lineno">  475</span>    <span class="keywordflow">return</span> GetOption&lt;std::string&gt;(name, def, showLogs);</div>
+<div class="line"><span class="lineno">  476</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4a122373714bb95f10e6532e30735e55" name="a4a122373714bb95f10e6532e30735e55"></a>
@@ -615,7 +699,36 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  252</span>{</div>
+<div class="line"><span class="lineno">  253</span>    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; itr = <a class="code hl_variable" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a4c4d5bd9313e617a40ed0f27d79dbae9">_configOptions</a>.find(name);</div>
+<div class="line"><span class="lineno">  254</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a4c4d5bd9313e617a40ed0f27d79dbae9">_configOptions</a>.end())</div>
+<div class="line"><span class="lineno">  255</span>    {</div>
+<div class="line"><span class="lineno">  256</span>        <span class="keywordflow">if</span> (showLogs)</div>
+<div class="line"><span class="lineno">  257</span>        {</div>
+<div class="line"><span class="lineno">  258</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Missing property {} in all config files, at least the .dist file must contain: \&quot;{} = {}\&quot;&quot;</span>,</div>
+<div class="line"><span class="lineno">  259</span>                name, name, <a class="code hl_function" href="../../d1/d7d/namespace_acore.html#ac2cb308fb001c35fbaa90489ea6cf478">Acore::ToString</a>(def));</div>
+<div class="line"><span class="lineno">  260</span>        }</div>
+<div class="line"><span class="lineno">  261</span> </div>
+<div class="line"><span class="lineno">  262</span>        <span class="keywordflow">return</span> def;</div>
+<div class="line"><span class="lineno">  263</span>    }</div>
+<div class="line"><span class="lineno">  264</span> </div>
+<div class="line"><span class="lineno">  265</span>    <span class="keyword">auto</span> value = Acore::StringTo&lt;T&gt;(itr-&gt;second);</div>
+<div class="line"><span class="lineno">  266</span>    <span class="keywordflow">if</span> (!value)</div>
+<div class="line"><span class="lineno">  267</span>    {</div>
+<div class="line"><span class="lineno">  268</span>        <span class="keywordflow">if</span> (showLogs)</div>
+<div class="line"><span class="lineno">  269</span>        {</div>
+<div class="line"><span class="lineno">  270</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Bad value defined for name &#39;{}&#39;, going to use &#39;{}&#39; instead&quot;</span>,</div>
+<div class="line"><span class="lineno">  271</span>                name, <a class="code hl_function" href="../../d1/d7d/namespace_acore.html#ac2cb308fb001c35fbaa90489ea6cf478">Acore::ToString</a>(def));</div>
+<div class="line"><span class="lineno">  272</span>        }</div>
+<div class="line"><span class="lineno">  273</span> </div>
+<div class="line"><span class="lineno">  274</span>        <span class="keywordflow">return</span> def;</div>
+<div class="line"><span class="lineno">  275</span>    }</div>
+<div class="line"><span class="lineno">  276</span> </div>
+<div class="line"><span class="lineno">  277</span>    <span class="keywordflow">return</span> *value;</div>
+<div class="line"><span class="lineno">  278</span>}</div>
+<div class="ttc" id="anamespace_acore_html_ac2cb308fb001c35fbaa90489ea6cf478"><div class="ttname"><a href="../../d1/d7d/namespace_acore.html#ac2cb308fb001c35fbaa90489ea6cf478">Acore::ToString</a></div><div class="ttdeci">std::string ToString(Type &amp;&amp;val, Params &amp;&amp;... params)</div><div class="ttdef"><b>Definition:</b> StringConvert.h:250</div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02_config_8cpp_03_html_a4c4d5bd9313e617a40ed0f27d79dbae9"><div class="ttname"><a href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a4c4d5bd9313e617a40ed0f27d79dbae9">anonymous_namespace{Config.cpp}::_configOptions</a></div><div class="ttdeci">std::unordered_map&lt; std::string, std::string &gt; _configOptions</div><div class="ttdef"><b>Definition:</b> Config.cpp:33</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a775439020c2e5577206c2559bbb2b042" name="a775439020c2e5577206c2559bbb2b042"></a>
@@ -640,7 +753,13 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  235</span>{</div>
+<div class="line"><span class="lineno">  236</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../de/d41/class_config_mgr.html">ConfigMgr</a> <a class="code hl_function" href="../../de/d41/class_config_mgr.html#a775439020c2e5577206c2559bbb2b042">instance</a>;</div>
+<div class="line"><span class="lineno">  237</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../de/d41/class_config_mgr.html#a775439020c2e5577206c2559bbb2b042">instance</a>;</div>
+<div class="line"><span class="lineno">  238</span>}</div>
+<div class="ttc" id="aclass_config_mgr_html"><div class="ttname"><a href="../../de/d41/class_config_mgr.html">ConfigMgr</a></div><div class="ttdef"><b>Definition:</b> Config.h:27</div></div>
+<div class="ttc" id="aclass_config_mgr_html_a775439020c2e5577206c2559bbb2b042"><div class="ttname"><a href="../../de/d41/class_config_mgr.html#a775439020c2e5577206c2559bbb2b042">ConfigMgr::instance</a></div><div class="ttdeci">static ConfigMgr * instance()</div><div class="ttdef"><b>Definition:</b> Config.cpp:234</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a951307027c22fea8c88c3d0e78232413" name="a951307027c22fea8c88c3d0e78232413"></a>
@@ -665,7 +784,9 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   70</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d41/class_config_mgr.html#a555709e27a884d16ef6dd91cc21b806b">dryRun</a>; }</div>
+<div class="ttc" id="aclass_config_mgr_html_a555709e27a884d16ef6dd91cc21b806b"><div class="ttname"><a href="../../de/d41/class_config_mgr.html#a555709e27a884d16ef6dd91cc21b806b">ConfigMgr::dryRun</a></div><div class="ttdeci">bool dryRun</div><div class="ttdef"><b>Definition:</b> Config.h:81</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a58c320a6a1cf51bbeb51b90f0e4f2a71" name="a58c320a6a1cf51bbeb51b90f0e4f2a71"></a>
@@ -707,7 +828,12 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  229</span>{</div>
+<div class="line"><span class="lineno">  230</span>    std::lock_guard&lt;std::mutex&gt; lock(_configLock);</div>
+<div class="line"><span class="lineno">  231</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a04d7cd62693d073b89d11aab4ba3342d">LoadFile</a>(file, isOptional, isReload);</div>
+<div class="line"><span class="lineno">  232</span>}</div>
+<div class="ttc" id="anamespaceanonymous__namespace_02_config_8cpp_03_html_a04d7cd62693d073b89d11aab4ba3342d"><div class="ttname"><a href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a04d7cd62693d073b89d11aab4ba3342d">anonymous_namespace{Config.cpp}::LoadFile</a></div><div class="ttdeci">bool LoadFile(std::string const &amp;file, bool isOptional, bool isReload)</div><div class="ttdef"><b>Definition:</b> Config.cpp:206</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae8b4473b24540d12468cb994b89b78b8" name="ae8b4473b24540d12468cb994b89b78b8"></a>
@@ -725,7 +851,24 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  379</span>{</div>
+<div class="line"><span class="lineno">  380</span>    <span class="comment">// #1 - Load init config file .conf.dist</span></div>
+<div class="line"><span class="lineno">  381</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../de/d41/class_config_mgr.html#ab44a44b2613fc787f60937835bf4878f">LoadInitial</a>(_filename + <span class="stringliteral">&quot;.dist&quot;</span>, isReload))</div>
+<div class="line"><span class="lineno">  382</span>    {</div>
+<div class="line"><span class="lineno">  383</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  384</span>    }</div>
+<div class="line"><span class="lineno">  385</span> </div>
+<div class="line"><span class="lineno">  386</span>    <span class="comment">// #2 - Load .conf file</span></div>
+<div class="line"><span class="lineno">  387</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../de/d41/class_config_mgr.html#a58c320a6a1cf51bbeb51b90f0e4f2a71">LoadAdditionalFile</a>(_filename, <span class="keyword">true</span>, isReload))</div>
+<div class="line"><span class="lineno">  388</span>    {</div>
+<div class="line"><span class="lineno">  389</span>        <a class="code hl_variable" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a9e717f4e6b91b588bd101d94f32edcbd">_usingDistConfig</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  390</span>    }</div>
+<div class="line"><span class="lineno">  391</span> </div>
+<div class="line"><span class="lineno">  392</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  393</span>}</div>
+<div class="ttc" id="aclass_config_mgr_html_a58c320a6a1cf51bbeb51b90f0e4f2a71"><div class="ttname"><a href="../../de/d41/class_config_mgr.html#a58c320a6a1cf51bbeb51b90f0e4f2a71">ConfigMgr::LoadAdditionalFile</a></div><div class="ttdeci">bool LoadAdditionalFile(std::string file, bool isOptional=false, bool isReload=false)</div><div class="ttdef"><b>Definition:</b> Config.cpp:228</div></div>
+<div class="ttc" id="aclass_config_mgr_html_ab44a44b2613fc787f60937835bf4878f"><div class="ttname"><a href="../../de/d41/class_config_mgr.html#ab44a44b2613fc787f60937835bf4878f">ConfigMgr::LoadInitial</a></div><div class="ttdeci">bool LoadInitial(std::string const &amp;file, bool isReload=false)</div><div class="ttdoc">Method used only for loading main configuration files (authserver.conf and worldserver....</div><div class="ttdef"><b>Definition:</b> Config.cpp:221</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab44a44b2613fc787f60937835bf4878f" name="ab44a44b2613fc787f60937835bf4878f"></a>
@@ -763,7 +906,12 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Method used only for loading main configuration files (authserver.conf and worldserver.conf) </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  222</span>{</div>
+<div class="line"><span class="lineno">  223</span>    std::lock_guard&lt;std::mutex&gt; lock(_configLock);</div>
+<div class="line"><span class="lineno">  224</span>    <a class="code hl_variable" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a4c4d5bd9313e617a40ed0f27d79dbae9">_configOptions</a>.clear();</div>
+<div class="line"><span class="lineno">  225</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#a04d7cd62693d073b89d11aab4ba3342d">LoadFile</a>(file, <span class="keyword">false</span>, isReload);</div>
+<div class="line"><span class="lineno">  226</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4752375243302e81a5e8fb3f5615e776" name="a4752375243302e81a5e8fb3f5615e776"></a>
@@ -791,7 +939,87 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  396</span>{</div>
+<div class="line"><span class="lineno">  397</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/db4/namespaceanonymous__namespace_02_config_8cpp_03.html#ac4608b63b3297653b81c9c4196c12141">_additonalFiles</a>.empty())</div>
+<div class="line"><span class="lineno">  398</span>    {</div>
+<div class="line"><span class="lineno">  399</span>        <span class="comment">// Send successful load if no found files</span></div>
+<div class="line"><span class="lineno">  400</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  401</span>    }</div>
+<div class="line"><span class="lineno">  402</span> </div>
+<div class="line"><span class="lineno">  403</span>    <span class="keywordflow">if</span> (isNeedPrintInfo)</div>
+<div class="line"><span class="lineno">  404</span>    {</div>
+<div class="line"><span class="lineno">  405</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  406</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Loading Modules Configuration...&quot;</span>);</div>
+<div class="line"><span class="lineno">  407</span>    }</div>
+<div class="line"><span class="lineno">  408</span> </div>
+<div class="line"><span class="lineno">  409</span>    <span class="comment">// Start loading module configs</span></div>
+<div class="line"><span class="lineno">  410</span>    std::string <span class="keyword">const</span>&amp; moduleConfigPath = <a class="code hl_function" href="../../de/d41/class_config_mgr.html#a104bef8d83f8c3b643f7538ac7bf5c30">GetConfigPath</a>() + <span class="stringliteral">&quot;modules/&quot;</span>;</div>
+<div class="line"><span class="lineno">  411</span>    <span class="keywordtype">bool</span> isExistDefaultConfig = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  412</span>    <span class="keywordtype">bool</span> isExistDistConfig = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  413</span> </div>
+<div class="line"><span class="lineno">  414</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; distFileName : _additonalFiles)</div>
+<div class="line"><span class="lineno">  415</span>    {</div>
+<div class="line"><span class="lineno">  416</span>        std::string defaultFileName = distFileName;</div>
+<div class="line"><span class="lineno">  417</span> </div>
+<div class="line"><span class="lineno">  418</span>        <span class="keywordflow">if</span> (!defaultFileName.empty())</div>
+<div class="line"><span class="lineno">  419</span>        {</div>
+<div class="line"><span class="lineno">  420</span>            defaultFileName.erase(defaultFileName.end() - 5, defaultFileName.end());</div>
+<div class="line"><span class="lineno">  421</span>        }</div>
+<div class="line"><span class="lineno">  422</span> </div>
+<div class="line"><span class="lineno">  423</span>        <span class="comment">// Load .conf.dist config</span></div>
+<div class="line"><span class="lineno">  424</span>        isExistDistConfig = <a class="code hl_function" href="../../de/d41/class_config_mgr.html#a58c320a6a1cf51bbeb51b90f0e4f2a71">LoadAdditionalFile</a>(moduleConfigPath + distFileName, <span class="keyword">false</span>, isReload);</div>
+<div class="line"><span class="lineno">  425</span> </div>
+<div class="line"><span class="lineno">  426</span>        <span class="keywordflow">if</span> (!isReload &amp;&amp; !isExistDistConfig)</div>
+<div class="line"><span class="lineno">  427</span>        {</div>
+<div class="line"><span class="lineno">  428</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; ConfigMgr::LoadModulesConfigs: Not found original config &#39;{}&#39;. Stop loading&quot;</span>, distFileName);</div>
+<div class="line"><span class="lineno">  429</span>            <a class="code hl_define" href="../../db/d16/_errors_8h.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a>();</div>
+<div class="line"><span class="lineno">  430</span>        }</div>
+<div class="line"><span class="lineno">  431</span> </div>
+<div class="line"><span class="lineno">  432</span>        <span class="comment">// Load .conf config</span></div>
+<div class="line"><span class="lineno">  433</span>        isExistDefaultConfig = <a class="code hl_function" href="../../de/d41/class_config_mgr.html#a58c320a6a1cf51bbeb51b90f0e4f2a71">LoadAdditionalFile</a>(moduleConfigPath + defaultFileName, <span class="keyword">true</span>, isReload);</div>
+<div class="line"><span class="lineno">  434</span> </div>
+<div class="line"><span class="lineno">  435</span>        <span class="keywordflow">if</span> (isExistDefaultConfig &amp;&amp; isExistDistConfig)</div>
+<div class="line"><span class="lineno">  436</span>        {</div>
+<div class="line"><span class="lineno">  437</span>            <a class="code hl_variable" href="../../de/d41/class_config_mgr.html#aa5a8c891e53c6d76cf63d0a40fd799e1">_moduleConfigFiles</a>.emplace_back(defaultFileName);</div>
+<div class="line"><span class="lineno">  438</span>        }</div>
+<div class="line"><span class="lineno">  439</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!isExistDefaultConfig &amp;&amp; isExistDistConfig)</div>
+<div class="line"><span class="lineno">  440</span>        {</div>
+<div class="line"><span class="lineno">  441</span>            <a class="code hl_variable" href="../../de/d41/class_config_mgr.html#aa5a8c891e53c6d76cf63d0a40fd799e1">_moduleConfigFiles</a>.emplace_back(distFileName);</div>
+<div class="line"><span class="lineno">  442</span>        }</div>
+<div class="line"><span class="lineno">  443</span>    }</div>
+<div class="line"><span class="lineno">  444</span> </div>
+<div class="line"><span class="lineno">  445</span>    <span class="keywordflow">if</span> (isNeedPrintInfo)</div>
+<div class="line"><span class="lineno">  446</span>    {</div>
+<div class="line"><span class="lineno">  447</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d41/class_config_mgr.html#aa5a8c891e53c6d76cf63d0a40fd799e1">_moduleConfigFiles</a>.empty())</div>
+<div class="line"><span class="lineno">  448</span>        {</div>
+<div class="line"><span class="lineno">  449</span>            <span class="comment">// Print modules configurations</span></div>
+<div class="line"><span class="lineno">  450</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  451</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Using modules configuration:&quot;</span>);</div>
+<div class="line"><span class="lineno">  452</span> </div>
+<div class="line"><span class="lineno">  453</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; itr : <a class="code hl_variable" href="../../de/d41/class_config_mgr.html#aa5a8c891e53c6d76cf63d0a40fd799e1">_moduleConfigFiles</a>)</div>
+<div class="line"><span class="lineno">  454</span>            {</div>
+<div class="line"><span class="lineno">  455</span>                <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; {}&quot;</span>, itr);</div>
+<div class="line"><span class="lineno">  456</span>            }</div>
+<div class="line"><span class="lineno">  457</span>        }</div>
+<div class="line"><span class="lineno">  458</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  459</span>        {</div>
+<div class="line"><span class="lineno">  460</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Not found modules config files&quot;</span>);</div>
+<div class="line"><span class="lineno">  461</span>        }</div>
+<div class="line"><span class="lineno">  462</span>    }</div>
+<div class="line"><span class="lineno">  463</span> </div>
+<div class="line"><span class="lineno">  464</span>    <span class="keywordflow">if</span> (isNeedPrintInfo)</div>
+<div class="line"><span class="lineno">  465</span>    {</div>
+<div class="line"><span class="lineno">  466</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  467</span>    }</div>
+<div class="line"><span class="lineno">  468</span> </div>
+<div class="line"><span class="lineno">  469</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  470</span>}</div>
+<div class="ttc" id="a_errors_8h_html_a5376571bbf4cdc9782683635f366f89a"><div class="ttname"><a href="../../db/d16/_errors_8h.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a></div><div class="ttdeci">#define ABORT</div><div class="ttdef"><b>Definition:</b> Errors.h:76</div></div>
+<div class="ttc" id="a_log_8h_html_a0e09b50c268dc6897a1c70aa46de936e"><div class="ttname"><a href="../../da/df4/_log_8h.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a></div><div class="ttdeci">#define LOG_FATAL(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:155</div></div>
+<div class="ttc" id="a_log_8h_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:167</div></div>
+<div class="ttc" id="aclass_config_mgr_html_a104bef8d83f8c3b643f7538ac7bf5c30"><div class="ttname"><a href="../../de/d41/class_config_mgr.html#a104bef8d83f8c3b643f7538ac7bf5c30">ConfigMgr::GetConfigPath</a></div><div class="ttdeci">std::string const GetConfigPath()</div><div class="ttdef"><b>Definition:</b> Config.cpp:352</div></div>
+<div class="ttc" id="aclass_config_mgr_html_aa5a8c891e53c6d76cf63d0a40fd799e1"><div class="ttname"><a href="../../de/d41/class_config_mgr.html#aa5a8c891e53c6d76cf63d0a40fd799e1">ConfigMgr::_moduleConfigFiles</a></div><div class="ttdeci">std::vector&lt; std::string &gt; _moduleConfigFiles</div><div class="ttdef"><b>Definition:</b> Config.h:83</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac7257754613b850d43951a0d6e1074b9" name="ac7257754613b850d43951a0d6e1074b9"></a>
@@ -834,7 +1062,17 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  241</span>{</div>
+<div class="line"><span class="lineno">  242</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../de/d41/class_config_mgr.html#ae8b4473b24540d12468cb994b89b78b8">LoadAppConfigs</a>(<span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  243</span>    {</div>
+<div class="line"><span class="lineno">  244</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  245</span>    }</div>
+<div class="line"><span class="lineno">  246</span> </div>
+<div class="line"><span class="lineno">  247</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d41/class_config_mgr.html#a4752375243302e81a5e8fb3f5615e776">LoadModulesConfigs</a>(<span class="keyword">true</span>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  248</span>}</div>
+<div class="ttc" id="aclass_config_mgr_html_a4752375243302e81a5e8fb3f5615e776"><div class="ttname"><a href="../../de/d41/class_config_mgr.html#a4752375243302e81a5e8fb3f5615e776">ConfigMgr::LoadModulesConfigs</a></div><div class="ttdeci">bool LoadModulesConfigs(bool isReload=false, bool isNeedPrintInfo=true)</div><div class="ttdef"><b>Definition:</b> Config.cpp:395</div></div>
+<div class="ttc" id="aclass_config_mgr_html_ae8b4473b24540d12468cb994b89b78b8"><div class="ttname"><a href="../../de/d41/class_config_mgr.html#ae8b4473b24540d12468cb994b89b78b8">ConfigMgr::LoadAppConfigs</a></div><div class="ttdeci">bool LoadAppConfigs(bool isReload=false)</div><div class="ttdef"><b>Definition:</b> Config.cpp:378</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac2d5c14f32b1d8dfb3e8736f5aef5e7e" name="ac2d5c14f32b1d8dfb3e8736f5aef5e7e"></a>
@@ -860,7 +1098,8 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   71</span>{ <a class="code hl_variable" href="../../de/d41/class_config_mgr.html#a555709e27a884d16ef6dd91cc21b806b">dryRun</a> = mode; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -909,8 +1148,8 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/common/Configuration/<a class="el" href="../../d4/d71/_config_8h_source.html">Config.h</a></li>
-<li>D:/azerothcore-wotlk/src/common/Configuration/<a class="el" href="../../d7/dd3/_config_8cpp.html">Config.cpp</a></li>
+<li><a class="el" href="../../">Config.h</a></li>
+<li><a class="el" href="../../">Config.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -918,7 +1157,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d41/class_config_mgr.html">ConfigMgr</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -566,7 +566,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7f5ca173103eb4498ce41912bda5da66" name="a7f5ca173103eb4498ce41912bda5da66"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f5ca173103eb4498ce41912bda5da66">&#9670;&#160;</a></span>npc_scarlet_minerAI()</h2>
 
@@ -590,7 +591,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1028</span>                                                : <a class="code hl_struct" href="../../dd/d7f/structnpc__escort_a_i.html">npc_escortAI</a>(creature)</div>
+<div class="line"><span class="lineno"> 1029</span>        {</div>
+<div class="line"><span class="lineno"> 1030</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno"> 1031</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a></div><div class="ttdeci">@ REACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1023</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html">npc_escortAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -617,7 +626,19 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1085</span>        {</div>
+<div class="line"><span class="lineno"> 1086</span>            <a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a963f9c0ca58ce160b43f36f5a9f7dee7">carGUID</a> = who-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a49c625cae45ad90bb1bcddec39b5b388">GetVehicleBase</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno"> 1087</span>            <a class="code hl_function" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a7fe048368b6e0a43b5be501a24773b8c">InitWaypoint</a>();</div>
+<div class="line"><span class="lineno"> 1088</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a3af9ad016ba42ce06db5d2ba7cdb6a5f">Start</a>(<span class="keyword">false</span>, <span class="keyword">false</span>, who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno"> 1089</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a275f8451695529110d73b675d340f229">SetDespawnAtFar</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 1090</span>        }</div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_unit_html_a49c625cae45ad90bb1bcddec39b5b388"><div class="ttname"><a href="../../da/db7/class_unit.html#a49c625cae45ad90bb1bcddec39b5b388">Unit::GetVehicleBase</a></div><div class="ttdeci">Unit * GetVehicleBase() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18774</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a275f8451695529110d73b675d340f229"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a275f8451695529110d73b675d340f229">npc_escortAI::SetDespawnAtFar</a></div><div class="ttdeci">void SetDespawnAtFar(bool despawn)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:105</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a3af9ad016ba42ce06db5d2ba7cdb6a5f"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a3af9ad016ba42ce06db5d2ba7cdb6a5f">npc_escortAI::Start</a></div><div class="ttdeci">void Start(bool isActiveAttacker=true, bool run=false, ObjectGuid playerGUID=ObjectGuid::Empty, Quest const *quest=nullptr, bool instantRespawn=false, bool canLoopPath=false, bool resetWaypoints=true)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:450</div></div>
+<div class="ttc" id="astructnpc__scarlet__miner_1_1npc__scarlet__miner_a_i_html_a7fe048368b6e0a43b5be501a24773b8c"><div class="ttname"><a href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a7fe048368b6e0a43b5be501a24773b8c">npc_scarlet_miner::npc_scarlet_minerAI::InitWaypoint</a></div><div class="ttdeci">void InitWaypoint()</div><div class="ttdef"><b>Definition:</b> chapter1.cpp:1044</div></div>
+<div class="ttc" id="astructnpc__scarlet__miner_1_1npc__scarlet__miner_a_i_html_a963f9c0ca58ce160b43f36f5a9f7dee7"><div class="ttname"><a href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a963f9c0ca58ce160b43f36f5a9f7dee7">npc_scarlet_miner::npc_scarlet_minerAI::carGUID</a></div><div class="ttdeci">ObjectGuid carGUID</div><div class="ttdef"><b>Definition:</b> chapter1.cpp:1035</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7fe048368b6e0a43b5be501a24773b8c" name="a7fe048368b6e0a43b5be501a24773b8c"></a>
@@ -642,7 +663,47 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1045</span>        {</div>
+<div class="line"><span class="lineno"> 1046</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(1, 2389.03f,     -5902.74f,     109.014f, 5000);</div>
+<div class="line"><span class="lineno"> 1047</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(2, 2341.812012f, -5900.484863f, 102.619743f);</div>
+<div class="line"><span class="lineno"> 1048</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(3, 2308.34f, -5904.2f, 91.1099f);</div>
+<div class="line"><span class="lineno"> 1049</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(4, 2300.69f, -5912.99f, 86.1572f);</div>
+<div class="line"><span class="lineno"> 1050</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(5, 2294.142090f, -5927.274414f, 75.316849f);</div>
+<div class="line"><span class="lineno"> 1051</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(6, 2286.984375f, -5944.955566f, 63.714966f);</div>
+<div class="line"><span class="lineno"> 1052</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(7, 2280.001709f, -5961.186035f, 54.228283f);</div>
+<div class="line"><span class="lineno"> 1053</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(8, 2259.389648f, -5974.197754f, 42.359348f);</div>
+<div class="line"><span class="lineno"> 1054</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(9, 2242.882812f, -5984.642578f, 32.827850f);</div>
+<div class="line"><span class="lineno"> 1055</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(10, 2239.79f, -5989.31f, 30.4453f);</div>
+<div class="line"><span class="lineno"> 1056</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(11, 2236.52f, -5994.28f, 27.4829f);</div>
+<div class="line"><span class="lineno"> 1057</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(12, 2232.61f, -6000.23f, 23.1281f);</div>
+<div class="line"><span class="lineno"> 1058</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(13, 2228.69f, -6006.46f, 17.6638f);</div>
+<div class="line"><span class="lineno"> 1059</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(14, 2225.2f, -6012.39f, 12.9487f);</div>
+<div class="line"><span class="lineno"> 1060</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(15, 2217.265625f, -6028.959473f, 7.675705f);</div>
+<div class="line"><span class="lineno"> 1061</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(16, 2202.595947f, -6061.325684f, 5.882018f);</div>
+<div class="line"><span class="lineno"> 1062</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(17, 2188.974609f, -6080.866699f, 3.370027f);</div>
+<div class="line"><span class="lineno"> 1063</span> </div>
+<div class="line"><span class="lineno"> 1064</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 1))</div>
+<div class="line"><span class="lineno"> 1065</span>            {</div>
+<div class="line"><span class="lineno"> 1066</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(18, 2176.483887f, -6110.407227f, 1.855181f);</div>
+<div class="line"><span class="lineno"> 1067</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(19, 2172.516602f, -6146.752441f, 1.074235f);</div>
+<div class="line"><span class="lineno"> 1068</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(20, 2138.918457f, -6158.920898f, 1.342926f);</div>
+<div class="line"><span class="lineno"> 1069</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(21, 2129.866699f, -6174.107910f, 4.380779f);</div>
+<div class="line"><span class="lineno"> 1070</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(22, 2125.250001f, -6181.230001f, 9.91997f);</div>
+<div class="line"><span class="lineno"> 1071</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(23, 2117.709473f, -6193.830078f, 13.3542f, 10000);</div>
+<div class="line"><span class="lineno"> 1072</span>            }</div>
+<div class="line"><span class="lineno"> 1073</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1074</span>            {</div>
+<div class="line"><span class="lineno"> 1075</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(18, 2184.190186f, -6166.447266f, 0.968877f);</div>
+<div class="line"><span class="lineno"> 1076</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(19, 2234.265625f, -6163.741211f, 0.916021f);</div>
+<div class="line"><span class="lineno"> 1077</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(20, 2268.071777f, -6158.750977f, 1.822252f);</div>
+<div class="line"><span class="lineno"> 1078</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(21, 2270.028320f, -6176.505859f, 6.340538f);</div>
+<div class="line"><span class="lineno"> 1079</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(22, 2270.350001f, -6182.410001f, 10.42431f);</div>
+<div class="line"><span class="lineno"> 1080</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(23, 2271.739014f, -6195.401855f, 13.3542f, 10000);</div>
+<div class="line"><span class="lineno"> 1081</span>            }</div>
+<div class="line"><span class="lineno"> 1082</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_af6676a7693026ce6a35975d2358ff3e6"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">npc_escortAI::AddWaypoint</a></div><div class="ttdeci">void AddWaypoint(uint32 id, float x, float y, float z, uint32 waitTime=0)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:397</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2a8660173dc32c38de917049eb33fff8" name="a2a8660173dc32c38de917049eb33fff8"></a>
@@ -669,7 +730,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1038</span>        {</div>
+<div class="line"><span class="lineno"> 1039</span>            <a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a963f9c0ca58ce160b43f36f5a9f7dee7">carGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno"> 1040</span>            <a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#adae2103753dd62699359ff01ac3ba865">IntroTimer</a> = 0;</div>
+<div class="line"><span class="lineno"> 1041</span>            <a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a094c2ee20d13c88805c3de7f9f94b86e">IntroPhase</a> = 0;</div>
+<div class="line"><span class="lineno"> 1042</span>        }</div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="astructnpc__scarlet__miner_1_1npc__scarlet__miner_a_i_html_a094c2ee20d13c88805c3de7f9f94b86e"><div class="ttname"><a href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a094c2ee20d13c88805c3de7f9f94b86e">npc_scarlet_miner::npc_scarlet_minerAI::IntroPhase</a></div><div class="ttdeci">uint32 IntroPhase</div><div class="ttdef"><b>Definition:</b> chapter1.cpp:1034</div></div>
+<div class="ttc" id="astructnpc__scarlet__miner_1_1npc__scarlet__miner_a_i_html_adae2103753dd62699359ff01ac3ba865"><div class="ttname"><a href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#adae2103753dd62699359ff01ac3ba865">npc_scarlet_miner::npc_scarlet_minerAI::IntroTimer</a></div><div class="ttdeci">uint32 IntroTimer</div><div class="ttdef"><b>Definition:</b> chapter1.cpp:1033</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a48d2c92a4d45d5e59252f9455b82cbbd" name="a48d2c92a4d45d5e59252f9455b82cbbd"></a>
@@ -697,7 +766,35 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#a5e9c333411c54ff4d644812e53ba1831">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1126</span>        {</div>
+<div class="line"><span class="lineno"> 1127</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a094c2ee20d13c88805c3de7f9f94b86e">IntroPhase</a>)</div>
+<div class="line"><span class="lineno"> 1128</span>            {</div>
+<div class="line"><span class="lineno"> 1129</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#adae2103753dd62699359ff01ac3ba865">IntroTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno"> 1130</span>                {</div>
+<div class="line"><span class="lineno"> 1131</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a094c2ee20d13c88805c3de7f9f94b86e">IntroPhase</a> == 1)</div>
+<div class="line"><span class="lineno"> 1132</span>                    {</div>
+<div class="line"><span class="lineno"> 1133</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* car = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a963f9c0ca58ce160b43f36f5a9f7dee7">carGUID</a>))</div>
+<div class="line"><span class="lineno"> 1134</span>                            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(car, <a class="code hl_enumvalue" href="../../dc/dec/chapter1_8cpp.html#ad2b494eedadd51ebe87fbe351fa1dc3ba8f59f5ddd5852d3b940a0bc050b5faa1">SPELL_CART_DRAG</a>);</div>
+<div class="line"><span class="lineno"> 1135</span>                        <a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#adae2103753dd62699359ff01ac3ba865">IntroTimer</a> = 800;</div>
+<div class="line"><span class="lineno"> 1136</span>                        <a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a094c2ee20d13c88805c3de7f9f94b86e">IntroPhase</a> = 2;</div>
+<div class="line"><span class="lineno"> 1137</span>                    }</div>
+<div class="line"><span class="lineno"> 1138</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1139</span>                    {</div>
+<div class="line"><span class="lineno"> 1140</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* car = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a963f9c0ca58ce160b43f36f5a9f7dee7">carGUID</a>))</div>
+<div class="line"><span class="lineno"> 1141</span>                            car-&gt;AI()-&gt;DoAction(0);</div>
+<div class="line"><span class="lineno"> 1142</span>                        <a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a094c2ee20d13c88805c3de7f9f94b86e">IntroPhase</a> = 0;</div>
+<div class="line"><span class="lineno"> 1143</span>                    }</div>
+<div class="line"><span class="lineno"> 1144</span>                }</div>
+<div class="line"><span class="lineno"> 1145</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#adae2103753dd62699359ff01ac3ba865">IntroTimer</a> -= diff;</div>
+<div class="line"><span class="lineno"> 1146</span>            }</div>
+<div class="line"><span class="lineno"> 1147</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a5e9c333411c54ff4d644812e53ba1831">npc_escortAI::UpdateAI</a>(diff);</div>
+<div class="line"><span class="lineno"> 1148</span>        }</div>
+<div class="ttc" id="achapter1_8cpp_html_ad2b494eedadd51ebe87fbe351fa1dc3ba8f59f5ddd5852d3b940a0bc050b5faa1"><div class="ttname"><a href="../../dc/dec/chapter1_8cpp.html#ad2b494eedadd51ebe87fbe351fa1dc3ba8f59f5ddd5852d3b940a0bc050b5faa1">SPELL_CART_DRAG</a></div><div class="ttdeci">@ SPELL_CART_DRAG</div><div class="ttdef"><b>Definition:</b> chapter1.cpp:950</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a5e9c333411c54ff4d644812e53ba1831"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a5e9c333411c54ff4d644812e53ba1831">npc_escortAI::UpdateAI</a></div><div class="ttdeci">void UpdateAI(uint32 diff) override</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:241</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a31f4363e269b51d3a002a132b5516dd0" name="a31f4363e269b51d3a002a132b5516dd0"></a>
@@ -725,7 +822,47 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#a59830f742b9967303df22f5bcf0d2b9d">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1093</span>        {</div>
+<div class="line"><span class="lineno"> 1094</span>            <span class="keywordflow">switch</span> (waypointId)</div>
+<div class="line"><span class="lineno"> 1095</span>            {</div>
+<div class="line"><span class="lineno"> 1096</span>                <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno"> 1097</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* car = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a963f9c0ca58ce160b43f36f5a9f7dee7">carGUID</a>))</div>
+<div class="line"><span class="lineno"> 1098</span>                    {</div>
+<div class="line"><span class="lineno"> 1099</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a549e721b14f15635bd6572505b366e78">SetFacingToObject</a>(car);</div>
+<div class="line"><span class="lineno"> 1100</span>                        <span class="comment">// xinef: add some flags</span></div>
+<div class="line"><span class="lineno"> 1101</span>                        car-&gt;ReplaceAllUnitFlags(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno"> 1102</span>                        car-&gt;SetImmuneToAll(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1103</span>                        car-&gt;SetFaction(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42">FACTION_FRIENDLY</a>);</div>
+<div class="line"><span class="lineno"> 1104</span>                    }</div>
+<div class="line"><span class="lineno"> 1105</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dc/dec/chapter1_8cpp.html#a04ed6a9c92f9e762fb9518c27e135691af449fa9cb4e213463a3e832e8e6d67be">SAY_SCARLET_MINER_0</a>);</div>
+<div class="line"><span class="lineno"> 1106</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a75759c8c91ac786de066065f3e170315">SetRun</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1107</span>                    <a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#adae2103753dd62699359ff01ac3ba865">IntroTimer</a> = 4000;</div>
+<div class="line"><span class="lineno"> 1108</span>                    <a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a094c2ee20d13c88805c3de7f9f94b86e">IntroPhase</a> = 1;</div>
+<div class="line"><span class="lineno"> 1109</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1110</span>                <span class="keywordflow">case</span> 23:</div>
+<div class="line"><span class="lineno"> 1111</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* car = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html#a963f9c0ca58ce160b43f36f5a9f7dee7">carGUID</a>))</div>
+<div class="line"><span class="lineno"> 1112</span>                    {</div>
+<div class="line"><span class="lineno"> 1113</span>                        car-&gt;SetPosition(car-&gt;GetPositionX(), car-&gt;GetPositionY(), <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>() + 1, car-&gt;GetOrientation());</div>
+<div class="line"><span class="lineno"> 1114</span>                        car-&gt;StopMovingOnCurrentPos();</div>
+<div class="line"><span class="lineno"> 1115</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a549e721b14f15635bd6572505b366e78">SetFacingToObject</a>(car);</div>
+<div class="line"><span class="lineno"> 1116</span>                        car-&gt;RemoveAura(<a class="code hl_enumvalue" href="../../dc/dec/chapter1_8cpp.html#ad2b494eedadd51ebe87fbe351fa1dc3ba8f59f5ddd5852d3b940a0bc050b5faa1">SPELL_CART_DRAG</a>);</div>
+<div class="line"><span class="lineno"> 1117</span>                    }</div>
+<div class="line"><span class="lineno"> 1118</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dc/dec/chapter1_8cpp.html#a04ed6a9c92f9e762fb9518c27e135691a791a1bbc1293066fe9178912253684a5">SAY_SCARLET_MINER_1</a>);</div>
+<div class="line"><span class="lineno"> 1119</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1120</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1121</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1122</span>            }</div>
+<div class="line"><span class="lineno"> 1123</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42">FACTION_FRIENDLY</a></div><div class="ttdeci">@ FACTION_FRIENDLY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:173</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NON_ATTACKABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:449</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="achapter1_8cpp_html_a04ed6a9c92f9e762fb9518c27e135691a791a1bbc1293066fe9178912253684a5"><div class="ttname"><a href="../../dc/dec/chapter1_8cpp.html#a04ed6a9c92f9e762fb9518c27e135691a791a1bbc1293066fe9178912253684a5">SAY_SCARLET_MINER_1</a></div><div class="ttdeci">@ SAY_SCARLET_MINER_1</div><div class="ttdef"><b>Definition:</b> chapter1.cpp:1013</div></div>
+<div class="ttc" id="achapter1_8cpp_html_a04ed6a9c92f9e762fb9518c27e135691af449fa9cb4e213463a3e832e8e6d67be"><div class="ttname"><a href="../../dc/dec/chapter1_8cpp.html#a04ed6a9c92f9e762fb9518c27e135691af449fa9cb4e213463a3e832e8e6d67be">SAY_SCARLET_MINER_0</a></div><div class="ttdeci">@ SAY_SCARLET_MINER_0</div><div class="ttdef"><b>Definition:</b> chapter1.cpp:1012</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a549e721b14f15635bd6572505b366e78"><div class="ttname"><a href="../../da/db7/class_unit.html#a549e721b14f15635bd6572505b366e78">Unit::SetFacingToObject</a></div><div class="ttdeci">void SetFacingToObject(WorldObject *object)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20629</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a75759c8c91ac786de066065f3e170315"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a75759c8c91ac786de066065f3e170315">npc_escortAI::SetRun</a></div><div class="ttdeci">void SetRun(bool on=true)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:429</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -772,7 +909,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/ScarletEnclave/<a class="el" href="../../dc/dec/chapter1_8cpp.html">chapter1.cpp</a></li>
+<li><a class="el" href="../../">chapter1.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -780,7 +917,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/daf/classnpc__scarlet__miner.html">npc_scarlet_miner</a></li><li class="navelem"><a class="el" href="../../db/d82/structnpc__scarlet__miner_1_1npc__scarlet__miner_a_i.html">npc_scarlet_minerAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:53 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:09 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -165,7 +165,17 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  109</span>    {</div>
+<div class="line"><span class="lineno">  110</span>        std::string charName(name);</div>
+<div class="line"><span class="lineno">  111</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../df/d62/_object_mgr_8cpp.html#af55111c173fd16ba2898f3046dfa3d9a">normalizePlayerName</a>(charName))</div>
+<div class="line"><span class="lineno">  112</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  113</span> </div>
+<div class="line"><span class="lineno">  114</span>        <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d9/da8/namespace_player_name_map_holder.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMap</a>.find(charName);</div>
+<div class="line"><span class="lineno">  115</span>        <span class="keywordflow">return</span> (itr != <a class="code hl_variable" href="../../d9/da8/namespace_player_name_map_holder.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMap</a>.end()) ? itr-&gt;second : <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  116</span>    }</div>
+<div class="ttc" id="a_object_mgr_8cpp_html_af55111c173fd16ba2898f3046dfa3d9a"><div class="ttname"><a href="../../df/d62/_object_mgr_8cpp.html#af55111c173fd16ba2898f3046dfa3d9a">normalizePlayerName</a></div><div class="ttdeci">bool normalizePlayerName(std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:206</div></div>
+<div class="ttc" id="anamespace_player_name_map_holder_html_aa8fcdd0ac947e92edddddd4e2daf61dd"><div class="ttname"><a href="../../d9/da8/namespace_player_name_map_holder.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMapHolder::PlayerNameMap</a></div><div class="ttdeci">static MapType PlayerNameMap</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:91</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3ba44f9ba2a1ff4fd122944f95ef06bd" name="a3ba44f9ba2a1ff4fd122944f95ef06bd"></a>
@@ -183,7 +193,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   94</span>    {</div>
+<div class="line"><span class="lineno">   95</span>        <a class="code hl_variable" href="../../d9/da8/namespace_player_name_map_holder.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMap</a>[p-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>()] = p;</div>
+<div class="line"><span class="lineno">   96</span>    }</div>
+<div class="ttc" id="aclass_world_object_html_a7e67658eb5aa058bc7f46bf6b11a797c"><div class="ttname"><a href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">WorldObject::GetName</a></div><div class="ttdeci">std::string const &amp; GetName() const</div><div class="ttdef"><b>Definition:</b> Object.h:446</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8f833a3f02f1e431170dd5d052b0f919" name="a8f833a3f02f1e431170dd5d052b0f919"></a>
@@ -201,7 +215,10 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   99</span>    {</div>
+<div class="line"><span class="lineno">  100</span>        <a class="code hl_variable" href="../../d9/da8/namespace_player_name_map_holder.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMap</a>.erase(p-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>());</div>
+<div class="line"><span class="lineno">  101</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9c5298580060e7a6078ffb5f4008c549" name="a9c5298580060e7a6078ffb5f4008c549"></a>
@@ -219,7 +236,10 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  104</span>    {</div>
+<div class="line"><span class="lineno">  105</span>        <a class="code hl_variable" href="../../d9/da8/namespace_player_name_map_holder.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMap</a>.erase(name);</div>
+<div class="line"><span class="lineno">  106</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -251,7 +271,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/da8/namespace_player_name_map_holder.html">PlayerNameMapHolder</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

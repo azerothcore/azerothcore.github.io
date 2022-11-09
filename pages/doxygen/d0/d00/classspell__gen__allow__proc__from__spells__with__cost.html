@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a68d2d8168e405ea4250e2e43a1a350fa" name="a68d2d8168e405ea4250e2e43a1a350fa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a68d2d8168e405ea4250e2e43a1a350fa">&#9670;&#160;</a></span>CheckProc()</h2>
 
@@ -326,7 +327,38 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  340</span>    {</div>
+<div class="line"><span class="lineno">  341</span>        <a class="code hl_class" href="../../d4/d7d/class_spell_info.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a759add2c89e786125196eb6bd3b20c6d">GetSpellInfo</a>();</div>
+<div class="line"><span class="lineno">  342</span>        <span class="keywordflow">if</span> (!spellInfo)</div>
+<div class="line"><span class="lineno">  343</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  344</span> </div>
+<div class="line"><span class="lineno">  345</span>        <span class="comment">// xinef: Spells with no damage class and physical school only are not treated as spells</span></div>
+<div class="line"><span class="lineno">  346</span>        <span class="keywordflow">if</span> ((eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a5e2c60a3e242f69afa2cb2bccf5a072b">GetTypeMask</a>() &amp; (<a class="code hl_enumvalue" href="../../d3/d75/_spell_mgr_8h.html#ade1c2af066d4cf1bbcd88f13f01cd4d6ab47347c9f4b3ba1255744ba7c0a1e007">PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_NEG</a> | <a class="code hl_enumvalue" href="../../d3/d75/_spell_mgr_8h.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a6d76a272a9d09c21d6959afdccf27119">PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_POS</a>)) &amp;&amp; spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#a72ac013c860d3af649879442115971ab">SchoolMask</a> == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#aff6913cfd69489c107a071be9ec2ec8fa12667dd3f55738c93e1ddb1351779b42">SPELL_SCHOOL_MASK_NORMAL</a>)</div>
+<div class="line"><span class="lineno">  347</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  348</span> </div>
+<div class="line"><span class="lineno">  349</span>        <span class="comment">// xinef: holy nova exception</span></div>
+<div class="line"><span class="lineno">  350</span>        <span class="keywordflow">if</span> (spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#af6ec577353f7d3cc59badd7d332153b0">SpellFamilyName</a> == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a9264ae6b0ef1b61a6eeb7fdac9fbab1ba04f59ec569a753b4e47a0a230782f207">SPELLFAMILY_PRIEST</a> &amp;&amp; spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#ac1a82f9330481616b4b87ed9eff0f785">SpellIconID</a> == 1874)</div>
+<div class="line"><span class="lineno">  351</span>            <span class="keywordflow">return</span> spellInfo-&gt;<a class="code hl_function" href="../../d4/d7d/class_spell_info.html#ad66dd61ba67ee1626e7e8393f0c27498">HasEffect</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a4882157067be8542f9192927816acda1">SPELL_EFFECT_HEAL</a>);</div>
+<div class="line"><span class="lineno">  352</span> </div>
+<div class="line"><span class="lineno">  353</span>        <span class="comment">// xinef: Holy Shock exception...</span></div>
+<div class="line"><span class="lineno">  354</span>        <span class="keywordflow">return</span> spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#af7122c0e749f13e75cbe53c77bd4edaf">ManaCost</a> &gt; 0 || spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#aad468ff1d83ba29cad67dc5d395337db">ManaCostPercentage</a> &gt; 0 || (spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#af6ec577353f7d3cc59badd7d332153b0">SpellFamilyName</a> == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a9264ae6b0ef1b61a6eeb7fdac9fbab1ba573f9ad8924e7632156291378448e742">SPELLFAMILY_PALADIN</a> &amp;&amp; spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#ac1a82f9330481616b4b87ed9eff0f785">SpellIconID</a> == 156);</div>
+<div class="line"><span class="lineno">  355</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a4882157067be8542f9192927816acda1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a4882157067be8542f9192927816acda1">SPELL_EFFECT_HEAL</a></div><div class="ttdeci">@ SPELL_EFFECT_HEAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:760</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a9264ae6b0ef1b61a6eeb7fdac9fbab1ba04f59ec569a753b4e47a0a230782f207"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a9264ae6b0ef1b61a6eeb7fdac9fbab1ba04f59ec569a753b4e47a0a230782f207">SPELLFAMILY_PRIEST</a></div><div class="ttdeci">@ SPELLFAMILY_PRIEST</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3506</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a9264ae6b0ef1b61a6eeb7fdac9fbab1ba573f9ad8924e7632156291378448e742"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a9264ae6b0ef1b61a6eeb7fdac9fbab1ba573f9ad8924e7632156291378448e742">SPELLFAMILY_PALADIN</a></div><div class="ttdeci">@ SPELLFAMILY_PALADIN</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3510</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_aff6913cfd69489c107a071be9ec2ec8fa12667dd3f55738c93e1ddb1351779b42"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#aff6913cfd69489c107a071be9ec2ec8fa12667dd3f55738c93e1ddb1351779b42">SPELL_SCHOOL_MASK_NORMAL</a></div><div class="ttdeci">@ SPELL_SCHOOL_MASK_NORMAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:269</div></div>
+<div class="ttc" id="a_spell_mgr_8h_html_ade1c2af066d4cf1bbcd88f13f01cd4d6a6d76a272a9d09c21d6959afdccf27119"><div class="ttname"><a href="../../d3/d75/_spell_mgr_8h.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a6d76a272a9d09c21d6959afdccf27119">PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_POS</a></div><div class="ttdeci">@ PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_POS</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:122</div></div>
+<div class="ttc" id="a_spell_mgr_8h_html_ade1c2af066d4cf1bbcd88f13f01cd4d6ab47347c9f4b3ba1255744ba7c0a1e007"><div class="ttname"><a href="../../d3/d75/_spell_mgr_8h.html#ade1c2af066d4cf1bbcd88f13f01cd4d6ab47347c9f4b3ba1255744ba7c0a1e007">PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_NEG</a></div><div class="ttdeci">@ PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_NEG</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:125</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_a5e2c60a3e242f69afa2cb2bccf5a072b"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#a5e2c60a3e242f69afa2cb2bccf5a072b">ProcEventInfo::GetTypeMask</a></div><div class="ttdeci">uint32 GetTypeMask() const</div><div class="ttdef"><b>Definition:</b> Unit.h:861</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_a759add2c89e786125196eb6bd3b20c6d"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#a759add2c89e786125196eb6bd3b20c6d">ProcEventInfo::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:186</div></div>
+<div class="ttc" id="aclass_spell_info_html"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html">SpellInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:314</div></div>
+<div class="ttc" id="aclass_spell_info_html_a72ac013c860d3af649879442115971ab"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#a72ac013c860d3af649879442115971ab">SpellInfo::SchoolMask</a></div><div class="ttdeci">uint32 SchoolMask</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:390</div></div>
+<div class="ttc" id="aclass_spell_info_html_aad468ff1d83ba29cad67dc5d395337db"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#aad468ff1d83ba29cad67dc5d395337db">SpellInfo::ManaCostPercentage</a></div><div class="ttdeci">uint32 ManaCostPercentage</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:365</div></div>
+<div class="ttc" id="aclass_spell_info_html_ac1a82f9330481616b4b87ed9eff0f785"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#ac1a82f9330481616b4b87ed9eff0f785">SpellInfo::SpellIconID</a></div><div class="ttdeci">uint32 SpellIconID</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:378</div></div>
+<div class="ttc" id="aclass_spell_info_html_ad66dd61ba67ee1626e7e8393f0c27498"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#ad66dd61ba67ee1626e7e8393f0c27498">SpellInfo::HasEffect</a></div><div class="ttdeci">bool HasEffect(SpellEffects effect) const</div><div class="ttdef"><b>Definition:</b> SpellInfo.cpp:868</div></div>
+<div class="ttc" id="aclass_spell_info_html_af6ec577353f7d3cc59badd7d332153b0"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#af6ec577353f7d3cc59badd7d332153b0">SpellInfo::SpellFamilyName</a></div><div class="ttdeci">uint32 SpellFamilyName</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:385</div></div>
+<div class="ttc" id="aclass_spell_info_html_af7122c0e749f13e75cbe53c77bd4edaf"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#af7122c0e749f13e75cbe53c77bd4edaf">SpellInfo::ManaCost</a></div><div class="ttdeci">uint32 ManaCost</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:361</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9d797e7bc7133f4a626f4352b2fe7141" name="a9d797e7bc7133f4a626f4352b2fe7141"></a>
@@ -379,11 +411,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  358</span>    {</div>
+<div class="line"><span class="lineno">  359</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">DoCheckProc</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a>(<a class="code hl_function" href="../../d0/d00/classspell__gen__allow__proc__from__spells__with__cost.html#a68d2d8168e405ea4250e2e43a1a350fa">spell_gen_allow_proc_from_spells_with_cost::CheckProc</a>);</div>
+<div class="line"><span class="lineno">  360</span>    }</div>
+<div class="ttc" id="a_spell_script_8h_html_ad25bcd0c3aa73ba267fa87ea50bc1780"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a></div><div class="ttdeci">#define AuraCheckProcFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:812</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab771dd972497502e5202fd48a1d6c17d"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">AuraScript::DoCheckProc</a></div><div class="ttdeci">HookList&lt; CheckProcHandler &gt; DoCheckProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:807</div></div>
+<div class="ttc" id="aclassspell__gen__allow__proc__from__spells__with__cost_html_a68d2d8168e405ea4250e2e43a1a350fa"><div class="ttname"><a href="../../d0/d00/classspell__gen__allow__proc__from__spells__with__cost.html#a68d2d8168e405ea4250e2e43a1a350fa">spell_gen_allow_proc_from_spells_with_cost::CheckProc</a></div><div class="ttdeci">bool CheckProc(ProcEventInfo &amp;eventInfo)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:339</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../d1/de4/spell__generic_8cpp.html">spell_generic.cpp</a></li>
+<li><a class="el" href="../../">spell_generic.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -391,7 +429,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d00/classspell__gen__allow__proc__from__spells__with__cost.html">spell_gen_allow_proc_from_spells_with_cost</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

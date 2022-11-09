@@ -483,7 +483,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a49eeff6e0aea079a0375a92074227d12" name="a49eeff6e0aea079a0375a92074227d12"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a49eeff6e0aea079a0375a92074227d12">&#9670;&#160;</a></span>npc_daranelleAI()</h2>
 
@@ -507,7 +508,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  461</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -536,7 +539,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  465</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a353e27c1485b88f0751a64260898d35b" name="a353e27c1485b88f0751a64260898d35b"></a>
@@ -565,7 +569,37 @@ Additional Inherited Members</h2></td></tr>
 <dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000040">Todo:</a></b></dt><dd>Move the below to updateAI and run if this statement == true </dd></dl>
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  469</span>        {</div>
+<div class="line"><span class="lineno">  470</span>            <span class="keywordflow">if</span> (who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  471</span>            {</div>
+<div class="line"><span class="lineno">  472</span>                <span class="keywordflow">if</span> (who-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d9/d60/zone__blades__edge__mountains_8cpp.html#aaf4b2b8d646290a9472318e4df197fb7af4188e02a9729c4f0cc1346b02b0974b">SPELL_LASHHAN_CHANNEL</a>) &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(who, 10.0f))</div>
+<div class="line"><span class="lineno">  473</span>                {</div>
+<div class="line"><span class="lineno">  474</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* bird = who-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d9/d60/zone__blades__edge__mountains_8cpp.html#aaf4b2b8d646290a9472318e4df197fb7a244e9a71b5bd2d8d5c171001590c1ea9">NPC_KALIRI_TOTEM</a>, 10.0f))</div>
+<div class="line"><span class="lineno">  475</span>                    {</div>
+<div class="line"><span class="lineno">  476</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d9/d60/zone__blades__edge__mountains_8cpp.html#aaf4b2b8d646290a9472318e4df197fb7acf65879f88a01f55cc06c1cd4f7387e2">SAY_SPELL_INFLUENCE</a>, who);</div>
+<div class="line"><span class="lineno">  478</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(who, <a class="code hl_enumvalue" href="../../d9/d60/zone__blades__edge__mountains_8cpp.html#aaf4b2b8d646290a9472318e4df197fb7aa7faacab526844129afb603392e61249">SPELL_DISPELLING_ANALYSIS</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  479</span>                        bird-&gt;DespawnOrUnsummon(2000);</div>
+<div class="line"><span class="lineno">  480</span>                    }</div>
+<div class="line"><span class="lineno">  481</span>                }</div>
+<div class="line"><span class="lineno">  482</span>            }</div>
+<div class="line"><span class="lineno">  483</span> </div>
+<div class="line"><span class="lineno">  484</span>            <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">ScriptedAI::MoveInLineOfSight</a>(who);</div>
+<div class="line"><span class="lineno">  485</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_a1280f8bcf72254ad31c453b810615f87"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI::MoveInLineOfSight</a></div><div class="ttdeci">virtual void MoveInLineOfSight(Unit *)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:156</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="aclass_world_object_html_ab73407bcdf13a30519a953d24773ed02"><div class="ttname"><a href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">WorldObject::IsWithinDistInMap</a></div><div class="ttdeci">bool IsWithinDistInMap(WorldObject const *obj, float dist2compare, bool is3D=true, bool useBoundingRadius=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1321</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="azone__blades__edge__mountains_8cpp_html_aaf4b2b8d646290a9472318e4df197fb7a244e9a71b5bd2d8d5c171001590c1ea9"><div class="ttname"><a href="../../d9/d60/zone__blades__edge__mountains_8cpp.html#aaf4b2b8d646290a9472318e4df197fb7a244e9a71b5bd2d8d5c171001590c1ea9">NPC_KALIRI_TOTEM</a></div><div class="ttdeci">@ NPC_KALIRI_TOTEM</div><div class="ttdef"><b>Definition:</b> zone_blades_edge_mountains.cpp:451</div></div>
+<div class="ttc" id="azone__blades__edge__mountains_8cpp_html_aaf4b2b8d646290a9472318e4df197fb7aa7faacab526844129afb603392e61249"><div class="ttname"><a href="../../d9/d60/zone__blades__edge__mountains_8cpp.html#aaf4b2b8d646290a9472318e4df197fb7aa7faacab526844129afb603392e61249">SPELL_DISPELLING_ANALYSIS</a></div><div class="ttdeci">@ SPELL_DISPELLING_ANALYSIS</div><div class="ttdef"><b>Definition:</b> zone_blades_edge_mountains.cpp:449</div></div>
+<div class="ttc" id="azone__blades__edge__mountains_8cpp_html_aaf4b2b8d646290a9472318e4df197fb7acf65879f88a01f55cc06c1cd4f7387e2"><div class="ttname"><a href="../../d9/d60/zone__blades__edge__mountains_8cpp.html#aaf4b2b8d646290a9472318e4df197fb7acf65879f88a01f55cc06c1cd4f7387e2">SAY_SPELL_INFLUENCE</a></div><div class="ttdeci">@ SAY_SPELL_INFLUENCE</div><div class="ttdef"><b>Definition:</b> zone_blades_edge_mountains.cpp:447</div></div>
+<div class="ttc" id="azone__blades__edge__mountains_8cpp_html_aaf4b2b8d646290a9472318e4df197fb7af4188e02a9729c4f0cc1346b02b0974b"><div class="ttname"><a href="../../d9/d60/zone__blades__edge__mountains_8cpp.html#aaf4b2b8d646290a9472318e4df197fb7af4188e02a9729c4f0cc1346b02b0974b">SPELL_LASHHAN_CHANNEL</a></div><div class="ttdeci">@ SPELL_LASHHAN_CHANNEL</div><div class="ttdef"><b>Definition:</b> zone_blades_edge_mountains.cpp:448</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a33b2fbec775257e3ba0bebe37fb86349" name="a33b2fbec775257e3ba0bebe37fb86349"></a>
@@ -592,11 +626,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  463</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/<a class="el" href="../../d9/d60/zone__blades__edge__mountains_8cpp.html">zone_blades_edge_mountains.cpp</a></li>
+<li><a class="el" href="../../">zone_blades_edge_mountains.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -604,7 +639,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/da8/classnpc__daranelle.html">npc_daranelle</a></li><li class="navelem"><a class="el" href="../../de/d72/structnpc__daranelle_1_1npc__daranelle_a_i.html">npc_daranelleAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

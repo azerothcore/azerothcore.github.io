@@ -493,7 +493,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a50fb5738d7b0818689216fee0915a0de" name="a50fb5738d7b0818689216fee0915a0de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50fb5738d7b0818689216fee0915a0de">&#9670;&#160;</a></span>npc_hive_zara_larva()</h2>
 
@@ -517,7 +518,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  254</span>                                            : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">  255</span>    {</div>
+<div class="line"><span class="lineno">  256</span>        <a class="code hl_variable" href="../../dd/da4/structnpc__hive__zara__larva.html#aa8333a25c0e184dd75db580b03ef9cb2">_instance</a> = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">  257</span>    }</div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__hive__zara__larva_html_aa8333a25c0e184dd75db580b03ef9cb2"><div class="ttname"><a href="../../dd/da4/structnpc__hive__zara__larva.html#aa8333a25c0e184dd75db580b03ef9cb2">npc_hive_zara_larva::_instance</a></div><div class="ttdeci">InstanceScript * _instance</div><div class="ttdef"><b>Definition:</b> boss_ayamiss.cpp:303</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -546,7 +555,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  288</span>    {</div>
+<div class="line"><span class="lineno">  289</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/da4/structnpc__hive__zara__larva.html#aa8333a25c0e184dd75db580b03ef9cb2">_instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a776dbfd3b5c48f29ea0ccf8f3cf659e2">GetBossState</a>(<a class="code hl_enumvalue" href="../../d4/d01/ruins__of__ahnqiraj_8h.html#afb6eb4f28419b652027fad41104a6d22abcc5d0846bb2f482f39c755b99ef557e">DATA_AYAMISS</a>) == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>)</div>
+<div class="line"><span class="lineno">  290</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  291</span> </div>
+<div class="line"><span class="lineno">  292</span>        <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI::AttackStart</a>(victim);</div>
+<div class="line"><span class="lineno">  293</span>    }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="aclass_instance_script_html_a776dbfd3b5c48f29ea0ccf8f3cf659e2"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a776dbfd3b5c48f29ea0ccf8f3cf659e2">InstanceScript::GetBossState</a></div><div class="ttdeci">EncounterState GetBossState(uint32 id) const</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:227</div></div>
+<div class="ttc" id="aruins__of__ahnqiraj_8h_html_afb6eb4f28419b652027fad41104a6d22abcc5d0846bb2f482f39c755b99ef557e"><div class="ttname"><a href="../../d4/d01/ruins__of__ahnqiraj_8h.html#afb6eb4f28419b652027fad41104a6d22abcc5d0846bb2f482f39c755b99ef557e">DATA_AYAMISS</a></div><div class="ttdeci">@ DATA_AYAMISS</div><div class="ttdef"><b>Definition:</b> ruins_of_ahnqiraj.h:31</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a4c91d8d2c1a6e8b234c1c4f15936c7a4"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI::AttackStart</a></div><div class="ttdeci">void AttackStart(Unit *) override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:206</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2a1d80f70ae265b1db50e3a7165fa099" name="a2a1d80f70ae265b1db50e3a7165fa099"></a>
@@ -574,7 +593,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a1625d27c60b9833cc9bdebffb80833cb">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  271</span>    {</div>
+<div class="line"><span class="lineno">  272</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* ayamiss = <a class="code hl_variable" href="../../dd/da4/structnpc__hive__zara__larva.html#aa8333a25c0e184dd75db580b03ef9cb2">_instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a1541c403bcc65b54c0a2c523c8eaf0b1">GetCreature</a>(<a class="code hl_enumvalue" href="../../d4/d01/ruins__of__ahnqiraj_8h.html#afb6eb4f28419b652027fad41104a6d22abcc5d0846bb2f482f39c755b99ef557e">DATA_AYAMISS</a>))</div>
+<div class="line"><span class="lineno">  273</span>        {</div>
+<div class="line"><span class="lineno">  274</span>            ayamiss-&gt;AI()-&gt;JustSummoned(summon);</div>
+<div class="line"><span class="lineno">  275</span>            summon-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">SetInCombatWithZone</a>();</div>
+<div class="line"><span class="lineno">  276</span>        }</div>
+<div class="line"><span class="lineno">  277</span>    }</div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_a01ccacf28df6336a774bf1672caf3571"><div class="ttname"><a href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">Creature::SetInCombatWithZone</a></div><div class="ttdeci">void SetInCombatWithZone()</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2705</div></div>
+<div class="ttc" id="aclass_instance_script_html_a1541c403bcc65b54c0a2c523c8eaf0b1"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a1541c403bcc65b54c0a2c523c8eaf0b1">InstanceScript::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(uint32 type)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:98</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acee981a1aaa092f77ee2613d0c5b8450" name="acee981a1aaa092f77ee2613d0c5b8450"></a>
@@ -602,7 +631,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  280</span>    {</div>
+<div class="line"><span class="lineno">  281</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/da4/structnpc__hive__zara__larva.html#aa8333a25c0e184dd75db580b03ef9cb2">_instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a776dbfd3b5c48f29ea0ccf8f3cf659e2">GetBossState</a>(<a class="code hl_enumvalue" href="../../d4/d01/ruins__of__ahnqiraj_8h.html#afb6eb4f28419b652027fad41104a6d22abcc5d0846bb2f482f39c755b99ef557e">DATA_AYAMISS</a>) == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>)</div>
+<div class="line"><span class="lineno">  282</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  283</span> </div>
+<div class="line"><span class="lineno">  284</span>        <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">ScriptedAI::MoveInLineOfSight</a>(who);</div>
+<div class="line"><span class="lineno">  285</span>    }</div>
+<div class="ttc" id="aclass_creature_a_i_html_a1280f8bcf72254ad31c453b810615f87"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI::MoveInLineOfSight</a></div><div class="ttdeci">virtual void MoveInLineOfSight(Unit *)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:156</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6890c58106450d654062f548a80cb42f" name="a6890c58106450d654062f548a80cb42f"></a>
@@ -640,7 +676,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#ac737070ba7a8645d0e0ccf6bd6107004">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  260</span>    {</div>
+<div class="line"><span class="lineno">  261</span>        <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a> &amp;&amp; <span class="keywordtype">id</span> == <a class="code hl_enumvalue" href="../../db/dfe/boss__ayamiss_8cpp.html#a50ba2acfd483f395e71abb80f687463eaa4d13c017e0fc9745738ee9f2c912fa5">POINT_PARALYZE</a>)</div>
+<div class="line"><span class="lineno">  262</span>        {</div>
+<div class="line"><span class="lineno">  263</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* target = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../dd/da4/structnpc__hive__zara__larva.html#aa8333a25c0e184dd75db580b03ef9cb2">_instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">GetGuidData</a>(<a class="code hl_enumvalue" href="../../d4/d01/ruins__of__ahnqiraj_8h.html#afb6eb4f28419b652027fad41104a6d22a166d82891af5a1e5ee780338133c1e59">DATA_PARALYZED</a>)))</div>
+<div class="line"><span class="lineno">  264</span>            {</div>
+<div class="line"><span class="lineno">  265</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../db/dfe/boss__ayamiss_8cpp.html#a5bd342133be8c2137b831460acc9298ca07431e31842093194fab44956c2038c7">SPELL_FEED</a>);</div>
+<div class="line"><span class="lineno">  266</span>            }</div>
+<div class="line"><span class="lineno">  267</span>        }</div>
+<div class="line"><span class="lineno">  268</span>    }</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a></div><div class="ttdeci">@ POINT_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:46</div></div>
+<div class="ttc" id="aboss__ayamiss_8cpp_html_a50ba2acfd483f395e71abb80f687463eaa4d13c017e0fc9745738ee9f2c912fa5"><div class="ttname"><a href="../../db/dfe/boss__ayamiss_8cpp.html#a50ba2acfd483f395e71abb80f687463eaa4d13c017e0fc9745738ee9f2c912fa5">POINT_PARALYZE</a></div><div class="ttdeci">@ POINT_PARALYZE</div><div class="ttdef"><b>Definition:</b> boss_ayamiss.cpp:75</div></div>
+<div class="ttc" id="aboss__ayamiss_8cpp_html_a5bd342133be8c2137b831460acc9298ca07431e31842093194fab44956c2038c7"><div class="ttname"><a href="../../db/dfe/boss__ayamiss_8cpp.html#a5bd342133be8c2137b831460acc9298ca07431e31842093194fab44956c2038c7">SPELL_FEED</a></div><div class="ttdeci">@ SPELL_FEED</div><div class="ttdef"><b>Definition:</b> boss_ayamiss.cpp:32</div></div>
+<div class="ttc" id="aclass_instance_script_html_a3be7f24ca31c9433aca546e1087109b4"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript::GetGuidData</a></div><div class="ttdeci">ObjectGuid GetGuidData(uint32 type) const override</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:93</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_aeb3657e7ad09335b9a9ffa50473aa216"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer(Map const *, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:225</div></div>
+<div class="ttc" id="aruins__of__ahnqiraj_8h_html_afb6eb4f28419b652027fad41104a6d22a166d82891af5a1e5ee780338133c1e59"><div class="ttname"><a href="../../d4/d01/ruins__of__ahnqiraj_8h.html#afb6eb4f28419b652027fad41104a6d22a166d82891af5a1e5ee780338133c1e59">DATA_PARALYZED</a></div><div class="ttdeci">@ DATA_PARALYZED</div><div class="ttdef"><b>Definition:</b> ruins_of_ahnqiraj.h:35</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab7452ec3ea8fa7caee7a45ae1ebbde9a" name="ab7452ec3ea8fa7caee7a45ae1ebbde9a"></a>
@@ -668,7 +721,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  296</span>    {</div>
+<div class="line"><span class="lineno">  297</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/da4/structnpc__hive__zara__larva.html#aa8333a25c0e184dd75db580b03ef9cb2">_instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a776dbfd3b5c48f29ea0ccf8f3cf659e2">GetBossState</a>(<a class="code hl_enumvalue" href="../../d4/d01/ruins__of__ahnqiraj_8h.html#afb6eb4f28419b652027fad41104a6d22abcc5d0846bb2f482f39c755b99ef557e">DATA_AYAMISS</a>) == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>)</div>
+<div class="line"><span class="lineno">  298</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  299</span> </div>
+<div class="line"><span class="lineno">  300</span>        <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI::UpdateAI</a>(diff);</div>
+<div class="line"><span class="lineno">  301</span>    }</div>
+<div class="ttc" id="astruct_scripted_a_i_html_aff5fd4e142a5cf930ffacbfc7259cce5"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI::UpdateAI</a></div><div class="ttdeci">void UpdateAI(uint32 diff) override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:214</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -695,7 +755,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/RuinsOfAhnQiraj/<a class="el" href="../../db/dfe/boss__ayamiss_8cpp.html">boss_ayamiss.cpp</a></li>
+<li><a class="el" href="../../">boss_ayamiss.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -703,7 +763,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/da4/structnpc__hive__zara__larva.html">npc_hive_zara_larva</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:06 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d2/db6/class_database_worker.html','..
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d3/d84/_database_worker_8h_source.html">DatabaseWorker.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">DatabaseWorker.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -143,7 +143,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a448c50212f5d532cb4c35619b993041a"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db6/class_database_worker.html#a448c50212f5d532cb4c35619b993041a">_cancelationToken</a></td></tr>
 <tr class="separator:a448c50212f5d532cb4c35619b993041a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a64450680e7b6e31bb42ce4f79788eb27" name="a64450680e7b6e31bb42ce4f79788eb27"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a64450680e7b6e31bb42ce4f79788eb27">&#9670;&#160;</a></span>DatabaseWorker() <span class="overload">[1/2]</span></h2>
 
@@ -169,7 +170,18 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   23</span>{</div>
+<div class="line"><span class="lineno">   24</span>    <a class="code hl_variable" href="../../d2/db6/class_database_worker.html#a2f21d73b584d9e5f17afc7a0ac78f129">_connection</a> = connection;</div>
+<div class="line"><span class="lineno">   25</span>    <a class="code hl_variable" href="../../d2/db6/class_database_worker.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a> = newQueue;</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_variable" href="../../d2/db6/class_database_worker.html#a448c50212f5d532cb4c35619b993041a">_cancelationToken</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_variable" href="../../d2/db6/class_database_worker.html#ad02a90f600f1996c053f36e186edf292">_workerThread</a> = std::thread(&amp;<a class="code hl_function" href="../../d2/db6/class_database_worker.html#ab74cbccbb68bfbbab58550eced982d1a">DatabaseWorker::WorkerThread</a>, <span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   28</span>}</div>
+<div class="ttc" id="aclass_database_worker_html_a2f21d73b584d9e5f17afc7a0ac78f129"><div class="ttname"><a href="../../d2/db6/class_database_worker.html#a2f21d73b584d9e5f17afc7a0ac78f129">DatabaseWorker::_connection</a></div><div class="ttdeci">MySQLConnection * _connection</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.h:39</div></div>
+<div class="ttc" id="aclass_database_worker_html_a448c50212f5d532cb4c35619b993041a"><div class="ttname"><a href="../../d2/db6/class_database_worker.html#a448c50212f5d532cb4c35619b993041a">DatabaseWorker::_cancelationToken</a></div><div class="ttdeci">std::atomic&lt; bool &gt; _cancelationToken</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.h:44</div></div>
+<div class="ttc" id="aclass_database_worker_html_a9c47ad6c0d4dca85a63be45c4e678a70"><div class="ttname"><a href="../../d2/db6/class_database_worker.html#a9c47ad6c0d4dca85a63be45c4e678a70">DatabaseWorker::_queue</a></div><div class="ttdeci">ProducerConsumerQueue&lt; SQLOperation * &gt; * _queue</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.h:38</div></div>
+<div class="ttc" id="aclass_database_worker_html_ab74cbccbb68bfbbab58550eced982d1a"><div class="ttname"><a href="../../d2/db6/class_database_worker.html#ab74cbccbb68bfbbab58550eced982d1a">DatabaseWorker::WorkerThread</a></div><div class="ttdeci">void WorkerThread()</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.cpp:39</div></div>
+<div class="ttc" id="aclass_database_worker_html_ad02a90f600f1996c053f36e186edf292"><div class="ttname"><a href="../../d2/db6/class_database_worker.html#ad02a90f600f1996c053f36e186edf292">DatabaseWorker::_workerThread</a></div><div class="ttdeci">std::thread _workerThread</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.h:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a170c873cbc917ece6a87591450dbe5a9" name="a170c873cbc917ece6a87591450dbe5a9"></a>
@@ -186,7 +198,15 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_variable" href="../../d2/db6/class_database_worker.html#a448c50212f5d532cb4c35619b993041a">_cancelationToken</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   33</span> </div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_variable" href="../../d2/db6/class_database_worker.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a>-&gt;<a class="code hl_function" href="../../d3/d8a/class_producer_consumer_queue.html#a7e9de516e77945411ad4f8bfa161489d">Cancel</a>();</div>
+<div class="line"><span class="lineno">   35</span> </div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_variable" href="../../d2/db6/class_database_worker.html#ad02a90f600f1996c053f36e186edf292">_workerThread</a>.join();</div>
+<div class="line"><span class="lineno">   37</span>}</div>
+<div class="ttc" id="aclass_producer_consumer_queue_html_a7e9de516e77945411ad4f8bfa161489d"><div class="ttname"><a href="../../d3/d8a/class_producer_consumer_queue.html#a7e9de516e77945411ad4f8bfa161489d">ProducerConsumerQueue::Cancel</a></div><div class="ttdeci">void Cancel()</div><div class="ttdef"><b>Definition:</b> PCQueue.h:96</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa43f1d875400b0ba6c031e0811397ed3" name="aa43f1d875400b0ba6c031e0811397ed3"></a>
@@ -264,7 +284,30 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
+<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/db6/class_database_worker.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a>)</div>
+<div class="line"><span class="lineno">   42</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   43</span> </div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">for</span> (;;)</div>
+<div class="line"><span class="lineno">   45</span>    {</div>
+<div class="line"><span class="lineno">   46</span>        <a class="code hl_class" href="../../df/dc3/class_s_q_l_operation.html">SQLOperation</a>* operation = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   47</span> </div>
+<div class="line"><span class="lineno">   48</span>        <a class="code hl_variable" href="../../d2/db6/class_database_worker.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a>-&gt;<a class="code hl_function" href="../../d3/d8a/class_producer_consumer_queue.html#a172ef4211bcb237478ec57531c8dcc4d">WaitAndPop</a>(operation);</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/db6/class_database_worker.html#a448c50212f5d532cb4c35619b993041a">_cancelationToken</a> || !operation)</div>
+<div class="line"><span class="lineno">   51</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>        operation-&gt;<a class="code hl_function" href="../../df/dc3/class_s_q_l_operation.html#a52cbd1d9b8a298ab3eade0010b5e3166">SetConnection</a>(<a class="code hl_variable" href="../../d2/db6/class_database_worker.html#a2f21d73b584d9e5f17afc7a0ac78f129">_connection</a>);</div>
+<div class="line"><span class="lineno">   54</span>        operation-&gt;<a class="code hl_function" href="../../df/dc3/class_s_q_l_operation.html#ae56c06a313c4be5d0e45f5481996f1d1">call</a>();</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>        <span class="keyword">delete</span> operation;</div>
+<div class="line"><span class="lineno">   57</span>    }</div>
+<div class="line"><span class="lineno">   58</span>}</div>
+<div class="ttc" id="aclass_producer_consumer_queue_html_a172ef4211bcb237478ec57531c8dcc4d"><div class="ttname"><a href="../../d3/d8a/class_producer_consumer_queue.html#a172ef4211bcb237478ec57531c8dcc4d">ProducerConsumerQueue::WaitAndPop</a></div><div class="ttdeci">void WaitAndPop(T &amp;value)</div><div class="ttdef"><b>Definition:</b> PCQueue.h:75</div></div>
+<div class="ttc" id="aclass_s_q_l_operation_html"><div class="ttname"><a href="../../df/dc3/class_s_q_l_operation.html">SQLOperation</a></div><div class="ttdef"><b>Definition:</b> SQLOperation.h:42</div></div>
+<div class="ttc" id="aclass_s_q_l_operation_html_a52cbd1d9b8a298ab3eade0010b5e3166"><div class="ttname"><a href="../../df/dc3/class_s_q_l_operation.html#a52cbd1d9b8a298ab3eade0010b5e3166">SQLOperation::SetConnection</a></div><div class="ttdeci">virtual void SetConnection(MySQLConnection *con)</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:54</div></div>
+<div class="ttc" id="aclass_s_q_l_operation_html_ae56c06a313c4be5d0e45f5481996f1d1"><div class="ttname"><a href="../../df/dc3/class_s_q_l_operation.html#ae56c06a313c4be5d0e45f5481996f1d1">SQLOperation::call</a></div><div class="ttdeci">virtual int call()</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:47</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -357,8 +400,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/database/Database/<a class="el" href="../../d3/d84/_database_worker_8h_source.html">DatabaseWorker.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/database/Database/<a class="el" href="../../d8/daf/_database_worker_8cpp.html">DatabaseWorker.cpp</a></li>
+<li><a class="el" href="../../">DatabaseWorker.h</a></li>
+<li><a class="el" href="../../">DatabaseWorker.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -366,7 +409,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/db6/class_database_worker.html">DatabaseWorker</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

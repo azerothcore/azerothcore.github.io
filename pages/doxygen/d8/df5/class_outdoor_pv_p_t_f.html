@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d8/df5/class_outdoor_pv_p_t_f.html','.
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/d8b/_outdoor_pv_p_t_f_8h_source.html">OutdoorPvPTF.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">OutdoorPvPTF.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for OutdoorPvPTF:</div>
 <div class="dyncontent">
@@ -311,7 +311,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:aff507ed1ab80ac3ff9ce3ca78168a594 inherit pro_attribs_class_outdoor_pv_p"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d11/class_map.html">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d3c/class_outdoor_pv_p.html#aff507ed1ab80ac3ff9ce3ca78168a594">m_map</a></td></tr>
 <tr class="separator:aff507ed1ab80ac3ff9ce3ca78168a594 inherit pro_attribs_class_outdoor_pv_p"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a66b822334b04a8a2d72b4fe24cb9c9d5" name="a66b822334b04a8a2d72b4fe24cb9c9d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a66b822334b04a8a2d72b4fe24cb9c9d5">&#9670;&#160;</a></span>OutdoorPvPTF()</h2>
 
@@ -326,7 +327,34 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_variable" href="../../db/d3c/class_outdoor_pv_p.html#a29424882470733324c154ac73ce0e968">m_TypeId</a> = <a class="code hl_enumvalue" href="../../da/d03/_outdoor_pv_p_8h.html#a56e7764289940901c2a230103f78adeea62e94746420e27ec7bd9c56ea578caab">OUTDOOR_PVP_TF</a>;</div>
+<div class="line"><span class="lineno">   32</span> </div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a4836d80df43fb3af7f3c0fd76cbaf20b">m_IsLocked</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a7a99a565db9930f322071e667df913d8">m_JustLocked</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a6ae15350f6d7b65a1bdacc6a7df9696d">m_LockTimer</a> = <a class="code hl_variable" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a925c2f6bf9c7a6d1b694382b888fa85f">TF_LOCK_TIME</a>;</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aa99c8348cd06f182cdeabbde02ae1e76">m_LockTimerUpdate</a> = 0;</div>
+<div class="line"><span class="lineno">   37</span> </div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a> = 0;</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a> = 0;</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#ac8833f965d6138db3c3f3dc53754a1e9">hours_left</a> = 6;</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a643ab6b5318aa1fd16ef26119696fefd">second_digit</a> = 0;</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aea70b0297157e9cab3faf182e339ee3f">first_digit</a> = 0;</div>
+<div class="line"><span class="lineno">   44</span>}</div>
+<div class="ttc" id="a_outdoor_pv_p_8h_html_a56e7764289940901c2a230103f78adeea62e94746420e27ec7bd9c56ea578caab"><div class="ttname"><a href="../../da/d03/_outdoor_pv_p_8h.html#a56e7764289940901c2a230103f78adeea62e94746420e27ec7bd9c56ea578caab">OUTDOOR_PVP_TF</a></div><div class="ttdeci">@ OUTDOOR_PVP_TF</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:31</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a925c2f6bf9c7a6d1b694382b888fa85f"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a925c2f6bf9c7a6d1b694382b888fa85f">TF_LOCK_TIME</a></div><div class="ttdeci">const uint32 TF_LOCK_TIME</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:35</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_html_a29424882470733324c154ac73ce0e968"><div class="ttname"><a href="../../db/d3c/class_outdoor_pv_p.html#a29424882470733324c154ac73ce0e968">OutdoorPvP::m_TypeId</a></div><div class="ttdeci">uint32 m_TypeId</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:257</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_t_f_html_a4836d80df43fb3af7f3c0fd76cbaf20b"><div class="ttname"><a href="../../d8/df5/class_outdoor_pv_p_t_f.html#a4836d80df43fb3af7f3c0fd76cbaf20b">OutdoorPvPTF::m_IsLocked</a></div><div class="ttdeci">bool m_IsLocked</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:189</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_t_f_html_a50576e4a5957a45205341bcb503f045b"><div class="ttname"><a href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">OutdoorPvPTF::m_HordeTowersControlled</a></div><div class="ttdeci">uint32 m_HordeTowersControlled</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:195</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_t_f_html_a63cbdec29b584c5744b8676489609ecf"><div class="ttname"><a href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">OutdoorPvPTF::m_AllianceTowersControlled</a></div><div class="ttdeci">uint32 m_AllianceTowersControlled</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:194</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_t_f_html_a643ab6b5318aa1fd16ef26119696fefd"><div class="ttname"><a href="../../d8/df5/class_outdoor_pv_p_t_f.html#a643ab6b5318aa1fd16ef26119696fefd">OutdoorPvPTF::second_digit</a></div><div class="ttdeci">uint32 second_digit</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:197</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_t_f_html_a6ae15350f6d7b65a1bdacc6a7df9696d"><div class="ttname"><a href="../../d8/df5/class_outdoor_pv_p_t_f.html#a6ae15350f6d7b65a1bdacc6a7df9696d">OutdoorPvPTF::m_LockTimer</a></div><div class="ttdeci">uint32 m_LockTimer</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:191</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_t_f_html_a7a99a565db9930f322071e667df913d8"><div class="ttname"><a href="../../d8/df5/class_outdoor_pv_p_t_f.html#a7a99a565db9930f322071e667df913d8">OutdoorPvPTF::m_JustLocked</a></div><div class="ttdeci">bool m_JustLocked</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:190</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_t_f_html_aa99c8348cd06f182cdeabbde02ae1e76"><div class="ttname"><a href="../../d8/df5/class_outdoor_pv_p_t_f.html#aa99c8348cd06f182cdeabbde02ae1e76">OutdoorPvPTF::m_LockTimerUpdate</a></div><div class="ttdeci">uint32 m_LockTimerUpdate</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:192</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_t_f_html_ac8833f965d6138db3c3f3dc53754a1e9"><div class="ttname"><a href="../../d8/df5/class_outdoor_pv_p_t_f.html#ac8833f965d6138db3c3f3dc53754a1e9">OutdoorPvPTF::hours_left</a></div><div class="ttdeci">uint32 hours_left</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:197</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_t_f_html_aea70b0297157e9cab3faf182e339ee3f"><div class="ttname"><a href="../../d8/df5/class_outdoor_pv_p_t_f.html#aea70b0297157e9cab3faf182e339ee3f">OutdoorPvPTF::first_digit</a></div><div class="ttdeci">uint32 first_digit</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:197</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -355,7 +383,43 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../db/d3c/class_outdoor_pv_p.html#a7633a64657de911ffcdc7ee410bf51fb">OutdoorPvP</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   60</span>{</div>
+<div class="line"><span class="lineno">   61</span>    data &lt;&lt; <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a01fef84454cee087b39e06f40fa95336">TF_UI_TOWER_SLIDER_POS</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(50);</div>
+<div class="line"><span class="lineno">   62</span>    data &lt;&lt; <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a789327b4fc1d2e623b1a0a18d70328dd">TF_UI_TOWER_SLIDER_N</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(100);</div>
+<div class="line"><span class="lineno">   63</span>    data &lt;&lt; <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a0137c97cdf1617d73e09085174a9842b">TF_UI_TOWER_SLIDER_DISPLAY</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0);</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>    data &lt;&lt; <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc">TF_UI_TOWER_COUNT_H</a> &lt;&lt; <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a>;</div>
+<div class="line"><span class="lineno">   66</span>    data &lt;&lt; <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30">TF_UI_TOWER_COUNT_A</a> &lt;&lt; <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a>;</div>
+<div class="line"><span class="lineno">   67</span>    data &lt;&lt; <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219">TF_UI_TOWERS_CONTROLLED_DISPLAY</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(!<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a4836d80df43fb3af7f3c0fd76cbaf20b">m_IsLocked</a>);</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>    data &lt;&lt; <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a09a446e5fb19482131f119d4ffe75ec3">TF_UI_LOCKED_TIME_MINUTES_FIRST_DIGIT</a> &lt;&lt; <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aea70b0297157e9cab3faf182e339ee3f">first_digit</a>;</div>
+<div class="line"><span class="lineno">   70</span>    data &lt;&lt; <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a6e71bc9f10b277d16c6ba22b6f4cb381">TF_UI_LOCKED_TIME_MINUTES_SECOND_DIGIT</a> &lt;&lt; <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a643ab6b5318aa1fd16ef26119696fefd">second_digit</a>;</div>
+<div class="line"><span class="lineno">   71</span>    data &lt;&lt; <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b">TF_UI_LOCKED_TIME_HOURS</a> &lt;&lt; <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#ac8833f965d6138db3c3f3dc53754a1e9">hours_left</a>;</div>
+<div class="line"><span class="lineno">   72</span> </div>
+<div class="line"><span class="lineno">   73</span>    data &lt;&lt; <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d">TF_UI_LOCKED_DISPLAY_NEUTRAL</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a4836d80df43fb3af7f3c0fd76cbaf20b">m_IsLocked</a> &amp;&amp; !<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a> &amp;&amp; !<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a>);</div>
+<div class="line"><span class="lineno">   74</span>    data &lt;&lt; <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2">TF_UI_LOCKED_DISPLAY_HORDE</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a4836d80df43fb3af7f3c0fd76cbaf20b">m_IsLocked</a> &amp;&amp; (<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a> &gt; <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a>));</div>
+<div class="line"><span class="lineno">   75</span>    data &lt;&lt; <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0">TF_UI_LOCKED_DISPLAY_ALLIANCE</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a4836d80df43fb3af7f3c0fd76cbaf20b">m_IsLocked</a> &amp;&amp; (<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a> &lt; <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a>));</div>
+<div class="line"><span class="lineno">   76</span> </div>
+<div class="line"><span class="lineno">   77</span>    <span class="keywordflow">for</span> (OPvPCapturePointMap::iterator itr = <a class="code hl_variable" href="../../db/d3c/class_outdoor_pv_p.html#a103cba047b23545f41f723570fe3e2aa">m_capturePoints</a>.begin(); itr != <a class="code hl_variable" href="../../db/d3c/class_outdoor_pv_p.html#a103cba047b23545f41f723570fe3e2aa">m_capturePoints</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">   78</span>    {</div>
+<div class="line"><span class="lineno">   79</span>        itr-&gt;second-&gt;FillInitialWorldStates(data);</div>
+<div class="line"><span class="lineno">   80</span>    }</div>
+<div class="line"><span class="lineno">   81</span>}</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a4134a455195e5cc1be9288227500b258a0137c97cdf1617d73e09085174a9842b"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a0137c97cdf1617d73e09085174a9842b">TF_UI_TOWER_SLIDER_DISPLAY</a></div><div class="ttdeci">@ TF_UI_TOWER_SLIDER_DISPLAY</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:103</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a4134a455195e5cc1be9288227500b258a01fef84454cee087b39e06f40fa95336"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a01fef84454cee087b39e06f40fa95336">TF_UI_TOWER_SLIDER_POS</a></div><div class="ttdeci">@ TF_UI_TOWER_SLIDER_POS</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:101</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a4134a455195e5cc1be9288227500b258a09a446e5fb19482131f119d4ffe75ec3"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a09a446e5fb19482131f119d4ffe75ec3">TF_UI_LOCKED_TIME_MINUTES_FIRST_DIGIT</a></div><div class="ttdeci">@ TF_UI_LOCKED_TIME_MINUTES_FIRST_DIGIT</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:109</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0">TF_UI_LOCKED_DISPLAY_ALLIANCE</a></div><div class="ttdeci">@ TF_UI_LOCKED_DISPLAY_ALLIANCE</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:114</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a4134a455195e5cc1be9288227500b258a6e71bc9f10b277d16c6ba22b6f4cb381"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a6e71bc9f10b277d16c6ba22b6f4cb381">TF_UI_LOCKED_TIME_MINUTES_SECOND_DIGIT</a></div><div class="ttdeci">@ TF_UI_LOCKED_TIME_MINUTES_SECOND_DIGIT</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:110</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d">TF_UI_LOCKED_DISPLAY_NEUTRAL</a></div><div class="ttdeci">@ TF_UI_LOCKED_DISPLAY_NEUTRAL</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:112</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a4134a455195e5cc1be9288227500b258a789327b4fc1d2e623b1a0a18d70328dd"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a789327b4fc1d2e623b1a0a18d70328dd">TF_UI_TOWER_SLIDER_N</a></div><div class="ttdeci">@ TF_UI_TOWER_SLIDER_N</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:102</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2">TF_UI_LOCKED_DISPLAY_HORDE</a></div><div class="ttdeci">@ TF_UI_LOCKED_DISPLAY_HORDE</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:113</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc">TF_UI_TOWER_COUNT_H</a></div><div class="ttdeci">@ TF_UI_TOWER_COUNT_H</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:105</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219">TF_UI_TOWERS_CONTROLLED_DISPLAY</a></div><div class="ttdeci">@ TF_UI_TOWERS_CONTROLLED_DISPLAY</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:107</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30">TF_UI_TOWER_COUNT_A</a></div><div class="ttdeci">@ TF_UI_TOWER_COUNT_A</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:106</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b">TF_UI_LOCKED_TIME_HOURS</a></div><div class="ttdeci">@ TF_UI_LOCKED_TIME_HOURS</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:111</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_html_a103cba047b23545f41f723570fe3e2aa"><div class="ttname"><a href="../../db/d3c/class_outdoor_pv_p.html#a103cba047b23545f41f723570fe3e2aa">OutdoorPvP::m_capturePoints</a></div><div class="ttdeci">OPvPCapturePointMap m_capturePoints</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:253</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a45402ed7b4a58a6dcd94e7d4320fd313" name="a45402ed7b4a58a6dcd94e7d4320fd313"></a>
@@ -372,7 +436,10 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  306</span>{</div>
+<div class="line"><span class="lineno">  307</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a>;</div>
+<div class="line"><span class="lineno">  308</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3ea3cd44ae7cbfc5b8dc641f2023e1ed" name="a3ea3cd44ae7cbfc5b8dc641f2023e1ed"></a>
@@ -389,7 +456,10 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  316</span>{</div>
+<div class="line"><span class="lineno">  317</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a>;</div>
+<div class="line"><span class="lineno">  318</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a23ef36361746c9fae0a14b1094914d22" name="a23ef36361746c9fae0a14b1094914d22"></a>
@@ -427,7 +497,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../db/d3c/class_outdoor_pv_p.html#a039f908a83ffc3ec948ddc20b1b19c6c">OutdoorPvP</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  284</span>{</div>
+<div class="line"><span class="lineno">  285</span>    <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>() == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a>)</div>
+<div class="line"><span class="lineno">  286</span>    {</div>
+<div class="line"><span class="lineno">  287</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a> &gt;= <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3">TF_TOWER_NUM</a>)</div>
+<div class="line"><span class="lineno">  288</span>            player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(player, <a class="code hl_define" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a82bc235ec6d43b48511d1b3d903a934b">TF_CAPTURE_BUFF</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  289</span>    }</div>
+<div class="line"><span class="lineno">  290</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  291</span>    {</div>
+<div class="line"><span class="lineno">  292</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a> &gt;= <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3">TF_TOWER_NUM</a>)</div>
+<div class="line"><span class="lineno">  293</span>            player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(player, <a class="code hl_define" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a82bc235ec6d43b48511d1b3d903a934b">TF_CAPTURE_BUFF</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  294</span>    }</div>
+<div class="line"><span class="lineno">  295</span>    <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#a039f908a83ffc3ec948ddc20b1b19c6c">OutdoorPvP::HandlePlayerEnterZone</a>(player, zone);</div>
+<div class="line"><span class="lineno">  296</span>}</div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3">TF_TOWER_NUM</a></div><div class="ttdeci">@ TF_TOWER_NUM</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:53</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a82bc235ec6d43b48511d1b3d903a934b"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a82bc235ec6d43b48511d1b3d903a934b">TF_CAPTURE_BUFF</a></div><div class="ttdeci">#define TF_CAPTURE_BUFF</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:41</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a></div><div class="ttdeci">@ TEAM_ALLIANCE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:732</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_html_a039f908a83ffc3ec948ddc20b1b19c6c"><div class="ttname"><a href="../../db/d3c/class_outdoor_pv_p.html#a039f908a83ffc3ec948ddc20b1b19c6c">OutdoorPvP::HandlePlayerEnterZone</a></div><div class="ttdeci">virtual void HandlePlayerEnterZone(Player *player, uint32 zone)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:255</div></div>
+<div class="ttc" id="aclass_player_html_a4874f5c152e187c381c2a349f16aa0d4"><div class="ttname"><a href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">Player::GetTeamId</a></div><div class="ttdeci">TeamId GetTeamId(bool original=false) const</div><div class="ttdef"><b>Definition:</b> Player.h:2058</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6ff61d4338983b61f653d6780c96c8d0" name="a6ff61d4338983b61f653d6780c96c8d0"></a>
@@ -465,7 +554,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../db/d3c/class_outdoor_pv_p.html#a8cb50fd8f92ea14fdbcfd1d9ded30ebe">OutdoorPvP</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  299</span>{</div>
+<div class="line"><span class="lineno">  300</span>    <span class="comment">// remove buffs</span></div>
+<div class="line"><span class="lineno">  301</span>    player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_define" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a82bc235ec6d43b48511d1b3d903a934b">TF_CAPTURE_BUFF</a>);</div>
+<div class="line"><span class="lineno">  302</span>    <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#a8cb50fd8f92ea14fdbcfd1d9ded30ebe">OutdoorPvP::HandlePlayerLeaveZone</a>(player, zone);</div>
+<div class="line"><span class="lineno">  303</span>}</div>
+<div class="ttc" id="aclass_outdoor_pv_p_html_a8cb50fd8f92ea14fdbcfd1d9ded30ebe"><div class="ttname"><a href="../../db/d3c/class_outdoor_pv_p.html#a8cb50fd8f92ea14fdbcfd1d9ded30ebe">OutdoorPvP::HandlePlayerLeaveZone</a></div><div class="ttdeci">virtual void HandlePlayerLeaveZone(Player *player, uint32 zone)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:260</div></div>
+<div class="ttc" id="aclass_unit_html_aac612f06e84142d92dcfc432b5feb4ac"><div class="ttname"><a href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">Unit::RemoveAurasDueToSpell</a></div><div class="ttdeci">void RemoveAurasDueToSpell(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, uint8 reqEffMask=0, AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4823</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a531956513de1703c5017193cd6d5f04b" name="a531956513de1703c5017193cd6d5f04b"></a>
@@ -482,7 +578,10 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  326</span>{</div>
+<div class="line"><span class="lineno">  327</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a4836d80df43fb3af7f3c0fd76cbaf20b">m_IsLocked</a>;</div>
+<div class="line"><span class="lineno">  328</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a025bf734eb6357a72f2286822f7cc7c6" name="a025bf734eb6357a72f2286822f7cc7c6"></a>
@@ -507,7 +606,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  172</span>    {</div>
+<div class="line"><span class="lineno">  173</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> minutes_left = <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a6ae15350f6d7b65a1bdacc6a7df9696d">m_LockTimer</a> / 60000;</div>
+<div class="line"><span class="lineno">  174</span>        <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#ac8833f965d6138db3c3f3dc53754a1e9">hours_left</a> = minutes_left / 60;</div>
+<div class="line"><span class="lineno">  175</span>        minutes_left -= <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#ac8833f965d6138db3c3f3dc53754a1e9">hours_left</a> * 60;</div>
+<div class="line"><span class="lineno">  176</span>        <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a643ab6b5318aa1fd16ef26119696fefd">second_digit</a> = minutes_left % 10;</div>
+<div class="line"><span class="lineno">  177</span>        <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aea70b0297157e9cab3faf182e339ee3f">first_digit</a> = minutes_left / 10;</div>
+<div class="line"><span class="lineno">  178</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aff6e736e4a6d9bd5868a3c0ad599cb5b" name="aff6e736e4a6d9bd5868a3c0ad599cb5b"></a>
@@ -525,7 +631,36 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  122</span>{</div>
+<div class="line"><span class="lineno">  123</span>    <span class="keywordflow">switch</span> (team)</div>
+<div class="line"><span class="lineno">  124</span>    {</div>
+<div class="line"><span class="lineno">  125</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a>:</div>
+<div class="line"><span class="lineno">  126</span>        <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a> = <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3">TF_TOWER_NUM</a>;</div>
+<div class="line"><span class="lineno">  127</span>        <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a> = 0;</div>
+<div class="line"><span class="lineno">  128</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  129</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a>:</div>
+<div class="line"><span class="lineno">  130</span>        <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a> = 0;</div>
+<div class="line"><span class="lineno">  131</span>        <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a> = <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3">TF_TOWER_NUM</a>;</div>
+<div class="line"><span class="lineno">  132</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  133</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a>:</div>
+<div class="line"><span class="lineno">  134</span>        <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a> = 0;</div>
+<div class="line"><span class="lineno">  135</span>        <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a> = 0;</div>
+<div class="line"><span class="lineno">  136</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  137</span>    }</div>
+<div class="line"><span class="lineno">  138</span> </div>
+<div class="line"><span class="lineno">  139</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; [guid, tower] : <a class="code hl_variable" href="../../db/d3c/class_outdoor_pv_p.html#a103cba047b23545f41f723570fe3e2aa">m_capturePoints</a>)</div>
+<div class="line"><span class="lineno">  140</span>    {</div>
+<div class="line"><span class="lineno">  141</span>        <span class="keyword">dynamic_cast&lt;</span><a class="code hl_class" href="../../dc/d03/class_o_pv_p_capture_point_t_f.html">OPvPCapturePointTF</a>*<span class="keyword">&gt;</span>(tower)-&gt;ResetToTeamControlled(team);</div>
+<div class="line"><span class="lineno">  142</span>    }</div>
+<div class="line"><span class="lineno">  143</span> </div>
+<div class="line"><span class="lineno">  144</span>    <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc">TF_UI_TOWER_COUNT_H</a>, <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a>);</div>
+<div class="line"><span class="lineno">  145</span>    <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30">TF_UI_TOWER_COUNT_A</a>, <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a>);</div>
+<div class="line"><span class="lineno">  146</span>}</div>
+<div class="ttc" id="a_shared_defines_8h_html_a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a></div><div class="ttdeci">@ TEAM_NEUTRAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:734</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a></div><div class="ttdeci">@ TEAM_HORDE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:733</div></div>
+<div class="ttc" id="aclass_o_pv_p_capture_point_t_f_html"><div class="ttname"><a href="../../dc/d03/class_o_pv_p_capture_point_t_f.html">OPvPCapturePointTF</a></div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:125</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_html_ab332e2eafab4a8ab3f0f19ba7fce4ad4"><div class="ttname"><a href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">OutdoorPvP::SendUpdateWorldState</a></div><div class="ttdeci">void SendUpdateWorldState(uint32 field, uint32 value)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:411</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aeafe05bb2ef984a411436f3971239ae4" name="aeafe05bb2ef984a411436f3971239ae4"></a>
@@ -542,7 +677,20 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  110</span>{</div>
+<div class="line"><span class="lineno">  111</span>    <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;setWorldState(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc">TF_UI_TOWER_COUNT_H</a>, <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a>);</div>
+<div class="line"><span class="lineno">  112</span>    <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;setWorldState(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30">TF_UI_TOWER_COUNT_A</a>, <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a>);</div>
+<div class="line"><span class="lineno">  113</span> </div>
+<div class="line"><span class="lineno">  114</span>    <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;setWorldState(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219">TF_UI_TOWERS_CONTROLLED_DISPLAY</a>, <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a4836d80df43fb3af7f3c0fd76cbaf20b">m_IsLocked</a>);</div>
+<div class="line"><span class="lineno">  115</span> </div>
+<div class="line"><span class="lineno">  116</span>    <span class="comment">// Save expiry as unix</span></div>
+<div class="line"><span class="lineno">  117</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <span class="keyword">const</span> lockExpireTime = <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count() + (<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a6ae15350f6d7b65a1bdacc6a7df9696d">m_LockTimer</a> / <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">  118</span>    <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;setWorldState(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b">TF_UI_LOCKED_TIME_HOURS</a>, lockExpireTime);</div>
+<div class="line"><span class="lineno">  119</span>}</div>
+<div class="ttc" id="a_common_8h_html_a84190f79c8167211609f67284e066c58"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></div><div class="ttdeci">constexpr auto IN_MILLISECONDS</div><div class="ttdef"><b>Definition:</b> Common.h:62</div></div>
+<div class="ttc" id="agroup__world_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:458</div></div>
+<div class="ttc" id="anamespace_game_time_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2c79f67ee87306c7944c86e745e1bfc9" name="a2c79f67ee87306c7944c86e745e1bfc9"></a>
@@ -570,7 +718,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../db/d3c/class_outdoor_pv_p.html#a552057a07ed4804930abfd7daf8d5431">OutdoorPvP</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   84</span>{</div>
+<div class="line"><span class="lineno">   85</span>    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a01fef84454cee087b39e06f40fa95336">TF_UI_TOWER_SLIDER_POS</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">   86</span>    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a789327b4fc1d2e623b1a0a18d70328dd">TF_UI_TOWER_SLIDER_N</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">   87</span>    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a0137c97cdf1617d73e09085174a9842b">TF_UI_TOWER_SLIDER_DISPLAY</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc">TF_UI_TOWER_COUNT_H</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">   90</span>    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30">TF_UI_TOWER_COUNT_A</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">   91</span>    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219">TF_UI_TOWERS_CONTROLLED_DISPLAY</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">   92</span> </div>
+<div class="line"><span class="lineno">   93</span>    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a09a446e5fb19482131f119d4ffe75ec3">TF_UI_LOCKED_TIME_MINUTES_FIRST_DIGIT</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">   94</span>    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a6e71bc9f10b277d16c6ba22b6f4cb381">TF_UI_LOCKED_TIME_MINUTES_SECOND_DIGIT</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">   95</span>    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b">TF_UI_LOCKED_TIME_HOURS</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">   96</span> </div>
+<div class="line"><span class="lineno">   97</span>    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d">TF_UI_LOCKED_DISPLAY_NEUTRAL</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">   98</span>    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2">TF_UI_LOCKED_DISPLAY_HORDE</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">   99</span>    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0">TF_UI_LOCKED_DISPLAY_ALLIANCE</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">  100</span> </div>
+<div class="line"><span class="lineno">  101</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3">TF_TOWER_NUM</a>; ++i)</div>
+<div class="line"><span class="lineno">  102</span>    {</div>
+<div class="line"><span class="lineno">  103</span>        player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#ac5dbb8989285178cfea88af6f03dd6a6">TFTowerWorldStates</a>[i].n), <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">  104</span>        player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#ac5dbb8989285178cfea88af6f03dd6a6">TFTowerWorldStates</a>[i].h), <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">  105</span>        player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#ac5dbb8989285178cfea88af6f03dd6a6">TFTowerWorldStates</a>[i].a), <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">  106</span>    }</div>
+<div class="line"><span class="lineno">  107</span>}</div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_ac5dbb8989285178cfea88af6f03dd6a6"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#ac5dbb8989285178cfea88af6f03dd6a6">TFTowerWorldStates</a></div><div class="ttdeci">const tf_tower_world_state TFTowerWorldStates[TF_TOWER_NUM]</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:72</div></div>
+<div class="ttc" id="aclass_player_html_a2a12863caf54ad9a8af56bda556d7a4b"><div class="ttname"><a href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">Player::SendUpdateWorldState</a></div><div class="ttdeci">void SendUpdateWorldState(uint32 variable, uint32 value) const</div><div class="ttdef"><b>Definition:</b> PlayerUpdates.cpp:2189</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aff6c829b47c073150e5f5bf5d58477da" name="aff6c829b47c073150e5f5bf5d58477da"></a>
@@ -588,7 +762,10 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  311</span>{</div>
+<div class="line"><span class="lineno">  312</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a> = count;</div>
+<div class="line"><span class="lineno">  313</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a36f7e385fa4ca85ec31f96f8ff9b3048" name="a36f7e385fa4ca85ec31f96f8ff9b3048"></a>
@@ -606,7 +783,10 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  321</span>{</div>
+<div class="line"><span class="lineno">  322</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a> = count;</div>
+<div class="line"><span class="lineno">  323</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a993b5e28423be75745c13d3514defe15" name="a993b5e28423be75745c13d3514defe15"></a>
@@ -633,7 +813,73 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../db/d3c/class_outdoor_pv_p.html#aa924cc1d9448fd7607e671d8a06f9497">OutdoorPvP</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  331</span>{</div>
+<div class="line"><span class="lineno">  332</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a> = 0;</div>
+<div class="line"><span class="lineno">  333</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a> = 0;</div>
+<div class="line"><span class="lineno">  334</span> </div>
+<div class="line"><span class="lineno">  335</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a4836d80df43fb3af7f3c0fd76cbaf20b">m_IsLocked</a> = bool(<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getWorldState(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219">TF_UI_TOWERS_CONTROLLED_DISPLAY</a>));</div>
+<div class="line"><span class="lineno">  336</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a7a99a565db9930f322071e667df913d8">m_JustLocked</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  337</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a6ae15350f6d7b65a1bdacc6a7df9696d">m_LockTimer</a> = <a class="code hl_variable" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a925c2f6bf9c7a6d1b694382b888fa85f">TF_LOCK_TIME</a>;</div>
+<div class="line"><span class="lineno">  338</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aa99c8348cd06f182cdeabbde02ae1e76">m_LockTimerUpdate</a> = 0;</div>
+<div class="line"><span class="lineno">  339</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#ac8833f965d6138db3c3f3dc53754a1e9">hours_left</a> = 6;</div>
+<div class="line"><span class="lineno">  340</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a643ab6b5318aa1fd16ef26119696fefd">second_digit</a> = 0;</div>
+<div class="line"><span class="lineno">  341</span>    <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aea70b0297157e9cab3faf182e339ee3f">first_digit</a> = 0;</div>
+<div class="line"><span class="lineno">  342</span> </div>
+<div class="line"><span class="lineno">  343</span>    <span class="comment">// add the zones affected by the pvp buff</span></div>
+<div class="line"><span class="lineno">  344</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_variable" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#acde5c9331776adb4ed27c2319476e550">OutdoorPvPTFBuffZonesNum</a>; ++i)</div>
+<div class="line"><span class="lineno">  345</span>        <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#a539169858316925b827a056d9ab2e0d1">RegisterZone</a>(<a class="code hl_variable" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a6b09030102f8c0dbb4b0e6bbfdee9b24">OutdoorPvPTFBuffZones</a>[i]);</div>
+<div class="line"><span class="lineno">  346</span> </div>
+<div class="line"><span class="lineno">  347</span>    <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ad321bced2cc1af3cf50b55a659f1d317">SetMapFromZone</a>(<a class="code hl_variable" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a6b09030102f8c0dbb4b0e6bbfdee9b24">OutdoorPvPTFBuffZones</a>[0]);</div>
+<div class="line"><span class="lineno">  348</span> </div>
+<div class="line"><span class="lineno">  349</span>    <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#af29db712d138f6c37113153a59913bc1">AddCapturePoint</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../dc/d03/class_o_pv_p_capture_point_t_f.html">OPvPCapturePointTF</a>(<span class="keyword">this</span>, <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999ac95ea754e0befd303c7912671ff54b16">TF_TOWER_NW</a>));</div>
+<div class="line"><span class="lineno">  350</span>    <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#af29db712d138f6c37113153a59913bc1">AddCapturePoint</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../dc/d03/class_o_pv_p_capture_point_t_f.html">OPvPCapturePointTF</a>(<span class="keyword">this</span>, <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999a034d81c6a66a32fef95c75235cb39d2b">TF_TOWER_N</a>));</div>
+<div class="line"><span class="lineno">  351</span>    <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#af29db712d138f6c37113153a59913bc1">AddCapturePoint</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../dc/d03/class_o_pv_p_capture_point_t_f.html">OPvPCapturePointTF</a>(<span class="keyword">this</span>, <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999a210d598966bbca14ece80eb1e00bae97">TF_TOWER_NE</a>));</div>
+<div class="line"><span class="lineno">  352</span>    <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#af29db712d138f6c37113153a59913bc1">AddCapturePoint</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../dc/d03/class_o_pv_p_capture_point_t_f.html">OPvPCapturePointTF</a>(<span class="keyword">this</span>, <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999a01f2c2e0a883f8355bf433a96b52bd65">TF_TOWER_SE</a>));</div>
+<div class="line"><span class="lineno">  353</span>    <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#af29db712d138f6c37113153a59913bc1">AddCapturePoint</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../dc/d03/class_o_pv_p_capture_point_t_f.html">OPvPCapturePointTF</a>(<span class="keyword">this</span>, <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999af3a17ac5cc35927939c90503027342f0">TF_TOWER_S</a>));</div>
+<div class="line"><span class="lineno">  354</span> </div>
+<div class="line"><span class="lineno">  355</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a4836d80df43fb3af7f3c0fd76cbaf20b">m_IsLocked</a>)</div>
+<div class="line"><span class="lineno">  356</span>    {</div>
+<div class="line"><span class="lineno">  357</span>        <span class="comment">// Core shutdown while locked -- init from latest known data in WorldState</span></div>
+<div class="line"><span class="lineno">  358</span>        <span class="comment">// Convert from unix</span></div>
+<div class="line"><span class="lineno">  359</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> <span class="keyword">const</span> lockRemainingTime = <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>((<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getWorldState(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b">TF_UI_LOCKED_TIME_HOURS</a>) - <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count()) * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">  360</span>        <span class="keywordflow">if</span> (lockRemainingTime &gt; 0)</div>
+<div class="line"><span class="lineno">  361</span>        {</div>
+<div class="line"><span class="lineno">  362</span>            <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a6ae15350f6d7b65a1bdacc6a7df9696d">m_LockTimer</a> = lockRemainingTime;</div>
+<div class="line"><span class="lineno">  363</span>            <a class="code hl_function" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a025bf734eb6357a72f2286822f7cc7c6">RecalculateClientUILockTime</a>();</div>
+<div class="line"><span class="lineno">  364</span> </div>
+<div class="line"><span class="lineno">  365</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <span class="keyword">const</span> hordeTowers = <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getWorldState(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc">TF_UI_TOWER_COUNT_H</a>));</div>
+<div class="line"><span class="lineno">  366</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <span class="keyword">const</span> allianceTowers = <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getWorldState(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30">TF_UI_TOWER_COUNT_A</a>));</div>
+<div class="line"><span class="lineno">  367</span>            <a class="code hl_enumeration" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324d">TeamId</a> <span class="keyword">const</span> controllingTeam = hordeTowers &gt; allianceTowers ? <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a> : <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a>;</div>
+<div class="line"><span class="lineno">  368</span> </div>
+<div class="line"><span class="lineno">  369</span>            <a class="code hl_function" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aff6e736e4a6d9bd5868a3c0ad599cb5b">ResetZoneToTeamControlled</a>(controllingTeam);</div>
+<div class="line"><span class="lineno">  370</span>        }</div>
+<div class="line"><span class="lineno">  371</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  372</span>        {</div>
+<div class="line"><span class="lineno">  373</span>            <span class="comment">// Lock expired while core was offline</span></div>
+<div class="line"><span class="lineno">  374</span>            <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a4836d80df43fb3af7f3c0fd76cbaf20b">m_IsLocked</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  375</span>            <a class="code hl_function" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aeafe05bb2ef984a411436f3971239ae4">SaveRequiredWorldStates</a>();</div>
+<div class="line"><span class="lineno">  376</span>        }</div>
+<div class="line"><span class="lineno">  377</span>    }</div>
+<div class="line"><span class="lineno">  378</span> </div>
+<div class="line"><span class="lineno">  379</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  380</span>}</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a6b09030102f8c0dbb4b0e6bbfdee9b24"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a6b09030102f8c0dbb4b0e6bbfdee9b24">OutdoorPvPTFBuffZones</a></div><div class="ttdeci">const uint32 OutdoorPvPTFBuffZones[OutdoorPvPTFBuffZonesNum]</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:25</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a7a4347e10a530d56e3c3ae66a5eae999a01f2c2e0a883f8355bf433a96b52bd65"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999a01f2c2e0a883f8355bf433a96b52bd65">TF_TOWER_SE</a></div><div class="ttdeci">@ TF_TOWER_SE</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:51</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a7a4347e10a530d56e3c3ae66a5eae999a034d81c6a66a32fef95c75235cb39d2b"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999a034d81c6a66a32fef95c75235cb39d2b">TF_TOWER_N</a></div><div class="ttdeci">@ TF_TOWER_N</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:49</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a7a4347e10a530d56e3c3ae66a5eae999a210d598966bbca14ece80eb1e00bae97"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999a210d598966bbca14ece80eb1e00bae97">TF_TOWER_NE</a></div><div class="ttdeci">@ TF_TOWER_NE</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:50</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a7a4347e10a530d56e3c3ae66a5eae999ac95ea754e0befd303c7912671ff54b16"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999ac95ea754e0befd303c7912671ff54b16">TF_TOWER_NW</a></div><div class="ttdeci">@ TF_TOWER_NW</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:48</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a7a4347e10a530d56e3c3ae66a5eae999af3a17ac5cc35927939c90503027342f0"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999af3a17ac5cc35927939c90503027342f0">TF_TOWER_S</a></div><div class="ttdeci">@ TF_TOWER_S</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:52</div></div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_acde5c9331776adb4ed27c2319476e550"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#acde5c9331776adb4ed27c2319476e550">OutdoorPvPTFBuffZonesNum</a></div><div class="ttdeci">const uint8 OutdoorPvPTFBuffZonesNum</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:23</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a7513eda5ac39f7f649b82c80de7c324d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324d">TeamId</a></div><div class="ttdeci">TeamId</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:731</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_html_a539169858316925b827a056d9ab2e0d1"><div class="ttname"><a href="../../db/d3c/class_outdoor_pv_p.html#a539169858316925b827a056d9ab2e0d1">OutdoorPvP::RegisterZone</a></div><div class="ttdeci">void RegisterZone(uint32 zoneid)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:591</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_html_ad321bced2cc1af3cf50b55a659f1d317"><div class="ttname"><a href="../../db/d3c/class_outdoor_pv_p.html#ad321bced2cc1af3cf50b55a659f1d317">OutdoorPvP::SetMapFromZone</a></div><div class="ttdeci">void SetMapFromZone(uint32 zone)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:660</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_html_af29db712d138f6c37113153a59913bc1"><div class="ttname"><a href="../../db/d3c/class_outdoor_pv_p.html#af29db712d138f6c37113153a59913bc1">OutdoorPvP::AddCapturePoint</a></div><div class="ttdeci">void AddCapturePoint(OPvPCapturePoint *cp)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:271</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_t_f_html_a025bf734eb6357a72f2286822f7cc7c6"><div class="ttname"><a href="../../d8/df5/class_outdoor_pv_p_t_f.html#a025bf734eb6357a72f2286822f7cc7c6">OutdoorPvPTF::RecalculateClientUILockTime</a></div><div class="ttdeci">void RecalculateClientUILockTime()</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:171</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_t_f_html_aeafe05bb2ef984a411436f3971239ae4"><div class="ttname"><a href="../../d8/df5/class_outdoor_pv_p_t_f.html#aeafe05bb2ef984a411436f3971239ae4">OutdoorPvPTF::SaveRequiredWorldStates</a></div><div class="ttdeci">void SaveRequiredWorldStates() const</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.cpp:109</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_t_f_html_aff6e736e4a6d9bd5868a3c0ad599cb5b"><div class="ttname"><a href="../../d8/df5/class_outdoor_pv_p_t_f.html#aff6e736e4a6d9bd5868a3c0ad599cb5b">OutdoorPvPTF::ResetZoneToTeamControlled</a></div><div class="ttdeci">void ResetZoneToTeamControlled(TeamId team)</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.cpp:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abc72dff4380cfef895c0cd535e69d5c3" name="abc72dff4380cfef895c0cd535e69d5c3"></a>
@@ -661,7 +907,92 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../db/d3c/class_outdoor_pv_p.html#a2e4aff4223404eb8947c509750e7aa7d">OutdoorPvP</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  201</span>{</div>
+<div class="line"><span class="lineno">  202</span>    <span class="keywordtype">bool</span> changed = <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#a2e4aff4223404eb8947c509750e7aa7d">OutdoorPvP::Update</a>(diff);</div>
+<div class="line"><span class="lineno">  203</span> </div>
+<div class="line"><span class="lineno">  204</span>    <span class="keywordflow">if</span> (changed)</div>
+<div class="line"><span class="lineno">  205</span>    {</div>
+<div class="line"><span class="lineno">  206</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a> == <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3">TF_TOWER_NUM</a>)</div>
+<div class="line"><span class="lineno">  207</span>        {</div>
+<div class="line"><span class="lineno">  208</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#a2d888967c6b1d370e1bbf82c08d94a07">TeamApplyBuff</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a>, <a class="code hl_define" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a82bc235ec6d43b48511d1b3d903a934b">TF_CAPTURE_BUFF</a>);</div>
+<div class="line"><span class="lineno">  209</span>            <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a4836d80df43fb3af7f3c0fd76cbaf20b">m_IsLocked</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  210</span>            <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a7a99a565db9930f322071e667df913d8">m_JustLocked</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  211</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d">TF_UI_LOCKED_DISPLAY_NEUTRAL</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">  212</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2">TF_UI_LOCKED_DISPLAY_HORDE</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">  213</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0">TF_UI_LOCKED_DISPLAY_ALLIANCE</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(1));</div>
+<div class="line"><span class="lineno">  214</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219">TF_UI_TOWERS_CONTROLLED_DISPLAY</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">  215</span>        }</div>
+<div class="line"><span class="lineno">  216</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a> == <a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3">TF_TOWER_NUM</a>)</div>
+<div class="line"><span class="lineno">  217</span>        {</div>
+<div class="line"><span class="lineno">  218</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#a2d888967c6b1d370e1bbf82c08d94a07">TeamApplyBuff</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a>, <a class="code hl_define" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a82bc235ec6d43b48511d1b3d903a934b">TF_CAPTURE_BUFF</a>);</div>
+<div class="line"><span class="lineno">  219</span>            <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a4836d80df43fb3af7f3c0fd76cbaf20b">m_IsLocked</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  220</span>            <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a7a99a565db9930f322071e667df913d8">m_JustLocked</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  221</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d">TF_UI_LOCKED_DISPLAY_NEUTRAL</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">  222</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2">TF_UI_LOCKED_DISPLAY_HORDE</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(1));</div>
+<div class="line"><span class="lineno">  223</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0">TF_UI_LOCKED_DISPLAY_ALLIANCE</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">  224</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219">TF_UI_TOWERS_CONTROLLED_DISPLAY</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">  225</span>        }</div>
+<div class="line"><span class="lineno">  226</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  227</span>        {</div>
+<div class="line"><span class="lineno">  228</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#a7a4050c8f0413c3fd829ad7d4c9cdb6b">TeamCastSpell</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a>, -<a class="code hl_define" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a82bc235ec6d43b48511d1b3d903a934b">TF_CAPTURE_BUFF</a>);</div>
+<div class="line"><span class="lineno">  229</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#a7a4050c8f0413c3fd829ad7d4c9cdb6b">TeamCastSpell</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a>, -<a class="code hl_define" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a82bc235ec6d43b48511d1b3d903a934b">TF_CAPTURE_BUFF</a>);</div>
+<div class="line"><span class="lineno">  230</span>        }</div>
+<div class="line"><span class="lineno">  231</span> </div>
+<div class="line"><span class="lineno">  232</span>        <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30">TF_UI_TOWER_COUNT_A</a>, <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a63cbdec29b584c5744b8676489609ecf">m_AllianceTowersControlled</a>);</div>
+<div class="line"><span class="lineno">  233</span>        <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc">TF_UI_TOWER_COUNT_H</a>, <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a50576e4a5957a45205341bcb503f045b">m_HordeTowersControlled</a>);</div>
+<div class="line"><span class="lineno">  234</span>    }</div>
+<div class="line"><span class="lineno">  235</span> </div>
+<div class="line"><span class="lineno">  236</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a4836d80df43fb3af7f3c0fd76cbaf20b">m_IsLocked</a>)</div>
+<div class="line"><span class="lineno">  237</span>    {</div>
+<div class="line"><span class="lineno">  238</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a7a99a565db9930f322071e667df913d8">m_JustLocked</a>)</div>
+<div class="line"><span class="lineno">  239</span>        {</div>
+<div class="line"><span class="lineno">  240</span>            <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a7a99a565db9930f322071e667df913d8">m_JustLocked</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  241</span>            <a class="code hl_function" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aeafe05bb2ef984a411436f3971239ae4">SaveRequiredWorldStates</a>();</div>
+<div class="line"><span class="lineno">  242</span>        }</div>
+<div class="line"><span class="lineno">  243</span> </div>
+<div class="line"><span class="lineno">  244</span>        <span class="comment">// lock timer is down, release lock</span></div>
+<div class="line"><span class="lineno">  245</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a6ae15350f6d7b65a1bdacc6a7df9696d">m_LockTimer</a> &lt; diff)</div>
+<div class="line"><span class="lineno">  246</span>        {</div>
+<div class="line"><span class="lineno">  247</span>            <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a6ae15350f6d7b65a1bdacc6a7df9696d">m_LockTimer</a> = <a class="code hl_variable" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a925c2f6bf9c7a6d1b694382b888fa85f">TF_LOCK_TIME</a>;</div>
+<div class="line"><span class="lineno">  248</span>            <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aa99c8348cd06f182cdeabbde02ae1e76">m_LockTimerUpdate</a> = 0;</div>
+<div class="line"><span class="lineno">  249</span>            <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a4836d80df43fb3af7f3c0fd76cbaf20b">m_IsLocked</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  250</span> </div>
+<div class="line"><span class="lineno">  251</span>            <a class="code hl_function" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aff6e736e4a6d9bd5868a3c0ad599cb5b">ResetZoneToTeamControlled</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a>);</div>
+<div class="line"><span class="lineno">  252</span>            <a class="code hl_function" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aeafe05bb2ef984a411436f3971239ae4">SaveRequiredWorldStates</a>();</div>
+<div class="line"><span class="lineno">  253</span> </div>
+<div class="line"><span class="lineno">  254</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219">TF_UI_TOWERS_CONTROLLED_DISPLAY</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(1));</div>
+<div class="line"><span class="lineno">  255</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d">TF_UI_LOCKED_DISPLAY_NEUTRAL</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">  256</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2">TF_UI_LOCKED_DISPLAY_HORDE</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">  257</span>            <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0">TF_UI_LOCKED_DISPLAY_ALLIANCE</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0));</div>
+<div class="line"><span class="lineno">  258</span>        }</div>
+<div class="line"><span class="lineno">  259</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  260</span>        {</div>
+<div class="line"><span class="lineno">  261</span>            <span class="comment">// worldstateui update timer is down, update ui with new time data</span></div>
+<div class="line"><span class="lineno">  262</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aa99c8348cd06f182cdeabbde02ae1e76">m_LockTimerUpdate</a> &lt; diff)</div>
+<div class="line"><span class="lineno">  263</span>            {</div>
+<div class="line"><span class="lineno">  264</span>                <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aa99c8348cd06f182cdeabbde02ae1e76">m_LockTimerUpdate</a> = <a class="code hl_variable" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a9ef7be226d98726081fd3cb435d223b5">TF_LOCK_TIME_UPDATE</a>;</div>
+<div class="line"><span class="lineno">  265</span>                <a class="code hl_function" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a025bf734eb6357a72f2286822f7cc7c6">RecalculateClientUILockTime</a>();</div>
+<div class="line"><span class="lineno">  266</span> </div>
+<div class="line"><span class="lineno">  267</span>                <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a09a446e5fb19482131f119d4ffe75ec3">TF_UI_LOCKED_TIME_MINUTES_FIRST_DIGIT</a>, <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aea70b0297157e9cab3faf182e339ee3f">first_digit</a>);</div>
+<div class="line"><span class="lineno">  268</span>                <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258a6e71bc9f10b277d16c6ba22b6f4cb381">TF_UI_LOCKED_TIME_MINUTES_SECOND_DIGIT</a>, <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a643ab6b5318aa1fd16ef26119696fefd">second_digit</a>);</div>
+<div class="line"><span class="lineno">  269</span>                <a class="code hl_function" href="../../db/d3c/class_outdoor_pv_p.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b">TF_UI_LOCKED_TIME_HOURS</a>, <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#ac8833f965d6138db3c3f3dc53754a1e9">hours_left</a>);</div>
+<div class="line"><span class="lineno">  270</span>            }</div>
+<div class="line"><span class="lineno">  271</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  272</span>            {</div>
+<div class="line"><span class="lineno">  273</span>                <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#aa99c8348cd06f182cdeabbde02ae1e76">m_LockTimerUpdate</a> -= diff;</div>
+<div class="line"><span class="lineno">  274</span>            }</div>
+<div class="line"><span class="lineno">  275</span> </div>
+<div class="line"><span class="lineno">  276</span>            <a class="code hl_variable" href="../../d8/df5/class_outdoor_pv_p_t_f.html#a6ae15350f6d7b65a1bdacc6a7df9696d">m_LockTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  277</span>        }</div>
+<div class="line"><span class="lineno">  278</span>    }</div>
+<div class="line"><span class="lineno">  279</span> </div>
+<div class="line"><span class="lineno">  280</span>    <span class="keywordflow">return</span> changed;</div>
+<div class="line"><span class="lineno">  281</span>}</div>
+<div class="ttc" id="a_outdoor_pv_p_t_f_8h_html_a9ef7be226d98726081fd3cb435d223b5"><div class="ttname"><a href="../../d5/d8b/_outdoor_pv_p_t_f_8h.html#a9ef7be226d98726081fd3cb435d223b5">TF_LOCK_TIME_UPDATE</a></div><div class="ttdeci">const uint32 TF_LOCK_TIME_UPDATE</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:38</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_html_a2d888967c6b1d370e1bbf82c08d94a07"><div class="ttname"><a href="../../db/d3c/class_outdoor_pv_p.html#a2d888967c6b1d370e1bbf82c08d94a07">OutdoorPvP::TeamApplyBuff</a></div><div class="ttdeci">void TeamApplyBuff(TeamId teamId, uint32 spellId, uint32 spellId2=0, Player *sameMapPlr=nullptr)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:620</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_html_a2e4aff4223404eb8947c509750e7aa7d"><div class="ttname"><a href="../../db/d3c/class_outdoor_pv_p.html#a2e4aff4223404eb8947c509750e7aa7d">OutdoorPvP::Update</a></div><div class="ttdeci">virtual bool Update(uint32 diff)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:276</div></div>
+<div class="ttc" id="aclass_outdoor_pv_p_html_a7a4050c8f0413c3fd829ad7d4c9cdb6b"><div class="ttname"><a href="../../db/d3c/class_outdoor_pv_p.html#a7a4050c8f0413c3fd829ad7d4c9cdb6b">OutdoorPvP::TeamCastSpell</a></div><div class="ttdeci">void TeamCastSpell(TeamId team, int32 spellId, Player *sameMapPlr=nullptr)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:602</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -864,8 +1195,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/OutdoorPvP/<a class="el" href="../../d5/d8b/_outdoor_pv_p_t_f_8h_source.html">OutdoorPvPTF.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/scripts/OutdoorPvP/<a class="el" href="../../de/d1f/_outdoor_pv_p_t_f_8cpp.html">OutdoorPvPTF.cpp</a></li>
+<li><a class="el" href="../../">OutdoorPvPTF.h</a></li>
+<li><a class="el" href="../../">OutdoorPvPTF.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -873,7 +1204,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/df5/class_outdoor_pv_p_t_f.html">OutdoorPvPTF</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

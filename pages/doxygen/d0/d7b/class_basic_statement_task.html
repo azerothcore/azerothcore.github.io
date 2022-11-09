@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d0/d7b/class_basic_statement_task.html
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/d39/_adhoc_statement_8h_source.html">AdhocStatement.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">AdhocStatement.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for BasicStatementTask:</div>
 <div class="dyncontent">
@@ -190,7 +190,19 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Basic, ad-hoc queries. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   24</span>                                                                     : <a class="code hl_variable" href="../../d0/d7b/class_basic_statement_task.html#af70bc95cbf0df481dacf034ff78d2eb8">m_result</a>(<span class="keyword">nullptr</span>)</div>
+<div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_variable" href="../../d0/d7b/class_basic_statement_task.html#a9320235413d1c4736301070e1faeb161">m_sql</a> = std::string(sql);</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_variable" href="../../d0/d7b/class_basic_statement_task.html#a8bfae5e5695a6bf6bf796d95efa21e7e">m_has_result</a> = async; <span class="comment">// If the operation is async, then there&#39;s a result</span></div>
+<div class="line"><span class="lineno">   28</span> </div>
+<div class="line"><span class="lineno">   29</span>    <span class="keywordflow">if</span> (async)</div>
+<div class="line"><span class="lineno">   30</span>        <a class="code hl_variable" href="../../d0/d7b/class_basic_statement_task.html#af70bc95cbf0df481dacf034ff78d2eb8">m_result</a> = <span class="keyword">new</span> <a class="code hl_typedef" href="../../db/d04/_database_env_fwd_8h.html#a57de3b80b12c90e51398bf934fdc828b">QueryResultPromise</a>();</div>
+<div class="line"><span class="lineno">   31</span>}</div>
+<div class="ttc" id="a_database_env_fwd_8h_html_a57de3b80b12c90e51398bf934fdc828b"><div class="ttname"><a href="../../db/d04/_database_env_fwd_8h.html#a57de3b80b12c90e51398bf934fdc828b">QueryResultPromise</a></div><div class="ttdeci">std::promise&lt; QueryResult &gt; QueryResultPromise</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:30</div></div>
+<div class="ttc" id="aclass_basic_statement_task_html_a8bfae5e5695a6bf6bf796d95efa21e7e"><div class="ttname"><a href="../../d0/d7b/class_basic_statement_task.html#a8bfae5e5695a6bf6bf796d95efa21e7e">BasicStatementTask::m_has_result</a></div><div class="ttdeci">bool m_has_result</div><div class="ttdef"><b>Definition:</b> AdhocStatement.h:37</div></div>
+<div class="ttc" id="aclass_basic_statement_task_html_a9320235413d1c4736301070e1faeb161"><div class="ttname"><a href="../../d0/d7b/class_basic_statement_task.html#a9320235413d1c4736301070e1faeb161">BasicStatementTask::m_sql</a></div><div class="ttdeci">std::string m_sql</div><div class="ttdef"><b>Definition:</b> AdhocStatement.h:36</div></div>
+<div class="ttc" id="aclass_basic_statement_task_html_af70bc95cbf0df481dacf034ff78d2eb8"><div class="ttname"><a href="../../d0/d7b/class_basic_statement_task.html#af70bc95cbf0df481dacf034ff78d2eb8">BasicStatementTask::m_result</a></div><div class="ttdeci">QueryResultPromise * m_result</div><div class="ttdef"><b>Definition:</b> AdhocStatement.h:38</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0db608b5bae77e5f83b0e1bf5850719f" name="a0db608b5bae77e5f83b0e1bf5850719f"></a>
@@ -207,7 +219,12 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_variable" href="../../d0/d7b/class_basic_statement_task.html#a9320235413d1c4736301070e1faeb161">m_sql</a>.clear();</div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d7b/class_basic_statement_task.html#a8bfae5e5695a6bf6bf796d95efa21e7e">m_has_result</a> &amp;&amp; <a class="code hl_variable" href="../../d0/d7b/class_basic_statement_task.html#af70bc95cbf0df481dacf034ff78d2eb8">m_result</a>)</div>
+<div class="line"><span class="lineno">   37</span>        <span class="keyword">delete</span> <a class="code hl_variable" href="../../d0/d7b/class_basic_statement_task.html#af70bc95cbf0df481dacf034ff78d2eb8">m_result</a>;</div>
+<div class="line"><span class="lineno">   38</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -235,7 +252,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../df/dc3/class_s_q_l_operation.html#aff1090554bc4a6fe7a33270e63416e19">SQLOperation</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
+<div class="line"><span class="lineno">   42</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d7b/class_basic_statement_task.html#a8bfae5e5695a6bf6bf796d95efa21e7e">m_has_result</a>)</div>
+<div class="line"><span class="lineno">   43</span>    {</div>
+<div class="line"><span class="lineno">   44</span>        <a class="code hl_class" href="../../dc/df9/class_result_set.html">ResultSet</a>* result = <a class="code hl_variable" href="../../df/dc3/class_s_q_l_operation.html#adf322db48064fcf4528f713f857f1b40">m_conn</a>-&gt;<a class="code hl_function" href="../../dc/d10/class_my_s_q_l_connection.html#a8c05ec510296198c91e98e7d18e9d6c7">Query</a>(<a class="code hl_variable" href="../../d0/d7b/class_basic_statement_task.html#a9320235413d1c4736301070e1faeb161">m_sql</a>);</div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">if</span> (!result || !result-&gt;<a class="code hl_function" href="../../dc/df9/class_result_set.html#a16890572d4d0e422fcf347970262d9e1">GetRowCount</a>() || !result-&gt;<a class="code hl_function" href="../../dc/df9/class_result_set.html#a3d63f8274e3b485176855e2ade9e0642">NextRow</a>())</div>
+<div class="line"><span class="lineno">   46</span>        {</div>
+<div class="line"><span class="lineno">   47</span>            <span class="keyword">delete</span> result;</div>
+<div class="line"><span class="lineno">   48</span>            <a class="code hl_variable" href="../../d0/d7b/class_basic_statement_task.html#af70bc95cbf0df481dacf034ff78d2eb8">m_result</a>-&gt;set_value(<a class="code hl_typedef" href="../../db/d04/_database_env_fwd_8h.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a>(<span class="keyword">nullptr</span>));</div>
+<div class="line"><span class="lineno">   49</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   50</span>        }</div>
+<div class="line"><span class="lineno">   51</span> </div>
+<div class="line"><span class="lineno">   52</span>        <a class="code hl_variable" href="../../d0/d7b/class_basic_statement_task.html#af70bc95cbf0df481dacf034ff78d2eb8">m_result</a>-&gt;set_value(<a class="code hl_typedef" href="../../db/d04/_database_env_fwd_8h.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a>(result));</div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   54</span>    }</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/dc3/class_s_q_l_operation.html#adf322db48064fcf4528f713f857f1b40">m_conn</a>-&gt;<a class="code hl_function" href="../../dc/d10/class_my_s_q_l_connection.html#ac9bb537b21f3780c8f1a0c11297706d6">Execute</a>(<a class="code hl_variable" href="../../d0/d7b/class_basic_statement_task.html#a9320235413d1c4736301070e1faeb161">m_sql</a>);</div>
+<div class="line"><span class="lineno">   57</span>}</div>
+<div class="ttc" id="a_database_env_fwd_8h_html_ab0c9feeec448a181290fcb39565b8253"><div class="ttname"><a href="../../db/d04/_database_env_fwd_8h.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; ResultSet &gt; QueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:28</div></div>
+<div class="ttc" id="aclass_my_s_q_l_connection_html_a8c05ec510296198c91e98e7d18e9d6c7"><div class="ttname"><a href="../../dc/d10/class_my_s_q_l_connection.html#a8c05ec510296198c91e98e7d18e9d6c7">MySQLConnection::Query</a></div><div class="ttdeci">ResultSet * Query(std::string_view sql)</div><div class="ttdef"><b>Definition:</b> MySQLConnection.cpp:313</div></div>
+<div class="ttc" id="aclass_my_s_q_l_connection_html_ac9bb537b21f3780c8f1a0c11297706d6"><div class="ttname"><a href="../../dc/d10/class_my_s_q_l_connection.html#ac9bb537b21f3780c8f1a0c11297706d6">MySQLConnection::Execute</a></div><div class="ttdeci">bool Execute(std::string_view sql)</div><div class="ttdef"><b>Definition:</b> MySQLConnection.cpp:186</div></div>
+<div class="ttc" id="aclass_result_set_html"><div class="ttname"><a href="../../dc/df9/class_result_set.html">ResultSet</a></div><div class="ttdef"><b>Definition:</b> QueryResult.h:49</div></div>
+<div class="ttc" id="aclass_result_set_html_a16890572d4d0e422fcf347970262d9e1"><div class="ttname"><a href="../../dc/df9/class_result_set.html#a16890572d4d0e422fcf347970262d9e1">ResultSet::GetRowCount</a></div><div class="ttdeci">uint64 GetRowCount() const</div><div class="ttdef"><b>Definition:</b> QueryResult.h:55</div></div>
+<div class="ttc" id="aclass_result_set_html_a3d63f8274e3b485176855e2ade9e0642"><div class="ttname"><a href="../../dc/df9/class_result_set.html#a3d63f8274e3b485176855e2ade9e0642">ResultSet::NextRow</a></div><div class="ttdeci">bool NextRow()</div><div class="ttdef"><b>Definition:</b> QueryResult.cpp:188</div></div>
+<div class="ttc" id="aclass_s_q_l_operation_html_adf322db48064fcf4528f713f857f1b40"><div class="ttname"><a href="../../df/dc3/class_s_q_l_operation.html#adf322db48064fcf4528f713f857f1b40">SQLOperation::m_conn</a></div><div class="ttdeci">MySQLConnection * m_conn</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:56</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa574f8cc00ac956d23f93c7e96864fc9" name="aa574f8cc00ac956d23f93c7e96864fc9"></a>
@@ -260,7 +301,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   33</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d7b/class_basic_statement_task.html#af70bc95cbf0df481dacf034ff78d2eb8">m_result</a>-&gt;get_future(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -331,8 +373,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/database/Database/<a class="el" href="../../d5/d39/_adhoc_statement_8h_source.html">AdhocStatement.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/database/Database/<a class="el" href="../../d7/d3f/_adhoc_statement_8cpp.html">AdhocStatement.cpp</a></li>
+<li><a class="el" href="../../">AdhocStatement.h</a></li>
+<li><a class="el" href="../../">AdhocStatement.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -340,7 +382,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d7b/class_basic_statement_task.html">BasicStatementTask</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:37 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

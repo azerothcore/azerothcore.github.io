@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('db/d0b/class_event_emitter.html','../.
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d8/da0/_event_emitter_8h_source.html">EventEmitter.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">EventEmitter.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -129,7 +129,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aae8c666d695a517a3ad1e08afa8c355a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::function&lt; Signature &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0b/class_event_emitter.html#aae8c666d695a517a3ad1e08afa8c355a">functions</a></td></tr>
 <tr class="separator:aae8c666d695a517a3ad1e08afa8c355a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class Signature&gt;<br />
+class EventEmitter&lt; Signature &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a0221f13bb39f5087bce33b6075edaf3b" name="a0221f13bb39f5087bce33b6075edaf3b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0221f13bb39f5087bce33b6075edaf3b">&#9670;&#160;</a></span>operator()()</h2>
 
@@ -157,7 +159,14 @@ template&lt;class... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   33</span>    {</div>
+<div class="line"><span class="lineno">   34</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; f : <a class="code hl_variable" href="../../db/d0b/class_event_emitter.html#aae8c666d695a517a3ad1e08afa8c355a">functions</a>)</div>
+<div class="line"><span class="lineno">   35</span>        {</div>
+<div class="line"><span class="lineno">   36</span>            f(args...);</div>
+<div class="line"><span class="lineno">   37</span>        }</div>
+<div class="line"><span class="lineno">   38</span>    }</div>
+<div class="ttc" id="aclass_event_emitter_html_aae8c666d695a517a3ad1e08afa8c355a"><div class="ttname"><a href="../../db/d0b/class_event_emitter.html#aae8c666d695a517a3ad1e08afa8c355a">EventEmitter::functions</a></div><div class="ttdeci">std::vector&lt; std::function&lt; Signature &gt; &gt; functions</div><div class="ttdef"><b>Definition:</b> EventEmitter.h:41</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a685854261b2714cf924622e58a88e6b6" name="a685854261b2714cf924622e58a88e6b6"></a>
@@ -187,7 +196,10 @@ template&lt;typename Functor &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   27</span>    {</div>
+<div class="line"><span class="lineno">   28</span>        <a class="code hl_variable" href="../../db/d0b/class_event_emitter.html#aae8c666d695a517a3ad1e08afa8c355a">functions</a>.emplace_back(std::forward&lt;Functor&gt;(f));</div>
+<div class="line"><span class="lineno">   29</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -216,7 +228,7 @@ template&lt;class Signature &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Utilities/<a class="el" href="../../d8/da0/_event_emitter_8h_source.html">EventEmitter.h</a></li>
+<li><a class="el" href="../../">EventEmitter.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -224,7 +236,7 @@ template&lt;class Signature &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d0b/class_event_emitter.html">EventEmitter</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

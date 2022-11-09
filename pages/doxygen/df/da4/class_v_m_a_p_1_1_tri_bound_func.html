@@ -125,7 +125,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a3c5d3e61f9a963eacf4aff4e90d8e1bb"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; Vector3 &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da4/class_v_m_a_p_1_1_tri_bound_func.html#a3c5d3e61f9a963eacf4aff4e90d8e1bb">vertices</a></td></tr>
 <tr class="separator:a3c5d3e61f9a963eacf4aff4e90d8e1bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a42711c10595c048420a09e35e3345229" name="a42711c10595c048420a09e35e3345229"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a42711c10595c048420a09e35e3345229">&#9670;&#160;</a></span>TriBoundFunc()</h2>
 
@@ -149,7 +150,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   90</span>: <a class="code hl_variable" href="../../df/da4/class_v_m_a_p_1_1_tri_bound_func.html#a3c5d3e61f9a963eacf4aff4e90d8e1bb">vertices</a>(vert.begin()) { }</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_tri_bound_func_html_a3c5d3e61f9a963eacf4aff4e90d8e1bb"><div class="ttname"><a href="../../df/da4/class_v_m_a_p_1_1_tri_bound_func.html#a3c5d3e61f9a963eacf4aff4e90d8e1bb">VMAP::TriBoundFunc::vertices</a></div><div class="ttdeci">const std::vector&lt; Vector3 &gt;::const_iterator vertices</div><div class="ttdef"><b>Definition:</b> WorldModel.cpp:102</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -186,7 +189,16 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   92</span>        {</div>
+<div class="line"><span class="lineno">   93</span>            G3D::Vector3 lo = <a class="code hl_variable" href="../../df/da4/class_v_m_a_p_1_1_tri_bound_func.html#a3c5d3e61f9a963eacf4aff4e90d8e1bb">vertices</a>[tri.idx0];</div>
+<div class="line"><span class="lineno">   94</span>            G3D::Vector3 hi = lo;</div>
+<div class="line"><span class="lineno">   95</span> </div>
+<div class="line"><span class="lineno">   96</span>            lo = (lo.min(<a class="code hl_variable" href="../../df/da4/class_v_m_a_p_1_1_tri_bound_func.html#a3c5d3e61f9a963eacf4aff4e90d8e1bb">vertices</a>[tri.idx1])).min(<a class="code hl_variable" href="../../df/da4/class_v_m_a_p_1_1_tri_bound_func.html#a3c5d3e61f9a963eacf4aff4e90d8e1bb">vertices</a>[tri.idx2]);</div>
+<div class="line"><span class="lineno">   97</span>            hi = (hi.max(<a class="code hl_variable" href="../../df/da4/class_v_m_a_p_1_1_tri_bound_func.html#a3c5d3e61f9a963eacf4aff4e90d8e1bb">vertices</a>[tri.idx1])).max(<a class="code hl_variable" href="../../df/da4/class_v_m_a_p_1_1_tri_bound_func.html#a3c5d3e61f9a963eacf4aff4e90d8e1bb">vertices</a>[tri.idx2]);</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span>            out = G3D::AABox(lo, hi);</div>
+<div class="line"><span class="lineno">  100</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -213,7 +225,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Collision/Models/<a class="el" href="../../dd/d51/_world_model_8cpp.html">WorldModel.cpp</a></li>
+<li><a class="el" href="../../">WorldModel.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -221,7 +233,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d39/namespace_v_m_a_p.html">VMAP</a></li><li class="navelem"><a class="el" href="../../df/da4/class_v_m_a_p_1_1_tri_bound_func.html">TriBoundFunc</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

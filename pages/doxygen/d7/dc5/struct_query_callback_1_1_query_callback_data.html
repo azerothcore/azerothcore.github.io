@@ -161,7 +161,8 @@ Friends</h2></td></tr>
 <tr class="memitem:a4ef783bc4f06f2cbaec3f4b6ca2c49aa"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#a4ef783bc4f06f2cbaec3f4b6ca2c49aa">MoveFrom</a> (T *to, T &amp;&amp;from)</td></tr>
 <tr class="separator:a4ef783bc4f06f2cbaec3f4b6ca2c49aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a43aa5b63c21480a9a02e5b1705f5e46a" name="a43aa5b63c21480a9a02e5b1705f5e46a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43aa5b63c21480a9a02e5b1705f5e46a">&#9670;&#160;</a></span>QueryCallbackData() <span class="overload">[1/4]</span></h2>
 
@@ -185,7 +186,10 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   68</span>: <a class="code hl_variable" href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#a384db60c65e7823fdbc0ff430ac8dfe1">_string</a>(std::move(callback)), <a class="code hl_variable" href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#ad4e5dcd8f5648dfa36116b9944813ec6">_isPrepared</a>(<span class="keyword">false</span>) { }</div>
+<div class="ttc" id="astruct_query_callback_1_1_query_callback_data_html_a384db60c65e7823fdbc0ff430ac8dfe1"><div class="ttname"><a href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#a384db60c65e7823fdbc0ff430ac8dfe1">QueryCallback::QueryCallbackData::_string</a></div><div class="ttdeci">std::function&lt; void(QueryCallback &amp;, QueryResult)&gt; _string</div><div class="ttdef"><b>Definition:</b> QueryCallback.cpp:107</div></div>
+<div class="ttc" id="astruct_query_callback_1_1_query_callback_data_html_ad4e5dcd8f5648dfa36116b9944813ec6"><div class="ttname"><a href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#ad4e5dcd8f5648dfa36116b9944813ec6">QueryCallback::QueryCallbackData::_isPrepared</a></div><div class="ttdeci">bool _isPrepared</div><div class="ttdef"><b>Definition:</b> QueryCallback.cpp:110</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af3d8b55a1a392e1f471bcf7ce16d8f45" name="af3d8b55a1a392e1f471bcf7ce16d8f45"></a>
@@ -211,7 +215,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   69</span>: <a class="code hl_variable" href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#ab87a39965f1ca9d48d6e5a88fde51976">_prepared</a>(std::move(callback)), <a class="code hl_variable" href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#ad4e5dcd8f5648dfa36116b9944813ec6">_isPrepared</a>(<span class="keyword">true</span>) { }</div>
+<div class="ttc" id="astruct_query_callback_1_1_query_callback_data_html_ab87a39965f1ca9d48d6e5a88fde51976"><div class="ttname"><a href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#ab87a39965f1ca9d48d6e5a88fde51976">QueryCallback::QueryCallbackData::_prepared</a></div><div class="ttdeci">std::function&lt; void(QueryCallback &amp;, PreparedQueryResult)&gt; _prepared</div><div class="ttdef"><b>Definition:</b> QueryCallback.cpp:108</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a81f06a2940c72077d0f8bbe0d6292c5e" name="a81f06a2940c72077d0f8bbe0d6292c5e"></a>
@@ -237,7 +243,14 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   72</span>    {</div>
+<div class="line"><span class="lineno">   73</span>        <a class="code hl_variable" href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#ad4e5dcd8f5648dfa36116b9944813ec6">_isPrepared</a> = right._isPrepared;</div>
+<div class="line"><span class="lineno">   74</span>        <a class="code hl_friend" href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#a63276ee687270e668e7c51876ced5fb1">ConstructActiveMember</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   75</span>        <a class="code hl_friend" href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#a4ef783bc4f06f2cbaec3f4b6ca2c49aa">MoveFrom</a>(<span class="keyword">this</span>, std::move(right));</div>
+<div class="line"><span class="lineno">   76</span>    }</div>
+<div class="ttc" id="astruct_query_callback_1_1_query_callback_data_html_a4ef783bc4f06f2cbaec3f4b6ca2c49aa"><div class="ttname"><a href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#a4ef783bc4f06f2cbaec3f4b6ca2c49aa">QueryCallback::QueryCallbackData::MoveFrom</a></div><div class="ttdeci">friend void MoveFrom(T *to, T &amp;&amp;from)</div><div class="ttdef"><b>Definition:</b> QueryCallback.cpp:53</div></div>
+<div class="ttc" id="astruct_query_callback_1_1_query_callback_data_html_a63276ee687270e668e7c51876ced5fb1"><div class="ttname"><a href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#a63276ee687270e668e7c51876ced5fb1">QueryCallback::QueryCallbackData::ConstructActiveMember</a></div><div class="ttdeci">friend void ConstructActiveMember(T *obj)</div><div class="ttdef"><b>Definition:</b> QueryCallback.cpp:35</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7a748ec0f04555caf696be1792701134" name="a7a748ec0f04555caf696be1792701134"></a>
@@ -262,7 +275,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   95</span>{ <a class="code hl_friend" href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#aac0ba6a0017441eb25c4b294fde99186">DestroyActiveMember</a>(<span class="keyword">this</span>); }</div>
+<div class="ttc" id="astruct_query_callback_1_1_query_callback_data_html_aac0ba6a0017441eb25c4b294fde99186"><div class="ttname"><a href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#aac0ba6a0017441eb25c4b294fde99186">QueryCallback::QueryCallbackData::DestroyActiveMember</a></div><div class="ttdeci">friend void DestroyActiveMember(T *obj)</div><div class="ttdef"><b>Definition:</b> QueryCallback.cpp:44</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aea307606758c54a99e020421acaa5697" name="aea307606758c54a99e020421acaa5697"></a>
@@ -315,7 +330,22 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   79</span>    {</div>
+<div class="line"><span class="lineno">   80</span>        <span class="keywordflow">if</span> (<span class="keyword">this</span> != &amp;right)</div>
+<div class="line"><span class="lineno">   81</span>        {</div>
+<div class="line"><span class="lineno">   82</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#ad4e5dcd8f5648dfa36116b9944813ec6">_isPrepared</a> != right._isPrepared)</div>
+<div class="line"><span class="lineno">   83</span>            {</div>
+<div class="line"><span class="lineno">   84</span>                <a class="code hl_friend" href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#aac0ba6a0017441eb25c4b294fde99186">DestroyActiveMember</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   85</span>                <a class="code hl_variable" href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#ad4e5dcd8f5648dfa36116b9944813ec6">_isPrepared</a> = right._isPrepared;</div>
+<div class="line"><span class="lineno">   86</span>                <a class="code hl_friend" href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#a63276ee687270e668e7c51876ced5fb1">ConstructActiveMember</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   87</span>            }</div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>            <a class="code hl_friend" href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html#a4ef783bc4f06f2cbaec3f4b6ca2c49aa">MoveFrom</a>(<span class="keyword">this</span>, std::move(right));</div>
+<div class="line"><span class="lineno">   90</span>        }</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   93</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5b4baade8dd78ab3dc00e1003f679fb3" name="a5b4baade8dd78ab3dc00e1003f679fb3"></a>
@@ -370,7 +400,14 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   36</span>{</div>
+<div class="line"><span class="lineno">   37</span>    <span class="keywordflow">if</span> (!obj-&gt;_isPrepared)</div>
+<div class="line"><span class="lineno">   38</span>        <a class="code hl_function" href="../../d0/d9e/_query_callback_8cpp.html#a0e2a26009ee3d271eeacbb20a20e930b">Construct</a>(obj-&gt;_string);</div>
+<div class="line"><span class="lineno">   39</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   40</span>        <a class="code hl_function" href="../../d0/d9e/_query_callback_8cpp.html#a0e2a26009ee3d271eeacbb20a20e930b">Construct</a>(obj-&gt;_prepared);</div>
+<div class="line"><span class="lineno">   41</span>}</div>
+<div class="ttc" id="a_query_callback_8cpp_html_a0e2a26009ee3d271eeacbb20a20e930b"><div class="ttname"><a href="../../d0/d9e/_query_callback_8cpp.html#a0e2a26009ee3d271eeacbb20a20e930b">Construct</a></div><div class="ttdeci">void Construct(T &amp;t, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> QueryCallback.cpp:23</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aac0ba6a0017441eb25c4b294fde99186" name="aac0ba6a0017441eb25c4b294fde99186"></a>
@@ -398,7 +435,14 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
+<div class="line"><span class="lineno">   46</span>    <span class="keywordflow">if</span> (!obj-&gt;_isPrepared)</div>
+<div class="line"><span class="lineno">   47</span>        <a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#af16a38362829ad78e87eae277ce8b837a0e181f89f47654b86f3beb42f5cc08b8">Destroy</a>(obj-&gt;_string);</div>
+<div class="line"><span class="lineno">   48</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   49</span>        <a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#af16a38362829ad78e87eae277ce8b837a0e181f89f47654b86f3beb42f5cc08b8">Destroy</a>(obj-&gt;_prepared);</div>
+<div class="line"><span class="lineno">   50</span>}</div>
+<div class="ttc" id="a_game_object_8h_html_af16a38362829ad78e87eae277ce8b837a0e181f89f47654b86f3beb42f5cc08b8"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#af16a38362829ad78e87eae277ce8b837a0e181f89f47654b86f3beb42f5cc08b8">GameObjectActions::Destroy</a></div><div class="ttdeci">@ Destroy</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4ef783bc4f06f2cbaec3f4b6ca2c49aa" name="a4ef783bc4f06f2cbaec3f4b6ca2c49aa"></a>
@@ -436,7 +480,16 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   54</span>{</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(to-&gt;_isPrepared == from._isPrepared);</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>    <span class="keywordflow">if</span> (!to-&gt;_isPrepared)</div>
+<div class="line"><span class="lineno">   58</span>        to-&gt;_string = std::move(from._string);</div>
+<div class="line"><span class="lineno">   59</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   60</span>        to-&gt;_prepared = std::move(from._prepared);</div>
+<div class="line"><span class="lineno">   61</span>}</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3bf0675bb0e337d06f1e7ef31d7622fe" name="a3bf0675bb0e337d06f1e7ef31d7622fe"></a>
@@ -527,7 +580,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/database/Database/<a class="el" href="../../d0/d9e/_query_callback_8cpp.html">QueryCallback.cpp</a></li>
+<li><a class="el" href="../../">QueryCallback.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -535,7 +588,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d8e/class_query_callback.html">QueryCallback</a></li><li class="navelem"><a class="el" href="../../d7/dc5/struct_query_callback_1_1_query_callback_data.html">QueryCallbackData</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

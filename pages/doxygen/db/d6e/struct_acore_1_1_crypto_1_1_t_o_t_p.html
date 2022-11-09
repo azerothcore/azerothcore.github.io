@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('db/d6e/struct_acore_1_1_crypto_1_1_t_o
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d2/d14/_t_o_t_p_8h_source.html">TOTP.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">TOTP.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -133,7 +133,8 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a885fc6c1a5bda166416f161ea202eb72"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d6e/struct_acore_1_1_crypto_1_1_t_o_t_p.html#a885fc6c1a5bda166416f161ea202eb72">RECOMMENDED_SECRET_LENGTH</a> = 20</td></tr>
 <tr class="separator:a885fc6c1a5bda166416f161ea202eb72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="aae38427994c1f4ddf3838c4e1f3f7e03" name="aae38427994c1f4ddf3838c4e1f3f7e03"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aae38427994c1f4ddf3838c4e1f3f7e03">&#9670;&#160;</a></span>Secret</h2>
 
@@ -182,7 +183,29 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
+<div class="line"><span class="lineno">   29</span>    timestamp /= <a class="code hl_variable" href="../../d3/d87/_t_o_t_p_8cpp.html#abcaccdfb09251b1b2856cc0c48c64eda">TOTP_INTERVAL</a>;</div>
+<div class="line"><span class="lineno">   30</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> challenge[8];</div>
+<div class="line"><span class="lineno">   31</span> </div>
+<div class="line"><span class="lineno">   32</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 8; i--; timestamp &gt;&gt;= 8)</div>
+<div class="line"><span class="lineno">   33</span>    {</div>
+<div class="line"><span class="lineno">   34</span>        challenge[i] = timestamp;</div>
+<div class="line"><span class="lineno">   35</span>    }</div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> digest[<a class="code hl_variable" href="../../d3/d87/_t_o_t_p_8cpp.html#abdb09168f87cd99a498636550843012d">HMAC_RESULT_SIZE</a>];</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> digestSize = <a class="code hl_variable" href="../../d3/d87/_t_o_t_p_8cpp.html#abdb09168f87cd99a498636550843012d">HMAC_RESULT_SIZE</a>;</div>
+<div class="line"><span class="lineno">   39</span>    HMAC(EVP_sha1(), secret.data(), secret.size(), challenge, 8, digest, &amp;digestSize);</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> offset = digest[19] &amp; 0xF;</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> truncated = (digest[offset] &lt;&lt; 24) | (digest[offset + 1] &lt;&lt; 16) | (digest[offset + 2] &lt;&lt; 8) | (digest[offset + 3]);</div>
+<div class="line"><span class="lineno">   43</span>    truncated &amp;= 0x7FFFFFFF;</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>    <span class="keywordflow">return</span> (truncated % 1000000);</div>
+<div class="line"><span class="lineno">   46</span>}</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_t_o_t_p_8cpp_html_abcaccdfb09251b1b2856cc0c48c64eda"><div class="ttname"><a href="../../d3/d87/_t_o_t_p_8cpp.html#abcaccdfb09251b1b2856cc0c48c64eda">TOTP_INTERVAL</a></div><div class="ttdeci">static constexpr uint32 TOTP_INTERVAL</div><div class="ttdef"><b>Definition:</b> TOTP.cpp:24</div></div>
+<div class="ttc" id="a_t_o_t_p_8cpp_html_abdb09168f87cd99a498636550843012d"><div class="ttname"><a href="../../d3/d87/_t_o_t_p_8cpp.html#abdb09168f87cd99a498636550843012d">HMAC_RESULT_SIZE</a></div><div class="ttdeci">static constexpr uint32 HMAC_RESULT_SIZE</div><div class="ttdef"><b>Definition:</b> TOTP.cpp:25</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab6b27542814e577106ad587a5807d663" name="ab6b27542814e577106ad587a5807d663"></a>
@@ -218,7 +241,17 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   49</span>{</div>
+<div class="line"><span class="lineno">   50</span>    time_t now = <a class="code hl_function" href="../../d5/d29/_timer_8h.html#ac26feb8a0cb9d57ffe71c1a86ae8108e">GetEpochTime</a>().count();</div>
+<div class="line"><span class="lineno">   51</span>    <span class="keywordflow">return</span> (</div>
+<div class="line"><span class="lineno">   52</span>        (token == <a class="code hl_function" href="../../db/d6e/struct_acore_1_1_crypto_1_1_t_o_t_p.html#a44829d44e78247991d9c3dde270cab5c">GenerateToken</a>(secret, now - <a class="code hl_variable" href="../../d3/d87/_t_o_t_p_8cpp.html#abcaccdfb09251b1b2856cc0c48c64eda">TOTP_INTERVAL</a>)) ||</div>
+<div class="line"><span class="lineno">   53</span>        (token == <a class="code hl_function" href="../../db/d6e/struct_acore_1_1_crypto_1_1_t_o_t_p.html#a44829d44e78247991d9c3dde270cab5c">GenerateToken</a>(secret, now)) ||</div>
+<div class="line"><span class="lineno">   54</span>        (token == <a class="code hl_function" href="../../db/d6e/struct_acore_1_1_crypto_1_1_t_o_t_p.html#a44829d44e78247991d9c3dde270cab5c">GenerateToken</a>(secret, now + <a class="code hl_variable" href="../../d3/d87/_t_o_t_p_8cpp.html#abcaccdfb09251b1b2856cc0c48c64eda">TOTP_INTERVAL</a>))</div>
+<div class="line"><span class="lineno">   55</span>    );</div>
+<div class="line"><span class="lineno">   56</span>}</div>
+<div class="ttc" id="a_timer_8h_html_ac26feb8a0cb9d57ffe71c1a86ae8108e"><div class="ttname"><a href="../../d5/d29/_timer_8h.html#ac26feb8a0cb9d57ffe71c1a86ae8108e">GetEpochTime</a></div><div class="ttdeci">Seconds GetEpochTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:141</div></div>
+<div class="ttc" id="astruct_acore_1_1_crypto_1_1_t_o_t_p_html_a44829d44e78247991d9c3dde270cab5c"><div class="ttname"><a href="../../db/d6e/struct_acore_1_1_crypto_1_1_t_o_t_p.html#a44829d44e78247991d9c3dde270cab5c">Acore::Crypto::TOTP::GenerateToken</a></div><div class="ttdeci">static uint32 GenerateToken(Secret const &amp;key, time_t timestamp)</div><div class="ttdef"><b>Definition:</b> TOTP.cpp:27</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -245,8 +278,8 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/common/Cryptography/<a class="el" href="../../d2/d14/_t_o_t_p_8h_source.html">TOTP.h</a></li>
-<li>D:/azerothcore-wotlk/src/common/Cryptography/<a class="el" href="../../d3/d87/_t_o_t_p_8cpp.html">TOTP.cpp</a></li>
+<li><a class="el" href="../../">TOTP.h</a></li>
+<li><a class="el" href="../../">TOTP.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -254,7 +287,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../dc/d06/namespace_acore_1_1_crypto.html">Crypto</a></li><li class="navelem"><a class="el" href="../../db/d6e/struct_acore_1_1_crypto_1_1_t_o_t_p.html">TOTP</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

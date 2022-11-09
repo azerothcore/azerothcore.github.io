@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('dc/dbb/class_acore_1_1_player_at_minim
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">GridNotifiers.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -129,7 +129,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a0c58929de429694f24877525287f15a6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/class_acore_1_1_player_at_minimum_range_away.html#a0c58929de429694f24877525287f15a6">fRange</a></td></tr>
 <tr class="separator:a0c58929de429694f24877525287f15a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a12eb5ff486232f88c7303741ebd8e65e" name="a12eb5ff486232f88c7303741ebd8e65e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12eb5ff486232f88c7303741ebd8e65e">&#9670;&#160;</a></span>PlayerAtMinimumRangeAway()</h2>
 
@@ -163,7 +164,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1553</span>: <a class="code hl_variable" href="../../dc/dbb/class_acore_1_1_player_at_minimum_range_away.html#a4ea0f83c3287079cff40fac15272fa94">unit</a>(<a class="code hl_variable" href="../../dc/dbb/class_acore_1_1_player_at_minimum_range_away.html#a4ea0f83c3287079cff40fac15272fa94">unit</a>), <a class="code hl_variable" href="../../dc/dbb/class_acore_1_1_player_at_minimum_range_away.html#a0c58929de429694f24877525287f15a6">fRange</a>(fMinRange) {}</div>
+<div class="ttc" id="aclass_acore_1_1_player_at_minimum_range_away_html_a0c58929de429694f24877525287f15a6"><div class="ttname"><a href="../../dc/dbb/class_acore_1_1_player_at_minimum_range_away.html#a0c58929de429694f24877525287f15a6">Acore::PlayerAtMinimumRangeAway::fRange</a></div><div class="ttdeci">float fRange</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1565</div></div>
+<div class="ttc" id="aclass_acore_1_1_player_at_minimum_range_away_html_a4ea0f83c3287079cff40fac15272fa94"><div class="ttname"><a href="../../dc/dbb/class_acore_1_1_player_at_minimum_range_away.html#a4ea0f83c3287079cff40fac15272fa94">Acore::PlayerAtMinimumRangeAway::unit</a></div><div class="ttdeci">Unit const  * unit</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1564</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -190,7 +194,17 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1555</span>        {</div>
+<div class="line"><span class="lineno"> 1556</span>            <span class="comment">//No threat list check, must be done explicit if expected to be in combat with creature</span></div>
+<div class="line"><span class="lineno"> 1557</span>            <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a9f23cae8a3da0345a05c2a2bfedc2fe2">IsGameMaster</a>() &amp;&amp; player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() &amp;&amp; !<a class="code hl_variable" href="../../dc/dbb/class_acore_1_1_player_at_minimum_range_away.html#a4ea0f83c3287079cff40fac15272fa94">unit</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a488ffb2c3d4f60c987706f93bc4db611">IsWithinDist</a>(player, <a class="code hl_variable" href="../../dc/dbb/class_acore_1_1_player_at_minimum_range_away.html#a0c58929de429694f24877525287f15a6">fRange</a>, <span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno"> 1558</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1559</span> </div>
+<div class="line"><span class="lineno"> 1560</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1561</span>        }</div>
+<div class="ttc" id="aclass_player_html_a9f23cae8a3da0345a05c2a2bfedc2fe2"><div class="ttname"><a href="../../d8/d53/class_player.html#a9f23cae8a3da0345a05c2a2bfedc2fe2">Player::IsGameMaster</a></div><div class="ttdeci">bool IsGameMaster() const</div><div class="ttdef"><b>Definition:</b> Player.h:1136</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aclass_world_object_html_a488ffb2c3d4f60c987706f93bc4db611"><div class="ttname"><a href="../../db/df7/class_world_object.html#a488ffb2c3d4f60c987706f93bc4db611">WorldObject::IsWithinDist</a></div><div class="ttdeci">bool IsWithinDist(WorldObject const *obj, float dist2compare, bool is3D=true, bool useBoundingRadius=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1316</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -239,7 +253,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/Notifiers/<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a></li>
+<li><a class="el" href="../../">GridNotifiers.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -247,7 +261,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../dc/dbb/class_acore_1_1_player_at_minimum_range_away.html">PlayerAtMinimumRangeAway</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

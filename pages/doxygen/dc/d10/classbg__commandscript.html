@@ -157,7 +157,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a86ffdfaed58149f5036f5c1e1040507a" name="a86ffdfaed58149f5036f5c1e1040507a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a86ffdfaed58149f5036f5c1e1040507a">&#9670;&#160;</a></span>bg_commandscript()</h2>
 
@@ -180,7 +181,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   40</span>: <a class="code hl_class" href="../../d8/ddd/class_command_script.html">CommandScript</a>(<span class="stringliteral">&quot;bg_commandscript&quot;</span>) { }</div>
+<div class="ttc" id="aclass_command_script_html"><div class="ttname"><a href="../../d8/ddd/class_command_script.html">CommandScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:849</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -208,7 +211,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d8/ddd/class_command_script.html#a97dc7d00b78e0030ba2a950d23b2ebd2">CommandScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   43</span>    {</div>
+<div class="line"><span class="lineno">   44</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">ChatCommandTable</a> commandTable =</div>
+<div class="line"><span class="lineno">   45</span>        {</div>
+<div class="line"><span class="lineno">   46</span>            { <span class="stringliteral">&quot;bags clear&quot;</span>,  <a class="code hl_function" href="../../dc/d10/classbg__commandscript.html#a92347e90c2f78d0dfeb41eb033366319">HandleBagsClearCommand</a>, <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1">SEC_GAMEMASTER</a>, Console::No },</div>
+<div class="line"><span class="lineno">   47</span>        };</div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>        <span class="keywordflow">return</span> commandTable;</div>
+<div class="line"><span class="lineno">   50</span>    }</div>
+<div class="ttc" id="a_common_8h_html_adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1"><div class="ttname"><a href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1">SEC_GAMEMASTER</a></div><div class="ttdeci">@ SEC_GAMEMASTER</div><div class="ttdef"><b>Definition:</b> Common.h:68</div></div>
+<div class="ttc" id="aclassbg__commandscript_html_a92347e90c2f78d0dfeb41eb033366319"><div class="ttname"><a href="../../dc/d10/classbg__commandscript.html#a92347e90c2f78d0dfeb41eb033366319">bg_commandscript::HandleBagsClearCommand</a></div><div class="ttdeci">static bool HandleBagsClearCommand(ChatHandler *handler, std::string_view args)</div><div class="ttdef"><b>Definition:</b> cs_bag.cpp:52</div></div>
+<div class="ttc" id="anamespace_acore_1_1_chat_commands_html_a7aa1549a95f760a19b9b7ffd8e669626"><div class="ttname"><a href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">Acore::ChatCommands::ChatCommandTable</a></div><div class="ttdeci">std::vector&lt; ChatCommandBuilder &gt; ChatCommandTable</div><div class="ttdef"><b>Definition:</b> ChatCommand.h:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a92347e90c2f78d0dfeb41eb033366319" name="a92347e90c2f78d0dfeb41eb033366319"></a>
@@ -244,11 +258,135 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   53</span>    {</div>
+<div class="line"><span class="lineno">   54</span>        <span class="keywordflow">if</span> (args.empty())</div>
+<div class="line"><span class="lineno">   55</span>        {</div>
+<div class="line"><span class="lineno">   56</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   57</span>        }</div>
+<div class="line"><span class="lineno">   58</span> </div>
+<div class="line"><span class="lineno">   59</span>        <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a635eca3065c9464e0cdcedd9f0740daa">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>();</div>
+<div class="line"><span class="lineno">   60</span>        <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno">   61</span>        {</div>
+<div class="line"><span class="lineno">   62</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   63</span>        }</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> itemQuality = <a class="code hl_define" href="../../df/d0b/_shared_defines_8h.html#a8b7f3e9bd0473c61e8fd7bb42b24faaa">MAX_ITEM_QUALITY</a>;</div>
+<div class="line"><span class="lineno">   66</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7263b8afa7134894f236b37cc146d021a8598431141ba53f11c1dcd2f903b5175">ITEM_QUALITY_POOR</a>; i &lt; <a class="code hl_define" href="../../df/d0b/_shared_defines_8h.html#a8b7f3e9bd0473c61e8fd7bb42b24faaa">MAX_ITEM_QUALITY</a>; ++i)</div>
+<div class="line"><span class="lineno">   67</span>        {</div>
+<div class="line"><span class="lineno">   68</span>            <span class="keywordflow">if</span> (args == <a class="code hl_variable" href="../../d6/d3a/cs__bag_8cpp.html#af266597924b9d3f439ffc9908001d2cb">itemQualityToString</a>[i])</div>
+<div class="line"><span class="lineno">   69</span>            {</div>
+<div class="line"><span class="lineno">   70</span>                itemQuality = i;</div>
+<div class="line"><span class="lineno">   71</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   72</span>            }</div>
+<div class="line"><span class="lineno">   73</span>        }</div>
+<div class="line"><span class="lineno">   74</span> </div>
+<div class="line"><span class="lineno">   75</span>        <span class="keywordflow">if</span> (itemQuality == <a class="code hl_define" href="../../df/d0b/_shared_defines_8h.html#a8b7f3e9bd0473c61e8fd7bb42b24faaa">MAX_ITEM_QUALITY</a>)</div>
+<div class="line"><span class="lineno">   76</span>        {</div>
+<div class="line"><span class="lineno">   77</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   78</span>        }</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>        std::array&lt;uint32, MAX_ITEM_QUALITY&gt; removedItems = { };</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>        <span class="comment">// in inventory</span></div>
+<div class="line"><span class="lineno">   83</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = <a class="code hl_enumvalue" href="../../d1/d39/_player_8h.html#a3f01594f5f05965df25a0f1ebba196f4a26ae565f8a97797a81412a9f148f28bb">INVENTORY_SLOT_ITEM_START</a>; i &lt; <a class="code hl_enumvalue" href="../../d1/d39/_player_8h.html#a3f01594f5f05965df25a0f1ebba196f4a8adf93fe675626b28fcba2ffce8d4e62">INVENTORY_SLOT_ITEM_END</a>; ++i)</div>
+<div class="line"><span class="lineno">   84</span>        {</div>
+<div class="line"><span class="lineno">   85</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dc/d32/class_item.html">Item</a>* item = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a6e31042962f16c90a443ff772363d22f">GetItemByPos</a>(<a class="code hl_define" href="../../d1/d39/_player_8h.html#ad3dd8ed856e16139eaa67147d40cf24e">INVENTORY_SLOT_BAG_0</a>, i))</div>
+<div class="line"><span class="lineno">   86</span>            {</div>
+<div class="line"><span class="lineno">   87</span>                <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../da/d61/struct_item_template.html">ItemTemplate</a> <span class="keyword">const</span>* itemTemplate = item-&gt;GetTemplate())</div>
+<div class="line"><span class="lineno">   88</span>                {</div>
+<div class="line"><span class="lineno">   89</span>                    <span class="keywordflow">if</span> (itemTemplate-&gt;Quality &lt;= itemQuality)</div>
+<div class="line"><span class="lineno">   90</span>                    {</div>
+<div class="line"><span class="lineno">   91</span>                        player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a79e24bb7856e3631a8e3d1fd16fc744e">DestroyItem</a>(<a class="code hl_define" href="../../d1/d39/_player_8h.html#ad3dd8ed856e16139eaa67147d40cf24e">INVENTORY_SLOT_BAG_0</a>, i, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   92</span>                        ++removedItems[itemTemplate-&gt;Quality];</div>
+<div class="line"><span class="lineno">   93</span>                    }</div>
+<div class="line"><span class="lineno">   94</span>                }</div>
+<div class="line"><span class="lineno">   95</span>            }</div>
+<div class="line"><span class="lineno">   96</span>        }</div>
+<div class="line"><span class="lineno">   97</span> </div>
+<div class="line"><span class="lineno">   98</span>        <span class="comment">// in inventory bags</span></div>
+<div class="line"><span class="lineno">   99</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = <a class="code hl_enumvalue" href="../../d1/d39/_player_8h.html#a7adbf9c1ce11a5e5f7661abba7c544f6a409cf3d00f62b16d53633aed142536dc">INVENTORY_SLOT_BAG_START</a>; i &lt; <a class="code hl_enumvalue" href="../../d1/d39/_player_8h.html#a7adbf9c1ce11a5e5f7661abba7c544f6a522331bc28cdac31f9a89bb65afdb32a">INVENTORY_SLOT_BAG_END</a>; i++)</div>
+<div class="line"><span class="lineno">  100</span>        {</div>
+<div class="line"><span class="lineno">  101</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dc/d05/class_bag.html">Bag</a>* bag = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a248feb9bd120b3a9d1aa491052d1ffbe">GetBagByPos</a>(i))</div>
+<div class="line"><span class="lineno">  102</span>            {</div>
+<div class="line"><span class="lineno">  103</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> j = 0; j &lt; bag-&gt;GetBagSize(); j++)</div>
+<div class="line"><span class="lineno">  104</span>                {</div>
+<div class="line"><span class="lineno">  105</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dc/d32/class_item.html">Item</a>* item = bag-&gt;GetItemByPos(j))</div>
+<div class="line"><span class="lineno">  106</span>                    {</div>
+<div class="line"><span class="lineno">  107</span>                        <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../da/d61/struct_item_template.html">ItemTemplate</a> <span class="keyword">const</span>* itemTemplate = item-&gt;GetTemplate())</div>
+<div class="line"><span class="lineno">  108</span>                        {</div>
+<div class="line"><span class="lineno">  109</span>                            <span class="keywordflow">if</span> (itemTemplate-&gt;Quality &lt;= itemQuality)</div>
+<div class="line"><span class="lineno">  110</span>                            {</div>
+<div class="line"><span class="lineno">  111</span>                                player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a79e24bb7856e3631a8e3d1fd16fc744e">DestroyItem</a>(i, j, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  112</span>                                ++removedItems[itemTemplate-&gt;Quality];</div>
+<div class="line"><span class="lineno">  113</span>                            }</div>
+<div class="line"><span class="lineno">  114</span>                        }</div>
+<div class="line"><span class="lineno">  115</span>                    }</div>
+<div class="line"><span class="lineno">  116</span>                }</div>
+<div class="line"><span class="lineno">  117</span>            }</div>
+<div class="line"><span class="lineno">  118</span>        }</div>
+<div class="line"><span class="lineno">  119</span> </div>
+<div class="line"><span class="lineno">  120</span>        std::ostringstream str;</div>
+<div class="line"><span class="lineno">  121</span>        str &lt;&lt; <span class="stringliteral">&quot;Removed &quot;</span>;</div>
+<div class="line"><span class="lineno">  122</span>        <span class="keywordflow">if</span> (itemQuality == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7263b8afa7134894f236b37cc146d021a6cdde8294427dd2821daae1215052e39">ITEM_QUALITY_HEIRLOOM</a>)</div>
+<div class="line"><span class="lineno">  123</span>        {</div>
+<div class="line"><span class="lineno">  124</span>            str &lt;&lt; <span class="stringliteral">&quot;all&quot;</span>;</div>
+<div class="line"><span class="lineno">  125</span>        }</div>
+<div class="line"><span class="lineno">  126</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  127</span>        {</div>
+<div class="line"><span class="lineno">  128</span>            <span class="keywordtype">bool</span> initialize = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  129</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7263b8afa7134894f236b37cc146d021a8598431141ba53f11c1dcd2f903b5175">ITEM_QUALITY_POOR</a>; i &lt; <a class="code hl_define" href="../../df/d0b/_shared_defines_8h.html#a8b7f3e9bd0473c61e8fd7bb42b24faaa">MAX_ITEM_QUALITY</a>; ++i)</div>
+<div class="line"><span class="lineno">  130</span>            {</div>
+<div class="line"><span class="lineno">  131</span>                <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> itemCount = removedItems[i])</div>
+<div class="line"><span class="lineno">  132</span>                {</div>
+<div class="line"><span class="lineno">  133</span>                    std::string_view itemQualityString = <a class="code hl_variable" href="../../d6/d3a/cs__bag_8cpp.html#af266597924b9d3f439ffc9908001d2cb">itemQualityToString</a>[i];</div>
+<div class="line"><span class="lineno">  134</span> </div>
+<div class="line"><span class="lineno">  135</span>                    <span class="keywordflow">if</span> (!initialize)</div>
+<div class="line"><span class="lineno">  136</span>                    {</div>
+<div class="line"><span class="lineno">  137</span>                        str &lt;&lt; <span class="stringliteral">&quot;, &quot;</span>;</div>
+<div class="line"><span class="lineno">  138</span>                    }</div>
+<div class="line"><span class="lineno">  139</span> </div>
+<div class="line"><span class="lineno">  140</span>                    str &lt;&lt; <span class="stringliteral">&quot;|c&quot;</span>;</div>
+<div class="line"><span class="lineno">  141</span>                    str &lt;&lt; std::hex &lt;&lt; <a class="code hl_variable" href="../../df/d0b/_shared_defines_8h.html#a683db3fe009c60f8cedefbea5f00f58f">ItemQualityColors</a>[i] &lt;&lt; std::dec;</div>
+<div class="line"><span class="lineno">  142</span>                    str &lt;&lt; itemCount &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; itemQualityString &lt;&lt; <span class="stringliteral">&quot;|r&quot;</span>;</div>
+<div class="line"><span class="lineno">  143</span> </div>
+<div class="line"><span class="lineno">  144</span>                    initialize = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  145</span>                }</div>
+<div class="line"><span class="lineno">  146</span>            }</div>
+<div class="line"><span class="lineno">  147</span>        }</div>
+<div class="line"><span class="lineno">  148</span> </div>
+<div class="line"><span class="lineno">  149</span>        str &lt;&lt; <span class="stringliteral">&quot; items from your bags.&quot;</span>;</div>
+<div class="line"><span class="lineno">  150</span> </div>
+<div class="line"><span class="lineno">  151</span>        handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(str.str().c_str());</div>
+<div class="line"><span class="lineno">  152</span> </div>
+<div class="line"><span class="lineno">  153</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  154</span>    };</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_player_8h_html_a3f01594f5f05965df25a0f1ebba196f4a26ae565f8a97797a81412a9f148f28bb"><div class="ttname"><a href="../../d1/d39/_player_8h.html#a3f01594f5f05965df25a0f1ebba196f4a26ae565f8a97797a81412a9f148f28bb">INVENTORY_SLOT_ITEM_START</a></div><div class="ttdeci">@ INVENTORY_SLOT_ITEM_START</div><div class="ttdef"><b>Definition:</b> Player.h:706</div></div>
+<div class="ttc" id="a_player_8h_html_a3f01594f5f05965df25a0f1ebba196f4a8adf93fe675626b28fcba2ffce8d4e62"><div class="ttname"><a href="../../d1/d39/_player_8h.html#a3f01594f5f05965df25a0f1ebba196f4a8adf93fe675626b28fcba2ffce8d4e62">INVENTORY_SLOT_ITEM_END</a></div><div class="ttdeci">@ INVENTORY_SLOT_ITEM_END</div><div class="ttdef"><b>Definition:</b> Player.h:707</div></div>
+<div class="ttc" id="a_player_8h_html_a7adbf9c1ce11a5e5f7661abba7c544f6a409cf3d00f62b16d53633aed142536dc"><div class="ttname"><a href="../../d1/d39/_player_8h.html#a7adbf9c1ce11a5e5f7661abba7c544f6a409cf3d00f62b16d53633aed142536dc">INVENTORY_SLOT_BAG_START</a></div><div class="ttdeci">@ INVENTORY_SLOT_BAG_START</div><div class="ttdef"><b>Definition:</b> Player.h:700</div></div>
+<div class="ttc" id="a_player_8h_html_a7adbf9c1ce11a5e5f7661abba7c544f6a522331bc28cdac31f9a89bb65afdb32a"><div class="ttname"><a href="../../d1/d39/_player_8h.html#a7adbf9c1ce11a5e5f7661abba7c544f6a522331bc28cdac31f9a89bb65afdb32a">INVENTORY_SLOT_BAG_END</a></div><div class="ttdeci">@ INVENTORY_SLOT_BAG_END</div><div class="ttdef"><b>Definition:</b> Player.h:701</div></div>
+<div class="ttc" id="a_player_8h_html_ad3dd8ed856e16139eaa67147d40cf24e"><div class="ttname"><a href="../../d1/d39/_player_8h.html#ad3dd8ed856e16139eaa67147d40cf24e">INVENTORY_SLOT_BAG_0</a></div><div class="ttdeci">#define INVENTORY_SLOT_BAG_0</div><div class="ttdef"><b>Definition:</b> Player.h:671</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a683db3fe009c60f8cedefbea5f00f58f"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a683db3fe009c60f8cedefbea5f00f58f">ItemQualityColors</a></div><div class="ttdeci">const uint32 ItemQualityColors[MAX_ITEM_QUALITY]</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:325</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a7263b8afa7134894f236b37cc146d021a6cdde8294427dd2821daae1215052e39"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7263b8afa7134894f236b37cc146d021a6cdde8294427dd2821daae1215052e39">ITEM_QUALITY_HEIRLOOM</a></div><div class="ttdeci">@ ITEM_QUALITY_HEIRLOOM</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:308</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a7263b8afa7134894f236b37cc146d021a8598431141ba53f11c1dcd2f903b5175"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7263b8afa7134894f236b37cc146d021a8598431141ba53f11c1dcd2f903b5175">ITEM_QUALITY_POOR</a></div><div class="ttdeci">@ ITEM_QUALITY_POOR</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:301</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a8b7f3e9bd0473c61e8fd7bb42b24faaa"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a8b7f3e9bd0473c61e8fd7bb42b24faaa">MAX_ITEM_QUALITY</a></div><div class="ttdeci">#define MAX_ITEM_QUALITY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:311</div></div>
+<div class="ttc" id="aclass_bag_html"><div class="ttname"><a href="../../dc/d05/class_bag.html">Bag</a></div><div class="ttdef"><b>Definition:</b> Bag.h:28</div></div>
+<div class="ttc" id="aclass_chat_handler_html_a635eca3065c9464e0cdcedd9f0740daa"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#a635eca3065c9464e0cdcedd9f0740daa">ChatHandler::GetSession</a></div><div class="ttdeci">WorldSession * GetSession()</div><div class="ttdef"><b>Definition:</b> Chat.h:122</div></div>
+<div class="ttc" id="aclass_chat_handler_html_ac1ed346507097817b3f8e00f0ae657a0"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">ChatHandler::SendSysMessage</a></div><div class="ttdeci">virtual void SendSysMessage(std::string_view str, bool escapeCharacters=false)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:103</div></div>
+<div class="ttc" id="aclass_item_html"><div class="ttname"><a href="../../dc/d32/class_item.html">Item</a></div><div class="ttdef"><b>Definition:</b> Item.h:214</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_player_html_a248feb9bd120b3a9d1aa491052d1ffbe"><div class="ttname"><a href="../../d8/d53/class_player.html#a248feb9bd120b3a9d1aa491052d1ffbe">Player::GetBagByPos</a></div><div class="ttdeci">Bag * GetBagByPos(uint8 slot) const</div><div class="ttdef"><b>Definition:</b> PlayerStorage.cpp:488</div></div>
+<div class="ttc" id="aclass_player_html_a6e31042962f16c90a443ff772363d22f"><div class="ttname"><a href="../../d8/d53/class_player.html#a6e31042962f16c90a443ff772363d22f">Player::GetItemByPos</a></div><div class="ttdeci">Item * GetItemByPos(uint16 pos) const</div><div class="ttdef"><b>Definition:</b> PlayerStorage.cpp:472</div></div>
+<div class="ttc" id="aclass_player_html_a79e24bb7856e3631a8e3d1fd16fc744e"><div class="ttname"><a href="../../d8/d53/class_player.html#a79e24bb7856e3631a8e3d1fd16fc744e">Player::DestroyItem</a></div><div class="ttdeci">void DestroyItem(uint8 bag, uint8 slot, bool update)</div><div class="ttdef"><b>Definition:</b> PlayerStorage.cpp:3051</div></div>
+<div class="ttc" id="aclass_world_session_html_a62c786bcb829a021c267e7eb56809952"><div class="ttname"><a href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">WorldSession::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer() const</div><div class="ttdef"><b>Definition:</b> WorldSession.h:360</div></div>
+<div class="ttc" id="acs__bag_8cpp_html_af266597924b9d3f439ffc9908001d2cb"><div class="ttname"><a href="../../d6/d3a/cs__bag_8cpp.html#af266597924b9d3f439ffc9908001d2cb">itemQualityToString</a></div><div class="ttdeci">constexpr std::array&lt; std::string_view, MAX_ITEM_QUALITY &gt; itemQualityToString</div><div class="ttdef"><b>Definition:</b> cs_bag.cpp:23</div></div>
+<div class="ttc" id="astruct_item_template_html"><div class="ttname"><a href="../../da/d61/struct_item_template.html">ItemTemplate</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:628</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Commands/<a class="el" href="../../d6/d3a/cs__bag_8cpp.html">cs_bag.cpp</a></li>
+<li><a class="el" href="../../">cs_bag.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -256,7 +394,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d10/classbg__commandscript.html">bg_commandscript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:38 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

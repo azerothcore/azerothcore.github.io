@@ -560,7 +560,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8e209b142a58b3b3c0d84c430a086ade" name="a8e209b142a58b3b3c0d84c430a086ade"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8e209b142a58b3b3c0d84c430a086ade">&#9670;&#160;</a></span>npc_Apothecary_HanesAI()</h2>
 
@@ -584,7 +585,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  214</span>: <a class="code hl_struct" href="../../dd/d7f/structnpc__escort_a_i.html">npc_escortAI</a>(creature) { }</div>
+<div class="ttc" id="astructnpc__escort_a_i_html"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html">npc_escortAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -613,7 +616,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#ae25140568b7dccf0ab73aa87452bd985">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  224</span>        {</div>
+<div class="line"><span class="lineno">  225</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a689a50e0af6c80ef59ee207ac518df45">GetPlayerForEscort</a>())</div>
+<div class="line"><span class="lineno">  226</span>                player-&gt;FailQuest(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a3b04eef2d1544dfd01157f3936b8931e">QUEST_TRAIL_OF_FIRE</a>);</div>
+<div class="line"><span class="lineno">  227</span>        }</div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a689a50e0af6c80ef59ee207ac518df45"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a689a50e0af6c80ef59ee207ac518df45">npc_escortAI::GetPlayerForEscort</a></div><div class="ttdeci">Player * GetPlayerForEscort()</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:114</div></div>
+<div class="ttc" id="azone__howling__fjord_8cpp_html_a06de533fb3e7ec530f0493022ad98889a3b04eef2d1544dfd01157f3936b8931e"><div class="ttname"><a href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a3b04eef2d1544dfd01157f3936b8931e">QUEST_TRAIL_OF_FIRE</a></div><div class="ttdeci">@ QUEST_TRAIL_OF_FIRE</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:192</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a23d54542e6debf39798c2a2d6e2a255d" name="a23d54542e6debf39798c2a2d6e2a255d"></a>
@@ -640,7 +650,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  218</span>        {</div>
+<div class="line"><span class="lineno">  219</span>            <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a275f8451695529110d73b675d340f229">SetDespawnAtFar</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  220</span>            <a class="code hl_variable" href="../../db/da3/structnpc__apothecary__hanes_1_1npc___apothecary___hanes_a_i.html#a252858818b61cf15e2e031ceaaadc6b8">PotTimer</a> = 10000; <span class="comment">//10 sec cooldown on potion</span></div>
+<div class="line"><span class="lineno">  221</span>        }</div>
+<div class="ttc" id="astructnpc__apothecary__hanes_1_1npc___apothecary___hanes_a_i_html_a252858818b61cf15e2e031ceaaadc6b8"><div class="ttname"><a href="../../db/da3/structnpc__apothecary__hanes_1_1npc___apothecary___hanes_a_i.html#a252858818b61cf15e2e031ceaaadc6b8">npc_apothecary_hanes::npc_Apothecary_HanesAI::PotTimer</a></div><div class="ttdeci">uint32 PotTimer</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:215</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a275f8451695529110d73b675d340f229"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a275f8451695529110d73b675d340f229">npc_escortAI::SetDespawnAtFar</a></div><div class="ttdeci">void SetDespawnAtFar(bool despawn)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:105</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab54eb5115b9c41b39f0de0f8f4412ef9" name="ab54eb5115b9c41b39f0de0f8f4412ef9"></a>
@@ -668,7 +684,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#aed1525b79824e29e0f93419c0b6b26e2">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  230</span>        {</div>
+<div class="line"><span class="lineno">  231</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#aa4e7196924ef7710dc780b0321e09002">HealthBelowPct</a>(75))</div>
+<div class="line"><span class="lineno">  232</span>            {</div>
+<div class="line"><span class="lineno">  233</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/da3/structnpc__apothecary__hanes_1_1npc___apothecary___hanes_a_i.html#a252858818b61cf15e2e031ceaaadc6b8">PotTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  234</span>                {</div>
+<div class="line"><span class="lineno">  235</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a13bb6f847a01b8a989be597f21d79b75">SPELL_HEALING_POTION</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  236</span>                    <a class="code hl_variable" href="../../db/da3/structnpc__apothecary__hanes_1_1npc___apothecary___hanes_a_i.html#a252858818b61cf15e2e031ceaaadc6b8">PotTimer</a> = 10000;</div>
+<div class="line"><span class="lineno">  237</span>                }</div>
+<div class="line"><span class="lineno">  238</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../db/da3/structnpc__apothecary__hanes_1_1npc___apothecary___hanes_a_i.html#a252858818b61cf15e2e031ceaaadc6b8">PotTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  239</span>            }</div>
+<div class="line"><span class="lineno">  240</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a113126628d5d07edef04ef02ebd208c4">GetAttack</a>() &amp;&amp; <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  241</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  242</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_aa4e7196924ef7710dc780b0321e09002"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#aa4e7196924ef7710dc780b0321e09002">ScriptedAI::HealthBelowPct</a></div><div class="ttdeci">bool HealthBelowPct(uint32 pct) const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:332</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a113126628d5d07edef04ef02ebd208c4"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a113126628d5d07edef04ef02ebd208c4">npc_escortAI::GetAttack</a></div><div class="ttdeci">bool GetAttack()</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:106</div></div>
+<div class="ttc" id="azone__howling__fjord_8cpp_html_a06de533fb3e7ec530f0493022ad98889a13bb6f847a01b8a989be597f21d79b75"><div class="ttname"><a href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a13bb6f847a01b8a989be597f21d79b75">SPELL_HEALING_POTION</a></div><div class="ttdeci">@ SPELL_HEALING_POTION</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:194</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7105ea4c83ddd0fd08c96a0b0ff40bd2" name="a7105ea4c83ddd0fd08c96a0b0ff40bd2"></a>
@@ -696,7 +732,63 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#a59830f742b9967303df22f5bcf0d2b9d">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  245</span>        {</div>
+<div class="line"><span class="lineno">  246</span>            <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a689a50e0af6c80ef59ee207ac518df45">GetPlayerForEscort</a>();</div>
+<div class="line"><span class="lineno">  247</span>            <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno">  248</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  249</span> </div>
+<div class="line"><span class="lineno">  250</span>            <span class="keywordflow">switch</span> (waypointId)</div>
+<div class="line"><span class="lineno">  251</span>            {</div>
+<div class="line"><span class="lineno">  252</span>                <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno">  253</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno">  254</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a75759c8c91ac786de066065f3e170315">SetRun</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  255</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  256</span>                <span class="keywordflow">case</span> 23:</div>
+<div class="line"><span class="lineno">  257</span>                    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a5407b30447c557eb4bcb441d0e4df355">GroupEventHappens</a>(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a3b04eef2d1544dfd01157f3936b8931e">QUEST_TRAIL_OF_FIRE</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  258</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>();</div>
+<div class="line"><span class="lineno">  259</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  260</span>                <span class="keywordflow">case</span> 5:</div>
+<div class="line"><span class="lineno">  261</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* Trigger = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a1d184f3197ea2249507f226925f86d51">NPC_HANES_FIRE_TRIGGER</a>, 10.0f))</div>
+<div class="line"><span class="lineno">  262</span>                        Trigger-&gt;CastSpell(Trigger, <a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a3e64d85cd00e4529984f105930950743">SPELL_COSMETIC_LOW_POLY_FIRE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  263</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a75759c8c91ac786de066065f3e170315">SetRun</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  264</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  265</span>                <span class="keywordflow">case</span> 6:</div>
+<div class="line"><span class="lineno">  266</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* Trigger = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a1d184f3197ea2249507f226925f86d51">NPC_HANES_FIRE_TRIGGER</a>, 10.0f))</div>
+<div class="line"><span class="lineno">  267</span>                        Trigger-&gt;CastSpell(Trigger, <a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a3e64d85cd00e4529984f105930950743">SPELL_COSMETIC_LOW_POLY_FIRE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  268</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a75759c8c91ac786de066065f3e170315">SetRun</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  269</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  270</span>                <span class="keywordflow">case</span> 8:</div>
+<div class="line"><span class="lineno">  271</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* Trigger = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a1d184f3197ea2249507f226925f86d51">NPC_HANES_FIRE_TRIGGER</a>, 10.0f))</div>
+<div class="line"><span class="lineno">  272</span>                        Trigger-&gt;CastSpell(Trigger, <a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a3e64d85cd00e4529984f105930950743">SPELL_COSMETIC_LOW_POLY_FIRE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  273</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a75759c8c91ac786de066065f3e170315">SetRun</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  274</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  275</span>                <span class="keywordflow">case</span> 9:</div>
+<div class="line"><span class="lineno">  276</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* Trigger = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a1d184f3197ea2249507f226925f86d51">NPC_HANES_FIRE_TRIGGER</a>, 10.0f))</div>
+<div class="line"><span class="lineno">  277</span>                        Trigger-&gt;CastSpell(Trigger, <a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a3e64d85cd00e4529984f105930950743">SPELL_COSMETIC_LOW_POLY_FIRE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  278</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  279</span>                <span class="keywordflow">case</span> 10:</div>
+<div class="line"><span class="lineno">  280</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a75759c8c91ac786de066065f3e170315">SetRun</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  281</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  282</span>                <span class="keywordflow">case</span> 13:</div>
+<div class="line"><span class="lineno">  283</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a75759c8c91ac786de066065f3e170315">SetRun</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  284</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  285</span>                <span class="keywordflow">case</span> 14:</div>
+<div class="line"><span class="lineno">  286</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* Trigger = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a1d184f3197ea2249507f226925f86d51">NPC_HANES_FIRE_TRIGGER</a>, 10.0f))</div>
+<div class="line"><span class="lineno">  287</span>                        Trigger-&gt;CastSpell(Trigger, <a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a3e64d85cd00e4529984f105930950743">SPELL_COSMETIC_LOW_POLY_FIRE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  288</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a75759c8c91ac786de066065f3e170315">SetRun</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  289</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  290</span>            }</div>
+<div class="line"><span class="lineno">  291</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_player_html_a5407b30447c557eb4bcb441d0e4df355"><div class="ttname"><a href="../../d8/d53/class_player.html#a5407b30447c557eb4bcb441d0e4df355">Player::GroupEventHappens</a></div><div class="ttdeci">void GroupEventHappens(uint32 questId, WorldObject const *pEventObject)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1795</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a75759c8c91ac786de066065f3e170315"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a75759c8c91ac786de066065f3e170315">npc_escortAI::SetRun</a></div><div class="ttdeci">void SetRun(bool on=true)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:429</div></div>
+<div class="ttc" id="azone__howling__fjord_8cpp_html_a06de533fb3e7ec530f0493022ad98889a1d184f3197ea2249507f226925f86d51"><div class="ttname"><a href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a1d184f3197ea2249507f226925f86d51">NPC_HANES_FIRE_TRIGGER</a></div><div class="ttdeci">@ NPC_HANES_FIRE_TRIGGER</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:191</div></div>
+<div class="ttc" id="azone__howling__fjord_8cpp_html_a06de533fb3e7ec530f0493022ad98889a3e64d85cd00e4529984f105930950743"><div class="ttname"><a href="../../d1/d77/zone__howling__fjord_8cpp.html#a06de533fb3e7ec530f0493022ad98889a3e64d85cd00e4529984f105930950743">SPELL_COSMETIC_LOW_POLY_FIRE</a></div><div class="ttdeci">@ SPELL_COSMETIC_LOW_POLY_FIRE</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:193</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -715,7 +807,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d1/d77/zone__howling__fjord_8cpp.html">zone_howling_fjord.cpp</a></li>
+<li><a class="el" href="../../">zone_howling_fjord.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -723,7 +815,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d68/classnpc__apothecary__hanes.html">npc_apothecary_hanes</a></li><li class="navelem"><a class="el" href="../../db/da3/structnpc__apothecary__hanes_1_1npc___apothecary___hanes_a_i.html">npc_Apothecary_HanesAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

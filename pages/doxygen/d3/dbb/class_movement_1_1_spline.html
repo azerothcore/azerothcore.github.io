@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('d3/dbb/class_movement_1_1_spline.html'
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d4/d25/_spline_8h_source.html">Spline.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Spline.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Movement::Spline&lt; length_type &gt;:</div>
 <div class="dyncontent">
@@ -297,7 +297,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a33f224d12367e8dd3f1a63e41979a639 inherit pro_static_attribs_class_movement_1_1_spline_base"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d35/class_movement_1_1_spline_base.html#a5c31a87c9450b35cadc069a67862d2c2">InitMethtod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/class_movement_1_1_spline_base.html#a33f224d12367e8dd3f1a63e41979a639">initializers</a> [<a class="el" href="../../d9/d35/class_movement_1_1_spline_base.html#a815f7b7cd727035f39a5d81bb3ff731aa283328758f9b80aced4f344a65564468">ModesEnd</a>]</td></tr>
 <tr class="separator:a33f224d12367e8dd3f1a63e41979a639 inherit pro_static_attribs_class_movement_1_1_spline_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename length_type&gt;<br />
+class Movement::Spline&lt; length_type &gt;</div></div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a20cf3df436c8fc337019cb8dbd4fc74f" name="a20cf3df436c8fc337019cb8dbd4fc74f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a20cf3df436c8fc337019cb8dbd4fc74f">&#9670;&#160;</a></span>LengthArray</h2>
 
@@ -372,7 +374,13 @@ template&lt;typename length_type &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   91</span>    {</div>
+<div class="line"><span class="lineno">   92</span>        <a class="code hl_function" href="../../d9/d35/class_movement_1_1_spline_base.html#a3cf0b2ed2d2489007496d8d4e7307304">SplineBase::clear</a>();</div>
+<div class="line"><span class="lineno">   93</span>        <a class="code hl_variable" href="../../d3/dbb/class_movement_1_1_spline.html#a307a7a746de042f0cd21f48797768afb">lengths</a>.clear();</div>
+<div class="line"><span class="lineno">   94</span>    }</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a3cf0b2ed2d2489007496d8d4e7307304"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a3cf0b2ed2d2489007496d8d4e7307304">Movement::SplineBase::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition:</b> Spline.cpp:284</div></div>
+<div class="ttc" id="aclass_movement_1_1_spline_html_a307a7a746de042f0cd21f48797768afb"><div class="ttname"><a href="../../d3/dbb/class_movement_1_1_spline.html#a307a7a746de042f0cd21f48797768afb">Movement::Spline::lengths</a></div><div class="ttdeci">LengthArray lengths</div><div class="ttdef"><b>Definition:</b> Spline.h:144</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a69a59bf415f83e6770694799e3c905b1" name="a69a59bf415f83e6770694799e3c905b1"></a>
@@ -408,7 +416,18 @@ template&lt;typename length_type &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   64</span>    {</div>
+<div class="line"><span class="lineno">   65</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(t &gt;= 0.f &amp;&amp; t &lt;= 1.f);</div>
+<div class="line"><span class="lineno">   66</span>        length_type length_ = t * <a class="code hl_function" href="../../d3/dbb/class_movement_1_1_spline.html#aab929569bba2417387acd22f0634504d">length</a>();</div>
+<div class="line"><span class="lineno">   67</span>        index = <a class="code hl_function" href="../../d3/dbb/class_movement_1_1_spline.html#a97b872ca05f947444945860e04bb2651">computeIndexInBounds</a>(length_);</div>
+<div class="line"><span class="lineno">   68</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(index &lt; <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>);</div>
+<div class="line"><span class="lineno">   69</span>        u = (length_ - <a class="code hl_function" href="../../d3/dbb/class_movement_1_1_spline.html#aab929569bba2417387acd22f0634504d">length</a>(index)) / (<span class="keywordtype">float</span>)<a class="code hl_function" href="../../d3/dbb/class_movement_1_1_spline.html#aab929569bba2417387acd22f0634504d">length</a>(index, index + 1);</div>
+<div class="line"><span class="lineno">   70</span>    }</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_acbc7e3f2c43de66ef88d86d1e2d9fab2"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">Movement::SplineBase::index_hi</a></div><div class="ttdeci">index_type index_hi</div><div class="ttdef"><b>Definition:</b> Spline.h:47</div></div>
+<div class="ttc" id="aclass_movement_1_1_spline_html_a97b872ca05f947444945860e04bb2651"><div class="ttname"><a href="../../d3/dbb/class_movement_1_1_spline.html#a97b872ca05f947444945860e04bb2651">Movement::Spline::computeIndexInBounds</a></div><div class="ttdeci">index_type computeIndexInBounds(length_type length) const</div><div class="ttdef"><b>Definition:</b> SplineImpl.h:36</div></div>
+<div class="ttc" id="aclass_movement_1_1_spline_html_aab929569bba2417387acd22f0634504d"><div class="ttname"><a href="../../d3/dbb/class_movement_1_1_spline.html#aab929569bba2417387acd22f0634504d">Movement::Spline::length</a></div><div class="ttdeci">length_type length() const</div><div class="ttdef"><b>Definition:</b> Spline.h:200</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa344531c5931b35d759830991174c6a0" name="aa344531c5931b35d759830991174c6a0"></a>
@@ -428,7 +447,11 @@ template&lt;typename length_type &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   73</span>    {</div>
+<div class="line"><span class="lineno">   74</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(t &gt;= 0.f &amp;&amp; t &lt;= 1.f);</div>
+<div class="line"><span class="lineno">   75</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d3/dbb/class_movement_1_1_spline.html#a97b872ca05f947444945860e04bb2651">computeIndexInBounds</a>(t * <a class="code hl_function" href="../../d3/dbb/class_movement_1_1_spline.html#aab929569bba2417387acd22f0634504d">length</a>());</div>
+<div class="line"><span class="lineno">   76</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a97b872ca05f947444945860e04bb2651" name="a97b872ca05f947444945860e04bb2651"></a>
@@ -456,7 +479,34 @@ template&lt;typename length_type &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   37</span>    {</div>
+<div class="line"><span class="lineno">   38</span>        <span class="comment">// Temporary disabled: causes infinite loop with t = 1.f</span></div>
+<div class="line"><span class="lineno">   39</span>        <span class="comment">/*</span></div>
+<div class="line"><span class="lineno">   40</span><span class="comment">            index_type hi = index_hi;</span></div>
+<div class="line"><span class="lineno">   41</span><span class="comment">            index_type lo = index_lo;</span></div>
+<div class="line"><span class="lineno">   42</span><span class="comment"></span> </div>
+<div class="line"><span class="lineno">   43</span><span class="comment">            index_type i = lo + (float)(hi - lo) * t;</span></div>
+<div class="line"><span class="lineno">   44</span><span class="comment"></span> </div>
+<div class="line"><span class="lineno">   45</span><span class="comment">            while ((lengths[i] &gt; length) || (lengths[i + 1] &lt;= length))</span></div>
+<div class="line"><span class="lineno">   46</span><span class="comment">            {</span></div>
+<div class="line"><span class="lineno">   47</span><span class="comment">                if (lengths[i] &gt; length)</span></div>
+<div class="line"><span class="lineno">   48</span><span class="comment">                    hi = i - 1; // too big</span></div>
+<div class="line"><span class="lineno">   49</span><span class="comment">                else if (lengths[i + 1] &lt;= length)</span></div>
+<div class="line"><span class="lineno">   50</span><span class="comment">                    lo = i + 1; // too small</span></div>
+<div class="line"><span class="lineno">   51</span><span class="comment"></span> </div>
+<div class="line"><span class="lineno">   52</span><span class="comment">                i = (hi + lo) / 2;</span></div>
+<div class="line"><span class="lineno">   53</span><span class="comment">            }*/</span></div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>        <a class="code hl_typedef" href="../../d9/d35/class_movement_1_1_spline_base.html#a6610d94dcbdc06c43565fa389b739c67">index_type</a> i = <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a>;</div>
+<div class="line"><span class="lineno">   56</span>        <a class="code hl_typedef" href="../../d9/d35/class_movement_1_1_spline_base.html#a6610d94dcbdc06c43565fa389b739c67">index_type</a> N = <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>;</div>
+<div class="line"><span class="lineno">   57</span>        <span class="keywordflow">while</span> (i + 1 &lt; N &amp;&amp; <a class="code hl_variable" href="../../d3/dbb/class_movement_1_1_spline.html#a307a7a746de042f0cd21f48797768afb">lengths</a>[i + 1] &lt; length_)</div>
+<div class="line"><span class="lineno">   58</span>            ++i;</div>
+<div class="line"><span class="lineno">   59</span> </div>
+<div class="line"><span class="lineno">   60</span>        <span class="keywordflow">return</span> i;</div>
+<div class="line"><span class="lineno">   61</span>    }</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a6610d94dcbdc06c43565fa389b739c67"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a6610d94dcbdc06c43565fa389b739c67">Movement::SplineBase::index_type</a></div><div class="ttdeci">int index_type</div><div class="ttdef"><b>Definition:</b> Spline.h:31</div></div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_af38f585652cb0227e23299afa10bb96d"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">Movement::SplineBase::index_lo</a></div><div class="ttdeci">index_type index_lo</div><div class="ttdef"><b>Definition:</b> Spline.h:46</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad4b8334bf969be613fdf68043b602fb1" name="ad4b8334bf969be613fdf68043b602fb1"></a>
@@ -492,7 +542,15 @@ template&lt;typename length_type &gt; </div>
   </table>
   </dd>
 </dl>
-
+<div class="fragment"><div class="line"><span class="lineno">   29</span>    {</div>
+<div class="line"><span class="lineno">   30</span>        <a class="code hl_typedef" href="../../d9/d35/class_movement_1_1_spline_base.html#a6610d94dcbdc06c43565fa389b739c67">index_type</a> Index;</div>
+<div class="line"><span class="lineno">   31</span>        <span class="keywordtype">float</span> u;</div>
+<div class="line"><span class="lineno">   32</span>        <a class="code hl_function" href="../../d3/dbb/class_movement_1_1_spline.html#a69a59bf415f83e6770694799e3c905b1">computeIndex</a>(t, Index, u);</div>
+<div class="line"><span class="lineno">   33</span>        <a class="code hl_function" href="../../d3/dbb/class_movement_1_1_spline.html#ad4b8334bf969be613fdf68043b602fb1">evaluate_derivative</a>(Index, u, hermite);</div>
+<div class="line"><span class="lineno">   34</span>    }</div>
+<div class="ttc" id="aclass_movement_1_1_spline_html_a69a59bf415f83e6770694799e3c905b1"><div class="ttname"><a href="../../d3/dbb/class_movement_1_1_spline.html#a69a59bf415f83e6770694799e3c905b1">Movement::Spline::computeIndex</a></div><div class="ttdeci">void computeIndex(float t, index_type &amp;out_idx, float &amp;out_u) const</div><div class="ttdef"><b>Definition:</b> SplineImpl.h:63</div></div>
+<div class="ttc" id="aclass_movement_1_1_spline_html_ad4b8334bf969be613fdf68043b602fb1"><div class="ttname"><a href="../../d3/dbb/class_movement_1_1_spline.html#ad4b8334bf969be613fdf68043b602fb1">Movement::Spline::evaluate_derivative</a></div><div class="ttdeci">void evaluate_derivative(float t, Vector3 &amp;hermite) const</div><div class="ttdef"><b>Definition:</b> SplineImpl.h:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae0801ccc74dc971248f743cfadc248a3" name="ae0801ccc74dc971248f743cfadc248a3"></a>
@@ -543,7 +601,9 @@ template&lt;typename length_type &gt; </div>
   </table>
   </dd>
 </dl>
-
+<div class="fragment"><div class="line"><span class="lineno">  166</span>{ <a class="code hl_function" href="../../d9/d35/class_movement_1_1_spline_base.html#a544deed5ae0e24603922b1e80bbe4dc1">SplineBase::evaluate_derivative</a>(Idx, u, c);}</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a544deed5ae0e24603922b1e80bbe4dc1"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a544deed5ae0e24603922b1e80bbe4dc1">Movement::SplineBase::evaluate_derivative</a></div><div class="ttdeci">void evaluate_derivative(index_type Idx, float u, Vector3 &amp;hermite) const</div><div class="ttdef"><b>Definition:</b> Spline.h:103</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae05046412e2825316172dc8b1cdac870" name="ae05046412e2825316172dc8b1cdac870"></a>
@@ -579,7 +639,14 @@ template&lt;typename length_type &gt; </div>
   </table>
   </dd>
 </dl>
-
+<div class="fragment"><div class="line"><span class="lineno">   21</span>    {</div>
+<div class="line"><span class="lineno">   22</span>        <a class="code hl_typedef" href="../../d9/d35/class_movement_1_1_spline_base.html#a6610d94dcbdc06c43565fa389b739c67">index_type</a> Index;</div>
+<div class="line"><span class="lineno">   23</span>        <span class="keywordtype">float</span> u;</div>
+<div class="line"><span class="lineno">   24</span>        <a class="code hl_function" href="../../d3/dbb/class_movement_1_1_spline.html#a69a59bf415f83e6770694799e3c905b1">computeIndex</a>(t, Index, u);</div>
+<div class="line"><span class="lineno">   25</span>        <a class="code hl_function" href="../../d3/dbb/class_movement_1_1_spline.html#ae05046412e2825316172dc8b1cdac870">evaluate_percent</a>(Index, u, c);</div>
+<div class="line"><span class="lineno">   26</span>    }</div>
+<div class="ttc" id="aclass_movement_1_1_spline_html_ae05046412e2825316172dc8b1cdac870"><div class="ttname"><a href="../../d3/dbb/class_movement_1_1_spline.html#ae05046412e2825316172dc8b1cdac870">Movement::Spline::evaluate_percent</a></div><div class="ttdeci">void evaluate_percent(float t, Vector3 &amp;c) const</div><div class="ttdef"><b>Definition:</b> SplineImpl.h:20</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a249fa3aa29b3baa59a5afec0e14c7ef5" name="a249fa3aa29b3baa59a5afec0e14c7ef5"></a>
@@ -630,7 +697,9 @@ template&lt;typename length_type &gt; </div>
   </table>
   </dd>
 </dl>
-
+<div class="fragment"><div class="line"><span class="lineno">  161</span>{ <a class="code hl_function" href="../../d9/d35/class_movement_1_1_spline_base.html#a48ae1e6a51f87c3540a6b88b959d6976">SplineBase::evaluate_percent</a>(Idx, u, c);}</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a48ae1e6a51f87c3540a6b88b959d6976"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a48ae1e6a51f87c3540a6b88b959d6976">Movement::SplineBase::evaluate_percent</a></div><div class="ttdeci">void evaluate_percent(index_type Idx, float u, Vector3 &amp;c) const</div><div class="ttdef"><b>Definition:</b> Spline.h:97</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a41da9314f499c768b9bd567f1eb5ae55" name="a41da9314f499c768b9bd567f1eb5ae55"></a>
@@ -680,7 +749,9 @@ template&lt;typename length_type &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  174</span>{ <a class="code hl_function" href="../../d9/d35/class_movement_1_1_spline_base.html#add5fd58a7c5edc3c5345813e0086b860">SplineBase::init_cyclic_spline</a>(controls, count, m, cyclic_point);}</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_add5fd58a7c5edc3c5345813e0086b860"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#add5fd58a7c5edc3c5345813e0086b860">Movement::SplineBase::init_cyclic_spline</a></div><div class="ttdeci">void init_cyclic_spline(const Vector3 *controls, index_type count, EvaluationMode m, index_type cyclic_point)</div><div class="ttdef"><b>Definition:</b> Spline.cpp:210</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a146e7d35cea5ff759fdec2463e16f465" name="a146e7d35cea5ff759fdec2463e16f465"></a>
@@ -725,7 +796,9 @@ template&lt;typename length_type &gt; </div>
 </table>
 </div><div class="memdoc">
 <p >Initializes spline. Don't call other methods while spline not initialized. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  173</span>{ <a class="code hl_function" href="../../d9/d35/class_movement_1_1_spline_base.html#a9b11420c24387cd4796650b85e37d359">SplineBase::init_spline</a>(controls, count, m);}</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a9b11420c24387cd4796650b85e37d359"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a9b11420c24387cd4796650b85e37d359">Movement::SplineBase::init_spline</a></div><div class="ttdeci">void init_spline(const Vector3 *controls, index_type count, EvaluationMode m)</div><div class="ttdef"><b>Definition:</b> Spline.cpp:202</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad1cdf5235b5a2a64f32125bcf9048094" name="ad1cdf5235b5a2a64f32125bcf9048094"></a>
@@ -742,7 +815,18 @@ template&lt;typename length_type &gt; </div>
       </table>
 </div><div class="memdoc">
 <p >Initializes lengths with <a class="el" href="../../d9/d35/class_movement_1_1_spline_base.html#a7fbf9bef91573f74a8260d0b98726bc9">SplineBase::SegLength</a> method. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   79</span>    {</div>
+<div class="line"><span class="lineno">   80</span>        <a class="code hl_typedef" href="../../d9/d35/class_movement_1_1_spline_base.html#a6610d94dcbdc06c43565fa389b739c67">index_type</a> i = <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a>;</div>
+<div class="line"><span class="lineno">   81</span>        length_type <a class="code hl_function" href="../../d3/dbb/class_movement_1_1_spline.html#aab929569bba2417387acd22f0634504d">length</a> = 0;</div>
+<div class="line"><span class="lineno">   82</span>        <a class="code hl_variable" href="../../d3/dbb/class_movement_1_1_spline.html#a307a7a746de042f0cd21f48797768afb">lengths</a>.resize(<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a> + 1);</div>
+<div class="line"><span class="lineno">   83</span>        <span class="keywordflow">while</span> (i &lt; <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>)</div>
+<div class="line"><span class="lineno">   84</span>        {</div>
+<div class="line"><span class="lineno">   85</span>            <a class="code hl_function" href="../../d3/dbb/class_movement_1_1_spline.html#aab929569bba2417387acd22f0634504d">length</a> += <a class="code hl_function" href="../../d9/d35/class_movement_1_1_spline_base.html#a7fbf9bef91573f74a8260d0b98726bc9">SegLength</a>(i);</div>
+<div class="line"><span class="lineno">   86</span>            <a class="code hl_variable" href="../../d3/dbb/class_movement_1_1_spline.html#a307a7a746de042f0cd21f48797768afb">lengths</a>[++i] = <a class="code hl_function" href="../../d3/dbb/class_movement_1_1_spline.html#aab929569bba2417387acd22f0634504d">length</a>;</div>
+<div class="line"><span class="lineno">   87</span>        }</div>
+<div class="line"><span class="lineno">   88</span>    }</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a7fbf9bef91573f74a8260d0b98726bc9"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a7fbf9bef91573f74a8260d0b98726bc9">Movement::SplineBase::SegLength</a></div><div class="ttdeci">float SegLength(index_type i) const</div><div class="ttdef"><b>Definition:</b> Spline.h:132</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a708b60c2b21178db578520dfd98af6f7" name="a708b60c2b21178db578520dfd98af6f7"></a>
@@ -773,7 +857,23 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 <p >Initializes lengths in some custom way Note that value returned by cacher must be greater or equal to previous value. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  182</span>        {</div>
+<div class="line"><span class="lineno">  183</span>            <a class="code hl_typedef" href="../../d9/d35/class_movement_1_1_spline_base.html#a6610d94dcbdc06c43565fa389b739c67">index_type</a> i = <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a>;</div>
+<div class="line"><span class="lineno">  184</span>            <a class="code hl_variable" href="../../d3/dbb/class_movement_1_1_spline.html#a307a7a746de042f0cd21f48797768afb">lengths</a>.resize(<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a> + 1);</div>
+<div class="line"><span class="lineno">  185</span>            length_type prev_length = 0, new_length = 0;</div>
+<div class="line"><span class="lineno">  186</span>            <span class="keywordflow">while</span> (i &lt; <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>)</div>
+<div class="line"><span class="lineno">  187</span>            {</div>
+<div class="line"><span class="lineno">  188</span>                new_length = cacher(*<span class="keyword">this</span>, i);</div>
+<div class="line"><span class="lineno">  189</span>                <span class="comment">// length overflowed, assign to max positive value</span></div>
+<div class="line"><span class="lineno">  190</span>                <span class="keywordflow">if</span> (new_length &lt; 0)</div>
+<div class="line"><span class="lineno">  191</span>                    new_length = std::numeric_limits&lt;length_type&gt;::max();</div>
+<div class="line"><span class="lineno">  192</span>                <a class="code hl_variable" href="../../d3/dbb/class_movement_1_1_spline.html#a307a7a746de042f0cd21f48797768afb">lengths</a>[++i] = new_length;</div>
+<div class="line"><span class="lineno">  193</span> </div>
+<div class="line"><span class="lineno">  194</span>                <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(prev_length &lt;= new_length);</div>
+<div class="line"><span class="lineno">  195</span>                prev_length = new_length;</div>
+<div class="line"><span class="lineno">  196</span>            }</div>
+<div class="line"><span class="lineno">  197</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aab929569bba2417387acd22f0634504d" name="aab929569bba2417387acd22f0634504d"></a>
@@ -801,7 +901,8 @@ template&lt;typename length_type &gt; </div>
 </table>
 </div><div class="memdoc">
 <p >Returns length of the whole spline. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  200</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/dbb/class_movement_1_1_spline.html#a307a7a746de042f0cd21f48797768afb">lengths</a>[<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>];}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6791d5411365109dffcc699170f03291" name="a6791d5411365109dffcc699170f03291"></a>
@@ -840,7 +941,10 @@ template&lt;typename length_type &gt; </div>
 </table>
 </div><div class="memdoc">
 <p >Returns length between given nodes. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  202</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/dbb/class_movement_1_1_spline.html#a307a7a746de042f0cd21f48797768afb">lengths</a>[<a class="code hl_function" href="../../d9/d35/class_movement_1_1_spline_base.html#ac9b6a775702923a14230b1818843be7e">last</a>] - <a class="code hl_variable" href="../../d3/dbb/class_movement_1_1_spline.html#a307a7a746de042f0cd21f48797768afb">lengths</a>[<a class="code hl_function" href="../../d9/d35/class_movement_1_1_spline_base.html#a83b4d4eeca3c80ab3b7c1c36f8edec39">first</a>];}</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a83b4d4eeca3c80ab3b7c1c36f8edec39"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a83b4d4eeca3c80ab3b7c1c36f8edec39">Movement::SplineBase::first</a></div><div class="ttdeci">index_type first() const</div><div class="ttdef"><b>Definition:</b> Spline.h:106</div></div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_ac9b6a775702923a14230b1818843be7e"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#ac9b6a775702923a14230b1818843be7e">Movement::SplineBase::last</a></div><div class="ttdeci">index_type last() const</div><div class="ttdef"><b>Definition:</b> Spline.h:107</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a73b3a47713e07a5d07959a2eb17be87e" name="a73b3a47713e07a5d07959a2eb17be87e"></a>
@@ -868,7 +972,8 @@ template&lt;typename length_type &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  203</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/dbb/class_movement_1_1_spline.html#a307a7a746de042f0cd21f48797768afb">lengths</a>[Idx];}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7c5aba567e41d196c8bf0faf175ed43e" name="a7c5aba567e41d196c8bf0faf175ed43e"></a>
@@ -906,7 +1011,8 @@ template&lt;typename length_type &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  205</span>{ <a class="code hl_variable" href="../../d3/dbb/class_movement_1_1_spline.html#a307a7a746de042f0cd21f48797768afb">lengths</a>[i] = <a class="code hl_function" href="../../d3/dbb/class_movement_1_1_spline.html#aab929569bba2417387acd22f0634504d">length</a>;}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -935,8 +1041,8 @@ template&lt;typename length_type &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/Spline/<a class="el" href="../../d4/d25/_spline_8h_source.html">Spline.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/Spline/<a class="el" href="../../d6/d50/_spline_impl_8h_source.html">SplineImpl.h</a></li>
+<li><a class="el" href="../../">Spline.h</a></li>
+<li><a class="el" href="../../">SplineImpl.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -944,7 +1050,7 @@ template&lt;typename length_type &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/dc5/namespace_movement.html">Movement</a></li><li class="navelem"><a class="el" href="../../d3/dbb/class_movement_1_1_spline.html">Spline</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

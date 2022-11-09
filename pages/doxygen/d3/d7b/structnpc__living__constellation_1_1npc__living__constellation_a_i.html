@@ -495,7 +495,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a54f4e946fad895bca07a59f4e00d10a5" name="a54f4e946fad895bca07a59f4e00d10a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a54f4e946fad895bca07a59f4e00d10a5">&#9670;&#160;</a></span>npc_living_constellationAI()</h2>
 
@@ -519,7 +520,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  964</span>                                                       : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">  965</span>        {</div>
+<div class="line"><span class="lineno">  966</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">  967</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a></div><div class="ttdeci">@ REACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1023</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -548,7 +557,45 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  985</span>        {</div>
+<div class="line"><span class="lineno">  986</span>            <span class="keywordflow">switch</span> (action)</div>
+<div class="line"><span class="lineno">  987</span>            {</div>
+<div class="line"><span class="lineno">  988</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a250372292659bed7ae290d8621f88ccfa9ef14524851adc9c9aa3529ea184efef">ACTION_ACTIVATE_STAR</a>:</div>
+<div class="line"><span class="lineno">  989</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno">  990</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">  991</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af11c4cb6be962a4162cc987c69a7884f">SetImmuneToAll</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  992</span>                    <a class="code hl_variable" href="../../d3/d7b/structnpc__living__constellation_1_1npc__living__constellation_a_i.html#a786d2d05f83e59dd0da34f44037bdd35">_isActive</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  993</span> </div>
+<div class="line"><span class="lineno">  994</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* target = <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#afa14c52852b49c2179c7410dbd897ff4">SelectTargetFromPlayerList</a>(250.0f))</div>
+<div class="line"><span class="lineno">  995</span>                    {</div>
+<div class="line"><span class="lineno">  996</span>                        <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">AttackStart</a>(target);</div>
+<div class="line"><span class="lineno">  997</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a3b4dad985e3b5dde28d89afc956999e4">AddThreat</a>(target, 100.0f);</div>
+<div class="line"><span class="lineno">  998</span>                    }</div>
+<div class="line"><span class="lineno">  999</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">SetInCombatWithZone</a>();</div>
+<div class="line"><span class="lineno"> 1000</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1001</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a250372292659bed7ae290d8621f88ccfab779d20c5182f0b93f5bf31b794271a7">ACTION_BIG_BANG</a>:</div>
+<div class="line"><span class="lineno"> 1002</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.SetPhase(<a class="code hl_enumvalue" href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a65010c7561f9dc2c58066c5933a3f5bdaf77734a421587ba0190c065c2434acea">PHASE_BIG_BANG</a>);</div>
+<div class="line"><span class="lineno"> 1003</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.DelayEvents(9500);</div>
+<div class="line"><span class="lineno"> 1004</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d1/d43/boss__algalon__the__observer_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afc06b3346a8fc72ee1f50882061adfe5">EVENT_RESUME_UPDATING</a>, 9500);</div>
+<div class="line"><span class="lineno"> 1005</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1006</span>            }</div>
+<div class="line"><span class="lineno"> 1007</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NOT_SELECTABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:473</div></div>
+<div class="ttc" id="aboss__algalon__the__observer_8cpp_html_a250372292659bed7ae290d8621f88ccfa9ef14524851adc9c9aa3529ea184efef"><div class="ttname"><a href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a250372292659bed7ae290d8621f88ccfa9ef14524851adc9c9aa3529ea184efef">ACTION_ACTIVATE_STAR</a></div><div class="ttdeci">@ ACTION_ACTIVATE_STAR</div><div class="ttdef"><b>Definition:</b> boss_algalon_the_observer.cpp:81</div></div>
+<div class="ttc" id="aboss__algalon__the__observer_8cpp_html_a250372292659bed7ae290d8621f88ccfab779d20c5182f0b93f5bf31b794271a7"><div class="ttname"><a href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a250372292659bed7ae290d8621f88ccfab779d20c5182f0b93f5bf31b794271a7">ACTION_BIG_BANG</a></div><div class="ttdeci">@ ACTION_BIG_BANG</div><div class="ttdef"><b>Definition:</b> boss_algalon_the_observer.cpp:82</div></div>
+<div class="ttc" id="aboss__algalon__the__observer_8cpp_html_a65010c7561f9dc2c58066c5933a3f5bdaf77734a421587ba0190c065c2434acea"><div class="ttname"><a href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a65010c7561f9dc2c58066c5933a3f5bdaf77734a421587ba0190c065c2434acea">PHASE_BIG_BANG</a></div><div class="ttdeci">@ PHASE_BIG_BANG</div><div class="ttdef"><b>Definition:</b> boss_algalon_the_observer.cpp:159</div></div>
+<div class="ttc" id="aboss__algalon__the__observer_8cpp_html_af60e00b78607064c5be6aa9397ea49c1afc06b3346a8fc72ee1f50882061adfe5"><div class="ttname"><a href="../../d1/d43/boss__algalon__the__observer_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afc06b3346a8fc72ee1f50882061adfe5">EVENT_RESUME_UPDATING</a></div><div class="ttdeci">@ EVENT_RESUME_UPDATING</div><div class="ttdef"><b>Definition:</b> boss_algalon_the_observer.cpp:125</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_creature_html_a01ccacf28df6336a774bf1672caf3571"><div class="ttname"><a href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">Creature::SetInCombatWithZone</a></div><div class="ttdeci">void SetInCombatWithZone()</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2705</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_html_a3b4dad985e3b5dde28d89afc956999e4"><div class="ttname"><a href="../../da/db7/class_unit.html#a3b4dad985e3b5dde28d89afc956999e4">Unit::AddThreat</a></div><div class="ttdeci">void AddThreat(Unit *victim, float fThreat, SpellSchoolMask schoolMask=SPELL_SCHOOL_MASK_NORMAL, SpellInfo const *threatSpell=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14523</div></div>
+<div class="ttc" id="aclass_unit_html_af11c4cb6be962a4162cc987c69a7884f"><div class="ttname"><a href="../../da/db7/class_unit.html#af11c4cb6be962a4162cc987c69a7884f">Unit::SetImmuneToAll</a></div><div class="ttdeci">void SetImmuneToAll(bool apply, bool keepCombat=false)</div><div class="ttdef"><b>Definition:</b> Unit.h:1675</div></div>
+<div class="ttc" id="aclass_unit_html_af9a5a43c2d7940c38f8b101409666a0d"><div class="ttname"><a href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">Unit::RemoveUnitFlag</a></div><div class="ttdeci">void RemoveUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1480</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a4c91d8d2c1a6e8b234c1c4f15936c7a4"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI::AttackStart</a></div><div class="ttdeci">void AttackStart(Unit *) override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:206</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_afa14c52852b49c2179c7410dbd897ff4"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#afa14c52852b49c2179c7410dbd897ff4">ScriptedAI::SelectTargetFromPlayerList</a></div><div class="ttdeci">Player * SelectTargetFromPlayerList(float maxdist, uint32 excludeAura=0, bool mustBeInLOS=false) const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:508</div></div>
+<div class="ttc" id="astructnpc__living__constellation_1_1npc__living__constellation_a_i_html_a786d2d05f83e59dd0da34f44037bdd35"><div class="ttname"><a href="../../d3/d7b/structnpc__living__constellation_1_1npc__living__constellation_a_i.html#a786d2d05f83e59dd0da34f44037bdd35">npc_living_constellation::npc_living_constellationAI::_isActive</a></div><div class="ttdeci">bool _isActive</div><div class="ttdef"><b>Definition:</b> boss_algalon_the_observer.cpp:970</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acb5cc31d7a084e82d8bde3852f9668dd" name="acb5cc31d7a084e82d8bde3852f9668dd"></a>
@@ -576,7 +623,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a6905aa5db0b3501623c040689946350e">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  980</span>        {</div>
+<div class="line"><span class="lineno">  981</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d7b/structnpc__living__constellation_1_1npc__living__constellation_a_i.html#a786d2d05f83e59dd0da34f44037bdd35">_isActive</a>;</div>
+<div class="line"><span class="lineno">  982</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a664b03bdaea184ab8dd8298ed9952790" name="a664b03bdaea184ab8dd8298ed9952790"></a>
@@ -603,7 +653,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  973</span>        {</div>
+<div class="line"><span class="lineno">  974</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">  975</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d1/d43/boss__algalon__the__observer_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa98b5046dccbd2cdd90f928575433934">EVENT_ARCANE_BARRAGE</a>, 2500);</div>
+<div class="line"><span class="lineno">  976</span>            <a class="code hl_variable" href="../../d3/d7b/structnpc__living__constellation_1_1npc__living__constellation_a_i.html#a786d2d05f83e59dd0da34f44037bdd35">_isActive</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  977</span>        }</div>
+<div class="ttc" id="aboss__algalon__the__observer_8cpp_html_af60e00b78607064c5be6aa9397ea49c1aa98b5046dccbd2cdd90f928575433934"><div class="ttname"><a href="../../d1/d43/boss__algalon__the__observer_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa98b5046dccbd2cdd90f928575433934">EVENT_ARCANE_BARRAGE</a></div><div class="ttdeci">@ EVENT_ARCANE_BARRAGE</div><div class="ttdef"><b>Definition:</b> boss_algalon_the_observer.cpp:152</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4c83ef2d5fe161a90d465a8fbd7eb4f8" name="a4c83ef2d5fe161a90d465a8fbd7eb4f8"></a>
@@ -641,7 +697,36 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a7c4ff5a7547e75576c127ba4a514e548">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1010</span>        {</div>
+<div class="line"><span class="lineno"> 1011</span>            <span class="keywordflow">if</span> (spell-&gt;Id != <a class="code hl_enumvalue" href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a5bd342133be8c2137b831460acc9298ca027b56dadc41bf3f8ee602451853923b">SPELL_CONSTELLATION_PHASE_EFFECT</a> || caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>)</div>
+<div class="line"><span class="lineno"> 1012</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1013</span> </div>
+<div class="line"><span class="lineno"> 1014</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno"> 1015</span>                instance-&gt;DoStartTimedAchievement(<a class="code hl_enumvalue" href="../../dc/d6e/_d_b_c_enums_8h.html#a282f094fb8ee80177dd57d2086ddd35bac02bba0f3ad69a2fc8ccde1efade56a3">ACHIEVEMENT_TIMED_TYPE_EVENT</a>, <a class="code hl_enumvalue" href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a8d9c7b95bc1ba4938d9fc571eac01ecf">EVENT_ID_SUPERMASSIVE_START</a>);</div>
+<div class="line"><span class="lineno"> 1016</span> </div>
+<div class="line"><span class="lineno"> 1017</span>            caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>((<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>*)<span class="keyword">nullptr</span>, <a class="code hl_enumvalue" href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a5bd342133be8c2137b831460acc9298ca0fe64d13666bfdb390e113b8de1c261d">SPELL_BLACK_HOLE_CREDIT</a>, <a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a">TRIGGERED_FULL_MASK</a>);</div>
+<div class="line"><span class="lineno"> 1018</span>            caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(1);</div>
+<div class="line"><span class="lineno"> 1019</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(1);</div>
+<div class="line"><span class="lineno"> 1020</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* voidZone = caster-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d9/df7/ulduar_8h.html#abfe5de1fd9db676abc952fa6839d50b2aeca36864283a83786c6ada407e75ff74">NPC_ALGALON_VOID_ZONE_VISUAL_STALKER</a>, 10.0f))</div>
+<div class="line"><span class="lineno"> 1021</span>                voidZone-&gt;DespawnOrUnsummon(1);</div>
+<div class="line"><span class="lineno"> 1022</span>        }</div>
+<div class="ttc" id="a_d_b_c_enums_8h_html_a282f094fb8ee80177dd57d2086ddd35bac02bba0f3ad69a2fc8ccde1efade56a3"><div class="ttname"><a href="../../dc/d6e/_d_b_c_enums_8h.html#a282f094fb8ee80177dd57d2086ddd35bac02bba0f3ad69a2fc8ccde1efade56a3">ACHIEVEMENT_TIMED_TYPE_EVENT</a></div><div class="ttdeci">@ ACHIEVEMENT_TIMED_TYPE_EVENT</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:116</div></div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
+<div class="ttc" id="a_spell_defines_8h_html_a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a"><div class="ttname"><a href="../../d2/d6d/_spell_defines_8h.html#a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a">TRIGGERED_FULL_MASK</a></div><div class="ttdeci">@ TRIGGERED_FULL_MASK</div><div class="ttdoc">Will return SPELL_FAILED_DONT_REPORT in CheckCast functions.</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:148</div></div>
+<div class="ttc" id="aboss__algalon__the__observer_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a8d9c7b95bc1ba4938d9fc571eac01ecf"><div class="ttname"><a href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a8d9c7b95bc1ba4938d9fc571eac01ecf">EVENT_ID_SUPERMASSIVE_START</a></div><div class="ttdeci">@ EVENT_ID_SUPERMASSIVE_START</div><div class="ttdef"><b>Definition:</b> boss_algalon_the_observer.cpp:97</div></div>
+<div class="ttc" id="aboss__algalon__the__observer_8cpp_html_a5bd342133be8c2137b831460acc9298ca027b56dadc41bf3f8ee602451853923b"><div class="ttname"><a href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a5bd342133be8c2137b831460acc9298ca027b56dadc41bf3f8ee602451853923b">SPELL_CONSTELLATION_PHASE_EFFECT</a></div><div class="ttdeci">@ SPELL_CONSTELLATION_PHASE_EFFECT</div><div class="ttdef"><b>Definition:</b> boss_algalon_the_observer.cpp:63</div></div>
+<div class="ttc" id="aboss__algalon__the__observer_8cpp_html_a5bd342133be8c2137b831460acc9298ca0fe64d13666bfdb390e113b8de1c261d"><div class="ttname"><a href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a5bd342133be8c2137b831460acc9298ca0fe64d13666bfdb390e113b8de1c261d">SPELL_BLACK_HOLE_CREDIT</a></div><div class="ttdeci">@ SPELL_BLACK_HOLE_CREDIT</div><div class="ttdef"><b>Definition:</b> boss_algalon_the_observer.cpp:67</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_object_html_ab0e2ef1ac1daa91476f749e0ec6ad3c6"><div class="ttname"><a href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">Object::ToCreature</a></div><div class="ttdeci">Creature * ToCreature()</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="aulduar_8h_html_abfe5de1fd9db676abc952fa6839d50b2aeca36864283a83786c6ada407e75ff74"><div class="ttname"><a href="../../d9/df7/ulduar_8h.html#abfe5de1fd9db676abc952fa6839d50b2aeca36864283a83786c6ada407e75ff74">NPC_ALGALON_VOID_ZONE_VISUAL_STALKER</a></div><div class="ttdeci">@ NPC_ALGALON_VOID_ZONE_VISUAL_STALKER</div><div class="ttdef"><b>Definition:</b> ulduar.h:168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad5b23c3db46b455c9321e7fb29b88572" name="ad5b23c3db46b455c9321e7fb29b88572"></a>
@@ -669,7 +754,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1025</span>        {</div>
+<div class="line"><span class="lineno"> 1026</span>            <span class="keywordflow">if</span> (!(<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.GetPhaseMask() &amp; <a class="code hl_enumvalue" href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a65010c7561f9dc2c58066c5933a3f5bdae1b77c81e6d3b4a062c5401abc8debaf">PHASE_MASK_NO_UPDATE</a>) &amp;&amp; !<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno"> 1027</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1028</span> </div>
+<div class="line"><span class="lineno"> 1029</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno"> 1030</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno"> 1031</span>            {</div>
+<div class="line"><span class="lineno"> 1032</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d43/boss__algalon__the__observer_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa98b5046dccbd2cdd90f928575433934">EVENT_ARCANE_BARRAGE</a>:</div>
+<div class="line"><span class="lineno"> 1033</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">CastCustomSpell</a>(<a class="code hl_enumvalue" href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a5bd342133be8c2137b831460acc9298ca3afb459a719cb129b98a146ade206c97">SPELL_ARCANE_BARRAGE</a>, <a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371baac4a68bd47fc6d4dd83453928def284b">SPELLVALUE_MAX_TARGETS</a>, 1, (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>*)<span class="keyword">nullptr</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1034</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(2500);</div>
+<div class="line"><span class="lineno"> 1035</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1036</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d43/boss__algalon__the__observer_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afc06b3346a8fc72ee1f50882061adfe5">EVENT_RESUME_UPDATING</a>:</div>
+<div class="line"><span class="lineno"> 1037</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.SetPhase(0);</div>
+<div class="line"><span class="lineno"> 1038</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1039</span>            }</div>
+<div class="line"><span class="lineno"> 1040</span>        }</div>
+<div class="ttc" id="a_spell_defines_8h_html_a4ad87b8c967acbbcb154a32bc123371baac4a68bd47fc6d4dd83453928def284b"><div class="ttname"><a href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371baac4a68bd47fc6d4dd83453928def284b">SPELLVALUE_MAX_TARGETS</a></div><div class="ttdeci">@ SPELLVALUE_MAX_TARGETS</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:118</div></div>
+<div class="ttc" id="aboss__algalon__the__observer_8cpp_html_a5bd342133be8c2137b831460acc9298ca3afb459a719cb129b98a146ade206c97"><div class="ttname"><a href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a5bd342133be8c2137b831460acc9298ca3afb459a719cb129b98a146ade206c97">SPELL_ARCANE_BARRAGE</a></div><div class="ttdeci">@ SPELL_ARCANE_BARRAGE</div><div class="ttdef"><b>Definition:</b> boss_algalon_the_observer.cpp:53</div></div>
+<div class="ttc" id="aboss__algalon__the__observer_8cpp_html_a65010c7561f9dc2c58066c5933a3f5bdae1b77c81e6d3b4a062c5401abc8debaf"><div class="ttname"><a href="../../d1/d43/boss__algalon__the__observer_8cpp.html#a65010c7561f9dc2c58066c5933a3f5bdae1b77c81e6d3b4a062c5401abc8debaf">PHASE_MASK_NO_UPDATE</a></div><div class="ttdeci">@ PHASE_MASK_NO_UPDATE</div><div class="ttdef"><b>Definition:</b> boss_algalon_the_observer.cpp:161</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_html_a51ec81e114bf82a2485ba9f66200afd2"><div class="ttname"><a href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">Unit::CastCustomSpell</a></div><div class="ttdeci">SpellCastResult CastCustomSpell(Unit *victim, uint32 spellId, int32 const *bp0, int32 const *bp1, int32 const *bp2, bool triggered, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1225</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -702,7 +808,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../d1/d43/boss__algalon__the__observer_8cpp.html">boss_algalon_the_observer.cpp</a></li>
+<li><a class="el" href="../../">boss_algalon_the_observer.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -710,7 +816,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/db1/classnpc__living__constellation.html">npc_living_constellation</a></li><li class="navelem"><a class="el" href="../../d3/d7b/structnpc__living__constellation_1_1npc__living__constellation_a_i.html">npc_living_constellationAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:51 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

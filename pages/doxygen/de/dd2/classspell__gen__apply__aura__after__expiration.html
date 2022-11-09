@@ -320,7 +320,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a391e5089eb034618c5e3edde26685a00" name="a391e5089eb034618c5e3edde26685a00"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a391e5089eb034618c5e3edde26685a00">&#9670;&#160;</a></span>spell_gen_apply_aura_after_expiration()</h2>
 
@@ -360,7 +361,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 4545</span>: <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a5a3da42d2972877b470f6d6b48c6524c">AuraScript</a>(), <a class="code hl_variable" href="../../de/dd2/classspell__gen__apply__aura__after__expiration.html#a330f1311911ba9f3ebd704c7f9a09246">_spellId</a>(spellId), <a class="code hl_variable" href="../../de/dd2/classspell__gen__apply__aura__after__expiration.html#aa276a986ba9b67964ddeec56d6455cf9">_effect</a>(effect), <a class="code hl_variable" href="../../de/dd2/classspell__gen__apply__aura__after__expiration.html#a8a79aef777e1397b031149c54ae9d81d">_aura</a>(aura) { }</div>
+<div class="ttc" id="aclass_aura_script_html_a5a3da42d2972877b470f6d6b48c6524c"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a5a3da42d2972877b470f6d6b48c6524c">AuraScript::AuraScript</a></div><div class="ttdeci">AuraScript()</div><div class="ttdef"><b>Definition:</b> SpellScript.h:678</div></div>
+<div class="ttc" id="aclassspell__gen__apply__aura__after__expiration_html_a330f1311911ba9f3ebd704c7f9a09246"><div class="ttname"><a href="../../de/dd2/classspell__gen__apply__aura__after__expiration.html#a330f1311911ba9f3ebd704c7f9a09246">spell_gen_apply_aura_after_expiration::_spellId</a></div><div class="ttdeci">uint32 _spellId</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:4569</div></div>
+<div class="ttc" id="aclassspell__gen__apply__aura__after__expiration_html_a8a79aef777e1397b031149c54ae9d81d"><div class="ttname"><a href="../../de/dd2/classspell__gen__apply__aura__after__expiration.html#a8a79aef777e1397b031149c54ae9d81d">spell_gen_apply_aura_after_expiration::_aura</a></div><div class="ttdeci">uint32 _aura</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:4571</div></div>
+<div class="ttc" id="aclassspell__gen__apply__aura__after__expiration_html_aa276a986ba9b67964ddeec56d6455cf9"><div class="ttname"><a href="../../de/dd2/classspell__gen__apply__aura__after__expiration.html#aa276a986ba9b67964ddeec56d6455cf9">spell_gen_apply_aura_after_expiration::_effect</a></div><div class="ttdeci">uint32 _effect</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:4570</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -397,7 +403,21 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 4553</span>    {</div>
+<div class="line"><span class="lineno"> 4554</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a29e48f1dc7011926160e2ed80ebf2f8e">GetTargetApplication</a>() &amp;&amp; <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a29e48f1dc7011926160e2ed80ebf2f8e">GetTargetApplication</a>()-&gt;GetRemoveMode() == <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a9a4f502870485ba32e759067c9adca94a9ca05b22853d12d44ac7e80a9e864a10">AURA_REMOVE_BY_EXPIRE</a>)</div>
+<div class="line"><span class="lineno"> 4555</span>        {</div>
+<div class="line"><span class="lineno"> 4556</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>())</div>
+<div class="line"><span class="lineno"> 4557</span>            {</div>
+<div class="line"><span class="lineno"> 4558</span>                caster-&gt;CastSpell(<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>(), <a class="code hl_variable" href="../../de/dd2/classspell__gen__apply__aura__after__expiration.html#a330f1311911ba9f3ebd704c7f9a09246">_spellId</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 4559</span>            }</div>
+<div class="line"><span class="lineno"> 4560</span>        }</div>
+<div class="line"><span class="lineno"> 4561</span>    }</div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a9a4f502870485ba32e759067c9adca94a9ca05b22853d12d44ac7e80a9e864a10"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a9a4f502870485ba32e759067c9adca94a9ca05b22853d12d44ac7e80a9e864a10">AURA_REMOVE_BY_EXPIRE</a></div><div class="ttdeci">@ AURA_REMOVE_BY_EXPIRE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:395</div></div>
+<div class="ttc" id="aclass_aura_script_html_a29e48f1dc7011926160e2ed80ebf2f8e"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a29e48f1dc7011926160e2ed80ebf2f8e">AuraScript::GetTargetApplication</a></div><div class="ttdeci">AuraApplication const * GetTargetApplication() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1184</div></div>
+<div class="ttc" id="aclass_aura_script_html_a67261dcb8b5f6089bdc1a906c91d61df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a67261dcb8b5f6089bdc1a906c91d61df">AuraScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1010</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a494123635eda4c43d92a08c9c8cd5627" name="a494123635eda4c43d92a08c9c8cd5627"></a>
@@ -450,7 +470,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 4564</span>    {</div>
+<div class="line"><span class="lineno"> 4565</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AfterEffectRemove</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a>(<a class="code hl_function" href="../../de/dd2/classspell__gen__apply__aura__after__expiration.html#afea2221ceeebf90cf352084d8aacf7c9">spell_gen_apply_aura_after_expiration::AfterRemove</a>, <a class="code hl_variable" href="../../de/dd2/classspell__gen__apply__aura__after__expiration.html#aa276a986ba9b67964ddeec56d6455cf9">_effect</a>, <a class="code hl_variable" href="../../de/dd2/classspell__gen__apply__aura__after__expiration.html#a8a79aef777e1397b031149c54ae9d81d">_aura</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno"> 4566</span>    }</div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:42</div></div>
+<div class="ttc" id="a_spell_script_8h_html_af8f20adad60abdb901d6e7310afea31b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a></div><div class="ttdeci">#define AuraEffectRemoveFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:744</div></div>
+<div class="ttc" id="aclass_aura_script_html_a2bfb775dfbe8cfc3cff876469c78ddcf"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AuraScript::AfterEffectRemove</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; AfterEffectRemove</div><div class="ttdef"><b>Definition:</b> SpellScript.h:743</div></div>
+<div class="ttc" id="aclassspell__gen__apply__aura__after__expiration_html_afea2221ceeebf90cf352084d8aacf7c9"><div class="ttname"><a href="../../de/dd2/classspell__gen__apply__aura__after__expiration.html#afea2221ceeebf90cf352084d8aacf7c9">spell_gen_apply_aura_after_expiration::AfterRemove</a></div><div class="ttdeci">void AfterRemove(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:4552</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad405128104d8a6528e8db96281ad0f0b" name="ad405128104d8a6528e8db96281ad0f0b"></a>
@@ -478,7 +505,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 4548</span>    {</div>
+<div class="line"><span class="lineno"> 4549</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>({ <a class="code hl_variable" href="../../de/dd2/classspell__gen__apply__aura__after__expiration.html#a330f1311911ba9f3ebd704c7f9a09246">_spellId</a> });</div>
+<div class="line"><span class="lineno"> 4550</span>    }</div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -549,7 +580,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../d1/de4/spell__generic_8cpp.html">spell_generic.cpp</a></li>
+<li><a class="el" href="../../">spell_generic.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -557,7 +588,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/dd2/classspell__gen__apply__aura__after__expiration.html">spell_gen_apply_aura_after_expiration</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

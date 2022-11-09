@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d1/d28/class_hostile_reference.html','
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d8/d5e/_threat_mgr_8h_source.html">ThreatMgr.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">ThreatMgr.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for HostileReference:</div>
 <div class="dyncontent">
@@ -272,7 +272,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a62d3b40e39167ed69ba52c102d6d0e1c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd2/class_reference.html#a62d3b40e39167ed69ba52c102d6d0e1c">sourceObjectDestroyLink</a> ()=0</td></tr>
 <tr class="separator:a62d3b40e39167ed69ba52c102d6d0e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aabdc142e65df7b7dac22a0ac7afb62db" name="aabdc142e65df7b7dac22a0ac7afb62db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aabdc142e65df7b7dac22a0ac7afb62db">&#9670;&#160;</a></span>HostileReference()</h2>
 
@@ -304,7 +305,20 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   95</span>{</div>
+<div class="line"><span class="lineno">   96</span>    <a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#a4ae557ae375d4e1fc0f28e069e8d3d39">iThreat</a> = threat;</div>
+<div class="line"><span class="lineno">   97</span>    <a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#af17353f550624cd5fbc311ea0e5d36d8">iTempThreatModifier</a> = 0.0f;</div>
+<div class="line"><span class="lineno">   98</span>    <a class="code hl_function" href="../../de/dd2/class_reference.html#a6c7a8395a8f77e33772959f068296aaf">link</a>(refUnit, threatMgr);</div>
+<div class="line"><span class="lineno">   99</span>    <a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#a399aec688493314ced2ac811a71ab038">iUnitGuid</a> = refUnit-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  100</span>    <a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#a2c8e51b8367285f9275e726264cfe602">iOnline</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  101</span>}</div>
+<div class="ttc" id="aclass_hostile_reference_html_a2c8e51b8367285f9275e726264cfe602"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html#a2c8e51b8367285f9275e726264cfe602">HostileReference::iOnline</a></div><div class="ttdeci">bool iOnline</div><div class="ttdef"><b>Definition:</b> ThreatMgr.h:137</div></div>
+<div class="ttc" id="aclass_hostile_reference_html_a399aec688493314ced2ac811a71ab038"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html#a399aec688493314ced2ac811a71ab038">HostileReference::iUnitGuid</a></div><div class="ttdeci">ObjectGuid iUnitGuid</div><div class="ttdef"><b>Definition:</b> ThreatMgr.h:136</div></div>
+<div class="ttc" id="aclass_hostile_reference_html_a4ae557ae375d4e1fc0f28e069e8d3d39"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html#a4ae557ae375d4e1fc0f28e069e8d3d39">HostileReference::iThreat</a></div><div class="ttdeci">float iThreat</div><div class="ttdef"><b>Definition:</b> ThreatMgr.h:134</div></div>
+<div class="ttc" id="aclass_hostile_reference_html_af17353f550624cd5fbc311ea0e5d36d8"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html#af17353f550624cd5fbc311ea0e5d36d8">HostileReference::iTempThreatModifier</a></div><div class="ttdeci">float iTempThreatModifier</div><div class="ttdef"><b>Definition:</b> ThreatMgr.h:135</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_reference_html_a6c7a8395a8f77e33772959f068296aaf"><div class="ttname"><a href="../../de/dd2/class_reference.html#a6c7a8395a8f77e33772959f068296aaf">Reference&lt; Unit, ThreatMgr &gt;::link</a></div><div class="ttdeci">void link(Unit *toObj, ThreatMgr *fromObj)</div><div class="ttdef"><b>Definition:</b> Reference.h:45</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -331,7 +345,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   79</span>    {</div>
+<div class="line"><span class="lineno">   80</span>        <a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#af17353f550624cd5fbc311ea0e5d36d8">iTempThreatModifier</a> = threat;</div>
+<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#af17353f550624cd5fbc311ea0e5d36d8">iTempThreatModifier</a> != 0.0f)</div>
+<div class="line"><span class="lineno">   82</span>            <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#a44c51d6c6437b2e9e22946903b13d0db">AddThreat</a>(<a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#af17353f550624cd5fbc311ea0e5d36d8">iTempThreatModifier</a>);</div>
+<div class="line"><span class="lineno">   83</span>    }</div>
+<div class="ttc" id="aclass_hostile_reference_html_a44c51d6c6437b2e9e22946903b13d0db"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html#a44c51d6c6437b2e9e22946903b13d0db">HostileReference::AddThreat</a></div><div class="ttdeci">void AddThreat(float modThreat)</div><div class="ttdef"><b>Definition:</b> ThreatMgr.cpp:139</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a44c51d6c6437b2e9e22946903b13d0db" name="a44c51d6c6437b2e9e22946903b13d0db"></a>
@@ -349,7 +369,46 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  140</span>{</div>
+<div class="line"><span class="lineno">  141</span>    <a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#a4ae557ae375d4e1fc0f28e069e8d3d39">iThreat</a> += modThreat;</div>
+<div class="line"><span class="lineno">  142</span>    <span class="comment">// the threat is changed. Source and target unit have to be available</span></div>
+<div class="line"><span class="lineno">  143</span>    <span class="comment">// if the link was cut before relink it again</span></div>
+<div class="line"><span class="lineno">  144</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#a51a1be9b25fd9da60c858c00f699fe3a">IsOnline</a>())</div>
+<div class="line"><span class="lineno">  145</span>        <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#a0046c9cb12992bbd97ef2780ce9810e5">updateOnlineStatus</a>();</div>
+<div class="line"><span class="lineno">  146</span>    <span class="keywordflow">if</span> (modThreat != 0.0f)</div>
+<div class="line"><span class="lineno">  147</span>    {</div>
+<div class="line"><span class="lineno">  148</span>        <a class="code hl_class" href="../../d3/dcd/class_threat_ref_status_change_event.html">ThreatRefStatusChangeEvent</a> event(<a class="code hl_enumvalue" href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0">UEV_THREAT_REF_THREAT_CHANGE</a>, <span class="keyword">this</span>, modThreat);</div>
+<div class="line"><span class="lineno">  149</span>        <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#ad9947afb3eae22c652d5b8f6f3628eed">fireStatusChanged</a>(event);</div>
+<div class="line"><span class="lineno">  150</span>    }</div>
+<div class="line"><span class="lineno">  151</span> </div>
+<div class="line"><span class="lineno">  152</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/dd2/class_reference.html#a7442537bff6150984bac268a456c642d">isValid</a>() &amp;&amp; modThreat &gt;= 0.0f)</div>
+<div class="line"><span class="lineno">  153</span>    {</div>
+<div class="line"><span class="lineno">  154</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../de/dd2/class_reference.html#a0c80169399d27b402ff3ad97305cd337">getTarget</a>();</div>
+<div class="line"><span class="lineno">  155</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() != <a class="code hl_enumvalue" href="../../d7/d23/_pet_defines_8h.html#a639089e6e6026ab7c06fbbe23f857444a978a28a5849352abc318d322b55cc27e">NPC_EYE_OF_KILROGG</a>) <span class="comment">// Excluded Eye of Kilrogg</span></div>
+<div class="line"><span class="lineno">  156</span>        {</div>
+<div class="line"><span class="lineno">  157</span>            <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* victimOwner = target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a7cdd398abd6ac328deb42529195e6add">GetCharmerOrOwner</a>();</div>
+<div class="line"><span class="lineno">  158</span>            <span class="keywordflow">if</span> (victimOwner &amp;&amp; victimOwner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">  159</span>            {</div>
+<div class="line"><span class="lineno">  160</span>                <a class="code hl_function" href="../../de/dd2/class_reference.html#a95ef762721fcc58e9655c57fab05899b">GetSource</a>()-&gt;<a class="code hl_function" href="../../d0/db1/class_threat_mgr.html#ad43b1f88531b816cf107a2197e94027b">AddThreat</a>(victimOwner, 0.0f); <span class="comment">// create a threat to the owner of a pet, if the pet attacks</span></div>
+<div class="line"><span class="lineno">  161</span>            }</div>
+<div class="line"><span class="lineno">  162</span>        }</div>
+<div class="line"><span class="lineno">  163</span>    }</div>
+<div class="line"><span class="lineno">  164</span>}</div>
+<div class="ttc" id="a_pet_defines_8h_html_a639089e6e6026ab7c06fbbe23f857444a978a28a5849352abc318d322b55cc27e"><div class="ttname"><a href="../../d7/d23/_pet_defines_8h.html#a639089e6e6026ab7c06fbbe23f857444a978a28a5849352abc318d322b55cc27e">NPC_EYE_OF_KILROGG</a></div><div class="ttdeci">@ NPC_EYE_OF_KILROGG</div><div class="ttdef"><b>Definition:</b> PetDefines.h:101</div></div>
+<div class="ttc" id="a_unit_events_8h_html_a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0"><div class="ttname"><a href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0">UEV_THREAT_REF_THREAT_CHANGE</a></div><div class="ttdeci">@ UEV_THREAT_REF_THREAT_CHANGE</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:36</div></div>
+<div class="ttc" id="aclass_hostile_reference_html_a0046c9cb12992bbd97ef2780ce9810e5"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html#a0046c9cb12992bbd97ef2780ce9810e5">HostileReference::updateOnlineStatus</a></div><div class="ttdeci">void updateOnlineStatus()</div><div class="ttdef"><b>Definition:</b> ThreatMgr.cpp:181</div></div>
+<div class="ttc" id="aclass_hostile_reference_html_a51a1be9b25fd9da60c858c00f699fe3a"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html#a51a1be9b25fd9da60c858c00f699fe3a">HostileReference::IsOnline</a></div><div class="ttdeci">bool IsOnline() const</div><div class="ttdef"><b>Definition:</b> ThreatMgr.h:67</div></div>
+<div class="ttc" id="aclass_hostile_reference_html_ad9947afb3eae22c652d5b8f6f3628eed"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html#ad9947afb3eae22c652d5b8f6f3628eed">HostileReference::fireStatusChanged</a></div><div class="ttdeci">void fireStatusChanged(ThreatRefStatusChangeEvent &amp;threatRefStatusChangeEvent)</div><div class="ttdef"><b>Definition:</b> ThreatMgr.cpp:128</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_reference_html_a0c80169399d27b402ff3ad97305cd337"><div class="ttname"><a href="../../de/dd2/class_reference.html#a0c80169399d27b402ff3ad97305cd337">Reference&lt; Unit, ThreatMgr &gt;::getTarget</a></div><div class="ttdeci">Unit * getTarget() const</div><div class="ttdef"><b>Definition:</b> Reference.h:95</div></div>
+<div class="ttc" id="aclass_reference_html_a7442537bff6150984bac268a456c642d"><div class="ttname"><a href="../../de/dd2/class_reference.html#a7442537bff6150984bac268a456c642d">Reference&lt; Unit, ThreatMgr &gt;::isValid</a></div><div class="ttdeci">bool isValid() const</div><div class="ttdef"><b>Definition:</b> Reference.h:79</div></div>
+<div class="ttc" id="aclass_reference_html_a95ef762721fcc58e9655c57fab05899b"><div class="ttname"><a href="../../de/dd2/class_reference.html#a95ef762721fcc58e9655c57fab05899b">Reference&lt; Unit, ThreatMgr &gt;::GetSource</a></div><div class="ttdeci">ThreatMgr * GetSource() const</div><div class="ttdef"><b>Definition:</b> Reference.h:97</div></div>
+<div class="ttc" id="aclass_threat_mgr_html_ad43b1f88531b816cf107a2197e94027b"><div class="ttname"><a href="../../d0/db1/class_threat_mgr.html#ad43b1f88531b816cf107a2197e94027b">ThreatMgr::AddThreat</a></div><div class="ttdeci">void AddThreat(Unit *victim, float threat, SpellSchoolMask schoolMask=SPELL_SCHOOL_MASK_NORMAL, SpellInfo const *threatSpell=nullptr)</div><div class="ttdef"><b>Definition:</b> ThreatMgr.cpp:437</div></div>
+<div class="ttc" id="aclass_threat_ref_status_change_event_html"><div class="ttname"><a href="../../d3/dcd/class_threat_ref_status_change_event.html">ThreatRefStatusChangeEvent</a></div><div class="ttdef"><b>Definition:</b> UnitEvents.h:84</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aclass_unit_html_a7cdd398abd6ac328deb42529195e6add"><div class="ttname"><a href="../../da/db7/class_unit.html#a7cdd398abd6ac328deb42529195e6add">Unit::GetCharmerOrOwner</a></div><div class="ttdeci">Unit * GetCharmerOrOwner() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1844</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aeaee3bd08e233b495b389d4101679a3c" name="aeaee3bd08e233b495b389d4101679a3c"></a>
@@ -367,7 +426,18 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  167</span>{</div>
+<div class="line"><span class="lineno">  168</span>    <span class="comment">// Xinef: Do not allow to modify threat by percent if threat is negative (forced to big value &lt; 0 by spells adding temporary threat)</span></div>
+<div class="line"><span class="lineno">  169</span>    <span class="comment">// Xinef: When the temporary effect ends, temporary threat is added back which results in huge additional amount of threat</span></div>
+<div class="line"><span class="lineno">  170</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#a4ae557ae375d4e1fc0f28e069e8d3d39">iThreat</a> &lt;= 0)</div>
+<div class="line"><span class="lineno">  171</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  172</span> </div>
+<div class="line"><span class="lineno">  173</span>    <span class="keywordtype">float</span> tmpThreat = <a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#a4ae557ae375d4e1fc0f28e069e8d3d39">iThreat</a>;</div>
+<div class="line"><span class="lineno">  174</span>    <a class="code hl_function" href="../../dd/d90/_util_8h.html#a53176b459b4462b058b2a1be47ef82ee">AddPct</a>(tmpThreat, percent);</div>
+<div class="line"><span class="lineno">  175</span>    <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#a44c51d6c6437b2e9e22946903b13d0db">AddThreat</a>(tmpThreat - <a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#a4ae557ae375d4e1fc0f28e069e8d3d39">iThreat</a>);</div>
+<div class="line"><span class="lineno">  176</span>}</div>
+<div class="ttc" id="a_util_8h_html_a53176b459b4462b058b2a1be47ef82ee"><div class="ttname"><a href="../../dd/d90/_util_8h.html#a53176b459b4462b058b2a1be47ef82ee">AddPct</a></div><div class="ttdeci">T AddPct(T &amp;base, U pct)</div><div class="ttdef"><b>Definition:</b> Util.h:67</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aec523254652b3f12e5aa4706a746a526" name="aec523254652b3f12e5aa4706a746a526"></a>
@@ -392,7 +462,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   65</span>{ <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#aa30a4bca79e58f1bf6f9c64f5092dc89">removeReference</a>(); }</div>
+<div class="ttc" id="aclass_hostile_reference_html_aa30a4bca79e58f1bf6f9c64f5092dc89"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html#aa30a4bca79e58f1bf6f9c64f5092dc89">HostileReference::removeReference</a></div><div class="ttdeci">void removeReference()</div><div class="ttdef"><b>Definition:</b> ThreatMgr.cpp:230</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad9947afb3eae22c652d5b8f6f3628eed" name="ad9947afb3eae22c652d5b8f6f3628eed"></a>
@@ -418,7 +490,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  129</span>{</div>
+<div class="line"><span class="lineno">  130</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/dd2/class_reference.html#a95ef762721fcc58e9655c57fab05899b">GetSource</a>())</div>
+<div class="line"><span class="lineno">  131</span>        <a class="code hl_function" href="../../de/dd2/class_reference.html#a95ef762721fcc58e9655c57fab05899b">GetSource</a>()-&gt;<a class="code hl_function" href="../../d0/db1/class_threat_mgr.html#a1aaab217053df0fc670b3f2a86d87589">processThreatEvent</a>(&amp;threatRefStatusChangeEvent);</div>
+<div class="line"><span class="lineno">  132</span>}</div>
+<div class="ttc" id="aclass_threat_mgr_html_a1aaab217053df0fc670b3f2a86d87589"><div class="ttname"><a href="../../d0/db1/class_threat_mgr.html#a1aaab217053df0fc670b3f2a86d87589">ThreatMgr::processThreatEvent</a></div><div class="ttdeci">void processThreatEvent(ThreatRefStatusChangeEvent *threatRefStatusChangeEvent)</div><div class="ttdef"><b>Definition:</b> ThreatMgr.cpp:570</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac1c98539d86ab21972a695253bdc7673" name="ac1c98539d86ab21972a695253bdc7673"></a>
@@ -435,7 +512,9 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  135</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/dd2/class_reference.html#a95ef762721fcc58e9655c57fab05899b">GetSource</a>()-&gt;<a class="code hl_function" href="../../d0/db1/class_threat_mgr.html#ad47f16a4a55c0a00b668e2bbdc789377">GetOwner</a>(); }</div>
+<div class="ttc" id="aclass_threat_mgr_html_ad47f16a4a55c0a00b668e2bbdc789377"><div class="ttname"><a href="../../d0/db1/class_threat_mgr.html#ad47f16a4a55c0a00b668e2bbdc789377">ThreatMgr::GetOwner</a></div><div class="ttdeci">Unit * GetOwner() const</div><div class="ttdef"><b>Definition:</b> ThreatMgr.h:234</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abc68accd906c8134040408ef69699ecb" name="abc68accd906c8134040408ef69699ecb"></a>
@@ -460,7 +539,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  241</span>{</div>
+<div class="line"><span class="lineno">  242</span>    <span class="keywordflow">return</span> (<a class="code hl_function" href="../../de/dd2/class_reference.html#a95ef762721fcc58e9655c57fab05899b">GetSource</a>()-&gt;<a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#ac1c98539d86ab21972a695253bdc7673">GetOwner</a>());</div>
+<div class="line"><span class="lineno">  243</span>}</div>
+<div class="ttc" id="aclass_hostile_reference_html_ac1c98539d86ab21972a695253bdc7673"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html#ac1c98539d86ab21972a695253bdc7673">HostileReference::GetOwner</a></div><div class="ttdeci">Unit * GetOwner() const</div><div class="ttdef"><b>Definition:</b> ThreatMgr.cpp:135</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a672b7160f3bf4c0475d0232025b89e81" name="a672b7160f3bf4c0475d0232025b89e81"></a>
@@ -485,7 +568,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   94</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#af17353f550624cd5fbc311ea0e5d36d8">iTempThreatModifier</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a01a3eea64dc3132bc463a0f701800d76" name="a01a3eea64dc3132bc463a0f701800d76"></a>
@@ -510,7 +594,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   63</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#a4ae557ae375d4e1fc0f28e069e8d3d39">iThreat</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0588a24578dfe8351b8c3bd62a0c1324" name="a0588a24578dfe8351b8c3bd62a0c1324"></a>
@@ -535,7 +620,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  107</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#a399aec688493314ced2ac811a71ab038">iUnitGuid</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a79aec3b766c11fe8a4500ff672f878d7" name="a79aec3b766c11fe8a4500ff672f878d7"></a>
@@ -560,7 +646,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   54</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/dd2/class_reference.html#a0c80169399d27b402ff3ad97305cd337">getTarget</a>(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a85a99a8a7aae980d89a7d4a690cd3886" name="a85a99a8a7aae980d89a7d4a690cd3886"></a>
@@ -585,7 +672,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   68</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#a2c8e51b8367285f9275e726264cfe602">iOnline</a>; } <span class="comment">// unused for now</span></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3fa8244177f8d18d24fb87c1d53f9018" name="a3fa8244177f8d18d24fb87c1d53f9018"></a>
@@ -610,7 +698,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   69</span>{ <span class="keywordflow">return</span> !<a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#a2c8e51b8367285f9275e726264cfe602">iOnline</a>; } <span class="comment">// unused for now</span></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a51a1be9b25fd9da60c858c00f699fe3a" name="a51a1be9b25fd9da60c858c00f699fe3a"></a>
@@ -635,7 +724,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   67</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#a2c8e51b8367285f9275e726264cfe602">iOnline</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a948e59c8e80f03305ea6272e5e2eaf61" name="a948e59c8e80f03305ea6272e5e2eaf61"></a>
@@ -660,7 +750,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  116</span>{ <span class="keywordflow">return</span> ((<a class="code hl_class" href="../../d1/d28/class_hostile_reference.html">HostileReference</a>*) <a class="code hl_class" href="../../de/dd2/class_reference.html">Reference&lt;Unit, ThreatMgr&gt;::next</a>()); }</div>
+<div class="ttc" id="aclass_hostile_reference_html"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html">HostileReference</a></div><div class="ttdef"><b>Definition:</b> ThreatMgr.h:49</div></div>
+<div class="ttc" id="aclass_reference_html"><div class="ttname"><a href="../../de/dd2/class_reference.html">Reference</a></div><div class="ttdef"><b>Definition:</b> Reference.h:27</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6e6454f5c232f7d9c4609c35e9a6efef" name="a6e6454f5c232f7d9c4609c35e9a6efef"></a>
@@ -686,7 +779,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  103</span>{ <span class="keywordflow">return</span> hostileRef.<a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#a0588a24578dfe8351b8c3bd62a0c1324">getUnitGuid</a>() == <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#a0588a24578dfe8351b8c3bd62a0c1324">getUnitGuid</a>(); }</div>
+<div class="ttc" id="aclass_hostile_reference_html_a0588a24578dfe8351b8c3bd62a0c1324"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html#a0588a24578dfe8351b8c3bd62a0c1324">HostileReference::getUnitGuid</a></div><div class="ttdeci">ObjectGuid getUnitGuid() const</div><div class="ttdef"><b>Definition:</b> ThreatMgr.h:107</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa30a4bca79e58f1bf6f9c64f5092dc89" name="aa30a4bca79e58f1bf6f9c64f5092dc89"></a>
@@ -703,7 +798,15 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  231</span>{</div>
+<div class="line"><span class="lineno">  232</span>    <a class="code hl_function" href="../../de/dd2/class_reference.html#ad0fd9597c01faa17a3065cad736a9fdb">invalidate</a>();</div>
+<div class="line"><span class="lineno">  233</span> </div>
+<div class="line"><span class="lineno">  234</span>    <a class="code hl_class" href="../../d3/dcd/class_threat_ref_status_change_event.html">ThreatRefStatusChangeEvent</a> event(<a class="code hl_enumvalue" href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0">UEV_THREAT_REF_REMOVE_FROM_LIST</a>, <span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  235</span>    <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#ad9947afb3eae22c652d5b8f6f3628eed">fireStatusChanged</a>(event);</div>
+<div class="line"><span class="lineno">  236</span>}</div>
+<div class="ttc" id="a_unit_events_8h_html_a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0"><div class="ttname"><a href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0">UEV_THREAT_REF_REMOVE_FROM_LIST</a></div><div class="ttdeci">@ UEV_THREAT_REF_REMOVE_FROM_LIST</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:39</div></div>
+<div class="ttc" id="aclass_reference_html_ad0fd9597c01faa17a3065cad736a9fdb"><div class="ttname"><a href="../../de/dd2/class_reference.html#ad0fd9597c01faa17a3065cad736a9fdb">Reference&lt; Unit, ThreatMgr &gt;::invalidate</a></div><div class="ttdeci">void invalidate()</div><div class="ttdef"><b>Definition:</b> Reference.h:72</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af52027732c37abc084c7ae1b7c7ce162" name="af52027732c37abc084c7ae1b7c7ce162"></a>
@@ -728,7 +831,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   86</span>    {</div>
+<div class="line"><span class="lineno">   87</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#af17353f550624cd5fbc311ea0e5d36d8">iTempThreatModifier</a> != 0.0f)</div>
+<div class="line"><span class="lineno">   88</span>        {</div>
+<div class="line"><span class="lineno">   89</span>            <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#a44c51d6c6437b2e9e22946903b13d0db">AddThreat</a>(-<a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#af17353f550624cd5fbc311ea0e5d36d8">iTempThreatModifier</a>);</div>
+<div class="line"><span class="lineno">   90</span>            <a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#af17353f550624cd5fbc311ea0e5d36d8">iTempThreatModifier</a> = 0.0f;</div>
+<div class="line"><span class="lineno">   91</span>        }</div>
+<div class="line"><span class="lineno">   92</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a546a126cb2a9d9d27ed61b15c24d4417" name="a546a126cb2a9d9d27ed61b15c24d4417"></a>
@@ -746,7 +856,17 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  216</span>{</div>
+<div class="line"><span class="lineno">  217</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#a2c8e51b8367285f9275e726264cfe602">iOnline</a> != isOnline)</div>
+<div class="line"><span class="lineno">  218</span>    {</div>
+<div class="line"><span class="lineno">  219</span>        <a class="code hl_variable" href="../../d1/d28/class_hostile_reference.html#a2c8e51b8367285f9275e726264cfe602">iOnline</a> = isOnline;</div>
+<div class="line"><span class="lineno">  220</span> </div>
+<div class="line"><span class="lineno">  221</span>        <a class="code hl_class" href="../../d3/dcd/class_threat_ref_status_change_event.html">ThreatRefStatusChangeEvent</a> event(<a class="code hl_enumvalue" href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9">UEV_THREAT_REF_ONLINE_STATUS</a>, <span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  222</span>        <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#ad9947afb3eae22c652d5b8f6f3628eed">fireStatusChanged</a>(event);</div>
+<div class="line"><span class="lineno">  223</span>    }</div>
+<div class="line"><span class="lineno">  224</span>}</div>
+<div class="ttc" id="a_unit_events_8h_html_a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9"><div class="ttname"><a href="../../d7/d87/_unit_events_8h.html#a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9">UEV_THREAT_REF_ONLINE_STATUS</a></div><div class="ttdeci">@ UEV_THREAT_REF_ONLINE_STATUS</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:33</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab559a9c9994a6ca830a0a76f5a6507e6" name="ab559a9c9994a6ca830a0a76f5a6507e6"></a>
@@ -772,7 +892,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   74</span>    {</div>
+<div class="line"><span class="lineno">   75</span>        <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#a903ebdbbba9a065b38b264ef3c3ac2e9">addTempThreat</a>(threat - <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#a01a3eea64dc3132bc463a0f701800d76">GetThreat</a>());</div>
+<div class="line"><span class="lineno">   76</span>    }</div>
+<div class="ttc" id="aclass_hostile_reference_html_a01a3eea64dc3132bc463a0f701800d76"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html#a01a3eea64dc3132bc463a0f701800d76">HostileReference::GetThreat</a></div><div class="ttdeci">float GetThreat() const</div><div class="ttdef"><b>Definition:</b> ThreatMgr.h:63</div></div>
+<div class="ttc" id="aclass_hostile_reference_html_a903ebdbbba9a065b38b264ef3c3ac2e9"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html#a903ebdbbba9a065b38b264ef3c3ac2e9">HostileReference::addTempThreat</a></div><div class="ttdeci">void addTempThreat(float threat)</div><div class="ttdef"><b>Definition:</b> ThreatMgr.h:78</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7ff8cff7c3590d915244eee918c4fda4" name="a7ff8cff7c3590d915244eee918c4fda4"></a>
@@ -798,7 +923,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   59</span>{ <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#a44c51d6c6437b2e9e22946903b13d0db">AddThreat</a>(threat - <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#a01a3eea64dc3132bc463a0f701800d76">GetThreat</a>()); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8c708097d72791957ffc93f4d0fcb742" name="a8c708097d72791957ffc93f4d0fcb742"></a>
@@ -825,7 +951,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../de/dd2/class_reference.html#a62d3b40e39167ed69ba52c102d6d0e1c">Reference&lt; Unit, ThreatMgr &gt;</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  121</span>{</div>
+<div class="line"><span class="lineno">  122</span>    <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#a546a126cb2a9d9d27ed61b15c24d4417">setOnlineOfflineState</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  123</span>}</div>
+<div class="ttc" id="aclass_hostile_reference_html_a546a126cb2a9d9d27ed61b15c24d4417"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html#a546a126cb2a9d9d27ed61b15c24d4417">HostileReference::setOnlineOfflineState</a></div><div class="ttdeci">void setOnlineOfflineState(bool isOnline)</div><div class="ttdef"><b>Definition:</b> ThreatMgr.cpp:215</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6a14c74aa1fa05efdc330a7570c99910" name="a6a14c74aa1fa05efdc330a7570c99910"></a>
@@ -852,7 +982,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../de/dd2/class_reference.html#ab736ba370b22c03d17452681dd29c272">Reference&lt; Unit, ThreatMgr &gt;</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  106</span>{</div>
+<div class="line"><span class="lineno">  107</span>    <a class="code hl_function" href="../../de/dd2/class_reference.html#a0c80169399d27b402ff3ad97305cd337">getTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ac2e4593b212be38ee09bfadf53d279d8">addHatedBy</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  108</span>}</div>
+<div class="ttc" id="aclass_unit_html_ac2e4593b212be38ee09bfadf53d279d8"><div class="ttname"><a href="../../da/db7/class_unit.html#ac2e4593b212be38ee09bfadf53d279d8">Unit::addHatedBy</a></div><div class="ttdeci">void addHatedBy(HostileReference *pHostileReference)</div><div class="ttdef"><b>Definition:</b> Unit.h:2144</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2fbcd4b88a86e22e3cf805cf199b1fd7" name="a2fbcd4b88a86e22e3cf805cf199b1fd7"></a>
@@ -879,7 +1013,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../de/dd2/class_reference.html#a52a3c2641e37ee5b214f3a453996af13">Reference&lt; Unit, ThreatMgr &gt;</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  113</span>{</div>
+<div class="line"><span class="lineno">  114</span>    <a class="code hl_function" href="../../de/dd2/class_reference.html#a0c80169399d27b402ff3ad97305cd337">getTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9f0e4f949817aa3d42edfd8fd28981f6">removeHatedBy</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  115</span>}</div>
+<div class="ttc" id="aclass_unit_html_a9f0e4f949817aa3d42edfd8fd28981f6"><div class="ttname"><a href="../../da/db7/class_unit.html#a9f0e4f949817aa3d42edfd8fd28981f6">Unit::removeHatedBy</a></div><div class="ttdeci">void removeHatedBy(HostileReference *)</div><div class="ttdef"><b>Definition:</b> Unit.h:2145</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0046c9cb12992bbd97ef2780ce9810e5" name="a0046c9cb12992bbd97ef2780ce9810e5"></a>
@@ -896,7 +1034,44 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  182</span>{</div>
+<div class="line"><span class="lineno">  183</span>    <span class="keywordtype">bool</span> online = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  184</span> </div>
+<div class="line"><span class="lineno">  185</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../de/dd2/class_reference.html#a7442537bff6150984bac268a456c642d">isValid</a>())</div>
+<div class="line"><span class="lineno">  186</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#abc68accd906c8134040408ef69699ecb">GetSourceUnit</a>(), <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#a0588a24578dfe8351b8c3bd62a0c1324">getUnitGuid</a>()))</div>
+<div class="line"><span class="lineno">  187</span>            <a class="code hl_function" href="../../de/dd2/class_reference.html#a6c7a8395a8f77e33772959f068296aaf">link</a>(target, <a class="code hl_function" href="../../de/dd2/class_reference.html#a95ef762721fcc58e9655c57fab05899b">GetSource</a>());</div>
+<div class="line"><span class="lineno">  188</span> </div>
+<div class="line"><span class="lineno">  189</span>    <span class="comment">// only check for online status if</span></div>
+<div class="line"><span class="lineno">  190</span>    <span class="comment">// ref is valid</span></div>
+<div class="line"><span class="lineno">  191</span>    <span class="comment">// target is no player or not gamemaster</span></div>
+<div class="line"><span class="lineno">  192</span>    <span class="comment">// target is not in flight</span></div>
+<div class="line"><span class="lineno">  193</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/dd2/class_reference.html#a7442537bff6150984bac268a456c642d">isValid</a>()</div>
+<div class="line"><span class="lineno">  194</span>            &amp;&amp; (<a class="code hl_function" href="../../de/dd2/class_reference.html#a0c80169399d27b402ff3ad97305cd337">getTarget</a>()-&gt;GetTypeId() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a> || !<a class="code hl_function" href="../../de/dd2/class_reference.html#a0c80169399d27b402ff3ad97305cd337">getTarget</a>()-&gt;ToPlayer()-&gt;IsGameMaster())</div>
+<div class="line"><span class="lineno">  195</span>            &amp;&amp; !<a class="code hl_function" href="../../de/dd2/class_reference.html#a0c80169399d27b402ff3ad97305cd337">getTarget</a>()-&gt;IsInFlight()</div>
+<div class="line"><span class="lineno">  196</span>            &amp;&amp; <a class="code hl_function" href="../../de/dd2/class_reference.html#a0c80169399d27b402ff3ad97305cd337">getTarget</a>()-&gt;IsInMap(<a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#abc68accd906c8134040408ef69699ecb">GetSourceUnit</a>())</div>
+<div class="line"><span class="lineno">  197</span>            &amp;&amp; <a class="code hl_function" href="../../de/dd2/class_reference.html#a0c80169399d27b402ff3ad97305cd337">getTarget</a>()-&gt;InSamePhase(<a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#abc68accd906c8134040408ef69699ecb">GetSourceUnit</a>())</div>
+<div class="line"><span class="lineno">  198</span>       )</div>
+<div class="line"><span class="lineno">  199</span>    {</div>
+<div class="line"><span class="lineno">  200</span>        <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* creature = <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#abc68accd906c8134040408ef69699ecb">GetSourceUnit</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>();</div>
+<div class="line"><span class="lineno">  201</span>        online = <a class="code hl_function" href="../../de/dd2/class_reference.html#a0c80169399d27b402ff3ad97305cd337">getTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a78937fd5a75e3a800d44dcaf919a92a9">isInAccessiblePlaceFor</a>(creature);</div>
+<div class="line"><span class="lineno">  202</span>        <span class="keywordflow">if</span> (!online)</div>
+<div class="line"><span class="lineno">  203</span>        {</div>
+<div class="line"><span class="lineno">  204</span>            <span class="keywordflow">if</span> (creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2b32551adec993309c35e8e88e35b4be">IsWithinCombatRange</a>(<a class="code hl_function" href="../../de/dd2/class_reference.html#a0c80169399d27b402ff3ad97305cd337">getTarget</a>(), creature-&gt;<a class="code hl_variable" href="../../d1/dac/class_creature.html#a868b09fcb142556e68af4a335930dadc">m_CombatDistance</a>))</div>
+<div class="line"><span class="lineno">  205</span>                online = <span class="keyword">true</span>;                              <span class="comment">// not accessible but stays online</span></div>
+<div class="line"><span class="lineno">  206</span>        }</div>
+<div class="line"><span class="lineno">  207</span>    }</div>
+<div class="line"><span class="lineno">  208</span> </div>
+<div class="line"><span class="lineno">  209</span>    <a class="code hl_function" href="../../d1/d28/class_hostile_reference.html#a546a126cb2a9d9d27ed61b15c24d4417">setOnlineOfflineState</a>(online);</div>
+<div class="line"><span class="lineno">  210</span>}</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_a868b09fcb142556e68af4a335930dadc"><div class="ttname"><a href="../../d1/dac/class_creature.html#a868b09fcb142556e68af4a335930dadc">Creature::m_CombatDistance</a></div><div class="ttdeci">float m_CombatDistance</div><div class="ttdef"><b>Definition:</b> Creature.h:355</div></div>
+<div class="ttc" id="aclass_hostile_reference_html_abc68accd906c8134040408ef69699ecb"><div class="ttname"><a href="../../d1/d28/class_hostile_reference.html#abc68accd906c8134040408ef69699ecb">HostileReference::GetSourceUnit</a></div><div class="ttdeci">Unit * GetSourceUnit()</div><div class="ttdef"><b>Definition:</b> ThreatMgr.cpp:240</div></div>
+<div class="ttc" id="aclass_object_html_ab0e2ef1ac1daa91476f749e0ec6ad3c6"><div class="ttname"><a href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">Object::ToCreature</a></div><div class="ttdeci">Creature * ToCreature()</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
+<div class="ttc" id="aclass_unit_html_a2b32551adec993309c35e8e88e35b4be"><div class="ttname"><a href="../../da/db7/class_unit.html#a2b32551adec993309c35e8e88e35b4be">Unit::IsWithinCombatRange</a></div><div class="ttdeci">bool IsWithinCombatRange(Unit const *obj, float dist2compare) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:666</div></div>
+<div class="ttc" id="aclass_unit_html_a78937fd5a75e3a800d44dcaf919a92a9"><div class="ttname"><a href="../../da/db7/class_unit.html#a78937fd5a75e3a800d44dcaf919a92a9">Unit::isInAccessiblePlaceFor</a></div><div class="ttdeci">bool isInAccessiblePlaceFor(Creature const *c) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4121</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -989,8 +1164,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Combat/<a class="el" href="../../d8/d5e/_threat_mgr_8h_source.html">ThreatMgr.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Combat/<a class="el" href="../../d5/dbd/_threat_mgr_8cpp.html">ThreatMgr.cpp</a></li>
+<li><a class="el" href="../../">ThreatMgr.h</a></li>
+<li><a class="el" href="../../">ThreatMgr.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -998,7 +1173,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d28/class_hostile_reference.html">HostileReference</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

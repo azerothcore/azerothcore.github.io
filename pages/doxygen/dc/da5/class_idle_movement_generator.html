@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('dc/da5/class_idle_movement_generator.h
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/d65/_idle_movement_generator_8h_source.html">IdleMovementGenerator.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">IdleMovementGenerator.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for IdleMovementGenerator:</div>
 <div class="dyncontent">
@@ -159,7 +159,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a60ac9e99f41d1f5c320441cf78b4b46a inherit pub_methods_class_movement_generator"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d70/class_movement_generator.html#a60ac9e99f41d1f5c320441cf78b4b46a">GetResetPosition</a> (float &amp;, float &amp;, float &amp;)</td></tr>
 <tr class="separator:a60ac9e99f41d1f5c320441cf78b4b46a inherit pub_methods_class_movement_generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="abf4c6547449605e703b424d8aa7f46b5" name="abf4c6547449605e703b424d8aa7f46b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abf4c6547449605e703b424d8aa7f46b5">&#9670;&#160;</a></span>Finalize()</h2>
 
@@ -185,7 +186,8 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#aef4cf800aa06dddac4efd36e3c058d2b">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   27</span>{  }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa1eb3228e14c5b145f7074e97ccdab5f" name="aa1eb3228e14c5b145f7074e97ccdab5f"></a>
@@ -212,7 +214,9 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#a60bac341b438ea7258986f234a952324">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{ <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9a35e951ebafcab180b4bd926e5760803e">IDLE_MOTION_TYPE</a>; }</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9a35e951ebafcab180b4bd926e5760803e"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9a35e951ebafcab180b4bd926e5760803e">IDLE_MOTION_TYPE</a></div><div class="ttdeci">@ IDLE_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:37</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a68c249f25ef86f2e50d69698e190ed03" name="a68c249f25ef86f2e50d69698e190ed03"></a>
@@ -240,7 +244,11 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#a0040e427ac4a09273641a96a13fd4c1f">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_function" href="../../dc/da5/class_idle_movement_generator.html#a124e4f9506ef6f31e991e905ce38dc43">Reset</a>(owner);</div>
+<div class="line"><span class="lineno">   27</span>}</div>
+<div class="ttc" id="aclass_idle_movement_generator_html_a124e4f9506ef6f31e991e905ce38dc43"><div class="ttname"><a href="../../dc/da5/class_idle_movement_generator.html#a124e4f9506ef6f31e991e905ce38dc43">IdleMovementGenerator::Reset</a></div><div class="ttdeci">void Reset(Unit *) override</div><div class="ttdef"><b>Definition:</b> IdleMovementGenerator.cpp:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a124e4f9506ef6f31e991e905ce38dc43" name="a124e4f9506ef6f31e991e905ce38dc43"></a>
@@ -268,7 +276,13 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#aa6641fa1182551421fc8572afad8e083">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
+<div class="line"><span class="lineno">   31</span>    <span class="keywordflow">if</span> (!owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a03b7d419687e45a3dd0a1fc4f94398b3">IsStopped</a>())</div>
+<div class="line"><span class="lineno">   32</span>        owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a61edf6ab694fa8f7ed6ef194fd4dd103">StopMoving</a>();</div>
+<div class="line"><span class="lineno">   33</span>}</div>
+<div class="ttc" id="aclass_unit_html_a03b7d419687e45a3dd0a1fc4f94398b3"><div class="ttname"><a href="../../da/db7/class_unit.html#a03b7d419687e45a3dd0a1fc4f94398b3">Unit::IsStopped</a></div><div class="ttdeci">bool IsStopped() const</div><div class="ttdef"><b>Definition:</b> Unit.h:2261</div></div>
+<div class="ttc" id="aclass_unit_html_a61edf6ab694fa8f7ed6ef194fd4dd103"><div class="ttname"><a href="../../da/db7/class_unit.html#a61edf6ab694fa8f7ed6ef194fd4dd103">Unit::StopMoving</a></div><div class="ttdeci">void StopMoving()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16736</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4d96b744fa55fa11764873a2c4a891c5" name="a4d96b744fa55fa11764873a2c4a891c5"></a>
@@ -306,12 +320,13 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#ae3014d8c6e728799c86134ef64737ed5">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   29</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/MovementGenerators/<a class="el" href="../../d5/d65/_idle_movement_generator_8h_source.html">IdleMovementGenerator.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/MovementGenerators/<a class="el" href="../../d2/d09/_idle_movement_generator_8cpp.html">IdleMovementGenerator.cpp</a></li>
+<li><a class="el" href="../../">IdleMovementGenerator.h</a></li>
+<li><a class="el" href="../../">IdleMovementGenerator.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -319,7 +334,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/da5/class_idle_movement_generator.html">IdleMovementGenerator</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

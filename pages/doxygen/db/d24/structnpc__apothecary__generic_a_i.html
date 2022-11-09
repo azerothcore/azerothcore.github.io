@@ -489,7 +489,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a7cd0b6bf7ee616d4d4e98045f7b808c0 inherit pro_methods_class_creature_a_i"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d68/class_creature_a_i.html#a7cd0b6bf7ee616d4d4e98045f7b808c0">_EnterEvadeMode</a> (<a class="el" href="../../d2/d68/class_creature_a_i.html#a48b996440be01f98686cd088857a5dbb">EvadeReason</a> why=<a class="el" href="../../d2/d68/class_creature_a_i.html#a48b996440be01f98686cd088857a5dbba0a93738d4e35efeb13a3ce07963de027">EVADE_REASON_OTHER</a>)</td></tr>
 <tr class="separator:a7cd0b6bf7ee616d4d4e98045f7b808c0 inherit pro_methods_class_creature_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afb2b04b51e28d0795e7781effa68dffd" name="afb2b04b51e28d0795e7781effa68dffd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afb2b04b51e28d0795e7781effa68dffd">&#9670;&#160;</a></span>npc_apothecary_genericAI()</h2>
 
@@ -523,7 +524,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  290</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature), <a class="code hl_variable" href="../../db/d24/structnpc__apothecary__generic_a_i.html#a53d10ab64df212b043cc21e054f6528c">_movePos</a>(pos) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astructnpc__apothecary__generic_a_i_html_a53d10ab64df212b043cc21e054f6528c"><div class="ttname"><a href="../../db/d24/structnpc__apothecary__generic_a_i.html#a53d10ab64df212b043cc21e054f6528c">npc_apothecary_genericAI::_movePos</a></div><div class="ttdeci">Position _movePos</div><div class="ttdef"><b>Definition:</b> boss_apothecary_hummel.cpp:316</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -552,7 +556,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  293</span>    {</div>
+<div class="line"><span class="lineno">  294</span>        <span class="keywordflow">if</span> (action == <a class="code hl_enumvalue" href="../../d6/d51/boss__apothecary__hummel_8cpp.html#a089375166ea95171e0a3dae74f9740cfa5a9d00590152ece2beb2305c6f271dd9">ACTION_START_EVENT</a>)</div>
+<div class="line"><span class="lineno">  295</span>        {</div>
+<div class="line"><span class="lineno">  296</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae60ed2cee8b340a5efb62f2acd249284">SetImmuneToPC</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  297</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2ad5df5c249f2a8680cdf3cdf81931f1a9">FACTION_MONSTER</a>);</div>
+<div class="line"><span class="lineno">  298</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(1, <a class="code hl_variable" href="../../db/d24/structnpc__apothecary__generic_a_i.html#a53d10ab64df212b043cc21e054f6528c">_movePos</a>);</div>
+<div class="line"><span class="lineno">  299</span>        }</div>
+<div class="line"><span class="lineno">  300</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (action == <a class="code hl_enumvalue" href="../../d6/d51/boss__apothecary__hummel_8cpp.html#a089375166ea95171e0a3dae74f9740cfafd2662e5ad45793954d7eca931443e2a">ACTION_START_FIGHT</a>)</div>
+<div class="line"><span class="lineno">  301</span>        {</div>
+<div class="line"><span class="lineno">  302</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af11c4cb6be962a4162cc987c69a7884f">SetImmuneToAll</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  303</span>            <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#afdeeccb48c5f74120d0fffe2a631a88a">DoZoneInCombat</a>();</div>
+<div class="line"><span class="lineno">  304</span>        }</div>
+<div class="line"><span class="lineno">  305</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_ac5c8e776fe109c83a63abe41eb5e80f2ad5df5c249f2a8680cdf3cdf81931f1a9"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2ad5df5c249f2a8680cdf3cdf81931f1a9">FACTION_MONSTER</a></div><div class="ttdeci">@ FACTION_MONSTER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:167</div></div>
+<div class="ttc" id="aboss__apothecary__hummel_8cpp_html_a089375166ea95171e0a3dae74f9740cfa5a9d00590152ece2beb2305c6f271dd9"><div class="ttname"><a href="../../d6/d51/boss__apothecary__hummel_8cpp.html#a089375166ea95171e0a3dae74f9740cfa5a9d00590152ece2beb2305c6f271dd9">ACTION_START_EVENT</a></div><div class="ttdeci">@ ACTION_START_EVENT</div><div class="ttdef"><b>Definition:</b> boss_apothecary_hummel.cpp:64</div></div>
+<div class="ttc" id="aboss__apothecary__hummel_8cpp_html_a089375166ea95171e0a3dae74f9740cfafd2662e5ad45793954d7eca931443e2a"><div class="ttname"><a href="../../d6/d51/boss__apothecary__hummel_8cpp.html#a089375166ea95171e0a3dae74f9740cfafd2662e5ad45793954d7eca931443e2a">ACTION_START_FIGHT</a></div><div class="ttdeci">@ ACTION_START_FIGHT</div><div class="ttdef"><b>Definition:</b> boss_apothecary_hummel.cpp:65</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_afdeeccb48c5f74120d0fffe2a631a88a"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#afdeeccb48c5f74120d0fffe2a631a88a">CreatureAI::DoZoneInCombat</a></div><div class="ttdeci">void DoZoneInCombat(Creature *creature=nullptr, float maxRangeToNearestTarget=250.0f)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:93</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_ae60ed2cee8b340a5efb62f2acd249284"><div class="ttname"><a href="../../da/db7/class_unit.html#ae60ed2cee8b340a5efb62f2acd249284">Unit::SetImmuneToPC</a></div><div class="ttdeci">void SetImmuneToPC(bool apply, bool keepCombat=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:13511</div></div>
+<div class="ttc" id="aclass_unit_html_af11c4cb6be962a4162cc987c69a7884f"><div class="ttname"><a href="../../da/db7/class_unit.html#af11c4cb6be962a4162cc987c69a7884f">Unit::SetImmuneToAll</a></div><div class="ttdeci">void SetImmuneToAll(bool apply, bool keepCombat=false)</div><div class="ttdef"><b>Definition:</b> Unit.h:1675</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a63530bd7c3ebcd66521a268e11bf2f93" name="a63530bd7c3ebcd66521a268e11bf2f93"></a>
@@ -590,7 +617,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#ac737070ba7a8645d0e0ccf6bd6107004">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  308</span>    {</div>
+<div class="line"><span class="lineno">  309</span>        <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a> &amp;&amp; pointId == 1)</div>
+<div class="line"><span class="lineno">  310</span>        {</div>
+<div class="line"><span class="lineno">  311</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881aaf5220c031538f14e62edb39923a0ccf">UNIT_NPC_EMOTESTATE</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574afe5400a0ae99b31bfadcde1bb7f6e8e1">EMOTE_STATE_USE_STANDING</a>);</div>
+<div class="line"><span class="lineno">  312</span>        }</div>
+<div class="line"><span class="lineno">  313</span>    }</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a></div><div class="ttdeci">@ POINT_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:46</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0e527855c554e31654c9beb340145574afe5400a0ae99b31bfadcde1bb7f6e8e1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574afe5400a0ae99b31bfadcde1bb7f6e8e1">EMOTE_STATE_USE_STANDING</a></div><div class="ttdeci">@ EMOTE_STATE_USE_STANDING</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1916</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a0e42dc606678c9df7884e1aad621e881aaf5220c031538f14e62edb39923a0ccf"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881aaf5220c031538f14e62edb39923a0ccf">UNIT_NPC_EMOTESTATE</a></div><div class="ttdeci">@ UNIT_NPC_EMOTESTATE</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:140</div></div>
+<div class="ttc" id="aclass_object_html_adc7e9b205f35f9894ec9a4f0ec0871f9"><div class="ttname"><a href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">Object::SetUInt32Value</a></div><div class="ttdeci">void SetUInt32Value(uint16 index, uint32 value)</div><div class="ttdef"><b>Definition:</b> Object.cpp:650</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -617,7 +654,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/ShadowfangKeep/<a class="el" href="../../d6/d51/boss__apothecary__hummel_8cpp.html">boss_apothecary_hummel.cpp</a></li>
+<li><a class="el" href="../../">boss_apothecary_hummel.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -625,7 +662,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d24/structnpc__apothecary__generic_a_i.html">npc_apothecary_genericAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

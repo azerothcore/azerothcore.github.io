@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d6/d2a/class_damage_info.html','../../
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/d32/_unit_8h_source.html">Unit.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Unit.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -187,7 +187,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a92d500e09cf80873f1c9751841dede58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/class_damage_info.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a></td></tr>
 <tr class="separator:a92d500e09cf80873f1c9751841dede58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad4ffdc052cbfc80ae5bfab749d995062" name="ad4ffdc052cbfc80ae5bfab749d995062"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad4ffdc052cbfc80ae5bfab749d995062">&#9670;&#160;</a></span>DamageInfo() <span class="overload">[1/5]</span></h2>
 
@@ -221,7 +222,24 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  126</span>    : <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a>(dmg1.m_attacker), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a>(dmg1.m_victim), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a>(dmg1.m_damage + dmg2.m_damage), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a>(dmg1.m_spellInfo), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a>(<a class="code hl_enumeration" href="../../df/d0b/_shared_defines_8h.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>(dmg1.m_schoolMask | dmg2.m_schoolMask)),</div>
+<div class="line"><span class="lineno">  127</span>    <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a>(dmg1.m_damageType), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a31a2baa1c0e0f9bea6000375a5bbec48">m_attackType</a>(dmg1.m_attackType), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a>(dmg1.m_absorb + dmg2.m_absorb), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a>(dmg1.m_resist + dmg2.m_resist), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a>(dmg1.m_block),</div>
+<div class="line"><span class="lineno">  128</span>    <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a>(dmg1.m_cleanDamage + dmg1.m_cleanDamage)</div>
+<div class="line"><span class="lineno">  129</span>{</div>
+<div class="line"><span class="lineno">  130</span>}</div>
+<div class="ttc" id="a_shared_defines_8h_html_aff6913cfd69489c107a071be9ec2ec8f"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a></div><div class="ttdeci">SpellSchoolMask</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:267</div></div>
+<div class="ttc" id="aclass_damage_info_html_a1289951cae687d55bab2f12a8b37d8c3"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html#a1289951cae687d55bab2f12a8b37d8c3">DamageInfo::m_resist</a></div><div class="ttdeci">uint32 m_resist</div><div class="ttdef"><b>Definition:</b> Unit.h:771</div></div>
+<div class="ttc" id="aclass_damage_info_html_a1c199612aaff8c5b1b831cb2c681340d"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html#a1c199612aaff8c5b1b831cb2c681340d">DamageInfo::m_attacker</a></div><div class="ttdeci">Unit *const m_attacker</div><div class="ttdef"><b>Definition:</b> Unit.h:763</div></div>
+<div class="ttc" id="aclass_damage_info_html_a31a2baa1c0e0f9bea6000375a5bbec48"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html#a31a2baa1c0e0f9bea6000375a5bbec48">DamageInfo::m_attackType</a></div><div class="ttdeci">WeaponAttackType m_attackType</div><div class="ttdef"><b>Definition:</b> Unit.h:769</div></div>
+<div class="ttc" id="aclass_damage_info_html_a5a8ec67f5c136d0ae8822a6fa7766187"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html#a5a8ec67f5c136d0ae8822a6fa7766187">DamageInfo::m_spellInfo</a></div><div class="ttdeci">SpellInfo const  *const m_spellInfo</div><div class="ttdef"><b>Definition:</b> Unit.h:766</div></div>
+<div class="ttc" id="aclass_damage_info_html_a6c7d428dcbe124d6204d1520a4f205c2"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html#a6c7d428dcbe124d6204d1520a4f205c2">DamageInfo::m_block</a></div><div class="ttdeci">uint32 m_block</div><div class="ttdef"><b>Definition:</b> Unit.h:772</div></div>
+<div class="ttc" id="aclass_damage_info_html_a90be517686a8d78e0c585e1535e39567"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html#a90be517686a8d78e0c585e1535e39567">DamageInfo::m_absorb</a></div><div class="ttdeci">uint32 m_absorb</div><div class="ttdef"><b>Definition:</b> Unit.h:770</div></div>
+<div class="ttc" id="aclass_damage_info_html_a92d500e09cf80873f1c9751841dede58"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html#a92d500e09cf80873f1c9751841dede58">DamageInfo::m_cleanDamage</a></div><div class="ttdeci">uint32 m_cleanDamage</div><div class="ttdef"><b>Definition:</b> Unit.h:773</div></div>
+<div class="ttc" id="aclass_damage_info_html_a9b39c211a157092dbd0111ac46bef8a4"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html#a9b39c211a157092dbd0111ac46bef8a4">DamageInfo::m_damage</a></div><div class="ttdeci">uint32 m_damage</div><div class="ttdef"><b>Definition:</b> Unit.h:765</div></div>
+<div class="ttc" id="aclass_damage_info_html_acda50525cdc0689191b74741331b6069"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html#acda50525cdc0689191b74741331b6069">DamageInfo::m_schoolMask</a></div><div class="ttdeci">SpellSchoolMask const m_schoolMask</div><div class="ttdef"><b>Definition:</b> Unit.h:767</div></div>
+<div class="ttc" id="aclass_damage_info_html_ae302e0157ce87497f71293c8687bc7aa"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html#ae302e0157ce87497f71293c8687bc7aa">DamageInfo::m_damageType</a></div><div class="ttdeci">DamageEffectType const m_damageType</div><div class="ttdef"><b>Definition:</b> Unit.h:768</div></div>
+<div class="ttc" id="aclass_damage_info_html_ae54a74b71d6ef3f9452b20d2e4aec4dc"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">DamageInfo::m_victim</a></div><div class="ttdeci">Unit *const m_victim</div><div class="ttdef"><b>Definition:</b> Unit.h:764</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a522ba9b5e16d05ec7c2363ec06458e72" name="a522ba9b5e16d05ec7c2363ec06458e72"></a>
@@ -287,7 +305,15 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  113</span>    : <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a>(_attacker), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a>(_victim), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a>(_damage), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a>(_spellInfo), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a>(_schoolMask),</div>
+<div class="line"><span class="lineno">  114</span>      <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a>(_damageType), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a31a2baa1c0e0f9bea6000375a5bbec48">m_attackType</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a2a35652af7129b6f139b0f7a2af1876aa5145c1138a6f21d47061e9015e07a3ae">BASE_ATTACK</a>), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a>(cleanDamage)</div>
+<div class="line"><span class="lineno">  115</span>{</div>
+<div class="line"><span class="lineno">  116</span>    <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a> = 0;</div>
+<div class="line"><span class="lineno">  117</span>    <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a> = 0;</div>
+<div class="line"><span class="lineno">  118</span>    <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a> = 0;</div>
+<div class="line"><span class="lineno">  119</span>}</div>
+<div class="ttc" id="a_unit_8h_html_a2a35652af7129b6f139b0f7a2af1876aa5145c1138a6f21d47061e9015e07a3ae"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a2a35652af7129b6f139b0f7a2af1876aa5145c1138a6f21d47061e9015e07a3ae">BASE_ATTACK</a></div><div class="ttdeci">@ BASE_ATTACK</div><div class="ttdef"><b>Definition:</b> Unit.h:396</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa241087126e9dd972944dee7225783a8" name="aa241087126e9dd972944dee7225783a8"></a>
@@ -313,7 +339,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  121</span>                                                    : <a class="code hl_class" href="../../d6/d2a/class_damage_info.html">DamageInfo</a>(<a class="code hl_class" href="../../d6/d2a/class_damage_info.html">DamageInfo</a>(dmgInfo, 0), <a class="code hl_class" href="../../d6/d2a/class_damage_info.html">DamageInfo</a>(dmgInfo, 1))</div>
+<div class="line"><span class="lineno">  122</span>{</div>
+<div class="line"><span class="lineno">  123</span>}</div>
+<div class="ttc" id="aclass_damage_info_html"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html">DamageInfo</a></div><div class="ttdef"><b>Definition:</b> Unit.h:761</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac4a230a99dcf5c039db683c842c5bf58" name="ac4a230a99dcf5c039db683c842c5bf58"></a>
@@ -341,7 +371,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  133</span>    : <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a>(dmgInfo.attacker), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a>(dmgInfo.target), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a>(dmgInfo.damages[damageIndex].damage), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a>(<a class="code hl_enumeration" href="../../df/d0b/_shared_defines_8h.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>(dmgInfo.damages[damageIndex].damageSchoolMask)),</div>
+<div class="line"><span class="lineno">  134</span>      <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#aff59f402d05917ab1de0c5f6bf148ea4a471bd179f0ee161d55f1bb3dd5825336">DIRECT_DAMAGE</a>), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a31a2baa1c0e0f9bea6000375a5bbec48">m_attackType</a>(dmgInfo.attackType), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a>(dmgInfo.damages[damageIndex].absorb), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a>(dmgInfo.damages[damageIndex].resist), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a>(dmgInfo.blocked_amount),</div>
+<div class="line"><span class="lineno">  135</span>      <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a>(dmgInfo.cleanDamage)</div>
+<div class="line"><span class="lineno">  136</span>{</div>
+<div class="line"><span class="lineno">  137</span>}</div>
+<div class="ttc" id="a_unit_8h_html_aff59f402d05917ab1de0c5f6bf148ea4a471bd179f0ee161d55f1bb3dd5825336"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#aff59f402d05917ab1de0c5f6bf148ea4a471bd179f0ee161d55f1bb3dd5825336">DIRECT_DAMAGE</a></div><div class="ttdeci">@ DIRECT_DAMAGE</div><div class="ttdef"><b>Definition:</b> Unit.h:435</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab97add6c88a68afe5488eb2f450fb5e4" name="ab97add6c88a68afe5488eb2f450fb5e4"></a>
@@ -369,7 +405,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  140</span>    : <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a>(spellNonMeleeDamage.attacker), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a>(spellNonMeleeDamage.target), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a>(spellNonMeleeDamage.damage),</div>
+<div class="line"><span class="lineno">  141</span>      <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a>(spellNonMeleeDamage.spellInfo), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a>(<a class="code hl_enumeration" href="../../df/d0b/_shared_defines_8h.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>(spellNonMeleeDamage.schoolMask)), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a>(damageType),</div>
+<div class="line"><span class="lineno">  142</span>      <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a>(spellNonMeleeDamage.absorb), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a>(spellNonMeleeDamage.resist), <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a>(spellNonMeleeDamage.blocked),</div>
+<div class="line"><span class="lineno">  143</span>      <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a>(spellNonMeleeDamage.cleanDamage)</div>
+<div class="line"><span class="lineno">  144</span>{</div>
+<div class="line"><span class="lineno">  145</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -388,7 +430,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  154</span>{</div>
+<div class="line"><span class="lineno">  155</span>    amount = std::min(amount, <a class="code hl_function" href="../../d6/d2a/class_damage_info.html#adcf0ecbcfa77654529e66df53ae828d4">GetDamage</a>());</div>
+<div class="line"><span class="lineno">  156</span>    <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a> += amount;</div>
+<div class="line"><span class="lineno">  157</span>    <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a> -= amount;</div>
+<div class="line"><span class="lineno">  158</span>}</div>
+<div class="ttc" id="aclass_damage_info_html_adcf0ecbcfa77654529e66df53ae828d4"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html#adcf0ecbcfa77654529e66df53ae828d4">DamageInfo::GetDamage</a></div><div class="ttdeci">uint32 GetDamage() const</div><div class="ttdef"><b>Definition:</b> Unit.h:795</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8388efed79477de77d78f3a3fff04b0b" name="a8388efed79477de77d78f3a3fff04b0b"></a>
@@ -406,7 +454,12 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  168</span>{</div>
+<div class="line"><span class="lineno">  169</span>    amount = std::min(amount, <a class="code hl_function" href="../../d6/d2a/class_damage_info.html#adcf0ecbcfa77654529e66df53ae828d4">GetDamage</a>());</div>
+<div class="line"><span class="lineno">  170</span>    <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a> += amount;</div>
+<div class="line"><span class="lineno">  171</span>    <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a> -= amount;</div>
+<div class="line"><span class="lineno">  172</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af79a29980863abeecc47118a18e70f6b" name="af79a29980863abeecc47118a18e70f6b"></a>
@@ -431,7 +484,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  796</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a>; };</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a469a97425ae528b5f8580957035d0561" name="a469a97425ae528b5f8580957035d0561"></a>
@@ -456,7 +510,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  789</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a>; };</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8bf9edb2df92b0164ffc21a00c8925d6" name="a8bf9edb2df92b0164ffc21a00c8925d6"></a>
@@ -481,7 +536,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  794</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a31a2baa1c0e0f9bea6000375a5bbec48">m_attackType</a>; };</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaa739f7998796bd333ee95a8394b0cea" name="aaa739f7998796bd333ee95a8394b0cea"></a>
@@ -506,7 +562,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  798</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a>; };</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="adcf0ecbcfa77654529e66df53ae828d4" name="adcf0ecbcfa77654529e66df53ae828d4"></a>
@@ -531,7 +588,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  795</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a>; };</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a887202d1319dd2b13ff18cba470067cb" name="a887202d1319dd2b13ff18cba470067cb"></a>
@@ -556,7 +614,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  793</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a>; };</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8d301dc3e6d21d7c1d73b6eaea38421b" name="a8d301dc3e6d21d7c1d73b6eaea38421b"></a>
@@ -581,7 +640,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  797</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a>; };</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8e8b4c4ca4ef62b353c5868d5954bfcd" name="a8e8b4c4ca4ef62b353c5868d5954bfcd"></a>
@@ -606,7 +666,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  792</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a>; };</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7aaa8ac7e857b1d2a68cb6befaf9881a" name="a7aaa8ac7e857b1d2a68cb6befaf9881a"></a>
@@ -631,7 +692,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  791</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a>; };</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4a702f9a22aa05865c95e5eaf9640545" name="a4a702f9a22aa05865c95e5eaf9640545"></a>
@@ -648,7 +710,10 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  175</span>{</div>
+<div class="line"><span class="lineno">  176</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a> + <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a> + <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a> + <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a>;</div>
+<div class="line"><span class="lineno">  177</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a33a6f0e46fe0098a3b67dc5ea43733b5" name="a33a6f0e46fe0098a3b67dc5ea43733b5"></a>
@@ -673,7 +738,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  790</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a>; };</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2a68533422f69965d383fdb716387237" name="a2a68533422f69965d383fdb716387237"></a>
@@ -691,7 +757,12 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  148</span>{</div>
+<div class="line"><span class="lineno">  149</span>    amount = std::min(amount, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(<a class="code hl_function" href="../../d6/d2a/class_damage_info.html#adcf0ecbcfa77654529e66df53ae828d4">GetDamage</a>()));</div>
+<div class="line"><span class="lineno">  150</span>    <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a> += amount;</div>
+<div class="line"><span class="lineno">  151</span>}</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a02e857277fbc00370143180b4fb3daac" name="a02e857277fbc00370143180b4fb3daac"></a>
@@ -709,7 +780,12 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  161</span>{</div>
+<div class="line"><span class="lineno">  162</span>    amount = std::min(amount, <a class="code hl_function" href="../../d6/d2a/class_damage_info.html#adcf0ecbcfa77654529e66df53ae828d4">GetDamage</a>());</div>
+<div class="line"><span class="lineno">  163</span>    <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a> += amount;</div>
+<div class="line"><span class="lineno">  164</span>    <a class="code hl_variable" href="../../d6/d2a/class_damage_info.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a> -= amount;</div>
+<div class="line"><span class="lineno">  165</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -956,8 +1032,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Unit/<a class="el" href="../../d5/d32/_unit_8h_source.html">Unit.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Unit/<a class="el" href="../../d2/d2e/_unit_8cpp.html">Unit.cpp</a></li>
+<li><a class="el" href="../../">Unit.h</a></li>
+<li><a class="el" href="../../">Unit.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -965,7 +1041,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d2a/class_damage_info.html">DamageInfo</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

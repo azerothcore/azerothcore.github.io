@@ -189,7 +189,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2cc9825e08e982ef195f117a4512c4ae" name="a2cc9825e08e982ef195f117a4512c4ae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2cc9825e08e982ef195f117a4512c4ae">&#9670;&#160;</a></span>npc_wg_queue()</h2>
 
@@ -212,7 +213,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  284</span>: <a class="code hl_class" href="../../d5/dca/class_creature_script.html">CreatureScript</a>(<span class="stringliteral">&quot;npc_wg_queue&quot;</span>) { }</div>
+<div class="ttc" id="aclass_creature_script_html"><div class="ttname"><a href="../../d5/dca/class_creature_script.html">CreatureScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:718</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -241,7 +244,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a24ba3529655943afdf6598450d14e6c2">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  395</span>    {</div>
+<div class="line"><span class="lineno">  396</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> npc_wg_queueAI(creature);</div>
+<div class="line"><span class="lineno">  397</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a20fc6ae4e4377f237a620b7f5b1de8ee" name="a20fc6ae4e4377f237a620b7f5b1de8ee"></a>
@@ -279,7 +285,63 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a6268b132444845302ada504f48629a4f">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  287</span>    {</div>
+<div class="line"><span class="lineno">  288</span>        <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getBoolConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#a1b4b88c03b7d0124998b4c22e957baf0a38b76dc59ad1adbdab47e57d47ed67f2">CONFIG_MINIGOB_MANABONK</a>))</div>
+<div class="line"><span class="lineno">  289</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  290</span> </div>
+<div class="line"><span class="lineno">  291</span>        <span class="keywordflow">if</span> (creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a66aca559340b09926d956b58773398cb">IsQuestGiver</a>())</div>
+<div class="line"><span class="lineno">  292</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#aa352798726d935f9e76f97137e47ee33">PrepareQuestMenu</a>(creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  293</span> </div>
+<div class="line"><span class="lineno">  294</span>        <a class="code hl_class" href="../../d3/d42/class_battlefield.html">Battlefield</a>* wintergrasp = <a class="code hl_define" href="../../dc/df4/_battlefield_mgr_8h.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldByBattleId(<a class="code hl_enumvalue" href="../../d0/d88/_battlefield_8h.html#aff53bf428d550c270744c9a188d4187fa38e75e8c40750cb29f0d478d19974010">BATTLEFIELD_BATTLEID_WG</a>);</div>
+<div class="line"><span class="lineno">  295</span>        <span class="keywordflow">if</span> (!wintergrasp)</div>
+<div class="line"><span class="lineno">  296</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  297</span> </div>
+<div class="line"><span class="lineno">  298</span>        <span class="keywordflow">if</span> (wintergrasp-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a8b0c38a6d6ef3096cfb333ca3fea72b5">IsWarTime</a>())</div>
+<div class="line"><span class="lineno">  299</span>        {</div>
+<div class="line"><span class="lineno">  300</span>            <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5">AddGossipItemFor</a>(player, <a class="code hl_enumvalue" href="../../d8/dd9/zone__wintergrasp_8cpp.html#af2e48f5b3f0b549bec8fb184d875132caadec99b9f8e1e1a6bd3aff29a5365b7e">WG_GOSSIP_MENU_QUEUE</a>, 0, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a>, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a>);</div>
+<div class="line"><span class="lineno">  301</span>            <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a>(player, wintergrasp-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a6199f0a6ab9a392b650d3d1f83396ec4">GetDefenderTeam</a>() ? <a class="code hl_enumvalue" href="../../d8/dd9/zone__wintergrasp_8cpp.html#af2e48f5b3f0b549bec8fb184d875132ca00196fac05608ead9789c51d9dff96e4">WG_NPCQUEUE_TEXT_H_WAR</a> : <a class="code hl_enumvalue" href="../../d8/dd9/zone__wintergrasp_8cpp.html#af2e48f5b3f0b549bec8fb184d875132ca6d753ec23fd856df77f453270305a065">WG_NPCQUEUE_TEXT_A_WAR</a>, creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  302</span>        }</div>
+<div class="line"><span class="lineno">  303</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  304</span>        {</div>
+<div class="line"><span class="lineno">  305</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> timer = wintergrasp-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a75ece63c4c8ae98ace080bcce190a16d">GetTimer</a>() / 1000;</div>
+<div class="line"><span class="lineno">  306</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(4354, <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count() + timer);</div>
+<div class="line"><span class="lineno">  307</span>            <span class="keywordflow">if</span> (timer &lt; 15 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a>)</div>
+<div class="line"><span class="lineno">  308</span>            {</div>
+<div class="line"><span class="lineno">  309</span>                <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5">AddGossipItemFor</a>(player, <a class="code hl_enumvalue" href="../../d8/dd9/zone__wintergrasp_8cpp.html#af2e48f5b3f0b549bec8fb184d875132caadec99b9f8e1e1a6bd3aff29a5365b7e">WG_GOSSIP_MENU_QUEUE</a>, 0, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a>, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a>);</div>
+<div class="line"><span class="lineno">  310</span>                <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a>(player, wintergrasp-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a6199f0a6ab9a392b650d3d1f83396ec4">GetDefenderTeam</a>() ? <a class="code hl_enumvalue" href="../../d8/dd9/zone__wintergrasp_8cpp.html#af2e48f5b3f0b549bec8fb184d875132cac0db7c2e9ed4be044bbd919420e74d08">WG_NPCQUEUE_TEXT_H_QUEUE</a> : <a class="code hl_enumvalue" href="../../d8/dd9/zone__wintergrasp_8cpp.html#af2e48f5b3f0b549bec8fb184d875132cabf80d52d9c82bd67fd19840d4d4e44d1">WG_NPCQUEUE_TEXT_A_QUEUE</a>, creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  311</span>            }</div>
+<div class="line"><span class="lineno">  312</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  313</span>                <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a>(player, wintergrasp-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a6199f0a6ab9a392b650d3d1f83396ec4">GetDefenderTeam</a>() ? <a class="code hl_enumvalue" href="../../d8/dd9/zone__wintergrasp_8cpp.html#af2e48f5b3f0b549bec8fb184d875132ca3b88ffb5021d65bc5be890a51f243cba">WG_NPCQUEUE_TEXT_H_NOWAR</a> : <a class="code hl_enumvalue" href="../../d8/dd9/zone__wintergrasp_8cpp.html#af2e48f5b3f0b549bec8fb184d875132cadce7e277b79fef748cff0cc1a909ae06">WG_NPCQUEUE_TEXT_A_NOWAR</a>, creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  314</span>        }</div>
+<div class="line"><span class="lineno">  315</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  316</span>    }</div>
+<div class="ttc" id="a_battlefield_8h_html_aff53bf428d550c270744c9a188d4187fa38e75e8c40750cb29f0d478d19974010"><div class="ttname"><a href="../../d0/d88/_battlefield_8h.html#aff53bf428d550c270744c9a188d4187fa38e75e8c40750cb29f0d478d19974010">BATTLEFIELD_BATTLEID_WG</a></div><div class="ttdeci">@ BATTLEFIELD_BATTLEID_WG</div><div class="ttdef"><b>Definition:</b> Battlefield.h:37</div></div>
+<div class="ttc" id="a_battlefield_mgr_8h_html_a4545b2a440043037e8dad52c0f644f48"><div class="ttname"><a href="../../dc/df4/_battlefield_mgr_8h.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a></div><div class="ttdeci">#define sBattlefieldMgr</div><div class="ttdef"><b>Definition:</b> BattlefieldMgr.h:77</div></div>
+<div class="ttc" id="a_common_8h_html_afacf27522adfacf698390ddafc53fa30"><div class="ttname"><a href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a></div><div class="ttdeci">constexpr auto MINUTE</div><div class="ttdef"><b>Definition:</b> Common.h:56</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_i_world_8h_html_a1b4b88c03b7d0124998b4c22e957baf0a38b76dc59ad1adbdab47e57d47ed67f2"><div class="ttname"><a href="../../d2/d80/_i_world_8h.html#a1b4b88c03b7d0124998b4c22e957baf0a38b76dc59ad1adbdab47e57d47ed67f2">CONFIG_MINIGOB_MANABONK</a></div><div class="ttdeci">@ CONFIG_MINIGOB_MANABONK</div><div class="ttdef"><b>Definition:</b> IWorld.h:153</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_a18599cfc6649557de0d505ed4d4a0210"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a></div><div class="ttdeci">void SendGossipMenuFor(Player *player, uint32 npcTextID, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:45</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_a1d54254ae4ddb1bb0e9e2c74dffe5bf5"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5">AddGossipItemFor</a></div><div class="ttdeci">void AddGossipItemFor(Player *player, uint32 icon, std::string const &amp;text, uint32 sender, uint32 action)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:28</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a></div><div class="ttdeci">@ GOSSIP_SENDER_MAIN</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:70</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a></div><div class="ttdeci">@ GOSSIP_ACTION_INFO_DEF</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:68</div></div>
+<div class="ttc" id="aclass_battlefield_html"><div class="ttname"><a href="../../d3/d42/class_battlefield.html">Battlefield</a></div><div class="ttdef"><b>Definition:</b> Battlefield.h:205</div></div>
+<div class="ttc" id="aclass_battlefield_html_a6199f0a6ab9a392b650d3d1f83396ec4"><div class="ttname"><a href="../../d3/d42/class_battlefield.html#a6199f0a6ab9a392b650d3d1f83396ec4">Battlefield::GetDefenderTeam</a></div><div class="ttdeci">TeamId GetDefenderTeam()</div><div class="ttdef"><b>Definition:</b> Battlefield.h:276</div></div>
+<div class="ttc" id="aclass_battlefield_html_a75ece63c4c8ae98ace080bcce190a16d"><div class="ttname"><a href="../../d3/d42/class_battlefield.html#a75ece63c4c8ae98ace080bcce190a16d">Battlefield::GetTimer</a></div><div class="ttdeci">uint32 GetTimer()</div><div class="ttdef"><b>Definition:</b> Battlefield.h:353</div></div>
+<div class="ttc" id="aclass_battlefield_html_a8b0c38a6d6ef3096cfb333ca3fea72b5"><div class="ttname"><a href="../../d3/d42/class_battlefield.html#a8b0c38a6d6ef3096cfb333ca3fea72b5">Battlefield::IsWarTime</a></div><div class="ttdeci">bool IsWarTime()</div><div class="ttdoc">Return true if battle is start, false if battle is not started.</div><div class="ttdef"><b>Definition:</b> Battlefield.h:248</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_player_html_a2a12863caf54ad9a8af56bda556d7a4b"><div class="ttname"><a href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">Player::SendUpdateWorldState</a></div><div class="ttdeci">void SendUpdateWorldState(uint32 variable, uint32 value) const</div><div class="ttdef"><b>Definition:</b> PlayerUpdates.cpp:2189</div></div>
+<div class="ttc" id="aclass_player_html_aa352798726d935f9e76f97137e47ee33"><div class="ttname"><a href="../../d8/d53/class_player.html#aa352798726d935f9e76f97137e47ee33">Player::PrepareQuestMenu</a></div><div class="ttdeci">void PrepareQuestMenu(ObjectGuid guid)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:38</div></div>
+<div class="ttc" id="aclass_unit_html_a66aca559340b09926d956b58773398cb"><div class="ttname"><a href="../../da/db7/class_unit.html#a66aca559340b09926d956b58773398cb">Unit::IsQuestGiver</a></div><div class="ttdeci">bool IsQuestGiver() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1650</div></div>
+<div class="ttc" id="agroup__world_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:458</div></div>
+<div class="ttc" id="anamespace_game_time_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
+<div class="ttc" id="azone__wintergrasp_8cpp_html_af2e48f5b3f0b549bec8fb184d875132ca00196fac05608ead9789c51d9dff96e4"><div class="ttname"><a href="../../d8/dd9/zone__wintergrasp_8cpp.html#af2e48f5b3f0b549bec8fb184d875132ca00196fac05608ead9789c51d9dff96e4">WG_NPCQUEUE_TEXT_H_WAR</a></div><div class="ttdeci">@ WG_NPCQUEUE_TEXT_H_WAR</div><div class="ttdef"><b>Definition:</b> zone_wintergrasp.cpp:39</div></div>
+<div class="ttc" id="azone__wintergrasp_8cpp_html_af2e48f5b3f0b549bec8fb184d875132ca3b88ffb5021d65bc5be890a51f243cba"><div class="ttname"><a href="../../d8/dd9/zone__wintergrasp_8cpp.html#af2e48f5b3f0b549bec8fb184d875132ca3b88ffb5021d65bc5be890a51f243cba">WG_NPCQUEUE_TEXT_H_NOWAR</a></div><div class="ttdeci">@ WG_NPCQUEUE_TEXT_H_NOWAR</div><div class="ttdef"><b>Definition:</b> zone_wintergrasp.cpp:37</div></div>
+<div class="ttc" id="azone__wintergrasp_8cpp_html_af2e48f5b3f0b549bec8fb184d875132ca6d753ec23fd856df77f453270305a065"><div class="ttname"><a href="../../d8/dd9/zone__wintergrasp_8cpp.html#af2e48f5b3f0b549bec8fb184d875132ca6d753ec23fd856df77f453270305a065">WG_NPCQUEUE_TEXT_A_WAR</a></div><div class="ttdeci">@ WG_NPCQUEUE_TEXT_A_WAR</div><div class="ttdef"><b>Definition:</b> zone_wintergrasp.cpp:42</div></div>
+<div class="ttc" id="azone__wintergrasp_8cpp_html_af2e48f5b3f0b549bec8fb184d875132caadec99b9f8e1e1a6bd3aff29a5365b7e"><div class="ttname"><a href="../../d8/dd9/zone__wintergrasp_8cpp.html#af2e48f5b3f0b549bec8fb184d875132caadec99b9f8e1e1a6bd3aff29a5365b7e">WG_GOSSIP_MENU_QUEUE</a></div><div class="ttdeci">@ WG_GOSSIP_MENU_QUEUE</div><div class="ttdef"><b>Definition:</b> zone_wintergrasp.cpp:45</div></div>
+<div class="ttc" id="azone__wintergrasp_8cpp_html_af2e48f5b3f0b549bec8fb184d875132cabf80d52d9c82bd67fd19840d4d4e44d1"><div class="ttname"><a href="../../d8/dd9/zone__wintergrasp_8cpp.html#af2e48f5b3f0b549bec8fb184d875132cabf80d52d9c82bd67fd19840d4d4e44d1">WG_NPCQUEUE_TEXT_A_QUEUE</a></div><div class="ttdeci">@ WG_NPCQUEUE_TEXT_A_QUEUE</div><div class="ttdef"><b>Definition:</b> zone_wintergrasp.cpp:41</div></div>
+<div class="ttc" id="azone__wintergrasp_8cpp_html_af2e48f5b3f0b549bec8fb184d875132cac0db7c2e9ed4be044bbd919420e74d08"><div class="ttname"><a href="../../d8/dd9/zone__wintergrasp_8cpp.html#af2e48f5b3f0b549bec8fb184d875132cac0db7c2e9ed4be044bbd919420e74d08">WG_NPCQUEUE_TEXT_H_QUEUE</a></div><div class="ttdeci">@ WG_NPCQUEUE_TEXT_H_QUEUE</div><div class="ttdef"><b>Definition:</b> zone_wintergrasp.cpp:38</div></div>
+<div class="ttc" id="azone__wintergrasp_8cpp_html_af2e48f5b3f0b549bec8fb184d875132cadce7e277b79fef748cff0cc1a909ae06"><div class="ttname"><a href="../../d8/dd9/zone__wintergrasp_8cpp.html#af2e48f5b3f0b549bec8fb184d875132cadce7e277b79fef748cff0cc1a909ae06">WG_NPCQUEUE_TEXT_A_NOWAR</a></div><div class="ttdeci">@ WG_NPCQUEUE_TEXT_A_NOWAR</div><div class="ttdef"><b>Definition:</b> zone_wintergrasp.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afb707da5d85affc65f7ab5a0fc018c93" name="afb707da5d85affc65f7ab5a0fc018c93"></a>
@@ -329,11 +391,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a30f160576b4cb97d940ecf3468834667">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  319</span>    {</div>
+<div class="line"><span class="lineno">  320</span>        <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#af8f7e54dac5ecc86e92d780c3918cb09">CloseGossipMenuFor</a>(player);</div>
+<div class="line"><span class="lineno">  321</span> </div>
+<div class="line"><span class="lineno">  322</span>        <a class="code hl_class" href="../../d3/d42/class_battlefield.html">Battlefield</a>* wintergrasp = <a class="code hl_define" href="../../dc/df4/_battlefield_mgr_8h.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldByBattleId(<a class="code hl_enumvalue" href="../../d0/d88/_battlefield_8h.html#aff53bf428d550c270744c9a188d4187fa38e75e8c40750cb29f0d478d19974010">BATTLEFIELD_BATTLEID_WG</a>);</div>
+<div class="line"><span class="lineno">  323</span>        <span class="keywordflow">if</span> (!wintergrasp)</div>
+<div class="line"><span class="lineno">  324</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  325</span> </div>
+<div class="line"><span class="lineno">  326</span>        <span class="keywordflow">if</span> (wintergrasp-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a8b0c38a6d6ef3096cfb333ca3fea72b5">IsWarTime</a>())</div>
+<div class="line"><span class="lineno">  327</span>            wintergrasp-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a62640a78e1885a6f99e95155d5dc74e9">InvitePlayerToWar</a>(player);</div>
+<div class="line"><span class="lineno">  328</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  329</span>        {</div>
+<div class="line"><span class="lineno">  330</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> timer = wintergrasp-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a75ece63c4c8ae98ace080bcce190a16d">GetTimer</a>() / 1000;</div>
+<div class="line"><span class="lineno">  331</span>            <span class="keywordflow">if</span> (timer &lt; 15 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a>)</div>
+<div class="line"><span class="lineno">  332</span>                wintergrasp-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#a5d7d37d33db75c1df5511d8fc5239005">InvitePlayerToQueue</a>(player);</div>
+<div class="line"><span class="lineno">  333</span>        }</div>
+<div class="line"><span class="lineno">  334</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  335</span>    }</div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_af8f7e54dac5ecc86e92d780c3918cb09"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#af8f7e54dac5ecc86e92d780c3918cb09">CloseGossipMenuFor</a></div><div class="ttdeci">void CloseGossipMenuFor(Player *player)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:56</div></div>
+<div class="ttc" id="aclass_battlefield_html_a5d7d37d33db75c1df5511d8fc5239005"><div class="ttname"><a href="../../d3/d42/class_battlefield.html#a5d7d37d33db75c1df5511d8fc5239005">Battlefield::InvitePlayerToQueue</a></div><div class="ttdeci">void InvitePlayerToQueue(Player *player)</div><div class="ttdef"><b>Definition:</b> Battlefield.cpp:224</div></div>
+<div class="ttc" id="aclass_battlefield_html_a62640a78e1885a6f99e95155d5dc74e9"><div class="ttname"><a href="../../d3/d42/class_battlefield.html#a62640a78e1885a6f99e95155d5dc74e9">Battlefield::InvitePlayerToWar</a></div><div class="ttdeci">void InvitePlayerToWar(Player *player)</div><div class="ttdef"><b>Definition:</b> Battlefield.cpp:271</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d8/dd9/zone__wintergrasp_8cpp.html">zone_wintergrasp.cpp</a></li>
+<li><a class="el" href="../../">zone_wintergrasp.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -341,7 +423,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d41/classnpc__wg__queue.html">npc_wg_queue</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>
