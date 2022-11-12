@@ -1,11 +1,11 @@
 var a02534 =
 [
-    [ "boss_baron_geddon", "d0/d91/a11708.html", "d0/d91/a11708" ],
-    [ "boss_baron_geddon::boss_baron_geddonAI", "dd/da1/a11712.html", "dd/da1/a11712" ],
-    [ "spell_geddon_inferno", "d1/d05/a11716.html", "d1/d05/a11716" ],
-    [ "spell_geddon_inferno::spell_geddon_inferno_AuraScript", "da/d4f/a11720.html", "da/d4f/a11720" ],
-    [ "spell_geddon_armageddon", "d4/d3f/a11724.html", "d4/d3f/a11724" ],
-    [ "spell_geddon_armageddon::spell_geddon_armageddon_AuraScript", "de/d90/a11728.html", "de/d90/a11728" ],
+    [ "boss_baron_geddon", "d1/dec/a11709.html", "d1/dec/a11709" ],
+    [ "boss_baron_geddon::boss_baron_geddonAI", "d7/d64/a11713.html", "d7/d64/a11713" ],
+    [ "spell_geddon_inferno", "d7/d93/a11717.html", "d7/d93/a11717" ],
+    [ "spell_geddon_inferno::spell_geddon_inferno_AuraScript", "da/dae/a11721.html", "da/dae/a11721" ],
+    [ "spell_geddon_armageddon", "d9/dad/a11725.html", "d9/dad/a11725" ],
+    [ "spell_geddon_armageddon::spell_geddon_armageddon_AuraScript", "d5/df9/a11729.html", "d5/df9/a11729" ],
     [ "Emotes", "db/df5/a02534.html#a2d0a63150f7988db8ff39124dc1cb21a", [
       [ "EMOTE_FRENZY", "dd/df4/a02510.html#a2d0a63150f7988db8ff39124dc1cb21aa55f111609d7846e27c2f642b9f46b1ac", null ],
       [ "EMOTE_SHIMMER", "dd/df4/a02510.html#a2d0a63150f7988db8ff39124dc1cb21aa706a7a036a41d3d1f2650ee226e9ec1e", null ],

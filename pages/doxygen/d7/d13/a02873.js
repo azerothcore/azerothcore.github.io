@@ -1,7 +1,7 @@
 var a02873 =
 [
-    [ "boss_wushoolay", "de/dcb/a14020.html", "de/dcb/a14020" ],
-    [ "boss_wushoolay::boss_wushoolayAI", "d8/d6a/a14024.html", "d8/d6a/a14024" ],
+    [ "boss_wushoolay", "d5/dd5/a14021.html", "d5/dd5/a14021" ],
+    [ "boss_wushoolay::boss_wushoolayAI", "d4/d02/a14025.html", "d4/d02/a14025" ],
     [ "Events", "d7/d13/a02873.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

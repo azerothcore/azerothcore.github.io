@@ -1,5 +1,5 @@
 var a01010 =
 [
-    [ "ChatHandler", "db/d72/a06960.html", "db/d72/a06960" ],
-    [ "CliHandler", "d1/daf/a06964.html", "d1/daf/a06964" ]
+    [ "ChatHandler", "dc/d16/a06961.html", "dc/d16/a06961" ],
+    [ "CliHandler", "da/d2e/a06965.html", "da/d2e/a06965" ]
 ];

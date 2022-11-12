@@ -1,7 +1,7 @@
 var a02441 =
 [
-    [ "boss_magmus", "de/d47/a11300.html", "de/d47/a11300" ],
-    [ "boss_magmus::boss_magmusAI", "d6/dd0/a11304.html", "d6/dd0/a11304" ],
+    [ "boss_magmus", "d8/d35/a11301.html", "d8/d35/a11301" ],
+    [ "boss_magmus::boss_magmusAI", "d0/dbf/a11305.html", "d0/dbf/a11305" ],
     [ "Spells", "d9/dd6/a02441.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

@@ -1,9 +1,9 @@
 var a03161 =
 [
-    [ "npc_shenthul", "d9/d58/a15556.html", "d9/d58/a15556" ],
-    [ "npc_shenthul::npc_shenthulAI", "df/d96/a15560.html", "df/d96/a15560" ],
-    [ "npc_thrall_warchief", "d3/d25/a15564.html", "d3/d25/a15564" ],
-    [ "npc_thrall_warchief::npc_thrall_warchiefAI", "dd/dd7/a15568.html", "dd/dd7/a15568" ],
+    [ "npc_shenthul", "d4/dab/a15557.html", "d4/dab/a15557" ],
+    [ "npc_shenthul::npc_shenthulAI", "d4/d9a/a15561.html", "d4/d9a/a15561" ],
+    [ "npc_thrall_warchief", "d4/dbb/a15565.html", "d4/dbb/a15565" ],
+    [ "npc_thrall_warchief::npc_thrall_warchiefAI", "dc/d2e/a15569.html", "dc/d2e/a15569" ],
     [ "GOSSIP_HTW", "d0/d04/a03161.html#a3d8ba2e55b55ef5190acadaabaf787b7", null ],
     [ "GOSSIP_STW1", "d0/d04/a03161.html#a0f89a1c9e4158cdd1031768255ee04e4", null ],
     [ "GOSSIP_STW2", "d0/d04/a03161.html#afbe6bde9be74ec299e7693ac09eece84", null ],

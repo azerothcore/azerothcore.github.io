@@ -1,10 +1,10 @@
 var a02861 =
 [
-    [ "boss_marli", "de/dab/a13952.html", "de/dab/a13952" ],
-    [ "npc_spawn_of_marli", "d8/dc9/a13956.html", "d8/dc9/a13956" ],
-    [ "spell_hatch_eggs", "d4/d8c/a13960.html", "d4/d8c/a13960" ],
-    [ "spell_enveloping_webs", "d7/dd0/a13964.html", "d7/dd0/a13964" ],
-    [ "spell_marli_transform", "df/d00/a13968.html", "df/d00/a13968" ],
+    [ "boss_marli", "da/d4f/a13953.html", "da/d4f/a13953" ],
+    [ "npc_spawn_of_marli", "d2/d3a/a13957.html", "d2/d3a/a13957" ],
+    [ "spell_hatch_eggs", "da/d9d/a13961.html", "da/d9d/a13961" ],
+    [ "spell_enveloping_webs", "d7/df5/a13965.html", "d7/df5/a13965" ],
+    [ "spell_marli_transform", "d6/d6d/a13969.html", "d6/d6d/a13969" ],
     [ "Events", "de/d09/a02861.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

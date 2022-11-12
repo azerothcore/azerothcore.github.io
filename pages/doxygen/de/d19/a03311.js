@@ -1,14 +1,14 @@
 var a03311 =
 [
-    [ "boss_trollgore", "d6/dca/a16944.html", "d6/dca/a16944" ],
-    [ "boss_trollgore::boss_trollgoreAI", "d5/d72/a16948.html", "d5/d72/a16948" ],
-    [ "spell_trollgore_consume", "db/d58/a16952.html", "db/d58/a16952" ],
-    [ "spell_trollgore_consume::spell_trollgore_consume_SpellScript", "d9/d12/a16956.html", "d9/d12/a16956" ],
-    [ "spell_trollgore_corpse_explode", "d4/da9/a16960.html", "d4/da9/a16960" ],
-    [ "spell_trollgore_corpse_explode::spell_trollgore_corpse_explode_AuraScript", "db/d3d/a16964.html", "db/d3d/a16964" ],
-    [ "spell_trollgore_invader_taunt", "d2/d7c/a16968.html", "d2/d7c/a16968" ],
-    [ "spell_trollgore_invader_taunt::spell_trollgore_invader_taunt_SpellScript", "d7/d15/a16972.html", "d7/d15/a16972" ],
-    [ "achievement_consumption_junction", "d8/dd7/a16976.html", "d8/dd7/a16976" ],
+    [ "boss_trollgore", "d7/d0c/a16945.html", "d7/d0c/a16945" ],
+    [ "boss_trollgore::boss_trollgoreAI", "da/d1a/a16949.html", "da/d1a/a16949" ],
+    [ "spell_trollgore_consume", "d5/da3/a16953.html", "d5/da3/a16953" ],
+    [ "spell_trollgore_consume::spell_trollgore_consume_SpellScript", "d8/dca/a16957.html", "d8/dca/a16957" ],
+    [ "spell_trollgore_corpse_explode", "d7/d08/a16961.html", "d7/d08/a16961" ],
+    [ "spell_trollgore_corpse_explode::spell_trollgore_corpse_explode_AuraScript", "d2/d72/a16965.html", "d2/d72/a16965" ],
+    [ "spell_trollgore_invader_taunt", "de/d10/a16969.html", "de/d10/a16969" ],
+    [ "spell_trollgore_invader_taunt::spell_trollgore_invader_taunt_SpellScript", "da/de0/a16973.html", "da/de0/a16973" ],
+    [ "achievement_consumption_junction", "d9/d6e/a16977.html", "d9/d6e/a16977" ],
     [ "Events", "de/d19/a03311.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

@@ -1,18 +1,18 @@
 var a01022 =
 [
-    [ "Acore::Impl::ChatCommands::ArgInfo< T, typename >", "dd/df5/a07028.html", null ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< T, std::enable_if_t< std::is_integral_v< T >||std::is_floating_point_v< T > > >", "d0/d15/a07032.html", "d0/d15/a07032" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< std::string_view, void >", "d9/d42/a07036.html", "d9/d42/a07036" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< std::string, void >", "dc/d14/a07040.html", "dc/d14/a07040" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< std::wstring, void >", "db/d73/a07044.html", "db/d73/a07044" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< T, std::enable_if_t< std::is_enum_v< T > > >", "d3/da4/a07048.html", "d3/da4/a07048" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< T, std::enable_if_t< std::is_base_of_v< ContainerTag, T > > >", "d4/d15/a07052.html", "d4/d15/a07052" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< std::vector< T >, void >", "d7/de7/a07056.html", "d7/de7/a07056" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< std::array< T, N >, void >", "d4/df2/a07060.html", "d4/df2/a07060" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< Acore::ChatCommands::Variant< Ts... > >", "df/d34/a07064.html", "df/d34/a07064" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< AchievementEntry const * >", "d8/d4c/a07068.html", "d8/d4c/a07068" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< GameTele const * >", "df/d27/a07072.html", "df/d27/a07072" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< ItemTemplate const * >", "da/dba/a07076.html", "da/dba/a07076" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< SpellInfo const * >", "d5/d58/a07080.html", "d5/d58/a07080" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< Quest const * >", "df/d45/a07084.html", "df/d45/a07084" ]
+    [ "Acore::Impl::ChatCommands::ArgInfo< T, typename >", "db/dc1/a07029.html", null ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< T, std::enable_if_t< std::is_integral_v< T >||std::is_floating_point_v< T > > >", "de/d18/a07033.html", "de/d18/a07033" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< std::string_view, void >", "d7/db0/a07037.html", "d7/db0/a07037" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< std::string, void >", "d7/dfb/a07041.html", "d7/dfb/a07041" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< std::wstring, void >", "dc/df5/a07045.html", "dc/df5/a07045" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< T, std::enable_if_t< std::is_enum_v< T > > >", "d9/d49/a07049.html", "d9/d49/a07049" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< T, std::enable_if_t< std::is_base_of_v< ContainerTag, T > > >", "d9/d0e/a07053.html", "d9/d0e/a07053" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< std::vector< T >, void >", "dc/d3d/a07057.html", "dc/d3d/a07057" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< std::array< T, N >, void >", "dc/db3/a07061.html", "dc/db3/a07061" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< Acore::ChatCommands::Variant< Ts... > >", "de/d2e/a07065.html", "de/d2e/a07065" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< AchievementEntry const * >", "d2/d4d/a07069.html", "d2/d4d/a07069" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< GameTele const * >", "d4/db7/a07073.html", "d4/db7/a07073" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< ItemTemplate const * >", "d9/d8e/a07077.html", "d9/d8e/a07077" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< SpellInfo const * >", "dc/ddc/a07081.html", "dc/ddc/a07081" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< Quest const * >", "de/ddd/a07085.html", "de/ddd/a07085" ]
 ];

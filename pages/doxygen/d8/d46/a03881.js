@@ -1,9 +1,9 @@
 var a03881 =
 [
-    [ "boss_doomlord_kazzak", "d2/da4/a24904.html", "d2/da4/a24904" ],
-    [ "boss_doomlord_kazzak::boss_doomlordkazzakAI", "dd/d3f/a24908.html", "dd/d3f/a24908" ],
-    [ "spell_mark_of_kazzak", "d0/dbf/a24912.html", "d0/dbf/a24912" ],
-    [ "spell_mark_of_kazzak::spell_mark_of_kazzak_AuraScript", "de/dfc/a24916.html", "de/dfc/a24916" ],
+    [ "boss_doomlord_kazzak", "d2/d64/a24905.html", "d2/d64/a24905" ],
+    [ "boss_doomlord_kazzak::boss_doomlordkazzakAI", "de/df5/a24909.html", "de/df5/a24909" ],
+    [ "spell_mark_of_kazzak", "d5/dd5/a24913.html", "d5/dd5/a24913" ],
+    [ "spell_mark_of_kazzak::spell_mark_of_kazzak_AuraScript", "d6/de6/a24917.html", "d6/de6/a24917" ],
     [ "Events", "d8/d46/a03881.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

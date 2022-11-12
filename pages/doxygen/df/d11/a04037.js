@@ -1,7 +1,7 @@
 var a04037 =
 [
-    [ "boss_high_botanist_freywinn", "de/d3e/a25672.html", "de/d3e/a25672" ],
-    [ "boss_high_botanist_freywinn::boss_high_botanist_freywinnAI", "d3/d3e/a25676.html", "d3/d3e/a25676" ],
+    [ "boss_high_botanist_freywinn", "d5/d03/a25673.html", "d5/d03/a25673" ],
+    [ "boss_high_botanist_freywinn::boss_high_botanist_freywinnAI", "d6/d2f/a25677.html", "d6/d2f/a25677" ],
     [ "Misc", "df/d11/a04037.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d8/db7/a02450.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "df/d89/a02462.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

@@ -1,10 +1,10 @@
 var a02927 =
 [
-    [ "boss_kazrogal", "d0/dbc/a14512.html", "d0/dbc/a14512" ],
-    [ "boss_kazrogal::boss_kazrogalAI", "d5/d12/a14516.html", "d5/d12/a14516" ],
-    [ "spell_mark_of_kazrogal", "dd/d49/a14520.html", "dd/d49/a14520" ],
-    [ "spell_mark_of_kazrogal::spell_mark_of_kazrogal_SpellScript", "de/dab/a14524.html", "de/dab/a14524" ],
-    [ "spell_mark_of_kazrogal::spell_mark_of_kazrogal_AuraScript", "da/dde/a14528.html", "da/dde/a14528" ],
+    [ "boss_kazrogal", "d2/d09/a14513.html", "d2/d09/a14513" ],
+    [ "boss_kazrogal::boss_kazrogalAI", "d5/d1b/a14517.html", "d5/d1b/a14517" ],
+    [ "spell_mark_of_kazrogal", "df/d94/a14521.html", "df/d94/a14521" ],
+    [ "spell_mark_of_kazrogal::spell_mark_of_kazrogal_SpellScript", "d7/d0c/a14525.html", "d7/d0c/a14525" ],
+    [ "spell_mark_of_kazrogal::spell_mark_of_kazrogal_AuraScript", "db/dfa/a14529.html", "db/dfa/a14529" ],
     [ "Sounds", "d5/dea/a02927.html#a378d5c1c6cef9f24f253a041e207663c", [
       [ "SOUND_ONDEATH", "d5/dea/a02927.html#a378d5c1c6cef9f24f253a041e207663ca58cd7625c6ee6018ac12a602b0cdbc9c", null ],
       [ "SOUND_VK_AGGRO", "da/dc0/a03104.html#a378d5c1c6cef9f24f253a041e207663ca0edcc266fe5c93b2c8928b48e4e6743e", null ],

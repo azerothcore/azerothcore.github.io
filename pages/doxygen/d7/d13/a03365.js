@@ -1,8 +1,8 @@
 var a03365 =
 [
-    [ "ChampionPosition", "dd/d82/a17464.html", "dd/d82/a17464" ],
-    [ "FBSPosition", "db/dcc/a17468.html", "db/dcc/a17468" ],
-    [ "TSPosition", "df/dca/a17472.html", "df/dca/a17472" ],
+    [ "ChampionPosition", "d3/d73/a17465.html", "d3/d73/a17465" ],
+    [ "FBSPosition", "d1/d04/a17469.html", "d1/d04/a17469" ],
+    [ "TSPosition", "d8/d10/a17473.html", "d8/d10/a17473" ],
     [ "PATH_BEGIN_VALUE", "d7/d13/a03365.html#a5e53249f20085a0a3fa19bdb577ee3c0", null ],
     [ "PitOfSaronScriptName", "d7/d13/a03365.html#ac8331e51ea541bfd050c3deb5dc0a07a", null ],
     [ "CreatureIds", "d7/d13/a03365.html#a92f6fd626e1834a4cc509efc1186963e", [

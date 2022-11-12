@@ -1,5 +1,5 @@
 var a00035 =
 [
-    [ "BIHWrap< T, BoundsFunc >", "dd/d39/a04560.html", "dd/d39/a04560" ],
-    [ "BIHWrap< T, BoundsFunc >::MDLCallback< RayCallback >", "d7/df4/a04564.html", "d7/df4/a04564" ]
+    [ "BIHWrap< T, BoundsFunc >", "d7/dba/a04561.html", "d7/dba/a04561" ],
+    [ "BIHWrap< T, BoundsFunc >::MDLCallback< RayCallback >", "db/d3f/a04565.html", "db/d3f/a04565" ]
 ];

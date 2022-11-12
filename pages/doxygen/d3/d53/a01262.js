@@ -1,7 +1,7 @@
 var a01262 =
 [
-    [ "SpellModPred", "d7/dfe/a07936.html", "d7/dfe/a07936" ],
-    [ "MageSpellModPred", "d9/d37/a07940.html", "d9/d37/a07940" ],
+    [ "SpellModPred", "d1/d89/a07937.html", "d1/d89/a07937" ],
+    [ "MageSpellModPred", "de/d98/a07941.html", "de/d98/a07941" ],
     [ "CharacterCustomizeFlags", "d3/d53/a01262.html#a3a8c2696b2e9a6bf9d90ce80438aa578", [
       [ "CHAR_CUSTOMIZE_FLAG_NONE", "d3/d53/a01262.html#a3a8c2696b2e9a6bf9d90ce80438aa578a6f6dac768618381b22f3ab44ba494533", null ],
       [ "CHAR_CUSTOMIZE_FLAG_CUSTOMIZE", "d3/d53/a01262.html#a3a8c2696b2e9a6bf9d90ce80438aa578aadb876a16cbe9fa5facd96601b6a4626", null ],

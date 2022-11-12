@@ -1,13 +1,13 @@
 var a03899 =
 [
-    [ "boss_the_lurker_below", "df/d56/a25080.html", "df/d56/a25080" ],
-    [ "boss_the_lurker_below::boss_the_lurker_belowAI", "df/dc3/a25084.html", "df/dc3/a25084" ],
-    [ "go_strange_pool", "d1/d4c/a25088.html", "d1/d4c/a25088" ],
-    [ "spell_lurker_below_spout", "d7/dbf/a25092.html", "d7/dbf/a25092" ],
-    [ "spell_lurker_below_spout::spell_lurker_below_spout_AuraScript", "db/dab/a25096.html", "db/dab/a25096" ],
-    [ "HasInLineCheck", "dd/d6e/a25100.html", "dd/d6e/a25100" ],
-    [ "spell_lurker_below_spout_cone", "d9/d01/a25104.html", "d9/d01/a25104" ],
-    [ "spell_lurker_below_spout_cone::spell_lurker_below_spout_cone_SpellScript", "dc/d1b/a25108.html", "dc/d1b/a25108" ],
+    [ "boss_the_lurker_below", "d5/d53/a25081.html", "d5/d53/a25081" ],
+    [ "boss_the_lurker_below::boss_the_lurker_belowAI", "df/d0f/a25085.html", "df/d0f/a25085" ],
+    [ "go_strange_pool", "d3/df5/a25089.html", "d3/df5/a25089" ],
+    [ "spell_lurker_below_spout", "d9/d3d/a25093.html", "d9/d3d/a25093" ],
+    [ "spell_lurker_below_spout::spell_lurker_below_spout_AuraScript", "d9/d37/a25097.html", "d9/d37/a25097" ],
+    [ "HasInLineCheck", "db/db8/a25101.html", "db/db8/a25101" ],
+    [ "spell_lurker_below_spout_cone", "d8/d97/a25105.html", "d8/d97/a25105" ],
+    [ "spell_lurker_below_spout_cone::spell_lurker_below_spout_cone_SpellScript", "d3/ddc/a25109.html", "d3/ddc/a25109" ],
     [ "Misc", "d0/d33/a03899.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d8/db7/a02450.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "df/d89/a02462.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

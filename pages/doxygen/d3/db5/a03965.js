@@ -1,7 +1,7 @@
 var a03965 =
 [
-    [ "boss_the_maker", "d6/d4f/a25408.html", "d6/d4f/a25408" ],
-    [ "boss_the_maker::boss_the_makerAI", "d8/d69/a25412.html", "d8/d69/a25412" ],
+    [ "boss_the_maker", "d3/d76/a25409.html", "d3/d76/a25409" ],
+    [ "boss_the_maker::boss_the_makerAI", "df/d4a/a25413.html", "df/d4a/a25413" ],
     [ "eEnums", "d3/db5/a03965.html#a0ec08fe05ebfdddfa34c747c9c62a165", [
       [ "SPELL_FROZEN_PRISON", "d7/d83/a03506.html#a0ec08fe05ebfdddfa34c747c9c62a165a874864078de8743889d364bbecadcee6", null ],
       [ "SPELL_TAIL_SWEEP", "d7/d83/a03506.html#a0ec08fe05ebfdddfa34c747c9c62a165addcb3daa6cdc61ef04c65580e44ef823", null ],

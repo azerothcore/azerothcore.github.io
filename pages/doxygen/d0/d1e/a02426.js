@@ -1,7 +1,7 @@
 var a02426 =
 [
-    [ "boss_general_angerforge", "d1/d6b/a11260.html", "d1/d6b/a11260" ],
-    [ "boss_general_angerforge::boss_general_angerforgeAI", "d0/d66/a11264.html", "d0/d66/a11264" ],
+    [ "boss_general_angerforge", "d7/dd1/a11261.html", "d7/dd1/a11261" ],
+    [ "boss_general_angerforge::boss_general_angerforgeAI", "d7/d23/a11265.html", "d7/d23/a11265" ],
     [ "Spells", "d0/d1e/a02426.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

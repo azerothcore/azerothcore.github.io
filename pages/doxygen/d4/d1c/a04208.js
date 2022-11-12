@@ -1,14 +1,14 @@
 var a04208 =
 [
-    [ "item_only_for_flight", "d7/d30/a29412.html", "d7/d30/a29412" ],
-    [ "item_nether_wraith_beacon", "d9/de1/a29416.html", "d9/de1/a29416" ],
-    [ "item_gor_dreks_ointment", "de/d17/a29420.html", "de/d17/a29420" ],
-    [ "item_incendiary_explosives", "d1/d3b/a29424.html", "d1/d3b/a29424" ],
-    [ "item_mysterious_egg", "d1/d67/a29428.html", "d1/d67/a29428" ],
-    [ "item_disgusting_jar", "d0/d33/a29432.html", "d0/d33/a29432" ],
-    [ "item_petrov_cluster_bombs", "da/dd9/a29436.html", "da/dd9/a29436" ],
-    [ "item_captured_frog", "d3/d6d/a29440.html", "d3/d6d/a29440" ],
-    [ "item_generic_limit_chance_above_60", "de/d3d/a29444.html", "de/d3d/a29444" ],
+    [ "item_only_for_flight", "d0/d71/a29413.html", "d0/d71/a29413" ],
+    [ "item_nether_wraith_beacon", "de/d03/a29417.html", "de/d03/a29417" ],
+    [ "item_gor_dreks_ointment", "df/d05/a29421.html", "df/d05/a29421" ],
+    [ "item_incendiary_explosives", "dd/dbc/a29425.html", "dd/dbc/a29425" ],
+    [ "item_mysterious_egg", "d9/d2f/a29429.html", "d9/d2f/a29429" ],
+    [ "item_disgusting_jar", "d7/d09/a29433.html", "d7/d09/a29433" ],
+    [ "item_petrov_cluster_bombs", "d2/d95/a29437.html", "d2/d95/a29437" ],
+    [ "item_captured_frog", "d8/d2c/a29441.html", "d8/d2c/a29441" ],
+    [ "item_generic_limit_chance_above_60", "d0/dd8/a29445.html", "d0/dd8/a29445" ],
     [ "CapturedFrog", "d4/d1c/a04208.html#a3a51d3f5cfd1964cbec23fcba5046cca", [
       [ "QUEST_THE_PERFECT_SPIES", "d4/d1c/a04208.html#a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04", null ],
       [ "NPC_VANIRAS_SENTRY_TOTEM", "d4/d1c/a04208.html#a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f", null ]

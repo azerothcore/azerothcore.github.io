@@ -1,7 +1,7 @@
 var a03002 =
 [
-    [ "boss_temporus", "d6/d09/a14804.html", "d6/d09/a14804" ],
-    [ "boss_temporus::boss_temporusAI", "d4/d0a/a14808.html", "d4/d0a/a14808" ],
+    [ "boss_temporus", "d6/d15/a14805.html", "d6/d15/a14805" ],
+    [ "boss_temporus::boss_temporusAI", "d1/d1a/a14809.html", "d1/d1a/a14809" ],
     [ "Enums", "de/d27/a03002.html#a00ab157b0083a5c08d8f473793fba8e4", [
       [ "SAY_ENTER", "d3/d8b/a02996.html#a00ab157b0083a5c08d8f473793fba8e4abde0ca14c874b2c3317dd55732863028", null ],
       [ "SAY_AGGRO", "d3/d8b/a02996.html#a00ab157b0083a5c08d8f473793fba8e4a47c752fff069f3e55065795eef2a9bfe", null ],

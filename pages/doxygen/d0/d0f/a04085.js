@@ -1,7 +1,7 @@
 var a04085 =
 [
-    [ "boss_pathaleon_the_calculator", "d7/d79/a25976.html", "d7/d79/a25976" ],
-    [ "boss_pathaleon_the_calculator::boss_pathaleon_the_calculatorAI", "dd/dd4/a25980.html", "dd/dd4/a25980" ],
+    [ "boss_pathaleon_the_calculator", "d4/d0e/a25977.html", "d4/d0e/a25977" ],
+    [ "boss_pathaleon_the_calculator::boss_pathaleon_the_calculatorAI", "d3/d02/a25981.html", "d3/d02/a25981" ],
     [ "Events", "d0/d0f/a04085.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

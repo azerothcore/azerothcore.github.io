@@ -1,9 +1,9 @@
 var a02489 =
 [
-    [ "npc_rookery_hatcher", "db/dff/a11440.html", "db/dff/a11440" ],
-    [ "npc_rookery_hatcher::npc_rookery_hatcherAI", "d7/dbc/a11444.html", "d7/dbc/a11444" ],
-    [ "boss_solakar_flamewreath", "d1/d7d/a11448.html", "d1/d7d/a11448" ],
-    [ "boss_solakar_flamewreath::boss_solakar_flamewreathAI", "d7/dd8/a11452.html", "d7/dd8/a11452" ],
+    [ "npc_rookery_hatcher", "dd/d72/a11441.html", "dd/d72/a11441" ],
+    [ "npc_rookery_hatcher::npc_rookery_hatcherAI", "d0/d81/a11445.html", "d0/d81/a11445" ],
+    [ "boss_solakar_flamewreath", "d5/d33/a11449.html", "d5/d33/a11449" ],
+    [ "boss_solakar_flamewreath::boss_solakar_flamewreathAI", "d5/d88/a11453.html", "d5/d88/a11453" ],
     [ "Says", "da/dbe/a02489.html#a16774215bba3b38580ea51987d64cff1", [
       [ "SAY_START_FIGHT", "d8/db7/a02450.html#a16774215bba3b38580ea51987d64cff1a8faddecee02adff0c6fb321d27621e1e", null ],
       [ "EMOTE_DEATH", "d4/d73/a02465.html#a16774215bba3b38580ea51987d64cff1a532dda2af249d6245366a455505ac407", null ],

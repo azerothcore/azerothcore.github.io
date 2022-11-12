@@ -1,8 +1,8 @@
 var a01400 =
 [
-    [ "Roll", "de/d49/a08852.html", "de/d49/a08852" ],
-    [ "Group", "d4/dfc/a08856.html", "d4/dfc/a08856" ],
-    [ "Group::MemberSlot", "d7/d4d/a08860.html", "d7/d4d/a08860" ],
+    [ "Roll", "d2/db4/a08853.html", "d2/db4/a08853" ],
+    [ "Group", "d1/df1/a08857.html", "d1/df1/a08857" ],
+    [ "Group::MemberSlot", "d2/d86/a08861.html", "d2/d86/a08861" ],
     [ "GROUP_UPDATE_FLAGS_COUNT", "dc/d35/a01400.html#ad409013260cb0aea80c911d24d7b5d00", null ],
     [ "MAX_RAID_SUBGROUPS", "dc/d35/a01400.html#afb58b37bfbd0e4d75c26cc40d4066a43", null ],
     [ "MAXGROUPSIZE", "dc/d35/a01400.html#a41ded42f25275d85cb15f89e0cb21745", null ],

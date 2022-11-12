@@ -1,9 +1,9 @@
 var a04034 =
 [
-    [ "boss_commander_sarannis", "d2/deb/a25656.html", "d2/deb/a25656" ],
-    [ "boss_commander_sarannis::boss_commander_sarannisAI", "d7/deb/a25660.html", "d7/deb/a25660" ],
-    [ "spell_commander_sarannis_summon_reinforcements", "d3/de9/a25664.html", "d3/de9/a25664" ],
-    [ "spell_commander_sarannis_summon_reinforcements::spell_commander_sarannis_summon_reinforcements_SpellScript", "d5/dec/a25668.html", "d5/dec/a25668" ],
+    [ "boss_commander_sarannis", "d9/d9b/a25657.html", "d9/d9b/a25657" ],
+    [ "boss_commander_sarannis::boss_commander_sarannisAI", "d8/d48/a25661.html", "d8/d48/a25661" ],
+    [ "spell_commander_sarannis_summon_reinforcements", "d2/d52/a25665.html", "d2/d52/a25665" ],
+    [ "spell_commander_sarannis_summon_reinforcements::spell_commander_sarannis_summon_reinforcements_SpellScript", "d9/dec/a25669.html", "d9/dec/a25669" ],
     [ "Creatures", "d9/d85/a04034.html#a25a619e6b66096a4f05d048e4a96df08", [
       [ "NPC_NORTH_MARSHAL", "d1/d29/a02393.html#a25a619e6b66096a4f05d048e4a96df08abeb6d3b1ff8238f7c57911ab8acde69e", null ],
       [ "NPC_SOUTH_MARSHAL", "d1/d29/a02393.html#a25a619e6b66096a4f05d048e4a96df08a9a3360dc10641daabdef8158f42ee00e", null ],

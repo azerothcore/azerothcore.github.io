@@ -1,11 +1,11 @@
 var a03902 =
 [
-    [ "boss_morogrim_tidewalker", "d7/d8d/a25112.html", "d7/d8d/a25112" ],
-    [ "boss_morogrim_tidewalker::boss_morogrim_tidewalkerAI", "d6/dc2/a25116.html", "d6/dc2/a25116" ],
-    [ "spell_morogrim_tidewalker_watery_grave", "d1/d05/a25120.html", "d1/d05/a25120" ],
-    [ "spell_morogrim_tidewalker_watery_grave::spell_morogrim_tidewalker_watery_grave_SpellScript", "db/dc3/a25124.html", "db/dc3/a25124" ],
-    [ "spell_morogrim_tidewalker_water_globule_new_target", "d1/d93/a25128.html", "d1/d93/a25128" ],
-    [ "spell_morogrim_tidewalker_water_globule_new_target::spell_morogrim_tidewalker_water_globule_new_target_SpellScript", "de/d68/a25132.html", "de/d68/a25132" ],
+    [ "boss_morogrim_tidewalker", "dd/d86/a25113.html", "dd/d86/a25113" ],
+    [ "boss_morogrim_tidewalker::boss_morogrim_tidewalkerAI", "da/d8d/a25117.html", "da/d8d/a25117" ],
+    [ "spell_morogrim_tidewalker_watery_grave", "d7/d7c/a25121.html", "d7/d7c/a25121" ],
+    [ "spell_morogrim_tidewalker_watery_grave::spell_morogrim_tidewalker_watery_grave_SpellScript", "df/d23/a25125.html", "df/d23/a25125" ],
+    [ "spell_morogrim_tidewalker_water_globule_new_target", "dc/d7a/a25129.html", "dc/d7a/a25129" ],
+    [ "spell_morogrim_tidewalker_water_globule_new_target::spell_morogrim_tidewalker_water_globule_new_target_SpellScript", "dd/d63/a25133.html", "dd/d63/a25133" ],
     [ "Misc", "d9/d7a/a03902.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d8/db7/a02450.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "df/d89/a02462.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

@@ -1,12 +1,12 @@
 var a03374 =
 [
-    [ "boss_gal_darah", "d0/d5e/a17532.html", "d0/d5e/a17532" ],
-    [ "boss_gal_darah::boss_gal_darahAI", "d5/d41/a17536.html", "d5/d41/a17536" ],
-    [ "spell_galdarah_impaling_charge", "d0/d49/a17540.html", "d0/d49/a17540" ],
-    [ "spell_galdarah_impaling_charge::spell_galdarah_impaling_charge_SpellScript", "d6/d8c/a17544.html", "d6/d8c/a17544" ],
-    [ "spell_galdarah_transform", "dd/d61/a17548.html", "dd/d61/a17548" ],
-    [ "spell_galdarah_transform::spell_galdarah_transform_SpellScript", "da/d6d/a17552.html", "da/d6d/a17552" ],
-    [ "achievement_share_the_love", "de/d78/a17556.html", "de/d78/a17556" ],
+    [ "boss_gal_darah", "df/d30/a17533.html", "df/d30/a17533" ],
+    [ "boss_gal_darah::boss_gal_darahAI", "dc/d29/a17537.html", "dc/d29/a17537" ],
+    [ "spell_galdarah_impaling_charge", "d3/dbc/a17541.html", "d3/dbc/a17541" ],
+    [ "spell_galdarah_impaling_charge::spell_galdarah_impaling_charge_SpellScript", "df/de5/a17545.html", "df/de5/a17545" ],
+    [ "spell_galdarah_transform", "d2/df4/a17549.html", "d2/df4/a17549" ],
+    [ "spell_galdarah_transform::spell_galdarah_transform_SpellScript", "dd/d77/a17553.html", "dd/d77/a17553" ],
+    [ "achievement_share_the_love", "d1/db9/a17557.html", "d1/db9/a17557" ],
     [ "Events", "d4/d6f/a03374.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

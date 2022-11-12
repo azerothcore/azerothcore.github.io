@@ -1,9 +1,9 @@
 var a01019 =
 [
-    [ "AchievementVisitor", "d5/d59/a07008.html", "d5/d59/a07008" ],
-    [ "GameTeleVisitor", "d0/d26/a07012.html", "d0/d26/a07012" ],
-    [ "ItemTemplateVisitor", "d4/d0d/a07016.html", "d4/d0d/a07016" ],
-    [ "SpellInfoVisitor", "d3/d28/a07020.html", "d3/d28/a07020" ],
-    [ "QuestVisitor", "d3/d61/a07024.html", "d3/d61/a07024" ],
+    [ "AchievementVisitor", "d7/da6/a07009.html", "d7/da6/a07009" ],
+    [ "GameTeleVisitor", "d5/d9b/a07013.html", "d5/d9b/a07013" ],
+    [ "ItemTemplateVisitor", "d6/d00/a07017.html", "d6/d00/a07017" ],
+    [ "SpellInfoVisitor", "d8/d2b/a07021.html", "d8/d2b/a07021" ],
+    [ "QuestVisitor", "d7/d20/a07025.html", "d7/d20/a07025" ],
     [ "ChatCommandResult", "db/daf/a01019.html#ad9c9d483b96ed400318aed8441ebe7f1", null ]
 ];

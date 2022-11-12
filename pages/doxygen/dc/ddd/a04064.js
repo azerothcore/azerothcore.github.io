@@ -1,7 +1,7 @@
 var a04064 =
 [
-    [ "boss_void_reaver", "db/dad/a25888.html", "db/dad/a25888" ],
-    [ "boss_void_reaver::boss_void_reaverAI", "d7/d3f/a25892.html", "d7/d3f/a25892" ],
+    [ "boss_void_reaver", "d0/d59/a25889.html", "d0/d59/a25889" ],
+    [ "boss_void_reaver::boss_void_reaverAI", "de/d60/a25893.html", "de/d60/a25893" ],
     [ "voidReaver", "dc/ddd/a04064.html#a28ac0e4c009a9641eced9517d2c0e8b6", [
       [ "SAY_AGGRO", "dc/ddd/a04064.html#a28ac0e4c009a9641eced9517d2c0e8b6a47c752fff069f3e55065795eef2a9bfe", null ],
       [ "SAY_SLAY", "dc/ddd/a04064.html#a28ac0e4c009a9641eced9517d2c0e8b6a9e64f6e600dd42567d18006912811f75", null ],

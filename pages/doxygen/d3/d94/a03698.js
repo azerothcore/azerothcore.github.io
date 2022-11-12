@@ -1,7 +1,7 @@
 var a03698 =
 [
-    [ "boss_lavanthor", "d0/d14/a22784.html", "d0/d14/a22784" ],
-    [ "boss_lavanthor::boss_lavanthorAI", "dc/dab/a22788.html", "dc/dab/a22788" ],
+    [ "boss_lavanthor", "d7/da8/a22785.html", "d7/da8/a22785" ],
+    [ "boss_lavanthor::boss_lavanthorAI", "db/d0f/a22789.html", "db/d0f/a22789" ],
     [ "SPELL_FIREBOLT", "d3/d94/a03698.html#a94110f350a63e3a0731b1b97c1f4a6f0", null ],
     [ "SPELL_FLAME_BREATH", "d3/d94/a03698.html#a978b3c2123de6457ba04429723a69aa0", null ],
     [ "SPELL_LAVA_BURN", "d3/d94/a03698.html#a3a522514dd7314eb282f945adac8ac4f", null ],

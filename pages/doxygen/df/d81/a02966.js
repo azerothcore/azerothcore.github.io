@@ -1,9 +1,9 @@
 var a02966 =
 [
-    [ "boss_salramm", "d1/d59/a14684.html", "d1/d59/a14684" ],
-    [ "boss_salramm::boss_salrammAI", "de/d8e/a14688.html", "de/d8e/a14688" ],
-    [ "spell_boss_salramm_steal_flesh", "d6/dac/a14692.html", "d6/dac/a14692" ],
-    [ "spell_boss_salramm_steal_flesh::spell_boss_salramm_steal_flesh_AuraScript", "db/d15/a14696.html", "db/d15/a14696" ],
+    [ "boss_salramm", "d5/ddf/a14685.html", "d5/ddf/a14685" ],
+    [ "boss_salramm::boss_salrammAI", "d8/dc0/a14689.html", "d8/dc0/a14689" ],
+    [ "spell_boss_salramm_steal_flesh", "d4/d06/a14693.html", "d4/d06/a14693" ],
+    [ "spell_boss_salramm_steal_flesh::spell_boss_salramm_steal_flesh_AuraScript", "d1/d15/a14697.html", "d1/d15/a14697" ],
     [ "Events", "df/d81/a02966.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

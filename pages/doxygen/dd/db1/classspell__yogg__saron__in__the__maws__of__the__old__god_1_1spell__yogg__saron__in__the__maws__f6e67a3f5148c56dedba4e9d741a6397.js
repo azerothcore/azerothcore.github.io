@@ -1,6 +1,0 @@
-var classspell__yogg__saron__in__the__maws__of__the__old__god_1_1spell__yogg__saron__in__the__maws__f6e67a3f5148c56dedba4e9d741a6397 =
-[
-    [ "CheckCast", "dd/db1/classspell__yogg__saron__in__the__maws__of__the__old__god_1_1spell__yogg__saron__in__the__maws__f6e67a3f5148c56dedba4e9d741a6397.html#a68cac5523e6688ea5e00e472aedfac4d", null ],
-    [ "PrepareSpellScript", "dd/db1/classspell__yogg__saron__in__the__maws__of__the__old__god_1_1spell__yogg__saron__in__the__maws__f6e67a3f5148c56dedba4e9d741a6397.html#a536cc8555c7ba23624175c90745a912c", null ],
-    [ "Register", "dd/db1/classspell__yogg__saron__in__the__maws__of__the__old__god_1_1spell__yogg__saron__in__the__maws__f6e67a3f5148c56dedba4e9d741a6397.html#a2aff37d42f0a531e229b016f34560663", null ]
-];

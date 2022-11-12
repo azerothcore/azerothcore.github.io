@@ -1,7 +1,7 @@
 var a02513 =
 [
-    [ "boss_ebonroc", "df/d37/a11580.html", "df/d37/a11580" ],
-    [ "boss_ebonroc::boss_ebonrocAI", "d9/d30/a11584.html", "d9/d30/a11584" ],
+    [ "boss_ebonroc", "d0/d65/a11581.html", "d0/d65/a11581" ],
+    [ "boss_ebonroc::boss_ebonrocAI", "dd/db5/a11585.html", "dd/db5/a11585" ],
     [ "Events", "dc/de1/a02513.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

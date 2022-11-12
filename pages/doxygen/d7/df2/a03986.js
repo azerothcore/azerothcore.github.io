@@ -1,12 +1,12 @@
 var a03986 =
 [
-    [ "DealDebrisDamage", "d3/d16/a25488.html", "d3/d16/a25488" ],
-    [ "boss_magtheridon", "de/dea/a25492.html", "de/dea/a25492" ],
-    [ "boss_magtheridon::boss_magtheridonAI", "d2/d5e/a25496.html", "d2/d5e/a25496" ],
-    [ "spell_magtheridon_blaze", "db/d26/a25500.html", "db/d26/a25500" ],
-    [ "spell_magtheridon_blaze::spell_magtheridon_blaze_SpellScript", "d5/da1/a25504.html", "d5/da1/a25504" ],
-    [ "spell_magtheridon_shadow_grasp", "d8/d7f/a25508.html", "d8/d7f/a25508" ],
-    [ "spell_magtheridon_shadow_grasp::spell_magtheridon_shadow_grasp_AuraScript", "db/da6/a25512.html", "db/da6/a25512" ],
+    [ "DealDebrisDamage", "d2/d09/a25489.html", "d2/d09/a25489" ],
+    [ "boss_magtheridon", "d2/d66/a25493.html", "d2/d66/a25493" ],
+    [ "boss_magtheridon::boss_magtheridonAI", "db/dc8/a25497.html", "db/dc8/a25497" ],
+    [ "spell_magtheridon_blaze", "d9/d95/a25501.html", "d9/d95/a25501" ],
+    [ "spell_magtheridon_blaze::spell_magtheridon_blaze_SpellScript", "d8/de1/a25505.html", "d8/de1/a25505" ],
+    [ "spell_magtheridon_shadow_grasp", "d0/db4/a25509.html", "d0/db4/a25509" ],
+    [ "spell_magtheridon_shadow_grasp::spell_magtheridon_shadow_grasp_AuraScript", "df/d0b/a25513.html", "df/d0b/a25513" ],
     [ "Emotes", "d7/df2/a03986.html#a2d0a63150f7988db8ff39124dc1cb21a", [
       [ "EMOTE_FRENZY", "dd/df4/a02510.html#a2d0a63150f7988db8ff39124dc1cb21aa55f111609d7846e27c2f642b9f46b1ac", null ],
       [ "EMOTE_SHIMMER", "dd/df4/a02510.html#a2d0a63150f7988db8ff39124dc1cb21aa706a7a036a41d3d1f2650ee226e9ec1e", null ],

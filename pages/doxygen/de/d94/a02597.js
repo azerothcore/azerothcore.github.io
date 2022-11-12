@@ -1,7 +1,7 @@
 var a02597 =
 [
-    [ "boss_maiden_of_virtue", "d4/dea/a11976.html", "d4/dea/a11976" ],
-    [ "boss_maiden_of_virtue::boss_maiden_of_virtueAI", "d3/d20/a11980.html", "d3/d20/a11980" ],
+    [ "boss_maiden_of_virtue", "d6/d82/a11977.html", "d6/d82/a11977" ],
+    [ "boss_maiden_of_virtue::boss_maiden_of_virtueAI", "d5/daf/a11981.html", "d5/daf/a11981" ],
     [ "MaidenOfVirtue", "de/d94/a02597.html#af5ec2136588025056336fd1fcc8a3a4b", [
       [ "SAY_AGGRO", "de/d94/a02597.html#af5ec2136588025056336fd1fcc8a3a4ba47c752fff069f3e55065795eef2a9bfe", null ],
       [ "SAY_SLAY", "de/d94/a02597.html#af5ec2136588025056336fd1fcc8a3a4ba9e64f6e600dd42567d18006912811f75", null ],

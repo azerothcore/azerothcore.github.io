@@ -1,7 +1,7 @@
 var a02468 =
 [
-    [ "boss_highlord_omokk", "df/dc6/a11384.html", "df/dc6/a11384" ],
-    [ "boss_highlord_omokk::boss_highlordomokkAI", "da/d88/a11388.html", "da/d88/a11388" ],
+    [ "boss_highlord_omokk", "d9/dab/a11385.html", "d9/dab/a11385" ],
+    [ "boss_highlord_omokk::boss_highlordomokkAI", "d2/dbf/a11389.html", "d2/dbf/a11389" ],
     [ "Events", "d2/d35/a02468.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

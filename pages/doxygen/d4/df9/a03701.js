@@ -1,9 +1,9 @@
 var a03701 =
 [
-    [ "boss_moragg", "de/dd4/a22792.html", "de/dd4/a22792" ],
-    [ "boss_moragg::boss_moraggAI", "d0/d96/a22796.html", "d0/d96/a22796" ],
-    [ "spell_optic_link", "d9/d45/a22800.html", "d9/d45/a22800" ],
-    [ "spell_optic_link::spell_optic_linkAuraScript", "dc/d34/a22804.html", "dc/d34/a22804" ],
+    [ "boss_moragg", "df/dc5/a22793.html", "df/dc5/a22793" ],
+    [ "boss_moragg::boss_moraggAI", "d8/d71/a22797.html", "d8/d71/a22797" ],
+    [ "spell_optic_link", "d3/d0f/a22801.html", "d3/d0f/a22801" ],
+    [ "spell_optic_link::spell_optic_linkAuraScript", "df/da1/a22805.html", "df/da1/a22805" ],
     [ "SPELL_RAY_OF_PAIN", "d4/df9/a03701.html#aa9ba544c502c6bd86c2037c6e54385a9", null ],
     [ "SPELL_RAY_OF_SUFFERING", "d4/df9/a03701.html#a7e55137f3efe6b9aa44c5c70f106c4b9", null ],
     [ "eEvents", "d4/df9/a03701.html#a1d3512b0adb171bd0db6aad2c9e70516", [

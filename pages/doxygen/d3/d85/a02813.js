@@ -1,9 +1,9 @@
 var a02813 =
 [
-    [ "boss_halazzi", "d8/de9/a13580.html", "d8/de9/a13580" ],
-    [ "boss_halazzi::boss_halazziAI", "df/db2/a13584.html", "df/db2/a13584" ],
-    [ "npc_halazzi_lynx", "d5/dc3/a13588.html", "d5/dc3/a13588" ],
-    [ "npc_halazzi_lynx::npc_halazzi_lynxAI", "d0/d1e/a13592.html", "d0/d1e/a13592" ],
+    [ "boss_halazzi", "da/d09/a13581.html", "da/d09/a13581" ],
+    [ "boss_halazzi::boss_halazziAI", "d4/d67/a13585.html", "d4/d67/a13585" ],
+    [ "npc_halazzi_lynx", "db/d1c/a13589.html", "db/d1c/a13589" ],
+    [ "npc_halazzi_lynx::npc_halazzi_lynxAI", "da/d6a/a13593.html", "da/d6a/a13593" ],
     [ "Hal_CreatureIds", "d3/d85/a02813.html#ac90421cd4206eda5129bd1e1e42a3ba8", [
       [ "NPC_SPIRIT_LYNX", "d3/d85/a02813.html#ac90421cd4206eda5129bd1e1e42a3ba8a8f225a27e896bcfd28fb1d28b9126752", null ],
       [ "NPC_TOTEM", "d3/d85/a02813.html#ac90421cd4206eda5129bd1e1e42a3ba8a76871419e416cabd16418062e27e10c2", null ]

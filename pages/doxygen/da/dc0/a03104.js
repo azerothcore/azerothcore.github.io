@@ -1,10 +1,10 @@
 var a03104 =
 [
-    [ "boss_twinemperorsAI", "d8/df3/a15160.html", "d8/df3/a15160" ],
-    [ "boss_veknilash", "db/ddd/a15164.html", "db/ddd/a15164" ],
-    [ "boss_veklor", "db/d76/a15168.html", "db/d76/a15168" ],
-    [ "at_twin_emperors", "db/dbf/a15172.html", "db/dbf/a15172" ],
-    [ "spell_mutate_explode_bug", "d8/d47/a15176.html", "d8/d47/a15176" ],
+    [ "boss_twinemperorsAI", "d2/da3/a15161.html", "d2/da3/a15161" ],
+    [ "boss_veknilash", "dc/de6/a15165.html", "dc/de6/a15165" ],
+    [ "boss_veklor", "db/df1/a15169.html", "db/df1/a15169" ],
+    [ "at_twin_emperors", "d9/d84/a15173.html", "d9/d84/a15173" ],
+    [ "spell_mutate_explode_bug", "d7/deb/a15177.html", "d7/deb/a15177" ],
     [ "Actions", "da/dc0/a03104.html#a250372292659bed7ae290d8621f88ccf", [
       [ "ACTION_GUNSHIP_READY", "d6/dad/a00941.html#a250372292659bed7ae290d8621f88ccfaae8bb35d65ee37e4d232e2a67aeca581", null ],
       [ "ACTION_TELEPORT_PLAYER_TO_TRANSPORT", "d6/dad/a00941.html#a250372292659bed7ae290d8621f88ccfa6b86b0986a459bb245b3a3cd8b75040c", null ],

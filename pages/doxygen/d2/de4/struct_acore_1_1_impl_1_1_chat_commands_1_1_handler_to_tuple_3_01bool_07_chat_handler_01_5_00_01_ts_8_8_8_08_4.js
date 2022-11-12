@@ -1,4 +1,0 @@
-var struct_acore_1_1_impl_1_1_chat_commands_1_1_handler_to_tuple_3_01bool_07_chat_handler_01_5_00_01_ts_8_8_8_08_4 =
-[
-    [ "type", "d2/de4/struct_acore_1_1_impl_1_1_chat_commands_1_1_handler_to_tuple_3_01bool_07_chat_handler_01_5_00_01_ts_8_8_8_08_4.html#a31492032f74f68f872913bb1f60ba92b", null ]
-];

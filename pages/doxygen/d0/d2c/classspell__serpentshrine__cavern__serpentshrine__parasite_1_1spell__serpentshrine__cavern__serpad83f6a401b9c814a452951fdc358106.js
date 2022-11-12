@@ -1,6 +1,0 @@
-var classspell__serpentshrine__cavern__serpentshrine__parasite_1_1spell__serpentshrine__cavern__serpad83f6a401b9c814a452951fdc358106 =
-[
-    [ "PrepareAuraScript", "d0/d2c/classspell__serpentshrine__cavern__serpentshrine__parasite_1_1spell__serpentshrine__cavern__serpad83f6a401b9c814a452951fdc358106.html#ada2ad10f9fcd15d08b5d40c751afc446", null ],
-    [ "Register", "d0/d2c/classspell__serpentshrine__cavern__serpentshrine__parasite_1_1spell__serpentshrine__cavern__serpad83f6a401b9c814a452951fdc358106.html#ab749c59bdf020e55fbb8480d6c86587f", null ],
-    [ "AuraEffectHandleModes", "d0/d2c/classspell__serpentshrine__cavern__serpentshrine__parasite_1_1spell__serpentshrine__cavern__serpad83f6a401b9c814a452951fdc358106.html#a07221c7e84ccb26828793f6a4c9e69ed", null ]
-];

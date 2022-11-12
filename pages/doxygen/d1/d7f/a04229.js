@@ -1,6 +1,6 @@
 var a04229 =
 [
-    [ "npc_taxi", "d4/de7/a29544.html", "d4/de7/a29544" ],
+    [ "npc_taxi", "dc/d2b/a29545.html", "dc/d2b/a29545" ],
     [ "GOSSIP_AFRASASTRASZ1", "d1/d7f/a04229.html#a6e85d67d2cfe35a297cca38316c70093", null ],
     [ "GOSSIP_AFRASASTRASZ2", "d1/d7f/a04229.html#aa74b7d1b95b6e7d0d32eb2303f4f767d", null ],
     [ "GOSSIP_BRACK1", "d1/d7f/a04229.html#a4a689f4c5d35ce03ceed58d72d070061", null ],

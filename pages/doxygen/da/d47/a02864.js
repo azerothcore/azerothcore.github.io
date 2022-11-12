@@ -1,7 +1,7 @@
 var a02864 =
 [
-    [ "boss_renataki", "dc/df4/a13972.html", "dc/df4/a13972" ],
-    [ "boss_renataki::boss_renatakiAI", "dc/d4c/a13976.html", "dc/d4c/a13976" ],
+    [ "boss_renataki", "d4/d69/a13973.html", "d4/d69/a13973" ],
+    [ "boss_renataki::boss_renatakiAI", "d7/dce/a13977.html", "d7/dce/a13977" ],
     [ "Events", "da/d47/a02864.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

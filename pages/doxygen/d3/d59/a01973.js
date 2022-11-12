@@ -1,6 +1,6 @@
 var a01973 =
 [
-    [ "WorldPackets::Packet", "d3/d84/a09816.html", "d3/d84/a09816" ],
-    [ "WorldPackets::ServerPacket", "df/d09/a09820.html", "df/d09/a09820" ],
-    [ "WorldPackets::ClientPacket", "db/d9d/a09824.html", "db/d9d/a09824" ]
+    [ "WorldPackets::Packet", "d5/d62/a09817.html", "d5/d62/a09817" ],
+    [ "WorldPackets::ServerPacket", "dc/d01/a09821.html", "dc/d01/a09821" ],
+    [ "WorldPackets::ClientPacket", "d2/d8a/a09825.html", "d2/d8a/a09825" ]
 ];

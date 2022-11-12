@@ -1,7 +1,7 @@
 var a02438 =
 [
-    [ "boss_high_interrogator_gerstahn", "d1/dac/a11292.html", "d1/dac/a11292" ],
-    [ "boss_high_interrogator_gerstahn::boss_high_interrogator_gerstahnAI", "de/d3e/a11296.html", "de/d3e/a11296" ],
+    [ "boss_high_interrogator_gerstahn", "db/d4c/a11293.html", "db/d4c/a11293" ],
+    [ "boss_high_interrogator_gerstahn::boss_high_interrogator_gerstahnAI", "df/db3/a11297.html", "df/db3/a11297" ],
     [ "Spells", "da/d6b/a02438.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

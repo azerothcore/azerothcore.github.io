@@ -1,7 +1,7 @@
 var a03428 =
 [
-    [ "spell_trigger_spell_from_caster", "d7/d6b/a19816.html", "d7/d6b/a19816" ],
-    [ "spell_trigger_spell_from_caster::spell_trigger_spell_from_caster_SpellScript", "d2/d39/a19820.html", "d2/d39/a19820" ],
+    [ "spell_trigger_spell_from_caster", "db/df7/a19817.html", "db/df7/a19817" ],
+    [ "spell_trigger_spell_from_caster::spell_trigger_spell_from_caster_SpellScript", "dd/da6/a19821.html", "dd/da6/a19821" ],
     [ "ICCScriptName", "d5/d6b/a03428.html#a8ad0adeac0057e9785ab4fce6f4d6697", null ],
     [ "RegisterIcecrownCitadelCreatureAI", "d5/d6b/a03428.html#a371fa53b2363b7032c1326ca4717a14f", null ],
     [ "AchievementCriteriaIds", "d5/d6b/a03428.html#a28778a1d686a0babf608cbd20d967c11", [

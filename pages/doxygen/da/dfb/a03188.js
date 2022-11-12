@@ -1,12 +1,12 @@
 var a03188 =
 [
-    [ "PyramidEventData", "d6/d25/a15784.html", "d6/d25/a15784" ],
-    [ "instance_zulfarrak", "df/df7/a15788.html", "df/df7/a15788" ],
-    [ "instance_zulfarrak::instance_zulfarrak_InstanceMapScript", "d3/d35/a15792.html", "d3/d35/a15792" ],
-    [ "spell_zulfarrak_summon_zulfarrak_zombies", "dc/d3d/a15796.html", "dc/d3d/a15796" ],
-    [ "spell_zulfarrak_summon_zulfarrak_zombies::spell_zulfarrak_summon_zulfarrak_zombies_SpellScript", "d0/d14/a15800.html", "d0/d14/a15800" ],
-    [ "spell_zulfarrak_unlocking", "d2/daf/a15804.html", "d2/daf/a15804" ],
-    [ "spell_zulfarrak_unlocking::spell_zulfarrak_unlocking_SpellScript", "dd/dda/a15808.html", "dd/dda/a15808" ],
+    [ "PyramidEventData", "d4/dcf/a15785.html", "d4/dcf/a15785" ],
+    [ "instance_zulfarrak", "de/d86/a15789.html", "de/d86/a15789" ],
+    [ "instance_zulfarrak::instance_zulfarrak_InstanceMapScript", "d3/d8b/a15793.html", "d3/d8b/a15793" ],
+    [ "spell_zulfarrak_summon_zulfarrak_zombies", "da/dc9/a15797.html", "da/dc9/a15797" ],
+    [ "spell_zulfarrak_summon_zulfarrak_zombies::spell_zulfarrak_summon_zulfarrak_zombies_SpellScript", "dc/d75/a15801.html", "dc/d75/a15801" ],
+    [ "spell_zulfarrak_unlocking", "d8/d88/a15805.html", "d8/d88/a15805" ],
+    [ "spell_zulfarrak_unlocking::spell_zulfarrak_unlocking_SpellScript", "d4/db8/a15809.html", "d4/db8/a15809" ],
     [ "Misc", "da/dfb/a03188.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d8/db7/a02450.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "df/d89/a02462.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

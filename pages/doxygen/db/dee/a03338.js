@@ -1,9 +1,9 @@
 var a03338 =
 [
-    [ "boss_marwyn", "d6/dcb/a17112.html", "d6/dcb/a17112" ],
-    [ "boss_marwyn::boss_marwynAI", "d3/d5c/a17116.html", "d3/d5c/a17116" ],
-    [ "spell_hor_shared_suffering", "db/dd5/a17120.html", "db/dd5/a17120" ],
-    [ "spell_hor_shared_suffering::spell_hor_shared_sufferingAuraScript", "de/da4/a17124.html", "de/da4/a17124" ],
+    [ "boss_marwyn", "d0/d9e/a17113.html", "d0/d9e/a17113" ],
+    [ "boss_marwyn::boss_marwynAI", "d7/d28/a17117.html", "d7/d28/a17117" ],
+    [ "spell_hor_shared_suffering", "d6/df0/a17121.html", "d6/df0/a17121" ],
+    [ "spell_hor_shared_suffering::spell_hor_shared_sufferingAuraScript", "dc/d41/a17125.html", "dc/d41/a17125" ],
     [ "Events", "db/dee/a03338.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

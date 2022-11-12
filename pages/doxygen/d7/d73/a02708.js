@@ -1,12 +1,12 @@
 var a02708 =
 [
-    [ "instance_sunken_temple", "d4/d14/a12780.html", "d4/d14/a12780" ],
-    [ "instance_sunken_temple::instance_sunken_temple_InstanceMapScript", "d5/d21/a12784.html", "d5/d21/a12784" ],
-    [ "at_malfurion_stormrage", "dc/de0/a12788.html", "dc/de0/a12788" ],
-    [ "spell_temple_of_atal_hakkar_hex_of_jammal_an", "dc/d69/a12792.html", "dc/d69/a12792" ],
-    [ "spell_temple_of_atal_hakkar_hex_of_jammal_an::spell_temple_of_atal_hakkar_hex_of_jammal_an_AuraScript", "d6/d59/a12796.html", "d6/d59/a12796" ],
-    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer", "d2/df8/a12800.html", "d2/df8/a12800" ],
-    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer::spell_temple_of_atal_hakkar_awaken_the_soulflayer_SpellScript", "df/d05/a12804.html", "df/d05/a12804" ],
+    [ "instance_sunken_temple", "dd/db7/a12781.html", "dd/db7/a12781" ],
+    [ "instance_sunken_temple::instance_sunken_temple_InstanceMapScript", "d1/d11/a12785.html", "d1/d11/a12785" ],
+    [ "at_malfurion_stormrage", "d0/da8/a12789.html", "d0/da8/a12789" ],
+    [ "spell_temple_of_atal_hakkar_hex_of_jammal_an", "d9/d7c/a12793.html", "d9/d7c/a12793" ],
+    [ "spell_temple_of_atal_hakkar_hex_of_jammal_an::spell_temple_of_atal_hakkar_hex_of_jammal_an_AuraScript", "d9/d27/a12797.html", "d9/d27/a12797" ],
+    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer", "d5/df6/a12801.html", "d5/df6/a12801" ],
+    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer::spell_temple_of_atal_hakkar_awaken_the_soulflayer_SpellScript", "dd/d14/a12805.html", "dd/d14/a12805" ],
     [ "MalfurionMisc", "d7/d73/a02708.html#a754fcfafd80b5a6c2ea444f49cfbc7d1", [
       [ "QUEST_ERANIKUS_TYRANT_OF_DREAMS", "d7/d73/a02708.html#a754fcfafd80b5a6c2ea444f49cfbc7d1a99089f2ff32693b053abae21941aed5d", null ],
       [ "QUEST_THE_CHARGE_OF_DRAGONFLIGHTS", "d7/d73/a02708.html#a754fcfafd80b5a6c2ea444f49cfbc7d1aabeeb62adbb72d2616aa2e6e393f2526", null ]

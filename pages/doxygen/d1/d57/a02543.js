@@ -1,9 +1,9 @@
 var a02543 =
 [
-    [ "boss_golemagg", "d5/d84/a11772.html", "d5/d84/a11772" ],
-    [ "boss_golemagg::boss_golemaggAI", "d5/da2/a11776.html", "d5/da2/a11776" ],
-    [ "npc_core_rager", "d0/dde/a11780.html", "d0/dde/a11780" ],
-    [ "npc_core_rager::npc_core_ragerAI", "d5/dcb/a11784.html", "d5/dcb/a11784" ],
+    [ "boss_golemagg", "db/d83/a11773.html", "db/d83/a11773" ],
+    [ "boss_golemagg::boss_golemaggAI", "d9/dee/a11777.html", "d9/dee/a11777" ],
+    [ "npc_core_rager", "de/df0/a11781.html", "de/df0/a11781" ],
+    [ "npc_core_rager::npc_core_ragerAI", "de/dc8/a11785.html", "de/dc8/a11785" ],
     [ "Spells", "d1/d57/a02543.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

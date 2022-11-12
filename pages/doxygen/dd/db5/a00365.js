@@ -1,7 +1,7 @@
 var a00365 =
 [
-    [ "Acore::Impl::MPSCQueueNonIntrusive< T >", "d8/d09/a05036.html", "d8/d09/a05036" ],
-    [ "Acore::Impl::MPSCQueueNonIntrusive< T >::Node", "d3/d40/a05040.html", "d3/d40/a05040" ],
-    [ "Acore::Impl::MPSCQueueIntrusive< T, IntrusiveLink >", "db/df9/a05044.html", "db/df9/a05044" ],
+    [ "Acore::Impl::MPSCQueueNonIntrusive< T >", "d7/de8/a05037.html", "d7/de8/a05037" ],
+    [ "Acore::Impl::MPSCQueueNonIntrusive< T >::Node", "dd/d13/a05041.html", "dd/d13/a05041" ],
+    [ "Acore::Impl::MPSCQueueIntrusive< T, IntrusiveLink >", "dd/d03/a05045.html", "dd/d03/a05045" ],
     [ "MPSCQueue", "dd/db5/a00365.html#a6443361dced56bb64db991f954b2df47", null ]
 ];

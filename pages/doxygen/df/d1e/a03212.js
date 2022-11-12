@@ -1,10 +1,10 @@
 var a03212 =
 [
-    [ "npc_taldaram_flamesphere", "d5/d4e/a15904.html", "d5/d4e/a15904" ],
-    [ "boss_taldaram", "d5/dc0/a15908.html", "d5/dc0/a15908" ],
-    [ "go_prince_taldaram_sphere", "da/dd5/a15912.html", "da/dd5/a15912" ],
-    [ "spell_prince_taldaram_conjure_flame_sphere", "dc/d5d/a15916.html", "dc/d5d/a15916" ],
-    [ "spell_prince_taldaram_flame_sphere_summon", "d2/d30/a15920.html", "d2/d30/a15920" ],
+    [ "npc_taldaram_flamesphere", "d9/d35/a15905.html", "d9/d35/a15905" ],
+    [ "boss_taldaram", "d6/dad/a15909.html", "d6/dad/a15909" ],
+    [ "go_prince_taldaram_sphere", "d4/d87/a15913.html", "d4/d87/a15913" ],
+    [ "spell_prince_taldaram_conjure_flame_sphere", "df/d6a/a15917.html", "df/d6a/a15917" ],
+    [ "spell_prince_taldaram_flame_sphere_summon", "dd/d2c/a15921.html", "dd/d2c/a15921" ],
     [ "DATA_SPHERE_ANGLE_OFFSET", "df/d1e/a03212.html#abba5e7f7dee2d39e8b41c5ac0f4b1746", null ],
     [ "SPELL_EMBRACE_OF_THE_VAMPYR", "df/d1e/a03212.html#aba2148c075727cb24738046dd2f9e8ae", null ],
     [ "Actions", "df/d1e/a03212.html#a250372292659bed7ae290d8621f88ccf", [

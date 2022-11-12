@@ -1,12 +1,12 @@
 var a02612 =
 [
-    [ "InfernalPoint", "df/dcb/a12052.html", "df/dcb/a12052" ],
-    [ "netherspite_infernal", "d5/d49/a12056.html", "d5/d49/a12056" ],
-    [ "netherspite_infernal::netherspite_infernalAI", "d9/d14/a12060.html", "d9/d14/a12060" ],
-    [ "boss_malchezaar", "db/da6/a12064.html", "db/da6/a12064" ],
-    [ "boss_malchezaar::boss_malchezaarAI", "d5/d09/a12068.html", "d5/d09/a12068" ],
-    [ "prince_axes", "d7/dc0/a12072.html", "d7/dc0/a12072" ],
-    [ "prince_axes::prince_axesAI", "da/d97/a12076.html", "da/d97/a12076" ],
+    [ "InfernalPoint", "d9/d4d/a12053.html", "d9/d4d/a12053" ],
+    [ "netherspite_infernal", "da/d58/a12057.html", "da/d58/a12057" ],
+    [ "netherspite_infernal::netherspite_infernalAI", "d4/deb/a12061.html", "d4/deb/a12061" ],
+    [ "boss_malchezaar", "d6/d42/a12065.html", "d6/d42/a12065" ],
+    [ "boss_malchezaar::boss_malchezaarAI", "d2/d4e/a12069.html", "d2/d4e/a12069" ],
+    [ "prince_axes", "da/de0/a12073.html", "da/de0/a12073" ],
+    [ "prince_axes::prince_axesAI", "d4/d58/a12077.html", "d4/d58/a12077" ],
     [ "INFERNAL_Z", "d6/dfc/a02612.html#a00331ca2e618893a1f58b350cd86029a", null ],
     [ "creatures", "d6/dfc/a02612.html#a6e089756759f99eebae6d3e5c1e939b0", [
       [ "NETHERSPITE_INFERNAL", "d6/dfc/a02612.html#a6e089756759f99eebae6d3e5c1e939b0a48322dd733164f059255db9370e880b3", null ],

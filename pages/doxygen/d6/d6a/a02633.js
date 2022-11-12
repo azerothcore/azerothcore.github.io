@@ -1,9 +1,9 @@
 var a02633 =
 [
-    [ "boss_felblood_kaelthas", "db/d89/a12280.html", "db/d89/a12280" ],
-    [ "boss_felblood_kaelthas::boss_felblood_kaelthasAI", "d5/d4f/a12284.html", "d5/d4f/a12284" ],
-    [ "spell_mt_phoenix_burn", "d1/ded/a12288.html", "d1/ded/a12288" ],
-    [ "spell_mt_phoenix_burn::spell_mt_phoenix_burn_SpellScript", "d8/d0a/a12292.html", "d8/d0a/a12292" ],
+    [ "boss_felblood_kaelthas", "de/d51/a12281.html", "de/d51/a12281" ],
+    [ "boss_felblood_kaelthas::boss_felblood_kaelthasAI", "d9/d64/a12285.html", "d9/d64/a12285" ],
+    [ "spell_mt_phoenix_burn", "da/d50/a12289.html", "da/d50/a12289" ],
+    [ "spell_mt_phoenix_burn::spell_mt_phoenix_burn_SpellScript", "d4/da9/a12293.html", "d4/da9/a12293" ],
     [ "Misc", "d6/d6a/a02633.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d8/db7/a02450.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "df/d89/a02462.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

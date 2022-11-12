@@ -1,8 +1,8 @@
 var a02609 =
 [
-    [ "boss_nightbane", "dc/d61/a12040.html", "dc/d61/a12040" ],
-    [ "boss_nightbane::boss_nightbaneAI", "d9/d57/a12044.html", "d9/d57/a12044" ],
-    [ "go_blackened_urn", "d6/dee/a12048.html", "d6/dee/a12048" ],
+    [ "boss_nightbane", "d3/dc5/a12041.html", "d3/dc5/a12041" ],
+    [ "boss_nightbane::boss_nightbaneAI", "d2/d53/a12045.html", "d2/d53/a12045" ],
+    [ "go_blackened_urn", "db/d69/a12049.html", "db/d69/a12049" ],
     [ "Says", "df/d40/a02609.html#a16774215bba3b38580ea51987d64cff1", [
       [ "SAY_START_FIGHT", "d8/db7/a02450.html#a16774215bba3b38580ea51987d64cff1a8faddecee02adff0c6fb321d27621e1e", null ],
       [ "EMOTE_DEATH", "d4/d73/a02465.html#a16774215bba3b38580ea51987d64cff1a532dda2af249d6245366a455505ac407", null ],

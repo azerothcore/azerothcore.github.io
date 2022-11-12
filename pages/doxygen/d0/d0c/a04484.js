@@ -1,8 +1,6 @@
 var a04484 =
 [
-    [ "AutoBankItem", "df/d7e/a09828.html", "df/d7e/a09828" ],
-    [ "AutoStoreBankItem", "d5/d25/a09832.html", "d5/d25/a09832" ],
-    [ "BuyBankSlot", "df/da6/a09836.html", "df/da6/a09836" ],
-    [ "BuyBankSlotResult", "d3/dd2/a09840.html", "d3/dd2/a09840" ],
-    [ "ShowBank", "dd/d36/a09844.html", "dd/d36/a09844" ]
+    [ "ChatServerMessage", "d9/dc5/a09894.html", "d9/dc5/a09894" ],
+    [ "Emote", "d8/d76/a09886.html", "d8/d76/a09886" ],
+    [ "EmoteClient", "dc/d85/a09890.html", "dc/d85/a09890" ]
 ];

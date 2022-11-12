@@ -1,4 +1,0 @@
-var classspell__serpentshrine__cavern__infection_1_1spell__serpentshrine__cavern__infection___aura_script =
-[
-    [ "PrepareAuraScript", "d1/ddb/classspell__serpentshrine__cavern__infection_1_1spell__serpentshrine__cavern__infection___aura_script.html#aa5880187714f3202b14f15e6d6ccfeda", null ]
-];

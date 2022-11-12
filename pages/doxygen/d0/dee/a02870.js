@@ -1,9 +1,9 @@
 var a02870 =
 [
-    [ "boss_venoxis", "de/d32/a14004.html", "de/d32/a14004" ],
-    [ "boss_venoxis::boss_venoxisAI", "db/dc6/a14008.html", "db/dc6/a14008" ],
-    [ "npc_razzashi_cobra_venoxis", "da/d46/a14012.html", "da/d46/a14012" ],
-    [ "npc_razzashi_cobra_venoxis::npc_razzashi_cobra_venoxis_AI", "db/dea/a14016.html", "db/dea/a14016" ],
+    [ "boss_venoxis", "d6/d25/a14005.html", "d6/d25/a14005" ],
+    [ "boss_venoxis::boss_venoxisAI", "d1/d23/a14009.html", "d1/d23/a14009" ],
+    [ "npc_razzashi_cobra_venoxis", "d4/d45/a14013.html", "d4/d45/a14013" ],
+    [ "npc_razzashi_cobra_venoxis::npc_razzashi_cobra_venoxis_AI", "d5/d1a/a14017.html", "d5/d1a/a14017" ],
     [ "Events", "d0/dee/a02870.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

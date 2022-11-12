@@ -1,14 +1,14 @@
 var a03305 =
 [
-    [ "boss_novos", "d5/d9b/a16876.html", "d5/d9b/a16876" ],
-    [ "boss_novos::boss_novosAI", "d6/d5c/a16880.html", "d6/d5c/a16880" ],
-    [ "spell_novos_despawn_crystal_handler", "de/d2f/a16884.html", "de/d2f/a16884" ],
-    [ "spell_novos_despawn_crystal_handler::spell_novos_despawn_crystal_handler_SpellScript", "df/dbf/a16888.html", "df/dbf/a16888" ],
-    [ "spell_novos_crystal_handler_death", "dc/d25/a16892.html", "dc/d25/a16892" ],
-    [ "spell_novos_crystal_handler_death::spell_novos_crystal_handler_death_AuraScript", "d6/da1/a16896.html", "d6/da1/a16896" ],
-    [ "spell_novos_summon_minions", "d7/d98/a16900.html", "d7/d98/a16900" ],
-    [ "spell_novos_summon_minions::spell_novos_summon_minions_SpellScript", "d3/df9/a16904.html", "d3/df9/a16904" ],
-    [ "achievement_oh_novos", "d9/d40/a16908.html", "d9/d40/a16908" ],
+    [ "boss_novos", "db/dd5/a16877.html", "db/dd5/a16877" ],
+    [ "boss_novos::boss_novosAI", "d3/d4a/a16881.html", "d3/d4a/a16881" ],
+    [ "spell_novos_despawn_crystal_handler", "d1/df2/a16885.html", "d1/df2/a16885" ],
+    [ "spell_novos_despawn_crystal_handler::spell_novos_despawn_crystal_handler_SpellScript", "df/dd0/a16889.html", "df/dd0/a16889" ],
+    [ "spell_novos_crystal_handler_death", "d3/d7a/a16893.html", "d3/d7a/a16893" ],
+    [ "spell_novos_crystal_handler_death::spell_novos_crystal_handler_death_AuraScript", "d6/d0e/a16897.html", "d6/d0e/a16897" ],
+    [ "spell_novos_summon_minions", "d0/df5/a16901.html", "d0/df5/a16901" ],
+    [ "spell_novos_summon_minions::spell_novos_summon_minions_SpellScript", "d7/d1a/a16905.html", "d7/d1a/a16905" ],
+    [ "achievement_oh_novos", "d4/dbe/a16909.html", "d4/dbe/a16909" ],
     [ "Misc", "d3/d34/a03305.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d8/db7/a02450.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "df/d89/a02462.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],
