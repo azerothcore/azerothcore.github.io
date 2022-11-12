@@ -4,4 +4,6 @@
 
 - [Wiki](https://www.azerothcore.org/wiki/home)
 
+- Our [C++ Code Standards](https://www.azerothcore.org/wiki/cpp-code-standards)
+
 - [Eluna Documentation](https://www.azerothcore.org/pages/eluna/)
