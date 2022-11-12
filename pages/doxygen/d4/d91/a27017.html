@@ -293,7 +293,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_a10593"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><dl class="todo"><dt><b><a class="el" href="../../d0/dc5/a04415.html#_todo000196">Todo:</a></b></dt><dd>: this import is not necessary for compilation and marked as unused by the IDE however, for some reasons removing it would cause a damn linking issue there is probably some underlying problem with imports which should properly addressed see: <a href="https://github.com/azerothcore/azerothcore-wotlk/issues/9766">https://github.com/azerothcore/azerothcore-wotlk/issues/9766</a> </dd></dl>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7bf5f9d28a916704bd1ece8acc64fe59" name="a7bf5f9d28a916704bd1ece8acc64fe59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7bf5f9d28a916704bd1ece8acc64fe59">&#9670;&#160;</a></span>HandleScript()</h2>
 
@@ -317,19 +318,19 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   58</span>    {</div>
-<div class="line"><span class="lineno">   59</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/a08045.html">Player</a>* target = <a class="code hl_function" href="../../d6/d4c/a10609.html#a175aa4408973ae49cfe237d6c9c5f12f">GetHitPlayer</a>())</div>
-<div class="line"><span class="lineno">   60</span>        {</div>
-<div class="line"><span class="lineno">   61</span>            target-&gt;ModifyMoney(5000 * <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#aa61850c8cc16fdf9ea749bfde3adb448aa7790837e9c1f7cb78b55743b9a67623">GOLD</a>);</div>
-<div class="line"><span class="lineno">   62</span>        }</div>
-<div class="line"><span class="lineno">   63</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">   60</span>    {</div>
+<div class="line"><span class="lineno">   61</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/a08045.html">Player</a>* target = <a class="code hl_function" href="../../d6/d4c/a10609.html#a175aa4408973ae49cfe237d6c9c5f12f">GetHitPlayer</a>())</div>
+<div class="line"><span class="lineno">   62</span>        {</div>
+<div class="line"><span class="lineno">   63</span>            target-&gt;ModifyMoney(5000 * <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#aa61850c8cc16fdf9ea749bfde3adb448aa7790837e9c1f7cb78b55743b9a67623">GOLD</a>);</div>
+<div class="line"><span class="lineno">   64</span>        }</div>
+<div class="line"><span class="lineno">   65</span>    }</div>
 <div class="ttc" id="aa04307_html_aa61850c8cc16fdf9ea749bfde3adb448aa7790837e9c1f7cb78b55743b9a67623"><div class="ttname"><a href="../../d9/d4e/a04307.html#aa61850c8cc16fdf9ea749bfde3adb448aa7790837e9c1f7cb78b55743b9a67623">GOLD</a></div><div class="ttdeci">@ GOLD</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:225</div></div>
 <div class="ttc" id="aa08045_html"><div class="ttname"><a href="../../d8/d83/a08045.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
 <div class="ttc" id="aa10609_html_a175aa4408973ae49cfe237d6c9c5f12f"><div class="ttname"><a href="../../d6/d4c/a10609.html#a175aa4408973ae49cfe237d6c9c5f12f">SpellScript::GetHitPlayer</a></div><div class="ttdeci">Player * GetHitPlayer()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:471</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00471">SpellScript::GetHitPlayer()</a>, and <a class="el" href="../../#l00225">GOLD</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00065">Register()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00067">Register()</a>.</p>
 
 </div>
 </div>
@@ -383,16 +384,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d8/d12/a10593.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   66</span>    {</div>
-<div class="line"><span class="lineno">   67</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d4/d91/a27017.html#a7bf5f9d28a916704bd1ece8acc64fe59">spell_gen_5000_gold::HandleScript</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a>);</div>
-<div class="line"><span class="lineno">   68</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">   68</span>    {</div>
+<div class="line"><span class="lineno">   69</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d4/d91/a27017.html#a7bf5f9d28a916704bd1ece8acc64fe59">spell_gen_5000_gold::HandleScript</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a>);</div>
+<div class="line"><span class="lineno">   70</span>    }</div>
 <div class="ttc" id="aa02144_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../dc/d29/a02144.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
 <div class="ttc" id="aa04307_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
 <div class="ttc" id="aa04307_html_a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba"><div class="ttname"><a href="../../d9/d4e/a04307.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a></div><div class="ttdeci">@ SPELL_EFFECT_SCRIPT_EFFECT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:827</div></div>
 <div class="ttc" id="aa10609_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../d6/d4c/a10609.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
-<div class="ttc" id="aa27017_html_a7bf5f9d28a916704bd1ece8acc64fe59"><div class="ttname"><a href="../../d4/d91/a27017.html#a7bf5f9d28a916704bd1ece8acc64fe59">spell_gen_5000_gold::HandleScript</a></div><div class="ttdeci">void HandleScript(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:57</div></div>
+<div class="ttc" id="aa27017_html_a7bf5f9d28a916704bd1ece8acc64fe59"><div class="ttname"><a href="../../d4/d91/a27017.html#a7bf5f9d28a916704bd1ece8acc64fe59">spell_gen_5000_gold::HandleScript</a></div><div class="ttdeci">void HandleScript(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:59</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00030">EFFECT_0</a>, <a class="el" href="../../#l00057">HandleScript()</a>, <a class="el" href="../../#l00336">SpellScript::OnEffectHitTarget</a>, <a class="el" href="../../#l00827">SPELL_EFFECT_SCRIPT_EFFECT</a>, and <a class="el" href="../../#l00337">SpellEffectFn</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00030">EFFECT_0</a>, <a class="el" href="../../#l00059">HandleScript()</a>, <a class="el" href="../../#l00336">SpellScript::OnEffectHitTarget</a>, <a class="el" href="../../#l00827">SPELL_EFFECT_SCRIPT_EFFECT</a>, and <a class="el" href="../../#l00337">SpellEffectFn</a>.</p>
 
 </div>
 </div>
@@ -402,7 +403,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d91/a27017.html">spell_gen_5000_gold</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 14:44:39 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sat Nov 12 2022 15:54:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

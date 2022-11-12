@@ -319,30 +319,30 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 4028</span>    {</div>
-<div class="line"><span class="lineno"> 4029</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/a08045.html">Player</a>* target = <a class="code hl_function" href="../../d6/d4c/a10609.html#a175aa4408973ae49cfe237d6c9c5f12f">GetHitPlayer</a>())</div>
-<div class="line"><span class="lineno"> 4030</span>        {</div>
-<div class="line"><span class="lineno"> 4031</span>            <a class="code hl_class" href="../../d2/d6a/a10433.html">Aura</a> <span class="keyword">const</span>* aura = <a class="code hl_function" href="../../d6/d4c/a10609.html#a06569042edcd0574522cbb78ffd600fd">GetHitAura</a>();</div>
-<div class="line"><span class="lineno"> 4032</span>            <span class="keywordflow">if</span> (!(aura &amp;&amp; aura-&gt;<a class="code hl_function" href="../../d2/d6a/a10433.html#aae0b7e0da61a681e67a19b6d23c2cee6">GetStackAmount</a>() == 3))</div>
-<div class="line"><span class="lineno"> 4033</span>            {</div>
-<div class="line"><span class="lineno"> 4034</span>                <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 4035</span>            }</div>
-<div class="line"><span class="lineno"> 4036</span> </div>
-<div class="line"><span class="lineno"> 4037</span>            target-&gt;CastSpell(target, <a class="code hl_enumvalue" href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28feba310e9d9e31d607796e3765765665ae7f">SPELL_FOAM_SWORD_DEFEAT</a>, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno"> 4038</span>            target-&gt;RemoveAurasDueToSpell(<a class="code hl_enumvalue" href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28feba145745e0c42f68f0eb6b97a99d4f9206">SPELL_BONKED</a>);</div>
-<div class="line"><span class="lineno"> 4039</span> </div>
-<div class="line"><span class="lineno"> 4040</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/d6a/a10433.html">Aura</a> <span class="keyword">const</span>* onGuardAura = target-&gt;GetAura(<a class="code hl_enumvalue" href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28febad6a9e10c5be0d84914192180dd1c1602">SPELL_ON_GUARD</a>))</div>
-<div class="line"><span class="lineno"> 4041</span>            {</div>
-<div class="line"><span class="lineno"> 4042</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/dc9/a07761.html">Item</a>* item = target-&gt;GetItemByGuid(onGuardAura-&gt;GetCastItemGUID()))</div>
-<div class="line"><span class="lineno"> 4043</span>                {</div>
-<div class="line"><span class="lineno"> 4044</span>                    target-&gt;DestroyItemCount(item-&gt;GetEntry(), 1, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno"> 4045</span>                }</div>
-<div class="line"><span class="lineno"> 4046</span>            }</div>
-<div class="line"><span class="lineno"> 4047</span>        }</div>
-<div class="line"><span class="lineno"> 4048</span>    }</div>
-<div class="ttc" id="aa04154_html_ae38873cf6058500d79eeb2a803b28feba145745e0c42f68f0eb6b97a99d4f9206"><div class="ttname"><a href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28feba145745e0c42f68f0eb6b97a99d4f9206">SPELL_BONKED</a></div><div class="ttdeci">@ SPELL_BONKED</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:4012</div></div>
-<div class="ttc" id="aa04154_html_ae38873cf6058500d79eeb2a803b28feba310e9d9e31d607796e3765765665ae7f"><div class="ttname"><a href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28feba310e9d9e31d607796e3765765665ae7f">SPELL_FOAM_SWORD_DEFEAT</a></div><div class="ttdeci">@ SPELL_FOAM_SWORD_DEFEAT</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:4013</div></div>
-<div class="ttc" id="aa04154_html_ae38873cf6058500d79eeb2a803b28febad6a9e10c5be0d84914192180dd1c1602"><div class="ttname"><a href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28febad6a9e10c5be0d84914192180dd1c1602">SPELL_ON_GUARD</a></div><div class="ttdeci">@ SPELL_ON_GUARD</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:4014</div></div>
+<div class="fragment"><div class="line"><span class="lineno"> 4030</span>    {</div>
+<div class="line"><span class="lineno"> 4031</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/a08045.html">Player</a>* target = <a class="code hl_function" href="../../d6/d4c/a10609.html#a175aa4408973ae49cfe237d6c9c5f12f">GetHitPlayer</a>())</div>
+<div class="line"><span class="lineno"> 4032</span>        {</div>
+<div class="line"><span class="lineno"> 4033</span>            <a class="code hl_class" href="../../d2/d6a/a10433.html">Aura</a> <span class="keyword">const</span>* aura = <a class="code hl_function" href="../../d6/d4c/a10609.html#a06569042edcd0574522cbb78ffd600fd">GetHitAura</a>();</div>
+<div class="line"><span class="lineno"> 4034</span>            <span class="keywordflow">if</span> (!(aura &amp;&amp; aura-&gt;<a class="code hl_function" href="../../d2/d6a/a10433.html#aae0b7e0da61a681e67a19b6d23c2cee6">GetStackAmount</a>() == 3))</div>
+<div class="line"><span class="lineno"> 4035</span>            {</div>
+<div class="line"><span class="lineno"> 4036</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 4037</span>            }</div>
+<div class="line"><span class="lineno"> 4038</span> </div>
+<div class="line"><span class="lineno"> 4039</span>            target-&gt;CastSpell(target, <a class="code hl_enumvalue" href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28feba310e9d9e31d607796e3765765665ae7f">SPELL_FOAM_SWORD_DEFEAT</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 4040</span>            target-&gt;RemoveAurasDueToSpell(<a class="code hl_enumvalue" href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28feba145745e0c42f68f0eb6b97a99d4f9206">SPELL_BONKED</a>);</div>
+<div class="line"><span class="lineno"> 4041</span> </div>
+<div class="line"><span class="lineno"> 4042</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/d6a/a10433.html">Aura</a> <span class="keyword">const</span>* onGuardAura = target-&gt;GetAura(<a class="code hl_enumvalue" href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28febad6a9e10c5be0d84914192180dd1c1602">SPELL_ON_GUARD</a>))</div>
+<div class="line"><span class="lineno"> 4043</span>            {</div>
+<div class="line"><span class="lineno"> 4044</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/dc9/a07761.html">Item</a>* item = target-&gt;GetItemByGuid(onGuardAura-&gt;GetCastItemGUID()))</div>
+<div class="line"><span class="lineno"> 4045</span>                {</div>
+<div class="line"><span class="lineno"> 4046</span>                    target-&gt;DestroyItemCount(item-&gt;GetEntry(), 1, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 4047</span>                }</div>
+<div class="line"><span class="lineno"> 4048</span>            }</div>
+<div class="line"><span class="lineno"> 4049</span>        }</div>
+<div class="line"><span class="lineno"> 4050</span>    }</div>
+<div class="ttc" id="aa04154_html_ae38873cf6058500d79eeb2a803b28feba145745e0c42f68f0eb6b97a99d4f9206"><div class="ttname"><a href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28feba145745e0c42f68f0eb6b97a99d4f9206">SPELL_BONKED</a></div><div class="ttdeci">@ SPELL_BONKED</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:4014</div></div>
+<div class="ttc" id="aa04154_html_ae38873cf6058500d79eeb2a803b28feba310e9d9e31d607796e3765765665ae7f"><div class="ttname"><a href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28feba310e9d9e31d607796e3765765665ae7f">SPELL_FOAM_SWORD_DEFEAT</a></div><div class="ttdeci">@ SPELL_FOAM_SWORD_DEFEAT</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:4015</div></div>
+<div class="ttc" id="aa04154_html_ae38873cf6058500d79eeb2a803b28febad6a9e10c5be0d84914192180dd1c1602"><div class="ttname"><a href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28febad6a9e10c5be0d84914192180dd1c1602">SPELL_ON_GUARD</a></div><div class="ttdeci">@ SPELL_ON_GUARD</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:4016</div></div>
 <div class="ttc" id="aa07761_html"><div class="ttname"><a href="../../db/dc9/a07761.html">Item</a></div><div class="ttdef"><b>Definition:</b> Item.h:214</div></div>
 <div class="ttc" id="aa08045_html"><div class="ttname"><a href="../../d8/d83/a08045.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
 <div class="ttc" id="aa10433_html"><div class="ttname"><a href="../../d2/d6a/a10433.html">Aura</a></div><div class="ttdef"><b>Definition:</b> SpellAuras.h:87</div></div>
@@ -350,9 +350,9 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aa10609_html_a06569042edcd0574522cbb78ffd600fd"><div class="ttname"><a href="../../d6/d4c/a10609.html#a06569042edcd0574522cbb78ffd600fd">SpellScript::GetHitAura</a></div><div class="ttdeci">Aura * GetHitAura()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:554</div></div>
 <div class="ttc" id="aa10609_html_a175aa4408973ae49cfe237d6c9c5f12f"><div class="ttname"><a href="../../d6/d4c/a10609.html#a175aa4408973ae49cfe237d6c9c5f12f">SpellScript::GetHitPlayer</a></div><div class="ttdeci">Player * GetHitPlayer()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:471</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00554">SpellScript::GetHitAura()</a>, <a class="el" href="../../#l00471">SpellScript::GetHitPlayer()</a>, <a class="el" href="../../#l00148">Aura::GetStackAmount()</a>, <a class="el" href="../../#l04012">SPELL_BONKED</a>, <a class="el" href="../../#l04013">SPELL_FOAM_SWORD_DEFEAT</a>, and <a class="el" href="../../#l04014">SPELL_ON_GUARD</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00554">SpellScript::GetHitAura()</a>, <a class="el" href="../../#l00471">SpellScript::GetHitPlayer()</a>, <a class="el" href="../../#l00148">Aura::GetStackAmount()</a>, <a class="el" href="../../#l04014">SPELL_BONKED</a>, <a class="el" href="../../#l04015">SPELL_FOAM_SWORD_DEFEAT</a>, and <a class="el" href="../../#l04016">SPELL_ON_GUARD</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l04050">Register()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l04052">Register()</a>.</p>
 
 </div>
 </div>
@@ -406,16 +406,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d8/d12/a10593.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 4051</span>    {</div>
-<div class="line"><span class="lineno"> 4052</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../de/db8/a27405.html#a466db5b8dc15a196d67dfcbef3d810e1">spell_gen_bonked::HandleScript</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a>);</div>
-<div class="line"><span class="lineno"> 4053</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 4053</span>    {</div>
+<div class="line"><span class="lineno"> 4054</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../de/db8/a27405.html#a466db5b8dc15a196d67dfcbef3d810e1">spell_gen_bonked::HandleScript</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a>);</div>
+<div class="line"><span class="lineno"> 4055</span>    }</div>
 <div class="ttc" id="aa02144_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../dc/d29/a02144.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
 <div class="ttc" id="aa04307_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791"><div class="ttname"><a href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a></div><div class="ttdeci">@ EFFECT_1</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:31</div></div>
 <div class="ttc" id="aa04307_html_a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba"><div class="ttname"><a href="../../d9/d4e/a04307.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a></div><div class="ttdeci">@ SPELL_EFFECT_SCRIPT_EFFECT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:827</div></div>
 <div class="ttc" id="aa10609_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../d6/d4c/a10609.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
-<div class="ttc" id="aa27405_html_a466db5b8dc15a196d67dfcbef3d810e1"><div class="ttname"><a href="../../de/db8/a27405.html#a466db5b8dc15a196d67dfcbef3d810e1">spell_gen_bonked::HandleScript</a></div><div class="ttdeci">void HandleScript(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:4027</div></div>
+<div class="ttc" id="aa27405_html_a466db5b8dc15a196d67dfcbef3d810e1"><div class="ttname"><a href="../../de/db8/a27405.html#a466db5b8dc15a196d67dfcbef3d810e1">spell_gen_bonked::HandleScript</a></div><div class="ttdeci">void HandleScript(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:4029</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00031">EFFECT_1</a>, <a class="el" href="../../#l04027">HandleScript()</a>, <a class="el" href="../../#l00336">SpellScript::OnEffectHitTarget</a>, <a class="el" href="../../#l00827">SPELL_EFFECT_SCRIPT_EFFECT</a>, and <a class="el" href="../../#l00337">SpellEffectFn</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00031">EFFECT_1</a>, <a class="el" href="../../#l04029">HandleScript()</a>, <a class="el" href="../../#l00336">SpellScript::OnEffectHitTarget</a>, <a class="el" href="../../#l00827">SPELL_EFFECT_SCRIPT_EFFECT</a>, and <a class="el" href="../../#l00337">SpellEffectFn</a>.</p>
 
 </div>
 </div>
@@ -444,12 +444,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d12/a10593.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 4023</span>    {</div>
-<div class="line"><span class="lineno"> 4024</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/d12/a10593.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>({ <a class="code hl_enumvalue" href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28feba145745e0c42f68f0eb6b97a99d4f9206">SPELL_BONKED</a>, <a class="code hl_enumvalue" href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28feba310e9d9e31d607796e3765765665ae7f">SPELL_FOAM_SWORD_DEFEAT</a>, <a class="code hl_enumvalue" href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28febad6a9e10c5be0d84914192180dd1c1602">SPELL_ON_GUARD</a> });</div>
-<div class="line"><span class="lineno"> 4025</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 4025</span>    {</div>
+<div class="line"><span class="lineno"> 4026</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/d12/a10593.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>({ <a class="code hl_enumvalue" href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28feba145745e0c42f68f0eb6b97a99d4f9206">SPELL_BONKED</a>, <a class="code hl_enumvalue" href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28feba310e9d9e31d607796e3765765665ae7f">SPELL_FOAM_SWORD_DEFEAT</a>, <a class="code hl_enumvalue" href="../../d6/d07/a04154.html#ae38873cf6058500d79eeb2a803b28febad6a9e10c5be0d84914192180dd1c1602">SPELL_ON_GUARD</a> });</div>
+<div class="line"><span class="lineno"> 4027</span>    }</div>
 <div class="ttc" id="aa10593_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d8/d12/a10593.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l04012">SPELL_BONKED</a>, <a class="el" href="../../#l04013">SPELL_FOAM_SWORD_DEFEAT</a>, <a class="el" href="../../#l04014">SPELL_ON_GUARD</a>, and <a class="el" href="../../#l00125">_SpellScript::ValidateSpellInfo()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l04014">SPELL_BONKED</a>, <a class="el" href="../../#l04015">SPELL_FOAM_SWORD_DEFEAT</a>, <a class="el" href="../../#l04016">SPELL_ON_GUARD</a>, and <a class="el" href="../../#l00125">_SpellScript::ValidateSpellInfo()</a>.</p>
 
 </div>
 </div>
@@ -459,7 +459,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/db8/a27405.html">spell_gen_bonked</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 14:44:39 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sat Nov 12 2022 15:54:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -329,23 +329,23 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  146</span>    {</div>
-<div class="line"><span class="lineno">  147</span>        <span class="keywordflow">for</span>( std::list&lt;WorldObject*&gt;::iterator itr = targets.begin(); itr != targets.end(); )</div>
-<div class="line"><span class="lineno">  148</span>        {</div>
-<div class="line"><span class="lineno">  149</span>            <span class="keywordflow">if</span> ((*itr)-&gt;GetTypeId() != <a class="code hl_enumvalue" href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a> || (*itr)-&gt;ToPlayer()-&gt;IsAlive())</div>
-<div class="line"><span class="lineno">  150</span>            {</div>
-<div class="line"><span class="lineno">  151</span>                targets.erase(itr);</div>
-<div class="line"><span class="lineno">  152</span>                itr = targets.begin();</div>
-<div class="line"><span class="lineno">  153</span>                <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  154</span>            }</div>
-<div class="line"><span class="lineno">  155</span>            ++itr;</div>
-<div class="line"><span class="lineno">  156</span>        }</div>
-<div class="line"><span class="lineno">  157</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  148</span>    {</div>
+<div class="line"><span class="lineno">  149</span>        <span class="keywordflow">for</span>( std::list&lt;WorldObject*&gt;::iterator itr = targets.begin(); itr != targets.end(); )</div>
+<div class="line"><span class="lineno">  150</span>        {</div>
+<div class="line"><span class="lineno">  151</span>            <span class="keywordflow">if</span> ((*itr)-&gt;GetTypeId() != <a class="code hl_enumvalue" href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a> || (*itr)-&gt;ToPlayer()-&gt;IsAlive())</div>
+<div class="line"><span class="lineno">  152</span>            {</div>
+<div class="line"><span class="lineno">  153</span>                targets.erase(itr);</div>
+<div class="line"><span class="lineno">  154</span>                itr = targets.begin();</div>
+<div class="line"><span class="lineno">  155</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  156</span>            }</div>
+<div class="line"><span class="lineno">  157</span>            ++itr;</div>
+<div class="line"><span class="lineno">  158</span>        }</div>
+<div class="line"><span class="lineno">  159</span>    }</div>
 <div class="ttc" id="aa01208_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00038">TYPEID_PLAYER</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00172">Register()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00174">Register()</a>.</p>
 
 </div>
 </div>
@@ -371,29 +371,29 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  160</span>    {</div>
-<div class="line"><span class="lineno">  161</span>        <a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* caster = <a class="code hl_function" href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
-<div class="line"><span class="lineno">  162</span>        <span class="keywordflow">if</span> (!caster || !caster-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
-<div class="line"><span class="lineno">  163</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  164</span> </div>
-<div class="line"><span class="lineno">  165</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../da/dd0/a27025.html#a7f5a4e68fb7d948f0df35824272cbdb0">haveTarget</a>)</div>
-<div class="line"><span class="lineno">  166</span>        {</div>
-<div class="line"><span class="lineno">  167</span>            caster-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d83/a08045.html#ad52044947ef0aa2325b2688075bac34d">RemoveSpellCooldown</a>(<a class="code hl_function" href="../../d6/d4c/a10609.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;Id, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  168</span>            <a class="code hl_function" href="../../d5/de8/a10473.html#ac08e0f25ac5ac7e8c6f8466554406727">Spell::SendCastResult</a>(caster-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>(), <a class="code hl_function" href="../../d6/d4c/a10609.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>(), 0, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daabac1a9f442523ff297fbca0beea649b3">SPELL_FAILED_BAD_TARGETS</a>);</div>
-<div class="line"><span class="lineno">  169</span>        }</div>
-<div class="line"><span class="lineno">  170</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  162</span>    {</div>
+<div class="line"><span class="lineno">  163</span>        <a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* caster = <a class="code hl_function" href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno">  164</span>        <span class="keywordflow">if</span> (!caster || !caster-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno">  165</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  166</span> </div>
+<div class="line"><span class="lineno">  167</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../da/dd0/a27025.html#a7f5a4e68fb7d948f0df35824272cbdb0">haveTarget</a>)</div>
+<div class="line"><span class="lineno">  168</span>        {</div>
+<div class="line"><span class="lineno">  169</span>            caster-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d83/a08045.html#ad52044947ef0aa2325b2688075bac34d">RemoveSpellCooldown</a>(<a class="code hl_function" href="../../d6/d4c/a10609.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;Id, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  170</span>            <a class="code hl_function" href="../../d5/de8/a10473.html#ac08e0f25ac5ac7e8c6f8466554406727">Spell::SendCastResult</a>(caster-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>(), <a class="code hl_function" href="../../d6/d4c/a10609.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>(), 0, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daabac1a9f442523ff297fbca0beea649b3">SPELL_FAILED_BAD_TARGETS</a>);</div>
+<div class="line"><span class="lineno">  171</span>        }</div>
+<div class="line"><span class="lineno">  172</span>    }</div>
 <div class="ttc" id="aa04307_html_ade9b4e913a84079f5311c2817e3de9daabac1a9f442523ff297fbca0beea649b3"><div class="ttname"><a href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daabac1a9f442523ff297fbca0beea649b3">SPELL_FAILED_BAD_TARGETS</a></div><div class="ttdeci">@ SPELL_FAILED_BAD_TARGETS</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:933</div></div>
 <div class="ttc" id="aa07805_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../df/d6f/a07805.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
-<div class="ttc" id="aa08045_html_ad52044947ef0aa2325b2688075bac34d"><div class="ttname"><a href="../../d8/d83/a08045.html#ad52044947ef0aa2325b2688075bac34d">Player::RemoveSpellCooldown</a></div><div class="ttdeci">void RemoveSpellCooldown(uint32 spell_id, bool update=false)</div><div class="ttdef"><b>Definition:</b> Player.cpp:3454</div></div>
+<div class="ttc" id="aa08045_html_ad52044947ef0aa2325b2688075bac34d"><div class="ttname"><a href="../../d8/d83/a08045.html#ad52044947ef0aa2325b2688075bac34d">Player::RemoveSpellCooldown</a></div><div class="ttdeci">void RemoveSpellCooldown(uint32 spell_id, bool update=false)</div><div class="ttdef"><b>Definition:</b> Player.cpp:3456</div></div>
 <div class="ttc" id="aa08189_html"><div class="ttname"><a href="../../df/d37/a08189.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
 <div class="ttc" id="aa10473_html_ac08e0f25ac5ac7e8c6f8466554406727"><div class="ttname"><a href="../../d5/de8/a10473.html#ac08e0f25ac5ac7e8c6f8466554406727">Spell::SendCastResult</a></div><div class="ttdeci">static void SendCastResult(Player *caster, SpellInfo const *spellInfo, uint8 castCount, SpellCastResult result, SpellCustomErrors customError=SPELL_CUSTOM_ERROR_NONE)</div><div class="ttdef"><b>Definition:</b> Spell.cpp:4671</div></div>
 <div class="ttc" id="aa10609_html_a3fa31d3b29c52993d3561fad3cd12af3"><div class="ttname"><a href="../../d6/d4c/a10609.html#a3fa31d3b29c52993d3561fad3cd12af3">SpellScript::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:411</div></div>
 <div class="ttc" id="aa10609_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
-<div class="ttc" id="aa27025_html_a7f5a4e68fb7d948f0df35824272cbdb0"><div class="ttname"><a href="../../da/dd0/a27025.html#a7f5a4e68fb7d948f0df35824272cbdb0">spell_the_flag_of_ownership::haveTarget</a></div><div class="ttdeci">bool haveTarget</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:123</div></div>
+<div class="ttc" id="aa27025_html_a7f5a4e68fb7d948f0df35824272cbdb0"><div class="ttname"><a href="../../da/dd0/a27025.html#a7f5a4e68fb7d948f0df35824272cbdb0">spell_the_flag_of_ownership::haveTarget</a></div><div class="ttdeci">bool haveTarget</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:125</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00401">SpellScript::GetCaster()</a>, <a class="el" href="../../#l00411">SpellScript::GetSpellInfo()</a>, <a class="el" href="../../#l00123">haveTarget</a>, <a class="el" href="../../#l03454">Player::RemoveSpellCooldown()</a>, <a class="el" href="../../#l04671">Spell::SendCastResult()</a>, <a class="el" href="../../#l00933">SPELL_FAILED_BAD_TARGETS</a>, and <a class="el" href="../../#l00195">Object::ToPlayer()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00401">SpellScript::GetCaster()</a>, <a class="el" href="../../#l00411">SpellScript::GetSpellInfo()</a>, <a class="el" href="../../#l00125">haveTarget</a>, <a class="el" href="../../#l03456">Player::RemoveSpellCooldown()</a>, <a class="el" href="../../#l04671">Spell::SendCastResult()</a>, <a class="el" href="../../#l00933">SPELL_FAILED_BAD_TARGETS</a>, and <a class="el" href="../../#l00195">Object::ToPlayer()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00172">Register()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00174">Register()</a>.</p>
 
 </div>
 </div>
@@ -420,29 +420,29 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  131</span>    {</div>
-<div class="line"><span class="lineno">  132</span>        <a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* caster = <a class="code hl_function" href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
-<div class="line"><span class="lineno">  133</span>        <span class="keywordflow">if</span> (!caster || caster-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() != <a class="code hl_enumvalue" href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
-<div class="line"><span class="lineno">  134</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  135</span>        <a class="code hl_class" href="../../d8/d83/a08045.html">Player</a>* target = <a class="code hl_function" href="../../d6/d4c/a10609.html#a175aa4408973ae49cfe237d6c9c5f12f">GetHitPlayer</a>();</div>
-<div class="line"><span class="lineno">  136</span>        <span class="keywordflow">if</span> (!target)</div>
-<div class="line"><span class="lineno">  137</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  138</span>        caster-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, 52605, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  139</span>        <span class="keywordtype">char</span> buff[100];</div>
-<div class="line"><span class="lineno">  140</span>        sprintf(buff, <span class="stringliteral">&quot;%s plants the Flag of Ownership in the corpse of %s.&quot;</span>, caster-&gt;<a class="code hl_function" href="../../d5/daf/a07837.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>().c_str(), target-&gt;<a class="code hl_function" href="../../d5/daf/a07837.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>().c_str());</div>
-<div class="line"><span class="lineno">  141</span>        caster-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#a9675dc6e2f84f8604e0df5b5ea4cf6d5">TextEmote</a>(buff, caster);</div>
-<div class="line"><span class="lineno">  142</span>        <a class="code hl_variable" href="../../da/dd0/a27025.html#a7f5a4e68fb7d948f0df35824272cbdb0">haveTarget</a> = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  143</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  133</span>    {</div>
+<div class="line"><span class="lineno">  134</span>        <a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* caster = <a class="code hl_function" href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno">  135</span>        <span class="keywordflow">if</span> (!caster || caster-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() != <a class="code hl_enumvalue" href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  136</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  137</span>        <a class="code hl_class" href="../../d8/d83/a08045.html">Player</a>* target = <a class="code hl_function" href="../../d6/d4c/a10609.html#a175aa4408973ae49cfe237d6c9c5f12f">GetHitPlayer</a>();</div>
+<div class="line"><span class="lineno">  138</span>        <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno">  139</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  140</span>        caster-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, 52605, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  141</span>        <span class="keywordtype">char</span> buff[100];</div>
+<div class="line"><span class="lineno">  142</span>        sprintf(buff, <span class="stringliteral">&quot;%s plants the Flag of Ownership in the corpse of %s.&quot;</span>, caster-&gt;<a class="code hl_function" href="../../d5/daf/a07837.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>().c_str(), target-&gt;<a class="code hl_function" href="../../d5/daf/a07837.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>().c_str());</div>
+<div class="line"><span class="lineno">  143</span>        caster-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#a9675dc6e2f84f8604e0df5b5ea4cf6d5">TextEmote</a>(buff, caster);</div>
+<div class="line"><span class="lineno">  144</span>        <a class="code hl_variable" href="../../da/dd0/a27025.html#a7f5a4e68fb7d948f0df35824272cbdb0">haveTarget</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  145</span>    }</div>
 <div class="ttc" id="aa07805_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../df/d6f/a07805.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
 <div class="ttc" id="aa07837_html_a7e67658eb5aa058bc7f46bf6b11a797c"><div class="ttname"><a href="../../d5/daf/a07837.html#a7e67658eb5aa058bc7f46bf6b11a797c">WorldObject::GetName</a></div><div class="ttdeci">std::string const &amp; GetName() const</div><div class="ttdef"><b>Definition:</b> Object.h:446</div></div>
 <div class="ttc" id="aa08045_html"><div class="ttname"><a href="../../d8/d83/a08045.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
-<div class="ttc" id="aa08189_html_a9675dc6e2f84f8604e0df5b5ea4cf6d5"><div class="ttname"><a href="../../df/d37/a08189.html#a9675dc6e2f84f8604e0df5b5ea4cf6d5">Unit::TextEmote</a></div><div class="ttdeci">virtual void TextEmote(std::string_view text, WorldObject const *target=nullptr, bool isBossEmote=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:21153</div></div>
-<div class="ttc" id="aa08189_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../df/d37/a08189.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aa08189_html_a9675dc6e2f84f8604e0df5b5ea4cf6d5"><div class="ttname"><a href="../../df/d37/a08189.html#a9675dc6e2f84f8604e0df5b5ea4cf6d5">Unit::TextEmote</a></div><div class="ttdeci">virtual void TextEmote(std::string_view text, WorldObject const *target=nullptr, bool isBossEmote=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:22009</div></div>
+<div class="ttc" id="aa08189_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../df/d37/a08189.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1428</div></div>
 <div class="ttc" id="aa10609_html_a175aa4408973ae49cfe237d6c9c5f12f"><div class="ttname"><a href="../../d6/d4c/a10609.html#a175aa4408973ae49cfe237d6c9c5f12f">SpellScript::GetHitPlayer</a></div><div class="ttdeci">Player * GetHitPlayer()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:471</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01168">Unit::CastSpell()</a>, <a class="el" href="../../#l00401">SpellScript::GetCaster()</a>, <a class="el" href="../../#l00471">SpellScript::GetHitPlayer()</a>, <a class="el" href="../../#l00446">WorldObject::GetName()</a>, <a class="el" href="../../#l00121">Object::GetTypeId()</a>, <a class="el" href="../../#l00123">haveTarget</a>, <a class="el" href="../../#l21153">Unit::TextEmote()</a>, and <a class="el" href="../../#l00038">TYPEID_PLAYER</a>.</p>
+<p class="reference">References <a class="el" href="../../#l01428">Unit::CastSpell()</a>, <a class="el" href="../../#l00401">SpellScript::GetCaster()</a>, <a class="el" href="../../#l00471">SpellScript::GetHitPlayer()</a>, <a class="el" href="../../#l00446">WorldObject::GetName()</a>, <a class="el" href="../../#l00121">Object::GetTypeId()</a>, <a class="el" href="../../#l00125">haveTarget</a>, <a class="el" href="../../#l22009">Unit::TextEmote()</a>, and <a class="el" href="../../#l00038">TYPEID_PLAYER</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00172">Register()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00174">Register()</a>.</p>
 
 </div>
 </div>
@@ -470,12 +470,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d12/a10593.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443">_SpellScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  125</span>    {</div>
-<div class="line"><span class="lineno">  126</span>        <a class="code hl_variable" href="../../da/dd0/a27025.html#a7f5a4e68fb7d948f0df35824272cbdb0">haveTarget</a> = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  127</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  128</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  127</span>    {</div>
+<div class="line"><span class="lineno">  128</span>        <a class="code hl_variable" href="../../da/dd0/a27025.html#a7f5a4e68fb7d948f0df35824272cbdb0">haveTarget</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  129</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  130</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00123">haveTarget</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00125">haveTarget</a>.</p>
 
 </div>
 </div>
@@ -529,11 +529,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d8/d12/a10593.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  173</span>    {</div>
-<div class="line"><span class="lineno">  174</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a05948ff5c05b05d77ed69043972eaa4f">AfterCast</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#aa0eb707cdfb0f2fafeafd6ab32274654">SpellCastFn</a>(<a class="code hl_function" href="../../da/dd0/a27025.html#a3b5760ed61d0b2789ddcaef998303d38">spell_the_flag_of_ownership::HandleFinish</a>);</div>
-<div class="line"><span class="lineno">  175</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../da/dd0/a27025.html#a2c26838015f1b21715fc1438537e15d3">spell_the_flag_of_ownership::HandleScript</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a>);</div>
-<div class="line"><span class="lineno">  176</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../da/dd0/a27025.html#a033c63470d406ad2249c5aa223c00b2f">spell_the_flag_of_ownership::FilterTargets</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a418aed4e4066eb09ab979b5d78dc9152a2972c9bec8ef0022fe184c6719b3da69">TARGET_CORPSE_SRC_AREA_ENEMY</a>);</div>
-<div class="line"><span class="lineno">  177</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  175</span>    {</div>
+<div class="line"><span class="lineno">  176</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a05948ff5c05b05d77ed69043972eaa4f">AfterCast</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#aa0eb707cdfb0f2fafeafd6ab32274654">SpellCastFn</a>(<a class="code hl_function" href="../../da/dd0/a27025.html#a3b5760ed61d0b2789ddcaef998303d38">spell_the_flag_of_ownership::HandleFinish</a>);</div>
+<div class="line"><span class="lineno">  177</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../da/dd0/a27025.html#a2c26838015f1b21715fc1438537e15d3">spell_the_flag_of_ownership::HandleScript</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a>);</div>
+<div class="line"><span class="lineno">  178</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../da/dd0/a27025.html#a033c63470d406ad2249c5aa223c00b2f">spell_the_flag_of_ownership::FilterTargets</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a418aed4e4066eb09ab979b5d78dc9152a2972c9bec8ef0022fe184c6719b3da69">TARGET_CORPSE_SRC_AREA_ENEMY</a>);</div>
+<div class="line"><span class="lineno">  179</span>    }</div>
 <div class="ttc" id="aa02144_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../dc/d29/a02144.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
 <div class="ttc" id="aa02144_html_a623f49512c3d12eceb55ca05cd53c4f2"><div class="ttname"><a href="../../dc/d29/a02144.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a></div><div class="ttdeci">#define SpellObjectAreaTargetSelectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:354</div></div>
 <div class="ttc" id="aa02144_html_aa0eb707cdfb0f2fafeafd6ab32274654"><div class="ttname"><a href="../../dc/d29/a02144.html#aa0eb707cdfb0f2fafeafd6ab32274654">SpellCastFn</a></div><div class="ttdeci">#define SpellCastFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:324</div></div>
@@ -543,11 +543,11 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aa10609_html_a05948ff5c05b05d77ed69043972eaa4f"><div class="ttname"><a href="../../d6/d4c/a10609.html#a05948ff5c05b05d77ed69043972eaa4f">SpellScript::AfterCast</a></div><div class="ttdeci">HookList&lt; CastHandler &gt; AfterCast</div><div class="ttdef"><b>Definition:</b> SpellScript.h:323</div></div>
 <div class="ttc" id="aa10609_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../d6/d4c/a10609.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
 <div class="ttc" id="aa10609_html_af74f730c6dacd310a78036be6b7cc6b7"><div class="ttname"><a href="../../d6/d4c/a10609.html#af74f730c6dacd310a78036be6b7cc6b7">SpellScript::OnObjectAreaTargetSelect</a></div><div class="ttdeci">HookList&lt; ObjectAreaTargetSelectHandler &gt; OnObjectAreaTargetSelect</div><div class="ttdef"><b>Definition:</b> SpellScript.h:353</div></div>
-<div class="ttc" id="aa27025_html_a033c63470d406ad2249c5aa223c00b2f"><div class="ttname"><a href="../../da/dd0/a27025.html#a033c63470d406ad2249c5aa223c00b2f">spell_the_flag_of_ownership::FilterTargets</a></div><div class="ttdeci">void FilterTargets(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:145</div></div>
-<div class="ttc" id="aa27025_html_a2c26838015f1b21715fc1438537e15d3"><div class="ttname"><a href="../../da/dd0/a27025.html#a2c26838015f1b21715fc1438537e15d3">spell_the_flag_of_ownership::HandleScript</a></div><div class="ttdeci">void HandleScript(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:130</div></div>
-<div class="ttc" id="aa27025_html_a3b5760ed61d0b2789ddcaef998303d38"><div class="ttname"><a href="../../da/dd0/a27025.html#a3b5760ed61d0b2789ddcaef998303d38">spell_the_flag_of_ownership::HandleFinish</a></div><div class="ttdeci">void HandleFinish()</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:159</div></div>
+<div class="ttc" id="aa27025_html_a033c63470d406ad2249c5aa223c00b2f"><div class="ttname"><a href="../../da/dd0/a27025.html#a033c63470d406ad2249c5aa223c00b2f">spell_the_flag_of_ownership::FilterTargets</a></div><div class="ttdeci">void FilterTargets(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:147</div></div>
+<div class="ttc" id="aa27025_html_a2c26838015f1b21715fc1438537e15d3"><div class="ttname"><a href="../../da/dd0/a27025.html#a2c26838015f1b21715fc1438537e15d3">spell_the_flag_of_ownership::HandleScript</a></div><div class="ttdeci">void HandleScript(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:132</div></div>
+<div class="ttc" id="aa27025_html_a3b5760ed61d0b2789ddcaef998303d38"><div class="ttname"><a href="../../da/dd0/a27025.html#a3b5760ed61d0b2789ddcaef998303d38">spell_the_flag_of_ownership::HandleFinish</a></div><div class="ttdeci">void HandleFinish()</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:161</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00323">SpellScript::AfterCast</a>, <a class="el" href="../../#l00030">EFFECT_0</a>, <a class="el" href="../../#l00145">FilterTargets()</a>, <a class="el" href="../../#l00159">HandleFinish()</a>, <a class="el" href="../../#l00130">HandleScript()</a>, <a class="el" href="../../#l00336">SpellScript::OnEffectHitTarget</a>, <a class="el" href="../../#l00353">SpellScript::OnObjectAreaTargetSelect</a>, <a class="el" href="../../#l00753">SPELL_EFFECT_DUMMY</a>, <a class="el" href="../../#l00324">SpellCastFn</a>, <a class="el" href="../../#l00337">SpellEffectFn</a>, <a class="el" href="../../#l00354">SpellObjectAreaTargetSelectFn</a>, and <a class="el" href="../../#l01469">TARGET_CORPSE_SRC_AREA_ENEMY</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00323">SpellScript::AfterCast</a>, <a class="el" href="../../#l00030">EFFECT_0</a>, <a class="el" href="../../#l00147">FilterTargets()</a>, <a class="el" href="../../#l00161">HandleFinish()</a>, <a class="el" href="../../#l00132">HandleScript()</a>, <a class="el" href="../../#l00336">SpellScript::OnEffectHitTarget</a>, <a class="el" href="../../#l00353">SpellScript::OnObjectAreaTargetSelect</a>, <a class="el" href="../../#l00753">SPELL_EFFECT_DUMMY</a>, <a class="el" href="../../#l00324">SpellCastFn</a>, <a class="el" href="../../#l00337">SpellEffectFn</a>, <a class="el" href="../../#l00354">SpellObjectAreaTargetSelectFn</a>, and <a class="el" href="../../#l01469">TARGET_CORPSE_SRC_AREA_ENEMY</a>.</p>
 
 </div>
 </div>
@@ -572,7 +572,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00159">HandleFinish()</a>, <a class="el" href="../../#l00130">HandleScript()</a>, and <a class="el" href="../../#l00124">Load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00161">HandleFinish()</a>, <a class="el" href="../../#l00132">HandleScript()</a>, and <a class="el" href="../../#l00126">Load()</a>.</p>
 
 </div>
 </div>
@@ -582,7 +582,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/dd0/a27025.html">spell_the_flag_of_ownership</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 14:44:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sat Nov 12 2022 15:55:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

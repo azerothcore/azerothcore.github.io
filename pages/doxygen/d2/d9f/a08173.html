@@ -264,19 +264,19 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15668</span>    : <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>(unit), <a class="code hl_variable" href="../../d2/d9f/a08173.html#a97953441876927ccd66538ab8d0d8d41">_CommandState</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a7eae48d6e87258317f7ee7e8d84a4abdaf73d9126113ee58d7e19783dd3c38c45">COMMAND_FOLLOW</a>), <a class="code hl_variable" href="../../d2/d9f/a08173.html#af75ce01806070692ffa25c833021619f">_petnumber</a>(0), <a class="code hl_variable" href="../../d2/d9f/a08173.html#ac6b8b44a93d7dd08be91fd480e649c00">_oldReactState</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>),</div>
-<div class="line"><span class="lineno">15669</span>      <a class="code hl_variable" href="../../d2/d9f/a08173.html#abcdea96cfd85605af292fbd91f18b5e4">_isCommandAttack</a>(<span class="keyword">false</span>), <a class="code hl_variable" href="../../d2/d9f/a08173.html#a70d95a3c96b66b5b7a6619b5a0fb80a7">_isCommandFollow</a>(<span class="keyword">false</span>), <a class="code hl_variable" href="../../d2/d9f/a08173.html#a4a53706e7713078c4ac23b192dae0efb">_isAtStay</a>(<span class="keyword">false</span>), <a class="code hl_variable" href="../../d2/d9f/a08173.html#ab3683a0e9ff72dadc5496c7d1086b2d2">_isFollowing</a>(<span class="keyword">false</span>), <a class="code hl_variable" href="../../d2/d9f/a08173.html#af0c8bac9ab31c561e09ef20e90d1a86d">_isReturning</a>(<span class="keyword">false</span>),</div>
-<div class="line"><span class="lineno">15670</span>      <a class="code hl_variable" href="../../d2/d9f/a08173.html#ab29b620f84b69b0b36f97e7a939ef83b">_forcedSpellId</a>(0), <a class="code hl_variable" href="../../d2/d9f/a08173.html#a5c04998f07bf628f0401b85f24073e26">_stayX</a>(0.0f), <a class="code hl_variable" href="../../d2/d9f/a08173.html#a16d422faa579c883cda9ce00539c1fe7">_stayY</a>(0.0f), <a class="code hl_variable" href="../../d2/d9f/a08173.html#a6b292becf0aac801b94a5264125ea751">_stayZ</a>(0.0f)</div>
-<div class="line"><span class="lineno">15671</span>{</div>
-<div class="line"><span class="lineno">15672</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a05307279d313f131c83ace9bf30d5722">MAX_SPELL_CHARM</a>; ++i)</div>
-<div class="line"><span class="lineno">15673</span>        <a class="code hl_variable" href="../../d2/d9f/a08173.html#afe4010e53fd86907d9aa3210be09886b">_charmspells</a>[i].SetActionAndType(0, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a>);</div>
-<div class="line"><span class="lineno">15674</span> </div>
-<div class="line"><span class="lineno">15675</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>)</div>
-<div class="line"><span class="lineno">15676</span>    {</div>
-<div class="line"><span class="lineno">15677</span>        <a class="code hl_variable" href="../../d2/d9f/a08173.html#ac6b8b44a93d7dd08be91fd480e649c00">_oldReactState</a> = <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d7/dc5/a07437.html#ac8053a37866fdc948648683c358498a3">GetReactState</a>();</div>
-<div class="line"><span class="lineno">15678</span>        <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d7/dc5/a07437.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>);</div>
-<div class="line"><span class="lineno">15679</span>    }</div>
-<div class="line"><span class="lineno">15680</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">16524</span>    : <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>(unit), <a class="code hl_variable" href="../../d2/d9f/a08173.html#a97953441876927ccd66538ab8d0d8d41">_CommandState</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a7eae48d6e87258317f7ee7e8d84a4abdaf73d9126113ee58d7e19783dd3c38c45">COMMAND_FOLLOW</a>), <a class="code hl_variable" href="../../d2/d9f/a08173.html#af75ce01806070692ffa25c833021619f">_petnumber</a>(0), <a class="code hl_variable" href="../../d2/d9f/a08173.html#ac6b8b44a93d7dd08be91fd480e649c00">_oldReactState</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>),</div>
+<div class="line"><span class="lineno">16525</span>      <a class="code hl_variable" href="../../d2/d9f/a08173.html#abcdea96cfd85605af292fbd91f18b5e4">_isCommandAttack</a>(<span class="keyword">false</span>), <a class="code hl_variable" href="../../d2/d9f/a08173.html#a70d95a3c96b66b5b7a6619b5a0fb80a7">_isCommandFollow</a>(<span class="keyword">false</span>), <a class="code hl_variable" href="../../d2/d9f/a08173.html#a4a53706e7713078c4ac23b192dae0efb">_isAtStay</a>(<span class="keyword">false</span>), <a class="code hl_variable" href="../../d2/d9f/a08173.html#ab3683a0e9ff72dadc5496c7d1086b2d2">_isFollowing</a>(<span class="keyword">false</span>), <a class="code hl_variable" href="../../d2/d9f/a08173.html#af0c8bac9ab31c561e09ef20e90d1a86d">_isReturning</a>(<span class="keyword">false</span>),</div>
+<div class="line"><span class="lineno">16526</span>      <a class="code hl_variable" href="../../d2/d9f/a08173.html#ab29b620f84b69b0b36f97e7a939ef83b">_forcedSpellId</a>(0), <a class="code hl_variable" href="../../d2/d9f/a08173.html#a5c04998f07bf628f0401b85f24073e26">_stayX</a>(0.0f), <a class="code hl_variable" href="../../d2/d9f/a08173.html#a16d422faa579c883cda9ce00539c1fe7">_stayY</a>(0.0f), <a class="code hl_variable" href="../../d2/d9f/a08173.html#a6b292becf0aac801b94a5264125ea751">_stayZ</a>(0.0f)</div>
+<div class="line"><span class="lineno">16527</span>{</div>
+<div class="line"><span class="lineno">16528</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a05307279d313f131c83ace9bf30d5722">MAX_SPELL_CHARM</a>; ++i)</div>
+<div class="line"><span class="lineno">16529</span>        <a class="code hl_variable" href="../../d2/d9f/a08173.html#afe4010e53fd86907d9aa3210be09886b">_charmspells</a>[i].SetActionAndType(0, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a>);</div>
+<div class="line"><span class="lineno">16530</span> </div>
+<div class="line"><span class="lineno">16531</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>)</div>
+<div class="line"><span class="lineno">16532</span>    {</div>
+<div class="line"><span class="lineno">16533</span>        <a class="code hl_variable" href="../../d2/d9f/a08173.html#ac6b8b44a93d7dd08be91fd480e649c00">_oldReactState</a> = <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d7/dc5/a07437.html#ac8053a37866fdc948648683c358498a3">GetReactState</a>();</div>
+<div class="line"><span class="lineno">16534</span>        <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d7/dc5/a07437.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">16535</span>    }</div>
+<div class="line"><span class="lineno">16536</span>}</div>
 <div class="ttc" id="aa00230_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
 <div class="ttc" id="aa01208_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
 <div class="ttc" id="aa01328_html_a05307279d313f131c83ace9bf30d5722"><div class="ttname"><a href="../../dc/dd9/a01328.html#a05307279d313f131c83ace9bf30d5722">MAX_SPELL_CHARM</a></div><div class="ttdeci">#define MAX_SPELL_CHARM</div><div class="ttdef"><b>Definition:</b> Unit.h:157</div></div>
@@ -320,8 +320,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15683</span>{</div>
-<div class="line"><span class="lineno">15684</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">16539</span>{</div>
+<div class="line"><span class="lineno">16540</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -351,34 +351,34 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15806</span>{</div>
-<div class="line"><span class="lineno">15807</span>    <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spell_id = spellInfo-&gt;Id;</div>
-<div class="line"><span class="lineno">15808</span>    <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> first_id = spellInfo-&gt;GetFirstRankSpell()-&gt;Id;</div>
-<div class="line"><span class="lineno">15809</span> </div>
-<div class="line"><span class="lineno">15810</span>    <span class="comment">// new spell rank can be already listed</span></div>
-<div class="line"><span class="lineno">15811</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a155b8633f243004497699c184b903901">MAX_UNIT_ACTION_BAR_INDEX</a>; ++i)</div>
-<div class="line"><span class="lineno">15812</span>    {</div>
-<div class="line"><span class="lineno">15813</span>        <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> action = <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].GetAction())</div>
-<div class="line"><span class="lineno">15814</span>        {</div>
-<div class="line"><span class="lineno">15815</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].IsActionBarForSpell() &amp;&amp; <a class="code hl_define" href="../../db/df6/a02138.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetFirstSpellInChain(action) == first_id)</div>
-<div class="line"><span class="lineno">15816</span>            {</div>
-<div class="line"><span class="lineno">15817</span>                <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].<a class="code hl_function" href="../../de/da7/a08169.html#aa00953783b0b3de3beb755a054c77730">SetAction</a>(spell_id);</div>
-<div class="line"><span class="lineno">15818</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15819</span>            }</div>
-<div class="line"><span class="lineno">15820</span>        }</div>
-<div class="line"><span class="lineno">15821</span>    }</div>
-<div class="line"><span class="lineno">15822</span> </div>
-<div class="line"><span class="lineno">15823</span>    <span class="comment">// or use empty slot in other case</span></div>
-<div class="line"><span class="lineno">15824</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a155b8633f243004497699c184b903901">MAX_UNIT_ACTION_BAR_INDEX</a>; ++i)</div>
-<div class="line"><span class="lineno">15825</span>    {</div>
-<div class="line"><span class="lineno">15826</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].GetAction() &amp;&amp; <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].IsActionBarForSpell())</div>
-<div class="line"><span class="lineno">15827</span>        {</div>
-<div class="line"><span class="lineno">15828</span>            <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(i, spell_id, newstate == <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa24d8db1d523431e423ef8354296ed162">ACT_DECIDE</a> ? spellInfo-&gt;IsAutocastable() ? <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a> : <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a> : newstate);</div>
-<div class="line"><span class="lineno">15829</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15830</span>        }</div>
-<div class="line"><span class="lineno">15831</span>    }</div>
-<div class="line"><span class="lineno">15832</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">15833</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">16662</span>{</div>
+<div class="line"><span class="lineno">16663</span>    <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spell_id = spellInfo-&gt;Id;</div>
+<div class="line"><span class="lineno">16664</span>    <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> first_id = spellInfo-&gt;GetFirstRankSpell()-&gt;Id;</div>
+<div class="line"><span class="lineno">16665</span> </div>
+<div class="line"><span class="lineno">16666</span>    <span class="comment">// new spell rank can be already listed</span></div>
+<div class="line"><span class="lineno">16667</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a155b8633f243004497699c184b903901">MAX_UNIT_ACTION_BAR_INDEX</a>; ++i)</div>
+<div class="line"><span class="lineno">16668</span>    {</div>
+<div class="line"><span class="lineno">16669</span>        <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> action = <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].GetAction())</div>
+<div class="line"><span class="lineno">16670</span>        {</div>
+<div class="line"><span class="lineno">16671</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].IsActionBarForSpell() &amp;&amp; <a class="code hl_define" href="../../db/df6/a02138.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetFirstSpellInChain(action) == first_id)</div>
+<div class="line"><span class="lineno">16672</span>            {</div>
+<div class="line"><span class="lineno">16673</span>                <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].<a class="code hl_function" href="../../de/da7/a08169.html#aa00953783b0b3de3beb755a054c77730">SetAction</a>(spell_id);</div>
+<div class="line"><span class="lineno">16674</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">16675</span>            }</div>
+<div class="line"><span class="lineno">16676</span>        }</div>
+<div class="line"><span class="lineno">16677</span>    }</div>
+<div class="line"><span class="lineno">16678</span> </div>
+<div class="line"><span class="lineno">16679</span>    <span class="comment">// or use empty slot in other case</span></div>
+<div class="line"><span class="lineno">16680</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a155b8633f243004497699c184b903901">MAX_UNIT_ACTION_BAR_INDEX</a>; ++i)</div>
+<div class="line"><span class="lineno">16681</span>    {</div>
+<div class="line"><span class="lineno">16682</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].GetAction() &amp;&amp; <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].IsActionBarForSpell())</div>
+<div class="line"><span class="lineno">16683</span>        {</div>
+<div class="line"><span class="lineno">16684</span>            <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(i, spell_id, newstate == <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa24d8db1d523431e423ef8354296ed162">ACT_DECIDE</a> ? spellInfo-&gt;IsAutocastable() ? <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a> : <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a> : newstate);</div>
+<div class="line"><span class="lineno">16685</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">16686</span>        }</div>
+<div class="line"><span class="lineno">16687</span>    }</div>
+<div class="line"><span class="lineno">16688</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">16689</span>}</div>
 <div class="ttc" id="aa00230_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
 <div class="ttc" id="aa01328_html_a155b8633f243004497699c184b903901"><div class="ttname"><a href="../../dc/dd9/a01328.html#a155b8633f243004497699c184b903901">MAX_UNIT_ACTION_BAR_INDEX</a></div><div class="ttdeci">#define MAX_UNIT_ACTION_BAR_INDEX</div><div class="ttdef"><b>Definition:</b> Unit.h:1091</div></div>
 <div class="ttc" id="aa01328_html_aaec28a439b9086a5fd69bd5358bb46daa24d8db1d523431e423ef8354296ed162"><div class="ttname"><a href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa24d8db1d523431e423ef8354296ed162">ACT_DECIDE</a></div><div class="ttdeci">@ ACT_DECIDE</div><div class="ttdef"><b>Definition:</b> Unit.h:1018</div></div>
@@ -390,7 +390,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01018">ACT_DECIDE</a>, <a class="el" href="../../#l01014">ACT_DISABLED</a>, <a class="el" href="../../#l01013">ACT_PASSIVE</a>, <a class="el" href="../../#l02481">SpellInfo::GetFirstRankSpell()</a>, <a class="el" href="../../#l00318">SpellInfo::Id</a>, <a class="el" href="../../#l01086">SpellInfo::IsAutocastable()</a>, <a class="el" href="../../#l01091">MAX_UNIT_ACTION_BAR_INDEX</a>, <a class="el" href="../../#l01155">PetActionBar</a>, <a class="el" href="../../#l01065">UnitActionBarEntry::SetAction()</a>, <a class="el" href="../../#l01117">SetActionBar()</a>, and <a class="el" href="../../#l00803">sSpellMgr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l01739">Pet::addSpell()</a>, <a class="el" href="../../#l15753">InitCharmCreateSpells()</a>, and <a class="el" href="../../#l15717">InitPossessCreateSpells()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01739">Pet::addSpell()</a>, <a class="el" href="../../#l16609">InitCharmCreateSpells()</a>, and <a class="el" href="../../#l16573">InitPossessCreateSpells()</a>.</p>
 
 </div>
 </div>
@@ -409,14 +409,14 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15910</span>{</div>
-<div class="line"><span class="lineno">15911</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a155b8633f243004497699c184b903901">MAX_UNIT_ACTION_BAR_INDEX</a>; ++i)</div>
-<div class="line"><span class="lineno">15912</span>        *data &lt;&lt; <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].packedData);</div>
-<div class="line"><span class="lineno">15913</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">16766</span>{</div>
+<div class="line"><span class="lineno">16767</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a155b8633f243004497699c184b903901">MAX_UNIT_ACTION_BAR_INDEX</a>; ++i)</div>
+<div class="line"><span class="lineno">16768</span>        *data &lt;&lt; <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].packedData);</div>
+<div class="line"><span class="lineno">16769</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01091">MAX_UNIT_ACTION_BAR_INDEX</a>, and <a class="el" href="../../#l01155">PetActionBar</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l09506">Player::CharmSpellInitialize()</a>, <a class="el" href="../../#l09331">Player::PetSpellInitialize()</a>, and <a class="el" href="../../#l09403">Player::PossessSpellInitialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l09508">Player::CharmSpellInitialize()</a>, <a class="el" href="../../#l09333">Player::PetSpellInitialize()</a>, and <a class="el" href="../../#l09405">Player::PossessSpellInitialize()</a>.</p>
 
 </div>
 </div>
@@ -478,7 +478,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01156">_charmspells</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l09506">Player::CharmSpellInitialize()</a>, and <a class="el" href="../../#l00305">Creature::GetPetAutoSpellOnPos()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l09508">Player::CharmSpellInitialize()</a>, and <a class="el" href="../../#l00305">Creature::GetPetAutoSpellOnPos()</a>.</p>
 
 </div>
 </div>
@@ -508,7 +508,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01157">_CommandState</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l09506">Player::CharmSpellInitialize()</a>, and <a class="el" href="../../#l09331">Player::PetSpellInitialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l09508">Player::CharmSpellInitialize()</a>, and <a class="el" href="../../#l09333">Player::PetSpellInitialize()</a>.</p>
 
 </div>
 </div>
@@ -630,7 +630,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01158">_petnumber</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l01437">Pet::_LoadSpellCooldowns()</a>, <a class="el" href="../../#l01657">Pet::_SaveAuras()</a>, <a class="el" href="../../#l01481">Pet::_SaveSpellCooldowns()</a>, <a class="el" href="../../#l01528">Pet::_SaveSpells()</a>, <a class="el" href="../../#l02419">Pet::FillPetInfo()</a>, <a class="el" href="../../#l02456">Pet::GetDebugInfo()</a>, <a class="el" href="../../#l00824">WorldSession::HandlePetRename()</a>, <a class="el" href="../../#l08915">Player::RemovePet()</a>, <a class="el" href="../../#l02102">Pet::resetTalentsForAllPetsOf()</a>, <a class="el" href="../../#l00494">Pet::SavePetToDB()</a>, and <a class="el" href="../../#l13908">Player::UnsummonPetTemporaryIfAny()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01437">Pet::_LoadSpellCooldowns()</a>, <a class="el" href="../../#l01657">Pet::_SaveAuras()</a>, <a class="el" href="../../#l01481">Pet::_SaveSpellCooldowns()</a>, <a class="el" href="../../#l01528">Pet::_SaveSpells()</a>, <a class="el" href="../../#l02419">Pet::FillPetInfo()</a>, <a class="el" href="../../#l02456">Pet::GetDebugInfo()</a>, <a class="el" href="../../#l00824">WorldSession::HandlePetRename()</a>, <a class="el" href="../../#l08917">Player::RemovePet()</a>, <a class="el" href="../../#l02102">Pet::resetTalentsForAllPetsOf()</a>, <a class="el" href="../../#l00494">Pet::SavePetToDB()</a>, and <a class="el" href="../../#l13910">Player::UnsummonPetTemporaryIfAny()</a>.</p>
 
 </div>
 </div>
@@ -660,7 +660,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01161">_oldReactState</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l01900">Player::UpdateCharmedAI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01902">Player::UpdateCharmedAI()</a>.</p>
 
 </div>
 </div>
@@ -695,11 +695,11 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">20378</span>{</div>
-<div class="line"><span class="lineno">20379</span>    x = <a class="code hl_variable" href="../../d2/d9f/a08173.html#a5c04998f07bf628f0401b85f24073e26">_stayX</a>;</div>
-<div class="line"><span class="lineno">20380</span>    y = <a class="code hl_variable" href="../../d2/d9f/a08173.html#a16d422faa579c883cda9ce00539c1fe7">_stayY</a>;</div>
-<div class="line"><span class="lineno">20381</span>    z = <a class="code hl_variable" href="../../d2/d9f/a08173.html#a6b292becf0aac801b94a5264125ea751">_stayZ</a>;</div>
-<div class="line"><span class="lineno">20382</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">21234</span>{</div>
+<div class="line"><span class="lineno">21235</span>    x = <a class="code hl_variable" href="../../d2/d9f/a08173.html#a5c04998f07bf628f0401b85f24073e26">_stayX</a>;</div>
+<div class="line"><span class="lineno">21236</span>    y = <a class="code hl_variable" href="../../d2/d9f/a08173.html#a16d422faa579c883cda9ce00539c1fe7">_stayY</a>;</div>
+<div class="line"><span class="lineno">21237</span>    z = <a class="code hl_variable" href="../../d2/d9f/a08173.html#a6b292becf0aac801b94a5264125ea751">_stayZ</a>;</div>
+<div class="line"><span class="lineno">21238</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01170">_stayX</a>, <a class="el" href="../../#l01171">_stayY</a>, and <a class="el" href="../../#l01172">_stayZ</a>.</p>
 
@@ -734,7 +734,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01157">_CommandState</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00416">PetAI::AttackStart()</a>, <a class="el" href="../../#l00660">PetAI::CanAttack()</a>, <a class="el" href="../../#l03153">AuraEffect::HandleModPossessPet()</a>, <a class="el" href="../../#l00524">PetAI::HandleReturnMovement()</a>, and <a class="el" href="../../#l00147">PetAI::UpdateAI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00416">PetAI::AttackStart()</a>, <a class="el" href="../../#l00660">PetAI::CanAttack()</a>, <a class="el" href="../../#l03155">AuraEffect::HandleModPossessPet()</a>, <a class="el" href="../../#l00524">PetAI::HandleReturnMovement()</a>, and <a class="el" href="../../#l00147">PetAI::UpdateAI()</a>.</p>
 
 </div>
 </div>
@@ -752,9 +752,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">20392</span>{</div>
-<div class="line"><span class="lineno">20393</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d9f/a08173.html#a5c04998f07bf628f0401b85f24073e26">_stayX</a> &amp;&amp; <a class="code hl_variable" href="../../d2/d9f/a08173.html#a16d422faa579c883cda9ce00539c1fe7">_stayY</a> &amp;&amp; <a class="code hl_variable" href="../../d2/d9f/a08173.html#a6b292becf0aac801b94a5264125ea751">_stayZ</a>;</div>
-<div class="line"><span class="lineno">20394</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">21248</span>{</div>
+<div class="line"><span class="lineno">21249</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d9f/a08173.html#a5c04998f07bf628f0401b85f24073e26">_stayX</a> &amp;&amp; <a class="code hl_variable" href="../../d2/d9f/a08173.html#a16d422faa579c883cda9ce00539c1fe7">_stayY</a> &amp;&amp; <a class="code hl_variable" href="../../d2/d9f/a08173.html#a6b292becf0aac801b94a5264125ea751">_stayZ</a>;</div>
+<div class="line"><span class="lineno">21250</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01170">_stayX</a>, <a class="el" href="../../#l01171">_stayY</a>, and <a class="el" href="../../#l01172">_stayZ</a>.</p>
 
@@ -776,73 +776,73 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15754</span>{</div>
-<div class="line"><span class="lineno">15755</span>    <a class="code hl_function" href="../../d2/d9f/a08173.html#a6f348d8d362564c7a4d150517dccc369">InitPetActionBar</a>();</div>
-<div class="line"><span class="lineno">15756</span> </div>
-<div class="line"><span class="lineno">15757</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)                <span class="comment">// charmed players don&#39;t have spells</span></div>
-<div class="line"><span class="lineno">15758</span>    {</div>
-<div class="line"><span class="lineno">15759</span>        <span class="comment">//InitEmptyActionBar();</span></div>
-<div class="line"><span class="lineno">15760</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">15761</span>    }</div>
-<div class="line"><span class="lineno">15762</span> </div>
-<div class="line"><span class="lineno">15763</span>    <span class="comment">//InitPetActionBar();</span></div>
-<div class="line"><span class="lineno">15764</span> </div>
-<div class="line"><span class="lineno">15765</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> x = 0; x &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a05307279d313f131c83ace9bf30d5722">MAX_SPELL_CHARM</a>; ++x)</div>
-<div class="line"><span class="lineno">15766</span>    {</div>
-<div class="line"><span class="lineno">15767</span>        <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId = <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_variable" href="../../d7/dc5/a07437.html#a38727e1fc7443d11afa6e37598e932ea">m_spells</a>[x];</div>
-<div class="line"><span class="lineno">15768</span>        <a class="code hl_class" href="../../d7/d36/a10537.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = <a class="code hl_define" href="../../db/df6/a02138.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(spellId);</div>
-<div class="line"><span class="lineno">15769</span> </div>
-<div class="line"><span class="lineno">15770</span>        <span class="keywordflow">if</span> (!spellInfo)</div>
-<div class="line"><span class="lineno">15771</span>        {</div>
-<div class="line"><span class="lineno">15772</span>            <a class="code hl_variable" href="../../d2/d9f/a08173.html#afe4010e53fd86907d9aa3210be09886b">_charmspells</a>[x].<a class="code hl_function" href="../../de/da7/a08169.html#a110840d38445795957ee0425175b4fb6">SetActionAndType</a>(spellId, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a>);</div>
-<div class="line"><span class="lineno">15773</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">15774</span>        }</div>
-<div class="line"><span class="lineno">15775</span> </div>
-<div class="line"><span class="lineno">15776</span>        <span class="keywordflow">if</span> (spellInfo-&gt;<a class="code hl_function" href="../../d7/d36/a10537.html#a44ac36a7f40b3c5b26a82a3bb0e8af30">IsPassive</a>())</div>
-<div class="line"><span class="lineno">15777</span>        {</div>
-<div class="line"><span class="lineno">15778</span>            <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>, spellInfo, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">15779</span>            <a class="code hl_variable" href="../../d2/d9f/a08173.html#afe4010e53fd86907d9aa3210be09886b">_charmspells</a>[x].<a class="code hl_function" href="../../de/da7/a08169.html#a110840d38445795957ee0425175b4fb6">SetActionAndType</a>(spellId, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
-<div class="line"><span class="lineno">15780</span>        }</div>
-<div class="line"><span class="lineno">15781</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">15782</span>        {</div>
-<div class="line"><span class="lineno">15783</span>            <a class="code hl_variable" href="../../d2/d9f/a08173.html#afe4010e53fd86907d9aa3210be09886b">_charmspells</a>[x].<a class="code hl_function" href="../../de/da7/a08169.html#a110840d38445795957ee0425175b4fb6">SetActionAndType</a>(spellId, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a>);</div>
-<div class="line"><span class="lineno">15784</span> </div>
-<div class="line"><span class="lineno">15785</span>            <a class="code hl_enumeration" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46da">ActiveStates</a> newstate = <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>;</div>
-<div class="line"><span class="lineno">15786</span> </div>
-<div class="line"><span class="lineno">15787</span>            <span class="keywordflow">if</span> (!spellInfo-&gt;<a class="code hl_function" href="../../d7/d36/a10537.html#a243b5bc4eb72b1c64695f8b10be3801c">IsAutocastable</a>())</div>
-<div class="line"><span class="lineno">15788</span>                newstate = <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>;</div>
-<div class="line"><span class="lineno">15789</span>            <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">15790</span>            {</div>
-<div class="line"><span class="lineno">15791</span>                <span class="keywordflow">if</span> (spellInfo-&gt;<a class="code hl_function" href="../../d7/d36/a10537.html#acdb32b1b9b2168e2e396823403a5ed85">NeedsExplicitUnitTarget</a>())</div>
-<div class="line"><span class="lineno">15792</span>                {</div>
-<div class="line"><span class="lineno">15793</span>                    newstate = <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa60dbce51e005270fd5bc183457883952">ACT_ENABLED</a>;</div>
-<div class="line"><span class="lineno">15794</span>                    <a class="code hl_function" href="../../d2/d9f/a08173.html#acbe8fa42ba765bd480589fc3429ddbc0">ToggleCreatureAutocast</a>(spellInfo, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">15795</span>                }</div>
-<div class="line"><span class="lineno">15796</span>                <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">15797</span>                    newstate = <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a>;</div>
-<div class="line"><span class="lineno">15798</span>            }</div>
-<div class="line"><span class="lineno">15799</span> </div>
-<div class="line"><span class="lineno">15800</span>            <a class="code hl_function" href="../../d2/d9f/a08173.html#a3d74889e67c5553eff0e7dc1d37a0d5b">AddSpellToActionBar</a>(spellInfo, newstate);</div>
-<div class="line"><span class="lineno">15801</span>        }</div>
-<div class="line"><span class="lineno">15802</span>    }</div>
-<div class="line"><span class="lineno">15803</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">16610</span>{</div>
+<div class="line"><span class="lineno">16611</span>    <a class="code hl_function" href="../../d2/d9f/a08173.html#a6f348d8d362564c7a4d150517dccc369">InitPetActionBar</a>();</div>
+<div class="line"><span class="lineno">16612</span> </div>
+<div class="line"><span class="lineno">16613</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)                <span class="comment">// charmed players don&#39;t have spells</span></div>
+<div class="line"><span class="lineno">16614</span>    {</div>
+<div class="line"><span class="lineno">16615</span>        <span class="comment">//InitEmptyActionBar();</span></div>
+<div class="line"><span class="lineno">16616</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">16617</span>    }</div>
+<div class="line"><span class="lineno">16618</span> </div>
+<div class="line"><span class="lineno">16619</span>    <span class="comment">//InitPetActionBar();</span></div>
+<div class="line"><span class="lineno">16620</span> </div>
+<div class="line"><span class="lineno">16621</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> x = 0; x &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a05307279d313f131c83ace9bf30d5722">MAX_SPELL_CHARM</a>; ++x)</div>
+<div class="line"><span class="lineno">16622</span>    {</div>
+<div class="line"><span class="lineno">16623</span>        <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId = <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_variable" href="../../d7/dc5/a07437.html#a38727e1fc7443d11afa6e37598e932ea">m_spells</a>[x];</div>
+<div class="line"><span class="lineno">16624</span>        <a class="code hl_class" href="../../d7/d36/a10537.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = <a class="code hl_define" href="../../db/df6/a02138.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(spellId);</div>
+<div class="line"><span class="lineno">16625</span> </div>
+<div class="line"><span class="lineno">16626</span>        <span class="keywordflow">if</span> (!spellInfo)</div>
+<div class="line"><span class="lineno">16627</span>        {</div>
+<div class="line"><span class="lineno">16628</span>            <a class="code hl_variable" href="../../d2/d9f/a08173.html#afe4010e53fd86907d9aa3210be09886b">_charmspells</a>[x].<a class="code hl_function" href="../../de/da7/a08169.html#a110840d38445795957ee0425175b4fb6">SetActionAndType</a>(spellId, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a>);</div>
+<div class="line"><span class="lineno">16629</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">16630</span>        }</div>
+<div class="line"><span class="lineno">16631</span> </div>
+<div class="line"><span class="lineno">16632</span>        <span class="keywordflow">if</span> (spellInfo-&gt;<a class="code hl_function" href="../../d7/d36/a10537.html#a44ac36a7f40b3c5b26a82a3bb0e8af30">IsPassive</a>())</div>
+<div class="line"><span class="lineno">16633</span>        {</div>
+<div class="line"><span class="lineno">16634</span>            <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>, spellInfo, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">16635</span>            <a class="code hl_variable" href="../../d2/d9f/a08173.html#afe4010e53fd86907d9aa3210be09886b">_charmspells</a>[x].<a class="code hl_function" href="../../de/da7/a08169.html#a110840d38445795957ee0425175b4fb6">SetActionAndType</a>(spellId, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">16636</span>        }</div>
+<div class="line"><span class="lineno">16637</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">16638</span>        {</div>
+<div class="line"><span class="lineno">16639</span>            <a class="code hl_variable" href="../../d2/d9f/a08173.html#afe4010e53fd86907d9aa3210be09886b">_charmspells</a>[x].<a class="code hl_function" href="../../de/da7/a08169.html#a110840d38445795957ee0425175b4fb6">SetActionAndType</a>(spellId, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a>);</div>
+<div class="line"><span class="lineno">16640</span> </div>
+<div class="line"><span class="lineno">16641</span>            <a class="code hl_enumeration" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46da">ActiveStates</a> newstate = <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>;</div>
+<div class="line"><span class="lineno">16642</span> </div>
+<div class="line"><span class="lineno">16643</span>            <span class="keywordflow">if</span> (!spellInfo-&gt;<a class="code hl_function" href="../../d7/d36/a10537.html#a243b5bc4eb72b1c64695f8b10be3801c">IsAutocastable</a>())</div>
+<div class="line"><span class="lineno">16644</span>                newstate = <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>;</div>
+<div class="line"><span class="lineno">16645</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">16646</span>            {</div>
+<div class="line"><span class="lineno">16647</span>                <span class="keywordflow">if</span> (spellInfo-&gt;<a class="code hl_function" href="../../d7/d36/a10537.html#acdb32b1b9b2168e2e396823403a5ed85">NeedsExplicitUnitTarget</a>())</div>
+<div class="line"><span class="lineno">16648</span>                {</div>
+<div class="line"><span class="lineno">16649</span>                    newstate = <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa60dbce51e005270fd5bc183457883952">ACT_ENABLED</a>;</div>
+<div class="line"><span class="lineno">16650</span>                    <a class="code hl_function" href="../../d2/d9f/a08173.html#acbe8fa42ba765bd480589fc3429ddbc0">ToggleCreatureAutocast</a>(spellInfo, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">16651</span>                }</div>
+<div class="line"><span class="lineno">16652</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">16653</span>                    newstate = <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a>;</div>
+<div class="line"><span class="lineno">16654</span>            }</div>
+<div class="line"><span class="lineno">16655</span> </div>
+<div class="line"><span class="lineno">16656</span>            <a class="code hl_function" href="../../d2/d9f/a08173.html#a3d74889e67c5553eff0e7dc1d37a0d5b">AddSpellToActionBar</a>(spellInfo, newstate);</div>
+<div class="line"><span class="lineno">16657</span>        }</div>
+<div class="line"><span class="lineno">16658</span>    }</div>
+<div class="line"><span class="lineno">16659</span>}</div>
 <div class="ttc" id="aa01208_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
 <div class="ttc" id="aa01328_html_aaec28a439b9086a5fd69bd5358bb46da"><div class="ttname"><a href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46da">ActiveStates</a></div><div class="ttdeci">ActiveStates</div><div class="ttdef"><b>Definition:</b> Unit.h:1012</div></div>
 <div class="ttc" id="aa01328_html_aaec28a439b9086a5fd69bd5358bb46daa60dbce51e005270fd5bc183457883952"><div class="ttname"><a href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa60dbce51e005270fd5bc183457883952">ACT_ENABLED</a></div><div class="ttdeci">@ ACT_ENABLED</div><div class="ttdef"><b>Definition:</b> Unit.h:1015</div></div>
 <div class="ttc" id="aa07437_html_a38727e1fc7443d11afa6e37598e932ea"><div class="ttname"><a href="../../d7/dc5/a07437.html#a38727e1fc7443d11afa6e37598e932ea">Creature::m_spells</a></div><div class="ttdeci">uint32 m_spells[MAX_CREATURE_SPELLS]</div><div class="ttdef"><b>Definition:</b> Creature.h:241</div></div>
 <div class="ttc" id="aa08169_html_a110840d38445795957ee0425175b4fb6"><div class="ttname"><a href="../../de/da7/a08169.html#a110840d38445795957ee0425175b4fb6">UnitActionBarEntry::SetActionAndType</a></div><div class="ttdeci">void SetActionAndType(uint32 action, ActiveStates type)</div><div class="ttdef"><b>Definition:</b> Unit.h:1055</div></div>
-<div class="ttc" id="aa08173_html_a3d74889e67c5553eff0e7dc1d37a0d5b"><div class="ttname"><a href="../../d2/d9f/a08173.html#a3d74889e67c5553eff0e7dc1d37a0d5b">CharmInfo::AddSpellToActionBar</a></div><div class="ttdeci">bool AddSpellToActionBar(SpellInfo const *spellInfo, ActiveStates newstate=ACT_DECIDE)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:15805</div></div>
-<div class="ttc" id="aa08173_html_a6f348d8d362564c7a4d150517dccc369"><div class="ttname"><a href="../../d2/d9f/a08173.html#a6f348d8d362564c7a4d150517dccc369">CharmInfo::InitPetActionBar</a></div><div class="ttdeci">void InitPetActionBar()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:15692</div></div>
-<div class="ttc" id="aa08173_html_acbe8fa42ba765bd480589fc3429ddbc0"><div class="ttname"><a href="../../d2/d9f/a08173.html#acbe8fa42ba765bd480589fc3429ddbc0">CharmInfo::ToggleCreatureAutocast</a></div><div class="ttdeci">void ToggleCreatureAutocast(SpellInfo const *spellInfo, bool apply)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:15854</div></div>
-<div class="ttc" id="aa08189_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../df/d37/a08189.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aa08173_html_a3d74889e67c5553eff0e7dc1d37a0d5b"><div class="ttname"><a href="../../d2/d9f/a08173.html#a3d74889e67c5553eff0e7dc1d37a0d5b">CharmInfo::AddSpellToActionBar</a></div><div class="ttdeci">bool AddSpellToActionBar(SpellInfo const *spellInfo, ActiveStates newstate=ACT_DECIDE)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16661</div></div>
+<div class="ttc" id="aa08173_html_a6f348d8d362564c7a4d150517dccc369"><div class="ttname"><a href="../../d2/d9f/a08173.html#a6f348d8d362564c7a4d150517dccc369">CharmInfo::InitPetActionBar</a></div><div class="ttdeci">void InitPetActionBar()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16548</div></div>
+<div class="ttc" id="aa08173_html_acbe8fa42ba765bd480589fc3429ddbc0"><div class="ttname"><a href="../../d2/d9f/a08173.html#acbe8fa42ba765bd480589fc3429ddbc0">CharmInfo::ToggleCreatureAutocast</a></div><div class="ttdeci">void ToggleCreatureAutocast(SpellInfo const *spellInfo, bool apply)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16710</div></div>
+<div class="ttc" id="aa08189_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../df/d37/a08189.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1428</div></div>
 <div class="ttc" id="aa10537_html"><div class="ttname"><a href="../../d7/d36/a10537.html">SpellInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:314</div></div>
 <div class="ttc" id="aa10537_html_a243b5bc4eb72b1c64695f8b10be3801c"><div class="ttname"><a href="../../d7/d36/a10537.html#a243b5bc4eb72b1c64695f8b10be3801c">SpellInfo::IsAutocastable</a></div><div class="ttdeci">bool IsAutocastable() const</div><div class="ttdef"><b>Definition:</b> SpellInfo.cpp:1086</div></div>
 <div class="ttc" id="aa10537_html_a44ac36a7f40b3c5b26a82a3bb0e8af30"><div class="ttname"><a href="../../d7/d36/a10537.html#a44ac36a7f40b3c5b26a82a3bb0e8af30">SpellInfo::IsPassive</a></div><div class="ttdeci">bool IsPassive() const</div><div class="ttdef"><b>Definition:</b> SpellInfo.cpp:1081</div></div>
 <div class="ttc" id="aa10537_html_acdb32b1b9b2168e2e396823403a5ed85"><div class="ttname"><a href="../../d7/d36/a10537.html#acdb32b1b9b2168e2e396823403a5ed85">SpellInfo::NeedsExplicitUnitTarget</a></div><div class="ttdeci">bool NeedsExplicitUnitTarget() const</div><div class="ttdef"><b>Definition:</b> SpellInfo.cpp:1016</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01156">_charmspells</a>, <a class="el" href="../../#l01154">_unit</a>, <a class="el" href="../../#l01014">ACT_DISABLED</a>, <a class="el" href="../../#l01015">ACT_ENABLED</a>, <a class="el" href="../../#l01013">ACT_PASSIVE</a>, <a class="el" href="../../#l15805">AddSpellToActionBar()</a>, <a class="el" href="../../#l01168">Unit::CastSpell()</a>, <a class="el" href="../../#l00121">Object::GetTypeId()</a>, <a class="el" href="../../#l15692">InitPetActionBar()</a>, <a class="el" href="../../#l01086">SpellInfo::IsAutocastable()</a>, <a class="el" href="../../#l01081">SpellInfo::IsPassive()</a>, <a class="el" href="../../#l00241">Creature::m_spells</a>, <a class="el" href="../../#l00157">MAX_SPELL_CHARM</a>, <a class="el" href="../../#l01016">SpellInfo::NeedsExplicitUnitTarget()</a>, <a class="el" href="../../#l01055">UnitActionBarEntry::SetActionAndType()</a>, <a class="el" href="../../#l00803">sSpellMgr</a>, <a class="el" href="../../#l00197">Object::ToCreature()</a>, <a class="el" href="../../#l15854">ToggleCreatureAutocast()</a>, and <a class="el" href="../../#l00038">TYPEID_PLAYER</a>.</p>
+<p class="reference">References <a class="el" href="../../#l01156">_charmspells</a>, <a class="el" href="../../#l01154">_unit</a>, <a class="el" href="../../#l01014">ACT_DISABLED</a>, <a class="el" href="../../#l01015">ACT_ENABLED</a>, <a class="el" href="../../#l01013">ACT_PASSIVE</a>, <a class="el" href="../../#l16661">AddSpellToActionBar()</a>, <a class="el" href="../../#l01428">Unit::CastSpell()</a>, <a class="el" href="../../#l00121">Object::GetTypeId()</a>, <a class="el" href="../../#l16548">InitPetActionBar()</a>, <a class="el" href="../../#l01086">SpellInfo::IsAutocastable()</a>, <a class="el" href="../../#l01081">SpellInfo::IsPassive()</a>, <a class="el" href="../../#l00241">Creature::m_spells</a>, <a class="el" href="../../#l00157">MAX_SPELL_CHARM</a>, <a class="el" href="../../#l01016">SpellInfo::NeedsExplicitUnitTarget()</a>, <a class="el" href="../../#l01055">UnitActionBarEntry::SetActionAndType()</a>, <a class="el" href="../../#l00803">sSpellMgr</a>, <a class="el" href="../../#l00197">Object::ToCreature()</a>, <a class="el" href="../../#l16710">ToggleCreatureAutocast()</a>, and <a class="el" href="../../#l00038">TYPEID_PLAYER</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00409">Guardian::InitStats()</a>, and <a class="el" href="../../#l18385">Unit::SetCharmedBy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00409">Guardian::InitStats()</a>, and <a class="el" href="../../#l19241">Unit::SetCharmedBy()</a>.</p>
 
 </div>
 </div>
@@ -861,14 +861,14 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15708</span>{</div>
-<div class="line"><span class="lineno">15709</span>    <span class="keywordflow">if</span> (withAttack)</div>
-<div class="line"><span class="lineno">15710</span>        <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a>, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a7eae48d6e87258317f7ee7e8d84a4abda0ad8b8f2e03da995c7b131bb43d126f2">COMMAND_ATTACK</a>, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa33c1330b175929e3016c6bb437b60ae8">ACT_COMMAND</a>);</div>
-<div class="line"><span class="lineno">15711</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">15712</span>        <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a>, 0, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
-<div class="line"><span class="lineno">15713</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> x = <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a> + 1; x &lt; <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264">ACTION_BAR_INDEX_END</a>; ++x)</div>
-<div class="line"><span class="lineno">15714</span>        <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(x, 0, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
-<div class="line"><span class="lineno">15715</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">16564</span>{</div>
+<div class="line"><span class="lineno">16565</span>    <span class="keywordflow">if</span> (withAttack)</div>
+<div class="line"><span class="lineno">16566</span>        <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a>, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a7eae48d6e87258317f7ee7e8d84a4abda0ad8b8f2e03da995c7b131bb43d126f2">COMMAND_ATTACK</a>, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa33c1330b175929e3016c6bb437b60ae8">ACT_COMMAND</a>);</div>
+<div class="line"><span class="lineno">16567</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">16568</span>        <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a>, 0, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">16569</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> x = <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a> + 1; x &lt; <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264">ACTION_BAR_INDEX_END</a>; ++x)</div>
+<div class="line"><span class="lineno">16570</span>        <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(x, 0, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">16571</span>}</div>
 <div class="ttc" id="aa01328_html_a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264"><div class="ttname"><a href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264">ACTION_BAR_INDEX_END</a></div><div class="ttdeci">@ ACTION_BAR_INDEX_END</div><div class="ttdef"><b>Definition:</b> Unit.h:1088</div></div>
 <div class="ttc" id="aa01328_html_a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09"><div class="ttname"><a href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a></div><div class="ttdeci">@ ACTION_BAR_INDEX_START</div><div class="ttdef"><b>Definition:</b> Unit.h:1085</div></div>
 <div class="ttc" id="aa01328_html_a7eae48d6e87258317f7ee7e8d84a4abda0ad8b8f2e03da995c7b131bb43d126f2"><div class="ttname"><a href="../../dc/dd9/a01328.html#a7eae48d6e87258317f7ee7e8d84a4abda0ad8b8f2e03da995c7b131bb43d126f2">COMMAND_ATTACK</a></div><div class="ttdeci">@ COMMAND_ATTACK</div><div class="ttdef"><b>Definition:</b> Unit.h:1032</div></div>
@@ -876,7 +876,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01016">ACT_COMMAND</a>, <a class="el" href="../../#l01013">ACT_PASSIVE</a>, <a class="el" href="../../#l01088">ACTION_BAR_INDEX_END</a>, <a class="el" href="../../#l01085">ACTION_BAR_INDEX_START</a>, <a class="el" href="../../#l01032">COMMAND_ATTACK</a>, and <a class="el" href="../../#l01117">SetActionBar()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l15717">InitPossessCreateSpells()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l16573">InitPossessCreateSpells()</a>.</p>
 
 </div>
 </div>
@@ -894,26 +894,26 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15693</span>{</div>
-<div class="line"><span class="lineno">15694</span>    <span class="comment">// the first 3 SpellOrActions are attack, follow and stay</span></div>
-<div class="line"><span class="lineno">15695</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a1b9025dc7f8331f6ca9fd0cfce1b0ae9">ACTION_BAR_INDEX_PET_SPELL_START</a> - <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a>; ++i)</div>
-<div class="line"><span class="lineno">15696</span>        <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a> + i, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a7eae48d6e87258317f7ee7e8d84a4abda0ad8b8f2e03da995c7b131bb43d126f2">COMMAND_ATTACK</a> - i, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa33c1330b175929e3016c6bb437b60ae8">ACT_COMMAND</a>);</div>
-<div class="line"><span class="lineno">15697</span> </div>
-<div class="line"><span class="lineno">15698</span>    <span class="comment">// middle 4 SpellOrActions are spells/special attacks/abilities</span></div>
-<div class="line"><span class="lineno">15699</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a56eab700626db82e8012fc8daac5cee9">ACTION_BAR_INDEX_PET_SPELL_END</a> - <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a1b9025dc7f8331f6ca9fd0cfce1b0ae9">ACTION_BAR_INDEX_PET_SPELL_START</a>; ++i)</div>
-<div class="line"><span class="lineno">15700</span>        <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a1b9025dc7f8331f6ca9fd0cfce1b0ae9">ACTION_BAR_INDEX_PET_SPELL_START</a> + i, 0, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
-<div class="line"><span class="lineno">15701</span> </div>
-<div class="line"><span class="lineno">15702</span>    <span class="comment">// last 3 SpellOrActions are reactions</span></div>
-<div class="line"><span class="lineno">15703</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264">ACTION_BAR_INDEX_END</a> - <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a56eab700626db82e8012fc8daac5cee9">ACTION_BAR_INDEX_PET_SPELL_END</a>; ++i)</div>
-<div class="line"><span class="lineno">15704</span>        <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a56eab700626db82e8012fc8daac5cee9">ACTION_BAR_INDEX_PET_SPELL_END</a> + i, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a7eae48d6e87258317f7ee7e8d84a4abda0ad8b8f2e03da995c7b131bb43d126f2">COMMAND_ATTACK</a> - i, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa0435ad3a133e548a54374e9d90d39f0d">ACT_REACTION</a>);</div>
-<div class="line"><span class="lineno">15705</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">16549</span>{</div>
+<div class="line"><span class="lineno">16550</span>    <span class="comment">// the first 3 SpellOrActions are attack, follow and stay</span></div>
+<div class="line"><span class="lineno">16551</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a1b9025dc7f8331f6ca9fd0cfce1b0ae9">ACTION_BAR_INDEX_PET_SPELL_START</a> - <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a>; ++i)</div>
+<div class="line"><span class="lineno">16552</span>        <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a> + i, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a7eae48d6e87258317f7ee7e8d84a4abda0ad8b8f2e03da995c7b131bb43d126f2">COMMAND_ATTACK</a> - i, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa33c1330b175929e3016c6bb437b60ae8">ACT_COMMAND</a>);</div>
+<div class="line"><span class="lineno">16553</span> </div>
+<div class="line"><span class="lineno">16554</span>    <span class="comment">// middle 4 SpellOrActions are spells/special attacks/abilities</span></div>
+<div class="line"><span class="lineno">16555</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a56eab700626db82e8012fc8daac5cee9">ACTION_BAR_INDEX_PET_SPELL_END</a> - <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a1b9025dc7f8331f6ca9fd0cfce1b0ae9">ACTION_BAR_INDEX_PET_SPELL_START</a>; ++i)</div>
+<div class="line"><span class="lineno">16556</span>        <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a1b9025dc7f8331f6ca9fd0cfce1b0ae9">ACTION_BAR_INDEX_PET_SPELL_START</a> + i, 0, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">16557</span> </div>
+<div class="line"><span class="lineno">16558</span>    <span class="comment">// last 3 SpellOrActions are reactions</span></div>
+<div class="line"><span class="lineno">16559</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264">ACTION_BAR_INDEX_END</a> - <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a56eab700626db82e8012fc8daac5cee9">ACTION_BAR_INDEX_PET_SPELL_END</a>; ++i)</div>
+<div class="line"><span class="lineno">16560</span>        <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a56eab700626db82e8012fc8daac5cee9">ACTION_BAR_INDEX_PET_SPELL_END</a> + i, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a7eae48d6e87258317f7ee7e8d84a4abda0ad8b8f2e03da995c7b131bb43d126f2">COMMAND_ATTACK</a> - i, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa0435ad3a133e548a54374e9d90d39f0d">ACT_REACTION</a>);</div>
+<div class="line"><span class="lineno">16561</span>}</div>
 <div class="ttc" id="aa01328_html_a5656c6dd354cdc76da16094dd6f96724a1b9025dc7f8331f6ca9fd0cfce1b0ae9"><div class="ttname"><a href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a1b9025dc7f8331f6ca9fd0cfce1b0ae9">ACTION_BAR_INDEX_PET_SPELL_START</a></div><div class="ttdeci">@ ACTION_BAR_INDEX_PET_SPELL_START</div><div class="ttdef"><b>Definition:</b> Unit.h:1086</div></div>
 <div class="ttc" id="aa01328_html_a5656c6dd354cdc76da16094dd6f96724a56eab700626db82e8012fc8daac5cee9"><div class="ttname"><a href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a56eab700626db82e8012fc8daac5cee9">ACTION_BAR_INDEX_PET_SPELL_END</a></div><div class="ttdeci">@ ACTION_BAR_INDEX_PET_SPELL_END</div><div class="ttdef"><b>Definition:</b> Unit.h:1087</div></div>
 <div class="ttc" id="aa01328_html_aaec28a439b9086a5fd69bd5358bb46daa0435ad3a133e548a54374e9d90d39f0d"><div class="ttname"><a href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa0435ad3a133e548a54374e9d90d39f0d">ACT_REACTION</a></div><div class="ttdeci">@ ACT_REACTION</div><div class="ttdef"><b>Definition:</b> Unit.h:1017</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01016">ACT_COMMAND</a>, <a class="el" href="../../#l01013">ACT_PASSIVE</a>, <a class="el" href="../../#l01017">ACT_REACTION</a>, <a class="el" href="../../#l01088">ACTION_BAR_INDEX_END</a>, <a class="el" href="../../#l01087">ACTION_BAR_INDEX_PET_SPELL_END</a>, <a class="el" href="../../#l01086">ACTION_BAR_INDEX_PET_SPELL_START</a>, <a class="el" href="../../#l01085">ACTION_BAR_INDEX_START</a>, <a class="el" href="../../#l01032">COMMAND_ATTACK</a>, and <a class="el" href="../../#l01117">SetActionBar()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l15753">InitCharmCreateSpells()</a>, and <a class="el" href="../../#l02013">Pet::InitPetCreateSpells()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l16609">InitCharmCreateSpells()</a>, and <a class="el" href="../../#l02013">Pet::InitPetCreateSpells()</a>.</p>
 
 </div>
 </div>
@@ -931,47 +931,47 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15718</span>{</div>
-<div class="line"><span class="lineno">15719</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>)</div>
-<div class="line"><span class="lineno">15720</span>    {</div>
-<div class="line"><span class="lineno">15721</span>        <span class="comment">// Adding switch until better way is found. Malcrom</span></div>
-<div class="line"><span class="lineno">15722</span>        <span class="comment">// Adding entrys to this switch will prevent COMMAND_ATTACK being added to pet bar.</span></div>
-<div class="line"><span class="lineno">15723</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
-<div class="line"><span class="lineno">15724</span>        {</div>
-<div class="line"><span class="lineno">15725</span>            <span class="keywordflow">case</span> 23575: <span class="comment">// Mindless Abomination</span></div>
-<div class="line"><span class="lineno">15726</span>            <span class="keywordflow">case</span> 24783: <span class="comment">// Trained Rock Falcon</span></div>
-<div class="line"><span class="lineno">15727</span>            <span class="keywordflow">case</span> 27664: <span class="comment">// Crashin&#39; Thrashin&#39; Racer</span></div>
-<div class="line"><span class="lineno">15728</span>            <span class="keywordflow">case</span> 40281: <span class="comment">// Crashin&#39; Thrashin&#39; Racer</span></div>
-<div class="line"><span class="lineno">15729</span>            <span class="keywordflow">case</span> 23109: <span class="comment">// Vengeful Spirit</span></div>
-<div class="line"><span class="lineno">15730</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">15731</span>            <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">15732</span>                <a class="code hl_function" href="../../d2/d9f/a08173.html#ae2e9bdba70936fbe54f7dd757fbb2af3">InitEmptyActionBar</a>();</div>
-<div class="line"><span class="lineno">15733</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">15734</span>        }</div>
-<div class="line"><span class="lineno">15735</span> </div>
-<div class="line"><span class="lineno">15736</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_variable" href="../../dc/dd9/a01328.html#ac6af0816f1cdb55cd57c5975ff99ad18">MAX_CREATURE_SPELLS</a>; ++i)</div>
-<div class="line"><span class="lineno">15737</span>        {</div>
-<div class="line"><span class="lineno">15738</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId = <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_variable" href="../../d7/dc5/a07437.html#a38727e1fc7443d11afa6e37598e932ea">m_spells</a>[i];</div>
-<div class="line"><span class="lineno">15739</span>            <a class="code hl_class" href="../../d7/d36/a10537.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = <a class="code hl_define" href="../../db/df6/a02138.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(spellId);</div>
-<div class="line"><span class="lineno">15740</span>            <span class="keywordflow">if</span> (spellInfo)</div>
-<div class="line"><span class="lineno">15741</span>            {</div>
-<div class="line"><span class="lineno">15742</span>                <span class="keywordflow">if</span> (spellInfo-&gt;<a class="code hl_function" href="../../d7/d36/a10537.html#a44ac36a7f40b3c5b26a82a3bb0e8af30">IsPassive</a>())</div>
-<div class="line"><span class="lineno">15743</span>                    <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>, spellInfo, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">15744</span>                <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">15745</span>                    <a class="code hl_function" href="../../d2/d9f/a08173.html#a3d74889e67c5553eff0e7dc1d37a0d5b">AddSpellToActionBar</a>(spellInfo, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
-<div class="line"><span class="lineno">15746</span>            }</div>
-<div class="line"><span class="lineno">15747</span>        }</div>
-<div class="line"><span class="lineno">15748</span>    }</div>
-<div class="line"><span class="lineno">15749</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">15750</span>        <a class="code hl_function" href="../../d2/d9f/a08173.html#ae2e9bdba70936fbe54f7dd757fbb2af3">InitEmptyActionBar</a>();</div>
-<div class="line"><span class="lineno">15751</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">16574</span>{</div>
+<div class="line"><span class="lineno">16575</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>)</div>
+<div class="line"><span class="lineno">16576</span>    {</div>
+<div class="line"><span class="lineno">16577</span>        <span class="comment">// Adding switch until better way is found. Malcrom</span></div>
+<div class="line"><span class="lineno">16578</span>        <span class="comment">// Adding entrys to this switch will prevent COMMAND_ATTACK being added to pet bar.</span></div>
+<div class="line"><span class="lineno">16579</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">16580</span>        {</div>
+<div class="line"><span class="lineno">16581</span>            <span class="keywordflow">case</span> 23575: <span class="comment">// Mindless Abomination</span></div>
+<div class="line"><span class="lineno">16582</span>            <span class="keywordflow">case</span> 24783: <span class="comment">// Trained Rock Falcon</span></div>
+<div class="line"><span class="lineno">16583</span>            <span class="keywordflow">case</span> 27664: <span class="comment">// Crashin&#39; Thrashin&#39; Racer</span></div>
+<div class="line"><span class="lineno">16584</span>            <span class="keywordflow">case</span> 40281: <span class="comment">// Crashin&#39; Thrashin&#39; Racer</span></div>
+<div class="line"><span class="lineno">16585</span>            <span class="keywordflow">case</span> 23109: <span class="comment">// Vengeful Spirit</span></div>
+<div class="line"><span class="lineno">16586</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">16587</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">16588</span>                <a class="code hl_function" href="../../d2/d9f/a08173.html#ae2e9bdba70936fbe54f7dd757fbb2af3">InitEmptyActionBar</a>();</div>
+<div class="line"><span class="lineno">16589</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">16590</span>        }</div>
+<div class="line"><span class="lineno">16591</span> </div>
+<div class="line"><span class="lineno">16592</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_variable" href="../../dc/dd9/a01328.html#ac6af0816f1cdb55cd57c5975ff99ad18">MAX_CREATURE_SPELLS</a>; ++i)</div>
+<div class="line"><span class="lineno">16593</span>        {</div>
+<div class="line"><span class="lineno">16594</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId = <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_variable" href="../../d7/dc5/a07437.html#a38727e1fc7443d11afa6e37598e932ea">m_spells</a>[i];</div>
+<div class="line"><span class="lineno">16595</span>            <a class="code hl_class" href="../../d7/d36/a10537.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = <a class="code hl_define" href="../../db/df6/a02138.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(spellId);</div>
+<div class="line"><span class="lineno">16596</span>            <span class="keywordflow">if</span> (spellInfo)</div>
+<div class="line"><span class="lineno">16597</span>            {</div>
+<div class="line"><span class="lineno">16598</span>                <span class="keywordflow">if</span> (spellInfo-&gt;<a class="code hl_function" href="../../d7/d36/a10537.html#a44ac36a7f40b3c5b26a82a3bb0e8af30">IsPassive</a>())</div>
+<div class="line"><span class="lineno">16599</span>                    <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>, spellInfo, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">16600</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">16601</span>                    <a class="code hl_function" href="../../d2/d9f/a08173.html#a3d74889e67c5553eff0e7dc1d37a0d5b">AddSpellToActionBar</a>(spellInfo, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">16602</span>            }</div>
+<div class="line"><span class="lineno">16603</span>        }</div>
+<div class="line"><span class="lineno">16604</span>    }</div>
+<div class="line"><span class="lineno">16605</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">16606</span>        <a class="code hl_function" href="../../d2/d9f/a08173.html#ae2e9bdba70936fbe54f7dd757fbb2af3">InitEmptyActionBar</a>();</div>
+<div class="line"><span class="lineno">16607</span>}</div>
 <div class="ttc" id="aa01328_html_ac6af0816f1cdb55cd57c5975ff99ad18"><div class="ttname"><a href="../../dc/dd9/a01328.html#ac6af0816f1cdb55cd57c5975ff99ad18">MAX_CREATURE_SPELLS</a></div><div class="ttdeci">static constexpr uint32 MAX_CREATURE_SPELLS</div><div class="ttdef"><b>Definition:</b> Unit.h:153</div></div>
 <div class="ttc" id="aa07805_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../df/d6f/a07805.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
-<div class="ttc" id="aa08173_html_ae2e9bdba70936fbe54f7dd757fbb2af3"><div class="ttname"><a href="../../d2/d9f/a08173.html#ae2e9bdba70936fbe54f7dd757fbb2af3">CharmInfo::InitEmptyActionBar</a></div><div class="ttdeci">void InitEmptyActionBar(bool withAttack=true)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:15707</div></div>
+<div class="ttc" id="aa08173_html_ae2e9bdba70936fbe54f7dd757fbb2af3"><div class="ttname"><a href="../../d2/d9f/a08173.html#ae2e9bdba70936fbe54f7dd757fbb2af3">CharmInfo::InitEmptyActionBar</a></div><div class="ttdeci">void InitEmptyActionBar(bool withAttack=true)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16563</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01154">_unit</a>, <a class="el" href="../../#l01013">ACT_PASSIVE</a>, <a class="el" href="../../#l15805">AddSpellToActionBar()</a>, <a class="el" href="../../#l01168">Unit::CastSpell()</a>, <a class="el" href="../../#l00109">Object::GetEntry()</a>, <a class="el" href="../../#l00121">Object::GetTypeId()</a>, <a class="el" href="../../#l15707">InitEmptyActionBar()</a>, <a class="el" href="../../#l01081">SpellInfo::IsPassive()</a>, <a class="el" href="../../#l00241">Creature::m_spells</a>, <a class="el" href="../../#l00153">MAX_CREATURE_SPELLS</a>, <a class="el" href="../../#l00803">sSpellMgr</a>, <a class="el" href="../../#l00197">Object::ToCreature()</a>, and <a class="el" href="../../#l00037">TYPEID_UNIT</a>.</p>
+<p class="reference">References <a class="el" href="../../#l01154">_unit</a>, <a class="el" href="../../#l01013">ACT_PASSIVE</a>, <a class="el" href="../../#l16661">AddSpellToActionBar()</a>, <a class="el" href="../../#l01428">Unit::CastSpell()</a>, <a class="el" href="../../#l00109">Object::GetEntry()</a>, <a class="el" href="../../#l00121">Object::GetTypeId()</a>, <a class="el" href="../../#l16563">InitEmptyActionBar()</a>, <a class="el" href="../../#l01081">SpellInfo::IsPassive()</a>, <a class="el" href="../../#l00241">Creature::m_spells</a>, <a class="el" href="../../#l00153">MAX_CREATURE_SPELLS</a>, <a class="el" href="../../#l00803">sSpellMgr</a>, <a class="el" href="../../#l00197">Object::ToCreature()</a>, and <a class="el" href="../../#l00037">TYPEID_UNIT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l18385">Unit::SetCharmedBy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l19241">Unit::SetCharmedBy()</a>.</p>
 
 </div>
 </div>
@@ -989,9 +989,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">20402</span>{</div>
-<div class="line"><span class="lineno">20403</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d9f/a08173.html#a4a53706e7713078c4ac23b192dae0efb">_isAtStay</a>;</div>
-<div class="line"><span class="lineno">20404</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">21258</span>{</div>
+<div class="line"><span class="lineno">21259</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d9f/a08173.html#a4a53706e7713078c4ac23b192dae0efb">_isAtStay</a>;</div>
+<div class="line"><span class="lineno">21260</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01165">_isAtStay</a>.</p>
 
@@ -1013,9 +1013,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">20340</span>{</div>
-<div class="line"><span class="lineno">20341</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d9f/a08173.html#abcdea96cfd85605af292fbd91f18b5e4">_isCommandAttack</a>;</div>
-<div class="line"><span class="lineno">20342</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">21196</span>{</div>
+<div class="line"><span class="lineno">21197</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d9f/a08173.html#abcdea96cfd85605af292fbd91f18b5e4">_isCommandAttack</a>;</div>
+<div class="line"><span class="lineno">21198</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01163">_isCommandAttack</a>.</p>
 
@@ -1037,9 +1037,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">20350</span>{</div>
-<div class="line"><span class="lineno">20351</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d9f/a08173.html#a70d95a3c96b66b5b7a6619b5a0fb80a7">_isCommandFollow</a>;</div>
-<div class="line"><span class="lineno">20352</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">21206</span>{</div>
+<div class="line"><span class="lineno">21207</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d9f/a08173.html#a70d95a3c96b66b5b7a6619b5a0fb80a7">_isCommandFollow</a>;</div>
+<div class="line"><span class="lineno">21208</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01164">_isCommandFollow</a>.</p>
 
@@ -1061,9 +1061,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">20412</span>{</div>
-<div class="line"><span class="lineno">20413</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d9f/a08173.html#ab3683a0e9ff72dadc5496c7d1086b2d2">_isFollowing</a>;</div>
-<div class="line"><span class="lineno">20414</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">21268</span>{</div>
+<div class="line"><span class="lineno">21269</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d9f/a08173.html#ab3683a0e9ff72dadc5496c7d1086b2d2">_isFollowing</a>;</div>
+<div class="line"><span class="lineno">21270</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01166">_isFollowing</a>.</p>
 
@@ -1085,9 +1085,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">20422</span>{</div>
-<div class="line"><span class="lineno">20423</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d9f/a08173.html#af0c8bac9ab31c561e09ef20e90d1a86d">_isReturning</a>;</div>
-<div class="line"><span class="lineno">20424</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">21278</span>{</div>
+<div class="line"><span class="lineno">21279</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d9f/a08173.html#af0c8bac9ab31c561e09ef20e90d1a86d">_isReturning</a>;</div>
+<div class="line"><span class="lineno">21280</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01167">_isReturning</a>.</p>
 
@@ -1110,40 +1110,40 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15874</span>{</div>
-<div class="line"><span class="lineno">15875</span>    std::vector&lt;std::string_view&gt; tokens = <a class="code hl_function" href="../../dc/d7e/a04424.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(data, <span class="charliteral">&#39; &#39;</span>, <span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">15876</span> </div>
-<div class="line"><span class="lineno">15877</span>    <span class="keywordflow">if</span> (tokens.size() != (<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264">ACTION_BAR_INDEX_END</a> - <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a>) * 2)</div>
-<div class="line"><span class="lineno">15878</span>        <span class="keywordflow">return</span>;                                             <span class="comment">// non critical, will reset to default</span></div>
-<div class="line"><span class="lineno">15879</span> </div>
-<div class="line"><span class="lineno">15880</span>    <span class="keyword">auto</span> iter = tokens.begin();</div>
-<div class="line"><span class="lineno">15881</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> index = <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a>; index &lt; <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264">ACTION_BAR_INDEX_END</a>; ++index)</div>
-<div class="line"><span class="lineno">15882</span>    {</div>
-<div class="line"><span class="lineno">15883</span>        <a class="code hl_typedef" href="../../de/df8/a00440.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;uint8&gt;</a> type = Acore::StringTo&lt;uint8&gt;(*(iter++));</div>
-<div class="line"><span class="lineno">15884</span>        <a class="code hl_typedef" href="../../de/df8/a00440.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;uint32&gt;</a> action = Acore::StringTo&lt;uint32&gt;(*(iter++));</div>
-<div class="line"><span class="lineno">15885</span> </div>
-<div class="line"><span class="lineno">15886</span>        <span class="keywordflow">if</span> (!type || !action)</div>
-<div class="line"><span class="lineno">15887</span>        {</div>
-<div class="line"><span class="lineno">15888</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">15889</span>        }</div>
-<div class="line"><span class="lineno">15890</span> </div>
-<div class="line"><span class="lineno">15891</span>        <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[index].<a class="code hl_function" href="../../de/da7/a08169.html#a110840d38445795957ee0425175b4fb6">SetActionAndType</a>(*action, <span class="keyword">static_cast&lt;</span><a class="code hl_enumeration" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46da">ActiveStates</a><span class="keyword">&gt;</span>(*type));</div>
-<div class="line"><span class="lineno">15892</span> </div>
-<div class="line"><span class="lineno">15893</span>        <span class="comment">// check correctness</span></div>
-<div class="line"><span class="lineno">15894</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[index].IsActionBarForSpell())</div>
-<div class="line"><span class="lineno">15895</span>        {</div>
-<div class="line"><span class="lineno">15896</span>            <a class="code hl_class" href="../../d7/d36/a10537.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = <a class="code hl_define" href="../../db/df6/a02138.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(<a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[index].GetAction());</div>
-<div class="line"><span class="lineno">15897</span>            <span class="keywordflow">if</span> (!spellInfo)</div>
-<div class="line"><span class="lineno">15898</span>            {</div>
-<div class="line"><span class="lineno">15899</span>                <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(index, 0, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
-<div class="line"><span class="lineno">15900</span>            }</div>
-<div class="line"><span class="lineno">15901</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!spellInfo-&gt;<a class="code hl_function" href="../../d7/d36/a10537.html#a243b5bc4eb72b1c64695f8b10be3801c">IsAutocastable</a>())</div>
-<div class="line"><span class="lineno">15902</span>            {</div>
-<div class="line"><span class="lineno">15903</span>                <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(index, <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[index].GetAction(), <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
-<div class="line"><span class="lineno">15904</span>            }</div>
-<div class="line"><span class="lineno">15905</span>        }</div>
-<div class="line"><span class="lineno">15906</span>    }</div>
-<div class="line"><span class="lineno">15907</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">16730</span>{</div>
+<div class="line"><span class="lineno">16731</span>    std::vector&lt;std::string_view&gt; tokens = <a class="code hl_function" href="../../dc/d7e/a04424.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(data, <span class="charliteral">&#39; &#39;</span>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">16732</span> </div>
+<div class="line"><span class="lineno">16733</span>    <span class="keywordflow">if</span> (tokens.size() != (<a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264">ACTION_BAR_INDEX_END</a> - <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a>) * 2)</div>
+<div class="line"><span class="lineno">16734</span>        <span class="keywordflow">return</span>;                                             <span class="comment">// non critical, will reset to default</span></div>
+<div class="line"><span class="lineno">16735</span> </div>
+<div class="line"><span class="lineno">16736</span>    <span class="keyword">auto</span> iter = tokens.begin();</div>
+<div class="line"><span class="lineno">16737</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> index = <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724ac963f447654b9785c3236c79ea310b09">ACTION_BAR_INDEX_START</a>; index &lt; <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a5656c6dd354cdc76da16094dd6f96724a64eaabebc81e8d02513089d4d5591264">ACTION_BAR_INDEX_END</a>; ++index)</div>
+<div class="line"><span class="lineno">16738</span>    {</div>
+<div class="line"><span class="lineno">16739</span>        <a class="code hl_typedef" href="../../de/df8/a00440.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;uint8&gt;</a> type = Acore::StringTo&lt;uint8&gt;(*(iter++));</div>
+<div class="line"><span class="lineno">16740</span>        <a class="code hl_typedef" href="../../de/df8/a00440.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;uint32&gt;</a> action = Acore::StringTo&lt;uint32&gt;(*(iter++));</div>
+<div class="line"><span class="lineno">16741</span> </div>
+<div class="line"><span class="lineno">16742</span>        <span class="keywordflow">if</span> (!type || !action)</div>
+<div class="line"><span class="lineno">16743</span>        {</div>
+<div class="line"><span class="lineno">16744</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">16745</span>        }</div>
+<div class="line"><span class="lineno">16746</span> </div>
+<div class="line"><span class="lineno">16747</span>        <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[index].<a class="code hl_function" href="../../de/da7/a08169.html#a110840d38445795957ee0425175b4fb6">SetActionAndType</a>(*action, <span class="keyword">static_cast&lt;</span><a class="code hl_enumeration" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46da">ActiveStates</a><span class="keyword">&gt;</span>(*type));</div>
+<div class="line"><span class="lineno">16748</span> </div>
+<div class="line"><span class="lineno">16749</span>        <span class="comment">// check correctness</span></div>
+<div class="line"><span class="lineno">16750</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[index].IsActionBarForSpell())</div>
+<div class="line"><span class="lineno">16751</span>        {</div>
+<div class="line"><span class="lineno">16752</span>            <a class="code hl_class" href="../../d7/d36/a10537.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = <a class="code hl_define" href="../../db/df6/a02138.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(<a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[index].GetAction());</div>
+<div class="line"><span class="lineno">16753</span>            <span class="keywordflow">if</span> (!spellInfo)</div>
+<div class="line"><span class="lineno">16754</span>            {</div>
+<div class="line"><span class="lineno">16755</span>                <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(index, 0, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">16756</span>            }</div>
+<div class="line"><span class="lineno">16757</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!spellInfo-&gt;<a class="code hl_function" href="../../d7/d36/a10537.html#a243b5bc4eb72b1c64695f8b10be3801c">IsAutocastable</a>())</div>
+<div class="line"><span class="lineno">16758</span>            {</div>
+<div class="line"><span class="lineno">16759</span>                <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(index, <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[index].GetAction(), <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">16760</span>            }</div>
+<div class="line"><span class="lineno">16761</span>        }</div>
+<div class="line"><span class="lineno">16762</span>    }</div>
+<div class="line"><span class="lineno">16763</span>}</div>
 <div class="ttc" id="aa00440_html_aaf8f4d77efd311ec7818ab421294ef82"><div class="ttname"><a href="../../de/df8/a00440.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a></div><div class="ttdeci">std::optional&lt; T &gt; Optional</div><div class="ttdoc">Optional helper class to wrap optional values within.</div><div class="ttdef"><b>Definition:</b> Optional.h:24</div></div>
 <div class="ttc" id="aa04424_html_a6b121485ace4118b9006db1fb89f90f2"><div class="ttname"><a href="../../dc/d7e/a04424.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a></div><div class="ttdeci">std::vector&lt; std::string_view &gt; Tokenize(std::string_view str, char sep, bool keepEmpty)</div><div class="ttdef"><b>Definition:</b> Tokenize.cpp:20</div></div>
 </div><!-- fragment -->
@@ -1168,23 +1168,23 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15836</span>{</div>
-<div class="line"><span class="lineno">15837</span>    <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> first_id = <a class="code hl_define" href="../../db/df6/a02138.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetFirstSpellInChain(spell_id);</div>
-<div class="line"><span class="lineno">15838</span> </div>
-<div class="line"><span class="lineno">15839</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a155b8633f243004497699c184b903901">MAX_UNIT_ACTION_BAR_INDEX</a>; ++i)</div>
-<div class="line"><span class="lineno">15840</span>    {</div>
-<div class="line"><span class="lineno">15841</span>        <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> action = <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].GetAction())</div>
-<div class="line"><span class="lineno">15842</span>        {</div>
-<div class="line"><span class="lineno">15843</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].IsActionBarForSpell() &amp;&amp; <a class="code hl_define" href="../../db/df6/a02138.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetFirstSpellInChain(action) == first_id)</div>
-<div class="line"><span class="lineno">15844</span>            {</div>
-<div class="line"><span class="lineno">15845</span>                <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(i, 0, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
-<div class="line"><span class="lineno">15846</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">15847</span>            }</div>
-<div class="line"><span class="lineno">15848</span>        }</div>
-<div class="line"><span class="lineno">15849</span>    }</div>
-<div class="line"><span class="lineno">15850</span> </div>
-<div class="line"><span class="lineno">15851</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">15852</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">16692</span>{</div>
+<div class="line"><span class="lineno">16693</span>    <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> first_id = <a class="code hl_define" href="../../db/df6/a02138.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetFirstSpellInChain(spell_id);</div>
+<div class="line"><span class="lineno">16694</span> </div>
+<div class="line"><span class="lineno">16695</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a155b8633f243004497699c184b903901">MAX_UNIT_ACTION_BAR_INDEX</a>; ++i)</div>
+<div class="line"><span class="lineno">16696</span>    {</div>
+<div class="line"><span class="lineno">16697</span>        <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> action = <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].GetAction())</div>
+<div class="line"><span class="lineno">16698</span>        {</div>
+<div class="line"><span class="lineno">16699</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].IsActionBarForSpell() &amp;&amp; <a class="code hl_define" href="../../db/df6/a02138.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetFirstSpellInChain(action) == first_id)</div>
+<div class="line"><span class="lineno">16700</span>            {</div>
+<div class="line"><span class="lineno">16701</span>                <a class="code hl_function" href="../../d2/d9f/a08173.html#a4951b83a10c85f36f25f2236983a51a3">SetActionBar</a>(i, 0, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daad917b891f555940a135b2634d2e72b3b">ACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">16702</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">16703</span>            }</div>
+<div class="line"><span class="lineno">16704</span>        }</div>
+<div class="line"><span class="lineno">16705</span>    }</div>
+<div class="line"><span class="lineno">16706</span> </div>
+<div class="line"><span class="lineno">16707</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">16708</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01013">ACT_PASSIVE</a>, <a class="el" href="../../#l01091">MAX_UNIT_ACTION_BAR_INDEX</a>, <a class="el" href="../../#l01155">PetActionBar</a>, <a class="el" href="../../#l01117">SetActionBar()</a>, and <a class="el" href="../../#l00803">sSpellMgr</a>.</p>
 
@@ -1206,11 +1206,11 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">20385</span>{</div>
-<div class="line"><span class="lineno">20386</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a5c04998f07bf628f0401b85f24073e26">_stayX</a> = 0.0f;</div>
-<div class="line"><span class="lineno">20387</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a16d422faa579c883cda9ce00539c1fe7">_stayY</a> = 0.0f;</div>
-<div class="line"><span class="lineno">20388</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a6b292becf0aac801b94a5264125ea751">_stayZ</a> = 0.0f;</div>
-<div class="line"><span class="lineno">20389</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">21241</span>{</div>
+<div class="line"><span class="lineno">21242</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a5c04998f07bf628f0401b85f24073e26">_stayX</a> = 0.0f;</div>
+<div class="line"><span class="lineno">21243</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a16d422faa579c883cda9ce00539c1fe7">_stayY</a> = 0.0f;</div>
+<div class="line"><span class="lineno">21244</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a6b292becf0aac801b94a5264125ea751">_stayZ</a> = 0.0f;</div>
+<div class="line"><span class="lineno">21245</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01170">_stayX</a>, <a class="el" href="../../#l01171">_stayY</a>, and <a class="el" href="../../#l01172">_stayZ</a>.</p>
 
@@ -1232,15 +1232,15 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15687</span>{</div>
-<div class="line"><span class="lineno">15688</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d7/dc5/a07437.html">Creature</a>* creature = <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>())</div>
-<div class="line"><span class="lineno">15689</span>        creature-&gt;SetReactState(<a class="code hl_variable" href="../../d2/d9f/a08173.html#ac6b8b44a93d7dd08be91fd480e649c00">_oldReactState</a>);</div>
-<div class="line"><span class="lineno">15690</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">16543</span>{</div>
+<div class="line"><span class="lineno">16544</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d7/dc5/a07437.html">Creature</a>* creature = <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>())</div>
+<div class="line"><span class="lineno">16545</span>        creature-&gt;SetReactState(<a class="code hl_variable" href="../../d2/d9f/a08173.html#ac6b8b44a93d7dd08be91fd480e649c00">_oldReactState</a>);</div>
+<div class="line"><span class="lineno">16546</span>}</div>
 <div class="ttc" id="aa07437_html"><div class="ttname"><a href="../../d7/dc5/a07437.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01161">_oldReactState</a>, <a class="el" href="../../#l01154">_unit</a>, and <a class="el" href="../../#l00197">Object::ToCreature()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l15657">Unit::DeleteCharmInfo()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l16513">Unit::DeleteCharmInfo()</a>.</p>
 
 </div>
 </div>
@@ -1260,38 +1260,38 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >At this point a new spline destination is enabled because of <a class="el" href="../../df/d37/a08189.html#a61edf6ab694fa8f7ed6ef194fd4dd103">Unit::StopMoving()</a></p>
-<div class="fragment"><div class="line"><span class="lineno">20355</span>{</div>
-<div class="line"><span class="lineno">20357</span>    G3D::Vector3 stayPos = G3D::Vector3();</div>
-<div class="line"><span class="lineno">20358</span> </div>
-<div class="line"><span class="lineno">20359</span>    <span class="keywordflow">if</span> (atCurrentPos)</div>
-<div class="line"><span class="lineno">20360</span>    {</div>
-<div class="line"><span class="lineno">20361</span>        <span class="keywordtype">float</span> z = <a class="code hl_define" href="../../d3/daa/a01577.html#ac08ed03fa837b2e3d2624e0123f0897b">INVALID_HEIGHT</a>;</div>
-<div class="line"><span class="lineno">20362</span>        <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../d5/daf/a07837.html#a1789853fc4dad288f626d8ca60ee9e07">UpdateAllowedPositionZ</a>(<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../d5/daa/a07881.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../d5/daa/a07881.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), z);</div>
-<div class="line"><span class="lineno">20363</span>        stayPos = G3D::Vector3(<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../d5/daa/a07881.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../d5/daa/a07881.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), z != <a class="code hl_define" href="../../d3/daa/a01577.html#ac08ed03fa837b2e3d2624e0123f0897b">INVALID_HEIGHT</a> ? z : <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../d5/daa/a07881.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>());</div>
-<div class="line"><span class="lineno">20364</span>    }</div>
-<div class="line"><span class="lineno">20365</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">20366</span>        stayPos = <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_variable" href="../../df/d37/a08189.html#a1805acabea4c9a75ad7c0bcab734f627">movespline</a>-&gt;<a class="code hl_function" href="../../d2/db0/a09441.html#a5a75c3c093ade5d45a92f7d777e572c5">FinalDestination</a>();</div>
-<div class="line"><span class="lineno">20367</span> </div>
-<div class="line"><span class="lineno">20368</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_variable" href="../../df/d37/a08189.html#a1805acabea4c9a75ad7c0bcab734f627">movespline</a>-&gt;<a class="code hl_variable" href="../../d2/db0/a09441.html#ae68059cf60cd9e73e124d0fd7066c385">onTransport</a>)</div>
-<div class="line"><span class="lineno">20369</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../df/def/a08229.html">TransportBase</a>* transport = <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#a959879d9a8051fcc60f824c15d6308a2">GetDirectTransport</a>())</div>
-<div class="line"><span class="lineno">20370</span>            transport-&gt;CalculatePassengerPosition(stayPos.x, stayPos.y, stayPos.z);</div>
-<div class="line"><span class="lineno">20371</span> </div>
-<div class="line"><span class="lineno">20372</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a5c04998f07bf628f0401b85f24073e26">_stayX</a> = stayPos.x;</div>
-<div class="line"><span class="lineno">20373</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a16d422faa579c883cda9ce00539c1fe7">_stayY</a> = stayPos.y;</div>
-<div class="line"><span class="lineno">20374</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a6b292becf0aac801b94a5264125ea751">_stayZ</a> = stayPos.z;</div>
-<div class="line"><span class="lineno">20375</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">21211</span>{</div>
+<div class="line"><span class="lineno">21213</span>    G3D::Vector3 stayPos = G3D::Vector3();</div>
+<div class="line"><span class="lineno">21214</span> </div>
+<div class="line"><span class="lineno">21215</span>    <span class="keywordflow">if</span> (atCurrentPos)</div>
+<div class="line"><span class="lineno">21216</span>    {</div>
+<div class="line"><span class="lineno">21217</span>        <span class="keywordtype">float</span> z = <a class="code hl_define" href="../../d3/daa/a01577.html#ac08ed03fa837b2e3d2624e0123f0897b">INVALID_HEIGHT</a>;</div>
+<div class="line"><span class="lineno">21218</span>        <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../d5/daf/a07837.html#a1789853fc4dad288f626d8ca60ee9e07">UpdateAllowedPositionZ</a>(<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../d5/daa/a07881.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../d5/daa/a07881.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), z);</div>
+<div class="line"><span class="lineno">21219</span>        stayPos = G3D::Vector3(<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../d5/daa/a07881.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../d5/daa/a07881.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), z != <a class="code hl_define" href="../../d3/daa/a01577.html#ac08ed03fa837b2e3d2624e0123f0897b">INVALID_HEIGHT</a> ? z : <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../d5/daa/a07881.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>());</div>
+<div class="line"><span class="lineno">21220</span>    }</div>
+<div class="line"><span class="lineno">21221</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">21222</span>        stayPos = <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_variable" href="../../df/d37/a08189.html#a1805acabea4c9a75ad7c0bcab734f627">movespline</a>-&gt;<a class="code hl_function" href="../../d2/db0/a09441.html#a5a75c3c093ade5d45a92f7d777e572c5">FinalDestination</a>();</div>
+<div class="line"><span class="lineno">21223</span> </div>
+<div class="line"><span class="lineno">21224</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_variable" href="../../df/d37/a08189.html#a1805acabea4c9a75ad7c0bcab734f627">movespline</a>-&gt;<a class="code hl_variable" href="../../d2/db0/a09441.html#ae68059cf60cd9e73e124d0fd7066c385">onTransport</a>)</div>
+<div class="line"><span class="lineno">21225</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../df/def/a08229.html">TransportBase</a>* transport = <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#a959879d9a8051fcc60f824c15d6308a2">GetDirectTransport</a>())</div>
+<div class="line"><span class="lineno">21226</span>            transport-&gt;CalculatePassengerPosition(stayPos.x, stayPos.y, stayPos.z);</div>
+<div class="line"><span class="lineno">21227</span> </div>
+<div class="line"><span class="lineno">21228</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a5c04998f07bf628f0401b85f24073e26">_stayX</a> = stayPos.x;</div>
+<div class="line"><span class="lineno">21229</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a16d422faa579c883cda9ce00539c1fe7">_stayY</a> = stayPos.y;</div>
+<div class="line"><span class="lineno">21230</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a6b292becf0aac801b94a5264125ea751">_stayZ</a> = stayPos.z;</div>
+<div class="line"><span class="lineno">21231</span>}</div>
 <div class="ttc" id="aa01577_html_ac08ed03fa837b2e3d2624e0123f0897b"><div class="ttname"><a href="../../d3/daa/a01577.html#ac08ed03fa837b2e3d2624e0123f0897b">INVALID_HEIGHT</a></div><div class="ttdeci">#define INVALID_HEIGHT</div><div class="ttdef"><b>Definition:</b> Map.h:164</div></div>
-<div class="ttc" id="aa07837_html_a1789853fc4dad288f626d8ca60ee9e07"><div class="ttname"><a href="../../d5/daf/a07837.html#a1789853fc4dad288f626d8ca60ee9e07">WorldObject::UpdateAllowedPositionZ</a></div><div class="ttdeci">void UpdateAllowedPositionZ(float x, float y, float &amp;z, float *groundZ=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1554</div></div>
+<div class="ttc" id="aa07837_html_a1789853fc4dad288f626d8ca60ee9e07"><div class="ttname"><a href="../../d5/daf/a07837.html#a1789853fc4dad288f626d8ca60ee9e07">WorldObject::UpdateAllowedPositionZ</a></div><div class="ttdeci">void UpdateAllowedPositionZ(float x, float y, float &amp;z, float *groundZ=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1556</div></div>
 <div class="ttc" id="aa07881_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d5/daa/a07881.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
 <div class="ttc" id="aa07881_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d5/daa/a07881.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
 <div class="ttc" id="aa07881_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d5/daa/a07881.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
-<div class="ttc" id="aa08189_html_a1805acabea4c9a75ad7c0bcab734f627"><div class="ttname"><a href="../../df/d37/a08189.html#a1805acabea4c9a75ad7c0bcab734f627">Unit::movespline</a></div><div class="ttdeci">Movement::MoveSpline * movespline</div><div class="ttdef"><b>Definition:</b> Unit.h:2435</div></div>
-<div class="ttc" id="aa08189_html_a959879d9a8051fcc60f824c15d6308a2"><div class="ttname"><a href="../../df/d37/a08189.html#a959879d9a8051fcc60f824c15d6308a2">Unit::GetDirectTransport</a></div><div class="ttdeci">TransportBase * GetDirectTransport() const</div><div class="ttdoc">Returns the transport this unit is on directly (if on vehicle and transport, return vehicle)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18799</div></div>
+<div class="ttc" id="aa08189_html_a1805acabea4c9a75ad7c0bcab734f627"><div class="ttname"><a href="../../df/d37/a08189.html#a1805acabea4c9a75ad7c0bcab734f627">Unit::movespline</a></div><div class="ttdeci">Movement::MoveSpline * movespline</div><div class="ttdef"><b>Definition:</b> Unit.h:2708</div></div>
+<div class="ttc" id="aa08189_html_a959879d9a8051fcc60f824c15d6308a2"><div class="ttname"><a href="../../df/d37/a08189.html#a959879d9a8051fcc60f824c15d6308a2">Unit::GetDirectTransport</a></div><div class="ttdeci">TransportBase * GetDirectTransport() const</div><div class="ttdoc">Returns the transport this unit is on directly (if on vehicle and transport, return vehicle)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:19655</div></div>
 <div class="ttc" id="aa08229_html"><div class="ttname"><a href="../../df/def/a08229.html">TransportBase</a></div><div class="ttdef"><b>Definition:</b> VehicleDefines.h:107</div></div>
 <div class="ttc" id="aa09441_html_a5a75c3c093ade5d45a92f7d777e572c5"><div class="ttname"><a href="../../d2/db0/a09441.html#a5a75c3c093ade5d45a92f7d777e572c5">Movement::MoveSpline::FinalDestination</a></div><div class="ttdeci">Vector3 FinalDestination() const</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:120</div></div>
 <div class="ttc" id="aa09441_html_ae68059cf60cd9e73e124d0fd7066c385"><div class="ttname"><a href="../../d2/db0/a09441.html#ae68059cf60cd9e73e124d0fd7066c385">Movement::MoveSpline::onTransport</a></div><div class="ttdeci">bool onTransport</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:127</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01170">_stayX</a>, <a class="el" href="../../#l01171">_stayY</a>, <a class="el" href="../../#l01172">_stayZ</a>, <a class="el" href="../../#l01154">_unit</a>, <a class="el" href="../../#l00120">Movement::MoveSpline::FinalDestination()</a>, <a class="el" href="../../#l18799">Unit::GetDirectTransport()</a>, <a class="el" href="../../#l00117">Position::GetPositionX()</a>, <a class="el" href="../../#l00118">Position::GetPositionY()</a>, <a class="el" href="../../#l00119">Position::GetPositionZ()</a>, <a class="el" href="../../#l00164">INVALID_HEIGHT</a>, <a class="el" href="../../#l02435">Unit::movespline</a>, <a class="el" href="../../#l00127">Movement::MoveSpline::onTransport</a>, and <a class="el" href="../../#l01554">WorldObject::UpdateAllowedPositionZ()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l01170">_stayX</a>, <a class="el" href="../../#l01171">_stayY</a>, <a class="el" href="../../#l01172">_stayZ</a>, <a class="el" href="../../#l01154">_unit</a>, <a class="el" href="../../#l00120">Movement::MoveSpline::FinalDestination()</a>, <a class="el" href="../../#l19655">Unit::GetDirectTransport()</a>, <a class="el" href="../../#l00117">Position::GetPositionX()</a>, <a class="el" href="../../#l00118">Position::GetPositionY()</a>, <a class="el" href="../../#l00119">Position::GetPositionZ()</a>, <a class="el" href="../../#l00164">INVALID_HEIGHT</a>, <a class="el" href="../../#l02708">Unit::movespline</a>, <a class="el" href="../../#l00127">Movement::MoveSpline::onTransport</a>, and <a class="el" href="../../#l01556">WorldObject::UpdateAllowedPositionZ()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../#l00150">WorldSession::HandlePetActionHelper()</a>, and <a class="el" href="../../#l00644">Pet::Update()</a>.</p>
 
@@ -1342,7 +1342,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01155">PetActionBar</a>, and <a class="el" href="../../#l01055">UnitActionBarEntry::SetActionAndType()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l15805">AddSpellToActionBar()</a>, <a class="el" href="../../#l02000">Pet::CleanupActionBar()</a>, <a class="el" href="../../#l00680">WorldSession::HandlePetSetAction()</a>, <a class="el" href="../../#l15707">InitEmptyActionBar()</a>, <a class="el" href="../../#l15692">InitPetActionBar()</a>, <a class="el" href="../../#l15873">LoadPetActionBar()</a>, and <a class="el" href="../../#l15835">RemoveSpellFromActionBar()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l16661">AddSpellToActionBar()</a>, <a class="el" href="../../#l02000">Pet::CleanupActionBar()</a>, <a class="el" href="../../#l00680">WorldSession::HandlePetSetAction()</a>, <a class="el" href="../../#l16563">InitEmptyActionBar()</a>, <a class="el" href="../../#l16548">InitPetActionBar()</a>, <a class="el" href="../../#l16729">LoadPetActionBar()</a>, and <a class="el" href="../../#l16691">RemoveSpellFromActionBar()</a>.</p>
 
 </div>
 </div>
@@ -1404,7 +1404,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01168">_forcedSpellId</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00150">WorldSession::HandlePetActionHelper()</a>, <a class="el" href="../../#l00524">PetAI::HandleReturnMovement()</a>, <a class="el" href="../../#l20426">Unit::PetSpellFail()</a>, and <a class="el" href="../../#l00574">PetAI::SpellHit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00150">WorldSession::HandlePetActionHelper()</a>, <a class="el" href="../../#l00524">PetAI::HandleReturnMovement()</a>, <a class="el" href="../../#l21282">Unit::PetSpellFail()</a>, and <a class="el" href="../../#l00574">PetAI::SpellHit()</a>.</p>
 
 </div>
 </div>
@@ -1435,7 +1435,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01169">_forcedTargetGUID</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00150">WorldSession::HandlePetActionHelper()</a>, <a class="el" href="../../#l00524">PetAI::HandleReturnMovement()</a>, <a class="el" href="../../#l20426">Unit::PetSpellFail()</a>, and <a class="el" href="../../#l00574">PetAI::SpellHit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00150">WorldSession::HandlePetActionHelper()</a>, <a class="el" href="../../#l00524">PetAI::HandleReturnMovement()</a>, <a class="el" href="../../#l21282">Unit::PetSpellFail()</a>, and <a class="el" href="../../#l00574">PetAI::SpellHit()</a>.</p>
 
 </div>
 </div>
@@ -1454,13 +1454,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">20397</span>{</div>
-<div class="line"><span class="lineno">20398</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a4a53706e7713078c4ac23b192dae0efb">_isAtStay</a> = val;</div>
-<div class="line"><span class="lineno">20399</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">21253</span>{</div>
+<div class="line"><span class="lineno">21254</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a4a53706e7713078c4ac23b192dae0efb">_isAtStay</a> = val;</div>
+<div class="line"><span class="lineno">21255</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01165">_isAtStay</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00071">Pet::AddToWorld()</a>, <a class="el" href="../../#l00755">PetAI::ClearCharmInfoFlags()</a>, <a class="el" href="../../#l00585">PetAI::DoAttack()</a>, <a class="el" href="../../#l00150">WorldSession::HandlePetActionHelper()</a>, <a class="el" href="../../#l00626">PetAI::MovementInform()</a>, <a class="el" href="../../#l20426">Unit::PetSpellFail()</a>, and <a class="el" href="../../#l00644">Pet::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00071">Pet::AddToWorld()</a>, <a class="el" href="../../#l00755">PetAI::ClearCharmInfoFlags()</a>, <a class="el" href="../../#l00585">PetAI::DoAttack()</a>, <a class="el" href="../../#l00150">WorldSession::HandlePetActionHelper()</a>, <a class="el" href="../../#l00626">PetAI::MovementInform()</a>, <a class="el" href="../../#l21282">Unit::PetSpellFail()</a>, and <a class="el" href="../../#l00644">Pet::Update()</a>.</p>
 
 </div>
 </div>
@@ -1479,13 +1479,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">20335</span>{</div>
-<div class="line"><span class="lineno">20336</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#abcdea96cfd85605af292fbd91f18b5e4">_isCommandAttack</a> = val;</div>
-<div class="line"><span class="lineno">20337</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">21191</span>{</div>
+<div class="line"><span class="lineno">21192</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#abcdea96cfd85605af292fbd91f18b5e4">_isCommandAttack</a> = val;</div>
+<div class="line"><span class="lineno">21193</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01163">_isCommandAttack</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00071">PetAI::_stopAttack()</a>, <a class="el" href="../../#l00071">Pet::AddToWorld()</a>, <a class="el" href="../../#l00755">PetAI::ClearCharmInfoFlags()</a>, <a class="el" href="../../#l00585">PetAI::DoAttack()</a>, <a class="el" href="../../#l00150">WorldSession::HandlePetActionHelper()</a>, <a class="el" href="../../#l20426">Unit::PetSpellFail()</a>, and <a class="el" href="../../#l00644">Pet::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00071">PetAI::_stopAttack()</a>, <a class="el" href="../../#l00071">Pet::AddToWorld()</a>, <a class="el" href="../../#l00755">PetAI::ClearCharmInfoFlags()</a>, <a class="el" href="../../#l00585">PetAI::DoAttack()</a>, <a class="el" href="../../#l00150">WorldSession::HandlePetActionHelper()</a>, <a class="el" href="../../#l21282">Unit::PetSpellFail()</a>, and <a class="el" href="../../#l00644">Pet::Update()</a>.</p>
 
 </div>
 </div>
@@ -1504,9 +1504,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">20345</span>{</div>
-<div class="line"><span class="lineno">20346</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a70d95a3c96b66b5b7a6619b5a0fb80a7">_isCommandFollow</a> = val;</div>
-<div class="line"><span class="lineno">20347</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">21201</span>{</div>
+<div class="line"><span class="lineno">21202</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#a70d95a3c96b66b5b7a6619b5a0fb80a7">_isCommandFollow</a> = val;</div>
+<div class="line"><span class="lineno">21203</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01164">_isCommandFollow</a>.</p>
 
@@ -1529,13 +1529,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">20407</span>{</div>
-<div class="line"><span class="lineno">20408</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#ab3683a0e9ff72dadc5496c7d1086b2d2">_isFollowing</a> = val;</div>
-<div class="line"><span class="lineno">20409</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">21263</span>{</div>
+<div class="line"><span class="lineno">21264</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#ab3683a0e9ff72dadc5496c7d1086b2d2">_isFollowing</a> = val;</div>
+<div class="line"><span class="lineno">21265</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01166">_isFollowing</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00071">Pet::AddToWorld()</a>, <a class="el" href="../../#l00755">PetAI::ClearCharmInfoFlags()</a>, <a class="el" href="../../#l00150">WorldSession::HandlePetActionHelper()</a>, <a class="el" href="../../#l00626">PetAI::MovementInform()</a>, <a class="el" href="../../#l20426">Unit::PetSpellFail()</a>, and <a class="el" href="../../#l00644">Pet::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00071">Pet::AddToWorld()</a>, <a class="el" href="../../#l00755">PetAI::ClearCharmInfoFlags()</a>, <a class="el" href="../../#l00150">WorldSession::HandlePetActionHelper()</a>, <a class="el" href="../../#l00626">PetAI::MovementInform()</a>, <a class="el" href="../../#l21282">Unit::PetSpellFail()</a>, and <a class="el" href="../../#l00644">Pet::Update()</a>.</p>
 
 </div>
 </div>
@@ -1554,13 +1554,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">20417</span>{</div>
-<div class="line"><span class="lineno">20418</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#af0c8bac9ab31c561e09ef20e90d1a86d">_isReturning</a> = val;</div>
-<div class="line"><span class="lineno">20419</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">21273</span>{</div>
+<div class="line"><span class="lineno">21274</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#af0c8bac9ab31c561e09ef20e90d1a86d">_isReturning</a> = val;</div>
+<div class="line"><span class="lineno">21275</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01167">_isReturning</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00071">Pet::AddToWorld()</a>, <a class="el" href="../../#l00755">PetAI::ClearCharmInfoFlags()</a>, <a class="el" href="../../#l00150">WorldSession::HandlePetActionHelper()</a>, <a class="el" href="../../#l00524">PetAI::HandleReturnMovement()</a>, <a class="el" href="../../#l20426">Unit::PetSpellFail()</a>, and <a class="el" href="../../#l00644">Pet::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00071">Pet::AddToWorld()</a>, <a class="el" href="../../#l00755">PetAI::ClearCharmInfoFlags()</a>, <a class="el" href="../../#l00150">WorldSession::HandlePetActionHelper()</a>, <a class="el" href="../../#l00524">PetAI::HandleReturnMovement()</a>, <a class="el" href="../../#l21282">Unit::PetSpellFail()</a>, and <a class="el" href="../../#l00644">Pet::Update()</a>.</p>
 
 </div>
 </div>
@@ -1589,19 +1589,19 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15865</span>{</div>
-<div class="line"><span class="lineno">15866</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#af75ce01806070692ffa25c833021619f">_petnumber</a> = petnumber;</div>
-<div class="line"><span class="lineno">15867</span>    <span class="keywordflow">if</span> (statwindow)</div>
-<div class="line"><span class="lineno">15868</span>        <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/dad/a01235.html#a0e42dc606678c9df7884e1aad621e881a114e5f046c491f51fcc9e6754b6575ea">UNIT_FIELD_PETNUMBER</a>, <a class="code hl_variable" href="../../d2/d9f/a08173.html#af75ce01806070692ffa25c833021619f">_petnumber</a>);</div>
-<div class="line"><span class="lineno">15869</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">15870</span>        <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/dad/a01235.html#a0e42dc606678c9df7884e1aad621e881a114e5f046c491f51fcc9e6754b6575ea">UNIT_FIELD_PETNUMBER</a>, 0);</div>
-<div class="line"><span class="lineno">15871</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">16721</span>{</div>
+<div class="line"><span class="lineno">16722</span>    <a class="code hl_variable" href="../../d2/d9f/a08173.html#af75ce01806070692ffa25c833021619f">_petnumber</a> = petnumber;</div>
+<div class="line"><span class="lineno">16723</span>    <span class="keywordflow">if</span> (statwindow)</div>
+<div class="line"><span class="lineno">16724</span>        <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/dad/a01235.html#a0e42dc606678c9df7884e1aad621e881a114e5f046c491f51fcc9e6754b6575ea">UNIT_FIELD_PETNUMBER</a>, <a class="code hl_variable" href="../../d2/d9f/a08173.html#af75ce01806070692ffa25c833021619f">_petnumber</a>);</div>
+<div class="line"><span class="lineno">16725</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">16726</span>        <a class="code hl_variable" href="../../d2/d9f/a08173.html#af62aeed73a3a4ecc6fe8f81f8cebea8b">_unit</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/dad/a01235.html#a0e42dc606678c9df7884e1aad621e881a114e5f046c491f51fcc9e6754b6575ea">UNIT_FIELD_PETNUMBER</a>, 0);</div>
+<div class="line"><span class="lineno">16727</span>}</div>
 <div class="ttc" id="aa01235_html_a0e42dc606678c9df7884e1aad621e881a114e5f046c491f51fcc9e6754b6575ea"><div class="ttname"><a href="../../dd/dad/a01235.html#a0e42dc606678c9df7884e1aad621e881a114e5f046c491f51fcc9e6754b6575ea">UNIT_FIELD_PETNUMBER</a></div><div class="ttdeci">@ UNIT_FIELD_PETNUMBER</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:132</div></div>
-<div class="ttc" id="aa07805_html_adc7e9b205f35f9894ec9a4f0ec0871f9"><div class="ttname"><a href="../../df/d6f/a07805.html#adc7e9b205f35f9894ec9a4f0ec0871f9">Object::SetUInt32Value</a></div><div class="ttdeci">void SetUInt32Value(uint16 index, uint32 value)</div><div class="ttdef"><b>Definition:</b> Object.cpp:650</div></div>
+<div class="ttc" id="aa07805_html_adc7e9b205f35f9894ec9a4f0ec0871f9"><div class="ttname"><a href="../../df/d6f/a07805.html#adc7e9b205f35f9894ec9a4f0ec0871f9">Object::SetUInt32Value</a></div><div class="ttdeci">void SetUInt32Value(uint16 index, uint32 value)</div><div class="ttdef"><b>Definition:</b> Object.cpp:652</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01158">_petnumber</a>, <a class="el" href="../../#l01154">_unit</a>, <a class="el" href="../../#l00650">Object::SetUInt32Value()</a>, and <a class="el" href="../../#l00132">UNIT_FIELD_PETNUMBER</a>.</p>
+<p class="reference">References <a class="el" href="../../#l01158">_petnumber</a>, <a class="el" href="../../#l01154">_unit</a>, <a class="el" href="../../#l00652">Object::SetUInt32Value()</a>, and <a class="el" href="../../#l00132">UNIT_FIELD_PETNUMBER</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l17445">Unit::InitTamedPet()</a>, <a class="el" href="../../#l00207">Pet::LoadPetFromDB()</a>, <a class="el" href="../../#l18584">Unit::RemoveCharmedBy()</a>, <a class="el" href="../../#l18385">Unit::SetCharmedBy()</a>, and <a class="el" href="../../#l08787">Player::SummonPet()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l18301">Unit::InitTamedPet()</a>, <a class="el" href="../../#l00207">Pet::LoadPetFromDB()</a>, <a class="el" href="../../#l19440">Unit::RemoveCharmedBy()</a>, <a class="el" href="../../#l19241">Unit::SetCharmedBy()</a>, and <a class="el" href="../../#l08789">Player::SummonPet()</a>.</p>
 
 </div>
 </div>
@@ -1661,16 +1661,16 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15916</span>{</div>
-<div class="line"><span class="lineno">15917</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a155b8633f243004497699c184b903901">MAX_UNIT_ACTION_BAR_INDEX</a>; ++i)</div>
-<div class="line"><span class="lineno">15918</span>    {</div>
-<div class="line"><span class="lineno">15919</span>        <span class="keywordflow">if</span> (spellInfo-&gt;Id == <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].<a class="code hl_function" href="../../de/da7/a08169.html#afd77e2f64ec856059759d05ddf77876e">GetAction</a>() &amp;&amp; <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].<a class="code hl_function" href="../../de/da7/a08169.html#a2af43ec77fcd077b2fe9ca3a6d80123b">IsActionBarForSpell</a>())</div>
-<div class="line"><span class="lineno">15920</span>        {</div>
-<div class="line"><span class="lineno">15921</span>            <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].<a class="code hl_function" href="../../de/da7/a08169.html#a38e0dcad391d09e475f90be5a5382f78">SetType</a>(state ? <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa60dbce51e005270fd5bc183457883952">ACT_ENABLED</a> : <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a>);</div>
-<div class="line"><span class="lineno">15922</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">15923</span>        }</div>
-<div class="line"><span class="lineno">15924</span>    }</div>
-<div class="line"><span class="lineno">15925</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">16772</span>{</div>
+<div class="line"><span class="lineno">16773</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a155b8633f243004497699c184b903901">MAX_UNIT_ACTION_BAR_INDEX</a>; ++i)</div>
+<div class="line"><span class="lineno">16774</span>    {</div>
+<div class="line"><span class="lineno">16775</span>        <span class="keywordflow">if</span> (spellInfo-&gt;Id == <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].<a class="code hl_function" href="../../de/da7/a08169.html#afd77e2f64ec856059759d05ddf77876e">GetAction</a>() &amp;&amp; <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].<a class="code hl_function" href="../../de/da7/a08169.html#a2af43ec77fcd077b2fe9ca3a6d80123b">IsActionBarForSpell</a>())</div>
+<div class="line"><span class="lineno">16776</span>        {</div>
+<div class="line"><span class="lineno">16777</span>            <a class="code hl_variable" href="../../d2/d9f/a08173.html#a79e1a8a988254a9833313430d44ba11e">PetActionBar</a>[i].<a class="code hl_function" href="../../de/da7/a08169.html#a38e0dcad391d09e475f90be5a5382f78">SetType</a>(state ? <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa60dbce51e005270fd5bc183457883952">ACT_ENABLED</a> : <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a>);</div>
+<div class="line"><span class="lineno">16778</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">16779</span>        }</div>
+<div class="line"><span class="lineno">16780</span>    }</div>
+<div class="line"><span class="lineno">16781</span>}</div>
 <div class="ttc" id="aa08169_html_a2af43ec77fcd077b2fe9ca3a6d80123b"><div class="ttname"><a href="../../de/da7/a08169.html#a2af43ec77fcd077b2fe9ca3a6d80123b">UnitActionBarEntry::IsActionBarForSpell</a></div><div class="ttdeci">bool IsActionBarForSpell() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1049</div></div>
 <div class="ttc" id="aa08169_html_a38e0dcad391d09e475f90be5a5382f78"><div class="ttname"><a href="../../de/da7/a08169.html#a38e0dcad391d09e475f90be5a5382f78">UnitActionBarEntry::SetType</a></div><div class="ttdeci">void SetType(ActiveStates type)</div><div class="ttdef"><b>Definition:</b> Unit.h:1060</div></div>
 <div class="ttc" id="aa08169_html_afd77e2f64ec856059759d05ddf77876e"><div class="ttname"><a href="../../de/da7/a08169.html#afd77e2f64ec856059759d05ddf77876e">UnitActionBarEntry::GetAction</a></div><div class="ttdeci">uint32 GetAction() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1048</div></div>
@@ -1706,18 +1706,18 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">15855</span>{</div>
-<div class="line"><span class="lineno">15856</span>    <span class="keywordflow">if</span> (spellInfo-&gt;IsPassive())</div>
-<div class="line"><span class="lineno">15857</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">15858</span> </div>
-<div class="line"><span class="lineno">15859</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> x = 0; x &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a05307279d313f131c83ace9bf30d5722">MAX_SPELL_CHARM</a>; ++x)</div>
-<div class="line"><span class="lineno">15860</span>        <span class="keywordflow">if</span> (spellInfo-&gt;Id == <a class="code hl_variable" href="../../d2/d9f/a08173.html#afe4010e53fd86907d9aa3210be09886b">_charmspells</a>[x].<a class="code hl_function" href="../../de/da7/a08169.html#afd77e2f64ec856059759d05ddf77876e">GetAction</a>())</div>
-<div class="line"><span class="lineno">15861</span>            <a class="code hl_variable" href="../../d2/d9f/a08173.html#afe4010e53fd86907d9aa3210be09886b">_charmspells</a>[x].<a class="code hl_function" href="../../de/da7/a08169.html#a38e0dcad391d09e475f90be5a5382f78">SetType</a>(apply ? <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa60dbce51e005270fd5bc183457883952">ACT_ENABLED</a> : <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a>);</div>
-<div class="line"><span class="lineno">15862</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">16711</span>{</div>
+<div class="line"><span class="lineno">16712</span>    <span class="keywordflow">if</span> (spellInfo-&gt;IsPassive())</div>
+<div class="line"><span class="lineno">16713</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">16714</span> </div>
+<div class="line"><span class="lineno">16715</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> x = 0; x &lt; <a class="code hl_define" href="../../dc/dd9/a01328.html#a05307279d313f131c83ace9bf30d5722">MAX_SPELL_CHARM</a>; ++x)</div>
+<div class="line"><span class="lineno">16716</span>        <span class="keywordflow">if</span> (spellInfo-&gt;Id == <a class="code hl_variable" href="../../d2/d9f/a08173.html#afe4010e53fd86907d9aa3210be09886b">_charmspells</a>[x].<a class="code hl_function" href="../../de/da7/a08169.html#afd77e2f64ec856059759d05ddf77876e">GetAction</a>())</div>
+<div class="line"><span class="lineno">16717</span>            <a class="code hl_variable" href="../../d2/d9f/a08173.html#afe4010e53fd86907d9aa3210be09886b">_charmspells</a>[x].<a class="code hl_function" href="../../de/da7/a08169.html#a38e0dcad391d09e475f90be5a5382f78">SetType</a>(apply ? <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daa60dbce51e005270fd5bc183457883952">ACT_ENABLED</a> : <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#aaec28a439b9086a5fd69bd5358bb46daadeaf81cdbd16fe7cfbb9afd2ae17cc17">ACT_DISABLED</a>);</div>
+<div class="line"><span class="lineno">16718</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01156">_charmspells</a>, <a class="el" href="../../#l01014">ACT_DISABLED</a>, <a class="el" href="../../#l01015">ACT_ENABLED</a>, <a class="el" href="../../#l01048">UnitActionBarEntry::GetAction()</a>, <a class="el" href="../../#l00318">SpellInfo::Id</a>, <a class="el" href="../../#l01081">SpellInfo::IsPassive()</a>, <a class="el" href="../../#l00157">MAX_SPELL_CHARM</a>, and <a class="el" href="../../#l01060">UnitActionBarEntry::SetType()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00945">WorldSession::HandlePetSpellAutocastOpcode()</a>, and <a class="el" href="../../#l15753">InitCharmCreateSpells()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00945">WorldSession::HandlePetSpellAutocastOpcode()</a>, and <a class="el" href="../../#l16609">InitCharmCreateSpells()</a>.</p>
 
 </div>
 </div>
@@ -1742,7 +1742,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l15667">CharmInfo()</a>, <a class="el" href="../../#l01125">GetCharmSpell()</a>, <a class="el" href="../../#l15753">InitCharmCreateSpells()</a>, and <a class="el" href="../../#l15854">ToggleCreatureAutocast()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l16523">CharmInfo()</a>, <a class="el" href="../../#l01125">GetCharmSpell()</a>, <a class="el" href="../../#l16609">InitCharmCreateSpells()</a>, and <a class="el" href="../../#l16710">ToggleCreatureAutocast()</a>.</p>
 
 </div>
 </div>
@@ -1862,7 +1862,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l20401">IsAtStay()</a>, and <a class="el" href="../../#l20396">SetIsAtStay()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l21257">IsAtStay()</a>, and <a class="el" href="../../#l21252">SetIsAtStay()</a>.</p>
 
 </div>
 </div>
@@ -1886,7 +1886,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l20339">IsCommandAttack()</a>, and <a class="el" href="../../#l20334">SetIsCommandAttack()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l21195">IsCommandAttack()</a>, and <a class="el" href="../../#l21190">SetIsCommandAttack()</a>.</p>
 
 </div>
 </div>
@@ -1910,7 +1910,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l20349">IsCommandFollow()</a>, and <a class="el" href="../../#l20344">SetIsCommandFollow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l21205">IsCommandFollow()</a>, and <a class="el" href="../../#l21200">SetIsCommandFollow()</a>.</p>
 
 </div>
 </div>
@@ -1934,7 +1934,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l20411">IsFollowing()</a>, and <a class="el" href="../../#l20406">SetIsFollowing()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l21267">IsFollowing()</a>, and <a class="el" href="../../#l21262">SetIsFollowing()</a>.</p>
 
 </div>
 </div>
@@ -1958,7 +1958,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l20421">IsReturning()</a>, and <a class="el" href="../../#l20416">SetIsReturning()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l21277">IsReturning()</a>, and <a class="el" href="../../#l21272">SetIsReturning()</a>.</p>
 
 </div>
 </div>
@@ -1982,7 +1982,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l15667">CharmInfo()</a>, <a class="el" href="../../#l01151">GetPlayerReactState()</a>, <a class="el" href="../../#l15686">RestoreState()</a>, and <a class="el" href="../../#l01150">SetPlayerReactState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l16523">CharmInfo()</a>, <a class="el" href="../../#l01151">GetPlayerReactState()</a>, <a class="el" href="../../#l16542">RestoreState()</a>, and <a class="el" href="../../#l01150">SetPlayerReactState()</a>.</p>
 
 </div>
 </div>
@@ -2006,7 +2006,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l01099">GetPetNumber()</a>, and <a class="el" href="../../#l15864">SetPetNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01099">GetPetNumber()</a>, and <a class="el" href="../../#l16720">SetPetNumber()</a>.</p>
 
 </div>
 </div>
@@ -2030,7 +2030,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l20377">GetStayPosition()</a>, <a class="el" href="../../#l20391">HasStayPosition()</a>, <a class="el" href="../../#l20384">RemoveStayPosition()</a>, and <a class="el" href="../../#l20354">SaveStayPosition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l21233">GetStayPosition()</a>, <a class="el" href="../../#l21247">HasStayPosition()</a>, <a class="el" href="../../#l21240">RemoveStayPosition()</a>, and <a class="el" href="../../#l21210">SaveStayPosition()</a>.</p>
 
 </div>
 </div>
@@ -2054,7 +2054,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l20377">GetStayPosition()</a>, <a class="el" href="../../#l20391">HasStayPosition()</a>, <a class="el" href="../../#l20384">RemoveStayPosition()</a>, and <a class="el" href="../../#l20354">SaveStayPosition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l21233">GetStayPosition()</a>, <a class="el" href="../../#l21247">HasStayPosition()</a>, <a class="el" href="../../#l21240">RemoveStayPosition()</a>, and <a class="el" href="../../#l21210">SaveStayPosition()</a>.</p>
 
 </div>
 </div>
@@ -2078,7 +2078,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l20377">GetStayPosition()</a>, <a class="el" href="../../#l20391">HasStayPosition()</a>, <a class="el" href="../../#l20384">RemoveStayPosition()</a>, and <a class="el" href="../../#l20354">SaveStayPosition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l21233">GetStayPosition()</a>, <a class="el" href="../../#l21247">HasStayPosition()</a>, <a class="el" href="../../#l21240">RemoveStayPosition()</a>, and <a class="el" href="../../#l21210">SaveStayPosition()</a>.</p>
 
 </div>
 </div>
@@ -2102,7 +2102,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l15667">CharmInfo()</a>, <a class="el" href="../../#l15753">InitCharmCreateSpells()</a>, <a class="el" href="../../#l15717">InitPossessCreateSpells()</a>, <a class="el" href="../../#l15686">RestoreState()</a>, <a class="el" href="../../#l20354">SaveStayPosition()</a>, and <a class="el" href="../../#l15864">SetPetNumber()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l16523">CharmInfo()</a>, <a class="el" href="../../#l16609">InitCharmCreateSpells()</a>, <a class="el" href="../../#l16573">InitPossessCreateSpells()</a>, <a class="el" href="../../#l16542">RestoreState()</a>, <a class="el" href="../../#l21210">SaveStayPosition()</a>, and <a class="el" href="../../#l16720">SetPetNumber()</a>.</p>
 
 </div>
 </div>
@@ -2126,7 +2126,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l15805">AddSpellToActionBar()</a>, <a class="el" href="../../#l15909">BuildActionBar()</a>, <a class="el" href="../../#l01121">GetActionBarEntry()</a>, <a class="el" href="../../#l15873">LoadPetActionBar()</a>, <a class="el" href="../../#l15835">RemoveSpellFromActionBar()</a>, <a class="el" href="../../#l01117">SetActionBar()</a>, and <a class="el" href="../../#l15915">SetSpellAutocast()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l16661">AddSpellToActionBar()</a>, <a class="el" href="../../#l16765">BuildActionBar()</a>, <a class="el" href="../../#l01121">GetActionBarEntry()</a>, <a class="el" href="../../#l16729">LoadPetActionBar()</a>, <a class="el" href="../../#l16691">RemoveSpellFromActionBar()</a>, <a class="el" href="../../#l01117">SetActionBar()</a>, and <a class="el" href="../../#l16771">SetSpellAutocast()</a>.</p>
 
 </div>
 </div>
@@ -2136,7 +2136,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d9f/a08173.html">CharmInfo</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 14:44:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sat Nov 12 2022 15:54:25 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

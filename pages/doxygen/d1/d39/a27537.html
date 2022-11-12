@@ -331,31 +331,31 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  727</span>    {</div>
-<div class="line"><span class="lineno">  728</span>        <a class="code hl_function" href="../../d9/db7/a10649.html#a19e0ed231d33245849ef31acb0f2bca3">PreventDefaultAction</a>();</div>
-<div class="line"><span class="lineno">  729</span>        <span class="keywordflow">if</span> (aurEff-&gt;GetAmount() &lt;= 0)</div>
-<div class="line"><span class="lineno">  730</span>        {</div>
-<div class="line"><span class="lineno">  731</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d9/db7/a10649.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>() || !<a class="code hl_function" href="../../d9/db7/a10649.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>())</div>
-<div class="line"><span class="lineno">  732</span>            {</div>
-<div class="line"><span class="lineno">  733</span>                <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  734</span>            }</div>
-<div class="line"><span class="lineno">  735</span> </div>
-<div class="line"><span class="lineno">  736</span>            <a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* target = <a class="code hl_function" href="../../d9/db7/a10649.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>();</div>
+<div class="fragment"><div class="line"><span class="lineno">  729</span>    {</div>
+<div class="line"><span class="lineno">  730</span>        <a class="code hl_function" href="../../d9/db7/a10649.html#a19e0ed231d33245849ef31acb0f2bca3">PreventDefaultAction</a>();</div>
+<div class="line"><span class="lineno">  731</span>        <span class="keywordflow">if</span> (aurEff-&gt;GetAmount() &lt;= 0)</div>
+<div class="line"><span class="lineno">  732</span>        {</div>
+<div class="line"><span class="lineno">  733</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d9/db7/a10649.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>() || !<a class="code hl_function" href="../../d9/db7/a10649.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>())</div>
+<div class="line"><span class="lineno">  734</span>            {</div>
+<div class="line"><span class="lineno">  735</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  736</span>            }</div>
 <div class="line"><span class="lineno">  737</span> </div>
-<div class="line"><span class="lineno">  738</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId = <a class="code hl_enumvalue" href="../../d9/d81/a04157.html#a87efb4c7cf60464c813daf57f8006a7ea38571110b4e0757cb9400f8c23f34410">SPELL_HUNTER_SNIPER_TRAINING_BUFF_R1</a> + <a class="code hl_function" href="../../d9/db7/a10649.html#afca894c30f544ccf512e0966eb7e10ce">GetId</a>() - <a class="code hl_enumvalue" href="../../d9/d81/a04157.html#a87efb4c7cf60464c813daf57f8006a7ea28068379ce495b5984cad20edcd9f95c">SPELL_HUNTER_SNIPER_TRAINING_R1</a>;</div>
-<div class="line"><span class="lineno">  739</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d7/d36/a10537.html">SpellInfo</a> <span class="keyword">const</span>* triggeredSpellInfo = <a class="code hl_define" href="../../db/df6/a02138.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(spellId))</div>
-<div class="line"><span class="lineno">  740</span>            {</div>
-<div class="line"><span class="lineno">  741</span>                <a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* triggerCaster = triggeredSpellInfo-&gt;NeedsToBeTriggeredByCaster(<a class="code hl_function" href="../../d9/db7/a10649.html#a4bb3068ac63e4645787fac6ff0085662">GetSpellInfo</a>()) ? <a class="code hl_function" href="../../d9/db7/a10649.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>() : target;</div>
-<div class="line"><span class="lineno">  742</span>                triggerCaster-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, triggeredSpellInfo, <span class="keyword">true</span>, 0, aurEff);</div>
-<div class="line"><span class="lineno">  743</span>            }</div>
-<div class="line"><span class="lineno">  744</span>        }</div>
-<div class="line"><span class="lineno">  745</span>    }</div>
+<div class="line"><span class="lineno">  738</span>            <a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* target = <a class="code hl_function" href="../../d9/db7/a10649.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>();</div>
+<div class="line"><span class="lineno">  739</span> </div>
+<div class="line"><span class="lineno">  740</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId = <a class="code hl_enumvalue" href="../../d9/d81/a04157.html#a87efb4c7cf60464c813daf57f8006a7ea38571110b4e0757cb9400f8c23f34410">SPELL_HUNTER_SNIPER_TRAINING_BUFF_R1</a> + <a class="code hl_function" href="../../d9/db7/a10649.html#afca894c30f544ccf512e0966eb7e10ce">GetId</a>() - <a class="code hl_enumvalue" href="../../d9/d81/a04157.html#a87efb4c7cf60464c813daf57f8006a7ea28068379ce495b5984cad20edcd9f95c">SPELL_HUNTER_SNIPER_TRAINING_R1</a>;</div>
+<div class="line"><span class="lineno">  741</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d7/d36/a10537.html">SpellInfo</a> <span class="keyword">const</span>* triggeredSpellInfo = <a class="code hl_define" href="../../db/df6/a02138.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(spellId))</div>
+<div class="line"><span class="lineno">  742</span>            {</div>
+<div class="line"><span class="lineno">  743</span>                <a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* triggerCaster = triggeredSpellInfo-&gt;NeedsToBeTriggeredByCaster(<a class="code hl_function" href="../../d9/db7/a10649.html#a4bb3068ac63e4645787fac6ff0085662">GetSpellInfo</a>()) ? <a class="code hl_function" href="../../d9/db7/a10649.html#a67261dcb8b5f6089bdc1a906c91d61df">GetCaster</a>() : target;</div>
+<div class="line"><span class="lineno">  744</span>                triggerCaster-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, triggeredSpellInfo, <span class="keyword">true</span>, 0, aurEff);</div>
+<div class="line"><span class="lineno">  745</span>            }</div>
+<div class="line"><span class="lineno">  746</span>        }</div>
+<div class="line"><span class="lineno">  747</span>    }</div>
 <div class="ttc" id="aa00230_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
 <div class="ttc" id="aa02138_html_aa21e14d8e1145507b746a69b5487109d"><div class="ttname"><a href="../../db/df6/a02138.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a></div><div class="ttdeci">#define sSpellMgr</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:803</div></div>
-<div class="ttc" id="aa04157_html_a87efb4c7cf60464c813daf57f8006a7ea28068379ce495b5984cad20edcd9f95c"><div class="ttname"><a href="../../d9/d81/a04157.html#a87efb4c7cf60464c813daf57f8006a7ea28068379ce495b5984cad20edcd9f95c">SPELL_HUNTER_SNIPER_TRAINING_R1</a></div><div class="ttdeci">@ SPELL_HUNTER_SNIPER_TRAINING_R1</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:65</div></div>
-<div class="ttc" id="aa04157_html_a87efb4c7cf60464c813daf57f8006a7ea38571110b4e0757cb9400f8c23f34410"><div class="ttname"><a href="../../d9/d81/a04157.html#a87efb4c7cf60464c813daf57f8006a7ea38571110b4e0757cb9400f8c23f34410">SPELL_HUNTER_SNIPER_TRAINING_BUFF_R1</a></div><div class="ttdeci">@ SPELL_HUNTER_SNIPER_TRAINING_BUFF_R1</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:66</div></div>
+<div class="ttc" id="aa04157_html_a87efb4c7cf60464c813daf57f8006a7ea28068379ce495b5984cad20edcd9f95c"><div class="ttname"><a href="../../d9/d81/a04157.html#a87efb4c7cf60464c813daf57f8006a7ea28068379ce495b5984cad20edcd9f95c">SPELL_HUNTER_SNIPER_TRAINING_R1</a></div><div class="ttdeci">@ SPELL_HUNTER_SNIPER_TRAINING_R1</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:67</div></div>
+<div class="ttc" id="aa04157_html_a87efb4c7cf60464c813daf57f8006a7ea38571110b4e0757cb9400f8c23f34410"><div class="ttname"><a href="../../d9/d81/a04157.html#a87efb4c7cf60464c813daf57f8006a7ea38571110b4e0757cb9400f8c23f34410">SPELL_HUNTER_SNIPER_TRAINING_BUFF_R1</a></div><div class="ttdeci">@ SPELL_HUNTER_SNIPER_TRAINING_BUFF_R1</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:68</div></div>
 <div class="ttc" id="aa08189_html"><div class="ttname"><a href="../../df/d37/a08189.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
-<div class="ttc" id="aa08189_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../df/d37/a08189.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aa08189_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../df/d37/a08189.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1428</div></div>
 <div class="ttc" id="aa10537_html"><div class="ttname"><a href="../../d7/d36/a10537.html">SpellInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:314</div></div>
 <div class="ttc" id="aa10649_html_a19e0ed231d33245849ef31acb0f2bca3"><div class="ttname"><a href="../../d9/db7/a10649.html#a19e0ed231d33245849ef31acb0f2bca3">AuraScript::PreventDefaultAction</a></div><div class="ttdeci">void PreventDefaultAction()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:975</div></div>
 <div class="ttc" id="aa10649_html_a4bb3068ac63e4645787fac6ff0085662"><div class="ttname"><a href="../../d9/db7/a10649.html#a4bb3068ac63e4645787fac6ff0085662">AuraScript::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:995</div></div>
@@ -363,9 +363,9 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aa10649_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d9/db7/a10649.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
 <div class="ttc" id="aa10649_html_afca894c30f544ccf512e0966eb7e10ce"><div class="ttname"><a href="../../d9/db7/a10649.html#afca894c30f544ccf512e0966eb7e10ce">AuraScript::GetId</a></div><div class="ttdeci">uint32 GetId() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1000</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01168">Unit::CastSpell()</a>, <a class="el" href="../../#l00063">AuraEffect::GetAmount()</a>, <a class="el" href="../../#l01010">AuraScript::GetCaster()</a>, <a class="el" href="../../#l01000">AuraScript::GetId()</a>, <a class="el" href="../../#l00995">AuraScript::GetSpellInfo()</a>, <a class="el" href="../../#l01155">AuraScript::GetTarget()</a>, <a class="el" href="../../#l00975">AuraScript::PreventDefaultAction()</a>, <a class="el" href="../../#l00066">SPELL_HUNTER_SNIPER_TRAINING_BUFF_R1</a>, <a class="el" href="../../#l00065">SPELL_HUNTER_SNIPER_TRAINING_R1</a>, and <a class="el" href="../../#l00803">sSpellMgr</a>.</p>
+<p class="reference">References <a class="el" href="../../#l01428">Unit::CastSpell()</a>, <a class="el" href="../../#l00063">AuraEffect::GetAmount()</a>, <a class="el" href="../../#l01010">AuraScript::GetCaster()</a>, <a class="el" href="../../#l01000">AuraScript::GetId()</a>, <a class="el" href="../../#l00995">AuraScript::GetSpellInfo()</a>, <a class="el" href="../../#l01155">AuraScript::GetTarget()</a>, <a class="el" href="../../#l00975">AuraScript::PreventDefaultAction()</a>, <a class="el" href="../../#l00068">SPELL_HUNTER_SNIPER_TRAINING_BUFF_R1</a>, <a class="el" href="../../#l00067">SPELL_HUNTER_SNIPER_TRAINING_R1</a>, and <a class="el" href="../../#l00803">sSpellMgr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00759">Register()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00761">Register()</a>.</p>
 
 </div>
 </div>
@@ -392,16 +392,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  748</span>    {</div>
-<div class="line"><span class="lineno">  749</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/a08045.html">Player</a>* playerTarget = <a class="code hl_function" href="../../d9/db7/a10649.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;ToPlayer())</div>
-<div class="line"><span class="lineno">  750</span>        {</div>
-<div class="line"><span class="lineno">  751</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> baseAmount = aurEff-&gt;<a class="code hl_function" href="../../d1/d0d/a10421.html#aced766d86694ac0980a6e4f3cae77b5b">GetBaseAmount</a>();</div>
-<div class="line"><span class="lineno">  752</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> amount = playerTarget-&gt;isMoving() || aurEff-&gt;<a class="code hl_function" href="../../d1/d0d/a10421.html#afcf272bebf373ad3aebc03cce644cbee">GetAmount</a>() &lt;= 0 ?</div>
-<div class="line"><span class="lineno">  753</span>                            playerTarget-&gt;CalculateSpellDamage(playerTarget, <a class="code hl_function" href="../../d9/db7/a10649.html#a4bb3068ac63e4645787fac6ff0085662">GetSpellInfo</a>(), aurEff-&gt;<a class="code hl_function" href="../../d1/d0d/a10421.html#ab8c4811ced24cbd9b4afff1c22fbb1b0">GetEffIndex</a>(), &amp;baseAmount) :</div>
-<div class="line"><span class="lineno">  754</span>                            aurEff-&gt;<a class="code hl_function" href="../../d1/d0d/a10421.html#afcf272bebf373ad3aebc03cce644cbee">GetAmount</a>() - 1;</div>
-<div class="line"><span class="lineno">  755</span>            aurEff-&gt;<a class="code hl_function" href="../../d1/d0d/a10421.html#a9790b9f33c52c6d3b830dc6f56f08bf0">SetAmount</a>(amount);</div>
-<div class="line"><span class="lineno">  756</span>        }</div>
-<div class="line"><span class="lineno">  757</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  750</span>    {</div>
+<div class="line"><span class="lineno">  751</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/a08045.html">Player</a>* playerTarget = <a class="code hl_function" href="../../d9/db7/a10649.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;ToPlayer())</div>
+<div class="line"><span class="lineno">  752</span>        {</div>
+<div class="line"><span class="lineno">  753</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> baseAmount = aurEff-&gt;<a class="code hl_function" href="../../d1/d0d/a10421.html#aced766d86694ac0980a6e4f3cae77b5b">GetBaseAmount</a>();</div>
+<div class="line"><span class="lineno">  754</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> amount = playerTarget-&gt;isMoving() || aurEff-&gt;<a class="code hl_function" href="../../d1/d0d/a10421.html#afcf272bebf373ad3aebc03cce644cbee">GetAmount</a>() &lt;= 0 ?</div>
+<div class="line"><span class="lineno">  755</span>                            playerTarget-&gt;CalculateSpellDamage(playerTarget, <a class="code hl_function" href="../../d9/db7/a10649.html#a4bb3068ac63e4645787fac6ff0085662">GetSpellInfo</a>(), aurEff-&gt;<a class="code hl_function" href="../../d1/d0d/a10421.html#ab8c4811ced24cbd9b4afff1c22fbb1b0">GetEffIndex</a>(), &amp;baseAmount) :</div>
+<div class="line"><span class="lineno">  756</span>                            aurEff-&gt;<a class="code hl_function" href="../../d1/d0d/a10421.html#afcf272bebf373ad3aebc03cce644cbee">GetAmount</a>() - 1;</div>
+<div class="line"><span class="lineno">  757</span>            aurEff-&gt;<a class="code hl_function" href="../../d1/d0d/a10421.html#a9790b9f33c52c6d3b830dc6f56f08bf0">SetAmount</a>(amount);</div>
+<div class="line"><span class="lineno">  758</span>        }</div>
+<div class="line"><span class="lineno">  759</span>    }</div>
 <div class="ttc" id="aa00230_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
 <div class="ttc" id="aa08045_html"><div class="ttname"><a href="../../d8/d83/a08045.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
 <div class="ttc" id="aa10421_html_a9790b9f33c52c6d3b830dc6f56f08bf0"><div class="ttname"><a href="../../d1/d0d/a10421.html#a9790b9f33c52c6d3b830dc6f56f08bf0">AuraEffect::SetAmount</a></div><div class="ttdeci">void SetAmount(int32 amount)</div><div class="ttdef"><b>Definition:</b> SpellAuraEffects.h:65</div></div>
@@ -412,7 +412,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00063">AuraEffect::GetAmount()</a>, <a class="el" href="../../#l00057">AuraEffect::GetBaseAmount()</a>, <a class="el" href="../../#l00056">AuraEffect::GetEffIndex()</a>, <a class="el" href="../../#l00995">AuraScript::GetSpellInfo()</a>, <a class="el" href="../../#l01020">AuraScript::GetUnitOwner()</a>, and <a class="el" href="../../#l00065">AuraEffect::SetAmount()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00759">Register()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00761">Register()</a>.</p>
 
 </div>
 </div>
@@ -466,20 +466,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d8/d12/a10593.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  760</span>    {</div>
-<div class="line"><span class="lineno">  761</span>        <a class="code hl_variable" href="../../d9/db7/a10649.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a>(<a class="code hl_function" href="../../d1/d39/a27537.html#acba5d68c19e68361c088e50f9b831bff">spell_hun_sniper_training::HandlePeriodic</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d9/dff/a02099.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a>);</div>
-<div class="line"><span class="lineno">  762</span>        <a class="code hl_variable" href="../../d9/db7/a10649.html#a6baf2932d6e9170f5dc3aa969e6f0396">OnEffectUpdatePeriodic</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a715640892166108a23f30ed68346d395">AuraEffectUpdatePeriodicFn</a>(<a class="code hl_function" href="../../d1/d39/a27537.html#af27c6dfccb12f1ba52d170da5d9228f9">spell_hun_sniper_training::HandleUpdatePeriodic</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d9/dff/a02099.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a>);</div>
-<div class="line"><span class="lineno">  763</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  762</span>    {</div>
+<div class="line"><span class="lineno">  763</span>        <a class="code hl_variable" href="../../d9/db7/a10649.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a>(<a class="code hl_function" href="../../d1/d39/a27537.html#acba5d68c19e68361c088e50f9b831bff">spell_hun_sniper_training::HandlePeriodic</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d9/dff/a02099.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a>);</div>
+<div class="line"><span class="lineno">  764</span>        <a class="code hl_variable" href="../../d9/db7/a10649.html#a6baf2932d6e9170f5dc3aa969e6f0396">OnEffectUpdatePeriodic</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a715640892166108a23f30ed68346d395">AuraEffectUpdatePeriodicFn</a>(<a class="code hl_function" href="../../d1/d39/a27537.html#af27c6dfccb12f1ba52d170da5d9228f9">spell_hun_sniper_training::HandleUpdatePeriodic</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d9/dff/a02099.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a>);</div>
+<div class="line"><span class="lineno">  765</span>    }</div>
 <div class="ttc" id="aa02099_html_a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad"><div class="ttname"><a href="../../d9/dff/a02099.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_TRIGGER_SPELL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:86</div></div>
 <div class="ttc" id="aa02144_html_a63dd33eaa91292bfb53b1d9f2b0eba29"><div class="ttname"><a href="../../dc/d29/a02144.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a></div><div class="ttdeci">#define AuraEffectPeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:750</div></div>
 <div class="ttc" id="aa02144_html_a715640892166108a23f30ed68346d395"><div class="ttname"><a href="../../dc/d29/a02144.html#a715640892166108a23f30ed68346d395">AuraEffectUpdatePeriodicFn</a></div><div class="ttdeci">#define AuraEffectUpdatePeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:756</div></div>
 <div class="ttc" id="aa04307_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
 <div class="ttc" id="aa10649_html_a491e7fc0a1acd202b60fa1aed79a9377"><div class="ttname"><a href="../../d9/db7/a10649.html#a491e7fc0a1acd202b60fa1aed79a9377">AuraScript::OnEffectPeriodic</a></div><div class="ttdeci">HookList&lt; EffectPeriodicHandler &gt; OnEffectPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:749</div></div>
 <div class="ttc" id="aa10649_html_a6baf2932d6e9170f5dc3aa969e6f0396"><div class="ttname"><a href="../../d9/db7/a10649.html#a6baf2932d6e9170f5dc3aa969e6f0396">AuraScript::OnEffectUpdatePeriodic</a></div><div class="ttdeci">HookList&lt; EffectUpdatePeriodicHandler &gt; OnEffectUpdatePeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:755</div></div>
-<div class="ttc" id="aa27537_html_acba5d68c19e68361c088e50f9b831bff"><div class="ttname"><a href="../../d1/d39/a27537.html#acba5d68c19e68361c088e50f9b831bff">spell_hun_sniper_training::HandlePeriodic</a></div><div class="ttdeci">void HandlePeriodic(AuraEffect const *aurEff)</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:726</div></div>
-<div class="ttc" id="aa27537_html_af27c6dfccb12f1ba52d170da5d9228f9"><div class="ttname"><a href="../../d1/d39/a27537.html#af27c6dfccb12f1ba52d170da5d9228f9">spell_hun_sniper_training::HandleUpdatePeriodic</a></div><div class="ttdeci">void HandleUpdatePeriodic(AuraEffect *aurEff)</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:747</div></div>
+<div class="ttc" id="aa27537_html_acba5d68c19e68361c088e50f9b831bff"><div class="ttname"><a href="../../d1/d39/a27537.html#acba5d68c19e68361c088e50f9b831bff">spell_hun_sniper_training::HandlePeriodic</a></div><div class="ttdeci">void HandlePeriodic(AuraEffect const *aurEff)</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:728</div></div>
+<div class="ttc" id="aa27537_html_af27c6dfccb12f1ba52d170da5d9228f9"><div class="ttname"><a href="../../d1/d39/a27537.html#af27c6dfccb12f1ba52d170da5d9228f9">spell_hun_sniper_training::HandleUpdatePeriodic</a></div><div class="ttdeci">void HandleUpdatePeriodic(AuraEffect *aurEff)</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:749</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00750">AuraEffectPeriodicFn</a>, <a class="el" href="../../#l00756">AuraEffectUpdatePeriodicFn</a>, <a class="el" href="../../#l00030">EFFECT_0</a>, <a class="el" href="../../#l00726">HandlePeriodic()</a>, <a class="el" href="../../#l00747">HandleUpdatePeriodic()</a>, <a class="el" href="../../#l00749">AuraScript::OnEffectPeriodic</a>, <a class="el" href="../../#l00755">AuraScript::OnEffectUpdatePeriodic</a>, and <a class="el" href="../../#l00086">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00750">AuraEffectPeriodicFn</a>, <a class="el" href="../../#l00756">AuraEffectUpdatePeriodicFn</a>, <a class="el" href="../../#l00030">EFFECT_0</a>, <a class="el" href="../../#l00728">HandlePeriodic()</a>, <a class="el" href="../../#l00749">HandleUpdatePeriodic()</a>, <a class="el" href="../../#l00749">AuraScript::OnEffectPeriodic</a>, <a class="el" href="../../#l00755">AuraScript::OnEffectUpdatePeriodic</a>, and <a class="el" href="../../#l00086">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a>.</p>
 
 </div>
 </div>
@@ -508,12 +508,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d12/a10593.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  722</span>    {</div>
-<div class="line"><span class="lineno">  723</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/d12/a10593.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>({ <a class="code hl_enumvalue" href="../../d9/d81/a04157.html#a87efb4c7cf60464c813daf57f8006a7ea28068379ce495b5984cad20edcd9f95c">SPELL_HUNTER_SNIPER_TRAINING_R1</a>, <a class="code hl_enumvalue" href="../../d9/d81/a04157.html#a87efb4c7cf60464c813daf57f8006a7ea38571110b4e0757cb9400f8c23f34410">SPELL_HUNTER_SNIPER_TRAINING_BUFF_R1</a> });</div>
-<div class="line"><span class="lineno">  724</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  724</span>    {</div>
+<div class="line"><span class="lineno">  725</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/d12/a10593.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>({ <a class="code hl_enumvalue" href="../../d9/d81/a04157.html#a87efb4c7cf60464c813daf57f8006a7ea28068379ce495b5984cad20edcd9f95c">SPELL_HUNTER_SNIPER_TRAINING_R1</a>, <a class="code hl_enumvalue" href="../../d9/d81/a04157.html#a87efb4c7cf60464c813daf57f8006a7ea38571110b4e0757cb9400f8c23f34410">SPELL_HUNTER_SNIPER_TRAINING_BUFF_R1</a> });</div>
+<div class="line"><span class="lineno">  726</span>    }</div>
 <div class="ttc" id="aa10593_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d8/d12/a10593.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00066">SPELL_HUNTER_SNIPER_TRAINING_BUFF_R1</a>, <a class="el" href="../../#l00065">SPELL_HUNTER_SNIPER_TRAINING_R1</a>, and <a class="el" href="../../#l00125">_SpellScript::ValidateSpellInfo()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00068">SPELL_HUNTER_SNIPER_TRAINING_BUFF_R1</a>, <a class="el" href="../../#l00067">SPELL_HUNTER_SNIPER_TRAINING_R1</a>, and <a class="el" href="../../#l00125">_SpellScript::ValidateSpellInfo()</a>.</p>
 
 </div>
 </div>
@@ -523,7 +523,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d39/a27537.html">spell_hun_sniper_training</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 14:44:41 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sat Nov 12 2022 15:54:53 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

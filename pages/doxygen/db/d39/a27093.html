@@ -315,11 +315,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  695</span>    {</div>
-<div class="line"><span class="lineno">  696</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;getLevel() &lt; <a class="code hl_function" href="../../d6/d4c/a10609.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;BaseLevel)</div>
-<div class="line"><span class="lineno">  697</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daa085abedc4e6cf79dbcbeb3308defe43b">SPELL_FAILED_LEVEL_REQUIREMENT</a>;</div>
-<div class="line"><span class="lineno">  698</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6">SPELL_CAST_OK</a>;</div>
-<div class="line"><span class="lineno">  699</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  697</span>    {</div>
+<div class="line"><span class="lineno">  698</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;getLevel() &lt; <a class="code hl_function" href="../../d6/d4c/a10609.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;BaseLevel)</div>
+<div class="line"><span class="lineno">  699</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daa085abedc4e6cf79dbcbeb3308defe43b">SPELL_FAILED_LEVEL_REQUIREMENT</a>;</div>
+<div class="line"><span class="lineno">  700</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6">SPELL_CAST_OK</a>;</div>
+<div class="line"><span class="lineno">  701</span>    }</div>
 <div class="ttc" id="aa04307_html_ade9b4e913a84079f5311c2817e3de9daa085abedc4e6cf79dbcbeb3308defe43b"><div class="ttname"><a href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daa085abedc4e6cf79dbcbeb3308defe43b">SPELL_FAILED_LEVEL_REQUIREMENT</a></div><div class="ttdeci">@ SPELL_FAILED_LEVEL_REQUIREMENT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:967</div></div>
 <div class="ttc" id="aa04307_html_ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6"><div class="ttname"><a href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6">SPELL_CAST_OK</a></div><div class="ttdeci">@ SPELL_CAST_OK</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1110</div></div>
 <div class="ttc" id="aa10609_html_a3fa31d3b29c52993d3561fad3cd12af3"><div class="ttname"><a href="../../d6/d4c/a10609.html#a3fa31d3b29c52993d3561fad3cd12af3">SpellScript::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:411</div></div>
@@ -353,9 +353,9 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d8/d12/a10593.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  702</span>    {</div>
-<div class="line"><span class="lineno">  703</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a1212a7fd9c9b531c13d5781f60b05590">OnCheckCast</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a44cc78b7e05a8f3b83e430f5115a2183">SpellCheckCastFn</a>(spell_gen_use_spell_base_level_check::CheckRequirement);</div>
-<div class="line"><span class="lineno">  704</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  704</span>    {</div>
+<div class="line"><span class="lineno">  705</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a1212a7fd9c9b531c13d5781f60b05590">OnCheckCast</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a44cc78b7e05a8f3b83e430f5115a2183">SpellCheckCastFn</a>(spell_gen_use_spell_base_level_check::CheckRequirement);</div>
+<div class="line"><span class="lineno">  706</span>    }</div>
 <div class="ttc" id="aa02144_html_a44cc78b7e05a8f3b83e430f5115a2183"><div class="ttname"><a href="../../dc/d29/a02144.html#a44cc78b7e05a8f3b83e430f5115a2183">SpellCheckCastFn</a></div><div class="ttdeci">#define SpellCheckCastFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:329</div></div>
 <div class="ttc" id="aa10609_html_a1212a7fd9c9b531c13d5781f60b05590"><div class="ttname"><a href="../../d6/d4c/a10609.html#a1212a7fd9c9b531c13d5781f60b05590">SpellScript::OnCheckCast</a></div><div class="ttdeci">HookList&lt; CheckCastHandler &gt; OnCheckCast</div><div class="ttdef"><b>Definition:</b> SpellScript.h:328</div></div>
 </div><!-- fragment -->
@@ -369,7 +369,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d39/a27093.html">spell_gen_use_spell_base_level_check</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 14:44:40 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sat Nov 12 2022 15:54:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

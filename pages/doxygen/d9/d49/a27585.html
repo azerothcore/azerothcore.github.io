@@ -316,27 +316,27 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1283</span>    {</div>
-<div class="line"><span class="lineno"> 1284</span>        <a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* caster = <a class="code hl_function" href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
-<div class="line"><span class="lineno"> 1285</span>        <span class="keywordflow">if</span> (!caster || caster-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() != <a class="code hl_enumvalue" href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
-<div class="line"><span class="lineno"> 1286</span>        {</div>
-<div class="line"><span class="lineno"> 1287</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daadc985285c21330c1128eca233241f835">SPELL_FAILED_NO_VALID_TARGETS</a>;</div>
-<div class="line"><span class="lineno"> 1288</span>        }</div>
-<div class="line"><span class="lineno"> 1289</span> </div>
-<div class="line"><span class="lineno"> 1290</span>        <a class="code hl_class" href="../../d8/d4e/a07917.html">Pet</a>* pet = caster-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d83/a08045.html#a5eef7fef24e4a9269d1ee834bc2bd501">GetPet</a>();</div>
-<div class="line"><span class="lineno"> 1291</span>        <span class="keywordflow">if</span> (!pet)</div>
-<div class="line"><span class="lineno"> 1292</span>        {</div>
-<div class="line"><span class="lineno"> 1293</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daaefb143fec77b4fcde0bc45deb3c38b7c">SPELL_FAILED_NO_PET</a>;</div>
-<div class="line"><span class="lineno"> 1294</span>        }</div>
-<div class="line"><span class="lineno"> 1295</span> </div>
-<div class="line"><span class="lineno"> 1296</span>        <span class="keywordflow">if</span> (!pet-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
-<div class="line"><span class="lineno"> 1297</span>        {</div>
-<div class="line"><span class="lineno"> 1298</span>            <a class="code hl_function" href="../../d6/d4c/a10609.html#a94442322faef9f04890b18a421067150">SetCustomCastResultMessage</a>(<a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a9c096b84b85e3654d920bcf353d0946fa3c4ea34822f548a25b8c5237a5405268">SPELL_CUSTOM_ERROR_PET_IS_DEAD</a>);</div>
-<div class="line"><span class="lineno"> 1299</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daa3edca33213e571cce6e1c1039ee33751">SPELL_FAILED_CUSTOM_ERROR</a>;</div>
-<div class="line"><span class="lineno"> 1300</span>        }</div>
-<div class="line"><span class="lineno"> 1301</span> </div>
-<div class="line"><span class="lineno"> 1302</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6">SPELL_CAST_OK</a>;</div>
-<div class="line"><span class="lineno"> 1303</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 1285</span>    {</div>
+<div class="line"><span class="lineno"> 1286</span>        <a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* caster = <a class="code hl_function" href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno"> 1287</span>        <span class="keywordflow">if</span> (!caster || caster-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() != <a class="code hl_enumvalue" href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno"> 1288</span>        {</div>
+<div class="line"><span class="lineno"> 1289</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daadc985285c21330c1128eca233241f835">SPELL_FAILED_NO_VALID_TARGETS</a>;</div>
+<div class="line"><span class="lineno"> 1290</span>        }</div>
+<div class="line"><span class="lineno"> 1291</span> </div>
+<div class="line"><span class="lineno"> 1292</span>        <a class="code hl_class" href="../../d8/d4e/a07917.html">Pet</a>* pet = caster-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d83/a08045.html#a5eef7fef24e4a9269d1ee834bc2bd501">GetPet</a>();</div>
+<div class="line"><span class="lineno"> 1293</span>        <span class="keywordflow">if</span> (!pet)</div>
+<div class="line"><span class="lineno"> 1294</span>        {</div>
+<div class="line"><span class="lineno"> 1295</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daaefb143fec77b4fcde0bc45deb3c38b7c">SPELL_FAILED_NO_PET</a>;</div>
+<div class="line"><span class="lineno"> 1296</span>        }</div>
+<div class="line"><span class="lineno"> 1297</span> </div>
+<div class="line"><span class="lineno"> 1298</span>        <span class="keywordflow">if</span> (!pet-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno"> 1299</span>        {</div>
+<div class="line"><span class="lineno"> 1300</span>            <a class="code hl_function" href="../../d6/d4c/a10609.html#a94442322faef9f04890b18a421067150">SetCustomCastResultMessage</a>(<a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a9c096b84b85e3654d920bcf353d0946fa3c4ea34822f548a25b8c5237a5405268">SPELL_CUSTOM_ERROR_PET_IS_DEAD</a>);</div>
+<div class="line"><span class="lineno"> 1301</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daa3edca33213e571cce6e1c1039ee33751">SPELL_FAILED_CUSTOM_ERROR</a>;</div>
+<div class="line"><span class="lineno"> 1302</span>        }</div>
+<div class="line"><span class="lineno"> 1303</span> </div>
+<div class="line"><span class="lineno"> 1304</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6">SPELL_CAST_OK</a>;</div>
+<div class="line"><span class="lineno"> 1305</span>    }</div>
 <div class="ttc" id="aa01208_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
 <div class="ttc" id="aa04307_html_a9c096b84b85e3654d920bcf353d0946fa3c4ea34822f548a25b8c5237a5405268"><div class="ttname"><a href="../../d9/d4e/a04307.html#a9c096b84b85e3654d920bcf353d0946fa3c4ea34822f548a25b8c5237a5405268">SPELL_CUSTOM_ERROR_PET_IS_DEAD</a></div><div class="ttdeci">@ SPELL_CUSTOM_ERROR_PET_IS_DEAD</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1178</div></div>
 <div class="ttc" id="aa04307_html_ade9b4e913a84079f5311c2817e3de9daa3edca33213e571cce6e1c1039ee33751"><div class="ttname"><a href="../../d9/d4e/a04307.html#ade9b4e913a84079f5311c2817e3de9daa3edca33213e571cce6e1c1039ee33751">SPELL_FAILED_CUSTOM_ERROR</a></div><div class="ttdeci">@ SPELL_FAILED_CUSTOM_ERROR</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1093</div></div>
@@ -346,15 +346,15 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aa07805_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../df/d6f/a07805.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
 <div class="ttc" id="aa07805_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../df/d6f/a07805.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
 <div class="ttc" id="aa07917_html"><div class="ttname"><a href="../../d8/d4e/a07917.html">Pet</a></div><div class="ttdef"><b>Definition:</b> Pet.h:40</div></div>
-<div class="ttc" id="aa08045_html_a5eef7fef24e4a9269d1ee834bc2bd501"><div class="ttname"><a href="../../d8/d83/a08045.html#a5eef7fef24e4a9269d1ee834bc2bd501">Player::GetPet</a></div><div class="ttdeci">Pet * GetPet() const</div><div class="ttdef"><b>Definition:</b> Player.cpp:8764</div></div>
+<div class="ttc" id="aa08045_html_a5eef7fef24e4a9269d1ee834bc2bd501"><div class="ttname"><a href="../../d8/d83/a08045.html#a5eef7fef24e4a9269d1ee834bc2bd501">Player::GetPet</a></div><div class="ttdeci">Pet * GetPet() const</div><div class="ttdef"><b>Definition:</b> Player.cpp:8766</div></div>
 <div class="ttc" id="aa08189_html"><div class="ttname"><a href="../../df/d37/a08189.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
-<div class="ttc" id="aa08189_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../df/d37/a08189.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aa08189_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../df/d37/a08189.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:2024</div></div>
 <div class="ttc" id="aa10609_html_a94442322faef9f04890b18a421067150"><div class="ttname"><a href="../../d6/d4c/a10609.html#a94442322faef9f04890b18a421067150">SpellScript::SetCustomCastResultMessage</a></div><div class="ttdeci">void SetCustomCastResultMessage(SpellCustomErrors result)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:646</div></div>
 <div class="ttc" id="aa10609_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00401">SpellScript::GetCaster()</a>, <a class="el" href="../../#l08764">Player::GetPet()</a>, <a class="el" href="../../#l00121">Object::GetTypeId()</a>, <a class="el" href="../../#l01805">Unit::IsAlive()</a>, <a class="el" href="../../#l00646">SpellScript::SetCustomCastResultMessage()</a>, <a class="el" href="../../#l01110">SPELL_CAST_OK</a>, <a class="el" href="../../#l01178">SPELL_CUSTOM_ERROR_PET_IS_DEAD</a>, <a class="el" href="../../#l01093">SPELL_FAILED_CUSTOM_ERROR</a>, <a class="el" href="../../#l01005">SPELL_FAILED_NO_PET</a>, <a class="el" href="../../#l01099">SPELL_FAILED_NO_VALID_TARGETS</a>, <a class="el" href="../../#l00195">Object::ToPlayer()</a>, and <a class="el" href="../../#l00038">TYPEID_PLAYER</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00401">SpellScript::GetCaster()</a>, <a class="el" href="../../#l08766">Player::GetPet()</a>, <a class="el" href="../../#l00121">Object::GetTypeId()</a>, <a class="el" href="../../#l02024">Unit::IsAlive()</a>, <a class="el" href="../../#l00646">SpellScript::SetCustomCastResultMessage()</a>, <a class="el" href="../../#l01110">SPELL_CAST_OK</a>, <a class="el" href="../../#l01178">SPELL_CUSTOM_ERROR_PET_IS_DEAD</a>, <a class="el" href="../../#l01093">SPELL_FAILED_CUSTOM_ERROR</a>, <a class="el" href="../../#l01005">SPELL_FAILED_NO_PET</a>, <a class="el" href="../../#l01099">SPELL_FAILED_NO_VALID_TARGETS</a>, <a class="el" href="../../#l00195">Object::ToPlayer()</a>, and <a class="el" href="../../#l00038">TYPEID_PLAYER</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l01305">Register()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01307">Register()</a>.</p>
 
 </div>
 </div>
@@ -408,14 +408,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d8/d12/a10593.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1306</span>    {</div>
-<div class="line"><span class="lineno"> 1307</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a1212a7fd9c9b531c13d5781f60b05590">OnCheckCast</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a44cc78b7e05a8f3b83e430f5115a2183">SpellCheckCastFn</a>(<a class="code hl_function" href="../../d9/d49/a27585.html#ac1bc3f881c31c5ab90785a62a5f5b5ae">spell_hun_bestial_wrath::CheckCast</a>);</div>
-<div class="line"><span class="lineno"> 1308</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 1308</span>    {</div>
+<div class="line"><span class="lineno"> 1309</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a1212a7fd9c9b531c13d5781f60b05590">OnCheckCast</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a44cc78b7e05a8f3b83e430f5115a2183">SpellCheckCastFn</a>(<a class="code hl_function" href="../../d9/d49/a27585.html#ac1bc3f881c31c5ab90785a62a5f5b5ae">spell_hun_bestial_wrath::CheckCast</a>);</div>
+<div class="line"><span class="lineno"> 1310</span>    }</div>
 <div class="ttc" id="aa02144_html_a44cc78b7e05a8f3b83e430f5115a2183"><div class="ttname"><a href="../../dc/d29/a02144.html#a44cc78b7e05a8f3b83e430f5115a2183">SpellCheckCastFn</a></div><div class="ttdeci">#define SpellCheckCastFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:329</div></div>
 <div class="ttc" id="aa10609_html_a1212a7fd9c9b531c13d5781f60b05590"><div class="ttname"><a href="../../d6/d4c/a10609.html#a1212a7fd9c9b531c13d5781f60b05590">SpellScript::OnCheckCast</a></div><div class="ttdeci">HookList&lt; CheckCastHandler &gt; OnCheckCast</div><div class="ttdef"><b>Definition:</b> SpellScript.h:328</div></div>
-<div class="ttc" id="aa27585_html_ac1bc3f881c31c5ab90785a62a5f5b5ae"><div class="ttname"><a href="../../d9/d49/a27585.html#ac1bc3f881c31c5ab90785a62a5f5b5ae">spell_hun_bestial_wrath::CheckCast</a></div><div class="ttdeci">SpellCastResult CheckCast()</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:1282</div></div>
+<div class="ttc" id="aa27585_html_ac1bc3f881c31c5ab90785a62a5f5b5ae"><div class="ttname"><a href="../../d9/d49/a27585.html#ac1bc3f881c31c5ab90785a62a5f5b5ae">spell_hun_bestial_wrath::CheckCast</a></div><div class="ttdeci">SpellCastResult CheckCast()</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:1284</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01282">CheckCast()</a>, <a class="el" href="../../#l00328">SpellScript::OnCheckCast</a>, and <a class="el" href="../../#l00329">SpellCheckCastFn</a>.</p>
+<p class="reference">References <a class="el" href="../../#l01284">CheckCast()</a>, <a class="el" href="../../#l00328">SpellScript::OnCheckCast</a>, and <a class="el" href="../../#l00329">SpellCheckCastFn</a>.</p>
 
 </div>
 </div>
@@ -425,7 +425,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d49/a27585.html">spell_hun_bestial_wrath</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 14:44:40 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sat Nov 12 2022 15:54:53 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

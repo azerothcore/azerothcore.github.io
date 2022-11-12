@@ -316,27 +316,27 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 4340</span>    {</div>
-<div class="line"><span class="lineno"> 4341</span>        <a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* caster = <a class="code hl_function" href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
-<div class="line"><span class="lineno"> 4342</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/a08045.html">Player</a>* owner = caster-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#a3bd4bddb1a2ef1b1aaf427576b78a683">GetCharmerOrOwnerPlayerOrPlayerItself</a>())</div>
-<div class="line"><span class="lineno"> 4343</span>        {</div>
-<div class="line"><span class="lineno"> 4344</span>            <a class="code hl_class" href="../../d1/d0c/a10341.html">WorldPacket</a> data;</div>
-<div class="line"><span class="lineno"> 4345</span>            caster-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#aa17126e9f3cf60c0baea35ff9406b522">BuildCooldownPacket</a>(data, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a7cf8dcf8ef7984bd27584b93d9fac4e3a91b5375b6d01dcf322150126fb2018ae">SPELL_COOLDOWN_FLAG_NONE</a>, <a class="code hl_function" href="../../d6/d4c/a10609.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;Id, <a class="code hl_function" href="../../d6/d4c/a10609.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;RecoveryTime);</div>
-<div class="line"><span class="lineno"> 4346</span>            owner-&gt;SendDirectMessage(&amp;data);</div>
-<div class="line"><span class="lineno"> 4347</span>        }</div>
-<div class="line"><span class="lineno"> 4348</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 4342</span>    {</div>
+<div class="line"><span class="lineno"> 4343</span>        <a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* caster = <a class="code hl_function" href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno"> 4344</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/a08045.html">Player</a>* owner = caster-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#a3bd4bddb1a2ef1b1aaf427576b78a683">GetCharmerOrOwnerPlayerOrPlayerItself</a>())</div>
+<div class="line"><span class="lineno"> 4345</span>        {</div>
+<div class="line"><span class="lineno"> 4346</span>            <a class="code hl_class" href="../../d1/d0c/a10341.html">WorldPacket</a> data;</div>
+<div class="line"><span class="lineno"> 4347</span>            caster-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#aa17126e9f3cf60c0baea35ff9406b522">BuildCooldownPacket</a>(data, <a class="code hl_enumvalue" href="../../dc/dd9/a01328.html#a7cf8dcf8ef7984bd27584b93d9fac4e3a91b5375b6d01dcf322150126fb2018ae">SPELL_COOLDOWN_FLAG_NONE</a>, <a class="code hl_function" href="../../d6/d4c/a10609.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;Id, <a class="code hl_function" href="../../d6/d4c/a10609.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;RecoveryTime);</div>
+<div class="line"><span class="lineno"> 4348</span>            owner-&gt;SendDirectMessage(&amp;data);</div>
+<div class="line"><span class="lineno"> 4349</span>        }</div>
+<div class="line"><span class="lineno"> 4350</span>    }</div>
 <div class="ttc" id="aa01328_html_a7cf8dcf8ef7984bd27584b93d9fac4e3a91b5375b6d01dcf322150126fb2018ae"><div class="ttname"><a href="../../dc/dd9/a01328.html#a7cf8dcf8ef7984bd27584b93d9fac4e3a91b5375b6d01dcf322150126fb2018ae">SPELL_COOLDOWN_FLAG_NONE</a></div><div class="ttdeci">@ SPELL_COOLDOWN_FLAG_NONE</div><div class="ttdef"><b>Definition:</b> Unit.h:1230</div></div>
 <div class="ttc" id="aa08045_html"><div class="ttname"><a href="../../d8/d83/a08045.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
 <div class="ttc" id="aa08189_html"><div class="ttname"><a href="../../df/d37/a08189.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
-<div class="ttc" id="aa08189_html_a3bd4bddb1a2ef1b1aaf427576b78a683"><div class="ttname"><a href="../../df/d37/a08189.html#a3bd4bddb1a2ef1b1aaf427576b78a683">Unit::GetCharmerOrOwnerPlayerOrPlayerItself</a></div><div class="ttdeci">Player * GetCharmerOrOwnerPlayerOrPlayerItself() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10564</div></div>
-<div class="ttc" id="aa08189_html_aa17126e9f3cf60c0baea35ff9406b522"><div class="ttname"><a href="../../df/d37/a08189.html#aa17126e9f3cf60c0baea35ff9406b522">Unit::BuildCooldownPacket</a></div><div class="ttdeci">void BuildCooldownPacket(WorldPacket &amp;data, uint8 flags, uint32 spellId, uint32 cooldown)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:21001</div></div>
+<div class="ttc" id="aa08189_html_a3bd4bddb1a2ef1b1aaf427576b78a683"><div class="ttname"><a href="../../df/d37/a08189.html#a3bd4bddb1a2ef1b1aaf427576b78a683">Unit::GetCharmerOrOwnerPlayerOrPlayerItself</a></div><div class="ttdeci">Player * GetCharmerOrOwnerPlayerOrPlayerItself() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:11420</div></div>
+<div class="ttc" id="aa08189_html_aa17126e9f3cf60c0baea35ff9406b522"><div class="ttname"><a href="../../df/d37/a08189.html#aa17126e9f3cf60c0baea35ff9406b522">Unit::BuildCooldownPacket</a></div><div class="ttdeci">void BuildCooldownPacket(WorldPacket &amp;data, uint8 flags, uint32 spellId, uint32 cooldown)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:21857</div></div>
 <div class="ttc" id="aa10341_html"><div class="ttname"><a href="../../d1/d0c/a10341.html">WorldPacket</a></div><div class="ttdef"><b>Definition:</b> WorldPacket.h:27</div></div>
 <div class="ttc" id="aa10609_html_a3fa31d3b29c52993d3561fad3cd12af3"><div class="ttname"><a href="../../d6/d4c/a10609.html#a3fa31d3b29c52993d3561fad3cd12af3">SpellScript::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:411</div></div>
 <div class="ttc" id="aa10609_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l21001">Unit::BuildCooldownPacket()</a>, <a class="el" href="../../#l00401">SpellScript::GetCaster()</a>, <a class="el" href="../../#l10564">Unit::GetCharmerOrOwnerPlayerOrPlayerItself()</a>, <a class="el" href="../../#l00411">SpellScript::GetSpellInfo()</a>, and <a class="el" href="../../#l01230">SPELL_COOLDOWN_FLAG_NONE</a>.</p>
+<p class="reference">References <a class="el" href="../../#l21857">Unit::BuildCooldownPacket()</a>, <a class="el" href="../../#l00401">SpellScript::GetCaster()</a>, <a class="el" href="../../#l11420">Unit::GetCharmerOrOwnerPlayerOrPlayerItself()</a>, <a class="el" href="../../#l00411">SpellScript::GetSpellInfo()</a>, and <a class="el" href="../../#l01230">SPELL_COOLDOWN_FLAG_NONE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l04350">Register()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l04352">Register()</a>.</p>
 
 </div>
 </div>
@@ -390,14 +390,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d8/d12/a10593.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 4351</span>    {</div>
-<div class="line"><span class="lineno"> 4352</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a7effb149f3d70abf83a46673d6e7705d">OnCast</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#aa0eb707cdfb0f2fafeafd6ab32274654">SpellCastFn</a>(<a class="code hl_function" href="../../d5/d4a/a27441.html#ac6f7b9650d0a55834dafb09555692243">spell_gen_charmed_unit_spell_cooldown::HandleCast</a>);</div>
-<div class="line"><span class="lineno"> 4353</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 4353</span>    {</div>
+<div class="line"><span class="lineno"> 4354</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a7effb149f3d70abf83a46673d6e7705d">OnCast</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#aa0eb707cdfb0f2fafeafd6ab32274654">SpellCastFn</a>(<a class="code hl_function" href="../../d5/d4a/a27441.html#ac6f7b9650d0a55834dafb09555692243">spell_gen_charmed_unit_spell_cooldown::HandleCast</a>);</div>
+<div class="line"><span class="lineno"> 4355</span>    }</div>
 <div class="ttc" id="aa02144_html_aa0eb707cdfb0f2fafeafd6ab32274654"><div class="ttname"><a href="../../dc/d29/a02144.html#aa0eb707cdfb0f2fafeafd6ab32274654">SpellCastFn</a></div><div class="ttdeci">#define SpellCastFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:324</div></div>
 <div class="ttc" id="aa10609_html_a7effb149f3d70abf83a46673d6e7705d"><div class="ttname"><a href="../../d6/d4c/a10609.html#a7effb149f3d70abf83a46673d6e7705d">SpellScript::OnCast</a></div><div class="ttdeci">HookList&lt; CastHandler &gt; OnCast</div><div class="ttdef"><b>Definition:</b> SpellScript.h:321</div></div>
-<div class="ttc" id="aa27441_html_ac6f7b9650d0a55834dafb09555692243"><div class="ttname"><a href="../../d5/d4a/a27441.html#ac6f7b9650d0a55834dafb09555692243">spell_gen_charmed_unit_spell_cooldown::HandleCast</a></div><div class="ttdeci">void HandleCast()</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:4339</div></div>
+<div class="ttc" id="aa27441_html_ac6f7b9650d0a55834dafb09555692243"><div class="ttname"><a href="../../d5/d4a/a27441.html#ac6f7b9650d0a55834dafb09555692243">spell_gen_charmed_unit_spell_cooldown::HandleCast</a></div><div class="ttdeci">void HandleCast()</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:4341</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l04339">HandleCast()</a>, <a class="el" href="../../#l00321">SpellScript::OnCast</a>, and <a class="el" href="../../#l00324">SpellCastFn</a>.</p>
+<p class="reference">References <a class="el" href="../../#l04341">HandleCast()</a>, <a class="el" href="../../#l00321">SpellScript::OnCast</a>, and <a class="el" href="../../#l00324">SpellCastFn</a>.</p>
 
 </div>
 </div>
@@ -407,7 +407,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d4a/a27441.html">spell_gen_charmed_unit_spell_cooldown</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 14:44:39 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sat Nov 12 2022 15:54:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

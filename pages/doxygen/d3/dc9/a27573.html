@@ -324,40 +324,40 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1110</span>    {</div>
-<div class="line"><span class="lineno"> 1111</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d3/dc9/a27573.html#af25d11fc93423ee6e1678ebb5dcf1276">_target</a>)</div>
-<div class="line"><span class="lineno"> 1112</span>        {</div>
-<div class="line"><span class="lineno"> 1113</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 1114</span>        }</div>
-<div class="line"><span class="lineno"> 1115</span> </div>
-<div class="line"><span class="lineno"> 1116</span>        <a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* caster = <a class="code hl_function" href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
-<div class="line"><span class="lineno"> 1117</span>        <span class="keywordflow">if</span> (!caster || !caster-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a1b9ed00e8d7ac5fed698ef6431905296">IsPlayer</a>())</div>
-<div class="line"><span class="lineno"> 1118</span>        {</div>
-<div class="line"><span class="lineno"> 1119</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 1120</span>        }</div>
-<div class="line"><span class="lineno"> 1121</span> </div>
-<div class="line"><span class="lineno"> 1122</span>        <span class="keywordflow">for</span> (Unit::ControlSet::iterator itr = caster-&gt;<a class="code hl_variable" href="../../df/d37/a08189.html#a148e79f1285e417f73d2a95b49fc2bf9">m_Controlled</a>.begin(); itr != caster-&gt;<a class="code hl_variable" href="../../df/d37/a08189.html#a148e79f1285e417f73d2a95b49fc2bf9">m_Controlled</a>.end(); ++itr)</div>
-<div class="line"><span class="lineno"> 1123</span>        {</div>
-<div class="line"><span class="lineno"> 1124</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* pet = *itr)</div>
-<div class="line"><span class="lineno"> 1125</span>            {</div>
-<div class="line"><span class="lineno"> 1126</span>                <span class="keywordflow">if</span> (pet-&gt;IsAlive() &amp;&amp; pet-&gt;GetTypeId() == <a class="code hl_enumvalue" href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>)</div>
-<div class="line"><span class="lineno"> 1127</span>                {</div>
-<div class="line"><span class="lineno"> 1128</span>                    pet-&gt;ToCreature()-&gt;AI()-&gt;OwnerAttacked(<a class="code hl_variable" href="../../d3/dc9/a27573.html#af25d11fc93423ee6e1678ebb5dcf1276">_target</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#afd88f95deffad982ca0b5ef16b6244e8">ToUnit</a>());</div>
-<div class="line"><span class="lineno"> 1129</span>                }</div>
-<div class="line"><span class="lineno"> 1130</span>            }</div>
-<div class="line"><span class="lineno"> 1131</span>        }</div>
-<div class="line"><span class="lineno"> 1132</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 1112</span>    {</div>
+<div class="line"><span class="lineno"> 1113</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d3/dc9/a27573.html#af25d11fc93423ee6e1678ebb5dcf1276">_target</a>)</div>
+<div class="line"><span class="lineno"> 1114</span>        {</div>
+<div class="line"><span class="lineno"> 1115</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1116</span>        }</div>
+<div class="line"><span class="lineno"> 1117</span> </div>
+<div class="line"><span class="lineno"> 1118</span>        <a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* caster = <a class="code hl_function" href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno"> 1119</span>        <span class="keywordflow">if</span> (!caster || !caster-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a1b9ed00e8d7ac5fed698ef6431905296">IsPlayer</a>())</div>
+<div class="line"><span class="lineno"> 1120</span>        {</div>
+<div class="line"><span class="lineno"> 1121</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1122</span>        }</div>
+<div class="line"><span class="lineno"> 1123</span> </div>
+<div class="line"><span class="lineno"> 1124</span>        <span class="keywordflow">for</span> (Unit::ControlSet::iterator itr = caster-&gt;<a class="code hl_variable" href="../../df/d37/a08189.html#a148e79f1285e417f73d2a95b49fc2bf9">m_Controlled</a>.begin(); itr != caster-&gt;<a class="code hl_variable" href="../../df/d37/a08189.html#a148e79f1285e417f73d2a95b49fc2bf9">m_Controlled</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno"> 1125</span>        {</div>
+<div class="line"><span class="lineno"> 1126</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../df/d37/a08189.html">Unit</a>* pet = *itr)</div>
+<div class="line"><span class="lineno"> 1127</span>            {</div>
+<div class="line"><span class="lineno"> 1128</span>                <span class="keywordflow">if</span> (pet-&gt;IsAlive() &amp;&amp; pet-&gt;GetTypeId() == <a class="code hl_enumvalue" href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>)</div>
+<div class="line"><span class="lineno"> 1129</span>                {</div>
+<div class="line"><span class="lineno"> 1130</span>                    pet-&gt;ToCreature()-&gt;AI()-&gt;OwnerAttacked(<a class="code hl_variable" href="../../d3/dc9/a27573.html#af25d11fc93423ee6e1678ebb5dcf1276">_target</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#afd88f95deffad982ca0b5ef16b6244e8">ToUnit</a>());</div>
+<div class="line"><span class="lineno"> 1131</span>                }</div>
+<div class="line"><span class="lineno"> 1132</span>            }</div>
+<div class="line"><span class="lineno"> 1133</span>        }</div>
+<div class="line"><span class="lineno"> 1134</span>    }</div>
 <div class="ttc" id="aa01208_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
 <div class="ttc" id="aa07805_html_a1b9ed00e8d7ac5fed698ef6431905296"><div class="ttname"><a href="../../df/d6f/a07805.html#a1b9ed00e8d7ac5fed698ef6431905296">Object::IsPlayer</a></div><div class="ttdeci">bool IsPlayer() const</div><div class="ttdef"><b>Definition:</b> Object.h:194</div></div>
 <div class="ttc" id="aa07805_html_afd88f95deffad982ca0b5ef16b6244e8"><div class="ttname"><a href="../../df/d6f/a07805.html#afd88f95deffad982ca0b5ef16b6244e8">Object::ToUnit</a></div><div class="ttdeci">Unit * ToUnit()</div><div class="ttdef"><b>Definition:</b> Object.h:200</div></div>
 <div class="ttc" id="aa08189_html"><div class="ttname"><a href="../../df/d37/a08189.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
-<div class="ttc" id="aa08189_html_a148e79f1285e417f73d2a95b49fc2bf9"><div class="ttname"><a href="../../df/d37/a08189.html#a148e79f1285e417f73d2a95b49fc2bf9">Unit::m_Controlled</a></div><div class="ttdeci">ControlSet m_Controlled</div><div class="ttdef"><b>Definition:</b> Unit.h:1864</div></div>
+<div class="ttc" id="aa08189_html_a148e79f1285e417f73d2a95b49fc2bf9"><div class="ttname"><a href="../../df/d37/a08189.html#a148e79f1285e417f73d2a95b49fc2bf9">Unit::m_Controlled</a></div><div class="ttdeci">ControlSet m_Controlled</div><div class="ttdef"><b>Definition:</b> Unit.h:2083</div></div>
 <div class="ttc" id="aa10609_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../d6/d4c/a10609.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
-<div class="ttc" id="aa27573_html_af25d11fc93423ee6e1678ebb5dcf1276"><div class="ttname"><a href="../../d3/dc9/a27573.html#af25d11fc93423ee6e1678ebb5dcf1276">spell_hun_volley_trigger::_target</a></div><div class="ttdeci">WorldObject * _target</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:1141</div></div>
+<div class="ttc" id="aa27573_html_af25d11fc93423ee6e1678ebb5dcf1276"><div class="ttname"><a href="../../d3/dc9/a27573.html#af25d11fc93423ee6e1678ebb5dcf1276">spell_hun_volley_trigger::_target</a></div><div class="ttdeci">WorldObject * _target</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:1143</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01141">_target</a>, <a class="el" href="../../#l00401">SpellScript::GetCaster()</a>, <a class="el" href="../../#l00194">Object::IsPlayer()</a>, <a class="el" href="../../#l01864">Unit::m_Controlled</a>, <a class="el" href="../../#l00200">Object::ToUnit()</a>, and <a class="el" href="../../#l00037">TYPEID_UNIT</a>.</p>
+<p class="reference">References <a class="el" href="../../#l01143">_target</a>, <a class="el" href="../../#l00401">SpellScript::GetCaster()</a>, <a class="el" href="../../#l00194">Object::IsPlayer()</a>, <a class="el" href="../../#l02083">Unit::m_Controlled</a>, <a class="el" href="../../#l00200">Object::ToUnit()</a>, and <a class="el" href="../../#l00037">TYPEID_UNIT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l01134">Register()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01136">Register()</a>.</p>
 
 </div>
 </div>
@@ -411,20 +411,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d8/d12/a10593.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1135</span>    {</div>
-<div class="line"><span class="lineno"> 1136</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../d3/dc9/a27573.html#ab33513df20e942ba354932df5082efa8">spell_hun_volley_trigger::SelectTarget</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a418aed4e4066eb09ab979b5d78dc9152a423eed54c405c7e51816127214e8ea82">TARGET_UNIT_DEST_AREA_ENEMY</a>);</div>
-<div class="line"><span class="lineno"> 1137</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a05948ff5c05b05d77ed69043972eaa4f">AfterCast</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#aa0eb707cdfb0f2fafeafd6ab32274654">SpellCastFn</a>(<a class="code hl_function" href="../../d3/dc9/a27573.html#aac1981a16cbb61bfaf20c865bcfaf6a8">spell_hun_volley_trigger::HandleFinish</a>);</div>
-<div class="line"><span class="lineno"> 1138</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 1137</span>    {</div>
+<div class="line"><span class="lineno"> 1138</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../d3/dc9/a27573.html#ab33513df20e942ba354932df5082efa8">spell_hun_volley_trigger::SelectTarget</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#a418aed4e4066eb09ab979b5d78dc9152a423eed54c405c7e51816127214e8ea82">TARGET_UNIT_DEST_AREA_ENEMY</a>);</div>
+<div class="line"><span class="lineno"> 1139</span>        <a class="code hl_variable" href="../../d6/d4c/a10609.html#a05948ff5c05b05d77ed69043972eaa4f">AfterCast</a> += <a class="code hl_define" href="../../dc/d29/a02144.html#aa0eb707cdfb0f2fafeafd6ab32274654">SpellCastFn</a>(<a class="code hl_function" href="../../d3/dc9/a27573.html#aac1981a16cbb61bfaf20c865bcfaf6a8">spell_hun_volley_trigger::HandleFinish</a>);</div>
+<div class="line"><span class="lineno"> 1140</span>    }</div>
 <div class="ttc" id="aa02144_html_a623f49512c3d12eceb55ca05cd53c4f2"><div class="ttname"><a href="../../dc/d29/a02144.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a></div><div class="ttdeci">#define SpellObjectAreaTargetSelectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:354</div></div>
 <div class="ttc" id="aa02144_html_aa0eb707cdfb0f2fafeafd6ab32274654"><div class="ttname"><a href="../../dc/d29/a02144.html#aa0eb707cdfb0f2fafeafd6ab32274654">SpellCastFn</a></div><div class="ttdeci">#define SpellCastFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:324</div></div>
 <div class="ttc" id="aa04307_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../d9/d4e/a04307.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
 <div class="ttc" id="aa04307_html_a418aed4e4066eb09ab979b5d78dc9152a423eed54c405c7e51816127214e8ea82"><div class="ttname"><a href="../../d9/d4e/a04307.html#a418aed4e4066eb09ab979b5d78dc9152a423eed54c405c7e51816127214e8ea82">TARGET_UNIT_DEST_AREA_ENEMY</a></div><div class="ttdeci">@ TARGET_UNIT_DEST_AREA_ENEMY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1393</div></div>
 <div class="ttc" id="aa10609_html_a05948ff5c05b05d77ed69043972eaa4f"><div class="ttname"><a href="../../d6/d4c/a10609.html#a05948ff5c05b05d77ed69043972eaa4f">SpellScript::AfterCast</a></div><div class="ttdeci">HookList&lt; CastHandler &gt; AfterCast</div><div class="ttdef"><b>Definition:</b> SpellScript.h:323</div></div>
 <div class="ttc" id="aa10609_html_af74f730c6dacd310a78036be6b7cc6b7"><div class="ttname"><a href="../../d6/d4c/a10609.html#af74f730c6dacd310a78036be6b7cc6b7">SpellScript::OnObjectAreaTargetSelect</a></div><div class="ttdeci">HookList&lt; ObjectAreaTargetSelectHandler &gt; OnObjectAreaTargetSelect</div><div class="ttdef"><b>Definition:</b> SpellScript.h:353</div></div>
-<div class="ttc" id="aa27573_html_aac1981a16cbb61bfaf20c865bcfaf6a8"><div class="ttname"><a href="../../d3/dc9/a27573.html#aac1981a16cbb61bfaf20c865bcfaf6a8">spell_hun_volley_trigger::HandleFinish</a></div><div class="ttdeci">void HandleFinish()</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:1109</div></div>
-<div class="ttc" id="aa27573_html_ab33513df20e942ba354932df5082efa8"><div class="ttname"><a href="../../d3/dc9/a27573.html#ab33513df20e942ba354932df5082efa8">spell_hun_volley_trigger::SelectTarget</a></div><div class="ttdeci">void SelectTarget(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:1099</div></div>
+<div class="ttc" id="aa27573_html_aac1981a16cbb61bfaf20c865bcfaf6a8"><div class="ttname"><a href="../../d3/dc9/a27573.html#aac1981a16cbb61bfaf20c865bcfaf6a8">spell_hun_volley_trigger::HandleFinish</a></div><div class="ttdeci">void HandleFinish()</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:1111</div></div>
+<div class="ttc" id="aa27573_html_ab33513df20e942ba354932df5082efa8"><div class="ttname"><a href="../../d3/dc9/a27573.html#ab33513df20e942ba354932df5082efa8">spell_hun_volley_trigger::SelectTarget</a></div><div class="ttdeci">void SelectTarget(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> spell_hunter.cpp:1101</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00323">SpellScript::AfterCast</a>, <a class="el" href="../../#l00030">EFFECT_0</a>, <a class="el" href="../../#l01109">HandleFinish()</a>, <a class="el" href="../../#l00353">SpellScript::OnObjectAreaTargetSelect</a>, <a class="el" href="../../#l01099">SelectTarget()</a>, <a class="el" href="../../#l00324">SpellCastFn</a>, <a class="el" href="../../#l00354">SpellObjectAreaTargetSelectFn</a>, and <a class="el" href="../../#l01393">TARGET_UNIT_DEST_AREA_ENEMY</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00323">SpellScript::AfterCast</a>, <a class="el" href="../../#l00030">EFFECT_0</a>, <a class="el" href="../../#l01111">HandleFinish()</a>, <a class="el" href="../../#l00353">SpellScript::OnObjectAreaTargetSelect</a>, <a class="el" href="../../#l01101">SelectTarget()</a>, <a class="el" href="../../#l00324">SpellCastFn</a>, <a class="el" href="../../#l00354">SpellObjectAreaTargetSelectFn</a>, and <a class="el" href="../../#l01393">TARGET_UNIT_DEST_AREA_ENEMY</a>.</p>
 
 </div>
 </div>
@@ -451,18 +451,18 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1100</span>    {</div>
-<div class="line"><span class="lineno"> 1101</span>        <span class="comment">// It&#39;s here because Volley is an AOE spell so there is no specific target to be attacked</span></div>
-<div class="line"><span class="lineno"> 1102</span>        <span class="comment">// Let&#39;s select one of our targets</span></div>
-<div class="line"><span class="lineno"> 1103</span>        <span class="keywordflow">if</span> (!targets.empty())</div>
-<div class="line"><span class="lineno"> 1104</span>        {</div>
-<div class="line"><span class="lineno"> 1105</span>            <a class="code hl_variable" href="../../d3/dc9/a27573.html#af25d11fc93423ee6e1678ebb5dcf1276">_target</a> = *(targets.begin());</div>
-<div class="line"><span class="lineno"> 1106</span>        }</div>
-<div class="line"><span class="lineno"> 1107</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 1102</span>    {</div>
+<div class="line"><span class="lineno"> 1103</span>        <span class="comment">// It&#39;s here because Volley is an AOE spell so there is no specific target to be attacked</span></div>
+<div class="line"><span class="lineno"> 1104</span>        <span class="comment">// Let&#39;s select one of our targets</span></div>
+<div class="line"><span class="lineno"> 1105</span>        <span class="keywordflow">if</span> (!targets.empty())</div>
+<div class="line"><span class="lineno"> 1106</span>        {</div>
+<div class="line"><span class="lineno"> 1107</span>            <a class="code hl_variable" href="../../d3/dc9/a27573.html#af25d11fc93423ee6e1678ebb5dcf1276">_target</a> = *(targets.begin());</div>
+<div class="line"><span class="lineno"> 1108</span>        }</div>
+<div class="line"><span class="lineno"> 1109</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01141">_target</a>.</p>
+<p class="reference">References <a class="el" href="../../#l01143">_target</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l01134">Register()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01136">Register()</a>.</p>
 
 </div>
 </div>
@@ -487,7 +487,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l01109">HandleFinish()</a>, and <a class="el" href="../../#l01099">SelectTarget()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01111">HandleFinish()</a>, and <a class="el" href="../../#l01101">SelectTarget()</a>.</p>
 
 </div>
 </div>
@@ -497,7 +497,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/dc9/a27573.html">spell_hun_volley_trigger</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 14:44:41 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sat Nov 12 2022 15:54:53 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

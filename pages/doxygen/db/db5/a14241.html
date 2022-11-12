@@ -531,7 +531,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  324</span>: <a class="code hl_struct" href="../../de/d8f/a05865.html">ScriptedAI</a>(c) {}</div>
+<div class="fragment"><div class="line"><span class="lineno">  326</span>: <a class="code hl_struct" href="../../de/d8f/a05865.html">ScriptedAI</a>(c) {}</div>
 <div class="ttc" id="aa05865_html"><div class="ttname"><a href="../../de/d8f/a05865.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
 </div><!-- fragment -->
 </div>
@@ -562,37 +562,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/d43/a05805.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  387</span>    {</div>
-<div class="line"><span class="lineno">  388</span>        <span class="keywordflow">if</span> (param == <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a5a9d00590152ece2beb2305c6f271dd9">ACTION_START_EVENT</a>)</div>
-<div class="line"><span class="lineno">  389</span>        {</div>
-<div class="line"><span class="lineno">  390</span>            <a class="code hl_variable" href="../../db/db5/a14241.html#a722f4bfd0fb8b2665ff2b79d3208bc90">allowQuest</a> = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  391</span>            <a class="code hl_variable" href="../../db/db5/a14241.html#a5292ab4e45fe3a858b3a59ef4a79bb34">eventStarted</a> = 1;</div>
-<div class="line"><span class="lineno">  392</span>            <span class="keywordtype">float</span> x = 0, y = 0, z = 0, o = 0;</div>
-<div class="line"><span class="lineno">  393</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> path = 0;</div>
-<div class="line"><span class="lineno">  394</span>            <a class="code hl_function" href="../../db/db5/a14241.html#a3c6d0e6cecd1c4ef85b3d77c45ef6533">GetInitXYZ</a>(x, y, z, o, path);</div>
-<div class="line"><span class="lineno">  395</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d7/dc5/a07437.html">Creature</a>* cr = <a class="code hl_variable" href="../../de/d8f/a05865.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d5/daf/a07837.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a0c77f626408c34e22a5ad7e33b225c84">NPC_SHADE_OF_HORSEMAN</a>, x, y, z, o, <a class="code hl_enumvalue" href="../../d0/d5a/a01199.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a>, 10000))</div>
-<div class="line"><span class="lineno">  396</span>            {</div>
-<div class="line"><span class="lineno">  397</span>                cr-&gt;GetMotionMaster()-&gt;MovePath(path, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  398</span>                cr-&gt;AI()-&gt;DoAction(path);</div>
-<div class="line"><span class="lineno">  399</span>                <a class="code hl_variable" href="../../db/db5/a14241.html#a92cfd09cefd26933ae322f2cc2716927">horseGUID</a> = cr-&gt;GetGUID();</div>
-<div class="line"><span class="lineno">  400</span>            }</div>
-<div class="line"><span class="lineno">  401</span>        }</div>
-<div class="line"><span class="lineno">  402</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  389</span>    {</div>
+<div class="line"><span class="lineno">  390</span>        <span class="keywordflow">if</span> (param == <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a5a9d00590152ece2beb2305c6f271dd9">ACTION_START_EVENT</a>)</div>
+<div class="line"><span class="lineno">  391</span>        {</div>
+<div class="line"><span class="lineno">  392</span>            <a class="code hl_variable" href="../../db/db5/a14241.html#a722f4bfd0fb8b2665ff2b79d3208bc90">allowQuest</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  393</span>            <a class="code hl_variable" href="../../db/db5/a14241.html#a5292ab4e45fe3a858b3a59ef4a79bb34">eventStarted</a> = 1;</div>
+<div class="line"><span class="lineno">  394</span>            <span class="keywordtype">float</span> x = 0, y = 0, z = 0, o = 0;</div>
+<div class="line"><span class="lineno">  395</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> path = 0;</div>
+<div class="line"><span class="lineno">  396</span>            <a class="code hl_function" href="../../db/db5/a14241.html#a3c6d0e6cecd1c4ef85b3d77c45ef6533">GetInitXYZ</a>(x, y, z, o, path);</div>
+<div class="line"><span class="lineno">  397</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d7/dc5/a07437.html">Creature</a>* cr = <a class="code hl_variable" href="../../de/d8f/a05865.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d5/daf/a07837.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a0c77f626408c34e22a5ad7e33b225c84">NPC_SHADE_OF_HORSEMAN</a>, x, y, z, o, <a class="code hl_enumvalue" href="../../d0/d5a/a01199.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a>, 10000))</div>
+<div class="line"><span class="lineno">  398</span>            {</div>
+<div class="line"><span class="lineno">  399</span>                cr-&gt;GetMotionMaster()-&gt;MovePath(path, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  400</span>                cr-&gt;AI()-&gt;DoAction(path);</div>
+<div class="line"><span class="lineno">  401</span>                <a class="code hl_variable" href="../../db/db5/a14241.html#a92cfd09cefd26933ae322f2cc2716927">horseGUID</a> = cr-&gt;GetGUID();</div>
+<div class="line"><span class="lineno">  402</span>            }</div>
+<div class="line"><span class="lineno">  403</span>        }</div>
+<div class="line"><span class="lineno">  404</span>    }</div>
 <div class="ttc" id="aa00230_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
 <div class="ttc" id="aa01199_html_a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a"><div class="ttname"><a href="../../d0/d5a/a01199.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_CORPSE_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:47</div></div>
-<div class="ttc" id="aa02894_html_a230696e3ca1a62064c000f63cb1a1ed6a0c77f626408c34e22a5ad7e33b225c84"><div class="ttname"><a href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a0c77f626408c34e22a5ad7e33b225c84">NPC_SHADE_OF_HORSEMAN</a></div><div class="ttdeci">@ NPC_SHADE_OF_HORSEMAN</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:230</div></div>
-<div class="ttc" id="aa02894_html_a230696e3ca1a62064c000f63cb1a1ed6a5a9d00590152ece2beb2305c6f271dd9"><div class="ttname"><a href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a5a9d00590152ece2beb2305c6f271dd9">ACTION_START_EVENT</a></div><div class="ttdeci">@ ACTION_START_EVENT</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:235</div></div>
+<div class="ttc" id="aa02894_html_a230696e3ca1a62064c000f63cb1a1ed6a0c77f626408c34e22a5ad7e33b225c84"><div class="ttname"><a href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a0c77f626408c34e22a5ad7e33b225c84">NPC_SHADE_OF_HORSEMAN</a></div><div class="ttdeci">@ NPC_SHADE_OF_HORSEMAN</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:232</div></div>
+<div class="ttc" id="aa02894_html_a230696e3ca1a62064c000f63cb1a1ed6a5a9d00590152ece2beb2305c6f271dd9"><div class="ttname"><a href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a5a9d00590152ece2beb2305c6f271dd9">ACTION_START_EVENT</a></div><div class="ttdeci">@ ACTION_START_EVENT</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:237</div></div>
 <div class="ttc" id="aa05865_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d8f/a05865.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
 <div class="ttc" id="aa07437_html"><div class="ttname"><a href="../../d7/dc5/a07437.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
-<div class="ttc" id="aa07837_html_aaf7058bd6b40bbfd38cbcd4f740c0344"><div class="ttname"><a href="../../d5/daf/a07837.html#aaf7058bd6b40bbfd38cbcd4f740c0344">WorldObject::SummonCreature</a></div><div class="ttdeci">TempSummon * SummonCreature(uint32 id, const Position &amp;pos, TempSummonType spwtype=TEMPSUMMON_MANUAL_DESPAWN, uint32 despwtime=0, uint32 vehId=0, SummonPropertiesEntry const *properties=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2301</div></div>
-<div class="ttc" id="aa14241_html_a3c6d0e6cecd1c4ef85b3d77c45ef6533"><div class="ttname"><a href="../../db/db5/a14241.html#a3c6d0e6cecd1c4ef85b3d77c45ef6533">npc_costumed_orphan_matron::GetInitXYZ</a></div><div class="ttdeci">void GetInitXYZ(float &amp;x, float &amp;y, float &amp;z, float &amp;o, uint32 &amp;path)</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:337</div></div>
-<div class="ttc" id="aa14241_html_a5292ab4e45fe3a858b3a59ef4a79bb34"><div class="ttname"><a href="../../db/db5/a14241.html#a5292ab4e45fe3a858b3a59ef4a79bb34">npc_costumed_orphan_matron::eventStarted</a></div><div class="ttdeci">uint32 eventStarted</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:326</div></div>
-<div class="ttc" id="aa14241_html_a722f4bfd0fb8b2665ff2b79d3208bc90"><div class="ttname"><a href="../../db/db5/a14241.html#a722f4bfd0fb8b2665ff2b79d3208bc90">npc_costumed_orphan_matron::allowQuest</a></div><div class="ttdeci">bool allowQuest</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:327</div></div>
-<div class="ttc" id="aa14241_html_a92cfd09cefd26933ae322f2cc2716927"><div class="ttname"><a href="../../db/db5/a14241.html#a92cfd09cefd26933ae322f2cc2716927">npc_costumed_orphan_matron::horseGUID</a></div><div class="ttdeci">ObjectGuid horseGUID</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:328</div></div>
+<div class="ttc" id="aa07837_html_aaf7058bd6b40bbfd38cbcd4f740c0344"><div class="ttname"><a href="../../d5/daf/a07837.html#aaf7058bd6b40bbfd38cbcd4f740c0344">WorldObject::SummonCreature</a></div><div class="ttdeci">TempSummon * SummonCreature(uint32 id, const Position &amp;pos, TempSummonType spwtype=TEMPSUMMON_MANUAL_DESPAWN, uint32 despwtime=0, uint32 vehId=0, SummonPropertiesEntry const *properties=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2303</div></div>
+<div class="ttc" id="aa14241_html_a3c6d0e6cecd1c4ef85b3d77c45ef6533"><div class="ttname"><a href="../../db/db5/a14241.html#a3c6d0e6cecd1c4ef85b3d77c45ef6533">npc_costumed_orphan_matron::GetInitXYZ</a></div><div class="ttdeci">void GetInitXYZ(float &amp;x, float &amp;y, float &amp;z, float &amp;o, uint32 &amp;path)</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:339</div></div>
+<div class="ttc" id="aa14241_html_a5292ab4e45fe3a858b3a59ef4a79bb34"><div class="ttname"><a href="../../db/db5/a14241.html#a5292ab4e45fe3a858b3a59ef4a79bb34">npc_costumed_orphan_matron::eventStarted</a></div><div class="ttdeci">uint32 eventStarted</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:328</div></div>
+<div class="ttc" id="aa14241_html_a722f4bfd0fb8b2665ff2b79d3208bc90"><div class="ttname"><a href="../../db/db5/a14241.html#a722f4bfd0fb8b2665ff2b79d3208bc90">npc_costumed_orphan_matron::allowQuest</a></div><div class="ttdeci">bool allowQuest</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:329</div></div>
+<div class="ttc" id="aa14241_html_a92cfd09cefd26933ae322f2cc2716927"><div class="ttname"><a href="../../db/db5/a14241.html#a92cfd09cefd26933ae322f2cc2716927">npc_costumed_orphan_matron::horseGUID</a></div><div class="ttdeci">ObjectGuid horseGUID</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:330</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00235">ACTION_START_EVENT</a>, <a class="el" href="../../#l00327">allowQuest</a>, <a class="el" href="../../#l00326">eventStarted</a>, <a class="el" href="../../#l00337">GetInitXYZ()</a>, <a class="el" href="../../#l00328">horseGUID</a>, <a class="el" href="../../#l00267">ScriptedAI::me</a>, <a class="el" href="../../#l00230">NPC_SHADE_OF_HORSEMAN</a>, <a class="el" href="../../#l02301">WorldObject::SummonCreature()</a>, and <a class="el" href="../../#l00047">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00237">ACTION_START_EVENT</a>, <a class="el" href="../../#l00329">allowQuest</a>, <a class="el" href="../../#l00328">eventStarted</a>, <a class="el" href="../../#l00339">GetInitXYZ()</a>, <a class="el" href="../../#l00330">horseGUID</a>, <a class="el" href="../../#l00267">ScriptedAI::me</a>, <a class="el" href="../../#l00232">NPC_SHADE_OF_HORSEMAN</a>, <a class="el" href="../../#l02303">WorldObject::SummonCreature()</a>, and <a class="el" href="../../#l00047">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00480">sQuestAccept()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00482">sQuestAccept()</a>.</p>
 
 </div>
 </div>
@@ -647,58 +647,58 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  338</span>    {</div>
-<div class="line"><span class="lineno">  339</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../de/d8f/a05865.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d5/daf/a07837.html#acdd585ef58eb876c506389ff96a4fbd9">GetAreaId</a>())</div>
-<div class="line"><span class="lineno">  340</span>        {</div>
-<div class="line"><span class="lineno">  341</span>        <span class="keywordflow">case</span> 87: <span class="comment">// Goldshire</span></div>
-<div class="line"><span class="lineno">  342</span>            x = -9494.4f;</div>
-<div class="line"><span class="lineno">  343</span>            y = 48.53f;</div>
-<div class="line"><span class="lineno">  344</span>            z = 70.5f;</div>
-<div class="line"><span class="lineno">  345</span>            o = 0.5f;</div>
-<div class="line"><span class="lineno">  346</span>            path = 235431;</div>
-<div class="line"><span class="lineno">  347</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  348</span>        <span class="keywordflow">case</span> 131: <span class="comment">// Kharanos</span></div>
-<div class="line"><span class="lineno">  349</span>            x = -5558.34f;</div>
-<div class="line"><span class="lineno">  350</span>            y = -499.46f;</div>
-<div class="line"><span class="lineno">  351</span>            z = 414.12f;</div>
-<div class="line"><span class="lineno">  352</span>            o = 2.08f;</div>
-<div class="line"><span class="lineno">  353</span>            path = 235432;</div>
-<div class="line"><span class="lineno">  354</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  355</span>        <span class="keywordflow">case</span> 3576: <span class="comment">// Azure Watch</span></div>
-<div class="line"><span class="lineno">  356</span>            x = -4163.58f;</div>
-<div class="line"><span class="lineno">  357</span>            y = -12460.30f;</div>
-<div class="line"><span class="lineno">  358</span>            z = 63.02f;</div>
-<div class="line"><span class="lineno">  359</span>            o = 4.31f;</div>
-<div class="line"><span class="lineno">  360</span>            path = 235433;</div>
-<div class="line"><span class="lineno">  361</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  362</span>        <span class="keywordflow">case</span> 362: <span class="comment">// Razor Hill</span></div>
-<div class="line"><span class="lineno">  363</span>            x = 373.2f;</div>
-<div class="line"><span class="lineno">  364</span>            y = -4723.4f;</div>
-<div class="line"><span class="lineno">  365</span>            z = 31.2f;</div>
-<div class="line"><span class="lineno">  366</span>            o = 3.2f;</div>
-<div class="line"><span class="lineno">  367</span>            path = 235434;</div>
-<div class="line"><span class="lineno">  368</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  369</span>        <span class="keywordflow">case</span> 159: <span class="comment">// Brill</span></div>
-<div class="line"><span class="lineno">  370</span>            x = 2195.2f;</div>
-<div class="line"><span class="lineno">  371</span>            y = 264.0f;</div>
-<div class="line"><span class="lineno">  372</span>            z = 55.62f;</div>
-<div class="line"><span class="lineno">  373</span>            o = 0.15f;</div>
-<div class="line"><span class="lineno">  374</span>            path = 235435;</div>
-<div class="line"><span class="lineno">  375</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  376</span>        <span class="keywordflow">case</span> 3665: <span class="comment">// Falcon Wing Square</span></div>
-<div class="line"><span class="lineno">  377</span>            x = 9547.91f;</div>
-<div class="line"><span class="lineno">  378</span>            y = -6809.9f;</div>
-<div class="line"><span class="lineno">  379</span>            z = 27.96f;</div>
-<div class="line"><span class="lineno">  380</span>            o = 3.4f;</div>
-<div class="line"><span class="lineno">  381</span>            path = 235436;</div>
-<div class="line"><span class="lineno">  382</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  383</span>        }</div>
-<div class="line"><span class="lineno">  384</span>    }</div>
-<div class="ttc" id="aa07837_html_acdd585ef58eb876c506389ff96a4fbd9"><div class="ttname"><a href="../../d5/daf/a07837.html#acdd585ef58eb876c506389ff96a4fbd9">WorldObject::GetAreaId</a></div><div class="ttdeci">uint32 GetAreaId() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:3066</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  340</span>    {</div>
+<div class="line"><span class="lineno">  341</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../de/d8f/a05865.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d5/daf/a07837.html#acdd585ef58eb876c506389ff96a4fbd9">GetAreaId</a>())</div>
+<div class="line"><span class="lineno">  342</span>        {</div>
+<div class="line"><span class="lineno">  343</span>        <span class="keywordflow">case</span> 87: <span class="comment">// Goldshire</span></div>
+<div class="line"><span class="lineno">  344</span>            x = -9494.4f;</div>
+<div class="line"><span class="lineno">  345</span>            y = 48.53f;</div>
+<div class="line"><span class="lineno">  346</span>            z = 70.5f;</div>
+<div class="line"><span class="lineno">  347</span>            o = 0.5f;</div>
+<div class="line"><span class="lineno">  348</span>            path = 235431;</div>
+<div class="line"><span class="lineno">  349</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  350</span>        <span class="keywordflow">case</span> 131: <span class="comment">// Kharanos</span></div>
+<div class="line"><span class="lineno">  351</span>            x = -5558.34f;</div>
+<div class="line"><span class="lineno">  352</span>            y = -499.46f;</div>
+<div class="line"><span class="lineno">  353</span>            z = 414.12f;</div>
+<div class="line"><span class="lineno">  354</span>            o = 2.08f;</div>
+<div class="line"><span class="lineno">  355</span>            path = 235432;</div>
+<div class="line"><span class="lineno">  356</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  357</span>        <span class="keywordflow">case</span> 3576: <span class="comment">// Azure Watch</span></div>
+<div class="line"><span class="lineno">  358</span>            x = -4163.58f;</div>
+<div class="line"><span class="lineno">  359</span>            y = -12460.30f;</div>
+<div class="line"><span class="lineno">  360</span>            z = 63.02f;</div>
+<div class="line"><span class="lineno">  361</span>            o = 4.31f;</div>
+<div class="line"><span class="lineno">  362</span>            path = 235433;</div>
+<div class="line"><span class="lineno">  363</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  364</span>        <span class="keywordflow">case</span> 362: <span class="comment">// Razor Hill</span></div>
+<div class="line"><span class="lineno">  365</span>            x = 373.2f;</div>
+<div class="line"><span class="lineno">  366</span>            y = -4723.4f;</div>
+<div class="line"><span class="lineno">  367</span>            z = 31.2f;</div>
+<div class="line"><span class="lineno">  368</span>            o = 3.2f;</div>
+<div class="line"><span class="lineno">  369</span>            path = 235434;</div>
+<div class="line"><span class="lineno">  370</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  371</span>        <span class="keywordflow">case</span> 159: <span class="comment">// Brill</span></div>
+<div class="line"><span class="lineno">  372</span>            x = 2195.2f;</div>
+<div class="line"><span class="lineno">  373</span>            y = 264.0f;</div>
+<div class="line"><span class="lineno">  374</span>            z = 55.62f;</div>
+<div class="line"><span class="lineno">  375</span>            o = 0.15f;</div>
+<div class="line"><span class="lineno">  376</span>            path = 235435;</div>
+<div class="line"><span class="lineno">  377</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  378</span>        <span class="keywordflow">case</span> 3665: <span class="comment">// Falcon Wing Square</span></div>
+<div class="line"><span class="lineno">  379</span>            x = 9547.91f;</div>
+<div class="line"><span class="lineno">  380</span>            y = -6809.9f;</div>
+<div class="line"><span class="lineno">  381</span>            z = 27.96f;</div>
+<div class="line"><span class="lineno">  382</span>            o = 3.4f;</div>
+<div class="line"><span class="lineno">  383</span>            path = 235436;</div>
+<div class="line"><span class="lineno">  384</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  385</span>        }</div>
+<div class="line"><span class="lineno">  386</span>    }</div>
+<div class="ttc" id="aa07837_html_acdd585ef58eb876c506389ff96a4fbd9"><div class="ttname"><a href="../../d5/daf/a07837.html#acdd585ef58eb876c506389ff96a4fbd9">WorldObject::GetAreaId</a></div><div class="ttdeci">uint32 GetAreaId() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:3068</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l03066">WorldObject::GetAreaId()</a>, and <a class="el" href="../../#l00267">ScriptedAI::me</a>.</p>
+<p class="reference">References <a class="el" href="../../#l03068">WorldObject::GetAreaId()</a>, and <a class="el" href="../../#l00267">ScriptedAI::me</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00386">DoAction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00388">DoAction()</a>.</p>
 
 </div>
 </div>
@@ -726,14 +726,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d8f/a05865.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  331</span>    {</div>
-<div class="line"><span class="lineno">  332</span>        <a class="code hl_variable" href="../../db/db5/a14241.html#a5292ab4e45fe3a858b3a59ef4a79bb34">eventStarted</a> = 0;</div>
-<div class="line"><span class="lineno">  333</span>        <a class="code hl_variable" href="../../db/db5/a14241.html#a722f4bfd0fb8b2665ff2b79d3208bc90">allowQuest</a> = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  334</span>        <a class="code hl_variable" href="../../db/db5/a14241.html#a92cfd09cefd26933ae322f2cc2716927">horseGUID</a>.<a class="code hl_function" href="../../d9/da2/a07853.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
-<div class="line"><span class="lineno">  335</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  333</span>    {</div>
+<div class="line"><span class="lineno">  334</span>        <a class="code hl_variable" href="../../db/db5/a14241.html#a5292ab4e45fe3a858b3a59ef4a79bb34">eventStarted</a> = 0;</div>
+<div class="line"><span class="lineno">  335</span>        <a class="code hl_variable" href="../../db/db5/a14241.html#a722f4bfd0fb8b2665ff2b79d3208bc90">allowQuest</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  336</span>        <a class="code hl_variable" href="../../db/db5/a14241.html#a92cfd09cefd26933ae322f2cc2716927">horseGUID</a>.<a class="code hl_function" href="../../d9/da2/a07853.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  337</span>    }</div>
 <div class="ttc" id="aa07853_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d9/da2/a07853.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00327">allowQuest</a>, <a class="el" href="../../#l00140">ObjectGuid::Clear()</a>, <a class="el" href="../../#l00326">eventStarted</a>, and <a class="el" href="../../#l00328">horseGUID</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00329">allowQuest</a>, <a class="el" href="../../#l00140">ObjectGuid::Clear()</a>, <a class="el" href="../../#l00328">eventStarted</a>, and <a class="el" href="../../#l00330">horseGUID</a>.</p>
 
 </div>
 </div>
@@ -762,77 +762,77 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/d43/a05805.html#a8de6be511eebe0cc7a3332a9bb74d01e">UnitAI</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  418</span>    {</div>
-<div class="line"><span class="lineno">  419</span>        <a class="code hl_typedef" href="../../d8/d4e/a01355.html#a4d2e936df987ca3457dc1cff99fd3394">QuestRelationBounds</a> pObjectQR = <a class="code hl_define" href="../../d8/d4e/a01355.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetCreatureQuestRelationBounds(<a class="code hl_variable" href="../../de/d8f/a05865.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
-<div class="line"><span class="lineno">  420</span>        <a class="code hl_typedef" href="../../d8/d4e/a01355.html#a4d2e936df987ca3457dc1cff99fd3394">QuestRelationBounds</a> pObjectQIR = <a class="code hl_define" href="../../d8/d4e/a01355.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetCreatureQuestInvolvedRelationBounds(<a class="code hl_variable" href="../../de/d8f/a05865.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
-<div class="line"><span class="lineno">  421</span> </div>
-<div class="line"><span class="lineno">  422</span>        <a class="code hl_class" href="../../df/d39/a07549.html">QuestMenu</a>&amp; qm = player-&gt;<a class="code hl_variable" href="../../d8/d83/a08045.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d0/d8d/a07553.html#a6129e728a42a0d74e462073ba7219eb1">GetQuestMenu</a>();</div>
-<div class="line"><span class="lineno">  423</span>        qm.<a class="code hl_function" href="../../df/d39/a07549.html#ab3d3881aabe000694acab37a3774507e">ClearMenu</a>();</div>
-<div class="line"><span class="lineno">  424</span> </div>
-<div class="line"><span class="lineno">  425</span>        <span class="keywordflow">for</span> (QuestRelations::const_iterator i = pObjectQIR.first; i != pObjectQIR.second; ++i)</div>
-<div class="line"><span class="lineno">  426</span>        {</div>
-<div class="line"><span class="lineno">  427</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> quest_id = i-&gt;second;</div>
-<div class="line"><span class="lineno">  428</span>            <a class="code hl_enumeration" href="../../d4/d29/a01817.html#abfc87d39d69176ad25e800fb4aa6f0d8">QuestStatus</a> status = player-&gt;<a class="code hl_function" href="../../d8/d83/a08045.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(quest_id);</div>
-<div class="line"><span class="lineno">  429</span>            <span class="keywordflow">if</span> (status == <a class="code hl_enumvalue" href="../../d4/d29/a01817.html#abfc87d39d69176ad25e800fb4aa6f0d8ae1b2fe2d9de28cc70b59a4bdd5f0abed">QUEST_STATUS_COMPLETE</a>)</div>
-<div class="line"><span class="lineno">  430</span>            {</div>
-<div class="line"><span class="lineno">  431</span>                qm.<a class="code hl_function" href="../../df/d39/a07549.html#ac8735756bbf9f2fa799c505bd740e070">AddMenuItem</a>(quest_id, 4);</div>
-<div class="line"><span class="lineno">  432</span>            }</div>
-<div class="line"><span class="lineno">  433</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (status == <a class="code hl_enumvalue" href="../../d4/d29/a01817.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
-<div class="line"><span class="lineno">  434</span>            {</div>
-<div class="line"><span class="lineno">  435</span>                qm.<a class="code hl_function" href="../../df/d39/a07549.html#ac8735756bbf9f2fa799c505bd740e070">AddMenuItem</a>(quest_id, 4);</div>
-<div class="line"><span class="lineno">  436</span>            }</div>
-<div class="line"><span class="lineno">  437</span>        }</div>
-<div class="line"><span class="lineno">  438</span> </div>
-<div class="line"><span class="lineno">  439</span>        <span class="keywordflow">for</span> (QuestRelations::const_iterator i = pObjectQR.first; i != pObjectQR.second; ++i)</div>
-<div class="line"><span class="lineno">  440</span>        {</div>
-<div class="line"><span class="lineno">  441</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> quest_id = i-&gt;second;</div>
-<div class="line"><span class="lineno">  442</span>            <a class="code hl_class" href="../../d7/dd2/a09561.html">Quest</a> <span class="keyword">const</span>* pQuest = <a class="code hl_define" href="../../d8/d4e/a01355.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetQuestTemplate(quest_id);</div>
-<div class="line"><span class="lineno">  443</span>            <span class="keywordflow">if</span> (!pQuest)</div>
-<div class="line"><span class="lineno">  444</span>            {</div>
-<div class="line"><span class="lineno">  445</span>                <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  446</span>            }</div>
-<div class="line"><span class="lineno">  447</span> </div>
-<div class="line"><span class="lineno">  448</span>            <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_function" href="../../d8/d83/a08045.html#a4119b83fa78e608d8d946b1821c57fdf">CanTakeQuest</a>(pQuest, <span class="keyword">false</span>))</div>
-<div class="line"><span class="lineno">  449</span>            {</div>
-<div class="line"><span class="lineno">  450</span>                <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  451</span>            }</div>
-<div class="line"><span class="lineno">  452</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d83/a08045.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(quest_id) == <a class="code hl_enumvalue" href="../../d4/d29/a01817.html#abfc87d39d69176ad25e800fb4aa6f0d8abefdf5f7417012e5d2adedf1dc155f28">QUEST_STATUS_NONE</a>)</div>
-<div class="line"><span class="lineno">  453</span>            {</div>
-<div class="line"><span class="lineno">  454</span>                <span class="keywordflow">switch</span> (quest_id)</div>
-<div class="line"><span class="lineno">  455</span>                {</div>
-<div class="line"><span class="lineno">  456</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a0ea1a24d4c5f770b952f01797e3297e4">QUEST_LET_THE_FIRES_COME_A</a>:</div>
-<div class="line"><span class="lineno">  457</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6aa7ed0bc8742db8f6eddfc4f7e1f8b65a">QUEST_LET_THE_FIRES_COME_H</a>:</div>
-<div class="line"><span class="lineno">  458</span>                        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../db/db5/a14241.html#a722f4bfd0fb8b2665ff2b79d3208bc90">allowQuest</a>)</div>
-<div class="line"><span class="lineno">  459</span>                        {</div>
-<div class="line"><span class="lineno">  460</span>                            qm.<a class="code hl_function" href="../../df/d39/a07549.html#ac8735756bbf9f2fa799c505bd740e070">AddMenuItem</a>(quest_id, 2);</div>
-<div class="line"><span class="lineno">  461</span>                        }</div>
-<div class="line"><span class="lineno">  462</span>                        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  463</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a65466a1b90af7a85496b0cd62801f13f">QUEST_STOP_THE_FIRES_A</a>:</div>
-<div class="line"><span class="lineno">  464</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a3c973b007034402bed2f4bbe60573c9f">QUEST_STOP_THE_FIRES_H</a>:</div>
-<div class="line"><span class="lineno">  465</span>                        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/db5/a14241.html#a722f4bfd0fb8b2665ff2b79d3208bc90">allowQuest</a>)</div>
-<div class="line"><span class="lineno">  466</span>                        {</div>
-<div class="line"><span class="lineno">  467</span>                            qm.<a class="code hl_function" href="../../df/d39/a07549.html#ac8735756bbf9f2fa799c505bd740e070">AddMenuItem</a>(quest_id, 2);</div>
-<div class="line"><span class="lineno">  468</span>                        }</div>
-<div class="line"><span class="lineno">  469</span>                        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  470</span>                    <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">  471</span>                        qm.<a class="code hl_function" href="../../df/d39/a07549.html#ac8735756bbf9f2fa799c505bd740e070">AddMenuItem</a>(quest_id, 2);</div>
-<div class="line"><span class="lineno">  472</span>                        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  473</span>                }</div>
-<div class="line"><span class="lineno">  474</span>            }</div>
-<div class="line"><span class="lineno">  475</span>        }</div>
-<div class="line"><span class="lineno">  476</span> </div>
-<div class="line"><span class="lineno">  477</span>        player-&gt;<a class="code hl_function" href="../../d8/d83/a08045.html#a558ae516e2abd8e8be169518d7209053">SendPreparedQuest</a>(<a class="code hl_variable" href="../../de/d8f/a05865.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
-<div class="line"><span class="lineno">  478</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  420</span>    {</div>
+<div class="line"><span class="lineno">  421</span>        <a class="code hl_typedef" href="../../d8/d4e/a01355.html#a4d2e936df987ca3457dc1cff99fd3394">QuestRelationBounds</a> pObjectQR = <a class="code hl_define" href="../../d8/d4e/a01355.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetCreatureQuestRelationBounds(<a class="code hl_variable" href="../../de/d8f/a05865.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
+<div class="line"><span class="lineno">  422</span>        <a class="code hl_typedef" href="../../d8/d4e/a01355.html#a4d2e936df987ca3457dc1cff99fd3394">QuestRelationBounds</a> pObjectQIR = <a class="code hl_define" href="../../d8/d4e/a01355.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetCreatureQuestInvolvedRelationBounds(<a class="code hl_variable" href="../../de/d8f/a05865.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
+<div class="line"><span class="lineno">  423</span> </div>
+<div class="line"><span class="lineno">  424</span>        <a class="code hl_class" href="../../df/d39/a07549.html">QuestMenu</a>&amp; qm = player-&gt;<a class="code hl_variable" href="../../d8/d83/a08045.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d0/d8d/a07553.html#a6129e728a42a0d74e462073ba7219eb1">GetQuestMenu</a>();</div>
+<div class="line"><span class="lineno">  425</span>        qm.<a class="code hl_function" href="../../df/d39/a07549.html#ab3d3881aabe000694acab37a3774507e">ClearMenu</a>();</div>
+<div class="line"><span class="lineno">  426</span> </div>
+<div class="line"><span class="lineno">  427</span>        <span class="keywordflow">for</span> (QuestRelations::const_iterator i = pObjectQIR.first; i != pObjectQIR.second; ++i)</div>
+<div class="line"><span class="lineno">  428</span>        {</div>
+<div class="line"><span class="lineno">  429</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> quest_id = i-&gt;second;</div>
+<div class="line"><span class="lineno">  430</span>            <a class="code hl_enumeration" href="../../d4/d29/a01817.html#abfc87d39d69176ad25e800fb4aa6f0d8">QuestStatus</a> status = player-&gt;<a class="code hl_function" href="../../d8/d83/a08045.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(quest_id);</div>
+<div class="line"><span class="lineno">  431</span>            <span class="keywordflow">if</span> (status == <a class="code hl_enumvalue" href="../../d4/d29/a01817.html#abfc87d39d69176ad25e800fb4aa6f0d8ae1b2fe2d9de28cc70b59a4bdd5f0abed">QUEST_STATUS_COMPLETE</a>)</div>
+<div class="line"><span class="lineno">  432</span>            {</div>
+<div class="line"><span class="lineno">  433</span>                qm.<a class="code hl_function" href="../../df/d39/a07549.html#ac8735756bbf9f2fa799c505bd740e070">AddMenuItem</a>(quest_id, 4);</div>
+<div class="line"><span class="lineno">  434</span>            }</div>
+<div class="line"><span class="lineno">  435</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (status == <a class="code hl_enumvalue" href="../../d4/d29/a01817.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno">  436</span>            {</div>
+<div class="line"><span class="lineno">  437</span>                qm.<a class="code hl_function" href="../../df/d39/a07549.html#ac8735756bbf9f2fa799c505bd740e070">AddMenuItem</a>(quest_id, 4);</div>
+<div class="line"><span class="lineno">  438</span>            }</div>
+<div class="line"><span class="lineno">  439</span>        }</div>
+<div class="line"><span class="lineno">  440</span> </div>
+<div class="line"><span class="lineno">  441</span>        <span class="keywordflow">for</span> (QuestRelations::const_iterator i = pObjectQR.first; i != pObjectQR.second; ++i)</div>
+<div class="line"><span class="lineno">  442</span>        {</div>
+<div class="line"><span class="lineno">  443</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> quest_id = i-&gt;second;</div>
+<div class="line"><span class="lineno">  444</span>            <a class="code hl_class" href="../../d7/dd2/a09561.html">Quest</a> <span class="keyword">const</span>* pQuest = <a class="code hl_define" href="../../d8/d4e/a01355.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetQuestTemplate(quest_id);</div>
+<div class="line"><span class="lineno">  445</span>            <span class="keywordflow">if</span> (!pQuest)</div>
+<div class="line"><span class="lineno">  446</span>            {</div>
+<div class="line"><span class="lineno">  447</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  448</span>            }</div>
+<div class="line"><span class="lineno">  449</span> </div>
+<div class="line"><span class="lineno">  450</span>            <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_function" href="../../d8/d83/a08045.html#a4119b83fa78e608d8d946b1821c57fdf">CanTakeQuest</a>(pQuest, <span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno">  451</span>            {</div>
+<div class="line"><span class="lineno">  452</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  453</span>            }</div>
+<div class="line"><span class="lineno">  454</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d83/a08045.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(quest_id) == <a class="code hl_enumvalue" href="../../d4/d29/a01817.html#abfc87d39d69176ad25e800fb4aa6f0d8abefdf5f7417012e5d2adedf1dc155f28">QUEST_STATUS_NONE</a>)</div>
+<div class="line"><span class="lineno">  455</span>            {</div>
+<div class="line"><span class="lineno">  456</span>                <span class="keywordflow">switch</span> (quest_id)</div>
+<div class="line"><span class="lineno">  457</span>                {</div>
+<div class="line"><span class="lineno">  458</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a0ea1a24d4c5f770b952f01797e3297e4">QUEST_LET_THE_FIRES_COME_A</a>:</div>
+<div class="line"><span class="lineno">  459</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6aa7ed0bc8742db8f6eddfc4f7e1f8b65a">QUEST_LET_THE_FIRES_COME_H</a>:</div>
+<div class="line"><span class="lineno">  460</span>                        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../db/db5/a14241.html#a722f4bfd0fb8b2665ff2b79d3208bc90">allowQuest</a>)</div>
+<div class="line"><span class="lineno">  461</span>                        {</div>
+<div class="line"><span class="lineno">  462</span>                            qm.<a class="code hl_function" href="../../df/d39/a07549.html#ac8735756bbf9f2fa799c505bd740e070">AddMenuItem</a>(quest_id, 2);</div>
+<div class="line"><span class="lineno">  463</span>                        }</div>
+<div class="line"><span class="lineno">  464</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  465</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a65466a1b90af7a85496b0cd62801f13f">QUEST_STOP_THE_FIRES_A</a>:</div>
+<div class="line"><span class="lineno">  466</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a3c973b007034402bed2f4bbe60573c9f">QUEST_STOP_THE_FIRES_H</a>:</div>
+<div class="line"><span class="lineno">  467</span>                        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/db5/a14241.html#a722f4bfd0fb8b2665ff2b79d3208bc90">allowQuest</a>)</div>
+<div class="line"><span class="lineno">  468</span>                        {</div>
+<div class="line"><span class="lineno">  469</span>                            qm.<a class="code hl_function" href="../../df/d39/a07549.html#ac8735756bbf9f2fa799c505bd740e070">AddMenuItem</a>(quest_id, 2);</div>
+<div class="line"><span class="lineno">  470</span>                        }</div>
+<div class="line"><span class="lineno">  471</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  472</span>                    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  473</span>                        qm.<a class="code hl_function" href="../../df/d39/a07549.html#ac8735756bbf9f2fa799c505bd740e070">AddMenuItem</a>(quest_id, 2);</div>
+<div class="line"><span class="lineno">  474</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  475</span>                }</div>
+<div class="line"><span class="lineno">  476</span>            }</div>
+<div class="line"><span class="lineno">  477</span>        }</div>
+<div class="line"><span class="lineno">  478</span> </div>
+<div class="line"><span class="lineno">  479</span>        player-&gt;<a class="code hl_function" href="../../d8/d83/a08045.html#a558ae516e2abd8e8be169518d7209053">SendPreparedQuest</a>(<a class="code hl_variable" href="../../de/d8f/a05865.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  480</span>    }</div>
 <div class="ttc" id="aa01355_html_a4d2e936df987ca3457dc1cff99fd3394"><div class="ttname"><a href="../../d8/d4e/a01355.html#a4d2e936df987ca3457dc1cff99fd3394">QuestRelationBounds</a></div><div class="ttdeci">std::pair&lt; QuestRelations::const_iterator, QuestRelations::const_iterator &gt; QuestRelationBounds</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:519</div></div>
 <div class="ttc" id="aa01355_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d8/d4e/a01355.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1612</div></div>
 <div class="ttc" id="aa01817_html_abfc87d39d69176ad25e800fb4aa6f0d8"><div class="ttname"><a href="../../d4/d29/a01817.html#abfc87d39d69176ad25e800fb4aa6f0d8">QuestStatus</a></div><div class="ttdeci">QuestStatus</div><div class="ttdef"><b>Definition:</b> QuestDef.h:99</div></div>
 <div class="ttc" id="aa01817_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d4/d29/a01817.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
 <div class="ttc" id="aa01817_html_abfc87d39d69176ad25e800fb4aa6f0d8abefdf5f7417012e5d2adedf1dc155f28"><div class="ttname"><a href="../../d4/d29/a01817.html#abfc87d39d69176ad25e800fb4aa6f0d8abefdf5f7417012e5d2adedf1dc155f28">QUEST_STATUS_NONE</a></div><div class="ttdeci">@ QUEST_STATUS_NONE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:100</div></div>
 <div class="ttc" id="aa01817_html_abfc87d39d69176ad25e800fb4aa6f0d8ae1b2fe2d9de28cc70b59a4bdd5f0abed"><div class="ttname"><a href="../../d4/d29/a01817.html#abfc87d39d69176ad25e800fb4aa6f0d8ae1b2fe2d9de28cc70b59a4bdd5f0abed">QUEST_STATUS_COMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_COMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:101</div></div>
-<div class="ttc" id="aa02894_html_a230696e3ca1a62064c000f63cb1a1ed6a0ea1a24d4c5f770b952f01797e3297e4"><div class="ttname"><a href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a0ea1a24d4c5f770b952f01797e3297e4">QUEST_LET_THE_FIRES_COME_A</a></div><div class="ttdeci">@ QUEST_LET_THE_FIRES_COME_A</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:212</div></div>
-<div class="ttc" id="aa02894_html_a230696e3ca1a62064c000f63cb1a1ed6a3c973b007034402bed2f4bbe60573c9f"><div class="ttname"><a href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a3c973b007034402bed2f4bbe60573c9f">QUEST_STOP_THE_FIRES_H</a></div><div class="ttdeci">@ QUEST_STOP_THE_FIRES_H</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:215</div></div>
-<div class="ttc" id="aa02894_html_a230696e3ca1a62064c000f63cb1a1ed6a65466a1b90af7a85496b0cd62801f13f"><div class="ttname"><a href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a65466a1b90af7a85496b0cd62801f13f">QUEST_STOP_THE_FIRES_A</a></div><div class="ttdeci">@ QUEST_STOP_THE_FIRES_A</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:214</div></div>
-<div class="ttc" id="aa02894_html_a230696e3ca1a62064c000f63cb1a1ed6aa7ed0bc8742db8f6eddfc4f7e1f8b65a"><div class="ttname"><a href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6aa7ed0bc8742db8f6eddfc4f7e1f8b65a">QUEST_LET_THE_FIRES_COME_H</a></div><div class="ttdeci">@ QUEST_LET_THE_FIRES_COME_H</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:213</div></div>
+<div class="ttc" id="aa02894_html_a230696e3ca1a62064c000f63cb1a1ed6a0ea1a24d4c5f770b952f01797e3297e4"><div class="ttname"><a href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a0ea1a24d4c5f770b952f01797e3297e4">QUEST_LET_THE_FIRES_COME_A</a></div><div class="ttdeci">@ QUEST_LET_THE_FIRES_COME_A</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:214</div></div>
+<div class="ttc" id="aa02894_html_a230696e3ca1a62064c000f63cb1a1ed6a3c973b007034402bed2f4bbe60573c9f"><div class="ttname"><a href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a3c973b007034402bed2f4bbe60573c9f">QUEST_STOP_THE_FIRES_H</a></div><div class="ttdeci">@ QUEST_STOP_THE_FIRES_H</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:217</div></div>
+<div class="ttc" id="aa02894_html_a230696e3ca1a62064c000f63cb1a1ed6a65466a1b90af7a85496b0cd62801f13f"><div class="ttname"><a href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a65466a1b90af7a85496b0cd62801f13f">QUEST_STOP_THE_FIRES_A</a></div><div class="ttdeci">@ QUEST_STOP_THE_FIRES_A</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:216</div></div>
+<div class="ttc" id="aa02894_html_a230696e3ca1a62064c000f63cb1a1ed6aa7ed0bc8742db8f6eddfc4f7e1f8b65a"><div class="ttname"><a href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6aa7ed0bc8742db8f6eddfc4f7e1f8b65a">QUEST_LET_THE_FIRES_COME_H</a></div><div class="ttdeci">@ QUEST_LET_THE_FIRES_COME_H</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:215</div></div>
 <div class="ttc" id="aa07549_html"><div class="ttname"><a href="../../df/d39/a07549.html">QuestMenu</a></div><div class="ttdef"><b>Definition:</b> GossipDef.h:228</div></div>
 <div class="ttc" id="aa07549_html_ab3d3881aabe000694acab37a3774507e"><div class="ttname"><a href="../../df/d39/a07549.html#ab3d3881aabe000694acab37a3774507e">QuestMenu::ClearMenu</a></div><div class="ttdeci">void ClearMenu()</div><div class="ttdef"><b>Definition:</b> GossipDef.cpp:311</div></div>
 <div class="ttc" id="aa07549_html_ac8735756bbf9f2fa799c505bd740e070"><div class="ttname"><a href="../../df/d39/a07549.html#ac8735756bbf9f2fa799c505bd740e070">QuestMenu::AddMenuItem</a></div><div class="ttdeci">void AddMenuItem(uint32 QuestId, uint8 Icon)</div><div class="ttdef"><b>Definition:</b> GossipDef.cpp:287</div></div>
@@ -845,7 +845,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aa08045_html_af9651858db4302e3dff8ec5bff131f72"><div class="ttname"><a href="../../d8/d83/a08045.html#af9651858db4302e3dff8ec5bff131f72">Player::PlayerTalkClass</a></div><div class="ttdeci">PlayerMenu * PlayerTalkClass</div><div class="ttdef"><b>Definition:</b> Player.h:2187</div></div>
 <div class="ttc" id="aa09561_html"><div class="ttname"><a href="../../d7/dd2/a09561.html">Quest</a></div><div class="ttdef"><b>Definition:</b> QuestDef.h:207</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00287">QuestMenu::AddMenuItem()</a>, <a class="el" href="../../#l00327">allowQuest</a>, <a class="el" href="../../#l00250">Player::CanTakeQuest()</a>, <a class="el" href="../../#l00311">QuestMenu::ClearMenu()</a>, <a class="el" href="../../#l00109">Object::GetEntry()</a>, <a class="el" href="../../#l00106">Object::GetGUID()</a>, <a class="el" href="../../#l00264">PlayerMenu::GetQuestMenu()</a>, <a class="el" href="../../#l01407">Player::GetQuestStatus()</a>, <a class="el" href="../../#l00267">ScriptedAI::me</a>, <a class="el" href="../../#l02187">Player::PlayerTalkClass</a>, <a class="el" href="../../#l00212">QUEST_LET_THE_FIRES_COME_A</a>, <a class="el" href="../../#l00213">QUEST_LET_THE_FIRES_COME_H</a>, <a class="el" href="../../#l00101">QUEST_STATUS_COMPLETE</a>, <a class="el" href="../../#l00103">QUEST_STATUS_INCOMPLETE</a>, <a class="el" href="../../#l00100">QUEST_STATUS_NONE</a>, <a class="el" href="../../#l00214">QUEST_STOP_THE_FIRES_A</a>, <a class="el" href="../../#l00215">QUEST_STOP_THE_FIRES_H</a>, <a class="el" href="../../#l00114">Player::SendPreparedQuest()</a>, and <a class="el" href="../../#l01612">sObjectMgr</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00287">QuestMenu::AddMenuItem()</a>, <a class="el" href="../../#l00329">allowQuest</a>, <a class="el" href="../../#l00250">Player::CanTakeQuest()</a>, <a class="el" href="../../#l00311">QuestMenu::ClearMenu()</a>, <a class="el" href="../../#l00109">Object::GetEntry()</a>, <a class="el" href="../../#l00106">Object::GetGUID()</a>, <a class="el" href="../../#l00264">PlayerMenu::GetQuestMenu()</a>, <a class="el" href="../../#l01407">Player::GetQuestStatus()</a>, <a class="el" href="../../#l00267">ScriptedAI::me</a>, <a class="el" href="../../#l02187">Player::PlayerTalkClass</a>, <a class="el" href="../../#l00214">QUEST_LET_THE_FIRES_COME_A</a>, <a class="el" href="../../#l00215">QUEST_LET_THE_FIRES_COME_H</a>, <a class="el" href="../../#l00101">QUEST_STATUS_COMPLETE</a>, <a class="el" href="../../#l00103">QUEST_STATUS_INCOMPLETE</a>, <a class="el" href="../../#l00100">QUEST_STATUS_NONE</a>, <a class="el" href="../../#l00216">QUEST_STOP_THE_FIRES_A</a>, <a class="el" href="../../#l00217">QUEST_STOP_THE_FIRES_H</a>, <a class="el" href="../../#l00114">Player::SendPreparedQuest()</a>, and <a class="el" href="../../#l01612">sObjectMgr</a>.</p>
 
 </div>
 </div>
@@ -884,15 +884,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/d43/a05805.html#a03076e2d142052af78e6d9e85f390fd1">UnitAI</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  481</span>    {</div>
-<div class="line"><span class="lineno">  482</span>        <span class="keywordflow">if</span> ((quest-&gt;GetQuestId() == <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a0ea1a24d4c5f770b952f01797e3297e4">QUEST_LET_THE_FIRES_COME_A</a> || quest-&gt;GetQuestId() == <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6aa7ed0bc8742db8f6eddfc4f7e1f8b65a">QUEST_LET_THE_FIRES_COME_H</a>) &amp;&amp; !<a class="code hl_variable" href="../../db/db5/a14241.html#a722f4bfd0fb8b2665ff2b79d3208bc90">allowQuest</a>)</div>
-<div class="line"><span class="lineno">  483</span>        {</div>
-<div class="line"><span class="lineno">  484</span>            <a class="code hl_function" href="../../db/db5/a14241.html#a7a7739f89604ffb5afc6bab75118340e">DoAction</a>(<a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a5a9d00590152ece2beb2305c6f271dd9">ACTION_START_EVENT</a>);</div>
-<div class="line"><span class="lineno">  485</span>        }</div>
-<div class="line"><span class="lineno">  486</span>    }</div>
-<div class="ttc" id="aa14241_html_a7a7739f89604ffb5afc6bab75118340e"><div class="ttname"><a href="../../db/db5/a14241.html#a7a7739f89604ffb5afc6bab75118340e">npc_costumed_orphan_matron::DoAction</a></div><div class="ttdeci">void DoAction(int32 param) override</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:386</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  483</span>    {</div>
+<div class="line"><span class="lineno">  484</span>        <span class="keywordflow">if</span> ((quest-&gt;GetQuestId() == <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a0ea1a24d4c5f770b952f01797e3297e4">QUEST_LET_THE_FIRES_COME_A</a> || quest-&gt;GetQuestId() == <a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6aa7ed0bc8742db8f6eddfc4f7e1f8b65a">QUEST_LET_THE_FIRES_COME_H</a>) &amp;&amp; !<a class="code hl_variable" href="../../db/db5/a14241.html#a722f4bfd0fb8b2665ff2b79d3208bc90">allowQuest</a>)</div>
+<div class="line"><span class="lineno">  485</span>        {</div>
+<div class="line"><span class="lineno">  486</span>            <a class="code hl_function" href="../../db/db5/a14241.html#a7a7739f89604ffb5afc6bab75118340e">DoAction</a>(<a class="code hl_enumvalue" href="../../dc/d38/a02894.html#a230696e3ca1a62064c000f63cb1a1ed6a5a9d00590152ece2beb2305c6f271dd9">ACTION_START_EVENT</a>);</div>
+<div class="line"><span class="lineno">  487</span>        }</div>
+<div class="line"><span class="lineno">  488</span>    }</div>
+<div class="ttc" id="aa14241_html_a7a7739f89604ffb5afc6bab75118340e"><div class="ttname"><a href="../../db/db5/a14241.html#a7a7739f89604ffb5afc6bab75118340e">npc_costumed_orphan_matron::DoAction</a></div><div class="ttdeci">void DoAction(int32 param) override</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:388</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00235">ACTION_START_EVENT</a>, <a class="el" href="../../#l00327">allowQuest</a>, <a class="el" href="../../#l00386">DoAction()</a>, <a class="el" href="../../#l00225">Quest::GetQuestId()</a>, <a class="el" href="../../#l00212">QUEST_LET_THE_FIRES_COME_A</a>, and <a class="el" href="../../#l00213">QUEST_LET_THE_FIRES_COME_H</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00237">ACTION_START_EVENT</a>, <a class="el" href="../../#l00329">allowQuest</a>, <a class="el" href="../../#l00388">DoAction()</a>, <a class="el" href="../../#l00225">Quest::GetQuestId()</a>, <a class="el" href="../../#l00214">QUEST_LET_THE_FIRES_COME_A</a>, and <a class="el" href="../../#l00215">QUEST_LET_THE_FIRES_COME_H</a>.</p>
 
 </div>
 </div>
@@ -921,20 +921,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d8f/a05865.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  405</span>    {</div>
-<div class="line"><span class="lineno">  406</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/db5/a14241.html#a5292ab4e45fe3a858b3a59ef4a79bb34">eventStarted</a>)</div>
-<div class="line"><span class="lineno">  407</span>        {</div>
-<div class="line"><span class="lineno">  408</span>            <a class="code hl_variable" href="../../db/db5/a14241.html#a5292ab4e45fe3a858b3a59ef4a79bb34">eventStarted</a> += diff;</div>
-<div class="line"><span class="lineno">  409</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/db5/a14241.html#a5292ab4e45fe3a858b3a59ef4a79bb34">eventStarted</a> &gt;= 400 * <a class="code hl_variable" href="../../df/dc8/a00122.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>)</div>
-<div class="line"><span class="lineno">  410</span>            {</div>
-<div class="line"><span class="lineno">  411</span>                <a class="code hl_variable" href="../../db/db5/a14241.html#a722f4bfd0fb8b2665ff2b79d3208bc90">allowQuest</a> = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  412</span>                <a class="code hl_variable" href="../../db/db5/a14241.html#a5292ab4e45fe3a858b3a59ef4a79bb34">eventStarted</a> = 0;</div>
-<div class="line"><span class="lineno">  413</span>            }</div>
-<div class="line"><span class="lineno">  414</span>        }</div>
-<div class="line"><span class="lineno">  415</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  407</span>    {</div>
+<div class="line"><span class="lineno">  408</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/db5/a14241.html#a5292ab4e45fe3a858b3a59ef4a79bb34">eventStarted</a>)</div>
+<div class="line"><span class="lineno">  409</span>        {</div>
+<div class="line"><span class="lineno">  410</span>            <a class="code hl_variable" href="../../db/db5/a14241.html#a5292ab4e45fe3a858b3a59ef4a79bb34">eventStarted</a> += diff;</div>
+<div class="line"><span class="lineno">  411</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/db5/a14241.html#a5292ab4e45fe3a858b3a59ef4a79bb34">eventStarted</a> &gt;= 400 * <a class="code hl_variable" href="../../df/dc8/a00122.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>)</div>
+<div class="line"><span class="lineno">  412</span>            {</div>
+<div class="line"><span class="lineno">  413</span>                <a class="code hl_variable" href="../../db/db5/a14241.html#a722f4bfd0fb8b2665ff2b79d3208bc90">allowQuest</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  414</span>                <a class="code hl_variable" href="../../db/db5/a14241.html#a5292ab4e45fe3a858b3a59ef4a79bb34">eventStarted</a> = 0;</div>
+<div class="line"><span class="lineno">  415</span>            }</div>
+<div class="line"><span class="lineno">  416</span>        }</div>
+<div class="line"><span class="lineno">  417</span>    }</div>
 <div class="ttc" id="aa00122_html_a84190f79c8167211609f67284e066c58"><div class="ttname"><a href="../../df/dc8/a00122.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></div><div class="ttdeci">constexpr auto IN_MILLISECONDS</div><div class="ttdef"><b>Definition:</b> Common.h:62</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00327">allowQuest</a>, <a class="el" href="../../#l00326">eventStarted</a>, and <a class="el" href="../../#l00062">IN_MILLISECONDS</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00329">allowQuest</a>, <a class="el" href="../../#l00328">eventStarted</a>, and <a class="el" href="../../#l00062">IN_MILLISECONDS</a>.</p>
 
 </div>
 </div>
@@ -951,7 +951,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00386">DoAction()</a>, <a class="el" href="../../#l00330">Reset()</a>, <a class="el" href="../../#l00417">sGossipHello()</a>, <a class="el" href="../../#l00480">sQuestAccept()</a>, and <a class="el" href="../../#l00404">UpdateAI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00388">DoAction()</a>, <a class="el" href="../../#l00332">Reset()</a>, <a class="el" href="../../#l00419">sGossipHello()</a>, <a class="el" href="../../#l00482">sQuestAccept()</a>, and <a class="el" href="../../#l00406">UpdateAI()</a>.</p>
 
 </div>
 </div>
@@ -967,7 +967,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00386">DoAction()</a>, <a class="el" href="../../#l00330">Reset()</a>, and <a class="el" href="../../#l00404">UpdateAI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00388">DoAction()</a>, <a class="el" href="../../#l00332">Reset()</a>, and <a class="el" href="../../#l00406">UpdateAI()</a>.</p>
 
 </div>
 </div>
@@ -983,7 +983,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00386">DoAction()</a>, and <a class="el" href="../../#l00330">Reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00388">DoAction()</a>, and <a class="el" href="../../#l00332">Reset()</a>.</p>
 
 </div>
 </div>
@@ -993,7 +993,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/db5/a14241.html">npc_costumed_orphan_matron</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 14:44:21 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sat Nov 12 2022 15:54:34 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -220,6 +220,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="../../d0/dc5/a04415.html#_todo000007">Todo:</a></b></dt><dd>: remove Field::GetCString and use std::string_view in C++17 </dd></dl>
 <p >All data is buffered, let go of mysql c api structures</p>
 <div class="fragment"><div class="line"><span class="lineno">  248</span>                                                                                                             :</div>
 <div class="line"><span class="lineno">  249</span>    <a class="code hl_variable" href="../../d8/dc9/a05513.html#a45c33d837eff40a43b8db1bd569db37e">m_rowCount</a>(rowCount),</div>
@@ -325,8 +326,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  349</span>                    <span class="comment">// when mysql_stmt_fetch returned MYSQL_DATA_TRUNCATED</span></div>
 <div class="line"><span class="lineno">  350</span>                    <span class="comment">// we cannot blindly null-terminate the data either as it may be retrieved as binary blob and not specifically a string</span></div>
 <div class="line"><span class="lineno">  351</span>                    <span class="comment">// in this case using Field::GetCString will result in garbage</span></div>
-<div class="line"><span class="lineno">  352</span>                    <span class="comment">// TODO: remove Field::GetCString and use std::string_view in C++17</span></div>
-<div class="line"><span class="lineno">  353</span>                    <span class="keywordflow">if</span> (fetched_length &lt; buffer_length)</div>
+<div class="line"><span class="lineno">  353</span><span class="comment"></span>                    <span class="keywordflow">if</span> (fetched_length &lt; buffer_length)</div>
 <div class="line"><span class="lineno">  354</span>                        *((<span class="keywordtype">char</span>*)buffer + fetched_length) = <span class="charliteral">&#39;\0&#39;</span>;</div>
 <div class="line"><span class="lineno">  355</span>                    <span class="keywordflow">break</span>;</div>
 <div class="line"><span class="lineno">  356</span>                <span class="keywordflow">default</span>:</div>
@@ -983,7 +983,7 @@ template&lt;typename... Ts&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/dc9/a05513.html">PreparedResultSet</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 14:44:34 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sat Nov 12 2022 15:54:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>
