@@ -1,7 +1,7 @@
 var a03830 =
 [
-    [ "boss_ambassador_hellmaw", "d0/d62/a24252.html", "d0/d62/a24252" ],
-    [ "boss_ambassador_hellmaw::boss_ambassador_hellmawAI", "d6/d19/a24256.html", "d6/d19/a24256" ],
+    [ "boss_ambassador_hellmaw", "d2/db5/a24253.html", "d2/db5/a24253" ],
+    [ "boss_ambassador_hellmaw::boss_ambassador_hellmawAI", "d0/d74/a24257.html", "d0/d74/a24257" ],
     [ "eEnums", "d5/de2/a03830.html#a0ec08fe05ebfdddfa34c747c9c62a165", [
       [ "SPELL_FROZEN_PRISON", "d7/d83/a03506.html#a0ec08fe05ebfdddfa34c747c9c62a165a874864078de8743889d364bbecadcee6", null ],
       [ "SPELL_TAIL_SWEEP", "d7/d83/a03506.html#a0ec08fe05ebfdddfa34c747c9c62a165addcb3daa6cdc61ef04c65580e44ef823", null ],

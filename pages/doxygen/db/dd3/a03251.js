@@ -1,11 +1,11 @@
 var a03251 =
 [
-    [ "boss_saviana_ragefire", "db/dd9/a16328.html", "db/dd9/a16328" ],
-    [ "boss_saviana_ragefire::boss_saviana_ragefireAI", "d9/d4c/a16332.html", "d9/d4c/a16332" ],
-    [ "spell_saviana_conflagration_init", "d7/da0/a16336.html", "d7/da0/a16336" ],
-    [ "spell_saviana_conflagration_init::spell_saviana_conflagration_init_SpellScript", "d1/dbc/a16340.html", "d1/dbc/a16340" ],
-    [ "spell_saviana_conflagration_throwback", "d5/d52/a16344.html", "d5/d52/a16344" ],
-    [ "spell_saviana_conflagration_throwback::spell_saviana_conflagration_throwback_SpellScript", "d3/d4f/a16348.html", "d3/d4f/a16348" ],
+    [ "boss_saviana_ragefire", "d4/d01/a16329.html", "d4/d01/a16329" ],
+    [ "boss_saviana_ragefire::boss_saviana_ragefireAI", "de/dd1/a16333.html", "de/dd1/a16333" ],
+    [ "spell_saviana_conflagration_init", "d3/d1e/a16337.html", "d3/d1e/a16337" ],
+    [ "spell_saviana_conflagration_init::spell_saviana_conflagration_init_SpellScript", "d3/dd6/a16341.html", "d3/dd6/a16341" ],
+    [ "spell_saviana_conflagration_throwback", "dc/dea/a16345.html", "dc/dea/a16345" ],
+    [ "spell_saviana_conflagration_throwback::spell_saviana_conflagration_throwback_SpellScript", "d5/de3/a16349.html", "d5/de3/a16349" ],
     [ "Events", "db/dd3/a03251.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

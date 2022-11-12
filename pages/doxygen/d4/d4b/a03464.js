@@ -1,7 +1,7 @@
 var a03464 =
 [
-    [ "boss_loatheb", "d0/d4f/a20076.html", "d0/d4f/a20076" ],
-    [ "boss_loatheb::boss_loathebAI", "d1/d98/a20080.html", "d1/d98/a20080" ],
+    [ "boss_loatheb", "db/d19/a20077.html", "db/d19/a20077" ],
+    [ "boss_loatheb::boss_loathebAI", "db/d02/a20081.html", "db/d02/a20081" ],
     [ "Events", "d4/d4b/a03464.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

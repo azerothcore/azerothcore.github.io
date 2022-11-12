@@ -1,7 +1,7 @@
 var a03272 =
 [
-    [ "npc_announcer_toc5", "d8/d4c/a16480.html", "d8/d4c/a16480" ],
-    [ "npc_announcer_toc5::npc_announcer_toc5AI", "d4/d37/a16484.html", "d4/d37/a16484" ],
+    [ "npc_announcer_toc5", "dc/d11/a16481.html", "dc/d11/a16481" ],
+    [ "npc_announcer_toc5::npc_announcer_toc5AI", "d5/d39/a16485.html", "d5/d39/a16485" ],
     [ "GOSSIP_START_EVENT1a", "d4/d1c/a03272.html#ac30d98dcd127b9d768162ca4a88db1ed", null ],
     [ "GOSSIP_START_EVENT1b", "d4/d1c/a03272.html#a366b4710c88bd2ce09f0b87741ae012c", null ],
     [ "GOSSIP_START_EVENT2", "d4/d1c/a03272.html#a734d6b75f4d69085a6340f4f376a592c", null ],

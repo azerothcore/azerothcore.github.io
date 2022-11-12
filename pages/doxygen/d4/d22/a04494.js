@@ -1,5 +1,5 @@
 var a04494 =
 [
-    [ "InitWorldStates", "d1/dc5/a10276.html", "d1/dc5/a10276" ],
-    [ "UpdateWorldState", "db/dcb/a10284.html", "db/dcb/a10284" ]
+    [ "TotemCreated", "dd/d4f/a10273.html", "dd/d4f/a10273" ],
+    [ "TotemDestroyed", "db/dba/a10269.html", "db/dba/a10269" ]
 ];

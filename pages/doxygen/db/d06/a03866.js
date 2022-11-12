@@ -1,7 +1,7 @@
 var a03866 =
 [
-    [ "boss_supremus", "d1/daa/a24632.html", "d1/daa/a24632" ],
-    [ "boss_supremus::boss_supremusAI", "d4/d2a/a24636.html", "d4/d2a/a24636" ],
+    [ "boss_supremus", "db/d60/a24633.html", "db/d60/a24633" ],
+    [ "boss_supremus::boss_supremusAI", "db/d0f/a24637.html", "db/d0f/a24637" ],
     [ "Supremus", "db/d06/a03866.html#a5a2dccece1c55769858f3285c94af1ab", [
       [ "EMOTE_NEW_TARGET", "db/d06/a03866.html#a5a2dccece1c55769858f3285c94af1abacce041f211d3aacd7153648b2b22657d", null ],
       [ "EMOTE_PUNCH_GROUND", "db/d06/a03866.html#a5a2dccece1c55769858f3285c94af1aba18c2c02f5902d5eb449f84ea9b0dda48", null ],

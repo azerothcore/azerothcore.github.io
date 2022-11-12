@@ -1,7 +1,7 @@
 var a03833 =
 [
-    [ "boss_blackheart_the_inciter", "d2/df8/a24260.html", "d2/df8/a24260" ],
-    [ "boss_blackheart_the_inciter::boss_blackheart_the_inciterAI", "d2/d2e/a24264.html", "d2/d2e/a24264" ],
+    [ "boss_blackheart_the_inciter", "da/dad/a24261.html", "da/dad/a24261" ],
+    [ "boss_blackheart_the_inciter::boss_blackheart_the_inciterAI", "d7/d5a/a24265.html", "d7/d5a/a24265" ],
     [ "BlackheartTheInciter", "de/d6a/a03833.html#a64b241cafb13db01113a5ff36be599f8", [
       [ "SPELL_INCITE_CHAOS", "de/d6a/a03833.html#a64b241cafb13db01113a5ff36be599f8a5e1ac33c7fbf31e632a6b7d122991f58", null ],
       [ "SPELL_INCITE_CHAOS_B", "de/d6a/a03833.html#a64b241cafb13db01113a5ff36be599f8ad39824970b373b4225010b0ddc8ef66f", null ],

@@ -1,13 +1,13 @@
 var a02537 =
 [
-    [ "boss_garr", "d7/d2b/a11732.html", "d7/d2b/a11732" ],
-    [ "boss_garr::boss_garrAI", "d2/d10/a11736.html", "d2/d10/a11736" ],
-    [ "npc_garr_firesworn", "d2/d0a/a11740.html", "d2/d0a/a11740" ],
-    [ "npc_garr_firesworn::npc_garr_fireswornAI", "dd/d26/a11744.html", "dd/d26/a11744" ],
-    [ "spell_garr_separation_nexiety", "d6/dce/a11748.html", "d6/dce/a11748" ],
-    [ "spell_garr_separation_nexiety::spell_garr_separation_nexiety_AuraScript", "d7/d74/a11752.html", "d7/d74/a11752" ],
-    [ "spell_garr_frenzy", "d5/dc5/a11756.html", "d5/dc5/a11756" ],
-    [ "spell_garr_frenzy::spell_garr_frenzy_SpellScript", "d1/d51/a11760.html", "d1/d51/a11760" ],
+    [ "boss_garr", "dc/df8/a11733.html", "dc/df8/a11733" ],
+    [ "boss_garr::boss_garrAI", "dc/db6/a11737.html", "dc/db6/a11737" ],
+    [ "npc_garr_firesworn", "db/d0c/a11741.html", "db/d0c/a11741" ],
+    [ "npc_garr_firesworn::npc_garr_fireswornAI", "d7/d23/a11745.html", "d7/d23/a11745" ],
+    [ "spell_garr_separation_nexiety", "de/dd4/a11749.html", "de/dd4/a11749" ],
+    [ "spell_garr_separation_nexiety::spell_garr_separation_nexiety_AuraScript", "d9/dbb/a11753.html", "d9/dbb/a11753" ],
+    [ "spell_garr_frenzy", "dd/d6a/a11757.html", "dd/d6a/a11757" ],
+    [ "spell_garr_frenzy::spell_garr_frenzy_SpellScript", "d3/d95/a11761.html", "d3/d95/a11761" ],
     [ "Events", "d1/d2e/a02537.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

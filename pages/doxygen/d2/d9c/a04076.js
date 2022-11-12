@@ -1,7 +1,7 @@
 var a04076 =
 [
-    [ "boss_gatewatcher_iron_hand", "d9/d4b/a25920.html", "d9/d4b/a25920" ],
-    [ "boss_gatewatcher_iron_hand::boss_gatewatcher_iron_handAI", "dc/d4a/a25924.html", "dc/d4a/a25924" ],
+    [ "boss_gatewatcher_iron_hand", "d7/deb/a25921.html", "d7/deb/a25921" ],
+    [ "boss_gatewatcher_iron_hand::boss_gatewatcher_iron_handAI", "d5/dd7/a25925.html", "d5/dd7/a25925" ],
     [ "Events", "d2/d9c/a04076.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

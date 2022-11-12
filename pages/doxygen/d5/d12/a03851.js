@@ -1,11 +1,11 @@
 var a03851 =
 [
-    [ "boss_gurtogg_bloodboil", "d4/d1e/a24316.html", "d4/d1e/a24316" ],
-    [ "boss_gurtogg_bloodboil::boss_gurtogg_bloodboilAI", "dc/d04/a24320.html", "dc/d04/a24320" ],
-    [ "spell_gurtogg_bloodboil", "d2/d1e/a24324.html", "d2/d1e/a24324" ],
-    [ "spell_gurtogg_bloodboil::spell_gurtogg_bloodboil_SpellScript", "d6/de3/a24328.html", "d6/de3/a24328" ],
-    [ "spell_gurtogg_eject", "de/d58/a24332.html", "de/d58/a24332" ],
-    [ "spell_gurtogg_eject::spell_gurtogg_eject_SpellScript", "d5/dea/a24336.html", "d5/dea/a24336" ],
+    [ "boss_gurtogg_bloodboil", "d8/db4/a24317.html", "d8/db4/a24317" ],
+    [ "boss_gurtogg_bloodboil::boss_gurtogg_bloodboilAI", "d0/d3e/a24321.html", "d0/d3e/a24321" ],
+    [ "spell_gurtogg_bloodboil", "db/d98/a24325.html", "db/d98/a24325" ],
+    [ "spell_gurtogg_bloodboil::spell_gurtogg_bloodboil_SpellScript", "dc/dc0/a24329.html", "dc/dc0/a24329" ],
+    [ "spell_gurtogg_eject", "dc/dc7/a24333.html", "dc/dc7/a24333" ],
+    [ "spell_gurtogg_eject::spell_gurtogg_eject_SpellScript", "d3/db4/a24337.html", "d3/db4/a24337" ],
     [ "Misc", "d5/d12/a03851.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d8/db7/a02450.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "df/d89/a02462.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

@@ -1,13 +1,13 @@
 var a02600 =
 [
-    [ "boss_midnight", "da/d29/a11984.html", "da/d29/a11984" ],
-    [ "boss_midnight::boss_midnightAI", "d5/d2a/a11988.html", "d5/d2a/a11988" ],
-    [ "boss_attumen", "df/d0e/a11992.html", "df/d0e/a11992" ],
-    [ "boss_attumen::boss_attumenAI", "d7/d7c/a11996.html", "d7/d7c/a11996" ],
-    [ "boss_attumen_midnight", "df/d27/a12000.html", "df/d27/a12000" ],
-    [ "boss_attumen_midnight::boss_attumen_midnightAI", "d3/d80/a12004.html", "d3/d80/a12004" ],
-    [ "spell_midnight_fixate", "d5/dcf/a12008.html", "d5/dcf/a12008" ],
-    [ "spell_midnight_fixate::spell_midnight_fixate_AuraScript", "d5/d54/a12012.html", "d5/d54/a12012" ],
+    [ "boss_midnight", "de/ddf/a11985.html", "de/ddf/a11985" ],
+    [ "boss_midnight::boss_midnightAI", "d5/d0b/a11989.html", "d5/d0b/a11989" ],
+    [ "boss_attumen", "d9/de1/a11993.html", "d9/de1/a11993" ],
+    [ "boss_attumen::boss_attumenAI", "d3/ddf/a11997.html", "d3/ddf/a11997" ],
+    [ "boss_attumen_midnight", "d9/da0/a12001.html", "d9/da0/a12001" ],
+    [ "boss_attumen_midnight::boss_attumen_midnightAI", "d1/d07/a12005.html", "d1/d07/a12005" ],
+    [ "spell_midnight_fixate", "da/d65/a12009.html", "da/d65/a12009" ],
+    [ "spell_midnight_fixate::spell_midnight_fixate_AuraScript", "df/d89/a12013.html", "df/d89/a12013" ],
     [ "eEvents", "d1/d88/a02600.html#a1d3512b0adb171bd0db6aad2c9e70516", [
       [ "EVENT_CHECK_HEALTH_95", "d1/d88/a02600.html#a1d3512b0adb171bd0db6aad2c9e70516a11fdfa529b6828e8739bb0ba2545e1f6", null ],
       [ "EVENT_CHECK_HEALTH_25", "d1/d88/a02600.html#a1d3512b0adb171bd0db6aad2c9e70516ab4c8308b4dc44a86daf5ee851c990687", null ],

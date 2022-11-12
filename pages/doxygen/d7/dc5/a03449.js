@@ -1,9 +1,9 @@
 var a03449 =
 [
-    [ "boss_gluth", "d0/dc7/a19960.html", "d0/dc7/a19960" ],
-    [ "boss_gluth::boss_gluthAI", "de/d2e/a19964.html", "de/d2e/a19964" ],
-    [ "spell_gluth_decimate", "de/de0/a19968.html", "de/de0/a19968" ],
-    [ "spell_gluth_decimate::spell_gluth_decimate_SpellScript", "d3/d79/a19972.html", "d3/d79/a19972" ],
+    [ "boss_gluth", "d1/df2/a19961.html", "d1/df2/a19961" ],
+    [ "boss_gluth::boss_gluthAI", "d6/dcb/a19965.html", "d6/dcb/a19965" ],
+    [ "spell_gluth_decimate", "da/dd3/a19969.html", "da/dd3/a19969" ],
+    [ "spell_gluth_decimate::spell_gluth_decimate_SpellScript", "d4/d3a/a19973.html", "d4/d3a/a19973" ],
     [ "Emotes", "d7/dc5/a03449.html#a2d0a63150f7988db8ff39124dc1cb21a", [
       [ "EMOTE_FRENZY", "dd/df4/a02510.html#a2d0a63150f7988db8ff39124dc1cb21aa55f111609d7846e27c2f642b9f46b1ac", null ],
       [ "EMOTE_SHIMMER", "dd/df4/a02510.html#a2d0a63150f7988db8ff39124dc1cb21aa706a7a036a41d3d1f2650ee226e9ec1e", null ],

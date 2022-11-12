@@ -1,6 +1,0 @@
-var classspell__blood__queen__pact__of__the__darkfallen__dmg__target_1_1spell__blood__queen__pact__o69ec14639c0710a819f13afc6703398b =
-[
-    [ "FilterTargets", "da/dd8/classspell__blood__queen__pact__of__the__darkfallen__dmg__target_1_1spell__blood__queen__pact__o69ec14639c0710a819f13afc6703398b.html#a14a8d259aa784a293e40b5e13f659833", null ],
-    [ "PrepareSpellScript", "da/dd8/classspell__blood__queen__pact__of__the__darkfallen__dmg__target_1_1spell__blood__queen__pact__o69ec14639c0710a819f13afc6703398b.html#ac8d834bcb84de835f9b2b185eef2b261", null ],
-    [ "Register", "da/dd8/classspell__blood__queen__pact__of__the__darkfallen__dmg__target_1_1spell__blood__queen__pact__o69ec14639c0710a819f13afc6703398b.html#a8ef6ae99ef8ed9d9b78ce732f28438c2", null ]
-];

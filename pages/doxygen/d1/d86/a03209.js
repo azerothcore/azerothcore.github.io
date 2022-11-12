@@ -1,10 +1,10 @@
 var a03209 =
 [
-    [ "boss_jedoga_shadowseeker", "d4/dfd/a15884.html", "d4/dfd/a15884" ],
-    [ "npc_twilight_volunteer", "d5/de5/a15888.html", "d5/de5/a15888" ],
-    [ "spell_random_lightning_visual_effect", "d4/de5/a15892.html", "d4/de5/a15892" ],
-    [ "spell_jedoga_sacrafice_beam", "d6/d2d/a15896.html", "d6/d2d/a15896" ],
-    [ "achievement_volunteer_work", "d3/d27/a15900.html", "d3/d27/a15900" ],
+    [ "boss_jedoga_shadowseeker", "d2/dbe/a15885.html", "d2/dbe/a15885" ],
+    [ "npc_twilight_volunteer", "df/da9/a15889.html", "df/da9/a15889" ],
+    [ "spell_random_lightning_visual_effect", "dc/d97/a15893.html", "dc/d97/a15893" ],
+    [ "spell_jedoga_sacrafice_beam", "da/d64/a15897.html", "da/d64/a15897" ],
+    [ "achievement_volunteer_work", "d0/d55/a15901.html", "d0/d55/a15901" ],
     [ "Actions", "d1/d86/a03209.html#a250372292659bed7ae290d8621f88ccf", [
       [ "ACTION_GUNSHIP_READY", "d6/dad/a00941.html#a250372292659bed7ae290d8621f88ccfaae8bb35d65ee37e4d232e2a67aeca581", null ],
       [ "ACTION_TELEPORT_PLAYER_TO_TRANSPORT", "d6/dad/a00941.html#a250372292659bed7ae290d8621f88ccfa6b86b0986a459bb245b3a3cd8b75040c", null ],

@@ -1,6 +1,6 @@
 var a02474 =
 [
-    [ "boss_mor_grayhoof", "dc/d43/a11400.html", "dc/d43/a11400" ],
+    [ "boss_mor_grayhoof", "d5/dc9/a11401.html", "d5/dc9/a11401" ],
     [ "Phases", "d5/d61/a02474.html#a5d32d09cde4f13ec4fb05a824d3e3219", [
       [ "PHASE_HUMAN", "d5/d61/a02474.html#a5d32d09cde4f13ec4fb05a824d3e3219aa89ac360fd4481a03c666986e321f9b6", null ],
       [ "PHASE_CAT", "d5/d61/a02474.html#a5d32d09cde4f13ec4fb05a824d3e3219a1b3fac79b38cbf006c4a86301ac01afb", null ],

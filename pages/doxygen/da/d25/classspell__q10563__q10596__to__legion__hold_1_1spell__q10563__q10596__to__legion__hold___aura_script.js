@@ -1,4 +1,0 @@
-var classspell__q10563__q10596__to__legion__hold_1_1spell__q10563__q10596__to__legion__hold___aura_script =
-[
-    [ "PrepareAuraScript", "da/d25/classspell__q10563__q10596__to__legion__hold_1_1spell__q10563__q10596__to__legion__hold___aura_script.html#a2ccd7d3908709837ff32c5730f60aff4", null ]
-];

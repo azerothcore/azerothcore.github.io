@@ -1,7 +1,7 @@
 var a02822 =
 [
-    [ "boss_nalorakk", "d6/d48/a13720.html", "d6/d48/a13720" ],
-    [ "boss_nalorakk::boss_nalorakkAI", "d5/d86/a13724.html", "d5/d86/a13724" ],
+    [ "boss_nalorakk", "d6/d95/a13721.html", "d6/d95/a13721" ],
+    [ "boss_nalorakk::boss_nalorakkAI", "d5/d7d/a13725.html", "d5/d7d/a13725" ],
     [ "Spells", "d1/de5/a02822.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

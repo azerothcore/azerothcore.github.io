@@ -1,9 +1,9 @@
 var a02924 =
 [
-    [ "boss_azgalor", "d5/d05/a14496.html", "d5/d05/a14496" ],
-    [ "boss_azgalor::boss_azgalorAI", "d0/d0b/a14500.html", "d0/d0b/a14500" ],
-    [ "npc_lesser_doomguard", "d1/dee/a14504.html", "d1/dee/a14504" ],
-    [ "npc_lesser_doomguard::npc_lesser_doomguardAI", "d3/dc0/a14508.html", "d3/dc0/a14508" ],
+    [ "boss_azgalor", "dc/d14/a14497.html", "dc/d14/a14497" ],
+    [ "boss_azgalor::boss_azgalorAI", "d3/dcc/a14501.html", "d3/dcc/a14501" ],
+    [ "npc_lesser_doomguard", "d1/d89/a14505.html", "d1/d89/a14505" ],
+    [ "npc_lesser_doomguard::npc_lesser_doomguardAI", "d5/d87/a14509.html", "d5/d87/a14509" ],
     [ "Spells", "d9/dc5/a02924.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

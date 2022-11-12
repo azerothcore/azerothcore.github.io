@@ -1,10 +1,10 @@
 var a02567 =
 [
-    [ "npc_mc_core_hound", "d4/d20/a11908.html", "d4/d20/a11908" ],
-    [ "npc_mc_core_hound::npc_mc_core_houndAI", "dc/dce/a11912.html", "dc/dce/a11912" ],
-    [ "spell_mc_play_dead", "df/d77/a11916.html", "df/d77/a11916" ],
-    [ "spell_mc_play_dead::spell_mc_play_dead_AuraScript", "d9/d23/a11920.html", "d9/d23/a11920" ],
-    [ "npc_lava_spawn", "d8/dfa/a11924.html", "d8/dfa/a11924" ],
+    [ "npc_mc_core_hound", "d5/d2a/a11909.html", "d5/d2a/a11909" ],
+    [ "npc_mc_core_hound::npc_mc_core_houndAI", "da/d42/a11913.html", "da/d42/a11913" ],
+    [ "spell_mc_play_dead", "df/d23/a11917.html", "df/d23/a11917" ],
+    [ "spell_mc_play_dead::spell_mc_play_dead_AuraScript", "d4/d53/a11921.html", "d4/d53/a11921" ],
+    [ "npc_lava_spawn", "d7/d55/a11925.html", "d7/d55/a11925" ],
     [ "Spells", "db/dab/a02567.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

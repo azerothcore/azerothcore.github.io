@@ -1,6 +1,0 @@
-var classspell__q10612__10613__the__fel__and__the__furious_1_1spell__q10612__10613__the__fel__and__the__furious___spell_script =
-[
-    [ "HandleScriptEffect", "da/d49/classspell__q10612__10613__the__fel__and__the__furious_1_1spell__q10612__10613__the__fel__and__the__furious___spell_script.html#a826a1179ae1c6a4167642d7cf7f5f820", null ],
-    [ "PrepareSpellScript", "da/d49/classspell__q10612__10613__the__fel__and__the__furious_1_1spell__q10612__10613__the__fel__and__the__furious___spell_script.html#a5aa11ad35603e8248de4f6c336ed41cb", null ],
-    [ "Register", "da/d49/classspell__q10612__10613__the__fel__and__the__furious_1_1spell__q10612__10613__the__fel__and__the__furious___spell_script.html#a698c28a17f6e6add601a0c7f4c076d8b", null ]
-];

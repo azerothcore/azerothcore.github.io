@@ -1,9 +1,9 @@
 var a03707 =
 [
-    [ "boss_zuramat", "d4/dea/a22816.html", "d4/dea/a22816" ],
-    [ "boss_zuramat::boss_zuramatAI", "de/d03/a22820.html", "de/d03/a22820" ],
-    [ "npc_vh_void_sentry", "da/dc5/a22824.html", "da/dc5/a22824" ],
-    [ "npc_vh_void_sentry::npc_vh_void_sentryAI", "d8/d5c/a22828.html", "d8/d5c/a22828" ],
+    [ "boss_zuramat", "d1/dac/a22817.html", "d1/dac/a22817" ],
+    [ "boss_zuramat::boss_zuramatAI", "db/db1/a22821.html", "db/db1/a22821" ],
+    [ "npc_vh_void_sentry", "d6/db7/a22825.html", "d6/db7/a22825" ],
+    [ "npc_vh_void_sentry::npc_vh_void_sentryAI", "dd/de3/a22829.html", "dd/de3/a22829" ],
     [ "NPC_VOID_SENTRY_BALL", "d1/d00/a03707.html#ad5b8f2597f257f84fe802e98918f9f6a", null ],
     [ "SPELL_SHROUD_OF_DARKNESS", "d1/d00/a03707.html#a2a1255dce46237f3359f293c7ae7fc7b", null ],
     [ "SPELL_VOID_SHIFT", "d1/d00/a03707.html#ad778228b5096ff64468b524b508b50fd", null ],

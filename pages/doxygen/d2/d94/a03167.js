@@ -1,8 +1,8 @@
 var a03167 =
 [
-    [ "npc_braug_dimspirit", "d0/d0a/a15624.html", "d0/d0a/a15624" ],
-    [ "npc_kaya_flathoof", "db/d4e/a15628.html", "db/d4e/a15628" ],
-    [ "npc_kaya_flathoof::npc_kaya_flathoofAI", "d3/d99/a15632.html", "d3/d99/a15632" ],
+    [ "npc_braug_dimspirit", "dc/d5c/a15625.html", "dc/d5c/a15625" ],
+    [ "npc_kaya_flathoof", "d7/d2a/a15629.html", "d7/d2a/a15629" ],
+    [ "npc_kaya_flathoof::npc_kaya_flathoofAI", "d8/d44/a15633.html", "d8/d44/a15633" ],
     [ "GOSSIP_HBD1", "d2/d94/a03167.html#a487e562e5e99ccd61aa7e93289874033", null ],
     [ "GOSSIP_HBD2", "d2/d94/a03167.html#adc43152833884ed78e5debdaaf5d500d", null ],
     [ "GOSSIP_HBD3", "d2/d94/a03167.html#aced35316178914dd542d4750f8bbb6cf", null ],

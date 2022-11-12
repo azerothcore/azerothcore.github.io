@@ -1,6 +1,0 @@
-var classspell__the__lich__king__vile__spirit__damage__target__search =
-[
-    [ "spell_the_lich_king_vile_spirit_damage_target_search_SpellScript", "de/da2/classspell__the__lich__king__vile__spirit__damage__target__search_1_1spell__the__lich__king__vil4e6f5879488486e8f3e61a9a11d7c8f3.html", "de/da2/classspell__the__lich__king__vile__spirit__damage__target__search_1_1spell__the__lich__king__vil4e6f5879488486e8f3e61a9a11d7c8f3" ],
-    [ "spell_the_lich_king_vile_spirit_damage_target_search", "db/d42/classspell__the__lich__king__vile__spirit__damage__target__search.html#ab2a137c97a67f23704a6f610dcf40fe2", null ],
-    [ "GetSpellScript", "db/d42/classspell__the__lich__king__vile__spirit__damage__target__search.html#a01fd45ddc475ec7b2fc6e6ab940e96df", null ]
-];

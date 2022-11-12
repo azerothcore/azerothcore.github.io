@@ -1,11 +1,11 @@
 var a00785 =
 [
-    [ "SummonList", "df/d3a/a05852.html", "df/d3a/a05852" ],
-    [ "EntryCheckPredicate", "d8/dad/a05856.html", "d8/dad/a05856" ],
-    [ "PlayerOrPetCheck", "d8/d7d/a05860.html", "d8/d7d/a05860" ],
-    [ "ScriptedAI", "db/d49/a05864.html", "db/d49/a05864" ],
-    [ "BossAI", "da/d96/a05868.html", "da/d96/a05868" ],
-    [ "WorldBossAI", "d8/d73/a05872.html", "d8/d73/a05872" ],
+    [ "SummonList", "dd/d6b/a05853.html", "dd/d6b/a05853" ],
+    [ "EntryCheckPredicate", "d3/d6a/a05857.html", "d3/d6a/a05857" ],
+    [ "PlayerOrPetCheck", "d6/d2b/a05861.html", "d6/d2b/a05861" ],
+    [ "ScriptedAI", "de/d8f/a05865.html", "de/d8f/a05865" ],
+    [ "BossAI", "da/df2/a05869.html", "da/df2/a05869" ],
+    [ "WorldBossAI", "d4/d80/a05873.html", "d4/d80/a05873" ],
     [ "CAST_AI", "d3/d00/a00785.html#a0476b18cfebeb691aabb4344ec4f8af3", null ],
     [ "ObjectList", "d3/d00/a00785.html#acc68161fe019b33e9356ea1473fba71d", null ],
     [ "GetClosestCreatureWithEntry", "d3/d00/a00785.html#a9ffd6f6c01576a8d3369c3a4f6dbaa0b", null ],

@@ -1,7 +1,7 @@
 var a04046 =
 [
-    [ "boss_warp_splinter", "d5/db9/a25696.html", "d5/db9/a25696" ],
-    [ "boss_warp_splinter::boss_warp_splinterAI", "d1/df8/a25700.html", "d1/df8/a25700" ],
+    [ "boss_warp_splinter", "d8/db3/a25697.html", "d8/db3/a25697" ],
+    [ "boss_warp_splinter::boss_warp_splinterAI", "d3/d5e/a25701.html", "d3/d5e/a25701" ],
     [ "Misc", "d3/d14/a04046.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d8/db7/a02450.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "df/d89/a02462.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

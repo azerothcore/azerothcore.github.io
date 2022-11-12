@@ -1,6 +1,0 @@
-var classspell__commander__sarannis__summon__reinforcements_1_1spell__commander__sarannis__summon__reinforcements___spell_script =
-[
-    [ "HandleCast", "d4/d69/classspell__commander__sarannis__summon__reinforcements_1_1spell__commander__sarannis__summon__reinforcements___spell_script.html#aa7336528931c04c3414aac57249debc2", null ],
-    [ "PrepareSpellScript", "d4/d69/classspell__commander__sarannis__summon__reinforcements_1_1spell__commander__sarannis__summon__reinforcements___spell_script.html#a78d64f9514594f1b9b64da9cb55351aa", null ],
-    [ "Register", "d4/d69/classspell__commander__sarannis__summon__reinforcements_1_1spell__commander__sarannis__summon__reinforcements___spell_script.html#a74d562c078de483a243834ab78cc7572", null ]
-];

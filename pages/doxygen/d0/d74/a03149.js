@@ -1,13 +1,13 @@
 var a03149 =
 [
-    [ "npc_zelfrax", "d4/d7f/a15464.html", "d4/d7f/a15464" ],
-    [ "npc_zelfrax::npc_zelfraxAI", "d9/d42/a15468.html", "d9/d42/a15468" ],
-    [ "spell_ooze_zap", "d8/dcc/a15472.html", "d8/dcc/a15472" ],
-    [ "spell_ooze_zap::spell_ooze_zap_SpellScript", "d0/d43/a15476.html", "d0/d43/a15476" ],
-    [ "spell_ooze_zap_channel_end", "d4/d3b/a15480.html", "d4/d3b/a15480" ],
-    [ "spell_ooze_zap_channel_end::spell_ooze_zap_channel_end_SpellScript", "d7/d34/a15484.html", "d7/d34/a15484" ],
-    [ "spell_energize_aoe", "d1/d7e/a15488.html", "d1/d7e/a15488" ],
-    [ "spell_energize_aoe::spell_energize_aoe_SpellScript", "d1/d6a/a15492.html", "d1/d6a/a15492" ],
+    [ "npc_zelfrax", "d9/d13/a15465.html", "d9/d13/a15465" ],
+    [ "npc_zelfrax::npc_zelfraxAI", "de/d91/a15469.html", "de/d91/a15469" ],
+    [ "spell_ooze_zap", "d6/d27/a15473.html", "d6/d27/a15473" ],
+    [ "spell_ooze_zap::spell_ooze_zap_SpellScript", "d9/dc7/a15477.html", "d9/dc7/a15477" ],
+    [ "spell_ooze_zap_channel_end", "d2/d01/a15481.html", "d2/d01/a15481" ],
+    [ "spell_ooze_zap_channel_end::spell_ooze_zap_channel_end_SpellScript", "d2/dcf/a15485.html", "d2/dcf/a15485" ],
+    [ "spell_energize_aoe", "d1/d6c/a15489.html", "d1/d6c/a15489" ],
+    [ "spell_energize_aoe::spell_energize_aoe_SpellScript", "d2/dbe/a15493.html", "d2/dbe/a15493" ],
     [ "SpellScripts", "d0/d74/a03149.html#a7da1350130e8c0e2dbb048bb6d532048", [
       [ "SPELL_OOZE_ZAP", "d0/d74/a03149.html#a7da1350130e8c0e2dbb048bb6d532048a1b2971d13842ea79dee4215970f1b0f8", null ],
       [ "SPELL_OOZE_ZAP_CHANNEL_END", "d0/d74/a03149.html#a7da1350130e8c0e2dbb048bb6d532048a02f7e373b9176afcf3033085c6cc4a1d", null ],

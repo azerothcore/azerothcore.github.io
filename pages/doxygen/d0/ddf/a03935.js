@@ -1,9 +1,9 @@
 var a03935 =
 [
-    [ "boss_the_black_stalker", "d9/dc9/a25260.html", "d9/dc9/a25260" ],
-    [ "boss_the_black_stalker::boss_the_black_stalkerAI", "db/d3d/a25264.html", "db/d3d/a25264" ],
-    [ "spell_gen_allergies", "d1/da2/a25268.html", "d1/da2/a25268" ],
-    [ "spell_gen_allergies::spell_gen_allergies_AuraScript", "d3/db9/a25272.html", "d3/db9/a25272" ],
+    [ "boss_the_black_stalker", "d6/d93/a25261.html", "d6/d93/a25261" ],
+    [ "boss_the_black_stalker::boss_the_black_stalkerAI", "d2/d8f/a25265.html", "d2/d8f/a25265" ],
+    [ "spell_gen_allergies", "d5/d6a/a25269.html", "d5/d6a/a25269" ],
+    [ "spell_gen_allergies::spell_gen_allergies_AuraScript", "d7/da1/a25273.html", "d7/da1/a25273" ],
     [ "eBlackStalker", "d0/ddf/a03935.html#afbee42c6927db9ad2cf9d9096eeac954", [
       [ "SPELL_LEVITATE", "d0/ddf/a03935.html#afbee42c6927db9ad2cf9d9096eeac954ad2a574f606c6448dd086526c15b6fdd2", null ],
       [ "SPELL_SUSPENSION", "d0/ddf/a03935.html#afbee42c6927db9ad2cf9d9096eeac954a0b7462c628390d15bd33088fb3d2a6a0", null ],

@@ -1,9 +1,9 @@
 var a03476 =
 [
-    [ "boss_razuvious", "d2/d0a/a20116.html", "d2/d0a/a20116" ],
-    [ "boss_razuvious::boss_razuviousAI", "d6/db4/a20120.html", "d6/db4/a20120" ],
-    [ "boss_razuvious_minion", "d3/d05/a20124.html", "d3/d05/a20124" ],
-    [ "boss_razuvious_minion::boss_razuvious_minionAI", "de/d8f/a20128.html", "de/d8f/a20128" ],
+    [ "boss_razuvious", "d1/da9/a20117.html", "d1/da9/a20117" ],
+    [ "boss_razuvious::boss_razuviousAI", "d8/d3b/a20121.html", "d8/d3b/a20121" ],
+    [ "boss_razuvious_minion", "d6/d7a/a20125.html", "d6/d7a/a20125" ],
+    [ "boss_razuvious_minion::boss_razuvious_minionAI", "d4/d80/a20129.html", "d4/d80/a20129" ],
     [ "Events", "dd/d74/a03476.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

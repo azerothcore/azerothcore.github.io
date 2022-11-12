@@ -1,12 +1,12 @@
 var a03509 =
 [
-    [ "boss_magus_telestra", "d4/d90/a20336.html", "d4/d90/a20336" ],
-    [ "boss_magus_telestra::boss_magus_telestraAI", "dd/d10/a20340.html", "dd/d10/a20340" ],
-    [ "spell_boss_magus_telestra_summon_telestra_clones", "de/d34/a20344.html", "de/d34/a20344" ],
-    [ "spell_boss_magus_telestra_summon_telestra_clones::spell_boss_magus_telestra_summon_telestra_clones_AuraScript", "d3/dc3/a20348.html", "d3/dc3/a20348" ],
-    [ "spell_boss_magus_telestra_gravity_well", "d7/d46/a20352.html", "d7/d46/a20352" ],
-    [ "spell_boss_magus_telestra_gravity_well::spell_boss_magus_telestra_gravity_well_SpellScript", "d1/d33/a20356.html", "d1/d33/a20356" ],
-    [ "achievement_split_personality", "df/d2b/a20360.html", "df/d2b/a20360" ],
+    [ "boss_magus_telestra", "d7/d5e/a20337.html", "d7/d5e/a20337" ],
+    [ "boss_magus_telestra::boss_magus_telestraAI", "de/d98/a20341.html", "de/d98/a20341" ],
+    [ "spell_boss_magus_telestra_summon_telestra_clones", "de/d9a/a20345.html", "de/d9a/a20345" ],
+    [ "spell_boss_magus_telestra_summon_telestra_clones::spell_boss_magus_telestra_summon_telestra_clones_AuraScript", "dd/d3d/a20349.html", "dd/d3d/a20349" ],
+    [ "spell_boss_magus_telestra_gravity_well", "d9/d82/a20353.html", "d9/d82/a20353" ],
+    [ "spell_boss_magus_telestra_gravity_well::spell_boss_magus_telestra_gravity_well_SpellScript", "db/d29/a20357.html", "db/d29/a20357" ],
+    [ "achievement_split_personality", "d2/d23/a20361.html", "d2/d23/a20361" ],
     [ "Events", "df/d8e/a03509.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

@@ -1,9 +1,9 @@
 var a03467 =
 [
-    [ "boss_maexxna", "d8/def/a20084.html", "d8/def/a20084" ],
-    [ "boss_maexxna::boss_maexxnaAI", "d0/d87/a20088.html", "d0/d87/a20088" ],
-    [ "boss_maexxna_webwrap", "d8/d89/a20092.html", "d8/d89/a20092" ],
-    [ "boss_maexxna_webwrap::boss_maexxna_webwrapAI", "d1/d75/a20096.html", "d1/d75/a20096" ],
+    [ "boss_maexxna", "d6/dca/a20085.html", "d6/dca/a20085" ],
+    [ "boss_maexxna::boss_maexxnaAI", "d1/d16/a20089.html", "d1/d16/a20089" ],
+    [ "boss_maexxna_webwrap", "da/db7/a20093.html", "da/db7/a20093" ],
+    [ "boss_maexxna_webwrap::boss_maexxna_webwrapAI", "df/d54/a20097.html", "df/d54/a20097" ],
     [ "Emotes", "d7/db0/a03467.html#a2d0a63150f7988db8ff39124dc1cb21a", [
       [ "EMOTE_FRENZY", "dd/df4/a02510.html#a2d0a63150f7988db8ff39124dc1cb21aa55f111609d7846e27c2f642b9f46b1ac", null ],
       [ "EMOTE_SHIMMER", "dd/df4/a02510.html#a2d0a63150f7988db8ff39124dc1cb21aa706a7a036a41d3d1f2650ee226e9ec1e", null ],

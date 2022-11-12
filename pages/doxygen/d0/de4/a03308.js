@@ -1,13 +1,13 @@
 var a03308 =
 [
-    [ "boss_tharon_ja", "d3/d87/a16912.html", "d3/d87/a16912" ],
-    [ "boss_tharon_ja::boss_tharon_jaAI", "d6/d47/a16916.html", "d6/d47/a16916" ],
-    [ "spell_tharon_ja_curse_of_life", "dc/dcf/a16920.html", "dc/dcf/a16920" ],
-    [ "spell_tharon_ja_curse_of_life::spell_tharon_ja_curse_of_life_AuraScript", "d2/d97/a16924.html", "d2/d97/a16924" ],
-    [ "spell_tharon_ja_dummy", "de/d96/a16928.html", "de/d96/a16928" ],
-    [ "spell_tharon_ja_dummy::spell_tharon_ja_dummy_AuraScript", "d3/d11/a16932.html", "d3/d11/a16932" ],
-    [ "spell_tharon_ja_clear_gift_of_tharon_ja", "d4/d05/a16936.html", "d4/d05/a16936" ],
-    [ "spell_tharon_ja_clear_gift_of_tharon_ja::spell_tharon_ja_clear_gift_of_tharon_ja_SpellScript", "d6/d61/a16940.html", "d6/d61/a16940" ],
+    [ "boss_tharon_ja", "d9/d4a/a16913.html", "d9/d4a/a16913" ],
+    [ "boss_tharon_ja::boss_tharon_jaAI", "d3/dd8/a16917.html", "d3/dd8/a16917" ],
+    [ "spell_tharon_ja_curse_of_life", "dc/df6/a16921.html", "dc/df6/a16921" ],
+    [ "spell_tharon_ja_curse_of_life::spell_tharon_ja_curse_of_life_AuraScript", "df/d58/a16925.html", "df/d58/a16925" ],
+    [ "spell_tharon_ja_dummy", "dd/d97/a16929.html", "dd/d97/a16929" ],
+    [ "spell_tharon_ja_dummy::spell_tharon_ja_dummy_AuraScript", "d7/d87/a16933.html", "d7/d87/a16933" ],
+    [ "spell_tharon_ja_clear_gift_of_tharon_ja", "d9/d9d/a16937.html", "d9/d9d/a16937" ],
+    [ "spell_tharon_ja_clear_gift_of_tharon_ja::spell_tharon_ja_clear_gift_of_tharon_ja_SpellScript", "dd/dc2/a16941.html", "dd/dc2/a16941" ],
     [ "Misc", "d0/de4/a03308.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d8/db7/a02450.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "df/d89/a02462.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

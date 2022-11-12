@@ -1,9 +1,9 @@
 var a02603 =
 [
-    [ "boss_moroes", "da/de8/a12016.html", "da/de8/a12016" ],
-    [ "boss_moroes::boss_moroesAI", "d3/d6d/a12020.html", "d3/d6d/a12020" ],
-    [ "spell_moroes_vanish", "d2/de0/a12024.html", "d2/de0/a12024" ],
-    [ "spell_moroes_vanish::spell_moroes_vanish_SpellScript", "d6/d7c/a12028.html", "d6/d7c/a12028" ],
+    [ "boss_moroes", "dc/dc6/a12017.html", "dc/dc6/a12017" ],
+    [ "boss_moroes::boss_moroesAI", "db/d31/a12021.html", "db/d31/a12021" ],
+    [ "spell_moroes_vanish", "d5/d48/a12025.html", "d5/d48/a12025" ],
+    [ "spell_moroes_vanish::spell_moroes_vanish_SpellScript", "d9/d21/a12029.html", "d9/d21/a12029" ],
     [ "Misc", "d1/d23/a02603.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d8/db7/a02450.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "df/d89/a02462.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

@@ -1,4 +1,4 @@
 var a04488 =
 [
-    [ "SetSheathed", "d7/da7/a09904.html", "d7/da7/a09904" ]
+    [ "EnvironmentalDamageLog", "d5/d3c/a09901.html", "d5/d3c/a09901" ]
 ];

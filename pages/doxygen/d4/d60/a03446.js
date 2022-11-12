@@ -1,10 +1,10 @@
 var a03446 =
 [
-    [ "boss_four_horsemen", "df/d78/a19940.html", "df/d78/a19940" ],
-    [ "boss_four_horsemen::boss_four_horsemenAI", "d2/d18/a19944.html", "d2/d18/a19944" ],
-    [ "spell_four_horsemen_mark", "d7/d47/a19948.html", "d7/d47/a19948" ],
-    [ "spell_four_horsemen_mark::spell_four_horsemen_mark_AuraScript", "da/d4d/a19952.html", "da/d4d/a19952" ],
-    [ "spell_four_horsemen_consumption", "d6/db7/a19956.html", "d6/db7/a19956" ],
+    [ "boss_four_horsemen", "d6/d83/a19941.html", "d6/d83/a19941" ],
+    [ "boss_four_horsemen::boss_four_horsemenAI", "d9/d1a/a19945.html", "d9/d1a/a19945" ],
+    [ "spell_four_horsemen_mark", "d9/df2/a19949.html", "d9/df2/a19949" ],
+    [ "spell_four_horsemen_mark::spell_four_horsemen_mark_AuraScript", "db/d8c/a19953.html", "db/d8c/a19953" ],
+    [ "spell_four_horsemen_consumption", "db/d80/a19957.html", "db/d80/a19957" ],
     [ "Events", "d4/d60/a03446.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

@@ -1,9 +1,9 @@
 var a03887 =
 [
-    [ "boss_fathomlord_karathress", "db/df2/a24928.html", "db/df2/a24928" ],
-    [ "boss_fathomlord_karathress::boss_fathomlord_karathressAI", "d9/d43/a24932.html", "d9/d43/a24932" ],
-    [ "spell_karathress_power_of_caribdis", "de/d7c/a24936.html", "de/d7c/a24936" ],
-    [ "spell_karathress_power_of_caribdis::spell_karathress_power_of_caribdis_AuraScript", "d1/d3f/a24940.html", "d1/d3f/a24940" ],
+    [ "boss_fathomlord_karathress", "d2/da4/a24929.html", "d2/da4/a24929" ],
+    [ "boss_fathomlord_karathress::boss_fathomlord_karathressAI", "d1/dc4/a24933.html", "d1/dc4/a24933" ],
+    [ "spell_karathress_power_of_caribdis", "d4/dc8/a24937.html", "d4/dc8/a24937" ],
+    [ "spell_karathress_power_of_caribdis::spell_karathress_power_of_caribdis_AuraScript", "dd/d22/a24941.html", "dd/d22/a24941" ],
     [ "Misc", "d5/d45/a03887.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d8/db7/a02450.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "df/d89/a02462.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

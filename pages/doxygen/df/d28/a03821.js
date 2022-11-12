@@ -1,9 +1,9 @@
 var a03821 =
 [
-    [ "boss_talon_king_ikiss", "d7/d18/a24228.html", "d7/d18/a24228" ],
-    [ "boss_talon_king_ikiss::boss_talon_king_ikissAI", "d2/ddd/a24232.html", "d2/ddd/a24232" ],
-    [ "boss_anzu", "d3/d3e/a24236.html", "d3/d3e/a24236" ],
-    [ "boss_anzu::boss_anzuAI", "d9/dce/a24240.html", "d9/dce/a24240" ],
+    [ "boss_talon_king_ikiss", "d3/db5/a24229.html", "d3/db5/a24229" ],
+    [ "boss_talon_king_ikiss::boss_talon_king_ikissAI", "d4/d86/a24233.html", "d4/d86/a24233" ],
+    [ "boss_anzu", "d2/db9/a24237.html", "d2/db9/a24237" ],
+    [ "boss_anzu::boss_anzuAI", "d5/d63/a24241.html", "d5/d63/a24241" ],
     [ "Anzu", "df/d28/a03821.html#a7a04cdf32ea2f27aafef4918d8292092", [
       [ "SAY_ANZU_INTRO1", "df/d28/a03821.html#a7a04cdf32ea2f27aafef4918d8292092acbc18c6c43b1e35b8e0910276c6cf7f7", null ],
       [ "SAY_ANZU_INTRO2", "df/d28/a03821.html#a7a04cdf32ea2f27aafef4918d8292092a588218d2a14b1fa76ee078d361f24f5b", null ],

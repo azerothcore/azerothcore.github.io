@@ -1,7 +1,7 @@
 var a02930 =
 [
-    [ "boss_rage_winterchill", "d2/dda/a14532.html", "d2/dda/a14532" ],
-    [ "boss_rage_winterchill::boss_rage_winterchillAI", "d6/d62/a14536.html", "d6/d62/a14536" ],
+    [ "boss_rage_winterchill", "dc/daa/a14533.html", "dc/daa/a14533" ],
+    [ "boss_rage_winterchill::boss_rage_winterchillAI", "d5/dd5/a14537.html", "d5/dd5/a14537" ],
     [ "Spells", "d6/d41/a02930.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

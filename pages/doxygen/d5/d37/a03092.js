@@ -1,8 +1,8 @@
 var a03092 =
 [
-    [ "boss_huhuran", "d2/df5/a15120.html", "d2/df5/a15120" ],
-    [ "spell_huhuran_wyvern_sting", "d6/da3/a15124.html", "d6/da3/a15124" ],
-    [ "spell_huhuran_poison_bolt", "d9/df6/a15128.html", "d9/df6/a15128" ],
+    [ "boss_huhuran", "d2/d94/a15121.html", "d2/d94/a15121" ],
+    [ "spell_huhuran_wyvern_sting", "df/da9/a15125.html", "df/da9/a15125" ],
+    [ "spell_huhuran_poison_bolt", "dc/da8/a15129.html", "dc/da8/a15129" ],
     [ "Emotes", "d5/d37/a03092.html#a2d0a63150f7988db8ff39124dc1cb21a", [
       [ "EMOTE_FRENZY", "dd/df4/a02510.html#a2d0a63150f7988db8ff39124dc1cb21aa55f111609d7846e27c2f642b9f46b1ac", null ],
       [ "EMOTE_SHIMMER", "dd/df4/a02510.html#a2d0a63150f7988db8ff39124dc1cb21aa706a7a036a41d3d1f2650ee226e9ec1e", null ],

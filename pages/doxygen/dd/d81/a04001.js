@@ -1,7 +1,7 @@
 var a04001 =
 [
-    [ "boss_warchief_kargath_bladefist", "dd/d5c/a25564.html", "dd/d5c/a25564" ],
-    [ "boss_warchief_kargath_bladefist::boss_warchief_kargath_bladefistAI", "d7/d7d/a25568.html", "d7/d7d/a25568" ],
+    [ "boss_warchief_kargath_bladefist", "d6/ddd/a25565.html", "d6/ddd/a25565" ],
+    [ "boss_warchief_kargath_bladefist::boss_warchief_kargath_bladefistAI", "d2/daa/a25569.html", "d2/daa/a25569" ],
     [ "Creatures", "dd/d81/a04001.html#a25a619e6b66096a4f05d048e4a96df08", [
       [ "NPC_NORTH_MARSHAL", "d1/d29/a02393.html#a25a619e6b66096a4f05d048e4a96df08abeb6d3b1ff8238f7c57911ab8acde69e", null ],
       [ "NPC_SOUTH_MARSHAL", "d1/d29/a02393.html#a25a619e6b66096a4f05d048e4a96df08a9a3360dc10641daabdef8158f42ee00e", null ],

@@ -1,9 +1,9 @@
 var a02918 =
 [
-    [ "boss_anetheron", "db/db3/a14424.html", "db/db3/a14424" ],
-    [ "boss_anetheron::boss_anetheronAI", "d9/de1/a14428.html", "d9/de1/a14428" ],
-    [ "npc_towering_infernal", "de/d7d/a14432.html", "de/d7d/a14432" ],
-    [ "npc_towering_infernal::npc_towering_infernalAI", "d5/d7c/a14436.html", "d5/d7c/a14436" ],
+    [ "boss_anetheron", "d9/d10/a14425.html", "d9/d10/a14425" ],
+    [ "boss_anetheron::boss_anetheronAI", "d7/db9/a14429.html", "d7/db9/a14429" ],
+    [ "npc_towering_infernal", "d2/db5/a14433.html", "d2/db5/a14433" ],
+    [ "npc_towering_infernal::npc_towering_infernalAI", "d8/d07/a14437.html", "d8/d07/a14437" ],
     [ "Spells", "d4/db9/a02918.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

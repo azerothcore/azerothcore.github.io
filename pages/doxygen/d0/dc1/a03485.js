@@ -1,10 +1,10 @@
 var a03485 =
 [
-    [ "instance_naxxramas", "d0/d80/a20192.html", "d0/d80/a20192" ],
-    [ "instance_naxxramas::instance_naxxramas_InstanceMapScript", "d2/d3f/a20196.html", "d2/d3f/a20196" ],
-    [ "boss_naxxramas_misc", "db/d09/a20200.html", "db/d09/a20200" ],
-    [ "boss_naxxramas_misc::boss_naxxramas_miscAI", "db/d20/a20204.html", "db/d20/a20204" ],
-    [ "at_naxxramas_hub_portal", "d9/dad/a20208.html", "d9/dad/a20208" ],
+    [ "instance_naxxramas", "d6/d68/a20193.html", "d6/d68/a20193" ],
+    [ "instance_naxxramas::instance_naxxramas_InstanceMapScript", "d2/dfd/a20197.html", "d2/dfd/a20197" ],
+    [ "boss_naxxramas_misc", "dd/d30/a20201.html", "dd/d30/a20201" ],
+    [ "boss_naxxramas_misc::boss_naxxramas_miscAI", "d5/d35/a20205.html", "d5/d35/a20205" ],
+    [ "at_naxxramas_hub_portal", "d1/d6d/a20209.html", "d1/d6d/a20209" ],
     [ "AddSC_instance_naxxramas", "d0/dc1/a03485.html#aba1e1afda4423e51a1849a33da49a334", null ],
     [ "GetEruptionSection", "d0/dc1/a03485.html#a901343efd9af23ac79087eef84926a75", null ],
     [ "HeiganEruptionSlope", "d0/dc1/a03485.html#afc813e25da4423b11b3f71a4c3434b43", null ],

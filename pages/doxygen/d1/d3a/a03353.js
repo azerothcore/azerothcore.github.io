@@ -1,13 +1,13 @@
 var a03353 =
 [
-    [ "boss_ick", "d7/d8d/a17288.html", "d7/d8d/a17288" ],
-    [ "boss_ick::boss_ickAI", "d5/db3/a17292.html", "d5/db3/a17292" ],
-    [ "boss_krick", "d6/d9b/a17296.html", "d6/d9b/a17296" ],
-    [ "boss_krick::boss_krickAI", "d9/d00/a17300.html", "d9/d00/a17300" ],
-    [ "spell_krick_explosive_barrage", "d3/d23/a17304.html", "d3/d23/a17304" ],
-    [ "spell_krick_explosive_barrage::spell_krick_explosive_barrage_AuraScript", "da/ddd/a17308.html", "da/ddd/a17308" ],
-    [ "spell_exploding_orb_auto_grow", "da/dc7/a17312.html", "da/dc7/a17312" ],
-    [ "spell_exploding_orb_auto_grow::spell_exploding_orb_auto_grow_AuraScript", "db/dba/a17316.html", "db/dba/a17316" ],
+    [ "boss_ick", "dd/df9/a17289.html", "dd/df9/a17289" ],
+    [ "boss_ick::boss_ickAI", "d2/d78/a17293.html", "d2/d78/a17293" ],
+    [ "boss_krick", "dc/d4e/a17297.html", "dc/d4e/a17297" ],
+    [ "boss_krick::boss_krickAI", "d3/ddd/a17301.html", "d3/ddd/a17301" ],
+    [ "spell_krick_explosive_barrage", "da/d13/a17305.html", "da/d13/a17305" ],
+    [ "spell_krick_explosive_barrage::spell_krick_explosive_barrage_AuraScript", "d8/df9/a17309.html", "d8/df9/a17309" ],
+    [ "spell_exploding_orb_auto_grow", "d8/dfc/a17313.html", "d8/dfc/a17313" ],
+    [ "spell_exploding_orb_auto_grow::spell_exploding_orb_auto_grow_AuraScript", "da/d45/a17317.html", "da/d45/a17317" ],
     [ "EMOTE_ICK_CHASING", "d1/d3a/a03353.html#a6a7e793ab69507963220ecd0dc6f4816", null ],
     [ "Events", "d1/d3a/a03353.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],

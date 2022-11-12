@@ -1,10 +1,10 @@
 var a02525 =
 [
-    [ "boss_razorgore", "df/d16/a11656.html", "df/d16/a11656" ],
-    [ "boss_razorgore::boss_razorgoreAI", "d8/d1f/a11660.html", "d8/d1f/a11660" ],
-    [ "go_orb_of_domination", "da/d44/a11664.html", "da/d44/a11664" ],
-    [ "spell_egg_event", "d6/dae/a11668.html", "d6/dae/a11668" ],
-    [ "spell_egg_event::spell_egg_eventSpellScript", "df/d85/a11672.html", "df/d85/a11672" ],
+    [ "boss_razorgore", "d7/d8b/a11657.html", "d7/d8b/a11657" ],
+    [ "boss_razorgore::boss_razorgoreAI", "d1/d11/a11661.html", "d1/d11/a11661" ],
+    [ "go_orb_of_domination", "d4/dc3/a11665.html", "d4/dc3/a11665" ],
+    [ "spell_egg_event", "d4/de0/a11669.html", "d4/de0/a11669" ],
+    [ "spell_egg_event::spell_egg_eventSpellScript", "de/dc1/a11673.html", "de/dc1/a11673" ],
     [ "EVENTS", "db/de8/a02525.html#a0383e5bf22653a832beeabda82c1eeb3", [
       [ "EVENT_CLEAVE", "db/de8/a02525.html#a0383e5bf22653a832beeabda82c1eeb3ad4266671217cc53e473a6844d92ef36a", null ],
       [ "EVENT_STOMP", "db/de8/a02525.html#a0383e5bf22653a832beeabda82c1eeb3aae6a7bd26e8ee17a505a5f6c6f720316", null ],

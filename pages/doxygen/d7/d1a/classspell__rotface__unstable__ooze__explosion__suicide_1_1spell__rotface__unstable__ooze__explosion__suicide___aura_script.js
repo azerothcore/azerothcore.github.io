@@ -1,6 +1,0 @@
-var classspell__rotface__unstable__ooze__explosion__suicide_1_1spell__rotface__unstable__ooze__explosion__suicide___aura_script =
-[
-    [ "DespawnSelf", "d7/d1a/classspell__rotface__unstable__ooze__explosion__suicide_1_1spell__rotface__unstable__ooze__explosion__suicide___aura_script.html#a5345a03dcd239786fd52a19749b86a62", null ],
-    [ "PrepareAuraScript", "d7/d1a/classspell__rotface__unstable__ooze__explosion__suicide_1_1spell__rotface__unstable__ooze__explosion__suicide___aura_script.html#a7c2d322d08514b993569bf6852494c05", null ],
-    [ "Register", "d7/d1a/classspell__rotface__unstable__ooze__explosion__suicide_1_1spell__rotface__unstable__ooze__explosion__suicide___aura_script.html#a5a203c469dd0070eb4b2dd667ebaebfd", null ]
-];

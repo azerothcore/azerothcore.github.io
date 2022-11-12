@@ -1,10 +1,10 @@
 var a03959 =
 [
-    [ "boss_broggok", "da/d59/a25372.html", "da/d59/a25372" ],
-    [ "boss_broggok::boss_broggokAI", "df/d71/a25376.html", "df/d71/a25376" ],
-    [ "go_broggok_lever", "d0/d0f/a25380.html", "d0/d0f/a25380" ],
-    [ "spell_broggok_poison_cloud", "db/d04/a25384.html", "db/d04/a25384" ],
-    [ "spell_broggok_poison_cloud::spell_broggok_poison_cloud_AuraScript", "da/dc8/a25388.html", "da/dc8/a25388" ],
+    [ "boss_broggok", "d7/d74/a25373.html", "d7/d74/a25373" ],
+    [ "boss_broggok::boss_broggokAI", "d0/db7/a25377.html", "d0/db7/a25377" ],
+    [ "go_broggok_lever", "d1/d15/a25381.html", "d1/d15/a25381" ],
+    [ "spell_broggok_poison_cloud", "d4/d34/a25385.html", "d4/d34/a25385" ],
+    [ "spell_broggok_poison_cloud::spell_broggok_poison_cloud_AuraScript", "d4/d49/a25389.html", "d4/d49/a25389" ],
     [ "eEnums", "d1/d55/a03959.html#a0ec08fe05ebfdddfa34c747c9c62a165", [
       [ "SPELL_FROZEN_PRISON", "d7/d83/a03506.html#a0ec08fe05ebfdddfa34c747c9c62a165a874864078de8743889d364bbecadcee6", null ],
       [ "SPELL_TAIL_SWEEP", "d7/d83/a03506.html#a0ec08fe05ebfdddfa34c747c9c62a165addcb3daa6cdc61ef04c65580e44ef823", null ],

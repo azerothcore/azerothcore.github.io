@@ -1,9 +1,9 @@
 var a02840 =
 [
-    [ "boss_gahzranka", "d2/d77/a13808.html", "d2/d77/a13808" ],
-    [ "boss_gahzranka::boss_gahzrankaAI", "dd/dda/a13812.html", "dd/dda/a13812" ],
-    [ "spell_gahzranka_slam", "d0/d6a/a13816.html", "d0/d6a/a13816" ],
-    [ "spell_pagles_point_cast", "de/db6/a13820.html", "de/db6/a13820" ],
+    [ "boss_gahzranka", "d9/d70/a13809.html", "d9/d70/a13809" ],
+    [ "boss_gahzranka::boss_gahzrankaAI", "da/d38/a13813.html", "da/d38/a13813" ],
+    [ "spell_gahzranka_slam", "dc/daa/a13817.html", "dc/daa/a13817" ],
+    [ "spell_pagles_point_cast", "d1/da2/a13821.html", "d1/da2/a13821" ],
     [ "Events", "d9/d4d/a02840.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

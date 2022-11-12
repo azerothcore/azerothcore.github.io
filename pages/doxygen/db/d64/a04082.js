@@ -1,11 +1,11 @@
 var a04082 =
 [
-    [ "boss_nethermancer_sepethrea", "dc/d98/a25952.html", "dc/d98/a25952" ],
-    [ "boss_nethermancer_sepethrea::boss_nethermancer_sepethreaAI", "d3/d65/a25956.html", "d3/d65/a25956" ],
-    [ "npc_ragin_flames", "d2/d05/a25960.html", "d2/d05/a25960" ],
-    [ "npc_ragin_flames::npc_ragin_flamesAI", "d9/d8d/a25964.html", "d9/d8d/a25964" ],
-    [ "spell_ragin_flames_inferno", "d7/dbc/a25968.html", "d7/dbc/a25968" ],
-    [ "spell_ragin_flames_inferno::spell_ragin_flames_inferno_AuraScript", "d9/dff/a25972.html", "d9/dff/a25972" ],
+    [ "boss_nethermancer_sepethrea", "d8/d17/a25953.html", "d8/d17/a25953" ],
+    [ "boss_nethermancer_sepethrea::boss_nethermancer_sepethreaAI", "d8/dfd/a25957.html", "d8/dfd/a25957" ],
+    [ "npc_ragin_flames", "d5/d34/a25961.html", "d5/d34/a25961" ],
+    [ "npc_ragin_flames::npc_ragin_flamesAI", "d0/d01/a25965.html", "d0/d01/a25965" ],
+    [ "spell_ragin_flames_inferno", "da/d8f/a25969.html", "da/d8f/a25969" ],
+    [ "spell_ragin_flames_inferno::spell_ragin_flames_inferno_AuraScript", "d1/d2e/a25973.html", "d1/d2e/a25973" ],
     [ "Events", "db/d64/a04082.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

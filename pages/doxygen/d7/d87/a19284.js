@@ -1,9 +1,0 @@
-var a19284 =
-[
-    [ "DelayedCastEvent", "d7/d87/a19284.html#ae6d57612065d56ce79197aedebedf9f9", null ],
-    [ "Execute", "d7/d87/a19284.html#ae2925429b3049e44d2afd2e8b990af71", null ],
-    [ "_despawnTime", "d7/d87/a19284.html#acc9e22eb1908e4c458199fc4cccd56c6", null ],
-    [ "_originalCaster", "d7/d87/a19284.html#adb07c24a947d59d2ef1f61b8ab18d328", null ],
-    [ "_spellId", "d7/d87/a19284.html#abe28a6749101233302634ed226a289e8", null ],
-    [ "_trigger", "d7/d87/a19284.html#a85471a151a3165cc906f3a41103c3f5d", null ]
-];

@@ -1,13 +1,13 @@
 var a03890 =
 [
-    [ "boss_hydross_the_unstable", "dc/d94/a24944.html", "dc/d94/a24944" ],
-    [ "boss_hydross_the_unstable::boss_hydross_the_unstableAI", "de/d0c/a24948.html", "de/d0c/a24948" ],
-    [ "spell_hydross_cleansing_field_aura", "d4/d21/a24952.html", "d4/d21/a24952" ],
-    [ "spell_hydross_cleansing_field_aura::spell_hydross_cleansing_field_aura_AuraScript", "db/d2e/a24956.html", "db/d2e/a24956" ],
-    [ "spell_hydross_cleansing_field_command", "de/d44/a24960.html", "de/d44/a24960" ],
-    [ "spell_hydross_cleansing_field_command::spell_hydross_cleansing_field_command_AuraScript", "df/dff/a24964.html", "df/dff/a24964" ],
-    [ "spell_hydross_mark_of_hydross", "dc/d30/a24968.html", "dc/d30/a24968" ],
-    [ "spell_hydross_mark_of_hydross::spell_hydross_mark_of_hydross_AuraScript", "dd/dd2/a24972.html", "dd/dd2/a24972" ],
+    [ "boss_hydross_the_unstable", "d3/da6/a24945.html", "d3/da6/a24945" ],
+    [ "boss_hydross_the_unstable::boss_hydross_the_unstableAI", "d2/d86/a24949.html", "d2/d86/a24949" ],
+    [ "spell_hydross_cleansing_field_aura", "de/d3b/a24953.html", "de/d3b/a24953" ],
+    [ "spell_hydross_cleansing_field_aura::spell_hydross_cleansing_field_aura_AuraScript", "d1/d4d/a24957.html", "d1/d4d/a24957" ],
+    [ "spell_hydross_cleansing_field_command", "d1/d48/a24961.html", "d1/d48/a24961" ],
+    [ "spell_hydross_cleansing_field_command::spell_hydross_cleansing_field_command_AuraScript", "d9/d8a/a24965.html", "d9/d8a/a24965" ],
+    [ "spell_hydross_mark_of_hydross", "db/d64/a24969.html", "db/d64/a24969" ],
+    [ "spell_hydross_mark_of_hydross::spell_hydross_mark_of_hydross_AuraScript", "d5/dd6/a24973.html", "d5/dd6/a24973" ],
     [ "Misc", "d2/df3/a03890.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d8/db7/a02450.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "df/d89/a02462.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

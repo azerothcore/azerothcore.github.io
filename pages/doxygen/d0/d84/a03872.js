@@ -1,11 +1,11 @@
 var a03872 =
 [
-    [ "boss_najentus", "d3/dff/a24684.html", "d3/dff/a24684" ],
-    [ "boss_najentus::boss_najentusAI", "d5/d6b/a24688.html", "d5/d6b/a24688" ],
-    [ "spell_najentus_needle_spine", "d1/d15/a24692.html", "d1/d15/a24692" ],
-    [ "spell_najentus_needle_spine::spell_najentus_needle_spine_SpellScript", "d7/dde/a24696.html", "d7/dde/a24696" ],
-    [ "spell_najentus_hurl_spine", "df/d98/a24700.html", "df/d98/a24700" ],
-    [ "spell_najentus_hurl_spine::spell_najentus_hurl_spine_SpellScript", "de/d08/a24704.html", "de/d08/a24704" ],
+    [ "boss_najentus", "dc/d5b/a24685.html", "dc/d5b/a24685" ],
+    [ "boss_najentus::boss_najentusAI", "dd/d53/a24689.html", "dd/d53/a24689" ],
+    [ "spell_najentus_needle_spine", "dd/dd4/a24693.html", "dd/dd4/a24693" ],
+    [ "spell_najentus_needle_spine::spell_najentus_needle_spine_SpellScript", "d0/d08/a24697.html", "d0/d08/a24697" ],
+    [ "spell_najentus_hurl_spine", "d1/dea/a24701.html", "d1/dea/a24701" ],
+    [ "spell_najentus_hurl_spine::spell_najentus_hurl_spine_SpellScript", "d2/d48/a24705.html", "d2/d48/a24705" ],
     [ "Events", "d0/d84/a03872.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

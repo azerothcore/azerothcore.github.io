@@ -1,7 +1,7 @@
 var a03710 =
 [
-    [ "instance_violet_hold", "db/db1/a22832.html", "db/db1/a22832" ],
-    [ "instance_violet_hold::instance_violet_hold_InstanceMapScript", "d5/d6a/a22836.html", "d5/d6a/a22836" ],
+    [ "instance_violet_hold", "d9/d32/a22833.html", "d9/d32/a22833" ],
+    [ "instance_violet_hold::instance_violet_hold_InstanceMapScript", "d7/d91/a22837.html", "d7/d91/a22837" ],
     [ "CLEANUP_CHECK_INTERVAL", "d5/d46/a03710.html#a736c9181af440341040d67d6b54e5700", null ],
     [ "SPAWN_TIME", "d5/d46/a03710.html#abad5260e9122dfea850a2c8e31463b20", null ],
     [ "vYells", "d5/d46/a03710.html#af81bfaea39a160ddb9422869d6637d65", [

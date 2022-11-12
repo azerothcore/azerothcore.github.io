@@ -1,7 +1,7 @@
 var a04025 =
 [
-    [ "boss_wrath_scryer_soccothrates", "d3/d07/a25632.html", "d3/d07/a25632" ],
-    [ "boss_wrath_scryer_soccothrates::boss_wrath_scryer_soccothratesAI", "d8/dc6/a25636.html", "d8/dc6/a25636" ],
+    [ "boss_wrath_scryer_soccothrates", "df/dc8/a25633.html", "df/dc8/a25633" ],
+    [ "boss_wrath_scryer_soccothrates::boss_wrath_scryer_soccothratesAI", "d5/d45/a25637.html", "d5/d45/a25637" ],
     [ "Events", "d6/d73/a04025.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

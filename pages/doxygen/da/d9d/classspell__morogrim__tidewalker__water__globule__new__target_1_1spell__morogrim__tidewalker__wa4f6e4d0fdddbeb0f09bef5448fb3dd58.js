@@ -1,7 +1,0 @@
-var classspell__morogrim__tidewalker__water__globule__new__target_1_1spell__morogrim__tidewalker__wa4f6e4d0fdddbeb0f09bef5448fb3dd58 =
-[
-    [ "FilterTargets", "da/d9d/classspell__morogrim__tidewalker__water__globule__new__target_1_1spell__morogrim__tidewalker__wa4f6e4d0fdddbeb0f09bef5448fb3dd58.html#a7e34fde3e85828d6c80fea3372673461", null ],
-    [ "HandleDummy", "da/d9d/classspell__morogrim__tidewalker__water__globule__new__target_1_1spell__morogrim__tidewalker__wa4f6e4d0fdddbeb0f09bef5448fb3dd58.html#a0588501dd9aa82aeb57af65fcb587c77", null ],
-    [ "PrepareSpellScript", "da/d9d/classspell__morogrim__tidewalker__water__globule__new__target_1_1spell__morogrim__tidewalker__wa4f6e4d0fdddbeb0f09bef5448fb3dd58.html#a0b649d2891b775123798105b8e6b338a", null ],
-    [ "Register", "da/d9d/classspell__morogrim__tidewalker__water__globule__new__target_1_1spell__morogrim__tidewalker__wa4f6e4d0fdddbeb0f09bef5448fb3dd58.html#a5b459b99587167d278f4b7c05e9a48e8", null ]
-];

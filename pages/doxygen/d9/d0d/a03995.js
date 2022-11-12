@@ -1,11 +1,11 @@
 var a03995 =
 [
-    [ "boss_grand_warlock_nethekurse", "db/ddf/a25524.html", "db/ddf/a25524" ],
-    [ "boss_grand_warlock_nethekurse::boss_grand_warlock_nethekurseAI", "dd/df5/a25528.html", "dd/df5/a25528" ],
-    [ "spell_tsh_shadow_sear", "da/d0f/a25532.html", "da/d0f/a25532" ],
-    [ "spell_tsh_shadow_sear::spell_tsh_shadow_sear_AuraScript", "d2/d7a/a25536.html", "d2/d7a/a25536" ],
-    [ "spell_tsh_shadow_bolt", "d7/d67/a25540.html", "d7/d67/a25540" ],
-    [ "spell_tsh_shadow_bolt::spell_tsh_shadow_bolt_SpellScript", "d6/d35/a25544.html", "d6/d35/a25544" ],
+    [ "boss_grand_warlock_nethekurse", "dc/d48/a25525.html", "dc/d48/a25525" ],
+    [ "boss_grand_warlock_nethekurse::boss_grand_warlock_nethekurseAI", "d6/dab/a25529.html", "d6/dab/a25529" ],
+    [ "spell_tsh_shadow_sear", "d2/d68/a25533.html", "d2/d68/a25533" ],
+    [ "spell_tsh_shadow_sear::spell_tsh_shadow_sear_AuraScript", "d9/de7/a25537.html", "d9/de7/a25537" ],
+    [ "spell_tsh_shadow_bolt", "d1/d78/a25541.html", "d1/d78/a25541" ],
+    [ "spell_tsh_shadow_bolt::spell_tsh_shadow_bolt_SpellScript", "d6/d99/a25545.html", "d6/d99/a25545" ],
     [ "eGrandWarlockNethekurse", "d9/d0d/a03995.html#a73fb222eda5b84e5deeb66c26f6ae705", [
       [ "SAY_INTRO", "d9/d0d/a03995.html#a73fb222eda5b84e5deeb66c26f6ae705af5bc3db04213b3bf118af6ce85b5a637", null ],
       [ "SAY_PEON_ATTACKED", "d9/d0d/a03995.html#a73fb222eda5b84e5deeb66c26f6ae705a446544226f7de58fa5a303e7d35ed7b2", null ],

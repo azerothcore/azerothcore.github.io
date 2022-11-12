@@ -111,15 +111,15 @@ $(document).ready(function(){initNavTree('d4/d33/a00536.html','../../'); initRes
   <div class="headertitle"><div class="title">ACSoap.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d1/da8/a00230_source.html">Define.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
 <code>#include &lt;future&gt;</code><br />
 <code>#include &lt;mutex&gt;</code><br />
 </div>
-<p><a href="../../d4/d33/a00536_source.html">Go to the source code of this file.</a></p>
+<p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d0e/a05320.html">SOAPCommand</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d16/a05321.html">SOAPCommand</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -155,8 +155,6 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../db/d44/a00533_source.html#l00024">24</a> of file <a class="el" href="../../db/d44/a00533_source.html">ACSoap.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
 <div class="line"><span class="lineno">   26</span>    <span class="keyword">struct </span>soap soap;</div>
 <div class="line"><span class="lineno">   27</span>    soap_init(&amp;soap);</div>
@@ -176,7 +174,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   41</span> </div>
 <div class="line"><span class="lineno">   42</span>    <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;network.soap&quot;</span>, <span class="stringliteral">&quot;ACSoap: bound to http://{}:{}&quot;</span>, host, port);</div>
 <div class="line"><span class="lineno">   43</span> </div>
-<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">while</span> (!<a class="code hl_function" href="../../d0/d00/a10912.html#ae1716f62b00fe8ba87a92850bf4d054c">World::IsStopped</a>())</div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">while</span> (!<a class="code hl_function" href="../../d4/df5/a10913.html#ae1716f62b00fe8ba87a92850bf4d054c">World::IsStopped</a>())</div>
 <div class="line"><span class="lineno">   45</span>    {</div>
 <div class="line"><span class="lineno">   46</span>        <span class="keywordflow">if</span> (!soap_valid_socket(soap_accept(&amp;soap)))</div>
 <div class="line"><span class="lineno">   47</span>            <span class="keywordflow">continue</span>;   <span class="comment">// ran into an accept timeout</span></div>
@@ -191,12 +189,16 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   56</span>    soap_end(&amp;soap);</div>
 <div class="line"><span class="lineno">   57</span>    soap_done(&amp;soap);</div>
 <div class="line"><span class="lineno">   58</span>}</div>
-<div class="ttc" id="aa00317_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de0/a00317_source.html#l00167">Log.h:167</a></div></div>
-<div class="ttc" id="aa00317_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de0/a00317_source.html#l00159">Log.h:159</a></div></div>
-<div class="ttc" id="aa00317_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de0/a00317_source.html#l00171">Log.h:171</a></div></div>
-<div class="ttc" id="aa00533_html_abf914e30c869f88f2fafb9f656320c6a"><div class="ttname"><a href="../../db/d44/a00533.html#abf914e30c869f88f2fafb9f656320c6a">process_message</a></div><div class="ttdeci">void process_message(struct soap *soap_message)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d44/a00533_source.html#l00060">ACSoap.cpp:60</a></div></div>
-<div class="ttc" id="aa10912_html_ae1716f62b00fe8ba87a92850bf4d054c"><div class="ttname"><a href="../../d0/d00/a10912.html#ae1716f62b00fe8ba87a92850bf4d054c">World::IsStopped</a></div><div class="ttdeci">static bool IsStopped()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d35/a02240_source.html#l00263">World.h:263</a></div></div>
+<div class="ttc" id="aa00317_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:167</div></div>
+<div class="ttc" id="aa00317_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+<div class="ttc" id="aa00317_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:171</div></div>
+<div class="ttc" id="aa00533_html_abf914e30c869f88f2fafb9f656320c6a"><div class="ttname"><a href="../../db/d44/a00533.html#abf914e30c869f88f2fafb9f656320c6a">process_message</a></div><div class="ttdeci">void process_message(struct soap *soap_message)</div><div class="ttdef"><b>Definition:</b> ACSoap.cpp:60</div></div>
+<div class="ttc" id="aa10913_html_ae1716f62b00fe8ba87a92850bf4d054c"><div class="ttname"><a href="../../d4/df5/a10913.html#ae1716f62b00fe8ba87a92850bf4d054c">World::IsStopped</a></div><div class="ttdeci">static bool IsStopped()</div><div class="ttdef"><b>Definition:</b> World.h:263</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00263">World::IsStopped()</a>, <a class="el" href="../../#l00171">LOG_DEBUG</a>, <a class="el" href="../../#l00159">LOG_ERROR</a>, <a class="el" href="../../#l00167">LOG_INFO</a>, and <a class="el" href="../../#l00060">process_message()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00119">main()</a>.</p>
+
 </div>
 </div>
 <a id="abf914e30c869f88f2fafb9f656320c6a" name="abf914e30c869f88f2fafb9f656320c6a"></a>
@@ -214,8 +216,6 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../db/d44/a00533_source.html#l00060">60</a> of file <a class="el" href="../../db/d44/a00533_source.html">ACSoap.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   61</span>{</div>
 <div class="line"><span class="lineno">   62</span>    <a class="code hl_define" href="../../da/de0/a00317.html#ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5">LOG_TRACE</a>(<span class="stringliteral">&quot;network.soap&quot;</span>, <span class="stringliteral">&quot;SOAPWorkingThread::process_message&quot;</span>);</div>
 <div class="line"><span class="lineno">   63</span> </div>
@@ -224,8 +224,12 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   66</span>    soap_end(soap_message); <span class="comment">// dealloc data and clean up</span></div>
 <div class="line"><span class="lineno">   67</span>    soap_free(soap_message); <span class="comment">// detach soap struct and fre up the memory</span></div>
 <div class="line"><span class="lineno">   68</span>}</div>
-<div class="ttc" id="aa00317_html_ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5"><div class="ttname"><a href="../../da/de0/a00317.html#ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5">LOG_TRACE</a></div><div class="ttdeci">#define LOG_TRACE(filterType__,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de0/a00317_source.html#l00175">Log.h:175</a></div></div>
+<div class="ttc" id="aa00317_html_ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5"><div class="ttname"><a href="../../da/de0/a00317.html#ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5">LOG_TRACE</a></div><div class="ttdeci">#define LOG_TRACE(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:175</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00175">LOG_TRACE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00024">ACSoapThread()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -234,7 +238,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c8498b4bff487486cc5ffdac4c412cf7.html">apps</a></li><li class="navelem"><a class="el" href="../../dir_4a0dc471e712914507a0672b672729a4.html">worldserver</a></li><li class="navelem"><a class="el" href="../../dir_d5546cd048ce0388ac9df91d37210e56.html">ACSoap</a></li><li class="navelem"><a class="el" href="../../d4/d33/a00536.html">ACSoap.h</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 22:09:39 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sat Nov 12 2022 15:53:51 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

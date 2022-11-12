@@ -1,11 +1,11 @@
 var a02588 =
 [
-    [ "instance_gnomeregan", "d0/d4d/a11944.html", "d0/d4d/a11944" ],
-    [ "instance_gnomeregan::instance_gnomeregan_InstanceMapScript", "d4/d3e/a11948.html", "d4/d3e/a11948" ],
-    [ "npc_kernobee", "d8/deb/a11952.html", "d8/deb/a11952" ],
-    [ "npc_kernobee::npc_kernobeeAI", "d4/d75/a11956.html", "d4/d75/a11956" ],
-    [ "spell_gnomeregan_radiation_bolt", "d4/d71/a11960.html", "d4/d71/a11960" ],
-    [ "spell_gnomeregan_radiation_bolt::spell_gnomeregan_radiation_bolt_SpellScript", "d8/d2e/a11964.html", "d8/d2e/a11964" ],
+    [ "instance_gnomeregan", "d1/d63/a11945.html", "d1/d63/a11945" ],
+    [ "instance_gnomeregan::instance_gnomeregan_InstanceMapScript", "d7/dfe/a11949.html", "d7/dfe/a11949" ],
+    [ "npc_kernobee", "d4/dcc/a11953.html", "d4/dcc/a11953" ],
+    [ "npc_kernobee::npc_kernobeeAI", "d7/d43/a11957.html", "d7/d43/a11957" ],
+    [ "spell_gnomeregan_radiation_bolt", "d5/dcd/a11961.html", "d5/dcd/a11961" ],
+    [ "spell_gnomeregan_radiation_bolt::spell_gnomeregan_radiation_bolt_SpellScript", "d2/dc6/a11965.html", "d2/dc6/a11965" ],
     [ "eKernobee", "d4/d61/a02588.html#a2abc5c19b823c78ec77c3d72114bf15a", [
       [ "QUEST_A_FINE_MESS", "d4/d61/a02588.html#a2abc5c19b823c78ec77c3d72114bf15aae96e14c539b411972be0ce6ad156b394", null ]
     ] ],

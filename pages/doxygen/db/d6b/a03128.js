@@ -1,8 +1,8 @@
 var a03128 =
 [
-    [ "npc_muglash", "d2/d78/a15268.html", "d2/d78/a15268" ],
-    [ "npc_muglash::npc_muglashAI", "d2/dc8/a15272.html", "d2/dc8/a15272" ],
-    [ "go_naga_brazier", "de/dda/a15276.html", "de/dda/a15276" ],
+    [ "npc_muglash", "db/dd4/a15269.html", "db/dd4/a15269" ],
+    [ "npc_muglash::npc_muglashAI", "dd/d99/a15273.html", "dd/d99/a15273" ],
+    [ "go_naga_brazier", "d1/d4e/a15277.html", "d1/d4e/a15277" ],
     [ "Muglash", "db/d6b/a03128.html#a61aa1bf847260f3b69320f14a98eb057", [
       [ "SAY_MUG_START1", "db/d6b/a03128.html#a61aa1bf847260f3b69320f14a98eb057a8f1263c089dd81c8bfe0e50dd08dbc3e", null ],
       [ "SAY_MUG_START2", "db/d6b/a03128.html#a61aa1bf847260f3b69320f14a98eb057aa6ecd378ab24d862f8be4be085be2ac1", null ],

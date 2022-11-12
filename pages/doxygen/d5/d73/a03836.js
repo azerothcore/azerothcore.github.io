@@ -1,9 +1,9 @@
 var a03836 =
 [
-    [ "boss_grandmaster_vorpil", "dd/dee/a24268.html", "dd/dee/a24268" ],
-    [ "boss_grandmaster_vorpil::boss_grandmaster_vorpilAI", "d7/d7b/a24272.html", "d7/d7b/a24272" ],
-    [ "npc_voidtraveler", "d7/df1/a24276.html", "d7/df1/a24276" ],
-    [ "npc_voidtraveler::npc_voidtravelerAI", "df/d96/a24280.html", "df/d96/a24280" ],
+    [ "boss_grandmaster_vorpil", "df/d58/a24269.html", "df/d58/a24269" ],
+    [ "boss_grandmaster_vorpil::boss_grandmaster_vorpilAI", "dd/d70/a24273.html", "dd/d70/a24273" ],
+    [ "npc_voidtraveler", "d0/d64/a24277.html", "d0/d64/a24277" ],
+    [ "npc_voidtraveler::npc_voidtravelerAI", "dc/dad/a24281.html", "dc/dad/a24281" ],
     [ "GrandmasterVorpil", "d5/d73/a03836.html#a71819e2e981a5c01536ce8371389e5b2", [
       [ "SAY_INTRO", "d5/d73/a03836.html#a71819e2e981a5c01536ce8371389e5b2af5bc3db04213b3bf118af6ce85b5a637", null ],
       [ "SAY_AGGRO", "d5/d73/a03836.html#a71819e2e981a5c01536ce8371389e5b2a47c752fff069f3e55065795eef2a9bfe", null ],

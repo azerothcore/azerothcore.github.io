@@ -1,14 +1,14 @@
 var a02552 =
 [
-    [ "MajordomoAddData", "df/deb/a11812.html", "df/deb/a11812" ],
-    [ "boss_majordomo", "dc/def/a11816.html", "dc/def/a11816" ],
-    [ "boss_majordomo::boss_majordomoAI", "d6/dd3/a11820.html", "d6/dd3/a11820" ],
-    [ "spell_hate_to_zero", "de/dd5/a11824.html", "de/dd5/a11824" ],
-    [ "spell_hate_to_zero::spell_hate_to_zero_SpellScript", "df/dd5/a11828.html", "df/dd5/a11828" ],
-    [ "spell_majordomo_separation_nexiety", "d1/db9/a11832.html", "d1/db9/a11832" ],
-    [ "spell_majordomo_separation_nexiety::spell_majordomo_separation_nexiety_AuraScript", "db/dc8/a11836.html", "db/dc8/a11836" ],
-    [ "spell_summon_ragnaros", "df/d7d/a11840.html", "df/d7d/a11840" ],
-    [ "spell_summon_ragnaros::spell_summon_ragnaros_SpellScript", "d6/d5e/a11844.html", "d6/d5e/a11844" ],
+    [ "MajordomoAddData", "d8/dfd/a11813.html", "d8/dfd/a11813" ],
+    [ "boss_majordomo", "dd/d59/a11817.html", "dd/d59/a11817" ],
+    [ "boss_majordomo::boss_majordomoAI", "da/d36/a11821.html", "da/d36/a11821" ],
+    [ "spell_hate_to_zero", "d2/d61/a11825.html", "d2/d61/a11825" ],
+    [ "spell_hate_to_zero::spell_hate_to_zero_SpellScript", "d3/d1a/a11829.html", "d3/d1a/a11829" ],
+    [ "spell_majordomo_separation_nexiety", "dd/db4/a11833.html", "dd/db4/a11833" ],
+    [ "spell_majordomo_separation_nexiety::spell_majordomo_separation_nexiety_AuraScript", "da/d64/a11837.html", "da/d64/a11837" ],
+    [ "spell_summon_ragnaros", "d8/d83/a11841.html", "d8/d83/a11841" ],
+    [ "spell_summon_ragnaros::spell_summon_ragnaros_SpellScript", "d2/dfb/a11845.html", "d2/dfb/a11845" ],
     [ "Events", "de/d48/a02552.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

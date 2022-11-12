@@ -1,14 +1,14 @@
 var a03176 =
 [
-    [ "npc_lakota_windsong", "df/ddb/a15700.html", "df/ddb/a15700" ],
-    [ "npc_lakota_windsong::npc_lakota_windsongAI", "d3/d6a/a15704.html", "d3/d6a/a15704" ],
-    [ "npc_paoka_swiftmountain", "dc/d69/a15708.html", "dc/d69/a15708" ],
-    [ "npc_paoka_swiftmountain::npc_paoka_swiftmountainAI", "d6/d25/a15712.html", "d6/d25/a15712" ],
-    [ "npc_plucky", "db/d23/a15716.html", "db/d23/a15716" ],
-    [ "npc_plucky::npc_pluckyAI", "d8/d4e/a15720.html", "d8/d4e/a15720" ],
-    [ "go_panther_cage", "d8/da8/a15724.html", "d8/da8/a15724" ],
-    [ "npc_enraged_panther", "d8/d57/a15728.html", "d8/d57/a15728" ],
-    [ "npc_enraged_panther::npc_enraged_pantherAI", "df/d8b/a15732.html", "df/d8b/a15732" ],
+    [ "npc_lakota_windsong", "da/d86/a15701.html", "da/d86/a15701" ],
+    [ "npc_lakota_windsong::npc_lakota_windsongAI", "d0/d67/a15705.html", "d0/d67/a15705" ],
+    [ "npc_paoka_swiftmountain", "d5/def/a15709.html", "d5/def/a15709" ],
+    [ "npc_paoka_swiftmountain::npc_paoka_swiftmountainAI", "dc/d4a/a15713.html", "dc/d4a/a15713" ],
+    [ "npc_plucky", "dd/df2/a15717.html", "dd/df2/a15717" ],
+    [ "npc_plucky::npc_pluckyAI", "dc/ddf/a15721.html", "dc/ddf/a15721" ],
+    [ "go_panther_cage", "d3/d8b/a15725.html", "d3/d8b/a15725" ],
+    [ "npc_enraged_panther", "d8/d47/a15729.html", "d8/d47/a15729" ],
+    [ "npc_enraged_panther::npc_enraged_pantherAI", "d5/df8/a15733.html", "d5/df8/a15733" ],
     [ "GOSSIP_P", "df/d0d/a03176.html#abe76f0bf6cd768a947537874b5a56330", null ],
     [ "Lakota", "df/d0d/a03176.html#ac39a2ad4e9c1ced24984bd5c9acf3745", [
       [ "SAY_LAKO_START", "df/d0d/a03176.html#ac39a2ad4e9c1ced24984bd5c9acf3745ad685ecf0f999b3b0859c272226a5b4b0", null ],

@@ -1,6 +1,6 @@
 var a01994 =
 [
-    [ "WorldPackets::Chat::Emote", "db/d25/a09888.html", "db/d25/a09888" ],
-    [ "WorldPackets::Chat::EmoteClient", "d6/dc0/a09892.html", "d6/dc0/a09892" ],
-    [ "WorldPackets::Chat::ChatServerMessage", "d0/ded/a09896.html", "d0/ded/a09896" ]
+    [ "WorldPackets::Chat::Emote", "dc/d15/a09889.html", "dc/d15/a09889" ],
+    [ "WorldPackets::Chat::EmoteClient", "d9/d73/a09893.html", "d9/d73/a09893" ],
+    [ "WorldPackets::Chat::ChatServerMessage", "d5/df6/a09897.html", "d5/df6/a09897" ]
 ];

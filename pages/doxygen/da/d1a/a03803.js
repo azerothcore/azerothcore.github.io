@@ -1,9 +1,9 @@
 var a03803 =
 [
-    [ "boss_shirrak_the_dead_watcher", "d3/da6/a24172.html", "d3/da6/a24172" ],
-    [ "boss_shirrak_the_dead_watcher::boss_shirrak_the_dead_watcherAI", "d3/ddb/a24176.html", "d3/ddb/a24176" ],
-    [ "spell_auchenai_possess", "da/d3e/a24180.html", "da/d3e/a24180" ],
-    [ "spell_auchenai_possess::spell_auchenai_possess_AuraScript", "d7/d49/a24184.html", "d7/d49/a24184" ],
+    [ "boss_shirrak_the_dead_watcher", "d4/d2c/a24173.html", "d4/d2c/a24173" ],
+    [ "boss_shirrak_the_dead_watcher::boss_shirrak_the_dead_watcherAI", "d7/dfa/a24177.html", "d7/dfa/a24177" ],
+    [ "spell_auchenai_possess", "d3/dac/a24181.html", "d3/dac/a24181" ],
+    [ "spell_auchenai_possess::spell_auchenai_possess_AuraScript", "dd/da9/a24185.html", "dd/da9/a24185" ],
     [ "eShirrak", "da/d1a/a03803.html#a6ce4434b2d0a705b49ac7d977d89146b", [
       [ "SPELL_INHIBIT_MAGIC", "da/d1a/a03803.html#a6ce4434b2d0a705b49ac7d977d89146ba1fc3be82e9a8514a5089e65196f551b9", null ],
       [ "SPELL_ATTRACT_MAGIC", "da/d1a/a03803.html#a6ce4434b2d0a705b49ac7d977d89146ba5dff932661b864d3df21370e3cdee19f", null ],

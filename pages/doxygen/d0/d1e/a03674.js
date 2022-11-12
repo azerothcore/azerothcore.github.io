@@ -1,11 +1,11 @@
 var a03674 =
 [
-    [ "boss_emalon", "df/d8e/a22656.html", "df/d8e/a22656" ],
-    [ "boss_emalon::boss_emalonAI", "d2/d76/a22660.html", "d2/d76/a22660" ],
-    [ "spell_voa_overcharge", "de/dc6/a22664.html", "de/dc6/a22664" ],
-    [ "spell_voa_overcharge::spell_voa_overcharge_AuraScript", "d7/df4/a22668.html", "d7/df4/a22668" ],
-    [ "spell_voa_lightning_nova", "d5/d45/a22672.html", "d5/d45/a22672" ],
-    [ "spell_voa_lightning_nova::spell_voa_lightning_nova_SpellScript", "de/d72/a22676.html", "de/d72/a22676" ],
+    [ "boss_emalon", "da/d56/a22657.html", "da/d56/a22657" ],
+    [ "boss_emalon::boss_emalonAI", "d1/d3c/a22661.html", "d1/d3c/a22661" ],
+    [ "spell_voa_overcharge", "d2/d2b/a22665.html", "d2/d2b/a22665" ],
+    [ "spell_voa_overcharge::spell_voa_overcharge_AuraScript", "d7/dcb/a22669.html", "d7/dcb/a22669" ],
+    [ "spell_voa_lightning_nova", "d9/d19/a22673.html", "d9/d19/a22673" ],
+    [ "spell_voa_lightning_nova::spell_voa_lightning_nova_SpellScript", "d4/df5/a22677.html", "d4/df5/a22677" ],
     [ "Events", "d0/d1e/a03674.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

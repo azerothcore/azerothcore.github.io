@@ -1,9 +1,9 @@
 var a03962 =
 [
-    [ "boss_kelidan_the_breaker", "db/de9/a25392.html", "db/de9/a25392" ],
-    [ "boss_kelidan_the_breaker::boss_kelidan_the_breakerAI", "d6/d7a/a25396.html", "d6/d7a/a25396" ],
-    [ "npc_shadowmoon_channeler", "db/d96/a25400.html", "db/d96/a25400" ],
-    [ "npc_shadowmoon_channeler::npc_shadowmoon_channelerAI", "d2/d79/a25404.html", "d2/d79/a25404" ],
+    [ "boss_kelidan_the_breaker", "d2/d8b/a25393.html", "d2/d8b/a25393" ],
+    [ "boss_kelidan_the_breaker::boss_kelidan_the_breakerAI", "db/d72/a25397.html", "db/d72/a25397" ],
+    [ "npc_shadowmoon_channeler", "d0/d54/a25401.html", "d0/d54/a25401" ],
+    [ "npc_shadowmoon_channeler::npc_shadowmoon_channelerAI", "dd/d0b/a25405.html", "dd/d0b/a25405" ],
     [ "eKelidan", "d7/db0/a03962.html#af3ac4dea1d15f193174d05b8a50b0780", [
       [ "SAY_WAKE", "d7/db0/a03962.html#af3ac4dea1d15f193174d05b8a50b0780aadb6c63e08a18de76bcc95ca2e830a6e", null ],
       [ "SAY_ADD_AGGRO", "d7/db0/a03962.html#af3ac4dea1d15f193174d05b8a50b0780abc6de548b25496a4fc5c761b73835d56", null ],

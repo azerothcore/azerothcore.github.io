@@ -1,7 +1,7 @@
 var a02429 =
 [
-    [ "boss_gorosh_the_dervish", "d5/d14/a11268.html", "d5/d14/a11268" ],
-    [ "boss_gorosh_the_dervish::boss_gorosh_the_dervishAI", "d8/dcf/a11272.html", "d8/dcf/a11272" ],
+    [ "boss_gorosh_the_dervish", "dc/d13/a11269.html", "dc/d13/a11269" ],
+    [ "boss_gorosh_the_dervish::boss_gorosh_the_dervishAI", "d4/d3f/a11273.html", "d4/d3f/a11273" ],
     [ "Spells", "dc/d09/a02429.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d6/dad/a00941.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

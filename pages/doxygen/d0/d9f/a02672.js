@@ -1,9 +1,9 @@
 var a02672 =
 [
-    [ "boss_darkmaster_gandling", "d1/d72/a12620.html", "d1/d72/a12620" ],
-    [ "boss_darkmaster_gandling::boss_darkmaster_gandlingAI", "d6/dbc/a12624.html", "d6/dbc/a12624" ],
-    [ "npc_risen_guardian", "d4/d59/a12628.html", "d4/d59/a12628" ],
-    [ "npc_risen_guardian::npc_risen_guardianAI", "de/d29/a12632.html", "de/d29/a12632" ],
+    [ "boss_darkmaster_gandling", "d8/d93/a12621.html", "d8/d93/a12621" ],
+    [ "boss_darkmaster_gandling::boss_darkmaster_gandlingAI", "d1/d02/a12625.html", "d1/d02/a12625" ],
+    [ "npc_risen_guardian", "d9/dd0/a12629.html", "d9/dd0/a12629" ],
+    [ "npc_risen_guardian::npc_risen_guardianAI", "d5/d52/a12633.html", "d5/d52/a12633" ],
     [ "BossData", "d0/d9f/a02672.html#aef437a440c77ebda3ee1ebf1099e168d", [
       [ "DATA_PLAYER_KILLED", "d0/d9f/a02672.html#aef437a440c77ebda3ee1ebf1099e168da16e75107231054f283248f12ae3887c0", null ],
       [ "GANDLING_ROOM_TO_USE", "d0/d9f/a02672.html#aef437a440c77ebda3ee1ebf1099e168da58b81c15b7763fb90a6a786fc0cb73d8", null ]

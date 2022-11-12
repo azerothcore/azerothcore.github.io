@@ -1,11 +1,11 @@
 var a04058 =
 [
-    [ "boss_high_astromancer_solarian", "d6/dd5/a25772.html", "d6/dd5/a25772" ],
-    [ "boss_high_astromancer_solarian::boss_high_astromancer_solarianAI", "da/dda/a25776.html", "da/dda/a25776" ],
-    [ "spell_astromancer_wrath_of_the_astromancer", "de/d22/a25780.html", "de/d22/a25780" ],
-    [ "spell_astromancer_wrath_of_the_astromancer::spell_astromancer_wrath_of_the_astromancer_AuraScript", "d8/d1a/a25784.html", "d8/d1a/a25784" ],
-    [ "spell_astromancer_solarian_transform", "d1/df6/a25788.html", "d1/df6/a25788" ],
-    [ "spell_astromancer_solarian_transform::spell_astromancer_solarian_transform_AuraScript", "df/d93/a25792.html", "df/d93/a25792" ],
+    [ "boss_high_astromancer_solarian", "d2/d3e/a25773.html", "d2/d3e/a25773" ],
+    [ "boss_high_astromancer_solarian::boss_high_astromancer_solarianAI", "db/d20/a25777.html", "db/d20/a25777" ],
+    [ "spell_astromancer_wrath_of_the_astromancer", "d0/dfe/a25781.html", "d0/dfe/a25781" ],
+    [ "spell_astromancer_wrath_of_the_astromancer::spell_astromancer_wrath_of_the_astromancer_AuraScript", "dc/d34/a25785.html", "dc/d34/a25785" ],
+    [ "spell_astromancer_solarian_transform", "db/dc3/a25789.html", "db/dc3/a25789" ],
+    [ "spell_astromancer_solarian_transform::spell_astromancer_solarian_transform_AuraScript", "dc/da4/a25793.html", "dc/da4/a25793" ],
     [ "CENTER_O", "dc/d64/a04058.html#a1b683ec7a35f03622bada41f50aac881", null ],
     [ "CENTER_X", "dc/d64/a04058.html#affb36ca3a6519ca609cfa9a0d70a682a", null ],
     [ "CENTER_Y", "dc/d64/a04058.html#a65dba9379097de8ea0bb4afd9d504b2b", null ],

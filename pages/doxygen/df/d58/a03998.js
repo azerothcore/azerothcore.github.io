@@ -1,9 +1,9 @@
 var a03998 =
 [
-    [ "boss_warbringer_omrogg", "d1/da1/a25548.html", "d1/da1/a25548" ],
-    [ "boss_warbringer_omrogg::boss_warbringer_omroggAI", "d0/d1f/a25552.html", "d0/d1f/a25552" ],
-    [ "npc_omrogg_heads", "d9/d82/a25556.html", "d9/d82/a25556" ],
-    [ "npc_omrogg_heads::npc_omrogg_headsAI", "df/dae/a25560.html", "df/dae/a25560" ],
+    [ "boss_warbringer_omrogg", "d4/dca/a25549.html", "d4/dca/a25549" ],
+    [ "boss_warbringer_omrogg::boss_warbringer_omroggAI", "de/dbc/a25553.html", "de/dbc/a25553" ],
+    [ "npc_omrogg_heads", "d0/d41/a25557.html", "d0/d41/a25557" ],
+    [ "npc_omrogg_heads::npc_omrogg_headsAI", "dc/d5c/a25561.html", "dc/d5c/a25561" ],
     [ "Creatures", "df/d58/a03998.html#a25a619e6b66096a4f05d048e4a96df08", [
       [ "NPC_NORTH_MARSHAL", "d1/d29/a02393.html#a25a619e6b66096a4f05d048e4a96df08abeb6d3b1ff8238f7c57911ab8acde69e", null ],
       [ "NPC_SOUTH_MARSHAL", "d1/d29/a02393.html#a25a619e6b66096a4f05d048e4a96df08a9a3360dc10641daabdef8158f42ee00e", null ],

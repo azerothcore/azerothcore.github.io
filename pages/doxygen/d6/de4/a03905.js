@@ -1,16 +1,16 @@
 var a03905 =
 [
-    [ "instance_serpent_shrine", "d7/d36/a25136.html", "d7/d36/a25136" ],
-    [ "instance_serpent_shrine::instance_serpentshrine_cavern_InstanceMapScript", "d7/dba/a25140.html", "d7/dba/a25140" ],
-    [ "spell_serpentshrine_cavern_serpentshrine_parasite", "d6/d42/a25144.html", "d6/d42/a25144" ],
-    [ "spell_serpentshrine_cavern_serpentshrine_parasite::spell_serpentshrine_cavern_serpentshrine_parasite_AuraScript", "d1/db7/a25148.html", "d1/db7/a25148" ],
-    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger", "d8/df9/a25152.html", "d8/df9/a25152" ],
-    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger::spell_serpentshrine_cavern_serpentshrine_parasite_trigger_AuraScript", "d6/d11/a25156.html", "d6/d11/a25156" ],
-    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger::spell_serpentshrine_cavern_serpentshrine_parasite_trigger_SpellScript", "d5/dc6/a25160.html", "d5/dc6/a25160" ],
-    [ "spell_serpentshrine_cavern_infection", "db/dd3/a25164.html", "db/dd3/a25164" ],
-    [ "spell_serpentshrine_cavern_infection::spell_serpentshrine_cavern_infection_AuraScript", "d1/dd8/a25168.html", "d1/dd8/a25168" ],
-    [ "spell_serpentshrine_cavern_coilfang_water", "da/d80/a25172.html", "da/d80/a25172" ],
-    [ "spell_serpentshrine_cavern_coilfang_water::spell_serpentshrine_cavern_coilfang_water_AuraScript", "d4/dc4/a25176.html", "d4/dc4/a25176" ],
+    [ "instance_serpent_shrine", "dc/d1a/a25137.html", "dc/d1a/a25137" ],
+    [ "instance_serpent_shrine::instance_serpentshrine_cavern_InstanceMapScript", "d0/d2e/a25141.html", "d0/d2e/a25141" ],
+    [ "spell_serpentshrine_cavern_serpentshrine_parasite", "dd/d57/a25145.html", "dd/d57/a25145" ],
+    [ "spell_serpentshrine_cavern_serpentshrine_parasite::spell_serpentshrine_cavern_serpentshrine_parasite_AuraScript", "d9/d87/a25149.html", "d9/d87/a25149" ],
+    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger", "d9/de8/a25153.html", "d9/de8/a25153" ],
+    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger::spell_serpentshrine_cavern_serpentshrine_parasite_trigger_AuraScript", "d4/d4d/a25157.html", "d4/d4d/a25157" ],
+    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger::spell_serpentshrine_cavern_serpentshrine_parasite_trigger_SpellScript", "d7/ddd/a25161.html", "d7/ddd/a25161" ],
+    [ "spell_serpentshrine_cavern_infection", "d2/dd8/a25165.html", "d2/dd8/a25165" ],
+    [ "spell_serpentshrine_cavern_infection::spell_serpentshrine_cavern_infection_AuraScript", "d6/d89/a25169.html", "d6/d89/a25169" ],
+    [ "spell_serpentshrine_cavern_coilfang_water", "d0/d79/a25173.html", "d0/d79/a25173" ],
+    [ "spell_serpentshrine_cavern_coilfang_water::spell_serpentshrine_cavern_coilfang_water_AuraScript", "dd/da4/a25177.html", "dd/da4/a25177" ],
     [ "AddSC_instance_serpentshrine_cavern", "d6/de4/a03905.html#accf317168271361913093466ba7f8f0e", null ],
     [ "doorData", "d6/de4/a03905.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
 ];

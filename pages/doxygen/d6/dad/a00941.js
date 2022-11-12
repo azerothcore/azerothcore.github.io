@@ -1,11 +1,11 @@
 var a00941 =
 [
-    [ "ICNpc", "dd/dca/a06852.html", "dd/dca/a06852" ],
-    [ "ICGo", "de/db2/a06856.html", "de/db2/a06856" ],
-    [ "ICNodeInfo", "d7/d82/a06860.html", "d7/d82/a06860" ],
-    [ "ICNodePoint", "de/d80/a06864.html", "de/d80/a06864" ],
-    [ "BattlegroundICScore", "dd/d51/a06868.html", "dd/d51/a06868" ],
-    [ "BattlegroundIC", "d9/df8/a06872.html", "d9/df8/a06872" ],
+    [ "ICNpc", "dc/d2a/a06853.html", "dc/d2a/a06853" ],
+    [ "ICGo", "d5/df0/a06857.html", "d5/df0/a06857" ],
+    [ "ICNodeInfo", "de/db3/a06861.html", "de/db3/a06861" ],
+    [ "ICNodePoint", "d5/d2d/a06865.html", "d5/d2d/a06865" ],
+    [ "BattlegroundICScore", "d5/dfb/a06869.html", "d5/dfb/a06869" ],
+    [ "BattlegroundIC", "d6/d19/a06873.html", "d6/d19/a06873" ],
     [ "MAX_REINFORCEMENTS", "d6/dad/a00941.html#a639f17b919501d01cbd024f198898af3", null ],
     [ "Actions", "d6/dad/a00941.html#a250372292659bed7ae290d8621f88ccf", [
       [ "ACTION_GUNSHIP_READY", "d6/dad/a00941.html#a250372292659bed7ae290d8621f88ccfaae8bb35d65ee37e4d232e2a67aeca581", null ],

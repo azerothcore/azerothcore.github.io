@@ -1,6 +1,0 @@
-var classspell__mother__shahraz__fatal__attraction__dummy_1_1spell__mother__shahraz__fatal__attraction__dummy___spell_script =
-[
-    [ "HandleDummy", "d7/d8a/classspell__mother__shahraz__fatal__attraction__dummy_1_1spell__mother__shahraz__fatal__attraction__dummy___spell_script.html#abc61270dfcd54361901f271279932424", null ],
-    [ "PrepareSpellScript", "d7/d8a/classspell__mother__shahraz__fatal__attraction__dummy_1_1spell__mother__shahraz__fatal__attraction__dummy___spell_script.html#a92942babd0ee54c82cc8cbe062e13718", null ],
-    [ "Register", "d7/d8a/classspell__mother__shahraz__fatal__attraction__dummy_1_1spell__mother__shahraz__fatal__attraction__dummy___spell_script.html#acce764e36e97a10ddb2cfeac0edc04d0", null ]
-];

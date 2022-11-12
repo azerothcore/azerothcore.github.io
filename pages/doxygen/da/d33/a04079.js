@@ -1,11 +1,11 @@
 var a04079 =
 [
-    [ "boss_mechano_lord_capacitus", "d0/d57/a25928.html", "d0/d57/a25928" ],
-    [ "boss_mechano_lord_capacitus::boss_mechano_lord_capacitusAI", "da/d03/a25932.html", "da/d03/a25932" ],
-    [ "spell_capacitus_polarity_charge", "d4/dfc/a25936.html", "d4/dfc/a25936" ],
-    [ "spell_capacitus_polarity_charge::spell_capacitus_polarity_charge_SpellScript", "d5/ddd/a25940.html", "d5/ddd/a25940" ],
-    [ "spell_capacitus_polarity_shift", "d2/dce/a25944.html", "d2/dce/a25944" ],
-    [ "spell_capacitus_polarity_shift::spell_capacitus_polarity_shift_SpellScript", "dc/de5/a25948.html", "dc/de5/a25948" ],
+    [ "boss_mechano_lord_capacitus", "d0/dd0/a25929.html", "d0/dd0/a25929" ],
+    [ "boss_mechano_lord_capacitus::boss_mechano_lord_capacitusAI", "d9/db3/a25933.html", "d9/db3/a25933" ],
+    [ "spell_capacitus_polarity_charge", "dc/df5/a25937.html", "dc/df5/a25937" ],
+    [ "spell_capacitus_polarity_charge::spell_capacitus_polarity_charge_SpellScript", "da/d48/a25941.html", "da/d48/a25941" ],
+    [ "spell_capacitus_polarity_shift", "d3/daf/a25945.html", "d3/daf/a25945" ],
+    [ "spell_capacitus_polarity_shift::spell_capacitus_polarity_shift_SpellScript", "d4/d1c/a25949.html", "d4/d1c/a25949" ],
     [ "Creatures", "da/d33/a04079.html#a25a619e6b66096a4f05d048e4a96df08", [
       [ "NPC_NORTH_MARSHAL", "d1/d29/a02393.html#a25a619e6b66096a4f05d048e4a96df08abeb6d3b1ff8238f7c57911ab8acde69e", null ],
       [ "NPC_SOUTH_MARSHAL", "d1/d29/a02393.html#a25a619e6b66096a4f05d048e4a96df08a9a3360dc10641daabdef8158f42ee00e", null ],

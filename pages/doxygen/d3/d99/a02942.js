@@ -1,8 +1,8 @@
 var a02942 =
 [
-    [ "Wave", "d3/d0e/a11184.html", "d3/d0e/a11184" ],
-    [ "hyjalAI", "dd/d35/a14636.html", "dd/d35/a14636" ],
-    [ "hyjalAI::Spell", "d5/dd0/a14640.html", "d5/dd0/a14640" ],
+    [ "Wave", "d2/dd9/a11185.html", "d2/dd9/a11185" ],
+    [ "hyjalAI", "d6/d90/a14637.html", "d6/d90/a14637" ],
+    [ "hyjalAI::Spell", "d8/de3/a14641.html", "d8/de3/a14641" ],
     [ "HYJAL_AI_MAX_SPELLS", "d3/d99/a02942.html#abb778a728c7b6303747718fc90dc5a6f", null ],
     [ "SpellIds", "d3/d99/a02942.html#a2cd0f1a61f215e1bdcde5cbbd34da57e", [
       [ "HEX_OF_JAMMAL_AN", "d8/dd0/a02711.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea69f27809bb75172648a8556f0f746846", null ],

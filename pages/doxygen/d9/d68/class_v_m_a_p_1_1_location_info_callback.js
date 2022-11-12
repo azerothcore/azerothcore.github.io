@@ -1,8 +1,0 @@
-var class_v_m_a_p_1_1_location_info_callback =
-[
-    [ "LocationInfoCallback", "d9/d68/class_v_m_a_p_1_1_location_info_callback.html#a81b8c00fcc0a1780445ffbdf85decfdf", null ],
-    [ "operator()", "d9/d68/class_v_m_a_p_1_1_location_info_callback.html#ac2ccfe87fa33cae7d2513c24ba8bfbeb", null ],
-    [ "locInfo", "d9/d68/class_v_m_a_p_1_1_location_info_callback.html#a9a8b8529a571b3652cd898b2888d8027", null ],
-    [ "prims", "d9/d68/class_v_m_a_p_1_1_location_info_callback.html#a19c87ad1c9665c3ddfbfa89ccdee5c10", null ],
-    [ "result", "d9/d68/class_v_m_a_p_1_1_location_info_callback.html#a1ada8b8a1742f02b2d1f28ee82903246", null ]
-];

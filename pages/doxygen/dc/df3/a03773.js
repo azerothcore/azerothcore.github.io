@@ -1,7 +1,7 @@
 var a03773 =
 [
-    [ "OPvPCapturePointNA", "d5/dde/a24104.html", "d5/dde/a24104" ],
-    [ "OutdoorPvPNA", "da/d64/a24108.html", "da/d64/a24108" ],
+    [ "OPvPCapturePointNA", "d2/d19/a24105.html", "d2/d19/a24105" ],
+    [ "OutdoorPvPNA", "d8/d0f/a24109.html", "d8/d0f/a24109" ],
     [ "ControlGOTypes", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19", [
       [ "NA_ROOST_S", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19afa875929ebc8b1c2db3a195ee37095ad", null ],
       [ "NA_ROOST_W", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19a237f904232faee9c60bf01b3e5d27623", null ],

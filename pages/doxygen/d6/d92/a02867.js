@@ -1,11 +1,11 @@
 var a02867 =
 [
-    [ "boss_thekal", "dd/dc7/a13980.html", "dd/dc7/a13980" ],
-    [ "boss_thekal::boss_thekalAI", "de/d90/a13984.html", "de/d90/a13984" ],
-    [ "npc_zealot_lorkhan", "db/d48/a13988.html", "db/d48/a13988" ],
-    [ "npc_zealot_lorkhan::npc_zealot_lorkhanAI", "db/d8e/a13992.html", "db/d8e/a13992" ],
-    [ "npc_zealot_zath", "d7/d07/a13996.html", "d7/d07/a13996" ],
-    [ "npc_zealot_zath::npc_zealot_zathAI", "de/d48/a14000.html", "de/d48/a14000" ],
+    [ "boss_thekal", "da/d74/a13981.html", "da/d74/a13981" ],
+    [ "boss_thekal::boss_thekalAI", "d3/d62/a13985.html", "d3/d62/a13985" ],
+    [ "npc_zealot_lorkhan", "df/da7/a13989.html", "df/da7/a13989" ],
+    [ "npc_zealot_lorkhan::npc_zealot_lorkhanAI", "d0/d0e/a13993.html", "d0/d0e/a13993" ],
+    [ "npc_zealot_zath", "d4/d33/a13997.html", "d4/d33/a13997" ],
+    [ "npc_zealot_zath::npc_zealot_zathAI", "d7/d5e/a14001.html", "d7/d5e/a14001" ],
     [ "Actions", "d6/d92/a02867.html#a250372292659bed7ae290d8621f88ccf", [
       [ "ACTION_GUNSHIP_READY", "d6/dad/a00941.html#a250372292659bed7ae290d8621f88ccfaae8bb35d65ee37e4d232e2a67aeca581", null ],
       [ "ACTION_TELEPORT_PLAYER_TO_TRANSPORT", "d6/dad/a00941.html#a250372292659bed7ae290d8621f88ccfa6b86b0986a459bb245b3a3cd8b75040c", null ],

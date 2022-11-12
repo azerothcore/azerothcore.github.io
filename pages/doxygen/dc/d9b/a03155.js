@@ -1,9 +1,9 @@
 var a03155 =
 [
-    [ "spell_gordunni_trap", "de/d22/a15504.html", "de/d22/a15504" ],
-    [ "spell_gordunni_trap::spell_gordunni_trap_SpellScript", "df/dcb/a15508.html", "df/dcb/a15508" ],
-    [ "npc_shay_leafrunner", "dd/d2c/a15512.html", "dd/d2c/a15512" ],
-    [ "npc_shay_leafrunner::npc_shay_leafrunnerAI", "de/d96/a15516.html", "de/d96/a15516" ],
+    [ "spell_gordunni_trap", "d4/d80/a15505.html", "d4/d80/a15505" ],
+    [ "spell_gordunni_trap::spell_gordunni_trap_SpellScript", "d6/dc3/a15509.html", "d6/dc3/a15509" ],
+    [ "npc_shay_leafrunner", "d5/df0/a15513.html", "d5/df0/a15513" ],
+    [ "npc_shay_leafrunner::npc_shay_leafrunnerAI", "d9/d76/a15517.html", "d9/d76/a15517" ],
     [ "GordunniTrap", "dc/d9b/a03155.html#ae11511f5835ecdfec73fde1f9f29431c", [
       [ "GO_GORDUNNI_DIRT_MOUND", "dc/d9b/a03155.html#ae11511f5835ecdfec73fde1f9f29431ca12df131fc84f6cc9bcf7d02eaf65e1ab", null ]
     ] ],

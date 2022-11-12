@@ -1,8 +1,8 @@
 var a03506 =
 [
-    [ "boss_keristrasza", "d9/dd1/a20324.html", "d9/dd1/a20324" ],
-    [ "boss_keristrasza::boss_keristraszaAI", "d3/d5d/a20328.html", "d3/d5d/a20328" ],
-    [ "achievement_intense_cold", "d9/df0/a20332.html", "d9/df0/a20332" ],
+    [ "boss_keristrasza", "dd/d10/a20325.html", "dd/d10/a20325" ],
+    [ "boss_keristrasza::boss_keristraszaAI", "de/d8d/a20329.html", "de/d8d/a20329" ],
+    [ "achievement_intense_cold", "d6/db8/a20333.html", "d6/db8/a20333" ],
     [ "eEnums", "d7/d83/a03506.html#a0ec08fe05ebfdddfa34c747c9c62a165", [
       [ "SPELL_FROZEN_PRISON", "d7/d83/a03506.html#a0ec08fe05ebfdddfa34c747c9c62a165a874864078de8743889d364bbecadcee6", null ],
       [ "SPELL_TAIL_SWEEP", "d7/d83/a03506.html#a0ec08fe05ebfdddfa34c747c9c62a165addcb3daa6cdc61ef04c65580e44ef823", null ],

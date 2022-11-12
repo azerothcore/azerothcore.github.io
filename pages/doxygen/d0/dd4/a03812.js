@@ -1,7 +1,7 @@
 var a03812 =
 [
-    [ "boss_pandemonius", "d9/d18/a24212.html", "d9/d18/a24212" ],
-    [ "boss_pandemonius::boss_pandemoniusAI", "d3/d51/a24216.html", "d3/d51/a24216" ],
+    [ "boss_pandemonius", "d2/d4d/a24213.html", "d2/d4d/a24213" ],
+    [ "boss_pandemonius::boss_pandemoniusAI", "d1/dc3/a24217.html", "d1/dc3/a24217" ],
     [ "Events", "d0/dd4/a03812.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

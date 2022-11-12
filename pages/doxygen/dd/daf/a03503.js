@@ -1,7 +1,7 @@
 var a03503 =
 [
-    [ "boss_commander_stoutbeard", "d7/de2/a20316.html", "d7/de2/a20316" ],
-    [ "boss_commander_stoutbeard::boss_commander_stoutbeardAI", "d8/d0d/a20320.html", "d8/d0d/a20320" ],
+    [ "boss_commander_stoutbeard", "d0/d83/a20317.html", "d0/d83/a20317" ],
+    [ "boss_commander_stoutbeard::boss_commander_stoutbeardAI", "d9/d4a/a20321.html", "d9/d4a/a20321" ],
     [ "Events", "dd/daf/a03503.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d1/d29/a02393.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],
