@@ -1,6 +1,7 @@
 var a11805 =
 [
-    [ "spell_magmadar_lava_bomb_SpellScript", "d3/da3/a11809.html", "d3/da3/a11809" ],
-    [ "spell_magmadar_lava_bomb", "de/dc1/a11805.html#a43e745c08011e0a59009bd8af1610a65", null ],
-    [ "GetSpellScript", "de/dc1/a11805.html#a3a884343bc094562438a1f8dce1e4228", null ]
+    [ "HandleDummy", "de/dc1/a11805.html#ac499362a4d1fe40ec4659d85e97634ce", null ],
+    [ "PrepareSpellScript", "de/dc1/a11805.html#abff8316378d0d886836cc3dae1ebb630", null ],
+    [ "Register", "de/dc1/a11805.html#a29f86b3ad673963d1820821d08e7dd42", null ],
+    [ "Validate", "de/dc1/a11805.html#aa7889ac8c36c782c8f75591799cf21b5", null ]
 ];

@@ -1,6 +1,15 @@
 var a09605 =
 [
-    [ "WorldMapScript", "df/dce/a09605.html#a49300e796ceb6ab1a40ed9cbb89a9e4d", null ],
-    [ "checkValidity", "df/dce/a09605.html#aa212e582764d2cfbc5e7e600a54f2cb4", null ],
-    [ "isAfterLoadScript", "df/dce/a09605.html#a6aeda6e4c8328d7334527cbe69311ddc", null ]
+    [ "MapScript", "df/dce/a09605.html#a1932ac48acf7c937c060ee35804e79da", null ],
+    [ "checkMap", "df/dce/a09605.html#abf3fbb90119e1ac5d13455217ac95a2f", null ],
+    [ "GetEntry", "df/dce/a09605.html#aa2da3eeec627cb67719d774d35f03488", null ],
+    [ "OnCreate", "df/dce/a09605.html#a8132edffb918e8b3b1131ae29a8d9e9b", null ],
+    [ "OnDestroy", "df/dce/a09605.html#a4631768d457c2804f057c565d6e8fb7a", null ],
+    [ "OnLoadGridMap", "df/dce/a09605.html#ad8c32f3761a83f24b092cf4ab43d416c", null ],
+    [ "OnPlayerEnter", "df/dce/a09605.html#a9cef8253d591e729b4119312ec0b670a", null ],
+    [ "OnPlayerLeave", "df/dce/a09605.html#a3d74ae0f2535cda31cf2d4125600f3e2", null ],
+    [ "OnUnloadGridMap", "df/dce/a09605.html#a3b2e87c4a0ffdbf848c988a5d688d626", null ],
+    [ "OnUpdate", "df/dce/a09605.html#a4e447511780a0c561e16b9e118361f63", null ],
+    [ "_mapEntry", "df/dce/a09605.html#a280ca8d9bfa672c10d34a99db53d2959", null ],
+    [ "_mapId", "df/dce/a09605.html#a1cbe9ae08f6e1c129df8d2277366eb1a", null ]
 ];

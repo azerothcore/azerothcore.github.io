@@ -1,6 +1,6 @@
 var a26169 =
 [
-    [ "exarch_orelisAI", "df/d31/a26173.html", "df/d31/a26173" ],
-    [ "exarch_orelis", "d2/db3/a26169.html#a79d67ac4733e2fe4a0ef86dc75670fcb", null ],
-    [ "GetAI", "d2/db3/a26169.html#abfedf8ddba54583e18d257a073f579cf", null ]
+    [ "anchorite_karjaAI", "df/d31/a26173.html", "df/d31/a26173" ],
+    [ "anchorite_karja", "d2/db3/a26169.html#aacbdba30ea6a8b4e81a911b44c26d265", null ],
+    [ "GetAI", "d2/db3/a26169.html#a074ae3dfb91bed4494a5bb8e20d433d5", null ]
 ];

@@ -1,5 +1,5 @@
 var a11509 =
 [
-    [ "at_blackrock_stadium", "d7/daa/a11509.html#a9f577437f231a189c02e50e71ffcb85a", null ],
-    [ "OnTrigger", "d7/daa/a11509.html#a26e43099d9253ea44060194e3b38c656", null ]
+    [ "go_father_flame", "d7/daa/a11509.html#aa992bd7029a56faca4b92637688fe845", null ],
+    [ "OnLootStateChanged", "d7/daa/a11509.html#a84c7055e791a3dac66b75d327c7662c3", null ]
 ];

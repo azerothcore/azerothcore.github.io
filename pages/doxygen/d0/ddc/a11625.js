@@ -1,10 +1,9 @@
 var a11625 =
 [
-    [ "npc_drakonid_spawner", "d0/ddc/a11625.html#a2b657e800dc5cc30c618391413ded116", null ],
-    [ "DoAction", "d0/ddc/a11625.html#ab013cff0430c09fe1045fdc735e45182", null ],
-    [ "IsSummonedBy", "d0/ddc/a11625.html#a1be247e7bbaecefbc821d64cf04c3d0b", null ],
-    [ "SummonedCreatureDies", "d0/ddc/a11625.html#a57dd1fc80cfa43f6afae58e797b4091f", null ],
-    [ "UpdateAI", "d0/ddc/a11625.html#a60e79dd8f56e87a2de4a203a63c6f9e3", null ],
-    [ "_owner", "d0/ddc/a11625.html#a6e0f0d2f6c265f9e5206f441dead8b2f", null ],
-    [ "_scheduler", "d0/ddc/a11625.html#a5e1366e337377e66c4397ecf2efd7798", null ]
+    [ "FilterTargets", "d0/ddc/a11625.html#ae1029dd58a48c099e8bbd071898f1b12", null ],
+    [ "HandleOnHitRogue", "d0/ddc/a11625.html#a57cd6d2c45a9a73bb284272db21d1fce", null ],
+    [ "HandleOnHitWarlock", "d0/ddc/a11625.html#a76f9e5e11a6f2e25868dba567d798002", null ],
+    [ "PrepareSpellScript", "d0/ddc/a11625.html#a4792a25aa6fe6126a94900784798dbee", null ],
+    [ "Register", "d0/ddc/a11625.html#a0f6146c64a86e953c042f8404bbfe683", null ],
+    [ "Validate", "d0/ddc/a11625.html#af65d372cdbb365eff73edb8cf18734c8", null ]
 ];

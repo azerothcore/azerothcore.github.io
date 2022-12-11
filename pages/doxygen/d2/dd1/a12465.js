@@ -1,6 +1,7 @@
 var a12465 =
 [
-    [ "npc_unworthy_initiate_anchorAI", "d7/dfd/a12469.html", "d7/dfd/a12469" ],
-    [ "npc_unworthy_initiate_anchor", "d2/dd1/a12465.html#a3d4c6d9e5ffa66d3424297b27e5ac4a1", null ],
-    [ "GetAI", "d2/dd1/a12465.html#ab012983661d20a3ffa4f58136bd2d808", null ]
+    [ "npc_unworthy_initiate_anchorAI", "d2/dd1/a12465.html#a2d1a90c4f3c5047a41c7e9f80db13a99", null ],
+    [ "GetGUID", "d2/dd1/a12465.html#a83cca82e7d75231a6aa586f67dad766e", null ],
+    [ "SetGUID", "d2/dd1/a12465.html#a3d2ccbeeddc28002a4eb2392a62ba031", null ],
+    [ "prisonerGUID", "d2/dd1/a12465.html#a38a3e7e7207bb6d809d03c90e67f7742", null ]
 ];

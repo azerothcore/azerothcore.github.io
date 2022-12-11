@@ -1,12 +1,13 @@
 var a30709 =
 [
-    [ "Bounds", "d2/d8b/a30709.html#a1e982b341ac3859fad38b2efc81ab8ea", null ],
-    [ "DoodadSet", "d2/d8b/a30709.html#abbf6e50e76b120be17215cfcf227a524", null ],
-    [ "Flags", "d2/d8b/a30709.html#a06f5e96119239356eea45b9acdadf6e1", null ],
-    [ "Id", "d2/d8b/a30709.html#a952442c180e8d3710af31272b54eb6ec", null ],
-    [ "NameSet", "d2/d8b/a30709.html#a55df9aed38d8cf1503b21f5fd9d5e5d0", null ],
-    [ "Position", "d2/d8b/a30709.html#a7e6463db89eaf53bc20832afb1842a5b", null ],
-    [ "Rotation", "d2/d8b/a30709.html#a2c04715e800b9f375c287cced96643d1", null ],
-    [ "Scale", "d2/d8b/a30709.html#a142716fecae07abc013c7f3bd053c0ea", null ],
-    [ "UniqueId", "d2/d8b/a30709.html#a749e920740b9e91547fe1f87933d1c7d", null ]
+    [ "liquidTris", "d2/d8b/a30709.html#ad166656bfa449d3093cb23e7bef2cc76", null ],
+    [ "liquidType", "d2/d8b/a30709.html#afbbb20fcb4e597c2addcc47893a33f92", null ],
+    [ "liquidVerts", "d2/d8b/a30709.html#a52796933ab018f27d12f625673f7f8a9", null ],
+    [ "offMeshConnectionDirs", "d2/d8b/a30709.html#a58350c36d5b88fe255880f6c217d4ef9", null ],
+    [ "offMeshConnectionRads", "d2/d8b/a30709.html#a56bbdeb5028302de0c5eb5a02cffa44c", null ],
+    [ "offMeshConnections", "d2/d8b/a30709.html#a706feac90bb398da61296bac9d0b7176", null ],
+    [ "offMeshConnectionsAreas", "d2/d8b/a30709.html#af5af113433bb2776e6735195e57ab6f7", null ],
+    [ "offMeshConnectionsFlags", "d2/d8b/a30709.html#a8c819b625f1bb0b21bb756144b2e1266", null ],
+    [ "solidTris", "d2/d8b/a30709.html#adb04d376bfa182cf9666689e6c5a7c68", null ],
+    [ "solidVerts", "d2/d8b/a30709.html#a915387c2cfa7111de4a957646a2aace4", null ]
 ];

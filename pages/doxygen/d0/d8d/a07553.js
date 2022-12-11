@@ -1,24 +1,12 @@
 var a07553 =
 [
-    [ "PlayerMenu", "d0/d8d/a07553.html#a690175d52d57aa33ec8fac8c1f25972a", null ],
-    [ "~PlayerMenu", "d0/d8d/a07553.html#a764418c67a206ddfb783ea2f8a755bcc", null ],
-    [ "ClearMenus", "d0/d8d/a07553.html#a64e6ddbdb6e894f56578339efa62e752", null ],
-    [ "Empty", "d0/d8d/a07553.html#a7b8937a48631f9dab1ab117ea9e3dfaf", null ],
-    [ "GetGossipMenu", "d0/d8d/a07553.html#acc519746fa45290cde3967dc5f604158", null ],
-    [ "GetGossipOptionAction", "d0/d8d/a07553.html#afe2b7121b08000226986315ab2da007c", null ],
-    [ "GetGossipOptionSender", "d0/d8d/a07553.html#ab85bfb274849b70e5e49d9dfdd9ea414", null ],
-    [ "GetQuestMenu", "d0/d8d/a07553.html#a6129e728a42a0d74e462073ba7219eb1", null ],
-    [ "IsGossipOptionCoded", "d0/d8d/a07553.html#a74e2796d83f1643a98aa8107d496ca22", null ],
-    [ "SendCloseGossip", "d0/d8d/a07553.html#a1071f28b7138ecbd7e94d95175059ba1", null ],
-    [ "SendGossipMenu", "d0/d8d/a07553.html#a78a00a19e9e55fe5582dd70183b01e8b", null ],
-    [ "SendPointOfInterest", "d0/d8d/a07553.html#a192c3c40d28b331851fb36a8c936bde3", null ],
-    [ "SendQuestGiverOfferReward", "d0/d8d/a07553.html#afc3d8fc9f8fd2f20ea0068b101d90f91", null ],
-    [ "SendQuestGiverQuestDetails", "d0/d8d/a07553.html#a3961687838852446af0db40d6458fb41", null ],
-    [ "SendQuestGiverQuestList", "d0/d8d/a07553.html#a1995bf53009911627fbbcb20049a1fbf", null ],
-    [ "SendQuestGiverRequestItems", "d0/d8d/a07553.html#a61a5f8d9b8b9c4baa511028884011f89", null ],
-    [ "SendQuestGiverStatus", "d0/d8d/a07553.html#a873a174b6ef46140ff8d8acf0c683ffb", null ],
-    [ "SendQuestQueryResponse", "d0/d8d/a07553.html#a950ed922c39040db8a1fe16588c7c65a", null ],
-    [ "_gossipMenu", "d0/d8d/a07553.html#a7a31b60fd003326c8f975675168efd10", null ],
-    [ "_questMenu", "d0/d8d/a07553.html#a1d1d9ec0ac5fea6b1905390f0719073a", null ],
-    [ "_session", "d0/d8d/a07553.html#aa55a3dbe879c3d0166ba7a8deda0d6e0", null ]
+    [ "QuestMenu", "d0/d8d/a07553.html#a60ba5b35499c6a9ed510300d3300421e", null ],
+    [ "~QuestMenu", "d0/d8d/a07553.html#a14df9b6699c327853121ae032704db8d", null ],
+    [ "AddMenuItem", "d0/d8d/a07553.html#ac8735756bbf9f2fa799c505bd740e070", null ],
+    [ "ClearMenu", "d0/d8d/a07553.html#ab3d3881aabe000694acab37a3774507e", null ],
+    [ "Empty", "d0/d8d/a07553.html#a1a850cb70956f299ea91cb0d732ad202", null ],
+    [ "GetItem", "d0/d8d/a07553.html#a08240a8d18dce0cb96db19f54c67dd2c", null ],
+    [ "GetMenuItemCount", "d0/d8d/a07553.html#a2338a6fb88c32bfb66fe524a8ffaa0d7", null ],
+    [ "HasItem", "d0/d8d/a07553.html#a7fe36e4a4acfc66a00f08034c470b5e3", null ],
+    [ "_questMenuItems", "d0/d8d/a07553.html#a49279a3943009f2d1475d792c2c3d21a", null ]
 ];

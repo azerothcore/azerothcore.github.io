@@ -1,11 +1,10 @@
 var a09749 =
 [
-    [ "PetScript", "d2/d25/a09749.html#a3345c6e8c6417e3f52c3711cad5d79ae", null ],
-    [ "CanResetTalents", "d2/d25/a09749.html#ab4e5e0b19285573753ef6e9b7e8fd535", null ],
-    [ "CanUnlearnSpellDefault", "d2/d25/a09749.html#af150efd719bbb619df792ebc6705bb0a", null ],
-    [ "CanUnlearnSpellSet", "d2/d25/a09749.html#a84cba94813ffa26e1a245b814feb0349", null ],
-    [ "IsDatabaseBound", "d2/d25/a09749.html#a16fae7cdf068c6e3d9e46882548d4c20", null ],
-    [ "OnCalculateMaxTalentPointsForLevel", "d2/d25/a09749.html#a1263b06233902fbede9fc5df80cc8ad4", null ],
-    [ "OnInitStatsForLevel", "d2/d25/a09749.html#a65a33c4f374f2e9739680ad172118c26", null ],
-    [ "OnPetAddToWorld", "d2/d25/a09749.html#a3012323c5c1424512b611b6956a32554", null ]
+    [ "AchievementScript", "d2/d25/a09749.html#afe724d1d43cb6da88912f65b92afeb83", null ],
+    [ "CanCheckCriteria", "d2/d25/a09749.html#aca4cb16b55f7990c676267b8f10b4e57", null ],
+    [ "IsCompletedCriteria", "d2/d25/a09749.html#a33d7ba1a6bf82da8e2de367553c0fb52", null ],
+    [ "IsDatabaseBound", "d2/d25/a09749.html#a9ea2ed91c281e881404c31a948de0fc9", null ],
+    [ "IsRealmCompleted", "d2/d25/a09749.html#abc54c295c1bcad45e21aed99e43a3713", null ],
+    [ "OnBeforeCheckCriteria", "d2/d25/a09749.html#a0290017c5d11174da759fa584d44a4bf", null ],
+    [ "SetRealmCompleted", "d2/d25/a09749.html#acf6a63ba96da7b33a92d48a95a549d4e", null ]
 ];

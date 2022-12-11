@@ -1,6 +1,6 @@
 var a25749 =
 [
-    [ "spell_alar_ember_blast_SpellScript", "d7/ddd/a25753.html", "d7/ddd/a25753" ],
-    [ "spell_alar_ember_blast", "de/d70/a25749.html#aa53ca4cbab4f04a6eb7a8bcbe29e3a63", null ],
-    [ "GetSpellScript", "de/d70/a25749.html#a550c0cd97a5c04f3f1b948767fe9768b", null ]
+    [ "spell_alar_flame_quills_AuraScript", "d7/ddd/a25753.html", "d7/ddd/a25753" ],
+    [ "spell_alar_flame_quills", "de/d70/a25749.html#a8a654c26568c1df707c379e665612fe3", null ],
+    [ "GetAuraScript", "de/d70/a25749.html#a2f9439c4327475fa0fb058f89f1ae466", null ]
 ];

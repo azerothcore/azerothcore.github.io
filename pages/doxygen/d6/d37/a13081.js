@@ -1,6 +1,6 @@
 var a13081 =
 [
-    [ "spell_kiljaeden_flame_dart_SpellScript", "d2/d2f/a13085.html", "d2/d2f/a13085" ],
-    [ "spell_kiljaeden_flame_dart", "d6/d37/a13081.html#ab8528612a0a12872412336c0b98cbd5c", null ],
-    [ "GetSpellScript", "d6/d37/a13081.html#a2a8057853081234af80909f86cea5b4e", null ]
+    [ "HandleSchoolDamage", "d6/d37/a13081.html#a4e33633c0fce6a8093147f13103527a1", null ],
+    [ "PrepareSpellScript", "d6/d37/a13081.html#aae28ad96d8ff901d99498cdfa39d9304", null ],
+    [ "Register", "d6/d37/a13081.html#a08dffa8e462cb6b9c42b1c69720ebee9", null ]
 ];

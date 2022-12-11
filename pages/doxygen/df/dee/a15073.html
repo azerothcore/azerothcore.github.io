@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('df/dee/a15073.html','../../'); initRes
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a766a75e73261ac8bb76c90e8befd21ad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dee/a15073.html#a766a75e73261ac8bb76c90e8befd21ad">NotInStomachSelector</a> ()</td></tr>
 <tr class="separator:a766a75e73261ac8bb76c90e8befd21ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a189c90e585ecef8ffbcbe9227c588946"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dee/a15073.html#a189c90e585ecef8ffbcbe9227c588946">operator()</a> (<a class="el" href="../../df/d37/a08189.html">Unit</a> *unit) const</td></tr>
+<tr class="memitem:a189c90e585ecef8ffbcbe9227c588946"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dee/a15073.html#a189c90e585ecef8ffbcbe9227c588946">operator()</a> (<a class="el" href="../../d9/d8d/a08193.html">Unit</a> *unit) const</td></tr>
 <tr class="separator:a189c90e585ecef8ffbcbe9227c588946"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -160,7 +160,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool NotInStomachSelector::operator() </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d37/a08189.html">Unit</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d8d/a08193.html">Unit</a> *&#160;</td>
           <td class="paramname"><em>unit</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -172,17 +172,14 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><span class="lineno">  138</span>    {</div>
-<div class="line"><span class="lineno">  139</span>        <span class="keywordflow">if</span> (unit-&gt;<a class="code hl_function" href="../../df/d6f/a07805.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() != <a class="code hl_enumvalue" href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a> || unit-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d9/d5e/a03086.html#a5bd342133be8c2137b831460acc9298ca8b97edb0c4beeee35801924697a04cb6">SPELL_DIGESTIVE_ACID</a>))</div>
-<div class="line"><span class="lineno">  140</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  141</span> </div>
-<div class="line"><span class="lineno">  142</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  143</span>    }</div>
-<div class="ttc" id="aa01208_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="line"><span class="lineno">  139</span>        <span class="keywordflow">return</span> unit-&gt;<a class="code hl_function" href="../../d2/d63/a07809.html#a1b9ed00e8d7ac5fed698ef6431905296">IsPlayer</a>() &amp;&amp; !unit-&gt;<a class="code hl_function" href="../../d9/d8d/a08193.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d9/d5e/a03086.html#a5bd342133be8c2137b831460acc9298ca8b97edb0c4beeee35801924697a04cb6">SPELL_DIGESTIVE_ACID</a>) &amp;&amp; (unit-&gt;<a class="code hl_function" href="../../d1/d10/a07885.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>() &gt; 0.0f);</div>
+<div class="line"><span class="lineno">  140</span>    }</div>
 <div class="ttc" id="aa03086_html_a5bd342133be8c2137b831460acc9298ca8b97edb0c4beeee35801924697a04cb6"><div class="ttname"><a href="../../d9/d5e/a03086.html#a5bd342133be8c2137b831460acc9298ca8b97edb0c4beeee35801924697a04cb6">SPELL_DIGESTIVE_ACID</a></div><div class="ttdeci">@ SPELL_DIGESTIVE_ACID</div><div class="ttdef"><b>Definition:</b> boss_cthun.cpp:69</div></div>
-<div class="ttc" id="aa07805_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../df/d6f/a07805.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
-<div class="ttc" id="aa08189_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../df/d37/a08189.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:6454</div></div>
+<div class="ttc" id="aa07809_html_a1b9ed00e8d7ac5fed698ef6431905296"><div class="ttname"><a href="../../d2/d63/a07809.html#a1b9ed00e8d7ac5fed698ef6431905296">Object::IsPlayer</a></div><div class="ttdeci">bool IsPlayer() const</div><div class="ttdef"><b>Definition:</b> Object.h:194</div></div>
+<div class="ttc" id="aa07885_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d10/a07885.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="aa08193_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../d9/d8d/a08193.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00121">Object::GetTypeId()</a>, <a class="el" href="../../#l06454">Unit::HasAura()</a>, <a class="el" href="../../#l00069">SPELL_DIGESTIVE_ACID</a>, and <a class="el" href="../../#l00038">TYPEID_PLAYER</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00119">Position::GetPositionZ()</a>, <a class="el" href="../../#l05598">Unit::HasAura()</a>, <a class="el" href="../../#l00194">Object::IsPlayer()</a>, and <a class="el" href="../../#l00069">SPELL_DIGESTIVE_ACID</a>.</p>
 
 </div>
 </div>
@@ -192,7 +189,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dee/a15073.html">NotInStomachSelector</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 15:54:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sun Dec 11 2022 11:33:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

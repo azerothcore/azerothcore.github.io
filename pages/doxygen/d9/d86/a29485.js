@@ -1,7 +1,6 @@
 var a29485 =
 [
-    [ "npc_engineering_tele_trinket", "d9/d86/a29485.html#ab891a8378a7b1b63151d05801b8b2fd1", null ],
-    [ "CanLearn", "d9/d86/a29485.html#a8a35f1c09a9df609561e76f4ed578647", null ],
-    [ "OnGossipHello", "d9/d86/a29485.html#ad11f576fb7efad0f6ea4cf22d3bc4e59", null ],
-    [ "OnGossipSelect", "d9/d86/a29485.html#a4d7125cf0333d4e5ebc299019c8feb1a", null ]
+    [ "npc_innkeeper", "d9/d86/a29485.html#a006f27d898ead8827d8b98d8b93d430d", null ],
+    [ "OnGossipHello", "d9/d86/a29485.html#ae65c5cd7d3e270b2e50f80c0e12a72ff", null ],
+    [ "OnGossipSelect", "d9/d86/a29485.html#ab6cf511f5b032050336a77d1e4598dda", null ]
 ];

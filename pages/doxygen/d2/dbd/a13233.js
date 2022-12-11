@@ -1,6 +1,6 @@
 var a13233 =
 [
-    [ "spell_uldaman_sub_boss_agro_keepers_SpellScript", "d0/d71/a13237.html", "d0/d71/a13237" ],
-    [ "spell_uldaman_sub_boss_agro_keepers", "d2/dbd/a13233.html#abf3c4ac5e131f66ee8c7dcafa6d78279", null ],
-    [ "GetSpellScript", "d2/dbd/a13233.html#a2db1d5f97da0387d1565809f8b090f2f", null ]
+    [ "HandleSendEvent", "d2/dbd/a13233.html#ac3e5c8ce6dcceaf601f0f5a8c5727291", null ],
+    [ "PrepareSpellScript", "d2/dbd/a13233.html#a5705ee1863434039b1143db0817d60a7", null ],
+    [ "Register", "d2/dbd/a13233.html#a442e4aad6ed971119a147fdf87f90aa3", null ]
 ];

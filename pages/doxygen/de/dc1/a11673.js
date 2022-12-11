@@ -1,6 +1,6 @@
 var a11673 =
 [
-    [ "HandleOnHit", "de/dc1/a11673.html#a4e441fbea62570614c8823afe5906d05", null ],
-    [ "PrepareSpellScript", "de/dc1/a11673.html#af55d493c722026e3ab56b84d94a7babf", null ],
-    [ "Register", "de/dc1/a11673.html#ad5d2cc8ea0042d3730b9ca1c6a4f91f4", null ]
+    [ "boss_vaelAI", "d4/d06/a11677.html", "d4/d06/a11677" ],
+    [ "boss_vaelastrasz", "de/dc1/a11673.html#a0b51f3b50cde4907bd9064e8bf51c005", null ],
+    [ "GetAI", "de/dc1/a11673.html#a42dde198f5fc0ab2e7ca28ac32c42b7e", null ]
 ];

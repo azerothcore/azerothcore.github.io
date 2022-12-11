@@ -1,10 +1,12 @@
 var a10725 =
 [
-    [ "AcoreStringChatBuilder", "d6/da1/a10725.html#a7e280083c80fd119d365649fd4578fc9", null ],
-    [ "operator()", "d6/da1/a10725.html#a09a2a03dca2b8470cd1d1f7c8273868b", null ],
-    [ "_args", "d6/da1/a10725.html#aa92a28b7d6a7dd59ea7da3a76c1fb4cc", null ],
-    [ "_msgType", "d6/da1/a10725.html#adbabf871f33692b0ecddc8cc0fb75586", null ],
-    [ "_source", "d6/da1/a10725.html#ac5222737ea1b95b6d75afc532838f8be", null ],
-    [ "_target", "d6/da1/a10725.html#ab659b7c7bd6426a023cf8668322327b8", null ],
-    [ "_textId", "d6/da1/a10725.html#a3d29de9c5d80c3df488aa01fa380a84a", null ]
+    [ "BroadcastTextBuilder", "d6/da1/a10725.html#adafc60b68bed31fdd87f5c71244c96f2", null ],
+    [ "operator()", "d6/da1/a10725.html#a16f9719278e00013c25902846fa1be5b", null ],
+    [ "operator()", "d6/da1/a10725.html#a721cfad6078bb74dbb06aaec750bc0a4", null ],
+    [ "_achievementId", "d6/da1/a10725.html#a82de25331657b17ce0de33f2b374abda", null ],
+    [ "_gender", "d6/da1/a10725.html#a71032b0749dd75f552107503528e8166", null ],
+    [ "_msgType", "d6/da1/a10725.html#a232325cefa217843da5cc6db7e5d80fe", null ],
+    [ "_source", "d6/da1/a10725.html#ab73315225b3aa36a309f45596f7089f4", null ],
+    [ "_target", "d6/da1/a10725.html#a958b154f3c82188e9684be0f0b7dae56", null ],
+    [ "_textId", "d6/da1/a10725.html#a0bbe45b38a92967f145fb1d608d647b1", null ]
 ];

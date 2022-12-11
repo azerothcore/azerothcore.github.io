@@ -1,6 +1,6 @@
 var a26741 =
 [
-    [ "HandleProc", "db/d19/a26741.html#a8fb0e7e5e50fcb201e8e55ee9621034e", null ],
-    [ "PrepareAuraScript", "db/d19/a26741.html#a2f42e70482f71a4c275f70897b90ed72", null ],
-    [ "Register", "db/d19/a26741.html#a048f59b6b0d52232e3a953f173324fc2", null ]
+    [ "PrepareSpellScript", "db/d19/a26741.html#a6c49fad4dc5d080b9a5550f8f30cae4d", null ],
+    [ "RecalculateDamage", "db/d19/a26741.html#ab6a781160532d7cbb3bb3304eb412514", null ],
+    [ "Register", "db/d19/a26741.html#a82395d00066e90abc58103b18a5ef4dc", null ]
 ];

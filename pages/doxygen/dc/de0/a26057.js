@@ -1,6 +1,6 @@
 var a26057 =
 [
-    [ "spell_oscillating_field_SpellScript", "d1/dc5/a26061.html", "d1/dc5/a26061" ],
-    [ "spell_oscillating_field", "dc/de0/a26057.html#aec4ec59c132067e31a009068964111af", null ],
-    [ "GetSpellScript", "dc/de0/a26057.html#aa71cf93201e30f6ff648ac23df0e3488", null ]
+    [ "npc_oscillating_frequency_scanner_master_bunnyAI", "d1/dc5/a26061.html", "d1/dc5/a26061" ],
+    [ "npc_oscillating_frequency_scanner_master_bunny", "dc/de0/a26057.html#a8ae11cadbd5e883bf12f8f5201700b4e", null ],
+    [ "GetAI", "dc/de0/a26057.html#a60d55e2eda4484ceea4e475ac8653977", null ]
 ];

@@ -1,6 +1,6 @@
 var a13193 =
 [
-    [ "spell_entropius_black_hole_effect_SpellScript", "db/dc0/a13197.html", "db/dc0/a13197" ],
-    [ "spell_entropius_black_hole_effect", "d3/d2c/a13193.html#a60ff4a68739698fcfeeef344f772d6ac", null ],
-    [ "GetSpellScript", "d3/d2c/a13193.html#a78facb35baa829ab676724cd9ba4c53f", null ]
+    [ "HandlePull", "d3/d2c/a13193.html#ae854764446010d6c781c1569df0972d9", null ],
+    [ "PrepareSpellScript", "d3/d2c/a13193.html#a02e8286ade771a3d69245cfbaf2ddd44", null ],
+    [ "Register", "d3/d2c/a13193.html#af690014c0f89bc8cfb50c758dbc095f8", null ]
 ];

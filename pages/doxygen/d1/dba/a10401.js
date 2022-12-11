@@ -1,5 +1,7 @@
 var a10401 =
 [
-    [ "SocketAdded", "d1/dba/a10401.html#a89b23aa46aca3772ad0c0f36f41db537", null ],
-    [ "SocketRemoved", "d1/dba/a10401.html#a4f4ec084812a4191a477f7fa9223fa6e", null ]
+    [ "IsValidOpcode", "d1/dba/a10401.html#afdba55f89a1c7ffb9e7c302f2269687f", null ],
+    [ "IsValidSize", "d1/dba/a10401.html#aec5192f7f57a16c9dfa244ff3874e693", null ],
+    [ "cmd", "d1/dba/a10401.html#ad0a112cb2a8a71e6e8c20e320af63f49", null ],
+    [ "size", "d1/dba/a10401.html#ac1d551036381db4f85b8dc92ea55d4ee", null ]
 ];

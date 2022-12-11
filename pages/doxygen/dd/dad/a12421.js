@@ -1,6 +1,6 @@
 var a12421 =
 [
-    [ "CheckRequirement", "dd/dad/a12421.html#a262637743ff968a9cb5bfd7f08c6a238", null ],
-    [ "PrepareSpellScript", "dd/dad/a12421.html#a0f96b9517e9c954366651e103e02c4ec", null ],
-    [ "Register", "dd/dad/a12421.html#a2075457887ef8b41b34e7d2ec80e8308", null ]
+    [ "spell_q12698_the_gift_that_keeps_on_giving_SpellScript", "d9/d38/a12425.html", "d9/d38/a12425" ],
+    [ "spell_q12698_the_gift_that_keeps_on_giving", "dd/dad/a12421.html#a9b4722d731a886d02940498087e249e6", null ],
+    [ "GetSpellScript", "dd/dad/a12421.html#a25403a19cc427d7c6da9da1c3334ff1d", null ]
 ];

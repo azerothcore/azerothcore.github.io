@@ -1,6 +1,7 @@
 var a26905 =
 [
-    [ "CalculateAmount", "db/d1f/a26905.html#af255d621637db2d777bf4ef528dc6658", null ],
-    [ "PrepareAuraScript", "db/d1f/a26905.html#a4665a3ef48890696dbde1ca567be5fb3", null ],
-    [ "Register", "db/d1f/a26905.html#a50d1284f1113bfdd0b39690efabe6b9b", null ]
+    [ "AfterApply", "db/d1f/a26905.html#a1849f49a9682627753b8bd39b3ff827e", null ],
+    [ "AfterRemove", "db/d1f/a26905.html#a7c08bea735cd36840463aa942e7529b4", null ],
+    [ "PrepareAuraScript", "db/d1f/a26905.html#ad27880f797137cae09381e860727e2f7", null ],
+    [ "Register", "db/d1f/a26905.html#a6c105609c1ee61a8f845018550b2e3ba", null ]
 ];

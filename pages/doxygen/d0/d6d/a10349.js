@@ -1,8 +1,5 @@
 var a10349 =
 [
-    [ "PacketFilter", "d0/d6d/a10349.html#accfa43359c62d2e9d6c38086c77374bd", null ],
-    [ "~PacketFilter", "d0/d6d/a10349.html#a669531cfd9c06d5cf525986069117687", null ],
-    [ "Process", "d0/d6d/a10349.html#a03679e3c241a535757608c63ca933ac9", null ],
-    [ "ProcessUnsafe", "d0/d6d/a10349.html#a3e2bdc6d15cfd5cac1b9c130937599e3", null ],
-    [ "m_pSession", "d0/d6d/a10349.html#ad3723289ea93f1095cf82584268335d9", null ]
+    [ "AccountInfoQueryHolderPerRealm", "d0/d6d/a10349.html#a9d821669804cd04cf121e141d94ead36", null ],
+    [ "Initialize", "d0/d6d/a10349.html#a9d4e4de9a038697f61e6350f5f59713b", null ]
 ];

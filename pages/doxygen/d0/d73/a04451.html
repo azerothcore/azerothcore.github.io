@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: Acore::Types Namespace Reference</title>
+<title>AzeorthCore: Acore::TimeDiff Namespace Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,87 +106,131 @@ $(document).ready(function(){initNavTree('d0/d73/a04451.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#typedef-members">Typedefs</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Types Namespace Reference</div></div>
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">Acore::TimeDiff Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:aa6a7b1e80be2ae7ec2efb76185ee7b44"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aa6a7b1e80be2ae7ec2efb76185ee7b44"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d73/a04451.html#aa6a7b1e80be2ae7ec2efb76185ee7b44">is_chrono_v</a> = std::enable_if_t&lt; std::is_same_v&lt; <a class="el" href="../../d1/d98/a00407.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>, T &gt;||std::is_same_v&lt; <a class="el" href="../../d1/d98/a00407.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>, T &gt;||std::is_same_v&lt; <a class="el" href="../../d1/d98/a00407.html#af2161f9db850581e2228078614990df8">Minutes</a>, T &gt;||std::is_same_v&lt; <a class="el" href="../../d1/d98/a00407.html#aa0f87984d2b3835a61dffc22ae8bf083">Hours</a>, T &gt;||std::is_same_v&lt; <a class="el" href="../../d1/d98/a00407.html#af5dc5e7ad7b3f6d8e84530de842d125b">Days</a>, T &gt;||std::is_same_v&lt; <a class="el" href="../../d1/d98/a00407.html#a983745490d3d3a0322c4ccf0f418f179">Weeks</a>, T &gt;||std::is_same_v&lt; <a class="el" href="../../d1/d98/a00407.html#ab4fa20b33a9b5ee358963159b01d72f3">Years</a>, T &gt;||std::is_same_v&lt; <a class="el" href="../../d1/d98/a00407.html#a5f2ffeea2459944dfaa4443f1efb7f42">Months</a>, T &gt;, T &gt;</td></tr>
-<tr class="separator:aa6a7b1e80be2ae7ec2efb76185ee7b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d4fe40146df0d52c6917d8cc920ac84"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a6d4fe40146df0d52c6917d8cc920ac84"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d73/a04451.html#a6d4fe40146df0d52c6917d8cc920ac84">is_default</a> = std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;||std::is_same_v&lt; std::vector&lt; <a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt;, T &gt; &gt;</td></tr>
-<tr class="separator:a6d4fe40146df0d52c6917d8cc920ac84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae544e1b7f5a34959b1b48592f67dd4e7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ae544e1b7f5a34959b1b48592f67dd4e7"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d73/a04451.html#ae544e1b7f5a34959b1b48592f67dd4e7">is_enum_v</a> = std::enable_if_t&lt; std::is_enum_v&lt; T &gt; &gt;</td></tr>
-<tr class="separator:ae544e1b7f5a34959b1b48592f67dd4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67eb68c20f5616b2ea2a16a87784360a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a67eb68c20f5616b2ea2a16a87784360a"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d73/a04451.html#a67eb68c20f5616b2ea2a16a87784360a">is_non_string_view_v</a> = std::enable_if_t&lt;!std::is_base_of_v&lt; std::string_view, T &gt; &gt;</td></tr>
-<tr class="separator:a67eb68c20f5616b2ea2a16a87784360a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a2624e61008f0e89d91c7c55161f9bcd8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d73/a04451.html#a2624e61008f0e89d91c7c55161f9bcd8">MILLISECONDS</a> = 1000</td></tr>
+<tr class="separator:a2624e61008f0e89d91c7c55161f9bcd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fb1c8d14d370751c6202fc87b27bf96"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d73/a04451.html#a5fb1c8d14d370751c6202fc87b27bf96">SECONDS</a> = 1000 * <a class="el" href="../../d0/d73/a04451.html#a2624e61008f0e89d91c7c55161f9bcd8">MILLISECONDS</a></td></tr>
+<tr class="separator:a5fb1c8d14d370751c6202fc87b27bf96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbd89694b6a3e24a701ce6971b2cd37d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d73/a04451.html#abbd89694b6a3e24a701ce6971b2cd37d">MINUTES</a> = 60 * <a class="el" href="../../d0/d73/a04451.html#a5fb1c8d14d370751c6202fc87b27bf96">SECONDS</a></td></tr>
+<tr class="separator:abbd89694b6a3e24a701ce6971b2cd37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18161a3aeba136aeffb54a07f08f08f6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d73/a04451.html#a18161a3aeba136aeffb54a07f08f08f6">HOURS</a> = 60 * <a class="el" href="../../d0/d73/a04451.html#abbd89694b6a3e24a701ce6971b2cd37d">MINUTES</a></td></tr>
+<tr class="separator:a18161a3aeba136aeffb54a07f08f08f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9bde42940b2570f3865385200b56af8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d73/a04451.html#ac9bde42940b2570f3865385200b56af8">DAYS</a> = 24 * <a class="el" href="../../d0/d73/a04451.html#a18161a3aeba136aeffb54a07f08f08f6">HOURS</a></td></tr>
+<tr class="separator:ac9bde42940b2570f3865385200b56af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="aa6a7b1e80be2ae7ec2efb76185ee7b44" name="aa6a7b1e80be2ae7ec2efb76185ee7b44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6a7b1e80be2ae7ec2efb76185ee7b44">&#9670;&#160;</a></span>is_chrono_v</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ac9bde42940b2570f3865385200b56af8" name="ac9bde42940b2570f3865385200b56af8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9bde42940b2570f3865385200b56af8">&#9670;&#160;</a></span>DAYS</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d0/d73/a04451.html#aa6a7b1e80be2ae7ec2efb76185ee7b44">Acore::Types::is_chrono_v</a> = typedef std::enable_if_t&lt;std::is_same_v&lt;<a class="el" href="../../d1/d98/a00407.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>, T&gt; || std::is_same_v&lt;<a class="el" href="../../d1/d98/a00407.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>, T&gt; || std::is_same_v&lt;<a class="el" href="../../d1/d98/a00407.html#af2161f9db850581e2228078614990df8">Minutes</a>, T&gt; || std::is_same_v&lt;<a class="el" href="../../d1/d98/a00407.html#aa0f87984d2b3835a61dffc22ae8bf083">Hours</a>, T&gt; || std::is_same_v&lt;<a class="el" href="../../d1/d98/a00407.html#af5dc5e7ad7b3f6d8e84530de842d125b">Days</a>, T&gt; || std::is_same_v&lt;<a class="el" href="../../d1/d98/a00407.html#a983745490d3d3a0322c4ccf0f418f179">Weeks</a>, T&gt; || std::is_same_v&lt;<a class="el" href="../../d1/d98/a00407.html#ab4fa20b33a9b5ee358963159b01d72f3">Years</a>, T&gt; || std::is_same_v&lt;<a class="el" href="../../d1/d98/a00407.html#a5f2ffeea2459944dfaa4443f1efb7f42">Months</a>, T&gt;, T&gt;</td>
+          <td class="memname">constexpr <a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> Acore::TimeDiff::DAYS = 24 * <a class="el" href="../../d0/d73/a04451.html#a18161a3aeba136aeffb54a07f08f08f6">HOURS</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a6d4fe40146df0d52c6917d8cc920ac84" name="a6d4fe40146df0d52c6917d8cc920ac84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d4fe40146df0d52c6917d8cc920ac84">&#9670;&#160;</a></span>is_default</h2>
+<a id="a18161a3aeba136aeffb54a07f08f08f6" name="a18161a3aeba136aeffb54a07f08f08f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18161a3aeba136aeffb54a07f08f08f6">&#9670;&#160;</a></span>HOURS</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d0/d73/a04451.html#a6d4fe40146df0d52c6917d8cc920ac84">Acore::Types::is_default</a> = typedef std::enable_if_t&lt;std::is_arithmetic_v&lt;T&gt; || std::is_same_v&lt;std::vector&lt;<a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&gt;, T&gt; &gt;</td>
+          <td class="memname">constexpr <a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> Acore::TimeDiff::HOURS = 60 * <a class="el" href="../../d0/d73/a04451.html#abbd89694b6a3e24a701ce6971b2cd37d">MINUTES</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ae544e1b7f5a34959b1b48592f67dd4e7" name="ae544e1b7f5a34959b1b48592f67dd4e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae544e1b7f5a34959b1b48592f67dd4e7">&#9670;&#160;</a></span>is_enum_v</h2>
+<a id="a2624e61008f0e89d91c7c55161f9bcd8" name="a2624e61008f0e89d91c7c55161f9bcd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2624e61008f0e89d91c7c55161f9bcd8">&#9670;&#160;</a></span>MILLISECONDS</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d0/d73/a04451.html#ae544e1b7f5a34959b1b48592f67dd4e7">Acore::Types::is_enum_v</a> = typedef std::enable_if_t&lt;std::is_enum_v&lt;T&gt; &gt;</td>
+          <td class="memname">constexpr <a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> Acore::TimeDiff::MILLISECONDS = 1000</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a67eb68c20f5616b2ea2a16a87784360a" name="a67eb68c20f5616b2ea2a16a87784360a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67eb68c20f5616b2ea2a16a87784360a">&#9670;&#160;</a></span>is_non_string_view_v</h2>
+<a id="abbd89694b6a3e24a701ce6971b2cd37d" name="abbd89694b6a3e24a701ce6971b2cd37d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbd89694b6a3e24a701ce6971b2cd37d">&#9670;&#160;</a></span>MINUTES</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d0/d73/a04451.html#a67eb68c20f5616b2ea2a16a87784360a">Acore::Types::is_non_string_view_v</a> = typedef std::enable_if_t&lt;!std::is_base_of_v&lt;std::string_view, T&gt; &gt;</td>
+          <td class="memname">constexpr <a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> Acore::TimeDiff::MINUTES = 60 * <a class="el" href="../../d0/d73/a04451.html#a5fb1c8d14d370751c6202fc87b27bf96">SECONDS</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5fb1c8d14d370751c6202fc87b27bf96" name="a5fb1c8d14d370751c6202fc87b27bf96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fb1c8d14d370751c6202fc87b27bf96">&#9670;&#160;</a></span>SECONDS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> Acore::TimeDiff::SECONDS = 1000 * <a class="el" href="../../d0/d73/a04451.html#a2624e61008f0e89d91c7c55161f9bcd8">MILLISECONDS</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -196,8 +240,8 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dc/d7e/a04424.html">Acore</a></li><li class="navelem"><a class="el" href="../../d0/d73/a04451.html">Types</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 15:55:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../de/dc4/a04428.html">Acore</a></li><li class="navelem"><a class="el" href="../../d0/d73/a04451.html">TimeDiff</a></li>
+    <li class="footer">Generated on Sun Dec 11 2022 11:34:27 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

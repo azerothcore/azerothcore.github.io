@@ -1,9 +1,9 @@
 var a13893 =
 [
-    [ "npc_healing_ward", "dc/db6/a13893.html#a3d3c35f61502d3a83cb2581119e08903", null ],
-    [ "EnterCombat", "dc/db6/a13893.html#a7cc2da31e61cd3aad77d6afc3a15bb5c", null ],
-    [ "Reset", "dc/db6/a13893.html#a756d27a43d86c7ecde859df255c6bd62", null ],
-    [ "UpdateAI", "dc/db6/a13893.html#a8b8635af33ce814602206064e0815520", null ],
-    [ "_instance", "dc/db6/a13893.html#a65f227041ad4bdc7240637dd6cb680ec", null ],
-    [ "_scheduler", "dc/db6/a13893.html#a0c62fe945b491cab76175217a7d10c06", null ]
+    [ "npc_shade_of_jindo", "dc/db6/a13893.html#a86fa95e806aea21fd6db332ea3f18a02", null ],
+    [ "EnterCombat", "dc/db6/a13893.html#a4376dd0e0d913f56b5431fc393c16a97", null ],
+    [ "IsSummonedBy", "dc/db6/a13893.html#a401ba631c52b5ef6d5334bee18de9439", null ],
+    [ "Reset", "dc/db6/a13893.html#abc18dabb6f4f0b85a3b5b2e6f830804f", null ],
+    [ "UpdateAI", "dc/db6/a13893.html#a1aca8192c0655c0ab359f49448f8fafd", null ],
+    [ "_scheduler", "dc/db6/a13893.html#a1d74d8113f5ef117b2968f8f864fcaf4", null ]
 ];

@@ -1,7 +1,6 @@
 var a13189 =
 [
-    [ "HandleApply", "d7/d19/a13189.html#a173361f5cb4ae9f4d0595339662ee2dd", null ],
-    [ "HandleRemove", "d7/d19/a13189.html#a589dae6926b7b04cfb8d723cfbc52f1a", null ],
-    [ "PrepareAuraScript", "d7/d19/a13189.html#ab464f859fd95cf2e5d2f568d4049b2be", null ],
-    [ "Register", "d7/d19/a13189.html#a30336ae89a687c350d88da2b8ffe3aa4", null ]
+    [ "spell_entropius_black_hole_effect_SpellScript", "d3/d2c/a13193.html", "d3/d2c/a13193" ],
+    [ "spell_entropius_black_hole_effect", "d7/d19/a13189.html#a60ff4a68739698fcfeeef344f772d6ac", null ],
+    [ "GetSpellScript", "d7/d19/a13189.html#a78facb35baa829ab676724cd9ba4c53f", null ]
 ];

@@ -1,6 +1,6 @@
 var a27769 =
 [
-    [ "HandleScript", "df/de9/a27769.html#a9309c0e435240bc656b3bfde2d923a9a", null ],
-    [ "PrepareSpellScript", "df/de9/a27769.html#a74dc9d9a57ed410b3c0d690418bfb4eb", null ],
-    [ "Register", "df/de9/a27769.html#a8769cbce815d1f1c457979743e10535c", null ]
+    [ "CalculateAmount", "df/de9/a27769.html#ad80edf403addb2d907d0d3d778b6745f", null ],
+    [ "PrepareAuraScript", "df/de9/a27769.html#a96c2e2cdd259d96bb7aa12eb42856cf4", null ],
+    [ "Register", "df/de9/a27769.html#a538ab0fdebbafa3c96183f639fe8968b", null ]
 ];

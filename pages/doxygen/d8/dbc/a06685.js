@@ -1,10 +1,8 @@
 var a06685 =
 [
-    [ "CreatureBottom", "d8/dbc/a06685.html#aaa8fe59aa58bf02934bf87f636582637", null ],
-    [ "CreatureTop", "d8/dbc/a06685.html#a98a71fcf0d3a1f98ba4dab56d1a3c64b", null ],
-    [ "GameObject", "d8/dbc/a06685.html#abc26a328692fc048d9040c44f360f4c4", null ],
-    [ "nbCreatureBottom", "d8/dbc/a06685.html#ade8af6bff39a72f7052b7b0db14b207d", null ],
-    [ "nbCreatureTop", "d8/dbc/a06685.html#a38ab7536e0682efd7080b823569d504b", null ],
-    [ "nbObject", "d8/dbc/a06685.html#ad1e431e7205aee7fa7f8f0dd9a155c97", null ],
-    [ "towerEntry", "d8/dbc/a06685.html#a1c0edf97a599773b688954f2e966e794", null ]
+    [ "entry", "d8/dbc/a06685.html#ab47ef3b15c887f46fb1bf9c88f5cc5d8", null ],
+    [ "o", "d8/dbc/a06685.html#af2bf42b7d1a18e7ee1125a305ee7bc79", null ],
+    [ "x", "d8/dbc/a06685.html#a4fb658cf54f9534e0686a8fa5b2328c7", null ],
+    [ "y", "d8/dbc/a06685.html#aa761c9076be145dab6d2cac773bb6e7a", null ],
+    [ "z", "d8/dbc/a06685.html#ac9ff501bbf00d80f5b9350a78ffbb6fb", null ]
 ];

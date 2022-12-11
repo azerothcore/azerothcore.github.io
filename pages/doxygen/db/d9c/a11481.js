@@ -1,6 +1,7 @@
 var a11481 =
 [
-    [ "boss_urok_doomhowlAI", "d1/d2b/a11485.html", "d1/d2b/a11485" ],
-    [ "boss_urok_doomhowl", "db/d9c/a11481.html#a0ca9cea9919648baa5ff7db2d5a5b530", null ],
-    [ "GetAI", "db/d9c/a11481.html#ac77756af77191e02df49161da0ace268", null ]
+    [ "boss_urok_doomhowlAI", "db/d9c/a11481.html#ade3d87a05eed0fd077b2e3245099ed74", null ],
+    [ "EnterCombat", "db/d9c/a11481.html#acffd7b7989fe2e2bfaef16a755b59254", null ],
+    [ "InitializeAI", "db/d9c/a11481.html#a530bef523a27523827d3a94aa5f88698", null ],
+    [ "UpdateAI", "db/d9c/a11481.html#a6ab5793a48534b7c338a915a7ed8faf9", null ]
 ];

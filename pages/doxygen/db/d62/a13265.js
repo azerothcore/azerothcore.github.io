@@ -1,6 +1,7 @@
 var a13265 =
 [
-    [ "spell_razelikh_teleport_group_SpellScript", "d1/d98/a13269.html", "d1/d98/a13269" ],
-    [ "spell_razelikh_teleport_group", "db/d62/a13265.html#a8be75a9e2fc340768e1e2210f5e2252a", null ],
-    [ "GetSpellScript", "db/d62/a13265.html#a2f1813321d166984df9efacfc4a04ce4", null ]
+    [ "HandleScriptEffect", "db/d62/a13265.html#ae00e67edf5d4c522faf879a1709201c9", null ],
+    [ "PrepareSpellScript", "db/d62/a13265.html#ac455786b59be799fb659b49b2bdcd25a", null ],
+    [ "Register", "db/d62/a13265.html#a23f545ed460acf3b17b767f0cce3fb2e", null ],
+    [ "Validate", "db/d62/a13265.html#a9ccc8bb8b7083b662ec08aa6044ef786", null ]
 ];

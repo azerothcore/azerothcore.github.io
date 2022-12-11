@@ -1,10 +1,10 @@
 var a27281 =
 [
-    [ "Load", "d1/df9/a27281.html#a6ae104e97dc9c0aa50e115fe1f17e161", null ],
-    [ "OnPeriodic", "d1/df9/a27281.html#ab1dc8acb8072f70625375480742fee5e", null ],
-    [ "PrepareAuraScript", "d1/df9/a27281.html#a2e81d03893b23aa8dc9c615683206f75", null ],
-    [ "Register", "d1/df9/a27281.html#ac2f2c8359487ad8c619e9faf8535b927", null ],
-    [ "Validate", "d1/df9/a27281.html#a0c88acf48d0ea7dd7ac3ac85aa3a126d", null ],
-    [ "_applyTimes", "d1/df9/a27281.html#a1bf9f3a1eb52bb64df59b381c412552f", null ],
-    [ "stackAmount", "d1/df9/a27281.html#ac8d762bdb40366c93602497e9aaa42eb", null ]
+    [ "Load", "d1/df9/a27281.html#a18e05511c2dc0b934a97e323fccc3f50", null ],
+    [ "OnApply", "d1/df9/a27281.html#a1fe8240f5c553ba56ce9c2ff9338f75b", null ],
+    [ "OnRemove", "d1/df9/a27281.html#a29834c598d6ef8299d54e48a3461e603", null ],
+    [ "PrepareAuraScript", "d1/df9/a27281.html#a0529b56b30fa7bb97c014bbc2ee4a96a", null ],
+    [ "Register", "d1/df9/a27281.html#a5174f07fde3469c2314a3c1fbba5f432", null ],
+    [ "Validate", "d1/df9/a27281.html#aeaf16594f569af671d221234a4aa2c8b", null ],
+    [ "prevItem", "d1/df9/a27281.html#ad4c0402ae71e663534ed8fd137a9afd2", null ]
 ];

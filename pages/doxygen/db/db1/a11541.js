@@ -1,7 +1,7 @@
 var a11541 =
 [
-    [ "boss_broodlordAI", "db/db1/a11541.html#aa7a5b16b22633439e5d20f9d47a91041", null ],
-    [ "EnterCombat", "db/db1/a11541.html#ae33b51e23af18e84d586e62336cf4a00", null ],
-    [ "JustDied", "db/db1/a11541.html#ab0c4dfdd5abc8edcf039d5207e8a63e8", null ],
-    [ "UpdateAI", "db/db1/a11541.html#aea6fbbe31c96e94c2116733c3c66b59b", null ]
+    [ "go_suppression_deviceAI", "dd/d2f/a11545.html", "dd/d2f/a11545" ],
+    [ "go_suppression_device", "db/db1/a11541.html#a900713d6b029015f8868a96e5e1b9018", null ],
+    [ "GetAI", "db/db1/a11541.html#aa51bb6f9616022c1f4e1e711ca1130e8", null ],
+    [ "OnLootStateChanged", "db/db1/a11541.html#a684546c3ce0c0785d52a87eb011ef313", null ]
 ];

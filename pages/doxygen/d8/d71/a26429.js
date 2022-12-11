@@ -1,6 +1,6 @@
 var a26429 =
 [
-    [ "npc_greatfather_aldrimusAI", "d9/d40/a26433.html", "d9/d40/a26433" ],
-    [ "npc_greatfather_aldrimus", "d8/d71/a26429.html#ac4af9fa1d0fe1348d43d598bce7a69db", null ],
-    [ "GetAI", "d8/d71/a26429.html#a9fd2394e90bd9817ad51ad7d3ca15f63", null ]
+    [ "PrepareSpellScript", "d8/d71/a26429.html#af3b609cbed22852cbf5f5d98c35e6ea3", null ],
+    [ "Register", "d8/d71/a26429.html#a0ae70c050d3ca489b86f68c0b9e4161b", null ],
+    [ "SetDest", "d8/d71/a26429.html#a11fcadef3fbf86766882af123e55be89", null ]
 ];

@@ -1,6 +1,6 @@
 var a12937 =
 [
-    [ "HandleScriptEffect", "d4/dd7/a12937.html#a55453472fa155bb70b8e06cc5afc40d4", null ],
-    [ "PrepareSpellScript", "d4/dd7/a12937.html#a8c70a7bddc9ad845a6d262dc0966dbe1", null ],
-    [ "Register", "d4/dd7/a12937.html#a28b683cad00564827cefa4fd6ab91495", null ]
+    [ "spell_felmyst_fog_of_corruption_charm_AuraScript", "d0/d33/a12941.html", "d0/d33/a12941" ],
+    [ "spell_felmyst_fog_of_corruption_charm", "d4/dd7/a12937.html#a5cfd4230c5cbbdf33c5ab54b99837084", null ],
+    [ "GetAuraScript", "d4/dd7/a12937.html#a506e102e07c45442d908934862220838", null ]
 ];

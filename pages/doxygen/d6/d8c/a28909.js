@@ -1,7 +1,7 @@
 var a28909 =
 [
-    [ "HandleApplyAura", "d6/d8c/a28909.html#ae364ff4048a2f59eadecd6934c7a0e13", null ],
-    [ "PrepareSpellScript", "d6/d8c/a28909.html#adf09900347264bc341884092ea0fee40", null ],
-    [ "Register", "d6/d8c/a28909.html#ac56484d4048817a164963e519a97d137", null ],
-    [ "Validate", "d6/d8c/a28909.html#ac028c0faf659fb74b2ffa5f85f58f8d1", null ]
+    [ "HandleApply", "d6/d8c/a28909.html#a046abc4b8afd26d13bcb7140165aed80", null ],
+    [ "HandleRemove", "d6/d8c/a28909.html#ad35716d4210572057fe67d426849931a", null ],
+    [ "PrepareAuraScript", "d6/d8c/a28909.html#a9af96871b8b7ac19de01e316f4350ebf", null ],
+    [ "Register", "d6/d8c/a28909.html#a37c4c881c563882fb72693babe545fc4", null ]
 ];

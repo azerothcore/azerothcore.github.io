@@ -1,7 +1,12 @@
 var a25561 =
 [
-    [ "npc_omrogg_headsAI", "dc/d5c/a25561.html#ae1364ad49c316eeb9ac61f97b08484ea", null ],
-    [ "SetData", "dc/d5c/a25561.html#a3840d884745348aa113e41a33b8093ea", null ],
-    [ "UpdateAI", "dc/d5c/a25561.html#aef9327352fe4d8fa33039e254859ec3e", null ],
-    [ "timer", "dc/d5c/a25561.html#a671b5c855f8e604082ba7adea276d665", null ]
+    [ "boss_warbringer_omroggAI", "dc/d5c/a25561.html#a1ff0abd360cc42477df1c39c05c5478a", null ],
+    [ "EnterCombat", "dc/d5c/a25561.html#a928c0dbd66cd81795e1f798ea4dc131e", null ],
+    [ "GetLeftHead", "dc/d5c/a25561.html#a37c62ea063c13f680b959d580758d6be", null ],
+    [ "GetRightHead", "dc/d5c/a25561.html#a43278cd30ff926abcd4b16dfc820134b", null ],
+    [ "JustDied", "dc/d5c/a25561.html#a30846b49e6d7a118674e056dee332937", null ],
+    [ "JustSummoned", "dc/d5c/a25561.html#ad3e039412ec2e8866d8af2dab600094d", null ],
+    [ "KilledUnit", "dc/d5c/a25561.html#a39fd0afe157ab3959b8cde3ca35a91fc", null ],
+    [ "UpdateAI", "dc/d5c/a25561.html#a4680d408bd1e4fc9bfcf89ee0f7ab127", null ],
+    [ "events2", "dc/d5c/a25561.html#acb71114a15651f28a6b6a31d423b9c50", null ]
 ];

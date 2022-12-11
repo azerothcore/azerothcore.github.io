@@ -1,6 +1,11 @@
 var a13049 =
 [
-    [ "npc_kalecgos_kjAI", "d7/d3d/a13053.html", "d7/d3d/a13053" ],
-    [ "npc_kalecgos_kj", "d4/d57/a13049.html#aa8c9e532e3980f94d316b60454799c63", null ],
-    [ "GetAI", "d4/d57/a13049.html#af63f0d90581189f4850414ffdddd1ba4", null ]
+    [ "npc_kalecgos_kjAI", "d4/d57/a13049.html#a767c71ddfd53a83be73581dd6bc07e2c", null ],
+    [ "DoAction", "d4/d57/a13049.html#acd76b7960d8de80b4384549723354e48", null ],
+    [ "JustSummoned", "d4/d57/a13049.html#af95048cecf0761c6bd6cb24b90b99959", null ],
+    [ "Reset", "d4/d57/a13049.html#af0fe1a73dffd23675122f2f1679f52d6", null ],
+    [ "UpdateAI", "d4/d57/a13049.html#abbbb554818e9d1aa87db8671ac49adfd", null ],
+    [ "events", "d4/d57/a13049.html#ad079b7bd8d0c0fc50b52e9105707565d", null ],
+    [ "instance", "d4/d57/a13049.html#a697d03ae3f042d5a85133f643dd46e67", null ],
+    [ "summons", "d4/d57/a13049.html#a48a8cacf3a0a36d94ad767e19d0a5b5e", null ]
 ];

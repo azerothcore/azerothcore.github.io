@@ -961,7 +961,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  154</span> </div>
 <div class="line"><span class="lineno">  155</span>        std::vector&lt;std::string&gt; moduleList;</div>
 <div class="line"><span class="lineno">  156</span> </div>
-<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; itr : <a class="code hl_function" href="../../dc/d7e/a04424.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(<a class="code hl_variable" href="../../d2/d4a/a05565.html#ad6852ab3a0f89c161bc2ddf581c8b393">_modulesList</a>, <span class="charliteral">&#39;,&#39;</span>, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; itr : <a class="code hl_function" href="../../de/dc4/a04428.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(<a class="code hl_variable" href="../../d2/d4a/a05565.html#ad6852ab3a0f89c161bc2ddf581c8b393">_modulesList</a>, <span class="charliteral">&#39;,&#39;</span>, <span class="keyword">true</span>))</div>
 <div class="line"><span class="lineno">  158</span>        {</div>
 <div class="line"><span class="lineno">  159</span>            moduleList.emplace_back(itr);</div>
 <div class="line"><span class="lineno">  160</span>        }</div>
@@ -987,7 +987,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  180</span>    <span class="keywordflow">return</span> directories;</div>
 <div class="line"><span class="lineno">  181</span>}</div>
 <div class="ttc" id="aa00317_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../da/de0/a00317.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:163</div></div>
-<div class="ttc" id="aa04424_html_a6b121485ace4118b9006db1fb89f90f2"><div class="ttname"><a href="../../dc/d7e/a04424.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a></div><div class="ttdeci">std::vector&lt; std::string_view &gt; Tokenize(std::string_view str, char sep, bool keepEmpty)</div><div class="ttdef"><b>Definition:</b> Tokenize.cpp:20</div></div>
+<div class="ttc" id="aa04428_html_a6b121485ace4118b9006db1fb89f90f2"><div class="ttname"><a href="../../de/dc4/a04428.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a></div><div class="ttdeci">std::vector&lt; std::string_view &gt; Tokenize(std::string_view str, char sep, bool keepEmpty)</div><div class="ttdef"><b>Definition:</b> Tokenize.cpp:20</div></div>
 <div class="ttc" id="aa05565_html_a557f248b248b5cd62606f843eda0bc00"><div class="ttname"><a href="../../d2/d4a/a05565.html#a557f248b248b5cd62606f843eda0bc00">UpdateFetcher::Path</a></div><div class="ttdeci">std::filesystem::path Path</div><div class="ttdef"><b>Definition:</b> UpdateFetcher.h:44</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00162">_dbModuleName</a>, <a class="el" href="../../#l00164">_modulesList</a>, <a class="el" href="../../#l00159">_retrieve</a>, <a class="el" href="../../#l00163">_setDirectories</a>, <a class="el" href="../../#l00155">_sourceDirectory</a>, <a class="el" href="../../#l00113">Field::Get()</a>, <a class="el" href="../../#l00175">LOG_TRACE</a>, <a class="el" href="../../#l00163">LOG_WARN</a>, <a class="el" href="../../#l00089">UpdateFetcher::AppliedFileEntry::StateConvert()</a>, and <a class="el" href="../../#l00020">Acore::Tokenize()</a>.</p>
@@ -1143,7 +1143,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  284</span>            }</div>
 <div class="line"><span class="lineno">  285</span>        }</div>
 <div class="line"><span class="lineno">  286</span> </div>
-<div class="line"><span class="lineno">  287</span>        std::string <span class="keyword">const</span> hash = <a class="code hl_function" href="../../d4/d1f/a00506.html#a559d532d2bfeee7ed59f0b1dbce4e86a">ByteArrayToHexStr</a>(<a class="code hl_function" href="../../d4/d9a/a04829.html#aeff80fe722abc16c9307d6ae50f22425">Acore::Crypto::SHA1::GetDigestOf</a>(<a class="code hl_function" href="../../d2/d4a/a05565.html#a8e362ef41c19586ac1b13ecf77148a6d">ReadSQLUpdate</a>(filePath)));</div>
+<div class="line"><span class="lineno">  287</span>        std::string <span class="keyword">const</span> hash = <a class="code hl_function" href="../../d4/d1f/a00506.html#a559d532d2bfeee7ed59f0b1dbce4e86a">ByteArrayToHexStr</a>(<a class="code hl_function" href="../../df/d15/a04833.html#aeff80fe722abc16c9307d6ae50f22425">Acore::Crypto::SHA1::GetDigestOf</a>(<a class="code hl_function" href="../../d2/d4a/a05565.html#a8e362ef41c19586ac1b13ecf77148a6d">ReadSQLUpdate</a>(filePath)));</div>
 <div class="line"><span class="lineno">  288</span> </div>
 <div class="line"><span class="lineno">  289</span>        <a class="code hl_enumeration" href="../../d2/d4a/a05565.html#a8da5fda372d28f07213d723c5a582d5c">UpdateMode</a> mode = <a class="code hl_enumvalue" href="../../d2/d4a/a05565.html#a8da5fda372d28f07213d723c5a582d5ca8aca24718213eedb0d7a10d636a9323d">MODE_APPLY</a>;</div>
 <div class="line"><span class="lineno">  290</span> </div>
@@ -1297,7 +1297,7 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aa00317_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
 <div class="ttc" id="aa00317_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:171</div></div>
 <div class="ttc" id="aa00506_html_a559d532d2bfeee7ed59f0b1dbce4e86a"><div class="ttname"><a href="../../d4/d1f/a00506.html#a559d532d2bfeee7ed59f0b1dbce4e86a">ByteArrayToHexStr</a></div><div class="ttdeci">std::string ByteArrayToHexStr(Container const &amp;c, bool reverse=false)</div><div class="ttdef"><b>Definition:</b> Util.h:376</div></div>
-<div class="ttc" id="aa04829_html_aeff80fe722abc16c9307d6ae50f22425"><div class="ttname"><a href="../../d4/d9a/a04829.html#aeff80fe722abc16c9307d6ae50f22425">Acore::Impl::GenericHash::GetDigestOf</a></div><div class="ttdeci">static Digest GetDigestOf(uint8 const *data, size_t len)</div><div class="ttdef"><b>Definition:</b> CryptoHash.h:53</div></div>
+<div class="ttc" id="aa04833_html_aeff80fe722abc16c9307d6ae50f22425"><div class="ttname"><a href="../../df/d15/a04833.html#aeff80fe722abc16c9307d6ae50f22425">Acore::Impl::GenericHash::GetDigestOf</a></div><div class="ttdeci">static Digest GetDigestOf(uint8 const *data, size_t len)</div><div class="ttdef"><b>Definition:</b> CryptoHash.h:53</div></div>
 <div class="ttc" id="aa05561_html"><div class="ttname"><a href="../../d8/d7e/a05561.html">UpdateResult</a></div><div class="ttdef"><b>Definition:</b> UpdateFetcher.h:30</div></div>
 <div class="ttc" id="aa05565_html_a24699e8cc9d32551c24be563904bfdec"><div class="ttname"><a href="../../d2/d4a/a05565.html#a24699e8cc9d32551c24be563904bfdec">UpdateFetcher::Apply</a></div><div class="ttdeci">uint32 Apply(Path const &amp;path) const</div><div class="ttdef"><b>Definition:</b> UpdateFetcher.cpp:438</div></div>
 <div class="ttc" id="aa05565_html_a3c4e792ed5dc1016da8f9bb709b6d193"><div class="ttname"><a href="../../d2/d4a/a05565.html#a3c4e792ed5dc1016da8f9bb709b6d193">UpdateFetcher::GetFileList</a></div><div class="ttdeci">LocaleFileStorage GetFileList() const</div><div class="ttdef"><b>Definition:</b> UpdateFetcher.cpp:62</div></div>
@@ -1582,7 +1582,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d4a/a05565.html">UpdateFetcher</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 15:55:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sun Dec 11 2022 11:34:24 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,4 +1,4 @@
 var a10201 =
 [
-    [ "IllegalHyperlinkException", "d3/d89/a10201.html#a4bcd96d907fb882d147b0e29495f5c1d", null ]
+    [ "InvalidHyperlinkException", "d3/d89/a10201.html#a4e30376bb16ea56434e65761a2f4a55d", null ]
 ];

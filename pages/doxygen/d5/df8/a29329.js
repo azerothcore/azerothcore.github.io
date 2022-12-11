@@ -1,6 +1,5 @@
 var a29329 =
 [
-    [ "go_fel_crystalforge", "d5/df8/a29329.html#aa44708a617edd51651da49918ab776e5", null ],
-    [ "OnGossipHello", "d5/df8/a29329.html#aae9f4beff251efb7b29e1988ddd51eaf", null ],
-    [ "OnGossipSelect", "d5/df8/a29329.html#a97450cce5f547e28ea84fa6a6f8ab79e", null ]
+    [ "go_southfury_moonstone", "d5/df8/a29329.html#aed27e57e8232e156177c293ad0c0b4bb", null ],
+    [ "OnGossipHello", "d5/df8/a29329.html#a4c0870f0e03708f1fdc073abadbe5de8", null ]
 ];

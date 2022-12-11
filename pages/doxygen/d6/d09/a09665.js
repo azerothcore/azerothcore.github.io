@@ -1,6 +1,6 @@
 var a09665 =
 [
-    [ "OutdoorPvPScript", "d6/d09/a09665.html#ad7882db48419888c7968007e30c2f3f7", null ],
-    [ "GetOutdoorPvP", "d6/d09/a09665.html#aa213974f384c88ab65f7b7308dadb026", null ],
-    [ "IsDatabaseBound", "d6/d09/a09665.html#ac22c6a9945738270452848f997d2818f", null ]
+    [ "BattlegroundScript", "d6/d09/a09665.html#a306231f1c7346a00a3f877c7cef3897b", null ],
+    [ "GetBattleground", "d6/d09/a09665.html#a782c6e81f4ed9a63f9276dcc4f0f9116", null ],
+    [ "IsDatabaseBound", "d6/d09/a09665.html#a35b571d570c85a861af6f949b51453cb", null ]
 ];

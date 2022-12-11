@@ -1,9 +1,6 @@
 var a26077 =
 [
-    [ "npc_aeranasAI", "dd/de6/a26077.html#a2142cebc84e64919fa5c2ef630453282", null ],
-    [ "Reset", "dd/de6/a26077.html#a2c1bbe079c065745782adfa13b030515", null ],
-    [ "UpdateAI", "dd/de6/a26077.html#ae192a3b38c0ec65cddfce3b95d15555a", null ],
-    [ "envelopingWinds_Timer", "dd/de6/a26077.html#a566b5d648abe630efc191f9d6d4938a2", null ],
-    [ "faction_Timer", "dd/de6/a26077.html#aac071887c100f91cc7ffc545ea6439d9", null ],
-    [ "shock_Timer", "dd/de6/a26077.html#aba8ad016f0e470b07163fef07b603380", null ]
+    [ "HandleDummy", "dd/de6/a26077.html#af4c8b1e6de383bb1f45a20e4d7b8d345", null ],
+    [ "PrepareSpellScript", "dd/de6/a26077.html#acf127f181c25cdbb1f72a92d9b9cf92d", null ],
+    [ "Register", "dd/de6/a26077.html#a9d6e22dc7afeb8a4be2d67aa14765571", null ]
 ];

@@ -1,9 +1,6 @@
 var a14097 =
 [
-    [ "CheckCast", "d0/dae/a14097.html#a02965b55e8efadbd21e5afdd824f1dec", null ],
-    [ "FilterTargets", "d0/dae/a14097.html#a9638048b4107db116474abf8e18d7760", null ],
-    [ "HandleBeforeHit", "d0/dae/a14097.html#a3567c72e999ad6ca9db15b4d6ddadafb", null ],
-    [ "HandleScriptEffect", "d0/dae/a14097.html#a47d6a6c1fcb2b04782e54d3797c1f42c", null ],
-    [ "PrepareSpellScript", "d0/dae/a14097.html#aab9211291bd9dab8255d94e4eb07bf8e", null ],
-    [ "Register", "d0/dae/a14097.html#a73e6c9c91dccb309207fa3aeb6bd9d6f", null ]
+    [ "HandleDummyEffect", "d0/dae/a14097.html#a3860ad8a34e37601f7a4cef395f7ab2a", null ],
+    [ "PrepareSpellScript", "d0/dae/a14097.html#a1c69fb2fd3fa623d62647fca738d27d6", null ],
+    [ "Register", "d0/dae/a14097.html#ad1cbf7ed8f7d119bb56d06fb62358458", null ]
 ];

@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('d7/db7/a02198.html','../../'); initRes
 <code>#include &quot;<a class="el" href="../../">AccountMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">BanMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ByteBuffer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CryptoHash.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
@@ -124,13 +124,12 @@ $(document).ready(function(){initNavTree('d7/db7/a02198.html','../../'); initRes
 <code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
-<code>#include &lt;openssl/sha.h&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d75/a10813.html">keyData</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db9/a10821.html">keyData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -162,26 +161,26 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  188</span>{</div>
-<div class="line"><span class="lineno">  189</span>    <span class="keywordflow">switch</span> (action)</div>
-<div class="line"><span class="lineno">  190</span>    {</div>
-<div class="line"><span class="lineno">  191</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dd/d6f/a02207.html#acd25f1c729cc9c78338c6bc117dcd5e1a886d1d7fc710f19b1f98a28dd6652d81">WARDEN_ACTION_LOG</a>:</div>
-<div class="line"><span class="lineno">  192</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;WARDEN_ACTION_LOG&quot;</span>;</div>
-<div class="line"><span class="lineno">  193</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dd/d6f/a02207.html#acd25f1c729cc9c78338c6bc117dcd5e1a3e6856d34f7e97f6cafcce4a86315d13">WARDEN_ACTION_KICK</a>:</div>
-<div class="line"><span class="lineno">  194</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;WARDEN_ACTION_KICK&quot;</span>;</div>
-<div class="line"><span class="lineno">  195</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dd/d6f/a02207.html#acd25f1c729cc9c78338c6bc117dcd5e1a420c50c42a2e76090d4a4ab690885ae0">WARDEN_ACTION_BAN</a>:</div>
-<div class="line"><span class="lineno">  196</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;WARDEN_ACTION_BAN&quot;</span>;</div>
-<div class="line"><span class="lineno">  197</span>    }</div>
-<div class="line"><span class="lineno">  198</span> </div>
-<div class="line"><span class="lineno">  199</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;UNHANDLED ACTION&quot;</span>;</div>
-<div class="line"><span class="lineno">  200</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  178</span>{</div>
+<div class="line"><span class="lineno">  179</span>    <span class="keywordflow">switch</span> (action)</div>
+<div class="line"><span class="lineno">  180</span>    {</div>
+<div class="line"><span class="lineno">  181</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dd/d6f/a02207.html#acd25f1c729cc9c78338c6bc117dcd5e1a886d1d7fc710f19b1f98a28dd6652d81">WARDEN_ACTION_LOG</a>:</div>
+<div class="line"><span class="lineno">  182</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;WARDEN_ACTION_LOG&quot;</span>;</div>
+<div class="line"><span class="lineno">  183</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dd/d6f/a02207.html#acd25f1c729cc9c78338c6bc117dcd5e1a3e6856d34f7e97f6cafcce4a86315d13">WARDEN_ACTION_KICK</a>:</div>
+<div class="line"><span class="lineno">  184</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;WARDEN_ACTION_KICK&quot;</span>;</div>
+<div class="line"><span class="lineno">  185</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dd/d6f/a02207.html#acd25f1c729cc9c78338c6bc117dcd5e1a420c50c42a2e76090d4a4ab690885ae0">WARDEN_ACTION_BAN</a>:</div>
+<div class="line"><span class="lineno">  186</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;WARDEN_ACTION_BAN&quot;</span>;</div>
+<div class="line"><span class="lineno">  187</span>    }</div>
+<div class="line"><span class="lineno">  188</span> </div>
+<div class="line"><span class="lineno">  189</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;UNHANDLED ACTION&quot;</span>;</div>
+<div class="line"><span class="lineno">  190</span>}</div>
 <div class="ttc" id="aa02207_html_acd25f1c729cc9c78338c6bc117dcd5e1a3e6856d34f7e97f6cafcce4a86315d13"><div class="ttname"><a href="../../dd/d6f/a02207.html#acd25f1c729cc9c78338c6bc117dcd5e1a3e6856d34f7e97f6cafcce4a86315d13">WARDEN_ACTION_KICK</a></div><div class="ttdeci">@ WARDEN_ACTION_KICK</div><div class="ttdef"><b>Definition:</b> WardenCheckMgr.h:28</div></div>
 <div class="ttc" id="aa02207_html_acd25f1c729cc9c78338c6bc117dcd5e1a420c50c42a2e76090d4a4ab690885ae0"><div class="ttname"><a href="../../dd/d6f/a02207.html#acd25f1c729cc9c78338c6bc117dcd5e1a420c50c42a2e76090d4a4ab690885ae0">WARDEN_ACTION_BAN</a></div><div class="ttdeci">@ WARDEN_ACTION_BAN</div><div class="ttdef"><b>Definition:</b> WardenCheckMgr.h:29</div></div>
 <div class="ttc" id="aa02207_html_acd25f1c729cc9c78338c6bc117dcd5e1a886d1d7fc710f19b1f98a28dd6652d81"><div class="ttname"><a href="../../dd/d6f/a02207.html#acd25f1c729cc9c78338c6bc117dcd5e1a886d1d7fc710f19b1f98a28dd6652d81">WARDEN_ACTION_LOG</a></div><div class="ttdeci">@ WARDEN_ACTION_LOG</div><div class="ttdef"><b>Definition:</b> WardenCheckMgr.h:27</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00029">WARDEN_ACTION_BAN</a>, <a class="el" href="../../#l00028">WARDEN_ACTION_KICK</a>, and <a class="el" href="../../#l00027">WARDEN_ACTION_LOG</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00202">Warden::ApplyPenalty()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00192">Warden::ApplyPenalty()</a>.</p>
 
 </div>
 </div>
@@ -191,7 +190,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_4b21bdf52d2a98b0776a5d7d01fdcc43.html">Warden</a></li><li class="navelem"><a class="el" href="../../d7/db7/a02198.html">Warden.cpp</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 15:53:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sun Dec 11 2022 11:33:11 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

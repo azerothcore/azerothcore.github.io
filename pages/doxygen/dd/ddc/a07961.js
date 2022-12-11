@@ -1,9 +1,9 @@
 var a07961 =
 [
-    [ "ActionButton", "dd/ddc/a07961.html#a78f4e95d921fb997647f89c67c2a66b7", null ],
-    [ "GetAction", "dd/ddc/a07961.html#a7c10f6089fab30179cfe8175b740477a", null ],
-    [ "GetType", "dd/ddc/a07961.html#abe5bc143770d411cff0d8c8c425b1253", null ],
-    [ "SetActionAndType", "dd/ddc/a07961.html#a29d804ed78d79f64e868e9741b37d7be", null ],
-    [ "packedData", "dd/ddc/a07961.html#a2a34a116c4890a12255f9ebe24c1cba8", null ],
-    [ "uState", "dd/ddc/a07961.html#a6384e73650da93c96d3b4cc42b151b63", null ]
+    [ "category", "dd/ddc/a07961.html#af3cd722cf59d844dcaba2d20f20d2933", null ],
+    [ "end", "dd/ddc/a07961.html#a8cc857ef51745900398765164a450a50", null ],
+    [ "itemid", "dd/ddc/a07961.html#a42ef844fdd55e8bf67eb5cd90c627817", null ],
+    [ "maxduration", "dd/ddc/a07961.html#a94b98afb7651e2c6b99ee79f85702259", null ],
+    [ "needSendToClient", "dd/ddc/a07961.html#a678f56b6723567f984a0188b85a6f9df", null ],
+    [ "sendToSpectator", "dd/ddc/a07961.html#a4b5bc2c63587dd8ce5d4971ad51895cd", null ]
 ];

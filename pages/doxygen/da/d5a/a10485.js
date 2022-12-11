@@ -1,7 +1,7 @@
 var a10485 =
 [
-    [ "chance", "da/d5a/a10485.html#a3326edd1fa36b85b9ab7a84a6f6f9d1b", null ],
-    [ "triggeredByAura", "da/d5a/a10485.html#abb48d6093570ba9c5488f200544a1e83", null ],
-    [ "triggeredByEffIdx", "da/d5a/a10485.html#a82d752dedab39f417af225add6af1403", null ],
-    [ "triggeredSpell", "da/d5a/a10485.html#a02ac12119655f9ab82347d21cc68803a", null ]
+    [ "effectMask", "da/d5a/a10485.html#a07d70f3c2425f07a36db90e9fd5b3c97", null ],
+    [ "processed", "da/d5a/a10485.html#aedfa36678be863a558ecd0ecc07cc544", null ],
+    [ "targetGUID", "da/d5a/a10485.html#a619f98bf094d2667048204f733d64d0c", null ],
+    [ "timeDelay", "da/d5a/a10485.html#ab552326c0780fe62ff95b02249458492", null ]
 ];

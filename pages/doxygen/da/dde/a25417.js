@@ -1,6 +1,6 @@
 var a25417 =
 [
-    [ "instance_blood_furnace_InstanceMapScript", "df/d46/a25421.html", "df/d46/a25421" ],
-    [ "instance_blood_furnace", "da/dde/a25417.html#a925a045fa518e72c1eff02fe3c66202b", null ],
-    [ "GetInstanceScript", "da/dde/a25417.html#a885ba94e1777dfd6586daca304622d3d", null ]
+    [ "boss_the_makerAI", "df/d46/a25421.html", "df/d46/a25421" ],
+    [ "boss_the_maker", "da/dde/a25417.html#a4b0fe7396a92f7fd0bec23a1d16c9381", null ],
+    [ "GetAI", "da/dde/a25417.html#aa89803a57602bfa708edb58db77626aa", null ]
 ];

@@ -1,5 +1,6 @@
 var a26041 =
 [
-    [ "go_simon_cluster", "dd/d6e/a26041.html#adac53a8451abd6ace227a66afc7e61e8", null ],
-    [ "OnGossipHello", "dd/d6e/a26041.html#a9fd9799604de44c91803511c45b67786", null ]
+    [ "npc_simon_bunnyAI", "d3/dad/a26045.html", "d3/dad/a26045" ],
+    [ "npc_simon_bunny", "dd/d6e/a26041.html#afd3f3a24450bc8b748c0ff5b05b10da1", null ],
+    [ "GetAI", "dd/d6e/a26041.html#ac0c97609916321a1599c0722803a050f", null ]
 ];

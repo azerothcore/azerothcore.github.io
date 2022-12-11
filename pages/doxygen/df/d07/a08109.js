@@ -1,9 +1,9 @@
 var a08109 =
 [
-    [ "AuraMunchingQueue", "df/d07/a08109.html#a87178d02796b02360137f1f1ca3ce867", null ],
-    [ "Execute", "df/d07/a08109.html#a8f025a0ea1db81fb283db563402d1c40", null ],
-    [ "_basePoints", "df/d07/a08109.html#a9cf03046c9595e81bf119b7aacb1a81a", null ],
-    [ "_owner", "df/d07/a08109.html#a472aaf46c2f167a10ce38267ace0b8bb", null ],
-    [ "_spellId", "df/d07/a08109.html#a6674c43b906e45e2ad29100a7ff06f44", null ],
-    [ "_targetGUID", "df/d07/a08109.html#a441b328296f0b7a75bdaee06d2cb94f1", null ]
+    [ "ProcTriggeredData", "df/d07/a08109.html#a37c5cbfd0b916b950a0e638223394de4", null ],
+    [ "operator==", "df/d07/a08109.html#a787760cbd8a6ee5192975bc514886159", null ],
+    [ "aura", "df/d07/a08109.html#a5138144d49900690bb15a5f66b763eac", null ],
+    [ "effMask", "df/d07/a08109.html#a1c2bfb3e0016ba823e12b3defe373790", null ],
+    [ "spellProcEvent", "df/d07/a08109.html#ac6e491a7ef478d271d3c74d7b9df577e", null ],
+    [ "triggerSpelId", "df/d07/a08109.html#abfd99a1e3beb871a3cbf83d7578ec98a", null ]
 ];

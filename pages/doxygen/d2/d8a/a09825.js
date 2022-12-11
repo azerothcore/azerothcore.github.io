@@ -1,7 +1,9 @@
 var a09825 =
 [
-    [ "ClientPacket", "d2/d8a/a09825.html#aa1d1946c07e248bae5927e83fdad9500", null ],
-    [ "ClientPacket", "d2/d8a/a09825.html#a1cdaaacca2695c4366647c7611073ff0", null ],
-    [ "GetOpcode", "d2/d8a/a09825.html#aa51558bb8faa96a665fe40b1bddf9d14", null ],
-    [ "Write", "d2/d8a/a09825.html#a16e5b9fa05e35fa1e32e33bef2688487", null ]
+    [ "ServerPacket", "d2/d8a/a09825.html#ad2222011e1251791799f97b149cef8b9", null ],
+    [ "Clear", "d2/d8a/a09825.html#aa54f2fa66cfe4682ca56cf01f9e1296a", null ],
+    [ "GetOpcode", "d2/d8a/a09825.html#a639ab6c078d7c746bcb328526df705be", null ],
+    [ "Move", "d2/d8a/a09825.html#a659397042201ae571bb564872e54d2c6", null ],
+    [ "Read", "d2/d8a/a09825.html#ae49aa7bce566d9f0ea3c7bbb487a119d", null ],
+    [ "ShrinkToFit", "d2/d8a/a09825.html#a6fa19a94d57484aaff3498be01495258", null ]
 ];

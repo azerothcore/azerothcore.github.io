@@ -1,8 +1,9 @@
 var a25965 =
 [
-    [ "npc_ragin_flamesAI", "d0/d01/a25965.html#a96f9e4b213d81a7c97d0477cd064e812", null ],
-    [ "EnterCombat", "d0/d01/a25965.html#ad0632aaa21b57ceb05e8fd7ffd8e25d6", null ],
-    [ "Reset", "d0/d01/a25965.html#a5616547de04534544476926c877cf2e9", null ],
-    [ "UpdateAI", "d0/d01/a25965.html#a6c706da1afb0b7ad7e8066eef049103e", null ],
-    [ "events", "d0/d01/a25965.html#a20d0d7a9ee9de528dda997e13add1558", null ]
+    [ "boss_nethermancer_sepethreaAI", "d0/d01/a25965.html#a1658f16186351349e04ea5bbd0481e18", null ],
+    [ "EnterCombat", "d0/d01/a25965.html#a60a968ac35874dae92606dede8b3382d", null ],
+    [ "JustDied", "d0/d01/a25965.html#a423175bfedca97a09b11dd6856c492b5", null ],
+    [ "JustSummoned", "d0/d01/a25965.html#a5932f07a26ed30cc4f9a64ddc68dfaa7", null ],
+    [ "KilledUnit", "d0/d01/a25965.html#a02db879d4026ed67e0a9313d8114b174", null ],
+    [ "UpdateAI", "d0/d01/a25965.html#aa48c3dea17d1ab450120a7ee4c043b5e", null ]
 ];

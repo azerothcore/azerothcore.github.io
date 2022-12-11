@@ -1,6 +1,6 @@
 var a13121 =
 [
-    [ "spell_kiljaeden_armageddon_missile_SpellScript", "df/d9c/a13125.html", "df/d9c/a13125" ],
-    [ "spell_kiljaeden_armageddon_missile", "d2/d86/a13121.html#a73073b9b9c26ac2d1ef8b72ae090c2d2", null ],
-    [ "GetSpellScript", "d2/d86/a13121.html#a14d4462d8133fcb7d2feeb129e384257", null ]
+    [ "PrepareSpellScript", "d2/d86/a13121.html#a59a829ea5fb7fc6a74b35c81a20471d8", null ],
+    [ "Register", "d2/d86/a13121.html#a50c0e719d15242692a8ac7874d21d534", null ],
+    [ "SetDest", "d2/d86/a13121.html#ae985e8367c28ca4ce0e461e5ba1be6f7", null ]
 ];

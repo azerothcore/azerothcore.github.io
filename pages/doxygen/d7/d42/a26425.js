@@ -1,6 +1,8 @@
 var a26425 =
 [
-    [ "HandleEffectRemove", "d7/d42/a26425.html#a1ab1da78172540269cabcaad674dae10", null ],
-    [ "PrepareAuraScript", "d7/d42/a26425.html#a2f260423ca5f957f3f31e7af5cd26adc", null ],
-    [ "Register", "d7/d42/a26425.html#a9d8e4704992c5cc150c0914cac1fbd80", null ]
+    [ "spell_q10929_fumping_AuraScript", "d9/d40/a26433.html", "d9/d40/a26433" ],
+    [ "spell_q10929_fumping_SpellScript", "d8/d71/a26429.html", "d8/d71/a26429" ],
+    [ "spell_q10929_fumping", "d7/d42/a26425.html#ae7061535890eb5569897bcfa853cc2ea", null ],
+    [ "GetAuraScript", "d7/d42/a26425.html#a04117c33975d66738a325064821dad16", null ],
+    [ "GetSpellScript", "d7/d42/a26425.html#a7de6de9ce85fead50a34739148b61e11", null ]
 ];

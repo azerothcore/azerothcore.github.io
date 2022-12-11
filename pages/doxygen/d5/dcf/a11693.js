@@ -1,28 +1,6 @@
 var a11693 =
 [
-    [ "instance_blackwing_lair_InstanceMapScript", "d5/dcf/a11693.html#a9cf94352442fc16d348cf4d422410fe1", null ],
-    [ "CheckRequiredBosses", "d5/dcf/a11693.html#a182101e5a87320126812527c7a9d5284", null ],
-    [ "GetData", "d5/dcf/a11693.html#a9a03ee3eece1b15d547f64ab5070c30b", null ],
-    [ "GetGuidData", "d5/dcf/a11693.html#a50ef4d022d7001fa9eada56af5e35649", null ],
-    [ "GetSaveData", "d5/dcf/a11693.html#ae3361dc5fb6a8e6c3bf490f08d6b7119", null ],
-    [ "Initialize", "d5/dcf/a11693.html#a045d3f8f41da01e70a04975d9cc7caca", null ],
-    [ "Load", "d5/dcf/a11693.html#a63389e6598bf4cf3875699d9569b014b", null ],
-    [ "OnCreatureCreate", "d5/dcf/a11693.html#ab65352275d06c7d5b7f1e15c0dffb4db", null ],
-    [ "OnGameObjectCreate", "d5/dcf/a11693.html#a4127b0f7b3307ae74386d48218a7a04f", null ],
-    [ "OnGameObjectRemove", "d5/dcf/a11693.html#a18d50b6c508ac265785cebc0ef71e2c2", null ],
-    [ "OnUnitDeath", "d5/dcf/a11693.html#a765e061b6e9c989443c23d44b07f7962", null ],
-    [ "SetBossState", "d5/dcf/a11693.html#ac811176530020d9a175c6658353f2a71", null ],
-    [ "SetData", "d5/dcf/a11693.html#ae25b1640368ec23e1b460becb6a1c6c1", null ],
-    [ "Update", "d5/dcf/a11693.html#a22c7a6191db476b53def56710c429049", null ],
-    [ "_events", "d5/dcf/a11693.html#a7ae6c97f0e29c47f0fa5694d99e11cc8", null ],
-    [ "addsCount", "d5/dcf/a11693.html#a4472694b3e10a52fa69a399ea716e349", null ],
-    [ "EggCount", "d5/dcf/a11693.html#a2d77ac46e819402980f16d2e2d7abafe", null ],
-    [ "EggEvent", "d5/dcf/a11693.html#abf892481c634ac48009ec366e8410e3c", null ],
-    [ "EggList", "d5/dcf/a11693.html#a69e6b9ddb34e398f1b93adde1d422288", null ],
-    [ "guardList", "d5/dcf/a11693.html#a25502eb6ebe27e24b8311e4518466445", null ],
-    [ "nefarianDoorGUID", "d5/dcf/a11693.html#aa2aceddb53255eb977446cc76ec7f201", null ],
-    [ "nefarianGUID", "d5/dcf/a11693.html#ab72e14e96cb291310d8284c02d14a855", null ],
-    [ "NefarianLeftTunnel", "d5/dcf/a11693.html#a946bb26f4db468867efe40f26c77064b", null ],
-    [ "NefarianRightTunnel", "d5/dcf/a11693.html#a0136578bdcea8c39163b7813f359e1c8", null ],
-    [ "razorgoreGUID", "d5/dcf/a11693.html#aa7aec41b51c994602d75c38e4e51f2d4", null ]
+    [ "spell_bwl_shadowflame_SpellScript", "d3/db2/a11697.html", "d3/db2/a11697" ],
+    [ "spell_bwl_shadowflame", "d5/dcf/a11693.html#a06fd9b779ea7e819cd3b4ffb200244ed", null ],
+    [ "GetSpellScript", "d5/dcf/a11693.html#a6b534c397f21b63c238cadc17586b641", null ]
 ];

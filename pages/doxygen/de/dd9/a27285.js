@@ -1,6 +1,8 @@
 var a27285 =
 [
-    [ "CalculateAmount", "de/dd9/a27285.html#a66b009487462241e573ea23f081a140a", null ],
-    [ "PrepareAuraScript", "de/dd9/a27285.html#a0eee16c77a3c3cea882b67c78826a140", null ],
-    [ "Register", "de/dd9/a27285.html#afeafc6922b0a0389fec969e3c7191dda", null ]
+    [ "AchievementCredit", "de/dd9/a27285.html#ab0ec836feb53875de355330e05367fe8", null ],
+    [ "Load", "de/dd9/a27285.html#ae48c67f363e399f076122cb6eee10ffb", null ],
+    [ "PrepareSpellScript", "de/dd9/a27285.html#af0bb22c618af5dca7f534bea32e7ee7f", null ],
+    [ "Register", "de/dd9/a27285.html#a793921687c96a39f7dd872b9721096ca", null ],
+    [ "Validate", "de/dd9/a27285.html#a5be222c322714ec62f8beaf69faab257", null ]
 ];

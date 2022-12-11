@@ -1,8 +1,7 @@
 var a27253 =
 [
-    [ "OnApply", "d4/df1/a27253.html#a6aa83e925a93dc7ff89c0357debc75d1", null ],
-    [ "OnRemove", "d4/df1/a27253.html#a3ced5941c25fce087699aa095cd487c9", null ],
-    [ "PrepareAuraScript", "d4/df1/a27253.html#a497776c6ffdda8670fa255b76057bf2c", null ],
-    [ "Register", "d4/df1/a27253.html#ac05f2898ebbb78bf55d70d8a660fb22d", null ],
-    [ "Validate", "d4/df1/a27253.html#a44fc9ff07b9db5b2a1263d244916c79f", null ]
+    [ "HandleScript", "d4/df1/a27253.html#a8ec57aed0788f58e2c50fc08793a5749", null ],
+    [ "PrepareSpellScript", "d4/df1/a27253.html#a56c9ab120239252982cab8b96ac8c5fe", null ],
+    [ "Register", "d4/df1/a27253.html#a8c727b2b00858abcce058b16d66ca62a", null ],
+    [ "Validate", "d4/df1/a27253.html#af3ffb9930eaba8703065719bbcf02f56", null ]
 ];

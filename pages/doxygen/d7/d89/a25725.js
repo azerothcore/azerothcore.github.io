@@ -1,10 +1,8 @@
 var a25725 =
 [
-    [ "CheckProc", "d7/d89/a25725.html#ab47e32087020f14d53ab23bfd6039216", null ],
-    [ "Load", "d7/d89/a25725.html#af233d3c262c24a6ab5f3cf287b28f5fc", null ],
-    [ "PrepareAuraScript", "d7/d89/a25725.html#a360cc1939c87ef75f2cfc1771b64ccef", null ],
-    [ "Register", "d7/d89/a25725.html#a283d9c714498f53830d827ce0a40a585", null ],
-    [ "_lastForm", "d7/d89/a25725.html#a4d29316fa7fcc26acaea032297efcebb", null ],
-    [ "_lastSchool", "d7/d89/a25725.html#aa62e63c331cd393e28269e2b8a8c32b5", null ],
-    [ "_swapTime", "d7/d89/a25725.html#ae8d66879eacf191808925b0baa03b175", null ]
+    [ "HandleEffectApply", "d7/d89/a25725.html#acd1342b1b260b495cdaf7c5c0b6f9c25", null ],
+    [ "HandleEffectRemove", "d7/d89/a25725.html#a534a2d2dbd3c35eb11eed0ae618a02d5", null ],
+    [ "PrepareAuraScript", "d7/d89/a25725.html#a37b8f6dff913fe04d8d4d68b30c2cc6a", null ],
+    [ "Register", "d7/d89/a25725.html#ab02c14d9a79430eb702a26c11afa9ad9", null ],
+    [ "_falconSet", "d7/d89/a25725.html#a9cf7ea5562216826a81d229c9a51f929", null ]
 ];

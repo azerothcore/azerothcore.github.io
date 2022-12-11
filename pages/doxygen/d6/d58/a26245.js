@@ -1,6 +1,10 @@
 var a26245 =
 [
-    [ "HandleScriptEffect", "d6/d58/a26245.html#a826a1179ae1c6a4167642d7cf7f5f820", null ],
-    [ "PrepareSpellScript", "d6/d58/a26245.html#a5aa11ad35603e8248de4f6c336ed41cb", null ],
-    [ "Register", "d6/d58/a26245.html#a698c28a17f6e6add601a0c7f4c076d8b", null ]
+    [ "npc_maxx_a_million_escortAI", "d6/d58/a26245.html#ab827933527ed7b4a04b162034876ced8", null ],
+    [ "JustDied", "d6/d58/a26245.html#a2106ab4d32d0f221f62eeffd93f71380", null ],
+    [ "Reset", "d6/d58/a26245.html#a6b9b2ed76e26f908ff2272ad8744a59e", null ],
+    [ "UpdateAI", "d6/d58/a26245.html#a3b022feb2303875d32ad981e84f66854", null ],
+    [ "WaypointReached", "d6/d58/a26245.html#acd6f45abb93f3f043cd85647405a50f6", null ],
+    [ "bTake", "d6/d58/a26245.html#ac697fc6cbc20c7f316845ed26436049b", null ],
+    [ "uiTakeTimer", "d6/d58/a26245.html#a5d4826dcf893f444a42dedba57460110", null ]
 ];

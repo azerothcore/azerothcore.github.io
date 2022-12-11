@@ -1,6 +1,6 @@
 var a25929 =
 [
-    [ "boss_mechano_lord_capacitusAI", "d9/db3/a25933.html", "d9/db3/a25933" ],
-    [ "boss_mechano_lord_capacitus", "d0/dd0/a25929.html#a79ca60018ab64ac5c51c71302cec2446", null ],
-    [ "GetAI", "d0/dd0/a25929.html#aa43a54c121074d3d77aebfdaee18ae35", null ]
+    [ "boss_gatewatcher_iron_handAI", "d9/db3/a25933.html", "d9/db3/a25933" ],
+    [ "boss_gatewatcher_iron_hand", "d0/dd0/a25929.html#a36cf8a948ebea0f8d5d32d6d5a6b2c7a", null ],
+    [ "GetAI", "d0/dd0/a25929.html#a25bd87bac2aff58f6f4e3b0e2c8cce2e", null ]
 ];

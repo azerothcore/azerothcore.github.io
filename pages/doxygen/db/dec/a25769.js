@@ -1,6 +1,7 @@
 var a25769 =
 [
-    [ "OnApply", "db/dec/a25769.html#a36bae477f05e49093ff7486efb139662", null ],
-    [ "PrepareAuraScript", "db/dec/a25769.html#a68fcadaefa5ed3df80e3e9ef09c5898c", null ],
-    [ "Register", "db/dec/a25769.html#af1ab3aec88c75b88cb8cc78bb6249806", null ]
+    [ "OnApply", "db/dec/a25769.html#a6d8b2c1a671ac698826daaee2c1b6b18", null ],
+    [ "OnRemove", "db/dec/a25769.html#a299fd3e8c173f9cfcadc79dff43a4ffd", null ],
+    [ "PrepareAuraScript", "db/dec/a25769.html#abeb51278b6d97afaa05ae92132d0df39", null ],
+    [ "Register", "db/dec/a25769.html#ad752a04a5c42ff66d446bbe7c407959d", null ]
 ];

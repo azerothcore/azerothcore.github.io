@@ -1,6 +1,6 @@
 var a11869 =
 [
-    [ "boss_shazzrahAI", "d8/d81/a11869.html#a984b3d32d5f231a019f2c0f1bb027907", null ],
-    [ "EnterCombat", "d8/d81/a11869.html#af68daa557c7d2314cef790caac95a426", null ],
-    [ "ExecuteEvent", "d8/d81/a11869.html#a0f6e3e6876b9b769ea53db5c9028c6ff", null ]
+    [ "spell_shazzrah_gate_dummy_SpellScript", "d3/dab/a11873.html", "d3/dab/a11873" ],
+    [ "spell_shazzrah_gate_dummy", "d8/d81/a11869.html#a6a5402c367745bb55a78411241bcdf7d", null ],
+    [ "GetSpellScript", "d8/d81/a11869.html#a62ea43c0e30518e8632194921cec141f", null ]
 ];

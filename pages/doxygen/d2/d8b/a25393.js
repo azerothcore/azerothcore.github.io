@@ -1,6 +1,6 @@
 var a25393 =
 [
-    [ "boss_kelidan_the_breakerAI", "db/d72/a25397.html", "db/d72/a25397" ],
-    [ "boss_kelidan_the_breaker", "d2/d8b/a25393.html#a3ea623268f5c93668a890c04c2d905d3", null ],
-    [ "GetAI", "d2/d8b/a25393.html#a30709d52a8c232700c3d2e1184efe5c7", null ]
+    [ "spell_broggok_poison_cloud_AuraScript", "db/d72/a25397.html", "db/d72/a25397" ],
+    [ "spell_broggok_poison_cloud", "d2/d8b/a25393.html#a7d3491e807e0b898f77f14136d965653", null ],
+    [ "GetAuraScript", "d2/d8b/a25393.html#a2fdcfd586963812fef28c07ad0c5fb90", null ]
 ];

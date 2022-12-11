@@ -1,6 +1,6 @@
 var a25601 =
 [
-    [ "npc_warden_mellicharAI", "d7/ddc/a25605.html", "d7/ddc/a25605" ],
-    [ "npc_warden_mellichar", "d0/d71/a25601.html#aba5c3d005097430941bd40bbbb0d3562", null ],
-    [ "GetAI", "d0/d71/a25601.html#a7cb7437a61b49d8110c3b7fee43e495b", null ]
+    [ "npc_millhouse_manastormAI", "d7/ddc/a25605.html", "d7/ddc/a25605" ],
+    [ "npc_millhouse_manastorm", "d0/d71/a25601.html#aebc8efc48d207ad7f1105fa636b9c104", null ],
+    [ "GetAI", "d0/d71/a25601.html#ac4516785f7daf544718fc201197ba977", null ]
 ];

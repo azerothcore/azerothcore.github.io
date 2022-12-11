@@ -1,6 +1,6 @@
 var a25705 =
 [
-    [ "instance_the_botanica_InstanceMapScript", "d3/d25/a25709.html", "d3/d25/a25709" ],
-    [ "instance_the_botanica", "db/d1e/a25705.html#a8f8acda65f37e45e2439707f3979cf7c", null ],
-    [ "GetInstanceScript", "db/d1e/a25705.html#a335f671443ca0fb9db5956cefdf37182", null ]
+    [ "boss_warp_splinterAI", "d3/d25/a25709.html", "d3/d25/a25709" ],
+    [ "boss_warp_splinter", "db/d1e/a25705.html#ab0426b4bc550b6302077516112ba6274", null ],
+    [ "GetAI", "db/d1e/a25705.html#a64f743efeb1e8f09f332e86469aaf50a", null ]
 ];

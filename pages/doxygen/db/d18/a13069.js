@@ -1,7 +1,6 @@
 var a13069 =
 [
-    [ "FilterTargets", "db/d18/a13069.html#a89d56e369459d67389916d2c07bcb5f9", null ],
-    [ "HandleScriptEffect", "db/d18/a13069.html#a57f0fdd0edc1df10bcf5719b73ebd028", null ],
-    [ "PrepareSpellScript", "db/d18/a13069.html#adb382b4a53e362badddea461909782c4", null ],
-    [ "Register", "db/d18/a13069.html#a8b8c6e648d04589e72f996ded2856128", null ]
+    [ "spell_kiljaeden_sinister_reflection_clone_SpellScript", "d8/d15/a13073.html", "d8/d15/a13073" ],
+    [ "spell_kiljaeden_sinister_reflection_clone", "db/d18/a13069.html#a723218a7118b9c08b5821ee742a47bb9", null ],
+    [ "GetSpellScript", "db/d18/a13069.html#aef3f08f1450220847aa30768cb4f8e74", null ]
 ];

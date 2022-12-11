@@ -1,5 +1,5 @@
 var a07941 =
 [
-    [ "MageSpellModPred", "de/d98/a07941.html#af97aacdd47bd4427bb7dc1093ea1f63c", null ],
-    [ "operator()", "de/d98/a07941.html#a09ba840692b7fd50f7f6a537de1b240e", null ]
+    [ "SpellModPred", "de/d98/a07941.html#ad27be78223b010f22730363dd56032ba", null ],
+    [ "operator()", "de/d98/a07941.html#a0cb5fc09a4171b42fdd59c065720bcae", null ]
 ];

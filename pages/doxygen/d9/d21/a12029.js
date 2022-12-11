@@ -1,6 +1,6 @@
 var a12029 =
 [
-    [ "HandleDummy", "d9/d21/a12029.html#a0de2599443eb676ecb5e1cd09f4a2673", null ],
-    [ "PrepareSpellScript", "d9/d21/a12029.html#a3f2acc71a667ac07134bcde2c5bf2a48", null ],
-    [ "Register", "d9/d21/a12029.html#af45482229588ecaf4f06802d108077c9", null ]
+    [ "boss_netherspiteAI", "de/deb/a12033.html", "de/deb/a12033" ],
+    [ "boss_netherspite", "d9/d21/a12029.html#a4d9ca14b581f81faeebe569a3c5b1854", null ],
+    [ "GetAI", "d9/d21/a12029.html#a659e4586c6008a5792bbc79c5eab74b2", null ]
 ];

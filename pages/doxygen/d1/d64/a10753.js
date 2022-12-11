@@ -1,9 +1,8 @@
 var a10753 =
 [
-    [ "CreatureTextLocalizer", "d1/d64/a10753.html#a799f1007b9977224d71da1451c3454e1", null ],
-    [ "~CreatureTextLocalizer", "d1/d64/a10753.html#a1a03d45dfd3c6c5f6f4995d5efe238a5", null ],
-    [ "operator()", "d1/d64/a10753.html#ab2c364aa9d45ca2267db2641b26821f7", null ],
-    [ "_builder", "d1/d64/a10753.html#a1d8d97d3e423810d044a8155b182899d", null ],
-    [ "_msgType", "d1/d64/a10753.html#adf9260955b0141e85ff47c66350244e2", null ],
-    [ "_packetCache", "d1/d64/a10753.html#afbd6fd63afd6e3362049627e5386ec08", null ]
+    [ "CreatureTextId", "d1/d64/a10753.html#ae8058e922bafc69b718ca4be1be39688", null ],
+    [ "operator<", "d1/d64/a10753.html#ae0c693f6cf1959c79e1b3773a2f54db9", null ],
+    [ "entry", "d1/d64/a10753.html#ad69afcf7be87d1f96611fe925b68f26a", null ],
+    [ "textGroup", "d1/d64/a10753.html#af1d1f3f310c219c32ca9b8917d8fb67d", null ],
+    [ "textId", "d1/d64/a10753.html#a5d45808a0b84ca11c8d05c25d26341a2", null ]
 ];

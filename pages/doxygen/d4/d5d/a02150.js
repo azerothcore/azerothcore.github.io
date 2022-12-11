@@ -1,6 +1,6 @@
 var a02150 =
 [
-    [ "Acore::BroadcastTextBuilder", "d8/d4a/a10717.html", "d8/d4a/a10717" ],
-    [ "Acore::CustomChatTextBuilder", "d0/d57/a10721.html", "d0/d57/a10721" ],
-    [ "Acore::AcoreStringChatBuilder", "d6/da1/a10725.html", "d6/da1/a10725" ]
+    [ "Acore::BroadcastTextBuilder", "d6/da1/a10725.html", "d6/da1/a10725" ],
+    [ "Acore::CustomChatTextBuilder", "d4/d94/a10729.html", "d4/d94/a10729" ],
+    [ "Acore::AcoreStringChatBuilder", "de/d4d/a10733.html", "de/d4d/a10733" ]
 ];

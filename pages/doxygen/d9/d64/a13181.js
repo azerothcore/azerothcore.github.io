@@ -1,8 +1,6 @@
 var a13181 =
 [
-    [ "FilterTargets", "d9/d64/a13181.html#a0533596c5158b39b9d308699276f144b", null ],
-    [ "HandleScriptEffect", "d9/d64/a13181.html#a2b824179bd49a9e4b180999374bfb196", null ],
-    [ "Load", "d9/d64/a13181.html#a435f0a794f5f608711dae9629a6e4d52", null ],
-    [ "PrepareSpellScript", "d9/d64/a13181.html#a9502fdbdadb6bab033510d5878877811", null ],
-    [ "Register", "d9/d64/a13181.html#a27d540dc3844abb8b371a104044c9394", null ]
+    [ "spell_entropius_void_zone_visual_AuraScript", "d4/de2/a13185.html", "d4/de2/a13185" ],
+    [ "spell_entropius_void_zone_visual", "d9/d64/a13181.html#ac383c80edecdc6f9366413aae1597391", null ],
+    [ "GetAuraScript", "d9/d64/a13181.html#ad873031c141876ca7074157ac5c1c028", null ]
 ];

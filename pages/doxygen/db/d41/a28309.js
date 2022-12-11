@@ -1,8 +1,9 @@
 var a28309 =
 [
-    [ "HandleEffectApply", "db/d41/a28309.html#aed959961fcd07649cd4914fcd38a3214", null ],
-    [ "if", "db/d41/a28309.html#a1518c08cb3b5cb716b8bd01692a5160d", null ],
-    [ "PrepareAuraScript", "db/d41/a28309.html#a42167bc6bf7992debea8582680251da4", null ],
-    [ "Register", "db/d41/a28309.html#aa2c23abd2b90a276bd7980cadc0397a4", null ],
-    [ "AuraEffectHandleModes", "db/d41/a28309.html#ac886dec8a2ce55af4ec58ab068c589fa", null ]
+    [ "CheckProc", "db/d41/a28309.html#ac0e2bf5c1a96ce0502561bb6bcb6ad97", null ],
+    [ "HandleDispel", "db/d41/a28309.html#a64235032423050de10581165c57f8b0a", null ],
+    [ "HandleProc", "db/d41/a28309.html#ab1c1196f003f7ff0bf6f6eae5bd6de9a", null ],
+    [ "PrepareAuraScript", "db/d41/a28309.html#af7ba0eb96dca76a288dd034665822069", null ],
+    [ "Register", "db/d41/a28309.html#ababc8b42c64740655864d2834a639384", null ],
+    [ "Validate", "db/d41/a28309.html#a03ecf2489369cbb7a6dff555db153a96", null ]
 ];

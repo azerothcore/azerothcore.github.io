@@ -1,6 +1,10 @@
 var a13989 =
 [
-    [ "npc_zealot_lorkhanAI", "d0/d0e/a13993.html", "d0/d0e/a13993" ],
-    [ "npc_zealot_lorkhan", "df/da7/a13989.html#ab296b9eb5130f73c298eb317d996b411", null ],
-    [ "GetAI", "df/da7/a13989.html#a73bce7ca91726d58207112262d12d3fa", null ]
+    [ "npc_zealot_lorkhanAI", "df/da7/a13989.html#a6bd33418c6739cd1401b807d2d5dc81c", null ],
+    [ "EnterCombat", "df/da7/a13989.html#acbf53e62cb464c491632cbdef01e7e45", null ],
+    [ "JustDied", "df/da7/a13989.html#a00842d49683f1a8bc79e64091c0e7721", null ],
+    [ "Reset", "df/da7/a13989.html#abd2aa2e17f616726629a192274cecd9b", null ],
+    [ "UpdateAI", "df/da7/a13989.html#a712f414c6f230da861ef4a6bbeea0d8b", null ],
+    [ "_scheduler", "df/da7/a13989.html#a16f44ccff4887ed5bf3dcab1250e70cd", null ],
+    [ "instance", "df/da7/a13989.html#aa4f244f468ca7bbe0060ddfabecfd8c9", null ]
 ];

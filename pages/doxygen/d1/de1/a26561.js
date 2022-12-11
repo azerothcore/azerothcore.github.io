@@ -1,6 +1,7 @@
 var a26561 =
 [
-    [ "npc_timothy_daniels", "d1/de1/a26561.html#ad9d62848105372a163e24faa3716118f", null ],
-    [ "OnGossipHello", "d1/de1/a26561.html#a23e893f2604693a681190ed9425f965a", null ],
-    [ "OnGossipSelect", "d1/de1/a26561.html#a4b7c1a007167cf2684a97b7ead74c519", null ]
+    [ "npc_kayra_longmaneAI", "d2/dfa/a26565.html", "d2/dfa/a26565" ],
+    [ "npc_kayra_longmane", "d1/de1/a26561.html#a1ee2ccb38f33b2a90244cb626f521f3b", null ],
+    [ "GetAI", "d1/de1/a26561.html#ac39f4bb06243d1d786ae86bbf826ea92", null ],
+    [ "OnQuestAccept", "d1/de1/a26561.html#aaba8b65fcfbdd52f98c1665534288e7b", null ]
 ];

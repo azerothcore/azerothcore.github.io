@@ -1,6 +1,6 @@
 var a25313 =
 [
-    [ "HandleScriptEffect", "dc/d3c/a25313.html#a013d6786bd1812c5cf843ed9e664256e", null ],
-    [ "PrepareSpellScript", "dc/d3c/a25313.html#a778a280376989f38db9af3a4c1540f13", null ],
-    [ "Register", "dc/d3c/a25313.html#a9c2c0b79d096f89537bd530ca1ff83de", null ]
+    [ "OnApply", "dc/d3c/a25313.html#a14f12a6d01a262524e5987f0b15aff30", null ],
+    [ "PrepareAuraScript", "dc/d3c/a25313.html#abeadda30abdaf2fcf1b2ab8cab584388", null ],
+    [ "Register", "dc/d3c/a25313.html#accebff08e7c9086720b59b23e74c68c9", null ]
 ];

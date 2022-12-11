@@ -1,6 +1,6 @@
 var a12369 =
 [
-    [ "boss_zelfanAI", "d0/d45/a12369.html#a7b31a372f1bb7deb9702bf5076c60ccf", null ],
-    [ "EnterCombat", "d0/d45/a12369.html#ac2e8e5b5986ec403e04a576d74695ac3", null ],
-    [ "UpdateAI", "d0/d45/a12369.html#a363af71b6f3a3aaa0f8808e31c4376e9", null ]
+    [ "boss_selin_fireheartAI", "d5/d0c/a12373.html", "d5/d0c/a12373" ],
+    [ "boss_selin_fireheart", "d0/d45/a12369.html#a62357a6cb0ecc3cc8ffc7abcc7ee8b9c", null ],
+    [ "GetAI", "d0/d45/a12369.html#ab5ac6797f01ed9f562cfa622919cc159", null ]
 ];

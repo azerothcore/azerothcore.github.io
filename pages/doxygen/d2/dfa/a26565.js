@@ -1,6 +1,6 @@
 var a26565 =
 [
-    [ "npc_pet_dk_ebon_gargoyleAI", "d5/dcb/a26569.html", "d5/dcb/a26569" ],
-    [ "npc_pet_dk_ebon_gargoyle", "d2/dfa/a26565.html#ae4dcaff120a52c20a8b73d97a08604d7", null ],
-    [ "GetAI", "d2/dfa/a26565.html#a19ff9fd627aab738c91ce23cf6acfffd", null ]
+    [ "npc_kayra_longmaneAI", "d2/dfa/a26565.html#a05e3ea1ec34d1424eb4afeb0ba967922", null ],
+    [ "Reset", "d2/dfa/a26565.html#a55304d53add8b3ca728689d4bdc6f191", null ],
+    [ "WaypointReached", "d2/dfa/a26565.html#ace4acbd01cc168ed5cb8cfa842bb4baa", null ]
 ];

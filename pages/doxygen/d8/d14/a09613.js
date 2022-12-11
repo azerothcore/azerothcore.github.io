@@ -1,6 +1,7 @@
 var a09613 =
 [
-    [ "BattlegroundMapScript", "d8/d14/a09613.html#a61e1c0f145064cbc6c8708824a359e4c", null ],
-    [ "checkValidity", "d8/d14/a09613.html#a90584770132eb71cffc6e25a674750ad", null ],
-    [ "isAfterLoadScript", "d8/d14/a09613.html#a0148a79556f82c990fe0fc494d03c7ab", null ]
+    [ "InstanceMapScript", "d8/d14/a09613.html#a350d328f82cc5e7ea43f3c8779d25a67", null ],
+    [ "checkValidity", "d8/d14/a09613.html#a221dd91e2d2f761e66d990a6cae42306", null ],
+    [ "GetInstanceScript", "d8/d14/a09613.html#aa5a9acfc5a7c81a4953fe0e296f9bcc8", null ],
+    [ "IsDatabaseBound", "d8/d14/a09613.html#ab77651bb427813a7e119057c3dc53ca8", null ]
 ];

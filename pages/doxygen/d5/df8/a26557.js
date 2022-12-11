@@ -1,6 +1,6 @@
 var a26557 =
 [
-    [ "npc_kayra_longmaneAI", "d5/df8/a26557.html#a05e3ea1ec34d1424eb4afeb0ba967922", null ],
-    [ "Reset", "d5/df8/a26557.html#a55304d53add8b3ca728689d4bdc6f191", null ],
-    [ "WaypointReached", "d5/df8/a26557.html#ace4acbd01cc168ed5cb8cfa842bb4baa", null ]
+    [ "npc_mortog_steamhead", "d5/df8/a26557.html#a610e23b977016fbc77220e9bbc96f473", null ],
+    [ "OnGossipHello", "d5/df8/a26557.html#a32133054bfc5a11f1d8bddd32af7a106", null ],
+    [ "OnGossipSelect", "d5/df8/a26557.html#a2ef792744bf43ffea00a5d3171fd4246", null ]
 ];

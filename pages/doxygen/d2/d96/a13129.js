@@ -1,6 +1,6 @@
 var a13129 =
 [
-    [ "spell_kiljaeden_dragon_breath_SpellScript", "d0/d5f/a13133.html", "d0/d5f/a13133" ],
-    [ "spell_kiljaeden_dragon_breath", "d2/d96/a13129.html#a6b6fde893b284471f63796a7c0ea1837", null ],
-    [ "GetSpellScript", "d2/d96/a13129.html#acfd278b469d57a49c0c88e4ef323464c", null ]
+    [ "FilterTargets", "d2/d96/a13129.html#a89b1a8f0c6e5e41511fd1384a206fc83", null ],
+    [ "PrepareSpellScript", "d2/d96/a13129.html#a5d864f6d61e2b4fa721fd943abae8c5d", null ],
+    [ "Register", "d2/d96/a13129.html#a494a89760e538ed36ffe9bf19b2b25a2", null ]
 ];

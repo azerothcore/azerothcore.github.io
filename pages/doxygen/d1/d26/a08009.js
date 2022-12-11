@@ -1,7 +1,8 @@
 var a08009 =
 [
-    [ "SetRuneState", "d1/d26/a08009.html#a920d32d04ec7e872680a89b0c0a9b0ef", null ],
-    [ "lastUsedRune", "d1/d26/a08009.html#a88c702716eb3032c20ae5ed74922d923", null ],
-    [ "runes", "d1/d26/a08009.html#aac485530bfa81d54d9da3213fe917c29", null ],
-    [ "runeState", "d1/d26/a08009.html#ae58297e0766578b234604a97641501a1", null ]
+    [ "BaseRune", "d1/d26/a08009.html#ad5a4b3afd246f5a4c071e3c4f350f132", null ],
+    [ "ConvertAura", "d1/d26/a08009.html#a41c55cb4c1b3f69c6a424359f60e34e1", null ],
+    [ "Cooldown", "d1/d26/a08009.html#a8eeb0f5208c29d43ab493a22f73eb0a6", null ],
+    [ "CurrentRune", "d1/d26/a08009.html#a2cebb551231f0364a1751e5d1a37fcda", null ],
+    [ "GracePeriod", "d1/d26/a08009.html#a3fa13f205dbaaca5bdcc7406f73b4e6a", null ]
 ];

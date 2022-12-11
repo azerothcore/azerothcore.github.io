@@ -1,5 +1,6 @@
 var a29001 =
 [
-    [ "achievement_resilient_victory", "d1/d17/a29001.html#a6224c8a4b1b1ee7c1ab09d8873e86aa8", null ],
-    [ "OnCheck", "d1/d17/a29001.html#a21445d406f67771a20608260b3f9b033", null ]
+    [ "HandleEffectCalcSpellMod", "d1/d17/a29001.html#a38c2a5daeda4b366518026638e6a8e1b", null ],
+    [ "PrepareAuraScript", "d1/d17/a29001.html#a767c3c52e917b56dbf2368b5dbbf1610", null ],
+    [ "Register", "d1/d17/a29001.html#af60592a9f1e595f31814eae405d03d5a", null ]
 ];

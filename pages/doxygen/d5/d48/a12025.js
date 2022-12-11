@@ -1,6 +1,6 @@
 var a12025 =
 [
-    [ "spell_moroes_vanish_SpellScript", "d9/d21/a12029.html", "d9/d21/a12029" ],
-    [ "spell_moroes_vanish", "d5/d48/a12025.html#a8a71a100e284764c1135b4b8df5dc294", null ],
-    [ "GetSpellScript", "d5/d48/a12025.html#a7f722a801193244c31f2cd97958296f3", null ]
+    [ "HandleDummy", "d5/d48/a12025.html#a0de2599443eb676ecb5e1cd09f4a2673", null ],
+    [ "PrepareSpellScript", "d5/d48/a12025.html#a3f2acc71a667ac07134bcde2c5bf2a48", null ],
+    [ "Register", "d5/d48/a12025.html#af45482229588ecaf4f06802d108077c9", null ]
 ];

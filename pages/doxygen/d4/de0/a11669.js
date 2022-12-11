@@ -1,6 +1,6 @@
 var a11669 =
 [
-    [ "spell_egg_eventSpellScript", "de/dc1/a11673.html", "de/dc1/a11673" ],
-    [ "spell_egg_event", "d4/de0/a11669.html#a6da5d251c9ef1d197a372d7f1d2d411c", null ],
-    [ "GetSpellScript", "d4/de0/a11669.html#afa3d8bf2445879a5a3197d1ae7e6f748", null ]
+    [ "HandleOnHit", "d4/de0/a11669.html#a4e441fbea62570614c8823afe5906d05", null ],
+    [ "PrepareSpellScript", "d4/de0/a11669.html#af55d493c722026e3ab56b84d94a7babf", null ],
+    [ "Register", "d4/de0/a11669.html#ad5d2cc8ea0042d3730b9ca1c6a4f91f4", null ]
 ];

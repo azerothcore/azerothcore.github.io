@@ -1,5 +1,5 @@
 var a29093 =
 [
-    [ "AreaTrigger_at_last_rites", "d9/d51/a29093.html#a30d1930c76920ab12cf4f9b04fd5f0e4", null ],
-    [ "OnTrigger", "d9/d51/a29093.html#a48f6e2041cda24812a165fa0fb62f1b6", null ]
+    [ "AreaTrigger_at_legion_teleporter", "d9/d51/a29093.html#a2b648bd038f41025c19338367c696d25", null ],
+    [ "OnTrigger", "d9/d51/a29093.html#ae8239e5ad56d93627102dbd02989353d", null ]
 ];

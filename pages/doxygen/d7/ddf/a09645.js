@@ -1,15 +1,18 @@
 var a09645 =
 [
-    [ "CreatureScript", "d7/ddf/a09645.html#afa0053e299f9125cc288ea38652edecb", null ],
-    [ "GetAI", "d7/ddf/a09645.html#a24ba3529655943afdf6598450d14e6c2", null ],
-    [ "GetDialogStatus", "d7/ddf/a09645.html#a41562245c4a44843363d6b0ce32ce48d", null ],
-    [ "IsDatabaseBound", "d7/ddf/a09645.html#af19c64d23391f8b835f79bc6cf315caa", null ],
-    [ "OnFfaPvpStateUpdate", "d7/ddf/a09645.html#a316efb5c026588eb4bce8a0ce6b5cc0f", null ],
-    [ "OnGossipHello", "d7/ddf/a09645.html#a6268b132444845302ada504f48629a4f", null ],
-    [ "OnGossipSelect", "d7/ddf/a09645.html#a30f160576b4cb97d940ecf3468834667", null ],
-    [ "OnGossipSelectCode", "d7/ddf/a09645.html#ad99f4a96106b9dc5cf9c29304d781d6a", null ],
-    [ "OnQuestAccept", "d7/ddf/a09645.html#a6b106a237886f49e523ae7b07e9c5979", null ],
-    [ "OnQuestComplete", "d7/ddf/a09645.html#a4d39c9b2edbbbc2ae08b5cdcc95b4d7b", null ],
-    [ "OnQuestReward", "d7/ddf/a09645.html#aba2be0f342cb9811bd0ebee954d7d36e", null ],
-    [ "OnQuestSelect", "d7/ddf/a09645.html#a1e054fb61dd560aa7718d59127ad4b51", null ]
+    [ "AllGameObjectScript", "d7/ddf/a09645.html#ac6640c81043e19d7c73ed6208dd119dd", null ],
+    [ "CanGameObjectGossipHello", "d7/ddf/a09645.html#a33efc883fe64cdc52aa9b03f9377da97", null ],
+    [ "CanGameObjectGossipSelect", "d7/ddf/a09645.html#a317305c7dc81fede50d73f65fbc2bb42", null ],
+    [ "CanGameObjectGossipSelectCode", "d7/ddf/a09645.html#ac0b0ce8b06f371a6adfb69b926797790", null ],
+    [ "CanGameObjectQuestAccept", "d7/ddf/a09645.html#a0c99183b04355ecfb3460bc371b58805", null ],
+    [ "CanGameObjectQuestReward", "d7/ddf/a09645.html#a55eb61a5e4386908db998ceff1dff359", null ],
+    [ "GetGameObjectAI", "d7/ddf/a09645.html#afe0c610693bc883415952ba350596788", null ],
+    [ "OnGameObjectAddWorld", "d7/ddf/a09645.html#ae07275a83e4e1ae65371739bdc342d7f", null ],
+    [ "OnGameObjectDamaged", "d7/ddf/a09645.html#ab551bd870ab2e6513d95fcfb3e62d8c5", null ],
+    [ "OnGameObjectDestroyed", "d7/ddf/a09645.html#a3861b881456c1af3e9231d90519367d6", null ],
+    [ "OnGameObjectLootStateChanged", "d7/ddf/a09645.html#a599b35bb426d3c91c5457c838bfe910d", null ],
+    [ "OnGameObjectRemoveWorld", "d7/ddf/a09645.html#aca2171a8521195f06ea00c21f219d8f5", null ],
+    [ "OnGameObjectSaveToDB", "d7/ddf/a09645.html#ae4bb28ae318f13a72109a3874f2ca12d", null ],
+    [ "OnGameObjectStateChanged", "d7/ddf/a09645.html#ab0ab47240bdb815d404f8bd41fb3bdaa", null ],
+    [ "OnGameObjectUpdate", "d7/ddf/a09645.html#ada8cc5373b75025199ca62856242d0ab", null ]
 ];

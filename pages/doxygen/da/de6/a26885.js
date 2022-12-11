@@ -1,7 +1,7 @@
 var a26885 =
 [
-    [ "AfterApply", "da/de6/a26885.html#adae232af9445638b3d54e81d414483b7", null ],
-    [ "AfterRemove", "da/de6/a26885.html#abf458f1f1dd5abfbba88325cad044ab1", null ],
-    [ "PrepareAuraScript", "da/de6/a26885.html#a305c532aa0e8740e8c8a87a6ba0abcff", null ],
-    [ "Register", "da/de6/a26885.html#abff75ea597dcc017a359a5ef3ada4314", null ]
+    [ "CheckProc", "da/de6/a26885.html#a5a74f30b941460c8347dca81dcee1bf6", null ],
+    [ "HandleProc", "da/de6/a26885.html#a15592382213762145eb30d85bfcbd60a", null ],
+    [ "PrepareAuraScript", "da/de6/a26885.html#a82201b03b7b642e7898889412a617712", null ],
+    [ "Register", "da/de6/a26885.html#aba014f9b0000d19cabbc5a9c763b934b", null ]
 ];

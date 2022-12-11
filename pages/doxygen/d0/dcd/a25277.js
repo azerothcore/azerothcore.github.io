@@ -1,6 +1,6 @@
 var a25277 =
 [
-    [ "instance_the_underbog_InstanceMapScript", "dc/d9d/a25281.html", "dc/d9d/a25281" ],
-    [ "instance_the_underbog", "d0/dcd/a25277.html#afaf8740a3e367a1a54eaa3e76ffa483e", null ],
-    [ "GetInstanceScript", "d0/dcd/a25277.html#ace939fb7fd89e7c9c84c17d3ca31208b", null ]
+    [ "spell_gen_allergies_AuraScript", "dc/d9d/a25281.html", "dc/d9d/a25281" ],
+    [ "spell_gen_allergies", "d0/dcd/a25277.html#a69afd53d17df77effe18377765938d3a", null ],
+    [ "GetAuraScript", "d0/dcd/a25277.html#a0039a96d0b9a40e402c08245461af392", null ]
 ];

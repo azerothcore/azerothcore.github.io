@@ -1,7 +1,11 @@
 var a30389 =
 [
-    [ "from", "d5/d6a/a30389.html#a8e87b02059c2c1e4b1dd2760c99cb004", null ],
-    [ "ID", "d5/d6a/a30389.html#a4375feed48ce5ac7291dced992c9bbf4", null ],
-    [ "price", "d5/d6a/a30389.html#a44fc4c13d3426fcbc7b1108e513973de", null ],
-    [ "to", "d5/d6a/a30389.html#a6b24cdac137b2b8d9472b5d1aca4178f", null ]
+    [ "addToSpellBook", "d5/d6a/a30389.html#ad312934d24abcc78c02d50cc5cb5403f", null ],
+    [ "Col", "d5/d6a/a30389.html#a0bc589c5b1425d5e889cd290b805169e", null ],
+    [ "DependsOn", "d5/d6a/a30389.html#a7b1aa1384777b8d94dceed3c387bb628", null ],
+    [ "DependsOnRank", "d5/d6a/a30389.html#a608f232669981da3423b959479ca8683", null ],
+    [ "RankID", "d5/d6a/a30389.html#a96d0fd120ed3aa7fbd287d104fd87c26", null ],
+    [ "Row", "d5/d6a/a30389.html#a136b889d2e8875b01fc7aa2be06847ac", null ],
+    [ "TalentID", "d5/d6a/a30389.html#aa769574106b0e5afdbc7c71c51c3b9a2", null ],
+    [ "TalentTab", "d5/d6a/a30389.html#acefe6f8c0a5b3893e2a9f828d500df68", null ]
 ];

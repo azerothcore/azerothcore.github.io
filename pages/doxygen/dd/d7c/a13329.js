@@ -1,7 +1,10 @@
 var a13329 =
 [
-    [ "npc_ranger_lilatha", "dd/d7c/a13329.html#abd13a89b41a289edefb9bc21588f8d29", null ],
-    [ "Reset", "dd/d7c/a13329.html#a3e804e483b51961193ee1079caba40be", null ],
-    [ "sQuestAccept", "dd/d7c/a13329.html#acc38d4feacb5e7fa5ce9658b10447c4d", null ],
-    [ "WaypointReached", "dd/d7c/a13329.html#a193bd47c7d7c4fb3d832a59bf55e8412", null ]
+    [ "npc_sentinel_leader", "dd/d7c/a13329.html#a583c43b047dd5c172938d60ef647ecd5", null ],
+    [ "EnterCombat", "dd/d7c/a13329.html#af2bd11cf2a41bd9f192eefd53fb8d089", null ],
+    [ "MovementInform", "dd/d7c/a13329.html#a6d51ada16fac1f5eda8b09aede746a4b", null ],
+    [ "Reset", "dd/d7c/a13329.html#ad638ba6ce33753af6a0165c053a90d78", null ],
+    [ "UpdateAI", "dd/d7c/a13329.html#aa689bb8189eb8cf842a0aa63bb9f1a73", null ],
+    [ "_events", "dd/d7c/a13329.html#ada65bdf153ae9b3262b0f55fb540be17", null ],
+    [ "_helpCalled", "dd/d7c/a13329.html#a803c324e790cd74e90ff6c2adde37ba3", null ]
 ];

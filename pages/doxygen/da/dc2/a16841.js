@@ -3,7 +3,7 @@ var a16841 =
     [ "instance_trial_of_the_crusader_InstanceMapScript", "da/dc2/a16841.html#acecad7aafc47ed88bb60c383cff489da", null ],
     [ "CheckAchievementCriteriaMeet", "da/dc2/a16841.html#a22b6f2e040bab5b08a7fc559c176ba8d", null ],
     [ "DoCheckDedicatedInsanity", "da/dc2/a16841.html#ad5b58403cc2952aa3c477393ddd077f1", null ],
-    [ "DoNeedCleanup", "da/dc2/a16841.html#a0bfd461535d0501b0be9f621c10611c6", null ],
+    [ "DoNeedCleanup", "da/dc2/a16841.html#a684f8867e28c8c8840e15bf88c96d4e7", null ],
     [ "GetData", "da/dc2/a16841.html#a4baa9bbab0178240b250539573530d73", null ],
     [ "GetGuidData", "da/dc2/a16841.html#abf6dcb6a610bf463d0782deeb5f1a1e7", null ],
     [ "GetSaveData", "da/dc2/a16841.html#a42c7b6a63cf574f1d72c895f1caea935", null ],

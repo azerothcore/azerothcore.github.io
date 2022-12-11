@@ -1,7 +1,6 @@
 var a10353 =
 [
-    [ "MapSessionFilter", "da/d7b/a10353.html#ad11a700c36f8f45640402e96edc74b49", null ],
-    [ "~MapSessionFilter", "da/d7b/a10353.html#a82960e741c8f64d24a764a915f14e2b8", null ],
-    [ "Process", "da/d7b/a10353.html#a54483596fe2a5a0d30fab9a13506b375", null ],
-    [ "ProcessUnsafe", "da/d7b/a10353.html#a8e3a7dd5affb24305435aea2c57718fa", null ]
+    [ "AccountData", "da/d7b/a10353.html#a593303fb86ec3ac592ee933b8d057fe8", null ],
+    [ "Data", "da/d7b/a10353.html#aa45f3f93f643b4dd9ea4d269e3b5462d", null ],
+    [ "Time", "da/d7b/a10353.html#a38b2049e50845641cc380b6786e68ac5", null ]
 ];

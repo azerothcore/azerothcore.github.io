@@ -1,10 +1,8 @@
 var a28237 =
 [
-    [ "Absorb", "d2/d37/a28237.html#ab4006b00d415a94e6a49856cee7e272b", null ],
-    [ "CalculateAmount", "d2/d37/a28237.html#a57bfd4e7178e9e7c3df12c025d0c7d9e", null ],
-    [ "Load", "d2/d37/a28237.html#a88aa9623f587bb7b5e91da83c76f562a", null ],
-    [ "PrepareAuraScript", "d2/d37/a28237.html#a456c1bd5b284f642d1e040de52eee24b", null ],
-    [ "Register", "d2/d37/a28237.html#a905994099dcc4ac9512d5f27b78a778c", null ],
-    [ "Validate", "d2/d37/a28237.html#ad99966111a1919c610a942a8eb133ea1", null ],
-    [ "healPct", "d2/d37/a28237.html#a3b0527ce7f1fd6afaa57f942275ec81b", null ]
+    [ "CheckProc", "d2/d37/a28237.html#a9e7b83ffd7e8d5ff4cf3b59cfbc40b0e", null ],
+    [ "HandleProc", "d2/d37/a28237.html#a772385aab5f9917d0d3fb456e0ed55e1", null ],
+    [ "PrepareAuraScript", "d2/d37/a28237.html#a876c1bda52c99c52249444414196b1d4", null ],
+    [ "Register", "d2/d37/a28237.html#a1409e9c24827ee51a83d732bb99dd27b", null ],
+    [ "Validate", "d2/d37/a28237.html#a8e36353d5296c609cbe0ce63db4e7dcb", null ]
 ];

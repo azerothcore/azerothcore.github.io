@@ -1,7 +1,6 @@
 var a12669 =
 [
-    [ "HandleEffectApply", "d5/d3d/a12669.html#a2c419ff9944a9ba52b2530059ecaa82a", null ],
-    [ "HandleEffectRemove", "d5/d3d/a12669.html#a1b2d0a4b57c5886c68a00a2cba8922a4", null ],
-    [ "PrepareAuraScript", "d5/d3d/a12669.html#abca0eded713c89a78607e582156c3ca2", null ],
-    [ "Register", "d5/d3d/a12669.html#a61be8e7fc51ae2f963721240091dafea", null ]
+    [ "spell_scholomance_boon_of_life_AuraScript", "d6/d6a/a12673.html", "d6/d6a/a12673" ],
+    [ "spell_scholomance_boon_of_life", "d5/d3d/a12669.html#a01f4990005507debbdd5848900169b9c", null ],
+    [ "GetAuraScript", "d5/d3d/a12669.html#ac5d785b66976147040cb0afd506efb7a", null ]
 ];

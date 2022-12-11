@@ -1,6 +1,6 @@
 var a11885 =
 [
-    [ "boss_sulfuronAI", "dd/d87/a11885.html#a63c76fb94131830924e2bf77477261ba", null ],
-    [ "EnterCombat", "dd/d87/a11885.html#a132b4a3621de5eb79659bb5cc33ea83a", null ],
-    [ "ExecuteEvent", "dd/d87/a11885.html#ae038aa8140f5b4128c39c592966321f1", null ]
+    [ "npc_flamewaker_priestAI", "dc/d38/a11889.html", "dc/d38/a11889" ],
+    [ "npc_flamewaker_priest", "dd/d87/a11885.html#a2ae4d75192f8ddc60d092b9a129e636e", null ],
+    [ "GetAI", "dd/d87/a11885.html#a8a38c2c54ae8366496eb58145f75eac9", null ]
 ];

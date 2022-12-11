@@ -1,6 +1,6 @@
 var a25969 =
 [
-    [ "spell_ragin_flames_inferno_AuraScript", "d1/d2e/a25973.html", "d1/d2e/a25973" ],
-    [ "spell_ragin_flames_inferno", "da/d8f/a25969.html#a70c903b64a8faf4c83273f679e6b066d", null ],
-    [ "GetAuraScript", "da/d8f/a25969.html#ab80f56470a3da24985be471d5b9afd05", null ]
+    [ "npc_ragin_flamesAI", "d1/d2e/a25973.html", "d1/d2e/a25973" ],
+    [ "npc_ragin_flames", "da/d8f/a25969.html#a20e9690d0c20775708c45680af884796", null ],
+    [ "GetAI", "da/d8f/a25969.html#a65270f910baacabac588a46480454aca", null ]
 ];

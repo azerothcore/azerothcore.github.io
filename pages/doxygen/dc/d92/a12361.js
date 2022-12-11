@@ -1,9 +1,6 @@
 var a12361 =
 [
-    [ "boss_apokoAI", "dc/d92/a12361.html#afe3da4aea8b558dc9f11cf5194db95e9", null ],
-    [ "EnterCombat", "dc/d92/a12361.html#adb66bad75fc01b2c9caeb05b52a3ccf0", null ],
-    [ "UpdateAI", "dc/d92/a12361.html#afd019301b9e83ced4f0f3a97e637abe0", null ],
-    [ "Healing_Wave_Timer", "dc/d92/a12361.html#a29c0f7577763a24a22d0114cde6cafe5", null ],
-    [ "Totem_Amount", "dc/d92/a12361.html#aa8f3c47c4517897805b1ca0c51419df5", null ],
-    [ "War_Stomp_Timer", "dc/d92/a12361.html#a68c755ee511c9892374ac8799448ccfc", null ]
+    [ "boss_zelfanAI", "d8/dc4/a12365.html", "d8/dc4/a12365" ],
+    [ "boss_zelfan", "dc/d92/a12361.html#affb8bda14469580f4d2ea94ad03f9e2b", null ],
+    [ "GetAI", "dc/d92/a12361.html#a66e875eb3d69dfc340d06f64fa785c54", null ]
 ];

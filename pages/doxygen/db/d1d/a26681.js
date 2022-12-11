@@ -1,6 +1,9 @@
 var a26681 =
 [
-    [ "FilterTargets", "db/d1d/a26681.html#adab73c94c659d7421c9c6887d956cd83", null ],
-    [ "PrepareSpellScript", "db/d1d/a26681.html#a8cf5e4224f46b6f836d517f90fd135d4", null ],
-    [ "Register", "db/d1d/a26681.html#a3aaf93f3746b36d5bfa4fc475aabe43b", null ]
+    [ "npc_pet_shaman_earth_elemental", "db/d1d/a26681.html#a07f3792cb3b5264d209f1b4726867773", null ],
+    [ "EnterCombat", "db/d1d/a26681.html#ae538dc842770e275df980623605f44fc", null ],
+    [ "InitializeAI", "db/d1d/a26681.html#a8bbca6686ae324a50cd1598125280446", null ],
+    [ "UpdateAI", "db/d1d/a26681.html#ab28951b483cab31bf5672fc74e7323e1", null ],
+    [ "_events", "db/d1d/a26681.html#ab7f72d0d574322965f1d0b23f144f1be", null ],
+    [ "_initAttack", "db/d1d/a26681.html#a2af73c97ef60b5b0ade26c9760b8b379", null ]
 ];

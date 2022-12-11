@@ -1,9 +1,12 @@
 var a06709 =
 [
-    [ "ArenaScore", "d6/d71/a06709.html#a58f1391de4e67750dad211b10704499f", null ],
-    [ "AppendToPacket", "d6/d71/a06709.html#a3fe2ab34a9abc4d8c4ff863334cf2c84", null ],
-    [ "BuildObjectivesBlock", "d6/d71/a06709.html#ac96461b865fc7a9ba0cdfad6ae3fa96f", null ],
-    [ "ToString", "d6/d71/a06709.html#ab04b30f4bfa6b1aa89e08e3195ad3b0b", null ],
-    [ "Arena", "d6/d71/a06709.html#a5f488c25aa439166d145713c67e7d085", null ],
-    [ "PvPTeamId", "d6/d71/a06709.html#a486ee0e05ac5160f0fb174e2a1e061bb", null ]
+    [ "Arena", "d6/d71/a06709.html#a74f105bc709d4728fb07f1984abfd345", null ],
+    [ "AddPlayer", "d6/d71/a06709.html#ae24fe304d35c0c09379203135e936450", null ],
+    [ "CheckWinConditions", "d6/d71/a06709.html#a886b586f7ab6fc89d76e86cb811989b8", null ],
+    [ "EndBattleground", "d6/d71/a06709.html#a2be61602189b530a16a9ca954d180914", null ],
+    [ "FillInitialWorldStates", "d6/d71/a06709.html#a41e53f03488058fb635e42b525db5068", null ],
+    [ "HandleKillPlayer", "d6/d71/a06709.html#ae0a56f524bfc9eec6753874ce35d0466", null ],
+    [ "RemovePlayer", "d6/d71/a06709.html#ab5348b8bd4bfd58c01cdf61f16f72db1", null ],
+    [ "RemovePlayerAtLeave", "d6/d71/a06709.html#acae21233e11b21b612e5c051bfa7720e", null ],
+    [ "UpdateArenaWorldState", "d6/d71/a06709.html#a422925ee29e9a5f64aeb4264169ff2d6", null ]
 ];

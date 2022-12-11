@@ -1,9 +1,8 @@
 var a28693 =
 [
-    [ "HandleHeal", "da/d52/a28693.html#ad2d854d275dc6f8b67b866d864b6febe", null ],
-    [ "Load", "da/d52/a28693.html#a507a7a4ff11f8bf1157e034d086cd9ad", null ],
-    [ "PrepareSpellScript", "da/d52/a28693.html#a91eb46af707897f228e5d1bbd199a833", null ],
-    [ "Register", "da/d52/a28693.html#ae28f1b0c23511153eafc037cae067bc0", null ],
-    [ "firstHeal", "da/d52/a28693.html#a405326e6e1cd82816aef1712fdf335a0", null ],
-    [ "riptide", "da/d52/a28693.html#acaec32f6730bc2e04e613aa982d285bf", null ]
+    [ "FilterTargets", "da/d52/a28693.html#a3766e5ed1f75c242f45b24c90eef7e11", null ],
+    [ "HandleDummy", "da/d52/a28693.html#a2214b10da042a3af2fd3311872cc5286", null ],
+    [ "PrepareSpellScript", "da/d52/a28693.html#a9959966856601f79a83931a7a7ecff91", null ],
+    [ "Register", "da/d52/a28693.html#a6ac1d4f1d82aabb39526aca92636a41f", null ],
+    [ "Validate", "da/d52/a28693.html#a67d4b92cc494b6081247a90e8d4c9628", null ]
 ];

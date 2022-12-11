@@ -1,5 +1,6 @@
 var a09669 =
 [
-    [ "CommandScript", "d9/dd2/a09669.html#afb9ef0145bb5eedee7fd61609868ba20", null ],
-    [ "GetCommands", "d9/dd2/a09669.html#a97dc7d00b78e0030ba2a950d23b2ebd2", null ]
+    [ "OutdoorPvPScript", "d9/dd2/a09669.html#ad7882db48419888c7968007e30c2f3f7", null ],
+    [ "GetOutdoorPvP", "d9/dd2/a09669.html#aa213974f384c88ab65f7b7308dadb026", null ],
+    [ "IsDatabaseBound", "d9/dd2/a09669.html#ac22c6a9945738270452848f997d2818f", null ]
 ];

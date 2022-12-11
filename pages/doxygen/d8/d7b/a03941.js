@@ -1,5 +1,6 @@
 var a03941 =
 [
-    [ "TheUnderbogScriptName", "d8/d7b/a03941.html#a24cc288d0c5acfb5a07d7ea975070ee3", null ],
-    [ "GetTheUnderbogAI", "d8/d7b/a03941.html#a09ffaab12963df9ee8d5a357e7a9bc3a", null ]
+    [ "instance_the_underbog", "d9/d29/a25285.html", "d9/d29/a25285" ],
+    [ "instance_the_underbog::instance_the_underbog_InstanceMapScript", "db/d83/a25289.html", "db/d83/a25289" ],
+    [ "AddSC_instance_the_underbog", "d8/d7b/a03941.html#acc5edb97f1bda7cd30a38061e4676698", null ]
 ];

@@ -1,9 +1,6 @@
 var a12929 =
 [
-    [ "npc_demonic_vapor_trailAI", "d5/ddf/a12929.html#ad1a5de140e171c8de6f5152f84cfed0f", null ],
-    [ "JustSummoned", "d5/ddf/a12929.html#a1a210b80dc4ed757d3bf07583cc57adc", null ],
-    [ "Reset", "d5/ddf/a12929.html#a71e3fde121e72e0cc4a1e07d17799a53", null ],
-    [ "SpellHitTarget", "d5/ddf/a12929.html#a2de56cd29096804b72861ed1718d28dc", null ],
-    [ "UpdateAI", "d5/ddf/a12929.html#a1762dc6690f7cb2ad579dc0fbe6383b7", null ],
-    [ "timer", "d5/ddf/a12929.html#a1c19faff5d18583c90c9977f7b03ddaa", null ]
+    [ "spell_felmyst_fog_of_corruption_SpellScript", "d5/d6b/a12933.html", "d5/d6b/a12933" ],
+    [ "spell_felmyst_fog_of_corruption", "d5/ddf/a12929.html#a8f34d3d602c107c4e6c2a966f7d23a8f", null ],
+    [ "GetSpellScript", "d5/ddf/a12929.html#a7f1c5197bc61dcef718d6eb49792a875", null ]
 ];

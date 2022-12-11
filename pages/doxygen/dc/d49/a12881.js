@@ -1,6 +1,6 @@
 var a12881 =
 [
-    [ "HandleApplyTouch", "dc/d49/a12881.html#a8944b79cab3aeabb0b9c4b4c651decfe", null ],
-    [ "PrepareSpellScript", "dc/d49/a12881.html#a2708fd350bfb34a91f1974c6635bdf3e", null ],
-    [ "Register", "dc/d49/a12881.html#a4caac5bd05268671dc2f5a5fb4fb23c6", null ]
+    [ "spell_eredar_twins_handle_touch_SpellScript", "de/d69/a12885.html", "de/d69/a12885" ],
+    [ "spell_eredar_twins_handle_touch", "dc/d49/a12881.html#aa3456286afd4cbc2321581368baa3ba1", null ],
+    [ "GetSpellScript", "dc/d49/a12881.html#a6aaa98b245ab7a407aac1b3f3cbc7128", null ]
 ];

@@ -1,6 +1,6 @@
 var a26025 =
 [
-    [ "npc_daranelleAI", "d6/dca/a26029.html", "d6/dca/a26029" ],
-    [ "npc_daranelle", "d4/dc0/a26025.html#a0a6e26b95d6d97821bc9e0c00b205704", null ],
-    [ "GetAI", "d4/dc0/a26025.html#ad2ba5e4dfded886acaf2f9821e15738d", null ]
+    [ "npc_nether_drakeAI", "d6/dca/a26029.html", "d6/dca/a26029" ],
+    [ "npc_nether_drake", "d4/dc0/a26025.html#a253ec3c91857b899ea9e2c824870b760", null ],
+    [ "GetAI", "d4/dc0/a26025.html#a58d269e2c73cae07bb507162b742fe8f", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/tools/vmap4_extractor/model.h File Reference</title>
+<title>AzeorthCore: D:/azerothcore-wotlk/src/tools/vmap4_extractor/model.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,39 +106,26 @@ $(document).ready(function(){initNavTree('de/d09/a04385.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">model.h File Reference</div></div>
+  <div class="headertitle"><div class="title">model.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">loadlib/loadlib.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">modelheaders.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">vec3d.h</a>&quot;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">model.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">adtfile.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">mpq_libmpq04.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">vmapexport.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">wmo.h</a>&quot;</code><br />
+<code>#include &lt;G3D/Quat.h&gt;</code><br />
+<code>#include &lt;cassert&gt;</code><br />
+<code>#include &lt;cstdio&gt;</code><br />
+<code>#include &lt;limits&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/def/a30721.html">Model</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:de/da6/a04504"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da6/a04504.html">ADT</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d7/d43/a04505"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d43/a04505.html">Doodad</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8d0afbab5641bb7d88196fbad79e4cf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/da2/a30729.html">Vec3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/a04385.html#a8d0afbab5641bb7d88196fbad79e4cf1">fixCoordSystem</a> (<a class="el" href="../../da/da2/a30729.html">Vec3D</a> const &amp;v)</td></tr>
+<tr class="memitem:a8d0afbab5641bb7d88196fbad79e4cf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d70/a30741.html">Vec3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/a04385.html#a8d0afbab5641bb7d88196fbad79e4cf1">fixCoordSystem</a> (<a class="el" href="../../d6/d70/a30741.html">Vec3D</a> const &amp;v)</td></tr>
 <tr class="separator:a8d0afbab5641bb7d88196fbad79e4cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaece844099afc9d83362feb37427d5ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d43/a04505.html#aaece844099afc9d83362feb37427d5ae">Doodad::Extract</a> (<a class="el" href="../../d3/d5b/a30705.html">ADT::MDDF</a> const &amp;doodadDef, char const *ModelInstName, <a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapID, <a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> tileX, <a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> tileY, FILE *pDirfile)</td></tr>
-<tr class="separator:aaece844099afc9d83362feb37427d5ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd641f15b5ca6e58b68f26ef17a02912"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d43/a04505.html#afd641f15b5ca6e58b68f26ef17a02912">Doodad::ExtractSet</a> (<a class="el" href="../../d3/daf/a30757.html">WMODoodadData</a> const &amp;doodadData, <a class="el" href="../../d2/d8b/a30709.html">ADT::MODF</a> const &amp;wmo, <a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapID, <a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> tileX, <a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> tileY, FILE *pDirfile)</td></tr>
-<tr class="separator:afd641f15b5ca6e58b68f26ef17a02912"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a8d0afbab5641bb7d88196fbad79e4cf1" name="a8d0afbab5641bb7d88196fbad79e4cf1"></a>
@@ -148,18 +135,18 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/da2/a30729.html">Vec3D</a> fixCoordSystem </td>
+          <td class="memname"><a class="el" href="../../d6/d70/a30741.html">Vec3D</a> fixCoordSystem </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/da2/a30729.html">Vec3D</a> const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d70/a30741.html">Vec3D</a> const &amp;&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><span class="lineno">  134</span>{</div>
-<div class="line"><span class="lineno">  135</span>    <span class="keywordflow">return</span> <a class="code hl_class" href="../../da/da2/a30729.html">Vec3D</a>(v.x, v.z, -v.y);</div>
+<div class="line"><span class="lineno">  135</span>    <span class="keywordflow">return</span> <a class="code hl_class" href="../../d6/d70/a30741.html">Vec3D</a>(v.x, v.z, -v.y);</div>
 <div class="line"><span class="lineno">  136</span>}</div>
-<div class="ttc" id="aa30729_html"><div class="ttname"><a href="../../da/da2/a30729.html">Vec3D</a></div><div class="ttdef"><b>Definition:</b> vec3d.h:25</div></div>
+<div class="ttc" id="aa30741_html"><div class="ttname"><a href="../../d6/d70/a30741.html">Vec3D</a></div><div class="ttdef"><b>Definition:</b> vec3d.h:25</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00027">Vec3D::x</a>, <a class="el" href="../../#l00027">Vec3D::y</a>, and <a class="el" href="../../#l00027">Vec3D::z</a>.</p>
 
@@ -172,8 +159,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_b604cd515113e1b9d14f26b265d784ac.html">vmap4_extractor</a></li><li class="navelem"><a class="el" href="../../de/d09/a04385.html">model.h</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 15:54:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_b604cd515113e1b9d14f26b265d784ac.html">vmap4_extractor</a></li><li class="navelem"><a class="el" href="../../de/d09/a04385.html">model.cpp</a></li>
+    <li class="footer">Generated on Sun Dec 11 2022 11:33:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

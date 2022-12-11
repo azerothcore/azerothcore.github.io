@@ -1,10 +1,10 @@
 var a02531 =
 [
-    [ "instance_blackwing_lair", "d0/dac/a11689.html", "d0/dac/a11689" ],
-    [ "instance_blackwing_lair::instance_blackwing_lair_InstanceMapScript", "d5/dcf/a11693.html", "d5/dcf/a11693" ],
-    [ "spell_bwl_shadowflame", "d3/db2/a11697.html", "d3/db2/a11697" ],
-    [ "spell_bwl_shadowflame::spell_bwl_shadowflame_SpellScript", "d6/d74/a11701.html", "d6/d74/a11701" ],
-    [ "at_orb_of_command", "d4/da8/a11705.html", "d4/da8/a11705" ],
+    [ "instance_blackwing_lair", "d8/d1e/a11685.html", "d8/d1e/a11685" ],
+    [ "instance_blackwing_lair::instance_blackwing_lair_InstanceMapScript", "d0/dac/a11689.html", "d0/dac/a11689" ],
+    [ "spell_bwl_shadowflame", "d5/dcf/a11693.html", "d5/dcf/a11693" ],
+    [ "spell_bwl_shadowflame::spell_bwl_shadowflame_SpellScript", "d3/db2/a11697.html", "d3/db2/a11697" ],
+    [ "at_orb_of_command", "d6/d74/a11701.html", "d6/d74/a11701" ],
     [ "orb_of_command_misc", "d9/dc8/a02531.html#a5ddae3d5f11ae5a5d826e7e18d4cded5", [
       [ "QUEST_BLACKHANDS_COMMAND", "d9/dc8/a02531.html#a5ddae3d5f11ae5a5d826e7e18d4cded5ae1d5923d960c45957f7789ee3d943db5", null ],
       [ "MAP_BWL", "d9/dc8/a02531.html#a5ddae3d5f11ae5a5d826e7e18d4cded5ae1b688e63ec4ff55cd01b4df30948cbc", null ]

@@ -1,6 +1,6 @@
 var a25509 =
 [
-    [ "spell_magtheridon_shadow_grasp_AuraScript", "df/d0b/a25513.html", "df/d0b/a25513" ],
-    [ "spell_magtheridon_shadow_grasp", "d0/db4/a25509.html#a5a28ed27df56fc1d3f65a8ba5fb2e26d", null ],
-    [ "GetAuraScript", "d0/db4/a25509.html#aaf60e53434154adacffb9efd07b774e4", null ]
+    [ "spell_magtheridon_blaze_SpellScript", "df/d0b/a25513.html", "df/d0b/a25513" ],
+    [ "spell_magtheridon_blaze", "d0/db4/a25509.html#ad33c3e9d565655582c1aec1a75ee7de9", null ],
+    [ "GetSpellScript", "d0/db4/a25509.html#afd47952f65a87e833cb62f862ae06866", null ]
 ];

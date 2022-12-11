@@ -1,6 +1,6 @@
 var a12869 =
 [
-    [ "spell_eredar_twins_apply_dark_touched_SpellScript", "d8/d9e/a12873.html", "d8/d9e/a12873" ],
-    [ "spell_eredar_twins_apply_dark_touched", "d5/de3/a12869.html#a6e5ef9750e7ae34a8b973c1f211d7ed5", null ],
-    [ "GetSpellScript", "d5/de3/a12869.html#ad6bbd0ba18189489840ccd245d48cf89", null ]
+    [ "HandleApplyTouch", "d5/de3/a12869.html#a03d3cd8c6792c4c9604ec7be7d33ea0b", null ],
+    [ "PrepareSpellScript", "d5/de3/a12869.html#a3b300a0a47de87e3f51189933d0cede6", null ],
+    [ "Register", "d5/de3/a12869.html#a9cbb2e49f9a0f64b76562401c3305cb4", null ]
 ];

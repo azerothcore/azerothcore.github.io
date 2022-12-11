@@ -34,8 +34,8 @@ var a05693 =
     [ "StartTimedAchievement", "d9/d6d/a05693.html#a1840dad4136aa903439886dbf17a4af4", null ],
     [ "UpdateAchievementCriteria", "d9/d6d/a05693.html#a37d1c40d3c598f193471ed407e43b548", null ],
     [ "UpdateTimedAchievements", "d9/d6d/a05693.html#a073f9cc490fc6e51d1ef00c7d82b12e7", null ],
-    [ "m_completedAchievements", "d9/d6d/a05693.html#a5f8530459145bc09575bd274068fde0e", null ],
-    [ "m_criteriaProgress", "d9/d6d/a05693.html#a28943d959e94cbe0254e905ad530ef03", null ],
-    [ "m_player", "d9/d6d/a05693.html#a6d62f85e8e60758db6fe7ec7d957a849", null ],
-    [ "m_timedAchievements", "d9/d6d/a05693.html#ae16df1525ae3de77b4e8bac39fff3ecb", null ]
+    [ "_completedAchievements", "d9/d6d/a05693.html#a7683a0c816137b1d61d97b457ae6e8b6", null ],
+    [ "_criteriaProgress", "d9/d6d/a05693.html#a79bc930bd6ee111a0c3b49c928fd8468", null ],
+    [ "_player", "d9/d6d/a05693.html#aaa529c5d2eab398a6e2acaaf838f3d25", null ],
+    [ "_timedAchievements", "d9/d6d/a05693.html#a77ab8c7741b56fda8a20a7593656d808", null ]
 ];

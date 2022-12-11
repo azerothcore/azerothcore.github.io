@@ -1,13 +1,20 @@
 var a26341 =
 [
-    [ "npc_illidari_spawnAI", "d9/df1/a26341.html#a704c1d3e07d028b04e2bddee37039941", null ],
-    [ "EnterCombat", "d9/df1/a26341.html#a940406b714c215a69e90ea0ef34a0c3e", null ],
-    [ "JustDied", "d9/df1/a26341.html#a27277d90d4a58a89386a39f4affbaee8", null ],
-    [ "Reset", "d9/df1/a26341.html#a5347858d5da4f0718479b1d702125366", null ],
-    [ "UpdateAI", "d9/df1/a26341.html#af392a545b3dccb7a7c89780d2818a7a7", null ],
-    [ "LordIllidanGUID", "d9/df1/a26341.html#a11b411dd0b5a32a7bdd0c44242a42372", null ],
-    [ "SpellTimer1", "d9/df1/a26341.html#afbf1b352275c0fd16fdf252eac9e0c4a", null ],
-    [ "SpellTimer2", "d9/df1/a26341.html#a644616bab96e1bd9bbe2500bf1b14988", null ],
-    [ "SpellTimer3", "d9/df1/a26341.html#a9889f9673292613dc46387862f3e8849", null ],
-    [ "Timers", "d9/df1/a26341.html#a1e48e4dea7bc1ba0f3d6be2f03b6813e", null ]
+    [ "npc_lord_illidan_stormrageAI", "d9/df1/a26341.html#a3b48b42c72b51bbdb222f6cd03e50ec8", null ],
+    [ "AttackStart", "d9/df1/a26341.html#a5f73b83a07f24403cf55de7ef485c003", null ],
+    [ "CheckEventFail", "d9/df1/a26341.html#aef1607c2132ae78b45d4f209a4320a88", null ],
+    [ "EnterCombat", "d9/df1/a26341.html#a670911162a7a1bb87ab438fdf499cb19", null ],
+    [ "LiveCounter", "d9/df1/a26341.html#a625b2891d3f9807da7733f678ea29313", null ],
+    [ "MoveInLineOfSight", "d9/df1/a26341.html#a5c2313ac5767339cd26196f52ff05c5f", null ],
+    [ "Reset", "d9/df1/a26341.html#a035b85302d54adf9bd7af82cadfd0317", null ],
+    [ "SummonNextWave", "d9/df1/a26341.html#a240ee54d49248a1700e767568fe93648", null ],
+    [ "UpdateAI", "d9/df1/a26341.html#a9cf7d73c5f81980c08f785dc3af47dec", null ],
+    [ "Announced", "d9/df1/a26341.html#a448ba6e2b21273b8e07b6d0a79e856e2", null ],
+    [ "AnnounceTimer", "d9/df1/a26341.html#a7037e4b43f274f3e2ce45143c029b070", null ],
+    [ "EventStarted", "d9/df1/a26341.html#a41b3b39d2ea0eeca4b60960f3a903ee8", null ],
+    [ "Failed", "d9/df1/a26341.html#aba564e34f0358d6c2a3c6ae91e17bf10", null ],
+    [ "LiveCount", "d9/df1/a26341.html#ab86239a6470a82749f96eb5515c46c59", null ],
+    [ "PlayerGUID", "d9/df1/a26341.html#af30c5c09f0262479b8920269f7bf198a", null ],
+    [ "WaveCount", "d9/df1/a26341.html#abdd03400f582e9477bb376e2b34e7a0e", null ],
+    [ "WaveTimer", "d9/df1/a26341.html#ae727157e6b52817051fea075c2cb7cb1", null ]
 ];

@@ -1,10 +1,10 @@
 var a01220 =
 [
-    [ "Position", "d5/daa/a07881.html", "d5/daa/a07881" ],
-    [ "Position::PositionXYStreamer", "d1/d10/a07885.html", "d1/d10/a07885" ],
-    [ "Position::PositionXYZStreamer", "d6/d34/a07889.html", "d6/d34/a07889" ],
-    [ "Position::PositionXYZOStreamer", "d4/db3/a07893.html", "d4/db3/a07893" ],
-    [ "WorldLocation", "dc/d00/a07897.html", "dc/d00/a07897" ],
+    [ "Position", "d1/d10/a07885.html", "d1/d10/a07885" ],
+    [ "Position::PositionXYStreamer", "d6/d34/a07889.html", "d6/d34/a07889" ],
+    [ "Position::PositionXYZStreamer", "d4/db3/a07893.html", "d4/db3/a07893" ],
+    [ "Position::PositionXYZOStreamer", "dc/d00/a07897.html", "dc/d00/a07897" ],
+    [ "WorldLocation", "d7/de5/a07901.html", "d7/de5/a07901" ],
     [ "MAPID_INVALID", "db/d42/a01220.html#af69a1d112a89b89894dafd5da53e7490", null ],
     [ "operator<<", "db/d42/a01220.html#a09519787a0405fc17b028180b2da4cdd", null ],
     [ "operator<<", "db/d42/a01220.html#a71323635f122d24189054da615cb39e1", null ],

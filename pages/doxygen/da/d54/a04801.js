@@ -1,10 +1,10 @@
 var a04801 =
 [
-    [ "Hash", "da/d54/a04801.html#ae23bd592ac284f3068c36688d084c24f", null ],
-    [ "Verify", "da/d54/a04801.html#a7a041ffc17e4d4291f81d4090f31e1fd", null ],
-    [ "DEFAULT_ITERATIONS", "da/d54/a04801.html#a898bbe9b4ffddef1eb067915740d6100", null ],
-    [ "DEFAULT_MEMORY_COST", "da/d54/a04801.html#a413b8cdff629f26836a776412362056d", null ],
-    [ "ENCODED_HASH_LEN", "da/d54/a04801.html#a07dd0a8033f54177570f62a2a1a0da3d", null ],
-    [ "HASH_LEN", "da/d54/a04801.html#a923313625297d08ff3ca9a04bbe527aa", null ],
-    [ "PARALLELISM", "da/d54/a04801.html#a4aabf2fcc43b23c9d565ced3a2adb405", null ]
+    [ "ARC4", "da/d54/a04801.html#ac05d4f85233abfc5cbcb87cd2a87bc5a", null ],
+    [ "~ARC4", "da/d54/a04801.html#af3a8b63c2073120026c262a685eef8f2", null ],
+    [ "Init", "da/d54/a04801.html#a68993c30cafb864abd5ae0c49ee8296e", null ],
+    [ "Init", "da/d54/a04801.html#a13bd9c79d4535d115831303b14b5f89d", null ],
+    [ "UpdateData", "da/d54/a04801.html#ae350945f2713305e977e4a3e4fc3d5b5", null ],
+    [ "UpdateData", "da/d54/a04801.html#afeb8a273bac5a73417e8026421c6ea70", null ],
+    [ "_ctx", "da/d54/a04801.html#a8539413b1e0344abe9545f742cc8e6df", null ]
 ];

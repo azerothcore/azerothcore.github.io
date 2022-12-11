@@ -1,5 +1,8 @@
 var a30265 =
 [
-    [ "Id", "d4/db7/a30265.html#a44532f8af054ae5224f5e816c3c9a8a7", null ],
-    [ "PowerType", "d4/db7/a30265.html#ab6c17a5a3ba9f2f3a8fac125104703c4", null ]
+    [ "areaTriggerText", "d4/db7/a30265.html#a32bb8c4a4defce661d108627e25b645a", null ],
+    [ "Difficulty", "d4/db7/a30265.html#add8ed75cd6aaa3412e6222b869bb4113", null ],
+    [ "MapId", "d4/db7/a30265.html#aa107ad302ec2aa3ce2289ba392e1c32e", null ],
+    [ "maxPlayers", "d4/db7/a30265.html#a7ab33229ffee11a27861439053c79831", null ],
+    [ "resetTime", "d4/db7/a30265.html#a891a741efb049b51996e1a6110efc52d", null ]
 ];

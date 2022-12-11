@@ -1,6 +1,6 @@
 var a11597 =
 [
-    [ "boss_flamegorAI", "db/d8c/a11601.html", "db/d8c/a11601" ],
-    [ "boss_flamegor", "d2/def/a11597.html#abc6f068c81466d08306d94667bb1974b", null ],
-    [ "GetAI", "d2/def/a11597.html#a56fb8425c55703fbda14a982d8fdcb2d", null ]
+    [ "boss_flamegorAI", "d2/def/a11597.html#a4b3d46c3faa566095b0cedad3df9f057", null ],
+    [ "EnterCombat", "d2/def/a11597.html#adaec36f054da570ff75003183d582f04", null ],
+    [ "UpdateAI", "d2/def/a11597.html#a2e5146815e533cf62e0084a54aa222d5", null ]
 ];

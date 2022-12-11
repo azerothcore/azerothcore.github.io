@@ -1,8 +1,6 @@
 var a11925 =
 [
-    [ "npc_lava_spawn", "d7/d55/a11925.html#aff97441b2cfbcd68e0788be022ee6236", null ],
-    [ "EnterCombat", "d7/d55/a11925.html#aaae2d1acbcfa9d16093fc13f63908786", null ],
-    [ "Reset", "d7/d55/a11925.html#ab774d354991c90b1421e6783c0513e59", null ],
-    [ "UpdateAI", "d7/d55/a11925.html#a6a17c8c40b0110b688ff5faef5585185", null ],
-    [ "_scheduler", "d7/d55/a11925.html#ab7a6b2beec095f3f903ad4443813cfce", null ]
+    [ "boss_mr_smiteAI", "de/da2/a11929.html", "de/da2/a11929" ],
+    [ "boss_mr_smite", "d7/d55/a11925.html#a011d41112ef7376b71d2959f806be262", null ],
+    [ "GetAI", "d7/d55/a11925.html#a619ca0aede1eb33f992328048319c4f0", null ]
 ];

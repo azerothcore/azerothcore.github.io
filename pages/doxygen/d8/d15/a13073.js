@@ -1,6 +1,6 @@
 var a13073 =
 [
-    [ "spell_kiljaeden_sinister_reflection_clone_SpellScript", "d3/da8/a13077.html", "d3/da8/a13077" ],
-    [ "spell_kiljaeden_sinister_reflection_clone", "d8/d15/a13073.html#a723218a7118b9c08b5821ee742a47bb9", null ],
-    [ "GetSpellScript", "d8/d15/a13073.html#aef3f08f1450220847aa30768cb4f8e74", null ]
+    [ "FilterTargets", "d8/d15/a13073.html#ab29870380b3957ad74660b896449c568", null ],
+    [ "PrepareSpellScript", "d8/d15/a13073.html#ad40bc7ea1968bd353038747a05cf2d91", null ],
+    [ "Register", "d8/d15/a13073.html#a5cabcbebaaf8a128ecd3c5738c6abfa4", null ]
 ];

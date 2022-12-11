@@ -1,5 +1,6 @@
 var a11705 =
 [
-    [ "at_orb_of_command", "d4/da8/a11705.html#a1f0b196362b76e050eba66d3ce612623", null ],
-    [ "OnTrigger", "d4/da8/a11705.html#a8d30d303c72d5eaf59222c890ab13ca3", null ]
+    [ "boss_baron_geddonAI", "d1/dec/a11709.html", "d1/dec/a11709" ],
+    [ "boss_baron_geddon", "d4/da8/a11705.html#ad72caf30219b4295c0be4289b9d25498", null ],
+    [ "GetAI", "d4/da8/a11705.html#a8f328680a5f99fb275cb0b3e8adf9c63", null ]
 ];

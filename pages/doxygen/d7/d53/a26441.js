@@ -1,6 +1,5 @@
 var a26441 =
 [
-    [ "HandleSendEvent", "d7/d53/a26441.html#a1ff097621f64e894be024de4e0946b34", null ],
-    [ "PrepareSpellScript", "d7/d53/a26441.html#ab967a899ac6d2397c2f871cc5062cfc6", null ],
-    [ "Register", "d7/d53/a26441.html#a590fe9da733c8b7bf08464f277b398f7", null ]
+    [ "npc_greatfather_aldrimusAI", "d7/d53/a26441.html#acc067293990dfcb36a7e3069537d6ed4", null ],
+    [ "CanBeSeen", "d7/d53/a26441.html#a863338d5a110d92fb7532df6cfaa546e", null ]
 ];

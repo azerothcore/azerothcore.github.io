@@ -1,6 +1,7 @@
 var a12665 =
 [
-    [ "spell_scholomance_fixate_AuraScript", "d5/d3d/a12669.html", "d5/d3d/a12669" ],
-    [ "spell_scholomance_fixate", "d7/d4e/a12665.html#a49168d593fcd172b6bd4d0d2afbe1676", null ],
-    [ "GetAuraScript", "d7/d4e/a12665.html#ab1acff853165f06011c160387430988a", null ]
+    [ "HandleEffectApply", "d7/d4e/a12665.html#a2c419ff9944a9ba52b2530059ecaa82a", null ],
+    [ "HandleEffectRemove", "d7/d4e/a12665.html#a1b2d0a4b57c5886c68a00a2cba8922a4", null ],
+    [ "PrepareAuraScript", "d7/d4e/a12665.html#abca0eded713c89a78607e582156c3ca2", null ],
+    [ "Register", "d7/d4e/a12665.html#a61be8e7fc51ae2f963721240091dafea", null ]
 ];

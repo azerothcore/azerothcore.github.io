@@ -1,6 +1,7 @@
 var a11757 =
 [
-    [ "spell_garr_frenzy_SpellScript", "d3/d95/a11761.html", "d3/d95/a11761" ],
-    [ "spell_garr_frenzy", "dd/d6a/a11757.html#a74007eeb639bdd850b5b31b3c4ca3ee1", null ],
-    [ "GetSpellScript", "dd/d6a/a11757.html#aafac2d93047640369f0380905122335d", null ]
+    [ "HandleHit", "dd/d6a/a11757.html#a2d53542426dfed033df2b02392599263", null ],
+    [ "PrepareSpellScript", "dd/d6a/a11757.html#a643c25c558499a8371ebc669eafa7e48", null ],
+    [ "Register", "dd/d6a/a11757.html#a4a4ba3131e6a8feca7670c4a71c3ba3c", null ],
+    [ "Validate", "dd/d6a/a11757.html#a542503089e738e473e9f318040b0b292", null ]
 ];

@@ -1,5 +1,6 @@
 var a29381 =
 [
-    [ "go_veil_skith_cage", "db/dda/a29381.html#ac3fe1fdf2f12571fafc56e71a932994e", null ],
-    [ "OnGossipHello", "db/dda/a29381.html#a6724dc73ecf83305e5234eb0a2ad1d3c", null ]
+    [ "go_amberpine_outhouse", "db/dda/a29381.html#a953ea72b3954c89b6c391de5aca3b6ce", null ],
+    [ "OnGossipHello", "db/dda/a29381.html#a7cbfc3a091ad2332fd46140a24ac4e37", null ],
+    [ "OnGossipSelect", "db/dda/a29381.html#ad0312b00c0f58bba20c442a7cb1a8b41", null ]
 ];

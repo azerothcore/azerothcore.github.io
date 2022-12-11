@@ -1,6 +1,6 @@
 var a10705 =
 [
-    [ "AuraProcHandler", "d3/d4e/a10705.html#a1c0ad4a28c98d89a0afc2f8eeda9a421", null ],
-    [ "Call", "d3/d4e/a10705.html#abc0c3be9dee08e995c282f20900f3c46", null ],
-    [ "_HandlerScript", "d3/d4e/a10705.html#ada8d7a5659598b0092739a91ba2653bd", null ]
+    [ "EffectSplitHandler", "d3/d4e/a10705.html#a1e31c0f06961aba66f6737c4b4aca7f6", null ],
+    [ "Call", "d3/d4e/a10705.html#ae0ef79af01cce82ed3cbe208d98b325a", null ],
+    [ "pEffectHandlerScript", "d3/d4e/a10705.html#a181c0f987789f3725e7ba7e023cfc4e7", null ]
 ];

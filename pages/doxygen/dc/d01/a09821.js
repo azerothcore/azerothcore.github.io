@@ -1,9 +1,12 @@
 var a09821 =
 [
-    [ "ServerPacket", "dc/d01/a09821.html#ad2222011e1251791799f97b149cef8b9", null ],
-    [ "Clear", "dc/d01/a09821.html#aa54f2fa66cfe4682ca56cf01f9e1296a", null ],
-    [ "GetOpcode", "dc/d01/a09821.html#a639ab6c078d7c746bcb328526df705be", null ],
-    [ "Move", "dc/d01/a09821.html#a659397042201ae571bb564872e54d2c6", null ],
-    [ "Read", "dc/d01/a09821.html#ae49aa7bce566d9f0ea3c7bbb487a119d", null ],
-    [ "ShrinkToFit", "dc/d01/a09821.html#a6fa19a94d57484aaff3498be01495258", null ]
+    [ "Packet", "dc/d01/a09821.html#a316af2b7ce1ac7189fb1e57f534bad11", null ],
+    [ "~Packet", "dc/d01/a09821.html#a2ca1e6377bb2fb10bf042311e72eb5d4", null ],
+    [ "Packet", "dc/d01/a09821.html#a00213b64110a99004b3d9a6b38876cd4", null ],
+    [ "GetRawPacket", "dc/d01/a09821.html#a9d8649e1b035fe7387dcee3e0b062a5e", null ],
+    [ "GetSize", "dc/d01/a09821.html#a7e2913ab179fcaf80a65d27ff56298c7", null ],
+    [ "operator=", "dc/d01/a09821.html#a6d2afd0d4b0d7daff11868854b7c4715", null ],
+    [ "Read", "dc/d01/a09821.html#a94afc4d66c2b5bced3063bab5a666bfd", null ],
+    [ "Write", "dc/d01/a09821.html#af7c79156d7b6cfe3142fc530f9ed262a", null ],
+    [ "_worldPacket", "dc/d01/a09821.html#ab85f1c9f20117bc5015180165c7b458a", null ]
 ];

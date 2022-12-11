@@ -1,5 +1,6 @@
 var a26209 =
 [
-    [ "at_commander_dawnforge", "d6/d60/a26209.html#a1dfd7eb69ae515a59887c313001e4a4e", null ],
-    [ "OnTrigger", "d6/d60/a26209.html#acc78f4f2f9d892c02d62548e93f7f83b", null ]
+    [ "npc_commander_dawnforgeAI", "d1/d9e/a26213.html", "d1/d9e/a26213" ],
+    [ "npc_commander_dawnforge", "d6/d60/a26209.html#ab4d430725f68f906e9c8def66b1d6646", null ],
+    [ "GetAI", "d6/d60/a26209.html#a6089b087b7c3b18659e23c677814318b", null ]
 ];

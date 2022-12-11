@@ -1,6 +1,9 @@
 var a28713 =
 [
-    [ "FilterTargets", "da/db0/a28713.html#af7035627c3d6dd3fd8381ee258391a0b", null ],
-    [ "PrepareSpellScript", "da/db0/a28713.html#a3211fda7263bc513d14a8f2fd1507ef8", null ],
-    [ "Register", "da/db0/a28713.html#abe63ec69fe15fd8924fb63235489e088", null ]
+    [ "CalculateAmount", "da/db0/a28713.html#a55d778b049e26c28bfa9d2e08d7920a8", null ],
+    [ "CheckProc", "da/db0/a28713.html#aa0144f9a0260a74010ced913dd8cadbd", null ],
+    [ "HandleProc", "da/db0/a28713.html#a741570ba77f70d90b437198f63e565f3", null ],
+    [ "PrepareAuraScript", "da/db0/a28713.html#af4e49e2362994f247c119c16c013e4b3", null ],
+    [ "Register", "da/db0/a28713.html#a06a3c11618cbdf15427bbaa6ac8a4273", null ],
+    [ "Validate", "da/db0/a28713.html#a939d6815bcaee9b9d2b062313aac912a", null ]
 ];

@@ -1,6 +1,6 @@
 var a25817 =
 [
-    [ "HandlePeriodic", "d1/d08/a25817.html#a481bb370c1269cd811cf762efc22b3a9", null ],
-    [ "PrepareAuraScript", "d1/d08/a25817.html#a0fb5cb696affa34ff6dc4692eb8e18e6", null ],
-    [ "Register", "d1/d08/a25817.html#a642689a21ea1e63e28e1a57310748639", null ]
+    [ "Load", "d1/d08/a25817.html#ad83a9545284ad7076dbc23a264d51a2a", null ],
+    [ "PrepareSpellScript", "d1/d08/a25817.html#a23d183690772e6d3999369ea34b14795", null ],
+    [ "Register", "d1/d08/a25817.html#afaf214060884d9a3f8c17736b7540c20", null ]
 ];

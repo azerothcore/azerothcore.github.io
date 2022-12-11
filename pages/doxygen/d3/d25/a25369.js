@@ -1,15 +1,11 @@
 var a25369 =
 [
-    [ "instance_gruuls_lair_InstanceMapScript", "d3/d25/a25369.html#a1ad656ccd4d41c756c4f525d079fd9b6", null ],
-    [ "GetData", "d3/d25/a25369.html#a410630dbbe00acf0b69603cfc357d503", null ],
-    [ "GetSaveData", "d3/d25/a25369.html#aa1a0bae0662379ed9410d4f9c79a84ea", null ],
-    [ "Load", "d3/d25/a25369.html#aa19282ef1b9620401343fe85c8723d6d", null ],
-    [ "OnCreatureCreate", "d3/d25/a25369.html#a93e583cfdc8fdcab8127f06f8d333268", null ],
-    [ "OnCreatureRemove", "d3/d25/a25369.html#a919fe76fd26abdb722ccf1f51b9ea528", null ],
-    [ "OnGameObjectCreate", "d3/d25/a25369.html#a93ff286c1c8232db9e8099ef5e6da2d1", null ],
-    [ "OnGameObjectRemove", "d3/d25/a25369.html#a1226b07eeebe0d1feaccb2856f17e5e7", null ],
-    [ "SetBossState", "d3/d25/a25369.html#a9f0752eb0ec1d9ca0681ddc5fc8d3752", null ],
-    [ "SetData", "d3/d25/a25369.html#a4cbe09489797fa0076d976f9a717a2bd", null ],
-    [ "_addsKilled", "d3/d25/a25369.html#a7a003811fcf620f3c2d11ff3498cb298", null ],
-    [ "_maulgarGUID", "d3/d25/a25369.html#a7a156b84a9b2637ad0f0e2e9f39a64fa", null ]
+    [ "boss_krosh_firehandAI", "d3/d25/a25369.html#a138eedf67c9f2192087768c39b784381", null ],
+    [ "AttackStart", "d3/d25/a25369.html#a475ea04d1a7c422619c6a66d0b873c60", null ],
+    [ "EnterCombat", "d3/d25/a25369.html#ae01b53fc4cf4a253dd556f6469412f32", null ],
+    [ "JustDied", "d3/d25/a25369.html#ad176dd2456472e457465df5362c3084e", null ],
+    [ "Reset", "d3/d25/a25369.html#a6378df84543d3596e0e4184985dbb234", null ],
+    [ "UpdateAI", "d3/d25/a25369.html#a08fed875218f6f470e263e02b36bb3b2", null ],
+    [ "events", "d3/d25/a25369.html#a3bbb388d64cf97f7ef292729b768e0be", null ],
+    [ "instance", "d3/d25/a25369.html#a2b03ed9be8a90006c1fb7f0960503642", null ]
 ];

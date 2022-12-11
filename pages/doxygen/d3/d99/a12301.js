@@ -1,17 +1,19 @@
 var a12301 =
 [
-    [ "boss_priestess_delrissaAI", "d3/d99/a12301.html#a13bf8c30cb9f4cb340143ab4c0fea3ba", null ],
-    [ "EnterCombat", "d3/d99/a12301.html#abff8fccf0cf3480800276d9e7394331b", null ],
-    [ "InitializeAI", "d3/d99/a12301.html#af9ba5ab97b76ba08f54f643507af66bb", null ],
-    [ "JustDied", "d3/d99/a12301.html#add63d713767bc319979627b54d89ab7d", null ],
-    [ "JustSummoned", "d3/d99/a12301.html#a7238c6537aba5c1593ff87afe8a18164", null ],
-    [ "KilledUnit", "d3/d99/a12301.html#ac11d952468719049de912f79be96cb13", null ],
-    [ "Reset", "d3/d99/a12301.html#a77b2370669a33daf92843d33dcd3d723", null ],
-    [ "SummonedCreatureDies", "d3/d99/a12301.html#a3f13580e9f5122cffefc12fe9c2655dd", null ],
-    [ "UpdateAI", "d3/d99/a12301.html#a7ecf505629ffe5b6641e9a1aec3c39b8", null ],
-    [ "events", "d3/d99/a12301.html#ae1c5a3a47ed538640d1030a9a28bff84", null ],
-    [ "HelpersKilled", "d3/d99/a12301.html#a71a8475943137dcac3bd8e29424b3ce3", null ],
-    [ "instance", "d3/d99/a12301.html#a8ff5e3201ebb55435ea6786988afa379", null ],
-    [ "PlayersKilled", "d3/d99/a12301.html#a074e4f1977688ff2a74111583be28280", null ],
-    [ "summons", "d3/d99/a12301.html#a80bc2c646f2b93bca0680c7a1423b507", null ]
+    [ "boss_priestess_lackey_commonAI", "d3/d99/a12301.html#acf122076823631cef5d66e03a9f607aa", null ],
+    [ "AttackStart", "d3/d99/a12301.html#a6056ef3425f39208e5731b25fc94a335", null ],
+    [ "EnterCombat", "d3/d99/a12301.html#a7596a58fa266a388ecd24b317c6ce583", null ],
+    [ "EnterEvadeMode", "d3/d99/a12301.html#a6935410d7a4ce8e9dec9feed9f5351d7", null ],
+    [ "GetThreatMod", "d3/d99/a12301.html#a2e0e387ae4645c9bbd4625d1469403a8", null ],
+    [ "JustDied", "d3/d99/a12301.html#a8b06ee0a3e22d495a41ccf4c7009ad2d", null ],
+    [ "JustSummoned", "d3/d99/a12301.html#a9a7bcf641bae31827872faf7666635d5", null ],
+    [ "KilledUnit", "d3/d99/a12301.html#a23aaa0a619470898dd617a18130ca17b", null ],
+    [ "RecalculateThreat", "d3/d99/a12301.html#a7daa8f2b2ddfbbd0d0f267dac7e0c2c2", null ],
+    [ "Reset", "d3/d99/a12301.html#aa2ef03d73c43668c97205fa72414e71b", null ],
+    [ "UpdateAI", "d3/d99/a12301.html#adf87bd797da345e49700265319d808cc", null ],
+    [ "actualEventId", "d3/d99/a12301.html#a891e0e1647368aa7ebac98ec362643b3", null ],
+    [ "aiType", "d3/d99/a12301.html#a2b7ccbf195658e402ba6f276b18e3551", null ],
+    [ "events", "d3/d99/a12301.html#a837d884e297dbb805bb30ceb9bf9e784", null ],
+    [ "instance", "d3/d99/a12301.html#ac71aa86c97fe11d934f09d62c4ed8eab", null ],
+    [ "summons", "d3/d99/a12301.html#a498ef73fcc7995113318c5f0b6efa23e", null ]
 ];

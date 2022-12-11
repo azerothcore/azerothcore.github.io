@@ -1,6 +1,7 @@
 var a14081 =
 [
-    [ "HandleDummyEffect", "d4/dcb/a14081.html#a3985ca8b79a234e44d9f46ffe6d5b232", null ],
-    [ "PrepareSpellScript", "d4/dcb/a14081.html#a03f752d4d4762698e5777a4ae0e395cf", null ],
-    [ "Register", "d4/dcb/a14081.html#a9af46e5f2fdb4719d65bb96f2b68a7f8", null ]
+    [ "CheckTarget", "d4/dcb/a14081.html#a231a8f06c0f0344beb46dfa8911caa82", null ],
+    [ "HandleDummyEffect", "d4/dcb/a14081.html#a1771cf8a38a84e0fd615976b388124c4", null ],
+    [ "PrepareSpellScript", "d4/dcb/a14081.html#a4a6d00a2e7fba409bf45cfabb0b4ac7e", null ],
+    [ "Register", "d4/dcb/a14081.html#a8edf3db6c7a6689ff6b62aeb01a784a7", null ]
 ];

@@ -1,6 +1,14 @@
 var a11557 =
 [
-    [ "boss_chromaggusAI", "db/d54/a11561.html", "db/d54/a11561" ],
-    [ "boss_chromaggus", "dc/dfa/a11557.html#a55847fc0d5430d3f22074b53d7caca4b", null ],
-    [ "GetAI", "dc/dfa/a11557.html#ace78172cafb122ce5961ed837201c32b", null ]
+    [ "boss_chromaggusAI", "dc/dfa/a11557.html#a06f811fb8aa0c15e07e8a771ac722056", null ],
+    [ "CanAIAttack", "dc/dfa/a11557.html#a4643974601831ced1f6173965009ad20", null ],
+    [ "EnterCombat", "dc/dfa/a11557.html#aa13860111521e2ccfec4542373080460", null ],
+    [ "Initialize", "dc/dfa/a11557.html#a0697edb4aa9fb60a0db2ccf54c32dc19", null ],
+    [ "PathEndReached", "dc/dfa/a11557.html#a2805052cd90212ecb9b5f313f4ecc384", null ],
+    [ "Reset", "dc/dfa/a11557.html#aaa72a25326e9c4e1936020a1e6e7b87a", null ],
+    [ "SetGUID", "dc/dfa/a11557.html#a9b5889af178418a3750ae84707818cf7", null ],
+    [ "UpdateAI", "dc/dfa/a11557.html#a4a120f99c6586fd06af6699bfe913d24", null ],
+    [ "_breathSpells", "dc/dfa/a11557.html#a10e18592d163d4be586701de47da48c9", null ],
+    [ "_playerGUID", "dc/dfa/a11557.html#a03a7fc87c67b04eb0b1289276023c1b4", null ],
+    [ "Enraged", "dc/dfa/a11557.html#acc8b5cfbae8debb22a0493400ec310c4", null ]
 ];

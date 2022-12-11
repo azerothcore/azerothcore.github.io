@@ -1,8 +1,7 @@
 var a31571 =
 [
-    [ "DBCFile", "d6/d23/a30597.html", "d6/d23/a30597" ],
-    [ "DBCFile::Exception", "de/d2e/a30601.html", "de/d2e/a30601" ],
-    [ "DBCFile::NotFound", "d6/d34/a30605.html", "d6/d34/a30605" ],
-    [ "DBCFile::Record", "d6/dfc/a30609.html", "d6/dfc/a30609" ],
-    [ "DBCFile::Iterator", "d7/d51/a30613.html", "d7/d51/a30613" ]
+    [ "checkDirectories", "d1/df5/a31571.html#ab24803c49e5019c665aa545cfd2d32dc", null ],
+    [ "finish", "d1/df5/a31571.html#a32e7545f3a98690aeb284a4eb66f272d", null ],
+    [ "handleArgs", "d1/df5/a31571.html#a9da584ba5e81bed140f90563dd648d38", null ],
+    [ "main", "d1/df5/a31571.html#a3c04138a5bfe5d72780bb7e82a18e627", null ]
 ];

@@ -4,10 +4,10 @@ var a00821 =
     [ "SmartEvent", "d7/d14/a05909.html", "d7/d14/a05909" ],
     [ "SmartAction", "dc/d69/a06081.html", "dc/d69/a06081" ],
     [ "SmartTarget", "da/d75/a06513.html", "da/d75/a06513" ],
-    [ "SmartScriptHolder", "dd/db0/a06609.html", "dd/db0/a06609" ],
-    [ "ObjectGuidVector", "dc/d96/a06613.html", "dc/d96/a06613" ],
-    [ "SmartWaypointMgr", "d5/d07/a06617.html", "d5/d07/a06617" ],
-    [ "SmartAIMgr", "d4/d32/a06621.html", "d4/d32/a06621" ],
+    [ "SmartScriptHolder", "dc/d96/a06613.html", "dc/d96/a06613" ],
+    [ "ObjectGuidVector", "d5/d07/a06617.html", "d5/d07/a06617" ],
+    [ "SmartWaypointMgr", "d4/d32/a06621.html", "d4/d32/a06621" ],
+    [ "SmartAIMgr", "db/dfc/a06625.html", "db/dfc/a06625" ],
     [ "sSmartScriptMgr", "d6/d8b/a00821.html#a6fcbfe722a7e6345cf5c655c860d9ad3", null ],
     [ "sSmartWaypointMgr", "d6/d8b/a00821.html#a2f98805bdaae76c9a1c2b6ce9e815d84", null ],
     [ "ObjectVector", "d6/d8b/a00821.html#a3d080db7fa99da7af5bcaa7720f359d1", null ],
@@ -352,6 +352,7 @@ var a00821 =
       [ "SMART_TARGET_PLAYER_WITH_AURA", "d6/d8b/a00821.html#a20fbd4053053320ca4f2a803a09eb92ea8ddd3492fafca8e2b2d728f3411933ca", null ],
       [ "SMART_TARGET_RANDOM_POINT", "d6/d8b/a00821.html#a20fbd4053053320ca4f2a803a09eb92eae2decb14c183638423dd925e9db928ed", null ],
       [ "SMART_TARGET_ROLE_SELECTION", "d6/d8b/a00821.html#a20fbd4053053320ca4f2a803a09eb92ea8ef1eee06daa7fa65fc8de074ed50546", null ],
+      [ "SMART_TARGET_SUMMONED_CREATURES", "d6/d8b/a00821.html#a20fbd4053053320ca4f2a803a09eb92ea3c84bd8919f1955840a5ed45183026f8", null ],
       [ "SMART_TARGET_AC_END", "d6/d8b/a00821.html#a20fbd4053053320ca4f2a803a09eb92eabc392ba55937eb7338456a2bbec325f7", null ]
     ] ],
     [ "SMARTAI_TEMPLATE", "d6/d8b/a00821.html#a191dc5b4a228fd0a252c021a8c3b1cf6", [

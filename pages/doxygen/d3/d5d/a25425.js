@@ -1,6 +1,6 @@
 var a25425 =
 [
-    [ "boss_omor_the_unscarredAI", "d9/d3c/a25429.html", "d9/d3c/a25429" ],
-    [ "boss_omor_the_unscarred", "d3/d5d/a25425.html#af65873ab707082c68c554cd80aa6d0bb", null ],
-    [ "GetAI", "d3/d5d/a25425.html#a2d3b80def2caeefe3ed3d1b8877eaedf", null ]
+    [ "instance_blood_furnace_InstanceMapScript", "d9/d3c/a25429.html", "d9/d3c/a25429" ],
+    [ "instance_blood_furnace", "d3/d5d/a25425.html#a925a045fa518e72c1eff02fe3c66202b", null ],
+    [ "GetInstanceScript", "d3/d5d/a25425.html#a885ba94e1777dfd6586daca304622d3d", null ]
 ];

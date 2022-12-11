@@ -1,6 +1,6 @@
 var a25977 =
 [
-    [ "boss_pathaleon_the_calculatorAI", "d3/d02/a25981.html", "d3/d02/a25981" ],
-    [ "boss_pathaleon_the_calculator", "d4/d0e/a25977.html#a751d88669ac69b987c8b4777214a01bf", null ],
-    [ "GetAI", "d4/d0e/a25977.html#ab41b7cd5d5e1964ecae47550d0e4b4ea", null ]
+    [ "spell_ragin_flames_inferno_AuraScript", "d3/d02/a25981.html", "d3/d02/a25981" ],
+    [ "spell_ragin_flames_inferno", "d4/d0e/a25977.html#a70c903b64a8faf4c83273f679e6b066d", null ],
+    [ "GetAuraScript", "d4/d0e/a25977.html#ab80f56470a3da24985be471d5b9afd05", null ]
 ];

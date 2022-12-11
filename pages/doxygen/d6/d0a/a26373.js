@@ -1,7 +1,8 @@
 var a26373 =
 [
-    [ "npc_salsalabimAI", "d6/d08/a26377.html", "d6/d08/a26377" ],
-    [ "npc_salsalabim", "d6/d0a/a26373.html#abb534697df2b11d06097e5b11479199e", null ],
-    [ "GetAI", "d6/d0a/a26373.html#ac28cb49dc7ad76ce769c361622089e8b", null ],
-    [ "OnGossipHello", "d6/d0a/a26373.html#a9676c3a5567c7ceedd6c3af3c828836c", null ]
+    [ "npc_raliq_the_drunkAI", "d6/d08/a26377.html", "d6/d08/a26377" ],
+    [ "npc_raliq_the_drunk", "d6/d0a/a26373.html#a9fa4a6e84f975daf222c41c8c6aabdf4", null ],
+    [ "GetAI", "d6/d0a/a26373.html#a928b37bd045172366b5952e6381a8274", null ],
+    [ "OnGossipHello", "d6/d0a/a26373.html#a25839fa2d77606bb4d679d0e29a6ae2f", null ],
+    [ "OnGossipSelect", "d6/d0a/a26373.html#a0930a7b13cbf918a283f9b703f1409e3", null ]
 ];

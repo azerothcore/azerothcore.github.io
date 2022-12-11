@@ -1,6 +1,6 @@
 var a13017 =
 [
-    [ "OnRemove", "d7/dc3/a13017.html#a15f6079d022c8a7e988eef5c6832b319", null ],
-    [ "PrepareAuraScript", "d7/dc3/a13017.html#a5b1fec1208ccae2d0abe17b63a069059", null ],
-    [ "Register", "d7/dc3/a13017.html#a24a707cb67f759873dc13917d1de465a", null ]
+    [ "CastArmageddon", "d7/dc3/a13017.html#a2e90929b63e6151252aa01a55dbd801f", null ],
+    [ "Execute", "d7/dc3/a13017.html#a4f0651a38eaf03a07bcd73d0f88dda16", null ],
+    [ "_caster", "d7/dc3/a13017.html#a1e70887099a7a47b7c26517d4363ad93", null ]
 ];

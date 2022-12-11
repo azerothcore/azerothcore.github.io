@@ -1,6 +1,7 @@
 var a13505 =
 [
-    [ "spell_blight_worm_ingest_SpellScript", "d5/d60/a13509.html", "d5/d60/a13509" ],
-    [ "spell_blight_worm_ingest", "d9/da9/a13505.html#a5b3596196d4eebbd0c6f3d09399c0f40", null ],
-    [ "GetSpellScript", "d9/da9/a13505.html#ae52f5b5c8624e5dc378bae755713cbfe", null ]
+    [ "HandleScript", "d9/da9/a13505.html#ad85959388a639a4eff41de6f86b993e7", null ],
+    [ "PrepareSpellScript", "d9/da9/a13505.html#ab566be9bb39b22e6ac3fb3f9fe925480", null ],
+    [ "Register", "d9/da9/a13505.html#aafefe99f81605c6f55f072deb2306385", null ],
+    [ "Validate", "d9/da9/a13505.html#a63958630c37002d989cd32a8fc37dd37", null ]
 ];

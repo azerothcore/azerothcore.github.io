@@ -1,6 +1,6 @@
 var a12201 =
 [
-    [ "npc_grandmother", "d2/df3/a12201.html#a6cffe8c574859779f6561dde0aef9666", null ],
-    [ "OnGossipHello", "d2/df3/a12201.html#ae39335d22b5fd1fc4c0f9d34e8977124", null ],
-    [ "OnGossipSelect", "d2/df3/a12201.html#a0e2b684377ed593abfbb49b730cfe9b2", null ]
+    [ "boss_bigbadwolfAI", "de/ddc/a12205.html", "de/ddc/a12205" ],
+    [ "boss_bigbadwolf", "d2/df3/a12201.html#af6f451d2fbe395dab7e74c6fd212e249", null ],
+    [ "GetAI", "d2/df3/a12201.html#ab312aadef88c996bbb3b2184506814f7", null ]
 ];

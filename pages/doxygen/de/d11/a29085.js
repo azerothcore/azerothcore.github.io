@@ -1,5 +1,5 @@
 var a29085 =
 [
-    [ "AreaTrigger_at_stormwright_shelf", "de/d11/a29085.html#a97cdf51a8992b3d9edc138351770fd75", null ],
-    [ "OnTrigger", "de/d11/a29085.html#ab635f9328b35f3570211cf6ffc60a4c6", null ]
+    [ "AreaTrigger_at_voltarus_middle", "de/d11/a29085.html#a45ca444350fe4cfde02ab33da4ce8466", null ],
+    [ "OnTrigger", "de/d11/a29085.html#a296b300feb6cf999e9e2c2625a911e9b", null ]
 ];

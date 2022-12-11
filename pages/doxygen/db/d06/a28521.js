@@ -1,6 +1,6 @@
 var a28521 =
 [
-    [ "HandleEffectPeriodic", "db/d06/a28521.html#ab283b40ceb6dcd0a835550531321ce92", null ],
-    [ "PrepareAuraScript", "db/d06/a28521.html#a6d6efe0be7cefeb20c386c83dee561d4", null ],
-    [ "Register", "db/d06/a28521.html#a4c69f350a68c1f4dd429ab52a791f3cd", null ]
+    [ "HandleScript", "db/d06/a28521.html#a8866d650b96c4cae3201a2829cbeff3d", null ],
+    [ "PrepareSpellScript", "db/d06/a28521.html#aa16f51aa8a4fea2a84cadbb01d18b635", null ],
+    [ "Register", "db/d06/a28521.html#aeaa094c8d1f3407bf56d58d88c2238a1", null ]
 ];

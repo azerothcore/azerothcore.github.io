@@ -1,6 +1,6 @@
 var a12317 =
 [
-    [ "boss_ellris_duskhallowAI", "da/d32/a12321.html", "da/d32/a12321" ],
-    [ "boss_ellris_duskhallow", "d2/df5/a12317.html#af42780ff0d9cb9db432d0ef9107dc53c", null ],
-    [ "GetAI", "d2/df5/a12317.html#a8771cd0305f174227a3ba017918d1dc5", null ]
+    [ "boss_ellris_duskhallowAI", "d2/df5/a12317.html#a22dfc28bf1884659bf1837b6dfa02353", null ],
+    [ "EnterCombat", "d2/df5/a12317.html#a841611995ad2ba153414132d17bc290c", null ],
+    [ "UpdateAI", "d2/df5/a12317.html#aa0ec0ac270bba6b68b6c42c9326eaad8", null ]
 ];

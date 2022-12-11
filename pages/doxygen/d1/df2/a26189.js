@@ -1,15 +1,19 @@
 var a26189 =
 [
-    [ "kaylaan_the_lostAI", "d1/df2/a26189.html#a4d05151c4fa36ce873a48b7187027ebd", null ],
-    [ "EnterCombat", "d1/df2/a26189.html#a3d1b45979c91b022129465f884e16fdd", null ],
-    [ "KilledUnit", "d1/df2/a26189.html#aa3308130c6fad3f18b59509654f12956", null ],
-    [ "MovementInform", "d1/df2/a26189.html#aa4221d22e70b45bc0d81627d7752e64c", null ],
-    [ "ResetDeathblowEvent", "d1/df2/a26189.html#a34a64fb3778adb72b08adcfafd2b9b41", null ],
-    [ "UpdateAI", "d1/df2/a26189.html#a73ffc1093dfbc2fa78d37e76dd4d40dd", null ],
-    [ "_events", "d1/df2/a26189.html#a477f2d24693c10a79086b6177561210f", null ],
-    [ "adyen_dead", "d1/df2/a26189.html#aab6b990d719588aab01da30b8e9d8497", null ],
-    [ "first_waypath_done", "d1/df2/a26189.html#aef646aa41ff75a2b66c45e85af86f53e", null ],
-    [ "karja_dead", "d1/df2/a26189.html#a2b3c6ce1220272e287729a7bfa24690f", null ],
-    [ "orelis_dead", "d1/df2/a26189.html#a1200761adc8a093f637d7042e253d6fd", null ],
-    [ "second_waypath_done", "d1/df2/a26189.html#aedb779509963dee584445db645a9637a", null ]
+    [ "socretharAI", "d1/df2/a26189.html#a94fc49cf49f4217e39a979eeeb4a590a", null ],
+    [ "DamageTaken", "d1/df2/a26189.html#a0a01da9eec9919308d640a0fe2a813f0", null ],
+    [ "DoAction", "d1/df2/a26189.html#ad1c06fed5beaaa4049a85fe3e80cf620", null ],
+    [ "EnterCombat", "d1/df2/a26189.html#a76ddbf67115619b260eea825b7b6697e", null ],
+    [ "GetCreature", "d1/df2/a26189.html#abbb30ed6e45f2494395dc58d52b8ca89", null ],
+    [ "JustDied", "d1/df2/a26189.html#aef81d5f1249b922af75705943f7f118e", null ],
+    [ "Reset", "d1/df2/a26189.html#a8f3320453cc73fe1bddff40aa0ca91fa", null ],
+    [ "UpdateAI", "d1/df2/a26189.html#a90e2b0686952b36b2084dd9786455e96", null ],
+    [ "_actionEvents", "d1/df2/a26189.html#aa679d7c444bc40f60505f3f64fa74d20", null ],
+    [ "adyen", "d1/df2/a26189.html#a44e906cde554e96e0fc014e74d3d5021", null ],
+    [ "combatEvents", "d1/df2/a26189.html#af61f0741d645e7bc4f38c9b4c8eb50a2", null ],
+    [ "DeathblowToTheLegionRunning", "d1/df2/a26189.html#a43c88299d41cefa713663483a4c6a244", null ],
+    [ "ishanah", "d1/df2/a26189.html#abf9feead3c7e54150f14e62fdb2651ea", null ],
+    [ "karja", "d1/df2/a26189.html#a72486bbd3a962b9d63bc29fc96f69bfa", null ],
+    [ "kaylaan", "d1/df2/a26189.html#a94f4f84d10197155f637616dd41c2ade", null ],
+    [ "orelis", "d1/df2/a26189.html#a3446ecb2e1844276493b4ee4b2359749", null ]
 ];

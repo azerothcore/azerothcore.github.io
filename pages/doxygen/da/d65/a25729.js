@@ -1,6 +1,6 @@
 var a25729 =
 [
-    [ "boss_alarAI", "da/dba/a25733.html", "da/dba/a25733" ],
-    [ "boss_alar", "da/d65/a25729.html#a40f87caa1ededad8e340a38bbdf5fbdb", null ],
-    [ "GetAI", "da/d65/a25729.html#a44875e91be20762422c8998b8930b82c", null ]
+    [ "spell_botanica_shift_form_AuraScript", "da/dba/a25733.html", "da/dba/a25733" ],
+    [ "spell_botanica_shift_form", "da/d65/a25729.html#a61f64af027977b0c347af9409990013f", null ],
+    [ "GetAuraScript", "da/d65/a25729.html#a06e55c631e296dc4c17c5c81aec7e599", null ]
 ];

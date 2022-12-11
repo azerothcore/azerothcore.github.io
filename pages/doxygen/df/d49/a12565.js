@@ -1,6 +1,6 @@
 var a12565 =
 [
-    [ "spell_chapter5_rebuke_SpellScript", "d3/d63/a12569.html", "d3/d63/a12569" ],
-    [ "spell_chapter5_rebuke", "df/d49/a12565.html#a93b0fd57566722c98653f66619727717", null ],
-    [ "GetSpellScript", "df/d49/a12565.html#ab17f0009b91b00dba9678fe681ffe683", null ]
+    [ "HandleLeapBack", "df/d49/a12565.html#a2f15d7dc9338501db3297d06bd636e5f", null ],
+    [ "PrepareSpellScript", "df/d49/a12565.html#ae587f81abbf933135acb8f91e14d9924", null ],
+    [ "Register", "df/d49/a12565.html#af532dc93d56441ca73161eed532bd651", null ]
 ];

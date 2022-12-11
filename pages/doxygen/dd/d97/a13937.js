@@ -1,6 +1,6 @@
 var a13937 =
 [
-    [ "spell_threatening_gaze_AuraScript", "d5/d1e/a13941.html", "d5/d1e/a13941" ],
-    [ "spell_threatening_gaze", "dd/d97/a13937.html#a20ec140807d12fd521a4c8b8ea7a741a", null ],
-    [ "GetAuraScript", "dd/d97/a13937.html#a51aae442dabc59728c3ff8983b6db818", null ]
+    [ "OnRemove", "dd/d97/a13937.html#abc6d916a2bebd7995cbdb4a603d9831a", null ],
+    [ "PrepareAuraScript", "dd/d97/a13937.html#ac90c6f7806a24f21cac4cbf2a64d0b57", null ],
+    [ "Register", "dd/d97/a13937.html#a7457949331552492cf6df83737729a08", null ]
 ];

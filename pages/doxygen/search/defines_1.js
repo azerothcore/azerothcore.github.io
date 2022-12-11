@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['a_5fruntox_0',['A_RUNTOX',['../df/dce/a04214.html#a0a5db3a56905c53a86dda19b1525d543',1,'npcs_special.cpp']]],
-  ['a_5fruntoy_1',['A_RUNTOY',['../df/dce/a04214.html#a6fd0c50b88b497735f8707ef06169344',1,'npcs_special.cpp']]],
-  ['a_5fruntoz_2',['A_RUNTOZ',['../df/dce/a04214.html#a211a53ccdd9e750147d3d5db4b462a97',1,'npcs_special.cpp']]],
+  ['a_5fruntox_0',['A_RUNTOX',['../d3/d8f/a04217.html#a0a5db3a56905c53a86dda19b1525d543',1,'npcs_special.cpp']]],
+  ['a_5fruntoy_1',['A_RUNTOY',['../d3/d8f/a04217.html#a6fd0c50b88b497735f8707ef06169344',1,'npcs_special.cpp']]],
+  ['a_5fruntoz_2',['A_RUNTOZ',['../d3/d8f/a04217.html#a211a53ccdd9e750147d3d5db4b462a97',1,'npcs_special.cpp']]],
   ['abort_3',['ABORT',['../dd/d52/a00221.html#a5376571bbf4cdc9782683635f366f89a',1,'Errors.h']]],
   ['ac_5fapi_5fexport_4',['AC_API_EXPORT',['../d1/da8/a00230.html#a2c5b5e664ed3daebece45d89595e3105',1,'Define.h']]],
   ['ac_5fapi_5fimport_5',['AC_API_IMPORT',['../d1/da8/a00230.html#ae8a7a9ab4a727295d96a5645d592be1a',1,'Define.h']]],
@@ -26,7 +26,7 @@ var searchData=
   ['acore_5finline_23',['ACORE_INLINE',['../d1/da8/a00230.html#ae4e9017a1f7c4a30d42240994c73707d',1,'Define.h']]],
   ['acore_5flinkage_5ftype_5fstr_24',['ACORE_LINKAGE_TYPE_STR',['../dc/d5d/a00278.html#a498cc8d79612cf645e7afc2ceb4174f3',1,'GitRevision.cpp']]],
   ['acore_5flittleendian_25',['ACORE_LITTLEENDIAN',['../d1/da8/a00230.html#aa52f254470010db28f546a042d5d2dd3',1,'Define.h']]],
-  ['acore_5fmax_5flisten_5fconnections_26',['ACORE_MAX_LISTEN_CONNECTIONS',['../d4/d1d/a04268.html#afdd2f2e5a7ce624326cddb8f94c32b89',1,'AsyncAcceptor.h']]],
+  ['acore_5fmax_5flisten_5fconnections_26',['ACORE_MAX_LISTEN_CONNECTIONS',['../d6/d4e/a04271.html#afdd2f2e5a7ce624326cddb8f94c32b89',1,'AsyncAcceptor.h']]],
   ['acore_5fpath_5fmax_27',['ACORE_PATH_MAX',['../d1/da8/a00230.html#a0e8f3cfd1a18017c3996550aed13d45b',1,'Define.h']]],
   ['acore_5ftrainer_5fstart_5fref_28',['ACORE_TRAINER_START_REF',['../d8/d4e/a01355.html#aef0c23fca606edfe93ff1ea3d8afacd3',1,'ObjectMgr.h']]],
   ['acscriptname_29',['ACScriptName',['../d2/d11/a03797.html#a44e28f969fff2c33cf76b8eaaff1898c',1,'auchenai_crypts.h']]],
@@ -34,14 +34,14 @@ var searchData=
   ['action_5fbutton_5ftype_31',['ACTION_BUTTON_TYPE',['../da/dd8/a01265.html#a7cd994ea695a2fdb343be5ef0bdb03a8',1,'Player.h']]],
   ['action_5fwater_5felement_5fhit_32',['ACTION_WATER_ELEMENT_HIT',['../d2/db4/a03695.html#a604a96878790aff47651e4539253d716',1,'boss_ichoron.cpp']]],
   ['action_5fwater_5felement_5fkilled_33',['ACTION_WATER_ELEMENT_KILLED',['../d2/db4/a03695.html#a0819f535f9b98d41695eeb883e6d94a4',1,'boss_ichoron.cpp']]],
-  ['adt_5fcell_5fsize_34',['ADT_CELL_SIZE',['../de/dc3/a04319.html#a1e3d5d05087dd429cb513f26211aaad1',1,'adt.h']]],
-  ['adt_5fcells_5fper_5fgrid_35',['ADT_CELLS_PER_GRID',['../de/dc3/a04319.html#aaa17abcdb17267fda5cd146bec40af39',1,'adt.h']]],
-  ['adt_5fgrid_5fsize_36',['ADT_GRID_SIZE',['../de/dc3/a04319.html#aa01c13bed63c283263ad2ad586721c77',1,'adt.h']]],
+  ['adt_5fcell_5fsize_34',['ADT_CELL_SIZE',['../d5/d25/a04322.html#a1e3d5d05087dd429cb513f26211aaad1',1,'adt.h']]],
+  ['adt_5fcells_5fper_5fgrid_35',['ADT_CELLS_PER_GRID',['../d5/d25/a04322.html#aaa17abcdb17267fda5cd146bec40af39',1,'adt.h']]],
+  ['adt_5fgrid_5fsize_36',['ADT_GRID_SIZE',['../d5/d25/a04322.html#aa01c13bed63c283263ad2ad586721c77',1,'adt.h']]],
   ['ahnkahetscriptname_37',['AhnKahetScriptName',['../dd/d61/a03197.html#a506431ce00265fd3122a043804560c86',1,'ahnkahet.h']]],
   ['ahune_5fdefault_5fmodel_38',['AHUNE_DEFAULT_MODEL',['../d4/da4/a03911.html#a5c584a6971720205facfbeeb33fa396d',1,'boss_ahune.cpp']]],
   ['ai_5fdefault_5fcooldown_39',['AI_DEFAULT_COOLDOWN',['../d3/d2c/a00764.html#a41c947edd84b4f2bb45133dc7aa00cad',1,'CreatureAIImpl.h']]],
   ['alexstrasza_5fgift_40',['ALEXSTRASZA_GIFT',['../df/d5f/a03494.html#a75e648e1864b15a814c2c3e02faf6336',1,'eye_of_eternity.h']]],
-  ['arcatrazscriptname_41',['ArcatrazScriptName',['../d9/d97/a04016.html#a58a3a02927c13310edac87eddeed23da',1,'arcatraz.h']]],
+  ['arcatrazscriptname_41',['ArcatrazScriptName',['../da/d6d/a04019.html#a58a3a02927c13310edac87eddeed23da',1,'arcatraz.h']]],
   ['area_5feye_5fof_5feternity_42',['AREA_EYE_OF_ETERNITY',['../d0/d17/a03491.html#abfbb3c13e434bda2c175cf2f7b56d23e',1,'boss_malygos.cpp']]],
   ['arena_5fready_5fmarker_5fentry_43',['ARENA_READY_MARKER_ENTRY',['../df/d41/a00881.html#a6a7fd9b1828af2ddf38c218262c12c4e',1,'Battleground.h']]],
   ['arena_5ftimelimit_5fpoints_5floss_44',['ARENA_TIMELIMIT_POINTS_LOSS',['../df/d41/a00881.html#ac5cce663c0f08dc6af7fb2d1ddf35e30',1,'Battleground.h']]],
@@ -73,6 +73,5 @@ var searchData=
   ['auth_5flogon_5fchallenge_5finitial_5fsize_70',['AUTH_LOGON_CHALLENGE_INITIAL_SIZE',['../d9/d24/a00524.html#a38c5f396c839f5f22ec0ec7a5b2a5019',1,'AuthSession.cpp']]],
   ['av_5fevent_5fstart_5fbattle_71',['AV_EVENT_START_BATTLE',['../d4/ddc/a00917.html#a333f1c045e3883c4f54cc0de87aa6dc3',1,'BattlegroundAV.h']]],
   ['azeroth_5fplatform_5fstr_72',['AZEROTH_PLATFORM_STR',['../dc/d5d/a00278.html#af7cd76a18bc19a0ec34ac7693e406971',1,'GitRevision.cpp']]],
-  ['azerothcore_5fsessionkeygenerator_5fhpp_73',['AZEROTHCORE_SESSIONKEYGENERATOR_HPP',['../de/d79/a00203.html#ad8be0092968cad92106e7aadd061dabc',1,'SessionKeyGenerator.h']]],
-  ['azjolnerubscriptname_74',['AzjolNerubScriptName',['../d1/d48/a03218.html#a49c3c3627ce229fce6b1f55755bcb7d7',1,'azjol_nerub.h']]]
+  ['azjolnerubscriptname_73',['AzjolNerubScriptName',['../d1/d48/a03218.html#a49c3c3627ce229fce6b1f55755bcb7d7',1,'azjol_nerub.h']]]
 ];

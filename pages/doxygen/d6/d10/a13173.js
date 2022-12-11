@@ -1,6 +1,6 @@
 var a13173 =
 [
-    [ "OnPeriodic", "d6/d10/a13173.html#a36a5cc378f78447853ef100e297becd9", null ],
-    [ "PrepareAuraScript", "d6/d10/a13173.html#aa10abdf4411da03f03dfa27c3df1a9a7", null ],
-    [ "Register", "d6/d10/a13173.html#a1098b7df187ad030adcc16cb82911151", null ]
+    [ "spell_entropius_negative_energy_SpellScript", "d3/d5f/a13177.html", "d3/d5f/a13177" ],
+    [ "spell_entropius_negative_energy", "d6/d10/a13173.html#ad5ebd19aadfd56586a70a110700b2ab0", null ],
+    [ "GetSpellScript", "d6/d10/a13173.html#a81de2434b96e0cedc22ad38d59b3d8c2", null ]
 ];

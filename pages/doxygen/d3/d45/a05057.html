@@ -130,7 +130,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a29758de9c29e1437e234ab8d2a3e07d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ee8270c681c7faf3d3a6b8271f31796"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d45/a05057.html#a4ee8270c681c7faf3d3a6b8271f31796">destroy</a> ()</td></tr>
 <tr class="separator:a4ee8270c681c7faf3d3a6b8271f31796"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dcbafab5741b819852d6702e5b09369"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d45/a05057.html#a4dcbafab5741b819852d6702e5b09369">setPriority</a> (<a class="el" href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0">Priority</a> type)</td></tr>
+<tr class="memitem:a4dcbafab5741b819852d6702e5b09369"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d45/a05057.html#a4dcbafab5741b819852d6702e5b09369">setPriority</a> (<a class="el" href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0">Priority</a> type)</td></tr>
 <tr class="separator:a4dcbafab5741b819852d6702e5b09369"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -375,7 +375,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void Thread::setPriority </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0">Priority</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0">Priority</a>&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
@@ -391,25 +391,25 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  110</span>    <span class="keywordflow">switch</span> (priority)</div>
 <div class="line"><span class="lineno">  111</span>    {</div>
 <div class="line"><span class="lineno">  112</span><span class="preprocessor">#ifdef WIN32</span></div>
-<div class="line"><span class="lineno">  113</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0aea947a97dfe2d923de21531be29b1fe1">Priority_Realtime</a>:</div>
+<div class="line"><span class="lineno">  113</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0aea947a97dfe2d923de21531be29b1fe1">Priority_Realtime</a>:</div>
 <div class="line"><span class="lineno">  114</span>            _ok = SetThreadPriority(handle, THREAD_PRIORITY_TIME_CRITICAL);</div>
 <div class="line"><span class="lineno">  115</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  116</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0afe73cf9f67a66d8eeb50511bffc0349f">Priority_Highest</a>:</div>
+<div class="line"><span class="lineno">  116</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0afe73cf9f67a66d8eeb50511bffc0349f">Priority_Highest</a>:</div>
 <div class="line"><span class="lineno">  117</span>            _ok = SetThreadPriority(handle, THREAD_PRIORITY_HIGHEST);</div>
 <div class="line"><span class="lineno">  118</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  119</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0ae26951cdc5145b7d4710a65f64fcc15d">Priority_High</a>:</div>
+<div class="line"><span class="lineno">  119</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0ae26951cdc5145b7d4710a65f64fcc15d">Priority_High</a>:</div>
 <div class="line"><span class="lineno">  120</span>            _ok = SetThreadPriority(handle, THREAD_PRIORITY_ABOVE_NORMAL);</div>
 <div class="line"><span class="lineno">  121</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  122</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0a9724af5d135432316625274c94d9d53c">Priority_Normal</a>:</div>
+<div class="line"><span class="lineno">  122</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0a9724af5d135432316625274c94d9d53c">Priority_Normal</a>:</div>
 <div class="line"><span class="lineno">  123</span>            _ok = SetThreadPriority(handle, THREAD_PRIORITY_NORMAL);</div>
 <div class="line"><span class="lineno">  124</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  125</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0a726dc1791c20e19bbdb47763ffec6cc8">Priority_Low</a>:</div>
+<div class="line"><span class="lineno">  125</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0a726dc1791c20e19bbdb47763ffec6cc8">Priority_Low</a>:</div>
 <div class="line"><span class="lineno">  126</span>            _ok = SetThreadPriority(handle, THREAD_PRIORITY_BELOW_NORMAL);</div>
 <div class="line"><span class="lineno">  127</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  128</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0a2c1092f67a3addf9410ac00e8a8f62b0">Priority_Lowest</a>:</div>
+<div class="line"><span class="lineno">  128</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0a2c1092f67a3addf9410ac00e8a8f62b0">Priority_Lowest</a>:</div>
 <div class="line"><span class="lineno">  129</span>            _ok = SetThreadPriority(handle, THREAD_PRIORITY_LOWEST);</div>
 <div class="line"><span class="lineno">  130</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  131</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0a6540dbe098806722de7130f0cf978d24">Priority_Idle</a>:</div>
+<div class="line"><span class="lineno">  131</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0a6540dbe098806722de7130f0cf978d24">Priority_Idle</a>:</div>
 <div class="line"><span class="lineno">  132</span>            _ok = SetThreadPriority(handle, THREAD_PRIORITY_IDLE);</div>
 <div class="line"><span class="lineno">  133</span>            <span class="keywordflow">break</span>;</div>
 <div class="line"><span class="lineno">  134</span><span class="preprocessor">#endif</span></div>
@@ -421,13 +421,13 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  140</span>    <a class="code hl_define" href="../../dd/d52/a00221.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(_ok);</div>
 <div class="line"><span class="lineno">  141</span>}</div>
 <div class="ttc" id="aa00221_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../dd/d52/a00221.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
-<div class="ttc" id="aa04424_html_a98ce3c3a6bb5eee03a544054eae9f9f0a2c1092f67a3addf9410ac00e8a8f62b0"><div class="ttname"><a href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0a2c1092f67a3addf9410ac00e8a8f62b0">Acore::Priority_Lowest</a></div><div class="ttdeci">@ Priority_Lowest</div><div class="ttdef"><b>Definition:</b> Threading.h:47</div></div>
-<div class="ttc" id="aa04424_html_a98ce3c3a6bb5eee03a544054eae9f9f0a6540dbe098806722de7130f0cf978d24"><div class="ttname"><a href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0a6540dbe098806722de7130f0cf978d24">Acore::Priority_Idle</a></div><div class="ttdeci">@ Priority_Idle</div><div class="ttdef"><b>Definition:</b> Threading.h:46</div></div>
-<div class="ttc" id="aa04424_html_a98ce3c3a6bb5eee03a544054eae9f9f0a726dc1791c20e19bbdb47763ffec6cc8"><div class="ttname"><a href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0a726dc1791c20e19bbdb47763ffec6cc8">Acore::Priority_Low</a></div><div class="ttdeci">@ Priority_Low</div><div class="ttdef"><b>Definition:</b> Threading.h:48</div></div>
-<div class="ttc" id="aa04424_html_a98ce3c3a6bb5eee03a544054eae9f9f0a9724af5d135432316625274c94d9d53c"><div class="ttname"><a href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0a9724af5d135432316625274c94d9d53c">Acore::Priority_Normal</a></div><div class="ttdeci">@ Priority_Normal</div><div class="ttdef"><b>Definition:</b> Threading.h:49</div></div>
-<div class="ttc" id="aa04424_html_a98ce3c3a6bb5eee03a544054eae9f9f0ae26951cdc5145b7d4710a65f64fcc15d"><div class="ttname"><a href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0ae26951cdc5145b7d4710a65f64fcc15d">Acore::Priority_High</a></div><div class="ttdeci">@ Priority_High</div><div class="ttdef"><b>Definition:</b> Threading.h:50</div></div>
-<div class="ttc" id="aa04424_html_a98ce3c3a6bb5eee03a544054eae9f9f0aea947a97dfe2d923de21531be29b1fe1"><div class="ttname"><a href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0aea947a97dfe2d923de21531be29b1fe1">Acore::Priority_Realtime</a></div><div class="ttdeci">@ Priority_Realtime</div><div class="ttdef"><b>Definition:</b> Threading.h:52</div></div>
-<div class="ttc" id="aa04424_html_a98ce3c3a6bb5eee03a544054eae9f9f0afe73cf9f67a66d8eeb50511bffc0349f"><div class="ttname"><a href="../../dc/d7e/a04424.html#a98ce3c3a6bb5eee03a544054eae9f9f0afe73cf9f67a66d8eeb50511bffc0349f">Acore::Priority_Highest</a></div><div class="ttdeci">@ Priority_Highest</div><div class="ttdef"><b>Definition:</b> Threading.h:51</div></div>
+<div class="ttc" id="aa04428_html_a98ce3c3a6bb5eee03a544054eae9f9f0a2c1092f67a3addf9410ac00e8a8f62b0"><div class="ttname"><a href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0a2c1092f67a3addf9410ac00e8a8f62b0">Acore::Priority_Lowest</a></div><div class="ttdeci">@ Priority_Lowest</div><div class="ttdef"><b>Definition:</b> Threading.h:47</div></div>
+<div class="ttc" id="aa04428_html_a98ce3c3a6bb5eee03a544054eae9f9f0a6540dbe098806722de7130f0cf978d24"><div class="ttname"><a href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0a6540dbe098806722de7130f0cf978d24">Acore::Priority_Idle</a></div><div class="ttdeci">@ Priority_Idle</div><div class="ttdef"><b>Definition:</b> Threading.h:46</div></div>
+<div class="ttc" id="aa04428_html_a98ce3c3a6bb5eee03a544054eae9f9f0a726dc1791c20e19bbdb47763ffec6cc8"><div class="ttname"><a href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0a726dc1791c20e19bbdb47763ffec6cc8">Acore::Priority_Low</a></div><div class="ttdeci">@ Priority_Low</div><div class="ttdef"><b>Definition:</b> Threading.h:48</div></div>
+<div class="ttc" id="aa04428_html_a98ce3c3a6bb5eee03a544054eae9f9f0a9724af5d135432316625274c94d9d53c"><div class="ttname"><a href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0a9724af5d135432316625274c94d9d53c">Acore::Priority_Normal</a></div><div class="ttdeci">@ Priority_Normal</div><div class="ttdef"><b>Definition:</b> Threading.h:49</div></div>
+<div class="ttc" id="aa04428_html_a98ce3c3a6bb5eee03a544054eae9f9f0ae26951cdc5145b7d4710a65f64fcc15d"><div class="ttname"><a href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0ae26951cdc5145b7d4710a65f64fcc15d">Acore::Priority_High</a></div><div class="ttdeci">@ Priority_High</div><div class="ttdef"><b>Definition:</b> Threading.h:50</div></div>
+<div class="ttc" id="aa04428_html_a98ce3c3a6bb5eee03a544054eae9f9f0aea947a97dfe2d923de21531be29b1fe1"><div class="ttname"><a href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0aea947a97dfe2d923de21531be29b1fe1">Acore::Priority_Realtime</a></div><div class="ttdeci">@ Priority_Realtime</div><div class="ttdef"><b>Definition:</b> Threading.h:52</div></div>
+<div class="ttc" id="aa04428_html_a98ce3c3a6bb5eee03a544054eae9f9f0afe73cf9f67a66d8eeb50511bffc0349f"><div class="ttname"><a href="../../de/dc4/a04428.html#a98ce3c3a6bb5eee03a544054eae9f9f0afe73cf9f67a66d8eeb50511bffc0349f">Acore::Priority_Highest</a></div><div class="ttdeci">@ Priority_Highest</div><div class="ttdef"><b>Definition:</b> Threading.h:51</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00078">m_ThreadImp</a>, <a class="el" href="../../#l00050">Acore::Priority_High</a>, <a class="el" href="../../#l00051">Acore::Priority_Highest</a>, <a class="el" href="../../#l00046">Acore::Priority_Idle</a>, <a class="el" href="../../#l00048">Acore::Priority_Low</a>, <a class="el" href="../../#l00047">Acore::Priority_Lowest</a>, <a class="el" href="../../#l00049">Acore::Priority_Normal</a>, and <a class="el" href="../../#l00052">Acore::Priority_Realtime</a>.</p>
 
@@ -614,8 +614,8 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dc/d7e/a04424.html">Acore</a></li><li class="navelem"><a class="el" href="../../d3/d45/a05057.html">Thread</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 15:55:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../de/dc4/a04428.html">Acore</a></li><li class="navelem"><a class="el" href="../../d3/d45/a05057.html">Thread</a></li>
+    <li class="footer">Generated on Sun Dec 11 2022 11:34:26 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

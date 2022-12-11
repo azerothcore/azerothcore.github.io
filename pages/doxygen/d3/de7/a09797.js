@@ -1,5 +1,5 @@
 var a09797 =
 [
-    [ "GenericGameObjectScript", "d3/de7/a09797.html#a7d1d46c8d325619637aef9b9dc5419f7", null ],
-    [ "GetAI", "d3/de7/a09797.html#ac8e42c8d5259cead0699fd5a849bb46a", null ]
+    [ "FactoryCreatureScript", "d3/de7/a09797.html#a62cd4db9e8dd3dab606f1166fdf0ce44", null ],
+    [ "GetAI", "d3/de7/a09797.html#a0e491e4cda2b03456d798f6726dbde54", null ]
 ];

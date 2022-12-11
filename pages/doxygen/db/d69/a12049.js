@@ -1,5 +1,5 @@
 var a12049 =
 [
-    [ "go_blackened_urn", "db/d69/a12049.html#aaa311353e693a0dd7fd9a6f8e617e0ab", null ],
-    [ "OnGossipHello", "db/d69/a12049.html#af925ee162a8de95780ae2418980e9164", null ]
+    [ "x", "db/d69/a12049.html#ab9da54c8392f7f70405183fe822bed9a", null ],
+    [ "y", "db/d69/a12049.html#ae96c27237c52025cc132615a5c0af3cc", null ]
 ];

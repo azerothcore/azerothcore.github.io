@@ -1,5 +1,6 @@
 var a30033 =
 [
-    [ "ID", "da/d5b/a30033.html#a4f030d8b8b87aff67e0d8319c6b53310", null ],
-    [ "price", "da/d5b/a30033.html#a9b81ec4b4638763b738862d6c184e2a9", null ]
+    [ "AreaGroupId", "da/d5b/a30033.html#a2868a59574e635d5f5859cfa01811151", null ],
+    [ "AreaId", "da/d5b/a30033.html#aabde46a6c77db2c7fb92ca211c86727a", null ],
+    [ "nextGroup", "da/d5b/a30033.html#a1f966f2d6848e8aba2ae3c6bd8120503", null ]
 ];

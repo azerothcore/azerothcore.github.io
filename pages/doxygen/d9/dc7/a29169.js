@@ -1,6 +1,10 @@
 var a29169 =
 [
-    [ "spell_dream_fog_sleep_SpellScript", "dc/d20/a29173.html", "dc/d20/a29173" ],
-    [ "spell_dream_fog_sleep", "d9/dc7/a29169.html#a679dadd5a280cf4e30f6ff611aaff7d7", null ],
-    [ "GetSpellScript", "d9/dc7/a29169.html#aab87f1f4819623d2837970fab7f7a824", null ]
+    [ "boss_emerissAI", "d9/dc7/a29169.html#ad94b3b097d9987e365f91b7e57d0f208", null ],
+    [ "DamageTaken", "d9/dc7/a29169.html#abb80c49c166f31cd7e2d24392fbf60e1", null ],
+    [ "EnterCombat", "d9/dc7/a29169.html#a3c2e2aec49565f46c79203112710c983", null ],
+    [ "ExecuteEvent", "d9/dc7/a29169.html#ad3839ad4b0a930bc96154b5b0aab17fe", null ],
+    [ "KilledUnit", "d9/dc7/a29169.html#ad851169bc09a362137e211dd10d30a1b", null ],
+    [ "Reset", "d9/dc7/a29169.html#a44dfb325c4e8413662052137edc710ef", null ],
+    [ "_stage", "d9/dc7/a29169.html#ae2c8c5c2d2054af41c5dbe938b3eb79a", null ]
 ];

@@ -1,7 +1,8 @@
 var a28425 =
 [
-    [ "HandleDummy", "df/d9c/a28425.html#abc630a0c8274f5f85901b2505ff2ae04", null ],
-    [ "PrepareSpellScript", "df/d9c/a28425.html#af79cd7c2f6ed47a93dbbe17aaca6834f", null ],
-    [ "Register", "df/d9c/a28425.html#a3f1808538acca2742c19f68af9a6fd56", null ],
-    [ "Validate", "df/d9c/a28425.html#a475e1d5d8c70e0edd5957a1e493fd43e", null ]
+    [ "HandleDummy", "df/d9c/a28425.html#a1afcd9c6ab96c87db8aa4899d0830899", null ],
+    [ "Load", "df/d9c/a28425.html#a11d3cd0eccd4895f5cd9d2721bd3fd0c", null ],
+    [ "PrepareSpellScript", "df/d9c/a28425.html#a252784bb4b438750db5ef7f905477140", null ],
+    [ "Register", "df/d9c/a28425.html#ab93554e82cbed0c78452846c95247584", null ],
+    [ "Validate", "df/d9c/a28425.html#a33404726f5e5986b263eb0a0beba9443", null ]
 ];

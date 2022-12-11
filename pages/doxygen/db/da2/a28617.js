@@ -1,8 +1,10 @@
 var a28617 =
 [
-    [ "spell_rog_killing_spree_AuraScript", "da/d71/a28625.html", "da/d71/a28625" ],
-    [ "spell_rog_killing_spree_SpellScript", "dc/d1c/a28621.html", "dc/d1c/a28621" ],
-    [ "spell_rog_killing_spree", "db/da2/a28617.html#a5ccbad5a5401df5eb6124506a6f555e3", null ],
-    [ "GetAuraScript", "db/da2/a28617.html#acf9cb243d57d47dfd416484242d5b45d", null ],
-    [ "GetSpellScript", "db/da2/a28617.html#ac1079a78cad04c762a9a8e77680a5bae", null ]
+    [ "CheckProc", "db/da2/a28617.html#a5971c42af47d1cc8045a130deb218a04", null ],
+    [ "HandleProc", "db/da2/a28617.html#a45aaf5afebc2fa533240fcf8233430ed", null ],
+    [ "Load", "db/da2/a28617.html#a7664b0f67c9e3b14841ed9e30447544d", null ],
+    [ "PrepareAuraScript", "db/da2/a28617.html#a291fcf1af497d1e83a31209cd01a360d", null ],
+    [ "Register", "db/da2/a28617.html#af16d0517ad07a454145da0b92c051740", null ],
+    [ "Validate", "db/da2/a28617.html#ac768a5f4738dee9ad7d885fa6136785e", null ],
+    [ "_procTargetGUID", "db/da2/a28617.html#a13976d069846f29d2f744f3f03502787", null ]
 ];

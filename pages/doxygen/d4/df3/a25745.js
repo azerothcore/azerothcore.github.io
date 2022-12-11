@@ -1,6 +1,7 @@
 var a25745 =
 [
-    [ "HandlePeriodic", "d4/df3/a25745.html#a50e7bec0224199fb293e011023d3a239", null ],
-    [ "PrepareAuraScript", "d4/df3/a25745.html#abdd560c1a797bede164ab4e9a164edd5", null ],
-    [ "Register", "d4/df3/a25745.html#a6e3b642d013c37f31055a090dd9904b3", null ]
+    [ "CastQuill", "d4/df3/a25745.html#a923234809186bcbdf02457f4be095519", null ],
+    [ "Execute", "d4/df3/a25745.html#a26a971a575e4b9503cd1da73d43ebd1e", null ],
+    [ "_caster", "d4/df3/a25745.html#af809b9279aff141ce4007c8d1fbcc331", null ],
+    [ "_spellId", "d4/df3/a25745.html#ad6f7d8eaf69873b0ba57be4189c145cf", null ]
 ];

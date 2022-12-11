@@ -1,7 +1,6 @@
 var a12353 =
 [
-    [ "boss_garaxxasAI", "dd/d54/a12353.html#a024f4dcf3555f3f66338b38c6ea7535c", null ],
-    [ "EnterCombat", "dd/d54/a12353.html#ac94d4a09e0ae3577f2d43f89553df40f", null ],
-    [ "Reset", "dd/d54/a12353.html#aa269c93728a51ae3346418a93ffc7240", null ],
-    [ "UpdateAI", "dd/d54/a12353.html#ae8a921c44ce16fbe420f17006badc783", null ]
+    [ "boss_apokoAI", "d4/dd3/a12357.html", "d4/dd3/a12357" ],
+    [ "boss_apoko", "dd/d54/a12353.html#a5d11c5cbfccf272bd410462e41a0b73e", null ],
+    [ "GetAI", "dd/d54/a12353.html#a80c1002b1b94027a3647f11acc9c4df1", null ]
 ];

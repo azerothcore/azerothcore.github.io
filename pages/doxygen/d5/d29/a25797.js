@@ -1,6 +1,6 @@
 var a25797 =
 [
-    [ "boss_kaelthasAI", "d6/dd6/a25801.html", "d6/dd6/a25801" ],
-    [ "boss_kaelthas", "d5/d29/a25797.html#a690d04e2bfca7b2b17cf7c53c46a6b06", null ],
-    [ "GetAI", "d5/d29/a25797.html#a02de0dcee68dca802606565831e4fc05", null ]
+    [ "spell_astromancer_solarian_transform_AuraScript", "d6/dd6/a25801.html", "d6/dd6/a25801" ],
+    [ "spell_astromancer_solarian_transform", "d5/d29/a25797.html#a5350ac636d5ea6b9e0a46eb315d465ad", null ],
+    [ "GetAuraScript", "d5/d29/a25797.html#aadd4fda6306fe21d359b6b166babf1ca", null ]
 ];

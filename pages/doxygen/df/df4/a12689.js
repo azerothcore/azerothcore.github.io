@@ -1,7 +1,16 @@
 var a12689 =
 [
-    [ "boss_apothecary_hummelAI", "db/d58/a12693.html", "db/d58/a12693" ],
-    [ "boss_apothecary_hummel", "df/df4/a12689.html#af1672c0b7f67d9013e3769a7009c2ee9", null ],
-    [ "GetAI", "df/df4/a12689.html#a87a01f4d6eaac7c5e1795133e8aa1ccd", null ],
-    [ "OnQuestReward", "df/df4/a12689.html#a86d23ff3569e5e86b8787bb3ea7816c7", null ]
+    [ "boss_apothecary_hummelAI", "df/df4/a12689.html#a75796eb8dc83729f2f726ff51317bd66", null ],
+    [ "DamageTaken", "df/df4/a12689.html#a2af77fbe7f089b5da20d2ff693cfcedf", null ],
+    [ "DoAction", "df/df4/a12689.html#a03fb543ba20f92d5528bf4667c457631", null ],
+    [ "JustDied", "df/df4/a12689.html#a3c7bc5f9aa04f155debbdacafed6163d", null ],
+    [ "JustSummoned", "df/df4/a12689.html#ab67899e51112c39ad1231436dbb7321d", null ],
+    [ "Reset", "df/df4/a12689.html#a31381343d2533af670941baf872b3635", null ],
+    [ "sGossipSelect", "df/df4/a12689.html#a1a9953c37286fd40c0aa0eebfec3eb86", null ],
+    [ "SummonedCreatureDies", "df/df4/a12689.html#a8947cbd1c2856334a0d6529bc664f71b", null ],
+    [ "UpdateAI", "df/df4/a12689.html#a61e4d85ecd592142ba07588512505990", null ],
+    [ "_deadCount", "df/df4/a12689.html#aaac2018e16b80997f884745732605559", null ],
+    [ "_isDead", "df/df4/a12689.html#aa3c37a38b95c6b3bec4e3b787d2155df", null ],
+    [ "_phase", "df/df4/a12689.html#a951d68d4e645860cdb5c5e348bf1fff4", null ],
+    [ "_scheduler", "df/df4/a12689.html#a4453293c03cbc72395231cf9bff40935", null ]
 ];

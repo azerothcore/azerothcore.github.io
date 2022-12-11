@@ -1,7 +1,6 @@
 var a13493 =
 [
-    [ "npc_jaina_proudmoore_bfuAI", "d6/d4e/a13493.html#ad5ad1d05ef8210409c700e47b5442e24", null ],
-    [ "Reset", "d6/d4e/a13493.html#a18de805428ce0954a5fbfffbf5975342", null ],
-    [ "UpdateAI", "d6/d4e/a13493.html#a48b191d0812bfe3212511a52ef0df817", null ],
-    [ "_events", "d6/d4e/a13493.html#a87e99e0b5fd0a3823b009025019b1fa4", null ]
+    [ "boss_blight_wormAI", "d5/d8c/a13497.html", "d5/d8c/a13497" ],
+    [ "boss_blight_worm", "d6/d4e/a13493.html#a6dea51baebc6b44ef94342565136e56d", null ],
+    [ "GetAI", "d6/d4e/a13493.html#a1cb9043482e9b3c3eff3fd75057a2fb2", null ]
 ];

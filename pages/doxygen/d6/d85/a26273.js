@@ -1,6 +1,6 @@
 var a26273 =
 [
-    [ "npc_mature_netherwing_drakeAI", "d1/dc4/a26277.html", "d1/dc4/a26277" ],
-    [ "npc_mature_netherwing_drake", "d6/d85/a26273.html#a3369bd143ff9e46a4ad4c44b6d8c0ec5", null ],
-    [ "GetAI", "d6/d85/a26273.html#ac5a1dad24920396156f22ab02bfab84b", null ]
+    [ "npc_infernal_attackerAI", "d1/dc4/a26277.html", "d1/dc4/a26277" ],
+    [ "npc_infernal_attacker", "d6/d85/a26273.html#ac6fbfcf8fc918b48d6b9416a71cfe3fa", null ],
+    [ "GetAI", "d6/d85/a26273.html#ad1d9186c186de36efbe102a07fe89de4", null ]
 ];

@@ -1,9 +1,8 @@
 var a27861 =
 [
-    [ "CheckProc", "dd/d2e/a27861.html#a185159a5c83e8c65ef5b82f49a89dd8a", null ],
-    [ "HandleProc", "dd/d2e/a27861.html#a67db21e0293f336a31bf518c0fac85d1", null ],
-    [ "OnRemove", "dd/d2e/a27861.html#a1b51483738d5d3b73f50a78ef9fc1c57", null ],
-    [ "PrepareAuraScript", "dd/d2e/a27861.html#a3e549b8764c0f8efc5d110543c9944c7", null ],
-    [ "Register", "dd/d2e/a27861.html#abc4b88f104253b2b141ab0e3e22ee338", null ],
-    [ "Validate", "dd/d2e/a27861.html#a0b5b97081b7c897d451ef70c810bd7f1", null ]
+    [ "CheckProc", "dd/d2e/a27861.html#a8b3f8cf17dda2322d0e9f8f4211cbd20", null ],
+    [ "HandleProc", "dd/d2e/a27861.html#ae034bd626880858c9701ed963de993c9", null ],
+    [ "isException", "dd/d2e/a27861.html#aa5f4fcd1b9b710e2931460207cfc6dea", null ],
+    [ "PrepareAuraScript", "dd/d2e/a27861.html#a50348fd27947f67df03bf4ddbec89cca", null ],
+    [ "Register", "dd/d2e/a27861.html#aaa14b34ac54b4caee76ff72d07dd5c2d", null ]
 ];

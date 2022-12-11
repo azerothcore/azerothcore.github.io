@@ -1,6 +1,6 @@
 var a13821 =
 [
-    [ "OnEffect", "d1/da2/a13821.html#a50c7e1c65315b5d46749b335e85e15e4", null ],
-    [ "PrepareSpellScript", "d1/da2/a13821.html#ab99c723bb71c5fdd844898eaf21cc520", null ],
-    [ "Register", "d1/da2/a13821.html#a892faa83f748d36c9c8638a12ac7f2aa", null ]
+    [ "boss_grilekAI", "db/da2/a13825.html", "db/da2/a13825" ],
+    [ "boss_grilek", "d1/da2/a13821.html#acffe0061db18c5725c8c290822c5fed7", null ],
+    [ "GetAI", "d1/da2/a13821.html#aa346fa8807069d8fc94bd4d81a014c76", null ]
 ];

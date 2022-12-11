@@ -1,14 +1,18 @@
 var a25997 =
 [
-    [ "npc_deaths_door_fell_cannon_target_bunnyAI", "d6/df3/a25997.html#a258f55153ad857fbf35545cfb87c3d3a", null ],
-    [ "Initialize", "d6/df3/a25997.html#a187340b00067f2f65a7e48845a6edaba", null ],
-    [ "JustSummoned", "d6/df3/a25997.html#a10a3b9b4a2763bac4c9fe5f680850052", null ],
-    [ "Reset", "d6/df3/a25997.html#a92a6cbe0515752440284d18bae0adf66", null ],
-    [ "SpellHit", "d6/df3/a25997.html#a517f7412208de83604d0d6806fbc0b34", null ],
-    [ "UpdateAI", "d6/df3/a25997.html#ab4fb75f1b84c2722f936387a6942028b", null ],
-    [ "CannonGUID", "d6/df3/a25997.html#a220e111467cfb6f02e996f012123e09b", null ],
-    [ "count", "d6/df3/a25997.html#ac78f94033239dcf247be9a48d0535081", null ],
-    [ "events", "d6/df3/a25997.html#acf362c9e3eb844db9f66cc8c969cd22e", null ],
-    [ "PartyTime", "d6/df3/a25997.html#a1780c656fb539be6dcd74e271cea4c53", null ],
-    [ "PlayerGUID", "d6/df3/a25997.html#a686314ffe4a588a1ba8722a6cab56fc7", null ]
+    [ "instance_mechanar_InstanceMapScript", "d6/df3/a25997.html#a728d427162c0f56e7d229c55ff88bfbd", null ],
+    [ "DoSummonAction", "d6/df3/a25997.html#a97920eeb062c29e9d22a0d690e937f81", null ],
+    [ "GetPassagePlayer", "d6/df3/a25997.html#a4f4f6c0dcbaa1ab2fab0d6a3c042d678", null ],
+    [ "GetSaveData", "d6/df3/a25997.html#ae4d587e37ed4cb36295ad1bd68e69eaf", null ],
+    [ "Load", "d6/df3/a25997.html#a9e8f1b838f9e43a75e23a3115c5407e1", null ],
+    [ "OnCreatureCreate", "d6/df3/a25997.html#aa0c6a84a6ace9299b18f0cc54263b398", null ],
+    [ "OnGameObjectCreate", "d6/df3/a25997.html#a236a8c67ca57ffc7d2161c00e8acbd64", null ],
+    [ "OnGameObjectRemove", "d6/df3/a25997.html#ac79c4f1dad7f2caf1278e242ec8fadc9", null ],
+    [ "OnUnitDeath", "d6/df3/a25997.html#a9e4d734d630c7a90d50a4d0e5e14dd67", null ],
+    [ "SetBossState", "d6/df3/a25997.html#a67920f2d166185534fde9e7fbfb2f490", null ],
+    [ "Update", "d6/df3/a25997.html#a7fc88ed86d65163caca4b4a671a40a34", null ],
+    [ "_passageEncounter", "d6/df3/a25997.html#aada6203e0926b21375b09c87631e5729", null ],
+    [ "_passageGUIDs", "d6/df3/a25997.html#a0876447f4010326722748b5d2f4e4eff", null ],
+    [ "_passageTimer", "d6/df3/a25997.html#aa6893f629a75f891967d80f3d5c3a9ce", null ],
+    [ "_pathaleonGUID", "d6/df3/a25997.html#aaf5c80af5ba2ba46b3c53ccffaaa1d3b", null ]
 ];

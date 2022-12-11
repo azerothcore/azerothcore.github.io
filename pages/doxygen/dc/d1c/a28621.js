@@ -1,9 +1,10 @@
 var a28621 =
 [
-    [ "CheckCast", "dc/d1c/a28621.html#a4db55f88e5809fa276f23b0c9fa35b8c", null ],
-    [ "FilterTargets", "dc/d1c/a28621.html#a0c5c6639d037e5358203b5a0b887dcff", null ],
-    [ "HandleDummy", "dc/d1c/a28621.html#a285291223fdfd499627337c03228172a", null ],
-    [ "PrepareSpellScript", "dc/d1c/a28621.html#a3a5b04c93e1afdf2a890b2f365759589", null ],
-    [ "Register", "dc/d1c/a28621.html#a04f8a563276d2c9c88087ef1f42af193", null ],
-    [ "Validate", "dc/d1c/a28621.html#a79dd4ae6102bda0438fb8b9272456b9f", null ]
+    [ "Absorb", "dc/d1c/a28621.html#aedee311aa77597674b3665eaf74e98c8", null ],
+    [ "CalculateAmount", "dc/d1c/a28621.html#a5fdabb367ab86589d733d1da906446ab", null ],
+    [ "Load", "dc/d1c/a28621.html#a7418b17f23b9eeacceb0970df3cb1d99", null ],
+    [ "PrepareAuraScript", "dc/d1c/a28621.html#a1de52fae7a5ed3eeeb46be11eb2eac21", null ],
+    [ "Register", "dc/d1c/a28621.html#abfc540163e9eb34cbf8a48d39bede840", null ],
+    [ "Validate", "dc/d1c/a28621.html#a6cca564b6d13063ce7cd72ed8b6adf67", null ],
+    [ "absorbChance", "dc/d1c/a28621.html#a293be81af42d810126eda35b1d27e3bc", null ]
 ];

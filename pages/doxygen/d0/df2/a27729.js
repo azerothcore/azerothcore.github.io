@@ -1,6 +1,6 @@
 var a27729 =
 [
-    [ "HandleSummon", "d0/df2/a27729.html#ad1ee0eb347454d50216610a266226d68", null ],
-    [ "PrepareSpellScript", "d0/df2/a27729.html#a15a545ee3ec4a926f1330ce0ad975d3e", null ],
-    [ "Register", "d0/df2/a27729.html#aa145041af68291f107c3ff11ce15b85e", null ]
+    [ "HandlePeriodicTick", "d0/df2/a27729.html#a1bd15727da421fdbfc3a60136bfa9bc9", null ],
+    [ "PrepareAuraScript", "d0/df2/a27729.html#a1c4f592511c8886d0b9a5e64eb19cda7", null ],
+    [ "Register", "d0/df2/a27729.html#ac019a52a6f62f1251d20efcfadba1e78", null ]
 ];

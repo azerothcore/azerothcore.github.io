@@ -1,6 +1,6 @@
 var a13077 =
 [
-    [ "FilterTargets", "d3/da8/a13077.html#ab29870380b3957ad74660b896449c568", null ],
-    [ "PrepareSpellScript", "d3/da8/a13077.html#ad40bc7ea1968bd353038747a05cf2d91", null ],
-    [ "Register", "d3/da8/a13077.html#a5cabcbebaaf8a128ecd3c5738c6abfa4", null ]
+    [ "spell_kiljaeden_flame_dart_SpellScript", "d6/d37/a13081.html", "d6/d37/a13081" ],
+    [ "spell_kiljaeden_flame_dart", "d3/da8/a13077.html#ab8528612a0a12872412336c0b98cbd5c", null ],
+    [ "GetSpellScript", "d3/da8/a13077.html#a2a8057853081234af80909f86cea5b4e", null ]
 ];

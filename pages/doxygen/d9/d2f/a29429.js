@@ -1,5 +1,5 @@
 var a29429 =
 [
-    [ "item_mysterious_egg", "d9/d2f/a29429.html#ac32e296dcb700f32f6d0296f2921e6c7", null ],
-    [ "OnExpire", "d9/d2f/a29429.html#a5ea72284626826b75819f89b3b91c540", null ]
+    [ "item_nether_wraith_beacon", "d9/d2f/a29429.html#a4ec93f7dae8fd70009ccb4c9f2e75414", null ],
+    [ "OnUse", "d9/d2f/a29429.html#aa90cddf8135fa9a313026c091be4ee28", null ]
 ];

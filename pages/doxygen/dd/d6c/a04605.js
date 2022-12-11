@@ -1,8 +1,8 @@
 var a04605 =
 [
-    [ "AreaInfo", "df/d99/a04609.html", "df/d99/a04609" ],
-    [ "LiquidInfo", "d4/dd9/a04613.html", "d4/dd9/a04613" ],
-    [ "areaInfo", "dd/d6c/a04605.html#a0d30ac3fa0cefd6eafc1690c75f46f0f", null ],
-    [ "floorZ", "dd/d6c/a04605.html#af7c8710b5d296c1d792b4fc34302278f", null ],
-    [ "liquidInfo", "dd/d6c/a04605.html#ae59e1e7fdf4913c48a0d82e1d19366a7", null ]
+    [ "IMMapMgr", "dd/d6c/a04605.html#a2292f2bdacfc627ab33f02d399221ad5", null ],
+    [ "~IMMapMgr", "dd/d6c/a04605.html#a8298d6b3fbce5ccd835af3c287c361b6", null ],
+    [ "isEnablePathFinding", "dd/d6c/a04605.html#a5d6bcb413c39e82da8e4924c4754c8b0", null ],
+    [ "setEnablePathFinding", "dd/d6c/a04605.html#afdc7e829a374c20b4d072290363c7c62", null ],
+    [ "iEnablePathFinding", "dd/d6c/a04605.html#a25f8900f4546990562fb048e956bb1e0", null ]
 ];
