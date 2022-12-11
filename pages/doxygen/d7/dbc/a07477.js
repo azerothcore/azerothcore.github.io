@@ -1,4 +1,5 @@
 var a07477 =
 [
-    [ "Name", "d7/dbc/a07477.html#a624a1c1204cbc15acfc810a7720b8ea0", null ]
+    [ "BoxText", "d7/dbc/a07477.html#a00882f98df67222d396ae9992084a1cd", null ],
+    [ "OptionText", "d7/dbc/a07477.html#ab69f2dac8061cf8f6762a683243934fa", null ]
 ];

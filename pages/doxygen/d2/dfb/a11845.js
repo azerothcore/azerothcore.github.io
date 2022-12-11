@@ -1,6 +1,6 @@
 var a11845 =
 [
-    [ "HandleHit", "d2/dfb/a11845.html#a99ea80788e2873dba87f6c6c72fa6f73", null ],
-    [ "PrepareSpellScript", "d2/dfb/a11845.html#adfaeb84d83a48250c636bc8ef98bcb8c", null ],
-    [ "Register", "d2/dfb/a11845.html#a2142c21b5f2abf968cc8eac953779f1d", null ]
+    [ "boss_ragnarosAI", "d6/d47/a11849.html", "d6/d47/a11849" ],
+    [ "boss_ragnaros", "d2/dfb/a11845.html#a47bd4dc50a0d05e8cbb75c1a5a52c9b5", null ],
+    [ "GetAI", "d2/dfb/a11845.html#af54e36608e160811ca06952fd2c63f6e", null ]
 ];

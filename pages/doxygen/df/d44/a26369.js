@@ -1,8 +1,11 @@
 var a26369 =
 [
-    [ "npc_raliq_the_drunkAI", "df/d44/a26369.html#ae6fedcbfa5e39299e467416832196d96", null ],
-    [ "Reset", "df/d44/a26369.html#a5b9fb7842a4b1c956d1590e22dba0561", null ],
-    [ "UpdateAI", "df/d44/a26369.html#aebe80d473ac5669abe5e64f5058a35ed", null ],
-    [ "m_uiNormFaction", "df/d44/a26369.html#abbc73091eb0108194565773229a8a096", null ],
-    [ "Uppercut_Timer", "df/d44/a26369.html#abb1031466c39d18a385d86d79500ff01", null ]
+    [ "npc_shadowmoon_tuber_nodeAI", "df/d44/a26369.html#af24a8d5ead256d158c86379e032aa889", null ],
+    [ "Reset", "df/d44/a26369.html#a9bcbd0b0b6b12058a8356ce274b6a597", null ],
+    [ "SetData", "df/d44/a26369.html#aca6ad097bd7b8e5f1a0cde6bdebb23ad", null ],
+    [ "SpellHit", "df/d44/a26369.html#a14523a24042d23efbafc7924f394dd04", null ],
+    [ "UpdateAI", "df/d44/a26369.html#ae5cd38aa2a9cc1727141298323639660", null ],
+    [ "resetTimer", "df/d44/a26369.html#a0d2649de651279fa6bbe3ae2f18571bb", null ],
+    [ "tapped", "df/d44/a26369.html#af6412de701f14a7eb325e1aaf33f28cc", null ],
+    [ "tuberGUID", "df/d44/a26369.html#a2deaa1aeed26b862e93055d90c9139d6", null ]
 ];

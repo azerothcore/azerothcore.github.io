@@ -115,14 +115,14 @@ $(document).ready(function(){initNavTree('d8/d76/a18689.html','../../'); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac01f20b199bb0ee63b9c8f8206321057"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d76/a18689.html#ac01f20b199bb0ee63b9c8f8206321057">LastPhaseIceTombTargetSelector</a> (<a class="el" href="../../d7/dc5/a07437.html">Creature</a> *source)</td></tr>
+<tr class="memitem:ac01f20b199bb0ee63b9c8f8206321057"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d76/a18689.html#ac01f20b199bb0ee63b9c8f8206321057">LastPhaseIceTombTargetSelector</a> (<a class="el" href="../../d8/d3b/a07441.html">Creature</a> *source)</td></tr>
 <tr class="separator:ac01f20b199bb0ee63b9c8f8206321057"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92a846ff557334b1f30d8e062a2c64e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d76/a18689.html#a92a846ff557334b1f30d8e062a2c64e9">operator()</a> (<a class="el" href="../../df/d37/a08189.html">Unit</a> const *target) const</td></tr>
+<tr class="memitem:a92a846ff557334b1f30d8e062a2c64e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d76/a18689.html#a92a846ff557334b1f30d8e062a2c64e9">operator()</a> (<a class="el" href="../../d9/d8d/a08193.html">Unit</a> const *target) const</td></tr>
 <tr class="separator:a92a846ff557334b1f30d8e062a2c64e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ab10d10dd0de7717078d31ac026d4c933"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dc5/a07437.html">Creature</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d76/a18689.html#ab10d10dd0de7717078d31ac026d4c933">_source</a></td></tr>
+<tr class="memitem:ab10d10dd0de7717078d31ac026d4c933"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d3b/a07441.html">Creature</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d76/a18689.html#ab10d10dd0de7717078d31ac026d4c933">_source</a></td></tr>
 <tr class="separator:ab10d10dd0de7717078d31ac026d4c933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -139,7 +139,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">LastPhaseIceTombTargetSelector::LastPhaseIceTombTargetSelector </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dc5/a07437.html">Creature</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d3b/a07441.html">Creature</a> *&#160;</td>
           <td class="paramname"><em>source</em></td><td>)</td>
           <td></td>
         </tr>
@@ -168,7 +168,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool LastPhaseIceTombTargetSelector::operator() </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d37/a08189.html">Unit</a> const *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d8d/a08193.html">Unit</a> const *&#160;</td>
           <td class="paramname"><em>target</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -192,10 +192,10 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  256</span>        <span class="keywordflow">if</span> (target-&gt;HasAura(<a class="code hl_enumvalue" href="../../df/df7/a03416.html#aa95b79e156766fc09a64d3217691f0d2aa66c1da9054c9537f93429076211aec9">SPELL_FROST_IMBUED_BLADE</a>))</div>
 <div class="line"><span class="lineno">  257</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  258</span> </div>
-<div class="line"><span class="lineno">  259</span>        <span class="keywordflow">if</span> (target-&gt;IsImmunedToDamageOrSchool(<a class="code hl_enumvalue" href="../../d9/d4e/a04307.html#aff6913cfd69489c107a071be9ec2ec8fa65c125a1722e326c066d8aa1350911c8">SPELL_SCHOOL_MASK_ALL</a>) || target-&gt;HasAura(<a class="code hl_enumvalue" href="../../df/df7/a03416.html#a5bd342133be8c2137b831460acc9298ca63bd8724211948a800fccae9a1769a28">SPELL_ICE_TOMB_UNTARGETABLE</a>) || target-&gt;HasAura(<a class="code hl_enumvalue" href="../../df/df7/a03416.html#a5bd342133be8c2137b831460acc9298ca40c273d24661de99cb950a82007a7d25">SPELL_ICE_TOMB_DAMAGE</a>) || target-&gt;HasAura(<a class="code hl_enumvalue" href="../../df/df7/a03416.html#a5bd342133be8c2137b831460acc9298ca5a9cfb30554823d5b6f748a63e4f63cb">SPELL_TANK_MARKER_AURA</a>) || target-&gt;HasAuraType(<a class="code hl_enumvalue" href="../../d9/dff/a02099.html#a538cdc259460b365f406fe0b3a981799a5b09d71c8d286bff5c7cfd7ccec9a5f3">SPELL_AURA_SPIRIT_OF_REDEMPTION</a>))</div>
+<div class="line"><span class="lineno">  259</span>        <span class="keywordflow">if</span> (target-&gt;IsImmunedToDamageOrSchool(<a class="code hl_enumvalue" href="../../d2/dfc/a04310.html#aff6913cfd69489c107a071be9ec2ec8fa65c125a1722e326c066d8aa1350911c8">SPELL_SCHOOL_MASK_ALL</a>) || target-&gt;HasAura(<a class="code hl_enumvalue" href="../../df/df7/a03416.html#a5bd342133be8c2137b831460acc9298ca63bd8724211948a800fccae9a1769a28">SPELL_ICE_TOMB_UNTARGETABLE</a>) || target-&gt;HasAura(<a class="code hl_enumvalue" href="../../df/df7/a03416.html#a5bd342133be8c2137b831460acc9298ca40c273d24661de99cb950a82007a7d25">SPELL_ICE_TOMB_DAMAGE</a>) || target-&gt;HasAura(<a class="code hl_enumvalue" href="../../df/df7/a03416.html#a5bd342133be8c2137b831460acc9298ca5a9cfb30554823d5b6f748a63e4f63cb">SPELL_TANK_MARKER_AURA</a>) || target-&gt;HasAuraType(<a class="code hl_enumvalue" href="../../d9/dff/a02099.html#a538cdc259460b365f406fe0b3a981799a5b09d71c8d286bff5c7cfd7ccec9a5f3">SPELL_AURA_SPIRIT_OF_REDEMPTION</a>))</div>
 <div class="line"><span class="lineno">  260</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  261</span> </div>
-<div class="line"><span class="lineno">  262</span>        <span class="keywordflow">return</span> target != <a class="code hl_variable" href="../../d8/d76/a18689.html#ab10d10dd0de7717078d31ac026d4c933">_source</a>-&gt;<a class="code hl_function" href="../../df/d37/a08189.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>();</div>
+<div class="line"><span class="lineno">  262</span>        <span class="keywordflow">return</span> target != <a class="code hl_variable" href="../../d8/d76/a18689.html#ab10d10dd0de7717078d31ac026d4c933">_source</a>-&gt;<a class="code hl_function" href="../../d9/d8d/a08193.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>();</div>
 <div class="line"><span class="lineno">  263</span>    }</div>
 <div class="ttc" id="aa01208_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d31/a01208.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
 <div class="ttc" id="aa02099_html_a538cdc259460b365f406fe0b3a981799a5b09d71c8d286bff5c7cfd7ccec9a5f3"><div class="ttname"><a href="../../d9/dff/a02099.html#a538cdc259460b365f406fe0b3a981799a5b09d71c8d286bff5c7cfd7ccec9a5f3">SPELL_AURA_SPIRIT_OF_REDEMPTION</a></div><div class="ttdeci">@ SPELL_AURA_SPIRIT_OF_REDEMPTION</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:239</div></div>
@@ -203,10 +203,10 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aa03416_html_a5bd342133be8c2137b831460acc9298ca5a9cfb30554823d5b6f748a63e4f63cb"><div class="ttname"><a href="../../df/df7/a03416.html#a5bd342133be8c2137b831460acc9298ca5a9cfb30554823d5b6f748a63e4f63cb">SPELL_TANK_MARKER_AURA</a></div><div class="ttdeci">@ SPELL_TANK_MARKER_AURA</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:49</div></div>
 <div class="ttc" id="aa03416_html_a5bd342133be8c2137b831460acc9298ca63bd8724211948a800fccae9a1769a28"><div class="ttname"><a href="../../df/df7/a03416.html#a5bd342133be8c2137b831460acc9298ca63bd8724211948a800fccae9a1769a28">SPELL_ICE_TOMB_UNTARGETABLE</a></div><div class="ttdeci">@ SPELL_ICE_TOMB_UNTARGETABLE</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:65</div></div>
 <div class="ttc" id="aa03416_html_aa95b79e156766fc09a64d3217691f0d2aa66c1da9054c9537f93429076211aec9"><div class="ttname"><a href="../../df/df7/a03416.html#aa95b79e156766fc09a64d3217691f0d2aa66c1da9054c9537f93429076211aec9">SPELL_FROST_IMBUED_BLADE</a></div><div class="ttdeci">@ SPELL_FROST_IMBUED_BLADE</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:95</div></div>
-<div class="ttc" id="aa04307_html_aff6913cfd69489c107a071be9ec2ec8fa65c125a1722e326c066d8aa1350911c8"><div class="ttname"><a href="../../d9/d4e/a04307.html#aff6913cfd69489c107a071be9ec2ec8fa65c125a1722e326c066d8aa1350911c8">SPELL_SCHOOL_MASK_ALL</a></div><div class="ttdeci">@ SPELL_SCHOOL_MASK_ALL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:287</div></div>
-<div class="ttc" id="aa08189_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../df/d37/a08189.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aa04310_html_aff6913cfd69489c107a071be9ec2ec8fa65c125a1722e326c066d8aa1350911c8"><div class="ttname"><a href="../../d2/dfc/a04310.html#aff6913cfd69489c107a071be9ec2ec8fa65c125a1722e326c066d8aa1350911c8">SPELL_SCHOOL_MASK_ALL</a></div><div class="ttdeci">@ SPELL_SCHOOL_MASK_ALL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:287</div></div>
+<div class="ttc" id="aa08193_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../d9/d8d/a08193.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00266">_source</a>, <a class="el" href="../../#l00178">Position::GetExactDist()</a>, <a class="el" href="../../#l00121">Object::GetTypeId()</a>, <a class="el" href="../../#l01386">Unit::GetVictim()</a>, <a class="el" href="../../#l06454">Unit::HasAura()</a>, <a class="el" href="../../#l06461">Unit::HasAuraType()</a>, <a class="el" href="../../#l13661">Unit::IsImmunedToDamageOrSchool()</a>, <a class="el" href="../../#l00239">SPELL_AURA_SPIRIT_OF_REDEMPTION</a>, <a class="el" href="../../#l00095">SPELL_FROST_IMBUED_BLADE</a>, <a class="el" href="../../#l00066">SPELL_ICE_TOMB_DAMAGE</a>, <a class="el" href="../../#l00065">SPELL_ICE_TOMB_UNTARGETABLE</a>, <a class="el" href="../../#l00287">SPELL_SCHOOL_MASK_ALL</a>, <a class="el" href="../../#l00049">SPELL_TANK_MARKER_AURA</a>, and <a class="el" href="../../#l00038">TYPEID_PLAYER</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00266">_source</a>, <a class="el" href="../../#l00178">Position::GetExactDist()</a>, <a class="el" href="../../#l00121">Object::GetTypeId()</a>, <a class="el" href="../../#l01386">Unit::GetVictim()</a>, <a class="el" href="../../#l05598">Unit::HasAura()</a>, <a class="el" href="../../#l05605">Unit::HasAuraType()</a>, <a class="el" href="../../#l12805">Unit::IsImmunedToDamageOrSchool()</a>, <a class="el" href="../../#l00239">SPELL_AURA_SPIRIT_OF_REDEMPTION</a>, <a class="el" href="../../#l00095">SPELL_FROST_IMBUED_BLADE</a>, <a class="el" href="../../#l00066">SPELL_ICE_TOMB_DAMAGE</a>, <a class="el" href="../../#l00065">SPELL_ICE_TOMB_UNTARGETABLE</a>, <a class="el" href="../../#l00287">SPELL_SCHOOL_MASK_ALL</a>, <a class="el" href="../../#l00049">SPELL_TANK_MARKER_AURA</a>, and <a class="el" href="../../#l00038">TYPEID_PLAYER</a>.</p>
 
 </div>
 </div>
@@ -221,7 +221,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/dc5/a07437.html">Creature</a> const* LastPhaseIceTombTargetSelector::_source</td>
+          <td class="memname"><a class="el" href="../../d8/d3b/a07441.html">Creature</a> const* LastPhaseIceTombTargetSelector::_source</td>
         </tr>
       </table>
   </td>
@@ -241,7 +241,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d76/a18689.html">LastPhaseIceTombTargetSelector</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 15:54:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sun Dec 11 2022 11:33:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

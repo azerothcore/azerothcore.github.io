@@ -1,8 +1,6 @@
 var a13601 =
 [
-    [ "boss_hexlord_addAI", "d5/d78/a13601.html#aab2d333b32ab28fb6914763c7b7f9c19", null ],
-    [ "EnterCombat", "d5/d78/a13601.html#a81f3f54c980f916fb0dbe76c9278ea68", null ],
-    [ "Reset", "d5/d78/a13601.html#aa2003900c4b6cadc54b8643990ebe86b", null ],
-    [ "UpdateAI", "d5/d78/a13601.html#a0ec76f64ad72a1c11ab838dd9b812675", null ],
-    [ "instance", "d5/d78/a13601.html#a0ac32c9043dbebdc13ee245245e9cfc9", null ]
+    [ "boss_hex_lord_malacrassAI", "db/d51/a13605.html", "db/d51/a13605" ],
+    [ "boss_hexlord_malacrass", "d5/d78/a13601.html#a844c7d61a86906672a61d8d8621176dc", null ],
+    [ "GetAI", "d5/d78/a13601.html#accf980cf46caf6facd5249688f0c72f4", null ]
 ];

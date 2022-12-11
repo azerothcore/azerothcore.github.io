@@ -1,10 +1,6 @@
 var a10469 =
 [
-    [ "TriggeredByAuraSpellData", "da/dca/a10469.html#a3f4704eed73af1e37a3d09434cfcddae", null ],
-    [ "Init", "da/dca/a10469.html#a782e0056967e006748318af3112c0e43", null ],
-    [ "operator bool", "da/dca/a10469.html#a85d4782b76b060c172aaa6f914d400da", null ],
-    [ "operator!", "da/dca/a10469.html#af7290a4c37b1829a98e436486fa8b6cd", null ],
-    [ "effectIndex", "da/dca/a10469.html#a9bbee8d48d4beb8a21721a10e0380c41", null ],
-    [ "spellInfo", "da/dca/a10469.html#af58f62fb168e9da7011f7b570f08e977", null ],
-    [ "tickNumber", "da/dca/a10469.html#afbb1ffd006dc6eb00ccd65add87b1b22", null ]
+    [ "ChannelTargetData", "da/dca/a10469.html#a26f2a2037750712d8718d9537603e3a1", null ],
+    [ "channelGUID", "da/dca/a10469.html#afad1c896d6a137ebb224fd636ba4d7f2", null ],
+    [ "spellDst", "da/dca/a10469.html#aa5cfec093a599f4bf33ebf0c73a2f4ac", null ]
 ];

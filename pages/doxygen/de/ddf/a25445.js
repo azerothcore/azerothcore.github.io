@@ -1,12 +1,13 @@
 var a25445 =
 [
-    [ "boss_nazanAI", "de/ddf/a25445.html#aee7b37fa6c3316ade01538dfb0d3accf", null ],
-    [ "AttackStart", "de/ddf/a25445.html#ae1a52f69cbf0477aec76e86889696909", null ],
-    [ "DoAction", "de/ddf/a25445.html#a401fc024bdc9d9b25488652073d82d3b", null ],
-    [ "EnterCombat", "de/ddf/a25445.html#a98d9cdd383a91c53c4ea06e1340ff025", null ],
-    [ "EnterEvadeMode", "de/ddf/a25445.html#adcf0afcfe561abd638301004f485ddef", null ],
-    [ "MovementInform", "de/ddf/a25445.html#a94aea90ccbd07135df818f9cd05f7e05", null ],
-    [ "Reset", "de/ddf/a25445.html#a9b887a22bdeb578533630b1a208ffb58", null ],
-    [ "UpdateAI", "de/ddf/a25445.html#ab2cddc8e92400febfa054ac5aa2fa48f", null ],
-    [ "events", "de/ddf/a25445.html#a9f32e6ebee2428f6b4ed8fa6fd8800fc", null ]
+    [ "boss_vazruden_the_heraldAI", "de/ddf/a25445.html#a5ff7840871b32d13295a432cd0c6d1f7", null ],
+    [ "AttackStart", "de/ddf/a25445.html#a287383ebab73046f52d368e0fc60c5f2", null ],
+    [ "JustDied", "de/ddf/a25445.html#a6e17be04cba14d868151e9d819788afc", null ],
+    [ "JustSummoned", "de/ddf/a25445.html#a3082af503b1cf23bfdf7d9c1f966d95d", null ],
+    [ "MovementInform", "de/ddf/a25445.html#a6118f889ae4ae849b6d9e0baa040c1c1", null ],
+    [ "Reset", "de/ddf/a25445.html#ad29e605747fb8ea9bb32a50b7b60207d", null ],
+    [ "SetData", "de/ddf/a25445.html#a6111b1341e2aa1bb3c6163e6fbe29d5d", null ],
+    [ "SummonedCreatureDespawn", "de/ddf/a25445.html#a045070d72ed461c807bbcb4a08a98b18", null ],
+    [ "SummonedCreatureDies", "de/ddf/a25445.html#a6d8650c7dff5058ba8bfc06208f433be", null ],
+    [ "UpdateAI", "de/ddf/a25445.html#aa803fc34191ec8b82ada83290053206f", null ]
 ];

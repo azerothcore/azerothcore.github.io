@@ -1,6 +1,6 @@
 var a26485 =
 [
-    [ "npc_infested_root_walkerAI", "d0/de4/a26489.html", "d0/de4/a26489" ],
-    [ "npc_infested_root_walker", "de/d72/a26485.html#adbd4a8ccf6375e7546a1ec8aeeb5366b", null ],
-    [ "GetAI", "de/d72/a26485.html#a2f3445e6d7f7f1060be71c1f34f3e2fe", null ]
+    [ "npc_unkor_the_ruthlessAI", "d0/de4/a26489.html", "d0/de4/a26489" ],
+    [ "npc_unkor_the_ruthless", "de/d72/a26485.html#a4eb173932f39c5503d1db91d55f3a5b7", null ],
+    [ "GetAI", "de/d72/a26485.html#a552a19b9a48e90f3b093e2b9e16ec867", null ]
 ];

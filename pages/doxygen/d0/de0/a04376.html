@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/tools/vmap4_extractor/adtfile.h File Reference</title>
+<title>AzeorthCore: D:/azerothcore-wotlk/src/tools/vmap4_extractor/adtfile.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,44 +106,29 @@ $(document).ready(function(){initNavTree('d0/de0/a04376.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">adtfile.h File Reference</div></div>
+  <div class="headertitle"><div class="title">adtfile.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">model.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">mpq_libmpq04.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">wmo.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">adtfile.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">vmapexport.h</a>&quot;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;cstdio&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5b/a30705.html">ADT::MDDF</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8b/a30709.html">ADT::MODF</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dcf/a30713.html">ADTFile</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:de/da6/a04504"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da6/a04504.html">ADT</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a05f8969fb6d17548033afc24b906a83f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/a04376.html#a05f8969fb6d17548033afc24b906a83f">GetPlainName</a> (const char *FileName)</td></tr>
-<tr class="separator:a05f8969fb6d17548033afc24b906a83f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a939d4568b4058bf826a517f55cb963af"><td class="memItemLeft" align="right" valign="top">char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/a04376.html#a939d4568b4058bf826a517f55cb963af">GetPlainName</a> (char const *FileName)</td></tr>
+<tr class="separator:a939d4568b4058bf826a517f55cb963af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e577b4c8e75312883ba4e8c571908ca"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/a04376.html#a5e577b4c8e75312883ba4e8c571908ca">GetPlainName</a> (char *FileName)</td></tr>
 <tr class="separator:a5e577b4c8e75312883ba4e8c571908ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3f75fc482c41471364c2c3e8bd1dd96"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/a04376.html#ac3f75fc482c41471364c2c3e8bd1dd96">GetExtension</a> (char *FileName)</td></tr>
-<tr class="separator:ac3f75fc482c41471364c2c3e8bd1dd96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4df61017ffd84478bbfc579aec447880"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/a04376.html#a4df61017ffd84478bbfc579aec447880">fixnamen</a> (char *name, size_t len)</td></tr>
 <tr class="separator:a4df61017ffd84478bbfc579aec447880"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a505f827307521d389b41e8f0b238c354"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/a04376.html#a505f827307521d389b41e8f0b238c354">fixname2</a> (char *name, size_t len)</td></tr>
 <tr class="separator:a505f827307521d389b41e8f0b238c354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3f75fc482c41471364c2c3e8bd1dd96"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/a04376.html#ac3f75fc482c41471364c2c3e8bd1dd96">GetExtension</a> (char *FileName)</td></tr>
+<tr class="separator:ac3f75fc482c41471364c2c3e8bd1dd96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a505f827307521d389b41e8f0b238c354" name="a505f827307521d389b41e8f0b238c354"></a>
@@ -280,16 +265,16 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a05f8969fb6d17548033afc24b906a83f" name="a05f8969fb6d17548033afc24b906a83f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05f8969fb6d17548033afc24b906a83f">&#9670;&#160;</a></span>GetPlainName() <span class="overload">[2/2]</span></h2>
+<a id="a939d4568b4058bf826a517f55cb963af" name="a939d4568b4058bf826a517f55cb963af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a939d4568b4058bf826a517f55cb963af">&#9670;&#160;</a></span>GetPlainName() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const char * GetPlainName </td>
+          <td class="memname">char const  * GetPlainName </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype">char const *&#160;</td>
           <td class="paramname"><em>FileName</em></td><td>)</td>
           <td></td>
         </tr>
@@ -312,8 +297,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_b604cd515113e1b9d14f26b265d784ac.html">vmap4_extractor</a></li><li class="navelem"><a class="el" href="../../d0/de0/a04376.html">adtfile.h</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 15:54:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_b604cd515113e1b9d14f26b265d784ac.html">vmap4_extractor</a></li><li class="navelem"><a class="el" href="../../d0/de0/a04376.html">adtfile.cpp</a></li>
+    <li class="footer">Generated on Sun Dec 11 2022 11:33:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,8 +1,7 @@
 var a30301 =
 [
-    [ "canLink", "dd/d5b/a30301.html#aff87dafee61faf5afdf6248f6f3c9a35", null ],
-    [ "categoryId", "dd/d5b/a30301.html#abf285e69e8e2a90626a157cb0c50d158", null ],
-    [ "id", "dd/d5b/a30301.html#a7740b26f1bde19a05b002c00eded25e3", null ],
-    [ "name", "dd/d5b/a30301.html#afb5e77ab4f6faa132ca62f7664dce116", null ],
-    [ "spellIcon", "dd/d5b/a30301.html#a3a20ea7c73a6739e89bd570d6f4d4b03", null ]
+    [ "Id", "dd/d5b/a30301.html#a5e2447dd0f6b60e322105d8fcafd0010", null ],
+    [ "MaxLevel", "dd/d5b/a30301.html#a0392e52a26bb4e1d1927fa7f76c674b8", null ],
+    [ "Modifier", "dd/d5b/a30301.html#a5ce5b18749d3c75878b310bdc8427b1f", null ],
+    [ "StatMod", "dd/d5b/a30301.html#ab639dd94c53707ca160e13f71342730d", null ]
 ];

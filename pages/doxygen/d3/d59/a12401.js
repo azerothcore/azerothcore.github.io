@@ -1,6 +1,6 @@
 var a12401 =
 [
-    [ "spell_q12641_death_comes_from_on_high_summon_ghouls_SpellScript", "d5/d77/a12405.html", "d5/d77/a12405" ],
-    [ "spell_q12641_death_comes_from_on_high_summon_ghouls", "d3/d59/a12401.html#ac3f8a69deb292fc3ff0ea0051c4d567c", null ],
-    [ "GetSpellScript", "d3/d59/a12401.html#aefcf0a6f58b76a4f65879532e2689718", null ]
+    [ "HandleScriptEffect", "d3/d59/a12401.html#a7b8314c8833ba7160a8ee33c5136841c", null ],
+    [ "PrepareSpellScript", "d3/d59/a12401.html#ad75019d30081514a4ab3b6301177bb06", null ],
+    [ "Register", "d3/d59/a12401.html#a8aeba569703c51b96910952db7af2bda", null ]
 ];

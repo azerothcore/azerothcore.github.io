@@ -1,28 +1,8 @@
 var a13725 =
 [
-    [ "boss_nalorakkAI", "d5/d7d/a13725.html#a3e25f60f2e11cc245390b21929321349", null ],
-    [ "AttackStart", "d5/d7d/a13725.html#a5adafaf2921a8892e642db7fdd7b9721", null ],
-    [ "EnterCombat", "d5/d7d/a13725.html#a79f84385d2730f83a31c6c01b0507f75", null ],
-    [ "JustDied", "d5/d7d/a13725.html#a14b666aa040401991672a58dedeaad2d", null ],
-    [ "KilledUnit", "d5/d7d/a13725.html#acfcb17a6003d24fa1e3210cd8b899941", null ],
-    [ "MoveInLineOfSight", "d5/d7d/a13725.html#a86d3620d8d6e8a6500082ea71ebf3aaf", null ],
-    [ "MovementInform", "d5/d7d/a13725.html#a106588c95a1c8f022ac4da156b5564dc", null ],
-    [ "Reset", "d5/d7d/a13725.html#ad057b649679210c1342cbe52def71a8a", null ],
-    [ "ResetMobs", "d5/d7d/a13725.html#a6a354f006fbd1c555339a6c871e96150", null ],
-    [ "SendAttacker", "d5/d7d/a13725.html#a30fdcfacfbcda123b2fb92cbbfc74708", null ],
-    [ "UpdateAI", "d5/d7d/a13725.html#a57926e9ae57618bcdbd503440578d678", null ],
-    [ "Berserk_Timer", "d5/d7d/a13725.html#a60998c2c16af9f2799235e459dc90442", null ],
-    [ "BrutalSwipe_Timer", "d5/d7d/a13725.html#a03fa5005a8b1d784ce51861379a7c322", null ],
-    [ "DeafeningRoar_Timer", "d5/d7d/a13725.html#a45e4da03dc74bb0a9188bc2688a15125", null ],
-    [ "inBearForm", "d5/d7d/a13725.html#ae9f37d867ed6fbb4d99e7ea338a57681", null ],
-    [ "inMove", "d5/d7d/a13725.html#acefb22e1848b103589915cbb092c12d5", null ],
-    [ "instance", "d5/d7d/a13725.html#a50b2585a611bb9c47e8fc49f347b761a", null ],
-    [ "LaceratingSlash_Timer", "d5/d7d/a13725.html#a86de4dc4f0f8a94175ac310a555a2ae8", null ],
-    [ "Mangle_Timer", "d5/d7d/a13725.html#ac9a138ae20c81911b47d9fc72c57f5f9", null ],
-    [ "MoveEvent", "d5/d7d/a13725.html#a622f56155527ab3e358ffbe8308c62cc", null ],
-    [ "MovePhase", "d5/d7d/a13725.html#ae206b5079a69d672d12fb395624fe704", null ],
-    [ "RendFlesh_Timer", "d5/d7d/a13725.html#ac43fa9de9eea4efd0b252d30180e86fd", null ],
-    [ "ShapeShift_Timer", "d5/d7d/a13725.html#a6b4196ebf2c195e5894515d73531399a", null ],
-    [ "Surge_Timer", "d5/d7d/a13725.html#a6537a684bc28ad70ba6032ed7f83fa1b", null ],
-    [ "waitTimer", "d5/d7d/a13725.html#a4abf593d93f1db7ac5366a3ff0c9a45e", null ]
+    [ "entry", "d5/d7d/a13725.html#ad7431eb64907aed0a03205a37c65a735", null ],
+    [ "orient", "d5/d7d/a13725.html#ab54dc774ffa13a1cdff8cf8047330c82", null ],
+    [ "x", "d5/d7d/a13725.html#a9e2b1a05fdcb7ba5e67deed9906f2520", null ],
+    [ "y", "d5/d7d/a13725.html#ae726b332e6759612c76de6b9f38a3147", null ],
+    [ "z", "d5/d7d/a13725.html#a8a0e3c6d9e558a40cd9d543df6abf728", null ]
 ];

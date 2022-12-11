@@ -1,6 +1,6 @@
 var a26437 =
 [
-    [ "spell_q10036_torgos_SpellScript", "d7/d53/a26441.html", "d7/d53/a26441" ],
-    [ "spell_q10036_torgos", "d3/d55/a26437.html#a0599d2c00020c5978dc66f54b360a8be", null ],
-    [ "GetSpellScript", "d3/d55/a26437.html#a0bdd5a74c9f114537d8d206536dd418c", null ]
+    [ "npc_greatfather_aldrimusAI", "d7/d53/a26441.html", "d7/d53/a26441" ],
+    [ "npc_greatfather_aldrimus", "d3/d55/a26437.html#ac4af9fa1d0fe1348d43d598bce7a69db", null ],
+    [ "GetAI", "d3/d55/a26437.html#a9fd2394e90bd9817ad51ad7d3ca15f63", null ]
 ];

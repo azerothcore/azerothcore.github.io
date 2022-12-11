@@ -1,7 +1,6 @@
 var a13381 =
 [
-    [ "npc_greengill_slaveAI", "d2/d6c/a13381.html#a1a4268b745e63992f4d0fc2028b717aa", null ],
-    [ "EnterCombat", "d2/d6c/a13381.html#ab0a6b6c9ac8b32226ce87eb911123313", null ],
-    [ "SpellHit", "d2/d6c/a13381.html#a0e75a3e8eb3503fdb3aea12e65ccc6e4", null ],
-    [ "UpdateAI", "d2/d6c/a13381.html#a6fa27328cf47bef81c3465b8a3e2ace1", null ]
+    [ "npc_corporal_keeshanAI", "da/d7c/a13385.html", "da/d7c/a13385" ],
+    [ "npc_corporal_keeshan", "d2/d6c/a13381.html#a0ca9459a7f283e040f14e0052762f587", null ],
+    [ "GetAI", "d2/d6c/a13381.html#a2cc19f28dea9ea8597648339a160d1bc", null ]
 ];

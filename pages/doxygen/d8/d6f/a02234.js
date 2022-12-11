@@ -1,7 +1,7 @@
 var a02234 =
 [
-    [ "CliCommandHolder", "d0/de7/a10897.html", "d0/de7/a10897" ],
-    [ "IWorld", "d1/d7c/a10901.html", "d1/d7c/a10901" ],
+    [ "CliCommandHolder", "d9/d9b/a10893.html", "d9/d9b/a10893" ],
+    [ "IWorld", "d0/de7/a10897.html", "d0/de7/a10897" ],
     [ "SessionMap", "d8/d6f/a02234.html#a24a95911e6375202b09db2333ec94fc1", null ],
     [ "Rates", "d8/d6f/a02234.html#a7ba5c3e6b385572c3bd751b6c9da9a20", [
       [ "RATE_HEALTH", "d8/d6f/a02234.html#a7ba5c3e6b385572c3bd751b6c9da9a20a8bdee348b397c9fbaa19c38d23814cb2", null ],
@@ -212,6 +212,7 @@ var a02234 =
       [ "CONFIG_LEAVE_GROUP_ON_LOGOUT", "d8/d6f/a02234.html#a1b4b88c03b7d0124998b4c22e957baf0a3c29b5e38b5d601fd9c20369414c7033", null ],
       [ "CONFIG_VMAP_BLIZZLIKE_PVP_LOS", "d8/d6f/a02234.html#a1b4b88c03b7d0124998b4c22e957baf0a68c8ac9134314298a6bc20cfe143c3a9", null ],
       [ "CONFIG_OBJECT_SPARKLES", "d8/d6f/a02234.html#a1b4b88c03b7d0124998b4c22e957baf0ad08ee039e5c7668b086bd7a97a1d4c6e", null ],
+      [ "CONFIG_LOW_LEVEL_REGEN_BOOST", "d8/d6f/a02234.html#a1b4b88c03b7d0124998b4c22e957baf0ae17782cf991c3bc788f6f2806e24a2df", null ],
       [ "CONFIG_OBJECT_QUEST_MARKERS", "d8/d6f/a02234.html#a1b4b88c03b7d0124998b4c22e957baf0a7534226fbfcbdec7118df355bb9fc5bd", null ],
       [ "BOOL_CONFIG_VALUE_COUNT", "d8/d6f/a02234.html#a1b4b88c03b7d0124998b4c22e957baf0a0037a8646fb2518c870bb33165704822", null ]
     ] ],

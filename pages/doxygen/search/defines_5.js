@@ -1,8 +1,8 @@
 var searchData=
 [
   ['earthbind_5ftotem_5fentry_0',['EARTHBIND_TOTEM_ENTRY',['../da/d79/a01310.html#a6cae59b1369b7371cefb92be8fc73fa5',1,'Totem.h']]],
-  ['effect_5fall_1',['EFFECT_ALL',['../d9/d4e/a04307.html#ac97ba74f30438a8b51ce05c9de303cd7',1,'SharedDefines.h']]],
-  ['effect_5ffirst_5ffound_2',['EFFECT_FIRST_FOUND',['../d9/d4e/a04307.html#a0a642bd6187d3edf3ffcee5fb1e6459e',1,'SharedDefines.h']]],
+  ['effect_5fall_1',['EFFECT_ALL',['../d2/dfc/a04310.html#ac97ba74f30438a8b51ce05c9de303cd7',1,'SharedDefines.h']]],
+  ['effect_5ffirst_5ffound_2',['EFFECT_FIRST_FOUND',['../d2/dfc/a04310.html#a0a642bd6187d3edf3ffcee5fb1e6459e',1,'SharedDefines.h']]],
   ['emblem_5fprice_3',['EMBLEM_PRICE',['../d4/d3c/a01418.html#a6e37f394008ea3eb20a46c84e03512a5',1,'Guild.cpp']]],
   ['emerald_5fvigor_4',['EMERALD_VIGOR',['../d3/dff/a03422.html#a0da6c5729296c905c0ee0dad01e671a0',1,'boss_valithria_dreamwalker.cpp']]],
   ['emerge_5finterval_5',['EMERGE_INTERVAL',['../d9/d7f/a03278.html#a9fc26103183a33883f32a827df5f1048',1,'boss_anubarak_trial.cpp']]],
@@ -12,9 +12,9 @@ var searchData=
   ['enrage_9',['ENRAGE',['../df/de4/a02780.html#a86d4061361d537399219ef314efffca7',1,'zone_isle_of_queldanas.cpp']]],
   ['essence_5fof_5fblood_5fqueen_10',['ESSENCE_OF_BLOOD_QUEEN',['../d2/d21/a03392.html#a27854289bd0e1cef17e0b3c8923edaf4',1,'boss_blood_queen_lana_thel.cpp']]],
   ['essence_5fof_5fblood_5fqueen_5fplr_11',['ESSENCE_OF_BLOOD_QUEEN_PLR',['../d2/d21/a03392.html#a57845c7350037de51ea7776dd024739a',1,'boss_blood_queen_lana_thel.cpp']]],
-  ['event_5farea_5fradius_12',['EVENT_AREA_RADIUS',['../d8/dec/a03164.html#ab69ef601d31d0264381d9af5e06f7769',1,'EVENT_AREA_RADIUS():&#160;zone_silithus.cpp'],['../d9/d68/a04106.html#ab69ef601d31d0264381d9af5e06f7769',1,'EVENT_AREA_RADIUS():&#160;zone_shadowmoon_valley.cpp']]],
+  ['event_5farea_5fradius_12',['EVENT_AREA_RADIUS',['../d8/dec/a03164.html#ab69ef601d31d0264381d9af5e06f7769',1,'EVENT_AREA_RADIUS():&#160;zone_silithus.cpp'],['../d7/d47/a04109.html#ab69ef601d31d0264381d9af5e06f7769',1,'EVENT_AREA_RADIUS():&#160;zone_shadowmoon_valley.cpp']]],
   ['event_5fcharge_5fprepath_13',['EVENT_CHARGE_PREPATH',['../da/dfd/a03401.html#a9c317db681d954aca490545ed2c1b929',1,'boss_icecrown_gunship_battle.cpp']]],
-  ['event_5fcooldown_14',['EVENT_COOLDOWN',['../d8/dec/a03164.html#a4154053cb93b323fc74dd05d04a20d7e',1,'EVENT_COOLDOWN():&#160;zone_silithus.cpp'],['../d9/d68/a04106.html#a4154053cb93b323fc74dd05d04a20d7e',1,'EVENT_COOLDOWN():&#160;zone_shadowmoon_valley.cpp']]],
+  ['event_5fcooldown_14',['EVENT_COOLDOWN',['../d8/dec/a03164.html#a4154053cb93b323fc74dd05d04a20d7e',1,'EVENT_COOLDOWN():&#160;zone_silithus.cpp'],['../d7/d47/a04109.html#a4154053cb93b323fc74dd05d04a20d7e',1,'EVENT_COOLDOWN():&#160;zone_shadowmoon_valley.cpp']]],
   ['event_5fgroup_5fabilities_15',['EVENT_GROUP_ABILITIES',['../df/de2/a03410.html#a45a304b8dfba9d442913fc1a33c1b239',1,'boss_professor_putricide.cpp']]],
   ['exact_5fsequence_16',['EXACT_SEQUENCE',['../de/d91/a01034.html#ac61bb0d0d29d3ccc94188eb93516adf5',1,'ChatCommandTags.h']]],
   ['exception_17',['EXCEPTION',['../d5/ddf/a00224.html#a04a8ef8e5d1a39a04fed031f53ffa2db',1,'WheatyExceptionReport.cpp']]],

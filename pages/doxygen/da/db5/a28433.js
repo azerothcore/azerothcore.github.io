@@ -1,5 +1,7 @@
 var a28433 =
 [
-    [ "spell_q11515_fel_siphon_dummy", "da/db5/a28433.html#a80fa790a716d1ae950f43f9a298afd66", null ],
-    [ "GetSpellScript", "da/db5/a28433.html#a0d122972fc036d1f1e49c49acda58be3", null ]
+    [ "HandleEffectApply", "da/db5/a28433.html#a475d0bab96e226853368be3b68c5a2d3", null ],
+    [ "HandleEffectRemove", "da/db5/a28433.html#aa22a095e40789ac562a64c20d7eadb28", null ],
+    [ "PrepareAuraScript", "da/db5/a28433.html#a2b06b0dc1a4c2f5b5e4657e11a097660", null ],
+    [ "Register", "da/db5/a28433.html#a91e75a059828a30d509fd22be19048f8", null ]
 ];

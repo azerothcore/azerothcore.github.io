@@ -1,10 +1,10 @@
 var a25353 =
 [
-    [ "boss_blindeye_the_seerAI", "d8/da3/a25353.html#aba28ac5be2e1b40c153c421d6070e27c", null ],
-    [ "EnterCombat", "d8/da3/a25353.html#a953753e2a7124a204f3a32ecbe62d652", null ],
-    [ "JustDied", "d8/da3/a25353.html#a12fcb5ec083e4117ae0fa568a316bd8b", null ],
-    [ "Reset", "d8/da3/a25353.html#aad0a13a88d51270d5c02c7dfd91b0bd3", null ],
-    [ "UpdateAI", "d8/da3/a25353.html#a7622d9a2f70a29548950da0d5fc497ee", null ],
-    [ "events", "d8/da3/a25353.html#a7ab67aebe91128c3358269b045c29ead", null ],
-    [ "instance", "d8/da3/a25353.html#ad8da995fe98f5b4ba513663dc703dc76", null ]
+    [ "boss_kiggler_the_crazedAI", "d8/da3/a25353.html#a0030b66499035839d6ceff041ce21590", null ],
+    [ "EnterCombat", "d8/da3/a25353.html#ae2654b0ec23e38a3a00788478429dc75", null ],
+    [ "JustDied", "d8/da3/a25353.html#afce254a78923a91e038876db62bcd3a7", null ],
+    [ "Reset", "d8/da3/a25353.html#a135ac0b888fc8f9334c72cae354e1e3d", null ],
+    [ "UpdateAI", "d8/da3/a25353.html#a20504cfb3e01273f2bfdf6dcbbdf2d59", null ],
+    [ "events", "d8/da3/a25353.html#a0fc8d01ecd4eca44f6e50012bb9f2ba0", null ],
+    [ "instance", "d8/da3/a25353.html#ad292af96b53a4d21c05d0444b47bcd02", null ]
 ];

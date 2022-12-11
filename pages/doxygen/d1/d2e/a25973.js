@@ -1,6 +1,8 @@
 var a25973 =
 [
-    [ "HandlePeriodic", "d1/d2e/a25973.html#ad490d7f19d2649f55b78cbb8aa203bf1", null ],
-    [ "PrepareAuraScript", "d1/d2e/a25973.html#a1f42506e736348addc6569e88c68480c", null ],
-    [ "Register", "d1/d2e/a25973.html#a94ad55f43e2a598254ce735eee00bc91", null ]
+    [ "npc_ragin_flamesAI", "d1/d2e/a25973.html#a96f9e4b213d81a7c97d0477cd064e812", null ],
+    [ "EnterCombat", "d1/d2e/a25973.html#ad0632aaa21b57ceb05e8fd7ffd8e25d6", null ],
+    [ "Reset", "d1/d2e/a25973.html#a5616547de04534544476926c877cf2e9", null ],
+    [ "UpdateAI", "d1/d2e/a25973.html#a6c706da1afb0b7ad7e8066eef049103e", null ],
+    [ "events", "d1/d2e/a25973.html#a20d0d7a9ee9de528dda997e13add1558", null ]
 ];

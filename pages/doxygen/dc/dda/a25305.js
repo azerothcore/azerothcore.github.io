@@ -1,6 +1,6 @@
 var a25305 =
 [
-    [ "OnApply", "dc/dda/a25305.html#a14f12a6d01a262524e5987f0b15aff30", null ],
-    [ "PrepareAuraScript", "dc/dda/a25305.html#abeadda30abdaf2fcf1b2ab8cab584388", null ],
-    [ "Register", "dc/dda/a25305.html#accebff08e7c9086720b59b23e74c68c9", null ]
+    [ "HandleScriptEffect", "dc/dda/a25305.html#af5ff1238b857e9d35f6c52688343bae2", null ],
+    [ "PrepareSpellScript", "dc/dda/a25305.html#ab987456cf5a9d34f367beb3774f455fd", null ],
+    [ "Register", "dc/dda/a25305.html#a0936c499a721c13dc4f8c84c3089c2d3", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/tools/vmap4_extractor/model.cpp File Reference</title>
+<title>AzeorthCore: D:/azerothcore-wotlk/src/tools/vmap4_extractor/gameobject_extract.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,50 +107,186 @@ $(document).ready(function(){initNavTree('d7/d1e/a04382.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">model.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">gameobject_extract.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">model.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">adtfile.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">mpq_libmpq04.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">adtfile.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">dbcfile.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">model.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">vmapexport.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">wmo.h</a>&quot;</code><br />
-<code>#include &lt;G3D/Quat.h&gt;</code><br />
-<code>#include &lt;cassert&gt;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;cstdio&gt;</code><br />
-<code>#include &lt;limits&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8d0afbab5641bb7d88196fbad79e4cf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/da2/a30729.html">Vec3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1e/a04382.html#a8d0afbab5641bb7d88196fbad79e4cf1">fixCoordSystem</a> (<a class="el" href="../../da/da2/a30729.html">Vec3D</a> const &amp;v)</td></tr>
-<tr class="separator:a8d0afbab5641bb7d88196fbad79e4cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a96194f748b715f0400249583336ae5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1e/a04382.html#a6a96194f748b715f0400249583336ae5">ExtractSingleModel</a> (std::string &amp;fname)</td></tr>
+<tr class="separator:a6a96194f748b715f0400249583336ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b3d0cbf404ed32359e354ccf6e34392"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1e/a04382.html#a7b3d0cbf404ed32359e354ccf6e34392">ExtractGameobjectModels</a> ()</td></tr>
+<tr class="separator:a7b3d0cbf404ed32359e354ccf6e34392"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a8d0afbab5641bb7d88196fbad79e4cf1" name="a8d0afbab5641bb7d88196fbad79e4cf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d0afbab5641bb7d88196fbad79e4cf1">&#9670;&#160;</a></span>fixCoordSystem()</h2>
+<a id="a7b3d0cbf404ed32359e354ccf6e34392" name="a7b3d0cbf404ed32359e354ccf6e34392"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b3d0cbf404ed32359e354ccf6e34392">&#9670;&#160;</a></span>ExtractGameobjectModels()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/da2/a30729.html">Vec3D</a> fixCoordSystem </td>
+          <td class="memname">void ExtractGameobjectModels </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/da2/a30729.html">Vec3D</a> const &amp;&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  134</span>{</div>
-<div class="line"><span class="lineno">  135</span>    <span class="keywordflow">return</span> <a class="code hl_class" href="../../da/da2/a30729.html">Vec3D</a>(v.x, v.z, -v.y);</div>
-<div class="line"><span class="lineno">  136</span>}</div>
-<div class="ttc" id="aa30729_html"><div class="ttname"><a href="../../da/da2/a30729.html">Vec3D</a></div><div class="ttdef"><b>Definition:</b> vec3d.h:25</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   61</span>{</div>
+<div class="line"><span class="lineno">   62</span>    printf(<span class="stringliteral">&quot;Extracting GameObject models...&quot;</span>);</div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_class" href="../../d6/dfc/a30609.html">DBCFile</a> dbc(<span class="stringliteral">&quot;DBFilesClient\\GameObjectDisplayInfo.dbc&quot;</span>);</div>
+<div class="line"><span class="lineno">   64</span>    <span class="keywordflow">if</span> (!dbc.open())</div>
+<div class="line"><span class="lineno">   65</span>    {</div>
+<div class="line"><span class="lineno">   66</span>        printf(<span class="stringliteral">&quot;Fatal error: Invalid GameObjectDisplayInfo.dbc file format!\n&quot;</span>);</div>
+<div class="line"><span class="lineno">   67</span>        exit(1);</div>
+<div class="line"><span class="lineno">   68</span>    }</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>    std::string basepath = <a class="code hl_variable" href="../../da/dce/a04397.html#ae79cb6c3493a63f0e1058be3bd5ba328">szWorkDirWmo</a>;</div>
+<div class="line"><span class="lineno">   71</span>    basepath += <span class="stringliteral">&quot;/&quot;</span>;</div>
+<div class="line"><span class="lineno">   72</span>    std::string path;</div>
+<div class="line"><span class="lineno">   73</span> </div>
+<div class="line"><span class="lineno">   74</span>    std::string modelListPath = basepath + <span class="stringliteral">&quot;temp_gameobject_models&quot;</span>;</div>
+<div class="line"><span class="lineno">   75</span>    FILE* <a class="code hl_variable" href="../../db/dab/a00089.html#aa0a0fd13eaa3eba090a3085d41303f12">model_list</a> = fopen(modelListPath.c_str(), <span class="stringliteral">&quot;wb&quot;</span>);</div>
+<div class="line"><span class="lineno">   76</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../db/dab/a00089.html#aa0a0fd13eaa3eba090a3085d41303f12">model_list</a>)</div>
+<div class="line"><span class="lineno">   77</span>    {</div>
+<div class="line"><span class="lineno">   78</span>        printf(<span class="stringliteral">&quot;Fatal error: Could not open file %s\n&quot;</span>, modelListPath.c_str());</div>
+<div class="line"><span class="lineno">   79</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   80</span>    }</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>    fwrite(<a class="code hl_variable" href="../../dd/d10/a04434.html#ab44884fb6c05cb4ae128d5882a2c4b7c">VMAP::RAW_VMAP_MAGIC</a>, 1, 8, <a class="code hl_variable" href="../../db/dab/a00089.html#aa0a0fd13eaa3eba090a3085d41303f12">model_list</a>);</div>
+<div class="line"><span class="lineno">   83</span> </div>
+<div class="line"><span class="lineno">   84</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp; it : dbc)</div>
+<div class="line"><span class="lineno">   85</span>    {</div>
+<div class="line"><span class="lineno">   86</span>        path = it.getString(1);</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>        <span class="keywordflow">if</span> (path.length() &lt; 4)</div>
+<div class="line"><span class="lineno">   89</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>        <a class="code hl_function" href="../../d0/de0/a04376.html#a4df61017ffd84478bbfc579aec447880">fixnamen</a>((<span class="keywordtype">char</span>*)path.c_str(), path.size());</div>
+<div class="line"><span class="lineno">   92</span>        <span class="keywordtype">char</span>* name = <a class="code hl_function" href="../../d0/de0/a04376.html#a939d4568b4058bf826a517f55cb963af">GetPlainName</a>((<span class="keywordtype">char</span>*)path.c_str());</div>
+<div class="line"><span class="lineno">   93</span>        <a class="code hl_function" href="../../d0/de0/a04376.html#a505f827307521d389b41e8f0b238c354">fixname2</a>(name, strlen(name));</div>
+<div class="line"><span class="lineno">   94</span> </div>
+<div class="line"><span class="lineno">   95</span>        <span class="keywordtype">char</span>* ch_ext = <a class="code hl_function" href="../../d0/de0/a04376.html#ac3f75fc482c41471364c2c3e8bd1dd96">GetExtension</a>(name);</div>
+<div class="line"><span class="lineno">   96</span>        <span class="keywordflow">if</span> (!ch_ext)</div>
+<div class="line"><span class="lineno">   97</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span>        <a class="code hl_function" href="../../d4/de5/a00503.html#a8a91185d89f31e26170db63a868642cd">strToLower</a>(ch_ext);</div>
+<div class="line"><span class="lineno">  100</span> </div>
+<div class="line"><span class="lineno">  101</span>        <span class="keywordtype">bool</span> result = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  102</span>        <a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> isWmo = 0;</div>
+<div class="line"><span class="lineno">  103</span>        <span class="keywordflow">if</span> (!strcmp(ch_ext, <span class="stringliteral">&quot;.wmo&quot;</span>))</div>
+<div class="line"><span class="lineno">  104</span>        {</div>
+<div class="line"><span class="lineno">  105</span>            isWmo = 1;</div>
+<div class="line"><span class="lineno">  106</span>            result = <a class="code hl_function" href="../../da/dce/a04397.html#afc9839262206eb10094c1769141ae146">ExtractSingleWmo</a>(path);</div>
+<div class="line"><span class="lineno">  107</span>        }</div>
+<div class="line"><span class="lineno">  108</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!strcmp(ch_ext, <span class="stringliteral">&quot;.mdl&quot;</span>))</div>
+<div class="line"><span class="lineno">  109</span>        {</div>
+<div class="line"><span class="lineno">  110</span>            <span class="comment">// TODO: extract .mdl files, if needed</span></div>
+<div class="line"><span class="lineno">  111</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  112</span>        }</div>
+<div class="line"><span class="lineno">  113</span>        <span class="keywordflow">else</span> <span class="comment">//if (!strcmp(ch_ext, &quot;.mdx&quot;) || !strcmp(ch_ext, &quot;.m2&quot;))</span></div>
+<div class="line"><span class="lineno">  114</span>        {</div>
+<div class="line"><span class="lineno">  115</span>            result = <a class="code hl_function" href="../../d7/d1e/a04382.html#a6a96194f748b715f0400249583336ae5">ExtractSingleModel</a>(path);</div>
+<div class="line"><span class="lineno">  116</span>        }</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>        <span class="keywordflow">if</span> (result)</div>
+<div class="line"><span class="lineno">  119</span>        {</div>
+<div class="line"><span class="lineno">  120</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> displayId = it.getUInt(0);</div>
+<div class="line"><span class="lineno">  121</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> path_length = strlen(name);</div>
+<div class="line"><span class="lineno">  122</span>            fwrite(&amp;displayId, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, <a class="code hl_variable" href="../../db/dab/a00089.html#aa0a0fd13eaa3eba090a3085d41303f12">model_list</a>);</div>
+<div class="line"><span class="lineno">  123</span>            fwrite(&amp;isWmo, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>), 1, <a class="code hl_variable" href="../../db/dab/a00089.html#aa0a0fd13eaa3eba090a3085d41303f12">model_list</a>);</div>
+<div class="line"><span class="lineno">  124</span>            fwrite(&amp;path_length, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, <a class="code hl_variable" href="../../db/dab/a00089.html#aa0a0fd13eaa3eba090a3085d41303f12">model_list</a>);</div>
+<div class="line"><span class="lineno">  125</span>            fwrite(name, <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>), path_length, <a class="code hl_variable" href="../../db/dab/a00089.html#aa0a0fd13eaa3eba090a3085d41303f12">model_list</a>);</div>
+<div class="line"><span class="lineno">  126</span>        }</div>
+<div class="line"><span class="lineno">  127</span>    }</div>
+<div class="line"><span class="lineno">  128</span> </div>
+<div class="line"><span class="lineno">  129</span>    fclose(<a class="code hl_variable" href="../../db/dab/a00089.html#aa0a0fd13eaa3eba090a3085d41303f12">model_list</a>);</div>
+<div class="line"><span class="lineno">  130</span> </div>
+<div class="line"><span class="lineno">  131</span>    printf(<span class="stringliteral">&quot;Done!\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  132</span>}</div>
+<div class="ttc" id="aa00089_html_aa0a0fd13eaa3eba090a3085d41303f12"><div class="ttname"><a href="../../db/dab/a00089.html#aa0a0fd13eaa3eba090a3085d41303f12">model_list</a></div><div class="ttdeci">ModelList model_list</div><div class="ttdef"><b>Definition:</b> GameObjectModel.cpp:43</div></div>
+<div class="ttc" id="aa00230_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="aa00230_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aa00503_html_a8a91185d89f31e26170db63a868642cd"><div class="ttname"><a href="../../d4/de5/a00503.html#a8a91185d89f31e26170db63a868642cd">strToLower</a></div><div class="ttdeci">void strToLower(std::string &amp;str)</div><div class="ttdef"><b>Definition:</b> Util.cpp:385</div></div>
+<div class="ttc" id="aa04376_html_a4df61017ffd84478bbfc579aec447880"><div class="ttname"><a href="../../d0/de0/a04376.html#a4df61017ffd84478bbfc579aec447880">fixnamen</a></div><div class="ttdeci">void fixnamen(char *name, size_t len)</div><div class="ttdef"><b>Definition:</b> adtfile.cpp:45</div></div>
+<div class="ttc" id="aa04376_html_a505f827307521d389b41e8f0b238c354"><div class="ttname"><a href="../../d0/de0/a04376.html#a505f827307521d389b41e8f0b238c354">fixname2</a></div><div class="ttdeci">void fixname2(char *name, size_t len)</div><div class="ttdef"><b>Definition:</b> adtfile.cpp:63</div></div>
+<div class="ttc" id="aa04376_html_a939d4568b4058bf826a517f55cb963af"><div class="ttname"><a href="../../d0/de0/a04376.html#a939d4568b4058bf826a517f55cb963af">GetPlainName</a></div><div class="ttdeci">char const * GetPlainName(char const *FileName)</div><div class="ttdef"><b>Definition:</b> adtfile.cpp:27</div></div>
+<div class="ttc" id="aa04376_html_ac3f75fc482c41471364c2c3e8bd1dd96"><div class="ttname"><a href="../../d0/de0/a04376.html#ac3f75fc482c41471364c2c3e8bd1dd96">GetExtension</a></div><div class="ttdeci">char * GetExtension(char *FileName)</div><div class="ttdef"><b>Definition:</b> adtfile.cpp:73</div></div>
+<div class="ttc" id="aa04382_html_a6a96194f748b715f0400249583336ae5"><div class="ttname"><a href="../../d7/d1e/a04382.html#a6a96194f748b715f0400249583336ae5">ExtractSingleModel</a></div><div class="ttdeci">bool ExtractSingleModel(std::string &amp;fname)</div><div class="ttdef"><b>Definition:</b> gameobject_extract.cpp:25</div></div>
+<div class="ttc" id="aa04397_html_ae79cb6c3493a63f0e1058be3bd5ba328"><div class="ttname"><a href="../../da/dce/a04397.html#ae79cb6c3493a63f0e1058be3bd5ba328">szWorkDirWmo</a></div><div class="ttdeci">char const  * szWorkDirWmo</div><div class="ttdef"><b>Definition:</b> vmapexport.cpp:68</div></div>
+<div class="ttc" id="aa04397_html_afc9839262206eb10094c1769141ae146"><div class="ttname"><a href="../../da/dce/a04397.html#afc9839262206eb10094c1769141ae146">ExtractSingleWmo</a></div><div class="ttdeci">bool ExtractSingleWmo(std::string &amp;fname)</div><div class="ttdef"><b>Definition:</b> vmapexport.cpp:98</div></div>
+<div class="ttc" id="aa04434_html_ab44884fb6c05cb4ae128d5882a2c4b7c"><div class="ttname"><a href="../../dd/d10/a04434.html#ab44884fb6c05cb4ae128d5882a2c4b7c">VMAP::RAW_VMAP_MAGIC</a></div><div class="ttdeci">const char RAW_VMAP_MAGIC[]</div><div class="ttdef"><b>Definition:</b> VMapDefinitions.h:27</div></div>
+<div class="ttc" id="aa30609_html"><div class="ttname"><a href="../../d6/dfc/a30609.html">DBCFile</a></div><div class="ttdef"><b>Definition:</b> dbcfile.h:25</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00027">Vec3D::x</a>, <a class="el" href="../../#l00027">Vec3D::y</a>, and <a class="el" href="../../#l00027">Vec3D::z</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00025">ExtractSingleModel()</a>, <a class="el" href="../../#l00098">ExtractSingleWmo()</a>, <a class="el" href="../../#l00063">fixname2()</a>, <a class="el" href="../../#l00045">fixnamen()</a>, <a class="el" href="../../#l00073">GetExtension()</a>, <a class="el" href="../../#l00027">GetPlainName()</a>, <a class="el" href="../../#l00043">model_list</a>, <a class="el" href="../../#l00030">DBCFile::open()</a>, <a class="el" href="../../#l00027">VMAP::RAW_VMAP_MAGIC</a>, <a class="el" href="../../#l00385">strToLower()</a>, and <a class="el" href="../../#l00068">szWorkDirWmo</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00032">Model::open()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00420">main()</a>.</p>
+
+</div>
+</div>
+<a id="a6a96194f748b715f0400249583336ae5" name="a6a96194f748b715f0400249583336ae5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a96194f748b715f0400249583336ae5">&#9670;&#160;</a></span>ExtractSingleModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ExtractSingleModel </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>fname</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <span class="keywordflow">if</span> (fname.length() &lt; 4)</div>
+<div class="line"><span class="lineno">   28</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   29</span> </div>
+<div class="line"><span class="lineno">   30</span>    std::string extension = fname.substr(fname.length() - 4, 4);</div>
+<div class="line"><span class="lineno">   31</span>    <span class="keywordflow">if</span> (extension == <span class="stringliteral">&quot;.mdx&quot;</span> || extension == <span class="stringliteral">&quot;.MDX&quot;</span> || extension == <span class="stringliteral">&quot;.mdl&quot;</span> || extension == <span class="stringliteral">&quot;.MDL&quot;</span>)</div>
+<div class="line"><span class="lineno">   32</span>    {</div>
+<div class="line"><span class="lineno">   33</span>        <span class="comment">// replace .mdx -&gt; .m2</span></div>
+<div class="line"><span class="lineno">   34</span>        fname.erase(fname.length() - 2, 2);</div>
+<div class="line"><span class="lineno">   35</span>        fname.append(<span class="stringliteral">&quot;2&quot;</span>);</div>
+<div class="line"><span class="lineno">   36</span>    }</div>
+<div class="line"><span class="lineno">   37</span>    <span class="comment">// &gt;= 3.1.0 ADT MMDX section store filename.m2 filenames for corresponded .m2 file</span></div>
+<div class="line"><span class="lineno">   38</span>    <span class="comment">// nothing do</span></div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>    std::string originalName = fname;</div>
+<div class="line"><span class="lineno">   41</span> </div>
+<div class="line"><span class="lineno">   42</span>    <span class="keywordtype">char</span>* name = <a class="code hl_function" href="../../d0/de0/a04376.html#a939d4568b4058bf826a517f55cb963af">GetPlainName</a>((<span class="keywordtype">char</span>*)fname.c_str());</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_function" href="../../d0/de0/a04376.html#a4df61017ffd84478bbfc579aec447880">fixnamen</a>(name, strlen(name));</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_function" href="../../d0/de0/a04376.html#a505f827307521d389b41e8f0b238c354">fixname2</a>(name, strlen(name));</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>    std::string output(<a class="code hl_variable" href="../../da/dce/a04397.html#ae79cb6c3493a63f0e1058be3bd5ba328">szWorkDirWmo</a>);</div>
+<div class="line"><span class="lineno">   47</span>    output += <span class="stringliteral">&quot;/&quot;</span>;</div>
+<div class="line"><span class="lineno">   48</span>    output += name;</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../df/d59/a04343.html#ad44d8658e695b84dce92babe0abea43d">FileExists</a>(output.c_str()))</div>
+<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_class" href="../../dd/d85/a30733.html">Model</a> mdl(originalName);</div>
+<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">if</span> (!mdl.open())</div>
+<div class="line"><span class="lineno">   55</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>    <span class="keywordflow">return</span> mdl.ConvertToVMAPModel(output.c_str());</div>
+<div class="line"><span class="lineno">   58</span>}</div>
+<div class="ttc" id="aa04343_html_ad44d8658e695b84dce92babe0abea43d"><div class="ttname"><a href="../../df/d59/a04343.html#ad44d8658e695b84dce92babe0abea43d">FileExists</a></div><div class="ttdeci">bool FileExists(const char *FileName)</div><div class="ttdef"><b>Definition:</b> System.cpp:142</div></div>
+<div class="ttc" id="aa30733_html"><div class="ttname"><a href="../../dd/d85/a30733.html">Model</a></div><div class="ttdef"><b>Definition:</b> model.h:33</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00070">Model::ConvertToVMAPModel()</a>, <a class="el" href="../../#l00142">FileExists()</a>, <a class="el" href="../../#l00063">fixname2()</a>, <a class="el" href="../../#l00045">fixnamen()</a>, <a class="el" href="../../#l00027">GetPlainName()</a>, <a class="el" href="../../#l00032">Model::open()</a>, and <a class="el" href="../../#l00068">szWorkDirWmo</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00060">ExtractGameobjectModels()</a>, <a class="el" href="../../#l00085">ADTFile::init()</a>, and <a class="el" href="../../#l00039">WMORoot::open()</a>.</p>
 
 </div>
 </div>
@@ -159,8 +295,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_b604cd515113e1b9d14f26b265d784ac.html">vmap4_extractor</a></li><li class="navelem"><a class="el" href="../../d7/d1e/a04382.html">model.cpp</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 15:54:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_b604cd515113e1b9d14f26b265d784ac.html">vmap4_extractor</a></li><li class="navelem"><a class="el" href="../../d7/d1e/a04382.html">gameobject_extract.cpp</a></li>
+    <li class="footer">Generated on Sun Dec 11 2022 11:33:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

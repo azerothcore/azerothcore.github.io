@@ -1,6 +1,6 @@
 var a25565 =
 [
-    [ "boss_warchief_kargath_bladefistAI", "d2/daa/a25569.html", "d2/daa/a25569" ],
-    [ "boss_warchief_kargath_bladefist", "d6/ddd/a25565.html#ab32d6b38fae734bc53d9e542c25e024e", null ],
-    [ "GetAI", "d6/ddd/a25565.html#acb5cd31ba7d5ca763e05c5279d836c5d", null ]
+    [ "npc_omrogg_headsAI", "d2/daa/a25569.html", "d2/daa/a25569" ],
+    [ "npc_omrogg_heads", "d6/ddd/a25565.html#a39fe9f3b623bf6b2d6575659e1f967b8", null ],
+    [ "GetAI", "d6/ddd/a25565.html#a82d7754ea52e37690537bc0e64efb727", null ]
 ];

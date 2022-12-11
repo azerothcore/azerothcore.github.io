@@ -186,7 +186,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac95606d8360ce139ec39a763e08cf929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply escape string'ing for current collation. (utf8)  <a href="../../d9/d67/a05349.html#ac95606d8360ce139ec39a763e08cf929">More...</a><br /></td></tr>
 <tr class="separator:ac95606d8360ce139ec39a763e08cf929"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c179a173e69967afbd8242c2a4a0297"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d67/a05349.html#a8c179a173e69967afbd8242c2a4a0297">KeepAlive</a> ()</td></tr>
-<tr class="memdesc:a8c179a173e69967afbd8242c2a4a0297"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keeps all our <a class="el" href="../../d7/d79/a04452.html">MySQL</a> connections alive, prevent the server from disconnecting us.  <a href="../../d9/d67/a05349.html#a8c179a173e69967afbd8242c2a4a0297">More...</a><br /></td></tr>
+<tr class="memdesc:a8c179a173e69967afbd8242c2a4a0297"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keeps all our <a class="el" href="../../d4/d45/a04456.html">MySQL</a> connections alive, prevent the server from disconnecting us.  <a href="../../d9/d67/a05349.html#a8c179a173e69967afbd8242c2a4a0297">More...</a><br /></td></tr>
 <tr class="separator:a8c179a173e69967afbd8242c2a4a0297"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2202af06ae4dcc4e95c2b9fe7f9a01f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d67/a05349.html#a2202af06ae4dcc4e95c2b9fe7f9a01f9">WarnAboutSyncQueries</a> (bool warn)</td></tr>
 <tr class="separator:a2202af06ae4dcc4e95c2b9fe7f9a01f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -507,7 +507,7 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Closes the actualy <a class="el" href="../../d7/d79/a04452.html">MySQL</a> connection.</p>
+<p >Closes the actualy <a class="el" href="../../d4/d45/a04456.html">MySQL</a> connection.</p>
 <p >Shut down the synchronous connections There's no need for locking the connection, because <a class="el" href="../../d9/d67/a05349.html#af5b0984b23e9ea23d93deaaea85e17df">DatabaseWorkerPool&lt;&gt;::Close</a> should only be called after any other thread tasks in the core have exited, meaning there can be no concurrent access at this point.</p>
 <div class="fragment"><div class="line"><span class="lineno">  124</span>{</div>
 <div class="line"><span class="lineno">  125</span>    <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;sql.driver&quot;</span>, <span class="stringliteral">&quot;Closing down DatabasePool &#39;{}&#39;.&quot;</span>, <a class="code hl_function" href="../../d9/d67/a05349.html#a7c2cac43d3111bef15ac91a1f389168d">GetDatabaseName</a>());</div>
@@ -623,7 +623,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p >Directly executes a collection of one-way SQL operations (can be both adhoc and prepared). The order in which these operations were appended to the transaction will be respected during execution. </p>
-<p >Handle <a class="el" href="../../d7/d79/a04452.html">MySQL</a> Errno 1213 without extending deadlock to the core itself </p><dl class="todo"><dt><b><a class="el" href="../../d0/dc5/a04415.html#_todo000006">Todo:</a></b></dt><dd>More elegant way </dd></dl>
+<p >Handle <a class="el" href="../../d4/d45/a04456.html">MySQL</a> Errno 1213 without extending deadlock to the core itself </p><dl class="todo"><dt><b><a class="el" href="../../d3/d74/a04418.html#_todo000002">Todo:</a></b></dt><dd>More elegant way </dd></dl>
 <p >Clean up now.</p>
 <div class="fragment"><div class="line"><span class="lineno">  309</span>{</div>
 <div class="line"><span class="lineno">  310</span>    T* connection = <a class="code hl_function" href="../../d9/d67/a05349.html#ab52cd78dc0c7f757a0cf71156c9dabeb">GetFreeConnection</a>();</div>
@@ -758,9 +758,9 @@ template&lt;typename... Args&gt; </div>
 <div class="line"><span class="lineno">   98</span>        <span class="keywordflow">if</span> (sql.empty())</div>
 <div class="line"><span class="lineno">   99</span>            <span class="keywordflow">return</span>;</div>
 <div class="line"><span class="lineno">  100</span> </div>
-<div class="line"><span class="lineno">  101</span>        <a class="code hl_function" href="../../d9/d67/a05349.html#ab6f68567b1dc23c16723f84504b47eb1">DirectExecute</a>(<a class="code hl_function" href="../../dc/d7e/a04424.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a>(sql, std::forward&lt;Args&gt;(args)...));</div>
+<div class="line"><span class="lineno">  101</span>        <a class="code hl_function" href="../../d9/d67/a05349.html#ab6f68567b1dc23c16723f84504b47eb1">DirectExecute</a>(<a class="code hl_function" href="../../de/dc4/a04428.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a>(sql, std::forward&lt;Args&gt;(args)...));</div>
 <div class="line"><span class="lineno">  102</span>    }</div>
-<div class="ttc" id="aa04424_html_a07b6432e111b17b737269191d9557f20"><div class="ttname"><a href="../../dc/d7e/a04424.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a></div><div class="ttdeci">std::string StringFormatFmt(std::string_view fmt, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> StringFormat.h:44</div></div>
+<div class="ttc" id="aa04428_html_a07b6432e111b17b737269191d9557f20"><div class="ttname"><a href="../../de/dc4/a04428.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a></div><div class="ttdeci">std::string StringFormatFmt(std::string_view fmt, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> StringFormat.h:44</div></div>
 <div class="ttc" id="aa05349_html_ab6f68567b1dc23c16723f84504b47eb1"><div class="ttname"><a href="../../d9/d67/a05349.html#ab6f68567b1dc23c16723f84504b47eb1">DatabaseWorkerPool::DirectExecute</a></div><div class="ttdeci">void DirectExecute(std::string_view sql)</div><div class="ttdef"><b>Definition:</b> DatabaseWorkerPool.cpp:492</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00492">DatabaseWorkerPool&lt; T &gt;::DirectExecute()</a>, and <a class="el" href="../../#l00044">Acore::StringFormatFmt()</a>.</p>
@@ -978,7 +978,7 @@ template&lt;typename... Args&gt; </div>
 <div class="line"><span class="lineno">   75</span>        <span class="keywordflow">if</span> (sql.empty())</div>
 <div class="line"><span class="lineno">   76</span>            <span class="keywordflow">return</span>;</div>
 <div class="line"><span class="lineno">   77</span> </div>
-<div class="line"><span class="lineno">   78</span>        <a class="code hl_function" href="../../d9/d67/a05349.html#a7f10adb58da657128cd4cc950d361074">Execute</a>(<a class="code hl_function" href="../../dc/d7e/a04424.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a>(sql, std::forward&lt;Args&gt;(args)...));</div>
+<div class="line"><span class="lineno">   78</span>        <a class="code hl_function" href="../../d9/d67/a05349.html#a7f10adb58da657128cd4cc950d361074">Execute</a>(<a class="code hl_function" href="../../de/dc4/a04428.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a>(sql, std::forward&lt;Args&gt;(args)...));</div>
 <div class="line"><span class="lineno">   79</span>    }</div>
 <div class="ttc" id="aa05349_html_a7f10adb58da657128cd4cc950d361074"><div class="ttname"><a href="../../d9/d67/a05349.html#a7f10adb58da657128cd4cc950d361074">DatabaseWorkerPool::Execute</a></div><div class="ttdeci">void Execute(std::string_view sql)</div><div class="ttdef"><b>Definition:</b> DatabaseWorkerPool.cpp:475</div></div>
 </div><!-- fragment -->
@@ -1143,7 +1143,7 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Gets a free connection in the synchronous connection pool. Caller MUST call t-&gt;<a class="el" href="../../d7/daf/a01169.html#af16a38362829ad78e87eae277ce8b837a7e7123b0d269ad5d9ec8d12c52a8ed8a">Unlock()</a> after touching the <a class="el" href="../../d7/d79/a04452.html">MySQL</a> context to prevent deadlocks. </p>
+<p >Gets a free connection in the synchronous connection pool. Caller MUST call t-&gt;<a class="el" href="../../d7/daf/a01169.html#af16a38362829ad78e87eae277ce8b837a7e7123b0d269ad5d9ec8d12c52a8ed8a">Unlock()</a> after touching the <a class="el" href="../../d4/d45/a04456.html">MySQL</a> context to prevent deadlocks. </p>
 <p >Block forever until a connection is free</p>
 <p >Must be matched with t-&gt;<a class="el" href="../../d7/daf/a01169.html#af16a38362829ad78e87eae277ce8b837a7e7123b0d269ad5d9ec8d12c52a8ed8a">Unlock()</a> or you will get deadlocks</p>
 <div class="fragment"><div class="line"><span class="lineno">  442</span>{</div>
@@ -1192,7 +1192,7 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Automanaged (internally) pointer to a prepared statement object for usage in upper level code. Pointer is deleted in this-&gt;<a class="el" href="../../d9/d67/a05349.html#ad79b4f532e563071b4571092409013f5">DirectExecute(PreparedStatement*)</a>, this-&gt;<a class="el" href="../../d9/d67/a05349.html#a5af178c6d30a31bb3f60328f03ecb743">Query(PreparedStatement*)</a> or <a class="el" href="../../dd/da9/a05473.html#a4ca96ab46d5015b2c673164652146886">PreparedStatementTask::~PreparedStatementTask</a>. This object is not tied to the prepared statement on the <a class="el" href="../../d7/d79/a04452.html">MySQL</a> context yet until execution. </p>
+<p >Automanaged (internally) pointer to a prepared statement object for usage in upper level code. Pointer is deleted in this-&gt;<a class="el" href="../../d9/d67/a05349.html#ad79b4f532e563071b4571092409013f5">DirectExecute(PreparedStatement*)</a>, this-&gt;<a class="el" href="../../d9/d67/a05349.html#a5af178c6d30a31bb3f60328f03ecb743">Query(PreparedStatement*)</a> or <a class="el" href="../../dd/da9/a05473.html#a4ca96ab46d5015b2c673164652146886">PreparedStatementTask::~PreparedStatementTask</a>. This object is not tied to the prepared statement on the <a class="el" href="../../d4/d45/a04456.html">MySQL</a> context yet until execution. </p>
 <div class="fragment"><div class="line"><span class="lineno">  341</span>{</div>
 <div class="line"><span class="lineno">  342</span>    <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_class" href="../../d4/db2/a05337.html">PreparedStatement&lt;T&gt;</a>(index, <a class="code hl_variable" href="../../d9/d67/a05349.html#a2cd5af2c32c18ad91be9325bbac71d23">_preparedStatementSize</a>[index]);</div>
 <div class="line"><span class="lineno">  343</span>}</div>
@@ -1215,7 +1215,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Keeps all our <a class="el" href="../../d7/d79/a04452.html">MySQL</a> connections alive, prevent the server from disconnecting us. </p>
+<p>Keeps all our <a class="el" href="../../d4/d45/a04456.html">MySQL</a> connections alive, prevent the server from disconnecting us. </p>
 <p >Ping synchronous connections</p>
 <p >Assuming all worker threads are free, every worker thread will receive 1 ping operation request If one or more worker threads are busy, the ping operations will not be split evenly, but this doesn't matter as the sole purpose is to prevent connections from idling.</p>
 <div class="fragment"><div class="line"><span class="lineno">  359</span>{</div>
@@ -1554,7 +1554,7 @@ template&lt;typename... Args&gt; </div>
 <div class="line"><span class="lineno">  121</span>        <span class="keywordflow">if</span> (sql.empty())</div>
 <div class="line"><span class="lineno">  122</span>            <span class="keywordflow">return</span> <a class="code hl_typedef" href="../../d0/d3e/a00566.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a>(<span class="keyword">nullptr</span>);</div>
 <div class="line"><span class="lineno">  123</span> </div>
-<div class="line"><span class="lineno">  124</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d9/d67/a05349.html#a9073e4eb5be9bda6c8464dbff263dbc8">Query</a>(<a class="code hl_function" href="../../dc/d7e/a04424.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a>(sql, std::forward&lt;Args&gt;(args)...));</div>
+<div class="line"><span class="lineno">  124</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d9/d67/a05349.html#a9073e4eb5be9bda6c8464dbff263dbc8">Query</a>(<a class="code hl_function" href="../../de/dc4/a04428.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a>(sql, std::forward&lt;Args&gt;(args)...));</div>
 <div class="line"><span class="lineno">  125</span>    }</div>
 <div class="ttc" id="aa05349_html_a9073e4eb5be9bda6c8464dbff263dbc8"><div class="ttname"><a href="../../d9/d67/a05349.html#a9073e4eb5be9bda6c8464dbff263dbc8">DatabaseWorkerPool::Query</a></div><div class="ttdeci">QueryResult Query(std::string_view sql)</div><div class="ttdef"><b>Definition:</b> DatabaseWorkerPool.cpp:187</div></div>
 </div><!-- fragment -->
@@ -1813,7 +1813,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d67/a05349.html">DatabaseWorkerPool</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 15:54:27 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sun Dec 11 2022 11:33:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

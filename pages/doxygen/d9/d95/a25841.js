@@ -1,6 +1,6 @@
 var a25841 =
 [
-    [ "PrepareSpellScript", "d9/d95/a25841.html#a63098792c69fed46a146c35585602280", null ],
-    [ "Register", "d9/d95/a25841.html#a1bae14bf94aad0748bb470a70a28c790", null ],
-    [ "SelectTarget", "d9/d95/a25841.html#a3f5eea2a6c75298ad5099183645a12a9", null ]
+    [ "HandleBeforeCast", "d9/d95/a25841.html#a5adc3fc40a1534b771badc284b7dcaad", null ],
+    [ "PrepareSpellScript", "d9/d95/a25841.html#a1aa61ff2e1046d041b7f8ca8b7e0afc5", null ],
+    [ "Register", "d9/d95/a25841.html#a68f2d1191b131e0407eae88408ad3242", null ]
 ];

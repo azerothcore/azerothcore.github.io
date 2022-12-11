@@ -1,7 +1,6 @@
 var a29637 =
 [
-    [ "npc_guardianAI", "d7/d79/a29637.html#acc5d29a79e57fc023369c0dcd4b0d2a3", null ],
-    [ "EnterCombat", "d7/d79/a29637.html#a8ceb9d14fdc3d63072393a7845847eb6", null ],
-    [ "Reset", "d7/d79/a29637.html#a217df9bae079f56ffd70d27958fb2756", null ],
-    [ "UpdateAI", "d7/d79/a29637.html#ab42c39f088ef819a5ffb5f9f4ba2c3a3", null ]
+    [ "npc_garments_of_questsAI", "d6/dc2/a29641.html", "d6/dc2/a29641" ],
+    [ "npc_garments_of_quests", "d7/d79/a29637.html#a7e4ad68e0187c0a392ed93097b2bf0ce", null ],
+    [ "GetAI", "d7/d79/a29637.html#aa8ad1c654f00e054f9b424f61716eafd", null ]
 ];

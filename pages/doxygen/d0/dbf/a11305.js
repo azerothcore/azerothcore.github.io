@@ -1,7 +1,7 @@
 var a11305 =
 [
-    [ "boss_magmusAI", "d0/dbf/a11305.html#a8a3e5361bda492007013af9228899b8f", null ],
-    [ "EnterCombat", "d0/dbf/a11305.html#accbd9441dab0bab06308f4d9df672268", null ],
-    [ "Reset", "d0/dbf/a11305.html#a5fe304cec86831b7e64f83caee1392d0", null ],
-    [ "UpdateAI", "d0/dbf/a11305.html#aa8bb8282c794ea02fe7bd95b3d32e5ea", null ]
+    [ "boss_moira_bronzebeardAI", "d0/dbf/a11305.html#a11265b6aad76574c2c76253128c79165", null ],
+    [ "CastOnEmperorIfPossible", "d0/dbf/a11305.html#a3f42c37e9f4cc14974106bf67ee4e583", null ],
+    [ "EnterCombat", "d0/dbf/a11305.html#aa151c01e7814a66e696849a171c9d2fb", null ],
+    [ "UpdateAI", "d0/dbf/a11305.html#ae3f22a059330fb564cd30e581fc0198d", null ]
 ];

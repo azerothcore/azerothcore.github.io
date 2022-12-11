@@ -1,9 +1,6 @@
 var a12753 =
 [
-    [ "HandleDummyTick", "da/d97/a12753.html#aeeb63cb6e662c7e513b5953eb81b2cb1", null ],
-    [ "Load", "da/d97/a12753.html#a4928bafbfbf01bdcc2cb970c50a83b32", null ],
-    [ "OnApply", "da/d97/a12753.html#a88a767f3e15c6e70932c51f1aa8d61f2", null ],
-    [ "PrepareAuraScript", "da/d97/a12753.html#a99473b1f1c13e5e7167a674d3e4e2a8d", null ],
-    [ "Register", "da/d97/a12753.html#ac6ab0bc5a9b9f3b5643d59b103891b4b", null ],
-    [ "_forsakenSpell", "da/d97/a12753.html#a02c0334f5154d908ab022d4acf41ef40", null ]
+    [ "boss_baroness_anastariAI", "d3/d44/a12757.html", "d3/d44/a12757" ],
+    [ "boss_baroness_anastari", "da/d97/a12753.html#a60f04c10d9b942cacf74a1dc8364dbbe", null ],
+    [ "GetAI", "da/d97/a12753.html#a38073f80afbceb5535cc18ab524378a6", null ]
 ];

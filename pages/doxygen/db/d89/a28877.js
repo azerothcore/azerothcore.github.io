@@ -1,8 +1,7 @@
 var a28877 =
 [
-    [ "ApplyEffect", "db/d89/a28877.html#a0c303c58064236969e17d1f2df3e0556", null ],
-    [ "PrepareAuraScript", "db/d89/a28877.html#a716a483282946f840ac15d73c6e21a94", null ],
-    [ "Register", "db/d89/a28877.html#ad72816bc73bdb1cf578f3c4599ec1682", null ],
-    [ "RemoveEffect", "db/d89/a28877.html#a571b1b19f4d5b13e54288aa89ab1e9b6", null ],
-    [ "Validate", "db/d89/a28877.html#a99eb27ead6f5c8c8f569626600f2daf9", null ]
+    [ "HandleRemove", "db/d89/a28877.html#a0f5a3e4d75dbb5c699ea1acbf89db318", null ],
+    [ "PrepareAuraScript", "db/d89/a28877.html#a9e153c86e29a17b0cc20c65c635aa070", null ],
+    [ "Register", "db/d89/a28877.html#a338ee9c0eddd309ce2a791160059bad6", null ],
+    [ "Validate", "db/d89/a28877.html#ae8272b65a070fc959af003f701567c3c", null ]
 ];

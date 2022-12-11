@@ -1,7 +1,9 @@
 var a29609 =
 [
-    [ "npc_doctorAI", "da/d5d/a29613.html", "da/d5d/a29613" ],
-    [ "npc_doctor", "de/d79/a29609.html#a8471bcd3e83b1a7a69de7bde00846698", null ],
-    [ "GetAI", "de/d79/a29609.html#a3da4d53b2402ad7338eeb6ea463a62f6", null ],
-    [ "OnQuestAccept", "de/d79/a29609.html#a990668aee39a9fa6ec90d0f6095ce48a", null ]
+    [ "npc_chicken_cluckAI", "de/d79/a29609.html#a4f2eaa107e2a8b4900fac54780ac9693", null ],
+    [ "EnterCombat", "de/d79/a29609.html#a7e34a3acd31fb79af15f312a5c243002", null ],
+    [ "ReceiveEmote", "de/d79/a29609.html#aa5d6d3ea3ad4d0f81781581a39933fc8", null ],
+    [ "Reset", "de/d79/a29609.html#a5a32f458a7f09282e7ac53fa7d6255b4", null ],
+    [ "UpdateAI", "de/d79/a29609.html#a86c8f74d0a55b9a041a789f16de8189d", null ],
+    [ "ResetFlagTimer", "de/d79/a29609.html#a0d0507ae7a1eca369df288515856e1b5", null ]
 ];

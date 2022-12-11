@@ -1,8 +1,8 @@
 var a00839 =
 [
-    [ "BfCapturePoint", "df/d2f/a06641.html", "df/d2f/a06641" ],
-    [ "BfGraveyard", "d5/daf/a06645.html", "d5/daf/a06645" ],
-    [ "Battlefield", "df/d4d/a06649.html", "df/d4d/a06649" ],
+    [ "BfCapturePoint", "d5/daf/a06645.html", "d5/daf/a06645" ],
+    [ "BfGraveyard", "df/d4d/a06649.html", "df/d4d/a06649" ],
+    [ "Battlefield", "d4/d5f/a06653.html", "d4/d5f/a06653" ],
     [ "GraveyardVect", "df/de8/a00839.html#a3c001cdd2e1b762c5c2bdd6814e59f6c", null ],
     [ "PlayerTimerMap", "df/de8/a00839.html#a0467dc30f5bb6a1c9ee1487a3aced1a1", null ],
     [ "BattlefieldIDs", "df/de8/a00839.html#aff53bf428d550c270744c9a188d4187f", [

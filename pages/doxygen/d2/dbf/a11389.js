@@ -1,8 +1,6 @@
 var a11389 =
 [
-    [ "boss_highlordomokkAI", "d2/dbf/a11389.html#ae6906b2f86eb2d8efe51de92376be0da", null ],
-    [ "EnterCombat", "d2/dbf/a11389.html#ada9b365b1437e09d68ed0a9b43d4e688", null ],
-    [ "JustDied", "d2/dbf/a11389.html#ac7e125b4350880d3d195b915c8be9de0", null ],
-    [ "Reset", "d2/dbf/a11389.html#a627390013798de7a53a95817624417e3", null ],
-    [ "UpdateAI", "d2/dbf/a11389.html#a38e6008d616131d2876ae5a085a083ff", null ]
+    [ "boss_lord_valthalakAI", "d7/d3b/a11393.html", "d7/d3b/a11393" ],
+    [ "boss_lord_valthalak", "d2/dbf/a11389.html#a180ecb2e2b11ee79c80de18124de3dbc", null ],
+    [ "GetAI", "d2/dbf/a11389.html#a771bd8ff3918d71007b5e4b05baf3df3", null ]
 ];

@@ -1,9 +1,8 @@
 var a28629 =
 [
-    [ "Absorb", "d7/d93/a28629.html#a22b175a7a07f950b5be1aad60e096e4f", null ],
-    [ "CalculateAmount", "d7/d93/a28629.html#a9aa29ca1e77a2ef060d94d4d07a7c0e6", null ],
-    [ "Load", "d7/d93/a28629.html#acf7851d34fa2368c9e711e8b3943c09b", null ],
-    [ "PrepareAuraScript", "d7/d93/a28629.html#ac273b669dc396561d9ec8b523659363f", null ],
-    [ "Register", "d7/d93/a28629.html#a656f4770b0f7099f5926a8063f7d740c", null ],
-    [ "absorbPct", "d7/d93/a28629.html#a31d7ca52ace4e22652403292969baf55", null ]
+    [ "spell_rog_killing_spree_AuraScript", "db/d51/a28637.html", "db/d51/a28637" ],
+    [ "spell_rog_killing_spree_SpellScript", "db/df2/a28633.html", "db/df2/a28633" ],
+    [ "spell_rog_killing_spree", "d7/d93/a28629.html#a5ccbad5a5401df5eb6124506a6f555e3", null ],
+    [ "GetAuraScript", "d7/d93/a28629.html#acf9cb243d57d47dfd416484242d5b45d", null ],
+    [ "GetSpellScript", "d7/d93/a28629.html#ac1079a78cad04c762a9a8e77680a5bae", null ]
 ];

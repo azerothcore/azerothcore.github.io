@@ -1,29 +1,4 @@
 var a04474 =
 [
-    [ "Bank", "dd/d6e/a04485.html", "dd/d6e/a04485" ],
-    [ "Character", "df/dd2/a04486.html", "df/dd2/a04486" ],
-    [ "Chat", "d8/dc4/a04487.html", "d8/dc4/a04487" ],
-    [ "Combat", "d5/d92/a04489.html", "d5/d92/a04489" ],
-    [ "CombatLog", "de/d37/a04488.html", "de/d37/a04488" ],
-    [ "Guild", "d5/d8a/a04475.html", "d5/d8a/a04475" ],
-    [ "LFG", "d5/d47/a04490.html", "d5/d47/a04490" ],
-    [ "Misc", "de/ddb/a04491.html", "de/ddb/a04491" ],
-    [ "Pet", "d7/df7/a04493.html", "d7/df7/a04493" ],
-    [ "Strings", "d1/dc3/a04492.html", "d1/dc3/a04492" ],
-    [ "Totem", "d4/d22/a04494.html", "d4/d22/a04494" ],
-    [ "WorldState", "db/dd8/a04495.html", "db/dd8/a04495" ],
-    [ "Array", "dd/d74/a10233.html", "dd/d74/a10233" ],
-    [ "ClientPacket", "d2/d8a/a09825.html", "d2/d8a/a09825" ],
-    [ "CompactArray", "db/d22/a10237.html", "db/d22/a10237" ],
-    [ "IllegalHyperlinkException", "d3/d89/a10201.html", "d3/d89/a10201" ],
-    [ "InvalidHyperlinkException", "df/d92/a10197.html", "df/d92/a10197" ],
-    [ "InvalidStringValueException", "dc/d33/a10189.html", "dc/d33/a10189" ],
-    [ "InvalidUtf8ValueException", "d2/d12/a10193.html", "d2/d12/a10193" ],
-    [ "Packet", "d5/d62/a09817.html", "d5/d62/a09817" ],
-    [ "PacketArrayMaxCapacityException", "d7/de5/a10229.html", "d7/de5/a10229" ],
-    [ "ServerPacket", "dc/d01/a09821.html", "dc/d01/a09821" ],
-    [ "String", "d3/d90/a10225.html", "d3/d90/a10225" ],
-    [ "CheckCompactArrayMaskOverflow", "dc/d50/a04474.html#afb4909c8c4c13b14c8eceda2e9b4246d", null ],
-    [ "operator<<", "dc/d50/a04474.html#a82e35db0d6b671a4f4a581aac05828dc", null ],
-    [ "operator>>", "dc/d50/a04474.html#ab21e8e534a45a2a33d69cd11562a45c6", null ]
+    [ "hash< ObjectGuid >", "d2/d15/a07873.html", "d2/d15/a07873" ]
 ];

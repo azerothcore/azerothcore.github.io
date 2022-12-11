@@ -1,8 +1,6 @@
 var a12745 =
 [
-    [ "CalcPeriodic", "dd/d5d/a12745.html#af51fe7af7bef9e8c2ce1c3042489209c", null ],
-    [ "HandleDummyTick", "dd/d5d/a12745.html#aa737859657afa55c468dde56f1f69b0b", null ],
-    [ "HandleUpdatePeriodic", "dd/d5d/a12745.html#a1125dfd3a407b350f1390de972b569e9", null ],
-    [ "PrepareAuraScript", "dd/d5d/a12745.html#aa9e47a9138579f8f5edca41f23ad6457", null ],
-    [ "Register", "dd/d5d/a12745.html#aab4f5e348ff5008c21c015b253f5cb50", null ]
+    [ "spell_shadowfang_keep_forsaken_skills_AuraScript", "d0/d98/a12749.html", "d0/d98/a12749" ],
+    [ "spell_shadowfang_keep_forsaken_skills", "dd/d5d/a12745.html#a546f43f401a1db068d50904943fe3bd5", null ],
+    [ "GetAuraScript", "dd/d5d/a12745.html#aa17c4342a7dbd9df903dc53cb11a36aa", null ]
 ];

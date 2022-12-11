@@ -1,9 +1,7 @@
 var a29193 =
 [
-    [ "ChatLogScript", "df/da0/a29193.html#ade8c407083cf094f0767412e7b6d7730", null ],
-    [ "OnChat", "df/da0/a29193.html#a44694358d5babfd988c6c64e738a4f80", null ],
-    [ "OnChat", "df/da0/a29193.html#ac0a0f2e7d63cb5ff94be3d1a7c7a62b4", null ],
-    [ "OnChat", "df/da0/a29193.html#a53b69eaa690266d38f08aa3920048353", null ],
-    [ "OnChat", "df/da0/a29193.html#ac4845332fd6498f8f33101a6af50edfb", null ],
-    [ "OnChat", "df/da0/a29193.html#a7b6ce21ddcda078a0ed32ce130a3b376", null ]
+    [ "HandlePeriodic", "df/da0/a29193.html#a3da4cc5322f2e34244729fe3b3876482", null ],
+    [ "PrepareAuraScript", "df/da0/a29193.html#aab7f5c5bdfdd2b440f59f16ab321765a", null ],
+    [ "Register", "df/da0/a29193.html#a53b6067f46912648413fc6d6f107b0d8", null ],
+    [ "Validate", "df/da0/a29193.html#aa03222717b3c06316b232a6ac0270ec0", null ]
 ];

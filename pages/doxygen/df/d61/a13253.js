@@ -1,6 +1,6 @@
 var a13253 =
 [
-    [ "HandleSendEvent", "df/d61/a13253.html#a57915ab912fb71fa9fb0aab774f7fb0e", null ],
-    [ "PrepareSpellScript", "df/d61/a13253.html#a2f934bdc7339e775fa3cbe636842bab9", null ],
-    [ "Register", "df/d61/a13253.html#ad985511c9d6576086b3a57990ed28cb6", null ]
+    [ "npc_professor_phizzlethorpeAI", "d1/d88/a13257.html", "d1/d88/a13257" ],
+    [ "npc_professor_phizzlethorpe", "df/d61/a13253.html#a8d32b4a107533c81033c617b0b97027d", null ],
+    [ "GetAI", "df/d61/a13253.html#a5eb540d16b2dd123d553ea4ae24d8b53", null ]
 ];

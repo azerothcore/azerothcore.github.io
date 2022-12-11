@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: WorldPackets::Chat Namespace Reference</title>
+<title>AzeorthCore: anonymous_namespace{ScriptMgr.cpp} Namespace Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,27 +106,61 @@ $(document).ready(function(){initNavTree('d8/dc4/a04487.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
-  <div class="headertitle"><div class="title">WorldPackets::Chat Namespace Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">anonymous_namespace{ScriptMgr.cpp} Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df6/a09897.html">ChatServerMessage</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d15/a09889.html">Emote</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a09893.html">EmoteClient</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ab71e08e3f39b7ee7bda0306cd39b96a0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab71e08e3f39b7ee7bda0306cd39b96a0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/dc4/a04487.html#ab71e08e3f39b7ee7bda0306cd39b96a0">SCR_CLEAR</a> ()</td></tr>
+<tr class="separator:ab71e08e3f39b7ee7bda0306cd39b96a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ab71e08e3f39b7ee7bda0306cd39b96a0" name="ab71e08e3f39b7ee7bda0306cd39b96a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab71e08e3f39b7ee7bda0306cd39b96a0">&#9670;&#160;</a></span>SCR_CLEAR()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void anonymous_namespace{ScriptMgr.cpp}::SCR_CLEAR </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   29</span>    {</div>
+<div class="line"><span class="lineno">   30</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; [scriptID, script] : <a class="code hl_class" href="../../db/d2c/a09809.html">ScriptRegistry&lt;T&gt;::ScriptPointerList</a>)</div>
+<div class="line"><span class="lineno">   31</span>        {</div>
+<div class="line"><span class="lineno">   32</span>            <span class="keyword">delete</span> script;</div>
+<div class="line"><span class="lineno">   33</span>        }</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>        <a class="code hl_class" href="../../db/d2c/a09809.html">ScriptRegistry&lt;T&gt;::ScriptPointerList</a>.clear();</div>
+<div class="line"><span class="lineno">   36</span>    }</div>
+<div class="ttc" id="aa09809_html"><div class="ttname"><a href="../../db/d2c/a09809.html">ScriptRegistry</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2694</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dc/d50/a04474.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../d8/dc4/a04487.html">Chat</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 15:55:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/dc4/a04487.html">anonymous_namespace{ScriptMgr.cpp}</a></li>
+    <li class="footer">Generated on Sun Dec 11 2022 11:34:27 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,6 @@
 var a27481 =
 [
-    [ "CalculateAmount", "de/db0/a27481.html#a83bf0327aade6f6a33293a442ad10911", null ],
-    [ "PrepareAuraScript", "de/db0/a27481.html#aa964f4eb7391dab54ff744fc94306de1", null ],
-    [ "Register", "de/db0/a27481.html#a37d29d87bec2fe2908b7d3e47f5e1caa", null ]
+    [ "ModDest", "de/db0/a27481.html#afe0fb68de61a657ce6900e71973e4d77", null ],
+    [ "PrepareSpellScript", "de/db0/a27481.html#a7b0446133750fce7eda19dbde5abb3b1", null ],
+    [ "Register", "de/db0/a27481.html#a6919079b43a816eb601a68c51ad39794", null ]
 ];

@@ -1,6 +1,6 @@
 var a25549 =
 [
-    [ "boss_warbringer_omroggAI", "de/dbc/a25553.html", "de/dbc/a25553" ],
-    [ "boss_warbringer_omrogg", "d4/dca/a25549.html#a71cd768c8082498785cf4c478b4eaed7", null ],
-    [ "GetAI", "d4/dca/a25549.html#a4cf48d2e66e1d312438f89fd26e3a561", null ]
+    [ "spell_tsh_shadow_bolt_SpellScript", "de/dbc/a25553.html", "de/dbc/a25553" ],
+    [ "spell_tsh_shadow_bolt", "d4/dca/a25549.html#ac4b6e92c4f6509ccbe383345a5c1a387", null ],
+    [ "GetSpellScript", "d4/dca/a25549.html#aec6178870f0370294c749cb513643363", null ]
 ];

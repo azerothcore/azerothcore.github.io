@@ -1,7 +1,6 @@
 var a13717 =
 [
-    [ "npc_janalai_eggAI", "d8/dfa/a13717.html#a75bf6d0c7fdb09ace4352cde99edda81", null ],
-    [ "Reset", "d8/dfa/a13717.html#aad93238c8c26d678da6df2d0191d3763", null ],
-    [ "SpellHit", "d8/dfa/a13717.html#a2e097705ad9710b22be38931df30bcc3", null ],
-    [ "UpdateAI", "d8/dfa/a13717.html#a4aa8bfac1e4584497d48097535cc77d3", null ]
+    [ "boss_nalorakkAI", "d6/d95/a13721.html", "d6/d95/a13721" ],
+    [ "boss_nalorakk", "d8/dfa/a13717.html#a1758797883b528b763c7ccee640b6440", null ],
+    [ "GetAI", "d8/dfa/a13717.html#a78f1cc141e6b48c9bf867f9a84914b10", null ]
 ];

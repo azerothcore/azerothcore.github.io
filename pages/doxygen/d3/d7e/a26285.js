@@ -1,11 +1,14 @@
 var a26285 =
 [
-    [ "npc_enslaved_netherwing_drakeAI", "d3/d7e/a26285.html#ad4b5d92f92d8b0bddf14432c20285b5d", null ],
-    [ "MovementInform", "d3/d7e/a26285.html#aae9ed883d6c244bcb844f2d2a268766d", null ],
-    [ "Reset", "d3/d7e/a26285.html#a5259210cb8731b7ec23bd71a44c59251", null ],
-    [ "SpellHit", "d3/d7e/a26285.html#a1133009acdda40c6fbe1519f5c969156", null ],
-    [ "UpdateAI", "d3/d7e/a26285.html#aaaa850188b8748eb8fb4289e4156f841", null ],
-    [ "FlyTimer", "d3/d7e/a26285.html#a63f3a88476424873f43ef038270deca2", null ],
-    [ "PlayerGUID", "d3/d7e/a26285.html#a7cc93fd7b9bc5818523ac96aaed14b17", null ],
-    [ "Tapped", "d3/d7e/a26285.html#aba127fc15948d8673ed7a293e60f640c", null ]
+    [ "npc_mature_netherwing_drakeAI", "d3/d7e/a26285.html#a32281f8dfa1c8af8fe6bcac2a8be4220", null ],
+    [ "JustReachedHome", "d3/d7e/a26285.html#a0de69b5fda6342217697ad264d64d4e6", null ],
+    [ "MovementInform", "d3/d7e/a26285.html#a456b5de60672120f82506d177faf6b47", null ],
+    [ "Reset", "d3/d7e/a26285.html#a72eb39e259aed0ab230d4d43722cba13", null ],
+    [ "SpellHit", "d3/d7e/a26285.html#a749690b386c0c726d11b77bc705b9b01", null ],
+    [ "UpdateAI", "d3/d7e/a26285.html#a624c256f29d3cefed0bb909da3841853", null ],
+    [ "bCanEat", "d3/d7e/a26285.html#ad4c671be4f16f23ddf2f2f84b0bd4c94", null ],
+    [ "bIsEating", "d3/d7e/a26285.html#a0519438fda724a06a0c6f8ed2d7d533d", null ],
+    [ "CastTimer", "d3/d7e/a26285.html#a630312f70a2f22683311a66e5a4f9ec6", null ],
+    [ "EatTimer", "d3/d7e/a26285.html#aa50d3a21103dc769d162b1c917100630", null ],
+    [ "uiPlayerGUID", "d3/d7e/a26285.html#a6b9a435245ddce156d0657aa9e35175b", null ]
 ];

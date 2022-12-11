@@ -1,10 +1,8 @@
 var a29401 =
 [
-    [ "guard_shattrath_scryerAI", "dc/dde/a29401.html#a97accbf467ca1190f8a05512b3857164", null ],
-    [ "Reset", "dc/dde/a29401.html#adfcd8bce42148d303fe6ec9b615ffdb1", null ],
-    [ "UpdateAI", "dc/dde/a29401.html#ad759cca08b0093522e190ddc038e2c73", null ],
-    [ "banishTimer", "dc/dde/a29401.html#aa9aa3c2e7e69df5899c84ebde1e357bd", null ],
-    [ "canTeleport", "dc/dde/a29401.html#a84188b40b44deae5714466bb23bf2f0d", null ],
-    [ "exileTimer", "dc/dde/a29401.html#a97fbc3f54c23049fd91ad432cd560698", null ],
-    [ "playerGUID", "dc/dde/a29401.html#adb40d8bbc97a6a1fa0f4e303db470db2", null ]
+    [ "go_bellsAI", "dc/dde/a29401.html#a6f22847c66a3b5faded35da799359846", null ],
+    [ "UpdateAI", "dc/dde/a29401.html#ab466f67665577f22bfe6cdb94d0a008b", null ],
+    [ "_events", "dc/dde/a29401.html#a46c66442078cee28a76fc412746ca026", null ],
+    [ "_soundId", "dc/dde/a29401.html#ab2491e9d27266ea69a5a9163e8c1b35b", null ],
+    [ "once", "dc/dde/a29401.html#abf6ca2fc64f5764936a6d0179d40c2fa", null ]
 ];

@@ -1,9 +1,7 @@
 var a06833 =
 [
-    [ "BattlegroundEYLosingPointStruct", "d9/d66/a06833.html#ae3f19e55206e1a8097fe173a8a37aa12", null ],
-    [ "DespawnObjectTypeAlliance", "d9/d66/a06833.html#a210828d05ea9948484631b7408a3bb4b", null ],
-    [ "DespawnObjectTypeHorde", "d9/d66/a06833.html#a335205cb71b7055db4c01a5e562001b6", null ],
-    [ "MessageIdAlliance", "d9/d66/a06833.html#afe89eccc8c21351edb4ce943d937e521", null ],
-    [ "MessageIdHorde", "d9/d66/a06833.html#a8295974ee1f663dd0d22bcc4f0e0fa92", null ],
-    [ "SpawnNeutralObjectType", "d9/d66/a06833.html#a57c1a6f485ea6617b5218da411cae38f", null ]
+    [ "BattlegroundEYPointIconsStruct", "d9/d66/a06833.html#a322379024d155d293d1c0083c510d232", null ],
+    [ "WorldStateAllianceControlledIndex", "d9/d66/a06833.html#a449932bc2357e26c79520fcf01a71a2a", null ],
+    [ "WorldStateControlIndex", "d9/d66/a06833.html#a82e87048f934b67821bc8ba308ed101d", null ],
+    [ "WorldStateHordeControlledIndex", "d9/d66/a06833.html#a1118c998cf9a319f9c81c100d23c25d3", null ]
 ];

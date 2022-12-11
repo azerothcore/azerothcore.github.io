@@ -1,5 +1,5 @@
 var a09869 =
 [
-    [ "LogoutCancel", "d8/d61/a09869.html#a179fccf74fa969e6a32492f35d6f28c8", null ],
-    [ "Read", "d8/d61/a09869.html#a9ed27bc4472b7e4e225793b4f2e5a34d", null ]
+    [ "LogoutComplete", "d8/d61/a09869.html#a94f3ea0cd30d1eb44733c1c5aef05ec7", null ],
+    [ "Write", "d8/d61/a09869.html#a0d958bc07b674ed3339833351fec7d3a", null ]
 ];

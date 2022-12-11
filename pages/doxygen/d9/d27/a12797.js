@@ -1,6 +1,6 @@
 var a12797 =
 [
-    [ "OnRemove", "d9/d27/a12797.html#aa1cf7727c57d5b6a1968bafcdef63113", null ],
-    [ "PrepareAuraScript", "d9/d27/a12797.html#a1139466be6e4391d1f488d3f56758b2c", null ],
-    [ "Register", "d9/d27/a12797.html#a6ff95222d980c659653116f560ec2b80", null ]
+    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer_SpellScript", "d5/df6/a12801.html", "d5/df6/a12801" ],
+    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer", "d9/d27/a12797.html#a5eb6f05a4436b8edc8c7e71926328e30", null ],
+    [ "GetSpellScript", "d9/d27/a12797.html#ac76a5ea53843c60d0742245971b5448d", null ]
 ];

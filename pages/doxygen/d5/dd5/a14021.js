@@ -1,6 +1,6 @@
 var a14021 =
 [
-    [ "boss_wushoolayAI", "d4/d02/a14025.html", "d4/d02/a14025" ],
-    [ "boss_wushoolay", "d5/dd5/a14021.html#a68359ee086bb4e86c3c16c4a03e54893", null ],
-    [ "GetAI", "d5/dd5/a14021.html#a70b476358956fd05d6effb75517e2b3d", null ]
+    [ "boss_wushoolayAI", "d5/dd5/a14021.html#a2ea62154c0932e5cd34bd4b858829ffe", null ],
+    [ "EnterCombat", "d5/dd5/a14021.html#aaa2d457c6cf0da7cc9db929b9cc43b9b", null ],
+    [ "UpdateAI", "d5/dd5/a14021.html#acfaacee2a97212eb15056c1552b9e06b", null ]
 ];

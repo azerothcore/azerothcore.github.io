@@ -1,0 +1,26 @@
+var a20440 =
+[
+    [ "instance_oculus_InstanceMapScript", "d8/d26/a20440.html#a86c942751aee67ae10e2c77a1ace630e", null ],
+    [ "CheckAchievementCriteriaMeet", "d8/d26/a20440.html#a04ea989733a6ba1bed1990e1ea8baf1f", null ],
+    [ "GetData", "d8/d26/a20440.html#a44cf46153dd392758fa5c388e8c2ea84", null ],
+    [ "GetGuidData", "d8/d26/a20440.html#ac969f1faf18633ad54354015fb66f4f8", null ],
+    [ "GetSaveData", "d8/d26/a20440.html#acc7eb8133198c2b83660ffea2b645e53", null ],
+    [ "Initialize", "d8/d26/a20440.html#a1c035ca450efdd89481715bd09c6c38c", null ],
+    [ "Load", "d8/d26/a20440.html#a1f833ee2e312513b9b2484880378fcbb", null ],
+    [ "OnCreatureCreate", "d8/d26/a20440.html#a1b0553334dc2d00fd12512dae373039a", null ],
+    [ "OnGameObjectCreate", "d8/d26/a20440.html#a08abbb0430a43bb4841560b01e9fe26c", null ],
+    [ "OnPlayerEnter", "d8/d26/a20440.html#a7046a9b087300d0854bb1078c7bd1c9b", null ],
+    [ "OnUnitDeath", "d8/d26/a20440.html#a84fa94a97c62ba7b68130c7a5d8bb4dd", null ],
+    [ "SetData", "d8/d26/a20440.html#a58b0b5142cbae350d6cc61c89a3792af", null ],
+    [ "bAmberVoid", "d8/d26/a20440.html#a9dfa8834bfea20a8f4a39c958e38bcbd", null ],
+    [ "bEmeraldVoid", "d8/d26/a20440.html#a45ce85a8a6c9362ad04194b0518066c9", null ],
+    [ "bRubyVoid", "d8/d26/a20440.html#ad93d6be40d07925d1eb485f864c72ace", null ],
+    [ "CentrifugeCount", "d8/d26/a20440.html#ae5a87cc8bfc153aee0f96978f39a1932", null ],
+    [ "DragonCageDoorGUID", "d8/d26/a20440.html#a402480035dfffd7c4c717229bd55b921", null ],
+    [ "EregosCacheGUID", "d8/d26/a20440.html#aad60cffd6c483bf4610884c3b99ad39c", null ],
+    [ "m_auiEncounter", "d8/d26/a20440.html#af4cca13b9039d7c88e7fad1e8f23eb3a", null ],
+    [ "uiDrakosGUID", "d8/d26/a20440.html#a1bc410826700bdfcefc5f60d0967a091", null ],
+    [ "uiEregosGUID", "d8/d26/a20440.html#a559b482989ee8f91f1ba412683856d89", null ],
+    [ "uiUromGUID", "d8/d26/a20440.html#accf640519e925eccf0230ca4a5dee3bb", null ],
+    [ "uiVarosGUID", "d8/d26/a20440.html#ab4a87ca38d203deacc377579e66e5bfb", null ]
+];

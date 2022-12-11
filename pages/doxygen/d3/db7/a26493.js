@@ -1,6 +1,6 @@
 var a26493 =
 [
-    [ "npc_rotting_forest_ragerAI", "de/de3/a26497.html", "de/de3/a26497" ],
-    [ "npc_rotting_forest_rager", "d3/db7/a26493.html#a70ee57ef5bc4f187ab511916f47b61a9", null ],
-    [ "GetAI", "d3/db7/a26493.html#ae457fe382f3c015a2c854cc28726c4c7", null ]
+    [ "npc_infested_root_walkerAI", "de/de3/a26497.html", "de/de3/a26497" ],
+    [ "npc_infested_root_walker", "d3/db7/a26493.html#adbd4a8ccf6375e7546a1ec8aeeb5366b", null ],
+    [ "GetAI", "d3/db7/a26493.html#a2f3445e6d7f7f1060be71c1f34f3e2fe", null ]
 ];

@@ -1,9 +1,10 @@
 var a02894 =
 [
-    [ "spell_hallows_end_trick", "d7/de2/a14213.html", "d7/de2/a14213" ],
-    [ "spell_hallows_end_put_costume", "d7/dd2/a14217.html", "d7/dd2/a14217" ],
-    [ "spell_hallows_end_trick_or_treat", "d5/de1/a14221.html", "d5/de1/a14221" ],
-    [ "spell_hallows_end_candy", "d8/d82/a14225.html", "d8/d82/a14225" ],
+    [ "spell_hallows_end_trick", "de/dc4/a14209.html", "de/dc4/a14209" ],
+    [ "spell_hallows_end_put_costume", "d7/de2/a14213.html", "d7/de2/a14213" ],
+    [ "spell_hallows_end_trick_or_treat", "d7/dd2/a14217.html", "d7/dd2/a14217" ],
+    [ "spell_hallows_end_candy", "d5/de1/a14221.html", "d5/de1/a14221" ],
+    [ "spell_hallows_end_candy_pirate_costume", "d8/d82/a14225.html", "d8/d82/a14225" ],
     [ "spell_hallows_end_tricky_treat", "dd/dec/a14229.html", "dd/dec/a14229" ],
     [ "spell_hallows_end_bucket_lands", "d1/db6/a14233.html", "d1/db6/a14233" ],
     [ "spell_hallows_end_base_fire", "da/d4a/a14237.html", "da/d4a/a14237" ],
@@ -47,6 +48,8 @@ var a02894 =
       [ "SPELL_HALLOWS_END_CANDY_1", "dc/d38/a02894.html#ae6e295ab1c37d0d4686610c25c5d67c7a1b6a19aee4fbdfebb3d48f44e63e4783", null ],
       [ "SPELL_HALLOWS_END_CANDY_2", "dc/d38/a02894.html#ae6e295ab1c37d0d4686610c25c5d67c7a49cd7fd084ca25ff2fa67e8c67d6a502", null ],
       [ "SPELL_HALLOWS_END_CANDY_3", "dc/d38/a02894.html#ae6e295ab1c37d0d4686610c25c5d67c7a7db634871486166b004fa7004ed50eb6", null ],
+      [ "SPELL_HALLOWS_END_CANDY_3_FEMALE", "dc/d38/a02894.html#ae6e295ab1c37d0d4686610c25c5d67c7ae46d5a80e85e8c982165d9f5e706d2ef", null ],
+      [ "SPELL_HALLOWS_END_CANDY_3_MALE", "dc/d38/a02894.html#ae6e295ab1c37d0d4686610c25c5d67c7a2d56d2c112725fb3b4c2731b7757dad5", null ],
       [ "SPELL_HALLOWS_END_CANDY_4", "dc/d38/a02894.html#ae6e295ab1c37d0d4686610c25c5d67c7a42e6831fefc5f30ca90e0bb76aaf68c9", null ]
     ] ],
     [ "eTrickOrTreatSpells", "dc/d38/a02894.html#a5432f1213354c0249cf69bcb6a9488ec", [

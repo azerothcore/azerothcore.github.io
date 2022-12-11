@@ -1,7 +1,9 @@
 var a25941 =
 [
-    [ "HandleDamage", "da/d48/a25941.html#a26ca037a7072f8b59b2ab3f6e1166e1b", null ],
-    [ "HandleTargets", "da/d48/a25941.html#a41427395c3f4dc7d43a835811fe21fee", null ],
-    [ "PrepareSpellScript", "da/d48/a25941.html#a993ce62001d5136b337c855a636a8c34", null ],
-    [ "Register", "da/d48/a25941.html#a57e8cbdfcbbb23809f997281ec254d5c", null ]
+    [ "boss_mechano_lord_capacitusAI", "da/d48/a25941.html#a398142cc18ac96396a486cac884fd0b6", null ],
+    [ "EnterCombat", "da/d48/a25941.html#afbfcecef03838534bec5230bd8745c55", null ],
+    [ "JustDied", "da/d48/a25941.html#a736b09f0d76a4947bd307df912a070cc", null ],
+    [ "JustSummoned", "da/d48/a25941.html#a71a0987e4cb74bee32924759b878c428", null ],
+    [ "KilledUnit", "da/d48/a25941.html#abf94cfd55b8ac3dc3d606190b9ff713e", null ],
+    [ "UpdateAI", "da/d48/a25941.html#ad4c24019baca62358de48d09d57bb071", null ]
 ];

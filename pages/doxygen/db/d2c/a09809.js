@@ -1,9 +1,14 @@
 var a09809 =
 [
-    [ "fX", "db/d2c/a09809.html#a53aeb6e82eea1dc4a4e5d8e99dfd3fc5", null ],
-    [ "fY", "db/d2c/a09809.html#a9b158e247014eec0d35e465ab9469ac7", null ],
-    [ "fZ", "db/d2c/a09809.html#a2e02f9738393aeb8cd62ac26dda8fc10", null ],
-    [ "uiCreatureEntry", "db/d2c/a09809.html#ac31436c40bd0bf375635e2ea604fbf61", null ],
-    [ "uiPointId", "db/d2c/a09809.html#acb4d9697a24d5c29deacdefe8eb0e267", null ],
-    [ "uiWaitTime", "db/d2c/a09809.html#a305620aad71152c1139a88dea05a1887", null ]
+    [ "ScriptMap", "db/d2c/a09809.html#a0f8009ac0cd91574f0bf4ac92ef90ce0", null ],
+    [ "ScriptMapIterator", "db/d2c/a09809.html#ad1fcde41ec854314c5e1cc50b916ac5d", null ],
+    [ "ScriptVector", "db/d2c/a09809.html#a5876f034e4de24505e751d56f335331d", null ],
+    [ "ScriptVectorIterator", "db/d2c/a09809.html#ac0554c5200368592f5d0bfb1025935fe", null ],
+    [ "_checkMemory", "db/d2c/a09809.html#a8d784f25a47c9ca4be72fca0215bf1c8", null ],
+    [ "AddALScripts", "db/d2c/a09809.html#aa86b74a2560deae81f5c2a38cf1f72c8", null ],
+    [ "AddScript", "db/d2c/a09809.html#aec80d2fe317ee906bafab2efc75e752c", null ],
+    [ "GetScriptById", "db/d2c/a09809.html#a22226c545e7975d4c612e7adcc766d05", null ],
+    [ "_scriptIdCounter", "db/d2c/a09809.html#aa66e44e9291be980d12f4167f699c680", null ],
+    [ "ALScripts", "db/d2c/a09809.html#ad682a00d81d0418574a02a0020f4a80a", null ],
+    [ "ScriptPointerList", "db/d2c/a09809.html#a57e93b2fa2db2a29fa4c12714e217d43", null ]
 ];

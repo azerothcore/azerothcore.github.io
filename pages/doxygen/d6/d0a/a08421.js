@@ -1,12 +1,10 @@
 var a08421 =
 [
-    [ "IsTeamAward1", "d6/d0a/a08421.html#a25f928a8f8c3a19b1aa9a5c41b0ba612", null ],
-    [ "IsTeamAward2", "d6/d0a/a08421.html#a053bd7825d0464ac322b449f3d243722", null ],
-    [ "RepFaction1", "d6/d0a/a08421.html#a4e75bb4149f8bb0b83a5aacba47800dd", null ],
-    [ "RepFaction2", "d6/d0a/a08421.html#a5934590811c666d06b68216428574d8a", null ],
-    [ "ReputationMaxCap1", "d6/d0a/a08421.html#a292b78f629723c3993a796eb256dd9b8", null ],
-    [ "ReputationMaxCap2", "d6/d0a/a08421.html#ac90d17e82d6c8a763d3ea868250b44a7", null ],
-    [ "RepValue1", "d6/d0a/a08421.html#a8c47b676c10d6352a0283b830a7676ec", null ],
-    [ "RepValue2", "d6/d0a/a08421.html#adf8dce20d7660993dbd51e7c2d3b6a9d", null ],
-    [ "TeamDependent", "d6/d0a/a08421.html#a66e60a90f166e5fc12ea4dbe615c998f", null ]
+    [ "creatureRate", "d6/d0a/a08421.html#aa9c27c19179b8a7bdfdc11d906cd1c06", null ],
+    [ "questDailyRate", "d6/d0a/a08421.html#a1798044bdf25ce774191b00e261add1e", null ],
+    [ "questMonthlyRate", "d6/d0a/a08421.html#a0db34ed7420bc376cfe64a0d12434fea", null ],
+    [ "questRate", "d6/d0a/a08421.html#a914118aa28b3736ff4e6c5b61d738834", null ],
+    [ "questRepeatableRate", "d6/d0a/a08421.html#a2b050d4cf6555e824d59a3ffc0558b21", null ],
+    [ "questWeeklyRate", "d6/d0a/a08421.html#a0fb31ebc33d0ce11f392be845907e043", null ],
+    [ "spellRate", "d6/d0a/a08421.html#a508485f1e6833c58a11706667a2c24fd", null ]
 ];

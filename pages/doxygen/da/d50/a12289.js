@@ -1,6 +1,6 @@
 var a12289 =
 [
-    [ "spell_mt_phoenix_burn_SpellScript", "d4/da9/a12293.html", "d4/da9/a12293" ],
-    [ "spell_mt_phoenix_burn", "da/d50/a12289.html#aebe4d719c2d098273d02a6577702c40a", null ],
-    [ "GetSpellScript", "da/d50/a12289.html#aecec94d80b8903c003093046d4fecab5", null ]
+    [ "HandleAfterCast", "da/d50/a12289.html#aaf878b109e1d408d8dbda968aa7b4302", null ],
+    [ "PrepareSpellScript", "da/d50/a12289.html#ae830f77e10235820fdb3bb8e4b0d8d02", null ],
+    [ "Register", "da/d50/a12289.html#ada63b6f83436180d17046a71b268bcc6", null ]
 ];

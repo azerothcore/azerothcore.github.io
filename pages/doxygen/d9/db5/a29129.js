@@ -1,6 +1,9 @@
 var a29129 =
 [
-    [ "boss_ysondreAI", "df/d92/a29133.html", "df/d92/a29133" ],
-    [ "boss_ysondre", "d9/db5/a29129.html#ad12dbb728f4f0cdf2f4c0ba9cd2a167d", null ],
-    [ "GetAI", "d9/db5/a29129.html#a0da215d7bc8ee86216887e682b9335c3", null ]
+    [ "emerald_dragonAI", "d9/db5/a29129.html#ae80aa90ad978b8e3254a3c116bf05959", null ],
+    [ "ExecuteEvent", "d9/db5/a29129.html#a6e60f146c7b86a119f269bf755831ac6", null ],
+    [ "JustSummoned", "d9/db5/a29129.html#a4ec04284cdebfc5b594e083aa850f7cb", null ],
+    [ "KilledUnit", "d9/db5/a29129.html#a69b24bf865ecd38822d5602314cddf11", null ],
+    [ "Reset", "d9/db5/a29129.html#aff24939b53a7d74b41ac9170a8a71e9c", null ],
+    [ "UpdateAI", "d9/db5/a29129.html#a221768f9ad3c79bbcdefd3092228e3b0", null ]
 ];

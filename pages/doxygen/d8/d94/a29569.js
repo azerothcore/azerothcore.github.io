@@ -1,10 +1,8 @@
 var a29569 =
 [
-    [ "npc_training_dummyAI", "d8/d94/a29569.html#a2f10fd0b4365e99446f728883a47eb6a", null ],
-    [ "DamageTaken", "d8/d94/a29569.html#a641c40906a6365f068ccbdba9d033923", null ],
-    [ "EnterEvadeMode", "d8/d94/a29569.html#adb1de124bdb2a986efcfcfc287b6d824", null ],
-    [ "MoveInLineOfSight", "d8/d94/a29569.html#a52f3516e9da6895eeddcdef7a198a6b1", null ],
-    [ "Reset", "d8/d94/a29569.html#af63f500cb3179964c90afab0d4a2c9b7", null ],
-    [ "UpdateAI", "d8/d94/a29569.html#a5e7892a64cd1a5cf678b401b62497bfb", null ],
-    [ "resetTimer", "d8/d94/a29569.html#a443f2f7de257af473d6e9793f34a2071", null ]
+    [ "npc_riggle_bassbaitAI", "d4/dc9/a29573.html", "d4/dc9/a29573" ],
+    [ "npc_riggle_bassbait", "d8/d94/a29569.html#afc4280099cda3c28c4634d649e636839", null ],
+    [ "GetAI", "d8/d94/a29569.html#ad5e3230dae9ac23aa83883e53b37234e", null ],
+    [ "OnGossipHello", "d8/d94/a29569.html#aeea1e5d4d59c72ce97e1f0eb8da5b6fe", null ],
+    [ "OnQuestReward", "d8/d94/a29569.html#aa3ef2b3ebd7542a4836983872c397e66", null ]
 ];

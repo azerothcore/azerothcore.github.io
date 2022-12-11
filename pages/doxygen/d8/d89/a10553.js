@@ -1,7 +1,15 @@
 var a10553 =
 [
-    [ "ap_bonus", "d8/d89/a10553.html#a98410b8bb89434cd7e1747462f8039dc", null ],
-    [ "ap_dot_bonus", "d8/d89/a10553.html#a09caeec47b138d9eff3539795416a09a", null ],
-    [ "direct_damage", "d8/d89/a10553.html#abab1af227a6c8e592b8a9bd15589535d", null ],
-    [ "dot_damage", "d8/d89/a10553.html#a92491d8d1e61612d88c7c830d7912be5", null ]
+    [ "AttributesMask", "d8/d89/a10553.html#a7cc9dfa91e034f5052ebd3bf8eaea42a", null ],
+    [ "Chance", "d8/d89/a10553.html#aea5ca609c75ea7b314aec8ae0246297e", null ],
+    [ "Charges", "d8/d89/a10553.html#a75f0484dad60eec59b399a188fd9908f", null ],
+    [ "Cooldown", "d8/d89/a10553.html#a4e6185aea35599a3efc2e806145cb1d2", null ],
+    [ "HitMask", "d8/d89/a10553.html#a8ac3331576b4eb761157fa3d0d622bea", null ],
+    [ "ProcFlags", "d8/d89/a10553.html#a9e5de790c4f61537397a1ce2bce8a9b0", null ],
+    [ "ProcsPerMinute", "d8/d89/a10553.html#a3815765c08f6b95cae6efb93fa98623b", null ],
+    [ "SchoolMask", "d8/d89/a10553.html#acf72c4a783235770bbff952bdc002324", null ],
+    [ "SpellFamilyMask", "d8/d89/a10553.html#a8688e9282cb78d4f24b310cc2521c22b", null ],
+    [ "SpellFamilyName", "d8/d89/a10553.html#a2cb738b0d4579503fcb9bca7988f7e36", null ],
+    [ "SpellPhaseMask", "d8/d89/a10553.html#ab4c4bfa1493a7a5924d3cd094127f973", null ],
+    [ "SpellTypeMask", "d8/d89/a10553.html#a99e20d3979a532e1ca90ee83edcff3eb", null ]
 ];

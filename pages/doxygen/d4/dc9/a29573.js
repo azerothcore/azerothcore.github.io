@@ -1,6 +1,7 @@
 var a29573 =
 [
-    [ "npc_target_dummyAI", "dc/d98/a29577.html", "dc/d98/a29577" ],
-    [ "npc_target_dummy", "d4/dc9/a29573.html#a04847f9893a40c0f1c1879f448cc228d", null ],
-    [ "GetAI", "d4/dc9/a29573.html#a1aff9199c160e20f9e92ee9f90178d63", null ]
+    [ "npc_riggle_bassbaitAI", "d4/dc9/a29573.html#ad7a1a7a6f4c4ebb7ab93878ebb3a9a5b", null ],
+    [ "CheckTournamentState", "d4/dc9/a29573.html#aa7b4393b93be92fbb595648cede832be", null ],
+    [ "UpdateAI", "d4/dc9/a29573.html#ad0fca96e2c770ef179d98dcdd9aaca6e", null ],
+    [ "m_uiTimer", "d4/dc9/a29573.html#aec45a971a5b7aa574e905e9a2338fe90", null ]
 ];

@@ -1,8 +1,7 @@
 var a26525 =
 [
-    [ "npc_natrualist_biteAI", "dd/d68/a26529.html", "dd/d68/a26529" ],
-    [ "npc_natrualist_bite", "d0/d1a/a26525.html#a094223dfd2d60e947717686ca93fdb83", null ],
-    [ "GetAI", "d0/d1a/a26525.html#af4939d6e4c5d57aa7fcb3592328b4833", null ],
-    [ "OnGossipHello", "d0/d1a/a26525.html#ace5a17bb353f93a8a3657e44c5bf5e9f", null ],
-    [ "OnGossipSelect", "d0/d1a/a26525.html#a242b7f3560daed9720bb440812e24f39", null ]
+    [ "go_skull_pile", "d0/d1a/a26525.html#a9cf8dfef432c4967c60f66e645585770", null ],
+    [ "OnGossipHello", "d0/d1a/a26525.html#ac95d39ea03e78fee2a10603d8c7f8840", null ],
+    [ "OnGossipSelect", "d0/d1a/a26525.html#afb8e8db2705355e975fa48c98e09f20b", null ],
+    [ "SendActionMenu", "d0/d1a/a26525.html#a9287eb499a93b8095a92bd2d7e8cb597", null ]
 ];

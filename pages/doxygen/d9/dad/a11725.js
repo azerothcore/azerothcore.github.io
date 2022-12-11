@@ -1,6 +1,7 @@
 var a11725 =
 [
-    [ "spell_geddon_armageddon_AuraScript", "d5/df9/a11729.html", "d5/df9/a11729" ],
-    [ "spell_geddon_armageddon", "d9/dad/a11725.html#a12dc1b7c7c8ef297910f3823a14c6e97", null ],
-    [ "GetAuraScript", "d9/dad/a11725.html#a09c7793af09fa802452d9ea32519b340", null ]
+    [ "HandleAfterApply", "d9/dad/a11725.html#a02f1f322b50465b73e25cb19b7066337", null ],
+    [ "HandleAfterRemove", "d9/dad/a11725.html#a722eef4dd5a5ebad3d63800882c2cbcb", null ],
+    [ "PrepareAuraScript", "d9/dad/a11725.html#a224aaed790d1f3b811f6083849f5e3c0", null ],
+    [ "Register", "d9/dad/a11725.html#a99b820487dc92d401709122d12f8a135", null ]
 ];

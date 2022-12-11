@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Outland/HellfireCitadel/BloodFurnace/blood_furnace.h File Reference</title>
+<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Outland/GruulsLair/instance_gruuls_lair.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,229 +106,116 @@ $(document).ready(function(){initNavTree('d3/d8f/a03956.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">blood_furnace.h File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">instance_gruuls_lair.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">gruuls_lair.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a059e1a38f9d79807d65ad8edfd39138f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8f/a03956.html#a059e1a38f9d79807d65ad8edfd39138f">BloodFurnaceScriptName</a>&#160;&#160;&#160;&quot;instance_blood_furnace&quot;</td></tr>
-<tr class="separator:a059e1a38f9d79807d65ad8edfd39138f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ae8bfbe71365d644cb4c1b500e73ec521"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521">bloodFurnace</a> { <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a217584223ad4e053515b9ba1c45f6f1c">DATA_THE_MAKER</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521ab4ee9b3fa6f2378216eaad263527118d">DATA_BROGGOK</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3">DATA_KELIDAN</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a5be731cf2d344b403486f7319fae9830">DATA_DOOR1</a> = 10
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521ab8bd986eb150e659f71fa84f45e63bb7">DATA_DOOR2</a> = 11
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521aa433f4d5fa76b9f181264383b4a98a7f">DATA_DOOR3</a> = 12
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521ace04607a351d9ae5fe58aeac8b5b04f3">DATA_DOOR4</a> = 13
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521ab1c5554e9e95541ca6cf24f894c6f87d">DATA_DOOR5</a> = 14
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a06ff2fef4decc65fc813d31bc70d967a">DATA_DOOR6</a> = 15
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a38e1047c0f32ee1086b17ab937b93133">DATA_PRISON_CELL1</a> = 20
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a3073b7783a2fb29629dd8144a46cf27b">DATA_PRISON_CELL2</a> = 21
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a43cb03f70352747a1b21db3ad18d45cc">DATA_PRISON_CELL3</a> = 22
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521add420385ff32f4362b994bc24207cde2">DATA_PRISON_CELL4</a> = 23
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a2839e46e2718d788680e6ab738e5304b">ACTION_ACTIVATE_BROGGOK</a> = 30
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a0a587bd74e99773bd5a5cc3d91a33aa5">ACTION_PREPARE_BROGGOK</a> = 31
-<br />
- }</td></tr>
-<tr class="separator:ae8bfbe71365d644cb4c1b500e73ec521"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa518f004f7df866d1fc0e781b6a5f3a0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0">bloodFurnaceNPC</a> { <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0adee32b124f549802c329b672679b8333">NPC_THE_MAKER</a> = 17381
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0a4cf62e33a7fa35ef63ad878dfeeb0ad9">NPC_BROGGOK</a> = 17380
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0a6332b11d449d4fd83c67fc13c06d7210">NPC_KELIDAN</a> = 17377
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0a2d648c17cf1d4c62de4d35b07d1bf8c7">NPC_NASCENT_FEL_ORC</a> = 17398
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0a829f7c3a21ad299d21aa23035ca5e53d">NPC_CHANNELER</a> = 17653
-<br />
- }</td></tr>
-<tr class="separator:aa518f004f7df866d1fc0e781b6a5f3a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d74/a25373.html">instance_gruuls_lair</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/a25377.html">instance_gruuls_lair::instance_gruuls_lair_InstanceMapScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4aa87dfa17e2fb43b14c2ca77bb22aeb"><td class="memTemplParams" colspan="2">template&lt;class AI , class T &gt; </td></tr>
-<tr class="memitem:a4aa87dfa17e2fb43b14c2ca77bb22aeb"><td class="memTemplItemLeft" align="right" valign="top">AI *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d8f/a03956.html#a4aa87dfa17e2fb43b14c2ca77bb22aeb">GetBloodFurnaceAI</a> (T *obj)</td></tr>
-<tr class="separator:a4aa87dfa17e2fb43b14c2ca77bb22aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c9bd5a761d9018e8be9e0c11b8db2c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8f/a03956.html#a6c9bd5a761d9018e8be9e0c11b8db2c5">AddSC_instance_gruuls_lair</a> ()</td></tr>
+<tr class="separator:a6c9bd5a761d9018e8be9e0c11b8db2c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d67/a08989.html">DoorData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8f/a03956.html#a69c4a0ca4694d5ed1d42f0373dd5d80c">doorData</a> []</td></tr>
+<tr class="separator:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6720238df140a3c574a711042b7f5bd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a09001.html">MinionData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8f/a03956.html#a6720238df140a3c574a711042b7f5bd3">minionData</a> []</td></tr>
+<tr class="separator:a6720238df140a3c574a711042b7f5bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a059e1a38f9d79807d65ad8edfd39138f" name="a059e1a38f9d79807d65ad8edfd39138f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a059e1a38f9d79807d65ad8edfd39138f">&#9670;&#160;</a></span>BloodFurnaceScriptName</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define BloodFurnaceScriptName&#160;&#160;&#160;&quot;instance_blood_furnace&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ae8bfbe71365d644cb4c1b500e73ec521" name="ae8bfbe71365d644cb4c1b500e73ec521"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8bfbe71365d644cb4c1b500e73ec521">&#9670;&#160;</a></span>bloodFurnace</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521">bloodFurnace</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a217584223ad4e053515b9ba1c45f6f1c" name="ae8bfbe71365d644cb4c1b500e73ec521a217584223ad4e053515b9ba1c45f6f1c"></a>DATA_THE_MAKER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521ab4ee9b3fa6f2378216eaad263527118d" name="ae8bfbe71365d644cb4c1b500e73ec521ab4ee9b3fa6f2378216eaad263527118d"></a>DATA_BROGGOK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3" name="ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3"></a>DATA_KELIDAN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a7913656ef56deb3793c0c5f3d999d80d" name="ae8bfbe71365d644cb4c1b500e73ec521a7913656ef56deb3793c0c5f3d999d80d"></a>MAX_ENCOUNTER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a5be731cf2d344b403486f7319fae9830" name="ae8bfbe71365d644cb4c1b500e73ec521a5be731cf2d344b403486f7319fae9830"></a>DATA_DOOR1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521ab8bd986eb150e659f71fa84f45e63bb7" name="ae8bfbe71365d644cb4c1b500e73ec521ab8bd986eb150e659f71fa84f45e63bb7"></a>DATA_DOOR2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521aa433f4d5fa76b9f181264383b4a98a7f" name="ae8bfbe71365d644cb4c1b500e73ec521aa433f4d5fa76b9f181264383b4a98a7f"></a>DATA_DOOR3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521ace04607a351d9ae5fe58aeac8b5b04f3" name="ae8bfbe71365d644cb4c1b500e73ec521ace04607a351d9ae5fe58aeac8b5b04f3"></a>DATA_DOOR4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521ab1c5554e9e95541ca6cf24f894c6f87d" name="ae8bfbe71365d644cb4c1b500e73ec521ab1c5554e9e95541ca6cf24f894c6f87d"></a>DATA_DOOR5&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a06ff2fef4decc65fc813d31bc70d967a" name="ae8bfbe71365d644cb4c1b500e73ec521a06ff2fef4decc65fc813d31bc70d967a"></a>DATA_DOOR6&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a38e1047c0f32ee1086b17ab937b93133" name="ae8bfbe71365d644cb4c1b500e73ec521a38e1047c0f32ee1086b17ab937b93133"></a>DATA_PRISON_CELL1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a3073b7783a2fb29629dd8144a46cf27b" name="ae8bfbe71365d644cb4c1b500e73ec521a3073b7783a2fb29629dd8144a46cf27b"></a>DATA_PRISON_CELL2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a43cb03f70352747a1b21db3ad18d45cc" name="ae8bfbe71365d644cb4c1b500e73ec521a43cb03f70352747a1b21db3ad18d45cc"></a>DATA_PRISON_CELL3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521add420385ff32f4362b994bc24207cde2" name="ae8bfbe71365d644cb4c1b500e73ec521add420385ff32f4362b994bc24207cde2"></a>DATA_PRISON_CELL4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a2839e46e2718d788680e6ab738e5304b" name="ae8bfbe71365d644cb4c1b500e73ec521a2839e46e2718d788680e6ab738e5304b"></a>ACTION_ACTIVATE_BROGGOK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8bfbe71365d644cb4c1b500e73ec521a0a587bd74e99773bd5a5cc3d91a33aa5" name="ae8bfbe71365d644cb4c1b500e73ec521a0a587bd74e99773bd5a5cc3d91a33aa5"></a>ACTION_PREPARE_BROGGOK&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a217584223ad4e053515b9ba1c45f6f1c">DATA_THE_MAKER</a>                      = 0,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521ab4ee9b3fa6f2378216eaad263527118d">DATA_BROGGOK</a>                        = 1,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3">DATA_KELIDAN</a>                        = 2,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a>                       = 3,</div>
-<div class="line"><span class="lineno">   32</span> </div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a5be731cf2d344b403486f7319fae9830">DATA_DOOR1</a>                          = 10,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521ab8bd986eb150e659f71fa84f45e63bb7">DATA_DOOR2</a>                          = 11,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521aa433f4d5fa76b9f181264383b4a98a7f">DATA_DOOR3</a>                          = 12,</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521ace04607a351d9ae5fe58aeac8b5b04f3">DATA_DOOR4</a>                          = 13,</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521ab1c5554e9e95541ca6cf24f894c6f87d">DATA_DOOR5</a>                          = 14,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a06ff2fef4decc65fc813d31bc70d967a">DATA_DOOR6</a>                          = 15,</div>
-<div class="line"><span class="lineno">   39</span> </div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a38e1047c0f32ee1086b17ab937b93133">DATA_PRISON_CELL1</a>                   = 20,</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a3073b7783a2fb29629dd8144a46cf27b">DATA_PRISON_CELL2</a>                   = 21,</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a43cb03f70352747a1b21db3ad18d45cc">DATA_PRISON_CELL3</a>                   = 22,</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521add420385ff32f4362b994bc24207cde2">DATA_PRISON_CELL4</a>                   = 23,</div>
-<div class="line"><span class="lineno">   44</span> </div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a2839e46e2718d788680e6ab738e5304b">ACTION_ACTIVATE_BROGGOK</a>             = 30,</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a0a587bd74e99773bd5a5cc3d91a33aa5">ACTION_PREPARE_BROGGOK</a>              = 31</div>
-<div class="line"><span class="lineno">   47</span>};</div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521a06ff2fef4decc65fc813d31bc70d967a"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a06ff2fef4decc65fc813d31bc70d967a">DATA_DOOR6</a></div><div class="ttdeci">@ DATA_DOOR6</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:38</div></div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521a0a587bd74e99773bd5a5cc3d91a33aa5"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a0a587bd74e99773bd5a5cc3d91a33aa5">ACTION_PREPARE_BROGGOK</a></div><div class="ttdeci">@ ACTION_PREPARE_BROGGOK</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:46</div></div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521a217584223ad4e053515b9ba1c45f6f1c"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a217584223ad4e053515b9ba1c45f6f1c">DATA_THE_MAKER</a></div><div class="ttdeci">@ DATA_THE_MAKER</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:28</div></div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521a2839e46e2718d788680e6ab738e5304b"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a2839e46e2718d788680e6ab738e5304b">ACTION_ACTIVATE_BROGGOK</a></div><div class="ttdeci">@ ACTION_ACTIVATE_BROGGOK</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:45</div></div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521a3073b7783a2fb29629dd8144a46cf27b"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a3073b7783a2fb29629dd8144a46cf27b">DATA_PRISON_CELL2</a></div><div class="ttdeci">@ DATA_PRISON_CELL2</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:41</div></div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521a38e1047c0f32ee1086b17ab937b93133"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a38e1047c0f32ee1086b17ab937b93133">DATA_PRISON_CELL1</a></div><div class="ttdeci">@ DATA_PRISON_CELL1</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:40</div></div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521a43cb03f70352747a1b21db3ad18d45cc"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a43cb03f70352747a1b21db3ad18d45cc">DATA_PRISON_CELL3</a></div><div class="ttdeci">@ DATA_PRISON_CELL3</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:42</div></div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521a5be731cf2d344b403486f7319fae9830"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a5be731cf2d344b403486f7319fae9830">DATA_DOOR1</a></div><div class="ttdeci">@ DATA_DOOR1</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:33</div></div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521a7913656ef56deb3793c0c5f3d999d80d"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a></div><div class="ttdeci">@ MAX_ENCOUNTER</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:31</div></div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521aa433f4d5fa76b9f181264383b4a98a7f"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521aa433f4d5fa76b9f181264383b4a98a7f">DATA_DOOR3</a></div><div class="ttdeci">@ DATA_DOOR3</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:35</div></div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521ab1c5554e9e95541ca6cf24f894c6f87d"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521ab1c5554e9e95541ca6cf24f894c6f87d">DATA_DOOR5</a></div><div class="ttdeci">@ DATA_DOOR5</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:37</div></div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521ab4ee9b3fa6f2378216eaad263527118d"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521ab4ee9b3fa6f2378216eaad263527118d">DATA_BROGGOK</a></div><div class="ttdeci">@ DATA_BROGGOK</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:29</div></div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521ab8bd986eb150e659f71fa84f45e63bb7"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521ab8bd986eb150e659f71fa84f45e63bb7">DATA_DOOR2</a></div><div class="ttdeci">@ DATA_DOOR2</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:34</div></div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521ace04607a351d9ae5fe58aeac8b5b04f3"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521ace04607a351d9ae5fe58aeac8b5b04f3">DATA_DOOR4</a></div><div class="ttdeci">@ DATA_DOOR4</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:36</div></div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3">DATA_KELIDAN</a></div><div class="ttdeci">@ DATA_KELIDAN</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:30</div></div>
-<div class="ttc" id="aa03956_html_ae8bfbe71365d644cb4c1b500e73ec521add420385ff32f4362b994bc24207cde2"><div class="ttname"><a href="../../d3/d8f/a03956.html#ae8bfbe71365d644cb4c1b500e73ec521add420385ff32f4362b994bc24207cde2">DATA_PRISON_CELL4</a></div><div class="ttdeci">@ DATA_PRISON_CELL4</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:43</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aa518f004f7df866d1fc0e781b6a5f3a0" name="aa518f004f7df866d1fc0e781b6a5f3a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa518f004f7df866d1fc0e781b6a5f3a0">&#9670;&#160;</a></span>bloodFurnaceNPC</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0">bloodFurnaceNPC</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa518f004f7df866d1fc0e781b6a5f3a0adee32b124f549802c329b672679b8333" name="aa518f004f7df866d1fc0e781b6a5f3a0adee32b124f549802c329b672679b8333"></a>NPC_THE_MAKER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa518f004f7df866d1fc0e781b6a5f3a0a4cf62e33a7fa35ef63ad878dfeeb0ad9" name="aa518f004f7df866d1fc0e781b6a5f3a0a4cf62e33a7fa35ef63ad878dfeeb0ad9"></a>NPC_BROGGOK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa518f004f7df866d1fc0e781b6a5f3a0a6332b11d449d4fd83c67fc13c06d7210" name="aa518f004f7df866d1fc0e781b6a5f3a0a6332b11d449d4fd83c67fc13c06d7210"></a>NPC_KELIDAN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa518f004f7df866d1fc0e781b6a5f3a0a2d648c17cf1d4c62de4d35b07d1bf8c7" name="aa518f004f7df866d1fc0e781b6a5f3a0a2d648c17cf1d4c62de4d35b07d1bf8c7"></a>NPC_NASCENT_FEL_ORC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa518f004f7df866d1fc0e781b6a5f3a0a829f7c3a21ad299d21aa23035ca5e53d" name="aa518f004f7df866d1fc0e781b6a5f3a0a829f7c3a21ad299d21aa23035ca5e53d"></a>NPC_CHANNELER&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   50</span>{</div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0adee32b124f549802c329b672679b8333">NPC_THE_MAKER</a>                       = 17381,</div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0a4cf62e33a7fa35ef63ad878dfeeb0ad9">NPC_BROGGOK</a>                         = 17380,</div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0a6332b11d449d4fd83c67fc13c06d7210">NPC_KELIDAN</a>                         = 17377,</div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0a2d648c17cf1d4c62de4d35b07d1bf8c7">NPC_NASCENT_FEL_ORC</a>                 = 17398,</div>
-<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0a829f7c3a21ad299d21aa23035ca5e53d">NPC_CHANNELER</a>                       = 17653</div>
-<div class="line"><span class="lineno">   56</span>};</div>
-<div class="ttc" id="aa03956_html_aa518f004f7df866d1fc0e781b6a5f3a0a2d648c17cf1d4c62de4d35b07d1bf8c7"><div class="ttname"><a href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0a2d648c17cf1d4c62de4d35b07d1bf8c7">NPC_NASCENT_FEL_ORC</a></div><div class="ttdeci">@ NPC_NASCENT_FEL_ORC</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:54</div></div>
-<div class="ttc" id="aa03956_html_aa518f004f7df866d1fc0e781b6a5f3a0a4cf62e33a7fa35ef63ad878dfeeb0ad9"><div class="ttname"><a href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0a4cf62e33a7fa35ef63ad878dfeeb0ad9">NPC_BROGGOK</a></div><div class="ttdeci">@ NPC_BROGGOK</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:52</div></div>
-<div class="ttc" id="aa03956_html_aa518f004f7df866d1fc0e781b6a5f3a0a6332b11d449d4fd83c67fc13c06d7210"><div class="ttname"><a href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0a6332b11d449d4fd83c67fc13c06d7210">NPC_KELIDAN</a></div><div class="ttdeci">@ NPC_KELIDAN</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:53</div></div>
-<div class="ttc" id="aa03956_html_aa518f004f7df866d1fc0e781b6a5f3a0a829f7c3a21ad299d21aa23035ca5e53d"><div class="ttname"><a href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0a829f7c3a21ad299d21aa23035ca5e53d">NPC_CHANNELER</a></div><div class="ttdeci">@ NPC_CHANNELER</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:55</div></div>
-<div class="ttc" id="aa03956_html_aa518f004f7df866d1fc0e781b6a5f3a0adee32b124f549802c329b672679b8333"><div class="ttname"><a href="../../d3/d8f/a03956.html#aa518f004f7df866d1fc0e781b6a5f3a0adee32b124f549802c329b672679b8333">NPC_THE_MAKER</a></div><div class="ttdeci">@ NPC_THE_MAKER</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:51</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a4aa87dfa17e2fb43b14c2ca77bb22aeb" name="a4aa87dfa17e2fb43b14c2ca77bb22aeb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4aa87dfa17e2fb43b14c2ca77bb22aeb">&#9670;&#160;</a></span>GetBloodFurnaceAI()</h2>
+<a id="a6c9bd5a761d9018e8be9e0c11b8db2c5" name="a6c9bd5a761d9018e8be9e0c11b8db2c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c9bd5a761d9018e8be9e0c11b8db2c5">&#9670;&#160;</a></span>AddSC_instance_gruuls_lair()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class AI , class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">AI * GetBloodFurnaceAI </td>
+          <td class="memname">void AddSC_instance_gruuls_lair </td>
           <td>(</td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   60</span>{</div>
-<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">return</span> GetInstanceAI&lt;AI&gt;(obj, <a class="code hl_define" href="../../d3/d8f/a03956.html#a059e1a38f9d79807d65ad8edfd39138f">BloodFurnaceScriptName</a>);</div>
-<div class="line"><span class="lineno">   62</span>}</div>
-<div class="ttc" id="aa03956_html_a059e1a38f9d79807d65ad8edfd39138f"><div class="ttname"><a href="../../d3/d8f/a03956.html#a059e1a38f9d79807d65ad8edfd39138f">BloodFurnaceScriptName</a></div><div class="ttdeci">#define BloodFurnaceScriptName</div><div class="ttdef"><b>Definition:</b> blood_furnace.h:24</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  185</span>{</div>
+<div class="line"><span class="lineno">  186</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d74/a25373.html">instance_gruuls_lair</a>();</div>
+<div class="line"><span class="lineno">  187</span>}</div>
+<div class="ttc" id="aa25373_html"><div class="ttname"><a href="../../d7/d74/a25373.html">instance_gruuls_lair</a></div><div class="ttdef"><b>Definition:</b> instance_gruuls_lair.cpp:39</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00024">BloodFurnaceScriptName</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00111">AddOutlandScripts()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a69c4a0ca4694d5ed1d42f0373dd5d80c" name="a69c4a0ca4694d5ed1d42f0373dd5d80c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c4a0ca4694d5ed1d42f0373dd5d80c">&#9670;&#160;</a></span>doorData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d67/a08989.html">DoorData</a> const doorData[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d7/d5e/a03953.html#a57d2d4154291532e405ab880a40a999fadfeb06c530d78f6c5bfdc414ae505622">GO_MAULGAR_DOOR</a>,  <a class="code hl_enumvalue" href="../../d7/d5e/a03953.html#afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a">DATA_MAULGAR</a>,   <a class="code hl_enumvalue" href="../../da/ded/a01547.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d7/d5e/a03953.html#a57d2d4154291532e405ab880a40a999fac19511a30a99f3d0cb9eafbce3745768">GO_GRUUL_DOOR</a>,    <a class="code hl_enumvalue" href="../../d7/d5e/a03953.html#afb6eb4f28419b652027fad41104a6d22accf4ac52aca57b15bc50cf47c8a3e5fc">DATA_GRUUL</a>,     <a class="code hl_enumvalue" href="../../da/ded/a01547.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a>    },</div>
+<div class="line">    { 0,                0,              <a class="code hl_enumvalue" href="../../da/ded/a01547.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a>    } </div>
+<div class="line">}</div>
+<div class="ttc" id="aa01547_html_ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70"><div class="ttname"><a href="../../da/ded/a01547.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a></div><div class="ttdeci">@ DOOR_TYPE_ROOM</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:66</div></div>
+<div class="ttc" id="aa01547_html_ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905"><div class="ttname"><a href="../../da/ded/a01547.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a></div><div class="ttdeci">@ DOOR_TYPE_PASSAGE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:67</div></div>
+<div class="ttc" id="aa03953_html_a57d2d4154291532e405ab880a40a999fac19511a30a99f3d0cb9eafbce3745768"><div class="ttname"><a href="../../d7/d5e/a03953.html#a57d2d4154291532e405ab880a40a999fac19511a30a99f3d0cb9eafbce3745768">GO_GRUUL_DOOR</a></div><div class="ttdeci">@ GO_GRUUL_DOOR</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:49</div></div>
+<div class="ttc" id="aa03953_html_a57d2d4154291532e405ab880a40a999fadfeb06c530d78f6c5bfdc414ae505622"><div class="ttname"><a href="../../d7/d5e/a03953.html#a57d2d4154291532e405ab880a40a999fadfeb06c530d78f6c5bfdc414ae505622">GO_MAULGAR_DOOR</a></div><div class="ttdeci">@ GO_MAULGAR_DOOR</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:48</div></div>
+<div class="ttc" id="aa03953_html_afb6eb4f28419b652027fad41104a6d22accf4ac52aca57b15bc50cf47c8a3e5fc"><div class="ttname"><a href="../../d7/d5e/a03953.html#afb6eb4f28419b652027fad41104a6d22accf4ac52aca57b15bc50cf47c8a3e5fc">DATA_GRUUL</a></div><div class="ttdeci">@ DATA_GRUUL</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:30</div></div>
+<div class="ttc" id="aa03953_html_afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a"><div class="ttname"><a href="../../d7/d5e/a03953.html#afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a">DATA_MAULGAR</a></div><div class="ttdeci">@ DATA_MAULGAR</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:29</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00045">instance_gruuls_lair::instance_gruuls_lair_InstanceMapScript::instance_gruuls_lair_InstanceMapScript()</a>.</p>
+
+</div>
+</div>
+<a id="a6720238df140a3c574a711042b7f5bd3" name="a6720238df140a3c574a711042b7f5bd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6720238df140a3c574a711042b7f5bd3">&#9670;&#160;</a></span>minionData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a09001.html">MinionData</a> const minionData[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d7/d5e/a03953.html#a92f6fd626e1834a4cc509efc1186963ea61f2ef319d5203666bd8a86b5b9a2603">NPC_MAULGAR</a>,              <a class="code hl_enumvalue" href="../../d7/d5e/a03953.html#afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a">DATA_MAULGAR</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d7/d5e/a03953.html#a92f6fd626e1834a4cc509efc1186963ea7e440984b10a7a2300c1caab77949a74">NPC_KROSH_FIREHAND</a>,       <a class="code hl_enumvalue" href="../../d7/d5e/a03953.html#afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a">DATA_MAULGAR</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d7/d5e/a03953.html#a92f6fd626e1834a4cc509efc1186963eab39dfed80a659ee419a65a9f70cfecec">NPC_OLM_THE_SUMMONER</a>,     <a class="code hl_enumvalue" href="../../d7/d5e/a03953.html#afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a">DATA_MAULGAR</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d7/d5e/a03953.html#a92f6fd626e1834a4cc509efc1186963ea8bd4e976e7d8d6748ac16eeea3862a2b">NPC_KIGGLER_THE_CRAZED</a>,   <a class="code hl_enumvalue" href="../../d7/d5e/a03953.html#afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a">DATA_MAULGAR</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d7/d5e/a03953.html#a92f6fd626e1834a4cc509efc1186963eaf12a0c8363fc94afbd555850e6a2482a">NPC_BLINDEYE_THE_SEER</a>,    <a class="code hl_enumvalue" href="../../d7/d5e/a03953.html#afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a">DATA_MAULGAR</a> }</div>
+<div class="line">}</div>
+<div class="ttc" id="aa03953_html_a92f6fd626e1834a4cc509efc1186963ea61f2ef319d5203666bd8a86b5b9a2603"><div class="ttname"><a href="../../d7/d5e/a03953.html#a92f6fd626e1834a4cc509efc1186963ea61f2ef319d5203666bd8a86b5b9a2603">NPC_MAULGAR</a></div><div class="ttdeci">@ NPC_MAULGAR</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:39</div></div>
+<div class="ttc" id="aa03953_html_a92f6fd626e1834a4cc509efc1186963ea7e440984b10a7a2300c1caab77949a74"><div class="ttname"><a href="../../d7/d5e/a03953.html#a92f6fd626e1834a4cc509efc1186963ea7e440984b10a7a2300c1caab77949a74">NPC_KROSH_FIREHAND</a></div><div class="ttdeci">@ NPC_KROSH_FIREHAND</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:40</div></div>
+<div class="ttc" id="aa03953_html_a92f6fd626e1834a4cc509efc1186963ea8bd4e976e7d8d6748ac16eeea3862a2b"><div class="ttname"><a href="../../d7/d5e/a03953.html#a92f6fd626e1834a4cc509efc1186963ea8bd4e976e7d8d6748ac16eeea3862a2b">NPC_KIGGLER_THE_CRAZED</a></div><div class="ttdeci">@ NPC_KIGGLER_THE_CRAZED</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:42</div></div>
+<div class="ttc" id="aa03953_html_a92f6fd626e1834a4cc509efc1186963eab39dfed80a659ee419a65a9f70cfecec"><div class="ttname"><a href="../../d7/d5e/a03953.html#a92f6fd626e1834a4cc509efc1186963eab39dfed80a659ee419a65a9f70cfecec">NPC_OLM_THE_SUMMONER</a></div><div class="ttdeci">@ NPC_OLM_THE_SUMMONER</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:41</div></div>
+<div class="ttc" id="aa03953_html_a92f6fd626e1834a4cc509efc1186963eaf12a0c8363fc94afbd555850e6a2482a"><div class="ttname"><a href="../../d7/d5e/a03953.html#a92f6fd626e1834a4cc509efc1186963eaf12a0c8363fc94afbd555850e6a2482a">NPC_BLINDEYE_THE_SEER</a></div><div class="ttdeci">@ NPC_BLINDEYE_THE_SEER</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:43</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00045">instance_gruuls_lair::instance_gruuls_lair_InstanceMapScript::instance_gruuls_lair_InstanceMapScript()</a>.</p>
 
 </div>
 </div>
@@ -337,8 +224,8 @@ template&lt;class AI , class T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_aa56e8ce1c3e0d32a59f1a16b86dbc72.html">Outland</a></li><li class="navelem"><a class="el" href="../../dir_035874e76bcc0de7e09cf1c5f0f17641.html">HellfireCitadel</a></li><li class="navelem"><a class="el" href="../../dir_ca38c8f641e293b4dda7eec68c8e9454.html">BloodFurnace</a></li><li class="navelem"><a class="el" href="../../d3/d8f/a03956.html">blood_furnace.h</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 15:54:10 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_aa56e8ce1c3e0d32a59f1a16b86dbc72.html">Outland</a></li><li class="navelem"><a class="el" href="../../dir_da01a965bae6fd871215c00876339143.html">GruulsLair</a></li><li class="navelem"><a class="el" href="../../d3/d8f/a03956.html">instance_gruuls_lair.cpp</a></li>
+    <li class="footer">Generated on Sun Dec 11 2022 11:33:29 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

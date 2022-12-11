@@ -1,6 +1,6 @@
 var a10645 =
 [
-    [ "DestinationTargetSelectHandler", "df/d3c/a10645.html#ab5ffcc89b7232afddd6bc47e7c347b79", null ],
-    [ "Call", "df/d3c/a10645.html#a81ae2eb856507ee22308ae2739854382", null ],
-    [ "DestinationTargetSelectHandlerScript", "df/d3c/a10645.html#a95e882b892a79b464a521a8367b2e9b7", null ]
+    [ "ObjectAreaTargetSelectHandler", "df/d3c/a10645.html#a89b86436bb1de38223165e7ef60f2b61", null ],
+    [ "Call", "df/d3c/a10645.html#a11d2070610d178006231bac274d1f311", null ],
+    [ "pObjectAreaTargetSelectHandlerScript", "df/d3c/a10645.html#a118ca963c6319802806913762c4d1fec", null ]
 ];

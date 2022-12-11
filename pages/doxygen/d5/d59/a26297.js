@@ -1,6 +1,6 @@
 var a26297 =
 [
-    [ "npc_drake_dealer_hurlunk", "d5/d59/a26297.html#ae6d095365d23c30d5b772b047b459ddb", null ],
-    [ "OnGossipHello", "d5/d59/a26297.html#ad04b7f906f029d9935e29c585b0de421", null ],
-    [ "OnGossipSelect", "d5/d59/a26297.html#aa23833dcdefb909899120c25d5376111", null ]
+    [ "npc_dragonmaw_peonAI", "de/d76/a26301.html", "de/d76/a26301" ],
+    [ "npc_dragonmaw_peon", "d5/d59/a26297.html#a356f8f1181d62dd5a4bc41c98ab21720", null ],
+    [ "GetAI", "d5/d59/a26297.html#aab1e4aee65a5465bc545a9c067200d2a", null ]
 ];

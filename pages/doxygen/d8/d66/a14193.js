@@ -1,5 +1,6 @@
 var a14193 =
 [
-    [ "at_bring_your_orphan_to", "d8/d66/a14193.html#a160aae23dd3423dbc1afc8e3f8dbec7c", null ],
-    [ "OnTrigger", "d8/d66/a14193.html#af5cb73f6ba0657eff8809711a5dba84c", null ]
+    [ "npc_cw_area_triggerAI", "dd/d1d/a14197.html", "dd/d1d/a14197" ],
+    [ "npc_cw_area_trigger", "d8/d66/a14193.html#a11af64ac4ab078566bf8f68a36781939", null ],
+    [ "GetAI", "d8/d66/a14193.html#a66c55b2984bab71be89ad7b6b96e3784", null ]
 ];

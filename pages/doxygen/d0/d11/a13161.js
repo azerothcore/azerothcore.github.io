@@ -1,6 +1,7 @@
 var a13161 =
 [
-    [ "spell_muru_summon_blood_elves_periodic_AuraScript", "d8/da4/a13165.html", "d8/da4/a13165" ],
-    [ "spell_muru_summon_blood_elves_periodic", "d0/d11/a13161.html#a4180a67a9277ad66a2f64f6614dc8071", null ],
-    [ "GetAuraScript", "d0/d11/a13161.html#ae3d57a4c47dda4b504b93f42cf3c8396", null ]
+    [ "HandleApply", "d0/d11/a13161.html#a1706fe3f2baa7dbc7d938877f1336ca2", null ],
+    [ "OnPeriodic", "d0/d11/a13161.html#ae1ec2983f9ca8ed953ce2ac32394fc82", null ],
+    [ "PrepareAuraScript", "d0/d11/a13161.html#af1b0bb1c1144daddad39b0032f2e9d3f", null ],
+    [ "Register", "d0/d11/a13161.html#aa5e20821ece786f4460cff29a30b7803", null ]
 ];

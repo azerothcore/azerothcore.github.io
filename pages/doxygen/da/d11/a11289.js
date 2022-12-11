@@ -1,6 +1,6 @@
 var a11289 =
 [
-    [ "boss_hedrumAI", "da/d11/a11289.html#a95e4af51a8e24fa7b36b924c6cdfb86c", null ],
-    [ "EnterCombat", "da/d11/a11289.html#a6b7a7a3a85a638987ec9a74e88f89822", null ],
-    [ "UpdateAI", "da/d11/a11289.html#aa515ed081aaabdad751c1bbba56d3d96", null ]
+    [ "boss_high_interrogator_gerstahnAI", "db/d4c/a11293.html", "db/d4c/a11293" ],
+    [ "boss_high_interrogator_gerstahn", "da/d11/a11289.html#a700eb542c041e9ca540f2676fc42aff9", null ],
+    [ "GetAI", "da/d11/a11289.html#ab4e92847a1ce6bf50f0ae460c1a7108f", null ]
 ];

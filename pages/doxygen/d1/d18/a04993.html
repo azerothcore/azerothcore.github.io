@@ -399,10 +399,10 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">   49</span>        <span class="keywordflow">return</span>;</div>
 <div class="line"><span class="lineno">   50</span>    }</div>
 <div class="line"><span class="lineno">   51</span> </div>
-<div class="line"><span class="lineno">   52</span>    std::vector&lt;std::string_view&gt; colorStrs = <a class="code hl_function" href="../../dc/d7e/a04424.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(str, <span class="charliteral">&#39; &#39;</span>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">   52</span>    std::vector&lt;std::string_view&gt; colorStrs = <a class="code hl_function" href="../../de/dc4/a04428.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(str, <span class="charliteral">&#39; &#39;</span>, <span class="keyword">false</span>);</div>
 <div class="line"><span class="lineno">   53</span>    <span class="keywordflow">if</span> (colorStrs.size() != <a class="code hl_enumvalue" href="../../dd/de2/a00320.html#ad26ed09e30f81a5d2172b4793a3f2781a02115b12f9d2c08405f3ea32fb8dea7d">NUM_ENABLED_LOG_LEVELS</a>)</div>
 <div class="line"><span class="lineno">   54</span>    {</div>
-<div class="line"><span class="lineno">   55</span>        <span class="keywordflow">throw</span> <a class="code hl_class" href="../../dc/d27/a04989.html">InvalidAppenderArgsException</a>(<a class="code hl_function" href="../../dc/d7e/a04424.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a>(<span class="stringliteral">&quot;Log::CreateAppenderFromConfig: Invalid color data &#39;{}&#39; for console appender {} (expected {} entries, got {})&quot;</span>,</div>
+<div class="line"><span class="lineno">   55</span>        <span class="keywordflow">throw</span> <a class="code hl_class" href="../../dc/d27/a04989.html">InvalidAppenderArgsException</a>(<a class="code hl_function" href="../../de/dc4/a04428.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a>(<span class="stringliteral">&quot;Log::CreateAppenderFromConfig: Invalid color data &#39;{}&#39; for console appender {} (expected {} entries, got {})&quot;</span>,</div>
 <div class="line"><span class="lineno">   56</span>            str, <a class="code hl_variable" href="../../da/da3/a04985.html#a0d47660ee41c8816342001825f626a8b">name</a>, <a class="code hl_enumvalue" href="../../dd/de2/a00320.html#ad26ed09e30f81a5d2172b4793a3f2781a02115b12f9d2c08405f3ea32fb8dea7d">NUM_ENABLED_LOG_LEVELS</a>, colorStrs.size()));</div>
 <div class="line"><span class="lineno">   57</span>    }</div>
 <div class="line"><span class="lineno">   58</span> </div>
@@ -414,7 +414,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">   64</span>        }</div>
 <div class="line"><span class="lineno">   65</span>        <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">   66</span>        {</div>
-<div class="line"><span class="lineno">   67</span>            <span class="keywordflow">throw</span> <a class="code hl_class" href="../../dc/d27/a04989.html">InvalidAppenderArgsException</a>(<a class="code hl_function" href="../../dc/d7e/a04424.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a>(<span class="stringliteral">&quot;Log::CreateAppenderFromConfig: Invalid color &#39;{}&#39; for log level {} on console appender {}&quot;</span>,</div>
+<div class="line"><span class="lineno">   67</span>            <span class="keywordflow">throw</span> <a class="code hl_class" href="../../dc/d27/a04989.html">InvalidAppenderArgsException</a>(<a class="code hl_function" href="../../de/dc4/a04428.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a>(<span class="stringliteral">&quot;Log::CreateAppenderFromConfig: Invalid color &#39;{}&#39; for log level {} on console appender {}&quot;</span>,</div>
 <div class="line"><span class="lineno">   68</span>                colorStrs[i], <a class="code hl_function" href="../../d3/dbb/a05165.html#ab84860dd68a582bcab6a3e90427e7d20">EnumUtils::ToTitle</a>(<span class="keyword">static_cast&lt;</span><a class="code hl_enumeration" href="../../dd/de2/a00320.html#ad26ed09e30f81a5d2172b4793a3f2781">LogLevel</a><span class="keyword">&gt;</span>(i)), <a class="code hl_variable" href="../../da/da3/a04985.html#a0d47660ee41c8816342001825f626a8b">name</a>));</div>
 <div class="line"><span class="lineno">   69</span>        }</div>
 <div class="line"><span class="lineno">   70</span>    }</div>
@@ -423,8 +423,8 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">   73</span>}</div>
 <div class="ttc" id="aa00320_html_ad26ed09e30f81a5d2172b4793a3f2781"><div class="ttname"><a href="../../dd/de2/a00320.html#ad26ed09e30f81a5d2172b4793a3f2781">LogLevel</a></div><div class="ttdeci">LogLevel</div><div class="ttdef"><b>Definition:</b> LogCommon.h:25</div></div>
 <div class="ttc" id="aa00440_html_aaf8f4d77efd311ec7818ab421294ef82"><div class="ttname"><a href="../../de/df8/a00440.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a></div><div class="ttdeci">std::optional&lt; T &gt; Optional</div><div class="ttdoc">Optional helper class to wrap optional values within.</div><div class="ttdef"><b>Definition:</b> Optional.h:24</div></div>
-<div class="ttc" id="aa04424_html_a07b6432e111b17b737269191d9557f20"><div class="ttname"><a href="../../dc/d7e/a04424.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a></div><div class="ttdeci">std::string StringFormatFmt(std::string_view fmt, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> StringFormat.h:44</div></div>
-<div class="ttc" id="aa04424_html_a6b121485ace4118b9006db1fb89f90f2"><div class="ttname"><a href="../../dc/d7e/a04424.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a></div><div class="ttdeci">std::vector&lt; std::string_view &gt; Tokenize(std::string_view str, char sep, bool keepEmpty)</div><div class="ttdef"><b>Definition:</b> Tokenize.cpp:20</div></div>
+<div class="ttc" id="aa04428_html_a07b6432e111b17b737269191d9557f20"><div class="ttname"><a href="../../de/dc4/a04428.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a></div><div class="ttdeci">std::string StringFormatFmt(std::string_view fmt, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> StringFormat.h:44</div></div>
+<div class="ttc" id="aa04428_html_a6b121485ace4118b9006db1fb89f90f2"><div class="ttname"><a href="../../de/dc4/a04428.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a></div><div class="ttdeci">std::vector&lt; std::string_view &gt; Tokenize(std::string_view str, char sep, bool keepEmpty)</div><div class="ttdef"><b>Definition:</b> Tokenize.cpp:20</div></div>
 <div class="ttc" id="aa04989_html"><div class="ttname"><a href="../../dc/d27/a04989.html">InvalidAppenderArgsException</a></div><div class="ttdef"><b>Definition:</b> Appender.h:56</div></div>
 <div class="ttc" id="aa05165_html_ab84860dd68a582bcab6a3e90427e7d20"><div class="ttname"><a href="../../d3/dbb/a05165.html#ab84860dd68a582bcab6a3e90427e7d20">EnumUtils::ToTitle</a></div><div class="ttdeci">static char const * ToTitle(Enum value)</div><div class="ttdef"><b>Definition:</b> SmartEnum.h:127</div></div>
 </div><!-- fragment -->
@@ -675,7 +675,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d18/a04993.html">AppenderConsole</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 15:54:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sun Dec 11 2022 11:33:33 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

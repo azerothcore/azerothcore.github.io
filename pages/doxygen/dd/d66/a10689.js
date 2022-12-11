@@ -1,6 +1,6 @@
 var a10689 =
 [
-    [ "EffectAbsorbHandler", "dd/d66/a10689.html#a29bb773b8271acf651b08f33ce358720", null ],
-    [ "Call", "dd/d66/a10689.html#a56bfb0fd0d860678920445d1182c09ef", null ],
-    [ "pEffectHandlerScript", "dd/d66/a10689.html#a519489b8d951173a806e86cfe075faf1", null ]
+    [ "EffectCalcSpellModHandler", "dd/d66/a10689.html#abe81396a3f1c1b3b07c10cf0e191546c", null ],
+    [ "Call", "dd/d66/a10689.html#a5ca2a9c329a7dbbb7e835849ca4479aa", null ],
+    [ "pEffectHandlerScript", "dd/d66/a10689.html#a15c0b24641cb04f31bb3d651dae59448", null ]
 ];

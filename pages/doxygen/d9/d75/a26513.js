@@ -1,10 +1,11 @@
 var a26513 =
 [
-    [ "npc_isla_starmaneAI", "d9/d75/a26513.html#a0cb655d324ddde173dcfdee069c0f694", null ],
-    [ "EnterCombat", "d9/d75/a26513.html#a0e1dc13d818ef30b27c407a3f5874294", null ],
-    [ "JustDied", "d9/d75/a26513.html#ac7132ac84a64bccbcf8895cbc4a86f9c", null ],
-    [ "Reset", "d9/d75/a26513.html#a1e4db0f2a0a541f5481c8578c9b9362d", null ],
-    [ "UpdateEscortAI", "d9/d75/a26513.html#af4b8c80e7443bb671be253238b124910", null ],
-    [ "WaypointReached", "d9/d75/a26513.html#a5d00583afa4e811e4f3cb8400787a990", null ],
-    [ "events", "d9/d75/a26513.html#a53cfabbe7cf85ceb19286d67bb23f2ec", null ]
+    [ "npc_floonAI", "d9/d75/a26513.html#a189ce3cc82b486178f06c340615b640b", null ],
+    [ "EnterCombat", "d9/d75/a26513.html#a59cc60455bb165d2ccbecb1f22253912", null ],
+    [ "Reset", "d9/d75/a26513.html#a0bc567259daa6b3c2c70589c35425210", null ],
+    [ "UpdateAI", "d9/d75/a26513.html#a5741592304c3b97205449bbe82edd5f1", null ],
+    [ "Frostbolt_Timer", "d9/d75/a26513.html#a5895a32d35724b190108eaab2c30ae13", null ],
+    [ "FrostNova_Timer", "d9/d75/a26513.html#a53f394a8aa07fb5ee6a5ef64cc45fadd", null ],
+    [ "m_uiNormFaction", "d9/d75/a26513.html#a58960005f1ec7bbab0be0731e67d9b82", null ],
+    [ "Silence_Timer", "d9/d75/a26513.html#a1171013a4bd0227ab92a9c3c971cddd4", null ]
 ];

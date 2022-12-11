@@ -1,6 +1,6 @@
 var a25341 =
 [
-    [ "boss_kiggler_the_crazedAI", "d0/dd5/a25345.html", "d0/dd5/a25345" ],
-    [ "boss_kiggler_the_crazed", "d6/dbb/a25341.html#aac24e425d800bbbeb732d5a41a98f045", null ],
-    [ "GetAI", "d6/dbb/a25341.html#ac7953e9a2e501ba4e224364f983d4a99", null ]
+    [ "boss_olm_the_summonerAI", "d0/dd5/a25345.html", "d0/dd5/a25345" ],
+    [ "boss_olm_the_summoner", "d6/dbb/a25341.html#a78b91f5e1d45bb8ac9fa0788dbb9d950", null ],
+    [ "GetAI", "d6/dbb/a25341.html#aa8af0d5a39a690a6204b4de259f8f5d4", null ]
 ];

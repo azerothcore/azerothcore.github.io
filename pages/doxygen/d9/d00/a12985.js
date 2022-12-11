@@ -1,6 +1,6 @@
 var a12985 =
 [
-    [ "SpectralBlastCheck", "d9/d00/a12985.html#ada2eda8781891a4049ee30c5ecb81c3c", null ],
-    [ "operator()", "d9/d00/a12985.html#afbe13a5f90a5b95832e14fe9d7affc9f", null ],
-    [ "_victim", "d9/d00/a12985.html#ab96456159d61e781aa8d691dd0b1fec1", null ]
+    [ "spell_kalecgos_spectral_blast_dummy_SpellScript", "d8/d78/a12989.html", "d8/d78/a12989" ],
+    [ "spell_kalecgos_spectral_blast_dummy", "d9/d00/a12985.html#a26d3ba33ac32bae860a5b1baadac2530", null ],
+    [ "GetSpellScript", "d9/d00/a12985.html#a5d7f9bd1edec3489eb2fc7bfbb7e9e33", null ]
 ];

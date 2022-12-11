@@ -1,6 +1,6 @@
 var a25293 =
 [
-    [ "spell_gruul_ground_slam_SpellScript", "d5/d21/a25297.html", "d5/d21/a25297" ],
-    [ "spell_gruul_ground_slam", "d0/d59/a25293.html#a03639f50a03932d0b14d4630510ffe6e", null ],
-    [ "GetSpellScript", "d0/d59/a25293.html#a28859f5451bc203e668b96476a1ff5db", null ]
+    [ "boss_gruulAI", "d5/d21/a25297.html", "d5/d21/a25297" ],
+    [ "boss_gruul", "d0/d59/a25293.html#a4a9cc639a0036e64cf995bfb5c3fad4a", null ],
+    [ "GetAI", "d0/d59/a25293.html#ad00bdef09206649785fe442a5b5f0356", null ]
 ];

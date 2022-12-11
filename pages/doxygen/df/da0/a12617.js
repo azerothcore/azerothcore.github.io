@@ -1,7 +1,6 @@
 var a12617 =
 [
-    [ "npc_fairbanksAI", "df/da0/a12617.html#a7b0b6eb7aafc2a2a793e578b4dca73a7", null ],
-    [ "MoveInLineOfSight", "df/da0/a12617.html#ab1200fe381ad08c1fe1181d1ba939460", null ],
-    [ "Reset", "df/da0/a12617.html#a2290dd6189572cddd0597f622582c3a8", null ],
-    [ "SayAshbringer", "df/da0/a12617.html#a1ae615c8aa568d0cba3bf5259fbd3daf", null ]
+    [ "boss_darkmaster_gandlingAI", "d8/d93/a12621.html", "d8/d93/a12621" ],
+    [ "boss_darkmaster_gandling", "df/da0/a12617.html#a6db73fa3c8324f6bfdcb1ae6a72ee39b", null ],
+    [ "GetAI", "df/da0/a12617.html#a21ea53862614303af31a517a53d1fbf6", null ]
 ];

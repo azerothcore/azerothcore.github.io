@@ -1,6 +1,6 @@
 var a11769 =
 [
-    [ "boss_gehennasAI", "da/dab/a11769.html#aaefd1f10d03957477863df95143a95a9", null ],
-    [ "EnterCombat", "da/dab/a11769.html#aa77a7926a5d934f4e676350fb0c244c1", null ],
-    [ "ExecuteEvent", "da/dab/a11769.html#a1568cecdacc6afee23b4661c3dc0ae2b", null ]
+    [ "boss_golemaggAI", "db/d83/a11773.html", "db/d83/a11773" ],
+    [ "boss_golemagg", "da/dab/a11769.html#a66720a143f8987dfa5d6e2acb7cd73cd", null ],
+    [ "GetAI", "da/dab/a11769.html#a6899f30975e0984306feabe47bbc8317", null ]
 ];

@@ -1,7 +1,8 @@
 var a28145 =
 [
-    [ "HandleDummy", "d6/dcc/a28145.html#a82ff05f6150750ecb6ef3b5f8c40f703", null ],
-    [ "PrepareSpellScript", "d6/dcc/a28145.html#a6856f05f2cc25267f1d3023d3cb48dc2", null ],
-    [ "Register", "d6/dcc/a28145.html#adadd0254d68281ac1063bcc57574ed77", null ],
-    [ "Validate", "d6/dcc/a28145.html#a61923f636ad8b3d48eb2dbc6a1803527", null ]
+    [ "CalculateAmount", "d6/dcc/a28145.html#a8751483423726ffa8a33c70b7e55db23", null ],
+    [ "CheckProc", "d6/dcc/a28145.html#a046cd1087342cdcbd2e6b0f8ded7c03a", null ],
+    [ "HandleProc", "d6/dcc/a28145.html#abda070e7dfbb4ddc8d18cb3d180edc2e", null ],
+    [ "PrepareAuraScript", "d6/dcc/a28145.html#a6bb54cea419145875c4086a69e1e55e8", null ],
+    [ "Register", "d6/dcc/a28145.html#a8e92638bbdd786ef77b17f00dcf0f643", null ]
 ];

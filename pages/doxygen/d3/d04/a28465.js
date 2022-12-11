@@ -1,7 +1,6 @@
 var a28465 =
 [
-    [ "HandleScript", "d3/d04/a28465.html#a1b20a7fb4487876f305aa3a8d493ed17", null ],
-    [ "PrepareSpellScript", "d3/d04/a28465.html#a5ac848029ef03f6779cf094f4b80dd24", null ],
-    [ "Register", "d3/d04/a28465.html#a3d378e0eac09b00792b293b2cd7f3192", null ],
-    [ "Validate", "d3/d04/a28465.html#a36963610ad939ec36848ff70185f47a2", null ]
+    [ "HandleDummy", "d3/d04/a28465.html#aee5967205738ebaef70e1105e8d91b2c", null ],
+    [ "PrepareSpellScript", "d3/d04/a28465.html#a1ef5914adfd2c951a68f50658852e095", null ],
+    [ "Register", "d3/d04/a28465.html#af42b6d5a5fbb5eb84773818594813afc", null ]
 ];

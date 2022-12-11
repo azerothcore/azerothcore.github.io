@@ -1,5 +1,6 @@
 var a11173 =
 [
-    [ "go_shadowforge_brazier", "d8/d76/a11173.html#aafc1d2e865294bb102c918d6016aab4b", null ],
-    [ "OnGossipHello", "d8/d76/a11173.html#a83b188cd2ee68e1ebfe75060465f8f38", null ]
+    [ "ironhand_guardianAI", "df/d7d/a11177.html", "df/d7d/a11177" ],
+    [ "ironhand_guardian", "d8/d76/a11173.html#a2363002ce096937ecbb4b62af806ee42", null ],
+    [ "GetAI", "d8/d76/a11173.html#a0bf140618a45a6a4398cfe51b8a03488", null ]
 ];

@@ -1,6 +1,6 @@
 var a25557 =
 [
-    [ "npc_omrogg_headsAI", "dc/d5c/a25561.html", "dc/d5c/a25561" ],
-    [ "npc_omrogg_heads", "d0/d41/a25557.html#a39fe9f3b623bf6b2d6575659e1f967b8", null ],
-    [ "GetAI", "d0/d41/a25557.html#a82d7754ea52e37690537bc0e64efb727", null ]
+    [ "boss_warbringer_omroggAI", "dc/d5c/a25561.html", "dc/d5c/a25561" ],
+    [ "boss_warbringer_omrogg", "d0/d41/a25557.html#a71cd768c8082498785cf4c478b4eaed7", null ],
+    [ "GetAI", "d0/d41/a25557.html#a4cf48d2e66e1d312438f89fd26e3a561", null ]
 ];

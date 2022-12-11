@@ -1,6 +1,7 @@
 var a25949 =
 [
-    [ "HandleDummy", "d4/d1c/a25949.html#a32804d63c2a3dcfb174b283d67faec2a", null ],
-    [ "PrepareSpellScript", "d4/d1c/a25949.html#a92bafa6945d782afb5e5f5d1349c237f", null ],
-    [ "Register", "d4/d1c/a25949.html#a4282a1a83983911b1e11081e5a344941", null ]
+    [ "HandleDamage", "d4/d1c/a25949.html#a26ca037a7072f8b59b2ab3f6e1166e1b", null ],
+    [ "HandleTargets", "d4/d1c/a25949.html#a41427395c3f4dc7d43a835811fe21fee", null ],
+    [ "PrepareSpellScript", "d4/d1c/a25949.html#a993ce62001d5136b337c855a636a8c34", null ],
+    [ "Register", "d4/d1c/a25949.html#a57e8cbdfcbbb23809f997281ec254d5c", null ]
 ];

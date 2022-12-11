@@ -1,7 +1,6 @@
 var a08965 =
 [
-    [ "InstancePlayerBind", "db/d9a/a08965.html#abc20bba094d04eb724d03b8290102981", null ],
-    [ "extended", "db/d9a/a08965.html#a9327f62b74eea3a1a525b2fec6d90b69", null ],
-    [ "perm", "db/d9a/a08965.html#ab35249eb791941b484ecc321b1102b24", null ],
-    [ "save", "db/d9a/a08965.html#a24ef1e0e0a38033a16b697c32e3d8234", null ]
+    [ "NpcTextLocale", "db/d9a/a08965.html#af1ddddeff75a1a51c51ebb1fec3f4f05", null ],
+    [ "Text_0", "db/d9a/a08965.html#adf17307b9d00e0b63b9c2827fca96320", null ],
+    [ "Text_1", "db/d9a/a08965.html#a40f69a13a202c350fdce2177288727e9", null ]
 ];

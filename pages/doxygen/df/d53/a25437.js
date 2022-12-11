@@ -1,12 +1,11 @@
 var a25437 =
 [
-    [ "boss_vazruden_the_heraldAI", "df/d53/a25437.html#a5ff7840871b32d13295a432cd0c6d1f7", null ],
-    [ "AttackStart", "df/d53/a25437.html#a287383ebab73046f52d368e0fc60c5f2", null ],
-    [ "JustDied", "df/d53/a25437.html#a6e17be04cba14d868151e9d819788afc", null ],
-    [ "JustSummoned", "df/d53/a25437.html#a3082af503b1cf23bfdf7d9c1f966d95d", null ],
-    [ "MovementInform", "df/d53/a25437.html#a6118f889ae4ae849b6d9e0baa040c1c1", null ],
-    [ "Reset", "df/d53/a25437.html#ad29e605747fb8ea9bb32a50b7b60207d", null ],
-    [ "SummonedCreatureDespawn", "df/d53/a25437.html#a045070d72ed461c807bbcb4a08a98b18", null ],
-    [ "SummonedCreatureDies", "df/d53/a25437.html#a6d8650c7dff5058ba8bfc06208f433be", null ],
-    [ "UpdateAI", "df/d53/a25437.html#aa803fc34191ec8b82ada83290053206f", null ]
+    [ "boss_omor_the_unscarredAI", "df/d53/a25437.html#a5bf831c592dabd65c6f8b01e90da58b2", null ],
+    [ "EnterCombat", "df/d53/a25437.html#a3196f4493cbfa0cfc192bf214b34e1ea", null ],
+    [ "JustDied", "df/d53/a25437.html#a68b582a59b27b9484257862edbfa5df9", null ],
+    [ "JustSummoned", "df/d53/a25437.html#a85cbd701aa0a55703ec946b7cde12100", null ],
+    [ "KilledUnit", "df/d53/a25437.html#a9d3e4c0314855ddf5a23d0f7a085ae24", null ],
+    [ "Reset", "df/d53/a25437.html#a10898493c4dcbe86056f4ad9ee536f8f", null ],
+    [ "UpdateAI", "df/d53/a25437.html#a9f0add8e51d93e667ecc04916eb678c3", null ],
+    [ "_targetGUID", "df/d53/a25437.html#a01a32c75c460ef63dca93c899eb07c59", null ]
 ];

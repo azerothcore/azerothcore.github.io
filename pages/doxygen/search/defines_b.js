@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['lang_5fcount_0',['LANG_COUNT',['../d9/dd1/a04340.html#a103d56ca489b218396e6bc64659ae225',1,'System.cpp']]],
-  ['languages_5fcount_1',['LANGUAGES_COUNT',['../d9/d4e/a04307.html#a27a1fd993f2db7b4025c32c736e1886b',1,'SharedDefines.h']]],
-  ['life_5ftap_5fcoefficient_2',['LIFE_TAP_COEFFICIENT',['../d2/d29/a04181.html#a87fc99fe9baa4165c5a5642a75b2e6e0',1,'spell_warlock.cpp']]],
+  ['lang_5fcount_0',['LANG_COUNT',['../df/d59/a04343.html#a103d56ca489b218396e6bc64659ae225',1,'System.cpp']]],
+  ['languages_5fcount_1',['LANGUAGES_COUNT',['../d2/dfc/a04310.html#a27a1fd993f2db7b4025c32c736e1886b',1,'SharedDefines.h']]],
+  ['life_5ftap_5fcoefficient_2',['LIFE_TAP_COEFFICIENT',['../d1/dd9/a04184.html#a87fc99fe9baa4165c5a5642a75b2e6e0',1,'spell_warlock.cpp']]],
   ['liquid_5ftile_5fsize_3',['LIQUID_TILE_SIZE',['../d3/d00/a00113.html#a1596e8a465c0638086c77467a2dde3a6',1,'VMapDefinitions.h']]],
   ['living_5fconstellation_5fcount_4',['LIVING_CONSTELLATION_COUNT',['../da/d3e/a03581.html#a876b80e12cc4b361b0482e8eb4ec0090',1,'boss_algalon_the_observer.cpp']]],
   ['llabs_5',['llabs',['../df/dc8/a00122.html#aad0cbcf316a98d975f29499cef11a5eb',1,'Common.h']]],
   ['load_5fdbc_6',['LOAD_DBC',['../d9/d7c/a01073.html#a12fc54e4657cae3a3e84be6e33305257',1,'DBCStores.cpp']]],
-  ['log_5fchat_7',['LOG_CHAT',['../da/db4/a04199.html#a01e5e85a6f0ca392f94da26b0f2fc9ba',1,'chat_log.cpp']]],
+  ['log_5fchat_7',['LOG_CHAT',['../d1/d8f/a04202.html#a01e5e85a6f0ca392f94da26b0f2fc9ba',1,'chat_log.cpp']]],
   ['log_5fdebug_8',['LOG_DEBUG',['../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161',1,'Log.h']]],
   ['log_5ferror_9',['LOG_ERROR',['../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9',1,'Log.h']]],
   ['log_5fexception_5ffree_10',['LOG_EXCEPTION_FREE',['../da/de0/a00317.html#aa30f9aa89655372730e1d6fec2e40c5e',1,'Log.h']]],

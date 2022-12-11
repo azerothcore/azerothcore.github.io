@@ -1,9 +1,12 @@
 var a26165 =
 [
-    [ "anchorite_karjaAI", "d5/d9d/a26165.html#a1fdbcb4e2f1d0b9a96f22c4d6608d752", null ],
-    [ "DoAction", "d5/d9d/a26165.html#af2f748991ade25fc4293adc7c46bd456", null ],
-    [ "EnterCombat", "d5/d9d/a26165.html#af03e74239317506c4d3257e401ea2ef6", null ],
-    [ "MovementInform", "d5/d9d/a26165.html#a625489cb479efdb5a7a3333653bff6ee", null ],
-    [ "UpdateAI", "d5/d9d/a26165.html#afca26176748431dd10cd7c74fd9aea5d", null ],
-    [ "_events", "d5/d9d/a26165.html#a7ba71337c0429e73024a4bf51a93cbef", null ]
+    [ "adyen_the_lightbringerAI", "d5/d9d/a26165.html#a49e5eba0e11b438f847676f74b7727ea", null ],
+    [ "DoAction", "d5/d9d/a26165.html#a03685a715ec96ad02c27c8b102251b29", null ],
+    [ "EnterCombat", "d5/d9d/a26165.html#afd9b67a46cb0a029d0690f76c85fc403", null ],
+    [ "MovementInform", "d5/d9d/a26165.html#acf8cf7d1cb33584867d7d38e511cd2b1", null ],
+    [ "UpdateAI", "d5/d9d/a26165.html#a3a0014ffbb7fc21dcc54f581832997c0", null ],
+    [ "_events", "d5/d9d/a26165.html#ae48c36b5eb172304289bb7de28bb386f", null ],
+    [ "event_started", "d5/d9d/a26165.html#ae3e5794d24ed408abfe4e88c4bc0a8eb", null ],
+    [ "eventPhase", "d5/d9d/a26165.html#a5d7dcdd6d927a61d93695a1111d9409f", null ],
+    [ "eventTimer", "d5/d9d/a26165.html#a6791f8d79d444dc65f483dd1403cd392", null ]
 ];

@@ -1,6 +1,6 @@
 var a12889 =
 [
-    [ "CheckCast", "db/d6c/a12889.html#a4ef64e34fa2aa54c52a690087e0ee8c8", null ],
-    [ "PrepareSpellScript", "db/d6c/a12889.html#aeb7a41febc68ff5d145a06dc30ee1ccd", null ],
-    [ "Register", "db/d6c/a12889.html#a463bfc953e83eaec374bd2e657590cc1", null ]
+    [ "spell_eredar_twins_blaze_SpellScript", "d9/de4/a12893.html", "d9/de4/a12893" ],
+    [ "spell_eredar_twins_blaze", "db/d6c/a12889.html#a15f4becc1f47905beaf0dece9e5e1004", null ],
+    [ "GetSpellScript", "db/d6c/a12889.html#aa5e443568088cf96bf08f955a31ef4ac", null ]
 ];

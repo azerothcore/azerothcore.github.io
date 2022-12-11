@@ -1,6 +1,7 @@
 var a12237 =
 [
-    [ "spell_karazhan_brittle_bones_AuraScript", "d9/d5b/a12241.html", "d9/d5b/a12241" ],
-    [ "spell_karazhan_brittle_bones", "d0/dbf/a12237.html#ac2a297effa7b989f0246e7dfb46f59a0", null ],
-    [ "GetAuraScript", "d0/dbf/a12237.html#a93deae224ff5112621e2fb852641db42", null ]
+    [ "CalcPeriodic", "d0/dbf/a12237.html#a1a1bd909c873d5b9f8d7771eceb87c1d", null ],
+    [ "PrepareAuraScript", "d0/dbf/a12237.html#a2ffea4361a750fe9e64fc4beab36e287", null ],
+    [ "Register", "d0/dbf/a12237.html#a389395358cf0991e90a452c34fcb394e", null ],
+    [ "Update", "d0/dbf/a12237.html#a965b9030423114eaf99ee1f1400fdc45", null ]
 ];

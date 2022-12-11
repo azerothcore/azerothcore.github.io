@@ -1,5 +1,6 @@
 var a11477 =
 [
-    [ "at_the_beast_room", "dd/d5a/a11477.html#aed5c4aae45ee2b256eb078875c5a2c47", null ],
-    [ "OnTrigger", "dd/d5a/a11477.html#a366c5e35c4030f998404886f1526ae37", null ]
+    [ "boss_urok_doomhowlAI", "db/d9c/a11481.html", "db/d9c/a11481" ],
+    [ "boss_urok_doomhowl", "dd/d5a/a11477.html#a0ca9cea9919648baa5ff7db2d5a5b530", null ],
+    [ "GetAI", "dd/d5a/a11477.html#ac77756af77191e02df49161da0ace268", null ]
 ];

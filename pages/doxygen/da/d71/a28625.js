@@ -1,11 +1,9 @@
 var a28625 =
 [
-    [ "AddTarget", "da/d71/a28625.html#add6c97acade4600ec1206e877abf58a0", null ],
-    [ "HandleApply", "da/d71/a28625.html#aa96876bbf97be72cbb1a7e2a241e1ed0", null ],
-    [ "HandleEffectPeriodic", "da/d71/a28625.html#af8f187919db1435c373b4444d55e5411", null ],
-    [ "HandleRemove", "da/d71/a28625.html#a592dfe1bb5995b2cd94cadccf76c038d", null ],
-    [ "PrepareAuraScript", "da/d71/a28625.html#aa1de0d94c4897aee4637bf294e7dd358", null ],
-    [ "Register", "da/d71/a28625.html#a86325516114f6bced85047dff0989663", null ],
-    [ "Validate", "da/d71/a28625.html#aaf0176551c2c4b2b4d2f6e5247c80bc6", null ],
-    [ "_targets", "da/d71/a28625.html#a4825fdf65bf6b38963cba18956129687", null ]
+    [ "HandleAfterHit", "da/d71/a28625.html#a05341e7a67f50c6ced4bf4bd3892f39a", null ],
+    [ "HandleBeforeHit", "da/d71/a28625.html#a7ca0fe15f6679c73aa77818ef3d94eed", null ],
+    [ "Load", "da/d71/a28625.html#a6b2a1f378c0f5a2762ce1d34740d310e", null ],
+    [ "PrepareSpellScript", "da/d71/a28625.html#a496c27472579be3b8989868765ec19ef", null ],
+    [ "Register", "da/d71/a28625.html#a133e338413e960c442446a2a4a13b85b", null ],
+    [ "_stackAmount", "da/d71/a28625.html#a3aa304a5386f6c0ee4aa428bf4ed12bb", null ]
 ];

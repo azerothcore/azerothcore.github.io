@@ -1,11 +1,8 @@
 var a28365 =
 [
-    [ "ChangeDest", "d2/da0/a28365.html#a30395ad8a94ea7aedf3d0a58da548ca8", null ],
-    [ "Load", "d2/da0/a28365.html#aac846a8e04b58df54abaf9dbf06a5348", null ],
-    [ "PrepareSpellScript", "d2/da0/a28365.html#a7985f043746f76bc8465419a1ef3eadb", null ],
-    [ "Register", "d2/da0/a28365.html#af20460596a2ec4385bd9bbf0e0199b53", null ],
-    [ "RelocateDest", "d2/da0/a28365.html#a773fd4117c668267d034907b598ac6ac", null ],
-    [ "_x", "d2/da0/a28365.html#a87bdd967585be0022a136ab6b2ddfe2f", null ],
-    [ "_y", "d2/da0/a28365.html#aaf01950197bea05ac30a64797c70c1d5", null ],
-    [ "_z", "d2/da0/a28365.html#a6217f40c5de2791428b613e806d7ced1", null ]
+    [ "HandleEffectRemove", "d2/da0/a28365.html#a770b7ad0bb00114400a73f50c4aa6c81", null ],
+    [ "if", "d2/da0/a28365.html#a7123c451bce0f95ad75e5acfbe58a135", null ],
+    [ "PrepareAuraScript", "d2/da0/a28365.html#a531f51626ae4527282ad1e628911a9ea", null ],
+    [ "Register", "d2/da0/a28365.html#ae68bd9a92239a4796f9d8040787a68b3", null ],
+    [ "AuraEffectHandleModes", "d2/da0/a28365.html#a8af86c58f438e78d8bf878f79d4a27e2", null ]
 ];

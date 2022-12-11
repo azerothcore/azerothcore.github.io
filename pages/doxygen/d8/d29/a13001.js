@@ -1,7 +1,6 @@
 var a13001 =
 [
-    [ "OnPeriodic", "d8/d29/a13001.html#a9261d2331ef250ba394db80f58500c70", null ],
-    [ "OnRemove", "d8/d29/a13001.html#a2363ffec26af0879f9cefcea4c4ba226", null ],
-    [ "PrepareAuraScript", "d8/d29/a13001.html#a4563b88ec817cbcb1f7a3519dfdb17f4", null ],
-    [ "Register", "d8/d29/a13001.html#a29c27342dea8fedd91741a74f2482782", null ]
+    [ "spell_kalecgos_spectral_realm_dummy_SpellScript", "d2/d07/a13005.html", "d2/d07/a13005" ],
+    [ "spell_kalecgos_spectral_realm_dummy", "d8/d29/a13001.html#a24771d6913e4a0e341e09fd77ef13cf6", null ],
+    [ "GetSpellScript", "d8/d29/a13001.html#a3b882da8c6d8670c0a57f1ee11e29e9a", null ]
 ];

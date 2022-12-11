@@ -1,55 +1,88 @@
 var a04115 =
 [
-    [ "npc_natrualist_bite", "d0/d1a/a26525.html", "d0/d1a/a26525" ],
-    [ "npc_natrualist_bite::npc_natrualist_biteAI", "dd/d68/a26529.html", "dd/d68/a26529" ],
-    [ "npcs_ashyen_and_keleth", "d4/d30/a26533.html", "d4/d30/a26533" ],
-    [ "npc_cooshcoosh", "db/d4f/a26537.html", "db/d4f/a26537" ],
-    [ "npc_cooshcoosh::npc_cooshcooshAI", "dc/d88/a26541.html", "dc/d88/a26541" ],
-    [ "npc_elder_kuruti", "d2/dc4/a26545.html", "d2/dc4/a26545" ],
-    [ "npc_mortog_steamhead", "d2/dbb/a26549.html", "d2/dbb/a26549" ],
-    [ "npc_kayra_longmane", "d4/d72/a26553.html", "d4/d72/a26553" ],
-    [ "npc_kayra_longmane::npc_kayra_longmaneAI", "d5/df8/a26557.html", "d5/df8/a26557" ],
-    [ "npc_timothy_daniels", "d1/de1/a26561.html", "d1/de1/a26561" ],
-    [ "GOSSIP_COOSH", "df/d30/a04115.html#acb7291e27b6234531ab929ee86cc8bfc", null ],
-    [ "GOSSIP_ITEM_BLESS_ASH", "df/d30/a04115.html#a867ce6dd17c9cac433ca5e937ea1346d", null ],
-    [ "GOSSIP_ITEM_BLESS_KEL", "df/d30/a04115.html#ada16b0f444477658271881cdab50cc9b", null ],
-    [ "GOSSIP_ITEM_KUR1", "df/d30/a04115.html#a698dc988515399f0db79cb5086db0430", null ],
-    [ "GOSSIP_ITEM_KUR2", "df/d30/a04115.html#ab854dfd056266ac7668d88e36d0adbe1", null ],
-    [ "GOSSIP_ITEM_KUR3", "df/d30/a04115.html#ad15dac8fe106f1f267ce0a7e29ef6a2b", null ],
-    [ "GOSSIP_TEXT_BROWSE_POISONS", "df/d30/a04115.html#aa34e012afb5cc46350b7a751e90d528b", null ],
-    [ "GOSSIP_TIMOTHY_DANIELS_ITEM1", "df/d30/a04115.html#a80cc7983f5b3dc3edbcaf9b937381cd0", null ],
-    [ "AshyenAndKeleth", "df/d30/a04115.html#ad07e6f3138b7a90b5b3d0a3f375da295", [
-      [ "GOSSIP_REWARD_BLESS", "df/d30/a04115.html#ad07e6f3138b7a90b5b3d0a3f375da295a1e884264e2f5faafdfab2304bca484be", null ],
-      [ "NPC_ASHYEN", "df/d30/a04115.html#ad07e6f3138b7a90b5b3d0a3f375da295a8685dfd4b3f61488a2ca6dd8637eb8b3", null ],
-      [ "NPC_KELETH", "df/d30/a04115.html#ad07e6f3138b7a90b5b3d0a3f375da295a7ac167e934d9ebb0c2889e2383bc4af9", null ],
-      [ "SPELL_BLESS_ASH_EXA", "df/d30/a04115.html#ad07e6f3138b7a90b5b3d0a3f375da295a9e7edca0b7371e1a570c31bd1a0120d2", null ],
-      [ "SPELL_BLESS_ASH_REV", "df/d30/a04115.html#ad07e6f3138b7a90b5b3d0a3f375da295afd527426b27c7c875f051e4e47b072a2", null ],
-      [ "SPELL_BLESS_ASH_HON", "df/d30/a04115.html#ad07e6f3138b7a90b5b3d0a3f375da295a0405119dd5a0313b7d65e723c3be34af", null ],
-      [ "SPELL_BLESS_ASH_FRI", "df/d30/a04115.html#ad07e6f3138b7a90b5b3d0a3f375da295a8b86a8a31bbb60d13dc3520010fd2475", null ],
-      [ "SPELL_BLESS_KEL_EXA", "df/d30/a04115.html#ad07e6f3138b7a90b5b3d0a3f375da295a8e0e5d036b014032f7265803e1d2c193", null ],
-      [ "SPELL_BLESS_KEL_REV", "df/d30/a04115.html#ad07e6f3138b7a90b5b3d0a3f375da295a605d6131c6e52b072081af1396a6d223", null ],
-      [ "SPELL_BLESS_KEL_HON", "df/d30/a04115.html#ad07e6f3138b7a90b5b3d0a3f375da295a26c96220e019e511995ac0febd575878", null ],
-      [ "SPELL_BLESS_KEL_FRI", "df/d30/a04115.html#ad07e6f3138b7a90b5b3d0a3f375da295a6ab14a1afd59603bc4d258e703cdeff3", null ]
+    [ "spell_q10930_big_bone_worm", "d5/df2/a26413.html", "d5/df2/a26413" ],
+    [ "spell_q10930_big_bone_worm::spell_q10930_big_bone_worm_SpellScript", "db/d76/a26417.html", "db/d76/a26417" ],
+    [ "spell_q10930_big_bone_worm::spell_q10930_big_bone_worm_AuraScript", "d6/de8/a26421.html", "d6/de8/a26421" ],
+    [ "spell_q10929_fumping", "d7/d42/a26425.html", "d7/d42/a26425" ],
+    [ "spell_q10929_fumping::spell_q10929_fumping_SpellScript", "d8/d71/a26429.html", "d8/d71/a26429" ],
+    [ "spell_q10929_fumping::spell_q10929_fumping_AuraScript", "d9/d40/a26433.html", "d9/d40/a26433" ],
+    [ "npc_greatfather_aldrimus", "d3/d55/a26437.html", "d3/d55/a26437" ],
+    [ "npc_greatfather_aldrimus::npc_greatfather_aldrimusAI", "d7/d53/a26441.html", "d7/d53/a26441" ],
+    [ "spell_q10036_torgos", "dd/d63/a26445.html", "dd/d63/a26445" ],
+    [ "spell_q10036_torgos::spell_q10036_torgos_SpellScript", "da/d35/a26449.html", "da/d35/a26449" ],
+    [ "spell_q10923_evil_draws_near_summon", "d0/dd4/a26453.html", "d0/dd4/a26453" ],
+    [ "spell_q10923_evil_draws_near_summon::spell_q10923_evil_draws_near_summon_SpellScript", "df/d16/a26457.html", "df/d16/a26457" ],
+    [ "spell_q10923_evil_draws_near_periodic", "db/da2/a26461.html", "db/da2/a26461" ],
+    [ "spell_q10923_evil_draws_near_periodic::spell_q10923_evil_draws_near_periodic_AuraScript", "d2/dae/a26465.html", "d2/dae/a26465" ],
+    [ "spell_q10923_evil_draws_near_visual", "d9/d48/a26469.html", "d9/d48/a26469" ],
+    [ "spell_q10923_evil_draws_near_visual::spell_q10923_evil_draws_near_visual_SpellScript", "dd/da0/a26473.html", "dd/da0/a26473" ],
+    [ "spell_q10898_skywing", "d8/df6/a26477.html", "d8/df6/a26477" ],
+    [ "spell_q10898_skywing::spell_q10898_skywing_SpellScript", "da/d3d/a26481.html", "da/d3d/a26481" ],
+    [ "npc_unkor_the_ruthless", "de/d72/a26485.html", "de/d72/a26485" ],
+    [ "npc_unkor_the_ruthless::npc_unkor_the_ruthlessAI", "d0/de4/a26489.html", "d0/de4/a26489" ],
+    [ "npc_infested_root_walker", "d3/db7/a26493.html", "d3/db7/a26493" ],
+    [ "npc_infested_root_walker::npc_infested_root_walkerAI", "de/de3/a26497.html", "de/de3/a26497" ],
+    [ "npc_rotting_forest_rager", "df/d43/a26501.html", "df/d43/a26501" ],
+    [ "npc_rotting_forest_rager::npc_rotting_forest_ragerAI", "da/dd5/a26505.html", "da/dd5/a26505" ],
+    [ "npc_floon", "d5/dc5/a26509.html", "d5/dc5/a26509" ],
+    [ "npc_floon::npc_floonAI", "d9/d75/a26513.html", "d9/d75/a26513" ],
+    [ "npc_isla_starmane", "d3/d8c/a26517.html", "d3/d8c/a26517" ],
+    [ "npc_isla_starmane::npc_isla_starmaneAI", "d0/dd8/a26521.html", "d0/dd8/a26521" ],
+    [ "go_skull_pile", "d0/d1a/a26525.html", "d0/d1a/a26525" ],
+    [ "npc_slim", "dd/d68/a26529.html", "dd/d68/a26529" ],
+    [ "GOSSIP_FLOON1", "df/d30/a04115.html#a3948b08313f67dda910410d67fa9db3c", null ],
+    [ "GOSSIP_FLOON2", "df/d30/a04115.html#a9074b1c3dea253ea35bd14cecf924f76", null ],
+    [ "GOSSIP_S_DARKSCREECHER_AKKARAI", "df/d30/a04115.html#a66ab3e8eae0285c293af82bbcc97e01e", null ],
+    [ "GOSSIP_S_GEZZARAK_THE_HUNTRESS", "df/d30/a04115.html#a4c04e198308d29eee94b96b7d5e007f6", null ],
+    [ "GOSSIP_S_KARROG", "df/d30/a04115.html#a4c27ca526716647133cb808b4ab26cb6", null ],
+    [ "GOSSIP_S_VAKKIZ_THE_WINDRAGER", "df/d30/a04115.html#a0609daf7bcc9fec5e26996530fba4003", null ],
+    [ "eQ10923EvilDrawsNear", "df/d30/a04115.html#aac8f425764fbd137acd527c44a8217e5", [
+      [ "SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL1", "df/d30/a04115.html#aac8f425764fbd137acd527c44a8217e5a148039a82148e121ffa2e47d4037c198", null ],
+      [ "SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL2", "df/d30/a04115.html#aac8f425764fbd137acd527c44a8217e5a9f54f32a1b40bdd5f44006b6f874054b", null ],
+      [ "SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL_AURA", "df/d30/a04115.html#aac8f425764fbd137acd527c44a8217e5a432569d14dc34cb8000687d2dedb8394", null ],
+      [ "NPC_AUCHENAI_DEATH_SPIRIT", "df/d30/a04115.html#aac8f425764fbd137acd527c44a8217e5aa58ecb32d07f194ffe4e46f4245770c4", null ]
     ] ],
-    [ "Cooshhooosh", "df/d30/a04115.html#a9d58c651cc53969e2b759abd39dcf819", [
-      [ "SPELL_LIGHTNING_BOLT", "df/d30/a04115.html#a9d58c651cc53969e2b759abd39dcf819a920803a7ad734282762d93767b701526", null ],
-      [ "QUEST_CRACK_SKULLS", "df/d30/a04115.html#a9d58c651cc53969e2b759abd39dcf819a2cf7bf13048fc8433c0e5a3f1addd769", null ]
+    [ "Floon", "df/d30/a04115.html#aadcb2f195cbf5c24ba7bdb3f4a995b5b", [
+      [ "SAY_FLOON_ATTACK", "df/d30/a04115.html#aadcb2f195cbf5c24ba7bdb3f4a995b5ba68ee547ea60e5fd016f09592d393014d", null ],
+      [ "SPELL_SILENCE", "df/d30/a04115.html#aadcb2f195cbf5c24ba7bdb3f4a995b5ba3fb0854cb76a3dd2c796a5339f0e4eba", null ],
+      [ "SPELL_FROSTBOLT", "df/d30/a04115.html#aadcb2f195cbf5c24ba7bdb3f4a995b5ba1c6a7f86c2818960d6f6f23a4554e39e", null ],
+      [ "SPELL_FROST_NOVA", "df/d30/a04115.html#aadcb2f195cbf5c24ba7bdb3f4a995b5bab913503b67c5b8f901cfc4f207bcba03", null ],
+      [ "QUEST_CRACK_SKULLS", "df/d30/a04115.html#aadcb2f195cbf5c24ba7bdb3f4a995b5ba2cf7bf13048fc8433c0e5a3f1addd769", null ]
     ] ],
-    [ "eNaturalist", "df/d30/a04115.html#a9cf3357a38a38014956dbd3ebf215cec", [
-      [ "SPELL_MARK_OF_BITE", "df/d30/a04115.html#a9cf3357a38a38014956dbd3ebf215ceca8d51862f7b1fd50bce38b8d63ccbb907", null ],
-      [ "GO_CAGE_ENTRY", "df/d30/a04115.html#a9cf3357a38a38014956dbd3ebf215ceca0430179038e9dea04a07878c7254e78b", null ]
+    [ "fumping", "df/d30/a04115.html#ab162634ca3ea951211b5f98c1f38600e", [
+      [ "SPELL_SUMMON_SAND_GNOME1", "df/d30/a04115.html#ab162634ca3ea951211b5f98c1f38600ea58105c110347cf397ccfc57071de9e6d", null ],
+      [ "SPELL_SUMMON_SAND_GNOME3", "df/d30/a04115.html#ab162634ca3ea951211b5f98c1f38600eaf41287c8042d2072d6bd76e64418be4d", null ],
+      [ "SPELL_SUMMON_MATURE_BONE_SIFTER1", "df/d30/a04115.html#ab162634ca3ea951211b5f98c1f38600eabff566ebb7d0c47191ca8cdf21d0feba", null ],
+      [ "SPELL_SUMMON_MATURE_BONE_SIFTER3", "df/d30/a04115.html#ab162634ca3ea951211b5f98c1f38600eab503a39610eed1540f9d059d02ea0a9b", null ],
+      [ "SPELL_SUMMON_HAISHULUD", "df/d30/a04115.html#ab162634ca3ea951211b5f98c1f38600ea5b638aaec8858d63e038561f1bdd34cc", null ]
     ] ],
-    [ "Kayra", "df/d30/a04115.html#aede10935e0c8d6e0917a436106788aa0", [
-      [ "SAY_START", "df/d30/a04115.html#aede10935e0c8d6e0917a436106788aa0a2eae21cbf7d110ee89a9798ef6f00239", null ],
-      [ "SAY_AMBUSH1", "df/d30/a04115.html#aede10935e0c8d6e0917a436106788aa0af9c307934e5e7e30d487dbafbab144c2", null ],
-      [ "SAY_PROGRESS", "df/d30/a04115.html#aede10935e0c8d6e0917a436106788aa0a0a1c1c8ee2f4fb58f4e107f259c6a7a5", null ],
-      [ "SAY_AMBUSH2", "df/d30/a04115.html#aede10935e0c8d6e0917a436106788aa0a32c37598b933c172522a2d368bd3d664", null ],
-      [ "SAY_END", "df/d30/a04115.html#aede10935e0c8d6e0917a436106788aa0a40884932ffbbf14d6c380b9022bcfe97", null ],
-      [ "QUEST_ESCAPE_FROM", "df/d30/a04115.html#aede10935e0c8d6e0917a436106788aa0a86fbfb35bd9db1e69f11393a4be328ba", null ],
-      [ "NPC_SLAVEBINDER", "df/d30/a04115.html#aede10935e0c8d6e0917a436106788aa0a957d7dad018e5cc1867e8c470dd69844", null ]
+    [ "IslaStarmaneData", "df/d30/a04115.html#ae0ce6b8c904e723fea8344c9e2a6c468", [
+      [ "SAY_PROGRESS_1", "df/d30/a04115.html#ae0ce6b8c904e723fea8344c9e2a6c468ac7ef023ed2cd6e71dcfa4b57f34ffb21", null ],
+      [ "SAY_PROGRESS_2", "df/d30/a04115.html#ae0ce6b8c904e723fea8344c9e2a6c468a967473f354dae95832b5e82733f4cced", null ],
+      [ "SAY_PROGRESS_3", "df/d30/a04115.html#ae0ce6b8c904e723fea8344c9e2a6c468a25cbd1006b2e610756fbd3227fb87dcc", null ],
+      [ "SAY_PROGRESS_4", "df/d30/a04115.html#ae0ce6b8c904e723fea8344c9e2a6c468a6b3669f06730a37dadd060c3dc0b999f", null ],
+      [ "QUEST_EFTW_H", "df/d30/a04115.html#ae0ce6b8c904e723fea8344c9e2a6c468a0e41f71f431fea698370ec15a6a78f71", null ],
+      [ "QUEST_EFTW_A", "df/d30/a04115.html#ae0ce6b8c904e723fea8344c9e2a6c468a8b79958f3e4c99d2e5db1bbb46672d43", null ],
+      [ "GO_CAGE", "df/d30/a04115.html#ae0ce6b8c904e723fea8344c9e2a6c468ab8d35951eed2c9e47bed2aa4da3fab8b", null ],
+      [ "SPELL_CAT", "df/d30/a04115.html#ae0ce6b8c904e723fea8344c9e2a6c468a60c2ade102a5c8cff3056e1998a8feb9", null ],
+      [ "EVENT_SPELL_WRATH", "df/d30/a04115.html#ae0ce6b8c904e723fea8344c9e2a6c468ab55c0e246afb46a9c3feb1a24b9735db", null ],
+      [ "EVENT_SPELL_MOONFIRE", "df/d30/a04115.html#ae0ce6b8c904e723fea8344c9e2a6c468a89249acef2d72d2d2cefbd270ca8d5e6", null ],
+      [ "EVENT_SPELL_ENTANGLING_ROOTS", "df/d30/a04115.html#ae0ce6b8c904e723fea8344c9e2a6c468abcfceb9776fee2423d4c06cb12c6a157", null ],
+      [ "SPELL_WRATH", "df/d30/a04115.html#ae0ce6b8c904e723fea8344c9e2a6c468abe500eadf9d63f2f5340e4b8a94a118f", null ],
+      [ "SPELL_MOONFIRE", "df/d30/a04115.html#ae0ce6b8c904e723fea8344c9e2a6c468a0ca70102f1e7ebc514c9875b92e5490b", null ],
+      [ "SPELL_ENTANGLING_ROOTS", "df/d30/a04115.html#ae0ce6b8c904e723fea8344c9e2a6c468a366705ee88fada6cb8aa2dab3dcd3cee", null ]
     ] ],
-    [ "Timothy", "df/d30/a04115.html#ab01dcc34b8c42e2ac7246dc2aec509d7", [
-      [ "GOSSIP_TEXTID_TIMOTHY_DANIELS1", "df/d30/a04115.html#ab01dcc34b8c42e2ac7246dc2aec509d7a151898886013f2066a95ef7a0867da14", null ]
+    [ "q10036Torgos", "df/d30/a04115.html#a2a367fc7cac7bf28a805617c33b2ccf9", [
+      [ "NPC_TORGOS", "df/d30/a04115.html#a2a367fc7cac7bf28a805617c33b2ccf9a5d78efaeb0f7b6c08cdd646bfbdaf2f7", null ]
     ] ],
-    [ "AddSC_zangarmarsh", "df/d30/a04115.html#aa38b6da0158d06f2f3cb62da2055fc00", null ]
+    [ "Slim", "df/d30/a04115.html#a02ee5712d433b97576ee20c54707947b", [
+      [ "FACTION_CONSORTIUM", "df/d30/a04115.html#a02ee5712d433b97576ee20c54707947bad1b1eee7cc5ca5f4ddaa8929e49a0046", null ]
+    ] ],
+    [ "UnkorTheRuthless", "df/d30/a04115.html#a88cc97a269783b482b7b90a366327e02", [
+      [ "SAY_SUBMIT", "df/d30/a04115.html#a88cc97a269783b482b7b90a366327e02ac438d344c95f2fc9bceaf8955f07a62c", null ],
+      [ "FACTION_HOSTILE", "df/d30/a04115.html#a88cc97a269783b482b7b90a366327e02a9f091068e93fe04fde1b2d77d34d5fcf", null ],
+      [ "QUEST_DONTKILLTHEFATONE", "df/d30/a04115.html#a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8", null ],
+      [ "SPELL_PULVERIZE", "df/d30/a04115.html#a88cc97a269783b482b7b90a366327e02a69dd71f7b0eefec5bcdd15cddbb128d6", null ]
+    ] ],
+    [ "AddSC_terokkar_forest", "df/d30/a04115.html#a06eb16b2a9cfacc1641cf49759c7615e", null ]
 ];

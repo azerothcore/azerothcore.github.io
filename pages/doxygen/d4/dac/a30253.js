@@ -1,8 +1,7 @@
 var a30253 =
 [
-    [ "areaTriggerText", "d4/dac/a30253.html#a32bb8c4a4defce661d108627e25b645a", null ],
-    [ "Difficulty", "d4/dac/a30253.html#add8ed75cd6aaa3412e6222b869bb4113", null ],
-    [ "MapId", "d4/dac/a30253.html#aa107ad302ec2aa3ce2289ba392e1c32e", null ],
-    [ "maxPlayers", "d4/dac/a30253.html#a7ab33229ffee11a27861439053c79831", null ],
-    [ "resetTime", "d4/dac/a30253.html#a891a741efb049b51996e1a6110efc52d", null ]
+    [ "ID", "d4/dac/a30253.html#a3af48dd3f6b92ad7f5950d99ca6dd379", null ],
+    [ "Index", "d4/dac/a30253.html#aa58e046529aae0d1d6201c08ec8107e2", null ],
+    [ "Skill", "d4/dac/a30253.html#aed5e58cf605d3c28cd0d26015722be03", null ],
+    [ "Type", "d4/dac/a30253.html#a39b0b548efd795c162926bddcdd301b5", null ]
 ];

@@ -1,8 +1,9 @@
 var a08665 =
 [
-    [ "MostHPMissingInRange", "d7/d9e/a08665.html#afaa26b685d4e6b0b8d3e7f062ae9fe72", null ],
-    [ "operator()", "d7/d9e/a08665.html#a420388204d8a1420552b902fbcb2bebe", null ],
-    [ "i_hp", "d7/d9e/a08665.html#a4a70531f3dc19e7a2eedde0a03142297", null ],
-    [ "i_obj", "d7/d9e/a08665.html#a6f803fd737b4cc81c7b9c890c49b497e", null ],
-    [ "i_range", "d7/d9e/a08665.html#acef63da9004997c7f25056651284efa9", null ]
+    [ "NearestGameObjectTypeInObjectRangeCheck", "d7/d9e/a08665.html#a46cde63433cf803205006ad775fe73b5", null ],
+    [ "NearestGameObjectTypeInObjectRangeCheck", "d7/d9e/a08665.html#a4bf0dee77fb4979a02eebdc610995640", null ],
+    [ "operator()", "d7/d9e/a08665.html#ac41947606f4344e19edb13aa58f0a5a7", null ],
+    [ "i_obj", "d7/d9e/a08665.html#aca71a09421fdf412489f7f54cf4bc379", null ],
+    [ "i_range", "d7/d9e/a08665.html#a37f212d5cb1ef2b8d55e19b749861a17", null ],
+    [ "i_type", "d7/d9e/a08665.html#a68965425169b93053eadad91403855e0", null ]
 ];

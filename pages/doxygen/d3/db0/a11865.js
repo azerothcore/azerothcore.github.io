@@ -1,6 +1,6 @@
 var a11865 =
 [
-    [ "boss_shazzrahAI", "d8/d81/a11869.html", "d8/d81/a11869" ],
-    [ "boss_shazzrah", "d3/db0/a11865.html#a99a162d6eac5c9046a27f53ec05af7e4", null ],
-    [ "GetAI", "d3/db0/a11865.html#a8135f6ab246dbce4c2ebebe0e7f137d5", null ]
+    [ "boss_shazzrahAI", "d3/db0/a11865.html#a984b3d32d5f231a019f2c0f1bb027907", null ],
+    [ "EnterCombat", "d3/db0/a11865.html#af68daa557c7d2314cef790caac95a426", null ],
+    [ "ExecuteEvent", "d3/db0/a11865.html#a0f6e3e6876b9b769ea53db5c9028c6ff", null ]
 ];

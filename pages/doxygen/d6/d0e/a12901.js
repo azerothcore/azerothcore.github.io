@@ -1,5 +1,6 @@
 var a12901 =
 [
-    [ "AreaTrigger_at_sunwell_eredar_twins", "d6/d0e/a12901.html#a6cfb22079d94f8e83c76514fa73368b0", null ],
-    [ "OnTrigger", "d6/d0e/a12901.html#af8e25da855daca5ac3114523e9af07fd", null ]
+    [ "CorruptTriggers", "d6/d0e/a12901.html#a5ec60254ee2ac299ce99164189087a1c", null ],
+    [ "Execute", "d6/d0e/a12901.html#a9929f3518f307e0b753782967f06c6c1", null ],
+    [ "_caster", "d6/d0e/a12901.html#a2b9e4c3d292b7e3deea57e1542b3ba12", null ]
 ];

@@ -1,7 +1,6 @@
 var a27909 =
 [
-    [ "HandleDummy", "df/d45/a27909.html#a074d9bf0a4522da25d6c3bb146ee62db", null ],
-    [ "PrepareSpellScript", "df/d45/a27909.html#a3d2e0d522e49a278b7dd98150dd32808", null ],
-    [ "Register", "df/d45/a27909.html#a8775b6e4f537e7db25d7daef6ea04e0e", null ],
-    [ "Validate", "df/d45/a27909.html#afe4b07d89f705947f77cb62d24d9430d", null ]
+    [ "HandleDummy", "df/d45/a27909.html#ab146c4026bc8ad129bb3d421891d344b", null ],
+    [ "PrepareSpellScript", "df/d45/a27909.html#aa9743f357b9800ab2990fb584011b0a6", null ],
+    [ "Register", "df/d45/a27909.html#a3ca7b1dd1187fd39e362b3451b246a4c", null ]
 ];

@@ -1,6 +1,8 @@
 var a26161 =
 [
-    [ "anchorite_karjaAI", "d5/d9d/a26165.html", "d5/d9d/a26165" ],
-    [ "anchorite_karja", "d0/dc6/a26161.html#aacbdba30ea6a8b4e81a911b44c26d265", null ],
-    [ "GetAI", "d0/dc6/a26161.html#a074ae3dfb91bed4494a5bb8e20d433d5", null ]
+    [ "adyen_the_lightbringerAI", "d5/d9d/a26165.html", "d5/d9d/a26165" ],
+    [ "adyen_the_lightbringer", "d0/dc6/a26161.html#a93405c529edeaa2d62ca86e979cea319", null ],
+    [ "GetAI", "d0/dc6/a26161.html#aca603ad26ae69afe74ad053ccbfceba4", null ],
+    [ "OnGossipHello", "d0/dc6/a26161.html#ad5154e4aff6244a273e3a2cd4b7c6dff", null ],
+    [ "OnGossipSelect", "d0/dc6/a26161.html#a1db2e61eb54cd2506543dcad3c06e7f6", null ]
 ];

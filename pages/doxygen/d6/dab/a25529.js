@@ -1,18 +1,17 @@
 var a25529 =
 [
-    [ "boss_grand_warlock_nethekurseAI", "d6/dab/a25529.html#ae2edfb42edfeb90ca957c7b083cf532a", null ],
-    [ "AttackStart", "d6/dab/a25529.html#a319458c04c86a99f1b33872c4cd26587", null ],
-    [ "EnterCombat", "d6/dab/a25529.html#a2a83908b2fa805f6ba4f4001e48a50f8", null ],
-    [ "JustDied", "d6/dab/a25529.html#a8eac7aef43ea3b7c6f0bd73c4a44d79c", null ],
-    [ "JustSummoned", "d6/dab/a25529.html#a351cfa7d64c68748a431489477ff68d6", null ],
-    [ "KilledUnit", "d6/dab/a25529.html#a5bf65aaca58f61e5338fc2809db8f34a", null ],
-    [ "MoveInLineOfSight", "d6/dab/a25529.html#acce2f51007d91b3b871c3e563fb38803", null ],
-    [ "Reset", "d6/dab/a25529.html#aa11f3141ff7419be3db3a8dc2b6f4371", null ],
-    [ "SetData", "d6/dab/a25529.html#af21085b41763fc39e8338156ed5b9252", null ],
-    [ "SummonMinions", "d6/dab/a25529.html#a099c3e8f99b40bf59e4237fc0e1a8a5f", null ],
-    [ "UpdateAI", "d6/dab/a25529.html#af31ce043cd912483ede1c3587b83da56", null ],
-    [ "events2", "d6/dab/a25529.html#ada04eade4b378bc40a3c03c0057c47cf", null ],
-    [ "EventStage", "d6/dab/a25529.html#a00dfcb058ad827c17f573c75fbf461d3", null ],
-    [ "PeonEngagedCount", "d6/dab/a25529.html#a7dd80203ffa331f22ef99a461a9eb1ce", null ],
-    [ "PeonKilledCount", "d6/dab/a25529.html#ab2e1a1457163d1db4bef924773075b22", null ]
+    [ "instance_magtheridons_lair_InstanceMapScript", "d6/dab/a25529.html#a06f7e0f178d45a92f16dc06b68645fba", null ],
+    [ "GetSaveData", "d6/dab/a25529.html#aa7a817842402f9f4ec5d199735a4f6be", null ],
+    [ "Initialize", "d6/dab/a25529.html#afa054fb11fe777019baa70f46bfd8212", null ],
+    [ "Load", "d6/dab/a25529.html#a2cc3e58f63f73e7c9dd6205bb2c2e6cb", null ],
+    [ "OnCreatureCreate", "d6/dab/a25529.html#aa05f08785d9d62db41e8d29ef55db0d8", null ],
+    [ "OnCreatureRemove", "d6/dab/a25529.html#a727d4d3bfc52391a088e86fef013617c", null ],
+    [ "OnGameObjectCreate", "d6/dab/a25529.html#a020584d79926d170c02655c5e2841127", null ],
+    [ "OnGameObjectRemove", "d6/dab/a25529.html#a9a6ac60b68e2a515e771696c5c88b93d", null ],
+    [ "SetBossState", "d6/dab/a25529.html#a160269f8d4cde5297d5f70a5f8eec2b2", null ],
+    [ "SetData", "d6/dab/a25529.html#a847abafb7b00e9b2cab73a90a16b959e", null ],
+    [ "_columnSet", "d6/dab/a25529.html#a2593bf88b0aba019a831b3ca6a8e15b9", null ],
+    [ "_cubesSet", "d6/dab/a25529.html#ad59566c515cbea3274d17e483f3b4ef1", null ],
+    [ "_magtheridonGUID", "d6/dab/a25529.html#a03e70ccaf8c23d2c775051320c6c4636", null ],
+    [ "_wardersSet", "d6/dab/a25529.html#a37b2621d50e8a8f0bee3f089dbce88f9", null ]
 ];

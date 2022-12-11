@@ -1,6 +1,5 @@
 var a11313 =
 [
-    [ "boss_high_priestess_thaurissanAI", "d4/d21/a11313.html#acbc89b59865a5fda5a4143dd8c690b37", null ],
-    [ "EnterCombat", "d4/d21/a11313.html#a80d7f4ecc6b87c6d10b623f2043c4e03", null ],
-    [ "UpdateAI", "d4/d21/a11313.html#a216a5bc7a38aa5e13f9d025f44e04779", null ]
+    [ "boss_moira_bronzebeard", "d4/d21/a11313.html#abb9a87023b8afa242e60f9694dea1c39", null ],
+    [ "GetAI", "d4/d21/a11313.html#ad99554aac80c79933b78ab4b6d42cc4f", null ]
 ];

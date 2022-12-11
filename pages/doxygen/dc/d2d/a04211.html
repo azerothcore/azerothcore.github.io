@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/World/mob_generic_creature.cpp File Reference</title>
+<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/World/item_scripts.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,78 +107,174 @@ $(document).ready(function(){initNavTree('dc/d2d/a04211.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">mob_generic_creature.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">item_scripts.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">PassiveAI.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/a29449.html">generic_creature</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a29425.html">item_only_for_flight</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da3/a29453.html">generic_creature::generic_creatureAI</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d2f/a29429.html">item_nether_wraith_beacon</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d73/a29457.html">trigger_periodic</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d09/a29433.html">item_gor_dreks_ointment</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d08/a29461.html">trigger_periodic::trigger_periodicAI</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d95/a29437.html">item_incendiary_explosives</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd1/a29465.html">trigger_death</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d2c/a29441.html">item_mysterious_egg</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0a/a29469.html">trigger_death::trigger_deathAI</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd8/a29445.html">item_disgusting_jar</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/a29449.html">item_petrov_cluster_bombs</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da3/a29453.html">item_captured_frog</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d73/a29457.html">item_generic_limit_chance_above_60</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a5743308332243a862bb7c14ba5283345"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2d/a04211.html#a5743308332243a862bb7c14ba5283345">GENERIC_CREATURE_COOLDOWN</a>&#160;&#160;&#160;5000</td></tr>
-<tr class="separator:a5743308332243a862bb7c14ba5283345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:afa5a0f3082f0a49fcc796209c7828151"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2d/a04211.html#afa5a0f3082f0a49fcc796209c7828151">OnlyForFlight</a> { <a class="el" href="../../dc/d2d/a04211.html#afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d">SPELL_ARCANE_CHARGES</a> = 45072
+ }</td></tr>
+<tr class="separator:afa5a0f3082f0a49fcc796209c7828151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5481d2bf1b9efa370833eed302f6f94c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2d/a04211.html#a5481d2bf1b9efa370833eed302f6f94c">PetrovClusterBombs</a> { <br />
+&#160;&#160;<a class="el" href="../../dc/d2d/a04211.html#a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6">SPELL_PETROV_BOMB</a> = 42406
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d2d/a04211.html#a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42">AREA_ID_SHATTERED_STRAITS</a> = 4064
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d2d/a04211.html#a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9">ZONE_ID_HOWLING</a> = 495
+<br />
+ }</td></tr>
+<tr class="separator:a5481d2bf1b9efa370833eed302f6f94c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a51d3f5cfd1964cbec23fcba5046cca"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2d/a04211.html#a3a51d3f5cfd1964cbec23fcba5046cca">CapturedFrog</a> { <br />
+&#160;&#160;<a class="el" href="../../dc/d2d/a04211.html#a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04">QUEST_THE_PERFECT_SPIES</a> = 25444
+, <br />
+&#160;&#160;<a class="el" href="../../dc/d2d/a04211.html#a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f">NPC_VANIRAS_SENTRY_TOTEM</a> = 40187
+<br />
+ }</td></tr>
+<tr class="separator:a3a51d3f5cfd1964cbec23fcba5046cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a50f66c4d6429b38157e35a75a0daa31d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2d/a04211.html#a50f66c4d6429b38157e35a75a0daa31d">AddSC_generic_creature</a> ()</td></tr>
-<tr class="separator:a50f66c4d6429b38157e35a75a0daa31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e28ebf5a580887bb117f786689a34c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2d/a04211.html#a3e28ebf5a580887bb117f786689a34c6">AddSC_item_scripts</a> ()</td></tr>
+<tr class="separator:a3e28ebf5a580887bb117f786689a34c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a5743308332243a862bb7c14ba5283345" name="a5743308332243a862bb7c14ba5283345"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5743308332243a862bb7c14ba5283345">&#9670;&#160;</a></span>GENERIC_CREATURE_COOLDOWN</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a3a51d3f5cfd1964cbec23fcba5046cca" name="a3a51d3f5cfd1964cbec23fcba5046cca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a51d3f5cfd1964cbec23fcba5046cca">&#9670;&#160;</a></span>CapturedFrog</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define GENERIC_CREATURE_COOLDOWN&#160;&#160;&#160;5000</td>
+          <td class="memname">enum <a class="el" href="../../dc/d2d/a04211.html#a3a51d3f5cfd1964cbec23fcba5046cca">CapturedFrog</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04" name="a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04"></a>QUEST_THE_PERFECT_SPIES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f" name="a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f"></a>NPC_VANIRAS_SENTRY_TOTEM&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  223</span>{</div>
+<div class="line"><span class="lineno">  224</span>    <a class="code hl_enumvalue" href="../../dc/d2d/a04211.html#a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04">QUEST_THE_PERFECT_SPIES</a>      = 25444,</div>
+<div class="line"><span class="lineno">  225</span>    <a class="code hl_enumvalue" href="../../dc/d2d/a04211.html#a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f">NPC_VANIRAS_SENTRY_TOTEM</a>     = 40187</div>
+<div class="line"><span class="lineno">  226</span>};</div>
+<div class="ttc" id="aa04211_html_a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f"><div class="ttname"><a href="../../dc/d2d/a04211.html#a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f">NPC_VANIRAS_SENTRY_TOTEM</a></div><div class="ttdeci">@ NPC_VANIRAS_SENTRY_TOTEM</div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:225</div></div>
+<div class="ttc" id="aa04211_html_a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04"><div class="ttname"><a href="../../dc/d2d/a04211.html#a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04">QUEST_THE_PERFECT_SPIES</a></div><div class="ttdeci">@ QUEST_THE_PERFECT_SPIES</div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:224</div></div>
+</div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a50f66c4d6429b38157e35a75a0daa31d" name="a50f66c4d6429b38157e35a75a0daa31d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50f66c4d6429b38157e35a75a0daa31d">&#9670;&#160;</a></span>AddSC_generic_creature()</h2>
+<a id="afa5a0f3082f0a49fcc796209c7828151" name="afa5a0f3082f0a49fcc796209c7828151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa5a0f3082f0a49fcc796209c7828151">&#9670;&#160;</a></span>OnlyForFlight</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_generic_creature </td>
+          <td class="memname">enum <a class="el" href="../../dc/d2d/a04211.html#afa5a0f3082f0a49fcc796209c7828151">OnlyForFlight</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d" name="afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d"></a>SPELL_ARCANE_CHARGES&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   42</span>{</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../dc/d2d/a04211.html#afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d">SPELL_ARCANE_CHARGES</a>    = 45072</div>
+<div class="line"><span class="lineno">   44</span>};</div>
+<div class="ttc" id="aa04211_html_afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d"><div class="ttname"><a href="../../dc/d2d/a04211.html#afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d">SPELL_ARCANE_CHARGES</a></div><div class="ttdeci">@ SPELL_ARCANE_CHARGES</div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:43</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5481d2bf1b9efa370833eed302f6f94c" name="a5481d2bf1b9efa370833eed302f6f94c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5481d2bf1b9efa370833eed302f6f94c">&#9670;&#160;</a></span>PetrovClusterBombs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dc/d2d/a04211.html#a5481d2bf1b9efa370833eed302f6f94c">PetrovClusterBombs</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6" name="a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6"></a>SPELL_PETROV_BOMB&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42" name="a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42"></a>AREA_ID_SHATTERED_STRAITS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9" name="a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9"></a>ZONE_ID_HOWLING&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  192</span>{</div>
+<div class="line"><span class="lineno">  193</span>    <a class="code hl_enumvalue" href="../../dc/d2d/a04211.html#a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6">SPELL_PETROV_BOMB</a>           = 42406,</div>
+<div class="line"><span class="lineno">  194</span>    <a class="code hl_enumvalue" href="../../dc/d2d/a04211.html#a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42">AREA_ID_SHATTERED_STRAITS</a>   = 4064,</div>
+<div class="line"><span class="lineno">  195</span>    <a class="code hl_enumvalue" href="../../dc/d2d/a04211.html#a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9">ZONE_ID_HOWLING</a>             = 495</div>
+<div class="line"><span class="lineno">  196</span>};</div>
+<div class="ttc" id="aa04211_html_a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9"><div class="ttname"><a href="../../dc/d2d/a04211.html#a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9">ZONE_ID_HOWLING</a></div><div class="ttdeci">@ ZONE_ID_HOWLING</div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:195</div></div>
+<div class="ttc" id="aa04211_html_a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6"><div class="ttname"><a href="../../dc/d2d/a04211.html#a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6">SPELL_PETROV_BOMB</a></div><div class="ttdeci">@ SPELL_PETROV_BOMB</div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:193</div></div>
+<div class="ttc" id="aa04211_html_a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42"><div class="ttname"><a href="../../dc/d2d/a04211.html#a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42">AREA_ID_SHATTERED_STRAITS</a></div><div class="ttdeci">@ AREA_ID_SHATTERED_STRAITS</div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:194</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a3e28ebf5a580887bb117f786689a34c6" name="a3e28ebf5a580887bb117f786689a34c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e28ebf5a580887bb117f786689a34c6">&#9670;&#160;</a></span>AddSC_item_scripts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_item_scripts </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  229</span>{</div>
-<div class="line"><span class="lineno">  230</span>    <span class="comment">//new generic_creature;</span></div>
-<div class="line"><span class="lineno">  231</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/d73/a29457.html">trigger_periodic</a>;</div>
-<div class="line"><span class="lineno">  232</span>    <span class="comment">//new trigger_death;</span></div>
-<div class="line"><span class="lineno">  233</span>}</div>
-<div class="ttc" id="aa29457_html"><div class="ttname"><a href="../../d1/d73/a29457.html">trigger_periodic</a></div><div class="ttdef"><b>Definition:</b> mob_generic_creature.cpp:172</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  273</span>{</div>
+<div class="line"><span class="lineno">  274</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/dbc/a29425.html">item_only_for_flight</a>();</div>
+<div class="line"><span class="lineno">  275</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d2f/a29429.html">item_nether_wraith_beacon</a>();</div>
+<div class="line"><span class="lineno">  276</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d09/a29433.html">item_gor_dreks_ointment</a>();</div>
+<div class="line"><span class="lineno">  277</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d95/a29437.html">item_incendiary_explosives</a>();</div>
+<div class="line"><span class="lineno">  278</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d2c/a29441.html">item_mysterious_egg</a>();</div>
+<div class="line"><span class="lineno">  279</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/dd8/a29445.html">item_disgusting_jar</a>();</div>
+<div class="line"><span class="lineno">  280</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/d51/a29449.html">item_petrov_cluster_bombs</a>();</div>
+<div class="line"><span class="lineno">  281</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/da3/a29453.html">item_captured_frog</a>();</div>
+<div class="line"><span class="lineno">  282</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/d73/a29457.html">item_generic_limit_chance_above_60</a>();</div>
+<div class="line"><span class="lineno">  283</span>}</div>
+<div class="ttc" id="aa29425_html"><div class="ttname"><a href="../../dd/dbc/a29425.html">item_only_for_flight</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:47</div></div>
+<div class="ttc" id="aa29429_html"><div class="ttname"><a href="../../d9/d2f/a29429.html">item_nether_wraith_beacon</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:88</div></div>
+<div class="ttc" id="aa29433_html"><div class="ttname"><a href="../../d7/d09/a29433.html">item_gor_dreks_ointment</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:111</div></div>
+<div class="ttc" id="aa29437_html"><div class="ttname"><a href="../../d2/d95/a29437.html">item_incendiary_explosives</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:131</div></div>
+<div class="ttc" id="aa29441_html"><div class="ttname"><a href="../../d8/d2c/a29441.html">item_mysterious_egg</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:152</div></div>
+<div class="ttc" id="aa29445_html"><div class="ttname"><a href="../../d0/dd8/a29445.html">item_disgusting_jar</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:172</div></div>
+<div class="ttc" id="aa29449_html"><div class="ttname"><a href="../../d0/d51/a29449.html">item_petrov_cluster_bombs</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:199</div></div>
+<div class="ttc" id="aa29453_html"><div class="ttname"><a href="../../d3/da3/a29453.html">item_captured_frog</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:229</div></div>
+<div class="ttc" id="aa29457_html"><div class="ttname"><a href="../../d1/d73/a29457.html">item_generic_limit_chance_above_60</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:251</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
 
@@ -189,8 +285,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_0a0414616ece51a8570c4e36029d4e29.html">World</a></li><li class="navelem"><a class="el" href="../../dc/d2d/a04211.html">mob_generic_creature.cpp</a></li>
-    <li class="footer">Generated on Sat Nov 12 2022 15:54:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_0a0414616ece51a8570c4e36029d4e29.html">World</a></li><li class="navelem"><a class="el" href="../../dc/d2d/a04211.html">item_scripts.cpp</a></li>
+    <li class="footer">Generated on Sun Dec 11 2022 11:33:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

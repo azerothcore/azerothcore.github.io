@@ -1,4 +1,5 @@
 var a10513 =
 [
-    [ "AddSpellMod", "df/d4d/a10513.html#a1c14e27dd094be2fccff3d74a1414a80", null ]
+    [ "WorldObjectSpellTrajTargetCheck", "df/d4d/a10513.html#a0c08b6b4c7878678eb419a556f718be0", null ],
+    [ "operator()", "df/d4d/a10513.html#aa1f7772cdb19914cc365a325f801b5d5", null ]
 ];

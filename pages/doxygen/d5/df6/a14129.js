@@ -1,6 +1,6 @@
 var a14129 =
 [
-    [ "npc_direbrew_antagonist", "d5/df6/a14129.html#a30fed4e6888d98af576dea8e13c510d3", null ],
-    [ "DoAction", "d5/df6/a14129.html#a924891e5d4e3f30d78186bedf76cf7d1", null ],
-    [ "EnterCombat", "d5/df6/a14129.html#a0014a9269e811ee1a999389da09ace35", null ]
+    [ "go_direbrew_mole_machineAI", "d6/d38/a14133.html", "d6/d38/a14133" ],
+    [ "go_direbrew_mole_machine", "d5/df6/a14129.html#a759d291a5be227d8beae3bbc779e56f4", null ],
+    [ "GetAI", "d5/df6/a14129.html#a793e5e544664d6c2c3897161c9cccbbb", null ]
 ];

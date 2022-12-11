@@ -1,5 +1,7 @@
 var a09741 =
 [
-    [ "MailScript", "d2/d27/a09741.html#a115723734d325cf056fe57df2070c947", null ],
-    [ "OnBeforeMailDraftSendMailTo", "d2/d27/a09741.html#ab4e3f0552ffc705ef44e8ca6c36f2be7", null ]
+    [ "GameEventScript", "d2/d27/a09741.html#a002972b8742b5c01f31a9aed096cf4a1", null ],
+    [ "OnEventCheck", "d2/d27/a09741.html#aadab9593da561e9b19202d09b53cba36", null ],
+    [ "OnStart", "d2/d27/a09741.html#a0e61a9e1379aef55af93a593af84a3cc", null ],
+    [ "OnStop", "d2/d27/a09741.html#a4813f26f03e5ba79a740bf30558e604c", null ]
 ];

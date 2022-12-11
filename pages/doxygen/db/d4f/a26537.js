@@ -1,8 +1,8 @@
 var a26537 =
 [
-    [ "npc_cooshcooshAI", "dc/d88/a26541.html", "dc/d88/a26541" ],
-    [ "npc_cooshcoosh", "db/d4f/a26537.html#ac03dee47e035a069b203e4ff0d1953cc", null ],
-    [ "GetAI", "db/d4f/a26537.html#a0a7bb853e06c3777018f9fc91feca701", null ],
-    [ "OnGossipHello", "db/d4f/a26537.html#ab537b7b5affac884441052850ca4a6e5", null ],
-    [ "OnGossipSelect", "db/d4f/a26537.html#a70545a6ef2d9c8838f172afb0de59e74", null ]
+    [ "npc_natrualist_biteAI", "db/d4f/a26537.html#a2cf8f7e69aaf5b3a01bf231627df24e1", null ],
+    [ "EnterCombat", "db/d4f/a26537.html#a46630706ca9bd46378a8750e6e65c8ce", null ],
+    [ "GetData", "db/d4f/a26537.html#a35b1f6a8a313a443806c8a6e99e0af50", null ],
+    [ "MoveInLineOfSight", "db/d4f/a26537.html#af5bca9b79c335965ab8b4b64730025e4", null ],
+    [ "_spoken", "db/d4f/a26537.html#a8ccaa9bbf3c521241f32254774a0f825", null ]
 ];

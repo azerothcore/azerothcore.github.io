@@ -1,6 +1,6 @@
 var a12249 =
 [
-    [ "PeriodicTick", "df/da7/a12249.html#a8869efc1cc66207171a5baeaf1b5b72f", null ],
-    [ "PrepareAuraScript", "df/da7/a12249.html#a70a659918ace8b035abeef336362e67c", null ],
-    [ "Register", "df/da7/a12249.html#a882e920dd57d6b1609e541b0f4abe9a6", null ]
+    [ "spell_karazhan_blink_SpellScript", "d6/d4c/a12253.html", "d6/d4c/a12253" ],
+    [ "spell_karazhan_blink", "df/da7/a12249.html#a221220f450f2b4c5ccaedc4a1b4ea69c", null ],
+    [ "GetSpellScript", "df/da7/a12249.html#a765472080720df4b4c8465e5749dec6a", null ]
 ];

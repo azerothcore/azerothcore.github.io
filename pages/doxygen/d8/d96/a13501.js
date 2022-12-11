@@ -1,7 +1,6 @@
 var a13501 =
 [
-    [ "boss_blight_wormAI", "d8/d96/a13501.html#af267e395fbd539f871e498dc6745c610", null ],
-    [ "Reset", "d8/d96/a13501.html#a96e27eaba5c9e422981d78123ed9c83d", null ],
-    [ "UpdateAI", "d8/d96/a13501.html#ac8e4c5a7a251173a2afb369498c88a1d", null ],
-    [ "_events", "d8/d96/a13501.html#a65f7fd4f73c727eeb5988d7ec77b94ce", null ]
+    [ "spell_blight_worm_ingest_SpellScript", "d9/da9/a13505.html", "d9/da9/a13505" ],
+    [ "spell_blight_worm_ingest", "d8/d96/a13501.html#a5b3596196d4eebbd0c6f3d09399c0f40", null ],
+    [ "GetSpellScript", "d8/d96/a13501.html#ae52f5b5c8624e5dc378bae755713cbfe", null ]
 ];

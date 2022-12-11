@@ -1,6 +1,8 @@
 var a13529 =
 [
-    [ "npc_the_scourge_cauldronAI", "d1/df2/a13533.html", "d1/df2/a13533" ],
-    [ "npc_the_scourge_cauldron", "d0/d49/a13529.html#a7ff5315293c4917dec3b0fe0aade2016", null ],
-    [ "GetAI", "d0/d49/a13529.html#ae4e35f1cac0c0f35333ba6113d3c1ad0", null ]
+    [ "npc_the_scourge_cauldronAI", "d0/d49/a13529.html#aa8b221cfe49b09efbfe5943489c844b8", null ],
+    [ "DoDie", "d0/d49/a13529.html#a9f720a27db2943a66b11ad6355690bf5", null ],
+    [ "EnterCombat", "d0/d49/a13529.html#a3c7a7d4c7287d3ec14d037b0c924ce8c", null ],
+    [ "MoveInLineOfSight", "d0/d49/a13529.html#a256195dbe75859d72afcd0defb9ff76e", null ],
+    [ "Reset", "d0/d49/a13529.html#ab18bb2eb344f45827685786c665b1750", null ]
 ];

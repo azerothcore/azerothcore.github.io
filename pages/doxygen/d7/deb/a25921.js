@@ -1,6 +1,6 @@
 var a25921 =
 [
-    [ "boss_gatewatcher_iron_handAI", "d5/dd7/a25925.html", "d5/dd7/a25925" ],
-    [ "boss_gatewatcher_iron_hand", "d7/deb/a25921.html#a36cf8a948ebea0f8d5d32d6d5a6b2c7a", null ],
-    [ "GetAI", "d7/deb/a25921.html#a25bd87bac2aff58f6f4e3b0e2c8cce2e", null ]
+    [ "boss_gatewatcher_gyrokillAI", "d5/dd7/a25925.html", "d5/dd7/a25925" ],
+    [ "boss_gatewatcher_gyrokill", "d7/deb/a25921.html#aaff742e7a9ae4969c18c6fb35d2bee0d", null ],
+    [ "GetAI", "d7/deb/a25921.html#ab745f6e73234490168d2a8e323af0263", null ]
 ];

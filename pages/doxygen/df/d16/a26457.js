@@ -1,6 +1,6 @@
 var a26457 =
 [
-    [ "HandlePeriodic", "df/d16/a26457.html#af201384f8853dae8f2afa61313f868f1", null ],
-    [ "PrepareAuraScript", "df/d16/a26457.html#affeb1d65ba46903a31ffdc4cdad2a9db", null ],
-    [ "Register", "df/d16/a26457.html#ac019473fbee7a7180b9e8484b3c4796c", null ]
+    [ "HandleSendEvent", "df/d16/a26457.html#abd94e05280805b6d7f5bb0039324fb49", null ],
+    [ "PrepareSpellScript", "df/d16/a26457.html#a7abe63c4bdaf3b8d7928d6f656f11fea", null ],
+    [ "Register", "df/d16/a26457.html#aa2094cf0ef08f37bdc4ebbdd4a4e32b6", null ]
 ];

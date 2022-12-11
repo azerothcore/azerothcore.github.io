@@ -2,7 +2,7 @@ var a16477 =
 [
     [ "instance_trial_of_the_champion_InstanceMapScript", "d9/d63/a16477.html#adc08ca72736ceaa3372079114c6a5e01", null ],
     [ "CheckAchievementCriteriaMeet", "d9/d63/a16477.html#a7ff9fce46e80ea1fdf38f9cfaca58fbe", null ],
-    [ "DoNeedCleanup", "d9/d63/a16477.html#a3c0f1120539984080d859927ae182fc9", null ],
+    [ "DoNeedCleanup", "d9/d63/a16477.html#a54e5ea41ca70520be263cd867bc5c713", null ],
     [ "DoSummonGrandChampion", "d9/d63/a16477.html#a02e6df2528dc6be81fd4cdcd6fc69472", null ],
     [ "GetData", "d9/d63/a16477.html#a143d2cd7d70384c0e164dba58c087c5d", null ],
     [ "GetGuidData", "d9/d63/a16477.html#a06fe3738599d1ee074fcbbe20dcd6349", null ],
@@ -13,7 +13,7 @@ var a16477 =
     [ "Load", "d9/d63/a16477.html#a60d444b276c64cfbb641ed9f9da7d7bb", null ],
     [ "OnCreatureCreate", "d9/d63/a16477.html#a925ce6161478e51dc37e1ea60b48f08e", null ],
     [ "OnGameObjectCreate", "d9/d63/a16477.html#ae17340753f10e9baf05d5c98f65ba3c4", null ],
-    [ "OnPlayerEnter", "d9/d63/a16477.html#ae065e4259ddec679b3500737b8d75be4", null ],
+    [ "OnPlayerEnter", "d9/d63/a16477.html#a724f4933667cd88b8e2b272da7435011", null ],
     [ "SetData", "d9/d63/a16477.html#adaa1a6d7179e72ace0b017a2a452b092", null ],
     [ "Update", "d9/d63/a16477.html#ade2cd2a0aba04b6c28c7daacf0b37ec3", null ],
     [ "bAchievIveHadWorse", "d9/d63/a16477.html#ad49451efbd192d6d92357379d4750c88", null ],

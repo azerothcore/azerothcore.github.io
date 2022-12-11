@@ -1,6 +1,6 @@
 var a25945 =
 [
-    [ "spell_capacitus_polarity_shift_SpellScript", "d4/d1c/a25949.html", "d4/d1c/a25949" ],
-    [ "spell_capacitus_polarity_shift", "d3/daf/a25945.html#afa703b04e8217c47050a6a41cfabcd1d", null ],
-    [ "GetSpellScript", "d3/daf/a25945.html#a159901c37535783b5a536a7972337410", null ]
+    [ "spell_capacitus_polarity_charge_SpellScript", "d4/d1c/a25949.html", "d4/d1c/a25949" ],
+    [ "spell_capacitus_polarity_charge", "d3/daf/a25945.html#a8987a05fb30594f22749f12d6642af4a", null ],
+    [ "GetSpellScript", "d3/daf/a25945.html#ac3a3ca4ec7315af68ae85f9a2694c370", null ]
 ];

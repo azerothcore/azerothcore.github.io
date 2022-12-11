@@ -1,7 +1,6 @@
 var a26913 =
 [
-    [ "HandleScriptEffect", "db/ddd/a26913.html#a3a33f0ec477ff3b4b19fc98760a2dae7", null ],
-    [ "PrepareSpellScript", "db/ddd/a26913.html#ae29c4f69a34e71011192df12509e2935", null ],
-    [ "Register", "db/ddd/a26913.html#ae37da44bde25f6bdb5b4a382ab66b7be", null ],
-    [ "Validate", "db/ddd/a26913.html#af9056c179b8089cf0b304b3ce61ea92f", null ]
+    [ "CalculateAmount", "db/ddd/a26913.html#af255d621637db2d777bf4ef528dc6658", null ],
+    [ "PrepareAuraScript", "db/ddd/a26913.html#a4665a3ef48890696dbde1ca567be5fb3", null ],
+    [ "Register", "db/ddd/a26913.html#a50d1284f1113bfdd0b39690efabe6b9b", null ]
 ];

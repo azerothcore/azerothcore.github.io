@@ -1,11 +1,7 @@
 var a12505 =
 [
-    [ "npc_crusade_persuadedAI", "d2/d1c/a12505.html#a9a6a762384bb8ca74a34d30472fa8e3c", null ],
-    [ "EnterCombat", "d2/d1c/a12505.html#adf8f594be854b35799996978d3edf123", null ],
-    [ "Reset", "d2/d1c/a12505.html#a127c36f01e2ddfeb26f3192a1db8ffaf", null ],
-    [ "SpellHit", "d2/d1c/a12505.html#a72476d0e2c63d629c2200824cd3cb5a1", null ],
-    [ "UpdateAI", "d2/d1c/a12505.html#a078facb2a0e5ba27f44999e7bb1e55f7", null ],
-    [ "playerGUID", "d2/d1c/a12505.html#a3076964de32f12d70d41677fb626719b", null ],
-    [ "speechCounter", "d2/d1c/a12505.html#a4b0c5d69a7563b2f4f399a60010378a9", null ],
-    [ "speechTimer", "d2/d1c/a12505.html#aada4f1277fc1f000c27cefcd6011c24d", null ]
+    [ "npc_koltira_deathweaverAI", "d8/d8e/a12509.html", "d8/d8e/a12509" ],
+    [ "npc_koltira_deathweaver", "d2/d1c/a12505.html#a5e9fdbc8dc70ce3480906b86aed381a3", null ],
+    [ "GetAI", "d2/d1c/a12505.html#afddc561b88679f3dd6ca8b374807b0f0", null ],
+    [ "OnQuestAccept", "d2/d1c/a12505.html#a745d0d384c465b26716429df48885d02", null ]
 ];

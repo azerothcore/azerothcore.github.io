@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['quest_5fbattle_5fof_5fthe_5fcrimson_5fwatch_0',['QUEST_BATTLE_OF_THE_CRIMSON_WATCH',['../d9/d68/a04106.html#a310a37ec148e2e37c1123f9ced34020f',1,'zone_shadowmoon_valley.cpp']]],
-  ['quest_5fcrow_5ftransform_1',['QUEST_CROW_TRANSFORM',['../dc/d72/a04172.html#ae6cbc423a671eda57d50f99d2effdb03',1,'spell_quest.cpp']]],
+  ['quest_5fbattle_5fof_5fthe_5fcrimson_5fwatch_0',['QUEST_BATTLE_OF_THE_CRIMSON_WATCH',['../d7/d47/a04109.html#a310a37ec148e2e37c1123f9ced34020f',1,'zone_shadowmoon_valley.cpp']]],
+  ['quest_5fcrow_5ftransform_1',['QUEST_CROW_TRANSFORM',['../d9/d88/a04175.html#ae6cbc423a671eda57d50f99d2effdb03',1,'spell_quest.cpp']]],
   ['quest_5fdeplink_5fcount_2',['QUEST_DEPLINK_COUNT',['../d4/d29/a01817.html#a1ad18081efbed90eca30ddba880ef519',1,'QuestDef.h']]],
   ['quest_5fdeprogramming_3',['QUEST_DEPROGRAMMING',['../dc/da7/a03404.html#aeab924a4238f7970519cb23ed6d1ecdb',1,'boss_lady_deathwhisper.cpp']]],
   ['quest_5femote_5fcount_4',['QUEST_EMOTE_COUNT',['../d4/d29/a01817.html#a63297dd973bbf1f493882c44e7b32d75',1,'QuestDef.h']]],

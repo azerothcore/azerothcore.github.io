@@ -1,6 +1,6 @@
 var a13365 =
 [
-    [ "OnEffect", "dd/dd0/a13365.html#a814ab5c1e0063eb6398f767cbab28cd7", null ],
-    [ "PrepareSpellScript", "dd/dd0/a13365.html#ab950bf8cf87ff2967658855c0fe08fc8", null ],
-    [ "Register", "dd/dd0/a13365.html#a5cef1b024d009ab6551b18c98244fcbd", null ]
+    [ "npc_grand_magister_rommathAI", "d4/d6d/a13369.html", "d4/d6d/a13369" ],
+    [ "npc_grand_magister_rommath", "dd/dd0/a13365.html#a63b9786bfbd9c7b462b0549e2f6941ea", null ],
+    [ "GetAI", "dd/dd0/a13365.html#abd64eff4712e8209e39e938b1813250c", null ]
 ];

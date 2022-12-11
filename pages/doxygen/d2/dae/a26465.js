@@ -1,6 +1,6 @@
 var a26465 =
 [
-    [ "PrepareSpellScript", "d2/dae/a26465.html#abe1dcd583e3d3d42d86c922037ad77e6", null ],
-    [ "Register", "d2/dae/a26465.html#a8a772b805bf6772276c5895f5ad444e6", null ],
-    [ "SetDest", "d2/dae/a26465.html#a309f452b52202c9f895745d0b993751e", null ]
+    [ "HandlePeriodic", "d2/dae/a26465.html#af201384f8853dae8f2afa61313f868f1", null ],
+    [ "PrepareAuraScript", "d2/dae/a26465.html#affeb1d65ba46903a31ffdc4cdad2a9db", null ],
+    [ "Register", "d2/dae/a26465.html#ac019473fbee7a7180b9e8484b3c4796c", null ]
 ];

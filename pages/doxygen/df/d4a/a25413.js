@@ -1,11 +1,10 @@
 var a25413 =
 [
-    [ "boss_the_makerAI", "df/d4a/a25413.html#a489701a8d4e7c8f8e4695bcb9f329415", null ],
-    [ "EnterCombat", "df/d4a/a25413.html#ac555c05586d07ede97a3d5452f7584bf", null ],
-    [ "JustDied", "df/d4a/a25413.html#af452259aac7527c1832e877a70237aea", null ],
-    [ "KilledUnit", "df/d4a/a25413.html#aa4ead49b651d81ca8d6d637ab426bac1", null ],
-    [ "Reset", "df/d4a/a25413.html#aebeccb04155a93cb78983767660aad33", null ],
-    [ "UpdateAI", "df/d4a/a25413.html#aa355edfe8f5c522f44bcfb41f68928a3", null ],
-    [ "events", "df/d4a/a25413.html#a8aa18c5c75499a10aaa929197785050e", null ],
-    [ "instance", "df/d4a/a25413.html#af01c22c42405ae5bbdc77ad50e2f7e2c", null ]
+    [ "npc_shadowmoon_channelerAI", "df/d4a/a25413.html#a9315c3136e6d9b424b5ba154a857e96f", null ],
+    [ "EnterCombat", "df/d4a/a25413.html#a9b64fa98b8320fefde3398a8a36cf0a0", null ],
+    [ "GetKelidan", "df/d4a/a25413.html#aba0a4e72a01cc067e109f55ab428920e", null ],
+    [ "JustDied", "df/d4a/a25413.html#ae0a0bbcac49cbce65abc8c44df82ba62", null ],
+    [ "Reset", "df/d4a/a25413.html#a5cf3d34cfbcdcb092514d3338b953c9c", null ],
+    [ "UpdateAI", "df/d4a/a25413.html#a1c5a35f06dfebd47259a9773f32ebc1e", null ],
+    [ "events", "df/d4a/a25413.html#af78785d07516949fdc3c1731a76887d2", null ]
 ];

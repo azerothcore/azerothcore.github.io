@@ -1,7 +1,8 @@
 var a13409 =
 [
-    [ "npc_bartlebyAI", "db/d88/a13413.html", "db/d88/a13413" ],
-    [ "npc_bartleby", "d9/d1a/a13409.html#a4933c9ff03d3d074df0598ee564de009", null ],
-    [ "GetAI", "d9/d1a/a13409.html#a1fb3a8a2ef01c05b09fc8e916b4c1179", null ],
-    [ "OnQuestAccept", "d9/d1a/a13409.html#a61725af49cbdc18fa7e8feb16d7bca06", null ]
+    [ "npc_bartlebyAI", "d9/d1a/a13409.html#abcc4ebb2c3505679d4c70317d9a8fd93", null ],
+    [ "AttackedBy", "d9/d1a/a13409.html#aa5d4adcbbf3c9cb6a59ae64ef001651a", null ],
+    [ "DamageTaken", "d9/d1a/a13409.html#a096d710ec4b1a90279b8647e926ca0ed", null ],
+    [ "Reset", "d9/d1a/a13409.html#a2e682cf315a81859d99114485a7c30ed", null ],
+    [ "m_uiNormalFaction", "d9/d1a/a13409.html#a8aad1ef26a8ff0598ebbc4e6580d6dbb", null ]
 ];

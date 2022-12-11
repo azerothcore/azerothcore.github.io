@@ -1,7 +1,6 @@
 var a12313 =
 [
-    [ "boss_kagani_nightstrikeAI", "dc/df3/a12313.html#ac51b232c2c02388f178e84fcaa3b9289", null ],
-    [ "EnterCombat", "dc/df3/a12313.html#a67026fdec76fa279811e3d673d835e4e", null ],
-    [ "MovementInform", "dc/df3/a12313.html#a4197c5a864e92a1d7fff91f598afc9b0", null ],
-    [ "UpdateAI", "dc/df3/a12313.html#aefe7ff926fe26ab135e7b85828beece2", null ]
+    [ "boss_ellris_duskhallowAI", "d2/df5/a12317.html", "d2/df5/a12317" ],
+    [ "boss_ellris_duskhallow", "dc/df3/a12313.html#af42780ff0d9cb9db432d0ef9107dc53c", null ],
+    [ "GetAI", "dc/df3/a12313.html#a8771cd0305f174227a3ba017918d1dc5", null ]
 ];

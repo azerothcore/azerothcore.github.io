@@ -1,12 +1,23 @@
 var a09481 =
 [
-    [ "delay", "da/d67/a09481.html#aa05ef99c3e04589501362a07d0dd032a", null ],
-    [ "event_chance", "da/d67/a09481.html#af54f2d38ca1a11664f516799f3bb80c8", null ],
-    [ "event_id", "da/d67/a09481.html#a083020691278af836e48f0a0c2feff96", null ],
-    [ "id", "da/d67/a09481.html#af7248c313ceefedb5b7ff6ed4c2ffd6b", null ],
-    [ "move_type", "da/d67/a09481.html#afb1a57b423a258e99c6921727a27e2e7", null ],
-    [ "orientation", "da/d67/a09481.html#a971411811b0e60839538f82cd55dcfb7", null ],
-    [ "x", "da/d67/a09481.html#a2dfd7f1f946ebef0b67d8f1542198b4b", null ],
-    [ "y", "da/d67/a09481.html#a574c5ba7eb5e6bd55f6c55bb511c03f7", null ],
-    [ "z", "da/d67/a09481.html#a013fa650f43e790e652016fbce2e1bd5", null ]
+    [ "LengthArray", "da/d67/a09481.html#a20cf3df436c8fc337019cb8dbd4fc74f", null ],
+    [ "LengthType", "da/d67/a09481.html#a5bbffaf9ea67b7747d5c0749d38162fb", null ],
+    [ "Spline", "da/d67/a09481.html#a9aaaf0914627ffdad08de010920fd626", null ],
+    [ "clear", "da/d67/a09481.html#a091e42262c66dff880bfa787c74a0bcc", null ],
+    [ "computeIndex", "da/d67/a09481.html#a69a59bf415f83e6770694799e3c905b1", null ],
+    [ "computeIndexInBounds", "da/d67/a09481.html#aa344531c5931b35d759830991174c6a0", null ],
+    [ "computeIndexInBounds", "da/d67/a09481.html#a97b872ca05f947444945860e04bb2651", null ],
+    [ "evaluate_derivative", "da/d67/a09481.html#ad4b8334bf969be613fdf68043b602fb1", null ],
+    [ "evaluate_derivative", "da/d67/a09481.html#ae0801ccc74dc971248f743cfadc248a3", null ],
+    [ "evaluate_percent", "da/d67/a09481.html#ae05046412e2825316172dc8b1cdac870", null ],
+    [ "evaluate_percent", "da/d67/a09481.html#a249fa3aa29b3baa59a5afec0e14c7ef5", null ],
+    [ "init_cyclic_spline", "da/d67/a09481.html#a41da9314f499c768b9bd567f1eb5ae55", null ],
+    [ "init_spline", "da/d67/a09481.html#a146e7d35cea5ff759fdec2463e16f465", null ],
+    [ "initLengths", "da/d67/a09481.html#ad1cdf5235b5a2a64f32125bcf9048094", null ],
+    [ "initLengths", "da/d67/a09481.html#a708b60c2b21178db578520dfd98af6f7", null ],
+    [ "length", "da/d67/a09481.html#aab929569bba2417387acd22f0634504d", null ],
+    [ "length", "da/d67/a09481.html#a6791d5411365109dffcc699170f03291", null ],
+    [ "length", "da/d67/a09481.html#a73b3a47713e07a5d07959a2eb17be87e", null ],
+    [ "set_length", "da/d67/a09481.html#a7c5aba567e41d196c8bf0faf175ed43e", null ],
+    [ "lengths", "da/d67/a09481.html#a307a7a746de042f0cd21f48797768afb", null ]
 ];

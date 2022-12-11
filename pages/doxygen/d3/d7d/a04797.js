@@ -1,10 +1,15 @@
 var a04797 =
 [
-    [ "ARC4", "d3/d7d/a04797.html#ac05d4f85233abfc5cbcb87cd2a87bc5a", null ],
-    [ "~ARC4", "d3/d7d/a04797.html#af3a8b63c2073120026c262a685eef8f2", null ],
-    [ "Init", "d3/d7d/a04797.html#a68993c30cafb864abd5ae0c49ee8296e", null ],
-    [ "Init", "d3/d7d/a04797.html#a13bd9c79d4535d115831303b14b5f89d", null ],
-    [ "UpdateData", "d3/d7d/a04797.html#ae350945f2713305e977e4a3e4fc3d5b5", null ],
-    [ "UpdateData", "d3/d7d/a04797.html#afeb8a273bac5a73417e8026421c6ea70", null ],
-    [ "_ctx", "d3/d7d/a04797.html#a8539413b1e0344abe9545f742cc8e6df", null ]
+    [ "IV", "d3/d7d/a04797.html#a3ab3c73ca75661d53842f924f9914656", null ],
+    [ "Key", "d3/d7d/a04797.html#ad479930aa60f991335d4cf68251958bb", null ],
+    [ "Tag", "d3/d7d/a04797.html#ad6abd9fd7a9b7bafc4c300ebca415a1e", null ],
+    [ "AES", "d3/d7d/a04797.html#a75c197cecf7cd7230a1a9f64e8ec9f00", null ],
+    [ "~AES", "d3/d7d/a04797.html#abcdb72bef5a57586630650372c339410", null ],
+    [ "Init", "d3/d7d/a04797.html#a910f4dcbbd2868264d4b11f3041c833d", null ],
+    [ "Process", "d3/d7d/a04797.html#a8ace149af5d86f9ec6774544581d23ea", null ],
+    [ "_ctx", "d3/d7d/a04797.html#ae461a0a028ca8d02af56496252e6322d", null ],
+    [ "_encrypting", "d3/d7d/a04797.html#ac5e1bc89ac1c21f97994db7c76ae4e4e", null ],
+    [ "IV_SIZE_BYTES", "d3/d7d/a04797.html#ac981d6d2428687c510ad76adcbff8b1a", null ],
+    [ "KEY_SIZE_BYTES", "d3/d7d/a04797.html#a575bc274ed7e56c362114dd3ab5cd1c8", null ],
+    [ "TAG_SIZE_BYTES", "d3/d7d/a04797.html#a9b666f9aea59c75d13ff57c882d829a8", null ]
 ];

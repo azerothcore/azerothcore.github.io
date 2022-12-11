@@ -1,6 +1,6 @@
 var a12825 =
 [
-    [ "spell_madrigosa_activate_barrier_SpellScript", "dc/d0d/a12829.html", "dc/d0d/a12829" ],
-    [ "spell_madrigosa_activate_barrier", "d6/d93/a12825.html#ac5d10ee2d946c5ddc7dd113fcd9ce2f2", null ],
-    [ "GetSpellScript", "d6/d93/a12825.html#a8524f167af62a47cb720737551c14a23", null ]
+    [ "HandleActivateObject", "d6/d93/a12825.html#abcce31480eac400044cc62eb888151d8", null ],
+    [ "PrepareSpellScript", "d6/d93/a12825.html#a634ff3fae960dc2ecb7acde3e505df52", null ],
+    [ "Register", "d6/d93/a12825.html#a0b527b830e2e4e2242c0ed6fd94aaa2d", null ]
 ];

@@ -1,7 +1,6 @@
 var a25489 =
 [
-    [ "DealDebrisDamage", "d2/d09/a25489.html#a6a1611c4a221b7c16be66511f3595010", null ],
-    [ "Execute", "d2/d09/a25489.html#a15715b2e7271acc52c2c49486bdb2822", null ],
-    [ "_owner", "d2/d09/a25489.html#ad7a36286fed7ec090beaf77b97399c51", null ],
-    [ "_targetGUID", "d2/d09/a25489.html#ac5cabeab92c92f7dc1a97eef0ebab72e", null ]
+    [ "instance_hellfire_ramparts_InstanceMapScript", "d2/d66/a25493.html", "d2/d66/a25493" ],
+    [ "instance_hellfire_ramparts", "d2/d09/a25489.html#ab6ee671123dd0d736e9745e45e04b8da", null ],
+    [ "GetInstanceScript", "d2/d09/a25489.html#a6f2dc361984b33c1d14d62d67a563e8d", null ]
 ];

@@ -1,6 +1,6 @@
 var a11961 =
 [
-    [ "spell_gnomeregan_radiation_bolt_SpellScript", "d2/dc6/a11965.html", "d2/dc6/a11965" ],
-    [ "spell_gnomeregan_radiation_bolt", "d5/dcd/a11961.html#a572b64b0f8bed7c5393c59d4119e5c3f", null ],
-    [ "GetSpellScript", "d5/dcd/a11961.html#a1a3b4afde75e1299a33e95163147dde4", null ]
+    [ "HandleTriggerSpell", "d5/dcd/a11961.html#a361d179f81eb2565e133f674a127af90", null ],
+    [ "PrepareSpellScript", "d5/dcd/a11961.html#a47afe11577bb488509d0cfabf63d16ba", null ],
+    [ "Register", "d5/dcd/a11961.html#a0f17ba7bef0e9a59872297ef151a22fb", null ]
 ];

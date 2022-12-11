@@ -1,7 +1,6 @@
 var a29149 =
 [
-    [ "npc_spirit_shadeAI", "d2/d8d/a29149.html#a8b7bf7c7cc541a47be79aad76a9bbcbc", null ],
-    [ "IsSummonedBy", "d2/d8d/a29149.html#ae957cf7e12c7adb729b6f95be5195413", null ],
-    [ "MovementInform", "d2/d8d/a29149.html#ab001fdc09efe9f8c03ad1b7610124e6d", null ],
-    [ "_summonerGuid", "d2/d8d/a29149.html#aa7c6abb848ab37f407a3553d04d0ad81", null ]
+    [ "boss_lethonAI", "df/d45/a29153.html", "df/d45/a29153" ],
+    [ "boss_lethon", "d2/d8d/a29149.html#a5d758979b061646830373de64b2b3af4", null ],
+    [ "GetAI", "d2/d8d/a29149.html#a493baf37aac400635dd0409e79375a1c", null ]
 ];

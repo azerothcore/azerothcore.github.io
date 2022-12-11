@@ -1,7 +1,11 @@
 var a28637 =
 [
-    [ "HandleEffectPeriodic", "db/d51/a28637.html#abb9ec1dd08954e80cf6dbcacbe44e2ba", null ],
-    [ "PrepareAuraScript", "db/d51/a28637.html#ae151331af09510cc91b63b65a30bdcbf", null ],
-    [ "Register", "db/d51/a28637.html#ac2e23fa8c9cfec9b9689512f3363a56e", null ],
-    [ "Validate", "db/d51/a28637.html#ad5cc7a5aa1164092f267071c82752bb5", null ]
+    [ "AddTarget", "db/d51/a28637.html#add6c97acade4600ec1206e877abf58a0", null ],
+    [ "HandleApply", "db/d51/a28637.html#aa96876bbf97be72cbb1a7e2a241e1ed0", null ],
+    [ "HandleEffectPeriodic", "db/d51/a28637.html#af8f187919db1435c373b4444d55e5411", null ],
+    [ "HandleRemove", "db/d51/a28637.html#a592dfe1bb5995b2cd94cadccf76c038d", null ],
+    [ "PrepareAuraScript", "db/d51/a28637.html#aa1de0d94c4897aee4637bf294e7dd358", null ],
+    [ "Register", "db/d51/a28637.html#a86325516114f6bced85047dff0989663", null ],
+    [ "Validate", "db/d51/a28637.html#aaf0176551c2c4b2b4d2f6e5247c80bc6", null ],
+    [ "_targets", "db/d51/a28637.html#a4825fdf65bf6b38963cba18956129687", null ]
 ];

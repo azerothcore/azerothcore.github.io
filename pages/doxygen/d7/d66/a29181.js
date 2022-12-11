@@ -1,7 +1,6 @@
 var a29181 =
 [
-    [ "HandlePeriodic", "d7/d66/a29181.html#a3da4cc5322f2e34244729fe3b3876482", null ],
-    [ "PrepareAuraScript", "d7/d66/a29181.html#aab7f5c5bdfdd2b440f59f16ab321765a", null ],
-    [ "Register", "d7/d66/a29181.html#a53b6067f46912648413fc6d6f107b0d8", null ],
-    [ "Validate", "d7/d66/a29181.html#aa03222717b3c06316b232a6ac0270ec0", null ]
+    [ "spell_dream_fog_sleep_SpellScript", "de/d7e/a29185.html", "de/d7e/a29185" ],
+    [ "spell_dream_fog_sleep", "d7/d66/a29181.html#a679dadd5a280cf4e30f6ff611aaff7d7", null ],
+    [ "GetSpellScript", "d7/d66/a29181.html#aab87f1f4819623d2837970fab7f7a824", null ]
 ];

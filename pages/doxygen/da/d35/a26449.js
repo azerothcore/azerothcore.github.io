@@ -1,6 +1,6 @@
 var a26449 =
 [
-    [ "HandleSendEvent", "da/d35/a26449.html#abd94e05280805b6d7f5bb0039324fb49", null ],
-    [ "PrepareSpellScript", "da/d35/a26449.html#a7abe63c4bdaf3b8d7928d6f656f11fea", null ],
-    [ "Register", "da/d35/a26449.html#aa2094cf0ef08f37bdc4ebbdd4a4e32b6", null ]
+    [ "HandleSendEvent", "da/d35/a26449.html#a1ff097621f64e894be024de4e0946b34", null ],
+    [ "PrepareSpellScript", "da/d35/a26449.html#ab967a899ac6d2397c2f871cc5062cfc6", null ],
+    [ "Register", "da/d35/a26449.html#a590fe9da733c8b7bf08464f277b398f7", null ]
 ];

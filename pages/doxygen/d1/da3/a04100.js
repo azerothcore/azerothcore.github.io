@@ -1,75 +1,42 @@
 var a04100 =
 [
-    [ "npc_maghar_captive", "d8/d64/a26105.html", "d8/d64/a26105" ],
-    [ "npc_maghar_captive::npc_maghar_captiveAI", "d8/d21/a26109.html", "d8/d21/a26109" ],
-    [ "npc_creditmarker_visit_with_ancestors", "de/d8a/a26113.html", "de/d8a/a26113" ],
-    [ "npc_creditmarker_visit_with_ancestors::npc_creditmarker_visit_with_ancestorsAI", "df/d10/a26117.html", "df/d10/a26117" ],
-    [ "go_corkis_prison", "d7/d68/a26121.html", "d7/d68/a26121" ],
-    [ "npc_corki", "d9/d83/a26125.html", "d9/d83/a26125" ],
-    [ "npc_corki::npc_corkiAI", "d7/d4c/a26129.html", "d7/d4c/a26129" ],
-    [ "npc_kurenai_captive", "d5/dd6/a26133.html", "d5/dd6/a26133" ],
-    [ "npc_kurenai_captive::npc_kurenai_captiveAI", "df/d9f/a26137.html", "df/d9f/a26137" ],
-    [ "go_warmaul_prison", "da/d96/a26141.html", "da/d96/a26141" ],
-    [ "CorkiData", "d1/da3/a04100.html#ad43a37744a94e3a9c28ea457505e175f", [
-      [ "QUEST_HELP", "d1/da3/a04100.html#ad43a37744a94e3a9c28ea457505e175fa35eabb91711f4c5ec32fc88e1972131d", null ],
-      [ "NPC_CORKI", "d1/da3/a04100.html#ad43a37744a94e3a9c28ea457505e175faa0427bab44dac666141affb8b0aee094", null ],
-      [ "NPC_CORKI_CREDIT_1", "d1/da3/a04100.html#ad43a37744a94e3a9c28ea457505e175fa14d844d9153fe30efb1d6e1e04358f7a", null ],
-      [ "GO_CORKIS_PRISON", "d1/da3/a04100.html#ad43a37744a94e3a9c28ea457505e175fa11ccf1d90f3c4cfc0df7883d5a8de7c2", null ],
-      [ "CORKI_SAY_THANKS", "d1/da3/a04100.html#ad43a37744a94e3a9c28ea457505e175fa38a773f635538b7a9d579396c7da3f01", null ],
-      [ "QUEST_CORKIS_GONE_MISSING_AGAIN", "d1/da3/a04100.html#ad43a37744a94e3a9c28ea457505e175fa694c17b0b49d94ff47707e4f8730f790", null ],
-      [ "NPC_CORKI_2", "d1/da3/a04100.html#ad43a37744a94e3a9c28ea457505e175fa63a65b1d68765452875f11b1aa274cfc", null ],
-      [ "GO_CORKIS_PRISON_2", "d1/da3/a04100.html#ad43a37744a94e3a9c28ea457505e175fa899120d3722642158881166f82335bc3", null ],
-      [ "CORKI_SAY_PROMISE", "d1/da3/a04100.html#ad43a37744a94e3a9c28ea457505e175faef3d3ac86638bbcec9aaa9f4ed96a4ca", null ],
-      [ "QUEST_CHOWAR_THE_PILLAGER", "d1/da3/a04100.html#ad43a37744a94e3a9c28ea457505e175face86afacd9ff1fb0ecb7e3e0c1e9a781", null ],
-      [ "NPC_CORKI_3", "d1/da3/a04100.html#ad43a37744a94e3a9c28ea457505e175fa7f461f55940f10691695669311a870af", null ],
-      [ "NPC_CORKI_CREDIT_3", "d1/da3/a04100.html#ad43a37744a94e3a9c28ea457505e175fa0797abd77e71194b2cb1c646d26a09ea", null ],
-      [ "GO_CORKIS_PRISON_3", "d1/da3/a04100.html#ad43a37744a94e3a9c28ea457505e175face6c792f8ea4fec0d855e1859b46ce47", null ],
-      [ "CORKI_SAY_LAST", "d1/da3/a04100.html#ad43a37744a94e3a9c28ea457505e175fab58311dda86c9706540e80ca14724fd7", null ]
+    [ "spell_q10935_the_exorcism_of_colonel_jules", "da/d84/a26073.html", "da/d84/a26073" ],
+    [ "spell_q10935_the_exorcism_of_colonel_jules::spell_q10935_the_exorcism_of_colonel_jules_SpellScript", "dd/de6/a26077.html", "dd/de6/a26077" ],
+    [ "npc_aeranas", "d1/d34/a26081.html", "d1/d34/a26081" ],
+    [ "npc_aeranas::npc_aeranasAI", "d6/d32/a26085.html", "d6/d32/a26085" ],
+    [ "npc_ancestral_wolf", "dd/d58/a26089.html", "dd/d58/a26089" ],
+    [ "npc_ancestral_wolf::npc_ancestral_wolfAI", "da/d46/a26093.html", "da/d46/a26093" ],
+    [ "npc_wounded_blood_elf", "d9/dc0/a26097.html", "d9/dc0/a26097" ],
+    [ "npc_wounded_blood_elf::npc_wounded_blood_elfAI", "db/df9/a26101.html", "db/df9/a26101" ],
+    [ "npc_fel_guard_hound", "d8/d64/a26105.html", "d8/d64/a26105" ],
+    [ "npc_fel_guard_hound::npc_fel_guard_houndAI", "d8/d21/a26109.html", "d8/d21/a26109" ],
+    [ "Aeranas", "d1/da3/a04100.html#a35e86459585ec89189aab3acab8ed4ca", [
+      [ "SAY_SUMMON", "d1/da3/a04100.html#a35e86459585ec89189aab3acab8ed4caacebbfa1f13b8de4f039f5d550063c7bf", null ],
+      [ "SAY_FREE", "d1/da3/a04100.html#a35e86459585ec89189aab3acab8ed4caa27368277122194007f925387131a1eb9", null ],
+      [ "SPELL_ENVELOPING_WINDS", "d1/da3/a04100.html#a35e86459585ec89189aab3acab8ed4caacf98b779c795324d47e44b043eeacf92", null ],
+      [ "SPELL_SHOCK", "d1/da3/a04100.html#a35e86459585ec89189aab3acab8ed4caa30aa4cac2f70a310466b3fb0f2d10eab", null ]
     ] ],
-    [ "FindingTheSurvivorsData", "d1/da3/a04100.html#a05f629c8a0695e51bcc6a217d469c6d6", [
-      [ "QUEST_FINDING_THE_SURVIVORS", "d1/da3/a04100.html#a05f629c8a0695e51bcc6a217d469c6d6a9065a5318b6cfd6783abc721a30c2ce5", null ],
-      [ "NPC_MAGHAR_PRISONER", "d1/da3/a04100.html#a05f629c8a0695e51bcc6a217d469c6d6adcae59340797ae5aaa36b217e81dbe0f", null ],
-      [ "SAY_FREE", "d1/da3/a04100.html#a05f629c8a0695e51bcc6a217d469c6d6a27368277122194007f925387131a1eb9", null ]
+    [ "AncestralWolf", "d1/da3/a04100.html#ae0ad636572003d2f340b9f5853329b31", [
+      [ "EMOTE_WOLF_LIFT_HEAD", "d1/da3/a04100.html#ae0ad636572003d2f340b9f5853329b31a3d71eb68225f60940079e2c6d5b848bb", null ],
+      [ "EMOTE_WOLF_HOWL", "d1/da3/a04100.html#ae0ad636572003d2f340b9f5853329b31a89cae72f3324d089afca2e6ec3bab2b0", null ],
+      [ "SAY_WOLF_WELCOME", "d1/da3/a04100.html#ae0ad636572003d2f340b9f5853329b31a129ec8cc004776adf7eede6faee16398", null ],
+      [ "SPELL_ANCESTRAL_WOLF_BUFF", "d1/da3/a04100.html#ae0ad636572003d2f340b9f5853329b31ac15d5852c3aceca48a67bf96ee078aad", null ],
+      [ "NPC_RYGA", "d1/da3/a04100.html#ae0ad636572003d2f340b9f5853329b31a4c5c75439f08ad6a8f448db8931dd14d", null ]
     ] ],
-    [ "KurenaiCaptive", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5d", [
-      [ "SAY_KUR_START", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5daf36e600606009fc75721c58ff3291777", null ],
-      [ "SAY_KUR_NO_ESCAPE", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5da23c48674cfb86f376ec29a45dfc7bae7", null ],
-      [ "SAY_KUR_MORE", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5daa43be8740522cf897de5d4034c52d874", null ],
-      [ "SAY_KUR_MORE_TWO", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5da415a94ee05b8fad2385a6988ab1c554c", null ],
-      [ "SAY_KUR_LIGHTNING", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5da83064d04d456c201f607bea516054183", null ],
-      [ "SAY_KUR_SHOCK", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5daf550dcd801470acffb15daacb0d1303b", null ],
-      [ "SAY_KUR_COMPLETE", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5daccc181ea2bfdaf46a258c6df185143cd", null ],
-      [ "SPELL_KUR_CHAIN_LIGHTNING", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5da947d09acef568031d0a63aa3b491c6be", null ],
-      [ "SPELL_KUR_EARTHBIND_TOTEM", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5da9036ad57839bc33a33771f3426f66b00", null ],
-      [ "SPELL_KUR_FROST_SHOCK", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5da8a33a6376ae25b08e61a6c434797a76c", null ],
-      [ "SPELL_KUR_HEALING_WAVE", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5da3ccb8a60d8d82c84658c9eb76cee2bdb", null ],
-      [ "QUEST_TOTEM_KARDASH_A", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5da01677503ea95582bedb4bd6396f037e1", null ],
-      [ "NPC_KUR_MURK_RAIDER", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5dafeb58f1ee686b5fa30edd41591ea25e3", null ],
-      [ "NPC_KUR_MURK_BRUTE", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5da1d5b2ff1254efae5b9ebff19733b070a", null ],
-      [ "NPC_KUR_MURK_SCAVENGER", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5dafda581d2af0e7405bfe68fb2156b753d", null ],
-      [ "NPC_KUR_MURK_PUTRIFIER", "d1/da3/a04100.html#a0ebafaa2428c27b956f306522427fc5daa9ec76c542a3b9a882fd5726109d5a17", null ]
+    [ "FelGuard", "d1/da3/a04100.html#af0944e670cdc4872cb4e1de78159ef88", [
+      [ "SPELL_SUMMON_POO", "d1/da3/a04100.html#af0944e670cdc4872cb4e1de78159ef88acaf3b07d165603ce6a87d5e137c8bc6c", null ],
+      [ "NPC_DERANGED_HELBOAR", "d1/da3/a04100.html#af0944e670cdc4872cb4e1de78159ef88a74a22ffd9e172700137c4a85ec978333", null ]
     ] ],
-    [ "MagharCaptive", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691", [
-      [ "SAY_MAG_START", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691a29faea8cf997895585774bb65c97b205", null ],
-      [ "SAY_MAG_NO_ESCAPE", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691aff816814506c0e82043fe9e276874ec6", null ],
-      [ "SAY_MAG_MORE", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691a6e5c0dfc40eb68f851dea6d3b488b247", null ],
-      [ "SAY_MAG_MORE_REPLY", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691a574b0d10ccf84ca4768fd3b39c57cb45", null ],
-      [ "SAY_MAG_LIGHTNING", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691a6723c065e3ed755f5efb93d02d35bec2", null ],
-      [ "SAY_MAG_SHOCK", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691a50d672d4f8be24fa62f23e2540f9db57", null ],
-      [ "SAY_MAG_COMPLETE", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691a7467c2088e602d856074e0039bf6ebae", null ],
-      [ "SPELL_CHAIN_LIGHTNING", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691ac0997e72929070d8e30cc0f49cc4539d", null ],
-      [ "SPELL_EARTHBIND_TOTEM", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691a13680bcb421d2a16426689737c48ec23", null ],
-      [ "SPELL_FROST_SHOCK", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691a73b0724093ccf1b7960c55c236c1502c", null ],
-      [ "SPELL_HEALING_WAVE", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691ab47ffc8cbbcb587bbe1a3e348c95bee3", null ],
-      [ "QUEST_TOTEM_KARDASH_H", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691a095bbe561ca6af50a827376ce33a4e8b", null ],
-      [ "NPC_MURK_RAIDER", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691a1fc0911b4a3959e89ede86e46a586c10", null ],
-      [ "NPC_MURK_BRUTE", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691ad944339a6462815fbe9e60d05957e345", null ],
-      [ "NPC_MURK_SCAVENGER", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691a1fb10d1a472423ae56074270a7309ec9", null ],
-      [ "NPC_MURK_PUTRIFIER", "d1/da3/a04100.html#ac649bf8486588b328f8f21294adb4691ab5280b4b4033ccf6ca5af78f1efc185e", null ]
+    [ "WoundedBloodElf", "d1/da3/a04100.html#a1b44ea4940860848073d89e7761e5d9e", [
+      [ "SAY_ELF_START", "d1/da3/a04100.html#a1b44ea4940860848073d89e7761e5d9ea52186d9cbaa4a5d1e385d2fe13503a97", null ],
+      [ "SAY_ELF_SUMMON1", "d1/da3/a04100.html#a1b44ea4940860848073d89e7761e5d9ea3b168b2787eb695fadbe796416731ba3", null ],
+      [ "SAY_ELF_RESTING", "d1/da3/a04100.html#a1b44ea4940860848073d89e7761e5d9ea6cd155f2503f730d0d12456613b29964", null ],
+      [ "SAY_ELF_SUMMON2", "d1/da3/a04100.html#a1b44ea4940860848073d89e7761e5d9ea678e628b153b8961e58fe7f936fd9c61", null ],
+      [ "SAY_ELF_COMPLETE", "d1/da3/a04100.html#a1b44ea4940860848073d89e7761e5d9eae06761dd5b07e038a394a2c7e72e93a7", null ],
+      [ "SAY_ELF_AGGRO", "d1/da3/a04100.html#a1b44ea4940860848073d89e7761e5d9eabfc964a1cc07a0fdf8782361353d8a5c", null ],
+      [ "QUEST_ROAD_TO_FALCON_WATCH", "d1/da3/a04100.html#a1b44ea4940860848073d89e7761e5d9eaaca23046d9ea87abc77d28689e3349ed", null ],
+      [ "NPC_HAALESHI_WINDWALKER", "d1/da3/a04100.html#a1b44ea4940860848073d89e7761e5d9eafbcba9ddc06cf15e740c08aa796f43ba", null ],
+      [ "NPC_HAALESHI_TALONGUARD", "d1/da3/a04100.html#a1b44ea4940860848073d89e7761e5d9ea338245af1e86a4794f18dc3072957088", null ]
     ] ],
-    [ "AddSC_nagrand", "d1/da3/a04100.html#a2b4868ea3ab720314139038db0c44257", null ],
-    [ "kurenaiAmbushA", "d1/da3/a04100.html#aa062949c44a2a3ecfbcdc3f2bfcac8c1", null ],
-    [ "kurenaiAmbushB", "d1/da3/a04100.html#ae406cbcbcb2947b1f5ac7604043506b8", null ],
-    [ "m_afAmbushA", "d1/da3/a04100.html#ae32e4397b99880f7a5c6abf419f311ed", null ],
-    [ "m_afAmbushB", "d1/da3/a04100.html#ad37d6fb6fab11f73d99eb4c0d48e9162", null ]
+    [ "AddSC_hellfire_peninsula", "d1/da3/a04100.html#ae450311c68322300a0e6fb8091cd8936", null ]
 ];

@@ -1,6 +1,7 @@
 var a11301 =
 [
-    [ "boss_magmusAI", "d0/dbf/a11305.html", "d0/dbf/a11305" ],
-    [ "boss_magmus", "d8/d35/a11301.html#a97747c0d7e1fd33204033d6061d6d570", null ],
-    [ "GetAI", "d8/d35/a11301.html#a171bc08a8dd9fa502f3b2b6cf736fd52", null ]
+    [ "boss_magmusAI", "d8/d35/a11301.html#a8a3e5361bda492007013af9228899b8f", null ],
+    [ "EnterCombat", "d8/d35/a11301.html#accbd9441dab0bab06308f4d9df672268", null ],
+    [ "Reset", "d8/d35/a11301.html#a5fe304cec86831b7e64f83caee1392d0", null ],
+    [ "UpdateAI", "d8/d35/a11301.html#aa8bb8282c794ea02fe7bd95b3d32e5ea", null ]
 ];

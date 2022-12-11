@@ -1,6 +1,6 @@
 var a13237 =
 [
-    [ "HandleSendEvent", "d0/d71/a13237.html#ac3e5c8ce6dcceaf601f0f5a8c5727291", null ],
-    [ "PrepareSpellScript", "d0/d71/a13237.html#a5705ee1863434039b1143db0817d60a7", null ],
-    [ "Register", "d0/d71/a13237.html#a442e4aad6ed971119a147fdf87f90aa3", null ]
+    [ "spell_uldaman_stoned_AuraScript", "d3/da0/a13241.html", "d3/da0/a13241" ],
+    [ "spell_uldaman_stoned", "d0/d71/a13237.html#a9200bb1fa352ba0b19d35169ac7cb479", null ],
+    [ "GetAuraScript", "d0/d71/a13237.html#a89680bd42fb16974cf366706cc0fa867", null ]
 ];

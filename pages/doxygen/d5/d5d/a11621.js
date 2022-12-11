@@ -1,11 +1,10 @@
 var a11621 =
 [
-    [ "npc_corrupted_totem", "d5/d5d/a11621.html#a5e0c58b341fe25a5d682b68e9eee207f", null ],
-    [ "IsSummonedBy", "d5/d5d/a11621.html#a33f0702cf878a214fd29c7ed5481b455", null ],
-    [ "JustDied", "d5/d5d/a11621.html#aa3c6b1a3df61c9e98c62efadff637578", null ],
-    [ "Reset", "d5/d5d/a11621.html#a0bc8df2b8266b7b3a5f40f1ede0e10b4", null ],
-    [ "SetAura", "d5/d5d/a11621.html#a509688befda49f789f77ee0e4170a74e", null ],
-    [ "UpdateAI", "d5/d5d/a11621.html#ac128625268820d2e9b1f0ef5ead975e9", null ],
-    [ "_auraAdded", "d5/d5d/a11621.html#a953cf5af625b9b5a4ab6704d5b1b664c", null ],
-    [ "_scheduler", "d5/d5d/a11621.html#a4f3d47478cc41b24999d0051d1a7a624", null ]
+    [ "npc_drakonid_spawner", "d5/d5d/a11621.html#a2b657e800dc5cc30c618391413ded116", null ],
+    [ "DoAction", "d5/d5d/a11621.html#ab013cff0430c09fe1045fdc735e45182", null ],
+    [ "IsSummonedBy", "d5/d5d/a11621.html#a1be247e7bbaecefbc821d64cf04c3d0b", null ],
+    [ "SummonedCreatureDies", "d5/d5d/a11621.html#a57dd1fc80cfa43f6afae58e797b4091f", null ],
+    [ "UpdateAI", "d5/d5d/a11621.html#a60e79dd8f56e87a2de4a203a63c6f9e3", null ],
+    [ "_owner", "d5/d5d/a11621.html#a6e0f0d2f6c265f9e5206f441dead8b2f", null ],
+    [ "_scheduler", "d5/d5d/a11621.html#a5e1366e337377e66c4397ecf2efd7798", null ]
 ];

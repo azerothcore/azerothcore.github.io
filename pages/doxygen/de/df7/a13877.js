@@ -1,11 +1,8 @@
 var a13877 =
 [
-    [ "boss_jeklik", "de/df7/a13877.html#a826bdba66fee3bb82b64ca6174b66c44", null ],
-    [ "DamageTaken", "de/df7/a13877.html#ae85f1fde8ebc6a82dc0be1599355d752", null ],
-    [ "EnterCombat", "de/df7/a13877.html#a0b6288c92326d9d360a7d76f9f934647", null ],
-    [ "EnterEvadeMode", "de/df7/a13877.html#a70dc363e0690e72846db5f779375edc1", null ],
-    [ "JustDied", "de/df7/a13877.html#ab52a09a460fea9d2a4e0a8bcafeb3546", null ],
-    [ "PathEndReached", "de/df7/a13877.html#a2efcc2d362d3f634b41ada1115f76539", null ],
-    [ "Reset", "de/df7/a13877.html#a7959106123e60e3584b32b50a272746c", null ],
-    [ "UpdateAI", "de/df7/a13877.html#a5782423cda9b866f2d1618a896ab21de", null ]
+    [ "npc_batrider", "de/df7/a13877.html#a6304a39ea92d48508a17dc059c47bc1b", null ],
+    [ "EnterCombat", "de/df7/a13877.html#a4d1964300a66b46dab6072ea2a719e79", null ],
+    [ "Reset", "de/df7/a13877.html#abee249da6f3bb6c2fd859812b02d7b65", null ],
+    [ "UpdateAI", "de/df7/a13877.html#a84eae0bbc8ea1ff2e38a4cc375fee8e6", null ],
+    [ "_scheduler", "de/df7/a13877.html#ad90beb6685c031a8b0ce4ec8ea3daa3f", null ]
 ];

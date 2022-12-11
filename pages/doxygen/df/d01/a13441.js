@@ -1,5 +1,6 @@
 var a13441 =
 [
-    [ "npc_tyrion", "df/d01/a13441.html#a85b1abd4910729c17099174def6507b1", null ],
-    [ "OnQuestAccept", "df/d01/a13441.html#af8388a07e52a8c5708434a70d0d28cbb", null ]
+    [ "npc_yennikuAI", "df/d50/a13445.html", "df/d50/a13445" ],
+    [ "npc_yenniku", "df/d01/a13441.html#a00e9e06244438039e7b426ca3349ed28", null ],
+    [ "GetAI", "df/d01/a13441.html#af65a439c021909d8ecb743b85b4cb405", null ]
 ];

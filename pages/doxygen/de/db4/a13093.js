@@ -1,6 +1,6 @@
 var a13093 =
 [
-    [ "HandleRemove", "de/db4/a13093.html#ae1738fb8746fada246ebc20a2a0e93f8", null ],
-    [ "PrepareAuraScript", "de/db4/a13093.html#af0091b08259704d94cafbb1e278e5505", null ],
-    [ "Register", "de/db4/a13093.html#a6c49b00b7d86d0fab033d56d0f775082", null ]
+    [ "spell_kiljaeden_power_of_the_blue_flight_SpellScript", "dc/dd8/a13097.html", "dc/dd8/a13097" ],
+    [ "spell_kiljaeden_power_of_the_blue_flight", "de/db4/a13093.html#a4c517cb5d38a3bc1da079971d2d4a662", null ],
+    [ "GetSpellScript", "de/db4/a13093.html#a5b8118cc7bd52b725a4cb626d618192b", null ]
 ];

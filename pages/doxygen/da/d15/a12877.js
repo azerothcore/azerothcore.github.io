@@ -1,6 +1,6 @@
 var a12877 =
 [
-    [ "spell_eredar_twins_apply_flame_touched_SpellScript", "dc/d49/a12881.html", "dc/d49/a12881" ],
-    [ "spell_eredar_twins_apply_flame_touched", "da/d15/a12877.html#ae473aa176d4e5ba29974f204126a8d19", null ],
-    [ "GetSpellScript", "da/d15/a12877.html#a95083b5cedfcf5faae7dd231e4889e44", null ]
+    [ "HandleApplyTouch", "da/d15/a12877.html#a8944b79cab3aeabb0b9c4b4c651decfe", null ],
+    [ "PrepareSpellScript", "da/d15/a12877.html#a2708fd350bfb34a91f1974c6635bdf3e", null ],
+    [ "Register", "da/d15/a12877.html#a4caac5bd05268671dc2f5a5fb4fb23c6", null ]
 ];

@@ -1,6 +1,6 @@
 var a12345 =
 [
-    [ "boss_warlord_salarisAI", "d2/dee/a12345.html#a42b7edb03361bf825ac29818e1aa399a", null ],
-    [ "EnterCombat", "d2/dee/a12345.html#a3033c77ca159782cb158d6d8a7106391", null ],
-    [ "UpdateAI", "d2/dee/a12345.html#aaa00305158c1dd33d61a23462a17a7a0", null ]
+    [ "boss_garaxxasAI", "d6/ddf/a12349.html", "d6/ddf/a12349" ],
+    [ "boss_garaxxas", "d2/dee/a12345.html#a97880421faf19338bea63d21434ef310", null ],
+    [ "GetAI", "d2/dee/a12345.html#a99e8fbef4805816bdc0338c3174853d5", null ]
 ];

@@ -1,6 +1,5 @@
 var a27073 =
 [
-    [ "PrepareSpellScript", "d8/d21/a27073.html#a209f68c2a9824ad771f7b6a25d4c4663", null ],
-    [ "Register", "d8/d21/a27073.html#a759b195d4631a371bef3e6398e128034", null ],
-    [ "SelectTarget", "d8/d21/a27073.html#a676c6fdbced0ea7e945c4724c9adf145", null ]
+    [ "PrepareSpellScript", "d8/d21/a27073.html#a41169895bb29fe136e3fb0c2dd50d9fb", null ],
+    [ "Register", "d8/d21/a27073.html#ab6a32b26cc0277f71a71b9fd1d567bf1", null ]
 ];

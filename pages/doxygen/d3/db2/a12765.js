@@ -1,14 +1,14 @@
 var a12765 =
 [
-    [ "boss_jarien", "d3/db2/a12765.html#a19e07a3da93e487b5984a8de0c7f26c9", null ],
-    [ "DoAction", "d3/db2/a12765.html#a8b9f1f2e7e45adf8df436b5c71555272", null ],
-    [ "EnterCombat", "d3/db2/a12765.html#a7552010c21dd0fcabf9e8262dd1ab596", null ],
-    [ "IsSummonedBy", "d3/db2/a12765.html#a835c21215ec63b550e814cc181142990", null ],
-    [ "JustDied", "d3/db2/a12765.html#a418380b56f3432b5aec84737012f4693", null ],
-    [ "Reset", "d3/db2/a12765.html#ac85ca96b42aa5115500bd24454f84209", null ],
-    [ "UpdateAI", "d3/db2/a12765.html#acf7157ec7af7356beddc8a2429177b95", null ],
-    [ "_phase", "d3/db2/a12765.html#aa88435f313dc2b7880bca8f4cdb7a537", null ],
-    [ "_scheduler", "d3/db2/a12765.html#abce9540798dbae1026d1c74bfeb111a6", null ],
-    [ "_sothosDied", "d3/db2/a12765.html#a06b02c7f7dff885a86609e0116f2fd96", null ],
-    [ "_talked", "d3/db2/a12765.html#ae0c943c970990b055ebc8c31d81a7198", null ]
+    [ "boss_sothos", "d3/db2/a12765.html#a2e7283078d4049ff339f29c3fdfc69cf", null ],
+    [ "DoAction", "d3/db2/a12765.html#a1433dddccb71896016bc014bdf92b453", null ],
+    [ "EnterCombat", "d3/db2/a12765.html#a9ea0cedade429b6bba52721b1f285ece", null ],
+    [ "IsSummonedBy", "d3/db2/a12765.html#acc5b106d6d161be621966956461eaded", null ],
+    [ "JustDied", "d3/db2/a12765.html#a2d634aade37ea887f6bbf4b43baf061d", null ],
+    [ "Reset", "d3/db2/a12765.html#a042578148cae9a0b9befb7c5747a8e99", null ],
+    [ "UpdateAI", "d3/db2/a12765.html#a35e247fa9bfe00927b844af8d0ef916f", null ],
+    [ "_jarienDied", "d3/db2/a12765.html#a74725d8a4b3ce9fbfb9f06868fa02055", null ],
+    [ "_phase", "d3/db2/a12765.html#a5719cd4a85527c256fb7f048be6489f7", null ],
+    [ "_scheduler", "d3/db2/a12765.html#a5e18256858cd594b45628508500e5f1a", null ],
+    [ "_talked", "d3/db2/a12765.html#a3f3c0d0a079aad1306b638e8ff34f2f6", null ]
 ];

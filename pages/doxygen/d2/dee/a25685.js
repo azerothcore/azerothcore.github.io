@@ -1,9 +1,10 @@
 var a25685 =
 [
-    [ "boss_lajAI", "d2/dee/a25685.html#a52253608a460a9b4c0e19f5fc50f27f3", null ],
-    [ "DoTransform", "d2/dee/a25685.html#aa9d334611affae77e5326a9492ffb2fb", null ],
-    [ "EnterCombat", "d2/dee/a25685.html#a7ac794c7b78af63ff43f041056009540", null ],
-    [ "Reset", "d2/dee/a25685.html#af52fe9c732bd28439304d05b265655e6", null ],
-    [ "UpdateAI", "d2/dee/a25685.html#a9c5d2a094feb04536d601ccab56877be", null ],
-    [ "_lastTransform", "d2/dee/a25685.html#a0aa03c6ef0646742ae81cbafcff3cda3", null ]
+    [ "boss_high_botanist_freywinnAI", "d2/dee/a25685.html#a61904d3df37345c5ac6df8e744561bc1", null ],
+    [ "EnterCombat", "d2/dee/a25685.html#aa46cb6a1faf5719f303afb78d96f3434", null ],
+    [ "JustDied", "d2/dee/a25685.html#af097764c8d458528af284264f9dcfd41", null ],
+    [ "KilledUnit", "d2/dee/a25685.html#ab7d734c2517fedd2cf22837ec50ea90f", null ],
+    [ "Reset", "d2/dee/a25685.html#a74ce75518bb79f19d74520cbc795cd8c", null ],
+    [ "SummonedCreatureDies", "d2/dee/a25685.html#adebfd407342c3dd2079fc3663218ae64", null ],
+    [ "UpdateAI", "d2/dee/a25685.html#a7762fb4d0867eac0025ffa9ac955ce0e", null ]
 ];

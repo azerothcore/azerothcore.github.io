@@ -1,19 +1,15 @@
 var a26197 =
 [
-    [ "npc_captain_saeedAI", "d6/d66/a26197.html#a794f43bb0e26fffe7bb74cb8fe3a42a6", null ],
-    [ "CorpseRemoved", "d6/d66/a26197.html#aca7fa593af007f1ca0c49156336c0fe3", null ],
-    [ "EnterCombat", "d6/d66/a26197.html#ab3bfd20cfa7f2c3ade29f20c43f33915", null ],
-    [ "EnterEvadeMode", "d6/d66/a26197.html#a8e48660d5f0349572bb5d7a760e0afc0", null ],
-    [ "GetData", "d6/d66/a26197.html#a5e9999a3a8dcce054e9f2f5f367318d1", null ],
-    [ "JustDied", "d6/d66/a26197.html#a72e72ced5223360eea3b511de988b2bd", null ],
-    [ "MoveInLineOfSight", "d6/d66/a26197.html#a92e8d7c84407a16d608a163cb8dadc6e", null ],
-    [ "Reset", "d6/d66/a26197.html#aae80afee1e69e188264e04ba12b00682", null ],
-    [ "SetGUID", "d6/d66/a26197.html#a6351c8cab1e99414f49d8f095cae0c7d", null ],
-    [ "SummonsAction", "d6/d66/a26197.html#a7ffef7c2b998062ecc3544b2b8508a4c", null ],
-    [ "UpdateAI", "d6/d66/a26197.html#a2e3fd3ec84807f5b35ba6745c5ca7788", null ],
-    [ "WaypointReached", "d6/d66/a26197.html#a2af760112f66b315ee36ecc2c4205d44", null ],
-    [ "events", "d6/d66/a26197.html#a3e48ae282cea46e17e9558864f87aa3b", null ],
-    [ "fight", "d6/d66/a26197.html#a19f52a735bbd742862a417fb3adb23a2", null ],
-    [ "started", "d6/d66/a26197.html#a30299a3d26b5e6d4ff56b48754f0023c", null ],
-    [ "summons", "d6/d66/a26197.html#a5b82a1e7e182e67338e5aeca3b678ea7", null ]
+    [ "kaylaan_the_lostAI", "d6/d66/a26197.html#a4d05151c4fa36ce873a48b7187027ebd", null ],
+    [ "EnterCombat", "d6/d66/a26197.html#a3d1b45979c91b022129465f884e16fdd", null ],
+    [ "KilledUnit", "d6/d66/a26197.html#aa3308130c6fad3f18b59509654f12956", null ],
+    [ "MovementInform", "d6/d66/a26197.html#aa4221d22e70b45bc0d81627d7752e64c", null ],
+    [ "ResetDeathblowEvent", "d6/d66/a26197.html#a34a64fb3778adb72b08adcfafd2b9b41", null ],
+    [ "UpdateAI", "d6/d66/a26197.html#a73ffc1093dfbc2fa78d37e76dd4d40dd", null ],
+    [ "_events", "d6/d66/a26197.html#a477f2d24693c10a79086b6177561210f", null ],
+    [ "adyen_dead", "d6/d66/a26197.html#aab6b990d719588aab01da30b8e9d8497", null ],
+    [ "first_waypath_done", "d6/d66/a26197.html#aef646aa41ff75a2b66c45e85af86f53e", null ],
+    [ "karja_dead", "d6/d66/a26197.html#a2b3c6ce1220272e287729a7bfa24690f", null ],
+    [ "orelis_dead", "d6/d66/a26197.html#a1200761adc8a093f637d7042e253d6fd", null ],
+    [ "second_waypath_done", "d6/d66/a26197.html#aedb779509963dee584445db645a9637a", null ]
 ];

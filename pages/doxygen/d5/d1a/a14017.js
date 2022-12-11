@@ -1,9 +1,6 @@
 var a14017 =
 [
-    [ "npc_razzashi_cobra_venoxis_AI", "d5/d1a/a14017.html#afa5537cc6c08cc8295abdea34adc7b8a", null ],
-    [ "EnterCombat", "d5/d1a/a14017.html#a442416327cef9b58f57c1c6584d1ba31", null ],
-    [ "GetVenoxis", "d5/d1a/a14017.html#a8462d80d556c69f55cbfc1c1c7d0b9e7", null ],
-    [ "Reset", "d5/d1a/a14017.html#ae80222986aa07a5dea07162e52547ff2", null ],
-    [ "UpdateAI", "d5/d1a/a14017.html#a48d128b45e3a1688b7950c7bbe8c3add", null ],
-    [ "events", "d5/d1a/a14017.html#af21e3d72eb47ecad3e08633f802d1c50", null ]
+    [ "boss_wushoolayAI", "d5/dd5/a14021.html", "d5/dd5/a14021" ],
+    [ "boss_wushoolay", "d5/d1a/a14017.html#a68359ee086bb4e86c3c16c4a03e54893", null ],
+    [ "GetAI", "d5/d1a/a14017.html#a70b476358956fd05d6effb75517e2b3d", null ]
 ];

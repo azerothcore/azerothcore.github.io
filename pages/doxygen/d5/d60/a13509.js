@@ -1,7 +1,9 @@
 var a13509 =
 [
-    [ "HandleScript", "d5/d60/a13509.html#ad85959388a639a4eff41de6f86b993e7", null ],
-    [ "PrepareSpellScript", "d5/d60/a13509.html#ab566be9bb39b22e6ac3fb3f9fe925480", null ],
-    [ "Register", "d5/d60/a13509.html#aafefe99f81605c6f55f072deb2306385", null ],
-    [ "Validate", "d5/d60/a13509.html#a63958630c37002d989cd32a8fc37dd37", null ]
+    [ "npc_thrall_bfuAI", "dc/dc2/a13513.html", "dc/dc2/a13513" ],
+    [ "npc_thrall_bfu", "d5/d60/a13509.html#a43eb37b9a0cf06be0e2cb6180730b09f", null ],
+    [ "GetAI", "d5/d60/a13509.html#a28b4030d189e4d967a1b16f3464c14ba", null ],
+    [ "OnGossipHello", "d5/d60/a13509.html#a71a7108464de9245879c8a1c08932e2a", null ],
+    [ "OnGossipSelect", "d5/d60/a13509.html#aea62ed8489bea23772a52ddefbf9c60e", null ],
+    [ "OnQuestReward", "d5/d60/a13509.html#aee56e54615e2696dcd0e7299e4f416b5", null ]
 ];

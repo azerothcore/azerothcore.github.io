@@ -1,5 +1,7 @@
 var a29005 =
 [
-    [ "achievement_bg_control_all_nodes", "d1/d0b/a29005.html#afa3c06227adff7a03998ac7c5f8147cf", null ],
-    [ "OnCheck", "d1/d0b/a29005.html#a69609eb5488519fa5a1f43b13a80e280", null ]
+    [ "CheckProc", "d1/d0b/a29005.html#a957f8837b5613a3bfd8200ded3529c54", null ],
+    [ "HandleEffectProc", "d1/d0b/a29005.html#a54810a897e535558d060119e3de6537b", null ],
+    [ "PrepareAuraScript", "d1/d0b/a29005.html#a37950bfd846e1c2c550a108461941a26", null ],
+    [ "Register", "d1/d0b/a29005.html#a16c273043e81fd163fb7c3f517ee6f4c", null ]
 ];

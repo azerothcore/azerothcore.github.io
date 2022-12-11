@@ -1,6 +1,8 @@
 var a10629 =
 [
-    [ "HitHandler", "df/df4/a10629.html#a41c5a6853bf72c113388995dc3ebaba7", null ],
-    [ "Call", "df/df4/a10629.html#a157baaa3ceba62a9910cba5377bd7699", null ],
-    [ "pHitHandlerScript", "df/df4/a10629.html#ac24144e49930a01a3049740a4072f626", null ]
+    [ "EffectHandler", "df/df4/a10629.html#aebdff9758b3ec51a75220be43b0d7b44", null ],
+    [ "Call", "df/df4/a10629.html#a7696d64688fa8b10cd58220fdd5fa5ba", null ],
+    [ "CheckEffect", "df/df4/a10629.html#a2f93314e0a88e7da68fb668a6be80f85", null ],
+    [ "ToString", "df/df4/a10629.html#a5b583dc87f0146f06c9a38a5db92f4fb", null ],
+    [ "pEffectHandlerScript", "df/df4/a10629.html#a88fbf00b2e35c462423ddeff55ac3dee", null ]
 ];

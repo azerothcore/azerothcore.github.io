@@ -1,6 +1,5 @@
 var a12897 =
 [
-    [ "HandleScript", "d6/dcc/a12897.html#a5b7c4fc347bba358a5f05a9cc00d1a5a", null ],
-    [ "PrepareSpellScript", "d6/dcc/a12897.html#aa5871c25d62c2da0c990d3cabb2cb4c5", null ],
-    [ "Register", "d6/dcc/a12897.html#a602bbd626480c191f4c2f3463d0bee56", null ]
+    [ "AreaTrigger_at_sunwell_eredar_twins", "d6/dcc/a12897.html#a6cfb22079d94f8e83c76514fa73368b0", null ],
+    [ "OnTrigger", "d6/dcc/a12897.html#af8e25da855daca5ac3114523e9af07fd", null ]
 ];

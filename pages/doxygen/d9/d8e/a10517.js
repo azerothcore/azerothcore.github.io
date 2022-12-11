@@ -1,7 +1,8 @@
 var a10517 =
 [
-    [ "SpellImmune", "d9/d8e/a10517.html#a70ebcde656db6c4d7c21fb03af44978a", null ],
-    [ "blockType", "d9/d8e/a10517.html#a13a353d02a7330820df170eb46e7a26d", null ],
-    [ "spellId", "d9/d8e/a10517.html#a6aeb1bebf2f079424ebfa5192c568adc", null ],
-    [ "type", "d9/d8e/a10517.html#ae1a414f35b2cce61cd4f5640c761f7ea", null ]
+    [ "ReflectEvent", "d9/d8e/a10517.html#a1669aec08a3a09143c57e4889c8fad08", null ],
+    [ "Execute", "d9/d8e/a10517.html#a37fb766d70932e8a431dba363c603531", null ],
+    [ "_caster", "d9/d8e/a10517.html#a67ec85597bb887e7b8cb31b818910d1a", null ],
+    [ "_spellInfo", "d9/d8e/a10517.html#ae05fc2092226695fa22dd1e72d58bc7b", null ],
+    [ "_targetGUID", "d9/d8e/a10517.html#aa9f8c7bf1e22c74f3d134df2cfc014b5", null ]
 ];

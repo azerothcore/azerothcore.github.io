@@ -1,7 +1,7 @@
 var a02594 =
 [
-    [ "boss_curator", "d0/d39/a11969.html", "d0/d39/a11969" ],
-    [ "boss_curator::boss_curatorAI", "dd/d5c/a11973.html", "dd/d5c/a11973" ],
+    [ "boss_curator", "d2/dc6/a11965.html", "d2/dc6/a11965" ],
+    [ "boss_curator::boss_curatorAI", "d0/d39/a11969.html", "d0/d39/a11969" ],
     [ "Curator", "db/d8b/a02594.html#aa8cf55c40f0f52a8801c4098c167eb06", [
       [ "SAY_AGGRO", "db/d8b/a02594.html#aa8cf55c40f0f52a8801c4098c167eb06a47c752fff069f3e55065795eef2a9bfe", null ],
       [ "SAY_SUMMON", "db/d8b/a02594.html#aa8cf55c40f0f52a8801c4098c167eb06acebbfa1f13b8de4f039f5d550063c7bf", null ],

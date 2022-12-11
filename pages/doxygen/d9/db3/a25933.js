@@ -1,9 +1,8 @@
 var a25933 =
 [
-    [ "boss_mechano_lord_capacitusAI", "d9/db3/a25933.html#a398142cc18ac96396a486cac884fd0b6", null ],
-    [ "EnterCombat", "d9/db3/a25933.html#afbfcecef03838534bec5230bd8745c55", null ],
-    [ "JustDied", "d9/db3/a25933.html#a736b09f0d76a4947bd307df912a070cc", null ],
-    [ "JustSummoned", "d9/db3/a25933.html#a71a0987e4cb74bee32924759b878c428", null ],
-    [ "KilledUnit", "d9/db3/a25933.html#abf94cfd55b8ac3dc3d606190b9ff713e", null ],
-    [ "UpdateAI", "d9/db3/a25933.html#ad4c24019baca62358de48d09d57bb071", null ]
+    [ "boss_gatewatcher_iron_handAI", "d9/db3/a25933.html#a4d17248817f21f9b8d496b71296086f0", null ],
+    [ "EnterCombat", "d9/db3/a25933.html#a44c66b55137ae340d366870a6dbac8ec", null ],
+    [ "JustDied", "d9/db3/a25933.html#a355046979977e693df0bee9f773d6d75", null ],
+    [ "KilledUnit", "d9/db3/a25933.html#ac7a505bf8de00e33a7110b659d15770d", null ],
+    [ "UpdateAI", "d9/db3/a25933.html#aa4a70288c352bac160d30e7478385d3c", null ]
 ];

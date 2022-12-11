@@ -1,6 +1,6 @@
 var a13169 =
 [
-    [ "spell_muru_darkness_AuraScript", "d6/d10/a13173.html", "d6/d10/a13173" ],
-    [ "spell_muru_darkness", "d4/dfd/a13169.html#a6b6c6d9189d28bbb54cff4bee90a75b2", null ],
-    [ "GetAuraScript", "d4/dfd/a13169.html#a6403321f79158cdb2834c16cb7d7c7a8", null ]
+    [ "OnPeriodic", "d4/dfd/a13169.html#a36a5cc378f78447853ef100e297becd9", null ],
+    [ "PrepareAuraScript", "d4/dfd/a13169.html#aa10abdf4411da03f03dfa27c3df1a9a7", null ],
+    [ "Register", "d4/dfd/a13169.html#a1098b7df187ad030adcc16cb82911151", null ]
 ];

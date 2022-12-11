@@ -1,5 +1,6 @@
 var a12473 =
 [
-    [ "go_acherus_soul_prison", "d6/db3/a12473.html#a13c858f74080b8f7963fdacc4b554019", null ],
-    [ "OnGossipHello", "d6/db3/a12473.html#a904059cbeac3ddb3acf07ec1afe78c37", null ]
+    [ "npc_scarlet_miner_cartAI", "d4/d77/a12477.html", "d4/d77/a12477" ],
+    [ "npc_scarlet_miner_cart", "d6/db3/a12473.html#a987247939c6fd576d4b8d541175ecb6b", null ],
+    [ "GetAI", "d6/db3/a12473.html#a0f1436f0f6784af5ab62bf91df355731", null ]
 ];

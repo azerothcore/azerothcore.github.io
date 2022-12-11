@@ -1,6 +1,6 @@
 var a25861 =
 [
-    [ "lapseTeleport", "dd/d0c/a25861.html#a55c4330397214bf3a43628b3067d4634", null ],
-    [ "Execute", "dd/d0c/a25861.html#a122023ed13fce2f5bb3721e459964443", null ],
-    [ "_owner", "dd/d0c/a25861.html#a0e678c5cdb862390ea50c8d6057b7093", null ]
+    [ "spell_kaelthas_flame_strike_AuraScript", "db/d29/a25865.html", "db/d29/a25865" ],
+    [ "spell_kaelthas_flame_strike", "dd/d0c/a25861.html#a5c5ded6724be16d04a1e346fff579801", null ],
+    [ "GetAuraScript", "dd/d0c/a25861.html#a7d107277d866e65cec6ad55fa8750bf0", null ]
 ];

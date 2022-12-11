@@ -1,6 +1,6 @@
 var a26973 =
 [
-    [ "FilterTargets", "d7/d17/a26973.html#ac01bb4bac4f041318937cfc09ed603cd", null ],
-    [ "PrepareSpellScript", "d7/d17/a26973.html#a3eb1d8c26653477bed5b7ae0c69b34e9", null ],
-    [ "Register", "d7/d17/a26973.html#a658a476f5c2229715a8949aa6ba4f99c", null ]
+    [ "CheckCast", "d7/d17/a26973.html#a8ab8394c56201264ac4f2d859dd52092", null ],
+    [ "PrepareSpellScript", "d7/d17/a26973.html#acc6d27c8d869ec80ee5794405f6c238a", null ],
+    [ "Register", "d7/d17/a26973.html#a191085bc21ce6f5ce1d5b43d6d70f069", null ]
 ];

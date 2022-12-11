@@ -1,15 +1,6 @@
 var a12061 =
 [
-    [ "netherspite_infernalAI", "d4/deb/a12061.html#a7a488858b37f584d5f51a84bfc072157", null ],
-    [ "DamageTaken", "d4/deb/a12061.html#aee1ab08bc1535f918a6dc6e00287837f", null ],
-    [ "EnterCombat", "d4/deb/a12061.html#a4ad26e9b1c28c7c923e3646c9ddf37dc", null ],
-    [ "KilledUnit", "d4/deb/a12061.html#ac8cfa331b7a05465a475c764d5a313fc", null ],
-    [ "MoveInLineOfSight", "d4/deb/a12061.html#aa278d92dd858a773605d99d02abcdaee", null ],
-    [ "Reset", "d4/deb/a12061.html#a8a0811735b9f2d5cf0dbd6fbd342246a", null ],
-    [ "SpellHit", "d4/deb/a12061.html#ac822aa4bd28f7dfd61bf60ea3a8d2b77", null ],
-    [ "UpdateAI", "d4/deb/a12061.html#a1a0e00fe034769bbb6888803e544e5bb", null ],
-    [ "CleanupTimer", "d4/deb/a12061.html#affcbe2812c3a31a70ab6145e024d3fc7", null ],
-    [ "HellfireTimer", "d4/deb/a12061.html#ab484ccf37a48145a1663a66ab50a6366", null ],
-    [ "malchezaar", "d4/deb/a12061.html#a59cca66f13f4e6c408576a4b9005a3cb", null ],
-    [ "point", "d4/deb/a12061.html#a68e785d69b015f3d8809ae8f9d52f8eb", null ]
+    [ "boss_malchezaarAI", "d6/d42/a12065.html", "d6/d42/a12065" ],
+    [ "boss_malchezaar", "d4/deb/a12061.html#a28a5bd7d054982d967f7218ebcdf70ba", null ],
+    [ "GetAI", "d4/deb/a12061.html#a926cf2d44e8ea15f5cea72aa106e7d5c", null ]
 ];

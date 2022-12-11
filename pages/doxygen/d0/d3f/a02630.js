@@ -37,7 +37,8 @@ var a02630 =
       [ "DATA_MASTERS_TERRACE_DOOR_1", "d0/d3f/a02630.html#ac1c8b8b6be9767f56555c40adf01ee94a8b84a9d526722bf9e011960343dde99f", null ],
       [ "DATA_MASTERS_TERRACE_DOOR_2", "d0/d3f/a02630.html#ac1c8b8b6be9767f56555c40adf01ee94adbd0c28eeeb8f02c5107c9ecb2621de0", null ],
       [ "DATA_GO_SIDE_ENTRANCE_DOOR", "d0/d3f/a02630.html#ac1c8b8b6be9767f56555c40adf01ee94abcbdbfaa7ef0fccace731fad0f4ab24e", null ],
-      [ "DATA_PRINCE", "d0/d3f/a02630.html#ac1c8b8b6be9767f56555c40adf01ee94a0c3d038faaa9896b4eca67dde1a9f3c5", null ]
+      [ "DATA_PRINCE", "d0/d3f/a02630.html#ac1c8b8b6be9767f56555c40adf01ee94a0c3d038faaa9896b4eca67dde1a9f3c5", null ],
+      [ "DATA_SPAWN_OPERA_DECORATIONS", "d0/d3f/a02630.html#ac1c8b8b6be9767f56555c40adf01ee94a79406385975cdc97a2bb856af7a30366", null ]
     ] ],
     [ "KZGameObjectIds", "d0/d3f/a02630.html#ae24e433b8d42cf365463d73feb31d490", [
       [ "GO_STAGE_CURTAIN", "d0/d3f/a02630.html#ae24e433b8d42cf365463d73feb31d490a4daae08be1a483e5d7fdfe9e9cef0784", null ],
@@ -51,7 +52,15 @@ var a02630 =
       [ "GO_MASTERS_TERRACE_DOOR", "d0/d3f/a02630.html#ae24e433b8d42cf365463d73feb31d490abccd2e145e0976111dc7294ae9595d8e", null ],
       [ "GO_MASTERS_TERRACE_DOOR2", "d0/d3f/a02630.html#ae24e433b8d42cf365463d73feb31d490ae2cadfe21e44b1b9042c7112fc39f3bf", null ],
       [ "GO_SIDE_ENTRANCE_DOOR", "d0/d3f/a02630.html#ae24e433b8d42cf365463d73feb31d490abbdc282732379e1cd58b6a8551700751", null ],
-      [ "GO_DUST_COVERED_CHEST", "d0/d3f/a02630.html#ae24e433b8d42cf365463d73feb31d490af22c758bdd3b20ff00899ddf7afcdd99", null ]
+      [ "GO_DUST_COVERED_CHEST", "d0/d3f/a02630.html#ae24e433b8d42cf365463d73feb31d490af22c758bdd3b20ff00899ddf7afcdd99", null ],
+      [ "GO_OZ_BACKDROP", "d0/d3f/a02630.html#ae24e433b8d42cf365463d73feb31d490af4c704eaa3da4b08b0af73caa86f7411", null ],
+      [ "GO_OZ_HAY", "d0/d3f/a02630.html#ae24e433b8d42cf365463d73feb31d490a5aa103aac42314faae60639b9d71bddb", null ],
+      [ "GO_HOOD_BACKDROP", "d0/d3f/a02630.html#ae24e433b8d42cf365463d73feb31d490a0f1d73e40d6988f53e6807a8840b4e17", null ],
+      [ "GO_HOOD_TREE", "d0/d3f/a02630.html#ae24e433b8d42cf365463d73feb31d490ab8f86a145e72a59f17b9c615b57bd9b2", null ],
+      [ "GO_HOOD_HOUSE", "d0/d3f/a02630.html#ae24e433b8d42cf365463d73feb31d490a1aacfc75c5aed50b0012acb40fe25371", null ],
+      [ "GO_RAJ_BACKDROP", "d0/d3f/a02630.html#ae24e433b8d42cf365463d73feb31d490a682477145343eebdb420694908681ddc", null ],
+      [ "GO_RAJ_MOON", "d0/d3f/a02630.html#ae24e433b8d42cf365463d73feb31d490a54a024f96b6e928f04700656940b1fee", null ],
+      [ "GO_RAJ_BALCONY", "d0/d3f/a02630.html#ae24e433b8d42cf365463d73feb31d490a8f491dbd6bab1d17f7962d0c94c21f62", null ]
     ] ],
     [ "KZMisc", "d0/d3f/a02630.html#a82e2e83730ff4a6f26b5f3bc5fd3383f", [
       [ "OPTIONAL_BOSS_REQUIRED_DEATH_COUNT", "d0/d3f/a02630.html#a82e2e83730ff4a6f26b5f3bc5fd3383fac14588ad8776b1e58b24c2f9b6c34079", null ]

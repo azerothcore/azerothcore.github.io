@@ -1,5 +1,5 @@
 var a29325 =
 [
-    [ "go_tele_to_violet_stand", "dd/de9/a29325.html#a63350db1dfd400c565e30775378d48cc", null ],
-    [ "OnGossipHello", "dd/de9/a29325.html#a4d075584f065501a2c3be9ef82387f43", null ]
+    [ "go_sacred_fire_of_life", "dd/de9/a29325.html#a7f14c8397803f8b21e492ec52c6d81e8", null ],
+    [ "OnGossipHello", "dd/de9/a29325.html#aaa078fffe5570fa532d27d1c4ea831a7", null ]
 ];

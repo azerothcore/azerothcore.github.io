@@ -1,6 +1,6 @@
 var a25325 =
 [
-    [ "boss_high_king_maulgarAI", "d4/dfc/a25329.html", "d4/dfc/a25329" ],
-    [ "boss_high_king_maulgar", "df/d95/a25325.html#a621a16c396633c9c3c80d2a2a9870473", null ],
-    [ "GetAI", "df/d95/a25325.html#aa98710ee1fe88b135f38ca6b040e6938", null ]
+    [ "spell_gruul_shatter_effect_SpellScript", "d4/dfc/a25329.html", "d4/dfc/a25329" ],
+    [ "spell_gruul_shatter_effect", "df/d95/a25325.html#a9845feba1a254cd1703084fd717cd140", null ],
+    [ "GetSpellScript", "df/d95/a25325.html#a4a105bb6118ee8adc95f89f90e2a6ce6", null ]
 ];

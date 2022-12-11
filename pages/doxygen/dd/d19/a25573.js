@@ -1,6 +1,6 @@
 var a25573 =
 [
-    [ "instance_shattered_halls_InstanceMapScript", "d3/d26/a25577.html", "d3/d26/a25577" ],
-    [ "instance_shattered_halls", "dd/d19/a25573.html#a9d0d3b6baec34c679151791610cff3a7", null ],
-    [ "GetInstanceScript", "dd/d19/a25573.html#a82388466811b022a725ba721845cadf3", null ]
+    [ "boss_warchief_kargath_bladefistAI", "d3/d26/a25577.html", "d3/d26/a25577" ],
+    [ "boss_warchief_kargath_bladefist", "dd/d19/a25573.html#ab32d6b38fae734bc53d9e542c25e024e", null ],
+    [ "GetAI", "dd/d19/a25573.html#acb5cd31ba7d5ca763e05c5279d836c5d", null ]
 ];

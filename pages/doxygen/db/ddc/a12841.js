@@ -1,6 +1,6 @@
 var a12841 =
 [
-    [ "spell_brutallus_burn_SpellScript", "db/d61/a12845.html", "db/d61/a12845" ],
-    [ "spell_brutallus_burn", "db/ddc/a12841.html#a7b357ba5e7819579fe6d85ea7027ec61", null ],
-    [ "GetSpellScript", "db/ddc/a12841.html#ad1cfb257b32e6f7d8ceb9a9e5f4718c3", null ]
+    [ "HandleScriptEffect", "db/ddc/a12841.html#aede9921ad61d1ba69f9b6afff4c30531", null ],
+    [ "PrepareSpellScript", "db/ddc/a12841.html#af6432cce838b12708560e8d62acdaaae", null ],
+    [ "Register", "db/ddc/a12841.html#aa77d1eb2f40daac2f211018197d86004", null ]
 ];

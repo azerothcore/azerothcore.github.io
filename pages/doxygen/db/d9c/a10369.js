@@ -2,10 +2,15 @@ var a10369 =
 [
     [ "Player", "db/d9c/a10369.html#a7f4241aa9ecc051c75f779af132a52ed", null ],
     [ "WorldSession", "db/d9c/a10369.html#a65b5c30bf4f5f118a199e378d903aaf6", null ],
-    [ "Face", "db/d9c/a10369.html#a6334464eea38be514f3faa7538b39a5a", null ],
-    [ "FacialHair", "db/d9c/a10369.html#a44643270b211d275eb94283842791407", null ],
-    [ "Gender", "db/d9c/a10369.html#a14321ea3595debe2836eceab8a82f944", null ],
-    [ "HairColor", "db/d9c/a10369.html#aeaa7ce4ecea7f42def63049424a2dd6b", null ],
-    [ "HairStyle", "db/d9c/a10369.html#ade5b2dff213547ab4d707070f8979085", null ],
-    [ "Skin", "db/d9c/a10369.html#a2876110e687e7248e8c64fcb3a3a80db", null ]
+    [ "CharCount", "db/d9c/a10369.html#aad61b8ca0caf09d6b62ee9fffd78cceb", null ],
+    [ "Class", "db/d9c/a10369.html#a41e354593f59bc8546688a37c2a5e504", null ],
+    [ "Face", "db/d9c/a10369.html#aba49d87691e9d2b10d430450c3f66493", null ],
+    [ "FacialHair", "db/d9c/a10369.html#a5a88b2c2556dd1239c417ea4fcc55287", null ],
+    [ "Gender", "db/d9c/a10369.html#ac4ed75d1527549051a92cbb958fa8eb4", null ],
+    [ "HairColor", "db/d9c/a10369.html#a0ded70bbcf30bba4de4ac0ee88fb6eb6", null ],
+    [ "HairStyle", "db/d9c/a10369.html#aa4b2800384a89a5c30c2edb7ff567865", null ],
+    [ "Name", "db/d9c/a10369.html#a4f81603fda1ae148e6d6174ea8d861fe", null ],
+    [ "OutfitId", "db/d9c/a10369.html#a15baddc70b46d48bd9f128e73aaac606", null ],
+    [ "Race", "db/d9c/a10369.html#aeee5ee1a2dc34e1b2ad1f8edd31679ff", null ],
+    [ "Skin", "db/d9c/a10369.html#a0fbfb41f3fd0c9d0ba2bfc7f04df648e", null ]
 ];

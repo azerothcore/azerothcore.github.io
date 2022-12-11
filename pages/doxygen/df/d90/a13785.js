@@ -1,13 +1,6 @@
 var a13785 =
 [
-    [ "npc_harrison_jonesAI", "df/d90/a13785.html#a088e61f55a0f5005a9c4b7d1f837e361", null ],
-    [ "EnterCombat", "df/d90/a13785.html#a13b08b8a2f7db4207f3137cf5c9050df", null ],
-    [ "Reset", "df/d90/a13785.html#a57aa269677fb06a66756151d950e7eeb", null ],
-    [ "sGossipSelect", "df/d90/a13785.html#a222ead437d88313b7d96c916433a45a9", null ],
-    [ "SpellHit", "df/d90/a13785.html#a58134cca72886cfee57d2f56df1765fb", null ],
-    [ "UpdateAI", "df/d90/a13785.html#a982d73b5f7ff7f65003bb87c961fd998", null ],
-    [ "_gongEvent", "df/d90/a13785.html#a2bc677a9e8b4736a1ef1882c77fe5e16", null ],
-    [ "_gongTimer", "df/d90/a13785.html#ae905e486190f0f984a425c1dcf7991f7", null ],
-    [ "instance", "df/d90/a13785.html#aca87aebdeb6db3c38ee2514d5e07432d", null ],
-    [ "uiTargetGUID", "df/d90/a13785.html#a5696b4215ebfe2671d20ddb1c00db12f", null ]
+    [ "boss_arlokkAI", "d6/d45/a13789.html", "d6/d45/a13789" ],
+    [ "boss_arlokk", "df/d90/a13785.html#a55bb21239e05acff18d2fb147449800e", null ],
+    [ "GetAI", "df/d90/a13785.html#a58b8cc7a198784b48faaab1b069d397c", null ]
 ];

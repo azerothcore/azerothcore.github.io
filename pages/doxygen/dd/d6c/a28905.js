@@ -1,6 +1,6 @@
 var a28905 =
 [
-    [ "PrepareSpellScript", "dd/d6c/a28905.html#aa784c7af6fe38069fca4dcff9a09a22b", null ],
-    [ "Register", "dd/d6c/a28905.html#a81bc86c83ffc70602410912870e61700", null ],
-    [ "VictoryRushHit", "dd/d6c/a28905.html#a89387a25e67af1d47ef7f5b95344ccb0", null ]
+    [ "PrepareAuraScript", "dd/d6c/a28905.html#a65fa925d99065d028e328a92f2a13805", null ],
+    [ "Register", "dd/d6c/a28905.html#a95dc732286adf4327f68e23015d58c21", null ],
+    [ "RemoveEffect", "dd/d6c/a28905.html#a3f474c143f64739187b6049cac5e4b38", null ]
 ];

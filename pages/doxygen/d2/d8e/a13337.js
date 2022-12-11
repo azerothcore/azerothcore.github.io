@@ -1,12 +1,10 @@
 var a13337 =
 [
-    [ "npc_sentinel_infiltrator", "d2/d8e/a13337.html#a40ce6808a4d0622eb88a669485335020", null ],
-    [ "EnterCombat", "d2/d8e/a13337.html#a34e4c52cc41728d2002b4e41ca259281", null ],
-    [ "Initialize", "d2/d8e/a13337.html#acc94269a3ede4c897f457a270e9a9c12", null ],
-    [ "MovementInform", "d2/d8e/a13337.html#a57aef1c4ce7a491408c2c6b19d4d4cf2", null ],
-    [ "Reset", "d2/d8e/a13337.html#a0f26dbe23efdf572f81723dff1d3eeaf", null ],
-    [ "UpdateAI", "d2/d8e/a13337.html#ac676246948689c891c0f9cca7f8bc8b6", null ],
-    [ "_events", "d2/d8e/a13337.html#a296d6c70b6c439319cc69a9d39005e62", null ],
-    [ "_fleedForAssistance", "d2/d8e/a13337.html#a948c9d2081b33e18aa927fb18598c8ad", null ],
-    [ "_path", "d2/d8e/a13337.html#a32d531478df327ccb0bb85e262420813", null ]
+    [ "o", "d2/d8e/a13337.html#a3785e9b55ea3a7140086ce1f86232109", null ],
+    [ "posX", "d2/d8e/a13337.html#ac03b904b4f7dbdc017c2d76d149b43c6", null ],
+    [ "posY", "d2/d8e/a13337.html#a114c463efb2331609e9f3dece3a044b4", null ],
+    [ "posZ", "d2/d8e/a13337.html#ac753027323ca39219bf1bbb5fa003062", null ],
+    [ "x", "d2/d8e/a13337.html#ac81cc1119b7ac8ac70ee635f2e3d4bb7", null ],
+    [ "y", "d2/d8e/a13337.html#a10fbad67977d8dd3911eb629c1797684", null ],
+    [ "z", "d2/d8e/a13337.html#a69fc2438e52f6c0de3af13900ff38166", null ]
 ];

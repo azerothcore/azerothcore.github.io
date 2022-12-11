@@ -1,9 +1,13 @@
 var a10809 =
 [
-    [ "ClientKeySeed", "dc/d77/a10809.html#a3e2df88e6fd716030d70a77850e96970", null ],
-    [ "ClientKeySeedHash", "dc/d77/a10809.html#ae2523827d6f9abae5eed0b463c00062f", null ],
-    [ "Module", "dc/d77/a10809.html#a1fcce28666a614c83d06729bc9c88bb4", null ],
-    [ "ModuleKey", "dc/d77/a10809.html#ac34f4c4997f5f64a9dcf4ad7d914a215", null ],
-    [ "Seed", "dc/d77/a10809.html#a3c8e1b5c642f12e29837800f0428f34e", null ],
-    [ "ServerKeySeed", "dc/d77/a10809.html#ad29fe1f9ba6ef32f1d35657683b0e11b", null ]
+    [ "PlayerDumpWriter", "dc/d77/a10809.html#a060152c060b37c4bf1208a99edc4a840", null ],
+    [ "AppendTable", "dc/d77/a10809.html#a7f285fddf6d33dd1664b5af801f110e9", null ],
+    [ "GetDump", "dc/d77/a10809.html#a17457008e1262c0aed284469e55841c6", null ],
+    [ "PopulateGuids", "dc/d77/a10809.html#aab122c84eefe801ac23211ec5a41e888", null ],
+    [ "WriteDumpToFile", "dc/d77/a10809.html#a81612bfc0d161595f4de1a6133d5c46d", null ],
+    [ "WriteDumpToString", "dc/d77/a10809.html#a43d30815c9b3b2608e0fecad7bba7254", null ],
+    [ "_items", "dc/d77/a10809.html#a5da825b82a09809ded2ce2c88458cc26", null ],
+    [ "_itemSets", "dc/d77/a10809.html#a33ff3a269064d883eff84ec83c394e92", null ],
+    [ "_mails", "dc/d77/a10809.html#a2863e88ee13debe77e4b1d3d0960d18a", null ],
+    [ "_pets", "dc/d77/a10809.html#a33325b0514324020bba98364a7f59de5", null ]
 ];

@@ -1,5 +1,5 @@
 var a09001 =
 [
-    [ "entry", "d4/d1e/a09001.html#a1105fbea33b497bca2a290431cb0f4ca", null ],
-    [ "type", "d4/d1e/a09001.html#acaf1010ce0620ee99a2a6b2721a06b89", null ]
+    [ "bossId", "d4/d1e/a09001.html#ac7be12fc714b2760399185e96b01efe0", null ],
+    [ "entry", "d4/d1e/a09001.html#adae739bf9cf30d1a8ca5c5790dc61c01", null ]
 ];

@@ -1,6 +1,10 @@
 var a12153 =
 [
-    [ "npc_titoAI", "d6/d4d/a12157.html", "d6/d4d/a12157" ],
-    [ "npc_tito", "d0/dcf/a12153.html#ab727b2b52484e302724b92c5819c47ef", null ],
-    [ "GetAI", "d0/dcf/a12153.html#a7e7823434ffef77c34cbf97ce8362e66", null ]
+    [ "npc_titoAI", "d0/dcf/a12153.html#a9430fdd57c7bc431702c4710e541f700", null ],
+    [ "EnterCombat", "d0/dcf/a12153.html#ada3b27d1769aa1e17c2058f83260b070", null ],
+    [ "JustDied", "d0/dcf/a12153.html#a2b09dc852162e88efff1cdf19c7ad370", null ],
+    [ "Reset", "d0/dcf/a12153.html#a3b08f5b2491caba7530d69b071f80c19", null ],
+    [ "UpdateAI", "d0/dcf/a12153.html#af4ca8826345e529bba2ec24fccf13c4d", null ],
+    [ "DorotheeGUID", "d0/dcf/a12153.html#a42160f265896ad16bae87e36fa7fc9ce", null ],
+    [ "YipTimer", "d0/dcf/a12153.html#a0e2c863daa17c9ecd563ed4efb2a37a1", null ]
 ];

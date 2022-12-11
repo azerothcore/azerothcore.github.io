@@ -1,6 +1,7 @@
 var a28773 =
 [
-    [ "CheckProc", "d7/d03/a28773.html#a945c4617cba249ee76045ce032f12c3c", null ],
-    [ "PrepareAuraScript", "d7/d03/a28773.html#abdcb401acb80eb732dbf56bbbcf79801", null ],
-    [ "Register", "d7/d03/a28773.html#a912dd7ea10038103bb6d242bb7723830", null ]
+    [ "HandleDummy", "d7/d03/a28773.html#abd35c974f5ebec4c8845c05ab4f6d309", null ],
+    [ "PrepareSpellScript", "d7/d03/a28773.html#a99deca1c5c8631342be400cb863eefb2", null ],
+    [ "Register", "d7/d03/a28773.html#aa5ecc51b030fe7280e824ade641216d3", null ],
+    [ "Validate", "d7/d03/a28773.html#a731503d3769718695d109ad71160e67a", null ]
 ];

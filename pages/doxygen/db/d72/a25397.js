@@ -1,18 +1,7 @@
 var a25397 =
 [
-    [ "boss_kelidan_the_breakerAI", "db/d72/a25397.html#ae16b4bcf36c963737d93cb495364081a", null ],
-    [ "ApplyImmunities", "db/d72/a25397.html#a3b8e98cee10db232bdde29b29a042b7d", null ],
-    [ "CheckChannelers", "db/d72/a25397.html#ad1dd3dc54921f9bad9d31c69b58fac1d", null ],
-    [ "DoAction", "db/d72/a25397.html#a43133045e83eddb407788f2151a54cf7", null ],
-    [ "EnterCombat", "db/d72/a25397.html#a5c0e54b338e56d7964f02e144da3c1ff", null ],
-    [ "JustDied", "db/d72/a25397.html#a805622f9eca29e32ae8b4b58ce38e0fb", null ],
-    [ "KilledUnit", "db/d72/a25397.html#a564033558a0152d39e01f63bdb63ab0e", null ],
-    [ "Reset", "db/d72/a25397.html#abeb2856ca6730a9a45a6f06b937d0d61", null ],
-    [ "SummonChannelers", "db/d72/a25397.html#a1ca92ac2258eb36febeb091dc5f08b82", null ],
-    [ "UpdateAI", "db/d72/a25397.html#a023f85608788179b2dc73b25fbeac8d3", null ],
-    [ "addYell", "db/d72/a25397.html#a3d3b1adf80228ba6bfe5b61b4f5af71b", null ],
-    [ "channelers", "db/d72/a25397.html#a97de8427857bacdcae3d2ab10e185109", null ],
-    [ "checkTimer", "db/d72/a25397.html#ab7a7e29a1ef15654264aee826c7ee409", null ],
-    [ "events", "db/d72/a25397.html#a1bb05027e9d9a74275b205de421819cf", null ],
-    [ "instance", "db/d72/a25397.html#ac9ae99a90953e8cf76515c04664571be", null ]
+    [ "PeriodicTick", "db/d72/a25397.html#a7d7974d26a2420b7361174fa28645730", null ],
+    [ "PrepareAuraScript", "db/d72/a25397.html#a1fef1be5502ce1e186cbac1d51282e32", null ],
+    [ "Register", "db/d72/a25397.html#abab8c283fbbe2caf66e7998f29c82b01", null ],
+    [ "Validate", "db/d72/a25397.html#a72c9d7b22afd27b3d320edfde56eefd9", null ]
 ];

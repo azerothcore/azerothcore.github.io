@@ -1,6 +1,6 @@
 var a10677 =
 [
-    [ "EffectCalcPeriodicHandler", "d6/d9c/a10677.html#a17288ee3b2951f1f2a8dc36a598b9a27", null ],
-    [ "Call", "d6/d9c/a10677.html#a6a7eeb9599a10aa4ab918a2c2456a186", null ],
-    [ "pEffectHandlerScript", "d6/d9c/a10677.html#a57673f457c08edfbf7fc1877aa071721", null ]
+    [ "EffectUpdatePeriodicHandler", "d6/d9c/a10677.html#a6b18a259aa84c847bcc064c5243eb590", null ],
+    [ "Call", "d6/d9c/a10677.html#a38802863e7859453cbbe58ad91018c67", null ],
+    [ "pEffectHandlerScript", "d6/d9c/a10677.html#a0e51245e089fcd9532d5789056ab944c", null ]
 ];

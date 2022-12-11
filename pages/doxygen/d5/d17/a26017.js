@@ -1,6 +1,6 @@
 var a26017 =
 [
-    [ "npc_nether_drakeAI", "d7/df9/a26021.html", "d7/df9/a26021" ],
-    [ "npc_nether_drake", "d5/d17/a26017.html#a253ec3c91857b899ea9e2c824870b760", null ],
-    [ "GetAI", "d5/d17/a26017.html#a58d269e2c73cae07bb507162b742fe8f", null ]
+    [ "spell_npc22275_crystal_prison_AuraScript", "d7/df9/a26021.html", "d7/df9/a26021" ],
+    [ "spell_npc22275_crystal_prison", "d5/d17/a26017.html#ae6efa7a80701f4c98b22f0c0fef75334", null ],
+    [ "GetAuraScript", "d5/d17/a26017.html#a23b8e65fd247e1dec0faa62299c47aec", null ]
 ];
