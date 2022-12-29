@@ -512,6 +512,7 @@ searchIndex["Achievement"] = {
         [3, "FailQuest", "", "Sets the given <a class=\"mod\" href=\"Quest/index.html\">Quest</a> entry failed for the <a class=\"mod\" href=\"Player/index.html\">Player</a>."],
         [3, "GetAccountId", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>s account ID"],
         [3, "GetAccountName", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>s account name"],
+        [3, "GetAchievementCriteriaProgress", "", "Returns the progress of the <a class=\"mod\" href=\"Player/index.html\">Player</a> for the specified achievement criteria."],
         [3, "GetActiveSpec", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>s active spec ID"],
         [3, "GetArenaPoints", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>s current amount of Arena Points"],
         [3, "GetBaseSkillValue", "", "Returns base skill value"],

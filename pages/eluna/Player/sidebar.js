@@ -31,6 +31,7 @@ document.write(`
   <a id="Player:FailQuest" class="fn" href="../Player/FailQuest.html">FailQuest</a>
   <a id="Player:GetAccountId" class="fn" href="../Player/GetAccountId.html">GetAccountId</a>
   <a id="Player:GetAccountName" class="fn" href="../Player/GetAccountName.html">GetAccountName</a>
+  <a id="Player:GetAchievementCriteriaProgress" class="fn" href="../Player/GetAchievementCriteriaProgress.html">GetAchievementCriteriaProgress</a>
   <a id="Player:GetActiveSpec" class="fn" href="../Player/GetActiveSpec.html">GetActiveSpec</a>
   <a id="Player:GetArenaPoints" class="fn" href="../Player/GetArenaPoints.html">GetArenaPoints</a>
   <a id="Player:GetBaseSkillValue" class="fn" href="../Player/GetBaseSkillValue.html">GetBaseSkillValue</a>
