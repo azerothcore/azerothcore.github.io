@@ -31,6 +31,7 @@ document.write(`
   <a id="Player:FailQuest" class="fn" href="../Player/FailQuest.html">FailQuest</a>
   <a id="Player:GetAccountId" class="fn" href="../Player/GetAccountId.html">GetAccountId</a>
   <a id="Player:GetAccountName" class="fn" href="../Player/GetAccountName.html">GetAccountName</a>
+  <a id="Player:GetAchievementCriteriaProgress" class="fn" href="../Player/GetAchievementCriteriaProgress.html">GetAchievementCriteriaProgress</a>
   <a id="Player:GetActiveSpec" class="fn" href="../Player/GetActiveSpec.html">GetActiveSpec</a>
   <a id="Player:GetArenaPoints" class="fn" href="../Player/GetArenaPoints.html">GetArenaPoints</a>
   <a id="Player:GetBaseSkillValue" class="fn" href="../Player/GetBaseSkillValue.html">GetBaseSkillValue</a>
@@ -68,6 +69,7 @@ document.write(`
   <a id="Player:GetLatency" class="fn" href="../Player/GetLatency.html">GetLatency</a>
   <a id="Player:GetLevelPlayedTime" class="fn" href="../Player/GetLevelPlayedTime.html">GetLevelPlayedTime</a>
   <a id="Player:GetLifetimeKills" class="fn" href="../Player/GetLifetimeKills.html">GetLifetimeKills</a>
+  <a id="Player:GetMailCount" class="fn" href="../Player/GetMailCount.html">GetMailCount</a>
   <a id="Player:GetMailItem" class="fn" href="../Player/GetMailItem.html">GetMailItem</a>
   <a id="Player:GetManaBonusFromIntellect" class="fn" href="../Player/GetManaBonusFromIntellect.html">GetManaBonusFromIntellect</a>
   <a id="Player:GetMaxSkillValue" class="fn" href="../Player/GetMaxSkillValue.html">GetMaxSkillValue</a>
@@ -96,6 +98,7 @@ document.write(`
   <a id="Player:GetSubGroup" class="fn" href="../Player/GetSubGroup.html">GetSubGroup</a>
   <a id="Player:GetTeam" class="fn" href="../Player/GetTeam.html">GetTeam</a>
   <a id="Player:GetTotalPlayedTime" class="fn" href="../Player/GetTotalPlayedTime.html">GetTotalPlayedTime</a>
+  <a id="Player:GetXP" class="fn" href="../Player/GetXP.html">GetXP</a>
   <a id="Player:GetXPRestBonus" class="fn" href="../Player/GetXPRestBonus.html">GetXPRestBonus</a>
   <a id="Player:GiveXP" class="fn" href="../Player/GiveXP.html">GiveXP</a>
   <a id="Player:GossipAddQuests" class="fn" href="../Player/GossipAddQuests.html">GossipAddQuests</a>
