@@ -3,6 +3,7 @@ document.write(`
   <a id="Group:ConvertToRaid" class="fn" href="../Group/ConvertToRaid.html">ConvertToRaid</a>
   <a id="Group:Disband" class="fn" href="../Group/Disband.html">Disband</a>
   <a id="Group:GetGUID" class="fn" href="../Group/GetGUID.html">GetGUID</a>
+  <a id="Group:GetGroupType" class="fn" href="../Group/GetGroupType.html">GetGroupType</a>
   <a id="Group:GetLeaderGUID" class="fn" href="../Group/GetLeaderGUID.html">GetLeaderGUID</a>
   <a id="Group:GetMemberGUID" class="fn" href="../Group/GetMemberGUID.html">GetMemberGUID</a>
   <a id="Group:GetMemberGroup" class="fn" href="../Group/GetMemberGroup.html">GetMemberGroup</a>

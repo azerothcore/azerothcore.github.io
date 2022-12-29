@@ -320,6 +320,7 @@ searchIndex["Achievement"] = {
         [3, "ConvertToRaid", "", "Converts this <a class=\"mod\" href=\"Group/index.html\">Group</a> to a raid <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
         [3, "Disband", "", "Disbands this <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
         [3, "GetGUID", "", "Returns the <a class=\"mod\" href=\"Group/index.html\">Group</a>'s GUID"],
+        [3, "GetGroupType", "", "Returns the type of this <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
         [3, "GetLeaderGUID", "", "Returns <a class=\"mod\" href=\"Group/index.html\">Group</a> leader GUID"],
         [3, "GetMemberGUID", "", "Returns a <a class=\"mod\" href=\"Group/index.html\">Group</a> member's GUID by their name"],
         [3, "GetMemberGroup", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>'s subgroup ID of this <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
