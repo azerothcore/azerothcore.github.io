@@ -253,6 +253,7 @@ searchIndex["Achievement"] = {
         [3, "GetGuildByName", "", "Returns a <a class=\"mod\" href=\"Guild/index.html\">Guild</a> by name."],
         [3, "GetItemGUID", "", "Builds an <a class=\"mod\" href=\"Item/index.html\">Item</a>'s GUID."],
         [3, "GetItemLink", "", "Returns an chat link for an <a class=\"mod\" href=\"Item/index.html\">Item</a>."],
+        [3, "GetItemTemplate", "", ""],
         [3, "GetLuaEngine", "", "Returns Lua engine's name."],
         [3, "GetMapById", "", "Returns a <a class=\"mod\" href=\"Map/index.html\">Map</a> by ID."],
         [3, "GetObjectGUID", "", "Builds a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>'s GUID."],
@@ -384,6 +385,7 @@ searchIndex["Achievement"] = {
         [3, "GetItemLevel", "", "Returns the <a class=\"mod\" href=\"Item/index.html\">Item</a>s level"],
         [3, "GetItemLink", "", "Returns the chat link of the <a class=\"mod\" href=\"Item/index.html\">Item</a>"],
         [3, "GetItemSet", "", "Returns the item set ID of this <a class=\"mod\" href=\"Item/index.html\">Item</a>"],
+        [3, "GetItemTemplate", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a> for this <a class=\"mod\" href=\"Item/index.html\">Item</a>."],
         [3, "GetMaxStackCount", "", "Returns the <a class=\"mod\" href=\"Item/index.html\">Item</a>s max stack count"],
         [3, "GetName", "", "Returns the name of the <a class=\"mod\" href=\"Item/index.html\">Item</a>"],
         [3, "GetOwner", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a> who currently owns the <a class=\"mod\" href=\"Item/index.html\">Item</a>"],
@@ -420,6 +422,27 @@ searchIndex["Achievement"] = {
         [3, "SetCount", "", "Sets the stack count of the <a class=\"mod\" href=\"Item/index.html\">Item</a>"],
         [3, "SetEnchantment", "", "Sets the specified enchantment of the <a class=\"mod\" href=\"Item/index.html\">Item</a> to the specified slot"],
         [3, "SetOwner", "", "Sets the <a class=\"mod\" href=\"Player/index.html\">Player</a> specified as the owner of the <a class=\"mod\" href=\"Item/index.html\">Item</a>"],
+    ],
+    "paths": []
+};searchIndex["ItemTemplate"] = {
+    "items": [
+        [0, "", "ItemTemplate", ""],
+        [3, "GetAllowableClass", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a> classes allowed to use this <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>."],
+        [3, "GetAllowableRace", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a> races allowed to use this <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>."],
+        [3, "GetBuyCount", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s default purchase count."],
+        [3, "GetBuyPrice", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s purchase price."],
+        [3, "GetClass", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s class."],
+        [3, "GetDisplayId", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s display ID."],
+        [3, "GetExtraFlags", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s extra flags."],
+        [3, "GetFlags", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s flags."],
+        [3, "GetInventoryType", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s inventory type."],
+        [3, "GetItemId", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s ID."],
+        [3, "GetItemLevel", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s item level."],
+        [3, "GetName", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s name."],
+        [3, "GetQuality", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s quality."],
+        [3, "GetRequiredLevel", "", "Returns the minimum level required to use this <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>."],
+        [3, "GetSellPrice", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s sell price."],
+        [3, "GetSubClass", "", "Returns the <a class=\"mod\" href=\"ItemTemplate/index.html\">ItemTemplate</a>'s subclass."],
     ],
     "paths": []
 };searchIndex["Map"] = {
