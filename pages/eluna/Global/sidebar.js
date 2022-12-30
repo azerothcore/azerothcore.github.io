@@ -43,6 +43,7 @@ document.write(`
   <a id="Global:GetLuaEngine" class="fn" href="../Global/GetLuaEngine.html">GetLuaEngine</a>
   <a id="Global:GetMapById" class="fn" href="../Global/GetMapById.html">GetMapById</a>
   <a id="Global:GetObjectGUID" class="fn" href="../Global/GetObjectGUID.html">GetObjectGUID</a>
+  <a id="Global:GetOwnerHalaa" class="fn" href="../Global/GetOwnerHalaa.html">GetOwnerHalaa</a>
   <a id="Global:GetPlayerByGUID" class="fn" href="../Global/GetPlayerByGUID.html">GetPlayerByGUID</a>
   <a id="Global:GetPlayerByName" class="fn" href="../Global/GetPlayerByName.html">GetPlayerByName</a>
   <a id="Global:GetPlayerCount" class="fn" href="../Global/GetPlayerCount.html">GetPlayerCount</a>
@@ -86,6 +87,7 @@ document.write(`
   <a id="Global:SaveAllPlayers" class="fn" href="../Global/SaveAllPlayers.html">SaveAllPlayers</a>
   <a id="Global:SendMail" class="fn" href="../Global/SendMail.html">SendMail</a>
   <a id="Global:SendWorldMessage" class="fn" href="../Global/SendWorldMessage.html">SendWorldMessage</a>
+  <a id="Global:SetOwnerHalaa" class="fn" href="../Global/SetOwnerHalaa.html">SetOwnerHalaa</a>
   <a id="Global:StartGameEvent" class="fn" href="../Global/StartGameEvent.html">StartGameEvent</a>
   <a id="Global:StopGameEvent" class="fn" href="../Global/StopGameEvent.html">StopGameEvent</a>
   <a id="Global:VendorRemoveAllItems" class="fn" href="../Global/VendorRemoveAllItems.html">VendorRemoveAllItems</a>
