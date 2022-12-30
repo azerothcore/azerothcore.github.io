@@ -15,6 +15,7 @@ document.write(`
   <a id="Item:GetItemLevel" class="fn" href="../Item/GetItemLevel.html">GetItemLevel</a>
   <a id="Item:GetItemLink" class="fn" href="../Item/GetItemLink.html">GetItemLink</a>
   <a id="Item:GetItemSet" class="fn" href="../Item/GetItemSet.html">GetItemSet</a>
+  <a id="Item:GetItemTemplate" class="fn" href="../Item/GetItemTemplate.html">GetItemTemplate</a>
   <a id="Item:GetMaxStackCount" class="fn" href="../Item/GetMaxStackCount.html">GetMaxStackCount</a>
   <a id="Item:GetName" class="fn" href="../Item/GetName.html">GetName</a>
   <a id="Item:GetOwner" class="fn" href="../Item/GetOwner.html">GetOwner</a>
