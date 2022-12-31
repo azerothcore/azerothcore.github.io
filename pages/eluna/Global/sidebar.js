@@ -40,6 +40,7 @@ document.write(`
   <a id="Global:GetGuildByName" class="fn" href="../Global/GetGuildByName.html">GetGuildByName</a>
   <a id="Global:GetItemGUID" class="fn" href="../Global/GetItemGUID.html">GetItemGUID</a>
   <a id="Global:GetItemLink" class="fn" href="../Global/GetItemLink.html">GetItemLink</a>
+  <a id="Global:GetItemTemplate" class="fn" href="../Global/GetItemTemplate.html">GetItemTemplate</a>
   <a id="Global:GetLuaEngine" class="fn" href="../Global/GetLuaEngine.html">GetLuaEngine</a>
   <a id="Global:GetMapById" class="fn" href="../Global/GetMapById.html">GetMapById</a>
   <a id="Global:GetObjectGUID" class="fn" href="../Global/GetObjectGUID.html">GetObjectGUID</a>
