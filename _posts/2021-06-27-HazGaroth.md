@@ -2,7 +2,7 @@
 title: Haz'Garoth
 website: https://hazgaroth.fr/
 author: Torvahal
-image: https://media.discordapp.net/attachments/804392374233989120/858483425832861706/Logo.png
+image: https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/_posts/images/hazgaroth.png
 tags: PvE, Semi-BlizzLike, Custom.
 published: true
 ---

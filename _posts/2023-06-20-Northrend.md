@@ -1,8 +1,8 @@
 ---
-title: WoTLKRaids - Instant 80 PvE
-website: https://wotlkraids.com/
+title: Northrend gg
+website: https://northrend.gg/en/
 author: Chaz
-image: https://wotlkraids.com/banner.png
+image: https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/_posts/images/northrendgg.png
 tags: Instant 80, PvE, Raids, Crossfaction, Soloable Content, Scaled Instances, WoTLK
 published: true
 ---
