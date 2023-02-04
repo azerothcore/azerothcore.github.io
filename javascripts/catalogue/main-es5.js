@@ -283,7 +283,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("pageIndex", ctx_r3.page)("length", items_r4.items.length)("pageSize", ctx_r3.catalogueService.CONF.pageSize)("hidePageSize", true);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("pageIndex", ctx_r3.page)("length", items_r4.length)("pageSize", ctx_r3.catalogueService.CONF.pageSize)("hidePageSize", true);
         }
       }
 
@@ -394,7 +394,7 @@
           value: function currentPageItems(modules) {
             var _this = this;
 
-            var filteredItems = modules.items;
+            var filteredItems = modules;
 
             if (!!this.search) {
               filteredItems = filteredItems.filter(function (item) {
@@ -1542,11 +1542,13 @@
         _createClass(CatalogueService, [{
           key: "getLocalItems",
           value: function getLocalItems(tab) {
+            var _this4 = this;
+
             var _tab$org = tab.org,
                 org = _tab$org === void 0 ? '' : _tab$org,
                 _tab$topic = tab.topic,
                 topic = _tab$topic === void 0 ? '' : _tab$topic;
-            var key = "".concat(this.CONF.page, "-").concat(this.CONF.perPage, "-").concat(org, "-").concat(topic);
+            var key = "".concat(org, "-").concat(topic);
             var item = localStorage.getItem(key);
 
             if (item && !this.expireMinutes(30, JSON.parse(item).timeDate)) {
@@ -1555,12 +1557,43 @@
 
             var topicFilter = topic ? "+topic:".concat(topic) : '';
             var orgFilter = org ? "org:".concat(org, "+") : '';
-            return this.getFromAPI("https://api.github.com/search/repositories?page=".concat(this.CONF.page, "&per_page=").concat(this.CONF.perPage, "&q=").concat(orgFilter, "fork:true").concat(topicFilter, "+sort:stars"), key);
+            var perPage = this.CONF.perPage;
+            var totalSize = null;
+
+            var getPage = function getPage(page) {
+              return _this4.http.get("https://api.github.com/search/repositories?page=".concat(page, "&per_page=").concat(_this4.CONF.perPage, "&q=").concat(orgFilter, "fork:true").concat(topicFilter, "+sort:stars"));
+            };
+
+            var pages$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Observable"](function (observer) {
+              var emitItems = function emitItems(page) {
+                getPage(page).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) {
+                  if (!totalSize) {
+                    totalSize = res.total_count;
+                  }
+
+                  return res.items;
+                })).subscribe(function (items) {
+                  observer.next(items);
+                  var hasNextPage = perPage * page < totalSize;
+
+                  if (hasNextPage) {
+                    emitItems(page + 1);
+                  } else {
+                    observer.complete();
+                  }
+                });
+              };
+
+              emitItems(1);
+            }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["reduce"])(function (acc, val) {
+              return acc.concat(val);
+            }, []));
+            return this.storable(pages$, key);
           }
         }, {
-          key: "getFromAPI",
-          value: function getFromAPI(URL, key) {
-            return this.http.get(URL).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["tap"])({
+          key: "storable",
+          value: function storable(obs, key) {
+            return obs.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["tap"])({
               next: function next(data) {
                 localStorage.setItem(key, JSON.stringify({
                   timeDate: new Date().getTime(),
@@ -1589,7 +1622,7 @@
               return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(JSON.parse(item).value);
             }
 
-            return this.getFromAPI("https://api.github.com/repositories/".concat(id), key);
+            return this.storable(this.http.get("https://api.github.com/repositories/".concat(id)), key);
           }
         }, {
           key: "getRawReadmeDefault",
@@ -1598,8 +1631,8 @@
           }
         }, {
           key: "getRawReadme",
-          value: function getRawReadme(repo, default_branch) {
-            return this.http.get("https://raw.githubusercontent.com/".concat(repo, "/").concat(default_branch, "/README.md?time=").concat(Date.now()), {
+          value: function getRawReadme(repo, defaultBranch) {
+            return this.http.get("https://raw.githubusercontent.com/".concat(repo, "/").concat(defaultBranch, "/README.md?time=").concat(Date.now()), {
               responseType: 'text'
             });
           }

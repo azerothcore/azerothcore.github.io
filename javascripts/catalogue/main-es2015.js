@@ -115,7 +115,7 @@ function HomeComponent_div_17_mat_tab_3_div_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r3.currentPageItems(items_r4));
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("pageIndex", ctx_r3.page)("length", items_r4.items.length)("pageSize", ctx_r3.catalogueService.CONF.pageSize)("hidePageSize", true);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("pageIndex", ctx_r3.page)("length", items_r4.length)("pageSize", ctx_r3.catalogueService.CONF.pageSize)("hidePageSize", true);
 } }
 function HomeComponent_div_17_mat_tab_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-tab", 13);
@@ -169,7 +169,7 @@ class HomeComponent {
         }
     }
     currentPageItems(modules) {
-        let filteredItems = modules.items;
+        let filteredItems = modules;
         if (!!this.search) {
             filteredItems = filteredItems.filter((item) => item.name.toLowerCase().indexOf(this.search.toLowerCase()) > -1);
         }
@@ -888,17 +888,44 @@ class CatalogueService {
     }
     getLocalItems(tab) {
         const { org = '', topic = '' } = tab;
-        const key = `${this.CONF.page}-${this.CONF.perPage}-${org}-${topic}`;
+        const key = `${org}-${topic}`;
         const item = localStorage.getItem(key);
         if (item && !this.expireMinutes(30, JSON.parse(item).timeDate)) {
             return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(JSON.parse(item).value);
         }
         const topicFilter = topic ? `+topic:${topic}` : '';
         const orgFilter = org ? `org:${org}+` : '';
-        return this.getFromAPI(`https://api.github.com/search/repositories?page=${this.CONF.page}&per_page=${this.CONF.perPage}&q=${orgFilter}fork:true${topicFilter}+sort:stars`, key);
+        const perPage = this.CONF.perPage;
+        let totalSize = null;
+        const getPage = (page) => {
+            return this.http.get(`https://api.github.com/search/repositories?page=${page}&per_page=${this.CONF.perPage}&q=${orgFilter}fork:true${topicFilter}+sort:stars`);
+        };
+        const pages$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Observable"]((observer) => {
+            const emitItems = (page) => {
+                getPage(page)
+                    .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])((res) => {
+                    if (!totalSize) {
+                        totalSize = res.total_count;
+                    }
+                    return res.items;
+                }))
+                    .subscribe((items) => {
+                    observer.next(items);
+                    const hasNextPage = perPage * page < totalSize;
+                    if (hasNextPage) {
+                        emitItems(page + 1);
+                    }
+                    else {
+                        observer.complete();
+                    }
+                });
+            };
+            emitItems(1);
+        }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["reduce"])((acc, val) => acc.concat(val), []));
+        return this.storable(pages$, key);
     }
-    getFromAPI(URL, key) {
-        return this.http.get(URL).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["tap"])({
+    storable(obs, key) {
+        return obs.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["tap"])({
             next: (data) => {
                 localStorage.setItem(key, JSON.stringify({ timeDate: new Date().getTime(), value: data }));
             },
@@ -918,7 +945,7 @@ class CatalogueService {
         if (item && !this.expireMinutes(30, JSON.parse(item).timeDate)) {
             return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(JSON.parse(item).value);
         }
-        return this.getFromAPI(`https://api.github.com/repositories/${id}`, key);
+        return this.storable(this.http.get(`https://api.github.com/repositories/${id}`), key);
     }
     get confTabsKeys() {
         var _a;
@@ -937,8 +964,10 @@ class CatalogueService {
     getRawReadmeDefault(repo) {
         return this.getRawReadme(repo.full_name, repo.default_branch);
     }
-    getRawReadme(repo, default_branch) {
-        return this.http.get(`https://raw.githubusercontent.com/${repo}/${default_branch}/README.md?time=${Date.now()}`, { responseType: 'text' });
+    getRawReadme(repo, defaultBranch) {
+        return this.http.get(`https://raw.githubusercontent.com/${repo}/${defaultBranch}/README.md?time=${Date.now()}`, {
+            responseType: 'text',
+        });
     }
 }
 CatalogueService.ɵfac = function CatalogueService_Factory(t) { return new (t || CatalogueService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"])); };
