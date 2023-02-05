@@ -1,7 +1,10 @@
 var a03968 =
 [
-    [ "boss_the_maker", "da/dde/a25417.html", "da/dde/a25417" ],
-    [ "boss_the_maker::boss_the_makerAI", "df/d46/a25421.html", "df/d46/a25421" ],
+    [ "boss_broggok", "d8/d8a/a25395.html", "d8/d8a/a25395" ],
+    [ "boss_broggok::boss_broggokAI", "d6/d62/a25399.html", "d6/d62/a25399" ],
+    [ "go_broggok_lever", "d1/dde/a25403.html", "d1/dde/a25403" ],
+    [ "spell_broggok_poison_cloud", "d5/de1/a25407.html", "d5/de1/a25407" ],
+    [ "spell_broggok_poison_cloud::spell_broggok_poison_cloud_AuraScript", "dc/dcd/a25411.html", "dc/dcd/a25411" ],
     [ "eEnums", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165", [
       [ "SPELL_FROZEN_PRISON", "d7/d83/a03506.html#a0ec08fe05ebfdddfa34c747c9c62a165a874864078de8743889d364bbecadcee6", null ],
       [ "SPELL_TAIL_SWEEP", "d7/d83/a03506.html#a0ec08fe05ebfdddfa34c747c9c62a165addcb3daa6cdc61ef04c65580e44ef823", null ],
@@ -46,25 +49,21 @@ var a03968 =
       [ "EVENT_SPELL_CORROSIVE", "d5/de2/a03830.html#a0ec08fe05ebfdddfa34c747c9c62a165a71cd5890f512b8d4becd70f14a878b44", null ],
       [ "EVENT_SPELL_FEAR", "d5/de2/a03830.html#a0ec08fe05ebfdddfa34c747c9c62a165a49b64ec43e205ab38891e35d2785209e", null ],
       [ "EVENT_SPELL_ENRAGE", "d5/de2/a03830.html#a0ec08fe05ebfdddfa34c747c9c62a165a0aee038b593545fefa453e38f0b499bb", null ],
-      [ "SAY_AGGRO", "d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165a47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SPELL_SLIME_SPRAY", "d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165a9c5d1f42537cacfa5399c0fad0c3e9e4", null ],
-      [ "SPELL_POISON_CLOUD", "d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165ad985868160cfc9033e029c6112712009", null ],
-      [ "SPELL_POISON_BOLT", "d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165a53aca891b27c32c84e1da919e607b1a2", null ],
-      [ "SPELL_POISON", "d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165a6ab0bda74bcf7baf41bcd485a9ce0edc", null ],
-      [ "EVENT_SPELL_SLIME", "d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165adfd5341b09e2484102626e33f45d80a2", null ],
-      [ "EVENT_SPELL_POISON", "d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165ac4df512f98244a61718a88df3899249a", null ],
-      [ "EVENT_SPELL_BOLT", "d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165ac904c0e60fd97efcd2f34944863ebdea", null ],
       [ "SAY_AGGRO", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SAY_KILL", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a7f4f26c3b97b953fd229ac5d308024d5", null ],
-      [ "SAY_DIE", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ac06e5bbf853ac54e131d78954cadb856", null ],
-      [ "SPELL_ACID_SPRAY", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165aeaa3796b4c9ed2cbe971eb624e8c638a", null ],
-      [ "SPELL_EXPLODING_BREAKER", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165adcc443aeb9002320c4e1489526672a05", null ],
-      [ "SPELL_KNOCKDOWN", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ace00400987bd4444f7fe64180848cf5b", null ],
-      [ "SPELL_DOMINATION", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165afa63300aa4ebffd0e035a8a25610ce1b", null ],
-      [ "EVENT_SPELL_ACID", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a1e89d4ed806c6116874e12931313d2b6", null ],
-      [ "EVENT_SPELL_EXPLODING", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a1bcf9aa1eca0b667f462b5ac9f6feb96", null ],
-      [ "EVENT_SPELL_DOMINATION", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165af22b1f1cdff31aee13e0cb0f81589cab", null ],
-      [ "EVENT_SPELL_KNOCKDOWN", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a9c4a19a8704826234efa278cd64b2339", null ]
+      [ "SPELL_SLIME_SPRAY", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a9c5d1f42537cacfa5399c0fad0c3e9e4", null ],
+      [ "SPELL_POISON_CLOUD", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ad985868160cfc9033e029c6112712009", null ],
+      [ "SPELL_POISON_BOLT", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a53aca891b27c32c84e1da919e607b1a2", null ],
+      [ "SPELL_POISON", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a6ab0bda74bcf7baf41bcd485a9ce0edc", null ],
+      [ "EVENT_SPELL_SLIME", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165adfd5341b09e2484102626e33f45d80a2", null ],
+      [ "EVENT_SPELL_POISON", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ac4df512f98244a61718a88df3899249a", null ],
+      [ "EVENT_SPELL_BOLT", "db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ac904c0e60fd97efcd2f34944863ebdea", null ],
+      [ "SAY_AGGRO", "d4/d2e/a03974.html#a0ec08fe05ebfdddfa34c747c9c62a165a47c752fff069f3e55065795eef2a9bfe", null ],
+      [ "SAY_KILL", "d4/d2e/a03974.html#a0ec08fe05ebfdddfa34c747c9c62a165a7f4f26c3b97b953fd229ac5d308024d5", null ],
+      [ "SAY_DIE", "d4/d2e/a03974.html#a0ec08fe05ebfdddfa34c747c9c62a165ac06e5bbf853ac54e131d78954cadb856", null ],
+      [ "SPELL_EXPLODING_BREAKER", "d4/d2e/a03974.html#a0ec08fe05ebfdddfa34c747c9c62a165adcc443aeb9002320c4e1489526672a05", null ],
+      [ "SPELL_DOMINATION", "d4/d2e/a03974.html#a0ec08fe05ebfdddfa34c747c9c62a165afa63300aa4ebffd0e035a8a25610ce1b", null ],
+      [ "EVENT_SPELL_EXPLODING", "d4/d2e/a03974.html#a0ec08fe05ebfdddfa34c747c9c62a165a1bcf9aa1eca0b667f462b5ac9f6feb96", null ],
+      [ "EVENT_SPELL_DOMINATION", "d4/d2e/a03974.html#a0ec08fe05ebfdddfa34c747c9c62a165af22b1f1cdff31aee13e0cb0f81589cab", null ]
     ] ],
-    [ "AddSC_boss_the_maker", "db/de8/a03968.html#ac774ad3692466e07cfce63b6c7fe7dde", null ]
+    [ "AddSC_boss_broggok", "db/de8/a03968.html#a662bbd04ed2e2a16bfda7904ccb2fa9e", null ]
 ];

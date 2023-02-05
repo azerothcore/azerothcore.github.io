@@ -1,9 +1,9 @@
 var a02786 =
 [
-    [ "npc_deathstalker_erland", "d3/d00/a13389.html", "d3/d00/a13389" ],
-    [ "npc_deathstalker_erland::npc_deathstalker_erlandAI", "d5/dbd/a13393.html", "d5/dbd/a13393" ],
-    [ "pyrewood_ambush", "dc/d3c/a13397.html", "dc/d3c/a13397" ],
-    [ "pyrewood_ambush::pyrewood_ambushAI", "dd/ddd/a13401.html", "dd/ddd/a13401" ],
+    [ "npc_deathstalker_erland", "d3/d54/a13387.html", "d3/d54/a13387" ],
+    [ "npc_deathstalker_erland::npc_deathstalker_erlandAI", "d7/d83/a13391.html", "d7/d83/a13391" ],
+    [ "pyrewood_ambush", "da/d2b/a13395.html", "da/d2b/a13395" ],
+    [ "pyrewood_ambush::pyrewood_ambushAI", "d7/dec/a13399.html", "d7/dec/a13399" ],
     [ "WAIT_SECS", "de/d69/a02786.html#a9ad1ed098bd723cdee424425d0e071cb", null ],
     [ "Erland", "de/d69/a02786.html#a17833146260016bd364b0aeabe951117", [
       [ "SAY_QUESTACCEPT", "de/d69/a02786.html#a17833146260016bd364b0aeabe951117ac55a400e0f3da4381ab1048e5115d2d7", null ],

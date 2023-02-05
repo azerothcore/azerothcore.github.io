@@ -1,9 +1,9 @@
 var a03926 =
 [
-    [ "boss_warlord_kalithresh", "dc/d9b/a25233.html", "dc/d9b/a25233" ],
-    [ "boss_warlord_kalithresh::boss_warlord_kalithreshAI", "d8/d28/a25237.html", "d8/d28/a25237" ],
-    [ "npc_naga_distiller", "db/d09/a25241.html", "db/d09/a25241" ],
-    [ "npc_naga_distiller::npc_naga_distillerAI", "d2/d10/a25245.html", "d2/d10/a25245" ],
+    [ "boss_warlord_kalithresh", "d3/d5d/a25219.html", "d3/d5d/a25219" ],
+    [ "boss_warlord_kalithresh::boss_warlord_kalithreshAI", "d0/d88/a25223.html", "d0/d88/a25223" ],
+    [ "npc_naga_distiller", "d9/d5c/a25227.html", "d9/d5c/a25227" ],
+    [ "npc_naga_distiller::npc_naga_distillerAI", "d0/d25/a25231.html", "d0/d25/a25231" ],
     [ "NagaDistiller", "d1/d59/a03926.html#a677b0cb7d0e14ec3fdb4697821278ebf", [
       [ "SAY_INTRO", "d1/d59/a03926.html#a677b0cb7d0e14ec3fdb4697821278ebfaf5bc3db04213b3bf118af6ce85b5a637", null ],
       [ "SAY_REGEN", "d1/d59/a03926.html#a677b0cb7d0e14ec3fdb4697821278ebfaff823e184362bff3c55619a5339a20d9", null ],

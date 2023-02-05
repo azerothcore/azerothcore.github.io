@@ -1,7 +1,7 @@
 var a02984 =
 [
-    [ "boss_lieutenant_drake", "db/dac/a14757.html", "db/dac/a14757" ],
-    [ "boss_lieutenant_drake::boss_lieutenant_drakeAI", "dc/d3f/a14761.html", "dc/d3f/a14761" ],
+    [ "boss_lieutenant_drake", "d0/d64/a14755.html", "d0/d64/a14755" ],
+    [ "boss_lieutenant_drake::boss_lieutenant_drakeAI", "da/d35/a14759.html", "da/d35/a14759" ],
     [ "LieutenantDrake", "dd/d7e/a02984.html#a033aa2310e9320f7f70eebde8bad3f18", [
       [ "SAY_ENTER", "dd/d7e/a02984.html#a033aa2310e9320f7f70eebde8bad3f18abde0ca14c874b2c3317dd55732863028", null ],
       [ "SAY_AGGRO", "dd/d7e/a02984.html#a033aa2310e9320f7f70eebde8bad3f18a47c752fff069f3e55065795eef2a9bfe", null ],

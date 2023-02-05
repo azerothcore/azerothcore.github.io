@@ -1,6 +1,6 @@
 var a01349 =
 [
-    [ "HashMapHolder< T >", "df/dab/a08265.html", "df/dab/a08265" ],
+    [ "HashMapHolder< T >", "dc/d79/a08267.html", "dc/d79/a08267" ],
     [ "AddObject", "de/d6c/a01349.html#a0726eba7e71a7c6d4f6f90b4dfb410f8", null ],
     [ "AddObject", "de/d6c/a01349.html#a2f3be0f1bc71493623f991ad879c8be4", null ],
     [ "FindConnectedPlayer", "de/d6c/a01349.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0", null ],
@@ -17,6 +17,8 @@ var a01349 =
     [ "GetPlayer", "de/d6c/a01349.html#aeb3657e7ad09335b9a9ffa50473aa216", null ],
     [ "GetPlayer", "de/d6c/a01349.html#a9179a3b50b384405892a8e8e538617b4", null ],
     [ "GetPlayers", "de/d6c/a01349.html#a868ecab21b3e6e3ac68beed32f4ea793", null ],
+    [ "GetSpawnedCreatureByDBGUID", "de/d6c/a01349.html#a4cebdea9476a004a8a1bd57c40d1f3ae", null ],
+    [ "GetSpawnedGameObjectByDBGUID", "de/d6c/a01349.html#a6639665d2704cbd06727004567caac15", null ],
     [ "GetTransport", "de/d6c/a01349.html#a2ddde0dc109d262af644c232a315afd7", null ],
     [ "GetUnit", "de/d6c/a01349.html#a02c2dfb59db7d7e2501dcc9a4f9baf07", null ],
     [ "GetWorldObject", "de/d6c/a01349.html#ade254f98439319c444ce701c75d4f93a", null ],

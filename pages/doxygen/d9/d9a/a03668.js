@@ -126,7 +126,12 @@ var a03668 =
       [ "DATA_EREKEM_GUARD_1_GUID", "d5/d35/a03716.html#af5baa506e65b4caa6be6d1c6661dfe63aab57a9aa19fb76748c2b8e8f3c310a64", null ],
       [ "DATA_EREKEM_GUARD_2_GUID", "d5/d35/a03716.html#af5baa506e65b4caa6be6d1c6661dfe63a814d3c25fcbfae4755942da0fdab46c8", null ],
       [ "DATA_ICHORON_GUID", "d5/d35/a03716.html#af5baa506e65b4caa6be6d1c6661dfe63a645f472e4ecb948295dc370099998113", null ],
-      [ "DATA_ACHIEV", "d5/d35/a03716.html#af5baa506e65b4caa6be6d1c6661dfe63a017589bf4c8a9c402a3a436adbd2a933", null ]
+      [ "DATA_ACHIEV", "d5/d35/a03716.html#af5baa506e65b4caa6be6d1c6661dfe63a017589bf4c8a9c402a3a436adbd2a933", null ],
+      [ "DATA_HUNGARFEN", "da/d1d/a03947.html#af5baa506e65b4caa6be6d1c6661dfe63a63e8f0e6b9b5b9a811bc5243e3237323", null ],
+      [ "DATA_GHAZAN", "da/d1d/a03947.html#af5baa506e65b4caa6be6d1c6661dfe63a80a45b4f90bb001d27db8a0393b9c57e", null ],
+      [ "DATA_MUSELEK", "da/d1d/a03947.html#af5baa506e65b4caa6be6d1c6661dfe63aefd434c651108b5f79a253b9a91d045d", null ],
+      [ "DATA_BLACK_STALKER", "da/d1d/a03947.html#af5baa506e65b4caa6be6d1c6661dfe63a56ea641fde843aa83ff6f9bb73e308b3", null ],
+      [ "MAX_ENCOUNTERS", "da/d1d/a03947.html#af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25", null ]
     ] ],
     [ "Objects", "d9/d9a/a03668.html#a6095c54a56c4e904d4f4c3c8bb1456fd", [
       [ "GO_NEXUS_PLATFORM", "df/d5f/a03494.html#a6095c54a56c4e904d4f4c3c8bb1456fdaf7088dd52d3a6d96f1794432905c7d77", null ],

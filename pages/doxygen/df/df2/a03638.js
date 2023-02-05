@@ -1,9 +1,9 @@
 var a03638 =
 [
-    [ "boss_skarvald_the_constructor", "d1/d58/a22477.html", "d1/d58/a22477" ],
-    [ "boss_skarvald_the_constructor::boss_skarvald_the_constructorAI", "db/d3e/a22481.html", "db/d3e/a22481" ],
-    [ "boss_dalronn_the_controller", "d9/dbf/a22485.html", "d9/dbf/a22485" ],
-    [ "boss_dalronn_the_controller::boss_dalronn_the_controllerAI", "d9/ddf/a22489.html", "d9/ddf/a22489" ],
+    [ "boss_skarvald_the_constructor", "d9/d64/a22467.html", "d9/d64/a22467" ],
+    [ "boss_skarvald_the_constructor::boss_skarvald_the_constructorAI", "dc/d80/a22471.html", "dc/d80/a22471" ],
+    [ "boss_dalronn_the_controller", "d5/d6a/a22475.html", "d5/d6a/a22475" ],
+    [ "boss_dalronn_the_controller::boss_dalronn_the_controllerAI", "d0/dfe/a22479.html", "d0/dfe/a22479" ],
     [ "eEvents", "df/df2/a03638.html#a1d3512b0adb171bd0db6aad2c9e70516", [
       [ "EVENT_CHECK_HEALTH_95", "d1/d88/a02600.html#a1d3512b0adb171bd0db6aad2c9e70516a11fdfa529b6828e8739bb0ba2545e1f6", null ],
       [ "EVENT_CHECK_HEALTH_25", "d1/d88/a02600.html#a1d3512b0adb171bd0db6aad2c9e70516ab4c8308b4dc44a86daf5ee851c990687", null ],

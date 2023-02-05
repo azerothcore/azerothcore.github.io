@@ -2,6 +2,7 @@ var a02630 =
 [
     [ "DataHeader", "d0/d3f/a02630.html#a042491ef36459046f3866e90f15aae0d", null ],
     [ "KarazhanScriptName", "d0/d3f/a02630.html#a4c9709c694f9a7ef73e2f744352a172b", null ],
+    [ "RegisterKarazhanCreatureAI", "d0/d3f/a02630.html#acaa419980cf6700659b5ee6a1c3538fb", null ],
     [ "KarazhanSpells", "d0/d3f/a02630.html#a3c4e26f6688d5d0270824c3ebefee420", [
       [ "SPELL_RATTLED", "d0/d3f/a02630.html#a3c4e26f6688d5d0270824c3ebefee420a003c1c658cd329ff779d8671f541292b", null ],
       [ "SPELL_OVERLOAD", "d0/d3f/a02630.html#a3c4e26f6688d5d0270824c3ebefee420a93ebf6439143cd64d0e45b06092c804c", null ],
@@ -83,7 +84,8 @@ var a02630 =
       [ "NPC_DREADBEAST", "d0/d3f/a02630.html#a0e2e5b55d6237074ad82fbf2fce42800ac91734efcd068c18ba526347780555b7", null ],
       [ "NPC_SHADOWBEAST", "d0/d3f/a02630.html#a0e2e5b55d6237074ad82fbf2fce42800a382261bd162fbd017ec2bbfad41ebfdb", null ],
       [ "NPC_KILREK", "d0/d3f/a02630.html#a0e2e5b55d6237074ad82fbf2fce42800a8850495d56a00ebf15ea96c504c153e2", null ],
-      [ "NPC_RELAY", "d0/d3f/a02630.html#a0e2e5b55d6237074ad82fbf2fce42800af04ada3d195a700b56979b1c228e3822", null ]
+      [ "NPC_RELAY", "d0/d3f/a02630.html#a0e2e5b55d6237074ad82fbf2fce42800af04ada3d195a700b56979b1c228e3822", null ],
+      [ "NPC_BARNES", "d0/d3f/a02630.html#a0e2e5b55d6237074ad82fbf2fce42800abd1249f69714a6c6cc125fed40367699", null ]
     ] ],
     [ "KZOperaEvents", "d0/d3f/a02630.html#aae819809d62fa7f2e4ce8db25bb00855", [
       [ "EVENT_OZ", "d0/d3f/a02630.html#aae819809d62fa7f2e4ce8db25bb00855a5a6aa1e8785c917e6bd233e96de20cf0", null ],

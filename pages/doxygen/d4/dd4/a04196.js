@@ -1,72 +1,27 @@
 var a04196 =
 [
-    [ "AreaTrigger_at_voltarus_middle", "de/d11/a29085.html", "de/d11/a29085" ],
-    [ "AreaTrigger_at_coilfang_waterfall", "d1/d3a/a29089.html", "d1/d3a/a29089" ],
-    [ "AreaTrigger_at_legion_teleporter", "d9/d51/a29093.html", "d9/d51/a29093" ],
-    [ "AreaTrigger_at_stormwright_shelf", "df/d8b/a29097.html", "df/d8b/a29097" ],
-    [ "AreaTrigger_at_scent_larkorwi", "d4/d09/a29101.html", "d4/d09/a29101" ],
-    [ "AreaTrigger_at_last_rites", "da/d54/a29105.html", "da/d54/a29105" ],
-    [ "AreaTrigger_at_sholazar_waygate", "de/d6d/a29109.html", "de/d6d/a29109" ],
-    [ "AreaTrigger_at_nats_landing", "db/dc0/a29113.html", "db/dc0/a29113" ],
-    [ "AreaTrigger_at_sentry_point", "dc/d4a/a29117.html", "dc/d4a/a29117" ],
-    [ "AreaTrigger_at_brewfest", "db/d04/a29121.html", "db/d04/a29121" ],
-    [ "AreaTrigger_at_area_52_entrance", "db/d71/a29125.html", "db/d71/a29125" ],
-    [ "Area52Entrance", "d4/dd4/a04196.html#a7ef276a75040392ab3315082a3518c67", [
-      [ "SPELL_A52_NEURALYZER", "d4/dd4/a04196.html#a7ef276a75040392ab3315082a3518c67afa491a434774607e1e712c2f79ac322a", null ],
-      [ "NPC_SPOTLIGHT", "d4/dd4/a04196.html#a7ef276a75040392ab3315082a3518c67acded8211c601c5b237d60a58f65b56ac", null ],
-      [ "SUMMON_COOLDOWN", "d4/dd4/a04196.html#a7ef276a75040392ab3315082a3518c67aa4b7173ec61f2859f8649f0adcbb37d1", null ],
-      [ "AT_AREA_52_SOUTH", "d4/dd4/a04196.html#a7ef276a75040392ab3315082a3518c67ac9b6a7b98c7a4b2013ccd61f637851f9", null ],
-      [ "AT_AREA_52_NORTH", "d4/dd4/a04196.html#a7ef276a75040392ab3315082a3518c67a7eb1ed4b6c4f3ef99e5cdd9b1505a09e", null ],
-      [ "AT_AREA_52_WEST", "d4/dd4/a04196.html#a7ef276a75040392ab3315082a3518c67a69d8c4647a15efe238a70b1f049ff97f", null ],
-      [ "AT_AREA_52_EAST", "d4/dd4/a04196.html#a7ef276a75040392ab3315082a3518c67a3173f419da9cf80efa68ca3e99c10528", null ]
+    [ "achievement_resilient_victory", "d8/d30/a29035.html", "d8/d30/a29035" ],
+    [ "achievement_bg_control_all_nodes", "d3/dc7/a29039.html", "d3/dc7/a29039" ],
+    [ "achievement_save_the_day", "d9/d40/a29043.html", "d9/d40/a29043" ],
+    [ "achievement_bg_ic_resource_glut", "d7/d76/a29047.html", "d7/d76/a29047" ],
+    [ "achievement_bg_ic_glaive_grave", "de/dce/a29051.html", "de/dce/a29051" ],
+    [ "achievement_bg_ic_mowed_down", "d7/df3/a29055.html", "d7/df3/a29055" ],
+    [ "achievement_bg_sa_artillery", "d2/df5/a29059.html", "d2/df5/a29059" ],
+    [ "achievement_arena_by_type", "dc/dc4/a29063.html", "dc/dc4/a29063" ],
+    [ "achievement_sickly_gazelle", "d6/d79/a29067.html", "d6/d79/a29067" ],
+    [ "achievement_everything_counts", "da/ded/a29071.html", "da/ded/a29071" ],
+    [ "achievement_bg_av_perfection", "d4/d66/a29075.html", "d4/d66/a29075" ],
+    [ "achievement_sa_defense_of_the_ancients", "dd/df3/a29079.html", "dd/df3/a29079" ],
+    [ "achievement_tilted", "da/dfc/a29083.html", "da/dfc/a29083" ],
+    [ "achievement_not_even_a_scratch", "d4/db3/a29087.html", "d4/db3/a29087" ],
+    [ "achievement_killed_exp_or_honor_target", "db/d2d/a29091.html", "db/d2d/a29091" ],
+    [ "ArgentTournamentAreas", "d4/dd4/a04196.html#a2e77de85e54ed0be0b64c804c9b2eea3", [
+      [ "AREA_ARGENT_TOURNAMENT_FIELDS", "d4/dd4/a04196.html#a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737", null ],
+      [ "AREA_RING_OF_ASPIRANTS", "d4/dd4/a04196.html#a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf", null ],
+      [ "AREA_RING_OF_ARGENT_VALIANTS", "d4/dd4/a04196.html#a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d", null ],
+      [ "AREA_RING_OF_ALLIANCE_VALIANTS", "d4/dd4/a04196.html#a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504", null ],
+      [ "AREA_RING_OF_HORDE_VALIANTS", "d4/dd4/a04196.html#a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826", null ],
+      [ "AREA_RING_OF_CHAMPIONS", "d4/dd4/a04196.html#a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7", null ]
     ] ],
-    [ "AtLastRites", "d4/dd4/a04196.html#aedd9d40d0b524b4a5da323938c6f1c99", [
-      [ "QUEST_LAST_RITES", "d4/dd4/a04196.html#aedd9d40d0b524b4a5da323938c6f1c99af622e93bef1f891f43c910aec65feef2", null ],
-      [ "QUEST_BREAKING_THROUGH", "d4/dd4/a04196.html#aedd9d40d0b524b4a5da323938c6f1c99a0d528966459def04c2372cb96fb03057", null ]
-    ] ],
-    [ "Brewfest", "d4/dd4/a04196.html#a9b234b18092b711f6f11cda755fe0bfd", [
-      [ "NPC_TAPPER_SWINDLEKEG", "d4/dd4/a04196.html#a9b234b18092b711f6f11cda755fe0bfda91dfef2ce070232ed51a69d9c6399130", null ],
-      [ "NPC_IPFELKOFER_IRONKEG", "d4/dd4/a04196.html#a9b234b18092b711f6f11cda755fe0bfda39440d09522df095e726cb1da7ab817e", null ],
-      [ "AT_BREWFEST_DUROTAR", "d4/dd4/a04196.html#a9b234b18092b711f6f11cda755fe0bfda6dbf4e730fdb44d7ceb232e60cee3091", null ],
-      [ "AT_BREWFEST_DUN_MOROGH", "d4/dd4/a04196.html#a9b234b18092b711f6f11cda755fe0bfda91d9e35e7360f1d853d2f54f54548c61", null ],
-      [ "SAY_WELCOME", "d4/dd4/a04196.html#a9b234b18092b711f6f11cda755fe0bfda53e43b5d6a57facfdbe1b6559295a32f", null ],
-      [ "AREATRIGGER_TALK_COOLDOWN", "d4/dd4/a04196.html#a9b234b18092b711f6f11cda755fe0bfda7105e5d2474e31860a9bc9f5075c31e4", null ]
-    ] ],
-    [ "CoilfangGOs", "d4/dd4/a04196.html#a9670aee8aef02c60b84d4c3d11c963b5", [
-      [ "GO_COILFANG_WATERFALL", "d4/dd4/a04196.html#a9670aee8aef02c60b84d4c3d11c963b5a30520dfb9388b8cc7b4cbc9b3420d65d", null ]
-    ] ],
-    [ "LegionTeleporter", "d4/dd4/a04196.html#ad9a6ea877cb24dbb530ccf0e03cb7012", [
-      [ "SPELL_TELE_A_TO", "d4/dd4/a04196.html#ad9a6ea877cb24dbb530ccf0e03cb7012a09569d3491e5bf73c2d9e897077cd162", null ],
-      [ "QUEST_GAINING_ACCESS_A", "d4/dd4/a04196.html#ad9a6ea877cb24dbb530ccf0e03cb7012a1746dcba888866f4914d5fa112323879", null ],
-      [ "SPELL_TELE_H_TO", "d4/dd4/a04196.html#ad9a6ea877cb24dbb530ccf0e03cb7012a0373689ced7bf6fcd5453719eff7dff9", null ],
-      [ "QUEST_GAINING_ACCESS_H", "d4/dd4/a04196.html#ad9a6ea877cb24dbb530ccf0e03cb7012a90bff047b5c92fa8418685d95440c5ea", null ]
-    ] ],
-    [ "NatsLanding", "d4/dd4/a04196.html#a5ee4c50b08414290f73ada43c1c71151", [
-      [ "QUEST_NATS_BARGAIN", "d4/dd4/a04196.html#a5ee4c50b08414290f73ada43c1c71151aeff02bfb540090dbb759b896b3b3627e", null ],
-      [ "SPELL_FISH_PASTE", "d4/dd4/a04196.html#a5ee4c50b08414290f73ada43c1c71151a84c85ea415f324f0acec6a0e8d8eb8a6", null ],
-      [ "NPC_LURKING_SHARK", "d4/dd4/a04196.html#a5ee4c50b08414290f73ada43c1c71151af67d7adb069812fe8e3d79aff3f18900", null ]
-    ] ],
-    [ "ScentLarkorwi", "d4/dd4/a04196.html#a743ca0b810fe5b376233e725f346d416", [
-      [ "QUEST_SCENT_OF_LARKORWI", "d4/dd4/a04196.html#a743ca0b810fe5b376233e725f346d416a105afbe1f1e3510efdd8ef9fbfe153ee", null ],
-      [ "NPC_LARKORWI_MATE", "d4/dd4/a04196.html#a743ca0b810fe5b376233e725f346d416adb746f23675f0b248d264a0557ceff5d", null ]
-    ] ],
-    [ "SentryPoint", "d4/dd4/a04196.html#a24ef89c28423d02750eff95a35b3a275", [
-      [ "SPELL_TELEPORT_VISUAL", "d4/dd4/a04196.html#a24ef89c28423d02750eff95a35b3a275a73cc106ecf58fcd3a75fa23f9ff7a21c", null ],
-      [ "QUEST_MISSING_DIPLO_PT14", "d4/dd4/a04196.html#a24ef89c28423d02750eff95a35b3a275a378a874d36260f01327d51d537b33d94", null ],
-      [ "NPC_TERVOSH", "d4/dd4/a04196.html#a24ef89c28423d02750eff95a35b3a275a0ef56679b82214bad2e052fb8e979c50", null ]
-    ] ],
-    [ "StormwrightShelf", "d4/dd4/a04196.html#abdd676bd524ed3ea6915b8b1348861dd", [
-      [ "QUEST_STRENGTH_OF_THE_TEMPEST", "d4/dd4/a04196.html#abdd676bd524ed3ea6915b8b1348861ddae6b91cb73e581fe9558469357a90ec24", null ],
-      [ "SPELL_CREATE_TRUE_POWER_OF_THE_TEMPEST", "d4/dd4/a04196.html#abdd676bd524ed3ea6915b8b1348861dda55079b9b218f67c0dcae1b7da0dcb277", null ]
-    ] ],
-    [ "Waygate", "d4/dd4/a04196.html#a2236193178ebaf53d5af62fbf3b76abb", [
-      [ "SPELL_SHOLAZAR_TO_UNGORO_TELEPORT", "d4/dd4/a04196.html#a2236193178ebaf53d5af62fbf3b76abba8afff48aa5a082d0085f569d43978761", null ],
-      [ "SPELL_UNGORO_TO_SHOLAZAR_TELEPORT", "d4/dd4/a04196.html#a2236193178ebaf53d5af62fbf3b76abba586711e1e31861a14968d73cbd9041d5", null ],
-      [ "AT_SHOLAZAR", "d4/dd4/a04196.html#a2236193178ebaf53d5af62fbf3b76abbaf1a146475aa02d59501e15498b0fe668", null ],
-      [ "AT_UNGORO", "d4/dd4/a04196.html#a2236193178ebaf53d5af62fbf3b76abba7bcd65f5a22bfd6eca72a25d10dfe4d9", null ],
-      [ "QUEST_THE_MAKERS_OVERLOOK", "d4/dd4/a04196.html#a2236193178ebaf53d5af62fbf3b76abba3bd1ed7bbbb657ff9ae6ea1a1ff6b5ab", null ],
-      [ "QUEST_THE_MAKERS_PERCH", "d4/dd4/a04196.html#a2236193178ebaf53d5af62fbf3b76abba72261b6dd71d75e850c792ca3b2aeb3b", null ],
-      [ "QUEST_MEETING_A_GREAT_ONE", "d4/dd4/a04196.html#a2236193178ebaf53d5af62fbf3b76abba20eb419c91228944788d69c97b33380d", null ]
-    ] ],
-    [ "AddSC_areatrigger_scripts", "d4/dd4/a04196.html#a992f2da647f1f8748c7c9239b52079ad", null ]
+    [ "AddSC_achievement_scripts", "d4/dd4/a04196.html#a5091d6f933800f3313078304ad5c38ca", null ]
 ];

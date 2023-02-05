@@ -1,10 +1,10 @@
 var searchData=
 [
   ['iccscriptname_0',['ICCScriptName',['../d5/d6b/a03428.html#a8ad0adeac0057e9785ab4fce6f4d6697',1,'icecrown_citadel.h']]],
-  ['immune_5fto_5fmovement_5fimpairment_5fand_5floss_5fcontrol_5fmask_1',['IMMUNE_TO_MOVEMENT_IMPAIRMENT_AND_LOSS_CONTROL_MASK',['../d2/dfc/a04310.html#aad347546e73152f50df1695839e39ca1',1,'SharedDefines.h']]],
+  ['immune_5fto_5fmovement_5fimpairment_5fand_5floss_5fcontrol_5fmask_1',['IMMUNE_TO_MOVEMENT_IMPAIRMENT_AND_LOSS_CONTROL_MASK',['../de/d38/a04316.html#aad347546e73152f50df1695839e39ca1',1,'SharedDefines.h']]],
   ['in_5flive_5fside_2',['IN_LIVE_SIDE',['../df/d0f/a03452.html#ad42058ab3d240d516651468d3d624008',1,'boss_gothik.cpp']]],
   ['infernal_5fz_3',['INFERNAL_Z',['../d6/dfc/a02612.html#a00331ca2e618893a1f58b350cd86029a',1,'boss_prince_malchezaar.cpp']]],
-  ['inner_5fportal_5fradius_4',['INNER_PORTAL_RADIUS',['../d7/dfc/a04061.html#a767e697b64115cb679602f04a2271bfb',1,'boss_astromancer.cpp']]],
+  ['inner_5fportal_5fradius_4',['INNER_PORTAL_RADIUS',['../d8/d9b/a04067.html#a767e697b64115cb679602f04a2271bfb',1,'boss_astromancer.cpp']]],
   ['inoculated_5fhelper_5',['INOCULATED_HELPER',['../d1/d35/a03398.html#a2d47852dfe3c4764714970ae4caa3481',1,'boss_festergut.cpp']]],
   ['inspect_5fdistance_6',['INSPECT_DISTANCE',['../d4/d5d/a01202.html#a627bc4be23b34b8b8be439d4010f5669',1,'ObjectDefines.h']]],
   ['instantiate_5fclass_5fmutex_7',['INSTANTIATE_CLASS_MUTEX',['../dd/df5/a00386.html#a517f069300d9fa1587cf281664c72a75',1,'ThreadingModel.h']]],
@@ -16,8 +16,8 @@ var searchData=
   ['iocontextbase_13',['IoContextBase',['../d4/dee/a00008.html#a0ec391e3d78f246934f76abd937aecd8',1,'IoContext.h']]],
   ['iocontextbasenamespace_14',['IoContextBaseNamespace',['../d4/dee/a00008.html#ad5308134581a9f19bfac4d556ec345b9',1,'IoContext.h']]],
   ['ir_15',['IR',['../d4/d3e/a00116.html#aa54c7fcd0c551f1db5fc34a2f6b11e74',1,'VMapTools.h']]],
-  ['isanah_5fgossip_5f1_16',['ISANAH_GOSSIP_1',['../d5/d8b/a04112.html#ae86999a75a5c04b96928fb10a88de93c',1,'zone_shattrath_city.cpp']]],
-  ['isanah_5fgossip_5f2_17',['ISANAH_GOSSIP_2',['../d5/d8b/a04112.html#a0d334736afc3a3c2bdd2a7391081e5d8',1,'zone_shattrath_city.cpp']]],
+  ['isanah_5fgossip_5f1_16',['ISANAH_GOSSIP_1',['../d4/ddb/a04118.html#ae86999a75a5c04b96928fb10a88de93c',1,'zone_shattrath_city.cpp']]],
+  ['isanah_5fgossip_5f2_17',['ISANAH_GOSSIP_2',['../d4/ddb/a04118.html#a0d334736afc3a3c2bdd2a7391081e5d8',1,'zone_shattrath_city.cpp']]],
   ['isnan_18',['isnan',['../d5/d16/a00029.html#a075c8459d7e501109174c1a2fdc5cd7e',1,'BoundingIntervalHierarchy.cpp']]],
   ['item_5fmagma_5ftotem_19',['ITEM_MAGMA_TOTEM',['../d4/da4/a03911.html#ae085b117237d65a1258078db0c9a8b08',1,'boss_ahune.cpp']]],
   ['item_5fsubclass_5fmask_5fweapon_5franged_20',['ITEM_SUBCLASS_MASK_WEAPON_RANGED',['../dd/d43/a01193.html#a0873187b0ac36dd5187c0f5486232e88',1,'ItemTemplate.h']]],

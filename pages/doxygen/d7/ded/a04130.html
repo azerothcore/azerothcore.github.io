@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Pet/pet_hunter.cpp File Reference</title>
+<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Pet/pet_dk.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -109,180 +109,253 @@ $(document).ready(function(){initNavTree('d7/ded/a04130.html','../../'); initRes
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">pet_hunter.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">pet_dk.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Cell.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CombatAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PassiveAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d9a/a26661.html">npc_pet_hunter_snake_trap</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dde/a26579.html">npc_pet_dk_ebon_gargoyle</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/a26583.html">npc_pet_dk_ebon_gargoyle::npc_pet_dk_ebon_gargoyleAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d53/a26587.html">npc_pet_dk_ghoul</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d31/a26591.html">npc_pet_dk_ghoul::npc_pet_dk_ghoulAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dca/a26595.html">npc_pet_dk_army_of_the_dead</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dbe/a26599.html">npc_pet_dk_army_of_the_dead::npc_pet_dk_army_of_the_deadAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d36/a26603.html">npc_pet_dk_dancing_rune_weapon</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d44/a26607.html">npc_pet_dk_dancing_rune_weapon::npc_pet_dk_dancing_rune_weaponAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d29/a26611.html">spell_pet_dk_gargoyle_strike</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a87efb4c7cf60464c813daf57f8006a7e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7e">HunterSpells</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7ea919b3819273ed109abc5ff9e1f17f280">SPELL_HUNTER_CRIPPLING_POISON</a> = 30981
+<tr class="memitem:a70990262974db7bc1730b177eb17a499"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499">DeathKnightSpells</a> { <br />
+&#160;&#160;<a class="el" href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499acaaba79b43118ab353ce223c75c97927">SPELL_DK_SUMMON_GARGOYLE_1</a> = 49206
 , <br />
-&#160;&#160;<a class="el" href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7ead1a8eca1edbd63099142576708bdcdbf">SPELL_HUNTER_DEADLY_POISON_PASSIVE</a> = 34657
+&#160;&#160;<a class="el" href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499a5189df5fecf5b13ddd4039be46a59c4a">SPELL_DK_SUMMON_GARGOYLE_2</a> = 50514
 , <br />
-&#160;&#160;<a class="el" href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7eadf08a2ccf6ab77efd0195c9312df57fc">SPELL_HUNTER_MIND_NUMBING_POISON</a> = 25810
+&#160;&#160;<a class="el" href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499afb4b5b1050c699fae6efb3098cca3718">SPELL_DK_DISMISS_GARGOYLE</a> = 50515
 , <br />
-&#160;&#160;<a class="el" href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7eafb79cd1f0ef5f656d3f72634c53cfde6">SPELL_HUNTER_GLYPH_OF_SNAKE_TRAP</a> = 56849
+&#160;&#160;<a class="el" href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499ad890378717a4e2bc99fc549a5561051b">SPELL_DK_SANCTUARY</a> = 54661
 , <br />
-&#160;&#160;<a class="el" href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7ea5d2116d1e86d04190a20c4e9fed1c86f">SPELL_HUNTER_PET_SCALING</a> = 62915
+&#160;&#160;<a class="el" href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499a887c6b33ed54be59ad7e0e8bf32563d9">SPELL_DK_NIGHT_OF_THE_DEAD</a> = 62137
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea30a1369afc6885f7670bcf55f8948c07">SPELL_HUNTER_WYVERN_STING_DOT</a> = 24131
+&#160;&#160;<a class="el" href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499adf62a57ca43f8aef7fbaf0746a5a735b">SPELL_DK_PET_SCALING</a> = 61017
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea9729e1f80d9e5ce1cd9928f8ed27ca00">SPELL_HUNTER_ASPECT_OF_THE_BEAST</a> = 13161
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a7191b6581b1646481b0a8b306e9ce13b">SPELL_DK_DEATH_AND_DECAY_TRIGGER</a> = 52212
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7eaab952376ae60a2bfa87860e57b81604e">SPELL_HUNTER_ASPECT_OF_THE_BEAST_PET</a> = 61669
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499aa317dd781cd6aca5608aaa0b7c116909">SPELL_DK_GLYPH_OF_SCOURGE_STRIKE</a> = 58642
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ead05cc74310d029dfed9226f52ff7e9e7">SPELL_HUNTER_ASPECT_OF_THE_VIPER</a> = 34074
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a234b494cc45b5d3addb18fa3dfb73e5c">SPELL_DK_WANDERING_PLAGUE_TRIGGER</a> = 50526
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea291f618e33506ca7b2182480873737f8">SPELL_HUNTER_ASPECT_OF_THE_VIPER_ENERGIZE</a> = 34075
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a7bb62a89c9a4b0ef9c462557e6bebf06">SPELL_DK_GLYPH_OF_THE_GHOUL</a> = 58686
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ead2ce3e1b324d99ed0919aad89eb0d524">SPELL_HUNTER_BESTIAL_WRATH</a> = 19574
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499adbf51a3aa6d92d6721a086af53b4b14f">SPELL_SHADOWMOURNE_CHAOS_BANE_DAMAGE</a> = 71904
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7eae4017a2262529adaf18e0cfcc81ca052">SPELL_HUNTER_CHIMERA_SHOT_SERPENT</a> = 53353
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499aafd0283a7fb92d3cdcb265a2725e64c2">SPELL_SHADOWMOURNE_SOUL_FRAGMENT</a> = 71905
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea27313cec0b1c54431414148930dee532">SPELL_HUNTER_CHIMERA_SHOT_VIPER</a> = 53358
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a84d745577ef13f1e5882b93198f50a2e">SPELL_SHADOWMOURNE_CHAOS_BANE_BUFF</a> = 73422
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea02c4f17910c60803051dc22d837911ce">SPELL_HUNTER_CHIMERA_SHOT_SCORPID</a> = 53359
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a35625e507d77607cfa3bc73a9b74f9d7">SPELL_DK_ANTI_MAGIC_SHELL_TALENT</a> = 51052
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea6511da7ee83f971738c671b8150f93c1">SPELL_HUNTER_GLYPH_OF_ASPECT_OF_THE_VIPER</a> = 56851
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499af99b1b9b416a8e4814cb8ba256fabaf5">SPELL_DK_BLACK_ICE_R1</a> = 49140
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ead3961ef5de734ba9384c7c21b78b88a3">SPELL_HUNTER_IMPROVED_MEND_PET</a> = 24406
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a2aed45563fba2244820b2c42126a6d6a">SPELL_DK_BLOOD_BOIL_TRIGGERED</a> = 65658
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea0835f319e0b7eae6873df26c0ecb1516">SPELL_HUNTER_INVIGORATION_TRIGGERED</a> = 53398
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a53ca9de3684293c553401665d84aa9ef">SPELL_DK_BLOOD_GORGED_HEAL</a> = 50454
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea6268d79b97acf49da958366261e0df54">SPELL_HUNTER_MASTERS_CALL_TRIGGERED</a> = 62305
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499aed2f121b8035ac607b34365fa52ba470">SPELL_DK_BLOOD_PRESENCE</a> = 48266
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea3e0615670e4fc9469b7250228033251c">SPELL_HUNTER_MISDIRECTION_PROC</a> = 35079
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499afe4a9e8ec64eb213836833029e889c9e">SPELL_DK_CORPSE_EXPLOSION_TRIGGERED</a> = 43999
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ead1b47010db0ea9e584e24e15141719b7">SPELL_HUNTER_PET_LAST_STAND_TRIGGERED</a> = 53479
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a464c9c78f561013a356d08c807f6676c">SPELL_DK_CORPSE_EXPLOSION_VISUAL</a> = 51270
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea0a1495d9817725f5cb19e63026605ce5">SPELL_HUNTER_PET_HEART_OF_THE_PHOENIX</a> = 55709
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499afbf5dd93d92af7a77570be5f869d7e8e">SPELL_DK_DEATH_COIL_DAMAGE</a> = 47632
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea8ab8a8af8e4201e7442c10a338a5d6dd">SPELL_HUNTER_PET_HEART_OF_THE_PHOENIX_TRIGGERED</a> = 54114
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a7a0d82e93f65e431247436cc80f40e48">SPELL_DK_DEATH_COIL_HEAL</a> = 47633
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea848635e540638b2f1fb01164ec34a332">SPELL_HUNTER_PET_HEART_OF_THE_PHOENIX_DEBUFF</a> = 55711
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a92362da89735cabc4151ed2707cb71ba">SPELL_DK_DEATH_STRIKE_HEAL</a> = 45470
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7eabb248b57d2aeb464deeed4679d51d110">SPELL_HUNTER_PET_CARRION_FEEDER_TRIGGERED</a> = 54045
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a7832005ff0a5a91e569a13ddc1f3c5aa">SPELL_DK_FROST_FEVER</a> = 55095
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea5eb25691f66e527c4af972f7390363a7">SPELL_HUNTER_READINESS</a> = 23989
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a17c917ea361d32e91a852611393cb850">SPELL_DK_FROST_PRESENCE</a> = 48263
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea28068379ce495b5984cad20edcd9f95c">SPELL_HUNTER_SNIPER_TRAINING_R1</a> = 53302
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499aa07ad5b01916a34a0f09c7fb75922470">SPELL_DK_FROST_PRESENCE_TRIGGERED</a> = 61261
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea38571110b4e0757cb9400f8c23f34410">SPELL_HUNTER_SNIPER_TRAINING_BUFF_R1</a> = 64418
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a0a8b8ce97037da5c1dfc1bf319297806">SPELL_DK_GHOUL_EXPLODE</a> = 47496
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea91c03fc46203d796b746b1f13a72f034">SPELL_HUNTER_VICIOUS_VIPER</a> = 61609
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a879242b06ba5365a7e418f83ebf71a5d">SPELL_DK_GLYPH_OF_DISEASE</a> = 63334
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea05da71a759b2932a2f0dc58dc3852138">SPELL_HUNTER_VIPER_ATTACK_SPEED</a> = 60144
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a0d2da08157a1e148fabf62841ed0e853">SPELL_DK_GLYPH_OF_ICEBOUND_FORTITUDE</a> = 58625
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea8b43cf97edfed28f7001b77141f01fac">SPELL_DRAENEI_GIFT_OF_THE_NAARU</a> = 59543
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499ab93e068da9c1446333ef34b99f4bb76b">SPELL_DK_IMPROVED_BLOOD_PRESENCE_R1</a> = 50365
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea24de2077bf8ff891f5d0639cae664d5b">SPELL_HUNTER_GLYPH_OF_ARCANE_SHOT</a> = 61389
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a1771ac5eef579ea472423e668f851c58">SPELL_DK_IMPROVED_FROST_PRESENCE_R1</a> = 50384
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7ea5706be61803978650ec18c15106c8491">SPELL_LOCK_AND_LOAD_TRIGGER</a> = 56453
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a1c96a57b0c97b67f8b91216ea6f5c089">SPELL_DK_IMPROVED_UNHOLY_PRESENCE_R1</a> = 50391
 , <br />
-&#160;&#160;<a class="el" href="../../dc/d95/a04160.html#a87efb4c7cf60464c813daf57f8006a7eadfa5358bedddaa69188aa6805eee5002">SPELL_LOCK_AND_LOAD_MARKER</a> = 67544
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a8015bc1ee88d84bf6af5ec8ad33dc9c5">SPELL_DK_IMPROVED_BLOOD_PRESENCE_TRIGGERED</a> = 63611
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a69b20955904cdb3bcb357b88deccef33">SPELL_DK_IMPROVED_UNHOLY_PRESENCE_TRIGGERED</a> = 63622
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a1f03efc520fad501f75ae334ed39112c">SPELL_DK_ITEM_SIGIL_VENGEFUL_HEART</a> = 64962
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499ab86f7e9957b8b03bdc89920c010be417">SPELL_DK_ITEM_T8_MELEE_4P_BONUS</a> = 64736
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a6047c7e5c696dcb64565d5963b656ea6">SPELL_DK_MASTER_OF_GHOULS</a> = 52143
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a3873928a8407dc24bbdd276ea264f742">SPELL_DK_BLOOD_PLAGUE</a> = 55078
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a157027170ab26ae0d377529719449cd4">SPELL_DK_RAISE_DEAD_USE_REAGENT</a> = 48289
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499aa613f5fa0ccfc30035cfa76262044160">SPELL_DK_RUNIC_POWER_ENERGIZE</a> = 49088
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499accd04082321be4af5d64c142ed1ac300">SPELL_DK_SCENT_OF_BLOOD</a> = 50422
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a4744b5fbb6fd56f982239a106098436e">SPELL_DK_SCOURGE_STRIKE_TRIGGERED</a> = 70890
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499ae23535d4ae7804c0b21e692fa64e62eb">SPELL_DK_UNHOLY_PRESENCE</a> = 48265
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499af18767d3c2b7c54c42df28644f4c5e14">SPELL_DK_UNHOLY_PRESENCE_TRIGGERED</a> = 49772
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a7a5abf8e47dd374a31021fec3d7ad5e4">SPELL_DK_WILL_OF_THE_NECROPOLIS_TALENT_R1</a> = 49189
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d81/a04157.html#a70990262974db7bc1730b177eb17a499a75209ee38fe144f5a039afc748bcd06b">SPELL_DK_WILL_OF_THE_NECROPOLIS_AURA_R1</a> = 52284
 <br />
  }</td></tr>
-<tr class="separator:a87efb4c7cf60464c813daf57f8006a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a70990262974db7bc1730b177eb17a499"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab89117a79c55f003f82b06a1878e6534"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ded/a04130.html#ab89117a79c55f003f82b06a1878e6534">AddSC_hunter_pet_scripts</a> ()</td></tr>
-<tr class="separator:ab89117a79c55f003f82b06a1878e6534"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6a5b089240cd6b996928b3e7f9137b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ded/a04130.html#ac6a5b089240cd6b996928b3e7f9137b3">AddSC_deathknight_pet_scripts</a> ()</td></tr>
+<tr class="separator:ac6a5b089240cd6b996928b3e7f9137b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a87efb4c7cf60464c813daf57f8006a7e" name="a87efb4c7cf60464c813daf57f8006a7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87efb4c7cf60464c813daf57f8006a7e">&#9670;&#160;</a></span>HunterSpells</h2>
+<a id="a70990262974db7bc1730b177eb17a499" name="a70990262974db7bc1730b177eb17a499"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70990262974db7bc1730b177eb17a499">&#9670;&#160;</a></span>DeathKnightSpells</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7e">HunterSpells</a></td>
+          <td class="memname">enum <a class="el" href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499">DeathKnightSpells</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea919b3819273ed109abc5ff9e1f17f280" name="a87efb4c7cf60464c813daf57f8006a7ea919b3819273ed109abc5ff9e1f17f280"></a>SPELL_HUNTER_CRIPPLING_POISON&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ead1a8eca1edbd63099142576708bdcdbf" name="a87efb4c7cf60464c813daf57f8006a7ead1a8eca1edbd63099142576708bdcdbf"></a>SPELL_HUNTER_DEADLY_POISON_PASSIVE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7eadf08a2ccf6ab77efd0195c9312df57fc" name="a87efb4c7cf60464c813daf57f8006a7eadf08a2ccf6ab77efd0195c9312df57fc"></a>SPELL_HUNTER_MIND_NUMBING_POISON&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7eafb79cd1f0ef5f656d3f72634c53cfde6" name="a87efb4c7cf60464c813daf57f8006a7eafb79cd1f0ef5f656d3f72634c53cfde6"></a>SPELL_HUNTER_GLYPH_OF_SNAKE_TRAP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea5d2116d1e86d04190a20c4e9fed1c86f" name="a87efb4c7cf60464c813daf57f8006a7ea5d2116d1e86d04190a20c4e9fed1c86f"></a>SPELL_HUNTER_PET_SCALING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea30a1369afc6885f7670bcf55f8948c07" name="a87efb4c7cf60464c813daf57f8006a7ea30a1369afc6885f7670bcf55f8948c07"></a>SPELL_HUNTER_WYVERN_STING_DOT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea9729e1f80d9e5ce1cd9928f8ed27ca00" name="a87efb4c7cf60464c813daf57f8006a7ea9729e1f80d9e5ce1cd9928f8ed27ca00"></a>SPELL_HUNTER_ASPECT_OF_THE_BEAST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7eaab952376ae60a2bfa87860e57b81604e" name="a87efb4c7cf60464c813daf57f8006a7eaab952376ae60a2bfa87860e57b81604e"></a>SPELL_HUNTER_ASPECT_OF_THE_BEAST_PET&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ead05cc74310d029dfed9226f52ff7e9e7" name="a87efb4c7cf60464c813daf57f8006a7ead05cc74310d029dfed9226f52ff7e9e7"></a>SPELL_HUNTER_ASPECT_OF_THE_VIPER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea291f618e33506ca7b2182480873737f8" name="a87efb4c7cf60464c813daf57f8006a7ea291f618e33506ca7b2182480873737f8"></a>SPELL_HUNTER_ASPECT_OF_THE_VIPER_ENERGIZE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ead2ce3e1b324d99ed0919aad89eb0d524" name="a87efb4c7cf60464c813daf57f8006a7ead2ce3e1b324d99ed0919aad89eb0d524"></a>SPELL_HUNTER_BESTIAL_WRATH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7eae4017a2262529adaf18e0cfcc81ca052" name="a87efb4c7cf60464c813daf57f8006a7eae4017a2262529adaf18e0cfcc81ca052"></a>SPELL_HUNTER_CHIMERA_SHOT_SERPENT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea27313cec0b1c54431414148930dee532" name="a87efb4c7cf60464c813daf57f8006a7ea27313cec0b1c54431414148930dee532"></a>SPELL_HUNTER_CHIMERA_SHOT_VIPER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea02c4f17910c60803051dc22d837911ce" name="a87efb4c7cf60464c813daf57f8006a7ea02c4f17910c60803051dc22d837911ce"></a>SPELL_HUNTER_CHIMERA_SHOT_SCORPID&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea6511da7ee83f971738c671b8150f93c1" name="a87efb4c7cf60464c813daf57f8006a7ea6511da7ee83f971738c671b8150f93c1"></a>SPELL_HUNTER_GLYPH_OF_ASPECT_OF_THE_VIPER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ead3961ef5de734ba9384c7c21b78b88a3" name="a87efb4c7cf60464c813daf57f8006a7ead3961ef5de734ba9384c7c21b78b88a3"></a>SPELL_HUNTER_IMPROVED_MEND_PET&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea0835f319e0b7eae6873df26c0ecb1516" name="a87efb4c7cf60464c813daf57f8006a7ea0835f319e0b7eae6873df26c0ecb1516"></a>SPELL_HUNTER_INVIGORATION_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea6268d79b97acf49da958366261e0df54" name="a87efb4c7cf60464c813daf57f8006a7ea6268d79b97acf49da958366261e0df54"></a>SPELL_HUNTER_MASTERS_CALL_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea3e0615670e4fc9469b7250228033251c" name="a87efb4c7cf60464c813daf57f8006a7ea3e0615670e4fc9469b7250228033251c"></a>SPELL_HUNTER_MISDIRECTION_PROC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ead1b47010db0ea9e584e24e15141719b7" name="a87efb4c7cf60464c813daf57f8006a7ead1b47010db0ea9e584e24e15141719b7"></a>SPELL_HUNTER_PET_LAST_STAND_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea0a1495d9817725f5cb19e63026605ce5" name="a87efb4c7cf60464c813daf57f8006a7ea0a1495d9817725f5cb19e63026605ce5"></a>SPELL_HUNTER_PET_HEART_OF_THE_PHOENIX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea8ab8a8af8e4201e7442c10a338a5d6dd" name="a87efb4c7cf60464c813daf57f8006a7ea8ab8a8af8e4201e7442c10a338a5d6dd"></a>SPELL_HUNTER_PET_HEART_OF_THE_PHOENIX_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea848635e540638b2f1fb01164ec34a332" name="a87efb4c7cf60464c813daf57f8006a7ea848635e540638b2f1fb01164ec34a332"></a>SPELL_HUNTER_PET_HEART_OF_THE_PHOENIX_DEBUFF&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7eabb248b57d2aeb464deeed4679d51d110" name="a87efb4c7cf60464c813daf57f8006a7eabb248b57d2aeb464deeed4679d51d110"></a>SPELL_HUNTER_PET_CARRION_FEEDER_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea5eb25691f66e527c4af972f7390363a7" name="a87efb4c7cf60464c813daf57f8006a7ea5eb25691f66e527c4af972f7390363a7"></a>SPELL_HUNTER_READINESS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea28068379ce495b5984cad20edcd9f95c" name="a87efb4c7cf60464c813daf57f8006a7ea28068379ce495b5984cad20edcd9f95c"></a>SPELL_HUNTER_SNIPER_TRAINING_R1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea38571110b4e0757cb9400f8c23f34410" name="a87efb4c7cf60464c813daf57f8006a7ea38571110b4e0757cb9400f8c23f34410"></a>SPELL_HUNTER_SNIPER_TRAINING_BUFF_R1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea91c03fc46203d796b746b1f13a72f034" name="a87efb4c7cf60464c813daf57f8006a7ea91c03fc46203d796b746b1f13a72f034"></a>SPELL_HUNTER_VICIOUS_VIPER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea05da71a759b2932a2f0dc58dc3852138" name="a87efb4c7cf60464c813daf57f8006a7ea05da71a759b2932a2f0dc58dc3852138"></a>SPELL_HUNTER_VIPER_ATTACK_SPEED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea8b43cf97edfed28f7001b77141f01fac" name="a87efb4c7cf60464c813daf57f8006a7ea8b43cf97edfed28f7001b77141f01fac"></a>SPELL_DRAENEI_GIFT_OF_THE_NAARU&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea24de2077bf8ff891f5d0639cae664d5b" name="a87efb4c7cf60464c813daf57f8006a7ea24de2077bf8ff891f5d0639cae664d5b"></a>SPELL_HUNTER_GLYPH_OF_ARCANE_SHOT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7ea5706be61803978650ec18c15106c8491" name="a87efb4c7cf60464c813daf57f8006a7ea5706be61803978650ec18c15106c8491"></a>SPELL_LOCK_AND_LOAD_TRIGGER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a87efb4c7cf60464c813daf57f8006a7eadfa5358bedddaa69188aa6805eee5002" name="a87efb4c7cf60464c813daf57f8006a7eadfa5358bedddaa69188aa6805eee5002"></a>SPELL_LOCK_AND_LOAD_MARKER&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499acaaba79b43118ab353ce223c75c97927" name="a70990262974db7bc1730b177eb17a499acaaba79b43118ab353ce223c75c97927"></a>SPELL_DK_SUMMON_GARGOYLE_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a5189df5fecf5b13ddd4039be46a59c4a" name="a70990262974db7bc1730b177eb17a499a5189df5fecf5b13ddd4039be46a59c4a"></a>SPELL_DK_SUMMON_GARGOYLE_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499afb4b5b1050c699fae6efb3098cca3718" name="a70990262974db7bc1730b177eb17a499afb4b5b1050c699fae6efb3098cca3718"></a>SPELL_DK_DISMISS_GARGOYLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499ad890378717a4e2bc99fc549a5561051b" name="a70990262974db7bc1730b177eb17a499ad890378717a4e2bc99fc549a5561051b"></a>SPELL_DK_SANCTUARY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a887c6b33ed54be59ad7e0e8bf32563d9" name="a70990262974db7bc1730b177eb17a499a887c6b33ed54be59ad7e0e8bf32563d9"></a>SPELL_DK_NIGHT_OF_THE_DEAD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499adf62a57ca43f8aef7fbaf0746a5a735b" name="a70990262974db7bc1730b177eb17a499adf62a57ca43f8aef7fbaf0746a5a735b"></a>SPELL_DK_PET_SCALING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a7191b6581b1646481b0a8b306e9ce13b" name="a70990262974db7bc1730b177eb17a499a7191b6581b1646481b0a8b306e9ce13b"></a>SPELL_DK_DEATH_AND_DECAY_TRIGGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499aa317dd781cd6aca5608aaa0b7c116909" name="a70990262974db7bc1730b177eb17a499aa317dd781cd6aca5608aaa0b7c116909"></a>SPELL_DK_GLYPH_OF_SCOURGE_STRIKE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a234b494cc45b5d3addb18fa3dfb73e5c" name="a70990262974db7bc1730b177eb17a499a234b494cc45b5d3addb18fa3dfb73e5c"></a>SPELL_DK_WANDERING_PLAGUE_TRIGGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a7bb62a89c9a4b0ef9c462557e6bebf06" name="a70990262974db7bc1730b177eb17a499a7bb62a89c9a4b0ef9c462557e6bebf06"></a>SPELL_DK_GLYPH_OF_THE_GHOUL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499adbf51a3aa6d92d6721a086af53b4b14f" name="a70990262974db7bc1730b177eb17a499adbf51a3aa6d92d6721a086af53b4b14f"></a>SPELL_SHADOWMOURNE_CHAOS_BANE_DAMAGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499aafd0283a7fb92d3cdcb265a2725e64c2" name="a70990262974db7bc1730b177eb17a499aafd0283a7fb92d3cdcb265a2725e64c2"></a>SPELL_SHADOWMOURNE_SOUL_FRAGMENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a84d745577ef13f1e5882b93198f50a2e" name="a70990262974db7bc1730b177eb17a499a84d745577ef13f1e5882b93198f50a2e"></a>SPELL_SHADOWMOURNE_CHAOS_BANE_BUFF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a35625e507d77607cfa3bc73a9b74f9d7" name="a70990262974db7bc1730b177eb17a499a35625e507d77607cfa3bc73a9b74f9d7"></a>SPELL_DK_ANTI_MAGIC_SHELL_TALENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499af99b1b9b416a8e4814cb8ba256fabaf5" name="a70990262974db7bc1730b177eb17a499af99b1b9b416a8e4814cb8ba256fabaf5"></a>SPELL_DK_BLACK_ICE_R1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a2aed45563fba2244820b2c42126a6d6a" name="a70990262974db7bc1730b177eb17a499a2aed45563fba2244820b2c42126a6d6a"></a>SPELL_DK_BLOOD_BOIL_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a53ca9de3684293c553401665d84aa9ef" name="a70990262974db7bc1730b177eb17a499a53ca9de3684293c553401665d84aa9ef"></a>SPELL_DK_BLOOD_GORGED_HEAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499aed2f121b8035ac607b34365fa52ba470" name="a70990262974db7bc1730b177eb17a499aed2f121b8035ac607b34365fa52ba470"></a>SPELL_DK_BLOOD_PRESENCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499afe4a9e8ec64eb213836833029e889c9e" name="a70990262974db7bc1730b177eb17a499afe4a9e8ec64eb213836833029e889c9e"></a>SPELL_DK_CORPSE_EXPLOSION_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a464c9c78f561013a356d08c807f6676c" name="a70990262974db7bc1730b177eb17a499a464c9c78f561013a356d08c807f6676c"></a>SPELL_DK_CORPSE_EXPLOSION_VISUAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499afbf5dd93d92af7a77570be5f869d7e8e" name="a70990262974db7bc1730b177eb17a499afbf5dd93d92af7a77570be5f869d7e8e"></a>SPELL_DK_DEATH_COIL_DAMAGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a7a0d82e93f65e431247436cc80f40e48" name="a70990262974db7bc1730b177eb17a499a7a0d82e93f65e431247436cc80f40e48"></a>SPELL_DK_DEATH_COIL_HEAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a92362da89735cabc4151ed2707cb71ba" name="a70990262974db7bc1730b177eb17a499a92362da89735cabc4151ed2707cb71ba"></a>SPELL_DK_DEATH_STRIKE_HEAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a7832005ff0a5a91e569a13ddc1f3c5aa" name="a70990262974db7bc1730b177eb17a499a7832005ff0a5a91e569a13ddc1f3c5aa"></a>SPELL_DK_FROST_FEVER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a17c917ea361d32e91a852611393cb850" name="a70990262974db7bc1730b177eb17a499a17c917ea361d32e91a852611393cb850"></a>SPELL_DK_FROST_PRESENCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499aa07ad5b01916a34a0f09c7fb75922470" name="a70990262974db7bc1730b177eb17a499aa07ad5b01916a34a0f09c7fb75922470"></a>SPELL_DK_FROST_PRESENCE_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a0a8b8ce97037da5c1dfc1bf319297806" name="a70990262974db7bc1730b177eb17a499a0a8b8ce97037da5c1dfc1bf319297806"></a>SPELL_DK_GHOUL_EXPLODE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a879242b06ba5365a7e418f83ebf71a5d" name="a70990262974db7bc1730b177eb17a499a879242b06ba5365a7e418f83ebf71a5d"></a>SPELL_DK_GLYPH_OF_DISEASE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a0d2da08157a1e148fabf62841ed0e853" name="a70990262974db7bc1730b177eb17a499a0d2da08157a1e148fabf62841ed0e853"></a>SPELL_DK_GLYPH_OF_ICEBOUND_FORTITUDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499ab93e068da9c1446333ef34b99f4bb76b" name="a70990262974db7bc1730b177eb17a499ab93e068da9c1446333ef34b99f4bb76b"></a>SPELL_DK_IMPROVED_BLOOD_PRESENCE_R1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a1771ac5eef579ea472423e668f851c58" name="a70990262974db7bc1730b177eb17a499a1771ac5eef579ea472423e668f851c58"></a>SPELL_DK_IMPROVED_FROST_PRESENCE_R1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a1c96a57b0c97b67f8b91216ea6f5c089" name="a70990262974db7bc1730b177eb17a499a1c96a57b0c97b67f8b91216ea6f5c089"></a>SPELL_DK_IMPROVED_UNHOLY_PRESENCE_R1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a8015bc1ee88d84bf6af5ec8ad33dc9c5" name="a70990262974db7bc1730b177eb17a499a8015bc1ee88d84bf6af5ec8ad33dc9c5"></a>SPELL_DK_IMPROVED_BLOOD_PRESENCE_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a69b20955904cdb3bcb357b88deccef33" name="a70990262974db7bc1730b177eb17a499a69b20955904cdb3bcb357b88deccef33"></a>SPELL_DK_IMPROVED_UNHOLY_PRESENCE_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a1f03efc520fad501f75ae334ed39112c" name="a70990262974db7bc1730b177eb17a499a1f03efc520fad501f75ae334ed39112c"></a>SPELL_DK_ITEM_SIGIL_VENGEFUL_HEART&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499ab86f7e9957b8b03bdc89920c010be417" name="a70990262974db7bc1730b177eb17a499ab86f7e9957b8b03bdc89920c010be417"></a>SPELL_DK_ITEM_T8_MELEE_4P_BONUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a6047c7e5c696dcb64565d5963b656ea6" name="a70990262974db7bc1730b177eb17a499a6047c7e5c696dcb64565d5963b656ea6"></a>SPELL_DK_MASTER_OF_GHOULS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a3873928a8407dc24bbdd276ea264f742" name="a70990262974db7bc1730b177eb17a499a3873928a8407dc24bbdd276ea264f742"></a>SPELL_DK_BLOOD_PLAGUE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a157027170ab26ae0d377529719449cd4" name="a70990262974db7bc1730b177eb17a499a157027170ab26ae0d377529719449cd4"></a>SPELL_DK_RAISE_DEAD_USE_REAGENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499aa613f5fa0ccfc30035cfa76262044160" name="a70990262974db7bc1730b177eb17a499aa613f5fa0ccfc30035cfa76262044160"></a>SPELL_DK_RUNIC_POWER_ENERGIZE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499accd04082321be4af5d64c142ed1ac300" name="a70990262974db7bc1730b177eb17a499accd04082321be4af5d64c142ed1ac300"></a>SPELL_DK_SCENT_OF_BLOOD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a4744b5fbb6fd56f982239a106098436e" name="a70990262974db7bc1730b177eb17a499a4744b5fbb6fd56f982239a106098436e"></a>SPELL_DK_SCOURGE_STRIKE_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499ae23535d4ae7804c0b21e692fa64e62eb" name="a70990262974db7bc1730b177eb17a499ae23535d4ae7804c0b21e692fa64e62eb"></a>SPELL_DK_UNHOLY_PRESENCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499af18767d3c2b7c54c42df28644f4c5e14" name="a70990262974db7bc1730b177eb17a499af18767d3c2b7c54c42df28644f4c5e14"></a>SPELL_DK_UNHOLY_PRESENCE_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a7a5abf8e47dd374a31021fec3d7ad5e4" name="a70990262974db7bc1730b177eb17a499a7a5abf8e47dd374a31021fec3d7ad5e4"></a>SPELL_DK_WILL_OF_THE_NECROPOLIS_TALENT_R1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a70990262974db7bc1730b177eb17a499a75209ee38fe144f5a039afc748bcd06b" name="a70990262974db7bc1730b177eb17a499a75209ee38fe144f5a039afc748bcd06b"></a>SPELL_DK_WILL_OF_THE_NECROPOLIS_AURA_R1&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7ea919b3819273ed109abc5ff9e1f17f280">SPELL_HUNTER_CRIPPLING_POISON</a>       = 30981, <span class="comment">// Viper</span></div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7ead1a8eca1edbd63099142576708bdcdbf">SPELL_HUNTER_DEADLY_POISON_PASSIVE</a>  = 34657, <span class="comment">// Venomous Snake</span></div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7eadf08a2ccf6ab77efd0195c9312df57fc">SPELL_HUNTER_MIND_NUMBING_POISON</a>    = 25810, <span class="comment">// Viper</span></div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7eafb79cd1f0ef5f656d3f72634c53cfde6">SPELL_HUNTER_GLYPH_OF_SNAKE_TRAP</a>    = 56849,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7ea5d2116d1e86d04190a20c4e9fed1c86f">SPELL_HUNTER_PET_SCALING</a>            = 62915</div>
-<div class="line"><span class="lineno">   33</span>};</div>
-<div class="ttc" id="aa04130_html_a87efb4c7cf60464c813daf57f8006a7ea5d2116d1e86d04190a20c4e9fed1c86f"><div class="ttname"><a href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7ea5d2116d1e86d04190a20c4e9fed1c86f">SPELL_HUNTER_PET_SCALING</a></div><div class="ttdeci">@ SPELL_HUNTER_PET_SCALING</div><div class="ttdef"><b>Definition:</b> pet_hunter.cpp:32</div></div>
-<div class="ttc" id="aa04130_html_a87efb4c7cf60464c813daf57f8006a7ea919b3819273ed109abc5ff9e1f17f280"><div class="ttname"><a href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7ea919b3819273ed109abc5ff9e1f17f280">SPELL_HUNTER_CRIPPLING_POISON</a></div><div class="ttdeci">@ SPELL_HUNTER_CRIPPLING_POISON</div><div class="ttdef"><b>Definition:</b> pet_hunter.cpp:28</div></div>
-<div class="ttc" id="aa04130_html_a87efb4c7cf60464c813daf57f8006a7ead1a8eca1edbd63099142576708bdcdbf"><div class="ttname"><a href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7ead1a8eca1edbd63099142576708bdcdbf">SPELL_HUNTER_DEADLY_POISON_PASSIVE</a></div><div class="ttdeci">@ SPELL_HUNTER_DEADLY_POISON_PASSIVE</div><div class="ttdef"><b>Definition:</b> pet_hunter.cpp:29</div></div>
-<div class="ttc" id="aa04130_html_a87efb4c7cf60464c813daf57f8006a7eadf08a2ccf6ab77efd0195c9312df57fc"><div class="ttname"><a href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7eadf08a2ccf6ab77efd0195c9312df57fc">SPELL_HUNTER_MIND_NUMBING_POISON</a></div><div class="ttdeci">@ SPELL_HUNTER_MIND_NUMBING_POISON</div><div class="ttdef"><b>Definition:</b> pet_hunter.cpp:30</div></div>
-<div class="ttc" id="aa04130_html_a87efb4c7cf60464c813daf57f8006a7eafb79cd1f0ef5f656d3f72634c53cfde6"><div class="ttname"><a href="../../d7/ded/a04130.html#a87efb4c7cf60464c813daf57f8006a7eafb79cd1f0ef5f656d3f72634c53cfde6">SPELL_HUNTER_GLYPH_OF_SNAKE_TRAP</a></div><div class="ttdeci">@ SPELL_HUNTER_GLYPH_OF_SNAKE_TRAP</div><div class="ttdef"><b>Definition:</b> pet_hunter.cpp:31</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499acaaba79b43118ab353ce223c75c97927">SPELL_DK_SUMMON_GARGOYLE_1</a>      = 49206,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499a5189df5fecf5b13ddd4039be46a59c4a">SPELL_DK_SUMMON_GARGOYLE_2</a>      = 50514,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499afb4b5b1050c699fae6efb3098cca3718">SPELL_DK_DISMISS_GARGOYLE</a>       = 50515,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499ad890378717a4e2bc99fc549a5561051b">SPELL_DK_SANCTUARY</a>              = 54661,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499a887c6b33ed54be59ad7e0e8bf32563d9">SPELL_DK_NIGHT_OF_THE_DEAD</a>      = 62137,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499adf62a57ca43f8aef7fbaf0746a5a735b">SPELL_DK_PET_SCALING</a>            = 61017</div>
+<div class="line"><span class="lineno">   47</span>};</div>
+<div class="ttc" id="aa04130_html_a70990262974db7bc1730b177eb17a499a5189df5fecf5b13ddd4039be46a59c4a"><div class="ttname"><a href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499a5189df5fecf5b13ddd4039be46a59c4a">SPELL_DK_SUMMON_GARGOYLE_2</a></div><div class="ttdeci">@ SPELL_DK_SUMMON_GARGOYLE_2</div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:42</div></div>
+<div class="ttc" id="aa04130_html_a70990262974db7bc1730b177eb17a499a887c6b33ed54be59ad7e0e8bf32563d9"><div class="ttname"><a href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499a887c6b33ed54be59ad7e0e8bf32563d9">SPELL_DK_NIGHT_OF_THE_DEAD</a></div><div class="ttdeci">@ SPELL_DK_NIGHT_OF_THE_DEAD</div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:45</div></div>
+<div class="ttc" id="aa04130_html_a70990262974db7bc1730b177eb17a499acaaba79b43118ab353ce223c75c97927"><div class="ttname"><a href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499acaaba79b43118ab353ce223c75c97927">SPELL_DK_SUMMON_GARGOYLE_1</a></div><div class="ttdeci">@ SPELL_DK_SUMMON_GARGOYLE_1</div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:41</div></div>
+<div class="ttc" id="aa04130_html_a70990262974db7bc1730b177eb17a499ad890378717a4e2bc99fc549a5561051b"><div class="ttname"><a href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499ad890378717a4e2bc99fc549a5561051b">SPELL_DK_SANCTUARY</a></div><div class="ttdeci">@ SPELL_DK_SANCTUARY</div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:44</div></div>
+<div class="ttc" id="aa04130_html_a70990262974db7bc1730b177eb17a499adf62a57ca43f8aef7fbaf0746a5a735b"><div class="ttname"><a href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499adf62a57ca43f8aef7fbaf0746a5a735b">SPELL_DK_PET_SCALING</a></div><div class="ttdeci">@ SPELL_DK_PET_SCALING</div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:46</div></div>
+<div class="ttc" id="aa04130_html_a70990262974db7bc1730b177eb17a499afb4b5b1050c699fae6efb3098cca3718"><div class="ttname"><a href="../../d7/ded/a04130.html#a70990262974db7bc1730b177eb17a499afb4b5b1050c699fae6efb3098cca3718">SPELL_DK_DISMISS_GARGOYLE</a></div><div class="ttdeci">@ SPELL_DK_DISMISS_GARGOYLE</div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:43</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ab89117a79c55f003f82b06a1878e6534" name="ab89117a79c55f003f82b06a1878e6534"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab89117a79c55f003f82b06a1878e6534">&#9670;&#160;</a></span>AddSC_hunter_pet_scripts()</h2>
+<a id="ac6a5b089240cd6b996928b3e7f9137b3" name="ac6a5b089240cd6b996928b3e7f9137b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6a5b089240cd6b996928b3e7f9137b3">&#9670;&#160;</a></span>AddSC_deathknight_pet_scripts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_hunter_pet_scripts </td>
+          <td class="memname">void AddSC_deathknight_pet_scripts </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  142</span>{</div>
-<div class="line"><span class="lineno">  143</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../da/d9a/a26661.html">npc_pet_hunter_snake_trap</a>);</div>
-<div class="line"><span class="lineno">  144</span>}</div>
-<div class="ttc" id="aa01958_html_a5e7352841895df7117e2830448eb533f"><div class="ttname"><a href="../../d3/d67/a01958.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a></div><div class="ttdeci">#define RegisterCreatureAI(ai_name)</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2660</div></div>
-<div class="ttc" id="aa26661_html"><div class="ttname"><a href="../../da/d9a/a26661.html">npc_pet_hunter_snake_trap</a></div><div class="ttdef"><b>Definition:</b> pet_hunter.cpp:36</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  335</span>{</div>
+<div class="line"><span class="lineno">  336</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/dde/a26579.html">npc_pet_dk_ebon_gargoyle</a>();</div>
+<div class="line"><span class="lineno">  337</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d53/a26587.html">npc_pet_dk_ghoul</a>();</div>
+<div class="line"><span class="lineno">  338</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/dca/a26595.html">npc_pet_dk_army_of_the_dead</a>();</div>
+<div class="line"><span class="lineno">  339</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d36/a26603.html">npc_pet_dk_dancing_rune_weapon</a>();</div>
+<div class="line"><span class="lineno">  340</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d1/d29/a26611.html">spell_pet_dk_gargoyle_strike</a>);</div>
+<div class="line"><span class="lineno">  341</span>}</div>
+<div class="ttc" id="aa01958_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2656</div></div>
+<div class="ttc" id="aa26579_html"><div class="ttname"><a href="../../d6/dde/a26579.html">npc_pet_dk_ebon_gargoyle</a></div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:50</div></div>
+<div class="ttc" id="aa26587_html"><div class="ttname"><a href="../../dc/d53/a26587.html">npc_pet_dk_ghoul</a></div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:237</div></div>
+<div class="ttc" id="aa26595_html"><div class="ttname"><a href="../../d3/dca/a26595.html">npc_pet_dk_army_of_the_dead</a></div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:259</div></div>
+<div class="ttc" id="aa26603_html"><div class="ttname"><a href="../../dd/d36/a26603.html">npc_pet_dk_dancing_rune_weapon</a></div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:285</div></div>
+<div class="ttc" id="aa26611_html"><div class="ttname"><a href="../../d1/d29/a26611.html">spell_pet_dk_gargoyle_strike</a></div><div class="ttdef"><b>Definition:</b> pet_dk.cpp:311</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l02660">RegisterCreatureAI</a>.</p>
+<p class="reference">References <a class="el" href="../../#l02656">RegisterSpellScript</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../#l00029">AddPetScripts()</a>.</p>
 
@@ -293,8 +366,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ff1fc60aa0464e46be01116f0901446f.html">Pet</a></li><li class="navelem"><a class="el" href="../../d7/ded/a04130.html">pet_hunter.cpp</a></li>
-    <li class="footer">Generated on Sun Dec 11 2022 11:33:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ff1fc60aa0464e46be01116f0901446f.html">Pet</a></li><li class="navelem"><a class="el" href="../../d7/ded/a04130.html">pet_dk.cpp</a></li>
+    <li class="footer">Generated on Sun Feb 5 2023 01:21:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

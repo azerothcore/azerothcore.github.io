@@ -1,7 +1,7 @@
 var a00083 =
 [
-    [ "BoundsTrait< VMAP::ModelSpawn * >", "d9/d76/a04677.html", "d9/d76/a04677" ],
-    [ "VMAP::WMOLiquidHeader", "d2/db6/a04681.html", "d2/db6/a04681" ],
+    [ "BoundsTrait< VMAP::ModelSpawn * >", "d9/db6/a04683.html", "d9/db6/a04683" ],
+    [ "VMAP::WMOLiquidHeader", "d2/ddb/a04687.html", "d2/ddb/a04687" ],
     [ "CMP_OR_RETURN", "d2/d1f/a00083.html#abb356574335eee18efd5e1f4ed707637", null ],
     [ "READ_OR_RETURN", "d2/d1f/a00083.html#ab09a5bc19f9a9f62a1f60dd7741b4d6d", null ],
     [ "READ_OR_RETURN_WITH_DELETE", "d2/d1f/a00083.html#aaf506ecfd782214a75bd609db9bef004", null ],

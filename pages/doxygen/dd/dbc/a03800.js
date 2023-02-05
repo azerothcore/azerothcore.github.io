@@ -1,9 +1,9 @@
 var a03800 =
 [
-    [ "boss_exarch_maladaar", "d3/d9a/a24157.html", "d3/d9a/a24157" ],
-    [ "boss_exarch_maladaar::boss_exarch_maladaarAI", "df/d00/a24161.html", "df/d00/a24161" ],
-    [ "npc_stolen_soul", "d4/df5/a24165.html", "d4/df5/a24165" ],
-    [ "npc_stolen_soul::npc_stolen_soulAI", "d6/d7a/a24169.html", "d6/d7a/a24169" ],
+    [ "boss_exarch_maladaar", "d0/d76/a24143.html", "d0/d76/a24143" ],
+    [ "boss_exarch_maladaar::boss_exarch_maladaarAI", "d6/d2b/a24147.html", "d6/d2b/a24147" ],
+    [ "npc_stolen_soul", "de/d91/a24151.html", "de/d91/a24151" ],
+    [ "npc_stolen_soul::npc_stolen_soulAI", "dd/dc4/a24155.html", "dd/dc4/a24155" ],
     [ "ExarchMaladaar", "dd/dbc/a03800.html#a7b5aba6ea28c0cb03719c039b3155b61", [
       [ "SAY_INTRO", "dd/dbc/a03800.html#a7b5aba6ea28c0cb03719c039b3155b61af5bc3db04213b3bf118af6ce85b5a637", null ],
       [ "SAY_SUMMON", "dd/dbc/a03800.html#a7b5aba6ea28c0cb03719c039b3155b61acebbfa1f13b8de4f039f5d550063c7bf", null ],

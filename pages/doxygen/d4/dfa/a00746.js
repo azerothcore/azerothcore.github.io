@@ -1,5 +1,5 @@
 var a00746 =
 [
-    [ "TotemAI", "d6/d08/a05777.html", "d6/d08/a05777" ],
-    [ "KillMagnetEvent", "df/dfb/a05781.html", "df/dfb/a05781" ]
+    [ "TotemAI", "d6/d37/a05783.html", "d6/d37/a05783" ],
+    [ "KillMagnetEvent", "d0/d25/a05787.html", "d0/d25/a05787" ]
 ];

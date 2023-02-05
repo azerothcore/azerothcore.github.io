@@ -1,7 +1,7 @@
 var a02981 =
 [
-    [ "boss_epoch_hunter", "da/daf/a14749.html", "da/daf/a14749" ],
-    [ "boss_epoch_hunter::boss_epoch_hunterAI", "d9/d9d/a14753.html", "d9/d9d/a14753" ],
+    [ "boss_epoch_hunter", "d1/d1e/a14747.html", "d1/d1e/a14747" ],
+    [ "boss_epoch_hunter::boss_epoch_hunterAI", "d2/dff/a14751.html", "d2/dff/a14751" ],
     [ "EpochHunter", "d7/d93/a02981.html#a026f87ed97cda4e7274fac0a10a5954f", [
       [ "SAY_AGGRO", "d7/d93/a02981.html#a026f87ed97cda4e7274fac0a10a5954fa47c752fff069f3e55065795eef2a9bfe", null ],
       [ "SAY_SLAY", "d7/d93/a02981.html#a026f87ed97cda4e7274fac0a10a5954fa9e64f6e600dd42567d18006912811f75", null ],

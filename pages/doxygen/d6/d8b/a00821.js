@@ -1,13 +1,13 @@
 var a00821 =
 [
-    [ "WayPoint", "d9/d61/a05905.html", "d9/d61/a05905" ],
-    [ "SmartEvent", "d7/d14/a05909.html", "d7/d14/a05909" ],
-    [ "SmartAction", "dc/d69/a06081.html", "dc/d69/a06081" ],
-    [ "SmartTarget", "da/d75/a06513.html", "da/d75/a06513" ],
-    [ "SmartScriptHolder", "dc/d96/a06613.html", "dc/d96/a06613" ],
-    [ "ObjectGuidVector", "d5/d07/a06617.html", "d5/d07/a06617" ],
-    [ "SmartWaypointMgr", "d4/d32/a06621.html", "d4/d32/a06621" ],
-    [ "SmartAIMgr", "db/dfc/a06625.html", "db/dfc/a06625" ],
+    [ "WayPoint", "da/d2e/a05907.html", "da/d2e/a05907" ],
+    [ "SmartEvent", "db/da7/a05911.html", "db/da7/a05911" ],
+    [ "SmartAction", "d8/d7a/a06083.html", "d8/d7a/a06083" ],
+    [ "SmartTarget", "d6/dbd/a06515.html", "d6/dbd/a06515" ],
+    [ "SmartScriptHolder", "da/d7d/a06615.html", "da/d7d/a06615" ],
+    [ "ObjectGuidVector", "dc/d4f/a06619.html", "dc/d4f/a06619" ],
+    [ "SmartWaypointMgr", "d8/d4c/a06623.html", "d8/d4c/a06623" ],
+    [ "SmartAIMgr", "d4/d38/a06627.html", "d4/d38/a06627" ],
     [ "sSmartScriptMgr", "d6/d8b/a00821.html#a6fcbfe722a7e6345cf5c655c860d9ad3", null ],
     [ "sSmartWaypointMgr", "d6/d8b/a00821.html#a2f98805bdaae76c9a1c2b6ce9e815d84", null ],
     [ "ObjectVector", "d6/d8b/a00821.html#a3d080db7fa99da7af5bcaa7720f359d1", null ],
@@ -270,8 +270,12 @@ var a00821 =
       [ "SMART_EVENT_DISTANCE_CREATURE", "d6/d8b/a00821.html#a8e5d5aa0dedbff31bb70e7955ad5bf97ae16eee4c144a3f395e01b41fdb1b0395", null ],
       [ "SMART_EVENT_DISTANCE_GAMEOBJECT", "d6/d8b/a00821.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a45c7e09fec4229791ebbb0b3a367b4ed", null ],
       [ "SMART_EVENT_COUNTER_SET", "d6/d8b/a00821.html#a8e5d5aa0dedbff31bb70e7955ad5bf97ac04d95353a0c0155f5398b80c49326a1", null ],
-      [ "SMART_EVENT_TC_END", "d6/d8b/a00821.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a8ce98fb36db8f33f669f91a25a0576e7", null ],
+      [ "SMART_EVENT_SCENE_START", "d6/d8b/a00821.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a0c5af32482ab0bb27d6881e6d0013e7b", null ],
+      [ "SMART_EVENT_SCENE_TRIGGER", "d6/d8b/a00821.html#a8e5d5aa0dedbff31bb70e7955ad5bf97aa3ae5da8e348dc2405f7785640e34f41", null ],
+      [ "SMART_EVENT_SCENE_CANCEL", "d6/d8b/a00821.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a8012e9d256b0750989e91425898bcecd", null ],
+      [ "SMART_EVENT_SCENE_COMPLETE", "d6/d8b/a00821.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a2a9ee92426dbcda9cd2197366293a2f2", null ],
       [ "SMART_EVENT_SUMMONED_UNIT_DIES", "d6/d8b/a00821.html#a8e5d5aa0dedbff31bb70e7955ad5bf97ae4128c2237b54810cb4be792e18ad0f4", null ],
+      [ "SMART_EVENT_TC_END", "d6/d8b/a00821.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a8ce98fb36db8f33f669f91a25a0576e7", null ],
       [ "SMART_EVENT_AC_START", "d6/d8b/a00821.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a25526260db67537158f85024858dc824", null ],
       [ "SMART_EVENT_NEAR_PLAYERS", "d6/d8b/a00821.html#a8e5d5aa0dedbff31bb70e7955ad5bf97af6cc8daa86fd301a88bae2bf218bbaed", null ],
       [ "SMART_EVENT_NEAR_PLAYERS_NEGATION", "d6/d8b/a00821.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a30a844a56debd2ffffde7e8d50c6c6b6", null ],
@@ -315,6 +319,12 @@ var a00821 =
       [ "SMART_SCRIPT_RESPAWN_CONDITION_MAP", "d6/d8b/a00821.html#a61b299c2fc998d4e9846fc7f0343c8fdab11519bb936b5bc725ccb8823382b4fd", null ],
       [ "SMART_SCRIPT_RESPAWN_CONDITION_AREA", "d6/d8b/a00821.html#a61b299c2fc998d4e9846fc7f0343c8fda89d616f75e9bcda7ed3685f405f21a43", null ],
       [ "SMART_SCRIPT_RESPAWN_CONDITION_END", "d6/d8b/a00821.html#a61b299c2fc998d4e9846fc7f0343c8fda5ffde23375fcc3526e88d31d87d7084c", null ]
+    ] ],
+    [ "SmartActionSummonCreatureFlags", "d6/d8b/a00821.html#aa8085b1e4e9facfd55e1f08c87ab89f6", [
+      [ "None", "d6/d8b/a00821.html#aa8085b1e4e9facfd55e1f08c87ab89f6a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "PersonalSpawn", "d6/d8b/a00821.html#aa8085b1e4e9facfd55e1f08c87ab89f6a5ca08b1c0125e7a3505cbc17293f7bbf", null ],
+      [ "PreferUnit", "d6/d8b/a00821.html#aa8085b1e4e9facfd55e1f08c87ab89f6aa178409fc0ad9775c35e83a89e7a39d0", null ],
+      [ "All", "d6/d8b/a00821.html#aa8085b1e4e9facfd55e1f08c87ab89f6ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
     ] ],
     [ "SMARTAI_TARGETS", "d6/d8b/a00821.html#a20fbd4053053320ca4f2a803a09eb92e", [
       [ "SMART_TARGET_NONE", "d6/d8b/a00821.html#a20fbd4053053320ca4f2a803a09eb92eae4f7681523b0f77ff2d889fb42a848ab", null ],
@@ -414,6 +424,7 @@ var a00821 =
       [ "SMART_TARGET_ROLE_FLAG_HEALERS", "d6/d8b/a00821.html#a0f2e73b82b6928c27559b7d0bd0ffb47a618be723cb345aaa3b5349f0981fc76c", null ],
       [ "SMART_TARGET_ROLE_FLAG_DAMAGERS", "d6/d8b/a00821.html#a0f2e73b82b6928c27559b7d0bd0ffb47ab4db0c4138a7e7555fb60a7b7d00430e", null ]
     ] ],
+    [ "DEFINE_ENUM_FLAG", "d6/d8b/a00821.html#a884cbce639fad580f87b739ea65249d1", null ],
     [ "SmartAIEventMask", "d6/d8b/a00821.html#a25f8754357ecb0d935d214d763da012c", null ],
     [ "SmartAITypeMask", "d6/d8b/a00821.html#add3ebeb0fb87dda9a06c8135846c6b81", null ],
     [ "SmartPhaseMask", "d6/d8b/a00821.html#a2b51a5983dca0d4140c06041f1680ce3", null ]

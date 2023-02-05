@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Spells/spell_warlock.cpp File Reference</title>
+<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Spells/spell_rogue.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -110,181 +110,102 @@ $(document).ready(function(){initNavTree('d1/dd9/a04184.html','../../'); initRes
 <a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">spell_warlock.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">spell_rogue.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">TemporarySummon.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dfe/a28789.html">spell_warl_eye_of_kilrogg</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d8c/a28627.html">spell_rog_savage_combat</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/daa/a28793.html">spell_warl_shadowflame</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dfe/a28631.html">spell_rog_combat_potency</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d49/a28797.html">spell_warl_seduction</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4a/a28635.html">spell_rog_blade_flurry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d21/a28801.html">spell_warl_improved_demonic_tactics</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/ddb/a28639.html">spell_rog_cheat_death</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d8a/a28805.html">spell_warl_ritual_of_summoning</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/a28643.html">spell_rog_deadly_poison</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de3/a28809.html">spell_warl_demonic_aegis</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d16/a28647.html">spell_rog_killing_spree</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/da8/a28813.html">spell_warl_demonic_knowledge</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d95/a28651.html">spell_rog_killing_spree::spell_rog_killing_spree_SpellScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4e/a28817.html">spell_warl_generic_scaling</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfc/a28655.html">spell_rog_killing_spree::spell_rog_killing_spree_AuraScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/deb/a28821.html">spell_warl_infernal_scaling</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/a28659.html">spell_rog_nerves_of_steel</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9d/a28825.html">spell_warl_banish</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dbd/a28663.html">spell_rog_preparation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/daf/a28829.html">spell_warl_demonic_empowerment</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df2/a28667.html">spell_rog_prey_on_the_weak</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc8/a28833.html">spell_warl_create_healthstone</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de8/a28671.html">spell_rog_rupture</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/ded/a28837.html">spell_warl_everlasting_affliction</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4c/a28675.html">spell_rog_shiv</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d76/a28841.html">spell_warl_ritual_of_doom_effect</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d04/a28679.html">spell_rog_tricks_of_the_trade</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc2/a28845.html">spell_warl_seed_of_corruption</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d77/a28683.html">spell_rog_tricks_of_the_trade_proc</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d25/a28849.html">spell_warl_soulshatter</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3e/a28853.html">spell_warl_siphon_life</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8c/a28857.html">spell_warl_life_tap</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/a28861.html">spell_warl_demonic_circle_summon</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df1/a28865.html">spell_warl_demonic_circle_teleport</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df5/a28869.html">spell_warl_fel_synergy</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df7/a28873.html">spell_warl_haunt</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d89/a28877.html">spell_warl_haunt_aura</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7e/a28881.html">spell_warl_unstable_affliction</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da3/a28885.html">spell_warl_curse_of_doom</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dee/a28889.html">spell_warl_health_funnel</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d9f/a28893.html">spell_warl_shadow_ward</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d62/a28897.html">spell_warl_glyph_of_shadowflame</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd9/a28901.html">spell_warl_drain_soul</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6c/a28905.html">spell_warl_shadowburn</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8c/a28909.html">spell_warl_glyph_of_felguard</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5c/a28687.html">spell_rog_pickpocket</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a87fc99fe9baa4165c5a5642a75b2e6e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a04184.html#a87fc99fe9baa4165c5a5642a75b2e6e0">LIFE_TAP_COEFFICIENT</a>&#160;&#160;&#160;0.9F</td></tr>
-<tr class="separator:a87fc99fe9baa4165c5a5642a75b2e6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3113dcef6ca918382eb15e4803d7bb42"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a04184.html#a3113dcef6ca918382eb15e4803d7bb42">KillingSpreeScriptName</a>&#160;&#160;&#160;&quot;spell_rog_killing_spree&quot;</td></tr>
+<tr class="separator:a3113dcef6ca918382eb15e4803d7bb42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a4245c2f90407b49fba1c8eb66fd58570"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570">WarlockSpells</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a78fa910e2b2e2eff87104f49d25ee588">SPELL_WARLOCK_DRAIN_SOUL_R1</a> = 1120
+<tr class="memitem:a8b34bf8ceba4b8c2efea84d90002d523"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523">RogueSpells</a> { <br />
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4">SPELL_ROGUE_BLADE_FLURRY_EXTRA_ATTACK</a> = 22482
 , <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570aa4a25c3186114086798366d05ec22d84">SPELL_WARLOCK_CREATE_SOULSHARD</a> = 43836
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a75fb50ee3a9ea34c6f3cd9c9c69ef812">SPELL_ROGUE_CHEAT_DEATH_COOLDOWN</a> = 31231
 , <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a1477d034e08642cf57ae06cfd4e86af8">SPELL_WARLOCK_CURSE_OF_DOOM_EFFECT</a> = 18662
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a6396f8908556e8d41d4588ad332ed220">SPELL_ROGUE_CHEATING_DEATH</a> = 45182
 , <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a5552c8f20346e324ab9bf102651f8ac1">SPELL_WARLOCK_DEMONIC_CIRCLE_SUMMON</a> = 48018
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a7545fa0487a27a1ff5c4f46f11bd6e2d">SPELL_ROGUE_GLYPH_OF_PREPARATION</a> = 56819
 , <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a177e4014b31635578a8b6eb587abc3a4">SPELL_WARLOCK_DEMONIC_CIRCLE_TELEPORT</a> = 48020
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a8724d3e7643b075ffc53dc2b56a6d57e">SPELL_ROGUE_KILLING_SPREE</a> = 51690
 , <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570aa3eca9ef2979d1b58513dea6557fb559">SPELL_WARLOCK_DEMONIC_CIRCLE_ALLOW_CAST</a> = 62388
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523ac79c792df274373bd828b858423bf788">SPELL_ROGUE_KILLING_SPREE_TELEPORT</a> = 57840
 , <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a18f630e1bff91a62467c0b1063e98581">SPELL_WARLOCK_DEMONIC_EMPOWERMENT_SUCCUBUS</a> = 54435
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a43c37fb7f4397717d9d461979a347419">SPELL_ROGUE_KILLING_SPREE_WEAPON_DMG</a> = 57841
 , <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a98dc607d0afc02ef64ae52ddd3f7bd15">SPELL_WARLOCK_DEMONIC_EMPOWERMENT_VOIDWALKER</a> = 54443
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523aa581c4f979f952b5ab2cd9c3fe4b48b3">SPELL_ROGUE_KILLING_SPREE_DMG_BUFF</a> = 61851
 , <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a6886dce2b5564b13a13b68b3550a6c33">SPELL_WARLOCK_DEMONIC_EMPOWERMENT_FELGUARD</a> = 54508
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a00ea9db72b7743f8aa77105b26052452">SPELL_ROGUE_PREY_ON_THE_WEAK</a> = 58670
 , <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a8528eb99e358ca3ca225accf5260379c">SPELL_WARLOCK_DEMONIC_EMPOWERMENT_FELHUNTER</a> = 54509
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523abbcae24b30508077d3d35d472fda1c1e">SPELL_ROGUE_SHIV_TRIGGERED</a> = 5940
 , <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570ae85880434e6eca0282993c615ead7552">SPELL_WARLOCK_DEMONIC_EMPOWERMENT_IMP</a> = 54444
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a3e6468283bdb07074e12d6fa6a95de1a">SPELL_ROGUE_TRICKS_OF_THE_TRADE_DMG_BOOST</a> = 57933
 , <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a852bbe5afb9c24a09130027889184463">SPELL_WARLOCK_FEL_SYNERGY_HEAL</a> = 54181
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a5e4832ebc537e970a0b9f47111a4c275">SPELL_WARLOCK_GLYPH_OF_DRAIN_SOUL_AURA</a> = 58070
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a5ad410639278f5cb878c43d335385df5">SPELL_WARLOCK_GLYPH_OF_DRAIN_SOUL_PROC</a> = 58068
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570ac618ca1642e0d815aba85db04ce3d0cc">SPELL_WARLOCK_GLYPH_OF_SHADOWFLAME</a> = 63311
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570ad93fdef2facd4fd7450d64a2554d45a6">SPELL_WARLOCK_GLYPH_OF_SIPHON_LIFE</a> = 56216
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a756d6d4b3616156a1782d5913a6ac6e2">SPELL_WARLOCK_HAUNT</a> = 48181
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a1303cd92594e020d016c95437550db99">SPELL_WARLOCK_HAUNT_HEAL</a> = 48210
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570acde138e1f674d1e33c52f9344118dc21">SPELL_WARLOCK_IMPROVED_HEALTHSTONE_R1</a> = 18692
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570aebfbd8d130fbd9189f33869fa00c80be">SPELL_WARLOCK_IMPROVED_HEALTHSTONE_R2</a> = 18693
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a61d392109f1764cb4f00429514bf7526">SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_R1</a> = 18703
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570af7a9a877ac9116db61ec310ae310c87a">SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_R2</a> = 18704
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570af914cb62745580fca35088f980b2759d">SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_BUFF_R1</a> = 60955
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a193210329f50992d7c79b8960eead40e">SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_BUFF_R2</a> = 60956
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a978b2166bda777834fd52fc0ef313098">SPELL_WARLOCK_LIFE_TAP_ENERGIZE</a> = 31818
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a666925ba35a627b7fcacfd418f07b5b9">SPELL_WARLOCK_LIFE_TAP_ENERGIZE_2</a> = 32553
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570af475dcd791391d00772aba22b47140a6">SPELL_WARLOCK_SOULSHATTER</a> = 32835
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a20df89f9cb70ec0066cf66eb45d2f1fc">SPELL_WARLOCK_SIPHON_LIFE_HEAL</a> = 63106
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570ad95ba7ba12fda07f5930c7c223c14f90">SPELL_WARLOCK_UNSTABLE_AFFLICTION_DISPEL</a> = 31117
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a4415ada95e780d292c29d0fdcf85724f">SPELL_WARLOCK_IMPROVED_DRAIN_SOUL_R1</a> = 18213
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a87bf6201754bce1b5e511fe9efc6ad56">SPELL_WARLOCK_IMPROVED_DRAIN_SOUL_PROC</a> = 18371
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a643aee1b4ebb09794fb9ae199f48c7f8">SPELL_WARLOCK_EYE_OF_KILROGG_FLY</a> = 58083
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a05c69acb7a8f501d078f7fda049926e1">SPELL_ROGUE_TRICKS_OF_THE_TRADE_PROC</a> = 59628
 <br />
  }</td></tr>
-<tr class="separator:a4245c2f90407b49fba1c8eb66fd58570"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93ac337fe309b60a0dfb634fc04f4246"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a04184.html#a93ac337fe309b60a0dfb634fc04f4246">WarlockSpellIcons</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a93ac337fe309b60a0dfb634fc04f4246adea40db7f41c66b6468b60477e5469e6">WARLOCK_ICON_ID_IMPROVED_LIFE_TAP</a> = 208
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a93ac337fe309b60a0dfb634fc04f4246aa1df9e85fd9caa7e9a3eaca54c0f5494">WARLOCK_ICON_ID_MANA_FEED</a> = 1982
-<br />
- }</td></tr>
-<tr class="separator:a93ac337fe309b60a0dfb634fc04f4246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a8b34bf8ceba4b8c2efea84d90002d523"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2054657c41c2347732a7d2903e3b8138"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a04184.html#a2054657c41c2347732a7d2903e3b8138">AddSC_warlock_spell_scripts</a> ()</td></tr>
-<tr class="separator:a2054657c41c2347732a7d2903e3b8138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a540405afe3345e19487d2db693272b2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a04184.html#a540405afe3345e19487d2db693272b2a">AddSC_rogue_spell_scripts</a> ()</td></tr>
+<tr class="separator:a540405afe3345e19487d2db693272b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a87fc99fe9baa4165c5a5642a75b2e6e0" name="a87fc99fe9baa4165c5a5642a75b2e6e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87fc99fe9baa4165c5a5642a75b2e6e0">&#9670;&#160;</a></span>LIFE_TAP_COEFFICIENT</h2>
+<a id="a3113dcef6ca918382eb15e4803d7bb42" name="a3113dcef6ca918382eb15e4803d7bb42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3113dcef6ca918382eb15e4803d7bb42">&#9670;&#160;</a></span>KillingSpreeScriptName</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define LIFE_TAP_COEFFICIENT&#160;&#160;&#160;0.9F</td>
+          <td class="memname">#define KillingSpreeScriptName&#160;&#160;&#160;&quot;spell_rog_killing_spree&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -292,226 +213,108 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a93ac337fe309b60a0dfb634fc04f4246" name="a93ac337fe309b60a0dfb634fc04f4246"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93ac337fe309b60a0dfb634fc04f4246">&#9670;&#160;</a></span>WarlockSpellIcons</h2>
+<a id="a8b34bf8ceba4b8c2efea84d90002d523" name="a8b34bf8ceba4b8c2efea84d90002d523"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b34bf8ceba4b8c2efea84d90002d523">&#9670;&#160;</a></span>RogueSpells</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d1/dd9/a04184.html#a93ac337fe309b60a0dfb634fc04f4246">WarlockSpellIcons</a></td>
+          <td class="memname">enum <a class="el" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523">RogueSpells</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a93ac337fe309b60a0dfb634fc04f4246adea40db7f41c66b6468b60477e5469e6" name="a93ac337fe309b60a0dfb634fc04f4246adea40db7f41c66b6468b60477e5469e6"></a>WARLOCK_ICON_ID_IMPROVED_LIFE_TAP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a93ac337fe309b60a0dfb634fc04f4246aa1df9e85fd9caa7e9a3eaca54c0f5494" name="a93ac337fe309b60a0dfb634fc04f4246aa1df9e85fd9caa7e9a3eaca54c0f5494"></a>WARLOCK_ICON_ID_MANA_FEED&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4" name="a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4"></a>SPELL_ROGUE_BLADE_FLURRY_EXTRA_ATTACK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a75fb50ee3a9ea34c6f3cd9c9c69ef812" name="a8b34bf8ceba4b8c2efea84d90002d523a75fb50ee3a9ea34c6f3cd9c9c69ef812"></a>SPELL_ROGUE_CHEAT_DEATH_COOLDOWN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a6396f8908556e8d41d4588ad332ed220" name="a8b34bf8ceba4b8c2efea84d90002d523a6396f8908556e8d41d4588ad332ed220"></a>SPELL_ROGUE_CHEATING_DEATH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a7545fa0487a27a1ff5c4f46f11bd6e2d" name="a8b34bf8ceba4b8c2efea84d90002d523a7545fa0487a27a1ff5c4f46f11bd6e2d"></a>SPELL_ROGUE_GLYPH_OF_PREPARATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a8724d3e7643b075ffc53dc2b56a6d57e" name="a8b34bf8ceba4b8c2efea84d90002d523a8724d3e7643b075ffc53dc2b56a6d57e"></a>SPELL_ROGUE_KILLING_SPREE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523ac79c792df274373bd828b858423bf788" name="a8b34bf8ceba4b8c2efea84d90002d523ac79c792df274373bd828b858423bf788"></a>SPELL_ROGUE_KILLING_SPREE_TELEPORT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a43c37fb7f4397717d9d461979a347419" name="a8b34bf8ceba4b8c2efea84d90002d523a43c37fb7f4397717d9d461979a347419"></a>SPELL_ROGUE_KILLING_SPREE_WEAPON_DMG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523aa581c4f979f952b5ab2cd9c3fe4b48b3" name="a8b34bf8ceba4b8c2efea84d90002d523aa581c4f979f952b5ab2cd9c3fe4b48b3"></a>SPELL_ROGUE_KILLING_SPREE_DMG_BUFF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a00ea9db72b7743f8aa77105b26052452" name="a8b34bf8ceba4b8c2efea84d90002d523a00ea9db72b7743f8aa77105b26052452"></a>SPELL_ROGUE_PREY_ON_THE_WEAK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523abbcae24b30508077d3d35d472fda1c1e" name="a8b34bf8ceba4b8c2efea84d90002d523abbcae24b30508077d3d35d472fda1c1e"></a>SPELL_ROGUE_SHIV_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a3e6468283bdb07074e12d6fa6a95de1a" name="a8b34bf8ceba4b8c2efea84d90002d523a3e6468283bdb07074e12d6fa6a95de1a"></a>SPELL_ROGUE_TRICKS_OF_THE_TRADE_DMG_BOOST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a05c69acb7a8f501d078f7fda049926e1" name="a8b34bf8ceba4b8c2efea84d90002d523a05c69acb7a8f501d078f7fda049926e1"></a>SPELL_ROGUE_TRICKS_OF_THE_TRADE_PROC&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   70</span>{</div>
-<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a93ac337fe309b60a0dfb634fc04f4246adea40db7f41c66b6468b60477e5469e6">WARLOCK_ICON_ID_IMPROVED_LIFE_TAP</a>               = 208,</div>
-<div class="line"><span class="lineno">   72</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a93ac337fe309b60a0dfb634fc04f4246aa1df9e85fd9caa7e9a3eaca54c0f5494">WARLOCK_ICON_ID_MANA_FEED</a>                       = 1982</div>
-<div class="line"><span class="lineno">   73</span>};</div>
-<div class="ttc" id="aa04184_html_a93ac337fe309b60a0dfb634fc04f4246aa1df9e85fd9caa7e9a3eaca54c0f5494"><div class="ttname"><a href="../../d1/dd9/a04184.html#a93ac337fe309b60a0dfb634fc04f4246aa1df9e85fd9caa7e9a3eaca54c0f5494">WARLOCK_ICON_ID_MANA_FEED</a></div><div class="ttdeci">@ WARLOCK_ICON_ID_MANA_FEED</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:72</div></div>
-<div class="ttc" id="aa04184_html_a93ac337fe309b60a0dfb634fc04f4246adea40db7f41c66b6468b60477e5469e6"><div class="ttname"><a href="../../d1/dd9/a04184.html#a93ac337fe309b60a0dfb634fc04f4246adea40db7f41c66b6468b60477e5469e6">WARLOCK_ICON_ID_IMPROVED_LIFE_TAP</a></div><div class="ttdeci">@ WARLOCK_ICON_ID_IMPROVED_LIFE_TAP</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:71</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4245c2f90407b49fba1c8eb66fd58570" name="a4245c2f90407b49fba1c8eb66fd58570"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4245c2f90407b49fba1c8eb66fd58570">&#9670;&#160;</a></span>WarlockSpells</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570">WarlockSpells</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a78fa910e2b2e2eff87104f49d25ee588" name="a4245c2f90407b49fba1c8eb66fd58570a78fa910e2b2e2eff87104f49d25ee588"></a>SPELL_WARLOCK_DRAIN_SOUL_R1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570aa4a25c3186114086798366d05ec22d84" name="a4245c2f90407b49fba1c8eb66fd58570aa4a25c3186114086798366d05ec22d84"></a>SPELL_WARLOCK_CREATE_SOULSHARD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a1477d034e08642cf57ae06cfd4e86af8" name="a4245c2f90407b49fba1c8eb66fd58570a1477d034e08642cf57ae06cfd4e86af8"></a>SPELL_WARLOCK_CURSE_OF_DOOM_EFFECT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a5552c8f20346e324ab9bf102651f8ac1" name="a4245c2f90407b49fba1c8eb66fd58570a5552c8f20346e324ab9bf102651f8ac1"></a>SPELL_WARLOCK_DEMONIC_CIRCLE_SUMMON&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a177e4014b31635578a8b6eb587abc3a4" name="a4245c2f90407b49fba1c8eb66fd58570a177e4014b31635578a8b6eb587abc3a4"></a>SPELL_WARLOCK_DEMONIC_CIRCLE_TELEPORT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570aa3eca9ef2979d1b58513dea6557fb559" name="a4245c2f90407b49fba1c8eb66fd58570aa3eca9ef2979d1b58513dea6557fb559"></a>SPELL_WARLOCK_DEMONIC_CIRCLE_ALLOW_CAST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a18f630e1bff91a62467c0b1063e98581" name="a4245c2f90407b49fba1c8eb66fd58570a18f630e1bff91a62467c0b1063e98581"></a>SPELL_WARLOCK_DEMONIC_EMPOWERMENT_SUCCUBUS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a98dc607d0afc02ef64ae52ddd3f7bd15" name="a4245c2f90407b49fba1c8eb66fd58570a98dc607d0afc02ef64ae52ddd3f7bd15"></a>SPELL_WARLOCK_DEMONIC_EMPOWERMENT_VOIDWALKER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a6886dce2b5564b13a13b68b3550a6c33" name="a4245c2f90407b49fba1c8eb66fd58570a6886dce2b5564b13a13b68b3550a6c33"></a>SPELL_WARLOCK_DEMONIC_EMPOWERMENT_FELGUARD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a8528eb99e358ca3ca225accf5260379c" name="a4245c2f90407b49fba1c8eb66fd58570a8528eb99e358ca3ca225accf5260379c"></a>SPELL_WARLOCK_DEMONIC_EMPOWERMENT_FELHUNTER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570ae85880434e6eca0282993c615ead7552" name="a4245c2f90407b49fba1c8eb66fd58570ae85880434e6eca0282993c615ead7552"></a>SPELL_WARLOCK_DEMONIC_EMPOWERMENT_IMP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a852bbe5afb9c24a09130027889184463" name="a4245c2f90407b49fba1c8eb66fd58570a852bbe5afb9c24a09130027889184463"></a>SPELL_WARLOCK_FEL_SYNERGY_HEAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a5e4832ebc537e970a0b9f47111a4c275" name="a4245c2f90407b49fba1c8eb66fd58570a5e4832ebc537e970a0b9f47111a4c275"></a>SPELL_WARLOCK_GLYPH_OF_DRAIN_SOUL_AURA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a5ad410639278f5cb878c43d335385df5" name="a4245c2f90407b49fba1c8eb66fd58570a5ad410639278f5cb878c43d335385df5"></a>SPELL_WARLOCK_GLYPH_OF_DRAIN_SOUL_PROC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570ac618ca1642e0d815aba85db04ce3d0cc" name="a4245c2f90407b49fba1c8eb66fd58570ac618ca1642e0d815aba85db04ce3d0cc"></a>SPELL_WARLOCK_GLYPH_OF_SHADOWFLAME&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570ad93fdef2facd4fd7450d64a2554d45a6" name="a4245c2f90407b49fba1c8eb66fd58570ad93fdef2facd4fd7450d64a2554d45a6"></a>SPELL_WARLOCK_GLYPH_OF_SIPHON_LIFE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a756d6d4b3616156a1782d5913a6ac6e2" name="a4245c2f90407b49fba1c8eb66fd58570a756d6d4b3616156a1782d5913a6ac6e2"></a>SPELL_WARLOCK_HAUNT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a1303cd92594e020d016c95437550db99" name="a4245c2f90407b49fba1c8eb66fd58570a1303cd92594e020d016c95437550db99"></a>SPELL_WARLOCK_HAUNT_HEAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570acde138e1f674d1e33c52f9344118dc21" name="a4245c2f90407b49fba1c8eb66fd58570acde138e1f674d1e33c52f9344118dc21"></a>SPELL_WARLOCK_IMPROVED_HEALTHSTONE_R1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570aebfbd8d130fbd9189f33869fa00c80be" name="a4245c2f90407b49fba1c8eb66fd58570aebfbd8d130fbd9189f33869fa00c80be"></a>SPELL_WARLOCK_IMPROVED_HEALTHSTONE_R2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a61d392109f1764cb4f00429514bf7526" name="a4245c2f90407b49fba1c8eb66fd58570a61d392109f1764cb4f00429514bf7526"></a>SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_R1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570af7a9a877ac9116db61ec310ae310c87a" name="a4245c2f90407b49fba1c8eb66fd58570af7a9a877ac9116db61ec310ae310c87a"></a>SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_R2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570af914cb62745580fca35088f980b2759d" name="a4245c2f90407b49fba1c8eb66fd58570af914cb62745580fca35088f980b2759d"></a>SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_BUFF_R1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a193210329f50992d7c79b8960eead40e" name="a4245c2f90407b49fba1c8eb66fd58570a193210329f50992d7c79b8960eead40e"></a>SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_BUFF_R2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a978b2166bda777834fd52fc0ef313098" name="a4245c2f90407b49fba1c8eb66fd58570a978b2166bda777834fd52fc0ef313098"></a>SPELL_WARLOCK_LIFE_TAP_ENERGIZE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a666925ba35a627b7fcacfd418f07b5b9" name="a4245c2f90407b49fba1c8eb66fd58570a666925ba35a627b7fcacfd418f07b5b9"></a>SPELL_WARLOCK_LIFE_TAP_ENERGIZE_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570af475dcd791391d00772aba22b47140a6" name="a4245c2f90407b49fba1c8eb66fd58570af475dcd791391d00772aba22b47140a6"></a>SPELL_WARLOCK_SOULSHATTER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a20df89f9cb70ec0066cf66eb45d2f1fc" name="a4245c2f90407b49fba1c8eb66fd58570a20df89f9cb70ec0066cf66eb45d2f1fc"></a>SPELL_WARLOCK_SIPHON_LIFE_HEAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570ad95ba7ba12fda07f5930c7c223c14f90" name="a4245c2f90407b49fba1c8eb66fd58570ad95ba7ba12fda07f5930c7c223c14f90"></a>SPELL_WARLOCK_UNSTABLE_AFFLICTION_DISPEL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a4415ada95e780d292c29d0fdcf85724f" name="a4245c2f90407b49fba1c8eb66fd58570a4415ada95e780d292c29d0fdcf85724f"></a>SPELL_WARLOCK_IMPROVED_DRAIN_SOUL_R1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a87bf6201754bce1b5e511fe9efc6ad56" name="a4245c2f90407b49fba1c8eb66fd58570a87bf6201754bce1b5e511fe9efc6ad56"></a>SPELL_WARLOCK_IMPROVED_DRAIN_SOUL_PROC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4245c2f90407b49fba1c8eb66fd58570a643aee1b4ebb09794fb9ae199f48c7f8" name="a4245c2f90407b49fba1c8eb66fd58570a643aee1b4ebb09794fb9ae199f48c7f8"></a>SPELL_WARLOCK_EYE_OF_KILROGG_FLY&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a78fa910e2b2e2eff87104f49d25ee588">SPELL_WARLOCK_DRAIN_SOUL_R1</a>                     = 1120,</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570aa4a25c3186114086798366d05ec22d84">SPELL_WARLOCK_CREATE_SOULSHARD</a>                  = 43836,</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a1477d034e08642cf57ae06cfd4e86af8">SPELL_WARLOCK_CURSE_OF_DOOM_EFFECT</a>              = 18662,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a5552c8f20346e324ab9bf102651f8ac1">SPELL_WARLOCK_DEMONIC_CIRCLE_SUMMON</a>             = 48018,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a177e4014b31635578a8b6eb587abc3a4">SPELL_WARLOCK_DEMONIC_CIRCLE_TELEPORT</a>           = 48020,</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570aa3eca9ef2979d1b58513dea6557fb559">SPELL_WARLOCK_DEMONIC_CIRCLE_ALLOW_CAST</a>         = 62388,</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a18f630e1bff91a62467c0b1063e98581">SPELL_WARLOCK_DEMONIC_EMPOWERMENT_SUCCUBUS</a>      = 54435,</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a98dc607d0afc02ef64ae52ddd3f7bd15">SPELL_WARLOCK_DEMONIC_EMPOWERMENT_VOIDWALKER</a>    = 54443,</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a6886dce2b5564b13a13b68b3550a6c33">SPELL_WARLOCK_DEMONIC_EMPOWERMENT_FELGUARD</a>      = 54508,</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a8528eb99e358ca3ca225accf5260379c">SPELL_WARLOCK_DEMONIC_EMPOWERMENT_FELHUNTER</a>     = 54509,</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570ae85880434e6eca0282993c615ead7552">SPELL_WARLOCK_DEMONIC_EMPOWERMENT_IMP</a>           = 54444,</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a852bbe5afb9c24a09130027889184463">SPELL_WARLOCK_FEL_SYNERGY_HEAL</a>                  = 54181,</div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a5e4832ebc537e970a0b9f47111a4c275">SPELL_WARLOCK_GLYPH_OF_DRAIN_SOUL_AURA</a>          = 58070,</div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a5ad410639278f5cb878c43d335385df5">SPELL_WARLOCK_GLYPH_OF_DRAIN_SOUL_PROC</a>          = 58068,</div>
-<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570ac618ca1642e0d815aba85db04ce3d0cc">SPELL_WARLOCK_GLYPH_OF_SHADOWFLAME</a>              = 63311,</div>
-<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570ad93fdef2facd4fd7450d64a2554d45a6">SPELL_WARLOCK_GLYPH_OF_SIPHON_LIFE</a>              = 56216,</div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a756d6d4b3616156a1782d5913a6ac6e2">SPELL_WARLOCK_HAUNT</a>                             = 48181,</div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a1303cd92594e020d016c95437550db99">SPELL_WARLOCK_HAUNT_HEAL</a>                        = 48210,</div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570acde138e1f674d1e33c52f9344118dc21">SPELL_WARLOCK_IMPROVED_HEALTHSTONE_R1</a>           = 18692,</div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570aebfbd8d130fbd9189f33869fa00c80be">SPELL_WARLOCK_IMPROVED_HEALTHSTONE_R2</a>           = 18693,</div>
-<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a61d392109f1764cb4f00429514bf7526">SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_R1</a>         = 18703,</div>
-<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570af7a9a877ac9116db61ec310ae310c87a">SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_R2</a>         = 18704,</div>
-<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570af914cb62745580fca35088f980b2759d">SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_BUFF_R1</a>    = 60955,</div>
-<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a193210329f50992d7c79b8960eead40e">SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_BUFF_R2</a>    = 60956,</div>
-<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a978b2166bda777834fd52fc0ef313098">SPELL_WARLOCK_LIFE_TAP_ENERGIZE</a>                 = 31818,</div>
-<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a666925ba35a627b7fcacfd418f07b5b9">SPELL_WARLOCK_LIFE_TAP_ENERGIZE_2</a>               = 32553,</div>
-<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570af475dcd791391d00772aba22b47140a6">SPELL_WARLOCK_SOULSHATTER</a>                       = 32835,</div>
-<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a20df89f9cb70ec0066cf66eb45d2f1fc">SPELL_WARLOCK_SIPHON_LIFE_HEAL</a>                  = 63106,</div>
-<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570ad95ba7ba12fda07f5930c7c223c14f90">SPELL_WARLOCK_UNSTABLE_AFFLICTION_DISPEL</a>        = 31117,</div>
-<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a4415ada95e780d292c29d0fdcf85724f">SPELL_WARLOCK_IMPROVED_DRAIN_SOUL_R1</a>            = 18213,</div>
-<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a87bf6201754bce1b5e511fe9efc6ad56">SPELL_WARLOCK_IMPROVED_DRAIN_SOUL_PROC</a>          = 18371,</div>
-<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a643aee1b4ebb09794fb9ae199f48c7f8">SPELL_WARLOCK_EYE_OF_KILROGG_FLY</a>                = 58083</div>
-<div class="line"><span class="lineno">   67</span>};</div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a1303cd92594e020d016c95437550db99"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a1303cd92594e020d016c95437550db99">SPELL_WARLOCK_HAUNT_HEAL</a></div><div class="ttdeci">@ SPELL_WARLOCK_HAUNT_HEAL</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:52</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a1477d034e08642cf57ae06cfd4e86af8"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a1477d034e08642cf57ae06cfd4e86af8">SPELL_WARLOCK_CURSE_OF_DOOM_EFFECT</a></div><div class="ttdeci">@ SPELL_WARLOCK_CURSE_OF_DOOM_EFFECT</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:37</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a177e4014b31635578a8b6eb587abc3a4"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a177e4014b31635578a8b6eb587abc3a4">SPELL_WARLOCK_DEMONIC_CIRCLE_TELEPORT</a></div><div class="ttdeci">@ SPELL_WARLOCK_DEMONIC_CIRCLE_TELEPORT</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:39</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a18f630e1bff91a62467c0b1063e98581"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a18f630e1bff91a62467c0b1063e98581">SPELL_WARLOCK_DEMONIC_EMPOWERMENT_SUCCUBUS</a></div><div class="ttdeci">@ SPELL_WARLOCK_DEMONIC_EMPOWERMENT_SUCCUBUS</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:41</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a193210329f50992d7c79b8960eead40e"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a193210329f50992d7c79b8960eead40e">SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_BUFF_R2</a></div><div class="ttdeci">@ SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_BUFF_R2</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:58</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a20df89f9cb70ec0066cf66eb45d2f1fc"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a20df89f9cb70ec0066cf66eb45d2f1fc">SPELL_WARLOCK_SIPHON_LIFE_HEAL</a></div><div class="ttdeci">@ SPELL_WARLOCK_SIPHON_LIFE_HEAL</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:62</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a4415ada95e780d292c29d0fdcf85724f"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a4415ada95e780d292c29d0fdcf85724f">SPELL_WARLOCK_IMPROVED_DRAIN_SOUL_R1</a></div><div class="ttdeci">@ SPELL_WARLOCK_IMPROVED_DRAIN_SOUL_R1</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:64</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a5552c8f20346e324ab9bf102651f8ac1"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a5552c8f20346e324ab9bf102651f8ac1">SPELL_WARLOCK_DEMONIC_CIRCLE_SUMMON</a></div><div class="ttdeci">@ SPELL_WARLOCK_DEMONIC_CIRCLE_SUMMON</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:38</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a5ad410639278f5cb878c43d335385df5"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a5ad410639278f5cb878c43d335385df5">SPELL_WARLOCK_GLYPH_OF_DRAIN_SOUL_PROC</a></div><div class="ttdeci">@ SPELL_WARLOCK_GLYPH_OF_DRAIN_SOUL_PROC</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:48</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a5e4832ebc537e970a0b9f47111a4c275"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a5e4832ebc537e970a0b9f47111a4c275">SPELL_WARLOCK_GLYPH_OF_DRAIN_SOUL_AURA</a></div><div class="ttdeci">@ SPELL_WARLOCK_GLYPH_OF_DRAIN_SOUL_AURA</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:47</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a61d392109f1764cb4f00429514bf7526"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a61d392109f1764cb4f00429514bf7526">SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_R1</a></div><div class="ttdeci">@ SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_R1</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:55</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a643aee1b4ebb09794fb9ae199f48c7f8"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a643aee1b4ebb09794fb9ae199f48c7f8">SPELL_WARLOCK_EYE_OF_KILROGG_FLY</a></div><div class="ttdeci">@ SPELL_WARLOCK_EYE_OF_KILROGG_FLY</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:66</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a666925ba35a627b7fcacfd418f07b5b9"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a666925ba35a627b7fcacfd418f07b5b9">SPELL_WARLOCK_LIFE_TAP_ENERGIZE_2</a></div><div class="ttdeci">@ SPELL_WARLOCK_LIFE_TAP_ENERGIZE_2</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:60</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a6886dce2b5564b13a13b68b3550a6c33"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a6886dce2b5564b13a13b68b3550a6c33">SPELL_WARLOCK_DEMONIC_EMPOWERMENT_FELGUARD</a></div><div class="ttdeci">@ SPELL_WARLOCK_DEMONIC_EMPOWERMENT_FELGUARD</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:43</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a756d6d4b3616156a1782d5913a6ac6e2"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a756d6d4b3616156a1782d5913a6ac6e2">SPELL_WARLOCK_HAUNT</a></div><div class="ttdeci">@ SPELL_WARLOCK_HAUNT</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:51</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a78fa910e2b2e2eff87104f49d25ee588"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a78fa910e2b2e2eff87104f49d25ee588">SPELL_WARLOCK_DRAIN_SOUL_R1</a></div><div class="ttdeci">@ SPELL_WARLOCK_DRAIN_SOUL_R1</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:35</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a8528eb99e358ca3ca225accf5260379c"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a8528eb99e358ca3ca225accf5260379c">SPELL_WARLOCK_DEMONIC_EMPOWERMENT_FELHUNTER</a></div><div class="ttdeci">@ SPELL_WARLOCK_DEMONIC_EMPOWERMENT_FELHUNTER</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:44</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a852bbe5afb9c24a09130027889184463"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a852bbe5afb9c24a09130027889184463">SPELL_WARLOCK_FEL_SYNERGY_HEAL</a></div><div class="ttdeci">@ SPELL_WARLOCK_FEL_SYNERGY_HEAL</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:46</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a87bf6201754bce1b5e511fe9efc6ad56"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a87bf6201754bce1b5e511fe9efc6ad56">SPELL_WARLOCK_IMPROVED_DRAIN_SOUL_PROC</a></div><div class="ttdeci">@ SPELL_WARLOCK_IMPROVED_DRAIN_SOUL_PROC</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:65</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a978b2166bda777834fd52fc0ef313098"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a978b2166bda777834fd52fc0ef313098">SPELL_WARLOCK_LIFE_TAP_ENERGIZE</a></div><div class="ttdeci">@ SPELL_WARLOCK_LIFE_TAP_ENERGIZE</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:59</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570a98dc607d0afc02ef64ae52ddd3f7bd15"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570a98dc607d0afc02ef64ae52ddd3f7bd15">SPELL_WARLOCK_DEMONIC_EMPOWERMENT_VOIDWALKER</a></div><div class="ttdeci">@ SPELL_WARLOCK_DEMONIC_EMPOWERMENT_VOIDWALKER</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:42</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570aa3eca9ef2979d1b58513dea6557fb559"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570aa3eca9ef2979d1b58513dea6557fb559">SPELL_WARLOCK_DEMONIC_CIRCLE_ALLOW_CAST</a></div><div class="ttdeci">@ SPELL_WARLOCK_DEMONIC_CIRCLE_ALLOW_CAST</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:40</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570aa4a25c3186114086798366d05ec22d84"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570aa4a25c3186114086798366d05ec22d84">SPELL_WARLOCK_CREATE_SOULSHARD</a></div><div class="ttdeci">@ SPELL_WARLOCK_CREATE_SOULSHARD</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:36</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570ac618ca1642e0d815aba85db04ce3d0cc"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570ac618ca1642e0d815aba85db04ce3d0cc">SPELL_WARLOCK_GLYPH_OF_SHADOWFLAME</a></div><div class="ttdeci">@ SPELL_WARLOCK_GLYPH_OF_SHADOWFLAME</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:49</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570acde138e1f674d1e33c52f9344118dc21"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570acde138e1f674d1e33c52f9344118dc21">SPELL_WARLOCK_IMPROVED_HEALTHSTONE_R1</a></div><div class="ttdeci">@ SPELL_WARLOCK_IMPROVED_HEALTHSTONE_R1</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:53</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570ad93fdef2facd4fd7450d64a2554d45a6"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570ad93fdef2facd4fd7450d64a2554d45a6">SPELL_WARLOCK_GLYPH_OF_SIPHON_LIFE</a></div><div class="ttdeci">@ SPELL_WARLOCK_GLYPH_OF_SIPHON_LIFE</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:50</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570ad95ba7ba12fda07f5930c7c223c14f90"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570ad95ba7ba12fda07f5930c7c223c14f90">SPELL_WARLOCK_UNSTABLE_AFFLICTION_DISPEL</a></div><div class="ttdeci">@ SPELL_WARLOCK_UNSTABLE_AFFLICTION_DISPEL</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:63</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570ae85880434e6eca0282993c615ead7552"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570ae85880434e6eca0282993c615ead7552">SPELL_WARLOCK_DEMONIC_EMPOWERMENT_IMP</a></div><div class="ttdeci">@ SPELL_WARLOCK_DEMONIC_EMPOWERMENT_IMP</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:45</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570aebfbd8d130fbd9189f33869fa00c80be"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570aebfbd8d130fbd9189f33869fa00c80be">SPELL_WARLOCK_IMPROVED_HEALTHSTONE_R2</a></div><div class="ttdeci">@ SPELL_WARLOCK_IMPROVED_HEALTHSTONE_R2</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:54</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570af475dcd791391d00772aba22b47140a6"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570af475dcd791391d00772aba22b47140a6">SPELL_WARLOCK_SOULSHATTER</a></div><div class="ttdeci">@ SPELL_WARLOCK_SOULSHATTER</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:61</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570af7a9a877ac9116db61ec310ae310c87a"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570af7a9a877ac9116db61ec310ae310c87a">SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_R2</a></div><div class="ttdeci">@ SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_R2</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:56</div></div>
-<div class="ttc" id="aa04184_html_a4245c2f90407b49fba1c8eb66fd58570af914cb62745580fca35088f980b2759d"><div class="ttname"><a href="../../d1/dd9/a04184.html#a4245c2f90407b49fba1c8eb66fd58570af914cb62745580fca35088f980b2759d">SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_BUFF_R1</a></div><div class="ttdeci">@ SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_BUFF_R1</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:57</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4">SPELL_ROGUE_BLADE_FLURRY_EXTRA_ATTACK</a>       = 22482,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a75fb50ee3a9ea34c6f3cd9c9c69ef812">SPELL_ROGUE_CHEAT_DEATH_COOLDOWN</a>            = 31231,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a6396f8908556e8d41d4588ad332ed220">SPELL_ROGUE_CHEATING_DEATH</a>                  = 45182,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a7545fa0487a27a1ff5c4f46f11bd6e2d">SPELL_ROGUE_GLYPH_OF_PREPARATION</a>            = 56819,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a8724d3e7643b075ffc53dc2b56a6d57e">SPELL_ROGUE_KILLING_SPREE</a>                   = 51690,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523ac79c792df274373bd828b858423bf788">SPELL_ROGUE_KILLING_SPREE_TELEPORT</a>          = 57840,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a43c37fb7f4397717d9d461979a347419">SPELL_ROGUE_KILLING_SPREE_WEAPON_DMG</a>        = 57841,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523aa581c4f979f952b5ab2cd9c3fe4b48b3">SPELL_ROGUE_KILLING_SPREE_DMG_BUFF</a>          = 61851,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a00ea9db72b7743f8aa77105b26052452">SPELL_ROGUE_PREY_ON_THE_WEAK</a>                = 58670,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523abbcae24b30508077d3d35d472fda1c1e">SPELL_ROGUE_SHIV_TRIGGERED</a>                  = 5940,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a3e6468283bdb07074e12d6fa6a95de1a">SPELL_ROGUE_TRICKS_OF_THE_TRADE_DMG_BOOST</a>   = 57933,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a05c69acb7a8f501d078f7fda049926e1">SPELL_ROGUE_TRICKS_OF_THE_TRADE_PROC</a>        = 59628,</div>
+<div class="line"><span class="lineno">   45</span>};</div>
+<div class="ttc" id="aa04184_html_a8b34bf8ceba4b8c2efea84d90002d523a00ea9db72b7743f8aa77105b26052452"><div class="ttname"><a href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a00ea9db72b7743f8aa77105b26052452">SPELL_ROGUE_PREY_ON_THE_WEAK</a></div><div class="ttdeci">@ SPELL_ROGUE_PREY_ON_THE_WEAK</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:41</div></div>
+<div class="ttc" id="aa04184_html_a8b34bf8ceba4b8c2efea84d90002d523a05c69acb7a8f501d078f7fda049926e1"><div class="ttname"><a href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a05c69acb7a8f501d078f7fda049926e1">SPELL_ROGUE_TRICKS_OF_THE_TRADE_PROC</a></div><div class="ttdeci">@ SPELL_ROGUE_TRICKS_OF_THE_TRADE_PROC</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:44</div></div>
+<div class="ttc" id="aa04184_html_a8b34bf8ceba4b8c2efea84d90002d523a3e6468283bdb07074e12d6fa6a95de1a"><div class="ttname"><a href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a3e6468283bdb07074e12d6fa6a95de1a">SPELL_ROGUE_TRICKS_OF_THE_TRADE_DMG_BOOST</a></div><div class="ttdeci">@ SPELL_ROGUE_TRICKS_OF_THE_TRADE_DMG_BOOST</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:43</div></div>
+<div class="ttc" id="aa04184_html_a8b34bf8ceba4b8c2efea84d90002d523a43c37fb7f4397717d9d461979a347419"><div class="ttname"><a href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a43c37fb7f4397717d9d461979a347419">SPELL_ROGUE_KILLING_SPREE_WEAPON_DMG</a></div><div class="ttdeci">@ SPELL_ROGUE_KILLING_SPREE_WEAPON_DMG</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:39</div></div>
+<div class="ttc" id="aa04184_html_a8b34bf8ceba4b8c2efea84d90002d523a6396f8908556e8d41d4588ad332ed220"><div class="ttname"><a href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a6396f8908556e8d41d4588ad332ed220">SPELL_ROGUE_CHEATING_DEATH</a></div><div class="ttdeci">@ SPELL_ROGUE_CHEATING_DEATH</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:35</div></div>
+<div class="ttc" id="aa04184_html_a8b34bf8ceba4b8c2efea84d90002d523a7545fa0487a27a1ff5c4f46f11bd6e2d"><div class="ttname"><a href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a7545fa0487a27a1ff5c4f46f11bd6e2d">SPELL_ROGUE_GLYPH_OF_PREPARATION</a></div><div class="ttdeci">@ SPELL_ROGUE_GLYPH_OF_PREPARATION</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:36</div></div>
+<div class="ttc" id="aa04184_html_a8b34bf8ceba4b8c2efea84d90002d523a75fb50ee3a9ea34c6f3cd9c9c69ef812"><div class="ttname"><a href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a75fb50ee3a9ea34c6f3cd9c9c69ef812">SPELL_ROGUE_CHEAT_DEATH_COOLDOWN</a></div><div class="ttdeci">@ SPELL_ROGUE_CHEAT_DEATH_COOLDOWN</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:34</div></div>
+<div class="ttc" id="aa04184_html_a8b34bf8ceba4b8c2efea84d90002d523a8724d3e7643b075ffc53dc2b56a6d57e"><div class="ttname"><a href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523a8724d3e7643b075ffc53dc2b56a6d57e">SPELL_ROGUE_KILLING_SPREE</a></div><div class="ttdeci">@ SPELL_ROGUE_KILLING_SPREE</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:37</div></div>
+<div class="ttc" id="aa04184_html_a8b34bf8ceba4b8c2efea84d90002d523aa581c4f979f952b5ab2cd9c3fe4b48b3"><div class="ttname"><a href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523aa581c4f979f952b5ab2cd9c3fe4b48b3">SPELL_ROGUE_KILLING_SPREE_DMG_BUFF</a></div><div class="ttdeci">@ SPELL_ROGUE_KILLING_SPREE_DMG_BUFF</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:40</div></div>
+<div class="ttc" id="aa04184_html_a8b34bf8ceba4b8c2efea84d90002d523abbcae24b30508077d3d35d472fda1c1e"><div class="ttname"><a href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523abbcae24b30508077d3d35d472fda1c1e">SPELL_ROGUE_SHIV_TRIGGERED</a></div><div class="ttdeci">@ SPELL_ROGUE_SHIV_TRIGGERED</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:42</div></div>
+<div class="ttc" id="aa04184_html_a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4"><div class="ttname"><a href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4">SPELL_ROGUE_BLADE_FLURRY_EXTRA_ATTACK</a></div><div class="ttdeci">@ SPELL_ROGUE_BLADE_FLURRY_EXTRA_ATTACK</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:33</div></div>
+<div class="ttc" id="aa04184_html_a8b34bf8ceba4b8c2efea84d90002d523ac79c792df274373bd828b858423bf788"><div class="ttname"><a href="../../d1/dd9/a04184.html#a8b34bf8ceba4b8c2efea84d90002d523ac79c792df274373bd828b858423bf788">SPELL_ROGUE_KILLING_SPREE_TELEPORT</a></div><div class="ttdeci">@ SPELL_ROGUE_KILLING_SPREE_TELEPORT</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:38</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a2054657c41c2347732a7d2903e3b8138" name="a2054657c41c2347732a7d2903e3b8138"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2054657c41c2347732a7d2903e3b8138">&#9670;&#160;</a></span>AddSC_warlock_spell_scripts()</h2>
+<a id="a540405afe3345e19487d2db693272b2a" name="a540405afe3345e19487d2db693272b2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a540405afe3345e19487d2db693272b2a">&#9670;&#160;</a></span>AddSC_rogue_spell_scripts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_warlock_spell_scripts </td>
+          <td class="memname">void AddSC_rogue_spell_scripts </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1273</span>{</div>
-<div class="line"><span class="lineno"> 1274</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d6/dfe/a28789.html">spell_warl_eye_of_kilrogg</a>);</div>
-<div class="line"><span class="lineno"> 1275</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../db/daa/a28793.html">spell_warl_shadowflame</a>);</div>
-<div class="line"><span class="lineno"> 1276</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d8/d49/a28797.html">spell_warl_seduction</a>);</div>
-<div class="line"><span class="lineno"> 1277</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d5/d21/a28801.html">spell_warl_improved_demonic_tactics</a>);</div>
-<div class="line"><span class="lineno"> 1278</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d1/d8a/a28805.html">spell_warl_ritual_of_summoning</a>);</div>
-<div class="line"><span class="lineno"> 1279</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../de/de3/a28809.html">spell_warl_demonic_aegis</a>);</div>
-<div class="line"><span class="lineno"> 1280</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d4/da8/a28813.html">spell_warl_demonic_knowledge</a>);</div>
-<div class="line"><span class="lineno"> 1281</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d0/d4e/a28817.html">spell_warl_generic_scaling</a>);</div>
-<div class="line"><span class="lineno"> 1282</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d5/deb/a28821.html">spell_warl_infernal_scaling</a>);</div>
-<div class="line"><span class="lineno"> 1283</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d7/d9d/a28825.html">spell_warl_banish</a>);</div>
-<div class="line"><span class="lineno"> 1284</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../da/dc8/a28833.html">spell_warl_create_healthstone</a>);</div>
-<div class="line"><span class="lineno"> 1285</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../db/da3/a28885.html">spell_warl_curse_of_doom</a>);</div>
-<div class="line"><span class="lineno"> 1286</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../df/d29/a28861.html">spell_warl_demonic_circle_summon</a>);</div>
-<div class="line"><span class="lineno"> 1287</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d2/df1/a28865.html">spell_warl_demonic_circle_teleport</a>);</div>
-<div class="line"><span class="lineno"> 1288</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../df/daf/a28829.html">spell_warl_demonic_empowerment</a>);</div>
-<div class="line"><span class="lineno"> 1289</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d8/ded/a28837.html">spell_warl_everlasting_affliction</a>);</div>
-<div class="line"><span class="lineno"> 1290</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d3/df5/a28869.html">spell_warl_fel_synergy</a>);</div>
-<div class="line"><span class="lineno"> 1291</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dc/d62/a28897.html">spell_warl_glyph_of_shadowflame</a>);</div>
-<div class="line"><span class="lineno"> 1292</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#a69b21d1b83cecaba944f4e9379bc866c">RegisterSpellAndAuraScriptPair</a>(<a class="code hl_class" href="../../dd/df7/a28873.html">spell_warl_haunt</a>, <a class="code hl_class" href="../../db/d89/a28877.html">spell_warl_haunt_aura</a>);</div>
-<div class="line"><span class="lineno"> 1293</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d6/dee/a28889.html">spell_warl_health_funnel</a>);</div>
-<div class="line"><span class="lineno"> 1294</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d4/d8c/a28857.html">spell_warl_life_tap</a>);</div>
-<div class="line"><span class="lineno"> 1295</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d4/d76/a28841.html">spell_warl_ritual_of_doom_effect</a>);</div>
-<div class="line"><span class="lineno"> 1296</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d8/dc2/a28845.html">spell_warl_seed_of_corruption</a>);</div>
-<div class="line"><span class="lineno"> 1297</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../da/d9f/a28893.html">spell_warl_shadow_ward</a>);</div>
-<div class="line"><span class="lineno"> 1298</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d7/d3e/a28853.html">spell_warl_siphon_life</a>);</div>
-<div class="line"><span class="lineno"> 1299</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d2/d25/a28849.html">spell_warl_soulshatter</a>);</div>
-<div class="line"><span class="lineno"> 1300</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d1/d7e/a28881.html">spell_warl_unstable_affliction</a>);</div>
-<div class="line"><span class="lineno"> 1301</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d2/dd9/a28901.html">spell_warl_drain_soul</a>);</div>
-<div class="line"><span class="lineno"> 1302</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dd/d6c/a28905.html">spell_warl_shadowburn</a>);</div>
-<div class="line"><span class="lineno"> 1303</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d6/d8c/a28909.html">spell_warl_glyph_of_felguard</a>);</div>
-<div class="line"><span class="lineno"> 1304</span>}</div>
-<div class="ttc" id="aa01958_html_a69b21d1b83cecaba944f4e9379bc866c"><div class="ttname"><a href="../../d3/d67/a01958.html#a69b21d1b83cecaba944f4e9379bc866c">RegisterSpellAndAuraScriptPair</a></div><div class="ttdeci">#define RegisterSpellAndAuraScriptPair(script_1, script_2)</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2651</div></div>
-<div class="ttc" id="aa01958_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2649</div></div>
-<div class="ttc" id="aa28789_html"><div class="ttname"><a href="../../d6/dfe/a28789.html">spell_warl_eye_of_kilrogg</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:76</div></div>
-<div class="ttc" id="aa28793_html"><div class="ttname"><a href="../../db/daa/a28793.html">spell_warl_shadowflame</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:119</div></div>
-<div class="ttc" id="aa28797_html"><div class="ttname"><a href="../../d8/d49/a28797.html">spell_warl_seduction</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:135</div></div>
-<div class="ttc" id="aa28801_html"><div class="ttname"><a href="../../d5/d21/a28801.html">spell_warl_improved_demonic_tactics</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:160</div></div>
-<div class="ttc" id="aa28805_html"><div class="ttname"><a href="../../d1/d8a/a28805.html">spell_warl_ritual_of_summoning</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:212</div></div>
-<div class="ttc" id="aa28809_html"><div class="ttname"><a href="../../de/de3/a28809.html">spell_warl_demonic_aegis</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:230</div></div>
-<div class="ttc" id="aa28813_html"><div class="ttname"><a href="../../d4/da8/a28813.html">spell_warl_demonic_knowledge</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:246</div></div>
-<div class="ttc" id="aa28817_html"><div class="ttname"><a href="../../d0/d4e/a28817.html">spell_warl_generic_scaling</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:276</div></div>
-<div class="ttc" id="aa28821_html"><div class="ttname"><a href="../../d5/deb/a28821.html">spell_warl_infernal_scaling</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:382</div></div>
-<div class="ttc" id="aa28825_html"><div class="ttname"><a href="../../d7/d9d/a28825.html">spell_warl_banish</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:464</div></div>
-<div class="ttc" id="aa28829_html"><div class="ttname"><a href="../../df/daf/a28829.html">spell_warl_demonic_empowerment</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:492</div></div>
-<div class="ttc" id="aa28833_html"><div class="ttname"><a href="../../da/dc8/a28833.html">spell_warl_create_healthstone</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:549</div></div>
-<div class="ttc" id="aa28837_html"><div class="ttname"><a href="../../d8/ded/a28837.html">spell_warl_everlasting_affliction</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:620</div></div>
-<div class="ttc" id="aa28841_html"><div class="ttname"><a href="../../d4/d76/a28841.html">spell_warl_ritual_of_doom_effect</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:642</div></div>
-<div class="ttc" id="aa28845_html"><div class="ttname"><a href="../../d8/dc2/a28845.html">spell_warl_seed_of_corruption</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:659</div></div>
-<div class="ttc" id="aa28849_html"><div class="ttname"><a href="../../d2/d25/a28849.html">spell_warl_soulshatter</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:689</div></div>
-<div class="ttc" id="aa28853_html"><div class="ttname"><a href="../../d7/d3e/a28853.html">spell_warl_siphon_life</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:715</div></div>
-<div class="ttc" id="aa28857_html"><div class="ttname"><a href="../../d4/d8c/a28857.html">spell_warl_life_tap</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:758</div></div>
-<div class="ttc" id="aa28861_html"><div class="ttname"><a href="../../df/d29/a28861.html">spell_warl_demonic_circle_summon</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:818</div></div>
-<div class="ttc" id="aa28865_html"><div class="ttname"><a href="../../d2/df1/a28865.html">spell_warl_demonic_circle_teleport</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:864</div></div>
-<div class="ttc" id="aa28869_html"><div class="ttname"><a href="../../d3/df5/a28869.html">spell_warl_fel_synergy</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:892</div></div>
-<div class="ttc" id="aa28873_html"><div class="ttname"><a href="../../dd/df7/a28873.html">spell_warl_haunt</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:931</div></div>
-<div class="ttc" id="aa28877_html"><div class="ttname"><a href="../../db/d89/a28877.html">spell_warl_haunt_aura</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:948</div></div>
-<div class="ttc" id="aa28881_html"><div class="ttname"><a href="../../d1/d7e/a28881.html">spell_warl_unstable_affliction</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:973</div></div>
-<div class="ttc" id="aa28885_html"><div class="ttname"><a href="../../db/da3/a28885.html">spell_warl_curse_of_doom</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:1001</div></div>
-<div class="ttc" id="aa28889_html"><div class="ttname"><a href="../../d6/dee/a28889.html">spell_warl_health_funnel</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:1035</div></div>
-<div class="ttc" id="aa28893_html"><div class="ttname"><a href="../../da/d9f/a28893.html">spell_warl_shadow_ward</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:1077</div></div>
-<div class="ttc" id="aa28897_html"><div class="ttname"><a href="../../dc/d62/a28897.html">spell_warl_glyph_of_shadowflame</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:1103</div></div>
-<div class="ttc" id="aa28901_html"><div class="ttname"><a href="../../d2/dd9/a28901.html">spell_warl_drain_soul</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:1125</div></div>
-<div class="ttc" id="aa28905_html"><div class="ttname"><a href="../../dd/d6c/a28905.html">spell_warl_shadowburn</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:1214</div></div>
-<div class="ttc" id="aa28909_html"><div class="ttname"><a href="../../d6/d8c/a28909.html">spell_warl_glyph_of_felguard</a></div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:1234</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  697</span>{</div>
+<div class="line"><span class="lineno">  698</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dd/d8c/a28627.html">spell_rog_savage_combat</a>);</div>
+<div class="line"><span class="lineno">  699</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d9/dfe/a28631.html">spell_rog_combat_potency</a>);</div>
+<div class="line"><span class="lineno">  700</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d8/d4a/a28635.html">spell_rog_blade_flurry</a>);</div>
+<div class="line"><span class="lineno">  701</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d2/ddb/a28639.html">spell_rog_cheat_death</a>);</div>
+<div class="line"><span class="lineno">  702</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d8/dea/a28643.html">spell_rog_deadly_poison</a>);</div>
+<div class="line"><span class="lineno">  703</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/d16/a28647.html">spell_rog_killing_spree</a>();</div>
+<div class="line"><span class="lineno">  704</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d7/db0/a28659.html">spell_rog_nerves_of_steel</a>);</div>
+<div class="line"><span class="lineno">  705</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d2/dbd/a28663.html">spell_rog_preparation</a>);</div>
+<div class="line"><span class="lineno">  706</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d8/df2/a28667.html">spell_rog_prey_on_the_weak</a>);</div>
+<div class="line"><span class="lineno">  707</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../de/de8/a28671.html">spell_rog_rupture</a>);</div>
+<div class="line"><span class="lineno">  708</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d2/d4c/a28675.html">spell_rog_shiv</a>);</div>
+<div class="line"><span class="lineno">  709</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d7/d04/a28679.html">spell_rog_tricks_of_the_trade</a>);</div>
+<div class="line"><span class="lineno">  710</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../da/d77/a28683.html">spell_rog_tricks_of_the_trade_proc</a>);</div>
+<div class="line"><span class="lineno">  711</span>    <a class="code hl_define" href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../db/d5c/a28687.html">spell_rog_pickpocket</a>);</div>
+<div class="line"><span class="lineno">  712</span>}</div>
+<div class="ttc" id="aa01958_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d3/d67/a01958.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2656</div></div>
+<div class="ttc" id="aa28627_html"><div class="ttname"><a href="../../dd/d8c/a28627.html">spell_rog_savage_combat</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:48</div></div>
+<div class="ttc" id="aa28631_html"><div class="ttname"><a href="../../d9/dfe/a28631.html">spell_rog_combat_potency</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:75</div></div>
+<div class="ttc" id="aa28635_html"><div class="ttname"><a href="../../d8/d4a/a28635.html">spell_rog_blade_flurry</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:91</div></div>
+<div class="ttc" id="aa28639_html"><div class="ttname"><a href="../../d2/ddb/a28639.html">spell_rog_cheat_death</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:146</div></div>
+<div class="ttc" id="aa28643_html"><div class="ttname"><a href="../../d8/dea/a28643.html">spell_rog_deadly_poison</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:197</div></div>
+<div class="ttc" id="aa28647_html"><div class="ttname"><a href="../../de/d16/a28647.html">spell_rog_killing_spree</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:286</div></div>
+<div class="ttc" id="aa28659_html"><div class="ttname"><a href="../../d7/db0/a28659.html">spell_rog_nerves_of_steel</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:418</div></div>
+<div class="ttc" id="aa28663_html"><div class="ttname"><a href="../../d2/dbd/a28663.html">spell_rog_preparation</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:451</div></div>
+<div class="ttc" id="aa28667_html"><div class="ttname"><a href="../../d8/df2/a28667.html">spell_rog_prey_on_the_weak</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:511</div></div>
+<div class="ttc" id="aa28671_html"><div class="ttname"><a href="../../de/de8/a28671.html">spell_rog_rupture</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:546</div></div>
+<div class="ttc" id="aa28675_html"><div class="ttname"><a href="../../d2/d4c/a28675.html">spell_rog_shiv</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:587</div></div>
+<div class="ttc" id="aa28679_html"><div class="ttname"><a href="../../d7/d04/a28679.html">spell_rog_tricks_of_the_trade</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:615</div></div>
+<div class="ttc" id="aa28683_html"><div class="ttname"><a href="../../da/d77/a28683.html">spell_rog_tricks_of_the_trade_proc</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:664</div></div>
+<div class="ttc" id="aa28687_html"><div class="ttname"><a href="../../db/d5c/a28687.html">spell_rog_pickpocket</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:679</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l02651">RegisterSpellAndAuraScriptPair</a>, and <a class="el" href="../../#l02649">RegisterSpellScript</a>.</p>
+<p class="reference">References <a class="el" href="../../#l02656">RegisterSpellScript</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../#l00035">AddSpellsScripts()</a>.</p>
 
@@ -522,8 +325,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_a5c81565c813a087452a284baefe3cb6.html">Spells</a></li><li class="navelem"><a class="el" href="../../d1/dd9/a04184.html">spell_warlock.cpp</a></li>
-    <li class="footer">Generated on Sun Dec 11 2022 11:33:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_a5c81565c813a087452a284baefe3cb6.html">Spells</a></li><li class="navelem"><a class="el" href="../../d1/dd9/a04184.html">spell_rogue.cpp</a></li>
+    <li class="footer">Generated on Sun Feb 5 2023 01:21:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,6 @@
 var a01127 =
 [
-    [ "Corpse", "d7/dc5/a07437.html", "d7/dc5/a07437" ],
+    [ "Corpse", "d2/dcb/a07439.html", "d2/dcb/a07439" ],
     [ "CORPSE_RECLAIM_RADIUS", "d9/d5b/a01127.html#a1cebf109f41dcdac8a90086696642782", null ],
     [ "MAX_CORPSE_TYPE", "d9/d5b/a01127.html#aec0512ffe7d6a8f7dd8330c334bb4fc3", null ],
     [ "CorpseFlags", "d9/d5b/a01127.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537c", [

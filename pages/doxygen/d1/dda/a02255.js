@@ -1,6 +1,6 @@
 var a02255 =
 [
-    [ "ban_commandscript", "d8/d94/a10929.html", "d8/d94/a10929" ],
+    [ "ban_commandscript", "db/ddc/a10935.html", "db/ddc/a10935" ],
     [ "BanMode", "d1/dda/a02255.html#aee9acfaac97a86a40bad738a75eb5264", [
       [ "BAN_ACCOUNT", "d1/dda/a02255.html#aee9acfaac97a86a40bad738a75eb5264a7092b1d29da920594bf62c7abe0e9ba1", null ],
       [ "BAN_CHARACTER", "d1/dda/a02255.html#aee9acfaac97a86a40bad738a75eb5264ab7cde4c4b1dd975c191f10ab0b18ab79", null ],

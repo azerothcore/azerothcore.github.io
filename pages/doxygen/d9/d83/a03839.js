@@ -1,11 +1,11 @@
 var a03839 =
 [
-    [ "boss_murmur", "d4/d1d/a24285.html", "d4/d1d/a24285" ],
-    [ "boss_murmur::boss_murmurAI", "d1/dff/a24289.html", "d1/dff/a24289" ],
-    [ "spell_murmur_sonic_boom_effect", "dc/d8b/a24293.html", "dc/d8b/a24293" ],
-    [ "spell_murmur_sonic_boom_effect::spell_murmur_sonic_boom_effect_SpellScript", "d9/db6/a24297.html", "d9/db6/a24297" ],
-    [ "spell_murmur_thundering_storm", "dd/dd9/a24301.html", "dd/dd9/a24301" ],
-    [ "spell_murmur_thundering_storm::spell_murmur_thundering_storm_SpellScript", "d1/d22/a24305.html", "d1/d22/a24305" ],
+    [ "boss_murmur", "d7/d03/a24271.html", "d7/d03/a24271" ],
+    [ "boss_murmur::boss_murmurAI", "dc/d54/a24275.html", "dc/d54/a24275" ],
+    [ "spell_murmur_sonic_boom_effect", "d6/d7f/a24279.html", "d6/d7f/a24279" ],
+    [ "spell_murmur_sonic_boom_effect::spell_murmur_sonic_boom_effect_SpellScript", "d0/da1/a24283.html", "d0/da1/a24283" ],
+    [ "spell_murmur_thundering_storm", "df/d9c/a24287.html", "df/d9c/a24287" ],
+    [ "spell_murmur_thundering_storm::spell_murmur_thundering_storm_SpellScript", "d6/d33/a24291.html", "d6/d33/a24291" ],
     [ "Murmur", "d9/d83/a03839.html#a9d326acfd111c13225ec89c516ee3bdb", [
       [ "EMOTE_SONIC_BOOM", "d9/d83/a03839.html#a9d326acfd111c13225ec89c516ee3bdbaaf85560beac4309bd7674acafda9e6fe", null ],
       [ "SPELL_RESONANCE", "d9/d83/a03839.html#a9d326acfd111c13225ec89c516ee3bdba5d4f2fa2643db3050fbc5b0bb6833af9", null ],
