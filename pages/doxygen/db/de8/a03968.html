@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Outland/HellfireCitadel/BloodFurnace/boss_the_maker.cpp File Reference</title>
+<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Outland/HellfireCitadel/BloodFurnace/boss_broggok.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -109,20 +109,28 @@ $(document).ready(function(){initNavTree('db/de8/a03968.html','../../'); initRes
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">boss_the_maker.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">boss_broggok.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">blood_furnace.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dde/a25417.html">boss_the_maker</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8a/a25395.html">boss_broggok</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d46/a25421.html">boss_the_maker::boss_the_makerAI</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/a25399.html">boss_broggok::boss_broggokAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/a25403.html">go_broggok_lever</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de1/a25407.html">spell_broggok_poison_cloud</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dcd/a25411.html">spell_broggok_poison_cloud::spell_broggok_poison_cloud_AuraScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
@@ -214,51 +222,43 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="../../d5/de2/a03830.html#a0ec08fe05ebfdddfa34c747c9c62a165a0aee038b593545fefa453e38f0b499bb">EVENT_SPELL_ENRAGE</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="../../d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165a9c5d1f42537cacfa5399c0fad0c3e9e4">SPELL_SLIME_SPRAY</a> = 30913
-, <br />
-&#160;&#160;<a class="el" href="../../d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165ad985868160cfc9033e029c6112712009">SPELL_POISON_CLOUD</a> = 30916
-, <br />
-&#160;&#160;<a class="el" href="../../d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165a53aca891b27c32c84e1da919e607b1a2">SPELL_POISON_BOLT</a> = 30917
-, <br />
-&#160;&#160;<a class="el" href="../../d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165a6ab0bda74bcf7baf41bcd485a9ce0edc">SPELL_POISON</a> = 30914
-, <br />
-&#160;&#160;<a class="el" href="../../d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165adfd5341b09e2484102626e33f45d80a2">EVENT_SPELL_SLIME</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165ac4df512f98244a61718a88df3899249a">EVENT_SPELL_POISON</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d7/db0/a03962.html#a0ec08fe05ebfdddfa34c747c9c62a165ac904c0e60fd97efcd2f34944863ebdea">EVENT_SPELL_BOLT</a> = 3
-, <br />
 &#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a> = 0
 , <br />
-&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a> = 1
+&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a9c5d1f42537cacfa5399c0fad0c3e9e4">SPELL_SLIME_SPRAY</a> = 30913
 , <br />
-&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ac06e5bbf853ac54e131d78954cadb856">SAY_DIE</a> = 2
+&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ad985868160cfc9033e029c6112712009">SPELL_POISON_CLOUD</a> = 30916
 , <br />
-&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165aeaa3796b4c9ed2cbe971eb624e8c638a">SPELL_ACID_SPRAY</a> = 38153
+&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a53aca891b27c32c84e1da919e607b1a2">SPELL_POISON_BOLT</a> = 30917
 , <br />
-&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165adcc443aeb9002320c4e1489526672a05">SPELL_EXPLODING_BREAKER</a> = 30925
+&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a6ab0bda74bcf7baf41bcd485a9ce0edc">SPELL_POISON</a> = 30914
 , <br />
-&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ace00400987bd4444f7fe64180848cf5b">SPELL_KNOCKDOWN</a> = 20276
+&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165adfd5341b09e2484102626e33f45d80a2">EVENT_SPELL_SLIME</a> = 1
 , <br />
-&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165afa63300aa4ebffd0e035a8a25610ce1b">SPELL_DOMINATION</a> = 25772
+&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ac4df512f98244a61718a88df3899249a">EVENT_SPELL_POISON</a> = 2
 , <br />
-&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a1e89d4ed806c6116874e12931313d2b6">EVENT_SPELL_ACID</a> = 1
+&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ac904c0e60fd97efcd2f34944863ebdea">EVENT_SPELL_BOLT</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a1bcf9aa1eca0b667f462b5ac9f6feb96">EVENT_SPELL_EXPLODING</a> = 2
+&#160;&#160;<a class="el" href="../../d4/d2e/a03974.html#a0ec08fe05ebfdddfa34c747c9c62a165a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a> = 0
 , <br />
-&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165af22b1f1cdff31aee13e0cb0f81589cab">EVENT_SPELL_DOMINATION</a> = 3
+&#160;&#160;<a class="el" href="../../d4/d2e/a03974.html#a0ec08fe05ebfdddfa34c747c9c62a165a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a> = 1
 , <br />
-&#160;&#160;<a class="el" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a9c4a19a8704826234efa278cd64b2339">EVENT_SPELL_KNOCKDOWN</a> = 4
+&#160;&#160;<a class="el" href="../../d4/d2e/a03974.html#a0ec08fe05ebfdddfa34c747c9c62a165ac06e5bbf853ac54e131d78954cadb856">SAY_DIE</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2e/a03974.html#a0ec08fe05ebfdddfa34c747c9c62a165adcc443aeb9002320c4e1489526672a05">SPELL_EXPLODING_BREAKER</a> = 30925
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2e/a03974.html#a0ec08fe05ebfdddfa34c747c9c62a165afa63300aa4ebffd0e035a8a25610ce1b">SPELL_DOMINATION</a> = 30923
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2e/a03974.html#a0ec08fe05ebfdddfa34c747c9c62a165a1bcf9aa1eca0b667f462b5ac9f6feb96">EVENT_SPELL_EXPLODING</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d2e/a03974.html#a0ec08fe05ebfdddfa34c747c9c62a165af22b1f1cdff31aee13e0cb0f81589cab">EVENT_SPELL_DOMINATION</a> = 2
 <br />
  }</td></tr>
 <tr class="separator:a0ec08fe05ebfdddfa34c747c9c62a165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac774ad3692466e07cfce63b6c7fe7dde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de8/a03968.html#ac774ad3692466e07cfce63b6c7fe7dde">AddSC_boss_the_maker</a> ()</td></tr>
-<tr class="separator:ac774ad3692466e07cfce63b6c7fe7dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a662bbd04ed2e2a16bfda7904ccb2fa9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de8/a03968.html#a662bbd04ed2e2a16bfda7904ccb2fa9e">AddSC_boss_broggok</a> ()</td></tr>
+<tr class="separator:a662bbd04ed2e2a16bfda7904ccb2fa9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a0ec08fe05ebfdddfa34c747c9c62a165" name="a0ec08fe05ebfdddfa34c747c9c62a165"></a>
@@ -327,65 +327,59 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a0ec08fe05ebfdddfa34c747c9c62a165a47c752fff069f3e55065795eef2a9bfe" name="a0ec08fe05ebfdddfa34c747c9c62a165a47c752fff069f3e55065795eef2a9bfe"></a>SAY_AGGRO&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ec08fe05ebfdddfa34c747c9c62a165a7f4f26c3b97b953fd229ac5d308024d5" name="a0ec08fe05ebfdddfa34c747c9c62a165a7f4f26c3b97b953fd229ac5d308024d5"></a>SAY_KILL&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ec08fe05ebfdddfa34c747c9c62a165ac06e5bbf853ac54e131d78954cadb856" name="a0ec08fe05ebfdddfa34c747c9c62a165ac06e5bbf853ac54e131d78954cadb856"></a>SAY_DIE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0ec08fe05ebfdddfa34c747c9c62a165aeaa3796b4c9ed2cbe971eb624e8c638a" name="a0ec08fe05ebfdddfa34c747c9c62a165aeaa3796b4c9ed2cbe971eb624e8c638a"></a>SPELL_ACID_SPRAY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ec08fe05ebfdddfa34c747c9c62a165adcc443aeb9002320c4e1489526672a05" name="a0ec08fe05ebfdddfa34c747c9c62a165adcc443aeb9002320c4e1489526672a05"></a>SPELL_EXPLODING_BREAKER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0ec08fe05ebfdddfa34c747c9c62a165ace00400987bd4444f7fe64180848cf5b" name="a0ec08fe05ebfdddfa34c747c9c62a165ace00400987bd4444f7fe64180848cf5b"></a>SPELL_KNOCKDOWN&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ec08fe05ebfdddfa34c747c9c62a165afa63300aa4ebffd0e035a8a25610ce1b" name="a0ec08fe05ebfdddfa34c747c9c62a165afa63300aa4ebffd0e035a8a25610ce1b"></a>SPELL_DOMINATION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0ec08fe05ebfdddfa34c747c9c62a165a1e89d4ed806c6116874e12931313d2b6" name="a0ec08fe05ebfdddfa34c747c9c62a165a1e89d4ed806c6116874e12931313d2b6"></a>EVENT_SPELL_ACID&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ec08fe05ebfdddfa34c747c9c62a165a1bcf9aa1eca0b667f462b5ac9f6feb96" name="a0ec08fe05ebfdddfa34c747c9c62a165a1bcf9aa1eca0b667f462b5ac9f6feb96"></a>EVENT_SPELL_EXPLODING&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ec08fe05ebfdddfa34c747c9c62a165af22b1f1cdff31aee13e0cb0f81589cab" name="a0ec08fe05ebfdddfa34c747c9c62a165af22b1f1cdff31aee13e0cb0f81589cab"></a>EVENT_SPELL_DOMINATION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0ec08fe05ebfdddfa34c747c9c62a165a9c4a19a8704826234efa278cd64b2339" name="a0ec08fe05ebfdddfa34c747c9c62a165a9c4a19a8704826234efa278cd64b2339"></a>EVENT_SPELL_KNOCKDOWN&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   23</span>{</div>
-<div class="line"><span class="lineno">   24</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>                   = 0,</div>
-<div class="line"><span class="lineno">   25</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a>                    = 1,</div>
-<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ac06e5bbf853ac54e131d78954cadb856">SAY_DIE</a>                     = 2,</div>
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>               = 0,</div>
 <div class="line"><span class="lineno">   27</span> </div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165aeaa3796b4c9ed2cbe971eb624e8c638a">SPELL_ACID_SPRAY</a>            = 38153,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165adcc443aeb9002320c4e1489526672a05">SPELL_EXPLODING_BREAKER</a>     = 30925,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ace00400987bd4444f7fe64180848cf5b">SPELL_KNOCKDOWN</a>             = 20276,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165afa63300aa4ebffd0e035a8a25610ce1b">SPELL_DOMINATION</a>            = 25772,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a9c5d1f42537cacfa5399c0fad0c3e9e4">SPELL_SLIME_SPRAY</a>       = 30913,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ad985868160cfc9033e029c6112712009">SPELL_POISON_CLOUD</a>      = 30916,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a53aca891b27c32c84e1da919e607b1a2">SPELL_POISON_BOLT</a>       = 30917,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a6ab0bda74bcf7baf41bcd485a9ce0edc">SPELL_POISON</a>            = 30914,</div>
 <div class="line"><span class="lineno">   32</span> </div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a1e89d4ed806c6116874e12931313d2b6">EVENT_SPELL_ACID</a>                = 1,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a1bcf9aa1eca0b667f462b5ac9f6feb96">EVENT_SPELL_EXPLODING</a>           = 2,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165af22b1f1cdff31aee13e0cb0f81589cab">EVENT_SPELL_DOMINATION</a>          = 3,</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a9c4a19a8704826234efa278cd64b2339">EVENT_SPELL_KNOCKDOWN</a>           = 4,</div>
-<div class="line"><span class="lineno">   37</span>};</div>
-<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165a1bcf9aa1eca0b667f462b5ac9f6feb96"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a1bcf9aa1eca0b667f462b5ac9f6feb96">EVENT_SPELL_EXPLODING</a></div><div class="ttdeci">@ EVENT_SPELL_EXPLODING</div><div class="ttdef"><b>Definition:</b> boss_the_maker.cpp:34</div></div>
-<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165a1e89d4ed806c6116874e12931313d2b6"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a1e89d4ed806c6116874e12931313d2b6">EVENT_SPELL_ACID</a></div><div class="ttdeci">@ EVENT_SPELL_ACID</div><div class="ttdef"><b>Definition:</b> boss_the_maker.cpp:33</div></div>
-<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_the_maker.cpp:24</div></div>
-<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165a7f4f26c3b97b953fd229ac5d308024d5"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a></div><div class="ttdeci">@ SAY_KILL</div><div class="ttdef"><b>Definition:</b> boss_the_maker.cpp:25</div></div>
-<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165a9c4a19a8704826234efa278cd64b2339"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a9c4a19a8704826234efa278cd64b2339">EVENT_SPELL_KNOCKDOWN</a></div><div class="ttdeci">@ EVENT_SPELL_KNOCKDOWN</div><div class="ttdef"><b>Definition:</b> boss_the_maker.cpp:36</div></div>
-<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165ac06e5bbf853ac54e131d78954cadb856"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ac06e5bbf853ac54e131d78954cadb856">SAY_DIE</a></div><div class="ttdeci">@ SAY_DIE</div><div class="ttdef"><b>Definition:</b> boss_the_maker.cpp:26</div></div>
-<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165ace00400987bd4444f7fe64180848cf5b"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ace00400987bd4444f7fe64180848cf5b">SPELL_KNOCKDOWN</a></div><div class="ttdeci">@ SPELL_KNOCKDOWN</div><div class="ttdef"><b>Definition:</b> boss_the_maker.cpp:30</div></div>
-<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165adcc443aeb9002320c4e1489526672a05"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165adcc443aeb9002320c4e1489526672a05">SPELL_EXPLODING_BREAKER</a></div><div class="ttdeci">@ SPELL_EXPLODING_BREAKER</div><div class="ttdef"><b>Definition:</b> boss_the_maker.cpp:29</div></div>
-<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165aeaa3796b4c9ed2cbe971eb624e8c638a"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165aeaa3796b4c9ed2cbe971eb624e8c638a">SPELL_ACID_SPRAY</a></div><div class="ttdeci">@ SPELL_ACID_SPRAY</div><div class="ttdef"><b>Definition:</b> boss_the_maker.cpp:28</div></div>
-<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165af22b1f1cdff31aee13e0cb0f81589cab"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165af22b1f1cdff31aee13e0cb0f81589cab">EVENT_SPELL_DOMINATION</a></div><div class="ttdeci">@ EVENT_SPELL_DOMINATION</div><div class="ttdef"><b>Definition:</b> boss_the_maker.cpp:35</div></div>
-<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165afa63300aa4ebffd0e035a8a25610ce1b"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165afa63300aa4ebffd0e035a8a25610ce1b">SPELL_DOMINATION</a></div><div class="ttdeci">@ SPELL_DOMINATION</div><div class="ttdef"><b>Definition:</b> boss_the_maker.cpp:31</div></div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165adfd5341b09e2484102626e33f45d80a2">EVENT_SPELL_SLIME</a>       = 1,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ac4df512f98244a61718a88df3899249a">EVENT_SPELL_POISON</a>      = 2,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ac904c0e60fd97efcd2f34944863ebdea">EVENT_SPELL_BOLT</a>        = 3</div>
+<div class="line"><span class="lineno">   36</span>};</div>
+<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_broggok.cpp:26</div></div>
+<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165a53aca891b27c32c84e1da919e607b1a2"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a53aca891b27c32c84e1da919e607b1a2">SPELL_POISON_BOLT</a></div><div class="ttdeci">@ SPELL_POISON_BOLT</div><div class="ttdef"><b>Definition:</b> boss_broggok.cpp:30</div></div>
+<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165a6ab0bda74bcf7baf41bcd485a9ce0edc"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a6ab0bda74bcf7baf41bcd485a9ce0edc">SPELL_POISON</a></div><div class="ttdeci">@ SPELL_POISON</div><div class="ttdef"><b>Definition:</b> boss_broggok.cpp:31</div></div>
+<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165a9c5d1f42537cacfa5399c0fad0c3e9e4"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165a9c5d1f42537cacfa5399c0fad0c3e9e4">SPELL_SLIME_SPRAY</a></div><div class="ttdeci">@ SPELL_SLIME_SPRAY</div><div class="ttdef"><b>Definition:</b> boss_broggok.cpp:28</div></div>
+<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165ac4df512f98244a61718a88df3899249a"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ac4df512f98244a61718a88df3899249a">EVENT_SPELL_POISON</a></div><div class="ttdeci">@ EVENT_SPELL_POISON</div><div class="ttdef"><b>Definition:</b> boss_broggok.cpp:34</div></div>
+<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165ac904c0e60fd97efcd2f34944863ebdea"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ac904c0e60fd97efcd2f34944863ebdea">EVENT_SPELL_BOLT</a></div><div class="ttdeci">@ EVENT_SPELL_BOLT</div><div class="ttdef"><b>Definition:</b> boss_broggok.cpp:35</div></div>
+<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165ad985868160cfc9033e029c6112712009"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165ad985868160cfc9033e029c6112712009">SPELL_POISON_CLOUD</a></div><div class="ttdeci">@ SPELL_POISON_CLOUD</div><div class="ttdef"><b>Definition:</b> boss_broggok.cpp:29</div></div>
+<div class="ttc" id="aa03968_html_a0ec08fe05ebfdddfa34c747c9c62a165adfd5341b09e2484102626e33f45d80a2"><div class="ttname"><a href="../../db/de8/a03968.html#a0ec08fe05ebfdddfa34c747c9c62a165adfd5341b09e2484102626e33f45d80a2">EVENT_SPELL_SLIME</a></div><div class="ttdeci">@ EVENT_SPELL_SLIME</div><div class="ttdef"><b>Definition:</b> boss_broggok.cpp:33</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ac774ad3692466e07cfce63b6c7fe7dde" name="ac774ad3692466e07cfce63b6c7fe7dde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac774ad3692466e07cfce63b6c7fe7dde">&#9670;&#160;</a></span>AddSC_boss_the_maker()</h2>
+<a id="a662bbd04ed2e2a16bfda7904ccb2fa9e" name="a662bbd04ed2e2a16bfda7904ccb2fa9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a662bbd04ed2e2a16bfda7904ccb2fa9e">&#9670;&#160;</a></span>AddSC_boss_broggok()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_boss_the_maker </td>
+          <td class="memname">void AddSC_boss_broggok </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  141</span>{</div>
-<div class="line"><span class="lineno">  142</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/dde/a25417.html">boss_the_maker</a>();</div>
-<div class="line"><span class="lineno">  143</span>}</div>
-<div class="ttc" id="aa25417_html"><div class="ttname"><a href="../../da/dde/a25417.html">boss_the_maker</a></div><div class="ttdef"><b>Definition:</b> boss_the_maker.cpp:40</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  214</span>{</div>
+<div class="line"><span class="lineno">  215</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d8a/a25395.html">boss_broggok</a>();</div>
+<div class="line"><span class="lineno">  216</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/dde/a25403.html">go_broggok_lever</a>();</div>
+<div class="line"><span class="lineno">  217</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/de1/a25407.html">spell_broggok_poison_cloud</a>();</div>
+<div class="line"><span class="lineno">  218</span>}</div>
+<div class="ttc" id="aa25395_html"><div class="ttname"><a href="../../d8/d8a/a25395.html">boss_broggok</a></div><div class="ttdef"><b>Definition:</b> boss_broggok.cpp:39</div></div>
+<div class="ttc" id="aa25403_html"><div class="ttname"><a href="../../d1/dde/a25403.html">go_broggok_lever</a></div><div class="ttdef"><b>Definition:</b> boss_broggok.cpp:156</div></div>
+<div class="ttc" id="aa25407_html"><div class="ttname"><a href="../../d5/de1/a25407.html">spell_broggok_poison_cloud</a></div><div class="ttdef"><b>Definition:</b> boss_broggok.cpp:177</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00111">AddOutlandScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00113">AddOutlandScripts()</a>.</p>
 
 </div>
 </div>
@@ -394,8 +388,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_aa56e8ce1c3e0d32a59f1a16b86dbc72.html">Outland</a></li><li class="navelem"><a class="el" href="../../dir_035874e76bcc0de7e09cf1c5f0f17641.html">HellfireCitadel</a></li><li class="navelem"><a class="el" href="../../dir_ca38c8f641e293b4dda7eec68c8e9454.html">BloodFurnace</a></li><li class="navelem"><a class="el" href="../../db/de8/a03968.html">boss_the_maker.cpp</a></li>
-    <li class="footer">Generated on Sun Dec 11 2022 11:33:29 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_aa56e8ce1c3e0d32a59f1a16b86dbc72.html">Outland</a></li><li class="navelem"><a class="el" href="../../dir_035874e76bcc0de7e09cf1c5f0f17641.html">HellfireCitadel</a></li><li class="navelem"><a class="el" href="../../dir_ca38c8f641e293b4dda7eec68c8e9454.html">BloodFurnace</a></li><li class="navelem"><a class="el" href="../../db/de8/a03968.html">boss_broggok.cpp</a></li>
+    <li class="footer">Generated on Sun Feb 5 2023 01:21:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

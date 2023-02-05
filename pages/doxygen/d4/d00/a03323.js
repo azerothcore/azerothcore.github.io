@@ -1,9 +1,9 @@
 var a03323 =
 [
-    [ "boss_devourer_of_souls", "d4/d79/a17053.html", "d4/d79/a17053" ],
-    [ "boss_devourer_of_souls::boss_devourer_of_soulsAI", "d3/d27/a17057.html", "d3/d27/a17057" ],
-    [ "spell_wailing_souls_periodic", "df/dc3/a17061.html", "df/dc3/a17061" ],
-    [ "spell_wailing_souls_periodic::spell_wailing_souls_periodic_AuraScript", "d6/d6b/a17065.html", "d6/d6b/a17065" ],
+    [ "boss_devourer_of_souls", "d2/d59/a17051.html", "d2/d59/a17051" ],
+    [ "boss_devourer_of_souls::boss_devourer_of_soulsAI", "d4/de2/a17055.html", "d4/de2/a17055" ],
+    [ "spell_wailing_souls_periodic", "d8/d73/a17059.html", "d8/d73/a17059" ],
+    [ "spell_wailing_souls_periodic::spell_wailing_souls_periodic_AuraScript", "d7/d45/a17063.html", "d7/d45/a17063" ],
     [ "eDisplayIds", "d4/d00/a03323.html#a8a0b5200727c3a9b1c2dc63a94c0d220", [
       [ "DISPLAY_ANGER", "d4/d00/a03323.html#a8a0b5200727c3a9b1c2dc63a94c0d220ac2d509bd2b8f351f25ae2be6b18c41f1", null ],
       [ "DISPLAY_SORROW", "d4/d00/a03323.html#a8a0b5200727c3a9b1c2dc63a94c0d220ade64fe1a3c07b22006f0212281610010", null ],

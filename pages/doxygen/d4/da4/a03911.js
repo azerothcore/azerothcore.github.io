@@ -1,10 +1,10 @@
 var a03911 =
 [
-    [ "boss_ahune", "d8/d4c/a25181.html", "d8/d4c/a25181" ],
-    [ "boss_ahune::boss_ahuneAI", "dd/d77/a25185.html", "dd/d77/a25185" ],
-    [ "go_ahune_ice_stone", "de/db5/a25189.html", "de/db5/a25189" ],
-    [ "npc_ahune_frozen_core", "d2/d00/a25193.html", "d2/d00/a25193" ],
-    [ "npc_ahune_frozen_core::npc_ahune_frozen_coreAI", "de/d62/a25197.html", "de/d62/a25197" ],
+    [ "boss_ahune", "d9/d32/a25167.html", "d9/d32/a25167" ],
+    [ "boss_ahune::boss_ahuneAI", "d2/d25/a25171.html", "d2/d25/a25171" ],
+    [ "go_ahune_ice_stone", "d0/d24/a25175.html", "d0/d24/a25175" ],
+    [ "npc_ahune_frozen_core", "d0/d60/a25179.html", "d0/d60/a25179" ],
+    [ "npc_ahune_frozen_core::npc_ahune_frozen_coreAI", "df/de1/a25183.html", "df/de1/a25183" ],
     [ "AHUNE_DEFAULT_MODEL", "d4/da4/a03911.html#a5c584a6971720205facfbeeb33fa396d", null ],
     [ "GOSSIP_TEXT_ID", "d4/da4/a03911.html#ad37620de8e259fcdb65d088338efef11", null ],
     [ "ITEM_MAGMA_TOTEM", "d4/da4/a03911.html#ae085b117237d65a1258078db0c9a8b08", null ],

@@ -1,11 +1,11 @@
 var a03131 =
 [
-    [ "npc_spitelashes", "d0/d3c/a15281.html", "d0/d3c/a15281" ],
-    [ "npc_spitelashes::npc_spitelashesAI", "d2/dca/a15285.html", "d2/dca/a15285" ],
-    [ "npc_rizzle_sprysprocket", "d5/d11/a15289.html", "d5/d11/a15289" ],
-    [ "npc_rizzle_sprysprocket::npc_rizzle_sprysprocketAI", "d3/d12/a15293.html", "d3/d12/a15293" ],
-    [ "npc_depth_charge", "d5/d08/a15297.html", "d5/d08/a15297" ],
-    [ "npc_depth_charge::npc_depth_chargeAI", "da/dd4/a15301.html", "da/dd4/a15301" ],
+    [ "npc_spitelashes", "d1/d69/a15279.html", "d1/d69/a15279" ],
+    [ "npc_spitelashes::npc_spitelashesAI", "d7/d29/a15283.html", "d7/d29/a15283" ],
+    [ "npc_rizzle_sprysprocket", "d2/dc1/a15287.html", "d2/dc1/a15287" ],
+    [ "npc_rizzle_sprysprocket::npc_rizzle_sprysprocketAI", "db/d98/a15291.html", "db/d98/a15291" ],
+    [ "npc_depth_charge", "d1/db2/a15295.html", "d1/db2/a15295" ],
+    [ "npc_depth_charge::npc_depth_chargeAI", "db/d8e/a15299.html", "db/d8e/a15299" ],
     [ "GOSSIP_GET_MOONSTONE", "db/d09/a03131.html#a4ef2862e24bf82afba9bcd547ac3dd7d", null ],
     [ "RizzleSprysprocketData", "db/d09/a03131.html#ad694d8f9c4171422b48a06322c8bf5a3", [
       [ "QUEST_CHASING_THE_MOONSTONE", "db/d09/a03131.html#ad694d8f9c4171422b48a06322c8bf5a3a62167aa10a1e13501da60bbfd43df100", null ],

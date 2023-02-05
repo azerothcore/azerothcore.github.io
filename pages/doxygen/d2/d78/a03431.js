@@ -1,7 +1,7 @@
 var a03431 =
 [
-    [ "icecrown_citadel_teleport", "d8/df8/a19825.html", "d8/df8/a19825" ],
-    [ "at_frozen_throne_teleport", "d1/d48/a19829.html", "d1/d48/a19829" ],
+    [ "icecrown_citadel_teleport", "dd/d40/a19815.html", "dd/d40/a19815" ],
+    [ "at_frozen_throne_teleport", "d0/d10/a19819.html", "d0/d10/a19819" ],
     [ "GOSSIP_SENDER_ICC_PORT", "d2/d78/a03431.html#a6fba34564bcdeb5d7a73d3c21850f02a", null ],
     [ "ICCTeleportOption", "d2/d78/a03431.html#a6fd4f2624c3269860a58fdcfbb273928", [
       [ "ICC_TELEPORT_GOSSIP_OPT_LIGHTS_HAMMER", "d2/d78/a03431.html#a6fd4f2624c3269860a58fdcfbb273928a5d845311579fa05dd470ab95e3810591", null ],

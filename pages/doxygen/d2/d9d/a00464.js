@@ -1,7 +1,7 @@
 var a00464 =
 [
-    [ "Acore::ACLogSink< T >", "d6/d5f/a05173.html", "d6/d5f/a05173" ],
-    [ "Acore::AsyncProcessResultImplementation", "d3/dda/a05177.html", "d3/dda/a05177" ],
+    [ "Acore::ACLogSink< T >", "dc/daa/a05179.html", "dc/daa/a05179" ],
+    [ "Acore::AsyncProcessResultImplementation", "d7/d48/a05183.html", "d7/d48/a05183" ],
     [ "CreateChildProcess", "d2/d9d/a00464.html#a18bbd8a6717e647e963654123259a033", null ],
     [ "MakeACLogSink", "d2/d9d/a00464.html#adcee37690522709ab4bd0b6f6e757dc5", null ],
     [ "SearchExecutableInPath", "d2/d9d/a00464.html#a9de098dac5e38f8c2cdbeb1d4d706881", null ],

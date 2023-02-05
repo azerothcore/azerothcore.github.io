@@ -1,55 +1,60 @@
 var a04118 =
 [
-    [ "npc_natrualist_bite", "d4/d30/a26533.html", "d4/d30/a26533" ],
-    [ "npc_natrualist_bite::npc_natrualist_biteAI", "db/d4f/a26537.html", "db/d4f/a26537" ],
-    [ "npcs_ashyen_and_keleth", "dc/d88/a26541.html", "dc/d88/a26541" ],
-    [ "npc_cooshcoosh", "d2/dc4/a26545.html", "d2/dc4/a26545" ],
-    [ "npc_cooshcoosh::npc_cooshcooshAI", "d2/dbb/a26549.html", "d2/dbb/a26549" ],
-    [ "npc_elder_kuruti", "d4/d72/a26553.html", "d4/d72/a26553" ],
-    [ "npc_mortog_steamhead", "d5/df8/a26557.html", "d5/df8/a26557" ],
-    [ "npc_kayra_longmane", "d1/de1/a26561.html", "d1/de1/a26561" ],
-    [ "npc_kayra_longmane::npc_kayra_longmaneAI", "d2/dfa/a26565.html", "d2/dfa/a26565" ],
-    [ "npc_timothy_daniels", "d5/dcb/a26569.html", "d5/dcb/a26569" ],
-    [ "GOSSIP_COOSH", "d4/ddb/a04118.html#acb7291e27b6234531ab929ee86cc8bfc", null ],
-    [ "GOSSIP_ITEM_BLESS_ASH", "d4/ddb/a04118.html#a867ce6dd17c9cac433ca5e937ea1346d", null ],
-    [ "GOSSIP_ITEM_BLESS_KEL", "d4/ddb/a04118.html#ada16b0f444477658271881cdab50cc9b", null ],
-    [ "GOSSIP_ITEM_KUR1", "d4/ddb/a04118.html#a698dc988515399f0db79cb5086db0430", null ],
-    [ "GOSSIP_ITEM_KUR2", "d4/ddb/a04118.html#ab854dfd056266ac7668d88e36d0adbe1", null ],
-    [ "GOSSIP_ITEM_KUR3", "d4/ddb/a04118.html#ad15dac8fe106f1f267ce0a7e29ef6a2b", null ],
-    [ "GOSSIP_TEXT_BROWSE_POISONS", "d4/ddb/a04118.html#aa34e012afb5cc46350b7a751e90d528b", null ],
-    [ "GOSSIP_TIMOTHY_DANIELS_ITEM1", "d4/ddb/a04118.html#a80cc7983f5b3dc3edbcaf9b937381cd0", null ],
-    [ "AshyenAndKeleth", "d4/ddb/a04118.html#ad07e6f3138b7a90b5b3d0a3f375da295", [
-      [ "GOSSIP_REWARD_BLESS", "d4/ddb/a04118.html#ad07e6f3138b7a90b5b3d0a3f375da295a1e884264e2f5faafdfab2304bca484be", null ],
-      [ "NPC_ASHYEN", "d4/ddb/a04118.html#ad07e6f3138b7a90b5b3d0a3f375da295a8685dfd4b3f61488a2ca6dd8637eb8b3", null ],
-      [ "NPC_KELETH", "d4/ddb/a04118.html#ad07e6f3138b7a90b5b3d0a3f375da295a7ac167e934d9ebb0c2889e2383bc4af9", null ],
-      [ "SPELL_BLESS_ASH_EXA", "d4/ddb/a04118.html#ad07e6f3138b7a90b5b3d0a3f375da295a9e7edca0b7371e1a570c31bd1a0120d2", null ],
-      [ "SPELL_BLESS_ASH_REV", "d4/ddb/a04118.html#ad07e6f3138b7a90b5b3d0a3f375da295afd527426b27c7c875f051e4e47b072a2", null ],
-      [ "SPELL_BLESS_ASH_HON", "d4/ddb/a04118.html#ad07e6f3138b7a90b5b3d0a3f375da295a0405119dd5a0313b7d65e723c3be34af", null ],
-      [ "SPELL_BLESS_ASH_FRI", "d4/ddb/a04118.html#ad07e6f3138b7a90b5b3d0a3f375da295a8b86a8a31bbb60d13dc3520010fd2475", null ],
-      [ "SPELL_BLESS_KEL_EXA", "d4/ddb/a04118.html#ad07e6f3138b7a90b5b3d0a3f375da295a8e0e5d036b014032f7265803e1d2c193", null ],
-      [ "SPELL_BLESS_KEL_REV", "d4/ddb/a04118.html#ad07e6f3138b7a90b5b3d0a3f375da295a605d6131c6e52b072081af1396a6d223", null ],
-      [ "SPELL_BLESS_KEL_HON", "d4/ddb/a04118.html#ad07e6f3138b7a90b5b3d0a3f375da295a26c96220e019e511995ac0febd575878", null ],
-      [ "SPELL_BLESS_KEL_FRI", "d4/ddb/a04118.html#ad07e6f3138b7a90b5b3d0a3f375da295a6ab14a1afd59603bc4d258e703cdeff3", null ]
+    [ "npc_raliq_the_drunk", "d2/d0e/a26387.html", "d2/d0e/a26387" ],
+    [ "npc_raliq_the_drunk::npc_raliq_the_drunkAI", "d1/d32/a26391.html", "d1/d32/a26391" ],
+    [ "npc_salsalabim", "d7/d47/a26395.html", "d7/d47/a26395" ],
+    [ "npc_salsalabim::npc_salsalabimAI", "d6/dd3/a26399.html", "d6/dd3/a26399" ],
+    [ "npc_shattrathflaskvendors", "d3/d07/a26403.html", "d3/d07/a26403" ],
+    [ "npc_zephyr", "d7/d9f/a26407.html", "d7/d9f/a26407" ],
+    [ "npc_kservant", "dd/d35/a26411.html", "dd/d35/a26411" ],
+    [ "npc_kservant::npc_kservantAI", "dd/da2/a26415.html", "dd/da2/a26415" ],
+    [ "npc_ishanah", "d6/d5c/a26419.html", "d6/d5c/a26419" ],
+    [ "npc_ishanah::ishanahAI", "d3/d43/a26423.html", "d3/d43/a26423" ],
+    [ "GOSSIP_HZ", "d4/ddb/a04118.html#a589613b07e5af69d0f6548f8c26c600c", null ],
+    [ "GOSSIP_RALIQ", "d4/ddb/a04118.html#ad12cfd4288a8b3d8c8794e6bc92f29f2", null ],
+    [ "ISANAH_GOSSIP_1", "d4/ddb/a04118.html#ae86999a75a5c04b96928fb10a88de93c", null ],
+    [ "ISANAH_GOSSIP_2", "d4/ddb/a04118.html#a0d334736afc3a3c2bdd2a7391081e5d8", null ],
+    [ "Ishanah", "d4/ddb/a04118.html#a284514b4b87abda7ddc9ace2da53dfde", [
+      [ "ISHANAH_PATH_ID", "d5/d8b/a04112.html#a284514b4b87abda7ddc9ace2da53dfdea5f80921700b149e56782a3fbd513969e", null ],
+      [ "EVENT_SPELL_ISHANAH_HOLY_SMITE", "d4/ddb/a04118.html#a284514b4b87abda7ddc9ace2da53dfdea9a98c938702cc7c482cac014a8f38813", null ],
+      [ "EVENT_SPELL_POWER_WORD_SHIELD", "d4/ddb/a04118.html#a284514b4b87abda7ddc9ace2da53dfdea88ed15e7d0dade35bb6a3332021cdd5e", null ],
+      [ "EVENT_ISHANAH_SAY_1", "d4/ddb/a04118.html#a284514b4b87abda7ddc9ace2da53dfdea3d2b755e9d7b981a44eb57ecad568265", null ],
+      [ "SOCRETHAR", "d4/ddb/a04118.html#a284514b4b87abda7ddc9ace2da53dfdeaa07c6f55da02501facd10d5292e44cb8", null ],
+      [ "KAYLAAN_THE_LOST", "d4/ddb/a04118.html#a284514b4b87abda7ddc9ace2da53dfdeae5773816f604fc79bd33829ed8393429", null ],
+      [ "HOLY_SMITE_ISHANAH", "d4/ddb/a04118.html#a284514b4b87abda7ddc9ace2da53dfdea452e1ba5105483889245fc60fdbdfac7", null ],
+      [ "POWER_WORLD_SHIELD", "d4/ddb/a04118.html#a284514b4b87abda7ddc9ace2da53dfdeab7cfec117ae6cafe69e50385393a135f", null ]
     ] ],
-    [ "Cooshhooosh", "d4/ddb/a04118.html#a9d58c651cc53969e2b759abd39dcf819", [
-      [ "SPELL_LIGHTNING_BOLT", "d4/ddb/a04118.html#a9d58c651cc53969e2b759abd39dcf819a920803a7ad734282762d93767b701526", null ],
-      [ "QUEST_CRACK_SKULLS", "d4/ddb/a04118.html#a9d58c651cc53969e2b759abd39dcf819a2cf7bf13048fc8433c0e5a3f1addd769", null ]
+    [ "KServant", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04b", [
+      [ "SAY1", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04bae4faba91f216dc9ffa804d762e82e09a", null ],
+      [ "WHISP1", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04ba852626a57853588410e9702e8834a782", null ],
+      [ "WHISP2", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04ba69698fd807a2e78a575e841d4dcd6ed7", null ],
+      [ "WHISP3", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04ba6843bfc854a4c39e00685acb402e590c", null ],
+      [ "WHISP4", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04ba692112c22f75620b0f7f6c33db9e041a", null ],
+      [ "WHISP5", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04ba89ccdb4c2c4237a6a828c9c91ceb75b6", null ],
+      [ "WHISP6", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04ba03e770bf3dca79e16db0021dc8a3ef71", null ],
+      [ "WHISP7", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04baf89d06dca0c2fe813bca58dc8f7c8d5c", null ],
+      [ "WHISP8", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04ba64a7bf590ec27341ff76882ad6d5d704", null ],
+      [ "WHISP9", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04ba125b4ea317d12715b14359c6236b4659", null ],
+      [ "WHISP10", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04ba95b632563a317bbcedd4314bb9176eb1", null ],
+      [ "WHISP11", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04baef3c3e796294616518e675a60c198971", null ],
+      [ "WHISP12", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04bab80ecdd3dcede68b1f5c38de5cf73bb1", null ],
+      [ "WHISP13", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04bafd2a43fb93b5220847f6af4016724718", null ],
+      [ "WHISP14", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04baa492734daa9d365190bbf870d48b5e50", null ],
+      [ "WHISP15", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04bac423f9b18e207f967d09024c8ca3b5a1", null ],
+      [ "WHISP16", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04bae9410c89c708e35f9531019383f2d600", null ],
+      [ "WHISP17", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04ba9a646943a18832c18d22a43c03661fe4", null ],
+      [ "WHISP18", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04ba54dd5f261513f2ff74ce1244ca6b1124", null ],
+      [ "WHISP19", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04ba259d6522a87397ef181b1e044655a03d", null ],
+      [ "WHISP20", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04baca440048b4dedbe24fac2eb6e11206ec", null ],
+      [ "WHISP21", "d4/ddb/a04118.html#a44d53e3bd4dd0381b62455517ce5e04ba00f3861bb3a25b5cacacc8a9c6deccd7", null ]
     ] ],
-    [ "eNaturalist", "d4/ddb/a04118.html#a9cf3357a38a38014956dbd3ebf215cec", [
-      [ "SPELL_MARK_OF_BITE", "d4/ddb/a04118.html#a9cf3357a38a38014956dbd3ebf215ceca8d51862f7b1fd50bce38b8d63ccbb907", null ],
-      [ "GO_CAGE_ENTRY", "d4/ddb/a04118.html#a9cf3357a38a38014956dbd3ebf215ceca0430179038e9dea04a07878c7254e78b", null ]
+    [ "Raliq", "d4/ddb/a04118.html#aaa4a76038d18a112897dcb2d69cf03cb", [
+      [ "SPELL_UPPERCUT", "d4/ddb/a04118.html#aaa4a76038d18a112897dcb2d69cf03cbaec5ad6f4170f697acf9499e4e06bb065", null ],
+      [ "QUEST_CRACK_SKULLS", "d4/ddb/a04118.html#aaa4a76038d18a112897dcb2d69cf03cba2cf7bf13048fc8433c0e5a3f1addd769", null ]
     ] ],
-    [ "Kayra", "d4/ddb/a04118.html#aede10935e0c8d6e0917a436106788aa0", [
-      [ "SAY_START", "d4/ddb/a04118.html#aede10935e0c8d6e0917a436106788aa0a2eae21cbf7d110ee89a9798ef6f00239", null ],
-      [ "SAY_AMBUSH1", "d4/ddb/a04118.html#aede10935e0c8d6e0917a436106788aa0af9c307934e5e7e30d487dbafbab144c2", null ],
-      [ "SAY_PROGRESS", "d4/ddb/a04118.html#aede10935e0c8d6e0917a436106788aa0a0a1c1c8ee2f4fb58f4e107f259c6a7a5", null ],
-      [ "SAY_AMBUSH2", "d4/ddb/a04118.html#aede10935e0c8d6e0917a436106788aa0a32c37598b933c172522a2d368bd3d664", null ],
-      [ "SAY_END", "d4/ddb/a04118.html#aede10935e0c8d6e0917a436106788aa0a40884932ffbbf14d6c380b9022bcfe97", null ],
-      [ "QUEST_ESCAPE_FROM", "d4/ddb/a04118.html#aede10935e0c8d6e0917a436106788aa0a86fbfb35bd9db1e69f11393a4be328ba", null ],
-      [ "NPC_SLAVEBINDER", "d4/ddb/a04118.html#aede10935e0c8d6e0917a436106788aa0a957d7dad018e5cc1867e8c470dd69844", null ]
+    [ "Salsalabim", "d4/ddb/a04118.html#af2ac982b173ab5de682b6ba22bf8ec8a", [
+      [ "QUEST_10004", "d4/ddb/a04118.html#af2ac982b173ab5de682b6ba22bf8ec8aafe244bc875eb5ddadec94f06616e4293", null ],
+      [ "SPELL_MAGNETIC_PULL", "d4/ddb/a04118.html#af2ac982b173ab5de682b6ba22bf8ec8aa3917f87779ff3a60876e0373a10855d5", null ]
     ] ],
-    [ "Timothy", "d4/ddb/a04118.html#ab01dcc34b8c42e2ac7246dc2aec509d7", [
-      [ "GOSSIP_TEXTID_TIMOTHY_DANIELS1", "d4/ddb/a04118.html#ab01dcc34b8c42e2ac7246dc2aec509d7a151898886013f2066a95ef7a0867da14", null ]
-    ] ],
-    [ "AddSC_zangarmarsh", "d4/ddb/a04118.html#aa38b6da0158d06f2f3cb62da2055fc00", null ]
+    [ "AddSC_shattrath_city", "d4/ddb/a04118.html#a48333af9544088068e574ea5dad8ccea", null ]
 ];

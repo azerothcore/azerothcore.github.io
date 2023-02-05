@@ -1,4 +1,4 @@
 var a00245 =
 [
-    [ "ObjectRegistry< T, Key >", "db/d24/a04901.html", "db/d24/a04901" ]
+    [ "ObjectRegistry< T, Key >", "d6/d45/a04907.html", "d6/d45/a04907" ]
 ];

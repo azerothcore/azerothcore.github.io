@@ -1,7 +1,7 @@
 var a02978 =
 [
-    [ "boss_captain_skarloc", "d3/d5b/a14741.html", "d3/d5b/a14741" ],
-    [ "boss_captain_skarloc::boss_captain_skarlocAI", "d4/d54/a14745.html", "d4/d54/a14745" ],
+    [ "boss_captain_skarloc", "da/d35/a14739.html", "da/d35/a14739" ],
+    [ "boss_captain_skarloc::boss_captain_skarlocAI", "d4/def/a14743.html", "d4/def/a14743" ],
     [ "CaptainSkarloc", "d0/dde/a02978.html#a133a118e9dfa92f351c86e38000377f5", [
       [ "SAY_ENTER", "d0/dde/a02978.html#a133a118e9dfa92f351c86e38000377f5abde0ca14c874b2c3317dd55732863028", null ],
       [ "SAY_TAUNT", "d0/dde/a02978.html#a133a118e9dfa92f351c86e38000377f5aad9f389d170b33e74a9c6c1caf8768d0", null ],

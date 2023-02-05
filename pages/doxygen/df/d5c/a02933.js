@@ -1,8 +1,8 @@
 var a02933 =
 [
-    [ "npc_jaina_proudmoore", "d7/da9/a14541.html", "d7/da9/a14541" ],
-    [ "npc_thrall", "d9/d6b/a14545.html", "d9/d6b/a14545" ],
-    [ "npc_tyrande_whisperwind", "dd/d30/a14549.html", "dd/d30/a14549" ],
+    [ "npc_jaina_proudmoore", "de/d05/a14539.html", "de/d05/a14539" ],
+    [ "npc_thrall", "dd/d05/a14543.html", "dd/d05/a14543" ],
+    [ "npc_tyrande_whisperwind", "df/d82/a14547.html", "df/d82/a14547" ],
     [ "GOSSIP_ITEM_ANETHERON", "df/d5c/a02933.html#a0ced84244b9b31dbe437c04d32782982", null ],
     [ "GOSSIP_ITEM_AZGALOR", "df/d5c/a02933.html#a952d6584b9079e47dd2f495cff249b22", null ],
     [ "GOSSIP_ITEM_BEGIN_ALLY", "df/d5c/a02933.html#a32d3a311dd98e0b2c3635c12ba441594", null ],

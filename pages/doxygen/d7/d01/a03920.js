@@ -1,7 +1,7 @@
 var a03920 =
 [
-    [ "boss_hydromancer_thespia", "d2/d8d/a25209.html", "d2/d8d/a25209" ],
-    [ "boss_hydromancer_thespia::boss_thespiaAI", "db/d89/a25213.html", "db/d89/a25213" ],
+    [ "boss_hydromancer_thespia", "d0/df6/a25195.html", "d0/df6/a25195" ],
+    [ "boss_hydromancer_thespia::boss_thespiaAI", "db/d32/a25199.html", "db/d32/a25199" ],
     [ "HydromancerThespia", "d7/d01/a03920.html#a3f4b673ff8add0ad1c96080f6252130d", [
       [ "SAY_SUMMON", "d7/d01/a03920.html#a3f4b673ff8add0ad1c96080f6252130dacebbfa1f13b8de4f039f5d550063c7bf", null ],
       [ "SAY_AGGRO", "d7/d01/a03920.html#a3f4b673ff8add0ad1c96080f6252130da47c752fff069f3e55065795eef2a9bfe", null ],

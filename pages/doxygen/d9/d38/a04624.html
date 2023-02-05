@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: MMAP::MMapFactory Class Reference</title>
+<title>AzeorthCore: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -79,7 +79,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('d9/d38/a04624.html','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d8/da0/a04627.html','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -105,179 +105,39 @@ $(document).ready(function(){initNavTree('d9/d38/a04624.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="../../d9/dd9/a04621.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MMAP::MMapFactory Class Reference</div></div>
+  <div class="headertitle"><div class="title">VMAP::IVMapMgr Member List</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">MMapFactory.h</a>&quot;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aa7571dc833ba0d2dc6d8bc7bc4b47cdd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/de6/a04632.html">MMapMgr</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d38/a04624.html#aa7571dc833ba0d2dc6d8bc7bc4b47cdd">createOrGetMMapMgr</a> ()</td></tr>
-<tr class="separator:aa7571dc833ba0d2dc6d8bc7bc4b47cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2120a6bb6aa223baa117e5699c93012"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d38/a04624.html#af2120a6bb6aa223baa117e5699c93012">clear</a> ()</td></tr>
-<tr class="separator:af2120a6bb6aa223baa117e5699c93012"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6df048ce34ec1baed2cb35cedf67f5b2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d38/a04624.html#a6df048ce34ec1baed2cb35cedf67f5b2">InitializeDisabledMaps</a> ()</td></tr>
-<tr class="separator:a6df048ce34ec1baed2cb35cedf67f5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a2301f091e1f1e3359dbded7f054eb219"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d38/a04624.html#a2301f091e1f1e3359dbded7f054eb219">forbiddenMaps</a> [1000] = {0}</td></tr>
-<tr class="separator:a2301f091e1f1e3359dbded7f054eb219"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="af2120a6bb6aa223baa117e5699c93012" name="af2120a6bb6aa223baa117e5699c93012"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2120a6bb6aa223baa117e5699c93012">&#9670;&#160;</a></span>clear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MMAP::MMapFactory::clear </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   51</span>    {</div>
-<div class="line"><span class="lineno">   52</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/d10/a04434.html#a7ca17c8e81612c16a92e901cac65113e">g_MMapMgr</a>)</div>
-<div class="line"><span class="lineno">   53</span>        {</div>
-<div class="line"><span class="lineno">   54</span>            <span class="keyword">delete</span> <a class="code hl_variable" href="../../dd/d10/a04434.html#a7ca17c8e81612c16a92e901cac65113e">g_MMapMgr</a>;</div>
-<div class="line"><span class="lineno">   55</span>            <a class="code hl_variable" href="../../dd/d10/a04434.html#a7ca17c8e81612c16a92e901cac65113e">g_MMapMgr</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   56</span>        }</div>
-<div class="line"><span class="lineno">   57</span>    }</div>
-<div class="ttc" id="aa04434_html_a7ca17c8e81612c16a92e901cac65113e"><div class="ttname"><a href="../../dd/d10/a04434.html#a7ca17c8e81612c16a92e901cac65113e">MMAP::g_MMapMgr</a></div><div class="ttdeci">MMapMgr * g_MMapMgr</div><div class="ttdef"><b>Definition:</b> MMapFactory.cpp:26</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00026">MMAP::g_MMapMgr</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00144">World::~World()</a>.</p>
-
-</div>
-</div>
-<a id="aa7571dc833ba0d2dc6d8bc7bc4b47cdd" name="aa7571dc833ba0d2dc6d8bc7bc4b47cdd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7571dc833ba0d2dc6d8bc7bc4b47cdd">&#9670;&#160;</a></span>createOrGetMMapMgr()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dc/de6/a04632.html">MMapMgr</a> * MMAP::MMapFactory::createOrGetMMapMgr </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   30</span>    {</div>
-<div class="line"><span class="lineno">   31</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dd/d10/a04434.html#a7ca17c8e81612c16a92e901cac65113e">g_MMapMgr</a>)</div>
-<div class="line"><span class="lineno">   32</span>        {</div>
-<div class="line"><span class="lineno">   33</span>            <a class="code hl_variable" href="../../dd/d10/a04434.html#a7ca17c8e81612c16a92e901cac65113e">g_MMapMgr</a> = <span class="keyword">new</span> MMapMgr();</div>
-<div class="line"><span class="lineno">   34</span>        }</div>
-<div class="line"><span class="lineno">   35</span> </div>
-<div class="line"><span class="lineno">   36</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/d10/a04434.html#a7ca17c8e81612c16a92e901cac65113e">g_MMapMgr</a>;</div>
-<div class="line"><span class="lineno">   37</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00026">MMAP::g_MMapMgr</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00503">misc_commandscript::HandleGPSCommand()</a>, <a class="el" href="../../#l00194">mmaps_commandscript::HandleMmapLoadedTilesCommand()</a>, <a class="el" href="../../#l00131">mmaps_commandscript::HandleMmapLocCommand()</a>, <a class="el" href="../../#l00064">mmaps_commandscript::HandleMmapPathCommand()</a>, <a class="el" href="../../#l00219">mmaps_commandscript::HandleMmapStatsCommand()</a>, <a class="el" href="../../#l00145">Map::LoadMMap()</a>, <a class="el" href="../../#l00029">PathGenerator::PathGenerator()</a>, <a class="el" href="../../#l01478">World::SetInitialWorldSettings()</a>, <a class="el" href="../../#l01214">Map::UnloadGrid()</a>, and <a class="el" href="../../#l00064">Map::~Map()</a>.</p>
-
-</div>
-</div>
-<a id="a6df048ce34ec1baed2cb35cedf67f5b2" name="a6df048ce34ec1baed2cb35cedf67f5b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6df048ce34ec1baed2cb35cedf67f5b2">&#9670;&#160;</a></span>InitializeDisabledMaps()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MMAP::MMapFactory::InitializeDisabledMaps </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   40</span>    {</div>
-<div class="line"><span class="lineno">   41</span>        memset(&amp;<a class="code hl_variable" href="../../d9/d38/a04624.html#a2301f091e1f1e3359dbded7f054eb219">forbiddenMaps</a>, 0, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../d9/d38/a04624.html#a2301f091e1f1e3359dbded7f054eb219">forbiddenMaps</a>));</div>
-<div class="line"><span class="lineno">   42</span>        <a class="code hl_typedef" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> f[] = {616 <span class="comment">/*EoE*/</span>, 649 <span class="comment">/*ToC25*/</span>, 650 <span class="comment">/*ToC5*/</span>, -1};</div>
-<div class="line"><span class="lineno">   43</span>        <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0;</div>
-<div class="line"><span class="lineno">   44</span>        <span class="keywordflow">while</span> (f[i] &gt;= 0)</div>
-<div class="line"><span class="lineno">   45</span>        {</div>
-<div class="line"><span class="lineno">   46</span>            <a class="code hl_variable" href="../../d9/d38/a04624.html#a2301f091e1f1e3359dbded7f054eb219">forbiddenMaps</a>[f[i++]] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   47</span>        }</div>
-<div class="line"><span class="lineno">   48</span>    }</div>
-<div class="ttc" id="aa00230_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
-<div class="ttc" id="aa00230_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
-<div class="ttc" id="aa04624_html_a2301f091e1f1e3359dbded7f054eb219"><div class="ttname"><a href="../../d9/d38/a04624.html#a2301f091e1f1e3359dbded7f054eb219">MMAP::MMapFactory::forbiddenMaps</a></div><div class="ttdeci">static bool forbiddenMaps[1000]</div><div class="ttdef"><b>Definition:</b> MMapFactory.h:45</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00045">forbiddenMaps</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00417">World::LoadConfigSettings()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2301f091e1f1e3359dbded7f054eb219" name="a2301f091e1f1e3359dbded7f054eb219"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2301f091e1f1e3359dbded7f054eb219">&#9670;&#160;</a></span>forbiddenMaps</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MMAP::MMapFactory::forbiddenMaps = {0}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00039">InitializeDisabledMaps()</a>, and <a class="el" href="../../#l00402">DisableMgr::IsPathfindingEnabled()</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a5eaf056f98ad00308f22cad73ee80f15">existsMap</a>(const char *pBasePath, unsigned int pMapId, int x, int y)=0</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a5029a4bc75becde24a8daa69d6aa113f">GetAreaAndLiquidData</a>(uint32 mapId, float x, float y, float z, uint8 reqLiquidType, AreaAndLiquidData &amp;data) const =0</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#ad47a55dc86f3343b13990e5e366073c3">GetAreaInfo</a>(uint32 pMapId, float x, float y, float &amp;z, uint32 &amp;flags, int32 &amp;adtId, int32 &amp;rootId, int32 &amp;groupId) const =0</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a6fb9bd31760b72279499e5e884d12a04">getDirFileName</a>(unsigned int pMapId, int x, int y) const =0</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a583f740a47a711a78b54a0258eaf8397">getHeight</a>(unsigned int pMapId, float x, float y, float z, float maxSearchDist)=0</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a4439165a00d5611c910d76e88504dda1">GetLiquidLevel</a>(uint32 pMapId, float x, float y, float z, uint8 ReqLiquidType, float &amp;level, float &amp;floor, uint32 &amp;type, uint32 &amp;mogpFlags) const =0</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a8912f3e1bcd483135b1b1142a600b292">GetObjectHitPos</a>(unsigned int pMapId, float x1, float y1, float z1, float x2, float y2, float z2, float &amp;rx, float &amp;ry, float &amp;rz, float pModifyDist)=0</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a3ce407c232386fbe00958660457474e4">iEnableHeightCalc</a></td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a83c2317151591bf2c72d33e19007125a">iEnableLineOfSightCalc</a></td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a0a3b250f0674709fac851c6e63bedd51">isHeightCalcEnabled</a>() const</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#acd3df65694d3e3056e22bd18df1d0180">isInLineOfSight</a>(unsigned int pMapId, float x1, float y1, float z1, float x2, float y2, float z2, ModelIgnoreFlags ignoreFlags)=0</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a9b88973ec447dee3a990e11f1fa74873">isLineOfSightCalcEnabled</a>() const</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#ae327405db5140e3a27fe767be8ca8a66">isMapLoadingEnabled</a>() const</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a8fcc2ababfadc1bf662c56645c04841e">IVMapMgr</a>()</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a9461e8842f22b0c427d06ddf8722516a">loadMap</a>(const char *pBasePath, unsigned int pMapId, int x, int y)=0</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a8697455fead0cfed30ba955c9abf934f">processCommand</a>(char *pCommand)=0</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a5642a08f1cbd688985314fb821525c95">setEnableHeightCalc</a>(bool pVal)</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a7984e19b44c6f8ce16ecea8e823a4b14">setEnableLineOfSightCalc</a>(bool pVal)</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a6504f0b576862fa86271bf19a9d20332">unloadMap</a>(unsigned int pMapId, int x, int y)=0</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#a8535bdfe4ecab2a8eda481d1d4aebc6b">unloadMap</a>(unsigned int pMapId)=0</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/da0/a04627.html#adbc38672af6f30bc4887d2737e6097e5">~IVMapMgr</a>()=default</td><td class="entry"><a class="el" href="../../d8/da0/a04627.html">VMAP::IVMapMgr</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dd/d10/a04434.html">MMAP</a></li><li class="navelem"><a class="el" href="../../d9/d38/a04624.html">MMapFactory</a></li>
-    <li class="footer">Generated on Sun Dec 11 2022 11:16:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Sun Feb 5 2023 01:23:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

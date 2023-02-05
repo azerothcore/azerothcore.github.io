@@ -1,6 +1,6 @@
 var a03494 =
 [
-    [ "EoEDrakeEnterVehicleEvent", "db/d2b/a20289.html", "db/d2b/a20289" ],
+    [ "EoEDrakeEnterVehicleEvent", "d4/de1/a20279.html", "d4/de1/a20279" ],
     [ "ALEXSTRASZA_GIFT", "df/d5f/a03494.html#a75e648e1864b15a814c2c3e02faf6336", null ],
     [ "EyeOfEternityScriptName", "df/d5f/a03494.html#a7ce256d13936cff51c83835c5e3329f9", null ],
     [ "HEART_OF_MAGIC", "df/d5f/a03494.html#af59d6ded8cc013d2fbafa76cc1ff948a", null ],
@@ -131,7 +131,12 @@ var a03494 =
       [ "DATA_EREKEM_GUARD_1_GUID", "d5/d35/a03716.html#af5baa506e65b4caa6be6d1c6661dfe63aab57a9aa19fb76748c2b8e8f3c310a64", null ],
       [ "DATA_EREKEM_GUARD_2_GUID", "d5/d35/a03716.html#af5baa506e65b4caa6be6d1c6661dfe63a814d3c25fcbfae4755942da0fdab46c8", null ],
       [ "DATA_ICHORON_GUID", "d5/d35/a03716.html#af5baa506e65b4caa6be6d1c6661dfe63a645f472e4ecb948295dc370099998113", null ],
-      [ "DATA_ACHIEV", "d5/d35/a03716.html#af5baa506e65b4caa6be6d1c6661dfe63a017589bf4c8a9c402a3a436adbd2a933", null ]
+      [ "DATA_ACHIEV", "d5/d35/a03716.html#af5baa506e65b4caa6be6d1c6661dfe63a017589bf4c8a9c402a3a436adbd2a933", null ],
+      [ "DATA_HUNGARFEN", "da/d1d/a03947.html#af5baa506e65b4caa6be6d1c6661dfe63a63e8f0e6b9b5b9a811bc5243e3237323", null ],
+      [ "DATA_GHAZAN", "da/d1d/a03947.html#af5baa506e65b4caa6be6d1c6661dfe63a80a45b4f90bb001d27db8a0393b9c57e", null ],
+      [ "DATA_MUSELEK", "da/d1d/a03947.html#af5baa506e65b4caa6be6d1c6661dfe63aefd434c651108b5f79a253b9a91d045d", null ],
+      [ "DATA_BLACK_STALKER", "da/d1d/a03947.html#af5baa506e65b4caa6be6d1c6661dfe63a56ea641fde843aa83ff6f9bb73e308b3", null ],
+      [ "MAX_ENCOUNTERS", "da/d1d/a03947.html#af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25", null ]
     ] ],
     [ "eAchiev", "df/d5f/a03494.html#a7b67ae0eba9bb5ef739ec60c6231af71", [
       [ "ACHIEV_CRITERIA_DENYIN_THE_SCION_10", "df/d5f/a03494.html#a7b67ae0eba9bb5ef739ec60c6231af71aad703e13517c628337b738660d14962d", null ],
@@ -442,7 +447,9 @@ var a03494 =
       [ "NPC_SWEETBERRY_H", "d0/d69/a03725.html#a6986ec7b2d3274669934af9795f26d5ca1fb3b8a3629edc351f33f35271e21b30", null ],
       [ "NPC_SILVER_COVENANT_GUARDIAN_MAGE", "d0/d69/a03725.html#a6986ec7b2d3274669934af9795f26d5ca2d81e82f48df7ac39fe27346d739c0d8", null ],
       [ "NPC_SUNREAVER_GUARDIAN_MAGE", "d0/d69/a03725.html#a6986ec7b2d3274669934af9795f26d5ca44024434b287b08d5f9f809096824f48", null ],
-      [ "NPC_GHAZAN", "dd/dde/a03944.html#a6986ec7b2d3274669934af9795f26d5cadbdc51501c67d1a7a538089511849597", null ]
+      [ "NPC_HUNGARFEN", "da/d1d/a03947.html#a6986ec7b2d3274669934af9795f26d5ca4c9741a2689d39ebbdbcdb4c62af6a51", null ],
+      [ "NPC_UNDERBOG_MUSHROOM", "da/d1d/a03947.html#a6986ec7b2d3274669934af9795f26d5cae2a004a214013d7bcbb198034ba1663c", null ],
+      [ "NPC_GHAZAN", "da/d1d/a03947.html#a6986ec7b2d3274669934af9795f26d5cadbdc51501c67d1a7a538089511849597", null ]
     ] ],
     [ "Objects", "df/d5f/a03494.html#a6095c54a56c4e904d4f4c3c8bb1456fd", [
       [ "GO_NEXUS_PLATFORM", "df/d5f/a03494.html#a6095c54a56c4e904d4f4c3c8bb1456fdaf7088dd52d3a6d96f1794432905c7d77", null ],

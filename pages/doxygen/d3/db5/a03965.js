@@ -1,34 +1,30 @@
 var a03965 =
 [
-    [ "boss_kelidan_the_breaker", "d0/d54/a25401.html", "d0/d54/a25401" ],
-    [ "boss_kelidan_the_breaker::boss_kelidan_the_breakerAI", "dd/d0b/a25405.html", "dd/d0b/a25405" ],
-    [ "npc_shadowmoon_channeler", "d3/d76/a25409.html", "d3/d76/a25409" ],
-    [ "npc_shadowmoon_channeler::npc_shadowmoon_channelerAI", "df/d4a/a25413.html", "df/d4a/a25413" ],
-    [ "eKelidan", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780", [
-      [ "SAY_WAKE", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780aadb6c63e08a18de76bcc95ca2e830a6e", null ],
-      [ "SAY_ADD_AGGRO", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780abc6de548b25496a4fc5c761b73835d56", null ],
-      [ "SAY_KILL", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780a7f4f26c3b97b953fd229ac5d308024d5", null ],
-      [ "SAY_NOVA", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780aab11c139c2084261fe97e62ba3aa6c37", null ],
-      [ "SAY_DIE", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780ac06e5bbf853ac54e131d78954cadb856", null ],
-      [ "SPELL_CORRUPTION", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780ab121c93ef274ba2791c63674950ef6a6", null ],
-      [ "SPELL_EVOCATION", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780a8934d7c1a86aa663dd516e759a774822", null ],
-      [ "SPELL_FIRE_NOVA", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780a675194ae1ebcc6b507bf7f88be2f8414", null ],
-      [ "SPELL_SHADOW_BOLT_VOLLEY", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780a04a753f9853968682b9643fa1de110fd", null ],
-      [ "SPELL_BURNING_NOVA", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780af73cbff9af5021e410493d873614519c", null ],
-      [ "SPELL_VORTEX", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780a33f740a29941913785314f0220379f81", null ],
-      [ "SPELL_SHADOW_BOLT", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780a8872edea8a2ac8c4e895c975482b9413", null ],
-      [ "SPELL_SHADOW_BOLT_H", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780add02af55d4461814bd682194051aabb7", null ],
-      [ "SPELL_MARK_OF_SHADOW", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780a91f9f24a4f933a6dd1aaf35256bb3160", null ],
-      [ "SPELL_CHANNELING", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780ad34d4224e217a738ed7ebbcf8a71c9c5", null ],
-      [ "EVENT_SPELL_VOLLEY", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780aebdaa7ca6b4823ffaedb186ba013f1ee", null ],
-      [ "EVENT_SPELL_CORRUPTION", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780aaa7cf560e850c82b6a234c089d9aac1f", null ],
-      [ "EVENT_SPELL_BURNING_NOVA", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780a02dacd35ff49e75be89bc4a974709f62", null ],
-      [ "EVENT_SPELL_FIRE_NOVA", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780aa1ebf7ca10548a4da8212f8f1f6c48dc", null ],
-      [ "EVENT_SPELL_SHADOW_BOLT", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780a97989e823ec77d02c224f173791a7d70", null ],
-      [ "EVENT_SPELL_MARK", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780abca0b3e6ecc211bebc44955a1e5cf9a5", null ],
-      [ "ACTION_CHANNELER_ENGAGED", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780a360eab98f9121a8d550b55111d967d2c", null ],
-      [ "ACTION_CHANNELER_DIED", "d3/db5/a03965.html#af3ac4dea1d15f193174d05b8a50b0780a34572bbcf4442b17010973accdad7b1e", null ]
+    [ "BloodFurnaceScriptName", "d3/db5/a03965.html#a059e1a38f9d79807d65ad8edfd39138f", null ],
+    [ "bloodFurnace", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521", [
+      [ "DATA_THE_MAKER", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521a217584223ad4e053515b9ba1c45f6f1c", null ],
+      [ "DATA_BROGGOK", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521ab4ee9b3fa6f2378216eaad263527118d", null ],
+      [ "DATA_KELIDAN", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3", null ],
+      [ "MAX_ENCOUNTER", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521a7913656ef56deb3793c0c5f3d999d80d", null ],
+      [ "DATA_DOOR1", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521a5be731cf2d344b403486f7319fae9830", null ],
+      [ "DATA_DOOR2", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521ab8bd986eb150e659f71fa84f45e63bb7", null ],
+      [ "DATA_DOOR3", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521aa433f4d5fa76b9f181264383b4a98a7f", null ],
+      [ "DATA_DOOR4", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521ace04607a351d9ae5fe58aeac8b5b04f3", null ],
+      [ "DATA_DOOR5", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521ab1c5554e9e95541ca6cf24f894c6f87d", null ],
+      [ "DATA_DOOR6", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521a06ff2fef4decc65fc813d31bc70d967a", null ],
+      [ "DATA_PRISON_CELL1", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521a38e1047c0f32ee1086b17ab937b93133", null ],
+      [ "DATA_PRISON_CELL2", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521a3073b7783a2fb29629dd8144a46cf27b", null ],
+      [ "DATA_PRISON_CELL3", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521a43cb03f70352747a1b21db3ad18d45cc", null ],
+      [ "DATA_PRISON_CELL4", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521add420385ff32f4362b994bc24207cde2", null ],
+      [ "ACTION_ACTIVATE_BROGGOK", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521a2839e46e2718d788680e6ab738e5304b", null ],
+      [ "ACTION_PREPARE_BROGGOK", "d3/db5/a03965.html#ae8bfbe71365d644cb4c1b500e73ec521a0a587bd74e99773bd5a5cc3d91a33aa5", null ]
     ] ],
-    [ "AddSC_boss_kelidan_the_breaker", "d3/db5/a03965.html#af322170b8d6ad428560c7ab2512f2a6f", null ],
-    [ "ShadowmoonChannelers", "d3/db5/a03965.html#ad8388ed2c7418f26954f25db47add4dc", null ]
+    [ "bloodFurnaceNPC", "d3/db5/a03965.html#aa518f004f7df866d1fc0e781b6a5f3a0", [
+      [ "NPC_THE_MAKER", "d3/db5/a03965.html#aa518f004f7df866d1fc0e781b6a5f3a0adee32b124f549802c329b672679b8333", null ],
+      [ "NPC_BROGGOK", "d3/db5/a03965.html#aa518f004f7df866d1fc0e781b6a5f3a0a4cf62e33a7fa35ef63ad878dfeeb0ad9", null ],
+      [ "NPC_KELIDAN", "d3/db5/a03965.html#aa518f004f7df866d1fc0e781b6a5f3a0a6332b11d449d4fd83c67fc13c06d7210", null ],
+      [ "NPC_NASCENT_FEL_ORC", "d3/db5/a03965.html#aa518f004f7df866d1fc0e781b6a5f3a0a2d648c17cf1d4c62de4d35b07d1bf8c7", null ],
+      [ "NPC_CHANNELER", "d3/db5/a03965.html#aa518f004f7df866d1fc0e781b6a5f3a0a829f7c3a21ad299d21aa23035ca5e53d", null ]
+    ] ],
+    [ "GetBloodFurnaceAI", "d3/db5/a03965.html#a4aa87dfa17e2fb43b14c2ca77bb22aeb", null ]
 ];

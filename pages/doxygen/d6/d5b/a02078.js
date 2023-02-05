@@ -1,6 +1,6 @@
 var a02078 =
 [
-    [ "EncryptablePacket", "d7/daf/a10397.html", "d7/daf/a10397" ],
-    [ "ClientPktHeader", "d1/dba/a10401.html", "d1/dba/a10401" ],
-    [ "WorldSocket", "da/df3/a10405.html", "da/df3/a10405" ]
+    [ "EncryptablePacket", "d7/d53/a10399.html", "d7/d53/a10399" ],
+    [ "ClientPktHeader", "d1/d0b/a10403.html", "d1/d0b/a10403" ],
+    [ "WorldSocket", "dd/d78/a10407.html", "dd/d78/a10407" ]
 ];

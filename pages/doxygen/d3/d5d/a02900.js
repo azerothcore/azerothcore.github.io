@@ -1,14 +1,14 @@
 var a02900 =
 [
-    [ "go_midsummer_bonfire", "de/db3/a14305.html", "de/db3/a14305" ],
-    [ "npc_midsummer_bonfire", "d8/dc6/a14309.html", "d8/dc6/a14309" ],
-    [ "npc_midsummer_torch_target", "d2/d2a/a14313.html", "d2/d2a/a14313" ],
-    [ "spell_gen_crab_disguise", "d6/dcf/a14317.html", "d6/dcf/a14317" ],
-    [ "spell_midsummer_ribbon_pole", "dd/db2/a14321.html", "dd/db2/a14321" ],
-    [ "spell_midsummer_torch_quest", "d1/d71/a14325.html", "d1/d71/a14325" ],
-    [ "spell_midsummer_fling_torch", "da/d62/a14329.html", "da/d62/a14329" ],
-    [ "spell_midsummer_juggling_torch", "d9/d19/a14333.html", "d9/d19/a14333" ],
-    [ "spell_midsummer_torch_catch", "dd/d14/a14337.html", "dd/d14/a14337" ],
+    [ "go_midsummer_bonfire", "d1/dd3/a14303.html", "d1/dd3/a14303" ],
+    [ "npc_midsummer_bonfire", "d6/d87/a14307.html", "d6/d87/a14307" ],
+    [ "npc_midsummer_torch_target", "dd/d37/a14311.html", "dd/d37/a14311" ],
+    [ "spell_gen_crab_disguise", "d1/d3b/a14315.html", "d1/d3b/a14315" ],
+    [ "spell_midsummer_ribbon_pole", "d1/df8/a14319.html", "d1/df8/a14319" ],
+    [ "spell_midsummer_torch_quest", "d2/deb/a14323.html", "d2/deb/a14323" ],
+    [ "spell_midsummer_fling_torch", "d7/d92/a14327.html", "d7/d92/a14327" ],
+    [ "spell_midsummer_juggling_torch", "da/dba/a14331.html", "da/dba/a14331" ],
+    [ "spell_midsummer_torch_catch", "dd/d3a/a14335.html", "dd/d3a/a14335" ],
     [ "CrabDisguise", "d3/d5d/a02900.html#afd8a3a151093c0630847d5c80e1f854f", [
       [ "SPELL_CRAB_DISGUISE", "d3/d5d/a02900.html#afd8a3a151093c0630847d5c80e1f854fa183b2dd04793fbe4c195242a3a2bccf5", null ],
       [ "SPELL_APPLY_DIGUISE", "d3/d5d/a02900.html#afd8a3a151093c0630847d5c80e1f854fafe8114d2aab172e16869e5adbdd3cbc7", null ],

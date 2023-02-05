@@ -971,6 +971,7 @@ var a01643 =
       [ "LANG_CMD_SETTINGS_ANNOUNCER_OFF", "d4/d49/a01643.html#af9ee42b1cf006ecb2d2e74fe71c0761aa0dde5d4384dc9fd518c0fbe8a4c2723d", null ],
       [ "LANG_CMD_GOQUEST_INVALID_SYNTAX", "d4/d49/a01643.html#af9ee42b1cf006ecb2d2e74fe71c0761aa37ab7d4c9a320c1a37a2ac043ff69ec6", null ],
       [ "LANG_CMD_CHAR_CHANGE_ACC_SUCCESS", "d4/d49/a01643.html#af9ee42b1cf006ecb2d2e74fe71c0761aafd71f15471dee249a6f6984db2b94368", null ],
+      [ "LANG_CMD_CAST_ERROR_CODE", "d4/d49/a01643.html#af9ee42b1cf006ecb2d2e74fe71c0761aa2e5bedd3dd42793004138fa073b54be7", null ],
       [ "LANG_SAY_REQ", "d4/d49/a01643.html#af9ee42b1cf006ecb2d2e74fe71c0761aa0503f1ca01b026b8943707355f0b14fc", null ],
       [ "LANG_WHISPER_REQ", "d4/d49/a01643.html#af9ee42b1cf006ecb2d2e74fe71c0761aa72dd19ad51f3f0d5c9510a9f88737711", null ],
       [ "LANG_CHANNEL_REQ", "d4/d49/a01643.html#af9ee42b1cf006ecb2d2e74fe71c0761aaf887daa22cef6c1615b7c92fe4b7b34e", null ],

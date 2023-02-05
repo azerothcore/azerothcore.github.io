@@ -1,7 +1,8 @@
 var a02606 =
 [
-    [ "boss_netherspite", "d9/d21/a12029.html", "d9/d21/a12029" ],
-    [ "boss_netherspite::boss_netherspiteAI", "de/deb/a12033.html", "de/deb/a12033" ],
+    [ "boss_netherspite", "d2/d99/a12027.html", "d2/d99/a12027" ],
+    [ "boss_netherspite::boss_netherspiteAI", "db/d98/a12031.html", "db/d98/a12031" ],
+    [ "spell_nether_portal_perseverence", "de/d4b/a12035.html", "de/d4b/a12035" ],
     [ "Netherspite", "d2/dca/a02606.html#a8fbc1db70231eae2b972252436cd9038", [
       [ "EMOTE_PHASE_PORTAL", "d2/dca/a02606.html#a8fbc1db70231eae2b972252436cd9038af68adafa8f4b00b73e1aa794a689e45c", null ],
       [ "EMOTE_PHASE_BANISH", "d2/dca/a02606.html#a8fbc1db70231eae2b972252436cd9038aa4f9cbb8e1c3cfce68ed7682b4a74fd6", null ],

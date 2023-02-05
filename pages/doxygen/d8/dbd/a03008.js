@@ -1,12 +1,12 @@
 var a03008 =
 [
-    [ "NpcRunToHome", "d0/dc0/a14821.html", "d0/dc0/a14821" ],
-    [ "npc_medivh_bm", "df/db3/a14825.html", "df/db3/a14825" ],
-    [ "npc_medivh_bm::npc_medivh_bmAI", "de/dff/a14829.html", "de/dff/a14829" ],
-    [ "npc_time_rift", "df/d46/a14833.html", "df/d46/a14833" ],
-    [ "npc_time_rift::npc_time_riftAI", "db/d7e/a14837.html", "db/d7e/a14837" ],
-    [ "spell_black_morass_corrupt_medivh", "d2/d4e/a14841.html", "d2/d4e/a14841" ],
-    [ "spell_black_morass_corrupt_medivh::spell_black_morass_corrupt_medivh_AuraScript", "d6/d47/a14845.html", "d6/d47/a14845" ],
+    [ "NpcRunToHome", "dc/d50/a14819.html", "dc/d50/a14819" ],
+    [ "npc_medivh_bm", "d8/ddd/a14823.html", "d8/ddd/a14823" ],
+    [ "npc_medivh_bm::npc_medivh_bmAI", "d7/d7d/a14827.html", "d7/d7d/a14827" ],
+    [ "npc_time_rift", "d0/db5/a14831.html", "d0/db5/a14831" ],
+    [ "npc_time_rift::npc_time_riftAI", "d7/d56/a14835.html", "d7/d56/a14835" ],
+    [ "spell_black_morass_corrupt_medivh", "d8/dae/a14839.html", "d8/dae/a14839" ],
+    [ "spell_black_morass_corrupt_medivh::spell_black_morass_corrupt_medivh_AuraScript", "da/db0/a14843.html", "da/db0/a14843" ],
     [ "medivhMisc", "d8/dbd/a03008.html#a7d484fa8ee0c999014d29246b9ebffb3", [
       [ "NPC_DP_EMITTER_STALKER", "d8/dbd/a03008.html#a7d484fa8ee0c999014d29246b9ebffb3a08461cd21590200e35d2b2790982dddd", null ],
       [ "NPC_DP_CRYSTAL_STALKER", "d8/dbd/a03008.html#a7d484fa8ee0c999014d29246b9ebffb3a6c13d058aeaf8892ddbd488ef608410c", null ],
@@ -27,11 +27,7 @@ var a03008 =
       [ "EVENT_OUTRO_8", "d8/dbd/a03008.html#a7d484fa8ee0c999014d29246b9ebffb3a6697031d7959ad49f58bffe18fb91611", null ]
     ] ],
     [ "medivhSays", "d8/dbd/a03008.html#a74fe4cc51d80fd3e88eb463b8f99b986", [
-      [ "SAY_WEAK75", "d8/dbd/a03008.html#a74fe4cc51d80fd3e88eb463b8f99b986a13329bcdb3ce0c8dfaf9d2bb12b2bc48", null ],
-      [ "SAY_WEAK50", "d8/dbd/a03008.html#a74fe4cc51d80fd3e88eb463b8f99b986a1465748242729572738d746aa34810a7", null ],
-      [ "SAY_WEAK25", "d8/dbd/a03008.html#a74fe4cc51d80fd3e88eb463b8f99b986a23f45df27dcb9c063d9ac180e46aff72", null ],
       [ "SAY_ENTER", "d8/dbd/a03008.html#a74fe4cc51d80fd3e88eb463b8f99b986abde0ca14c874b2c3317dd55732863028", null ],
-      [ "SAY_INTRO", "d8/dbd/a03008.html#a74fe4cc51d80fd3e88eb463b8f99b986af5bc3db04213b3bf118af6ce85b5a637", null ],
       [ "SAY_DEATH", "d8/dbd/a03008.html#a74fe4cc51d80fd3e88eb463b8f99b986a04c962d9b6aaafde54ff92a54369135e", null ],
       [ "SAY_WIN", "d8/dbd/a03008.html#a74fe4cc51d80fd3e88eb463b8f99b986a32149190f3606d05fe7da0c24c181109", null ],
       [ "SAY_ORCS_ENTER", "d8/dbd/a03008.html#a74fe4cc51d80fd3e88eb463b8f99b986a5bde169a933c872b8843542217fead73", null ],

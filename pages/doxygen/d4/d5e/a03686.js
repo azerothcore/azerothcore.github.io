@@ -250,15 +250,15 @@ var a03686 =
       [ "NPC_CREATURE_GENERATOR_AKAMA", "d4/db7/a03863.html#a25a619e6b66096a4f05d048e4a96df08a8ff529082b61c67e0b36cb60afac9d66", null ],
       [ "NPC_ASHTONGUE_SORCERER", "d4/db7/a03863.html#a25a619e6b66096a4f05d048e4a96df08a22fc8deed004c63aed44c67b1067682f", null ],
       [ "NPC_ASHTONGUE_BROKEN", "d4/db7/a03863.html#a25a619e6b66096a4f05d048e4a96df08a45e5b0cd0ff002b4e0155b49d8ca1e6e", null ],
-      [ "NPC_LEFT_HEAD", "dd/d81/a04001.html#a25a619e6b66096a4f05d048e4a96df08a2c6269120f032903b4cfc48f90d43423", null ],
-      [ "NPC_RIGHT_HEAD", "dd/d81/a04001.html#a25a619e6b66096a4f05d048e4a96df08a5f42a37c62b91ac5f3596a45c3be9c6f", null ],
-      [ "NPC_SHATTERED_ASSASSIN", "d9/def/a04004.html#a25a619e6b66096a4f05d048e4a96df08a7a9475ef1149b7050dbbd320b5a21b4d", null ],
-      [ "NPC_HEARTHEN_GUARD", "d9/def/a04004.html#a25a619e6b66096a4f05d048e4a96df08a13b136bb09a47d41356843d667b411bb", null ],
-      [ "NPC_SHARPSHOOTER_GUARD", "d9/def/a04004.html#a25a619e6b66096a4f05d048e4a96df08a97486d2e340e7b844727ca3d6387115e", null ],
-      [ "NPC_REAVER_GUARD", "d9/def/a04004.html#a25a619e6b66096a4f05d048e4a96df08acd79bfcdb6631140d9db8335350d9242", null ],
-      [ "NPC_SUMMONED_BLOODWARDER_MENDER", "df/d11/a04037.html#a25a619e6b66096a4f05d048e4a96df08aeec60f9aac0ef2565854575fda0d9980", null ],
-      [ "NPC_SUMMONED_BLOODWARDER_RESERVIST", "df/d11/a04037.html#a25a619e6b66096a4f05d048e4a96df08a2a5b50b807b6b8d82d3b534900a1e06d", null ],
-      [ "NPC_NETHER_CHARGE", "db/d64/a04082.html#a25a619e6b66096a4f05d048e4a96df08adf66984026cb47af3a7d3bb9e0c0a27c", null ]
+      [ "NPC_LEFT_HEAD", "d2/dfc/a04007.html#a25a619e6b66096a4f05d048e4a96df08a2c6269120f032903b4cfc48f90d43423", null ],
+      [ "NPC_RIGHT_HEAD", "d2/dfc/a04007.html#a25a619e6b66096a4f05d048e4a96df08a5f42a37c62b91ac5f3596a45c3be9c6f", null ],
+      [ "NPC_SHATTERED_ASSASSIN", "df/d75/a04010.html#a25a619e6b66096a4f05d048e4a96df08a7a9475ef1149b7050dbbd320b5a21b4d", null ],
+      [ "NPC_HEARTHEN_GUARD", "df/d75/a04010.html#a25a619e6b66096a4f05d048e4a96df08a13b136bb09a47d41356843d667b411bb", null ],
+      [ "NPC_SHARPSHOOTER_GUARD", "df/d75/a04010.html#a25a619e6b66096a4f05d048e4a96df08a97486d2e340e7b844727ca3d6387115e", null ],
+      [ "NPC_REAVER_GUARD", "df/d75/a04010.html#a25a619e6b66096a4f05d048e4a96df08acd79bfcdb6631140d9db8335350d9242", null ],
+      [ "NPC_SUMMONED_BLOODWARDER_MENDER", "d6/dae/a04043.html#a25a619e6b66096a4f05d048e4a96df08aeec60f9aac0ef2565854575fda0d9980", null ],
+      [ "NPC_SUMMONED_BLOODWARDER_RESERVIST", "d6/dae/a04043.html#a25a619e6b66096a4f05d048e4a96df08a2a5b50b807b6b8d82d3b534900a1e06d", null ],
+      [ "NPC_NETHER_CHARGE", "db/d38/a04088.html#a25a619e6b66096a4f05d048e4a96df08adf66984026cb47af3a7d3bb9e0c0a27c", null ]
     ] ],
     [ "Data", "d4/d5e/a03686.html#af5baa506e65b4caa6be6d1c6661dfe63", [
       [ "TYPE_GELIHAST", "dc/d86/a02909.html#af5baa506e65b4caa6be6d1c6661dfe63aba8a7ffa7c59b363812d39c2f84cfb06", null ],
@@ -385,7 +385,12 @@ var a03686 =
       [ "DATA_EREKEM_GUARD_1_GUID", "d5/d35/a03716.html#af5baa506e65b4caa6be6d1c6661dfe63aab57a9aa19fb76748c2b8e8f3c310a64", null ],
       [ "DATA_EREKEM_GUARD_2_GUID", "d5/d35/a03716.html#af5baa506e65b4caa6be6d1c6661dfe63a814d3c25fcbfae4755942da0fdab46c8", null ],
       [ "DATA_ICHORON_GUID", "d5/d35/a03716.html#af5baa506e65b4caa6be6d1c6661dfe63a645f472e4ecb948295dc370099998113", null ],
-      [ "DATA_ACHIEV", "d5/d35/a03716.html#af5baa506e65b4caa6be6d1c6661dfe63a017589bf4c8a9c402a3a436adbd2a933", null ]
+      [ "DATA_ACHIEV", "d5/d35/a03716.html#af5baa506e65b4caa6be6d1c6661dfe63a017589bf4c8a9c402a3a436adbd2a933", null ],
+      [ "DATA_HUNGARFEN", "da/d1d/a03947.html#af5baa506e65b4caa6be6d1c6661dfe63a63e8f0e6b9b5b9a811bc5243e3237323", null ],
+      [ "DATA_GHAZAN", "da/d1d/a03947.html#af5baa506e65b4caa6be6d1c6661dfe63a80a45b4f90bb001d27db8a0393b9c57e", null ],
+      [ "DATA_MUSELEK", "da/d1d/a03947.html#af5baa506e65b4caa6be6d1c6661dfe63aefd434c651108b5f79a253b9a91d045d", null ],
+      [ "DATA_BLACK_STALKER", "da/d1d/a03947.html#af5baa506e65b4caa6be6d1c6661dfe63a56ea641fde843aa83ff6f9bb73e308b3", null ],
+      [ "MAX_ENCOUNTERS", "da/d1d/a03947.html#af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25", null ]
     ] ],
     [ "GetVaultOfArchavonAI", "d4/d5e/a03686.html#acc7616f7b06ad97c4a2e5a634b01169a", null ]
 ];

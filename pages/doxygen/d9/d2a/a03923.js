@@ -1,9 +1,9 @@
 var a03923 =
 [
-    [ "boss_mekgineer_steamrigger", "db/d27/a25217.html", "db/d27/a25217" ],
-    [ "boss_mekgineer_steamrigger::boss_mekgineer_steamriggerAI", "d8/dfa/a25221.html", "d8/dfa/a25221" ],
-    [ "npc_steamrigger_mechanic", "d5/d02/a25225.html", "d5/d02/a25225" ],
-    [ "npc_steamrigger_mechanic::npc_steamrigger_mechanicAI", "db/d5c/a25229.html", "db/d5c/a25229" ],
+    [ "boss_mekgineer_steamrigger", "d4/df3/a25203.html", "d4/df3/a25203" ],
+    [ "boss_mekgineer_steamrigger::boss_mekgineer_steamriggerAI", "df/d05/a25207.html", "df/d05/a25207" ],
+    [ "npc_steamrigger_mechanic", "df/d9e/a25211.html", "df/d9e/a25211" ],
+    [ "npc_steamrigger_mechanic::npc_steamrigger_mechanicAI", "d6/d5c/a25215.html", "d6/d5c/a25215" ],
     [ "MekgineerSteamrigger", "d9/d2a/a03923.html#a4766bad7859befee09dc2ce208e1c4dd", [
       [ "SAY_MECHANICS", "d9/d2a/a03923.html#a4766bad7859befee09dc2ce208e1c4ddac616ae8f03c32cc59f26b5337aae84ba", null ],
       [ "SAY_AGGRO", "d9/d2a/a03923.html#a4766bad7859befee09dc2ce208e1c4dda47c752fff069f3e55065795eef2a9bfe", null ],

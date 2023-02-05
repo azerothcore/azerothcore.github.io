@@ -1,7 +1,6 @@
 var a02615 =
 [
-    [ "boss_servant_quarters", "d4/d58/a12077.html", "d4/d58/a12077" ],
-    [ "boss_servant_quarters::boss_servant_quartersAI", "d8/d2e/a12081.html", "d8/d2e/a12081" ],
+    [ "boss_servant_quarters", "d1/db3/a12079.html", "d1/db3/a12079" ],
     [ "ServantQuartersSpells", "dc/dcf/a02615.html#a266843f768102d11e894d8aed98eca30", [
       [ "SPELL_SNEAK", "dc/dcf/a02615.html#a266843f768102d11e894d8aed98eca30a2ffe719e752bc84060f0f8e4242de755", null ],
       [ "SPELL_ACIDIC_FANG", "dc/dcf/a02615.html#a266843f768102d11e894d8aed98eca30a8292be8b884e8107e42cde2aa18b44b3", null ],

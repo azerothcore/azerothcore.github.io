@@ -1,6 +1,6 @@
 var a00602 =
 [
-    [ "LoginDatabaseConnection", "da/d0c/a05381.html", "da/d0c/a05381" ],
+    [ "LoginDatabaseConnection", "db/de3/a05387.html", "db/de3/a05387" ],
     [ "LoginDatabaseStatements", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fb", [
       [ "LOGIN_SEL_REALMLIST", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba60f76dbe533e0e45479c1da3cf119ec9", null ],
       [ "LOGIN_DEL_EXPIRED_IP_BANS", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba391d5d5679155b59c7c5e62479acb721", null ],

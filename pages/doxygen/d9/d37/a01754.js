@@ -1,5 +1,5 @@
 var a01754 =
 [
-    [ "Movement::Location", "d2/db0/a09441.html", "d2/db0/a09441" ],
-    [ "Movement::MoveSpline", "d3/d4a/a09445.html", "d3/d4a/a09445" ]
+    [ "Movement::Location", "d9/d29/a09443.html", "d9/d29/a09443" ],
+    [ "Movement::MoveSpline", "da/d96/a09447.html", "da/d96/a09447" ]
 ];

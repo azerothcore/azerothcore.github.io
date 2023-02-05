@@ -1,9 +1,9 @@
 var a03809 =
 [
-    [ "boss_nexusprince_shaffar", "df/df0/a24197.html", "df/df0/a24197" ],
-    [ "boss_nexusprince_shaffar::boss_nexusprince_shaffarAI", "db/d2b/a24201.html", "db/d2b/a24201" ],
-    [ "npc_yor", "df/d7d/a24205.html", "df/d7d/a24205" ],
-    [ "npc_yor::npc_yorAI", "d7/d3c/a24209.html", "d7/d3c/a24209" ],
+    [ "boss_nexusprince_shaffar", "d7/d81/a24183.html", "d7/d81/a24183" ],
+    [ "boss_nexusprince_shaffar::boss_nexusprince_shaffarAI", "d2/ddb/a24187.html", "d2/ddb/a24187" ],
+    [ "npc_yor", "d1/d7f/a24191.html", "d1/d7f/a24191" ],
+    [ "npc_yor::npc_yorAI", "db/d3c/a24195.html", "db/d3c/a24195" ],
     [ "ePrince", "d9/d79/a03809.html#a04ab6449826f6b87c291eb8f5762d446", [
       [ "SAY_INTRO", "d9/d79/a03809.html#a04ab6449826f6b87c291eb8f5762d446af5bc3db04213b3bf118af6ce85b5a637", null ],
       [ "SAY_AGGRO", "d9/d79/a03809.html#a04ab6449826f6b87c291eb8f5762d446a47c752fff069f3e55065795eef2a9bfe", null ],
