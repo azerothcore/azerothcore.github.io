@@ -341,6 +341,7 @@ searchIndex["Achievement"] = {
         [3, "SameSubGroup", "", "Returns 'true' if the <a class=\"mod\" href=\"Player/index.html\">Player</a>s are in the same subgroup in this <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
         [3, "SendPacket", "", "Sends a specified <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a> to this <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
         [3, "SetLeader", "", "Sets the leader of this <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
+        [3, "SetMemberFlag", "", "Sets or removes a flag for a <a class=\"mod\" href=\"Group/index.html\">Group</a> member"],
         [3, "SetMembersGroup", "", "Sets the member's subGroup"],
         [3, "SetTargetIcon", "", "Sets the target icon of an object for the <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
     ],
