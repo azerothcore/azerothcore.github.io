@@ -21,6 +21,7 @@ document.write(`
   <a id="Group:SameSubGroup" class="fn" href="../Group/SameSubGroup.html">SameSubGroup</a>
   <a id="Group:SendPacket" class="fn" href="../Group/SendPacket.html">SendPacket</a>
   <a id="Group:SetLeader" class="fn" href="../Group/SetLeader.html">SetLeader</a>
+  <a id="Group:SetMemberFlag" class="fn" href="../Group/SetMemberFlag.html">SetMemberFlag</a>
   <a id="Group:SetMembersGroup" class="fn" href="../Group/SetMembersGroup.html">SetMembersGroup</a>
   <a id="Group:SetTargetIcon" class="fn" href="../Group/SetTargetIcon.html">SetTargetIcon</a>
 `);
