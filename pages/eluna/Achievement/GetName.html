@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="API documentation for the Achievement class in the Eluna engine.">
+    <meta name="description" content="API documentation for the Achievement:GetName method in the Eluna engine.">
     <meta name="keywords" content="eluna, lua, lua engine, trinitycore, trinity, mangos, cmangos, script, scripting, doc, docs, documentation">
 
-    <title>Achievement - Eluna API</title>
+    <title>Achievement:GetName - Eluna</title>
 
     <link rel="stylesheet" type="text/css" href="../static/main.css">
 
@@ -25,6 +25,19 @@
     <a href='../index.html'><img src='../static/eluna-logo.png' alt='Eluna Logo' width='100'></a>
     <div class="block">
         
+    <h2>Achievement Methods</h2>
+    <script src="sidebar.js"></script>
+    <script>
+      // Highlight current method by adding "current" class to it
+      var element = document.getElementById("Achievement:GetName");
+      if (element) {
+        var classname = "current";
+        arr = element.className.split(" ");
+        if (arr.indexOf(classname) == -1) {
+          element.className += " " + classname;
+        }
+      }
+    </script>
 
     </div>
 </section>
@@ -42,7 +55,8 @@
 
 <section id='main' class="content mod">
     <h1 class='fqn'>
-        Class <a class="mod" href="">Achievement</a>
+        Method
+    <a class="mod" href="../Achievement/index.html">Achievement</a>:<a class="fn" href="../Achievement/GetName.html">GetName</a>
         <span class='out-of-band'>
             <span id='render-detail'>
                 <a id="collapse-all" href="#">[-]</a>
@@ -52,29 +66,49 @@
     </h1>
 
     
-    
+    <div class='docblock'>
+        <p>Returns the <a class="mod" href="../Achievement/index.html">Achievement</a>'s name.</p>
+<pre><code>enum LocaleConstant
+{
+    LOCALE_enUS = 0,
+    LOCALE_koKR = 1,
+    LOCALE_frFR = 2,
+    LOCALE_deDE = 3,
+    LOCALE_zhCN = 4,
+    LOCALE_zhTW = 5,
+    LOCALE_esES = 6,
+    LOCALE_esMX = 7,
+    LOCALE_ruRU = 8
+};
+</code></pre>
 
-    <h2 id='methods' class='section-header'><a href="#methods">Methods</a></h2>
-    <table>
-        <tr>
-            <td>
-                <a class='stability Stable' title='Documented'></a>
-                <a class='fn' href='GetId.html'>GetId</a>
-            </td>
-            <td class='docblock short'>
-                <p>Returns the <a class="mod" href="../Achievement/index.html">Achievement</a>'s ID.</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a class='stability Stable' title='Documented'></a>
-                <a class='fn' href='GetName.html'>GetName</a>
-            </td>
-            <td class='docblock short'>
-                <p>Returns the <a class="mod" href="../Achievement/index.html">Achievement</a>'s name.</p>
-            </td>
-        </tr>
-    </table>
+        <h2 id="synopsis" class='section-header'>
+            <a href="#synopsis">Synopsis</a>
+        </h2>
+        <p>
+            <code>name = Achievement:GetName( locale )</code>
+        </p>
+
+        <h2 id="arguments" class='section-header'>
+            <a href="#arguments">Arguments</a>
+        </h2>
+        <p>
+            <dl>
+                <dt><code><strong><a href="https://github.com/ElunaLuaEngine/ElunaTrinityWotlk/search?l=cpp&q=%22enum+LocaleConstant%22&type=Code&utf8=%E2%9C%93">LocaleConstant</a></strong> locale (DEFAULT_LOCALE)</code></dt>
+                <dd class="docblock"><p>Locale to return the <a class="mod" href="../Achievement/index.html">Achievement</a> name in. </p></dd>
+            </dl>
+        </p>
+
+        <h2 id="returns" class='section-header'>
+            <a href="#returns">Returns</a>
+        </h2>
+        <p>
+            <dl>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.4.html">string</a></strong> name</code></dt>
+                <dd class="docblock"><em>See method description.</em></dd>
+            </dl>
+        </p>
+    </div>
 
 </section>
 
