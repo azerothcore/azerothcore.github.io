@@ -3,7 +3,8 @@ var searchIndex = {};
 searchIndex["Achievement"] = {
     "items": [
         [0, "", "Achievement", ""],
-        [3, "GetId", "", "Returns the <a class=\"mod\" href=\"Achievement/index.html\">Achievement</a>s ID"],
+        [3, "GetId", "", "Returns the <a class=\"mod\" href=\"Achievement/index.html\">Achievement</a>'s ID."],
+        [3, "GetName", "", "Returns the <a class=\"mod\" href=\"Achievement/index.html\">Achievement</a>'s name."],
     ],
     "paths": []
 };searchIndex["Aura"] = {
