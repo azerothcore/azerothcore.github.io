@@ -1,10 +1,5 @@
 var a08024 =
 [
-    [ "EquipmentSet", "d8/d4f/a08024.html#acd3085c12c795daceae86e94448109e2", null ],
-    [ "Guid", "d8/d4f/a08024.html#aae529ea61a2ad4f114b6a108564f5474", null ],
-    [ "IconName", "d8/d4f/a08024.html#a40233dfcc23f125ff88693d6c7d7fab5", null ],
-    [ "IgnoreMask", "d8/d4f/a08024.html#af116e824d23f000f424f3b261618e827", null ],
-    [ "Items", "d8/d4f/a08024.html#a113e6e5883afe38d446a6d435cd34a01", null ],
-    [ "Name", "d8/d4f/a08024.html#a2b4691a1b44ae47e7d3c2e63f88d78ba", null ],
-    [ "state", "d8/d4f/a08024.html#a7e2270a6041dda26f8bc7f8c82597e7f", null ]
+    [ "Rank", "d8/d4f/a08024.html#a61797c7cb799308a7c20a954d287be17", null ],
+    [ "SkillId", "d8/d4f/a08024.html#a3f28221b1c8e91bf9f2fa6337e81c952", null ]
 ];

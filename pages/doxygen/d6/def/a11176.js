@@ -1,8 +1,6 @@
 var a11176 =
 [
-    [ "ironhand_guardianAI", "d6/def/a11176.html#ab109b4ba9d399bd8c7d7dd5c04f2c618", null ],
-    [ "SetData", "d6/def/a11176.html#ab4e6402951bf45910fb3399ea107b207", null ],
-    [ "UpdateAI", "d6/def/a11176.html#a095b11f44935c8ddb43a20c095495507", null ],
-    [ "events", "d6/def/a11176.html#a13ed887285809d2fcad0d23fdf37face", null ],
-    [ "flames_enabled", "d6/def/a11176.html#ab54e1eac19a8b51e2aa9fe4bc5f08e46", null ]
+    [ "npc_water_elementalAI", "df/de8/a11180.html", "df/de8/a11180" ],
+    [ "npc_water_elemental", "d6/def/a11176.html#ab7f049499e774bea8f0d32b89563ffa5", null ],
+    [ "GetAI", "d6/def/a11176.html#a2063ca5f5f562cbf3805b9df2fb1a09e", null ]
 ];

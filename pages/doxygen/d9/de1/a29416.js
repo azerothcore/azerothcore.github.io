@@ -1,6 +1,10 @@
 var a29416 =
 [
-    [ "guard_shattrath_aldorAI", "de/d17/a29420.html", "de/d17/a29420" ],
-    [ "guard_shattrath_aldor", "d9/de1/a29416.html#ab965295d9c3828ad814f658670b5f185", null ],
-    [ "GetAI", "d9/de1/a29416.html#a3459a6a85c7e7286e3cbdd7f56fee704", null ]
+    [ "npc_prof_tailor", "d9/de1/a29416.html#a481157e49fb1c09f62a3cb9de85c9da1", null ],
+    [ "HasTailorSpell", "d9/de1/a29416.html#a188c0ac66b1972bccd031aca26f7fecd", null ],
+    [ "OnGossipHello", "d9/de1/a29416.html#a686098ac43916ea2f82b7c321527863d", null ],
+    [ "OnGossipSelect", "d9/de1/a29416.html#a03545eaacf3bae0d407e0e20c32740dc", null ],
+    [ "SendActionMenu", "d9/de1/a29416.html#a03ced7d6541535097a5e4e3bd9f415f2", null ],
+    [ "SendConfirmLearn", "d9/de1/a29416.html#a93a8692cb2c0b30ee752ae3ecd5561e5", null ],
+    [ "SendConfirmUnlearn", "d9/de1/a29416.html#ada0be1dc79f72b7b033191c8e17a8baf", null ]
 ];

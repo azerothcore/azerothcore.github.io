@@ -1,6 +1,6 @@
 var a28824 =
 [
-    [ "HandleBanish", "de/d95/a28824.html#ab8dd3ab2fd7b9aff3556e6284c515474", null ],
-    [ "PrepareSpellScript", "de/d95/a28824.html#a56118e3ed7525cdf575531a4c2f2d93f", null ],
-    [ "Register", "de/d95/a28824.html#ad6c066c9d6a64a5d89d3c347600559a9", null ]
+    [ "HandleOnHit", "de/d95/a28824.html#a94893e6dd048f0028540e5ce15ed7b1d", null ],
+    [ "PrepareSpellScript", "de/d95/a28824.html#a999b019665dec9b0690a1019be428072", null ],
+    [ "Register", "de/d95/a28824.html#ab21c47d1918a9e29ebe7b041421deaf7", null ]
 ];

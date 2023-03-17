@@ -1,14 +1,7 @@
 var a25384 =
 [
-    [ "boss_broggokAI", "db/d04/a25384.html#aeac5fa94262f0c78f9dad0788b2106d7", null ],
-    [ "DoAction", "db/d04/a25384.html#a676c8223fde4ba00e84f1ef3dd29ecb6", null ],
-    [ "EnterCombat", "db/d04/a25384.html#a164603f2f6a2a3e68fe87b610f3e4b5f", null ],
-    [ "JustDied", "db/d04/a25384.html#a4eb10e8ead8aad91c4bad14c433993cf", null ],
-    [ "JustSummoned", "db/d04/a25384.html#a14461a645f79c757a30adb31c0ad8e16", null ],
-    [ "Reset", "db/d04/a25384.html#adee3039580ca31fa7b0f45a48803a64c", null ],
-    [ "SummonedCreatureDespawn", "db/d04/a25384.html#a123d63a5dafb2d7a3c067ee886e37f54", null ],
-    [ "UpdateAI", "db/d04/a25384.html#ac9001db4a2fd05368060a772e0e37103", null ],
-    [ "canAttack", "db/d04/a25384.html#a07b3dbb8b9cab20a2b71d9322f8e7587", null ],
-    [ "instance", "db/d04/a25384.html#ad282c0c66eb764173d8e43e90bdc4120", null ],
-    [ "summons", "db/d04/a25384.html#ad55f2ec8c90ef39baa057d63b86e8c62", null ]
+    [ "PeriodicTick", "db/d04/a25384.html#a53541105e40202e4a73ecc38d84e9eca", null ],
+    [ "PrepareAuraScript", "db/d04/a25384.html#a79c8829a86db535e254db009d5286430", null ],
+    [ "Register", "db/d04/a25384.html#a58cd762eb10d224bb188aaf167c816b9", null ],
+    [ "Validate", "db/d04/a25384.html#a0a4a1c0b460f7a0ade6ddbbedc893c6f", null ]
 ];

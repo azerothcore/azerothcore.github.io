@@ -1,6 +1,6 @@
 var a25040 =
 [
-    [ "HandleScriptEffect", "d6/daf/a25040.html#a7cb6c7ef7c555000eaa48b4976da0559", null ],
-    [ "PrepareSpellScript", "d6/daf/a25040.html#a6f7da4564dee2a6d62148d8e7aca0f49", null ],
-    [ "Register", "d6/daf/a25040.html#a585effaf5450e086c955701a993056a9", null ]
+    [ "boss_leotheras_the_blindAI", "db/d07/a25044.html", "db/d07/a25044" ],
+    [ "boss_leotheras_the_blind", "d6/daf/a25040.html#a7400859cb7045f6879cd664655ea9f55", null ],
+    [ "GetAI", "d6/daf/a25040.html#a7ea9ec7e0ce28a1c734b677465616dc0", null ]
 ];

@@ -1,47 +1,49 @@
 var a04145 =
 [
-    [ "npc_pet_shaman_earth_elemental", "d7/d98/a26687.html", "d7/d98/a26687" ],
-    [ "npc_pet_shaman_fire_elemental", "d3/dc4/a26691.html", "d3/dc4/a26691" ],
-    [ "ShamanEvents", "d8/dca/a04145.html#aa2b323900a3ce0f1375b1b01093c124c", [
-      [ "EVENT_SHAMAN_ANGEREDEARTH", "d8/dca/a04145.html#aa2b323900a3ce0f1375b1b01093c124ca55d2bc767c95df14143f82764109f9f9", null ],
-      [ "EVENT_SHAMAN_FIRENOVA", "d8/dca/a04145.html#aa2b323900a3ce0f1375b1b01093c124caa9714e17f926812b7ab7328c42fa60ec", null ],
-      [ "EVENT_SHAMAN_FIRESHIELD", "d8/dca/a04145.html#aa2b323900a3ce0f1375b1b01093c124ca256726c16cd0c152f1ef2d08e8681b73", null ],
-      [ "EVENT_SHAMAN_FIREBLAST", "d8/dca/a04145.html#aa2b323900a3ce0f1375b1b01093c124cad63d80475f7c4d625393f51463234109", null ]
+    [ "npcs_ashyen_and_keleth", "d7/d3b/a26436.html", "d7/d3b/a26436" ],
+    [ "npc_cooshcoosh", "d1/dd4/a26440.html", "d1/dd4/a26440" ],
+    [ "npc_cooshcoosh::npc_cooshcooshAI", "da/d23/a26444.html", "da/d23/a26444" ],
+    [ "npc_elder_kuruti", "d7/d4c/a26448.html", "d7/d4c/a26448" ],
+    [ "npc_mortog_steamhead", "d5/def/a26452.html", "d5/def/a26452" ],
+    [ "npc_kayra_longmane", "de/d88/a26456.html", "de/d88/a26456" ],
+    [ "npc_kayra_longmane::npc_kayra_longmaneAI", "d6/dc7/a26460.html", "d6/dc7/a26460" ],
+    [ "npc_timothy_daniels", "da/d94/a26464.html", "da/d94/a26464" ],
+    [ "GOSSIP_COOSH", "d8/dca/a04145.html#acb7291e27b6234531ab929ee86cc8bfc", null ],
+    [ "GOSSIP_ITEM_BLESS_ASH", "d8/dca/a04145.html#a867ce6dd17c9cac433ca5e937ea1346d", null ],
+    [ "GOSSIP_ITEM_BLESS_KEL", "d8/dca/a04145.html#ada16b0f444477658271881cdab50cc9b", null ],
+    [ "GOSSIP_ITEM_KUR1", "d8/dca/a04145.html#a698dc988515399f0db79cb5086db0430", null ],
+    [ "GOSSIP_ITEM_KUR2", "d8/dca/a04145.html#ab854dfd056266ac7668d88e36d0adbe1", null ],
+    [ "GOSSIP_ITEM_KUR3", "d8/dca/a04145.html#ad15dac8fe106f1f267ce0a7e29ef6a2b", null ],
+    [ "GOSSIP_TEXT_BROWSE_POISONS", "d8/dca/a04145.html#aa34e012afb5cc46350b7a751e90d528b", null ],
+    [ "GOSSIP_TIMOTHY_DANIELS_ITEM1", "d8/dca/a04145.html#a80cc7983f5b3dc3edbcaf9b937381cd0", null ],
+    [ "AshyenAndKeleth", "d8/dca/a04145.html#ad07e6f3138b7a90b5b3d0a3f375da295", [
+      [ "GOSSIP_REWARD_BLESS", "d8/dca/a04145.html#ad07e6f3138b7a90b5b3d0a3f375da295a1e884264e2f5faafdfab2304bca484be", null ],
+      [ "NPC_ASHYEN", "d8/dca/a04145.html#ad07e6f3138b7a90b5b3d0a3f375da295a8685dfd4b3f61488a2ca6dd8637eb8b3", null ],
+      [ "NPC_KELETH", "d8/dca/a04145.html#ad07e6f3138b7a90b5b3d0a3f375da295a7ac167e934d9ebb0c2889e2383bc4af9", null ],
+      [ "SPELL_BLESS_ASH_EXA", "d8/dca/a04145.html#ad07e6f3138b7a90b5b3d0a3f375da295a9e7edca0b7371e1a570c31bd1a0120d2", null ],
+      [ "SPELL_BLESS_ASH_REV", "d8/dca/a04145.html#ad07e6f3138b7a90b5b3d0a3f375da295afd527426b27c7c875f051e4e47b072a2", null ],
+      [ "SPELL_BLESS_ASH_HON", "d8/dca/a04145.html#ad07e6f3138b7a90b5b3d0a3f375da295a0405119dd5a0313b7d65e723c3be34af", null ],
+      [ "SPELL_BLESS_ASH_FRI", "d8/dca/a04145.html#ad07e6f3138b7a90b5b3d0a3f375da295a8b86a8a31bbb60d13dc3520010fd2475", null ],
+      [ "SPELL_BLESS_KEL_EXA", "d8/dca/a04145.html#ad07e6f3138b7a90b5b3d0a3f375da295a8e0e5d036b014032f7265803e1d2c193", null ],
+      [ "SPELL_BLESS_KEL_REV", "d8/dca/a04145.html#ad07e6f3138b7a90b5b3d0a3f375da295a605d6131c6e52b072081af1396a6d223", null ],
+      [ "SPELL_BLESS_KEL_HON", "d8/dca/a04145.html#ad07e6f3138b7a90b5b3d0a3f375da295a26c96220e019e511995ac0febd575878", null ],
+      [ "SPELL_BLESS_KEL_FRI", "d8/dca/a04145.html#ad07e6f3138b7a90b5b3d0a3f375da295a6ab14a1afd59603bc4d258e703cdeff3", null ]
     ] ],
-    [ "ShamanSpells", "d8/dca/a04145.html#aa87108001ed3860c7adcb67ee9e52019", [
-      [ "SPELL_SHAMAN_ANGEREDEARTH", "d8/dca/a04145.html#aa87108001ed3860c7adcb67ee9e52019aa109e155dd35d935fb257e50e09747bb", null ],
-      [ "SPELL_SHAMAN_FIREBLAST", "d8/dca/a04145.html#aa87108001ed3860c7adcb67ee9e52019ab4d2cec0ccba90360e4d378708dc2274", null ],
-      [ "SPELL_SHAMAN_FIRENOVA", "d8/dca/a04145.html#aa87108001ed3860c7adcb67ee9e52019aa1c748f3d3c445992118bdca56e91ba5", null ],
-      [ "SPELL_SHAMAN_FIRESHIELD", "d8/dca/a04145.html#aa87108001ed3860c7adcb67ee9e52019a384ca4eabf43f412d7d68e16d6ef7fe8", null ],
-      [ "SPELL_SHAMAN_GLYPH_OF_FERAL_SPIRIT", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019ab875e7cfb37d4193945e25abd49ac409", null ],
-      [ "SPELL_SHAMAN_ANCESTRAL_AWAKENING_PROC", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019aa1a455923bea8042e64610ed0198cc36", null ],
-      [ "SPELL_SHAMAN_BIND_SIGHT", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a33c78f07635e9e4ca4ff4fa9b447ef69", null ],
-      [ "SPELL_SHAMAN_CLEANSING_TOTEM_EFFECT", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019abd290be920822efdf04e25cb92c45c0c", null ],
-      [ "SPELL_SHAMAN_EARTH_SHIELD_HEAL", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019ae1255f0cbacdf7851f8b0a0dc9a2d836", null ],
-      [ "SPELL_SHAMAN_ELEMENTAL_MASTERY", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a72eddc09d527f5f8a01d6e043f85fa76", null ],
-      [ "SPELL_SHAMAN_EXHAUSTION", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019ab2ae14630088de8b52f391e14988b5e1", null ],
-      [ "SPELL_SHAMAN_FIRE_NOVA_R1", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a79d48cc31cfe1b8e228bc9236fa48c3b", null ],
-      [ "SPELL_SHAMAN_FIRE_NOVA_TRIGGERED_R1", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019ae4d68eb02284baf4168dd474f011a5b0", null ],
-      [ "SPELL_SHAMAN_GLYPH_OF_EARTH_SHIELD", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a71b0a26925bb4da743c652f284727ab1", null ],
-      [ "SPELL_SHAMAN_GLYPH_OF_HEALING_STREAM_TOTEM", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a143ad7a35158a008ba877f4a3d2454e3", null ],
-      [ "SPELL_SHAMAN_GLYPH_OF_MANA_TIDE", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a9a807b28eb58d2f4f4539bebd6dec4da", null ],
-      [ "SPELL_SHAMAN_GLYPH_OF_THUNDERSTORM", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a841e96bbe93dc3366867eb77250dc0a2", null ],
-      [ "SPELL_SHAMAN_ITEM_LIGHTNING_SHIELD", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a459a713eeb348964b181aa08fc72f5e2", null ],
-      [ "SPELL_SHAMAN_ITEM_LIGHTNING_SHIELD_DAMAGE", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a55c8be0ddb6926b0050d8fd2d4d6a990", null ],
-      [ "SPELL_SHAMAN_ITEM_MANA_SURGE", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019ae9cd9603ea6d80479a2760686391566f", null ],
-      [ "SPELL_SHAMAN_LAVA_FLOWS_R1", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a907ef88a98a8daa70d21406d41a04120", null ],
-      [ "SPELL_SHAMAN_LAVA_FLOWS_TRIGGERED_R1", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019ac4c3cf0a498a746285ed48fa0d6e1800", null ],
-      [ "SPELL_SHAMAN_MANA_SPRING_TOTEM_ENERGIZE", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019aa4a29831a1a1d7d2c43868b41f0ebf9c", null ],
-      [ "SPELL_SHAMAN_MANA_TIDE_TOTEM", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a4910331576d472088ed59ab694712d1b", null ],
-      [ "SPELL_SHAMAN_SATED", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a4df99e57e0d713d193e2578b8fdee7a4", null ],
-      [ "SPELL_SHAMAN_STORM_EARTH_AND_FIRE", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019ab7a6e3e33f811c9d9d85285a1e7e0d60", null ],
-      [ "SPELL_SHAMAN_TOTEM_EARTHBIND_EARTHGRAB", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a04c3dfea37fa8eeb0af97d7cd6e499a2", null ],
-      [ "SPELL_SHAMAN_TOTEM_EARTHBIND_TOTEM", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a4709b8c9c037c648bb265d2f7695f4e7", null ],
-      [ "SPELL_SHAMAN_TOTEM_EARTHEN_POWER", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019ab3f8d2e2ded26eb9e6ebcecb9442649e", null ],
-      [ "SPELL_SHAMAN_TOTEM_HEALING_STREAM_HEAL", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a8d0782da4d8d3aea933835cbb7dc83ef", null ],
-      [ "SPELL_SHAMAN_BLESSING_OF_THE_ETERNALS_R1", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a40689e256ce60fa29f39b2804a5c5ae2", null ],
-      [ "SPELL_SHAMAN_STORMSTRIKE", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a62dc8e40febbbc0eaa3cdb8de6c9a13f", null ],
-      [ "SPELL_SHAMAN_LAVA_LASH", "d1/dde/a04187.html#aa87108001ed3860c7adcb67ee9e52019a9d65d3bf8bf2cf95bcfcce2b8a50f5a6", null ]
+    [ "Cooshhooosh", "d8/dca/a04145.html#a9d58c651cc53969e2b759abd39dcf819", [
+      [ "SPELL_LIGHTNING_BOLT", "d8/dca/a04145.html#a9d58c651cc53969e2b759abd39dcf819a920803a7ad734282762d93767b701526", null ],
+      [ "QUEST_CRACK_SKULLS", "d8/dca/a04145.html#a9d58c651cc53969e2b759abd39dcf819a2cf7bf13048fc8433c0e5a3f1addd769", null ]
     ] ],
-    [ "AddSC_shaman_pet_scripts", "d8/dca/a04145.html#ab07e634ed761985e07d5c0e10f329231", null ]
+    [ "Kayra", "d8/dca/a04145.html#aede10935e0c8d6e0917a436106788aa0", [
+      [ "SAY_START", "d8/dca/a04145.html#aede10935e0c8d6e0917a436106788aa0a2eae21cbf7d110ee89a9798ef6f00239", null ],
+      [ "SAY_AMBUSH1", "d8/dca/a04145.html#aede10935e0c8d6e0917a436106788aa0af9c307934e5e7e30d487dbafbab144c2", null ],
+      [ "SAY_PROGRESS", "d8/dca/a04145.html#aede10935e0c8d6e0917a436106788aa0a0a1c1c8ee2f4fb58f4e107f259c6a7a5", null ],
+      [ "SAY_AMBUSH2", "d8/dca/a04145.html#aede10935e0c8d6e0917a436106788aa0a32c37598b933c172522a2d368bd3d664", null ],
+      [ "SAY_END", "d8/dca/a04145.html#aede10935e0c8d6e0917a436106788aa0a40884932ffbbf14d6c380b9022bcfe97", null ],
+      [ "QUEST_ESCAPE_FROM", "d8/dca/a04145.html#aede10935e0c8d6e0917a436106788aa0a86fbfb35bd9db1e69f11393a4be328ba", null ],
+      [ "NPC_SLAVEBINDER", "d8/dca/a04145.html#aede10935e0c8d6e0917a436106788aa0a957d7dad018e5cc1867e8c470dd69844", null ]
+    ] ],
+    [ "Timothy", "d8/dca/a04145.html#ab01dcc34b8c42e2ac7246dc2aec509d7", [
+      [ "GOSSIP_TEXTID_TIMOTHY_DANIELS1", "d8/dca/a04145.html#ab01dcc34b8c42e2ac7246dc2aec509d7a151898886013f2066a95ef7a0867da14", null ]
+    ] ],
+    [ "AddSC_zangarmarsh", "d8/dca/a04145.html#aa38b6da0158d06f2f3cb62da2055fc00", null ]
 ];

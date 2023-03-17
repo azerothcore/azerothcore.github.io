@@ -1,6 +1,6 @@
 var a26448 =
 [
-    [ "HandleSendEvent", "d7/d4c/a26448.html#a1ff097621f64e894be024de4e0946b34", null ],
-    [ "PrepareSpellScript", "d7/d4c/a26448.html#ab967a899ac6d2397c2f871cc5062cfc6", null ],
-    [ "Register", "d7/d4c/a26448.html#a590fe9da733c8b7bf08464f277b398f7", null ]
+    [ "npc_elder_kuruti", "d7/d4c/a26448.html#a0ac2328b781799685c4777b7c1744ea4", null ],
+    [ "OnGossipHello", "d7/d4c/a26448.html#a385cc93f9fea63b39a00c77a75a18f78", null ],
+    [ "OnGossipSelect", "d7/d4c/a26448.html#a06a3830607ccae256931db15e4f3dd54", null ]
 ];

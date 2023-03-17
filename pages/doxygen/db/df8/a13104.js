@@ -1,7 +1,7 @@
 var a13104 =
 [
-    [ "HandleApply", "db/df8/a13104.html#a0858eeeaae2b07e44452fefb30fc3cf6", null ],
-    [ "HandleRemove", "db/df8/a13104.html#a58addb11985f969b44c536f2277538d0", null ],
-    [ "PrepareAuraScript", "db/df8/a13104.html#a392e4061d7833de4fbf7aad8670a1d63", null ],
-    [ "Register", "db/df8/a13104.html#a69126dd7873fc2024333d106176931cf", null ]
+    [ "FilterTargets", "db/df8/a13104.html#a89d56e369459d67389916d2c07bcb5f9", null ],
+    [ "HandleScriptEffect", "db/df8/a13104.html#a57f0fdd0edc1df10bcf5719b73ebd028", null ],
+    [ "PrepareSpellScript", "db/df8/a13104.html#adb382b4a53e362badddea461909782c4", null ],
+    [ "Register", "db/df8/a13104.html#a8b8c6e648d04589e72f996ded2856128", null ]
 ];

@@ -1,6 +1,6 @@
 var a22284 =
 [
-    [ "spell_yogg_saron_empowered_AuraScript", "d5/dab/a22288.html", "d5/dab/a22288" ],
-    [ "spell_yogg_saron_empowered", "d5/db6/a22284.html#a318838339de4383931987bd964e6d449", null ],
-    [ "GetAuraScript", "d5/db6/a22284.html#a7fd58e334ed304132f89da774edd5be9", null ]
+    [ "spell_yogg_saron_titanic_storm_SpellScript", "d5/dab/a22288.html", "d5/dab/a22288" ],
+    [ "spell_yogg_saron_titanic_storm", "d5/db6/a22284.html#adf35073dd6a9fe73e61b6b6de91a6717", null ],
+    [ "GetSpellScript", "d5/db6/a22284.html#a05a3627cb970008631302ac2f8dbc776", null ]
 ];

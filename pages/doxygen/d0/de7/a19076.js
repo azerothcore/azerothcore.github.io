@@ -1,6 +1,6 @@
 var a19076 =
 [
-    [ "spell_the_lich_king_soul_reaper_AuraScript", "d4/d03/a19080.html", "d4/d03/a19080" ],
-    [ "spell_the_lich_king_soul_reaper", "d0/de7/a19076.html#af59797578ed3cf26088a4456c8aeafc9", null ],
-    [ "GetAuraScript", "d0/de7/a19076.html#a0a8d7fe2854b563c611110464a68971e", null ]
+    [ "HandleScript", "d0/de7/a19076.html#a74b1257b85044f68253d13cdb516f7b3", null ],
+    [ "PrepareSpellScript", "d0/de7/a19076.html#a48c9a2eae46edc07f0b004d628b9260b", null ],
+    [ "Register", "d0/de7/a19076.html#ae7f50b7a0009a9eae3d1519042363c73", null ]
 ];

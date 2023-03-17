@@ -1,13 +1,12 @@
 var a14620 =
 [
-    [ "npc_gargoyleAI", "db/d22/a14620.html#a0475db1240f88c4cd7f02b20cc83efc5", null ],
-    [ "JustDied", "db/d22/a14620.html#aa3111294ad819e3985f15e67cd20a5e8", null ],
-    [ "Reset", "db/d22/a14620.html#a04bc6b91ece23b2b63a945012e71a897", null ],
-    [ "UpdateAI", "db/d22/a14620.html#ae3041c4f93d2c067b98055f5c5027b6b", null ],
-    [ "WaypointReached", "db/d22/a14620.html#a8e62639251e552d91619a979f492e6b8", null ],
-    [ "forcemove", "db/d22/a14620.html#afede28f1947b4b7d5401459f65f5b35f", null ],
-    [ "go", "db/d22/a14620.html#a4f9c89c8bd427da610f7cc1c718e4db0", null ],
-    [ "MoveTimer", "db/d22/a14620.html#a9d5b98563dbf7e1fa9769e6dc5d9c2ff", null ],
-    [ "StrikeTimer", "db/d22/a14620.html#a67c08682963edae29da746d1a4da7951", null ],
-    [ "Zpos", "db/d22/a14620.html#ae1ca9409c152dd92cc0eff6aa7e98182", null ]
+    [ "npc_ghoulAI", "db/d22/a14620.html#af835b3c0bdba5c2c37c2dfbabdbe01ea", null ],
+    [ "JustEngagedWith", "db/d22/a14620.html#a6ed7c5296348e23c69f9910d4742cad6", null ],
+    [ "Reset", "db/d22/a14620.html#a521edce5edbc5efe48d53c3555644342", null ],
+    [ "UpdateAI", "db/d22/a14620.html#a214d107691e7d07a94f90f8cc9129209", null ],
+    [ "WaypointReached", "db/d22/a14620.html#a6d265d52e3703fd540a86e164b9603cb", null ],
+    [ "FrenzyTimer", "db/d22/a14620.html#adc17bc938371728f50b31dc36994c94a", null ],
+    [ "go", "db/d22/a14620.html#a673780abea5ad1a13097dc316a108ab3", null ],
+    [ "MoveTimer", "db/d22/a14620.html#add6aff424fb7598f7cc3b09f19691d21", null ],
+    [ "RandomMove", "db/d22/a14620.html#a9b782556b7ce91e2b151ccd57066247e", null ]
 ];

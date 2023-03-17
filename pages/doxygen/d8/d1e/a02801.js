@@ -1,11 +1,16 @@
 var a02801 =
 [
-    [ "npc_the_scourge_cauldron", "df/d87/a13523.html", "df/d87/a13523" ],
-    [ "npc_the_scourge_cauldron::npc_the_scourge_cauldronAI", "d6/d72/a13527.html", "d6/d72/a13527" ],
-    [ "npc_andorhal_tower", "d4/d41/a13531.html", "d4/d41/a13531" ],
-    [ "npc_andorhal_tower::npc_andorhal_towerAI", "df/d75/a13535.html", "df/d75/a13535" ],
-    [ "AndorhalTower", "d8/d1e/a02801.html#a07061f0cf471fb1cb236b428c31965c8", [
-      [ "GO_BEACON_TORCH", "d8/d1e/a02801.html#a07061f0cf471fb1cb236b428c31965c8ace3e47469a19c76e79a7ae1ca2b4f798", null ]
+    [ "npc_corporal_keeshan", "d0/de5/a13420.html", "d0/de5/a13420" ],
+    [ "npc_corporal_keeshan::npc_corporal_keeshanAI", "d5/d12/a13424.html", "d5/d12/a13424" ],
+    [ "CorporalKeeshan", "d8/d1e/a02801.html#aeff5ef215a48fcd7bb6837e1d77e4b45", [
+      [ "QUEST_MISSING_IN_ACTION", "d8/d1e/a02801.html#aeff5ef215a48fcd7bb6837e1d77e4b45a5671553041dd72c404603a8d8306d210", null ],
+      [ "SAY_CORPORAL_1", "d8/d1e/a02801.html#aeff5ef215a48fcd7bb6837e1d77e4b45ac38c6d842f842737e2ce32328ac9f364", null ],
+      [ "SAY_CORPORAL_2", "d8/d1e/a02801.html#aeff5ef215a48fcd7bb6837e1d77e4b45a0f3bc1435df322537b377cf731568c3f", null ],
+      [ "SAY_CORPORAL_3", "d8/d1e/a02801.html#aeff5ef215a48fcd7bb6837e1d77e4b45ac9f16a476377703de75fca38efc30445", null ],
+      [ "SAY_CORPORAL_4", "d8/d1e/a02801.html#aeff5ef215a48fcd7bb6837e1d77e4b45af4b07584ff68de1c2cb9c2ffc72b0dbe", null ],
+      [ "SAY_CORPORAL_5", "d8/d1e/a02801.html#aeff5ef215a48fcd7bb6837e1d77e4b45a6b6a9b8fdd7d72951451c7ae86adc8bf", null ],
+      [ "SPELL_MOCKING_BLOW", "d8/d1e/a02801.html#aeff5ef215a48fcd7bb6837e1d77e4b45a187756168a83876d24db61f38ff5ec5e", null ],
+      [ "SPELL_SHIELD_BASH", "d8/d1e/a02801.html#aeff5ef215a48fcd7bb6837e1d77e4b45a0d74cfe7662c959a043f01770a2c7bf4", null ]
     ] ],
-    [ "AddSC_western_plaguelands", "d8/d1e/a02801.html#a978fbc9b0f23371fedcca17926c637cb", null ]
+    [ "AddSC_redridge_mountains", "d8/d1e/a02801.html#a0e7af4a9a0f1dcec20ae3d284f9721c5", null ]
 ];

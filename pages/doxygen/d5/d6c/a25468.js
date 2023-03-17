@@ -1,6 +1,6 @@
 var a25468 =
 [
-    [ "HandleScriptEffect", "d5/d6c/a25468.html#a8920741b211ab64d875f5e88e1d72b0f", null ],
-    [ "PrepareSpellScript", "d5/d6c/a25468.html#aa12817ed9ac5428281d01529ad3836a1", null ],
-    [ "Register", "d5/d6c/a25468.html#ae51061078498ec31eb2f87cb6fc89d43", null ]
+    [ "boss_watchkeeper_gargolmarAI", "d0/dea/a25472.html", "d0/dea/a25472" ],
+    [ "boss_watchkeeper_gargolmar", "d5/d6c/a25468.html#ab1e0520652a9abd35955274ba2d80fbc", null ],
+    [ "GetAI", "d5/d6c/a25468.html#a16b37c047ddbe3510bd1ebd68869fc93", null ]
 ];

@@ -1,5 +1,6 @@
 var a26584 =
 [
-    [ "npc_pet_dk_ghoulAI", "da/d10/a26584.html#a7e747ba9e709eb532b0c16c8a1c1763a", null ],
-    [ "JustDied", "da/d10/a26584.html#a7d964fafeb0a7746a7749a9e0eb93080", null ]
+    [ "FilterTargets", "da/d10/a26584.html#adab73c94c659d7421c9c6887d956cd83", null ],
+    [ "PrepareSpellScript", "da/d10/a26584.html#a8cf5e4224f46b6f836d517f90fd135d4", null ],
+    [ "Register", "da/d10/a26584.html#a3aaf93f3746b36d5bfa4fc475aabe43b", null ]
 ];

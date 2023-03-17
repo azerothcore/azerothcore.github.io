@@ -1,6 +1,6 @@
 var a03824 =
 [
-    [ "instance_sethekk_halls", "dc/dfd/a24231.html", "dc/dfd/a24231" ],
-    [ "instance_sethekk_halls::instance_sethekk_halls_InstanceMapScript", "d4/de0/a24235.html", "d4/de0/a24235" ],
-    [ "AddSC_instance_sethekk_halls", "dc/d0f/a03824.html#a14325c1667938972a51bf364b00fe3c3", null ]
+    [ "instance_auchenai_crypts", "d9/d18/a24212.html", "d9/d18/a24212" ],
+    [ "instance_auchenai_crypts::instance_auchenai_crypts_InstanceMapScript", "d3/d51/a24216.html", "d3/d51/a24216" ],
+    [ "AddSC_instance_auchenai_crypts", "dc/d0f/a03824.html#a3a9866226f3a0e32fdb3501e506ab0b5", null ]
 ];

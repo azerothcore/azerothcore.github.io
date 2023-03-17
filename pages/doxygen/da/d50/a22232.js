@@ -1,8 +1,6 @@
 var a22232 =
 [
-    [ "spell_yogg_saron_brain_link_AuraScript", "de/de1/a22236.html", "de/de1/a22236" ],
-    [ "spell_yogg_saron_brain_link_SpellScript", "db/dfc/a22240.html", "db/dfc/a22240" ],
-    [ "spell_yogg_saron_brain_link", "da/d50/a22232.html#ab5b4e0b9d3b3926a3d76e841e9d3317d", null ],
-    [ "GetAuraScript", "da/d50/a22232.html#a6b44989d11c3f85ce1a392e2e394e496", null ],
-    [ "GetSpellScript", "da/d50/a22232.html#a23d84d86239ae8b67b4a487c92701492", null ]
+    [ "boss_yoggsaron_neltharionAI", "de/de1/a22236.html", "de/de1/a22236" ],
+    [ "boss_yoggsaron_neltharion", "da/d50/a22232.html#a9910e0d6043e7738cba0fe9ae7e92898", null ],
+    [ "GetAI", "da/d50/a22232.html#abce5f59c35f7af3e1d5b30cc55ff48e6", null ]
 ];

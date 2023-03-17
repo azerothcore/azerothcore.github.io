@@ -1,6 +1,6 @@
 var a20588 =
 [
-    [ "npc_spark_of_ionarAI", "d3/d64/a20592.html", "d3/d64/a20592" ],
-    [ "npc_spark_of_ionar", "d7/dc0/a20588.html#a63578a0d77331849b7a48272870af04d", null ],
-    [ "GetAI", "d7/dc0/a20588.html#aa1e524327b76ddc11a32e7a094e39dd1", null ]
+    [ "boss_bjarngrimAI", "d3/d64/a20592.html", "d3/d64/a20592" ],
+    [ "boss_bjarngrim", "d7/dc0/a20588.html#ab509688547d41ec1fd094fdc45291959", null ],
+    [ "GetAI", "d7/dc0/a20588.html#aff6455d2a327bbf3426d10a07f7b0e44", null ]
 ];

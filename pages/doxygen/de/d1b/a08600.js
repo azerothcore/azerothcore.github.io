@@ -1,9 +1,13 @@
 var a08600 =
 [
-    [ "CreatureLastSearcher", "de/d1b/a08600.html#a422c7a5a2cd4e93f7b0ad31cc4c6555d", null ],
-    [ "Visit", "de/d1b/a08600.html#ae6774df4ffff18cd4f3b4c07724db4f4", null ],
-    [ "Visit", "de/d1b/a08600.html#a08635cefbba5dca34734569816d2edb8", null ],
-    [ "i_check", "de/d1b/a08600.html#a2b9afe2c43af6e68f7fa5ba661790ef9", null ],
-    [ "i_object", "de/d1b/a08600.html#ab8a14acb8d0fc9835d1325430fa1a367", null ],
-    [ "i_phaseMask", "de/d1b/a08600.html#a9dd25e3437e1c1e5e4c8d68ab3548500", null ]
+    [ "WorldObjectWorker", "de/d1b/a08600.html#a15dd68579f1a92f015cfac8577db7422", null ],
+    [ "Visit", "de/d1b/a08600.html#ae264461e49602fd0b8a17e30ed554c64", null ],
+    [ "Visit", "de/d1b/a08600.html#a3021825347d132f1368a77d29a8318df", null ],
+    [ "Visit", "de/d1b/a08600.html#a7b7869c7d151e8abc924f517ecfdef82", null ],
+    [ "Visit", "de/d1b/a08600.html#a7de6ea339a8113d242dd099ca4d36927", null ],
+    [ "Visit", "de/d1b/a08600.html#a29196fa36ce32a0cec68d0d67372a400", null ],
+    [ "Visit", "de/d1b/a08600.html#a17097541c49264c15ebfe474f54aeca2", null ],
+    [ "i_do", "de/d1b/a08600.html#aa16ce8cce21d4590ef6612e14fb48919", null ],
+    [ "i_mapTypeMask", "de/d1b/a08600.html#a6f8e447b9693154f56ce010869acadb9", null ],
+    [ "i_phaseMask", "de/d1b/a08600.html#affa6245985c5d271900be12104ab6bb6", null ]
 ];

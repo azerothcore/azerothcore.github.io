@@ -1,5 +1,6 @@
 var a22964 =
 [
-    [ "npc_khunok_the_behemothAI", "d0/d6d/a22964.html#a435ac0418fe4bba1d2877ce6bea6451c", null ],
-    [ "MoveInLineOfSight", "d0/d6d/a22964.html#a5d54954a159da764aa7b83579e03688c", null ]
+    [ "spell_q11919_q11940_drake_hunt_AuraScript", "d1/d74/a22968.html", "d1/d74/a22968" ],
+    [ "spell_q11919_q11940_drake_hunt", "d0/d6d/a22964.html#a48220c2e7f6b30932c09dafd67225529", null ],
+    [ "GetAuraScript", "d0/d6d/a22964.html#a939d86a53ff2a8d7e7bf841f35f84e17", null ]
 ];

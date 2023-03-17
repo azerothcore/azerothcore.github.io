@@ -1,6 +1,6 @@
 var a16860 =
 [
-    [ "OnPeriodic", "d5/d01/a16860.html#accee172deb2831747767444496cd8f95", null ],
-    [ "PrepareAuraScript", "d5/d01/a16860.html#a2c1ef65892419ac740e6626b3a4d3fea", null ],
-    [ "Register", "d5/d01/a16860.html#a11631f7419021c9da178d9efd95bcd5e", null ]
+    [ "spell_valkyr_ball_periodic_dummyAuraScript", "d3/d07/a16864.html", "d3/d07/a16864" ],
+    [ "spell_valkyr_ball_periodic_dummy", "d5/d01/a16860.html#a0a8ea4997a87c486ac68cae0259d5ad5", null ],
+    [ "GetAuraScript", "d5/d01/a16860.html#abfc4ad26352893ac44d0d8468b3b22f7", null ]
 ];

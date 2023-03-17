@@ -1,5 +1,6 @@
 var a17456 =
 [
-    [ "PrepareAuraScript", "da/d12/a17456.html#a472d455cc2e317606940f8064abfc383", null ],
-    [ "Register", "da/d12/a17456.html#aa2a6bf985447a046a6ce149fa2595bba", null ]
+    [ "HandleDummy", "da/d12/a17456.html#ab1910d353e1648a2bad4b39c884234f8", null ],
+    [ "PrepareSpellScript", "da/d12/a17456.html#af7364e03bc372c76cd1d067c4c97c7c7", null ],
+    [ "Register", "da/d12/a17456.html#a531a2b8ef44e2a6c62c7d2bc5aba51e9", null ]
 ];

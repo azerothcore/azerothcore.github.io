@@ -1,4 +1,4 @@
 var a07156 =
 [
-    [ "operator()", "d0/d0b/a07156.html#a1c1e59697194005023a42873b8856a50", null ]
+    [ "ChatCommandResult", "d0/d0b/a07156.html#a6150ebd46977676b2ddeebfb818e86a9", null ]
 ];

@@ -1,6 +1,6 @@
 var a21484 =
 [
-    [ "FilterTargets", "d0/deb/a21484.html#ae93d9d0fadebf31c9bf2fb0e36f6b92b", null ],
-    [ "PrepareSpellScript", "d0/deb/a21484.html#a08c862eacb59c7681901c4ab1338649c", null ],
-    [ "Register", "d0/deb/a21484.html#a8861c6463a35fa3aaf4acecbdbf987be", null ]
+    [ "spell_hodir_biting_cold_player_aura_AuraScript", "db/d54/a21488.html", "db/d54/a21488" ],
+    [ "spell_hodir_biting_cold_player_aura", "d0/deb/a21484.html#ae974a923636279b508e4cd44b9e6ae04", null ],
+    [ "GetAuraScript", "d0/deb/a21484.html#a26c18d3b8acb2e33e1aac688192c6afd", null ]
 ];

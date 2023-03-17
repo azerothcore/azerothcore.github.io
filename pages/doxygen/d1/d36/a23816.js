@@ -1,6 +1,6 @@
 var a23816 =
 [
-    [ "spell_q13007_iron_colossus_SpellScript", "d6/d0a/a23820.html", "d6/d0a/a23820" ],
-    [ "spell_q13007_iron_colossus", "d1/d36/a23816.html#a19b605d209d83a1bc9cb21785137d8fd", null ],
-    [ "GetSpellScript", "d1/d36/a23816.html#afce28bbe317f6aca823b3b34e6117ddf", null ]
+    [ "npc_time_lost_proto_drakeAI", "d6/d0a/a23820.html", "d6/d0a/a23820" ],
+    [ "npc_time_lost_proto_drake", "d1/d36/a23816.html#a6fda9f8b0d4e61e88e2a82d101d9c69e", null ],
+    [ "GetAI", "d1/d36/a23816.html#a8b463fe7a85b0b1526c2f99ed7aeefa2", null ]
 ];

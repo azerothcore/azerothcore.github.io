@@ -1,6 +1,6 @@
 var a18132 =
 [
-    [ "spell_igb_explosion_main_AuraScript", "d9/dd1/a18136.html", "d9/dd1/a18136" ],
-    [ "spell_igb_explosion_main", "db/d12/a18132.html#a900769f4d9041f100c3f3d2bcb0cb837", null ],
-    [ "GetAuraScript", "db/d12/a18132.html#a709ce8e73a5258907b9b9f1c466bf8a1", null ]
+    [ "spell_igb_teleport_to_enemy_ship_SpellScript", "d9/dd1/a18136.html", "d9/dd1/a18136" ],
+    [ "spell_igb_teleport_to_enemy_ship", "db/d12/a18132.html#a3c2d810158acc7421064f1298c6fda13", null ],
+    [ "GetSpellScript", "db/d12/a18132.html#a0d6d08f3f133edd8fd184275e161e057", null ]
 ];

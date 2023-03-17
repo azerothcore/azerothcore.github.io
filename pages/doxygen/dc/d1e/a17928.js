@@ -1,5 +1,6 @@
 var a17928 =
 [
-    [ "achievement_ive_gone_and_made_a_mess", "dc/d1e/a17928.html#a0e71ea3afae02176f81231e51155c038", null ],
-    [ "OnCheck", "dc/d1e/a17928.html#a638cead986783523c7c35ecb9d885b11", null ]
+    [ "ModAuraValue", "dc/d1e/a17928.html#aebb85353c7ae5af78a725074015b422d", null ],
+    [ "PrepareSpellScript", "dc/d1e/a17928.html#a58dc6a33d2aa9765c143c25428d37342", null ],
+    [ "Register", "dc/d1e/a17928.html#a8d296579faa0edcb4e5c119ccc4edab3", null ]
 ];

@@ -1,6 +1,6 @@
 var a18740 =
 [
-    [ "spell_sindragosa_instability_AuraScript", "d0/dc6/a18744.html", "d0/dc6/a18744" ],
-    [ "spell_sindragosa_instability", "d9/d4f/a18740.html#a348f6f307bef7cded7320dac90d8f7e5", null ],
-    [ "GetAuraScript", "d9/d4f/a18740.html#a4213ecc7a5d44a6290d0c32ef1a8b2ff", null ]
+    [ "UnchainedMagicTargetSelector", "d9/d4f/a18740.html#ae412c72884e6cfb1ceef8ed9fb347fbf", null ],
+    [ "operator()", "d9/d4f/a18740.html#af28ce8f46154ae6152e9025775a7f84f", null ],
+    [ "_removeHealers", "d9/d4f/a18740.html#a35a7981ce5495cba8b3a5391e4031431", null ]
 ];

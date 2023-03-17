@@ -1,6 +1,6 @@
 var a27704 =
 [
-    [ "PrepareSpellScript", "d3/d0b/a27704.html#a72e57e8a4bdb9a4fcd73e3519b6025ea", null ],
-    [ "Register", "d3/d0b/a27704.html#aac4d3c8ecde3652c65c05abad5c8eaeb", null ],
-    [ "SelectTarget", "d3/d0b/a27704.html#a3153b6c6814922cd7220e19b06f2a602", null ]
+    [ "FilterTargets", "d3/d0b/a27704.html#abe299fbad07f800e90b1614ec661c185", null ],
+    [ "PrepareSpellScript", "d3/d0b/a27704.html#a53bae2b6575436705adff74caf9225b7", null ],
+    [ "Register", "d3/d0b/a27704.html#a35fd5a1c8ab2400940da2d9f8f3ce9c2", null ]
 ];

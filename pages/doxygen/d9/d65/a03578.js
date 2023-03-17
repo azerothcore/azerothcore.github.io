@@ -1,6 +1,6 @@
 var a03578 =
 [
-    [ "instance_halls_of_stone", "d0/d20/a20743.html", "d0/d20/a20743" ],
-    [ "instance_halls_of_stone::instance_halls_of_stone_InstanceMapScript", "de/d02/a20747.html", "de/d02/a20747" ],
-    [ "AddSC_instance_halls_of_stone", "d9/d65/a03578.html#a81d8c56de5920b1e73d7955e1c7399ed", null ]
+    [ "instance_halls_of_lightning", "df/df3/a20660.html", "df/df3/a20660" ],
+    [ "instance_halls_of_lightning::instance_halls_of_lightning_InstanceMapScript", "dd/db5/a20664.html", "dd/db5/a20664" ],
+    [ "AddSC_instance_halls_of_lightning", "d9/d65/a03578.html#acb5e7d848388449d05e307ed07fbcfc6", null ]
 ];

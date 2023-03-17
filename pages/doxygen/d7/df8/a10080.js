@@ -1,12 +1,7 @@
 var a10080 =
 [
-    [ "Charges", "d7/df8/a10080.html#ada45d7e00efb3bf27afcf9db1ad4d813", null ],
-    [ "Count", "d7/df8/a10080.html#a6f31a3d750d5c5f1b316f05e7ad9dbe9", null ],
-    [ "EnchantmentID", "d7/df8/a10080.html#a249a204f5d72d42f562c989b1cb92fc9", null ],
-    [ "Flags", "d7/df8/a10080.html#a3ca816132a756d3dc939877c57f6045d", null ],
-    [ "ItemID", "d7/df8/a10080.html#a5dc7e8b40834dba07c63322d80ed73ae", null ],
-    [ "RandomPropertiesID", "d7/df8/a10080.html#ad98a20548478fe99f9d6d345c5a3b732", null ],
-    [ "RandomPropertiesSeed", "d7/df8/a10080.html#ae5d493dd4798e11f02d8f02a57ba4274", null ],
-    [ "Slot", "d7/df8/a10080.html#afcc0a78c2f9a3061830679fece476a64", null ],
-    [ "SocketEnchant", "d7/df8/a10080.html#a55545d4d1b752e4f08bd05350b22892c", null ]
+    [ "GuildBankActivate", "d7/df8/a10080.html#a5b27541a26ada694d9635f6d6873ef20", null ],
+    [ "Read", "d7/df8/a10080.html#a8dbde75aaa3102024aa0ff3a8f3625da", null ],
+    [ "Banker", "d7/df8/a10080.html#a9b79075c6ee6a4f73ae18c6956eead7c", null ],
+    [ "FullUpdate", "d7/df8/a10080.html#a50b9a5333e2296e654c90fc6394bdbd3", null ]
 ];

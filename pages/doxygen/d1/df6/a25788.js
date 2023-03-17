@@ -1,6 +1,6 @@
 var a25788 =
 [
-    [ "spell_astromancer_wrath_of_the_astromancer_AuraScript", "df/d93/a25792.html", "df/d93/a25792" ],
-    [ "spell_astromancer_wrath_of_the_astromancer", "d1/df6/a25788.html#a14ff773560fcc3cd56d8446983e1f078", null ],
-    [ "GetAuraScript", "d1/df6/a25788.html#ad889955b8597a64338f1f95e770f4c9f", null ]
+    [ "spell_kaelthas_remote_toy_AuraScript", "df/d93/a25792.html", "df/d93/a25792" ],
+    [ "spell_kaelthas_remote_toy", "d1/df6/a25788.html#acea6eaf85a3a1c1231fd2059aac9796e", null ],
+    [ "GetAuraScript", "d1/df6/a25788.html#a96ffccb019408d11523f1ce9e39bd8f0", null ]
 ];

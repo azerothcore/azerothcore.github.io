@@ -1,7 +1,5 @@
 var a15288 =
 [
-    [ "npc_rizzle_sprysprocketAI", "d6/dab/a15292.html", "d6/dab/a15292" ],
-    [ "npc_rizzle_sprysprocket", "de/d36/a15288.html#a3bd65f716b42200cc37d2264ddedf735", null ],
-    [ "GetAI", "de/d36/a15288.html#ae445545476b4046db305117fa635e7f5", null ],
-    [ "OnGossipHello", "de/d36/a15288.html#a3a42f3ffc35683b55de5bcc8d2b24647", null ]
+    [ "at_battleguard_sartura", "de/d36/a15288.html#a9247cdebeb57d2ddbfa75f60da125d36", null ],
+    [ "OnTrigger", "de/d36/a15288.html#a6a7b9f210ce0c2844b4f2412c0fe440e", null ]
 ];

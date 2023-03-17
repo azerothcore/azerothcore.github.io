@@ -1,7 +1,5 @@
 var a30252 =
 [
-    [ "ID", "de/d23/a30252.html#a3af48dd3f6b92ad7f5950d99ca6dd379", null ],
-    [ "Index", "de/d23/a30252.html#aa58e046529aae0d1d6201c08ec8107e2", null ],
-    [ "Skill", "de/d23/a30252.html#aed5e58cf605d3c28cd0d26015722be03", null ],
-    [ "Type", "de/d23/a30252.html#a39b0b548efd795c162926bddcdd301b5", null ]
+    [ "CastTime", "de/d23/a30252.html#af0bf895b1a5d61974cb63230b786c55e", null ],
+    [ "ID", "de/d23/a30252.html#a41b1059fc4059bd198925861a9414497", null ]
 ];

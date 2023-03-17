@@ -1,6 +1,6 @@
 var a18600 =
 [
-    [ "npc_big_oozeAI", "de/de5/a18604.html", "de/de5/a18604" ],
-    [ "npc_big_ooze", "d7/d8f/a18600.html#a8ae667b2782c53cd808f2e02e29713ee", null ],
-    [ "GetAI", "d7/d8f/a18600.html#ad06308602d69b51ff3f269bda6c465b5", null ]
+    [ "ExtraEffect", "d7/d8f/a18600.html#a77d8f094cc148888e460e271b2051e2e", null ],
+    [ "PrepareSpellScript", "d7/d8f/a18600.html#a445f4fca7ea225d40118f53a1259fdf9", null ],
+    [ "Register", "d7/d8f/a18600.html#aea7e7111d8f35714e78461e4b50c6fee", null ]
 ];

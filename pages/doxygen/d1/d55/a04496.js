@@ -1,13 +1,14 @@
 var a04496 =
 [
-    [ "LogoutCancel", "d5/dde/a09875.html", "d5/dde/a09875" ],
-    [ "LogoutCancelAck", "d7/d81/a09879.html", "d7/d81/a09879" ],
-    [ "LogoutComplete", "d7/d03/a09871.html", "d7/d03/a09871" ],
-    [ "LogoutRequest", "db/da5/a09863.html", "db/da5/a09863" ],
-    [ "LogoutResponse", "dc/d66/a09867.html", "dc/d66/a09867" ],
-    [ "PlayedTime", "df/d3f/a09891.html", "df/d3f/a09891" ],
-    [ "PlayedTimeClient", "de/da2/a09887.html", "de/da2/a09887" ],
-    [ "PlayerLogout", "d1/d22/a09883.html", "d1/d22/a09883" ],
-    [ "ShowingCloak", "d7/d84/a09855.html", "d7/d84/a09855" ],
-    [ "ShowingHelm", "da/de6/a09859.html", "da/de6/a09859" ]
+    [ "LinkTags", "dc/dd8/a04497.html", "dc/dd8/a04497" ],
+    [ "AchievementLinkData", "dd/df9/a07236.html", "dd/df9/a07236" ],
+    [ "GlyphLinkData", "df/d3a/a07240.html", "df/d3a/a07240" ],
+    [ "HyperlinkColor", "d1/d49/a07296.html", "d1/d49/a07296" ],
+    [ "HyperlinkInfo", "d5/d9b/a07300.html", "d5/d9b/a07300" ],
+    [ "ItemLinkData", "d5/d4a/a07244.html", "d5/d4a/a07244" ],
+    [ "QuestLinkData", "de/d9b/a07248.html", "de/d9b/a07248" ],
+    [ "TalentLinkData", "dc/d4a/a07252.html", "dc/d4a/a07252" ],
+    [ "TradeskillLinkData", "d8/d2b/a07256.html", "d8/d2b/a07256" ],
+    [ "CheckAllLinks", "d1/d55/a04496.html#a02761d9aa335689ff1b8dc1155b2a3c6", null ],
+    [ "ParseSingleHyperlink", "d1/d55/a04496.html#a2c5596879f4531eeedbe15d1e4987918", null ]
 ];

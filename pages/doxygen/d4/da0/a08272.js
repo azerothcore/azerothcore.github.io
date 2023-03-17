@@ -1,8 +1,9 @@
 var a08272 =
 [
-    [ "TempSummonGroupKey", "d4/da0/a08272.html#ae1bd752c8fc7d037d6942b32859ce1ad", null ],
-    [ "operator<", "d4/da0/a08272.html#ae92c7712bd58b9b773ddaac3d2b8a345", null ],
-    [ "_summonerEntry", "d4/da0/a08272.html#a0ecac0e82ce63c9e64f2e17d941df447", null ],
-    [ "_summonerType", "d4/da0/a08272.html#ac6bf8fb36092134f63409f3cddc5f810", null ],
-    [ "_summonGroup", "d4/da0/a08272.html#a1a90f3bf90363f88828cc217dd7ceda6", null ]
+    [ "GameEventAIHookWorker", "d4/da0/a08272.html#ad72640a18d2d32a9201c965089ee49cf", null ],
+    [ "Visit", "d4/da0/a08272.html#a23d979ee43838e7d58e9123e36474a5a", null ],
+    [ "Visit", "d4/da0/a08272.html#a79106ec550d072d690bbf3496d76cb0a", null ],
+    [ "Visit", "d4/da0/a08272.html#a165476edd8b252bbb90b8b78fae963a6", null ],
+    [ "_activate", "d4/da0/a08272.html#a756665eafa08f3c8c51ccef69bdd619f", null ],
+    [ "_eventId", "d4/da0/a08272.html#ab1ee68bb7134e84780772eba2cfac766", null ]
 ];

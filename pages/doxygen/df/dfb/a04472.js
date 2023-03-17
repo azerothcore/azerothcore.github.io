@@ -1,8 +1,6 @@
 var a04472 =
 [
-    [ "DisableData", "dd/d8c/a07325.html", "dd/d8c/a07325" ],
-    [ "DisableMap", "df/dfb/a04472.html#a2b8dd8b0bc5f58e812c1bd969ee833d6", null ],
-    [ "DisableTypeMap", "df/dfb/a04472.html#a1dc7ac8fd11c81da83700d364483165a", null ],
-    [ "m_DisableMap", "df/dfb/a04472.html#a15af74f7cffff305a48d31529df515e7", null ],
-    [ "MAX_DISABLE_TYPES", "df/dfb/a04472.html#a55c2ff1d7d10ed3d5f30071472d692fb", null ]
+    [ "type_identity", "db/dbc/a05116.html", "db/dbc/a05116" ],
+    [ "remove_cvref_t", "df/dfb/a04472.html#ac715806cfa8e6c5277bf65ddda6af591", null ],
+    [ "type_identity_t", "df/dfb/a04472.html#a172e0f55ccedf648cfcdc15e8cd1f6d5", null ]
 ];

@@ -1,6 +1,11 @@
 var a11664 =
 [
-    [ "spell_egg_eventSpellScript", "d6/dae/a11668.html", "d6/dae/a11668" ],
-    [ "spell_egg_event", "da/d44/a11664.html#a6da5d251c9ef1d197a372d7f1d2d411c", null ],
-    [ "GetSpellScript", "da/d44/a11664.html#afa3d8bf2445879a5a3197d1ae7e6f748", null ]
+    [ "npc_corrupted_totem", "da/d44/a11664.html#a5e0c58b341fe25a5d682b68e9eee207f", null ],
+    [ "IsSummonedBy", "da/d44/a11664.html#ae8314903c9006b7bca94a47115a0d05b", null ],
+    [ "JustDied", "da/d44/a11664.html#aa3c6b1a3df61c9e98c62efadff637578", null ],
+    [ "Reset", "da/d44/a11664.html#a0bc8df2b8266b7b3a5f40f1ede0e10b4", null ],
+    [ "SetAura", "da/d44/a11664.html#a509688befda49f789f77ee0e4170a74e", null ],
+    [ "UpdateAI", "da/d44/a11664.html#ac128625268820d2e9b1f0ef5ead975e9", null ],
+    [ "_auraAdded", "da/d44/a11664.html#a953cf5af625b9b5a4ab6704d5b1b664c", null ],
+    [ "_scheduler", "da/d44/a11664.html#a4f3d47478cc41b24999d0051d1a7a624", null ]
 ];

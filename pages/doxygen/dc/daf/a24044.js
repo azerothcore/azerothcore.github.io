@@ -1,6 +1,6 @@
 var a24044 =
 [
-    [ "npc_storm_cloudAI", "d8/d70/a24048.html", "d8/d70/a24048" ],
-    [ "npc_storm_cloud", "dc/daf/a24044.html#a8403185cdf54b2924024ba1d1d44a06a", null ],
-    [ "GetAI", "dc/daf/a24044.html#a952bd1cf5406b989182d8560d8b9e665", null ]
+    [ "npc_captured_rageclawAI", "dc/daf/a24044.html#a5bb483a323330b0895f87c5381d73314", null ],
+    [ "Reset", "dc/daf/a24044.html#a9cde0a0e5015334ec8dcd277fcd99dc3", null ],
+    [ "SpellHit", "dc/daf/a24044.html#a2c63911d27435a2271a7c89d9d88318c", null ]
 ];

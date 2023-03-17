@@ -1,6 +1,6 @@
 var a11344 =
 [
-    [ "instance_blackrock_depths_InstanceMapScript", "d3/dd0/a11348.html", "d3/dd0/a11348" ],
-    [ "instance_blackrock_depths", "d8/d12/a11344.html#a8d906bdb520b2c7907b94b0e22b5cdf4", null ],
-    [ "GetInstanceScript", "d8/d12/a11344.html#af8f8c9929cae50c098efc5a0dbdd727a", null ]
+    [ "boss_magmusAI", "d3/dd0/a11348.html", "d3/dd0/a11348" ],
+    [ "boss_magmus", "d8/d12/a11344.html#a97747c0d7e1fd33204033d6061d6d570", null ],
+    [ "GetAI", "d8/d12/a11344.html#a171bc08a8dd9fa502f3b2b6cf736fd52", null ]
 ];

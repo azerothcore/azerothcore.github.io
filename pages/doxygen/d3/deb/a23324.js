@@ -1,6 +1,7 @@
 var a23324 =
 [
-    [ "npc_spiritual_insightAI", "d6/dcf/a23328.html", "d6/dcf/a23328" ],
-    [ "npc_spiritual_insight", "d3/deb/a23324.html#afe7b9d5953462719407f03b33b8de564", null ],
-    [ "GetAI", "d3/deb/a23324.html#ab2884e1160ccad9adb8e3ae69db55bc4", null ]
+    [ "FilterTargets", "d3/deb/a23324.html#a70f2e6e1c7b6b41baa6f50ea7372042b", null ],
+    [ "HandleScript", "d3/deb/a23324.html#a38ac1b5d9534b30988c236b64eaa85a6", null ],
+    [ "PrepareSpellScript", "d3/deb/a23324.html#a41119290cf8893f887143575ce2bcf08", null ],
+    [ "Register", "d3/deb/a23324.html#a505f0d3ed2f11134fb90af04a68005fc", null ]
 ];

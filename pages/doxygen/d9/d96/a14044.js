@@ -1,6 +1,6 @@
 var a14044 =
 [
-    [ "npc_brewfest_keg_reciver", "d9/d96/a14044.html#af12e7608f3f715650e6c265ac18920e4", null ],
-    [ "MoveInLineOfSight", "d9/d96/a14044.html#ae719a770598c6347d4ee6b9e77d30eae", null ],
-    [ "sGossipSelect", "d9/d96/a14044.html#ad56ba9921e94cbd4ba1d6c1ddd1efe24", null ]
+    [ "boss_venoxisAI", "d9/dc8/a14048.html", "d9/dc8/a14048" ],
+    [ "boss_venoxis", "d9/d96/a14044.html#adb00beb0084f79f34b55a6726d34c7af", null ],
+    [ "GetAI", "d9/d96/a14044.html#a42a2f7d91919be74491b0a00e8e1e505", null ]
 ];

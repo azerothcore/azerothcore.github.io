@@ -1,6 +1,6 @@
 var a26328 =
 [
-    [ "npc_torloth_the_magnificentAI", "d3/d66/a26332.html", "d3/d66/a26332" ],
-    [ "npc_torloth_the_magnificent", "d8/d1e/a26328.html#a252796a19dcebe210eecb4d9ae150e5d", null ],
-    [ "GetAI", "d8/d1e/a26328.html#a94c206fb75cc6f50c6127908b5b5205f", null ]
+    [ "PrepareSpellScript", "d8/d1e/a26328.html#a98d048c65df93640914e8ff99c86dee6", null ],
+    [ "Register", "d8/d1e/a26328.html#ad1c6b680515f3388e21260c9602e3962", null ],
+    [ "SetDest", "d8/d1e/a26328.html#a586d75f46ac81359a8824ffc70a0e0c3", null ]
 ];

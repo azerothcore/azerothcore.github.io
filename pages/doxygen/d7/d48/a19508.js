@@ -1,6 +1,7 @@
 var a19508 =
 [
-    [ "npc_captain_arnathAI", "d4/d2d/a19512.html", "d4/d2d/a19512" ],
-    [ "npc_captain_arnath", "d7/d48/a19508.html#ab96afce64a7714ea84bab932f80c9302", null ],
-    [ "GetAI", "d7/d48/a19508.html#a302ec007389e677011334d78f410207b", null ]
+    [ "npc_frost_freeze_trapAI", "d7/d48/a19508.html#a95c64fbbc97f55e4d0cd0b239939fdc6", null ],
+    [ "DoAction", "d7/d48/a19508.html#a8dbe0fc5c84f49363254562166c8c0a7", null ],
+    [ "UpdateAI", "d7/d48/a19508.html#ae8efccb090f38968f3c0ca51f022013b", null ],
+    [ "_events", "d7/d48/a19508.html#ae0abd3d7fcb51ac02f8d325efa93b2f2", null ]
 ];

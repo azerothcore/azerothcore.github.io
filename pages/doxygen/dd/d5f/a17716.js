@@ -1,6 +1,6 @@
 var a17716 =
 [
-    [ "ChangeSummonPos", "dd/d5f/a17716.html#a06744070ccc918ae45b53a995cebc9a4", null ],
-    [ "PrepareSpellScript", "dd/d5f/a17716.html#ae47eb3968ce30d86a322112b195fb24c", null ],
-    [ "Register", "dd/d5f/a17716.html#a71434e35c3d1c8e7efc2764c705419cd", null ]
+    [ "HandleScript", "dd/d5f/a17716.html#aeb2e64c1615e6c247ea5e5c2470af26a", null ],
+    [ "PrepareSpellScript", "dd/d5f/a17716.html#aa929b29db99096a20ba28e6db035506a", null ],
+    [ "Register", "dd/d5f/a17716.html#a1fc0bce3eed1f7b3c7ad2c41f9010998", null ]
 ];

@@ -1,9 +1,9 @@
 var a05728 =
 [
-    [ "TurretAI", "d8/dcc/a05728.html#a0aaa1ee5eb1b2e83657ef24479d9a91e", null ],
-    [ "AttackStart", "d8/dcc/a05728.html#ab6eb7cf777595a4b196373123da19bea", null ],
-    [ "CanAIAttack", "d8/dcc/a05728.html#a47c1c38ddcc1f473104fb698fe338684", null ],
-    [ "Permissible", "d8/dcc/a05728.html#aac81fb574d70369fb006fb7ba22a0784", null ],
-    [ "UpdateAI", "d8/dcc/a05728.html#aa2d308443a31d8a06bbc63517695dfef", null ],
-    [ "m_minRange", "d8/dcc/a05728.html#a4cffbf9bcb29468dad6a6583c905b99a", null ]
+    [ "AddonInfo", "d8/dcc/a05728.html#a60ea66ed93b64c9e182226954a514f53", null ],
+    [ "CRC", "d8/dcc/a05728.html#a7f0f2d817a2189b3acee5999f154ba60", null ],
+    [ "Enabled", "d8/dcc/a05728.html#ace9f109c395ed84cc01ca4381222c25b", null ],
+    [ "Name", "d8/dcc/a05728.html#a45692257c72286e670ab8c9c50014335", null ],
+    [ "State", "d8/dcc/a05728.html#a5301b19e44d68540434574f023e62f46", null ],
+    [ "UsePublicKeyOrCRC", "d8/dcc/a05728.html#a75e016fa7abee24757c89b97330a6192", null ]
 ];

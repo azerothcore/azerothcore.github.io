@@ -1,10 +1,7 @@
 var a11620 =
 [
-    [ "npc_drakonid_spawner", "d0/d71/a11620.html#a2b657e800dc5cc30c618391413ded116", null ],
-    [ "DoAction", "d0/d71/a11620.html#ab013cff0430c09fe1045fdc735e45182", null ],
-    [ "IsSummonedBy", "d0/d71/a11620.html#a1be247e7bbaecefbc821d64cf04c3d0b", null ],
-    [ "SummonedCreatureDies", "d0/d71/a11620.html#a57dd1fc80cfa43f6afae58e797b4091f", null ],
-    [ "UpdateAI", "d0/d71/a11620.html#a60e79dd8f56e87a2de4a203a63c6f9e3", null ],
-    [ "_owner", "d0/d71/a11620.html#a6e0f0d2f6c265f9e5206f441dead8b2f", null ],
-    [ "_scheduler", "d0/d71/a11620.html#a5e1366e337377e66c4397ecf2efd7798", null ]
+    [ "HandleScript", "d0/d71/a11620.html#ac6ef94a03f602b44a5c7c22b7e41d116", null ],
+    [ "PrepareSpellScript", "d0/d71/a11620.html#ad92a56c23b9f15e36766fe64d1d0dd17", null ],
+    [ "Register", "d0/d71/a11620.html#aa8ad85cbf0403d79e55bbe0ae184407b", null ],
+    [ "Validate", "d0/d71/a11620.html#a3ad038e7bf43dceedb0fceebd4070bfa", null ]
 ];

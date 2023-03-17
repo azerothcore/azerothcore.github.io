@@ -1,6 +1,8 @@
 var a17096 =
 [
-    [ "instance_forge_of_souls_InstanceScript", "d4/d5f/a17100.html", "d4/d5f/a17100" ],
-    [ "instance_forge_of_souls", "df/dd5/a17096.html#a504896f6e191c87ce77231c4ef267b27", null ],
-    [ "GetInstanceScript", "df/dd5/a17096.html#a64982b527cfa6057315b8e628549480b", null ]
+    [ "HandlePeriodicTick", "df/dd5/a17096.html#a3c3cbd8961e42a133b819500079cee53", null ],
+    [ "Load", "df/dd5/a17096.html#a0ef263fc5f9b7a8949d2fb58fe88bb31", null ],
+    [ "PrepareAuraScript", "df/dd5/a17096.html#a6359089e60d0b6d30c9744ed78383839", null ],
+    [ "Register", "df/dd5/a17096.html#a54bfffe0c13bb282995fb468b0ac12ed", null ],
+    [ "dir", "df/dd5/a17096.html#a9b523759a7375bd4096f6c712b4fa4c1", null ]
 ];

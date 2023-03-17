@@ -1,20 +1,6 @@
 var a04373 =
 [
-    [ "map_fileheader", "d1/dab/a09151.html", "d1/dab/a09151" ],
-    [ "map_heightHeader", "dc/da4/a09159.html", "dc/da4/a09159" ],
-    [ "map_liquidHeader", "d5/d74/a09163.html", "d5/d74/a09163" ],
-    [ "MAP_HEIGHT_AS_INT16", "d9/db6/a04373.html#aefa74fa33f3eba2d39b407c2fd2e8aba", null ],
-    [ "MAP_HEIGHT_AS_INT8", "d9/db6/a04373.html#a15a9245a53c00f1a8a89dd2d798cea9d", null ],
-    [ "MAP_HEIGHT_NO_HEIGHT", "d9/db6/a04373.html#aa5c2437972b2be5c5ff23a7ac04e2680", null ],
-    [ "MAP_LIQUID_NO_HEIGHT", "d9/db6/a04373.html#a59daadc7c96729526e05982ec6600bb1", null ],
-    [ "MAP_LIQUID_NO_TYPE", "d9/db6/a04373.html#a42b8b790a3d284e7116bcad1c391b8f9", null ],
-    [ "MAP_LIQUID_TYPE_DARK_WATER", "d9/db6/a04373.html#a661f965d11d7da56890b64484d871441", null ],
-    [ "MAP_LIQUID_TYPE_MAGMA", "d9/db6/a04373.html#a14e2a0a2291347b0ef877bc9d70f7384", null ],
-    [ "MAP_LIQUID_TYPE_NO_WATER", "d9/db6/a04373.html#a17d4c5ea32412f0fbe04a27f63d50e13", null ],
-    [ "MAP_LIQUID_TYPE_OCEAN", "d9/db6/a04373.html#a6d257e0effb928fba7534eeee5de602d", null ],
-    [ "MAP_LIQUID_TYPE_SLIME", "d9/db6/a04373.html#aa56f76510545ed9c706b8fee3061b6cb", null ],
-    [ "MAP_LIQUID_TYPE_WATER", "d9/db6/a04373.html#a5ec110bd30ec47fcd087aaf5d572de28", null ],
-    [ "holetab_h", "d9/db6/a04373.html#abeb39e913287295598939165f99abe3b", null ],
-    [ "holetab_v", "d9/db6/a04373.html#a8c5ddef856ef804076860bb176c6d9e1", null ],
-    [ "MAP_VERSION_MAGIC", "d9/db6/a04373.html#aee23c8e21c084824373ce587f8fe1f04", null ]
+    [ "_CRT_SECURE_NO_DEPRECATE", "d9/db6/a04373.html#a411c46599e926f8cdf49c63957255359", null ],
+    [ "MAINMagic", "d9/db6/a04373.html#a026039bd50ec58444fa975da328951ec", null ],
+    [ "MPHDMagic", "d9/db6/a04373.html#aac8041bc8ca704e28f2b3054649b3752", null ]
 ];

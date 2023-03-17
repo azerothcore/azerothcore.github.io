@@ -1,6 +1,6 @@
 var a15464 =
 [
-    [ "npc_zelfraxAI", "d9/d42/a15468.html", "d9/d42/a15468" ],
-    [ "npc_zelfrax", "d4/d7f/a15464.html#afb8634547ac6307340982bbf36fc5aa4", null ],
-    [ "GetAI", "d4/d7f/a15464.html#abe852ab51d23f2aa64c78174ed827e4d", null ]
+    [ "npc_troll_volunteerAI", "d9/d42/a15468.html", "d9/d42/a15468" ],
+    [ "npc_troll_volunteer", "d4/d7f/a15464.html#a3c5eb7108dc0480e07b77eceb01cd18a", null ],
+    [ "GetAI", "d4/d7f/a15464.html#aba0208b0910ace75686941c462ecca56", null ]
 ];

@@ -1,12 +1,7 @@
 var a07804 =
 [
-    [ "WorldObjectChangeAccumulator", "d3/dd0/a07804.html#a853a5c84dec75f115eddd3e1b7ff0b78", null ],
-    [ "BuildPacket", "d3/dd0/a07804.html#ab4b9da3effe2a4f6e2cb6ecf268f429c", null ],
-    [ "Visit", "d3/dd0/a07804.html#ae18ca5886c95a6c4c00bdbc1920a5655", null ],
-    [ "Visit", "d3/dd0/a07804.html#a9afa50ac9e36cd357706e8e838df56a0", null ],
-    [ "Visit", "d3/dd0/a07804.html#aec62fc91f4b364e72a3d5afd5a1a7276", null ],
-    [ "Visit", "d3/dd0/a07804.html#a9815c06dbd29710cac2c99301c17b01c", null ],
-    [ "i_object", "d3/dd0/a07804.html#ab94d7f943107060caf742f9b6cca92e4", null ],
-    [ "i_playerSet", "d3/dd0/a07804.html#a0e17c2bf7a78cf5ef68e6fc7b29f0262", null ],
-    [ "i_updateDatas", "d3/dd0/a07804.html#a1446b9dae0dfc0325228870c815da23a", null ]
+    [ "EnchStoreItem", "d3/dd0/a07804.html#a89019e156774c5b978251479264e5463", null ],
+    [ "EnchStoreItem", "d3/dd0/a07804.html#aca83bb20eb6153faeaf599b07b97e357", null ],
+    [ "chance", "d3/dd0/a07804.html#a2d3d0cd28c79402b3625694d4676ed8b", null ],
+    [ "ench", "d3/dd0/a07804.html#ac2346b6c6c5c09bb63676d72c798d848", null ]
 ];

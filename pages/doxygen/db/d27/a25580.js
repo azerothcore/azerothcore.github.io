@@ -1,6 +1,7 @@
 var a25580 =
 [
-    [ "instance_shattered_halls_InstanceMapScript", "d4/dc6/a25584.html", "d4/dc6/a25584" ],
-    [ "instance_shattered_halls", "db/d27/a25580.html#a9d0d3b6baec34c679151791610cff3a7", null ],
-    [ "GetInstanceScript", "db/d27/a25580.html#a82388466811b022a725ba721845cadf3", null ]
+    [ "FilterTargets", "db/d27/a25580.html#a3b182db7a9ea7ede7bf506e8753f61c1", null ],
+    [ "HandleScriptEffect", "db/d27/a25580.html#a8dee2b5d02fdcbc2a794800d4767b1d2", null ],
+    [ "PrepareSpellScript", "db/d27/a25580.html#a19c1640af25c6a7959de7f17b7315c4e", null ],
+    [ "Register", "db/d27/a25580.html#a0f8ff092f3257362a32eb1aaa49cb276", null ]
 ];

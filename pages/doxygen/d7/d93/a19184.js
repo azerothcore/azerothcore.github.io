@@ -1,11 +1,6 @@
 var a19184 =
 [
-    [ "npc_terenas_menethilAI", "d7/d93/a19184.html#aa2e95b96928b033ef374843ad1fb9f3c", null ],
-    [ "CanAIAttack", "d7/d93/a19184.html#a1414da7f20e0f93486eb77c9b9450fa9", null ],
-    [ "DamageTaken", "d7/d93/a19184.html#ae62a6f965ffb11d633190f1ca4122bc9", null ],
-    [ "DoAction", "d7/d93/a19184.html#a4f261b19a7a8676dfd6d76d428a4f1b1", null ],
-    [ "EnterEvadeMode", "d7/d93/a19184.html#ada5313b34e8c20c82ac97396e54e27df", null ],
-    [ "UpdateAI", "d7/d93/a19184.html#a6210ca6e5e954d5c66d2108359efc888", null ],
-    [ "_events", "d7/d93/a19184.html#ae61e4919b99a2b9195a389992947a125", null ],
-    [ "_instance", "d7/d93/a19184.html#a60aae54e5e54526ba12a9468a3f45c88", null ]
+    [ "CheckTargetCount", "d7/d93/a19184.html#aed08a9a157d0f7c7c13ecabf9405475c", null ],
+    [ "PrepareSpellScript", "d7/d93/a19184.html#a91a20a6c1d3403aa695e42df910ca11a", null ],
+    [ "Register", "d7/d93/a19184.html#ac72384e8323280a8e027d2b7ad07d2ec", null ]
 ];

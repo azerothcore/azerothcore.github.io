@@ -1,11 +1,9 @@
 var a12432 =
 [
-    [ "npc_scarlet_ghoulAI", "de/d33/a12432.html#a194795143717de5aa8f0ca4c4e516136", null ],
-    [ "InitializeAI", "de/d33/a12432.html#ad0fd204d15350332508b0c9d9decefb1", null ],
-    [ "MovementInform", "de/d33/a12432.html#a9836c91a7dede1fabd1e0a9523ebd26a", null ],
-    [ "OwnerAttackedBy", "de/d33/a12432.html#a5b0afc1f2ee57a1cc5e30b8e997ba218", null ],
-    [ "SetGUID", "de/d33/a12432.html#a832602498643a03087efbc0a5a2f81c3", null ],
-    [ "UpdateAI", "de/d33/a12432.html#adbe4d539552e7954c7bdb8e520cb9783", null ],
-    [ "events", "de/d33/a12432.html#a105ac0982d28be590d514d2e452109c0", null ],
-    [ "gothikGUID", "de/d33/a12432.html#ab5efaf2e030f92d7ab45de8b5d19804d", null ]
+    [ "npc_eye_of_acherus", "de/d33/a12432.html#a1e0ed0eb0e32cb2e8a5d86869359db6c", null ],
+    [ "InitializeAI", "de/d33/a12432.html#aea655b94bcd590835882793d916d7865", null ],
+    [ "MovementInform", "de/d33/a12432.html#a5e0a360015fdfb1c6a277ba13583a584", null ],
+    [ "OnCharmed", "de/d33/a12432.html#a9a9d274a503ebe06fa503f433f53b0e6", null ],
+    [ "UpdateAI", "de/d33/a12432.html#a092592d0c9ec0f5a95fe550bed559f0e", null ],
+    [ "_events", "de/d33/a12432.html#a08b2eb3aff837408decaa5fa087f5054", null ]
 ];

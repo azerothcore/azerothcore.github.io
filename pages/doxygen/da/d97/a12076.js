@@ -1,6 +1,6 @@
 var a12076 =
 [
-    [ "boss_servant_quartersAI", "d4/d1c/a12080.html", "d4/d1c/a12080" ],
-    [ "boss_servant_quarters", "da/d97/a12076.html#a5e5cc792bfb35cbc3a9dd00d48c4e77c", null ],
-    [ "GetAI", "da/d97/a12076.html#ada7e51307901a27b20990940aec1d498", null ]
+    [ "HandleDummy", "da/d97/a12076.html#a0de2599443eb676ecb5e1cd09f4a2673", null ],
+    [ "PrepareSpellScript", "da/d97/a12076.html#a3f2acc71a667ac07134bcde2c5bf2a48", null ],
+    [ "Register", "da/d97/a12076.html#af45482229588ecaf4f06802d108077c9", null ]
 ];

@@ -1,25 +1,6 @@
 var a15884 =
 [
-    [ "boss_jedoga_shadowseeker", "d4/dfd/a15884.html#ab9cbbc07add92d5e02910660d54bac52", null ],
-    [ "DamageTaken", "d4/dfd/a15884.html#a049fa9b95e231bbbbc0f9d1970d1281d", null ],
-    [ "DespawnOOCSummons", "d4/dfd/a15884.html#ac52f5994af533906e5b60e539c48abb4", null ],
-    [ "DoAction", "d4/dfd/a15884.html#aa1c42164d1eb87240443c21c96805bfa", null ],
-    [ "EnterCombat", "d4/dfd/a15884.html#a976f218de3f0bc05bc0639391aa11480", null ],
-    [ "GetData", "d4/dfd/a15884.html#a7829368c62ef80d41480e0f8fdfacd06", null ],
-    [ "JustDied", "d4/dfd/a15884.html#af2ea97b4d6b74b81b5abc0520e832dbc", null ],
-    [ "JustSummoned", "d4/dfd/a15884.html#a69cef8ffc1b62eab23538cb3d7f342d7", null ],
-    [ "KilledUnit", "d4/dfd/a15884.html#a1d6db2fdd85d4df233a65f8963dcd2ad", null ],
-    [ "MoveInLineOfSight", "d4/dfd/a15884.html#a3d70de2d7a6d2c50083a684b9d969550", null ],
-    [ "MovementInform", "d4/dfd/a15884.html#a4522476699ac513e209d9ee2d56309f0", null ],
-    [ "ReschedulleCombatEvents", "d4/dfd/a15884.html#a501370436e01fb860433a8d782b7b37e", null ],
-    [ "Reset", "d4/dfd/a15884.html#a3def3996c41da5a5f5ad1368b1cb973d", null ],
-    [ "SummonedCreatureDies", "d4/dfd/a15884.html#a3efaecfd3dcf2987b1a8afced8f674b2", null ],
-    [ "UpdateAI", "d4/dfd/a15884.html#a7f1d6998efe3fdeb60ba1743c6561902", null ],
-    [ "combatSummonsSummoned", "d4/dfd/a15884.html#af300322d9b1f7705289588e217e120a3", null ],
-    [ "oocSummons", "d4/dfd/a15884.html#a8ab34fcd605e5c15c4dab7fb3f5a3160", null ],
-    [ "oocTriggers", "d4/dfd/a15884.html#adcec05da7f5feeca36e5e9054fba871f", null ],
-    [ "ritualTriggered", "d4/dfd/a15884.html#a28837c2f84acf08657cc301e8d382cfc", null ],
-    [ "sacraficeTarget_GUID", "d4/dfd/a15884.html#abb1ee99eb8429b0b8d94b75ea41ced9b", null ],
-    [ "sayPreachTimer", "d4/dfd/a15884.html#ac4e501a54c8da479cede1378db0c953c", null ],
-    [ "volunteerWork", "d4/dfd/a15884.html#aa0ff8d7556662b8db97aebcf27e0d5e4", null ]
+    [ "HandleApply", "d4/dfd/a15884.html#aee4d5908035d06be2f1469a50db02e26", null ],
+    [ "PrepareAuraScript", "d4/dfd/a15884.html#ac8349deb2e9c8861194e80132bd72fc5", null ],
+    [ "Register", "d4/dfd/a15884.html#ac83962bef84b68cef6d7937769730598", null ]
 ];

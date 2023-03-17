@@ -1,6 +1,9 @@
 var a11576 =
 [
-    [ "boss_ebonrocAI", "df/d37/a11580.html", "df/d37/a11580" ],
-    [ "boss_ebonroc", "d5/d6b/a11576.html#a3f71b5a687ab10a228e560429b8a4709", null ],
-    [ "GetAI", "d5/d6b/a11576.html#acf2dc7391e1f642dff3c7f56024aaea5", null ]
+    [ "npc_vaelastrasz_the_redAI", "d5/d6b/a11576.html#aa800617f887a21d8a61cac099c86faed", null ],
+    [ "IsSummonedBy", "d5/d6b/a11576.html#ab0eb414e7c9385e4831c4fbc6ba1de49", null ],
+    [ "UpdateAI", "d5/d6b/a11576.html#a4dd74c81dc67291ed04861cf542b0d24", null ],
+    [ "_combatEnabled", "d5/d6b/a11576.html#ae82e9f70dbfd6a4a75206d358de4504e", null ],
+    [ "_events2", "d5/d6b/a11576.html#aa31a968cb89f2c4bb4fde836fd600ab9", null ],
+    [ "_victorGUID", "d5/d6b/a11576.html#a8a4af969b8d340d5492f89499e3e90c2", null ]
 ];

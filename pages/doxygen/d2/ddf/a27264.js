@@ -1,8 +1,7 @@
 var a27264 =
 [
-    [ "HandleScript", "d2/ddf/a27264.html#af7330c1b586b809c78e0bc080cb92c65", null ],
-    [ "Load", "d2/ddf/a27264.html#a262fc7f4bc3f1fae07f69dde765d8228", null ],
-    [ "PrepareSpellScript", "d2/ddf/a27264.html#af0fda52cff0361cf6c4a69957459ddf3", null ],
-    [ "Register", "d2/ddf/a27264.html#a41225a9f5d9304df4a02a681e8b73ff6", null ],
-    [ "Validate", "d2/ddf/a27264.html#a520341dc41dcce5fd9346e3f5ed6ee51", null ]
+    [ "HandleApplyEffect", "d2/ddf/a27264.html#a4e2f6d414aea8ed1339ef3caa24fc17b", null ],
+    [ "Load", "d2/ddf/a27264.html#a47a4f15ab02ba3c6ac4dbfd7c4552900", null ],
+    [ "PrepareAuraScript", "d2/ddf/a27264.html#a101d38f5ffb34f90ba9af4f787445f2e", null ],
+    [ "Register", "d2/ddf/a27264.html#aed57fbbf473b8f15fa177261e4678e96", null ]
 ];

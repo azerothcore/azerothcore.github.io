@@ -1,6 +1,6 @@
 var a12436 =
 [
-    [ "npc_dkc1_gothikAI", "de/d9e/a12440.html", "de/d9e/a12440" ],
-    [ "npc_dkc1_gothik", "d5/d30/a12436.html#ae4a6aec0235b01044ebd5c9c71d400d9", null ],
-    [ "GetAI", "d5/d30/a12436.html#aeb285cf6977cfab5d337f51ae41907ec", null ]
+    [ "spell_q12641_death_comes_from_on_high_summon_ghouls_SpellScript", "de/d9e/a12440.html", "de/d9e/a12440" ],
+    [ "spell_q12641_death_comes_from_on_high_summon_ghouls", "d5/d30/a12436.html#ac3f8a69deb292fc3ff0ea0051c4d567c", null ],
+    [ "GetSpellScript", "d5/d30/a12436.html#aefcf0a6f58b76a4f65879532e2689718", null ]
 ];

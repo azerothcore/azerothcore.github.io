@@ -1,6 +1,6 @@
 var a17168 =
 [
-    [ "npc_spectral_footmanAI", "d1/d27/a17172.html", "d1/d27/a17172" ],
-    [ "npc_spectral_footman", "d9/d79/a17168.html#a300fb06b896d2d08f9e3671422232ad2", null ],
-    [ "GetAI", "d9/d79/a17168.html#adbc1b961aba6cefb97dfff3014248735", null ]
+    [ "npc_ghostly_priestAI", "d1/d27/a17172.html", "d1/d27/a17172" ],
+    [ "npc_ghostly_priest", "d9/d79/a17168.html#a7c03bb327cfc65f4df515969da482ddb", null ],
+    [ "GetAI", "d9/d79/a17168.html#a0fab76345c5459efcedff02123e4fc8d", null ]
 ];

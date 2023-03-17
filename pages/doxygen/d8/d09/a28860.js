@@ -1,8 +1,8 @@
 var a28860 =
 [
-    [ "HandleDummyTick", "d8/d09/a28860.html#ad35d90e5cdd68f4c1d3172a0860274bd", null ],
-    [ "HandleRemove", "d8/d09/a28860.html#a92f2bb73ec58832eaada3c7140f7868d", null ],
-    [ "PrepareAuraScript", "d8/d09/a28860.html#a06e45d5f63ef1395b5949482e8393098", null ],
-    [ "Register", "d8/d09/a28860.html#abf1d49720ae43d4ed2fb1c2920387ace", null ],
-    [ "Validate", "d8/d09/a28860.html#a9a2da4d163a96526e14f5de76798a784", null ]
+    [ "HandleDummy", "d8/d09/a28860.html#ad2eec86cff225cc0bd806e31596fb127", null ],
+    [ "PrepareSpellScript", "d8/d09/a28860.html#a59a04dcfee911c70e13ea8d27b4a49c4", null ],
+    [ "Register", "d8/d09/a28860.html#a6c72b4c813368774283ae94036a43ee2", null ],
+    [ "SendMiss", "d8/d09/a28860.html#a7c6d300e60ed492c82d5c017d3e73ed1", null ],
+    [ "Validate", "d8/d09/a28860.html#a9a5014de08f73ad5dad29354812030ac", null ]
 ];

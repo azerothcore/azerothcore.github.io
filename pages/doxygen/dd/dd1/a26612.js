@@ -1,6 +1,6 @@
 var a26612 =
 [
-    [ "achievement", "dd/dd1/a26612.html#abb6071e172abbcbc65020a0ad9554a03", null ],
-    [ "spell", "dd/dd1/a26612.html#a740f9162b10d31d1677a4ac4f5926db6", null ],
-    [ "text", "dd/dd1/a26612.html#aa92e42bc2c54c3b4b1022d5767fcf10c", null ]
+    [ "HandleAfterCast", "dd/dd1/a26612.html#aaa65e67362ded5318e89272acf073bf3", null ],
+    [ "PrepareSpellScript", "dd/dd1/a26612.html#a7d0dd936965845c14e7b54846facdb89", null ],
+    [ "Register", "dd/dd1/a26612.html#ab7b767743d62d9763bea710b7552a8cf", null ]
 ];

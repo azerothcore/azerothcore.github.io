@@ -1,6 +1,10 @@
 var a28292 =
 [
-    [ "CheckCast", "da/dda/a28292.html#a2edd0bcaa3b026cc70f9f6b58f53f486", null ],
-    [ "PrepareSpellScript", "da/dda/a28292.html#aaf1e16dbc8d33aadcbf74dc4cebe715b", null ],
-    [ "Register", "da/dda/a28292.html#a32aaab12105c9b1c09edfa8a444ced9c", null ]
+    [ "GetTarget", "da/dda/a28292.html#a1bfcb90731a93e4897c9d4fbf46d2a01", null ],
+    [ "HandleEffectPeriodicPlatform", "da/dda/a28292.html#ac499c8adcd74206ad60a7fc24d32cc3c", null ],
+    [ "HandleEffectPeriodicSelf", "da/dda/a28292.html#a2272a970ca5edca6f7353beb2279c29c", null ],
+    [ "PerformKick", "da/dda/a28292.html#aa192aa92cc5c55f8bf2306c4463a3efc", null ],
+    [ "PrepareAuraScript", "da/dda/a28292.html#a489f1da8f8008db8f096470f28455ef9", null ],
+    [ "Register", "da/dda/a28292.html#a164c94c63cf03b98ee085b18a0a8af9a", null ],
+    [ "AuraEffectHandleModes", "da/dda/a28292.html#a91d53900d8c6d0dd2a7519a4836aa05b", null ]
 ];

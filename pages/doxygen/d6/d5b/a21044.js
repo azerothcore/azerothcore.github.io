@@ -1,6 +1,6 @@
 var a21044 =
 [
-    [ "npc_thorims_hammerAI", "d8/dbc/a21048.html", "d8/dbc/a21048" ],
-    [ "npc_thorims_hammer", "d6/d5b/a21044.html#a97cbcda73931e6119f8ab30fa4bb0806", null ],
-    [ "GetAI", "d6/d5b/a21044.html#aaee92d115d112ebf590cf690de8c6667", null ]
+    [ "npc_freya_wardAI", "d8/dbc/a21048.html", "d8/dbc/a21048" ],
+    [ "npc_freya_ward", "d6/d5b/a21044.html#aebaadcc001922c78e8ec43084a827ac9", null ],
+    [ "GetAI", "d6/d5b/a21044.html#a90c0e7a0be1717bf1793415b6fcafbed", null ]
 ];

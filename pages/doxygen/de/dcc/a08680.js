@@ -1,8 +1,8 @@
 var a08680 =
 [
-    [ "FriendlyMissingBuffInRange", "de/dcc/a08680.html#a628fe94ce054a868977ef2a981bc5d6c", null ],
-    [ "operator()", "de/dcc/a08680.html#a6dce8a1248ebb4f3e57cd12a3d94b7b9", null ],
-    [ "i_obj", "de/dcc/a08680.html#aba43edf48b2b0184b52143707c3531f4", null ],
-    [ "i_range", "de/dcc/a08680.html#a54ba98f393a8bdf710f6bd65abee526c", null ],
-    [ "i_spell", "de/dcc/a08680.html#a7f34521e8789a1e1dabb867ed82ff438", null ]
+    [ "RespawnDo", "de/dcc/a08680.html#a79f6424f2849c4c05998fe29a8510aeb", null ],
+    [ "operator()", "de/dcc/a08680.html#ac15ff63f29e313556b8f66e0cd80514f", null ],
+    [ "operator()", "de/dcc/a08680.html#a23408bf4da497d1007e4e88e0d9c0e19", null ],
+    [ "operator()", "de/dcc/a08680.html#a66335f45bb1f3c770887b263e9d84236", null ],
+    [ "operator()", "de/dcc/a08680.html#a4551ca2e0fdb6540a724c9c2b43484c6", null ]
 ];

@@ -1,7 +1,6 @@
 var a23260 =
 [
-    [ "HandleApplyEffect", "dc/dbc/a23260.html#a4313808f87c01f00822e2a845cb8a74e", null ],
-    [ "HandleRemoveEffect", "dc/dbc/a23260.html#ad20519a18a162cbadcc9c38e1ebcfde8", null ],
-    [ "PrepareAuraScript", "dc/dbc/a23260.html#a56f209a7545b248e88f516525891fe25", null ],
-    [ "Register", "dc/dbc/a23260.html#aee538a24f84f6c52f454a2296ec5991a", null ]
+    [ "npc_heated_battleAI", "d0/d54/a23264.html", "d0/d54/a23264" ],
+    [ "npc_heated_battle", "dc/dbc/a23260.html#aceafde04a60940c1027a6e838ffdc137", null ],
+    [ "GetAI", "dc/dbc/a23260.html#af73fc1f330bf2fd224e53be39da1c9d3", null ]
 ];

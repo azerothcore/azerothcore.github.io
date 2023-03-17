@@ -1,6 +1,7 @@
 var a14832 =
 [
-    [ "npc_time_riftAI", "d9/d56/a14836.html", "d9/d56/a14836" ],
-    [ "npc_time_rift", "d0/db7/a14832.html#a0d5cb5f66e2d62c6ba92bb8fadbbb20e", null ],
-    [ "GetAI", "d0/db7/a14832.html#a9d6cd908f17932e5da6f8e36dc9d9791", null ]
+    [ "npc_tarethaAI", "d9/d56/a14836.html", "d9/d56/a14836" ],
+    [ "npc_taretha", "d0/db7/a14832.html#a54379e06518ff972e91e25e295731f5a", null ],
+    [ "GetAI", "d0/db7/a14832.html#a5045bb7119b12800ee0053818fcae5fe", null ],
+    [ "OnGossipHello", "d0/db7/a14832.html#ac689e97b3fd54e9c9e40ed5b9aeca099", null ]
 ];

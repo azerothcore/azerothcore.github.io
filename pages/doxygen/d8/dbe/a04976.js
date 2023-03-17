@@ -1,9 +1,7 @@
 var a04976 =
 [
-    [ "IpLocationRecord", "d8/dbe/a04976.html#a1dba2f8a7697c7e6fd427089d556c19a", null ],
-    [ "IpLocationRecord", "d8/dbe/a04976.html#a10ffefef6ba7d81a23d5d29bc2ee599d", null ],
-    [ "CountryCode", "d8/dbe/a04976.html#a9b54a497801e9da396955893473eb7da", null ],
-    [ "CountryName", "d8/dbe/a04976.html#acbc8ea139970e7acbad06302d5666eb9", null ],
-    [ "IpFrom", "d8/dbe/a04976.html#a97d36332086a339e07b73955f23acd57", null ],
-    [ "IpTo", "d8/dbe/a04976.html#a844dfff114f6ce64b79c459527965bfb", null ]
+    [ "TypeContainerVisitor", "d8/dbe/a04976.html#a1dd5b1ac8e4703358a32431efed8faa2", null ],
+    [ "Visit", "d8/dbe/a04976.html#adf0874fc1f8bb38d2f62530f5667c836", null ],
+    [ "Visit", "d8/dbe/a04976.html#af8110dd70655223f06fb08b552420a6d", null ],
+    [ "i_visitor", "d8/dbe/a04976.html#a7be8eccd05fd489da52e587f51555891", null ]
 ];

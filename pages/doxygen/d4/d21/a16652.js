@@ -1,7 +1,8 @@
 var a16652 =
 [
-    [ "npc_toc_rogueAI", "d4/d21/a16652.html#a34027e7d10edbfba8e046f4785e37899", null ],
-    [ "myCanCast", "d4/d21/a16652.html#a85ed8e251dd8356e678536f1e3f3c93d", null ],
-    [ "UpdateAI", "d4/d21/a16652.html#a49b0655def227684f07bd60a3c1e0ce1", null ],
-    [ "events", "d4/d21/a16652.html#a1519bebb81b64d57b2b0b34a059b83f8", null ]
+    [ "npc_toc_hunterAI", "d4/d21/a16652.html#a80f80231bfe5b71bf415da3202c2e6fb", null ],
+    [ "JustSummoned", "d4/d21/a16652.html#aa270248ad9e0c319234ff0741270b465", null ],
+    [ "myCanCast", "d4/d21/a16652.html#a4e599ae2ee4e892795889bd57dd29e27", null ],
+    [ "UpdateAI", "d4/d21/a16652.html#a81f384607ab7e8c4ed7385bdcddfd7a5", null ],
+    [ "events", "d4/d21/a16652.html#a0cf5ecd9d7b3c92e2da836983323f378", null ]
 ];

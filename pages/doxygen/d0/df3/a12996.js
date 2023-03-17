@@ -1,7 +1,6 @@
 var a12996 =
 [
-    [ "OnPeriodic", "d0/df3/a12996.html#a9261d2331ef250ba394db80f58500c70", null ],
-    [ "OnRemove", "d0/df3/a12996.html#a2363ffec26af0879f9cefcea4c4ba226", null ],
-    [ "PrepareAuraScript", "d0/df3/a12996.html#a4563b88ec817cbcb1f7a3519dfdb17f4", null ],
-    [ "Register", "d0/df3/a12996.html#a29c27342dea8fedd91741a74f2482782", null ]
+    [ "boss_kalecgosAI", "d4/d6f/a13000.html", "d4/d6f/a13000" ],
+    [ "boss_kalecgos", "d0/df3/a12996.html#a7e65f80e4dbee9dbb2e891884abaa196", null ],
+    [ "GetAI", "d0/df3/a12996.html#a1eab7d3ee459cb88a21efd8da834fc0e", null ]
 ];

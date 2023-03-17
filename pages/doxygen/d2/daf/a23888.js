@@ -1,6 +1,9 @@
 var a23888 =
 [
-    [ "npc_wg_queueAI", "d2/daf/a23888.html#a3760738d61b6148042fc30bd96b88fdc", null ],
-    [ "UpdateAI", "d2/daf/a23888.html#a2e5f19a0f01eeb3d1585c7b02f2073b2", null ],
-    [ "events", "d2/daf/a23888.html#ab0eb949272e48120cff1c3df27ad8e92", null ]
+    [ "HandlePeriodic", "d2/daf/a23888.html#a774e4515085287681c7bf04588806754", null ],
+    [ "Load", "d2/daf/a23888.html#af8a220667ef482c2740b6296e33cd647", null ],
+    [ "PrepareAuraScript", "d2/daf/a23888.html#ab5e10153424e0a8f7f6554f291a3c063", null ],
+    [ "Register", "d2/daf/a23888.html#a8aa3e613f18b1a246b20faa2b00f0e4d", null ],
+    [ "Validate", "d2/daf/a23888.html#a719db1ff1b08b3549042928dc688a5a7", null ],
+    [ "_counter", "d2/daf/a23888.html#aa4063fd51d028d343156affd87fa0336", null ]
 ];

@@ -1,5 +1,6 @@
 var a27628 =
 [
-    [ "PrepareSpellScript", "d3/d96/a27628.html#adaaa520c889970d91f3f38c958efdad4", null ],
-    [ "Register", "d3/d96/a27628.html#a80fe694c669aa86494bd73bfa7b8ffc8", null ]
+    [ "HandlePeriodicTick", "d3/d96/a27628.html#a1bd15727da421fdbfc3a60136bfa9bc9", null ],
+    [ "PrepareAuraScript", "d3/d96/a27628.html#a1c4f592511c8886d0b9a5e64eb19cda7", null ],
+    [ "Register", "d3/d96/a27628.html#ac019a52a6f62f1251d20efcfadba1e78", null ]
 ];

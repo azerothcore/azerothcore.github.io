@@ -1,8 +1,8 @@
 var a22912 =
 [
-    [ "npc_azure_captainAI", "db/dad/a22912.html#a15b1acc73108c6802dbf3ac2ed0734c9", null ],
-    [ "Reset", "db/dad/a22912.html#a13d25bf1612086cc4bb5bc2078105f18", null ],
-    [ "UpdateAI", "db/dad/a22912.html#ae50ac21138e12be43caa93e37062051e", null ],
-    [ "uiMortalStrikeTimer", "db/dad/a22912.html#a791a3ee9b67e72e1dcb392b9ebc2359a", null ],
-    [ "uiWhirlwindTimer", "db/dad/a22912.html#a2e3439976a6e84a60be765cb0b929798", null ]
+    [ "npc_azure_raiderAI", "db/dad/a22912.html#a6928428a9dc1ed483a682c8f2a281ebf", null ],
+    [ "Reset", "db/dad/a22912.html#a80d9e586e5c03d19b6b9f0e0f7607b20", null ],
+    [ "UpdateAI", "db/dad/a22912.html#a2e9833d0d25fd8c442f7ab279de6a40a", null ],
+    [ "uiConcussionBlowTimer", "db/dad/a22912.html#a4e7dfb8d4991bf7ad3d0eeb72dff770b", null ],
+    [ "uiMagicReflectionTimer", "db/dad/a22912.html#acb262ab506ea58201abfe2057525c548", null ]
 ];

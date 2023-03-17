@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['azeorthcore_0',['AzeorthCore',['../index.html',1,'']]]
+  ['azerothcore_0',['AzerothCore',['../index.html',1,'']]]
 ];

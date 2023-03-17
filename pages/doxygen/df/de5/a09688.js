@@ -1,10 +1,16 @@
 var a09688 =
 [
-    [ "VehicleScript", "df/de5/a09688.html#a9f708a7e432fcb4abe15dcabb0e5a035", null ],
-    [ "OnAddPassenger", "df/de5/a09688.html#a4495f8900ecb85546ac23ebe4783ae7c", null ],
-    [ "OnInstall", "df/de5/a09688.html#abbb42dcbc5fad97ed1df45ea7b3afe54", null ],
-    [ "OnInstallAccessory", "df/de5/a09688.html#ad59ae4c47404abb86e05ae983704f6ea", null ],
-    [ "OnRemovePassenger", "df/de5/a09688.html#ad4094366aba1fb6a1ff19361d1be9210", null ],
-    [ "OnReset", "df/de5/a09688.html#a38fca3fec8785f015084b832f9e3b08c", null ],
-    [ "OnUninstall", "df/de5/a09688.html#a7d4bafe42756ee73b5ce79783842c243", null ]
+    [ "GameObjectScript", "df/de5/a09688.html#a9d9cf73435a16d7fef450134c03980bb", null ],
+    [ "GetAI", "df/de5/a09688.html#a05492473fa28c0f7c80770aa3445ce4e", null ],
+    [ "GetDialogStatus", "df/de5/a09688.html#ac526fbe66b9b1e9edca51f9fd20a40b9", null ],
+    [ "IsDatabaseBound", "df/de5/a09688.html#a020e07dfd6e99b55bf5c8e56cfdd3948", null ],
+    [ "OnDamaged", "df/de5/a09688.html#a2fb7d0f8f01ce083643bc0cb810fc612", null ],
+    [ "OnDestroyed", "df/de5/a09688.html#a042676e98453494ab49bb90216755052", null ],
+    [ "OnGameObjectStateChanged", "df/de5/a09688.html#a4992d88f026bf906852f085db4e8768e", null ],
+    [ "OnGossipHello", "df/de5/a09688.html#a58b56fc92ae87aea0530eceba1f3088d", null ],
+    [ "OnGossipSelect", "df/de5/a09688.html#a612884c70eed9c56958ab49dc1e2bb1f", null ],
+    [ "OnGossipSelectCode", "df/de5/a09688.html#ac9c9feb4d08ea0e5ad202ada205a9772", null ],
+    [ "OnLootStateChanged", "df/de5/a09688.html#ab93c178f2137e92da28665d28bfec1d5", null ],
+    [ "OnQuestAccept", "df/de5/a09688.html#afd22217feca39340d68b9c7fd6c1caa8", null ],
+    [ "OnQuestReward", "df/de5/a09688.html#a233712ff412081583a8295cf512da48d", null ]
 ];

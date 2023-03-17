@@ -1,9 +1,10 @@
 var a21928 =
 [
-    [ "boss_thorim_gauntlet_npcsAI", "d9/dac/a21928.html#aaa7e94f653a1db001cd0c962fb855098", null ],
-    [ "EnterCombat", "d9/dac/a21928.html#a58571ca5d635b22426b945e212b66a33", null ],
-    [ "Reset", "d9/dac/a21928.html#a9e4c25742785809d788f2e910f7840bc", null ],
-    [ "UpdateAI", "d9/dac/a21928.html#a4dd5a9cbbb10d514a0473dfd7cdd3c29", null ],
-    [ "_isCaster", "d9/dac/a21928.html#a104f447cc52c285d59653a8ebff20fef", null ],
-    [ "events", "d9/dac/a21928.html#a650508e05b6fa1af538a0b34e04c8bf5", null ]
+    [ "boss_thorim_sif_blizzardAI", "d9/dac/a21928.html#a99d1c529126452e580ebc7e3e513b367", null ],
+    [ "AttackStart", "d9/dac/a21928.html#a1f05551f323fa410a699497f3875b21f", null ],
+    [ "InitWaypoint", "d9/dac/a21928.html#a1e0a384081750bdf38cc8e0065070ec8", null ],
+    [ "JustEngagedWith", "d9/dac/a21928.html#a9fea5617dccb493c7af435c485462ff3", null ],
+    [ "MoveInLineOfSight", "d9/dac/a21928.html#ab91a2a71ff00e38d2eca50ccc654d9f3", null ],
+    [ "Reset", "d9/dac/a21928.html#a193ba575c4f3f16d850e56f12f190c77", null ],
+    [ "WaypointReached", "d9/dac/a21928.html#a961f90068f25d81f55159763fe2677f8", null ]
 ];

@@ -1,8 +1,9 @@
 var a27860 =
 [
-    [ "CheckProc", "d1/dbd/a27860.html#a8b3f8cf17dda2322d0e9f8f4211cbd20", null ],
-    [ "HandleProc", "d1/dbd/a27860.html#ae034bd626880858c9701ed963de993c9", null ],
-    [ "isException", "d1/dbd/a27860.html#aa5f4fcd1b9b710e2931460207cfc6dea", null ],
-    [ "PrepareAuraScript", "d1/dbd/a27860.html#a50348fd27947f67df03bf4ddbec89cca", null ],
-    [ "Register", "d1/dbd/a27860.html#aaa14b34ac54b4caee76ff72d07dd5c2d", null ]
+    [ "CheckCast", "d1/dbd/a27860.html#af92fe276563a8ca0d939d881dba8adda", null ],
+    [ "HandleDummy", "d1/dbd/a27860.html#a86b4413dd25f96fb197604007171a8d1", null ],
+    [ "Load", "d1/dbd/a27860.html#ab1800d2550b944dcfa9967cc0e79c5ee", null ],
+    [ "PrepareSpellScript", "d1/dbd/a27860.html#a47aa868fbabee8a3988bcc93402b8cfb", null ],
+    [ "Register", "d1/dbd/a27860.html#a1b4ff1b3b518a2e4bad1836de6793561", null ],
+    [ "Validate", "d1/dbd/a27860.html#a8d0c2f18927e811f3d3cdee94e3623c0", null ]
 ];

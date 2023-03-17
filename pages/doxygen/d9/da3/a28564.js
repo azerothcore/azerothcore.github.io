@@ -1,9 +1,8 @@
 var a28564 =
 [
-    [ "HandleKnockBack", "d9/da3/a28564.html#acaa8f445874270f34ea5b42a506671db", null ],
-    [ "HandleScript", "d9/da3/a28564.html#a29e47298601cb55c5442a3fa59bb3646", null ],
-    [ "Load", "d9/da3/a28564.html#a45700aba665b601b2c860af5a869d1af", null ],
-    [ "PrepareSpellScript", "d9/da3/a28564.html#aad1c175a2611152278d847ac59f93090", null ],
-    [ "Register", "d9/da3/a28564.html#ad790d435f422fabd128e601fb2dff103", null ],
-    [ "Validate", "d9/da3/a28564.html#a889a129ddc3ea6fcd7f440fc7c163e08", null ]
+    [ "HandleDummy", "d9/da3/a28564.html#ab653cf0414411c17ccc674395b08af7a", null ],
+    [ "Load", "d9/da3/a28564.html#a6eb80b68a00c91d92a2963adb753ed23", null ],
+    [ "PrepareSpellScript", "d9/da3/a28564.html#ae6c5ba4ed1918125594b31368c3bcf2f", null ],
+    [ "Register", "d9/da3/a28564.html#a92eb201b3ae3ab167cc338174a355b00", null ],
+    [ "Validate", "d9/da3/a28564.html#a3635089640297e059a183322c7e8f7b9", null ]
 ];

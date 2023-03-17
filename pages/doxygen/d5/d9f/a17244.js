@@ -1,6 +1,7 @@
 var a17244 =
 [
-    [ "spell_hor_gunship_cannon_fireAuraScript", "d0/dcf/a17248.html", "d0/dcf/a17248" ],
-    [ "spell_hor_gunship_cannon_fire", "d5/d9f/a17244.html#a1df8d0312a08979df38e8cae7f405017", null ],
-    [ "GetAuraScript", "d5/d9f/a17244.html#ad6087baf8342d88812fdd39c54f139ab", null ]
+    [ "npc_hor_leader_secondAI", "d0/dcf/a17248.html", "d0/dcf/a17248" ],
+    [ "npc_hor_leader_second", "d5/d9f/a17244.html#a9fa1f38ab8a0b5d2207857b75e272ee0", null ],
+    [ "GetAI", "d5/d9f/a17244.html#af5b97ecca35501a75658919d384a18f7", null ],
+    [ "OnGossipSelect", "d5/d9f/a17244.html#a8355f7f2f8e7655c7ebc7145a847ab87", null ]
 ];

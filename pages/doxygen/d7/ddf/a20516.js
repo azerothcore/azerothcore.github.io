@@ -1,6 +1,6 @@
 var a20516 =
 [
-    [ "spell_oculus_call_ruby_emerald_amber_drake_SpellScript", "dc/dbe/a20520.html", "dc/dbe/a20520" ],
-    [ "spell_oculus_call_ruby_emerald_amber_drake", "d7/ddf/a20516.html#adb754a4d99cbdfb9435f0107c61c4f56", null ],
-    [ "GetSpellScript", "d7/ddf/a20516.html#a860812e9abceb6b61723e22984476832", null ]
+    [ "spell_oculus_temporal_rift_AuraScript", "dc/dbe/a20520.html", "dc/dbe/a20520" ],
+    [ "spell_oculus_temporal_rift", "d7/ddf/a20516.html#a8c40cdf2bd8f2aa1eeefd51b38ec95ab", null ],
+    [ "GetAuraScript", "d7/ddf/a20516.html#a10fbf9d3eae79f96de715d8295ba951c", null ]
 ];

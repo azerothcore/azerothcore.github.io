@@ -1,6 +1,9 @@
 var a23448 =
 [
-    [ "HandleAfterEffectApply", "db/d36/a23448.html#a5a1330e74d473109e34a3c76e3e3e06f", null ],
-    [ "PrepareAuraScript", "db/d36/a23448.html#a7d9c84b6d01f822ed05e88de75c6087e", null ],
-    [ "Register", "db/d36/a23448.html#ae826df852bf83d2a5c3a12288066f1b1", null ]
+    [ "npc_venture_co_stragglerAI", "db/d36/a23448.html#abc3cc04b89b95fd45969ba5859bf810c", null ],
+    [ "Reset", "db/d36/a23448.html#acfeaad9db95d0b391a64cc65ca3a1cee", null ],
+    [ "SpellHit", "db/d36/a23448.html#ae1919454c270d10342079b60a727a306", null ],
+    [ "UpdateAI", "db/d36/a23448.html#a0846336d8d1333e2c2f50731a722c3b7", null ],
+    [ "_events", "db/d36/a23448.html#a9cd6e6b549e10900f35838f04e10e0f5", null ],
+    [ "_playerGUID", "db/d36/a23448.html#a649493944b143782d995b5bdda3714b4", null ]
 ];

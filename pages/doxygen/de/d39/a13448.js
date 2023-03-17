@@ -1,7 +1,8 @@
 var a13448 =
 [
-    [ "npc_calvin_montagueAI", "d9/d20/a13452.html", "d9/d20/a13452" ],
-    [ "npc_calvin_montague", "de/d39/a13448.html#af8af2896fc3e32a4285c3559c6f14456", null ],
-    [ "GetAI", "de/d39/a13448.html#a556f29fca6310d0e12bb3e0a7bf12f84", null ],
-    [ "OnQuestAccept", "de/d39/a13448.html#aae8c6adcb7ec68146b5b96a65b76e72b", null ]
+    [ "npc_bartlebyAI", "de/d39/a13448.html#abcc4ebb2c3505679d4c70317d9a8fd93", null ],
+    [ "AttackedBy", "de/d39/a13448.html#aa5d4adcbbf3c9cb6a59ae64ef001651a", null ],
+    [ "DamageTaken", "de/d39/a13448.html#a096d710ec4b1a90279b8647e926ca0ed", null ],
+    [ "Reset", "de/d39/a13448.html#a2e682cf315a81859d99114485a7c30ed", null ],
+    [ "m_uiNormalFaction", "de/d39/a13448.html#a8aad1ef26a8ff0598ebbc4e6580d6dbb", null ]
 ];

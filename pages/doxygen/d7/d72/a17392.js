@@ -1,6 +1,6 @@
 var a17392 =
 [
-    [ "npc_pos_freed_slaveAI", "d6/da9/a17396.html", "d6/da9/a17396" ],
-    [ "npc_pos_freed_slave", "d7/d72/a17392.html#a19fd79279646cb1c49c04056636615fc", null ],
-    [ "GetAI", "d7/d72/a17392.html#ac798c2584d48892162cc2bc779701e16", null ]
+    [ "npc_pos_tyrannus_eventsAI", "d6/da9/a17396.html", "d6/da9/a17396" ],
+    [ "npc_pos_tyrannus_events", "d7/d72/a17392.html#a9e61db8b2b30e86fc5e554b3f4d51b7c", null ],
+    [ "GetAI", "d7/d72/a17392.html#ae5863e99d77815de71c1774e908b3f65", null ]
 ];

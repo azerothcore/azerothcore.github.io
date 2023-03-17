@@ -1,6 +1,6 @@
 var a00596 =
 [
-    [ "CharacterDatabaseConnection", "db/d18/a05383.html", "db/d18/a05383" ],
+    [ "CharacterDatabaseConnection", "d4/d15/a05404.html", "d4/d15/a05404" ],
     [ "CharacterDatabaseStatements", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7", [
       [ "CHAR_DEL_QUEST_POOL_SAVE", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7a494e95a33cf6fd5a044ae914d78eba5f", null ],
       [ "CHAR_INS_QUEST_POOL_SAVE", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7ad81f4bf1ca36a95f1881b582d1a52f08", null ],
@@ -449,6 +449,7 @@ var a00596 =
       [ "CHAR_SEL_HONORPOINTS", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7a4fd2df1747826bf976d44dc3c679ee61", null ],
       [ "CHAR_SEL_ARENAPOINTS", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7ac7ab73c904a699ce7115948ed554113c", null ],
       [ "CHAR_INS_RESERVED_PLAYER_NAME", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7abff180952bd4ce15105219df718d1e40", null ],
+      [ "CHAR_INS_PROFANITY_PLAYER_NAME", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7abc2db87141a5587f78f9c8e703a5bc22", null ],
       [ "CHAR_SEL_CHAR_SETTINGS", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7a96957242827fb6e9c0f1866bafddeef0", null ],
       [ "CHAR_REP_CHAR_SETTINGS", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7a0ab5f8934f7b51c9b64a20e368a1377f", null ],
       [ "CHAR_DEL_CHAR_SETTINGS", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7adead76ab7b77ee7099301f41251135c7", null ],

@@ -1,6 +1,6 @@
 var a25760 =
 [
-    [ "HandleForceCast", "de/dfa/a25760.html#a28f27b39d855faa38be88ee56ed14234", null ],
-    [ "PrepareSpellScript", "de/dfa/a25760.html#a2697886965916855ad445a1b299f69fb", null ],
-    [ "Register", "de/dfa/a25760.html#a991b00ae8d4a2744c625d285b667834d", null ]
+    [ "AfterRemove", "de/dfa/a25760.html#afffa4b13bb60e973203b6625e5cf4576", null ],
+    [ "PrepareAuraScript", "de/dfa/a25760.html#acb444c7a5f41abc449532707300a04e7", null ],
+    [ "Register", "de/dfa/a25760.html#a2539e93205f9d3d86655a1ec7c8df369", null ]
 ];

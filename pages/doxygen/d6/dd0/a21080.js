@@ -1,7 +1,6 @@
 var a21080 =
 [
-    [ "boss_flame_leviathan_safety_containerAI", "d6/dd0/a21080.html#ab9191e20df488df184c468ca1ac41084", null ],
-    [ "MovementInform", "d6/dd0/a21080.html#a1b472a233ebebbb4c1fbf639aeb4bed6", null ],
-    [ "UpdateAI", "d6/dd0/a21080.html#a77b3a493c5650d91c903879db324651d", null ],
-    [ "_allowTimer", "d6/dd0/a21080.html#a2185c9fe04fa7288fab452c5c1de3819", null ]
+    [ "npc_pool_of_tarAI", "d6/dd0/a21080.html#a6141addc9b1cf2c0028d98ef4f4d9d37", null ],
+    [ "DamageTaken", "d6/dd0/a21080.html#a4ea55aa08123f724268238e0def5b595", null ],
+    [ "SpellHit", "d6/dd0/a21080.html#acb63166b396c079d5b4bb9db67a1448a", null ]
 ];

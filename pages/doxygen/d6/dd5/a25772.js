@@ -1,6 +1,6 @@
 var a25772 =
 [
-    [ "spell_alar_dive_bomb_AuraScript", "da/dda/a25776.html", "da/dda/a25776" ],
-    [ "spell_alar_dive_bomb", "d6/dd5/a25772.html#a5064643ca9a59b81a2ae6ac3490ef45e", null ],
-    [ "GetAuraScript", "d6/dd5/a25772.html#a12bca51d46a181ec547a609f31195a99", null ]
+    [ "boss_kaelthasAI", "da/dda/a25776.html", "da/dda/a25776" ],
+    [ "boss_kaelthas", "d6/dd5/a25772.html#a690d04e2bfca7b2b17cf7c53c46a6b06", null ],
+    [ "GetAI", "d6/dd5/a25772.html#a02de0dcee68dca802606565831e4fc05", null ]
 ];

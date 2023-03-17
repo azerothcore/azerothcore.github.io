@@ -1,6 +1,7 @@
 var a25916 =
 [
-    [ "PrepareAuraScript", "d4/d5f/a25916.html#a3004f992083a828b0707b02d3402c8e5", null ],
-    [ "PrepareProc", "d4/d5f/a25916.html#a2b5d4769003c6a0a08cafb9442a6b60b", null ],
-    [ "Register", "d4/d5f/a25916.html#a61c6a37e1bf005f2ad85a5315d8adc6f", null ]
+    [ "HandleDamage", "d4/d5f/a25916.html#a26ca037a7072f8b59b2ab3f6e1166e1b", null ],
+    [ "HandleTargets", "d4/d5f/a25916.html#a41427395c3f4dc7d43a835811fe21fee", null ],
+    [ "PrepareSpellScript", "d4/d5f/a25916.html#a993ce62001d5136b337c855a636a8c34", null ],
+    [ "Register", "d4/d5f/a25916.html#a57e8cbdfcbbb23809f997281ec254d5c", null ]
 ];

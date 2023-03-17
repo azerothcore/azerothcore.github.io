@@ -1,6 +1,6 @@
 var a17892 =
 [
-    [ "spell_deathbringer_blood_link_SpellScript", "d1/d5e/a17896.html", "d1/d5e/a17896" ],
-    [ "spell_deathbringer_blood_link", "dd/d30/a17892.html#a288e4021c630865c38a1c3f9ff577b7f", null ],
-    [ "GetSpellScript", "dd/d30/a17892.html#a5cd172d455165851fb361f808a77b506", null ]
+    [ "npc_saurfang_eventAI", "d1/d5e/a17896.html", "d1/d5e/a17896" ],
+    [ "npc_saurfang_event", "dd/d30/a17892.html#a3bfce5457466360458498833098d660c", null ],
+    [ "GetAI", "dd/d30/a17892.html#a953842d2fa3380a8331faf3a42cb3177", null ]
 ];

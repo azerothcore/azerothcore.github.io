@@ -1,5 +1,7 @@
 var a21208 =
 [
-    [ "achievement_flame_leviathan_shutout", "d0/d4d/a21208.html#a555e0d206b7f730665d301c7e03b23e6", null ],
-    [ "OnCheck", "d0/d4d/a21208.html#af548232f563fd387bc8ee25b696a2f99", null ]
+    [ "HandleOnEffectApply", "d0/d4d/a21208.html#a5ce7afa2edfd04632ead87a82e280bcf", null ],
+    [ "HandleOnEffectRemove", "d0/d4d/a21208.html#a85a3e5acf6e4a64f3263e7bdab74b326", null ],
+    [ "PrepareAuraScript", "d0/d4d/a21208.html#ae4c804cf4b9612db645372339738da12", null ],
+    [ "Register", "d0/d4d/a21208.html#a783e89d9fab3a5738c08fd9104f74271", null ]
 ];

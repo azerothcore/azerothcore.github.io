@@ -1,6 +1,6 @@
 var a26452 =
 [
-    [ "spell_q10923_evil_draws_near_summon_SpellScript", "de/d88/a26456.html", "de/d88/a26456" ],
-    [ "spell_q10923_evil_draws_near_summon", "d5/def/a26452.html#aa8556fb81c03758be47b2fea4d7e830e", null ],
-    [ "GetSpellScript", "d5/def/a26452.html#aa7944354a749349b133b6a1104ef3c6c", null ]
+    [ "npc_mortog_steamhead", "d5/def/a26452.html#a610e23b977016fbc77220e9bbc96f473", null ],
+    [ "OnGossipHello", "d5/def/a26452.html#a32133054bfc5a11f1d8bddd32af7a106", null ],
+    [ "OnGossipSelect", "d5/def/a26452.html#a2ef792744bf43ffea00a5d3171fd4246", null ]
 ];

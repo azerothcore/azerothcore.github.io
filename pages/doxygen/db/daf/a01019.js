@@ -1,9 +1,7 @@
 var a01019 =
 [
-    [ "AchievementVisitor", "d6/dbd/a07015.html", "d6/dbd/a07015" ],
-    [ "GameTeleVisitor", "d5/d14/a07019.html", "d5/d14/a07019" ],
-    [ "ItemTemplateVisitor", "d2/d83/a07023.html", "d2/d83/a07023" ],
-    [ "SpellInfoVisitor", "d2/d57/a07027.html", "d2/d57/a07027" ],
-    [ "QuestVisitor", "d1/d4b/a07031.html", "d1/d4b/a07031" ],
-    [ "ChatCommandResult", "db/daf/a01019.html#ad9c9d483b96ed400318aed8441ebe7f1", null ]
+    [ "Acore::Impl::ChatCommands::FilteredCommandListIterator", "d5/d59/a07008.html", "d5/d59/a07008" ],
+    [ "ChatSubCommandMap", "db/daf/a01019.html#a306b7e46fd4791f088a8919720238f3d", null ],
+    [ "LogCommandUsage", "db/daf/a01019.html#a8dc2bbcf5b90559262a46829632f332e", null ],
+    [ "COMMAND_MAP", "db/daf/a01019.html#a569e79432c3876f4ac0b961e8a783003", null ]
 ];

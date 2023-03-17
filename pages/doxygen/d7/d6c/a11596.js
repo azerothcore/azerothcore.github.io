@@ -1,6 +1,6 @@
 var a11596 =
 [
-    [ "boss_flamegorAI", "d7/d6c/a11596.html#a4b3d46c3faa566095b0cedad3df9f057", null ],
-    [ "EnterCombat", "d7/d6c/a11596.html#adaec36f054da570ff75003183d582f04", null ],
-    [ "UpdateAI", "d7/d6c/a11596.html#a2e5146815e533cf62e0084a54aa222d5", null ]
+    [ "FilterTargets", "d7/d6c/a11596.html#ac630fb5f068e4d26adb078b118994c45", null ],
+    [ "PrepareSpellScript", "d7/d6c/a11596.html#a5f4986bfad79573e65d56ff276c49914", null ],
+    [ "Register", "d7/d6c/a11596.html#aa1f5838d43871fd7908ea3b914666000", null ]
 ];

@@ -1,6 +1,6 @@
 var a20324 =
 [
-    [ "boss_keristraszaAI", "d3/d5d/a20328.html", "d3/d5d/a20328" ],
-    [ "boss_keristrasza", "d9/dd1/a20324.html#a3d132df1687aae57345cd55ac80f9bf4", null ],
-    [ "GetAI", "d9/dd1/a20324.html#aa94eb11d5ca7ff3063974d4ff81d4173", null ]
+    [ "ChargeRifts", "d9/dd1/a20324.html#aec98a12dec1f2ad98e00d399b0e2a1d5", null ],
+    [ "Execute", "d9/dd1/a20324.html#a8d01bf861d37c25413dc14eee16a2939", null ],
+    [ "_caster", "d9/dd1/a20324.html#a3cbf5f7e26de337dadd9d96a43d728b0", null ]
 ];

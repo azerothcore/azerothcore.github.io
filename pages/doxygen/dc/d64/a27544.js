@@ -1,8 +1,8 @@
 var a27544 =
 [
-    [ "HandlePeriodic", "dc/d64/a27544.html#acba5d68c19e68361c088e50f9b831bff", null ],
-    [ "HandleUpdatePeriodic", "dc/d64/a27544.html#af27c6dfccb12f1ba52d170da5d9228f9", null ],
-    [ "PrepareAuraScript", "dc/d64/a27544.html#a8fa9d7c1f8e95c2e50bd2178f4f58c04", null ],
-    [ "Register", "dc/d64/a27544.html#a2be03ae04a562b2c908fcdb0c052ca5f", null ],
-    [ "Validate", "dc/d64/a27544.html#ab467c3b759ac1e276d6a4815d20f5ff0", null ]
+    [ "OnApply", "dc/d64/a27544.html#a75b45732648d5ba90b49725a48609a89", null ],
+    [ "OnBaseRemove", "dc/d64/a27544.html#aa6d10399bba721ff7a3651508fcdf449", null ],
+    [ "OnRemove", "dc/d64/a27544.html#a0331b3860691db793c5a7bcf53550c6f", null ],
+    [ "PrepareAuraScript", "dc/d64/a27544.html#a34ad4890c7ce30427537e36980057e57", null ],
+    [ "Register", "dc/d64/a27544.html#a713e694cad6f1cf533d45f5d633da36e", null ]
 ];

@@ -1,7 +1,6 @@
 var a10156 =
 [
-    [ "Playsound", "df/d4c/a10156.html#a955f91d0d65c64f154f99b3b9472e273", null ],
-    [ "Playsound", "df/d4c/a10156.html#aa242d4ca729d67d7fd58dc81985f22f9", null ],
-    [ "Write", "df/d4c/a10156.html#acb4bdd9a1613a158832115e4c18bfcd9", null ],
-    [ "SoundKitID", "df/d4c/a10156.html#a922cb6d06285bdf9f3d89ff990c40b0a", null ]
+    [ "GuildSetGuildMaster", "df/d4c/a10156.html#ae6ca07252de719cc506042c8d3e8285e", null ],
+    [ "Read", "df/d4c/a10156.html#a94f16e55a840c7cba991a119af5d8263", null ],
+    [ "NewMasterName", "df/d4c/a10156.html#a02f37610492c75373266bb93000adcbf", null ]
 ];

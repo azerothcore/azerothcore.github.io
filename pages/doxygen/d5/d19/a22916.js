@@ -1,6 +1,6 @@
 var a22916 =
 [
-    [ "npc_azure_sorcerorAI", "df/d96/a22920.html", "df/d96/a22920" ],
-    [ "npc_azure_sorceror", "d5/d19/a22916.html#ab81ec144680a37312b0a5e0110365a1a", null ],
-    [ "GetAI", "d5/d19/a22916.html#a647ac2853586e380fdf0e0ffa43abaca", null ]
+    [ "npc_azure_stalkerAI", "df/d96/a22920.html", "df/d96/a22920" ],
+    [ "npc_azure_stalker", "d5/d19/a22916.html#ad069edc43b4f489e0b2c7aa4952eeb63", null ],
+    [ "GetAI", "d5/d19/a22916.html#a1c067809f98a4d7845d2fb4269742274", null ]
 ];

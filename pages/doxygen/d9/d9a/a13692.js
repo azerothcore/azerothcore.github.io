@@ -1,6 +1,8 @@
 var a13692 =
 [
-    [ "npc_janalai_hatcherAI", "d1/d1f/a13696.html", "d1/d1f/a13696" ],
-    [ "npc_janalai_hatcher", "d9/d9a/a13692.html#a627d4bace66c009b63bada6616761769", null ],
-    [ "GetAI", "d9/d9a/a13692.html#a34d15764beb7365a6ae6b3e5b9d5520d", null ]
+    [ "boss_slitherAI", "d9/d9a/a13692.html#a4cd9ca5bc5c2121edd72bc65c2f4182b", null ],
+    [ "AttackStart", "d9/d9a/a13692.html#a8f2da73ffa694e7933d8ce0965105a97", null ],
+    [ "Reset", "d9/d9a/a13692.html#ab2de8f1b9b51c1a04664cf3864ae4ef9", null ],
+    [ "UpdateAI", "d9/d9a/a13692.html#a9df057eabc5338745786385055d1334e", null ],
+    [ "venomspit_timer", "d9/d9a/a13692.html#a33649cb1e8fc177073982ccafbd387e6", null ]
 ];

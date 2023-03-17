@@ -1,6 +1,6 @@
 var a18724 =
 [
-    [ "FilterTargets", "d9/d86/a18724.html#a67190c6d0f65184c43e064b001eeb4fb", null ],
-    [ "PrepareSpellScript", "d9/d86/a18724.html#a7e41795dc658c8745fd3956822f3f755", null ],
-    [ "Register", "d9/d86/a18724.html#aef94fefc34e9b5ce6ddece8393aa0945", null ]
+    [ "npc_ice_tombAI", "df/daf/a18728.html", "df/daf/a18728" ],
+    [ "npc_ice_tomb", "d9/d86/a18724.html#a939c6083a77a6f4cb2a940ec9c1df55e", null ],
+    [ "GetAI", "d9/d86/a18724.html#ac99b7c9887e54a1764310bd3e079811a", null ]
 ];

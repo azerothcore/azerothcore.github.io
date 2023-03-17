@@ -1,6 +1,6 @@
 var a25896 =
 [
-    [ "boss_void_reaverAI", "dd/dce/a25900.html", "dd/dce/a25900" ],
-    [ "boss_void_reaver", "d3/de1/a25896.html#a9becc71d12c72bd5c0cde20d5f2c100b", null ],
-    [ "GetAI", "d3/de1/a25896.html#a96aa3f6a0b5517f73f1d74412dc3b01d", null ]
+    [ "boss_gatewatcher_iron_handAI", "dd/dce/a25900.html", "dd/dce/a25900" ],
+    [ "boss_gatewatcher_iron_hand", "d3/de1/a25896.html#a36cf8a948ebea0f8d5d32d6d5a6b2c7a", null ],
+    [ "GetAI", "d3/de1/a25896.html#a25bd87bac2aff58f6f4e3b0e2c8cce2e", null ]
 ];

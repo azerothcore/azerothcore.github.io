@@ -1,7 +1,7 @@
 var a08800 =
 [
-    [ "AllWorldObjectsInRange", "db/dbe/a08800.html#a63f46d510df0fa3153d4b3325676a468", null ],
-    [ "operator()", "db/dbe/a08800.html#a2cf23c24df93b5f7f29163b32e965a94", null ],
-    [ "m_fRange", "db/dbe/a08800.html#a6afe3ef05369dce8ee205db219f97846", null ],
-    [ "m_pObject", "db/dbe/a08800.html#ae7dde7b946d8affb79cb2d4c58eedbed", null ]
+    [ "AnyPlayerExactPositionInGameObjectRangeCheck", "db/dbe/a08800.html#a51100c20d5b7f795f062dfaa5aa65017", null ],
+    [ "operator()", "db/dbe/a08800.html#a0dd7216a026b7f90b293b2adf20a0191", null ],
+    [ "_go", "db/dbe/a08800.html#a70e0b15948cf34a7c759885949560dcd", null ],
+    [ "_range", "db/dbe/a08800.html#ad91342e50833e3b9d75c5e548248941f", null ]
 ];

@@ -1,6 +1,6 @@
 var a12060 =
 [
-    [ "boss_malchezaarAI", "db/da6/a12064.html", "db/da6/a12064" ],
-    [ "boss_malchezaar", "d9/d14/a12060.html#a28a5bd7d054982d967f7218ebcdf70ba", null ],
-    [ "GetAI", "d9/d14/a12060.html#a926cf2d44e8ea15f5cea72aa106e7d5c", null ]
+    [ "spell_midnight_fixate_AuraScript", "db/da6/a12064.html", "db/da6/a12064" ],
+    [ "spell_midnight_fixate", "d9/d14/a12060.html#a93608ef15276d9528528d286a3ad5137", null ],
+    [ "GetAuraScript", "d9/d14/a12060.html#a0898ed1fd378cd65b172736b40f5a6d0", null ]
 ];

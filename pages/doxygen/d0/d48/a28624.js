@@ -1,9 +1,9 @@
 var a28624 =
 [
-    [ "HandleAfterHit", "d0/d48/a28624.html#a05341e7a67f50c6ced4bf4bd3892f39a", null ],
-    [ "HandleBeforeHit", "d0/d48/a28624.html#a7ca0fe15f6679c73aa77818ef3d94eed", null ],
-    [ "Load", "d0/d48/a28624.html#a6b2a1f378c0f5a2762ce1d34740d310e", null ],
-    [ "PrepareSpellScript", "d0/d48/a28624.html#a496c27472579be3b8989868765ec19ef", null ],
-    [ "Register", "d0/d48/a28624.html#a133e338413e960c442446a2a4a13b85b", null ],
-    [ "_stackAmount", "d0/d48/a28624.html#a3aa304a5386f6c0ee4aa428bf4ed12bb", null ]
+    [ "CalculateAmount", "d0/d48/a28624.html#a55d778b049e26c28bfa9d2e08d7920a8", null ],
+    [ "CheckProc", "d0/d48/a28624.html#aa0144f9a0260a74010ced913dd8cadbd", null ],
+    [ "HandleProc", "d0/d48/a28624.html#a741570ba77f70d90b437198f63e565f3", null ],
+    [ "PrepareAuraScript", "d0/d48/a28624.html#af4e49e2362994f247c119c16c013e4b3", null ],
+    [ "Register", "d0/d48/a28624.html#a06a3c11618cbdf15427bbaa6ac8a4273", null ],
+    [ "Validate", "d0/d48/a28624.html#a939d6815bcaee9b9d2b062313aac912a", null ]
 ];

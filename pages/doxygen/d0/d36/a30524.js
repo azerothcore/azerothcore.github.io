@@ -1,8 +1,8 @@
 var a30524 =
 [
-    [ "prepareLoadedData", "d0/d36/a30524.html#a696cfebd8fe66840b316919519e9b319", null ],
-    [ "fcc", "d0/d36/a30524.html#a83cb69fb9eb6eff82a513c75301e5bf6", null ],
-    [ "fcc_txt", "d0/d36/a30524.html#a9c7e27f948978d771115ca4f88f70b5d", null ],
-    [ "height_map", "d0/d36/a30524.html#a50a7fa80b59ba9c0fcd8d93bd924a13f", null ],
-    [ "size", "d0/d36/a30524.html#add2809c6e520cf4aa43807d61f973f0e", null ]
+    [ "ADT_file", "d0/d36/a30524.html#ac7d3b65a1377d0c7358fe5e2d20dbe5e", null ],
+    [ "~ADT_file", "d0/d36/a30524.html#a79fe542f34b0e7bf668e7e5ff94a7ded", null ],
+    [ "free", "d0/d36/a30524.html#a8fc207b8cc83596577166a0008965dc6", null ],
+    [ "prepareLoadedData", "d0/d36/a30524.html#ac9f498cb9c8e21a1947be87904e3760b", null ],
+    [ "a_grid", "d0/d36/a30524.html#aad5263c4df4ab9d072f217ec8c19441c", null ]
 ];

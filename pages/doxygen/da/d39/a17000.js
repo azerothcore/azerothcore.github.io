@@ -1,6 +1,6 @@
 var a17000 =
 [
-    [ "HandleScriptEffect", "da/d39/a17000.html#a9bc21e7cd5daa655b20fc457a9b7ae55", null ],
-    [ "PrepareSpellScript", "da/d39/a17000.html#a85552d12187dcd8c27b50b558e5c6368", null ],
-    [ "Register", "da/d39/a17000.html#a3e1a9426652c4dc3fc866cbc676945a0", null ]
+    [ "spell_trollgore_invader_taunt_SpellScript", "de/d22/a17004.html", "de/d22/a17004" ],
+    [ "spell_trollgore_invader_taunt", "da/d39/a17000.html#af4055ce1ebaa788dc45a9e6a29f9bbaf", null ],
+    [ "GetSpellScript", "da/d39/a17000.html#ae739e0b2f5d6b0ca3a459f6ea1dbed44", null ]
 ];

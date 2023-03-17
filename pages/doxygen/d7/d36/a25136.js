@@ -1,6 +1,10 @@
 var a25136 =
 [
-    [ "instance_serpentshrine_cavern_InstanceMapScript", "d7/dba/a25140.html", "d7/dba/a25140" ],
-    [ "instance_serpent_shrine", "d7/d36/a25136.html#aac4fc7113307805138ba4ce4a9adff09", null ],
-    [ "GetInstanceScript", "d7/d36/a25136.html#aa81add2f4aeb8b2084bcc81c05b606c7", null ]
+    [ "boss_morogrim_tidewalkerAI", "d7/d36/a25136.html#acc7d1f11380a4b44680ea3edf0b89434", null ],
+    [ "JustDied", "d7/d36/a25136.html#a90119445ecbfb99ffc50da5a7fcc659b", null ],
+    [ "JustEngagedWith", "d7/d36/a25136.html#ac84f82d3e0226b1a08c379febbce2ba2", null ],
+    [ "JustSummoned", "d7/d36/a25136.html#ab99f8bad8939a3069b6d5ad2f1d7c298", null ],
+    [ "KilledUnit", "d7/d36/a25136.html#a58cfd8a039780e5612f6f38eebe7d963", null ],
+    [ "Reset", "d7/d36/a25136.html#a9e091355a2a3b9721b45f99426a30a4d", null ],
+    [ "UpdateAI", "d7/d36/a25136.html#a260301ee2374c728adfc3d770da90fdb", null ]
 ];

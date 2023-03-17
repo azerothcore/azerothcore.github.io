@@ -1,8 +1,6 @@
 var a20376 =
 [
-    [ "npc_crystal_spikeAI", "d0/dbd/a20376.html#ac30dc3941c92fa0cda6639864f803a55", null ],
-    [ "Reset", "d0/dbd/a20376.html#ad8889e7a77daba18e3e5506855988537", null ],
-    [ "UpdateAI", "d0/dbd/a20376.html#a158ca019d06e045358ba305bd6e20bc1", null ],
-    [ "_damageTimer", "d0/dbd/a20376.html#a0bbd82d1c92be0ac595d1ab9704b6162", null ],
-    [ "_gameObjectGUID", "d0/dbd/a20376.html#acdeacf285b083f4c802295d8d0583ed7", null ]
+    [ "spell_boss_magus_telestra_gravity_well_SpellScript", "dd/dd6/a20380.html", "dd/dd6/a20380" ],
+    [ "spell_boss_magus_telestra_gravity_well", "d0/dbd/a20376.html#ae656b805e0e659eff88149d4c19ac0d9", null ],
+    [ "GetSpellScript", "d0/dbd/a20376.html#aed0d2efbbb6928365c086f9fc8a28c67", null ]
 ];

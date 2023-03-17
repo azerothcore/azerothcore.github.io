@@ -1,9 +1,10 @@
 var a09824 =
 [
-    [ "ServerPacket", "db/d9d/a09824.html#ad2222011e1251791799f97b149cef8b9", null ],
-    [ "Clear", "db/d9d/a09824.html#aa54f2fa66cfe4682ca56cf01f9e1296a", null ],
-    [ "GetOpcode", "db/d9d/a09824.html#a639ab6c078d7c746bcb328526df705be", null ],
-    [ "Move", "db/d9d/a09824.html#a659397042201ae571bb564872e54d2c6", null ],
-    [ "Read", "db/d9d/a09824.html#ae49aa7bce566d9f0ea3c7bbb487a119d", null ],
-    [ "ShrinkToFit", "db/d9d/a09824.html#a6fa19a94d57484aaff3498be01495258", null ]
+    [ "ArgsType", "db/d9d/a09824.html#a4ea4d3b165a196482ebe96af9c462658", null ],
+    [ "AuraScriptType", "db/d9d/a09824.html#a7b2a19d6c7c75c0df22eae17b0c8e90a", null ],
+    [ "SpellScriptType", "db/d9d/a09824.html#a790a8ef2b59bfe6298486648858506ed", null ],
+    [ "GenericSpellAndAuraScriptLoader", "db/d9d/a09824.html#ab1bd69d57c6e2322044b8f7cf46cedb6", null ],
+    [ "GetAuraScript", "db/d9d/a09824.html#a5f3c898a0dc6d9085589b88eb5571528", null ],
+    [ "GetSpellScript", "db/d9d/a09824.html#a913fa28d2a2cf100ce73cf641e333e01", null ],
+    [ "_args", "db/d9d/a09824.html#aad6527f64ede0d896880ffa90d05a378", null ]
 ];

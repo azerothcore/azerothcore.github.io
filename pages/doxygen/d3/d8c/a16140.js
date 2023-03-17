@@ -1,6 +1,7 @@
 var a16140 =
 [
-    [ "npc_onyx_flamecallerAI", "db/d8a/a16144.html", "db/d8a/a16144" ],
-    [ "npc_onyx_flamecaller", "d3/d8c/a16140.html#af27af3cb3bbaba0801481ba77a94f9c6", null ],
-    [ "GetAI", "d3/d8c/a16140.html#a712284f1997635aaf7ecd7ca0a263c05", null ]
+    [ "npc_baltharus_the_warborn_cloneAI", "d3/d8c/a16140.html#aed531e61508d4d404827f47c6348a5e6", null ],
+    [ "JustEngagedWith", "d3/d8c/a16140.html#ad906b7602a34abcfaede92cba6f0a6d7", null ],
+    [ "UpdateAI", "d3/d8c/a16140.html#ab0c1cf041146a3e16a33986e3e824a2d", null ],
+    [ "_events", "d3/d8c/a16140.html#a6e2819f73f0fccd02b7188f0e6f1ffa9", null ]
 ];

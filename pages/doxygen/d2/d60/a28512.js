@@ -1,6 +1,8 @@
 var a28512 =
 [
-    [ "HandleDummy", "d2/d60/a28512.html#abac8aa528d6d83748cf4cdbdaa8313f6", null ],
-    [ "PrepareSpellScript", "d2/d60/a28512.html#ae80dda98f66c1fbaa37741ffd52a1108", null ],
-    [ "Register", "d2/d60/a28512.html#a90fbc5d1b22cbc59550a430a63c08032", null ]
+    [ "CheckCast", "d2/d60/a28512.html#a16983545e25f3e02064e2b3d573b2bb8", null ],
+    [ "CheckQuest", "d2/d60/a28512.html#abc927d932c1d5e05eab1918364d68ed5", null ],
+    [ "HandleActiveObject", "d2/d60/a28512.html#a95f7bd6dd52b19bb1c09975a7286882a", null ],
+    [ "PrepareSpellScript", "d2/d60/a28512.html#a96e69476965cc2466213a5371a57093a", null ],
+    [ "Register", "d2/d60/a28512.html#a83c48e1c42a6a6dd892f0f4d6a20687b", null ]
 ];

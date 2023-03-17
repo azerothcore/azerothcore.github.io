@@ -1,7 +1,7 @@
 var a13324 =
 [
-    [ "npc_ranger_lilatha", "d3/d06/a13324.html#abd13a89b41a289edefb9bc21588f8d29", null ],
-    [ "Reset", "d3/d06/a13324.html#a3e804e483b51961193ee1079caba40be", null ],
-    [ "sQuestAccept", "d3/d06/a13324.html#acc38d4feacb5e7fa5ce9658b10447c4d", null ],
-    [ "WaypointReached", "d3/d06/a13324.html#a193bd47c7d7c4fb3d832a59bf55e8412", null ]
+    [ "npc_eris_hevenfireAI", "d8/d33/a13328.html", "d8/d33/a13328" ],
+    [ "npc_eris_hevenfire", "d3/d06/a13324.html#a77f0836dc0b19114316b8b67839d8033", null ],
+    [ "GetAI", "d3/d06/a13324.html#ad67a81ad20fac785c199c16fea8fe6f8", null ],
+    [ "OnQuestAccept", "d3/d06/a13324.html#a1e0baec5706cfddd678b58eb9359997e", null ]
 ];

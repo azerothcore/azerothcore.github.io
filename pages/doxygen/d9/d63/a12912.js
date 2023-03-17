@@ -1,6 +1,6 @@
 var a12912 =
 [
-    [ "npc_demonic_vaporAI", "dc/d0b/a12916.html", "dc/d0b/a12916" ],
-    [ "npc_demonic_vapor", "d9/d63/a12912.html#a2cfec998b5d2a23670c4f5143c330652", null ],
-    [ "GetAI", "d9/d63/a12912.html#a53635886eaed04eab0b8c7c0b6d6e67e", null ]
+    [ "spell_eredar_twins_apply_flame_touched_SpellScript", "dc/d0b/a12916.html", "dc/d0b/a12916" ],
+    [ "spell_eredar_twins_apply_flame_touched", "d9/d63/a12912.html#ae473aa176d4e5ba29974f204126a8d19", null ],
+    [ "GetSpellScript", "d9/d63/a12912.html#a95083b5cedfcf5faae7dd231e4889e44", null ]
 ];

@@ -1,7 +1,8 @@
 var a19288 =
 [
-    [ "AuraRemoveEvent", "db/d5e/a19288.html#a094b9437c7cadb465738daf5684c9725", null ],
-    [ "Execute", "db/d5e/a19288.html#a14ac906a0fcff86f61983c570b0bd6ad", null ],
-    [ "_spellId", "db/d5e/a19288.html#a6fad41839e07e9545859be7c3afcfc36", null ],
-    [ "_trigger", "db/d5e/a19288.html#aad8c27befc102dae6823d5d74fed50b4", null ]
+    [ "npc_lk_wicked_spiritAI", "db/d5e/a19288.html#a6323ddd6c0932f3d73a6de4bd3c4d5dd", null ],
+    [ "CanAIAttack", "db/d5e/a19288.html#ae094420b1a6e134632baa0b086c806c6", null ],
+    [ "JustDied", "db/d5e/a19288.html#adf153fab1c8639b2b5790ed418afb85d", null ],
+    [ "JustRespawned", "db/d5e/a19288.html#a1acfbead42b66dd8f70a85efc8ce2e6f", null ],
+    [ "Reset", "db/d5e/a19288.html#a8b15079251b6855679d738a342126006", null ]
 ];

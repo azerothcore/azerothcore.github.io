@@ -1,7 +1,7 @@
 var a28476 =
 [
-    [ "HandleScript", "dc/d90/a28476.html#a1b20a7fb4487876f305aa3a8d493ed17", null ],
-    [ "PrepareSpellScript", "dc/d90/a28476.html#a5ac848029ef03f6779cf094f4b80dd24", null ],
-    [ "Register", "dc/d90/a28476.html#a3d378e0eac09b00792b293b2cd7f3192", null ],
-    [ "Validate", "dc/d90/a28476.html#a36963610ad939ec36848ff70185f47a2", null ]
+    [ "HandleDummy", "dc/d90/a28476.html#a4c837e7342603519d1f23ab8702c3160", null ],
+    [ "PrepareSpellScript", "dc/d90/a28476.html#ae9d6ab0c9b9cf87f7b86f28e9bb25371", null ],
+    [ "Register", "dc/d90/a28476.html#a16a5ca3ec9a8c463c9a2975fa29eb1e9", null ],
+    [ "Validate", "dc/d90/a28476.html#ad742f4ce0d0db70427f7ba849a4526df", null ]
 ];

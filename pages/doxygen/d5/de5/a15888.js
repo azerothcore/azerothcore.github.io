@@ -1,12 +1,18 @@
 var a15888 =
 [
-    [ "npc_twilight_volunteer", "d5/de5/a15888.html#a3062041fcabf972e0a3d4753363c37b3", null ],
-    [ "AttackStart", "d5/de5/a15888.html#abc2e12fb7be5b1a7dabc4c2211e7de13", null ],
-    [ "DoAction", "d5/de5/a15888.html#ae95bcb02ee4f0ead76e249de0cba2d88", null ],
-    [ "EnterEvadeMode", "d5/de5/a15888.html#abd88e6fe0565babb92ccae17df0421d6", null ],
-    [ "MovementInform", "d5/de5/a15888.html#a4f27ae97ccf2c349a6352a0f5ba1681a", null ],
-    [ "UpdateAI", "d5/de5/a15888.html#a93288a45982b172c201e2442a4c91114", null ],
-    [ "events", "d5/de5/a15888.html#ad8cc52c1462d7adbfbe566c55c0ed244", null ],
-    [ "isSacraficeTarget", "d5/de5/a15888.html#a8350dba2c41754a2e5d15c94731ef27d", null ],
-    [ "pInstance", "d5/de5/a15888.html#ad58453e078520fa23238a96115e5f38f", null ]
+    [ "boss_elder_nadox", "d5/de5/a15888.html#a718d8fffde11b1df5a44650096c474cc", null ],
+    [ "DamageTaken", "d5/de5/a15888.html#a34dd3a07faeee096b1c8574f63353893", null ],
+    [ "GetData", "d5/de5/a15888.html#ad2f80bcefb6c43370546d867fd4fc951", null ],
+    [ "JustDied", "d5/de5/a15888.html#a1342dbd6de10197c6ba4bc8e43cceace", null ],
+    [ "JustEngagedWith", "d5/de5/a15888.html#a659f83714070b7358b43d1c7eb46ac1c", null ],
+    [ "KilledUnit", "d5/de5/a15888.html#a78310e83e518b64c1373b60a946f9748", null ],
+    [ "Reset", "d5/de5/a15888.html#ab5e492f39552b64c0333b6fbce89c1ae", null ],
+    [ "SummonedCreatureDies", "d5/de5/a15888.html#a77d9861b2e2de593d0b44c2fd9449f17", null ],
+    [ "SummonHelpers", "d5/de5/a15888.html#ae65044c111e514a3050ea14f1155a7dc", null ],
+    [ "UpdateAI", "d5/de5/a15888.html#abbb783581208c76fa371f01efd481b66", null ],
+    [ "guardianEggs", "d5/de5/a15888.html#aae96b622766ab4478a8510bd1c7a9f1f", null ],
+    [ "guardianSummoned", "d5/de5/a15888.html#a5543be0c08bf1d432b36bfdb2d532f0d", null ],
+    [ "previousSwarmEgg_GUID", "d5/de5/a15888.html#add5ff92f92b8d01caef0b12a98569535", null ],
+    [ "respectYourElders", "d5/de5/a15888.html#aac97ef9511e64692a152077b43e83e75", null ],
+    [ "swarmEggs", "d5/de5/a15888.html#a28c8b6826ed86e30b573883cab83168f", null ]
 ];

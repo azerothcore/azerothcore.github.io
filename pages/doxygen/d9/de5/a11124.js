@@ -1,12 +1,9 @@
 var a11124 =
 [
-    [ "npc_av_marshal_or_warmasterAI", "d9/de5/a11124.html#af3620678992778edbb859622e057893a", null ],
-    [ "AttackStart", "d9/de5/a11124.html#aed39eaed8648ce78349c49ee33918b93", null ],
-    [ "EnterEvadeMode", "d9/de5/a11124.html#a4ac6045b3f3dfd6e3f9e0ea757f4d2c6", null ],
-    [ "JustRespawned", "d9/de5/a11124.html#a460c6912063587214ba0f2e01878d827", null ],
-    [ "Reset", "d9/de5/a11124.html#a56d99bcf5038c372399f16a07a2e5d31", null ],
-    [ "UpdateAI", "d9/de5/a11124.html#a7bf1631810c8446bc157f8ff220199b7", null ],
-    [ "_attacked", "d9/de5/a11124.html#a56d7211a3565c19b499f7de2eda6c862", null ],
-    [ "_hasAura", "d9/de5/a11124.html#a1c0049100cde1c62daf80779d1135156", null ],
-    [ "events", "d9/de5/a11124.html#a49b8e01897cd5347bbd06cac254163f4", null ]
+    [ "quest_commandscript", "d9/de5/a11124.html#a98804583ded14bc50d252475289dda4f", null ],
+    [ "GetCommands", "d9/de5/a11124.html#afaf8c4b169a2bc7457b8ab97d13a367c", null ],
+    [ "HandleQuestAdd", "d9/de5/a11124.html#acd1410f224a1d69bba1321999ebf25bc", null ],
+    [ "HandleQuestComplete", "d9/de5/a11124.html#a044c30fdaedd07060284bd37fd2e226c", null ],
+    [ "HandleQuestRemove", "d9/de5/a11124.html#ac0a87854f99c510c8309e9e337d1e71f", null ],
+    [ "HandleQuestReward", "d9/de5/a11124.html#ab8d38057b3630b75cf21c8e88c1ebaf0", null ]
 ];

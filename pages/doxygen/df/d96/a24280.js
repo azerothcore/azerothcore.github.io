@@ -1,9 +1,6 @@
 var a24280 =
 [
-    [ "npc_voidtravelerAI", "df/d96/a24280.html#af10352c7ffae2b69a04a16bbdc8c241f", null ],
-    [ "SetGUID", "df/d96/a24280.html#abb5924999a592183be847141e3bbb8da", null ],
-    [ "UpdateAI", "df/d96/a24280.html#a0882d9dc418289ddf6b15bba67da30ef", null ],
-    [ "moveTimer", "df/d96/a24280.html#aeb71e48dd8a952e49bfe7754ef1d1bf3", null ],
-    [ "sacrificed", "df/d96/a24280.html#a8a7467bf49708807452d053c2ebd23b2", null ],
-    [ "VorpilGUID", "df/d96/a24280.html#a40f67877267a002ddf24f49e6b1bc219", null ]
+    [ "boss_blackheart_the_inciterAI", "d7/de0/a24284.html", "d7/de0/a24284" ],
+    [ "boss_blackheart_the_inciter", "df/d96/a24280.html#a968ac3f57bf6b3429685c7f16f48a346", null ],
+    [ "GetAI", "df/d96/a24280.html#a7b87c57357e3077c2d755e4cb4e9379b", null ]
 ];

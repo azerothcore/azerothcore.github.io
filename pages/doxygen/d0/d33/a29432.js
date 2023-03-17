@@ -1,5 +1,6 @@
 var a29432 =
 [
-    [ "item_gor_dreks_ointment", "d0/d33/a29432.html#a46a1f714ee08b53986a86a07fb8ac7ee", null ],
-    [ "OnUse", "d0/d33/a29432.html#a3ced715be57fa57ed51941ac1fa2660e", null ]
+    [ "npc_preciousAI", "da/dd9/a29436.html", "da/dd9/a29436" ],
+    [ "npc_precious", "d0/d33/a29432.html#a3c3ad9da13de64498cabc8e252e99ab2", null ],
+    [ "GetAI", "d0/d33/a29432.html#a754ad85c8b1942b400a47c28297bad62", null ]
 ];

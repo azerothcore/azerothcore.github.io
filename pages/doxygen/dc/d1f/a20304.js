@@ -1,6 +1,6 @@
 var a20304 =
 [
-    [ "boss_anomalusAI", "da/d79/a20308.html", "da/d79/a20308" ],
-    [ "boss_anomalus", "dc/d1f/a20304.html#a0dc3f8d5e272327596a8c7b34ffbe434", null ],
-    [ "GetAI", "dc/d1f/a20304.html#ae0a4a5047646a75fa492bf3d0383b127", null ]
+    [ "spell_eoe_ph3_surge_of_power_SpellScript", "da/d79/a20308.html", "da/d79/a20308" ],
+    [ "spell_eoe_ph3_surge_of_power", "dc/d1f/a20304.html#ade6dc24a5563d621c3471e3532d10e19", null ],
+    [ "GetSpellScript", "dc/d1f/a20304.html#affef23ac433f05375c84e029186e09dd", null ]
 ];

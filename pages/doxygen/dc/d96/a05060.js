@@ -1,8 +1,19 @@
 var a05060 =
 [
-    [ "GeneralLock", "dc/d96/a05060.html#ad0fac66b181e166108c871274bce7a93", null ],
-    [ "~GeneralLock", "dc/d96/a05060.html#a455c73434c26cac8bf9761900d648589", null ],
-    [ "GeneralLock", "dc/d96/a05060.html#aecc7bf4d8ac0c4bc16a89a16e196330c", null ],
-    [ "operator=", "dc/d96/a05060.html#a876a9be3c642991811028892bcae42c4", null ],
-    [ "i_mutex", "dc/d96/a05060.html#a80b98e278d3afb1867ff5f159eda5055", null ]
+    [ "LockedQueue", "dc/d96/a05060.html#a5ce001c1fba3468b513aa7e345113128", null ],
+    [ "~LockedQueue", "dc/d96/a05060.html#a259a03cc68a36181edebe088ef669c46", null ],
+    [ "add", "dc/d96/a05060.html#a03f459044b4ffb413fb8d1ba98179ab8", null ],
+    [ "cancel", "dc/d96/a05060.html#ab3d04497f8a07c5c6b6208b136a297a4", null ],
+    [ "cancelled", "dc/d96/a05060.html#a75e84b63025f270a4c8a7d49043cf18e", null ],
+    [ "empty", "dc/d96/a05060.html#a82207d6574c3eb09d747b97c78205a37", null ],
+    [ "lock", "dc/d96/a05060.html#a86647b0df50a7f3ce7a312eb8647f624", null ],
+    [ "next", "dc/d96/a05060.html#ac818ec56d60e2ec059857e0aaa99f8a4", null ],
+    [ "next", "dc/d96/a05060.html#acaade33a01794600c72efbf389fe7664", null ],
+    [ "peek", "dc/d96/a05060.html#af3f78bdfffafa51fce6162128abf987a", null ],
+    [ "pop_front", "dc/d96/a05060.html#aa57d3a3964071fd3e0ba6b7840041c65", null ],
+    [ "readd", "dc/d96/a05060.html#a4eb9aea8b399a2acc2dd893e83d16120", null ],
+    [ "unlock", "dc/d96/a05060.html#a3d74de7cc364ba891c538ee3d166e9aa", null ],
+    [ "_canceled", "dc/d96/a05060.html#a1af6fe1c19a40d2b94873920dd7e8da7", null ],
+    [ "_lock", "dc/d96/a05060.html#a64be27c5d4ab7cc4a8c559dd6e1d4ebb", null ],
+    [ "_queue", "dc/d96/a05060.html#a55ced2abb0a6dd64554597347b61ebf1", null ]
 ];

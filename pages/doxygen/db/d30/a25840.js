@@ -1,6 +1,6 @@
 var a25840 =
 [
-    [ "HandleBeforeCast", "db/d30/a25840.html#a5adc3fc40a1534b771badc284b7dcaad", null ],
-    [ "PrepareSpellScript", "db/d30/a25840.html#a1aa61ff2e1046d041b7f8ca8b7e0afc5", null ],
-    [ "Register", "db/d30/a25840.html#a68f2d1191b131e0407eae88408ad3242", null ]
+    [ "spell_kaelthas_gravity_lapse_SpellScript", "db/d91/a25844.html", "db/d91/a25844" ],
+    [ "spell_kaelthas_gravity_lapse", "db/d30/a25840.html#a28147e82cd72283834585227f26e9905", null ],
+    [ "GetSpellScript", "db/d30/a25840.html#ab953ec1bffae888dc13109a2bee22ea1", null ]
 ];

@@ -1,6 +1,5 @@
 var a09908 =
 [
-    [ "SetSheathed", "dd/d44/a09908.html#a0c6ff5057d2ee0c424c8539c0bf99857", null ],
-    [ "Read", "dd/d44/a09908.html#ae2158689450e3a9207b6992ea5223106", null ],
-    [ "CurrentSheathState", "dd/d44/a09908.html#a8363787ac7959f19234def2707ef0b32", null ]
+    [ "LogoutCancel", "dd/d44/a09908.html#a179fccf74fa969e6a32492f35d6f28c8", null ],
+    [ "Read", "dd/d44/a09908.html#a9ed27bc4472b7e4e225793b4f2e5a34d", null ]
 ];

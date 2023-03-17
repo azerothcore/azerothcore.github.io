@@ -1,6 +1,6 @@
 var a24852 =
 [
-    [ "PrepareAuraScript", "dd/dd5/a24852.html#a7bacac1fc48e42bc67f64dc8c9e70fe5", null ],
-    [ "Register", "dd/dd5/a24852.html#ab2b6de8e03943133dc6c6a4b30a325be", null ],
-    [ "Update", "dd/dd5/a24852.html#a25b7478ee881e7073431b954213b6afc", null ]
+    [ "spell_black_temple_skeleton_shot_AuraScript", "d2/d61/a24856.html", "d2/d61/a24856" ],
+    [ "spell_black_temple_skeleton_shot", "dd/dd5/a24852.html#adc55422435509706ce398f3fe5a3ba69", null ],
+    [ "GetAuraScript", "dd/dd5/a24852.html#a1ea2a404c45076f9f3127b95dbe21091", null ]
 ];

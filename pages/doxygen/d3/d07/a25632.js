@@ -1,6 +1,7 @@
 var a25632 =
 [
-    [ "boss_harbinger_skyrissAI", "d8/dc6/a25636.html", "d8/dc6/a25636" ],
-    [ "boss_harbinger_skyriss", "d3/d07/a25632.html#a8843c3cd15cee06be6a3194b01f41b7a", null ],
-    [ "GetAI", "d3/d07/a25632.html#a4951dcd0d387f6dea43a42aaaa426fb5", null ]
+    [ "boss_zereketh_the_unbound", "d3/d07/a25632.html#abb2fc5cbe7514142160818016fda1936", null ],
+    [ "JustDied", "d3/d07/a25632.html#ac5d96da9a33a536f2002cce11453ded3", null ],
+    [ "JustEngagedWith", "d3/d07/a25632.html#ad0305f3eeb578d6dcd2db835331eb10f", null ],
+    [ "KilledUnit", "d3/d07/a25632.html#a07d3a1264e6d78c2696990755fc7fe45", null ]
 ];

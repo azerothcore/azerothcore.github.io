@@ -1,8 +1,8 @@
 var a28604 =
 [
-    [ "CheckCast", "d7/d4d/a28604.html#a16983545e25f3e02064e2b3d573b2bb8", null ],
-    [ "CheckQuest", "d7/d4d/a28604.html#abc927d932c1d5e05eab1918364d68ed5", null ],
-    [ "HandleActiveObject", "d7/d4d/a28604.html#a95f7bd6dd52b19bb1c09975a7286882a", null ],
-    [ "PrepareSpellScript", "d7/d4d/a28604.html#a96e69476965cc2466213a5371a57093a", null ],
-    [ "Register", "d7/d4d/a28604.html#a83c48e1c42a6a6dd892f0f4d6a20687b", null ]
+    [ "FilterTargets", "d7/d4d/a28604.html#a3766e5ed1f75c242f45b24c90eef7e11", null ],
+    [ "HandleDummy", "d7/d4d/a28604.html#a2214b10da042a3af2fd3311872cc5286", null ],
+    [ "PrepareSpellScript", "d7/d4d/a28604.html#a9959966856601f79a83931a7a7ecff91", null ],
+    [ "Register", "d7/d4d/a28604.html#a6ac1d4f1d82aabb39526aca92636a41f", null ],
+    [ "Validate", "d7/d4d/a28604.html#a67d4b92cc494b6081247a90e8d4c9628", null ]
 ];

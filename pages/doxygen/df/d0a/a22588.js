@@ -1,6 +1,5 @@
 var a22588 =
 [
-    [ "boss_svalaAI", "db/d60/a22592.html", "db/d60/a22592" ],
-    [ "boss_svala", "df/d0a/a22588.html#a7ac5866eb6a013cb03f3d459b13b4a62", null ],
-    [ "GetAI", "df/d0a/a22588.html#a0c3b94635eca667a28496cf799efad25", null ]
+    [ "go_palehoof_sphere", "df/d0a/a22588.html#a9e31fe7531980a5f75af95e24cbc272d", null ],
+    [ "OnGossipHello", "df/d0a/a22588.html#ad939fd46f8bdf32d4e158f32f2bcd8da", null ]
 ];

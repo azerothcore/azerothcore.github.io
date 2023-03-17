@@ -1,7 +1,6 @@
 var a18676 =
 [
-    [ "FrostwyrmLandEvent", "d4/d82/a18676.html#a6b6a467c474a5b03be40e4d9a86eddc8", null ],
-    [ "Execute", "d4/d82/a18676.html#a4da77796a223e6233ac6d908f7700623", null ],
-    [ "_dest", "d4/d82/a18676.html#a7f5b4c41c459b65e30dea66f7459a7e9", null ],
-    [ "_owner", "d4/d82/a18676.html#a6336050092606ebb27a180abff55dfa2", null ]
+    [ "spell_rotface_unstable_ooze_explosion_SpellScript", "d7/d8f/a18680.html", "d7/d8f/a18680" ],
+    [ "spell_rotface_unstable_ooze_explosion", "d4/d82/a18676.html#af78c72b5f2fc3997924d645b4c08088a", null ],
+    [ "GetSpellScript", "d4/d82/a18676.html#ac889f959eaa3e178b62601b79c83fef5", null ]
 ];

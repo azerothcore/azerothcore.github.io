@@ -1,8 +1,14 @@
 var a06864 =
 [
-    [ "NodeId", "de/d80/a06864.html#a09d4904c622dd7810e154bc0f3bd7eaf", null ],
-    [ "TextAllianceTaken", "de/d80/a06864.html#a20cb8eaefa0e45b45a57645c62409ba4", null ],
-    [ "TextAssaulted", "de/d80/a06864.html#a2e49a6d7f8ca935800062d98f1c660de", null ],
-    [ "TextDefended", "de/d80/a06864.html#a27ee2d5be23a110943438a8888b14202", null ],
-    [ "TextHordeTaken", "de/d80/a06864.html#a835c00ebdc2fe61f7e7757b0ed26bd1d", null ]
+    [ "BattlegroundDS", "de/d80/a06864.html#a041cd3c81d341ff12e2e103da44c19b8", null ],
+    [ "FillInitialWorldStates", "de/d80/a06864.html#a5fab4d2e772aba65211f1636deaf4220", null ],
+    [ "HandleAreaTrigger", "de/d80/a06864.html#a91e0be32f0169b9ac8749003ae3cdae7", null ],
+    [ "HandlePlayerUnderMap", "de/d80/a06864.html#a97ed6f531b1de3eaf93c585e205e7f54", null ],
+    [ "PostUpdateImpl", "de/d80/a06864.html#a57cfca32a361d43f19163dc6e7408e96", null ],
+    [ "SetupBattleground", "de/d80/a06864.html#ae008bf979e6984856237938dfe743ec7", null ],
+    [ "StartingEventCloseDoors", "de/d80/a06864.html#ae215043c2c10df9f9339e2a6dbcb185e", null ],
+    [ "StartingEventOpenDoors", "de/d80/a06864.html#ab9ab60253daa5318dcdb6675c8919cd5", null ],
+    [ "_events", "de/d80/a06864.html#a79112a1631ec6541cf19ecef712bb66f", null ],
+    [ "_pipeKnockBackCount", "de/d80/a06864.html#a32490dab9fd8ea9ae9afd8cf66feb087", null ],
+    [ "_pipeKnockBackTimer", "de/d80/a06864.html#aaef0cac1f3283c56117efcc484a0abfc", null ]
 ];

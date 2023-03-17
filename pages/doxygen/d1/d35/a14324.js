@@ -1,8 +1,7 @@
 var a14324 =
 [
-    [ "HandleEffectApply", "d1/d35/a14324.html#a31d4e0da71893a8a673a2ac4f7c26c70", null ],
-    [ "HandleEffectRemove", "d1/d35/a14324.html#af8661463589640c9550bc62e8f74afcd", null ],
-    [ "PrepareAuraScript", "d1/d35/a14324.html#a2885eb37d4af8f1e90e2a4967f5acc75", null ],
-    [ "Register", "d1/d35/a14324.html#ada4a148e0b50f5853eaf02c465f6e876", null ],
-    [ "torchGUID", "d1/d35/a14324.html#a8ccf51241d3792c8c36d983bf471167e", null ]
+    [ "npc_love_in_air_supply_sentry", "d1/d35/a14324.html#ab2742c3be0ed661a509b9eb32326bee5", null ],
+    [ "MoveInLineOfSight", "d1/d35/a14324.html#a9df110324c74277e07183c7db231bbda", null ],
+    [ "UpdateAI", "d1/d35/a14324.html#aaa658222954f96d45b75daf83555f6f8", null ],
+    [ "lock", "d1/d35/a14324.html#a59bf67b114014542538165c21aa109a6", null ]
 ];

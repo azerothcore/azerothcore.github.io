@@ -1,6 +1,11 @@
 var a09668 =
 [
-    [ "OutdoorPvPScript", "d2/d51/a09668.html#ad7882db48419888c7968007e30c2f3f7", null ],
-    [ "GetOutdoorPvP", "d2/d51/a09668.html#aa213974f384c88ab65f7b7308dadb026", null ],
-    [ "IsDatabaseBound", "d2/d51/a09668.html#ac22c6a9945738270452848f997d2818f", null ]
+    [ "AllMapScript", "d2/d51/a09668.html#abaf4ffb766b2e5780a9c15c8136d8e26", null ],
+    [ "OnBeforeCreateInstanceScript", "d2/d51/a09668.html#ad398177177c6b436cc9279f5e49818b4", null ],
+    [ "OnCreateMap", "d2/d51/a09668.html#a56aa53bfb0a1cb7ad7cb677771739b46", null ],
+    [ "OnDestroyInstance", "d2/d51/a09668.html#a990130b4cd594c1cd04368aea300a49e", null ],
+    [ "OnDestroyMap", "d2/d51/a09668.html#a6bebd1e6e36b5714598439a6c6dfaad6", null ],
+    [ "OnMapUpdate", "d2/d51/a09668.html#a6edbb719d998c57caba09eef7ad559e0", null ],
+    [ "OnPlayerEnterAll", "d2/d51/a09668.html#a42e4af596effb07a00b353164f32cec9", null ],
+    [ "OnPlayerLeaveAll", "d2/d51/a09668.html#adcfd501bee055317bff2a63ef28c3eab", null ]
 ];

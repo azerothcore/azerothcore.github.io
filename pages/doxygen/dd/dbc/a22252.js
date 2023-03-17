@@ -1,6 +1,7 @@
 var a22252 =
 [
-    [ "spell_yogg_saron_destabilization_matrix_SpellScript", "da/da1/a22256.html", "da/da1/a22256" ],
-    [ "spell_yogg_saron_destabilization_matrix", "dd/dbc/a22252.html#a0fcbcecf6b3cc81aeb5c8cb143788adc", null ],
-    [ "GetSpellScript", "dd/dbc/a22252.html#abd2526725955a5cb04459eccf27b8468", null ]
+    [ "OnApply", "dd/dbc/a22252.html#a2e6222a6a68358b33698126f56855106", null ],
+    [ "OnRemove", "dd/dbc/a22252.html#a3c66ced821817c5234b1c5e9270f0b85", null ],
+    [ "PrepareAuraScript", "dd/dbc/a22252.html#ac7ff17cd4c73144c06e7479e9b41b080", null ],
+    [ "Register", "dd/dbc/a22252.html#a84e06d4e2acf8c7cf7661ed6352fb9c6", null ]
 ];

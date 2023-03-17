@@ -1,9 +1,6 @@
 var a27348 =
 [
-    [ "PrepareAuraScript", "d0/d00/a27348.html#aebfc1dfb1ff025b0ef4a8c0062a000f1", null ],
-    [ "RefreshVisualShields", "d0/d00/a27348.html#aeefbbdd391c347b350ec7738b9825f8c", null ],
-    [ "Register", "d0/d00/a27348.html#aacd9f12cddd0c698816916d9cdf5f0ea", null ],
-    [ "RemoveDummyFromDriver", "d0/d00/a27348.html#a399641ce72b74038a4517868267bd86a", null ],
-    [ "RemoveVisualShields", "d0/d00/a27348.html#aed4bb9ec815ac4e22b952a64c8bd3b51", null ],
-    [ "Validate", "d0/d00/a27348.html#ae5799f72b7fbce82799fd730f1525948", null ]
+    [ "OnApply", "d0/d00/a27348.html#a476bf6fc1a91784dbc8534c0e57005d6", null ],
+    [ "PrepareAuraScript", "d0/d00/a27348.html#a159ee8a9b0af729ed01f7632adb58863", null ],
+    [ "Register", "d0/d00/a27348.html#a0f33043317402119aa14e50a1eb6c227", null ]
 ];

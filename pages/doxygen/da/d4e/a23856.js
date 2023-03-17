@@ -1,8 +1,9 @@
 var a23856 =
 [
-    [ "npc_hyldsmeet_protodrakeAI", "da/d4e/a23856.html#a30794392a32b1323fb0a86615b341741", null ],
-    [ "PassengerBoarded", "da/d4e/a23856.html#acb699d519bf79702a34b7d9910fe7c9e", null ],
-    [ "UpdateAI", "da/d4e/a23856.html#afd2168f8dc7328898f5e769c31c6da5a", null ],
-    [ "_accessoryRespawnTimer", "da/d4e/a23856.html#a4c6b4236bf35278d05c4b78f1eda6b75", null ],
-    [ "_vehicleKit", "da/d4e/a23856.html#aba68a138ef44af7d012c8c7dd4c06c6d", null ]
+    [ "npc_brunnhildar_prisonerAI", "da/d4e/a23856.html#ad650885c7f615f8b27ba20203c9fbb6f", null ],
+    [ "JustRespawned", "da/d4e/a23856.html#a15843fcdc5d9eb34df7869b56a0b16ac", null ],
+    [ "Reset", "da/d4e/a23856.html#ac9ba0806b9702cebe9171d9ba8962b0f", null ],
+    [ "SpellHit", "da/d4e/a23856.html#af2835ec5b951e2f4bb176ebe6bb958fd", null ],
+    [ "UpdateAI", "da/d4e/a23856.html#a0702d4cf577ac00688a7b93bfe656952", null ],
+    [ "freed", "da/d4e/a23856.html#a46e03a19bac91a800154e3c873235800", null ]
 ];

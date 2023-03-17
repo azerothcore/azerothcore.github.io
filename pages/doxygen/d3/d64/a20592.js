@@ -1,11 +1,16 @@
 var a20592 =
 [
-    [ "npc_spark_of_ionarAI", "d3/d64/a20592.html#a738ceaa68f13c084fedee2add6fba99e", null ],
-    [ "AttackStart", "d3/d64/a20592.html#a7616d68c090aece19389b4c4842e30a3", null ],
-    [ "DamageTaken", "d3/d64/a20592.html#a42466b7c6af30727b8872bd2ddfddb6f", null ],
-    [ "DoAction", "d3/d64/a20592.html#a995efdb87fdd72eccfdce11d2af0201b", null ],
-    [ "MoveInLineOfSight", "d3/d64/a20592.html#ac87193fba7975147731ca3c92946c308", null ],
-    [ "Reset", "d3/d64/a20592.html#a4b4511ac7258c1182e428bddb2db6519", null ],
-    [ "UpdateAI", "d3/d64/a20592.html#ae4e881e4e66e49c124c0cf540e1d59b7", null ],
-    [ "returning", "d3/d64/a20592.html#a5f6ef34741a6d726c3fecd66d768bd67", null ]
+    [ "boss_bjarngrimAI", "d3/d64/a20592.html#ab599d5f62638d622c560f5b63e645b50", null ],
+    [ "JustDied", "d3/d64/a20592.html#adcad5667168768d8f3c8235735f357b1", null ],
+    [ "JustEngagedWith", "d3/d64/a20592.html#a2e99538fdc107bc7e91c23898c178047", null ],
+    [ "KilledUnit", "d3/d64/a20592.html#ad3cbbdc77909515e1573a2fb49cc1e30", null ],
+    [ "RemoveStanceAura", "d3/d64/a20592.html#ac2bca5cebc4847af71272de0ffa3d91a", null ],
+    [ "Reset", "d3/d64/a20592.html#a138d14f9666b03dda50f6adeea609046", null ],
+    [ "RollStance", "d3/d64/a20592.html#a70791697fde5c6194226fd42c893385a", null ],
+    [ "UpdateEscortAI", "d3/d64/a20592.html#a9db8e85b47e8ebb4760f99ec04a36fcb", null ],
+    [ "WaypointReached", "d3/d64/a20592.html#a31e1bceb7b944b3db9d7e881be4246bf", null ],
+    [ "events", "d3/d64/a20592.html#a5314bce83c4c7e80ecea99a8d5559fd8", null ],
+    [ "m_pInstance", "d3/d64/a20592.html#af6dbef6bb9565b5ee1738e188b08748f", null ],
+    [ "m_uiStance", "d3/d64/a20592.html#abd4d058fad17b56bc29a165d74062dd0", null ],
+    [ "summons", "d3/d64/a20592.html#a02bd445d2c969ea186a48f68585e640c", null ]
 ];

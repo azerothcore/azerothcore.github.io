@@ -1,8 +1,10 @@
 var a30416 =
 [
-    [ "TimeSeg", "da/d09/a30416.html#ab94639ba8e26b215ebd31163967574d3", null ],
-    [ "TransportEntry", "da/d09/a30416.html#a859d25b3c11839ad7e37facd40dc79df", null ],
-    [ "X", "da/d09/a30416.html#a8fbd166503396e33a4ad77448bf307ea", null ],
-    [ "Y", "da/d09/a30416.html#a67c279b26cebd8e5c81c36576b145af6", null ],
-    [ "Z", "da/d09/a30416.html#a680689c57479a2cc1ec72ab97204d3e7", null ]
+    [ "BugfixVersion", "da/d09/a30416.html#a461f8c749a874405584dc1fd3fe1d805", null ],
+    [ "Build", "da/d09/a30416.html#a6cc7aff1b397df7333b9bb0003282abd", null ],
+    [ "HotfixVersion", "da/d09/a30416.html#a0df61c036a57b8a3efde5d180dc38131", null ],
+    [ "MacHash", "da/d09/a30416.html#ad59772e86371318fe975760e303fa7d9", null ],
+    [ "MajorVersion", "da/d09/a30416.html#a0eb78564680f771e325536a0ab77382a", null ],
+    [ "MinorVersion", "da/d09/a30416.html#a7140f7ef9540eff08fabf74ded68b9cc", null ],
+    [ "WindowsHash", "da/d09/a30416.html#a96abd69a458dfc4363c4e545fc7fabab", null ]
 ];

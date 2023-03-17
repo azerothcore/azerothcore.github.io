@@ -1,10 +1,8 @@
 var a26244 =
 [
-    [ "npc_maxx_a_million_escortAI", "d0/d63/a26244.html#ab827933527ed7b4a04b162034876ced8", null ],
-    [ "JustDied", "d0/d63/a26244.html#a2106ab4d32d0f221f62eeffd93f71380", null ],
-    [ "Reset", "d0/d63/a26244.html#a6b9b2ed76e26f908ff2272ad8744a59e", null ],
-    [ "UpdateAI", "d0/d63/a26244.html#a3b022feb2303875d32ad981e84f66854", null ],
-    [ "WaypointReached", "d0/d63/a26244.html#acd6f45abb93f3f043cd85647405a50f6", null ],
-    [ "bTake", "d0/d63/a26244.html#ac697fc6cbc20c7f316845ed26436049b", null ],
-    [ "uiTakeTimer", "d0/d63/a26244.html#a5d4826dcf893f444a42dedba57460110", null ]
+    [ "CreatureId", "d0/d63/a26244.html#a127341c70f8785ceb556b1c11b23f477", null ],
+    [ "SpawnCount", "d0/d63/a26244.html#ad51fb68e41e04490f658a4c4f62612bd", null ],
+    [ "SpawnTimer", "d0/d63/a26244.html#aa57ff686c5fde12269e231333d8a8bef", null ],
+    [ "UsedSpawnPoint", "d0/d63/a26244.html#a2d5f42a6b1a309c8db74febcedf457eb", null ],
+    [ "YellTimer", "d0/d63/a26244.html#a6346259269af7f2936f959f87288dd69", null ]
 ];

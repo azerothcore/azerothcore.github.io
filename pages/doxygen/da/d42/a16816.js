@@ -1,6 +1,6 @@
 var a16816 =
 [
-    [ "if", "da/d42/a16816.html#a05a4c1db7e7d6810209175a22db5a639", null ],
-    [ "PrepareAuraScript", "da/d42/a16816.html#ab918782945539513ae49cff3280fc352", null ],
-    [ "absorbAmount", "da/d42/a16816.html#a72d148ef61ff66cbc2afdb3defec15ce", null ]
+    [ "boss_eydisAI", "d1/dfc/a16820.html", "d1/dfc/a16820" ],
+    [ "boss_eydis", "da/d42/a16816.html#aa555f80882499bc4627e622fbb48b2a4", null ],
+    [ "GetAI", "da/d42/a16816.html#ad49a673431c479fa2f5d9b6da42bbf55", null ]
 ];

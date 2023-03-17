@@ -1,6 +1,5 @@
 var a07580 =
 [
-    [ "ForcedUnsummonDelayEvent", "d5/d70/a07580.html#aadabfc349c81e02743add4307977c2fd", null ],
-    [ "Execute", "d5/d70/a07580.html#a86d7bd6f9f47ef37382b725f0d64877b", null ],
-    [ "m_owner", "d5/d70/a07580.html#a3954577354fb882ec1def262502ed2e6", null ]
+    [ "QuestIcon", "d5/d70/a07580.html#ad8bbfe08780eaa68a8205e2634d211b8", null ],
+    [ "QuestId", "d5/d70/a07580.html#a522a4fcb28daec3e1a620b6f02c3d8fe", null ]
 ];

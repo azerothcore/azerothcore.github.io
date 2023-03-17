@@ -1,13 +1,10 @@
 var a05044 =
 [
-    [ "MPSCQueueIntrusive", "db/df9/a05044.html#a8e05361abed759932c49b0fc71ed09c1", null ],
-    [ "~MPSCQueueIntrusive", "db/df9/a05044.html#a8155857825ceb1b7154ea82a63dbce08", null ],
-    [ "MPSCQueueIntrusive", "db/df9/a05044.html#afaee06af7734e53ce50674e4ef7277b2", null ],
-    [ "Dequeue", "db/df9/a05044.html#a798e36f41ef34c226690f76e9dc03fd6", null ],
-    [ "Enqueue", "db/df9/a05044.html#a233004b906cfa66cdd285233105dddf7", null ],
-    [ "operator=", "db/df9/a05044.html#a93cdd07d00b7dff8a7da5bf4846b26c7", null ],
-    [ "_dummy", "db/df9/a05044.html#ad4d3a9cebe46fc524e474b7854a20b03", null ],
-    [ "_dummyPtr", "db/df9/a05044.html#a115e9affe6159ae8aa08c6fc358e400c", null ],
-    [ "_head", "db/df9/a05044.html#a7fb32fbb507e82f9e8a6c1691e281fcd", null ],
-    [ "_tail", "db/df9/a05044.html#ac7e333db415e6301a02052c53779d1d4", null ]
+    [ "Category", "db/df9/a05044.html#a6a7956fedac99271428968ba339f464f", null ],
+    [ "Tags", "db/df9/a05044.html#ac22787b2dadd4d3991f72f6ccab5c225", null ],
+    [ "Text", "db/df9/a05044.html#ab63598f64896186fde81048550767b28", null ],
+    [ "Timestamp", "db/df9/a05044.html#a8248a27d920ca431493750e3f2dec48b", null ],
+    [ "Title", "db/df9/a05044.html#a857d2d4843480b9967334f079351292a", null ],
+    [ "Type", "db/df9/a05044.html#af9962592650ba24fd9b3c0ee9ce06f7f", null ],
+    [ "Value", "db/df9/a05044.html#a09832a09e989c3851e72f4ec198f0e20", null ]
 ];

@@ -1,5 +1,11 @@
 var a21976 =
 [
-    [ "achievement_thorim_stand_in_the_lightning", "d6/d4c/a21976.html#a9339e89e4eb76151fdeacb6bcd53d7bc", null ],
-    [ "OnCheck", "d6/d4c/a21976.html#ade1aec4de4c503be5a62da3e6c35e90f", null ]
+    [ "boss_thorim_arena_npcsAI", "d6/d4c/a21976.html#aab66eff737c803f6680ca5f93baaa6ca", null ],
+    [ "CanAIAttack", "d6/d4c/a21976.html#ae214fabcc4db1f40a15be3369e66b030", null ],
+    [ "JustEngagedWith", "d6/d4c/a21976.html#a60530453c2cbf5f22fb0d45088f90706", null ],
+    [ "Reset", "d6/d4c/a21976.html#a83cb4bdb14a757733333f94d02fbf8db", null ],
+    [ "SelectT", "d6/d4c/a21976.html#a84f22d142aad0ed7354784192bd5df3b", null ],
+    [ "UpdateAI", "d6/d4c/a21976.html#acf09c7b12bce41c38980905457d4dbb4", null ],
+    [ "_isCaster", "d6/d4c/a21976.html#a2c55eacc7b16be459935b586a0654500", null ],
+    [ "events", "d6/d4c/a21976.html#aea5a9f9c915a7827316c48a504bc992e", null ]
 ];

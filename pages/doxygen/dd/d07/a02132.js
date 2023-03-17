@@ -1,4 +1,5 @@
 var a02132 =
 [
-    [ "ApplySpellFix", "dd/d07/a02132.html#ab2692a866ddb9539875213c10f37b84e", null ]
+    [ "DispelList", "dd/d07/a02132.html#a711d5a2b2f8cbeb49153d9e33ea51bf1", null ],
+    [ "SpellEffects", "dd/d07/a02132.html#a294b5954f08aebdafe9e5a6f00e2dc82", null ]
 ];

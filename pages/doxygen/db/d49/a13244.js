@@ -1,6 +1,6 @@
 var a13244 =
 [
-    [ "spell_uldaman_boss_agro_archaedas_SpellScript", "dc/df4/a13248.html", "dc/df4/a13248" ],
-    [ "spell_uldaman_boss_agro_archaedas", "db/d49/a13244.html#ae269234d4a671bb20f9b525c037dd120", null ],
-    [ "GetSpellScript", "db/d49/a13244.html#ac95cc338ef9ecf9f858d6eaf78c5eb49", null ]
+    [ "spell_cataclysm_breath_SpellScript", "dc/df4/a13248.html", "dc/df4/a13248" ],
+    [ "spell_cataclysm_breath", "db/d49/a13244.html#a81dee3f1293612153e3bc5b3e492626a", null ],
+    [ "GetSpellScript", "db/d49/a13244.html#afaf3a97c06580404cb58c50d0e4ff861", null ]
 ];

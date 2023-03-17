@@ -1,6 +1,6 @@
 var a26184 =
 [
-    [ "socretharAI", "de/dea/a26188.html", "de/dea/a26188" ],
-    [ "socrethar", "d2/dc8/a26184.html#ada804d13881df80842989741146c69a6", null ],
-    [ "GetAI", "d2/dc8/a26184.html#a32bf1c939f0c8febc57865353f376614", null ]
+    [ "npc_invis_infernal_casterAI", "de/dea/a26188.html", "de/dea/a26188" ],
+    [ "npc_invis_infernal_caster", "d2/dc8/a26184.html#a9aed081ef904075830428bbc76f53874", null ],
+    [ "GetAI", "d2/dc8/a26184.html#aede0c5cc390ea423169b1cba66d929cd", null ]
 ];

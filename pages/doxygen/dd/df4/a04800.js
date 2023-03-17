@@ -1,10 +1,8 @@
 var a04800 =
 [
-    [ "ARC4", "dd/df4/a04800.html#ac05d4f85233abfc5cbcb87cd2a87bc5a", null ],
-    [ "~ARC4", "dd/df4/a04800.html#af3a8b63c2073120026c262a685eef8f2", null ],
-    [ "Init", "dd/df4/a04800.html#a68993c30cafb864abd5ae0c49ee8296e", null ],
-    [ "Init", "dd/df4/a04800.html#a13bd9c79d4535d115831303b14b5f89d", null ],
-    [ "UpdateData", "dd/df4/a04800.html#ae350945f2713305e977e4a3e4fc3d5b5", null ],
-    [ "UpdateData", "dd/df4/a04800.html#afeb8a273bac5a73417e8026421c6ea70", null ],
-    [ "_ctx", "dd/df4/a04800.html#a8539413b1e0344abe9545f742cc8e6df", null ]
+    [ "ComputeCell", "dd/df4/a04800.html#a32a8b5ab15a28fb06672fcf62ac63d1e", null ],
+    [ "isValid", "dd/df4/a04800.html#afe64d87e738675f1c8cb0fa6d440029c", null ],
+    [ "operator==", "dd/df4/a04800.html#a13e8b2fcda561f185777e4d8b48da3f5", null ],
+    [ "x", "dd/df4/a04800.html#a8435f7d7b8f529dfe397ada59e3405a1", null ],
+    [ "y", "dd/df4/a04800.html#af3d5ae020727d58286ef7725958063a9", null ]
 ];

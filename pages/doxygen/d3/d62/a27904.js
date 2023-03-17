@@ -1,6 +1,6 @@
 var a27904 =
 [
-    [ "HandleTriggerSpell", "d3/d62/a27904.html#a2c9f565aec4c42900037dd387549df18", null ],
-    [ "PrepareAuraScript", "d3/d62/a27904.html#a5864bbba50001cdb84b0015d08134c56", null ],
-    [ "Register", "d3/d62/a27904.html#a5a41ac9e41201ec3defc05c324a792c9", null ]
+    [ "PrepareSpellScript", "d3/d62/a27904.html#a738e105a48f6c603f3d9a690f44b8745", null ],
+    [ "Register", "d3/d62/a27904.html#a6bc9791d0f08440e19b89daa9b65892c", null ],
+    [ "SetDest", "d3/d62/a27904.html#a59641895cead08de4a4503262505ee73", null ]
 ];

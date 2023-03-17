@@ -1,12 +1,10 @@
 var a11992 =
 [
-    [ "boss_attumenAI", "df/d0e/a11992.html#a150497a2e1e76d3b971c40dcece6052a", null ],
-    [ "EnterCombat", "df/d0e/a11992.html#ae1a2c8531ed97bdf90ce7f82d23fd16f", null ],
-    [ "KilledUnit", "df/d0e/a11992.html#a0140eb7ff0dc99c5d012b636c45593fc", null ],
-    [ "MovementInform", "df/d0e/a11992.html#a24db9f3ad873e6f8ec632f46bb8ef884", null ],
-    [ "Reset", "df/d0e/a11992.html#aafc7c5754fd5068df7dfbef58ae62bae", null ],
-    [ "SpellHit", "df/d0e/a11992.html#ab2bbeac0a216f6ea1ac6393b2c4286f9", null ],
-    [ "SpellHitTarget", "df/d0e/a11992.html#a3ed1a7c7dd7bf64f81164f26467bf03e", null ],
-    [ "UpdateAI", "df/d0e/a11992.html#aeb840afa31d756582d2456cc5b854737", null ],
-    [ "_events", "df/d0e/a11992.html#a074588873cab1cc61cfc85977033dade", null ]
+    [ "instance_gnomeregan_InstanceMapScript", "df/d0e/a11992.html#a0080fdf557ad8159a8934dce5b39a535", null ],
+    [ "OnCreatureCreate", "df/d0e/a11992.html#ac607601becc7fbf4ea9c64d87c93287c", null ],
+    [ "OnGameObjectCreate", "df/d0e/a11992.html#a0c2f4d615394ef1d6e1b930ed6aff82f", null ],
+    [ "ReadSaveDataMore", "df/d0e/a11992.html#a85d3db22430a4bac7e01dcfa1a1efb5b", null ],
+    [ "SetData", "df/d0e/a11992.html#af800a1906c532f61f0299f8aa9359a66", null ],
+    [ "WriteSaveDataMore", "df/d0e/a11992.html#a1b30829b3c782bb2c52e5da4fa388d5c", null ],
+    [ "_encounters", "df/d0e/a11992.html#ae19a56e7fdcb2d0204d444cba11b7441", null ]
 ];

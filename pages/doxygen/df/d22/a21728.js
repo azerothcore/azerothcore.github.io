@@ -1,9 +1,12 @@
 var a21728 =
 [
-    [ "npc_ulduar_bot_summon_triggerAI", "df/d22/a21728.html#a60e0706b9285cdf4b25b6f399cad18e9", null ],
-    [ "DoAction", "df/d22/a21728.html#ac5d0e28ee330741da3b287d965537f39", null ],
-    [ "Reset", "df/d22/a21728.html#a91207c04ecee6fc0e906133e054bf51b", null ],
-    [ "UpdateAI", "df/d22/a21728.html#aebec433e806d4f63f5593db0301612b4", null ],
-    [ "option", "df/d22/a21728.html#a98bb19fea19a05127b4b32df039acf05", null ],
-    [ "timer", "df/d22/a21728.html#a118d048557b0ed314180299c3cd2bcbc", null ]
+    [ "npc_ulduar_proximity_mineAI", "df/d22/a21728.html#aa3001a71c8a298be688631d618745495", null ],
+    [ "AttackStart", "df/d22/a21728.html#afe5572c8fd1f8acc64ca57304d8be254", null ],
+    [ "CanAIAttack", "df/d22/a21728.html#a0216f41bf596eb43a9b9eea13152d262", null ],
+    [ "MoveInLineOfSight", "df/d22/a21728.html#afe07e3cd341d6a84592ab9b33e02d6d5", null ],
+    [ "SpellHitTarget", "df/d22/a21728.html#aaf6c9c8843a61d29326ab6c662b174f9", null ],
+    [ "UpdateAI", "df/d22/a21728.html#adadc4c33ff356bd5eed6d82115dc888a", null ],
+    [ "exploded", "df/d22/a21728.html#a1706ff0cfd7192040c32f13a37610c43", null ],
+    [ "timer", "df/d22/a21728.html#a4c743646055b4c95bf379a751eb5892e", null ],
+    [ "timer2", "df/d22/a21728.html#a446b7658fa4c165f43947a05562827b2", null ]
 ];

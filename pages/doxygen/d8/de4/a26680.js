@@ -1,9 +1,9 @@
 var a26680 =
 [
-    [ "npc_pet_shaman_earth_elemental", "d8/de4/a26680.html#a07f3792cb3b5264d209f1b4726867773", null ],
-    [ "EnterCombat", "d8/de4/a26680.html#ae538dc842770e275df980623605f44fc", null ],
-    [ "InitializeAI", "d8/de4/a26680.html#a8bbca6686ae324a50cd1598125280446", null ],
-    [ "UpdateAI", "d8/de4/a26680.html#ab28951b483cab31bf5672fc74e7323e1", null ],
-    [ "_events", "d8/de4/a26680.html#ab7f72d0d574322965f1d0b23f144f1be", null ],
-    [ "_initAttack", "d8/de4/a26680.html#a2af73c97ef60b5b0ade26c9760b8b379", null ]
+    [ "HandleAfterHit", "d8/de4/a26680.html#ae1b4b01bd1a6903bcd594d2191e2770b", null ],
+    [ "Load", "d8/de4/a26680.html#a7f0dae9dd4ead6ea10e8343810671282", null ],
+    [ "PrepareSpellScript", "d8/de4/a26680.html#a293ff5d232851bce7cbc4a83aa8253b5", null ],
+    [ "Register", "d8/de4/a26680.html#ae9eeb78d006bc01dd05fdd726dea9b90", null ],
+    [ "Validate", "d8/de4/a26680.html#afdbb71f81aacc9ac1a5119707952ec52", null ],
+    [ "_executed", "d8/de4/a26680.html#a2fe77cc280a5fa3bb324d969f1081b65", null ]
 ];

@@ -1,8 +1,15 @@
 var a09112 =
 [
-    [ "CircleBoundary", "d6/dc2/a09112.html#a1f58f718ac4e4f6de029a0d46954012e", null ],
-    [ "CircleBoundary", "d6/dc2/a09112.html#a10387b9a70013ecc15ae4f31dd1f21f3", null ],
-    [ "IsWithinBoundaryArea", "d6/dc2/a09112.html#ad8eef3c2c98ee71a7d28d1e5d93ee508", null ],
-    [ "_center", "d6/dc2/a09112.html#a65edd0aef7b73b176e5e311bb0d63738", null ],
-    [ "_radiusSq", "d6/dc2/a09112.html#acbb3cc0c546f0e557a48a45425355950", null ]
+    [ "MailSender", "d6/dc2/a09112.html#a16466924bf75ea8203ba27c0f3e6188b", null ],
+    [ "MailSender", "d6/dc2/a09112.html#a735cfef6950357644d6965978dde0309", null ],
+    [ "MailSender", "d6/dc2/a09112.html#a145000f5ef63627ee26a5699846e06cf", null ],
+    [ "MailSender", "d6/dc2/a09112.html#a9ddda06cf5ecc55efdc4525353471c5b", null ],
+    [ "MailSender", "d6/dc2/a09112.html#a7d5a5e40aa20de720f310b739f159225", null ],
+    [ "MailSender", "d6/dc2/a09112.html#a12c87bb414a3e8889c95091f3b51716b", null ],
+    [ "GetMailMessageType", "d6/dc2/a09112.html#a64c99a49ec01d2226b6bf740edb380fb", null ],
+    [ "GetSenderId", "d6/dc2/a09112.html#a03145c3fdc5bbabc64019e63e121132b", null ],
+    [ "GetStationery", "d6/dc2/a09112.html#a6a4446e52e20ad7ab4817bf024b38631", null ],
+    [ "m_messageType", "d6/dc2/a09112.html#a45a312eda342d2197f15d73b47d7787b", null ],
+    [ "m_senderId", "d6/dc2/a09112.html#a0954b3514cfcba4258b1b266dfd71ddb", null ],
+    [ "m_stationery", "d6/dc2/a09112.html#a1bbced35b4600f9a45a421d28a33393b", null ]
 ];

@@ -1,6 +1,6 @@
 var a16400 =
 [
-    [ "spell_eadric_radiance_SpellScript", "d6/d41/a16404.html", "d6/d41/a16404" ],
-    [ "spell_eadric_radiance", "d3/d6f/a16400.html#a72ca7ace293940036db1f66d6ae92832", null ],
-    [ "GetSpellScript", "d3/d6f/a16400.html#a90970e60f664eaa436e9a941c3c775a8", null ]
+    [ "boss_eadricAI", "d6/d41/a16404.html", "d6/d41/a16404" ],
+    [ "boss_eadric", "d3/d6f/a16400.html#ad32a08ec9fc2a31b5bcdcff67d0127d2", null ],
+    [ "GetAI", "d3/d6f/a16400.html#a15235e86d0bdff0bd3fef5dbff3abb27", null ]
 ];

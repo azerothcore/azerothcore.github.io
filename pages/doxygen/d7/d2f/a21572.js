@@ -1,6 +1,6 @@
 var a21572 =
 [
-    [ "spell_ignis_grab_initial_SpellScript", "df/d7b/a21576.html", "df/d7b/a21576" ],
-    [ "spell_ignis_grab_initial", "d7/d2f/a21572.html#a6e811c3db63d788228bb3705f0463948", null ],
-    [ "GetSpellScript", "d7/d2f/a21572.html#aacf557be31f03eb5e014a3963ca0b35a", null ]
+    [ "npc_ulduar_iron_constructAI", "df/d7b/a21576.html", "df/d7b/a21576" ],
+    [ "npc_ulduar_iron_construct", "d7/d2f/a21572.html#a56ddf4d4d290dbb15303419c1dab18da", null ],
+    [ "GetAI", "d7/d2f/a21572.html#a7d46ba96b6f1968e35721d45c17b1a49", null ]
 ];

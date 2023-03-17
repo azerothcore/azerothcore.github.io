@@ -1,7 +1,14 @@
 var a05532 =
 [
-    [ "TransactionWithResultTask", "d4/de3/a05532.html#a98dfb255e7be9d5cf9ed9215b0d5e0e4", null ],
-    [ "Execute", "d4/de3/a05532.html#a2a05fb2aa69032797f2065cb46fe7dc4", null ],
-    [ "GetFuture", "d4/de3/a05532.html#a5bc976207b1d695c8e8c052b0eacc7a6", null ],
-    [ "m_result", "d4/de3/a05532.html#aaf4d587b83977e65089bdbf92fa09ae1", null ]
+    [ "difference_type", "d4/de3/a05532.html#aa5abd2b7fa1dc64ac1eb085521b27d6f", null ],
+    [ "iterator_category", "d4/de3/a05532.html#acaafbe30e2be9953852968b633d8237f", null ],
+    [ "pointer", "d4/de3/a05532.html#a33215a042f7b7ddb243e8434a4c26346", null ],
+    [ "reference", "d4/de3/a05532.html#a5618bd9b42f553be7feaf26fac8fe3ba", null ],
+    [ "value_type", "d4/de3/a05532.html#aa4866b181d8cd3264394657a2dac99a8", null ],
+    [ "ResultIterator", "d4/de3/a05532.html#a0a7d6ac1eee62492330353b15edb4fd0", null ],
+    [ "operator!=", "d4/de3/a05532.html#a56f56c284c3001703ec4ee6ac705066f", null ],
+    [ "operator*", "d4/de3/a05532.html#a4c7ba1d0e7251aeab6b255bf1c78defd", null ],
+    [ "operator++", "d4/de3/a05532.html#ae66f3f0e1fd5af21ff0854826fb37075", null ],
+    [ "operator->", "d4/de3/a05532.html#a0b6cee284fea4a4023cc688614432b69", null ],
+    [ "_ptr", "d4/de3/a05532.html#a0be3611fcc2a6eb680a6f4aaba57068e", null ]
 ];

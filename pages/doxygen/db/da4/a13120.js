@@ -1,6 +1,6 @@
 var a13120 =
 [
-    [ "PrepareSpellScript", "db/da4/a13120.html#a59a829ea5fb7fc6a74b35c81a20471d8", null ],
-    [ "Register", "db/da4/a13120.html#a50c0e719d15242692a8ac7874d21d534", null ],
-    [ "SetDest", "db/da4/a13120.html#ae985e8367c28ca4ce0e461e5ba1be6f7", null ]
+    [ "HandleSchoolDamage", "db/da4/a13120.html#a4e33633c0fce6a8093147f13103527a1", null ],
+    [ "PrepareSpellScript", "db/da4/a13120.html#aae28ad96d8ff901d99498cdfa39d9304", null ],
+    [ "Register", "db/da4/a13120.html#a08dffa8e462cb6b9c42b1c69720ebee9", null ]
 ];

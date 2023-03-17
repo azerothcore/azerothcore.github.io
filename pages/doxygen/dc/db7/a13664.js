@@ -1,8 +1,9 @@
 var a13664 =
 [
-    [ "boss_koraggAI", "dc/db7/a13664.html#a775881915da438552ef2249cb08a10fc", null ],
-    [ "Reset", "dc/db7/a13664.html#aac902c569f9cb941daed858b67368fdf", null ],
-    [ "UpdateAI", "dc/db7/a13664.html#a9032ca8162a12af65007aabd52a8deb9", null ],
-    [ "coldstare_timer", "dc/db7/a13664.html#a41e14de5c2b6123962c10cb229589b2e", null ],
-    [ "mightyblow_timer", "dc/db7/a13664.html#a0370ce3226c5238c45bd433aa2a0543d", null ]
+    [ "boss_alyson_antilleAI", "dc/db7/a13664.html#a31fadb4f3cd15deda115274f7b7be3d6", null ],
+    [ "AttackStart", "dc/db7/a13664.html#a77ddba446344f1ec4c70dd09c61f22e7", null ],
+    [ "Reset", "dc/db7/a13664.html#aaddce1da826fd4a228bf8bc96468e47c", null ],
+    [ "UpdateAI", "dc/db7/a13664.html#a035bff3662b703d6e7d3789ccc78b584", null ],
+    [ "dispelmagic_timer", "dc/db7/a13664.html#a7d12e5664422861a93329896eea6e9ec", null ],
+    [ "flashheal_timer", "dc/db7/a13664.html#a74a1d280c02f4fa8bca30524e447da9e", null ]
 ];

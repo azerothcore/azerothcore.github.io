@@ -1,6 +1,6 @@
 var a24348 =
 [
-    [ "npc_akama_illidanAI", "d2/d1e/a24352.html", "d2/d1e/a24352" ],
-    [ "npc_akama_illidan", "d5/d66/a24348.html#a85a312a767fb181f0bd626eb48e8e891", null ],
-    [ "GetAI", "d5/d66/a24348.html#a75648fc8291574b7bf16cd0c8e015384", null ]
+    [ "FilterTargets", "d5/d66/a24348.html#a4b1a4a8dac057447ca25ce737b3d6470", null ],
+    [ "PrepareSpellScript", "d5/d66/a24348.html#ac2e33285b6183735b4297aa93acc1716", null ],
+    [ "Register", "d5/d66/a24348.html#a508b90f216ded82d5091c9e355bfd986", null ]
 ];

@@ -1,9 +1,6 @@
 var a14092 =
 [
-    [ "CheckCast", "d6/dd2/a14092.html#a02965b55e8efadbd21e5afdd824f1dec", null ],
-    [ "FilterTargets", "d6/dd2/a14092.html#a9638048b4107db116474abf8e18d7760", null ],
-    [ "HandleBeforeHit", "d6/dd2/a14092.html#a3567c72e999ad6ca9db15b4d6ddadafb", null ],
-    [ "HandleScriptEffect", "d6/dd2/a14092.html#a47d6a6c1fcb2b04782e54d3797c1f42c", null ],
-    [ "PrepareSpellScript", "d6/dd2/a14092.html#aab9211291bd9dab8255d94e4eb07bf8e", null ],
-    [ "Register", "d6/dd2/a14092.html#a73e6c9c91dccb309207fa3aeb6bd9d6f", null ]
+    [ "npc_brewfest_bark_trigger", "d6/dd2/a14092.html#a110d654792e1f5dae8b17f014ea3d425", null ],
+    [ "GetTextFor", "d6/dd2/a14092.html#aca27445a1d9868a2cbd3a6a89dd806df", null ],
+    [ "MoveInLineOfSight", "d6/dd2/a14092.html#a271a440f21b4abddd9aa087e1e64a3d0", null ]
 ];

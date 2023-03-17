@@ -1,12 +1,7 @@
 var a19316 =
 [
-    [ "npc_the_lich_king_controllerAI", "d0/dcf/a19316.html#a211c370e9c370e00fba3c83e51738886", null ],
-    [ "AttackStart", "d0/dcf/a19316.html#a58e11746c14f6bbb1b5c56c1d0136d9f", null ],
-    [ "DoAction", "d0/dcf/a19316.html#aaf940a0ca812d84dbde81fc7e41feaca", null ],
-    [ "JustSummoned", "d0/dcf/a19316.html#aa610e24316505165cbb826ff5bece5c5", null ],
-    [ "MoveInLineOfSight", "d0/dcf/a19316.html#a0ee33ab5733c12163e92213376e893e4", null ],
-    [ "Reset", "d0/dcf/a19316.html#a2c4410cc2ad995452f742f79e8e4af8b", null ],
-    [ "UpdateAI", "d0/dcf/a19316.html#a34a0295ad1a45a9bc060ff8595c22e14", null ],
-    [ "_events", "d0/dcf/a19316.html#a90c3d818318004c7c21ec66d4d080615", null ],
-    [ "_instance", "d0/dcf/a19316.html#a480a284881ba5f56bc6222607bd01a76", null ]
+    [ "ValithriaDespawner", "d0/dcf/a19316.html#adf6f71ad9b97489f1e35781e491b28d8", null ],
+    [ "Execute", "d0/dcf/a19316.html#a4f8c63f52996da14078a7196cae3a00d", null ],
+    [ "operator()", "d0/dcf/a19316.html#a05bae39d642f294f2ef98151d66ba382", null ],
+    [ "_creature", "d0/dcf/a19316.html#a64bf6181ad867efd987edec141ca3bf0", null ]
 ];

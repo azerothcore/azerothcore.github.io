@@ -1,12 +1,13 @@
 var a06784 =
 [
-    [ "BGQueueRemoveEvent", "d6/da4/a06784.html#ab751b728f64b2928eefb21f756539d81", null ],
-    [ "~BGQueueRemoveEvent", "d6/da4/a06784.html#aab9ea24041888975439aafb246c571c3", null ],
-    [ "Abort", "d6/da4/a06784.html#a7d1dc829e56398ad421cb53dd51e952e", null ],
-    [ "Execute", "d6/da4/a06784.html#a42482ff784da4b23b568888a74a0b531", null ],
-    [ "m_BgInstanceGUID", "d6/da4/a06784.html#a4732918e6d7c42dd068f5cb147a188fc", null ],
-    [ "m_BgQueueTypeId", "d6/da4/a06784.html#ac059a823ae49bd0250eec15845bf153b", null ],
-    [ "m_BgTypeId", "d6/da4/a06784.html#a8bc484087ef76d627d5ae912bc5de22c", null ],
-    [ "m_PlayerGuid", "d6/da4/a06784.html#a9a1e2c09896b4d7521954d810e7193cc", null ],
-    [ "m_RemoveTime", "d6/da4/a06784.html#a0c40a46749bff9caaf1a462d7bef701e", null ]
+    [ "ArenaLogEntryData", "d6/da4/a06784.html#a8f3ec057dd930d2f2acd7961e0cf4e5e", null ],
+    [ "Fill", "d6/da4/a06784.html#aa3cca4521431bf152550611549bf4bbe", null ],
+    [ "Acc", "d6/da4/a06784.html#aa8983930063298c86f4635d2ae3078fe", null ],
+    [ "ArenaTeamId", "d6/da4/a06784.html#ac764620c3c8a986286fd74062dac4645", null ],
+    [ "DamageDone", "d6/da4/a06784.html#a7c4c458a7128e869dbf207655b52c7ee", null ],
+    [ "Guid", "d6/da4/a06784.html#a03b32cd44c655dcc9104aead3b76454e", null ],
+    [ "HealingDone", "d6/da4/a06784.html#af026544d31252e10035364540b96b5b0", null ],
+    [ "IP", "d6/da4/a06784.html#ab9f80eacfe24025a2d4947085d3f6dd7", null ],
+    [ "KillingBlows", "d6/da4/a06784.html#a6acec2f17b65a994ee6eba3304fe9ce2", null ],
+    [ "Name", "d6/da4/a06784.html#a5c18d554adb9e38ab10baf36c9b3fdd7", null ]
 ];

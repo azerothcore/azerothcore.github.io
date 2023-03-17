@@ -1,5 +1,6 @@
 var a21588 =
 [
-    [ "achievement_ignis_shattered", "d0/dc2/a21588.html#adbe893b0dd409eb3f10768f81f182f61", null ],
-    [ "OnCheck", "d0/dc2/a21588.html#a8a77a6e6979b4b09f5208e51b4faa4c1", null ]
+    [ "spell_ignis_scorch_AuraScript", "d6/d2e/a21592.html", "d6/d2e/a21592" ],
+    [ "spell_ignis_scorch", "d0/dc2/a21588.html#aa278414eee7e3b6462405a72a4834b0e", null ],
+    [ "GetAuraScript", "d0/dc2/a21588.html#a2088147ba5961a3f33d830870e73f084", null ]
 ];

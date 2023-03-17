@@ -1,8 +1,6 @@
 var a27188 =
 [
-    [ "Absorb", "d3/de6/a27188.html#aecfcbafe098adddba0a73965c447558c", null ],
-    [ "Load", "d3/de6/a27188.html#a1883cb4c86478359dd1ff8df25e2ec65", null ],
-    [ "PrepareAuraScript", "d3/de6/a27188.html#a3a65787dd5b7c1c796b98ce79f180d4d", null ],
-    [ "Register", "d3/de6/a27188.html#ab6bea7d62539841fa21fa8f3c8122707", null ],
-    [ "limit", "d3/de6/a27188.html#abccfd60f40962072c2f720dbe0f34ee4", null ]
+    [ "CalculateAmount", "d3/de6/a27188.html#a66b009487462241e573ea23f081a140a", null ],
+    [ "PrepareAuraScript", "d3/de6/a27188.html#a0eee16c77a3c3cea882b67c78826a140", null ],
+    [ "Register", "d3/de6/a27188.html#afeafc6922b0a0389fec969e3c7191dda", null ]
 ];

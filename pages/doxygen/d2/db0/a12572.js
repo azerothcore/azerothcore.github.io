@@ -1,11 +1,11 @@
 var a12572 =
 [
-    [ "npc_valkyr_battle_maidenAI", "d2/db0/a12572.html#a859b63621c500c7a36150fadbb460b2b", null ],
-    [ "Reset", "d2/db0/a12572.html#a3ca06a5822f1b5ae625b1dcc71ec0c30", null ],
-    [ "UpdateAI", "d2/db0/a12572.html#a33251b8d8abb9b46a5af4cb4e92472b8", null ],
-    [ "FlyBackTimer", "d2/db0/a12572.html#a625eb33fb32f935c5109a8d3d70c5ae7", null ],
-    [ "phase", "d2/db0/a12572.html#abd5d71272aa575be8583254217194e49", null ],
-    [ "x", "d2/db0/a12572.html#a2dbae2865b6c6db4e82b7d1dc8a67739", null ],
-    [ "y", "d2/db0/a12572.html#acccea63fedf38de14f7818016830a0a9", null ],
-    [ "z", "d2/db0/a12572.html#adde328d26ad752a9e5f2ab32eab2a4e0", null ]
+    [ "npc_a_special_surpriseAI", "d2/db0/a12572.html#acf062337317d98e491e40cf6ae9bb3ea", null ],
+    [ "MeetQuestCondition", "d2/db0/a12572.html#a35f4db17e0301ceaaab49727d1ca8289", null ],
+    [ "MoveInLineOfSight", "d2/db0/a12572.html#af0b183b951f1eba8114da1f7a1284d09", null ],
+    [ "Reset", "d2/db0/a12572.html#a9526f6b257eade275b828d2b30328533", null ],
+    [ "UpdateAI", "d2/db0/a12572.html#a8572ec4b4fdcaab93666f581edf1c852", null ],
+    [ "ExecuteSpeech_Counter", "d2/db0/a12572.html#ae1ff67fb743b4125b015c1ecce4bc9db", null ],
+    [ "ExecuteSpeech_Timer", "d2/db0/a12572.html#a8761840d6abdc0b195b5860b95f59b1c", null ],
+    [ "PlayerGUID", "d2/db0/a12572.html#a683cdbd0ef9d0562842aace5b440594f", null ]
 ];

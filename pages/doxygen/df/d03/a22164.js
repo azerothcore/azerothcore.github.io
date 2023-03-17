@@ -1,7 +1,8 @@
 var a22164 =
 [
-    [ "boss_yoggsaron_keeperAI", "df/d03/a22164.html#aef31baac3859c3aa04178f1382be5b58", null ],
-    [ "DoAction", "df/d03/a22164.html#a1da790aca13aaafd84b18df820a5bc1e", null ],
-    [ "UpdateAI", "df/d03/a22164.html#aca9a6c32575b0b42ef222c2bc5252104", null ],
-    [ "_checkTimer", "df/d03/a22164.html#a1c51cf5ac92f64bba4b015a8511fe5eb", null ]
+    [ "boss_yoggsaron_crusher_tentacleAI", "df/d03/a22164.html#a63d63a0b981c278fcfadfdda1feb5a12", null ],
+    [ "DamageTaken", "df/d03/a22164.html#ac2458922b2530929ee1adbcc0da834a0", null ],
+    [ "DoAction", "df/d03/a22164.html#abcc42381f37256e5c5ab2a42f8ef2c29", null ],
+    [ "Reset", "df/d03/a22164.html#af33db4e2ce1bb85e38437db6ca7982f7", null ],
+    [ "UpdateAI", "df/d03/a22164.html#a8329bc78fc037655d48cb9bf0abd8447", null ]
 ];

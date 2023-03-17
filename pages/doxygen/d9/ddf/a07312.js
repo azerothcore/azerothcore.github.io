@@ -1,6 +1,5 @@
 var a07312 =
 [
-    [ "ConditionSourceInfo", "d9/ddf/a07312.html#adc6441ec52fab3ab8d2b58a146a3fef3", null ],
-    [ "mConditionTargets", "d9/ddf/a07312.html#acb67deba44021698a447e8288bca0bd4", null ],
-    [ "mLastFailedCondition", "d9/ddf/a07312.html#a099d3457a0a15d8feeacc0dc8c32d439", null ]
+    [ "calcThreat", "d9/ddf/a07312.html#a0f3da2af1c68a535ac2396dd600ee00b", null ],
+    [ "isValidProcess", "d9/ddf/a07312.html#a86dca4bc12138bef3dd53d4b3356f5d2", null ]
 ];

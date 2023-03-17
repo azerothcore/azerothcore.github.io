@@ -1,6 +1,6 @@
 var a12624 =
 [
-    [ "npc_risen_guardianAI", "d4/d59/a12628.html", "d4/d59/a12628" ],
-    [ "npc_risen_guardian", "d6/dbc/a12624.html#a472274c69abe912f5781c60911204eb5", null ],
-    [ "GetAI", "d6/dbc/a12624.html#a568f57a442adcd64c8c3d2e4d5df729f", null ]
+    [ "npc_scarlet_guardAI", "d4/d59/a12628.html", "d4/d59/a12628" ],
+    [ "npc_scarlet_guard", "d6/dbc/a12624.html#abcc9d9946a252880fd2116f05f7bb85f", null ],
+    [ "GetAI", "d6/dbc/a12624.html#a4f0dfc93389f8f22b61e7a74d940cbf2", null ]
 ];

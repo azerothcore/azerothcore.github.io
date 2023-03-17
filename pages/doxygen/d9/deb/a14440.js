@@ -1,6 +1,6 @@
 var a14440 =
 [
-    [ "npc_ancient_wispAI", "de/da0/a14444.html", "de/da0/a14444" ],
-    [ "npc_ancient_wisp", "d9/deb/a14440.html#a0a6f8bad496997b76c00786085697c2b", null ],
-    [ "GetAI", "d9/deb/a14440.html#a24dd4771877084afe3102697ec589194", null ]
+    [ "HandleScriptEffect", "d9/deb/a14440.html#a3d22cc828a2aa59d45e5d648161926fd", null ],
+    [ "PrepareSpellScript", "d9/deb/a14440.html#a0ecf5662d9cc1296ebdac82233f1fe7c", null ],
+    [ "Register", "d9/deb/a14440.html#aee5d9189b6df318b57e919511a185a99", null ]
 ];

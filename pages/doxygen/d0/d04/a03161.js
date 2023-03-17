@@ -1,34 +1,43 @@
 var a03161 =
 [
-    [ "npc_shenthul", "d3/d09/a15555.html", "d3/d09/a15555" ],
-    [ "npc_shenthul::npc_shenthulAI", "d6/d7a/a15559.html", "d6/d7a/a15559" ],
-    [ "npc_thrall_warchief", "de/d71/a15563.html", "de/d71/a15563" ],
-    [ "npc_thrall_warchief::npc_thrall_warchiefAI", "d4/d40/a15567.html", "d4/d40/a15567" ],
-    [ "GOSSIP_HTW", "d0/d04/a03161.html#a3d8ba2e55b55ef5190acadaabaf787b7", null ],
-    [ "GOSSIP_STW1", "d0/d04/a03161.html#a0f89a1c9e4158cdd1031768255ee04e4", null ],
-    [ "GOSSIP_STW2", "d0/d04/a03161.html#afbe6bde9be74ec299e7693ac09eece84", null ],
-    [ "GOSSIP_STW3", "d0/d04/a03161.html#aeda096fbd053c7e7b850c456732cf081", null ],
-    [ "GOSSIP_STW4", "d0/d04/a03161.html#a9c5cc64386438e4a7b4c1402d5be61e0", null ],
-    [ "GOSSIP_STW5", "d0/d04/a03161.html#a9dfae3053d5bf91665a2ee88ad1cf41f", null ],
-    [ "GOSSIP_STW6", "d0/d04/a03161.html#a520407d68d6596f6c4f3f80003246597", null ],
-    [ "Shenthul", "d0/d04/a03161.html#ad7610ac6c92203784dba98a80488da79", [
-      [ "QUEST_SHATTERED_SALUTE", "d0/d04/a03161.html#ad7610ac6c92203784dba98a80488da79a38993f500c01e7bc0ae8dd3a83848ff0", null ]
+    [ "npc_cork_gizelton", "d6/d10/a15432.html", "d6/d10/a15432" ],
+    [ "npc_cork_gizelton::npc_cork_gizeltonAI", "dc/d8f/a15436.html", "dc/d8f/a15436" ],
+    [ "npc_aged_dying_ancient_kodo", "db/dee/a15440.html", "db/dee/a15440" ],
+    [ "npc_aged_dying_ancient_kodo::npc_aged_dying_ancient_kodoAI", "d9/d1b/a15444.html", "d9/d1b/a15444" ],
+    [ "Caravan", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728", [
+      [ "QUEST_BODYGUARD_FOR_HIRE", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728a07d8fdc2ba6f3382ab9a9c0ccb910712", null ],
+      [ "QUEST_GIZELTON_CARAVAN", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728af1f220a5094995c40054b8afcfc956f9", null ],
+      [ "EVENT_RESUME_PATH", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728a69f42ceba9244cdbe2e7dfc9e833acc9", null ],
+      [ "EVENT_WAIT_FOR_ASSIST", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728ac88ffb83ceecf13ef48bd0988529cba7", null ],
+      [ "EVENT_RESTART_ESCORT", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728a7410480ad3fe5ae4742c8d12f885e2d1", null ],
+      [ "NPC_CORK_GIZELTON", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728a3ac8ce9d7c78aa74818eb286eb1530ba", null ],
+      [ "NPC_RIGGER_GIZELTON", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728a73d4fb993cb56f5e539c1255d432d1a5", null ],
+      [ "NPC_CARAVAN_KODO", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728ae4dd98db048a9b333326fb52a0a08858", null ],
+      [ "NPC_VENDOR_TRON", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728acb0c2bc0eea43af8bd0e1801fac8846f", null ],
+      [ "NPC_SUPER_SELLER", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728a8329377778d66d3c939420b04264e573", null ],
+      [ "SAY_CARAVAN_LEAVE", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728a52926a8d01b0b50f89cc5fb99e6919aa", null ],
+      [ "SAY_CARAVAN_HIRE", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728ab0f9b346c5f60c1ec44e45615f360ef3", null ],
+      [ "MAX_CARAVAN_SUMMONS", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728a4466b99c64cd47f91aec55ce7ef75362", null ],
+      [ "TIME_SHOP_STOP", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728abbe7d7ba7ba0306763dbae08e8d04afd", null ],
+      [ "TIME_HIRE_STOP", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728a988424f7f1f59cb5b30cef0ba4b8f3f7", null ],
+      [ "NPC_KOLKAR_WAYLAYER", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728af42ec3a8ba079cb93c6ad5406dcc4ece", null ],
+      [ "NPC_KOLKAR_AMBUSHER", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728a7a9eb27a8fb0e7ef6c66a86720d9233c", null ],
+      [ "NPC_LESSER_INFERNAL", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728aae0903900c838cf1102ca86baa598224", null ],
+      [ "NPC_DOOMWARDER", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728ae43176493b6aa526db1f2f2912bf6027", null ],
+      [ "NPC_NETHER", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728ac95afd23fdda714496e33c6aab109eda", null ]
     ] ],
-    [ "ThrallWarchief", "d0/d04/a03161.html#afd6a91707270117e029c73fd474fec86", [
-      [ "QUEST_6566", "d0/d04/a03161.html#afd6a91707270117e029c73fd474fec86ac51c5a86a4571e5a8cfc37d97e53ad7d", null ],
-      [ "SPELL_CHAIN_LIGHTNING", "d0/d04/a03161.html#afd6a91707270117e029c73fd474fec86ac0997e72929070d8e30cc0f49cc4539d", null ],
-      [ "SPELL_SHOCK", "d0/d04/a03161.html#afd6a91707270117e029c73fd474fec86a30aa4cac2f70a310466b3fb0f2d10eab", null ],
-      [ "QUEST_FOR_THE_HORDE", "d0/d04/a03161.html#afd6a91707270117e029c73fd474fec86aed442141280385194a0a8b73d7e489af", null ],
-      [ "SPELL_WARCHIEF_BLESSING", "d0/d04/a03161.html#afd6a91707270117e029c73fd474fec86a567e6044eaae260d8ab29c346613b225", null ],
-      [ "NPC_HERALD_OF_THRALL", "d0/d04/a03161.html#afd6a91707270117e029c73fd474fec86a3533aba0519168d4cfb3446a1bbde5bc", null ],
-      [ "ACTION_START_TALKING", "d0/d04/a03161.html#afd6a91707270117e029c73fd474fec86a322b9b49cd88bc70c039be2aa4e0c7fd", null ],
-      [ "SAY_THRALL_ON_QUEST_REWARD_0", "d0/d04/a03161.html#afd6a91707270117e029c73fd474fec86a64ac3588375f611524513fd4d4293a1b", null ],
-      [ "SAY_THRALL_ON_QUEST_REWARD_1", "d0/d04/a03161.html#afd6a91707270117e029c73fd474fec86a3a6a88801e0a276bd78e5299ffb76302", null ],
-      [ "AREA_ORGRIMMAR", "d0/d04/a03161.html#afd6a91707270117e029c73fd474fec86ad2dc06a1b56bb07677ef211cafd8a835", null ],
-      [ "AREA_RAZOR_HILL", "d0/d04/a03161.html#afd6a91707270117e029c73fd474fec86ae88321c626be966eda1d5aca34feda6e", null ],
-      [ "AREA_CAMP_TAURAJO", "d0/d04/a03161.html#afd6a91707270117e029c73fd474fec86a709f6c4a2cd059fc6e7da390a36546b9", null ],
-      [ "AREA_CROSSROADS", "d0/d04/a03161.html#afd6a91707270117e029c73fd474fec86ac472b1d2152c18bfc58b3ca21b3b64ec", null ]
+    [ "DyingKodo", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663", [
+      [ "SAY_SMEED_HOME", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663a07ed71cb461662af72c9811505b9c955", null ],
+      [ "QUEST_KODO", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663a8019fb9754f039595728a149d4c3214f", null ],
+      [ "NPC_SMEED", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663ab289aa3f772d2e87dad418d075ab8dce", null ],
+      [ "NPC_AGED_KODO", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663ab93894e9256e085d45fb24b0d544e154", null ],
+      [ "NPC_DYING_KODO", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663a6116f630ddd9390420cc6aa4230a862e", null ],
+      [ "NPC_ANCIENT_KODO", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663a1267b33b446af4c80d35df16c24e2ac3", null ],
+      [ "NPC_TAMED_KODO", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663a47e69d141a6091158f3102f0ebc301e3", null ],
+      [ "SPELL_KODO_KOMBO_ITEM", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663ad0806f22dfe303368c6bfef3b25bdbe9", null ],
+      [ "SPELL_KODO_KOMBO_PLAYER_BUFF", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663a77343420c8740b50963dbc05382dc5ea", null ],
+      [ "SPELL_KODO_KOMBO_DESPAWN_BUFF", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663abf5a59eb8d83eefa21ea7e9b53e96ad5", null ],
+      [ "SPELL_KODO_KOMBO_GOSSIP", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663a08489d27d91546512009b1555fa59de3", null ]
     ] ],
-    [ "AddSC_orgrimmar", "d0/d04/a03161.html#aec4388ea6d2e4bbc1d279b3a4687c4c6", null ],
-    [ "heraldOfThrallPos", "d0/d04/a03161.html#a016aeee1d0eac9c78c522520663670f0", null ]
+    [ "AddSC_desolace", "d0/d04/a03161.html#a626ec1db47701aabca9f7bda1c8b7c7a", null ]
 ];

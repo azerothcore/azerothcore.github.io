@@ -1,6 +1,7 @@
 var a18356 =
 [
-    [ "HandleSpikes", "d8/dc5/a18356.html#ac23e7a062ad7568de47341bce95352ab", null ],
-    [ "PrepareSpellScript", "d8/dc5/a18356.html#a5bceabb840234c01bbff7ef8cc58b071", null ],
-    [ "Register", "d8/dc5/a18356.html#a10510f953ca0cc06185b6176bceeb391", null ]
+    [ "npc_coldflameAI", "d8/dc5/a18356.html#a2a8420b79357f7a2167dddbd68ec8bc0", null ],
+    [ "IsSummonedBy", "d8/dc5/a18356.html#a1a330428ac8f17dc673fb1ae4d57035a", null ],
+    [ "UpdateAI", "d8/dc5/a18356.html#a5a847ae7c15b309cb1393b6d16a6e220", null ],
+    [ "events", "d8/dc5/a18356.html#af3b7d4ca1b268fe0d786eee83c0a3596", null ]
 ];

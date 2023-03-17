@@ -1,6 +1,5 @@
 var a19668 =
 [
-    [ "spell_stinky_precious_decimate_SpellScript", "df/df6/a19672.html", "df/df6/a19672" ],
-    [ "spell_stinky_precious_decimate", "d0/d89/a19668.html#ae1cb5d26a467a52534ec4e0ae0fbe24d", null ],
-    [ "GetSpellScript", "d0/d89/a19668.html#ac735cb21e65abcb7f8353c0c3448a2f6", null ]
+    [ "at_icc_start_blood_quickening", "d0/d89/a19668.html#a544b0591b19a62e5c8a6efcfffd98326", null ],
+    [ "OnTrigger", "d0/d89/a19668.html#a814670e127b1eace6068a553b23d00f7", null ]
 ];

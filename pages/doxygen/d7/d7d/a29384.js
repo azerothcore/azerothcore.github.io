@@ -1,5 +1,8 @@
 var a29384 =
 [
-    [ "go_hive_pod", "d7/d7d/a29384.html#a7ec01a399e75ff2e64746166d1aa3539", null ],
-    [ "OnGossipHello", "d7/d7d/a29384.html#a4cfb09789edf6699444a7d817e4ccc70", null ]
+    [ "trigger_periodicAI", "d7/d7d/a29384.html#a696d62fed28de9c67827dad111cf320b", null ],
+    [ "UpdateAI", "d7/d7d/a29384.html#aed31d60765eff7dd11790714e28e729e", null ],
+    [ "interval", "d7/d7d/a29384.html#a6e9dd149ce11dcc1c2adf039c73e8023", null ],
+    [ "spell", "d7/d7d/a29384.html#a618b707155edf6d9179bbedc0f0ecf1e", null ],
+    [ "timer", "d7/d7d/a29384.html#ac434f6a60065ae3b1adcb11d58af4299", null ]
 ];

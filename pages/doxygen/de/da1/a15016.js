@@ -1,7 +1,7 @@
 var a15016 =
 [
-    [ "boss_rajaxx", "de/da1/a15016.html#afca05f7afabb4c0e181ce3757acb3bcb", null ],
-    [ "EnterCombat", "de/da1/a15016.html#acc2b08b270cf442e9216b143886f3cdc", null ],
-    [ "JustDied", "de/da1/a15016.html#a9231a20150ed6eae0cbc79c8386f7371", null ],
-    [ "UpdateAI", "de/da1/a15016.html#a9b949bea61ceb45ec1b3e452f218c227", null ]
+    [ "FilterTargets", "de/da1/a15016.html#a59e477333a54ec828a429d15b35d4936", null ],
+    [ "HandleScript", "de/da1/a15016.html#a983fe53aa52e53a45685055fde04a3b7", null ],
+    [ "PrepareSpellScript", "de/da1/a15016.html#a873e7766aa1cb6ebabbc77c31db6701c", null ],
+    [ "Register", "de/da1/a15016.html#a45ac61990990f16c98eaa7136297afc5", null ]
 ];

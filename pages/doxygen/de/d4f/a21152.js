@@ -1,6 +1,7 @@
 var a21152 =
 [
-    [ "HandleScript", "de/d4f/a21152.html#aa97a551583026a3b8ea69d553104ff69", null ],
-    [ "PrepareSpellScript", "de/d4f/a21152.html#a9b357121436fd2802b1dbf54e5a60b4a", null ],
-    [ "Register", "de/d4f/a21152.html#a33c4bef4dd8655afd6df5660e829f3eb", null ]
+    [ "FilterTargets", "de/d4f/a21152.html#aaa09aae6311b55ee0edac614dbd609bb", null ],
+    [ "HandleScript", "de/d4f/a21152.html#ad109d7d335cbc9bf81066d88900bf327", null ],
+    [ "PrepareSpellScript", "de/d4f/a21152.html#a719f295c0a80fad908714c23140a039e", null ],
+    [ "Register", "de/d4f/a21152.html#a9d90f3f63de5a2c0b30f1250956a505b", null ]
 ];

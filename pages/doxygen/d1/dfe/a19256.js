@@ -1,6 +1,5 @@
 var a19256 =
 [
-    [ "ActivateSpirit", "d1/dfe/a19256.html#aa85442aa12bf98813951172ba9c0c9d1", null ],
-    [ "PrepareSpellScript", "d1/dfe/a19256.html#a45dd81940bcad18564dbed7ffc1a6041", null ],
-    [ "Register", "d1/dfe/a19256.html#a33d1e39c3b04f81afa3c20dc140211b2", null ]
+    [ "npc_icc_lk_checktargetAI", "d1/dfe/a19256.html#a9a5953a9353be61a3fa96eaf7df7c489", null ],
+    [ "CanAIAttack", "d1/dfe/a19256.html#a4dfce75e23f1093c3de0ce75b049a20a", null ]
 ];

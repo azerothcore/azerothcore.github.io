@@ -1,7 +1,7 @@
 var a23464 =
 [
-    [ "HandleDummy", "d7/dbc/a23464.html#a36ef84151fa00b771bc084e324233aff", null ],
-    [ "PrepareSpellScript", "d7/dbc/a23464.html#a2404afa473d5ac5a72488a077c1ef206", null ],
-    [ "Register", "d7/dbc/a23464.html#acf4eab6f5b9e2b415fd1e981d4a959d4", null ],
-    [ "Validate", "d7/dbc/a23464.html#aeff8a52d29caebba642648a40ddd39b3", null ]
+    [ "HandleScript", "d7/dbc/a23464.html#ac028ca72e8212460dc85432028496789", null ],
+    [ "Load", "d7/dbc/a23464.html#a3e797a6612f511f1a1391b7159cc6929", null ],
+    [ "PrepareSpellScript", "d7/dbc/a23464.html#acab3a0f7429c0b318332d5672e8fb92b", null ],
+    [ "Register", "d7/dbc/a23464.html#ad51a4cc512015baed90e734f24657c77", null ]
 ];

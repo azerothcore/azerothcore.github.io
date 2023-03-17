@@ -1,8 +1,6 @@
 var a12700 =
 [
-    [ "npc_apothecary_baxter", "d9/d2a/a12700.html#a4a41816ff4f857a15a4665b8da1aec99", null ],
-    [ "JustDied", "d9/d2a/a12700.html#a9bf2362ba1b1e3a290ca12f1ceb54ab9", null ],
-    [ "Reset", "d9/d2a/a12700.html#afee5103029bd761c48cbf6a11655c44a", null ],
-    [ "UpdateAI", "d9/d2a/a12700.html#ad06090f599d0fda3a88f3182c990a49f", null ],
-    [ "_scheduler", "d9/d2a/a12700.html#a6d813041e055f3c2b28be7cba3acde13", null ]
+    [ "spell_scholomance_fixate_AuraScript", "d0/dd4/a12704.html", "d0/dd4/a12704" ],
+    [ "spell_scholomance_fixate", "d9/d2a/a12700.html#a49168d593fcd172b6bd4d0d2afbe1676", null ],
+    [ "GetAuraScript", "d9/d2a/a12700.html#ab1acff853165f06011c160387430988a", null ]
 ];

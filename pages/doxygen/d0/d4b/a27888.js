@@ -1,8 +1,6 @@
 var a27888 =
 [
-    [ "CheckRequirement", "d0/d4b/a27888.html#a3ed8450641baeee915fc5a129f9c7434", null ],
-    [ "HandleScript", "d0/d4b/a27888.html#a92e3137bb92545876ca67028bcc86a4f", null ],
-    [ "Load", "d0/d4b/a27888.html#a56326701447b3a88d9022ca1f1c184a6", null ],
-    [ "PrepareSpellScript", "d0/d4b/a27888.html#a94d4155e98a4ac5764d8bfd705b05602", null ],
-    [ "Register", "d0/d4b/a27888.html#a9b440dd8bf21b70d068021d05832a3fc", null ]
+    [ "HandleDummy", "d0/d4b/a27888.html#a1daf78c552ffd963f181eded01b570a9", null ],
+    [ "PrepareSpellScript", "d0/d4b/a27888.html#adaa82dfd828ed915cfc16f95e73cd224", null ],
+    [ "Register", "d0/d4b/a27888.html#a63771475c954e4bddf6c1fc4c04990e0", null ]
 ];

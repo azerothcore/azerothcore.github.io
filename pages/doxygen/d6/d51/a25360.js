@@ -1,10 +1,10 @@
 var a25360 =
 [
-    [ "boss_blindeye_the_seerAI", "d6/d51/a25360.html#aba28ac5be2e1b40c153c421d6070e27c", null ],
-    [ "EnterCombat", "d6/d51/a25360.html#a953753e2a7124a204f3a32ecbe62d652", null ],
-    [ "JustDied", "d6/d51/a25360.html#a12fcb5ec083e4117ae0fa568a316bd8b", null ],
-    [ "Reset", "d6/d51/a25360.html#aad0a13a88d51270d5c02c7dfd91b0bd3", null ],
-    [ "UpdateAI", "d6/d51/a25360.html#a7622d9a2f70a29548950da0d5fc497ee", null ],
-    [ "events", "d6/d51/a25360.html#a7ab67aebe91128c3358269b045c29ead", null ],
-    [ "instance", "d6/d51/a25360.html#ad8da995fe98f5b4ba513663dc703dc76", null ]
+    [ "boss_blindeye_the_seer", "d6/d51/a25360.html#a8b95c6f0a822adf018c5aefe59ecef5b", null ],
+    [ "JustDied", "d6/d51/a25360.html#ad70a72b18587da82d26bde8f10d63700", null ],
+    [ "JustEngagedWith", "d6/d51/a25360.html#a0cf082eefe75eac19cc09d2f714d5ff1", null ],
+    [ "Reset", "d6/d51/a25360.html#aabbda75266615f64ce88ce092e68bfa4", null ],
+    [ "UpdateAI", "d6/d51/a25360.html#a8ff8ae03cc528b9a2c71cfc2c7ff3f88", null ],
+    [ "events", "d6/d51/a25360.html#a4cf3029b65fc9a59449a815cf602db3e", null ],
+    [ "instance", "d6/d51/a25360.html#a74462f26d66da3ca370825858060b1c2", null ]
 ];

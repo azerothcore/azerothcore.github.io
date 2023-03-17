@@ -1,7 +1,6 @@
 var a27460 =
 [
-    [ "PrepareAuraScript", "d7/db3/a27460.html#afeac0a8393b7d7bf787fca59988d0e14", null ],
-    [ "Register", "d7/db3/a27460.html#a7cbcf46dbdddea12fd6ce04bcbcea097", null ],
-    [ "TriggerFoodBuff", "d7/db3/a27460.html#a5d125413491dd377d61b8e30c4979fdd", null ],
-    [ "Validate", "d7/db3/a27460.html#a6b69d7358eb8cfe6a8f9efd47882eb80", null ]
+    [ "OnRemove", "d7/db3/a27460.html#ac3a6d7bdc95605e3c73f8115b4a68da0", null ],
+    [ "PrepareAuraScript", "d7/db3/a27460.html#ab1e3a55a35dbbb4bd781ac8c51608e6a", null ],
+    [ "Register", "d7/db3/a27460.html#aecd068248e174c4b676ff9f43dd0856f", null ]
 ];

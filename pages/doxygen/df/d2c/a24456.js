@@ -1,6 +1,6 @@
 var a24456 =
 [
-    [ "boss_shahrazAI", "d8/d97/a24460.html", "d8/d97/a24460" ],
-    [ "boss_mother_shahraz", "df/d2c/a24456.html#a05ff927e032bf11061d0271ccd5e0709", null ],
-    [ "GetAI", "df/d2c/a24456.html#a83e20ce8a6acb7caa3877ee71a035e36", null ]
+    [ "HandleDummy", "df/d2c/a24456.html#af6cdeea49cdea7d85f153cc83eae4172", null ],
+    [ "PrepareSpellScript", "df/d2c/a24456.html#a1d7f564330e4594fe1fd9409c78e07a0", null ],
+    [ "Register", "df/d2c/a24456.html#a4d04edc24c21a9641ef5bd6f62e54193", null ]
 ];

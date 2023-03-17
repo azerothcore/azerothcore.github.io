@@ -1,42 +1,37 @@
 var a03785 =
 [
-    [ "tf_tower_world_state", "de/d9a/a24111.html", "de/d9a/a24111" ],
-    [ "OPvPCapturePointTF", "d4/d67/a24115.html", "d4/d67/a24115" ],
-    [ "OutdoorPvPTF", "d4/d75/a24119.html", "d4/d75/a24119" ],
-    [ "TF_CAPTURE_BUFF", "d4/d08/a03785.html#a82bc235ec6d43b48511d1b3d903a934b", null ],
-    [ "OutdoorPvPTF_TowerType", "d4/d08/a03785.html#a7a4347e10a530d56e3c3ae66a5eae999", [
-      [ "TF_TOWER_NW", "d4/d08/a03785.html#a7a4347e10a530d56e3c3ae66a5eae999ac95ea754e0befd303c7912671ff54b16", null ],
-      [ "TF_TOWER_N", "d4/d08/a03785.html#a7a4347e10a530d56e3c3ae66a5eae999a034d81c6a66a32fef95c75235cb39d2b", null ],
-      [ "TF_TOWER_NE", "d4/d08/a03785.html#a7a4347e10a530d56e3c3ae66a5eae999a210d598966bbca14ece80eb1e00bae97", null ],
-      [ "TF_TOWER_SE", "d4/d08/a03785.html#a7a4347e10a530d56e3c3ae66a5eae999a01f2c2e0a883f8355bf433a96b52bd65", null ],
-      [ "TF_TOWER_S", "d4/d08/a03785.html#a7a4347e10a530d56e3c3ae66a5eae999af3a17ac5cc35927939c90503027342f0", null ],
-      [ "TF_TOWER_NUM", "d4/d08/a03785.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3", null ]
+    [ "OPvPCapturePointHP", "d6/d3e/a24116.html", "d6/d3e/a24116" ],
+    [ "OutdoorPvPHP", "d3/d81/a24120.html", "d3/d81/a24120" ],
+    [ "OutdoorPvPHPBuffZonesNum", "d4/d08/a03785.html#a01aada98c8079ea71a361cba06e10640", null ],
+    [ "OutdoorPvPHPSpells", "d4/d08/a03785.html#a09664100577cc20866b21589f3c1eb4a", [
+      [ "AlliancePlayerKillReward", "d4/d08/a03785.html#a09664100577cc20866b21589f3c1eb4aad472ab0479934282573d2a2b142ecddc", null ],
+      [ "HordePlayerKillReward", "d4/d08/a03785.html#a09664100577cc20866b21589f3c1eb4aa831169d26f4b6d47dc372629927d7e45", null ],
+      [ "AllianceBuff", "d4/d08/a03785.html#a09664100577cc20866b21589f3c1eb4aa426e0e0ba254467f65dbcecd1cb3451a", null ],
+      [ "HordeBuff", "d4/d08/a03785.html#a09664100577cc20866b21589f3c1eb4aab7ca0ff835377a499cd163afa9ddfaa2", null ]
     ] ],
-    [ "TFTowerStates", "d4/d08/a03785.html#a5815248809b8fd06bd664886846a7126", [
-      [ "TF_TOWERSTATE_N", "d4/d08/a03785.html#a5815248809b8fd06bd664886846a7126a1bf771ad2a93c40a6d0d5312167a046f", null ],
-      [ "TF_TOWERSTATE_H", "d4/d08/a03785.html#a5815248809b8fd06bd664886846a7126a133214fb55c09ba0030cc76b1d2082c1", null ],
-      [ "TF_TOWERSTATE_A", "d4/d08/a03785.html#a5815248809b8fd06bd664886846a7126acde31be20bbd32d3bf71bd3352e7e43d", null ]
+    [ "OutdoorPvPHPTowerType", "d4/d08/a03785.html#ad618152baad1f5a1d7f70f40941e8f33", [
+      [ "HP_TOWER_BROKEN_HILL", "d4/d08/a03785.html#ad618152baad1f5a1d7f70f40941e8f33ac441f3412d9e7d328a88cb288f56bfd9", null ],
+      [ "HP_TOWER_OVERLOOK", "d4/d08/a03785.html#ad618152baad1f5a1d7f70f40941e8f33a8c33cdd1da9aa64b4a329b18f6f54447", null ],
+      [ "HP_TOWER_STADIUM", "d4/d08/a03785.html#ad618152baad1f5a1d7f70f40941e8f33a7fda380ac328f409fa311478cd32be84", null ],
+      [ "HP_TOWER_NUM", "d4/d08/a03785.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355", null ]
     ] ],
-    [ "TFWorldStates", "d4/d08/a03785.html#a4134a455195e5cc1be9288227500b258", [
-      [ "TF_UI_TOWER_SLIDER_POS", "d4/d08/a03785.html#a4134a455195e5cc1be9288227500b258a01fef84454cee087b39e06f40fa95336", null ],
-      [ "TF_UI_TOWER_SLIDER_N", "d4/d08/a03785.html#a4134a455195e5cc1be9288227500b258a789327b4fc1d2e623b1a0a18d70328dd", null ],
-      [ "TF_UI_TOWER_SLIDER_DISPLAY", "d4/d08/a03785.html#a4134a455195e5cc1be9288227500b258a0137c97cdf1617d73e09085174a9842b", null ],
-      [ "TF_UI_TOWER_COUNT_H", "d4/d08/a03785.html#a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc", null ],
-      [ "TF_UI_TOWER_COUNT_A", "d4/d08/a03785.html#a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30", null ],
-      [ "TF_UI_TOWERS_CONTROLLED_DISPLAY", "d4/d08/a03785.html#a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219", null ],
-      [ "TF_UI_LOCKED_TIME_MINUTES_FIRST_DIGIT", "d4/d08/a03785.html#a4134a455195e5cc1be9288227500b258a09a446e5fb19482131f119d4ffe75ec3", null ],
-      [ "TF_UI_LOCKED_TIME_MINUTES_SECOND_DIGIT", "d4/d08/a03785.html#a4134a455195e5cc1be9288227500b258a6e71bc9f10b277d16c6ba22b6f4cb381", null ],
-      [ "TF_UI_LOCKED_TIME_HOURS", "d4/d08/a03785.html#a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b", null ],
-      [ "TF_UI_LOCKED_DISPLAY_NEUTRAL", "d4/d08/a03785.html#a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d", null ],
-      [ "TF_UI_LOCKED_DISPLAY_HORDE", "d4/d08/a03785.html#a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2", null ],
-      [ "TF_UI_LOCKED_DISPLAY_ALLIANCE", "d4/d08/a03785.html#a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0", null ]
+    [ "OutdoorPvPHPWorldStates", "d4/d08/a03785.html#a38b09ba25777a9f24adfea3db52e9e95", [
+      [ "HP_UI_TOWER_DISPLAY_A", "d4/d08/a03785.html#a38b09ba25777a9f24adfea3db52e9e95a453dfb3c3e42144d64cecb1f6a27d1f5", null ],
+      [ "HP_UI_TOWER_DISPLAY_H", "d4/d08/a03785.html#a38b09ba25777a9f24adfea3db52e9e95a7dd2012ec1a9bbfba46f2e82a13a3224", null ],
+      [ "HP_UI_TOWER_COUNT_H", "d4/d08/a03785.html#a38b09ba25777a9f24adfea3db52e9e95a8d555f2c06225cc60f96cad000f2bccd", null ],
+      [ "HP_UI_TOWER_COUNT_A", "d4/d08/a03785.html#a38b09ba25777a9f24adfea3db52e9e95a2982f04ca468870858ef1aec903ed720", null ],
+      [ "HP_UI_TOWER_SLIDER_N", "d4/d08/a03785.html#a38b09ba25777a9f24adfea3db52e9e95abba2cb325ca58cc38eff6bff404bd9cc", null ],
+      [ "HP_UI_TOWER_SLIDER_POS", "d4/d08/a03785.html#a38b09ba25777a9f24adfea3db52e9e95a451729b3b84d31e6455fd4c754719e50", null ],
+      [ "HP_UI_TOWER_SLIDER_DISPLAY", "d4/d08/a03785.html#a38b09ba25777a9f24adfea3db52e9e95ae6c66ce15e068cdfcda41d75a3a243ad", null ]
     ] ],
-    [ "OutdoorPvPTFBuffZones", "d4/d08/a03785.html#a6b09030102f8c0dbb4b0e6bbfdee9b24", null ],
-    [ "OutdoorPvPTFBuffZonesNum", "d4/d08/a03785.html#acde5c9331776adb4ed27c2319476e550", null ],
-    [ "TF_ALLY_QUEST", "d4/d08/a03785.html#a3967b7bb2df0e330fbd21a68d557b19a", null ],
-    [ "TF_HORDE_QUEST", "d4/d08/a03785.html#a1bbe00a4cf0ae9f6750d23ef10539c0a", null ],
-    [ "TF_LOCK_TIME", "d4/d08/a03785.html#a925c2f6bf9c7a6d1b694382b888fa85f", null ],
-    [ "TF_LOCK_TIME_UPDATE", "d4/d08/a03785.html#a9ef7be226d98726081fd3cb435d223b5", null ],
-    [ "TFCapturePoints", "d4/d08/a03785.html#a19e9cf9859a7578f154dcdcfa0670620", null ],
-    [ "TFTowerWorldStates", "d4/d08/a03785.html#ac5dbb8989285178cfea88af6f03dd6a6", null ]
+    [ "HP_CREDITMARKER", "d4/d08/a03785.html#a3be5b978c2160f84a013071d76c121aa", null ],
+    [ "HP_MAP_A", "d4/d08/a03785.html#ab540dae1c3c44e27c4441e9d56e10d1d", null ],
+    [ "HP_MAP_H", "d4/d08/a03785.html#ab15c51d80dc177784041dedc55e39c56", null ],
+    [ "HP_MAP_N", "d4/d08/a03785.html#a8a39817e7479fa79181e8c99bb83ca5c", null ],
+    [ "HP_TowerArtKit_A", "d4/d08/a03785.html#ab9c6e470e4a4759ce2e77f88661521bb", null ],
+    [ "HP_TowerArtKit_H", "d4/d08/a03785.html#a6791490624d9d1c2995c6a13659f8692", null ],
+    [ "HP_TowerArtKit_N", "d4/d08/a03785.html#ae64775fc45fae501937d72c9d55c8dc1", null ],
+    [ "HPCapturePoints", "d4/d08/a03785.html#a23f671f25a8a3e3db11f4a0953b34773", null ],
+    [ "HPTowerFlags", "d4/d08/a03785.html#ae6571d986fbbf7b469cf495033f46516", null ],
+    [ "OutdoorPvPHPBuffZones", "d4/d08/a03785.html#a876ea3aeffde8ab2532706d13ae6e2ce", null ]
 ];

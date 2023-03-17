@@ -1,6 +1,6 @@
 var a18640 =
 [
-    [ "HandleScript", "d9/daf/a18640.html#a403a1053b57ce4c27fa659d8d9855888", null ],
-    [ "PrepareSpellScript", "d9/daf/a18640.html#a5b40955d9d5680cbda2991a5f0c55437", null ],
-    [ "Register", "d9/daf/a18640.html#a5b1549485e34e66bcdb51f08f3e25252", null ]
+    [ "ExtraRemoveEffect", "d9/daf/a18640.html#addfecd826c293cacad0e5881726dca2e", null ],
+    [ "PrepareAuraScript", "d9/daf/a18640.html#a53b7c14925d95c667bcef18a2e49b63d", null ],
+    [ "Register", "d9/daf/a18640.html#a8930ecab6f6a2c7b2fa3ebfad2839117", null ]
 ];

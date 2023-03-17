@@ -1,6 +1,5 @@
 var a02318 =
 [
-    [ "lfg_commandscript", "d1/da1/a11027.html", "d1/da1/a11027" ],
-    [ "AddSC_lfg_commandscript", "db/dda/a02318.html#a484938015a7f5ffa8f5b1d0e259d355b", null ],
-    [ "GetPlayerInfo", "db/dda/a02318.html#a1d2591add059e8c4daf04b9f706da765", null ]
+    [ "honor_commandscript", "d6/d7b/a11048.html", "d6/d7b/a11048" ],
+    [ "AddSC_honor_commandscript", "db/dda/a02318.html#ab7c57f853cb45a82b5563b703a1ee041", null ]
 ];

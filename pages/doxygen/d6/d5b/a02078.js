@@ -1,6 +1,6 @@
 var a02078 =
 [
-    [ "EncryptablePacket", "d7/d53/a10399.html", "d7/d53/a10399" ],
-    [ "ClientPktHeader", "d1/d0b/a10403.html", "d1/d0b/a10403" ],
-    [ "WorldSocket", "dd/d78/a10407.html", "dd/d78/a10407" ]
+    [ "AccountInfoQueryHolderPerRealm", "d4/d1e/a10384.html", "d4/d1e/a10384" ],
+    [ "REMOVE_VIOLATING_FLAGS", "d6/d5b/a02078.html#a9d7c4eaedbb2a06f275a5f59222bc747", null ],
+    [ "DefaultPlayerName", "d6/d5b/a02078.html#a586e06ca0d339349e13d81197056bb5f", null ]
 ];

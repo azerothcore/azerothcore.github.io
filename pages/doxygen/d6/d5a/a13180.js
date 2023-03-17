@@ -1,6 +1,6 @@
 var a13180 =
 [
-    [ "spell_entropius_void_zone_visual_AuraScript", "d1/d71/a13184.html", "d1/d71/a13184" ],
-    [ "spell_entropius_void_zone_visual", "d6/d5a/a13180.html#ac383c80edecdc6f9366413aae1597391", null ],
-    [ "GetAuraScript", "d6/d5a/a13180.html#ad873031c141876ca7074157ac5c1c028", null ]
+    [ "boss_entropiusAI", "d1/d71/a13184.html", "d1/d71/a13184" ],
+    [ "boss_entropius", "d6/d5a/a13180.html#a100779eb6056f7447e665306c87c3f55", null ],
+    [ "GetAI", "d6/d5a/a13180.html#a4a7180207cfdb3e67e87e0f879155416", null ]
 ];

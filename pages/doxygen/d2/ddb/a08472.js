@@ -1,6 +1,8 @@
 var a08472 =
 [
-    [ "m_guid", "d2/ddb/a08472.html#afa8383c81a2d75f9ead2e8f3daa29086", null ],
-    [ "m_instance", "d2/ddb/a08472.html#a8bc0c5e1cf45073f054c5154c21b3d72", null ],
-    [ "m_state", "d2/ddb/a08472.html#a3ac18fb8f5d386e3245a2435e31e45e1", null ]
+    [ "QuestGreeting", "d2/ddb/a08472.html#ad995d7b1d677b272b94df642857d1ab7", null ],
+    [ "QuestGreeting", "d2/ddb/a08472.html#a72150eda92e13e2bfbceaeacd517a657", null ],
+    [ "EmoteDelay", "d2/ddb/a08472.html#a053adbedc95026b192360e13d32c9401", null ],
+    [ "EmoteType", "d2/ddb/a08472.html#aa5189cb250b3f46086ecd69dee23414b", null ],
+    [ "Text", "d2/ddb/a08472.html#afa2ca931d771e3bf77f91bc9c223bc89", null ]
 ];

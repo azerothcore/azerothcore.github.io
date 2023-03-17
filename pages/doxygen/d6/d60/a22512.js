@@ -1,10 +1,14 @@
 var a22512 =
 [
-    [ "npc_enslaved_proto_drakeAI", "d6/d60/a22512.html#a948bacd9d69613110fa10e6e39032baf", null ],
-    [ "MovementInform", "d6/d60/a22512.html#a4c15ed2904c72219d419efe98beb7857", null ],
-    [ "Reset", "d6/d60/a22512.html#a3a99b691141024906e967f5876c3da08", null ],
-    [ "SetData", "d6/d60/a22512.html#a1d1aa0027b94153b126c19688003eea8", null ],
-    [ "UpdateAI", "d6/d60/a22512.html#a7d364a448269bc9bb25b5dbab3388236", null ],
-    [ "_events", "d6/d60/a22512.html#adb4064cfb9c376945a2d6c42ed7c2420", null ],
-    [ "_setData", "d6/d60/a22512.html#a3977c9229b92cc417a6732a0b2968de9", null ]
+    [ "boss_dalronn_the_controllerAI", "d6/d60/a22512.html#a74acf12255e669ba9e081be72ec10f26", null ],
+    [ "DoAction", "d6/d60/a22512.html#adce321ce3c7123db4520c83adeca4c70", null ],
+    [ "JustDied", "d6/d60/a22512.html#a179583ec5fc4e472175ac928f0593584", null ],
+    [ "JustEngagedWith", "d6/d60/a22512.html#af12427a7a194fecb51ab353176346b0f", null ],
+    [ "JustSummoned", "d6/d60/a22512.html#ac5bfbb9d2d98f70d4bede908a1187c48", null ],
+    [ "KilledUnit", "d6/d60/a22512.html#ab518322d3af739c546ee281a00c8b3f9", null ],
+    [ "Reset", "d6/d60/a22512.html#a2ad24e213c8843b231e064dd453db976", null ],
+    [ "UpdateAI", "d6/d60/a22512.html#a18b11c3046506d80f6295bcdb10957e9", null ],
+    [ "events", "d6/d60/a22512.html#ac055e216fb58f0386d0f6784584f087c", null ],
+    [ "pInstance", "d6/d60/a22512.html#a50970dde0b20e6219e755961671b741a", null ],
+    [ "summons", "d6/d60/a22512.html#adf7ff910666145f0680f2e34e040c674", null ]
 ];

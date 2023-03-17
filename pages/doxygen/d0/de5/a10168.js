@@ -1,12 +1,11 @@
 var a10168 =
 [
-    [ "StartMirrorTimer", "d0/de5/a10168.html#a86039d4a721636477f266712682883f0", null ],
-    [ "StartMirrorTimer", "d0/de5/a10168.html#a5202945882fb3cb5dd8574b6e6f8d5b0", null ],
-    [ "Write", "d0/de5/a10168.html#afa6cc6032804e3d8f3f7797b2231847f", null ],
-    [ "MaxValue", "d0/de5/a10168.html#a3f26c682d547be40d2800eff2189348d", null ],
-    [ "Paused", "d0/de5/a10168.html#af3994b2c6a57e734f9d1ebeedcab7759", null ],
-    [ "Scale", "d0/de5/a10168.html#a5879b6c796d7d7c2fd59001d2813a6b3", null ],
-    [ "SpellID", "d0/de5/a10168.html#a3d90aa3046eb6272249f8fe171d7cd2f", null ],
-    [ "Timer", "d0/de5/a10168.html#abb9dbec2c5df4b2dfbc96314a0465011", null ],
-    [ "Value", "d0/de5/a10168.html#ad0f2f8f95fdea9a7555e3056bb49cc53", null ]
+    [ "LFGJoin", "d0/de5/a10168.html#a50c79bdef7393907673a328bc36ff8ae", null ],
+    [ "Read", "d0/de5/a10168.html#a5eca5c5a528cf00f1e6aad99ce5386ed", null ],
+    [ "Achievements", "d0/de5/a10168.html#a587e98d4a1c8ff0cacd459298a4193c8", null ],
+    [ "Comment", "d0/de5/a10168.html#a3e12e650a1fa573aafd7c03abd970aff", null ],
+    [ "Needs", "d0/de5/a10168.html#a313c16e84e2cd0b55551d16273e95917", null ],
+    [ "NoPartialClear", "d0/de5/a10168.html#aad54be871d0978034fb69a464fd5b9df", null ],
+    [ "Roles", "d0/de5/a10168.html#a5eaccbeb4fc8b21f5398e216589cb99b", null ],
+    [ "Slots", "d0/de5/a10168.html#aa14a07716504723283ad80c6357cf53f", null ]
 ];

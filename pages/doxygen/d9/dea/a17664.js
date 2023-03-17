@@ -1,6 +1,6 @@
 var a17664 =
 [
-    [ "npc_kinetic_bombAI", "da/d40/a17668.html", "da/d40/a17668" ],
-    [ "npc_kinetic_bomb", "d9/dea/a17664.html#abca5a72d3ac0d50a27e604e8e1491957", null ],
-    [ "GetAI", "d9/dea/a17664.html#ae00630d96dc7a93ea13841c1f9e9be3b", null ]
+    [ "npc_blood_queen_lana_thelAI", "da/d40/a17668.html", "da/d40/a17668" ],
+    [ "npc_blood_queen_lana_thel", "d9/dea/a17664.html#a39adef3ae54efd4433805bd8ad4719be", null ],
+    [ "GetAI", "d9/dea/a17664.html#a02d928ac4ef1704cee2498ebe6533561", null ]
 ];

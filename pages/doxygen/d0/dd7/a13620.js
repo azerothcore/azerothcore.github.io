@@ -1,9 +1,6 @@
 var a13620 =
 [
-    [ "boss_alyson_antilleAI", "d0/dd7/a13620.html#a31fadb4f3cd15deda115274f7b7be3d6", null ],
-    [ "AttackStart", "d0/dd7/a13620.html#a77ddba446344f1ec4c70dd09c61f22e7", null ],
-    [ "Reset", "d0/dd7/a13620.html#aaddce1da826fd4a228bf8bc96468e47c", null ],
-    [ "UpdateAI", "d0/dd7/a13620.html#a035bff3662b703d6e7d3789ccc78b584", null ],
-    [ "dispelmagic_timer", "d0/dd7/a13620.html#a7d12e5664422861a93329896eea6e9ec", null ],
-    [ "flashheal_timer", "d0/dd7/a13620.html#a74a1d280c02f4fa8bca30524e447da9e", null ]
+    [ "boss_halazziAI", "d8/d89/a13624.html", "d8/d89/a13624" ],
+    [ "boss_halazzi", "d0/dd7/a13620.html#a2b0d26af83a902943f452ec8690e8ad4", null ],
+    [ "GetAI", "d0/dd7/a13620.html#abef33eb2dd6c730be7eb0f5260f584c8", null ]
 ];

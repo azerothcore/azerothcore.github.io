@@ -1,6 +1,7 @@
 var a11584 =
 [
-    [ "boss_firemawAI", "d6/daa/a11588.html", "d6/daa/a11588" ],
-    [ "boss_firemaw", "d9/d30/a11584.html#a71174eb128356802be0029fd9e24fe1f", null ],
-    [ "GetAI", "d9/d30/a11584.html#a3a20bcefa86a21daaecaef14396dadc4", null ]
+    [ "boss_broodlordAI", "d9/d30/a11584.html#aa7a5b16b22633439e5d20f9d47a91041", null ],
+    [ "JustDied", "d9/d30/a11584.html#ab0c4dfdd5abc8edcf039d5207e8a63e8", null ],
+    [ "JustEngagedWith", "d9/d30/a11584.html#ae6e26d9cd6e22426caf6ce031551f8a8", null ],
+    [ "UpdateAI", "d9/d30/a11584.html#aea6fbbe31c96e94c2116733c3c66b59b", null ]
 ];

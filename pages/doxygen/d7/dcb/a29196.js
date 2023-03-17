@@ -1,6 +1,7 @@
 var a29196 =
 [
-    [ "spell_mark_of_nature_SpellScript", "d1/d8a/a29200.html", "d1/d8a/a29200" ],
-    [ "spell_mark_of_nature", "d7/dcb/a29196.html#a0fc98a87180d1f752c9c768016f720fb", null ],
-    [ "GetSpellScript", "d7/dcb/a29196.html#a7835fbe76cd684c222538c93b10c5ef9", null ]
+    [ "go_brewfest_musicAI", "d7/dcb/a29196.html#a832bd6353b3c466c197b8c90b5bee8a8", null ],
+    [ "UpdateAI", "d7/dcb/a29196.html#a47ea5bbcd9d01b9eaf839bc779809aec", null ],
+    [ "_currentMusicEvent", "d7/dcb/a29196.html#ad26a0309bdd4eafce4dfa310db929357", null ],
+    [ "_events", "d7/dcb/a29196.html#ae741239bbebae9f93ad2d04c7487c32f", null ]
 ];

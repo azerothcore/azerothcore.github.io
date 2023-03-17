@@ -1,6 +1,6 @@
 var a15196 =
 [
-    [ "HandleOnHit", "d8/d58/a15196.html#a65818c4421ea83869d36a116d1bc6d2c", null ],
-    [ "PrepareSpellScript", "d8/d58/a15196.html#a9e568a1608715973fc438ff5e4356714", null ],
-    [ "Register", "d8/d58/a15196.html#a752d697aada626440fdff2bd889f890f", null ]
+    [ "boss_veknilash", "d8/d58/a15196.html#a73a4095c3dd0ffbd9d7ef5a8a837f13f", null ],
+    [ "IAmVeklor", "d8/d58/a15196.html#a454027d829b962ee0feebb6fd5687714", null ],
+    [ "JustEngagedWith", "d8/d58/a15196.html#ace8de3d9a397d0571da1f5bdd2ba84d5", null ]
 ];

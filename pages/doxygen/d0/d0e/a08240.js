@@ -1,7 +1,7 @@
 var a08240 =
 [
-    [ "done", "d0/d0e/a08240.html#a498ebc454773a2c4c8d9452ed5bd3015", null ],
-    [ "done_world_state", "d0/d0e/a08240.html#a679379a2b44542e74d103ba851811b52", null ],
-    [ "max_world_state", "d0/d0e/a08240.html#a819dcff56a5795a63146aca64b46811b", null ],
-    [ "reqNum", "d0/d0e/a08240.html#ae74eb755e1a6f5d8800790351f662d21", null ]
+    [ "ConflagrateAuraStateDelayEvent", "d0/d0e/a08240.html#a874b61345e6a48a8dc622a13e58fb719", null ],
+    [ "Execute", "d0/d0e/a08240.html#a4b68c1903372abb416d257d4848ef73c", null ],
+    [ "m_casterGUID", "d0/d0e/a08240.html#a5dc5804fac74e92400106f97f96253e1", null ],
+    [ "m_owner", "d0/d0e/a08240.html#ab76e0300de4bdbeb311ef4b33a3076a3", null ]
 ];

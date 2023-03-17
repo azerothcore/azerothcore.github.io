@@ -1,6 +1,6 @@
 var a26224 =
 [
-    [ "npc_phase_hunterAI", "d0/dee/a26228.html", "d0/dee/a26228" ],
-    [ "npc_phase_hunter", "dc/dc5/a26224.html#a7544a03d6dd55dbb8a18b95800d74891", null ],
-    [ "GetAI", "dc/dc5/a26224.html#a7d99455d2b525b96ddeb21f3177c70e1", null ]
+    [ "npc_drake_dealer_hurlunk", "dc/dc5/a26224.html#ae6d095365d23c30d5b772b047b459ddb", null ],
+    [ "OnGossipHello", "dc/dc5/a26224.html#ad04b7f906f029d9935e29c585b0de421", null ],
+    [ "OnGossipSelect", "dc/dc5/a26224.html#aa23833dcdefb909899120c25d5376111", null ]
 ];

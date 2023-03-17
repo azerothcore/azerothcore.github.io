@@ -1,6 +1,6 @@
 var a18880 =
 [
-    [ "spell_sindragosa_frost_breath_SpellScript", "d4/d0c/a18884.html", "d4/d0c/a18884" ],
-    [ "spell_sindragosa_frost_breath", "d3/dec/a18880.html#aca18a61fc8c84c45bb037021834bf5cf", null ],
-    [ "GetSpellScript", "d3/dec/a18880.html#a7dad965b56aa54a2591c6d9cd9259991", null ]
+    [ "OrderWhelpTargetSelector", "d3/dec/a18880.html#a5e433367ebbf88c6bb8fef9d43eafcfa", null ],
+    [ "operator()", "d3/dec/a18880.html#abf98b730a2b794012c28b61ab8bb6b6c", null ],
+    [ "_owner", "d3/dec/a18880.html#ae475da3cca3d6288ce7df0b84d59005e", null ]
 ];

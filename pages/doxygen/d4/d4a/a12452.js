@@ -1,6 +1,6 @@
 var a12452 =
 [
-    [ "npc_unworthy_initiateAI", "d6/d1b/a12456.html", "d6/d1b/a12456" ],
-    [ "npc_unworthy_initiate", "d4/d4a/a12452.html#aaa04626b783eadc0b14bd89aa715e694", null ],
-    [ "GetAI", "d4/d4a/a12452.html#a0912cc56cb2082b2de086cbd9b914b4a", null ]
+    [ "spell_item_gift_of_the_harvester_SpellScript", "d6/d1b/a12456.html", "d6/d1b/a12456" ],
+    [ "spell_item_gift_of_the_harvester", "d4/d4a/a12452.html#abf8f22a048bc20fcbbf4db5cefab5bf8", null ],
+    [ "GetSpellScript", "d4/d4a/a12452.html#ae5c916a45dffae91374af2c20c4785d3", null ]
 ];

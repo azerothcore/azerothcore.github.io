@@ -1,6 +1,6 @@
 var a11236 =
 [
-    [ "boss_anubshiahAI", "d0/dca/a11236.html#ae5bdb5509aad0d386bf73e5aad728744", null ],
-    [ "EnterCombat", "d0/dca/a11236.html#a96299f1d01baf5a46a3dfd075e59cf59", null ],
-    [ "UpdateAI", "d0/dca/a11236.html#a3acd88f97e2f1e3386c9b5dfa4f15d15", null ]
+    [ "npc_grimstoneAI", "d2/d8e/a11240.html", "d2/d8e/a11240" ],
+    [ "npc_grimstone", "d0/dca/a11236.html#ae5c3e36bf18cb30dd4fc7cd5e7a72cfb", null ],
+    [ "GetAI", "d0/dca/a11236.html#a24cf0aa69ac28c13ac3c44e14c35406c", null ]
 ];

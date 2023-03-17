@@ -1,6 +1,6 @@
 var a20760 =
 [
-    [ "CosmicSmashDamageEvent", "d6/d81/a20760.html#a5c9606791b560d8be1825a9c73f2393e", null ],
-    [ "Execute", "d6/d81/a20760.html#a2d4b301e1b7e0852ec47280ad97871f2", null ],
-    [ "_caster", "d6/d81/a20760.html#ab7af2459d3962831812ee2362ee9de2b", null ]
+    [ "iron_golem_custodianAI", "df/de5/a20764.html", "df/de5/a20764" ],
+    [ "iron_golem_custodian", "d6/d81/a20760.html#adc11b755e193adbad757c21e5b15e063", null ],
+    [ "GetAI", "d6/d81/a20760.html#a272e0c9fe475a665aa80a95f1e1d8629", null ]
 ];

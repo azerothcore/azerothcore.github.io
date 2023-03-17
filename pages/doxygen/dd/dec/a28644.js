@@ -1,8 +1,8 @@
 var a28644 =
 [
-    [ "HandleDummy", "dd/dec/a28644.html#a308880cf9c61c76de0fdee05fff2b463", null ],
-    [ "Load", "dd/dec/a28644.html#acafb9d6ac4fde694dc44cbf13b7f97ad", null ],
-    [ "PrepareSpellScript", "dd/dec/a28644.html#a3a2672c39f36229c0dd6cdea0fad3299", null ],
-    [ "Register", "dd/dec/a28644.html#a1857b342ae34a57f079f45019645c688", null ],
-    [ "Validate", "dd/dec/a28644.html#a121c30045281eab5fee4f65d38d1dfc3", null ]
+    [ "CheckFireTotem", "dd/dec/a28644.html#a9d6b4368f5c72b95c25415ea87575fce", null ],
+    [ "HandleDummy", "dd/dec/a28644.html#a179d07e7090cec396a7845754e545e8e", null ],
+    [ "PrepareSpellScript", "dd/dec/a28644.html#a8311cc106da26267e90acd98698cb737", null ],
+    [ "Register", "dd/dec/a28644.html#abae5a4961888e6ba2d876e450307e362", null ],
+    [ "Validate", "dd/dec/a28644.html#a2048b0e43dbe2df6e4dfc42d912a74a7", null ]
 ];

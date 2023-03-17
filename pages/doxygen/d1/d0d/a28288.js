@@ -1,8 +1,7 @@
 var a28288 =
 [
-    [ "CalculateAmount", "d1/d0d/a28288.html#aa1810db9a7b8fbc3572621ff35e0eeb1", null ],
-    [ "PrepareAuraScript", "d1/d0d/a28288.html#ad40d44271840b8e2bd1dc22b6a04290e", null ],
-    [ "ReflectDamage", "d1/d0d/a28288.html#ad8b5f9a7952fc33d7e1fee28e4872212", null ],
-    [ "Register", "d1/d0d/a28288.html#a18b19ee8823e2d1747caeefaf457ad8d", null ],
-    [ "Validate", "d1/d0d/a28288.html#af2936ba4a29fc8735a3cabe805c77355", null ]
+    [ "CheckTarget", "d1/d0d/a28288.html#abaef73201d2e0bd1d6789309442019e0", null ],
+    [ "HandleScriptEffect", "d1/d0d/a28288.html#a545196cd976bfabbd85ba48942012e1e", null ],
+    [ "PrepareSpellScript", "d1/d0d/a28288.html#add5c1ecaa5a75af6e91a0df5d63bbc42", null ],
+    [ "Register", "d1/d0d/a28288.html#a36563a197b7377660b7c3f9e85d478bd", null ]
 ];

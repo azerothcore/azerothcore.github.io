@@ -1,6 +1,6 @@
 var a12832 =
 [
-    [ "HandleActivateObject", "d6/d01/a12832.html#aa22e6ae2e0fd4b25bb16031285e23635", null ],
-    [ "PrepareSpellScript", "d6/d01/a12832.html#a1fd729803f64c5eaa472e87bb3f1a301", null ],
-    [ "Register", "d6/d01/a12832.html#a6cc39f581f4e2982b137f01d9e02d9c2", null ]
+    [ "OnRemove", "d6/d01/a12832.html#aa1cf7727c57d5b6a1968bafcdef63113", null ],
+    [ "PrepareAuraScript", "d6/d01/a12832.html#a1139466be6e4391d1f488d3f56758b2c", null ],
+    [ "Register", "d6/d01/a12832.html#a6ff95222d980c659653116f560ec2b80", null ]
 ];

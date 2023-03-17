@@ -1,8 +1,6 @@
 var a26376 =
 [
-    [ "npc_raliq_the_drunkAI", "da/d26/a26376.html#ae6fedcbfa5e39299e467416832196d96", null ],
-    [ "Reset", "da/d26/a26376.html#a5b9fb7842a4b1c956d1590e22dba0561", null ],
-    [ "UpdateAI", "da/d26/a26376.html#aebe80d473ac5669abe5e64f5058a35ed", null ],
-    [ "m_uiNormFaction", "da/d26/a26376.html#abbc73091eb0108194565773229a8a096", null ],
-    [ "Uppercut_Timer", "da/d26/a26376.html#abb1031466c39d18a385d86d79500ff01", null ]
+    [ "HandlePeriodic", "da/d26/a26376.html#af201384f8853dae8f2afa61313f868f1", null ],
+    [ "PrepareAuraScript", "da/d26/a26376.html#affeb1d65ba46903a31ffdc4cdad2a9db", null ],
+    [ "Register", "da/d26/a26376.html#ac019473fbee7a7180b9e8484b3c4796c", null ]
 ];

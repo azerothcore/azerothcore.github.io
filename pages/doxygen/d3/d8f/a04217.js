@@ -1,25 +1,33 @@
 var a04217 =
 [
-    [ "item_only_for_flight", "d5/da8/a29447.html", "d5/da8/a29447" ],
-    [ "item_nether_wraith_beacon", "dd/d2d/a29451.html", "dd/d2d/a29451" ],
-    [ "item_gor_dreks_ointment", "d0/d73/a29455.html", "d0/d73/a29455" ],
-    [ "item_incendiary_explosives", "d8/dd8/a29459.html", "d8/dd8/a29459" ],
-    [ "item_mysterious_egg", "d4/ddd/a29463.html", "d4/ddd/a29463" ],
-    [ "item_disgusting_jar", "df/d83/a29467.html", "df/d83/a29467" ],
-    [ "item_petrov_cluster_bombs", "d8/d1d/a29471.html", "d8/d1d/a29471" ],
-    [ "item_captured_frog", "d1/d7c/a29475.html", "d1/d7c/a29475" ],
-    [ "item_generic_limit_chance_above_60", "d4/d84/a29479.html", "d4/d84/a29479" ],
-    [ "CapturedFrog", "d3/d8f/a04217.html#a3a51d3f5cfd1964cbec23fcba5046cca", [
-      [ "QUEST_THE_PERFECT_SPIES", "d3/d8f/a04217.html#a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04", null ],
-      [ "NPC_VANIRAS_SENTRY_TOTEM", "d3/d8f/a04217.html#a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f", null ]
+    [ "achievement_resilient_victory", "d3/daf/a28924.html", "d3/daf/a28924" ],
+    [ "achievement_bg_control_all_nodes", "de/d99/a28928.html", "de/d99/a28928" ],
+    [ "achievement_save_the_day", "d9/dc6/a28932.html", "d9/dc6/a28932" ],
+    [ "achievement_bg_ic_resource_glut", "d8/d63/a28936.html", "d8/d63/a28936" ],
+    [ "achievement_bg_ic_glaive_grave", "dd/dea/a28940.html", "dd/dea/a28940" ],
+    [ "achievement_bg_ic_mowed_down", "d8/d18/a28944.html", "d8/d18/a28944" ],
+    [ "achievement_bg_sa_artillery", "d0/db3/a28948.html", "d0/db3/a28948" ],
+    [ "achievement_arena_by_type", "d5/d3b/a28952.html", "d5/d3b/a28952" ],
+    [ "achievement_sickly_gazelle", "d5/dc2/a28956.html", "d5/dc2/a28956" ],
+    [ "achievement_everything_counts", "da/dad/a28960.html", "da/dad/a28960" ],
+    [ "achievement_bg_av_perfection", "de/dff/a28964.html", "de/dff/a28964" ],
+    [ "achievement_sa_defense_of_the_ancients", "d8/dcf/a28968.html", "d8/dcf/a28968" ],
+    [ "achievement_tilted", "d8/d4c/a28972.html", "d8/d4c/a28972" ],
+    [ "achievement_not_even_a_scratch", "de/d59/a28976.html", "de/d59/a28976" ],
+    [ "achievement_killed_exp_or_honor_target", "dc/dd1/a28980.html", "dc/dd1/a28980" ],
+    [ "achievement_flirt_with_disaster_perf_check", "dc/d0c/a28984.html", "dc/d0c/a28984" ],
+    [ "ArgentTournamentAreas", "d3/d8f/a04217.html#a2e77de85e54ed0be0b64c804c9b2eea3", [
+      [ "AREA_ARGENT_TOURNAMENT_FIELDS", "d3/d8f/a04217.html#a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737", null ],
+      [ "AREA_RING_OF_ASPIRANTS", "d3/d8f/a04217.html#a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf", null ],
+      [ "AREA_RING_OF_ARGENT_VALIANTS", "d3/d8f/a04217.html#a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d", null ],
+      [ "AREA_RING_OF_ALLIANCE_VALIANTS", "d3/d8f/a04217.html#a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504", null ],
+      [ "AREA_RING_OF_HORDE_VALIANTS", "d3/d8f/a04217.html#a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826", null ],
+      [ "AREA_RING_OF_CHAMPIONS", "d3/d8f/a04217.html#a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7", null ]
     ] ],
-    [ "OnlyForFlight", "d3/d8f/a04217.html#afa5a0f3082f0a49fcc796209c7828151", [
-      [ "SPELL_ARCANE_CHARGES", "d3/d8f/a04217.html#afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d", null ]
+    [ "FlirtWithDisaster", "d3/d8f/a04217.html#a59d6aac4e950d8e6a0265a26e1898c13", [
+      [ "AURA_PERFUME_FOREVER", "d3/d8f/a04217.html#a59d6aac4e950d8e6a0265a26e1898c13a51aa967912af69dc7510017e558bbb85", null ],
+      [ "AURA_PERFUME_ENCHANTRESS", "d3/d8f/a04217.html#a59d6aac4e950d8e6a0265a26e1898c13a6f98457c5232039183c4be4588a067c6", null ],
+      [ "AURA_PERFUME_VICTORY", "d3/d8f/a04217.html#a59d6aac4e950d8e6a0265a26e1898c13afb194a6e19cf65f763d7975e5d842c9c", null ]
     ] ],
-    [ "PetrovClusterBombs", "d3/d8f/a04217.html#a5481d2bf1b9efa370833eed302f6f94c", [
-      [ "SPELL_PETROV_BOMB", "d3/d8f/a04217.html#a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6", null ],
-      [ "AREA_ID_SHATTERED_STRAITS", "d3/d8f/a04217.html#a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42", null ],
-      [ "ZONE_ID_HOWLING", "d3/d8f/a04217.html#a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9", null ]
-    ] ],
-    [ "AddSC_item_scripts", "d3/d8f/a04217.html#a3e28ebf5a580887bb117f786689a34c6", null ]
+    [ "AddSC_achievement_scripts", "d3/d8f/a04217.html#a5091d6f933800f3313078304ad5c38ca", null ]
 ];

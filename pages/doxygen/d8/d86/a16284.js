@@ -1,7 +1,7 @@
 var a16284 =
 [
-    [ "TwilightCutterSelector", "d8/d86/a16284.html#accea6e932c44d083fbb4dc41c5102b3d", null ],
-    [ "operator()", "d8/d86/a16284.html#a6374425df156bdf202d53a2c73ef784c", null ],
-    [ "_caster", "d8/d86/a16284.html#a784c95ef6472e711f4200f194222d179", null ],
-    [ "_cutterCaster", "d8/d86/a16284.html#a7f713777a36a8d127c2865e4610b1288", null ]
+    [ "Load", "d8/d86/a16284.html#a8e6c15c63b925dc55a9dfaf4d31273d3", null ],
+    [ "Phase", "d8/d86/a16284.html#a5e0d90d4751368d4dbedd1dd17c0fbd9", null ],
+    [ "PrepareSpellScript", "d8/d86/a16284.html#ae500eacb492b25784071d202c60e2525", null ],
+    [ "Register", "d8/d86/a16284.html#ae2bb0092596ef7268052e5e9d15b873c", null ]
 ];

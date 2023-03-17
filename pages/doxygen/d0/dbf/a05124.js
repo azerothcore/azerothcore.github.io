@@ -1,22 +1,17 @@
 var a05124 =
 [
-    [ "AbortState", "d0/dbf/a05124.html#a3f26f839ff35d80af2a8f885ca1a1554", [
-      [ "STATE_RUNNING", "d0/dbf/a05124.html#a3f26f839ff35d80af2a8f885ca1a1554ad8a3bbc9a845117a56f75c0f8e74f09e", null ],
-      [ "STATE_ABORT_SCHEDULED", "d0/dbf/a05124.html#a3f26f839ff35d80af2a8f885ca1a1554a57184a4db33295d3f2462a45429a7d3a", null ],
-      [ "STATE_ABORTED", "d0/dbf/a05124.html#a3f26f839ff35d80af2a8f885ca1a1554a94084d8a7188eb3538561802c1f817f5", null ]
-    ] ],
-    [ "BasicEvent", "d0/dbf/a05124.html#a9c3cd17edab7fc410f88bb680d756975", null ],
-    [ "~BasicEvent", "d0/dbf/a05124.html#a0c3860e1c8854c2db20a225944792afd", null ],
-    [ "Abort", "d0/dbf/a05124.html#a5584968148a48bd7ba072515bd489963", null ],
-    [ "Execute", "d0/dbf/a05124.html#a89297a10b64d01895332655122ed8ccb", null ],
-    [ "IsAborted", "d0/dbf/a05124.html#a4b05df0749b6a18ef0e0b4137e727d7d", null ],
-    [ "IsAbortScheduled", "d0/dbf/a05124.html#a1ee71d72964b7124e8e137b02c81eac2", null ],
-    [ "IsDeletable", "d0/dbf/a05124.html#a62c0483af9fd1885e779cf088a50eb02", null ],
-    [ "IsRunning", "d0/dbf/a05124.html#aeb6eb1bb1c54f70d5e0f88cf4e462fc2", null ],
-    [ "ScheduleAbort", "d0/dbf/a05124.html#afafade0729f08b8f1193a66f50c18348", null ],
-    [ "SetAborted", "d0/dbf/a05124.html#a9224c2878bff4f6df28bedb973be2d27", null ],
-    [ "EventProcessor", "d0/dbf/a05124.html#acce868eb94e25fcad6a070753b63bdfc", null ],
-    [ "m_abortState", "d0/dbf/a05124.html#afd9cf18b8a00c6195b9120f3fcf7ca69", null ],
-    [ "m_addTime", "d0/dbf/a05124.html#ac236835e6298588e834cde7a8c2bfece", null ],
-    [ "m_execTime", "d0/dbf/a05124.html#afbd8d5728992e7676fde628fc03dc588", null ]
+    [ "CircularBuffer", "d0/dbf/a05124.html#aed928fe071a15c367bbdf0c551249438", null ],
+    [ "capacity", "d0/dbf/a05124.html#ae1addc6782f9a3e4d66461223f496619", null ],
+    [ "content", "d0/dbf/a05124.html#ad364f8ee7c9176b912ea053e2f3c928f", null ],
+    [ "empty", "d0/dbf/a05124.html#a7509cc5ef0dd0a9f731c47b05929580c", null ],
+    [ "full", "d0/dbf/a05124.html#a2a2f13f00dca028142c250b5f2183097", null ],
+    [ "peak_back", "d0/dbf/a05124.html#ad4bb17889033526da4605ebddd60f3c7", null ],
+    [ "put", "d0/dbf/a05124.html#a2a5e093804731b69969c18e49a206572", null ],
+    [ "size", "d0/dbf/a05124.html#a73d5df7a33d545554fffeaaf843f36d9", null ],
+    [ "buf_", "d0/dbf/a05124.html#aa2b9389da6cd912b4dd54d89ca1d69ee", null ],
+    [ "full_", "d0/dbf/a05124.html#a1dfcbf9f9d2760d7d82144c57ff8a60e", null ],
+    [ "head_", "d0/dbf/a05124.html#abd7fa51c466136b2ed4a3ed40dc72201", null ],
+    [ "max_size_", "d0/dbf/a05124.html#a588c4166b7abe2cf38e58c63026fe511", null ],
+    [ "mutex_", "d0/dbf/a05124.html#aa4762ba2167d8b9560ff39328b4b3afa", null ],
+    [ "tail_", "d0/dbf/a05124.html#ad6b796b58f9b528479e5caf45713027b", null ]
 ];

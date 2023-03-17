@@ -1,7 +1,11 @@
 var a28568 =
 [
-    [ "HandleDummy", "da/d3d/a28568.html#a4c837e7342603519d1f23ab8702c3160", null ],
-    [ "PrepareSpellScript", "da/d3d/a28568.html#ae9d6ab0c9b9cf87f7b86f28e9bb25371", null ],
-    [ "Register", "da/d3d/a28568.html#a16a5ca3ec9a8c463c9a2975fa29eb1e9", null ],
-    [ "Validate", "da/d3d/a28568.html#ad742f4ce0d0db70427f7ba849a4526df", null ]
+    [ "CheckProc", "da/d3d/a28568.html#a7a6eea8debb09c4c9086a92d8e6ee59c", null ],
+    [ "HandleProc", "da/d3d/a28568.html#af29b1d6d8553003514918a383cb08b4a", null ],
+    [ "Load", "da/d3d/a28568.html#a8861c2415c0f705cb4a06c02eabb54d2", null ],
+    [ "OnRemove", "da/d3d/a28568.html#a9227147dd6e621deddd0088b95e9db2f", null ],
+    [ "PrepareAuraScript", "da/d3d/a28568.html#a149881d517edbb15032452554fc64948", null ],
+    [ "Register", "da/d3d/a28568.html#ac81d60d54a87a23bd9481934f5753de0", null ],
+    [ "Validate", "da/d3d/a28568.html#a7a4d1bddd1dbeb41e0f6f8fe272b4ad6", null ],
+    [ "_redirectTarget", "da/d3d/a28568.html#af3ee2a283d8942ab3652a6386c26f737", null ]
 ];

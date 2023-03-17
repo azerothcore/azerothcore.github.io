@@ -1,6 +1,6 @@
 var a25976 =
 [
-    [ "spell_ragin_flames_inferno_AuraScript", "dd/dd4/a25980.html", "dd/dd4/a25980" ],
-    [ "spell_ragin_flames_inferno", "d7/d79/a25976.html#a70c903b64a8faf4c83273f679e6b066d", null ],
-    [ "GetAuraScript", "d7/d79/a25976.html#ab80f56470a3da24985be471d5b9afd05", null ]
+    [ "npc_deaths_fel_cannonAI", "dd/dd4/a25980.html", "dd/dd4/a25980" ],
+    [ "npc_deaths_fel_cannon", "d7/d79/a25976.html#a87ecaca75061928600b5114d3913dd26", null ],
+    [ "GetAI", "d7/d79/a25976.html#a4cf91cd1f28637f359e06bccd30e0338", null ]
 ];

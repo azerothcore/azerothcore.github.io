@@ -1,6 +1,6 @@
 var a21204 =
 [
-    [ "achievement_flame_leviathan_towers", "de/d56/a21204.html#a491d66bdd373b6044e406126719ef910", null ],
-    [ "OnCheck", "de/d56/a21204.html#ad6e9dee3f05afaca0a355b714bf75ea6", null ],
-    [ "_towerCount", "de/d56/a21204.html#a1099385340b30a1a75655e2e7d2ba3cc", null ]
+    [ "spell_transitus_shield_beam_AuraScript", "d0/d4d/a21208.html", "d0/d4d/a21208" ],
+    [ "spell_transitus_shield_beam", "de/d56/a21204.html#a12f283a9cdb662a3970f46ccb4a8b8d0", null ],
+    [ "GetAuraScript", "de/d56/a21204.html#aec1f376dea3834281a3a8ae0f8fdd318", null ]
 ];

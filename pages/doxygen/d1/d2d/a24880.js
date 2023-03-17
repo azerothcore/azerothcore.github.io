@@ -1,6 +1,6 @@
 var a24880 =
 [
-    [ "spell_black_temple_consuming_strikes_AuraScript", "dc/dff/a24884.html", "dc/dff/a24884" ],
-    [ "spell_black_temple_consuming_strikes", "d1/d2d/a24880.html#a8b2b0a2a13236e072784f057d6aa1e20", null ],
-    [ "GetAuraScript", "d1/d2d/a24880.html#a144d9a4426a692f2ee9be302fd91c735", null ]
+    [ "PrepareAuraScript", "d1/d2d/a24880.html#a20d1c2a5d5087691f78e9580e3219062", null ],
+    [ "Register", "d1/d2d/a24880.html#a949581f3790a75147e9c8a9b91735975", null ],
+    [ "Update", "d1/d2d/a24880.html#a72cbe820e99125be363dd65fc8fbb20e", null ]
 ];

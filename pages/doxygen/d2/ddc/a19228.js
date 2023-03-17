@@ -1,6 +1,6 @@
 var a19228 =
 [
-    [ "npc_icc_lk_checktargetAI", "d3/dbf/a19232.html", "d3/dbf/a19232" ],
-    [ "npc_icc_lk_checktarget", "d2/ddc/a19228.html#a3a2cc943e731e472694dcb13417090da", null ],
-    [ "GetAI", "d2/ddc/a19228.html#a2cd9a5c7fec791ba8786cf1bb5b7c8bd", null ]
+    [ "npc_spirit_wardenAI", "d3/dbf/a19232.html", "d3/dbf/a19232" ],
+    [ "npc_spirit_warden", "d2/ddc/a19228.html#ab585d20eadb7876752d731702db44293", null ],
+    [ "GetAI", "d2/ddc/a19228.html#ab33ab494d7fee64eed7c75464ce60489", null ]
 ];

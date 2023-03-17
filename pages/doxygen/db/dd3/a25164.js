@@ -1,6 +1,6 @@
 var a25164 =
 [
-    [ "spell_serpentshrine_cavern_infection_AuraScript", "d1/dd8/a25168.html", "d1/dd8/a25168" ],
-    [ "spell_serpentshrine_cavern_infection", "db/dd3/a25164.html#aa00156e374d8151ed113a8f03c73f6a4", null ],
-    [ "GetAuraScript", "db/dd3/a25164.html#af65aa7fdf2fa4781c25a0a5381edb1d0", null ]
+    [ "spell_serpentshrine_cavern_serpentshrine_parasite_AuraScript", "d1/dd8/a25168.html", "d1/dd8/a25168" ],
+    [ "spell_serpentshrine_cavern_serpentshrine_parasite", "db/dd3/a25164.html#a877e7f67598df6196d9f2e1b41dc6ab9", null ],
+    [ "GetAuraScript", "db/dd3/a25164.html#a723f6eea74f686aee36b941f1a63ad7c", null ]
 ];

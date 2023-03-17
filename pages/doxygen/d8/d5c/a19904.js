@@ -1,8 +1,10 @@
 var a19904 =
 [
-    [ "HandleScript", "d8/d5c/a19904.html#a83a9faf654f9b151ba1f4907c4148bfa", null ],
-    [ "HandleScript2", "d8/d5c/a19904.html#ac258154e81c813acdcfe5f2989467ba2", null ],
-    [ "Load", "d8/d5c/a19904.html#ae08ec52ae1eea41d4ae212d74a959a96", null ],
-    [ "PrepareSpellScript", "d8/d5c/a19904.html#a7786c6231e406e0f0053caac5bcf400e", null ],
-    [ "Register", "d8/d5c/a19904.html#aa2a2325a9a0fa11b3eb52119a3e3c967", null ]
+    [ "boss_isle_of_conquestAI", "d8/d5c/a19904.html#a7880ea86e7a03f5b14875065a83a206a", null ],
+    [ "CheckRageBuff", "d8/d5c/a19904.html#a6d60480e39fa89dbcc0facce9f0b69a3", null ],
+    [ "JustEngagedWith", "d8/d5c/a19904.html#a878635ef0673325943e6026ad76c2b06", null ],
+    [ "Reset", "d8/d5c/a19904.html#add59669e5f6c3c882ac008c720349573", null ],
+    [ "UpdateAI", "d8/d5c/a19904.html#ab33aa7e735c5837428a4cf2b76e4275e", null ],
+    [ "events", "d8/d5c/a19904.html#a38e308b66b0f35d3efe6916b03e4391c", null ],
+    [ "rage", "d8/d5c/a19904.html#aa16ebdd6e2f486d3a6e4b58f4cb5e696", null ]
 ];

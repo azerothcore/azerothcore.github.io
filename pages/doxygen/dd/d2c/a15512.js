@@ -1,6 +1,6 @@
 var a15512 =
 [
-    [ "npc_shay_leafrunnerAI", "de/d96/a15516.html", "de/d96/a15516" ],
-    [ "npc_shay_leafrunner", "dd/d2c/a15512.html#a938977a88f71a6972684644232562e79", null ],
-    [ "GetAI", "dd/d2c/a15512.html#a8c05228a0f21375fd6e563baf82bcd50", null ]
+    [ "spell_ooze_zap_channel_end_SpellScript", "de/d96/a15516.html", "de/d96/a15516" ],
+    [ "spell_ooze_zap_channel_end", "dd/d2c/a15512.html#a59ba7ea904f340823a83086275609b08", null ],
+    [ "GetSpellScript", "dd/d2c/a15512.html#a3d7e65de563be9f9c17cc5329d1bd49d", null ]
 ];

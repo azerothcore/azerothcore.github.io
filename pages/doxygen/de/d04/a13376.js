@@ -1,7 +1,6 @@
 var a13376 =
 [
-    [ "npc_greengill_slaveAI", "de/d04/a13376.html#a1a4268b745e63992f4d0fc2028b717aa", null ],
-    [ "EnterCombat", "de/d04/a13376.html#ab0a6b6c9ac8b32226ce87eb911123313", null ],
-    [ "SpellHit", "de/d04/a13376.html#a0e75a3e8eb3503fdb3aea12e65ccc6e4", null ],
-    [ "UpdateAI", "de/d04/a13376.html#a6fa27328cf47bef81c3465b8a3e2ace1", null ]
+    [ "x", "de/d04/a13376.html#afeb59642abc7d5114668b2c27e315228", null ],
+    [ "y", "de/d04/a13376.html#a3e2454dd579de689289003a343e7f29c", null ],
+    [ "z", "de/d04/a13376.html#a4fbcf991d732545b4f9c19689ff9d805", null ]
 ];

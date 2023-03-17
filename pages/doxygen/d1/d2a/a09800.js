@@ -1,5 +1,7 @@
 var a09800 =
 [
-    [ "GenericGameObjectScript", "d1/d2a/a09800.html#a7d1d46c8d325619637aef9b9dc5419f7", null ],
-    [ "GetAI", "d1/d2a/a09800.html#ac8e42c8d5259cead0699fd5a849bb46a", null ]
+    [ "CommandSC", "d1/d2a/a09800.html#a99224ebae15566e468545faa15065a62", null ],
+    [ "CanExecuteCommand", "d1/d2a/a09800.html#ac23f599682169e26fc83966beae0e1f6", null ],
+    [ "IsDatabaseBound", "d1/d2a/a09800.html#a0a4370799ce93c33a0f68937d032c1f8", null ],
+    [ "OnHandleDevCommand", "d1/d2a/a09800.html#af60cc0a61ff6feae6aa5b52d6de6feaa", null ]
 ];

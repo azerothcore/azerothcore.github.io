@@ -1,6 +1,5 @@
 var a17580 =
 [
-    [ "boss_slad_ranAI", "de/d2a/a17584.html", "de/d2a/a17584" ],
-    [ "boss_slad_ran", "d5/da8/a17580.html#a9b960242e2f186d334d7ce04b999e274", null ],
-    [ "GetAI", "d5/da8/a17580.html#a26651b7ca111bd64549283c37e34db11", null ]
+    [ "achievement_share_the_love", "d5/da8/a17580.html#a3eaa89eaa356b0e2f8b5c688439baf9c", null ],
+    [ "OnCheck", "d5/da8/a17580.html#a9d6b6d19611d1482111692de9f2b1cc8", null ]
 ];

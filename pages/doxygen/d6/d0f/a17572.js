@@ -1,6 +1,6 @@
 var a17572 =
 [
-    [ "HandlePeriodic", "d6/d0f/a17572.html#a8b86f83b34a96a434094383ac02a8b98", null ],
-    [ "PrepareAuraScript", "d6/d0f/a17572.html#a04cdb886fe47412e56dba995a481802c", null ],
-    [ "Register", "d6/d0f/a17572.html#a31015d417968723ef1db3c7799ca9f1d", null ]
+    [ "spell_galdarah_transform_SpellScript", "d0/da9/a17576.html", "d0/da9/a17576" ],
+    [ "spell_galdarah_transform", "d6/d0f/a17572.html#a7b6274f92cba8b668787072d497e097b", null ],
+    [ "GetSpellScript", "d6/d0f/a17572.html#a4561dfda971dc99defa54778a86afa2b", null ]
 ];

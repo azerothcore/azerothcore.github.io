@@ -1,8 +1,12 @@
 var a17880 =
 [
-    [ "CheckProc", "d0/dfa/a17880.html#a95ac1c4015b2b44495564e17e5e52e98", null ],
-    [ "HandlePeriodicTick", "d0/dfa/a17880.html#a2a11b24a34ddbb04d3180d73c4fec7ff", null ],
-    [ "HandleProc", "d0/dfa/a17880.html#ada59db24628253750e1633c5db54b33a", null ],
-    [ "PrepareAuraScript", "d0/dfa/a17880.html#a9253176b1ba2e0eae45f6ea3c5a1accc", null ],
-    [ "Register", "d0/dfa/a17880.html#a5838d85fb638df65c765a574830c0989", null ]
+    [ "npc_high_overlord_saurfangAI", "d0/dfa/a17880.html#a5c31259d9eb26e09d2b645d826e75328", null ],
+    [ "DoAction", "d0/dfa/a17880.html#a4a372a14c960c48c51a1c8e34ebffc53", null ],
+    [ "MovementInform", "d0/dfa/a17880.html#a6a46f99ffb67a699ef9adb2a1afcbe13", null ],
+    [ "Reset", "d0/dfa/a17880.html#a28899c61f9b4d3612535d1a01dc05f4a", null ],
+    [ "SpellHit", "d0/dfa/a17880.html#a6399e9c9ecdb8c01fbd2bcd1b081811f", null ],
+    [ "UpdateAI", "d0/dfa/a17880.html#a92124e7490a066bf63836397a3bdc71b", null ],
+    [ "_events", "d0/dfa/a17880.html#a12bbe13cf8fd1eda0cb8aa75ecafddc4", null ],
+    [ "_guardList", "d0/dfa/a17880.html#a1d8ccb93c5c8d13767fa8a1429adb262", null ],
+    [ "_instance", "d0/dfa/a17880.html#a4181022e52fc10e2d5d98dcffe9ced62", null ]
 ];

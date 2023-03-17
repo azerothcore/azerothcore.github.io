@@ -1,18 +1,22 @@
 var a04439 =
 [
-    [ "ChatCommands", "d2/de7/a04467.html", "d2/de7/a04467" ],
-    [ "EnumUtilsImpl", "d1/d13/a04444.html", "d1/d13/a04444" ],
-    [ "StringConvertImpl", "d8/d39/a04449.html", "d8/d39/a04449" ],
-    [ "CastToVisitor", "d9/dd2/a07157.html", "d9/dd2/a07157" ],
-    [ "CryptoGenericsImpl", "d2/d68/a04825.html", "d2/d68/a04825" ],
-    [ "CurrentServerProcessHolder", "d4/de6/a30517.html", "d4/de6/a30517" ],
-    [ "GenericBaseEncoding", "df/d76/a04973.html", "df/d76/a04973" ],
-    [ "GenericHash", "df/d15/a04833.html", "df/d15/a04833" ],
-    [ "GenericHashImpl", "d4/d9a/a04829.html", "d4/d9a/a04829" ],
-    [ "GenericHMAC", "da/d82/a04837.html", "da/d82/a04837" ],
-    [ "MPSCQueueIntrusive", "dd/d03/a05045.html", "dd/d03/a05045" ],
-    [ "MPSCQueueNonIntrusive", "d7/de8/a05037.html", "d7/de8/a05037" ],
-    [ "ByteArrayToHexStr", "d8/d3a/a04439.html#a695b655a137b25747c0d8d00bf736dda", null ],
-    [ "HexStrToByteArray", "d8/d3a/a04439.html#ac7354b5bd8f3eda87f83439adf11df6c", null ],
-    [ "new_from_tuple", "d8/d3a/a04439.html#a028fc93107022ad23a763503c9b0bbdb", null ]
+    [ "WMO::MODS", "d4/de3/a30680.html", "d4/de3/a30680" ],
+    [ "WMO::MODD", "d4/d2d/a30684.html", "d4/d2d/a30684" ],
+    [ "WMODoodadData", "da/dfa/a30688.html", "da/dfa/a30688" ],
+    [ "WMORoot", "dc/d76/a30692.html", "dc/d76/a30692" ],
+    [ "WMOLiquidHeader", "d3/d8e/a30696.html", "d3/d8e/a30696" ],
+    [ "WMOLiquidVert", "d6/d40/a30700.html", "d6/d40/a30700" ],
+    [ "WMOGroup", "d2/d8a/a30704.html", "d2/d8a/a30704" ],
+    [ "MopyFlags", "d8/d3a/a04439.html#a0673ad4a8399eb24693f8694a261e3da", [
+      [ "WHO_MATERIAL_UNK01", "d8/d3a/a04439.html#a0673ad4a8399eb24693f8694a261e3daa4887238124bff7f472762f37b14f084b", null ],
+      [ "WMO_MATERIAL_NOCAMCOLLIDE", "d8/d3a/a04439.html#a0673ad4a8399eb24693f8694a261e3daae8fbdf74c986d20ec35a1bc8540ab5f6", null ],
+      [ "WMO_MATERIAL_DETAIL", "d8/d3a/a04439.html#a0673ad4a8399eb24693f8694a261e3daa02dedf8ad6e2e81ec7ce4f51c2003d20", null ],
+      [ "WMO_MATERIAL_COLLISION", "d8/d3a/a04439.html#a0673ad4a8399eb24693f8694a261e3daa26cd74a7fba8ff77edd7fcad4b174192", null ],
+      [ "WMO_MATERIAL_HINT", "d8/d3a/a04439.html#a0673ad4a8399eb24693f8694a261e3daaeda4c860284ded0a951980ea981503f2", null ],
+      [ "WMO_MATERIAL_RENDER", "d8/d3a/a04439.html#a0673ad4a8399eb24693f8694a261e3daa79016e869a8c491c5e7c762416645edc", null ],
+      [ "WMO_MATERIAL_WALL_SURFACE", "d8/d3a/a04439.html#a0673ad4a8399eb24693f8694a261e3daaa806842158937b60f3b6af093b50497a", null ],
+      [ "WMO_MATERIAL_COLLIDE_HIT", "d8/d3a/a04439.html#a0673ad4a8399eb24693f8694a261e3daad1b64a17d5df9a320ad54ab47e9c0885", null ]
+    ] ],
+    [ "Extract", "d8/d3a/a04439.html#a9148b3ef5b412564a285737b0bd104dd", null ],
+    [ "fixCoords", "d8/d3a/a04439.html#ab265837fe64577975f97318431c69e9c", null ]
 ];

@@ -1,11 +1,8 @@
 var a07860 =
 [
-    [ "PackedGuid", "df/d3c/a07860.html#a9268f8d34f24ef52369d605f94986a8d", null ],
-    [ "PackedGuid", "df/d3c/a07860.html#a6d4559bc2a1d8c27247329c95c2b6156", null ],
-    [ "PackedGuid", "df/d3c/a07860.html#adf388e273472f2699348c7a4361ebac4", null ],
-    [ "Set", "df/d3c/a07860.html#ab1e59343017fa54374f4fb72ff7cccbf", null ],
-    [ "Set", "df/d3c/a07860.html#ae5d174d63a0b9d33b919f05760290bea", null ],
-    [ "size", "df/d3c/a07860.html#a22ac06b7072951e84bbf69abcd7d58f6", null ],
-    [ "operator<<", "df/d3c/a07860.html#a94ab551ce00fd82dea1532d47ad908bc", null ],
-    [ "_packedGuid", "df/d3c/a07860.html#aeb0e51f1667a2627aabffd6d7cb1779c", null ]
+    [ "Reset", "df/d3c/a07860.html#a28a5bd110553457c86d7f77e78041713", null ],
+    [ "cosAngle", "df/d3c/a07860.html#a37f49fc816f37dff8c1947f4de7f04d5", null ],
+    [ "sinAngle", "df/d3c/a07860.html#af2a184b7c8e7f324607a0b7468bcb8f6", null ],
+    [ "xyspeed", "df/d3c/a07860.html#a6fada60d677d89580c3a718d42a75d17", null ],
+    [ "zspeed", "df/d3c/a07860.html#ad0a5a36aeabc9b8d8ea27cecae30ae31", null ]
 ];

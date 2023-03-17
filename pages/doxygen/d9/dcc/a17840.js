@@ -1,7 +1,6 @@
 var a17840 =
 [
-    [ "achievement_once_bitten_twice_shy", "d9/dcc/a17840.html#ac5799e847f8ee1e2b562e4a58a00df16", null ],
-    [ "OnCheck", "d9/dcc/a17840.html#aa2e3ac3e8a14b06446174e475ac18af3", null ],
-    [ "_spawnMode", "d9/dcc/a17840.html#a6f02f5ab07143ddff553279049714902", null ],
-    [ "_wasVampire", "d9/dcc/a17840.html#a297cf6da45b0cddb4dc9fc888919bdda", null ]
+    [ "spell_blood_queen_vampiric_bite_SpellScript", "df/dd9/a17844.html", "df/dd9/a17844" ],
+    [ "spell_blood_queen_vampiric_bite", "d9/dcc/a17840.html#ae324b618e1ffca96853070c0e288af23", null ],
+    [ "GetSpellScript", "d9/dcc/a17840.html#ad4fe256640f5a0ae0b5f530653b41290", null ]
 ];

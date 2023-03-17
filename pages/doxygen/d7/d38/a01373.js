@@ -1,4 +1,4 @@
 var a01373 =
 [
-    [ "GridReference< OBJECT >", "d1/dab/a08511.html", "d1/dab/a08511" ]
+    [ "Grid< ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES >", "df/dc4/a08532.html", "df/dc4/a08532" ]
 ];

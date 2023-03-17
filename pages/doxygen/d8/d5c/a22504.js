@@ -1,10 +1,12 @@
 var a22504 =
 [
-    [ "npc_dragonflayer_forge_masterAI", "d8/d5c/a22504.html#a65ac1cbf9efeef35007359db1622c2f9", null ],
-    [ "EnterCombat", "d8/d5c/a22504.html#af8bc99dd2d52aaf74b0e7acd9c5d609d", null ],
-    [ "JustDied", "d8/d5c/a22504.html#a09f0afd788018d00025ea9576aec9748", null ],
-    [ "Reset", "d8/d5c/a22504.html#a501f5a55fc395c31ffd15b2f6f69d589", null ],
-    [ "dataId", "d8/d5c/a22504.html#a4e47e0d615c5004aea74e88103dcb53f", null ],
-    [ "pInstance", "d8/d5c/a22504.html#aadbb4bf4ac35b3c67e7ab0a7ae26ce76", null ],
-    [ "prevDataId", "d8/d5c/a22504.html#ad3c9046a2e7b8502ea3ef51ede52ab07", null ]
+    [ "boss_skarvald_the_constructorAI", "d8/d5c/a22504.html#a90b669521db89c8c71fe72d17b620694", null ],
+    [ "DoAction", "d8/d5c/a22504.html#ac12c072b23e89e0282e45373e4c03cd9", null ],
+    [ "JustDied", "d8/d5c/a22504.html#aa10a8a1bd53804f2c0be6dd68b2b1f68", null ],
+    [ "JustEngagedWith", "d8/d5c/a22504.html#a02ee99b1b5c3a6a053532dbb59b541a2", null ],
+    [ "KilledUnit", "d8/d5c/a22504.html#a897415c1e9d4759d9c8b6d9346516f46", null ],
+    [ "Reset", "d8/d5c/a22504.html#a55c1c9b1a3370741d97355569f11e9d4", null ],
+    [ "UpdateAI", "d8/d5c/a22504.html#a5ee0df3039c5fc069c90ef06e6ae9604", null ],
+    [ "events", "d8/d5c/a22504.html#aac3e019ac655ffcb0aea7f9ae9592795", null ],
+    [ "pInstance", "d8/d5c/a22504.html#a7418a8541a8264a260495f8b19ef8699", null ]
 ];

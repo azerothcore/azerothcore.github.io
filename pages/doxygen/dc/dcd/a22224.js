@@ -1,6 +1,6 @@
 var a22224 =
 [
-    [ "spell_yogg_saron_malady_of_the_mind_AuraScript", "d6/dbc/a22228.html", "d6/dbc/a22228" ],
-    [ "spell_yogg_saron_malady_of_the_mind", "dc/dcd/a22224.html#a1c35ee4d30b56ac986bcb3f5abd6a09e", null ],
-    [ "GetAuraScript", "dc/dcd/a22224.html#a43dbeba8cf5c6136c55c16b1c04f087a", null ]
+    [ "boss_yoggsaron_llaneAI", "d6/dbc/a22228.html", "d6/dbc/a22228" ],
+    [ "boss_yoggsaron_llane", "dc/dcd/a22224.html#a671df488222583aa12bc1c75695918b9", null ],
+    [ "GetAI", "dc/dcd/a22224.html#a1e7d1b4bce0ca1dbfbbe8c044b451b92", null ]
 ];

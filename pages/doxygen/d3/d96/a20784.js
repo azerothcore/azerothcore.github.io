@@ -1,6 +1,6 @@
 var a20784 =
 [
-    [ "npc_collapsing_starAI", "d3/d96/a20784.html#ac389b380a8f315ae50a8cd809393a773", null ],
-    [ "DamageTaken", "d3/d96/a20784.html#a424fac98093eb9d02cda5027523ad06a", null ],
-    [ "JustSummoned", "d3/d96/a20784.html#ae70fcb66171fe5f87d96aaf2f52e35bc", null ]
+    [ "CosmicSmashDamageEvent", "d3/d96/a20784.html#a5c9606791b560d8be1825a9c73f2393e", null ],
+    [ "Execute", "d3/d96/a20784.html#a2d4b301e1b7e0852ec47280ad97871f2", null ],
+    [ "_caster", "d3/d96/a20784.html#ab7af2459d3962831812ee2362ee9de2b", null ]
 ];

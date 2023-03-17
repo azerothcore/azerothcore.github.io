@@ -1,9 +1,8 @@
 var a04640 =
 [
-    [ "ManagedModel", "d9/d32/a04640.html#ab641724be7e7791c2c95982acc13f3b0", null ],
-    [ "decRefCount", "d9/d32/a04640.html#a5a104acbc0661b19ba2a662dc669b73d", null ],
-    [ "getModel", "d9/d32/a04640.html#a053fc6647a16746fba19a0795610fea2", null ],
-    [ "setModel", "d9/d32/a04640.html#aa450ae6be22d507c36a746850629831d", null ],
-    [ "iModel", "d9/d32/a04640.html#a5e20d0157691bd6036247a83eea8d19b", null ],
-    [ "iRefCount", "d9/d32/a04640.html#afb30ad900a5979f98276324a1ab1c328", null ]
+    [ "AreaInfo", "d9/d32/a04640.html#a5cff768781236ef358e8864269d739e4", null ],
+    [ "adtId", "d9/d32/a04640.html#a6e13cfcbd4aa9c36fb80be7913640730", null ],
+    [ "groupId", "d9/d32/a04640.html#ae0e0518b31f3a16121bf3abd0770eb57", null ],
+    [ "mogpFlags", "d9/d32/a04640.html#ace485f0168c41ce50c78c782dd6301fd", null ],
+    [ "rootId", "d9/d32/a04640.html#a225d78ba13f20c147b92c6dfac1b37ad", null ]
 ];

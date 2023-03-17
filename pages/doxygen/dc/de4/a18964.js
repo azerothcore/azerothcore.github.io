@@ -1,6 +1,6 @@
 var a18964 =
 [
-    [ "spell_the_lich_king_jump_SpellScript", "de/db5/a18968.html", "de/db5/a18968" ],
-    [ "spell_the_lich_king_jump_remove_aura", "dc/de4/a18964.html#a405fc8ac2af73e8908d46365553d69a0", null ],
-    [ "GetSpellScript", "dc/de4/a18964.html#a8544b5bc37fab9fa4afefea644f4790f", null ]
+    [ "npc_tirion_fordringAI", "de/db5/a18968.html", "de/db5/a18968" ],
+    [ "npc_tirion_fordring_tft", "dc/de4/a18964.html#a04036d958e7ac643c9ba8d9073bca404", null ],
+    [ "GetAI", "dc/de4/a18964.html#a41dcfa415831091531cbf46e946f442d", null ]
 ];

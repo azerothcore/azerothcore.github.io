@@ -1,10 +1,8 @@
 var a11968 =
 [
-    [ "boss_curatorAI", "d2/d1c/a11968.html#a0018809317418e11c37660441ec14666", null ],
-    [ "EnterCombat", "d2/d1c/a11968.html#a8ce9915d16fac6c40cc9f068436b1c78", null ],
-    [ "JustDied", "d2/d1c/a11968.html#a64aaa38369a97f063d3cc5727cf8fe82", null ],
-    [ "JustSummoned", "d2/d1c/a11968.html#ad253fca806b19733158843cb1314338c", null ],
-    [ "KilledUnit", "d2/d1c/a11968.html#ae30ebebb96fed76d4dab1e1db055dec5", null ],
-    [ "Reset", "d2/d1c/a11968.html#a7403ee987e2be1038004b871ba291fb0", null ],
-    [ "UpdateAI", "d2/d1c/a11968.html#a82f509de50609e29affa707d9af8256a", null ]
+    [ "npc_lava_spawn", "d2/d1c/a11968.html#aff97441b2cfbcd68e0788be022ee6236", null ],
+    [ "JustEngagedWith", "d2/d1c/a11968.html#a3b93df8de3c0f8a50768b860cfa11b72", null ],
+    [ "Reset", "d2/d1c/a11968.html#ab774d354991c90b1421e6783c0513e59", null ],
+    [ "UpdateAI", "d2/d1c/a11968.html#a6a17c8c40b0110b688ff5faef5585185", null ],
+    [ "_scheduler", "d2/d1c/a11968.html#ab7a6b2beec095f3f903ad4443813cfce", null ]
 ];

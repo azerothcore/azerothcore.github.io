@@ -1,6 +1,6 @@
 var a28184 =
 [
-    [ "FilterTargets", "de/da6/a28184.html#a9ee58cd4e7a0fa59bfb6ef1270d51f21", null ],
-    [ "PrepareSpellScript", "de/da6/a28184.html#a5992d94317d3da7400d5a9ab115e621e", null ],
-    [ "Register", "de/da6/a28184.html#a125ce6c8dfdc6419b4409c72f74fcf85", null ]
+    [ "FilterTargets", "de/da6/a28184.html#a23c7b977f7e213322b3702367d6a28c7", null ],
+    [ "PrepareSpellScript", "de/da6/a28184.html#a7000b2fd940c914933c486e847932b62", null ],
+    [ "Register", "de/da6/a28184.html#a870ee08d0341f6640710a87c97a6b98b", null ]
 ];

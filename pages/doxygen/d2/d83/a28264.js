@@ -1,7 +1,9 @@
 var a28264 =
 [
-    [ "CalculateAmount", "d2/d83/a28264.html#a5d4549ac73b46382c1beddbb65257ad0", null ],
-    [ "HandleUpdateSpellclick", "d2/d83/a28264.html#a89956d7f3a6404d5b60e46034867c82c", null ],
-    [ "PrepareAuraScript", "d2/d83/a28264.html#a7cbdc79c63306a8fcfcc06180998a290", null ],
-    [ "Register", "d2/d83/a28264.html#a2252719e6ea995b85b7b0c5ecb6a26d3", null ]
+    [ "HandleAfterCast", "d2/d83/a28264.html#ac08e632064c407346649f525d030d335", null ],
+    [ "HandleDummy", "d2/d83/a28264.html#a9c1dadd5a3e2e039b50a414ac589ebf4", null ],
+    [ "Load", "d2/d83/a28264.html#a177525c755b036a79263c0fa6fa4082e", null ],
+    [ "PrepareSpellScript", "d2/d83/a28264.html#aed99b07a53068b19bddb4daff3449a52", null ],
+    [ "Register", "d2/d83/a28264.html#a946e56a325d83656d9b43af80d065e45", null ],
+    [ "_triggerSpellId", "d2/d83/a28264.html#a6697a22b684784853cb1999d41fcaaa7", null ]
 ];

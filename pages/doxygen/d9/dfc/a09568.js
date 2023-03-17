@@ -1,10 +1,6 @@
 var a09568 =
 [
-    [ "QuestStatusData", "d9/dfc/a09568.html#ae71725a7f75e10aacb6f4a9ca4b72f27", null ],
-    [ "CreatureOrGOCount", "d9/dfc/a09568.html#aa5892dc0744a41ac565568307f12ad35", null ],
-    [ "Explored", "d9/dfc/a09568.html#a734f6a61aa35c77689d33031e88f0c0b", null ],
-    [ "ItemCount", "d9/dfc/a09568.html#a466999cea52f65bf58916bc34750bf95", null ],
-    [ "PlayerCount", "d9/dfc/a09568.html#a170a1e54fe45b7fd0c7934f1309f7969", null ],
-    [ "Status", "d9/dfc/a09568.html#a4ce7af3a64737d7961b6dfa19189c932", null ],
-    [ "Timer", "d9/dfc/a09568.html#a16343f7a162e5b7b6a1a18345420c77a", null ]
+    [ "PoolObject", "d9/dfc/a09568.html#a772dc7bc9e1ce25edba89977bf87e3f0", null ],
+    [ "chance", "d9/dfc/a09568.html#ae129795bb2f358af900dbc8892502123", null ],
+    [ "guid", "d9/dfc/a09568.html#ae10fa01f5959e231fe2c16d38d9f3615", null ]
 ];

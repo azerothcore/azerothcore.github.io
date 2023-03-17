@@ -1,6 +1,6 @@
 var a12384 =
 [
-    [ "instance_magisters_terrace_InstanceMapScript", "df/d3c/a12388.html", "df/d3c/a12388" ],
-    [ "instance_magisters_terrace", "dc/d53/a12384.html#a81e23ce04c4d765193d2d2763ef78987", null ],
-    [ "GetInstanceScript", "dc/d53/a12384.html#a465cbaebb13535cdb7f6a2108e026fc5", null ]
+    [ "boss_garaxxasAI", "df/d3c/a12388.html", "df/d3c/a12388" ],
+    [ "boss_garaxxas", "dc/d53/a12384.html#a97880421faf19338bea63d21434ef310", null ],
+    [ "GetAI", "dc/d53/a12384.html#a99e8fbef4805816bdc0338c3174853d5", null ]
 ];

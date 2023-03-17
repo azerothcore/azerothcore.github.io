@@ -1,5 +1,6 @@
 var a23968 =
 [
-    [ "achievement_wg_didnt_stand_a_chance", "d3/dd6/a23968.html#afb397c74f00d1f5c59a24ef74b0cd1cd", null ],
-    [ "OnCheck", "d3/dd6/a23968.html#ae575bae454689e05c161e8480a13fa18", null ]
+    [ "spell_wintergrasp_water_SpellScript", "d3/d66/a23972.html", "d3/d66/a23972" ],
+    [ "spell_wintergrasp_water", "d3/dd6/a23968.html#a5d325e37681e7f7804223122632232f4", null ],
+    [ "GetSpellScript", "d3/dd6/a23968.html#aa64f7089ec483e5763514b3fd9e5af77", null ]
 ];

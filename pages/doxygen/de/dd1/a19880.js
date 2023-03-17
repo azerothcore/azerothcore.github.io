@@ -1,10 +1,9 @@
 var a19880 =
 [
-    [ "boss_isle_of_conquestAI", "de/dd1/a19880.html#a7880ea86e7a03f5b14875065a83a206a", null ],
-    [ "CheckRageBuff", "de/dd1/a19880.html#a6d60480e39fa89dbcc0facce9f0b69a3", null ],
-    [ "EnterCombat", "de/dd1/a19880.html#a78af12edb5aa4ae7e06a4fb3cb993643", null ],
-    [ "Reset", "de/dd1/a19880.html#add59669e5f6c3c882ac008c720349573", null ],
-    [ "UpdateAI", "de/dd1/a19880.html#ab33aa7e735c5837428a4cf2b76e4275e", null ],
-    [ "events", "de/dd1/a19880.html#a38e308b66b0f35d3efe6916b03e4391c", null ],
-    [ "rage", "de/dd1/a19880.html#aa16ebdd6e2f486d3a6e4b58f4cb5e696", null ]
+    [ "npc_isle_of_conquest_turretAI", "de/dd1/a19880.html#a0a0f24af22e4c72e843970c0d5c1ff87", null ],
+    [ "JustDied", "de/dd1/a19880.html#a88390da94298bea9c445bb422a806d23", null ],
+    [ "SpellHit", "de/dd1/a19880.html#afc8b8a9be6b0908fcb83af57bef7a57a", null ],
+    [ "UpdateAI", "de/dd1/a19880.html#a81c039a2a230b261967842161757b6f8", null ],
+    [ "events", "de/dd1/a19880.html#aee0aa5a950b3743409fd3ae482bc94b8", null ],
+    [ "faction", "de/dd1/a19880.html#aca941c070a97278c8ec27d7e6b4edede", null ]
 ];

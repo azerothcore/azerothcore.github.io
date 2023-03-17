@@ -1,6 +1,9 @@
 var a22036 =
 [
-    [ "spell_xt002_tympanic_tantrum_SpellScript", "d6/d77/a22040.html", "d6/d77/a22040" ],
-    [ "spell_xt002_tympanic_tantrum", "d7/dbe/a22036.html#ac08790248570c9392030b2f0cbc19139", null ],
-    [ "GetSpellScript", "d7/dbe/a22036.html#aae70170ad1592e9ffa75acef067814f1", null ]
+    [ "npc_xt002_pummellerAI", "d7/dbe/a22036.html#a2942c05c93036c2e02b9a72c784441b1", null ],
+    [ "Reset", "d7/dbe/a22036.html#a6542fb3e585f100f06f6be14a1346306", null ],
+    [ "UpdateAI", "d7/dbe/a22036.html#a959990310303ff2102f1c03852b4ab8e", null ],
+    [ "_arcingSmashTimer", "d7/dbe/a22036.html#a830fda66756dc3f34a530939116e7556", null ],
+    [ "_trampleTimer", "d7/dbe/a22036.html#ae5e450601861f83b20419405bb92ef6d", null ],
+    [ "_uppercutTimer", "d7/dbe/a22036.html#a5a1bdb380438070effc091ec37db6aec", null ]
 ];

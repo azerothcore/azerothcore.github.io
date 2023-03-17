@@ -1,15 +1,13 @@
 var a24200 =
 [
-    [ "boss_nexusprince_shaffarAI", "d5/dff/a24200.html#abd50fddff913c69ede8a382f158122d9", null ],
-    [ "EnterCombat", "d5/dff/a24200.html#aadd6afca49a780d2d1465179066d7460", null ],
-    [ "JustDied", "d5/dff/a24200.html#a58fdfc0b2c539312a07e60b6e6ada1f6", null ],
-    [ "JustSummoned", "d5/dff/a24200.html#ad2d61db209a9ee2addb14bdc06a5dede", null ],
-    [ "KilledUnit", "d5/dff/a24200.html#a3d4b234586c6a6a7f7201d2a68396e28", null ],
-    [ "MoveInLineOfSight", "d5/dff/a24200.html#a1af79bae09eebec48fa8aed2f012df40", null ],
-    [ "Reset", "d5/dff/a24200.html#a1c3df2ad038e7f41b75103ff5dd681aa", null ],
-    [ "SummonedCreatureDespawn", "d5/dff/a24200.html#a4e99d86e582c602d73f13c64cf4ab3c7", null ],
-    [ "UpdateAI", "d5/dff/a24200.html#a05d6395ed5292d2b4bd7ba9cd95765be", null ],
-    [ "events", "d5/dff/a24200.html#a9556c823a8e158196b18d1cb8b4edb63", null ],
-    [ "HasTaunted", "d5/dff/a24200.html#abb841b90cfd8b48521f096740e3325be", null ],
-    [ "summons", "d5/dff/a24200.html#a57822dc8b5688d94614c5a19dea8a511", null ]
+    [ "boss_shirrak_the_dead_watcherAI", "d5/dff/a24200.html#aac377d577b62eb8bf6a68a3fe7596fee", null ],
+    [ "EnterEvadeMode", "d5/dff/a24200.html#a35c3d9bede4600adc629064e4af30ca3", null ],
+    [ "getStackCount", "d5/dff/a24200.html#a545c5e8b027b36e8a6096e70b6297965", null ],
+    [ "JustEngagedWith", "d5/dff/a24200.html#a505e8684e148ad1dc16ce7a0b643eec9", null ],
+    [ "JustSummoned", "d5/dff/a24200.html#abf65ba6c561d753ec1273f059fa776e5", null ],
+    [ "Reset", "d5/dff/a24200.html#a2967ca676067468f6a5772ab894404a2", null ],
+    [ "SpellHitTarget", "d5/dff/a24200.html#a58a58b334c9c0a6172ec46619e33d8dd", null ],
+    [ "UpdateAI", "d5/dff/a24200.html#a8ee003aa58e93fb45f8f29e12ca799a9", null ],
+    [ "events", "d5/dff/a24200.html#abefb91e1c94e7f32cf3a9c631e9608d1", null ],
+    [ "focusGUID", "d5/dff/a24200.html#a293c16bc9b35c156f66373a2395e7f0a", null ]
 ];

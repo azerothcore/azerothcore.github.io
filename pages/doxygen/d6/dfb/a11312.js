@@ -1,5 +1,6 @@
 var a11312 =
 [
-    [ "boss_moira_bronzebeard", "d6/dfb/a11312.html#abb9a87023b8afa242e60f9694dea1c39", null ],
-    [ "GetAI", "d6/dfb/a11312.html#ad99554aac80c79933b78ab4b6d42cc4f", null ]
+    [ "boss_gorosh_the_dervishAI", "d0/d7b/a11316.html", "d0/d7b/a11316" ],
+    [ "boss_gorosh_the_dervish", "d6/dfb/a11312.html#a18c39f21ebf6a9d43d37eb92857083a3", null ],
+    [ "GetAI", "d6/dfb/a11312.html#abae1fa2a7e959d1b7b02e0850aff4fb9", null ]
 ];

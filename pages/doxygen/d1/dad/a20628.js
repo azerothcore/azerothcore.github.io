@@ -1,6 +1,6 @@
 var a20628 =
 [
-    [ "npc_hol_monumentAI", "d2/dad/a20632.html", "d2/dad/a20632" ],
-    [ "npc_hol_monument", "d1/dad/a20628.html#ae70329e600ba869891e04b31d7452fc0", null ],
-    [ "GetAI", "d1/dad/a20628.html#a8e025a4c67d3a04a231f4effe0ef3746", null ]
+    [ "spell_loken_pulsing_shockwave_SpellScript", "d2/dad/a20632.html", "d2/dad/a20632" ],
+    [ "spell_loken_pulsing_shockwave", "d1/dad/a20628.html#a02151186fe627a2da0d0576a0cbac0ed", null ],
+    [ "GetSpellScript", "d1/dad/a20628.html#a5cf81ce86ea77d7ce5d761e83f25a4f8", null ]
 ];

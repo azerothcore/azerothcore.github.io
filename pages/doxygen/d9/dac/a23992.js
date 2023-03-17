@@ -1,6 +1,5 @@
 var a23992 =
 [
-    [ "npc_feedin_da_goolzAI", "d8/d14/a23996.html", "d8/d14/a23996" ],
-    [ "npc_feedin_da_goolz", "d9/dac/a23992.html#ace9fd4ca5809c0d47b49fc63ca8363be", null ],
-    [ "GetAI", "d9/dac/a23992.html#a61ab3189e2525a995a87eec06d45e355", null ]
+    [ "achievement_wg_didnt_stand_a_chance", "d9/dac/a23992.html#afb397c74f00d1f5c59a24ef74b0cd1cd", null ],
+    [ "OnCheck", "d9/dac/a23992.html#ae575bae454689e05c161e8480a13fa18", null ]
 ];

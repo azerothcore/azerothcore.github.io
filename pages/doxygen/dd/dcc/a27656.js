@@ -1,6 +1,7 @@
 var a27656 =
 [
-    [ "CheckProc", "dd/dcc/a27656.html#a8158e7338b29b072f0c851771d0e8eee", null ],
-    [ "PrepareAuraScript", "dd/dcc/a27656.html#a44a18144e276e7bdc80c5a19f1d442e2", null ],
-    [ "Register", "dd/dcc/a27656.html#ae24336f87db322e546bd858bc50f2351", null ]
+    [ "OnRemove", "dd/dcc/a27656.html#a1f4f852ef6d5b2313df20af540eee7da", null ],
+    [ "PrepareAuraScript", "dd/dcc/a27656.html#a8abf8084dd8bb1ac74b3884380cda809", null ],
+    [ "Register", "dd/dcc/a27656.html#a35a8adc4944fc2333488e72498f6d252", null ],
+    [ "Validate", "dd/dcc/a27656.html#aa312f28f03cc0929eb9ea8ba526ebb54", null ]
 ];

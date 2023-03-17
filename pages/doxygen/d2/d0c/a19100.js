@@ -1,6 +1,6 @@
 var a19100 =
 [
-    [ "spell_the_lich_king_teleport_to_frostmourne_hc_SpellScript", "de/d15/a19104.html", "de/d15/a19104" ],
-    [ "spell_the_lich_king_teleport_to_frostmourne_hc", "d2/d0c/a19100.html#a545cc9007139d0b4e153302763ef3253", null ],
-    [ "GetSpellScript", "d2/d0c/a19100.html#a9c352a23c9759f3a28f12d5db4035175", null ]
+    [ "spell_the_lich_king_soul_reaper_AuraScript", "de/d15/a19104.html", "de/d15/a19104" ],
+    [ "spell_the_lich_king_soul_reaper", "d2/d0c/a19100.html#af59797578ed3cf26088a4456c8aeafc9", null ],
+    [ "GetAuraScript", "d2/d0c/a19100.html#a0a8d7fe2854b563c611110464a68971e", null ]
 ];

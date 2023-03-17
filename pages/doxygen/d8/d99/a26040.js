@@ -1,6 +1,6 @@
 var a26040 =
 [
-    [ "npc_simon_bunnyAI", "df/da2/a26044.html", "df/da2/a26044" ],
-    [ "npc_simon_bunny", "d8/d99/a26040.html#afd3f3a24450bc8b748c0ff5b05b10da1", null ],
-    [ "GetAI", "d8/d99/a26040.html#ac0c97609916321a1599c0722803a050f", null ]
+    [ "spell_q10935_the_exorcism_of_colonel_jules_SpellScript", "df/da2/a26044.html", "df/da2/a26044" ],
+    [ "spell_q10935_the_exorcism_of_colonel_jules", "d8/d99/a26040.html#a6991db0b226c7f9c225922e4f5103fe2", null ],
+    [ "GetSpellScript", "d8/d99/a26040.html#a614fce6182e2cc35d8a3e985d48e3426", null ]
 ];

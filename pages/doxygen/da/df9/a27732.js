@@ -1,6 +1,8 @@
 var a27732 =
 [
-    [ "HandleSummon", "da/df9/a27732.html#aadfea4a2238754473a8abbc487fd7f7b", null ],
-    [ "PrepareSpellScript", "da/df9/a27732.html#a4974a3687df394d51db322210ebb5ddb", null ],
-    [ "Register", "da/df9/a27732.html#a89146ab41d1408c18ce2bff403ae8e4e", null ]
+    [ "CheckProc", "da/df9/a27732.html#a2e83dd62bfcbe23e38b62e8299a52ee5", null ],
+    [ "HandleProc", "da/df9/a27732.html#a1d45afc30c8dd6de0a01285778117033", null ],
+    [ "PrepareAuraScript", "da/df9/a27732.html#ab468329029c4bc3c16475585b3451615", null ],
+    [ "Register", "da/df9/a27732.html#a37700b8597a3945d30700c5e8b60404a", null ],
+    [ "Validate", "da/df9/a27732.html#a30e57e0b04e16a4a232c6a18801fafa0", null ]
 ];

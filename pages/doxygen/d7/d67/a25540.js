@@ -1,6 +1,6 @@
 var a25540 =
 [
-    [ "spell_tsh_shadow_sear_AuraScript", "d6/d35/a25544.html", "d6/d35/a25544" ],
-    [ "spell_tsh_shadow_sear", "d7/d67/a25540.html#a745a739d718cfa60b2917c2c60236c9e", null ],
-    [ "GetAuraScript", "d7/d67/a25540.html#a26b727266b988383838afb6c5105da6c", null ]
+    [ "PrepareSpellScript", "d7/d67/a25540.html#a92df4afd74be589b49d625bd9d94c8c1", null ],
+    [ "Register", "d7/d67/a25540.html#a50f394544ee34e6a8c753a5c757a9fb4", null ],
+    [ "SelectRandomPlayer", "d7/d67/a25540.html#a2022ea6fece62a6b391fce851a86c0f5", null ]
 ];

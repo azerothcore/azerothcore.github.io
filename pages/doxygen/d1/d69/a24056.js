@@ -1,13 +1,6 @@
 var a24056 =
 [
-    [ "OPvPCapturePointEP_EWT", "d1/d69/a24056.html#a3740f069c46f9d3f0e11d97663bc0104", null ],
-    [ "ChangeState", "d1/d69/a24056.html#ac00c50b89e1218f87506778096a9d7cd", null ],
-    [ "FillInitialWorldStates", "d1/d69/a24056.html#ad051a1cc41632414eab071aef5cf2f99", null ],
-    [ "HandlePlayerEnter", "d1/d69/a24056.html#aed78ccf9ad517b4a94431e3355cba1dd", null ],
-    [ "HandlePlayerLeave", "d1/d69/a24056.html#a2638b24dca375420778845963e307db3", null ],
-    [ "SendChangePhase", "d1/d69/a24056.html#a6d45df918aea00e9cb85a8940cb5c1c9", null ],
-    [ "SummonSupportUnitAtNorthpassTower", "d1/d69/a24056.html#ad70a8cc485072cd9af892290584062d8", null ],
-    [ "UpdateTowerState", "d1/d69/a24056.html#ac0bcdfb9f2aeabc78b72c3cce674c479", null ],
-    [ "m_TowerState", "d1/d69/a24056.html#aa30e9cc01476eb20b188c7a13a405c3a", null ],
-    [ "m_UnitsSummonedSideId", "d1/d69/a24056.html#a0319f0d51624df44419976e7abd1b813", null ]
+    [ "npc_crusade_recruitAI", "d6/d94/a24060.html", "d6/d94/a24060" ],
+    [ "npc_crusade_recruit", "d1/d69/a24056.html#a6e130f153c506255ef5ece1baf006028", null ],
+    [ "GetAI", "d1/d69/a24056.html#a412f0d153676758fda8c1f7f1e9dda44", null ]
 ];

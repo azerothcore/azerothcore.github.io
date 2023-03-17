@@ -1,9 +1,14 @@
 var a26084 =
 [
-    [ "npc_aeranasAI", "de/d5a/a26084.html#a2142cebc84e64919fa5c2ef630453282", null ],
-    [ "Reset", "de/d5a/a26084.html#a2c1bbe079c065745782adfa13b030515", null ],
-    [ "UpdateAI", "de/d5a/a26084.html#ae192a3b38c0ec65cddfce3b95d15555a", null ],
-    [ "envelopingWinds_Timer", "de/d5a/a26084.html#a566b5d648abe630efc191f9d6d4938a2", null ],
-    [ "faction_Timer", "de/d5a/a26084.html#aac071887c100f91cc7ffc545ea6439d9", null ],
-    [ "shock_Timer", "de/d5a/a26084.html#aba8ad016f0e470b07163fef07b603380", null ]
+    [ "npc_maghar_captiveAI", "de/d5a/a26084.html#abab2cfe84f4bb83fea3b35202a957bb5", null ],
+    [ "JustDied", "de/d5a/a26084.html#adbef78d8c908bfbce6ea506c55fb6922", null ],
+    [ "JustEngagedWith", "de/d5a/a26084.html#a2a0ec4a496c7352ba88ceef99eb769e4", null ],
+    [ "JustSummoned", "de/d5a/a26084.html#afe55f91acd8c47a758b8d08bd07d763f", null ],
+    [ "Reset", "de/d5a/a26084.html#abebcdcb102f8d338ae0b792708940cd7", null ],
+    [ "SpellHitTarget", "de/d5a/a26084.html#ab4f4deaae35fdbd602c9925f26e6d0e7", null ],
+    [ "UpdateAI", "de/d5a/a26084.html#a295cbae9196e320fabbb4cfb9dc33150", null ],
+    [ "WaypointReached", "de/d5a/a26084.html#abfbba8942df57e974ab24ad693c16e70", null ],
+    [ "ChainLightningTimer", "de/d5a/a26084.html#aa00a6978074f62d3d8ddead64d3240cf", null ],
+    [ "FrostShockTimer", "de/d5a/a26084.html#a2e4a5ef509e7f7ec33b1e83c90d2c80f", null ],
+    [ "HealTimer", "de/d5a/a26084.html#a31613adba706f3b5f948f2f7c4222038", null ]
 ];

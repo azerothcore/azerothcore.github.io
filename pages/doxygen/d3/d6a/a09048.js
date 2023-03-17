@@ -1,7 +1,6 @@
 var a09048 =
 [
-    [ "QuestItem", "d3/d6a/a09048.html#a1d6e1d5de83a397b17115dbeba2a58b3", null ],
-    [ "QuestItem", "d3/d6a/a09048.html#a51b978ee64ec979ebe097f3b3f4c3cd0", null ],
-    [ "index", "d3/d6a/a09048.html#a0e48289882a1eabb6c8ff30032193bd2", null ],
-    [ "is_looted", "d3/d6a/a09048.html#a48f2baabd2d5a07313dc38a27c6f4713", null ]
+    [ "DoorInfo", "d3/d6a/a09048.html#a26f4849a1d68df466e6db0ccbb8d001b", null ],
+    [ "bossInfo", "d3/d6a/a09048.html#a14f7742a1b272d0cd76dda6ce28cde26", null ],
+    [ "type", "d3/d6a/a09048.html#ad77a91752ea10a11c8e73655e63dd5c1", null ]
 ];

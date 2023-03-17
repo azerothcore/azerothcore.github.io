@@ -1,6 +1,7 @@
 var a27352 =
 [
-    [ "HandleScriptEffect", "d4/d8c/a27352.html#a422a77760004d6d6fac6bacdb1d436ff", null ],
-    [ "PrepareSpellScript", "d4/d8c/a27352.html#a1d7e2beafb55464f928ea5904441d698", null ],
-    [ "Register", "d4/d8c/a27352.html#aeaa8321255f377b85884df25a455554f", null ]
+    [ "OnApply", "d4/d8c/a27352.html#afda219a18001505ae7a2d01b1d5b25c0", null ],
+    [ "OnRemove", "d4/d8c/a27352.html#a54bcd84599d6e5a6d7f538e2b40b890b", null ],
+    [ "PrepareAuraScript", "d4/d8c/a27352.html#a9a7b549e059b6bd2d22802f60e952658", null ],
+    [ "Register", "d4/d8c/a27352.html#aae603735281daf02ceca157e218d5c9f", null ]
 ];

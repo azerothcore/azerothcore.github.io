@@ -1,6 +1,5 @@
 var a17472 =
 [
-    [ "entry", "df/dca/a17472.html#af2cf5df64adf9ac1575a8217b103e738", null ],
-    [ "x", "df/dca/a17472.html#aad21475d521921ea30cc0ae5d260ce69", null ],
-    [ "y", "df/dca/a17472.html#abd69e1c28ad36466c82807ea0ffb0fb7", null ]
+    [ "PrepareAuraScript", "df/dca/a17472.html#a408a44efe2e85ebcb4840025466e5d9e", null ],
+    [ "Register", "df/dca/a17472.html#a41d972e3b7ecf7159ceda6b2d0afe855", null ]
 ];

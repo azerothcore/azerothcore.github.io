@@ -1,6 +1,6 @@
 var a23468 =
 [
-    [ "spell_warhead_detonate_SpellScript", "dd/df8/a23472.html", "dd/df8/a23472" ],
-    [ "spell_warhead_detonate", "dd/dae/a23468.html#a7acf451f6fa98d1007db418b704a4c1a", null ],
-    [ "GetSpellScript", "dd/dae/a23468.html#a5ccef6ac9404571d92764220c9ef8315", null ]
+    [ "spell_infected_worgen_bite_AuraScript", "dd/df8/a23472.html", "dd/df8/a23472" ],
+    [ "spell_infected_worgen_bite", "dd/dae/a23468.html#accb43d32465202559874af3b370e5e13", null ],
+    [ "GetAuraScript", "dd/dae/a23468.html#a54d202aeed1498529afc9e431d842668", null ]
 ];

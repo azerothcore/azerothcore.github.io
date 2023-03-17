@@ -1,6 +1,6 @@
 var a22676 =
 [
-    [ "HandleOnHit", "de/d72/a22676.html#a032001817b4c07dca0f3619116bd7158", null ],
-    [ "PrepareSpellScript", "de/d72/a22676.html#ab5b0e56ecac460d90be6036fcd146a20", null ],
-    [ "Register", "de/d72/a22676.html#ad809441bbb00ad6bf1ecafe394d9f24d", null ]
+    [ "HandleScript", "de/d72/a22676.html#ac5f5d82e34a924524bdb8f1b2d9f2e07", null ],
+    [ "PrepareSpellScript", "de/d72/a22676.html#aad2f4314b8baba8efe18db46d81cd676", null ],
+    [ "Register", "de/d72/a22676.html#a0335d861e6002c9fa58563027dc22632", null ]
 ];

@@ -1,6 +1,6 @@
 var a29224 =
 [
-    [ "go_witherbark_totem_bundleAI", "d0/d41/a29224.html#a955625e2315008a2e36936d44f825060", null ],
-    [ "UpdateAI", "d0/d41/a29224.html#af688bab2dc3d938951adb303e8b8d88b", null ],
-    [ "_timer", "d0/d41/a29224.html#a509e6d8401380c326a0f565a6b903d7a", null ]
+    [ "go_gilded_brazierAI", "dd/d2d/a29228.html", "dd/d2d/a29228" ],
+    [ "go_gilded_brazier", "d0/d41/a29224.html#a778c753a8432131601371da8849ef004", null ],
+    [ "GetAI", "d0/d41/a29224.html#a2c8ced3e29c05c9d55745c4f10c9202d", null ]
 ];

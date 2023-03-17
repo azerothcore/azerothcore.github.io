@@ -1,7 +1,6 @@
 var a19072 =
 [
-    [ "ChangeDamageAndGrow", "dd/d78/a19072.html#a80c257482316a338c63f60ba08b57727", null ],
-    [ "CorrectRange", "dd/d78/a19072.html#aee053b79667b1491b4453ee109383db0", null ],
-    [ "PrepareSpellScript", "dd/d78/a19072.html#a3361609cf1f5d3348e6ee8e028acf9f2", null ],
-    [ "Register", "dd/d78/a19072.html#ad81bc34e922ba418cbedf5065af82c4c", null ]
+    [ "spell_the_lich_king_raging_spirit_SpellScript", "d0/de7/a19076.html", "d0/de7/a19076" ],
+    [ "spell_the_lich_king_raging_spirit", "dd/d78/a19072.html#ab06cf77568cd276aac86043f13d3b070", null ],
+    [ "GetSpellScript", "dd/d78/a19072.html#a25f0d26ea6b87567ac37a85efa8049c9", null ]
 ];

@@ -1,6 +1,6 @@
 var a24820 =
 [
-    [ "HandleScriptEffect", "df/d6e/a24820.html#a8b48755152dd8e69ba9af49039f5d9e7", null ],
-    [ "PrepareSpellScript", "df/d6e/a24820.html#a57b4b8dd9711b87e09473203229d6476", null ],
-    [ "Register", "df/d6e/a24820.html#adb82970b2a99f0b692506c6c9fdfec44", null ]
+    [ "instance_black_temple_InstanceMapScript", "d7/d73/a24824.html", "d7/d73/a24824" ],
+    [ "instance_black_temple", "df/d6e/a24820.html#a2efd6c7fff15c8fd03652ef9a65088eb", null ],
+    [ "GetInstanceScript", "df/d6e/a24820.html#a947a1279eabde75d9884b1ef84b295a3", null ]
 ];

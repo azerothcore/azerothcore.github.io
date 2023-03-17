@@ -1,10 +1,11 @@
 var a08156 =
 [
-    [ "RedirectThreatInfo", "d2/de7/a08156.html#a23b5adf3087ddba3b92133199aa42cf8", null ],
-    [ "GetTargetGUID", "d2/de7/a08156.html#ae206110e4d7155bb87079ebd58800e3d", null ],
-    [ "GetThreatPct", "d2/de7/a08156.html#a58bd2c745f92625ff7eac0ddca6a23a0", null ],
-    [ "ModifyThreatPct", "d2/de7/a08156.html#ac7093218d9b8c6ea03683dd5624bde8f", null ],
-    [ "Set", "d2/de7/a08156.html#a140b7a0adb6e6b71b21e8d6db7125ae2", null ],
-    [ "_targetGUID", "d2/de7/a08156.html#a98f9efc5209ef7200e71ff39310520dd", null ],
-    [ "_threatPct", "d2/de7/a08156.html#a95d6d366d664888f532d40afd1cc57d2", null ]
+    [ "DispelInfo", "d2/de7/a08156.html#ab6e88e6fc168d22a8b31754a9b1bf2e5", null ],
+    [ "GetDispeller", "d2/de7/a08156.html#a1c6f02de66ffa847c09d19922b02bc20", null ],
+    [ "GetDispellerSpellId", "d2/de7/a08156.html#a0d09f205ff9374fddc694a66ccf0c31d", null ],
+    [ "GetRemovedCharges", "d2/de7/a08156.html#a9c0bd34ebe7d0a0839b7bdee31ef3f3d", null ],
+    [ "SetRemovedCharges", "d2/de7/a08156.html#a3c249e2b70b9f4d8bb3bd9fed07a1bd7", null ],
+    [ "_chargesRemoved", "d2/de7/a08156.html#a5b6105f37470acb57bbda3e14ee664be", null ],
+    [ "_dispellerSpell", "d2/de7/a08156.html#a484e6d516c5de30413e97f2c4abb5515", null ],
+    [ "_dispellerUnit", "d2/de7/a08156.html#ab14d6e0df8bbb89ef0d3550724209040", null ]
 ];

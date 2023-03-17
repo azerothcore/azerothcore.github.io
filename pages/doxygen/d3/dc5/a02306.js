@@ -1,5 +1,5 @@
 var a02306 =
 [
-    [ "instance_commandscript", "d3/d4c/a11011.html", "d3/d4c/a11011" ],
-    [ "AddSC_instance_commandscript", "d3/dc5/a02306.html#a3d7dc88b6e95322f2f3dc69ad367fa0c", null ]
+    [ "go_commandscript", "d7/dc0/a11032.html", "d7/dc0/a11032" ],
+    [ "AddSC_go_commandscript", "d3/dc5/a02306.html#a95fcb467686a27e069827ed3775df197", null ]
 ];

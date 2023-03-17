@@ -1,5 +1,6 @@
 var a21956 =
 [
-    [ "go_thorim_lever", "de/d1a/a21956.html#a7641a89c3c369d26753a6e97dd435802", null ],
-    [ "OnGossipHello", "de/d1a/a21956.html#aa48cd4d5728bd2d012a91f51299827a0", null ]
+    [ "boss_thorim_runic_colossusAI", "d3/d44/a21960.html", "d3/d44/a21960" ],
+    [ "boss_thorim_runic_colossus", "de/d1a/a21956.html#a2ea1c08a98b689cd6c766578e98a3191", null ],
+    [ "GetAI", "de/d1a/a21956.html#a6d64427ff427a1054e10c9d987b77f53", null ]
 ];

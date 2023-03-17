@@ -1,6 +1,7 @@
 var a26152 =
 [
-    [ "deathblow_to_the_legion_triggerAI", "d5/d8f/a26156.html", "d5/d8f/a26156" ],
-    [ "deathblow_to_the_legion_trigger", "d3/dd4/a26152.html#aa5647cc67ecb326ef714973e1f9ea296", null ],
-    [ "GetAI", "d3/dd4/a26152.html#a5f86d50c7e7999a152c3b263ce3e86d8", null ]
+    [ "npc_bessyAI", "d5/d8f/a26156.html", "d5/d8f/a26156" ],
+    [ "npc_bessy", "d3/dd4/a26152.html#a08278c1524445054ca158433044a0824", null ],
+    [ "GetAI", "d3/dd4/a26152.html#af805bc5ee3de2fd6773158e51bf09d4a", null ],
+    [ "OnQuestAccept", "d3/dd4/a26152.html#a98b8e816195b81bab12cc9906df79807", null ]
 ];

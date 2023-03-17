@@ -1,6 +1,6 @@
 var a14128 =
 [
-    [ "go_direbrew_mole_machineAI", "d5/dde/a14132.html", "d5/dde/a14132" ],
-    [ "go_direbrew_mole_machine", "d6/da1/a14128.html#a759d291a5be227d8beae3bbc779e56f4", null ],
-    [ "GetAI", "d6/da1/a14128.html#a793e5e544664d6c2c3897161c9cccbbb", null ]
+    [ "HandleAfterHit", "d6/da1/a14128.html#a4a3122d1b69baeae76f1ae3b6818bfb5", null ],
+    [ "PrepareSpellScript", "d6/da1/a14128.html#a284796ec70bdfaea9919f54da94f0021", null ],
+    [ "Register", "d6/da1/a14128.html#a30dcb608c20df17de9597ece1930d59d", null ]
 ];

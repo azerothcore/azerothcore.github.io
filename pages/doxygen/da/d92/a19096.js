@@ -1,6 +1,7 @@
 var a19096 =
 [
-    [ "ModDestHeight", "da/d92/a19096.html#a47dfb0a230244faa80c703a35b630caf", null ],
-    [ "PrepareSpellScript", "da/d92/a19096.html#ab9386d4b8f76238824a111086cb3af1d", null ],
-    [ "Register", "da/d92/a19096.html#a3f284e3d7b07154c6663b5289aa6d3ce", null ]
+    [ "ChangeDamageAndGrow", "da/d92/a19096.html#a80c257482316a338c63f60ba08b57727", null ],
+    [ "CorrectRange", "da/d92/a19096.html#aee053b79667b1491b4453ee109383db0", null ],
+    [ "PrepareSpellScript", "da/d92/a19096.html#a3361609cf1f5d3348e6ee8e028acf9f2", null ],
+    [ "Register", "da/d92/a19096.html#ad81bc34e922ba418cbedf5065af82c4c", null ]
 ];

@@ -1,10 +1,7 @@
 var a29580 =
 [
-    [ "npc_training_dummyAI", "d4/df9/a29580.html#a2f10fd0b4365e99446f728883a47eb6a", null ],
-    [ "DamageTaken", "d4/df9/a29580.html#a641c40906a6365f068ccbdba9d033923", null ],
-    [ "EnterEvadeMode", "d4/df9/a29580.html#adb1de124bdb2a986efcfcfc287b6d824", null ],
-    [ "MoveInLineOfSight", "d4/df9/a29580.html#a52f3516e9da6895eeddcdef7a198a6b1", null ],
-    [ "Reset", "d4/df9/a29580.html#af63f500cb3179964c90afab0d4a2c9b7", null ],
-    [ "UpdateAI", "d4/df9/a29580.html#a5e7892a64cd1a5cf678b401b62497bfb", null ],
-    [ "resetTimer", "d4/df9/a29580.html#a443f2f7de257af473d6e9793f34a2071", null ]
+    [ "npc_wormholeAI", "d4/df9/a29580.html#a75c28ce9bcbb5ef6fb4213d000d5596a", null ],
+    [ "GetData", "d4/df9/a29580.html#ad4c9f2265f126c7f2b5538bab6b75cb3", null ],
+    [ "InitializeAI", "d4/df9/a29580.html#aa0a903014ec7243036604ffcc67e0a36", null ],
+    [ "_showUnderground", "d4/df9/a29580.html#a6a2fbf623b8fc55cfd48a12e2c515134", null ]
 ];

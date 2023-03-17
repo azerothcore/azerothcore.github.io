@@ -1,6 +1,9 @@
 var a27660 =
 [
-    [ "HandleHeal", "db/d1a/a27660.html#a3d315ab6d76d45f3d0f5de4a312377ff", null ],
-    [ "PrepareSpellScript", "db/d1a/a27660.html#ad77d816c82714fe2cafb4dbf48691937", null ],
-    [ "Register", "db/d1a/a27660.html#a313abe6367e5494bd81a557ab42f9f50", null ]
+    [ "spell_item_trigger_spell", "db/d1a/a27660.html#a619e9a5233e36157cbdaba70a3ba80da", null ],
+    [ "HandleDummy", "db/d1a/a27660.html#a49613255eea28e34cf5ff8a06798f89a", null ],
+    [ "PrepareSpellScript", "db/d1a/a27660.html#a78903f92c30fb23ff7297f7fa16c4861", null ],
+    [ "Register", "db/d1a/a27660.html#ab9abd9f01ce37c23d6502e6d86e3f998", null ],
+    [ "Validate", "db/d1a/a27660.html#a2f2df93e8f9d0e51273560665ea5c245", null ],
+    [ "_triggeredSpellId", "db/d1a/a27660.html#a610c5ac434fe788120ed101f7bf58f63", null ]
 ];

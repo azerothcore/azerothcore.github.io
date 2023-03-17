@@ -1,6 +1,9 @@
 var a26444 =
 [
-    [ "spell_q10036_torgos_SpellScript", "d7/d4c/a26448.html", "d7/d4c/a26448" ],
-    [ "spell_q10036_torgos", "da/d23/a26444.html#a0599d2c00020c5978dc66f54b360a8be", null ],
-    [ "GetSpellScript", "da/d23/a26444.html#a0bdd5a74c9f114537d8d206536dd418c", null ]
+    [ "npc_cooshcooshAI", "da/d23/a26444.html#a9749ad10a6615f865942d7388ec39513", null ],
+    [ "JustEngagedWith", "da/d23/a26444.html#aa38412e1fdb8b00f7e1392e6692f99b3", null ],
+    [ "Reset", "da/d23/a26444.html#a44521be38426a7db75c2a649bdfecd03", null ],
+    [ "UpdateAI", "da/d23/a26444.html#a0c7c073c565867ec52c072e9f43810e0", null ],
+    [ "LightningBolt_Timer", "da/d23/a26444.html#a6c46dfe62caaa582bb5131290856f421", null ],
+    [ "m_uiNormFaction", "da/d23/a26444.html#a4108eb5b0a4441a7f276c960fafd8ce8", null ]
 ];

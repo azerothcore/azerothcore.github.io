@@ -1,6 +1,6 @@
 var a11524 =
 [
-    [ "npc_vaelastrasz_the_redAI", "d4/d92/a11528.html", "d4/d92/a11528" ],
-    [ "npc_vaelastrasz_the_red", "de/d89/a11524.html#af39fcaa29b200e3b7933f97de277df6b", null ],
-    [ "GetAI", "de/d89/a11524.html#a59e7630d5060986dc4209d2d2b5ef42b", null ]
+    [ "boss_urok_doomhowlAI", "d4/d92/a11528.html", "d4/d92/a11528" ],
+    [ "boss_urok_doomhowl", "de/d89/a11524.html#a0ca9cea9919648baa5ff7db2d5a5b530", null ],
+    [ "GetAI", "de/d89/a11524.html#ac77756af77191e02df49161da0ace268", null ]
 ];

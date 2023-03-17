@@ -1,6 +1,6 @@
 var a18460 =
 [
-    [ "FilterTargets", "dc/d8d/a18460.html#a07eaa43c909f9d4afca2c90987b6be57", null ],
-    [ "PrepareSpellScript", "dc/d8d/a18460.html#a60ab39b8f4bfe0903faf1a8fd1210b22", null ],
-    [ "Register", "dc/d8d/a18460.html#ac55d048657610abb413698d73f42f423", null ]
+    [ "PrepareSpellScript", "dc/d8d/a18460.html#ae9d9dd2d4937277c4595903769432cd7", null ],
+    [ "Register", "dc/d8d/a18460.html#a84945ad2f4d106ac9eb8e3077d63811b", null ],
+    [ "SelectDest", "dc/d8d/a18460.html#a5d20bb804da4680ee836c6835c24737b", null ]
 ];

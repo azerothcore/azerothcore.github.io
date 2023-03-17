@@ -1,11 +1,6 @@
 var a12500 =
 [
-    [ "npc_crusade_persuadedAI", "d6/d49/a12500.html#a9a6a762384bb8ca74a34d30472fa8e3c", null ],
-    [ "EnterCombat", "d6/d49/a12500.html#adf8f594be854b35799996978d3edf123", null ],
-    [ "Reset", "d6/d49/a12500.html#a127c36f01e2ddfeb26f3192a1db8ffaf", null ],
-    [ "SpellHit", "d6/d49/a12500.html#a72476d0e2c63d629c2200824cd3cb5a1", null ],
-    [ "UpdateAI", "d6/d49/a12500.html#a078facb2a0e5ba27f44999e7bb1e55f7", null ],
-    [ "playerGUID", "d6/d49/a12500.html#a3076964de32f12d70d41677fb626719b", null ],
-    [ "speechCounter", "d6/d49/a12500.html#a4b0c5d69a7563b2f4f399a60010378a9", null ],
-    [ "speechTimer", "d6/d49/a12500.html#aada4f1277fc1f000c27cefcd6011c24d", null ]
+    [ "npc_unworthy_initiate_anchorAI", "d7/d32/a12504.html", "d7/d32/a12504" ],
+    [ "npc_unworthy_initiate_anchor", "d6/d49/a12500.html#a3d4c6d9e5ffa66d3424297b27e5ac4a1", null ],
+    [ "GetAI", "d6/d49/a12500.html#ab012983661d20a3ffa4f58136bd2d808", null ]
 ];

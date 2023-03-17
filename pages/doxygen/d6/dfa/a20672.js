@@ -1,11 +1,12 @@
 var a20672 =
 [
-    [ "boss_maiden_of_griefAI", "d6/dfa/a20672.html#a521decece7a53165349ebcfb9fb8dfb5", null ],
-    [ "EnterCombat", "d6/dfa/a20672.html#a5352f25bf28aaa5ee8b57a43188eede5", null ],
-    [ "JustDied", "d6/dfa/a20672.html#abd3977cca1cbbf4b64c278a641514fc8", null ],
-    [ "KilledUnit", "d6/dfa/a20672.html#a3d2173db5a852a356c187b2d2771b75f", null ],
-    [ "Reset", "d6/dfa/a20672.html#a46776004549b0dcfcf73351225adaad8", null ],
-    [ "UpdateAI", "d6/dfa/a20672.html#a4e26fc785b3c72982f9d98e0b120e929", null ],
-    [ "events", "d6/dfa/a20672.html#aa2d2ccea219b679594d8d8b4a38d70cc", null ],
-    [ "pInstance", "d6/dfa/a20672.html#abc195718a208a926f978d7f0fe0e7925", null ]
+    [ "boss_krystallusAI", "d6/dfa/a20672.html#adfa2ab8498279937bf497292d6e7cba5", null ],
+    [ "JustDied", "d6/dfa/a20672.html#a5b77186f7c0920142a64a03c508dcc3e", null ],
+    [ "JustEngagedWith", "d6/dfa/a20672.html#aaba17094bfe43c9ad63076f84d10a83a", null ],
+    [ "KilledUnit", "d6/dfa/a20672.html#acf9101c5b776820039fd80e5d6e0c138", null ],
+    [ "RemoveStonedEffect", "d6/dfa/a20672.html#ae8bdb2bca7c01c564adab93f1dd67720", null ],
+    [ "Reset", "d6/dfa/a20672.html#ae163fbd682f09f2a49fa71309284ed3b", null ],
+    [ "UpdateAI", "d6/dfa/a20672.html#a79095e25f1d9dac927f63cef67db60ec", null ],
+    [ "events", "d6/dfa/a20672.html#afcd06280f8c7640ff9a56223f5bf3555", null ],
+    [ "pInstance", "d6/dfa/a20672.html#aec9cf7053476298f72dccf3bd1579c63", null ]
 ];

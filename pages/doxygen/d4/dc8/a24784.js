@@ -1,6 +1,6 @@
 var a24784 =
 [
-    [ "spell_illidari_council_judgement_SpellScript", "dd/d9f/a24788.html", "dd/d9f/a24788" ],
-    [ "spell_illidari_council_judgement", "d4/dc8/a24784.html#a01d8947e792fa79c000067e06ed64b6b", null ],
-    [ "GetSpellScript", "d4/dc8/a24784.html#ab78066e3a878108d818a826518adbaa2", null ]
+    [ "CalculateAmount", "d4/dc8/a24784.html#a68dc4fe6ec0b67bdf44de4053bf35581", null ],
+    [ "PrepareAuraScript", "d4/dc8/a24784.html#a6e3714441fc4ab3921c29a232c64fa1d", null ],
+    [ "Register", "d4/dc8/a24784.html#ac67ced6dd83ea72abb05b260f1e0001f", null ]
 ];

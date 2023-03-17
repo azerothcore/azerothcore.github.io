@@ -1,8 +1,8 @@
 var a13768 =
 [
-    [ "npc_zulaman_hostageAI", "d2/d12/a13772.html", "d2/d12/a13772" ],
-    [ "npc_zulaman_hostage", "d4/d6c/a13768.html#a12f9ad1889cacb60103c1e921c2fa0e9", null ],
-    [ "GetAI", "d4/d6c/a13768.html#a0ae144dc154dd028b409c9d2393f890c", null ],
-    [ "OnGossipHello", "d4/d6c/a13768.html#a89d68a976f916a4de2196b57ec0026b0", null ],
-    [ "OnGossipSelect", "d4/d6c/a13768.html#a114f6fbfab90944fd49babcba4b48a11", null ]
+    [ "entry", "d4/d6c/a13768.html#ad7431eb64907aed0a03205a37c65a735", null ],
+    [ "orient", "d4/d6c/a13768.html#ab54dc774ffa13a1cdff8cf8047330c82", null ],
+    [ "x", "d4/d6c/a13768.html#a9e2b1a05fdcb7ba5e67deed9906f2520", null ],
+    [ "y", "d4/d6c/a13768.html#ae726b332e6759612c76de6b9f38a3147", null ],
+    [ "z", "d4/d6c/a13768.html#a8a0e3c6d9e558a40cd9d543df6abf728", null ]
 ];

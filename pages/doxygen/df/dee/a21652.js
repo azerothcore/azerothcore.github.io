@@ -1,6 +1,6 @@
 var a21652 =
 [
-    [ "FilterTargets", "df/dee/a21652.html#adc1e71477c9bb4e8b4d66c26804f283a", null ],
-    [ "PrepareSpellScript", "df/dee/a21652.html#a70071278b2618169e4c0ef7951d02dcb", null ],
-    [ "Register", "df/dee/a21652.html#a98cf9d736a4b6e8bce2a7bf6c675e630", null ]
+    [ "spell_ulduar_stone_grip_AuraScript", "d7/d49/a21656.html", "d7/d49/a21656" ],
+    [ "spell_ulduar_stone_grip", "df/dee/a21652.html#af309ee5d986439533b58c83b68fbc817", null ],
+    [ "GetAuraScript", "df/dee/a21652.html#a311bd0e641fb7d389cd71f2d4ece6ad2", null ]
 ];

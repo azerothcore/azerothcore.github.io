@@ -1,20 +1,12 @@
 var a10912 =
 [
-    [ "account_commandscript", "d0/d00/a10912.html#acfea28449f30913389ab2eddfc512dbb", null ],
-    [ "GetCommands", "d0/d00/a10912.html#a28baac859fcc2ee8bbf00dcdf7b38f4d", null ],
-    [ "HandleAccount2FARemoveCommand", "d0/d00/a10912.html#a9cba65441f9e594e14ff55537f7f83f0", null ],
-    [ "HandleAccount2FASetupCommand", "d0/d00/a10912.html#aedfc70990dd6211938baad8b11a45e8c", null ],
-    [ "HandleAccountAddonCommand", "d0/d00/a10912.html#ac05636d86ea945c48fdf2c8565029e2e", null ],
-    [ "HandleAccountCommand", "d0/d00/a10912.html#aca24ee7a088839552cdf75c0a418d4e3", null ],
-    [ "HandleAccountCreateCommand", "d0/d00/a10912.html#af8b6cb76e8a6f762b86c3a8d7134d056", null ],
-    [ "HandleAccountDeleteCommand", "d0/d00/a10912.html#a4bb0b76ef822011054d699df31f60d7e", null ],
-    [ "HandleAccountLockCountryCommand", "d0/d00/a10912.html#a35e6b959596f1d9a32d39af117d2b95e", null ],
-    [ "HandleAccountLockIpCommand", "d0/d00/a10912.html#a14e0d3fefc18f003c0079250e5c06b18", null ],
-    [ "HandleAccountOnlineListCommand", "d0/d00/a10912.html#a36cb5b885d6c0745303b386ad42541f6", null ],
-    [ "HandleAccountPasswordCommand", "d0/d00/a10912.html#a5cbbc397cd816e82963c7e2e352c90e5", null ],
-    [ "HandleAccountRemoveLockCountryCommand", "d0/d00/a10912.html#a6a40319f52f00881a5be4a50f812b337", null ],
-    [ "HandleAccountSet2FACommand", "d0/d00/a10912.html#a195e5037d3c4886ca8e69a56daadd028", null ],
-    [ "HandleAccountSetAddonCommand", "d0/d00/a10912.html#aca017dc33dab7c379d8203569775f21b", null ],
-    [ "HandleAccountSetGmLevelCommand", "d0/d00/a10912.html#a1aaee019de3b7802281e25e926fa4821", null ],
-    [ "HandleAccountSetPasswordCommand", "d0/d00/a10912.html#a77e9bb9f0f82b19ec9306533cab0d7bd", null ]
+    [ "WardenMac", "d0/d00/a10912.html#a576c0cf7a819e95c97cc0ac4e5962d6d", null ],
+    [ "~WardenMac", "d0/d00/a10912.html#a5f3832580c73a0af34fa83669a92ceab", null ],
+    [ "GetModuleForClient", "d0/d00/a10912.html#a7a31b72ea7362c70f0fc9ff6e316d80b", null ],
+    [ "HandleData", "d0/d00/a10912.html#a024be47d39641cb0e7654b0e0999e444", null ],
+    [ "HandleHashResult", "d0/d00/a10912.html#a7feb3f82b2e0efd8427d6d8bcabaf17c", null ],
+    [ "Init", "d0/d00/a10912.html#ae329d60e41b9f5af2a2c7e4983936eac", null ],
+    [ "InitializeModule", "d0/d00/a10912.html#a4fceef34e83db1a357d9eadce35efdef", null ],
+    [ "RequestChecks", "d0/d00/a10912.html#a2437a3a5650305b05fc22d312d0006da", null ],
+    [ "RequestHash", "d0/d00/a10912.html#af031f18554c5a96b4eb39371a92b9c51", null ]
 ];

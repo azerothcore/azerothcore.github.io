@@ -1,6 +1,6 @@
 var a29256 =
 [
-    [ "go_flamesAI", "db/dea/a29256.html#a6473bff84b5c99cc616aa2d0912ed308", null ],
-    [ "UpdateAI", "db/dea/a29256.html#a2d4c91f0bff924335881d1096c0af313", null ],
-    [ "timer", "db/dea/a29256.html#ae53c7c6c669e982babf304f173b58b1a", null ]
+    [ "go_fel_crystalforge", "db/dea/a29256.html#aa44708a617edd51651da49918ab776e5", null ],
+    [ "OnGossipHello", "db/dea/a29256.html#aae9f4beff251efb7b29e1988ddd51eaf", null ],
+    [ "OnGossipSelect", "db/dea/a29256.html#a97450cce5f547e28ea84fa6a6f8ab79e", null ]
 ];

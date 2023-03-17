@@ -1,6 +1,5 @@
 var a29124 =
 [
-    [ "AreaTrigger_at_area_52_entrance", "d2/d71/a29124.html#a5b7e21903bca1c04bad1394c6965d032", null ],
-    [ "OnTrigger", "d2/d71/a29124.html#a1e537d133ee5e6ad1dbb0c732e23a128", null ],
-    [ "_triggerTimes", "d2/d71/a29124.html#a6c3225f46ea71d06b81b25d5fb6e8f25", null ]
+    [ "go_noblegarden_colored_egg", "d2/d71/a29124.html#a7e85d492a6c9f4e50a2c47d6e6dae535", null ],
+    [ "OnGossipHello", "d2/d71/a29124.html#ab3d349dfa5b4c0f58ed70f80cd084029", null ]
 ];

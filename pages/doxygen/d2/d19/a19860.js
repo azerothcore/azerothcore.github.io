@@ -1,6 +1,6 @@
 var a19860 =
 [
-    [ "npc_four_car_garageAI", "db/d62/a19864.html", "db/d62/a19864" ],
-    [ "npc_four_car_garage", "d2/d19/a19860.html#ae9b811544ab5cbdcb9c44abdc2da41a8", null ],
-    [ "GetAI", "d2/d19/a19860.html#ac55346f9733c5502a9e9f2d6d48feefb", null ]
+    [ "RespawnEvent", "d2/d19/a19860.html#accc0d5638ff7a493fa116ac2e8f2e58b", null ],
+    [ "Execute", "d2/d19/a19860.html#a2e58f4e472fb72cf5401f11be6e5e136", null ],
+    [ "_owner", "d2/d19/a19860.html#adb0835b4a2e7a2795bb81f0a1e3c911a", null ]
 ];

@@ -1,8 +1,6 @@
 var a26976 =
 [
-    [ "AfterApply", "df/d16/a26976.html#a4d2941ebb326d603ac08f428f811c29b", null ],
-    [ "AfterRemove", "df/d16/a26976.html#ac1e50413041edbecd5cc4189a1121cb5", null ],
-    [ "PrepareAuraScript", "df/d16/a26976.html#afa99d3e45e4a54c41b59ec317ffdd9b9", null ],
-    [ "Register", "df/d16/a26976.html#a78e30a950b9fc08dff5072028816b8b4", null ],
-    [ "Validate", "df/d16/a26976.html#ac3502abb9d6ef213ffd2413eba7916b2", null ]
+    [ "PrepareSpellScript", "df/d16/a26976.html#a209f68c2a9824ad771f7b6a25d4c4663", null ],
+    [ "Register", "df/d16/a26976.html#a759b195d4631a371bef3e6398e128034", null ],
+    [ "SelectTarget", "df/d16/a26976.html#a676c6fdbced0ea7e945c4724c9adf145", null ]
 ];

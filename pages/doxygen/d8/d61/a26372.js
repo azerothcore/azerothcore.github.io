@@ -1,8 +1,6 @@
 var a26372 =
 [
-    [ "npc_raliq_the_drunkAI", "da/d26/a26376.html", "da/d26/a26376" ],
-    [ "npc_raliq_the_drunk", "d8/d61/a26372.html#a9fa4a6e84f975daf222c41c8c6aabdf4", null ],
-    [ "GetAI", "d8/d61/a26372.html#a928b37bd045172366b5952e6381a8274", null ],
-    [ "OnGossipHello", "d8/d61/a26372.html#a25839fa2d77606bb4d679d0e29a6ae2f", null ],
-    [ "OnGossipSelect", "d8/d61/a26372.html#a0930a7b13cbf918a283f9b703f1409e3", null ]
+    [ "spell_q10923_evil_draws_near_periodic_AuraScript", "da/d26/a26376.html", "da/d26/a26376" ],
+    [ "spell_q10923_evil_draws_near_periodic", "d8/d61/a26372.html#aa4b9a813a30e42b9432205b9f2d86233", null ],
+    [ "GetAuraScript", "d8/d61/a26372.html#a18ebac1d4fb94cd6435049228265a4d0", null ]
 ];

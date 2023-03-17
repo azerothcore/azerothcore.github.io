@@ -1,6 +1,7 @@
 var a25300 =
 [
-    [ "spell_gruul_ground_slam_SpellScript", "df/d24/a25304.html", "df/d24/a25304" ],
-    [ "spell_gruul_ground_slam", "db/df4/a25300.html#a03639f50a03932d0b14d4630510ffe6e", null ],
-    [ "GetSpellScript", "db/df4/a25300.html#a28859f5451bc203e668b96476a1ff5db", null ]
+    [ "HandleScript", "db/df4/a25300.html#a42052a416290a54d5479a402de578a73", null ],
+    [ "PrepareSpellScript", "db/df4/a25300.html#a5f6aa972879b65c0207e47435d436a33", null ],
+    [ "Register", "db/df4/a25300.html#a98efb2a9a68d7878af9d6f9d46db88c9", null ],
+    [ "Validate", "db/df4/a25300.html#a0d10ed00f11ede2b63665e4cfe53a70c", null ]
 ];

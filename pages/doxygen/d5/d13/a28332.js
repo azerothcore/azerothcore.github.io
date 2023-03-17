@@ -1,7 +1,8 @@
 var a28332 =
 [
-    [ "if", "d5/d13/a28332.html#a2b5a85e480bcd0ef5074d3bcf7eaf5cb", null ],
-    [ "PrepareAuraScript", "d5/d13/a28332.html#aa31810077c241e77193e378cb297b7de", null ],
-    [ "Register", "d5/d13/a28332.html#a7b8f537719a4155d1cd95a6f49cf6a3a", null ],
-    [ "AuraEffectHandleModes", "d5/d13/a28332.html#a3113d8e7ec296fdf13c8f386ae74e0f3", null ]
+    [ "HandleDummy", "d5/d13/a28332.html#a1afcd9c6ab96c87db8aa4899d0830899", null ],
+    [ "Load", "d5/d13/a28332.html#a11d3cd0eccd4895f5cd9d2721bd3fd0c", null ],
+    [ "PrepareSpellScript", "d5/d13/a28332.html#a252784bb4b438750db5ef7f905477140", null ],
+    [ "Register", "d5/d13/a28332.html#ab93554e82cbed0c78452846c95247584", null ],
+    [ "Validate", "d5/d13/a28332.html#a33404726f5e5986b263eb0a0beba9443", null ]
 ];

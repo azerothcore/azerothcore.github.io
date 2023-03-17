@@ -1,6 +1,6 @@
 var a12132 =
 [
-    [ "boss_terestianAI", "d5/d98/a12136.html", "d5/d98/a12136" ],
-    [ "boss_terestian_illhoof", "d5/d41/a12132.html#abb5c82f6df3612f212c53bfe7183df43", null ],
-    [ "GetAI", "d5/d41/a12132.html#ac96b1218b8e6c2882796589e3f6176b0", null ]
+    [ "water_elementalAI", "d5/d98/a12136.html", "d5/d98/a12136" ],
+    [ "npc_aran_elemental", "d5/d41/a12132.html#a67c358583801875b0d9d21b6b0ce35f5", null ],
+    [ "GetAI", "d5/d41/a12132.html#a94193a067dc49b9df5a98d67db24d81d", null ]
 ];

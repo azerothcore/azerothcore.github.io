@@ -1,7 +1,8 @@
 var a28920 =
 [
-    [ "HandleApplyAura", "d3/d7e/a28920.html#ae364ff4048a2f59eadecd6934c7a0e13", null ],
-    [ "PrepareSpellScript", "d3/d7e/a28920.html#adf09900347264bc341884092ea0fee40", null ],
-    [ "Register", "d3/d7e/a28920.html#ac56484d4048817a164963e519a97d137", null ],
-    [ "Validate", "d3/d7e/a28920.html#ac028c0faf659fb74b2ffa5f85f58f8d1", null ]
+    [ "CheckProc", "d3/d7e/a28920.html#ab9b2a87dc91e2c6031a02043e6ce4f50", null ],
+    [ "HandleEffectProc", "d3/d7e/a28920.html#af01d160cb2a55124361a2dd113acd0a7", null ],
+    [ "PrepareAuraScript", "d3/d7e/a28920.html#aeffb8490a7208ae6e32a505283afbc03", null ],
+    [ "Register", "d3/d7e/a28920.html#a5436413d098dde4b0fa1ed2259a47779", null ],
+    [ "Validate", "d3/d7e/a28920.html#ae786a8c97e9f66152b8d0b55624a4eac", null ]
 ];

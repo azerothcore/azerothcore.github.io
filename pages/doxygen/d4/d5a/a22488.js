@@ -1,14 +1,9 @@
 var a22488 =
 [
-    [ "boss_dalronn_the_controllerAI", "d4/d5a/a22488.html#a74acf12255e669ba9e081be72ec10f26", null ],
-    [ "DoAction", "d4/d5a/a22488.html#adce321ce3c7123db4520c83adeca4c70", null ],
-    [ "EnterCombat", "d4/d5a/a22488.html#aff22f431a495263f3b6edf208b0b5ba4", null ],
-    [ "JustDied", "d4/d5a/a22488.html#a179583ec5fc4e472175ac928f0593584", null ],
-    [ "JustSummoned", "d4/d5a/a22488.html#ac5bfbb9d2d98f70d4bede908a1187c48", null ],
-    [ "KilledUnit", "d4/d5a/a22488.html#ab518322d3af739c546ee281a00c8b3f9", null ],
-    [ "Reset", "d4/d5a/a22488.html#a2ad24e213c8843b231e064dd453db976", null ],
-    [ "UpdateAI", "d4/d5a/a22488.html#a18b11c3046506d80f6295bcdb10957e9", null ],
-    [ "events", "d4/d5a/a22488.html#ac055e216fb58f0386d0f6784584f087c", null ],
-    [ "pInstance", "d4/d5a/a22488.html#a50970dde0b20e6219e755961671b741a", null ],
-    [ "summons", "d4/d5a/a22488.html#adf7ff910666145f0680f2e34e040c674", null ]
+    [ "npc_vrykul_skeletonAI", "d4/d5a/a22488.html#a06b3f450485e9e90c91b1e9f5c41a2bd", null ],
+    [ "DamageTaken", "d4/d5a/a22488.html#aeed85c443bd29c74aeb768e1f93b7006", null ],
+    [ "Reset", "d4/d5a/a22488.html#a30a56c6c5e8509f692100aa02c691481", null ],
+    [ "UpdateAI", "d4/d5a/a22488.html#ab8c18176fbe84f12ca5a63f99d66d394", null ],
+    [ "events", "d4/d5a/a22488.html#aa797776c850ef3480f30a1551cdb878b", null ],
+    [ "pInstance", "d4/d5a/a22488.html#a87c7c6a427a21c745fcfd3ff804f38d6", null ]
 ];

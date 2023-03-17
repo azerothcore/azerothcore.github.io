@@ -1,6 +1,6 @@
 var a28324 =
 [
-    [ "HandleDummyEffect", "d1/d87/a28324.html#ad5421ca3dd5bf802952f98e6d1170003", null ],
-    [ "PrepareSpellScript", "d1/d87/a28324.html#a9489556e1e16cd2e0d5c43b38d7ea5ee", null ],
-    [ "Register", "d1/d87/a28324.html#a2ad2c00807d07aeb55a8fd848a69f9d1", null ]
+    [ "HandleScriptEffect", "d1/d87/a28324.html#a703b5a1725e05bfbfccc3b6ee5107d95", null ],
+    [ "PrepareSpellScript", "d1/d87/a28324.html#ab2bb14aac4758dac46aae636ba09e50d", null ],
+    [ "Register", "d1/d87/a28324.html#ae2fca7fde9af90dd7d461c2d046d9783", null ]
 ];

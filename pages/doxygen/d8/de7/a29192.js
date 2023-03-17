@@ -1,7 +1,6 @@
 var a29192 =
 [
-    [ "HandlePeriodic", "d8/de7/a29192.html#a3da4cc5322f2e34244729fe3b3876482", null ],
-    [ "PrepareAuraScript", "d8/de7/a29192.html#aab7f5c5bdfdd2b440f59f16ab321765a", null ],
-    [ "Register", "d8/de7/a29192.html#a53b6067f46912648413fc6d6f107b0d8", null ],
-    [ "Validate", "d8/de7/a29192.html#aa03222717b3c06316b232a6ac0270ec0", null ]
+    [ "go_brewfest_musicAI", "d7/dcb/a29196.html", "d7/dcb/a29196" ],
+    [ "go_brewfest_music", "d8/de7/a29192.html#a787963a5ee591933d62fdb52911f9a77", null ],
+    [ "GetAI", "d8/de7/a29192.html#a50f36a6d0a72e7188dbe1bdaa09f1888", null ]
 ];

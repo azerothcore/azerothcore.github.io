@@ -1,6 +1,6 @@
 var a20940 =
 [
-    [ "achievement_assembly_of_iron", "d5/d7d/a20940.html#ae90d193b039d88ce38108b6617b5b8e9", null ],
-    [ "OnCheck", "d5/d7d/a20940.html#ae66b3e708b38bfe685f9d28c14c2d3f5", null ],
-    [ "_targetEntry", "d5/d7d/a20940.html#a20e8938ff30b18737fb96cf0277b5680", null ]
+    [ "spell_shield_of_runes_AuraScript", "d7/dc3/a20944.html", "d7/dc3/a20944" ],
+    [ "spell_shield_of_runes", "d5/d7d/a20940.html#a630b593aba0bb671f024f9d6e42c3db4", null ],
+    [ "GetAuraScript", "d5/d7d/a20940.html#a2f4f791140a2c894a3eacbf26638a1b9", null ]
 ];

@@ -1,6 +1,28 @@
 var a12084 =
 [
-    [ "boss_aranAI", "d6/ddb/a12088.html", "d6/ddb/a12088" ],
-    [ "boss_shade_of_aran", "d5/db8/a12084.html#a6435dafa84c99df458c3d0a9b5c7c4b6", null ],
-    [ "GetAI", "d5/db8/a12084.html#a51142e6ccd2345d903726739db97fd27", null ]
+    [ "boss_netherspiteAI", "d5/db8/a12084.html#acfd0f49b960ec8cba26fecfdc365dc97", null ],
+    [ "DestroyPortals", "d5/db8/a12084.html#a60d0354d08df584ca87938c1a0f6fd0f", null ],
+    [ "dist", "d5/db8/a12084.html#ae69226a77e780bdf1e32e019a7c0fcbc", null ],
+    [ "HandleDoors", "d5/db8/a12084.html#ac8404071e2ab54df856a32e81d529a72", null ],
+    [ "IsBetween", "d5/db8/a12084.html#af819bb0230cfa2a3dd74392d21517d09", null ],
+    [ "JustDied", "d5/db8/a12084.html#a6a2662bc15d1894e0503eccedb47e09e", null ],
+    [ "JustEngagedWith", "d5/db8/a12084.html#a3185b8389d48c75362c0fbe5e8d61e10", null ],
+    [ "Reset", "d5/db8/a12084.html#ada8dc64980e62406befd644b85432757", null ],
+    [ "SummonPortals", "d5/db8/a12084.html#a8ad73931fd5037ac9ba2882a30f5be74", null ],
+    [ "SwitchToBanishPhase", "d5/db8/a12084.html#a42cad24ea0ac749010cb4eb0be3e9a00", null ],
+    [ "SwitchToPortalPhase", "d5/db8/a12084.html#a3ab0868c4ff3e81c57058a7a1f08a42a", null ],
+    [ "UpdateAI", "d5/db8/a12084.html#a348a99a38d9345fafcfc29a93b9aa65e", null ],
+    [ "UpdatePortals", "d5/db8/a12084.html#ae36f467db465ceee6f677efae0fcfb89", null ],
+    [ "BeamerGUID", "d5/db8/a12084.html#a8190a2e11ab7a5efb5f664d418503fae", null ],
+    [ "BeamTarget", "d5/db8/a12084.html#ad43221b44e38e2b0a5a3660f76bae5a8", null ],
+    [ "Berserk", "d5/db8/a12084.html#abcf9cf0377bcd6adb65958a1bfed82de", null ],
+    [ "EmpowermentTimer", "d5/db8/a12084.html#a3207eef627c256a4e92c9ca07c1c5fa1", null ],
+    [ "instance", "d5/db8/a12084.html#ae5dabee78b60098df100e8a25ced4611", null ],
+    [ "NetherbreathTimer", "d5/db8/a12084.html#a34ae6bfb79cc0ceadf7021dd46cda4a2", null ],
+    [ "NetherInfusionTimer", "d5/db8/a12084.html#a2a0e116812444a229b702a409d415bbc", null ],
+    [ "PhaseTimer", "d5/db8/a12084.html#a8279a88832fd9bdb83d309bf6322985c", null ],
+    [ "PortalGUID", "d5/db8/a12084.html#affe7ba7fac5656f00a13ceec8011813d", null ],
+    [ "PortalPhase", "d5/db8/a12084.html#a7bd6100809ac2f2573fd3144903742db", null ],
+    [ "PortalTimer", "d5/db8/a12084.html#a9e4ad15a2d06ddb97101a96929ca0b6a", null ],
+    [ "VoidZoneTimer", "d5/db8/a12084.html#a70c6b2305eb8e03691eb1b2a9b8423a3", null ]
 ];

@@ -1,6 +1,6 @@
 var a15020 =
 [
-    [ "HandleDamageCalc", "dd/d8d/a15020.html#a03eb92eff300872cd5fca452a99375ab", null ],
-    [ "PrepareSpellScript", "dd/d8d/a15020.html#ac07421b62bb6044dad89431839a70bd8", null ],
-    [ "Register", "dd/d8d/a15020.html#a70cbf764ab475e2358fa6630798cab9d", null ]
+    [ "HandleScript", "dd/d8d/a15020.html#a7e6ec873a252106ba865bdef05f757f5", null ],
+    [ "PrepareSpellScript", "dd/d8d/a15020.html#a98e80c8726c350aca850b6c87c5861da", null ],
+    [ "Register", "dd/d8d/a15020.html#a994bb1f4670d16f6797b9e0df1d8c36c", null ]
 ];

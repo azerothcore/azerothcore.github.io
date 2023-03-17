@@ -1,7 +1,6 @@
 var a24956 =
 [
-    [ "HandleEffectRemove", "db/d2e/a24956.html#a927ea00bf0ac1aa461744a3d85cb2a56", null ],
-    [ "PrepareAuraScript", "db/d2e/a24956.html#aa4ba2cb8e6dfb18b3d5e966ba99cc172", null ],
-    [ "Register", "db/d2e/a24956.html#ae5d2bc74df80df0a525836014a663c96", null ],
-    [ "AuraEffectHandleModes", "db/d2e/a24956.html#a566123397dde4ef802ce9694d78b1020", null ]
+    [ "spell_karathress_power_of_caribdis_AuraScript", "de/d44/a24960.html", "de/d44/a24960" ],
+    [ "spell_karathress_power_of_caribdis", "db/d2e/a24956.html#a3992c9ff4ec1b94ea1b723a48109e2c8", null ],
+    [ "GetAuraScript", "db/d2e/a24956.html#ad5a86d31c2af94efc87e33bc11f67e97", null ]
 ];

@@ -1,6 +1,7 @@
 var a23496 =
 [
-    [ "npc_attracted_reef_bullAI", "da/de5/a23496.html#aa8917a912fb31a5987332e53e8d268e7", null ],
-    [ "MovementInform", "da/de5/a23496.html#a79d9539243f178a2989f017c5f9ebc8c", null ],
-    [ "SpellHit", "da/de5/a23496.html#ab06ee7ef84d881262ae682b69fae3135", null ]
+    [ "HandleDummy", "da/de5/a23496.html#a0c23b9b892f09cb952d78aa93ad1186e", null ],
+    [ "PrepareSpellScript", "da/de5/a23496.html#a735f8a925571a2d2edd392c069a3e14f", null ],
+    [ "Register", "da/de5/a23496.html#a8e2ab5d37d906b1bd56884d3097f3405", null ],
+    [ "Validate", "da/de5/a23496.html#a8ab2c2473ae08f4e1cd4838f099ce13f", null ]
 ];

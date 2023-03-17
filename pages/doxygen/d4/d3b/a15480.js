@@ -1,6 +1,6 @@
 var a15480 =
 [
-    [ "spell_ooze_zap_channel_end_SpellScript", "d7/d34/a15484.html", "d7/d34/a15484" ],
-    [ "spell_ooze_zap_channel_end", "d4/d3b/a15480.html#a59ba7ea904f340823a83086275609b08", null ],
-    [ "GetSpellScript", "d4/d3b/a15480.html#a3d7e65de563be9f9c17cc5329d1bd49d", null ]
+    [ "spell_voljin_war_drums_SpellScript", "d7/d34/a15484.html", "d7/d34/a15484" ],
+    [ "spell_voljin_war_drums", "d4/d3b/a15480.html#a218af593728d78a1cb4bfff8c0eb9d31", null ],
+    [ "GetSpellScript", "d4/d3b/a15480.html#ad7e2d0c9fbe7111541149e4b1333e52f", null ]
 ];

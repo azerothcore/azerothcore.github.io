@@ -1,7 +1,6 @@
 var a27764 =
 [
-    [ "HandleProc", "dc/dc5/a27764.html#a9d23a4c0986f56e08c5e687ddae621f9", null ],
-    [ "PrepareAuraScript", "dc/dc5/a27764.html#a37d8d2e9c4618ecbbf314b98286e28b9", null ],
-    [ "Register", "dc/dc5/a27764.html#a2e1b7aed322de7023075fdd69660f2f6", null ],
-    [ "Validate", "dc/dc5/a27764.html#a6e807b19f98f8237e5d6f254cb0987a6", null ]
+    [ "HandleProc", "dc/dc5/a27764.html#aa333d52d905e722554d8d61c4b9cb656", null ],
+    [ "PrepareAuraScript", "dc/dc5/a27764.html#aac4320b061d627e4ffef737d2e858ef3", null ],
+    [ "Register", "dc/dc5/a27764.html#ad58fea9afa6a3596437a324ec525982e", null ]
 ];

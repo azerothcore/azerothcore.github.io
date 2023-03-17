@@ -1,7 +1,6 @@
 var a28312 =
 [
-    [ "HandleApplyEffect", "d3/d70/a28312.html#af95120b26a165196e0310956c245f36f", null ],
-    [ "HandleRemoveEffect", "d3/d70/a28312.html#a59e7d23c969b03aa75ef1da3bf42f6e9", null ],
-    [ "PrepareAuraScript", "d3/d70/a28312.html#ae19e002407db1466f0655db3d14fe0d7", null ],
-    [ "Register", "d3/d70/a28312.html#ae776a5e913fcf1553b7e2a00374a1ee6", null ]
+    [ "CheckProc", "d3/d70/a28312.html#aa9cf64a1965bd7924ce5a9c639d85fb3", null ],
+    [ "PrepareAuraScript", "d3/d70/a28312.html#a87d2959523a306f85c69aa5a7a5b3de5", null ],
+    [ "Register", "d3/d70/a28312.html#a9dee4c4568f36f82b82148cb847d50ca", null ]
 ];

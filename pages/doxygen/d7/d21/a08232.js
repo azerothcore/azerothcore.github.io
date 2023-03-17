@@ -1,9 +1,8 @@
 var a08232 =
 [
-    [ "TransportBase", "d7/d21/a08232.html#a6dba8e37217dae4e5da8f52780e63f70", null ],
-    [ "~TransportBase", "d7/d21/a08232.html#a81dca3435a1a1666a90acd8e154e3287", null ],
-    [ "CalculatePassengerOffset", "d7/d21/a08232.html#ae8c9eb64027f8e7c781f0af192e3f6c1", null ],
-    [ "CalculatePassengerOffset", "d7/d21/a08232.html#aa4d00f15dc0e6c53b4a175b0ca53021b", null ],
-    [ "CalculatePassengerPosition", "d7/d21/a08232.html#a7cb7586a6935ca4e08aa3e658982abec", null ],
-    [ "CalculatePassengerPosition", "d7/d21/a08232.html#a328fbc464c56eca89138380182a0108c", null ]
+    [ "PowerPctOrderPred", "d7/d21/a08232.html#a4e765952cfbc1c83413a8f1c148b1fe4", null ],
+    [ "operator()", "d7/d21/a08232.html#a215b641a9364c7fcb82778c98f214271", null ],
+    [ "operator()", "d7/d21/a08232.html#a42cec64c5eaf01f8b6b7e334f57b1d4a", null ],
+    [ "_ascending", "d7/d21/a08232.html#aed7be288f876fdd35c1cdba53626b03c", null ],
+    [ "_power", "d7/d21/a08232.html#ad3d61a7c5c84d91bc26c99e778105b7c", null ]
 ];

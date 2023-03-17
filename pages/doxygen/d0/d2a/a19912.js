@@ -1,5 +1,6 @@
 var a19912 =
 [
-    [ "PrepareAuraScript", "d0/d2a/a19912.html#a263e3432d88da761a858e7c5ce2ab565", null ],
-    [ "Register", "d0/d2a/a19912.html#a64c8f7ac4d95eec5cf548c423d91c61d", null ]
+    [ "OnRemove", "d0/d2a/a19912.html#afe9e16e484e457610a782d4fe9a85f64", null ],
+    [ "PrepareAuraScript", "d0/d2a/a19912.html#addb34c019547d4aa5d1ff33b8c0a6524", null ],
+    [ "Register", "d0/d2a/a19912.html#ac806ad4edbd83b05feee0fbc7608470b", null ]
 ];

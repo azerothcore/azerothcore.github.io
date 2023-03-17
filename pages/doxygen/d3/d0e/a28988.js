@@ -1,10 +1,11 @@
 var a28988 =
 [
-    [ "CheckProc", "d3/d0e/a28988.html#a68a559c46266fc7337f7d56bb66af542", null ],
-    [ "HandleProc", "d3/d0e/a28988.html#a69cdd92cea54ec5bf11f6011578b2338", null ],
-    [ "Load", "d3/d0e/a28988.html#ad571b0d2f47cff037030d7a8184f60fd", null ],
-    [ "PrepareAuraScript", "d3/d0e/a28988.html#aa20e2911e60f3ae7a9dcceee8f96b6ef", null ],
-    [ "Register", "d3/d0e/a28988.html#a8af18925b317c717fcd6b2fae14a16e4", null ],
-    [ "Validate", "d3/d0e/a28988.html#ac0cf25901d70e37bb887b3baa38790b5", null ],
-    [ "_procTarget", "d3/d0e/a28988.html#ad48f21d3a45e97857265e6047f253910", null ]
+    [ "AccountActionIpLogger", "d3/d0e/a28988.html#a73cad77bd83243cb10c4a1b4d7081e0b", null ],
+    [ "AccountIPLogAction", "d3/d0e/a28988.html#a9c978dafb71e67b8b278806df507e34b", null ],
+    [ "OnAccountLogin", "d3/d0e/a28988.html#a2952adcd73d775b924671e5a69adaccb", null ],
+    [ "OnEmailChange", "d3/d0e/a28988.html#aa15d0cc4e6ed3818fa18a927074f5f0c", null ],
+    [ "OnFailedAccountLogin", "d3/d0e/a28988.html#a8225c45bcb83e1ddd91a8dcd0f7da9cd", null ],
+    [ "OnFailedEmailChange", "d3/d0e/a28988.html#a9fd73dc7b6954dfb4fc94a1f1288ccd2", null ],
+    [ "OnFailedPasswordChange", "d3/d0e/a28988.html#a0663e15ea1a29b3daa672c8b6a25548f", null ],
+    [ "OnPasswordChange", "d3/d0e/a28988.html#a4b71aa9c1790e6d4033d884a17ce0a2f", null ]
 ];

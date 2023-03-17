@@ -1,6 +1,10 @@
 var a14840 =
 [
-    [ "spell_black_morass_corrupt_medivh_AuraScript", "d0/d9c/a14844.html", "d0/d9c/a14844" ],
-    [ "spell_black_morass_corrupt_medivh", "d6/df4/a14840.html#ae659fafe1a455f3058a3b3bb8af97cdb", null ],
-    [ "GetAuraScript", "d6/df4/a14840.html#aa34c1bb0039e8d0b91ff8a09c4c7229f", null ]
+    [ "boss_aeonus", "d6/df4/a14840.html#af823ef2187b852dc72d2f63020e1701b", null ],
+    [ "IsSummonedBy", "d6/df4/a14840.html#a5f95e19dfec210d4da1f1f48145ff047", null ],
+    [ "JustDied", "d6/df4/a14840.html#a649275c31e61f542a13fd791ee85277b", null ],
+    [ "JustEngagedWith", "d6/df4/a14840.html#a5f193144e36a889630d5dbadb4aa665f", null ],
+    [ "JustReachedHome", "d6/df4/a14840.html#a62df4db3ead6f9be5c3ead974613c8d5", null ],
+    [ "KilledUnit", "d6/df4/a14840.html#a4aa2f3d82aaaf5cd3a938ad92aad059d", null ],
+    [ "MoveInLineOfSight", "d6/df4/a14840.html#a3147774fa5bff34d01947fdcf254ba7b", null ]
 ];

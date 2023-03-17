@@ -1,13 +1,18 @@
 var a23676 =
 [
-    [ "npc_artruis_the_hearthlessAI", "d3/dab/a23676.html#ad64e86b038ea3c0cf119aa18493dceec", null ],
-    [ "EnterCombat", "d3/dab/a23676.html#a25b037b33800bfd180446146df9d0b0e", null ],
-    [ "JustDied", "d3/dab/a23676.html#a22baa7603ffb4a7b118f2a2f5de88633", null ],
-    [ "MoveInLineOfSight", "d3/dab/a23676.html#a1a592dd9f1834cc5efe63c227dcfe372", null ],
-    [ "Reset", "d3/dab/a23676.html#af24b77b5d154f5289105b67714f9d3a9", null ],
-    [ "SummonedCreatureDies", "d3/dab/a23676.html#a40041d3c1557effa4173eb660ca87a09", null ],
-    [ "SummonsAction", "d3/dab/a23676.html#aa34f581358c094d87a1c7259f4981b65", null ],
-    [ "UpdateAI", "d3/dab/a23676.html#a4795db544ac7e9702b2ac9094b969e7f", null ],
-    [ "events", "d3/dab/a23676.html#a151e92cb78e752e10896bd7586c539dc", null ],
-    [ "summons", "d3/dab/a23676.html#a24fd0452b154e7e4a2615691aa810d8d", null ]
+    [ "npc_blessed_bannerAI", "d3/dab/a23676.html#a563cd394d72a900d735f8639074deae1", null ],
+    [ "JustDied", "d3/dab/a23676.html#a06e0e0c1e673c13488bd47e130098915", null ],
+    [ "JustEngagedWith", "d3/dab/a23676.html#abfdd9e554fbbe16f6058d5cb10394a84", null ],
+    [ "JustSummoned", "d3/dab/a23676.html#a354921ca9a3603c48885a38a507347c4", null ],
+    [ "MoveInLineOfSight", "d3/dab/a23676.html#a34a0a856a4a4c05954ba300d8031e374", null ],
+    [ "Reset", "d3/dab/a23676.html#a6fe7e49f2077ed549a6406592aec345e", null ],
+    [ "UpdateAI", "d3/dab/a23676.html#a8ca070c63dd48e22823ac26d11da75be", null ],
+    [ "events", "d3/dab/a23676.html#a79b7fbee1492860fe64d42928e494e3d", null ],
+    [ "guidDalfors", "d3/dab/a23676.html#a369a837b6fa57d0960f24d9ea629ed04", null ],
+    [ "guidHalof", "d3/dab/a23676.html#aef28a7624fb88e65a7f79fe34c320a29", null ],
+    [ "guidMason", "d3/dab/a23676.html#a05e6dc20409e2271de8fe4f4b3ae7bfa", null ],
+    [ "guidPriest", "d3/dab/a23676.html#a25f4056b2d7fda02885f58502f809a9c", null ],
+    [ "HalofSpawned", "d3/dab/a23676.html#a38e98094f05c09ea19a4f44771194b2e", null ],
+    [ "PhaseCount", "d3/dab/a23676.html#a983110caf86d94374a299d7268f7458c", null ],
+    [ "Summons", "d3/dab/a23676.html#a92d7543e31c5cb367379711cb767ebd6", null ]
 ];

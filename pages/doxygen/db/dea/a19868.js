@@ -1,6 +1,6 @@
 var a19868 =
 [
-    [ "npc_ioc_gunship_captainAI", "dc/da7/a19872.html", "dc/da7/a19872" ],
-    [ "npc_ioc_gunship_captain", "db/dea/a19868.html#a6463d7bc12d5fe4fc8921ba5916ec906", null ],
-    [ "GetAI", "db/dea/a19868.html#a43f3ce178df31fbf693acbfa8c32a339", null ]
+    [ "instance_icecrown_citadel_InstanceMapScript", "dc/da7/a19872.html", "dc/da7/a19872" ],
+    [ "instance_icecrown_citadel", "db/dea/a19868.html#a0901e23025cff08d1a7516bbef099ffa", null ],
+    [ "GetInstanceScript", "db/dea/a19868.html#a787c32626681f15f5515385a9ba6b848", null ]
 ];

@@ -1,6 +1,5 @@
 var a11520 =
 [
-    [ "OnEffect", "db/d09/a11520.html#a1b5999f392cec9fea4431c3f746ee034", null ],
-    [ "PrepareSpellScript", "db/d09/a11520.html#a4748a82fcc7b3794850461092ee6b2e4", null ],
-    [ "Register", "db/d09/a11520.html#acfa32dfc22778576d0dd3096c456ebe0", null ]
+    [ "at_the_beast_room", "db/d09/a11520.html#aed5c4aae45ee2b256eb078875c5a2c47", null ],
+    [ "OnTrigger", "db/d09/a11520.html#a366c5e35c4030f998404886f1526ae37", null ]
 ];

@@ -1,6 +1,6 @@
 var a21900 =
 [
-    [ "boss_thorim_sif_blizzardAI", "da/df4/a21904.html", "da/df4/a21904" ],
-    [ "boss_thorim_sif_blizzard", "d3/ded/a21900.html#acc42b4c9434f9eece2d93c2e4f3697fc", null ],
-    [ "GetAI", "d3/ded/a21900.html#afbff96363951c952a195f5c2a105e279", null ]
+    [ "boss_thorim_sifAI", "da/df4/a21904.html", "da/df4/a21904" ],
+    [ "boss_thorim_sif", "d3/ded/a21900.html#a71ef8a92f648cbea6553ed1cc657f13d", null ],
+    [ "GetAI", "d3/ded/a21900.html#ae4eadf2bf83c41a8f05b853267b5fcf9", null ]
 ];

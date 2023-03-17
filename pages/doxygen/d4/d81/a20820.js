@@ -1,6 +1,6 @@
 var a20820 =
 [
-    [ "spell_algalon_collapse_AuraScript", "d3/dd2/a20824.html", "d3/dd2/a20824" ],
-    [ "spell_algalon_collapse", "d4/d81/a20820.html#ade7d608518e6f7871d327141ec176333", null ],
-    [ "GetAuraScript", "d4/d81/a20820.html#a031c717feba0d0d1b6adf4d9886739d5", null ]
+    [ "npc_algalon_worm_holeAI", "d3/dd2/a20824.html", "d3/dd2/a20824" ],
+    [ "npc_algalon_worm_hole", "d4/d81/a20820.html#a72516a4824fa61a331caff46d2784c64", null ],
+    [ "GetAI", "d4/d81/a20820.html#aac6ff3a41f08f5a11baa78c0526a3556", null ]
 ];

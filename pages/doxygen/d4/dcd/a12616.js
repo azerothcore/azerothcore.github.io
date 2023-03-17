@@ -1,6 +1,6 @@
 var a12616 =
 [
-    [ "boss_darkmaster_gandlingAI", "d1/d72/a12620.html", "d1/d72/a12620" ],
-    [ "boss_darkmaster_gandling", "d4/dcd/a12616.html#a6db73fa3c8324f6bfdcb1ae6a72ee39b", null ],
-    [ "GetAI", "d4/dcd/a12616.html#a21ea53862614303af31a517a53d1fbf6", null ]
+    [ "instance_scarlet_monastery_InstanceMapScript", "d1/d72/a12620.html", "d1/d72/a12620" ],
+    [ "instance_scarlet_monastery", "d4/dcd/a12616.html#a8f068ebd98bd81dbb60dbccd795f1f3f", null ],
+    [ "GetInstanceScript", "d4/dcd/a12616.html#a1c66031217457809fbe56303085715a0", null ]
 ];

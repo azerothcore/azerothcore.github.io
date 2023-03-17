@@ -1,7 +1,6 @@
 var a27924 =
 [
-    [ "HandleDummy", "d0/def/a27924.html#a4e78ce5b1275860304eba414f8e66442", null ],
-    [ "PrepareSpellScript", "d0/def/a27924.html#a155fa844714aadadd0a6c31dc86748f3", null ],
-    [ "Register", "d0/def/a27924.html#a3ea6786e2fa76917bcb4baa42d2be1f1", null ],
-    [ "Validate", "d0/def/a27924.html#a08838d940e413d83f4c48854260c3e1b", null ]
+    [ "CheckProc", "d0/def/a27924.html#a1da9fe2fa918a8f92a53de8eee9d1830", null ],
+    [ "PrepareAuraScript", "d0/def/a27924.html#a3fa05a39b003805f405d814214f4366e", null ],
+    [ "Register", "d0/def/a27924.html#a9b7f633b60dd7798b8f2f85d14c26ca2", null ]
 ];

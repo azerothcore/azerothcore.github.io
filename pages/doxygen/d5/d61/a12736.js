@@ -1,6 +1,5 @@
 var a12736 =
 [
-    [ "spell_shadowfang_keep_haunting_spirits_AuraScript", "d2/dac/a12740.html", "d2/dac/a12740" ],
-    [ "spell_shadowfang_keep_haunting_spirits", "d5/d61/a12736.html#ab8754717ad87fd1c1f636132e8264f9c", null ],
-    [ "GetAuraScript", "d5/d61/a12736.html#a2883b70d379098f68e904e124749db5b", null ]
+    [ "npc_apothecary_frye", "d5/d61/a12736.html#a5546099958a9a267d237e65720588456", null ],
+    [ "JustDied", "d5/d61/a12736.html#ab1dc310e90c591b44ce4d5bcf1bac930", null ]
 ];

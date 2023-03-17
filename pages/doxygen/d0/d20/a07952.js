@@ -1,8 +1,6 @@
 var a07952 =
 [
-    [ "IsInSpec", "d0/d20/a07952.html#a77968b5562467f85bda04b6f2f41ca29", null ],
-    [ "inSpellBook", "d0/d20/a07952.html#a650926fa9d1bbab336ee7ed3dd0b0b7d", null ],
-    [ "specMask", "d0/d20/a07952.html#acc1913a90ca2bd23298d3590843cfbd5", null ],
-    [ "State", "d0/d20/a07952.html#a062758af7e92f7e2263ca0a0fd329151", null ],
-    [ "talentID", "d0/d20/a07952.html#aca9b191361652002f5178179a939e41b", null ]
+    [ "active", "d0/d20/a07952.html#a9460571d6fc219ab8c475aab34fc9494", null ],
+    [ "state", "d0/d20/a07952.html#a0600418cb460fdaf8093bfa609e796c8", null ],
+    [ "type", "d0/d20/a07952.html#a4c4a7d0f299ae4e2ceb146a741057032", null ]
 ];

@@ -1,6 +1,7 @@
 var a17932 =
 [
-    [ "npc_icc_blood_beastAI", "d9/d2c/a17936.html", "d9/d2c/a17936" ],
-    [ "npc_icc_blood_beast", "db/d27/a17932.html#ac6de0dfe16f39d192f1e49d3ab444d5a", null ],
-    [ "GetAI", "db/d27/a17932.html#adf18d561b5d1c4c89e7f2ccb10f99492", null ]
+    [ "Load", "db/d27/a17932.html#ac5166beda0b7773af95b745d962de5b5", null ],
+    [ "PrepareAuraScript", "db/d27/a17932.html#a5fbf823a98a081adcbc0bf50abef3a53", null ],
+    [ "RecalculateHook", "db/d27/a17932.html#a70d2874c599f6d0ce088a633928ee908", null ],
+    [ "Register", "db/d27/a17932.html#a83f88b0aa326667b7c1f28c50c3d88d5", null ]
 ];

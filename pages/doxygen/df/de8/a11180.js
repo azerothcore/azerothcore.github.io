@@ -1,8 +1,9 @@
 var a11180 =
 [
-    [ "amount", "df/de8/a11180.html#a76f76a4b84b8eaad6b5556a27b1239d5", null ],
-    [ "entry", "df/de8/a11180.html#aca8a64157ebd4f576bb9277645ec0986", null ],
-    [ "IsBoss", "df/de8/a11180.html#ae0472288bba023e2559d34950108c8ce", null ],
-    [ "Mob", "df/de8/a11180.html#a81faea0b5e3ba3ec626031aeb0fbbda4", null ],
-    [ "WaveTimer", "df/de8/a11180.html#a7e0e6c1a0cdac6240f541e477d41ffdb", null ]
+    [ "npc_water_elementalAI", "df/de8/a11180.html#a7a29ddbd5c1ff5877e303c1a4fea860a", null ],
+    [ "Reset", "df/de8/a11180.html#ae80478af439bf2120becb6fb3d22cf23", null ],
+    [ "UpdateAI", "df/de8/a11180.html#a1f2b9878e1ed32a5f96c67f599126ca4", null ],
+    [ "balindaGUID", "df/de8/a11180.html#af44d5a36fc8628e777b739b3fa701d85", null ],
+    [ "resetTimer", "df/de8/a11180.html#a29d456d8c3bd1f1c7cd3f25f8b546c67", null ],
+    [ "waterBoltTimer", "df/de8/a11180.html#a271f37ba9b1bd9581f1ed196c86bd2cf", null ]
 ];

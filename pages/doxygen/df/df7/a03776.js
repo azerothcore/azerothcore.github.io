@@ -1,5 +1,5 @@
 var a03776 =
 [
-    [ "OutdoorPvP_silithus", "dd/d7d/a24099.html", "dd/d7d/a24099" ],
-    [ "AddSC_outdoorpvp_si", "df/df7/a03776.html#a6dfd2849f525333510ae4febbbc3ae1f", null ]
+    [ "OutdoorPvP_grizzly_hills", "d2/ddf/a24100.html", "d2/ddf/a24100" ],
+    [ "AddSC_outdoorpvp_gh", "df/df7/a03776.html#a04eaa29ec2e34f71e4f7addacc0405c0", null ]
 ];

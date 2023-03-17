@@ -1,7 +1,8 @@
 var a08452 =
 [
-    [ "QuestPOIPoint", "de/d33/a08452.html#a99aaafe1fdae391c6fba20e0c623ff99", null ],
-    [ "QuestPOIPoint", "de/d33/a08452.html#a2e80e5a83ab336a8b019f38297862efa", null ],
-    [ "x", "de/d33/a08452.html#a5e9592283b28cd6ff0610ec0438b2a2d", null ],
-    [ "y", "de/d33/a08452.html#a45211fd0fbeeb5d9fced2b2c31502851", null ]
+    [ "MailLevelReward", "de/d33/a08452.html#accd52642cbbab457b69dba54a6ffa23b", null ],
+    [ "MailLevelReward", "de/d33/a08452.html#a3e98aa5c30b0b5648784f9aaf5349a76", null ],
+    [ "mailTemplateId", "de/d33/a08452.html#afdf6684bcd2751822bd00ba1509ef933", null ],
+    [ "raceMask", "de/d33/a08452.html#a341088acd89b79161d932367f4f1798d", null ],
+    [ "senderEntry", "de/d33/a08452.html#a2b678ac953209691b38d583cffab55b5", null ]
 ];

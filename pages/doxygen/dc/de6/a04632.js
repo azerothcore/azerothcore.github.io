@@ -1,20 +1,8 @@
 var a04632 =
 [
-    [ "MMapMgr", "dc/de6/a04632.html#abd4bd2ef84d57be5000ab37ed36ded8c", null ],
-    [ "~MMapMgr", "dc/de6/a04632.html#a09b83a0d5246838d42a49c5103957480", null ],
-    [ "getLoadedMapsCount", "dc/de6/a04632.html#a8b087a39387a10c17dca364b9db537f9", null ],
-    [ "getLoadedTilesCount", "dc/de6/a04632.html#a14fe8d762bac4d5d179af1acf8bfe84e", null ],
-    [ "GetMMapData", "dc/de6/a04632.html#a755d34666349eba1d7665e510afa3453", null ],
-    [ "GetNavMesh", "dc/de6/a04632.html#aeae84fe910639b71a40949de59e41c91", null ],
-    [ "GetNavMeshQuery", "dc/de6/a04632.html#af9b97f1e32233fef4e4828a4c8907abc", null ],
-    [ "InitializeThreadUnsafe", "dc/de6/a04632.html#a88c7145d0475a2e5d9be5baa72a2ca7e", null ],
-    [ "loadMap", "dc/de6/a04632.html#aa27722de47fd0f5ea0d0afac8b08e161", null ],
-    [ "loadMapData", "dc/de6/a04632.html#ac677ea014721d0631195ba64b05c66a0", null ],
-    [ "packTileID", "dc/de6/a04632.html#ace3265c248ccf2a34ca4b7c43f294e43", null ],
-    [ "unloadMap", "dc/de6/a04632.html#a83acf8ce1357052ccb8aa6b63f6860ca", null ],
-    [ "unloadMap", "dc/de6/a04632.html#a2d933fd783126e48423d81d1c06fb3f9", null ],
-    [ "unloadMapInstance", "dc/de6/a04632.html#aa97a8352cad200ea1243e968dc1629a6", null ],
-    [ "loadedMMaps", "dc/de6/a04632.html#a98a7d0bf952eb80340863f2336ae84d1", null ],
-    [ "loadedTiles", "dc/de6/a04632.html#a9e2154958fcfa78d8906ccb5ccf2597c", null ],
-    [ "thread_safe_environment", "dc/de6/a04632.html#a89c7b087891d313e69437504dc0e449f", null ]
+    [ "IMMapMgr", "dc/de6/a04632.html#a2292f2bdacfc627ab33f02d399221ad5", null ],
+    [ "~IMMapMgr", "dc/de6/a04632.html#a8298d6b3fbce5ccd835af3c287c361b6", null ],
+    [ "isEnablePathFinding", "dc/de6/a04632.html#a5d6bcb413c39e82da8e4924c4754c8b0", null ],
+    [ "setEnablePathFinding", "dc/de6/a04632.html#afdc7e829a374c20b4d072290363c7c62", null ],
+    [ "iEnablePathFinding", "dc/de6/a04632.html#a25f8900f4546990562fb048e956bb1e0", null ]
 ];

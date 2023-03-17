@@ -1,6 +1,6 @@
 var a25792 =
 [
-    [ "AfterRemove", "df/d93/a25792.html#afffa4b13bb60e973203b6625e5cf4576", null ],
-    [ "PrepareAuraScript", "df/d93/a25792.html#acb444c7a5f41abc449532707300a04e7", null ],
-    [ "Register", "df/d93/a25792.html#a2539e93205f9d3d86655a1ec7c8df369", null ]
+    [ "HandlePeriodic", "df/d93/a25792.html#a481bb370c1269cd811cf762efc22b3a9", null ],
+    [ "PrepareAuraScript", "df/d93/a25792.html#a0fb5cb696affa34ff6dc4692eb8e18e6", null ],
+    [ "Register", "df/d93/a25792.html#a642689a21ea1e63e28e1a57310748639", null ]
 ];

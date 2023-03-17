@@ -1,7 +1,8 @@
 var a13656 =
 [
-    [ "boss_fenstalkerAI", "d3/ddf/a13656.html#a971234c97e2769a2fbf36b7a954198df", null ],
-    [ "Reset", "d3/ddf/a13656.html#a91865286d096bcd5bc89a2b69addb422", null ],
-    [ "UpdateAI", "d3/ddf/a13656.html#a6f1f861ff540f54eb99a30909feb922b", null ],
-    [ "volatileinf_timer", "d3/ddf/a13656.html#ae18ae9cf7bcaff73bb341593b8d8b816", null ]
+    [ "boss_thurgAI", "d3/ddf/a13656.html#af5bd973e7d0f1d08cacf85cfe5a06647", null ],
+    [ "Reset", "d3/ddf/a13656.html#a5869d7f8a857c39bd7f62d6355d7e486", null ],
+    [ "UpdateAI", "d3/ddf/a13656.html#a78e306ae070f37638a39a5ac3cd50398", null ],
+    [ "bloodlust_timer", "d3/ddf/a13656.html#abdc6852f5de5a7b9710ab3a57fa7f096", null ],
+    [ "cleave_timer", "d3/ddf/a13656.html#ac0d627bc0189f3f969007ef688d17056", null ]
 ];

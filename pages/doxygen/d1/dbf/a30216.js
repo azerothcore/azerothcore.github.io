@@ -1,5 +1,7 @@
 var a30216 =
 [
-    [ "ID", "d1/dbf/a30216.html#a65acb5af9a688346cbb7dc144710c768", null ],
-    [ "inventoryIcon", "d1/dbf/a30216.html#a26b43ee179bd546c6e956dd797fc0842", null ]
+    [ "EpicPropertiesPoints", "d1/dbf/a30216.html#a35dc60a15091357e03032226621340f7", null ],
+    [ "itemLevel", "d1/dbf/a30216.html#a35506e3235c2c24230058dc2fb9abc4f", null ],
+    [ "RarePropertiesPoints", "d1/dbf/a30216.html#a9359171635ef3e9a0029820fad286368", null ],
+    [ "UncommonPropertiesPoints", "d1/dbf/a30216.html#a74acb6861a84d5d193038eaa5ac9b12f", null ]
 ];

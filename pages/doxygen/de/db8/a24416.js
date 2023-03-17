@@ -1,6 +1,6 @@
 var a24416 =
 [
-    [ "spell_illidan_demon_transform2_AuraScript", "d7/db8/a24420.html", "d7/db8/a24420" ],
-    [ "spell_illidan_demon_transform2", "de/db8/a24416.html#a3f698dcf96c2ef95719ceefeb4f54184", null ],
-    [ "GetAuraScript", "de/db8/a24416.html#ad5070a66d2f50dda585738b8712b11e3", null ]
+    [ "OnPeriodic", "de/db8/a24416.html#a6acf8994dfb8baff4a86ea746e1805c1", null ],
+    [ "PrepareAuraScript", "de/db8/a24416.html#a7bc4b970e20dfa89f0066c20a2a4405a", null ],
+    [ "Register", "de/db8/a24416.html#ac0ba16b025eb1d96811e9c2a9996a880", null ]
 ];

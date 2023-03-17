@@ -1,6 +1,7 @@
 var a16304 =
 [
-    [ "spell_halion_twilight_division_SpellScript", "d6/d39/a16308.html", "d6/d39/a16308" ],
-    [ "spell_halion_twilight_division", "d4/d5f/a16304.html#a1c8ae73ff5231ed3e3ff422b22e5d51a", null ],
-    [ "GetSpellScript", "d4/d5f/a16304.html#a4f5a79037134ed7417ee1d6947376ebe", null ]
+    [ "OnApply", "d4/d5f/a16304.html#ae0ab8c526985e5a688e862ee7208b2db", null ],
+    [ "OnRemove", "d4/d5f/a16304.html#a19fc3e0f3a8045c7428411d41186a880", null ],
+    [ "PrepareAuraScript", "d4/d5f/a16304.html#a692bff5559658e3076d56a0fc3c7c878", null ],
+    [ "Register", "d4/d5f/a16304.html#adee13380d5777691257ba3f817807285", null ]
 ];

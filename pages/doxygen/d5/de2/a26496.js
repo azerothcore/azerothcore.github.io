@@ -1,7 +1,5 @@
 var a26496 =
 [
-    [ "npc_infested_root_walkerAI", "d5/de2/a26496.html#a2eef0c43d173fdf6324e3f8eb51b36b5", null ],
-    [ "DamageTaken", "d5/de2/a26496.html#a7a46252a3a9e90f44d8da47e3a47620f", null ],
-    [ "EnterCombat", "d5/de2/a26496.html#aa59570cfca8ec411d12df8d0b8da530a", null ],
-    [ "Reset", "d5/de2/a26496.html#af3d1d8e5d658c77b0715b94846efe1e4", null ]
+    [ "npc_pet_dk_dancing_rune_weaponAI", "d5/de2/a26496.html#a6d57990a8ff05cc74356b0ed4d7d39b6", null ],
+    [ "InitializeAI", "d5/de2/a26496.html#a620ebac7c7cd5f81af47ea2e35de128c", null ]
 ];

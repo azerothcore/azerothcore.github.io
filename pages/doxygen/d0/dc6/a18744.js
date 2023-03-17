@@ -1,7 +1,8 @@
 var a18744 =
 [
-    [ "OnRemove", "d0/dc6/a18744.html#ada2e6d5870317170eff91333ef7519be", null ],
-    [ "PrepareAuraScript", "d0/dc6/a18744.html#a49944e01e52b0a74f1fe54581a24e748", null ],
-    [ "Register", "d0/dc6/a18744.html#a409bb65f459b0d23e6125ceff67b1d10", null ],
-    [ "Validate", "d0/dc6/a18744.html#a9e43a8646eba1480213f8a9804132407", null ]
+    [ "spell_sindragosa_unchained_magic_AuraScript", "d5/de4/a18752.html", "d5/de4/a18752" ],
+    [ "spell_sindragosa_unchained_magic_SpellScript", "d0/d70/a18748.html", "d0/d70/a18748" ],
+    [ "spell_sindragosa_unchained_magic", "d0/dc6/a18744.html#a6cc0b7ab6c0e4da1021d2b4ca4eea9ff", null ],
+    [ "GetAuraScript", "d0/dc6/a18744.html#a9c68a3d2afee4899ec68f624cfe963fd", null ],
+    [ "GetSpellScript", "d0/dc6/a18744.html#a634ec3152b5a66bc29b584aad54f5615", null ]
 ];

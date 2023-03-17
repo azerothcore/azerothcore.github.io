@@ -1,7 +1,5 @@
 var a07360 =
 [
-    [ "RBEntryInfo", "dc/dea/a07360.html#aa720dd6cae9ee7163bb9b84918249644", null ],
-    [ "RBEntryInfo", "dc/dea/a07360.html#a3df17ed1c70ed9b755843308d5ff6336", null ],
-    [ "comment", "dc/dea/a07360.html#a7284eac7208dba21a52b79257aad7dbc", null ],
-    [ "roles", "dc/dea/a07360.html#ab891dec65b0070ede1233080eadd0190", null ]
+    [ "flags", "dc/dea/a07360.html#a46952a53c6b35d5aca1bf3c3ba0734d6", null ],
+    [ "params", "dc/dea/a07360.html#a9c9c82abe27dcecb41999c583699c378", null ]
 ];

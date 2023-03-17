@@ -1,12 +1,8 @@
 var a07552 =
 [
-    [ "QuestMenu", "d6/d61/a07552.html#a60ba5b35499c6a9ed510300d3300421e", null ],
-    [ "~QuestMenu", "d6/d61/a07552.html#a14df9b6699c327853121ae032704db8d", null ],
-    [ "AddMenuItem", "d6/d61/a07552.html#ac8735756bbf9f2fa799c505bd740e070", null ],
-    [ "ClearMenu", "d6/d61/a07552.html#ab3d3881aabe000694acab37a3774507e", null ],
-    [ "Empty", "d6/d61/a07552.html#a1a850cb70956f299ea91cb0d732ad202", null ],
-    [ "GetItem", "d6/d61/a07552.html#a08240a8d18dce0cb96db19f54c67dd2c", null ],
-    [ "GetMenuItemCount", "d6/d61/a07552.html#a2338a6fb88c32bfb66fe524a8ffaa0d7", null ],
-    [ "HasItem", "d6/d61/a07552.html#a7fe36e4a4acfc66a00f08034c470b5e3", null ],
-    [ "_questMenuItems", "d6/d61/a07552.html#a49279a3943009f2d1475d792c2c3d21a", null ]
+    [ "TrainerSpellData", "d6/d61/a07552.html#ab58a8a4ca9d8b609131e7f8b3ec507c9", null ],
+    [ "~TrainerSpellData", "d6/d61/a07552.html#a9bd25177856f54fa2eda882627b21644", null ],
+    [ "Find", "d6/d61/a07552.html#acee027787f06b4186b781bbd0d7db781", null ],
+    [ "spellList", "d6/d61/a07552.html#a0e157dbcebbbea5704270f182d313568", null ],
+    [ "trainerType", "d6/d61/a07552.html#a6ea889f294b37bfe1a7a40dffd1b2159", null ]
 ];

@@ -1,6 +1,6 @@
 var a19056 =
 [
-    [ "npc_raging_spiritAI", "df/d4b/a19060.html", "df/d4b/a19060" ],
-    [ "npc_raging_spirit", "dd/d42/a19056.html#ad1a580bd394adc8c58575b600c16f9db", null ],
-    [ "GetAI", "dd/d42/a19056.html#ab572a667f6ddd0d4051fe424c8d9e21c", null ]
+    [ "spell_the_lich_king_ice_burst_target_search_SpellScript", "df/d4b/a19060.html", "df/d4b/a19060" ],
+    [ "spell_the_lich_king_ice_burst_target_search", "dd/d42/a19056.html#a8c6249f30c1e52b50abc31878937408b", null ],
+    [ "GetSpellScript", "dd/d42/a19056.html#aea42a18910c4455cf70a9c7c95cf3cb9", null ]
 ];

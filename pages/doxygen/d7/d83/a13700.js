@@ -1,6 +1,7 @@
 var a13700 =
 [
-    [ "npc_janalai_hatchlingAI", "d8/dec/a13704.html", "d8/dec/a13704" ],
-    [ "npc_janalai_hatchling", "d7/d83/a13700.html#af43b70de3e8f7d92918566a3eb332266", null ],
-    [ "GetAI", "d7/d83/a13700.html#a1139647e6f8533c50a8df257a8c9fbac", null ]
+    [ "boss_fenstalkerAI", "d7/d83/a13700.html#a971234c97e2769a2fbf36b7a954198df", null ],
+    [ "Reset", "d7/d83/a13700.html#a91865286d096bcd5bc89a2b69addb422", null ],
+    [ "UpdateAI", "d7/d83/a13700.html#a6f1f861ff540f54eb99a30909feb922b", null ],
+    [ "volatileinf_timer", "d7/d83/a13700.html#ae18ae9cf7bcaff73bb341593b8d8b816", null ]
 ];

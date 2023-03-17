@@ -1,14 +1,76 @@
 var a04214 =
 [
-    [ "guard_shattrath_scryer", "d6/d7a/a29431.html", "d6/d7a/a29431" ],
-    [ "guard_shattrath_scryer::guard_shattrath_scryerAI", "d8/d7e/a29435.html", "d8/d7e/a29435" ],
-    [ "guard_shattrath_aldor", "dc/dae/a29439.html", "dc/dae/a29439" ],
-    [ "guard_shattrath_aldor::guard_shattrath_aldorAI", "d0/d63/a29443.html", "d0/d63/a29443" ],
-    [ "GuardShattrath", "df/dce/a04214.html#a7c8fcdd86e1aa9eab132e6321290e79c", [
-      [ "SPELL_BANISHED_SHATTRATH_A", "df/dce/a04214.html#a7c8fcdd86e1aa9eab132e6321290e79ca958387dd7fcdedf036a81cf2ab4f56fe", null ],
-      [ "SPELL_BANISHED_SHATTRATH_S", "df/dce/a04214.html#a7c8fcdd86e1aa9eab132e6321290e79ca78bb081a2031299d661fbce8fd5a3d48", null ],
-      [ "SPELL_BANISH_TELEPORT", "df/dce/a04214.html#a7c8fcdd86e1aa9eab132e6321290e79ca7aecffca2feb1502c591610fee5566e0", null ],
-      [ "SPELL_EXILE", "df/dce/a04214.html#a7c8fcdd86e1aa9eab132e6321290e79ca6758cdbc7bb8447df1f7b3073833463d", null ]
+    [ "spell_warr_mocking_blow", "de/d95/a28824.html", "de/d95/a28824" ],
+    [ "spell_warr_victory_rush", "d9/da8/a28828.html", "d9/da8/a28828" ],
+    [ "spell_warr_intervene", "d1/da1/a28832.html", "d1/da1/a28832" ],
+    [ "spell_warr_improved_spell_reflection", "dc/d09/a28836.html", "dc/d09/a28836" ],
+    [ "spell_warr_improved_spell_reflection_trigger", "d1/d19/a28840.html", "d1/d19/a28840" ],
+    [ "spell_warr_improved_spell_reflection_trigger_aura", "d5/dfb/a28844.html", "d5/dfb/a28844" ],
+    [ "spell_warr_last_stand", "da/dd4/a28848.html", "da/dd4/a28848" ],
+    [ "spell_warr_deep_wounds", "de/dbf/a28852.html", "de/dbf/a28852" ],
+    [ "spell_warr_charge", "dc/d91/a28856.html", "dc/d91/a28856" ],
+    [ "spell_warr_slam", "d8/d09/a28860.html", "d8/d09/a28860" ],
+    [ "spell_warr_damage_shield", "d7/d02/a28864.html", "d7/d02/a28864" ],
+    [ "spell_warr_execute", "da/dcb/a28868.html", "da/dcb/a28868" ],
+    [ "spell_warr_concussion_blow", "d7/d35/a28872.html", "d7/d35/a28872" ],
+    [ "spell_warr_bloodthirst", "d6/de2/a28876.html", "d6/de2/a28876" ],
+    [ "spell_warr_bloodthirst_heal", "d9/d27/a28880.html", "d9/d27/a28880" ],
+    [ "spell_warr_overpower", "d8/d86/a28884.html", "d8/d86/a28884" ],
+    [ "spell_warr_intimidating_shout", "d0/d7f/a28888.html", "d0/d7f/a28888" ],
+    [ "spell_warr_rend", "d6/d96/a28892.html", "d6/d96/a28892" ],
+    [ "spell_warr_shattering_throw", "db/d5f/a28896.html", "db/d5f/a28896" ],
+    [ "spell_warr_sweeping_strikes", "da/def/a28900.html", "da/def/a28900" ],
+    [ "spell_warr_vigilance", "d5/d2c/a28904.html", "d5/d2c/a28904" ],
+    [ "spell_warr_vigilance_trigger", "d9/dac/a28908.html", "d9/dac/a28908" ],
+    [ "spell_warr_glyph_of_sunder_armor", "da/d20/a28912.html", "da/d20/a28912" ],
+    [ "spell_warr_t3_prot_8p_bonus", "d4/da2/a28916.html", "d4/da2/a28916" ],
+    [ "spell_warr_retaliation", "d3/d7e/a28920.html", "d3/d7e/a28920" ],
+    [ "CheatDeath", "df/dce/a04214.html#ad5d09add8dab15b0e463e67d459f9376", [
+      [ "SPELL_CHEAT_DEATH_TRIGGER", "df/dce/a04214.html#ad5d09add8dab15b0e463e67d459f9376ab102180ca5b128f6a6454fc6c45f59d9", null ]
     ] ],
-    [ "AddSC_guards", "df/dce/a04214.html#acba582cbc90c710c629dd30926acdca4", null ]
+    [ "MiscSpells", "df/dce/a04214.html#a3525a442f39985394d99136a32ab3f1a", [
+      [ "SPELL_PALADIN_BLESSING_OF_SANCTUARY", "df/dce/a04214.html#a3525a442f39985394d99136a32ab3f1aa57f38921251ada6e44d1660c752409f3", null ],
+      [ "SPELL_PALADIN_GREATER_BLESSING_OF_SANCTUARY", "df/dce/a04214.html#a3525a442f39985394d99136a32ab3f1aa8b8be7cbf60a21286583cb5f48683432", null ],
+      [ "SPELL_PRIEST_RENEWED_HOPE", "df/dce/a04214.html#a3525a442f39985394d99136a32ab3f1aacf6bfff1b74b44928d81308a6d8c2f4a", null ],
+      [ "SPELL_GEN_DAMAGE_REDUCTION_AURA", "df/dce/a04214.html#a3525a442f39985394d99136a32ab3f1aaea270ba1ac1e5c6c184d3091c614576f", null ]
+    ] ],
+    [ "VictoryRushEnum", "df/dce/a04214.html#acef4cb7843a5797044c12329577e75e8", [
+      [ "SPELL_VICTORIOUS", "df/dce/a04214.html#acef4cb7843a5797044c12329577e75e8a6c47455bc25393e351efe78e597da4f5", null ]
+    ] ],
+    [ "WarriorSpellIcons", "df/dce/a04214.html#ab839a76a51d15a04f4078d37863416a9", [
+      [ "WARRIOR_ICON_ID_SUDDEN_DEATH", "df/dce/a04214.html#ab839a76a51d15a04f4078d37863416a9a8158541edee02c4b1d6938cf9f09fb1a", null ]
+    ] ],
+    [ "WarriorSpells", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768", [
+      [ "SPELL_WARRIOR_INTERVENE_TRIGGER", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a8d09419d3d4dd2dcb3d43a7aaefd943f", null ],
+      [ "SPELL_WARRIOR_SPELL_REFLECTION", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768abc6d7989063bbc094f1570cb98e073dc", null ],
+      [ "SPELL_WARRIOR_IMPROVED_SPELL_REFLECTION_TRIGGER", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a891585ba56d53bdcca05bf5ce579e0c8", null ],
+      [ "SPELL_WARRIOR_BLOODTHIRST", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a1bc9d00e5290fe6be1f8315a031b125a", null ],
+      [ "SPELL_WARRIOR_BLOODTHIRST_DAMAGE", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768ac8d54331ac60e252b09c9ca9d10e5d2b", null ],
+      [ "SPELL_WARRIOR_CHARGE", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a645374f539a0c2fb7a61b167322d89cb", null ],
+      [ "SPELL_WARRIOR_DAMAGE_SHIELD_DAMAGE", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a56c8cfb4792fb4ecb83cadf64693f417", null ],
+      [ "SPELL_WARRIOR_DEEP_WOUNDS_RANK_1", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a00bc1de59a4d5ef5237e7ef4052b5077", null ],
+      [ "SPELL_WARRIOR_DEEP_WOUNDS_RANK_2", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a47ddb81aba009b3dd404fb9c04697134", null ],
+      [ "SPELL_WARRIOR_DEEP_WOUNDS_RANK_3", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a4ff9362ca95268e65c7e39e7a8ca585d", null ],
+      [ "SPELL_WARRIOR_DEEP_WOUNDS_RANK_PERIODIC", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a40e71e8d2c28047eda911d3290cc8141", null ],
+      [ "SPELL_WARRIOR_EXECUTE", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a96ac7fb2ea32fd0f3032f2e2b6e1b5dd", null ],
+      [ "SPELL_WARRIOR_GLYPH_OF_EXECUTION", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a2394d16bcc74689256ae627b2c312e81", null ],
+      [ "SPELL_WARRIOR_GLYPH_OF_VIGILANCE", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768abc3ed93ca4b00b161ea4d73960d79059", null ],
+      [ "SPELL_WARRIOR_JUGGERNAUT_CRIT_BONUS_BUFF", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768af8b1d4445a94577776bf6fc435c834e8", null ],
+      [ "SPELL_WARRIOR_JUGGERNAUT_CRIT_BONUS_TALENT", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a8312e081b6f8026b4318a0f9c0177a2f", null ],
+      [ "SPELL_WARRIOR_LAST_STAND_TRIGGERED", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a5ebdf3517f0c76e8d4ca19001ab76d74", null ],
+      [ "SPELL_WARRIOR_RETALIATION_DAMAGE", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a099d2b17aad4abc8896d537aa7a4b4cf", null ],
+      [ "SPELL_WARRIOR_SLAM", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768ad5de1a56b0253c8fe37933a4a816616d", null ],
+      [ "SPELL_WARRIOR_SUNDER_ARMOR", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768ae04cc461efc31f2bd955feb06e5cb2b9", null ],
+      [ "SPELL_WARRIOR_SWEEPING_STRIKES_EXTRA_ATTACK_1", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a2ec0523292b0b09cb93ea0c081b33726", null ],
+      [ "SPELL_WARRIOR_SWEEPING_STRIKES_EXTRA_ATTACK_2", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768af0eb8067f814fe86f0cb1418cdce7571", null ],
+      [ "SPELL_WARRIOR_TAUNT", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a4aaaf83b436f34dbd63db1e27043d1c1", null ],
+      [ "SPELL_WARRIOR_UNRELENTING_ASSAULT_RANK_1", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a51efd195dfe23e7fc5ee10e4a06b3874", null ],
+      [ "SPELL_WARRIOR_UNRELENTING_ASSAULT_RANK_2", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768ad275532dfb8b01a04af39f8f333125f4", null ],
+      [ "SPELL_WARRIOR_UNRELENTING_ASSAULT_TRIGGER_1", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a1f5250b012ad616c920eb47d44b7c4e6", null ],
+      [ "SPELL_WARRIOR_UNRELENTING_ASSAULT_TRIGGER_2", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768abea15efb17e08ad77e67287a8a50f258", null ],
+      [ "SPELL_WARRIOR_VIGILANCE_PROC", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a4af1d9127129e06c93adc52b0d5b3e09", null ],
+      [ "SPELL_WARRIOR_VIGILANCE_REDIRECT_THREAT", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768a2b1e0e2d4da11d3796ef142fc1d9cb43", null ],
+      [ "SPELL_WARRIOR_WHIRLWIND_OFF", "df/dce/a04214.html#a49a26bdcb60985ed85596f2f19423768aab352ffaf12be7d0e86602fe71974356", null ]
+    ] ],
+    [ "AddSC_warrior_spell_scripts", "df/dce/a04214.html#a9c003dba1ff10c2e27f5ee3d4109549f", null ]
 ];

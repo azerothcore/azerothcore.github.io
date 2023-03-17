@@ -1,9 +1,9 @@
 var a09224 =
 [
-    [ "MapUpdateRequest", "d5/d86/a09224.html#af71812e502bb1ceb60a286ff0d676ccd", null ],
-    [ "call", "d5/d86/a09224.html#a2cb96db357347d47596725e5c345b02f", null ],
-    [ "m_diff", "d5/d86/a09224.html#a3f8ff355ac6efb0a6039c7ee5bfc053b", null ],
-    [ "m_map", "d5/d86/a09224.html#a3612f3e64bb1d2f266c8724c398f5de5", null ],
-    [ "m_updater", "d5/d86/a09224.html#aeb063738175aa8ddc751290f922ffef2", null ],
-    [ "s_diff", "d5/d86/a09224.html#a533a8c8a99f82e15dae0d4513c811b01", null ]
+    [ "ZoneDynamicInfo", "d5/d86/a09224.html#a0542940fdcc273a4ff8a8e8bb6a40b1f", null ],
+    [ "LightFadeInTime", "d5/d86/a09224.html#a0be8cff9a7e74add7bba8af3be993e48", null ],
+    [ "MusicId", "d5/d86/a09224.html#a3ab0244b34c30cc7d929b418da31d7d3", null ],
+    [ "OverrideLightId", "d5/d86/a09224.html#a0d43acd5539d3449b7c36ee88518346e", null ],
+    [ "WeatherGrade", "d5/d86/a09224.html#a923c3231c49554addd1522f0ccc50e2d", null ],
+    [ "WeatherId", "d5/d86/a09224.html#a4df1e694992a3c2638460601e4c4d7c9", null ]
 ];

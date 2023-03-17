@@ -1,6 +1,9 @@
 var a28540 =
 [
-    [ "CheckRequirement", "d4/d3e/a28540.html#a4ad49f2f781d1c6b27dd04f46203c6d4", null ],
-    [ "PrepareSpellScript", "d4/d3e/a28540.html#a4263eebcb64f00152a4b64dafef20510", null ],
-    [ "Register", "d4/d3e/a28540.html#a8b825a97f50abb0231036a3ff651531d", null ]
+    [ "CheckCast", "d4/d3e/a28540.html#a4db55f88e5809fa276f23b0c9fa35b8c", null ],
+    [ "FilterTargets", "d4/d3e/a28540.html#a0c5c6639d037e5358203b5a0b887dcff", null ],
+    [ "HandleDummy", "d4/d3e/a28540.html#a285291223fdfd499627337c03228172a", null ],
+    [ "PrepareSpellScript", "d4/d3e/a28540.html#a3a5b04c93e1afdf2a890b2f365759589", null ],
+    [ "Register", "d4/d3e/a28540.html#a04f8a563276d2c9c88087ef1f42af193", null ],
+    [ "Validate", "d4/d3e/a28540.html#a79dd4ae6102bda0438fb8b9272456b9f", null ]
 ];

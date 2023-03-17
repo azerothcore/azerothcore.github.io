@@ -1,7 +1,6 @@
 var a28952 =
 [
-    [ "OnProc", "d5/d3b/a28952.html#a7ab183d734c543be2866c57f1e5cc508", null ],
-    [ "PrepareAuraScript", "d5/d3b/a28952.html#a31118cda9f29318f4620caf38c09522a", null ],
-    [ "Register", "d5/d3b/a28952.html#ac27f99aafa92ae85a247c6f25ece8c7b", null ],
-    [ "Validate", "d5/d3b/a28952.html#aa193bddd2ba9efe70343c5501d737fa4", null ]
+    [ "achievement_arena_by_type", "d5/d3b/a28952.html#a2042c808304e8ddf1849820491b9f1a3", null ],
+    [ "OnCheck", "d5/d3b/a28952.html#abebdbf19fbf1b79c30114a9cf4ff98a4", null ],
+    [ "_arenaType", "d5/d3b/a28952.html#a5c38e5fef5eaf3d037864ba2aa80584a", null ]
 ];

@@ -1,9 +1,13 @@
 var a08596 =
 [
-    [ "CreatureSearcher", "da/dd6/a08596.html#ac6fc899c41c2a93f530fa53c693f0df8", null ],
-    [ "Visit", "da/dd6/a08596.html#a50630891bfb459c6c526b3e4e7e29136", null ],
-    [ "Visit", "da/dd6/a08596.html#a503aab809be6f5d60c020e89c64dce7b", null ],
-    [ "i_check", "da/dd6/a08596.html#abc72e56d9453d798fcb457aff023d3ac", null ],
-    [ "i_object", "da/dd6/a08596.html#af31c7a1cf3f03a42d7fe66836e306b85", null ],
-    [ "i_phaseMask", "da/dd6/a08596.html#a5fa5777da405c57700a7e1ea7d5f94cf", null ]
+    [ "WorldObjectListSearcher", "da/dd6/a08596.html#aad6ee62da3f21c7838767dd3af871ad7", null ],
+    [ "Visit", "da/dd6/a08596.html#a154998e616ba17d66cf4899debc92ca1", null ],
+    [ "Visit", "da/dd6/a08596.html#a64e8d7854baa93e4390703fe986f6777", null ],
+    [ "Visit", "da/dd6/a08596.html#a28ded6ec2d69f1a1bd298a9aa11206e1", null ],
+    [ "Visit", "da/dd6/a08596.html#a18572bc1f4cfde19476ac9df393296b2", null ],
+    [ "Visit", "da/dd6/a08596.html#a2a8a0d1f3fd10e5254a47ed99e7e9ce7", null ],
+    [ "Visit", "da/dd6/a08596.html#a8cebd0149bfccc4fdeb30dda9505f0c0", null ],
+    [ "i_check", "da/dd6/a08596.html#a6ae05d2ed15201356600cda7d0d5a6c3", null ],
+    [ "i_mapTypeMask", "da/dd6/a08596.html#a1d6dc64937ae790d7414456e4644c13b", null ],
+    [ "i_phaseMask", "da/dd6/a08596.html#a6b29bb94ed2ec6f508b25d45c11f72fd", null ]
 ];

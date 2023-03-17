@@ -1,8 +1,6 @@
 var a27872 =
 [
-    [ "OnRemove", "d4/df5/a27872.html#a645e869079e711a87f1a957b42a35e98", null ],
-    [ "OnStackChange", "d4/df5/a27872.html#adea8a4a7140e2f9fd4a44ef2a7b4d85b", null ],
-    [ "PrepareAuraScript", "d4/df5/a27872.html#a5f9e9d07879705917e1cd261808f0a8f", null ],
-    [ "Register", "d4/df5/a27872.html#ac86068a892255e38244c487a7456cd9f", null ],
-    [ "Validate", "d4/df5/a27872.html#a74cb62725d939000a1c4ab32b4f4335f", null ]
+    [ "HandleDummy", "d4/df5/a27872.html#a9530db7f75987879285d224fb8381c2b", null ],
+    [ "PrepareSpellScript", "d4/df5/a27872.html#ad1c1bdb577739f769802127960aaf9e5", null ],
+    [ "Register", "d4/df5/a27872.html#ae3a340132caf3f8839631c92015d47a0", null ]
 ];

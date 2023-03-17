@@ -1,9 +1,10 @@
 var a06724 =
 [
-    [ "Rank", "d2/d5f/a06724.html#a9bcd8dc00437bcf015565eeb43263578", null ],
-    [ "Rating", "d2/d5f/a06724.html#ab43875cc3ae58eb636a490c2c0f5c1f6", null ],
-    [ "SeasonGames", "d2/d5f/a06724.html#a124c6d64f22c13707764eedd79fe1912", null ],
-    [ "SeasonWins", "d2/d5f/a06724.html#ad274601b85ea634524b1c00979e09465", null ],
-    [ "WeekGames", "d2/d5f/a06724.html#a1d0092200b2c9428e821473949cfda77", null ],
-    [ "WeekWins", "d2/d5f/a06724.html#a313afef901bd5a9347f2074a7ca1bfe0", null ]
+    [ "CreatureBottom", "d2/d5f/a06724.html#aaa8fe59aa58bf02934bf87f636582637", null ],
+    [ "CreatureTop", "d2/d5f/a06724.html#a98a71fcf0d3a1f98ba4dab56d1a3c64b", null ],
+    [ "GameObject", "d2/d5f/a06724.html#abc26a328692fc048d9040c44f360f4c4", null ],
+    [ "nbCreatureBottom", "d2/d5f/a06724.html#ade8af6bff39a72f7052b7b0db14b207d", null ],
+    [ "nbCreatureTop", "d2/d5f/a06724.html#a38ab7536e0682efd7080b823569d504b", null ],
+    [ "nbObject", "d2/d5f/a06724.html#ad1e431e7205aee7fa7f8f0dd9a155c97", null ],
+    [ "towerEntry", "d2/d5f/a06724.html#a1c0edf97a599773b688954f2e966e794", null ]
 ];

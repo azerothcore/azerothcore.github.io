@@ -1,5 +1,6 @@
 var a20188 =
 [
-    [ "at_thaddius_entrance", "d7/dd6/a20188.html#ad81a60cac337baad82ea526de1d151d1", null ],
-    [ "OnTrigger", "d7/dd6/a20188.html#af8635a58d4da0421b72b4451c1ebafc5", null ]
+    [ "spell_thaddius_pos_neg_charge_SpellScript", "d0/d80/a20192.html", "d0/d80/a20192" ],
+    [ "spell_thaddius_pos_neg_charge", "d7/dd6/a20188.html#aecf627540c5e863b9c7187829482cb3b", null ],
+    [ "GetSpellScript", "d7/dd6/a20188.html#a548cd99333f6cbddd91ca8173451ecbf", null ]
 ];

@@ -1,8 +1,18 @@
 var a20176 =
 [
-    [ "HandleAfterCast", "d9/dd5/a20176.html#aea269ddccd9e4c1ef2b41cf3ffadf72d", null ],
-    [ "HandleDummy", "d9/dd5/a20176.html#a255c75d340d4a95a798db3cb02dde439", null ],
-    [ "PrepareSpellScript", "d9/dd5/a20176.html#a60a6899dfa69a335dbd9db17a63ef2ca", null ],
-    [ "Register", "d9/dd5/a20176.html#adbb1bb8e691b69813ffe043c018308ff", null ],
-    [ "Validate", "d9/dd5/a20176.html#ac75dc40b8d5529aaee6f4b13beb663b9", null ]
+    [ "boss_thaddiusAI", "d9/dd5/a20176.html#a8a25d56cb38b755fec6f18a9616632e2", null ],
+    [ "DoAction", "d9/dd5/a20176.html#aa9697fa990b9d84f3cc9496df1cb4234", null ],
+    [ "JustDied", "d9/dd5/a20176.html#a2ec7bfa46d972cdd857289693acdc965", null ],
+    [ "JustEngagedWith", "d9/dd5/a20176.html#a52ec355e0ddd2a29b06b473303941b46", null ],
+    [ "JustSummoned", "d9/dd5/a20176.html#a1aa9a09089a2070eda14fda1bc51f0fe", null ],
+    [ "KilledUnit", "d9/dd5/a20176.html#a94f7852267620b0a77c2e1003f080589", null ],
+    [ "Reset", "d9/dd5/a20176.html#ae7b69b5e83fdbaa3df25dda989eeaf07", null ],
+    [ "UpdateAI", "d9/dd5/a20176.html#a5eef08082268fa181d4d396fc952dbcd", null ],
+    [ "ballLightningEnabled", "d9/dd5/a20176.html#a487582d59f0d717c3ec53679ad36f99a", null ],
+    [ "events", "d9/dd5/a20176.html#a8bf6ea9e5d3d198bccb293d4b4eac784", null ],
+    [ "pInstance", "d9/dd5/a20176.html#a969d782f2813cb4ed16abfac0f88576d", null ],
+    [ "resetTimer", "d9/dd5/a20176.html#aba9f23389d5f6724883dc9f7e607a351", null ],
+    [ "reviveTimer", "d9/dd5/a20176.html#a11388e745e81c3ad8ba7d97812a17203", null ],
+    [ "summons", "d9/dd5/a20176.html#a7487f79c379ef29b72959708284cfd0d", null ],
+    [ "summonTimer", "d9/dd5/a20176.html#a82288ef27f720b5f0f84bfd0ac6b9ccb", null ]
 ];

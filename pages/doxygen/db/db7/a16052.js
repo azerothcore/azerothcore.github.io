@@ -1,8 +1,6 @@
 var a16052 =
 [
-    [ "boss_sartharion_shadronAI", "db/db7/a16052.html#a02e2e657ac74ab37a4568589511de664", null ],
-    [ "ExecuteEvent", "db/db7/a16052.html#a6a26f1f777988be6eaf8b1a675bbbabb", null ],
-    [ "HandleExtraEvent", "db/db7/a16052.html#a3db5e816f6253f9c4251690bfbbe1912", null ],
-    [ "Reset", "db/db7/a16052.html#a7054cde1de2166c2b06489187115cb3f", null ],
-    [ "SummonedCreatureDies", "db/db7/a16052.html#a8b70b3b7287108ad13caeb85a83cf26f", null ]
+    [ "spell_azjol_nerub_web_wrap_AuraScript", "dc/d2d/a16056.html", "dc/d2d/a16056" ],
+    [ "spell_azjol_nerub_web_wrap", "db/db7/a16052.html#a62c5c362c4069e5076dd18b8f8b1f741", null ],
+    [ "GetAuraScript", "db/db7/a16052.html#a902f13fbf5daab83f40a748fe4a8727d", null ]
 ];

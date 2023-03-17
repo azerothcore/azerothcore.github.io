@@ -1,6 +1,6 @@
 var a27632 =
 [
-    [ "HandleDummyTick", "d6/d8b/a27632.html#a000f8fd84e7292ac759b64a8a25d3ca2", null ],
-    [ "PrepareAuraScript", "d6/d8b/a27632.html#a2848e44f1520cc32af916a8e6578c3ea", null ],
-    [ "Register", "d6/d8b/a27632.html#a4a13827baeb7ed4f2681ab114d44eb37", null ]
+    [ "HandleSummon", "d6/d8b/a27632.html#aadfea4a2238754473a8abbc487fd7f7b", null ],
+    [ "PrepareSpellScript", "d6/d8b/a27632.html#a4974a3687df394d51db322210ebb5ddb", null ],
+    [ "Register", "d6/d8b/a27632.html#a89146ab41d1408c18ce2bff403ae8e4e", null ]
 ];

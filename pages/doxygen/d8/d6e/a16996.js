@@ -1,6 +1,7 @@
 var a16996 =
 [
-    [ "spell_dtk_summon_random_drakkari_SpellScript", "da/d39/a17000.html", "da/d39/a17000" ],
-    [ "spell_dtk_summon_random_drakkari", "d8/d6e/a16996.html#ad90bf4e8a154773ee4f47ad3b89ad5b0", null ],
-    [ "GetSpellScript", "d8/d6e/a16996.html#afa275adfb26c6849750a0fe29b0bf8bf", null ]
+    [ "HandleRemove", "d8/d6e/a16996.html#a9f312e4b9c59822e3d2d771018746631", null ],
+    [ "PeriodicTick", "d8/d6e/a16996.html#ab3ab06c1dafc958b1a099e7b3ab1cf9a", null ],
+    [ "PrepareAuraScript", "d8/d6e/a16996.html#a8ae913a5168b2fc80ddf09f67c3535ad", null ],
+    [ "Register", "d8/d6e/a16996.html#a5b26c53c83f798eccd235ff4f364dcdf", null ]
 ];

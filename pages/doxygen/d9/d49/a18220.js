@@ -1,6 +1,6 @@
 var a18220 =
 [
-    [ "spell_igb_rocket_artillery_SpellScript", "d0/daf/a18224.html", "d0/daf/a18224" ],
-    [ "spell_igb_rocket_artillery", "d9/d49/a18220.html#a406da5a676f2b35b7e3aa2c2bba89137", null ],
-    [ "GetSpellScript", "d9/d49/a18220.html#acfb6d8ca250aeba0d699ee63baefaa8b", null ]
+    [ "BurningPitchFilterCheck", "d9/d49/a18220.html#a11a4816f3d29cb1a6c4845cdaaeaa3cf", null ],
+    [ "operator()", "d9/d49/a18220.html#a24be987c8471d8a7096025debf6e60b1", null ],
+    [ "_entry", "d9/d49/a18220.html#a7bd20aed2db0e24ad34cbcc94d9a89d6", null ]
 ];

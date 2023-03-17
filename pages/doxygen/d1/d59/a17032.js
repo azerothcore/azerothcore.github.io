@@ -1,6 +1,6 @@
 var a17032 =
 [
-    [ "HandlePeriodicTick", "d1/d59/a17032.html#aee8388fd10174432ec615d5dc12f7ca3", null ],
-    [ "PrepareAuraScript", "d1/d59/a17032.html#ab6558732ac7d4d0cfa2557dce21c4efb", null ],
-    [ "Register", "d1/d59/a17032.html#a9b5f76898b8b0bf3778bbdeba185d71a", null ]
+    [ "HandleScriptEffect", "d1/d59/a17032.html#a9bc21e7cd5daa655b20fc457a9b7ae55", null ],
+    [ "PrepareSpellScript", "d1/d59/a17032.html#a85552d12187dcd8c27b50b558e5c6368", null ],
+    [ "Register", "d1/d59/a17032.html#a3e1a9426652c4dc3fc866cbc676945a0", null ]
 ];

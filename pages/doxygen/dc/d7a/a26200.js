@@ -1,8 +1,6 @@
 var a26200 =
 [
-    [ "npc_captain_saeedAI", "da/d3c/a26204.html", "da/d3c/a26204" ],
-    [ "npc_captain_saeed", "dc/d7a/a26200.html#a8a5bee9f908b10451b8d4720dff85670", null ],
-    [ "GetAI", "dc/d7a/a26200.html#aa6a232f6c2dd39483273cac41af9a7d7", null ],
-    [ "OnGossipHello", "dc/d7a/a26200.html#a7db9b76578743d4ee96b2c4f11dc265c", null ],
-    [ "OnGossipSelect", "dc/d7a/a26200.html#a8ace4d924b6f33312d914fb6ce1e0ea6", null ]
+    [ "npc_mature_netherwing_drakeAI", "da/d3c/a26204.html", "da/d3c/a26204" ],
+    [ "npc_mature_netherwing_drake", "dc/d7a/a26200.html#a3369bd143ff9e46a4ad4c44b6d8c0ec5", null ],
+    [ "GetAI", "dc/d7a/a26200.html#ac5a1dad24920396156f22ab02bfab84b", null ]
 ];

@@ -1,9 +1,11 @@
 var a28284 =
 [
-    [ "CheckCast", "dc/d26/a28284.html#ad6b60c449d57503508c9a94ca6e919f9", null ],
-    [ "HandleDummy", "dc/d26/a28284.html#a7f79495525687fba6229f48935b2558a", null ],
-    [ "Load", "dc/d26/a28284.html#a0c73457e44a3d64bdccee78d28893672", null ],
-    [ "PrepareSpellScript", "dc/d26/a28284.html#a4826d7b257ee05bfe0d6db3d30a924e9", null ],
-    [ "Register", "dc/d26/a28284.html#ab9f09394ab301350a2abaefde90632fe", null ],
-    [ "Validate", "dc/d26/a28284.html#a9b9d5f862e9910f1a12780ff54b067ca", null ]
+    [ "ChangeDest", "dc/d26/a28284.html#a30395ad8a94ea7aedf3d0a58da548ca8", null ],
+    [ "Load", "dc/d26/a28284.html#aac846a8e04b58df54abaf9dbf06a5348", null ],
+    [ "PrepareSpellScript", "dc/d26/a28284.html#a7985f043746f76bc8465419a1ef3eadb", null ],
+    [ "Register", "dc/d26/a28284.html#af20460596a2ec4385bd9bbf0e0199b53", null ],
+    [ "RelocateDest", "dc/d26/a28284.html#a773fd4117c668267d034907b598ac6ac", null ],
+    [ "_x", "dc/d26/a28284.html#a87bdd967585be0022a136ab6b2ddfe2f", null ],
+    [ "_y", "dc/d26/a28284.html#aaf01950197bea05ac30a64797c70c1d5", null ],
+    [ "_z", "dc/d26/a28284.html#a6217f40c5de2791428b613e806d7ced1", null ]
 ];

@@ -1,6 +1,5 @@
 var a12528 =
 [
-    [ "npc_a_special_surpriseAI", "de/d98/a12532.html", "de/d98/a12532" ],
-    [ "npc_a_special_surprise", "d8/dbf/a12528.html#ab88d74a86049c53b1569bdcc263f3dd4", null ],
-    [ "GetAI", "d8/dbf/a12528.html#a930c7ba67a20fbfc55b40117ccd52c98", null ]
+    [ "go_inconspicuous_mine_car", "d8/dbf/a12528.html#a34e941a813079b55f66bea15cffe8f42", null ],
+    [ "OnGossipHello", "d8/dbf/a12528.html#a256a8f766dd045613c0c7159db9f74e0", null ]
 ];

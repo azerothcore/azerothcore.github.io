@@ -1,7 +1,9 @@
 var a27900 =
 [
-    [ "Load", "db/d30/a27900.html#a8be944ae201f4f8406948aff78f982d9", null ],
-    [ "OnDummyEffect", "db/d30/a27900.html#adcb707400963e549a295e115d6f3583b", null ],
-    [ "PrepareSpellScript", "db/d30/a27900.html#a5b2175a933df10d775bc3381f515aa96", null ],
-    [ "Register", "db/d30/a27900.html#a6e41bf15401c540887dd321e4b2cc7d3", null ]
+    [ "OnEffectHitTargetDisarm", "db/d30/a27900.html#ae8ce5a315886ede30eda7d3682e4ef06", null ],
+    [ "OnEffectHitTargetStun", "db/d30/a27900.html#a5a5253b6d152b1af78de663c09451536", null ],
+    [ "OnEffectLaunchTargetDisarm", "db/d30/a27900.html#a2bbcf5ee2d41362c80a4649a4cf7e260", null ],
+    [ "OnEffectLaunchTargetStun", "db/d30/a27900.html#ac3d5052bf045082fb8bc02c72a0dba39", null ],
+    [ "PrepareSpellScript", "db/d30/a27900.html#a113219d3376a23f8889f26f10744e7cb", null ],
+    [ "Register", "db/d30/a27900.html#a12ef13dbc3e9cd95fb1d57bf393735e3", null ]
 ];

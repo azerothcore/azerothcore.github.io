@@ -1,8 +1,6 @@
 var a18136 =
 [
-    [ "Load", "d9/dd1/a18136.html#a16691718a2bd0901fdb7d29ec14eba08", null ],
-    [ "PeriodicTick", "d9/dd1/a18136.html#af6b4ea382eca8a6ec918a81254b075a3", null ],
-    [ "PrepareAuraScript", "d9/dd1/a18136.html#a97a737567a69f152aa577db4023d976f", null ],
-    [ "Register", "d9/dd1/a18136.html#a9742a2b02f47d7bfd4416e26c69cb543", null ],
-    [ "tickNo", "d9/dd1/a18136.html#a4d8a11b7a97ecbc6772f6e34ed011367", null ]
+    [ "PrepareSpellScript", "d9/dd1/a18136.html#ad5aa49896bec706e60ea9725969698c9", null ],
+    [ "Register", "d9/dd1/a18136.html#a8bfd04c4d3d212a9bae2ef9fb0177574", null ],
+    [ "RelocateTransportOffset", "d9/dd1/a18136.html#aecf5f2a7a4f38274460917742e80734a", null ]
 ];

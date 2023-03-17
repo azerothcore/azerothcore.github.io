@@ -1,6 +1,6 @@
 var a17816 =
 [
-    [ "spell_blood_queen_vampiric_bite_SpellScript", "dc/df2/a17820.html", "dc/df2/a17820" ],
-    [ "spell_blood_queen_vampiric_bite", "d9/d4c/a17816.html#ae324b618e1ffca96853070c0e288af23", null ],
-    [ "GetSpellScript", "d9/d4c/a17816.html#ad4fe256640f5a0ae0b5f530653b41290", null ]
+    [ "spell_blood_queen_bloodbolt_SpellScript", "dc/df2/a17820.html", "dc/df2/a17820" ],
+    [ "spell_blood_queen_bloodbolt", "d9/d4c/a17816.html#a5a095527d4d3b5ebf877066cf7c960d0", null ],
+    [ "GetSpellScript", "d9/d4c/a17816.html#a9405a970df2eb4d18d1b656b5101347d", null ]
 ];

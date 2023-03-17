@@ -1,20 +1,19 @@
 var a02750 =
 [
-    [ "npc_professor_phizzlethorpe", "d0/d63/a13251.html", "d0/d63/a13251" ],
-    [ "npc_professor_phizzlethorpe::npc_professor_phizzlethorpeAI", "da/d43/a13255.html", "da/d43/a13255" ],
-    [ "ProfessorPhizzlethorpe", "d7/d14/a02750.html#a2fbc348d7cc479e3131e261e4a86f0a1", [
-      [ "SAY_PROGRESS_1", "d7/d14/a02750.html#a2fbc348d7cc479e3131e261e4a86f0a1ac7ef023ed2cd6e71dcfa4b57f34ffb21", null ],
-      [ "SAY_PROGRESS_2", "d7/d14/a02750.html#a2fbc348d7cc479e3131e261e4a86f0a1a967473f354dae95832b5e82733f4cced", null ],
-      [ "SAY_PROGRESS_3", "d7/d14/a02750.html#a2fbc348d7cc479e3131e261e4a86f0a1a25cbd1006b2e610756fbd3227fb87dcc", null ],
-      [ "EMOTE_PROGRESS_4", "d7/d14/a02750.html#a2fbc348d7cc479e3131e261e4a86f0a1a35c4fc6952e57458ffc3e74698dd2769", null ],
-      [ "SAY_AGGRO", "d7/d14/a02750.html#a2fbc348d7cc479e3131e261e4a86f0a1a47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SAY_PROGRESS_5", "d7/d14/a02750.html#a2fbc348d7cc479e3131e261e4a86f0a1aeee7fea4c8b3b6d3b0732bcde69433f3", null ],
-      [ "SAY_PROGRESS_6", "d7/d14/a02750.html#a2fbc348d7cc479e3131e261e4a86f0a1a36a5f74e6995b5cd9d8df351e57bfa84", null ],
-      [ "SAY_PROGRESS_7", "d7/d14/a02750.html#a2fbc348d7cc479e3131e261e4a86f0a1a9e815bbd308d3234b2feecf6dcd4e4cd", null ],
-      [ "EMOTE_PROGRESS_8", "d7/d14/a02750.html#a2fbc348d7cc479e3131e261e4a86f0a1a09177823914cf4cba524cd102c309c4e", null ],
-      [ "SAY_PROGRESS_9", "d7/d14/a02750.html#a2fbc348d7cc479e3131e261e4a86f0a1a0d013e69b765c1cc9024427c5967dbdf", null ],
-      [ "QUEST_SUNKEN_TREASURE", "d7/d14/a02750.html#a2fbc348d7cc479e3131e261e4a86f0a1a70619c446edf1e13b81824e234d2c7f3", null ],
-      [ "NPC_VENGEFUL_SURGE", "d7/d14/a02750.html#a2fbc348d7cc479e3131e261e4a86f0a1aa30485aedeea21658a4aa93a8f361873", null ]
+    [ "instance_sunwell_plateau", "d6/d01/a13236.html", "d6/d01/a13236" ],
+    [ "instance_sunwell_plateau::instance_sunwell_plateau_InstanceMapScript", "d4/d45/a13240.html", "d4/d45/a13240" ],
+    [ "spell_cataclysm_breath", "db/d49/a13244.html", "db/d49/a13244" ],
+    [ "spell_cataclysm_breath::spell_cataclysm_breath_SpellScript", "dc/df4/a13248.html", "dc/df4/a13248" ],
+    [ "cataclysmBreath", "d7/d14/a02750.html#a6a5181bd462eed11e28ffb04c14a901c", [
+      [ "SPELL_CORROSIVE_POISON", "d7/d14/a02750.html#a6a5181bd462eed11e28ffb04c14a901ca818edbfea0cf0c02ff4960dc3223a5f3", null ],
+      [ "SPELL_FEVERED_FATIGUE", "d7/d14/a02750.html#a6a5181bd462eed11e28ffb04c14a901ca998a1e2cfc29e3344feb12041284e222", null ],
+      [ "SPELL_HEX", "d7/d14/a02750.html#a6a5181bd462eed11e28ffb04c14a901ca88cd9f67c5feb7f0ba6c853b8520a00b", null ],
+      [ "SPELL_NECROTIC_POISON", "d7/d14/a02750.html#a6a5181bd462eed11e28ffb04c14a901ca91659ae45d576a823387ef54f56e2c4b", null ],
+      [ "SPELL_PIERCING_SHADOW", "d7/d14/a02750.html#a6a5181bd462eed11e28ffb04c14a901cadfad6c0302dc1ae7b545b95f9b85b58d", null ],
+      [ "SPELL_SHRINK", "d7/d14/a02750.html#a6a5181bd462eed11e28ffb04c14a901ca049e0d56c3f30d8991dde2beae302c4f", null ],
+      [ "SPELL_WAVERING_WILL", "d7/d14/a02750.html#a6a5181bd462eed11e28ffb04c14a901ca799fa97283c7b88949520a98f9f00ee8", null ],
+      [ "SPELL_WITHERED_TOUCH", "d7/d14/a02750.html#a6a5181bd462eed11e28ffb04c14a901caa34a7e07cb901fc82e3dc957d620e03b", null ]
     ] ],
-    [ "AddSC_arathi_highlands", "d7/d14/a02750.html#a1e4a782474f0928dbacdf32c0ba395fd", null ]
+    [ "AddSC_instance_sunwell_plateau", "d7/d14/a02750.html#a6f050a93b62a1391ae6321d1d2d6450a", null ],
+    [ "doorData", "d7/d14/a02750.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
 ];

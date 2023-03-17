@@ -1,6 +1,8 @@
 var a15164 =
 [
-    [ "boss_veknilash", "db/ddd/a15164.html#a73a4095c3dd0ffbd9d7ef5a8a837f13f", null ],
-    [ "EnterCombat", "db/ddd/a15164.html#ad9389d964287737ac14b25544e204b57", null ],
-    [ "IAmVeklor", "db/ddd/a15164.html#a454027d829b962ee0feebb6fd5687714", null ]
+    [ "npc_ouro_spawner", "db/ddd/a15164.html#acb18739e5a1734312ffdda35321e5f34", null ],
+    [ "JustSummoned", "db/ddd/a15164.html#a722dada5bf97c730462a0de2b082d5ff", null ],
+    [ "MoveInLineOfSight", "db/ddd/a15164.html#a83c0972db4435ccf1af069574e4056f4", null ],
+    [ "Reset", "db/ddd/a15164.html#ac1591f1c172bfdda25b020e00cd0835e", null ],
+    [ "hasSummoned", "db/ddd/a15164.html#a6ac376861c1206cc1551d9fa86c0fc97", null ]
 ];

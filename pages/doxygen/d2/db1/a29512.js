@@ -1,8 +1,10 @@
 var a29512 =
 [
-    [ "npc_artoriusAI", "d9/d31/a29516.html", "d9/d31/a29516" ],
-    [ "npc_artorius", "d2/db1/a29512.html#a832831aa19ef3694eee5bbae4d1d39e1", null ],
-    [ "GetAI", "d2/db1/a29512.html#a2563f90fe1fd35c6bcf3f2296652981d", null ],
-    [ "OnGossipHello", "d2/db1/a29512.html#a2c91fcd777d0e0e7ab4927290ca04359", null ],
-    [ "OnGossipSelect", "d2/db1/a29512.html#ae0d8b09e4f7ad830cac9d82ef2d2fe57", null ]
+    [ "npc_air_force_botsAI", "d2/db1/a29512.html#a062eb272826d52ffd9b72054f970b761", null ],
+    [ "GetSummonedGuard", "d2/db1/a29512.html#ac4f39049ba15caf314939f12b82ccd05", null ],
+    [ "MoveInLineOfSight", "d2/db1/a29512.html#a474231c0ce93b4db0789bcc8f6767c19", null ],
+    [ "Reset", "d2/db1/a29512.html#a016911d354f3b00e2db3e4f3722cda7f", null ],
+    [ "SummonGuard", "d2/db1/a29512.html#a8da57471dfa875f55f52c3d2b068a0f3", null ],
+    [ "SpawnAssoc", "d2/db1/a29512.html#a6f2f7ffd24dd32780c441fd6ce29dfbf", null ],
+    [ "SpawnedGUID", "d2/db1/a29512.html#a3c8ae595a3b4a436c2f94aa84cb9ee56", null ]
 ];

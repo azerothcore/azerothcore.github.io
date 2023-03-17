@@ -1,6 +1,6 @@
 var a10704 =
 [
-    [ "EffectSplitHandler", "d6/dfb/a10704.html#a1e31c0f06961aba66f6737c4b4aca7f6", null ],
-    [ "Call", "d6/dfb/a10704.html#ae0ef79af01cce82ed3cbe208d98b325a", null ],
-    [ "pEffectHandlerScript", "d6/dfb/a10704.html#a181c0f987789f3725e7ba7e023cfc4e7", null ]
+    [ "AuraDispelHandler", "d6/dfb/a10704.html#ab6e675b4db931c601b3d6aef65ae0ff6", null ],
+    [ "Call", "d6/dfb/a10704.html#a147d8a6d95f011f27600d052ef7b4000", null ],
+    [ "pHandlerScript", "d6/dfb/a10704.html#ab7dd73a36aa517354a023deb7db0cf19", null ]
 ];

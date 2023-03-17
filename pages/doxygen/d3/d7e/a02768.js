@@ -1,20 +1,20 @@
 var a02768 =
 [
-    [ "npc_partygoer_pather", "d3/d7c/a13315.html", "d3/d7c/a13315" ],
-    [ "npc_partygoer", "d4/dd6/a13319.html", "d4/dd6/a13319" ],
-    [ "Partygoer", "d3/d7e/a02768.html#a2426dcce5ddc33ba72e2c0ebe9c88e1e", [
-      [ "EVENT_RANDOM_ACTION", "d3/d7e/a02768.html#a2426dcce5ddc33ba72e2c0ebe9c88e1eacb43fc5be7eecf527a639a9122091f96", null ],
-      [ "EVENT_REMOVE_EQUIPMENT", "d3/d7e/a02768.html#a2426dcce5ddc33ba72e2c0ebe9c88e1ea37faceace884bd7a013b0d5dd0fac886", null ],
-      [ "EVENT_STOP_DANCING", "d3/d7e/a02768.html#a2426dcce5ddc33ba72e2c0ebe9c88e1eacaad2f31616c81d6fa79aaad83b2fba4", null ],
-      [ "EVENT_THROW_FIREWORKS", "d3/d7e/a02768.html#a2426dcce5ddc33ba72e2c0ebe9c88e1eaa67af798691d1e37088900cb7c2ebf51", null ],
-      [ "EVENT_RESET_FACING", "d3/d7e/a02768.html#a2426dcce5ddc33ba72e2c0ebe9c88e1ea1d5b4f747a997b97e8ac881aa879bbb9", null ],
-      [ "GO_FIREWORKS_LAUNCHER", "d3/d7e/a02768.html#a2426dcce5ddc33ba72e2c0ebe9c88e1ea4fd8fdeafd948ad27d906801728d7081", null ]
+    [ "npc_professor_phizzlethorpe", "d2/da0/a13292.html", "d2/da0/a13292" ],
+    [ "npc_professor_phizzlethorpe::npc_professor_phizzlethorpeAI", "d3/d1d/a13296.html", "d3/d1d/a13296" ],
+    [ "ProfessorPhizzlethorpe", "d3/d7e/a02768.html#a2fbc348d7cc479e3131e261e4a86f0a1", [
+      [ "SAY_PROGRESS_1", "d3/d7e/a02768.html#a2fbc348d7cc479e3131e261e4a86f0a1ac7ef023ed2cd6e71dcfa4b57f34ffb21", null ],
+      [ "SAY_PROGRESS_2", "d3/d7e/a02768.html#a2fbc348d7cc479e3131e261e4a86f0a1a967473f354dae95832b5e82733f4cced", null ],
+      [ "SAY_PROGRESS_3", "d3/d7e/a02768.html#a2fbc348d7cc479e3131e261e4a86f0a1a25cbd1006b2e610756fbd3227fb87dcc", null ],
+      [ "EMOTE_PROGRESS_4", "d3/d7e/a02768.html#a2fbc348d7cc479e3131e261e4a86f0a1a35c4fc6952e57458ffc3e74698dd2769", null ],
+      [ "SAY_AGGRO", "d3/d7e/a02768.html#a2fbc348d7cc479e3131e261e4a86f0a1a47c752fff069f3e55065795eef2a9bfe", null ],
+      [ "SAY_PROGRESS_5", "d3/d7e/a02768.html#a2fbc348d7cc479e3131e261e4a86f0a1aeee7fea4c8b3b6d3b0732bcde69433f3", null ],
+      [ "SAY_PROGRESS_6", "d3/d7e/a02768.html#a2fbc348d7cc479e3131e261e4a86f0a1a36a5f74e6995b5cd9d8df351e57bfa84", null ],
+      [ "SAY_PROGRESS_7", "d3/d7e/a02768.html#a2fbc348d7cc479e3131e261e4a86f0a1a9e815bbd308d3234b2feecf6dcd4e4cd", null ],
+      [ "EMOTE_PROGRESS_8", "d3/d7e/a02768.html#a2fbc348d7cc479e3131e261e4a86f0a1a09177823914cf4cba524cd102c309c4e", null ],
+      [ "SAY_PROGRESS_9", "d3/d7e/a02768.html#a2fbc348d7cc479e3131e261e4a86f0a1a0d013e69b765c1cc9024427c5967dbdf", null ],
+      [ "QUEST_SUNKEN_TREASURE", "d3/d7e/a02768.html#a2fbc348d7cc479e3131e261e4a86f0a1a70619c446edf1e13b81824e234d2c7f3", null ],
+      [ "NPC_VENGEFUL_SURGE", "d3/d7e/a02768.html#a2fbc348d7cc479e3131e261e4a86f0a1aa30485aedeea21658a4aa93a8f361873", null ]
     ] ],
-    [ "Partygoer_Pather", "d3/d7e/a02768.html#a3222d14ce03d75912e65560ebf2a961b", [
-      [ "EVENT_PATH", "d3/d7e/a02768.html#a3222d14ce03d75912e65560ebf2a961bab210624be9af9dc44683266b3b3efcea", null ],
-      [ "EVENT_RANDOM_ACTION_PATHER", "d3/d7e/a02768.html#a3222d14ce03d75912e65560ebf2a961ba93c437ac824047af79e5296f2f70938b", null ],
-      [ "EVENT_REMOVE_EQUIPMENT_PATHER", "d3/d7e/a02768.html#a3222d14ce03d75912e65560ebf2a961baae55cce9b375894e1a9adbbd8c42610f", null ],
-      [ "EVENT_STOP_DANCING_PATHER", "d3/d7e/a02768.html#a3222d14ce03d75912e65560ebf2a961ba038dd2b09deef9325222dec4d8a99292", null ]
-    ] ],
-    [ "AddSC_eversong_woods", "d3/d7e/a02768.html#a78299b9cdd3e783b3f231a9dda40a7b4", null ]
+    [ "AddSC_arathi_highlands", "d3/d7e/a02768.html#a1e4a782474f0928dbacdf32c0ba395fd", null ]
 ];

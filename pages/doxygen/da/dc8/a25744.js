@@ -1,7 +1,6 @@
 var a25744 =
 [
-    [ "CastQuill", "da/dc8/a25744.html#a923234809186bcbdf02457f4be095519", null ],
-    [ "Execute", "da/dc8/a25744.html#a26a971a575e4b9503cd1da73d43ebd1e", null ],
-    [ "_caster", "da/dc8/a25744.html#af809b9279aff141ce4007c8d1fbcc331", null ],
-    [ "_spellId", "da/dc8/a25744.html#ad6f7d8eaf69873b0ba57be4189c145cf", null ]
+    [ "OnApply", "da/dc8/a25744.html#a36bae477f05e49093ff7486efb139662", null ],
+    [ "PrepareAuraScript", "da/dc8/a25744.html#a68fcadaefa5ed3df80e3e9ef09c5898c", null ],
+    [ "Register", "da/dc8/a25744.html#af1ab3aec88c75b88cb8cc78bb6249806", null ]
 ];

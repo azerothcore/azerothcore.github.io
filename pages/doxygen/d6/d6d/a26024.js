@@ -1,6 +1,6 @@
 var a26024 =
 [
-    [ "npc_nether_drakeAI", "d5/d3c/a26028.html", "d5/d3c/a26028" ],
-    [ "npc_nether_drake", "d6/d6d/a26024.html#a253ec3c91857b899ea9e2c824870b760", null ],
-    [ "GetAI", "d6/d6d/a26024.html#a58d269e2c73cae07bb507162b742fe8f", null ]
+    [ "npc_oscillating_frequency_scanner_master_bunnyAI", "d5/d3c/a26028.html", "d5/d3c/a26028" ],
+    [ "npc_oscillating_frequency_scanner_master_bunny", "d6/d6d/a26024.html#a8ae11cadbd5e883bf12f8f5201700b4e", null ],
+    [ "GetAI", "d6/d6d/a26024.html#a60d55e2eda4484ceea4e475ac8653977", null ]
 ];

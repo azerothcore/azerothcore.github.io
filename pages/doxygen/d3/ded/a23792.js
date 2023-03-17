@@ -1,6 +1,6 @@
 var a23792 =
 [
-    [ "npc_time_lost_proto_drakeAI", "db/d28/a23796.html", "db/d28/a23796" ],
-    [ "npc_time_lost_proto_drake", "d3/ded/a23792.html#a6fda9f8b0d4e61e88e2a82d101d9c69e", null ],
-    [ "GetAI", "d3/ded/a23792.html#a8b463fe7a85b0b1526c2f99ed7aeefa2", null ]
+    [ "HandleScript", "d3/ded/a23792.html#afa7e36019c483f0502de9b2e6cab313f", null ],
+    [ "PrepareSpellScript", "d3/ded/a23792.html#ab6febb60aba3af1002b99f67c77942a6", null ],
+    [ "Register", "d3/ded/a23792.html#a402c1955264328777d813c4aa9eeaf11", null ]
 ];

@@ -1,7 +1,6 @@
 var a24664 =
 [
-    [ "CalculateAmount", "dc/d39/a24664.html#ac5080eab7a815cbea4cf966c73a28b83", null ],
-    [ "PrepareAuraScript", "dc/d39/a24664.html#a0ab73d06feccd3370c7eb75b43523e33", null ],
-    [ "Register", "dc/d39/a24664.html#a7cec8993c0f2f62cfe1f79532e610668", null ],
-    [ "Update", "dc/d39/a24664.html#ab01be869cc3b0d7fd6f6cda50bc9f8b4", null ]
+    [ "boss_teron_gorefiendAI", "d4/df4/a24668.html", "d4/df4/a24668" ],
+    [ "boss_teron_gorefiend", "dc/d39/a24664.html#ad80b45baaf6b2d64f575a160f3985642", null ],
+    [ "GetAI", "dc/d39/a24664.html#a4e5b53de0fbf48ab25a6f7681539afcf", null ]
 ];

@@ -1,6 +1,7 @@
 var a23924 =
 [
-    [ "HandleSummon", "d7/d77/a23924.html#a3490f2145ba100aff85894a698476eaa", null ],
-    [ "PrepareSpellScript", "d7/d77/a23924.html#ac23c78653aa51ff66d374a876d77cd47", null ],
-    [ "Register", "d7/d77/a23924.html#ae2962ddcb25cc68ab6ec7966514743bf", null ]
+    [ "npc_wg_siege_machineAI", "d7/d77/a23924.html#aaeca9e73520701ce28f2cc9d1483cc6b", null ],
+    [ "CanControlVehicle", "d7/d77/a23924.html#a7ce79406da48e245a0baa2fdd23622b9", null ],
+    [ "UpdateAI", "d7/d77/a23924.html#a8ddd21047a857facc767a9edc0ec5408", null ],
+    [ "checkTimer", "d7/d77/a23924.html#abf4b06eae50adeefedba02e2186ea48a", null ]
 ];

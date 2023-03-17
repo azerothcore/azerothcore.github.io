@@ -1,10 +1,11 @@
 var a25492 =
 [
-    [ "instance_hellfire_ramparts_InstanceMapScript", "de/dea/a25492.html#aebc047b45cb4560a38df89db75f8efab", null ],
-    [ "GetSaveData", "de/dea/a25492.html#a64de7e40455b75a23092c5cf264778eb", null ],
-    [ "Initialize", "de/dea/a25492.html#a115a36ec26e15e23be4d78250d86d814", null ],
-    [ "Load", "de/dea/a25492.html#ad2660aafa8150e68d585d38b19134a6f", null ],
-    [ "OnGameObjectCreate", "de/dea/a25492.html#a0639fcd867616d1f04aacde44020bb30", null ],
-    [ "SetBossState", "de/dea/a25492.html#a7a38526ca7b9a7c7c04231f8f8efd2f7", null ],
-    [ "felIronChestGUID", "de/dea/a25492.html#a7cfcac5dbe4562268679ddceaf8ec8ea", null ]
+    [ "boss_magtheridonAI", "de/dea/a25492.html#a115e25842a918226109e3ca78643bfcf", null ],
+    [ "JustDied", "de/dea/a25492.html#a3f1fa73db6bcba67dca1e1ece320d32a", null ],
+    [ "JustEngagedWith", "de/dea/a25492.html#a73cf46bbcb4f1c09e8abe3109c67d85f", null ],
+    [ "KilledUnit", "de/dea/a25492.html#a17b3fa04023efd56a0d1607e18d44be0", null ],
+    [ "MoveInLineOfSight", "de/dea/a25492.html#a9ae6279250a0f60d6b94ff8547574a12", null ],
+    [ "Reset", "de/dea/a25492.html#a438c82d5a9ff2dd85e49d52d6ddff839", null ],
+    [ "UpdateAI", "de/dea/a25492.html#aba64c8642856ec4326ab5c580366fa86", null ],
+    [ "events2", "de/dea/a25492.html#a926a90f7a23987b1d1173d266f8d7ffd", null ]
 ];

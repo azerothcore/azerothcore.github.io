@@ -1,9 +1,9 @@
 var a08736 =
 [
-    [ "NearestHostileUnitCheck", "df/d70/a08736.html#aa1d706a1eb1de6168b568e70008e2d3b", null ],
-    [ "NearestHostileUnitCheck", "df/d70/a08736.html#a2fe620370289850eb0362823de2072d1", null ],
-    [ "operator()", "df/d70/a08736.html#a04c85a77d660bbc74279d1062dabc375", null ],
-    [ "i_playerOnly", "df/d70/a08736.html#a64c5fce466521a6d6d78eeda0708d65e", null ],
-    [ "m_range", "df/d70/a08736.html#a801d56a180e196943cfc2cefb6c5dda5", null ],
-    [ "me", "df/d70/a08736.html#a67cef25e6f725ea42f0377df34d48495", null ]
+    [ "AnyFriendlyUnitInObjectRangeCheck", "df/d70/a08736.html#a4ed3a469f35cb7b64ad5f144281b7910", null ],
+    [ "operator()", "df/d70/a08736.html#a6e1026191fd4b1b45696a60f45b1b7b8", null ],
+    [ "i_funit", "df/d70/a08736.html#a9ebd1a1d9716dfda55509396947c1a83", null ],
+    [ "i_obj", "df/d70/a08736.html#adacade7450b0af19540ea705e1bd438b", null ],
+    [ "i_playerOnly", "df/d70/a08736.html#a6b0d852333ee74a20281ce7de5a45b98", null ],
+    [ "i_range", "df/d70/a08736.html#a2af638499152888a698b0fc1570e46ed", null ]
 ];

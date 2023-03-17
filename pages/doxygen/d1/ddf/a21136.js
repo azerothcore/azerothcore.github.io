@@ -1,6 +1,6 @@
 var a21136 =
 [
-    [ "HandleScript", "d1/ddf/a21136.html#ade715ba22bff6cb5f784a00f855984e0", null ],
-    [ "PrepareSpellScript", "d1/ddf/a21136.html#a5ef3f89cfd6c73970bc8096937c7b011", null ],
-    [ "Register", "d1/ddf/a21136.html#af3d8192390fec368b8963236b9a1b3ba", null ]
+    [ "spell_systems_shutdown_AuraScript", "d6/d25/a21140.html", "d6/d25/a21140" ],
+    [ "spell_systems_shutdown", "d1/ddf/a21136.html#a835da8c4136b61bb959a1d3b06eb7525", null ],
+    [ "GetAuraScript", "d1/ddf/a21136.html#a880041d31984831820d78f34e2ce3b37", null ]
 ];

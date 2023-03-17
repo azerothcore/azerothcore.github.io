@@ -1,6 +1,12 @@
 var a24564 =
 [
-    [ "PrepareAuraScript", "de/d13/a24564.html#ac8168dc13b599e0459a465c150515e58", null ],
-    [ "Register", "de/d13/a24564.html#af9988a25e208e4203a3a4c5498f3c6ff", null ],
-    [ "AuraEffectHandleModes", "de/d13/a24564.html#a28d97377305d52b19610760e16b18a92", null ]
+    [ "boss_essence_of_angerAI", "de/d13/a24564.html#a25eed717395b4e1ca5504d2d473e2500", null ],
+    [ "DoAction", "de/d13/a24564.html#a81576aaf465dfc99d199aaf6a182df52", null ],
+    [ "JustDied", "de/d13/a24564.html#a997d75ad388e790f9863e1b15fa1c899", null ],
+    [ "JustEngagedWith", "de/d13/a24564.html#a16d2b13fcf3dfa513813669b44712c4c", null ],
+    [ "KilledUnit", "de/d13/a24564.html#a6a900f9a9dc5509c36e5bdaaaacc197d", null ],
+    [ "Reset", "de/d13/a24564.html#ade57a575bd84e8e095b1ab5a5c81d3f6", null ],
+    [ "UpdateAI", "de/d13/a24564.html#a67e9f5a361894aa227f2a74f9222740d", null ],
+    [ "events", "de/d13/a24564.html#acaa4d2cce468edeca351389dc48ad3f6", null ],
+    [ "targetGUID", "de/d13/a24564.html#adc3867a4446375f1217809299f3dd9bb", null ]
 ];

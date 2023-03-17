@@ -1,6 +1,6 @@
 var a22784 =
 [
-    [ "boss_lavanthorAI", "dc/dab/a22788.html", "dc/dab/a22788" ],
-    [ "boss_lavanthor", "d0/d14/a22784.html#aa935ffe07f59db59b9b8484f22927026", null ],
-    [ "GetAI", "d0/d14/a22784.html#aae09ecbe56efac6538bdfb6120e0be40", null ]
+    [ "npc_erekem_guardAI", "dc/dab/a22788.html", "dc/dab/a22788" ],
+    [ "npc_erekem_guard", "d0/d14/a22784.html#a78592996e90f77f81eec0325a7f11956", null ],
+    [ "GetAI", "d0/d14/a22784.html#a844a6a29eda4f41547ea37a4c08fb723", null ]
 ];

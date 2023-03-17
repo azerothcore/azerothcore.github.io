@@ -1,7 +1,6 @@
 var a23472 =
 [
-    [ "HandleDummy", "dd/df8/a23472.html#a0c23b9b892f09cb952d78aa93ad1186e", null ],
-    [ "PrepareSpellScript", "dd/df8/a23472.html#a735f8a925571a2d2edd392c069a3e14f", null ],
-    [ "Register", "dd/df8/a23472.html#a8e2ab5d37d906b1bd56884d3097f3405", null ],
-    [ "Validate", "dd/df8/a23472.html#a8ab2c2473ae08f4e1cd4838f099ce13f", null ]
+    [ "HandleAfterEffectApply", "dd/df8/a23472.html#a5a1330e74d473109e34a3c76e3e3e06f", null ],
+    [ "PrepareAuraScript", "dd/df8/a23472.html#a7d9c84b6d01f822ed05e88de75c6087e", null ],
+    [ "Register", "dd/df8/a23472.html#ae826df852bf83d2a5c3a12288066f1b1", null ]
 ];

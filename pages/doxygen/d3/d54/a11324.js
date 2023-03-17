@@ -1,7 +1,7 @@
 var a11324 =
 [
-    [ "boss_okthorAI", "d3/d54/a11324.html#a8007cfade5c04d8b4e0b787ac5a5beff", null ],
-    [ "EnterCombat", "d3/d54/a11324.html#ad1972137e2bd4a9bcbed21912973523c", null ],
-    [ "UpdateAI", "d3/d54/a11324.html#a246c3bd9aa96eb11d2fa48be8654d726", null ],
-    [ "nextArcaneExplosionTime", "d3/d54/a11324.html#a89d8cdd528775ee77caeac1d0465d4f2", null ]
+    [ "boss_grizzleAI", "d3/d54/a11324.html#a3310892cafc2a8e022105f77258b25af", null ],
+    [ "JustEngagedWith", "d3/d54/a11324.html#a598e7e7d6bdd847bf01968116988a935", null ],
+    [ "UpdateAI", "d3/d54/a11324.html#a2dc5c27cd4eaf2aa1484a370a68e3314", null ],
+    [ "nextTremorTime", "d3/d54/a11324.html#aa392b5a5db08d8676614923ae4838d05", null ]
 ];

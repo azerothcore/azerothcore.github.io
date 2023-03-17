@@ -1,6 +1,10 @@
 var a26556 =
 [
-    [ "npc_mortog_steamhead", "d3/d77/a26556.html#a610e23b977016fbc77220e9bbc96f473", null ],
-    [ "OnGossipHello", "d3/d77/a26556.html#a32133054bfc5a11f1d8bddd32af7a106", null ],
-    [ "OnGossipSelect", "d3/d77/a26556.html#a2ef792744bf43ffea00a5d3171fd4246", null ]
+    [ "npc_pet_hunter_snake_trap", "d3/d77/a26556.html#aaf5df574c4ac53661c0bb1968f84c6ea", null ],
+    [ "EnterEvadeMode", "d3/d77/a26556.html#a819add0c7b968063403d10275fdc289f", null ],
+    [ "MoveInLineOfSight", "d3/d77/a26556.html#a32d5ed7f4d436f2678b34f4a1d572721", null ],
+    [ "Reset", "d3/d77/a26556.html#a831cf6eea8bd03247cd9877d3be6e1ee", null ],
+    [ "UpdateAI", "d3/d77/a26556.html#a41a37efe6d39c6d97b3dcc5fabbcc812", null ],
+    [ "_init", "d3/d77/a26556.html#a1b5c1301389749f82667c35f3daff847", null ],
+    [ "_spellTimer", "d3/d77/a26556.html#ab9397451e2e8320ca77560a19baeee3f", null ]
 ];

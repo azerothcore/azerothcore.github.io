@@ -1,6 +1,8 @@
 var a22068 =
 [
-    [ "OnRemove", "df/d89/a22068.html#ac4d50b0f256b0b38313b8d7a5910f198", null ],
-    [ "PrepareAuraScript", "df/d89/a22068.html#a1a3486f24b1e00b94be808a43e16204f", null ],
-    [ "Register", "df/d89/a22068.html#ab43761783386b9956f8549046d190422", null ]
+    [ "spell_xt002_gravity_bomb_aura_AuraScript", "de/df4/a22072.html", "de/df4/a22072" ],
+    [ "spell_xt002_gravity_bomb_aura_SpellScript", "d0/d68/a22076.html", "d0/d68/a22076" ],
+    [ "spell_xt002_gravity_bomb_aura", "df/d89/a22068.html#a9dde44cdcc80e022a82e0688dc6e12f2", null ],
+    [ "GetAuraScript", "df/d89/a22068.html#ad70c3daf77d8d97bdd2f18056af6b804", null ],
+    [ "GetSpellScript", "df/d89/a22068.html#af7d1804f9954401b574229c0b4168d0b", null ]
 ];

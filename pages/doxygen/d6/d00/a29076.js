@@ -1,8 +1,7 @@
 var a29076 =
 [
-    [ "CharacterActionIpLogger", "d6/d00/a29076.html#a39861f7348a79031a8215b435ba81059", null ],
-    [ "CharacterIPLogAction", "d6/d00/a29076.html#abf461fe7e7d89057aeb122abbd27e30e", null ],
-    [ "OnCreate", "d6/d00/a29076.html#ae25875eed131046444874c4109619748", null ],
-    [ "OnLogin", "d6/d00/a29076.html#af430f10fe536ac40df50bc9424a7decb", null ],
-    [ "OnLogout", "d6/d00/a29076.html#aca289740b022dcaa0ae681327785cb72", null ]
+    [ "npc_spirit_shadeAI", "d6/d00/a29076.html#a8b7bf7c7cc541a47be79aad76a9bbcbc", null ],
+    [ "IsSummonedBy", "d6/d00/a29076.html#a3a7fcb4af8e3b27e06b4665e8a864b38", null ],
+    [ "MovementInform", "d6/d00/a29076.html#ab001fdc09efe9f8c03ad1b7610124e6d", null ],
+    [ "_summonerGuid", "d6/d00/a29076.html#aa7c6abb848ab37f407a3553d04d0ad81", null ]
 ];

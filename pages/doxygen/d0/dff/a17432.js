@@ -1,6 +1,6 @@
 var a17432 =
 [
-    [ "HandleDummy", "d0/dff/a17432.html#ab1910d353e1648a2bad4b39c884234f8", null ],
-    [ "PrepareSpellScript", "d0/dff/a17432.html#af7364e03bc372c76cd1d067c4c97c7c7", null ],
-    [ "Register", "d0/dff/a17432.html#a531a2b8ef44e2a6c62c7d2bc5aba51e9", null ]
+    [ "npc_pos_leader_secondAI", "dc/dc8/a17436.html", "dc/dc8/a17436" ],
+    [ "npc_pos_leader_second", "d0/dff/a17432.html#ac4758674cc97eae0937264fa028e6da5", null ],
+    [ "GetAI", "d0/dff/a17432.html#ac403cfc86247990d78c9cf4179df8b87", null ]
 ];

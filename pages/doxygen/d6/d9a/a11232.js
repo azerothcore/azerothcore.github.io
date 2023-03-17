@@ -1,6 +1,5 @@
 var a11232 =
 [
-    [ "boss_anubshiahAI", "d0/dca/a11236.html", "d0/dca/a11236" ],
-    [ "boss_anubshiah", "d6/d9a/a11232.html#a7176d98f966dac62f7ac1a10d3f2afa1", null ],
-    [ "GetAI", "d6/d9a/a11232.html#a157420b5f0c4c05e7dc2ee327ef81cb9", null ]
+    [ "at_ring_of_law", "d6/d9a/a11232.html#ad9bb44e898f90fb489b50cad0a711976", null ],
+    [ "OnTrigger", "d6/d9a/a11232.html#a613471caae75ab3d82ce915101a20108", null ]
 ];

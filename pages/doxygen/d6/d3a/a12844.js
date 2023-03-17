@@ -1,5 +1,6 @@
 var a12844 =
 [
-    [ "AreaTrigger_at_sunwell_madrigosa", "d6/d3a/a12844.html#a6202301b3ce2dd20df77e2fd3b2f6042", null ],
-    [ "OnTrigger", "d6/d3a/a12844.html#a459fbbd650883aa69ea9a21cf61370f7", null ]
+    [ "boss_brutallusAI", "df/d4d/a12848.html", "df/d4d/a12848" ],
+    [ "boss_brutallus", "d6/d3a/a12844.html#a0030c442145a411b5534028885b44e04", null ],
+    [ "GetAI", "d6/d3a/a12844.html#a536baa1f734a104e4f00902f973bd87a", null ]
 ];

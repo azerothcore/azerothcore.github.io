@@ -1,7 +1,7 @@
 var a27648 =
 [
-    [ "HandleJump", "d6/d56/a27648.html#ac70f6d53e85af1ee2591e761e21872db", null ],
-    [ "HandleScriptEffect", "d6/d56/a27648.html#abdaa3c5356f84429cf6d2e053a3238ff", null ],
-    [ "PrepareSpellScript", "d6/d56/a27648.html#a7daa7cef660e9f08b8e60c7788783c99", null ],
-    [ "Register", "d6/d56/a27648.html#a0cbd40958551e0f38850a9fdcd6f0048", null ]
+    [ "HandleProc", "d6/d56/a27648.html#a8a844ca9970584aa4bcbc0107e923ff5", null ],
+    [ "PrepareAuraScript", "d6/d56/a27648.html#a0097e8c7603bf705115958dd5d96f6ad", null ],
+    [ "Register", "d6/d56/a27648.html#aca3cd3a1f4738e3e78c879239a80e9cc", null ],
+    [ "Validate", "d6/d56/a27648.html#a8df8750f53a7c618eb534f40fb17875e", null ]
 ];

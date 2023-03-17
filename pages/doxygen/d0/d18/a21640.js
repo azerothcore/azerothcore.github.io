@@ -1,6 +1,7 @@
 var a21640 =
 [
-    [ "HandleInstaKill", "d0/d18/a21640.html#ae6b11e9ce62f2463e78a0676319fecf6", null ],
-    [ "PrepareSpellScript", "d0/d18/a21640.html#a346bec845e3fcee36a48a8524c7e1a05", null ],
-    [ "Register", "d0/d18/a21640.html#a9bcd402df2fa54c304afdbd80aeb812e", null ]
+    [ "StoneGripTargetSelector", "d0/d18/a21640.html#a74fc772e2bc0694dee05fe82de4463e2", null ],
+    [ "operator()", "d0/d18/a21640.html#ae40653def55e656f2347029a97605395", null ],
+    [ "_me", "d0/d18/a21640.html#ae5781d6b553491a1e3e8bfde2b965c3a", null ],
+    [ "_victim", "d0/d18/a21640.html#a09c3c6f832c20776f11b72a468a4b0bb", null ]
 ];

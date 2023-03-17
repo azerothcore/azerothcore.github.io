@@ -1,6 +1,12 @@
 var a23244 =
 [
-    [ "npc_heated_battleAI", "de/d4f/a23244.html#a2b73957d7890549f4b02488c5527fcef", null ],
-    [ "DamageTaken", "de/d4f/a23244.html#a8422c157214195d7166ede35c9c05d19", null ],
-    [ "Reset", "de/d4f/a23244.html#a11a4f3270ff260e30da89017dad38433", null ]
+    [ "npc_wintergarde_gryphon", "de/d4f/a23244.html#ada46ecdbc8c3a33a7b3ce09296c0db72", null ],
+    [ "getVillager", "de/d4f/a23244.html#a7f20f5e124e013ad8f57ca31b9fb86d7", null ],
+    [ "IsSummonedBy", "de/d4f/a23244.html#acd7cea6226034d53b854c5ed659ff949", null ],
+    [ "JustDied", "de/d4f/a23244.html#a6c87d55ef29e14b4b8b87a0321179542", null ],
+    [ "MovementInform", "de/d4f/a23244.html#a8f2faf49533d27d971110681e050c060", null ],
+    [ "PassengerBoarded", "de/d4f/a23244.html#a16c01d26aef06358f979f59fe68c09ca", null ],
+    [ "SpellHit", "de/d4f/a23244.html#acf64143ea83321556156fde30e1a34d4", null ],
+    [ "UpdateAI", "de/d4f/a23244.html#aa161f280e7a7370696cecc27c51ee55c", null ],
+    [ "villagerGUID", "de/d4f/a23244.html#a56a7973a05061197192111ecf55ef14a", null ]
 ];

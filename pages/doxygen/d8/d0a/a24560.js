@@ -1,6 +1,6 @@
 var a24560 =
 [
-    [ "FilterTargets", "d8/d0a/a24560.html#a0a74b1ae8e3e8b1319219fdb9f2594af", null ],
-    [ "PrepareSpellScript", "d8/d0a/a24560.html#aa33cc61b79407e3998b7ff3dd03e81d9", null ],
-    [ "Register", "d8/d0a/a24560.html#a40a19212bf9f77f7377f0c3feeffa4b1", null ]
+    [ "boss_essence_of_angerAI", "de/d13/a24564.html", "de/d13/a24564" ],
+    [ "boss_essence_of_anger", "d8/d0a/a24560.html#adf8151d1fbb4a258f174c4bdb8410cd6", null ],
+    [ "GetAI", "d8/d0a/a24560.html#a70a460f31b7f878e532b695ca822ab5d", null ]
 ];

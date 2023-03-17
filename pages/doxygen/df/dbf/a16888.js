@@ -1,6 +1,6 @@
 var a16888 =
 [
-    [ "HandleScriptEffect", "df/dbf/a16888.html#a6dc8225ba087bb2abcc374a3ff6762b4", null ],
-    [ "PrepareSpellScript", "df/dbf/a16888.html#a2b17d482990abe4c61a62b45b3a4f0ac", null ],
-    [ "Register", "df/dbf/a16888.html#a8d32a4078cd78dbae520648d29fc3fdb", null ]
+    [ "spell_dred_grievious_bite_AuraScript", "dc/d25/a16892.html", "dc/d25/a16892" ],
+    [ "spell_dred_grievious_bite", "df/dbf/a16888.html#ad24f70f1aff2fdf7a87e1a839b0c718a", null ],
+    [ "GetAuraScript", "df/dbf/a16888.html#a5ab85c63e2537c621dde39e4f3d147e9", null ]
 ];

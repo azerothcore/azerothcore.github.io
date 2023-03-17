@@ -1,6 +1,6 @@
 var a21340 =
 [
-    [ "spell_mark_of_the_faceless_drainhealth_SpellScript", "da/da5/a21344.html", "da/da5/a21344" ],
-    [ "spell_mark_of_the_faceless_drainhealth", "d8/d9d/a21340.html#a712ba0e509f60afbc30d163cd14ca539", null ],
-    [ "GetSpellScript", "d8/d9d/a21340.html#add4415fee69ccfbfab702c6c18e1093c", null ]
+    [ "npc_ulduar_saronite_animusAI", "da/da5/a21344.html", "da/da5/a21344" ],
+    [ "npc_ulduar_saronite_animus", "d8/d9d/a21340.html#a22d552adc9db3f7d2a533ab7f58a2470", null ],
+    [ "GetAI", "d8/d9d/a21340.html#a1fdd851e9d6e399f8f57d063a7dbd6d9", null ]
 ];

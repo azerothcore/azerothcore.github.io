@@ -1,6 +1,6 @@
 var a25456 =
 [
-    [ "boss_vazrudenAI", "d7/d23/a25460.html", "d7/d23/a25460" ],
-    [ "boss_vazruden", "db/dfc/a25456.html#a726002332f2d4c0b4ebfe1ce0845cf4b", null ],
-    [ "GetAI", "db/dfc/a25456.html#a16437c9cd0dc6de5c2103e671b469493", null ]
+    [ "HandleScriptEffect", "db/dfc/a25456.html#a8920741b211ab64d875f5e88e1d72b0f", null ],
+    [ "PrepareSpellScript", "db/dfc/a25456.html#aa12817ed9ac5428281d01529ad3836a1", null ],
+    [ "Register", "db/dfc/a25456.html#ae51061078498ec31eb2f87cb6fc89d43", null ]
 ];

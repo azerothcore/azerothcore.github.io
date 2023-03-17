@@ -1,7 +1,6 @@
 var a18312 =
 [
-    [ "OnPeriodic", "df/d0c/a18312.html#a402e6c1a23070e3cef9b66ca0992d1af", null ],
-    [ "PrepareAuraScript", "df/d0c/a18312.html#a0e87dae1be4f69e6412129f14056eb79", null ],
-    [ "Register", "df/d0c/a18312.html#a1b26d102252bf7e0fd480076820d343f", null ],
-    [ "Validate", "df/d0c/a18312.html#a211d52aa385a874730abc43b083f2d22", null ]
+    [ "npc_vengeful_shadeAI", "df/dad/a18316.html", "df/dad/a18316" ],
+    [ "npc_vengeful_shade", "df/d0c/a18312.html#a99c535efd94fbd5bded8fd9555bb6eaf", null ],
+    [ "GetAI", "df/d0c/a18312.html#afa2c672015b43d83bd55050ed020f7e5", null ]
 ];

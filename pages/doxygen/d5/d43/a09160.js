@@ -1,12 +1,13 @@
 var a09160 =
 [
-    [ "flags", "d5/d43/a09160.html#ab1c2612a57fcfce78e10de45dfc1c28d", null ],
-    [ "fourcc", "d5/d43/a09160.html#a5e7b1d32e42afbeb6898ee02014847cd", null ],
-    [ "height", "d5/d43/a09160.html#ab064dde684394c3aa84f9b151749d524", null ],
-    [ "liquidFlags", "d5/d43/a09160.html#a90f22c454f03ecee6aa1b9f9392e10a0", null ],
-    [ "liquidLevel", "d5/d43/a09160.html#ae4f34f9b8139b18416862bcd413f4aaa", null ],
-    [ "liquidType", "d5/d43/a09160.html#ab2ce1920efaec0a4fc0a81df9d6539e3", null ],
-    [ "offsetX", "d5/d43/a09160.html#a2ddee980eda8b7321b55ba44697688b5", null ],
-    [ "offsetY", "d5/d43/a09160.html#abc57f9e6c2f9fae58f575d8e1309f420", null ],
-    [ "width", "d5/d43/a09160.html#aabcbad9f4c0cae9d2e1b015a93f2a0ed", null ]
+    [ "ParallelogramBoundary", "d5/d43/a09160.html#ace1e1ffbcb84343ca2641541fe000691", null ],
+    [ "IsWithinBoundaryArea", "d5/d43/a09160.html#af29e70a9febaa9d80d0ce7223e2c6fc3", null ],
+    [ "_a", "d5/d43/a09160.html#ad81a1a1f4e82de0e7a31bf13a87bac2b", null ],
+    [ "_abx", "d5/d43/a09160.html#a855c7ea39698f7dac80d72ea6962e9c7", null ],
+    [ "_aby", "d5/d43/a09160.html#ad81b9baeb70d5856ea8cdd3f787abf29", null ],
+    [ "_b", "d5/d43/a09160.html#a9d5d06cc3673f89644e45e62f96510db", null ],
+    [ "_c", "d5/d43/a09160.html#a6c19d4ed0a1c1b6ff042c4bbd64f0a8a", null ],
+    [ "_d", "d5/d43/a09160.html#a5214ac0f79f1d90492a77fbd251d1361", null ],
+    [ "_dax", "d5/d43/a09160.html#aab72030dfa3dd4e4bef03180bd0a306c", null ],
+    [ "_day", "d5/d43/a09160.html#a3b3e3993d09af62bae7fbfe65f6d641a", null ]
 ];

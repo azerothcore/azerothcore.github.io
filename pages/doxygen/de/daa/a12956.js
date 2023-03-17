@@ -1,6 +1,6 @@
 var a12956 =
 [
-    [ "boss_kalecgosAI", "d0/d81/a12960.html", "d0/d81/a12960" ],
-    [ "boss_kalecgos", "de/daa/a12956.html#a7e65f80e4dbee9dbb2e891884abaa196", null ],
-    [ "GetAI", "de/daa/a12956.html#a1eab7d3ee459cb88a21efd8da834fc0e", null ]
+    [ "npc_demonic_vaporAI", "de/daa/a12956.html#a2ba962b2bd049d563d7788bb4cfa5be3", null ],
+    [ "Reset", "de/daa/a12956.html#a37841718d3da8dfa245fd9a9a055b2e8", null ],
+    [ "UpdateAI", "de/daa/a12956.html#ace430e1419edf2542fd0c9d5cfc925f1", null ]
 ];

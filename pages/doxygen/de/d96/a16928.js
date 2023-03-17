@@ -1,6 +1,7 @@
 var a16928 =
 [
-    [ "spell_tharon_ja_dummy_AuraScript", "d3/d11/a16932.html", "d3/d11/a16932" ],
-    [ "spell_tharon_ja_dummy", "de/d96/a16928.html#a74fce5282516f975df26dea18230b783", null ],
-    [ "GetAuraScript", "de/d96/a16928.html#af92a6a5b78d71cb286fdda6a1f3d9e78", null ]
+    [ "if", "de/d96/a16928.html#a0f07f604d7b0da22c96aae70dff69b37", null ],
+    [ "PrepareAuraScript", "de/d96/a16928.html#abf591d016b465eef5a8715fc8098fcf5", null ],
+    [ "Register", "de/d96/a16928.html#ab54665938edf6bac6061e0d3a0293058", null ],
+    [ "AuraEffectHandleModes", "de/d96/a16928.html#a5a641c275e5419166940ab27e45fab08", null ]
 ];

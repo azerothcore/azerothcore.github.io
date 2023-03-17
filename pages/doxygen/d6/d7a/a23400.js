@@ -1,7 +1,9 @@
 var a23400 =
 [
-    [ "npc_tallhorn_stagAI", "d6/d7a/a23400.html#a50947c450eece979193b45728e5e1f82", null ],
-    [ "Reset", "d6/d7a/a23400.html#a67dce7ad60ddea63fcba5e1e2079fa7c", null ],
-    [ "UpdateAI", "d6/d7a/a23400.html#adf60f62fa92238cb315c42e0179c3f17", null ],
-    [ "_phase", "d6/d7a/a23400.html#ace2ac6f418876393d2f6d3457b1bc4c0", null ]
+    [ "npc_mrfloppyAI", "d6/d7a/a23400.html#a2994e5658035bb2cfe6f3cdab4c507fc", null ],
+    [ "EnterEvadeMode", "d6/d7a/a23400.html#af0f11f715cac553c772c0dca7e5e3a22", null ],
+    [ "JustEngagedWith", "d6/d7a/a23400.html#a490bf07de00cc5c59b5f0024317d8125", null ],
+    [ "MoveInLineOfSight", "d6/d7a/a23400.html#af0b376c5f10b6cb43f3bb63376012a0d", null ],
+    [ "Reset", "d6/d7a/a23400.html#ac2dc6204b0579e1aaf7e670f0fcb4ec5", null ],
+    [ "UpdateAI", "d6/d7a/a23400.html#afad6db1ccd903fd18192f832a10a32f4", null ]
 ];

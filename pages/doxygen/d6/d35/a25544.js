@@ -1,6 +1,6 @@
 var a25544 =
 [
-    [ "CalculateDamageAmount", "d6/d35/a25544.html#a5c391fd16108d121346c9029184856b8", null ],
-    [ "PrepareAuraScript", "d6/d35/a25544.html#a9f9bb200766c267957fee3a7563d497f", null ],
-    [ "Register", "d6/d35/a25544.html#ab57222b715d265b6acc27e2515fb3d97", null ]
+    [ "boss_warbringer_omroggAI", "d1/da1/a25548.html", "d1/da1/a25548" ],
+    [ "boss_warbringer_omrogg", "d6/d35/a25544.html#a71cd768c8082498785cf4c478b4eaed7", null ],
+    [ "GetAI", "d6/d35/a25544.html#a4cf48d2e66e1d312438f89fd26e3a561", null ]
 ];

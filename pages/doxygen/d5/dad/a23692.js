@@ -1,5 +1,6 @@
 var a23692 =
 [
-    [ "go_pressure_valve", "d5/dad/a23692.html#a43a91a1379001ecd3e825d7d4fcd3c6b", null ],
-    [ "OnGossipHello", "d5/dad/a23692.html#a6b81a04a33cd5e1e577fc80a3b1f706c", null ]
+    [ "HandleHealPct", "d5/dad/a23692.html#aed2ba1813d9cb2315fac39a9fa9e25f3", null ],
+    [ "PrepareSpellScript", "d5/dad/a23692.html#a40b41e8781681fc4d80170b9b9f9fca0", null ],
+    [ "Register", "d5/dad/a23692.html#af57b056e4dbae56279f65c6f2f28eff5", null ]
 ];

@@ -1,4 +1,4 @@
 var a00623 =
 [
-    [ "MySQLPreparedStatement", "db/d89/a05467.html", "db/d89/a05467" ]
+    [ "MySQLPreparedStatement", "db/da4/a05488.html", "db/da4/a05488" ]
 ];

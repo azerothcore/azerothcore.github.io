@@ -1,6 +1,6 @@
 var a17612 =
 [
-    [ "ShockVortexExplodeEvent", "d1/d59/a17612.html#ad972aed372822e10a476d1592192f3ea", null ],
-    [ "Execute", "d1/d59/a17612.html#a601f777052b8a142db49e9b0ab1fa81a", null ],
-    [ "_owner", "d1/d59/a17612.html#a76b1887e486969fcd7a236a8eb7a9a2a", null ]
+    [ "spell_sladran_grip_of_sladran_AuraScript", "d9/d4d/a17616.html", "d9/d4d/a17616" ],
+    [ "spell_sladran_grip_of_sladran", "d1/d59/a17612.html#afebeb00658802c5789bbf71064a82aac", null ],
+    [ "GetAuraScript", "d1/d59/a17612.html#aec734e122914c3ad42f8980957d1da71", null ]
 ];

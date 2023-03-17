@@ -1,6 +1,7 @@
 var a11352 =
 [
-    [ "boss_drakkisathAI", "d5/dac/a11356.html", "d5/dac/a11356" ],
-    [ "boss_drakkisath", "de/deb/a11352.html#a73f21cbd7b81fc045ae129d7d650b455", null ],
-    [ "GetAI", "de/deb/a11352.html#ad27999ba129b2e3617c1aba1c4b9772b", null ]
+    [ "boss_moira_bronzebeardAI", "de/deb/a11352.html#a11265b6aad76574c2c76253128c79165", null ],
+    [ "CastOnEmperorIfPossible", "de/deb/a11352.html#a3f42c37e9f4cc14974106bf67ee4e583", null ],
+    [ "JustEngagedWith", "de/deb/a11352.html#a40ae00eb86e2bec048a9394d4deef106", null ],
+    [ "UpdateAI", "de/deb/a11352.html#ae3f22a059330fb564cd30e581fc0198d", null ]
 ];

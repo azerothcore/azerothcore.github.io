@@ -1,40 +1,51 @@
 var a03191 =
 [
-    [ "npc_sergeant_bly", "d4/d64/a15811.html", "d4/d64/a15811" ],
-    [ "npc_sergeant_bly::npc_sergeant_blyAI", "d8/d1f/a15815.html", "d8/d1f/a15815" ],
-    [ "go_troll_cage", "d8/dac/a15819.html", "d8/dac/a15819" ],
-    [ "go_troll_cage::go_troll_cageAI", "d9/d28/a15823.html", "d9/d28/a15823" ],
-    [ "npc_weegli_blastfuse", "d8/d4c/a15827.html", "d8/d4c/a15827" ],
-    [ "npc_weegli_blastfuse::npc_weegli_blastfuseAI", "dc/dcc/a15831.html", "dc/dcc/a15831" ],
-    [ "npc_shadowpriest_sezziz", "d8/dfa/a15835.html", "d8/dfa/a15835" ],
-    [ "npc_shadowpriest_sezziz::npc_shadowpriest_sezzizAI", "d5/d28/a15839.html", "d5/d28/a15839" ],
-    [ "GOSSIP_BLY", "d1/d45/a03191.html#acf686abbef9b59acbf66095340991aab", null ],
-    [ "GOSSIP_WEEGLI", "d1/d45/a03191.html#abd5fb74b4c5971cd2993555c6ac4d1eb", null ],
-    [ "blySays", "d1/d45/a03191.html#a0170bb25aee4171b17fd972a5eb000a9", [
-      [ "SAY_1", "d1/d45/a03191.html#a0170bb25aee4171b17fd972a5eb000a9a307d891e05530d70a32ad2047cfe6dab", null ],
-      [ "SAY_2", "d1/d45/a03191.html#a0170bb25aee4171b17fd972a5eb000a9a73b0208d974ac93026e31ca8864dd390", null ]
+    [ "npc_gilthares", "df/ddb/a15700.html", "df/ddb/a15700" ],
+    [ "npc_gilthares::npc_giltharesAI", "d3/d6a/a15704.html", "d3/d6a/a15704" ],
+    [ "npc_taskmaster_fizzule", "dc/d69/a15708.html", "dc/d69/a15708" ],
+    [ "npc_taskmaster_fizzule::npc_taskmaster_fizzuleAI", "d6/d25/a15712.html", "d6/d25/a15712" ],
+    [ "npc_twiggy_flathead", "db/d23/a15716.html", "db/d23/a15716" ],
+    [ "npc_twiggy_flathead::npc_twiggy_flatheadAI", "d8/d4e/a15720.html", "d8/d4e/a15720" ],
+    [ "npc_wizzlecrank_shredder", "d8/da8/a15724.html", "d8/da8/a15724" ],
+    [ "npc_wizzlecrank_shredder::npc_wizzlecrank_shredderAI", "d8/d57/a15728.html", "d8/d57/a15728" ],
+    [ "Gilthares", "d1/d45/a03191.html#aa3e172c8a560dd0d92fb1d8f79b90716", [
+      [ "SAY_GIL_START", "d1/d45/a03191.html#aa3e172c8a560dd0d92fb1d8f79b90716a9cc558649c398869a908d76e46580a55", null ],
+      [ "SAY_GIL_AT_LAST", "d1/d45/a03191.html#aa3e172c8a560dd0d92fb1d8f79b90716a74625b1d5af887cffe07cc6889f66f94", null ],
+      [ "SAY_GIL_PROCEED", "d1/d45/a03191.html#aa3e172c8a560dd0d92fb1d8f79b90716a83573efbb4a65334a79436dadb172c25", null ],
+      [ "SAY_GIL_FREEBOOTERS", "d1/d45/a03191.html#aa3e172c8a560dd0d92fb1d8f79b90716add548aa464c97165ed4e9a07e2d26b76", null ],
+      [ "SAY_GIL_AGGRO", "d1/d45/a03191.html#aa3e172c8a560dd0d92fb1d8f79b90716a189c2478bea56968035dc5626a361ad9", null ],
+      [ "SAY_GIL_ALMOST", "d1/d45/a03191.html#aa3e172c8a560dd0d92fb1d8f79b90716af98466d2079315f8451fe5fd010cfd86", null ],
+      [ "SAY_GIL_SWEET", "d1/d45/a03191.html#aa3e172c8a560dd0d92fb1d8f79b90716a53a6c4cad1fc536662a170117dab1f9b", null ],
+      [ "SAY_GIL_FREED", "d1/d45/a03191.html#aa3e172c8a560dd0d92fb1d8f79b90716af0bf3f928b89fe85bfd73f9973f02046", null ],
+      [ "QUEST_FREE_FROM_HOLD", "d1/d45/a03191.html#aa3e172c8a560dd0d92fb1d8f79b90716a406ffd8f7c4e1a504188c50f2743b36a", null ],
+      [ "AREA_MERCHANT_COAST", "d1/d45/a03191.html#aa3e172c8a560dd0d92fb1d8f79b90716ac33cd2802c9cc2abf8e1359985861f5b", null ]
     ] ],
-    [ "blySpells", "d1/d45/a03191.html#ac73b1b4ffaee22ad6c602a211a9bfccf", [
-      [ "SPELL_SHIELD_BASH", "d1/d45/a03191.html#ac73b1b4ffaee22ad6c602a211a9bfccfa0d74cfe7662c959a043f01770a2c7bf4", null ],
-      [ "SPELL_REVENGE", "d1/d45/a03191.html#ac73b1b4ffaee22ad6c602a211a9bfccfa3494dd9ccea3b72ec038a01f6f6fd66f", null ]
+    [ "TaskmasterFizzule", "d1/d45/a03191.html#a75148097e6b48058f314d1f1d4fc4ed0", [
+      [ "FACTION_FRIENDLY_F", "d1/d45/a03191.html#a75148097e6b48058f314d1f1d4fc4ed0a31d50866a36abfe970a3514cb06962ea", null ],
+      [ "SPELL_FLARE", "d1/d45/a03191.html#a75148097e6b48058f314d1f1d4fc4ed0a8046626c29fcfd2e2491ac4f74af6eba", null ],
+      [ "SPELL_FOLLY", "d1/d45/a03191.html#a75148097e6b48058f314d1f1d4fc4ed0a736760d92e40d0f4387af0951d3ef13a", null ]
     ] ],
-    [ "ShadowPriestSezzizEnum", "d1/d45/a03191.html#a4e0ee96bd227c57408d323b236131e7d", [
-      [ "SPELL_SHADOW_BOLT", "d1/d45/a03191.html#a4e0ee96bd227c57408d323b236131e7da8872edea8a2ac8c4e895c975482b9413", null ],
-      [ "SPELL_PSYCHIC_SCREEM", "d1/d45/a03191.html#a4e0ee96bd227c57408d323b236131e7da804b244c7e3d670c7c0c96c2deac50aa", null ],
-      [ "SPELL_RENEW", "d1/d45/a03191.html#a4e0ee96bd227c57408d323b236131e7daaf085a0eea027f75c291005b97cb46bd", null ],
-      [ "SPELL_HEAL", "d1/d45/a03191.html#a4e0ee96bd227c57408d323b236131e7da69fcca2d13e03c684fa0459f960ef9a7", null ]
+    [ "TwiggyFlathead", "d1/d45/a03191.html#aa59efdc816049c3fc44f4f97e12a5658", [
+      [ "NPC_BIG_WILL", "d1/d45/a03191.html#aa59efdc816049c3fc44f4f97e12a5658a52b94fa0523183a46082d10748f5c26e", null ],
+      [ "NPC_AFFRAY_CHALLENGER", "d1/d45/a03191.html#aa59efdc816049c3fc44f4f97e12a5658aa3eb3b7d13bad2106f352684e916714e", null ],
+      [ "SAY_TWIGGY_FLATHEAD_BEGIN", "d1/d45/a03191.html#aa59efdc816049c3fc44f4f97e12a5658a28f41773e448294cb2b7bdb0e2196423", null ],
+      [ "SAY_TWIGGY_FLATHEAD_FRAY", "d1/d45/a03191.html#aa59efdc816049c3fc44f4f97e12a5658a1e039ea737b8aaa19f4293172019e7bd", null ],
+      [ "SAY_TWIGGY_FLATHEAD_DOWN", "d1/d45/a03191.html#aa59efdc816049c3fc44f4f97e12a5658a0a41b6c14d5e6d0fa171a6ce3571243b", null ],
+      [ "SAY_TWIGGY_FLATHEAD_OVER", "d1/d45/a03191.html#aa59efdc816049c3fc44f4f97e12a5658afcef9e183c118b65e0e78c8b503eabaa", null ]
     ] ],
-    [ "weegliSays", "d1/d45/a03191.html#a326e8498672fa7a2db9a390d360f7391", [
-      [ "SAY_WEEGLI_OHNO", "d1/d45/a03191.html#a326e8498672fa7a2db9a390d360f7391aa1b27f3d4e49ae3cbea7b8b49371b41d", null ],
-      [ "SAY_WEEGLI_OK_I_GO", "d1/d45/a03191.html#a326e8498672fa7a2db9a390d360f7391aa92731cc39b2cffc724a22e3189198ea", null ],
-      [ "SAY_WEEGLI_OUT_OF_HERE", "d1/d45/a03191.html#a326e8498672fa7a2db9a390d360f7391aaa6eaf7f9cc5bb0b7c42aed2439da05c", null ]
+    [ "Wizzlecrank", "d1/d45/a03191.html#ac43046d19bb8d15ff051d8b88111a24d", [
+      [ "SAY_MERCENARY", "d1/d45/a03191.html#ac43046d19bb8d15ff051d8b88111a24daf5cf9a9b244c85c38bd02b6148fe9217", null ],
+      [ "SAY_START", "d1/d45/a03191.html#ac43046d19bb8d15ff051d8b88111a24da2eae21cbf7d110ee89a9798ef6f00239", null ],
+      [ "SAY_STARTUP1", "d1/d45/a03191.html#ac43046d19bb8d15ff051d8b88111a24da38e6de67604407821fa452a13ee74da2", null ],
+      [ "SAY_STARTUP2", "d1/d45/a03191.html#ac43046d19bb8d15ff051d8b88111a24da23d6a197b8495317fae68ebc5426bfd7", null ],
+      [ "SAY_PROGRESS_1", "d1/d45/a03191.html#ac43046d19bb8d15ff051d8b88111a24dac7ef023ed2cd6e71dcfa4b57f34ffb21", null ],
+      [ "SAY_PROGRESS_2", "d1/d45/a03191.html#ac43046d19bb8d15ff051d8b88111a24da967473f354dae95832b5e82733f4cced", null ],
+      [ "SAY_PROGRESS_3", "d1/d45/a03191.html#ac43046d19bb8d15ff051d8b88111a24da25cbd1006b2e610756fbd3227fb87dcc", null ],
+      [ "SAY_END", "d1/d45/a03191.html#ac43046d19bb8d15ff051d8b88111a24da40884932ffbbf14d6c380b9022bcfe97", null ],
+      [ "QUEST_ESCAPE", "d1/d45/a03191.html#ac43046d19bb8d15ff051d8b88111a24dac283b4a9a83bbf1c8f03006b37d75208", null ],
+      [ "NPC_PILOT_WIZZ", "d1/d45/a03191.html#ac43046d19bb8d15ff051d8b88111a24dabea7d3cfb3795470ea680285a2de300b", null ],
+      [ "NPC_MERCENARY", "d1/d45/a03191.html#ac43046d19bb8d15ff051d8b88111a24da3fe4be631c0b988a493e3867b76fab3f", null ]
     ] ],
-    [ "weegliSpells", "d1/d45/a03191.html#aa5d64b9165276a134e188d143807850c", [
-      [ "SPELL_BOMB", "d1/d45/a03191.html#aa5d64b9165276a134e188d143807850ca436b889374ecd412c15675983fdae5be", null ],
-      [ "SPELL_GOBLIN_LAND_MINE", "d1/d45/a03191.html#aa5d64b9165276a134e188d143807850ca04bb850750b0183913ab1008cba1833f", null ],
-      [ "SPELL_SHOOT", "d1/d45/a03191.html#aa5d64b9165276a134e188d143807850ca1b728fa1bb0194534b5b491d35ed871c", null ],
-      [ "SPELL_WEEGLIS_BARREL", "d1/d45/a03191.html#aa5d64b9165276a134e188d143807850ca1e379d7bc2f35c29e7b00ee0bf88357f", null ]
-    ] ],
-    [ "AddSC_zulfarrak", "d1/d45/a03191.html#a43b63d5d69b80ee6283471aacf5c9c87", null ],
-    [ "shadowpriestSezzizAdds", "d1/d45/a03191.html#ab3c6a2de23edecc492c7ca4de5c860c7", null ]
+    [ "AddSC_the_barrens", "d1/d45/a03191.html#a89bb85fa847a65b610f6b4d1f9f0214c", null ],
+    [ "AffrayChallengerLoc", "d1/d45/a03191.html#a0e553820217161ed24e533b560f8ab03", null ]
 ];

@@ -1,6 +1,6 @@
 var a16096 =
 [
-    [ "boss_baltharus_the_warbornAI", "d5/d86/a16100.html", "d5/d86/a16100" ],
-    [ "boss_baltharus_the_warborn", "d1/d43/a16096.html#aababb8862273d60f140dce675131783d", null ],
-    [ "GetAI", "d1/d43/a16096.html#afe7ecf8635c8c0a051047a801c2a8d54", null ]
+    [ "npc_twilight_summonAI", "d5/d86/a16100.html", "d5/d86/a16100" ],
+    [ "npc_twilight_summon", "d1/d43/a16096.html#a2406ee3b02d9f1b1ebef54623d9a3c11", null ],
+    [ "GetAI", "d1/d43/a16096.html#a98bf5ce96c25bc252acd46163644bf33", null ]
 ];

@@ -1,6 +1,6 @@
 var a17752 =
 [
-    [ "PrepareSpellScript", "dd/d2b/a17752.html#a791d566f3149a006b2a139f68e3039b4", null ],
-    [ "Register", "dd/d2b/a17752.html#a8fedbb4cd8da31469279d17b129dc7ef", null ],
-    [ "SetDest", "dd/d2b/a17752.html#adef4b003c17799dd12eb170200a952ec", null ]
+    [ "OnAbsorb", "dd/d2b/a17752.html#abf57543a89e382e61737cd8af2a7b232", null ],
+    [ "PrepareAuraScript", "dd/d2b/a17752.html#a5ced5248b5030b2cf769bb1c6ff56ec3", null ],
+    [ "Register", "dd/d2b/a17752.html#ab9f570ab15ac1969aea34561e2bd806c", null ]
 ];

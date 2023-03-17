@@ -1,6 +1,6 @@
 var a17428 =
 [
-    [ "spell_pos_slave_trigger_closestSpellScript", "d0/dff/a17432.html", "d0/dff/a17432" ],
-    [ "spell_pos_slave_trigger_closest", "db/dca/a17428.html#a3982ff2508b7f82e19bfa4534dd558e4", null ],
-    [ "GetSpellScript", "db/dca/a17428.html#a6535e26e2b006213cd9d6c2a54d3b961", null ]
+    [ "npc_pos_freed_slaveAI", "db/dca/a17428.html#ad5728e427f9f4a65cea13ec2c5a01453", null ],
+    [ "CanAIAttack", "db/dca/a17428.html#a76818ee5fcfcc5678fa9d0957a424d9b", null ],
+    [ "EnterEvadeMode", "db/dca/a17428.html#a234135e6bea0d91611fbdbae4dec2ea1", null ]
 ];

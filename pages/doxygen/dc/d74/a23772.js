@@ -1,6 +1,6 @@
 var a23772 =
 [
-    [ "HandleScriptEffect", "dc/d74/a23772.html#a1dac2806b74471332aec0595118005a3", null ],
-    [ "PrepareSpellScript", "dc/d74/a23772.html#adb1efd90b7ffa23887ca4aa3afb6d99e", null ],
-    [ "Register", "dc/d74/a23772.html#a2ff0986c88dcbd9aac263f62b772c992", null ]
+    [ "spell_q12589_shoot_rjr_SpellScript", "d3/d51/a23776.html", "d3/d51/a23776" ],
+    [ "spell_q12589_shoot_rjr", "dc/d74/a23772.html#a7f70acaf058522d3266d059f0ca1b39a", null ],
+    [ "GetSpellScript", "dc/d74/a23772.html#ad59417349e323e7befef6339661d2c24", null ]
 ];

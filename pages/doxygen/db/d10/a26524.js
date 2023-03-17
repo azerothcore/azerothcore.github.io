@@ -1,7 +1,8 @@
 var a26524 =
 [
-    [ "go_skull_pile", "db/d10/a26524.html#a9cf8dfef432c4967c60f66e645585770", null ],
-    [ "OnGossipHello", "db/d10/a26524.html#ac95d39ea03e78fee2a10603d8c7f8840", null ],
-    [ "OnGossipSelect", "db/d10/a26524.html#afb8e8db2705355e975fa48c98e09f20b", null ],
-    [ "SendActionMenu", "db/d10/a26524.html#a9287eb499a93b8095a92bd2d7e8cb597", null ]
+    [ "npc_pet_gen_valkyr_guardian", "db/d10/a26524.html#a546f0b0b4273de8216e9f688c2d68209", null ],
+    [ "InitializeAI", "db/d10/a26524.html#ac32c8bb1e1014015a0ab92417bbc78a9", null ],
+    [ "OwnerAttacked", "db/d10/a26524.html#a7f0bcedd78d88cdc802ba66c0ff7d927", null ],
+    [ "UpdateAI", "db/d10/a26524.html#a9a5a233763365c6cca5618459a23a816", null ],
+    [ "targetCheck", "db/d10/a26524.html#aa530b6b6415c85cd76f44d625329c2fb", null ]
 ];

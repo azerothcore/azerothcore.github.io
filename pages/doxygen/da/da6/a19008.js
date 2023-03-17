@@ -1,11 +1,10 @@
 var a19008 =
 [
-    [ "AddMissingStack", "da/da6/a19008.html#a6280fbe08d4ef2b7582c50a8a0db91e9", null ],
-    [ "CheckAura", "da/da6/a19008.html#a0cd258eaa0af63bfcaa2920aca68406a", null ],
-    [ "FilterTargets", "da/da6/a19008.html#add316679c9fbb14835be872b50d0e027", null ],
-    [ "Load", "da/da6/a19008.html#aac2c30de10149817e6d8c01764702992", null ],
-    [ "PrepareSpellScript", "da/da6/a19008.html#ad74375c3009d6b72e5a77478aff82a72", null ],
-    [ "Register", "da/da6/a19008.html#a1c622164e94874073a7934d668071c26", null ],
-    [ "_hadInitialAura", "da/da6/a19008.html#a01fcdfe5ade0a7d0654b32c069667566", null ],
-    [ "_hadJumpingAura", "da/da6/a19008.html#ac6cfe58bb5bfcee78c2d632a413faf4f", null ]
+    [ "npc_shambling_horror_iccAI", "da/da6/a19008.html#a0d15c62bead7a4da3c8a8abd0b2ee612", null ],
+    [ "CanAIAttack", "da/da6/a19008.html#a6d77fdd16c4b089049ade7f7b081b4e9", null ],
+    [ "DamageTaken", "da/da6/a19008.html#aed90f2c487c28190c7af630f4ea2fa13", null ],
+    [ "Reset", "da/da6/a19008.html#ac5bab3d9f360e4e00dcab9abc3799865", null ],
+    [ "UpdateAI", "da/da6/a19008.html#abae6058591022057e93d48da3db1b8bc", null ],
+    [ "_events", "da/da6/a19008.html#af12b65fe4f77e8b2d3f5c87379dd69d2", null ],
+    [ "_frenzied", "da/da6/a19008.html#a34347cbecea4c6f538345b7285e8f1c0", null ]
 ];

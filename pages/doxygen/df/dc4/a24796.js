@@ -1,6 +1,6 @@
 var a24796 =
 [
-    [ "PrepareAuraScript", "df/dc4/a24796.html#a2d15732200595a5248c1ee3d4e295fe3", null ],
-    [ "Register", "df/dc4/a24796.html#af08f9e867a69e3e238805e5a78bc7267", null ],
-    [ "Update", "df/dc4/a24796.html#a2de2100333d925133e3a3c1d2c65a60f", null ]
+    [ "spell_illidari_council_reflective_shield_AuraScript", "d6/d50/a24800.html", "d6/d50/a24800" ],
+    [ "spell_illidari_council_reflective_shield", "df/dc4/a24796.html#ad43c0da0332b861f88a8cb14ab1a73f1", null ],
+    [ "GetAuraScript", "df/dc4/a24796.html#a4d664f0a34c391b5d49ad2f23f8feaca", null ]
 ];

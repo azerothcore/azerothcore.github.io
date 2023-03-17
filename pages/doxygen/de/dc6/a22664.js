@@ -1,6 +1,6 @@
 var a22664 =
 [
-    [ "spell_voa_overcharge_AuraScript", "d7/df4/a22668.html", "d7/df4/a22668" ],
-    [ "spell_voa_overcharge", "de/dc6/a22664.html#a3868ca8282174080439b65c27e52275e", null ],
-    [ "GetAuraScript", "de/dc6/a22664.html#a0a538287130e76d7c0545f81d8342bd6", null ]
+    [ "boss_archavonAI", "d7/df4/a22668.html", "d7/df4/a22668" ],
+    [ "boss_archavon", "de/dc6/a22664.html#a44e20480f8d86cf763afe67de49c6c33", null ],
+    [ "GetAI", "de/dc6/a22664.html#a5eb62d54fe1559ef9df51c2bd01f7de4", null ]
 ];

@@ -1,7 +1,6 @@
 var a24552 =
 [
-    [ "HandleEffectRemove", "db/da4/a24552.html#a25081f7dd363384fc8680cc29dbfc6cd", null ],
-    [ "PrepareAuraScript", "db/da4/a24552.html#a5f5d722bb2cc860bc134fbeffabb796a", null ],
-    [ "Register", "db/da4/a24552.html#a0160ad93e32ecacadbbe68282cf8a538", null ],
-    [ "AuraEffectHandleModes", "db/da4/a24552.html#a3698ea0de459cf70b41e646c5cb4b718", null ]
+    [ "boss_essence_of_desireAI", "d8/d60/a24556.html", "d8/d60/a24556" ],
+    [ "boss_essence_of_desire", "db/da4/a24552.html#a5006ce57dd19c2a80e961dedca8c503d", null ],
+    [ "GetAI", "db/da4/a24552.html#a14b66470c508fa24e214062aeec0aae6", null ]
 ];

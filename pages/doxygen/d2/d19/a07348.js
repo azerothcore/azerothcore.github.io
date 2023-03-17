@@ -1,12 +1,6 @@
 var a07348 =
 [
-    [ "far_clip", "d2/d19/a07348.html#af70a06bda2dffbf2d3c49cb696beea2f", null ],
-    [ "fov", "d2/d19/a07348.html#ae553ef5e28cc3af3acd45b9efd309fbe", null ],
-    [ "near_clip", "d2/d19/a07348.html#a9426497de885b901d364c0b3ddd487d9", null ],
-    [ "position_base", "d2/d19/a07348.html#abf0892be5ecf6d1e1021e101832396f3", null ],
-    [ "positions", "d2/d19/a07348.html#a5d23816339fea0ac1e2c6fdad5fe58d8", null ],
-    [ "rolldata", "d2/d19/a07348.html#ad3428dcc0b93e509c9225fa86ea2d691", null ],
-    [ "target_position_base", "d2/d19/a07348.html#a2515ee6fa2fc41f7fca531b55cf0dc61", null ],
-    [ "target_positions", "d2/d19/a07348.html#a12132e4bcc881cab134851938c45e05a", null ],
-    [ "type", "d2/d19/a07348.html#afd67c926b538e189b036d88a9a277a2f", null ]
+    [ "ConditionSourceInfo", "d2/d19/a07348.html#adc6441ec52fab3ab8d2b58a146a3fef3", null ],
+    [ "mConditionTargets", "d2/d19/a07348.html#acb67deba44021698a447e8288bca0bd4", null ],
+    [ "mLastFailedCondition", "d2/d19/a07348.html#a099d3457a0a15d8feeacc0dc8c32d439", null ]
 ];

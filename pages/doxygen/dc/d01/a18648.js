@@ -1,7 +1,6 @@
 var a18648 =
 [
-    [ "HandleCast", "dc/d01/a18648.html#a5bc62b13168833ab4fde2b374cb5c442", null ],
-    [ "PrepareSpellScript", "dc/d01/a18648.html#a3eef7505d30b6fa189a9ab8ee8b35a0c", null ],
-    [ "Register", "dc/d01/a18648.html#a9b7682873871e7dd979eff1d9b4f0ed0", null ],
-    [ "Validate", "dc/d01/a18648.html#a4ccc50f0842422d0756b47eb5d7d8323", null ]
+    [ "HandleScript", "dc/d01/a18648.html#ae8934baa1f5b3ed025b6960da5e9bbe4", null ],
+    [ "PrepareSpellScript", "dc/d01/a18648.html#a4a06b7bd1609de771c60f62b089052ab", null ],
+    [ "Register", "dc/d01/a18648.html#aee4cb42b492d834b520852f14b82b16d", null ]
 ];

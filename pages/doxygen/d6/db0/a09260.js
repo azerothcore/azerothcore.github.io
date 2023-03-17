@@ -1,11 +1,9 @@
 var a09260 =
 [
-    [ "AuctionListOwnerItemsDelayEvent", "d6/db0/a09260.html#ae4d9c8c65e77bc6734180124a983a1b1", null ],
-    [ "~AuctionListOwnerItemsDelayEvent", "d6/db0/a09260.html#afcd0037bc281a3834cc6dfc63d99531b", null ],
-    [ "Abort", "d6/db0/a09260.html#a9de12a5e985e1237f9c72330247c23b2", null ],
-    [ "Execute", "d6/db0/a09260.html#afbb4c169516d6a717fc198407d29bdef", null ],
-    [ "getOwner", "d6/db0/a09260.html#a732b6be23bea68fdee15c4c9a7cdbe2e", null ],
-    [ "creatureGuid", "d6/db0/a09260.html#a7d8c49090cc29867de6dba2f7282de59", null ],
-    [ "owner", "d6/db0/a09260.html#aa7fad890bfa7cbbab01cb38262ffb51e", null ],
-    [ "playerguid", "d6/db0/a09260.html#a62d3d5b9fb1dc0aacfbb3e70b30d56b0", null ]
+    [ "MapUpdateRequest", "d6/db0/a09260.html#af71812e502bb1ceb60a286ff0d676ccd", null ],
+    [ "call", "d6/db0/a09260.html#a2cb96db357347d47596725e5c345b02f", null ],
+    [ "m_diff", "d6/db0/a09260.html#a3f8ff355ac6efb0a6039c7ee5bfc053b", null ],
+    [ "m_map", "d6/db0/a09260.html#a3612f3e64bb1d2f266c8724c398f5de5", null ],
+    [ "m_updater", "d6/db0/a09260.html#aeb063738175aa8ddc751290f922ffef2", null ],
+    [ "s_diff", "d6/db0/a09260.html#a533a8c8a99f82e15dae0d4513c811b01", null ]
 ];

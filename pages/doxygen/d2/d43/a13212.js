@@ -1,6 +1,6 @@
 var a13212 =
 [
-    [ "instance_the_stockade_InstanceMapScript", "de/d62/a13216.html", "de/d62/a13216" ],
-    [ "instance_the_stockade", "d2/d43/a13212.html#a533049c10a72da4b94f9807017f28c0d", null ],
-    [ "GetInstanceScript", "d2/d43/a13212.html#a7a5a4adcd71ae5d22e6729a2d11d68d3", null ]
+    [ "spell_entropius_negative_energy_SpellScript", "de/d62/a13216.html", "de/d62/a13216" ],
+    [ "spell_entropius_negative_energy", "d2/d43/a13212.html#ad5ebd19aadfd56586a70a110700b2ab0", null ],
+    [ "GetSpellScript", "d2/d43/a13212.html#a81de2434b96e0cedc22ad38d59b3d8c2", null ]
 ];

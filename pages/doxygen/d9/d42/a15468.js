@@ -1,8 +1,11 @@
 var a15468 =
 [
-    [ "npc_zelfraxAI", "d9/d42/a15468.html#ae11e92eadae61790b4417442358e7d04", null ],
-    [ "AttackStart", "d9/d42/a15468.html#ae76581c9818c85857c8537de59a02fd6", null ],
-    [ "MovementInform", "d9/d42/a15468.html#a95aaa09b8e527a6d93c8679e9c6593eb", null ],
-    [ "MoveToDock", "d9/d42/a15468.html#a8bf3972087ca06af02bd901ed3dc5461", null ],
-    [ "UpdateAI", "d9/d42/a15468.html#aed4265b638cbe95cdab5648ca52150aa", null ]
+    [ "npc_troll_volunteerAI", "d9/d42/a15468.html#a7eb0c508122616a6781c8b23210e4062", null ],
+    [ "GetMountId", "d9/d42/a15468.html#a5edc586ded0a1146bb1bd82ca14062cc", null ],
+    [ "InitializeAI", "d9/d42/a15468.html#a1c758c7601624e0620778e13e8ec60a0", null ],
+    [ "MovementInform", "d9/d42/a15468.html#aa1d34a4f3701354899ebdd9b38670b31", null ],
+    [ "Reset", "d9/d42/a15468.html#a31439533de41c2a459af2b4d3af76139", null ],
+    [ "SpellHit", "d9/d42/a15468.html#a0604cdade2ce4da23915ca1fc4a4f475", null ],
+    [ "_complete", "d9/d42/a15468.html#ac7e1cc5f0e4f675d6aad0f6e9b449c15", null ],
+    [ "_mountModel", "d9/d42/a15468.html#ae226345bd324b9c337dc96570117d82b", null ]
 ];

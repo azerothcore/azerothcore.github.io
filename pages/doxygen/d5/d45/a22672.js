@@ -1,6 +1,6 @@
 var a22672 =
 [
-    [ "spell_voa_lightning_nova_SpellScript", "de/d72/a22676.html", "de/d72/a22676" ],
-    [ "spell_voa_lightning_nova", "d5/d45/a22672.html#a115e191504d0d03afa2947e8ac540f3c", null ],
-    [ "GetSpellScript", "d5/d45/a22672.html#aeda9c8cb8ab982f103ac5d4e97ca0751", null ]
+    [ "spell_archavon_rock_shards_SpellScript", "de/d72/a22676.html", "de/d72/a22676" ],
+    [ "spell_archavon_rock_shards", "d5/d45/a22672.html#a777b5bb8eb939f331f204cef2781201f", null ],
+    [ "GetSpellScript", "d5/d45/a22672.html#a60a3f5142f2f0d01ef48f5c8c64958f9", null ]
 ];

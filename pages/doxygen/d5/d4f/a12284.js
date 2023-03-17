@@ -1,6 +1,6 @@
 var a12284 =
 [
-    [ "spell_mt_phoenix_burn_SpellScript", "d1/ded/a12288.html", "d1/ded/a12288" ],
-    [ "spell_mt_phoenix_burn", "d5/d4f/a12284.html#aebe4d719c2d098273d02a6577702c40a", null ],
-    [ "GetSpellScript", "d5/d4f/a12284.html#aecec94d80b8903c003093046d4fecab5", null ]
+    [ "PeriodicTick", "d5/d4f/a12284.html#a8869efc1cc66207171a5baeaf1b5b72f", null ],
+    [ "PrepareAuraScript", "d5/d4f/a12284.html#a70a659918ace8b035abeef336362e67c", null ],
+    [ "Register", "d5/d4f/a12284.html#a882e920dd57d6b1609e541b0f4abe9a6", null ]
 ];

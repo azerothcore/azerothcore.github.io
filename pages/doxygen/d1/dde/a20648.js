@@ -1,12 +1,10 @@
 var a20648 =
 [
-    [ "boss_krystallusAI", "d1/dde/a20648.html#adfa2ab8498279937bf497292d6e7cba5", null ],
-    [ "EnterCombat", "d1/dde/a20648.html#aed5a141ce7f2e94e071aa293985357ca", null ],
-    [ "JustDied", "d1/dde/a20648.html#a5b77186f7c0920142a64a03c508dcc3e", null ],
-    [ "KilledUnit", "d1/dde/a20648.html#acf9101c5b776820039fd80e5d6e0c138", null ],
-    [ "RemoveStonedEffect", "d1/dde/a20648.html#ae8bdb2bca7c01c564adab93f1dd67720", null ],
-    [ "Reset", "d1/dde/a20648.html#ae163fbd682f09f2a49fa71309284ed3b", null ],
-    [ "UpdateAI", "d1/dde/a20648.html#a79095e25f1d9dac927f63cef67db60ec", null ],
-    [ "events", "d1/dde/a20648.html#afcd06280f8c7640ff9a56223f5bf3555", null ],
-    [ "pInstance", "d1/dde/a20648.html#aec9cf7053476298f72dccf3bd1579c63", null ]
+    [ "npc_molten_golemAI", "d1/dde/a20648.html#a5172d70649be5030fd91e1adbcad4f06", null ],
+    [ "DamageTaken", "d1/dde/a20648.html#a0dd2ca5b83f5d75c51dfa358544c018a", null ],
+    [ "DoAction", "d1/dde/a20648.html#ada2e9c39ce16f00b47df2f52971d99b1", null ],
+    [ "Reset", "d1/dde/a20648.html#a9f90e791c77377c02c66e5d809c555cc", null ],
+    [ "UpdateAI", "d1/dde/a20648.html#ade3cfd0deb27508f5f084b1b49caf13f", null ],
+    [ "events", "d1/dde/a20648.html#ad97142df8344df59eddfb92471d1a737", null ],
+    [ "m_pInstance", "d1/dde/a20648.html#ad1a300c13e98965b935c1e3fc26b9606", null ]
 ];

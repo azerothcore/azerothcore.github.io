@@ -1,6 +1,7 @@
 var a13716 =
 [
-    [ "boss_nalorakkAI", "d6/d48/a13720.html", "d6/d48/a13720" ],
-    [ "boss_nalorakk", "df/d05/a13716.html#a1758797883b528b763c7ccee640b6440", null ],
-    [ "GetAI", "df/d05/a13716.html#a78f1cc141e6b48c9bf867f9a84914b10", null ]
+    [ "HandleDispel", "df/d05/a13716.html#a0eb612b20ae9cc548baf2e3e024b2e1d", null ],
+    [ "PrepareAuraScript", "df/d05/a13716.html#a54373f56e9957c8bac76d6905a34ae06", null ],
+    [ "Register", "df/d05/a13716.html#a95650ab4be4f6b9036793fac48f92465", null ],
+    [ "Validate", "df/d05/a13716.html#a84ebfae19459c4c6bb138c8e59cfe93e", null ]
 ];

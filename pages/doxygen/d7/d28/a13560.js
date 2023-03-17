@@ -1,6 +1,6 @@
 var a13560 =
 [
-    [ "boss_akilzonAI", "d4/d85/a13564.html", "d4/d85/a13564" ],
-    [ "boss_akilzon", "d7/d28/a13560.html#afdb97a1cce6f05ae5cd88609f3ae5a28", null ],
-    [ "GetAI", "d7/d28/a13560.html#a6e20e80911a372d39f5ab3c3ccb927b0", null ]
+    [ "npc_lady_sylvanas_windrunner_bfuAI", "d4/d85/a13564.html", "d4/d85/a13564" ],
+    [ "npc_lady_sylvanas_windrunner_bfu", "d7/d28/a13560.html#a77e98bc345f7d27f145d4b29c4deb58e", null ],
+    [ "GetAI", "d7/d28/a13560.html#a94fdd0778818fcc6a8b818d38dde6f75", null ]
 ];

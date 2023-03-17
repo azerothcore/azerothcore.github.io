@@ -1,6 +1,6 @@
 var a22052 =
 [
-    [ "PrepareSpellScript", "d0/d12/a22052.html#a2f3f6c30edab28a8ca74dd8fe25f40e5", null ],
-    [ "Register", "d0/d12/a22052.html#aa104a9e1fc0aa88ee8505d41769b2acd", null ],
-    [ "SelectTarget", "d0/d12/a22052.html#a4a89ac5c151f6c7b8f908d2e93d12c9b", null ]
+    [ "npc_xt002_life_sparkAI", "d8/d7b/a22056.html", "d8/d7b/a22056" ],
+    [ "npc_xt002_life_spark", "d0/d12/a22052.html#a9644718d192708e391b833468a0ff21e", null ],
+    [ "GetAI", "d0/d12/a22052.html#a09a1ce332d55fad146947c94bb53f564", null ]
 ];

@@ -1,8 +1,5 @@
 var a29008 =
 [
-    [ "CheckProc", "dd/d40/a29008.html#ab9b2a87dc91e2c6031a02043e6ce4f50", null ],
-    [ "HandleEffectProc", "dd/d40/a29008.html#af01d160cb2a55124361a2dd113acd0a7", null ],
-    [ "PrepareAuraScript", "dd/d40/a29008.html#aeffb8490a7208ae6e32a505283afbc03", null ],
-    [ "Register", "dd/d40/a29008.html#a5436413d098dde4b0fa1ed2259a47779", null ],
-    [ "Validate", "dd/d40/a29008.html#ae786a8c97e9f66152b8d0b55624a4eac", null ]
+    [ "AreaTrigger_at_legion_teleporter", "dd/d40/a29008.html#a2b648bd038f41025c19338367c696d25", null ],
+    [ "OnTrigger", "dd/d40/a29008.html#ae8239e5ad56d93627102dbd02989353d", null ]
 ];

@@ -1,8 +1,8 @@
 var a13812 =
 [
-    [ "FilterTargets", "dd/dda/a13812.html#a3405b21202d423c649e0b8d341b42d9c", null ],
-    [ "HandleWipeThreat", "dd/dda/a13812.html#a2bbcce83bffebc509e9ec54778e82639", null ],
-    [ "PrepareSpellScript", "dd/dda/a13812.html#a59948484b528cab69c695f08b39b886d", null ],
-    [ "Register", "dd/dda/a13812.html#ac4106a251bd3120e122955edbcdc8e2a", null ],
-    [ "_wipeThreat", "dd/dda/a13812.html#ab5293e50bd670c0d350f190f1c9892b3", null ]
+    [ "npc_zulaman_hostageAI", "d0/d6a/a13816.html", "d0/d6a/a13816" ],
+    [ "npc_zulaman_hostage", "dd/dda/a13812.html#a12f9ad1889cacb60103c1e921c2fa0e9", null ],
+    [ "GetAI", "dd/dda/a13812.html#a0ae144dc154dd028b409c9d2393f890c", null ],
+    [ "OnGossipHello", "dd/dda/a13812.html#a89d68a976f916a4de2196b57ec0026b0", null ],
+    [ "OnGossipSelect", "dd/dda/a13812.html#a114f6fbfab90944fd49babcba4b48a11", null ]
 ];

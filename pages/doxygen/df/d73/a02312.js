@@ -1,5 +1,5 @@
 var a02312 =
 [
-    [ "item_commandscript", "dd/d69/a11019.html", "dd/d69/a11019" ],
-    [ "AddSC_item_commandscript", "df/d73/a02312.html#ad129450eb89b9c3e5c98717b2c44de8e", null ]
+    [ "group_commandscript", "da/dbf/a11040.html", "da/dbf/a11040" ],
+    [ "AddSC_group_commandscript", "df/d73/a02312.html#ac4c9434ed910cd9636e0a8644a8e91e1", null ]
 ];

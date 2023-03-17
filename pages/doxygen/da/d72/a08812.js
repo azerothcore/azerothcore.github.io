@@ -1,9 +1,8 @@
 var a08812 =
 [
-    [ "UnitAuraCheck", "da/d72/a08812.html#acbc0c969db8b768720ab3b8235c28352", null ],
-    [ "operator()", "da/d72/a08812.html#abc385cad226ac51c09a908864d360fd3", null ],
-    [ "operator()", "da/d72/a08812.html#a1c85e9d5d517a852cf4c92063e6f3ed1", null ],
-    [ "_casterGUID", "da/d72/a08812.html#ab2bdf4c05792dd83e4e9542fc3083cc3", null ],
-    [ "_present", "da/d72/a08812.html#af553a0c4db5b11ec69ae7fbe9ce5ff78", null ],
-    [ "_spellId", "da/d72/a08812.html#a0dd71c851f803fb70a4543c77b672889", null ]
+    [ "AllGameObjectsWithEntryInRange", "da/d72/a08812.html#ab5a57e9a5f8b927b28f1fc9d6f6fce56", null ],
+    [ "operator()", "da/d72/a08812.html#a342aa18d98413620fce4c676fcf75305", null ],
+    [ "m_fRange", "da/d72/a08812.html#a7cce16670c95c19f3eb68e5914160513", null ],
+    [ "m_pObject", "da/d72/a08812.html#a5c898c20992999f11204aab6479d71f6", null ],
+    [ "m_uiEntry", "da/d72/a08812.html#a64ff0c14c71e218b8f9a8888b1017fec", null ]
 ];

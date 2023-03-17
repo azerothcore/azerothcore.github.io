@@ -1,6 +1,6 @@
 var a19980 =
 [
-    [ "boss_gothikAI", "d2/dab/a19984.html", "d2/dab/a19984" ],
-    [ "boss_gothik", "df/d0c/a19980.html#a0c3ee990a1caf020e9a4be000f0b77e0", null ],
-    [ "GetAI", "df/d0c/a19980.html#aea7aec86c4132521fb7b9b6e87baf289", null ]
+    [ "HandleDamageCalc", "df/d0c/a19980.html#a0325af900821d758e0677d81cfed3db4", null ],
+    [ "PrepareSpellScript", "df/d0c/a19980.html#ab5693ad860440c7fbce7a1ba2399a43c", null ],
+    [ "Register", "df/d0c/a19980.html#a45ae1abb2c5b138742ee27df1d95007f", null ]
 ];

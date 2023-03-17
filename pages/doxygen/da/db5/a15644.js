@@ -1,6 +1,7 @@
 var a15644 =
 [
-    [ "npc_custodian_of_timeAI", "db/d71/a15648.html", "db/d71/a15648" ],
-    [ "npc_custodian_of_time", "da/db5/a15644.html#a6018b30119ce819853a3c662b3d5347e", null ],
-    [ "GetAI", "da/db5/a15644.html#a57217b2dab1cab110f1c59526ca13c86", null ]
+    [ "DelayedWindstoneSummonEvent", "da/db5/a15644.html#aa97daf8cf3479395ffd6558b6699436a", null ],
+    [ "Execute", "da/db5/a15644.html#aa413bc8709bc543b89ffb3df42185475", null ],
+    [ "_playerGUID", "da/db5/a15644.html#ad83bb6d87b569f59e99abcc16517745b", null ],
+    [ "_summon", "da/db5/a15644.html#af9804d276da5daebab3a37f2c75301ea", null ]
 ];

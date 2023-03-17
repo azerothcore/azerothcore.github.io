@@ -1,7 +1,6 @@
 var a18224 =
 [
-    [ "HandleScript", "d0/daf/a18224.html#a877268ab0f8c0c58884d72b940c57226", null ],
-    [ "PrepareSpellScript", "d0/daf/a18224.html#a7c1300c71c3e4f750f5afac43d23a9e3", null ],
-    [ "Register", "d0/daf/a18224.html#a579ab09dd1c166df91f5f706da511ecd", null ],
-    [ "SelectRandomTarget", "d0/daf/a18224.html#a3ff88bfb3398d8375d93226e7647eb5a", null ]
+    [ "spell_igb_burning_pitch_selector_SpellScript", "dc/d3f/a18228.html", "dc/d3f/a18228" ],
+    [ "spell_igb_burning_pitch_selector", "d0/daf/a18224.html#a439f6e41232a84b88683a9603f5854c0", null ],
+    [ "GetSpellScript", "d0/daf/a18224.html#aa95c1a9da3c4c5135cbe989d6b24dd9b", null ]
 ];

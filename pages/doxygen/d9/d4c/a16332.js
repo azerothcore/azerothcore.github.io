@@ -1,11 +1,6 @@
 var a16332 =
 [
-    [ "boss_saviana_ragefireAI", "d9/d4c/a16332.html#ab4fa6a2cc57c9d110bfd3cf16a016942", null ],
-    [ "EnterCombat", "d9/d4c/a16332.html#a80280a1bfd8e853bd0d44ea996bf5545", null ],
-    [ "JustDied", "d9/d4c/a16332.html#a30331f9cdb141cd2dbc043888b48a6eb", null ],
-    [ "JustReachedHome", "d9/d4c/a16332.html#a74abf893a37874eb98aa5ba9883e8d62", null ],
-    [ "KilledUnit", "d9/d4c/a16332.html#ac07513681c72d6748246cc7c349d117c", null ],
-    [ "MovementInform", "d9/d4c/a16332.html#aed4c70f571586c8cbcc044c01bdc472d", null ],
-    [ "Reset", "d9/d4c/a16332.html#a4b7f103331c566cbf007a075161505af", null ],
-    [ "UpdateAI", "d9/d4c/a16332.html#af36ca2a359f950a10214d07aad240324", null ]
+    [ "OnSummon", "d9/d4c/a16332.html#a357fe0fdfd739525e0a03bb5e7882730", null ],
+    [ "PrepareSpellScript", "d9/d4c/a16332.html#a08e6f2d704a0b2091ac8693b52dd239d", null ],
+    [ "Register", "d9/d4c/a16332.html#af65eb2921ecfdd0a92b8e9c7b6cde5f3", null ]
 ];

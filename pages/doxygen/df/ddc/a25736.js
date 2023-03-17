@@ -1,6 +1,7 @@
 var a25736 =
 [
-    [ "boss_alarAI", "d6/df1/a25740.html", "d6/df1/a25740" ],
-    [ "boss_alar", "df/ddc/a25736.html#a40f87caa1ededad8e340a38bbdf5fbdb", null ],
-    [ "GetAI", "df/ddc/a25736.html#a44875e91be20762422c8998b8930b82c", null ]
+    [ "OnApply", "df/ddc/a25736.html#a6d8b2c1a671ac698826daaee2c1b6b18", null ],
+    [ "OnRemove", "df/ddc/a25736.html#a299fd3e8c173f9cfcadc79dff43a4ffd", null ],
+    [ "PrepareAuraScript", "df/ddc/a25736.html#abeb51278b6d97afaa05ae92132d0df39", null ],
+    [ "Register", "df/ddc/a25736.html#ad752a04a5c42ff66d446bbe7c407959d", null ]
 ];

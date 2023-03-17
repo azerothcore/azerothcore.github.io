@@ -1,6 +1,6 @@
 var a14692 =
 [
-    [ "spell_boss_salramm_steal_flesh_AuraScript", "db/d15/a14696.html", "db/d15/a14696" ],
-    [ "spell_boss_salramm_steal_flesh", "d6/dac/a14692.html#a8fa3233257c2e313dcdec8e7ec3cd5e0", null ],
-    [ "GetAuraScript", "d6/dac/a14692.html#a10c417eca24eef7bbcb1a4e3c05c0534", null ]
+    [ "Cooldown", "d6/dac/a14692.html#ad25399079776c4c78f6215f3189195ec", null ],
+    [ "SpellId", "d6/dac/a14692.html#afe38fa1cb5ac67dd90c9b08fc2475a2e", null ],
+    [ "TargetType", "d6/dac/a14692.html#a4fbad9e6a60f80d129fe7aedaba83cca", null ]
 ];

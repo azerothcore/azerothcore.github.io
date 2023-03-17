@@ -1,5 +1,6 @@
 var a15868 =
 [
-    [ "achievement_respect_your_elders", "d9/d08/a15868.html#a2fd66ada0ff7482c00b2cb417a12e88e", null ],
-    [ "OnCheck", "d9/d08/a15868.html#a770922be3ab19848f7a8f43a82d78b88", null ]
+    [ "npc_shadowpriest_sezzizAI", "d9/d47/a15872.html", "d9/d47/a15872" ],
+    [ "npc_shadowpriest_sezziz", "d9/d08/a15868.html#a1be46acc9d8f1405f925f7b7f87592ea", null ],
+    [ "GetAI", "d9/d08/a15868.html#a1513b766f18dbc290b6682582fd33b1d", null ]
 ];

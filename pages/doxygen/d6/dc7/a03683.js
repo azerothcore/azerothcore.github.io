@@ -1,6 +1,10 @@
 var a03683 =
 [
-    [ "instance_vault_of_archavon", "d3/de2/a22727.html", "d3/de2/a22727" ],
-    [ "instance_vault_of_archavon::instance_vault_of_archavon_InstanceMapScript", "d9/d64/a22731.html", "d9/d64/a22731" ],
-    [ "AddSC_instance_vault_of_archavon", "d6/dc7/a03683.html#af85fa677904908fe364917364696be77", null ]
+    [ "spell_utgarde_pinnacle_beast_mark", "d2/d76/a22660.html", "d2/d76/a22660" ],
+    [ "UtgardeSpells", "d6/dc7/a03683.html#ae8fa29243650c07aed99f9ee3cad321a", [
+      [ "SPELL_BEAST_MARK_NORMAL", "d6/dc7/a03683.html#ae8fa29243650c07aed99f9ee3cad321aa515971380a351ffe4dc21aefd7d9a8aa", null ],
+      [ "SPELL_BEAST_MARK_DAMAGE_N", "d6/dc7/a03683.html#ae8fa29243650c07aed99f9ee3cad321aa519ee30eba59f71f788bd5aaa9ea8a4f", null ],
+      [ "SPELL_BEAST_MARK_DAMAGE_H", "d6/dc7/a03683.html#ae8fa29243650c07aed99f9ee3cad321aa28cc83c9c8ba75d8dd51298affc35aa7", null ]
+    ] ],
+    [ "AddSC_utgarde_pinnacle", "d6/dc7/a03683.html#aa865b80ad4fb44b0c96fa45f08d06d71", null ]
 ];

@@ -1,6 +1,6 @@
 var a00602 =
 [
-    [ "LoginDatabaseConnection", "db/de3/a05387.html", "db/de3/a05387" ],
+    [ "LoginDatabaseConnection", "da/df4/a05408.html", "da/df4/a05408" ],
     [ "LoginDatabaseStatements", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fb", [
       [ "LOGIN_SEL_REALMLIST", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba60f76dbe533e0e45479c1da3cf119ec9", null ],
       [ "LOGIN_DEL_EXPIRED_IP_BANS", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba391d5d5679155b59c7c5e62479acb721", null ],
@@ -70,6 +70,8 @@ var a00602 =
       [ "LOGIN_SEL_REALMLIST_SECURITY_LEVEL", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba6bca444ba538555f694f39b1f7817453", null ],
       [ "LOGIN_DEL_ACCOUNT", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba9e0cd899030e505d106466c297cd8fd1", null ],
       [ "LOGIN_SEL_AUTOBROADCAST", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba9980b74fcece706b35f1723dd2c9bf9d", null ],
+      [ "LOGIN_SEL_MOTD", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fbae979faae50322791e59f95000a6e2249", null ],
+      [ "LOGIN_REP_MOTD", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba1c8c8d584ab7ce75444b54990f620a06", null ],
       [ "LOGIN_SEL_LAST_ATTEMPT_IP", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba2878e6185acc931675a997cde885390a", null ],
       [ "LOGIN_SEL_LAST_IP", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fbaa0d93a7c5e669e06eaa240d94c97c53a", null ],
       [ "LOGIN_INS_ALDL_IP_LOGGING", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba30846cd0e83a2622636486726c8cc4c8", null ],

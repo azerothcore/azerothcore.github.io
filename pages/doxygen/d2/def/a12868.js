@@ -1,6 +1,6 @@
 var a12868 =
 [
-    [ "HandleApplyTouch", "d2/def/a12868.html#a03d3cd8c6792c4c9604ec7be7d33ea0b", null ],
-    [ "PrepareSpellScript", "d2/def/a12868.html#a3b300a0a47de87e3f51189933d0cede6", null ],
-    [ "Register", "d2/def/a12868.html#a9cbb2e49f9a0f64b76562401c3305cb4", null ]
+    [ "spell_madrigosa_deactivate_barrier_SpellScript", "d1/d4f/a12872.html", "d1/d4f/a12872" ],
+    [ "spell_madrigosa_deactivate_barrier", "d2/def/a12868.html#ae1d30837ce30d620bcf258326a644283", null ],
+    [ "GetSpellScript", "d2/def/a12868.html#adea8bc95213346915870d5bd8aa327f3", null ]
 ];

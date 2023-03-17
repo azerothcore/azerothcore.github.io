@@ -1,6 +1,6 @@
 var a22532 =
 [
-    [ "npc_massive_jormungarAI", "d7/d52/a22536.html", "d7/d52/a22536" ],
-    [ "npc_massive_jormungar", "d0/d32/a22532.html#ad17b632fcfe78019dcb9e6b58fa1ac01", null ],
-    [ "GetAI", "d0/d32/a22532.html#a68e3557e967ef633ba59fa81e661b80c", null ]
+    [ "npc_enslaved_proto_drakeAI", "d7/d52/a22536.html", "d7/d52/a22536" ],
+    [ "npc_enslaved_proto_drake", "d0/d32/a22532.html#a9179481566337bd785b089fb726a255e", null ],
+    [ "GetAI", "d0/d32/a22532.html#a2879ad42d2ec8c04c52d6c370c3e5bf6", null ]
 ];

@@ -1,14 +1,8 @@
 var a30028 =
 [
-    [ "IsFlyable", "db/dae/a30028.html#a2a59297a617c9d3b582ede2a028bd07e", null ],
-    [ "IsSanctuary", "db/dae/a30028.html#ad239b4e381b6af858a181e9c361d6cbb", null ],
-    [ "area_level", "db/dae/a30028.html#a23434848cf8b2eab4de1b6530b8d5f8d", null ],
-    [ "area_name", "db/dae/a30028.html#a87653e6b7f7368a59af7adaf77a49e10", null ],
-    [ "exploreFlag", "db/dae/a30028.html#a78cf3009cd0fe49dc7870c7f65c79251", null ],
-    [ "flags", "db/dae/a30028.html#a5854e3f565d827dbad3d9a36f99e9a25", null ],
-    [ "ID", "db/dae/a30028.html#ad02bb9fce21f464e38223581074a9e21", null ],
-    [ "LiquidTypeOverride", "db/dae/a30028.html#abe743a4b542c4356aab9d41f3fae7457", null ],
-    [ "mapid", "db/dae/a30028.html#a048ac249318efd9aa35bb705bfb92dc8", null ],
-    [ "team", "db/dae/a30028.html#ae18e0efef83e663452715f6be15ecaef", null ],
-    [ "zone", "db/dae/a30028.html#a3b4f9e187629db5ced9a06c601fc7f78", null ]
+    [ "difficulty", "db/dae/a30028.html#a2a04df701c13dc49053b09a9587a72a8", null ],
+    [ "encounterIndex", "db/dae/a30028.html#a3d35560824a3aaeecb8db4bf8628ebfd", null ],
+    [ "encounterName", "db/dae/a30028.html#af4f26f56526b945e392ddaf6b2d43fa1", null ],
+    [ "id", "db/dae/a30028.html#aa9828ccc644a11f9cb35fbcc7d31a827", null ],
+    [ "mapId", "db/dae/a30028.html#a61c1ac724c8eb96907d2ea9402a8f9ce", null ]
 ];

@@ -1,5 +1,8 @@
 var a10012 =
 [
-    [ "GuildDeleteRank", "d8/d43/a10012.html#ae21057ea5cc30ed07deaa736149617b3", null ],
-    [ "Read", "d8/d43/a10012.html#a91a7883299fe09e08c247c96987a8333", null ]
+    [ "GuildEvent", "d8/d43/a10012.html#a78be16122c01d4c68d67e050ede92006", null ],
+    [ "Write", "d8/d43/a10012.html#a4ae1c0daaec964981ad982b97c1b0408", null ],
+    [ "Guid", "d8/d43/a10012.html#a35bcac3da7db22a22b4e8dba21ae1d0a", null ],
+    [ "Params", "d8/d43/a10012.html#a8f0faa70581ca04c26f87ebcd25cee80", null ],
+    [ "Type", "d8/d43/a10012.html#a961ae90991fa23bfc94a054dba357392", null ]
 ];

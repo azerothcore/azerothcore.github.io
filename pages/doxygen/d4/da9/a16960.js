@@ -1,6 +1,6 @@
 var a16960 =
 [
-    [ "spell_trollgore_corpse_explode_AuraScript", "db/d3d/a16964.html", "db/d3d/a16964" ],
-    [ "spell_trollgore_corpse_explode", "d4/da9/a16960.html#a7d3dc22caf54093b2cf4061483986d3e", null ],
-    [ "GetAuraScript", "d4/da9/a16960.html#ac46019482a7ecc8b523c8c1d626d2ec4", null ]
+    [ "spell_tharon_ja_dummy_AuraScript", "db/d3d/a16964.html", "db/d3d/a16964" ],
+    [ "spell_tharon_ja_dummy", "d4/da9/a16960.html#a74fce5282516f975df26dea18230b783", null ],
+    [ "GetAuraScript", "d4/da9/a16960.html#af92a6a5b78d71cb286fdda6a1f3d9e78", null ]
 ];

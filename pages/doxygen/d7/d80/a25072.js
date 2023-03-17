@@ -1,6 +1,8 @@
 var a25072 =
 [
-    [ "spell_leotheras_clear_consuming_madness_SpellScript", "da/d50/a25076.html", "da/d50/a25076" ],
-    [ "spell_leotheras_clear_consuming_madness", "d7/d80/a25072.html#a9252f50d3154ac16ad9e2248a2d361b0", null ],
-    [ "GetSpellScript", "d7/d80/a25072.html#a7500d6433d4a5a3f25bc96ac653353fc", null ]
+    [ "spell_leotheras_insidious_whisper_AuraScript", "df/d56/a25080.html", "df/d56/a25080" ],
+    [ "spell_leotheras_insidious_whisper_SpellScript", "da/d50/a25076.html", "da/d50/a25076" ],
+    [ "spell_leotheras_insidious_whisper", "d7/d80/a25072.html#a51e05bd3ab0e3d7fb691d8b8bb9b0967", null ],
+    [ "GetAuraScript", "d7/d80/a25072.html#a22c21f128fd0ac4a379a689692976094", null ],
+    [ "GetSpellScript", "d7/d80/a25072.html#aacb3d4cfc090722f0ec7d2f0e914935d", null ]
 ];

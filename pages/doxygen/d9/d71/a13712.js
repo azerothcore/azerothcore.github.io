@@ -1,7 +1,6 @@
 var a13712 =
 [
-    [ "npc_janalai_eggAI", "d9/d71/a13712.html#a75bf6d0c7fdb09ace4352cde99edda81", null ],
-    [ "Reset", "d9/d71/a13712.html#aad93238c8c26d678da6df2d0191d3763", null ],
-    [ "SpellHit", "d9/d71/a13712.html#a2e097705ad9710b22be38931df30bcc3", null ],
-    [ "UpdateAI", "d9/d71/a13712.html#a4aa8bfac1e4584497d48097535cc77d3", null ]
+    [ "spell_hexlord_unstable_affliction_AuraScript", "df/d05/a13716.html", "df/d05/a13716" ],
+    [ "spell_hexlord_unstable_affliction", "d9/d71/a13712.html#ac2c4aa43d020159c04eb544f6c0f6ab5", null ],
+    [ "GetAuraScript", "d9/d71/a13712.html#a058d9700cef2d6a4f5db5ddd7902b37f", null ]
 ];

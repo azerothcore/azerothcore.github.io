@@ -1,12 +1,10 @@
 var a26164 =
 [
-    [ "adyen_the_lightbringerAI", "dc/d11/a26164.html#a49e5eba0e11b438f847676f74b7727ea", null ],
-    [ "DoAction", "dc/d11/a26164.html#a03685a715ec96ad02c27c8b102251b29", null ],
-    [ "EnterCombat", "dc/d11/a26164.html#afd9b67a46cb0a029d0690f76c85fc403", null ],
-    [ "MovementInform", "dc/d11/a26164.html#acf8cf7d1cb33584867d7d38e511cd2b1", null ],
-    [ "UpdateAI", "dc/d11/a26164.html#a3a0014ffbb7fc21dcc54f581832997c0", null ],
-    [ "_events", "dc/d11/a26164.html#ae48c36b5eb172304289bb7de28bb386f", null ],
-    [ "event_started", "dc/d11/a26164.html#ae3e5794d24ed408abfe4e88c4bc0a8eb", null ],
-    [ "eventPhase", "dc/d11/a26164.html#a5d7dcdd6d927a61d93695a1111d9409f", null ],
-    [ "eventTimer", "dc/d11/a26164.html#a6791f8d79d444dc65f483dd1403cd392", null ]
+    [ "npc_maxx_a_million_escortAI", "dc/d11/a26164.html#ab827933527ed7b4a04b162034876ced8", null ],
+    [ "JustDied", "dc/d11/a26164.html#a2106ab4d32d0f221f62eeffd93f71380", null ],
+    [ "Reset", "dc/d11/a26164.html#a6b9b2ed76e26f908ff2272ad8744a59e", null ],
+    [ "UpdateAI", "dc/d11/a26164.html#a3b022feb2303875d32ad981e84f66854", null ],
+    [ "WaypointReached", "dc/d11/a26164.html#acd6f45abb93f3f043cd85647405a50f6", null ],
+    [ "bTake", "dc/d11/a26164.html#ac697fc6cbc20c7f316845ed26436049b", null ],
+    [ "uiTakeTimer", "dc/d11/a26164.html#a5d4826dcf893f444a42dedba57460110", null ]
 ];

@@ -1,7 +1,9 @@
 var a23536 =
 [
-    [ "npc_battle_at_valhalasAI", "d8/d30/a23540.html", "d8/d30/a23540" ],
-    [ "npc_battle_at_valhalas", "d4/dab/a23536.html#aacec717b5b91ae55307c9642779c15ec", null ],
-    [ "GetAI", "d4/dab/a23536.html#a3660ba847b3b40c2d358d63c63517a5e", null ],
-    [ "OnQuestAccept", "d4/dab/a23536.html#addd76fd9f4b4f8ce706693614b80966b", null ]
+    [ "npc_Apothecary_HanesAI", "d4/dab/a23536.html#a8e209b142a58b3b3c0d84c430a086ade", null ],
+    [ "JustDied", "d4/dab/a23536.html#a4c681936d8e7053ace5cdeeaa1ee5ca9", null ],
+    [ "Reset", "d4/dab/a23536.html#a23d54542e6debf39798c2a2d6e2a255d", null ],
+    [ "UpdateEscortAI", "d4/dab/a23536.html#ab54eb5115b9c41b39f0de0f8f4412ef9", null ],
+    [ "WaypointReached", "d4/dab/a23536.html#a7105ea4c83ddd0fd08c96a0b0ff40bd2", null ],
+    [ "PotTimer", "d4/dab/a23536.html#a252858818b61cf15e2e031ceaaadc6b8", null ]
 ];

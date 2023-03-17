@@ -1,6 +1,6 @@
 var a21556 =
 [
-    [ "boss_ignisAI", "dc/d82/a21560.html", "dc/d82/a21560" ],
-    [ "boss_ignis", "d9/dce/a21556.html#a15f42f252e4f9472707d5b81f7fdaece", null ],
-    [ "GetAI", "d9/dce/a21556.html#ac11ff148e9cbc985875f859268a3de01", null ]
+    [ "spell_hodir_toasty_fire_AuraScript", "dc/d82/a21560.html", "dc/d82/a21560" ],
+    [ "spell_hodir_toasty_fire", "d9/dce/a21556.html#a56cff8f3b2eb0aca665b7d0ad344ba4d", null ],
+    [ "GetAuraScript", "d9/dce/a21556.html#af7f8da6825fad5702b05dff4483ed5b7", null ]
 ];

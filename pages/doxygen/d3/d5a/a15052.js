@@ -1,5 +1,6 @@
 var a15052 =
 [
-    [ "boss_kri", "d3/d5a/a15052.html#a0a95f8d2a380ab48ffd5a034e012cc2c", null ],
-    [ "EnterCombat", "d3/d5a/a15052.html#ac3a6d481e6d558519d673e5e9e06fd96", null ]
+    [ "HandleDamageCalc", "d3/d5a/a15052.html#a03eb92eff300872cd5fca452a99375ab", null ],
+    [ "PrepareSpellScript", "d3/d5a/a15052.html#ac07421b62bb6044dad89431839a70bd8", null ],
+    [ "Register", "d3/d5a/a15052.html#a70cbf764ab475e2358fa6630798cab9d", null ]
 ];

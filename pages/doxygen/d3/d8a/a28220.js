@@ -1,9 +1,7 @@
 var a28220 =
 [
-    [ "CheckCast", "d3/d8a/a28220.html#ad7bfc65b26013ad259679ae8b4a5dd9a", null ],
-    [ "HandleTriggerSpellHit", "d3/d8a/a28220.html#aca027bb2995456bfcedd33c06966eb88", null ],
-    [ "HandleTriggerSpellLaunch", "d3/d8a/a28220.html#aa67bf9f81086a3837037d67306979072", null ],
-    [ "PrepareSpellScript", "d3/d8a/a28220.html#a9247b5f3a376bebdcf857565b5049944", null ],
-    [ "Register", "d3/d8a/a28220.html#aaf056806d72da6aa2e3e6e70d46d6933", null ],
-    [ "Validate", "d3/d8a/a28220.html#a4fc8f6a7ecd041dcfca4fd51d71e725c", null ]
+    [ "HandleApplyEffect", "d3/d8a/a28220.html#af95120b26a165196e0310956c245f36f", null ],
+    [ "HandleRemoveEffect", "d3/d8a/a28220.html#a59e7d23c969b03aa75ef1da3bf42f6e9", null ],
+    [ "PrepareAuraScript", "d3/d8a/a28220.html#ae19e002407db1466f0655db3d14fe0d7", null ],
+    [ "Register", "d3/d8a/a28220.html#ae776a5e913fcf1553b7e2a00374a1ee6", null ]
 ];

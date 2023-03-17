@@ -1,6 +1,6 @@
 var a23084 =
 [
-    [ "npc_thassarian2AI", "d8/dc9/a23088.html", "d8/dc9/a23088" ],
-    [ "npc_thassarian2", "d4/d3b/a23084.html#a8a2f1e1595349e4fa9968e85f17d0468", null ],
-    [ "GetAI", "d4/d3b/a23084.html#adb87c99f3375f88eca55b39e1cd0bbd5", null ]
+    [ "HandleEffect", "d4/d3b/a23084.html#a84dab0a2289f341404850f8439d9de57", null ],
+    [ "PrepareSpellScript", "d4/d3b/a23084.html#a08b28c7d34fc2933a776e9ae59d87ef9", null ],
+    [ "Register", "d4/d3b/a23084.html#acbb270e8d0de0f548a90346f85753b05", null ]
 ];

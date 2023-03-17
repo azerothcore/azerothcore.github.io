@@ -1,8 +1,11 @@
 var a13876 =
 [
-    [ "npc_batrider", "d1/dd2/a13876.html#a6304a39ea92d48508a17dc059c47bc1b", null ],
-    [ "EnterCombat", "d1/dd2/a13876.html#a4d1964300a66b46dab6072ea2a719e79", null ],
-    [ "Reset", "d1/dd2/a13876.html#abee249da6f3bb6c2fd859812b02d7b65", null ],
-    [ "UpdateAI", "d1/dd2/a13876.html#a84eae0bbc8ea1ff2e38a4cc375fee8e6", null ],
-    [ "_scheduler", "d1/dd2/a13876.html#ad90beb6685c031a8b0ce4ec8ea3daa3f", null ]
+    [ "boss_hakkarAI", "d1/dd2/a13876.html#ae29c8c0816fc3efb83d7912c559747e4", null ],
+    [ "ApplyHakkarPowerStacks", "d1/dd2/a13876.html#aca5b7ee8d026ff7ee808e9ebd64c8dcf", null ],
+    [ "CheckInRoom", "d1/dd2/a13876.html#a8a70e82f6c72760143148d9c9f8095cc", null ],
+    [ "EnterEvadeMode", "d1/dd2/a13876.html#a6ca87d663714ddecfe562f0c705fa6f8", null ],
+    [ "JustDied", "d1/dd2/a13876.html#ae6b8c72ad3d36ee6eea624a7d79ca26b", null ],
+    [ "JustEngagedWith", "d1/dd2/a13876.html#ae023eb68fc066ba5713baaf3b0595f0c", null ],
+    [ "Reset", "d1/dd2/a13876.html#a52db5743c09088e2e9f1aff1513960f2", null ],
+    [ "UpdateAI", "d1/dd2/a13876.html#a1119212465bcf293991d7a520c6ffe42", null ]
 ];

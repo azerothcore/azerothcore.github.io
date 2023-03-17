@@ -1,9 +1,6 @@
 var a20776 =
 [
-    [ "npc_brann_bronzebeard_algalonAI", "d8/df3/a20776.html#a5ab0ff088866cf9d6af99ee3f42e897a", null ],
-    [ "DoAction", "d8/df3/a20776.html#a9de9e9b19b8a635ec4bc0a4f8c8d13c6", null ],
-    [ "MovementInform", "d8/df3/a20776.html#a7f8d3efed49f0d43a5e9e73ee8bd36e0", null ],
-    [ "UpdateAI", "d8/df3/a20776.html#a16e3fcd7f082e04f648d2341a7e83cba", null ],
-    [ "_currentPoint", "d8/df3/a20776.html#ae9da41b5b4cae16e1ed4709ab41b8964", null ],
-    [ "events", "d8/df3/a20776.html#ab71b71ac63517349cb8702bb29d76334", null ]
+    [ "instance_halls_of_stone_InstanceMapScript", "d6/d61/a20780.html", "d6/d61/a20780" ],
+    [ "instance_halls_of_stone", "d8/df3/a20776.html#ad0237cfaf2e48036f45181fd7746df2b", null ],
+    [ "GetInstanceScript", "d8/df3/a20776.html#a784906c7710a216016101cf7a6a915f3", null ]
 ];

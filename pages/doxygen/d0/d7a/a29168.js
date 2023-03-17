@@ -1,10 +1,6 @@
 var a29168 =
 [
-    [ "boss_emerissAI", "d0/d7a/a29168.html#ad94b3b097d9987e365f91b7e57d0f208", null ],
-    [ "DamageTaken", "d0/d7a/a29168.html#abb80c49c166f31cd7e2d24392fbf60e1", null ],
-    [ "EnterCombat", "d0/d7a/a29168.html#a3c2e2aec49565f46c79203112710c983", null ],
-    [ "ExecuteEvent", "d0/d7a/a29168.html#ad3839ad4b0a930bc96154b5b0aab17fe", null ],
-    [ "KilledUnit", "d0/d7a/a29168.html#ad851169bc09a362137e211dd10d30a1b", null ],
-    [ "Reset", "d0/d7a/a29168.html#a44dfb325c4e8413662052137edc710ef", null ],
-    [ "_stage", "d0/d7a/a29168.html#ae2c8c5c2d2054af41c5dbe938b3eb79a", null ]
+    [ "go_flamesAI", "db/d4f/a29172.html", "db/d4f/a29172" ],
+    [ "go_flames", "d0/d7a/a29168.html#a75d49202eaf2078b8276e59944d1ec89", null ],
+    [ "GetAI", "d0/d7a/a29168.html#aea11412e7d17b744b4e70ec754a1e6cc", null ]
 ];

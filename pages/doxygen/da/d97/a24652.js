@@ -1,6 +1,6 @@
 var a24652 =
 [
-    [ "spell_teron_gorefiend_shadow_of_death_AuraScript", "d5/dd5/a24656.html", "d5/dd5/a24656" ],
-    [ "spell_teron_gorefiend_shadow_of_death", "da/d97/a24652.html#a1d34f24fc50c45ee1bbaba42837c3bd4", null ],
-    [ "GetAuraScript", "da/d97/a24652.html#ace2fbf71eab606dfcc5fecb7cfea3116", null ]
+    [ "boss_supremusAI", "d5/dd5/a24656.html", "d5/dd5/a24656" ],
+    [ "boss_supremus", "da/d97/a24652.html#ab4ec1ee2fb9f8b022d6c2ec0a2813464", null ],
+    [ "GetAI", "da/d97/a24652.html#aeac20cbc45b1f30e3aa72e7e9c1ac7d9", null ]
 ];

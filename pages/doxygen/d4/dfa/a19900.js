@@ -1,6 +1,6 @@
 var a19900 =
 [
-    [ "spell_ioc_gunship_portal_SpellScript", "d8/d5c/a19904.html", "d8/d5c/a19904" ],
-    [ "spell_ioc_gunship_portal", "d4/dfa/a19900.html#ab4c871ebf951ef29f21189062f9339c4", null ],
-    [ "GetSpellScript", "d4/dfa/a19900.html#a5ac5f523a79656a48d0acce6dd945d51", null ]
+    [ "boss_isle_of_conquestAI", "d8/d5c/a19904.html", "d8/d5c/a19904" ],
+    [ "boss_isle_of_conquest", "d4/dfa/a19900.html#ad4052d1b6865585d32016e1240449659", null ],
+    [ "GetAI", "d4/dfa/a19900.html#ae14201c4f8654bf2c0cd9ac8a82f3800", null ]
 ];

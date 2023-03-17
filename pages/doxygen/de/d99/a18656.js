@@ -1,6 +1,6 @@
 var a18656 =
 [
-    [ "CheckTarget", "de/d99/a18656.html#a6628cf209a109d400ffbf05cb0ec81f4", null ],
-    [ "PrepareSpellScript", "de/d99/a18656.html#acc6c731ab8b5682df543b8e578324e3f", null ],
-    [ "Register", "de/d99/a18656.html#a81c47204f3d21f65dc1bd0cb5d9779c3", null ]
+    [ "HandleScript", "de/d99/a18656.html#ab44224f6fa282bd2874ad205038dc501", null ],
+    [ "PrepareSpellScript", "de/d99/a18656.html#a319f7c7b071a4ece03a239da67b99652", null ],
+    [ "Register", "de/d99/a18656.html#a4b4d107160b5f5c21675b9f547ac35ae", null ]
 ];

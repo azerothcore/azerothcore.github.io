@@ -1,9 +1,7 @@
 var a21104 =
 [
-    [ "spell_auto_repair_SpellScript", "dd/d87/a21108.html", "dd/d87/a21108" ],
-    [ "Spells", "d3/dea/a21104.html#aad245ccd970f905f1ec1b7f65c7152a1", [
-      [ "SPELL_AUTO_REPAIR", "d3/dea/a21104.html#aad245ccd970f905f1ec1b7f65c7152a1a58bd7f373c7f6880929dbf4732a559c5", null ]
-    ] ],
-    [ "spell_auto_repair", "d3/dea/a21104.html#af0feeb4bbff4c6346e6e60845b5ddb88", null ],
-    [ "GetSpellScript", "d3/dea/a21104.html#ae8ffa3f11690a805a3033d13f237a20d", null ]
+    [ "boss_flame_leviathan_safety_containerAI", "d3/dea/a21104.html#ab9191e20df488df184c468ca1ac41084", null ],
+    [ "MovementInform", "d3/dea/a21104.html#a1b472a233ebebbb4c1fbf639aeb4bed6", null ],
+    [ "UpdateAI", "d3/dea/a21104.html#a77b3a493c5650d91c903879db324651d", null ],
+    [ "_allowTimer", "d3/dea/a21104.html#a2185c9fe04fa7288fab452c5c1de3819", null ]
 ];

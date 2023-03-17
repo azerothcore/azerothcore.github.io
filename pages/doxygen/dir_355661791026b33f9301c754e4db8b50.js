@@ -6,6 +6,7 @@ var dir_355661791026b33f9301c754e4db8b50 =
     [ "AI", "dir_5e5741f7891ede41bef7ecc492194021.html", "dir_5e5741f7891ede41bef7ecc492194021" ],
     [ "ArenaSpectator", "dir_ac0cbeb0a5f89d2c9966c7d739794b5c.html", "dir_ac0cbeb0a5f89d2c9966c7d739794b5c" ],
     [ "AuctionHouse", "dir_a1ce599ad2b2438c4a079c0c47195cb6.html", "dir_a1ce599ad2b2438c4a079c0c47195cb6" ],
+    [ "Autobroadcast", "dir_61f8377607f9116c0be318a1f3f3c987.html", "dir_61f8377607f9116c0be318a1f3f3c987" ],
     [ "Battlefield", "dir_477e35544aa3bd3857758e05eafb80e4.html", "dir_477e35544aa3bd3857758e05eafb80e4" ],
     [ "Battlegrounds", "dir_fc52f0b797d74b4b54bfd04593b84648.html", "dir_fc52f0b797d74b4b54bfd04593b84648" ],
     [ "Cache", "dir_10e0fdc55825859b4f92970a0e407994.html", "dir_10e0fdc55825859b4f92970a0e407994" ],

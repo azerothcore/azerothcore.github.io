@@ -1,17 +1,18 @@
 var a11140 =
 [
-    [ "boss_balindaAI", "d8/dd7/a11140.html#a9093b4bd57483e0350a96ae0ee896f43", null ],
-    [ "EnterCombat", "d8/dd7/a11140.html#abfc2a20d84c3965b0da4348f09692413", null ],
-    [ "JustDied", "d8/dd7/a11140.html#a240cf3cb7bcf6bddd7afd6b413e695e5", null ],
-    [ "JustRespawned", "d8/dd7/a11140.html#a96902e785cfd12a1cc4eca86287dc204", null ],
-    [ "JustSummoned", "d8/dd7/a11140.html#a8a7b53da91554def246a2c7aa07b6c5c", null ],
-    [ "Reset", "d8/dd7/a11140.html#a929bfd5248b957a98227e3932d236caf", null ],
-    [ "UpdateAI", "d8/dd7/a11140.html#ac4d8260310e3fe2505958be3d7d5f1f5", null ],
-    [ "arcaneExplosionTimer", "d8/dd7/a11140.html#a97579c578cda6a5c4546ac19454b8d4a", null ],
-    [ "coneOfColdTimer", "d8/dd7/a11140.html#a44b703c120e8b8eac74cb29c1400de69", null ],
-    [ "fireBoltTimer", "d8/dd7/a11140.html#a374ee1c1120bd6c56b280d42b81e5ddb", null ],
-    [ "frostboltTimer", "d8/dd7/a11140.html#a40d1a8342ff94b80918e9f955b29c45a", null ],
-    [ "resetTimer", "d8/dd7/a11140.html#a67254967b7a8865d94e98e460601873b", null ],
-    [ "summons", "d8/dd7/a11140.html#af4c91b977473d956d21a5c0e01919202", null ],
-    [ "waterElementalTimer", "d8/dd7/a11140.html#a3e76a75940aa7fa85cde3ac99a15032e", null ]
+    [ "server_commandscript", "d8/dd7/a11140.html#a61d8b3a9f967996b533e62e94fe4c8ca", null ],
+    [ "GetCommands", "d8/dd7/a11140.html#a850c21f1ece40c576d3bf622f1c3e18f", null ],
+    [ "HandleServerCorpsesCommand", "d8/dd7/a11140.html#a01ae63f31c7f03f6c0006fe4583a14a3", null ],
+    [ "HandleServerDebugCommand", "d8/dd7/a11140.html#ac78145cb5c0888449756e4dbb36c005f", null ],
+    [ "HandleServerExitCommand", "d8/dd7/a11140.html#ab894b36baa95de647fb329fce6eed8fb", null ],
+    [ "HandleServerIdleRestartCommand", "d8/dd7/a11140.html#ae18a92337d6cf8e62eafdf5f39d7b5a8", null ],
+    [ "HandleServerIdleShutDownCommand", "d8/dd7/a11140.html#aa431504b2755304c4263121a7a437ce4", null ],
+    [ "HandleServerInfoCommand", "d8/dd7/a11140.html#a6c63114c474f69621b013dbb57b47bf2", null ],
+    [ "HandleServerMotdCommand", "d8/dd7/a11140.html#aa10d866fcb8567fbc625d2a297a116a6", null ],
+    [ "HandleServerRestartCommand", "d8/dd7/a11140.html#a3ec7dd1f81f3b4b8adcb5f04f4d20f3f", null ],
+    [ "HandleServerSetClosedCommand", "d8/dd7/a11140.html#a2ba489469cdb3c8da944f7d6547ae462", null ],
+    [ "HandleServerSetLogLevelCommand", "d8/dd7/a11140.html#a1ce5627c1d948b5a5c86db54357de02a", null ],
+    [ "HandleServerSetMotdCommand", "d8/dd7/a11140.html#a3155d41193baf54af3c2768f824f07a1", null ],
+    [ "HandleServerShutDownCancelCommand", "d8/dd7/a11140.html#ae64357518538c1ce4d03a8d9968b4035", null ],
+    [ "HandleServerShutDownCommand", "d8/dd7/a11140.html#a514149a8d1dfc4513e0c71b69901767d", null ]
 ];

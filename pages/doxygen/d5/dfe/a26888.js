@@ -1,7 +1,8 @@
 var a26888 =
 [
-    [ "AfterApply", "d5/dfe/a26888.html#aee69eceead7e31cce2638ff252f6653d", null ],
-    [ "AfterRemove", "d5/dfe/a26888.html#ad53d25cc04f1b6cc1f3d0a8d9fc69a89", null ],
-    [ "PrepareAuraScript", "d5/dfe/a26888.html#a0ccde960cb328cd1c72b2504376e92b4", null ],
-    [ "Register", "d5/dfe/a26888.html#ab5f8afbfa688ebd548a5508543498b55", null ]
+    [ "AfterApply", "d5/dfe/a26888.html#a9c2591beacd941893338109719c03e3f", null ],
+    [ "AfterRemove", "d5/dfe/a26888.html#a0be2a66b615dd926de7073392a8e5062", null ],
+    [ "PrepareAuraScript", "d5/dfe/a26888.html#a4763d0c69c12611244f68ba5a5b1ccce", null ],
+    [ "Register", "d5/dfe/a26888.html#a36fb81d0bf4cf92773db60a70de52dda", null ],
+    [ "Validate", "d5/dfe/a26888.html#a86b51ec85105b0396972f0c3d7b770c1", null ]
 ];

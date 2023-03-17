@@ -1,8 +1,9 @@
 var a18128 =
 [
-    [ "Load", "d8/d3c/a18128.html#a28df32c3bae8cc46bedd949b0fc0463d", null ],
-    [ "PrepareSpellScript", "d8/d3c/a18128.html#aab7460be248cddc37e634cf1e1b505fd", null ],
-    [ "Register", "d8/d3c/a18128.html#a9fbfe5687cd9d4ef12d7d8b89ff49cbf", null ],
-    [ "RelocateDest", "d8/d3c/a18128.html#a933794f0e99e63c27cf0da61d2686a03", null ],
-    [ "SelectTransport", "d8/d3c/a18128.html#aa020ce5e5c172a32ee13b0b715e4a461", null ]
+    [ "CheckAreaTarget", "d8/d3c/a18128.html#a3c63a80369c39fff14b49e2d75e3afdb", null ],
+    [ "HandleApply", "d8/d3c/a18128.html#a041680de2214f9169b8f70082c07656c", null ],
+    [ "HandleRemove", "d8/d3c/a18128.html#a2d19687e629843bce5691110592fc834", null ],
+    [ "Load", "d8/d3c/a18128.html#a2e842d63103fa4495201fec7eab5c8d0", null ],
+    [ "PrepareAuraScript", "d8/d3c/a18128.html#a50e0015cf2e2211511de80345b5ee1aa", null ],
+    [ "Register", "d8/d3c/a18128.html#aa57f5e3327eadf73ee772427f67ad423", null ]
 ];

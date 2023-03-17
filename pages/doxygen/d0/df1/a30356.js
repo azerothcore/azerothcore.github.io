@@ -1,8 +1,10 @@
 var a30356 =
 [
-    [ "NoRuneCost", "d0/df1/a30356.html#a599b2089d52bf4a009c5fbac3b0d3279", null ],
-    [ "NoRunicPowerGain", "d0/df1/a30356.html#a97da075ecd116ef27fd4265bb8380667", null ],
-    [ "ID", "d0/df1/a30356.html#aed245962cf1830cfa66e369b22a7ba6f", null ],
-    [ "RuneCost", "d0/df1/a30356.html#a18c2e6daaaefe1c8be4a83c55a3670ff", null ],
-    [ "runePowerGain", "d0/df1/a30356.html#ac5f9c69d83ff9cf230124b9dad10008b", null ]
+    [ "area_id", "d0/df1/a30356.html#acbd77950bf9548d266e568640cf38458", null ],
+    [ "map_id", "d0/df1/a30356.html#abeabdc3d225dcd6626a641d6792d7ff8", null ],
+    [ "virtual_map_id", "d0/df1/a30356.html#afe75f114a3aa74a0589cc575e372f1b1", null ],
+    [ "x1", "d0/df1/a30356.html#a78967fef40841f705c2564a177cb36f3", null ],
+    [ "x2", "d0/df1/a30356.html#a037dca812715df0b4f2551f8684b537c", null ],
+    [ "y1", "d0/df1/a30356.html#a7f90073656e1cd00a88add9f8d881d11", null ],
+    [ "y2", "d0/df1/a30356.html#ad8e0164952e5565488d5443f269ec79e", null ]
 ];

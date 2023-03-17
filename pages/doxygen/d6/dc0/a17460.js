@@ -1,5 +1,6 @@
 var a17460 =
 [
-    [ "at_tyrannus_event_starter", "d6/dc0/a17460.html#a1aef2522c20dd242e749d93a6bee66d8", null ],
-    [ "OnTrigger", "d6/dc0/a17460.html#a8dcfce4cd24dbc45df987b4a9bfcbbc0", null ]
+    [ "spell_pos_rimefang_frost_novaSpellScript", "dd/d82/a17464.html", "dd/d82/a17464" ],
+    [ "spell_pos_rimefang_frost_nova", "d6/dc0/a17460.html#a150668643f4694799fd4fd90e8e3c897", null ],
+    [ "GetSpellScript", "d6/dc0/a17460.html#accac6b93fc916cadd70a90327fcb11ca", null ]
 ];

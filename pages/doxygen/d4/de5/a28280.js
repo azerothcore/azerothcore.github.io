@@ -1,6 +1,6 @@
 var a28280 =
 [
-    [ "HandleEffectScriptEffect", "d4/de5/a28280.html#a852a621f0b008dc1294dbeb9e9877a04", null ],
-    [ "PrepareSpellScript", "d4/de5/a28280.html#a8b0f656994289f260645a2ae60d9ee4b", null ],
-    [ "Register", "d4/de5/a28280.html#a1fa4dca7bae36c5e2acde0fe8b8cd801", null ]
+    [ "HandleDummy", "d4/de5/a28280.html#a42f48b9d7d657da75c8a4f5b6468011e", null ],
+    [ "PrepareSpellScript", "d4/de5/a28280.html#a5efc666af2cb73c376706c20e41ace68", null ],
+    [ "Register", "d4/de5/a28280.html#a46e61697212a43532e148ccb12a7d8e5", null ]
 ];

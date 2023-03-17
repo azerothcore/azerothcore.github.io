@@ -1,6 +1,6 @@
 var a24228 =
 [
-    [ "boss_talon_king_ikissAI", "d2/ddd/a24232.html", "d2/ddd/a24232" ],
-    [ "boss_talon_king_ikiss", "d7/d18/a24228.html#ac1973f6c0c9e4a0e84f02f5c037e2a38", null ],
-    [ "GetAI", "d7/d18/a24228.html#a3aaf5997e585a2b95f6de27f5b73491d", null ]
+    [ "npc_yorAI", "d2/ddd/a24232.html", "d2/ddd/a24232" ],
+    [ "npc_yor", "d7/d18/a24228.html#a03fa92e0c70a701889e7518d06d3b986", null ],
+    [ "GetAI", "d7/d18/a24228.html#a2de7f46d1eaedb90ae3e8cf08e3b6b8b", null ]
 ];

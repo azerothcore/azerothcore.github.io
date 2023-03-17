@@ -1,9 +1,14 @@
 var a13808 =
 [
-    [ "boss_gahzrankaAI", "d2/d77/a13808.html#aed4f9b7e5f46c517f07d7a07f6b2b5f6", null ],
-    [ "EnterCombat", "d2/d77/a13808.html#af19552373922fdceaf52abac232e2da4", null ],
-    [ "IsSummonedBy", "d2/d77/a13808.html#a19e37b3fefd95a26b9550b712aa4d5e1", null ],
-    [ "JustDied", "d2/d77/a13808.html#a100f4d3f4cd87d321280b7ff2d2ffb68", null ],
-    [ "Reset", "d2/d77/a13808.html#ae67d937f6dff9d4c7bb52c65ffe88e40", null ],
-    [ "UpdateAI", "d2/d77/a13808.html#a5dd935016dccab52d456c796809750ab", null ]
+    [ "npc_forest_frogAI", "d2/d77/a13808.html#a1859934c3166e8e1f3b215721eb7dde0", null ],
+    [ "DoSpawnRandom", "d2/d77/a13808.html#ad69092e6830cb4ed9b4971573b4938c2", null ],
+    [ "JustEngagedWith", "d2/d77/a13808.html#a11af64dd35f59e7621ef47f0a0dc70fd", null ],
+    [ "MovementInform", "d2/d77/a13808.html#a980316d840d9e6386a506101b665777e", null ],
+    [ "Reset", "d2/d77/a13808.html#abc3c1cbb9a8e403fb3c1513113437746", null ],
+    [ "SpellHit", "d2/d77/a13808.html#a598b45191168a9a2b0ef9345216bebcb", null ],
+    [ "UpdateAI", "d2/d77/a13808.html#a05ef7e4899ef1287cb4caa59d07324f7", null ],
+    [ "events", "d2/d77/a13808.html#ae007a0e7256b2118388a11035d26963d", null ],
+    [ "eventTimer", "d2/d77/a13808.html#a8064110ee297642b05fed81f421d82d3", null ],
+    [ "instance", "d2/d77/a13808.html#ae7631fcf8af5f7d3708e4580257f370b", null ],
+    [ "PlayerGUID", "d2/d77/a13808.html#a1f8f417d59c3be3bf46ab5f6ac399bc4", null ]
 ];

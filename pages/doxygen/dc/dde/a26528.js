@@ -1,6 +1,6 @@
 var a26528 =
 [
-    [ "npc_slim", "dc/dde/a26528.html#aa227fbe22126bed821939873973e6a20", null ],
-    [ "OnGossipHello", "dc/dde/a26528.html#a34dafb9f3a82c1d2f52a95436345dd0b", null ],
-    [ "OnGossipSelect", "dc/dde/a26528.html#a426963b7bf831a3b5a75dcf0629917a9", null ]
+    [ "PrepareSpellScript", "dc/dde/a26528.html#ae915f8f6522f0a8d308b2a5f43b8884f", null ],
+    [ "RecalculateDamage", "dc/dde/a26528.html#af01757d0968da2a096d800782ed7e66e", null ],
+    [ "Register", "dc/dde/a26528.html#a62b6613707a2a9b78d52bffe92de604e", null ]
 ];

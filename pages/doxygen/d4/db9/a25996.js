@@ -1,18 +1,16 @@
 var a25996 =
 [
-    [ "instance_mechanar_InstanceMapScript", "d4/db9/a25996.html#a728d427162c0f56e7d229c55ff88bfbd", null ],
-    [ "DoSummonAction", "d4/db9/a25996.html#a97920eeb062c29e9d22a0d690e937f81", null ],
-    [ "GetPassagePlayer", "d4/db9/a25996.html#a4f4f6c0dcbaa1ab2fab0d6a3c042d678", null ],
-    [ "GetSaveData", "d4/db9/a25996.html#ae4d587e37ed4cb36295ad1bd68e69eaf", null ],
-    [ "Load", "d4/db9/a25996.html#a9e8f1b838f9e43a75e23a3115c5407e1", null ],
-    [ "OnCreatureCreate", "d4/db9/a25996.html#aa0c6a84a6ace9299b18f0cc54263b398", null ],
-    [ "OnGameObjectCreate", "d4/db9/a25996.html#a236a8c67ca57ffc7d2161c00e8acbd64", null ],
-    [ "OnGameObjectRemove", "d4/db9/a25996.html#ac79c4f1dad7f2caf1278e242ec8fadc9", null ],
-    [ "OnUnitDeath", "d4/db9/a25996.html#a9e4d734d630c7a90d50a4d0e5e14dd67", null ],
-    [ "SetBossState", "d4/db9/a25996.html#a67920f2d166185534fde9e7fbfb2f490", null ],
-    [ "Update", "d4/db9/a25996.html#a7fc88ed86d65163caca4b4a671a40a34", null ],
-    [ "_passageEncounter", "d4/db9/a25996.html#aada6203e0926b21375b09c87631e5729", null ],
-    [ "_passageGUIDs", "d4/db9/a25996.html#a0876447f4010326722748b5d2f4e4eff", null ],
-    [ "_passageTimer", "d4/db9/a25996.html#aa6893f629a75f891967d80f3d5c3a9ce", null ],
-    [ "_pathaleonGUID", "d4/db9/a25996.html#aaf5c80af5ba2ba46b3c53ccffaaa1d3b", null ]
+    [ "npc_nether_drakeAI", "d4/db9/a25996.html#a82f2c29b380be95303e1558776ea2d88", null ],
+    [ "JustEngagedWith", "d4/db9/a25996.html#a5f20faa7f7007989298009b88b3ecbc8", null ],
+    [ "MoveInLineOfSight", "d4/db9/a25996.html#a9e122d4533155c926904a13e8534d32e", null ],
+    [ "MovementInform", "d4/db9/a25996.html#ae1f5248397b606b7872f05cfc929ac0d", null ],
+    [ "Reset", "d4/db9/a25996.html#acb03513dd67988e0961632846021a42d", null ],
+    [ "SpellHit", "d4/db9/a25996.html#a40f05363f38d71954c9fb8773c382444", null ],
+    [ "UpdateAI", "d4/db9/a25996.html#aa538d9d2ead26d6e085ecf62ec7d310f", null ],
+    [ "ArcaneBlast_Timer", "d4/db9/a25996.html#ace872917954f4978f3568d7ddecf22ad", null ],
+    [ "IntangiblePresence_Timer", "d4/db9/a25996.html#acecff3846090fa83c8fc43537d788501", null ],
+    [ "IsNihil", "d4/db9/a25996.html#a37c393101e0f9b07e20cc21beb80ba44", null ],
+    [ "ManaBurn_Timer", "d4/db9/a25996.html#ae6c33df878497d29d5f61234b048009d", null ],
+    [ "NihilSpeech_Phase", "d4/db9/a25996.html#a3e68f0fdb59ce6d8749b5d8629b7ec0b", null ],
+    [ "NihilSpeech_Timer", "d4/db9/a25996.html#a40d7584c68f5f6516eb9a7deaaad7c86", null ]
 ];

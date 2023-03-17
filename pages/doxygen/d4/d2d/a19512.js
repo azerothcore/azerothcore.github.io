@@ -1,7 +1,6 @@
 var a19512 =
 [
-    [ "npc_captain_arnathAI", "d4/d2d/a19512.html#a34e3d17b89010569bf7e9cb28361c2af", null ],
-    [ "FindFriendlyCreature", "d4/d2d/a19512.html#ad6411d2a87d2552bea2051f80ca16e14", null ],
-    [ "Reset", "d4/d2d/a19512.html#a016fbe51f31e1c5ec1636e8d20d8cb30", null ],
-    [ "UpdateAI", "d4/d2d/a19512.html#a020efd7adc0d60152007906e3229988d", null ]
+    [ "npc_crok_scourgebaneAI", "df/d94/a19516.html", "df/d94/a19516" ],
+    [ "npc_crok_scourgebane", "d4/d2d/a19512.html#a5f560e2c62aa618eadb5a11e2c9b90a3", null ],
+    [ "GetAI", "d4/d2d/a19512.html#afa4fcbb9d7281fbee3f8bc0f318d2e6b", null ]
 ];

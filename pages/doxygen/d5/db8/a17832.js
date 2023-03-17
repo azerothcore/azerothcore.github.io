@@ -1,6 +1,6 @@
 var a17832 =
 [
-    [ "spell_blood_queen_presence_of_the_darkfallen_SpellScript", "d3/d38/a17836.html", "d3/d38/a17836" ],
-    [ "spell_blood_queen_presence_of_the_darkfallen", "d5/db8/a17832.html#a18def55020fa379578ea51ed98091c28", null ],
-    [ "GetSpellScript", "d5/db8/a17832.html#a64bdaf9d7e90f62895c331f02c8d3368", null ]
+    [ "spell_blood_queen_essence_of_the_blood_queen_AuraScript", "d3/d38/a17836.html", "d3/d38/a17836" ],
+    [ "spell_blood_queen_essence_of_the_blood_queen", "d5/db8/a17832.html#a670974934398d5820c991eeb83394456", null ],
+    [ "GetAuraScript", "d5/db8/a17832.html#ad85457a9ee5028fcf4fbaf5d341e6922", null ]
 ];

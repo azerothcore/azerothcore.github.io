@@ -1,6 +1,6 @@
 var a21228 =
 [
-    [ "boss_freya_elder_stonebarkAI", "d8/d8d/a21232.html", "d8/d8d/a21232" ],
-    [ "boss_freya_elder_stonebark", "dd/da6/a21228.html#a9c90c504d78456580ae657a42fac4075", null ],
-    [ "GetAI", "dd/da6/a21228.html#a0b529bb8755c56046c40b620ef4b7448", null ]
+    [ "achievement_flame_leviathan_towers", "dd/da6/a21228.html#a491d66bdd373b6044e406126719ef910", null ],
+    [ "OnCheck", "dd/da6/a21228.html#ad6e9dee3f05afaca0a355b714bf75ea6", null ],
+    [ "_towerCount", "dd/da6/a21228.html#a1099385340b30a1a75655e2e7d2ba3cc", null ]
 ];

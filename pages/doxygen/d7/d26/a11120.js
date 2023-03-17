@@ -1,6 +1,6 @@
 var a11120 =
 [
-    [ "npc_av_marshal_or_warmasterAI", "d9/de5/a11124.html", "d9/de5/a11124" ],
-    [ "npc_av_marshal_or_warmaster", "d7/d26/a11120.html#a7ffc93248d66d50d5d75d1fcf1f907ee", null ],
-    [ "GetAI", "d7/d26/a11120.html#a295eee4baef6a53cf291fdf155cfdf4a", null ]
+    [ "player_settings_commandscript", "d7/d26/a11120.html#ab8585064d4d358d7d48eed97379a3a78", null ],
+    [ "GetCommands", "d7/d26/a11120.html#ae545918310d22b4e66e4a668bbb7ba58", null ],
+    [ "HandleSettingsAnnouncerFlags", "d7/d26/a11120.html#af505117caa66ed4222e52ff91c486b6e", null ]
 ];

@@ -1,15 +1,14 @@
 var a12056 =
 [
-    [ "netherspite_infernalAI", "d5/d49/a12056.html#a7a488858b37f584d5f51a84bfc072157", null ],
-    [ "DamageTaken", "d5/d49/a12056.html#aee1ab08bc1535f918a6dc6e00287837f", null ],
-    [ "EnterCombat", "d5/d49/a12056.html#a4ad26e9b1c28c7c923e3646c9ddf37dc", null ],
-    [ "KilledUnit", "d5/d49/a12056.html#ac8cfa331b7a05465a475c764d5a313fc", null ],
-    [ "MoveInLineOfSight", "d5/d49/a12056.html#aa278d92dd858a773605d99d02abcdaee", null ],
-    [ "Reset", "d5/d49/a12056.html#a8a0811735b9f2d5cf0dbd6fbd342246a", null ],
-    [ "SpellHit", "d5/d49/a12056.html#ac822aa4bd28f7dfd61bf60ea3a8d2b77", null ],
-    [ "UpdateAI", "d5/d49/a12056.html#a1a0e00fe034769bbb6888803e544e5bb", null ],
-    [ "CleanupTimer", "d5/d49/a12056.html#affcbe2812c3a31a70ab6145e024d3fc7", null ],
-    [ "HellfireTimer", "d5/d49/a12056.html#ab484ccf37a48145a1663a66ab50a6366", null ],
-    [ "malchezaar", "d5/d49/a12056.html#a59cca66f13f4e6c408576a4b9005a3cb", null ],
-    [ "point", "d5/d49/a12056.html#a68e785d69b015f3d8809ae8f9d52f8eb", null ]
+    [ "boss_midnightAI", "d5/d49/a12056.html#afb36d8a792c435c7b420c8074bbfccc9", null ],
+    [ "CanMeleeHit", "d5/d49/a12056.html#a68cd3c2b2ced16a1d8c7b6341f1f5a1e", null ],
+    [ "DamageTaken", "d5/d49/a12056.html#ac482ed7db1def851e4fbb5f37d0b5513", null ],
+    [ "DoAction", "d5/d49/a12056.html#a8698d861b6e16f38ae671c025bb8284c", null ],
+    [ "EnterEvadeMode", "d5/d49/a12056.html#ab69327bed3942771c7c2437c88593b35", null ],
+    [ "JustEngagedWith", "d5/d49/a12056.html#a8de0d99474e5e17b042b2aeede438527", null ],
+    [ "JustSummoned", "d5/d49/a12056.html#a4a37d84b7a0b8470ffc570884f11a66a", null ],
+    [ "KilledUnit", "d5/d49/a12056.html#af696710fd0dcf5fbf3b9653f42c845f6", null ],
+    [ "Reset", "d5/d49/a12056.html#afba147b32e6f09dac1db7e53fc8f4bb5", null ],
+    [ "UpdateAI", "d5/d49/a12056.html#a751459e2697a39cf0842a2b3e1c8cc06", null ],
+    [ "_phase", "d5/d49/a12056.html#a1f09051a3e2697da62491da5d553cc10", null ]
 ];

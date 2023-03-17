@@ -1,5 +1,6 @@
 var a10296 =
 [
-    [ "PacketHandler", "db/def/a10296.html#a7ca20eda3de42ab35ef45c56f1d6d73e", null ],
-    [ "Call", "db/def/a10296.html#a42ac77b81d5280c7f1c54991649ab501", null ]
+    [ "PetLearnedSpell", "db/def/a10296.html#a5d105cca08515b9550998f2c86b13a1a", null ],
+    [ "Write", "db/def/a10296.html#a6fd7d4bc907b0bb78c438e6a9159dc69", null ],
+    [ "SpellID", "db/def/a10296.html#a6ab11b614f13d518a2a007adfbe00ab7", null ]
 ];

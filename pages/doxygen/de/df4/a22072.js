@@ -1,6 +1,7 @@
 var a22072 =
 [
-    [ "PrepareSpellScript", "de/df4/a22072.html#afcadab50ddf14a4ce6b09aaf1ded822e", null ],
-    [ "Register", "de/df4/a22072.html#a085a083a8a496b6b22c0ec1f0a46fe29", null ],
-    [ "SelectTarget", "de/df4/a22072.html#ad156fe6ea8d0ee320a62105e7e62284c", null ]
+    [ "OnPeriodic", "de/df4/a22072.html#abcada8e91ea16ca5a6c619e0952d0761", null ],
+    [ "OnRemove", "de/df4/a22072.html#a0ed6348923f94fe03ccdd7408f11a72f", null ],
+    [ "PrepareAuraScript", "de/df4/a22072.html#a401fb258247ce4da3b4772d2af628fef", null ],
+    [ "Register", "de/df4/a22072.html#ac73c96f04c8c11a23dafd293bfa5654d", null ]
 ];

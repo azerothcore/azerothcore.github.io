@@ -1,7 +1,9 @@
 var a16108 =
 [
-    [ "npc_baltharus_the_warborn_cloneAI", "dd/d4a/a16108.html#aed531e61508d4d404827f47c6348a5e6", null ],
-    [ "EnterCombat", "dd/d4a/a16108.html#a7425f1fe9144e8e9ef3b28d7ce829733", null ],
-    [ "UpdateAI", "dd/d4a/a16108.html#ab0c1cf041146a3e16a33986e3e824a2d", null ],
-    [ "_events", "dd/d4a/a16108.html#a6e2819f73f0fccd02b7188f0e6f1ffa9", null ]
+    [ "HandleDummy", "dd/d4a/a16108.html#ad71fa87cafc863b76f52b23274543bbf", null ],
+    [ "HandleSchoolDamage", "dd/d4a/a16108.html#a0f6799f7785949b74c5d0a87679ef35c", null ],
+    [ "Load", "dd/d4a/a16108.html#a92848e913e6b734759c6e5f19234f716", null ],
+    [ "PrepareSpellScript", "dd/d4a/a16108.html#acee71f1f3b935353bd49f69eb57046e9", null ],
+    [ "Register", "dd/d4a/a16108.html#aa5c8f2243446a4748440fe07d8de2ae9", null ],
+    [ "spawned", "dd/d4a/a16108.html#abd9ca283bbb0a01a3c34fb7382adb6d5", null ]
 ];

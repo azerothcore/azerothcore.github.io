@@ -1,10 +1,10 @@
 var a12152 =
 [
-    [ "npc_titoAI", "d8/d50/a12152.html#a9430fdd57c7bc431702c4710e541f700", null ],
-    [ "EnterCombat", "d8/d50/a12152.html#ada3b27d1769aa1e17c2058f83260b070", null ],
-    [ "JustDied", "d8/d50/a12152.html#a2b09dc852162e88efff1cdf19c7ad370", null ],
-    [ "Reset", "d8/d50/a12152.html#a3b08f5b2491caba7530d69b071f80c19", null ],
-    [ "UpdateAI", "d8/d50/a12152.html#af4ca8826345e529bba2ec24fccf13c4d", null ],
-    [ "DorotheeGUID", "d8/d50/a12152.html#a42160f265896ad16bae87e36fa7fc9ce", null ],
-    [ "YipTimer", "d8/d50/a12152.html#a0e2c863daa17c9ecd563ed4efb2a37a1", null ]
+    [ "npc_demon_chainAI", "d8/d50/a12152.html#a9c2437dd24a4e8dbc312765dc46f8c43", null ],
+    [ "AttackStart", "d8/d50/a12152.html#a1b86fc337a33995a8941f20493c150fb", null ],
+    [ "JustDied", "d8/d50/a12152.html#a2fd2b54e7008036a7f105a18c5e35b47", null ],
+    [ "JustEngagedWith", "d8/d50/a12152.html#a08735ff2aaaf5bd81290143ce88980c5", null ],
+    [ "MoveInLineOfSight", "d8/d50/a12152.html#a553904a4ed2dcd181a26b2c6609752f7", null ],
+    [ "Reset", "d8/d50/a12152.html#a539df16e5596afda0e189734fa8f7557", null ],
+    [ "SacrificeGUID", "d8/d50/a12152.html#a3432d554ef434caff958183e39594100", null ]
 ];

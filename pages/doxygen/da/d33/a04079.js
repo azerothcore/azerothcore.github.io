@@ -1,29 +1,10 @@
 var a04079 =
 [
-    [ "TheEyeScriptName", "da/d33/a04079.html#a715610ea7ac0b366db509638136446dc", null ],
-    [ "EyeData", "da/d33/a04079.html#aeff27095b590ff4ec45857b5b09879a3", [
-      [ "DATA_ALAR", "da/d33/a04079.html#aeff27095b590ff4ec45857b5b09879a3a66655c20f692a6d808496086aa954bea", null ],
-      [ "DATA_ASTROMANCER", "da/d33/a04079.html#aeff27095b590ff4ec45857b5b09879a3ae1fb90732fdb89170e0805914fa500b9", null ],
-      [ "DATA_REAVER", "da/d33/a04079.html#aeff27095b590ff4ec45857b5b09879a3a2a5e1f51e98d708c07843e2dacf7007f", null ],
-      [ "DATA_KAELTHAS", "da/d33/a04079.html#aeff27095b590ff4ec45857b5b09879a3a9459cb9bb83f7a23115debb607cb25a3", null ],
-      [ "MAX_ENCOUNTER", "da/d33/a04079.html#aeff27095b590ff4ec45857b5b09879a3a7913656ef56deb3793c0c5f3d999d80d", null ],
-      [ "DATA_KAEL_ADVISOR1", "da/d33/a04079.html#aeff27095b590ff4ec45857b5b09879a3a5ade50477a487bc0c98429c8b18ca49e", null ],
-      [ "DATA_KAEL_ADVISOR2", "da/d33/a04079.html#aeff27095b590ff4ec45857b5b09879a3acda0261cf027de3497f5778c9bd22e2e", null ],
-      [ "DATA_KAEL_ADVISOR3", "da/d33/a04079.html#aeff27095b590ff4ec45857b5b09879a3afa5ade3cd7b05d3e399edcadd64b9638", null ],
-      [ "DATA_KAEL_ADVISOR4", "da/d33/a04079.html#aeff27095b590ff4ec45857b5b09879a3ad41bec663331e079e217236824e14169", null ]
-    ] ],
-    [ "EyeGOs", "da/d33/a04079.html#abd7b2582f2ee738e1a53e2e92a6f654a", [
-      [ "GO_BRIDGE_WINDOW", "da/d33/a04079.html#abd7b2582f2ee738e1a53e2e92a6f654aad04c2fe3d81625ee29aedd4d709a4697", null ],
-      [ "GO_KAEL_STATUE_RIGHT", "da/d33/a04079.html#abd7b2582f2ee738e1a53e2e92a6f654aaf07783e681473fb9f52dc50b03b64311", null ],
-      [ "GO_KAEL_STATUE_LEFT", "da/d33/a04079.html#abd7b2582f2ee738e1a53e2e92a6f654aa9e1eee49e78e1e8cd177e9426ee1661d", null ]
-    ] ],
-    [ "EyeNPCs", "da/d33/a04079.html#a98f711e2be2bce9d46cfe27d8755ec80", [
-      [ "NPC_ALAR", "da/d33/a04079.html#a98f711e2be2bce9d46cfe27d8755ec80ab6eed3856fd4b4cd6397c3c87b1005c8", null ],
-      [ "NPC_KAELTHAS", "da/d33/a04079.html#a98f711e2be2bce9d46cfe27d8755ec80a3d3f4ffdbd8e886f3c232368fb4245b4", null ],
-      [ "NPC_THALADRED", "da/d33/a04079.html#a98f711e2be2bce9d46cfe27d8755ec80a7cde7fc8bff2cb085f1b995f6a970708", null ],
-      [ "NPC_LORD_SANGUINAR", "da/d33/a04079.html#a98f711e2be2bce9d46cfe27d8755ec80ac8af45bb65099dd8c9f13b621a15548b", null ],
-      [ "NPC_CAPERNIAN", "da/d33/a04079.html#a98f711e2be2bce9d46cfe27d8755ec80a537a4c939a96c3ee07e1ff7f60218696", null ],
-      [ "NPC_TELONICUS", "da/d33/a04079.html#a98f711e2be2bce9d46cfe27d8755ec80a17c6b5b4f2493d2542833fbec1139a74", null ]
-    ] ],
-    [ "GetTheEyeAI", "da/d33/a04079.html#a8a7e802cde8810f3be593a9ec0ba1e57", null ]
+    [ "instance_the_botanica", "d9/dce/a25680.html", "d9/dce/a25680" ],
+    [ "instance_the_botanica::instance_the_botanica_InstanceMapScript", "dc/df0/a25684.html", "dc/df0/a25684" ],
+    [ "spell_botanica_call_of_the_falcon", "d9/d35/a25688.html", "d9/d35/a25688" ],
+    [ "spell_botanica_call_of_the_falcon::spell_botanica_call_of_the_falcon_AuraScript", "d7/d25/a25692.html", "d7/d25/a25692" ],
+    [ "spell_botanica_shift_form", "d5/db9/a25696.html", "d5/db9/a25696" ],
+    [ "spell_botanica_shift_form::spell_botanica_shift_form_AuraScript", "d1/df8/a25700.html", "d1/df8/a25700" ],
+    [ "AddSC_instance_the_botanica", "da/d33/a04079.html#a42bac8d93a9aac296390fec4cb6b94cb", null ]
 ];

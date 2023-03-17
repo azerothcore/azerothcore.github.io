@@ -1,6 +1,6 @@
 var a26432 =
 [
-    [ "HandleEffectRemove", "de/d2c/a26432.html#a1ab1da78172540269cabcaad674dae10", null ],
-    [ "PrepareAuraScript", "de/d2c/a26432.html#a2f260423ca5f957f3f31e7af5cd26adc", null ],
-    [ "Register", "de/d2c/a26432.html#a9d8e4704992c5cc150c0914cac1fbd80", null ]
+    [ "npc_slim", "de/d2c/a26432.html#aa227fbe22126bed821939873973e6a20", null ],
+    [ "OnGossipHello", "de/d2c/a26432.html#a34dafb9f3a82c1d2f52a95436345dd0b", null ],
+    [ "OnGossipSelect", "de/d2c/a26432.html#a426963b7bf831a3b5a75dcf0629917a9", null ]
 ];

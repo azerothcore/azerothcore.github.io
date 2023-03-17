@@ -1,6 +1,6 @@
 var a22324 =
 [
-    [ "spell_yogg_saron_empowering_shadows_SpellScript", "d8/dd7/a22328.html", "d8/dd7/a22328" ],
-    [ "spell_yogg_saron_empowering_shadows", "db/deb/a22324.html#a6204dd963111b21490ae06d121fec1e6", null ],
-    [ "GetSpellScript", "db/deb/a22324.html#a860f4c74925de8e7a23dd0a4409e179b", null ]
+    [ "spell_yogg_saron_insane_AuraScript", "d8/dd7/a22328.html", "d8/dd7/a22328" ],
+    [ "spell_yogg_saron_insane", "db/deb/a22324.html#ab34ed9de34999f6673588258fbc0fb10", null ],
+    [ "GetAuraScript", "db/deb/a22324.html#a42ff92cce4e4ae398fcab4d39853407b", null ]
 ];

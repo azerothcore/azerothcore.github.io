@@ -1,5 +1,6 @@
 var a25088 =
 [
-    [ "go_strange_pool", "d1/d4c/a25088.html#aa44feb353ad1cb440e5b6707112af680", null ],
-    [ "OnGossipHello", "d1/d4c/a25088.html#a5a2ee56e277b062e6b4757cb8b8b09a0", null ]
+    [ "OnPeriodic", "d1/d4c/a25088.html#a8ff6b401334bd88a7ca23dcc660ae066", null ],
+    [ "PrepareAuraScript", "d1/d4c/a25088.html#a8cb7f30ba0772267941871f6c49f5ac0", null ],
+    [ "Register", "d1/d4c/a25088.html#a88b11a5a819e7656e4151edc5de61d7f", null ]
 ];

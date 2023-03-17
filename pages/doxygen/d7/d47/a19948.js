@@ -1,6 +1,6 @@
 var a19948 =
 [
-    [ "spell_four_horsemen_mark_AuraScript", "da/d4d/a19952.html", "da/d4d/a19952" ],
-    [ "spell_four_horsemen_mark", "d7/d47/a19948.html#a7b2410b1b7e294e572ecf6a738a90add", null ],
-    [ "GetAuraScript", "d7/d47/a19948.html#a6b0e20052974ddaa8d4d165771dd6c7c", null ]
+    [ "boss_anubrekhanAI", "da/d4d/a19952.html", "da/d4d/a19952" ],
+    [ "boss_anubrekhan", "d7/d47/a19948.html#a6ff866300f8b0b58d4b7467def9747c0", null ],
+    [ "GetAI", "d7/d47/a19948.html#aba5c31f182d6f600302f84ed21e9f7e9", null ]
 ];

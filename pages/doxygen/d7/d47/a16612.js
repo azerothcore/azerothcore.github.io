@@ -1,7 +1,7 @@
 var a16612 =
 [
-    [ "npc_toc_mageAI", "d7/d47/a16612.html#a188831088c892f68cef7498468b24899", null ],
-    [ "myCanCast", "d7/d47/a16612.html#aaf7fd7b143a4eb410465c7cb34c32d2f", null ],
-    [ "UpdateAI", "d7/d47/a16612.html#a0f4393341a6c565aef2c0b79a39c0699", null ],
-    [ "events", "d7/d47/a16612.html#ab1910ce98f3d1b14e45acba22782d536", null ]
+    [ "npc_toc_paladinAI", "d7/d47/a16612.html#a025d39c04e864ebd77f4f930ec20b1e5", null ],
+    [ "myCanCast", "d7/d47/a16612.html#a06130e6e440d0b25d8b5566de6190cbc", null ],
+    [ "UpdateAI", "d7/d47/a16612.html#a32943f1c3ffd0239c85ac1b81786f049", null ],
+    [ "events", "d7/d47/a16612.html#ae47a32bbb05cf2f634ae18bc672ec004", null ]
 ];

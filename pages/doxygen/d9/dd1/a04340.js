@@ -1,5 +1,5 @@
 var a04340 =
 [
-    [ "_CRT_SECURE_NO_DEPRECATE", "d9/dd1/a04340.html#a411c46599e926f8cdf49c63957255359", null ],
-    [ "MverMagic", "d9/dd1/a04340.html#a076cdc3e61f69e52913492840fc864cf", null ]
+    [ "WorldMock", "dc/d03/a30440.html", "dc/d03/a30440" ],
+    [ "AddScripts", "d9/dd1/a04340.html#abb65cb085124c346fd32ac4b92f0baa9", null ]
 ];

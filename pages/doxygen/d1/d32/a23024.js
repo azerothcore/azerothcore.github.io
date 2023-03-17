@@ -1,7 +1,6 @@
 var a23024 =
 [
-    [ "npc_mootoo_the_youngerAI", "d1/d32/a23024.html#a70a5a502dab9a90a790a90eabc5c3acd", null ],
-    [ "JustDied", "d1/d32/a23024.html#a766612f646a6d22d3f0e6f93298e34bc", null ],
-    [ "Reset", "d1/d32/a23024.html#a04624b9b4d552d6b27308edc3ad44644", null ],
-    [ "WaypointReached", "d1/d32/a23024.html#ac758a992ed0d62a272930c84d617b348", null ]
+    [ "spell_arcane_chains_character_force_cast_SpellScript", "dc/d84/a23028.html", "dc/d84/a23028" ],
+    [ "spell_arcane_chains_character_force_cast", "d1/d32/a23024.html#a1abd655363d42bfdceeb195f05bb5675", null ],
+    [ "GetSpellScript", "d1/d32/a23024.html#a8ccf7964187a569f9cccb5fe51e2248d", null ]
 ];

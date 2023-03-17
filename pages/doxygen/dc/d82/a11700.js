@@ -1,5 +1,6 @@
 var a11700 =
 [
-    [ "at_orb_of_command", "dc/d82/a11700.html#a1f0b196362b76e050eba66d3ce612623", null ],
-    [ "OnTrigger", "dc/d82/a11700.html#a8d30d303c72d5eaf59222c890ab13ca3", null ]
+    [ "boss_razorgoreAI", "d3/d0b/a11704.html", "d3/d0b/a11704" ],
+    [ "boss_razorgore", "dc/d82/a11700.html#aee534a04797c5938e6da00f2ab119943", null ],
+    [ "GetAI", "dc/d82/a11700.html#a4683a5deefdb9d3219638189e9a99c2a", null ]
 ];

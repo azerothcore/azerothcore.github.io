@@ -1,9 +1,10 @@
 var a30676 =
 [
-    [ "WDT_file", "de/df7/a30676.html#afa32849d31abde3cb2c9f3b558816368", null ],
-    [ "~WDT_file", "de/df7/a30676.html#a29bf710b8346204eb848017450afebe1", null ],
-    [ "free", "de/df7/a30676.html#aee6c7e1e402cf986e754753c5e8aee72", null ],
-    [ "prepareLoadedData", "de/df7/a30676.html#add675f96f010e67ca1df01b029c9ebfb", null ],
-    [ "main", "de/df7/a30676.html#a89ddf5d1527ac16a5d05790769d266b3", null ],
-    [ "mphd", "de/df7/a30676.html#a1d216a266e5e6390e9bd2e02c9d3c7f2", null ]
+    [ "WDTFile", "de/df7/a30676.html#a10c133d9b2f8d39cb6c2b3d8c2791b78", null ],
+    [ "~WDTFile", "de/df7/a30676.html#a445fe73204fd378e2b63a83d9f5dca0a", null ],
+    [ "GetMap", "de/df7/a30676.html#aa952c5bfe52a1aa851984a7e6dc963c9", null ],
+    [ "init", "de/df7/a30676.html#a91a33f89cae35254f52e8c4f1c33e2cb", null ],
+    [ "_file", "de/df7/a30676.html#a54ab64288144b9cf4904e67bb359e524", null ],
+    [ "_wmoNames", "de/df7/a30676.html#a6ec4f95ff866585403670b620a42a857", null ],
+    [ "filename", "de/df7/a30676.html#ab3dac8623598bac1152a514a00126bf6", null ]
 ];

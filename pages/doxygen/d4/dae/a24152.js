@@ -1,18 +1,14 @@
 var a24152 =
 [
-    [ "OutdoorPvPZM", "d4/dae/a24152.html#a8351867658985b66dd97f39e68c16b94", null ],
-    [ "FillInitialWorldStates", "d4/dae/a24152.html#a25624d1acd33ea71007aa8073e01a132", null ],
-    [ "GetAllianceTowersControlled", "d4/dae/a24152.html#a58320dcfca7519ab2a7160bb1f875a9b", null ],
-    [ "GetHordeTowersControlled", "d4/dae/a24152.html#a98bfdd944bc51f9ed30b74e1cf3217b5", null ],
-    [ "HandleKillImpl", "d4/dae/a24152.html#a6cd61b99305a2838261e36652fda42b1", null ],
-    [ "HandlePlayerEnterZone", "d4/dae/a24152.html#a8c0eb1c295f389273cf2b2c7b35c9538", null ],
-    [ "HandlePlayerLeaveZone", "d4/dae/a24152.html#a93105e3229db7798ad882fc7e538b250", null ],
-    [ "SendRemoveWorldStates", "d4/dae/a24152.html#aba24e6285ac45dd0594f557d5830ba7c", null ],
-    [ "SetAllianceTowersControlled", "d4/dae/a24152.html#ab7e230cfa2f06fa450ca40c381491c85", null ],
-    [ "SetHordeTowersControlled", "d4/dae/a24152.html#a27239875476bbce8ff18b30cdfe6815b", null ],
-    [ "SetupOutdoorPvP", "d4/dae/a24152.html#a7e71d2c2480da1a2d155981999201b99", null ],
-    [ "Update", "d4/dae/a24152.html#acd93bd13cf330ec86dde30ff9c6306de", null ],
-    [ "m_AllianceTowersControlled", "d4/dae/a24152.html#aff4124f54572e0812c39562fbc6390c3", null ],
-    [ "m_GraveYard", "d4/dae/a24152.html#ae0c3a1c02e364d63f1579c368fe7df8e", null ],
-    [ "m_HordeTowersControlled", "d4/dae/a24152.html#ad5609bc0c13d193d16560045aa4b0c71", null ]
+    [ "OPvPCapturePointTF", "d4/dae/a24152.html#af71fd9e2b7cdfa8c4a352bb5f4ce3d33", null ],
+    [ "ChangeState", "d4/dae/a24152.html#aa1e2611ef1b260ab363fd2645de142b0", null ],
+    [ "FillInitialWorldStates", "d4/dae/a24152.html#ad8ec5b055da6a7d34b8db0e8a75e65c8", null ],
+    [ "HandlePlayerEnter", "d4/dae/a24152.html#ae73763b63f5c1522c9b9c5950a6e5dfe", null ],
+    [ "HandlePlayerLeave", "d4/dae/a24152.html#ace20d19311478a136ae0b75016c36ea8", null ],
+    [ "ResetToTeamControlled", "d4/dae/a24152.html#a7ad637f6a4005da3166601dafda52d1b", null ],
+    [ "SendChangePhase", "d4/dae/a24152.html#a16efee78249e510e211b18694ea868f2", null ],
+    [ "Update", "d4/dae/a24152.html#a15b0758d901bf98f65fa2ee87bb4b401", null ],
+    [ "UpdateTowerState", "d4/dae/a24152.html#a3f6cbfddd3322e3d948a1330cfa0e4d8", null ],
+    [ "m_TowerState", "d4/dae/a24152.html#a74e1c07d3186fb6ba54b65efa9700989", null ],
+    [ "m_TowerType", "d4/dae/a24152.html#ace7e183b6dd438b9649e9ee60c6d00e2", null ]
 ];

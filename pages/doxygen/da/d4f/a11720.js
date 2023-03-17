@@ -1,6 +1,6 @@
 var a11720 =
 [
-    [ "spell_geddon_armageddon_AuraScript", "d4/d3f/a11724.html", "d4/d3f/a11724" ],
-    [ "spell_geddon_armageddon", "da/d4f/a11720.html#a12dc1b7c7c8ef297910f3823a14c6e97", null ],
-    [ "GetAuraScript", "da/d4f/a11720.html#a09c7793af09fa802452d9ea32519b340", null ]
+    [ "boss_vaelAI", "d4/d3f/a11724.html", "d4/d3f/a11724" ],
+    [ "boss_vaelastrasz", "da/d4f/a11720.html#a0b51f3b50cde4907bd9064e8bf51c005", null ],
+    [ "GetAI", "da/d4f/a11720.html#a42dde198f5fc0ab2e7ca28ac32c42b7e", null ]
 ];

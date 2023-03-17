@@ -1,6 +1,6 @@
 var a23824 =
 [
-    [ "npc_roxi_ramrocket", "d8/daf/a23824.html#af7f6bf6d5f8fc468abe62605f205571b", null ],
-    [ "OnGossipHello", "d8/daf/a23824.html#adec28f778921246c56f11d09753e566e", null ],
-    [ "OnGossipSelect", "d8/daf/a23824.html#a46a9898cb4b29808f9e911c03b5759cb", null ]
+    [ "npc_wild_wyrmAI", "d2/d36/a23828.html", "d2/d36/a23828" ],
+    [ "npc_wild_wyrm", "d8/daf/a23824.html#abce8c3a368e75b4be5e05381f9eb722b", null ],
+    [ "GetAI", "d8/daf/a23824.html#aedba91446fe12997047070f123d925d2", null ]
 ];

@@ -1,6 +1,6 @@
 var a26364 =
 [
-    [ "npc_shadowmoon_tuber_nodeAI", "d7/d80/a26368.html", "d7/d80/a26368" ],
-    [ "npc_shadowmoon_tuber_node", "de/d09/a26364.html#a98e8c7a84789457900fa342cca209d41", null ],
-    [ "GetAI", "de/d09/a26364.html#a5f641af77e2fd78fe67b34fa18bf6b73", null ]
+    [ "spell_q10923_evil_draws_near_summon_SpellScript", "d7/d80/a26368.html", "d7/d80/a26368" ],
+    [ "spell_q10923_evil_draws_near_summon", "de/d09/a26364.html#aa8556fb81c03758be47b2fea4d7e830e", null ],
+    [ "GetSpellScript", "de/d09/a26364.html#aa7944354a749349b133b6a1104ef3c6c", null ]
 ];

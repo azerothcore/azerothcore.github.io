@@ -1,6 +1,7 @@
 var a27564 =
 [
-    [ "CheckCast", "d8/d9a/a27564.html#a849de7a9bc8d22ca1556e4e798807eaa", null ],
-    [ "PrepareSpellScript", "d8/d9a/a27564.html#aadbfe7c69dac7cbc76aee2bfb790b612", null ],
-    [ "Register", "d8/d9a/a27564.html#a2ca1fd7353e69d1028b8a9b2882d7931", null ]
+    [ "CalculateDamageAmount", "d8/d9a/a27564.html#a2f608e8391e61434ef1b164c023854fe", null ],
+    [ "CalculateManaLeechAmount", "d8/d9a/a27564.html#a8a4946d1718d8045a72c92355ff38ecb", null ],
+    [ "PrepareAuraScript", "d8/d9a/a27564.html#a63d24d3ca4b2de1aa7f67376ded7bc59", null ],
+    [ "Register", "d8/d9a/a27564.html#aa6e74e89930fd3cc564c3cba86e3687e", null ]
 ];

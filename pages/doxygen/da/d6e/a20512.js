@@ -1,6 +1,7 @@
 var a20512 =
 [
-    [ "HandleEffectCalcAmount", "da/d6e/a20512.html#a204f40b6f89b4e91c3dacde1872df3dd", null ],
-    [ "PrepareAuraScript", "da/d6e/a20512.html#ac1531a1fc8c3f9e1a96c52905d61c219", null ],
-    [ "Register", "da/d6e/a20512.html#aa3c64f6ea6e8cc99ff9978c820530fb1", null ]
+    [ "CalcDamage", "da/d6e/a20512.html#ab676119d2120f53a9d9d7a14725a2c6d", null ],
+    [ "PrepareSpellScript", "da/d6e/a20512.html#aa76051d7076f64013fde65d1e2747c0b", null ],
+    [ "Register", "da/d6e/a20512.html#a93eaa58abef2da183f9ad9273623690a", null ],
+    [ "Validate", "da/d6e/a20512.html#aa76bff752ba0ebbc81d634508de8db2c", null ]
 ];

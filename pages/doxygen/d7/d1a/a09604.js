@@ -1,15 +1,10 @@
 var a09604 =
 [
-    [ "MapScript", "d7/d1a/a09604.html#a1932ac48acf7c937c060ee35804e79da", null ],
-    [ "checkMap", "d7/d1a/a09604.html#abf3fbb90119e1ac5d13455217ac95a2f", null ],
-    [ "GetEntry", "d7/d1a/a09604.html#aa2da3eeec627cb67719d774d35f03488", null ],
-    [ "OnCreate", "d7/d1a/a09604.html#a8132edffb918e8b3b1131ae29a8d9e9b", null ],
-    [ "OnDestroy", "d7/d1a/a09604.html#a4631768d457c2804f057c565d6e8fb7a", null ],
-    [ "OnLoadGridMap", "d7/d1a/a09604.html#ad8c32f3761a83f24b092cf4ab43d416c", null ],
-    [ "OnPlayerEnter", "d7/d1a/a09604.html#a9cef8253d591e729b4119312ec0b670a", null ],
-    [ "OnPlayerLeave", "d7/d1a/a09604.html#a3d74ae0f2535cda31cf2d4125600f3e2", null ],
-    [ "OnUnloadGridMap", "d7/d1a/a09604.html#a3b2e87c4a0ffdbf848c988a5d688d626", null ],
-    [ "OnUpdate", "d7/d1a/a09604.html#a4e447511780a0c561e16b9e118361f63", null ],
-    [ "_mapEntry", "d7/d1a/a09604.html#a280ca8d9bfa672c10d34a99db53d2959", null ],
-    [ "_mapId", "d7/d1a/a09604.html#a1cbe9ae08f6e1c129df8d2277366eb1a", null ]
+    [ "QuestStatusData", "d7/d1a/a09604.html#ae71725a7f75e10aacb6f4a9ca4b72f27", null ],
+    [ "CreatureOrGOCount", "d7/d1a/a09604.html#aa5892dc0744a41ac565568307f12ad35", null ],
+    [ "Explored", "d7/d1a/a09604.html#a734f6a61aa35c77689d33031e88f0c0b", null ],
+    [ "ItemCount", "d7/d1a/a09604.html#a466999cea52f65bf58916bc34750bf95", null ],
+    [ "PlayerCount", "d7/d1a/a09604.html#a170a1e54fe45b7fd0c7934f1309f7969", null ],
+    [ "Status", "d7/d1a/a09604.html#a4ce7af3a64737d7961b6dfa19189c932", null ],
+    [ "Timer", "d7/d1a/a09604.html#a16343f7a162e5b7b6a1a18345420c77a", null ]
 ];

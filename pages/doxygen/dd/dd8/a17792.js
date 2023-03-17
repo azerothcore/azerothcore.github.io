@@ -1,6 +1,7 @@
 var a17792 =
 [
-    [ "spell_blood_queen_bloodbolt_SpellScript", "d0/d53/a17796.html", "d0/d53/a17796" ],
-    [ "spell_blood_queen_bloodbolt", "dd/dd8/a17792.html#a5a095527d4d3b5ebf877066cf7c960d0", null ],
-    [ "GetSpellScript", "dd/dd8/a17792.html#a9405a970df2eb4d18d1b656b5101347d", null ]
+    [ "PeriodicTick", "dd/dd8/a17792.html#a298499e2906e5d5510d013bf863151c5", null ],
+    [ "PrepareAuraScript", "dd/dd8/a17792.html#abcf85deb3769ec92e0ef863450af0f9f", null ],
+    [ "Register", "dd/dd8/a17792.html#a65f8888efc74b2e465270b51e6faea86", null ],
+    [ "Validate", "dd/dd8/a17792.html#a9b97495321491d304bda48f4737aedd2", null ]
 ];

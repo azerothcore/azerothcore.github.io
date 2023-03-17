@@ -1,6 +1,6 @@
 var a19716 =
 [
-    [ "npc_icc_skybreaker_marksmanAI", "dd/d91/a19720.html", "dd/d91/a19720" ],
-    [ "npc_icc_skybreaker_marksman", "db/d39/a19716.html#a1d870b78e1acf2d17782265e28698d1c", null ],
-    [ "GetAI", "db/d39/a19716.html#a374017d37da15705d51ab8edc75683ff", null ]
+    [ "spell_icc_yd_summon_undead_SpellScript", "dd/d91/a19720.html", "dd/d91/a19720" ],
+    [ "spell_icc_yd_summon_undead", "db/d39/a19716.html#ae1bb770bfaf615ea03561a23120840d8", null ],
+    [ "GetSpellScript", "db/d39/a19716.html#a3f475cec54cbd2e0a2195c2bdbae5db0", null ]
 ];

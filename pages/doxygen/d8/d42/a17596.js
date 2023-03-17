@@ -1,5 +1,6 @@
 var a17596 =
 [
-    [ "achievement_snakes_whyd_it_have_to_be_snakes", "d8/d42/a17596.html#a4245e53260b83f77f9b4313e13f1f7d3", null ],
-    [ "OnCheck", "d8/d42/a17596.html#a1bc62ef6dbdb98b9ca8ea3f3bfc742b0", null ]
+    [ "HandlePeriodic", "d8/d42/a17596.html#a8b86f83b34a96a434094383ac02a8b98", null ],
+    [ "PrepareAuraScript", "d8/d42/a17596.html#a04cdb886fe47412e56dba995a481802c", null ],
+    [ "Register", "d8/d42/a17596.html#a31015d417968723ef1db3c7799ca9f1d", null ]
 ];

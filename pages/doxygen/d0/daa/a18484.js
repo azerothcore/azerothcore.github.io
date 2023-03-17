@@ -1,6 +1,6 @@
 var a18484 =
 [
-    [ "HandleDummy", "d0/daa/a18484.html#af9387c002579ab95bdda7395f399d84d", null ],
-    [ "PrepareSpellScript", "d0/daa/a18484.html#a44de886e5ac955b90fb363adcaacadcd", null ],
-    [ "Register", "d0/daa/a18484.html#aa3405cafd56167c1aad79e3c4412eacc", null ]
+    [ "FilterTargets", "d0/daa/a18484.html#a07eaa43c909f9d4afca2c90987b6be57", null ],
+    [ "PrepareSpellScript", "d0/daa/a18484.html#a60ab39b8f4bfe0903faf1a8fd1210b22", null ],
+    [ "Register", "d0/daa/a18484.html#ac55d048657610abb413698d73f42f423", null ]
 ];

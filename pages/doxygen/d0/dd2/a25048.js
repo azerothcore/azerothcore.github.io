@@ -1,6 +1,6 @@
 var a25048 =
 [
-    [ "HandleDummy", "d0/dd2/a25048.html#adaf2397b2fc32e985a22e38b78e5178e", null ],
-    [ "PrepareSpellScript", "d0/dd2/a25048.html#a45d61f29e63a1940dbf3abda073d7e1f", null ],
-    [ "Register", "d0/dd2/a25048.html#aa3d2f421f7d3d6a754f80a410c8167ff", null ]
+    [ "npc_inner_demonAI", "d1/d4d/a25052.html", "d1/d4d/a25052" ],
+    [ "npc_inner_demon", "d0/dd2/a25048.html#a18dd9f8c69059f5c2307c0bfcb014ee1", null ],
+    [ "GetAI", "d0/dd2/a25048.html#ac54cb6d2c2849bf85784d53e78ec8f82", null ]
 ];

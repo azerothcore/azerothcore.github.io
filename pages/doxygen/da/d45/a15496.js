@@ -1,6 +1,6 @@
 var a15496 =
 [
-    [ "npcs_riverbreeze_and_silversky", "da/d45/a15496.html#a9f012d5bbaa8b9f9822ddfbd86e7c4b2", null ],
-    [ "OnGossipHello", "da/d45/a15496.html#a7de032322a37f929c316aadfdadda768", null ],
-    [ "OnGossipSelect", "da/d45/a15496.html#a93c7b159dda733da5030de747bad30b5", null ]
+    [ "npc_zelfraxAI", "d8/d38/a15500.html", "d8/d38/a15500" ],
+    [ "npc_zelfrax", "da/d45/a15496.html#afb8634547ac6307340982bbf36fc5aa4", null ],
+    [ "GetAI", "da/d45/a15496.html#abe852ab51d23f2aa64c78174ed827e4d", null ]
 ];

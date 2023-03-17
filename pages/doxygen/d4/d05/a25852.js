@@ -1,6 +1,6 @@
 var a25852 =
 [
-    [ "spell_kaelthas_burn_AuraScript", "dc/d28/a25856.html", "dc/d28/a25856" ],
-    [ "spell_kaelthas_burn", "d4/d05/a25852.html#a9147978b0c5f549da51c3521b792fee0", null ],
-    [ "GetAuraScript", "d4/d05/a25852.html#acebcd2dd17cdda8bacad0f49cee53fde", null ]
+    [ "HandleScriptEffect", "d4/d05/a25852.html#a46abaf045f949f36969f10705ac2534c", null ],
+    [ "PrepareSpellScript", "d4/d05/a25852.html#ad940f5b2722495a78a67596cf038ede1", null ],
+    [ "Register", "d4/d05/a25852.html#ae6332cefae2484f3c2f17029e407249c", null ]
 ];

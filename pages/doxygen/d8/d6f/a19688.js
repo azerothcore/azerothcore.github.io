@@ -1,5 +1,6 @@
 var a19688 =
 [
-    [ "PrepareAuraScript", "d8/d6f/a19688.html#a4148aaaa652895971f00c0c75c8d6581", null ],
-    [ "Register", "d8/d6f/a19688.html#a81eb93851fe05e9f316e268a0149c9ed", null ]
+    [ "OnPeriodic", "d8/d6f/a19688.html#a8c5f8ae85a403dfb9e4459400f28cab9", null ],
+    [ "PrepareAuraScript", "d8/d6f/a19688.html#ae15814f85711e37564e5cbf275e9ecae", null ],
+    [ "Register", "d8/d6f/a19688.html#a1b4d681e1df57b26e4afbf7ee034c86f", null ]
 ];

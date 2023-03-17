@@ -1,10 +1,11 @@
 var a06740 =
 [
-    [ "Battleground2ChatBuilder", "de/d17/a06740.html#a3e1f73fd8ca5eaa6d1154e206d7d0cb1", null ],
-    [ "operator()", "de/d17/a06740.html#a7c0ee21531ba43d9d2ab427d95da2ec5", null ],
-    [ "_arg1", "de/d17/a06740.html#aa6959944406804f01baa18cd898bfc41", null ],
-    [ "_arg2", "de/d17/a06740.html#aebfaeac77c40d4c7938cbdd488defc51", null ],
-    [ "_msgtype", "de/d17/a06740.html#a770d30e207e41a8f985776787d53f2cf", null ],
-    [ "_source", "de/d17/a06740.html#a8867dd698d0457688202e1a9378255d2", null ],
-    [ "_textId", "de/d17/a06740.html#a632cab30adc21c22f1a8890b1627262a", null ]
+    [ "WGWorkshop", "de/d17/a06740.html#a2d2d7b24ec77275f24efa54d31e98bbb", null ],
+    [ "GiveControlTo", "de/d17/a06740.html#a6b69312f4ffa562b0e8fdcf5da3568d3", null ],
+    [ "Save", "de/d17/a06740.html#adede1c780178f20dc8339320a021e4b6", null ],
+    [ "UpdateGraveyardAndWorkshop", "de/d17/a06740.html#a2ff11801fb50cd3a463c44fafbddaed4", null ],
+    [ "bf", "de/d17/a06740.html#ae2b7e050289ad5922ddcd73c6da9f5a5", null ],
+    [ "state", "de/d17/a06740.html#a279d47c85843e884edef1f82b9654cd8", null ],
+    [ "teamControl", "de/d17/a06740.html#a196c8d0094a34c18835840e046fd39ef", null ],
+    [ "workshopId", "de/d17/a06740.html#a42d7337c67e4f19886b0ec86f0e60596", null ]
 ];

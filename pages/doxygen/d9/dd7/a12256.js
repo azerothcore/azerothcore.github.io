@@ -1,5 +1,6 @@
 var a12256 =
 [
-    [ "textid", "d9/dd7/a12256.html#a7dac5c31d7df501f28eee3e1dec0523a", null ],
-    [ "timer", "d9/dd7/a12256.html#ab7851f383e7221c6ff2700ee345d9504", null ]
+    [ "boss_romuloAI", "da/dd6/a12260.html", "da/dd6/a12260" ],
+    [ "boss_romulo", "d9/dd7/a12256.html#a1449bf757a97549155e830e0f6213ae7", null ],
+    [ "GetAI", "d9/dd7/a12256.html#acaec1b46f5a67fdc0424da9e1ae3ee22", null ]
 ];

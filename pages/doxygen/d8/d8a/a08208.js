@@ -1,8 +1,11 @@
 var a08208 =
 [
-    [ "RedirectSpellEvent", "d8/d8a/a08208.html#a77d243d64c2fc651d71c42e10a315161", null ],
-    [ "Execute", "d8/d8a/a08208.html#a34ae2bc23904558bd5f5b99e8f1c5fdc", null ],
-    [ "_auraEffect", "d8/d8a/a08208.html#a010f14a7d389b4e9ae9896061fa18a65", null ],
-    [ "_auraOwnerGUID", "d8/d8a/a08208.html#a1b3fb598748362379fef15b3172d8e2b", null ],
-    [ "_self", "d8/d8a/a08208.html#aecfa190843c1493b47652ccdac7ae9c3", null ]
+    [ "UnitActionBarEntry", "d8/d8a/a08208.html#a41f9020c4811b14fc543ddece6af86d7", null ],
+    [ "GetAction", "d8/d8a/a08208.html#afd77e2f64ec856059759d05ddf77876e", null ],
+    [ "GetType", "d8/d8a/a08208.html#a0615e6ad9cf5523d6dc85bd529e65f32", null ],
+    [ "IsActionBarForSpell", "d8/d8a/a08208.html#a2af43ec77fcd077b2fe9ca3a6d80123b", null ],
+    [ "SetAction", "d8/d8a/a08208.html#aa00953783b0b3de3beb755a054c77730", null ],
+    [ "SetActionAndType", "d8/d8a/a08208.html#a110840d38445795957ee0425175b4fb6", null ],
+    [ "SetType", "d8/d8a/a08208.html#a38e0dcad391d09e475f90be5a5382f78", null ],
+    [ "packedData", "d8/d8a/a08208.html#aa50957a4c707ce3dbdfd62a75e3cb8eb", null ]
 ];

@@ -1,7 +1,8 @@
 var a14876 =
 [
-    [ "npc_onyxian_lair_guard", "da/d40/a14876.html#ae72d86cddafd8829fc9edd479a01ab1d", null ],
-    [ "EnterCombat", "da/d40/a14876.html#aaf5d4348a6ccbe15433138f7e2a2d877", null ],
-    [ "UpdateAI", "da/d40/a14876.html#ac8649636d5847813e49d2ada05f78645", null ],
-    [ "events", "da/d40/a14876.html#a99acb2010853fcf9f7ac6f08143d06ed", null ]
+    [ "Load", "da/d40/a14876.html#a59e8723d8b73f45075db47e1e09e15fb", null ],
+    [ "PeriodicTick", "da/d40/a14876.html#ae4761ac3bce02903a7266511d80503f9", null ],
+    [ "PrepareAuraScript", "da/d40/a14876.html#a7bacc1ebd4b98e5e43b74e13471b2063", null ],
+    [ "Register", "da/d40/a14876.html#acc4db638e0d858085dc3fb2d6b45f7ec", null ],
+    [ "_ticks", "da/d40/a14876.html#ab858e9f6505fa32cc7325087d29fee8b", null ]
 ];

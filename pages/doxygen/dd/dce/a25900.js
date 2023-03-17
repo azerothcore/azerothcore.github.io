@@ -1,10 +1,8 @@
 var a25900 =
 [
-    [ "boss_void_reaverAI", "dd/dce/a25900.html#a0a247dc0a78e4ea546c01ac879408ddb", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "dd/dce/a25900.html#a84e016e2b42a74a144d6cd3e99a12e39", null ],
-    [ "EnterCombat", "dd/dce/a25900.html#acd66525fd43a7b41a5f950c4646c8bba", null ],
-    [ "JustDied", "dd/dce/a25900.html#a3409db86bfd0abafb4325aa2b0fcd617", null ],
-    [ "KilledUnit", "dd/dce/a25900.html#a3d2eb5e855cca6d70561bba42ff710b3", null ],
-    [ "Reset", "dd/dce/a25900.html#ab48a6f43b16fd1ec5f121f20c02527d6", null ],
-    [ "UpdateAI", "dd/dce/a25900.html#aa58e4dfbf6d4880bb3481af6d81356a5", null ]
+    [ "boss_gatewatcher_iron_handAI", "dd/dce/a25900.html#a4d17248817f21f9b8d496b71296086f0", null ],
+    [ "JustDied", "dd/dce/a25900.html#a355046979977e693df0bee9f773d6d75", null ],
+    [ "JustEngagedWith", "dd/dce/a25900.html#a01791f9608782c2f7c87d8d083a21ab9", null ],
+    [ "KilledUnit", "dd/dce/a25900.html#ac7a505bf8de00e33a7110b659d15770d", null ],
+    [ "UpdateAI", "dd/dce/a25900.html#aa4a70288c352bac160d30e7478385d3c", null ]
 ];

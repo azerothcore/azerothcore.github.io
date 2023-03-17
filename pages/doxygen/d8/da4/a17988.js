@@ -1,9 +1,6 @@
 var a17988 =
 [
-    [ "BattleExperienceEvent", "d8/da4/a17988.html#a3091b403089533ce2ebbb40fa38f28c9", null ],
-    [ "Execute", "d8/da4/a17988.html#a3971962ec90f682baeae96fe6098fa97", null ],
-    [ "_creature", "d8/da4/a17988.html#a0155536d5c2be329a1f3b57c4d852098", null ],
-    [ "_level", "d8/da4/a17988.html#a22f0d7e59f579362be4576180d0977b8", null ],
-    [ "ExperiencedSpells", "d8/da4/a17988.html#a5e2e06a386059ba2d9aff676648fa56b", null ],
-    [ "ExperiencedTimes", "d8/da4/a17988.html#a4daf5818472ebe7c8d3938e2189d8e02", null ]
+    [ "spell_festergut_gastric_bloat_SpellScript", "df/d01/a17992.html", "df/d01/a17992" ],
+    [ "spell_festergut_gastric_bloat", "d8/da4/a17988.html#a3608e8d1ed0ecc0f6c96f2b09764a891", null ],
+    [ "GetSpellScript", "d8/da4/a17988.html#a7b1389255e37c3debd701c3e01b23e62", null ]
 ];

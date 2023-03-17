@@ -1,7 +1,9 @@
 var a28608 =
 [
-    [ "CalcPeriodic", "dd/d78/a28608.html#af787d0c8738284e757f808e7d138bdc6", null ],
-    [ "PrepareAuraScript", "dd/d78/a28608.html#a383db196133bbecee06fe443fdb1bc24", null ],
-    [ "Register", "dd/d78/a28608.html#a1c617b5b26805b0feb468c55337f9d4c", null ],
-    [ "Update", "dd/d78/a28608.html#af3f4a7b82e099313d609df7f85f02d00", null ]
+    [ "Absorb", "dd/d78/a28608.html#adf0783559d4ca95bc09a5ef217291bc9", null ],
+    [ "CalculateAmount", "dd/d78/a28608.html#a820c27c2161063307a10903cbbc5c0fa", null ],
+    [ "Load", "dd/d78/a28608.html#a7b71990051faaa083110408c13b8401f", null ],
+    [ "PrepareAuraScript", "dd/d78/a28608.html#ad7a3e297fcd38fc9d020a3c3db32ace2", null ],
+    [ "Register", "dd/d78/a28608.html#aa443ab0eed74229883884fbced0426d7", null ],
+    [ "absorbPct", "dd/d78/a28608.html#a55c4409f74c86853d0bf5b157f6c194c", null ]
 ];

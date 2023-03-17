@@ -1,6 +1,6 @@
 var a23648 =
 [
-    [ "npc_blessed_bannerAI", "de/d01/a23652.html", "de/d01/a23652" ],
-    [ "npc_blessed_banner", "d6/d0b/a23648.html#a779a0c653088b2d206226e146a19101f", null ],
-    [ "GetAI", "d6/d0b/a23648.html#a43dabbf2f2d54ae201cde37df792a41d", null ]
+    [ "ChangeSummonPos", "d6/d0b/a23648.html#a90993dc8e875b759d80ee92f76100f15", null ],
+    [ "PrepareSpellScript", "d6/d0b/a23648.html#a74120a96d56cca66dbe5568fdee9412a", null ],
+    [ "Register", "d6/d0b/a23648.html#a4994a44f67732c5e5e436cf2dfe53cf2", null ]
 ];

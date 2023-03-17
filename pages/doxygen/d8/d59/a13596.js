@@ -1,8 +1,11 @@
 var a13596 =
 [
-    [ "boss_hexlord_addAI", "d8/d59/a13596.html#aab2d333b32ab28fb6914763c7b7f9c19", null ],
-    [ "EnterCombat", "d8/d59/a13596.html#a81f3f54c980f916fb0dbe76c9278ea68", null ],
-    [ "Reset", "d8/d59/a13596.html#aa2003900c4b6cadc54b8643990ebe86b", null ],
-    [ "UpdateAI", "d8/d59/a13596.html#a0ec76f64ad72a1c11ab838dd9b812675", null ],
-    [ "instance", "d8/d59/a13596.html#a0ac32c9043dbebdc13ee245245e9cfc9", null ]
+    [ "npc_tapoke_slim_jahnAI", "d8/d59/a13596.html#aeb2bca4d3233d8790b1ccfdd559f2e41", null ],
+    [ "AttackedBy", "d8/d59/a13596.html#a25bf491c19fe0bb3116c6df46cb370e5", null ],
+    [ "DamageTaken", "d8/d59/a13596.html#a3dbb7abb6559a6f853cc77423d7153e9", null ],
+    [ "JustEngagedWith", "d8/d59/a13596.html#a544b8eaee365217a4a735ed39b4607b2", null ],
+    [ "JustSummoned", "d8/d59/a13596.html#ae468305fbe930baf0a1547f2e6de9953", null ],
+    [ "Reset", "d8/d59/a13596.html#a5aeaa5511584d1095639e7df584019c5", null ],
+    [ "WaypointReached", "d8/d59/a13596.html#a886ba3133f77a93cfae9c4a7e9fb0609", null ],
+    [ "IsFriendSummoned", "d8/d59/a13596.html#a1e4291187ff400e6f326ef4acbff41ee", null ]
 ];

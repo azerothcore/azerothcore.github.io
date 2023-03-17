@@ -1,10 +1,6 @@
 var a22956 =
 [
-    [ "npc_sinkhole_kill_creditAI", "dd/d2e/a22956.html#af2050289be6bc1c47d1ad40fc4bfa313", null ],
-    [ "Reset", "dd/d2e/a22956.html#a677990d64d2963ff995d9d8522c5aa81", null ],
-    [ "SpellHit", "dd/d2e/a22956.html#a95eaf518fb18b67820d6195cd525b017", null ],
-    [ "UpdateAI", "dd/d2e/a22956.html#a75611004a543bece9d3f51914547f2fe", null ],
-    [ "casterGuid", "dd/d2e/a22956.html#a147921788b07f5e776e03aaf15049cf0", null ],
-    [ "phase", "dd/d2e/a22956.html#aa45455a8d540d6f942c948cf56d11f05", null ],
-    [ "phaseTimer", "dd/d2e/a22956.html#aa268004c1eedf086ae8345e0ba10e2ca", null ]
+    [ "spell_destroy_door_sealAuraScript", "df/d0c/a22960.html", "df/d0c/a22960" ],
+    [ "spell_destroy_door_seal", "dd/d2e/a22956.html#ac764f6a9f5374cc2aef0390364408578", null ],
+    [ "GetAuraScript", "dd/d2e/a22956.html#a982384b8a0ec1a865c0f2bc083dcff55", null ]
 ];

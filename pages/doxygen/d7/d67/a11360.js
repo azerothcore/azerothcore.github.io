@@ -1,6 +1,5 @@
 var a11360 =
 [
-    [ "boss_gythAI", "d1/d90/a11364.html", "d1/d90/a11364" ],
-    [ "boss_gyth", "d7/d67/a11360.html#a286d19b0a6e317cb7e69343982b71062", null ],
-    [ "GetAI", "d7/d67/a11360.html#a3706cbdd1bfb16112653d31cfa971b30", null ]
+    [ "boss_moira_bronzebeard", "d7/d67/a11360.html#abb9a87023b8afa242e60f9694dea1c39", null ],
+    [ "GetAI", "d7/d67/a11360.html#ad99554aac80c79933b78ab4b6d42cc4f", null ]
 ];

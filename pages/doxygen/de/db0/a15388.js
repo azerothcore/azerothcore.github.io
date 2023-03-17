@@ -1,10 +1,7 @@
 var a15388 =
 [
-    [ "npc_rabid_thistle_bearAI", "de/db0/a15388.html#a7fb4b6e26dd2fe66fb3e444c260999a6", null ],
-    [ "Initialize", "de/db0/a15388.html#a466ec20c65535777c60b5c4aac4e45bd", null ],
-    [ "Reset", "de/db0/a15388.html#aedc6834fef78ad7a0e5ab99bb844ace1", null ],
-    [ "SpellHit", "de/db0/a15388.html#a62bde5a122748564cc806046bf9dcbaa", null ],
-    [ "UpdateAI", "de/db0/a15388.html#a8f6c5b873756a58760b2861bc8b86804", null ],
-    [ "_events", "de/db0/a15388.html#ad3852bf4588c453642e75fcdc544767b", null ],
-    [ "_playerGUID", "de/db0/a15388.html#ac4df0c9b8be03ce4e45fbb4efcad6892", null ]
+    [ "npc_webbed_creatureAI", "de/db0/a15388.html#a6b7507eda84c29d6bd557b1b424ee10a", null ],
+    [ "JustDied", "de/db0/a15388.html#a153d461124ec9266ffcac147a217f6d9", null ],
+    [ "JustEngagedWith", "de/db0/a15388.html#ac52ad6512bcaee35932f856abdac80d4", null ],
+    [ "Reset", "de/db0/a15388.html#a459eaadd7f0145b7a1a6caf99d1e8a5d", null ]
 ];

@@ -1,6 +1,6 @@
 var a17540 =
 [
-    [ "spell_galdarah_impaling_charge_SpellScript", "d6/d8c/a17544.html", "d6/d8c/a17544" ],
-    [ "spell_galdarah_impaling_charge", "d0/d49/a17540.html#a27d7815b3f71053b7a1f43abb06146a9", null ],
-    [ "GetSpellScript", "d0/d49/a17540.html#ae551dc8cbb6fed14af674f6bbabb611a", null ]
+    [ "spell_drakkari_colossus_face_me_SpellScript", "d6/d8c/a17544.html", "d6/d8c/a17544" ],
+    [ "spell_drakkari_colossus_face_me", "d0/d49/a17540.html#a5c2c6cc7a2b8112cb081725ac8e4a0a5", null ],
+    [ "GetSpellScript", "d0/d49/a17540.html#ac83d381f3113c27ca09bef54d6b22cc4", null ]
 ];

@@ -1,6 +1,6 @@
 var a12316 =
 [
-    [ "boss_ellris_duskhallowAI", "d1/d5a/a12316.html#a22dfc28bf1884659bf1837b6dfa02353", null ],
-    [ "EnterCombat", "d1/d5a/a12316.html#a841611995ad2ba153414132d17bc290c", null ],
-    [ "UpdateAI", "d1/d5a/a12316.html#aa0ec0ac270bba6b68b6c42c9326eaad8", null ]
+    [ "boss_felblood_kaelthasAI", "df/da2/a12320.html", "df/da2/a12320" ],
+    [ "boss_felblood_kaelthas", "d1/d5a/a12316.html#a41d57d43ee2ea45f72a5054cb02f4934", null ],
+    [ "GetAI", "d1/d5a/a12316.html#a3cf55f3e1b38e5e5007c7af093c3af5f", null ]
 ];

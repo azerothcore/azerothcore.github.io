@@ -1,6 +1,11 @@
 var a11144 =
 [
-    [ "boss_drektharAI", "d5/dd9/a11148.html", "d5/dd9/a11148" ],
-    [ "boss_drekthar", "d8/d4f/a11144.html#ac9296654b10191ac9d58219ba36f57b3", null ],
-    [ "GetAI", "d8/d4f/a11144.html#adeacbbc81ab675260c2cac1a6c76d3fe", null ]
+    [ "spectator_commandscript", "d8/d4f/a11144.html#a1bf79d739a6af02405bc268c9bb50c26", null ],
+    [ "GetCommands", "d8/d4f/a11144.html#a3451bcda07b51a33fd8368cf00ac190f", null ],
+    [ "HandleSpectatorCommand", "d8/d4f/a11144.html#aaf331e54c3c19b5d16d9d5f5c9d28721", null ],
+    [ "HandleSpectatorLeaveCommand", "d8/d4f/a11144.html#a15e661891f4e08c3efa0bd844c3954aa", null ],
+    [ "HandleSpectatorResetCommand", "d8/d4f/a11144.html#a23a1a3740609a6d0caa6e0f10c7e8653", null ],
+    [ "HandleSpectatorSpectateCommand", "d8/d4f/a11144.html#ad1f117a77c0154fc25e937dfe21870a2", null ],
+    [ "HandleSpectatorVersionCommand", "d8/d4f/a11144.html#aaf7c57603d263f7ab919f12d9680f058", null ],
+    [ "HandleSpectatorWatchCommand", "d8/d4f/a11144.html#a1ee822e332374b375962d1ae87adbc61", null ]
 ];

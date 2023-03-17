@@ -1,6 +1,6 @@
 var a23372 =
 [
-    [ "npc_mrfloppyAI", "d6/d8d/a23376.html", "d6/d8d/a23376" ],
-    [ "npc_mrfloppy", "d3/de9/a23372.html#a0515ca75aba9b7f6f5577b53e7520f6e", null ],
-    [ "GetAI", "d3/de9/a23372.html#a88590566309f3fc155eb6dc26055a161", null ]
+    [ "HandleDummy", "d3/de9/a23372.html#acb3e10b4db9c9e9b2b2552841acd556e", null ],
+    [ "PrepareSpellScript", "d3/de9/a23372.html#a12c1261f6499d8973cb377b291f1dea3", null ],
+    [ "Register", "d3/de9/a23372.html#ac1f0c5fc907919406f04599676028192", null ]
 ];

@@ -1,11 +1,14 @@
 var a20112 =
 [
-    [ "boss_patchwerkAI", "da/d80/a20112.html#a74dfcf9ef921aa2a53d877c0e5ee9a34", null ],
-    [ "EnterCombat", "da/d80/a20112.html#a4aa126aaa048ffed7fb6f1adda23f77a", null ],
-    [ "JustDied", "da/d80/a20112.html#aaed18187aa8e0058c70b29b1ccbe955f", null ],
-    [ "KilledUnit", "da/d80/a20112.html#a17ccb5b2a1841656813a9408f5a05c4e", null ],
-    [ "Reset", "da/d80/a20112.html#a1d03058bf53e670f4fe9384e9f047891", null ],
-    [ "UpdateAI", "da/d80/a20112.html#a2db0df50a0faa88ebeaa035ea048157e", null ],
-    [ "events", "da/d80/a20112.html#a00c98ee5cdb3c512ba0d92a48d441006", null ],
-    [ "pInstance", "da/d80/a20112.html#a78a3e9a6ef289e82c3ccaedc4399607a", null ]
+    [ "boss_maexxnaAI", "da/d80/a20112.html#a3bf898911798eaa891ef7638a3a2cc20", null ],
+    [ "IsInRoom", "da/d80/a20112.html#a957bd38232c020611fc24dd8a6e55640", null ],
+    [ "JustDied", "da/d80/a20112.html#a4f0121aedeff9d44b28e888f5f3d0382", null ],
+    [ "JustEngagedWith", "da/d80/a20112.html#a9974fc771b3663878964aeb20914fe43", null ],
+    [ "JustSummoned", "da/d80/a20112.html#ab45b74b3067b42089fee804844ea41dd", null ],
+    [ "KilledUnit", "da/d80/a20112.html#a11cda2b905ef2381c317a01e4163be00", null ],
+    [ "Reset", "da/d80/a20112.html#a78385da6845ce8e3075616c24696d0cc", null ],
+    [ "UpdateAI", "da/d80/a20112.html#a6f0453babfa84764467970369894eb97", null ],
+    [ "events", "da/d80/a20112.html#a6ddb73eeb18560a08e72dd6ccc5d0c83", null ],
+    [ "pInstance", "da/d80/a20112.html#adeda3cc5a174e3d940621e3024a1043f", null ],
+    [ "summons", "da/d80/a20112.html#a7ea3de40dfd638db7e34c523a0461335", null ]
 ];

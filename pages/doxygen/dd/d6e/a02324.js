@@ -1,5 +1,7 @@
 var a02324 =
 [
-    [ "lookup_commandscript", "d7/d9b/a11035.html", "d7/d9b/a11035" ],
-    [ "AddSC_lookup_commandscript", "dd/d6e/a02324.html#aae75b0f1415c6529e5837e3b27d054f6", null ]
+    [ "inventory_commandscript", "d3/d7a/a11056.html", "d3/d7a/a11056" ],
+    [ "AddSC_inventory_commandscript", "dd/d6e/a02324.html#a8917ab2c5001702c3dc7a14313dbc562", null ],
+    [ "bagSpecsColors", "dd/d6e/a02324.html#aabf9a2b965ae6153eb18635be4468eb6", null ],
+    [ "bagSpecsToString", "dd/d6e/a02324.html#ac004d76eb746ea415b16f1b512a057b6", null ]
 ];

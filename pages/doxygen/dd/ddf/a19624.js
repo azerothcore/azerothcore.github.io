@@ -1,6 +1,6 @@
 var a19624 =
 [
-    [ "HandleScript", "dd/ddf/a19624.html#a4aae124920b03935281b99951c17c363", null ],
-    [ "PrepareSpellScript", "dd/ddf/a19624.html#adb878f25734ab1eaf26bea190c0307ea", null ],
-    [ "Register", "dd/ddf/a19624.html#abc314f4d47803c3cb3a2df4663dcdc0e", null ]
+    [ "spell_icc_harvest_blight_specimen_SpellScript", "dd/dd9/a19628.html", "dd/dd9/a19628" ],
+    [ "spell_icc_harvest_blight_specimen", "dd/ddf/a19624.html#accec22ce098333b3b8edea7a7ac7ad2f", null ],
+    [ "GetSpellScript", "dd/ddf/a19624.html#ac724906e0e186a76a566f46697a9c2c8", null ]
 ];

@@ -1,6 +1,6 @@
 var a13168 =
 [
-    [ "OnPeriodic", "d5/dcb/a13168.html#a36a5cc378f78447853ef100e297becd9", null ],
-    [ "PrepareAuraScript", "d5/dcb/a13168.html#aa10abdf4411da03f03dfa27c3df1a9a7", null ],
-    [ "Register", "d5/dcb/a13168.html#a1098b7df187ad030adcc16cb82911151", null ]
+    [ "FilterTargets", "d5/dcb/a13168.html#a89b1a8f0c6e5e41511fd1384a206fc83", null ],
+    [ "PrepareSpellScript", "d5/dcb/a13168.html#a5d864f6d61e2b4fa721fd943abae8c5d", null ],
+    [ "Register", "d5/dcb/a13168.html#a494a89760e538ed36ffe9bf19b2b25a2", null ]
 ];

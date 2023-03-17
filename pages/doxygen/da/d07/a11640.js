@@ -1,7 +1,6 @@
 var a11640 =
 [
-    [ "HandleDummy", "da/d07/a11640.html#a7fca477ef5c86d543cd59571ad8dc7de", null ],
-    [ "PrepareSpellScript", "da/d07/a11640.html#a6ec124990f202af0c6063c285bf04d88", null ],
-    [ "Register", "da/d07/a11640.html#a5adf9f0bbe5b72c4c22f569086582f0f", null ],
-    [ "Validate", "da/d07/a11640.html#ae35efa08f507aac5b72166a216d01870", null ]
+    [ "boss_flamegorAI", "d1/d79/a11644.html", "d1/d79/a11644" ],
+    [ "boss_flamegor", "da/d07/a11640.html#abc6f068c81466d08306d94667bb1974b", null ],
+    [ "GetAI", "da/d07/a11640.html#a56fb8425c55703fbda14a982d8fdcb2d", null ]
 ];

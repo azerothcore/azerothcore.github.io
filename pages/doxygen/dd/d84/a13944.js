@@ -1,6 +1,7 @@
 var a13944 =
 [
-    [ "LaunchHit", "dd/d84/a13944.html#a10bb54a1a0cd992e9e944870684f3a21", null ],
-    [ "PrepareSpellScript", "dd/d84/a13944.html#a95e85ecfcc5b72c250a0bc184b1d32a7", null ],
-    [ "Register", "dd/d84/a13944.html#a19c6111ea0c3506ddc2d8459c192f04f", null ]
+    [ "HandleOnHit", "dd/d84/a13944.html#a561799e6241b1fe17cd09f17c447107b", null ],
+    [ "PrepareSpellScript", "dd/d84/a13944.html#ad98ba2831e93bd601b51a5c6a7e8441d", null ],
+    [ "Register", "dd/d84/a13944.html#ad9b601b73631285cb5a79e30dfe4a8cc", null ],
+    [ "Validate", "dd/d84/a13944.html#adb339686c5e9dcb298712455dc8435bf", null ]
 ];

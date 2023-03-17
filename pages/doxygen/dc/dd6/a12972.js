@@ -1,6 +1,6 @@
 var a12972 =
 [
-    [ "boss_sathrovarrAI", "db/d38/a12976.html", "db/d38/a12976" ],
-    [ "boss_sathrovarr", "dc/dd6/a12972.html#a3ca320e73d9d56a426cc5b3a6942d29f", null ],
-    [ "GetAI", "dc/dd6/a12972.html#a28cd02e568053ed6f15c0b0df3c427cf", null ]
+    [ "HandleScriptEffect", "dc/dd6/a12972.html#a55453472fa155bb70b8e06cc5afc40d4", null ],
+    [ "PrepareSpellScript", "dc/dd6/a12972.html#a8c70a7bddc9ad845a6d262dc0966dbe1", null ],
+    [ "Register", "dc/dd6/a12972.html#a28b683cad00564827cefa4fd6ab91495", null ]
 ];

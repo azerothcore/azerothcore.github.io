@@ -1,5 +1,5 @@
 var a21528 =
 [
-    [ "achievement_staying_buffed_all_winter_25", "d6/d83/a21528.html#a91f0ab3bada837cff6414350b98a27a3", null ],
-    [ "OnCheck", "d6/d83/a21528.html#a36591082184bc8466e124bad9a910545", null ]
+    [ "PrepareAuraScript", "d6/d83/a21528.html#a42d20c228c3082cf3a7b80dfebee232d", null ],
+    [ "Register", "d6/d83/a21528.html#a2eac056e9ccad15a9ba231dd635f41d3", null ]
 ];

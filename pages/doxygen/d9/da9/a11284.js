@@ -1,6 +1,6 @@
 var a11284 =
 [
-    [ "boss_hedrumAI", "d9/da9/a11284.html#a95e4af51a8e24fa7b36b924c6cdfb86c", null ],
-    [ "EnterCombat", "d9/da9/a11284.html#a6b7a7a3a85a638987ec9a74e88f89822", null ],
-    [ "UpdateAI", "d9/da9/a11284.html#aa515ed081aaabdad751c1bbba56d3d96", null ]
+    [ "boss_anubshiahAI", "d9/da9/a11284.html#ae5bdb5509aad0d386bf73e5aad728744", null ],
+    [ "JustEngagedWith", "d9/da9/a11284.html#ae83c1def323828814b5db6b032002438", null ],
+    [ "UpdateAI", "d9/da9/a11284.html#a3acd88f97e2f1e3386c9b5dfa4f15d15", null ]
 ];

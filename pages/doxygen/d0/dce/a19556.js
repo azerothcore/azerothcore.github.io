@@ -1,5 +1,6 @@
 var a19556 =
 [
-    [ "npc_alchemist_adrianna", "d0/dce/a19556.html#a310d375bc73c51e407580b063a6543fa", null ],
-    [ "OnGossipHello", "d0/dce/a19556.html#a02ec6a66037d72e30bbe821ceee38691", null ]
+    [ "npc_captain_rupertAI", "d2/db3/a19560.html", "d2/db3/a19560" ],
+    [ "npc_captain_rupert", "d0/dce/a19556.html#a7a4535a6b784b460c79722e9a50c3ff6", null ],
+    [ "GetAI", "d0/dce/a19556.html#a20afc31fc1a8bb09692ab0cc47af3c1b", null ]
 ];

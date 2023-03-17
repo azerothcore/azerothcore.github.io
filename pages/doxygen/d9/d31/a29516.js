@@ -1,11 +1,8 @@
 var a29516 =
 [
-    [ "npc_artoriusAI", "d9/d31/a29516.html#a71056d1f537671a9f790ebbc1c2baf9c", null ],
-    [ "DamageTaken", "d9/d31/a29516.html#acaa6f32e1cfba98ec4dd06245a41d321", null ],
-    [ "DoAction", "d9/d31/a29516.html#abbfc9ee752d97f1694dbd739719843c2", null ],
-    [ "EnterCombat", "d9/d31/a29516.html#af18e39f2ed4e3e44c88f45d61c91dabc", null ],
-    [ "Reset", "d9/d31/a29516.html#a862cc52a9251e2dfe486f1152dae9500", null ],
-    [ "SpellHit", "d9/d31/a29516.html#ac6ce7235c4399a5a8f2e771f5cd652ba", null ],
-    [ "UpdateAI", "d9/d31/a29516.html#afdd2821ce916b65ed33fe7ab75ef56a5", null ],
-    [ "events", "d9/d31/a29516.html#a6c8adf35504caf0cfea9a353833d4c4e", null ]
+    [ "npc_chicken_cluckAI", "db/d1c/a29520.html", "db/d1c/a29520" ],
+    [ "npc_chicken_cluck", "d9/d31/a29516.html#a7bc08c81fca730886c47e0f3a3d8062c", null ],
+    [ "GetAI", "d9/d31/a29516.html#abf986f555672823477c3c17e0f59bdbe", null ],
+    [ "OnQuestAccept", "d9/d31/a29516.html#acca62c027b5b0cdff107e04cf2c276ea", null ],
+    [ "OnQuestComplete", "d9/d31/a29516.html#a8f22520166a557e066502eb16bdae774", null ]
 ];

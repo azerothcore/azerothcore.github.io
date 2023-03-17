@@ -1,6 +1,6 @@
 var a10684 =
 [
-    [ "EffectCalcPeriodicHandler", "dd/d0c/a10684.html#a17288ee3b2951f1f2a8dc36a598b9a27", null ],
-    [ "Call", "dd/d0c/a10684.html#a6a7eeb9599a10aa4ab918a2c2456a186", null ],
-    [ "pEffectHandlerScript", "dd/d0c/a10684.html#a57673f457c08edfbf7fc1877aa071721", null ]
+    [ "ObjectAreaTargetSelectHandler", "dd/d0c/a10684.html#a89b86436bb1de38223165e7ef60f2b61", null ],
+    [ "Call", "dd/d0c/a10684.html#a11d2070610d178006231bac274d1f311", null ],
+    [ "pObjectAreaTargetSelectHandlerScript", "dd/d0c/a10684.html#a118ca963c6319802806913762c4d1fec", null ]
 ];

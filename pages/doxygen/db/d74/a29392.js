@@ -1,5 +1,5 @@
 var a29392 =
 [
-    [ "go_veil_skith_cage", "db/d74/a29392.html#ac3fe1fdf2f12571fafc56e71a932994e", null ],
-    [ "OnGossipHello", "db/d74/a29392.html#a6724dc73ecf83305e5234eb0a2ad1d3c", null ]
+    [ "trigger_deathAI", "db/d74/a29392.html#a61c74677030fe04b45e8f2e437f6f270", null ],
+    [ "JustDied", "db/d74/a29392.html#a325d55eee94d89137eabc823c8520ea0", null ]
 ];

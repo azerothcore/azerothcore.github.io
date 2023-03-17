@@ -1,6 +1,6 @@
 var a11456 =
 [
-    [ "OrcDeathEvent", "d8/d0c/a11456.html#ae4088ee95c3c0de9ae524a82803b0ea2", null ],
-    [ "Execute", "d8/d0c/a11456.html#a293ec6667da669a27fe75965f919cd68", null ],
-    [ "_me", "d8/d0c/a11456.html#a56cdf23ed08cbb800ba6fe7fb5e284b7", null ]
+    [ "boss_pyroguard_emberseerAI", "dd/d25/a11460.html", "dd/d25/a11460" ],
+    [ "boss_pyroguard_emberseer", "d8/d0c/a11456.html#af9f55c012880404e2e6f8278763af194", null ],
+    [ "GetAI", "d8/d0c/a11456.html#a060c52f53760e60a022a7034dd785b1d", null ]
 ];

@@ -1,6 +1,16 @@
 var a21960 =
 [
-    [ "spell_thorim_lightning_pillar_P2_AuraScript", "db/dcd/a21964.html", "db/dcd/a21964" ],
-    [ "spell_thorim_lightning_pillar_P2", "d3/d44/a21960.html#a5358c7a5b6f6e195e4d24ec889757072", null ],
-    [ "GetAuraScript", "d3/d44/a21960.html#a406b1249c304c8aebe975f38591f5a63", null ]
+    [ "boss_thorim_runic_colossusAI", "d3/d44/a21960.html#a55e64ee89eb7b491b20a10d49e664f53", null ],
+    [ "JustDied", "d3/d44/a21960.html#aa42165bcf6984a19a838535186db3bdb", null ],
+    [ "JustEngagedWith", "d3/d44/a21960.html#a1965559164451e8ee7e47d65e148b67c", null ],
+    [ "Reset", "d3/d44/a21960.html#a098974cdd91b61aa4b003d6f16a339d2", null ],
+    [ "RunRunicSmash", "d3/d44/a21960.html#a324328498de2474134ccbee2be129573", null ],
+    [ "SpellHit", "d3/d44/a21960.html#a0c39e574e8d93093be2c3c8bb2dc5b06", null ],
+    [ "UpdateAI", "d3/d44/a21960.html#a7a45846fe6ada067a5b955a51ee2fdc4", null ],
+    [ "_checkTarget", "d3/d44/a21960.html#a2cc71f0ef8627b133016a963ba087dc8", null ],
+    [ "_leftHand", "d3/d44/a21960.html#a4332a514588e77494a4033b67dc8145e", null ],
+    [ "_nextTriggerPos", "d3/d44/a21960.html#a3dbd585e96f8843e04ffab040318b977", null ],
+    [ "_triggerLeftGUID", "d3/d44/a21960.html#a5d27abb654e240174122cdb11b9c4b75", null ],
+    [ "_triggerRightGUID", "d3/d44/a21960.html#a376600de56ab1af36287c2d922c7361f", null ],
+    [ "events", "d3/d44/a21960.html#aab87f0308fc4546718bcb5209f69764d", null ]
 ];

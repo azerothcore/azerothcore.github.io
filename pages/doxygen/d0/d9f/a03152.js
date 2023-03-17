@@ -1,21 +1,52 @@
 var a03152 =
 [
-    [ "npcs_riverbreeze_and_silversky", "d1/d9b/a15495.html", "d1/d9b/a15495" ],
-    [ "at_ancient_leaf", "d7/d24/a15499.html", "d7/d24/a15499" ],
-    [ "GOSSIP_ITEM_BEACON", "d0/d9f/a03152.html#aed16a0d3c0f5042443d68996e30f15bd", null ],
-    [ "AncientMisc", "d0/d9f/a03152.html#adaffe09a7c2b9f9bfdc48d5068c18068", [
-      [ "QUEST_ANCIENT_LEAF", "d0/d9f/a03152.html#adaffe09a7c2b9f9bfdc48d5068c18068aa825be5f41ad67f6007d3509e9bb87e3", null ],
-      [ "NPC_VARTRUS", "d0/d9f/a03152.html#adaffe09a7c2b9f9bfdc48d5068c18068aa3648d60ebaeb2cef5c0578018150e99", null ],
-      [ "NPC_STOMA", "d0/d9f/a03152.html#adaffe09a7c2b9f9bfdc48d5068c18068ab30f7bd203d11ff87b0030b3578a5e81", null ],
-      [ "NPC_HASTAT", "d0/d9f/a03152.html#adaffe09a7c2b9f9bfdc48d5068c18068acc6ef71bcba7f2d82bc3164636733e04", null ],
-      [ "CREATURE_GROUP_ANCIENTS", "d0/d9f/a03152.html#adaffe09a7c2b9f9bfdc48d5068c18068a929e77d337e49edf4de033ddb8ccf149", null ]
+    [ "npc_draenei_survivor", "d8/d1f/a15336.html", "d8/d1f/a15336" ],
+    [ "npc_draenei_survivor::npc_draenei_survivorAI", "d7/d6b/a15340.html", "d7/d6b/a15340" ],
+    [ "npc_injured_draenei", "d9/dbd/a15344.html", "d9/dbd/a15344" ],
+    [ "npc_injured_draenei::npc_injured_draeneiAI", "d1/dac/a15348.html", "d1/dac/a15348" ],
+    [ "npc_magwin", "d0/d8f/a15352.html", "d0/d8f/a15352" ],
+    [ "npc_magwin::npc_magwinAI", "d7/d0f/a15356.html", "d7/d0f/a15356" ],
+    [ "go_ravager_cage", "d7/de9/a15360.html", "d7/de9/a15360" ],
+    [ "npc_death_ravager", "d1/d17/a15364.html", "d1/d17/a15364" ],
+    [ "npc_death_ravager::npc_death_ravagerAI", "d3/d9a/a15368.html", "d3/d9a/a15368" ],
+    [ "npc_stillpine_capitive", "d5/d3e/a15372.html", "d5/d3e/a15372" ],
+    [ "npc_stillpine_capitive::npc_stillpine_capitiveAI", "d3/dbe/a15376.html", "d3/dbe/a15376" ],
+    [ "go_bristlelimb_cage", "d5/dbd/a15380.html", "d5/dbd/a15380" ],
+    [ "BristlelimbCage", "d0/d9f/a03152.html#ab69bb59145b8e4a3ee5c269d141090a0", [
+      [ "QUEST_THE_PROPHECY_OF_AKIDA", "d0/d9f/a03152.html#ab69bb59145b8e4a3ee5c269d141090a0ae8d9e7f48db483f0e3497db05e0a8ab5", null ],
+      [ "NPC_STILLPINE_CAPITIVE", "d0/d9f/a03152.html#ab69bb59145b8e4a3ee5c269d141090a0af8664c69b400568c2fc8974230b57cdf", null ],
+      [ "GO_BRISTELIMB_CAGE", "d0/d9f/a03152.html#ab69bb59145b8e4a3ee5c269d141090a0aef32e220b187e5b1852e8f7a5bf67ed8", null ],
+      [ "CAPITIVE_SAY", "d0/d9f/a03152.html#ab69bb59145b8e4a3ee5c269d141090a0a98d7f3af2f348e324c78eca1ee3312e4", null ],
+      [ "POINT_INIT", "d0/d9f/a03152.html#ab69bb59145b8e4a3ee5c269d141090a0a965d8213c7e2bdb3d719b4dc8abe6175", null ],
+      [ "EVENT_DESPAWN", "d0/d9f/a03152.html#ab69bb59145b8e4a3ee5c269d141090a0a37c22b84c74c36e2af467a6bd1047f15", null ]
     ] ],
-    [ "RiverbreezeAndSilversky", "d0/d9f/a03152.html#acc75d54553750c832fe50b6cb0c42427", [
-      [ "SPELL_CENARION_BEACON", "d0/d9f/a03152.html#acc75d54553750c832fe50b6cb0c42427aefb9fe5d61b5fc5b810f077e47334d49", null ],
-      [ "NPC_ARATHANDRIS_SILVERSKY", "d0/d9f/a03152.html#acc75d54553750c832fe50b6cb0c42427a15af7b53355112caefafe032f27b15d6", null ],
-      [ "NPC_MAYBESS_RIVERBREEZE", "d0/d9f/a03152.html#acc75d54553750c832fe50b6cb0c42427a3362be702aaaa11f11e1df72d0a8e149", null ],
-      [ "QUEST_CLEASING_FELWOOD_A", "d0/d9f/a03152.html#acc75d54553750c832fe50b6cb0c42427ab52d337e733144a5a21fce9825f80fff", null ],
-      [ "QUEST_CLEASING_FELWOOD_H", "d0/d9f/a03152.html#acc75d54553750c832fe50b6cb0c42427a24da8ad4e5cec47c9a66a1e03e07383f", null ]
+    [ "draeneiSurvivor", "d0/d9f/a03152.html#a4312325b44ff42e455a1955a0a0d0ce0", [
+      [ "SAY_HEAL", "d0/d9f/a03152.html#a4312325b44ff42e455a1955a0a0d0ce0a3bb81f47f40ebbd45afd95991300a0b6", null ],
+      [ "SAY_HELP", "d0/d9f/a03152.html#a4312325b44ff42e455a1955a0a0d0ce0a13e3c4fbf4ffac2b5a7fc5c14d049293", null ],
+      [ "SPELL_IRRIDATION", "d0/d9f/a03152.html#a4312325b44ff42e455a1955a0a0d0ce0a75ebf4ca85d16446e34a15b18cdf38ef", null ],
+      [ "SPELL_STUNNED", "d0/d9f/a03152.html#a4312325b44ff42e455a1955a0a0d0ce0acf37fb2b5fa94a29d651d4b9364de3b1", null ]
     ] ],
-    [ "AddSC_felwood", "d0/d9f/a03152.html#a63ae28c9f250057b35a18fb585c6a2cf", null ]
+    [ "Magwin", "d0/d9f/a03152.html#a8f680a89d6b189116cd0885d3f8e0232", [
+      [ "SAY_START", "d0/d9f/a03152.html#a8f680a89d6b189116cd0885d3f8e0232a2eae21cbf7d110ee89a9798ef6f00239", null ],
+      [ "SAY_AGGRO", "d0/d9f/a03152.html#a8f680a89d6b189116cd0885d3f8e0232a47c752fff069f3e55065795eef2a9bfe", null ],
+      [ "SAY_PROGRESS", "d0/d9f/a03152.html#a8f680a89d6b189116cd0885d3f8e0232a0a1c1c8ee2f4fb58f4e107f259c6a7a5", null ],
+      [ "SAY_END1", "d0/d9f/a03152.html#a8f680a89d6b189116cd0885d3f8e0232a944891a3d2f715c9e1c8f47d65f16eca", null ],
+      [ "SAY_END2", "d0/d9f/a03152.html#a8f680a89d6b189116cd0885d3f8e0232aa0efc3eab3d2447cc17568f7ceed8cba", null ],
+      [ "EMOTE_HUG", "d0/d9f/a03152.html#a8f680a89d6b189116cd0885d3f8e0232a32c1d786a95676b42ba62cccb0249d6d", null ],
+      [ "NPC_COWLEN", "d0/d9f/a03152.html#a8f680a89d6b189116cd0885d3f8e0232a72a6ae36de9915698b0dbb6646852a3a", null ],
+      [ "SAY_COWLEN", "d0/d9f/a03152.html#a8f680a89d6b189116cd0885d3f8e0232a3b5ee5ee9166e2ca31e5271bfb24aead", null ],
+      [ "EVENT_ACCEPT_QUEST", "d0/d9f/a03152.html#a8f680a89d6b189116cd0885d3f8e0232ac570135999543136afc56b60cd580a2d", null ],
+      [ "EVENT_START_ESCORT", "d0/d9f/a03152.html#a8f680a89d6b189116cd0885d3f8e0232aac17b854a151f2f2ca72de93bf3c9e01", null ],
+      [ "EVENT_STAND", "d0/d9f/a03152.html#a8f680a89d6b189116cd0885d3f8e0232a306a9ab7ce63e6bdb9de7e1cb8ddb026", null ],
+      [ "EVENT_TALK_END", "d0/d9f/a03152.html#a8f680a89d6b189116cd0885d3f8e0232add701ab59fa34c09ea3a0c03ccad4b00", null ],
+      [ "EVENT_COWLEN_TALK", "d0/d9f/a03152.html#a8f680a89d6b189116cd0885d3f8e0232a87e4ec7fc1940c461ccea28f089583a7", null ],
+      [ "QUEST_A_CRY_FOR_HELP", "d0/d9f/a03152.html#a8f680a89d6b189116cd0885d3f8e0232a5e07ef0614c38548bc743a6622705cd8", null ]
+    ] ],
+    [ "RavegerCage", "d0/d9f/a03152.html#afbe1872b98459d496587a276f39f6172", [
+      [ "NPC_DEATH_RAVAGER", "d0/d9f/a03152.html#afbe1872b98459d496587a276f39f6172a3fc36348616e2274939b17da119f4cbb", null ],
+      [ "SPELL_REND", "d0/d9f/a03152.html#afbe1872b98459d496587a276f39f6172ac553ad24710435636bd9736df18484c6", null ],
+      [ "SPELL_ENRAGING_BITE", "d0/d9f/a03152.html#afbe1872b98459d496587a276f39f6172a441711efdb9fa90311571a2a0dbfe888", null ],
+      [ "QUEST_STRENGTH_ONE", "d0/d9f/a03152.html#afbe1872b98459d496587a276f39f6172a2ca7128123717d9b2be0d049b0180449", null ]
+    ] ],
+    [ "AddSC_azuremyst_isle", "d0/d9f/a03152.html#a92fc206251c5ac3ca89e584f0e69e0cb", null ]
 ];

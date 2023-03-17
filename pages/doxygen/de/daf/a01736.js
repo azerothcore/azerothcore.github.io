@@ -1,9 +1,6 @@
 var a01736 =
 [
-    [ "PathMovementBase< T, P >", "dc/d2b/a09407.html", "dc/d2b/a09407" ],
-    [ "WaypointMovementGenerator< Creature >", "d9/d37/a09415.html", "d9/d37/a09415" ],
-    [ "FlightPathMovementGenerator", "d5/d7e/a09419.html", "d5/d7e/a09419" ],
-    [ "FlightPathMovementGenerator::TaxiNodeChangeInfo", "d7/d15/a09423.html", "d7/d15/a09423" ],
-    [ "FLIGHT_TRAVEL_UPDATE", "de/daf/a01736.html#af2d292bdefbb6db76ff3201ac0c0cdd6", null ],
-    [ "TIMEDIFF_NEXT_WP", "de/daf/a01736.html#afcff81f45a877feac68bf5bcae913560", null ]
+    [ "GetVelocity", "de/daf/a01736.html#a955c196fa9c96bf11e2d887d6cbac50c", null ],
+    [ "IsMutualChase", "de/daf/a01736.html#a53d496abdea10dead20c7e6a9cb09cd6", null ],
+    [ "PredictPosition", "de/daf/a01736.html#ada5b031ff95410ba84fd734c95c68099", null ]
 ];

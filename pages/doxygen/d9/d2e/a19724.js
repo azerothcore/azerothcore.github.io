@@ -1,6 +1,6 @@
 var a19724 =
 [
-    [ "npc_icc_skybreaker_vicarAI", "d9/dea/a19728.html", "d9/dea/a19728" ],
-    [ "npc_icc_skybreaker_vicar", "d9/d2e/a19724.html#a40451cc6fba0cae59e47fa38e4fb79d3", null ],
-    [ "GetAI", "d9/d2e/a19724.html#a6884bb7e54b78abee0cc995c4fbb501d", null ]
+    [ "spell_icc_shattered_bones_SpellScript", "d9/dea/a19728.html", "d9/dea/a19728" ],
+    [ "spell_icc_shattered_bones", "d9/d2e/a19724.html#a99a48b82a1753d8923ae0ae76a1eea58", null ],
+    [ "GetSpellScript", "d9/d2e/a19724.html#af7d897c510d318d43fe4443222931980", null ]
 ];

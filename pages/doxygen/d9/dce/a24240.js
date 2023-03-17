@@ -1,14 +1,11 @@
 var a24240 =
 [
-    [ "boss_anzuAI", "d9/dce/a24240.html#a31dae6ef0bfe651ff022fed900f12033", null ],
-    [ "EnterCombat", "d9/dce/a24240.html#a709f3c4f95fc5bf4372e61bc68c7a21f", null ],
-    [ "JustDied", "d9/dce/a24240.html#aaf3703432690756b7c7748cfd8cb0390", null ],
-    [ "JustSummoned", "d9/dce/a24240.html#a1de73b5075de0b026bc9597b73cedbef", null ],
-    [ "Reset", "d9/dce/a24240.html#a29679bd61bb1095324d72f9c25099f18", null ],
-    [ "SummonBroods", "d9/dce/a24240.html#aec6a65b183336c996fb0094fd6a93ade", null ],
-    [ "SummonedCreatureDies", "d9/dce/a24240.html#a2fb3ae8fa3c23c6ccfcc1687a9ef4503", null ],
-    [ "UpdateAI", "d9/dce/a24240.html#a6534c8aaa76975cd207749c9086f5aab", null ],
-    [ "events", "d9/dce/a24240.html#a7f339410680ea971f9166c886b424f70", null ],
-    [ "summons", "d9/dce/a24240.html#a290ce8429a57e141f56bce2aedb32970", null ],
-    [ "talkTimer", "d9/dce/a24240.html#a47a3fd774bcca4ca2423438aba636f78", null ]
+    [ "boss_pandemoniusAI", "d9/dce/a24240.html#aa463497ba576eea70892498b03e8fb6f", null ],
+    [ "JustDied", "d9/dce/a24240.html#a880ad1cde7b6cc2c57071521e0b397e3", null ],
+    [ "JustEngagedWith", "d9/dce/a24240.html#a0bf9a73aac8bbc12ed9bd9de09e46ccf", null ],
+    [ "KilledUnit", "d9/dce/a24240.html#aceec1a32ee2213d5f9565b6f2d8cf98f", null ],
+    [ "Reset", "d9/dce/a24240.html#ab73a56b9b7dd207d06ec64414e0bda2e", null ],
+    [ "UpdateAI", "d9/dce/a24240.html#abf854f4387f162f9bc0499a728dd00ae", null ],
+    [ "events", "d9/dce/a24240.html#a67c9602855e2980c4d8daf3383fd3ba0", null ],
+    [ "VoidBlastCounter", "d9/dce/a24240.html#acf8317391eb5bd571a5d60201a38c31a", null ]
 ];

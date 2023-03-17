@@ -1,5 +1,6 @@
 var a26048 =
 [
-    [ "go_simon_cluster", "d7/d67/a26048.html#adac53a8451abd6ace227a66afc7e61e8", null ],
-    [ "OnGossipHello", "d7/d67/a26048.html#a9fd9799604de44c91803511c45b67786", null ]
+    [ "npc_aeranasAI", "d6/d05/a26052.html", "d6/d05/a26052" ],
+    [ "npc_aeranas", "d7/d67/a26048.html#a6ea71481ef6a223a329b805081122537", null ],
+    [ "GetAI", "d7/d67/a26048.html#a81167df6665bdca81ee13468dec19643", null ]
 ];

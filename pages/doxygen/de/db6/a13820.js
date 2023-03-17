@@ -1,6 +1,6 @@
 var a13820 =
 [
-    [ "boss_grilekAI", "d7/d67/a13824.html", "d7/d67/a13824" ],
-    [ "boss_grilek", "de/db6/a13820.html#acffe0061db18c5725c8c290822c5fed7", null ],
-    [ "GetAI", "de/db6/a13820.html#aa346fa8807069d8fc94bd4d81a014c76", null ]
+    [ "npc_harrison_jonesAI", "d7/d67/a13824.html", "d7/d67/a13824" ],
+    [ "npc_harrison_jones", "de/db6/a13820.html#afbf1c2040c87f5ca8280d18a9db97c7f", null ],
+    [ "GetAI", "de/db6/a13820.html#ac7df55d850973073266509f6e09ea367", null ]
 ];

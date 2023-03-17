@@ -1,10 +1,7 @@
 var a13444 =
 [
-    [ "npc_yennikuAI", "dc/dac/a13444.html#ab824f5dfaa54cb1af2d95018f053f174", null ],
-    [ "EnterCombat", "dc/dac/a13444.html#a830b05452482e0872924b4ccecfb931a", null ],
-    [ "Reset", "dc/dac/a13444.html#a7aa6ca04c03f9767e5a6e906cad77fb1", null ],
-    [ "SpellHit", "dc/dac/a13444.html#a98538720d68db49262b7900da169ec6a", null ],
-    [ "UpdateAI", "dc/dac/a13444.html#a7f8f9728c66be7ed277df9e65d1a7689", null ],
-    [ "bReset", "dc/dac/a13444.html#a93d7f6a94fc18a44b304696f79a6f3a1", null ],
-    [ "Reset_Timer", "dc/dac/a13444.html#aae10a513f51a6e5d4e66fcf4b2b3de97", null ]
+    [ "npc_bartlebyAI", "de/d39/a13448.html", "de/d39/a13448" ],
+    [ "npc_bartleby", "dc/dac/a13444.html#a4933c9ff03d3d074df0598ee564de009", null ],
+    [ "GetAI", "dc/dac/a13444.html#a1fb3a8a2ef01c05b09fc8e916b4c1179", null ],
+    [ "OnQuestAccept", "dc/dac/a13444.html#a61725af49cbdc18fa7e8feb16d7bca06", null ]
 ];

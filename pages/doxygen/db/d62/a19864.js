@@ -1,6 +1,7 @@
 var a19864 =
 [
-    [ "npc_four_car_garageAI", "db/d62/a19864.html#a2eedf5934e12d33cda0ac173d82220d5", null ],
-    [ "JustDied", "db/d62/a19864.html#a1fba9f03dca2db37b5cb969079b25d22", null ],
-    [ "PassengerBoarded", "db/d62/a19864.html#a144bc36a5c4ff227c8a7dc146d4167b6", null ]
+    [ "DelayedCastMincharEvent", "db/d62/a19864.html#a76d8a08ca273eec5b2e083d136336a15", null ],
+    [ "Execute", "db/d62/a19864.html#a12aeff246d07e541ed192974320842cb", null ],
+    [ "_spellId", "db/d62/a19864.html#af4ea90407b2c8a283f137d213ffe97be", null ],
+    [ "_trigger", "db/d62/a19864.html#a9f3cd02e77ad35b98a6753b792383548", null ]
 ];

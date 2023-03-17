@@ -1,8 +1,6 @@
 var a13612 =
 [
-    [ "boss_thurgAI", "d8/d49/a13612.html#af5bd973e7d0f1d08cacf85cfe5a06647", null ],
-    [ "Reset", "d8/d49/a13612.html#a5869d7f8a857c39bd7f62d6355d7e486", null ],
-    [ "UpdateAI", "d8/d49/a13612.html#a78e306ae070f37638a39a5ac3cd50398", null ],
-    [ "bloodlust_timer", "d8/d49/a13612.html#abdc6852f5de5a7b9710ab3a57fa7f096", null ],
-    [ "cleave_timer", "d8/d49/a13612.html#ac0d627bc0189f3f969007ef688d17056", null ]
+    [ "npc_akilzon_eagleAI", "d8/d5b/a13616.html", "d8/d5b/a13616" ],
+    [ "npc_akilzon_eagle", "d8/d49/a13612.html#a226355ce2fa1a451ea61a212fd939ec5", null ],
+    [ "GetAI", "d8/d49/a13612.html#ace5fc83cd4109ea05006660867a2dcf6", null ]
 ];

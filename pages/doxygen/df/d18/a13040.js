@@ -1,6 +1,6 @@
 var a13040 =
 [
-    [ "FixOrientation", "df/d18/a13040.html#ac4a9654d37a73f9d5ddc73ff90ce145b", null ],
-    [ "Execute", "df/d18/a13040.html#a7af72679731c9b86b9ae36d19d1621e5", null ],
-    [ "_owner", "df/d18/a13040.html#a5f12db3774bdeef25a300780c00db1fb", null ]
+    [ "spell_kalecgos_spectral_realm_dummy_SpellScript", "d5/d1b/a13044.html", "d5/d1b/a13044" ],
+    [ "spell_kalecgos_spectral_realm_dummy", "df/d18/a13040.html#a24771d6913e4a0e341e09fd77ef13cf6", null ],
+    [ "GetSpellScript", "df/d18/a13040.html#a3b882da8c6d8670c0a57f1ee11e29e9a", null ]
 ];

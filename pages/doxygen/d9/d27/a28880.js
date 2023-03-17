@@ -1,7 +1,6 @@
 var a28880 =
 [
-    [ "HandleDispel", "d9/d27/a28880.html#aaf6920cb0fec741f3cff1d3f6e6d2c0f", null ],
-    [ "PrepareAuraScript", "d9/d27/a28880.html#ace0ce4b85311893e1e6df403a6387cd9", null ],
-    [ "Register", "d9/d27/a28880.html#a2c67e4327fdd034978d4822311632980", null ],
-    [ "Validate", "d9/d27/a28880.html#ad8b5c381904c359ed608c808d5bbd9bd", null ]
+    [ "HandleHeal", "d9/d27/a28880.html#a03afbdbdc8555fc2d558a5e48f7340a0", null ],
+    [ "PrepareSpellScript", "d9/d27/a28880.html#a61a601108cd59e5d87634c02b002e20d", null ],
+    [ "Register", "d9/d27/a28880.html#ae46c965fc77aa61aaa3c426c8ecc585c", null ]
 ];

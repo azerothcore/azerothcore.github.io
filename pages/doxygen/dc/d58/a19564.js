@@ -1,8 +1,6 @@
 var a19564 =
 [
-    [ "npc_arthas_teleport_visualAI", "dc/d58/a19564.html#a9b9b2ba725cde9aec898244a9e50c394", null ],
-    [ "Reset", "dc/d58/a19564.html#a27155b8880a2a86b733bcd074e977b59", null ],
-    [ "UpdateAI", "dc/d58/a19564.html#a23c200f2c7b9f5d02bed7af37bc69c33", null ],
-    [ "_events", "dc/d58/a19564.html#a986f19145e46f5975f22a84a3e1b10ee", null ],
-    [ "_instance", "dc/d58/a19564.html#a25bc023e061a0845421a652b571a6e1e", null ]
+    [ "npc_frostwing_vrykulAI", "dc/d77/a19568.html", "dc/d77/a19568" ],
+    [ "npc_frostwing_vrykul", "dc/d58/a19564.html#ab915aa094ddebd9201a1c626e6427409", null ],
+    [ "GetAI", "dc/d58/a19564.html#a11678e59b6db9a41c7b6a575339995fd", null ]
 ];

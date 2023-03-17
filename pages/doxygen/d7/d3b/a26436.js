@@ -1,6 +1,6 @@
 var a26436 =
 [
-    [ "npc_greatfather_aldrimusAI", "d1/dd4/a26440.html", "d1/dd4/a26440" ],
-    [ "npc_greatfather_aldrimus", "d7/d3b/a26436.html#ac4af9fa1d0fe1348d43d598bce7a69db", null ],
-    [ "GetAI", "d7/d3b/a26436.html#a9fd2394e90bd9817ad51ad7d3ca15f63", null ]
+    [ "npcs_ashyen_and_keleth", "d7/d3b/a26436.html#a5d555db45c64717091148e9b93990be8", null ],
+    [ "OnGossipHello", "d7/d3b/a26436.html#a171516da8a475f840ced306589efda8e", null ],
+    [ "OnGossipSelect", "d7/d3b/a26436.html#a9428ce6b4fed7e8f5f6f8f9cd401e5bd", null ]
 ];

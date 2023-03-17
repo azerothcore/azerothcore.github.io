@@ -1,6 +1,6 @@
 var a16360 =
 [
-    [ "spell_ruby_sanctum_rallying_shout_SpellScript", "df/d20/a16364.html", "df/d20/a16364" ],
-    [ "spell_ruby_sanctum_rallying_shout", "d7/d18/a16360.html#a84bfaedba71a24fce95217159aa73c57", null ],
-    [ "GetSpellScript", "d7/d18/a16360.html#ad24a61e692645c276c004c57ed097112", null ]
+    [ "boss_saviana_ragefireAI", "df/d20/a16364.html", "df/d20/a16364" ],
+    [ "boss_saviana_ragefire", "d7/d18/a16360.html#a5964bbc510355a8b1fd08bd5f9f5f8c0", null ],
+    [ "GetAI", "d7/d18/a16360.html#a0a0073d8710af066d9711636f4d5b01e", null ]
 ];

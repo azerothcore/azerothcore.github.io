@@ -1,6 +1,9 @@
 var a20344 =
 [
-    [ "spell_boss_magus_telestra_summon_telestra_clones_AuraScript", "d3/dc3/a20348.html", "d3/dc3/a20348" ],
-    [ "spell_boss_magus_telestra_summon_telestra_clones", "de/d34/a20344.html#a44019aa29196c48d777dc54d81911829", null ],
-    [ "GetAuraScript", "de/d34/a20344.html#af88a6504ffb69bc995842717f20e05d1", null ]
+    [ "boss_commander_stoutbeardAI", "de/d34/a20344.html#a44bac0471ab37822be91c08e4cbd44d0", null ],
+    [ "JustDied", "de/d34/a20344.html#a8264fd42696a1f392b464b367f5e2933", null ],
+    [ "JustEngagedWith", "de/d34/a20344.html#a0bef61b70a285ab4b085ff7600fb7e77", null ],
+    [ "KilledUnit", "de/d34/a20344.html#ade8344d9cdf15625099d8b2550331ca6", null ],
+    [ "Reset", "de/d34/a20344.html#a5b7fe5b2a33eeb8f182aeca145cc62dd", null ],
+    [ "UpdateAI", "de/d34/a20344.html#a2e47e00e7e477c3abefe1549f1dd9c5f", null ]
 ];

@@ -1,5 +1,5 @@
 var a02018 =
 [
-    [ "WorldPackets::LFG::LFGJoin", "d5/ddf/a10135.html", "d5/ddf/a10135" ],
-    [ "WorldPackets::LFG::LFGLeave", "d5/dfe/a10139.html", "d5/dfe/a10139" ]
+    [ "operator<<", "da/d2d/a02018.html#ae8a45300d819957eb5ed8c659180c750", null ],
+    [ "operator<<", "da/d2d/a02018.html#abd3549ec2eebc439058205da8ae53eb3", null ]
 ];

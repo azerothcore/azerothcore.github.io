@@ -1,7 +1,7 @@
 var a27516 =
 [
-    [ "HandleScriptEffect", "db/df8/a27516.html#ab1d476e7a07da5db80908fb669b6fa6b", null ],
-    [ "PrepareSpellScript", "db/df8/a27516.html#acf30d245bab2e7a1ee1121008345e667", null ],
-    [ "Register", "db/df8/a27516.html#a303a38a41f3d9be6e3083690b234e51f", null ],
-    [ "Validate", "db/df8/a27516.html#a77a3256cdea185ce0ea95d88283c55d7", null ]
+    [ "CalcPeriodic", "db/df8/a27516.html#a5847ba4daad49dca2527513055fa4429", null ],
+    [ "PrepareAuraScript", "db/df8/a27516.html#a8753419b2fa1b1bb96a08bf54995e82c", null ],
+    [ "Register", "db/df8/a27516.html#a08f851e5582831d5dd05878c4a55db67", null ],
+    [ "Update", "db/df8/a27516.html#a3ab2716cbccc1311992de44e6591d966", null ]
 ];

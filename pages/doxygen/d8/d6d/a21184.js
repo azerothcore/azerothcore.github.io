@@ -1,7 +1,6 @@
 var a21184 =
 [
-    [ "HandleOnEffectApply", "d8/d6d/a21184.html#a5ce7afa2edfd04632ead87a82e280bcf", null ],
-    [ "HandleOnEffectRemove", "d8/d6d/a21184.html#a85a3e5acf6e4a64f3263e7bdab74b326", null ],
-    [ "PrepareAuraScript", "d8/d6d/a21184.html#ae4c804cf4b9612db645372339738da12", null ],
-    [ "Register", "d8/d6d/a21184.html#a783e89d9fab3a5738c08fd9104f74271", null ]
+    [ "OnPeriodic", "d8/d6d/a21184.html#abc1ff049ebd71372a105d08e82a5cd4e", null ],
+    [ "PrepareAuraScript", "d8/d6d/a21184.html#a55ff9d9bf90253b0f2d9510bc00e3127", null ],
+    [ "Register", "d8/d6d/a21184.html#ad4d26e672db9b8ed11368ab5143094db", null ]
 ];

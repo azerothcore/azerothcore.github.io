@@ -1,6 +1,6 @@
 var a22932 =
 [
-    [ "spell_destroy_door_sealAuraScript", "d0/dc7/a22936.html", "d0/dc7/a22936" ],
-    [ "spell_destroy_door_seal", "da/da6/a22932.html#ac764f6a9f5374cc2aef0390364408578", null ],
-    [ "GetAuraScript", "da/da6/a22932.html#a982384b8a0ec1a865c0f2bc083dcff55", null ]
+    [ "npc_azure_captainAI", "d0/dc7/a22936.html", "d0/dc7/a22936" ],
+    [ "npc_azure_captain", "da/da6/a22932.html#aeced2dbbfb23c161fd2bbc22859886a4", null ],
+    [ "GetAI", "da/da6/a22932.html#a0d1bd80fc38c61e05d3f31ffe587350f", null ]
 ];

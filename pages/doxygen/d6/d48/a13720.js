@@ -1,28 +1,6 @@
 var a13720 =
 [
-    [ "boss_nalorakkAI", "d6/d48/a13720.html#a3e25f60f2e11cc245390b21929321349", null ],
-    [ "AttackStart", "d6/d48/a13720.html#a5adafaf2921a8892e642db7fdd7b9721", null ],
-    [ "EnterCombat", "d6/d48/a13720.html#a79f84385d2730f83a31c6c01b0507f75", null ],
-    [ "JustDied", "d6/d48/a13720.html#a14b666aa040401991672a58dedeaad2d", null ],
-    [ "KilledUnit", "d6/d48/a13720.html#acfcb17a6003d24fa1e3210cd8b899941", null ],
-    [ "MoveInLineOfSight", "d6/d48/a13720.html#a86d3620d8d6e8a6500082ea71ebf3aaf", null ],
-    [ "MovementInform", "d6/d48/a13720.html#a106588c95a1c8f022ac4da156b5564dc", null ],
-    [ "Reset", "d6/d48/a13720.html#ad057b649679210c1342cbe52def71a8a", null ],
-    [ "ResetMobs", "d6/d48/a13720.html#a6a354f006fbd1c555339a6c871e96150", null ],
-    [ "SendAttacker", "d6/d48/a13720.html#a30fdcfacfbcda123b2fb92cbbfc74708", null ],
-    [ "UpdateAI", "d6/d48/a13720.html#a57926e9ae57618bcdbd503440578d678", null ],
-    [ "Berserk_Timer", "d6/d48/a13720.html#a60998c2c16af9f2799235e459dc90442", null ],
-    [ "BrutalSwipe_Timer", "d6/d48/a13720.html#a03fa5005a8b1d784ce51861379a7c322", null ],
-    [ "DeafeningRoar_Timer", "d6/d48/a13720.html#a45e4da03dc74bb0a9188bc2688a15125", null ],
-    [ "inBearForm", "d6/d48/a13720.html#ae9f37d867ed6fbb4d99e7ea338a57681", null ],
-    [ "inMove", "d6/d48/a13720.html#acefb22e1848b103589915cbb092c12d5", null ],
-    [ "instance", "d6/d48/a13720.html#a50b2585a611bb9c47e8fc49f347b761a", null ],
-    [ "LaceratingSlash_Timer", "d6/d48/a13720.html#a86de4dc4f0f8a94175ac310a555a2ae8", null ],
-    [ "Mangle_Timer", "d6/d48/a13720.html#ac9a138ae20c81911b47d9fc72c57f5f9", null ],
-    [ "MoveEvent", "d6/d48/a13720.html#a622f56155527ab3e358ffbe8308c62cc", null ],
-    [ "MovePhase", "d6/d48/a13720.html#ae206b5079a69d672d12fb395624fe704", null ],
-    [ "RendFlesh_Timer", "d6/d48/a13720.html#ac43fa9de9eea4efd0b252d30180e86fd", null ],
-    [ "ShapeShift_Timer", "d6/d48/a13720.html#a6b4196ebf2c195e5894515d73531399a", null ],
-    [ "Surge_Timer", "d6/d48/a13720.html#a6537a684bc28ad70ba6032ed7f83fa1b", null ],
-    [ "waitTimer", "d6/d48/a13720.html#a4abf593d93f1db7ac5366a3ff0c9a45e", null ]
+    [ "boss_janalaiAI", "d5/d86/a13724.html", "d5/d86/a13724" ],
+    [ "boss_janalai", "d6/d48/a13720.html#adb902ccc4dfc4ef7bab3e3428ff1082b", null ],
+    [ "GetAI", "d6/d48/a13720.html#a1782fb8882fae9818c03feab00417619", null ]
 ];

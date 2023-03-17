@@ -1,6 +1,6 @@
 var a17532 =
 [
-    [ "boss_gal_darahAI", "d5/d41/a17536.html", "d5/d41/a17536" ],
-    [ "boss_gal_darah", "d0/d5e/a17532.html#a687bb98f9de9cd838c57511dc6b3d086", null ],
-    [ "GetAI", "d0/d5e/a17532.html#a8f709568f5a06265056571061ff3a26b", null ]
+    [ "spell_drakkari_colossus_surge_SpellScript", "d5/d41/a17536.html", "d5/d41/a17536" ],
+    [ "spell_drakkari_colossus_surge", "d0/d5e/a17532.html#a54ef2e8f916144087096ce228daf5f2c", null ],
+    [ "GetSpellScript", "d0/d5e/a17532.html#ab738efe2f0634a24169b2f1a9be72107", null ]
 ];

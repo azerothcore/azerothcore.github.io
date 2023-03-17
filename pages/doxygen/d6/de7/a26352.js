@@ -1,5 +1,5 @@
 var a26352 =
 [
-    [ "go_crystal_prison", "d6/de7/a26352.html#a0faca8b76f9650ee5cc7825b90463365", null ],
-    [ "OnQuestAccept", "d6/de7/a26352.html#ad19d8bdf8361d5d7fca2917a6bf0977a", null ]
+    [ "npc_greatfather_aldrimusAI", "d6/de7/a26352.html#acc067293990dfcb36a7e3069537d6ed4", null ],
+    [ "CanBeSeen", "d6/de7/a26352.html#a863338d5a110d92fb7532df6cfaa546e", null ]
 ];

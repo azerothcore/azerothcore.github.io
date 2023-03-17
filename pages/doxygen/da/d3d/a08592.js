@@ -1,9 +1,14 @@
 var a08592 =
 [
-    [ "UnitListSearcher", "da/d3d/a08592.html#a24c0de32dc3baa927962626421a343ae", null ],
-    [ "Visit", "da/d3d/a08592.html#a83d86364ef2f9f9ed55b9bf9aa9bea0d", null ],
-    [ "Visit", "da/d3d/a08592.html#a92f9b0407e609b6c61f10d93aa49912f", null ],
-    [ "Visit", "da/d3d/a08592.html#a5fddd281a9f9cd10cf3948d4bf7b626f", null ],
-    [ "i_check", "da/d3d/a08592.html#a508a47e6261e7ae6e5669aee853ff99e", null ],
-    [ "i_phaseMask", "da/d3d/a08592.html#a43c863350bea423cf4a720c4c680fd4c", null ]
+    [ "WorldObjectLastSearcher", "da/d3d/a08592.html#af8baf5ff23a3167a963ade43faec09fc", null ],
+    [ "Visit", "da/d3d/a08592.html#ac011f150695eb1f3a83536175fd2a016", null ],
+    [ "Visit", "da/d3d/a08592.html#af5c5a533084c436e0d7de828e1ef82ad", null ],
+    [ "Visit", "da/d3d/a08592.html#a962a050f568dab037a9a48879eae0f86", null ],
+    [ "Visit", "da/d3d/a08592.html#a98967233e04c6223361897c02bc0edc5", null ],
+    [ "Visit", "da/d3d/a08592.html#a94d30e81eb509ff4fd3dac7c207c819b", null ],
+    [ "Visit", "da/d3d/a08592.html#a39a9d66014df641c0cb08f619f9d8434", null ],
+    [ "i_check", "da/d3d/a08592.html#a66afc21dd0fd740c2723516b8c33a319", null ],
+    [ "i_mapTypeMask", "da/d3d/a08592.html#a5689c8aa9120bc545c98ec0916d78d56", null ],
+    [ "i_object", "da/d3d/a08592.html#a765d65a90639b34a8cf9f42fdd6ae653", null ],
+    [ "i_phaseMask", "da/d3d/a08592.html#a966213d495a613f33aebaa8ebda7c380", null ]
 ];

@@ -1,5 +1,5 @@
 var a02363 =
 [
-    [ "send_commandscript", "dc/da4/a11095.html", "dc/da4/a11095" ],
-    [ "AddSC_send_commandscript", "d9/d27/a02363.html#a9f3fee551f6ca7aa7dad83edb2dfe480", null ]
+    [ "player_settings_commandscript", "d7/d26/a11120.html", "d7/d26/a11120" ],
+    [ "AddSC_player_settings_commandscript", "d9/d27/a02363.html#a366685affd5565d164c65f8cd4a20b61", null ]
 ];

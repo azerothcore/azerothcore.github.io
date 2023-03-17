@@ -1,10 +1,6 @@
 var a29488 =
 [
-    [ "npc_prof_alchemy", "d6/d34/a29488.html#a43ea842214fc507c34586d12df8f7fea", null ],
-    [ "HasAlchemySpell", "d6/d34/a29488.html#ac9df824e0923ca86189a53ae391b43c0", null ],
-    [ "OnGossipHello", "d6/d34/a29488.html#add760c538c7882e1ad8331b8ded74f5c", null ],
-    [ "OnGossipSelect", "d6/d34/a29488.html#a2377df97a293fb3fcbe7f70d4d815b75", null ],
-    [ "SendActionMenu", "d6/d34/a29488.html#a2d4c7337b40be323a384a9e755fc3145", null ],
-    [ "SendConfirmLearn", "d6/d34/a29488.html#a548224b30494636b9ee292a533fc7b39", null ],
-    [ "SendConfirmUnlearn", "d6/d34/a29488.html#ae4c861cf383f39d2e5ceebc9be4b568c", null ]
+    [ "npc_training_dummyAI", "df/dd3/a29492.html", "df/dd3/a29492" ],
+    [ "npc_training_dummy", "d6/d34/a29488.html#acfed4da3b1a01bc58e599d2dc134cb7d", null ],
+    [ "GetAI", "d6/d34/a29488.html#a87a48a42e8349ce9125de91a429d4ffa", null ]
 ];

@@ -1,8 +1,10 @@
 var a26532 =
 [
-    [ "npc_natrualist_biteAI", "d2/d55/a26536.html", "d2/d55/a26536" ],
-    [ "npc_natrualist_bite", "dd/d48/a26532.html#a094223dfd2d60e947717686ca93fdb83", null ],
-    [ "GetAI", "dd/d48/a26532.html#af4939d6e4c5d57aa7fcb3592328b4833", null ],
-    [ "OnGossipHello", "dd/d48/a26532.html#ace5a17bb353f93a8a3657e44c5bf5e9f", null ],
-    [ "OnGossipSelect", "dd/d48/a26532.html#a242b7f3560daed9720bb440812e24f39", null ]
+    [ "npc_pet_gen_imp_in_a_bottle", "dd/d48/a26532.html#aa32b7770c2719d77d46fcf6d22989284", null ],
+    [ "InitializeAI", "dd/d48/a26532.html#a9fde3fd30d48068a3ad1a19f65c61bf2", null ],
+    [ "UpdateAI", "dd/d48/a26532.html#a453ec855bb21a30cb72b540ff8f77035", null ],
+    [ "_data", "dd/d48/a26532.html#a982ec923536c2c33353a3673aa425b6a", null ],
+    [ "_hasParty", "dd/d48/a26532.html#a192d9e2ba340040cb6ba5c0f324ffb2d", null ],
+    [ "_ownerGUID", "dd/d48/a26532.html#a5452226bbe4f65a9bd7ce103a7648a2f", null ],
+    [ "_talkTimer", "dd/d48/a26532.html#a07eba859ad2d5db4f6d91734c04020cf", null ]
 ];

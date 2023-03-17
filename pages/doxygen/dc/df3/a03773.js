@@ -1,111 +1,92 @@
 var a03773 =
 [
-    [ "OPvPCapturePointNA", "dd/d40/a24091.html", "dd/d40/a24091" ],
-    [ "OutdoorPvPNA", "d9/de2/a24095.html", "d9/de2/a24095" ],
-    [ "ControlGOTypes", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19", [
-      [ "NA_ROOST_S", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19afa875929ebc8b1c2db3a195ee37095ad", null ],
-      [ "NA_ROOST_W", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19a237f904232faee9c60bf01b3e5d27623", null ],
-      [ "NA_ROOST_N", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19ad182fca04bd07e7f4b7a924bf476a520", null ],
-      [ "NA_ROOST_E", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19ac2360c16ea760d37dcec325a5165ec8c", null ],
-      [ "NA_BOMB_WAGON_S", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19a8fe4900cb979a36257cc3ee70cfcd56e", null ],
-      [ "NA_BOMB_WAGON_W", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19a7ff23be34578fcc2d55e1f088b3e00cb", null ],
-      [ "NA_BOMB_WAGON_N", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19a7b1be1932fafd2586d4706e8541b85b8", null ],
-      [ "NA_BOMB_WAGON_E", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19a2447af22ca220eab12dbc987125a6870", null ],
-      [ "NA_DESTROYED_ROOST_S", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19a6267ce0c271fd7e77fcebb63e09b4099", null ],
-      [ "NA_DESTROYED_ROOST_W", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19ab023c62e57c5d189c91a4babd13525cf", null ],
-      [ "NA_DESTROYED_ROOST_N", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19a9cbe15da02cd0024dbedf82b2c752f0f", null ],
-      [ "NA_DESTROYED_ROOST_E", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19a81fe1a37a84a9d647898f65913718e3e", null ],
-      [ "NA_CONTROL_GO_NUM", "dc/df3/a03773.html#a671e2c9be7783733226427ebd264eb19ac9ebedb94fb10e2eb33d411be0865bd7", null ]
+    [ "OPvPCapturePointEP_EWT", "d1/dfb/a24080.html", "d1/dfb/a24080" ],
+    [ "OPvPCapturePointEP_NPT", "da/d60/a24084.html", "da/d60/a24084" ],
+    [ "OPvPCapturePointEP_CGT", "d3/de4/a24088.html", "d3/de4/a24088" ],
+    [ "OPvPCapturePointEP_PWT", "d7/d5c/a24092.html", "d7/d5c/a24092" ],
+    [ "OutdoorPvPEP", "d6/d45/a24096.html", "d6/d45/a24096" ],
+    [ "EP_CrownGuardTowerWorldStates", "dc/df3/a03773.html#a8a95bfcb61b6c157b3fcb1d28fd75ca9", [
+      [ "EP_CGT_N_A", "dc/df3/a03773.html#a8a95bfcb61b6c157b3fcb1d28fd75ca9abc9c069eb162f17c873d780f5d210c5a", null ],
+      [ "EP_CGT_N_H", "dc/df3/a03773.html#a8a95bfcb61b6c157b3fcb1d28fd75ca9aa3935e441b830c6a57a25b41f956a472", null ],
+      [ "EP_CGT_A", "dc/df3/a03773.html#a8a95bfcb61b6c157b3fcb1d28fd75ca9aba70f403d1ce18bde45c549e4f2df087", null ],
+      [ "EP_CGT_H", "dc/df3/a03773.html#a8a95bfcb61b6c157b3fcb1d28fd75ca9a8fd531fb30b66fb2b93c59bb25572143", null ],
+      [ "EP_CGT_N", "dc/df3/a03773.html#a8a95bfcb61b6c157b3fcb1d28fd75ca9a194ef7849d171faa0d1f64345e7a8e5e", null ]
     ] ],
-    [ "ControlNPCTypes", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611", [
-      [ "NA_NPC_RESEARCHER", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611abd721de9448e5a827fad66e8849a021d", null ],
-      [ "NA_NPC_QUARTERMASTER", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611a341b982c471044332c5695603e50de43", null ],
-      [ "NA_NPC_BLADE_MERCHANT", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611a011eb3003de12f50bfb6becf14386900", null ],
-      [ "NA_NPC_FOOD_MERCHANT", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611adb1244ade65a16e6452481abd99b3d9d", null ],
-      [ "NA_NPC_AMMO", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611aea201272c882ed820afa1ae67214c57a", null ],
-      [ "NA_NPC_GUARD_01", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611ab896ccd6d2db5e7b7bcacd841efc624d", null ],
-      [ "NA_NPC_GUARD_02", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611a760437ee8a817e4b2813609abdc750ad", null ],
-      [ "NA_NPC_GUARD_03", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611a1a2376fd496e56f664ef05327f9a38f3", null ],
-      [ "NA_NPC_GUARD_04", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611af34c6bfa7afe998aef2a3bf22b179fb5", null ],
-      [ "NA_NPC_GUARD_05", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611a719b6e94b20d4c1295965ee77fc8c28e", null ],
-      [ "NA_NPC_GUARD_06", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611ada9ef0330f996ff43bdadec9e45cfa90", null ],
-      [ "NA_NPC_GUARD_07", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611a5dbf83b76af8ee34fff797b6dd7e07a5", null ],
-      [ "NA_NPC_GUARD_08", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611a7575c476840cf5e4ae18c4a3b95fed0c", null ],
-      [ "NA_NPC_GUARD_09", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611a31a41209748cc56f22532d6bf0833a44", null ],
-      [ "NA_NPC_GUARD_10", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611a043398264305d1f9870e619cff6cda7a", null ],
-      [ "NA_NPC_GUARD_11", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611a40eed4f0d77eade16f1d2338621b632d", null ],
-      [ "NA_NPC_GUARD_12", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611a220b5fbd9b1bb493ab77c2980eaa902b", null ],
-      [ "NA_NPC_GUARD_13", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611ad736ef6a8d036f724ebabdb9438b1ef5", null ],
-      [ "NA_NPC_GUARD_14", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611a170d07ea72b5b9ccf350488097808cf4", null ],
-      [ "NA_NPC_GUARD_15", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611aeffc095aaef4e42dda6abd9c3c01a2a1", null ],
-      [ "NA_CONTROL_NPC_NUM", "dc/df3/a03773.html#a813ccad45de4004da1755b8a859cc611a0c652cad9cda81f3984b955a53876955", null ]
+    [ "EP_EastwallTowerWorldStates", "dc/df3/a03773.html#a5e0819402f80ecac656b1d03a6cba64e", [
+      [ "EP_EWT_A", "dc/df3/a03773.html#a5e0819402f80ecac656b1d03a6cba64eaafe6f9fd08b8b153499ba391bdf45447", null ],
+      [ "EP_EWT_H", "dc/df3/a03773.html#a5e0819402f80ecac656b1d03a6cba64ea153c3185b2c18152800d711c4368f100", null ],
+      [ "EP_EWT_N_A", "dc/df3/a03773.html#a5e0819402f80ecac656b1d03a6cba64eadbdca9611007c5a815c8424ca295319d", null ],
+      [ "EP_EWT_N_H", "dc/df3/a03773.html#a5e0819402f80ecac656b1d03a6cba64eab8fccc84fc3677305fc391cc17050911", null ],
+      [ "EP_EWT_N", "dc/df3/a03773.html#a5e0819402f80ecac656b1d03a6cba64ea18665ac4882c5886abd84bf468f82c39", null ]
     ] ],
-    [ "FlightSpellsNA", "dc/df3/a03773.html#a68fd902d513cc8e7bf37946f9d26a80b", [
-      [ "NA_SPELL_FLY_SOUTH", "dc/df3/a03773.html#a68fd902d513cc8e7bf37946f9d26a80ba86e4e8c951657bc667c88d574dcbdb8f", null ],
-      [ "NA_SPELL_FLY_WEST", "dc/df3/a03773.html#a68fd902d513cc8e7bf37946f9d26a80ba9a9deaeede3e488499190b425fd3bdc2", null ],
-      [ "NA_SPELL_FLY_NORTH", "dc/df3/a03773.html#a68fd902d513cc8e7bf37946f9d26a80bafd6b9390ea045f8cfa5feef209cb9be3", null ],
-      [ "NA_SPELL_FLY_EAST", "dc/df3/a03773.html#a68fd902d513cc8e7bf37946f9d26a80bab97171fab8df1e600228b3da1456452d", null ]
+    [ "EP_GoSummons", "dc/df3/a03773.html#a0b5226d66242870e9f2bd6067ac871da", [
+      [ "EP_NPT_BUFF", "dc/df3/a03773.html#a0b5226d66242870e9f2bd6067ac871daabd6b57d3cd665b36305c0aac5f5721d0", null ],
+      [ "EP_NPT_FLAGS", "dc/df3/a03773.html#a0b5226d66242870e9f2bd6067ac871daa161f6913680b58a1eabe5ebbc4893cd9", null ],
+      [ "EP_EWT_FLAGS", "dc/df3/a03773.html#a0b5226d66242870e9f2bd6067ac871daa4c73d6edbab9874b66f52c45839132a0", null ],
+      [ "EP_CGT_FLAGS", "dc/df3/a03773.html#a0b5226d66242870e9f2bd6067ac871daa59ab547c79765b3a7d9bd772721ecdcc", null ],
+      [ "EP_PWT_FLAGS", "dc/df3/a03773.html#a0b5226d66242870e9f2bd6067ac871daaccecd1b4caaa55e2c67bfe71db5c3e3d", null ]
     ] ],
-    [ "HalaaStates", "dc/df3/a03773.html#a2c40def86e302e716c09a15f01e5b809", [
-      [ "HALAA_N", "dc/df3/a03773.html#a2c40def86e302e716c09a15f01e5b809a255888833d6c2bfcb48d6300e3a00e76", null ],
-      [ "HALAA_N_A", "dc/df3/a03773.html#a2c40def86e302e716c09a15f01e5b809a5e75a8ea3c221ca8d430a5c3a059ffba", null ],
-      [ "HALAA_A", "dc/df3/a03773.html#a2c40def86e302e716c09a15f01e5b809a7e97d445255ae31253d61c6042240799", null ],
-      [ "HALAA_N_H", "dc/df3/a03773.html#a2c40def86e302e716c09a15f01e5b809a83d195b2954e67659ed1f1c246d2a889", null ],
-      [ "HALAA_H", "dc/df3/a03773.html#a2c40def86e302e716c09a15f01e5b809a7159ad16ee5d51946529c3cd325c6547", null ]
+    [ "EP_NorthpassTowerWorldStates", "dc/df3/a03773.html#adde51f181d43ad54089d191770838666", [
+      [ "EP_NPT_N", "dc/df3/a03773.html#adde51f181d43ad54089d191770838666a1348541386a66bba2e65f9318a3c95aa", null ],
+      [ "EP_NPT_N_A", "dc/df3/a03773.html#adde51f181d43ad54089d191770838666af59c3c47454c37313252182b26956899", null ],
+      [ "EP_NPT_N_H", "dc/df3/a03773.html#adde51f181d43ad54089d191770838666a4a73101a7ebcb8fe106c5b1bd878c56c", null ],
+      [ "EP_NPT_A", "dc/df3/a03773.html#adde51f181d43ad54089d191770838666a0053a834db527e7efe134aab2378a9d6", null ],
+      [ "EP_NPT_H", "dc/df3/a03773.html#adde51f181d43ad54089d191770838666ae32e90509be59dc88f0021ae38cf93ff", null ]
     ] ],
-    [ "OutdoorPvPNASpells", "dc/df3/a03773.html#a933dca48e43f02c2e7846375e0e3a3e2", [
-      [ "NA_KILL_TOKEN_ALLIANCE", "dc/df3/a03773.html#a933dca48e43f02c2e7846375e0e3a3e2aae0070f813d277d5864226d25a571413", null ],
-      [ "NA_KILL_TOKEN_HORDE", "dc/df3/a03773.html#a933dca48e43f02c2e7846375e0e3a3e2aacbd3b5420e976421bab93b50cfa1f0c", null ],
-      [ "NA_CAPTURE_BUFF", "dc/df3/a03773.html#a933dca48e43f02c2e7846375e0e3a3e2a734083143cec178f24ecabb449f0637c", null ]
+    [ "EP_PlagewoodTowerWorldStates", "dc/df3/a03773.html#a53b11a363bf4c3409e46d601866a68a7", [
+      [ "EP_PWT_N_A", "dc/df3/a03773.html#a53b11a363bf4c3409e46d601866a68a7a1c66dedaebfaf500beee917930710089", null ],
+      [ "EP_PWT_N_H", "dc/df3/a03773.html#a53b11a363bf4c3409e46d601866a68a7ae7e66bc569e3fd17b746b55627687140", null ],
+      [ "EP_PWT_A", "dc/df3/a03773.html#a53b11a363bf4c3409e46d601866a68a7a6c89da6ce571bef1174b391a9739c003", null ],
+      [ "EP_PWT_H", "dc/df3/a03773.html#a53b11a363bf4c3409e46d601866a68a7aa47b39a956e872b099572b2c78d2d430", null ],
+      [ "EP_PWT_N", "dc/df3/a03773.html#a53b11a363bf4c3409e46d601866a68a7aa750f7cf7fe63939c96cec113e314cca", null ]
     ] ],
-    [ "OutdoorPvPNAWorldStates", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4", [
-      [ "NA_UI_HORDE_GUARDS_SHOW", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a46b1f69332f51942a69d5cd7f67c4060", null ],
-      [ "NA_UI_ALLIANCE_GUARDS_SHOW", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a18435bb3a2f55ccca54de96446c11c76", null ],
-      [ "NA_UI_GUARDS_MAX", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a78242c0e11a3b54151abc16a62c13155", null ],
-      [ "NA_UI_GUARDS_LEFT", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a9a1ac167627348793911b3eaa4eaf53f", null ],
-      [ "NA_UI_TOWER_SLIDER_DISPLAY", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a1d92d9a19c333accc776ec42292a9d99", null ],
-      [ "NA_UI_TOWER_SLIDER_POS", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a7e18ded329932acb1fadaea0aef590f2", null ],
-      [ "NA_UI_TOWER_SLIDER_N", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a692bf9811d4e43b5cb6592603420fbd0", null ],
-      [ "NA_MAP_WYVERN_NORTH_NEU_H", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a4681dce2da233ead15dba6679a4d4e47", null ],
-      [ "NA_MAP_WYVERN_NORTH_NEU_A", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a1ab284fdfbbfc708edd83a8d89077a61", null ],
-      [ "NA_MAP_WYVERN_NORTH_H", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a81ff4445d826a3ccc2b9cc3c3cdd9f8c", null ],
-      [ "NA_MAP_WYVERN_NORTH_A", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4af1a0af9ad4fc7843beb09e7690888001", null ],
-      [ "NA_MAP_WYVERN_SOUTH_NEU_H", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a0c6989cca039b53419eca78e0e80f2bc", null ],
-      [ "NA_MAP_WYVERN_SOUTH_NEU_A", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a2f3e15db5f33aa0098e664a4fc87e60a", null ],
-      [ "NA_MAP_WYVERN_SOUTH_H", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4af7f9e1b3fca047093d3fb6185d0f0e68", null ],
-      [ "NA_MAP_WYVERN_SOUTH_A", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a647b4b194ccecc222b2f641c4922dd15", null ],
-      [ "NA_MAP_WYVERN_WEST_NEU_H", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4aec85f147209dedfec2dbad91ab82d069", null ],
-      [ "NA_MAP_WYVERN_WEST_NEU_A", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a2cd7bee50399d66b488991819345a49f", null ],
-      [ "NA_MAP_WYVERN_WEST_H", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a3d338e189e3e1486c9e4ea368074e0bf", null ],
-      [ "NA_MAP_WYVERN_WEST_A", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4abcee1ec94244ad1c50af5baae35a68cf", null ],
-      [ "NA_MAP_WYVERN_EAST_NEU_H", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4ad77abb574994240e2aa2e7e23c5e3ac5", null ],
-      [ "NA_MAP_WYVERN_EAST_NEU_A", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4ad4dff8ecf2f435b8fdfb92798a300b89", null ],
-      [ "NA_MAP_WYVERN_EAST_H", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a5819d09734d5965cde5ff2d0342166e6", null ],
-      [ "NA_MAP_WYVERN_EAST_A", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a7d32a3b4d8eee8fe173cd43385457603", null ],
-      [ "NA_MAP_HALAA_NEUTRAL", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a25f97ed867e096cf488dd3c9e3c26506", null ],
-      [ "NA_MAP_HALAA_NEU_A", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a077e9ee539e99324b160b42186e8e6e5", null ],
-      [ "NA_MAP_HALAA_NEU_H", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4ae9b05219d2e4f96b937bc4c0e4d62fa1", null ],
-      [ "NA_MAP_HALAA_HORDE", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a14610fd9aae7251bc5652691bc33dcbe", null ],
-      [ "NA_MAP_HALAA_ALLIANCE", "dc/df3/a03773.html#a9d08dd162b413a84763f631ffd350fa4a57a31768a82d5e2224ba8ad48f3b4393", null ]
+    [ "EP_Summons", "dc/df3/a03773.html#ad9bf5a52eb45ee872984e5b5001e3847", [
+      [ "EP_EWT_COMMANDER", "dc/df3/a03773.html#ad9bf5a52eb45ee872984e5b5001e3847a02e7088d225f255f315ccd7c0c3bfa9c", null ],
+      [ "EP_EWT_SOLDIER1", "dc/df3/a03773.html#ad9bf5a52eb45ee872984e5b5001e3847ac57e6293c6754a601a94375add313fd3", null ],
+      [ "EP_EWT_SOLDIER2", "dc/df3/a03773.html#ad9bf5a52eb45ee872984e5b5001e3847a692d9c882b6949c9954095e18bcbaaf7", null ],
+      [ "EP_EWT_SOLDIER3", "dc/df3/a03773.html#ad9bf5a52eb45ee872984e5b5001e3847ac9c561614a0184c10a0f92efe3e49ddc", null ],
+      [ "EP_EWT_SOLDIER4", "dc/df3/a03773.html#ad9bf5a52eb45ee872984e5b5001e3847a6f60ef02c8ecf993fde2ce5cb1dc281d", null ],
+      [ "EP_PWT_FLIGHTMASTER", "dc/df3/a03773.html#ad9bf5a52eb45ee872984e5b5001e3847a1a3531875652cba7423a81d95710bc89", null ]
     ] ],
-    [ "WyvernStates", "dc/df3/a03773.html#a408ccf9c409baffb9c6d03f2edde557c", [
-      [ "WYVERN_NEU_HORDE", "dc/df3/a03773.html#a408ccf9c409baffb9c6d03f2edde557ca9069d119becf81d131d0212caf8c6ab5", null ],
-      [ "WYVERN_NEU_ALLIANCE", "dc/df3/a03773.html#a408ccf9c409baffb9c6d03f2edde557ca98723680d7ec1dc91030d50df4603200", null ],
-      [ "WYVERN_HORDE", "dc/df3/a03773.html#a408ccf9c409baffb9c6d03f2edde557cafdcbf2305711075969d48e3a56c2a578", null ],
-      [ "WYVERN_ALLIANCE", "dc/df3/a03773.html#a408ccf9c409baffb9c6d03f2edde557cabc4cc5f16edf95d854b436d27ce77c8e", null ]
+    [ "EP_Towers", "dc/df3/a03773.html#acb017cec20a6986c80544c74f4755313", [
+      [ "EP_EWT", "dc/df3/a03773.html#acb017cec20a6986c80544c74f4755313a886963cebfd5423ed826003d66282535", null ],
+      [ "EP_NPT", "dc/df3/a03773.html#acb017cec20a6986c80544c74f4755313a325af9e8b22e4a01e1c6e1c2e98de869", null ],
+      [ "EP_PWT", "dc/df3/a03773.html#acb017cec20a6986c80544c74f4755313a03b88e9657ca925556db1d3e7b6d253e", null ],
+      [ "EP_CGT", "dc/df3/a03773.html#acb017cec20a6986c80544c74f4755313a7cb411796051126f28519def8023bdda", null ],
+      [ "EP_TOWER_NUM", "dc/df3/a03773.html#acb017cec20a6986c80544c74f4755313a386ba14a38a78fe9be7eae87e7d30c73", null ]
     ] ],
-    [ "AllianceControlGOs", "dc/df3/a03773.html#a6da5d6b9a0ecd5b15ced61c27d1c8aa4", null ],
-    [ "AllianceControlNPCs", "dc/df3/a03773.html#a6964e2619ee57738d73b7360053c2d44", null ],
-    [ "FLIGHT_NODES_NUM", "dc/df3/a03773.html#a767a89853ad9fbcea5e94bae963b3168", null ],
-    [ "FlightPathEndNodes", "dc/df3/a03773.html#aa4cf9c47955c274ca0bdce61e98a3a5a", null ],
-    [ "FlightPathStartNodes", "dc/df3/a03773.html#ac9bda252b1c34c9a478d3251069384b8", null ],
-    [ "HordeControlGOs", "dc/df3/a03773.html#a2ca90cdca32c0c9a0fef5ece362bb3e6", null ],
-    [ "HordeControlNPCs", "dc/df3/a03773.html#a758131881d56e8b8df0d93997c83a0c5", null ],
-    [ "NA_BUFF_ZONE", "dc/df3/a03773.html#ae9287f13e383331fe53c5a514989ca99", null ],
-    [ "NA_CREDIT_MARKER", "dc/df3/a03773.html#a8c04516b1462a78d64563849fe3136a1", null ],
-    [ "NA_GUARD_CHECK_TIME", "dc/df3/a03773.html#a0f69597d7fce786cae5202cb06be06cf", null ],
-    [ "NA_GUARDS_MAX", "dc/df3/a03773.html#a3fba4585a3d42e96191aa62b6938472f", null ],
-    [ "NA_HALAA_GRAVEYARD", "dc/df3/a03773.html#a23eddcc072a261674acb3acb48f637cb", null ],
-    [ "NA_HALAA_GRAVEYARD_ZONE", "dc/df3/a03773.html#a74f493038b14c5e7e5a00c661339278e", null ],
-    [ "NA_RESPAWN_TIME", "dc/df3/a03773.html#a6fd5686dd6cf4251b3b33513928f44bd", null ]
+    [ "EP_TowerStates", "dc/df3/a03773.html#a803bc1884225e56dd663001b104aeb2c", [
+      [ "EP_TS_N", "dc/df3/a03773.html#a803bc1884225e56dd663001b104aeb2ca114ce72e85bdab2aa278d07a3ed6f86c", null ],
+      [ "EP_TS_N_A", "dc/df3/a03773.html#a803bc1884225e56dd663001b104aeb2ca374de4c147a53afd1e446644329ca589", null ],
+      [ "EP_TS_N_H", "dc/df3/a03773.html#a803bc1884225e56dd663001b104aeb2ca3b9fcbaa216c28e21276e608aa77aee7", null ],
+      [ "EP_TS_A_P", "dc/df3/a03773.html#a803bc1884225e56dd663001b104aeb2caff0b067d2f9e15a88447d855c711afcf", null ],
+      [ "EP_TS_H_P", "dc/df3/a03773.html#a803bc1884225e56dd663001b104aeb2ca6f356a7dbe409b3f8fa98e0e30f17866", null ],
+      [ "EP_TS_A", "dc/df3/a03773.html#a803bc1884225e56dd663001b104aeb2ca19f979dcdacbc0d3bb1c4babb4fcbdf0", null ],
+      [ "EP_TS_H", "dc/df3/a03773.html#a803bc1884225e56dd663001b104aeb2cab9edf90a3d5c3e17ecb71fe92672e57b", null ]
+    ] ],
+    [ "EP_WorldStates", "dc/df3/a03773.html#a17123e2aae6fe27e30e952be34e0403a", [
+      [ "EP_UI_TOWER_SLIDER_DISPLAY", "dc/df3/a03773.html#a17123e2aae6fe27e30e952be34e0403aa2cef2ed3e40740db528809285d629f12", null ],
+      [ "EP_UI_TOWER_SLIDER_POS", "dc/df3/a03773.html#a17123e2aae6fe27e30e952be34e0403aad3ef398efd356aa22097745ab49d1987", null ],
+      [ "EP_UI_TOWER_SLIDER_N", "dc/df3/a03773.html#a17123e2aae6fe27e30e952be34e0403aafee34b4367cfba811e1a3ff6cd2d98d5", null ],
+      [ "EP_UI_TOWER_COUNT_A", "dc/df3/a03773.html#a17123e2aae6fe27e30e952be34e0403aad205f1a816fa5d304ff3f4d9058e34bd", null ],
+      [ "EP_UI_TOWER_COUNT_H", "dc/df3/a03773.html#a17123e2aae6fe27e30e952be34e0403aa325f173bb15bebc36f8ac0ce6d956d23", null ]
+    ] ],
+    [ "EP_AllianceBuffs", "dc/df3/a03773.html#a39190e48b2170e2d0d0628b06d6da8f1", null ],
+    [ "EP_CGT_CM", "dc/df3/a03773.html#a4eb66c50d410c58b22546406eda37e5f", null ],
+    [ "EP_EWT_CM", "dc/df3/a03773.html#a9bf83dc59a4ca7a56297e572ee782e9e", null ],
+    [ "EP_EWT_NUM_CREATURES", "dc/df3/a03773.html#aa62021ba8da0171188d5327cade2d79c", null ],
+    [ "EP_EWT_Summons_A", "dc/df3/a03773.html#a13c9b3f39108790585875365648e6a51", null ],
+    [ "EP_EWT_Summons_H", "dc/df3/a03773.html#adae054ab5e44ffc0c7a528c417aff670", null ],
+    [ "EP_GraveYardId", "dc/df3/a03773.html#a08a4924d9c58da2399c472ce929b1684", null ],
+    [ "EP_GraveYardZone", "dc/df3/a03773.html#afe8aba12ea7cf1a9e08f3cc19df955a9", null ],
+    [ "EP_HordeBuffs", "dc/df3/a03773.html#a870abed831404a02d171e9cf1bd741cb", null ],
+    [ "EP_NPT_CM", "dc/df3/a03773.html#aad6c6d1e803fa77420b7d8bc5450975a", null ],
+    [ "EP_NPT_LordaeronShrine", "dc/df3/a03773.html#ab95dc19577389e3d84821796921e3cc1", null ],
+    [ "EP_NUM_CREATURES", "dc/df3/a03773.html#a60340c7ab3a1dd51078336de7759f588", null ],
+    [ "EP_PWT_CM", "dc/df3/a03773.html#a25cbe7281f91d6a29b183f97340385ef", null ],
+    [ "EP_PWT_FlightMaster", "dc/df3/a03773.html#ab9af729b1e6ed3b993d963037395a531", null ],
+    [ "EPBuffZones", "dc/df3/a03773.html#a2acf7be696695ceaa968a2eac356e562", null ],
+    [ "EPBuffZonesNum", "dc/df3/a03773.html#a8e411865d0acd6cd6c6f10172adf4ad4", null ],
+    [ "EPCapturePoints", "dc/df3/a03773.html#a45924b22012276ef73ca0a50fa786e52", null ],
+    [ "EPTowerFlags", "dc/df3/a03773.html#af18f636f66cc238611a1f2dd03b2ddcb", null ]
 ];

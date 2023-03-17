@@ -1,10 +1,10 @@
 var a28900 =
 [
-    [ "CheckProc", "da/def/a28900.html#a257202ac9b80a67ce58d9e3491164d22", null ],
-    [ "HandleProc", "da/def/a28900.html#aa3c74b25fbe63ac77e10260159adb8ca", null ],
-    [ "HandleTick", "da/def/a28900.html#a5e436c530e5ef70bc4de4305676ed196", null ],
-    [ "PrepareAuraScript", "da/def/a28900.html#aef7d1a2bbd59af36cc130f07e1204081", null ],
-    [ "Register", "da/def/a28900.html#a11b0120ea8c8ccf1c96e5d1053d64895", null ],
-    [ "RemoveEffect", "da/def/a28900.html#a333ad80d8478f59713ee049f935d7885", null ],
-    [ "Validate", "da/def/a28900.html#aed3cb37f0230463978b210add84bd31d", null ]
+    [ "CheckProc", "da/def/a28900.html#a68a559c46266fc7337f7d56bb66af542", null ],
+    [ "HandleProc", "da/def/a28900.html#a69cdd92cea54ec5bf11f6011578b2338", null ],
+    [ "Load", "da/def/a28900.html#ad571b0d2f47cff037030d7a8184f60fd", null ],
+    [ "PrepareAuraScript", "da/def/a28900.html#aa20e2911e60f3ae7a9dcceee8f96b6ef", null ],
+    [ "Register", "da/def/a28900.html#a8af18925b317c717fcd6b2fae14a16e4", null ],
+    [ "Validate", "da/def/a28900.html#ac0cf25901d70e37bb887b3baa38790b5", null ],
+    [ "_procTarget", "da/def/a28900.html#ad48f21d3a45e97857265e6047f253910", null ]
 ];

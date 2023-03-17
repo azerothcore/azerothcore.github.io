@@ -1,7 +1,9 @@
 var a28128 =
 [
-    [ "CheckProc", "d5/dac/a28128.html#a2052750b91de67b330a2ae6a190a5d4e", null ],
-    [ "HandleProc", "d5/dac/a28128.html#a5b404a07ccb13cabf5fa6ab90db92129", null ],
-    [ "PrepareAuraScript", "d5/dac/a28128.html#af16eec48ab0f469ca3cefd149bb0d925", null ],
-    [ "Register", "d5/dac/a28128.html#a4f31c76184e4ae5bc03763e04cdac72e", null ]
+    [ "CheckCast", "d5/dac/a28128.html#ad7bfc65b26013ad259679ae8b4a5dd9a", null ],
+    [ "HandleTriggerSpellHit", "d5/dac/a28128.html#aca027bb2995456bfcedd33c06966eb88", null ],
+    [ "HandleTriggerSpellLaunch", "d5/dac/a28128.html#aa67bf9f81086a3837037d67306979072", null ],
+    [ "PrepareSpellScript", "d5/dac/a28128.html#a9247b5f3a376bebdcf857565b5049944", null ],
+    [ "Register", "d5/dac/a28128.html#aaf056806d72da6aa2e3e6e70d46d6933", null ],
+    [ "Validate", "d5/dac/a28128.html#a4fc8f6a7ecd041dcfca4fd51d71e725c", null ]
 ];

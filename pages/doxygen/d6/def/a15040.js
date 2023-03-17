@@ -1,9 +1,6 @@
 var a15040 =
 [
-    [ "npc_obsidian_destroyer", "d6/def/a15040.html#abd8b1614a9da9fbe9c9898246b0822b8", null ],
-    [ "EnterCombat", "d6/def/a15040.html#a7075061d09c227efdc91bc7603fd39d4", null ],
-    [ "JustDied", "d6/def/a15040.html#adc54ac02383f5e5bf6af980f5ba301e8", null ],
-    [ "Reset", "d6/def/a15040.html#a08c6b9ec0e2f4207d48f95eedf2c26ab", null ],
-    [ "UpdateAI", "d6/def/a15040.html#a79ba48d421a636f99ea65c0e34d084e1", null ],
-    [ "_scheduler", "d6/def/a15040.html#a8f8fafff078c551530f49d8df1bb5204", null ]
+    [ "FilterTargets", "d6/def/a15040.html#ac4f353ac54e7a461d5411fd8eae33cc1", null ],
+    [ "PrepareSpellScript", "d6/def/a15040.html#a8cb8041b71dd3175b627fe7ec5b2c2f3", null ],
+    [ "Register", "d6/def/a15040.html#a07d56d19b95c8d24f6908815e4ceb13f", null ]
 ];

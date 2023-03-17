@@ -1,6 +1,6 @@
 var a25728 =
 [
-    [ "spell_botanica_shift_form_AuraScript", "d4/d74/a25732.html", "d4/d74/a25732" ],
-    [ "spell_botanica_shift_form", "d2/df6/a25728.html#a61f64af027977b0c347af9409990013f", null ],
-    [ "GetAuraScript", "d2/df6/a25728.html#a06e55c631e296dc4c17c5c81aec7e599", null ]
+    [ "HandleForceCast", "d2/df6/a25728.html#a28f27b39d855faa38be88ee56ed14234", null ],
+    [ "PrepareSpellScript", "d2/df6/a25728.html#a2697886965916855ad445a1b299f69fb", null ],
+    [ "Register", "d2/df6/a25728.html#a991b00ae8d4a2744c625d285b667834d", null ]
 ];

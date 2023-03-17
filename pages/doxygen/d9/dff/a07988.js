@@ -1,5 +1,8 @@
 var a07988 =
 [
-    [ "Rank", "d9/dff/a07988.html#a61797c7cb799308a7c20a954d287be17", null ],
-    [ "SkillId", "d9/dff/a07988.html#a3f28221b1c8e91bf9f2fa6337e81c952", null ]
+    [ "IsInSpec", "d9/dff/a07988.html#a77968b5562467f85bda04b6f2f41ca29", null ],
+    [ "inSpellBook", "d9/dff/a07988.html#a650926fa9d1bbab336ee7ed3dd0b0b7d", null ],
+    [ "specMask", "d9/dff/a07988.html#acc1913a90ca2bd23298d3590843cfbd5", null ],
+    [ "State", "d9/dff/a07988.html#a062758af7e92f7e2263ca0a0fd329151", null ],
+    [ "talentID", "d9/dff/a07988.html#aca9b191361652002f5178179a939e41b", null ]
 ];

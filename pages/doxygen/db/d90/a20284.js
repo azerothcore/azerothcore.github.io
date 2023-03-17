@@ -1,8 +1,6 @@
 var a20284 =
 [
-    [ "FilterTargets", "db/d90/a20284.html#a69c9f495d5695adaf01deb9aef380bbc", null ],
-    [ "Load", "db/d90/a20284.html#a086df5b42d189fdc3c7e643bef29603e", null ],
-    [ "PrepareSpellScript", "db/d90/a20284.html#a8092a3659775075c2ccab2d306ff7db0", null ],
-    [ "Register", "db/d90/a20284.html#a0c7285dc6686e691c05e51bd4d36049d", null ],
-    [ "DrakeGUID", "db/d90/a20284.html#a1895e19686fb4aa53592451b6d6982ea", null ]
+    [ "npc_alexstraszaAI", "d3/d6f/a20288.html", "d3/d6f/a20288" ],
+    [ "npc_alexstrasza", "db/d90/a20284.html#aa28858e8368031c2882e7e3c1c5968dd", null ],
+    [ "GetAI", "db/d90/a20284.html#ad155ccc4f7bca786229ee015d365e3ce", null ]
 ];

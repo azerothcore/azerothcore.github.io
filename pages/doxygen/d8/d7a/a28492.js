@@ -1,7 +1,6 @@
 var a28492 =
 [
-    [ "HandleScript", "d8/d7a/a28492.html#aa00117e677af1e236962c59b688d8a98", null ],
-    [ "Load", "d8/d7a/a28492.html#ad05b65848e35d87fb9ef1ae413de6256", null ],
-    [ "PrepareSpellScript", "d8/d7a/a28492.html#afbffeadede1cc7f08a0a52f4a7bee680", null ],
-    [ "Register", "d8/d7a/a28492.html#a52d4828ccd5430a622a32b1279943f9b", null ]
+    [ "HandleScript", "d8/d7a/a28492.html#ad0885113f3bd8eea8ff3db30b55cc240", null ],
+    [ "PrepareSpellScript", "d8/d7a/a28492.html#a8410b746f810eaeb7f71c3a7de607a84", null ],
+    [ "Register", "d8/d7a/a28492.html#ab8f5c857ee42a6767d10277b52a7da01", null ]
 ];

@@ -1,6 +1,6 @@
 var a17508 =
 [
-    [ "spell_drakkari_colossus_surge_SpellScript", "d1/d80/a17512.html", "d1/d80/a17512" ],
-    [ "spell_drakkari_colossus_surge", "d9/d7b/a17508.html#a54ef2e8f916144087096ce228daf5f2c", null ],
-    [ "GetSpellScript", "d9/d7b/a17508.html#ab738efe2f0634a24169b2f1a9be72107", null ]
+    [ "boss_drakkari_elementalAI", "d1/d80/a17512.html", "d1/d80/a17512" ],
+    [ "boss_drakkari_elemental", "d9/d7b/a17508.html#a143dd5d52ea7bb3c3c1d96da45af81ee", null ],
+    [ "GetAI", "d9/d7b/a17508.html#aab2f9c71ddb77164bd644d18b9e88313", null ]
 ];

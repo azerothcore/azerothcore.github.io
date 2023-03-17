@@ -1,9 +1,7 @@
 var a13432 =
 [
-    [ "npc_tyrion_spybotAI", "df/d95/a13432.html#aedad685279012266637d29069ead9063", null ],
-    [ "Reset", "df/d95/a13432.html#a16f8f9fd368832aac7906c3fd8cb9698", null ],
-    [ "UpdateAI", "df/d95/a13432.html#ad8fc713bb9673e74bfd11bc653c71587", null ],
-    [ "WaypointReached", "df/d95/a13432.html#a819e987eeb8eb8d580a5ad22001a641d", null ],
-    [ "uiPhase", "df/d95/a13432.html#af5dbb99fe18d96665efd04bd53294636", null ],
-    [ "uiTimer", "df/d95/a13432.html#ab41fdff3612b29e7d0d94fb6aaa8c085", null ]
+    [ "npc_deathstalker_erlandAI", "df/d95/a13432.html#aa3c6822db09bc40dc87d556f6b3cc880", null ],
+    [ "JustEngagedWith", "df/d95/a13432.html#ae4789c26cbb00b4ac04d646617a48a40", null ],
+    [ "Reset", "df/d95/a13432.html#a3def0a0dd57ed732242a09d6390ab1f0", null ],
+    [ "WaypointReached", "df/d95/a13432.html#af200e269d3f4b51bb5cfd08e9bf7ecc5", null ]
 ];

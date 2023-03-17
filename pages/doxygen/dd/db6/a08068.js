@@ -1,11 +1,8 @@
 var a08068 =
 [
-    [ "FriendInfo", "dd/db6/a08068.html#a31272eeef0d6b9c98821f8ee7f379977", null ],
-    [ "FriendInfo", "dd/db6/a08068.html#a04f34a681d62e3dc1013f840ac04f3ec", null ],
-    [ "Area", "dd/db6/a08068.html#adf16884b55545ed9302dbb54d653867b", null ],
-    [ "Class", "dd/db6/a08068.html#a8b797fcfda05d52d4297f32e458be519", null ],
-    [ "Flags", "dd/db6/a08068.html#ab74652d747c8baa8df7fdbcfd5c68636", null ],
-    [ "Level", "dd/db6/a08068.html#a70d9a74f4587f648db5bf49b61091213", null ],
-    [ "Note", "dd/db6/a08068.html#aa9aea70eba08de460ff9cc5c622ca75f", null ],
-    [ "Status", "dd/db6/a08068.html#a380f11d65b34e1e598b7861987cecfe6", null ]
+    [ "checkLeaderOnly", "dd/db6/a08068.html#ade8f2e22abe69a9a32085e4d901bc83b", null ],
+    [ "faction", "dd/db6/a08068.html#a23c649e494795b27856b67225370a820", null ],
+    [ "id", "dd/db6/a08068.html#a5d5b8f6fe0bfc5ae98c2fb10e3a18360", null ],
+    [ "note", "dd/db6/a08068.html#a0e800dd8869fedbe71e5b14aa3c79d8a", null ],
+    [ "priority", "dd/db6/a08068.html#a3a66018ae4e7a7e755962f1edae58d29", null ]
 ];

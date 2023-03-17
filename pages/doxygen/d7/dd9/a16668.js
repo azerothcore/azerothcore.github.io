@@ -1,7 +1,7 @@
 var a16668 =
 [
-    [ "npc_toc_retro_paladinAI", "d7/dd9/a16668.html#afe933281cea61c9a4f3ded76290a3b72", null ],
-    [ "myCanCast", "d7/dd9/a16668.html#a271b1d0855dbd2e38ecb6ea62140012f", null ],
-    [ "UpdateAI", "d7/dd9/a16668.html#a105d6b9c133c1147b310826d7be416f5", null ],
-    [ "events", "d7/dd9/a16668.html#a7078c28d5392bc77d577fa7a6f96b9d7", null ]
+    [ "npc_toc_warriorAI", "d7/dd9/a16668.html#a6eee7e4fc83ed56a0f775b6892dc8dcb", null ],
+    [ "myCanCast", "d7/dd9/a16668.html#ac815e13cbbe9a8833330e15213420c65", null ],
+    [ "UpdateAI", "d7/dd9/a16668.html#aa787deda09d9bbf2c54d51e618eb2a82", null ],
+    [ "events", "d7/dd9/a16668.html#ae8f9d3f5f2c9172442c7ba4a83275cc1", null ]
 ];

@@ -1,11 +1,12 @@
 var a13588 =
 [
-    [ "npc_halazzi_lynxAI", "d5/dc3/a13588.html#a0edc81cce7d6ef466a14c32ea5b90a5d", null ],
-    [ "AttackStart", "d5/dc3/a13588.html#a0654eae250e5e51aa3d293840c22c2f0", null ],
-    [ "DamageTaken", "d5/dc3/a13588.html#a1353ffc9d2c912fdd023dbed1e9c498c", null ],
-    [ "EnterCombat", "d5/dc3/a13588.html#ae1b0b984118533daf424842db311806f", null ],
-    [ "Reset", "d5/dc3/a13588.html#ac4b9968cd5fce38953f02d92b408f865", null ],
-    [ "UpdateAI", "d5/dc3/a13588.html#a31f3e54784189fa46bccf485e7a78bc9", null ],
-    [ "FrenzyTimer", "d5/dc3/a13588.html#aa6805b4adfa9854fb3d228acb0ccd6c1", null ],
-    [ "shredder_timer", "d5/dc3/a13588.html#aca456062ee20737b8403cb243b1a3578", null ]
+    [ "npc_daphne_stilwellAI", "d5/dc3/a13588.html#ac2e9f940bc64a70ff8a386e4f483a65e", null ],
+    [ "AttackStart", "d5/dc3/a13588.html#a30056a45adb91a12cf7bcc4e9f0b2d54", null ],
+    [ "JustSummoned", "d5/dc3/a13588.html#ae56554d30e9de7644efab891555c57e0", null ],
+    [ "Reset", "d5/dc3/a13588.html#ae6f0b271478aecf7fd1f3e1c733d77f0", null ],
+    [ "SummonedCreatureDies", "d5/dc3/a13588.html#aa6fdcf9e09031522d342b603b4c70aed", null ],
+    [ "Update", "d5/dc3/a13588.html#a4099d75c4a6bca1525781a5753ef9972", null ],
+    [ "WaypointReached", "d5/dc3/a13588.html#a1035eb0a1696730d8304593b5fb079e4", null ],
+    [ "summons", "d5/dc3/a13588.html#a0cbf5aaf1cb2f234e725074de0acc7e6", null ],
+    [ "textCounter", "d5/dc3/a13588.html#a62ab24169c1b7c3028ab33303b217f63", null ]
 ];

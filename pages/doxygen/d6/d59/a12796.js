@@ -1,6 +1,11 @@
 var a12796 =
 [
-    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer_SpellScript", "d2/df8/a12800.html", "d2/df8/a12800" ],
-    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer", "d6/d59/a12796.html#a5eb6f05a4436b8edc8c7e71926328e30", null ],
-    [ "GetSpellScript", "d6/d59/a12796.html#ac76a5ea53843c60d0742245971b5448d", null ]
+    [ "boss_baroness_anastariAI", "d6/d59/a12796.html#acf180bbe881ba1f6e49c075254759c00", null ],
+    [ "JustDied", "d6/d59/a12796.html#a1a7bf1e6c39b0b61e95390e7ee1c5e6b", null ],
+    [ "JustEngagedWith", "d6/d59/a12796.html#a7329455d99045e7002abffe09112a4ea", null ],
+    [ "Reset", "d6/d59/a12796.html#a80c99c59486d2a7850a3a54ffebe998b", null ],
+    [ "SchedulePossession", "d6/d59/a12796.html#afbf2d4e9c3e8e50815c398b97afb3970", null ],
+    [ "UpdateAI", "d6/d59/a12796.html#a962e4e3091d126682825c326af5f6922", null ],
+    [ "_possessedTargetGuid", "d6/d59/a12796.html#a36e386b847c7032b5ce95a01070518ad", null ],
+    [ "_scheduler", "d6/d59/a12796.html#aa59518627a5e64e371dbbb45cfced75f", null ]
 ];

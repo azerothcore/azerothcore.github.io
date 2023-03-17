@@ -1,6 +1,6 @@
 var a24764 =
 [
-    [ "CalculateAmount", "d4/dfa/a24764.html#a68dc4fe6ec0b67bdf44de4053bf35581", null ],
-    [ "PrepareAuraScript", "d4/dfa/a24764.html#a6e3714441fc4ab3921c29a232c64fa1d", null ],
-    [ "Register", "d4/dfa/a24764.html#ac67ced6dd83ea72abb05b260f1e0001f", null ]
+    [ "boss_lady_malandeAI", "db/d7d/a24768.html", "db/d7d/a24768" ],
+    [ "boss_lady_malande", "d4/dfa/a24764.html#a5c159907210c053cd82dddb1be5fff4a", null ],
+    [ "GetAI", "d4/dfa/a24764.html#a338a862e901543f8557d31f2fcaa8575", null ]
 ];

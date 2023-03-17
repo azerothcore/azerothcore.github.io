@@ -1,6 +1,6 @@
 var a25952 =
 [
-    [ "spell_capacitus_polarity_shift_SpellScript", "d3/d65/a25956.html", "d3/d65/a25956" ],
-    [ "spell_capacitus_polarity_shift", "dc/d98/a25952.html#afa703b04e8217c47050a6a41cfabcd1d", null ],
-    [ "GetSpellScript", "dc/d98/a25952.html#a159901c37535783b5a536a7972337410", null ]
+    [ "boss_pathaleon_the_calculatorAI", "d3/d65/a25956.html", "d3/d65/a25956" ],
+    [ "boss_pathaleon_the_calculator", "dc/d98/a25952.html#a751d88669ac69b987c8b4777214a01bf", null ],
+    [ "GetAI", "dc/d98/a25952.html#ab41b7cd5d5e1964ecae47550d0e4b4ea", null ]
 ];

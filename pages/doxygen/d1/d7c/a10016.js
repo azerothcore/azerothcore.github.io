@@ -1,6 +1,8 @@
 var a10016 =
 [
-    [ "GuildUpdateInfoText", "d1/d7c/a10016.html#a82afd6cb3240da6870990d6f80f69cd6", null ],
-    [ "Read", "d1/d7c/a10016.html#a7019344fef99c5479602d7bc1176e9ee", null ],
-    [ "InfoText", "d1/d7c/a10016.html#a786802ce427465d66a4cea1365743975", null ]
+    [ "OtherGUID", "d1/d7c/a10016.html#a3f7486a2e4e07fef318414eaaa9037da", null ],
+    [ "PlayerGUID", "d1/d7c/a10016.html#ae3d1217ddbfccd601fcbc57b78739a94", null ],
+    [ "RankID", "d1/d7c/a10016.html#a1aebcb39f85c2b44101a311a6ccefdfd", null ],
+    [ "TransactionDate", "d1/d7c/a10016.html#a4a8054876b35134e5dfe2cf84887e66f", null ],
+    [ "TransactionType", "d1/d7c/a10016.html#aa48b69aa9078fb150470d66201b34786", null ]
 ];

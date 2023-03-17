@@ -1,6 +1,6 @@
 var a25208 =
 [
-    [ "boss_thespiaAI", "df/da4/a25212.html", "df/da4/a25212" ],
-    [ "boss_hydromancer_thespia", "d4/de9/a25208.html#a7d23376eb0232f8a79ebae5127aa672d", null ],
-    [ "GetAI", "d4/de9/a25208.html#a555f6083ffb53415cb4183e9c6e744d6", null ]
+    [ "go_ahune_ice_stone", "d4/de9/a25208.html#ae545cd6b41237c2098ed1403ca2b1d7d", null ],
+    [ "OnGossipHello", "d4/de9/a25208.html#aa70d6f39d9741580f22af6752d682e82", null ],
+    [ "OnGossipSelect", "d4/de9/a25208.html#ae443af9292d214e787d76a6929e48a55", null ]
 ];

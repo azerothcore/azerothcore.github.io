@@ -1,6 +1,6 @@
 var a19392 =
 [
-    [ "spell_dreamwalker_nightmare_cloud_AuraScript", "d6/d4a/a19396.html", "d6/d4a/a19396" ],
-    [ "spell_dreamwalker_nightmare_cloud", "d8/dd8/a19392.html#ab9b57f5a909b7e5cfaf24ec5e0e75e7a", null ],
-    [ "GetAuraScript", "d8/dd8/a19392.html#afcdc5d8a68453b77479cf67a7078a566", null ]
+    [ "npc_gluttonous_abominationAI", "d6/d4a/a19396.html", "d6/d4a/a19396" ],
+    [ "npc_gluttonous_abomination", "d8/dd8/a19392.html#a895d1afcfc62bcaac6cc0d20465f1e7a", null ],
+    [ "GetAI", "d8/dd8/a19392.html#aedbd808da5e8ea0e2111e78be9d846ce", null ]
 ];

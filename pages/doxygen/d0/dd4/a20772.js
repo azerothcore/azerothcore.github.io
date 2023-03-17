@@ -1,6 +1,6 @@
 var a20772 =
 [
-    [ "npc_brann_bronzebeard_algalonAI", "d8/df3/a20776.html", "d8/df3/a20776" ],
-    [ "npc_brann_bronzebeard_algalon", "d0/dd4/a20772.html#a2760d42de8f78250ca5862bfcb23ed2e", null ],
-    [ "GetAI", "d0/dd4/a20772.html#ad8bc8bde865adcce1e9f6fd6234f1a0a", null ]
+    [ "HandleEffectRemove", "d0/dd4/a20772.html#a529d6d96d7f7a682646ac76d2738afad", null ],
+    [ "PrepareAuraScript", "d0/dd4/a20772.html#ad32012414b24efa48db05cba2d8e86f2", null ],
+    [ "Register", "d0/dd4/a20772.html#aa38b273ed6e9482c8c2fca712ea5b459", null ]
 ];

@@ -1,9 +1,12 @@
 var a21048 =
 [
-    [ "npc_thorims_hammerAI", "d8/dbc/a21048.html#aafda36c8d784252d271ef031ab6a3d34", null ],
-    [ "Reset", "d8/dbc/a21048.html#a57975d0dc00c86946e547ba43c7151ec", null ],
-    [ "UpdateAI", "d8/dbc/a21048.html#a4e01a61d09c11647e06c3547d6fa91fa", null ],
-    [ "_beamTimer", "d8/dbc/a21048.html#aba7c6c078977a8187a7e673ba3126bfd", null ],
-    [ "_finishTime", "d8/dbc/a21048.html#a218bd28d18a2c2f0aef6906619437209", null ],
-    [ "_removeTimer", "d8/dbc/a21048.html#a958e4c975d1ae634745107af7d204f82", null ]
+    [ "npc_freya_wardAI", "d8/dbc/a21048.html#afbc2f3d88173e240b87915cf0520b3cf", null ],
+    [ "DoAction", "d8/dbc/a21048.html#a4c9418b5474eb572a76168d4a460159a", null ],
+    [ "JustSummoned", "d8/dbc/a21048.html#a9075d763014ca50b4e0d2c815e1c23b7", null ],
+    [ "Reset", "d8/dbc/a21048.html#a65d304edd3b00b4a45c58bf36b926900", null ],
+    [ "SummonedCreatureDespawn", "d8/dbc/a21048.html#a6273b024ebde2fb36ed79eb122f7ac68", null ],
+    [ "UpdateAI", "d8/dbc/a21048.html#a11dd073b70e5126f580ec5122dce7bbd", null ],
+    [ "_castTimer", "d8/dbc/a21048.html#a6308aadc8ebf41cf045b04ac58e2244b", null ],
+    [ "_summoned", "d8/dbc/a21048.html#a5df6604055c5f3936a95f8d0ca5be8c1", null ],
+    [ "summons", "d8/dbc/a21048.html#a82932e9f2d570fa6d8394bfd3954c41e", null ]
 ];

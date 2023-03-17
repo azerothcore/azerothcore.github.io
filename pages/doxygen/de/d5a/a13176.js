@@ -1,8 +1,9 @@
 var a13176 =
 [
-    [ "FilterTargets", "de/d5a/a13176.html#a0533596c5158b39b9d308699276f144b", null ],
-    [ "HandleScriptEffect", "de/d5a/a13176.html#a2b824179bd49a9e4b180999374bfb196", null ],
-    [ "Load", "de/d5a/a13176.html#a435f0a794f5f608711dae9629a6e4d52", null ],
-    [ "PrepareSpellScript", "de/d5a/a13176.html#a9502fdbdadb6bab033510d5878877811", null ],
-    [ "Register", "de/d5a/a13176.html#a27d540dc3844abb8b371a104044c9394", null ]
+    [ "boss_muruAI", "de/d5a/a13176.html#abeb23dd3d2bae6d20bcfcb81519ed565", null ],
+    [ "DamageTaken", "de/d5a/a13176.html#a0cdb77d995a3ccbff70d01750e4c93ff", null ],
+    [ "JustEngagedWith", "de/d5a/a13176.html#a65b45cdda68d9e4ab4b524b573185bd0", null ],
+    [ "JustSummoned", "de/d5a/a13176.html#abed2b6d273808d4035be433f3f90d7db", null ],
+    [ "Reset", "de/d5a/a13176.html#aae4a72e088576bda726fbc430c95d5d2", null ],
+    [ "UpdateAI", "de/d5a/a13176.html#aafbf4c4190401598d078478bc2bb812b", null ]
 ];

@@ -1,6 +1,6 @@
 var a23008 =
 [
-    [ "HandleScriptEffect", "d6/da9/a23008.html#aaad86a4f6c4065102a2f5760075dd2b0", null ],
-    [ "PrepareSpellScript", "d6/da9/a23008.html#aa749172e06fd919526b49de60a5da62a", null ],
-    [ "Register", "d6/da9/a23008.html#a0cefc12db88123d43dc17a9f5cfb313f", null ]
+    [ "npc_beryl_sorcererAI", "d5/d5e/a23012.html", "d5/d5e/a23012" ],
+    [ "npc_beryl_sorcerer", "d6/da9/a23008.html#a4f74ee45ee0730fcfd044418771a9ee1", null ],
+    [ "GetAI", "d6/da9/a23008.html#a963646eed9f121f87efe480312957286", null ]
 ];

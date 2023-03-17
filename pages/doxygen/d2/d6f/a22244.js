@@ -1,6 +1,10 @@
 var a22244 =
 [
-    [ "spell_yogg_saron_shadow_beacon_AuraScript", "dd/d40/a22248.html", "dd/d40/a22248" ],
-    [ "spell_yogg_saron_shadow_beacon", "d2/d6f/a22244.html#a8c0bb2f6265a9859d03e437fe28946d2", null ],
-    [ "GetAuraScript", "d2/d6f/a22244.html#a2f5fae237242c9623fbe487b171b1784", null ]
+    [ "boss_yoggsaron_voiceAI", "d2/d6f/a22244.html#ac78b27f8d4df433e1fad2ae550a4da44", null ],
+    [ "Reset", "d2/d6f/a22244.html#ae5561244ad7387a3614bb6f1e23a7001", null ],
+    [ "SpellHitTarget", "d2/d6f/a22244.html#a0cc39577b4b70eb1be16f9c8b5cb5c72", null ],
+    [ "UpdateAI", "d2/d6f/a22244.html#a3c8458c25f7389f5fb5218177590a4c6", null ],
+    [ "_current", "d2/d6f/a22244.html#ad94ddde194a32b380ba1d309f1ece14a", null ],
+    [ "_targets", "d2/d6f/a22244.html#ab6132214a2249fbb5de8a5115b114381", null ],
+    [ "events", "d2/d6f/a22244.html#ac0c6aa9efe9d9e80b29fae8c190962dc", null ]
 ];

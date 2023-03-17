@@ -1,6 +1,7 @@
 var a29484 =
 [
-    [ "npc_innkeeper", "d2/dc8/a29484.html#a006f27d898ead8827d8b98d8b93d430d", null ],
-    [ "OnGossipHello", "d2/dc8/a29484.html#ae65c5cd7d3e270b2e50f80c0e12a72ff", null ],
-    [ "OnGossipSelect", "d2/dc8/a29484.html#ab6cf511f5b032050336a77d1e4598dda", null ]
+    [ "npc_riggle_bassbaitAI", "d2/dc8/a29484.html#ad7a1a7a6f4c4ebb7ab93878ebb3a9a5b", null ],
+    [ "CheckTournamentState", "d2/dc8/a29484.html#aa7b4393b93be92fbb595648cede832be", null ],
+    [ "UpdateAI", "d2/dc8/a29484.html#ad0fca96e2c770ef179d98dcdd9aaca6e", null ],
+    [ "m_uiTimer", "d2/dc8/a29484.html#aec45a971a5b7aa574e905e9a2338fe90", null ]
 ];

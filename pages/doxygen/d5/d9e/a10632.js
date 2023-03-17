@@ -1,6 +1,7 @@
 var a10632 =
 [
-    [ "BeforeHitHandler", "d5/d9e/a10632.html#a0c2f048fc10f408a299a8b537ad7551d", null ],
-    [ "Call", "d5/d9e/a10632.html#a393057cca72c41e193508bf150ed0b1f", null ],
-    [ "_pBeforeHitHandlerScript", "d5/d9e/a10632.html#acecb7a8844155ff6eeb3f09582d7a475", null ]
+    [ "CategoryRecoveryTime", "d5/d9e/a10632.html#a5a089aa55b5db1f3e3d3fa0ff61bbfdd", null ],
+    [ "RecoveryTime", "d5/d9e/a10632.html#ac0e514cfe760baf23f4f05d871e6779a", null ],
+    [ "StartRecoveryCategory", "d5/d9e/a10632.html#abb7ca704f04612ddcec3e2e52470ca77", null ],
+    [ "StartRecoveryTime", "d5/d9e/a10632.html#a3155069a4ef8d87d4c952f92df2ec42d", null ]
 ];
