@@ -1,6 +1,6 @@
 var a19692 =
 [
-    [ "spell_icc_yd_summon_undead_SpellScript", "db/dcd/a19696.html", "db/dcd/a19696" ],
-    [ "spell_icc_yd_summon_undead", "dc/d6b/a19692.html#ae1bb770bfaf615ea03561a23120840d8", null ],
-    [ "GetSpellScript", "dc/d6b/a19692.html#a3f475cec54cbd2e0a2195c2bdbae5db0", null ]
+    [ "spell_stinky_precious_decimate_SpellScript", "db/dcd/a19696.html", "db/dcd/a19696" ],
+    [ "spell_stinky_precious_decimate", "dc/d6b/a19692.html#ae1cb5d26a467a52534ec4e0ae0fbe24d", null ],
+    [ "GetSpellScript", "dc/d6b/a19692.html#ac735cb21e65abcb7f8353c0c3448a2f6", null ]
 ];

@@ -1,7 +1,5 @@
 var a05544 =
 [
-    [ "UpdateException", "df/d64/a05544.html#ace39ae1801ac7dcd055bcdce2411866e", null ],
-    [ "~UpdateException", "df/d64/a05544.html#a38e016e210bf287d2adc21811497c95c", null ],
-    [ "what", "df/d64/a05544.html#ab7bc552819bf9620dd670fb5a627b2dd", null ],
-    [ "_msg", "df/d64/a05544.html#a7b4ba1e0d2829249afb2922f385016b3", null ]
+    [ "element", "df/d64/a05544.html#ae5400b2932fe1a8c514c38fb6bab392f", null ],
+    [ "type", "df/d64/a05544.html#afb3f8dc82da740b1aaae165cb6a5b218", null ]
 ];

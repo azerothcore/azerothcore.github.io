@@ -1,6 +1,5 @@
 var a30032 =
 [
-    [ "AreaGroupId", "d6/dc9/a30032.html#a2868a59574e635d5f5859cfa01811151", null ],
-    [ "AreaId", "d6/dc9/a30032.html#aabde46a6c77db2c7fb92ca211c86727a", null ],
-    [ "nextGroup", "d6/dc9/a30032.html#a1f966f2d6848e8aba2ae3c6bd8120503", null ]
+    [ "Itemlvl", "d6/dc9/a30032.html#a39d9dcee397a1f5984184c769f9b8b17", null ],
+    [ "multiplier", "d6/dc9/a30032.html#a5c6c206a6185a546223de7501ff846f6", null ]
 ];

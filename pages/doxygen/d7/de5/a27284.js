@@ -1,8 +1,7 @@
 var a27284 =
 [
-    [ "AchievementCredit", "d7/de5/a27284.html#ab0ec836feb53875de355330e05367fe8", null ],
-    [ "Load", "d7/de5/a27284.html#ae48c67f363e399f076122cb6eee10ffb", null ],
-    [ "PrepareSpellScript", "d7/de5/a27284.html#af0bb22c618af5dca7f534bea32e7ee7f", null ],
-    [ "Register", "d7/de5/a27284.html#a793921687c96a39f7dd872b9721096ca", null ],
-    [ "Validate", "d7/de5/a27284.html#a5be222c322714ec62f8beaf69faab257", null ]
+    [ "HandleStun", "d7/de5/a27284.html#aec7b18c9fe4d03e6e61dd2e43c842a93", null ],
+    [ "PrepareAuraScript", "d7/de5/a27284.html#a26bf4bfdbe5ccf890d75bc663f228639", null ],
+    [ "Register", "d7/de5/a27284.html#a660a0e41ac5918cd365f4c47fea9c230", null ],
+    [ "Validate", "d7/de5/a27284.html#a4e89cdbc719b32576f57dd6f7e5d3f2a", null ]
 ];

@@ -1,7 +1,7 @@
 var a29572 =
 [
-    [ "npc_riggle_bassbaitAI", "de/d46/a29572.html#ad7a1a7a6f4c4ebb7ab93878ebb3a9a5b", null ],
-    [ "CheckTournamentState", "de/d46/a29572.html#aa7b4393b93be92fbb595648cede832be", null ],
-    [ "UpdateAI", "de/d46/a29572.html#ad0fca96e2c770ef179d98dcdd9aaca6e", null ],
-    [ "m_uiTimer", "de/d46/a29572.html#aec45a971a5b7aa574e905e9a2338fe90", null ]
+    [ "npc_steam_tonkAI", "de/d46/a29572.html#a64bc74af412304d50526e5c93e01a333", null ],
+    [ "JustEngagedWith", "de/d46/a29572.html#a95b023adf0a2e62788e0d5646b17b319", null ],
+    [ "OnPossess", "de/d46/a29572.html#a954208c1a9826ae84a7402f59e1d7055", null ],
+    [ "Reset", "de/d46/a29572.html#a5c76625843b30302b2af0a4ae8b85bd2", null ]
 ];

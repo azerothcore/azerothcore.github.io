@@ -1,6 +1,6 @@
 var a19376 =
 [
-    [ "spell_dreamwalker_summon_portal_SpellScript", "db/d03/a19380.html", "db/d03/a19380" ],
-    [ "spell_dreamwalker_summon_portal", "dd/d78/a19376.html#a42a76c4995823e53fdb4a70c03267a8b", null ],
-    [ "GetSpellScript", "dd/d78/a19376.html#afebe88df56b963360672ee87027fd666", null ]
+    [ "npc_suppresserAI", "db/d03/a19380.html", "db/d03/a19380" ],
+    [ "npc_suppresser", "dd/d78/a19376.html#a5db40aecba3c45281fe963c6b2bd8d1e", null ],
+    [ "GetAI", "dd/d78/a19376.html#a48869515abbac1491337a93b987231da", null ]
 ];

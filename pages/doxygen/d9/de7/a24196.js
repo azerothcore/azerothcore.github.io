@@ -1,6 +1,6 @@
 var a24196 =
 [
-    [ "boss_nexusprince_shaffarAI", "d5/dff/a24200.html", "d5/dff/a24200" ],
-    [ "boss_nexusprince_shaffar", "d9/de7/a24196.html#a12e07518f292fb46c3eed7440465cab6", null ],
-    [ "GetAI", "d9/de7/a24196.html#aaf6862ce5b2de3594f891a6e58f34b2a", null ]
+    [ "boss_shirrak_the_dead_watcherAI", "d5/dff/a24200.html", "d5/dff/a24200" ],
+    [ "boss_shirrak_the_dead_watcher", "d9/de7/a24196.html#a2dd09b572d98e9389fc770fed02a7c95", null ],
+    [ "GetAI", "d9/de7/a24196.html#a4eec788e3e5405161eef5f6df46a24d0", null ]
 ];

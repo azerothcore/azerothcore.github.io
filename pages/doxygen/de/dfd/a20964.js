@@ -1,6 +1,6 @@
 var a20964 =
 [
-    [ "npc_auriaya_feral_defenderAI", "db/d4d/a20968.html", "db/d4d/a20968" ],
-    [ "npc_auriaya_feral_defender", "de/dfd/a20964.html#ae1afc396a1d9e6c9c2042ee0f58fb270", null ],
-    [ "GetAI", "de/dfd/a20964.html#abec35e280e42154af82f3e7e4fcec48d", null ]
+    [ "achievement_assembly_of_iron", "de/dfd/a20964.html#ae90d193b039d88ce38108b6617b5b8e9", null ],
+    [ "OnCheck", "de/dfd/a20964.html#ae66b3e708b38bfe685f9d28c14c2d3f5", null ],
+    [ "_targetEntry", "de/dfd/a20964.html#a20e8938ff30b18737fb96cf0277b5680", null ]
 ];

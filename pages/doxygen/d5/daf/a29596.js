@@ -1,6 +1,6 @@
 var a29596 =
 [
-    [ "npc_air_force_botsAI", "dd/de9/a29600.html", "dd/de9/a29600" ],
-    [ "npc_air_force_bots", "d5/daf/a29596.html#a00b8f274bde3260a113ea21e0f68cdf8", null ],
-    [ "GetAI", "d5/daf/a29596.html#ae971e34d61b0f960d8f5940f9015523d", null ]
+    [ "npc_experience", "d5/daf/a29596.html#a48ea13099fd32bcae1543a152de0bdf4", null ],
+    [ "OnGossipHello", "d5/daf/a29596.html#a78fccaa36d1c42e33774a9b23f867a72", null ],
+    [ "OnGossipSelect", "d5/daf/a29596.html#a140ece91c8b6d91bd91d64d6e9b625e8", null ]
 ];

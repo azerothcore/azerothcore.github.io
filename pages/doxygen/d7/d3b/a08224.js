@@ -1,7 +1,14 @@
 var a08224 =
 [
-    [ "VehicleSeat", "d7/d3b/a08224.html#a9e76d1a40891dfc7013ab38c381c17b6", null ],
-    [ "IsEmpty", "d7/d3b/a08224.html#a9f68076857cb85ee7679f04043acdedc", null ],
-    [ "Passenger", "d7/d3b/a08224.html#ac334f2f573bf52f164d570f8b83fc197", null ],
-    [ "SeatInfo", "d7/d3b/a08224.html#add0cf92d445f6ea0cf910b0bc0d80b62", null ]
+    [ "SafeUnitPointer", "d7/d3b/a08224.html#a05ee5199683b1e68189a7d122bf3f5f4", null ],
+    [ "SafeUnitPointer", "d7/d3b/a08224.html#a9ac4023d6ec32f96c757206dd4aa3fd6", null ],
+    [ "~SafeUnitPointer", "d7/d3b/a08224.html#ad9c2be82f67eb4e825a9ffd07307983a", null ],
+    [ "Initialize", "d7/d3b/a08224.html#a40f6e04585ca487c457d17ce10cc7b8c", null ],
+    [ "operator Unit *", "d7/d3b/a08224.html#afee1d290f436472dd719ff83f41721f5", null ],
+    [ "operator->", "d7/d3b/a08224.html#af63a04a7c6e6cb3002f5a99f90f70328", null ],
+    [ "operator=", "d7/d3b/a08224.html#a44f522d9c22861f853df0286a3764d3e", null ],
+    [ "SetPointedTo", "d7/d3b/a08224.html#a6603c67b736224a8e6559340afa8b275", null ],
+    [ "UnitDeleted", "d7/d3b/a08224.html#a872b0a86328fb03e5feccdf364ea5cce", null ],
+    [ "defaultValue", "d7/d3b/a08224.html#a38dce117cb135c9b84918a9bbc884f28", null ],
+    [ "ptr", "d7/d3b/a08224.html#aa8bf5e4728aeb1ca7a8de1a727a84884", null ]
 ];

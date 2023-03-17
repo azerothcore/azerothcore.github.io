@@ -1,6 +1,8 @@
 var a23836 =
 [
-    [ "npc_freed_protodrakeAI", "d6/da0/a23840.html", "d6/da0/a23840" ],
-    [ "npc_freed_protodrake", "d7/db3/a23836.html#a56e33e186800efa3fb86ca6a614e3b0b", null ],
-    [ "GetAI", "d7/db3/a23836.html#a9680bf65cb97327396f58c297df1c8f5", null ]
+    [ "AfterRemove", "d7/db3/a23836.html#af8f8c4db119b5522657a50ed644c73c7", null ],
+    [ "HandlePeriodic", "d7/db3/a23836.html#abd98fe2db991f2473f7a029754a73392", null ],
+    [ "OnApply", "d7/db3/a23836.html#aa22cca375661b7acf7c6f2154806ad7c", null ],
+    [ "PrepareAuraScript", "d7/db3/a23836.html#af085aafe496fb20a5812273c4fbc5999", null ],
+    [ "Register", "d7/db3/a23836.html#a92079c67944124d07a1d6c73744a120e", null ]
 ];

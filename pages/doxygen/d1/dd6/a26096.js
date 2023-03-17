@@ -1,6 +1,5 @@
 var a26096 =
 [
-    [ "npc_wounded_blood_elfAI", "d6/dcf/a26100.html", "d6/dcf/a26100" ],
-    [ "npc_wounded_blood_elf", "d1/dd6/a26096.html#a40e79d1412f5f399869a4d2c6fbb4260", null ],
-    [ "GetAI", "d1/dd6/a26096.html#a39d4bd877bdf6596c65e3cb834f124aa", null ]
+    [ "go_corkis_prison", "d1/dd6/a26096.html#a5a557c3ee41a145a5647c95958d49b96", null ],
+    [ "OnGossipHello", "d1/dd6/a26096.html#add00ac9606d5d3b4888173d22d4ad8b8", null ]
 ];

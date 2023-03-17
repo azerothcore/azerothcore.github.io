@@ -1,6 +1,13 @@
 var a28904 =
 [
-    [ "PrepareAuraScript", "d5/d2c/a28904.html#a65fa925d99065d028e328a92f2a13805", null ],
-    [ "Register", "d5/d2c/a28904.html#a95dc732286adf4327f68e23015d58c21", null ],
-    [ "RemoveEffect", "d5/d2c/a28904.html#a3f474c143f64739187b6049cac5e4b38", null ]
+    [ "CheckProc", "d5/d2c/a28904.html#abb43619da8154c1c9ebc9d164a2f6dc6", null ],
+    [ "HandleAfterApply", "d5/d2c/a28904.html#ac3c12801bde3bd259b573eeca6dc4d5b", null ],
+    [ "HandleApply", "d5/d2c/a28904.html#aaa07858f0604965fad5c1189125a822b", null ],
+    [ "HandleProc", "d5/d2c/a28904.html#a9fd416a5f8f8a405f40c41b9ef8b734e", null ],
+    [ "HandleRemove", "d5/d2c/a28904.html#a3da984d172878110b77549b51409d7e0", null ],
+    [ "Load", "d5/d2c/a28904.html#a644aaf343b41f049f34ff7387c613bf1", null ],
+    [ "PrepareAuraScript", "d5/d2c/a28904.html#aea23ff608c74017d98edcc146d3ba35a", null ],
+    [ "Register", "d5/d2c/a28904.html#a624d09c6f1a177912a1c7cab30d89c7b", null ],
+    [ "Validate", "d5/d2c/a28904.html#a34f1b7782dbf2dcc18eb803497104a13", null ],
+    [ "_procTarget", "d5/d2c/a28904.html#ac6c81bc1f9008c3861f99f4e89626969", null ]
 ];

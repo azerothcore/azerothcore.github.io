@@ -1,6 +1,7 @@
 var a21140 =
 [
-    [ "spell_tar_blaze_AuraScript", "da/d9c/a21144.html", "da/d9c/a21144" ],
-    [ "spell_tar_blaze", "d6/d25/a21140.html#a221552729227b604910a805efc9da7a8", null ],
-    [ "GetAuraScript", "d6/d25/a21140.html#aa4f88738b462d9dbcde1ec1eade6cfd1", null ]
+    [ "OnApply", "d6/d25/a21140.html#aa61a32f13cdde2b6aec74c3f06f84c51", null ],
+    [ "OnRemove", "d6/d25/a21140.html#a5fe91f4516ace09eac9868f9bf877776", null ],
+    [ "PrepareAuraScript", "d6/d25/a21140.html#af4af06ffe573dec0ee809b54de32b32b", null ],
+    [ "Register", "d6/d25/a21140.html#a40cec0734fb12fb610e299a47ccdcd4b", null ]
 ];

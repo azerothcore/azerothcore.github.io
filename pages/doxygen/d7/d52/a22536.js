@@ -1,14 +1,10 @@
 var a22536 =
 [
-    [ "npc_massive_jormungarAI", "d7/d52/a22536.html#aa0b9acaec1aab155f7e4442d12d40c3e", null ],
-    [ "DoAction", "d7/d52/a22536.html#a8084994ba056c907b2e487568fa7502a", null ],
-    [ "EnterCombat", "d7/d52/a22536.html#ac324b92bd0634bbc38ddf191f8cd04cc", null ],
-    [ "JustDied", "d7/d52/a22536.html#a02b4e75227811250e2210f754e6e04f2", null ],
-    [ "JustReachedHome", "d7/d52/a22536.html#a8ea0fe40cb4b113abadc091ab8085636", null ],
-    [ "MoveInLineOfSight", "d7/d52/a22536.html#a55c817111fab479c3abcfca8942f16e8", null ],
-    [ "Reset", "d7/d52/a22536.html#aca0d8ebe3b47a075a8b87666c0207620", null ],
-    [ "UpdateAI", "d7/d52/a22536.html#a9201c4cdf74d55bb3cde52eb265aa3d9", null ],
-    [ "events", "d7/d52/a22536.html#a92334b8178317a91a7d4336096d75f33", null ],
-    [ "m_pInstance", "d7/d52/a22536.html#ad50a9852370798817fda318f71f27653", null ],
-    [ "summons", "d7/d52/a22536.html#acfa84efc38b994706015e6d82fe1f653", null ]
+    [ "npc_enslaved_proto_drakeAI", "d7/d52/a22536.html#a948bacd9d69613110fa10e6e39032baf", null ],
+    [ "MovementInform", "d7/d52/a22536.html#a4c15ed2904c72219d419efe98beb7857", null ],
+    [ "Reset", "d7/d52/a22536.html#a3a99b691141024906e967f5876c3da08", null ],
+    [ "SetData", "d7/d52/a22536.html#a1d1aa0027b94153b126c19688003eea8", null ],
+    [ "UpdateAI", "d7/d52/a22536.html#a7d364a448269bc9bb25b5dbab3388236", null ],
+    [ "_events", "d7/d52/a22536.html#adb4064cfb9c376945a2d6c42ed7c2420", null ],
+    [ "_setData", "d7/d52/a22536.html#a3977c9229b92cc417a6732a0b2968de9", null ]
 ];

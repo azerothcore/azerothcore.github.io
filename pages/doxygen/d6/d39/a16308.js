@@ -1,6 +1,6 @@
 var a16308 =
 [
-    [ "HandleDummy", "d6/d39/a16308.html#a7256bc5b2bcb056db8b0d43c3e413f84", null ],
-    [ "PrepareSpellScript", "d6/d39/a16308.html#a3d487f436e0d69dcbe8378f4ec82e7b2", null ],
-    [ "Register", "d6/d39/a16308.html#a54f2aa30b6c05f85fd40ee26a6008c51", null ]
+    [ "spell_halion_twilight_cutter_periodic_AuraScript", "d6/dd6/a16312.html", "d6/dd6/a16312" ],
+    [ "spell_halion_twilight_cutter_periodic", "d6/d39/a16308.html#ad0b79bcd216563ec6c42a985f523b055", null ],
+    [ "GetAuraScript", "d6/d39/a16308.html#a63f6882ac06a86719a105fef05f5bd01", null ]
 ];

@@ -1,6 +1,7 @@
 var a28664 =
 [
-    [ "HandleRemove", "d8/da2/a28664.html#a92eb5e02c8b165caa877d368a456e5b2", null ],
-    [ "PrepareAuraScript", "d8/da2/a28664.html#a132193c0c13a2f89b9b29391d524023a", null ],
-    [ "Register", "d8/da2/a28664.html#a246294a7b9a128a9ec464562846332fc", null ]
+    [ "HandleProc", "d8/da2/a28664.html#a7e358f231f3ee72fcb95432a4705312a", null ],
+    [ "PrepareAuraScript", "d8/da2/a28664.html#acda7b1b6e91a433b72c2a5dd0e165685", null ],
+    [ "Register", "d8/da2/a28664.html#a33cd336a6ca68e66e6046cfdac776fee", null ],
+    [ "Validate", "d8/da2/a28664.html#a5f2c7d754a37e6ae02d4aaec758841e5", null ]
 ];

@@ -1,6 +1,6 @@
 var a15280 =
 [
-    [ "npc_spitelashesAI", "d6/d55/a15284.html", "d6/d55/a15284" ],
-    [ "npc_spitelashes", "d3/da4/a15280.html#a6350a1ca3b3709e438522c1ebf573f21", null ],
-    [ "GetAI", "d3/da4/a15280.html#a613482f9344f2eed52f13f8c06ce2948", null ]
+    [ "HandleDummy", "d3/da4/a15280.html#a09b21b3e5357c49d85ef01d9a5d4694f", null ],
+    [ "PrepareSpellScript", "d3/da4/a15280.html#ac221d3d128265d78acc72d41ebf0fd8a", null ],
+    [ "Register", "d3/da4/a15280.html#a67be525bc07ef7091d9b8148c1a01fb9", null ]
 ];

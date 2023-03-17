@@ -1,7 +1,6 @@
 var a09892 =
 [
-    [ "Emote", "d6/dc0/a09892.html#acb1620d125ffb11fe43caf4ebf27d1be", null ],
-    [ "Write", "d6/dc0/a09892.html#a3f5532f40b59f47423d2b4e3749da88e", null ],
-    [ "EmoteID", "d6/dc0/a09892.html#a7f4d3ee4353b408f8c795e6fdc552e76", null ],
-    [ "Guid", "d6/dc0/a09892.html#ab96a1c0933e90872f54eb0995098274a", null ]
+    [ "ShowingHelm", "d6/dc0/a09892.html#a67e25a4a39b14e488b5176b02e8dc995", null ],
+    [ "Read", "d6/dc0/a09892.html#a9e6d525a7104f2a8f81564d3796c6211", null ],
+    [ "ShowHelm", "d6/dc0/a09892.html#a9f3d52d5d6a6fa76b29afbd5a56d5622", null ]
 ];

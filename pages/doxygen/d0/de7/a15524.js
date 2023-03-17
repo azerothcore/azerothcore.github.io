@@ -1,6 +1,8 @@
 var a15524 =
 [
-    [ "npc_great_bear_spirit", "d0/de7/a15524.html#a141470a3623aa1152d3505661f1532c8", null ],
-    [ "OnGossipHello", "d0/de7/a15524.html#a2307b8d56fc117d918adc9814fa86f8f", null ],
-    [ "OnGossipSelect", "d0/de7/a15524.html#aae026f4cf8b0de61d36a841dcfdbd92e", null ]
+    [ "FilterTargets", "d0/de7/a15524.html#a976a41800f3726db5bb9aa71be006ec1", null ],
+    [ "HandleScript", "d0/de7/a15524.html#a878422cc71299a6f7a844a6d4992fde2", null ],
+    [ "PrepareSpellScript", "d0/de7/a15524.html#a14c21ded1418294856dce32e67b6e589", null ],
+    [ "Register", "d0/de7/a15524.html#a69ed173c3ae9cca71cc119cf707c0cbb", null ],
+    [ "Validate", "d0/de7/a15524.html#a72205f5187e69cdd65b6786d6360310a", null ]
 ];

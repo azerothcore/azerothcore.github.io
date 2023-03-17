@@ -1,7 +1,6 @@
 var a28432 =
 [
-    [ "HandleEffectApply", "d2/d02/a28432.html#a475d0bab96e226853368be3b68c5a2d3", null ],
-    [ "HandleEffectRemove", "d2/d02/a28432.html#aa22a095e40789ac562a64c20d7eadb28", null ],
-    [ "PrepareAuraScript", "d2/d02/a28432.html#a2b06b0dc1a4c2f5b5e4657e11a097660", null ],
-    [ "Register", "d2/d02/a28432.html#a91e75a059828a30d509fd22be19048f8", null ]
+    [ "HandleTriggerSpell", "d2/d02/a28432.html#acd2d96959b0d8e9bf9968662218f36a1", null ],
+    [ "PrepareAuraScript", "d2/d02/a28432.html#afea43ae4a9b9e64ed8e85627d5523a1e", null ],
+    [ "Register", "d2/d02/a28432.html#ace951b4fcd48b7d4434a387d666bed9b", null ]
 ];

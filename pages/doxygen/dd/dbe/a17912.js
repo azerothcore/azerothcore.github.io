@@ -1,6 +1,7 @@
 var a17912 =
 [
-    [ "spell_deathbringer_blood_nova_targeting_SpellScript", "d0/d5b/a17916.html", "d0/d5b/a17916" ],
-    [ "spell_deathbringer_blood_nova_targeting", "dd/dbe/a17912.html#ad6850493f02b51a29e8d5e49e1321ccb", null ],
-    [ "GetSpellScript", "dd/dbe/a17912.html#ac049d17f25fdd8235460572f9ddbf2e9", null ]
+    [ "CheckProc", "dd/dbe/a17912.html#a0d64439e4de0c84017a072825d09a238", null ],
+    [ "HandleProc", "dd/dbe/a17912.html#a71154e5c54212595071fe0ab00c0b843", null ],
+    [ "PrepareAuraScript", "dd/dbe/a17912.html#a6d26243e6f6bd2b1fa33952fa654f1ee", null ],
+    [ "Register", "dd/dbe/a17912.html#af373e98d828b9f0fa3f2107d0ec4b604", null ]
 ];

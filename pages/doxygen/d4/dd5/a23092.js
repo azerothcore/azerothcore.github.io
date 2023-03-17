@@ -1,6 +1,9 @@
 var a23092 =
 [
-    [ "npc_leryssaAI", "d1/d6e/a23096.html", "d1/d6e/a23096" ],
-    [ "npc_leryssa", "d4/dd5/a23092.html#a549bed4476f88c313e6b42c0fe1fffb8", null ],
-    [ "GetAI", "d4/dd5/a23092.html#a4725831580b206d91dbd8c21a703893f", null ]
+    [ "npc_bloodmage_laurithAI", "d4/dd5/a23092.html#a75dca4f2e90318f334e7e6385d4f7a6f", null ],
+    [ "Reset", "d4/dd5/a23092.html#afe9b10dfcee3b241a48e6f2e40eec657", null ],
+    [ "SetGUID", "d4/dd5/a23092.html#a50a144cf1545117d79268d3a18a4b4ec", null ],
+    [ "UpdateAI", "d4/dd5/a23092.html#a9752f518441071dd4a60cd63423bf9a3", null ],
+    [ "_events", "d4/dd5/a23092.html#a35facab84094071d952792a4c3e5015d", null ],
+    [ "_playerGUID", "d4/dd5/a23092.html#a6aab8db1d55d4fe3251b544c292711e8", null ]
 ];

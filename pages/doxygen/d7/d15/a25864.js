@@ -1,7 +1,6 @@
 var a25864 =
 [
-    [ "Load", "d7/d15/a25864.html#a629b07f3b65cec8ed7439ece88454274", null ],
-    [ "OnRemove", "d7/d15/a25864.html#a41f7866cbb51beb4cc5e720260909caf", null ],
-    [ "PrepareAuraScript", "d7/d15/a25864.html#a2fff83c17680f1a03bcb7fba1db5ab2a", null ],
-    [ "Register", "d7/d15/a25864.html#ad3012565847a0cc18a94d4f71153ce4c", null ]
+    [ "boss_void_reaverAI", "df/d49/a25868.html", "df/d49/a25868" ],
+    [ "boss_void_reaver", "d7/d15/a25864.html#a9becc71d12c72bd5c0cde20d5f2c100b", null ],
+    [ "GetAI", "d7/d15/a25864.html#a96aa3f6a0b5517f73f1d74412dc3b01d", null ]
 ];

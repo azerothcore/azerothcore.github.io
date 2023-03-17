@@ -1,6 +1,6 @@
 var a27696 =
 [
-    [ "OnRemove", "db/d40/a27696.html#adcdc87bcfb9aee5eaa227ba66ad5f010", null ],
-    [ "PrepareAuraScript", "db/d40/a27696.html#a9b3985c6f2b1b88ab86ec38c8508fc16", null ],
-    [ "Register", "db/d40/a27696.html#a0bc1dae33d0a780623f4551b1dfb1fbf", null ]
+    [ "PartyTimeEmoteEvent", "db/d40/a27696.html#a525efd58fc8465658208058e6dc5d31c", null ],
+    [ "Execute", "db/d40/a27696.html#a65a796ff4efece46c519f7bdf1524bb8", null ],
+    [ "_player", "db/d40/a27696.html#a61ecb44828c6e4c868def8899791feb3", null ]
 ];

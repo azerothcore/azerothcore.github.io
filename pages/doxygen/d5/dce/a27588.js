@@ -1,6 +1,6 @@
 var a27588 =
 [
-    [ "CheckProc", "d5/dce/a27588.html#a393946dd3404c4b03a9a8ced7913ccaa", null ],
-    [ "PrepareAuraScript", "d5/dce/a27588.html#ae28075d0d66c99fb77a2c7fef678f4e2", null ],
-    [ "Register", "d5/dce/a27588.html#a3e0279f7dc724b4d49bfda4f0e417353", null ]
+    [ "HandleDummy", "d5/dce/a27588.html#a7b56d07d46647a2790553d40e75da79d", null ],
+    [ "PrepareSpellScript", "d5/dce/a27588.html#aad36c108f4531c19ba552064ba0d3248", null ],
+    [ "Register", "d5/dce/a27588.html#a754fcf618f53b4b17c2bcae4740e561f", null ]
 ];

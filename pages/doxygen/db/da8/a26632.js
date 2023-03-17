@@ -1,6 +1,7 @@
 var a26632 =
 [
-    [ "PrepareSpellScript", "db/da8/a26632.html#ae915f8f6522f0a8d308b2a5f43b8884f", null ],
-    [ "RecalculateDamage", "db/da8/a26632.html#af01757d0968da2a096d800782ed7e66e", null ],
-    [ "Register", "db/da8/a26632.html#a62b6613707a2a9b78d52bffe92de604e", null ]
+    [ "CheckProc", "db/da8/a26632.html#abd74252153fc4fc9a4e561005ea58b3f", null ],
+    [ "HandleProc", "db/da8/a26632.html#a911b81552e7193dbf1cfc11037b44d84", null ],
+    [ "PrepareAuraScript", "db/da8/a26632.html#ae169eb2c0e194f8f34ee2a0d5fd973d3", null ],
+    [ "Register", "db/da8/a26632.html#a72d89db31c1fbd5c3b49b4c05a2d90f4", null ]
 ];

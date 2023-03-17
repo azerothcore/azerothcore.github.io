@@ -1,8 +1,9 @@
 var a26992 =
 [
-    [ "AfterApply", "d2/d5a/a26992.html#a9c2591beacd941893338109719c03e3f", null ],
-    [ "AfterRemove", "d2/d5a/a26992.html#a0be2a66b615dd926de7073392a8e5062", null ],
-    [ "PrepareAuraScript", "d2/d5a/a26992.html#a4763d0c69c12611244f68ba5a5b1ccce", null ],
-    [ "Register", "d2/d5a/a26992.html#a36fb81d0bf4cf92773db60a70de52dda", null ],
-    [ "Validate", "d2/d5a/a26992.html#a86b51ec85105b0396972f0c3d7b770c1", null ]
+    [ "spell_gen_select_target_count", "d2/d5a/a26992.html#a65507c155a8746ff49c58c051b7868e4", null ],
+    [ "FilterTargets", "d2/d5a/a26992.html#a5de89be9ce321a0f4ac49853a700b502", null ],
+    [ "PrepareSpellScript", "d2/d5a/a26992.html#a42ddce15414dcdf495b572e0f75e9486", null ],
+    [ "Register", "d2/d5a/a26992.html#a94f86992275123e2e3989655cf077efd", null ],
+    [ "_count", "d2/d5a/a26992.html#acdf5daa848ae185b859c45a1271df68c", null ],
+    [ "_effTarget", "d2/d5a/a26992.html#a9c54508790062277c8275d2466e93fb3", null ]
 ];

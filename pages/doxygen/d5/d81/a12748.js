@@ -1,9 +1,8 @@
 var a12748 =
 [
-    [ "HandleDummyTick", "d5/d81/a12748.html#aeeb63cb6e662c7e513b5953eb81b2cb1", null ],
-    [ "Load", "d5/d81/a12748.html#a4928bafbfbf01bdcc2cb970c50a83b32", null ],
-    [ "OnApply", "d5/d81/a12748.html#a88a767f3e15c6e70932c51f1aa8d61f2", null ],
-    [ "PrepareAuraScript", "d5/d81/a12748.html#a99473b1f1c13e5e7167a674d3e4e2a8d", null ],
-    [ "Register", "d5/d81/a12748.html#ac6ab0bc5a9b9f3b5643d59b103891b4b", null ],
-    [ "_forsakenSpell", "d5/d81/a12748.html#a02c0334f5154d908ab022d4acf41ef40", null ]
+    [ "FilterTargets", "d5/d81/a12748.html#a4c7627dc20c4dafcee4d6faf97d3914e", null ],
+    [ "HandleScript", "d5/d81/a12748.html#aecb62c147905d0a4fe60086b8028df0b", null ],
+    [ "PrepareSpellScript", "d5/d81/a12748.html#a84ed93d5235781d9d53a47fff39d3ad2", null ],
+    [ "Register", "d5/d81/a12748.html#a2832f131d99608923ade8070e17da86d", null ],
+    [ "Validate", "d5/d81/a12748.html#a1a510f9cf49df69c5904cb79c8cdc860", null ]
 ];

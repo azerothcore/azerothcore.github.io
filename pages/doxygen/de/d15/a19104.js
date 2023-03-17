@@ -1,6 +1,7 @@
 var a19104 =
 [
-    [ "ModDest", "de/d15/a19104.html#abea9a7a54610d72c87d05e2ad1a806ca", null ],
-    [ "PrepareSpellScript", "de/d15/a19104.html#a4164b92f03eed302f77bbd51f65df599", null ],
-    [ "Register", "de/d15/a19104.html#a16048cb0eacd5486db5fdcd96422d13c", null ]
+    [ "OnPeriodic", "de/d15/a19104.html#a41bb1ea0a6c95a3804f922964b1d6336", null ],
+    [ "PrepareAuraScript", "de/d15/a19104.html#a15d8b033481768fc96667875272a3d48", null ],
+    [ "Register", "de/d15/a19104.html#af5ad23b55be688c7d200d2943c45d589", null ],
+    [ "Validate", "de/d15/a19104.html#a7b377b5ab537302980d423e141e06e37", null ]
 ];

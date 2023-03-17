@@ -1,7 +1,6 @@
 var a10308 =
 [
-    [ "OpcodeHandler", "d4/d86/a04421.html#gad7dc8101b537abe699b18ae8de444a81", null ],
-    [ "~OpcodeHandler", "d4/d86/a04421.html#ga5400057a3d849035aedda259828a5af5", null ],
-    [ "Name", "d4/d86/a04421.html#ga0f1d1acde7c65e2b5c29357b232a7061", null ],
-    [ "Status", "d4/d86/a04421.html#gace7959058ad5b5e617c7b043f5c63b7c", null ]
+    [ "TotemDestroyed", "dc/d4c/a10308.html#a3bcaa030b2c15d54617564cf0f5e4c36", null ],
+    [ "Read", "dc/d4c/a10308.html#a0bc6b5a33024d4fd8bc8dd4cfa25d3e2", null ],
+    [ "Slot", "dc/d4c/a10308.html#a41eebde65aa696c2dec812da0aeab633", null ]
 ];

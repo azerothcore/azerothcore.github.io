@@ -1,6 +1,6 @@
 var a24304 =
 [
-    [ "PrepareSpellScript", "d8/d25/a24304.html#a473d071ba082940d42b91ff2eb55ad18", null ],
-    [ "Register", "d8/d25/a24304.html#a227df04ae92ef9c52a43f8acc76beb47", null ],
-    [ "SelectTarget", "d8/d25/a24304.html#a57c4e9c21e47c803de9d6a3b827bf8da", null ]
+    [ "boss_murmurAI", "d2/dbf/a24308.html", "d2/dbf/a24308" ],
+    [ "boss_murmur", "d8/d25/a24304.html#a37189f25927d9a44cfa78213d6524c1e", null ],
+    [ "GetAI", "d8/d25/a24304.html#ab3b530048d8a3268d777439fad47012c", null ]
 ];

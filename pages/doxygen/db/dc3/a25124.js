@@ -1,8 +1,6 @@
 var a25124 =
 [
-    [ "HandleDummy", "db/dc3/a25124.html#a9ad5ba3f1cd36365b55de85ca1aac88f", null ],
-    [ "Load", "db/dc3/a25124.html#a2dcd4b498bd4edd766a7f22d4110c9c3", null ],
-    [ "PrepareSpellScript", "db/dc3/a25124.html#a38f1439ad51b320474422072c1032655", null ],
-    [ "Register", "db/dc3/a25124.html#a9255731c48721c3bbdfbba7e8f9c8044", null ],
-    [ "targetNumber", "db/dc3/a25124.html#a9335e4a80193fdba224d61caa1bbaae5", null ]
+    [ "spell_lurker_below_spout_cone_SpellScript", "d1/d93/a25128.html", "d1/d93/a25128" ],
+    [ "spell_lurker_below_spout_cone", "db/dc3/a25124.html#a65f9d1f96f15a26cebcfcf3c8a0a2f49", null ],
+    [ "GetSpellScript", "db/dc3/a25124.html#a6d217b3954e25040c7e997292d452846", null ]
 ];

@@ -1,8 +1,8 @@
 var a28628 =
 [
-    [ "spell_rog_killing_spree_AuraScript", "d5/d39/a28636.html", "d5/d39/a28636" ],
-    [ "spell_rog_killing_spree_SpellScript", "d8/d5a/a28632.html", "d8/d5a/a28632" ],
-    [ "spell_rog_killing_spree", "d5/d51/a28628.html#a5ccbad5a5401df5eb6124506a6f555e3", null ],
-    [ "GetAuraScript", "d5/d51/a28628.html#acf9cb243d57d47dfd416484242d5b45d", null ],
-    [ "GetSpellScript", "d5/d51/a28628.html#ac1079a78cad04c762a9a8e77680a5bae", null ]
+    [ "Apply", "d5/d51/a28628.html#ac3145df90b6b179fece1c76da114e395", null ],
+    [ "HandleEffectPeriodic", "d5/d51/a28628.html#a480dd240981f91666e25ea2f1f73e4d7", null ],
+    [ "PrepareAuraScript", "d5/d51/a28628.html#aa911ba0b5a13a933bf50a072799a040f", null ],
+    [ "Register", "d5/d51/a28628.html#ae0dff9b5002d3d3361d794a75645057f", null ],
+    [ "Validate", "d5/d51/a28628.html#ad81184b508474a89fbafc63594ef0ab1", null ]
 ];

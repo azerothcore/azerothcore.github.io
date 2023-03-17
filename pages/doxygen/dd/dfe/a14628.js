@@ -1,10 +1,14 @@
 var a14628 =
 [
-    [ "alliance_riflemanAI", "dd/dfe/a14628.html#abe3009936942a74a4d9952d2be95d72c", null ],
-    [ "EnterCombat", "dd/dfe/a14628.html#acab9955254e46c24ca9ed04d1942c19e", null ],
-    [ "JustDied", "dd/dfe/a14628.html#a9f565eac063943519718c1ada1aa5bb5", null ],
-    [ "MoveInLineOfSight", "dd/dfe/a14628.html#a890289abd4ff9b39154c62dcde2f5718", null ],
-    [ "Reset", "dd/dfe/a14628.html#a4d70551426e46f47399f596e4031a25f", null ],
-    [ "UpdateAI", "dd/dfe/a14628.html#afbbf23790494a45cec0db0972dd05dae", null ],
-    [ "ExplodeTimer", "dd/dfe/a14628.html#a42ed8e8c1f1e2f96a7238c11f4b48259", null ]
+    [ "npc_necromancerAI", "dd/dfe/a14628.html#a2326257b9132f320c7590fdd9070a747", null ],
+    [ "JustEngagedWith", "dd/dfe/a14628.html#a8245815e3f5be87937656341aa3d7385", null ],
+    [ "JustSummoned", "dd/dfe/a14628.html#a1db835dd3781f002725a1ca2fffd74fe", null ],
+    [ "KilledUnit", "dd/dfe/a14628.html#a2d8b251cba489a146447d5d1a8a05103", null ],
+    [ "Reset", "dd/dfe/a14628.html#af073cdc26dbfbc23b5bf4bd94c2fbc96", null ],
+    [ "SummonedCreatureDespawn", "dd/dfe/a14628.html#a9bfbbdbce59e3e5023b6429d29b1824e", null ],
+    [ "UpdateAI", "dd/dfe/a14628.html#ad178643cd38f8fe241de11c3cdfbc3b2", null ],
+    [ "WaypointReached", "dd/dfe/a14628.html#a3167e40fad20e8f5dfde2fb7e6c64b3b", null ],
+    [ "go", "dd/dfe/a14628.html#a1aec2bd8bc69ce559b437a1e39a11b39", null ],
+    [ "ShadowBoltTimer", "dd/dfe/a14628.html#a24a740bd0e2f2072feb5ecb012449a9f", null ],
+    [ "summons", "dd/dfe/a14628.html#a648575baf95159616a62bc09f09e620a", null ]
 ];

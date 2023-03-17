@@ -1,8 +1,6 @@
 var a28044 =
 [
-    [ "CheckProc", "d7/d48/a28044.html#a4f8e030154606e0781ebb89294019e0e", null ],
-    [ "HandleProc", "d7/d48/a28044.html#a3d3db432fb051785f51ece4052ec8907", null ],
-    [ "PrepareAuraScript", "d7/d48/a28044.html#aed40577ca9a1de3efc501606bcc9a8dd", null ],
-    [ "Register", "d7/d48/a28044.html#a8cfdc8d98946fca603971ad91035e21c", null ],
-    [ "Validate", "d7/d48/a28044.html#abfd3c0ad08ad287b38e8da437c18376c", null ]
+    [ "HandleRemove", "d7/d48/a28044.html#a491765056e8c4d97d9cdaaea9d11a0af", null ],
+    [ "PrepareAuraScript", "d7/d48/a28044.html#abe5d45b960fda879f48e3e98db9ad4ac", null ],
+    [ "Register", "d7/d48/a28044.html#ab00f3119d6c1bd1ad185374144f2987e", null ]
 ];

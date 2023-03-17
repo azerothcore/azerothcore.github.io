@@ -1,7 +1,7 @@
 var a13488 =
 [
-    [ "npc_jaina_proudmoore_bfuAI", "d9/dd0/a13488.html#ad5ad1d05ef8210409c700e47b5442e24", null ],
-    [ "Reset", "d9/dd0/a13488.html#a18de805428ce0954a5fbfffbf5975342", null ],
-    [ "UpdateAI", "d9/dd0/a13488.html#a48b191d0812bfe3212511a52ef0df817", null ],
-    [ "_events", "d9/dd0/a13488.html#a87e99e0b5fd0a3823b009025019b1fa4", null ]
+    [ "npc_calvin_montagueAI", "d4/d37/a13492.html", "d4/d37/a13492" ],
+    [ "npc_calvin_montague", "d9/dd0/a13488.html#af8af2896fc3e32a4285c3559c6f14456", null ],
+    [ "GetAI", "d9/dd0/a13488.html#a556f29fca6310d0e12bb3e0a7bf12f84", null ],
+    [ "OnQuestAccept", "d9/dd0/a13488.html#aae8c6adcb7ec68146b5b96a65b76e72b", null ]
 ];

@@ -1,6 +1,6 @@
 var a23328 =
 [
-    [ "npc_spiritual_insightAI", "d6/dcf/a23328.html#ab173cd8b623fcf8c36406155c91bc4db", null ],
-    [ "GetSpeachId", "d6/dcf/a23328.html#ad2dd22651470f47e7a7ba6f687ba54e9", null ],
-    [ "IsSummonedBy", "d6/dcf/a23328.html#adbc710cc5514996b325ee4343ab538f7", null ]
+    [ "npc_q24545_vegard_dummyAI", "dc/d8e/a23332.html", "dc/d8e/a23332" ],
+    [ "npc_q24545_vegard_dummy", "d6/dcf/a23328.html#a12363e26a720ae33b6cde0f44aec3adf", null ],
+    [ "GetAI", "d6/dcf/a23328.html#a201d1dec206887c26e33f795a0fd0887", null ]
 ];

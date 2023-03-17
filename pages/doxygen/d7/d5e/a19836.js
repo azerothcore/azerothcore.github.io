@@ -1,6 +1,5 @@
 var a19836 =
 [
-    [ "RespawnEvent", "d7/d5e/a19836.html#accc0d5638ff7a493fa116ac2e8f2e58b", null ],
-    [ "Execute", "d7/d5e/a19836.html#a2e58f4e472fb72cf5401f11be6e5e136", null ],
-    [ "_owner", "d7/d5e/a19836.html#adb0835b4a2e7a2795bb81f0a1e3c911a", null ]
+    [ "at_icc_spire_frostwyrm", "d7/d5e/a19836.html#ac3da2c0bc3e8b1c31832fcbb4e8ceae8", null ],
+    [ "OnTrigger", "d7/d5e/a19836.html#a7c6eecd75175902ee7652dbf771d9a58", null ]
 ];

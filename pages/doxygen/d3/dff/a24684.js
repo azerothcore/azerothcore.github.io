@@ -1,6 +1,7 @@
 var a24684 =
 [
-    [ "boss_najentusAI", "d5/d6b/a24688.html", "d5/d6b/a24688" ],
-    [ "boss_najentus", "d3/dff/a24684.html#aaf598514efe0fcc1954ad87026841bda", null ],
-    [ "GetAI", "d3/dff/a24684.html#aea4ffc2f826ae996afa45b7cc449834a", null ]
+    [ "CalculateAmount", "d3/dff/a24684.html#ac5080eab7a815cbea4cf966c73a28b83", null ],
+    [ "PrepareAuraScript", "d3/dff/a24684.html#a0ab73d06feccd3370c7eb75b43523e33", null ],
+    [ "Register", "d3/dff/a24684.html#a7cec8993c0f2f62cfe1f79532e610668", null ],
+    [ "Update", "d3/dff/a24684.html#ab01be869cc3b0d7fd6f6cda50bc9f8b4", null ]
 ];

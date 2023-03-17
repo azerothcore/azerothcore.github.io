@@ -1,11 +1,8 @@
 var a08152 =
 [
-    [ "SpellPeriodicAuraLogInfo", "df/d16/a08152.html#a3c3c5908556cf765c5cbba3ca7034ae9", null ],
-    [ "absorb", "df/d16/a08152.html#af69ed83578024b979dc9d65ff5ddc83b", null ],
-    [ "auraEff", "df/d16/a08152.html#ae69913fad91a8e5b140c206d2c5733e0", null ],
-    [ "critical", "df/d16/a08152.html#a51041b901727b4f595d2a886520626ff", null ],
-    [ "damage", "df/d16/a08152.html#aa3839fed2e3de0f7a01ad209eec2bdcd", null ],
-    [ "multiplier", "df/d16/a08152.html#a26b18592b0aebbdc6a00e8f91fd2a75a", null ],
-    [ "overDamage", "df/d16/a08152.html#a51904be3790c99bded697b2cf7c8db23", null ],
-    [ "resist", "df/d16/a08152.html#a5cb7dbeeb9d28037771a2f235a95e0fe", null ]
+    [ "DiminishingReturn", "df/d16/a08152.html#acd4828637710636d0164fced285c854d", null ],
+    [ "DRGroup", "df/d16/a08152.html#add3ab95d65e283a326e1922129941ae4", null ],
+    [ "hitCount", "df/d16/a08152.html#a94b1fdc8e8d51b1c6f5e723e697ed323", null ],
+    [ "hitTime", "df/d16/a08152.html#ae3f5eecc2bc88fe236fe4c7c297b68c5", null ],
+    [ "stack", "df/d16/a08152.html#aeb40601df7e6507c7fd83e3152541ba5", null ]
 ];

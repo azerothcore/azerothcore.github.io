@@ -1,6 +1,6 @@
 var a29468 =
 [
-    [ "trigger_periodicAI", "dc/dd8/a29472.html", "dc/dd8/a29472" ],
-    [ "trigger_periodic", "d2/d9f/a29468.html#a3c947c5a3092eecb7288a8a50c76bd14", null ],
-    [ "GetAI", "d2/d9f/a29468.html#a179f3aa69fcd0b145f4ede9f830c1f38", null ]
+    [ "npc_taxi", "d2/d9f/a29468.html#ac67282316d6ded2ff62b8a1800b8fae1", null ],
+    [ "OnGossipHello", "d2/d9f/a29468.html#a1bce89202ea3ed3fcbebd19a305c6a78", null ],
+    [ "OnGossipSelect", "d2/d9f/a29468.html#a5a7443abba8cf98a3073195177981edc", null ]
 ];

@@ -1,7 +1,7 @@
 var a28484 =
 [
-    [ "HandleDummy", "d5/def/a28484.html#aef93741620dcf29179502f88891ad0b5", null ],
-    [ "Load", "d5/def/a28484.html#ab8e5dcd009cca538c9921dcb9c5fe109", null ],
-    [ "PrepareSpellScript", "d5/def/a28484.html#ac92fd133395705e4cb3730bc96e1f787", null ],
-    [ "Register", "d5/def/a28484.html#a69336bea35240c0014693ae167d4124b", null ]
+    [ "HandleDummy", "d5/def/a28484.html#ab046ef0adc63c32a153ba4ea866f8dcd", null ],
+    [ "PrepareSpellScript", "d5/def/a28484.html#ac293d1c1aac41808f81cad2974424c2e", null ],
+    [ "Register", "d5/def/a28484.html#ab145e1826eb63d0b6b1ea39a6c3c4d36", null ],
+    [ "Validate", "d5/def/a28484.html#aa725a6ee483dfac46724d291de4ee54b", null ]
 ];

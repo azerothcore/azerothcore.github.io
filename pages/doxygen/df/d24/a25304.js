@@ -1,6 +1,6 @@
 var a25304 =
 [
-    [ "HandleScriptEffect", "df/d24/a25304.html#af5ff1238b857e9d35f6c52688343bae2", null ],
-    [ "PrepareSpellScript", "df/d24/a25304.html#ab987456cf5a9d34f367beb3774f455fd", null ],
-    [ "Register", "df/d24/a25304.html#a0936c499a721c13dc4f8c84c3089c2d3", null ]
+    [ "instance_the_underbog_InstanceMapScript", "df/d9b/a25308.html", "df/d9b/a25308" ],
+    [ "instance_the_underbog", "df/d24/a25304.html#afaf8740a3e367a1a54eaa3e76ffa483e", null ],
+    [ "GetInstanceScript", "df/d24/a25304.html#ace939fb7fd89e7c9c84c17d3ca31208b", null ]
 ];

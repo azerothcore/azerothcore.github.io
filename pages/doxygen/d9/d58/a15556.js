@@ -1,7 +1,6 @@
 var a15556 =
 [
-    [ "npc_shenthulAI", "df/d96/a15560.html", "df/d96/a15560" ],
-    [ "npc_shenthul", "d9/d58/a15556.html#a77815503c7d9c811fe3821232e308714", null ],
-    [ "GetAI", "d9/d58/a15556.html#a1683f8c89add6270277c59951c74027e", null ],
-    [ "OnQuestAccept", "d9/d58/a15556.html#a3a63fec338dca74eb7d071dfcc9c95b5", null ]
+    [ "npc_great_bear_spirit", "d9/d58/a15556.html#a141470a3623aa1152d3505661f1532c8", null ],
+    [ "OnGossipHello", "d9/d58/a15556.html#a2307b8d56fc117d918adc9814fa86f8f", null ],
+    [ "OnGossipSelect", "d9/d58/a15556.html#aae026f4cf8b0de61d36a841dcfdbd92e", null ]
 ];

@@ -1,10 +1,9 @@
 var a08584 =
 [
-    [ "UnitSearcher", "d2/d78/a08584.html#a4c50b4594650d9f3f83a40ac02f1a954", null ],
-    [ "Visit", "d2/d78/a08584.html#a5e419d2cb0de5ae58373e521d3a84ac6", null ],
-    [ "Visit", "d2/d78/a08584.html#a4bf8a315ab9464bbc5b0c8cae5c27fed", null ],
-    [ "Visit", "d2/d78/a08584.html#ac65516ed337b509ff5c316fb29727854", null ],
-    [ "i_check", "d2/d78/a08584.html#a3618df5a6ae33e76b802eae9cac1e1bd", null ],
-    [ "i_object", "d2/d78/a08584.html#a3029760131a6f50883246afe2533c062", null ],
-    [ "i_phaseMask", "d2/d78/a08584.html#ab94911f3f275de6a9ce9f15f1169c81c", null ]
+    [ "InserterType", "d2/d78/a08584.html#a8ea29aedfb1eaf2b3eac29bc61849319", null ],
+    [ "ContainerInserter", "d2/d78/a08584.html#a44cd545e2965b309c48d40f4617bc38e", null ],
+    [ "Insert", "d2/d78/a08584.html#af482d9f7940d548193fc56839bc2cb87", null ],
+    [ "InserterOf", "d2/d78/a08584.html#a003318d4ec066ca45d79ec5b669cdb8c", null ],
+    [ "inserter", "d2/d78/a08584.html#ac10b2769f02687260efd531af666fbb3", null ],
+    [ "ref", "d2/d78/a08584.html#a60d4a9120523c28d8c408c981305535e", null ]
 ];

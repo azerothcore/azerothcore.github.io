@@ -1,7 +1,6 @@
 var a23028 =
 [
-    [ "npc_bonker_togglevoltAI", "db/df7/a23032.html", "db/df7/a23032" ],
-    [ "npc_bonker_togglevolt", "dc/d84/a23028.html#aa37a0ebc03b884b5a2a06d652d5dede3", null ],
-    [ "GetAI", "dc/d84/a23028.html#a339c331e73497d2f7e1ee11e01ba4866", null ],
-    [ "OnQuestAccept", "dc/d84/a23028.html#aaf1f65a1f6788a98705bc29fecc4c3fa", null ]
+    [ "HandleScriptEffect", "dc/d84/a23028.html#aaad86a4f6c4065102a2f5760075dd2b0", null ],
+    [ "PrepareSpellScript", "dc/d84/a23028.html#aa749172e06fd919526b49de60a5da62a", null ],
+    [ "Register", "dc/d84/a23028.html#a0cefc12db88123d43dc17a9f5cfb313f", null ]
 ];

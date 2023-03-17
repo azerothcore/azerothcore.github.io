@@ -1,6 +1,6 @@
 var a17024 =
 [
-    [ "PrepareSpellScript", "d3/d71/a17024.html#aa8d0e805a2517a65f4ccbe86309a927f", null ],
-    [ "RecalculateDamage", "d3/d71/a17024.html#a9ac67073a6fa1bdcf24c6880a6806d7f", null ],
-    [ "Register", "d3/d71/a17024.html#a568455b554880fec8f488ff91815f914", null ]
+    [ "HandleEffectRemove", "d3/d71/a17024.html#a8007effff81142c80e81b76bfda63c31", null ],
+    [ "PrepareAuraScript", "d3/d71/a17024.html#acc20631a8cdb4b75fa3589e0f648693e", null ],
+    [ "Register", "d3/d71/a17024.html#aa4c0c4a512619c48d4542eb891a78ab4", null ]
 ];

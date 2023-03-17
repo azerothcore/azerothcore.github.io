@@ -1,21 +1,5 @@
 var a25584 =
 [
-    [ "instance_shattered_halls_InstanceMapScript", "d4/dc6/a25584.html#aa438091d2868b26d961ee4f81e9cea11", null ],
-    [ "GetGuidData", "d4/dc6/a25584.html#a1a0623204ecaaa3623fc503783c4d766", null ],
-    [ "GetSaveData", "d4/dc6/a25584.html#a7d3be80dbd330e0c115cd307cc5c00a8", null ],
-    [ "Initialize", "d4/dc6/a25584.html#a3761d56e59d5bf1147986978c9fdf2e3", null ],
-    [ "Load", "d4/dc6/a25584.html#a0d16141713a8da0f27ed1ee626e87ad2", null ],
-    [ "OnCreatureCreate", "d4/dc6/a25584.html#a9fa5637791d249553472b31c024f9fc1", null ],
-    [ "OnGameObjectCreate", "d4/dc6/a25584.html#af411e160d7a43743cbe297da64ba92af", null ],
-    [ "OnPlayerEnter", "d4/dc6/a25584.html#afad907d6b612897299a9f392e8797e8d", null ],
-    [ "SetBossState", "d4/dc6/a25584.html#a58d15076be6ce1c5fe263fd0e68efd98", null ],
-    [ "SetData", "d4/dc6/a25584.html#a566090f29d13977354fb50e68d92f046", null ],
-    [ "Update", "d4/dc6/a25584.html#aad1666c364feff4e2b7654f5894c129f", null ],
-    [ "executionerGUID", "d4/dc6/a25584.html#aa7a664b841be7dc70cdc42a79710566e", null ],
-    [ "nethekurseDoor1GUID", "d4/dc6/a25584.html#affb697ff7de60cf4228864f14599d8f6", null ],
-    [ "nethekurseDoor2GUID", "d4/dc6/a25584.html#ab8c38c3744ce418b6eb8ce498837e79d", null ],
-    [ "prisonerGUID", "d4/dc6/a25584.html#a79029c1bfc8f3234482c367e9c739b57", null ],
-    [ "RescueTimer", "d4/dc6/a25584.html#a8df2961264a192ab2692e3c8ca507666", null ],
-    [ "TeamIdInInstance", "d4/dc6/a25584.html#a647e394629c44e1899e70a69324e8056", null ],
-    [ "warchiefKargathGUID", "d4/dc6/a25584.html#a7ced1f8765fbdddd5a453d8ba646bc5a", null ]
+    [ "at_shattered_halls_execution", "d4/dc6/a25584.html#a73f1d1f03960acd070b7996257f7a526", null ],
+    [ "OnTrigger", "d4/dc6/a25584.html#ad35f9736371b091dc0780e5bf0caf9f5", null ]
 ];

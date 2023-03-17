@@ -1,12 +1,9 @@
 var a24108 =
 [
-    [ "OutdoorPvPNA", "da/d64/a24108.html#acbdae42245c71e4274296649d8d08e9e", null ],
-    [ "FillInitialWorldStates", "da/d64/a24108.html#ac4eaab1f8d69ac45f168899267801198", null ],
-    [ "HandleKillImpl", "da/d64/a24108.html#a2ede6e7dc54424d9729a094557b14792", null ],
-    [ "HandlePlayerEnterZone", "da/d64/a24108.html#a312c5f2aaa35a9f83740c1bdd9772b9e", null ],
-    [ "HandlePlayerLeaveZone", "da/d64/a24108.html#ae7dd540746946513cd7bf8e29296c068", null ],
-    [ "SendRemoveWorldStates", "da/d64/a24108.html#ae9a93ddac1ca439f0f269d7ac7597593", null ],
-    [ "SetupOutdoorPvP", "da/d64/a24108.html#a09369a62ec5584dd6ce5eddf7b2bb80f", null ],
-    [ "Update", "da/d64/a24108.html#a4074a96974fe1b5e6d9149c8eee36e71", null ],
-    [ "m_obj", "da/d64/a24108.html#a7538d64bb494644eae3cc7db03dd631f", null ]
+    [ "OPvPCapturePointGH", "da/d64/a24108.html#a6e46100e50212310af4301c492d5773e", null ],
+    [ "ChangeState", "da/d64/a24108.html#afe53e37a3a1dc4a7068c03302f26b981", null ],
+    [ "FillInitialWorldStates", "da/d64/a24108.html#ad1c3ece363da12750c851cf510228a06", null ],
+    [ "HandlePlayerEnter", "da/d64/a24108.html#afea733c44d129d9a5af78a8337d9e04a", null ],
+    [ "HandlePlayerLeave", "da/d64/a24108.html#a1e5d9c6f02eb02dfed654078c910635b", null ],
+    [ "SendChangePhase", "da/d64/a24108.html#aec741b9102829bf77850dc06a49bb8da", null ]
 ];

@@ -1,6 +1,6 @@
 var a23064 =
 [
-    [ "HandleEffect", "d6/d06/a23064.html#a84dab0a2289f341404850f8439d9de57", null ],
-    [ "PrepareSpellScript", "d6/d06/a23064.html#a08b28c7d34fc2933a776e9ae59d87ef9", null ],
-    [ "Register", "d6/d06/a23064.html#acbb270e8d0de0f548a90346f85753b05", null ]
+    [ "npc_warmage_coldarraAI", "df/dbc/a23068.html", "df/dbc/a23068" ],
+    [ "npc_warmage_coldarra", "d6/d06/a23064.html#a358f8ab26991798ff076ac764cd7abe2", null ],
+    [ "GetAI", "d6/d06/a23064.html#aa29181e0ad61b44eff685267f3231382", null ]
 ];

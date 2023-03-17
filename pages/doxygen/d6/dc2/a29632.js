@@ -1,10 +1,8 @@
 var a29632 =
 [
-    [ "npc_injured_patientAI", "d6/dc2/a29632.html#a0973487623f1771c598648bc06a6d9a3", null ],
-    [ "EnterCombat", "d6/dc2/a29632.html#a6952318049e89f9e610c522c26f71c11", null ],
-    [ "Reset", "d6/dc2/a29632.html#a007c9c7a4047374574cad17e9309d7c1", null ],
-    [ "SpellHit", "d6/dc2/a29632.html#ac9381e7c958348ae7a5e98fea7dcbe37", null ],
-    [ "UpdateAI", "d6/dc2/a29632.html#a481b7de0ffc3067ac9a57565d2d92a14", null ],
-    [ "Coord", "d6/dc2/a29632.html#af5a6f87c0379edd07a8756018b0c8661", null ],
-    [ "DoctorGUID", "d6/dc2/a29632.html#ad1de0d556a784aa16d87b8367fdb38e3", null ]
+    [ "npc_arcanite_dragonling", "d6/dc2/a29632.html#a9b7e4cefa312a16c90018d655ad94758", null ],
+    [ "IsSummonedBy", "d6/dc2/a29632.html#a921b35a91c4f21258efdb41fd87413db", null ],
+    [ "JustEngagedWith", "d6/dc2/a29632.html#a65f6d779681861117f750b70154b3e0d", null ],
+    [ "Reset", "d6/dc2/a29632.html#a4468d91430add821bf7a7ab11d8063da", null ],
+    [ "UpdateAI", "d6/dc2/a29632.html#aebe430b9a3079a5ccbfd979a74e532f3", null ]
 ];

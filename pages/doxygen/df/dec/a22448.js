@@ -1,7 +1,5 @@
 var a22448 =
 [
-    [ "npc_frost_tombAI", "df/dec/a22448.html#a950f7f77bdbc7ba1db0911641f2fadcf", null ],
-    [ "JustDied", "df/dec/a22448.html#aeda420de208505fa93fc548693a1ff74", null ],
-    [ "UpdateAI", "df/dec/a22448.html#a8f323275af4ecafd1978c465e75978e0", null ],
-    [ "PrisonerGUID", "df/dec/a22448.html#ae1e3af77879f98a77186ec77c31da7a8", null ]
+    [ "AreaTrigger_at_celestial_planetarium_enterance", "df/dec/a22448.html#ae1503a754a05a77991d9955a2fb74265", null ],
+    [ "OnTrigger", "df/dec/a22448.html#aa7aa93e00170313de251af4e562c422c", null ]
 ];

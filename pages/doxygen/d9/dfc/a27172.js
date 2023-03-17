@@ -1,6 +1,6 @@
 var a27172 =
 [
-    [ "OnPeriodic", "d9/dfc/a27172.html#a5fdf44f34765d0386d5c5490620c944a", null ],
-    [ "PrepareAuraScript", "d9/dfc/a27172.html#a3c3044795e183eef2c801781100b11c7", null ],
-    [ "Register", "d9/dfc/a27172.html#a1221c3287c3fd7add356e84430508684", null ]
+    [ "HandleScriptEffect", "d9/dfc/a27172.html#ab3f415ae783f2a778178cc3319b32773", null ],
+    [ "PrepareSpellScript", "d9/dfc/a27172.html#a4ba7f7935c4acda891190dc375086dee", null ],
+    [ "Register", "d9/dfc/a27172.html#ad9b1571b4faf7d0fc6df7f6a8eb05c8a", null ]
 ];

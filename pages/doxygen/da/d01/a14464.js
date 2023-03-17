@@ -1,6 +1,7 @@
 var a14464 =
 [
-    [ "boss_archimondeAI", "de/d04/a14468.html", "de/d04/a14468" ],
-    [ "boss_archimonde", "da/d01/a14464.html#aac5df4112555c9c383bfc20f82309e9a", null ],
-    [ "GetAI", "da/d01/a14464.html#a1fd6f09225d5621ed4502421c4af00c5", null ]
+    [ "HandleOnHit", "da/d01/a14464.html#ae3241486a612293b5421a523f6d854d9", null ],
+    [ "PrepareSpellScript", "da/d01/a14464.html#a20b6f0f7d403065cde55dec7f50537f9", null ],
+    [ "Register", "da/d01/a14464.html#af6d4c6dfa15da815298ad5d88b3fede2", null ],
+    [ "Validate", "da/d01/a14464.html#a53773b6b18b1d3a5be24f3065e8a2875", null ]
 ];

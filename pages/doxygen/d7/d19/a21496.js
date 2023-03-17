@@ -1,7 +1,6 @@
 var a21496 =
 [
-    [ "HandleAfterEffectApply", "d7/d19/a21496.html#add8b4a77e26980097d82970fc1e6af37", null ],
-    [ "PrepareAuraScript", "d7/d19/a21496.html#a28320bc19a9db3f6aeab5f28145290fb", null ],
-    [ "Register", "d7/d19/a21496.html#ae1ec61eeaa82583d76fae73ea631af33", null ],
-    [ "AuraEffectHandleModes", "d7/d19/a21496.html#a1f1ea305f50cd04c5970fdef68c9a516", null ]
+    [ "FilterTargets", "d7/d19/a21496.html#a5e4f707c99e3ce1fa87977059c55ec42", null ],
+    [ "PrepareSpellScript", "d7/d19/a21496.html#a553a508a22a27b09dcd56aa3582ab7cf", null ],
+    [ "Register", "d7/d19/a21496.html#a15083340e87d95ab4e06c04e6b73a149", null ]
 ];

@@ -1,5 +1,5 @@
 var a07784 =
 [
-    [ "Color", "dc/d8f/a07784.html#ad6232c851b72ce04d2dcfa00596fc1df", null ],
-    [ "Content", "dc/d8f/a07784.html#a5437849d9b7f229c4466e174d619d057", null ]
+    [ "invisibilityType", "dc/d8f/a07784.html#ac1e874a76fecd4d3eb061722713f6634", null ],
+    [ "InvisibilityValue", "dc/d8f/a07784.html#a8e1741fca7c49f0618a3999e69ae5c81", null ]
 ];

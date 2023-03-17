@@ -1,5 +1,7 @@
 var a11116 =
 [
-    [ "npcEntry", "de/dba/a11116.html#a866b12ea5416f36c36bbea1a35a6a490", null ],
-    [ "spellId", "de/dba/a11116.html#a8c2fd26e0e9de5f9292c8b993ba9f9be", null ]
+    [ "player_commandscript", "de/dba/a11116.html#a1565aa67743cfd3e5fe5179b4100bd20", null ],
+    [ "GetCommands", "de/dba/a11116.html#a0e1e8eec0fe449c95c5cf9dd06a0fced", null ],
+    [ "HandlePlayerLearnCommand", "de/dba/a11116.html#a6ca511bcecf73049665772cb80dbcf40", null ],
+    [ "HandlePlayerUnLearnCommand", "de/dba/a11116.html#a22fddb5da1278fe794a78a899c423bfd", null ]
 ];

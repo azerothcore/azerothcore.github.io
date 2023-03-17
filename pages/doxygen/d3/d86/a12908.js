@@ -1,13 +1,6 @@
 var a12908 =
 [
-    [ "boss_felmystAI", "d3/d86/a12908.html#a893e3f1222b3b418cfa514835516be64", null ],
-    [ "DoAction", "d3/d86/a12908.html#a5c62c49fa77cefd4b489fff03af9cf51", null ],
-    [ "EnterCombat", "d3/d86/a12908.html#a3691acc326c596e84276f42fd4001f92", null ],
-    [ "JustDied", "d3/d86/a12908.html#ab09d7b7281cc5cfaa6a8168bba8c8429", null ],
-    [ "JustSummoned", "d3/d86/a12908.html#aadfd0a28c6b59faf5adc7d965bdc0874", null ],
-    [ "KilledUnit", "d3/d86/a12908.html#a8f5260992b3de71ee80d50c3fc76077f", null ],
-    [ "MovementInform", "d3/d86/a12908.html#aeaea0da5d71e7ab4c5df915146a32470", null ],
-    [ "Reset", "d3/d86/a12908.html#adce16a5540d44427343b3d7dcd51f40f", null ],
-    [ "UpdateAI", "d3/d86/a12908.html#a46f47c3eb6f4be7a1a18663706c28994", null ],
-    [ "events2", "d3/d86/a12908.html#a2150dadfd03c74ae5e3150b6ec039a3b", null ]
+    [ "HandleApplyTouch", "d3/d86/a12908.html#a03d3cd8c6792c4c9604ec7be7d33ea0b", null ],
+    [ "PrepareSpellScript", "d3/d86/a12908.html#a3b300a0a47de87e3f51189933d0cede6", null ],
+    [ "Register", "d3/d86/a12908.html#a9cbb2e49f9a0f64b76562401c3305cb4", null ]
 ];

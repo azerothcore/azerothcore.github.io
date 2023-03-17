@@ -1,6 +1,7 @@
 var a24600 =
 [
-    [ "npc_akamaAI", "d5/d19/a24604.html", "d5/d19/a24604" ],
-    [ "npc_akama_shade", "d8/dcf/a24600.html#ad18cef990a3a9c0c13cf6e1be2b2708f", null ],
-    [ "GetAI", "d8/dcf/a24600.html#ae21de10a0f5b0a8b7354f132a638a532", null ]
+    [ "CalculateAmount", "d8/dcf/a24600.html#a732e15265482d5bad207cab290b4fc61", null ],
+    [ "PrepareAuraScript", "d8/dcf/a24600.html#a75b3bae31112c897849628ff6ce0f9b7", null ],
+    [ "Register", "d8/dcf/a24600.html#a271e63c228f0d931d9e957bb75e7ab6a", null ],
+    [ "Update", "d8/dcf/a24600.html#a84c85decfa9449741781b47f82a2f024", null ]
 ];

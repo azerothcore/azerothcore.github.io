@@ -1,7 +1,7 @@
 var a12704 =
 [
-    [ "HandleAfterCast", "d0/dd4/a12704.html#afa662fbe1b777047259ac6212961f7a5", null ],
-    [ "HandleScript", "d0/dd4/a12704.html#acd21d059ce10a64a3fe648d104d75ec1", null ],
-    [ "PrepareSpellScript", "d0/dd4/a12704.html#aca33d0a7c792a6ac18deaaa945a28a26", null ],
-    [ "Register", "d0/dd4/a12704.html#a4a898b0b096583af33f1f691a252b2ed", null ]
+    [ "HandleEffectApply", "d0/dd4/a12704.html#a2c419ff9944a9ba52b2530059ecaa82a", null ],
+    [ "HandleEffectRemove", "d0/dd4/a12704.html#a1b2d0a4b57c5886c68a00a2cba8922a4", null ],
+    [ "PrepareAuraScript", "d0/dd4/a12704.html#abca0eded713c89a78607e582156c3ca2", null ],
+    [ "Register", "d0/dd4/a12704.html#a61be8e7fc51ae2f963721240091dafea", null ]
 ];

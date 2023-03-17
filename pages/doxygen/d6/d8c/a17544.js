@@ -1,6 +1,6 @@
 var a17544 =
 [
-    [ "HandleApplyAura", "d6/d8c/a17544.html#a2745a89ee2fdc17dbf37134870d4fe36", null ],
-    [ "PrepareSpellScript", "d6/d8c/a17544.html#ac0865fce9c81ce8e48de04a465ba701d", null ],
-    [ "Register", "d6/d8c/a17544.html#aa2e338dc392e5d4a54522a380e32da33", null ]
+    [ "HandleScriptEffect", "d6/d8c/a17544.html#ad2cc4ff984e9a82f1e843cdbf0e03b8f", null ],
+    [ "PrepareSpellScript", "d6/d8c/a17544.html#a4705f2659627e93b5bd7eb66ed2fba37", null ],
+    [ "Register", "d6/d8c/a17544.html#a42703906af9868b120dfc75fdd3941d9", null ]
 ];

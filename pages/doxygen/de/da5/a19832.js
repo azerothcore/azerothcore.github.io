@@ -1,5 +1,5 @@
 var a19832 =
 [
-    [ "creatureEntry", "de/da5/a19832.html#afab12c40af70303dff2a9553d47dbb7d", null ],
-    [ "questId", "de/da5/a19832.html#ace2a7dd58d442b6afb2173311c89593b", null ]
+    [ "at_icc_putricide_trap", "de/da5/a19832.html#a9d4183629deada9c22750b8a34e94583", null ],
+    [ "OnTrigger", "de/da5/a19832.html#ad59c2f694c50fabf1946d2c7ae726413", null ]
 ];

@@ -1,17 +1,6 @@
 var a13400 =
 [
-    [ "pyrewood_ambushAI", "d2/d94/a13400.html#a29af91205e33cdde314edf35a44223a0", null ],
-    [ "EnterCombat", "d2/d94/a13400.html#a457b39b40ed73eda68f71d667e8f03b5", null ],
-    [ "JustDied", "d2/d94/a13400.html#a27edb00452f9d43fc25c21b4f2e70ba3", null ],
-    [ "JustSummoned", "d2/d94/a13400.html#abbf652df1707f706be1507122f852040", null ],
-    [ "Reset", "d2/d94/a13400.html#a65b370d028a2d47c4c6aeec737769d08", null ],
-    [ "SummonCreatureWithRandomTarget", "d2/d94/a13400.html#a32dfe2544ad6af64f1c4a4de0fe2acc2", null ],
-    [ "SummonedCreatureDespawn", "d2/d94/a13400.html#aaf23bf0a443a21db123b39625cc1b3fc", null ],
-    [ "UpdateAI", "d2/d94/a13400.html#a7bc951934bfdb04f1bdc00719c567cae", null ],
-    [ "KillCount", "d2/d94/a13400.html#a18887d364811047446ad77525cea7386", null ],
-    [ "Phase", "d2/d94/a13400.html#aec1fc4163f3fb2d4a6047f8849c22fae", null ],
-    [ "PlayerGUID", "d2/d94/a13400.html#aac20edbf41d884daee88a7dc0a9fefb8", null ],
-    [ "QuestInProgress", "d2/d94/a13400.html#a8ad845d7389f7b430c9e6878234aae82", null ],
-    [ "Summons", "d2/d94/a13400.html#ab07bf154dfff45075900fbb4a6372623", null ],
-    [ "WaitTimer", "d2/d94/a13400.html#a1d6ca4989cf7360a18655198ccdb5459", null ]
+    [ "OnEffect", "d2/d94/a13400.html#a814ab5c1e0063eb6398f767cbab28cd7", null ],
+    [ "PrepareSpellScript", "d2/d94/a13400.html#ab950bf8cf87ff2967658855c0fe08fc8", null ],
+    [ "Register", "d2/d94/a13400.html#a5cef1b024d009ab6551b18c98244fcbd", null ]
 ];

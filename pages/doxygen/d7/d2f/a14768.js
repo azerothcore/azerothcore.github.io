@@ -1,26 +1,6 @@
 var a14768 =
 [
-    [ "instance_old_hillsbrad_InstanceMapScript", "d7/d2f/a14768.html#a31fbc078e2c8d2a0f070a8a52c34ef90", null ],
-    [ "CleanupInstance", "d7/d2f/a14768.html#a20b8aa23c6c9e29f34cda71554c6d7a7", null ],
-    [ "EnsureGridLoaded", "d7/d2f/a14768.html#a337693ca3ad4527249b0f9f5c9a62d0f", null ],
-    [ "GetData", "d7/d2f/a14768.html#aa7ae89c6d23a061385a756cf0b0200bf", null ],
-    [ "GetGuidData", "d7/d2f/a14768.html#a119965a939e79b0fb395e8e3695359aa", null ],
-    [ "GetSaveData", "d7/d2f/a14768.html#a09d6014617bbf8f948dcf474b6da21a4", null ],
-    [ "Initialize", "d7/d2f/a14768.html#ac9e53a8a406110bbc1d454be7b87fb34", null ],
-    [ "Load", "d7/d2f/a14768.html#a6045bd668eeb57c48b63fc5ad09349c3", null ],
-    [ "OnCreatureCreate", "d7/d2f/a14768.html#a04bf5f844ab8e802f95745f56d996716", null ],
-    [ "OnGameObjectCreate", "d7/d2f/a14768.html#ae5f9223af1488f1edd99f35f7b1c7207", null ],
-    [ "OnPlayerEnter", "d7/d2f/a14768.html#a29ebe48953ba6be93da519c7a43c356e", null ],
-    [ "Reposition", "d7/d2f/a14768.html#a7fcd0c449edfe21933ee055549ea7ddf", null ],
-    [ "SetData", "d7/d2f/a14768.html#a961dd71754113ce6b5aecde16b6426d2", null ],
-    [ "Update", "d7/d2f/a14768.html#ac0bb22a2f69eecc269c69005777d9c38", null ],
-    [ "_attemptsCount", "d7/d2f/a14768.html#ac5c012148a60cc7dd26e36ba6950494b", null ],
-    [ "_barrelCount", "d7/d2f/a14768.html#aeb5828d54f327c5d2a30004afa86c4af", null ],
-    [ "_encounterProgress", "d7/d2f/a14768.html#a9b5fff035fb76116f0cea6f6786d506e", null ],
-    [ "_events", "d7/d2f/a14768.html#ab3a9785a2240d62de4dfcf0b2523520f", null ],
-    [ "_finalFlamesSet", "d7/d2f/a14768.html#a914232c182475a17e3583435f2fde9bc", null ],
-    [ "_initalFlamesSet", "d7/d2f/a14768.html#a2404c19bd154f8277aa539f48ae99963", null ],
-    [ "_prisonersSet", "d7/d2f/a14768.html#a43e3b3d3cb4797a8c03731df72e7cb5a", null ],
-    [ "_tarethaGUID", "d7/d2f/a14768.html#ada3dcc37cba14ae8361989f1b842b462", null ],
-    [ "_thrallGUID", "d7/d2f/a14768.html#add8e04fa930e970ab0e88258c10f9c5d", null ]
+    [ "npc_cos_chromie_start", "d7/d2f/a14768.html#ae8f810af1e593ad16958049f6ad19616", null ],
+    [ "OnGossipSelect", "d7/d2f/a14768.html#a35cba5a1b7865b07a4e843648cea50c8", null ],
+    [ "OnQuestAccept", "d7/d2f/a14768.html#aa730cb17e6cfe917bc32f7e7ae52e8ef", null ]
 ];

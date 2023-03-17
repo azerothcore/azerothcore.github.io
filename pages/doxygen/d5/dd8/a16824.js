@@ -1,5 +1,6 @@
 var a16824 =
 [
-    [ "PrepareAuraScript", "d5/dd8/a16824.html#ac3f3bb4164ade80c1553287039983083", null ],
-    [ "Register", "d5/dd8/a16824.html#adff3856a6ee07299410a4e08df444c64", null ]
+    [ "boss_fjolaAI", "d9/df5/a16828.html", "d9/df5/a16828" ],
+    [ "boss_fjola", "d5/dd8/a16824.html#a44baccf91ab8c8bc5d5a9d0aa8ef943f", null ],
+    [ "GetAI", "d5/dd8/a16824.html#a96d9ea0716199758b60ad933ade28de4", null ]
 ];

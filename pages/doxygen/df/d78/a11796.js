@@ -1,6 +1,7 @@
 var a11796 =
 [
-    [ "boss_magmadarAI", "df/d78/a11796.html#a47207fdd6eb94fb08791da06cd4160f6", null ],
-    [ "EnterCombat", "df/d78/a11796.html#a66991ef374663c16dbb1976e3d6b739c", null ],
-    [ "ExecuteEvent", "df/d78/a11796.html#a7d4c1807cb320fdc331057209a4ce166", null ]
+    [ "HandlePeriodic", "df/d78/a11796.html#a3b2521ff80066e6a2f4ae794bfce4d3c", null ],
+    [ "PrepareAuraScript", "df/d78/a11796.html#a65a16186e6af907305a0f2051b0a12bd", null ],
+    [ "Register", "df/d78/a11796.html#aaad3a7a9ca7a730d12a056bd7d14cf77", null ],
+    [ "Validate", "df/d78/a11796.html#a6121609dcaa61f2ac7904077aca61a07", null ]
 ];

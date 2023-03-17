@@ -1,10 +1,24 @@
 var a10640 =
 [
-    [ "TargetHook", "da/dbd/a10640.html#afcada203ddd8752107c74bbf0e7c24eb", null ],
-    [ "CheckEffect", "da/dbd/a10640.html#af02ad1f1fb914aac52095d7e41f12c94", null ],
-    [ "GetTarget", "da/dbd/a10640.html#a238979ffaaa644bd65ffd4e7cb20d797", null ],
-    [ "ToString", "da/dbd/a10640.html#a424e03e457dc15a2689f344e614a882f", null ],
-    [ "area", "da/dbd/a10640.html#aceec6f0ea91d45a11233122c3bc843ed", null ],
-    [ "dest", "da/dbd/a10640.html#a28f2f6f3338a2c261ee754508ee48e60", null ],
-    [ "targetType", "da/dbd/a10640.html#aed2e0e651bdd5453d716db464ac0ab55", null ]
+    [ "EffectAuraNameCheck", "df/daa/a10652.html", "df/daa/a10652" ],
+    [ "EffectHook", "da/d09/a10644.html", "da/d09/a10644" ],
+    [ "EffectNameCheck", "d2/d86/a10648.html", "d2/d86/a10648" ],
+    [ "_SpellScript", "da/dbd/a10640.html#a1094c9cbb65098fe0733ff54dce04388", null ],
+    [ "~_SpellScript", "da/dbd/a10640.html#a6a2621e4aeda24af6ec55b9a8c461262", null ],
+    [ "_GetScriptName", "da/dbd/a10640.html#ad3c16df6214a973fca3c62e4bc23f6a6", null ],
+    [ "_Init", "da/dbd/a10640.html#ae85c836ab2da173942a40b53561df1fb", null ],
+    [ "_Register", "da/dbd/a10640.html#ae22c1ed4b0e2742ee4c35de03c70d9d8", null ],
+    [ "_Unload", "da/dbd/a10640.html#a6b372f003568d60066449ee58a0469df", null ],
+    [ "_Validate", "da/dbd/a10640.html#af46024e85e0618c84bf72dc61df05673", null ],
+    [ "_ValidateSpellInfo", "da/dbd/a10640.html#a423786f1fc45a010a4ebc16db2645a1f", null ],
+    [ "_ValidateSpellInfo", "da/dbd/a10640.html#abb223d1713d7594bf4dfd1fc7c0dc5d5", null ],
+    [ "Load", "da/dbd/a10640.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443", null ],
+    [ "Register", "da/dbd/a10640.html#ab6fed9e44aa0c11342abffd74ee5bfe1", null ],
+    [ "Unload", "da/dbd/a10640.html#ad501b6dde3e42c3af93589b117e2cafc", null ],
+    [ "Validate", "da/dbd/a10640.html#a95e7862a5807bff409f13aea8306077e", null ],
+    [ "ValidateSpellInfo", "da/dbd/a10640.html#a9f7c76ac56838fbe61bf67d534979159", null ],
+    [ "ValidateSpellInfo", "da/dbd/a10640.html#a0ee15cbc62cccd346ce148c6acbe96f9", null ],
+    [ "m_currentScriptState", "da/dbd/a10640.html#a3f9d5cd0ea4eadbdb6a72f73875c0585", null ],
+    [ "m_scriptName", "da/dbd/a10640.html#a38bdb79ae6d11489dd6007485c1510de", null ],
+    [ "m_scriptSpellId", "da/dbd/a10640.html#ae2ab4203d324b2179ad06ffdb5d8626f", null ]
 ];

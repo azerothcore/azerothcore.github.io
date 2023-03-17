@@ -1,21 +1,13 @@
 var a19492 =
 [
-    [ "npc_crok_scourgebaneAI", "dd/d36/a19492.html#a0b59ffcc00aeb1b9ac23ddc0b1504054", null ],
-    [ "CanAIAttack", "dd/d36/a19492.html#a0a26fdecc1748b96d0e7598a80449dc9", null ],
-    [ "DamageTaken", "dd/d36/a19492.html#ae727d192e29c63d5aa699b491425cdc6", null ],
-    [ "DoAction", "dd/d36/a19492.html#aaf9b034a97510ce7d58aa2d9ecfc0c14", null ],
-    [ "Reset", "dd/d36/a19492.html#a6c1d480fff0a4a6361986dc82a945534", null ],
-    [ "SetGUID", "dd/d36/a19492.html#ad2493bd37a68c9b2709e25231863a863", null ],
-    [ "UpdateAI", "dd/d36/a19492.html#a109b1bf28de7903557c9c03957fa7d71", null ],
-    [ "UpdateEscortAI", "dd/d36/a19492.html#ae424685131ee51e8d6390e4ddb341b04", null ],
-    [ "WaypointReached", "dd/d36/a19492.html#a58c3e2ed37552b3adde1aa4f1a8ba0ba", null ],
-    [ "WaypointStart", "dd/d36/a19492.html#a900611179c3c9d4ceffd86261f62151b", null ],
-    [ "_aliveTrash", "dd/d36/a19492.html#ae0c99157db5daa07643715a56217bccd", null ],
-    [ "_currentWPid", "dd/d36/a19492.html#a541f03486042a87f3ff223d7424d32f8", null ],
-    [ "_didUnderTenPercentText", "dd/d36/a19492.html#a8cb4c0126549dbb10e0b60d164ba7924", null ],
-    [ "_events", "dd/d36/a19492.html#a8f6b1618223d4660cce33d34d215f323", null ],
-    [ "_handledWP4", "dd/d36/a19492.html#acf6f70f93dbca7f5139af17ec411b971", null ],
-    [ "_instance", "dd/d36/a19492.html#a0698a3297da669fd5440743be200c378", null ],
-    [ "_isEventDone", "dd/d36/a19492.html#a184a0a5b62cfc33c9ae71c0d2d651c27", null ],
-    [ "_wipeCheckTimer", "dd/d36/a19492.html#a91be80fbce6f6f0ae6a249128ba319c9", null ]
+    [ "npc_highlord_tirion_fordringAI", "dd/d36/a19492.html#a8852f9196a6609f317b6113ac2eee9ee", null ],
+    [ "Reset", "dd/d36/a19492.html#a80051b1b2a663997304b1754a3f9ff25", null ],
+    [ "SetData", "dd/d36/a19492.html#a5642aab7afc50a7494c43ae7a130d571", null ],
+    [ "UpdateAI", "dd/d36/a19492.html#ac3c8dc2e5bf6e0c3f380f395a785ad49", null ],
+    [ "_bolvarFordragon", "dd/d36/a19492.html#a8e8ae990a6e70a70ce6de3a13300261c", null ],
+    [ "_damnedKills", "dd/d36/a19492.html#a56e035884d2ab94629c133efc1fc8feb", null ],
+    [ "_events", "dd/d36/a19492.html#a8d8d6f1b8dc65b28a8117426e3767762", null ],
+    [ "_factionNPC", "dd/d36/a19492.html#acf9a436edcbfe3fcf47f56c5cf90cfb2", null ],
+    [ "_instance", "dd/d36/a19492.html#acd16d6200b08df23576aa9ccbb060d31", null ],
+    [ "_theLichKing", "dd/d36/a19492.html#afbe85d7002e34cfcb9414f2beda4e0a2", null ]
 ];

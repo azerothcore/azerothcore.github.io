@@ -1,7 +1,6 @@
 var a19920 =
 [
-    [ "HandleScript", "d0/d59/a19920.html#a9a6765d7e24f2a6f4b02d59677f48f65", null ],
-    [ "Launch", "d0/d59/a19920.html#ac2ffe3a8d29cc33d77a1ba53d316fe77", null ],
-    [ "PrepareSpellScript", "d0/d59/a19920.html#a7e2534faebce86750c4c050fdd96d3a7", null ],
-    [ "Register", "d0/d59/a19920.html#a6924967fab99a097255f705416de5ff3", null ]
+    [ "HandleGameObjectDamage", "d0/d59/a19920.html#ad20b0e637d04dadd6e4ebe528124fadd", null ],
+    [ "PrepareSpellScript", "d0/d59/a19920.html#a636a0e5afb673d9190438793febb45bd", null ],
+    [ "Register", "d0/d59/a19920.html#ae913049c6f402765ececb2d20849d929", null ]
 ];

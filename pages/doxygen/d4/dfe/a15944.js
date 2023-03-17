@@ -1,5 +1,5 @@
 var a15944 =
 [
-    [ "PrepareAuraScript", "d4/dfe/a15944.html#a94b3a8e0a610afa69c3a9771f8f22b13", null ],
-    [ "Register", "d4/dfe/a15944.html#a1203cbec26f64aa97d10783b567c2d62", null ]
+    [ "go_prince_taldaram_sphere", "d4/dfe/a15944.html#aae7054145e5a2034029f9130f81bc36c", null ],
+    [ "OnGossipHello", "d4/dfe/a15944.html#a3385bf5995919c64f363f9083c9f4627", null ]
 ];

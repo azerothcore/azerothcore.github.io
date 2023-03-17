@@ -1,9 +1,14 @@
 var a08112 =
 [
-    [ "AuraMunchingQueue", "d0/deb/a08112.html#a87178d02796b02360137f1f1ca3ce867", null ],
-    [ "Execute", "d0/deb/a08112.html#a8f025a0ea1db81fb283db563402d1c40", null ],
-    [ "_basePoints", "d0/deb/a08112.html#a9cf03046c9595e81bf119b7aacb1a81a", null ],
-    [ "_owner", "d0/deb/a08112.html#a472aaf46c2f167a10ce38267ace0b8bb", null ],
-    [ "_spellId", "d0/deb/a08112.html#a6674c43b906e45e2ad29100a7ff06f44", null ],
-    [ "_targetGUID", "d0/deb/a08112.html#a441b328296f0b7a75bdaee06d2cb94f1", null ]
+    [ "SocialMap", "d0/deb/a08112.html#a2b80fa18a6f1ed54fda7719867f45ebd", null ],
+    [ "SocialMgr", "d0/deb/a08112.html#a3cff8262ce10d2e8c8c38dc834230545", null ],
+    [ "~SocialMgr", "d0/deb/a08112.html#aef859e6c923a6ba4bb7ac0049f17463d", null ],
+    [ "BroadcastToFriendListers", "d0/deb/a08112.html#a55b35ea17ebfea4ff31710186b87865f", null ],
+    [ "GetFriendInfo", "d0/deb/a08112.html#a24344515cc4e656b98afcf760181b070", null ],
+    [ "instance", "d0/deb/a08112.html#a223f3d7811d8c360da7f467b70af808f", null ],
+    [ "LoadFromDB", "d0/deb/a08112.html#a6f10d7d75b0ddc5c2ec5c0e978f0e7b9", null ],
+    [ "MakeFriendStatusPacket", "d0/deb/a08112.html#a9acd86505e66f2e6de9f8d30b36b94e6", null ],
+    [ "RemovePlayerSocial", "d0/deb/a08112.html#a6b4968dc0a09a48c2b58e40d47da665d", null ],
+    [ "SendFriendStatus", "d0/deb/a08112.html#a8824263f601c107ef84e487ca1b71bff", null ],
+    [ "m_socialMap", "d0/deb/a08112.html#a2f8a276598ad01d350aa245fcef82a7a", null ]
 ];

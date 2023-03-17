@@ -1,6 +1,9 @@
 var a22944 =
 [
-    [ "spell_q11919_q11940_drake_hunt_AuraScript", "d0/dde/a22948.html", "d0/dde/a22948" ],
-    [ "spell_q11919_q11940_drake_hunt", "d5/d7d/a22944.html#a48220c2e7f6b30932c09dafd67225529", null ],
-    [ "GetAuraScript", "d5/d7d/a22944.html#a939d86a53ff2a8d7e7bf841f35f84e17", null ]
+    [ "npc_azure_sorcerorAI", "d5/d7d/a22944.html#a474a7144908d4820341dc56f77436b90", null ],
+    [ "Reset", "d5/d7d/a22944.html#a4c637288f79e1da4bdace6516cd887b1", null ],
+    [ "UpdateAI", "d5/d7d/a22944.html#a928d789e2cbd35b228857a23c4204ea1", null ],
+    [ "uiArcaneStreamTimer", "d5/d7d/a22944.html#ad238fe8fed4dcefd923d901e4f73ed05", null ],
+    [ "uiArcaneStreamTimerStartingValueHolder", "d5/d7d/a22944.html#af044879e8e064e28a491c87d0c6cde74", null ],
+    [ "uiManaDetonationTimer", "d5/d7d/a22944.html#a3ebe4eb452296f3c45db5c1b6cdaa243", null ]
 ];

@@ -1,15 +1,13 @@
 var a20416 =
 [
-    [ "boss_eregosAI", "dd/df5/a20416.html#a5b09dacbddd6075c2ebf4d62a387a8b6", null ],
-    [ "DamageTaken", "dd/df5/a20416.html#a7a4b4443aed576f080a56a27e15edfd4", null ],
-    [ "EnterCombat", "dd/df5/a20416.html#a9820ea0886ec5d78c0afb371e06a2765", null ],
-    [ "JustDied", "dd/df5/a20416.html#ade16be2804b857fc8e93a62d4be42380", null ],
-    [ "JustSummoned", "dd/df5/a20416.html#a33ef5a080e457f4e08e7997b467b0974", null ],
-    [ "KilledUnit", "dd/df5/a20416.html#a30ad32a4a63ae17eef4fc703a6749d38", null ],
-    [ "MoveInLineOfSight", "dd/df5/a20416.html#ac622481abb0190bdc7654b383766a9ed", null ],
-    [ "Reset", "dd/df5/a20416.html#aeec469c2c9d0ad27461478ee57c30c56", null ],
-    [ "UpdateAI", "dd/df5/a20416.html#a2a190fdb6b1c9ed4eba2b9e536c5cf36", null ],
-    [ "events", "dd/df5/a20416.html#ae6f1f2e3146525596c3dbb646283b744", null ],
-    [ "pInstance", "dd/df5/a20416.html#abf0b366d7b0931ccc30711a33736dda8", null ],
-    [ "shiftNumber", "dd/df5/a20416.html#a16c90dba1f0a7f4cc2025e294dbac455", null ]
+    [ "npc_crystalline_frayerAI", "dd/df5/a20416.html#a3e40823e8b0b498d150a3ebe3d1dbc41", null ],
+    [ "DamageTaken", "dd/df5/a20416.html#ab899f99852e72e14a85df6c4642ecd75", null ],
+    [ "EnterEvadeMode", "dd/df5/a20416.html#ae2e904f098a1290da4a413642a08bdd6", null ],
+    [ "JustEngagedWith", "dd/df5/a20416.html#a4228d6d142219f2bc0e856bd0cd29456", null ],
+    [ "Reset", "dd/df5/a20416.html#a3c40960117bff0c943bbec58eb1c187e", null ],
+    [ "UpdateAI", "dd/df5/a20416.html#a0f28d1c6eed3d155aaf3f28494a865aa", null ],
+    [ "_allowDeath", "dd/df5/a20416.html#a5070b825c1ffced4d8b0f864f11ba07d", null ],
+    [ "abilityTimer1", "dd/df5/a20416.html#a4120d65ba18ff16dfb291523c8f52970", null ],
+    [ "abilityTimer2", "dd/df5/a20416.html#ab1934b20e57e6df649b3044230b70943", null ],
+    [ "restoreTimer", "dd/df5/a20416.html#aea508af2b17a40b1a5ecb3815d85dd4f", null ]
 ];

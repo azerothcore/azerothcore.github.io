@@ -1,7 +1,6 @@
 var a26036 =
 [
-    [ "npc_daranelleAI", "d8/d68/a26036.html#a49eeff6e0aea079a0375a92074227d12", null ],
-    [ "EnterCombat", "d8/d68/a26036.html#a0338a34661e5557e40945f9904b09293", null ],
-    [ "MoveInLineOfSight", "d8/d68/a26036.html#a353e27c1485b88f0751a64260898d35b", null ],
-    [ "Reset", "d8/d68/a26036.html#a33b2fbec775257e3ba0bebe37fb86349", null ]
+    [ "HandleEffect", "d8/d68/a26036.html#aa1475e99087f0d270823cfd23376ce4c", null ],
+    [ "PrepareSpellScript", "d8/d68/a26036.html#ae88f4d4d3697fc3c57c3d8e9a9255bd1", null ],
+    [ "Register", "d8/d68/a26036.html#af45b5e3c7ff0fc360df677e5010183d8", null ]
 ];

@@ -1,6 +1,6 @@
 var a25780 =
 [
-    [ "boss_high_astromancer_solarianAI", "d8/d1a/a25784.html", "d8/d1a/a25784" ],
-    [ "boss_high_astromancer_solarian", "de/d22/a25780.html#a36282f8b5da61bc84cf2eff73745b1cb", null ],
-    [ "GetAI", "de/d22/a25780.html#ab3f776fbf3a10d3e859a7e21659fd9bd", null ]
+    [ "spell_kaelthas_kael_phase_two_SpellScript", "d8/d1a/a25784.html", "d8/d1a/a25784" ],
+    [ "spell_kaelthas_kael_phase_two", "de/d22/a25780.html#a422501ce9aabdddea3f41e6c2f80986f", null ],
+    [ "GetSpellScript", "de/d22/a25780.html#a183a27193ca41d3944fedd94810e2854", null ]
 ];

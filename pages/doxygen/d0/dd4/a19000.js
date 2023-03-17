@@ -1,7 +1,7 @@
 var a19000 =
 [
-    [ "OnRemove", "d0/dd4/a19000.html#ab92a69d50a2015ba13e9f973d6990853", null ],
-    [ "PrepareAuraScript", "d0/dd4/a19000.html#a8d57abd6f774c446f3f5c772befa81ce", null ],
-    [ "Register", "d0/dd4/a19000.html#ad5b891062288c5383496a162d66f50c6", null ],
-    [ "Validate", "d0/dd4/a19000.html#ac9c82d89858e95c4df98f6caf178d8dd", null ]
+    [ "HandleScript", "d0/dd4/a19000.html#a1cbda75200fc754df8956a89f4794170", null ],
+    [ "PrepareSpellScript", "d0/dd4/a19000.html#ac5b9fdf33f2c66dfc0504f0cdb69643c", null ],
+    [ "Register", "d0/dd4/a19000.html#a4e77e8ad632c77a465b1ac97e57c71b4", null ],
+    [ "Validate", "d0/dd4/a19000.html#aef9232087ab1a58be49feffaa58b20d9", null ]
 ];

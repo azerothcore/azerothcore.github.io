@@ -1,7 +1,7 @@
 var a28776 =
 [
-    [ "AfterRemove", "d1/d88/a28776.html#ad0bad4a07d5a65a7834e7ab46e082b20", null ],
-    [ "PrepareAuraScript", "d1/d88/a28776.html#af338af238305f1872275e1e5e9fdee16", null ],
-    [ "Register", "d1/d88/a28776.html#aa266e794be35b51a399b13ee2d06199d", null ],
-    [ "Validate", "d1/d88/a28776.html#af58098eb7a904e20846cf728f5adc18b", null ]
+    [ "HandleTeleport", "d1/d88/a28776.html#a7ba7b82988dab5fd8e691b5b87c3d959", null ],
+    [ "PrepareAuraScript", "d1/d88/a28776.html#a2307b7eccd4dd08d7e97ece704ddc4fb", null ],
+    [ "Register", "d1/d88/a28776.html#a82432a4448d8c23ea2a39b4b26eb1b58", null ],
+    [ "Validate", "d1/d88/a28776.html#adabf22bd591a10662ffbf0354a18a936", null ]
 ];

@@ -1,6 +1,6 @@
 var a24508 =
 [
-    [ "PrepareAuraScript", "dc/ded/a24508.html#a5bab44f51daddafe7150dc3434493f0c", null ],
-    [ "Register", "dc/ded/a24508.html#af6192828a06b808a66f4837fb355e1ee", null ],
-    [ "Update", "dc/ded/a24508.html#a08072ff36cc6057368a5530adab90cd8", null ]
+    [ "spell_mother_shahraz_fatal_attraction_SpellScript", "d2/df4/a24512.html", "d2/df4/a24512" ],
+    [ "spell_mother_shahraz_fatal_attraction", "dc/ded/a24508.html#a756920028ce8ed0ca7403ab836d996ec", null ],
+    [ "GetSpellScript", "dc/ded/a24508.html#ab781619ed14146722c4c1b4611e65392", null ]
 ];

@@ -1,7 +1,7 @@
 var a15896 =
 [
-    [ "HandleRemoval", "d6/d2d/a15896.html#a2b6faeb4aeaead87fd11eb737e273049", null ],
-    [ "Load", "d6/d2d/a15896.html#ac4262148657de341040ae5735b1162a1", null ],
-    [ "PrepareAuraScript", "d6/d2d/a15896.html#a18f89cf12b5785c76c221347fc189340", null ],
-    [ "Register", "d6/d2d/a15896.html#a7dbadcf208bcc74a815381da1a7ad4ce", null ]
+    [ "HandleDummy", "d6/d2d/a15896.html#a5d619c13c620fedeea803a0802fd9ee6", null ],
+    [ "PrepareSpellScript", "d6/d2d/a15896.html#a04ed0daa21e66b842b8443b5e102ec1d", null ],
+    [ "Register", "d6/d2d/a15896.html#a4359ad73b513a368509a066a039ddf53", null ],
+    [ "_targetCount", "d6/d2d/a15896.html#a3ba108d63ef38af0a8730c1bf1aa69e9", null ]
 ];

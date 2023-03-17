@@ -1,9 +1,7 @@
 var a04872 =
 [
-    [ "FactoryHolderRegistry", "de/d6f/a04872.html#a5384598eca62a35bc617a4c395353ecd", null ],
-    [ "FactoryHolder", "de/d6f/a04872.html#a5e7097c2a475378023f33ec430f4ca85", null ],
-    [ "~FactoryHolder", "de/d6f/a04872.html#a78673bd2f3d857127c1a91c49e3cd62f", null ],
-    [ "Create", "de/d6f/a04872.html#a7072fb7dfe99890dea89b1ba661eb3ce", null ],
-    [ "RegisterSelf", "de/d6f/a04872.html#a9e173f9daaf5c2de36bb8b46da4249e1", null ],
-    [ "_key", "de/d6f/a04872.html#a98c0e66f8caaa207771efd82b2c2f9aa", null ]
+    [ "Secret", "de/d6f/a04872.html#aae38427994c1f4ddf3838c4e1f3f7e03", null ],
+    [ "GenerateToken", "de/d6f/a04872.html#a44829d44e78247991d9c3dde270cab5c", null ],
+    [ "ValidateToken", "de/d6f/a04872.html#ab6b27542814e577106ad587a5807d663", null ],
+    [ "RECOMMENDED_SECRET_LENGTH", "de/d6f/a04872.html#a885fc6c1a5bda166416f161ea202eb72", null ]
 ];

@@ -1,14 +1,11 @@
 var a08188 =
 [
-    [ "SafeUnitPointer", "db/d54/a08188.html#a05ee5199683b1e68189a7d122bf3f5f4", null ],
-    [ "SafeUnitPointer", "db/d54/a08188.html#a9ac4023d6ec32f96c757206dd4aa3fd6", null ],
-    [ "~SafeUnitPointer", "db/d54/a08188.html#ad9c2be82f67eb4e825a9ffd07307983a", null ],
-    [ "Initialize", "db/d54/a08188.html#a40f6e04585ca487c457d17ce10cc7b8c", null ],
-    [ "operator Unit *", "db/d54/a08188.html#afee1d290f436472dd719ff83f41721f5", null ],
-    [ "operator->", "db/d54/a08188.html#af63a04a7c6e6cb3002f5a99f90f70328", null ],
-    [ "operator=", "db/d54/a08188.html#a44f522d9c22861f853df0286a3764d3e", null ],
-    [ "SetPointedTo", "db/d54/a08188.html#a6603c67b736224a8e6559340afa8b275", null ],
-    [ "UnitDeleted", "db/d54/a08188.html#a872b0a86328fb03e5feccdf364ea5cce", null ],
-    [ "defaultValue", "db/d54/a08188.html#a38dce117cb135c9b84918a9bbc884f28", null ],
-    [ "ptr", "db/d54/a08188.html#aa8bf5e4728aeb1ca7a8de1a727a84884", null ]
+    [ "SpellPeriodicAuraLogInfo", "db/d54/a08188.html#a3c3c5908556cf765c5cbba3ca7034ae9", null ],
+    [ "absorb", "db/d54/a08188.html#af69ed83578024b979dc9d65ff5ddc83b", null ],
+    [ "auraEff", "db/d54/a08188.html#ae69913fad91a8e5b140c206d2c5733e0", null ],
+    [ "critical", "db/d54/a08188.html#a51041b901727b4f595d2a886520626ff", null ],
+    [ "damage", "db/d54/a08188.html#aa3839fed2e3de0f7a01ad209eec2bdcd", null ],
+    [ "multiplier", "db/d54/a08188.html#a26b18592b0aebbdc6a00e8f91fd2a75a", null ],
+    [ "overDamage", "db/d54/a08188.html#a51904be3790c99bded697b2cf7c8db23", null ],
+    [ "resist", "db/d54/a08188.html#a5cb7dbeeb9d28037771a2f235a95e0fe", null ]
 ];

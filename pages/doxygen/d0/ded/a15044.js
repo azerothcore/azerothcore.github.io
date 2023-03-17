@@ -1,6 +1,6 @@
 var a15044 =
 [
-    [ "HandleScript", "d0/ded/a15044.html#a88551ffd3dbe4fb9cc122a68813234f0", null ],
-    [ "PrepareSpellScript", "d0/ded/a15044.html#ae4d8cad1b5de248a30085142fcc2cc7b", null ],
-    [ "Register", "d0/ded/a15044.html#a434f0aef7f32edb6990efb992e4d57af", null ]
+    [ "FilterTargets", "d0/ded/a15044.html#ab0cd088c750e9538e2087f58fdaac20e", null ],
+    [ "PrepareSpellScript", "d0/ded/a15044.html#ae252cbce0ebc63eb4e54bedfc88640ad", null ],
+    [ "Register", "d0/ded/a15044.html#a3168a3f97ddb38b261a0730405ba27db", null ]
 ];

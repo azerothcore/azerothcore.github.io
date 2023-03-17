@@ -1,6 +1,6 @@
 var a25640 =
 [
-    [ "boss_wrath_scryer_soccothratesAI", "da/db7/a25644.html", "da/db7/a25644" ],
-    [ "boss_wrath_scryer_soccothrates", "de/ddc/a25640.html#a6b548bf12eeeb5c8f0f7584549dabf8f", null ],
-    [ "GetAI", "de/ddc/a25640.html#aa399f214d7f3410840408837cbaa4642", null ]
+    [ "instance_arcatraz_InstanceMapScript", "da/db7/a25644.html", "da/db7/a25644" ],
+    [ "instance_arcatraz", "de/ddc/a25640.html#a6fc8860651573353b54fd26bddea32aa", null ],
+    [ "GetInstanceScript", "de/ddc/a25640.html#ad3f78e41ef2c96443ed3bd1ba4ab55bb", null ]
 ];

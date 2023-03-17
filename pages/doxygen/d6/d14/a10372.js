@@ -1,6 +1,12 @@
 var a10372 =
 [
-    [ "WorldSession", "d6/d14/a10372.html#a65b5c30bf4f5f118a199e378d903aaf6", null ],
-    [ "Guid", "d6/d14/a10372.html#a46a89b6904e59f39f4e1460a9bb45765", null ],
-    [ "Name", "d6/d14/a10372.html#a4e747a555bde74f97a5fc78287e5e29d", null ]
+    [ "PacketLog", "d6/d14/a10372.html#a75215d454393ecd3fce0ea07b5d673ee", null ],
+    [ "~PacketLog", "d6/d14/a10372.html#a595a42f9aaa94d6c46d185955df801e0", null ],
+    [ "CanLogPacket", "d6/d14/a10372.html#a322cf3a0d8707becb9dcc64548d4cce5", null ],
+    [ "Initialize", "d6/d14/a10372.html#aea6ccfd41bc147557b7c5066fe18afa6", null ],
+    [ "instance", "d6/d14/a10372.html#a484418a51ca0bf150d17b23d97979bf4", null ],
+    [ "LogPacket", "d6/d14/a10372.html#ac0323a6ac3856412b765d0b31dbbb37e", null ],
+    [ "_file", "d6/d14/a10372.html#a03346a709f7586f6445e03b9a3b6af04", null ],
+    [ "_initializeFlag", "d6/d14/a10372.html#a490cafe009f7b2ecb303a76c781f8960", null ],
+    [ "_logPacketLock", "d6/d14/a10372.html#aeffb6309ef859cbb346b15dc1fca5cbe", null ]
 ];

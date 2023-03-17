@@ -1,6 +1,6 @@
 var a18748 =
 [
-    [ "spell_sindragosa_icy_grip_SpellScript", "d5/de4/a18752.html", "d5/de4/a18752" ],
-    [ "spell_sindragosa_icy_grip", "d0/d70/a18748.html#ab39f6b17fd5813822a59c98d3f52b03b", null ],
-    [ "GetSpellScript", "d0/d70/a18748.html#a1757c0bdb4e49a7376604c1ba9f41147", null ]
+    [ "FilterTargets", "d0/d70/a18748.html#a67190c6d0f65184c43e064b001eeb4fb", null ],
+    [ "PrepareSpellScript", "d0/d70/a18748.html#a7e41795dc658c8745fd3956822f3f755", null ],
+    [ "Register", "d0/d70/a18748.html#aef94fefc34e9b5ce6ddece8393aa0945", null ]
 ];

@@ -1,5 +1,6 @@
 var a15060 =
 [
-    [ "boss_yauj", "dd/d04/a15060.html#a15ab7b6b35d29fb1552b11586163320e", null ],
-    [ "EnterCombat", "dd/d04/a15060.html#aaba7c79222568bdaa8045c280c819c2d", null ]
+    [ "instance_ruins_of_ahnqiraj_InstanceMapScript", "d1/dfb/a15064.html", "d1/dfb/a15064" ],
+    [ "instance_ruins_of_ahnqiraj", "dd/d04/a15060.html#adeacb1c68e4b12995a335d1bedde075a", null ],
+    [ "GetInstanceScript", "dd/d04/a15060.html#a6a661e961c2599498de0ccd41c0763b4", null ]
 ];

@@ -1,10 +1,7 @@
 var a26788 =
 [
-    [ "CheckProc", "de/d84/a26788.html#a7bab1f02db05ce2c7b52ad9a2f5f6f02", null ],
-    [ "HandleProc", "de/d84/a26788.html#ac90b54e946baa80589cab2f66aca1f5f", null ],
-    [ "Load", "de/d84/a26788.html#ada85014de8a3602e83912d5e1a0165c5", null ],
-    [ "PrepareAuraScript", "de/d84/a26788.html#a769f2b77b2972c40e3e43e70d2ff5820", null ],
-    [ "Register", "de/d84/a26788.html#ab8a35292c0d4d392d9dd9db438d59cc4", null ],
-    [ "Validate", "de/d84/a26788.html#aba8bd9ae5ec9e92eccb04163114c4802", null ],
-    [ "_procTarget", "de/d84/a26788.html#a0c3ba33c7117195dac4c1df3a6e8529a", null ]
+    [ "AfterApply", "de/d84/a26788.html#adae232af9445638b3d54e81d414483b7", null ],
+    [ "AfterRemove", "de/d84/a26788.html#abf458f1f1dd5abfbba88325cad044ab1", null ],
+    [ "PrepareAuraScript", "de/d84/a26788.html#a305c532aa0e8740e8c8a87a6ba0abcff", null ],
+    [ "Register", "de/d84/a26788.html#abff75ea597dcc017a359a5ef3ada4314", null ]
 ];

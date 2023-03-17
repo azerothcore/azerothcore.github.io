@@ -1,12 +1,12 @@
 var a07588 =
 [
-    [ "GameObjectModelOwnerImpl", "dc/dc4/a07588.html#adb8b3b555ad6cd75c1ee7a1f71a08af7", null ],
-    [ "DebugVisualizeCorner", "dc/dc4/a07588.html#af8553967b9788d69da9fcb8cdb647f9c", null ],
-    [ "GetDisplayId", "dc/dc4/a07588.html#a4a694456955c19e76d8c84befc02c920", null ],
-    [ "GetOrientation", "dc/dc4/a07588.html#acb968e3bd921aac111a2e06f2604b040", null ],
-    [ "GetPhaseMask", "dc/dc4/a07588.html#ad0b9a01502c49f16a47e35694d3e6c10", null ],
-    [ "GetPosition", "dc/dc4/a07588.html#a9ba2b29d30b38895effe97637e050988", null ],
-    [ "GetScale", "dc/dc4/a07588.html#a3d72c1810a41e2baa7e87ab26f4674f9", null ],
-    [ "IsSpawned", "dc/dc4/a07588.html#ae47eb25d16de37122042402443db6f3d", null ],
-    [ "_owner", "dc/dc4/a07588.html#a7909f7095341dde39bf47fc12a0c15b0", null ]
+    [ "QuestMenu", "dc/dc4/a07588.html#a60ba5b35499c6a9ed510300d3300421e", null ],
+    [ "~QuestMenu", "dc/dc4/a07588.html#a14df9b6699c327853121ae032704db8d", null ],
+    [ "AddMenuItem", "dc/dc4/a07588.html#ac8735756bbf9f2fa799c505bd740e070", null ],
+    [ "ClearMenu", "dc/dc4/a07588.html#ab3d3881aabe000694acab37a3774507e", null ],
+    [ "Empty", "dc/dc4/a07588.html#a1a850cb70956f299ea91cb0d732ad202", null ],
+    [ "GetItem", "dc/dc4/a07588.html#a08240a8d18dce0cb96db19f54c67dd2c", null ],
+    [ "GetMenuItemCount", "dc/dc4/a07588.html#a2338a6fb88c32bfb66fe524a8ffaa0d7", null ],
+    [ "HasItem", "dc/dc4/a07588.html#a7fe36e4a4acfc66a00f08034c470b5e3", null ],
+    [ "_questMenuItems", "dc/dc4/a07588.html#a49279a3943009f2d1475d792c2c3d21a", null ]
 ];

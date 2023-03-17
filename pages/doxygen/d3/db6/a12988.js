@@ -1,7 +1,6 @@
 var a12988 =
 [
-    [ "FilterTargets", "d3/db6/a12988.html#a3d825420d6e2c02e5e0bb07240c2efbc", null ],
-    [ "HandleDummy", "d3/db6/a12988.html#aa63bfb989205495f69eafe739989e8d7", null ],
-    [ "PrepareSpellScript", "d3/db6/a12988.html#acf853f6383951b47feca881f971189cc", null ],
-    [ "Register", "d3/db6/a12988.html#a121a9c4945c93b1709ccb336ca2bc53e", null ]
+    [ "spell_felmyst_open_brutallus_back_doors_SpellScript", "d9/da5/a12992.html", "d9/da5/a12992" ],
+    [ "spell_felmyst_open_brutallus_back_doors", "d3/db6/a12988.html#a4afbec8a2716df47d35375e82e1a7b65", null ],
+    [ "GetSpellScript", "d3/db6/a12988.html#a06b0b9238f7d48a4eb3fba9743c850aa", null ]
 ];

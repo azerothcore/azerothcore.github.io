@@ -1,6 +1,6 @@
 var a13156 =
 [
-    [ "spell_muru_summon_blood_elves_periodic_AuraScript", "d0/d96/a13160.html", "d0/d96/a13160" ],
-    [ "spell_muru_summon_blood_elves_periodic", "d5/d2c/a13156.html#a4180a67a9277ad66a2f64f6614dc8071", null ],
-    [ "GetAuraScript", "d5/d2c/a13156.html#ae3d57a4c47dda4b504b93f42cf3c8396", null ]
+    [ "spell_kiljaeden_armageddon_missile_SpellScript", "d0/d96/a13160.html", "d0/d96/a13160" ],
+    [ "spell_kiljaeden_armageddon_missile", "d5/d2c/a13156.html#a73073b9b9c26ac2d1ef8b72ae090c2d2", null ],
+    [ "GetSpellScript", "d5/d2c/a13156.html#a14d4462d8133fcb7d2feeb129e384257", null ]
 ];

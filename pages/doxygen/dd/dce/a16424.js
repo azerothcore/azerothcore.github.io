@@ -1,6 +1,6 @@
 var a16424 =
 [
-    [ "boss_black_knightAI", "d3/d9e/a16428.html", "d3/d9e/a16428" ],
-    [ "boss_black_knight", "dd/dce/a16424.html#af55a307f282a68bc83e45c6de647ebf4", null ],
-    [ "GetAI", "dd/dce/a16424.html#a3f7ac72f69cebdab0a13c61c0b9b2ed2", null ]
+    [ "npc_argent_soldierAI", "d3/d9e/a16428.html", "d3/d9e/a16428" ],
+    [ "npc_argent_soldier", "dd/dce/a16424.html#aa308b4cf1df6edf0666d06e0ddab0797", null ],
+    [ "GetAI", "dd/dce/a16424.html#adfeed3d533104b9617dfbb06925a3d44", null ]
 ];

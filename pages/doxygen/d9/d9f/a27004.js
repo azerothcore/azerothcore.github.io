@@ -1,6 +1,6 @@
 var a27004 =
 [
-    [ "HandleKnockBack", "d9/d9f/a27004.html#ae50d143953074b83183482770046e131", null ],
-    [ "PrepareSpellScript", "d9/d9f/a27004.html#a73666b297ef8bbfd490fee6075b06b3a", null ],
-    [ "Register", "d9/d9f/a27004.html#a035df6b2e29aa0d2b5558e1cfef96ead", null ]
+    [ "CheckProc", "d9/d9f/a27004.html#a3c4f64fc51367ebb549282b068458f4c", null ],
+    [ "PrepareAuraScript", "d9/d9f/a27004.html#a72dc7c7b8bc842a7feb6857cbec34d25", null ],
+    [ "Register", "d9/d9f/a27004.html#ac84b357828094a42aab1c8bfee83d298", null ]
 ];

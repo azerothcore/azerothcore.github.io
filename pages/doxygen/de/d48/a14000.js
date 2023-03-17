@@ -1,6 +1,6 @@
 var a14000 =
 [
-    [ "boss_venoxisAI", "de/d32/a14004.html", "de/d32/a14004" ],
-    [ "boss_venoxis", "de/d48/a14000.html#adb00beb0084f79f34b55a6726d34c7af", null ],
-    [ "GetAI", "de/d48/a14000.html#a42a2f7d91919be74491b0a00e8e1e505", null ]
+    [ "HandleObjectAreaTargetSelect", "de/d48/a14000.html#aa7695bddd766d5adefb04710d41894f6", null ],
+    [ "PrepareSpellScript", "de/d48/a14000.html#a77ba184428cfbb8ec3cc4670f78741e0", null ],
+    [ "Register", "de/d48/a14000.html#adbc2f1c4ec64b95ec72c82f36f12d928", null ]
 ];

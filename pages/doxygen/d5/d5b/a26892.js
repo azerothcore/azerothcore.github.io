@@ -1,7 +1,7 @@
 var a26892 =
 [
-    [ "AfterApply", "d5/d5b/a26892.html#adae232af9445638b3d54e81d414483b7", null ],
-    [ "AfterRemove", "d5/d5b/a26892.html#abf458f1f1dd5abfbba88325cad044ab1", null ],
-    [ "PrepareAuraScript", "d5/d5b/a26892.html#a305c532aa0e8740e8c8a87a6ba0abcff", null ],
-    [ "Register", "d5/d5b/a26892.html#abff75ea597dcc017a359a5ef3ada4314", null ]
+    [ "CalculateAmount", "d5/d5b/a26892.html#ab705e67f7abb72a13dfd32e7a6da4561", null ],
+    [ "Load", "d5/d5b/a26892.html#ac87f1c7ccb9aa9985d538c9d8611c850", null ],
+    [ "PrepareAuraScript", "d5/d5b/a26892.html#ae4a75ef8bc755c8220b768d5ac87a728", null ],
+    [ "Register", "d5/d5b/a26892.html#a636331452bc95a4434f1b85e85ea6e7b", null ]
 ];

@@ -1,6 +1,6 @@
 var a14696 =
 [
-    [ "OnRemove", "db/d15/a14696.html#ac44dab788a50d5fb0918718670a04d8f", null ],
-    [ "PrepareAuraScript", "db/d15/a14696.html#a64971ea9a49150dda4bc2e7f6156c35f", null ],
-    [ "Register", "db/d15/a14696.html#a500f2a41eab8c1700ff298b46feaff5d", null ]
+    [ "instance_mount_hyjal_InstanceMapScript", "df/d50/a14700.html", "df/d50/a14700" ],
+    [ "instance_hyjal", "db/d15/a14696.html#ade946c0fcaa4bad790bfcb4b6ffb6420", null ],
+    [ "GetInstanceScript", "db/d15/a14696.html#ae6e39933d7cfd6563f6d37636f1c6f68", null ]
 ];

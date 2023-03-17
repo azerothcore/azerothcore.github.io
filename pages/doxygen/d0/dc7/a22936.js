@@ -1,5 +1,8 @@
 var a22936 =
 [
-    [ "PrepareAuraScript", "d0/dc7/a22936.html#a684ff31bcf68730362da4f56a487409b", null ],
-    [ "Register", "d0/dc7/a22936.html#ad6586799557513d968e41062d0d888dc", null ]
+    [ "npc_azure_captainAI", "d0/dc7/a22936.html#a15b1acc73108c6802dbf3ac2ed0734c9", null ],
+    [ "Reset", "d0/dc7/a22936.html#a13d25bf1612086cc4bb5bc2078105f18", null ],
+    [ "UpdateAI", "d0/dc7/a22936.html#ae50ac21138e12be43caa93e37062051e", null ],
+    [ "uiMortalStrikeTimer", "d0/dc7/a22936.html#a791a3ee9b67e72e1dcb392b9ebc2359a", null ],
+    [ "uiWhirlwindTimer", "d0/dc7/a22936.html#a2e3439976a6e84a60be765cb0b929798", null ]
 ];

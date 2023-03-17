@@ -1,6 +1,8 @@
 var a08244 =
 [
-    [ "condition", "d8/dba/a08244.html#aad28ca93ce5c4fc8194b3df8b63e2c3a", null ],
-    [ "event_id", "d8/dba/a08244.html#a9b29b2a432f6f39829de20397f864de0", null ],
-    [ "num", "d8/dba/a08244.html#a1907e263ef0facb4cf5145f1f0783ec1", null ]
+    [ "RedirectSpellEvent", "d8/dba/a08244.html#a77d243d64c2fc651d71c42e10a315161", null ],
+    [ "Execute", "d8/dba/a08244.html#a34ae2bc23904558bd5f5b99e8f1c5fdc", null ],
+    [ "_auraEffect", "d8/dba/a08244.html#a010f14a7d389b4e9ae9896061fa18a65", null ],
+    [ "_auraOwnerGUID", "d8/dba/a08244.html#a1b3fb598748362379fef15b3172d8e2b", null ],
+    [ "_self", "d8/dba/a08244.html#aecfa190843c1493b47652ccdac7ae9c3", null ]
 ];

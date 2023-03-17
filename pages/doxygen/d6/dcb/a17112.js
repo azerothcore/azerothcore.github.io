@@ -1,6 +1,5 @@
 var a17112 =
 [
-    [ "boss_marwynAI", "d3/d5c/a17116.html", "d3/d5c/a17116" ],
-    [ "boss_marwyn", "d6/dcb/a17112.html#a4be337e1a6b4ab6d48aa1380f3956ad4", null ],
-    [ "GetAI", "d6/dcb/a17112.html#af1c83878d2121163994bc327ae8e04f7", null ]
+    [ "npc_fos_leader_secondAI", "d6/dcb/a17112.html#a25df0b8760e9eb7d330779e10e3ac548", null ],
+    [ "MovementInform", "d6/dcb/a17112.html#a9cc0b500f1289dc8b764b3755468e639", null ]
 ];

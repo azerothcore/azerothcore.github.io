@@ -1,7 +1,6 @@
 var a11824 =
 [
-    [ "HandleHit", "de/dd5/a11824.html#aedb1a4eb020bb97c89a6d8ef31929be0", null ],
-    [ "Load", "de/dd5/a11824.html#a7ad6038bedf22b4cd6445f9fb7b8d055", null ],
-    [ "PrepareSpellScript", "de/dd5/a11824.html#aacb0c103e089d380c9ca23d59595e938", null ],
-    [ "Register", "de/dd5/a11824.html#a528a6496724663abedbe81b0c23f386e", null ]
+    [ "npc_core_ragerAI", "df/dd5/a11828.html", "df/dd5/a11828" ],
+    [ "npc_core_rager", "de/dd5/a11824.html#ada4acfa2a1934d1609a8f9c78da6377d", null ],
+    [ "GetAI", "de/dd5/a11824.html#a0ace94ecc1ebfb0e880c50d9b68087db", null ]
 ];

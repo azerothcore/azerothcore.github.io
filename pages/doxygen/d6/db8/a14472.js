@@ -1,6 +1,6 @@
 var a14472 =
 [
-    [ "spell_red_sky_effect_SpellScript", "db/d07/a14476.html", "db/d07/a14476" ],
-    [ "spell_red_sky_effect", "d6/db8/a14472.html#ab7c4a9fc6ef6606435dc29612858a681", null ],
-    [ "GetSpellScript", "d6/db8/a14472.html#a94107e2cb59b9b4b7410bebf70a94eee", null ]
+    [ "boss_anetheronAI", "db/d07/a14476.html", "db/d07/a14476" ],
+    [ "boss_anetheron", "d6/db8/a14472.html#a070d17039385be381e9923e6afa4f28f", null ],
+    [ "GetAI", "d6/db8/a14472.html#ac35e5d1a0df1c174b8f24d5a37bd2fc4", null ]
 ];

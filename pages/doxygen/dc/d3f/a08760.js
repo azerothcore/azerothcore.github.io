@@ -1,10 +1,8 @@
 var a08760 =
 [
-    [ "AnyPlayerInObjectRangeCheck", "dc/d3f/a08760.html#ae636bd72045687920ec1d460508bc74b", null ],
-    [ "operator()", "dc/d3f/a08760.html#ac1eda8f85259230fb382a3b6e58b6798", null ],
-    [ "operator()", "dc/d3f/a08760.html#a70c477213c8b271d3402857edd87ef8b", null ],
-    [ "_disallowGM", "dc/d3f/a08760.html#a9c43efd575de2edfdaa0b84def91c727", null ],
-    [ "_obj", "dc/d3f/a08760.html#a07a346225f675433792d2298673acd1f", null ],
-    [ "_range", "dc/d3f/a08760.html#ae372500b3a21cb65a11045dcc6f094a8", null ],
-    [ "_reqAlive", "dc/d3f/a08760.html#af1e397c5033711e65d9ac5b35311e893", null ]
+    [ "AnyAttackableUnitExceptForOriginalCasterInObjectRangeCheck", "dc/d3f/a08760.html#ab3a1ebf25ef0da5df75a5a6a8bbf3ddf", null ],
+    [ "operator()", "dc/d3f/a08760.html#a2b38f9e66b1ba3bb678d763937852e02", null ],
+    [ "i_funit", "dc/d3f/a08760.html#aed6fe2e6d17e2076a373b32de071cd18", null ],
+    [ "i_obj", "dc/d3f/a08760.html#a65245ce627d5ccfde557f2d7e744ead6", null ],
+    [ "i_range", "dc/d3f/a08760.html#aff91ead572f2ed0d1912dbd0180196d5", null ]
 ];

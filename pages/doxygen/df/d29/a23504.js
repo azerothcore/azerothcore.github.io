@@ -1,12 +1,9 @@
 var a23504 =
 [
-    [ "npc_your_inner_turmoilAI", "df/d29/a23504.html#a95e8039b174f6db267197e04b6bd2dd2", null ],
-    [ "DamageTaken", "df/d29/a23504.html#a0e14a306db46e817e6d8f7a358519f83", null ],
-    [ "JustDied", "df/d29/a23504.html#a142359bf1661542d044a7d27b764832b", null ],
-    [ "Reset", "df/d29/a23504.html#a4e17e9642ec11712652f41495974b716", null ],
-    [ "setphase", "df/d29/a23504.html#a17c00619bcf5818e49f67d4d8b8b35b0", null ],
-    [ "UpdateAI", "df/d29/a23504.html#a2a4b20fccb4b5ef0f590f0a7ee92e4d2", null ],
-    [ "health50", "df/d29/a23504.html#af5a9e355c2a5a927d38ea22fe96d89f0", null ],
-    [ "phase", "df/d29/a23504.html#a60212e1504bcb6f7db05ba5ed09df71f", null ],
-    [ "timer", "df/d29/a23504.html#af2c272de51aa15a41af9837f99256a62", null ]
+    [ "spell_z_check_AuraScript", "df/d29/a23504.html#a044c938bb50f210bf1ab49c7cddd16d6", null ],
+    [ "HandleEffectApply", "df/d29/a23504.html#a4da55969bb92f8d94335f14855b8b2c0", null ],
+    [ "HandleEffectPeriodic", "df/d29/a23504.html#ad700db4660b5c814d1a6a6adea47adca", null ],
+    [ "PrepareAuraScript", "df/d29/a23504.html#ad16a3e140f32f05d262d363ede070ad2", null ],
+    [ "Register", "df/d29/a23504.html#a55f4cb60278feec5feed8e12f7b97770", null ],
+    [ "_posZ", "df/d29/a23504.html#ab7d97aef92a216e9e1704bf15c5e5b55", null ]
 ];

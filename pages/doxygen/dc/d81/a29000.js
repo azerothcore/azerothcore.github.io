@@ -1,6 +1,5 @@
 var a29000 =
 [
-    [ "HandleEffectCalcSpellMod", "dc/d81/a29000.html#a38c2a5daeda4b366518026638e6a8e1b", null ],
-    [ "PrepareAuraScript", "dc/d81/a29000.html#a767c3c52e917b56dbf2368b5dbbf1610", null ],
-    [ "Register", "dc/d81/a29000.html#af60592a9f1e595f31814eae405d03d5a", null ]
+    [ "AreaTrigger_at_voltarus_middle", "dc/d81/a29000.html#a45ca444350fe4cfde02ab33da4ce8466", null ],
+    [ "OnTrigger", "dc/d81/a29000.html#a296b300feb6cf999e9e2c2625a911e9b", null ]
 ];

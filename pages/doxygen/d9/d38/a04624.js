@@ -1,7 +1,10 @@
 var a04624 =
 [
-    [ "clear", "d9/d38/a04624.html#af2120a6bb6aa223baa117e5699c93012", null ],
-    [ "createOrGetMMapMgr", "d9/d38/a04624.html#aa7571dc833ba0d2dc6d8bc7bc4b47cdd", null ],
-    [ "InitializeDisabledMaps", "d9/d38/a04624.html#a6df048ce34ec1baed2cb35cedf67f5b2", null ],
-    [ "forbiddenMaps", "d9/d38/a04624.html#a2301f091e1f1e3359dbded7f054eb219", null ]
+    [ "DynamicTreeLocationInfoCallback", "d9/d38/a04624.html#a3fcb6d535b2207e2bfedb961de856e6d", null ],
+    [ "GetHitModel", "d9/d38/a04624.html#ac939625c44c7be8ba8b96d55545b657c", null ],
+    [ "GetLocationInfo", "d9/d38/a04624.html#ac1c3839aa1f0e9b64390502c4ce7bb3e", null ],
+    [ "operator()", "d9/d38/a04624.html#a4d2569c48cfa431282119ed5bd53ffb4", null ],
+    [ "_hitModel", "d9/d38/a04624.html#adef79d7627daa66d88c7146704984622", null ],
+    [ "_locationInfo", "d9/d38/a04624.html#a3c9be93de73520942a8d52b78fe72438", null ],
+    [ "_phaseMask", "d9/d38/a04624.html#aebe4c7cfc47b3bd2701b2b9cda2ed71e", null ]
 ];

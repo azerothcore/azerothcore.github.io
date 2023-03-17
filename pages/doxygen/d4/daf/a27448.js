@@ -1,6 +1,9 @@
 var a27448 =
 [
-    [ "HandleCast", "d4/daf/a27448.html#ac6f7b9650d0a55834dafb09555692243", null ],
-    [ "PrepareSpellScript", "d4/daf/a27448.html#ab3dc21aa63f0fb9202233603106eef87", null ],
-    [ "Register", "d4/daf/a27448.html#ad6c2dc91d0973c0b8d57151dff3d9499", null ]
+    [ "CheckCast", "d4/daf/a27448.html#a005565dd77de97b5aa04553a1d6a0185", null ],
+    [ "HandleScript", "d4/daf/a27448.html#a7313a3d9840d7dc81e5a894e83cb6347", null ],
+    [ "Load", "d4/daf/a27448.html#aadfc8a873c72e31d65001ce00518ca45", null ],
+    [ "PrepareSpellScript", "d4/daf/a27448.html#a169b60644259855f0614271e4769f6b9", null ],
+    [ "Register", "d4/daf/a27448.html#a9e7f8cbc7ec3de507069b69678005da3", null ],
+    [ "Validate", "d4/daf/a27448.html#a9e69eb36c1a2640ff616ae5744c04f4f", null ]
 ];

@@ -1,6 +1,6 @@
 var a25500 =
 [
-    [ "boss_magtheridonAI", "d5/da1/a25504.html", "d5/da1/a25504" ],
-    [ "boss_magtheridon", "db/d26/a25500.html#a0afac1451c810e28947357416d844369", null ],
-    [ "GetAI", "db/d26/a25500.html#a03c0c1cafb8886283014e970b7fc1b4a", null ]
+    [ "HandleScriptEffect", "db/d26/a25500.html#a55e7e43ca445047fdcd80108a3a62446", null ],
+    [ "PrepareSpellScript", "db/d26/a25500.html#a9c10510512b61c2ead64bce6b2f1cf1f", null ],
+    [ "Register", "db/d26/a25500.html#a5b6330512b037856f0066b5a128c71a8", null ]
 ];

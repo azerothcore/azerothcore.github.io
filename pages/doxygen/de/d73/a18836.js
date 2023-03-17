@@ -1,6 +1,6 @@
 var a18836 =
 [
-    [ "spell_rimefang_icy_blast_SpellScript", "d3/dc9/a18840.html", "d3/dc9/a18840" ],
-    [ "spell_rimefang_icy_blast", "de/d73/a18836.html#a0c5452b73607a2682263bd6412630115", null ],
-    [ "GetSpellScript", "de/d73/a18836.html#abe273826d6c7c713ef5120254fb3efec", null ]
+    [ "PeriodicTick", "de/d73/a18836.html#a4dd01e039ddc0f976db5962078b8d8bf", null ],
+    [ "PrepareAuraScript", "de/d73/a18836.html#ac032efda9941d5384ab2bf67c3ba4b79", null ],
+    [ "Register", "de/d73/a18836.html#a8f2a898d50a745d6a865ced7cb464956", null ]
 ];

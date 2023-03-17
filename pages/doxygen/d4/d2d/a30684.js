@@ -1,9 +1,8 @@
 var a30684 =
 [
-    [ "MapTiles", "d4/d2d/a30684.html#abc58d7154eab45ae26df27e2e82dac63", null ],
-    [ "MapTiles", "d4/d2d/a30684.html#a406efc53593b5bceb0a491c0b7553350", null ],
-    [ "~MapTiles", "d4/d2d/a30684.html#aec1baac21c06380ba71ff5e610152519", null ],
-    [ "operator==", "d4/d2d/a30684.html#a4a6b1901d8a39a3d2cd50775c1e1a6b3", null ],
-    [ "m_mapId", "d4/d2d/a30684.html#a2fc10edf226a6f4548c2175e1013c1b9", null ],
-    [ "m_tiles", "d4/d2d/a30684.html#ab80305bb73234e35a528701d775954b5", null ]
+    [ "Color", "d4/d2d/a30684.html#a379e4cf61345dbb4d93da5a8603138c0", null ],
+    [ "NameIndex", "d4/d2d/a30684.html#add893e045d13a3633fd7346457a10477", null ],
+    [ "Position", "d4/d2d/a30684.html#afae9056582e71160c151de2c172bc60a", null ],
+    [ "Rotation", "d4/d2d/a30684.html#a48d372bc1371fa5f94db9aa39669942a", null ],
+    [ "Scale", "d4/d2d/a30684.html#aefacaaf0be0745c95ffc53f410da6e8d", null ]
 ];

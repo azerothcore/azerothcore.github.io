@@ -1,6 +1,6 @@
 var a25148 =
 [
-    [ "PrepareAuraScript", "d1/db7/a25148.html#ada2ad10f9fcd15d08b5d40c751afc446", null ],
-    [ "Register", "d1/db7/a25148.html#ab749c59bdf020e55fbb8480d6c86587f", null ],
-    [ "AuraEffectHandleModes", "d1/db7/a25148.html#a07221c7e84ccb26828793f6a4c9e69ed", null ]
+    [ "spell_morogrim_tidewalker_water_globule_new_target_SpellScript", "d8/df9/a25152.html", "d8/df9/a25152" ],
+    [ "spell_morogrim_tidewalker_water_globule_new_target", "d1/db7/a25148.html#a5ff435d650e0968c36ce9df98891eac7", null ],
+    [ "GetSpellScript", "d1/db7/a25148.html#a73720cc93ddbdd0a62f81c3a9c5b4be9", null ]
 ];

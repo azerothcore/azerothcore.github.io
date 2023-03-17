@@ -1,6 +1,5 @@
 var a16568 =
 [
-    [ "npc_toc_shamanAI", "d0/d68/a16572.html", "d0/d68/a16572" ],
-    [ "npc_toc_shaman", "d3/d38/a16568.html#a26e3a539d8d918057e9f81b9ee83f17d", null ],
-    [ "GetAI", "d3/d38/a16568.html#a7102a3aec6c229a04b617c562512bf29", null ]
+    [ "PrepareAuraScript", "d3/d38/a16568.html#aee03d124caf65f4a4cb29d0bf90c8f7d", null ],
+    [ "Register", "d3/d38/a16568.html#afbb410bc5166d56bee00231828269424", null ]
 ];

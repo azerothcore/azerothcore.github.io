@@ -1,7 +1,13 @@
 var a13456 =
 [
-    [ "npc_lady_sylvanas_windrunnerAI", "da/d6b/a13460.html", "da/d6b/a13460" ],
-    [ "npc_lady_sylvanas_windrunner", "db/dba/a13456.html#ab3da21f58b68003f50cf0c3d5ce22028", null ],
-    [ "GetAI", "db/dba/a13456.html#abc382c04be0a8ed46299d1c4b2d008dc", null ],
-    [ "OnQuestReward", "db/dba/a13456.html#ae0031c5305a03a376dd84e950eb4a23b", null ]
+    [ "npc_lord_gregor_lescovarAI", "db/dba/a13456.html#ab3ed8a9536fc6be948f280e319d4fec7", null ],
+    [ "DoGuardsDisappearAndDie", "db/dba/a13456.html#a8588cae3dc8aa3dd46c55439d355df9b", null ],
+    [ "EnterEvadeMode", "db/dba/a13456.html#a95e60614808191e4c1f909f5e38e4741", null ],
+    [ "JustEngagedWith", "db/dba/a13456.html#ad0ca7d80d68b9623b99c644daa8f4c57", null ],
+    [ "Reset", "db/dba/a13456.html#a06df695e9acd96b07f4e58c9461a708c", null ],
+    [ "UpdateAI", "db/dba/a13456.html#ab8cc7d7d56550e66497116e5b4233a02", null ],
+    [ "WaypointReached", "db/dba/a13456.html#ad91850dc72d0307e28b881717bfba6db", null ],
+    [ "MarzonGUID", "db/dba/a13456.html#a68779dfa5643ffbf0065964d72ba5ddc", null ],
+    [ "uiPhase", "db/dba/a13456.html#a3eaf47541cabaac9ce12f830d7d3ef41", null ],
+    [ "uiTimer", "db/dba/a13456.html#a70e6be2f5c0f88664c6bbe3f29e1d184", null ]
 ];

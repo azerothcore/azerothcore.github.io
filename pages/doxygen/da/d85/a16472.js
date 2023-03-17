@@ -1,6 +1,6 @@
 var a16472 =
 [
-    [ "instance_trial_of_the_champion_InstanceMapScript", "d9/dc9/a16476.html", "d9/dc9/a16476" ],
-    [ "instance_trial_of_the_champion", "da/d85/a16472.html#a7b97e3da119a7ad33a87c74647407bd8", null ],
-    [ "GetInstanceScript", "da/d85/a16472.html#a9227119fc47f38cd82a1fc07c04b0c86", null ]
+    [ "npc_black_knight_ghoulAI", "d9/dc9/a16476.html", "d9/dc9/a16476" ],
+    [ "npc_black_knight_ghoul", "da/d85/a16472.html#a8e62b1070f0ed4e5b917fcaaeb2da8d0", null ],
+    [ "GetAI", "da/d85/a16472.html#a52308f8d168e1ccea22de653813b7f6f", null ]
 ];

@@ -1,5 +1,6 @@
 var a23588 =
 [
-    [ "PrepareSpellScript", "dc/d75/a23588.html#a837c01b24c4c006d26f09106ee4f9fee", null ],
-    [ "Register", "dc/d75/a23588.html#a8ab67808fd27b58748675ec103a6661c", null ]
+    [ "npc_boneguard_footmanAI", "dc/d75/a23588.html#a04eff1976824724b321f0c0d95e0940a", null ],
+    [ "UpdateAI", "dc/d75/a23588.html#a9cba65867824daeb50cb2b39d68ad84b", null ],
+    [ "checkTimer", "dc/d75/a23588.html#a46dd1fa8d111dca0584a8e6fb7a6a566", null ]
 ];

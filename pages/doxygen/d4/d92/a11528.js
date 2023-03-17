@@ -1,9 +1,7 @@
 var a11528 =
 [
-    [ "npc_vaelastrasz_the_redAI", "d4/d92/a11528.html#aa800617f887a21d8a61cac099c86faed", null ],
-    [ "IsSummonedBy", "d4/d92/a11528.html#a6ce8acf03190c753761a20d8fc475eb8", null ],
-    [ "UpdateAI", "d4/d92/a11528.html#a4dd74c81dc67291ed04861cf542b0d24", null ],
-    [ "_combatEnabled", "d4/d92/a11528.html#ae82e9f70dbfd6a4a75206d358de4504e", null ],
-    [ "_events2", "d4/d92/a11528.html#aa31a968cb89f2c4bb4fde836fd600ab9", null ],
-    [ "_victorGUID", "d4/d92/a11528.html#a8a4af969b8d340d5492f89499e3e90c2", null ]
+    [ "boss_urok_doomhowlAI", "d4/d92/a11528.html#ade3d87a05eed0fd077b2e3245099ed74", null ],
+    [ "InitializeAI", "d4/d92/a11528.html#a530bef523a27523827d3a94aa5f88698", null ],
+    [ "JustEngagedWith", "d4/d92/a11528.html#abd74d844bcae5f9bd8fdd3797323af2c", null ],
+    [ "UpdateAI", "d4/d92/a11528.html#a6ab5793a48534b7c338a915a7ed8faf9", null ]
 ];

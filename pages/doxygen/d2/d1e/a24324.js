@@ -1,6 +1,6 @@
 var a24324 =
 [
-    [ "spell_gurtogg_bloodboil_SpellScript", "d6/de3/a24328.html", "d6/de3/a24328" ],
-    [ "spell_gurtogg_bloodboil", "d2/d1e/a24324.html#ade32d06dd037e71916244a924e49fa4c", null ],
-    [ "GetSpellScript", "d2/d1e/a24324.html#a3b7de5528a364e25acbdec234f6ccd65", null ]
+    [ "PrepareSpellScript", "d2/d1e/a24324.html#a473d071ba082940d42b91ff2eb55ad18", null ],
+    [ "Register", "d2/d1e/a24324.html#a227df04ae92ef9c52a43f8acc76beb47", null ],
+    [ "SelectTarget", "d2/d1e/a24324.html#a57c4e9c21e47c803de9d6a3b827bf8da", null ]
 ];

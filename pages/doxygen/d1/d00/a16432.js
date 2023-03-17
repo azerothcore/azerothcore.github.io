@@ -1,6 +1,6 @@
 var a16432 =
 [
-    [ "npc_black_knight_skeletal_gryphonAI", "d5/d0f/a16436.html", "d5/d0f/a16436" ],
-    [ "npc_black_knight_skeletal_gryphon", "d1/d00/a16432.html#a5dc83a92fbe2eb4d6faa30f23a9ac777", null ],
-    [ "GetAI", "d1/d00/a16432.html#aad244f95877a208b56a2b6544984d724", null ]
+    [ "spell_eadric_radiance_SpellScript", "d5/d0f/a16436.html", "d5/d0f/a16436" ],
+    [ "spell_eadric_radiance", "d1/d00/a16432.html#a72ca7ace293940036db1f66d6ae92832", null ],
+    [ "GetSpellScript", "d1/d00/a16432.html#a90970e60f664eaa436e9a941c3c775a8", null ]
 ];

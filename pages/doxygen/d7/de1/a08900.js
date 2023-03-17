@@ -1,12 +1,8 @@
 var a08900 =
 [
-    [ "EventLogEntry", "d7/de1/a08900.html#a31726d40f7b89077b45ffbaca8396a9d", null ],
-    [ "EventLogEntry", "d7/de1/a08900.html#a96a2e3a6d565db452e7d0f1a152f63c7", null ],
-    [ "~EventLogEntry", "d7/de1/a08900.html#a8d6bf0a5a53fdc8e99ad53293d96af7c", null ],
-    [ "SaveToDB", "d7/de1/a08900.html#a2ca71e291a44f95bb42d51083aa84985", null ],
-    [ "WritePacket", "d7/de1/a08900.html#adffe90bd0265dea0ca2fd6bc83f3056e", null ],
-    [ "m_eventType", "d7/de1/a08900.html#a00216643e6856591402c21df490c1fec", null ],
-    [ "m_newRank", "d7/de1/a08900.html#ab733c92f478dc36e3b5ffc61799a6ce7", null ],
-    [ "m_playerGuid1", "d7/de1/a08900.html#a06a2b45d16860c711829f49f97624272", null ],
-    [ "m_playerGuid2", "d7/de1/a08900.html#a1f66e71f9536e484663e437bbcbcefca", null ]
+    [ "flags", "d7/de1/a08900.html#a7ecce103d428ed7f91aa12fa5547561c", null ],
+    [ "group", "d7/de1/a08900.html#a0902606d44c8baa1a20b5b2cdd9b4787", null ],
+    [ "guid", "d7/de1/a08900.html#a97a20b4ccf1978165a5f5c7ff4ffb2b4", null ],
+    [ "name", "d7/de1/a08900.html#ab0719bb9805048b58a3e4c75e09d1ee7", null ],
+    [ "roles", "d7/de1/a08900.html#a2109aae0b3ebf74b065b97cc929c2954", null ]
 ];

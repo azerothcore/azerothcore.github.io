@@ -1,6 +1,6 @@
 var a16892 =
 [
-    [ "spell_novos_crystal_handler_death_AuraScript", "d6/da1/a16896.html", "d6/da1/a16896" ],
-    [ "spell_novos_crystal_handler_death", "dc/d25/a16892.html#a65593cebb22a85b9381693bccbd1d8fe", null ],
-    [ "GetAuraScript", "dc/d25/a16892.html#adf4b7fe72615236141b1d7757ef921e4", null ]
+    [ "OnPeriodic", "dc/d25/a16892.html#accee172deb2831747767444496cd8f95", null ],
+    [ "PrepareAuraScript", "dc/d25/a16892.html#a2c1ef65892419ac740e6626b3a4d3fea", null ],
+    [ "Register", "dc/d25/a16892.html#a11631f7419021c9da178d9efd95bcd5e", null ]
 ];

@@ -1,6 +1,6 @@
 var a02282 =
 [
-    [ "event_commandscript", "db/dbc/a10979.html", "db/dbc/a10979" ],
-    [ "EventEntry", "d5/d49/a02282.html#accd9dac141ffd4618bb7d3f69e8eb716", null ],
-    [ "AddSC_event_commandscript", "d5/d49/a02282.html#a4f3834f706dcb17ca67ce6513f6aecad", null ]
+    [ "character_commandscript", "d5/d08/a10992.html", "d5/d08/a10992" ],
+    [ "character_commandscript::DeletedInfo", "dc/d5a/a10996.html", "dc/d5a/a10996" ],
+    [ "AddSC_character_commandscript", "d5/d49/a02282.html#a97f9cac12c34068d5e63b2ed28ddf9e2", null ]
 ];

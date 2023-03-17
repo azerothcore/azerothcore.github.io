@@ -1,6 +1,9 @@
 var a13464 =
 [
-    [ "npc_highborne_lamenterAI", "d3/d2b/a13468.html", "d3/d2b/a13468" ],
-    [ "npc_highborne_lamenter", "dc/dd7/a13464.html#a40316cf73a688e34e95dd41feef8612a", null ],
-    [ "GetAI", "dc/dd7/a13464.html#aad8ccb43b325b797f60a16e338458a1e", null ]
+    [ "npc_marzon_silent_bladeAI", "dc/dd7/a13464.html#a9f29c3b56e26421dabc2c95b8cd0407e", null ],
+    [ "EnterEvadeMode", "dc/dd7/a13464.html#a0b42596550d045f5ca0096ceee80c0ac", null ],
+    [ "JustEngagedWith", "dc/dd7/a13464.html#a116b3458f342811e378713e6a67f76a6", null ],
+    [ "MovementInform", "dc/dd7/a13464.html#a32201d45f0c19212becb6319a48366f8", null ],
+    [ "Reset", "dc/dd7/a13464.html#a51c2b16c767ce2922564dc9e4048e089", null ],
+    [ "UpdateAI", "dc/dd7/a13464.html#aa6686399b41d32429d530dcc2ec41185", null ]
 ];

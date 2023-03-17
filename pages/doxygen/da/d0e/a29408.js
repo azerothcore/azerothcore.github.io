@@ -1,6 +1,7 @@
 var a29408 =
 [
-    [ "guard_shattrath_scryerAI", "d7/d30/a29412.html", "d7/d30/a29412" ],
-    [ "guard_shattrath_scryer", "da/d0e/a29408.html#a2ee4d6881d7c24cd848c590b84207663", null ],
-    [ "GetAI", "da/d0e/a29408.html#ab1d937102f63c63de4c92e45eff2c21c", null ]
+    [ "npc_engineering_tele_trinket", "da/d0e/a29408.html#ab891a8378a7b1b63151d05801b8b2fd1", null ],
+    [ "CanLearn", "da/d0e/a29408.html#a8a35f1c09a9df609561e76f4ed578647", null ],
+    [ "OnGossipHello", "da/d0e/a29408.html#ad11f576fb7efad0f6ea4cf22d3bc4e59", null ],
+    [ "OnGossipSelect", "da/d0e/a29408.html#a4d7125cf0333d4e5ebc299019c8feb1a", null ]
 ];

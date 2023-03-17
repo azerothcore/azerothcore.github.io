@@ -1,9 +1,10 @@
 var a26684 =
 [
-    [ "npc_pet_shaman_fire_elemental", "d0/db5/a26684.html#a3428642963fc9e7588ec92fd838f1af9", null ],
-    [ "EnterCombat", "d0/db5/a26684.html#a87b07a5a265f8f226a12bfbc32d760f4", null ],
-    [ "InitializeAI", "d0/db5/a26684.html#aef4865f83ce0c73efe0c47a11ac87594", null ],
-    [ "UpdateAI", "d0/db5/a26684.html#a2280e5cc5187a91917a1e517e80e960d", null ],
-    [ "_events", "d0/db5/a26684.html#aa4578cdbe41d28e399247c84c9fe8049", null ],
-    [ "_initAttack", "d0/db5/a26684.html#a2df79acc05dd8489e9e994e044b45404", null ]
+    [ "CheckProc", "d0/db5/a26684.html#a7bab1f02db05ce2c7b52ad9a2f5f6f02", null ],
+    [ "HandleProc", "d0/db5/a26684.html#ac90b54e946baa80589cab2f66aca1f5f", null ],
+    [ "Load", "d0/db5/a26684.html#ada85014de8a3602e83912d5e1a0165c5", null ],
+    [ "PrepareAuraScript", "d0/db5/a26684.html#a769f2b77b2972c40e3e43e70d2ff5820", null ],
+    [ "Register", "d0/db5/a26684.html#ab8a35292c0d4d392d9dd9db438d59cc4", null ],
+    [ "Validate", "d0/db5/a26684.html#aba8bd9ae5ec9e92eccb04163114c4802", null ],
+    [ "_procTarget", "d0/db5/a26684.html#a0c3ba33c7117195dac4c1df3a6e8529a", null ]
 ];

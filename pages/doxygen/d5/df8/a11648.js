@@ -1,7 +1,7 @@
 var a11648 =
 [
-    [ "HandleDummy", "d5/df8/a11648.html#a21c5eb1511cb4035f795ff1d22797e34", null ],
-    [ "PrepareSpellScript", "d5/df8/a11648.html#a5308de47023b89e4ff8680158a502ac0", null ],
-    [ "Register", "d5/df8/a11648.html#a5f148d259b1102b1046e6a3ac096fea8", null ],
-    [ "Validate", "d5/df8/a11648.html#a75f89d90b9e68288e54e1e0bd3b2ce98", null ]
+    [ "ClassCallSelector", "d5/df8/a11648.html#a223895c97121b0727aac258c12c89e0b", null ],
+    [ "operator()", "d5/df8/a11648.html#ab0d2ab1d94d72c6a202ed0cb2900dd2e", null ],
+    [ "_me", "d5/df8/a11648.html#a5347a24609a21ae0a342682104b1dc14", null ],
+    [ "_targetClass", "d5/df8/a11648.html#a7ce861956ec8d216d2f8cba82c69ea50", null ]
 ];

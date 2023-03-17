@@ -1,5 +1,8 @@
 var a29456 =
 [
-    [ "item_generic_limit_chance_above_60", "de/de5/a29456.html#abc18809810f0a7668020d01c482be84b", null ],
-    [ "OnCastItemCombatSpell", "de/de5/a29456.html#aa34809cfd53edb6a77d3fa415a079d72", null ]
+    [ "npc_franklinAI", "db/d08/a29460.html", "db/d08/a29460" ],
+    [ "npc_franklin", "de/de5/a29456.html#aab059dfa69e52083892e3170c8838e0a", null ],
+    [ "GetAI", "de/de5/a29456.html#a10933878afe9d0cc78fa1113341fd522", null ],
+    [ "OnGossipHello", "de/de5/a29456.html#a318d512914b135800caabe0efbb1c467", null ],
+    [ "OnGossipSelect", "de/de5/a29456.html#a8c37ff7ff15cc9ac49dadabd1650964d", null ]
 ];

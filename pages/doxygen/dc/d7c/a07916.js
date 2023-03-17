@@ -1,6 +1,7 @@
 var a07916 =
 [
-    [ "active", "dc/d7c/a07916.html#a9460571d6fc219ab8c475aab34fc9494", null ],
-    [ "state", "dc/d7c/a07916.html#a0600418cb460fdaf8093bfa609e796c8", null ],
-    [ "type", "dc/d7c/a07916.html#a4c4a7d0f299ae4e2ceb146a741057032", null ]
+    [ "UsedPos", "dc/d7c/a07916.html#aef230e392619ad4abc2da649d11b2394", null ],
+    [ "dist", "dc/d7c/a07916.html#ae73cbe8b0cf3ce714f6654df3a8874de", null ],
+    [ "sign", "dc/d7c/a07916.html#a2b5f97425309d56482a1f287b6d5be69", null ],
+    [ "size", "dc/d7c/a07916.html#a4ad5a2df36ae9c1cd9130c5efd27af58", null ]
 ];

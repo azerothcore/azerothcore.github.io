@@ -1,6 +1,6 @@
 var a15624 =
 [
-    [ "npc_braug_dimspirit", "d0/d0a/a15624.html#ade08e9ad549d80c2f7918dbfcfbf41dc", null ],
-    [ "OnGossipHello", "d0/d0a/a15624.html#aeaed026edf5a1fa82c941f667c05815b", null ],
-    [ "OnGossipSelect", "d0/d0a/a15624.html#a87ea1ba3e247c9b14c1f6c72b3addea0", null ]
+    [ "npc_qiraj_war_spawnAI", "db/d4e/a15628.html", "db/d4e/a15628" ],
+    [ "npc_qiraj_war_spawn", "d0/d0a/a15624.html#a2afba33e9fd879ac3fea206768b14334", null ],
+    [ "GetAI", "d0/d0a/a15624.html#a32339f20251c188b895c02b6cc9217e9", null ]
 ];

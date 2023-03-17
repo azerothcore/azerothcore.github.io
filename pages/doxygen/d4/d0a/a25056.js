@@ -1,6 +1,6 @@
 var a25056 =
 [
-    [ "FilterTargets", "d4/d0a/a25056.html#a3a0d56e66d4381fc153f3b0eee781765", null ],
-    [ "PrepareSpellScript", "d4/d0a/a25056.html#a99eba7f48c7f4cb7a939876e5ebd1ce1", null ],
-    [ "Register", "d4/d0a/a25056.html#a54b562e0715bbb07ed5fcf78892f0c9b", null ]
+    [ "spell_leotheras_whirlwind_SpellScript", "da/d52/a25060.html", "da/d52/a25060" ],
+    [ "spell_leotheras_whirlwind", "d4/d0a/a25056.html#ab37011b0553da41fd03c683c79110ec8", null ],
+    [ "GetSpellScript", "d4/d0a/a25056.html#aaa5fbd85aabf4f1a136434b466cc4b5d", null ]
 ];

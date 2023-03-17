@@ -1,6 +1,6 @@
 var a27804 =
 [
-    [ "FilterTargets", "d5/d1c/a27804.html#abe299fbad07f800e90b1614ec661c185", null ],
-    [ "PrepareSpellScript", "d5/d1c/a27804.html#a53bae2b6575436705adff74caf9225b7", null ],
-    [ "Register", "d5/d1c/a27804.html#a35fd5a1c8ab2400940da2d9f8f3ce9c2", null ]
+    [ "HandleTriggerSpell", "d5/d1c/a27804.html#a2c9f565aec4c42900037dd387549df18", null ],
+    [ "PrepareAuraScript", "d5/d1c/a27804.html#a5864bbba50001cdb84b0015d08134c56", null ],
+    [ "Register", "d5/d1c/a27804.html#a5a41ac9e41201ec3defc05c324a792c9", null ]
 ];

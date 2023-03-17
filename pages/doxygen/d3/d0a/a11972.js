@@ -1,6 +1,6 @@
 var a11972 =
 [
-    [ "boss_maiden_of_virtueAI", "d4/dea/a11976.html", "d4/dea/a11976" ],
-    [ "boss_maiden_of_virtue", "d3/d0a/a11972.html#ae8a0872c9f497c2bd618972ed738c685", null ],
-    [ "GetAI", "d3/d0a/a11972.html#a6d7ecc85ad164205d105e206740102c9", null ]
+    [ "boss_mr_smiteAI", "d4/dea/a11976.html", "d4/dea/a11976" ],
+    [ "boss_mr_smite", "d3/d0a/a11972.html#a011d41112ef7376b71d2959f806be262", null ],
+    [ "GetAI", "d3/d0a/a11972.html#a619ca0aede1eb33f992328048319c4f0", null ]
 ];

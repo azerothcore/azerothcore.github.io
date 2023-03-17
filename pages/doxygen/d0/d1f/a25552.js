@@ -1,6 +1,6 @@
 var a25552 =
 [
-    [ "PrepareSpellScript", "d0/d1f/a25552.html#a92df4afd74be589b49d625bd9d94c8c1", null ],
-    [ "Register", "d0/d1f/a25552.html#a50f394544ee34e6a8c753a5c757a9fb4", null ],
-    [ "SelectRandomPlayer", "d0/d1f/a25552.html#a2022ea6fece62a6b391fce851a86c0f5", null ]
+    [ "npc_omrogg_headsAI", "d9/d82/a25556.html", "d9/d82/a25556" ],
+    [ "npc_omrogg_heads", "d0/d1f/a25552.html#a39fe9f3b623bf6b2d6575659e1f967b8", null ],
+    [ "GetAI", "d0/d1f/a25552.html#a82d7754ea52e37690537bc0e64efb727", null ]
 ];

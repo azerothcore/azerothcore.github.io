@@ -1,8 +1,9 @@
 var a08788 =
 [
-    [ "AllDeadCreaturesInRange", "d8/d88/a08788.html#a31b4976c3ea6203b9a1e7f7970a97977", null ],
-    [ "operator()", "d8/d88/a08788.html#a3638a8d3c5791b590ec717e4f1ba9cef", null ],
-    [ "_obj", "d8/d88/a08788.html#a4ca7fcf9945e698a790d01d3fadae98e", null ],
-    [ "_range", "d8/d88/a08788.html#a431ada86a2b864d53773a85b05d8da4f", null ],
-    [ "_reqAlive", "d8/d88/a08788.html#aefd0d77b69b5df9b99c148e0254fda09", null ]
+    [ "NearestAssistCreatureInCreatureRangeCheck", "d8/d88/a08788.html#ac9e380add6c9df4afc707007528c7434", null ],
+    [ "NearestAssistCreatureInCreatureRangeCheck", "d8/d88/a08788.html#aa26e19df606a366147e1db4fd1aa6eac", null ],
+    [ "operator()", "d8/d88/a08788.html#a9a085d16b30849537441f809052ac196", null ],
+    [ "i_enemy", "d8/d88/a08788.html#a0ba09da942c48e523c278cff0e0a4139", null ],
+    [ "i_obj", "d8/d88/a08788.html#a905ea6b07b97ed23de4f4cf9946642af", null ],
+    [ "i_range", "d8/d88/a08788.html#ab82a4b97ebb2bef047ae85404b0e3da0", null ]
 ];

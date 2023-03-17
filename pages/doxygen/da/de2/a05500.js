@@ -1,11 +1,10 @@
 var a05500 =
 [
-    [ "SQLQueryHolderCallback", "da/de2/a05500.html#afc2cb6a483d17ae115e947bc88fe592b", null ],
-    [ "SQLQueryHolderCallback", "da/de2/a05500.html#a7fddb08e9e10cdb8a437de3ee53494db", null ],
-    [ "AfterComplete", "da/de2/a05500.html#a40f0a73f4b92bc0f7ad8659f748c7c17", null ],
-    [ "InvokeIfReady", "da/de2/a05500.html#a7e540699d496834c0a36782fb7da03f1", null ],
-    [ "operator=", "da/de2/a05500.html#a031861856be6b3e5f18718f3c6129f9c", null ],
-    [ "m_callback", "da/de2/a05500.html#aa055fe02b0158a9098e6eccdc32e9ff4", null ],
-    [ "m_future", "da/de2/a05500.html#a7dc3e5e72d47135660a29a0418e17c44", null ],
-    [ "m_holder", "da/de2/a05500.html#a09b018fb4d8e0e67249b1117c657ecc2", null ]
+    [ "PreparedStatementTask", "da/de2/a05500.html#a332f6ddad1ee338da3fa4bd2461a9c29", null ],
+    [ "~PreparedStatementTask", "da/de2/a05500.html#a4ca96ab46d5015b2c673164652146886", null ],
+    [ "Execute", "da/de2/a05500.html#ad4058410f5eba4f0f935696d38ba85ab", null ],
+    [ "GetFuture", "da/de2/a05500.html#a07031e5cff28553e33d98140847b9e0d", null ],
+    [ "m_has_result", "da/de2/a05500.html#a7c2841b7638c42caa4e8c1116110f8a3", null ],
+    [ "m_result", "da/de2/a05500.html#a841a7aefd9ea58a76cead1da65a786b2", null ],
+    [ "m_stmt", "da/de2/a05500.html#aba9082a717729915a4e4d640220a49d2", null ]
 ];

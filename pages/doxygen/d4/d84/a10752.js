@@ -1,8 +1,6 @@
 var a10752 =
 [
-    [ "CreatureTextId", "d4/d84/a10752.html#ae8058e922bafc69b718ca4be1be39688", null ],
-    [ "operator<", "d4/d84/a10752.html#ae0c693f6cf1959c79e1b3773a2f54db9", null ],
-    [ "entry", "d4/d84/a10752.html#ad69afcf7be87d1f96611fe925b68f26a", null ],
-    [ "textGroup", "d4/d84/a10752.html#af1d1f3f310c219c32ca9b8917d8fb67d", null ],
-    [ "textId", "d4/d84/a10752.html#a5d45808a0b84ca11c8d05c25d26341a2", null ]
+    [ "AfterCheckProcHandler", "d4/d84/a10752.html#ac0a14950e90d064ffd7adc224b25f9d8", null ],
+    [ "Call", "d4/d84/a10752.html#ab2da0d87413dd7317eeaf73df17f1aaf", null ],
+    [ "_HandlerScript", "d4/d84/a10752.html#af5a393efc729e8588c0fc425fdfead99", null ]
 ];

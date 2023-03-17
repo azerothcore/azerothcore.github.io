@@ -1,25 +1,21 @@
 var a02615 =
 [
-    [ "boss_servant_quarters", "d1/db3/a12079.html", "d1/db3/a12079" ],
-    [ "ServantQuartersSpells", "dc/dcf/a02615.html#a266843f768102d11e894d8aed98eca30", [
-      [ "SPELL_SNEAK", "dc/dcf/a02615.html#a266843f768102d11e894d8aed98eca30a2ffe719e752bc84060f0f8e4242de755", null ],
-      [ "SPELL_ACIDIC_FANG", "dc/dcf/a02615.html#a266843f768102d11e894d8aed98eca30a8292be8b884e8107e42cde2aa18b44b3", null ],
-      [ "SPELL_HYAKISS_WEB", "dc/dcf/a02615.html#a266843f768102d11e894d8aed98eca30aace23df2c95b774d330bda444791610b", null ],
-      [ "SPELL_DIVE", "dc/dcf/a02615.html#a266843f768102d11e894d8aed98eca30ae315fa0b4c04786ebffd73e11007bd63", null ],
-      [ "SPELL_SONIC_BURST", "dc/dcf/a02615.html#a266843f768102d11e894d8aed98eca30a0867d18249c1cbe0515a67320e1ee5fd", null ],
-      [ "SPELL_WING_BUFFET", "dc/dcf/a02615.html#a266843f768102d11e894d8aed98eca30a242b1d7745ca37671f734c17434711d2", null ],
-      [ "SPELL_FEAR", "dc/dcf/a02615.html#a266843f768102d11e894d8aed98eca30a5a0d904d66dec096d1d013333b118f88", null ],
-      [ "SPELL_RAVAGE", "dc/dcf/a02615.html#a266843f768102d11e894d8aed98eca30a694b69d86383f665becbce0011f3470c", null ]
+    [ "boss_maiden_of_virtue", "dc/d61/a12040.html", "dc/d61/a12040" ],
+    [ "MaidenOfVirtue", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4b", [
+      [ "SAY_AGGRO", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4ba47c752fff069f3e55065795eef2a9bfe", null ],
+      [ "SAY_SLAY", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4ba9e64f6e600dd42567d18006912811f75", null ],
+      [ "SAY_REPENTANCE", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4ba27ce692ed085c6170fc7b22e4ed99c49", null ],
+      [ "SAY_DEATH", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4ba04c962d9b6aaafde54ff92a54369135e", null ],
+      [ "SPELL_REPENTANCE", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4ba27bdd95528c81703a7768a704a29e5d3", null ],
+      [ "SPELL_HOLY_FIRE", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4bac3a4396238fbb11f537aa061424abe2b", null ],
+      [ "SPELL_HOLY_WRATH", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4ba01399a5b2a68ac4cb80994196b005379", null ],
+      [ "SPELL_HOLY_GROUND", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4ba43af3f88ddf88aa8bfed99ccf363097f", null ],
+      [ "SPELL_BERSERK", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4bad7b3e50b45f9949cd0e4030ca19a6b4f", null ],
+      [ "EVENT_SPELL_REPENTANCE", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4ba305a5a2f53f51a3c0d615dfe5a729345", null ],
+      [ "EVENT_SPELL_HOLY_FIRE", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4ba5fbe6a0ce0fcfd5c199339d14efff82a", null ],
+      [ "EVENT_SPELL_HOLY_WRATH", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4baa844f122d8500ffe5c102e9efa986138", null ],
+      [ "EVENT_SPELL_ENRAGE", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4ba0aee038b593545fefa453e38f0b499bb", null ],
+      [ "EVENT_KILL_TALK", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4ba19e2d7e7feeb728214e70da2b689c36b", null ]
     ] ],
-    [ "ServantQuertersMisc", "dc/dcf/a02615.html#a25ce278b2e35319de4f2a9488adde974", [
-      [ "EVENT_SPELL_ACIDIC_FANG", "dc/dcf/a02615.html#a25ce278b2e35319de4f2a9488adde974a7a7e6969d5d56bd48a387e2d978c275b", null ],
-      [ "EVENT_SPELL_HYAKISS_WEB", "dc/dcf/a02615.html#a25ce278b2e35319de4f2a9488adde974aad9ff6c3faacc79bfc4e0491e0637404", null ],
-      [ "EVENT_SPELL_DIVE", "dc/dcf/a02615.html#a25ce278b2e35319de4f2a9488adde974ac9de7938a142a3894992471f27f6f741", null ],
-      [ "EVENT_SPELL_SONIC_BURST", "dc/dcf/a02615.html#a25ce278b2e35319de4f2a9488adde974a18b38b195a610949a2404991816a923f", null ],
-      [ "EVENT_SPELL_WING_BUFFET", "dc/dcf/a02615.html#a25ce278b2e35319de4f2a9488adde974a30a32710920347c3ac1db2cd0bc743eb", null ],
-      [ "EVENT_SPELL_FEAR", "dc/dcf/a02615.html#a25ce278b2e35319de4f2a9488adde974a49b64ec43e205ab38891e35d2785209e", null ],
-      [ "EVENT_SPELL_RAVAGE", "dc/dcf/a02615.html#a25ce278b2e35319de4f2a9488adde974a0ed4ceee59379dd3e8a01c6f3949cf0e", null ],
-      [ "EVENT_CHECK_VISIBILITY", "dc/dcf/a02615.html#a25ce278b2e35319de4f2a9488adde974a8f97c0424934d7c58a620bff913da470", null ]
-    ] ],
-    [ "AddSC_boss_servant_quarters", "dc/dcf/a02615.html#a68bbcacd2fb5706f56792ffffd8be2f7", null ]
+    [ "AddSC_boss_maiden_of_virtue", "dc/dcf/a02615.html#aa207ba534922ef000b6937e48599ffc1", null ]
 ];

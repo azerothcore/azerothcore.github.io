@@ -1,7 +1,7 @@
 var a27120 =
 [
-    [ "HandleApply", "dd/d97/a27120.html#a75f7fc139cf72aeaa2cc09ba30a8f119", null ],
-    [ "HandlePeriodicTimer", "dd/d97/a27120.html#ae9f438dd0833b2ad214acef0e558a8be", null ],
-    [ "PrepareAuraScript", "dd/d97/a27120.html#ac2040d944e47a4f1cc7721ead44aca77", null ],
-    [ "Register", "dd/d97/a27120.html#abc9eb056267c7effcc7f68a3ad7891da", null ]
+    [ "HandleScript", "dd/d97/a27120.html#af386e49e9020328f123c4da7d82d4b0c", null ],
+    [ "PrepareSpellScript", "dd/d97/a27120.html#a5e4618514d33bbc18fcc26c83279e430", null ],
+    [ "Register", "dd/d97/a27120.html#a3560275f387f7b0de34f9d1c255241fe", null ],
+    [ "Validate", "dd/d97/a27120.html#a108e58cb90719b572f3578f0d44d0627", null ]
 ];

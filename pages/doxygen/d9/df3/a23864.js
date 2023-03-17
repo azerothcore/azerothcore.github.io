@@ -1,9 +1,8 @@
 var a23864 =
 [
-    [ "HandlePeriodic", "d9/df3/a23864.html#a774e4515085287681c7bf04588806754", null ],
-    [ "Load", "d9/df3/a23864.html#af8a220667ef482c2740b6296e33cd647", null ],
-    [ "PrepareAuraScript", "d9/df3/a23864.html#ab5e10153424e0a8f7f6554f291a3c063", null ],
-    [ "Register", "d9/df3/a23864.html#a8aa3e613f18b1a246b20faa2b00f0e4d", null ],
-    [ "Validate", "d9/df3/a23864.html#a719db1ff1b08b3549042928dc688a5a7", null ],
-    [ "_counter", "d9/df3/a23864.html#aa4063fd51d028d343156affd87fa0336", null ]
+    [ "npc_freed_protodrakeAI", "d9/df3/a23864.html#a9e80808035be749c87a1170f37ac3daf", null ],
+    [ "MovementInform", "d9/df3/a23864.html#af056f3c12a314acd8a7e8c6c381b9436", null ],
+    [ "Reset", "d9/df3/a23864.html#ab5781438300442bb7bcb4510aec9d233", null ],
+    [ "UpdateAI", "d9/df3/a23864.html#a9e83b133444e977c35e90b700149472c", null ],
+    [ "events", "d9/df3/a23864.html#ac2e34b9a53ff55d177327ec95dca5466", null ]
 ];

@@ -1,7 +1,7 @@
 var a15704 =
 [
-    [ "npc_lakota_windsongAI", "d3/d6a/a15704.html#a922172a38ca75adef66a2653eda7fa98", null ],
-    [ "DoSpawnBandits", "d3/d6a/a15704.html#aa63601ac87b674cb5d0594213d1e7ea9", null ],
-    [ "Reset", "d3/d6a/a15704.html#aee7a86275f93021e0e5db249b636bcd4", null ],
-    [ "WaypointReached", "d3/d6a/a15704.html#a6435c8b1521206789131889e5fa527a6", null ]
+    [ "npc_giltharesAI", "d3/d6a/a15704.html#af22e42b2180987febd964784b6d49b5e", null ],
+    [ "JustEngagedWith", "d3/d6a/a15704.html#ae9ba65652db3d2d32920d1a98594727a", null ],
+    [ "Reset", "d3/d6a/a15704.html#a34d57ef71b60fe71c749f790cecf70b2", null ],
+    [ "WaypointReached", "d3/d6a/a15704.html#a9308c73760e50e0f3d04031b508526d1", null ]
 ];

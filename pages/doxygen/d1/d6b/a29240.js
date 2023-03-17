@@ -1,5 +1,5 @@
 var a29240 =
 [
-    [ "go_resonite_cask", "d1/d6b/a29240.html#a5a89aa97a4cd31d7ae183649ee750b74", null ],
-    [ "OnGossipHello", "d1/d6b/a29240.html#aae8591d53a6983886b52d404acdba293", null ]
+    [ "go_sacred_fire_of_life", "d1/d6b/a29240.html#a7f14c8397803f8b21e492ec52c6d81e8", null ],
+    [ "OnGossipHello", "d1/d6b/a29240.html#aaa078fffe5570fa532d27d1c4ea831a7", null ]
 ];

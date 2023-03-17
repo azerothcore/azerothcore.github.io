@@ -1,6 +1,6 @@
 var a20452 =
 [
-    [ "npc_oculus_drakeAI", "df/de2/a20456.html", "df/de2/a20456" ],
-    [ "npc_oculus_drake", "dc/dce/a20452.html#ad2897dd72e9337af53ef2f043cd07d55", null ],
-    [ "GetAI", "dc/dce/a20452.html#afd2f1678a7faef76a231e4c16bd015e5", null ]
+    [ "boss_varosAI", "df/de2/a20456.html", "df/de2/a20456" ],
+    [ "boss_varos", "dc/dce/a20452.html#a4fdb9de9ee7a3a50ac0972fd6eb8d39c", null ],
+    [ "GetAI", "dc/dce/a20452.html#a36733c4eb6179e43d61a1c37480666ea", null ]
 ];

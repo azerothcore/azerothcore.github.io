@@ -1,6 +1,6 @@
 var a13056 =
 [
-    [ "HandlePeriodic", "d2/dfb/a13056.html#abd9317fb78c0908cbf3b9c4009c39332", null ],
-    [ "PrepareAuraScript", "d2/dfb/a13056.html#a5fdeeb4f6aec90caf52eec1844e2c3b9", null ],
-    [ "Register", "d2/dfb/a13056.html#a737e4d3bbbb8fcb31d569aad1bb2dba0", null ]
+    [ "CastArmageddon", "d2/dfb/a13056.html#a2e90929b63e6151252aa01a55dbd801f", null ],
+    [ "Execute", "d2/dfb/a13056.html#a4f0651a38eaf03a07bcd73d0f88dda16", null ],
+    [ "_caster", "d2/dfb/a13056.html#a1e70887099a7a47b7c26517d4363ad93", null ]
 ];

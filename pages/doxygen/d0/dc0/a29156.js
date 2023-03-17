@@ -1,6 +1,5 @@
 var a29156 =
 [
-    [ "npc_spirit_shadeAI", "d7/df7/a29160.html", "d7/df7/a29160" ],
-    [ "npc_spirit_shade", "d0/dc0/a29156.html#a891ede5651789274496d6426daf9937d", null ],
-    [ "GetAI", "d0/dc0/a29156.html#a166f6a9abf7c0e33374c2f998c0524c3", null ]
+    [ "go_resonite_cask", "d0/dc0/a29156.html#a5a89aa97a4cd31d7ae183649ee750b74", null ],
+    [ "OnGossipHello", "d0/dc0/a29156.html#aae8591d53a6983886b52d404acdba293", null ]
 ];

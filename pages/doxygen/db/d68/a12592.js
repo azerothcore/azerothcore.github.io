@@ -1,6 +1,6 @@
 var a12592 =
 [
-    [ "npc_mograineAI", "d0/d15/a12596.html", "d0/d15/a12596" ],
-    [ "npc_mograine", "db/d68/a12592.html#a0e840923de338abd46f962fb55253bf5", null ],
-    [ "GetAI", "db/d68/a12592.html#a6880708a0e4575ff48e0bade859857bf", null ]
+    [ "spell_chapter5_light_of_dawn_aura_AuraScript", "d0/d15/a12596.html", "d0/d15/a12596" ],
+    [ "spell_chapter5_light_of_dawn_aura", "db/d68/a12592.html#a84a840d63681a9f16b4592291e25e72d", null ],
+    [ "GetAuraScript", "db/d68/a12592.html#a223da41f90873999f0bfa249492c245f", null ]
 ];

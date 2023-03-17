@@ -1,7 +1,6 @@
 var a17700 =
 [
-    [ "HandleScript", "d2/d3f/a17700.html#a6d6440ca3cdcc208cd49e2c3edad0c57", null ],
-    [ "Load", "d2/d3f/a17700.html#a828dfc1126fcdf77c01ea7ec1376de3f", null ],
-    [ "PrepareSpellScript", "d2/d3f/a17700.html#a4598ec2c5fc788af83d978d9cce29c44", null ],
-    [ "Register", "d2/d3f/a17700.html#add80d9f315d4763bf00dd40ce984871f", null ]
+    [ "HandleDummyTick", "d2/d3f/a17700.html#a4a065b32bd82417cf60f0c1cbdebaeb0", null ],
+    [ "PrepareAuraScript", "d2/d3f/a17700.html#a7e5a00e842e88d176605a465617b834c", null ],
+    [ "Register", "d2/d3f/a17700.html#afb8c4f4b7cf46adfd637dd2c70cb249e", null ]
 ];

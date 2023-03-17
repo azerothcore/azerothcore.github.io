@@ -1,14 +1,13 @@
 var a08076 =
 [
-    [ "SocialMap", "d7/d06/a08076.html#a2b80fa18a6f1ed54fda7719867f45ebd", null ],
-    [ "SocialMgr", "d7/d06/a08076.html#a3cff8262ce10d2e8c8c38dc834230545", null ],
-    [ "~SocialMgr", "d7/d06/a08076.html#aef859e6c923a6ba4bb7ac0049f17463d", null ],
-    [ "BroadcastToFriendListers", "d7/d06/a08076.html#a55b35ea17ebfea4ff31710186b87865f", null ],
-    [ "GetFriendInfo", "d7/d06/a08076.html#a24344515cc4e656b98afcf760181b070", null ],
-    [ "instance", "d7/d06/a08076.html#a223f3d7811d8c360da7f467b70af808f", null ],
-    [ "LoadFromDB", "d7/d06/a08076.html#a6f10d7d75b0ddc5c2ec5c0e978f0e7b9", null ],
-    [ "MakeFriendStatusPacket", "d7/d06/a08076.html#a9acd86505e66f2e6de9f8d30b36b94e6", null ],
-    [ "RemovePlayerSocial", "d7/d06/a08076.html#a6b4968dc0a09a48c2b58e40d47da665d", null ],
-    [ "SendFriendStatus", "d7/d06/a08076.html#a8824263f601c107ef84e487ca1b71bff", null ],
-    [ "m_socialMap", "d7/d06/a08076.html#a2f8a276598ad01d350aa245fcef82a7a", null ]
+    [ "BGData", "d7/d06/a08076.html#a91ccfa5183ef5996fb4bdf78567c09ba", null ],
+    [ "bgAfkReportedCount", "d7/d06/a08076.html#ab7374e7b8fc6607dd6b4f04385e80ca3", null ],
+    [ "bgAfkReportedTimer", "d7/d06/a08076.html#a51f8f4e05dc0224982af9a61d2dfae36", null ],
+    [ "bgAfkReporter", "d7/d06/a08076.html#a94047ac71676b7914e058aac8a8cb0ea", null ],
+    [ "bgInstanceID", "d7/d06/a08076.html#a8eff26fd78b5763501a3f5460de4e551", null ],
+    [ "bgIsRandom", "d7/d06/a08076.html#a6f25dd5c9dc6afcc7964a5d0b7d1444c", null ],
+    [ "bgQueueSlot", "d7/d06/a08076.html#a1c77bcf4135d994f0801558adca02f40", null ],
+    [ "bgTeamId", "d7/d06/a08076.html#ac97f7cafb6ae69a12588e40328cdc0cb", null ],
+    [ "bgTypeID", "d7/d06/a08076.html#a3398da6a15fd66cdd8dc172997d3786b", null ],
+    [ "isInvited", "d7/d06/a08076.html#a8e23a1664eedf33b2195d2d8d5b01b82", null ]
 ];

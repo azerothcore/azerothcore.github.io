@@ -1,6 +1,5 @@
 var a28932 =
 [
-    [ "HandleRemove", "d9/dc6/a28932.html#a0ac8fe6a39ae00e50f219bf02c26f1a4", null ],
-    [ "PrepareAuraScript", "d9/dc6/a28932.html#a0517fe77f15e1b9cf6153ed2aaf9cee8", null ],
-    [ "Register", "d9/dc6/a28932.html#ac968ede75fd5d98ba9a10dc9f6bdbb85", null ]
+    [ "achievement_save_the_day", "d9/dc6/a28932.html#a193e4060b6634a87b499b7c8a5e287a1", null ],
+    [ "OnCheck", "d9/dc6/a28932.html#a95cfea6cd9ff955ba6800ebdf3a30eb7", null ]
 ];

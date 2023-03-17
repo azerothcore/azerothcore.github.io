@@ -1,6 +1,5 @@
 var a09896 =
 [
-    [ "EmoteClient", "d0/ded/a09896.html#af98c098cb1019057d8027f39c168e1a9", null ],
-    [ "Read", "d0/ded/a09896.html#abad5fca865b7b99e595ce95137e8105c", null ],
-    [ "EmoteID", "d0/ded/a09896.html#a24503de36535106220984ffbf6ba0338", null ]
+    [ "LogoutRequest", "d0/ded/a09896.html#ab92b0a8a5d3d076adbd465fcf24b7975", null ],
+    [ "Read", "d0/ded/a09896.html#a84701a16603f8b0f1e8dda1020ec1161", null ]
 ];

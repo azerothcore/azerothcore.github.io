@@ -1,6 +1,6 @@
 var a24940 =
 [
-    [ "OnPeriodic", "d1/d3f/a24940.html#a835b0733f2f4f4b4f5ad9d7680982c4a", null ],
-    [ "PrepareAuraScript", "d1/d3f/a24940.html#a38f9b7d592f3fb13fc34eba9685d0832", null ],
-    [ "Register", "d1/d3f/a24940.html#a16a46611a1b6cea61a02723cf839a340", null ]
+    [ "boss_doomwalkerAI", "dc/d94/a24944.html", "dc/d94/a24944" ],
+    [ "boss_doomwalker", "d1/d3f/a24940.html#a09dd994df11f0c225eebb53442eaefff", null ],
+    [ "GetAI", "d1/d3f/a24940.html#ac4d9ab46c1868a71282f8eaecafddbcc", null ]
 ];

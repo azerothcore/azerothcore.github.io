@@ -1,9 +1,9 @@
 var a06712 =
 [
-    [ "ArenaScore", "d4/d21/a06712.html#a58f1391de4e67750dad211b10704499f", null ],
-    [ "AppendToPacket", "d4/d21/a06712.html#a3fe2ab34a9abc4d8c4ff863334cf2c84", null ],
-    [ "BuildObjectivesBlock", "d4/d21/a06712.html#ac96461b865fc7a9ba0cdfad6ae3fa96f", null ],
-    [ "ToString", "d4/d21/a06712.html#ab04b30f4bfa6b1aa89e08e3195ad3b0b", null ],
-    [ "Arena", "d4/d21/a06712.html#a5f488c25aa439166d145713c67e7d085", null ],
-    [ "PvPTeamId", "d4/d21/a06712.html#a486ee0e05ac5160f0fb174e2a1e061bb", null ]
+    [ "entryAlliance", "d4/d21/a06712.html#a0e5dba26d6d335a9d1e5f40e737acddd", null ],
+    [ "entryHorde", "d4/d21/a06712.html#a374fff4b069e89489395246f378b4900", null ],
+    [ "o", "d4/d21/a06712.html#af8a4ec46795bcdbc77c76302a4cfe639", null ],
+    [ "x", "d4/d21/a06712.html#ab557bbe497fc769b390cf0799b6aaed9", null ],
+    [ "y", "d4/d21/a06712.html#a44a8f3fd8d3cac7cfe61471d8b785ad4", null ],
+    [ "z", "d4/d21/a06712.html#adebb903a00687e17d9088f5da2c97f4a", null ]
 ];

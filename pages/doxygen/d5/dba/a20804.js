@@ -1,6 +1,6 @@
 var a20804 =
 [
-    [ "go_celestial_planetarium_accessAI", "de/da0/a20808.html", "de/da0/a20808" ],
-    [ "go_celestial_planetarium_access", "d5/dba/a20804.html#a20b7c895dd0fc2cb37bf3c113bf91278", null ],
-    [ "GetAI", "d5/dba/a20804.html#a4fc9ac64f7dceefbdda02297f7dfc42b", null ]
+    [ "npc_collapsing_starAI", "de/da0/a20808.html", "de/da0/a20808" ],
+    [ "npc_collapsing_star", "d5/dba/a20804.html#a8d57987c9b4622746d4f42a2b4845b9e", null ],
+    [ "GetAI", "d5/dba/a20804.html#a346af96d122e64c68defdeccb9183cd4", null ]
 ];

@@ -1,13 +1,10 @@
 var a08540 =
 [
-    [ "MessageDistDelivererToHostile", "dc/dfb/a08540.html#a4e1642660288eeb46867d4e19944cc78", null ],
-    [ "SendPacket", "dc/dfb/a08540.html#aced79e7b19918408fa4d81667fbeb7f0", null ],
-    [ "Visit", "dc/dfb/a08540.html#af9c5269b0266e9e28a70118e62d25e58", null ],
-    [ "Visit", "dc/dfb/a08540.html#a224eeb339614d7a9f5e43d498b245958", null ],
-    [ "Visit", "dc/dfb/a08540.html#a304c0be3c55bd2817abeaa1d53563a27", null ],
-    [ "Visit", "dc/dfb/a08540.html#ae2a44055a4363eeff81a799b8a93d74d", null ],
-    [ "i_distSq", "dc/dfb/a08540.html#a0fc7e00f191801869c3fd8eeae032af8", null ],
-    [ "i_message", "dc/dfb/a08540.html#ae10ac98c489ec48ed49daf835e7a361d", null ],
-    [ "i_phaseMask", "dc/dfb/a08540.html#a0a932cd193e847ee0cfddae0946e39d1", null ],
-    [ "i_source", "dc/dfb/a08540.html#a174aade6dc85233e8481a452f800ec0e", null ]
+    [ "iterator", "dc/dfb/a08540.html#a6bf9d06cfe6cb2e7df465ebf2acc099f", null ],
+    [ "begin", "dc/dfb/a08540.html#a1e4e67ba11ac8da077942a6581647bf3", null ],
+    [ "end", "dc/dfb/a08540.html#a266acb421cfc6ccc56dc2acff3202971", null ],
+    [ "getFirst", "dc/dfb/a08540.html#aa0156c2ad3ec5ca0df6f6a4c55d71a05", null ],
+    [ "getLast", "dc/dfb/a08540.html#a46a36813eaf752815a3f8c739db88a5d", null ],
+    [ "rbegin", "dc/dfb/a08540.html#ae69734978b5eec009a696861b7b7152b", null ],
+    [ "rend", "dc/dfb/a08540.html#a3f7b88b333f1da3a6ffdfc8ec31d8f52", null ]
 ];

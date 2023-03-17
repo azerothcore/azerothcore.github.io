@@ -1,5 +1,6 @@
 var a21568 =
 [
-    [ "PrepareAuraScript", "d9/dae/a21568.html#abdf3c6c564820e6d2b24ffc706602d97", null ],
-    [ "Register", "d9/dae/a21568.html#a8b458ce67e904b248c2e828f2e61424a", null ]
+    [ "HandleAfterEffectApply", "d9/dae/a21568.html#a0d2a3845acfb34fa752a6a6593dd5928", null ],
+    [ "PrepareAuraScript", "d9/dae/a21568.html#af31ab9954303867361e7a87c215a5324", null ],
+    [ "Register", "d9/dae/a21568.html#aba6d6a48ba2aab449d7b0645deadaac0", null ]
 ];

@@ -1,6 +1,8 @@
 var a19028 =
 [
-    [ "CheckTargetCount", "da/d13/a19028.html#a35cd079dceb69cb597622b1570a38cb8", null ],
-    [ "PrepareSpellScript", "da/d13/a19028.html#a47a889d9c3592fb2bf6131ad0068e419", null ],
-    [ "Register", "da/d13/a19028.html#a59632b3387e7880885b8a8ca9dff7b85", null ]
+    [ "spell_the_lich_king_necrotic_plague_AuraScript", "d5/d16/a19036.html", "d5/d16/a19036" ],
+    [ "spell_the_lich_king_necrotic_plague_SpellScript", "d8/d2c/a19032.html", "d8/d2c/a19032" ],
+    [ "spell_the_lich_king_necrotic_plague_jump", "da/d13/a19028.html#abed17d9bb780335f967163f214dc2444", null ],
+    [ "GetAuraScript", "da/d13/a19028.html#a32b48c282117d429d0775b28e416a07e", null ],
+    [ "GetSpellScript", "da/d13/a19028.html#a5b6f223f30bd9db1572f5d0063064259", null ]
 ];

@@ -1,4 +1,5 @@
 var a10848 =
 [
-    [ "Result", "d0/d35/a10848.html#afcac99b5c5e876f3da1a72c1063c465f", null ]
+    [ "PlayerDump", "d0/d35/a10848.html#a457c89834631206d39453721e41af28e", null ],
+    [ "InitializeTables", "d0/d35/a10848.html#a69c8e6c412ac09099752a3ad388f5467", null ]
 ];

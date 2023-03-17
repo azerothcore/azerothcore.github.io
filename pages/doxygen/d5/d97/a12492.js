@@ -1,6 +1,6 @@
 var a12492 =
 [
-    [ "HandleScriptEffect", "d5/d97/a12492.html#a430d6f41e8533cbade64ea46aaa9ec2e", null ],
-    [ "PrepareSpellScript", "d5/d97/a12492.html#ad110e0dba330acde845c47501256cf5d", null ],
-    [ "Register", "d5/d97/a12492.html#ab6971aa466055a1280cd258e26645157", null ]
+    [ "npc_unworthy_initiateAI", "db/deb/a12496.html", "db/deb/a12496" ],
+    [ "npc_unworthy_initiate", "d5/d97/a12492.html#aaa04626b783eadc0b14bd89aa715e694", null ],
+    [ "GetAI", "d5/d97/a12492.html#a0912cc56cb2082b2de086cbd9b914b4a", null ]
 ];

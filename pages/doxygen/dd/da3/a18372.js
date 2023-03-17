@@ -1,6 +1,7 @@
 var a18372 =
 [
-    [ "PrepareSpellScript", "dd/da3/a18372.html#a36eba217756746e85dd6f36ecafd1773", null ],
-    [ "RecalculateDamage", "dd/da3/a18372.html#adb184e0ad7c1628579d5a66bb188f98c", null ],
-    [ "Register", "dd/da3/a18372.html#a8b188ae324cdec7a0e0fad910941ee49", null ]
+    [ "HandleScriptEffect", "dd/da3/a18372.html#a5992a96d232f98606854c67037bd13ab", null ],
+    [ "PrepareSpellScript", "dd/da3/a18372.html#a9e6aba739a16ce8bcacdc6cec2276cff", null ],
+    [ "Register", "dd/da3/a18372.html#ae18b1e7c12081634310122bbdef0c349", null ],
+    [ "SelectTarget", "dd/da3/a18372.html#aff49dcbd5d2f8a133868a4fc43170c6e", null ]
 ];

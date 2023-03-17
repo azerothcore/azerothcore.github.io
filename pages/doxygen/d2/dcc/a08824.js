@@ -1,7 +1,8 @@
 var a08824 =
 [
-    [ "PowerCheck", "d2/dcc/a08824.html#abb2fc6c6e83e1097a6bb40512fb50dfc", null ],
-    [ "operator()", "d2/dcc/a08824.html#a16ad8e68d94742bc78b6f20734f58e99", null ],
-    [ "_equals", "d2/dcc/a08824.html#ae7758da7775ff778bc5cd96e9a15649b", null ],
-    [ "_power", "d2/dcc/a08824.html#a922a57b62b4289835b539a69b0f58fa1", null ]
+    [ "AllDeadCreaturesInRange", "d2/dcc/a08824.html#a31b4976c3ea6203b9a1e7f7970a97977", null ],
+    [ "operator()", "d2/dcc/a08824.html#a3638a8d3c5791b590ec717e4f1ba9cef", null ],
+    [ "_obj", "d2/dcc/a08824.html#a4ca7fcf9945e698a790d01d3fadae98e", null ],
+    [ "_range", "d2/dcc/a08824.html#a431ada86a2b864d53773a85b05d8da4f", null ],
+    [ "_reqAlive", "d2/dcc/a08824.html#aefd0d77b69b5df9b99c148e0254fda09", null ]
 ];

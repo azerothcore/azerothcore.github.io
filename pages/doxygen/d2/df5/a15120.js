@@ -1,10 +1,10 @@
 var a15120 =
 [
-    [ "boss_huhuran", "d2/df5/a15120.html#a64e0b20891992764c708cbb661c18196", null ],
-    [ "DamageTaken", "d2/df5/a15120.html#adb47086f29b41f4168ad5d1b2728547d", null ],
-    [ "EnterCombat", "d2/df5/a15120.html#a87e6df7769cbf2eebd2cb50ddf08b326", null ],
-    [ "Reset", "d2/df5/a15120.html#a45571aa6bd0c7915fb666cae1c5c4544", null ],
-    [ "UpdateAI", "d2/df5/a15120.html#a23962e668f046b373f94ea6a2d75574a", null ],
-    [ "_berserk", "d2/df5/a15120.html#a5f3f17d0b239f95ed4eb0bfac85c4463", null ],
-    [ "_hardEnrage", "d2/df5/a15120.html#a5612bf8b1eedec159b316b28e6f4c915", null ]
+    [ "npc_claw_tentacle", "d2/df5/a15120.html#a10f1c68d5f49dd1614e7e939498db37b", null ],
+    [ "JustDied", "d2/df5/a15120.html#aa566b417d1b766668133dd1d6a58293f", null ],
+    [ "JustEngagedWith", "d2/df5/a15120.html#a9fbe9b30f973d3c8509ab4bbfcfe5bcc", null ],
+    [ "Reset", "d2/df5/a15120.html#aaf3a3380a33aadc2023d192dfa85cfb2", null ],
+    [ "UpdateAI", "d2/df5/a15120.html#ae7d521445680167add653717c7ae4c86", null ],
+    [ "_portalGUID", "d2/df5/a15120.html#ab979781a8f77267348595cfa17341bae", null ],
+    [ "_scheduler", "d2/df5/a15120.html#a1ab0fa9a2ea8540cc580b48a09caaeda", null ]
 ];

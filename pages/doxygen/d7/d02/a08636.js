@@ -1,10 +1,9 @@
 var a08636 =
 [
-    [ "AnyDeadUnitObjectInRangeCheck", "d7/d02/a08636.html#ad51c7d9c256d8d769e7e5df2a618f233", null ],
-    [ "operator()", "d7/d02/a08636.html#a71355418a935e1e4c4f5294c0e6a244f", null ],
-    [ "operator()", "d7/d02/a08636.html#ae885f49537043421a92b44c201bec358", null ],
-    [ "operator()", "d7/d02/a08636.html#a92b2dcfedf97677e84f46ee0e3affb91", null ],
-    [ "operator()", "d7/d02/a08636.html#ae7a76a9bcc28c6e4705a2885b02be20d", null ],
-    [ "i_range", "d7/d02/a08636.html#a1a95cfd469f27284e6ff35e9856bddcb", null ],
-    [ "i_searchObj", "d7/d02/a08636.html#acf10f61f95961ff4b9fd4a8c162fa029", null ]
+    [ "CreatureLastSearcher", "d7/d02/a08636.html#a422c7a5a2cd4e93f7b0ad31cc4c6555d", null ],
+    [ "Visit", "d7/d02/a08636.html#ae6774df4ffff18cd4f3b4c07724db4f4", null ],
+    [ "Visit", "d7/d02/a08636.html#a08635cefbba5dca34734569816d2edb8", null ],
+    [ "i_check", "d7/d02/a08636.html#a2b9afe2c43af6e68f7fa5ba661790ef9", null ],
+    [ "i_object", "d7/d02/a08636.html#ab8a14acb8d0fc9835d1325430fa1a367", null ],
+    [ "i_phaseMask", "d7/d02/a08636.html#a9dd25e3437e1c1e5e4c8d68ab3548500", null ]
 ];

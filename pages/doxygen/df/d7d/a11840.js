@@ -1,6 +1,6 @@
 var a11840 =
 [
-    [ "HandleHit", "df/d7d/a11840.html#a99ea80788e2873dba87f6c6c72fa6f73", null ],
-    [ "PrepareSpellScript", "df/d7d/a11840.html#adfaeb84d83a48250c636bc8ef98bcb8c", null ],
-    [ "Register", "df/d7d/a11840.html#a2142c21b5f2abf968cc8eac953779f1d", null ]
+    [ "boss_magmadarAI", "d6/d5e/a11844.html", "d6/d5e/a11844" ],
+    [ "boss_magmadar", "df/d7d/a11840.html#a26aeffebdf782013a2b5dc18a0937a9a", null ],
+    [ "GetAI", "df/d7d/a11840.html#a650d28d798042a2356dffaa357516504", null ]
 ];

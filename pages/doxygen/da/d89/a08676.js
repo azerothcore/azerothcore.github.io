@@ -1,7 +1,10 @@
 var a08676 =
 [
-    [ "FriendlyCCedInRange", "da/d89/a08676.html#ae8dcff3f285f208b0db8aa3efed202a1", null ],
-    [ "operator()", "da/d89/a08676.html#a0e241f930cee855664aeac3604d5c023", null ],
-    [ "i_obj", "da/d89/a08676.html#a73d3e29bbdc7fd4aa162be3cb7ecbe08", null ],
-    [ "i_range", "da/d89/a08676.html#a49e79f3aea0c7e8c321c9f297b71a9b2", null ]
+    [ "AnyDeadUnitSpellTargetInRangeCheck", "da/d89/a08676.html#a212c308a02716ff382e820e86e233ed3", null ],
+    [ "operator()", "da/d89/a08676.html#af328df880d17a62e2dbed0ff4231fc39", null ],
+    [ "operator()", "da/d89/a08676.html#adcc69b9ef03a68aa235e40449a80b701", null ],
+    [ "operator()", "da/d89/a08676.html#a2f2483cf7078681cb3acf28560e61184", null ],
+    [ "operator()", "da/d89/a08676.html#aba0bf4c320a684b68743a06e724a369e", null ],
+    [ "i_check", "da/d89/a08676.html#aa2223ad31acf47a1608ded6b5cbc2f03", null ],
+    [ "i_spellInfo", "da/d89/a08676.html#afeb889f6cee596b2c2229f86e0a8a3f1", null ]
 ];

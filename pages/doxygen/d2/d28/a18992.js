@@ -1,7 +1,6 @@
 var a18992 =
 [
-    [ "OnPeriodic", "d2/d28/a18992.html#ae306475845b2e83a08a226d8e78a0beb", null ],
-    [ "OnUpdate", "d2/d28/a18992.html#affc809d41b0d19adb6fd62ee2923fe71", null ],
-    [ "PrepareAuraScript", "d2/d28/a18992.html#a97a51fd229180056cf87785d4ad62e1c", null ],
-    [ "Register", "d2/d28/a18992.html#af6f4af51d4297e2e221f92b30c9a69a4", null ]
+    [ "HandleScript", "d2/d28/a18992.html#a38dc97d8a7ac2bee7b8aceb0354c4248", null ],
+    [ "PrepareSpellScript", "d2/d28/a18992.html#aab97d2050622083d63067378683071a6", null ],
+    [ "Register", "d2/d28/a18992.html#ae73654c56526c52a82e5a7cbb72a1767", null ]
 ];

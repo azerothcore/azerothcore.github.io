@@ -1,9 +1,6 @@
 var a27396 =
 [
-    [ "spell_gen_lifebloom", "d9/d5d/a27396.html#a5cb52a4dda841d9d31fd00a31ddc3350", null ],
-    [ "AfterRemove", "d9/d5d/a27396.html#aea962f603e56c1bd33fccaef0c89d917", null ],
-    [ "PrepareAuraScript", "d9/d5d/a27396.html#ac11134bdc3588795ce6e256c5b02055f", null ],
-    [ "Register", "d9/d5d/a27396.html#ab4a552402ee9f90834320d6fc668cff3", null ],
-    [ "Validate", "d9/d5d/a27396.html#a599634d92b92a5635b89733b7bb3c3c8", null ],
-    [ "_spellId", "d9/d5d/a27396.html#a196484d01d2dc07163e18fdca9f60ca9", null ]
+    [ "CalculateAmount", "d9/d5d/a27396.html#ac0018b57967a3d3ae71aa81745032f15", null ],
+    [ "PrepareAuraScript", "d9/d5d/a27396.html#ab249a493050c5527eeec8913e94cfc64", null ],
+    [ "Register", "d9/d5d/a27396.html#a8f078f8370eacba197ceb2068b6a538d", null ]
 ];

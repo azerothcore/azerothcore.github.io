@@ -1,7 +1,8 @@
 var a05772 =
 [
-    [ "ReactorAI", "d7/d32/a05772.html#aaea292c46945399cf7c855e642941c2d", null ],
-    [ "MoveInLineOfSight", "d7/d32/a05772.html#a224608a62a15d679863d68d7d0e32dde", null ],
-    [ "Permissible", "d7/d32/a05772.html#a1b0845464b0d356be7bf38e65ab5eb19", null ],
-    [ "UpdateAI", "d7/d32/a05772.html#a10c4c10d9ac942990d1a1ef9eb6603ad", null ]
+    [ "GuardAI", "d7/d32/a05772.html#ac1f0ba47d8e32c65845808170330b7af", null ],
+    [ "EnterEvadeMode", "d7/d32/a05772.html#af021cc31298d4a0f38a7d82ac8e02e30", null ],
+    [ "JustDied", "d7/d32/a05772.html#a96820cdcb632d3a71f9deacf4998a774", null ],
+    [ "Permissible", "d7/d32/a05772.html#a238f38bd3fc7cfa8ace3549f4a6199fb", null ],
+    [ "Reset", "d7/d32/a05772.html#a91b12b6a50641d17a79550b9ffb5284a", null ]
 ];

@@ -1,6 +1,7 @@
 var a27752 =
 [
-    [ "HandleOnEffectHit", "da/d8d/a27752.html#a07157e7255d52acf6eb5d5e5c17e2190", null ],
-    [ "PrepareSpellScript", "da/d8d/a27752.html#a0b2fd34dda3b23b574f6a5a0c4435006", null ],
-    [ "Register", "da/d8d/a27752.html#a59c6a1618faa5a44e1c37337b39a3cba", null ]
+    [ "HandleScript", "da/d8d/a27752.html#a5b35bbac405dc2b03f195cb29786d5a6", null ],
+    [ "Load", "da/d8d/a27752.html#a61f1a4514e9900e4e14fded3c0b05593", null ],
+    [ "PrepareSpellScript", "da/d8d/a27752.html#abfac1629b7724a3b17b94480c31867af", null ],
+    [ "Register", "da/d8d/a27752.html#a62b9c194106e261245496441176c8d53", null ]
 ];

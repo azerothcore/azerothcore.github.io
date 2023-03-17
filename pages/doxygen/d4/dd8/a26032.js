@@ -1,6 +1,6 @@
 var a26032 =
 [
-    [ "npc_daranelleAI", "d8/d68/a26036.html", "d8/d68/a26036" ],
-    [ "npc_daranelle", "d4/dd8/a26032.html#a0a6e26b95d6d97821bc9e0c00b205704", null ],
-    [ "GetAI", "d4/dd8/a26032.html#ad2ba5e4dfded886acaf2f9821e15738d", null ]
+    [ "spell_oscillating_field_SpellScript", "d8/d68/a26036.html", "d8/d68/a26036" ],
+    [ "spell_oscillating_field", "d4/dd8/a26032.html#aec4ec59c132067e31a009068964111af", null ],
+    [ "GetSpellScript", "d4/dd8/a26032.html#aa71cf93201e30f6ff648ac23df0e3488", null ]
 ];

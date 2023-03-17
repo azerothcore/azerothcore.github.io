@@ -1,6 +1,6 @@
 var a25884 =
 [
-    [ "HandleScriptEffect", "de/db1/a25884.html#a46abaf045f949f36969f10705ac2534c", null ],
-    [ "PrepareSpellScript", "de/db1/a25884.html#ad940f5b2722495a78a67596cf038ede1", null ],
-    [ "Register", "de/db1/a25884.html#ae6332cefae2484f3c2f17029e407249c", null ]
+    [ "PrepareAuraScript", "de/db1/a25884.html#a3004f992083a828b0707b02d3402c8e5", null ],
+    [ "PrepareProc", "de/db1/a25884.html#a2b5d4769003c6a0a08cafb9442a6b60b", null ],
+    [ "Register", "de/db1/a25884.html#a61c6a37e1bf005f2ad85a5315d8adc6f", null ]
 ];

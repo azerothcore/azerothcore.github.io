@@ -1,16 +1,14 @@
 var a07004 =
 [
-    [ "InvokerEntry", "d5/d59/a07008.html", "d5/d59/a07008" ],
-    [ "SubCommandEntry", "df/d08/a07004.html#a9a01b487be01e84573f7ebe99620541b", null ],
-    [ "ChatCommandBuilder", "df/d08/a07004.html#a894f6ae19d715d9d3f395736bf7cdb41", null ],
-    [ "ChatCommandBuilder", "df/d08/a07004.html#ad9b8a40b28eb5944512b6f3033b3a933", null ],
-    [ "ChatCommandBuilder", "df/d08/a07004.html#a4edc4cebdd26b55c0912b8ae0ed5fbaa", null ],
-    [ "ChatCommandBuilder", "df/d08/a07004.html#ac2c8cc88865de637f322b54bf6a47e13", null ],
-    [ "ChatCommandBuilder", "df/d08/a07004.html#a9ecbebaa3c839f57a90dcccca1473913", null ],
-    [ "ChatCommandBuilder", "df/d08/a07004.html#ae2cfeaf2f78687d8c6cccf42683cc379", null ],
-    [ "ChatCommandBuilder", "df/d08/a07004.html#a8ec5aed25a53982ccb8c5428d0501fce", null ],
-    [ "ChatCommandBuilder", "df/d08/a07004.html#aac8dee34deadbb581de3039d7c9b24af", null ],
-    [ "Acore::Impl::ChatCommands::ChatCommandNode", "df/d08/a07004.html#a3b9ea3963b82697cbe5d6ca86ff29847", null ],
-    [ "_data", "df/d08/a07004.html#aff0a8c833c04f98abf46aaba4fbf9374", null ],
-    [ "_name", "df/d08/a07004.html#a4315363c5d25bb157481cbbd3fa0286f", null ]
+    [ "Print", "df/d08/a07004.html#a7a3f746595d9ca126747f5e0ba52c71b", null ],
+    [ "CliHandler", "df/d08/a07004.html#a6a7ba928db9d41743d7cebd1ad98b084", null ],
+    [ "GetAcoreString", "df/d08/a07004.html#a84a52cac4c1ac11e36e36c37f976af0e", null ],
+    [ "GetNameLink", "df/d08/a07004.html#ae879bbfa69992caa7a0b1b2b3c7d939c", null ],
+    [ "GetSessionDbcLocale", "df/d08/a07004.html#a610f7431dc7b064c964e0d446160d19f", null ],
+    [ "GetSessionDbLocaleIndex", "df/d08/a07004.html#a5a2118d9227aa53818d736e387d77dea", null ],
+    [ "needReportToTarget", "df/d08/a07004.html#ad8c4ee6e45afff55d94dea9704bd2097", null ],
+    [ "ParseCommands", "df/d08/a07004.html#abbd02247d6094bf39b2791ba45e9942e", null ],
+    [ "SendSysMessage", "df/d08/a07004.html#a636be10a282a8d100b807dac119b3ff6", null ],
+    [ "m_callbackArg", "df/d08/a07004.html#aa1fafd68fca180506cc15680b695db9e", null ],
+    [ "m_print", "df/d08/a07004.html#aadeaa84ce5d26951f506a2656c1d64d2", null ]
 ];

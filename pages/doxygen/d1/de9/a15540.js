@@ -1,6 +1,6 @@
 var a15540 =
 [
-    [ "npc_omenAI", "d4/d5c/a15544.html", "d4/d5c/a15544" ],
-    [ "npc_omen", "d1/de9/a15540.html#aff955303a8b9741838779a59dd496f62", null ],
-    [ "GetAI", "d1/de9/a15540.html#a8023ad3298000d9819c46f46a93166d4", null ]
+    [ "HandleDummy", "d1/de9/a15540.html#a8131f09a63ee74bb43f310f0894d13d2", null ],
+    [ "PrepareSpellScript", "d1/de9/a15540.html#a00a554334d64c44ba44925264fc72472", null ],
+    [ "Register", "d1/de9/a15540.html#ac9ceb949b061e261a2611ac2ea85f343", null ]
 ];

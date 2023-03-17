@@ -1,6 +1,7 @@
 var a16040 =
 [
-    [ "boss_sartharion_tenebronAI", "d2/da3/a16044.html", "d2/da3/a16044" ],
-    [ "boss_sartharion_tenebron", "d8/dec/a16040.html#ada445771d2d3d01fb586f15d62e21755", null ],
-    [ "GetAI", "d8/dec/a16040.html#a2eb4555506167a4aee7b844e305d7107", null ]
+    [ "instance_azjol_nerub_InstanceScript", "d8/dec/a16040.html#a886ed4c1485fdedcc176341210eee31a", null ],
+    [ "OnCreatureCreate", "d8/dec/a16040.html#a7a99d985a4b465ae87c04211a7a83a77", null ],
+    [ "OnGameObjectCreate", "d8/dec/a16040.html#a1ef3dc88400345998d03f3c993b9a181", null ],
+    [ "OnGameObjectRemove", "d8/dec/a16040.html#a3a2776b83272d81de9ddcb0c90ac881c", null ]
 ];

@@ -1,6 +1,8 @@
 var a28536 =
 [
-    [ "HandleDummy", "de/d77/a28536.html#a86ec9b4606ae92b070edd4ca863fe93e", null ],
-    [ "PrepareSpellScript", "de/d77/a28536.html#a4411e4317053450a0ac5217d546952b2", null ],
-    [ "Register", "de/d77/a28536.html#a9eea8631e0723555a9c328bdfc1e30b7", null ]
+    [ "spell_rog_killing_spree_AuraScript", "d3/d35/a28544.html", "d3/d35/a28544" ],
+    [ "spell_rog_killing_spree_SpellScript", "d4/d3e/a28540.html", "d4/d3e/a28540" ],
+    [ "spell_rog_killing_spree", "de/d77/a28536.html#a5ccbad5a5401df5eb6124506a6f555e3", null ],
+    [ "GetAuraScript", "de/d77/a28536.html#acf9cb243d57d47dfd416484242d5b45d", null ],
+    [ "GetSpellScript", "de/d77/a28536.html#ac1079a78cad04c762a9a8e77680a5bae", null ]
 ];

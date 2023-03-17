@@ -1,6 +1,5 @@
 var a11552 =
 [
-    [ "boss_chromaggusAI", "d6/dbf/a11556.html", "d6/dbf/a11556" ],
-    [ "boss_chromaggus", "dc/dca/a11552.html#a55847fc0d5430d3f22074b53d7caca4b", null ],
-    [ "GetAI", "dc/dca/a11552.html#ace78172cafb122ce5961ed837201c32b", null ]
+    [ "at_blackrock_stadium", "dc/dca/a11552.html#a9f577437f231a189c02e50e71ffcb85a", null ],
+    [ "OnTrigger", "dc/dca/a11552.html#a26e43099d9253ea44060194e3b38c656", null ]
 ];

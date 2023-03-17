@@ -1,26 +1,10 @@
 var a07816 =
 [
-    [ "JumpInfo", "de/da0/a07824.html", "de/da0/a07824" ],
-    [ "TransportInfo", "d4/d32/a07820.html", "d4/d32/a07820" ],
-    [ "MovementInfo", "df/d10/a07816.html#a809340998de55a9ffa895f7b27e1f2c3", null ],
-    [ "AddExtraMovementFlag", "df/d10/a07816.html#aff0e449eb1567041f1a44c34e5fa85bc", null ],
-    [ "AddMovementFlag", "df/d10/a07816.html#ae02908de40bf25e5d07d3bb248448a68", null ],
-    [ "GetExtraMovementFlags", "df/d10/a07816.html#a7a9353ff367c80cddeaddd63fcd32ddb", null ],
-    [ "GetMovementFlags", "df/d10/a07816.html#ade08354701baa32b9ff232d6b07e6097", null ],
-    [ "HasExtraMovementFlag", "df/d10/a07816.html#afad84c80474a806e8abb4626ccfbcfaf", null ],
-    [ "HasMovementFlag", "df/d10/a07816.html#ad9571cb899d58cc60fbe2412be79116e", null ],
-    [ "OutDebug", "df/d10/a07816.html#af8c4c6db42364ec712398b317238c90b", null ],
-    [ "RemoveMovementFlag", "df/d10/a07816.html#ab38114c14a8848a082b4f265eab11c72", null ],
-    [ "SetFallTime", "df/d10/a07816.html#a683565ad0865709083e81d07a8ce1395", null ],
-    [ "SetMovementFlags", "df/d10/a07816.html#ace324e7171c3520efdce76d2bbc75c67", null ],
-    [ "fallTime", "df/d10/a07816.html#abcf42fcf7d61044fd9fb5e6857e21ab5", null ],
-    [ "flags", "df/d10/a07816.html#ab64213c21ac3cdfd769a5acdc7fce200", null ],
-    [ "flags2", "df/d10/a07816.html#aa8dc40a9829334f2ca7fa4e7347f91a5", null ],
-    [ "guid", "df/d10/a07816.html#a10c1c9721558fd98d33bb43b3bfff837", null ],
-    [ "jump", "df/d10/a07816.html#a920a536b873fcc63dd6bb22882a7a8ea", null ],
-    [ "pitch", "df/d10/a07816.html#af2945943a91efc4cd5f2f9a0b86424cf", null ],
-    [ "pos", "df/d10/a07816.html#afc5605f3e357e6ca4f2c681329bb0302", null ],
-    [ "splineElevation", "df/d10/a07816.html#ac524b47fa52b05e7c6a6b7c577c9291f", null ],
-    [ "time", "df/d10/a07816.html#a90c332cb1b99ce1ac6eab39bc2a6e4b2", null ],
-    [ "transport", "df/d10/a07816.html#ac2b0f738ec695f4c9f032daad3e1f041", null ]
+    [ "SpellCategory", "df/d10/a07816.html#ad170ffceb499879a4b0d638e9c922703", null ],
+    [ "SpellCategoryCooldown", "df/d10/a07816.html#a8a33274d71b410f24f110e9a5921ff18", null ],
+    [ "SpellCharges", "df/d10/a07816.html#a16909465a3a20dbab6e3ca2e3c807f17", null ],
+    [ "SpellCooldown", "df/d10/a07816.html#a8ef7106595ed25ce23ca2163258d769a", null ],
+    [ "SpellId", "df/d10/a07816.html#af6973a8a9a258a87a916bcd431c33d8d", null ],
+    [ "SpellPPMRate", "df/d10/a07816.html#a5b208a667802e4c3766619c96d267287", null ],
+    [ "SpellTrigger", "df/d10/a07816.html#a39657ff9e561a3c86a671f7b3c78ef98", null ]
 ];

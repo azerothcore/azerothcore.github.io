@@ -1,7 +1,6 @@
 var a24828 =
 [
-    [ "CalcPeriodic", "d2/d86/a24828.html#a9bf654ca2d662ed46a2597d91340ad77", null ],
-    [ "PrepareAuraScript", "d2/d86/a24828.html#aae90111bf29b9af0f3b2fcf3706da586", null ],
-    [ "Register", "d2/d86/a24828.html#a14ea7bf2a0111e830dd850d6c4fb97dd", null ],
-    [ "Update", "d2/d86/a24828.html#a84a16c42feb101f446d81e57d3fa452c", null ]
+    [ "spell_black_template_harpooners_mark_AuraScript", "db/d8f/a24832.html", "db/d8f/a24832" ],
+    [ "spell_black_template_harpooners_mark", "d2/d86/a24828.html#a5e602b8335163bef06e8f0aaad76ea01", null ],
+    [ "GetAuraScript", "d2/d86/a24828.html#a9d54051ee57b1f62a0ededb6a4915052", null ]
 ];

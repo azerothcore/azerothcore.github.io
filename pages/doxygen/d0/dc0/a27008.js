@@ -1,7 +1,6 @@
 var a27008 =
 [
-    [ "FilterTargets", "d0/dc0/a27008.html#a9abf4baaba572636dba3980e5ae777c5", null ],
-    [ "Load", "d0/dc0/a27008.html#a812e4e461c0ebed6f7c4cc36e88a3367", null ],
-    [ "PrepareSpellScript", "d0/dc0/a27008.html#a4e98fbf669c030263ed2e5759a5bd6e8", null ],
-    [ "Register", "d0/dc0/a27008.html#a2d72f5771d6563260a6e81122e4a2be5", null ]
+    [ "CheckProc", "d0/dc0/a27008.html#ad1678a96784add01965d67c3d86bcd77", null ],
+    [ "PrepareAuraScript", "d0/dc0/a27008.html#a6e164a8e3482b566b776c5ffeeb1b6ac", null ],
+    [ "Register", "d0/dc0/a27008.html#a148f3fe7ee4bdc8e148fe71100779e56", null ]
 ];

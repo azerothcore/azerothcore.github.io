@@ -1,9 +1,7 @@
 var a28356 =
 [
-    [ "HandleAfterCast", "d0/df4/a28356.html#ac08e632064c407346649f525d030d335", null ],
-    [ "HandleDummy", "d0/df4/a28356.html#a9c1dadd5a3e2e039b50a414ac589ebf4", null ],
-    [ "Load", "d0/df4/a28356.html#a177525c755b036a79263c0fa6fa4082e", null ],
-    [ "PrepareSpellScript", "d0/df4/a28356.html#aed99b07a53068b19bddb4daff3449a52", null ],
-    [ "Register", "d0/df4/a28356.html#a946e56a325d83656d9b43af80d065e45", null ],
-    [ "_triggerSpellId", "d0/df4/a28356.html#a6697a22b684784853cb1999d41fcaaa7", null ]
+    [ "HandleDummy", "d0/df4/a28356.html#aa9b579a8a7a23b94d9a2c8c7f932ff78", null ],
+    [ "PrepareSpellScript", "d0/df4/a28356.html#ae1dfa086c89a4180d42d231064d88602", null ],
+    [ "Register", "d0/df4/a28356.html#a256c152beadbfce6bf245779295b8758", null ],
+    [ "Validate", "d0/df4/a28356.html#acb4144be3326bcaae9c559d8e7b9d7ec", null ]
 ];

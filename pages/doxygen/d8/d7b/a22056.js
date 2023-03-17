@@ -1,6 +1,7 @@
 var a22056 =
 [
-    [ "spell_xt002_gravity_bomb_damage_SpellScript", "dc/d59/a22060.html", "dc/d59/a22060" ],
-    [ "spell_xt002_gravity_bomb_damage", "d8/d7b/a22056.html#a4a3a78db361da8c61a05697342e43f97", null ],
-    [ "GetSpellScript", "d8/d7b/a22056.html#a8c138ef13a8ded72be02284c9a3a5cd0", null ]
+    [ "npc_xt002_life_sparkAI", "d8/d7b/a22056.html#a763ec1834d3b71c88bfa80bc0e34966a", null ],
+    [ "Reset", "d8/d7b/a22056.html#a596e2ed45b9221915781b03bf2d18e5b", null ],
+    [ "UpdateAI", "d8/d7b/a22056.html#af0a1e717b08b2fa35dd4ff83778a87c1", null ],
+    [ "_attackTimer", "d8/d7b/a22056.html#a79bf005de95aa1fee60dfc73b8920dad", null ]
 ];

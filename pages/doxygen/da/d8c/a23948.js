@@ -1,6 +1,6 @@
 var a23948 =
 [
-    [ "CheckCast", "da/d8c/a23948.html#a0556cb5e70ee9c9cc85bc16f68a45aa1", null ],
-    [ "PrepareSpellScript", "da/d8c/a23948.html#abcb6d94c5b6ff2790eb90e992d7b6d94", null ],
-    [ "Register", "da/d8c/a23948.html#a4be44c4f05683e3a56ff1f072f877bf0", null ]
+    [ "HandleSummon", "da/d8c/a23948.html#a3490f2145ba100aff85894a698476eaa", null ],
+    [ "PrepareSpellScript", "da/d8c/a23948.html#ac23c78653aa51ff66d374a876d77cd47", null ],
+    [ "Register", "da/d8c/a23948.html#ae2962ddcb25cc68ab6ec7966514743bf", null ]
 ];

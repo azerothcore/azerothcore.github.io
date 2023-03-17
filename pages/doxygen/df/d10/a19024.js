@@ -1,6 +1,7 @@
 var a19024 =
 [
-    [ "spell_the_lich_king_shadow_trap_periodic_SpellScript", "da/d13/a19028.html", "da/d13/a19028" ],
-    [ "spell_the_lich_king_shadow_trap_periodic", "df/d10/a19024.html#af2eef3be550078a0bdf85ad5e4569df4", null ],
-    [ "GetSpellScript", "df/d10/a19024.html#a6822c3dbc3b2dde65ab681bbec4fac2d", null ]
+    [ "OnRemove", "df/d10/a19024.html#ab92a69d50a2015ba13e9f973d6990853", null ],
+    [ "PrepareAuraScript", "df/d10/a19024.html#a8d57abd6f774c446f3f5c772befa81ce", null ],
+    [ "Register", "df/d10/a19024.html#ad5b891062288c5383496a162d66f50c6", null ],
+    [ "Validate", "df/d10/a19024.html#ac9c82d89858e95c4df98f6caf178d8dd", null ]
 ];

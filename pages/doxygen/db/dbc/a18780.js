@@ -1,6 +1,6 @@
 var a18780 =
 [
-    [ "FilterTargets", "db/dbc/a18780.html#ad044eb9e63eb147e5ea64408a611489e", null ],
-    [ "PrepareSpellScript", "db/dbc/a18780.html#addf06ce8b29374b925985e0656c8d73a", null ],
-    [ "Register", "db/dbc/a18780.html#ae8351cd6f679b9ca7ee763ceebef5f7e", null ]
+    [ "spell_sindragosa_icy_grip_jump_SpellScript", "d3/d16/a18784.html", "d3/d16/a18784" ],
+    [ "spell_sindragosa_icy_grip_jump", "db/dbc/a18780.html#a4bcdb417ebdb65fa0e7865acac881220", null ],
+    [ "GetSpellScript", "db/dbc/a18780.html#af78cf133504cae252225d7470d882a94", null ]
 ];

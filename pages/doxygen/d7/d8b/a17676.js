@@ -1,6 +1,10 @@
 var a17676 =
 [
-    [ "HandleDummyTick", "d7/d8b/a17676.html#a4a065b32bd82417cf60f0c1cbdebaeb0", null ],
-    [ "PrepareAuraScript", "d7/d8b/a17676.html#a7e5a00e842e88d176605a465617b834c", null ],
-    [ "Register", "d7/d8b/a17676.html#afb8c4f4b7cf46adfd637dd2c70cb249e", null ]
+    [ "npc_dark_nucleusAI", "d7/d8b/a17676.html#a9558da93ec684d5c4e79e686e6bfb142", null ],
+    [ "AttackStart", "d7/d8b/a17676.html#a3dec28dd13257b944df0c559d26a76e0", null ],
+    [ "DamageTaken", "d7/d8b/a17676.html#adfb2ad6f6b36fa122511a6ed10e22b99", null ],
+    [ "JustDied", "d7/d8b/a17676.html#a464d479ad80d55e54c7ea2c8b8c03a81", null ],
+    [ "Reset", "d7/d8b/a17676.html#ac84f79f84e721ab1306c8eed8658b143", null ],
+    [ "UpdateAI", "d7/d8b/a17676.html#a3a08457c34d4dd904a99a78875d6318c", null ],
+    [ "timer", "d7/d8b/a17676.html#ac5f9824276987b81aef5cfee05158049", null ]
 ];

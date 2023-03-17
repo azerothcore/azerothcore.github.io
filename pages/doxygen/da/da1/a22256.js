@@ -1,7 +1,8 @@
 var a22256 =
 [
-    [ "FilterTargets", "da/da1/a22256.html#a737521462d054d16bc04fb4c40b6c3da", null ],
-    [ "HandleDummyEffect", "da/da1/a22256.html#a6b6d3a49c85d525404e9316afa38f1bc", null ],
-    [ "PrepareSpellScript", "da/da1/a22256.html#a6257d7c9805f9eb71f9f4fb65e6ff882", null ],
-    [ "Register", "da/da1/a22256.html#a2154f032901f442cfc1b7e448083fdb7", null ]
+    [ "spell_yogg_saron_brain_link_AuraScript", "de/db3/a22260.html", "de/db3/a22260" ],
+    [ "spell_yogg_saron_brain_link_SpellScript", "d9/d11/a22264.html", "d9/d11/a22264" ],
+    [ "spell_yogg_saron_brain_link", "da/da1/a22256.html#ab5b4e0b9d3b3926a3d76e841e9d3317d", null ],
+    [ "GetAuraScript", "da/da1/a22256.html#a6b44989d11c3f85ce1a392e2e394e496", null ],
+    [ "GetSpellScript", "da/da1/a22256.html#a23d84d86239ae8b67b4a487c92701492", null ]
 ];

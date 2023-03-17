@@ -1,6 +1,6 @@
 var a18236 =
 [
-    [ "spell_igb_below_zero_SpellScript", "d8/de3/a18240.html", "d8/de3/a18240" ],
-    [ "spell_igb_below_zero", "d4/d20/a18236.html#a24c82d899c785ed3cf0ea99d54b07695", null ],
-    [ "GetSpellScript", "d4/d20/a18236.html#a199e409277534fb8d8facde6b83b8aa0", null ]
+    [ "HandleDummy", "d4/d20/a18236.html#a0cbade5e48c3805952e726c9d3d3b1e4", null ],
+    [ "PrepareSpellScript", "d4/d20/a18236.html#a211cd8e76872ee3c5599346c5d04dfc6", null ],
+    [ "Register", "d4/d20/a18236.html#af02bd276839f3588be337e1f6516de5f", null ]
 ];

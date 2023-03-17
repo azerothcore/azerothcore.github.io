@@ -1,14 +1,22 @@
 var a15960 =
 [
-    [ "boss_hadronoxAI", "db/d6b/a15960.html#a75430465e2329252581c2522ff14d82b", null ],
-    [ "AnyPlayerValid", "db/d6b/a15960.html#a5b4dc381ff6df8a4badc61196e2687bd", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "db/d6b/a15960.html#aa5c858b2702744f24ac1d22078df1d7b", null ],
-    [ "DoAction", "db/d6b/a15960.html#ab3bf3ca6a2adcf4c50a9bf1ddc8bac0e", null ],
-    [ "EnterCombat", "db/d6b/a15960.html#ab2a0b774c7a14472e6119a8985f6711e", null ],
-    [ "GetData", "db/d6b/a15960.html#a6fdb9b9650382600086f5646a627af52", null ],
-    [ "JustDied", "db/d6b/a15960.html#a42ffdf5a3d2ee43ddf0fc0d29f580491", null ],
-    [ "JustSummoned", "db/d6b/a15960.html#a65b93a213a69edf864ca123b6560b0a8", null ],
-    [ "KilledUnit", "db/d6b/a15960.html#ac4b6a589939bdc8a23f182ebf955e242", null ],
-    [ "Reset", "db/d6b/a15960.html#a1063db2596a0d57381011c2a6ceeb34e", null ],
-    [ "UpdateAI", "db/d6b/a15960.html#a10aa0f67aeb12d3d9a34f6213fe3d28f", null ]
+    [ "instance_ahnkahet_InstanceScript", "db/d6b/a15960.html#aa9a72f2f757d0b3065a6e4e25b14e86d", null ],
+    [ "GetData", "db/d6b/a15960.html#af790611cd1a1dbc1e814a5f16cdae6c2", null ],
+    [ "GetGuidData", "db/d6b/a15960.html#a63de300daa395740984c8e41415d0d14", null ],
+    [ "IsAllSpheresActivated", "db/d6b/a15960.html#a048a2b16ae9917c7edc9bf7023986ac3", null ],
+    [ "OnCreatureCreate", "db/d6b/a15960.html#a92db2b446b69ba652bf815d77788f99a", null ],
+    [ "OnGameObjectCreate", "db/d6b/a15960.html#a256238e2de5e276f32362ec4c269ed4a", null ],
+    [ "ReadSaveDataMore", "db/d6b/a15960.html#a7379fb7d5d9506798fe5b9b1a640a23e", null ],
+    [ "SetBossState", "db/d6b/a15960.html#a8545cae879a15315e3f57ae2a90a36d4", null ],
+    [ "SetData", "db/d6b/a15960.html#a2934fd5c38825794997409919ab4514d", null ],
+    [ "WriteSaveDataMore", "db/d6b/a15960.html#af4cad74bf5c41b883e82198f4bd2e810", null ],
+    [ "amanitar_GUID", "db/d6b/a15960.html#ad2e890e4c2be6442285212b925defae8", null ],
+    [ "canSaveBossStates", "db/d6b/a15960.html#a07d2926af72351842b30f2dfcadf2fa6", null ],
+    [ "elderNadox_GUID", "db/d6b/a15960.html#a272d5a28e4835f833585848bb18101b5", null ],
+    [ "heraldVolazj_GUID", "db/d6b/a15960.html#a9c4d8d4c27907dcd01c32ad83150b7fd", null ],
+    [ "jedogaShadowseeker_GUID", "db/d6b/a15960.html#ae6a72c3c7dc612ee999ebcb152b92a40", null ],
+    [ "princeTaldaram_GUID", "db/d6b/a15960.html#a7fba58619cab89de85f08b7ddb006be8", null ],
+    [ "taldaramGate_GUID", "db/d6b/a15960.html#adcbf8554eca91433bd9117bccec24d99", null ],
+    [ "taldaramPlatform_GUID", "db/d6b/a15960.html#a840ce69595c384be321c1167513d151e", null ],
+    [ "teldaramSpheres", "db/d6b/a15960.html#acf1d9e5f6fa4a78617c272cc6ea0c7a8", null ]
 ];

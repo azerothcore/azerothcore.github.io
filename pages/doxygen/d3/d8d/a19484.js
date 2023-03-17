@@ -1,7 +1,6 @@
 var a19484 =
 [
-    [ "npc_frost_freeze_trapAI", "d3/d8d/a19484.html#a95c64fbbc97f55e4d0cd0b239939fdc6", null ],
-    [ "DoAction", "d3/d8d/a19484.html#a8dbe0fc5c84f49363254562166c8c0a7", null ],
-    [ "UpdateAI", "d3/d8d/a19484.html#ae8efccb090f38968f3c0ca51f022013b", null ],
-    [ "_events", "d3/d8d/a19484.html#ae0abd3d7fcb51ac02f8d325efa93b2f2", null ]
+    [ "CaptainSurviveTalk", "d3/d8d/a19484.html#a43a1b1da17ed41ae765aabc47c858f80", null ],
+    [ "Execute", "d3/d8d/a19484.html#a871cf08e8c7fced2971cae8abbc20454", null ],
+    [ "_owner", "d3/d8d/a19484.html#ac8de506afb4688560ea637918d07b01e", null ]
 ];

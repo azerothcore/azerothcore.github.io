@@ -1,6 +1,6 @@
 var a19108 =
 [
-    [ "spell_the_lich_king_valkyr_target_search_SpellScript", "d6/d73/a19112.html", "d6/d73/a19112" ],
-    [ "spell_the_lich_king_valkyr_target_search", "d6/de1/a19108.html#a5b53ce85c187c974cf558a79ca3982d3", null ],
-    [ "GetSpellScript", "d6/de1/a19108.html#aae2aaab8b721f5c39a8851d23c800635", null ]
+    [ "npc_valkyr_shadowguardAI", "d6/d73/a19112.html", "d6/d73/a19112" ],
+    [ "npc_valkyr_shadowguard", "d6/de1/a19108.html#a8ee90e21499eebf240c57419454c3829", null ],
+    [ "GetAI", "d6/de1/a19108.html#ad84cb094a17e4fb88d3e883c98ce7f5a", null ]
 ];

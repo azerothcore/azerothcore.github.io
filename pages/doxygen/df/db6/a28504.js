@@ -1,9 +1,6 @@
 var a28504 =
 [
-    [ "CheckCast", "df/db6/a28504.html#ae99a2b4b582c8a2c8921b8921400ffbe", null ],
-    [ "HandleActiveObject", "df/db6/a28504.html#a79a51387f0a515ed07fcc1ac9e428290", null ],
-    [ "HandleDummy", "df/db6/a28504.html#a39dd06ae92d04060ee41897318a701fd", null ],
-    [ "Load", "df/db6/a28504.html#a76fff3a9d20f48e4814ee0f258be07b8", null ],
-    [ "PrepareSpellScript", "df/db6/a28504.html#a016e480d7b2267c9bf824c9cb029f134", null ],
-    [ "Register", "df/db6/a28504.html#aa05d48c35f748d93f5d8ff1defe2d3c9", null ]
+    [ "PrepareAuraScript", "df/db6/a28504.html#a059fe9aa1ea5ea4d0fa797e70a146fc5", null ],
+    [ "Register", "df/db6/a28504.html#a91f4b2b8796c7efab2f622893a393619", null ],
+    [ "AuraEffectHandleModes", "df/db6/a28504.html#ab93d08a85de86b0efdec59006ebbdf97", null ]
 ];

@@ -1,13 +1,13 @@
 var a10940 =
 [
-    [ "cast_commandscript", "d5/d78/a10940.html#a9c657d2c5404149a45a2db748d23fc2f", null ],
-    [ "CheckSpellExistsAndIsValid", "d5/d78/a10940.html#a14da4e4674b065c8e8f3d1946a037bda", null ],
-    [ "GetCommands", "d5/d78/a10940.html#ab0890c036a8d301b382fdd1b6371f671", null ],
-    [ "GetTriggerFlags", "d5/d78/a10940.html#a26e6986c45a99e6a94d7ba2d9a810aa3", null ],
-    [ "HandleCastBackCommand", "d5/d78/a10940.html#a964a40278f609a5c5a0bae651484c726", null ],
-    [ "HandleCastCommand", "d5/d78/a10940.html#ac28430cc0623209b891bacbb4845509b", null ],
-    [ "HandleCastDestCommand", "d5/d78/a10940.html#a156ca81fba7155205dae106aa4c221d6", null ],
-    [ "HandleCastDistCommand", "d5/d78/a10940.html#aabbcac8e85c6a64a647d71bb22bebede", null ],
-    [ "HandleCastSelfCommand", "d5/d78/a10940.html#a69e88bb174c2518584a9ae622e2850bf", null ],
-    [ "HandleCastTargetCommad", "d5/d78/a10940.html#aa72bd317a3498ef07007c1a9e81e2796", null ]
+    [ "CommandFinished", "d5/d78/a10940.html#af7ce6ffac9fa11ce0db6fd10919c4e4a", null ],
+    [ "Print", "d5/d78/a10940.html#ab10379cf266b38f4d81e2477b727471e", null ],
+    [ "CliCommandHolder", "d5/d78/a10940.html#a5a45e891607114cd070721fd51926cd5", null ],
+    [ "~CliCommandHolder", "d5/d78/a10940.html#a44ca7e8af5c717b1cff7b143afc077ee", null ],
+    [ "CliCommandHolder", "d5/d78/a10940.html#ad9c7b2da92d97c464fb14ad1e0b9a4a9", null ],
+    [ "operator=", "d5/d78/a10940.html#aaca241ecd81dc25788eaccbdc4aa5f60", null ],
+    [ "m_callbackArg", "d5/d78/a10940.html#a4579ce86ff43da89524b62eefe308a59", null ],
+    [ "m_command", "d5/d78/a10940.html#ae333918e09a9de4c9e402c334e076674", null ],
+    [ "m_commandFinished", "d5/d78/a10940.html#a416a66ac78f1d2cb1ee2d0d93f276f43", null ],
+    [ "m_print", "d5/d78/a10940.html#aa49897105905b9812fcf962326486d5d", null ]
 ];

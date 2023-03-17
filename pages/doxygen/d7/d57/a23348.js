@@ -1,6 +1,6 @@
 var a23348 =
 [
-    [ "spell_q12096_q12092_bark_SpellScript", "d7/d93/a23352.html", "d7/d93/a23352" ],
-    [ "spell_q12096_q12092_bark", "d7/d57/a23348.html#a85691ffb63bbe1022a2d35031c3e1d3c", null ],
-    [ "GetSpellScript", "d7/d57/a23348.html#a91517623f2883b5e9e32045b4890436b", null ]
+    [ "npc_spiritual_insightAI", "d7/d57/a23348.html#ab173cd8b623fcf8c36406155c91bc4db", null ],
+    [ "GetSpeachId", "d7/d57/a23348.html#ad2dd22651470f47e7a7ba6f687ba54e9", null ],
+    [ "IsSummonedBy", "d7/d57/a23348.html#ab6b39190d1195915ea0b4b191d864da6", null ]
 ];

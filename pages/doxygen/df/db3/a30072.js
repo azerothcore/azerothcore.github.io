@@ -1,13 +1,6 @@
 var a30072 =
 [
-    [ "HasFlag", "df/db3/a30072.html#a5d13e1af17cddf3acdbfc5387869e43f", null ],
-    [ "CinematicSequence", "df/db3/a30072.html#a33a01b1c26b21706d9898af246f2a0df", null ],
-    [ "expansion", "df/db3/a30072.html#ab6547f8b08d4d1bf57a37f9574b71e43", null ],
-    [ "FactionID", "df/db3/a30072.html#a5c66801f2f89aeb847699a2dd87486c7", null ],
-    [ "Flags", "df/db3/a30072.html#a8c2d30fb87284806a93d4c1da4a6edb0", null ],
-    [ "model_f", "df/db3/a30072.html#a4807227fd863e247b18d29db0ea8236a", null ],
-    [ "model_m", "df/db3/a30072.html#a50b5409352d7fe3e6f5919d83c9a0eae", null ],
-    [ "name", "df/db3/a30072.html#a4970323e45feb3f74b47420648371ab6", null ],
-    [ "RaceID", "df/db3/a30072.html#a853f3262af3408cf2791e7cd08ec8d32", null ],
-    [ "TeamID", "df/db3/a30072.html#addd21f5fbf6868e7cf2cd3c54c7172a1", null ]
+    [ "Id", "df/db3/a30072.html#a5d7f2d5a2890593554ea841deb38abb2", null ],
+    [ "Order", "df/db3/a30072.html#a16fca42d9a0a98e034a93984c4362b53", null ],
+    [ "TypeFlags", "df/db3/a30072.html#ac7246adc7c6c3217de8ac093983b7553", null ]
 ];

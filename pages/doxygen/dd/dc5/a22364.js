@@ -1,6 +1,6 @@
 var a22364 =
 [
-    [ "achievement_yogg_saron_he_waits_dreaming", "dd/dc5/a22364.html#a25f4950d1ccffe77aa9cf5de7a14ea37", null ],
-    [ "OnCheck", "dd/dc5/a22364.html#a7ef7dfb0235fb2db5932e7415e3e6f61", null ],
-    [ "_requiredIllusion", "dd/dc5/a22364.html#aa3e107cb3be6fa02687709e07466a094", null ]
+    [ "spell_yogg_saron_target_selectors_SpellScript", "dd/da0/a22368.html", "dd/da0/a22368" ],
+    [ "spell_yogg_saron_target_selectors", "dd/dc5/a22364.html#a653a99a484dda50fb4921a2237ca857e", null ],
+    [ "GetSpellScript", "dd/dc5/a22364.html#a74c24640ff8b469b8db653c5ddab6237", null ]
 ];

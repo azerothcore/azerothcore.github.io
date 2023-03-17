@@ -1,11 +1,12 @@
 var a00785 =
 [
-    [ "SummonList", "d4/d27/a05855.html", "d4/d27/a05855" ],
-    [ "EntryCheckPredicate", "d7/d4b/a05859.html", "d7/d4b/a05859" ],
-    [ "PlayerOrPetCheck", "d2/dea/a05863.html", "d2/dea/a05863" ],
-    [ "ScriptedAI", "de/d29/a05867.html", "de/d29/a05867" ],
-    [ "BossAI", "d5/dfd/a05871.html", "d5/dfd/a05871" ],
-    [ "WorldBossAI", "dd/dc3/a05875.html", "dd/dc3/a05875" ],
+    [ "SummonList", "db/d0d/a05876.html", "db/d0d/a05876" ],
+    [ "EntryCheckPredicate", "d6/d45/a05880.html", "d6/d45/a05880" ],
+    [ "PlayerOrPetCheck", "d0/d83/a05884.html", "d0/d83/a05884" ],
+    [ "ScriptedAI", "d6/dd1/a05888.html", "d6/dd1/a05888" ],
+    [ "HealthCheckEventData", "d3/da5/a05892.html", "d3/da5/a05892" ],
+    [ "BossAI", "d5/dd4/a05896.html", "d5/dd4/a05896" ],
+    [ "WorldBossAI", "d3/d9b/a05900.html", "d3/d9b/a05900" ],
     [ "CAST_AI", "d3/d00/a00785.html#a0476b18cfebeb691aabb4344ec4f8af3", null ],
     [ "ObjectList", "d3/d00/a00785.html#acc68161fe019b33e9356ea1473fba71d", null ],
     [ "GetClosestCreatureWithEntry", "d3/d00/a00785.html#a9ffd6f6c01576a8d3369c3a4f6dbaa0b", null ],

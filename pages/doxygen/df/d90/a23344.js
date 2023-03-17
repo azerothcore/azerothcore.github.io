@@ -1,6 +1,6 @@
 var a23344 =
 [
-    [ "HandleDummy", "df/d90/a23344.html#ae6329c7206f634bcc840ce7b700c685e", null ],
-    [ "PrepareSpellScript", "df/d90/a23344.html#a2c8f2dcaac9edb45a4978ff4fb5879e5", null ],
-    [ "Register", "df/d90/a23344.html#ada27c04a6bec51182349980feef162b0", null ]
+    [ "npc_spiritual_insightAI", "d7/d57/a23348.html", "d7/d57/a23348" ],
+    [ "npc_spiritual_insight", "df/d90/a23344.html#afe7b9d5953462719407f03b33b8de564", null ],
+    [ "GetAI", "df/d90/a23344.html#ab2884e1160ccad9adb8e3ae69db55bc4", null ]
 ];

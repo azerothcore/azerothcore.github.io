@@ -1,7 +1,7 @@
 var a20096 =
 [
-    [ "boss_maexxna_webwrapAI", "d1/d75/a20096.html#a1423b619676f650f71c8e7215aa2a2b7", null ],
-    [ "JustDied", "d1/d75/a20096.html#a1ed18e791d2a5ae26cd1c2f3cdf37d82", null ],
-    [ "SetGUID", "d1/d75/a20096.html#a5edc17c4a5d1535be3d5449c2742dc73", null ],
-    [ "victimGUID", "d1/d75/a20096.html#a54081ebfc0df639b7e18b5f079802c92", null ]
+    [ "HandleScript", "d1/d75/a20096.html#af4879c25e56e0a39fef5cae2febc20b9", null ],
+    [ "PrepareAuraScript", "d1/d75/a20096.html#a772ffe39e00583b22f017e23c7eff0d2", null ],
+    [ "Register", "d1/d75/a20096.html#aae43bd503b72844100767d4dbb76e53d", null ],
+    [ "Validate", "d1/d75/a20096.html#a6f17e1d04769a79eeb8481a12b34a0b3", null ]
 ];

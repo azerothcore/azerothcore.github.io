@@ -1,6 +1,6 @@
 var a20956 =
 [
-    [ "npc_auriaya_sanctum_sentryAI", "dd/d0f/a20960.html", "dd/d0f/a20960" ],
-    [ "npc_auriaya_sanctum_sentry", "d0/d35/a20956.html#aa275374ba3a19a2e6a8768d4f01752b2", null ],
-    [ "GetAI", "d0/d35/a20956.html#a6a8843d3f24378a2fd334e773618ab72", null ]
+    [ "spell_assembly_rune_of_summoning_AuraScript", "dd/d0f/a20960.html", "dd/d0f/a20960" ],
+    [ "spell_assembly_rune_of_summoning", "d0/d35/a20956.html#a999f9c3e0734dadbf84f72ee61987a62", null ],
+    [ "GetAuraScript", "d0/d35/a20956.html#adcc77c086b10236732712548a3daaf22", null ]
 ];

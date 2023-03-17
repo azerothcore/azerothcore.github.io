@@ -1,6 +1,6 @@
 var a14448 =
 [
-    [ "npc_doomfireAI", "d5/d4b/a14452.html", "d5/d4b/a14452" ],
-    [ "npc_doomfire", "da/db9/a14448.html#aeaff559532ba92ec6e57248a8ff63925", null ],
-    [ "GetAI", "da/db9/a14448.html#a5ccd376fec53289e501e09742fb942c1", null ]
+    [ "instance_blackfathom_deeps_InstanceMapScript", "d5/d4b/a14452.html", "d5/d4b/a14452" ],
+    [ "instance_blackfathom_deeps", "da/db9/a14448.html#a4600a7e6191582c1bee684989a970e0f", null ],
+    [ "GetInstanceScript", "da/db9/a14448.html#a62cdab4f3118ab030b4ef55243690f73", null ]
 ];

@@ -1,14 +1,8 @@
 var a09148 =
 [
-    [ "areaMapOffset", "dd/da8/a09148.html#a70f82337112bb8cbff0b3344666885a1", null ],
-    [ "areaMapSize", "dd/da8/a09148.html#adfbbb622974b7942f47dd16d2300246f", null ],
-    [ "buildMagic", "dd/da8/a09148.html#a82d0f500f9e84cf6c8bf917a98f92115", null ],
-    [ "heightMapOffset", "dd/da8/a09148.html#a7623bee6b8cf7d6e39b8716aa72f8514", null ],
-    [ "heightMapSize", "dd/da8/a09148.html#a71c9cd42801697a927543e3acd4c3daf", null ],
-    [ "holesOffset", "dd/da8/a09148.html#a876d70dcd6ccec9ad09de77718c02150", null ],
-    [ "holesSize", "dd/da8/a09148.html#a3c3cc1895a47dc69265f4b58166c3f6b", null ],
-    [ "liquidMapOffset", "dd/da8/a09148.html#ac62deafcc7b435caf4a0f6aafd3d85be", null ],
-    [ "liquidMapSize", "dd/da8/a09148.html#a5aa18af3a8e029e8842ddf72fc5d5267", null ],
-    [ "mapMagic", "dd/da8/a09148.html#a2691fbc981b2ed5e1d748cd9c0859548", null ],
-    [ "versionMagic", "dd/da8/a09148.html#abe722f653ba057fbba84401acbaffbfa", null ]
+    [ "CircleBoundary", "dd/da8/a09148.html#a1f58f718ac4e4f6de029a0d46954012e", null ],
+    [ "CircleBoundary", "dd/da8/a09148.html#a10387b9a70013ecc15ae4f31dd1f21f3", null ],
+    [ "IsWithinBoundaryArea", "dd/da8/a09148.html#ad8eef3c2c98ee71a7d28d1e5d93ee508", null ],
+    [ "_center", "dd/da8/a09148.html#a65edd0aef7b73b176e5e311bb0d63738", null ],
+    [ "_radiusSq", "dd/da8/a09148.html#acbb3cc0c546f0e557a48a45425355950", null ]
 ];

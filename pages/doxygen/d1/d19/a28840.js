@@ -1,6 +1,7 @@
 var a28840 =
 [
-    [ "HandleDummy", "d1/d19/a28840.html#a2560417162a1c17cb067cdfeb2fc909d", null ],
-    [ "PrepareSpellScript", "d1/d19/a28840.html#a1f9aa7ffef96365ad7c0c4ccd4a2814c", null ],
-    [ "Register", "d1/d19/a28840.html#a27aece218c848064ae387491f9176099", null ]
+    [ "FilterTargets", "d1/d19/a28840.html#aeebe9395cefab1b87196a7ef466aa2c8", null ],
+    [ "PrepareSpellScript", "d1/d19/a28840.html#a954f00317eab544dd57e657368aab7fb", null ],
+    [ "Register", "d1/d19/a28840.html#a1804684c8685372faf2e88e56b48f5be", null ],
+    [ "Validate", "d1/d19/a28840.html#ab08386023ed3b3c8e51178da8973ef1a", null ]
 ];

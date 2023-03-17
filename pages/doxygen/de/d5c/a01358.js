@@ -1,5 +1,29 @@
 var a01358 =
 [
-    [ "CellArea", "d1/d05/a08479.html", "d1/d05/a08479" ],
-    [ "Cell", "d8/d0e/a08483.html", "d8/d0e/a08483" ]
+    [ "HashMapHolder< T >", "d7/d9a/a08300.html", "d7/d9a/a08300" ],
+    [ "AddObject", "de/d5c/a01358.html#a0726eba7e71a7c6d4f6f90b4dfb410f8", null ],
+    [ "AddObject", "de/d5c/a01358.html#a2f3be0f1bc71493623f991ad879c8be4", null ],
+    [ "FindConnectedPlayer", "de/d5c/a01358.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0", null ],
+    [ "FindPlayer", "de/d5c/a01358.html#a9ede56180a13f102ad195136eadb97ee", null ],
+    [ "FindPlayerByLowGUID", "de/d5c/a01358.html#a106c85352229fc2c097d9e021b4ce297", null ],
+    [ "FindPlayerByName", "de/d5c/a01358.html#af5cb6806842c9689cf1d5f43ffdc4b0a", null ],
+    [ "GetCorpse", "de/d5c/a01358.html#a9031db6958a68a6fda60e3c0f37d639f", null ],
+    [ "GetCreature", "de/d5c/a01358.html#ae42e503fe79bbeaea1aaa665418c43f8", null ],
+    [ "GetCreatureOrPetOrVehicle", "de/d5c/a01358.html#abe7c8995443541417f52b00973dbde6f", null ],
+    [ "GetDynamicObject", "de/d5c/a01358.html#a76097a1f20df3f0e83516b1175a17397", null ],
+    [ "GetGameObject", "de/d5c/a01358.html#a424a63829a446dac6f97a464cc64ed48", null ],
+    [ "GetObjectByTypeMask", "de/d5c/a01358.html#a0bfd3fb4a5f43a4159bbd0b176186e19", null ],
+    [ "GetPet", "de/d5c/a01358.html#a76e4ca902836751980d6157a3eed7967", null ],
+    [ "GetPlayer", "de/d5c/a01358.html#aeb3657e7ad09335b9a9ffa50473aa216", null ],
+    [ "GetPlayer", "de/d5c/a01358.html#a9179a3b50b384405892a8e8e538617b4", null ],
+    [ "GetPlayers", "de/d5c/a01358.html#a868ecab21b3e6e3ac68beed32f4ea793", null ],
+    [ "GetSpawnedCreatureByDBGUID", "de/d5c/a01358.html#a4cebdea9476a004a8a1bd57c40d1f3ae", null ],
+    [ "GetSpawnedGameObjectByDBGUID", "de/d5c/a01358.html#a6639665d2704cbd06727004567caac15", null ],
+    [ "GetTransport", "de/d5c/a01358.html#a2ddde0dc109d262af644c232a315afd7", null ],
+    [ "GetUnit", "de/d5c/a01358.html#a02c2dfb59db7d7e2501dcc9a4f9baf07", null ],
+    [ "GetWorldObject", "de/d5c/a01358.html#ade254f98439319c444ce701c75d4f93a", null ],
+    [ "RemoveObject", "de/d5c/a01358.html#a43f4538cfa587672688705f6f7a60edc", null ],
+    [ "RemoveObject", "de/d5c/a01358.html#ad72db398e2ff25a82a93e89fb67c56ff", null ],
+    [ "SaveAllPlayers", "de/d5c/a01358.html#a0fba0222d2e46026727c6e898a7f35bc", null ],
+    [ "UpdatePlayerNameMapReference", "de/d5c/a01358.html#a8a088e6967b9972662d788beffba14d4", null ]
 ];

@@ -1,6 +1,6 @@
 var a16876 =
 [
-    [ "boss_novosAI", "d6/d5c/a16880.html", "d6/d5c/a16880" ],
-    [ "boss_novos", "d5/d9b/a16876.html#a898a5ee1de69df17fde66c84dd065ac1", null ],
-    [ "GetAI", "d5/d9b/a16876.html#aaf28e2a23a8139197dccc92ae29a8be4", null ]
+    [ "npc_announcer_toc10", "d5/d9b/a16876.html#ae495b19328c6a743dfd8f1cbf37a0bd6", null ],
+    [ "OnGossipHello", "d5/d9b/a16876.html#afcc5262e7c49b7456af146de14805a06", null ],
+    [ "OnGossipSelect", "d5/d9b/a16876.html#a9a2bf1d3a215332744ca473041cc0520", null ]
 ];

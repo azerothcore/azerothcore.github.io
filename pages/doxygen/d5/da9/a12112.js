@@ -1,10 +1,11 @@
 var a12112 =
 [
-    [ "npc_demon_chainAI", "d5/da9/a12112.html#a9c2437dd24a4e8dbc312765dc46f8c43", null ],
-    [ "AttackStart", "d5/da9/a12112.html#a1b86fc337a33995a8941f20493c150fb", null ],
-    [ "EnterCombat", "d5/da9/a12112.html#a79501709796b975fb9883fd5c5916863", null ],
-    [ "JustDied", "d5/da9/a12112.html#a2fd2b54e7008036a7f105a18c5e35b47", null ],
-    [ "MoveInLineOfSight", "d5/da9/a12112.html#a553904a4ed2dcd181a26b2c6609752f7", null ],
-    [ "Reset", "d5/da9/a12112.html#a539df16e5596afda0e189734fa8f7557", null ],
-    [ "SacrificeGUID", "d5/da9/a12112.html#a3432d554ef434caff958183e39594100", null ]
+    [ "npc_netherspite_infernal", "d5/da9/a12112.html#af9837d7a671533523ce323c083c4e847", null ],
+    [ "DamageTaken", "d5/da9/a12112.html#aee9b38f3590e08b16de1789576986a09", null ],
+    [ "JustEngagedWith", "d5/da9/a12112.html#a76d8944ca2d9b2f1aa5b635ce94bacfb", null ],
+    [ "KilledUnit", "d5/da9/a12112.html#a49c37fbebed2951c493962c1a3bd0339", null ],
+    [ "MoveInLineOfSight", "d5/da9/a12112.html#a7ecce97cef0adda03910e87d9fd82f71", null ],
+    [ "SpellHit", "d5/da9/a12112.html#abb6c7d0b5e231e460b069198b16106b7", null ],
+    [ "UpdateAI", "d5/da9/a12112.html#a575040456c0eb4d343e7c0c5f75159b4", null ],
+    [ "_scheduler", "d5/da9/a12112.html#a3cc1b110cb3b67e8bd2f0f14ef0f6921", null ]
 ];

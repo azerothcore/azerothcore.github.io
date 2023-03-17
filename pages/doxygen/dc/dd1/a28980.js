@@ -1,6 +1,5 @@
 var a28980 =
 [
-    [ "CalculateAmount", "dc/dd1/a28980.html#a94b6fab25e8cb298650f2a1e2d0b4347", null ],
-    [ "PrepareAuraScript", "dc/dd1/a28980.html#a845476e27b3751fd5aab505d41d8696d", null ],
-    [ "Register", "dc/dd1/a28980.html#aa5141f11bcd97cc501297a5309df1079", null ]
+    [ "achievement_killed_exp_or_honor_target", "dc/dd1/a28980.html#aad432878c97af698dd1cc4019d716281", null ],
+    [ "OnCheck", "dc/dd1/a28980.html#ace8fc68ebb73e39626797be4caa45a3c", null ]
 ];

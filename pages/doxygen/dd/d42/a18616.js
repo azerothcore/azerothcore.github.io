@@ -1,6 +1,6 @@
 var a18616 =
 [
-    [ "ExtraRemoveEffect", "dd/d42/a18616.html#addfecd826c293cacad0e5881726dca2e", null ],
-    [ "PrepareAuraScript", "dd/d42/a18616.html#a53b7c14925d95c667bcef18a2e49b63d", null ],
-    [ "Register", "dd/d42/a18616.html#a8930ecab6f6a2c7b2fa3ebfad2839117", null ]
+    [ "npc_little_oozeAI", "df/dda/a18620.html", "df/dda/a18620" ],
+    [ "npc_little_ooze", "dd/d42/a18616.html#a9b0849057c1d3dd9f6507b9c80e67a66", null ],
+    [ "GetAI", "dd/d42/a18616.html#a3e56c6dbad6239485897655a4bfbbe07", null ]
 ];

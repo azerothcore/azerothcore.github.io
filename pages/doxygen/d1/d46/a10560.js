@@ -1,7 +1,7 @@
 var a10560 =
 [
-    [ "ap_bonus", "d1/d46/a10560.html#a98410b8bb89434cd7e1747462f8039dc", null ],
-    [ "ap_dot_bonus", "d1/d46/a10560.html#a09caeec47b138d9eff3539795416a09a", null ],
-    [ "direct_damage", "d1/d46/a10560.html#abab1af227a6c8e592b8a9bd15589535d", null ],
-    [ "dot_damage", "d1/d46/a10560.html#a92491d8d1e61612d88c7c830d7912be5", null ]
+    [ "SpellImmune", "d1/d46/a10560.html#a70ebcde656db6c4d7c21fb03af44978a", null ],
+    [ "blockType", "d1/d46/a10560.html#a13a353d02a7330820df170eb46e7a26d", null ],
+    [ "spellId", "d1/d46/a10560.html#a6aeb1bebf2f079424ebfa5192c568adc", null ],
+    [ "type", "d1/d46/a10560.html#ae1a414f35b2cce61cd4f5640c761f7ea", null ]
 ];

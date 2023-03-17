@@ -1,6 +1,6 @@
 var a16844 =
 [
-    [ "npc_announcer_toc10", "d5/d88/a16844.html#ae495b19328c6a743dfd8f1cbf37a0bd6", null ],
-    [ "OnGossipHello", "d5/d88/a16844.html#afcc5262e7c49b7456af146de14805a06", null ],
-    [ "OnGossipSelect", "d5/d88/a16844.html#a9a2bf1d3a215332744ca473041cc0520", null ]
+    [ "spell_valkyr_essence_auraAuraScript", "de/d38/a16848.html", "de/d38/a16848" ],
+    [ "spell_valkyr_essence", "d5/d88/a16844.html#ab867f769df26243ad4cdb3aea3abbed7", null ],
+    [ "GetAuraScript", "d5/d88/a16844.html#ace21eeaab7725a5e04b0a95dc61b1ea6", null ]
 ];

@@ -1,9 +1,12 @@
 var a09248 =
 [
-    [ "TransportAnimation", "d2/de1/a09248.html#a775b84b54deefd38af40222afd82d572", null ],
-    [ "GetAnimNode", "d2/de1/a09248.html#a73b56750c90afce38dbf57793bae16f3", null ],
-    [ "GetAnimRotation", "d2/de1/a09248.html#aa2c892f14712828acaa85fa6e6d919bb", null ],
-    [ "Path", "d2/de1/a09248.html#a7c45df781dda8058d281a2cf7e5fe5fb", null ],
-    [ "Rotations", "d2/de1/a09248.html#a5fa771fb487c437d7d6229eadf7d90c3", null ],
-    [ "TotalTime", "d2/de1/a09248.html#a59a31ffc2e642a3950b0509130a76ad4", null ]
+    [ "MapReference", "d2/de1/a09248.html#abfbeb2ab5831f1f2a52bcb506318d85e", null ],
+    [ "~MapReference", "d2/de1/a09248.html#a1e93b44871737991140718322fd1cd69", null ],
+    [ "next", "d2/de1/a09248.html#a352ef695a8968a17e921861b7d6242c1", null ],
+    [ "next", "d2/de1/a09248.html#ae0383c7748749a344bb2395fd6e8baa4", null ],
+    [ "nocheck_prev", "d2/de1/a09248.html#a6cfff18295cf049ff554b0f140680890", null ],
+    [ "nockeck_prev", "d2/de1/a09248.html#adcb903a8a67951fe3da8e99e270b5c91", null ],
+    [ "sourceObjectDestroyLink", "d2/de1/a09248.html#ade5aa7b9b67ab49e523e4885460c3917", null ],
+    [ "targetObjectBuildLink", "d2/de1/a09248.html#acc64fa182a97583a2d9b78d54ec07ca0", null ],
+    [ "targetObjectDestroyLink", "d2/de1/a09248.html#aaa51bc8d8b47e0bbe5cfa828e4ae6604", null ]
 ];

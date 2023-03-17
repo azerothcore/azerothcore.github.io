@@ -1,11 +1,13 @@
 var a26268 =
 [
-    [ "npc_invis_infernal_casterAI", "d9/dec/a26268.html#a1188ecc4752d5ab1c2f81602187282f2", null ],
-    [ "Reset", "d9/dec/a26268.html#a05a8d5fd4828d7b1edb3b29ff8a6e61c", null ],
-    [ "SetData", "d9/dec/a26268.html#aee88dc141757384f96da969fcdc20671", null ],
-    [ "SummonInfernal", "d9/dec/a26268.html#a78d53d09e5544b3fe8301da4415d297b", null ],
-    [ "UpdateAI", "d9/dec/a26268.html#a80be204b493768ceb5f5d99d1e81f1b1", null ],
-    [ "events", "d9/dec/a26268.html#aab7aca330ae36dd2de7761984dd2a0a3", null ],
-    [ "ground", "d9/dec/a26268.html#a4c943d67b25d7c9f4ac6f16d96bbbc4f", null ],
-    [ "infernalGUID", "d9/dec/a26268.html#a5619136f90c181ecf3e4389bc2fcdafc", null ]
+    [ "npc_illidari_spawnAI", "d9/dec/a26268.html#a704c1d3e07d028b04e2bddee37039941", null ],
+    [ "JustDied", "d9/dec/a26268.html#a27277d90d4a58a89386a39f4affbaee8", null ],
+    [ "JustEngagedWith", "d9/dec/a26268.html#add4ea6366614e9fb86e85613bfb910ba", null ],
+    [ "Reset", "d9/dec/a26268.html#a5347858d5da4f0718479b1d702125366", null ],
+    [ "UpdateAI", "d9/dec/a26268.html#af392a545b3dccb7a7c89780d2818a7a7", null ],
+    [ "LordIllidanGUID", "d9/dec/a26268.html#a11b411dd0b5a32a7bdd0c44242a42372", null ],
+    [ "SpellTimer1", "d9/dec/a26268.html#afbf1b352275c0fd16fdf252eac9e0c4a", null ],
+    [ "SpellTimer2", "d9/dec/a26268.html#a644616bab96e1bd9bbe2500bf1b14988", null ],
+    [ "SpellTimer3", "d9/dec/a26268.html#a9889f9673292613dc46387862f3e8849", null ],
+    [ "Timers", "d9/dec/a26268.html#a1e48e4dea7bc1ba0f3d6be2f03b6813e", null ]
 ];

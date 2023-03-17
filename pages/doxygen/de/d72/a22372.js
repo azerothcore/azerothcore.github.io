@@ -1,6 +1,6 @@
 var a22372 =
 [
-    [ "instance_ulduar_InstanceMapScript", "d8/dee/a22376.html", "d8/dee/a22376" ],
-    [ "instance_ulduar", "de/d72/a22372.html#a32c2a76d1cd20f2ad1ab441eafe1b682", null ],
-    [ "GetInstanceScript", "de/d72/a22372.html#ad15f003a90e656910fc32d661ca9baba", null ]
+    [ "spell_yogg_saron_grim_reprisal_AuraScript", "d8/dee/a22376.html", "d8/dee/a22376" ],
+    [ "spell_yogg_saron_grim_reprisal", "de/d72/a22372.html#a05984d6fab833dae40537e5acd8772da", null ],
+    [ "GetAuraScript", "de/d72/a22372.html#a4481bc9ec41278a6c2ff8f64688f138a", null ]
 ];

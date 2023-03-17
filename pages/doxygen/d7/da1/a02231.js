@@ -1,9 +1,9 @@
 var a02231 =
 [
-    [ "AddWeather", "d7/da1/a02231.html#ga1f76350b68494335d48ae206b87e190c", null ],
-    [ "FindWeather", "d7/da1/a02231.html#gadd11deec2098fed61adf7910b8f09cc6", null ],
-    [ "LoadWeatherData", "d7/da1/a02231.html#ga6c7d8a9fc5dfce0880220f4b5b8cd623", null ],
-    [ "RemoveWeather", "d7/da1/a02231.html#ga296a3324a3a38984149fae3e5d62435f", null ],
-    [ "SendFineWeatherUpdateToPlayer", "d7/da1/a02231.html#gac86b4e254146468a7412d8fc7b0c27f2", null ],
-    [ "Update", "d7/da1/a02231.html#ga45f0da6cf9e14a99380b4b9be2890801", null ]
+    [ "GetCheckPacketBaseSize", "d7/da1/a02231.html#aa48d9759919f0fb8415c0fd0731a23b1", null ],
+    [ "GetCheckPacketSize", "d7/da1/a02231.html#adfb39c1ce4f6159c2c70e3cdf26978c9", null ],
+    [ "GetMaxWardenChecksForType", "d7/da1/a02231.html#a1bcaaac66e1101e325fd62778b2f0c8d", null ],
+    [ "_luaEvalMidfix", "d7/da1/a02231.html#a5506a4e4233b2c380f79ad1225c4dc93", null ],
+    [ "_luaEvalPostfix", "d7/da1/a02231.html#ad14853510c2482e64bd81633e5074206", null ],
+    [ "_luaEvalPrefix", "d7/da1/a02231.html#a259abc7d98e16cefc14404b5886cbc09", null ]
 ];

@@ -1,7 +1,7 @@
 var a17960 =
 [
-    [ "ExtraEffect", "dd/d12/a17960.html#adb606ecee4525d6a62320d146e81775d", null ],
-    [ "PrepareAuraScript", "dd/d12/a17960.html#a25f1ff417139c8b24d7038a581c84918", null ],
-    [ "Register", "dd/d12/a17960.html#ac4f64b1a08bbd7f063383e05857e6f1b", null ],
-    [ "Validate", "dd/d12/a17960.html#a9c1e86fa8321e6d626a4ef5be2be6cb7", null ]
+    [ "npc_icc_blood_beastAI", "dd/d12/a17960.html#af52eff9f66451444c5acba6930c1bff6", null ],
+    [ "DoAction", "dd/d12/a17960.html#a5de6e46fd21fd073fde2f0aaa5dc947a", null ],
+    [ "UpdateAI", "dd/d12/a17960.html#ac9da073c33dd33097f03ca35d36ea15e", null ],
+    [ "timer1", "dd/d12/a17960.html#a1074059162f818088808795119f081be", null ]
 ];

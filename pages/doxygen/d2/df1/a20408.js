@@ -1,13 +1,10 @@
 var a20408 =
 [
-    [ "npc_oculus_unstable_sphereAI", "d2/df1/a20408.html#a800ccd2508f8ec0e53bd185b8944acb0", null ],
-    [ "AttackStart", "d2/df1/a20408.html#a1dac85f0dae65d12740b54fe5d140a25", null ],
-    [ "MoveInLineOfSight", "d2/df1/a20408.html#a248dad12dc76b4efa2a64c02d4af4b3c", null ],
-    [ "MovementInform", "d2/df1/a20408.html#a1d6a80a4f7e9239a781bebaedfd389d7", null ],
-    [ "PickNewLocation", "d2/df1/a20408.html#a5afcf52182ed8d90aae71d46a9d33a92", null ],
-    [ "Reset", "d2/df1/a20408.html#ac2e391d0149b62823ac9074d45c694cf", null ],
-    [ "UpdateAI", "d2/df1/a20408.html#acd8fd7a6353642c8e4a61eae0150c07f", null ],
-    [ "gonext", "d2/df1/a20408.html#a6b1d2ce8ec85e5a063c215c0adef9e0e", null ],
-    [ "located", "d2/df1/a20408.html#ab8a13498d8c9926c3d6496a0d4707557", null ],
-    [ "timer", "d2/df1/a20408.html#a8e62f1613ccaba5d93758d6573f4dd6c", null ]
+    [ "instance_nexus_InstanceMapScript", "d2/df1/a20408.html#a6803f233d730f33e5af7dc9d8ecd9775", null ],
+    [ "Initialize", "d2/df1/a20408.html#a2c6c42e73de2a155c04f80e37aa5d442", null ],
+    [ "OnCreatureCreate", "d2/df1/a20408.html#a04806dc42aa0b171fa99eb1d8492ff61", null ],
+    [ "OnGameObjectCreate", "d2/df1/a20408.html#a85c3ac915970d68a192414ca4ff8ad1f", null ],
+    [ "OnGameObjectRemove", "d2/df1/a20408.html#ac148c67823484eee38ab6646dfb68530", null ],
+    [ "SetBossState", "d2/df1/a20408.html#a11ac1fbc7c699084e7da5e4bf0595651", null ],
+    [ "SetData", "d2/df1/a20408.html#a351052b1d3ea4ddb5d36ce69818c7e67", null ]
 ];

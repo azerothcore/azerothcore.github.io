@@ -1,18 +1,11 @@
 var a07992 =
 [
-    [ "PlayerInfo", "d8/d44/a07992.html#a8a26bdeb267824135b3f84baa2585baa", null ],
-    [ "action", "d8/d44/a07992.html#a0f68412598a9741e9b5ce7a42c82d129", null ],
-    [ "areaId", "d8/d44/a07992.html#a60d086c6e6879e6c5d8b5a24c0ae7bf8", null ],
-    [ "castSpells", "d8/d44/a07992.html#a35ab273058db0828c91f01d823467e02", null ],
-    [ "customSpells", "d8/d44/a07992.html#ab40e5fd724fab03afbbd38713e1dd4bf", null ],
-    [ "displayId_f", "d8/d44/a07992.html#adf14854368c9351fe2fba3215194f2f9", null ],
-    [ "displayId_m", "d8/d44/a07992.html#a2ce7d9aa7fc52bd9768c75b88f88b256", null ],
-    [ "item", "d8/d44/a07992.html#ad76819034c64c0c691561eff683b7e57", null ],
-    [ "levelInfo", "d8/d44/a07992.html#abbff546bbe2cc0ea643c41456c1f0d9f", null ],
-    [ "mapId", "d8/d44/a07992.html#ad8d359374f74de40c1c591bb61976405", null ],
-    [ "orientation", "d8/d44/a07992.html#a041a37c356d50860cab9f1ced33a28d0", null ],
-    [ "positionX", "d8/d44/a07992.html#a55a076dc53e8c2d0b2ab11b1087ebccd", null ],
-    [ "positionY", "d8/d44/a07992.html#a7314ecd469357e2eb46ed3d133a5a7a0", null ],
-    [ "positionZ", "d8/d44/a07992.html#ad21a8dd3353d3f141bcc9af65e607aee", null ],
-    [ "skills", "d8/d44/a07992.html#a3bec7891e115ab3cff40c3d95174981c", null ]
+    [ "SpellModifier", "d8/d44/a07992.html#adba5fad6b904d09a43be7302e7eb62bd", null ],
+    [ "charges", "d8/d44/a07992.html#a1aaf71299c2dd27b58a049d252efdee8", null ],
+    [ "mask", "d8/d44/a07992.html#aba1b01bf3486d61cc1876b03078a35ee", null ],
+    [ "op", "d8/d44/a07992.html#a21d017f0c8d3108a0eb5f48798103356", null ],
+    [ "ownerAura", "d8/d44/a07992.html#a5e180553fb4739eb7f947da70fbe7ef8", null ],
+    [ "spellId", "d8/d44/a07992.html#a465803efab27b2ba0a49c6571b65b908", null ],
+    [ "type", "d8/d44/a07992.html#a22f64b9c021f5a87f30f01ef117ebb0b", null ],
+    [ "value", "d8/d44/a07992.html#a31742662ba8112c9e9b972897a928e57", null ]
 ];

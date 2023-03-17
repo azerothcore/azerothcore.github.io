@@ -1,6 +1,7 @@
 var a25340 =
 [
-    [ "boss_olm_the_summonerAI", "d8/d6f/a25344.html", "d8/d6f/a25344" ],
-    [ "boss_olm_the_summoner", "d4/d04/a25340.html#a78b91f5e1d45bb8ac9fa0788dbb9d950", null ],
-    [ "GetAI", "d4/d04/a25340.html#aa8af0d5a39a690a6204b4de259f8f5d4", null ]
+    [ "HandleScriptEffect", "d4/d04/a25340.html#a534bf39998813f06c48bc920e4666692", null ],
+    [ "PrepareSpellScript", "d4/d04/a25340.html#a5892f20a0704596cb70a995a73846368", null ],
+    [ "Register", "d4/d04/a25340.html#a1176b4e4ad488a3b6b38ff4b8c955d64", null ],
+    [ "Validate", "d4/d04/a25340.html#af618314a13013eaf9f36b30047de0878", null ]
 ];

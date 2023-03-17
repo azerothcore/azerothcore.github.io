@@ -1,7 +1,7 @@
 var a28340 =
 [
-    [ "HandleEffectRemove", "d1/d2a/a28340.html#a814687d3938e966f8721438e1a722f77", null ],
-    [ "PrepareAuraScript", "d1/d2a/a28340.html#a2144b0602501471a4001883ce9de6db3", null ],
-    [ "Register", "d1/d2a/a28340.html#a9d696dc7e58692216fa1cf6cc7c011a9", null ],
-    [ "AuraEffectHandleModes", "d1/d2a/a28340.html#ab291f6c6f269ec7004df39a043f49efd", null ]
+    [ "HandleEffectApply", "d1/d2a/a28340.html#a475d0bab96e226853368be3b68c5a2d3", null ],
+    [ "HandleEffectRemove", "d1/d2a/a28340.html#aa22a095e40789ac562a64c20d7eadb28", null ],
+    [ "PrepareAuraScript", "d1/d2a/a28340.html#a2b06b0dc1a4c2f5b5e4657e11a097660", null ],
+    [ "Register", "d1/d2a/a28340.html#a91e75a059828a30d509fd22be19048f8", null ]
 ];

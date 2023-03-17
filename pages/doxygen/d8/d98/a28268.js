@@ -1,6 +1,7 @@
 var a28268 =
 [
-    [ "HandleAfterHit", "d8/d98/a28268.html#a6f0ec02c8b1429a6be76465dd9badd1c", null ],
-    [ "PrepareSpellScript", "d8/d98/a28268.html#af2e6c3bfc233ee86fa2c9186cdd6b5a4", null ],
-    [ "Register", "d8/d98/a28268.html#a2a780069022e62b14992a7b69626ac3d", null ]
+    [ "CheckRequirement", "d8/d98/a28268.html#afc9206b1d92834943c9825dfd97439c9", null ],
+    [ "HandleScriptEffect", "d8/d98/a28268.html#acef8bf4c93226e1b4c95f8b8cdd80f40", null ],
+    [ "PrepareSpellScript", "d8/d98/a28268.html#a0223c05b5832c64b248e82eba770f7fa", null ],
+    [ "Register", "d8/d98/a28268.html#aef93e3c5a60633f69871bbd49d40caf5", null ]
 ];

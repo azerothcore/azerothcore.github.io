@@ -1,8 +1,8 @@
 var a28144 =
 [
-    [ "CalculateAmount", "de/df0/a28144.html#a8751483423726ffa8a33c70b7e55db23", null ],
-    [ "CheckProc", "de/df0/a28144.html#a046cd1087342cdcbd2e6b0f8ded7c03a", null ],
-    [ "HandleProc", "de/df0/a28144.html#abda070e7dfbb4ddc8d18cb3d180edc2e", null ],
-    [ "PrepareAuraScript", "de/df0/a28144.html#a6bb54cea419145875c4086a69e1e55e8", null ],
-    [ "Register", "de/df0/a28144.html#a8e92638bbdd786ef77b17f00dcf0f643", null ]
+    [ "CheckProc", "de/df0/a28144.html#a9e7b83ffd7e8d5ff4cf3b59cfbc40b0e", null ],
+    [ "HandleProc", "de/df0/a28144.html#a772385aab5f9917d0d3fb456e0ed55e1", null ],
+    [ "PrepareAuraScript", "de/df0/a28144.html#a876c1bda52c99c52249444414196b1d4", null ],
+    [ "Register", "de/df0/a28144.html#a1409e9c24827ee51a83d732bb99dd27b", null ],
+    [ "Validate", "de/df0/a28144.html#a8e36353d5296c609cbe0ce63db4e7dcb", null ]
 ];

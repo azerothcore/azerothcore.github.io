@@ -1,6 +1,6 @@
 var a12328 =
 [
-    [ "boss_yazzaiAI", "d1/d40/a12332.html", "d1/d40/a12332" ],
-    [ "boss_yazzai", "dc/d86/a12328.html#a6e7eb08ffd3346d58767453549ae475c", null ],
-    [ "GetAI", "dc/d86/a12328.html#a96616358eadb590ab868d56f97b516b8", null ]
+    [ "HandleAfterCast", "dc/d86/a12328.html#aaf878b109e1d408d8dbda968aa7b4302", null ],
+    [ "PrepareSpellScript", "dc/d86/a12328.html#ae830f77e10235820fdb3bb8e4b0d8d02", null ],
+    [ "Register", "dc/d86/a12328.html#ada63b6f83436180d17046a71b268bcc6", null ]
 ];

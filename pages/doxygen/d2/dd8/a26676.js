@@ -1,6 +1,10 @@
 var a26676 =
 [
-    [ "npc_pet_pri_shadowfiend", "d2/dd8/a26676.html#ac35e3bcf59dc2d65a313e315516ea09b", null ],
-    [ "JustDied", "d2/dd8/a26676.html#a6d50edf62bf4547117f3f7b5b520f71b", null ],
-    [ "Reset", "d2/dd8/a26676.html#aeff1bada59ee80ae0166a82207729bad", null ]
+    [ "Absorb", "d2/dd8/a26676.html#a99db0d1254ddcfa9e7afb241e73b3235", null ],
+    [ "CalculateAmount", "d2/dd8/a26676.html#a279a025cac490ee3647f47584b59179f", null ],
+    [ "Load", "d2/dd8/a26676.html#a3fededdbfca9d12e6dbd097620e104be", null ],
+    [ "PrepareAuraScript", "d2/dd8/a26676.html#a818875a8073491eab2508182bd941e25", null ],
+    [ "Register", "d2/dd8/a26676.html#a2419bff95bad81a0f63c4988f14eb3f9", null ],
+    [ "Validate", "d2/dd8/a26676.html#a60eb14be1b3108b7b896a27eab35569b", null ],
+    [ "absorbPct", "d2/dd8/a26676.html#ac51bad58076a6dfa520fd3e9ea0c76b5", null ]
 ];

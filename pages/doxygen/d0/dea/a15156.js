@@ -1,6 +1,6 @@
 var a15156 =
 [
-    [ "FilterTargets", "d0/dea/a15156.html#a1ceb8f97a19b7c0434c430b388d0f76b", null ],
-    [ "PrepareSpellScript", "d0/dea/a15156.html#a4a376e2a30c79ee2819c695e72535c0a", null ],
-    [ "Register", "d0/dea/a15156.html#aaf7b4fba94d94331f6b35add2b836061", null ]
+    [ "OnRemove", "d0/dea/a15156.html#a85595fed0e9b6a2ced18aeb4acffcf81", null ],
+    [ "PrepareAuraScript", "d0/dea/a15156.html#a47849d8241ed17ad0fb541c1178b0760", null ],
+    [ "Register", "d0/dea/a15156.html#aa23231c5c324e73930fdf8d784b0edb4", null ]
 ];

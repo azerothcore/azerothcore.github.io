@@ -1,9 +1,7 @@
 var a21096 =
 [
-    [ "spell_load_into_catapult_AuraScript", "d6/d6d/a21100.html", "d6/d6d/a21100" ],
-    [ "Spells", "d1/db7/a21096.html#a602c75e48327bbff5129941ae923682c", [
-      [ "SPELL_PASSENGER_LOADED", "d1/db7/a21096.html#a602c75e48327bbff5129941ae923682caea02dc50f5c65888e98b0c8dd7930879", null ]
-    ] ],
-    [ "spell_load_into_catapult", "d1/db7/a21096.html#a6cc291a0898ebe55409c5c00b6edcb2e", null ],
-    [ "GetAuraScript", "d1/db7/a21096.html#a5b61d40525ca1130a95b67530269d2eb", null ]
+    [ "npc_storm_beacon_spawnAI", "d1/db7/a21096.html#a031c1941f177a18af58efcf4a1270654", null ],
+    [ "UpdateAI", "d1/db7/a21096.html#a249bf56b905ef0c8b34c737d95518c91", null ],
+    [ "_amount", "d1/db7/a21096.html#a3d2286247853cb04b9cc23cd8c0bfdd6", null ],
+    [ "_checkTimer", "d1/db7/a21096.html#a7fd6d449b6a20ba9463896244c513a67", null ]
 ];

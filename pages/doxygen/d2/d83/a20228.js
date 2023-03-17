@@ -1,6 +1,7 @@
 var a20228 =
 [
-    [ "npc_power_sparkAI", "df/d2a/a20232.html", "df/d2a/a20232" ],
-    [ "npc_power_spark", "d2/d83/a20228.html#a9efd2810feb5f90f9f12f51ec7282410", null ],
-    [ "GetAI", "d2/d83/a20228.html#a573198b86697d222c693581bf430453f", null ]
+    [ "boss_naxxramas_miscAI", "d2/d83/a20228.html#affd990236c101d91b31f60eea7135cdf", null ],
+    [ "JustDied", "d2/d83/a20228.html#aae92d4b538907ef829f5f534f16feef1", null ],
+    [ "UpdateAI", "d2/d83/a20228.html#a02fabc7b8669f3e9358a623b4cf0e84c", null ],
+    [ "timer", "d2/d83/a20228.html#a39af06c7bc635bf85eebf4ed40798006", null ]
 ];

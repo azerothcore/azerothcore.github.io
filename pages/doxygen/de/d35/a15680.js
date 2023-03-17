@@ -1,14 +1,9 @@
 var a15680 =
 [
-    [ "npc_taskmaster_fizzuleAI", "de/d35/a15680.html#ac792f91930c869ce919f8fd96b3fb076", null ],
-    [ "DoFriend", "de/d35/a15680.html#aacaeb3293bbb4b670cdc7031d22a50c2", null ],
-    [ "EnterCombat", "de/d35/a15680.html#a0a460c41d20513bf23035d909f158ff9", null ],
-    [ "ReceiveEmote", "de/d35/a15680.html#a21d0d70086f085b715a12d05fbe5d611", null ],
-    [ "Reset", "de/d35/a15680.html#ac45352b8b3d2301dbaecceaa69bdb1cf", null ],
-    [ "SpellHit", "de/d35/a15680.html#a4c35104935a3a6264c853a657dc42244", null ],
-    [ "UpdateAI", "de/d35/a15680.html#a95ccf9a84231d64c87b9d88d85b4ec2e", null ],
-    [ "factionNorm", "de/d35/a15680.html#ac0794d9b1c04ec4fe6f8afd1556f1fbc", null ],
-    [ "FlareCount", "de/d35/a15680.html#a3a1128b7caa6ef4ba3697e1400aaed04", null ],
-    [ "IsFriend", "de/d35/a15680.html#ab7e6bd2e023545c73fba758267551eee", null ],
-    [ "ResetTimer", "de/d35/a15680.html#a376b3c7fbc9a81e82ece6840e8e9e7fc", null ]
+    [ "npc_custodian_of_timeAI", "de/d35/a15680.html#a2434afcda3bc5681a124bdb1a2c8d56f", null ],
+    [ "JustEngagedWith", "de/d35/a15680.html#a3b12c06566b0c1d567b6edd8b57b8332", null ],
+    [ "MoveInLineOfSight", "de/d35/a15680.html#a97b21c4ecc89e4ddd5aef4dab30a7ecf", null ],
+    [ "Reset", "de/d35/a15680.html#a56bcc694ac286488ed4b3f2328c30573", null ],
+    [ "UpdateAI", "de/d35/a15680.html#a4b43c5f6eaf70fc93dcb18c183e456dc", null ],
+    [ "WaypointReached", "de/d35/a15680.html#a963736e62fbd0caea631ee3fb69fca46", null ]
 ];

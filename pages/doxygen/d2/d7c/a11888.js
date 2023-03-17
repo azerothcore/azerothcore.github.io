@@ -1,9 +1,6 @@
 var a11888 =
 [
-    [ "npc_flamewaker_priestAI", "d2/d7c/a11888.html#aa0508dda5bc365896128f088b6de30f4", null ],
-    [ "EnterCombat", "d2/d7c/a11888.html#abed2f17bf72d613a9108b97d3fd1cb73", null ],
-    [ "JustDied", "d2/d7c/a11888.html#ad1f51c4589abe6ef5bcf513d70e34a4c", null ],
-    [ "Reset", "d2/d7c/a11888.html#a3c3629a6c6987e861e40a893363d2508", null ],
-    [ "UpdateAI", "d2/d7c/a11888.html#a28c0ed65521f3d2150874ddc1b913933", null ],
-    [ "events", "d2/d7c/a11888.html#a7d769cc852a69fdf719cb7958c3d890c", null ]
+    [ "HandleHit", "d2/d7c/a11888.html#a99ea80788e2873dba87f6c6c72fa6f73", null ],
+    [ "PrepareSpellScript", "d2/d7c/a11888.html#adfaeb84d83a48250c636bc8ef98bcb8c", null ],
+    [ "Register", "d2/d7c/a11888.html#a2142c21b5f2abf968cc8eac953779f1d", null ]
 ];

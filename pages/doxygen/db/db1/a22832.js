@@ -1,6 +1,6 @@
 var a22832 =
 [
-    [ "instance_violet_hold_InstanceMapScript", "d5/d6a/a22836.html", "d5/d6a/a22836" ],
-    [ "instance_violet_hold", "db/db1/a22832.html#ae66f018196cd90683506c3cc3d8c5d7a", null ],
-    [ "GetInstanceScript", "db/db1/a22832.html#aeedcbb24b0709bd172ebbbc6d9851532", null ]
+    [ "boss_xevozzAI", "d5/d6a/a22836.html", "d5/d6a/a22836" ],
+    [ "boss_xevozz", "db/db1/a22832.html#a814ac939c4570d33450c4a6664833087", null ],
+    [ "GetAI", "db/db1/a22832.html#a712d8ed125d464da56b677914fbf8796", null ]
 ];

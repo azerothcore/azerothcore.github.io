@@ -1,6 +1,6 @@
 var a17136 =
 [
-    [ "npc_ghostly_priestAI", "d3/d45/a17140.html", "d3/d45/a17140" ],
-    [ "npc_ghostly_priest", "dc/dfe/a17136.html#a7c03bb327cfc65f4df515969da482ddb", null ],
-    [ "GetAI", "dc/dfe/a17136.html#a0fab76345c5459efcedff02123e4fc8d", null ]
+    [ "boss_falricAI", "d3/d45/a17140.html", "d3/d45/a17140" ],
+    [ "boss_falric", "dc/dfe/a17136.html#aa64253f502f79db5947c09788fb66deb", null ],
+    [ "GetAI", "dc/dfe/a17136.html#a95249877208d19bb54edd8de18616158", null ]
 ];

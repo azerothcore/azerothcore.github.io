@@ -1,6 +1,6 @@
 var a25192 =
 [
-    [ "npc_ahune_frozen_coreAI", "d1/dac/a25196.html", "d1/dac/a25196" ],
-    [ "npc_ahune_frozen_core", "d5/da6/a25192.html#ac998f61510639e204f23125d04b15483", null ],
-    [ "GetAI", "d5/da6/a25192.html#ab2713f1c5d4de8e0e224898dcde10214", null ]
+    [ "spell_serpentshrine_cavern_coilfang_water_AuraScript", "d1/dac/a25196.html", "d1/dac/a25196" ],
+    [ "spell_serpentshrine_cavern_coilfang_water", "d5/da6/a25192.html#aff1e520e8c7f3fc97c137c6feb0d83dc", null ],
+    [ "GetAuraScript", "d5/da6/a25192.html#ac6cb64edfad226f9ff7fe3ff4706ac8b", null ]
 ];

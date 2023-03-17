@@ -1,5 +1,6 @@
 var a12896 =
 [
-    [ "AreaTrigger_at_sunwell_eredar_twins", "d1/ddb/a12896.html#a6cfb22079d94f8e83c76514fa73368b0", null ],
-    [ "OnTrigger", "d1/ddb/a12896.html#af8e25da855daca5ac3114523e9af07fd", null ]
+    [ "boss_alythessAI", "d1/dac/a12900.html", "d1/dac/a12900" ],
+    [ "boss_alythess", "d1/ddb/a12896.html#aeca256e943f3f7f5437282cf9abd37be", null ],
+    [ "GetAI", "d1/ddb/a12896.html#ae0565de60de28bd91572bb3ec631eff3", null ]
 ];

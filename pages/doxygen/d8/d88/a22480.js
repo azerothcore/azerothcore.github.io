@@ -1,12 +1,12 @@
 var a22480 =
 [
-    [ "boss_skarvald_the_constructorAI", "d8/d88/a22480.html#a90b669521db89c8c71fe72d17b620694", null ],
-    [ "DoAction", "d8/d88/a22480.html#ac12c072b23e89e0282e45373e4c03cd9", null ],
-    [ "EnterCombat", "d8/d88/a22480.html#a40c44f76fc46de5f4b0b1f518b72a5bb", null ],
-    [ "JustDied", "d8/d88/a22480.html#aa10a8a1bd53804f2c0be6dd68b2b1f68", null ],
-    [ "KilledUnit", "d8/d88/a22480.html#a897415c1e9d4759d9c8b6d9346516f46", null ],
-    [ "Reset", "d8/d88/a22480.html#a55c1c9b1a3370741d97355569f11e9d4", null ],
-    [ "UpdateAI", "d8/d88/a22480.html#a5ee0df3039c5fc069c90ef06e6ae9604", null ],
-    [ "events", "d8/d88/a22480.html#aac3e019ac655ffcb0aea7f9ae9592795", null ],
-    [ "pInstance", "d8/d88/a22480.html#a7418a8541a8264a260495f8b19ef8699", null ]
+    [ "boss_kelesethAI", "d8/d88/a22480.html#a32c5c3745698cc8d546509c287bb75a8", null ],
+    [ "AttackStart", "d8/d88/a22480.html#adcdedacd8308af95c2cd83f06e7defb7", null ],
+    [ "JustDied", "d8/d88/a22480.html#ae9403839d9f7bcb3b746a96f923f5732", null ],
+    [ "JustEngagedWith", "d8/d88/a22480.html#a93577fe11bbf913bcd9e8fc1673d0892", null ],
+    [ "MoveInLineOfSight", "d8/d88/a22480.html#a523cd1ed44dca81a94eaa8955696d180", null ],
+    [ "Reset", "d8/d88/a22480.html#a5e15d439b3bb77228ab0126c0b74e956", null ],
+    [ "UpdateAI", "d8/d88/a22480.html#a6c514fc76f1137e429a1250cf40b0842", null ],
+    [ "events", "d8/d88/a22480.html#ac2791db07b1b6dc392ad76bea4e96e93", null ],
+    [ "pInstance", "d8/d88/a22480.html#aeb63f88d6a5dbaa131f7b1d54ed0ab08", null ]
 ];

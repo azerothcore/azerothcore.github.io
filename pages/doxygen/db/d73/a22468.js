@@ -1,6 +1,6 @@
 var a22468 =
 [
-    [ "spell_frost_tombAuraScript", "d4/d53/a22472.html", "d4/d53/a22472" ],
-    [ "spell_frost_tomb", "db/d73/a22468.html#a32d5aacd94d226df0a8462a8221ed426", null ],
-    [ "GetAuraScript", "db/d73/a22468.html#a408b6f7b23af5caa33000b16914faefc", null ]
+    [ "npc_frost_tombAI", "d4/d53/a22472.html", "d4/d53/a22472" ],
+    [ "npc_frost_tomb", "db/d73/a22468.html#aa3449f956a9399fc24a709c4c8485bd2", null ],
+    [ "GetAI", "db/d73/a22468.html#a6d913e6cf9138de60556ec381354e614", null ]
 ];

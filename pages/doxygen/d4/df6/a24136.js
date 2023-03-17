@@ -1,5 +1,5 @@
 var a24136 =
 [
-    [ "OutdoorPvP_zangarmarsh", "d4/df6/a24136.html#ae287d5df21bf75efab6c651f4f3d875e", null ],
-    [ "GetOutdoorPvP", "d4/df6/a24136.html#a145ddfe383663ed3fb46960e39691f8f", null ]
+    [ "OutdoorPvP_silithus", "d4/df6/a24136.html#a8b53dd86c265d277ad1cb49bd6a795bc", null ],
+    [ "GetOutdoorPvP", "d4/df6/a24136.html#a126d6acc77218addd10072199ccd2470", null ]
 ];

@@ -1,6 +1,8 @@
 var a15508 =
 [
-    [ "HandleDummy", "df/dcb/a15508.html#a8131f09a63ee74bb43f310f0894d13d2", null ],
-    [ "PrepareSpellScript", "df/dcb/a15508.html#a00a554334d64c44ba44925264fc72472", null ],
-    [ "Register", "df/dcb/a15508.html#ac9ceb949b061e261a2611ac2ea85f343", null ]
+    [ "CheckRequirement", "df/dcb/a15508.html#a189dfb2b4fed649421e291c3fe35d726", null ],
+    [ "HandleDummy", "df/dcb/a15508.html#afa3fb1cb0c2a4d59ef68b5bf991ac26b", null ],
+    [ "PrepareSpellScript", "df/dcb/a15508.html#a19326bdad6359203c98a36b4662b6ffb", null ],
+    [ "Register", "df/dcb/a15508.html#a9cc5859b635c1def6be7f8bcec19e56c", null ],
+    [ "Validate", "df/dcb/a15508.html#a7922f38c2c5e19c69982aea2fa136257", null ]
 ];

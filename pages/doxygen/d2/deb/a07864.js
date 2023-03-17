@@ -1,10 +1,7 @@
 var a07864 =
 [
-    [ "ObjectGuidGeneratorBase", "d2/deb/a07864.html#a8af6741cc884915ee86b489fc970fed1", null ],
-    [ "~ObjectGuidGeneratorBase", "d2/deb/a07864.html#aaa4430614e899fb1186f52875cf8d2ea", null ],
-    [ "Generate", "d2/deb/a07864.html#a7a6d9e5a78eef31007a46c10805c3fbe", null ],
-    [ "GetNextAfterMaxUsed", "d2/deb/a07864.html#abf1f20b97af8071459bd850e7106a442", null ],
-    [ "HandleCounterOverflow", "d2/deb/a07864.html#ada7a44ac47b112491c575c38465740fc", null ],
-    [ "Set", "d2/deb/a07864.html#a18b016edddec211c9cc4b0ff8682cb30", null ],
-    [ "_nextGuid", "d2/deb/a07864.html#a4a14102e019aa10f41b050054cacca22", null ]
+    [ "AddToGrid", "d2/deb/a07864.html#a178e3cc30d983d739e1f3f98d9eefbf0", null ],
+    [ "IsInGrid", "d2/deb/a07864.html#a996724d21d62e478f50031faa7637cd5", null ],
+    [ "RemoveFromGrid", "d2/deb/a07864.html#a29740a98fea7db66cdffd824940a2ec2", null ],
+    [ "_gridRef", "d2/deb/a07864.html#aa44ba47734267ac07b733f218623f3c5", null ]
 ];

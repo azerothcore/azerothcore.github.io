@@ -1,7 +1,6 @@
 var a28232 =
 [
-    [ "FilterTargets", "dc/d6e/a28232.html#ad679149423fda97ad5744318520022b1", null ],
-    [ "PrepareSpellScript", "dc/d6e/a28232.html#ac57c48690c5ad1b907f56287aee949a4", null ],
-    [ "Register", "dc/d6e/a28232.html#aea9b3a6cc4abae242bde76634bcbacd3", null ],
-    [ "Validate", "dc/d6e/a28232.html#a2c755f4ce5c3736dd0b0dd79341a4570", null ]
+    [ "HandleDummyEffect", "dc/d6e/a28232.html#ad5421ca3dd5bf802952f98e6d1170003", null ],
+    [ "PrepareSpellScript", "dc/d6e/a28232.html#a9489556e1e16cd2e0d5c43b38d7ea5ee", null ],
+    [ "Register", "dc/d6e/a28232.html#a2ad2c00807d07aeb55a8fd848a69f9d1", null ]
 ];

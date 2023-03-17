@@ -1,7 +1,10 @@
 var a12556 =
 [
-    [ "OnApply", "d1/d26/a12556.html#abc991d627be4235b8aa805aa89afb51a", null ],
-    [ "OnRemove", "d1/d26/a12556.html#a172599e75fc719d9d48784ffe6ca07b9", null ],
-    [ "PrepareAuraScript", "d1/d26/a12556.html#a7c89653c38a534ca5deb4d19c538b1f5", null ],
-    [ "Register", "d1/d26/a12556.html#a8bf20b9da91a6f339b857ecfcd98d772", null ]
+    [ "npc_scarlet_courierAI", "d1/d26/a12556.html#a83c5e32659d38a513790322e46dcc283", null ],
+    [ "JustEngagedWith", "d1/d26/a12556.html#aa470197f0949a413c421bda8c7c09279", null ],
+    [ "MovementInform", "d1/d26/a12556.html#add19812d92d62b602f96ffc5fb513d6c", null ],
+    [ "Reset", "d1/d26/a12556.html#ab642188631b67ae5ff5fd312eaf37ff0", null ],
+    [ "UpdateAI", "d1/d26/a12556.html#ac37287a77e37785b606c742ff8d6eeeb", null ],
+    [ "uiStage", "d1/d26/a12556.html#a2f920922f8c6f1a878d0e4978e081257", null ],
+    [ "uiStage_timer", "d1/d26/a12556.html#a8ee22a276535a3a9c2f12a62e984d55b", null ]
 ];

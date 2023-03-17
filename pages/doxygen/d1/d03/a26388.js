@@ -1,6 +1,6 @@
 var a26388 =
 [
-    [ "npc_shattrathflaskvendors", "d1/d03/a26388.html#ab74b234406c2022bf519242a7842458a", null ],
-    [ "OnGossipHello", "d1/d03/a26388.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
-    [ "OnGossipSelect", "d1/d03/a26388.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
+    [ "spell_q10898_skywing_SpellScript", "d9/d8b/a26392.html", "d9/d8b/a26392" ],
+    [ "spell_q10898_skywing", "d1/d03/a26388.html#a505d389341a427cb1a156f1e6a5bcdb8", null ],
+    [ "GetSpellScript", "d1/d03/a26388.html#a4312446c2eb18092f6b74d9c5ecfcd06", null ]
 ];

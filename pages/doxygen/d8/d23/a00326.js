@@ -1,4 +1,4 @@
 var a00326 =
 [
-    [ "Logger", "db/dc2/a05011.html", "db/dc2/a05011" ]
+    [ "Logger", "de/dff/a05032.html", "de/dff/a05032" ]
 ];

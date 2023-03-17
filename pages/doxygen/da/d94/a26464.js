@@ -1,6 +1,6 @@
 var a26464 =
 [
-    [ "HandlePeriodic", "da/d94/a26464.html#af201384f8853dae8f2afa61313f868f1", null ],
-    [ "PrepareAuraScript", "da/d94/a26464.html#affeb1d65ba46903a31ffdc4cdad2a9db", null ],
-    [ "Register", "da/d94/a26464.html#ac019473fbee7a7180b9e8484b3c4796c", null ]
+    [ "npc_timothy_daniels", "da/d94/a26464.html#ad9d62848105372a163e24faa3716118f", null ],
+    [ "OnGossipHello", "da/d94/a26464.html#a23e893f2604693a681190ed9425f965a", null ],
+    [ "OnGossipSelect", "da/d94/a26464.html#a4b7c1a007167cf2684a97b7ead74c519", null ]
 ];

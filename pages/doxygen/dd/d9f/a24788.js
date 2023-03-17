@@ -1,6 +1,6 @@
 var a24788 =
 [
-    [ "HandleScriptEffect", "dd/d9f/a24788.html#ac0d401f0930d936ef33c81591d833e2a", null ],
-    [ "PrepareSpellScript", "dd/d9f/a24788.html#a81563f381e6efcfdfdb963d96be17186", null ],
-    [ "Register", "dd/d9f/a24788.html#a137ca0652b8f00c75064d618cfc69ab4", null ]
+    [ "spell_illidari_council_empyreal_balance_SpellScript", "df/de2/a24792.html", "df/de2/a24792" ],
+    [ "spell_illidari_council_empyreal_balance", "dd/d9f/a24788.html#aac4c429dd2f58cc0e9340ba11a40e2b3", null ],
+    [ "GetSpellScript", "dd/d9f/a24788.html#aafb006b22ead0fd497a681c73e29187c", null ]
 ];

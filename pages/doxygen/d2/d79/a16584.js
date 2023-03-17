@@ -1,6 +1,6 @@
 var a16584 =
 [
-    [ "npc_toc_priestAI", "d3/d14/a16588.html", "d3/d14/a16588" ],
-    [ "npc_toc_priest", "d2/d79/a16584.html#a0e360a2cc053434d2f76826683da8eee", null ],
-    [ "GetAI", "d2/d79/a16584.html#a6056a81bef962a02537d525f07d1c302", null ]
+    [ "HandleAfterHit", "d2/d79/a16584.html#a72252694da7e453387e9d79d12e7e2a4", null ],
+    [ "PrepareSpellScript", "d2/d79/a16584.html#aff18e189296f7379a8fde5ad6eab8ada", null ],
+    [ "Register", "d2/d79/a16584.html#aa6c511fa8eb6d1123be1243bac7f0606", null ]
 ];

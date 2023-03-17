@@ -1,6 +1,7 @@
 var a23248 =
 [
-    [ "spell_q12478_frostmourne_cavern_SpellScript", "d3/d93/a23252.html", "d3/d93/a23252" ],
-    [ "spell_q12478_frostmourne_cavern", "d4/d2c/a23248.html#aba049da0ba27cf6ca216197d4ca19d32", null ],
-    [ "GetSpellScript", "d4/d2c/a23248.html#a606f946bc4a7dad3aa83f7f6997b17d7", null ]
+    [ "CheckCast", "d4/d2c/a23248.html#af0eb00a8dbff89d780beb07f3a714fff", null ],
+    [ "HandleScript", "d4/d2c/a23248.html#a8128bb2d7588409dae73bed78d5285a7", null ],
+    [ "PrepareSpellScript", "d4/d2c/a23248.html#aee17a8a21ec5df027082c6990189dccc", null ],
+    [ "Register", "d4/d2c/a23248.html#a2a97265e102e9ce31997d99275b42973", null ]
 ];

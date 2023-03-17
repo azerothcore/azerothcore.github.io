@@ -1,6 +1,5 @@
 var a25380 =
 [
-    [ "boss_broggokAI", "db/d04/a25384.html", "db/d04/a25384" ],
-    [ "boss_broggok", "d0/d0f/a25380.html#af5f0cf5e4e23695ba3fd68e91d35a857", null ],
-    [ "GetAI", "d0/d0f/a25380.html#ad536a4d7077ef74058c309b8ee2704e2", null ]
+    [ "go_broggok_lever", "d0/d0f/a25380.html#af91c2e283c357d2f38c9932dcfb5c375", null ],
+    [ "OnGossipHello", "d0/d0f/a25380.html#af00fe1da1cfa40dc3ece286cef45090c", null ]
 ];

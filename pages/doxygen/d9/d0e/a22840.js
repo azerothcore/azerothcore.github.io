@@ -1,5 +1,6 @@
 var a22840 =
 [
-    [ "go_vh_activation_crystal", "d9/d0e/a22840.html#a4af485ac7ab6144282f3204a6d045cea", null ],
-    [ "OnGossipHello", "d9/d0e/a22840.html#a47a61ba67086580135559332931e9c6e", null ]
+    [ "boss_zuramatAI", "d5/dc0/a22844.html", "d5/dc0/a22844" ],
+    [ "boss_zuramat", "d9/d0e/a22840.html#a1d169e786dcf846026b48d9be389f9ab", null ],
+    [ "GetAI", "d9/d0e/a22840.html#a1008c053a2c9ad14cf9ce994db931670", null ]
 ];

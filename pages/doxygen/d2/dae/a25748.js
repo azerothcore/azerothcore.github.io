@@ -1,6 +1,6 @@
 var a25748 =
 [
-    [ "spell_alar_flame_quills_AuraScript", "db/df8/a25752.html", "db/df8/a25752" ],
-    [ "spell_alar_flame_quills", "d2/dae/a25748.html#a8a654c26568c1df707c379e665612fe3", null ],
-    [ "GetAuraScript", "d2/dae/a25748.html#a2f9439c4327475fa0fb058f89f1ae466", null ]
+    [ "boss_high_astromancer_solarianAI", "db/df8/a25752.html", "db/df8/a25752" ],
+    [ "boss_high_astromancer_solarian", "d2/dae/a25748.html#a36282f8b5da61bc84cf2eff73745b1cb", null ],
+    [ "GetAI", "d2/dae/a25748.html#ab3f776fbf3a10d3e859a7e21659fd9bd", null ]
 ];

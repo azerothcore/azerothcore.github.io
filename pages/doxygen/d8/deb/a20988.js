@@ -1,6 +1,6 @@
 var a20988 =
 [
-    [ "boss_flame_leviathanAI", "d7/df9/a20992.html", "d7/df9/a20992" ],
-    [ "boss_flame_leviathan", "d8/deb/a20988.html#af4fcd38fc7095701c6c31674d849aef4", null ],
-    [ "GetAI", "d8/deb/a20988.html#a3a402b002472bfe4347b512f21654c50", null ]
+    [ "npc_auriaya_feral_defenderAI", "d7/df9/a20992.html", "d7/df9/a20992" ],
+    [ "npc_auriaya_feral_defender", "d8/deb/a20988.html#ae1afc396a1d9e6c9c2042ee0f58fb270", null ],
+    [ "GetAI", "d8/deb/a20988.html#abec35e280e42154af82f3e7e4fcec48d", null ]
 ];

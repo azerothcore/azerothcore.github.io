@@ -1,6 +1,7 @@
 var a28140 =
 [
-    [ "CheckProc", "d5/de6/a28140.html#a0f1461140b08deac3f044142067368e7", null ],
-    [ "PrepareAuraScript", "d5/de6/a28140.html#a04e0ebe416e94912d7f1ec529da7980d", null ],
-    [ "Register", "d5/de6/a28140.html#a05e31c2252c9054a18b4267be84895b9", null ]
+    [ "FilterTargets", "d5/de6/a28140.html#ad679149423fda97ad5744318520022b1", null ],
+    [ "PrepareSpellScript", "d5/de6/a28140.html#ac57c48690c5ad1b907f56287aee949a4", null ],
+    [ "Register", "d5/de6/a28140.html#aea9b3a6cc4abae242bde76634bcbacd3", null ],
+    [ "Validate", "d5/de6/a28140.html#a2c755f4ce5c3736dd0b0dd79341a4570", null ]
 ];

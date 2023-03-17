@@ -1,6 +1,6 @@
 var a22800 =
 [
-    [ "spell_optic_linkAuraScript", "dc/d34/a22804.html", "dc/d34/a22804" ],
-    [ "spell_optic_link", "d9/d45/a22800.html#a07840298df5282ca6dbef56a63edbfc7", null ],
-    [ "GetAuraScript", "d9/d45/a22800.html#a05dc6977f347b1aedb439cc2b6e7618b", null ]
+    [ "npc_ichor_globuleAI", "dc/d34/a22804.html", "dc/d34/a22804" ],
+    [ "npc_ichor_globule", "d9/d45/a22800.html#a4dbd3b057e319ba83e0e1c94b99cd2ab", null ],
+    [ "GetAI", "d9/d45/a22800.html#a4fed5ebd2e1b6ff6867a9488a6e1aef2", null ]
 ];

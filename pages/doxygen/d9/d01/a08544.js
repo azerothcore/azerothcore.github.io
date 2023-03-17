@@ -1,9 +1,9 @@
 var a08544 =
 [
-    [ "ObjectUpdater", "d9/d01/a08544.html#ad907a266bcf4c059a49195eae4758541", null ],
-    [ "Visit", "d9/d01/a08544.html#a7dc639f90a38e6156a436ef6ff1204ec", null ],
-    [ "Visit", "d9/d01/a08544.html#a2ca08c1a3f3f23111bffbd423ca47b1c", null ],
-    [ "Visit", "d9/d01/a08544.html#a283b656ac784e64b98929eca83326027", null ],
-    [ "i_largeOnly", "d9/d01/a08544.html#a8f3e4ed206f6793edf9bf358d1bdf2c2", null ],
-    [ "i_timeDiff", "d9/d01/a08544.html#a4f1acae57c44d33449a8f040b02fa5e4", null ]
+    [ "GridReference", "d9/d01/a08544.html#a9c27f99f74cd0cc99b39f9a6ec614e83", null ],
+    [ "~GridReference", "d9/d01/a08544.html#afd6a4f88eb066818afde1b752600bb12", null ],
+    [ "next", "d9/d01/a08544.html#a792323f4b0f66b58d1f9dd0f65f26f0c", null ],
+    [ "sourceObjectDestroyLink", "d9/d01/a08544.html#a96cb6e8287ceba4de31681bddb1e5838", null ],
+    [ "targetObjectBuildLink", "d9/d01/a08544.html#a16dc6dc9a5a7bfcd5de9691ad469f5f8", null ],
+    [ "targetObjectDestroyLink", "d9/d01/a08544.html#ac4c863d059b5c826e9597056dc7c887a", null ]
 ];

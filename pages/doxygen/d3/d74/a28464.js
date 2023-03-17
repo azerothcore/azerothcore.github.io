@@ -1,6 +1,6 @@
 var a28464 =
 [
-    [ "HandleDummy", "d3/d74/a28464.html#aee5967205738ebaef70e1105e8d91b2c", null ],
-    [ "PrepareSpellScript", "d3/d74/a28464.html#a1ef5914adfd2c951a68f50658852e095", null ],
-    [ "Register", "d3/d74/a28464.html#af42b6d5a5fbb5eb84773818594813afc", null ]
+    [ "PrepareSpellScript", "d3/d74/a28464.html#ac0322966abdb57fbe19c3e2117caa56b", null ],
+    [ "Register", "d3/d74/a28464.html#a7ddfa827654b6bb0a11aaddf41dc62f9", null ],
+    [ "SetDest", "d3/d74/a28464.html#ad1012e0f8ae1cf2ff18d886e10d6fca6", null ]
 ];

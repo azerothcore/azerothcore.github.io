@@ -1,9 +1,7 @@
 var a09108 =
 [
-    [ "RectangleBoundary", "d2/d53/a09108.html#af401f84700a15fa1d4fcf78358a74735", null ],
-    [ "IsWithinBoundaryArea", "d2/d53/a09108.html#a2d6c735d080382263a401d91da37b934", null ],
-    [ "_maxX", "d2/d53/a09108.html#a3eff421dfe942634814e7526334f1c07", null ],
-    [ "_maxY", "d2/d53/a09108.html#a9ec96dfb6b1ee804cceaae2f2dce6a22", null ],
-    [ "_minX", "d2/d53/a09108.html#a77db64ebe7e7f5e9621bbbd6e38837e1", null ],
-    [ "_minY", "d2/d53/a09108.html#af5a7e35d5d9ff23c722643141f01a916", null ]
+    [ "LootView", "d2/d53/a09108.html#a4cfc8ca1034e941a85d2955f38b2e894", null ],
+    [ "loot", "d2/d53/a09108.html#ac95fa4805c79923b292e8984b00de929", null ],
+    [ "permission", "d2/d53/a09108.html#a33d7eeebd6fbc854300275a4138d9030", null ],
+    [ "viewer", "d2/d53/a09108.html#af9a6926c6c871dee245f876038e49995", null ]
 ];

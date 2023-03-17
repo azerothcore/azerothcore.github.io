@@ -1,6 +1,6 @@
 var a21180 =
 [
-    [ "spell_transitus_shield_beam_AuraScript", "d8/d6d/a21184.html", "d8/d6d/a21184" ],
-    [ "spell_transitus_shield_beam", "d4/d69/a21180.html#a12f283a9cdb662a3970f46ccb4a8b8d0", null ],
-    [ "GetAuraScript", "d4/d69/a21180.html#aec1f376dea3834281a3a8ae0f8fdd318", null ]
+    [ "spell_vehicle_circuit_overload_AuraScript", "d8/d6d/a21184.html", "d8/d6d/a21184" ],
+    [ "spell_vehicle_circuit_overload", "d4/d69/a21180.html#aa20e37cd1a07d939bbf047aa24c815a4", null ],
+    [ "GetAuraScript", "d4/d69/a21180.html#a37ec02f72077f157b5bf467e42c3fcbb", null ]
 ];

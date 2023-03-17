@@ -1,6 +1,6 @@
 var a25616 =
 [
-    [ "spell_arcatraz_soul_steal_AuraScript", "db/d99/a25620.html", "db/d99/a25620" ],
-    [ "spell_arcatraz_soul_steal", "d4/dbd/a25616.html#ab4bcc29347c91c793d897500c0413241", null ],
-    [ "GetAuraScript", "d4/dbd/a25616.html#ad98c09fd98e4914b25934e74377be263", null ]
+    [ "boss_harbinger_skyrissAI", "db/d99/a25620.html", "db/d99/a25620" ],
+    [ "boss_harbinger_skyriss", "d4/dbd/a25616.html#a8843c3cd15cee06be6a3194b01f41b7a", null ],
+    [ "GetAI", "d4/dbd/a25616.html#a4951dcd0d387f6dea43a42aaaa426fb5", null ]
 ];

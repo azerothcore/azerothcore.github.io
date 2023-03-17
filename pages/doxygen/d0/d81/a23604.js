@@ -1,6 +1,6 @@
 var a23604 =
 [
-    [ "spell_anti_air_rocket_bomber_SpellScript", "db/da9/a23608.html", "db/da9/a23608" ],
-    [ "spell_anti_air_rocket_bomber", "d0/d81/a23604.html#a8b94d9fe0c61c7238f31fd2c11e7beee", null ],
-    [ "GetSpellScript", "d0/d81/a23604.html#a928a4174f5465f83bb020572fc96085f", null ]
+    [ "HandleDummy", "d0/d81/a23604.html#a4b88f44cb647d0051e5037827a6976eb", null ],
+    [ "PrepareSpellScript", "d0/d81/a23604.html#ae2ff723014eaac94bd00a1f36469cbd6", null ],
+    [ "Register", "d0/d81/a23604.html#a145d160bbf0bc5b50d395c096147d9f3", null ]
 ];

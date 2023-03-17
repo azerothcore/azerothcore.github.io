@@ -1,6 +1,7 @@
 var a24760 =
 [
-    [ "spell_illidari_council_balance_of_power_AuraScript", "d4/dfa/a24764.html", "d4/dfa/a24764" ],
-    [ "spell_illidari_council_balance_of_power", "d1/dce/a24760.html#a81a22601f4d37f69c02b9e59f0f7ffc7", null ],
-    [ "GetAuraScript", "d1/dce/a24760.html#a675f1d2a27969c4b87f77132d7946892", null ]
+    [ "boss_high_nethermancer_zerevorAI", "d1/dce/a24760.html#a329f6cf6f8d74af50fdfcf26755dc7f1", null ],
+    [ "AttackStart", "d1/dce/a24760.html#ad4c02d620d8433d2cbcea80566bad9ba", null ],
+    [ "JustEngagedWith", "d1/dce/a24760.html#a7b6339d68fc9fc10fe14c1f48606249e", null ],
+    [ "UpdateAI", "d1/dce/a24760.html#a7a01bd1d41fc803af47291073bc00ee2", null ]
 ];

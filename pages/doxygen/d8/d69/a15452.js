@@ -1,6 +1,6 @@
 var a15452 =
 [
-    [ "HandleDummy", "d8/d69/a15452.html#ae5a42e1b5327d86dd8fd6180a6067301", null ],
-    [ "PrepareSpellScript", "d8/d69/a15452.html#a895bdaafa904c7c20217446792044cab", null ],
-    [ "Register", "d8/d69/a15452.html#a064a83ca2e32684ceb006b756afb9310", null ]
+    [ "npc_tiger_matriarch_creditAI", "d8/d69/a15452.html#a628772971a9c2a190ffe2fae6b0b6865", null ],
+    [ "UpdateAI", "d8/d69/a15452.html#a0fc7ca1313a21c5f74539ce2dbd7465d", null ],
+    [ "events", "d8/d69/a15452.html#ae96e0de4a36dde3237520e8a0ddd9f5f", null ]
 ];

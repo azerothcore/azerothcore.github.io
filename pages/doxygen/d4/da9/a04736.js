@@ -1,7 +1,11 @@
 var a04736 =
 [
-    [ "WModelRayCallBack", "d4/da9/a04736.html#ac234cf795a07aab6e456c608dd80bbea", null ],
-    [ "operator()", "d4/da9/a04736.html#a8f658081b44bda2527aa568a139bfd14", null ],
-    [ "hit", "d4/da9/a04736.html#a014e322fc087c2f07617361e0bc585e3", null ],
-    [ "models", "d4/da9/a04736.html#aaad14391ed1379dc3c367e6e522b1150", null ]
+    [ "~GameObjectModelOwnerBase", "d4/da9/a04736.html#a307c744710782fcb0d5c287b23c74d69", null ],
+    [ "DebugVisualizeCorner", "d4/da9/a04736.html#acf130fbdfb086a9c6d35d145116357c8", null ],
+    [ "GetDisplayId", "d4/da9/a04736.html#ae3eddc6c841c3644f50cb3300f80cee2", null ],
+    [ "GetOrientation", "d4/da9/a04736.html#a35c11d2346c5156b95558729d84b3fe8", null ],
+    [ "GetPhaseMask", "d4/da9/a04736.html#a6b55de1c8de5a50245d7e5a833766d0f", null ],
+    [ "GetPosition", "d4/da9/a04736.html#a82e89b7fac5f46a25519674930294ed8", null ],
+    [ "GetScale", "d4/da9/a04736.html#abf8e9a74f58ec34bc6f1f8d853100f69", null ],
+    [ "IsSpawned", "d4/da9/a04736.html#ad824da6970d512c344160714cd7ec434", null ]
 ];

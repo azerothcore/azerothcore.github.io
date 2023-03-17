@@ -1,6 +1,9 @@
 var a23416 =
 [
-    [ "CheckRequirement", "da/dd2/a23416.html#ad58d71b5c2bc10d9ffbfe472bd5b1a32", null ],
-    [ "PrepareSpellScript", "da/dd2/a23416.html#ae621e95feb69b54f9aef5d77577a15ae", null ],
-    [ "Register", "da/dd2/a23416.html#ab0b03fd2d1a0ed6720acc45221a582f6", null ]
+    [ "npc_outhouse_bunnyAI", "da/dd2/a23416.html#a7f0696406ff6dd896150b022db96a436", null ],
+    [ "Reset", "da/dd2/a23416.html#a24672f4081bbecf31b1833c942c444da", null ],
+    [ "SetData", "da/dd2/a23416.html#a1d6920b16a46b6d22cb68292862c9de8", null ],
+    [ "SpellHit", "da/dd2/a23416.html#a471ad187b1ea540cd4f4fbe49d31f554", null ],
+    [ "_counter", "da/dd2/a23416.html#a0cf8bbf09409302c2d7896dae635fe37", null ],
+    [ "_gender", "da/dd2/a23416.html#a8430dc1c41821d3ca230f0ef1ce19afe", null ]
 ];

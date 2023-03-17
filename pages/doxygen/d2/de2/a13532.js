@@ -1,6 +1,7 @@
 var a13532 =
 [
-    [ "npc_andorhal_towerAI", "de/d98/a13536.html", "de/d98/a13536" ],
-    [ "npc_andorhal_tower", "d2/de2/a13532.html#abf63419b6c10af47f5e5df1a4e7320e7", null ],
-    [ "GetAI", "d2/de2/a13532.html#a51139c28da736d26bf27a061862d24ee", null ]
+    [ "npc_jaina_proudmoore_bfuAI", "d2/de2/a13532.html#ad5ad1d05ef8210409c700e47b5442e24", null ],
+    [ "Reset", "d2/de2/a13532.html#a18de805428ce0954a5fbfffbf5975342", null ],
+    [ "UpdateAI", "d2/de2/a13532.html#a48b191d0812bfe3212511a52ef0df817", null ],
+    [ "_events", "d2/de2/a13532.html#a87e99e0b5fd0a3823b009025019b1fa4", null ]
 ];

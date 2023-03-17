@@ -1,5 +1,6 @@
 var a29064 =
 [
-    [ "achievement_not_even_a_scratch", "d0/dbd/a29064.html#a0d025c09d35c3640016ab42e11dd96eb", null ],
-    [ "OnCheck", "d0/dbd/a29064.html#a81f6c9bd36e5a3eea3fe0af24c9f1649", null ]
+    [ "boss_lethonAI", "db/d9f/a29068.html", "db/d9f/a29068" ],
+    [ "boss_lethon", "d0/dbd/a29064.html#a5d758979b061646830373de64b2b3af4", null ],
+    [ "GetAI", "d0/dbd/a29064.html#a493baf37aac400635dd0409e79375a1c", null ]
 ];

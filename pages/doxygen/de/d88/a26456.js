@@ -1,6 +1,7 @@
 var a26456 =
 [
-    [ "HandleSendEvent", "de/d88/a26456.html#abd94e05280805b6d7f5bb0039324fb49", null ],
-    [ "PrepareSpellScript", "de/d88/a26456.html#a7abe63c4bdaf3b8d7928d6f656f11fea", null ],
-    [ "Register", "de/d88/a26456.html#aa2094cf0ef08f37bdc4ebbdd4a4e32b6", null ]
+    [ "npc_kayra_longmaneAI", "d6/dc7/a26460.html", "d6/dc7/a26460" ],
+    [ "npc_kayra_longmane", "de/d88/a26456.html#a1ee2ccb38f33b2a90244cb626f521f3b", null ],
+    [ "GetAI", "de/d88/a26456.html#ac39f4bb06243d1d786ae86bbf826ea92", null ],
+    [ "OnQuestAccept", "de/d88/a26456.html#aaba8b65fcfbdd52f98c1665534288e7b", null ]
 ];

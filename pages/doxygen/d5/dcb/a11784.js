@@ -1,6 +1,6 @@
 var a11784 =
 [
-    [ "boss_lucifronAI", "dc/db2/a11788.html", "dc/db2/a11788" ],
-    [ "boss_lucifron", "d5/dcb/a11784.html#aa54be5c49a77524b036c167dbb6d81ea", null ],
-    [ "GetAI", "d5/dcb/a11784.html#a885366d4190bbc77dc696ee6910435ed", null ]
+    [ "npc_garr_fireswornAI", "dc/db2/a11788.html", "dc/db2/a11788" ],
+    [ "npc_garr_firesworn", "d5/dcb/a11784.html#a54c8f5daab9b8c4e1e7ff5d7777fcddf", null ],
+    [ "GetAI", "d5/dcb/a11784.html#a07e47767a44d3613f8cba2c3dfb1d14e", null ]
 ];

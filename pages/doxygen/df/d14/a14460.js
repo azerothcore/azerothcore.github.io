@@ -1,11 +1,10 @@
 var a14460 =
 [
-    [ "npc_doomfire_targettingAI", "df/d14/a14460.html#a07ece54edee7bcf83c0807f73b821403", null ],
-    [ "DamageTaken", "df/d14/a14460.html#aedb9b9cc650e648a69e5e45d1821b64a", null ],
-    [ "EnterCombat", "df/d14/a14460.html#ac46afe2dd051342ee577cf9a88f81f05", null ],
-    [ "MoveInLineOfSight", "df/d14/a14460.html#a1bf5c9024b607d5734e10be114cc7e65", null ],
-    [ "Reset", "df/d14/a14460.html#a0dc4f7aa069fd077b90799bc2a0c9627", null ],
-    [ "UpdateAI", "df/d14/a14460.html#abf01058da8dab586dc2f910bc17296c5", null ],
-    [ "ChangeTargetTimer", "df/d14/a14460.html#a5fa8995bc43274706361e8f929a5bc50", null ],
-    [ "TargetGUID", "df/d14/a14460.html#a9c96a59db9123dec192e0868bd775321", null ]
+    [ "boss_azuregosAI", "df/d14/a14460.html#a839ab1e096d30062d64c1c515a7462a4", null ],
+    [ "JustDied", "df/d14/a14460.html#aea4d204173b7882d2d9acf8204410947", null ],
+    [ "JustEngagedWith", "df/d14/a14460.html#ac17c09d4de27e3b3a299bb8288ef79f8", null ],
+    [ "KilledUnit", "df/d14/a14460.html#aeefc791e17d2a687f8beae809c44d123", null ],
+    [ "Reset", "df/d14/a14460.html#a3f9584a7cf4e27f57eec2c5babb7aff1", null ],
+    [ "UpdateAI", "df/d14/a14460.html#aafdfce2d21d5890ead413a2d9fe1b65d", null ],
+    [ "_scheduler", "df/d14/a14460.html#a9c0bff243b53e91739fdac8dfee45536", null ]
 ];

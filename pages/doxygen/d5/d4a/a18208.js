@@ -1,6 +1,7 @@
 var a18208 =
 [
-    [ "spell_igb_burning_pitch_SpellScript", "d3/d4e/a18212.html", "d3/d4e/a18212" ],
-    [ "spell_igb_burning_pitch", "d5/d4a/a18208.html#a73e4a64db38a04b60d818904b3ef6481", null ],
-    [ "GetSpellScript", "d5/d4a/a18208.html#a43a5b545b37586586d9a1e3f9914f317", null ]
+    [ "CheckEnergy", "d5/d4a/a18208.html#a6107013d997e2399b1fac88e2fb1b38e", null ],
+    [ "Load", "d5/d4a/a18208.html#ac492a91b228e3b547ddab18d35e3a017", null ],
+    [ "PrepareSpellScript", "d5/d4a/a18208.html#a1dccae0471095b95176b2c46ed9cccba", null ],
+    [ "Register", "d5/d4a/a18208.html#a6e8d05a1d7528f7c66c2e9e8daada9ec", null ]
 ];

@@ -1,6 +1,6 @@
 var a25804 =
 [
-    [ "boss_kaelthasAI", "d5/de8/a25808.html", "d5/de8/a25808" ],
-    [ "boss_kaelthas", "d0/d5c/a25804.html#a690d04e2bfca7b2b17cf7c53c46a6b06", null ],
-    [ "GetAI", "d0/d5c/a25804.html#a02de0dcee68dca802606565831e4fc05", null ]
+    [ "spell_kaelthas_resurrection_SpellScript", "d5/de8/a25808.html", "d5/de8/a25808" ],
+    [ "spell_kaelthas_resurrection", "d0/d5c/a25804.html#a34cebd3ec6e2e1348e93d8802ac73709", null ],
+    [ "GetSpellScript", "d0/d5c/a25804.html#a6cbed421ab7fd710e78e0c20ae3f1dd8", null ]
 ];

@@ -1,7 +1,10 @@
 var a11068 =
 [
-    [ "player_commandscript", "df/d8e/a11068.html#a1565aa67743cfd3e5fe5179b4100bd20", null ],
-    [ "GetCommands", "df/d8e/a11068.html#a0e1e8eec0fe449c95c5cf9dd06a0fced", null ],
-    [ "HandlePlayerLearnCommand", "df/d8e/a11068.html#a6ca511bcecf73049665772cb80dbcf40", null ],
-    [ "HandlePlayerUnLearnCommand", "df/d8e/a11068.html#a22fddb5da1278fe794a78a899c423bfd", null ]
+    [ "lfg_commandscript", "df/d8e/a11068.html#a90faaca821e4162e0aea40a4d98af62c", null ],
+    [ "GetCommands", "df/d8e/a11068.html#a324310f9b04675c277ceae44ea09fbaf", null ],
+    [ "HandleLfgCleanCommand", "df/d8e/a11068.html#a93db689dbdb97a0318d62409a863767e", null ],
+    [ "HandleLfgGroupInfoCommand", "df/d8e/a11068.html#a2376288a2ef82d8a19602cd66ff880f2", null ],
+    [ "HandleLfgOptionsCommand", "df/d8e/a11068.html#a73187a97c883d8d1bb3765943dd98c39", null ],
+    [ "HandleLfgPlayerInfoCommand", "df/d8e/a11068.html#acdf12aff45f16904df5724ab158e3b97", null ],
+    [ "HandleLfgQueueInfoCommand", "df/d8e/a11068.html#a54dcdf133cc5b22961c34eda62a4f2fc", null ]
 ];

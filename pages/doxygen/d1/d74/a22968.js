@@ -1,6 +1,6 @@
 var a22968 =
 [
-    [ "npc_iruk", "d1/d74/a22968.html#a721aeefd23371cc6bc16738a797bf50a", null ],
-    [ "OnGossipHello", "d1/d74/a22968.html#a774669099330c75ab5e0bea8d460f517", null ],
-    [ "OnGossipSelect", "d1/d74/a22968.html#ae6f7d54d224488a9e29c59c560eba471", null ]
+    [ "HandleEffectRemove", "d1/d74/a22968.html#ad38968a5bec7ddbd6fef9e7035f9b440", null ],
+    [ "PrepareAuraScript", "d1/d74/a22968.html#a0563ab5ce08c910d788874081424e55f", null ],
+    [ "Register", "d1/d74/a22968.html#a511e9c4f92ab480d5d3063ee4a912b74", null ]
 ];

@@ -1,6 +1,6 @@
 var a29556 =
 [
-    [ "npc_taxi", "d6/db8/a29556.html#ac67282316d6ded2ff62b8a1800b8fae1", null ],
-    [ "OnGossipHello", "d6/db8/a29556.html#a1bce89202ea3ed3fcbebd19a305c6a78", null ],
-    [ "OnGossipSelect", "d6/db8/a29556.html#a5a7443abba8cf98a3073195177981edc", null ]
+    [ "npc_guardianAI", "d4/dfa/a29560.html", "d4/dfa/a29560" ],
+    [ "npc_guardian", "d6/db8/a29556.html#aa614e73ae6a6c128c323ac275652dbf1", null ],
+    [ "GetAI", "d6/db8/a29556.html#a3e65ccc70be9d25b2d8563c23146ef4f", null ]
 ];

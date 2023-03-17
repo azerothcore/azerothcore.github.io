@@ -1,6 +1,6 @@
 var a16744 =
 [
-    [ "boss_gormokAI", "d9/dd2/a16748.html", "d9/dd2/a16748" ],
-    [ "boss_gormok", "d6/dc4/a16744.html#a86ce0681be4370198c44dde5aa98a593", null ],
-    [ "GetAI", "d6/dc4/a16744.html#a45cff2e7ee0525de37382cf09b116a32", null ]
+    [ "npc_mistress_of_painAI", "d9/dd2/a16748.html", "d9/dd2/a16748" ],
+    [ "npc_mistress_of_pain", "d6/dc4/a16744.html#a0261ed835454725e0e5629c295be4330", null ],
+    [ "GetAI", "d6/dc4/a16744.html#ae32e9b907e2e31556e72d7feb4e24e8a", null ]
 ];

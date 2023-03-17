@@ -1,11 +1,8 @@
 var a10376 =
 [
-    [ "Player", "de/d1f/a10376.html#a7f4241aa9ecc051c75f779af132a52ed", null ],
-    [ "WorldSession", "de/d1f/a10376.html#a65b5c30bf4f5f118a199e378d903aaf6", null ],
-    [ "Face", "de/d1f/a10376.html#a6334464eea38be514f3faa7538b39a5a", null ],
-    [ "FacialHair", "de/d1f/a10376.html#a44643270b211d275eb94283842791407", null ],
-    [ "Gender", "de/d1f/a10376.html#a14321ea3595debe2836eceab8a82f944", null ],
-    [ "HairColor", "de/d1f/a10376.html#aeaa7ce4ecea7f42def63049424a2dd6b", null ],
-    [ "HairStyle", "de/d1f/a10376.html#ade5b2dff213547ab4d707070f8979085", null ],
-    [ "Skin", "de/d1f/a10376.html#a2876110e687e7248e8c64fcb3a3a80db", null ]
+    [ "ServerPktHeader", "de/d1f/a10376.html#a761e294fccc02055a46bfc46656da706", null ],
+    [ "getHeaderLength", "de/d1f/a10376.html#a75ff3550b7794fed0e69bfc4d1418dee", null ],
+    [ "isLargePacket", "de/d1f/a10376.html#a4f4e13fc8e2a6ec6de70f4432f25ffe2", null ],
+    [ "header", "de/d1f/a10376.html#adc69128832b16124c284c584e7540b11", null ],
+    [ "size", "de/d1f/a10376.html#a5d5cf573cebe47a10e3f17b840c7a4e1", null ]
 ];

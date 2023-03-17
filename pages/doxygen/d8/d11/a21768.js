@@ -1,6 +1,8 @@
 var a21768 =
 [
-    [ "npc_ulduar_emergency_fire_botAI", "d8/d57/a21772.html", "d8/d57/a21772" ],
-    [ "npc_ulduar_emergency_fire_bot", "d8/d11/a21768.html#a1adc05ac4602ab2b297b18f605bfd2cd", null ],
-    [ "GetAI", "d8/d11/a21768.html#afb3ab952495175c5f571d4e39a5acea4", null ]
+    [ "HandleEffectPeriodic", "d8/d11/a21768.html#ade51556206853c273950937e52447f41", null ],
+    [ "Load", "d8/d11/a21768.html#a81f9c53e3052932fbdc93ef74e4b8df3", null ],
+    [ "PrepareAuraScript", "d8/d11/a21768.html#abacc5a8478bb665fe406fdf8ff0a7543", null ],
+    [ "Register", "d8/d11/a21768.html#a7ee06daf1f6f0716588025880a4a3931", null ],
+    [ "lastOrientation", "d8/d11/a21768.html#a349426d5f23a7da8fbc645b72a234479", null ]
 ];

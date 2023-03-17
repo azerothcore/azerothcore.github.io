@@ -1,9 +1,5 @@
 var a28632 =
 [
-    [ "CheckCast", "d8/d5a/a28632.html#a4db55f88e5809fa276f23b0c9fa35b8c", null ],
-    [ "FilterTargets", "d8/d5a/a28632.html#a0c5c6639d037e5358203b5a0b887dcff", null ],
-    [ "HandleDummy", "d8/d5a/a28632.html#a285291223fdfd499627337c03228172a", null ],
-    [ "PrepareSpellScript", "d8/d5a/a28632.html#a3a5b04c93e1afdf2a890b2f365759589", null ],
-    [ "Register", "d8/d5a/a28632.html#a04f8a563276d2c9c88087ef1f42af193", null ],
-    [ "Validate", "d8/d5a/a28632.html#a79dd4ae6102bda0438fb8b9272456b9f", null ]
+    [ "EarthenPowerTargetSelector", "d8/d5a/a28632.html#a61290afcc621c73682160a4e6a6e0f5d", null ],
+    [ "operator()", "d8/d5a/a28632.html#a9f3d7e7bdb3a3affa72da57903f28940", null ]
 ];

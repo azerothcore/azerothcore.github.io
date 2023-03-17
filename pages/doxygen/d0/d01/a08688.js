@@ -1,8 +1,8 @@
 var a08688 =
 [
-    [ "AnyUnfriendlyNoTotemUnitInObjectRangeCheck", "d0/d01/a08688.html#ac4378cfa8fedb3453c0e810d497cb99c", null ],
-    [ "operator()", "d0/d01/a08688.html#ad9e3486316cf297ba79a588c60b4ce15", null ],
-    [ "i_funit", "d0/d01/a08688.html#ace766830b26d8aae3ec673d2102a9969", null ],
-    [ "i_obj", "d0/d01/a08688.html#ae12f4176e49438cfa248345cfe7c9947", null ],
-    [ "i_range", "d0/d01/a08688.html#a8335ef8fd7376e7c920dfbca2318d646", null ]
+    [ "NearestGameObjectFishingHole", "d0/d01/a08688.html#ab0e4734202edf26b69881ab85abe1d93", null ],
+    [ "NearestGameObjectFishingHole", "d0/d01/a08688.html#a256c64e6c82d98349b958647d98bf4ce", null ],
+    [ "operator()", "d0/d01/a08688.html#a52e2c64f8209ab364f4e85e1f4e947dc", null ],
+    [ "i_obj", "d0/d01/a08688.html#a182fbf6b5cc68fb0eba6be26568c9d78", null ],
+    [ "i_range", "d0/d01/a08688.html#af27a870fb654a130bf1e4ac1472fdffc", null ]
 ];

@@ -1,6 +1,6 @@
 var a20140 =
 [
-    [ "spell_sapphiron_frost_explosion_SpellScript", "d6/d35/a20144.html", "d6/d35/a20144" ],
-    [ "spell_sapphiron_frost_explosion", "da/d2f/a20140.html#a4c6359cd94ea8dd6d10bc8430673c507", null ],
-    [ "GetSpellScript", "da/d2f/a20140.html#a771a67279f455a2c32bfa944e979b848", null ]
+    [ "boss_razuviousAI", "d6/d35/a20144.html", "d6/d35/a20144" ],
+    [ "boss_razuvious", "da/d2f/a20140.html#ac1a2942f4a7957c671b075df7bf20215", null ],
+    [ "GetAI", "da/d2f/a20140.html#a350a7cf0c3e21e29c3c28155d63dcb87", null ]
 ];

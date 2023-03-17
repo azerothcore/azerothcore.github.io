@@ -1,6 +1,5 @@
 var a29304 =
 [
-    [ "go_midsummer_musicAI", "d9/dad/a29304.html#a8cbadc16a9588c469ff48dbaf51ac71c", null ],
-    [ "UpdateAI", "d9/dad/a29304.html#adf185ee702e9e74f65204b90786f9eb4", null ],
-    [ "_events", "d9/dad/a29304.html#a31e45a754930cdc3206fe2b7f754d234", null ]
+    [ "go_massive_seaforium_charge", "d9/dad/a29304.html#adae43b764f237932923cd18207e4d23c", null ],
+    [ "OnGossipHello", "d9/dad/a29304.html#a187e28c773ad904f245d11d3f5b9d7e3", null ]
 ];

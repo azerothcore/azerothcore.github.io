@@ -1,6 +1,6 @@
 var a24736 =
 [
-    [ "boss_high_nethermancer_zerevorAI", "d1/df7/a24740.html", "d1/df7/a24740" ],
-    [ "boss_high_nethermancer_zerevor", "df/dff/a24736.html#adf5392fef4baa09e55d0a95eae6fcbea", null ],
-    [ "GetAI", "df/dff/a24736.html#abb9531ea5103a5dee62fa83e3a4e5a44", null ]
+    [ "boss_illidari_councilAI", "d1/df7/a24740.html", "d1/df7/a24740" ],
+    [ "boss_illidari_council", "df/dff/a24736.html#ad9fc03c7adce1493fe8cb5272824d82b", null ],
+    [ "GetAI", "df/dff/a24736.html#aefa944e6eee2dd9670f5c39b8ea0c7e7", null ]
 ];

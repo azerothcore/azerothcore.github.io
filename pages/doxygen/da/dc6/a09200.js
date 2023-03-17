@@ -1,14 +1,9 @@
 var a09200 =
 [
-    [ "BattlegroundMap", "da/dc6/a09200.html#a3a9af8a69ac8d188d7fb86f2a9dda2c3", null ],
-    [ "~BattlegroundMap", "da/dc6/a09200.html#a327d241fd7930e9b3a98ba50014d5131", null ],
-    [ "AddPlayerToMap", "da/dc6/a09200.html#a0325279a2affc7b20a415a3b90a32fc0", null ],
-    [ "CannotEnter", "da/dc6/a09200.html#a493a1932eee44c346d9cfb7d13789bb6", null ],
-    [ "GetBG", "da/dc6/a09200.html#a2fcb965981bb03571f12c11cdbac54a4", null ],
-    [ "InitVisibilityDistance", "da/dc6/a09200.html#af2d6847765d10fab527d77b26dd770ad", null ],
-    [ "RemoveAllPlayers", "da/dc6/a09200.html#a5093cbf8005d06452eeb202513323c1e", null ],
-    [ "RemovePlayerFromMap", "da/dc6/a09200.html#aeddb9dfae8601e95b0a93cefc12c2612", null ],
-    [ "SetBG", "da/dc6/a09200.html#aaa9e5f830953b1a37a684ac566e9b768", null ],
-    [ "SetUnload", "da/dc6/a09200.html#a4c03b1aa9c4c53697ad6284825a1b9c1", null ],
-    [ "m_bg", "da/dc6/a09200.html#aa38fff695728ddedc94dd6eb6bd7bf3b", null ]
+    [ "LiquidData", "da/dc6/a09200.html#ac2435178323f480d2dae449b49b39146", null ],
+    [ "DepthLevel", "da/dc6/a09200.html#ad84c7763a6253db7ae6117ecc7144f1d", null ],
+    [ "Entry", "da/dc6/a09200.html#abfed22cb0e920067c0f86a0083ef4ab6", null ],
+    [ "Flags", "da/dc6/a09200.html#aa0903ec4233bcfa34494cea5068cd19c", null ],
+    [ "Level", "da/dc6/a09200.html#a7c596e921e383bbdbdacbcd4307fe380", null ],
+    [ "Status", "da/dc6/a09200.html#acb79cdfb4221f158ce9b29127591a8a9", null ]
 ];

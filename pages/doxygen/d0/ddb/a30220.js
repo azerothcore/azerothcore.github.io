@@ -1,10 +1,7 @@
 var a30220 =
 [
-    [ "ID", "d0/ddb/a30220.html#a906c42770a619884f08b67e2870bff93", null ],
-    [ "reqarenapoints", "d0/ddb/a30220.html#a5d45007a832d6120e29c7821c07646de", null ],
-    [ "reqarenaslot", "d0/ddb/a30220.html#ad1e4b8f94a743bac02bbadbc8d62ad0b", null ],
-    [ "reqhonorpoints", "d0/ddb/a30220.html#aca509fb7e234bc54632ff988bf37e6ad", null ],
-    [ "reqitem", "d0/ddb/a30220.html#a9cba8872c909260a55dcfdf7f4726899", null ],
-    [ "reqitemcount", "d0/ddb/a30220.html#a615c5fe0966b5054303ebe1290adc9b6", null ],
-    [ "reqpersonalarenarating", "d0/ddb/a30220.html#af4ff8d55234b03637e4b2fbd10778e97", null ]
+    [ "Id", "d0/ddb/a30220.html#a5e2447dd0f6b60e322105d8fcafd0010", null ],
+    [ "MaxLevel", "d0/ddb/a30220.html#a0392e52a26bb4e1d1927fa7f76c674b8", null ],
+    [ "Modifier", "d0/ddb/a30220.html#a5ce5b18749d3c75878b310bdc8427b1f", null ],
+    [ "StatMod", "d0/ddb/a30220.html#ab639dd94c53707ca160e13f71342730d", null ]
 ];

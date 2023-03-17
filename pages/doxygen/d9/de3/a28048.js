@@ -1,6 +1,6 @@
 var a28048 =
 [
-    [ "HandleDummy", "d9/de3/a28048.html#a4fde3142b38989cb37db76da6eada03c", null ],
-    [ "PrepareSpellScript", "d9/de3/a28048.html#aa694a1a7cbbe0f20226d7e616e19cefb", null ],
-    [ "Register", "d9/de3/a28048.html#a1f83fae2fb3dc0904ed56101e1254f5f", null ]
+    [ "CheckProc", "d9/de3/a28048.html#a0f1461140b08deac3f044142067368e7", null ],
+    [ "PrepareAuraScript", "d9/de3/a28048.html#a04e0ebe416e94912d7f1ec529da7980d", null ],
+    [ "Register", "d9/de3/a28048.html#a05e31c2252c9054a18b4267be84895b9", null ]
 ];

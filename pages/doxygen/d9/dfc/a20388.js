@@ -1,6 +1,6 @@
 var a20388 =
 [
-    [ "npc_crystalline_frayerAI", "d4/dae/a20392.html", "d4/dae/a20392" ],
-    [ "npc_crystalline_frayer", "d9/dfc/a20388.html#a9124f4ffcbfbb9e073d0943f3398ce5e", null ],
-    [ "GetAI", "d9/dfc/a20388.html#a1780bb5b521d6e2617e90cb6cf119060", null ]
+    [ "boss_ormorokAI", "d4/dae/a20392.html", "d4/dae/a20392" ],
+    [ "boss_ormorok", "d9/dfc/a20388.html#a0999bd2d1bcd5b27c6cba6293b48e7b3", null ],
+    [ "GetAI", "d9/dfc/a20388.html#a1e3c4a03a2d44d085010da8f1621e2fb", null ]
 ];

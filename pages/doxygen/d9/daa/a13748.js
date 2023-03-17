@@ -1,9 +1,9 @@
 var a13748 =
 [
-    [ "go", "d9/daa/a13748.html#ac14168f8c25efe7fa22ec802259b3a11", null ],
-    [ "npc", "d9/daa/a13748.html#a04d6e67fa2fb208ca747798ccc53083d", null ],
-    [ "o", "d9/daa/a13748.html#ad373b4889544b05525959b21e33e1a87", null ],
-    [ "x", "d9/daa/a13748.html#a62ded7186ff0a2718d7f32084e6687e0", null ],
-    [ "y", "d9/daa/a13748.html#ac4dbf51ebefdd80ef537ff0ec4297123", null ],
-    [ "z", "d9/daa/a13748.html#aa4c6c3ef78633083bd33a13f7a7ace77", null ]
+    [ "npc_janalai_hatchlingAI", "d9/daa/a13748.html#a8fd227e179a029c4746d6a577897c4d0", null ],
+    [ "JustEngagedWith", "d9/daa/a13748.html#a135bc9794bc11c3f0cdefc6b3c4fa0f6", null ],
+    [ "Reset", "d9/daa/a13748.html#a428a3aab919943a076990df4768e3aea", null ],
+    [ "UpdateAI", "d9/daa/a13748.html#a43f56be26397f23ee803a7bfbce74c05", null ],
+    [ "BuffetTimer", "d9/daa/a13748.html#a4a60f4e6b53697f78c737f3c12304ef8", null ],
+    [ "instance", "d9/daa/a13748.html#a997ee02c23bbb1d33331484f8e93fd1c", null ]
 ];

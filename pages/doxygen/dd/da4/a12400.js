@@ -1,6 +1,6 @@
 var a12400 =
 [
-    [ "HandleScriptEffect", "dd/da4/a12400.html#a7b8314c8833ba7160a8ee33c5136841c", null ],
-    [ "PrepareSpellScript", "dd/da4/a12400.html#ad75019d30081514a4ab3b6301177bb06", null ],
-    [ "Register", "dd/da4/a12400.html#a8aeba569703c51b96910952db7af2bda", null ]
+    [ "boss_zelfanAI", "dc/d1f/a12404.html", "dc/d1f/a12404" ],
+    [ "boss_zelfan", "dd/da4/a12400.html#affb8bda14469580f4d2ea94ad03f9e2b", null ],
+    [ "GetAI", "dd/da4/a12400.html#a66e875eb3d69dfc340d06f64fa785c54", null ]
 ];

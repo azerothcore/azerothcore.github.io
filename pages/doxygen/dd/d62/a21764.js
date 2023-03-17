@@ -1,5 +1,6 @@
 var a21764 =
 [
-    [ "npc_ulduar_flames_spreadAI", "dd/d62/a21764.html#a607ee542f7c6d84f4072557e44a80905", null ],
-    [ "SpellHit", "dd/d62/a21764.html#abe69df9873fc125306a4ed757665e448", null ]
+    [ "spell_mimiron_p3wx2_laser_barrage_AuraScript", "d8/d11/a21768.html", "d8/d11/a21768" ],
+    [ "spell_mimiron_p3wx2_laser_barrage", "dd/d62/a21764.html#affbe3588a9cab30163a08c8ff781e29d", null ],
+    [ "GetAuraScript", "dd/d62/a21764.html#a71654b4b433b3d1731b1de15f747d8ec", null ]
 ];

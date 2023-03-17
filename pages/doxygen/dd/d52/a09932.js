@@ -1,9 +1,6 @@
 var a09932 =
 [
-    [ "GuildInfoResponse", "dd/d52/a09932.html#a256cb81ad2e08050be99c9e1061c2009", null ],
-    [ "Write", "dd/d52/a09932.html#a3222d0018c9593400d3d01258b82371e", null ],
-    [ "CreateDate", "dd/d52/a09932.html#a1a0acf334d88751e94257ff76c9e3fd8", null ],
-    [ "GuildName", "dd/d52/a09932.html#ad8efc926197e955ed0cf8df6a74b41e8", null ],
-    [ "NumAccounts", "dd/d52/a09932.html#a21b42f1654aa10f7872d87635fea66ac", null ],
-    [ "NumMembers", "dd/d52/a09932.html#a7e748a70029e867ba8c90eaba85bf8c9", null ]
+    [ "EmoteClient", "dd/d52/a09932.html#af98c098cb1019057d8027f39c168e1a9", null ],
+    [ "Read", "dd/d52/a09932.html#abad5fca865b7b99e595ce95137e8105c", null ],
+    [ "EmoteID", "dd/d52/a09932.html#a24503de36535106220984ffbf6ba0338", null ]
 ];

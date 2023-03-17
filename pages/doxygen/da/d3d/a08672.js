@@ -1,10 +1,10 @@
 var a08672 =
 [
-    [ "MostHPPercentMissingInRange", "da/d3d/a08672.html#aaef0deb21e2470b45cafc22a8c4d18a5", null ],
-    [ "operator()", "da/d3d/a08672.html#ab1734490a3db95ad715756e85ecfaf77", null ],
-    [ "i_hpPct", "da/d3d/a08672.html#a41a3b1c4d1f27a2d727e7a18e2e30a7d", null ],
-    [ "i_maxHpPct", "da/d3d/a08672.html#afd12795ef0cd99e05e4e21f869582416", null ],
-    [ "i_minHpPct", "da/d3d/a08672.html#a11c197d3eea1a8ded0b20f707e6ed5d0", null ],
-    [ "i_obj", "da/d3d/a08672.html#a724cf058a6bcf02864a49bb288e32ce6", null ],
-    [ "i_range", "da/d3d/a08672.html#a021acff6bdb6aef9ab24c19d8798884f", null ]
+    [ "AnyDeadUnitObjectInRangeCheck", "da/d3d/a08672.html#ad51c7d9c256d8d769e7e5df2a618f233", null ],
+    [ "operator()", "da/d3d/a08672.html#a71355418a935e1e4c4f5294c0e6a244f", null ],
+    [ "operator()", "da/d3d/a08672.html#ae885f49537043421a92b44c201bec358", null ],
+    [ "operator()", "da/d3d/a08672.html#a92b2dcfedf97677e84f46ee0e3affb91", null ],
+    [ "operator()", "da/d3d/a08672.html#ae7a76a9bcc28c6e4705a2885b02be20d", null ],
+    [ "i_range", "da/d3d/a08672.html#a1a95cfd469f27284e6ff35e9856bddcb", null ],
+    [ "i_searchObj", "da/d3d/a08672.html#acf10f61f95961ff4b9fd4a8c162fa029", null ]
 ];

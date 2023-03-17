@@ -1,9 +1,7 @@
 var a23000 =
 [
-    [ "npc_captured_beryl_sorcererAI", "d0/d90/a23000.html#a3c3f47022aee418f228803a2504470a3", null ],
-    [ "Initialize", "d0/d90/a23000.html#a98b2ff2f0e152a41106eaace5273aa69", null ],
-    [ "MoveInLineOfSight", "d0/d90/a23000.html#a4f7edf7bc7480bf0c9f6aec113b2e058", null ],
-    [ "Reset", "d0/d90/a23000.html#ac96af1fd018e88950d1c58562dffdb83", null ],
-    [ "UpdateAI", "d0/d90/a23000.html#a1bbefa59abce0c7b3d7b343ddc467c98", null ],
-    [ "_events", "d0/d90/a23000.html#a0ba1f7ffa792c93ccd4df8ec2c80fb42", null ]
+    [ "npc_lurgglbrAI", "d3/d46/a23004.html", "d3/d46/a23004" ],
+    [ "npc_lurgglbr", "d0/d90/a23000.html#a7df52667e4d789391820a4c2182db8d2", null ],
+    [ "GetAI", "d0/d90/a23000.html#a2795346371e7b474c53dcacb9daf2001", null ],
+    [ "OnQuestAccept", "d0/d90/a23000.html#a1b3ba7b0782dc91ff268b7044cf13e82", null ]
 ];

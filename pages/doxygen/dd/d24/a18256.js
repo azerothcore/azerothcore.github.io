@@ -1,6 +1,6 @@
 var a18256 =
 [
-    [ "CheckProc", "dd/d24/a18256.html#a86e62fa26606a77284c80583e7b35d27", null ],
-    [ "PrepareAuraScript", "dd/d24/a18256.html#a2c10a09e9e5015eb4f3c66d5086dbe1a", null ],
-    [ "Register", "dd/d24/a18256.html#a6214f78c5c7eb3f60371fa12530d5991", null ]
+    [ "DamageGunship", "dd/d24/a18256.html#a9db5651f7a17e92a873c4885c91c7912", null ],
+    [ "PrepareSpellScript", "dd/d24/a18256.html#a381219ba066f0103dd1d8923e12a18e9", null ],
+    [ "Register", "dd/d24/a18256.html#abdd321aa50f558b6a2a3edc08f01ac3f", null ]
 ];

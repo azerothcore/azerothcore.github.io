@@ -1,6 +1,6 @@
 var a13232 =
 [
-    [ "HandleSendEvent", "d5/dd3/a13232.html#ac3e5c8ce6dcceaf601f0f5a8c5727291", null ],
-    [ "PrepareSpellScript", "d5/dd3/a13232.html#a5705ee1863434039b1143db0817d60a7", null ],
-    [ "Register", "d5/dd3/a13232.html#a442e4aad6ed971119a147fdf87f90aa3", null ]
+    [ "HandlePull", "d5/dd3/a13232.html#ae854764446010d6c781c1569df0972d9", null ],
+    [ "PrepareSpellScript", "d5/dd3/a13232.html#a02e8286ade771a3d69245cfbaf2ddd44", null ],
+    [ "Register", "d5/dd3/a13232.html#af690014c0f89bc8cfb50c758dbc095f8", null ]
 ];

@@ -1,6 +1,6 @@
 var a18972 =
 [
-    [ "spell_the_lich_king_play_movie_SpellScript", "d5/d23/a18976.html", "d5/d23/a18976" ],
-    [ "spell_the_lich_king_play_movie", "d6/d10/a18972.html#a694e42a9d3624ef701d145b72c1f2d71", null ],
-    [ "GetSpellScript", "d6/d10/a18972.html#a4422e44990747a1358742a4ad18a6280", null ]
+    [ "spell_the_lich_king_quake_SpellScript", "d5/d23/a18976.html", "d5/d23/a18976" ],
+    [ "spell_the_lich_king_quake", "d6/d10/a18972.html#a46c3e7e4f08cc1b162e6ce6ee7add14e", null ],
+    [ "GetSpellScript", "d6/d10/a18972.html#a5212f9a94e700016a26900fef5d4091e", null ]
 ];

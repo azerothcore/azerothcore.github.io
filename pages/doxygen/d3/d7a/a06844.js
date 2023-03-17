@@ -1,9 +1,9 @@
 var a06844 =
 [
-    [ "BattlegroundEYScore", "d3/d7a/a06844.html#a91c17f1ff1924439b05840cd11ede36f", null ],
-    [ "BuildObjectivesBlock", "d3/d7a/a06844.html#a8a915f38f28ee3929c7922b9fa8f38d6", null ],
-    [ "GetAttr1", "d3/d7a/a06844.html#a43d4b01a1f3c8325795d90f2a97c230c", null ],
-    [ "UpdateScore", "d3/d7a/a06844.html#afad034f453c54587b86532a37335ab18", null ],
-    [ "BattlegroundEY", "d3/d7a/a06844.html#a5d809f1fdf1bb7a29d7504e432e10b8f", null ],
-    [ "FlagCaptures", "d3/d7a/a06844.html#a057a335c7491c1031666e6d10cf314b2", null ]
+    [ "CapturePointInfo", "d3/d7a/a06844.html#a47ba3bbadd15909726e87dc5adc67686", null ],
+    [ "_captured", "d3/d7a/a06844.html#aac26833d9951853183095b3985254e03", null ],
+    [ "_iconCapture", "d3/d7a/a06844.html#a58adc22a7246dd7362efcf9d9a1891ad", null ],
+    [ "_iconNone", "d3/d7a/a06844.html#a43228afe59b8fa004d2c740dd6262f8e", null ],
+    [ "_ownerTeamId", "d3/d7a/a06844.html#aad378d1b07f1ef8c45b0bb1bcce7a028", null ],
+    [ "_state", "d3/d7a/a06844.html#a98cb154218423e295b8007c62222831c", null ]
 ];

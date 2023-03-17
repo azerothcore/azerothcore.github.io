@@ -1,8 +1,9 @@
 var a26544 =
 [
-    [ "npc_cooshcooshAI", "d8/d11/a26548.html", "d8/d11/a26548" ],
-    [ "npc_cooshcoosh", "d7/d46/a26544.html#ac03dee47e035a069b203e4ff0d1953cc", null ],
-    [ "GetAI", "d7/d46/a26544.html#a0a7bb853e06c3777018f9fc91feca701", null ],
-    [ "OnGossipHello", "d7/d46/a26544.html#ab537b7b5affac884441052850ca4a6e5", null ],
-    [ "OnGossipSelect", "d7/d46/a26544.html#a70545a6ef2d9c8838f172afb0de59e74", null ]
+    [ "npc_pet_gen_toxic_wasteling", "d7/d46/a26544.html#a550a1a9324f605b1a9fd715571f819b7", null ],
+    [ "EnterEvadeMode", "d7/d46/a26544.html#abe25deca7fd1c319085995657d62f22a", null ],
+    [ "MovementInform", "d7/d46/a26544.html#aec73d567c3bd178ffee3bdece83a409e", null ],
+    [ "Reset", "d7/d46/a26544.html#a06a8be653c8685aaf28aee1d1d3ae114", null ],
+    [ "UpdateAI", "d7/d46/a26544.html#a22f96d995fcc722c0e95c4f5692cc128", null ],
+    [ "checkTimer", "d7/d46/a26544.html#aafe402e0443bd39a1b7aa274d95edad6", null ]
 ];

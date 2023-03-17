@@ -1,7 +1,7 @@
 var a27816 =
 [
-    [ "HandleDummy", "d3/da7/a27816.html#a7a8016e1403caa0432242c5c3240f107", null ],
-    [ "PrepareSpellScript", "d3/da7/a27816.html#ae2d2de36cceb037006eb4126f8e1778c", null ],
-    [ "Register", "d3/da7/a27816.html#abd09f5df3f31af619f24214f90791a53", null ],
-    [ "Validate", "d3/da7/a27816.html#ab14aedfdb61d54334f60e57968fcf081", null ]
+    [ "HandleDummy", "d3/da7/a27816.html#a074d9bf0a4522da25d6c3bb146ee62db", null ],
+    [ "PrepareSpellScript", "d3/da7/a27816.html#a3d2e0d522e49a278b7dd98150dd32808", null ],
+    [ "Register", "d3/da7/a27816.html#a8775b6e4f537e7db25d7daef6ea04e0e", null ],
+    [ "Validate", "d3/da7/a27816.html#afe4b07d89f705947f77cb62d24d9430d", null ]
 ];

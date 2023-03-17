@@ -1,6 +1,6 @@
 var a25872 =
 [
-    [ "spell_kaelthas_gravity_lapse_SpellScript", "da/d07/a25876.html", "da/d07/a25876" ],
-    [ "spell_kaelthas_gravity_lapse", "d1/d7a/a25872.html#a28147e82cd72283834585227f26e9905", null ],
-    [ "GetSpellScript", "d1/d7a/a25872.html#ab953ec1bffae888dc13109a2bee22ea1", null ]
+    [ "instance_the_eye_InstanceMapScript", "da/d07/a25876.html", "da/d07/a25876" ],
+    [ "instance_the_eye", "d1/d7a/a25872.html#a685064ba70095a3fc27ae1a8b33d3c88", null ],
+    [ "GetInstanceScript", "d1/d7a/a25872.html#a811c7d161469f33ce4fb7d792ce30a4e", null ]
 ];

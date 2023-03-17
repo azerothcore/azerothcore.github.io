@@ -1,5 +1,5 @@
 var a04952 =
 [
-    [ "Head", "d2/ddb/a04952.html#ac5c6d38e71241055f58984e88368494a", null ],
-    [ "Tail", "d2/ddb/a04952.html#a8b16ba737e930ebc023b8cea8231f678", null ]
+    [ "_elements", "d2/ddb/a04952.html#adca71d306b9b5ee6b1dc0dc75cec1f2c", null ],
+    [ "_TailElements", "d2/ddb/a04952.html#a7d3b640a8d68089436c3792b3db088f1", null ]
 ];

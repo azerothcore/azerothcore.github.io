@@ -1,7 +1,10 @@
 var a28156 =
 [
-    [ "HandleDummy", "d5/dd6/a28156.html#a82ff05f6150750ecb6ef3b5f8c40f703", null ],
-    [ "PrepareSpellScript", "d5/dd6/a28156.html#a6856f05f2cc25267f1d3023d3cb48dc2", null ],
-    [ "Register", "d5/dd6/a28156.html#adadd0254d68281ac1063bcc57574ed77", null ],
-    [ "Validate", "d5/dd6/a28156.html#a61923f636ad8b3d48eb2dbc6a1803527", null ]
+    [ "Absorb", "d5/dd6/a28156.html#ab4006b00d415a94e6a49856cee7e272b", null ],
+    [ "CalculateAmount", "d5/dd6/a28156.html#a57bfd4e7178e9e7c3df12c025d0c7d9e", null ],
+    [ "Load", "d5/dd6/a28156.html#a88aa9623f587bb7b5e91da83c76f562a", null ],
+    [ "PrepareAuraScript", "d5/dd6/a28156.html#a456c1bd5b284f642d1e040de52eee24b", null ],
+    [ "Register", "d5/dd6/a28156.html#a905994099dcc4ac9512d5f27b78a778c", null ],
+    [ "Validate", "d5/dd6/a28156.html#ad99966111a1919c610a942a8eb133ea1", null ],
+    [ "healPct", "d5/dd6/a28156.html#a3b0527ce7f1fd6afaa57f942275ec81b", null ]
 ];

@@ -1,6 +1,6 @@
 var a24336 =
 [
-    [ "HandleScriptEffect", "d5/dea/a24336.html#a1a7f6baeb886bf24ee12c73dcde571ab", null ],
-    [ "PrepareSpellScript", "d5/dea/a24336.html#a7cb1bd61d83bd443941564e986f35003", null ],
-    [ "Register", "d5/dea/a24336.html#a910559f44b503a281d8aea0d4f9e4a98", null ]
+    [ "boss_gurtogg_bloodboilAI", "d5/d5d/a24340.html", "d5/d5d/a24340" ],
+    [ "boss_gurtogg_bloodboil", "d5/dea/a24336.html#ae048bbcfaadcf6d99dffa871cedf4b33", null ],
+    [ "GetAI", "d5/dea/a24336.html#ae1cded61e19a654b562533c606938f38", null ]
 ];

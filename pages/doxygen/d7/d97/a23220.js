@@ -1,6 +1,6 @@
 var a23220 =
 [
-    [ "npc_injured_7th_legion_soldierAI", "d7/d97/a23220.html#a6929ef42a003f1337d71f9b23fa37c6e", null ],
-    [ "MovementInform", "d7/d97/a23220.html#a999bc868db485578fcc70ae7e056b778", null ],
-    [ "Reset", "d7/d97/a23220.html#a3021c037acdb141fc3ca4d6f3b146bbf", null ]
+    [ "npc_future_youAI", "da/d19/a23224.html", "da/d19/a23224" ],
+    [ "npc_future_you", "d7/d97/a23220.html#a36e363156bcb32fee468989062817bd5", null ],
+    [ "GetAI", "d7/d97/a23220.html#a2e1529fef3ce307d98057dc93ce5e5fe", null ]
 ];

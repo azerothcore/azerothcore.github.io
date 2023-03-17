@@ -1,8 +1,7 @@
 var a28152 =
 [
-    [ "HandleApply", "df/dbd/a28152.html#aafdf3712f163919f010d11d0becb398f", null ],
-    [ "HandleRemove", "df/dbd/a28152.html#ac3e33cb37d13b633f3938a48917a4975", null ],
-    [ "PrepareAuraScript", "df/dbd/a28152.html#a42590a0ef43a48c5309f995f9bec5c9b", null ],
-    [ "Register", "df/dbd/a28152.html#a84e7337494dc2e1772ca10dea26c675f", null ],
-    [ "Validate", "df/dbd/a28152.html#ac2558aafb3ce66ca7bbfd718eb8c6338", null ]
+    [ "HandleProc", "df/dbd/a28152.html#a72463db57f87387aa3ff3175c45ca9df", null ],
+    [ "PrepareAuraScript", "df/dbd/a28152.html#ae158b4b624b50ad984b2c5e9c16d7670", null ],
+    [ "Register", "df/dbd/a28152.html#a2da64a27cfa5a68464f8f3a885e09751", null ],
+    [ "Validate", "df/dbd/a28152.html#a798f51ee6333d3ebb2bbb617ea88ea2b", null ]
 ];

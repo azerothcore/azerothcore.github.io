@@ -1,6 +1,6 @@
 var a17688 =
 [
-    [ "spell_taldaram_glittering_sparks_SpellScript", "dc/d96/a17692.html", "dc/d96/a17692" ],
-    [ "spell_taldaram_glittering_sparks", "d6/d34/a17688.html#a6f586802a15cfa930c273e2cb5584898", null ],
-    [ "GetSpellScript", "d6/d34/a17688.html#a3d12794edd67a7649ae7e96ed96a0344", null ]
+    [ "npc_kinetic_bombAI", "dc/d96/a17692.html", "dc/d96/a17692" ],
+    [ "npc_kinetic_bomb", "d6/d34/a17688.html#abca5a72d3ac0d50a27e604e8e1491957", null ],
+    [ "GetAI", "d6/d34/a17688.html#ae00630d96dc7a93ea13841c1f9e9be3b", null ]
 ];

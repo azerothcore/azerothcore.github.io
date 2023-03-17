@@ -1,6 +1,7 @@
 var a19576 =
 [
-    [ "spell_icc_sprit_alarm_SpellScript", "de/ddf/a19580.html", "de/ddf/a19580" ],
-    [ "spell_icc_sprit_alarm", "d8/d5d/a19576.html#a7ad8007c34d5d75354c5ef391bbb4904", null ],
-    [ "GetSpellScript", "d8/d5d/a19576.html#a21b2c00338f9467639c7b72c4c4ec621", null ]
+    [ "npc_impaling_spearAI", "d8/d5d/a19576.html#ae8fbc36a15324b210a24a0e98357adc3", null ],
+    [ "Reset", "d8/d5d/a19576.html#a43fa8bf8f22f0635261decd8b15ed6f5", null ],
+    [ "UpdateAI", "d8/d5d/a19576.html#acb187a58b0ba256b4e003655ac36db34", null ],
+    [ "_vehicleCheckTimer", "d8/d5d/a19576.html#a264874b9f6f0609792d4b3a325e54f59", null ]
 ];

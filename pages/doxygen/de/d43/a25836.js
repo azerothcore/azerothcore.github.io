@@ -1,6 +1,6 @@
 var a25836 =
 [
-    [ "spell_kaelthas_resurrection_SpellScript", "db/d30/a25840.html", "db/d30/a25840" ],
-    [ "spell_kaelthas_resurrection", "de/d43/a25836.html#a34cebd3ec6e2e1348e93d8802ac73709", null ],
-    [ "GetSpellScript", "de/d43/a25836.html#a6cbed421ab7fd710e78e0c20ae3f1dd8", null ]
+    [ "lapseTeleport", "de/d43/a25836.html#a55c4330397214bf3a43628b3067d4634", null ],
+    [ "Execute", "de/d43/a25836.html#a122023ed13fce2f5bb3721e459964443", null ],
+    [ "_owner", "de/d43/a25836.html#a0e678c5cdb862390ea50c8d6057b7093", null ]
 ];

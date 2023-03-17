@@ -1,6 +1,6 @@
 var a16548 =
 [
-    [ "spell_gen_leeching_swarm_dmg_SpellScript", "d9/d14/a16552.html", "d9/d14/a16552" ],
-    [ "spell_gen_leeching_swarm_dmg", "d9/dc2/a16548.html#a9f6b89aee3b080ce3b675635097750ff", null ],
-    [ "GetSpellScript", "d9/dc2/a16548.html#a4fa3aca5964728833eb1615df4f31221", null ]
+    [ "npc_nerubian_burrowerAI", "d9/d14/a16552.html", "d9/d14/a16552" ],
+    [ "npc_nerubian_burrower", "d9/dc2/a16548.html#a02c3eb1ed867738c705af8bf38a1aae5", null ],
+    [ "GetAI", "d9/dc2/a16548.html#a145ebac6f95f9190429b9bfa37e23312", null ]
 ];

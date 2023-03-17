@@ -1,6 +1,6 @@
 var a22524 =
 [
-    [ "boss_palehoofAI", "d2/df4/a22528.html", "d2/df4/a22528" ],
-    [ "boss_palehoof", "d7/d21/a22524.html#ac0e541befaad7e1e6e318d64ca4a1d94", null ],
-    [ "GetAI", "d7/d21/a22524.html#ae33ca6e71b251214be50168a5940d058", null ]
+    [ "npc_dragonflayer_forge_masterAI", "d2/df4/a22528.html", "d2/df4/a22528" ],
+    [ "npc_dragonflayer_forge_master", "d7/d21/a22524.html#a920e50234a4a473b28c312c29fb4835a", null ],
+    [ "GetAI", "d7/d21/a22524.html#ac84dc301cf764c27ccf63bf02a53023c", null ]
 ];

@@ -1,7 +1,9 @@
 var a21128 =
 [
-    [ "FilterTargets", "d9/d51/a21128.html#aaa09aae6311b55ee0edac614dbd609bb", null ],
-    [ "HandleScript", "d9/d51/a21128.html#ad109d7d335cbc9bf81066d88900bf327", null ],
-    [ "PrepareSpellScript", "d9/d51/a21128.html#a719f295c0a80fad908714c23140a039e", null ],
-    [ "Register", "d9/d51/a21128.html#a9d90f3f63de5a2c0b30f1250956a505b", null ]
+    [ "spell_auto_repair_SpellScript", "d7/dd9/a21132.html", "d7/dd9/a21132" ],
+    [ "Spells", "d9/d51/a21128.html#aad245ccd970f905f1ec1b7f65c7152a1", [
+      [ "SPELL_AUTO_REPAIR", "d9/d51/a21128.html#aad245ccd970f905f1ec1b7f65c7152a1a58bd7f373c7f6880929dbf4732a559c5", null ]
+    ] ],
+    [ "spell_auto_repair", "d9/d51/a21128.html#af0feeb4bbff4c6346e6e60845b5ddb88", null ],
+    [ "GetSpellScript", "d9/d51/a21128.html#ae8ffa3f11690a805a3033d13f237a20d", null ]
 ];

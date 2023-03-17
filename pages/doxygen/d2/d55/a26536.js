@@ -1,8 +1,8 @@
 var a26536 =
 [
-    [ "npc_natrualist_biteAI", "d2/d55/a26536.html#a2cf8f7e69aaf5b3a01bf231627df24e1", null ],
-    [ "EnterCombat", "d2/d55/a26536.html#a46630706ca9bd46378a8750e6e65c8ce", null ],
-    [ "GetData", "d2/d55/a26536.html#a35b1f6a8a313a443806c8a6e99e0af50", null ],
-    [ "MoveInLineOfSight", "d2/d55/a26536.html#af5bca9b79c335965ab8b4b64730025e4", null ],
-    [ "_spoken", "d2/d55/a26536.html#a8ccaa9bbf3c521241f32254774a0f825", null ]
+    [ "npc_pet_gen_wind_rider_cub", "d2/d55/a26536.html#a17e1f3155b9a9864459e48d1cd11c6a6", null ],
+    [ "UpdateAI", "d2/d55/a26536.html#a534d122522d553e106e6c7729d6c55db", null ],
+    [ "checkTimer", "d2/d55/a26536.html#a39fcfc5f5d9a630180713512db778b32", null ],
+    [ "checkTimer2", "d2/d55/a26536.html#aabeaf7a9b5b77df540e1111950860e98", null ],
+    [ "isFlying", "d2/d55/a26536.html#a57124f8172bd15a5e6c708edff41dc2f", null ]
 ];

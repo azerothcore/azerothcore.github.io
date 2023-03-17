@@ -1,7 +1,7 @@
 var a09864 =
 [
-    [ "LogoutResponse", "d0/da8/a09864.html#a434ee19fbc4d3e336444b1c62ac2be84", null ],
-    [ "Write", "d0/da8/a09864.html#a0b08225b6ac303afd20ec213aafe4bcb", null ],
-    [ "Instant", "d0/da8/a09864.html#aad6819dc426b91b6ad43f180a53e12ef", null ],
-    [ "LogoutResult", "d0/da8/a09864.html#a5543bf1a6342e9a217cd906e4a185b2e", null ]
+    [ "ClientPacket", "d0/da8/a09864.html#aa1d1946c07e248bae5927e83fdad9500", null ],
+    [ "ClientPacket", "d0/da8/a09864.html#a1cdaaacca2695c4366647c7611073ff0", null ],
+    [ "GetOpcode", "d0/da8/a09864.html#aa51558bb8faa96a665fe40b1bddf9d14", null ],
+    [ "Write", "d0/da8/a09864.html#a16e5b9fa05e35fa1e32e33bef2688487", null ]
 ];

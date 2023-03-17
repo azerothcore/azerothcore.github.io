@@ -1,9 +1,6 @@
 var a08004 =
 [
-    [ "areaFlag", "da/d7e/a08004.html#ac6244004ed093c1a3d83749cbc20bfe9", null ],
-    [ "areaID", "da/d7e/a08004.html#a455a890a1d82d31873873ac497cb83b7", null ],
-    [ "x1", "da/d7e/a08004.html#a7624a89c7eac16955dbebb47f0c721d6", null ],
-    [ "x2", "da/d7e/a08004.html#aebdb021c0b9c40d624d5115b24616a12", null ],
-    [ "y1", "da/d7e/a08004.html#a04a84fe41ba2bc9996eb0bd70248222a", null ],
-    [ "y2", "da/d7e/a08004.html#a84f612cf6d1905e948c7c9a6cb870e31", null ]
+    [ "PlayerCreateInfoItem", "da/d7e/a08004.html#aba5495af3d4c463f7f65fa1851879d3b", null ],
+    [ "item_amount", "da/d7e/a08004.html#a2cc481d54ec0c8a58477803364f40b2a", null ],
+    [ "item_id", "da/d7e/a08004.html#a54e5593fe1a1e06b16963c96f1840a2a", null ]
 ];

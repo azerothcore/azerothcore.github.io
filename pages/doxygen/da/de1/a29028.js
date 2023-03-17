@@ -1,5 +1,5 @@
 var a29028 =
 [
-    [ "achievement_bg_ic_glaive_grave", "da/de1/a29028.html#a97e1cead0102a120b3bd14592ea26034", null ],
-    [ "OnCheck", "da/de1/a29028.html#a0eacab5595969cfe5e3d083c984dfd77", null ]
+    [ "AreaTrigger_at_nats_landing", "da/de1/a29028.html#ac366e5b1db489b4f8bb8a1d07caa83c2", null ],
+    [ "OnTrigger", "da/de1/a29028.html#a67434f74300fa3463e679afb7d344467", null ]
 ];

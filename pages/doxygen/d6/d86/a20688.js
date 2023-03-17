@@ -1,5 +1,6 @@
 var a20688 =
 [
-    [ "boss_sjonnir_dwarfAI", "d6/d86/a20688.html#aee7608282bef500a7eb3e0d3130fa01c", null ],
-    [ "UpdateAI", "d6/d86/a20688.html#afef50cec19e4cb2018c7c8a9e36ef41c", null ]
+    [ "CalculateDamage", "d6/d86/a20688.html#a0a92fa8b689c020193ccc8cd37be3afb", null ],
+    [ "PrepareSpellScript", "d6/d86/a20688.html#a29e4639053fda5488848b47b9c2b35bc", null ],
+    [ "Register", "d6/d86/a20688.html#a888add31d80ebf8bbeb54ace2dff7f96", null ]
 ];

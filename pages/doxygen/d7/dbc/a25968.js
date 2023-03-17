@@ -1,6 +1,6 @@
 var a25968 =
 [
-    [ "npc_ragin_flamesAI", "d9/dff/a25972.html", "d9/dff/a25972" ],
-    [ "npc_ragin_flames", "d7/dbc/a25968.html#a20e9690d0c20775708c45680af884796", null ],
-    [ "GetAI", "d7/dbc/a25968.html#a65270f910baacabac588a46480454aca", null ]
+    [ "npc_deaths_door_fell_cannon_target_bunnyAI", "d9/dff/a25972.html", "d9/dff/a25972" ],
+    [ "npc_deaths_door_fell_cannon_target_bunny", "d7/dbc/a25968.html#a1385e50777282fae0c8f8ca2f9f8a3e6", null ],
+    [ "GetAI", "d7/dbc/a25968.html#a250707096229da28024960beeb7725bf", null ]
 ];

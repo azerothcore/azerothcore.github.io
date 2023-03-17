@@ -1,6 +1,6 @@
 var a25588 =
 [
-    [ "spell_tsh_shoot_flame_arrow_SpellScript", "da/da0/a25592.html", "da/da0/a25592" ],
-    [ "spell_tsh_shoot_flame_arrow", "d0/d6f/a25588.html#ab96181791576a6139ab5817d5f8a2bf3", null ],
-    [ "GetSpellScript", "d0/d6f/a25588.html#a70cbf204a4a58c27652d9ec9b9ee2568", null ]
+    [ "npc_millhouse_manastormAI", "da/da0/a25592.html", "da/da0/a25592" ],
+    [ "npc_millhouse_manastorm", "d0/d6f/a25588.html#aebc8efc48d207ad7f1105fa636b9c104", null ],
+    [ "GetAI", "d0/d6f/a25588.html#ac4516785f7daf544718fc201197ba977", null ]
 ];

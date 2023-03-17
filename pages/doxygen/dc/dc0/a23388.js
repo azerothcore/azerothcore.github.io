@@ -1,6 +1,7 @@
 var a23388 =
 [
-    [ "npc_outhouse_bunnyAI", "dc/d0c/a23392.html", "dc/d0c/a23392" ],
-    [ "npc_outhouse_bunny", "dc/dc0/a23388.html#a93fd86254c2372b56551b57018b20bb8", null ],
-    [ "GetAI", "dc/dc0/a23388.html#afac71d9bf1c56988b4156f89ca1c3d46", null ]
+    [ "npc_emilyAI", "dc/d0c/a23392.html", "dc/d0c/a23392" ],
+    [ "npc_emily", "dc/dc0/a23388.html#ab40f581fad087b3d32a7724fca97895d", null ],
+    [ "GetAI", "dc/dc0/a23388.html#a6317e4b9787c25ce119d08432cd1acf7", null ],
+    [ "OnQuestAccept", "dc/dc0/a23388.html#ad434e7bf2427b3575a8459021e792152", null ]
 ];

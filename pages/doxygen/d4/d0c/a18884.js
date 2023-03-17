@@ -1,6 +1,6 @@
 var a18884 =
 [
-    [ "HandleInfusion", "d4/d0c/a18884.html#a55dcadcfeaa8f740d974576ee2a0f268", null ],
-    [ "PrepareSpellScript", "d4/d0c/a18884.html#a972750817e3da3f32df03063f4efcbf4", null ],
-    [ "Register", "d4/d0c/a18884.html#a2b43eefb8d7774bb3b5cfe35785ed062", null ]
+    [ "spell_frostwarden_handler_order_whelp_SpellScript", "de/d48/a18888.html", "de/d48/a18888" ],
+    [ "spell_frostwarden_handler_order_whelp", "d4/d0c/a18884.html#a2582656e04e22c9db34bc5afbb45b576", null ],
+    [ "GetSpellScript", "d4/d0c/a18884.html#a06729a0dc8d26a6cd9b9845e35b41887", null ]
 ];

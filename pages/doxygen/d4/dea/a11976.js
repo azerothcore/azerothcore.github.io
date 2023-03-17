@@ -1,9 +1,11 @@
 var a11976 =
 [
-    [ "boss_maiden_of_virtueAI", "d4/dea/a11976.html#aba49df0f0ba67fb9fcdd313f65ef7548", null ],
-    [ "EnterCombat", "d4/dea/a11976.html#a4106af77aa51fed2a4df5f2c91338489", null ],
-    [ "JustDied", "d4/dea/a11976.html#a18669963ca0c9835be3f196c77926238", null ],
-    [ "KilledUnit", "d4/dea/a11976.html#ad592031c52bee68f3e003b0809415640", null ],
-    [ "Reset", "d4/dea/a11976.html#a440cf31ba6ef92fd2c5aa4acf777aadc", null ],
-    [ "UpdateAI", "d4/dea/a11976.html#ad968cb4cbffaeec4ede7988f1f059d30", null ]
+    [ "boss_mr_smiteAI", "d4/dea/a11976.html#a277e52b7086db7e6447c4ad07ff8c8a2", null ],
+    [ "JustEngagedWith", "d4/dea/a11976.html#a3b2e5636b6c13bc243a067cacc7ab529", null ],
+    [ "MovementInform", "d4/dea/a11976.html#ade54a8fa42cbbf9febecf1a3eee00fd3", null ],
+    [ "Reset", "d4/dea/a11976.html#a8b90bbc2a0cdfdb09a3f8ddde2bf4108", null ],
+    [ "UpdateAI", "d4/dea/a11976.html#aa1693c8cc5bcc60a256f5d61f81cce1a", null ],
+    [ "events", "d4/dea/a11976.html#a3471692c39233f3c25cdc875c0078f2c", null ],
+    [ "health34", "d4/dea/a11976.html#adc83683c2f6a7073469cd2f5aa325717", null ],
+    [ "health67", "d4/dea/a11976.html#af30c26b46b14e9e16fe5d48d4dcf23de", null ]
 ];

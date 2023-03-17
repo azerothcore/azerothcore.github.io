@@ -1,6 +1,6 @@
 var a18408 =
 [
-    [ "npc_volatile_oozeAI", "d1/d20/a18412.html", "d1/d20/a18412" ],
-    [ "npc_volatile_ooze", "d5/dd9/a18408.html#a22847e44812a0b13b92cfcca3a70204e", null ],
-    [ "GetAI", "d5/dd9/a18408.html#a66b4918c14d90d5550ddc8dbe90c2e01", null ]
+    [ "AbominationDespawner", "d5/dd9/a18408.html#a3bbf8c5d4e42569ffe993a3c3b8ff95e", null ],
+    [ "operator()", "d5/dd9/a18408.html#a58b8faac1cdffa7230783a1d6439fcfb", null ],
+    [ "_owner", "d5/dd9/a18408.html#af9089e566905b885887a5714ad5b0741", null ]
 ];

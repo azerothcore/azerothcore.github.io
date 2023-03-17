@@ -1,6 +1,6 @@
 var a18164 =
 [
-    [ "spell_igb_periodic_trigger_with_power_cost_AuraScript", "d3/d75/a18168.html", "d3/d75/a18168" ],
-    [ "spell_igb_periodic_trigger_with_power_cost", "d6/d35/a18164.html#a98148d3002ff8c3615b77bbdde33618a", null ],
-    [ "GetAuraScript", "d6/d35/a18164.html#a3d6b6f45db80521f2a59fa6044e419e0", null ]
+    [ "IgbExplosionCheck", "d6/d35/a18164.html#ae67cca111f26a275614810cbe053bcd8", null ],
+    [ "operator()", "d6/d35/a18164.html#a28ce6685366e99db2aa1e4022012f943", null ],
+    [ "_source", "d6/d35/a18164.html#a413ee8f2218621d274d118aea967dc9b", null ]
 ];

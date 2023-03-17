@@ -1,6 +1,6 @@
 var a18060 =
 [
-    [ "npc_gunship_boarding_add_realAI", "d6/d6c/a18064.html", "d6/d6c/a18064" ],
-    [ "npc_gunship_boarding_add", "d2/d88/a18060.html#aa80871f80bae7186d3665f73d757e108", null ],
-    [ "GetAI", "d2/d88/a18060.html#ad7e173bffccca6d852ba545427235447", null ]
+    [ "npc_igb_ship_crewAI", "d6/d6c/a18064.html", "d6/d6c/a18064" ],
+    [ "npc_igb_ship_crew", "d2/d88/a18060.html#a5f4380aba94766a6a75b97026998b881", null ],
+    [ "GetAI", "d2/d88/a18060.html#a48955817e21a01a726b50685b467c229", null ]
 ];

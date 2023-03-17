@@ -1,5 +1,11 @@
 var a11052 =
 [
-    [ "flag", "d1/dc1/a11052.html#a4ea67fc10eedfaa2e5e029e242e1c32f", null ],
-    [ "text", "d1/dc1/a11052.html#a492e5e3c2373adba005034514b0a5a1e", null ]
+    [ "instance_commandscript", "d1/dc1/a11052.html#a4d0b308b35a1aa21c66c8bd406ffa82f", null ],
+    [ "GetCommands", "d1/dc1/a11052.html#a092d62969c835f6bf2a08ca3e05f04d5", null ],
+    [ "HandleInstanceGetBossStateCommand", "d1/dc1/a11052.html#a1435d100be4cdbe146c30f96be2ec66d", null ],
+    [ "HandleInstanceListBindsCommand", "d1/dc1/a11052.html#abf42411f9c78ce59b21b34691e3d4233", null ],
+    [ "HandleInstanceSaveDataCommand", "d1/dc1/a11052.html#a4b494a8b1de470612436fbb9fa433416", null ],
+    [ "HandleInstanceSetBossStateCommand", "d1/dc1/a11052.html#aec65b5af811eae2cbcf17571e9d1473b", null ],
+    [ "HandleInstanceStatsCommand", "d1/dc1/a11052.html#a9547a0a88a3bcd7407c449f3f2f25f44", null ],
+    [ "HandleInstanceUnbindCommand", "d1/dc1/a11052.html#a7abbe257b10632f2acbdd838e1f073a9", null ]
 ];

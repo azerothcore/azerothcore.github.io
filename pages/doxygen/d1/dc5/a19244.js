@@ -1,6 +1,6 @@
 var a19244 =
 [
-    [ "npc_lk_spirit_bombAI", "dc/d1b/a19248.html", "dc/d1b/a19248" ],
-    [ "npc_lk_spirit_bomb", "d1/dc5/a19244.html#acc08d41aa1761c450de782e92307ad7c", null ],
-    [ "GetAI", "d1/dc5/a19244.html#ade74c00beb2da69dafb0ae93d771c430", null ]
+    [ "spell_the_lich_king_soul_rip_AuraScript", "dc/d1b/a19248.html", "dc/d1b/a19248" ],
+    [ "spell_the_lich_king_soul_rip", "d1/dc5/a19244.html#a42ef2ed059f9a09c2306c48052f890c7", null ],
+    [ "GetAuraScript", "d1/dc5/a19244.html#a29bd3b91f9a3e5a5cdd154c7c2cef928", null ]
 ];

@@ -1,8 +1,7 @@
 var a27840 =
 [
-    [ "HandleDummy", "d2/da5/a27840.html#ac6db67f521a8fd1e8de4cd22220b45fe", null ],
-    [ "Load", "d2/da5/a27840.html#af767de9953372e5e56509a0be9e90958", null ],
-    [ "PrepareSpellScript", "d2/da5/a27840.html#a0385a22f908ac62ab987fe9f84cad330", null ],
-    [ "Register", "d2/da5/a27840.html#a1212726a4fcbac06b527648dff58c546", null ],
-    [ "Validate", "d2/da5/a27840.html#ab014db76cf4656e10665f12fb18c5997", null ]
+    [ "HandleDummy", "d2/da5/a27840.html#aec0b2ad3b10f2ccbc755cf7278a5ed46", null ],
+    [ "PrepareSpellScript", "d2/da5/a27840.html#ac1ba0d23cbf805c234ac9d898f6bab85", null ],
+    [ "Register", "d2/da5/a27840.html#afd1588dc55730c52a922f37e60ec134a", null ],
+    [ "Validate", "d2/da5/a27840.html#aaed3ba3d986173b5941e048370d5ebe2", null ]
 ];

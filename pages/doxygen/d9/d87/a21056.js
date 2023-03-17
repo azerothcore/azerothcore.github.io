@@ -1,6 +1,9 @@
 var a21056 =
 [
-    [ "npc_pool_of_tarAI", "d9/d87/a21056.html#a6141addc9b1cf2c0028d98ef4f4d9d37", null ],
-    [ "DamageTaken", "d9/d87/a21056.html#a4ea55aa08123f724268238e0def5b595", null ],
-    [ "SpellHit", "d9/d87/a21056.html#acb63166b396c079d5b4bb9db67a1448a", null ]
+    [ "npc_hodirs_furyAI", "d9/d87/a21056.html#ae08a68a79a3fef952f6dfa50b4eaabca", null ],
+    [ "MovementInform", "d9/d87/a21056.html#a37b07ddee5403ee2de8f69904412ed42", null ],
+    [ "Reset", "d9/d87/a21056.html#a389f0f17fbc7860c5531f4859be561d3", null ],
+    [ "UpdateAI", "d9/d87/a21056.html#a5417d68891ad0f93c8130c9a14d57513", null ],
+    [ "_switchTargetTimer", "d9/d87/a21056.html#a8d15c1e290438c8a4aa50887cfffccba", null ],
+    [ "_timeToHit", "d9/d87/a21056.html#a594356602bd0068fba82bea64e284837", null ]
 ];

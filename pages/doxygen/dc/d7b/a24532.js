@@ -1,6 +1,7 @@
 var a24532 =
 [
-    [ "boss_essence_of_desireAI", "d2/d02/a24536.html", "d2/d02/a24536" ],
-    [ "boss_essence_of_desire", "dc/d7b/a24532.html#a5006ce57dd19c2a80e961dedca8c503d", null ],
-    [ "GetAI", "dc/d7b/a24532.html#a14b66470c508fa24e214062aeec0aae6", null ]
+    [ "SuckBackEvent", "dc/d7b/a24532.html#a6525e2aefec2680fde20e27ebf962f4c", null ],
+    [ "Execute", "dc/d7b/a24532.html#aae1664e6ef9d90ec8a0e12554b991bf0", null ],
+    [ "_action", "dc/d7b/a24532.html#abc54669df2dba0238723a40ababe4c0a", null ],
+    [ "_owner", "dc/d7b/a24532.html#a4d8bc09803f7786022c1836457ded488", null ]
 ];

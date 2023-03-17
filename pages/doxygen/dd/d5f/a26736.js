@@ -1,7 +1,6 @@
 var a26736 =
 [
-    [ "CheckProc", "dd/d5f/a26736.html#abd74252153fc4fc9a4e561005ea58b3f", null ],
-    [ "HandleProc", "dd/d5f/a26736.html#a911b81552e7193dbf1cfc11037b44d84", null ],
-    [ "PrepareAuraScript", "dd/d5f/a26736.html#ae169eb2c0e194f8f34ee2a0d5fd973d3", null ],
-    [ "Register", "dd/d5f/a26736.html#a72d89db31c1fbd5c3b49b4c05a2d90f4", null ]
+    [ "HandleScriptEffect", "dd/d5f/a26736.html#afaffd667477e286700dd7e5562423452", null ],
+    [ "PrepareSpellScript", "dd/d5f/a26736.html#a9c30d4d6427cfc96b88a1427afcedb00", null ],
+    [ "Register", "dd/d5f/a26736.html#ab8b68e02d05abceeb4b7eef00092e759", null ]
 ];

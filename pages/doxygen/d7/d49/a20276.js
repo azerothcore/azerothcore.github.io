@@ -1,5 +1,6 @@
 var a20276 =
 [
-    [ "go_the_focusing_iris", "d7/d49/a20276.html#a9c2fa1e739ff98ebdd9b9fdcc2ab5ece", null ],
-    [ "OnGossipHello", "d7/d49/a20276.html#a7f3f1170713d63f912ca5732453a7e33", null ]
+    [ "npc_hover_diskAI", "dc/da0/a20280.html", "dc/da0/a20280" ],
+    [ "npc_hover_disk", "d7/d49/a20276.html#af0ab534387a2af4e168915801ee855e5", null ],
+    [ "GetAI", "d7/d49/a20276.html#adbe9285126089ca998e9b6360f42c553", null ]
 ];

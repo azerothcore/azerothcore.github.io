@@ -1,6 +1,7 @@
 var a27796 =
 [
-    [ "PartyTimeEmoteEvent", "db/dd0/a27796.html#a525efd58fc8465658208058e6dc5d31c", null ],
-    [ "Execute", "db/dd0/a27796.html#a65a796ff4efece46c519f7bdf1524bb8", null ],
-    [ "_player", "db/dd0/a27796.html#a61ecb44828c6e4c868def8899791feb3", null ]
+    [ "HandleDummy", "db/dd0/a27796.html#ab9c732cc91f926331dea6b94c1021801", null ],
+    [ "PrepareSpellScript", "db/dd0/a27796.html#a80799c42f9f31f49d20d880dd377e3b4", null ],
+    [ "Register", "db/dd0/a27796.html#ae012e6852f079682fbafc776dec3455b", null ],
+    [ "Validate", "db/dd0/a27796.html#afc10f1989ae4b9cff7527f2d73180cde", null ]
 ];

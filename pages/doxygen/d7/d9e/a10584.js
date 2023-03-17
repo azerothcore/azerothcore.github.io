@@ -1,8 +1,12 @@
 var a10584 =
 [
-    [ "first", "d7/d9e/a10584.html#a49aea8bfed353c2c552f6195b8e9f60a", null ],
-    [ "last", "d7/d9e/a10584.html#a05a8077c7ec39bcca66fe84aa1da7040", null ],
-    [ "next", "d7/d9e/a10584.html#a0a7791b7069912a013299e7afaf4142f", null ],
-    [ "prev", "d7/d9e/a10584.html#ae27b7d0aa5a2ae5cb75a7f0d397c849f", null ],
-    [ "rank", "d7/d9e/a10584.html#a0b58cef8fc18f91fa59b8c7d7b9f9872", null ]
+    [ "cooldown", "d7/d9e/a10584.html#a0cd88c27979ccc5284aa46846db32a7c", null ],
+    [ "customChance", "d7/d9e/a10584.html#adf6742b70f0b00abddf1da6f45da3d16", null ],
+    [ "ppmRate", "d7/d9e/a10584.html#a931b2df4a187482e32ef252c3320080a", null ],
+    [ "procEx", "d7/d9e/a10584.html#a911770f28fe36243593b12fe92d6fbec", null ],
+    [ "procFlags", "d7/d9e/a10584.html#af253ef32b9de49fe85d0fe6f06855a60", null ],
+    [ "procPhase", "d7/d9e/a10584.html#a179d83770a02e4ab13f809ed3943a399", null ],
+    [ "schoolMask", "d7/d9e/a10584.html#a9a6d38ee4e4a35066780ef924c63f92f", null ],
+    [ "spellFamilyMask", "d7/d9e/a10584.html#a2aa57bf419ab51129fe7240750ee8910", null ],
+    [ "spellFamilyName", "d7/d9e/a10584.html#a5ffa91b3f66ebb0ac34f30e1c532fb3a", null ]
 ];

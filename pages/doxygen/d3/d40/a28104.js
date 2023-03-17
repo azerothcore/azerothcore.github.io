@@ -1,6 +1,6 @@
 var a28104 =
 [
-    [ "CalculateAmount", "d3/d40/a28104.html#a3491a0a1d2f00f76730ddc53a66c8179", null ],
-    [ "PrepareAuraScript", "d3/d40/a28104.html#a667883298cee173af941cfc07022f318", null ],
-    [ "Register", "d3/d40/a28104.html#a22514461b79f736e3ab595fa7fb48b68", null ]
+    [ "CheckTarget", "d3/d40/a28104.html#af1dae4f351ccaa7bc9b2ea315f0752c5", null ],
+    [ "PrepareSpellScript", "d3/d40/a28104.html#a8f4075c80c7dcaa16f71bc1b396d005f", null ],
+    [ "Register", "d3/d40/a28104.html#af4a27df3090a45ebd5db29c58e9ea47f", null ]
 ];

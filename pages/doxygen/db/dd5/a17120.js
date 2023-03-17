@@ -1,6 +1,9 @@
 var a17120 =
 [
-    [ "spell_hor_shared_sufferingAuraScript", "de/da4/a17124.html", "de/da4/a17124" ],
-    [ "spell_hor_shared_suffering", "db/dd5/a17120.html#a3f2e4fd6fd6f1d998e0f416c89421354", null ],
-    [ "GetAuraScript", "db/dd5/a17120.html#a1005546188769336161ad8e572b6d5fe", null ]
+    [ "HandleAfterEffectAbsorb", "db/dd5/a17120.html#a678f446c74e2ca1b3452aae69aff5e04", null ],
+    [ "Load", "db/dd5/a17120.html#a9fdd96c87e60b2fa7f7b96209f3c1386", null ],
+    [ "PrepareAuraScript", "db/dd5/a17120.html#a8d3b25eb4197cfe45a6a188de6085494", null ],
+    [ "Register", "db/dd5/a17120.html#a36f244df0bdd5238437c3eb3b2f3f108", null ],
+    [ "amount", "db/dd5/a17120.html#a4660bdb675532fbbc015219c20c83303", null ],
+    [ "fired", "db/dd5/a17120.html#ad7757f565735b176d896b37c909a7b85", null ]
 ];

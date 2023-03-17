@@ -1,6 +1,6 @@
 var a20436 =
 [
-    [ "instance_oculus_InstanceMapScript", "d8/d26/a20440.html", "d8/d26/a20440" ],
-    [ "instance_oculus", "de/d21/a20436.html#a404205ea7106531ea57307c40b9589bb", null ],
-    [ "GetInstanceScript", "de/d21/a20436.html#ae6d28dfd615e79d4308e4384b7c8857f", null ]
+    [ "boss_eregosAI", "d8/d26/a20440.html", "d8/d26/a20440" ],
+    [ "boss_eregos", "de/d21/a20436.html#a105820f29aa1391d77a56e024c4b5637", null ],
+    [ "GetAI", "de/d21/a20436.html#aee43f0dfee70ab9618c560a27504cb02", null ]
 ];

@@ -1,6 +1,7 @@
 var a28456 =
 [
-    [ "HandleDummy", "de/d51/a28456.html#a39c913c3e3225a9b27d17d4ceadd3c70", null ],
-    [ "PrepareSpellScript", "de/d51/a28456.html#a7936186af106ae3ddeec3bc9b39ff127", null ],
-    [ "Register", "de/d51/a28456.html#aa8ce1f0413e19d8f6d403b220fc6749c", null ]
+    [ "HandleEffectPeriodic", "de/d51/a28456.html#a2fab66e86d3c0207183db72ecbb6fc6c", null ],
+    [ "PrepareAuraScript", "de/d51/a28456.html#ae0e3b459c71933c25da8136cdcddf200", null ],
+    [ "Register", "de/d51/a28456.html#ac924ebbc893476cabab5f05120d0cd8d", null ],
+    [ "Validate", "de/d51/a28456.html#ada327cf500aec62fdf34f9d8a4ccd6e2", null ]
 ];

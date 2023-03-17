@@ -1,7 +1,8 @@
 var a23900 =
 [
-    [ "npc_wg_siege_machineAI", "d6/d77/a23900.html#aaeca9e73520701ce28f2cc9d1483cc6b", null ],
-    [ "CanControlVehicle", "d6/d77/a23900.html#a7ce79406da48e245a0baa2fdd23622b9", null ],
-    [ "UpdateAI", "d6/d77/a23900.html#a8ddd21047a857facc767a9edc0ec5408", null ],
-    [ "checkTimer", "d6/d77/a23900.html#abf4b06eae50adeefedba02e2186ea48a", null ]
+    [ "npc_wg_spirit_guideAI", "d0/d7c/a23904.html", "d0/d7c/a23904" ],
+    [ "npc_wg_spirit_guide", "d6/d77/a23900.html#ad6ca047a51547203ee2c5f69efb6f2d3", null ],
+    [ "GetAI", "d6/d77/a23900.html#a769cdf4ac330b5dec71437d325aaf46a", null ],
+    [ "OnGossipHello", "d6/d77/a23900.html#a2d46078cb47f817239685d168f7f2e35", null ],
+    [ "OnGossipSelect", "d6/d77/a23900.html#aae050d38b9fa9c16d398d2733b1e5faf", null ]
 ];

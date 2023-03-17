@@ -1,6 +1,6 @@
 var a12052 =
 [
-    [ "netherspite_infernalAI", "d5/d49/a12056.html", "d5/d49/a12056" ],
-    [ "netherspite_infernal", "df/dcb/a12052.html#a0215ce5ad1346c9a2e1d4a27908784bc", null ],
-    [ "GetAI", "df/dcb/a12052.html#af714b40283ac4194662e2988d2a8ceec", null ]
+    [ "boss_midnightAI", "d5/d49/a12056.html", "d5/d49/a12056" ],
+    [ "boss_midnight", "df/dcb/a12052.html#a237bd599437d03834a70bc8e1a016514", null ],
+    [ "GetAI", "df/dcb/a12052.html#a031a218bf482f83520e245e3afb20605", null ]
 ];

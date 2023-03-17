@@ -1,6 +1,6 @@
 var a02267 =
 [
-    [ "character_commandscript", "df/ddd/a10951.html", "df/ddd/a10951" ],
-    [ "character_commandscript::DeletedInfo", "db/df7/a10955.html", "db/df7/a10955" ],
-    [ "AddSC_character_commandscript", "d5/d95/a02267.html#a97f9cac12c34068d5e63b2ed28ddf9e2", null ]
+    [ "bg_commandscript", "dd/def/a10972.html", "dd/def/a10972" ],
+    [ "AddSC_bag_commandscript", "d5/d95/a02267.html#a8fa1e803122341d611168b2b62fde4e5", null ],
+    [ "itemQualityToString", "d5/d95/a02267.html#af266597924b9d3f439ffc9908001d2cb", null ]
 ];

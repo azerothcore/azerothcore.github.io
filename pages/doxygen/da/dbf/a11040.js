@@ -1,10 +1,10 @@
 var a11040 =
 [
-    [ "mmaps_commandscript", "da/dbf/a11040.html#a1dbdfd26bdb685315a3012453080a56f", null ],
-    [ "GetCommands", "da/dbf/a11040.html#aec91072f9e651c9136bf1a405a9bb95a", null ],
-    [ "HandleMmapLoadedTilesCommand", "da/dbf/a11040.html#a40d5b7e733298210c686fe89490b6f61", null ],
-    [ "HandleMmapLocCommand", "da/dbf/a11040.html#aa3dc699456256d8b2ab9fdd97891bd96", null ],
-    [ "HandleMmapPathCommand", "da/dbf/a11040.html#a2c876439ad6d9ff7523f140d97743dea", null ],
-    [ "HandleMmapStatsCommand", "da/dbf/a11040.html#a823b56cdbb0c97176990bb01af9af9fc", null ],
-    [ "HandleMmapTestArea", "da/dbf/a11040.html#aaae2e5548a6bd9c670db0721ea7508bd", null ]
+    [ "group_commandscript", "da/dbf/a11040.html#ad2890427cfe3649b2e0fe0896693372c", null ],
+    [ "GetCommands", "da/dbf/a11040.html#a5e7e069c58ecc5baca4ef1118e6c143e", null ],
+    [ "HandleGroupDisbandCommand", "da/dbf/a11040.html#a538539340a697e02453ddcfa669fb646", null ],
+    [ "HandleGroupJoinCommand", "da/dbf/a11040.html#a382e8532c653464e90b45569e813ae37", null ],
+    [ "HandleGroupLeaderCommand", "da/dbf/a11040.html#a899858a63add3c68e0e1446d29216c00", null ],
+    [ "HandleGroupListCommand", "da/dbf/a11040.html#a1b841d1c4bc59b56f2d166767089b93f", null ],
+    [ "HandleGroupRemoveCommand", "da/dbf/a11040.html#a2bbb27e0f221ce533f0b0e94e944f7fb", null ]
 ];

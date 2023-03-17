@@ -1,6 +1,6 @@
 var a13208 =
 [
-    [ "HandleAfterCast", "d8/dc2/a13208.html#a1f928ce0688ec4fb56c5ef616638ce6f", null ],
-    [ "PrepareSpellScript", "d8/dc2/a13208.html#a92e0fb60373bf62a2d04e02a920a1e3b", null ],
-    [ "Register", "d8/dc2/a13208.html#ae7abc2e042944586019364919bc4c03b", null ]
+    [ "OnPeriodic", "d8/dc2/a13208.html#a36a5cc378f78447853ef100e297becd9", null ],
+    [ "PrepareAuraScript", "d8/dc2/a13208.html#aa10abdf4411da03f03dfa27c3df1a9a7", null ],
+    [ "Register", "d8/dc2/a13208.html#a1098b7df187ad030adcc16cb82911151", null ]
 ];

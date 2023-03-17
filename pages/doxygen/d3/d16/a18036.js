@@ -1,6 +1,6 @@
 var a18036 =
 [
-    [ "npc_igb_ship_crewAI", "de/d05/a18040.html", "de/d05/a18040" ],
-    [ "npc_igb_ship_crew", "d3/d16/a18036.html#a5f4380aba94766a6a75b97026998b881", null ],
-    [ "GetAI", "d3/d16/a18036.html#a48955817e21a01a726b50685b467c229", null ]
+    [ "npc_high_overlord_saurfang_igbAI", "de/d05/a18040.html", "de/d05/a18040" ],
+    [ "npc_high_overlord_saurfang_igb", "d3/d16/a18036.html#ae68d42f65851a753874705511bb83330", null ],
+    [ "GetAI", "d3/d16/a18036.html#a54b6da97a40665232d28a20bac9b7ef3", null ]
 ];

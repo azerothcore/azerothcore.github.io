@@ -1,8 +1,8 @@
 var a27932 =
 [
-    [ "HandleDummy", "da/de0/a27932.html#ae5487bc9e4c7444468d076785af473ca", null ],
-    [ "Load", "da/de0/a27932.html#a3bf16100687a002a0d3b95bea11dc90f", null ],
-    [ "PrepareSpellScript", "da/de0/a27932.html#a8586b480a304f19741de62b606c9f456", null ],
-    [ "Register", "da/de0/a27932.html#a4698eab378b8cf6d4aeb595b53a9df13", null ],
-    [ "Validate", "da/de0/a27932.html#ab3e697ba71654bf9b67e1d1660b3a7ea", null ]
+    [ "HandleScript", "da/de0/a27932.html#ad99c741ef4bf707ec4b4726a3610d827", null ],
+    [ "Load", "da/de0/a27932.html#ab7aac5c557c76fdd195565a99d746dc9", null ],
+    [ "PrepareSpellScript", "da/de0/a27932.html#abb6e76d537d61b5b38ce4488d230d6de", null ],
+    [ "Register", "da/de0/a27932.html#a2f7e819dfa30f4f0d3645fde9c87408c", null ],
+    [ "Validate", "da/de0/a27932.html#a0767c66cbc288bee6ee0eb3a4fde315f", null ]
 ];

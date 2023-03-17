@@ -1,4 +1,4 @@
 var a00815 =
 [
-    [ "SmartScript", "db/d12/a05903.html", "db/d12/a05903" ]
+    [ "SmartScript", "d8/dec/a05928.html", "d8/dec/a05928" ]
 ];

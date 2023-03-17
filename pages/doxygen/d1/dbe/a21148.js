@@ -1,6 +1,6 @@
 var a21148 =
 [
-    [ "spell_vehicle_grab_pyrite_SpellScript", "de/d4f/a21152.html", "de/d4f/a21152" ],
-    [ "spell_vehicle_grab_pyrite", "d1/dbe/a21148.html#a815b21bb1f0e08c4ada2475e2fd99970", null ],
-    [ "GetSpellScript", "d1/dbe/a21148.html#a9df48dbfa959c5514f0260de7cf00a38", null ]
+    [ "spell_pursue_SpellScript", "de/d4f/a21152.html", "de/d4f/a21152" ],
+    [ "spell_pursue", "d1/dbe/a21148.html#a1ba1ed11405b137a92e74a4932df3d70", null ],
+    [ "GetSpellScript", "d1/dbe/a21148.html#afbf6fce8a3c9d4d1406585367c7f6b02", null ]
 ];

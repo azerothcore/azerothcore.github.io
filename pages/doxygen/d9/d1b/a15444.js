@@ -1,6 +1,7 @@
 var a15444 =
 [
-    [ "HandleEffectPeriodic", "d9/d1b/a15444.html#a093a682bc5043b63af016aa130fdc0b8", null ],
-    [ "PrepareAuraScript", "d9/d1b/a15444.html#a035cc2dfc78a0ee292ddab3633d44c10", null ],
-    [ "Register", "d9/d1b/a15444.html#a74c29ca2047da995d6d6f89f17ecb52f", null ]
+    [ "npc_aged_dying_ancient_kodoAI", "d9/d1b/a15444.html#aaed19d0c915891d8afecda7df75a8a75", null ],
+    [ "JustRespawned", "d9/d1b/a15444.html#a9353ac81b0c209a56313b52f2257ddd2", null ],
+    [ "MoveInLineOfSight", "d9/d1b/a15444.html#a295d4bef97b97c7deb31a81274f0818d", null ],
+    [ "SpellHit", "d9/d1b/a15444.html#a021b82aa6bd2e118fe810f18349fda42", null ]
 ];

@@ -1,5 +1,6 @@
 var a21516 =
 [
-    [ "achievement_i_could_say_that_this_cache_was_rare", "df/de2/a21516.html#a8ec1949d92f21fe57f967e510453da3e", null ],
-    [ "OnCheck", "df/de2/a21516.html#af68ad314c9b7be57964ca9baa8015bc9", null ]
+    [ "spell_hodir_storm_power_AuraScript", "d8/d68/a21520.html", "d8/d68/a21520" ],
+    [ "spell_hodir_storm_power", "df/de2/a21516.html#a70994976d36b72b069bd383cbd1e5365", null ],
+    [ "GetAuraScript", "df/de2/a21516.html#a880331bf7f10002c0516ffa05413b333", null ]
 ];

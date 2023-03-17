@@ -1,6 +1,6 @@
 var a22500 =
 [
-    [ "npc_dragonflayer_forge_masterAI", "d8/d5c/a22504.html", "d8/d5c/a22504" ],
-    [ "npc_dragonflayer_forge_master", "de/d1d/a22500.html#a920e50234a4a473b28c312c29fb4835a", null ],
-    [ "GetAI", "de/d1d/a22500.html#ac84dc301cf764c27ccf63bf02a53023c", null ]
+    [ "boss_skarvald_the_constructorAI", "d8/d5c/a22504.html", "d8/d5c/a22504" ],
+    [ "boss_skarvald_the_constructor", "de/d1d/a22500.html#ae96b7ee4ddcf7956141b85c4c4d4129c", null ],
+    [ "GetAI", "de/d1d/a22500.html#a979e3699d9c87cf4207b70026fb49180", null ]
 ];

@@ -1,6 +1,6 @@
 var a26020 =
 [
-    [ "OnPeriodic", "dd/d62/a26020.html#af0e0091f1728592fb796c0eb96ab17c3", null ],
-    [ "PrepareAuraScript", "dd/d62/a26020.html#a7c1a4bf303dfd22f01fce3ffb9bd81a2", null ],
-    [ "Register", "dd/d62/a26020.html#a31752f9ce5796e43f0ba7f9803b9a1aa", null ]
+    [ "go_apexis_relic", "dd/d62/a26020.html#a91ff5a986ee62b628456e9f5c75f6bc9", null ],
+    [ "OnGossipHello", "dd/d62/a26020.html#ae8f7167ba5b973881e32d604691dc15a", null ],
+    [ "OnGossipSelect", "dd/d62/a26020.html#a025cc7cc9c69f0eb461445170972ab52", null ]
 ];

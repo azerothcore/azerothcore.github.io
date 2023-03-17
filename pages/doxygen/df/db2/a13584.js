@@ -1,6 +1,7 @@
 var a13584 =
 [
-    [ "npc_halazzi_lynxAI", "d5/dc3/a13588.html", "d5/dc3/a13588" ],
-    [ "npc_halazzi_lynx", "df/db2/a13584.html#a5f66f9d984506a3f8b70ebdde8f49df6", null ],
-    [ "GetAI", "df/db2/a13584.html#acfe913656f71658686b11afe6019579b", null ]
+    [ "npc_daphne_stilwellAI", "d5/dc3/a13588.html", "d5/dc3/a13588" ],
+    [ "npc_daphne_stilwell", "df/db2/a13584.html#ad844c5f0409936d7068ee55271506041", null ],
+    [ "GetAI", "df/db2/a13584.html#af1872100f3eeb14e894277cfc8e1a74b", null ],
+    [ "OnQuestAccept", "df/db2/a13584.html#ad7b293efc802506a825f202e34cb0f4d", null ]
 ];

@@ -1,6 +1,6 @@
 var a16936 =
 [
-    [ "spell_tharon_ja_clear_gift_of_tharon_ja_SpellScript", "d6/d61/a16940.html", "d6/d61/a16940" ],
-    [ "spell_tharon_ja_clear_gift_of_tharon_ja", "d4/d05/a16936.html#abb24795bfc012a149836c59e96808e73", null ],
-    [ "GetSpellScript", "d4/d05/a16936.html#ae82a302c49635cf30b625e224742ad11", null ]
+    [ "HandleScript", "d4/d05/a16936.html#a54f27e1e44a1544c707f85d5cd13cfd3", null ],
+    [ "PrepareSpellScript", "d4/d05/a16936.html#a7bb10b15f9b119a4a641ac5752d84112", null ],
+    [ "Register", "d4/d05/a16936.html#ae55729616c2f819addee3db2ea53d3d2", null ]
 ];

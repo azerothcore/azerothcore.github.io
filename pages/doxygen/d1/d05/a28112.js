@@ -1,8 +1,8 @@
 var a28112 =
 [
-    [ "HandleDummy", "d1/d05/a28112.html#a04ff6beb930b65395ebc3df99bc53dfa", null ],
-    [ "PrepareSpellScript", "d1/d05/a28112.html#a73eabf1e68c966f31fe8d83c2fd925c1", null ],
-    [ "Register", "d1/d05/a28112.html#a6b03fbcf18612d9bb7361c3e4f022dc0", null ],
-    [ "Validate", "d1/d05/a28112.html#a9df13e3e8895854bc086fbfaccfb1b2c", null ],
-    [ "PolymorhForms", "d1/d05/a28112.html#a1443d2532a060514e697a8d5e0c21b20", null ]
+    [ "CheckCast", "d1/d05/a28112.html#a0d7910cd2b9d9f4174575532502d40f9", null ],
+    [ "HandleDummy", "d1/d05/a28112.html#a1eac1eb5f39093ff48942e82728478dd", null ],
+    [ "PrepareSpellScript", "d1/d05/a28112.html#adbb58b75232560d101b291c0d99a2a20", null ],
+    [ "Register", "d1/d05/a28112.html#a6acb46e81171e13f50ac1f01bf83013b", null ],
+    [ "Validate", "d1/d05/a28112.html#a4b67c348685a8094668e4ed2f0c78446", null ]
 ];

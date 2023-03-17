@@ -1,5 +1,6 @@
 var a21372 =
 [
-    [ "go_ulduar_pure_saronite_deposit", "dc/dac/a21372.html#a39da51a78b9f27392ed7494e18e89b93", null ],
-    [ "OnGossipHello", "dc/dac/a21372.html#ab69c5b514e0b79ff7155e0080841d4a2", null ]
+    [ "spell_saronite_vapors_dummy_AuraScript", "d1/db4/a21376.html", "d1/db4/a21376" ],
+    [ "spell_saronite_vapors_dummy", "dc/dac/a21372.html#a0296efd0f1e1103ef1c8f1d674db4a2d", null ],
+    [ "GetAuraScript", "dc/dac/a21372.html#a0f2fb73b742af8e626c599e38676ec53", null ]
 ];

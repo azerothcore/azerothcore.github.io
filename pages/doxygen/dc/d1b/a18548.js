@@ -1,6 +1,6 @@
 var a18548 =
 [
-    [ "spell_putricide_mutated_transformation_dismiss_AuraScript", "df/d02/a18552.html", "df/d02/a18552" ],
-    [ "spell_putricide_mutated_transformation_dismiss", "dc/d1b/a18548.html#a45c8ca83e56a7543988d3cc79174c3fc", null ],
-    [ "GetAuraScript", "dc/d1b/a18548.html#a51991764ba71fe36146672164643d8ba", null ]
+    [ "HandleScript", "dc/d1b/a18548.html#a4f0a18fc2d21e8018e720c9e1d6664df", null ],
+    [ "PrepareSpellScript", "dc/d1b/a18548.html#a20296c8579ae8ba80638bfaee67aec80", null ],
+    [ "Register", "dc/d1b/a18548.html#ab531ce145b25f0d71e5ce57fb1ee9202", null ]
 ];

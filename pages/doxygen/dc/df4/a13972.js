@@ -1,16 +1,10 @@
 var a13972 =
 [
-    [ "boss_renatakiAI", "dc/df4/a13972.html#ac154bfadeb99d67f59e1682de257e8bf", null ],
-    [ "CanAIAttack", "dc/df4/a13972.html#af20dc14dc56500e568a3a11bfb34a227", null ],
-    [ "CanAlwaysBeDetectable", "dc/df4/a13972.html#af75108eacb982586f43a175beede78ef", null ],
-    [ "CanBeSeen", "dc/df4/a13972.html#ac79db0d4488702be0cd12b5e03a9bcb9", null ],
-    [ "CanSeeAlways", "dc/df4/a13972.html#a6e4a1e9bec67a1bdac4c9cef3da4b17d", null ],
-    [ "DamageTaken", "dc/df4/a13972.html#a62d97adb310b55a2235737b854dc4aca", null ],
-    [ "EnterCombat", "dc/df4/a13972.html#aa39efee489fe67b450124e1a49567841", null ],
-    [ "Reset", "dc/df4/a13972.html#ad50d8e24fb4168186497c5cdb5b39a68", null ],
-    [ "UpdateAI", "dc/df4/a13972.html#a3a1abaef460d9abe1298080080d74c9d", null ],
-    [ "_dynamicFlags", "dc/df4/a13972.html#a502bfa737cf97ae909144278a3e39bd0", null ],
-    [ "_enraged", "dc/df4/a13972.html#a71e717a2ea732729762aff7970439f74", null ],
-    [ "_thousandBladesCount", "dc/df4/a13972.html#a29dd57c66245f30d12f32d31cc25cd55", null ],
-    [ "_thousandBladesTargets", "dc/df4/a13972.html#ab8b2b52a2ef8ea6586381234c9a3e3fc", null ]
+    [ "npc_vilebranch_speaker", "dc/df4/a13972.html#acd8dfc95c5969fe67e1386d5dbd5884b", null ],
+    [ "JustDied", "dc/df4/a13972.html#aa7708f176879db3acd50399b74e4a90c", null ],
+    [ "JustEngagedWith", "dc/df4/a13972.html#a236afb8512c2d941479f8a7c18f688a6", null ],
+    [ "Reset", "dc/df4/a13972.html#a248195a137cb91f10a882ec12974c7c5", null ],
+    [ "UpdateAI", "dc/df4/a13972.html#a75f263fa9241319b58bf77cbf1b75088", null ],
+    [ "_scheduler", "dc/df4/a13972.html#abd52bbd2ce88b011176d93ae92b851d0", null ],
+    [ "instance", "dc/df4/a13972.html#a88fb28d2c39f0da967ab6706872e68b2", null ]
 ];

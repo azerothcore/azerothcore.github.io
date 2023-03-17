@@ -1,6 +1,6 @@
 var a17592 =
 [
-    [ "HandlePeriodic", "d9/d70/a17592.html#a74e6f96e79e0e71cf1d2e4806f536f68", null ],
-    [ "PrepareAuraScript", "d9/d70/a17592.html#aa349faeddfe4c24d6e6157dc66c80df1", null ],
-    [ "Register", "d9/d70/a17592.html#a7e78137ee84916828862c818bfd082fd", null ]
+    [ "spell_moorabi_mojo_frenzy_AuraScript", "d8/d42/a17596.html", "d8/d42/a17596" ],
+    [ "spell_moorabi_mojo_frenzy", "d9/d70/a17592.html#a87a11ecaff9e424c55069f2df936fedd", null ],
+    [ "GetAuraScript", "d9/d70/a17592.html#abeaba5bba75c103f64c458611137b12b", null ]
 ];

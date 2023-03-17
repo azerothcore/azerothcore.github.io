@@ -1,6 +1,5 @@
 var a19852 =
 [
-    [ "npc_isle_of_conquest_turretAI", "de/d81/a19856.html", "de/d81/a19856" ],
-    [ "npc_isle_of_conquest_turret", "dd/d72/a19852.html#ac080845203adef25e6841133b7e2f4dc", null ],
-    [ "GetAI", "dd/d72/a19852.html#a0f532e12439e900b3cb77619f1ecd17d", null ]
+    [ "at_frozen_throne_teleport", "dd/d72/a19852.html#a8065b9f9b55b267be1757775f84de349", null ],
+    [ "OnTrigger", "dd/d72/a19852.html#ae1f9476b7f47320f545e702e9317bd03", null ]
 ];

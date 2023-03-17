@@ -1,10 +1,9 @@
 var a28616 =
 [
-    [ "CheckProc", "da/d19/a28616.html#a5971c42af47d1cc8045a130deb218a04", null ],
-    [ "HandleProc", "da/d19/a28616.html#a45aaf5afebc2fa533240fcf8233430ed", null ],
-    [ "Load", "da/d19/a28616.html#a7664b0f67c9e3b14841ed9e30447544d", null ],
-    [ "PrepareAuraScript", "da/d19/a28616.html#a291fcf1af497d1e83a31209cd01a360d", null ],
-    [ "Register", "da/d19/a28616.html#af16d0517ad07a454145da0b92c051740", null ],
-    [ "Validate", "da/d19/a28616.html#ac768a5f4738dee9ad7d885fa6136785e", null ],
-    [ "_procTargetGUID", "da/d19/a28616.html#a13976d069846f29d2f744f3f03502787", null ]
+    [ "HandleHeal", "da/d19/a28616.html#ad2d854d275dc6f8b67b866d864b6febe", null ],
+    [ "Load", "da/d19/a28616.html#a507a7a4ff11f8bf1157e034d086cd9ad", null ],
+    [ "PrepareSpellScript", "da/d19/a28616.html#a91eb46af707897f228e5d1bbd199a833", null ],
+    [ "Register", "da/d19/a28616.html#ae28f1b0c23511153eafc037cae067bc0", null ],
+    [ "firstHeal", "da/d19/a28616.html#a405326e6e1cd82816aef1712fdf335a0", null ],
+    [ "riptide", "da/d19/a28616.html#acaec32f6730bc2e04e613aa982d285bf", null ]
 ];

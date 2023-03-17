@@ -1,7 +1,9 @@
 var a15652 =
 [
-    [ "npc_steward_of_time", "de/dbd/a15652.html#ad49973464c96f44506033b73a85f6360", null ],
-    [ "OnGossipHello", "de/dbd/a15652.html#a3b61038393c3addbbfa6643438164db3", null ],
-    [ "OnGossipSelect", "de/dbd/a15652.html#af4fe13e266a98129b92e5a25188d947c", null ],
-    [ "OnQuestAccept", "de/dbd/a15652.html#a53d552282da49e8246089b2799fff9ca", null ]
+    [ "go_wind_stoneAI", "de/dbd/a15652.html#a4370be2b59ea50bf5ea2285bfbf4e242", null ],
+    [ "GossipHello", "de/dbd/a15652.html#a73f129b7b636a1178fe3402cf1e6c50d", null ],
+    [ "GossipSelect", "de/dbd/a15652.html#aff4dedbf3a6fea405722f7064633edb1", null ],
+    [ "InitializeAI", "de/dbd/a15652.html#a33f98d1de05b539a66c4103b4c61de1f", null ],
+    [ "SummonNPC", "de/dbd/a15652.html#ab44f563b8f117a19ac78508c3cba72e9", null ],
+    [ "_creatureGuid", "de/dbd/a15652.html#a50ad8b248381a6d9fac7a291796966d6", null ]
 ];

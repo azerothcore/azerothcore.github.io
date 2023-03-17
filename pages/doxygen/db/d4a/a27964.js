@@ -1,7 +1,6 @@
 var a27964 =
 [
-    [ "HandleHeal", "db/d4a/a27964.html#a30a5d100e899052598ac6ebf68b0d630", null ],
-    [ "Load", "db/d4a/a27964.html#a9389c5ed206546edadd2b374b6d1d083", null ],
-    [ "PrepareSpellScript", "db/d4a/a27964.html#aa9013c98808203a09e5f1cf5ad444537", null ],
-    [ "Register", "db/d4a/a27964.html#aaec4586d9c929a38245b748953940589", null ]
+    [ "CheckProc", "db/d4a/a27964.html#af38c2b1c556a1fcdb1157468cd02811e", null ],
+    [ "PrepareAuraScript", "db/d4a/a27964.html#a42b97406721d3493a378394132a55981", null ],
+    [ "Register", "db/d4a/a27964.html#af4d514906f66af1b2f2392bcfc5e8b9c", null ]
 ];

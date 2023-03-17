@@ -1,6 +1,6 @@
 var a10716 =
 [
-    [ "EffectProcHandler", "d3/d1f/a10716.html#a613d5e85c3a7449e4f31719966dcdcc1", null ],
-    [ "Call", "d3/d1f/a10716.html#ae03d27451f687319629b3c54c5a7eed5", null ],
-    [ "_EffectHandlerScript", "d3/d1f/a10716.html#a8cb9ec4cfee59bc44063ac5cbf25844f", null ]
+    [ "EffectUpdatePeriodicHandler", "d3/d1f/a10716.html#a6b18a259aa84c847bcc064c5243eb590", null ],
+    [ "Call", "d3/d1f/a10716.html#a38802863e7859453cbbe58ad91018c67", null ],
+    [ "pEffectHandlerScript", "d3/d1f/a10716.html#a0e51245e089fcd9532d5789056ab944c", null ]
 ];

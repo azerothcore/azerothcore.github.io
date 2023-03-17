@@ -1,7 +1,6 @@
 var a11632 =
 [
-    [ "HandlePeriodic", "d9/d3c/a11632.html#ac2196cc9de34e286581d44d147fe9d04", null ],
-    [ "PrepareAuraScript", "d9/d3c/a11632.html#a149c974371f23268d2d929b483637b14", null ],
-    [ "Register", "d9/d3c/a11632.html#a6a2f42867a7082d2b8406c651d5dc484", null ],
-    [ "Validate", "d9/d3c/a11632.html#ab77b8a7dca3dc9bbd20cdb498d1d317e", null ]
+    [ "boss_firemawAI", "d9/d60/a11636.html", "d9/d60/a11636" ],
+    [ "boss_firemaw", "d9/d3c/a11632.html#a71174eb128356802be0029fd9e24fe1f", null ],
+    [ "GetAI", "d9/d3c/a11632.html#a3a20bcefa86a21daaecaef14396dadc4", null ]
 ];

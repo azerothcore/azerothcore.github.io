@@ -1,7 +1,6 @@
 var a27928 =
 [
-    [ "HandleDummy", "d3/df4/a27928.html#a630b3359dcecdb65992df67fbc4b197b", null ],
-    [ "PrepareSpellScript", "d3/df4/a27928.html#a9960211eda513e642a386e0ff3bcd4c5", null ],
-    [ "Register", "d3/df4/a27928.html#aaa1c9db89ddd7a7590b3b41b377d4cec", null ],
-    [ "Validate", "d3/df4/a27928.html#a9af89aba8006d93b8c0ae2ce7143255e", null ]
+    [ "HandleEffect", "d3/df4/a27928.html#a41b46d8918b59a1617f383b3eedfe343", null ],
+    [ "PrepareSpellScript", "d3/df4/a27928.html#acfc69e6323292e6c64fbe8d2e10efcdc", null ],
+    [ "Register", "d3/df4/a27928.html#a78f1476ed28eb1e80356dbf3d32918f5", null ]
 ];

@@ -1,6 +1,6 @@
 var a16988 =
 [
-    [ "spell_dtk_raise_dead_AuraScript", "d4/d1e/a16992.html", "d4/d1e/a16992" ],
-    [ "spell_dtk_raise_dead", "d8/d79/a16988.html#a57f825ba0dcc65666f133c9e6cf10356", null ],
-    [ "GetAuraScript", "d8/d79/a16988.html#a2f6c7d8bf3893747e67915b1e0f3a9e3", null ]
+    [ "HandleScriptEffect", "d8/d79/a16988.html#a3af2e19a6df09ff589a314ca37a70b0c", null ],
+    [ "PrepareSpellScript", "d8/d79/a16988.html#a4da5f3469d01323e841e65452f263922", null ],
+    [ "Register", "d8/d79/a16988.html#a8ab8b90b5da95f99caf94ca0f1ec3121", null ]
 ];

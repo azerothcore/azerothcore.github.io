@@ -1,6 +1,6 @@
 var a22460 =
 [
-    [ "npc_vrykul_skeletonAI", "d1/df4/a22464.html", "d1/df4/a22464" ],
-    [ "npc_vrykul_skeleton", "d5/d5e/a22460.html#a08b79a9baba3cd05768d13ff36b6ed42", null ],
-    [ "GetAI", "d5/d5e/a22460.html#a74292cbb6f83ef9b6b90febda02570a5", null ]
+    [ "boss_ingvar_the_plundererAI", "d1/df4/a22464.html", "d1/df4/a22464" ],
+    [ "boss_ingvar_the_plunderer", "d5/d5e/a22460.html#a9e3612be4a81159dee2b883d434d811d", null ],
+    [ "GetAI", "d5/d5e/a22460.html#aa0411c10b875bd1a804a7679f27dbf92", null ]
 ];

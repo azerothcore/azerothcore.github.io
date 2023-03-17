@@ -1,6 +1,6 @@
 var a24448 =
 [
-    [ "spell_illidan_cage_trap_stun_AuraScript", "d8/d7d/a24452.html", "d8/d7d/a24452" ],
-    [ "spell_illidan_cage_trap_stun", "dd/d63/a24448.html#ad0ab46d93ec32c50f5600b3e39f15793", null ],
-    [ "GetAuraScript", "dd/d63/a24448.html#ada8e95c55e13583be817e51c8fd41331", null ]
+    [ "HandleScriptEffect", "dd/d63/a24448.html#a6a7b7e35a8a608acb86d605a577e42cc", null ],
+    [ "PrepareSpellScript", "dd/d63/a24448.html#acacef6d2ffea45de3ddd457c164efbec", null ],
+    [ "Register", "dd/d63/a24448.html#a32397f20a4fe8a2313dfcbd3f59d5d62", null ]
 ];

@@ -1,8 +1,6 @@
 var a11356 =
 [
-    [ "boss_drakkisathAI", "d5/dac/a11356.html#a7c347bcdb092afcd64b481b87d0895ea", null ],
-    [ "EnterCombat", "d5/dac/a11356.html#a8cc2d170a6977121a8319a549e991300", null ],
-    [ "UpdateAI", "d5/dac/a11356.html#a02ffab01744c0dbb8b5a60794e82bdb0", null ],
-    [ "_conflagrateTarget", "d5/dac/a11356.html#a6a74b74e4e4b45aec86f70a5211ddd28", null ],
-    [ "_conflagrateThreat", "d5/dac/a11356.html#aae3762b27c3d99b32f47293c544e4afe", null ]
+    [ "boss_high_priestess_thaurissanAI", "d5/dac/a11356.html#acbc89b59865a5fda5a4143dd8c690b37", null ],
+    [ "JustEngagedWith", "d5/dac/a11356.html#a6602682950aab4e9932bf6cdfac9886b", null ],
+    [ "UpdateAI", "d5/dac/a11356.html#a216a5bc7a38aa5e13f9d025f44e04779", null ]
 ];

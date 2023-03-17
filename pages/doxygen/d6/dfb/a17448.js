@@ -1,5 +1,6 @@
 var a17448 =
 [
-    [ "PrepareAuraScript", "d6/dfb/a17448.html#a408a44efe2e85ebcb4840025466e5d9e", null ],
-    [ "Register", "d6/dfb/a17448.html#a41d972e3b7ecf7159ceda6b2d0afe855", null ]
+    [ "SlaveRunEvent", "d6/dfb/a17448.html#a4560b275b0870cdbd192b2610893b47c", null ],
+    [ "Execute", "d6/dfb/a17448.html#a81db67be136525dea5a9cd84180be165", null ],
+    [ "_owner", "d6/dfb/a17448.html#a33e2ce4cea1edf2e0967696c41667f15", null ]
 ];

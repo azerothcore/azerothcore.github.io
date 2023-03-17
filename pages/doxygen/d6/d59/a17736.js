@@ -1,6 +1,8 @@
 var a17736 =
 [
-    [ "KnockIntoAir", "d6/d59/a17736.html#aeb2bfb1fa66c4b02f7e8b7f1fd81f222", null ],
-    [ "PrepareSpellScript", "d6/d59/a17736.html#a93c3d35b67718c68be025e8c3cbe563f", null ],
-    [ "Register", "d6/d59/a17736.html#ae7bc2ffa730a8d70a1c88f6e4e479ad0", null ]
+    [ "spell_valanar_kinetic_bomb_AuraScript", "d9/dbf/a17744.html", "d9/dbf/a17744" ],
+    [ "spell_valanar_kinetic_bomb_SpellScript", "d0/dcd/a17740.html", "d0/dcd/a17740" ],
+    [ "spell_valanar_kinetic_bomb", "d6/d59/a17736.html#a59451bedccb912150717594cc725b485", null ],
+    [ "GetAuraScript", "d6/d59/a17736.html#a159c1a287388b2f1dc0ed06a982725eb", null ],
+    [ "GetSpellScript", "d6/d59/a17736.html#a45c55df9affcacaf9249fa7b46f18964", null ]
 ];

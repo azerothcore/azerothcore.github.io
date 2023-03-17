@@ -1,6 +1,8 @@
 var a18152 =
 [
-    [ "IgbTeleportOnVictoryCheck", "df/dab/a18152.html#a29ee8cac93b9920e598da9205406e608", null ],
-    [ "operator()", "df/dab/a18152.html#acf85943e238179e911434358f1593be2", null ],
-    [ "_inst", "df/dab/a18152.html#a015353ecb66da16c697152b7ad3c527e", null ]
+    [ "Load", "df/dab/a18152.html#a28df32c3bae8cc46bedd949b0fc0463d", null ],
+    [ "PrepareSpellScript", "df/dab/a18152.html#aab7460be248cddc37e634cf1e1b505fd", null ],
+    [ "Register", "df/dab/a18152.html#a9fbfe5687cd9d4ef12d7d8b89ff49cbf", null ],
+    [ "RelocateDest", "df/dab/a18152.html#a933794f0e99e63c27cf0da61d2686a03", null ],
+    [ "SelectTransport", "df/dab/a18152.html#aa020ce5e5c172a32ee13b0b715e4a461", null ]
 ];

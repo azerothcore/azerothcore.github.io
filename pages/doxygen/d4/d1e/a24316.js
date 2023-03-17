@@ -1,6 +1,6 @@
 var a24316 =
 [
-    [ "boss_gurtogg_bloodboilAI", "dc/d04/a24320.html", "dc/d04/a24320" ],
-    [ "boss_gurtogg_bloodboil", "d4/d1e/a24316.html#ae048bbcfaadcf6d99dffa871cedf4b33", null ],
-    [ "GetAI", "d4/d1e/a24316.html#ae1cded61e19a654b562533c606938f38", null ]
+    [ "PrepareSpellScript", "d4/d1e/a24316.html#aca75ac12794b53c43921fbf0c1bf8b73", null ],
+    [ "RecalculateDamage", "d4/d1e/a24316.html#a75a7e8f3089f146073fec6d9c4c2fea2", null ],
+    [ "Register", "d4/d1e/a24316.html#aa5a2db49b1db3eeae83a572f1777f4c9", null ]
 ];

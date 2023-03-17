@@ -1,6 +1,6 @@
 var a29260 =
 [
-    [ "go_heatAI", "dc/d17/a29264.html", "dc/d17/a29264" ],
-    [ "go_heat", "dc/d61/a29260.html#a6c3d6919652159e4fd265b6d63f59c16", null ],
-    [ "GetAI", "dc/d61/a29260.html#a9f19009a78c7abd349d2e2e7bf98c1a0", null ]
+    [ "go_bashir_crystalforge", "dc/d61/a29260.html#a8b68a63933e14d82198580912fddc280", null ],
+    [ "OnGossipHello", "dc/d61/a29260.html#a4aa941ae78a17eecc5593d6ccd17ff63", null ],
+    [ "OnGossipSelect", "dc/d61/a29260.html#ac7e1b6db4ae2bee766b95049a8b0c320", null ]
 ];

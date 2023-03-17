@@ -1,6 +1,6 @@
 var a17052 =
 [
-    [ "boss_devourer_of_soulsAI", "d5/d09/a17056.html", "d5/d09/a17056" ],
-    [ "boss_devourer_of_souls", "d2/def/a17052.html#a95b3a33be3b85a4c7ecfb4370a9ddc60", null ],
-    [ "GetAI", "d2/def/a17052.html#a3de68fa630c5b74104c461f88edd1d36", null ]
+    [ "spell_bronjahm_magic_bane_SpellScript", "d5/d09/a17056.html", "d5/d09/a17056" ],
+    [ "spell_bronjahm_magic_bane", "d2/def/a17052.html#a76a7fdc271c9d83bf3037e8c28cbb1c4", null ],
+    [ "GetSpellScript", "d2/def/a17052.html#a15100aed9749a1efe8ef9df8c5790b78", null ]
 ];

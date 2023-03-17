@@ -1,6 +1,6 @@
 var a25796 =
 [
-    [ "spell_astromancer_solarian_transform_AuraScript", "d9/dd6/a25800.html", "d9/dd6/a25800" ],
-    [ "spell_astromancer_solarian_transform", "d8/dab/a25796.html#a5350ac636d5ea6b9e0a46eb315d465ad", null ],
-    [ "GetAuraScript", "d8/dab/a25796.html#aadd4fda6306fe21d359b6b166babf1ca", null ]
+    [ "spell_kaelthas_summon_weapons_SpellScript", "d9/dd6/a25800.html", "d9/dd6/a25800" ],
+    [ "spell_kaelthas_summon_weapons", "d8/dab/a25796.html#a7c2a3c3485ac721e9aa229ec7d981668", null ],
+    [ "GetSpellScript", "d8/dab/a25796.html#a8ddc67813022a57e6e9d4b8175c58441", null ]
 ];

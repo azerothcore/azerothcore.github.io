@@ -1,6 +1,6 @@
 var a14244 =
 [
-    [ "npc_soh_fire_trigger", "dc/d1e/a14244.html#a8bddde264f4848c9a8ed83dcad190223", null ],
-    [ "Reset", "dc/d1e/a14244.html#acbec442907a8b40ae04496c53f210aa2", null ],
-    [ "SpellHit", "dc/d1e/a14244.html#a6b96cc998d38c9fbf0ce93e0529c0f4c", null ]
+    [ "npc_grizzlemaw_cw_triggerAI", "dc/d33/a14248.html", "dc/d33/a14248" ],
+    [ "npc_grizzlemaw_cw_trigger", "dc/d1e/a14244.html#a4514796784d974ba6de09b5a5d4e5f3b", null ],
+    [ "GetAI", "dc/d1e/a14244.html#a1a834bda866033a3cca4fc4ece447313", null ]
 ];

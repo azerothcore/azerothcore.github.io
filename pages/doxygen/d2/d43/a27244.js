@@ -1,7 +1,9 @@
 var a27244 =
 [
-    [ "HandleScript", "d2/d43/a27244.html#a9fb69011ce5245925eb6a4fd011d18b2", null ],
-    [ "PrepareSpellScript", "d2/d43/a27244.html#ab9300ff0efc4a36d652a1b56c031dc2f", null ],
-    [ "Register", "d2/d43/a27244.html#aa0828fa1a3cf75e8222607a4f2fff950", null ],
-    [ "Validate", "d2/d43/a27244.html#a9469ebca2d40dd2944f2fb7286fc64ff", null ]
+    [ "PrepareAuraScript", "d2/d43/a27244.html#aebfc1dfb1ff025b0ef4a8c0062a000f1", null ],
+    [ "RefreshVisualShields", "d2/d43/a27244.html#aeefbbdd391c347b350ec7738b9825f8c", null ],
+    [ "Register", "d2/d43/a27244.html#aacd9f12cddd0c698816916d9cdf5f0ea", null ],
+    [ "RemoveDummyFromDriver", "d2/d43/a27244.html#a399641ce72b74038a4517868267bd86a", null ],
+    [ "RemoveVisualShields", "d2/d43/a27244.html#aed4bb9ec815ac4e22b952a64c8bd3b51", null ],
+    [ "Validate", "d2/d43/a27244.html#ae5799f72b7fbce82799fd730f1525948", null ]
 ];

@@ -1,9 +1,7 @@
 var a08236 =
 [
-    [ "GameEventAIHookWorker", "d2/d05/a08236.html#ad72640a18d2d32a9201c965089ee49cf", null ],
-    [ "Visit", "d2/d05/a08236.html#a23d979ee43838e7d58e9123e36474a5a", null ],
-    [ "Visit", "d2/d05/a08236.html#a79106ec550d072d690bbf3496d76cb0a", null ],
-    [ "Visit", "d2/d05/a08236.html#a165476edd8b252bbb90b8b78fae963a6", null ],
-    [ "_activate", "d2/d05/a08236.html#a756665eafa08f3c8c51ccef69bdd619f", null ],
-    [ "_eventId", "d2/d05/a08236.html#ab1ee68bb7134e84780772eba2cfac766", null ]
+    [ "HealthPctOrderPred", "d2/d05/a08236.html#a5c83c0ba35b9febbe6a62dae63995f97", null ],
+    [ "operator()", "d2/d05/a08236.html#a2c7f4043e5268b13bf0d9f46e9709a9b", null ],
+    [ "operator()", "d2/d05/a08236.html#a23f2dc594fd531d02cd6eae0faa7f6b7", null ],
+    [ "_ascending", "d2/d05/a08236.html#a4c34feefafc014b50ba2869a9bdb9959", null ]
 ];

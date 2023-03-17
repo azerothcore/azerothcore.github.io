@@ -1,6 +1,6 @@
 var a11388 =
 [
-    [ "boss_lord_valthalakAI", "d4/dc2/a11392.html", "d4/dc2/a11392" ],
-    [ "boss_lord_valthalak", "da/d88/a11388.html#a180ecb2e2b11ee79c80de18124de3dbc", null ],
-    [ "GetAI", "da/d88/a11388.html#a771bd8ff3918d71007b5e4b05baf3df3", null ]
+    [ "RestoreAttack", "da/d88/a11388.html#a8c5b3b0cbe7f5bfebb1c09987c4066e3", null ],
+    [ "Execute", "da/d88/a11388.html#a633e5abe4a3a9353df63d3778b8d71bc", null ],
+    [ "_boss", "da/d88/a11388.html#a493ef909da834b0befd90f57f54fb10c", null ]
 ];

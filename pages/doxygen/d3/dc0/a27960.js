@@ -1,9 +1,12 @@
 var a27960 =
 [
-    [ "CheckCast", "d3/dc0/a27960.html#af92fe276563a8ca0d939d881dba8adda", null ],
-    [ "HandleDummy", "d3/dc0/a27960.html#a86b4413dd25f96fb197604007171a8d1", null ],
-    [ "Load", "d3/dc0/a27960.html#ab1800d2550b944dcfa9967cc0e79c5ee", null ],
-    [ "PrepareSpellScript", "d3/dc0/a27960.html#a47aa868fbabee8a3988bcc93402b8cfb", null ],
-    [ "Register", "d3/dc0/a27960.html#a1b4ff1b3b518a2e4bad1836de6793561", null ],
-    [ "Validate", "d3/dc0/a27960.html#a8d0c2f18927e811f3d3cdee94e3623c0", null ]
+    [ "CalcPeriodic", "d3/dc0/a27960.html#a5b57273e0d9fc39a000c7bf4e232acb4", null ],
+    [ "CalculateAPAmount", "d3/dc0/a27960.html#a65b6f1a2b322c928fd9a5992380d2e95", null ],
+    [ "CalculateResistanceAmount", "d3/dc0/a27960.html#a3860e12ea334cb61a437941b6f9b81e0", null ],
+    [ "CalculateSPAmount", "d3/dc0/a27960.html#abf0d76c220911d88990f3071f14a9d5a", null ],
+    [ "CalculateStatAmount", "d3/dc0/a27960.html#a56489b52592e63dd00640de388926512", null ],
+    [ "HandleEffectApply", "d3/dc0/a27960.html#a5180cc8beb5244bd0b957dfc89dc9cf4", null ],
+    [ "HandlePeriodic", "d3/dc0/a27960.html#a67cb7b817f29dd41aa7d0dc8c87dc820", null ],
+    [ "PrepareAuraScript", "d3/dc0/a27960.html#a5b65221c67283a29cbeb63cafe64457a", null ],
+    [ "Register", "d3/dc0/a27960.html#acc22795ea812f31b0b9e21e6494c2d19", null ]
 ];

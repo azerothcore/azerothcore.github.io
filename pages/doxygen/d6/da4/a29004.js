@@ -1,7 +1,5 @@
 var a29004 =
 [
-    [ "CheckProc", "d6/da4/a29004.html#a957f8837b5613a3bfd8200ded3529c54", null ],
-    [ "HandleEffectProc", "d6/da4/a29004.html#a54810a897e535558d060119e3de6537b", null ],
-    [ "PrepareAuraScript", "d6/da4/a29004.html#a37950bfd846e1c2c550a108461941a26", null ],
-    [ "Register", "d6/da4/a29004.html#a16c273043e81fd163fb7c3f517ee6f4c", null ]
+    [ "AreaTrigger_at_coilfang_waterfall", "d6/da4/a29004.html#aa2e9a01adad7e195860bbc6c55131024", null ],
+    [ "OnTrigger", "d6/da4/a29004.html#aea1c4b45ae855d0cda81dbad102b8104", null ]
 ];

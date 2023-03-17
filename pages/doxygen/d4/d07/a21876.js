@@ -1,6 +1,6 @@
 var a21876 =
 [
-    [ "boss_thorim_sifAI", "de/d37/a21880.html", "de/d37/a21880" ],
-    [ "boss_thorim_sif", "d4/d07/a21876.html#a71ef8a92f648cbea6553ed1cc657f13d", null ],
-    [ "GetAI", "d4/d07/a21876.html#ae4eadf2bf83c41a8f05b853267b5fcf9", null ]
+    [ "npc_ulduar_dark_rune_sentinelAI", "de/d37/a21880.html", "de/d37/a21880" ],
+    [ "npc_ulduar_dark_rune_sentinel", "d4/d07/a21876.html#ac59aa042fd188eaf1eb6a04eb7d545a9", null ],
+    [ "GetAI", "d4/d07/a21876.html#a3884f50f894770ff94ad6977f62c45f3", null ]
 ];

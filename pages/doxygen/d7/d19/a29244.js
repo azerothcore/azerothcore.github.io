@@ -1,6 +1,5 @@
 var a29244 =
 [
-    [ "go_tadpole_cageAI", "d6/dba/a29248.html", "d6/dba/a29248" ],
-    [ "go_tadpole_cage", "d7/d19/a29244.html#a1a9acacd0ebff33d402018d4205e415b", null ],
-    [ "GetAI", "d7/d19/a29244.html#a38990dc5edd725623b6c35dba7802612", null ]
+    [ "go_southfury_moonstone", "d7/d19/a29244.html#aed27e57e8232e156177c293ad0c0b4bb", null ],
+    [ "OnGossipHello", "d7/d19/a29244.html#a4c0870f0e03708f1fdc073abadbe5de8", null ]
 ];

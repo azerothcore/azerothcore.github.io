@@ -1,9 +1,12 @@
 var a24168 =
 [
-    [ "npc_stolen_soulAI", "d0/dc5/a24168.html#aa00bb48fcb93fe9b02b8157bfe13c06a", null ],
-    [ "DoAction", "d0/dc5/a24168.html#a9291746dda6643fd77dd0076e55f4803", null ],
-    [ "Reset", "d0/dc5/a24168.html#ab4d5f1873b2c70c61e97b2910bf2fb47", null ],
-    [ "UpdateAI", "d0/dc5/a24168.html#ab868030957cc2558dae1ef9cae5ec92e", null ],
-    [ "events", "d0/dc5/a24168.html#a59445b486700065e5aded7c943b91bc3", null ],
-    [ "myClass", "d0/dc5/a24168.html#a8b084a46c1517670206935c1de176de7", null ]
+    [ "OPvPCapturePointZM_Beacon", "d0/dc5/a24168.html#a9efdfd232e9aa6dd390800bbf0373442", null ],
+    [ "ChangeState", "d0/dc5/a24168.html#a5bbe87c18c814358596a9648fd92b129", null ],
+    [ "FillInitialWorldStates", "d0/dc5/a24168.html#aedeeea5a7c1424a0dff51fe06dfaa23a", null ],
+    [ "HandlePlayerEnter", "d0/dc5/a24168.html#a7042cd6b4c3d57de89e3ae9e0b2cee2a", null ],
+    [ "HandlePlayerLeave", "d0/dc5/a24168.html#a6e5bfb2751f157fc4ebc8338b7cce802", null ],
+    [ "SendChangePhase", "d0/dc5/a24168.html#a0b5ad48fa0d6ddd6c768fb7454b5fb55", null ],
+    [ "UpdateTowerState", "d0/dc5/a24168.html#a9622620e5b969e19ea049ebd3cc4a3dc", null ],
+    [ "m_TowerState", "d0/dc5/a24168.html#a3a41cc34e7a8bd9f0d9d6f86f42a3312", null ],
+    [ "m_TowerType", "d0/dc5/a24168.html#a481e79d61fcdd011632f8f0d37f940bc", null ]
 ];

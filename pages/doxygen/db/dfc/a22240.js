@@ -1,6 +1,6 @@
 var a22240 =
 [
-    [ "FilterTargets", "db/dfc/a22240.html#a42fcd2c37c7f4d2258b4f9ef30e351a0", null ],
-    [ "PrepareSpellScript", "db/dfc/a22240.html#a655e70dcf409e5e59c207934b3e4c3ff", null ],
-    [ "Register", "db/dfc/a22240.html#a99876313e113e3afc2370c7c483b5742", null ]
+    [ "boss_yoggsaron_voiceAI", "d2/d6f/a22244.html", "d2/d6f/a22244" ],
+    [ "boss_yoggsaron_voice", "db/dfc/a22240.html#ae5d10416bb83e57c0e9d3ef5d6f5adc6", null ],
+    [ "GetAI", "db/dfc/a22240.html#a50abcde0313df06a114a2f5f44a1d481", null ]
 ];

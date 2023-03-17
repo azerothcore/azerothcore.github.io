@@ -1,12 +1,10 @@
 var a14900 =
 [
-    [ "instance_razorfen_downs_InstanceMapScript", "d4/dd6/a14900.html#a04d36b66a5570d03bb95ef2225a5c902", null ],
-    [ "GetData", "d4/dd6/a14900.html#a3d1611870945cd0c8cd7d4e7728cfd84", null ],
-    [ "GetSaveData", "d4/dd6/a14900.html#af3345787581e3d3783152efd9b10ae20", null ],
-    [ "Initialize", "d4/dd6/a14900.html#aed9ab9542badb0296ca0660c39541cb8", null ],
-    [ "Load", "d4/dd6/a14900.html#a937e03d0bbe4c7bd23581c23589ba7e8", null ],
-    [ "OnGameObjectCreate", "d4/dd6/a14900.html#a567ac5d9a17514ede5b84c5d78204072", null ],
-    [ "SetData", "d4/dd6/a14900.html#a1dfd39d65b16bb6e1373fe83ba4053c5", null ],
-    [ "_firesState", "d4/dd6/a14900.html#a74809429d3d2b1db5374dacf34d8a1b7", null ],
-    [ "_gongPhase", "d4/dd6/a14900.html#a23485a35f0aa2f2ffad53398882d163a", null ]
+    [ "CurrId", "d4/dd6/a14900.html#a126d1c0e7d475a07acd91de471cb7cab", null ],
+    [ "DestId", "d4/dd6/a14900.html#a7b12c520ee50ab29e5047a1c71b22729", null ],
+    [ "o", "d4/dd6/a14900.html#a94c284d63e66765c4d484c8edea8fdb8", null ],
+    [ "spellId", "d4/dd6/a14900.html#a7240ecd6f50a6db0e2be4eb4e55b3a48", null ],
+    [ "x", "d4/dd6/a14900.html#a41c7bdb057d984f552a41835651d84f5", null ],
+    [ "y", "d4/dd6/a14900.html#abe083129d7a4e514e97eeae7cff40af5", null ],
+    [ "z", "d4/dd6/a14900.html#ac49d886d09e2ebf8ccf8abd59a9649ec", null ]
 ];

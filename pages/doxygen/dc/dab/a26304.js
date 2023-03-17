@@ -1,6 +1,8 @@
 var a26304 =
 [
-    [ "npc_drake_dealer_hurlunk", "dc/dab/a26304.html#ae6d095365d23c30d5b772b047b459ddb", null ],
-    [ "OnGossipHello", "dc/dab/a26304.html#ad04b7f906f029d9935e29c585b0de421", null ],
-    [ "OnGossipSelect", "dc/dab/a26304.html#aa23833dcdefb909899120c25d5376111", null ]
+    [ "npc_salsalabimAI", "dc/dab/a26304.html#abada7741ff31ce9e164cb123d11356f1", null ],
+    [ "DamageTaken", "dc/dab/a26304.html#a458176800106e659cd935d3a3d2a8fdd", null ],
+    [ "Reset", "dc/dab/a26304.html#a47b0816adc4fef96468108a064e0940f", null ],
+    [ "UpdateAI", "dc/dab/a26304.html#ae1e5924005726fdd41ded0eb89260a13", null ],
+    [ "MagneticPull_Timer", "dc/dab/a26304.html#a51f4578f96dae8010cb1e2d76a57b016", null ]
 ];

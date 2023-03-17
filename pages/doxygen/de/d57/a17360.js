@@ -1,6 +1,6 @@
 var a17360 =
 [
-    [ "npc_pos_tyrannus_eventsAI", "d6/d9c/a17364.html", "d6/d9c/a17364" ],
-    [ "npc_pos_tyrannus_events", "de/d57/a17360.html#a9e61db8b2b30e86fc5e554b3f4d51b7c", null ],
-    [ "GetAI", "de/d57/a17360.html#ae5863e99d77815de71c1774e908b3f65", null ]
+    [ "instance_pit_of_saron_InstanceScript", "d6/d9c/a17364.html", "d6/d9c/a17364" ],
+    [ "instance_pit_of_saron", "de/d57/a17360.html#a84526dbb5ac7eb6ff5ebe24ed339826b", null ],
+    [ "GetInstanceScript", "de/d57/a17360.html#a2a1bc125bfe653a1da8b8c36b86aae67", null ]
 ];

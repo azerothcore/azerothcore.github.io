@@ -1,6 +1,6 @@
 var a14152 =
 [
-    [ "PeriodicTick", "dc/d4d/a14152.html#a0832c36a9497674374b2998398bfc3a4", null ],
-    [ "PrepareAuraScript", "dc/d4d/a14152.html#a89acb64235da1ff59da90a509fbeec9d", null ],
-    [ "Register", "dc/d4d/a14152.html#aab689a2cb84dcd064736171035640584", null ]
+    [ "CheckItem", "dc/d4d/a14152.html#a71f8c9bad4a102914a1047ef61d20f92", null ],
+    [ "PrepareSpellScript", "dc/d4d/a14152.html#a0fa160f1218cf838444f894716cb8aed", null ],
+    [ "Register", "dc/d4d/a14152.html#a2a6816d9ab97abddfa20cd6413a94178", null ]
 ];

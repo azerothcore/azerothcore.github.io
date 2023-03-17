@@ -1,6 +1,6 @@
 var a26356 =
 [
-    [ "npc_enraged_spiritAI", "d7/dc7/a26360.html", "d7/dc7/a26360" ],
-    [ "npc_enraged_spirit", "db/d31/a26356.html#a17d9e2e5fb8f2795fdeff26567bbf85f", null ],
-    [ "GetAI", "db/d31/a26356.html#aa10d5f0147cf4064a49df735ac95575e", null ]
+    [ "spell_q10036_torgos_SpellScript", "d7/dc7/a26360.html", "d7/dc7/a26360" ],
+    [ "spell_q10036_torgos", "db/d31/a26356.html#a0599d2c00020c5978dc66f54b360a8be", null ],
+    [ "GetSpellScript", "db/d31/a26356.html#a0bdd5a74c9f114537d8d206536dd418c", null ]
 ];

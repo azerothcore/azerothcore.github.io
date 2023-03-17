@@ -1,9 +1,8 @@
 var a14332 =
 [
-    [ "HandleDummy", "d0/d8e/a14332.html#a41f0ab7836fccac5f3b0454588bdd0f5", null ],
-    [ "HandleFinish", "d0/d8e/a14332.html#a8927aaa07145b46067d5807c2048330a", null ],
-    [ "Load", "d0/d8e/a14332.html#aeefbba80b8ca14febeb0a147116b5545", null ],
-    [ "PrepareSpellScript", "d0/d8e/a14332.html#a5a0bfef668242fc5f21ad5a4e3e714b5", null ],
-    [ "Register", "d0/d8e/a14332.html#a1ffdc199a04bd6ead1a09bc977ae964c", null ],
-    [ "handled", "d0/d8e/a14332.html#a397dd22fed73ba3dfe025ee6c98f04cf", null ]
+    [ "npc_love_in_air_snivel_real", "d0/d8e/a14332.html#a9f5b36d35ced9eb27375ca13fcfbc55d", null ],
+    [ "Talk", "d0/d8e/a14332.html#a0b5cc8dd6bdf7c4fbd7b7aa2ba02b028", null ],
+    [ "UpdateAI", "d0/d8e/a14332.html#a22ed25da8fe3441ef0e4183390983f40", null ],
+    [ "actionCounter", "d0/d8e/a14332.html#ab1685b1ee34c81c689af3c3466b185f0", null ],
+    [ "actionTimer", "d0/d8e/a14332.html#a3bbee1ff355581772b337268775b8fbc", null ]
 ];

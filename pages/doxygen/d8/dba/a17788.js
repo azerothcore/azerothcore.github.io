@@ -1,6 +1,6 @@
 var a17788 =
 [
-    [ "BloodboltHitCheck", "d8/dba/a17788.html#a84873f1ec2c1e214e35d32954622e9af", null ],
-    [ "operator()", "d8/dba/a17788.html#a1eddfd7bbea8def20dcc080413af6364", null ],
-    [ "_ai", "d8/dba/a17788.html#a0a5d115c464b6e88bc1158cd858bcbec", null ]
+    [ "spell_blood_queen_pact_of_the_darkfallen_dmg_AuraScript", "dd/dd8/a17792.html", "dd/dd8/a17792" ],
+    [ "spell_blood_queen_pact_of_the_darkfallen_dmg", "d8/dba/a17788.html#aefb10858613cf661d68c423478aa556c", null ],
+    [ "GetAuraScript", "d8/dba/a17788.html#a9a795d86ffcf9d73b68f93361dd449f8", null ]
 ];

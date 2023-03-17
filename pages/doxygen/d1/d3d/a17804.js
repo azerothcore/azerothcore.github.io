@@ -1,7 +1,6 @@
 var a17804 =
 [
-    [ "OnApply", "d1/d3d/a17804.html#ac8b9ba8782c26cf9db9f4e878e37a8ce", null ],
-    [ "OnRemove", "d1/d3d/a17804.html#abbadaa94095ce6ab9626227950f4377f", null ],
-    [ "PrepareAuraScript", "d1/d3d/a17804.html#a51ba62ba76b53667559114fd19fedc46", null ],
-    [ "Register", "d1/d3d/a17804.html#a7711deedd0b4b0ee4db4a75959089186", null ]
+    [ "spell_blood_queen_pact_of_the_darkfallen_dmg_SpellScript", "d4/d7c/a17808.html", "d4/d7c/a17808" ],
+    [ "spell_blood_queen_pact_of_the_darkfallen_dmg_target", "d1/d3d/a17804.html#ab875565f15fda6494f5862f11b8a5e93", null ],
+    [ "GetSpellScript", "d1/d3d/a17804.html#ae084f448d7c9b5b2a4c7583e8ff3c537", null ]
 ];

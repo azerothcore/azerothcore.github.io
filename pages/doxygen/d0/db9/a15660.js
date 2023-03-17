@@ -1,7 +1,7 @@
 var a15660 =
 [
-    [ "npc_toogaAI", "de/d5a/a15664.html", "de/d5a/a15664" ],
-    [ "npc_tooga", "d0/db9/a15660.html#a6ea6a9e4dea1ab98475dae13680ceeaf", null ],
-    [ "GetAI", "d0/db9/a15660.html#a7847577589f3bdc1c3ea5ee0f1f9232f", null ],
-    [ "OnQuestAccept", "d0/db9/a15660.html#ac0fdcb3959c239d614b1cc7c66623c5d", null ]
+    [ "npc_kaya_flathoofAI", "de/d5a/a15664.html", "de/d5a/a15664" ],
+    [ "npc_kaya_flathoof", "d0/db9/a15660.html#a588f88b1c00927a4ad6b7cd25fc1b065", null ],
+    [ "GetAI", "d0/db9/a15660.html#ad7cce0c1a30abe5bc0bffa777c40c79a", null ],
+    [ "OnQuestAccept", "d0/db9/a15660.html#acdb20ecb1ffee4417c9b39f3aebb0591", null ]
 ];

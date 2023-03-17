@@ -1,6 +1,8 @@
 var a25328 =
 [
-    [ "CalculateDamage", "d6/d62/a25328.html#aa60630530c9fb4249dfa546f5e980703", null ],
-    [ "PrepareSpellScript", "d6/d62/a25328.html#a65a9c509442c2c8dd1994b163c254671", null ],
-    [ "Register", "d6/d62/a25328.html#a4abe39f48d1dd9a3cb32a11639429058", null ]
+    [ "ApplyStun", "d6/d62/a25328.html#a5a5b921dc45418485919e599e80f8ca8", null ],
+    [ "HandleScriptEffect", "d6/d62/a25328.html#a32619710179250a6a0b408856a888153", null ],
+    [ "PrepareSpellScript", "d6/d62/a25328.html#afb61d7dcc8ad52da4dcad3d7593f08ad", null ],
+    [ "Register", "d6/d62/a25328.html#aa753fd45caa1b515911d8fdf6fa78754", null ],
+    [ "Validate", "d6/d62/a25328.html#a66d91a87078c663903cd836344eec867", null ]
 ];

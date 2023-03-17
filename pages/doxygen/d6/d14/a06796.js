@@ -1,12 +1,14 @@
 var a06796 =
 [
-    [ "NodeId", "d6/d14/a06796.html#a039c468fa0b6110809f0617496c0146c", null ],
-    [ "TextAllianceAssaulted", "d6/d14/a06796.html#a345b2ce7c48e9d10d03ff484a0108389", null ],
-    [ "TextAllianceClaims", "d6/d14/a06796.html#a0671602a29f33e353a8a339540beae18", null ],
-    [ "TextAllianceDefended", "d6/d14/a06796.html#ac87cbc9c4ec307bd2f3b09f6cdcd0250", null ],
-    [ "TextAllianceTaken", "d6/d14/a06796.html#a281a0378999ed5966f5d28cc4310fbcd", null ],
-    [ "TextHordeAssaulted", "d6/d14/a06796.html#a7fb668b0b9563bb0779bf4a5daefded8", null ],
-    [ "TextHordeClaims", "d6/d14/a06796.html#acddac09017717cf5b2893ab83e1d10c8", null ],
-    [ "TextHordeDefended", "d6/d14/a06796.html#a00cea010cfe6fb9702e5cb00003e5bef", null ],
-    [ "TextHordeTaken", "d6/d14/a06796.html#a2bbd1b49b9b72784d07be9db2a27fe77", null ]
+    [ "IsArena", "d6/d14/a06796.html#a8a99bf73debf5835e58537bee33fe2ad", null ],
+    [ "BattlemasterEntry", "d6/d14/a06796.html#a51ce3b9fdb2f51f439fee7c8b48e3918", null ],
+    [ "Id", "d6/d14/a06796.html#a0fca37318585903f68695452a95011a9", null ],
+    [ "MaxLevel", "d6/d14/a06796.html#a790f55d480d1454a5f6e5713c04314b7", null ],
+    [ "MaxPlayersPerTeam", "d6/d14/a06796.html#a324a4e557ce66089ec1111a9dae6e1de", null ],
+    [ "MaxStartDistSq", "d6/d14/a06796.html#a5fbb1a76221e9d15bd7cca13581f7b14", null ],
+    [ "MinLevel", "d6/d14/a06796.html#a49fdf96a08376830a06956fd501cfa78", null ],
+    [ "MinPlayersPerTeam", "d6/d14/a06796.html#ac1bea263b53de8573cdb8eb890175495", null ],
+    [ "ScriptId", "d6/d14/a06796.html#a968dd626dba22925be3d8f1a3bdc51aa", null ],
+    [ "StartLocation", "d6/d14/a06796.html#a8477d2156c8aa5bb89da038d1a779698", null ],
+    [ "Weight", "d6/d14/a06796.html#aa7a051e8453599a7e82da763a6f91da2", null ]
 ];

@@ -1,7 +1,7 @@
 var a09900 =
 [
-    [ "ChatServerMessage", "dd/d11/a09900.html#aa649857ceeba6b2f9e060f7d502cdb7a", null ],
-    [ "Write", "dd/d11/a09900.html#af8bad4d39693290674bda2e2ad8685bf", null ],
-    [ "MessageID", "dd/d11/a09900.html#afde854fc17313d214fa0f0cdc48ca9a9", null ],
-    [ "StringParam", "dd/d11/a09900.html#ac39a08d84c8f5934d0fe26e91809e60a", null ]
+    [ "LogoutResponse", "dd/d11/a09900.html#a434ee19fbc4d3e336444b1c62ac2be84", null ],
+    [ "Write", "dd/d11/a09900.html#a0b08225b6ac303afd20ec213aafe4bcb", null ],
+    [ "Instant", "dd/d11/a09900.html#aad6819dc426b91b6ad43f180a53e12ef", null ],
+    [ "LogoutResult", "dd/d11/a09900.html#a5543bf1a6342e9a217cd906e4a185b2e", null ]
 ];

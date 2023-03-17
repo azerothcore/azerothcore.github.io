@@ -1,11 +1,12 @@
 var a17180 =
 [
-    [ "npc_tortured_riflemanAI", "dd/dfa/a17180.html#a65dc1d2ba5769aed1a0b2487322ff2b1", null ],
-    [ "AttackStart", "dd/dfa/a17180.html#aaf2b73d0b60791f887207842580d91dc", null ],
-    [ "DoAction", "dd/dfa/a17180.html#acb941c20d911a567c93bb0f92105fdfd", null ],
-    [ "EnterCombat", "dd/dfa/a17180.html#ac72e82e36d9719af4ec3b6039f747e80", null ],
-    [ "EnterEvadeMode", "dd/dfa/a17180.html#aabd56fc4aaed247a9ac3ce5bcdc4cb50", null ],
-    [ "Reset", "dd/dfa/a17180.html#a04f9c7056e063d436df66f079127d1a7", null ],
-    [ "UpdateAI", "dd/dfa/a17180.html#a194a615eef3651cdc97d4e4ad57bf017", null ],
-    [ "events", "dd/dfa/a17180.html#a958f27c1f917dc1ae0a9f84549481f93", null ]
+    [ "npc_phantom_mageAI", "dd/dfa/a17180.html#ac919dc1ba167cc68714320f9351b99d0", null ],
+    [ "AttackStart", "dd/dfa/a17180.html#ade9ba7071cff655f2c0133481cb9c2bc", null ],
+    [ "DoAction", "dd/dfa/a17180.html#a6c66df8b8e59a9dc62f1f944da2afc2c", null ],
+    [ "EnterEvadeMode", "dd/dfa/a17180.html#a6ca0be233e8866b6154fa6e7164b856d", null ],
+    [ "JustDied", "dd/dfa/a17180.html#a3a522e4c741bc321469ed87c10cf7904", null ],
+    [ "JustEngagedWith", "dd/dfa/a17180.html#a5a1bf4aaf716674a63e31d24ae4a5d7c", null ],
+    [ "Reset", "dd/dfa/a17180.html#a5c29c8d54956a0917df3997118348590", null ],
+    [ "UpdateAI", "dd/dfa/a17180.html#a7135acfbc36212306a68fc8b758e2881", null ],
+    [ "events", "dd/dfa/a17180.html#afa0f0b5cac0759db324cea7c64463f75", null ]
 ];

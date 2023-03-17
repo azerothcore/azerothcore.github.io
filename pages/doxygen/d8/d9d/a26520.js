@@ -1,10 +1,8 @@
 var a26520 =
 [
-    [ "npc_isla_starmaneAI", "d8/d9d/a26520.html#a0cb655d324ddde173dcfdee069c0f694", null ],
-    [ "EnterCombat", "d8/d9d/a26520.html#a0e1dc13d818ef30b27c407a3f5874294", null ],
-    [ "JustDied", "d8/d9d/a26520.html#ac7132ac84a64bccbcf8895cbc4a86f9c", null ],
-    [ "Reset", "d8/d9d/a26520.html#a1e4db0f2a0a541f5481c8578c9b9362d", null ],
-    [ "UpdateEscortAI", "d8/d9d/a26520.html#af4b8c80e7443bb671be253238b124910", null ],
-    [ "WaypointReached", "d8/d9d/a26520.html#a5d00583afa4e811e4f3cb8400787a990", null ],
-    [ "events", "d8/d9d/a26520.html#a53cfabbe7cf85ceb19286d67bb23f2ec", null ]
+    [ "npc_pet_gen_gnomish_flame_turret", "d8/d9d/a26520.html#a6e79c0ad6219d0beb23cfb086e6d3eaf", null ],
+    [ "AttackStart", "d8/d9d/a26520.html#a2aab464c099e8e5e760a9ae4f28ac33f", null ],
+    [ "Reset", "d8/d9d/a26520.html#a46fe5703a5859d5583e7df3a57b3910a", null ],
+    [ "UpdateAI", "d8/d9d/a26520.html#ae3db08323af4b82009ffd660b3e78474", null ],
+    [ "checkTimer", "d8/d9d/a26520.html#ac6705f4980ca561a5fd33c2917488439", null ]
 ];

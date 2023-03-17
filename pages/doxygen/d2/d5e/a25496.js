@@ -1,7 +1,6 @@
 var a25496 =
 [
-    [ "DealDebrisDamage", "d2/d5e/a25496.html#a6a1611c4a221b7c16be66511f3595010", null ],
-    [ "Execute", "d2/d5e/a25496.html#a15715b2e7271acc52c2c49486bdb2822", null ],
-    [ "_owner", "d2/d5e/a25496.html#ad7a36286fed7ec090beaf77b97399c51", null ],
-    [ "_targetGUID", "d2/d5e/a25496.html#ac5cabeab92c92f7dc1a97eef0ebab72e", null ]
+    [ "spell_magtheridon_blaze_SpellScript", "db/d26/a25500.html", "db/d26/a25500" ],
+    [ "spell_magtheridon_blaze", "d2/d5e/a25496.html#ad33c3e9d565655582c1aec1a75ee7de9", null ],
+    [ "GetSpellScript", "d2/d5e/a25496.html#afd47952f65a87e833cb62f862ae06866", null ]
 ];

@@ -1,4 +1,5 @@
 var a09556 =
 [
-    [ "CompletionText", "d4/df9/a09556.html#ac898e7775bb068beee5aaf8cb4c81900", null ]
+    [ "petitionGuid", "d4/df9/a09556.html#adafc1020d722bd3885429041ce9a292c", null ],
+    [ "signatureMap", "d4/df9/a09556.html#a70bd865a5b11ffc0ceed08b683548b42", null ]
 ];

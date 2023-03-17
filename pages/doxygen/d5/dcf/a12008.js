@@ -1,7 +1,6 @@
 var a12008 =
 [
-    [ "HandleEffectApply", "d5/dcf/a12008.html#ab3d5803774a4db687d7683bd27f7db83", null ],
-    [ "HandleEffectRemove", "d5/dcf/a12008.html#a5c0f86fb261840a3d4c4d05b8a7e8269", null ],
-    [ "PrepareAuraScript", "d5/dcf/a12008.html#a228ddf456526d4b4f80bb6753348ba3f", null ],
-    [ "Register", "d5/dcf/a12008.html#aa19b7845edc5e8286e007f8740e4bd10", null ]
+    [ "HandleTriggerSpell", "d5/dcf/a12008.html#a361d179f81eb2565e133f674a127af90", null ],
+    [ "PrepareSpellScript", "d5/dcf/a12008.html#a47afe11577bb488509d0cfabf63d16ba", null ],
+    [ "Register", "d5/dcf/a12008.html#a0f17ba7bef0e9a59872297ef151a22fb", null ]
 ];

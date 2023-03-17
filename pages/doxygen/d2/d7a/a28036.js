@@ -1,6 +1,7 @@
 var a28036 =
 [
-    [ "CheckProc", "d2/d7a/a28036.html#aa8a8c89cf55ab6796a81671d0312a481", null ],
-    [ "PrepareAuraScript", "d2/d7a/a28036.html#a9c88f86a4edafda286725008ecfeab6c", null ],
-    [ "Register", "d2/d7a/a28036.html#ad75f33c72dff282e4a8976c92e0b4e76", null ]
+    [ "CheckProc", "d2/d7a/a28036.html#a2052750b91de67b330a2ae6a190a5d4e", null ],
+    [ "HandleProc", "d2/d7a/a28036.html#a5b404a07ccb13cabf5fa6ab90db92129", null ],
+    [ "PrepareAuraScript", "d2/d7a/a28036.html#af16eec48ab0f469ca3cefd149bb0d925", null ],
+    [ "Register", "d2/d7a/a28036.html#a4f31c76184e4ae5bc03763e04cdac72e", null ]
 ];

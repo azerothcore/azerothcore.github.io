@@ -1,11 +1,9 @@
 var a30148 =
 [
-    [ "Displayid", "d1/da8/a30148.html#a4aa3c391401f39d6f4a595f4dff0668b", null ],
-    [ "filename", "d1/da8/a30148.html#a0cee5b90a15b39e1ff49231e332cc320", null ],
-    [ "maxX", "d1/da8/a30148.html#a10563ae885d34e516825a18db95b40e7", null ],
-    [ "maxY", "d1/da8/a30148.html#a711286df6d2bd74246dee2170052c17a", null ],
-    [ "maxZ", "d1/da8/a30148.html#acb74e32790b2c60cca5faef1caa225e4", null ],
-    [ "minX", "d1/da8/a30148.html#a77466c3aabd4e7b6b7aa8b5f9f2a82da", null ],
-    [ "minY", "d1/da8/a30148.html#a7168f5b3229bd27edde78e88bf7dc20a", null ],
-    [ "minZ", "d1/da8/a30148.html#ac88aefc2530212b9dff10e018c4e9305", null ]
+    [ "itemId", "d1/da8/a30148.html#ae125712e5569c9699b4748b6a15fbc12", null ],
+    [ "items_to_triggerspell", "d1/da8/a30148.html#a8496a2f3fa3e230def04b996fc585760", null ],
+    [ "name", "d1/da8/a30148.html#a9b62f843833d524f200782d44151503d", null ],
+    [ "required_skill_id", "d1/da8/a30148.html#ab3058ac725fb8f105b9359d5a5147942", null ],
+    [ "required_skill_value", "d1/da8/a30148.html#a58d0997a73cf48061545edbc0201f544", null ],
+    [ "spells", "d1/da8/a30148.html#a8aac032992efe1bfbba0e49693562c7f", null ]
 ];

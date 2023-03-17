@@ -1,6 +1,6 @@
 var a26072 =
 [
-    [ "spell_q10935_the_exorcism_of_colonel_jules_SpellScript", "d0/d63/a26076.html", "d0/d63/a26076" ],
-    [ "spell_q10935_the_exorcism_of_colonel_jules", "db/d26/a26072.html#a6991db0b226c7f9c225922e4f5103fe2", null ],
-    [ "GetSpellScript", "db/d26/a26072.html#a614fce6182e2cc35d8a3e985d48e3426", null ]
+    [ "npc_fel_guard_houndAI", "d0/d63/a26076.html", "d0/d63/a26076" ],
+    [ "npc_fel_guard_hound", "db/d26/a26072.html#a324179695f04a31b233b0ce94a46634c", null ],
+    [ "GetAI", "db/d26/a26072.html#a5f5c20ec379994e7d0b65133d772e18f", null ]
 ];

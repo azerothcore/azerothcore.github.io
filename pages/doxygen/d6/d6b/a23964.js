@@ -1,6 +1,6 @@
 var a23964 =
 [
-    [ "PrepareSpellScript", "d6/d6b/a23964.html#ad80665c68b78f5ae8bf54520f2a2cffb", null ],
-    [ "RecalculateDamage", "d6/d6b/a23964.html#ac9c02759adc50dab119bbad191a9562e", null ],
-    [ "Register", "d6/d6b/a23964.html#a584245a0e511f5d419177aaccf37a501", null ]
+    [ "HandleScript", "d6/d6b/a23964.html#a0f30b19580213f373d98e554ad5531fb", null ],
+    [ "PrepareSpellScript", "d6/d6b/a23964.html#aae448100dc84e3b526e721673cf8d3e3", null ],
+    [ "Register", "d6/d6b/a23964.html#a579688d36a44557fe43e9f3f1d2bb2af", null ]
 ];

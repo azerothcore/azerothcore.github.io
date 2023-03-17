@@ -1,6 +1,6 @@
 var a14488 =
 [
-    [ "spell_hand_of_death_SpellScript", "d2/d2a/a14492.html", "d2/d2a/a14492" ],
-    [ "spell_hand_of_death", "d5/dac/a14488.html#adc3db06762e020d54b5d3ff519cc0ac3", null ],
-    [ "GetSpellScript", "d5/dac/a14488.html#aa9e0331670cbadb6893e1c97881c08e3", null ]
+    [ "npc_ancient_wispAI", "d2/d2a/a14492.html", "d2/d2a/a14492" ],
+    [ "npc_ancient_wisp", "d5/dac/a14488.html#a0a6f8bad496997b76c00786085697c2b", null ],
+    [ "GetAI", "d5/dac/a14488.html#a24dd4771877084afe3102697ec589194", null ]
 ];

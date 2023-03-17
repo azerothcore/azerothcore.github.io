@@ -1,12 +1,11 @@
 var a02114 =
 [
-    [ "SpellEvent", "da/d0f/a10455.html", "da/d0f/a10455" ],
-    [ "CHECK_DIST", "da/d4a/a02114.html#aa16c8b27baa496c2fdf0afffaf4485a0", null ],
-    [ "DEBUG_TRAJ", "da/d4a/a02114.html#ac27bc73435b380df600d6da0b753a144", null ],
-    [ "GCDLimits", "da/d4a/a02114.html#aea36520bcbaa2ebe9c062b9c5d9df777", [
-      [ "MIN_GCD", "da/d4a/a02114.html#aea36520bcbaa2ebe9c062b9c5d9df777a08310e07fc7bc96f8485dbcc9487785f", null ],
-      [ "MAX_GCD", "da/d4a/a02114.html#aea36520bcbaa2ebe9c062b9c5d9df777accf1639a1cf684725784e02ddf1aef8c", null ]
-    ] ],
-    [ "tangent", "da/d4a/a02114.html#a885f76b28cf9930383ddf099d75ccef1", null ],
-    [ "SpellEffects", "da/d4a/a02114.html#a294b5954f08aebdafe9e5a6f00e2dc82", null ]
+    [ "AuraEffect", "db/da2/a10464.html", "db/da2/a10464" ],
+    [ "Acore::AbsorbAuraOrderPred", "dc/dce/a10468.html", "dc/dce/a10468" ],
+    [ "pAuraEffectHandler", "da/d4a/a02114.html#a9e98d9a1c1cc41922f386b184fd7ce67", null ],
+    [ "BrewfestEntries", "da/d4a/a02114.html#a4ee83f582e4ebba3a5aea9ab1a5c9354", [
+      [ "BREWFEST_KODO", "da/d4a/a02114.html#a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5", null ],
+      [ "GREAT_BREWFEST_KODO", "da/d4a/a02114.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa", null ],
+      [ "FRESH_BREWFEST_HOPS", "da/d4a/a02114.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf", null ]
+    ] ]
 ];

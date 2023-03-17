@@ -1,5 +1,6 @@
 var a14196 =
 [
-    [ "npc_cw_area_triggerAI", "d9/d3a/a14196.html#aede21e01dfe762922562b6f5d57bc406", null ],
-    [ "MoveInLineOfSight", "d9/d3a/a14196.html#a1fb90760dac1ae429429d84ed033aa7a", null ]
+    [ "PeriodicTick", "d9/d3a/a14196.html#a0832c36a9497674374b2998398bfc3a4", null ],
+    [ "PrepareAuraScript", "d9/d3a/a14196.html#a89acb64235da1ff59da90a509fbeec9d", null ],
+    [ "Register", "d9/d3a/a14196.html#aab689a2cb84dcd064736171035640584", null ]
 ];

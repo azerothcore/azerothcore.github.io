@@ -1,6 +1,6 @@
 var a25992 =
 [
-    [ "instance_mechanar_InstanceMapScript", "d4/db9/a25996.html", "d4/db9/a25996" ],
-    [ "instance_mechanar", "d4/d2c/a25992.html#ab31a66a0eb8b9ac6f79af479528ff4fd", null ],
-    [ "GetInstanceScript", "d4/d2c/a25992.html#ae8e9810a9bfd6b0ec256dd6a288392ed", null ]
+    [ "npc_nether_drakeAI", "d4/db9/a25996.html", "d4/db9/a25996" ],
+    [ "npc_nether_drake", "d4/d2c/a25992.html#a253ec3c91857b899ea9e2c824870b760", null ],
+    [ "GetAI", "d4/d2c/a25992.html#a58d269e2c73cae07bb507162b742fe8f", null ]
 ];

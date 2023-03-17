@@ -1,10 +1,11 @@
 var a09788 =
 [
-    [ "ArgsType", "d3/d61/a09788.html#a4ea4d3b165a196482ebe96af9c462658", null ],
-    [ "AuraScriptType", "d3/d61/a09788.html#a7b2a19d6c7c75c0df22eae17b0c8e90a", null ],
-    [ "SpellScriptType", "d3/d61/a09788.html#a790a8ef2b59bfe6298486648858506ed", null ],
-    [ "GenericSpellAndAuraScriptLoader", "d3/d61/a09788.html#ab1bd69d57c6e2322044b8f7cf46cedb6", null ],
-    [ "GetAuraScript", "d3/d61/a09788.html#a5f3c898a0dc6d9085589b88eb5571528", null ],
-    [ "GetSpellScript", "d3/d61/a09788.html#a913fa28d2a2cf100ce73cf641e333e01", null ],
-    [ "_args", "d3/d61/a09788.html#aad6527f64ede0d896880ffa90d05a378", null ]
+    [ "PetScript", "d3/d61/a09788.html#a3345c6e8c6417e3f52c3711cad5d79ae", null ],
+    [ "CanResetTalents", "d3/d61/a09788.html#ab4e5e0b19285573753ef6e9b7e8fd535", null ],
+    [ "CanUnlearnSpellDefault", "d3/d61/a09788.html#af150efd719bbb619df792ebc6705bb0a", null ],
+    [ "CanUnlearnSpellSet", "d3/d61/a09788.html#a84cba94813ffa26e1a245b814feb0349", null ],
+    [ "IsDatabaseBound", "d3/d61/a09788.html#a16fae7cdf068c6e3d9e46882548d4c20", null ],
+    [ "OnCalculateMaxTalentPointsForLevel", "d3/d61/a09788.html#a1263b06233902fbede9fc5df80cc8ad4", null ],
+    [ "OnInitStatsForLevel", "d3/d61/a09788.html#a65a33c4f374f2e9739680ad172118c26", null ],
+    [ "OnPetAddToWorld", "d3/d61/a09788.html#a3012323c5c1424512b611b6956a32554", null ]
 ];

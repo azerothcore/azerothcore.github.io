@@ -1,16 +1,9 @@
 var a20040 =
 [
-    [ "boss_heiganAI", "d1/d94/a20040.html#a7aab8f8d2c3ccb434c2290362d03f89e", null ],
-    [ "EnterCombat", "d1/d94/a20040.html#a2e25ab25c413d14363c36ceb1f4b96ab", null ],
-    [ "IsInRoom", "d1/d94/a20040.html#a3aee27fdbb0ce9c60f2115b878112ea8", null ],
-    [ "JustDied", "d1/d94/a20040.html#a4a7389a2f81677fa5c0e871bc996fe26", null ],
-    [ "KilledUnit", "d1/d94/a20040.html#a58160aefd36208ad7f0fec161a3f8b85", null ],
-    [ "Reset", "d1/d94/a20040.html#a515a86419bdd1f755943a371b3601795", null ],
-    [ "StartFightPhase", "d1/d94/a20040.html#a211387ae4f89d54a22a4f8515239d1c3", null ],
-    [ "UpdateAI", "d1/d94/a20040.html#a9009ae9392e183758a48ebe59b9c0cf0", null ],
-    [ "currentPhase", "d1/d94/a20040.html#a7b0a9b9f53cded3bc24ed22c1b643a30", null ],
-    [ "currentSection", "d1/d94/a20040.html#a848fbc5aa8a497ae01057c6f0ba59e7a", null ],
-    [ "events", "d1/d94/a20040.html#a7cc35d445aadf1eb252482522b8cc26d", null ],
-    [ "moveRight", "d1/d94/a20040.html#a12da8a2326f0ac72e6ee8733c55139c8", null ],
-    [ "pInstance", "d1/d94/a20040.html#a4b64769f2e10e7ba598fcc115b021fd4", null ]
+    [ "boss_grobbulus_poison_cloudAI", "d1/d94/a20040.html#ac26671336eec2d84b56a3552d50f8e0a", null ],
+    [ "KilledUnit", "d1/d94/a20040.html#a9c6ce4ace426f2e7aba5a7bf9430bbe3", null ],
+    [ "Reset", "d1/d94/a20040.html#a1715ab3f3f25b56517f6ded84acdbd9f", null ],
+    [ "UpdateAI", "d1/d94/a20040.html#af1b8dafb0aa47ba22b3601d8bf639c22", null ],
+    [ "auraVisualTimer", "d1/d94/a20040.html#a74aea4294c26414d3b60983d14d36e31", null ],
+    [ "sizeTimer", "d1/d94/a20040.html#a73f775b30ad36a595e0d8532067ba042", null ]
 ];

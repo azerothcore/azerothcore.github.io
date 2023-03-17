@@ -1,6 +1,6 @@
 var a23396 =
 [
-    [ "npc_tallhorn_stagAI", "d6/d7a/a23400.html", "d6/d7a/a23400" ],
-    [ "npc_tallhorn_stag", "da/d1a/a23396.html#aff7f23376c27312894c9a042f6a0f848", null ],
-    [ "GetAI", "da/d1a/a23396.html#a3d993542271c80982adcee9a9d60e46b", null ]
+    [ "npc_mrfloppyAI", "d6/d7a/a23400.html", "d6/d7a/a23400" ],
+    [ "npc_mrfloppy", "da/d1a/a23396.html#a0515ca75aba9b7f6f5577b53e7520f6e", null ],
+    [ "GetAI", "da/d1a/a23396.html#a88590566309f3fc155eb6dc26055a161", null ]
 ];

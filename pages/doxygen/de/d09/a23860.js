@@ -1,6 +1,6 @@
 var a23860 =
 [
-    [ "spell_close_rift_AuraScript", "d9/df3/a23864.html", "d9/df3/a23864" ],
-    [ "spell_close_rift", "de/d09/a23860.html#a73a71f454030555a5f8dcdf15575cf41", null ],
-    [ "GetAuraScript", "de/d09/a23860.html#ac1fefea4622b4a586f147d87c652d8be", null ]
+    [ "npc_freed_protodrakeAI", "d9/df3/a23864.html", "d9/df3/a23864" ],
+    [ "npc_freed_protodrake", "de/d09/a23860.html#a56e33e186800efa3fb86ca6a614e3b0b", null ],
+    [ "GetAI", "de/d09/a23860.html#a9680bf65cb97327396f58c297df1c8f5", null ]
 ];

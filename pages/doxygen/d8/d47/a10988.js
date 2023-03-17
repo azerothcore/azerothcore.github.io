@@ -1,16 +1,14 @@
 var a10988 =
 [
-    [ "gobject_commandscript", "d8/d47/a10988.html#a664ffe7aa07b1e08156545675ae5dc69", null ],
-    [ "GetCommands", "d8/d47/a10988.html#a75124102670615a7b3a0ecd457ab631a", null ],
-    [ "HandleGameObjectActivateCommand", "d8/d47/a10988.html#a2512dfca6b1ae8a2476551a02caa202a", null ],
-    [ "HandleGameObjectAddCommand", "d8/d47/a10988.html#a23717867956cc0da99e3640d2b790346", null ],
-    [ "HandleGameObjectAddTempCommand", "d8/d47/a10988.html#a49908d7c180d778c43702563add17d2d", null ],
-    [ "HandleGameObjectDeleteCommand", "d8/d47/a10988.html#a06ef45827cefcc19f748c5940dfb4b1d", null ],
-    [ "HandleGameObjectInfoCommand", "d8/d47/a10988.html#a1d6e3c850b0bc2772d3f1f09877d8a40", null ],
-    [ "HandleGameObjectMoveCommand", "d8/d47/a10988.html#a7098a5b0c94cb09b8c6fe08eba261d93", null ],
-    [ "HandleGameObjectNearCommand", "d8/d47/a10988.html#a156f293b3bf9c7439b62814ee8f27650", null ],
-    [ "HandleGameObjectSetPhaseCommand", "d8/d47/a10988.html#af2ac49c9fdd408be62dd4ee179c1142c", null ],
-    [ "HandleGameObjectSetStateCommand", "d8/d47/a10988.html#ae6d100f51d8b08e1576092eedc4db15f", null ],
-    [ "HandleGameObjectTargetCommand", "d8/d47/a10988.html#a11d33046310495c0a6d883a307c95632", null ],
-    [ "HandleGameObjectTurnCommand", "d8/d47/a10988.html#a75883394613b2c3501cd48f5334199b7", null ]
+    [ "cast_commandscript", "d8/d47/a10988.html#a9c657d2c5404149a45a2db748d23fc2f", null ],
+    [ "CheckSpellCastResult", "d8/d47/a10988.html#a244b2d11a07fdcbb72f3207ab1e46ea5", null ],
+    [ "CheckSpellExistsAndIsValid", "d8/d47/a10988.html#a14da4e4674b065c8e8f3d1946a037bda", null ],
+    [ "GetCommands", "d8/d47/a10988.html#ab0890c036a8d301b382fdd1b6371f671", null ],
+    [ "GetTriggerFlags", "d8/d47/a10988.html#a26e6986c45a99e6a94d7ba2d9a810aa3", null ],
+    [ "HandleCastBackCommand", "d8/d47/a10988.html#a964a40278f609a5c5a0bae651484c726", null ],
+    [ "HandleCastCommand", "d8/d47/a10988.html#ac28430cc0623209b891bacbb4845509b", null ],
+    [ "HandleCastDestCommand", "d8/d47/a10988.html#a156ca81fba7155205dae106aa4c221d6", null ],
+    [ "HandleCastDistCommand", "d8/d47/a10988.html#aabbcac8e85c6a64a647d71bb22bebede", null ],
+    [ "HandleCastSelfCommand", "d8/d47/a10988.html#a69e88bb174c2518584a9ae622e2850bf", null ],
+    [ "HandleCastTargetCommad", "d8/d47/a10988.html#aa72bd317a3498ef07007c1a9e81e2796", null ]
 ];

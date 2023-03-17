@@ -1,10 +1,24 @@
 var a06736 =
 [
-    [ "BattlegroundChatBuilder", "df/dbb/a06736.html#ad5ae3b91e81f816ca49f9358222c8b06", null ],
-    [ "do_helper", "df/dbb/a06736.html#aaeb91b7fa2efe1dd36802851e204c9c8", null ],
-    [ "operator()", "df/dbb/a06736.html#ab84296c320b09a387de6e6e6a2326b83", null ],
-    [ "_args", "df/dbb/a06736.html#a32a72bf1110179cc58dcf2df914c7389", null ],
-    [ "_msgtype", "df/dbb/a06736.html#ae73b69d72ddee4e05bb8b634a91e13b7", null ],
-    [ "_source", "df/dbb/a06736.html#aaed8a84ac72a01824d7d7fc2ea17c9af", null ],
-    [ "_textId", "df/dbb/a06736.html#a218d6cc2e99a6170b1a548fc1531e2e7", null ]
+    [ "BfWGGameObjectBuilding", "df/dbb/a06736.html#a69e9f758b6fc68c02a53d0a90ff2e14a", null ],
+    [ "Damaged", "df/dbb/a06736.html#a48e7cf336d213225b79c2aaab57dfa8b", null ],
+    [ "Destroyed", "df/dbb/a06736.html#a53c3befcba120fc19f450f6d98206114", null ],
+    [ "Init", "df/dbb/a06736.html#a7b87ccb4d91971520b30815edcd478ff", null ],
+    [ "Rebuild", "df/dbb/a06736.html#ae963cc5bd41ff4cd6ce08f6abbaf98af", null ],
+    [ "Save", "df/dbb/a06736.html#ab2f22ba682800ff54f961b2343770907", null ],
+    [ "UpdateCreatureAndGo", "df/dbb/a06736.html#ae40fdca69431e761daad935cf8130df3", null ],
+    [ "UpdateTurretAttack", "df/dbb/a06736.html#aa0783e3ed8e86d3e1761d6a790211c7e", null ],
+    [ "m_Build", "df/dbb/a06736.html#ae48e5946636b67fea33a6313329b4725", null ],
+    [ "m_CreatureBottomList", "df/dbb/a06736.html#aa503519e630d9b12db5a2d42667dd757", null ],
+    [ "m_CreatureTopList", "df/dbb/a06736.html#a26ecb2ff29a81d8bad2e5070e39a9f22", null ],
+    [ "m_damagedText", "df/dbb/a06736.html#ae9da48817573f5fb94c31a347e228588", null ],
+    [ "m_destroyedText", "df/dbb/a06736.html#ac66ae383f2029fe0b0190f1a6beb935c", null ],
+    [ "m_GameObjectList", "df/dbb/a06736.html#a8b9e5cf4d460576f54df17edcee753d0", null ],
+    [ "m_State", "df/dbb/a06736.html#a1747bf381279251232b35cd8ba47c381", null ],
+    [ "m_Team", "df/dbb/a06736.html#a9a921918532376825913b79471ca43b3", null ],
+    [ "m_TowerCannonBottomList", "df/dbb/a06736.html#aba34ec3fca7faafd5f6dbd51bd03daf5", null ],
+    [ "m_TurretTopList", "df/dbb/a06736.html#a2f1e928509a53a7024bff2c10be306c3", null ],
+    [ "m_Type", "df/dbb/a06736.html#ae770e04de54fd1a425a78bb30f57d02e", null ],
+    [ "m_WG", "df/dbb/a06736.html#a038bd5a89eddff137fc085371f9d1888", null ],
+    [ "m_WorldState", "df/dbb/a06736.html#a343e1dede32e1b3d89561f002355c172", null ]
 ];

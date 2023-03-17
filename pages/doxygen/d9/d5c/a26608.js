@@ -1,9 +1,7 @@
 var a26608 =
 [
-    [ "npc_pet_gen_soul_trader_beacon", "d9/d5c/a26608.html#a58ef19b8c08aee764bdd55e480d9d750", null ],
-    [ "GetOwner", "d9/d5c/a26608.html#a72bfd4cf6c734d1f1070a1560131667d", null ],
-    [ "SpellHitTarget", "d9/d5c/a26608.html#a6c0d3181b913c5022325f66586f66bfa", null ],
-    [ "UpdateAI", "d9/d5c/a26608.html#a18c06958e6b3d4306a6fdb5f9924d7ff", null ],
-    [ "events", "d9/d5c/a26608.html#ae0a6d4850a0a0da4bd04227b11bae9e4", null ],
-    [ "ownerGUID", "d9/d5c/a26608.html#a3a42e83216c0111a740a0c89e57c6f62", null ]
+    [ "HandleEffectApply", "d9/d5c/a26608.html#a9923e38a2b5999d932d85be17a50ac83", null ],
+    [ "HandleEffectRemove", "d9/d5c/a26608.html#a4c1f611b4fd0cf33f654d59e783db32a", null ],
+    [ "PrepareAuraScript", "d9/d5c/a26608.html#a105df22901477c34757e62a0305006d4", null ],
+    [ "Register", "d9/d5c/a26608.html#a16f2daff28dc07f2cac8d53f4813909f", null ]
 ];

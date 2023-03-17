@@ -1,7 +1,10 @@
 var a10500 =
 [
-    [ "WorldObjectSpellNearbyTargetCheck", "d7/d14/a10500.html#afda548f6394c5d11a7ca229fe6b3d402", null ],
-    [ "operator()", "d7/d14/a10500.html#a731ee07d028a5ee63ecd14321c83664d", null ],
-    [ "_position", "d7/d14/a10500.html#a7b19899dd015a73bd1ae4c71fa9ae79d", null ],
-    [ "_range", "d7/d14/a10500.html#abfec0df490876b2b83dcdee4da75a77f", null ]
+    [ "SpellValue", "d7/d14/a10500.html#a2aebedc86822634a0a80de7a4c16dd7f", null ],
+    [ "AuraDuration", "d7/d14/a10500.html#af44c190ba8a8636d78f8d271656bdd02", null ],
+    [ "AuraStackAmount", "d7/d14/a10500.html#af9d7a902bd7d6a24f2ef9480e725d8e8", null ],
+    [ "EffectBasePoints", "d7/d14/a10500.html#a4de44adea4dc620f0871215e4d4f611d", null ],
+    [ "ForcedCritResult", "d7/d14/a10500.html#a14f0fd1b3351297e5c71e34e0c9a44fb", null ],
+    [ "MaxAffectedTargets", "d7/d14/a10500.html#a69ea555bb8ae6642a0c9c85b3f9b373c", null ],
+    [ "RadiusMod", "d7/d14/a10500.html#a135bbce8300101411e87a70467dbbd57", null ]
 ];

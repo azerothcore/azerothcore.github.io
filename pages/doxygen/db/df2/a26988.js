@@ -1,6 +1,6 @@
 var a26988 =
 [
-    [ "CheckCast", "db/df2/a26988.html#aefa91f15300520de7cffad4f4ca82ccf", null ],
-    [ "PrepareSpellScript", "db/df2/a26988.html#a605e7b8849186c3c2df731cac743a208", null ],
-    [ "Register", "db/df2/a26988.html#a62533bff915db8323b53352f17c4825f", null ]
+    [ "CheckAreaTarget", "db/df2/a26988.html#a545323b9964ee4cb3c8d054fac4e2d55", null ],
+    [ "PrepareAuraScript", "db/df2/a26988.html#a2b6dbd33e34357917f662000a1cd932f", null ],
+    [ "Register", "db/df2/a26988.html#a7b4a2301b3a608ea5b2dd2504e02741d", null ]
 ];

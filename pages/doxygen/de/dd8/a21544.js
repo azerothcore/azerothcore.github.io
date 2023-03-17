@@ -1,6 +1,5 @@
 var a21544 =
 [
-    [ "HandleAfterEffectApply", "de/dd8/a21544.html#a0d2a3845acfb34fa752a6a6593dd5928", null ],
-    [ "PrepareAuraScript", "de/dd8/a21544.html#af31ab9954303867361e7a87c215a5324", null ],
-    [ "Register", "de/dd8/a21544.html#aba6d6a48ba2aab449d7b0645deadaac0", null ]
+    [ "achievement_i_have_the_coolest_friends", "de/dd8/a21544.html#a87fd2d5702fe33ee8b09042c66897636", null ],
+    [ "OnCheck", "de/dd8/a21544.html#aa77aa6129967601ede2f3fc44b2ee1aa", null ]
 ];

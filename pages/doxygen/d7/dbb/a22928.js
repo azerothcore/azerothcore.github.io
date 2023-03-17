@@ -1,14 +1,10 @@
 var a22928 =
 [
-    [ "npc_azure_saboteurAI", "d7/dbb/a22928.html#a09fc1e8f171209471c5403af33b05a58", null ],
-    [ "FinishPointReached", "d7/dbb/a22928.html#a322380edef5dbefe5ac4ab0040183010", null ],
-    [ "MoveInLineOfSight", "d7/dbb/a22928.html#a21868549892cdd0e67d6403dece9efce", null ],
-    [ "UpdateAI", "d7/dbb/a22928.html#a9ccbb54a41aef3a252a46545649c2c91", null ],
-    [ "WaypointReached", "d7/dbb/a22928.html#ac17dc46bfe75582a789a2056978218fb", null ],
-    [ "bAddedWPs", "d7/dbb/a22928.html#a9cabb9053b3c6b51be184b2144e5ec54", null ],
-    [ "bOpening", "d7/dbb/a22928.html#a924ceb13552f0f01d55375af0324bf5a", null ],
-    [ "count", "d7/dbb/a22928.html#a38bf10a96c8eae45b4aa0bd095924f85", null ],
-    [ "pInstance", "d7/dbb/a22928.html#a1375420fe4bf16f122aa93f5c847a464", null ],
-    [ "timer", "d7/dbb/a22928.html#a30745320b9cc64fb690fa7bd6d7525f2", null ],
-    [ "uiBoss", "d7/dbb/a22928.html#a36f60e44bd8f1de85429a75f3e928d77", null ]
+    [ "npc_azure_spellbreakerAI", "d7/dbb/a22928.html#a1daf4cb20f4081380d8deda9a58da2fd", null ],
+    [ "Reset", "d7/dbb/a22928.html#a731ff2d4311359145c353de2d91935c8", null ],
+    [ "UpdateAI", "d7/dbb/a22928.html#a053ecfe5c78220c4fa1ac896ce161210", null ],
+    [ "uiArcaneBlastTimer", "d7/dbb/a22928.html#a1e752971a31c7d3415c1820eb3574a98", null ],
+    [ "uiChainsOfIceTimer", "d7/dbb/a22928.html#a2cbf33865a79a781d8b7aad04cd2095c", null ],
+    [ "uiConeOfColdTimer", "d7/dbb/a22928.html#a4970c7459b044b08bf36e17c703395fb", null ],
+    [ "uiSlowTimer", "d7/dbb/a22928.html#a2a02b42ec104cfb6682782a80f813eef", null ]
 ];

@@ -1,6 +1,9 @@
 var a17844 =
 [
-    [ "boss_deathbringer_saurfangAI", "dd/d3f/a17848.html", "dd/d3f/a17848" ],
-    [ "boss_deathbringer_saurfang", "df/dd9/a17844.html#ad19893be7dc3b4290d9b1ed3bb992e08", null ],
-    [ "GetAI", "df/dd9/a17844.html#a6bc1ef44b3ea9e860d62bf78cfa38c92", null ]
+    [ "CheckTarget", "df/dd9/a17844.html#a214f622264855baa611b6cc5baea04bd", null ],
+    [ "HandlePresence", "df/dd9/a17844.html#a6c306be2ab4346e219e6ef7475f7ab86", null ],
+    [ "OnCast", "df/dd9/a17844.html#aa9995a96a6bfd0ac73e2c22ba33043bc", null ],
+    [ "PrepareSpellScript", "df/dd9/a17844.html#adc0691d44cf1fa0abc71a7bc3c0d5c3a", null ],
+    [ "Register", "df/dd9/a17844.html#a97e64abe6fab68aa08b54a9659710eaf", null ],
+    [ "Validate", "df/dd9/a17844.html#a3b670779cf83b627daf83baa7fbd4048", null ]
 ];

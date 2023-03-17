@@ -1,13 +1,9 @@
 var a17388 =
 [
-    [ "npc_pos_martin_or_gorkun_secondAI", "dc/d26/a17388.html#a2b8f5479565297c95ecdc4882e7d27ae", null ],
-    [ "DoAction", "dc/d26/a17388.html#aa1df5c0f5612a9fc9a4e78fb901dc8e7", null ],
-    [ "JustSummoned", "dc/d26/a17388.html#acdfc5d370da977ab69752016368cc9b0", null ],
-    [ "MovementInform", "dc/d26/a17388.html#a95c033e4e2ca224be09ce993f4e7996d", null ],
-    [ "SummonedCreatureDespawn", "dc/d26/a17388.html#af31de5c7f901baf4d8c62964fee8ead8", null ],
-    [ "UpdateAI", "dc/d26/a17388.html#ad22fbcd52404c1e9c1fc71f3bc6b7525", null ],
-    [ "events", "dc/d26/a17388.html#a44045ae5151625a4d7aacb69e9c934e5", null ],
-    [ "i", "dc/d26/a17388.html#aa185914ee8a2352e4d233f1fc4800390", null ],
-    [ "pInstance", "dc/d26/a17388.html#ac38febd0bce9338346d0c1aa6ba50de3", null ],
-    [ "summons", "dc/d26/a17388.html#ad0f2097f168ea5983e3eece24cb82bfa", null ]
+    [ "npc_pos_after_first_bossAI", "dc/d26/a17388.html#a622df71849da1e10e2b73068f0adea98", null ],
+    [ "MovementInform", "dc/d26/a17388.html#a1751506f27d4b2fc9ddb2f8a6a82dc9e", null ],
+    [ "Reset", "dc/d26/a17388.html#ad248aa4cbfbd24e4fe47b99b38c4dd8c", null ],
+    [ "UpdateAI", "dc/d26/a17388.html#ac45111887fd7833a041355658dd26158", null ],
+    [ "events", "dc/d26/a17388.html#a3aaf303ee389a10edc4feeec7c38a2a6", null ],
+    [ "pInstance", "dc/d26/a17388.html#a17a0e1e7a35f608a9ec86ce4e959b52e", null ]
 ];

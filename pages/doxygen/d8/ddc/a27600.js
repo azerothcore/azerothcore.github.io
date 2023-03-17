@@ -1,5 +1,6 @@
 var a27600 =
 [
-    [ "PrepareSpellScript", "d8/ddc/a27600.html#a9137654c01f41c735f477b85e4ec6d73", null ],
-    [ "Register", "d8/ddc/a27600.html#af1002e90bc0801c0759393d2d4af8778", null ]
+    [ "HandleActivateObject", "d8/ddc/a27600.html#a0d14ca0b21716855a04a0a9267f3e019", null ],
+    [ "PrepareSpellScript", "d8/ddc/a27600.html#a684079434128bacd3d8b8b71c14dc56a", null ],
+    [ "Register", "d8/ddc/a27600.html#a266301f59c809c03d0ccfc48a2ace302", null ]
 ];

@@ -1,12 +1,8 @@
 var a04992 =
 [
-    [ "AppenderConsole", "db/d04/a04992.html#aaf770a87f2151a7e6f92087751528c68", null ],
-    [ "_write", "db/d04/a04992.html#a94e529229bd707fa2bad0a0206a386d5", null ],
-    [ "getType", "db/d04/a04992.html#a4ae7f47c76b19eb269b26fdf13f14e48", null ],
-    [ "InitColors", "db/d04/a04992.html#a1a4deceeafc9a111a519ea55dc646266", null ],
-    [ "ResetColor", "db/d04/a04992.html#a4a3e55c9229947a25d4191bbfa348bf5", null ],
-    [ "SetColor", "db/d04/a04992.html#a9303f9408e1cbfc086fba15bf9a4ce59", null ],
-    [ "_colored", "db/d04/a04992.html#a172563f34a7277f7afb05354c8fbeb1f", null ],
-    [ "_colors", "db/d04/a04992.html#acdf277241cd25715e48500a15ab6bd30", null ],
-    [ "type", "db/d04/a04992.html#ab5cbc074f7d9306838974863913c8a5b", null ]
+    [ "Decode", "db/d04/a04992.html#aba5ab7c59ce77414bca38bfcde32d1c0", null ],
+    [ "Encode", "db/d04/a04992.html#ad6cde2310ca52940df1bbf93deff6b91", null ],
+    [ "BITS_PER_CHAR", "db/d04/a04992.html#a5efb6c842ab7733dc26fd67f1a00ccdf", null ],
+    [ "DECODE_ERROR", "db/d04/a04992.html#a8fccf3d4b22e835fc4dca6b942771a2a", null ],
+    [ "PADDING", "db/d04/a04992.html#a2e5699431f24ca6b745294b935b99240", null ]
 ];

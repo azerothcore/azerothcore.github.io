@@ -1,5 +1,6 @@
 var a14936 =
 [
-    [ "npc_hive_zara_swarmer", "d8/dd0/a14936.html#a374fa63e210e0be8a074af9199126a9e", null ],
-    [ "PathEndReached", "d8/dd0/a14936.html#a3b3510bd00853395b756e1d83d96a474", null ]
+    [ "npc_belnistraszAI", "db/d18/a14940.html", "db/d18/a14940" ],
+    [ "npc_belnistrasz", "d8/dd0/a14936.html#a7aa0e9bfcfaf74febe67cbcb94c01ddb", null ],
+    [ "GetAI", "d8/dd0/a14936.html#aac9d4389ec1c88be9afb6b9a828da511", null ]
 ];

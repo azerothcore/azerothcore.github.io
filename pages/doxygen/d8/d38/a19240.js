@@ -1,6 +1,7 @@
 var a19240 =
 [
-    [ "HandleScript", "d8/d38/a19240.html#a0cd837f93eecd04a4020ce1ce5728ff4", null ],
-    [ "PrepareSpellScript", "d8/d38/a19240.html#aef50146a16f7e3193c0dc1c25764df1b", null ],
-    [ "Register", "d8/d38/a19240.html#a96e0b79b950f8138bfccd0a063eb3742", null ]
+    [ "HandleProc", "d8/d38/a19240.html#a5afa4b975847bb3f81de0f4312862655", null ],
+    [ "PrepareAuraScript", "d8/d38/a19240.html#a258256f4d56606257abcee4d2775577d", null ],
+    [ "Register", "d8/d38/a19240.html#ab7fb12a55721032f742aa28b27f1cc08", null ],
+    [ "Validate", "d8/d38/a19240.html#afb81942166dd65f3cab3fe6f1c522421", null ]
 ];

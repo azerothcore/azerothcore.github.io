@@ -1,9 +1,8 @@
 var a25692 =
 [
-    [ "boss_lajAI", "d7/d25/a25692.html#a52253608a460a9b4c0e19f5fc50f27f3", null ],
-    [ "DoTransform", "d7/d25/a25692.html#aa9d334611affae77e5326a9492ffb2fb", null ],
-    [ "EnterCombat", "d7/d25/a25692.html#a7ac794c7b78af63ff43f041056009540", null ],
-    [ "Reset", "d7/d25/a25692.html#af52fe9c732bd28439304d05b265655e6", null ],
-    [ "UpdateAI", "d7/d25/a25692.html#a9c5d2a094feb04536d601ccab56877be", null ],
-    [ "_lastTransform", "d7/d25/a25692.html#a0aa03c6ef0646742ae81cbafcff3cda3", null ]
+    [ "HandleEffectApply", "d7/d25/a25692.html#acd1342b1b260b495cdaf7c5c0b6f9c25", null ],
+    [ "HandleEffectRemove", "d7/d25/a25692.html#a534a2d2dbd3c35eb11eed0ae618a02d5", null ],
+    [ "PrepareAuraScript", "d7/d25/a25692.html#a37b8f6dff913fe04d8d4d68b30c2cc6a", null ],
+    [ "Register", "d7/d25/a25692.html#ab02c14d9a79430eb702a26c11afa9ad9", null ],
+    [ "_falconSet", "d7/d25/a25692.html#a9cf7ea5562216826a81d229c9a51f929", null ]
 ];

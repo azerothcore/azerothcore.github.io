@@ -1,6 +1,6 @@
 var a19400 =
 [
-    [ "spell_dreamwalker_mana_void_AuraScript", "da/d89/a19404.html", "da/d89/a19404" ],
-    [ "spell_dreamwalker_mana_void", "d7/d66/a19400.html#a7af80de982c5601758319fd819c606ec", null ],
-    [ "GetAuraScript", "d7/d66/a19400.html#a3c0ff5e565637f16713fb842cee3f9d3", null ]
+    [ "spell_dreamwalker_summon_portal_SpellScript", "da/d89/a19404.html", "da/d89/a19404" ],
+    [ "spell_dreamwalker_summon_portal", "d7/d66/a19400.html#a42a76c4995823e53fdb4a70c03267a8b", null ],
+    [ "GetSpellScript", "d7/d66/a19400.html#afebe88df56b963360672ee87027fd666", null ]
 ];

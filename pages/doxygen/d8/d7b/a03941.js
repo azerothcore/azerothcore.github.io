@@ -1,37 +1,17 @@
 var a03941 =
 [
-    [ "boss_the_black_stalker", "d3/d27/a25271.html", "d3/d27/a25271" ],
-    [ "spell_gen_allergies", "de/da3/a25275.html", "de/da3/a25275" ],
-    [ "spell_the_black_stalker_levitate", "dc/dc3/a25279.html", "dc/dc3/a25279" ],
-    [ "spell_the_black_stalker_levitation_pulse", "d7/dcf/a25283.html", "d7/dcf/a25283" ],
-    [ "spell_the_black_stalker_someone_grab_me", "d7/d0c/a25287.html", "d7/d0c/a25287" ],
-    [ "spell_the_black_stalker_magnetic_pull", "d5/d80/a25291.html", "d5/d80/a25291" ],
-    [ "eBlackStalker", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954", [
-      [ "SPELL_ACID_BREATH", "d0/ddf/a03935.html#afbee42c6927db9ad2cf9d9096eeac954af39adcb38f10e84d7ff9bac76f41031c", null ],
-      [ "SPELL_ACID_SPIT", "d0/ddf/a03935.html#afbee42c6927db9ad2cf9d9096eeac954af69c625b663facf12cc5d8a20a280806", null ],
-      [ "SPELL_TAIL_SWEEP", "d0/ddf/a03935.html#afbee42c6927db9ad2cf9d9096eeac954addcb3daa6cdc61ef04c65580e44ef823", null ],
-      [ "SPELL_ENRAGE", "d0/ddf/a03935.html#afbee42c6927db9ad2cf9d9096eeac954a2a20f56307679be4d4f01a0d3d93cc7e", null ],
-      [ "EVENT_ACID_BREATH", "d0/ddf/a03935.html#afbee42c6927db9ad2cf9d9096eeac954a38c2c1d80dd5f2e8c1aa4a37018437e4", null ],
-      [ "EVENT_ACID_SPIT", "d0/ddf/a03935.html#afbee42c6927db9ad2cf9d9096eeac954a66c74ded709e291f6a1c8c6d4b6da249", null ],
-      [ "EVENT_TAIL_SWEEP", "d0/ddf/a03935.html#afbee42c6927db9ad2cf9d9096eeac954a17bfc27de87051c2b38ca746bfb1b732", null ],
-      [ "ACTION_MOVE_TO_PLATFORM", "d0/ddf/a03935.html#afbee42c6927db9ad2cf9d9096eeac954a7e5366df9a5dd5e5bca840226b0755fa", null ],
-      [ "SPELL_LEVITATE", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954ad2a574f606c6448dd086526c15b6fdd2", null ],
-      [ "SPELL_CHAIN_LIGHTNING", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954ac0997e72929070d8e30cc0f49cc4539d", null ],
-      [ "SPELL_STATIC_CHARGE", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954ad174c0c15c17e6a55eec42eab77d89e0", null ],
-      [ "SPELL_SUMMON_SPORE_STRIDER", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954a754dcc3138f3b4acb829bc54bc02b9ed", null ],
-      [ "SPELL_LEVITATION_PULSE", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954ade4ad87d3a67412155f3ce6b143275b1", null ],
-      [ "SPELL_SOMEONE_GRAB_ME", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954aa07d1c28d9fea727b3885a967461d13b", null ],
-      [ "SPELL_MAGNETIC_PULL", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954a3917f87779ff3a60876e0373a10855d5", null ],
-      [ "SPELL_SUSPENSION_PRIMER", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954a38589209a4f90f4db2f89b249f6840de", null ],
-      [ "SPELL_SUSPENSION", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954a0b7462c628390d15bd33088fb3d2a6a0", null ],
-      [ "EVENT_LEVITATE", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954a6ed05b6394dabe99517aef79ea4b43d1", null ],
-      [ "EVENT_SPELL_CHAIN", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954a367aabaafd07426d7527bc06f2ea72df", null ],
-      [ "EVENT_SPELL_STATIC", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954a19f2ea1fb0ad90bd97ac02f9d08cd412", null ],
-      [ "EVENT_SPELL_SPORES", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954a76c36073f288cc1ec85779dc073be273", null ],
-      [ "EVENT_CHECK", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954afda49efdcecab7f5dbf2499d16a880c7", null ],
-      [ "EVENT_LEVITATE_TARGET_1", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954a38973675057b7ee3d600b8d2f84ab1e9", null ],
-      [ "EVENT_LEVITATE_TARGET_2", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954af1c3822c7b195a2e45c26bb287fa94c2", null ],
-      [ "ENTRY_SPORE_STRIDER", "d8/d7b/a03941.html#afbee42c6927db9ad2cf9d9096eeac954a461a6686eb7320e609d5675753241cd2", null ]
+    [ "boss_hydromancer_thespia", "d2/de1/a25228.html", "d2/de1/a25228" ],
+    [ "HydromancerThespia", "d8/d7b/a03941.html#a3f4b673ff8add0ad1c96080f6252130d", [
+      [ "SAY_SUMMON", "d8/d7b/a03941.html#a3f4b673ff8add0ad1c96080f6252130dacebbfa1f13b8de4f039f5d550063c7bf", null ],
+      [ "SAY_AGGRO", "d8/d7b/a03941.html#a3f4b673ff8add0ad1c96080f6252130da47c752fff069f3e55065795eef2a9bfe", null ],
+      [ "SAY_SLAY", "d8/d7b/a03941.html#a3f4b673ff8add0ad1c96080f6252130da9e64f6e600dd42567d18006912811f75", null ],
+      [ "SAY_DEAD", "d8/d7b/a03941.html#a3f4b673ff8add0ad1c96080f6252130dafeeb59e6533ea7f2f818422052e0b671", null ],
+      [ "SPELL_LIGHTNING_CLOUD", "d8/d7b/a03941.html#a3f4b673ff8add0ad1c96080f6252130dae91e1d3d8c305d3f37313774206628f2", null ],
+      [ "SPELL_LUNG_BURST", "d8/d7b/a03941.html#a3f4b673ff8add0ad1c96080f6252130da56e2d21d9894c6b11ae15da9572894c6", null ],
+      [ "SPELL_ENVELOPING_WINDS", "d8/d7b/a03941.html#a3f4b673ff8add0ad1c96080f6252130dacf98b779c795324d47e44b043eeacf92", null ],
+      [ "EVENT_SPELL_LIGHTNING", "d8/d7b/a03941.html#a3f4b673ff8add0ad1c96080f6252130da772f71f0ca3430dfec7b4b756f4e87db", null ],
+      [ "EVENT_SPELL_LUNG", "d8/d7b/a03941.html#a3f4b673ff8add0ad1c96080f6252130dae72b6fc8defb13ef49e55126dba4472b", null ],
+      [ "EVENT_SPELL_ENVELOPING", "d8/d7b/a03941.html#a3f4b673ff8add0ad1c96080f6252130dab3e1f2d9ffd635af020a3405c6fef059", null ]
     ] ],
-    [ "AddSC_boss_the_black_stalker", "d8/d7b/a03941.html#aed8364eb84dab70c060c0a88e6522a7c", null ]
+    [ "AddSC_boss_hydromancer_thespia", "d8/d7b/a03941.html#a0a9bb9014bd5526d13141dcef207c234", null ]
 ];

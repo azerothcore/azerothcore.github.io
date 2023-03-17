@@ -1,6 +1,6 @@
 var a11940 =
 [
-    [ "instance_gnomeregan_InstanceMapScript", "d0/d4d/a11944.html", "d0/d4d/a11944" ],
-    [ "instance_gnomeregan", "de/d02/a11940.html#a3fca2b3399f41e88c0c30ae05763a09c", null ],
-    [ "GetInstanceScript", "de/d02/a11940.html#ad2130ba5eb3cd37cd2cc464a62381eda", null ]
+    [ "bossId", "de/d02/a11940.html#a898f2ce24d96fb7d6a118e9772344c43", null ],
+    [ "circleId", "de/d02/a11940.html#aaa379e61fda2f7225ab4089757df5d24", null ],
+    [ "runeId", "de/d02/a11940.html#aa7ac7e2d5729aa906e00ca9c2648581d", null ]
 ];

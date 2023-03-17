@@ -1,5 +1,7 @@
 var a09928 =
 [
-    [ "GuildGetInfo", "dd/d9c/a09928.html#a585a6a49fe9747d5044ac185f1236cf5", null ],
-    [ "Read", "dd/d9c/a09928.html#aa2b107f35fcf348fb7f84c2971c5fa00", null ]
+    [ "Emote", "dd/d9c/a09928.html#acb1620d125ffb11fe43caf4ebf27d1be", null ],
+    [ "Write", "dd/d9c/a09928.html#a3f5532f40b59f47423d2b4e3749da88e", null ],
+    [ "EmoteID", "dd/d9c/a09928.html#a7f4d3ee4353b408f8c795e6fdc552e76", null ],
+    [ "Guid", "dd/d9c/a09928.html#ab96a1c0933e90872f54eb0995098274a", null ]
 ];

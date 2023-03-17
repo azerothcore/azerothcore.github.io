@@ -1,5 +1,6 @@
 var a15328 =
 [
-    [ "go_ravager_cage", "d5/db2/a15328.html#a632c767a4ab0075ee40d40e977fe7c18", null ],
-    [ "OnGossipHello", "d5/db2/a15328.html#a83c9086cefea0d6d11a5de7a781d84db", null ]
+    [ "npc_depth_chargeAI", "d8/dc7/a15332.html", "d8/dc7/a15332" ],
+    [ "npc_depth_charge", "d5/db2/a15328.html#ad16e3431b06fdd6797bfb51dda9005f5", null ],
+    [ "GetAI", "d5/db2/a15328.html#a16de1a207304ea2ad7f47d5674deeec1", null ]
 ];

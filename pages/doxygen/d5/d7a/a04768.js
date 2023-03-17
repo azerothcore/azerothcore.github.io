@@ -1,20 +1,10 @@
 var a04768 =
 [
-    [ "Cell", "d0/d95/a04772.html", "d0/d95/a04772" ],
-    [ "MemberTable", "d5/d7a/a04768.html#a53d3129df77e91fe5a16a990f94412fb", null ],
-    [ "RegularGrid2D", "d5/d7a/a04768.html#ad46cc1766cbe53425691d25266836162", null ],
-    [ "~RegularGrid2D", "d5/d7a/a04768.html#af105482aa4349d2f7f937fb95ec7f2a8", null ],
-    [ "balance", "d5/d7a/a04768.html#ae4bc431aff07874774243907c6c71539", null ],
-    [ "contains", "d5/d7a/a04768.html#a03a3daaf4be4e818315eb1051bed786f", null ],
-    [ "getGrid", "d5/d7a/a04768.html#a17d16d7813e95d09000563cd1f059414", null ],
-    [ "getGridFor", "d5/d7a/a04768.html#a038d866c2d0b029b1b60991f0d7ac106", null ],
-    [ "insert", "d5/d7a/a04768.html#acd03acd7829c13772c49580724ca4b1c", null ],
-    [ "intersectPoint", "d5/d7a/a04768.html#a3eb8cf138465b05159a8411d5f723bcb", null ],
-    [ "intersectRay", "d5/d7a/a04768.html#abd2a34c305726b54aa1b76ba5e9353b8", null ],
-    [ "intersectRay", "d5/d7a/a04768.html#a8ff8f11a1e48a2ee247609c5d01330eb", null ],
-    [ "intersectZAllignedRay", "d5/d7a/a04768.html#a1e06727cad432d3f3ce9ca6f08c2ac76", null ],
-    [ "remove", "d5/d7a/a04768.html#a862fd48782df471f0b8ab84bdd4ae51b", null ],
-    [ "size", "d5/d7a/a04768.html#a6e7ce25838521cf8dde65aa6f70f404f", null ],
-    [ "memberTable", "d5/d7a/a04768.html#a2343374187eaf1b4a4dcf6d5cf4611d1", null ],
-    [ "nodes", "d5/d7a/a04768.html#a1f31b8ce99c32652c8b8c3b5063fe83d", null ]
+    [ "WModelAreaCallback", "d5/d7a/a04768.html#ad59e5b281d60d2489d0100e728612e65", null ],
+    [ "operator()", "d5/d7a/a04768.html#a4c0bb86ba4d8238e8f7740c4699dfa0f", null ],
+    [ "hit", "d5/d7a/a04768.html#a136cf475a8246611c52b3af41707fe83", null ],
+    [ "minVol", "d5/d7a/a04768.html#a169a35e4d1b33b28014ad753993a1c27", null ],
+    [ "prims", "d5/d7a/a04768.html#a7a45b1c8e16c7840a45b96b15ca200b4", null ],
+    [ "zDist", "d5/d7a/a04768.html#ade19ec7931454c375bf8564f05556c8e", null ],
+    [ "zVec", "d5/d7a/a04768.html#a423995c8ce4c4846da978cc49aeee2b9", null ]
 ];

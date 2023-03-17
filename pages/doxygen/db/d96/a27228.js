@@ -1,8 +1,6 @@
 var a27228 =
 [
-    [ "CheckProc", "db/d96/a27228.html#a1ba43a41ca6909f2bd377290b1b0b12b", null ],
-    [ "OnProc", "db/d96/a27228.html#a6ffad33ef5c8433705c65a2c693d5527", null ],
-    [ "PrepareAuraScript", "db/d96/a27228.html#af474a768c441fb666163f4ebd5068393", null ],
-    [ "Register", "db/d96/a27228.html#ae533e87550b1aedc67b67c217495286d", null ],
-    [ "Validate", "db/d96/a27228.html#ab6e36f24dea949c8cedaaed0d5fa9517", null ]
+    [ "HandleEffectPeriodic", "db/d96/a27228.html#a248ba0e88498e36355491b2b89063e17", null ],
+    [ "PrepareAuraScript", "db/d96/a27228.html#ac9aed434fe7602ef846e9f052402620e", null ],
+    [ "Register", "db/d96/a27228.html#a039eec910c802276b9e979253141cdee", null ]
 ];

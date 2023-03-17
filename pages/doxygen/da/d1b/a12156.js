@@ -1,6 +1,6 @@
 var a12156 =
 [
-    [ "boss_strawmanAI", "db/ddb/a12160.html", "db/ddb/a12160" ],
-    [ "boss_strawman", "da/d1b/a12156.html#ab66ae2a18c999be25868b87834ca35bf", null ],
-    [ "GetAI", "da/d1b/a12156.html#a6dfa53b3256cf5b80ddcb36c0c886fbd", null ]
+    [ "npc_fiendish_portalAI", "db/ddb/a12160.html", "db/ddb/a12160" ],
+    [ "npc_fiendish_portal", "da/d1b/a12156.html#a2b81a919ba2fc4983d873974a1153f6b", null ],
+    [ "GetAI", "da/d1b/a12156.html#a2be07f5fa5f54027b5ed6c135b5dde21", null ]
 ];

@@ -1,6 +1,6 @@
 var a18168 =
 [
-    [ "HandlePeriodicTick", "d3/d75/a18168.html#a6604da6d3f20a03d33ed87eb3d1f9d6f", null ],
-    [ "PrepareAuraScript", "d3/d75/a18168.html#af8c146d092873169283f6c15510b16d8", null ],
-    [ "Register", "d3/d75/a18168.html#adae30afe7c6948fcfbe516c291d08c52", null ]
+    [ "spell_igb_explosion_SpellScript", "d0/d0b/a18172.html", "d0/d0b/a18172" ],
+    [ "spell_igb_explosion", "d3/d75/a18168.html#a200411efb732957b117cfa7ead3bc467", null ],
+    [ "GetSpellScript", "d3/d75/a18168.html#a7bd0d9a9bbefc856e8584a99e9d3283f", null ]
 ];

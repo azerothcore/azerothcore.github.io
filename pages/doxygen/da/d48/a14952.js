@@ -1,8 +1,6 @@
 var a14952 =
 [
-    [ "HandleScript", "da/d48/a14952.html#ac58aef1b295e32c8a44852278edc18f8", null ],
-    [ "Load", "da/d48/a14952.html#a2f7b9372dd36444c5161f3bc50424d99", null ],
-    [ "PrepareSpellScript", "da/d48/a14952.html#adc1301a318f86b4e147a191f4c63e3bf", null ],
-    [ "Register", "da/d48/a14952.html#a95f4abd67d6baf75980ff28a7518503d", null ],
-    [ "Validate", "da/d48/a14952.html#a98271e7adb17b11e39241154a83b0d0d", null ]
+    [ "instance_razorfen_kraul_InstanceMapScript", "d2/dc7/a14956.html", "d2/dc7/a14956" ],
+    [ "instance_razorfen_kraul", "da/d48/a14952.html#aedd65b901c8131a7ac21e8576734f76f", null ],
+    [ "GetInstanceScript", "da/d48/a14952.html#a78e77010ebb055b9530733ca25533110", null ]
 ];

@@ -1,6 +1,7 @@
 var a23896 =
 [
-    [ "npc_wg_siege_machineAI", "d6/d77/a23900.html", "d6/d77/a23900" ],
-    [ "npc_wg_siege_machine", "d6/d90/a23896.html#a23dc1bbeaa396cad781ec177881e7d2a", null ],
-    [ "GetAI", "d6/d90/a23896.html#ae8b2a71378565ad5428f1ae582cacca1", null ]
+    [ "npc_wg_demolisher_engineer", "d6/d90/a23896.html#a722ff6bac34730bfb5f36584d7a62ff8", null ],
+    [ "canBuild", "d6/d90/a23896.html#a5dd51b0d0a05ebfb648faab570e27881", null ],
+    [ "OnGossipHello", "d6/d90/a23896.html#ac3b0bbfd66bb94f29a6d733999b8c6ba", null ],
+    [ "OnGossipSelect", "d6/d90/a23896.html#a3ecf69f45918bef0cb51023327ac9693", null ]
 ];

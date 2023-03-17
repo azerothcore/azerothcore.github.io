@@ -1,7 +1,7 @@
 var a16644 =
 [
-    [ "npc_toc_dkAI", "d7/d4e/a16644.html#aa01bf528b10ed7bbdfe9b03694e51845", null ],
-    [ "myCanCast", "d7/d4e/a16644.html#a54dee5d9b0f17bad21e8c1e275f0b222", null ],
-    [ "UpdateAI", "d7/d4e/a16644.html#ab4f4b11e2b250fb24de6c069c5e38208", null ],
-    [ "events", "d7/d4e/a16644.html#a293d5fca2940432c4eea57c5de5a1fdc", null ]
+    [ "npc_toc_mageAI", "d7/d4e/a16644.html#a188831088c892f68cef7498468b24899", null ],
+    [ "myCanCast", "d7/d4e/a16644.html#aaf7fd7b143a4eb410465c7cb34c32d2f", null ],
+    [ "UpdateAI", "d7/d4e/a16644.html#a0f4393341a6c565aef2c0b79a39c0699", null ],
+    [ "events", "d7/d4e/a16644.html#ab1910ce98f3d1b14e45acba22782d536", null ]
 ];

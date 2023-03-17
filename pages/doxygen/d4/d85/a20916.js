@@ -1,6 +1,6 @@
 var a20916 =
 [
-    [ "spell_shield_of_runes_AuraScript", "d4/dc8/a20920.html", "d4/dc8/a20920" ],
-    [ "spell_shield_of_runes", "d4/d85/a20916.html#a630b593aba0bb671f024f9d6e42c3db4", null ],
-    [ "GetAuraScript", "d4/d85/a20916.html#a2f4f791140a2c894a3eacbf26638a1b9", null ]
+    [ "boss_runemaster_molgeimAI", "d4/dc8/a20920.html", "d4/dc8/a20920" ],
+    [ "boss_runemaster_molgeim", "d4/d85/a20916.html#a440e4e43b941ac2b956c7c586a95f991", null ],
+    [ "GetAI", "d4/d85/a20916.html#a080e70913be1e6ad9521bab5b90a92a6", null ]
 ];

@@ -1,6 +1,6 @@
 var a23476 =
 [
-    [ "spell_z_check_AuraScript", "d5/d56/a23480.html", "d5/d56/a23480" ],
-    [ "spell_z_check", "dd/d7f/a23476.html#a7b1db80530bec8666a67536d4d30226c", null ],
-    [ "GetAuraScript", "dd/d7f/a23476.html#a0b6501eab91f2e823a9893da12335d76", null ]
+    [ "npc_rocket_propelled_warheadAI", "d5/d56/a23480.html", "d5/d56/a23480" ],
+    [ "npc_rocket_propelled_warhead", "dd/d7f/a23476.html#a5c945efc6e3ca847363ac47abc5f51ca", null ],
+    [ "GetAI", "dd/d7f/a23476.html#a803702c480107d197845a0ef447a5380", null ]
 ];

@@ -1,6 +1,6 @@
 var a19940 =
 [
-    [ "boss_four_horsemenAI", "d2/d18/a19944.html", "d2/d18/a19944" ],
-    [ "boss_four_horsemen", "df/d78/a19940.html#a6bcaf9a12d854a322f50ac2f98dbb72b", null ],
-    [ "GetAI", "df/d78/a19940.html#a3ee27da1d0da48306cc10c17c9411d1a", null ]
+    [ "spell_ioc_launch_SpellScript", "d2/d18/a19944.html", "d2/d18/a19944" ],
+    [ "spell_ioc_launch", "df/d78/a19940.html#ae0248b515ec7503898068edf7d29ff06", null ],
+    [ "GetSpellScript", "df/d78/a19940.html#af0aa5982b87998cc1d9d64bc05d81e8d", null ]
 ];

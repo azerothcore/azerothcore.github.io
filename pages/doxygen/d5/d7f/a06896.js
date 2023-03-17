@@ -1,11 +1,9 @@
 var a06896 =
 [
-    [ "BattlegroundSAScore", "d5/d7f/a06896.html#afb1312e304eee973740cfe208657c5b9", null ],
-    [ "BuildObjectivesBlock", "d5/d7f/a06896.html#a57bf8241b404571cda5a8e113c334eab", null ],
-    [ "GetAttr1", "d5/d7f/a06896.html#aa31cd91ede928c57cd201dba61f7f585", null ],
-    [ "GetAttr2", "d5/d7f/a06896.html#aba47bb1ec440f405bfde8513c60ae576", null ],
-    [ "UpdateScore", "d5/d7f/a06896.html#a169a2a0a51edb6564e98c4b55f3e8a3b", null ],
-    [ "BattlegroundSA", "d5/d7f/a06896.html#ab31c13442be48941f5dab4214b95cde9", null ],
-    [ "DemolishersDestroyed", "d5/d7f/a06896.html#ac49c28efa42cfad7232268de4be45e66", null ],
-    [ "GatesDestroyed", "d5/d7f/a06896.html#aeb1310b64150dd51f91722574a9dd3fc", null ]
+    [ "entry", "d5/d7f/a06896.html#a4c6980a035279ca45e88a2ddc0beb0b5", null ],
+    [ "o", "d5/d7f/a06896.html#a785703f50dcafda5888fb76af82a09da", null ],
+    [ "type", "d5/d7f/a06896.html#aa21624a51b1fbfc474d0c64f4996cb9b", null ],
+    [ "x", "d5/d7f/a06896.html#a55bd18cb9ea27748a07dd91f6783de23", null ],
+    [ "y", "d5/d7f/a06896.html#a908fbf198d908963e77630b42deea147", null ],
+    [ "z", "d5/d7f/a06896.html#a4a49f5cbb58764ea9c137fc010e898c6", null ]
 ];

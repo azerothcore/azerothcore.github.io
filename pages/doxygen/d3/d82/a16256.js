@@ -1,7 +1,8 @@
 var a16256 =
 [
-    [ "OnApply", "d3/d82/a16256.html#a1715a3fa18b4b9953c65fad22a4ac80a", null ],
-    [ "OnRemove", "d3/d82/a16256.html#a07c943a10f7fa69e06a92a6b978e45bc", null ],
-    [ "PrepareAuraScript", "d3/d82/a16256.html#a30806e63f5e4a51213c07e8adad54d4b", null ],
-    [ "Register", "d3/d82/a16256.html#acbee31360b60edc391ff15a62ed390fd", null ]
+    [ "spell_halion_marks_AuraScript", "dd/d91/a16260.html", "dd/d91/a16260" ],
+    [ "spell_halion_marks", "d3/d82/a16256.html#a5363431a277aae3b14aae18ac929f82d", null ],
+    [ "GetAuraScript", "d3/d82/a16256.html#a01b5344b5818228c371a989eda6520b0", null ],
+    [ "_removeSpell", "d3/d82/a16256.html#a34d0e1830abac27b00de642c98589427", null ],
+    [ "_summonSpell", "d3/d82/a16256.html#a42d9b83be5892a5a21a57eebbe77ebca", null ]
 ];

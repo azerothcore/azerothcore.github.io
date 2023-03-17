@@ -1,12 +1,7 @@
 var a10868 =
 [
-    [ "WardenMac", "d4/d06/a10868.html#a576c0cf7a819e95c97cc0ac4e5962d6d", null ],
-    [ "~WardenMac", "d4/d06/a10868.html#a5f3832580c73a0af34fa83669a92ceab", null ],
-    [ "GetModuleForClient", "d4/d06/a10868.html#a7a31b72ea7362c70f0fc9ff6e316d80b", null ],
-    [ "HandleData", "d4/d06/a10868.html#a024be47d39641cb0e7654b0e0999e444", null ],
-    [ "HandleHashResult", "d4/d06/a10868.html#a7feb3f82b2e0efd8427d6d8bcabaf17c", null ],
-    [ "Init", "d4/d06/a10868.html#ae329d60e41b9f5af2a2c7e4983936eac", null ],
-    [ "InitializeModule", "d4/d06/a10868.html#a4fceef34e83db1a357d9eadce35efdef", null ],
-    [ "RequestChecks", "d4/d06/a10868.html#a2437a3a5650305b05fc22d312d0006da", null ],
-    [ "RequestHash", "d4/d06/a10868.html#af031f18554c5a96b4eb39371a92b9c51", null ]
+    [ "Command", "d4/d06/a10868.html#a6042a93c52d18e3a74d3cd46ac3d940f", null ],
+    [ "ModuleId", "d4/d06/a10868.html#aa2e1c1cee71fc1eb887511c655de0516", null ],
+    [ "ModuleKey", "d4/d06/a10868.html#aba0f236c39186022816bd86f8e8e9093", null ],
+    [ "Size", "d4/d06/a10868.html#a6912224c1ef6fd117a5ed02d394254d9", null ]
 ];

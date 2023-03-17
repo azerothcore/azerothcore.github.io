@@ -1,6 +1,6 @@
 var a15924 =
 [
-    [ "instance_ahnkahet_InstanceScript", "d4/dc7/a15928.html", "d4/dc7/a15928" ],
-    [ "instance_ahnkahet", "da/ded/a15924.html#afbe11bc040019231878cf31cc357830b", null ],
-    [ "GetInstanceScript", "da/ded/a15924.html#a8847099c88f11de363c45e27998f10b7", null ]
+    [ "ModDestHeight", "da/ded/a15924.html#a8bda9327c4244af41c513528ad5c818c", null ],
+    [ "PrepareSpellScript", "da/ded/a15924.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
+    [ "Register", "da/ded/a15924.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
 ];

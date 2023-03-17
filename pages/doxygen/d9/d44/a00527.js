@@ -1,8 +1,8 @@
 var a00527 =
 [
-    [ "AccountInfo", "d7/df8/a05311.html", "d7/df8/a05311" ],
-    [ "AuthSession", "d0/d45/a05315.html", "d0/d45/a05315" ],
-    [ "AuthHandler", "da/d97/a05319.html", "da/d97/a05319" ],
+    [ "AccountInfo", "d8/d27/a05332.html", "d8/d27/a05332" ],
+    [ "AuthSession", "d4/dcb/a05336.html", "d4/dcb/a05336" ],
+    [ "AuthHandler", "d0/d8d/a05340.html", "d0/d8d/a05340" ],
     [ "AuthStatus", "d9/d44/a00527.html#a9bc15a6035dd7c4983d87a5ccb3d5834", [
       [ "STATUS_CHALLENGE", "d9/d44/a00527.html#a9bc15a6035dd7c4983d87a5ccb3d5834a90b814e742d5a0b33f968164487ecac4", null ],
       [ "STATUS_LOGON_PROOF", "d9/d44/a00527.html#a9bc15a6035dd7c4983d87a5ccb3d5834a940d23c4c5ae99bdf01c40c4e975df16", null ],

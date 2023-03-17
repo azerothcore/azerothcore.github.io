@@ -1,6 +1,6 @@
 var a22060 =
 [
-    [ "HandleScript", "dc/d59/a22060.html#a5733854b7d82568f72e37589ee9fe45e", null ],
-    [ "PrepareSpellScript", "dc/d59/a22060.html#a0068abff528a8d213e426937f8fade93", null ],
-    [ "Register", "dc/d59/a22060.html#a58d71e2969a3441cfeafd74cd71c1245", null ]
+    [ "spell_xt002_tympanic_tantrum_SpellScript", "dd/d61/a22064.html", "dd/d61/a22064" ],
+    [ "spell_xt002_tympanic_tantrum", "dc/d59/a22060.html#ac08790248570c9392030b2f0cbc19139", null ],
+    [ "GetSpellScript", "dc/d59/a22060.html#aae70170ad1592e9ffa75acef067814f1", null ]
 ];

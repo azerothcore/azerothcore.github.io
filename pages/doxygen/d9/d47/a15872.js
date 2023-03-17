@@ -1,17 +1,13 @@
 var a15872 =
 [
-    [ "boss_volazj", "d9/d47/a15872.html#ac1f0bc7b55a554d29e55a376680bf747", null ],
-    [ "CheckPhaseMinions", "d9/d47/a15872.html#aa79bf97b6772956795bd2f16b85e061f", null ],
-    [ "DamageTaken", "d9/d47/a15872.html#a494d78875526d878421b995145b74a12", null ],
-    [ "EnterCombat", "d9/d47/a15872.html#a3f37ad9e1b99e23e16f36e4630d62511", null ],
-    [ "GetPlrInsanityAuraId", "d9/d47/a15872.html#a5b6936cedb3fc411ae58f3dc3f6b689a", null ],
-    [ "InitializeAI", "d9/d47/a15872.html#a9480c4294b18c5417895e5070be9a455", null ],
-    [ "JustDied", "d9/d47/a15872.html#a6c85c56c2483c3e8b4de67b94a45e0a6", null ],
-    [ "KilledUnit", "d9/d47/a15872.html#abdf2cb95f0d3d7756584c338f2e2db25", null ],
-    [ "Reset", "d9/d47/a15872.html#a0377375b89b02db3cae01390fdd13ee2", null ],
-    [ "ResetPlayersPhaseMask", "d9/d47/a15872.html#afbfa62f2b72a95434348f74fdda46da6", null ],
-    [ "SetData", "d9/d47/a15872.html#aa8b5ae6214f0c764f15b096876d614d7", null ],
-    [ "UpdateAI", "d9/d47/a15872.html#aceac85fb06c81ccd171b024ad0d57ffe", null ],
-    [ "insanityPhase", "d9/d47/a15872.html#ae90de1e956eb3653c8c2f0c04d89585b", null ],
-    [ "insanityTimes", "d9/d47/a15872.html#a7d2693147f9cb20a45ff2e5b6a2ca209", null ]
+    [ "npc_shadowpriest_sezzizAI", "d9/d47/a15872.html#a14c5cee1c3032b8df4ad902eb273e9b0", null ],
+    [ "AttackStart", "d9/d47/a15872.html#a8278a73501ea33164cbdef8599144f4a", null ],
+    [ "Reset", "d9/d47/a15872.html#ab08cc327c4206e4526e77eea3bf17e0b", null ],
+    [ "UpdateAI", "d9/d47/a15872.html#a1c0236b52d4cd87634659991e0dfc728", null ],
+    [ "_missingHPForHealTimer", "d9/d47/a15872.html#a1171f0cd40bd3d7198bab15b12edc131", null ],
+    [ "_missingHPForRenewTimer", "d9/d47/a15872.html#a8df4e1046348599cd5d1e31e3dc4eb0c", null ],
+    [ "_physicScreemTimer", "d9/d47/a15872.html#a43de246b93f3380d5b79ffba6434aa5a", null ],
+    [ "_shadowBoltTimer", "d9/d47/a15872.html#a34a18991ff2c0aafac15694ed9667193", null ],
+    [ "_summmonAddsCount", "d9/d47/a15872.html#a8ce2b172757d1f7d188152ecc0fe30f5", null ],
+    [ "_summonAddsTimer", "d9/d47/a15872.html#aff413ce6f4106d212f35fb7abbfa047e", null ]
 ];

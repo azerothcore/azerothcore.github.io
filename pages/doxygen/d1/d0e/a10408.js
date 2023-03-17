@@ -1,5 +1,6 @@
 var a10408 =
 [
-    [ "SocketAdded", "d1/d0e/a10408.html#a89b23aa46aca3772ad0c0f36f41db537", null ],
-    [ "SocketRemoved", "d1/d0e/a10408.html#a4f4ec084812a4191a477f7fa9223fa6e", null ]
+    [ "WorldSession", "d1/d0e/a10408.html#a65b5c30bf4f5f118a199e378d903aaf6", null ],
+    [ "Guid", "d1/d0e/a10408.html#a46a89b6904e59f39f4e1460a9bb45765", null ],
+    [ "Name", "d1/d0e/a10408.html#a4e747a555bde74f97a5fc78287e5e29d", null ]
 ];

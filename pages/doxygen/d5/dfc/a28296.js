@@ -1,7 +1,6 @@
 var a28296 =
 [
-    [ "HandleHeal", "d5/dfc/a28296.html#a22e3dd3ac57c7cb95162ee56ab43bc93", null ],
-    [ "PrepareSpellScript", "d5/dfc/a28296.html#a9de9260bc1e2582138c58a708e5d899c", null ],
-    [ "Register", "d5/dfc/a28296.html#ab613ce86521f1381b79f6f9f3eaea3cc", null ],
-    [ "Validate", "d5/dfc/a28296.html#aa300822cf5455404482124a6853fb314", null ]
+    [ "HandleScript", "d5/dfc/a28296.html#ae81570045d4984ee5682a0333b1b142d", null ],
+    [ "PrepareSpellScript", "d5/dfc/a28296.html#acb074781e07961998362349a7616fc4e", null ],
+    [ "Register", "d5/dfc/a28296.html#aaf41593da5ebb1118ccb10a5d4d32b26", null ]
 ];

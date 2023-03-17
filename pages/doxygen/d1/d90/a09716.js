@@ -1,12 +1,15 @@
 var a09716 =
 [
-    [ "GroupScript", "d1/d90/a09716.html#acaf843a503b32ec7ab33a0924fa1b616", null ],
-    [ "CanGroupJoinBattlegroundQueue", "d1/d90/a09716.html#a931b4a94a2f95958579b37c0af6ece03", null ],
-    [ "IsDatabaseBound", "d1/d90/a09716.html#acb561e8a2d5b3542e228a7beb8122fbf", null ],
-    [ "OnAddMember", "d1/d90/a09716.html#adb279c4c0ba60ffea994f35cd7e91ad1", null ],
-    [ "OnChangeLeader", "d1/d90/a09716.html#a64a1441fd3db3f25236691efcff4a80b", null ],
-    [ "OnCreate", "d1/d90/a09716.html#a18973a7e5f260712f032ca1129d4a0bc", null ],
-    [ "OnDisband", "d1/d90/a09716.html#a3cb94966ba1d02180fb3e7cf95000e5f", null ],
-    [ "OnInviteMember", "d1/d90/a09716.html#a2ae925dc27708fdaa4d5909b582b77a7", null ],
-    [ "OnRemoveMember", "d1/d90/a09716.html#adf640b01746ee92fed31670ee5cc8d0f", null ]
+    [ "AuctionHouseScript", "d1/d90/a09716.html#af45c92eef9aa9e9fe28af2fb943e0438", null ],
+    [ "OnAuctionAdd", "d1/d90/a09716.html#a39d172304de882d87f87e14d1df107da", null ],
+    [ "OnAuctionExpire", "d1/d90/a09716.html#a32e9d0decc7d341198accc84dbc4e1ab", null ],
+    [ "OnAuctionRemove", "d1/d90/a09716.html#aed67026e34ef7e8dd4d975d0b0620463", null ],
+    [ "OnAuctionSuccessful", "d1/d90/a09716.html#a57f1ea958e80a30031eded088dd3c8af", null ],
+    [ "OnBeforeAuctionHouseMgrSendAuctionCancelledToBidderMail", "d1/d90/a09716.html#a067633221bf8e745c9ae7c4abee13fba", null ],
+    [ "OnBeforeAuctionHouseMgrSendAuctionExpiredMail", "d1/d90/a09716.html#a622ac5271fb3a5ecf6444fb7fde17ed9", null ],
+    [ "OnBeforeAuctionHouseMgrSendAuctionOutbiddedMail", "d1/d90/a09716.html#acfc00998027675d76436d4d05f578f8c", null ],
+    [ "OnBeforeAuctionHouseMgrSendAuctionSalePendingMail", "d1/d90/a09716.html#a3bb999a955b7b8670264c859094fe9a0", null ],
+    [ "OnBeforeAuctionHouseMgrSendAuctionSuccessfulMail", "d1/d90/a09716.html#a0ae714b1349e20e4303523fd551874b3", null ],
+    [ "OnBeforeAuctionHouseMgrSendAuctionWonMail", "d1/d90/a09716.html#a050a47e57df42faa26c8d500b7848ecf", null ],
+    [ "OnBeforeAuctionHouseMgrUpdate", "d1/d90/a09716.html#a6b7ee2a551424c5a8442ce089d0fd1fc", null ]
 ];

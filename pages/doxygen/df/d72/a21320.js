@@ -1,8 +1,6 @@
 var a21320 =
 [
-    [ "npc_ulduar_saronite_animusAI", "df/d72/a21320.html#a2b94427feb24a7bda075b6a8f403433a", null ],
-    [ "JustDied", "df/d72/a21320.html#a30abcab01de3732bc5525864576615b0", null ],
-    [ "UpdateAI", "df/d72/a21320.html#a1490961adc8fc03ab28a992aff55b43b", null ],
-    [ "pInstance", "df/d72/a21320.html#a5d3b297355f286b0ad08ed38dbd5b0d2", null ],
-    [ "timer", "df/d72/a21320.html#a3d0345d4c503eb3f0e4acbe346f1c5e5", null ]
+    [ "achievement_freya_knock_on_wood", "df/d72/a21320.html#ae28517e151cc9ec2b25ff57513f32d29", null ],
+    [ "OnCheck", "df/d72/a21320.html#a07e5edf9d53d200506ab1b0d0b2eaa9e", null ],
+    [ "_elderCount", "df/d72/a21320.html#a5a3cc4dedbc2cc6be825579cbb0a09b5", null ]
 ];

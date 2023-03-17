@@ -1,8 +1,6 @@
 var a28236 =
 [
-    [ "CheckProc", "da/d49/a28236.html#a9e7b83ffd7e8d5ff4cf3b59cfbc40b0e", null ],
-    [ "HandleProc", "da/d49/a28236.html#a772385aab5f9917d0d3fb456e0ed55e1", null ],
-    [ "PrepareAuraScript", "da/d49/a28236.html#a876c1bda52c99c52249444414196b1d4", null ],
-    [ "Register", "da/d49/a28236.html#a1409e9c24827ee51a83d732bb99dd27b", null ],
-    [ "Validate", "da/d49/a28236.html#a8e36353d5296c609cbe0ce63db4e7dcb", null ]
+    [ "HandleFinish", "da/d49/a28236.html#a53263ce51581f36c2df80b49c93fa9d3", null ],
+    [ "PrepareSpellScript", "da/d49/a28236.html#a8113f61816473399f0ceab18b104d058", null ],
+    [ "Register", "da/d49/a28236.html#a36bf50cdb7be7ba03eafd4848c6ceced", null ]
 ];

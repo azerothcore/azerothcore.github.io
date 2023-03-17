@@ -1,9 +1,9 @@
 var a07432 =
 [
-    [ "LFGGroupScript", "da/dfa/a07432.html#adb7730ba67910121a255a6da535d2fc2", null ],
-    [ "OnAddMember", "da/dfa/a07432.html#a43c29f1c4b0f78b203a8798e34e9bc4c", null ],
-    [ "OnChangeLeader", "da/dfa/a07432.html#a3616c537eb39fe130c8fb24d93a0ead9", null ],
-    [ "OnDisband", "da/dfa/a07432.html#a7d8d28f1919e407ed93474d970733d86", null ],
-    [ "OnInviteMember", "da/dfa/a07432.html#a25add922fa708babe08c3bdaaa0c0d92", null ],
-    [ "OnRemoveMember", "da/dfa/a07432.html#a1385adec817221a83653a6fa03e57858", null ]
+    [ "cancelTime", "da/dfa/a07432.html#ac1d5edf075556c488aff36799ee6cb96", null ],
+    [ "dungeons", "da/dfa/a07432.html#a1e6c1deaf47dc835bbab7a1741a57fe2", null ],
+    [ "leader", "da/dfa/a07432.html#ad92b0bd391dae5f934b7d6f8a39351d8", null ],
+    [ "rDungeonId", "da/dfa/a07432.html#af07fdfed0b56211af723db06959013f6", null ],
+    [ "roles", "da/dfa/a07432.html#a3759dc8140194b09be842365dc0053d7", null ],
+    [ "state", "da/dfa/a07432.html#aa70ef2d83084359af7bcc9e2de60ce77", null ]
 ];

@@ -1,6 +1,8 @@
 var a14200 =
 [
-    [ "npc_grizzlemaw_cw_triggerAI", "d9/d14/a14204.html", "d9/d14/a14204" ],
-    [ "npc_grizzlemaw_cw_trigger", "dd/d06/a14200.html#a4514796784d974ba6de09b5a5d4e5f3b", null ],
-    [ "GetAI", "dd/d06/a14200.html#a1a834bda866033a3cca4fc4ece447313", null ]
+    [ "OnApply", "dd/d06/a14200.html#a6f3f05316f025ef638672a82cc855136", null ],
+    [ "PeriodicTick", "dd/d06/a14200.html#a051d292f9483e6b82d773fba3ab52460", null ],
+    [ "PrepareAuraScript", "dd/d06/a14200.html#ab8face95be60d7c5ba3fe15f0d05de25", null ],
+    [ "Register", "dd/d06/a14200.html#a0004de73250b8523db2b9ab714c8a246", null ],
+    [ "Validate", "dd/d06/a14200.html#aae1809dd5bc8baa06ee079a6d2a8b940", null ]
 ];

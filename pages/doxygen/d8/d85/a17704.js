@@ -1,6 +1,6 @@
 var a17704 =
 [
-    [ "spell_taldaram_ball_of_inferno_flame_SpellScript", "d7/d81/a17708.html", "d7/d81/a17708" ],
-    [ "spell_taldaram_ball_of_inferno_flame", "d8/d85/a17704.html#a7ef8af6b51e04bdb1c337be5f753023e", null ],
-    [ "GetSpellScript", "d8/d85/a17704.html#a0b8255a8143aefa037e05468066fe68d", null ]
+    [ "spell_blood_council_shadow_prison_SpellScript", "d7/d81/a17708.html", "d7/d81/a17708" ],
+    [ "spell_blood_council_shadow_prison_damage", "d8/d85/a17704.html#a6f490fcdb70071532ffccbc26710ec80", null ],
+    [ "GetSpellScript", "d8/d85/a17704.html#aaafbdbd70e86d16c053e70276f6bd80e", null ]
 ];

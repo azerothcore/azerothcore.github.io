@@ -1,8 +1,7 @@
 var a05560 =
 [
-    [ "UpdateResult", "d9/d3f/a05560.html#af32cdf09d32607955c98353fbfa7d392", null ],
-    [ "UpdateResult", "d9/d3f/a05560.html#a0edd1b34d2eebfbc81434f14cecd5f7a", null ],
-    [ "archived", "d9/d3f/a05560.html#a8e0948e78fb199d4e0f97d75854514be", null ],
-    [ "recent", "d9/d3f/a05560.html#a46cda41d47d7868020b01c394cba5e95", null ],
-    [ "updated", "d9/d3f/a05560.html#a5f75664cd71379a96d932886ed296ec0", null ]
+    [ "TransactionWithResultTask", "d9/d3f/a05560.html#a98dfb255e7be9d5cf9ed9215b0d5e0e4", null ],
+    [ "Execute", "d9/d3f/a05560.html#a2a05fb2aa69032797f2065cb46fe7dc4", null ],
+    [ "GetFuture", "d9/d3f/a05560.html#a5bc976207b1d695c8e8c052b0eacc7a6", null ],
+    [ "m_result", "d9/d3f/a05560.html#aaf4d587b83977e65089bdbf92fa09ae1", null ]
 ];

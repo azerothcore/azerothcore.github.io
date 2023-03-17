@@ -1,6 +1,6 @@
 var a23912 =
 [
-    [ "spell_wintergrasp_force_building_SpellScript", "dc/dc8/a23916.html", "dc/dc8/a23916" ],
-    [ "spell_wintergrasp_force_building", "d2/d3b/a23912.html#a2190008e02057363e0d449c8edf57510", null ],
-    [ "GetSpellScript", "d2/d3b/a23912.html#ad20c2ddbcc24136ea1cfab4a03ba54fc", null ]
+    [ "npc_wg_queueAI", "d2/d3b/a23912.html#a3760738d61b6148042fc30bd96b88fdc", null ],
+    [ "UpdateAI", "d2/d3b/a23912.html#a2e5f19a0f01eeb3d1585c7b02f2073b2", null ],
+    [ "events", "d2/d3b/a23912.html#ab0eb949272e48120cff1c3df27ad8e92", null ]
 ];

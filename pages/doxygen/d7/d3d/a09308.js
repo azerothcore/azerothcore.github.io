@@ -1,9 +1,12 @@
 var a09308 =
 [
-    [ "ChaseAngle", "d7/d3d/a09308.html#a0744c615f437514a52b5a26fb717013a", null ],
-    [ "IsAngleOkay", "d7/d3d/a09308.html#aec86c653850655b723e5224ea20b0e21", null ],
-    [ "LowerBound", "d7/d3d/a09308.html#a2f8296cadbada4322ec9c754aed4a5ec", null ],
-    [ "UpperBound", "d7/d3d/a09308.html#a275d01ce57b23d42d4150b10c8433dee", null ],
-    [ "RelativeAngle", "d7/d3d/a09308.html#a810a730ae905bfa296dbe6c1e4b86416", null ],
-    [ "Tolerance", "d7/d3d/a09308.html#a2bb42885da594380cb742c29b6518ea3", null ]
+    [ "BanAccount", "d7/d3d/a09308.html#af85ceffee2ae6a143df5e36f6a004f07", null ],
+    [ "BanAccountByPlayerName", "d7/d3d/a09308.html#a35f92762d69fe32e49b9b239c74e4734", null ],
+    [ "BanCharacter", "d7/d3d/a09308.html#ad5048b36828bfe20a95dfb85515de831", null ],
+    [ "BanIP", "d7/d3d/a09308.html#a404890eab19b97773e6c9aef8cc65707", null ],
+    [ "instance", "d7/d3d/a09308.html#aa495dfaab6af98c43f645acf516a5630", null ],
+    [ "RemoveBanAccount", "d7/d3d/a09308.html#ae831e6227442edc70469229d5d73fa3f", null ],
+    [ "RemoveBanAccountByPlayerName", "d7/d3d/a09308.html#a7b5e1ae6d34ae4f6a15e03c434953aea", null ],
+    [ "RemoveBanCharacter", "d7/d3d/a09308.html#afbde6c0b26802f684ecf78c2f493cc67", null ],
+    [ "RemoveBanIP", "d7/d3d/a09308.html#afcf4857007432ebff042c85c5daf2325", null ]
 ];

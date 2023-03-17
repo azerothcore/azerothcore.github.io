@@ -1,7 +1,8 @@
 var a15412 =
 [
-    [ "npc_aged_dying_ancient_kodoAI", "d7/ddc/a15412.html#aaed19d0c915891d8afecda7df75a8a75", null ],
-    [ "JustRespawned", "d7/ddc/a15412.html#a9353ac81b0c209a56313b52f2257ddd2", null ],
-    [ "MoveInLineOfSight", "d7/ddc/a15412.html#a295d4bef97b97c7deb31a81274f0818d", null ],
-    [ "SpellHit", "d7/ddc/a15412.html#a021b82aa6bd2e118fe810f18349fda42", null ]
+    [ "npc_prospector_remtravelAI", "d7/ddc/a15412.html#a61f26115382f16f3d65c3d4e1c720f02", null ],
+    [ "JustEngagedWith", "d7/ddc/a15412.html#adf388d36c17b69f881e3cb92d9b78b9b", null ],
+    [ "JustSummoned", "d7/ddc/a15412.html#a6b3dd1552b5313dd04d07dc80eef06fe", null ],
+    [ "Reset", "d7/ddc/a15412.html#ac145a4a4a24be227c31fcc5aefd922eb", null ],
+    [ "WaypointReached", "d7/ddc/a15412.html#a7b02b22e9dc63e1fad6b15a44b2ff9b6", null ]
 ];

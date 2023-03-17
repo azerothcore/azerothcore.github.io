@@ -1,9 +1,7 @@
 var a18248 =
 [
-    [ "CheckAreaTarget", "d5/d29/a18248.html#ad5150df78fc9881746c3281e6edf1f51", null ],
-    [ "HandleApply", "d5/d29/a18248.html#a3991de6a244924d460229e5c3c609ede", null ],
-    [ "Load", "d5/d29/a18248.html#a29c136840fc0ac1e9d222d0f4d3f2e95", null ],
-    [ "PrepareAuraScript", "d5/d29/a18248.html#a03de8f7412037e5c7954232428924d01", null ],
-    [ "Register", "d5/d29/a18248.html#a96b616bc463eedac860780420bcdd3d7", null ],
-    [ "_teamIdInInstance", "d5/d29/a18248.html#a200f12af50740f602d20be8957fef679", null ]
+    [ "HandleScript", "d5/d29/a18248.html#a877268ab0f8c0c58884d72b940c57226", null ],
+    [ "PrepareSpellScript", "d5/d29/a18248.html#a7c1300c71c3e4f750f5afac43d23a9e3", null ],
+    [ "Register", "d5/d29/a18248.html#a579ab09dd1c166df91f5f706da511ecd", null ],
+    [ "SelectRandomTarget", "d5/d29/a18248.html#a3ff88bfb3398d8375d93226e7647eb5a", null ]
 ];

@@ -1,6 +1,5 @@
 var a29292 =
 [
-    [ "go_darkmoon_faire_musicAI", "de/dcd/a29296.html", "de/dcd/a29296" ],
-    [ "go_darkmoon_faire_music", "da/d25/a29292.html#ab8dd92213e1c2815ff9498267b09b5f2", null ],
-    [ "GetAI", "da/d25/a29292.html#a03be3eddefe4eeba8a0af8ee02bf2839", null ]
+    [ "go_dragonflayer_cage", "da/d25/a29292.html#a9f36ba678a1e3954f21b96b227fb999e", null ],
+    [ "OnGossipHello", "da/d25/a29292.html#a542530a0b84879b21a4b9982cf4300d0", null ]
 ];

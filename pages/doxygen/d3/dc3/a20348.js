@@ -1,8 +1,6 @@
 var a20348 =
 [
-    [ "HandleApply", "d3/dc3/a20348.html#a0207562098dbe5b5990e46e1d79a30b7", null ],
-    [ "HandleRemove", "d3/dc3/a20348.html#afa25e3ac2d13fc6aefbb158b92ffd1ff", null ],
-    [ "Load", "d3/dc3/a20348.html#ab9e52af28611eab8b7ef4f4206302208", null ],
-    [ "PrepareAuraScript", "d3/dc3/a20348.html#a401f6a2171bad359bb796b04c9e783d9", null ],
-    [ "Register", "d3/dc3/a20348.html#a9572846d57f852d555d10cd985de656e", null ]
+    [ "boss_keristraszaAI", "d7/d46/a20352.html", "d7/d46/a20352" ],
+    [ "boss_keristrasza", "d3/dc3/a20348.html#a3d132df1687aae57345cd55ac80f9bf4", null ],
+    [ "GetAI", "d3/dc3/a20348.html#aa94eb11d5ca7ff3063974d4ff81d4173", null ]
 ];

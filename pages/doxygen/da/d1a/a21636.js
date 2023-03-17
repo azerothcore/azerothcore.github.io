@@ -1,6 +1,10 @@
 var a21636 =
 [
-    [ "spell_ulduar_squeezed_lifeless_SpellScript", "d0/d18/a21640.html", "d0/d18/a21640" ],
-    [ "spell_ulduar_squeezed_lifeless", "da/d1a/a21636.html#adaf276bdb06cf21ab9be22f5d1a09843", null ],
-    [ "GetSpellScript", "da/d1a/a21636.html#a4540a7e6f57a8b33cb8c527fa5b81c81", null ]
+    [ "boss_kologarn_eyebeamAI", "da/d1a/a21636.html#add083b2a9067753458de1eeb6bdca4c0", null ],
+    [ "DamageDealt", "da/d1a/a21636.html#a94a9181da10ffe737611cb281d60a952", null ],
+    [ "UpdateAI", "da/d1a/a21636.html#add60a709a1edf1684bd21358769590b4", null ],
+    [ "_damaged", "da/d1a/a21636.html#a7b49d9826efcf492c6e7ee003f481ccb", null ],
+    [ "_timer", "da/d1a/a21636.html#a766ad3e10016d97235499d1512c4da27", null ],
+    [ "justSpawned", "da/d1a/a21636.html#a8f01309b6533ea0adf85f43ba1ba1c26", null ],
+    [ "m_pInstance", "da/d1a/a21636.html#a4145bd7e5c80c4e62144b437d38624a4", null ]
 ];

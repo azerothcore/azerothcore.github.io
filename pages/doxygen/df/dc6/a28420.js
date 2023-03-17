@@ -1,7 +1,6 @@
 var a28420 =
 [
-    [ "HandleEffectPeriodic", "df/dc6/a28420.html#a9347200565cb858cf0cc9cdb897fe1dc", null ],
-    [ "PrepareAuraScript", "df/dc6/a28420.html#a5fc89b09fb226d0d9315081d64f4103e", null ],
-    [ "Register", "df/dc6/a28420.html#ac3741617faacf83a707f1359aab1886e", null ],
-    [ "Validate", "df/dc6/a28420.html#a9378252b6711cc0bec3e63efce026495", null ]
+    [ "HandleDummy", "df/dc6/a28420.html#abac8aa528d6d83748cf4cdbdaa8313f6", null ],
+    [ "PrepareSpellScript", "df/dc6/a28420.html#ae80dda98f66c1fbaa37741ffd52a1108", null ],
+    [ "Register", "df/dc6/a28420.html#a90fbc5d1b22cbc59550a430a63c08032", null ]
 ];

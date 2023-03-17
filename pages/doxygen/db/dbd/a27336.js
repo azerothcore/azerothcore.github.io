@@ -1,7 +1,6 @@
 var a27336 =
 [
-    [ "HandleScript", "db/dbd/a27336.html#a8b20e2ffed94ec9438dc9b756ba76693", null ],
-    [ "PrepareSpellScript", "db/dbd/a27336.html#a9e29ea947d5415471d991a4e1cd699ac", null ],
-    [ "Register", "db/dbd/a27336.html#aa4bc27415893009581b317637599a85a", null ],
-    [ "Validate", "db/dbd/a27336.html#a77ed10819633ae2bc381023da0feb31b", null ]
+    [ "PrepareSpellScript", "db/dbd/a27336.html#abb178100d4e5fa4032118f86aa34127d", null ],
+    [ "Register", "db/dbd/a27336.html#a50e902cc281b909259097a8bed5651f2", null ],
+    [ "RemoveVehicleAuras", "db/dbd/a27336.html#a4ec803f3164d6e38ddf10f4a0ca392e0", null ]
 ];

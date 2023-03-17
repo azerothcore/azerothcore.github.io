@@ -1,5 +1,5 @@
 var a29348 =
 [
-    [ "go_scourge_cage", "d0/d80/a29348.html#a76dfa458a52c950fbc0a86412e1ad490", null ],
-    [ "OnGossipHello", "d0/d80/a29348.html#ab4e97cd290342d623d212cc7cec227d5", null ]
+    [ "item_incendiary_explosives", "d0/d80/a29348.html#a3a10f4e40374cae75a5ed320385a67f9", null ],
+    [ "OnUse", "d0/d80/a29348.html#a1e566a6a5b6cfb8b7e331a6ea94f77b4", null ]
 ];

@@ -1,6 +1,6 @@
 var a17124 =
 [
-    [ "OnRemove", "de/da4/a17124.html#aea877b7b631b4d2debd8a6ea46628ef8", null ],
-    [ "PrepareAuraScript", "de/da4/a17124.html#a0ca3bdb93768c34b2c38ff7aa957c60c", null ],
-    [ "Register", "de/da4/a17124.html#a3855a8b7c9c54b09b43907b2debfcf25", null ]
+    [ "entry", "de/da4/a17124.html#a80e1510436336f4ed17748a06b27178d", null ],
+    [ "pathId", "de/da4/a17124.html#a0b7e499d633e11b314852fb1154ea8e6", null ],
+    [ "startPosition", "de/da4/a17124.html#ac8c0dd74d76778aa2f5948b5c8c5ada4", null ]
 ];

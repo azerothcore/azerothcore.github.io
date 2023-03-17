@@ -1,6 +1,7 @@
 var a11372 =
 [
-    [ "boss_halyconAI", "d4/d14/a11376.html", "d4/d14/a11376" ],
-    [ "boss_halycon", "dc/d4e/a11372.html#aa149c5f8b34b9c00102f9a0758dcbd9a", null ],
-    [ "GetAI", "dc/d4e/a11372.html#a861f1b0213ad9bcf572c9d59eabba699", null ]
+    [ "boss_okthorAI", "dc/d4e/a11372.html#a8007cfade5c04d8b4e0b787ac5a5beff", null ],
+    [ "JustEngagedWith", "dc/d4e/a11372.html#a466a618e52f40e04e873dd50f3728755", null ],
+    [ "UpdateAI", "dc/d4e/a11372.html#a246c3bd9aa96eb11d2fa48be8654d726", null ],
+    [ "nextArcaneExplosionTime", "dc/d4e/a11372.html#a89d8cdd528775ee77caeac1d0465d4f2", null ]
 ];

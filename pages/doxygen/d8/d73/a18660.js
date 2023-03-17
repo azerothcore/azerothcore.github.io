@@ -1,6 +1,6 @@
 var a18660 =
 [
-    [ "spell_rotface_unstable_ooze_explosion_suicide_AuraScript", "d7/d53/a18664.html", "d7/d53/a18664" ],
-    [ "spell_rotface_unstable_ooze_explosion_suicide", "d8/d73/a18660.html#ab74c82f3a948062d8da2b07184949d65", null ],
-    [ "GetAuraScript", "d8/d73/a18660.html#a55ae18cc11b731c4abe9a542145611ab", null ]
+    [ "spell_rotface_large_ooze_buff_combine_SpellScript", "d7/d53/a18664.html", "d7/d53/a18664" ],
+    [ "spell_rotface_large_ooze_buff_combine", "d8/d73/a18660.html#afa7a0e9e17f1e9f97eaee6770b8f5aaa", null ],
+    [ "GetSpellScript", "d8/d73/a18660.html#a80ffba9a603890ce04f2814b6b853832", null ]
 ];

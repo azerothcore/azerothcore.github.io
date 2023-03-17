@@ -1,18 +1,18 @@
 var a08132 =
 [
-    [ "HealInfo", "d7/d2e/a08132.html#a25fe1984f6c3ef5eeb90049ef4749437", null ],
-    [ "AbsorbHeal", "d7/d2e/a08132.html#ae656cf383df85bb88c6486e5aac1df5b", null ],
-    [ "GetAbsorb", "d7/d2e/a08132.html#a3a29dc8e520997a58c7da005945d96e2", null ],
-    [ "GetHeal", "d7/d2e/a08132.html#af95a6d6c94a72874c150a3deabce20ee", null ],
-    [ "GetHealer", "d7/d2e/a08132.html#a2139bd1efadb23063a67d3fef35b424d", null ],
-    [ "GetSchoolMask", "d7/d2e/a08132.html#aca2b1e31608a7c186a06e9bbe8977a9d", null ],
-    [ "GetSpellInfo", "d7/d2e/a08132.html#a53b73d5b297e341be237723269c7644d", null ],
-    [ "GetTarget", "d7/d2e/a08132.html#ae7a08b2e27a5ac316ed2d3bca7d2395d", null ],
-    [ "SetHeal", "d7/d2e/a08132.html#a622e0993c76b43f30d9cc774c70a92b0", null ],
-    [ "m_absorb", "d7/d2e/a08132.html#a383cc7bb4d30dd72cbfeaedd9b5d5042", null ],
-    [ "m_heal", "d7/d2e/a08132.html#af0a2d7c40710cabbb88122de2650c705", null ],
-    [ "m_healer", "d7/d2e/a08132.html#ad291e8e65eb0a9a9054ac1827cf0d315", null ],
-    [ "m_schoolMask", "d7/d2e/a08132.html#af2fd7934b1b1cd08dd4dcfeadc9c02df", null ],
-    [ "m_spellInfo", "d7/d2e/a08132.html#a68d6d63fdd1efb458615e24f65e643be", null ],
-    [ "m_target", "d7/d2e/a08132.html#a3a13a815e870e6745888ed082e8498e8", null ]
+    [ "StaticTransport", "d7/d2e/a08132.html#a85d28733791b54ab76af97338c83d293", null ],
+    [ "~StaticTransport", "d7/d2e/a08132.html#ade4493306f4ae366de36318ecb135c18", null ],
+    [ "AddPassenger", "d7/d2e/a08132.html#a2139a5fe8d531e332d6e12678fb3167b", null ],
+    [ "BuildUpdate", "d7/d2e/a08132.html#a0062abb9d323f52361b7a0faa72bbf4f", null ],
+    [ "CleanupsBeforeDelete", "d7/d2e/a08132.html#aec75e819a3de528d282e0a1b72c3d460", null ],
+    [ "Create", "d7/d2e/a08132.html#a5e9c6c3a75d54314783c3b5bab48c66f", null ],
+    [ "GetPauseTime", "d7/d2e/a08132.html#a6be1d21626f3749b695413d9a6703823", null ],
+    [ "GetPeriod", "d7/d2e/a08132.html#aedf0413dbd588acf5c8646390f003060", null ],
+    [ "RelocateToProgress", "d7/d2e/a08132.html#acf98efbbabb71e4e9f7cf0a152b33e2b", null ],
+    [ "RemovePassenger", "d7/d2e/a08132.html#ad4362ce7937c48ce0e5eb68ae97f789f", null ],
+    [ "SetPauseTime", "d7/d2e/a08132.html#aaa57cb09072c6a7f22af38055f83b3b1", null ],
+    [ "Update", "d7/d2e/a08132.html#aa904c077782b7760e0247c941c4e9d01", null ],
+    [ "UpdatePassengerPositions", "d7/d2e/a08132.html#a79c30c2463d714d8980dcfa73351b493", null ],
+    [ "UpdatePosition", "d7/d2e/a08132.html#a9b2661d0b90270aa97fe550b8ae27c95", null ],
+    [ "_needDoInitialRelocation", "d7/d2e/a08132.html#a54f37a0c74b4cc2afbebaf53ebcf2e2b", null ]
 ];

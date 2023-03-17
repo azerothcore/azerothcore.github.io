@@ -1,5 +1,6 @@
 var a26312 =
 [
-    [ "npc_karynaku", "dd/d8a/a26312.html#aa6a3cb409cdbc990f1eee4137c7519d2", null ],
-    [ "OnQuestAccept", "dd/d8a/a26312.html#a4cae1950fe3b7b4ae6f2e6691800ec47", null ]
+    [ "npc_zephyr", "dd/d8a/a26312.html#a3bad7bf2bd3b193960f1f53cd7d8349d", null ],
+    [ "OnGossipHello", "dd/d8a/a26312.html#a31e132e80a19bb6e63787fcdf7ffd466", null ],
+    [ "OnGossipSelect", "dd/d8a/a26312.html#a9b1f5a0d4ba24e65dda521bc94574ad8", null ]
 ];

@@ -1,6 +1,6 @@
 var a24996 =
 [
-    [ "spell_lady_vashj_remove_tainted_cores_SpellScript", "dd/d25/a25000.html", "dd/d25/a25000" ],
-    [ "spell_lady_vashj_remove_tainted_cores", "da/d76/a24996.html#ad299ea5b839d7931d5468138110fb07e", null ],
-    [ "GetSpellScript", "da/d76/a24996.html#ae05663292601768ca5c1e3bb92168686", null ]
+    [ "startFollow", "da/d76/a24996.html#ab59ff2af9a6100b8634c6554b11cf950", null ],
+    [ "Execute", "da/d76/a24996.html#a533644301e170be15f6c112e501b7ddf", null ],
+    [ "_owner", "da/d76/a24996.html#a78716fcd2fbe575520f15c337e265ee4", null ]
 ];

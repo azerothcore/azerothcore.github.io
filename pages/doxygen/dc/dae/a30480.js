@@ -1,5 +1,7 @@
 var a30480 =
 [
-    [ "ByteBufferInvalidValueException", "dc/dae/a30480.html#a6ee22161167faf11555c6e6b15422cd8", null ],
-    [ "~ByteBufferInvalidValueException", "dc/dae/a30480.html#a30cc1225522916e05abf95e14805d7a3", null ]
+    [ "asyncId", "dc/dae/a30480.html#afd18849875b4562e4a532903676ce25d", null ],
+    [ "flags", "dc/dae/a30480.html#a9b9c3cec4acbd87911aa047dd52ae443", null ],
+    [ "offsMCNK", "dc/dae/a30480.html#a063c5dc62c44038e882340221bf8228a", null ],
+    [ "size", "dc/dae/a30480.html#a47a5eeb595d53de009651ae02d2b416d", null ]
 ];

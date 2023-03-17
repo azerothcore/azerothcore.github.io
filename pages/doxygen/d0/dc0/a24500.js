@@ -1,6 +1,6 @@
 var a24500 =
 [
-    [ "HandleDummy", "d0/dc0/a24500.html#abc61270dfcd54361901f271279932424", null ],
-    [ "PrepareSpellScript", "d0/dc0/a24500.html#a92942babd0ee54c82cc8cbe062e13718", null ],
-    [ "Register", "d0/dc0/a24500.html#acce764e36e97a10ddb2cfeac0edc04d0", null ]
+    [ "spell_mother_shahraz_saber_lash_AuraScript", "d7/d40/a24504.html", "d7/d40/a24504" ],
+    [ "spell_mother_shahraz_saber_lash", "d0/dc0/a24500.html#accab4acfdf8d84132d350f8b07baeb3f", null ],
+    [ "GetAuraScript", "d0/dc0/a24500.html#adc3fb8788b645466ca8c10d974197741", null ]
 ];

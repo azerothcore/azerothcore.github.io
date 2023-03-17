@@ -1,5 +1,6 @@
 var a18900 =
 [
-    [ "FrozenThroneResetWorker", "de/deb/a18900.html#afd21e9c1449d4e391713256e197bc92b", null ],
-    [ "operator()", "de/deb/a18900.html#a7119548d30d760ae817a87cacf712cf6", null ]
+    [ "PeriodicTick", "de/deb/a18900.html#a91e8bf1cfa52cf5ea7086610fcb88a21", null ],
+    [ "PrepareAuraScript", "de/deb/a18900.html#a2bb9eedead83ac91060f57af98c3d848", null ],
+    [ "Register", "de/deb/a18900.html#ae70bb017d2bbd96b075e5dd3bddf1567", null ]
 ];

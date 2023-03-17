@@ -1,6 +1,6 @@
 var a21196 =
 [
-    [ "spell_demolisher_ride_vehicle_SpellScript", "d0/dc9/a21200.html", "d0/dc9/a21200" ],
-    [ "spell_demolisher_ride_vehicle", "d4/d1c/a21196.html#abfee786f470bad3c0bdc141e57d7ac69", null ],
-    [ "GetSpellScript", "d4/d1c/a21196.html#a52f5b57f7a32139e4e3525dcf723d22e", null ]
+    [ "spell_thorims_hammer_SpellScript", "d0/dc9/a21200.html", "d0/dc9/a21200" ],
+    [ "spell_thorims_hammer", "d4/d1c/a21196.html#a0f838d61eb68084978be92d87338f07d", null ],
+    [ "GetSpellScript", "d4/d1c/a21196.html#a8da4bd8438d99a1ceffeae20778a6f9a", null ]
 ];

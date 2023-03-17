@@ -1,6 +1,6 @@
 var a25276 =
 [
-    [ "spell_gen_allergies_AuraScript", "d8/d04/a25280.html", "d8/d04/a25280" ],
-    [ "spell_gen_allergies", "df/ddd/a25276.html#a69afd53d17df77effe18377765938d3a", null ],
-    [ "GetAuraScript", "df/ddd/a25276.html#a0039a96d0b9a40e402c08245461af392", null ]
+    [ "HandlePeriodic", "df/ddd/a25276.html#af6c30bb292a69d5eaaaf75c8a76111ea", null ],
+    [ "PrepareAuraScript", "df/ddd/a25276.html#a75515896f3d94d227963a3c5258e2d0d", null ],
+    [ "Register", "df/ddd/a25276.html#aeacb1ffc287cc7128366ee0484c2994b", null ]
 ];

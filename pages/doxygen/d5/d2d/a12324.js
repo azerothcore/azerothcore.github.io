@@ -1,6 +1,6 @@
 var a12324 =
 [
-    [ "boss_eramas_brightblazeAI", "d5/d2d/a12324.html#aa1b43ca8308ec926a6e5a4f2e3c864c0", null ],
-    [ "EnterCombat", "d5/d2d/a12324.html#ab6bd04338422bf4177c8a92ef174bab9", null ],
-    [ "UpdateAI", "d5/d2d/a12324.html#a43d7521a6f3c8dae14962084e14ca984", null ]
+    [ "spell_mt_phoenix_burn_SpellScript", "dc/d86/a12328.html", "dc/d86/a12328" ],
+    [ "spell_mt_phoenix_burn", "d5/d2d/a12324.html#aebe4d719c2d098273d02a6577702c40a", null ],
+    [ "GetSpellScript", "d5/d2d/a12324.html#aecec94d80b8903c003093046d4fecab5", null ]
 ];

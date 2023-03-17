@@ -1,12 +1,13 @@
 var a25628 =
 [
-    [ "boss_dalliah_the_doomsayerAI", "d5/d8a/a25628.html#a9a1836b363d67f7a8d6d277d37a65c3e", null ],
-    [ "EnterCombat", "d5/d8a/a25628.html#af2a8e0fc834a42e41380d5f6c40bc0a1", null ],
-    [ "InitializeAI", "d5/d8a/a25628.html#ac2eb8b223a9893a3a5582f82055aae06", null ],
-    [ "JustDied", "d5/d8a/a25628.html#a63653d4eeae6b412ee89e57d610cddb5", null ],
-    [ "KilledUnit", "d5/d8a/a25628.html#a435af8c0680b4e3bf90497d4cfd60836", null ],
-    [ "Reset", "d5/d8a/a25628.html#ac21b9f71ef4f43f9485f698685fbe7fc", null ],
-    [ "SetData", "d5/d8a/a25628.html#acac4158c5561b21a457235578effdc4a", null ],
-    [ "UpdateAI", "d5/d8a/a25628.html#a88917e4cf01e4c63f3f67b140ef9b5cd", null ],
-    [ "events2", "d5/d8a/a25628.html#a1f7a9125d3c2f5a5006f326d6249a6a4", null ]
+    [ "boss_wrath_scryer_soccothratesAI", "d5/d8a/a25628.html#a220e780baf6d07bc0930e8d845188480", null ],
+    [ "InitializeAI", "d5/d8a/a25628.html#a94a3a646f8639a117917c20a2cc1b903", null ],
+    [ "JustDied", "d5/d8a/a25628.html#a2bf9eecf2d31c8ca96c72ee1a6eb146b", null ],
+    [ "JustEngagedWith", "d5/d8a/a25628.html#a7f4cb6f9623240ff02dfc74fedd05ac6", null ],
+    [ "KilledUnit", "d5/d8a/a25628.html#a230a5d61ad0e38e55c80e0589b38294e", null ],
+    [ "MoveInLineOfSight", "d5/d8a/a25628.html#a933e91a2b3b242180260268555df6e08", null ],
+    [ "Reset", "d5/d8a/a25628.html#a0103e92dc7da5f15a09189b64c21bb38", null ],
+    [ "UpdateAI", "d5/d8a/a25628.html#a2a2bfce916bc17a7f1800063597fe098", null ],
+    [ "events2", "d5/d8a/a25628.html#acafd2ae2f4a29ec85c13aa7855ae1c4d", null ],
+    [ "preFight", "d5/d8a/a25628.html#ad91cea21bc7167b558722a810e8a228e", null ]
 ];

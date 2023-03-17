@@ -1,6 +1,6 @@
 var a16148 =
 [
-    [ "SendEncounterUnit", "dd/d90/a16148.html#a5300ba7c1a8001bbf52c56fc2e5dc331", null ],
-    [ "Execute", "dd/d90/a16148.html#ae21b67f8fe8a0677778436563872495f", null ],
-    [ "_owner", "dd/d90/a16148.html#a6e1569fb7fa159fe702defbab1e123b6", null ]
+    [ "CheckDistance", "dd/d90/a16148.html#adbbed117455c24a20afe45891de38f43", null ],
+    [ "PrepareSpellScript", "dd/d90/a16148.html#a4d26a34b0db9bebb121766908b3c329b", null ],
+    [ "Register", "dd/d90/a16148.html#a698f08c5fa10042ab3e6a0ced9fbf676", null ]
 ];

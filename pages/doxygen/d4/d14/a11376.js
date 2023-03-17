@@ -1,8 +1,6 @@
 var a11376 =
 [
-    [ "boss_halyconAI", "d4/d14/a11376.html#acc110d5d802fc0da3ea630f667167748", null ],
-    [ "EnterCombat", "d4/d14/a11376.html#a71b5ecfa9d8ab6933c24583c30e99185", null ],
-    [ "JustDied", "d4/d14/a11376.html#a7d71e135a8edf3d3b99ccfcb3b071eaa", null ],
-    [ "Reset", "d4/d14/a11376.html#ac5622260b0b40cb584cf3037521cc5b8", null ],
-    [ "UpdateAI", "d4/d14/a11376.html#a6e72949b63de3d32d8369c7122b6060d", null ]
+    [ "boss_gloomrel", "d4/d14/a11376.html#ad655acba7b2d88779f849a685bb9fbb7", null ],
+    [ "OnGossipHello", "d4/d14/a11376.html#a6ce6898142d767a130ec09769f2be488", null ],
+    [ "OnGossipSelect", "d4/d14/a11376.html#ab7c623cdd2301f3a0a74d6b1e187a8c5", null ]
 ];

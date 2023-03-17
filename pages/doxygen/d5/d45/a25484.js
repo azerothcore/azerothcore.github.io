@@ -1,11 +1,7 @@
 var a25484 =
 [
-    [ "boss_watchkeeper_gargolmarAI", "d5/d45/a25484.html#ab0a6521404fecf0e0f51ddc06b18838f", null ],
-    [ "EnterCombat", "d5/d45/a25484.html#a73cbcecf5863f4a3c21ba39403ee464a", null ],
-    [ "JustDied", "d5/d45/a25484.html#a8eb5317be5392a1c37f89ac4a32d6593", null ],
-    [ "KilledUnit", "d5/d45/a25484.html#ae362e7afe737f73380d47bebbfa12151", null ],
-    [ "MoveInLineOfSight", "d5/d45/a25484.html#a256c960a8c75e0d22d1f62e6eae32db2", null ],
-    [ "Reset", "d5/d45/a25484.html#a5cfbb4e3fb0e6a317b790b361a2d31d0", null ],
-    [ "UpdateAI", "d5/d45/a25484.html#a4eaa446688aebd7de965878188759fd0", null ],
-    [ "_taunted", "d5/d45/a25484.html#ae80d37df25df115ae1eadf68c5e6f070", null ]
+    [ "DealDebrisDamage", "d5/d45/a25484.html#a6a1611c4a221b7c16be66511f3595010", null ],
+    [ "Execute", "d5/d45/a25484.html#a15715b2e7271acc52c2c49486bdb2822", null ],
+    [ "_owner", "d5/d45/a25484.html#ad7a36286fed7ec090beaf77b97399c51", null ],
+    [ "_targetGUID", "d5/d45/a25484.html#ac5cabeab92c92f7dc1a97eef0ebab72e", null ]
 ];

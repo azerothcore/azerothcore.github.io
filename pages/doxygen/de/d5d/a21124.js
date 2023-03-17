@@ -1,6 +1,7 @@
 var a21124 =
 [
-    [ "spell_pursue_SpellScript", "d9/d51/a21128.html", "d9/d51/a21128" ],
-    [ "spell_pursue", "de/d5d/a21124.html#a1ba1ed11405b137a92e74a4932df3d70", null ],
-    [ "GetSpellScript", "de/d5d/a21124.html#afbf6fce8a3c9d4d1406585367c7f6b02", null ]
+    [ "OnApply", "de/d5d/a21124.html#a256c8f8b183974bfc30fb23cc4283a27", null ],
+    [ "OnRemove", "de/d5d/a21124.html#a6a2d1d664c792ba77c25d2f5bf1a961e", null ],
+    [ "PrepareAuraScript", "de/d5d/a21124.html#a6854764e8ae885a1c159a40030376f1a", null ],
+    [ "Register", "de/d5d/a21124.html#aafac260d2fc1467d3cfd76bbe7fc3f2e", null ]
 ];

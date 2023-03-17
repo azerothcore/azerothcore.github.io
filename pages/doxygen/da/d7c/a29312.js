@@ -1,9 +1,6 @@
 var a29312 =
 [
-    [ "go_gilded_brazierAI", "da/d7c/a29312.html#aaacf408b0f42b593a8a2897cb27886fb", null ],
-    [ "GossipHello", "da/d7c/a29312.html#afac9e217c294e72ff5f2526422e6321e", null ],
-    [ "Initialize", "da/d7c/a29312.html#a72d2dd8f7ecdf173e5a3847c94255786", null ],
-    [ "UpdateAI", "da/d7c/a29312.html#a0965f0a6f3f1c75e85f184319a1f9cef", null ],
-    [ "_events", "da/d7c/a29312.html#a35e62a272b790d6e858cc48c92e55b7b", null ],
-    [ "_playerGUID", "da/d7c/a29312.html#a506eccb2c3ebcc126d486638fb07ae3c", null ]
+    [ "go_bellsAI", "d6/d5c/a29316.html", "d6/d5c/a29316" ],
+    [ "go_bells", "da/d7c/a29312.html#a9f40a13aa1aaee28ebd1254d428c0519", null ],
+    [ "GetAI", "da/d7c/a29312.html#a4f1272fb8856310d7924f8e7be1e39f8", null ]
 ];

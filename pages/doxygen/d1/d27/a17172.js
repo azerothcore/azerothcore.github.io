@@ -1,11 +1,12 @@
 var a17172 =
 [
-    [ "npc_spectral_footmanAI", "d1/d27/a17172.html#a746b1d15b70be293f61669ce4a945732", null ],
-    [ "AttackStart", "d1/d27/a17172.html#ac6f9dadff44c805adfac855778b1c9d2", null ],
-    [ "DoAction", "d1/d27/a17172.html#a466b878e60c1bf89603c261110d88b25", null ],
-    [ "EnterCombat", "d1/d27/a17172.html#aed015ce55d43917972af2f768dd400f9", null ],
-    [ "EnterEvadeMode", "d1/d27/a17172.html#a66c9cceae4c2ae5574369744486e3e57", null ],
-    [ "Reset", "d1/d27/a17172.html#a3a8151da7ec1d63966ffc5e5b7e9e931", null ],
-    [ "UpdateAI", "d1/d27/a17172.html#ad1da2bc8fdc3a3fce51b9a633fd56574", null ],
-    [ "events", "d1/d27/a17172.html#aa5420d5e57447c7f89c0560ae07b3503", null ]
+    [ "npc_ghostly_priestAI", "d1/d27/a17172.html#abb6815d1395b68654eeb6ab8b4217388", null ],
+    [ "AttackStart", "d1/d27/a17172.html#a9719d1ad6e58b727bc1720cb815be3e9", null ],
+    [ "DoAction", "d1/d27/a17172.html#a89c991a1d4c07f1229436871f503c949", null ],
+    [ "EnterEvadeMode", "d1/d27/a17172.html#ab8fd2df32ef12f5f648b8af9abcc3201", null ],
+    [ "JustDied", "d1/d27/a17172.html#a004e8aec05741b9ee36b0695840e6c2a", null ],
+    [ "JustEngagedWith", "d1/d27/a17172.html#a780d530e224ca1f72e26db17cd57f44a", null ],
+    [ "Reset", "d1/d27/a17172.html#ab8f7559110be76633153842e0714554a", null ],
+    [ "UpdateAI", "d1/d27/a17172.html#ab431f451963d0b608f11129934496700", null ],
+    [ "events", "d1/d27/a17172.html#a9b49c143b5a29b4f9b4ce34ce0aecca7", null ]
 ];

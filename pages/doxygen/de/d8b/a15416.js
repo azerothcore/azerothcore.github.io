@@ -1,6 +1,6 @@
 var a15416 =
 [
-    [ "npc_tiger_matriarch_creditAI", "db/d9f/a15420.html", "db/d9f/a15420" ],
-    [ "npc_tiger_matriarch_credit", "de/d8b/a15416.html#a9d76e8e808c828da501551025eecd8ea", null ],
-    [ "GetAI", "de/d8b/a15416.html#ac4966a8ae43688204f97f9a1a7b4542d", null ]
+    [ "npc_rabid_thistle_bearAI", "db/d9f/a15420.html", "db/d9f/a15420" ],
+    [ "npc_rabid_thistle_bear", "de/d8b/a15416.html#a34b20a4ea22d74352712dee105247d56", null ],
+    [ "GetAI", "de/d8b/a15416.html#ab5c21cd3afa0bd13c937e6acf1912af4", null ]
 ];

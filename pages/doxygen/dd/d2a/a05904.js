@@ -1,10 +1,9 @@
 var a05904 =
 [
-    [ "WayPoint", "dd/d2a/a05904.html#a3fb66d4e5cb360ce49b42518ed2b5247", null ],
-    [ "delay", "dd/d2a/a05904.html#ad766ebb0355b936da137a18b593aa2e4", null ],
-    [ "id", "dd/d2a/a05904.html#a42a0da500ce0495968af4d8e8568ea26", null ],
-    [ "o", "dd/d2a/a05904.html#a42f341fba1d8d0406e086414bcdb7948", null ],
-    [ "x", "dd/d2a/a05904.html#aff5ba831af9f5f01b7ebb5f784d085f7", null ],
-    [ "y", "dd/d2a/a05904.html#adfe474d3c93a63fbe78935c1b2873cae", null ],
-    [ "z", "dd/d2a/a05904.html#a4b0160c4f8941aa20772baf06c6a7286", null ]
+    [ "Escort_Waypoint", "dd/d2a/a05904.html#a272aeeba02403a21c4900e6b0844a328", null ],
+    [ "id", "dd/d2a/a05904.html#a6a763373fcc37e5a463b54e1e1a68235", null ],
+    [ "WaitTimeMs", "dd/d2a/a05904.html#a467a869dba9243bd165e4c480e339705", null ],
+    [ "x", "dd/d2a/a05904.html#a4d751062b2ab46734049bf8939a30731", null ],
+    [ "y", "dd/d2a/a05904.html#a88648b1bd70afad73d402c40abcd68b5", null ],
+    [ "z", "dd/d2a/a05904.html#a810ad58fe70fd6402f01ed7e70b450e0", null ]
 ];

@@ -1,6 +1,6 @@
 var a20028 =
 [
-    [ "spell_grobbulus_mutating_injection_AuraScript", "da/ddb/a20032.html", "da/ddb/a20032" ],
-    [ "spell_grobbulus_mutating_injection", "d0/d98/a20028.html#abd78814e541570a4e058d180b94d0d36", null ],
-    [ "GetAuraScript", "d0/d98/a20028.html#a5eade9348eae0ce6b36e9d6ee98bbca8", null ]
+    [ "boss_grobbulusAI", "da/ddb/a20032.html", "da/ddb/a20032" ],
+    [ "boss_grobbulus", "d0/d98/a20028.html#acf1b781e86e33a363b68354d34d3c015", null ],
+    [ "GetAI", "d0/d98/a20028.html#ae918614566a0b9979aef4e1aeaac394c", null ]
 ];

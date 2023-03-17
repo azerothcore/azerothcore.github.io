@@ -1,10 +1,7 @@
 var a05324 =
 [
-    [ "FreezeDetector", "d9/d51/a04420.html#gae4bea4699ff716ee22295d12bc9f1b9b", null ],
-    [ "Handler", "d9/d51/a04420.html#gad4c4e5b291e0c6c2dc169a7dbffdfabb", null ],
-    [ "Start", "d9/d51/a04420.html#ga6a90ff702a8d363bd23334c81e2e5770", null ],
-    [ "_lastChangeMsTime", "d9/d51/a04420.html#ga0a2b971b7ea733d846be71abf7b5dc1d", null ],
-    [ "_maxCoreStuckTimeInMs", "d9/d51/a04420.html#ga54077eab38ea5d0db27f08c50fd0652e", null ],
-    [ "_timer", "d9/d51/a04420.html#ga3869080cb36ab9d4f244b9f10280550a", null ],
-    [ "_worldLoopCounter", "d9/d51/a04420.html#ga0ea988a0e070d056c16d7c9f3b1035f4", null ]
+    [ "cmd", "d6/d9d/a05324.html#a91e8e56c304147b88db250259ff0a87c", null ],
+    [ "error", "d6/d9d/a05324.html#a0872e20a5adcd52a94036bdc6eddc6e6", null ],
+    [ "M2", "d6/d9d/a05324.html#a9bb7dca6b62d35ecae97197c4c9693b7", null ],
+    [ "unk2", "d6/d9d/a05324.html#a47d83719b502236fdad41e2d07b535a0", null ]
 ];

@@ -1,6 +1,6 @@
 var a19740 =
 [
-    [ "npc_icc_valkyr_heraldAI", "d2/d18/a19744.html", "d2/d18/a19744" ],
-    [ "npc_icc_valkyr_herald", "d2/de3/a19740.html#a9d06e0dec8cb960d34c2089c1c0d8ccb", null ],
-    [ "GetAI", "d2/de3/a19740.html#a7537269841d0380d2dc9e4641705acf9", null ]
+    [ "npc_icc_skybreaker_marksmanAI", "d2/d18/a19744.html", "d2/d18/a19744" ],
+    [ "npc_icc_skybreaker_marksman", "d2/de3/a19740.html#a1d870b78e1acf2d17782265e28698d1c", null ],
+    [ "GetAI", "d2/de3/a19740.html#a374017d37da15705d51ab8edc75683ff", null ]
 ];

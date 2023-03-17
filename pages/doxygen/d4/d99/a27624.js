@@ -1,6 +1,6 @@
 var a27624 =
 [
-    [ "HandlePreventAura", "d4/d99/a27624.html#a62b9a62f5379f4ca98921c7fe4278b58", null ],
-    [ "PrepareSpellScript", "d4/d99/a27624.html#a61b2f1d5634219f9c48a9ea75e90d423", null ],
-    [ "Register", "d4/d99/a27624.html#ab1a90b7939c146b40badfd6424c35cf7", null ]
+    [ "PrepareSpellScript", "d4/d99/a27624.html#a3a77016a3a8314969ce41cc6483761ec", null ],
+    [ "Register", "d4/d99/a27624.html#ae1fa8b9e4a11c884d10b1f4cc0afd09e", null ],
+    [ "SetDest", "d4/d99/a27624.html#a724217c09faa57ec2e6dad034e8709ed", null ]
 ];

@@ -1,8 +1,7 @@
 var a10416 =
 [
-    [ "SkillDiscoveryEntry", "d1/d11/a10416.html#a54c0f12153c6e63a37e5da44d233b271", null ],
-    [ "SkillDiscoveryEntry", "d1/d11/a10416.html#a301cae078fe1943cae045e94dc3d38ad", null ],
-    [ "chance", "d1/d11/a10416.html#a71cf2c48937e5a2a3c6dd8c499a860a7", null ],
-    [ "reqSkillValue", "d1/d11/a10416.html#a61e0edc8fee1fa4045d846668d08449c", null ],
-    [ "spellId", "d1/d11/a10416.html#a75ca40729917317173b2953c8f47f833", null ]
+    [ "Player", "d1/d11/a10416.html#a7f4241aa9ecc051c75f779af132a52ed", null ],
+    [ "WorldSession", "d1/d11/a10416.html#a65b5c30bf4f5f118a199e378d903aaf6", null ],
+    [ "FactionChange", "d1/d11/a10416.html#adff657ead29df26ead5e20a8ecf44e87", null ],
+    [ "Race", "d1/d11/a10416.html#a98d5fd43205a0c9e2d3be75d384ce00c", null ]
 ];

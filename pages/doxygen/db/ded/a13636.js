@@ -1,6 +1,6 @@
 var a13636 =
 [
-    [ "boss_darkheartAI", "d5/d25/a13640.html", "d5/d25/a13640" ],
-    [ "boss_darkheart", "db/ded/a13636.html#a9db28c0c2a14d560162febd94ca0290b", null ],
-    [ "GetAI", "db/ded/a13636.html#ae18c3326f71db0e7200fb291110e7288", null ]
+    [ "cooldown", "db/ded/a13636.html#a435dff1f5801d4dda241ae37460eb9ac", null ],
+    [ "spell", "db/ded/a13636.html#a00ee3238030686e1cc66562f7cefb27a", null ],
+    [ "target", "db/ded/a13636.html#a16e54dbd059baac1b6e7229621339d83", null ]
 ];

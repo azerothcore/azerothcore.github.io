@@ -1,6 +1,9 @@
 var a23004 =
 [
-    [ "spell_arcane_chains_character_force_cast_SpellScript", "d6/da9/a23008.html", "d6/da9/a23008" ],
-    [ "spell_arcane_chains_character_force_cast", "d3/d46/a23004.html#a1abd655363d42bfdceeb195f05bb5675", null ],
-    [ "GetSpellScript", "d3/d46/a23004.html#a8ccf7964187a569f9cccb5fe51e2248d", null ]
+    [ "npc_lurgglbrAI", "d3/d46/a23004.html#a9239b85c65f9b405335d432f355637d5", null ],
+    [ "Reset", "d3/d46/a23004.html#a13b8bd8e7d85c93b0ee88c6e9f6d09ca", null ],
+    [ "UpdateAI", "d3/d46/a23004.html#aee019df9abe7ca3bf36a6de2321bedec", null ],
+    [ "WaypointReached", "d3/d46/a23004.html#a09ac2f2f21eefedd0052f727546bafb5", null ],
+    [ "IntroPhase", "d3/d46/a23004.html#a57e2c42cccf91765365e0b046446637a", null ],
+    [ "IntroTimer", "d3/d46/a23004.html#ada9762806ae0132e37197e6fb1279866", null ]
 ];

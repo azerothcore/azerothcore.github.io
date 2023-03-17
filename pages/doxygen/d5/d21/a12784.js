@@ -1,5 +1,6 @@
 var a12784 =
 [
-    [ "at_malfurion_stormrage", "d5/d21/a12784.html#ac5da3d1a7c2ccaffee68cfaee04fb63c", null ],
-    [ "OnTrigger", "d5/d21/a12784.html#a0aa7818bd09b8a456d1ebbaa7d5f5c1d", null ]
+    [ "spell_shadowfang_keep_forsaken_skills_AuraScript", "dc/de0/a12788.html", "dc/de0/a12788" ],
+    [ "spell_shadowfang_keep_forsaken_skills", "d5/d21/a12784.html#a546f43f401a1db068d50904943fe3bd5", null ],
+    [ "GetAuraScript", "d5/d21/a12784.html#aa17c4342a7dbd9df903dc53cb11a36aa", null ]
 ];

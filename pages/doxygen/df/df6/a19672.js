@@ -1,6 +1,5 @@
 var a19672 =
 [
-    [ "HandleScript", "df/df6/a19672.html#a51fdfe637dd4cacc79103105b61dbe6b", null ],
-    [ "PrepareSpellScript", "df/df6/a19672.html#a4c851026438d0690679809f6ab7b2341", null ],
-    [ "Register", "df/df6/a19672.html#ac28a1dec151e0ca319f50c9b3b53b3b4", null ]
+    [ "at_icc_start_frostwing_gauntlet", "df/df6/a19672.html#a285cd9046d5658fc5d917c3427bbbe83", null ],
+    [ "OnTrigger", "df/df6/a19672.html#a7137166f281876f00d4e03c846875d85", null ]
 ];

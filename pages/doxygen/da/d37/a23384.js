@@ -1,8 +1,8 @@
 var a23384 =
 [
-    [ "npc_ravenous_worgAI", "da/d37/a23384.html#a5404516869e171c84b774f2a7b8be15d", null ],
-    [ "AttackStart", "da/d37/a23384.html#a593d218d8cb083a7e37f81d3952c6d4c", null ],
-    [ "UpdateAI", "da/d37/a23384.html#aeb64d5bde5ef9d8c2a62662bb72d3049", null ],
-    [ "_attack", "da/d37/a23384.html#a3df5c98821ba33a40e25e7b050858b96", null ],
-    [ "_pacified", "da/d37/a23384.html#a0da1f59a6fc9cdf39c9cced1eb52acba", null ]
+    [ "AfterApply", "da/d37/a23384.html#a57279552b867251e9d2ee6a4ff5d7914", null ],
+    [ "PeriodicTick", "da/d37/a23384.html#a2e86aa6efe6ab137926c1dfd1bd26a95", null ],
+    [ "PrepareAuraScript", "da/d37/a23384.html#a9e1b74bf2d28a367caefdc90c34743c8", null ],
+    [ "Register", "da/d37/a23384.html#a69eb0ca43a15d4995ad219459c2b39d6", null ],
+    [ "Validate", "da/d37/a23384.html#a946248656cb755f85dd93fd4d607c9a7", null ]
 ];

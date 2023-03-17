@@ -1,6 +1,6 @@
 var a18304 =
 [
-    [ "spell_deathwhisper_mana_barrier_AuraScript", "de/d68/a18308.html", "de/d68/a18308" ],
-    [ "spell_deathwhisper_mana_barrier", "db/d16/a18304.html#afda99238148ea35750e1ee52b5d30d12", null ],
-    [ "GetAuraScript", "db/d16/a18304.html#acbf06aded3ebbbab5f529b420e4ba6f2", null ]
+    [ "npc_cult_adherentAI", "de/d68/a18308.html", "de/d68/a18308" ],
+    [ "npc_cult_adherent", "db/d16/a18304.html#a74496518cf30674044a4a8a166e4c345", null ],
+    [ "GetAI", "db/d16/a18304.html#a2bfe464c738c983b9539f9216cabd63a", null ]
 ];

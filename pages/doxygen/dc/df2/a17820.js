@@ -1,9 +1,9 @@
 var a17820 =
 [
-    [ "CheckTarget", "dc/df2/a17820.html#a214f622264855baa611b6cc5baea04bd", null ],
-    [ "HandlePresence", "dc/df2/a17820.html#a6c306be2ab4346e219e6ef7475f7ab86", null ],
-    [ "OnCast", "dc/df2/a17820.html#aa9995a96a6bfd0ac73e2c22ba33043bc", null ],
-    [ "PrepareSpellScript", "dc/df2/a17820.html#adc0691d44cf1fa0abc71a7bc3c0d5c3a", null ],
-    [ "Register", "dc/df2/a17820.html#a97e64abe6fab68aa08b54a9659710eaf", null ],
-    [ "Validate", "dc/df2/a17820.html#a3b670779cf83b627daf83baa7fbd4048", null ]
+    [ "FilterTargets", "dc/df2/a17820.html#acb90b79a26360dda7421c2121d08fd7e", null ],
+    [ "HandleScript", "dc/df2/a17820.html#a8d03b1f944bc5d62dff2f897ada85aaa", null ],
+    [ "Load", "dc/df2/a17820.html#a736e5f9ced806669bd006080dd5bd966", null ],
+    [ "PrepareSpellScript", "dc/df2/a17820.html#a46c653dbcddf4d4fd15af273f1269004", null ],
+    [ "Register", "dc/df2/a17820.html#a6ebd5058c6e1f5a9dd670d5a3484ba96", null ],
+    [ "Validate", "dc/df2/a17820.html#a28a1a182b6762727788b69fdcead93a3", null ]
 ];

@@ -1,8 +1,8 @@
 var a11920 =
 [
-    [ "npc_lava_spawn", "d9/d23/a11920.html#aff97441b2cfbcd68e0788be022ee6236", null ],
-    [ "EnterCombat", "d9/d23/a11920.html#aaae2d1acbcfa9d16093fc13f63908786", null ],
-    [ "Reset", "d9/d23/a11920.html#ab774d354991c90b1421e6783c0513e59", null ],
-    [ "UpdateAI", "d9/d23/a11920.html#a6a17c8c40b0110b688ff5faef5585185", null ],
-    [ "_scheduler", "d9/d23/a11920.html#ab7a6b2beec095f3f903ad4443813cfce", null ]
+    [ "FilterTargets", "d9/d23/a11920.html#a2ebd519cb905cd1f6546ac4680335085", null ],
+    [ "HandleScript", "d9/d23/a11920.html#acf820219de7012cabb45656967463e35", null ],
+    [ "PrepareSpellScript", "d9/d23/a11920.html#aad7ca25676122ba052458099c652a7d2", null ],
+    [ "Register", "d9/d23/a11920.html#a145d8e31845a65c6f2458e31b63e3f0a", null ],
+    [ "Validate", "d9/d23/a11920.html#aee2ef7c78afa6f409eb7f8816383e398", null ]
 ];

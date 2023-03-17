@@ -1,12 +1,9 @@
 var a09464 =
 [
-    [ "FacingInfo", "d7/d33/a09464.html#a1ac825c359704924c66e46eada64e34e", null ],
-    [ "FacingInfo", "d7/d33/a09464.html#a7820b3ce134dcca05b9b15299eb3b33f", null ],
-    [ "FacingInfo", "d7/d33/a09464.html#add6411db27c1d313d2f133adf0c35755", null ],
-    [ "angle", "d7/d33/a09464.html#ac56b304c2c5df7ab72c6fcbd2f845b02", null ],
-    [ "f", "d7/d33/a09464.html#abbb3608be7498ba70310fb2d661178a7", null ],
-    [ "target", "d7/d33/a09464.html#a064b5265b4bb2a0053908bf6031b8f65", null ],
-    [ "x", "d7/d33/a09464.html#ac08687158cc0bcfbc9814b1cbbe95684", null ],
-    [ "y", "d7/d33/a09464.html#ad7fcfb6b1c5402a0570748d343eadfcc", null ],
-    [ "z", "d7/d33/a09464.html#a5ff017b732d47684f675041e44227754", null ]
+    [ "counter", "d7/d33/a09464.html#a0efb94229f4a9370dc5b256ba623385b", null ],
+    [ "getCurrent", "d7/d33/a09464.html#afff6411c2b7f1c07d72ad26dc77d4780", null ],
+    [ "Increase", "d7/d33/a09464.html#a463e0ba077c8398a6125e715afcd8860", null ],
+    [ "init", "d7/d33/a09464.html#a0369662be009b781174021a2eb6b3202", null ],
+    [ "NewId", "d7/d33/a09464.html#a06d5bc4ea248173316ed4d1ce96d6281", null ],
+    [ "m_counter", "d7/d33/a09464.html#a297f1ba5e072e4c90b62c7242ee1b01c", null ]
 ];

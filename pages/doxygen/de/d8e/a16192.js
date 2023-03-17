@@ -1,6 +1,6 @@
 var a16192 =
 [
-    [ "spell_halion_meteor_strike_marker_AuraScript", "da/d2a/a16196.html", "da/d2a/a16196" ],
-    [ "spell_halion_meteor_strike_marker", "de/d8e/a16192.html#a1c0ad530fab100f0a8a43f758e684de7", null ],
-    [ "GetAuraScript", "de/d8e/a16192.html#ac0e07fee504341e8abc3fe809220696c", null ]
+    [ "boss_twilight_halionAI", "da/d2a/a16196.html", "da/d2a/a16196" ],
+    [ "boss_twilight_halion", "de/d8e/a16192.html#a23ea0a61acb2cf3fd83aece3ac7d218e", null ],
+    [ "GetAI", "de/d8e/a16192.html#a56842d74b16cbd5636649cbc643c50d8", null ]
 ];

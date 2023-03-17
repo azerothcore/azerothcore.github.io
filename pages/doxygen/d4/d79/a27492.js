@@ -1,6 +1,6 @@
 var a27492 =
 [
-    [ "PrepareAuraScript", "d4/d79/a27492.html#a1a06aa5d8254f0d33ecb38df72d97d20", null ],
-    [ "Register", "d4/d79/a27492.html#abb54f08b1932e3638537656360d3aad8", null ],
-    [ "AuraEffectHandleModes", "d4/d79/a27492.html#a9f02f6b1287d320fee15fec18b61cfe7", null ]
+    [ "CheckCast", "d4/d79/a27492.html#ac1bc3f881c31c5ab90785a62a5f5b5ae", null ],
+    [ "PrepareSpellScript", "d4/d79/a27492.html#a2a9c657ccffbacfc661c6bb1dc41d9de", null ],
+    [ "Register", "d4/d79/a27492.html#a4b34bd5ce9d3e948d6c712d71ed71b2d", null ]
 ];

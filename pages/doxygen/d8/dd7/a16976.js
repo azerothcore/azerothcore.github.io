@@ -1,5 +1,6 @@
 var a16976 =
 [
-    [ "achievement_consumption_junction", "d8/dd7/a16976.html#aab08732c13f41e0e8d27e9f482bd7351", null ],
-    [ "OnCheck", "d8/dd7/a16976.html#a14dae1bf9d4d7c79f11de40b372f353e", null ]
+    [ "boss_trollgoreAI", "d9/d55/a16980.html", "d9/d55/a16980" ],
+    [ "boss_trollgore", "d8/dd7/a16976.html#a95102f1fae6c667e0780b8b388fc156b", null ],
+    [ "GetAI", "d8/dd7/a16976.html#a6da1349da296a3dc3d29527a8e3c2b7d", null ]
 ];

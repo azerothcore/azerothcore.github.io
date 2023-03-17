@@ -1,6 +1,8 @@
 var a16516 =
 [
-    [ "npc_nerubian_burrowerAI", "d3/d66/a16520.html", "d3/d66/a16520" ],
-    [ "npc_nerubian_burrower", "dd/d68/a16516.html#a02c3eb1ed867738c705af8bf38a1aae5", null ],
-    [ "GetAI", "dd/d68/a16516.html#a145ebac6f95f9190429b9bfa37e23312", null ]
+    [ "npc_announcer_toc5AI", "dd/d68/a16516.html#a96e1bd089dfd21fa252bc6422d20bada", null ],
+    [ "DamageTaken", "dd/d68/a16516.html#a53458483699ac026ff2cd36b5f061571", null ],
+    [ "MovementInform", "dd/d68/a16516.html#acdcf4110b3815635ad173a70e7a1e603", null ],
+    [ "Reset", "dd/d68/a16516.html#ab3dca17e0350d6d46a9069f97f2d12ef", null ],
+    [ "UpdateAI", "dd/d68/a16516.html#ad2c596253d67d051f497a8d77859846d", null ]
 ];

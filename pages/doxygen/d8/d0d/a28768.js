@@ -1,7 +1,9 @@
 var a28768 =
 [
-    [ "HandleDummy", "d8/d0d/a28768.html#a6990bc24605167d38772f391aa2a5376", null ],
-    [ "PrepareSpellScript", "d8/d0d/a28768.html#af85da0790eb36b91266ffa45888068d6", null ],
-    [ "Register", "d8/d0d/a28768.html#a619dab878b3d6e332a15d772dd148e26", null ],
-    [ "Validate", "d8/d0d/a28768.html#a5a39713deabac73334442e1bdeb00aad", null ]
+    [ "CheckCast", "d8/d0d/a28768.html#a846862b62f5750801cd804133f290d5d", null ],
+    [ "HandleDummy", "d8/d0d/a28768.html#aa56609d3c75a69fb62e302622fd11c3c", null ],
+    [ "Load", "d8/d0d/a28768.html#acec7437ba80e4ae491020448a36e4559", null ],
+    [ "PrepareSpellScript", "d8/d0d/a28768.html#ab5e281028c009a4b317111de9a0a17e3", null ],
+    [ "Register", "d8/d0d/a28768.html#a865fa526f2131703a668e113ba0d7849", null ],
+    [ "Validate", "d8/d0d/a28768.html#a6c6dee3de2c54536765cfdd97f4fd0c0", null ]
 ];

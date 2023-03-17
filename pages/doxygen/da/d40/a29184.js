@@ -1,7 +1,6 @@
 var a29184 =
 [
-    [ "FilterTargets", "da/d40/a29184.html#a6b7b3b5080ba08fef29988a750ee169f", null ],
-    [ "HandleEffect", "da/d40/a29184.html#a37dd53f51ad46b15b691d66eb485de5d", null ],
-    [ "PrepareSpellScript", "da/d40/a29184.html#acaa6fc8c9197ddb2a7e3de08c1c32dbd", null ],
-    [ "Register", "da/d40/a29184.html#af58b2b965b722d14431355c4dd03aecd", null ]
+    [ "go_bear_trapAI", "d5/d6b/a29188.html", "d5/d6b/a29188" ],
+    [ "go_bear_trap", "da/d40/a29184.html#a6301aa23009ac2599fc37b81bb3a0750", null ],
+    [ "GetAI", "da/d40/a29184.html#afb882fd4cc2e4379bb8d5afff210a679", null ]
 ];

@@ -1,7 +1,7 @@
 var a23592 =
 [
-    [ "Absorb", "d6/d65/a23592.html#a6c949e0d2caf10dc41d32186dbd98d1e", null ],
-    [ "CalculateAmount", "d6/d65/a23592.html#aecd7bc94c48a3a9cfe4ca325f41528b8", null ],
-    [ "PrepareAuraScript", "d6/d65/a23592.html#ad39d5d4d8a20b3cc7b644acb3831b4da", null ],
-    [ "Register", "d6/d65/a23592.html#abed833c1064814f8ed28b52295483f25", null ]
+    [ "npc_tirions_gambit_tirionAI", "d1/d6d/a23596.html", "d1/d6d/a23596" ],
+    [ "npc_tirions_gambit_tirion", "d6/d65/a23592.html#ad52abd46ccdd3b4409671679434c193c", null ],
+    [ "GetAI", "d6/d65/a23592.html#a222c092c2e2136dbd7057a3f7ad7b5f4", null ],
+    [ "OnGossipSelect", "d6/d65/a23592.html#a5af904a3394de9b3eedb52009bd6b0a9", null ]
 ];

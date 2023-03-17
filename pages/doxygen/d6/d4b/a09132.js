@@ -1,8 +1,16 @@
 var a09132 =
 [
-    [ "BoundaryUnionBoundary", "d6/d4b/a09132.html#a074536112fffc805dec44bd9cd602642", null ],
-    [ "~BoundaryUnionBoundary", "d6/d4b/a09132.html#a96450fc020bfad7b9f1f7be64490ad46", null ],
-    [ "IsWithinBoundaryArea", "d6/d4b/a09132.html#a8dc91861fa6641008236e5a83030e0d1", null ],
-    [ "_b1", "d6/d4b/a09132.html#a40fcd847f38703dfe5174267fbfd81ee", null ],
-    [ "_b2", "d6/d4b/a09132.html#ae70530673803bd2ee85bf722fe42718b", null ]
+    [ "ServerMail", "d6/d4b/a09132.html#a50cf3e6929e397a3c1de83b9fcf83416", null ],
+    [ "active", "d6/d4b/a09132.html#a24a12fcafd0b0f4a7c0558737d8fd71f", null ],
+    [ "body", "d6/d4b/a09132.html#a58d352611dcb35126f6ec93622ddc4b9", null ],
+    [ "id", "d6/d4b/a09132.html#a6b47994eff9201a6a75f8c621b64716c", null ],
+    [ "itemA", "d6/d4b/a09132.html#a2d5232d5e111f5af7446940f92aaf9df", null ],
+    [ "itemCountA", "d6/d4b/a09132.html#abb24673f0b21f715f3e112e232cec35b", null ],
+    [ "itemCountH", "d6/d4b/a09132.html#ac9b6e655136616b040788c55d80706da", null ],
+    [ "itemH", "d6/d4b/a09132.html#ab7dc4da9b86a39ecb5c28ec071f17112", null ],
+    [ "moneyA", "d6/d4b/a09132.html#a6a84ca583beef891422f67bef7919c47", null ],
+    [ "moneyH", "d6/d4b/a09132.html#a0e899ce54283bc000cc6afb96e6a3244", null ],
+    [ "reqLevel", "d6/d4b/a09132.html#a494ce9c800d1545b023b9ff526f8b994", null ],
+    [ "reqPlayTime", "d6/d4b/a09132.html#abfa7c7fe76fd085fc8726dcba600e10e", null ],
+    [ "subject", "d6/d4b/a09132.html#a246e499c69c57a436aac4c039ea37d31", null ]
 ];

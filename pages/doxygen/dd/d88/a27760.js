@@ -1,9 +1,8 @@
 var a27760 =
 [
-    [ "spell_item_trigger_spell", "dd/d88/a27760.html#a619e9a5233e36157cbdaba70a3ba80da", null ],
-    [ "HandleDummy", "dd/d88/a27760.html#a49613255eea28e34cf5ff8a06798f89a", null ],
-    [ "PrepareSpellScript", "dd/d88/a27760.html#a78903f92c30fb23ff7297f7fa16c4861", null ],
-    [ "Register", "dd/d88/a27760.html#ab9abd9f01ce37c23d6502e6d86e3f998", null ],
-    [ "Validate", "dd/d88/a27760.html#a2f2df93e8f9d0e51273560665ea5c245", null ],
-    [ "_triggeredSpellId", "dd/d88/a27760.html#a610c5ac434fe788120ed101f7bf58f63", null ]
+    [ "CheckProc", "dd/d88/a27760.html#a8b3f8cf17dda2322d0e9f8f4211cbd20", null ],
+    [ "HandleProc", "dd/d88/a27760.html#ae034bd626880858c9701ed963de993c9", null ],
+    [ "isException", "dd/d88/a27760.html#aa5f4fcd1b9b710e2931460207cfc6dea", null ],
+    [ "PrepareAuraScript", "dd/d88/a27760.html#a50348fd27947f67df03bf4ddbec89cca", null ],
+    [ "Register", "dd/d88/a27760.html#aaa14b34ac54b4caee76ff72d07dd5c2d", null ]
 ];

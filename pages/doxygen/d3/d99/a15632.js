@@ -1,7 +1,6 @@
 var a15632 =
 [
-    [ "npc_kaya_flathoofAI", "d3/d99/a15632.html#a3b43992dfeeb7b3b19e777b9629c55ce", null ],
-    [ "JustSummoned", "d3/d99/a15632.html#ac365753a428009f4fc4d01ead8fe46fd", null ],
-    [ "Reset", "d3/d99/a15632.html#af9be00be9867622a16103bd21311327f", null ],
-    [ "WaypointReached", "d3/d99/a15632.html#a8fcbb19279b925138ba96d2a450fc404", null ]
+    [ "npc_anachronos_quest_triggerAI", "dc/ddc/a15636.html", "dc/ddc/a15636" ],
+    [ "npc_anachronos_quest_trigger", "d3/d99/a15632.html#ad39871952acd3152b51820fe360f4ebd", null ],
+    [ "GetAI", "d3/d99/a15632.html#a2e0e6a69ed1cbed76db9c4bd64d51330", null ]
 ];

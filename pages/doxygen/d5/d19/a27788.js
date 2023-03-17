@@ -1,7 +1,8 @@
 var a27788 =
 [
-    [ "HandleProc", "d5/d19/a27788.html#ad92c7804b26bd29d135e55c8adad9093", null ],
-    [ "PrepareAuraScript", "d5/d19/a27788.html#a5e986f77b23fd0402089ea36f0360c79", null ],
-    [ "Register", "d5/d19/a27788.html#a29d66b9790e3f7dfffb5dc398f26f9fb", null ],
-    [ "Validate", "d5/d19/a27788.html#a51f81afec6ff0918530208d9de9dae24", null ]
+    [ "CheckRequirement", "d5/d19/a27788.html#a3ed8450641baeee915fc5a129f9c7434", null ],
+    [ "HandleScript", "d5/d19/a27788.html#a92e3137bb92545876ca67028bcc86a4f", null ],
+    [ "Load", "d5/d19/a27788.html#a56326701447b3a88d9022ca1f1c184a6", null ],
+    [ "PrepareSpellScript", "d5/d19/a27788.html#a94d4155e98a4ac5764d8bfd705b05602", null ],
+    [ "Register", "d5/d19/a27788.html#a9b440dd8bf21b70d068021d05832a3fc", null ]
 ];

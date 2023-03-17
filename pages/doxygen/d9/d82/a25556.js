@@ -1,6 +1,7 @@
 var a25556 =
 [
-    [ "boss_warbringer_omroggAI", "df/dae/a25560.html", "df/dae/a25560" ],
-    [ "boss_warbringer_omrogg", "d9/d82/a25556.html#a71cd768c8082498785cf4c478b4eaed7", null ],
-    [ "GetAI", "d9/d82/a25556.html#a4cf48d2e66e1d312438f89fd26e3a561", null ]
+    [ "npc_omrogg_headsAI", "d9/d82/a25556.html#ae1364ad49c316eeb9ac61f97b08484ea", null ],
+    [ "SetData", "d9/d82/a25556.html#a3840d884745348aa113e41a33b8093ea", null ],
+    [ "UpdateAI", "d9/d82/a25556.html#aef9327352fe4d8fa33039e254859ec3e", null ],
+    [ "timer", "d9/d82/a25556.html#a671b5c855f8e604082ba7adea276d665", null ]
 ];

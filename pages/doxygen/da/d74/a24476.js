@@ -1,6 +1,6 @@
 var a24476 =
 [
-    [ "PrepareAuraScript", "da/d74/a24476.html#a4d7b95b47101de1816471ae791d07c8f", null ],
-    [ "Register", "da/d74/a24476.html#a9eaa8dbf0e49a730995612a97e4a2ad7", null ],
-    [ "Update", "da/d74/a24476.html#a2c4f89bacab62cbe83c48a3d4381f198", null ]
+    [ "boss_shahrazAI", "d6/da8/a24480.html", "d6/da8/a24480" ],
+    [ "boss_mother_shahraz", "da/d74/a24476.html#a05ff927e032bf11061d0271ccd5e0709", null ],
+    [ "GetAI", "da/d74/a24476.html#a83e20ce8a6acb7caa3877ee71a035e36", null ]
 ];

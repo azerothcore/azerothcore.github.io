@@ -1,6 +1,6 @@
 var a26008 =
 [
-    [ "npc_deaths_fel_cannonAI", "d2/db1/a26012.html", "d2/db1/a26012" ],
-    [ "npc_deaths_fel_cannon", "db/db5/a26008.html#a87ecaca75061928600b5114d3913dd26", null ],
-    [ "GetAI", "db/db5/a26008.html#a4cf91cd1f28637f359e06bccd30e0338", null ]
+    [ "npc_simon_bunnyAI", "d2/db1/a26012.html", "d2/db1/a26012" ],
+    [ "npc_simon_bunny", "db/db5/a26008.html#afd3f3a24450bc8b748c0ff5b05b10da1", null ],
+    [ "GetAI", "db/db5/a26008.html#ac0c97609916321a1599c0722803a050f", null ]
 ];

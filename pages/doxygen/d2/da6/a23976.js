@@ -1,5 +1,6 @@
 var a23976 =
 [
-    [ "achievement_wg_within_our_grasp", "d2/da6/a23976.html#a9edbd15bc6989c6948e21391a683d22d", null ],
-    [ "OnCheck", "d2/da6/a23976.html#a10b659c4b52322536333e3d191796c27", null ]
+    [ "spell_wintergrasp_hide_small_elementals_AuraScript", "d8/d09/a23980.html", "d8/d09/a23980" ],
+    [ "spell_wintergrasp_hide_small_elementals", "d2/da6/a23976.html#aa5e03d4705fd6253bb576268eaff5a6b", null ],
+    [ "GetAuraScript", "d2/da6/a23976.html#aabf8954d35e8c5f10f16d915639a5e68", null ]
 ];

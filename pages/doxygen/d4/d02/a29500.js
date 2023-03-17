@@ -1,7 +1,9 @@
 var a29500 =
 [
-    [ "npc_prof_leather", "d4/d02/a29500.html#a4a96f0c41a2a75ed26f52b1b0377c800", null ],
-    [ "HasLeatherSpecialty", "d4/d02/a29500.html#aefbf75b4109f8013335f36cd2d6e84de", null ],
-    [ "OnGossipHello", "d4/d02/a29500.html#a1a0dc1574c814af5e4f992c7fb199215", null ],
-    [ "OnGossipSelect", "d4/d02/a29500.html#afdf3a42c20903efd7f45ab0042f79de0", null ]
+    [ "npc_target_dummyAI", "d4/d02/a29500.html#a117e45559ea721877d73df4b3c18a259", null ],
+    [ "EnterEvadeMode", "d4/d02/a29500.html#a8f7f2e4decc676e378b4929516f8a147", null ],
+    [ "MoveInLineOfSight", "d4/d02/a29500.html#a05f5b1f2cb8f0926bf425e7c31d618e2", null ],
+    [ "Reset", "d4/d02/a29500.html#a4e8f8d1da604a80b60d61f72ed4ecbcf", null ],
+    [ "UpdateAI", "d4/d02/a29500.html#ae686aa48ab7e91988e5b71c71695ce47", null ],
+    [ "deathTimer", "d4/d02/a29500.html#abf5bd5122e79a62a03c19a18cd68498b", null ]
 ];

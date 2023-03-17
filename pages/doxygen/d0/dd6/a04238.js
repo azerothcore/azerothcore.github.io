@@ -1,28 +1,24 @@
 var a04238 =
 [
-    [ "npc_taxi", "dc/dde/a29579.html", "dc/dde/a29579" ],
-    [ "GOSSIP_AFRASASTRASZ1", "d0/dd6/a04238.html#a6e85d67d2cfe35a297cca38316c70093", null ],
-    [ "GOSSIP_AFRASASTRASZ2", "d0/dd6/a04238.html#aa74b7d1b95b6e7d0d32eb2303f4f767d", null ],
-    [ "GOSSIP_BRACK1", "d0/dd6/a04238.html#a4a689f4c5d35ce03ceed58d72d070061", null ],
-    [ "GOSSIP_BRACK2", "d0/dd6/a04238.html#a1e67550a4329405618ad320565501df0", null ],
-    [ "GOSSIP_BRACK3", "d0/dd6/a04238.html#a74a7d245e576aff3453e2670f64b7059", null ],
-    [ "GOSSIP_CLOUDBREAKER1", "d0/dd6/a04238.html#aa3c7f022194ef166c8fd3c3eced959f1", null ],
-    [ "GOSSIP_CLOUDBREAKER2", "d0/dd6/a04238.html#a770f609bd3d0e43bfae08d086334f9b1", null ],
-    [ "GOSSIP_CRIMSONWING", "d0/dd6/a04238.html#ae3d5b4fe8e8951614792c9602c0faee0", null ],
-    [ "GOSSIP_DABIREE1", "d0/dd6/a04238.html#a2da36ea4c46f39c45ebd1e0613249532", null ],
-    [ "GOSSIP_DABIREE2", "d0/dd6/a04238.html#a66bdc036d2d4f49eff060ddc443c8e1d", null ],
-    [ "GOSSIP_DEESAK", "d0/dd6/a04238.html#aacd698cc83dd567874fb36379de914a4", null ],
-    [ "GOSSIP_DRAGONHAWK", "d0/dd6/a04238.html#a6d67d8cb274e02bbcdc942fa0b5b1790", null ],
-    [ "GOSSIP_IRENA", "d0/dd6/a04238.html#aa2e66365f38ec83488adb4da31c50948", null ],
-    [ "GOSSIP_IRONWING", "d0/dd6/a04238.html#a11dd3eb06a57e99bb77d8d8913ca0da7", null ],
-    [ "GOSSIP_NETHER_DRAKE", "d0/dd6/a04238.html#af8d6aff44da4aaba02f9476b557d59b1", null ],
-    [ "GOSSIP_TARIOLSTRASZ1", "d0/dd6/a04238.html#a7ad6e87f7c9c0f85466eda55e1873713", null ],
-    [ "GOSSIP_TARIOLSTRASZ2", "d0/dd6/a04238.html#a3208af382f8de7f618aa2eaa745dcef8", null ],
-    [ "GOSSIP_TORASTRASZA1", "d0/dd6/a04238.html#ad2fdaab9efa962dbce4f993609a1041d", null ],
-    [ "GOSSIP_TORASTRASZA2", "d0/dd6/a04238.html#ab2a4b62502628405e6ec384ea6aeb163", null ],
-    [ "GOSSIP_VERONIA", "d0/dd6/a04238.html#ab4ca0a88622c4e62f0b825a26bcb94a4", null ],
-    [ "GOSSIP_WILLIAMKEILAR1", "d0/dd6/a04238.html#ab560a254ce41b752c9b1ad3f12afe31d", null ],
-    [ "GOSSIP_WILLIAMKEILAR2", "d0/dd6/a04238.html#aa41582c11b194e41723a2a8bcb6ea072", null ],
-    [ "GOSSIP_WILLIAMKEILAR3", "d0/dd6/a04238.html#a21226833dd48db08bb36c4bc509c1d32", null ],
-    [ "AddSC_npc_taxi", "d0/dd6/a04238.html#a36f8a13e2844278c955f3a8155e7a11c", null ]
+    [ "item_only_for_flight", "d1/dc4/a29340.html", "d1/dc4/a29340" ],
+    [ "item_gor_dreks_ointment", "d2/dd4/a29344.html", "d2/dd4/a29344" ],
+    [ "item_incendiary_explosives", "d0/d80/a29348.html", "d0/d80/a29348" ],
+    [ "item_mysterious_egg", "d4/d8b/a29352.html", "d4/d8b/a29352" ],
+    [ "item_disgusting_jar", "df/d98/a29356.html", "df/d98/a29356" ],
+    [ "item_petrov_cluster_bombs", "d9/dd5/a29360.html", "d9/dd5/a29360" ],
+    [ "item_captured_frog", "d4/d45/a29364.html", "d4/d45/a29364" ],
+    [ "item_generic_limit_chance_above_60", "d7/d6c/a29368.html", "d7/d6c/a29368" ],
+    [ "CapturedFrog", "d0/dd6/a04238.html#a3a51d3f5cfd1964cbec23fcba5046cca", [
+      [ "QUEST_THE_PERFECT_SPIES", "d0/dd6/a04238.html#a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04", null ],
+      [ "NPC_VANIRAS_SENTRY_TOTEM", "d0/dd6/a04238.html#a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f", null ]
+    ] ],
+    [ "OnlyForFlight", "d0/dd6/a04238.html#afa5a0f3082f0a49fcc796209c7828151", [
+      [ "SPELL_ARCANE_CHARGES", "d0/dd6/a04238.html#afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d", null ]
+    ] ],
+    [ "PetrovClusterBombs", "d0/dd6/a04238.html#a5481d2bf1b9efa370833eed302f6f94c", [
+      [ "SPELL_PETROV_BOMB", "d0/dd6/a04238.html#a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6", null ],
+      [ "AREA_ID_SHATTERED_STRAITS", "d0/dd6/a04238.html#a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42", null ],
+      [ "ZONE_ID_HOWLING", "d0/dd6/a04238.html#a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9", null ]
+    ] ],
+    [ "AddSC_item_scripts", "d0/dd6/a04238.html#a3e28ebf5a580887bb117f786689a34c6", null ]
 ];

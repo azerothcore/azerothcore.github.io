@@ -1,8 +1,7 @@
 var a26160 =
 [
-    [ "adyen_the_lightbringerAI", "dc/d11/a26164.html", "dc/d11/a26164" ],
-    [ "adyen_the_lightbringer", "dd/d60/a26160.html#a93405c529edeaa2d62ca86e979cea319", null ],
-    [ "GetAI", "dd/d60/a26160.html#aca603ad26ae69afe74ad053ccbfceba4", null ],
-    [ "OnGossipHello", "dd/d60/a26160.html#ad5154e4aff6244a273e3a2cd4b7c6dff", null ],
-    [ "OnGossipSelect", "dd/d60/a26160.html#a1db2e61eb54cd2506543dcad3c06e7f6", null ]
+    [ "npc_maxx_a_million_escortAI", "dc/d11/a26164.html", "dc/d11/a26164" ],
+    [ "npc_maxx_a_million_escort", "dd/d60/a26160.html#a958a88b495594dd8e14919d950ac917a", null ],
+    [ "GetAI", "dd/d60/a26160.html#af79619087908d442f503e0b0d633937d", null ],
+    [ "OnQuestAccept", "dd/d60/a26160.html#af3c2f2708702f7d25e712c63a45e69e0", null ]
 ];

@@ -1,15 +1,23 @@
 var a02165 =
 [
-    [ "GetGameTime", "d7/d4c/a02165.html#adbe1785d1327dedf2ac403b7cc8e99c2", null ],
-    [ "GetGameTimeMS", "d7/d4c/a02165.html#a6d0d49f37e25e497391157b2a2ec90c1", null ],
-    [ "GetStartTime", "d7/d4c/a02165.html#a872d34d3f9d420cfc749073c809931f9", null ],
-    [ "GetSystemTime", "d7/d4c/a02165.html#a443eccf314fe436192278d425d6d8220", null ],
-    [ "GetUptime", "d7/d4c/a02165.html#ae2ff9233756dd88fa1aafcc1e1c0be4d", null ],
-    [ "Now", "d7/d4c/a02165.html#ae5cc9f17fc6b8b15c678fa7a84a6e117", null ],
-    [ "UpdateGameTimers", "d7/d4c/a02165.html#a45712735241c9563a12fc3da54fb144d", null ],
-    [ "GameMSTime", "d7/d4c/a02165.html#ad5fc2a056410eeac2e2717f91cb8295c", null ],
-    [ "GameTime", "d7/d4c/a02165.html#a9a28ffdb4bb387919d2dd70a51080ce0", null ],
-    [ "GameTimeSteadyPoint", "d7/d4c/a02165.html#a874057035d37aa57afc5064acffba119", null ],
-    [ "GameTimeSystemPoint", "d7/d4c/a02165.html#aa393fef2187ebdd6aa34379b0f1504d7", null ],
-    [ "StartTime", "d7/d4c/a02165.html#a78088a0637670a1ab5125a1388f7ca52", null ]
+    [ "CreatureTextEntry", "d8/ded/a10788.html", "d8/ded/a10788" ],
+    [ "CreatureTextLocale", "d3/df1/a10792.html", "d3/df1/a10792" ],
+    [ "CreatureTextId", "dc/da5/a10796.html", "dc/da5/a10796" ],
+    [ "CreatureTextMgr", "d9/d93/a10800.html", "d9/d93/a10800" ],
+    [ "CreatureTextLocalizer< Builder >", "d6/d1c/a10804.html", "d6/d1c/a10804" ],
+    [ "sCreatureTextMgr", "d7/d4c/a02165.html#a2dc428da007cefe454220dcb355a1cde", null ],
+    [ "CreatureTextGroup", "d7/d4c/a02165.html#a9baeb5ff5e542c90d9058942cf0b4bbd", null ],
+    [ "CreatureTextHolder", "d7/d4c/a02165.html#aad09b58ddf486cb766cdeb242824cd2d", null ],
+    [ "CreatureTextMap", "d7/d4c/a02165.html#ac48698bcbe36b82577c41f42f3f23f09", null ],
+    [ "CreatureTextRepeatGroup", "d7/d4c/a02165.html#aa92b7ce1a721a3955751ae25cf01b22a", null ],
+    [ "CreatureTextRepeatIds", "d7/d4c/a02165.html#a4a74e5d0af63228e47e1f663570018ae", null ],
+    [ "CreatureTextRepeatMap", "d7/d4c/a02165.html#a919aeba9f103d29372eb10a72f3b1142", null ],
+    [ "LocaleCreatureTextMap", "d7/d4c/a02165.html#ab39b2d82775a84108d19ed009bd14747", null ],
+    [ "CreatureTextRange", "d7/d4c/a02165.html#adf847039afbebeda9e21210c1f4eb052", [
+      [ "TEXT_RANGE_NORMAL", "d7/d4c/a02165.html#adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab", null ],
+      [ "TEXT_RANGE_AREA", "d7/d4c/a02165.html#adf847039afbebeda9e21210c1f4eb052a1982e7a678f4ba541ea6ecbfec493385", null ],
+      [ "TEXT_RANGE_ZONE", "d7/d4c/a02165.html#adf847039afbebeda9e21210c1f4eb052a182bd5362916ba67bcf6660ce37fae0a", null ],
+      [ "TEXT_RANGE_MAP", "d7/d4c/a02165.html#adf847039afbebeda9e21210c1f4eb052a90bf8cfe8ac6e4bac224bd3dd9fbc3a3", null ],
+      [ "TEXT_RANGE_WORLD", "d7/d4c/a02165.html#adf847039afbebeda9e21210c1f4eb052a3a88078985d9e80a4543acf0acde52d9", null ]
+    ] ]
 ];

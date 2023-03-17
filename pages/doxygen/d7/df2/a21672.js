@@ -1,30 +1,6 @@
 var a21672 =
 [
-    [ "boss_mimironAI", "d7/df2/a21672.html#ae9407e6517ff2fbde9636bb15c50c7c9", null ],
-    [ "AttackStart", "d7/df2/a21672.html#aed52f33d004bdda17c827f6f84281729", null ],
-    [ "CloseDoorAndButton", "d7/df2/a21672.html#a0cc9b15d27b4044922407f86b8204974", null ],
-    [ "EnterCombat", "d7/df2/a21672.html#aef19de790f4fc7255f97c0011a244a90", null ],
-    [ "EnterEvadeMode", "d7/df2/a21672.html#a77bb8f1e55b02c6d0a663a775e0c1d45", null ],
-    [ "GetData", "d7/df2/a21672.html#a9ee30f2c623c77ce51268bd3c8df18b8", null ],
-    [ "JustReachedHome", "d7/df2/a21672.html#ad4276a2a0682f609d99d6c21f99c12e6", null ],
-    [ "JustSummoned", "d7/df2/a21672.html#aadc5321732dcc7b12f8ee08d6d569494", null ],
-    [ "MoveInLineOfSight", "d7/df2/a21672.html#a1463ccaf5c100483d17c11aa56b05cbf", null ],
-    [ "Reset", "d7/df2/a21672.html#a723600c1ad64a3a3fd48192a9468717a", null ],
-    [ "ResetGameObjects", "d7/df2/a21672.html#a8c4c6049b20eda44fd0def7fe05ac091", null ],
-    [ "SetData", "d7/df2/a21672.html#ac4b5548b4d4194b6f7ab9fafa507cc14", null ],
-    [ "SummonedCreatureDespawn", "d7/df2/a21672.html#a606b774346a9c2ab11015fc97eb74b01", null ],
-    [ "UpdateAI", "d7/df2/a21672.html#a1fd6e91c384920d83489f36abfeb078e", null ],
-    [ "allowedFlameSpreadTime", "d7/df2/a21672.html#a30f133ec2ec8a19081523e5da11ece04", null ],
-    [ "bAchievBombBot", "d7/df2/a21672.html#afcd749730b91e9bf9c18609d1f826b06", null ],
-    [ "bAchievProximityMine", "d7/df2/a21672.html#adf78855db6c7e8b96162e218a292bd13", null ],
-    [ "bAchievRocketStrike", "d7/df2/a21672.html#a188a391019d5ac51ce7ab26dc971caab", null ],
-    [ "berserk", "d7/df2/a21672.html#a06a05b4c3c6493c4f6297f44e10a8ae1", null ],
-    [ "bIsEvading", "d7/df2/a21672.html#a3e8b2adfea858ec123e66f8b9741ab98", null ],
-    [ "changeAllowedFlameSpreadTime", "d7/df2/a21672.html#ae04f0373493354a5980b5ea50d9409ab", null ],
-    [ "events", "d7/df2/a21672.html#af0dee99bc7185e817d75564e0b76e9a5", null ],
-    [ "hardmode", "d7/df2/a21672.html#a1eb10c00d45cdd3cbaa25702286fc996", null ],
-    [ "minutesTalkNum", "d7/df2/a21672.html#a29dd89128b245188606bbfdf04fd5e4f", null ],
-    [ "outofCombatTimer", "d7/df2/a21672.html#a3380ba554c0399317b4dd17ea61e1d61", null ],
-    [ "pInstance", "d7/df2/a21672.html#adacbe636f193dbce30f93d1747475d61", null ],
-    [ "summons", "d7/df2/a21672.html#a0a947b0a1115f32a262e5dd9b7e4744c", null ]
+    [ "OnPeriodic", "d7/df2/a21672.html#a714badb5b695e610823edbf3024b6a4a", null ],
+    [ "PrepareAuraScript", "d7/df2/a21672.html#a686fb8a0c2524bf4294dea521a40caca", null ],
+    [ "Register", "d7/df2/a21672.html#ad33099cc043d5204304673f363b5cf8e", null ]
 ];

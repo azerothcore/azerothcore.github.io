@@ -1,9 +1,6 @@
 var a19756 =
 [
-    [ "npc_icc_severed_essenceAI", "d9/d40/a19756.html#a76366c33ab9ec7aa291c0df657fbef68", null ],
-    [ "CanAIAttack", "d9/d40/a19756.html#a2cc2cfc967f9ad966d76571eb0eb630f", null ],
-    [ "DoAction", "d9/d40/a19756.html#a938af3a7de5b26432e1ad515a326a032", null ],
-    [ "UpdateAI", "d9/d40/a19756.html#a66e3324baa87ba109dd968a517ee82a5", null ],
-    [ "Class", "d9/d40/a19756.html#aa627713be3a2ac01336d158d96aaccc7", null ],
-    [ "events", "d9/d40/a19756.html#a1bab216925c4123d633d9613bb80365c", null ]
+    [ "npc_icc_skybreaker_luminaryAI", "d0/d46/a19760.html", "d0/d46/a19760" ],
+    [ "npc_icc_skybreaker_luminary", "d9/d40/a19756.html#aff97d0425cf86a8b411ef3e2bd0cc054", null ],
+    [ "GetAI", "d9/d40/a19756.html#ad1378aaa7438758f8a796d8e74ae0ce8", null ]
 ];

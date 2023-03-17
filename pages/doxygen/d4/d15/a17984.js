@@ -1,6 +1,7 @@
 var a17984 =
 [
-    [ "Cooldown", "d4/d15/a17984.html#ac2f21814be8269023a2069f3eb03dfe2", null ],
-    [ "Entry", "d4/d15/a17984.html#a28ff8bdab669f7b4aec95857cc460a2f", null ],
-    [ "TargetPosition", "d4/d15/a17984.html#ac47af49622012b4ad40357cadc5214b3", null ]
+    [ "ExtraEffect", "d4/d15/a17984.html#adb606ecee4525d6a62320d146e81775d", null ],
+    [ "PrepareAuraScript", "d4/d15/a17984.html#a25f1ff417139c8b24d7038a581c84918", null ],
+    [ "Register", "d4/d15/a17984.html#ac4f64b1a08bbd7f063383e05857e6f1b", null ],
+    [ "Validate", "d4/d15/a17984.html#a9c1e86fa8321e6d626a4ef5be2be6cb7", null ]
 ];

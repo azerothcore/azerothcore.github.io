@@ -1,6 +1,6 @@
 var a18212 =
 [
-    [ "HandleDummy", "d3/d4e/a18212.html#a0cbade5e48c3805952e726c9d3d3b1e4", null ],
-    [ "PrepareSpellScript", "d3/d4e/a18212.html#a211cd8e76872ee3c5599346c5d04dfc6", null ],
-    [ "Register", "d3/d4e/a18212.html#af02bd276839f3588be337e1f6516de5f", null ]
+    [ "spell_igb_incinerating_blast_SpellScript", "d0/d58/a18216.html", "d0/d58/a18216" ],
+    [ "spell_igb_incinerating_blast", "d3/d4e/a18212.html#ab0ae038b07a574d79248d40c1d5a2f09", null ],
+    [ "GetSpellScript", "d3/d4e/a18212.html#aa7668dddef0d2c9178e0c66501a94159", null ]
 ];

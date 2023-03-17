@@ -1,12 +1,17 @@
 var a06852 =
 [
-    [ "CapturePointInfo", "dd/dca/a06852.html#a8bd80d9a019a5579d32051c6c3f91c0b", null ],
-    [ "IsUncontrolled", "dd/dca/a06852.html#a4a4dbb61dd3ae83084ee518830fb7db0", null ],
-    [ "IsUnderControl", "dd/dca/a06852.html#a3f33897525f5104e2e7733dd6247c090", null ],
-    [ "IsUnderControl", "dd/dca/a06852.html#af6b021020b120b87c300981b8bb60992", null ],
-    [ "_areaTrigger", "dd/dca/a06852.html#aca64138e11e9e29a55bfedeee5b7e7ea", null ],
-    [ "_barStatus", "dd/dca/a06852.html#a02da5cc40ac6e97e63380d6f66e10d7e", null ],
-    [ "_ownerTeamId", "dd/dca/a06852.html#a5f0019635c5d05489f1ef97a95a7f01d", null ],
-    [ "_playersCount", "dd/dca/a06852.html#a7316d0eccaa25b9f30a39c48635e4c16", null ],
-    [ "player", "dd/dca/a06852.html#a97c5da6401e8423c1314ad1186e1dfeb", null ]
+    [ "BattlegroundAVScore", "dd/dca/a06852.html#a9208f91470836f0db1257d8d8ec1aaf0", null ],
+    [ "BuildObjectivesBlock", "dd/dca/a06852.html#a99fa0ee715145176d9e36ecc39ca2e12", null ],
+    [ "GetAttr1", "dd/dca/a06852.html#a3da772b4600475972574426a86670dd3", null ],
+    [ "GetAttr2", "dd/dca/a06852.html#ac72f50e8959e759d0c285a61967680dd", null ],
+    [ "GetAttr3", "dd/dca/a06852.html#a57f53d5fb681683749ff95767dd17c0e", null ],
+    [ "GetAttr4", "dd/dca/a06852.html#ae4cc7eb2b4bc79c0166e53567edfb205", null ],
+    [ "GetAttr5", "dd/dca/a06852.html#a13edee0d2da9b539eeab5d5d7a15dcc9", null ],
+    [ "UpdateScore", "dd/dca/a06852.html#aa598cf124232e7f7a8335efe527e20e1", null ],
+    [ "BattlegroundAV", "dd/dca/a06852.html#abb499401bd69b6a6d0c8365f36a70ad7", null ],
+    [ "GraveyardsAssaulted", "dd/dca/a06852.html#a17e5ba885b1dd8d4f4f1992b3503a31f", null ],
+    [ "GraveyardsDefended", "dd/dca/a06852.html#ae8d7e9ae9602be798937c1b562d9b305", null ],
+    [ "MinesCaptured", "dd/dca/a06852.html#a09038f1133996849064da1b09983be82", null ],
+    [ "TowersAssaulted", "dd/dca/a06852.html#a28b8aa5df57cea0b481edc5a0b8c490e", null ],
+    [ "TowersDefended", "dd/dca/a06852.html#aeb6175c1a67e6f55b6719bb879bd8b62", null ]
 ];

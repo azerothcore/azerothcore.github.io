@@ -1,6 +1,5 @@
 var a17492 =
 [
-    [ "npc_living_mojoAI", "df/d9d/a17496.html", "df/d9d/a17496" ],
-    [ "npc_living_mojo", "d4/d25/a17492.html#af24190023549b4ec5fa47b5959618a8a", null ],
-    [ "GetAI", "d4/d25/a17492.html#a2b8ca6e1b26debfafd74e022825c889e", null ]
+    [ "entry", "d4/d25/a17492.html#a44c7a625896d6fddc15da39988e0b042", null ],
+    [ "pathId", "d4/d25/a17492.html#accd6af0ddfa248a972612d802a1e641e", null ]
 ];

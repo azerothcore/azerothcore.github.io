@@ -1,6 +1,6 @@
 var a17092 =
 [
-    [ "entry", "d5/d58/a17092.html#a80e1510436336f4ed17748a06b27178d", null ],
-    [ "pathId", "d5/d58/a17092.html#a0b7e499d633e11b314852fb1154ea8e6", null ],
-    [ "startPosition", "d5/d58/a17092.html#ac8c0dd74d76778aa2f5948b5c8c5ada4", null ]
+    [ "spell_wailing_souls_periodic_AuraScript", "df/dd5/a17096.html", "df/dd5/a17096" ],
+    [ "spell_wailing_souls_periodic", "d5/d58/a17092.html#a0a94238eacacc59b92e37c358e0293c7", null ],
+    [ "GetAuraScript", "d5/d58/a17092.html#a2b770aab6874713a135c3ed2b2b65bcc", null ]
 ];

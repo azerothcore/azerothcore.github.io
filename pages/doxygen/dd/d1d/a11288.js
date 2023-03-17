@@ -1,6 +1,6 @@
 var a11288 =
 [
-    [ "boss_high_interrogator_gerstahnAI", "d1/dac/a11292.html", "d1/dac/a11292" ],
-    [ "boss_high_interrogator_gerstahn", "dd/d1d/a11288.html#a700eb542c041e9ca540f2676fc42aff9", null ],
-    [ "GetAI", "dd/d1d/a11288.html#ab4e92847a1ce6bf50f0ae460c1a7108f", null ]
+    [ "boss_draganthaurissanAI", "d1/dac/a11292.html", "d1/dac/a11292" ],
+    [ "boss_emperor_dagran_thaurissan", "dd/d1d/a11288.html#a8332d74b5aa1528d5687084932419ad1", null ],
+    [ "GetAI", "dd/d1d/a11288.html#aca2c4ca4e32ce75d95b42ddd88c4dc99", null ]
 ];

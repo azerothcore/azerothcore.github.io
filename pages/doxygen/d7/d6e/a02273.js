@@ -1,6 +1,5 @@
 var a02273 =
 [
-    [ "debug_commandscript", "d4/d9d/a10963.html", "d4/d9d/a10963" ],
-    [ "debug_commandscript::CreatureCountWorker", "d5/de3/a10967.html", "d5/de3/a10967" ],
-    [ "AddSC_debug_commandscript", "d7/d6e/a02273.html#abae44bbc8eb2fb66a5596017ea83583f", null ]
+    [ "bf_commandscript", "d4/dd7/a10980.html", "d4/dd7/a10980" ],
+    [ "AddSC_bf_commandscript", "d7/d6e/a02273.html#a55cfeb06fb5af5d31e3c2627d0db8da8", null ]
 ];

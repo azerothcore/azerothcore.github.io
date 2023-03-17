@@ -1,26 +1,7 @@
 var a11900 =
 [
-    [ "instance_molten_core_InstanceMapScript", "dc/d36/a11900.html#aac834ca3723fbe4cdba2d2813feb0451", null ],
-    [ "CheckMajordomoExecutus", "dc/d36/a11900.html#ae1a8863f382d142b1d8722065f20949e", null ],
-    [ "DoAction", "dc/d36/a11900.html#a0849a6d1a98b6c49cca7341f6341179c", null ],
-    [ "GetGuidData", "dc/d36/a11900.html#a644bfe3309b765ba8df750acdb81d496", null ],
-    [ "GetSaveData", "dc/d36/a11900.html#a83ffeeff62fba50483709478dc51a6fe", null ],
-    [ "Load", "dc/d36/a11900.html#ada6bc6d1274d56cf783f01b1d2429bca", null ],
-    [ "OnCreatureCreate", "dc/d36/a11900.html#ace732c2df084275ae3af76b612c1a098", null ],
-    [ "OnCreatureRemove", "dc/d36/a11900.html#af45a1eb74e5e59f98808d2a54ea00b0f", null ],
-    [ "OnGameObjectCreate", "dc/d36/a11900.html#aee70a5df7498eba0bba840870c0b5cf3", null ],
-    [ "OnPlayerEnter", "dc/d36/a11900.html#aaadc39f4b4032cc59105525ce6a7b6a8", null ],
-    [ "SetBossState", "dc/d36/a11900.html#a38a20534aeb08f52fbf6e57f49763bdd", null ],
-    [ "SummonMajordomoExecutus", "dc/d36/a11900.html#abee5c9c60893401fb5df17dbe2ccead9", null ],
-    [ "_cacheOfTheFirelordGUID", "dc/d36/a11900.html#a080decfc444d3d89f0334a76bfb5e757", null ],
-    [ "_circlesGUIDs", "dc/d36/a11900.html#ac87977d4b94ceccad965c00cab772cbe", null ],
-    [ "_garrGUID", "dc/d36/a11900.html#a44a6c18c9e1d279cfb16a087d1313845", null ],
-    [ "_golemaggGUID", "dc/d36/a11900.html#a42ba68922c644e8a3c752bdaefbadb57", null ],
-    [ "_golemaggMinionsGUIDS", "dc/d36/a11900.html#afe5ea95bd9fc8fa7e1d3d737bad8923c", null ],
-    [ "_lavaSplashGUID", "dc/d36/a11900.html#a7bdd42ce9cf698f6d78fde784ac0b32f", null ],
-    [ "_lavaSteamGUID", "dc/d36/a11900.html#aaa5552c50b504a3a3e2d5534840a52cf", null ],
-    [ "_magmadarGUID", "dc/d36/a11900.html#a2a46b6d841d988dce9c5e54b19a1967a", null ],
-    [ "_majordomoExecutusGUID", "dc/d36/a11900.html#a88215e741eec8be55882290de22f5c69", null ],
-    [ "_ragnarosGUID", "dc/d36/a11900.html#a8d512fa12205db57c322b0734b344717", null ],
-    [ "_runesGUIDs", "dc/d36/a11900.html#ae259af00a4f2a349795d08d969f93fe2", null ]
+    [ "HandleScript", "dc/d36/a11900.html#ac09c2c6b997c2a5fc0bee0ba0ea185ae", null ],
+    [ "PrepareSpellScript", "dc/d36/a11900.html#ad3c052a9bd00d04c954f85218dcfcb0a", null ],
+    [ "Register", "dc/d36/a11900.html#a8658c2c7e32a66e4a1bcc048406653bb", null ],
+    [ "Validate", "dc/d36/a11900.html#aa03795d909e24dfe2ccd12e431b2575e", null ]
 ];

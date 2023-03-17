@@ -1,7 +1,7 @@
 var a16692 =
 [
-    [ "HandleDispel", "dc/da9/a16692.html#ab720416f0497b4ad827208e186afd79a", null ],
-    [ "PrepareAuraScript", "dc/da9/a16692.html#a2f79b7869018b4a775c64c8d985d4a0c", null ],
-    [ "Register", "dc/da9/a16692.html#a26c918009fa3a3cf8b0145c2d2812588", null ],
-    [ "Validate", "dc/da9/a16692.html#a37964b313e11c1e14a7df4a1acb18c10", null ]
+    [ "npc_toc_enh_shamanAI", "dc/da9/a16692.html#ae1ef5395722e42660c1856d6faf52cbb", null ],
+    [ "myCanCast", "dc/da9/a16692.html#a8a38da4063a22361b25835a67f14ff52", null ],
+    [ "UpdateAI", "dc/da9/a16692.html#a4aa59b136b97859d15b39fd2fbbdf53d", null ],
+    [ "events", "dc/da9/a16692.html#adec973540bf3b046f54547fb845c06b1", null ]
 ];

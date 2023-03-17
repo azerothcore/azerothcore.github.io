@@ -1,6 +1,6 @@
 var a25888 =
 [
-    [ "spell_kaelthas_summon_nether_vapor_SpellScript", "d7/d3f/a25892.html", "d7/d3f/a25892" ],
-    [ "spell_kaelthas_summon_nether_vapor", "db/dad/a25888.html#ada9b4c4d8a4a5b3225466a9b075b532e", null ],
-    [ "GetSpellScript", "db/dad/a25888.html#a0aed56030a421f9f8ea51c4da5310077", null ]
+    [ "boss_gatewatcher_gyrokillAI", "d7/d3f/a25892.html", "d7/d3f/a25892" ],
+    [ "boss_gatewatcher_gyrokill", "db/dad/a25888.html#aaff742e7a9ae4969c18c6fb35d2bee0d", null ],
+    [ "GetAI", "db/dad/a25888.html#ab745f6e73234490168d2a8e323af0263", null ]
 ];

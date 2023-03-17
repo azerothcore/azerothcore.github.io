@@ -1,6 +1,7 @@
 var a15440 =
 [
-    [ "spell_mount_check_AuraScript", "d9/d1b/a15444.html", "d9/d1b/a15444" ],
-    [ "spell_mount_check", "db/dee/a15440.html#a1504dfdd0558fabfe5ae7ffaa1336c5f", null ],
-    [ "GetAuraScript", "db/dee/a15440.html#a276eed27e5bd98ddbe34069a5955fac1", null ]
+    [ "npc_aged_dying_ancient_kodoAI", "d9/d1b/a15444.html", "d9/d1b/a15444" ],
+    [ "npc_aged_dying_ancient_kodo", "db/dee/a15440.html#a676170a319d3a8e46c9d017e61396c28", null ],
+    [ "GetAI", "db/dee/a15440.html#a886bc82764e4ca6d98dc94ea73415375", null ],
+    [ "OnGossipHello", "db/dee/a15440.html#a8489b3f23d8eca39f2750711512672e4", null ]
 ];

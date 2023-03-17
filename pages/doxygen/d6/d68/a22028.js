@@ -1,6 +1,9 @@
 var a22028 =
 [
-    [ "npc_xt002_life_sparkAI", "d0/dd9/a22032.html", "d0/dd9/a22032" ],
-    [ "npc_xt002_life_spark", "d6/d68/a22028.html#a9644718d192708e391b833468a0ff21e", null ],
-    [ "GetAI", "d6/d68/a22028.html#a09a1ce332d55fad146947c94bb53f564", null ]
+    [ "npc_xt002_scrapbotAI", "d6/d68/a22028.html#a21be97bb49ff06ef090cbbe6f5006f56", null ],
+    [ "JustDied", "d6/d68/a22028.html#adcab192d017e6a9e8d103a6e8b91cb26", null ],
+    [ "MovementInform", "d6/d68/a22028.html#a48fd29d42280ae91852ef2ef0cecc8f6", null ],
+    [ "Reset", "d6/d68/a22028.html#aab71d2a49ee96e88a2858c07c455e78d", null ],
+    [ "UpdateAI", "d6/d68/a22028.html#ae2de6767f8ab502833971e4171d48c13", null ],
+    [ "_locked", "d6/d68/a22028.html#add3bfe992d635629ac7e07e04c4334c9", null ]
 ];

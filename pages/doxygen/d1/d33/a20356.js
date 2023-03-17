@@ -1,7 +1,5 @@
 var a20356 =
 [
-    [ "HandlePull", "d1/d33/a20356.html#ac63735118afa2a73c3063eed06dbe27b", null ],
-    [ "PrepareSpellScript", "d1/d33/a20356.html#af95d85b2e9c6c3311ad3db35614f076e", null ],
-    [ "Register", "d1/d33/a20356.html#a79593f1ffd54cc88f30ff3fb622dad65", null ],
-    [ "SelectTarget", "d1/d33/a20356.html#ade833bfc0f2520e817941a45c796c621", null ]
+    [ "achievement_intense_cold", "d1/d33/a20356.html#a2377357d6bfc03e5b91354428d3da3de", null ],
+    [ "OnCheck", "d1/d33/a20356.html#ab8a774af80a7fb1764df97c9eea57ffc", null ]
 ];

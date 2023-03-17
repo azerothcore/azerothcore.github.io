@@ -1,6 +1,6 @@
 var a25180 =
 [
-    [ "boss_ahuneAI", "dd/d51/a25184.html", "dd/d51/a25184" ],
-    [ "boss_ahune", "d6/da7/a25180.html#a56c20694e20f5ce0772bb31407e9588c", null ],
-    [ "GetAI", "d6/da7/a25180.html#ab340ea5e6b0cf4261469a364747694fe", null ]
+    [ "HandleApplyAura", "d6/da7/a25180.html#a030a2147851b74042241b0403f04ffe7", null ],
+    [ "PrepareSpellScript", "d6/da7/a25180.html#aed01a25d5e913331f3c76c72e3ed8bef", null ],
+    [ "Register", "d6/da7/a25180.html#a7d4abb7cb05aa8253d02a67073423482", null ]
 ];

@@ -1,7 +1,8 @@
 var a18752 =
 [
-    [ "HandleScript", "d5/de4/a18752.html#a33c7b297a132c63a6c2a1057104bf0d7", null ],
-    [ "PrepareSpellScript", "d5/de4/a18752.html#aefddb6594c4a0c473a43e83111adf4ab", null ],
-    [ "Register", "d5/de4/a18752.html#a3b42d4efc610164c5bffeeb6183d2634", null ],
-    [ "Validate", "d5/de4/a18752.html#afa88b9c2c3a1fcd1119a1b1e895b86b1", null ]
+    [ "CheckProc", "d5/de4/a18752.html#a195737908fd685418f01fd5cb3c5af92", null ],
+    [ "PrepareAuraScript", "d5/de4/a18752.html#a641ccd9be53fea5c5b7f827385f33090", null ],
+    [ "Register", "d5/de4/a18752.html#a3adfd6a54c890ea015ab730b6c3c8e7d", null ],
+    [ "Validate", "d5/de4/a18752.html#ae2d9739bad9567fa148871edc8fa60b3", null ],
+    [ "_lastMSTimeForSpell", "d5/de4/a18752.html#a7b3c1a7afb429cd3859ce39d3ad6dedb", null ]
 ];

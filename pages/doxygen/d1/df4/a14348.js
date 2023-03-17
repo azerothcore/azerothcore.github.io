@@ -1,7 +1,8 @@
 var a14348 =
 [
-    [ "GetVisualThrow", "d1/df4/a14348.html#afe59e0c21eaa06e2b1d614613b1d2f73", null ],
-    [ "HandleDummy", "d1/df4/a14348.html#adca1aacf89dcf452f1c98cae97f09690", null ],
-    [ "PrepareSpellScript", "d1/df4/a14348.html#a642f2d3992e7e3a4393d2b0c6b521597", null ],
-    [ "Register", "d1/df4/a14348.html#a68a6e9b307500a56e66bc19c41daf9dc", null ]
+    [ "OnApply", "d1/df4/a14348.html#aa38abcc9fa49fc2c397edbfff2c0ea0d", null ],
+    [ "OnRemove", "d1/df4/a14348.html#a64018d24a33565e615c6c2d3eb4810f8", null ],
+    [ "PrepareAuraScript", "d1/df4/a14348.html#acb57b284b9d9116b6b0c0a758e09a8d5", null ],
+    [ "Register", "d1/df4/a14348.html#a9cd1e664cb6ccec5dc897b586203faf1", null ],
+    [ "Validate", "d1/df4/a14348.html#a77ed6196af0fcf75c6d1071e236f6210", null ]
 ];

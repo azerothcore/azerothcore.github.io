@@ -1,8 +1,9 @@
 var a08608 =
 [
-    [ "CreatureWorker", "db/df0/a08608.html#a4b4dc219d034565cd83748c5f1cab2a5", null ],
-    [ "Visit", "db/df0/a08608.html#ae67044250380c521055f80c55de0bba5", null ],
-    [ "Visit", "db/df0/a08608.html#aa9a450b147aafe46a49135f5c5be668e", null ],
-    [ "i_do", "db/df0/a08608.html#ac22f86d9a41701e7527d4840da256f11", null ],
-    [ "i_phaseMask", "db/df0/a08608.html#adf514c89c894cdf2b44fc75d14c4f5b0", null ]
+    [ "GameObjectLastSearcher", "db/df0/a08608.html#a9f478f784f46fa502910f621f10238f2", null ],
+    [ "Visit", "db/df0/a08608.html#a2ba394a2da9f72c7621567092c175f0b", null ],
+    [ "Visit", "db/df0/a08608.html#a4298bd100890e61a34e827f96d70e752", null ],
+    [ "i_check", "db/df0/a08608.html#a06f8a6b33e26cdc17508198a9ee08f87", null ],
+    [ "i_object", "db/df0/a08608.html#a4573ba382a79a34f6c006b7c175f84f1", null ],
+    [ "i_phaseMask", "db/df0/a08608.html#a7130ecacc379e9f41779a8e0f422b32c", null ]
 ];

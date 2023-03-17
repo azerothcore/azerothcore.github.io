@@ -1,16 +1,12 @@
 var a24256 =
 [
-    [ "boss_ambassador_hellmawAI", "d6/d19/a24256.html#a6e0df6750bca28cca307e95a17681b88", null ],
-    [ "AttackStart", "d6/d19/a24256.html#ad62c9ba072af893e661b5b24ea5b0e4b", null ],
-    [ "DoAction", "d6/d19/a24256.html#abcfca739150333338a273ceb10fa17bc", null ],
-    [ "EnterCombat", "d6/d19/a24256.html#aa10c24effde8011ba701e7495e679ae4", null ],
-    [ "JustDied", "d6/d19/a24256.html#a90b040391443c359bbe9990016648de8", null ],
-    [ "KilledUnit", "d6/d19/a24256.html#a4d3d98c9f43e71a8bdc5d2d9673effcd", null ],
-    [ "MoveInLineOfSight", "d6/d19/a24256.html#a25bc061131ad8b19ef963dce82da31dc", null ],
-    [ "Reset", "d6/d19/a24256.html#a79ae99bd776e855aaff799c98e3b93b9", null ],
-    [ "UpdateAI", "d6/d19/a24256.html#a052b9b162a3cf1053e4b15726d3384da", null ],
-    [ "WaypointReached", "d6/d19/a24256.html#a1216ca4d65445972ea77264eb191de67", null ],
-    [ "events", "d6/d19/a24256.html#ab1e37e15b6e2b36a731dd68bd37e399c", null ],
-    [ "instance", "d6/d19/a24256.html#ac071433b6b955937644a1b686cd85be0", null ],
-    [ "isBanished", "d6/d19/a24256.html#a1343abeb9cead510a8872c2bdfdf96c7", null ]
+    [ "boss_talon_king_ikiss", "d6/d19/a24256.html#acf8cbda5f7a33c026bfc0d6e7b31f43c", null ],
+    [ "DamageTaken", "d6/d19/a24256.html#afe760d0fd1254b1b2b759c8ec9e03a5d", null ],
+    [ "JustDied", "d6/d19/a24256.html#ada1d993842d04453d6afad91e186a3fe", null ],
+    [ "JustEngagedWith", "d6/d19/a24256.html#a325312ce6695435fcca701720434c64f", null ],
+    [ "KilledUnit", "d6/d19/a24256.html#aff8f533b207b5c56b3028bcc0bacaa31", null ],
+    [ "MoveInLineOfSight", "d6/d19/a24256.html#ab13808b75b1ca79b856e5b2e64e67d89", null ],
+    [ "Reset", "d6/d19/a24256.html#adcb1dca375ec548499da5a7690babc21", null ],
+    [ "_manaShield", "d6/d19/a24256.html#a9823b0360eed5f596fcd599e4c00d22a", null ],
+    [ "_spoken", "d6/d19/a24256.html#a3e9e3a8575dbf21262ba2b4226182373", null ]
 ];

@@ -1,6 +1,6 @@
 var a22744 =
 [
-    [ "boss_cyanigosaAI", "d6/df9/a22748.html", "d6/df9/a22748" ],
-    [ "boss_cyanigosa", "d2/da0/a22744.html#a4db12e2fb873ad3595a437df09663a22", null ],
-    [ "GetAI", "d2/da0/a22744.html#a779c7c3a5f0002501361fa92fe14af69", null ]
+    [ "npc_frozen_orbAI", "d6/df9/a22748.html", "d6/df9/a22748" ],
+    [ "npc_frozen_orb", "d2/da0/a22744.html#ac14966722e39b2b6b3a907756701ed98", null ],
+    [ "GetAI", "d2/da0/a22744.html#a2f9e1a2cb14ee9e5f24e02aa97697116", null ]
 ];

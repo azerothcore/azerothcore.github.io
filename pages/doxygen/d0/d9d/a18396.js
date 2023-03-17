@@ -1,6 +1,6 @@
 var a18396 =
 [
-    [ "boss_professor_putricideAI", "d7/d96/a18400.html", "d7/d96/a18400" ],
-    [ "boss_professor_putricide", "d0/d9d/a18396.html#a80776dad5c0205aa6a98752f43e85e32", null ],
-    [ "GetAI", "d0/d9d/a18396.html#a7c84089d24bb0c77a5203884254e0925", null ]
+    [ "PrepareSpellScript", "d0/d9d/a18396.html#a36eba217756746e85dd6f36ecafd1773", null ],
+    [ "RecalculateDamage", "d0/d9d/a18396.html#adb184e0ad7c1628579d5a66bb188f98c", null ],
+    [ "Register", "d0/d9d/a18396.html#a8b188ae324cdec7a0e0fad910941ee49", null ]
 ];

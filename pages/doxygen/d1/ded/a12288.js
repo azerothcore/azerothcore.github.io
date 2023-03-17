@@ -1,6 +1,6 @@
 var a12288 =
 [
-    [ "HandleAfterCast", "d1/ded/a12288.html#aaf878b109e1d408d8dbda968aa7b4302", null ],
-    [ "PrepareSpellScript", "d1/ded/a12288.html#ae830f77e10235820fdb3bb8e4b0d8d02", null ],
-    [ "Register", "d1/ded/a12288.html#ada63b6f83436180d17046a71b268bcc6", null ]
+    [ "spell_karazhan_blink_SpellScript", "d8/d0a/a12292.html", "d8/d0a/a12292" ],
+    [ "spell_karazhan_blink", "d1/ded/a12288.html#a221220f450f2b4c5ccaedc4a1b4ea69c", null ],
+    [ "GetSpellScript", "d1/ded/a12288.html#a765472080720df4b4c8465e5749dec6a", null ]
 ];

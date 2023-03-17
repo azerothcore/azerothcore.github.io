@@ -1,6 +1,6 @@
 var a00317 =
 [
-    [ "Log", "db/d5b/a05007.html", "db/d5b/a05007" ],
+    [ "Log", "dc/d61/a05028.html", "dc/d61/a05028" ],
     [ "LOG_DEBUG", "da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161", null ],
     [ "LOG_ERROR", "da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9", null ],
     [ "LOG_EXCEPTION_FREE", "da/de0/a00317.html#aa30f9aa89655372730e1d6fec2e40c5e", null ],

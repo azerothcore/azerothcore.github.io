@@ -1,11 +1,12 @@
 var a09752 =
 [
-    [ "PetScript", "d0/d18/a09752.html#a3345c6e8c6417e3f52c3711cad5d79ae", null ],
-    [ "CanResetTalents", "d0/d18/a09752.html#ab4e5e0b19285573753ef6e9b7e8fd535", null ],
-    [ "CanUnlearnSpellDefault", "d0/d18/a09752.html#af150efd719bbb619df792ebc6705bb0a", null ],
-    [ "CanUnlearnSpellSet", "d0/d18/a09752.html#a84cba94813ffa26e1a245b814feb0349", null ],
-    [ "IsDatabaseBound", "d0/d18/a09752.html#a16fae7cdf068c6e3d9e46882548d4c20", null ],
-    [ "OnCalculateMaxTalentPointsForLevel", "d0/d18/a09752.html#a1263b06233902fbede9fc5df80cc8ad4", null ],
-    [ "OnInitStatsForLevel", "d0/d18/a09752.html#a65a33c4f374f2e9739680ad172118c26", null ],
-    [ "OnPetAddToWorld", "d0/d18/a09752.html#a3012323c5c1424512b611b6956a32554", null ]
+    [ "GroupScript", "d0/d18/a09752.html#acaf843a503b32ec7ab33a0924fa1b616", null ],
+    [ "CanGroupJoinBattlegroundQueue", "d0/d18/a09752.html#a931b4a94a2f95958579b37c0af6ece03", null ],
+    [ "IsDatabaseBound", "d0/d18/a09752.html#acb561e8a2d5b3542e228a7beb8122fbf", null ],
+    [ "OnAddMember", "d0/d18/a09752.html#adb279c4c0ba60ffea994f35cd7e91ad1", null ],
+    [ "OnChangeLeader", "d0/d18/a09752.html#a64a1441fd3db3f25236691efcff4a80b", null ],
+    [ "OnCreate", "d0/d18/a09752.html#a18973a7e5f260712f032ca1129d4a0bc", null ],
+    [ "OnDisband", "d0/d18/a09752.html#a3cb94966ba1d02180fb3e7cf95000e5f", null ],
+    [ "OnInviteMember", "d0/d18/a09752.html#a2ae925dc27708fdaa4d5909b582b77a7", null ],
+    [ "OnRemoveMember", "d0/d18/a09752.html#adf640b01746ee92fed31670ee5cc8d0f", null ]
 ];

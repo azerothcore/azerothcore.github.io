@@ -1,6 +1,6 @@
 var a16900 =
 [
-    [ "spell_novos_summon_minions_SpellScript", "d3/df9/a16904.html", "d3/df9/a16904" ],
-    [ "spell_novos_summon_minions", "d7/d98/a16900.html#a175ea410380f5046958839899481ee92", null ],
-    [ "GetSpellScript", "d7/d98/a16900.html#af7015aa5e2ae577c2b4b187531360877", null ]
+    [ "HandleDummy", "d7/d98/a16900.html#a14338e50f8015e5182d83d289cc5f528", null ],
+    [ "PrepareSpellScript", "d7/d98/a16900.html#a58bc3d2965f51576b0fcb2ff7d0847a1", null ],
+    [ "Register", "d7/d98/a16900.html#ab481e46f350a26921af4662d91399a70", null ]
 ];

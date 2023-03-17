@@ -1,6 +1,7 @@
 var a27568 =
 [
-    [ "CheckCast", "dc/d2f/a27568.html#a7fa12be149f0cb2202142d7f44cde0a6", null ],
-    [ "PrepareSpellScript", "dc/d2f/a27568.html#ad6867dad8bda358bd1479935c80b82e7", null ],
-    [ "Register", "dc/d2f/a27568.html#a0ab2f1f2a87db93e54dc883c4e53d7ba", null ]
+    [ "HandleScriptEffect", "dc/d2f/a27568.html#a3ad488a1b6115bb1ec8cfe6717d3b4cf", null ],
+    [ "Load", "dc/d2f/a27568.html#af89783564da25769be15e22291717f6a", null ],
+    [ "PrepareSpellScript", "dc/d2f/a27568.html#a1e7e4137712fcaa378d1ac7ff1b0a6c7", null ],
+    [ "Register", "dc/d2f/a27568.html#addbe722d9f3727578f817789e3010bab", null ]
 ];

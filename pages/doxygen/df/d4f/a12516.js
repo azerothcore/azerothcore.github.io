@@ -1,10 +1,8 @@
 var a12516 =
 [
-    [ "npc_scarlet_courierAI", "df/d4f/a12516.html#a83c5e32659d38a513790322e46dcc283", null ],
-    [ "EnterCombat", "df/d4f/a12516.html#af60bdf94861a2ead60deb7b61e405982", null ],
-    [ "MovementInform", "df/d4f/a12516.html#add19812d92d62b602f96ffc5fb513d6c", null ],
-    [ "Reset", "df/d4f/a12516.html#ab642188631b67ae5ff5fd312eaf37ff0", null ],
-    [ "UpdateAI", "df/d4f/a12516.html#ac37287a77e37785b606c742ff8d6eeeb", null ],
-    [ "uiStage", "df/d4f/a12516.html#a2f920922f8c6f1a878d0e4978e081257", null ],
-    [ "uiStage_timer", "df/d4f/a12516.html#a8ee22a276535a3a9c2f12a62e984d55b", null ]
+    [ "npc_scarlet_miner_cartAI", "df/d4f/a12516.html#a4256e3bc9f6678dc85a3b702e1c531f8", null ],
+    [ "DoAction", "df/d4f/a12516.html#a99ac60b1a60cc5f269aa7f02f3fd5083", null ],
+    [ "PassengerBoarded", "df/d4f/a12516.html#a3539847efa7014a8e31a78ace83b6bc5", null ],
+    [ "SetGUID", "df/d4f/a12516.html#a5679fef6f40d0e48547e7bd57a93a176", null ],
+    [ "minerGUID", "df/d4f/a12516.html#a084e80b43b5b30b5e1794feff305e9b3", null ]
 ];

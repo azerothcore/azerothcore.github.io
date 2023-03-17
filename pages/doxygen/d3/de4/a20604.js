@@ -1,6 +1,6 @@
 var a20604 =
 [
-    [ "spell_loken_pulsing_shockwave_SpellScript", "dd/d43/a20608.html", "dd/d43/a20608" ],
-    [ "spell_loken_pulsing_shockwave", "d3/de4/a20604.html#a02151186fe627a2da0d0576a0cbac0ed", null ],
-    [ "GetSpellScript", "d3/de4/a20604.html#a5cf81ce86ea77d7ce5d761e83f25a4f8", null ]
+    [ "boss_ionarAI", "dd/d43/a20608.html", "dd/d43/a20608" ],
+    [ "boss_ionar", "d3/de4/a20604.html#a284da7d86f0b386e352587e0321bf465", null ],
+    [ "GetAI", "d3/de4/a20604.html#a0c0f28f832458df7326842f04413af5d", null ]
 ];

@@ -1,7 +1,6 @@
 var a15860 =
 [
-    [ "npc_ahnkahar_nerubian", "da/d76/a15860.html#ae18cdf09bae50751e266e95caf165f8e", null ],
-    [ "Reset", "da/d76/a15860.html#a387831015ec8e4bc65cff8c8550bb176", null ],
-    [ "UpdateAI", "da/d76/a15860.html#a9a773127e4f94bcdf142718355eae0e8", null ],
-    [ "uiSprintTimer", "da/d76/a15860.html#a27a6f57a6b145cc595896d1ad453064f", null ]
+    [ "npc_weegli_blastfuseAI", "d0/d94/a15864.html", "d0/d94/a15864" ],
+    [ "npc_weegli_blastfuse", "da/d76/a15860.html#a2bf3b936e14c4cc0255f3109a35cb80f", null ],
+    [ "GetAI", "da/d76/a15860.html#a701681d8771756dac20d30c2e03a1349", null ]
 ];

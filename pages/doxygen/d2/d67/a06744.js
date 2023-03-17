@@ -1,7 +1,12 @@
 var a06744 =
 [
-    [ "BattlegroundObjectInfo", "d2/d67/a06744.html#a848f2b15f47ceeb91c40e916d5659486", null ],
-    [ "object", "d2/d67/a06744.html#a6722b83d6969c1a34b4846f19865075a", null ],
-    [ "spellid", "d2/d67/a06744.html#ae0233a1078bc735e40855ea7608f5f11", null ],
-    [ "timer", "d2/d67/a06744.html#a7eaf1fbe40f3a7918965da8d5ac81a50", null ]
+    [ "Arena", "d2/d67/a06744.html#a74f105bc709d4728fb07f1984abfd345", null ],
+    [ "AddPlayer", "d2/d67/a06744.html#ae24fe304d35c0c09379203135e936450", null ],
+    [ "CheckWinConditions", "d2/d67/a06744.html#a886b586f7ab6fc89d76e86cb811989b8", null ],
+    [ "EndBattleground", "d2/d67/a06744.html#a2be61602189b530a16a9ca954d180914", null ],
+    [ "FillInitialWorldStates", "d2/d67/a06744.html#a41e53f03488058fb635e42b525db5068", null ],
+    [ "HandleKillPlayer", "d2/d67/a06744.html#ae0a56f524bfc9eec6753874ce35d0466", null ],
+    [ "RemovePlayer", "d2/d67/a06744.html#ab5348b8bd4bfd58c01cdf61f16f72db1", null ],
+    [ "RemovePlayerAtLeave", "d2/d67/a06744.html#acae21233e11b21b612e5c051bfa7720e", null ],
+    [ "UpdateArenaWorldState", "d2/d67/a06744.html#a422925ee29e9a5f64aeb4264169ff2d6", null ]
 ];

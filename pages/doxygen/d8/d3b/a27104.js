@@ -1,6 +1,6 @@
 var a27104 =
 [
-    [ "CheckProc", "d8/d3b/a27104.html#af742bdfd97c9202d50ed7aa1cf8e7d49", null ],
-    [ "PrepareAuraScript", "d8/d3b/a27104.html#a255a58ad99059ba28ab09a94e7cc683a", null ],
-    [ "Register", "d8/d3b/a27104.html#a4ec4dd2342a5b75c975dc6ffe0b02b79", null ]
+    [ "HandleScript", "d8/d3b/a27104.html#aa6104370d5700e43223c7138e941ba05", null ],
+    [ "PrepareSpellScript", "d8/d3b/a27104.html#ae4177c84bf0c63aadaa7486603df04d0", null ],
+    [ "Register", "d8/d3b/a27104.html#a88a8534a1dd825a14fd6b10933986eb7", null ]
 ];

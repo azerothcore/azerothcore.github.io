@@ -1,6 +1,9 @@
 var a18004 =
 [
-    [ "npc_gunshipAI", "d5/d19/a18008.html", "d5/d19/a18008" ],
-    [ "npc_gunship", "d6/d1e/a18004.html#a86b3ba622bd6e606cd21f7c7d8dddd1b", null ],
-    [ "GetAI", "d6/d1e/a18004.html#adcd37802a2850f4ec8892f3495d5dc16", null ]
+    [ "npc_stinky_iccAI", "d6/d1e/a18004.html#a545356eb2b77cfae7af3d470e95ea2d6", null ],
+    [ "JustDied", "d6/d1e/a18004.html#a7fa392980e2d30c935b79377df8dc694", null ],
+    [ "JustEngagedWith", "d6/d1e/a18004.html#afd1cd4fc387ff7cdad58c9db60841c7a", null ],
+    [ "Reset", "d6/d1e/a18004.html#ac66e3398598576fdc889a7b56646eecf", null ],
+    [ "UpdateAI", "d6/d1e/a18004.html#af6e04824ea1682c529e8579a306d34ca", null ],
+    [ "events", "d6/d1e/a18004.html#a3ab7ae11b7f5ef5877febbd384014ce2", null ]
 ];

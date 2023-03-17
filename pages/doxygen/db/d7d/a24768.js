@@ -1,6 +1,7 @@
 var a24768 =
 [
-    [ "spell_illidari_council_empyreal_balance_SpellScript", "d6/d71/a24772.html", "d6/d71/a24772" ],
-    [ "spell_illidari_council_empyreal_balance", "db/d7d/a24768.html#aac4c429dd2f58cc0e9340ba11a40e2b3", null ],
-    [ "GetSpellScript", "db/d7d/a24768.html#aafb006b22ead0fd497a681c73e29187c", null ]
+    [ "boss_lady_malandeAI", "db/d7d/a24768.html#a03513a150eba610edf97c00303e26213", null ],
+    [ "AttackStart", "db/d7d/a24768.html#ab176d8313c9d28bf6d9814438f23f188", null ],
+    [ "JustEngagedWith", "db/d7d/a24768.html#a9d2fc7ca2c6a2fbbbd84e082e8ef93af", null ],
+    [ "UpdateAI", "db/d7d/a24768.html#a2aa5723eba0e8f42fe269e56070dcf80", null ]
 ];

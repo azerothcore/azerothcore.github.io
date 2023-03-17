@@ -1,10 +1,7 @@
 var a29412 =
 [
-    [ "guard_shattrath_scryerAI", "d7/d30/a29412.html#a97accbf467ca1190f8a05512b3857164", null ],
-    [ "Reset", "d7/d30/a29412.html#adfcd8bce42148d303fe6ec9b615ffdb1", null ],
-    [ "UpdateAI", "d7/d30/a29412.html#ad759cca08b0093522e190ddc038e2c73", null ],
-    [ "banishTimer", "d7/d30/a29412.html#aa9aa3c2e7e69df5899c84ebde1e357bd", null ],
-    [ "canTeleport", "d7/d30/a29412.html#a84188b40b44deae5714466bb23bf2f0d", null ],
-    [ "exileTimer", "d7/d30/a29412.html#a97fbc3f54c23049fd91ad432cd560698", null ],
-    [ "playerGUID", "d7/d30/a29412.html#adb40d8bbc97a6a1fa0f4e303db470db2", null ]
+    [ "npc_prof_leather", "d7/d30/a29412.html#a4a96f0c41a2a75ed26f52b1b0377c800", null ],
+    [ "HasLeatherSpecialty", "d7/d30/a29412.html#aefbf75b4109f8013335f36cd2d6e84de", null ],
+    [ "OnGossipHello", "d7/d30/a29412.html#a1a0dc1574c814af5e4f992c7fb199215", null ],
+    [ "OnGossipSelect", "d7/d30/a29412.html#afdf3a42c20903efd7f45ab0042f79de0", null ]
 ];

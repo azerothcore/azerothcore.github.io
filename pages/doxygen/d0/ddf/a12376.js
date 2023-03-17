@@ -1,6 +1,6 @@
 var a12376 =
 [
-    [ "boss_vexallusAI", "dc/d2a/a12380.html", "dc/d2a/a12380" ],
-    [ "boss_vexallus", "d0/ddf/a12376.html#aee8aed11a6db3425f272efed346d2f37", null ],
-    [ "GetAI", "d0/ddf/a12376.html#a11c5fa103ca67ba0c20b87d00649f862", null ]
+    [ "boss_warlord_salarisAI", "dc/d2a/a12380.html", "dc/d2a/a12380" ],
+    [ "boss_warlord_salaris", "d0/ddf/a12376.html#a1d544bb82782ab5e2eb7756dca281d8c", null ],
+    [ "GetAI", "d0/ddf/a12376.html#a8403a40634ec4cd987af773e577b86de", null ]
 ];

@@ -1,13 +1,9 @@
 var a05320 =
 [
-    [ "SOAPCommand", "dc/d0e/a05320.html#a56d5e1a4b0e3abb0284c668e175a8d4b", null ],
-    [ "~SOAPCommand", "dc/d0e/a05320.html#ab0a07da0bb379751d0d2812dfa98b607", null ],
-    [ "appendToPrintBuffer", "dc/d0e/a05320.html#a116d4a9d85c536ca3866bf340b64b9d9", null ],
-    [ "commandFinished", "dc/d0e/a05320.html#a18310d831429b084dc5cbf6310195001", null ],
-    [ "hasCommandSucceeded", "dc/d0e/a05320.html#a251a0999a4b74ca8db7bbaa634f1d361", null ],
-    [ "print", "dc/d0e/a05320.html#a69a3287df41392488dbcb1be2f0349f3", null ],
-    [ "setCommandSuccess", "dc/d0e/a05320.html#ae6849ecbf940ac2baf92f3b7ca3d6cd2", null ],
-    [ "finishedPromise", "dc/d0e/a05320.html#aec2e336644d004a59ad21431fbf80c83", null ],
-    [ "m_printBuffer", "dc/d0e/a05320.html#aa823e9c8d3048d5780b11d168f5be0d9", null ],
-    [ "m_success", "dc/d0e/a05320.html#aab7299bceae48c2066f1885b90a34c60", null ]
+    [ "AccountFlags", "dc/d0e/a05320.html#aa8e111f748d165f854b2deff5a81577f", null ],
+    [ "cmd", "dc/d0e/a05320.html#a5846630b9df94b9f4784e59e7f320257", null ],
+    [ "error", "dc/d0e/a05320.html#a5cbbda99be5cd0549dd43fc0e546007e", null ],
+    [ "LoginFlags", "dc/d0e/a05320.html#adb807963195c0abbb840aca64499f630", null ],
+    [ "M2", "dc/d0e/a05320.html#a2199b33bc93fb6a8add5ba36eab0514e", null ],
+    [ "SurveyId", "dc/d0e/a05320.html#ad05c428ccd8fbdce40dc4f337de19fb8", null ]
 ];

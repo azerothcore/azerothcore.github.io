@@ -1,6 +1,6 @@
 var a25200 =
 [
-    [ "instance_the_slave_pens_InstanceMapScript", "db/dfe/a25204.html", "db/dfe/a25204" ],
-    [ "instance_the_slave_pens", "df/d4f/a25200.html#a765f7b66ad3bed1828524ecb143742f2", null ],
-    [ "GetInstanceScript", "df/d4f/a25200.html#a0eedcecf1ddc27e139898cacf6f48965", null ]
+    [ "boss_ahuneAI", "db/dfe/a25204.html", "db/dfe/a25204" ],
+    [ "boss_ahune", "df/d4f/a25200.html#a56c20694e20f5ce0772bb31407e9588c", null ],
+    [ "GetAI", "df/d4f/a25200.html#ab340ea5e6b0cf4261469a364747694fe", null ]
 ];

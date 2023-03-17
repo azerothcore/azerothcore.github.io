@@ -1,13 +1,13 @@
 var a00821 =
 [
-    [ "WayPoint", "da/d2e/a05907.html", "da/d2e/a05907" ],
-    [ "SmartEvent", "db/da7/a05911.html", "db/da7/a05911" ],
-    [ "SmartAction", "d8/d7a/a06083.html", "d8/d7a/a06083" ],
-    [ "SmartTarget", "d6/dbd/a06515.html", "d6/dbd/a06515" ],
-    [ "SmartScriptHolder", "da/d7d/a06615.html", "da/d7d/a06615" ],
-    [ "ObjectGuidVector", "dc/d4f/a06619.html", "dc/d4f/a06619" ],
-    [ "SmartWaypointMgr", "d8/d4c/a06623.html", "d8/d4c/a06623" ],
-    [ "SmartAIMgr", "d4/d38/a06627.html", "d4/d38/a06627" ],
+    [ "WayPoint", "dc/dc3/a05932.html", "dc/dc3/a05932" ],
+    [ "SmartEvent", "d7/d35/a05936.html", "d7/d35/a05936" ],
+    [ "SmartAction", "d9/d60/a06108.html", "d9/d60/a06108" ],
+    [ "SmartTarget", "da/ddb/a06540.html", "da/ddb/a06540" ],
+    [ "SmartScriptHolder", "d3/db6/a06644.html", "d3/db6/a06644" ],
+    [ "ObjectGuidVector", "d2/d56/a06648.html", "d2/d56/a06648" ],
+    [ "SmartWaypointMgr", "d9/dd5/a06652.html", "d9/dd5/a06652" ],
+    [ "SmartAIMgr", "d4/d0a/a06656.html", "d4/d0a/a06656" ],
     [ "sSmartScriptMgr", "d6/d8b/a00821.html#a6fcbfe722a7e6345cf5c655c860d9ad3", null ],
     [ "sSmartWaypointMgr", "d6/d8b/a00821.html#a2f98805bdaae76c9a1c2b6ce9e815d84", null ],
     [ "ObjectVector", "d6/d8b/a00821.html#a3d080db7fa99da7af5bcaa7720f359d1", null ],
@@ -363,6 +363,7 @@ var a00821 =
       [ "SMART_TARGET_RANDOM_POINT", "d6/d8b/a00821.html#a20fbd4053053320ca4f2a803a09eb92eae2decb14c183638423dd925e9db928ed", null ],
       [ "SMART_TARGET_ROLE_SELECTION", "d6/d8b/a00821.html#a20fbd4053053320ca4f2a803a09eb92ea8ef1eee06daa7fa65fc8de074ed50546", null ],
       [ "SMART_TARGET_SUMMONED_CREATURES", "d6/d8b/a00821.html#a20fbd4053053320ca4f2a803a09eb92ea3c84bd8919f1955840a5ed45183026f8", null ],
+      [ "SMART_TARGET_INSTANCE_STORAGE", "d6/d8b/a00821.html#a20fbd4053053320ca4f2a803a09eb92eab90d059ceb3f4e2b7737cbb60b8d67a8", null ],
       [ "SMART_TARGET_AC_END", "d6/d8b/a00821.html#a20fbd4053053320ca4f2a803a09eb92eabc392ba55937eb7338456a2bbec325f7", null ]
     ] ],
     [ "SMARTAI_TEMPLATE", "d6/d8b/a00821.html#a191dc5b4a228fd0a252c021a8c3b1cf6", [

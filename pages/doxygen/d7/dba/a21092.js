@@ -1,5 +1,6 @@
 var a21092 =
 [
-    [ "go_ulduar_tower", "d7/dba/a21092.html#afc1add1a0543921f52afe1eb907f5de3", null ],
-    [ "OnDestroyed", "d7/dba/a21092.html#aa72ebefe52d49e5b07fb36232efd7e95", null ]
+    [ "npc_storm_beacon_spawnAI", "d1/db7/a21096.html", "d1/db7/a21096" ],
+    [ "npc_storm_beacon_spawn", "d7/dba/a21092.html#a0316646f43fd0ed6fe4576bf691116a0", null ],
+    [ "GetAI", "d7/dba/a21092.html#a780dd823962e259dbeda7089224aa23e", null ]
 ];

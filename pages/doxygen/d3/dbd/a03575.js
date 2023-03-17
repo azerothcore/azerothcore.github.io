@@ -1,37 +1,29 @@
 var a03575 =
 [
-    [ "HallsOfStoneScriptName", "d3/dbd/a03575.html#a9fc40bc4c1a59259e2da1d545d7841df", null ],
-    [ "Encounter", "d3/dbd/a03575.html#a64573ec9b8743a1169d84540f2ab9463", [
-      [ "BOSS_KRYSTALLUS", "d3/dbd/a03575.html#a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1", null ],
-      [ "BOSS_MAIDEN_OF_GRIEF", "d3/dbd/a03575.html#a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c", null ],
-      [ "BOSS_TRIBUNAL_OF_AGES", "d3/dbd/a03575.html#a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b", null ],
-      [ "BOSS_SJONNIR", "d3/dbd/a03575.html#a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7", null ],
-      [ "BRANN_BRONZEBEARD", "d3/dbd/a03575.html#a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c", null ],
-      [ "BRANN_DOOR", "d3/dbd/a03575.html#a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d", null ],
-      [ "MAX_ENCOUNTER", "d3/dbd/a03575.html#a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d", null ],
-      [ "DATA_BRANN_ACHIEVEMENT", "d3/dbd/a03575.html#a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e", null ],
-      [ "DATA_SJONNIR_ACHIEVEMENT", "d3/dbd/a03575.html#a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417", null ]
+    [ "DataHeader", "d3/dbd/a03575.html#a042491ef36459046f3866e90f15aae0d", null ],
+    [ "HallsOfLightningScriptName", "d3/dbd/a03575.html#aba51f7e18d1bf5bcc9ac3cce40574989", null ],
+    [ "HoLEvents", "d3/dbd/a03575.html#aefe92b165daab54a3444c2b628b30e3d", [
+      [ "TYPE_BJARNGRIM", "d3/dbd/a03575.html#aefe92b165daab54a3444c2b628b30e3da608e0501ee5efb86eaa345e411780421", null ],
+      [ "TYPE_IONAR", "d3/dbd/a03575.html#aefe92b165daab54a3444c2b628b30e3da59c88d60acb5b3ce493a62ec2c6b39a8", null ],
+      [ "TYPE_LOKEN", "d3/dbd/a03575.html#aefe92b165daab54a3444c2b628b30e3daea98d03c17066d22bf4213faf6e7ce37", null ],
+      [ "TYPE_VOLKHAN", "d3/dbd/a03575.html#aefe92b165daab54a3444c2b628b30e3dae4210212c84f56ef4d82bf8ea8827989", null ],
+      [ "TYPE_LOKEN_INTRO", "d3/dbd/a03575.html#aefe92b165daab54a3444c2b628b30e3dad8aa4deed6efe52d7977576c5372bb6b", null ],
+      [ "MAX_ENCOUNTER", "d3/dbd/a03575.html#aefe92b165daab54a3444c2b628b30e3da7913656ef56deb3793c0c5f3d999d80d", null ],
+      [ "DATA_BJARNGRIM_ACHIEVEMENT", "d3/dbd/a03575.html#aefe92b165daab54a3444c2b628b30e3daa53ad80b7b459e535100197347853cd0", null ],
+      [ "DATA_VOLKHAN_ACHIEVEMENT", "d3/dbd/a03575.html#aefe92b165daab54a3444c2b628b30e3da7e42579182aec175c25270808bec35b0", null ]
     ] ],
-    [ "gobjects", "d3/dbd/a03575.html#a90ca774f1a8c2c9c0ebb79f5980868b9", [
-      [ "GO_TRIBUNAL_CONSOLE", "d3/dbd/a03575.html#a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2", null ],
-      [ "GO_TRIBUNAL_ACCESS_DOOR", "d3/dbd/a03575.html#a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8", null ],
-      [ "GO_KADDRAK", "d3/dbd/a03575.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555", null ],
-      [ "GO_MARNAK", "d3/dbd/a03575.html#a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5", null ],
-      [ "GO_ABEDNEUM", "d3/dbd/a03575.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d", null ],
-      [ "GO_SKY_FLOOR", "d3/dbd/a03575.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f", null ],
-      [ "GO_SJONNIR_CONSOLE", "d3/dbd/a03575.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7", null ],
-      [ "GO_SJONNIR_DOOR", "d3/dbd/a03575.html#a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84", null ],
-      [ "GO_TRIBUNAL_CHEST", "d3/dbd/a03575.html#a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6", null ],
-      [ "GO_TRIBUNAL_CHEST_H", "d3/dbd/a03575.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55", null ],
-      [ "GO_LEFT_PIPE", "d3/dbd/a03575.html#a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370", null ],
-      [ "GO_RIGHT_PIPE", "d3/dbd/a03575.html#a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c", null ]
+    [ "HoLGOs", "d3/dbd/a03575.html#a32c56077197ba30bb4a0f7c7ed0e30ba", [
+      [ "GO_BJARNGRIM_DOOR", "d3/dbd/a03575.html#a32c56077197ba30bb4a0f7c7ed0e30baac1bbf7a6b906762c973aacbe8d096a4f", null ],
+      [ "GO_VOLKHAN_DOOR", "d3/dbd/a03575.html#a32c56077197ba30bb4a0f7c7ed0e30baa43791493fa131c96383129d276d9ebfc", null ],
+      [ "GO_IONAR_DOOR", "d3/dbd/a03575.html#a32c56077197ba30bb4a0f7c7ed0e30baa98de6bec77b9ffcc83fbe12864534b5a", null ],
+      [ "GO_LOKEN_DOOR", "d3/dbd/a03575.html#a32c56077197ba30bb4a0f7c7ed0e30baa8eab9585e6640e1543ecee2cfc2753c7", null ],
+      [ "GO_LOKEN_THRONE", "d3/dbd/a03575.html#a32c56077197ba30bb4a0f7c7ed0e30baa34f7d3fb54b571aef3f476e267de512a", null ]
     ] ],
-    [ "npcs", "d3/dbd/a03575.html#a7569620d66559dad194b4764f6faf235", [
-      [ "NPC_KADDRAK", "d3/dbd/a03575.html#a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad", null ],
-      [ "NPC_MARNAK", "d3/dbd/a03575.html#a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d", null ],
-      [ "NPC_ABEDNEUM", "d3/dbd/a03575.html#a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d", null ],
-      [ "NPC_SJONNIR", "d3/dbd/a03575.html#a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242", null ],
-      [ "NPC_BRANN", "d3/dbd/a03575.html#a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c", null ]
+    [ "HoLNPCs", "d3/dbd/a03575.html#a142cf2087e521648bd7ea9b7495afc85", [
+      [ "NPC_BJARNGRIM", "d3/dbd/a03575.html#a142cf2087e521648bd7ea9b7495afc85a90b60cbba2fea788c3a7d279124aac96", null ],
+      [ "NPC_VOLKHAN", "d3/dbd/a03575.html#a142cf2087e521648bd7ea9b7495afc85ad22174c12671fe5c85401bb03873d3f1", null ],
+      [ "NPC_IONAR", "d3/dbd/a03575.html#a142cf2087e521648bd7ea9b7495afc85ac505a17c17ad621b6be0363e7c51fe22", null ],
+      [ "NPC_LOKEN", "d3/dbd/a03575.html#a142cf2087e521648bd7ea9b7495afc85abf84dbe001b0bc7669edfe88687365f6", null ]
     ] ],
-    [ "GetHallsOfStoneAI", "d3/dbd/a03575.html#a856193f50a99a86279e43578f2b5ec0a", null ]
+    [ "GetHallsOfLightningAI", "d3/dbd/a03575.html#ae17388a1ba919f74b2068aafe1637537", null ]
 ];

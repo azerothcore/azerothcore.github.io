@@ -1,6 +1,6 @@
 var a27672 =
 [
-    [ "HandleDummy", "df/dad/a27672.html#a8b9510efa5af25ef698fc6eb49b19b69", null ],
-    [ "PrepareSpellScript", "df/dad/a27672.html#a80b89fbd2506191b897dcf367ff11500", null ],
-    [ "Register", "df/dad/a27672.html#a522730e5ba844728c0b3d6f423cd123a", null ]
+    [ "CheckProc", "df/dad/a27672.html#acac962ba1cb72615772fe8bc81d24f9d", null ],
+    [ "PrepareAuraScript", "df/dad/a27672.html#aebe1c8083ba09c21125c47843b2949da", null ],
+    [ "Register", "df/dad/a27672.html#adde6dada6b3012c2650ba9173c6616a0", null ]
 ];

@@ -1,6 +1,6 @@
 var a19252 =
 [
-    [ "spell_the_lich_king_trigger_vile_spirit_SpellScript", "d1/dfe/a19256.html", "d1/dfe/a19256" ],
-    [ "spell_the_lich_king_trigger_vile_spirit", "dd/d59/a19252.html#a875bb4a5e6bad99f06e2c04485cbda4d", null ],
-    [ "GetSpellScript", "dd/d59/a19252.html#a89f29a493a7be4bd17c59f46e3909404", null ]
+    [ "npc_icc_lk_checktargetAI", "d1/dfe/a19256.html", "d1/dfe/a19256" ],
+    [ "npc_icc_lk_checktarget", "dd/d59/a19252.html#a3a2cc943e731e472694dcb13417090da", null ],
+    [ "GetAI", "dd/d59/a19252.html#a2cd9a5c7fec791ba8786cf1bb5b7c8bd", null ]
 ];

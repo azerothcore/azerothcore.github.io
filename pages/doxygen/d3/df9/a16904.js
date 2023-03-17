@@ -1,6 +1,5 @@
 var a16904 =
 [
-    [ "HandleScript", "d3/df9/a16904.html#a54f27e1e44a1544c707f85d5cd13cfd3", null ],
-    [ "PrepareSpellScript", "d3/df9/a16904.html#a7bb10b15f9b119a4a641ac5752d84112", null ],
-    [ "Register", "d3/df9/a16904.html#ae55729616c2f819addee3db2ea53d3d2", null ]
+    [ "achievement_better_off_dred", "d3/df9/a16904.html#a1ff3442ab3e166a4001c4c10777bdf8a", null ],
+    [ "OnCheck", "d3/df9/a16904.html#a9aab68b43fbf9f3c71c237b149f23b2d", null ]
 ];

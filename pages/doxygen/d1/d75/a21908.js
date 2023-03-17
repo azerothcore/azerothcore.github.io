@@ -1,6 +1,6 @@
 var a21908 =
 [
-    [ "boss_thorim_pillarAI", "dd/daa/a21912.html", "dd/daa/a21912" ],
-    [ "boss_thorim_pillar", "d1/d75/a21908.html#a7a2cbafc1d359d7b33bb735342cdfe2d", null ],
-    [ "GetAI", "d1/d75/a21908.html#af95d5e819292af9b54a022674b74af70", null ]
+    [ "boss_thorim_lightning_orbAI", "dd/daa/a21912.html", "dd/daa/a21912" ],
+    [ "boss_thorim_lightning_orb", "d1/d75/a21908.html#a2aa29e8d2b3fb10e8be39d8fc3112ac2", null ],
+    [ "GetAI", "d1/d75/a21908.html#ad24d28866145c4fccf7a3971856fa87f", null ]
 ];

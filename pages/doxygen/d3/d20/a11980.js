@@ -1,6 +1,6 @@
 var a11980 =
 [
-    [ "boss_midnightAI", "da/d29/a11984.html", "da/d29/a11984" ],
-    [ "boss_midnight", "d3/d20/a11980.html#a237bd599437d03834a70bc8e1a016514", null ],
-    [ "GetAI", "d3/d20/a11980.html#a031a218bf482f83520e245e3afb20605", null ]
+    [ "instance_deadmines_InstanceMapScript", "da/d29/a11984.html", "da/d29/a11984" ],
+    [ "instance_deadmines", "d3/d20/a11980.html#a91ec4b9d2c4dcb3b8a2822431259bc08", null ],
+    [ "GetInstanceScript", "d3/d20/a11980.html#ac5cb65972d52324cedf662cc44dca626", null ]
 ];

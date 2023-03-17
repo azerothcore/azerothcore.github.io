@@ -1,5 +1,6 @@
 var a19448 =
 [
-    [ "achievement_portal_jockey", "d2/d9e/a19448.html#a6c6c4779072386ab7b64bad92762e2ac", null ],
-    [ "OnCheck", "d2/d9e/a19448.html#a2695b1fee353be7340f319c632a43efc", null ]
+    [ "spell_dreamwalker_summon_suppresser_AuraScript", "d3/dc4/a19452.html", "d3/dc4/a19452" ],
+    [ "spell_dreamwalker_summon_suppresser", "d2/d9e/a19448.html#a3fd10682f9a9c5a180a91e0728bc0db8", null ],
+    [ "GetAuraScript", "d2/d9e/a19448.html#a318fa3be05483c89ffcb0b5624372ff4", null ]
 ];

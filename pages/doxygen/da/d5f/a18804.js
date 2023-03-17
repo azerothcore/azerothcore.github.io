@@ -1,6 +1,6 @@
 var a18804 =
 [
-    [ "FilterTargets", "da/d5f/a18804.html#acb649b1e4c6dea2fe6863f64071c0f59", null ],
-    [ "PrepareSpellScript", "da/d5f/a18804.html#a9e940edd47c10176c877ffb290b140b4", null ],
-    [ "Register", "da/d5f/a18804.html#a0ad462c2f25fcdca4cfb2cc2930dc286", null ]
+    [ "FilterTargets", "da/d5f/a18804.html#ad044eb9e63eb147e5ea64408a611489e", null ],
+    [ "PrepareSpellScript", "da/d5f/a18804.html#addf06ce8b29374b925985e0656c8d73a", null ],
+    [ "Register", "da/d5f/a18804.html#ae8351cd6f679b9ca7ee763ceebef5f7e", null ]
 ];

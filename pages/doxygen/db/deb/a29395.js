@@ -1,7 +1,0 @@
-var a29395 =
-[
-    [ "go_soulwellAI", "db/deb/a29395.html#af8c28f9d3ddf5fa3591433268d14fc98", null ],
-    [ "GossipHello", "db/deb/a29395.html#a3df147478af8930d9b6108a183e9478f", null ],
-    [ "_stoneId", "db/deb/a29395.html#aa462a2a9150fe90d3207dfaad03c81a0", null ],
-    [ "_stoneSpell", "db/deb/a29395.html#a44cb7521acbc9b7679d3090cb07991d4", null ]
-];

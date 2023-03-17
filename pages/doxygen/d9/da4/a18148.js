@@ -1,6 +1,6 @@
 var a18148 =
 [
-    [ "PrepareSpellScript", "d9/da4/a18148.html#a6886fd2aad801c60db1ed57f7493ecaa", null ],
-    [ "Register", "d9/da4/a18148.html#a3e17f4d3eb5221dc76aabf47eb61a093", null ],
-    [ "SelectTarget", "d9/da4/a18148.html#aec6f3cfceef9a6b8cee34546f646c3f2", null ]
+    [ "spell_igb_gunship_fall_teleport_SpellScript", "df/dab/a18152.html", "df/dab/a18152" ],
+    [ "spell_igb_gunship_fall_teleport", "d9/da4/a18148.html#a33cc2cfca97b8921a4abea8d35598003", null ],
+    [ "GetSpellScript", "d9/da4/a18148.html#ac2b461de7cc49ee131bcd84adb8e0ca8", null ]
 ];
