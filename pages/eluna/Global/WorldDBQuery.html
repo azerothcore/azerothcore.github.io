@@ -69,7 +69,8 @@
     <div class='docblock'>
         <p>Executes a SQL query on the world database and returns an <a class="mod" href="../ElunaQuery/index.html">ElunaQuery</a>.</p>
 <p>The query is always executed synchronously
-  (i.e. execution halts until the query has finished and then results are returned).</p>
+  (i.e. execution halts until the query has finished and then results are returned).
+If you need to execute the query asynchronously, use <a class="fn" href="../Global/WorldDBQueryAsync.html">Global:WorldDBQueryAsync</a> instead.</p>
 <pre><code>local Q = WorldDBQuery("SELECT entry, name FROM creature_template LIMIT 10")
 if Q then
     repeat
