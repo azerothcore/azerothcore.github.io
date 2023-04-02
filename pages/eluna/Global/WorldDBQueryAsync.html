@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="API documentation for the Global:CharDBQuery method in the Eluna engine.">
+    <meta name="description" content="API documentation for the Global:WorldDBQueryAsync method in the Eluna engine.">
     <meta name="keywords" content="eluna, lua, lua engine, trinitycore, trinity, mangos, cmangos, script, scripting, doc, docs, documentation">
 
-    <title>Global:CharDBQuery - Eluna</title>
+    <title>Global:WorldDBQueryAsync - Eluna</title>
 
     <link rel="stylesheet" type="text/css" href="../static/main.css">
 
@@ -29,7 +29,7 @@
     <script src="sidebar.js"></script>
     <script>
       // Highlight current method by adding "current" class to it
-      var element = document.getElementById("Global:CharDBQuery");
+      var element = document.getElementById("Global:WorldDBQueryAsync");
       if (element) {
         var classname = "current";
         arr = element.className.split(" ");
@@ -56,7 +56,7 @@
 <section id='main' class="content mod">
     <h1 class='fqn'>
         Method
-    <a class="mod" href="../Global/index.html">Global</a>:<a class="fn" href="../Global/CharDBQuery.html">CharDBQuery</a>
+    <a class="mod" href="../Global/index.html">Global</a>:<a class="fn" href="../Global/WorldDBQueryAsync.html">WorldDBQueryAsync</a>
         <span class='out-of-band'>
             <span id='render-detail'>
                 <a id="collapse-all" href="#">[-]</a>
@@ -67,17 +67,25 @@
 
     
     <div class='docblock'>
-        <p>Executes a SQL query on the character database and returns an <a class="mod" href="../ElunaQuery/index.html">ElunaQuery</a>.</p>
-<p>The query is always executed synchronously
-  (i.e. execution halts until the query has finished and then results are returned).
-If you need to execute the query asynchronously, use <a class="fn" href="../Global/CharDBQueryAsync.html">Global:CharDBQueryAsync</a> instead.</p>
-<p>For an example see <a class="fn" href="../Global/WorldDBQuery.html">Global:WorldDBQuery</a>.</p>
+        <p>Executes an asynchronous SQL query on the world database and passes an <a class="mod" href="../ElunaQuery/index.html">ElunaQuery</a> to a callback function.</p>
+<p>The query is executed asynchronously
+  (i.e. the server keeps running while the query is executed in parallel, and results are passed to a callback function).
+If you need to execute the query synchronously, use <a class="fn" href="../Global/WorldDBQuery.html">Global:WorldDBQuery</a> instead.</p>
+<pre><code>WorldDBQueryAsync("SELECT entry, name FROM creature_template LIMIT 10", function(Q)
+    if Q then
+        repeat
+            local entry, name = Q:GetUInt32(0), Q:GetString(1)
+            print(entry, name)
+        until not Q:NextRow()
+    end
+end)
+</code></pre>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>results = CharDBQuery( sql )</code>
+            <code>WorldDBQueryAsync( sql )</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
@@ -94,10 +102,7 @@ If you need to execute the query asynchronously, use <a class="fn" href="../Glob
             <a href="#returns">Returns</a>
         </h2>
         <p>
-            <dl>
-                <dt><code><strong><a class="mod" href="../ElunaQuery/index.html">ElunaQuery</a></strong> results</code></dt>
-                <dd class="docblock"><em>See method description.</em></dd>
-            </dl>
+            Nothing.
         </p>
     </div>
 
