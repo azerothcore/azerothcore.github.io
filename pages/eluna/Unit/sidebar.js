@@ -17,6 +17,7 @@ document.write(`
   <a id="Unit:DealHeal" class="fn" href="../Unit/DealHeal.html">DealHeal</a>
   <a id="Unit:Dismount" class="fn" href="../Unit/Dismount.html">Dismount</a>
   <a id="Unit:EmoteState" class="fn" href="../Unit/EmoteState.html">EmoteState</a>
+  <a id="Unit:GetAttackers" class="fn" href="../Unit/GetAttackers.html">GetAttackers</a>
   <a id="Unit:GetAura" class="fn" href="../Unit/GetAura.html">GetAura</a>
   <a id="Unit:GetBaseSpellPower" class="fn" href="../Unit/GetBaseSpellPower.html">GetBaseSpellPower</a>
   <a id="Unit:GetCharmGUID" class="fn" href="../Unit/GetCharmGUID.html">GetCharmGUID</a>
@@ -54,6 +55,7 @@ document.write(`
   <a id="Unit:GetSpeed" class="fn" href="../Unit/GetSpeed.html">GetSpeed</a>
   <a id="Unit:GetStandState" class="fn" href="../Unit/GetStandState.html">GetStandState</a>
   <a id="Unit:GetStat" class="fn" href="../Unit/GetStat.html">GetStat</a>
+  <a id="Unit:GetThreatList" class="fn" href="../Unit/GetThreatList.html">GetThreatList</a>
   <a id="Unit:GetUnfriendlyUnitsInRange" class="fn" href="../Unit/GetUnfriendlyUnitsInRange.html">GetUnfriendlyUnitsInRange</a>
   <a id="Unit:GetVehicle" class="fn" href="../Unit/GetVehicle.html">GetVehicle</a>
   <a id="Unit:GetVehicleKit" class="fn" href="../Unit/GetVehicleKit.html">GetVehicleKit</a>
