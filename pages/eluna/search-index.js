@@ -809,6 +809,7 @@ searchIndex["Achievement"] = {
         [3, "DealHeal", "", "Makes the <a class=\"mod\" href=\"Unit/index.html\">Unit</a> heal the target <a class=\"mod\" href=\"Unit/index.html\">Unit</a> with given spell"],
         [3, "Dismount", "", "Dismounts the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>."],
         [3, "EmoteState", "", "Makes the <a class=\"mod\" href=\"Unit/index.html\">Unit</a> perform the given emote continuously."],
+        [3, "GetAttackers", "", "Returns the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>'s attackers."],
         [3, "GetAura", "", "Returns the <a class=\"mod\" href=\"Aura/index.html\">Aura</a> of the given spell entry on the <a class=\"mod\" href=\"Unit/index.html\">Unit</a> or nil."],
         [3, "GetBaseSpellPower", "", "Returns the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>'s base spell power"],
         [3, "GetCharmGUID", "", "Returns the GUID of the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>'s charmed entity."],

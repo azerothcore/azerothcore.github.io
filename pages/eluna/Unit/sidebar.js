@@ -17,6 +17,7 @@ document.write(`
   <a id="Unit:DealHeal" class="fn" href="../Unit/DealHeal.html">DealHeal</a>
   <a id="Unit:Dismount" class="fn" href="../Unit/Dismount.html">Dismount</a>
   <a id="Unit:EmoteState" class="fn" href="../Unit/EmoteState.html">EmoteState</a>
+  <a id="Unit:GetAttackers" class="fn" href="../Unit/GetAttackers.html">GetAttackers</a>
   <a id="Unit:GetAura" class="fn" href="../Unit/GetAura.html">GetAura</a>
   <a id="Unit:GetBaseSpellPower" class="fn" href="../Unit/GetBaseSpellPower.html">GetBaseSpellPower</a>
   <a id="Unit:GetCharmGUID" class="fn" href="../Unit/GetCharmGUID.html">GetCharmGUID</a>
