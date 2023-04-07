@@ -771,6 +771,24 @@ searchIndex["Achievement"] = {
         [3, "IsRepeatable", "", "Returns 'true' if the <a class=\"mod\" href=\"Quest/index.html\">Quest</a> is repeatable, false otherwise."],
     ],
     "paths": []
+};searchIndex["Roll"] = {
+    "items": [
+        [0, "", "Roll", ""],
+        [3, "GetItemCount", "", "Returns the rolled <a class=\"mod\" href=\"Item/index.html\">Item</a>'s count."],
+        [3, "GetItemGUID", "", "Returns the rolled <a class=\"mod\" href=\"Item/index.html\">Item</a>'s GUID."],
+        [3, "GetItemId", "", "Returns the rolled <a class=\"mod\" href=\"Item/index.html\">Item</a>'s entry."],
+        [3, "GetItemRandomPropId", "", "Returns the rolled <a class=\"mod\" href=\"Item/index.html\">Item</a>'s random property ID."],
+        [3, "GetItemRandomSuffix", "", "Returns the rolled <a class=\"mod\" href=\"Item/index.html\">Item</a>'s random suffix ID."],
+        [3, "GetItemSlot", "", "Returns the rolled <a class=\"mod\" href=\"Item/index.html\">Item</a>'s slot in the loot window."],
+        [3, "GetPlayerVote", "", "Returns the vote type for a <a class=\"mod\" href=\"Player/index.html\">Player</a> on this <a class=\"mod\" href=\"Roll/index.html\">Roll</a>. See <a class=\"fn\" href=\"Roll/GetPlayerVoteGUIDs.html\">Roll:GetPlayerVoteGUIDs</a> to obtain the GUIDs of the <a class=\"mod\" href=\"Player/index.html\">Player</a>s who rolled."],
+        [3, "GetPlayerVoteGUIDs", "", "Returns the GUIDs of the <a class=\"mod\" href=\"Player/index.html\">Player</a>s who rolled. See <a class=\"fn\" href=\"Roll/GetPlayerVote.html\">Roll:GetPlayerVote</a> to obtain the vote type of a <a class=\"mod\" href=\"Player/index.html\">Player</a>."],
+        [3, "GetRollVoteMask", "", "Returns the mask applied to this <a class=\"mod\" href=\"Roll/index.html\">Roll</a>."],
+        [3, "GetTotalGreed", "", "Returns the total number of players who rolled greed."],
+        [3, "GetTotalNeed", "", "Returns the total number of players who rolled need."],
+        [3, "GetTotalPass", "", "Returns the total number of players who passed."],
+        [3, "GetTotalPlayersRolling", "", "Returns the total number of players who rolled."],
+    ],
+    "paths": []
 };searchIndex["Spell"] = {
     "items": [
         [0, "", "Spell", "An instance of a spell, created when the spell is cast by a <a class=\"mod\" href=\"Unit/index.html\">Unit</a>."],
