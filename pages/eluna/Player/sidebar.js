@@ -78,6 +78,7 @@ document.write(`
   <a id="Player:GetOriginalSubGroup" class="fn" href="../Player/GetOriginalSubGroup.html">GetOriginalSubGroup</a>
   <a id="Player:GetPhaseMaskForSpawn" class="fn" href="../Player/GetPhaseMaskForSpawn.html">GetPhaseMaskForSpawn</a>
   <a id="Player:GetPlayerIP" class="fn" href="../Player/GetPlayerIP.html">GetPlayerIP</a>
+  <a id="Player:GetPlayerSettingValue" class="fn" href="../Player/GetPlayerSettingValue.html">GetPlayerSettingValue</a>
   <a id="Player:GetPureMaxSkillValue" class="fn" href="../Player/GetPureMaxSkillValue.html">GetPureMaxSkillValue</a>
   <a id="Player:GetPureSkillValue" class="fn" href="../Player/GetPureSkillValue.html">GetPureSkillValue</a>
   <a id="Player:GetQuestLevel" class="fn" href="../Player/GetQuestLevel.html">GetQuestLevel</a>
@@ -238,6 +239,7 @@ document.write(`
   <a id="Player:UnbindInstance" class="fn" href="../Player/UnbindInstance.html">UnbindInstance</a>
   <a id="Player:UnsetKnownTitle" class="fn" href="../Player/UnsetKnownTitle.html">UnsetKnownTitle</a>
   <a id="Player:UpdateHonor" class="fn" href="../Player/UpdateHonor.html">UpdateHonor</a>
+  <a id="Player:UpdatePlayerSetting" class="fn" href="../Player/UpdatePlayerSetting.html">UpdatePlayerSetting</a>
   <a id="Player:Whisper" class="fn" href="../Player/Whisper.html">Whisper</a>
   <a id="Player:Yell" class="fn" href="../Player/Yell.html">Yell</a>
 `);
