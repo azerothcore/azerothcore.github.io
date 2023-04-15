@@ -99,6 +99,7 @@ document.write(`
   <a id="Player:GetSubGroup" class="fn" href="../Player/GetSubGroup.html">GetSubGroup</a>
   <a id="Player:GetTeam" class="fn" href="../Player/GetTeam.html">GetTeam</a>
   <a id="Player:GetTotalPlayedTime" class="fn" href="../Player/GetTotalPlayedTime.html">GetTotalPlayedTime</a>
+  <a id="Player:GetTrader" class="fn" href="../Player/GetTrader.html">GetTrader</a>
   <a id="Player:GetXP" class="fn" href="../Player/GetXP.html">GetXP</a>
   <a id="Player:GetXPRestBonus" class="fn" href="../Player/GetXPRestBonus.html">GetXPRestBonus</a>
   <a id="Player:GiveXP" class="fn" href="../Player/GiveXP.html">GiveXP</a>
