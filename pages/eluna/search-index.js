@@ -612,6 +612,7 @@ searchIndex["Achievement"] = {
         [3, "GetSubGroup", "", "Returns <a class=\"mod\" href=\"Player/index.html\">Player</a>s current sub group"],
         [3, "GetTeam", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>s [TeamId]"],
         [3, "GetTotalPlayedTime", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>s total time played"],
+        [3, "GetTrader", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a> that is currently trading with this <a class=\"mod\" href=\"Player/index.html\">Player</a>"],
         [3, "GetXP", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>'s experience points"],
         [3, "GetXPRestBonus", "", "Returns rested experience bonus"],
         [3, "GiveXP", "", "Gives the <a class=\"mod\" href=\"Player/index.html\">Player</a> experience"],
