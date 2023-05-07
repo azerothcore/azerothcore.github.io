@@ -28,7 +28,6 @@ document.write(`
   <a id="Global:CreateLuaEvent" class="fn" href="../Global/CreateLuaEvent.html">CreateLuaEvent</a>
   <a id="Global:CreatePacket" class="fn" href="../Global/CreatePacket.html">CreatePacket</a>
   <a id="Global:CreateULongLong" class="fn" href="../Global/CreateULongLong.html">CreateULongLong</a>
-  <a id="Global:DBQueryAsync" class="fn" href="../Global/DBQueryAsync.html">DBQueryAsync</a>
   <a id="Global:GetActiveGameEvents" class="fn" href="../Global/GetActiveGameEvents.html">GetActiveGameEvents</a>
   <a id="Global:GetAreaName" class="fn" href="../Global/GetAreaName.html">GetAreaName</a>
   <a id="Global:GetCoreExpansion" class="fn" href="../Global/GetCoreExpansion.html">GetCoreExpansion</a>
