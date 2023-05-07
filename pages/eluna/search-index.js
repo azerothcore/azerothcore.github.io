@@ -242,7 +242,6 @@ searchIndex["Achievement"] = {
         [3, "CreateLuaEvent", "", "Registers a global timed event."],
         [3, "CreatePacket", "", "Creates a <a class=\"mod\" href=\"WorldPacket/index.html\">WorldPacket</a>."],
         [3, "CreateULongLong", "", "Returns an object representing an <code>unsigned long long</code> (64-bit) value."],
-        [3, "DBQueryAsync", "", ""],
         [3, "GetActiveGameEvents", "", "Returns the currently active game events."],
         [3, "GetAreaName", "", "Returns the area or zone's name."],
         [3, "GetCoreExpansion", "", "Returns emulator's supported expansion."],
