@@ -1,6 +1,6 @@
 var a00077 =
 [
-    [ "VMAP::MapRayCallback", "d5/dfd/a04680.html", "d5/dfd/a04680" ],
-    [ "VMAP::AreaInfoCallback", "d4/d70/a04684.html", "d4/d70/a04684" ],
-    [ "VMAP::LocationInfoCallback", "df/d72/a04688.html", "df/d72/a04688" ]
+    [ "VMAP::MapRayCallback", "d4/d7b/a04698.html", "d4/d7b/a04698" ],
+    [ "VMAP::AreaInfoCallback", "df/dd9/a04702.html", "df/dd9/a04702" ],
+    [ "VMAP::LocationInfoCallback", "d4/dc3/a04706.html", "d4/dc3/a04706" ]
 ];

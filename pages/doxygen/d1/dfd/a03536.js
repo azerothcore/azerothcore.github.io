@@ -12,8 +12,8 @@ var a03536 =
       [ "DATA_ANOMALUS_ORB", "d1/dfd/a03536.html#a31365a35c315c6cb485bcd31f5ba77fda7ca67e2df8f6c5ba3b64a58ffe838f79", null ],
       [ "DATA_ORMOROK_ORB", "d1/dfd/a03536.html#a31365a35c315c6cb485bcd31f5ba77fda04925ab93b3def016402fa3d6c763cb8", null ],
       [ "MAX_ENCOUNTERS", "d1/dfd/a03536.html#a31365a35c315c6cb485bcd31f5ba77fda9cfa5bdc17e1d5a590d300b530b36a25", null ],
-      [ "DATA_IKISSDOOREVENT", "de/de6/a03848.html#a31365a35c315c6cb485bcd31f5ba77fda4254e5b20964fa4c45d7bed553c3cb95", null ],
-      [ "TYPE_ANZU_ENCOUNTER", "de/de6/a03848.html#a31365a35c315c6cb485bcd31f5ba77fda7184f794bd903d92cba3eb6fa7297784", null ]
+      [ "DATA_IKISSDOOREVENT", "d3/d83/a03854.html#a31365a35c315c6cb485bcd31f5ba77fda4254e5b20964fa4c45d7bed553c3cb95", null ],
+      [ "TYPE_ANZU_ENCOUNTER", "d3/d83/a03854.html#a31365a35c315c6cb485bcd31f5ba77fda7184f794bd903d92cba3eb6fa7297784", null ]
     ] ],
     [ "Npcs", "d1/dfd/a03536.html#a213e9ce155baf17b6147afe6a069d54d", [
       [ "NPC_TM_GUARDSMAN", "d8/dbd/a03008.html#a213e9ce155baf17b6147afe6a069d54da21f261d22a0cd419e2febe6c2604502e", null ],
@@ -44,7 +44,21 @@ var a03536 =
       [ "GO_TELESTRA_SPHERE", "d1/dfd/a03536.html#a213e9ce155baf17b6147afe6a069d54da089f33ffb46bc05ba1c96f5a35945ee2", null ],
       [ "GO_ANOMALUS_SPHERE", "d1/dfd/a03536.html#a213e9ce155baf17b6147afe6a069d54da5cb804bef6d740c87c8d774813209b30", null ],
       [ "GO_ORMOROK_SPHERE", "d1/dfd/a03536.html#a213e9ce155baf17b6147afe6a069d54daf5b0aa3e69e1cde75a96eea26041c666", null ],
-      [ "NPC_FRAYER", "d8/d9b/a04067.html#a213e9ce155baf17b6147afe6a069d54da438be55c59b52858cbe88caa4441a8a7", null ]
+      [ "NPC_FRAYER", "db/d38/a04088.html#a213e9ce155baf17b6147afe6a069d54da438be55c59b52858cbe88caa4441a8a7", null ],
+      [ "NPC_NETHER_DRAKE", "d0/d08/a04277.html#a213e9ce155baf17b6147afe6a069d54dadbe6fe3be78684641974e1e7bb83bab9", null ],
+      [ "NPC_IRONWING", "d0/d08/a04277.html#a213e9ce155baf17b6147afe6a069d54da66d02c125fcaff2b92cee6086eb94b30", null ],
+      [ "NPC_DABIR", "d0/d08/a04277.html#a213e9ce155baf17b6147afe6a069d54da177a9970dc48b6b76efcc2b0598c66b1", null ],
+      [ "NPC_BRACK", "d0/d08/a04277.html#a213e9ce155baf17b6147afe6a069d54da3fbc05f4296e0da814e110a6f7b8f859", null ],
+      [ "NPC_IRENA", "d0/d08/a04277.html#a213e9ce155baf17b6147afe6a069d54daffc7cf7aa1ccedc3a6d74811746c273e", null ],
+      [ "NPC_AYREN", "d0/d08/a04277.html#a213e9ce155baf17b6147afe6a069d54da2643442342f258b423a515f080a54e20", null ],
+      [ "NPC_DRAGONHAWK", "d0/d08/a04277.html#a213e9ce155baf17b6147afe6a069d54dad754608fadc01b8aaa8f5213bd44d028", null ],
+      [ "NPC_VERONIA", "d0/d08/a04277.html#a213e9ce155baf17b6147afe6a069d54da7455fe95024a7c3ec5a2a0b797118b68", null ],
+      [ "NPC_DEESAK", "d0/d08/a04277.html#a213e9ce155baf17b6147afe6a069d54daa75ebebac153a89f56aff2b8b2b57175", null ],
+      [ "NPC_AFRASASTRASZ", "d0/d08/a04277.html#a213e9ce155baf17b6147afe6a069d54da0c50614f8ab3cf5c324844c5ee6854dd", null ],
+      [ "NPC_TARIOLSTRASZ", "d0/d08/a04277.html#a213e9ce155baf17b6147afe6a069d54da8fc1521a1fca503d0dd4cf7161f37eba", null ],
+      [ "NPC_TORASTRASZA", "d0/d08/a04277.html#a213e9ce155baf17b6147afe6a069d54dacfdeeefd98ee3bf9f455a6ecba6bfed4", null ],
+      [ "NPC_CESSA", "d0/d08/a04277.html#a213e9ce155baf17b6147afe6a069d54da2042123bafbd12c84f620c5191739652", null ],
+      [ "NPC_KIELAR", "d0/d08/a04277.html#a213e9ce155baf17b6147afe6a069d54daaf4a81698583de42ad4f1a6c3f11c094", null ]
     ] ],
     [ "GetNexusAI", "d1/dfd/a03536.html#a467643f2454a6fc20835ae836ff759b1", null ]
 ];

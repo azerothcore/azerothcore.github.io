@@ -1,8 +1,8 @@
 var a01679 =
 [
-    [ "ChaseRange", "d3/d98/a09340.html", "d3/d98/a09340" ],
-    [ "ChaseAngle", "d4/dad/a09344.html", "d4/dad/a09344" ],
-    [ "MotionMaster", "dd/d48/a09348.html", "dd/d48/a09348" ],
+    [ "ChaseRange", "de/d67/a09366.html", "de/d67/a09366" ],
+    [ "ChaseAngle", "d6/dc1/a09370.html", "d6/dc1/a09370" ],
+    [ "MotionMaster", "dd/d62/a09374.html", "dd/d62/a09374" ],
     [ "SPEED_CHARGE", "d2/d34/a01679.html#a6386d0a4b64b17a25a60627bb55b360c", null ],
     [ "VISUAL_WAYPOINT", "d2/d34/a01679.html#af0544189c7fc748059c3075861102b40", null ],
     [ "MMCleanFlag", "d2/d34/a01679.html#a1a14fe34f2e738c20bcc4e3c5cc71de5", [

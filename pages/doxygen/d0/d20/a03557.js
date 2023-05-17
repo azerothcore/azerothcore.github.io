@@ -68,6 +68,7 @@ var a03557 =
       [ "ACTION_STOP_LK_FIGHT", "de/dce/a03362.html#af5baa506e65b4caa6be6d1c6661dfe63a6d0545e70a620ef4e1b900fcb622ab57", null ],
       [ "ACTION_DELETE_ICE_WALL", "de/dce/a03362.html#af5baa506e65b4caa6be6d1c6661dfe63a4beba7db429c52083d439baa4da667ca", null ],
       [ "DATA_WAVE_NUMBER", "de/dce/a03362.html#af5baa506e65b4caa6be6d1c6661dfe63ac1747b726f5dc8f3d9fc3578da1a6bb4", null ],
+      [ "DATA_LK_BATTLE", "de/dce/a03362.html#af5baa506e65b4caa6be6d1c6661dfe63ab8e10ca903fb36c37526a471beb5119c", null ],
       [ "DATA_SLAD_RAN", "da/dfd/a03401.html#af5baa506e65b4caa6be6d1c6661dfe63a0afc5e23fa1345ffc7cda0020d520e84", null ],
       [ "DATA_MOORABI", "da/dfd/a03401.html#af5baa506e65b4caa6be6d1c6661dfe63a4d6384c29b6e14d0308fc0240c2afabe", null ],
       [ "DATA_DRAKKARI_COLOSSUS", "da/dfd/a03401.html#af5baa506e65b4caa6be6d1c6661dfe63a32975304248dc504bd8206a2e3a33d14", null ],
@@ -137,11 +138,14 @@ var a03557 =
       [ "DATA_EREKEM_GUARD_2_GUID", "dd/d2e/a03734.html#af5baa506e65b4caa6be6d1c6661dfe63a814d3c25fcbfae4755942da0fdab46c8", null ],
       [ "DATA_ICHORON_GUID", "dd/d2e/a03734.html#af5baa506e65b4caa6be6d1c6661dfe63a645f472e4ecb948295dc370099998113", null ],
       [ "DATA_ACHIEV", "dd/d2e/a03734.html#af5baa506e65b4caa6be6d1c6661dfe63a017589bf4c8a9c402a3a436adbd2a933", null ],
-      [ "DATA_HUNGARFEN", "db/de8/a03968.html#af5baa506e65b4caa6be6d1c6661dfe63a63e8f0e6b9b5b9a811bc5243e3237323", null ],
-      [ "DATA_GHAZAN", "db/de8/a03968.html#af5baa506e65b4caa6be6d1c6661dfe63a80a45b4f90bb001d27db8a0393b9c57e", null ],
-      [ "DATA_MUSELEK", "db/de8/a03968.html#af5baa506e65b4caa6be6d1c6661dfe63aefd434c651108b5f79a253b9a91d045d", null ],
-      [ "DATA_BLACK_STALKER", "db/de8/a03968.html#af5baa506e65b4caa6be6d1c6661dfe63a56ea641fde843aa83ff6f9bb73e308b3", null ],
-      [ "MAX_ENCOUNTERS", "db/de8/a03968.html#af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25", null ]
+      [ "DATA_HUNGARFEN", "dd/d27/a03989.html#af5baa506e65b4caa6be6d1c6661dfe63a63e8f0e6b9b5b9a811bc5243e3237323", null ],
+      [ "DATA_GHAZAN", "dd/d27/a03989.html#af5baa506e65b4caa6be6d1c6661dfe63a80a45b4f90bb001d27db8a0393b9c57e", null ],
+      [ "DATA_MUSELEK", "dd/d27/a03989.html#af5baa506e65b4caa6be6d1c6661dfe63aefd434c651108b5f79a253b9a91d045d", null ],
+      [ "DATA_BLACK_STALKER", "dd/d27/a03989.html#af5baa506e65b4caa6be6d1c6661dfe63a56ea641fde843aa83ff6f9bb73e308b3", null ],
+      [ "MAX_ENCOUNTERS", "dd/d27/a03989.html#af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25", null ],
+      [ "SETDATA_DATA", "d3/d14/a04046.html#af5baa506e65b4caa6be6d1c6661dfe63a7af1afa803e2e65c7ad4816425846f0f", null ],
+      [ "SETDATA_PEON_AGGRO", "d3/d14/a04046.html#af5baa506e65b4caa6be6d1c6661dfe63ac459bf0c49192437cef2dd734f71240c", null ],
+      [ "SETDATA_PEON_DEATH", "d3/d14/a04046.html#af5baa506e65b4caa6be6d1c6661dfe63aab321877541215b6f3f9fe6f083703bd", null ]
     ] ],
     [ "GOs", "d0/d20/a03557.html#a0e34bfee1d19a882b3f839910a0df5c5", [
       [ "GO_ELUNE_ALTAR", "d5/d73/a03203.html#a0e34bfee1d19a882b3f839910a0df5c5ab8819a90bc3dd0214db7840a3969485b", null ],
@@ -341,9 +345,9 @@ var a03557 =
       [ "NPC_SWEETBERRY_H", "d1/dd8/a03743.html#a6986ec7b2d3274669934af9795f26d5ca1fb3b8a3629edc351f33f35271e21b30", null ],
       [ "NPC_SILVER_COVENANT_GUARDIAN_MAGE", "d1/dd8/a03743.html#a6986ec7b2d3274669934af9795f26d5ca2d81e82f48df7ac39fe27346d739c0d8", null ],
       [ "NPC_SUNREAVER_GUARDIAN_MAGE", "d1/dd8/a03743.html#a6986ec7b2d3274669934af9795f26d5ca44024434b287b08d5f9f809096824f48", null ],
-      [ "NPC_HUNGARFEN", "db/de8/a03968.html#a6986ec7b2d3274669934af9795f26d5ca4c9741a2689d39ebbdbcdb4c62af6a51", null ],
-      [ "NPC_UNDERBOG_MUSHROOM", "db/de8/a03968.html#a6986ec7b2d3274669934af9795f26d5cae2a004a214013d7bcbb198034ba1663c", null ],
-      [ "NPC_GHAZAN", "db/de8/a03968.html#a6986ec7b2d3274669934af9795f26d5cadbdc51501c67d1a7a538089511849597", null ]
+      [ "NPC_HUNGARFEN", "dd/d27/a03989.html#a6986ec7b2d3274669934af9795f26d5ca4c9741a2689d39ebbdbcdb4c62af6a51", null ],
+      [ "NPC_UNDERBOG_MUSHROOM", "dd/d27/a03989.html#a6986ec7b2d3274669934af9795f26d5cae2a004a214013d7bcbb198034ba1663c", null ],
+      [ "NPC_GHAZAN", "dd/d27/a03989.html#a6986ec7b2d3274669934af9795f26d5cadbdc51501c67d1a7a538089511849597", null ]
     ] ],
     [ "OculusWorldStates", "d0/d20/a03557.html#a7002d594b5e2e99facc4d247af72e898", [
       [ "WORLD_STATE_CENTRIFUGE_CONSTRUCT_SHOW", "d0/d20/a03557.html#a7002d594b5e2e99facc4d247af72e898acf45b968157fcc12135e44db11f6b271", null ],

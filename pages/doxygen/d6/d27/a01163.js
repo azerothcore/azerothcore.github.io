@@ -1,11 +1,11 @@
 var a01163 =
 [
-    [ "TempSummonData", "d6/dcc/a07596.html", "d6/dcc/a07596" ],
-    [ "TempSummon", "d3/dc9/a07600.html", "d3/dc9/a07600" ],
-    [ "Minion", "d4/d3b/a07604.html", "d4/d3b/a07604" ],
-    [ "Guardian", "d4/d5f/a07608.html", "d4/d5f/a07608" ],
-    [ "Puppet", "da/d08/a07612.html", "da/d08/a07612" ],
-    [ "ForcedUnsummonDelayEvent", "d7/d0d/a07616.html", "d7/d0d/a07616" ],
+    [ "TempSummonData", "d5/dbe/a07622.html", "d5/dbe/a07622" ],
+    [ "TempSummon", "d7/d8d/a07626.html", "d7/d8d/a07626" ],
+    [ "Minion", "d2/d8c/a07630.html", "d2/d8c/a07630" ],
+    [ "Guardian", "d2/d7f/a07634.html", "d2/d7f/a07634" ],
+    [ "Puppet", "db/d7b/a07638.html", "db/d7b/a07638" ],
+    [ "ForcedUnsummonDelayEvent", "d6/da6/a07642.html", "d6/da6/a07642" ],
     [ "SummonerType", "d6/d27/a01163.html#ac8a8d6d0515f6d559068f8aaae56e188", [
       [ "SUMMONER_TYPE_CREATURE", "d6/d27/a01163.html#ac8a8d6d0515f6d559068f8aaae56e188a13183f62876c427760b46d785c8dba3a", null ],
       [ "SUMMONER_TYPE_GAMEOBJECT", "d6/d27/a01163.html#ac8a8d6d0515f6d559068f8aaae56e188aadd184039208a2f49a392958ca9a2347", null ],

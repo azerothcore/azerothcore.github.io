@@ -59,6 +59,7 @@ var a03686 =
       [ "ACTION_STOP_LK_FIGHT", "de/dce/a03362.html#af5baa506e65b4caa6be6d1c6661dfe63a6d0545e70a620ef4e1b900fcb622ab57", null ],
       [ "ACTION_DELETE_ICE_WALL", "de/dce/a03362.html#af5baa506e65b4caa6be6d1c6661dfe63a4beba7db429c52083d439baa4da667ca", null ],
       [ "DATA_WAVE_NUMBER", "de/dce/a03362.html#af5baa506e65b4caa6be6d1c6661dfe63ac1747b726f5dc8f3d9fc3578da1a6bb4", null ],
+      [ "DATA_LK_BATTLE", "de/dce/a03362.html#af5baa506e65b4caa6be6d1c6661dfe63ab8e10ca903fb36c37526a471beb5119c", null ],
       [ "DATA_SLAD_RAN", "da/dfd/a03401.html#af5baa506e65b4caa6be6d1c6661dfe63a0afc5e23fa1345ffc7cda0020d520e84", null ],
       [ "DATA_MOORABI", "da/dfd/a03401.html#af5baa506e65b4caa6be6d1c6661dfe63a4d6384c29b6e14d0308fc0240c2afabe", null ],
       [ "DATA_DRAKKARI_COLOSSUS", "da/dfd/a03401.html#af5baa506e65b4caa6be6d1c6661dfe63a32975304248dc504bd8206a2e3a33d14", null ],
@@ -128,11 +129,14 @@ var a03686 =
       [ "DATA_EREKEM_GUARD_2_GUID", "dd/d2e/a03734.html#af5baa506e65b4caa6be6d1c6661dfe63a814d3c25fcbfae4755942da0fdab46c8", null ],
       [ "DATA_ICHORON_GUID", "dd/d2e/a03734.html#af5baa506e65b4caa6be6d1c6661dfe63a645f472e4ecb948295dc370099998113", null ],
       [ "DATA_ACHIEV", "dd/d2e/a03734.html#af5baa506e65b4caa6be6d1c6661dfe63a017589bf4c8a9c402a3a436adbd2a933", null ],
-      [ "DATA_HUNGARFEN", "db/de8/a03968.html#af5baa506e65b4caa6be6d1c6661dfe63a63e8f0e6b9b5b9a811bc5243e3237323", null ],
-      [ "DATA_GHAZAN", "db/de8/a03968.html#af5baa506e65b4caa6be6d1c6661dfe63a80a45b4f90bb001d27db8a0393b9c57e", null ],
-      [ "DATA_MUSELEK", "db/de8/a03968.html#af5baa506e65b4caa6be6d1c6661dfe63aefd434c651108b5f79a253b9a91d045d", null ],
-      [ "DATA_BLACK_STALKER", "db/de8/a03968.html#af5baa506e65b4caa6be6d1c6661dfe63a56ea641fde843aa83ff6f9bb73e308b3", null ],
-      [ "MAX_ENCOUNTERS", "db/de8/a03968.html#af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25", null ]
+      [ "DATA_HUNGARFEN", "dd/d27/a03989.html#af5baa506e65b4caa6be6d1c6661dfe63a63e8f0e6b9b5b9a811bc5243e3237323", null ],
+      [ "DATA_GHAZAN", "dd/d27/a03989.html#af5baa506e65b4caa6be6d1c6661dfe63a80a45b4f90bb001d27db8a0393b9c57e", null ],
+      [ "DATA_MUSELEK", "dd/d27/a03989.html#af5baa506e65b4caa6be6d1c6661dfe63aefd434c651108b5f79a253b9a91d045d", null ],
+      [ "DATA_BLACK_STALKER", "dd/d27/a03989.html#af5baa506e65b4caa6be6d1c6661dfe63a56ea641fde843aa83ff6f9bb73e308b3", null ],
+      [ "MAX_ENCOUNTERS", "dd/d27/a03989.html#af5baa506e65b4caa6be6d1c6661dfe63a9cfa5bdc17e1d5a590d300b530b36a25", null ],
+      [ "SETDATA_DATA", "d3/d14/a04046.html#af5baa506e65b4caa6be6d1c6661dfe63a7af1afa803e2e65c7ad4816425846f0f", null ],
+      [ "SETDATA_PEON_AGGRO", "d3/d14/a04046.html#af5baa506e65b4caa6be6d1c6661dfe63ac459bf0c49192437cef2dd734f71240c", null ],
+      [ "SETDATA_PEON_DEATH", "d3/d14/a04046.html#af5baa506e65b4caa6be6d1c6661dfe63aab321877541215b6f3f9fe6f083703bd", null ]
     ] ],
     [ "Objects", "d4/d5e/a03686.html#a6095c54a56c4e904d4f4c3c8bb1456fd", [
       [ "GO_NEXUS_PLATFORM", "dd/d25/a03512.html#a6095c54a56c4e904d4f4c3c8bb1456fdaf7088dd52d3a6d96f1794432905c7d77", null ],

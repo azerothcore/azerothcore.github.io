@@ -1,29 +1,13 @@
 var a04505 =
 [
-    [ "Bank", "d5/d91/a04516.html", "d5/d91/a04516" ],
-    [ "Character", "d8/df9/a04517.html", "d8/df9/a04517" ],
-    [ "Chat", "d3/dae/a04518.html", "d3/dae/a04518" ],
-    [ "Combat", "d3/d83/a04520.html", "d3/d83/a04520" ],
-    [ "CombatLog", "d4/d04/a04519.html", "d4/d04/a04519" ],
-    [ "Guild", "d8/d4c/a04506.html", "d8/d4c/a04506" ],
-    [ "LFG", "de/dc5/a04521.html", "de/dc5/a04521" ],
-    [ "Misc", "d8/d1c/a04522.html", "d8/d1c/a04522" ],
-    [ "Pet", "d9/dbb/a04524.html", "d9/dbb/a04524" ],
-    [ "Strings", "d7/ddc/a04523.html", "d7/ddc/a04523" ],
-    [ "Totem", "dc/dc2/a04525.html", "dc/dc2/a04525" ],
-    [ "WorldState", "db/da2/a04526.html", "db/da2/a04526" ],
-    [ "Array", "df/d2d/a10272.html", "df/d2d/a10272" ],
-    [ "ClientPacket", "d0/da8/a09864.html", "d0/da8/a09864" ],
-    [ "CompactArray", "d1/dc5/a10276.html", "d1/dc5/a10276" ],
-    [ "IllegalHyperlinkException", "df/d3d/a10240.html", "df/d3d/a10240" ],
-    [ "InvalidHyperlinkException", "d4/da2/a10236.html", "d4/da2/a10236" ],
-    [ "InvalidStringValueException", "d5/d82/a10228.html", "d5/d82/a10228" ],
-    [ "InvalidUtf8ValueException", "d2/d81/a10232.html", "d2/d81/a10232" ],
-    [ "Packet", "d9/d97/a09856.html", "d9/d97/a09856" ],
-    [ "PacketArrayMaxCapacityException", "df/d69/a10268.html", "df/d69/a10268" ],
-    [ "ServerPacket", "d9/d75/a09860.html", "d9/d75/a09860" ],
-    [ "String", "dd/d54/a10264.html", "dd/d54/a10264" ],
-    [ "CheckCompactArrayMaskOverflow", "d7/d43/a04505.html#afb4909c8c4c13b14c8eceda2e9b4246d", null ],
-    [ "operator<<", "d7/d43/a04505.html#a82e35db0d6b671a4f4a581aac05828dc", null ],
-    [ "operator>>", "d7/d43/a04505.html#ab21e8e534a45a2a33d69cd11562a45c6", null ]
+    [ "anonymous_namespace{AddonMgr.cpp}", "d8/d4c/a04506.html", [
+      [ "SavedAddonsList", "d8/d4c/a04506.html#afa468163a23ed58507a89e5724c06eac", null ],
+      [ "m_bannedAddons", "d8/d4c/a04506.html#a83195dfb437a3f713fa0ccd6c24477ed", null ],
+      [ "m_knownAddons", "d8/d4c/a04506.html#a6cd3e278f71724491a7a3b8167eab60e", null ]
+    ] ],
+    [ "BannedAddonList", "d7/d43/a04505.html#a2ea3deb6be3c64b7b58ed27ccf60c779", null ],
+    [ "GetAddonInfo", "d7/d43/a04505.html#a65cb6a88902972060e44c57d7d9ec738", null ],
+    [ "GetBannedAddons", "d7/d43/a04505.html#ad7d0938e7463238a86e8c811e1a58800", null ],
+    [ "LoadFromDB", "d7/d43/a04505.html#aaa12f5b754e6b664dbfb2428478bee03", null ],
+    [ "SaveAddon", "d7/d43/a04505.html#a85021021149b7eb4d78cbe81e43d3d45", null ]
 ];

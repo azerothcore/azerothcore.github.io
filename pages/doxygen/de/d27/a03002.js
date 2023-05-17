@@ -1,7 +1,7 @@
 var a03002 =
 [
-    [ "boss_lieutenant_drake", "d4/d0a/a14808.html", "d4/d0a/a14808" ],
-    [ "boss_lieutenant_drake::boss_lieutenant_drakeAI", "d2/d74/a14812.html", "d2/d74/a14812" ],
+    [ "boss_lieutenant_drake", "d8/d80/a14842.html", "d8/d80/a14842" ],
+    [ "boss_lieutenant_drake::boss_lieutenant_drakeAI", "dc/d7b/a14846.html", "dc/d7b/a14846" ],
     [ "LieutenantDrake", "de/d27/a03002.html#a033aa2310e9320f7f70eebde8bad3f18", [
       [ "SAY_ENTER", "de/d27/a03002.html#a033aa2310e9320f7f70eebde8bad3f18abde0ca14c874b2c3317dd55732863028", null ],
       [ "SAY_AGGRO", "de/d27/a03002.html#a033aa2310e9320f7f70eebde8bad3f18a47c752fff069f3e55065795eef2a9bfe", null ],

@@ -1,16 +1,16 @@
 var a02033 =
 [
-    [ "WorldPackets::Misc::Weather", "d6/d23/a10176.html", "d6/d23/a10176" ],
-    [ "WorldPackets::Misc::LevelUpInfo", "d2/d42/a10180.html", "d2/d42/a10180" ],
-    [ "WorldPackets::Misc::PlayMusic", "d9/da3/a10184.html", "d9/da3/a10184" ],
-    [ "WorldPackets::Misc::PlayObjectSound", "d4/de7/a10188.html", "d4/de7/a10188" ],
-    [ "WorldPackets::Misc::Playsound", "d3/d1f/a10192.html", "d3/d1f/a10192" ],
-    [ "WorldPackets::Misc::RandomRollClient", "d0/d7e/a10196.html", "d0/d7e/a10196" ],
-    [ "WorldPackets::Misc::RandomRoll", "d6/d42/a10200.html", "d6/d42/a10200" ],
-    [ "WorldPackets::Misc::StartMirrorTimer", "d2/d77/a10204.html", "d2/d77/a10204" ],
-    [ "WorldPackets::Misc::PauseMirrorTimer", "dc/de2/a10208.html", "dc/de2/a10208" ],
-    [ "WorldPackets::Misc::StopMirrorTimer", "d1/daa/a10212.html", "d1/daa/a10212" ],
-    [ "WorldPackets::Misc::DurabilityDamageDeath", "d4/d29/a10216.html", "d4/d29/a10216" ],
-    [ "WorldPackets::Misc::CrossedInebriationThreshold", "d0/df4/a10220.html", "d0/df4/a10220" ],
-    [ "WorldPackets::Misc::UITime", "d1/dc1/a10224.html", "d1/dc1/a10224" ]
+    [ "WorldPackets::Misc::Weather", "d4/d86/a10202.html", "d4/d86/a10202" ],
+    [ "WorldPackets::Misc::LevelUpInfo", "db/d6a/a10206.html", "db/d6a/a10206" ],
+    [ "WorldPackets::Misc::PlayMusic", "da/d7f/a10210.html", "da/d7f/a10210" ],
+    [ "WorldPackets::Misc::PlayObjectSound", "d9/ddb/a10214.html", "d9/ddb/a10214" ],
+    [ "WorldPackets::Misc::Playsound", "d9/d16/a10218.html", "d9/d16/a10218" ],
+    [ "WorldPackets::Misc::RandomRollClient", "d3/d57/a10222.html", "d3/d57/a10222" ],
+    [ "WorldPackets::Misc::RandomRoll", "d9/d95/a10226.html", "d9/d95/a10226" ],
+    [ "WorldPackets::Misc::StartMirrorTimer", "d4/d7b/a10230.html", "d4/d7b/a10230" ],
+    [ "WorldPackets::Misc::PauseMirrorTimer", "d4/df3/a10234.html", "d4/df3/a10234" ],
+    [ "WorldPackets::Misc::StopMirrorTimer", "d4/dff/a10238.html", "d4/dff/a10238" ],
+    [ "WorldPackets::Misc::DurabilityDamageDeath", "de/db2/a10242.html", "de/db2/a10242" ],
+    [ "WorldPackets::Misc::CrossedInebriationThreshold", "db/d0e/a10246.html", "db/d0e/a10246" ],
+    [ "WorldPackets::Misc::UITime", "d6/d7b/a10250.html", "d6/d7b/a10250" ]
 ];

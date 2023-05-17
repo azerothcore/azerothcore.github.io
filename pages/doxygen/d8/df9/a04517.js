@@ -1,13 +1,8 @@
 var a04517 =
 [
-    [ "LogoutCancel", "dd/d44/a09908.html", "dd/d44/a09908" ],
-    [ "LogoutCancelAck", "d8/d97/a09912.html", "d8/d97/a09912" ],
-    [ "LogoutComplete", "d7/da7/a09904.html", "d7/da7/a09904" ],
-    [ "LogoutRequest", "d0/ded/a09896.html", "d0/ded/a09896" ],
-    [ "LogoutResponse", "dd/d11/a09900.html", "dd/d11/a09900" ],
-    [ "PlayedTime", "d5/d70/a09924.html", "d5/d70/a09924" ],
-    [ "PlayedTimeClient", "d6/dc0/a09920.html", "d6/dc0/a09920" ],
-    [ "PlayerLogout", "d6/db1/a09916.html", "d6/db1/a09916" ],
-    [ "ShowingCloak", "db/d25/a09888.html", "db/d25/a09888" ],
-    [ "ShowingHelm", "d6/dc0/a09892.html", "d6/dc0/a09892" ]
+    [ "DisableData", "db/d6b/a07386.html", "db/d6b/a07386" ],
+    [ "DisableMap", "d8/df9/a04517.html#a2b8dd8b0bc5f58e812c1bd969ee833d6", null ],
+    [ "DisableTypeMap", "d8/df9/a04517.html#a1dc7ac8fd11c81da83700d364483165a", null ],
+    [ "m_DisableMap", "d8/df9/a04517.html#a15af74f7cffff305a48d31529df515e7", null ],
+    [ "MAX_DISABLE_TYPES", "d8/df9/a04517.html#a55c2ff1d7d10ed3d5f30071472d692fb", null ]
 ];

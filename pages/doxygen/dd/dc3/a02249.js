@@ -1,7 +1,7 @@
 var a02249 =
 [
-    [ "CliCommandHolder", "d5/d78/a10940.html", "d5/d78/a10940" ],
-    [ "IWorld", "dd/d3a/a10944.html", "dd/d3a/a10944" ],
+    [ "CliCommandHolder", "d5/d44/a10966.html", "d5/d44/a10966" ],
+    [ "IWorld", "da/df4/a10970.html", "da/df4/a10970" ],
     [ "SessionMap", "dd/dc3/a02249.html#a24a95911e6375202b09db2333ec94fc1", null ],
     [ "Rates", "dd/dc3/a02249.html#a7ba5c3e6b385572c3bd751b6c9da9a20", [
       [ "RATE_HEALTH", "dd/dc3/a02249.html#a7ba5c3e6b385572c3bd751b6c9da9a20a8bdee348b397c9fbaa19c38d23814cb2", null ],
@@ -22,6 +22,7 @@ var a02249 =
       [ "RATE_DROP_ITEM_ARTIFACT", "dd/dc3/a02249.html#a7ba5c3e6b385572c3bd751b6c9da9a20aa7f70444bc45630f378911c786cfa273", null ],
       [ "RATE_DROP_ITEM_REFERENCED", "dd/dc3/a02249.html#a7ba5c3e6b385572c3bd751b6c9da9a20a78d75a41dcdfad082ca6d1565e088e8d", null ],
       [ "RATE_DROP_ITEM_REFERENCED_AMOUNT", "dd/dc3/a02249.html#a7ba5c3e6b385572c3bd751b6c9da9a20a198425b95cf4d6d365b9c9029ced406d", null ],
+      [ "RATE_DROP_ITEM_GROUP_AMOUNT", "dd/dc3/a02249.html#a7ba5c3e6b385572c3bd751b6c9da9a20ae3ffb86665168e80bdee28d1f7b3354c", null ],
       [ "RATE_SELLVALUE_ITEM_POOR", "dd/dc3/a02249.html#a7ba5c3e6b385572c3bd751b6c9da9a20a95ec5050ddcf7bc1bc50a245d818f24e", null ],
       [ "RATE_SELLVALUE_ITEM_NORMAL", "dd/dc3/a02249.html#a7ba5c3e6b385572c3bd751b6c9da9a20a54476e64f9d1e7c84d44ce5d016b4117", null ],
       [ "RATE_SELLVALUE_ITEM_UNCOMMON", "dd/dc3/a02249.html#a7ba5c3e6b385572c3bd751b6c9da9a20a9462c2609a755b6c1d2343f83b2a896a", null ],
@@ -174,6 +175,7 @@ var a02249 =
       [ "CONFIG_AUTOBROADCAST", "dd/dc3/a02249.html#a1b4b88c03b7d0124998b4c22e957baf0a132d73705f3887bf0bf4aff2eab4039f", null ],
       [ "CONFIG_ALLOW_TICKETS", "dd/dc3/a02249.html#a1b4b88c03b7d0124998b4c22e957baf0ae66cdd1548190a3dfebabaf61a07b3cc", null ],
       [ "CONFIG_DELETE_CHARACTER_TICKET_TRACE", "dd/dc3/a02249.html#a1b4b88c03b7d0124998b4c22e957baf0ad3fb7bdfc3943c3bcde3de9b000046df", null ],
+      [ "CONFIG_DBC_ENFORCE_ITEM_ATTRIBUTES", "dd/dc3/a02249.html#a1b4b88c03b7d0124998b4c22e957baf0ae5aebddf7caa04433a5cd71610d9c89f", null ],
       [ "CONFIG_PRESERVE_CUSTOM_CHANNELS", "dd/dc3/a02249.html#a1b4b88c03b7d0124998b4c22e957baf0a891735a66c7974b793f3fcb28c8cd3e8", null ],
       [ "CONFIG_PDUMP_NO_PATHS", "dd/dc3/a02249.html#a1b4b88c03b7d0124998b4c22e957baf0abf8d68780f13c449a6fa7114d871a631", null ],
       [ "CONFIG_PDUMP_NO_OVERWRITE", "dd/dc3/a02249.html#a1b4b88c03b7d0124998b4c22e957baf0a2270e96a0d3edc3ab4c540985a788d4e", null ],

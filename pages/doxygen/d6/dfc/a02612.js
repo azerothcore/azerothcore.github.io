@@ -1,7 +1,7 @@
 var a02612 =
 [
-    [ "boss_curator", "dc/df8/a12032.html", "dc/df8/a12032" ],
-    [ "boss_curator::boss_curatorAI", "d2/d7b/a12036.html", "d2/d7b/a12036" ],
+    [ "boss_curator", "d9/dc7/a12058.html", "d9/dc7/a12058" ],
+    [ "boss_curator::boss_curatorAI", "d5/d24/a12062.html", "d5/d24/a12062" ],
     [ "Curator", "d6/dfc/a02612.html#aa8cf55c40f0f52a8801c4098c167eb06", [
       [ "SAY_AGGRO", "d6/dfc/a02612.html#aa8cf55c40f0f52a8801c4098c167eb06a47c752fff069f3e55065795eef2a9bfe", null ],
       [ "SAY_SUMMON", "d6/dfc/a02612.html#aa8cf55c40f0f52a8801c4098c167eb06acebbfa1f13b8de4f039f5d550063c7bf", null ],

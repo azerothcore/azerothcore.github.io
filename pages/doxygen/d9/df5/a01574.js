@@ -1,11 +1,11 @@
 var a01574 =
 [
-    [ "MailSender", "d6/dc2/a09112.html", "d6/dc2/a09112" ],
-    [ "MailReceiver", "d3/d9f/a09116.html", "d3/d9f/a09116" ],
-    [ "MailDraft", "d3/db5/a09120.html", "d3/db5/a09120" ],
-    [ "MailItemInfo", "d8/d42/a09124.html", "d8/d42/a09124" ],
-    [ "Mail", "d7/dd2/a09128.html", "d7/dd2/a09128" ],
-    [ "ServerMail", "d6/d4b/a09132.html", "d6/d4b/a09132" ],
+    [ "MailSender", "d4/ddb/a09138.html", "d4/ddb/a09138" ],
+    [ "MailReceiver", "d3/d8c/a09142.html", "d3/d8c/a09142" ],
+    [ "MailDraft", "db/d8b/a09146.html", "db/d8b/a09146" ],
+    [ "MailItemInfo", "df/d4a/a09150.html", "df/d4a/a09150" ],
+    [ "Mail", "dc/d57/a09154.html", "dc/d57/a09154" ],
+    [ "ServerMail", "d2/dd7/a09158.html", "d2/dd7/a09158" ],
     [ "MAIL_BODY_ITEM_TEMPLATE", "d9/df5/a01574.html#a400524cb6bb97f3dfaa616a2afae05db", null ],
     [ "MAX_MAIL_ITEMS", "d9/df5/a01574.html#a92d79b5b2210d828abe28a8834a50770", null ],
     [ "MailItemInfoVec", "d9/df5/a01574.html#a5f97bcac5adeb0d52a6360c8aa0d0938", null ],

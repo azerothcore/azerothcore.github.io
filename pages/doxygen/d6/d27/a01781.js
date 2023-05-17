@@ -1,5 +1,5 @@
 var a01781 =
 [
-    [ "Movement::SplineBase", "de/d11/a09512.html", "de/d11/a09512" ],
-    [ "Movement::Spline< length_type >", "d1/d98/a09516.html", "d1/d98/a09516" ]
+    [ "Movement::SplineBase", "d7/dc0/a09538.html", "d7/dc0/a09538" ],
+    [ "Movement::Spline< length_type >", "df/d53/a09542.html", "df/d53/a09542" ]
 ];

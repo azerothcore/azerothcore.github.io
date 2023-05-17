@@ -1,6 +1,6 @@
 var a02615 =
 [
-    [ "boss_maiden_of_virtue", "dc/d61/a12040.html", "dc/d61/a12040" ],
+    [ "boss_maiden_of_virtue", "dd/d80/a12066.html", "dd/d80/a12066" ],
     [ "MaidenOfVirtue", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4b", [
       [ "SAY_AGGRO", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4ba47c752fff069f3e55065795eef2a9bfe", null ],
       [ "SAY_SLAY", "dc/dcf/a02615.html#af5ec2136588025056336fd1fcc8a3a4ba9e64f6e600dd42567d18006912811f75", null ],

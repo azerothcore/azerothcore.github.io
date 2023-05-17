@@ -1,8 +1,8 @@
 var a02792 =
 [
-    [ "LocationXYZ", "de/d04/a13376.html", "de/d04/a13376" ],
-    [ "npc_rinji", "da/d4d/a13380.html", "da/d4d/a13380" ],
-    [ "npc_rinji::npc_rinjiAI", "d9/df7/a13384.html", "d9/df7/a13384" ],
+    [ "LocationXYZ", "de/d6f/a13402.html", "de/d6f/a13402" ],
+    [ "npc_rinji", "d3/d83/a13406.html", "d3/d83/a13406" ],
+    [ "npc_rinji::npc_rinjiAI", "d2/dd5/a13410.html", "d2/dd5/a13410" ],
     [ "Rinji", "de/db6/a02792.html#ab769c87cc823749a5fe9cc0ed4f59133", [
       [ "SAY_RIN_BY_OUTRUNNER", "de/db6/a02792.html#ab769c87cc823749a5fe9cc0ed4f59133a3aaaf930cf9ab49ca1d76cc6ed5e766c", null ],
       [ "SAY_RIN_FREE", "de/db6/a02792.html#ab769c87cc823749a5fe9cc0ed4f59133a18a3ea60620bdbd5ef82292e56df01d3", null ],

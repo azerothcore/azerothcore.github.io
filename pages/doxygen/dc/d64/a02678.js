@@ -1,12 +1,12 @@
 var a02678 =
 [
-    [ "DelayedSummonEvent", "d5/dc3/a12580.html", "d5/dc3/a12580" ],
-    [ "npc_highlord_darion_mograine", "d3/d39/a12584.html", "d3/d39/a12584" ],
-    [ "npc_highlord_darion_mograine::npc_highlord_darion_mograineAI", "d8/d29/a12588.html", "d8/d29/a12588" ],
-    [ "spell_chapter5_light_of_dawn_aura", "db/d68/a12592.html", "db/d68/a12592" ],
-    [ "spell_chapter5_light_of_dawn_aura::spell_chapter5_light_of_dawn_aura_AuraScript", "d0/d15/a12596.html", "d0/d15/a12596" ],
-    [ "spell_chapter5_rebuke", "da/d53/a12600.html", "da/d53/a12600" ],
-    [ "spell_chapter5_rebuke::spell_chapter5_rebuke_SpellScript", "db/dd8/a12604.html", "db/dd8/a12604" ],
+    [ "DelayedSummonEvent", "d8/df3/a12606.html", "d8/df3/a12606" ],
+    [ "npc_highlord_darion_mograine", "df/d23/a12610.html", "df/d23/a12610" ],
+    [ "npc_highlord_darion_mograine::npc_highlord_darion_mograineAI", "d4/dbf/a12614.html", "d4/dbf/a12614" ],
+    [ "spell_chapter5_light_of_dawn_aura", "d3/d70/a12618.html", "d3/d70/a12618" ],
+    [ "spell_chapter5_light_of_dawn_aura::spell_chapter5_light_of_dawn_aura_AuraScript", "df/dba/a12622.html", "df/dba/a12622" ],
+    [ "spell_chapter5_rebuke", "da/d03/a12626.html", "da/d03/a12626" ],
+    [ "spell_chapter5_rebuke::spell_chapter5_rebuke_SpellScript", "d0/d06/a12630.html", "d0/d06/a12630" ],
     [ "LightOfDawnEncounter", "dc/d64/a02678.html#a9d3fb23b03c75ccf48d0a02856878cad", [
       [ "EVENT_START_COUNTDOWN_1", "dc/d64/a02678.html#a9d3fb23b03c75ccf48d0a02856878cadae5fdda4bd97547b50b9d420139dd4be8", null ],
       [ "EVENT_START_COUNTDOWN_2", "dc/d64/a02678.html#a9d3fb23b03c75ccf48d0a02856878cada2a24ce4fa104b38b9e180002ad67029b", null ],

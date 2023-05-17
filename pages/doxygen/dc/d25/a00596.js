@@ -1,6 +1,6 @@
 var a00596 =
 [
-    [ "CharacterDatabaseConnection", "d4/d15/a05404.html", "d4/d15/a05404" ],
+    [ "CharacterDatabaseConnection", "da/d27/a05422.html", "da/d27/a05422" ],
     [ "CharacterDatabaseStatements", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7", [
       [ "CHAR_DEL_QUEST_POOL_SAVE", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7a494e95a33cf6fd5a044ae914d78eba5f", null ],
       [ "CHAR_INS_QUEST_POOL_SAVE", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7ad81f4bf1ca36a95f1881b582d1a52f08", null ],

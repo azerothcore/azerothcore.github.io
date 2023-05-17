@@ -1,10 +1,38 @@
 var a02804 =
 [
-    [ "npc_deathstalker_erland", "d3/d47/a13428.html", "d3/d47/a13428" ],
-    [ "npc_deathstalker_erland::npc_deathstalker_erlandAI", "df/d95/a13432.html", "df/d95/a13432" ],
-    [ "pyrewood_ambush", "da/d04/a13436.html", "da/d04/a13436" ],
-    [ "pyrewood_ambush::pyrewood_ambushAI", "d1/df9/a13440.html", "d1/df9/a13440" ],
+    [ "npc_deathstalker_erland", "d9/d43/a13454.html", "d9/d43/a13454" ],
+    [ "npc_deathstalker_erland::npc_deathstalker_erlandAI", "d0/db9/a13458.html", "d0/db9/a13458" ],
+    [ "pyrewood_ambush", "d4/df0/a13462.html", "d4/df0/a13462" ],
+    [ "pyrewood_ambush::pyrewood_ambushAI", "d0/d4d/a13466.html", "d0/d4d/a13466" ],
+    [ "npc_ravenclaw_apparition", "d4/d7f/a13470.html", "d4/d7f/a13470" ],
+    [ "npc_ravenclaw_apparition::npc_ravenclaw_apparitionAI", "d8/dd2/a13474.html", "d8/dd2/a13474" ],
     [ "WAIT_SECS", "df/dd0/a02804.html#a9ad1ed098bd723cdee424425d0e071cb", null ],
+    [ "ApparitionEvents", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416", [
+      [ "EVENT_APPA_INTRO", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416acb7d83e4f63d87d9e07acd3fe790cf3f", null ],
+      [ "EVENT_APPA_SAY_1", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416a5a70df4d34c2d8566d6f1f2223da8358", null ],
+      [ "EVENT_APPA_SAY_2", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416aef4150f2e8b273cda80a22afb309dcbd", null ],
+      [ "EVENT_APPA_SAY_3", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416a50dff15dc08a087b69b6e1f3e759e873", null ],
+      [ "EVENT_APPA_SAY_4", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416aef8c0d8bbd31ac1280da5e1d047b090c", null ],
+      [ "EVENT_APPA_OUTRO", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416a282f4f3128aee30886a27079ebbadade", null ],
+      [ "EVENT_APPA_OUTRO_CROWD", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416a43a816ba27d12306c8859a065298090a", null ],
+      [ "EVENT_APPA_OUTRO_END", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416a67c26d38a1c04c6defc255ec84508341", null ]
+    ] ],
+    [ "ApparitionMisc", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3", [
+      [ "NPC_GNOLL_RUNNER", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3aa926c07b3e0e442ce56cd705d02adbb1", null ],
+      [ "NPC_GNOLL_MYSTIC", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3acd80c1eed7ee155c06297c43fe4ded15", null ],
+      [ "EMOTE_CHEER", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a91a471fc43ea92dee1d1ab4ee7792204", null ],
+      [ "EMOTE_GNOLL_CHEER", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a989ea1d9c4ed491fb34d5c665e00cd07", null ],
+      [ "SAY_APPA_INTRO", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a48c8c5efde4afd1945ded15985be957e", null ],
+      [ "SAY_APPA_OUTRO", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3aeaee8eb03b5ecc83ec4c4bce61234a14", null ],
+      [ "SAY_APPA_OPTION_1_1", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a7ce5157a61c4ae4a36c10e911838c759", null ],
+      [ "SAY_APPA_OPTION_1_2", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a09f22f871c7677ce21215036738e9599", null ],
+      [ "SAY_APPA_OPTION_1_3", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a7d6be30b7c3a5eaf04bb4faf64258f4c", null ],
+      [ "SAY_APPA_OPTION_1_4", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3ac5f229a48574f471bef97c854953dd56", null ],
+      [ "SAY_APPA_OPTION_2_1", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3ae47c4533188c68c14269a2ae1e03495a", null ],
+      [ "SAY_APPA_OPTION_2_2", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a906e509283cd756dd51d23385e635c52", null ],
+      [ "SAY_APPA_OPTION_2_3", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a500da27ff93fe5afe164b9cfadf8c97f", null ],
+      [ "SAY_APPA_OPTION_2_4", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a9c27b474b7cc468aa2d897347fb9ddab", null ]
+    ] ],
     [ "Erland", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117", [
       [ "SAY_QUESTACCEPT", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117ac55a400e0f3da4381ab1048e5115d2d7", null ],
       [ "SAY_START", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117a2eae21cbf7d110ee89a9798ef6f00239", null ],

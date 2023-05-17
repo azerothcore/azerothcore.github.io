@@ -1,7 +1,7 @@
 var a02129 =
 [
-    [ "CustomSpellValues", "d5/dc7/a10556.html", "d5/dc7/a10556" ],
-    [ "SpellImmune", "d1/d46/a10560.html", "d1/d46/a10560" ],
+    [ "CustomSpellValues", "df/d78/a10582.html", "df/d78/a10582" ],
+    [ "SpellImmune", "d3/dd6/a10586.html", "d3/dd6/a10586" ],
     [ "MAX_SPELLMOD", "db/d26/a02129.html#ae3264dd4fffa9d9f378061c12b25b991", null ],
     [ "CustomSpellValueMod", "db/d26/a02129.html#a9712a6b6a8f9f5f194085aed5e4ef7b4", null ],
     [ "SpellImmuneList", "db/d26/a02129.html#af3217da0ade707b636c550ca6a151251", null ],

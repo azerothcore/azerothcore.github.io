@@ -1,30 +1,23 @@
 var a03860 =
 [
-    [ "boss_murmur", "d8/d25/a24304.html", "d8/d25/a24304" ],
-    [ "boss_murmur::boss_murmurAI", "d2/dbf/a24308.html", "d2/dbf/a24308" ],
-    [ "spell_murmur_sonic_boom_effect", "d4/d88/a24312.html", "d4/d88/a24312" ],
-    [ "spell_murmur_sonic_boom_effect::spell_murmur_sonic_boom_effect_SpellScript", "d4/d1e/a24316.html", "d4/d1e/a24316" ],
-    [ "spell_murmur_thundering_storm", "dc/d04/a24320.html", "dc/d04/a24320" ],
-    [ "spell_murmur_thundering_storm::spell_murmur_thundering_storm_SpellScript", "d2/d1e/a24324.html", "d2/d1e/a24324" ],
-    [ "Murmur", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdb", [
-      [ "EMOTE_SONIC_BOOM", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdbaaf85560beac4309bd7674acafda9e6fe", null ],
-      [ "SPELL_RESONANCE", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdba5d4f2fa2643db3050fbc5b0bb6833af9", null ],
-      [ "SPELL_MAGNETIC_PULL", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdba3917f87779ff3a60876e0373a10855d5", null ],
-      [ "SPELL_SONIC_SHOCK", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdbab26e2aa5319cc3772bf33f1e0df9cdc2", null ],
-      [ "SPELL_THUNDERING_STORM", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdba5259acaa2031bd24c2137864dd770d76", null ],
-      [ "SPELL_SONIC_BOOM_CAST_N", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdba2677755b0d360f6c5a10b46e6878392b", null ],
-      [ "SPELL_SONIC_BOOM_CAST_H", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdba511aaf8cb2755d48955fc67a3b7393ea", null ],
-      [ "SPELL_SONIC_BOOM_EFFECT_N", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdba2c4ff6d3c4874840624b7e2110abc3e5", null ],
-      [ "SPELL_SONIC_BOOM_EFFECT_H", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdbaa4f15e568ffcfa22d34f74f96bbb57dc", null ],
-      [ "SPELL_MURMURS_TOUCH_N", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdbafca7d1b6ee42e635bfbb5fb280792147", null ],
-      [ "SPELL_MURMURS_TOUCH_H", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdba9afac0d80558f3d1e8da45919203e301", null ],
-      [ "EVENT_SPELL_SONIC_BOOM", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdba521e59bf97df02a59ecb4e7fcb01e9a4", null ],
-      [ "EVENT_SPELL_SONIC_BOOM_EFFECT", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdba4774b5eb66e5d27bda088218d0e0f855", null ],
-      [ "EVENT_SPELL_MURMURS_TOUCH", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdba4fde730db3107b548f47ab7ba45754d5", null ],
-      [ "EVENT_SPELL_RESONANCE", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdbaf399550e718b1be1fddf90383de953a5", null ],
-      [ "EVENT_SPELL_MAGNETIC", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdbac38271aa74c9544779c5fcf684893b4a", null ],
-      [ "EVENT_SPELL_THUNDERING", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdba10bd71bb5b2f56cba3f2ab123fcbd742", null ],
-      [ "EVENT_SPELL_SONIC_SHOCK", "db/d62/a03860.html#a9d326acfd111c13225ec89c516ee3bdba06a2e5e5a289c4876c8c033b13c7a2b9", null ]
+    [ "boss_blackheart_the_inciter", "d6/d35/a24306.html", "d6/d35/a24306" ],
+    [ "BlackheartTheInciter", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8", [
+      [ "SPELL_INCITE_CHAOS", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8a5e1ac33c7fbf31e632a6b7d122991f58", null ],
+      [ "SPELL_INCITE_CHAOS_B", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8ad39824970b373b4225010b0ddc8ef66f", null ],
+      [ "SPELL_CHARGE", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8a379cd345f5bd4f776413760e5e279963", null ],
+      [ "SPELL_WAR_STOMP", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8ab79970da263d22f87e8c192d563ac9e5", null ],
+      [ "SPELL_LAUGHTER", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8a29c5fb4170a680a3555a6cf180c5458d", null ],
+      [ "SAY_INTRO", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8af5bc3db04213b3bf118af6ce85b5a637", null ],
+      [ "SAY_AGGRO", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8a47c752fff069f3e55065795eef2a9bfe", null ],
+      [ "SAY_SLAY", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8a9e64f6e600dd42567d18006912811f75", null ],
+      [ "SAY_HELP", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8a13e3c4fbf4ffac2b5a7fc5c14d049293", null ],
+      [ "SAY_DEATH", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8a04c962d9b6aaafde54ff92a54369135e", null ],
+      [ "EVENT_SPELL_INCITE", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8aaf7395cf03b9fed37f1216ceb61b42d1", null ],
+      [ "EVENT_INCITE_WAIT", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8ac35d48fb639003a154660fa743bdc5f6", null ],
+      [ "EVENT_SPELL_CHARGE", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8ad052bc8e0d5d46e040bc846ad5826176", null ],
+      [ "EVENT_SPELL_KNOCKBACK", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8a40b45b950d3809871537221b6ecf54e4", null ],
+      [ "EVENT_SPELL_WAR_STOMP", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8abbbf0d45fb2b37365a5c8ba244290ef2", null ],
+      [ "NPC_INCITE_TRIGGER", "db/d62/a03860.html#a64b241cafb13db01113a5ff36be599f8a0fcbab58d501df4771df38afc41cf72b", null ]
     ] ],
-    [ "AddSC_boss_murmur", "db/d62/a03860.html#ac4b0a537cfe1e2e72571857069862bae", null ]
+    [ "AddSC_boss_blackheart_the_inciter", "db/d62/a03860.html#adb2eb2d091d5cc04f803066829d697bb", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Impl::StringConvertImpl Namespace Reference</title>
+<title>AzerothCore: Acore::Banner Namespace Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,29 +106,88 @@ $(document).ready(function(){initNavTree('d1/d73/a04476.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Impl::StringConvertImpl Namespace Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">Acore::Banner Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d61/a05212.html">For</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2d/a05220.html">For&lt; bool, void &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d94/a05224.html">For&lt; T, std::enable_if_t&lt; std::is_floating_point_v&lt; T &gt; &gt; &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2e/a05216.html">For&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt; &amp;&amp;!std::is_same_v&lt; T, bool &gt; &gt; &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:af6170962feecf3d126a80593221a357d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d73/a04476.html#af6170962feecf3d126a80593221a357d">Show</a> (std::string_view applicationName, void(*log)(std::string_view text), void(*logExtraInfo)())</td></tr>
+<tr class="separator:af6170962feecf3d126a80593221a357d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="af6170962feecf3d126a80593221a357d" name="af6170962feecf3d126a80593221a357d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6170962feecf3d126a80593221a357d">&#9670;&#160;</a></span>Show()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Acore::Banner::Show </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>applicationName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)(std::string_view text)&#160;</td>
+          <td class="paramname"><em>log</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)()&#160;</td>
+          <td class="paramname"><em>logExtraInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   23</span>{</div>
+<div class="line"><span class="lineno">   24</span>    log(<a class="code hl_function" href="../../d2/d22/a04473.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a>(<span class="stringliteral">&quot;{} ({})&quot;</span>, <a class="code hl_function" href="../../de/d37/a04488.html#ad68b75fc60314941c3cbade8eafcda23">GitRevision::GetFullVersion</a>(), applicationName));</div>
+<div class="line"><span class="lineno">   25</span>    log(<span class="stringliteral">&quot;&lt;Ctrl-C&gt; to stop.\n&quot;</span>);</div>
+<div class="line"><span class="lineno">   26</span>    log(<span class="stringliteral">&quot;   █████╗ ███████╗███████╗██████╗  ██████╗ ████████╗██╗  ██╗&quot;</span>);</div>
+<div class="line"><span class="lineno">   27</span>    log(<span class="stringliteral">&quot;  ██╔══██╗╚══███╔╝██╔════╝██╔══██╗██╔═══██╗╚══██╔══╝██║  ██║&quot;</span>);</div>
+<div class="line"><span class="lineno">   28</span>    log(<span class="stringliteral">&quot;  ███████║  ███╔╝ █████╗  ██████╔╝██║   ██║   ██║   ███████║&quot;</span>);</div>
+<div class="line"><span class="lineno">   29</span>    log(<span class="stringliteral">&quot;  ██╔══██║ ███╔╝  ██╔══╝  ██╔══██╗██║   ██║   ██║   ██╔══██║&quot;</span>);</div>
+<div class="line"><span class="lineno">   30</span>    log(<span class="stringliteral">&quot;  ██║  ██║███████╗███████╗██║  ██║╚██████╔╝   ██║   ██║  ██║&quot;</span>);</div>
+<div class="line"><span class="lineno">   31</span>    log(<span class="stringliteral">&quot;  ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝&quot;</span>);</div>
+<div class="line"><span class="lineno">   32</span>    log(<span class="stringliteral">&quot;                                 ██████╗ ██████╗ ██████╗ ███████╗&quot;</span>);</div>
+<div class="line"><span class="lineno">   33</span>    log(<span class="stringliteral">&quot;                                ██╔════╝██╔═══██╗██╔══██╗██╔════╝&quot;</span>);</div>
+<div class="line"><span class="lineno">   34</span>    log(<span class="stringliteral">&quot;                                ██║     ██║   ██║██████╔╝█████╗&quot;</span>);</div>
+<div class="line"><span class="lineno">   35</span>    log(<span class="stringliteral">&quot;                                ██║     ██║   ██║██╔══██╗██╔══╝&quot;</span>);</div>
+<div class="line"><span class="lineno">   36</span>    log(<span class="stringliteral">&quot;                                ╚██████╗╚██████╔╝██║  ██║███████╗&quot;</span>);</div>
+<div class="line"><span class="lineno">   37</span>    log(<span class="stringliteral">&quot;                                 ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝\n&quot;</span>);</div>
+<div class="line"><span class="lineno">   38</span>    log(<span class="stringliteral">&quot;     AzerothCore 3.3.5a  -  www.azerothcore.org\n&quot;</span>);</div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>    <span class="keywordflow">if</span> (logExtraInfo)</div>
+<div class="line"><span class="lineno">   41</span>    {</div>
+<div class="line"><span class="lineno">   42</span>        logExtraInfo();</div>
+<div class="line"><span class="lineno">   43</span>    }</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>    log(<span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   46</span>}</div>
+<div class="ttc" id="aa04473_html_a07b6432e111b17b737269191d9557f20"><div class="ttname"><a href="../../d2/d22/a04473.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a></div><div class="ttdeci">std::string StringFormatFmt(std::string_view fmt, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> StringFormat.h:44</div></div>
+<div class="ttc" id="aa04488_html_ad68b75fc60314941c3cbade8eafcda23"><div class="ttname"><a href="../../de/d37/a04488.html#ad68b75fc60314941c3cbade8eafcda23">GitRevision::GetFullVersion</a></div><div class="ttdeci">AC_COMMON_API char const * GetFullVersion()</div><div class="ttdef"><b>Definition:</b> GitRevision.cpp:70</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00070">GitRevision::GetFullVersion()</a>, and <a class="el" href="../../#l00044">Acore::StringFormatFmt()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00069">main()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d1/d2d/a04455.html">Acore</a></li><li class="navelem"><a class="el" href="../../dd/d3c/a04466.html">Impl</a></li><li class="navelem"><a class="el" href="../../d1/d73/a04476.html">StringConvertImpl</a></li>
-    <li class="footer">Generated on Fri Mar 17 2023 04:05:50 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../d2/d22/a04473.html">Acore</a></li><li class="navelem"><a class="el" href="../../d1/d73/a04476.html">Banner</a></li>
+    <li class="footer">Generated on Wed May 17 2023 23:06:32 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

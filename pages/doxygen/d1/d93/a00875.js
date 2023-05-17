@@ -1,8 +1,8 @@
 var a00875 =
 [
-    [ "ArenaTeamMember", "d3/db4/a06756.html", "d3/db4/a06756" ],
-    [ "ArenaTeamStats", "d0/d90/a06760.html", "d0/d90/a06760" ],
-    [ "ArenaTeam", "d2/d98/a06764.html", "d2/d98/a06764" ],
+    [ "ArenaTeamMember", "d4/d6c/a06782.html", "d4/d6c/a06782" ],
+    [ "ArenaTeamStats", "d4/d17/a06786.html", "d4/d17/a06786" ],
+    [ "ArenaTeam", "d8/d27/a06790.html", "d8/d27/a06790" ],
     [ "MAX_ARENA_SLOT", "d1/d93/a00875.html#a3ed680b9b5f263a9c57435bf412b89f6", null ],
     [ "ArenaSlot", "d1/d93/a00875.html#af7e171357dbfd0fedfa2da950cf6abbf", [
       [ "ARENA_SLOT_2v2", "d1/d93/a00875.html#af7e171357dbfd0fedfa2da950cf6abbfa91adb8a9823496c7b8bbece5e5a3a74e", null ],

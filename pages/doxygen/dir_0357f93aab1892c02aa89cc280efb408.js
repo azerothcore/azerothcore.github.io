@@ -1,9 +1,10 @@
 var dir_0357f93aab1892c02aa89cc280efb408 =
 [
-    [ "boss_ghazan.cpp", "d3/d8f/a03956.html", "d3/d8f/a03956" ],
-    [ "boss_hungarfen.cpp", "d1/d55/a03959.html", "d1/d55/a03959" ],
-    [ "boss_the_black_stalker.cpp", "d7/db0/a03962.html", "d7/db0/a03962" ],
-    [ "instance_the_underbog.cpp", "d3/db5/a03965.html", "d3/db5/a03965" ],
-    [ "the_underbog.h", "db/de8/a03968.html", "db/de8/a03968" ],
-    [ "underbog.cpp", "d0/dce/a03971.html", "d0/dce/a03971" ]
+    [ "boss_ghazan.cpp", "d4/d2e/a03974.html", "d4/d2e/a03974" ],
+    [ "boss_hungarfen.cpp", "d9/d2b/a03977.html", "d9/d2b/a03977" ],
+    [ "boss_swamplord_muselek.cpp", "dd/d78/a03980.html", "dd/d78/a03980" ],
+    [ "boss_the_black_stalker.cpp", "d1/de2/a03983.html", "d1/de2/a03983" ],
+    [ "instance_the_underbog.cpp", "d7/df2/a03986.html", "d7/df2/a03986" ],
+    [ "the_underbog.h", "dd/d27/a03989.html", "dd/d27/a03989" ],
+    [ "underbog.cpp", "d9/d0c/a03992.html", "d9/d0c/a03992" ]
 ];

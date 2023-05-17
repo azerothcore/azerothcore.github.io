@@ -1,7 +1,7 @@
 var a01790 =
 [
-    [ "WaypointData", "d7/d73/a09520.html", "d7/d73/a09520" ],
-    [ "WaypointMgr", "dd/dae/a09524.html", "dd/dae/a09524" ],
+    [ "WaypointData", "d4/d08/a09546.html", "d4/d08/a09546" ],
+    [ "WaypointMgr", "d1/dbc/a09550.html", "d1/dbc/a09550" ],
     [ "sWaypointMgr", "d2/d20/a01790.html#a8e3218ae672aeeb8c1d9dc23a3a1a627", null ],
     [ "WaypointPath", "d2/d20/a01790.html#a3884c0cb3f926b9869757242cf112630", null ],
     [ "WaypointPathContainer", "d2/d20/a01790.html#a4022be9e8c89b6ab197c2564c77b52c5", null ],

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/shared/Realms/RealmList.h File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/shared/Network/SocketMgr.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,63 +106,30 @@ $(document).ready(function(){initNavTree('de/d35/a04325.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">RealmList.h File Reference</div></div>
+<a href="#nested-classes">Classes</a>  </div>
+  <div class="headertitle"><div class="title">SocketMgr.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Realm.h</a>&quot;</code><br />
-<code>#include &lt;array&gt;</code><br />
-<code>#include &lt;map&gt;</code><br />
-<code>#include &lt;unordered_set&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AsyncAcceptor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">NetworkThread.h</a>&quot;</code><br />
+<code>#include &lt;boost/asio/ip/tcp.hpp&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/a30416.html">RealmBuildInfo</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d6e/a30274.html">SocketMgr&lt; SocketType &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dcb/a30420.html">RealmList</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Storage object for the list of realms on the server.  <a href="../../dc/dcb/a30420.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d0/d73/a04451"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d73/a04451.html">boost</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:df/de9/a04534"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de9/a04534.html">boost::system</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a639c880efde6e31a4bf6be6b5bcc3cd3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d35/a04325.html#a639c880efde6e31a4bf6be6b5bcc3cd3">sRealmList</a>&#160;&#160;&#160;<a class="el" href="../../dc/dcb/a30420.html#aea053134fe293fbd4a8801b25fbb44ca">RealmList::Instance</a>()</td></tr>
-<tr class="separator:a639c880efde6e31a4bf6be6b5bcc3cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a639c880efde6e31a4bf6be6b5bcc3cd3" name="a639c880efde6e31a4bf6be6b5bcc3cd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a639c880efde6e31a4bf6be6b5bcc3cd3">&#9670;&#160;</a></span>sRealmList</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define sRealmList&#160;&#160;&#160;<a class="el" href="../../dc/dcb/a30420.html#aea053134fe293fbd4a8801b25fbb44ca">RealmList::Instance</a>()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_777a9b9a3e1a361a798e834f8fa9f1dc.html">shared</a></li><li class="navelem"><a class="el" href="../../dir_104b7121e64315d1b2361279804102a4.html">Realms</a></li><li class="navelem"><a class="el" href="../../de/d35/a04325.html">RealmList.h</a></li>
-    <li class="footer">Generated on Fri Mar 17 2023 04:04:34 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_777a9b9a3e1a361a798e834f8fa9f1dc.html">shared</a></li><li class="navelem"><a class="el" href="../../dir_a4d376dc24851cd2a191f06c51e076cb.html">Network</a></li><li class="navelem"><a class="el" href="../../de/d35/a04325.html">SocketMgr.h</a></li>
+    <li class="footer">Generated on Wed May 17 2023 23:04:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

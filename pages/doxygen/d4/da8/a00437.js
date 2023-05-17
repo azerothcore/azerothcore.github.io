@@ -1,4 +1,4 @@
 var a00437 =
 [
-    [ "MessageBuffer", "df/d18/a05168.html", "df/d18/a05168" ]
+    [ "MessageBuffer", "db/d21/a05186.html", "db/d21/a05186" ]
 ];

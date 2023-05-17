@@ -93,6 +93,7 @@ var a01079 =
     [ "sItemRandomPropertiesStore", "d2/d4d/a01079.html#aa4df01784442d67397299862629a06e9", null ],
     [ "sItemRandomSuffixStore", "d2/d4d/a01079.html#a8f24671edcebdacd8a25038525cfde6b", null ],
     [ "sItemSetStore", "d2/d4d/a01079.html#a1968d28bd1de03990d18d743025c65d9", null ],
+    [ "sItemStore", "d2/d4d/a01079.html#a503b3461faef95a0a6f544b2dcff7dc3", null ],
     [ "SkillRaceClassInfoBySkill", "d2/d4d/a01079.html#a653249ce1fe4be58198bf42ab8e5951b", null ],
     [ "sLFGDungeonStore", "d2/d4d/a01079.html#a23ea4d3675e61599f29015d7301a4ecf", null ],
     [ "sLightStore", "d2/d4d/a01079.html#a96f37176ad0d47303f0cd11cf2ba24e7", null ],

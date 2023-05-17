@@ -1,4 +1,4 @@
 var a00368 =
 [
-    [ "ProducerConsumerQueue< T >", "d1/ddd/a05076.html", "d1/ddd/a05076" ]
+    [ "ProducerConsumerQueue< T >", "dc/d78/a05094.html", "dc/d78/a05094" ]
 ];

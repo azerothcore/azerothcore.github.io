@@ -1,6 +1,6 @@
 var a03017 =
 [
-    [ "boss_chrono_lord_deja", "d0/d9c/a14844.html", "d0/d9c/a14844" ],
+    [ "boss_chrono_lord_deja", "db/dcf/a14878.html", "db/dcf/a14878" ],
     [ "Enums", "dd/dfd/a03017.html#a00ab157b0083a5c08d8f473793fba8e4", [
       [ "SAY_AGGRO", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4a47c752fff069f3e55065795eef2a9bfe", null ],
       [ "SAY_BANISH", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4a24b88fffa83116640b9dcfd4596553da", null ],
