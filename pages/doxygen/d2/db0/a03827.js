@@ -1,9 +1,9 @@
 var a03827 =
 [
-    [ "boss_nexusprince_shaffar", "d8/d4b/a24220.html", "d8/d4b/a24220" ],
-    [ "boss_nexusprince_shaffar::boss_nexusprince_shaffarAI", "d8/d86/a24224.html", "d8/d86/a24224" ],
-    [ "npc_yor", "d7/d18/a24228.html", "d7/d18/a24228" ],
-    [ "npc_yor::npc_yorAI", "d2/ddd/a24232.html", "d2/ddd/a24232" ],
+    [ "boss_nexusprince_shaffar", "db/d9d/a24242.html", "db/d9d/a24242" ],
+    [ "boss_nexusprince_shaffar::boss_nexusprince_shaffarAI", "d1/de7/a24246.html", "d1/de7/a24246" ],
+    [ "npc_yor", "d7/dba/a24250.html", "d7/dba/a24250" ],
+    [ "npc_yor::npc_yorAI", "dd/dd2/a24254.html", "dd/dd2/a24254" ],
     [ "ePrince", "d2/db0/a03827.html#a04ab6449826f6b87c291eb8f5762d446", [
       [ "SAY_INTRO", "d2/db0/a03827.html#a04ab6449826f6b87c291eb8f5762d446af5bc3db04213b3bf118af6ce85b5a637", null ],
       [ "SAY_AGGRO", "d2/db0/a03827.html#a04ab6449826f6b87c291eb8f5762d446a47c752fff069f3e55065795eef2a9bfe", null ],
@@ -25,7 +25,9 @@ var a03827 =
     ] ],
     [ "Yor", "d2/db0/a03827.html#a72d0a53e40cb783adb2405558869bb4b", [
       [ "SPELL_DOUBLE_BREATH", "d2/db0/a03827.html#a72d0a53e40cb783adb2405558869bb4bab564d33bd4b2ca77c33e056a52b7cd9f", null ],
-      [ "EVENT_DOUBLE_BREATH", "d2/db0/a03827.html#a72d0a53e40cb783adb2405558869bb4ba8e5e270034eb78934448aadfd808698b", null ]
+      [ "SPELL_STOMP", "d2/db0/a03827.html#a72d0a53e40cb783adb2405558869bb4ba0003f01b1bddea1320bae3be9a66073a", null ],
+      [ "EVENT_DOUBLE_BREATH", "d2/db0/a03827.html#a72d0a53e40cb783adb2405558869bb4ba8e5e270034eb78934448aadfd808698b", null ],
+      [ "EVENT_STOMP", "d2/db0/a03827.html#a72d0a53e40cb783adb2405558869bb4baae6a7bd26e8ee17a505a5f6c6f720316", null ]
     ] ],
     [ "AddSC_boss_nexusprince_shaffar", "d2/db0/a03827.html#a61c12d9bc9d7218ba82ddbd82849fa66", null ]
 ];

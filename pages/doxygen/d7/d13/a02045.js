@@ -1,10 +1,10 @@
 var a02045 =
 [
-    [ "WorldPackets::Pet::DismissCritter", "dc/d3a/a10280.html", "dc/d3a/a10280" ],
-    [ "WorldPackets::Pet::PetAbandon", "db/dcb/a10284.html", "db/dcb/a10284" ],
-    [ "WorldPackets::Pet::PetStopAttack", "de/dbf/a10288.html", "de/dbf/a10288" ],
-    [ "WorldPackets::Pet::PetSpellAutocast", "d8/d7f/a10292.html", "d8/d7f/a10292" ],
-    [ "WorldPackets::Pet::PetLearnedSpell", "db/def/a10296.html", "db/def/a10296" ],
-    [ "WorldPackets::Pet::PetUnlearnedSpell", "df/d24/a10300.html", "df/d24/a10300" ],
-    [ "WorldPackets::Pet::RequestPetInfo", "dc/d36/a10304.html", "dc/d36/a10304" ]
+    [ "WorldPackets::Pet::DismissCritter", "d5/dc2/a10306.html", "d5/dc2/a10306" ],
+    [ "WorldPackets::Pet::PetAbandon", "d5/dea/a10310.html", "d5/dea/a10310" ],
+    [ "WorldPackets::Pet::PetStopAttack", "de/d84/a10314.html", "de/d84/a10314" ],
+    [ "WorldPackets::Pet::PetSpellAutocast", "dc/d20/a10318.html", "dc/d20/a10318" ],
+    [ "WorldPackets::Pet::PetLearnedSpell", "d9/d3c/a10322.html", "d9/d3c/a10322" ],
+    [ "WorldPackets::Pet::PetUnlearnedSpell", "df/d9f/a10326.html", "df/d9f/a10326" ],
+    [ "WorldPackets::Pet::RequestPetInfo", "d3/da9/a10330.html", "d3/da9/a10330" ]
 ];

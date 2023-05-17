@@ -1,8 +1,8 @@
 var a02468 =
 [
-    [ "RestoreAttack", "da/d88/a11388.html", "da/d88/a11388" ],
-    [ "instance_blackrock_depths", "d4/dc2/a11392.html", "d4/dc2/a11392" ],
-    [ "instance_blackrock_depths::instance_blackrock_depths_InstanceMapScript", "d1/d90/a11396.html", "d1/d90/a11396" ],
+    [ "RestoreAttack", "d8/dc8/a11414.html", "d8/dc8/a11414" ],
+    [ "instance_blackrock_depths", "d0/de1/a11418.html", "d0/de1/a11418" ],
+    [ "instance_blackrock_depths::instance_blackrock_depths_InstanceMapScript", "db/d65/a11422.html", "db/d65/a11422" ],
     [ "Distances", "d2/d35/a02468.html#a47a83b3a7eee5cb11315a17f5dbed3dc", [
       [ "RADIUS_RING_OF_LAW", "d2/d35/a02468.html#a47a83b3a7eee5cb11315a17f5dbed3dcade7cc40d61a38a77844fadc76a813d62", null ],
       [ "DISTANCE_EMPEROR_ROOM", "d2/d35/a02468.html#a47a83b3a7eee5cb11315a17f5dbed3dca45c8cb2cfc126efde444fcec67c4cb71", null ]
@@ -106,6 +106,7 @@ var a02468 =
       [ "MUSIC_ENCOUNTER", "d1/d42/a03419.html#a1df2a0c7338a4dff24c5b303ccaf2e8bae0a0a55162940594b69ea0be303ef9f1", null ],
       [ "LIGHT_SNOWSTORM", "d5/d56/a03437.html#a1df2a0c7338a4dff24c5b303ccaf2e8ba967fb816432d73e72a935b03d3fdf287", null ],
       [ "LIGHT_SOULSTORM", "d5/d56/a03437.html#a1df2a0c7338a4dff24c5b303ccaf2e8ba03c59cf1b5f07362dc8b3aeb2e072cf6", null ],
+      [ "EQUIP_ASHBRINGER", "d5/d56/a03437.html#a1df2a0c7338a4dff24c5b303ccaf2e8ba487d113f5c278059d4b918086c275225", null ],
       [ "MUSIC_FROZEN_THRONE", "d5/d56/a03437.html#a1df2a0c7338a4dff24c5b303ccaf2e8ba661c65ae92e776ae2fabf52e13241bd4", null ],
       [ "MUSIC_SPECIAL", "d5/d56/a03437.html#a1df2a0c7338a4dff24c5b303ccaf2e8badeac43464c411908539cf214921cf1f3", null ],
       [ "MUSIC_FURY_OF_FROSTMOURNE", "d5/d56/a03437.html#a1df2a0c7338a4dff24c5b303ccaf2e8ba0ed050a3fe6f39270736e7e0b37c12e9", null ],

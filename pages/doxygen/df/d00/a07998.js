@@ -1,0 +1,26 @@
+var a07998 =
+[
+    [ "KillRewarder", "df/d00/a07998.html#af65907016d7068967ab1dc436b2d595a", null ],
+    [ "_InitGroupData", "df/d00/a07998.html#ae6ed6662efcd1cdefa3ec0a85323f49c", null ],
+    [ "_InitXP", "df/d00/a07998.html#a7166686977002152a99f929a82625def", null ],
+    [ "_RewardGroup", "df/d00/a07998.html#a97a338868eaf192e847726a23edb6685", null ],
+    [ "_RewardHonor", "df/d00/a07998.html#a498d48217450a88719c9411e24f6d07a", null ],
+    [ "_RewardKillCredit", "df/d00/a07998.html#afb2f1669e698f0597bb67eae7af6de76", null ],
+    [ "_RewardPlayer", "df/d00/a07998.html#a49f6f684f2fdeeb15642c8aaadbcc1a2", null ],
+    [ "_RewardReputation", "df/d00/a07998.html#a84f8c220a92873d0a1783ee29499ba6d", null ],
+    [ "_RewardXP", "df/d00/a07998.html#add8e75716e21dce485272729397d88cd", null ],
+    [ "Reward", "df/d00/a07998.html#af716eba4bb8b15dd3fc005324fc3ac13", null ],
+    [ "_aliveSumLevel", "df/d00/a07998.html#a8a93e28b0b7734d72f1104e5cb70742f", null ],
+    [ "_count", "df/d00/a07998.html#a1b4a83e1d7ef12260fd08a68f7838b80", null ],
+    [ "_group", "df/d00/a07998.html#adb1cbfeca446588c0653df968c258795", null ],
+    [ "_groupRate", "df/d00/a07998.html#a67d38f9bbf5ceffc4f1a5d3015d5894f", null ],
+    [ "_isBattleGround", "df/d00/a07998.html#aabb62c8298b9a3f9ba39e0c63e67354a", null ],
+    [ "_isFullXP", "df/d00/a07998.html#aecbd865ac64dfafc4a14e73888da9520", null ],
+    [ "_isPvP", "df/d00/a07998.html#af202d546982b087711ee740f4cd561b7", null ],
+    [ "_killer", "df/d00/a07998.html#aa3b06442af864a5f4612b75be05abb90", null ],
+    [ "_maxLevel", "df/d00/a07998.html#a0d27e75392a5dcc8a93117676cee3aed", null ],
+    [ "_maxNotGrayMember", "df/d00/a07998.html#a981fa4d51f166c69dbcbbfba2f17dff1", null ],
+    [ "_sumLevel", "df/d00/a07998.html#a8e8c3f10b1a2055c90820360dd04bfab", null ],
+    [ "_victim", "df/d00/a07998.html#a9a6ce23ed555e7bff286d01e5df841f1", null ],
+    [ "_xp", "df/d00/a07998.html#a7898dee0f9855664d07ca834ceabd3bb", null ]
+];

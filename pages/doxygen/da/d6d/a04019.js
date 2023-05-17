@@ -1,9 +1,9 @@
 var a04019 =
 [
-    [ "instance_magtheridons_lair", "db/da6/a25512.html", "db/da6/a25512" ],
-    [ "instance_magtheridons_lair::instance_magtheridons_lair_InstanceMapScript", "d9/db1/a25516.html", "d9/db1/a25516" ],
-    [ "AddSC_instance_magtheridons_lair", "da/d6d/a04019.html#a77e256ce8ca932c8d162a30715dc7c6f", null ],
-    [ "boundaries", "da/d6d/a04019.html#aa75d7d0ffe0cef214f982966c33db1c1", null ],
+    [ "instance_blood_furnace", "dc/d18/a25426.html", "dc/d18/a25426" ],
+    [ "instance_blood_furnace::instance_blood_furnace_InstanceMapScript", "d3/d19/a25430.html", "d3/d19/a25430" ],
+    [ "AddSC_instance_blood_furnace", "da/d6d/a04019.html#af803a0e2dfb7f53b6682e02b90bef865", null ],
+    [ "creatureData", "da/d6d/a04019.html#a412286b689bd324fedd65ddd8dde8afb", null ],
     [ "doorData", "da/d6d/a04019.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
-    [ "minionData", "da/d6d/a04019.html#a6720238df140a3c574a711042b7f5bd3", null ]
+    [ "gameobjectData", "da/d6d/a04019.html#a845a92716bd40c99a93eb0715cd737b0", null ]
 ];

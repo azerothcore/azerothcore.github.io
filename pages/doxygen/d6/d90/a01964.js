@@ -1,6 +1,6 @@
 var a01964 =
 [
-    [ "TSpellSummary", "d8/d73/a05872.html", "d8/d73/a05872" ],
+    [ "TSpellSummary", "d7/d86/a05890.html", "d7/d86/a05890" ],
     [ "SCR_CLEAR", "d6/d90/a01964.html#ab71e08e3f39b7ee7bda0306cd39b96a0", null ],
     [ "ScriptRegistry< AccountScript >", "d6/d90/a01964.html#a737db11e5096ba1c596f469d64c2cc97", null ],
     [ "ScriptRegistry< AchievementCriteriaScript >", "d6/d90/a01964.html#a691565a1335cabfa534300dece8e65e8", null ],

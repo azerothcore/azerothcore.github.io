@@ -1,5 +1,5 @@
 var a01127 =
 [
-    [ "lfg::LFGPlayerScript", "d7/d19/a07464.html", "d7/d19/a07464" ],
-    [ "lfg::LFGGroupScript", "d8/d4a/a07468.html", "d8/d4a/a07468" ]
+    [ "lfg::LFGPlayerScript", "d2/d32/a07490.html", "d2/d32/a07490" ],
+    [ "lfg::LFGGroupScript", "df/dbf/a07494.html", "df/dbf/a07494" ]
 ];

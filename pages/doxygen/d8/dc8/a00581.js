@@ -1,6 +1,6 @@
 var a00581 =
 [
-    [ "PingOperation", "da/de3/a05388.html", "da/de3/a05388" ],
+    [ "PingOperation", "d5/d43/a05406.html", "d5/d43/a05406" ],
     [ "MIN_MYSQL_CLIENT_VERSION", "d8/dc8/a00581.html#abfde8cf59610848eff4ea61d09bb8ca7", null ],
     [ "MIN_MYSQL_SERVER_VERSION", "d8/dc8/a00581.html#acd4a83e86313ca0bb35cb66497bc79b2", null ],
     [ "DatabaseWorkerPool< CharacterDatabaseConnection >", "d8/dc8/a00581.html#aa3cb93fc2ebcb628d94ae0dd8ddf8a18", null ],

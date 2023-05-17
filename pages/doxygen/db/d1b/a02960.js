@@ -1,8 +1,8 @@
 var a02960 =
 [
-    [ "Wave", "d1/d59/a14684.html", "d1/d59/a14684" ],
-    [ "hyjalAI", "de/d8e/a14688.html", "de/d8e/a14688" ],
-    [ "hyjalAI::Spell", "d6/dac/a14692.html", "d6/dac/a14692" ],
+    [ "Wave", "d6/d98/a14718.html", "d6/d98/a14718" ],
+    [ "hyjalAI", "d5/d9c/a14722.html", "d5/d9c/a14722" ],
+    [ "hyjalAI::Spell", "dd/d2d/a14726.html", "dd/d2d/a14726" ],
     [ "HYJAL_AI_MAX_SPELLS", "db/d1b/a02960.html#abb778a728c7b6303747718fc90dc5a6f", null ],
     [ "SpellIds", "db/d1b/a02960.html#a2cd0f1a61f215e1bdcde5cbbd34da57e", [
       [ "HEX_OF_JAMMAL_AN", "dd/d01/a02729.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea69f27809bb75172648a8556f0f746846", null ],
@@ -18,16 +18,16 @@ var a02960 =
       [ "SPELL_SUMMON_ELEMENTALS", "db/d1b/a02960.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea9d07cda4ad8fba4db7ddda3c3c61929f", null ],
       [ "SPELL_CHAIN_LIGHTNING", "db/d1b/a02960.html#a2cd0f1a61f215e1bdcde5cbbd34da57eac0997e72929070d8e30cc0f49cc4539d", null ],
       [ "SPELL_SUMMON_DIRE_WOLF", "db/d1b/a02960.html#a2cd0f1a61f215e1bdcde5cbbd34da57eaf5fa113522acba0add667146740727f0", null ],
-      [ "SPELL_KARGATHS_EXECUTIONER_1", "df/d11/a04037.html#a2cd0f1a61f215e1bdcde5cbbd34da57eae503c4471d43b67c9370f5d6f185762c", null ],
-      [ "SPELL_KARGATHS_EXECUTIONER_2", "df/d11/a04037.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea722d32cb48f5efa1492c4547df687fff", null ],
-      [ "SPELL_KARGATHS_EXECUTIONER_3", "df/d11/a04037.html#a2cd0f1a61f215e1bdcde5cbbd34da57ead5913bf5ac10d4e02b2fcd2ad0b9275b", null ],
-      [ "SPELL_TELEPORT_VISUAL", "d3/d14/a04046.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea73cc106ecf58fcd3a75fa23f9ff7a21c", null ],
-      [ "SPELL_SOUL_STEAL", "d3/d14/a04046.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea2e66041668230e4c27cda68dbf63df22", null ],
-      [ "SPELL_ARCANE_FORM", "db/d64/a04082.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea5eb8b318e75f7fafb22bd9fbc40ed420", null ],
-      [ "SPELL_FIRE_FORM", "db/d64/a04082.html#a2cd0f1a61f215e1bdcde5cbbd34da57eae79530671a5f0f569a679ff8017fe7a6", null ],
-      [ "SPELL_FROST_FORM", "db/d64/a04082.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea8870ee908e189b299d97dec0da566017", null ],
-      [ "SPELL_SHADOW_FORM", "db/d64/a04082.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea2e23df1f4d8b45ea8f7c0460f0e298f9", null ],
-      [ "SPELL_TELEPORT_VISUAL", "d0/dd3/a04121.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea73cc106ecf58fcd3a75fa23f9ff7a21c", null ]
+      [ "SPELL_KARGATHS_EXECUTIONER_1", "dc/d64/a04058.html#a2cd0f1a61f215e1bdcde5cbbd34da57eae503c4471d43b67c9370f5d6f185762c", null ],
+      [ "SPELL_KARGATHS_EXECUTIONER_2", "dc/d64/a04058.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea722d32cb48f5efa1492c4547df687fff", null ],
+      [ "SPELL_KARGATHS_EXECUTIONER_3", "dc/d64/a04058.html#a2cd0f1a61f215e1bdcde5cbbd34da57ead5913bf5ac10d4e02b2fcd2ad0b9275b", null ],
+      [ "SPELL_TELEPORT_VISUAL", "d8/d9b/a04067.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea73cc106ecf58fcd3a75fa23f9ff7a21c", null ],
+      [ "SPELL_SOUL_STEAL", "d8/d9b/a04067.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea2e66041668230e4c27cda68dbf63df22", null ],
+      [ "SPELL_ARCANE_FORM", "de/d1c/a04103.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea5eb8b318e75f7fafb22bd9fbc40ed420", null ],
+      [ "SPELL_FIRE_FORM", "de/d1c/a04103.html#a2cd0f1a61f215e1bdcde5cbbd34da57eae79530671a5f0f569a679ff8017fe7a6", null ],
+      [ "SPELL_FROST_FORM", "de/d1c/a04103.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea8870ee908e189b299d97dec0da566017", null ],
+      [ "SPELL_SHADOW_FORM", "de/d1c/a04103.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea2e23df1f4d8b45ea8f7c0460f0e298f9", null ],
+      [ "SPELL_TELEPORT_VISUAL", "de/d5a/a04142.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea73cc106ecf58fcd3a75fa23f9ff7a21c", null ]
     ] ],
     [ "TargetType", "db/d1b/a02960.html#a0d59972970c855496cb4c877501e668f", [
       [ "TARGETTYPE_SELF", "db/d1b/a02960.html#a0d59972970c855496cb4c877501e668fa3cfcac0dcc1430b80806f09b07e8d165", null ],

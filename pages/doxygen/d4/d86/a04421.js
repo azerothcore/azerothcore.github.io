@@ -1,8 +1,8 @@
 var a04421 =
 [
-    [ "Vec3D", "d8/d3c/a30660.html", "d8/d3c/a30660" ],
-    [ "AaBox3D", "d3/d1b/a30664.html", "d3/d1b/a30664" ],
-    [ "Vec2D", "db/d7c/a30668.html", "db/d7c/a30668" ],
-    [ "Quaternion", "de/d7b/a30672.html", "de/d7b/a30672" ],
-    [ "rotate", "d4/d86/a04421.html#a36f9f3de1d3e6935da68df2c6e347a4d", null ]
+    [ "fixname2", "d4/d86/a04421.html#a505f827307521d389b41e8f0b238c354", null ],
+    [ "fixnamen", "d4/d86/a04421.html#a4df61017ffd84478bbfc579aec447880", null ],
+    [ "GetExtension", "d4/d86/a04421.html#ac3f75fc482c41471364c2c3e8bd1dd96", null ],
+    [ "GetPlainName", "d4/d86/a04421.html#a5e577b4c8e75312883ba4e8c571908ca", null ],
+    [ "GetPlainName", "d4/d86/a04421.html#a939d4568b4058bf826a517f55cb963af", null ]
 ];

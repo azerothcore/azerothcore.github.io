@@ -1,24 +1,21 @@
 var a04238 =
 [
-    [ "item_only_for_flight", "d1/dc4/a29340.html", "d1/dc4/a29340" ],
-    [ "item_gor_dreks_ointment", "d2/dd4/a29344.html", "d2/dd4/a29344" ],
-    [ "item_incendiary_explosives", "d0/d80/a29348.html", "d0/d80/a29348" ],
-    [ "item_mysterious_egg", "d4/d8b/a29352.html", "d4/d8b/a29352" ],
-    [ "item_disgusting_jar", "df/d98/a29356.html", "df/d98/a29356" ],
-    [ "item_petrov_cluster_bombs", "d9/dd5/a29360.html", "d9/dd5/a29360" ],
-    [ "item_captured_frog", "d4/d45/a29364.html", "d4/d45/a29364" ],
-    [ "item_generic_limit_chance_above_60", "d7/d6c/a29368.html", "d7/d6c/a29368" ],
-    [ "CapturedFrog", "d0/dd6/a04238.html#a3a51d3f5cfd1964cbec23fcba5046cca", [
-      [ "QUEST_THE_PERFECT_SPIES", "d0/dd6/a04238.html#a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04", null ],
-      [ "NPC_VANIRAS_SENTRY_TOTEM", "d0/dd6/a04238.html#a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f", null ]
+    [ "AccountActionIpLogger", "dd/dc3/a28874.html", "dd/dc3/a28874" ],
+    [ "CharacterActionIpLogger", "d4/d07/a28878.html", "d4/d07/a28878" ],
+    [ "CharacterDeleteActionIpLogger", "dc/df6/a28882.html", "dc/df6/a28882" ],
+    [ "IPLoggingTypes", "d0/dd6/a04238.html#a3b67d8dbf539fa5519b3e33da9d0137b", [
+      [ "ACCOUNT_LOGIN", "d0/dd6/a04238.html#a3b67d8dbf539fa5519b3e33da9d0137ba8f9e397f01ecf6030118a21051f37eb8", null ],
+      [ "ACCOUNT_FAIL_LOGIN", "d0/dd6/a04238.html#a3b67d8dbf539fa5519b3e33da9d0137baf5dfdd830d71ca55c98a2a6bbc49895f", null ],
+      [ "ACCOUNT_CHANGE_PW", "d0/dd6/a04238.html#a3b67d8dbf539fa5519b3e33da9d0137ba38e1a216027e5110edeced016ff5c059", null ],
+      [ "ACCOUNT_CHANGE_PW_FAIL", "d0/dd6/a04238.html#a3b67d8dbf539fa5519b3e33da9d0137baa0990c000cd17b2abe8225b66cac6b53", null ],
+      [ "ACCOUNT_CHANGE_EMAIL", "d0/dd6/a04238.html#a3b67d8dbf539fa5519b3e33da9d0137baf435090459154eb1ba7b8c994842b06c", null ],
+      [ "ACCOUNT_CHANGE_EMAIL_FAIL", "d0/dd6/a04238.html#a3b67d8dbf539fa5519b3e33da9d0137ba4bd2be99e9a5252be0bbf26a71541e30", null ],
+      [ "CHARACTER_CREATE", "d0/dd6/a04238.html#a3b67d8dbf539fa5519b3e33da9d0137ba64dc5a829a5cecf5f19b805d05a32b85", null ],
+      [ "CHARACTER_LOGIN", "d0/dd6/a04238.html#a3b67d8dbf539fa5519b3e33da9d0137ba69b7162ca378f801be6e30e2e4b86363", null ],
+      [ "CHARACTER_LOGOUT", "d0/dd6/a04238.html#a3b67d8dbf539fa5519b3e33da9d0137ba742b5af30e35f2927eaa20bdf504b607", null ],
+      [ "CHARACTER_DELETE", "d0/dd6/a04238.html#a3b67d8dbf539fa5519b3e33da9d0137ba04c86cce0401c766b99edbef52a91162", null ],
+      [ "CHARACTER_FAILED_DELETE", "d0/dd6/a04238.html#a3b67d8dbf539fa5519b3e33da9d0137baf8aedeaf82227741e50fdf6be12a35e7", null ],
+      [ "UNKNOWN_ACTION", "d0/dd6/a04238.html#a3b67d8dbf539fa5519b3e33da9d0137bae16d79bf07a3994731f4ac1a6ece5ec8", null ]
     ] ],
-    [ "OnlyForFlight", "d0/dd6/a04238.html#afa5a0f3082f0a49fcc796209c7828151", [
-      [ "SPELL_ARCANE_CHARGES", "d0/dd6/a04238.html#afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d", null ]
-    ] ],
-    [ "PetrovClusterBombs", "d0/dd6/a04238.html#a5481d2bf1b9efa370833eed302f6f94c", [
-      [ "SPELL_PETROV_BOMB", "d0/dd6/a04238.html#a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6", null ],
-      [ "AREA_ID_SHATTERED_STRAITS", "d0/dd6/a04238.html#a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42", null ],
-      [ "ZONE_ID_HOWLING", "d0/dd6/a04238.html#a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9", null ]
-    ] ],
-    [ "AddSC_item_scripts", "d0/dd6/a04238.html#a3e28ebf5a580887bb117f786689a34c6", null ]
+    [ "AddSC_action_ip_logger", "d0/dd6/a04238.html#a530be5efb251d5ca58e97804e48ad953", null ]
 ];

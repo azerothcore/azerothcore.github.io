@@ -1,7 +1,7 @@
 var a01832 =
 [
-    [ "FactionState", "d0/d40/a09608.html", "d0/d40/a09608" ],
-    [ "ReputationMgr", "dd/d3d/a09612.html", "dd/d3d/a09612" ],
+    [ "FactionState", "d0/db1/a09634.html", "d0/db1/a09634" ],
+    [ "ReputationMgr", "d0/df8/a09638.html", "d0/df8/a09638" ],
     [ "FactionStateList", "dc/d06/a01832.html#ad6532434415723ae38cfd01814db70c4", null ],
     [ "ForcedReactions", "dc/d06/a01832.html#a7f488a06b2477791f620e975ea444f4e", null ],
     [ "RepListID", "dc/d06/a01832.html#a5d6355bb0de767f549aeb8f1e6481624", null ],

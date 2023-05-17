@@ -1,9 +1,9 @@
 var a02636 =
 [
-    [ "boss_shade_of_aran", "d6/d8c/a12124.html", "d6/d8c/a12124" ],
-    [ "boss_shade_of_aran::boss_aranAI", "d4/da6/a12128.html", "d4/da6/a12128" ],
-    [ "npc_aran_elemental", "d5/d41/a12132.html", "d5/d41/a12132" ],
-    [ "npc_aran_elemental::water_elementalAI", "d5/d98/a12136.html", "d5/d98/a12136" ],
+    [ "boss_shade_of_aran", "d2/dd3/a12150.html", "d2/dd3/a12150" ],
+    [ "boss_shade_of_aran::boss_aranAI", "da/da0/a12154.html", "da/da0/a12154" ],
+    [ "npc_aran_elemental", "da/d62/a12158.html", "da/d62/a12158" ],
+    [ "npc_aran_elemental::water_elementalAI", "d2/d85/a12162.html", "d2/d85/a12162" ],
     [ "ShadeOfAran", "dd/d32/a02636.html#a6e64648088fc7b5a246d79ceeff6cf1f", [
       [ "SAY_AGGRO", "dd/d32/a02636.html#a6e64648088fc7b5a246d79ceeff6cf1fa47c752fff069f3e55065795eef2a9bfe", null ],
       [ "SAY_FLAMEWREATH", "dd/d32/a02636.html#a6e64648088fc7b5a246d79ceeff6cf1faa0460452a242debad050d40b6bfe9f74", null ],

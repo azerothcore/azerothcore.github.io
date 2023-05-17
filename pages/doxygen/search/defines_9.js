@@ -1,10 +1,10 @@
 var searchData=
 [
   ['iccscriptname_0',['ICCScriptName',['../d4/d60/a03446.html#a8ad0adeac0057e9785ab4fce6f4d6697',1,'icecrown_citadel.h']]],
-  ['immune_5fto_5fmovement_5fimpairment_5fand_5floss_5fcontrol_5fmask_1',['IMMUNE_TO_MOVEMENT_IMPAIRMENT_AND_LOSS_CONTROL_MASK',['../d8/d59/a04337.html#aad347546e73152f50df1695839e39ca1',1,'SharedDefines.h']]],
+  ['immune_5fto_5fmovement_5fimpairment_5fand_5floss_5fcontrol_5fmask_1',['IMMUNE_TO_MOVEMENT_IMPAIRMENT_AND_LOSS_CONTROL_MASK',['../d2/d8a/a04355.html#aad347546e73152f50df1695839e39ca1',1,'SharedDefines.h']]],
   ['in_5flive_5fside_2',['IN_LIVE_SIDE',['../df/d5c/a03470.html#ad42058ab3d240d516651468d3d624008',1,'boss_gothik.cpp']]],
   ['infernal_5fz_3',['INFERNAL_Z',['../d0/d3f/a02630.html#a00331ca2e618893a1f58b350cd86029a',1,'boss_prince_malchezaar.cpp']]],
-  ['inner_5fportal_5fradius_4',['INNER_PORTAL_RADIUS',['../db/d38/a04088.html#a767e697b64115cb679602f04a2271bfb',1,'boss_astromancer.cpp']]],
+  ['inner_5fportal_5fradius_4',['INNER_PORTAL_RADIUS',['../d7/d47/a04109.html#a767e697b64115cb679602f04a2271bfb',1,'boss_astromancer.cpp']]],
   ['inoculated_5fhelper_5',['INOCULATED_HELPER',['../df/df7/a03416.html#a2d47852dfe3c4764714970ae4caa3481',1,'boss_festergut.cpp']]],
   ['inspect_5fdistance_6',['INSPECT_DISTANCE',['../d1/d34/a01211.html#a627bc4be23b34b8b8be439d4010f5669',1,'ObjectDefines.h']]],
   ['instantiate_5fclass_5fmutex_7',['INSTANTIATE_CLASS_MUTEX',['../dd/df5/a00386.html#a517f069300d9fa1587cf281664c72a75',1,'ThreadingModel.h']]],
@@ -17,7 +17,7 @@ var searchData=
   ['iocontextbasenamespace_14',['IoContextBaseNamespace',['../d4/dee/a00008.html#ad5308134581a9f19bfac4d556ec345b9',1,'IoContext.h']]],
   ['ir_15',['IR',['../d4/d3e/a00116.html#aa54c7fcd0c551f1db5fc34a2f6b11e74',1,'VMapTools.h']]],
   ['isnan_16',['isnan',['../d5/d16/a00029.html#a075c8459d7e501109174c1a2fdc5cd7e',1,'BoundingIntervalHierarchy.cpp']]],
-  ['item_5fmagma_5ftotem_17',['ITEM_MAGMA_TOTEM',['../de/dce/a03932.html#ae085b117237d65a1258078db0c9a8b08',1,'boss_ahune.cpp']]],
+  ['item_5fmagma_5ftotem_17',['ITEM_MAGMA_TOTEM',['../d4/dc4/a03938.html#ae085b117237d65a1258078db0c9a8b08',1,'boss_ahune.cpp']]],
   ['item_5fsubclass_5fmask_5fweapon_5franged_18',['ITEM_SUBCLASS_MASK_WEAPON_RANGED',['../d4/d5d/a01202.html#a0873187b0ac36dd5187c0f5486232e88',1,'ItemTemplate.h']]],
   ['item_5ftear_5fof_5fgoddess_19',['ITEM_TEAR_OF_GODDESS',['../d4/d32/a02951.html#a68ffa1e6240505f6356db12f1ecc3d1c',1,'hyjal.cpp']]]
 ];

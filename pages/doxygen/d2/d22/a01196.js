@@ -1,6 +1,6 @@
 var a01196 =
 [
-    [ "EnchStoreItem", "d3/dd0/a07804.html", "d3/dd0/a07804" ],
+    [ "EnchStoreItem", "d8/d71/a07830.html", "d8/d71/a07830" ],
     [ "EnchantmentStore", "d2/d22/a01196.html#ab462bc366dd954f1c0b539c408b74c01", null ],
     [ "EnchStoreList", "d2/d22/a01196.html#ab5e9dd6a265a402e7a9499fdaae1e850", null ],
     [ "GenerateEnchSuffixFactor", "d2/d22/a01196.html#a25026e783b088b45eebd4db8295b1b87", null ],

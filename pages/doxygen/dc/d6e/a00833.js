@@ -1,9 +1,9 @@
 var a00833 =
 [
-    [ "AuctionSortInfo", "dd/d63/a06660.html", "dd/d63/a06660" ],
-    [ "AuctionEntry", "d7/d36/a06664.html", "d7/d36/a06664" ],
-    [ "AuctionHouseObject", "da/df2/a06668.html", "da/df2/a06668" ],
-    [ "AuctionHouseMgr", "d8/ddd/a06672.html", "d8/ddd/a06672" ],
+    [ "AuctionSortInfo", "dd/d02/a06686.html", "dd/d02/a06686" ],
+    [ "AuctionEntry", "d6/df9/a06690.html", "d6/df9/a06690" ],
+    [ "AuctionHouseObject", "da/d8b/a06694.html", "da/d8b/a06694" ],
+    [ "AuctionHouseMgr", "d5/d61/a06698.html", "d5/d61/a06698" ],
     [ "MAX_AUCTION_ITEMS", "dc/d6e/a00833.html#aa87bb3f5c1101ca4c260c6bb743a846e", null ],
     [ "MIN_AUCTION_TIME", "dc/d6e/a00833.html#a65e0ff6290b1d068de3d9be0aa323d27", null ],
     [ "sAuctionMgr", "dc/d6e/a00833.html#ac3e168154709326e99ab24a7d1395906", null ],

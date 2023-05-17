@@ -90,6 +90,7 @@ var a01082 =
     [ "sItemRandomPropertiesStore", "dd/df1/a01082.html#ae1befbcddb5f7115c1d06a15e379aafa", null ],
     [ "sItemRandomSuffixStore", "dd/df1/a01082.html#a8fad327db5cfa5d1208bb88e6567ecf7", null ],
     [ "sItemSetStore", "dd/df1/a01082.html#ac4516e9785c8d2a553ae77098fb998a6", null ],
+    [ "sItemStore", "dd/df1/a01082.html#af01c29c525d4cac9994861f2233d3f78", null ],
     [ "sLFGDungeonStore", "dd/df1/a01082.html#adc55d123b0d45d7b26ee52be0db5cef1", null ],
     [ "sLiquidTypeStore", "dd/df1/a01082.html#ad62a27eadcd4d4d5b3bb589df5265f1b", null ],
     [ "sLockStore", "dd/df1/a01082.html#a57d7d32a14c67d2494311882fc65fdf2", null ],

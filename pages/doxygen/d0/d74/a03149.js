@@ -1,11 +1,9 @@
 var a03149 =
 [
-    [ "npc_spitelashes", "d4/d2f/a15312.html", "d4/d2f/a15312" ],
-    [ "npc_spitelashes::npc_spitelashesAI", "d3/d42/a15316.html", "d3/d42/a15316" ],
-    [ "npc_rizzle_sprysprocket", "de/d0a/a15320.html", "de/d0a/a15320" ],
-    [ "npc_rizzle_sprysprocket::npc_rizzle_sprysprocketAI", "df/d87/a15324.html", "df/d87/a15324" ],
-    [ "npc_depth_charge", "d5/db2/a15328.html", "d5/db2/a15328" ],
-    [ "npc_depth_charge::npc_depth_chargeAI", "d8/dc7/a15332.html", "d8/dc7/a15332" ],
+    [ "npc_rizzle_sprysprocket", "df/d05/a15346.html", "df/d05/a15346" ],
+    [ "npc_rizzle_sprysprocket::npc_rizzle_sprysprocketAI", "d0/d4f/a15350.html", "d0/d4f/a15350" ],
+    [ "npc_depth_charge", "d5/d31/a15354.html", "d5/d31/a15354" ],
+    [ "npc_depth_charge::npc_depth_chargeAI", "db/d9f/a15358.html", "db/d9f/a15358" ],
     [ "GOSSIP_GET_MOONSTONE", "d0/d74/a03149.html#a4ef2862e24bf82afba9bcd547ac3dd7d", null ],
     [ "RizzleSprysprocketData", "d0/d74/a03149.html#ad694d8f9c4171422b48a06322c8bf5a3", [
       [ "QUEST_CHASING_THE_MOONSTONE", "d0/d74/a03149.html#ad694d8f9c4171422b48a06322c8bf5a3a62167aa10a1e13501da60bbfd43df100", null ],
@@ -20,15 +18,6 @@ var a03149 =
       [ "SAY_RIZZLE_GRENADE", "d0/d74/a03149.html#ad694d8f9c4171422b48a06322c8bf5a3a62818d492b5281057628356574ada201", null ],
       [ "SAY_RIZZLE_FINAL", "d0/d74/a03149.html#ad694d8f9c4171422b48a06322c8bf5a3a2171c54277d8aadbe7b633befacf4ab3", null ],
       [ "MSG_ESCAPE_NOTICE", "d0/d74/a03149.html#ad694d8f9c4171422b48a06322c8bf5a3ac276316b4b9c389e1701165b3a1491c7", null ]
-    ] ],
-    [ "Spitelashes", "d0/d74/a03149.html#a344c41204a2966013b31bf1d204b1cb4", [
-      [ "SPELL_POLYMORPH_RANK1", "d0/d74/a03149.html#a344c41204a2966013b31bf1d204b1cb4aa9cea166bf2a9ce2850245547158fc5a", null ],
-      [ "SPELL_POLYMORPH_RANK2", "d0/d74/a03149.html#a344c41204a2966013b31bf1d204b1cb4a8e84c576bdd3e5b47b18b08ed714c2c4", null ],
-      [ "SPELL_POLYMORPH_RANK3", "d0/d74/a03149.html#a344c41204a2966013b31bf1d204b1cb4ad387aae46ab7c0377daaa45885a422e6", null ],
-      [ "SPELL_POLYMORPH_RANK4", "d0/d74/a03149.html#a344c41204a2966013b31bf1d204b1cb4a33f108c1305d06136104674ccc0fde03", null ],
-      [ "SPELL_POLYMORPH", "d0/d74/a03149.html#a344c41204a2966013b31bf1d204b1cb4ae5e7dc76db7aa286357183a1b529841f", null ],
-      [ "SPELL_POLYMORPH_BACKFIRE", "d0/d74/a03149.html#a344c41204a2966013b31bf1d204b1cb4adfca6169b6582e580b239d4b9ececea0", null ],
-      [ "SPELL_REMOVE_POLYMORPH", "d0/d74/a03149.html#a344c41204a2966013b31bf1d204b1cb4aead77ddad9719b550b3536810a3111c4", null ]
     ] ],
     [ "AddSC_azshara", "d0/d74/a03149.html#ad86bcd16e9f7f0d1b823153be725f9ce", null ],
     [ "WPs", "d0/d74/a03149.html#a6963f0357cacc0d2bcf7d514cad45e73", null ]

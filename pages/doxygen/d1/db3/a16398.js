@@ -1,0 +1,6 @@
+var a16398 =
+[
+    [ "spell_saviana_conflagration_throwback_SpellScript", "d9/dee/a16402.html", "d9/dee/a16402" ],
+    [ "spell_saviana_conflagration_throwback", "d1/db3/a16398.html#a078d8c95f77c99ab01027b72bc5d7167", null ],
+    [ "GetSpellScript", "d1/db3/a16398.html#aabe1dbbe6627cafc2ca6b3ef83a053b9", null ]
+];

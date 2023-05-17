@@ -1,8 +1,8 @@
 var a03146 =
 [
-    [ "npc_muglash", "de/d54/a15300.html", "de/d54/a15300" ],
-    [ "npc_muglash::npc_muglashAI", "dc/d2b/a15304.html", "dc/d2b/a15304" ],
-    [ "go_naga_brazier", "dd/d0f/a15308.html", "dd/d0f/a15308" ],
+    [ "npc_muglash", "df/dd9/a15334.html", "df/dd9/a15334" ],
+    [ "npc_muglash::npc_muglashAI", "d7/d0c/a15338.html", "d7/d0c/a15338" ],
+    [ "go_naga_brazier", "da/d98/a15342.html", "da/d98/a15342" ],
     [ "Muglash", "dc/df0/a03146.html#a61aa1bf847260f3b69320f14a98eb057", [
       [ "SAY_MUG_START1", "dc/df0/a03146.html#a61aa1bf847260f3b69320f14a98eb057a8f1263c089dd81c8bfe0e50dd08dbc3e", null ],
       [ "SAY_MUG_START2", "dc/df0/a03146.html#a61aa1bf847260f3b69320f14a98eb057aa6ecd378ab24d862f8be4be085be2ac1", null ],

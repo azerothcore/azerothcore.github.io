@@ -1,11 +1,11 @@
 var a03248 =
 [
-    [ "instance_azjol_nerub", "d1/dc4/a16036.html", "d1/dc4/a16036" ],
-    [ "instance_azjol_nerub::instance_azjol_nerub_InstanceScript", "d8/dec/a16040.html", "d8/dec/a16040" ],
-    [ "spell_azjol_nerub_fixate", "d2/da3/a16044.html", "d2/da3/a16044" ],
-    [ "spell_azjol_nerub_fixate::spell_azjol_nerub_fixate_SpellScript", "dd/d74/a16048.html", "dd/d74/a16048" ],
-    [ "spell_azjol_nerub_web_wrap", "db/db7/a16052.html", "db/db7/a16052" ],
-    [ "spell_azjol_nerub_web_wrap::spell_azjol_nerub_web_wrap_AuraScript", "dc/d2d/a16056.html", "dc/d2d/a16056" ],
+    [ "instance_azjol_nerub", "d7/d3b/a16058.html", "d7/d3b/a16058" ],
+    [ "instance_azjol_nerub::instance_azjol_nerub_InstanceScript", "db/db5/a16062.html", "db/db5/a16062" ],
+    [ "spell_azjol_nerub_fixate", "da/d7e/a16066.html", "da/d7e/a16066" ],
+    [ "spell_azjol_nerub_fixate::spell_azjol_nerub_fixate_SpellScript", "d9/d48/a16070.html", "d9/d48/a16070" ],
+    [ "spell_azjol_nerub_web_wrap", "da/df8/a16074.html", "da/df8/a16074" ],
+    [ "spell_azjol_nerub_web_wrap::spell_azjol_nerub_web_wrap_AuraScript", "da/da6/a16078.html", "da/da6/a16078" ],
     [ "AddSC_instance_azjol_nerub", "d9/d01/a03248.html#a58deb67f6fb8962cfe1dfd044fdaabdb", null ],
     [ "boundaries", "d9/d01/a03248.html#aa75d7d0ffe0cef214f982966c33db1c1", null ],
     [ "creatureData", "d9/d01/a03248.html#a412286b689bd324fedd65ddd8dde8afb", null ],

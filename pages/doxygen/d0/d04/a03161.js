@@ -1,9 +1,9 @@
 var a03161 =
 [
-    [ "npc_cork_gizelton", "d6/d10/a15432.html", "d6/d10/a15432" ],
-    [ "npc_cork_gizelton::npc_cork_gizeltonAI", "dc/d8f/a15436.html", "dc/d8f/a15436" ],
-    [ "npc_aged_dying_ancient_kodo", "db/dee/a15440.html", "db/dee/a15440" ],
-    [ "npc_aged_dying_ancient_kodo::npc_aged_dying_ancient_kodoAI", "d9/d1b/a15444.html", "d9/d1b/a15444" ],
+    [ "npc_cork_gizelton", "d5/d33/a15458.html", "d5/d33/a15458" ],
+    [ "npc_cork_gizelton::npc_cork_gizeltonAI", "d4/d39/a15462.html", "d4/d39/a15462" ],
+    [ "npc_aged_dying_ancient_kodo", "d7/d5a/a15466.html", "d7/d5a/a15466" ],
+    [ "npc_aged_dying_ancient_kodo::npc_aged_dying_ancient_kodoAI", "dc/dc8/a15470.html", "dc/dc8/a15470" ],
     [ "Caravan", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728", [
       [ "QUEST_BODYGUARD_FOR_HIRE", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728a07d8fdc2ba6f3382ab9a9c0ccb910712", null ],
       [ "QUEST_GIZELTON_CARAVAN", "d0/d04/a03161.html#aec2c916c560ca6ceedd660d3b140e728af1f220a5094995c40054b8afcfc956f9", null ],
@@ -29,6 +29,7 @@ var a03161 =
     [ "DyingKodo", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663", [
       [ "SAY_SMEED_HOME", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663a07ed71cb461662af72c9811505b9c955", null ],
       [ "QUEST_KODO", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663a8019fb9754f039595728a149d4c3214f", null ],
+      [ "NPC_TEXT_KODO", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663a934cabb76d1cbddd53e5a682b3560c7e", null ],
       [ "NPC_SMEED", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663ab289aa3f772d2e87dad418d075ab8dce", null ],
       [ "NPC_AGED_KODO", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663ab93894e9256e085d45fb24b0d544e154", null ],
       [ "NPC_DYING_KODO", "d0/d04/a03161.html#af45ec6fee60329d3c66726e0fa939663a6116f630ddd9390420cc6aa4230a862e", null ],

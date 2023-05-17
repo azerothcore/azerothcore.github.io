@@ -1,6 +1,6 @@
 var a03020 =
 [
-    [ "boss_temporus", "df/d5d/a14848.html", "df/d5d/a14848" ],
+    [ "boss_temporus", "d3/d88/a14882.html", "d3/d88/a14882" ],
     [ "Enums", "de/dec/a03020.html#a00ab157b0083a5c08d8f473793fba8e4", [
       [ "SAY_AGGRO", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4a47c752fff069f3e55065795eef2a9bfe", null ],
       [ "SAY_BANISH", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4a24b88fffa83116640b9dcfd4596553da", null ],

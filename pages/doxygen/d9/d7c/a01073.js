@@ -1,6 +1,6 @@
 var a01073 =
 [
-    [ "DisableMgr::anonymous_namespace{DisableMgr.cpp}::DisableData", "dc/dea/a07360.html", "dc/dea/a07360" ],
+    [ "DisableMgr::anonymous_namespace{DisableMgr.cpp}::DisableData", "db/d6b/a07386.html", "db/d6b/a07386" ],
     [ "DisableMap", "d9/d7c/a01073.html#a2b8dd8b0bc5f58e812c1bd969ee833d6", null ],
     [ "DisableTypeMap", "d9/d7c/a01073.html#a1dc7ac8fd11c81da83700d364483165a", null ],
     [ "CheckQuestDisables", "d9/d7c/a01073.html#a2f9fa5dadf6f2da5f01651d37d996377", null ],

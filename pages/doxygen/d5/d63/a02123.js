@@ -1,6 +1,6 @@
 var a02123 =
 [
-    [ "SpellEvent", "dd/d99/a10488.html", "dd/d99/a10488" ],
+    [ "SpellEvent", "db/ddb/a10514.html", "db/ddb/a10514" ],
     [ "CHECK_DIST", "d5/d63/a02123.html#aa16c8b27baa496c2fdf0afffaf4485a0", null ],
     [ "DEBUG_TRAJ", "d5/d63/a02123.html#ac27bc73435b380df600d6da0b753a144", null ],
     [ "GCDLimits", "d5/d63/a02123.html#aea36520bcbaa2ebe9c062b9c5d9df777", [

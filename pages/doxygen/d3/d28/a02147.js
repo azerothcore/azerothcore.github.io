@@ -1,19 +1,19 @@
 var a02147 =
 [
-    [ "SpellProcEventEntry", "d7/d9e/a10584.html", "d7/d9e/a10584" ],
-    [ "SpellProcEntry", "d1/d6c/a10588.html", "d1/d6c/a10588" ],
-    [ "SpellEnchantProcEntry", "d3/d30/a10592.html", "d3/d30/a10592" ],
-    [ "SpellBonusEntry", "de/d2b/a10596.html", "de/d2b/a10596" ],
-    [ "SpellStackInfo", "d7/d93/a10600.html", "d7/d93/a10600" ],
-    [ "SpellThreatEntry", "d0/de4/a10604.html", "d0/de4/a10604" ],
-    [ "SpellTargetPosition", "d9/d2e/a10608.html", "d9/d2e/a10608" ],
-    [ "PetAura", "de/d69/a10612.html", "de/d69/a10612" ],
-    [ "SpellArea", "d5/dc9/a10616.html", "d5/dc9/a10616" ],
-    [ "SpellChainNode", "d8/d95/a10620.html", "d8/d95/a10620" ],
-    [ "SpellLearnSkillNode", "dc/d7c/a10624.html", "dc/d7c/a10624" ],
-    [ "PetDefaultSpellsEntry", "d3/dfe/a10628.html", "d3/dfe/a10628" ],
-    [ "SpellCooldownOverride", "d5/d9e/a10632.html", "d5/d9e/a10632" ],
-    [ "SpellMgr", "de/da0/a10636.html", "de/da0/a10636" ],
+    [ "SpellProcEventEntry", "d6/d02/a10610.html", "d6/d02/a10610" ],
+    [ "SpellProcEntry", "de/dbd/a10614.html", "de/dbd/a10614" ],
+    [ "SpellEnchantProcEntry", "da/d7f/a10618.html", "da/d7f/a10618" ],
+    [ "SpellBonusEntry", "dc/d72/a10622.html", "dc/d72/a10622" ],
+    [ "SpellStackInfo", "da/da2/a10626.html", "da/da2/a10626" ],
+    [ "SpellThreatEntry", "d8/d1e/a10630.html", "d8/d1e/a10630" ],
+    [ "SpellTargetPosition", "db/d64/a10634.html", "db/d64/a10634" ],
+    [ "PetAura", "d4/dc3/a10638.html", "d4/dc3/a10638" ],
+    [ "SpellArea", "d7/d91/a10642.html", "d7/d91/a10642" ],
+    [ "SpellChainNode", "d6/d19/a10646.html", "d6/d19/a10646" ],
+    [ "SpellLearnSkillNode", "d7/d7b/a10650.html", "d7/d7b/a10650" ],
+    [ "PetDefaultSpellsEntry", "d9/dbf/a10654.html", "d9/dbf/a10654" ],
+    [ "SpellCooldownOverride", "d6/d12/a10658.html", "d6/d12/a10658" ],
+    [ "SpellMgr", "db/d96/a10662.html", "db/d96/a10662" ],
     [ "AURA_SPELL_PROC_EX_MASK", "d3/d28/a02147.html#a38a52b76af6f14f7d3ad3282be428da8", null ],
     [ "MELEE_BASED_TRIGGER_MASK", "d3/d28/a02147.html#a324bcfedb9d45ed36bd7457067482db8", null ],
     [ "SPELL_LINKED_MAX_SPELLS", "d3/d28/a02147.html#af4e20067ac1089d43e9ece8073dfd728", null ],
@@ -113,6 +113,9 @@ var a02147 =
       [ "EFFECT_RADIUS_23_YARDS", "d3/d28/a02147.html#adcebb12598da7d99a0d914e032ab53a6a450c99cb8be1780967744cb53f4b5955", null ],
       [ "EFFECT_RADIUS_3_5_YARDS", "d3/d28/a02147.html#adcebb12598da7d99a0d914e032ab53a6ad3afa07d6bb6d3f5d418abb2e81c849f", null ],
       [ "EFFECT_RADIUS_80_YARDS_2", "d3/d28/a02147.html#adcebb12598da7d99a0d914e032ab53a6adcc676047a93f09b9b7daf684d51fb35", null ]
+    ] ],
+    [ "EnchantProcAttributes", "d3/d28/a02147.html#ae1affe1fa051bd8271d7061890a8c132", [
+      [ "ENCHANT_PROC_ATTR_EXCLUSIVE", "d3/d28/a02147.html#ae1affe1fa051bd8271d7061890a8c132ad6b6daf8a6147a0e7b77bd87a55b2825", null ]
     ] ],
     [ "ICCBuff", "d3/d28/a02147.html#a955c2f2d6134701c932a636512d7fbd4", [
       [ "ICC_AREA", "d3/d28/a02147.html#a955c2f2d6134701c932a636512d7fbd4a7057c645998b72657fb18e41e12dc25f", null ],

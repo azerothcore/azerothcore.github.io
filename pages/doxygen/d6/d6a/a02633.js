@@ -1,6 +1,6 @@
 var a02633 =
 [
-    [ "boss_servant_quarters", "db/db7/a12120.html", "db/db7/a12120" ],
+    [ "boss_servant_quarters", "df/d9d/a12146.html", "df/d9d/a12146" ],
     [ "ServantQuartersSpells", "d6/d6a/a02633.html#a266843f768102d11e894d8aed98eca30", [
       [ "SPELL_SNEAK", "d6/d6a/a02633.html#a266843f768102d11e894d8aed98eca30a2ffe719e752bc84060f0f8e4242de755", null ],
       [ "SPELL_ACIDIC_FANG", "d6/d6a/a02633.html#a266843f768102d11e894d8aed98eca30a8292be8b884e8107e42cde2aa18b44b3", null ],
