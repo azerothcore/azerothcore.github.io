@@ -34,6 +34,8 @@ document.write(`
   <a id="Creature:GetScriptId" class="fn" href="../Creature/GetScriptId.html">GetScriptId</a>
   <a id="Creature:GetScriptName" class="fn" href="../Creature/GetScriptName.html">GetScriptName</a>
   <a id="Creature:GetShieldBlockValue" class="fn" href="../Creature/GetShieldBlockValue.html">GetShieldBlockValue</a>
+  <a id="Creature:GetUnitFlags" class="fn" href="../Creature/GetUnitFlags.html">GetUnitFlags</a>
+  <a id="Creature:GetUnitFlagsTwo" class="fn" href="../Creature/GetUnitFlagsTwo.html">GetUnitFlagsTwo</a>
   <a id="Creature:GetWanderRadius" class="fn" href="../Creature/GetWanderRadius.html">GetWanderRadius</a>
   <a id="Creature:GetWaypointPath" class="fn" href="../Creature/GetWaypointPath.html">GetWaypointPath</a>
   <a id="Creature:HasCategoryCooldown" class="fn" href="../Creature/HasCategoryCooldown.html">HasCategoryCooldown</a>
@@ -79,6 +81,8 @@ document.write(`
   <a id="Creature:SetReactState" class="fn" href="../Creature/SetReactState.html">SetReactState</a>
   <a id="Creature:SetRegeneratingHealth" class="fn" href="../Creature/SetRegeneratingHealth.html">SetRegeneratingHealth</a>
   <a id="Creature:SetRespawnDelay" class="fn" href="../Creature/SetRespawnDelay.html">SetRespawnDelay</a>
+  <a id="Creature:SetUnitFlags" class="fn" href="../Creature/SetUnitFlags.html">SetUnitFlags</a>
+  <a id="Creature:SetUnitFlagsTwo" class="fn" href="../Creature/SetUnitFlagsTwo.html">SetUnitFlagsTwo</a>
   <a id="Creature:SetWalk" class="fn" href="../Creature/SetWalk.html">SetWalk</a>
   <a id="Creature:SetWanderRadius" class="fn" href="../Creature/SetWanderRadius.html">SetWanderRadius</a>
   <a id="Creature:UpdateEntry" class="fn" href="../Creature/UpdateEntry.html">UpdateEntry</a>
