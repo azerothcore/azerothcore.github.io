@@ -9,9 +9,11 @@ document.write(`
   <a id="Player:AreaExploredOrEventHappens" class="fn" href="../Player/AreaExploredOrEventHappens.html">AreaExploredOrEventHappens</a>
   <a id="Player:CanBlock" class="fn" href="../Player/CanBlock.html">CanBlock</a>
   <a id="Player:CanCompleteQuest" class="fn" href="../Player/CanCompleteQuest.html">CanCompleteQuest</a>
+  <a id="Player:CanCompleteRepeatableQuest" class="fn" href="../Player/CanCompleteRepeatableQuest.html">CanCompleteRepeatableQuest</a>
   <a id="Player:CanEquipItem" class="fn" href="../Player/CanEquipItem.html">CanEquipItem</a>
   <a id="Player:CanFly" class="fn" href="../Player/CanFly.html">CanFly</a>
   <a id="Player:CanParry" class="fn" href="../Player/CanParry.html">CanParry</a>
+  <a id="Player:CanRewardQuest" class="fn" href="../Player/CanRewardQuest.html">CanRewardQuest</a>
   <a id="Player:CanShareQuest" class="fn" href="../Player/CanShareQuest.html">CanShareQuest</a>
   <a id="Player:CanSpeak" class="fn" href="../Player/CanSpeak.html">CanSpeak</a>
   <a id="Player:CanTitanGrip" class="fn" href="../Player/CanTitanGrip.html">CanTitanGrip</a>
