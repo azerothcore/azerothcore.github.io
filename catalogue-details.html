@@ -1,5 +1,5 @@
---- 
-layout: catalogue 
+---
+layout: catalogue
 ---
 <style>
     @import url("/stylesheets/catalogue.css");
@@ -11,7 +11,6 @@ layout: catalogue
             <a class="go-back" href="{{ site.baseurl }}/"><i class="fa fa-caret-left"></i> Go back</a>
         </div>
     </div>
-
     <div class="row">
         <div class="col">
             <div class="media">
@@ -23,7 +22,6 @@ layout: catalogue
             </div>
         </div>
     </div>
-
     <div class="row">
         <div class="col-12 col-md-8">
             <div v-html="compiledReadme"></div>
@@ -31,7 +29,6 @@ layout: catalogue
         <div class="col-12 col-md-4">
           <div id="about">
             <a class="btn btn-lg btn-success" target="_blank" :href="repo.html_url + '/archive/' + repo.default_branch + '.zip'">Download <i class="fa fa-download"></i></a>
-
             <h3>About this repo</h3>
             <ul class="list-unstyled">
                 <li><i class="fas fa-globe fa-fw"></i> Repo ID:  <span class="float-right">(( repo.id ))</span></li>
@@ -48,7 +45,6 @@ layout: catalogue
         </div>
     </div>
 </div>
-
 <script src="https://unpkg.com/marked@0.3.6"></script>
 <script>
     var mDetails = new Vue({
@@ -76,9 +72,16 @@ layout: catalogue
                     mStatus.hideMessage();
                     this.ready = true;
 
-                    $.get(`https://raw.githubusercontent.com/${this.repo.full_name}/${this.repo.default_branch}/README.md`, (res) => {
+                    let uri = `https://raw.githubusercontent.com/${this.repo.full_name}/${this.repo.default_branch}/README.md`
+
+                    if (!fetch(uri).ok)
+                    {
+                        uri = `https://raw.githubusercontent.com/${this.repo.full_name}/${this.repo.default_branch}/.github/README.md`
+                    }
+
+                    $.get(uri, (res) => {
                         this.readme = res ? res : this.repo.description;
-                    });
+                    }
 
                     let iconUrl = `https://raw.githubusercontent.com/${this.repo.full_name}/${this.repo.default_branch}/icon.png`;
                     $.get(iconUrl, (res) => {
