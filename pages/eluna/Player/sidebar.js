@@ -215,6 +215,7 @@ document.write(`
   <a id="Player:SetGMVisible" class="fn" href="../Player/SetGMVisible.html">SetGMVisible</a>
   <a id="Player:SetGameMaster" class="fn" href="../Player/SetGameMaster.html">SetGameMaster</a>
   <a id="Player:SetGender" class="fn" href="../Player/SetGender.html">SetGender</a>
+  <a id="Player:SetGlyph" class="fn" href="../Player/SetGlyph.html">SetGlyph</a>
   <a id="Player:SetGuildRank" class="fn" href="../Player/SetGuildRank.html">SetGuildRank</a>
   <a id="Player:SetHonorLastWeekStandingPos" class="fn" href="../Player/SetHonorLastWeekStandingPos.html">SetHonorLastWeekStandingPos</a>
   <a id="Player:SetHonorPoints" class="fn" href="../Player/SetHonorPoints.html">SetHonorPoints</a>
