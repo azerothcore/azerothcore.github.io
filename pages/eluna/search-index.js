@@ -731,6 +731,7 @@ searchIndex["Achievement"] = {
         [3, "SetGMVisible", "", "Toggles whether the <a class=\"mod\" href=\"Player/index.html\">Player</a> has GM visibility on or off"],
         [3, "SetGameMaster", "", "Toggles the <a class=\"mod\" href=\"Player/index.html\">Player</a>s GM mode on or off"],
         [3, "SetGender", "", "Sets the <a class=\"mod\" href=\"Player/index.html\">Player</a>s gender to gender specified"],
+        [3, "SetGlyph", "", "Adds a glyph specified by <code>glyphId</code> to the <a class=\"mod\" href=\"Player/index.html\">Player</a>'s current talent specialization into the slot with the index <code>slotIndex</code>"],
         [3, "SetGuildRank", "", "Sets the <a class=\"mod\" href=\"Player/index.html\">Player</a>s guild rank to the rank specified"],
         [3, "SetHonorLastWeekStandingPos", "", "Sets last week's honor standing position"],
         [3, "SetHonorPoints", "", "Sets the <a class=\"mod\" href=\"Player/index.html\">Player</a>s Honor Points to the amount specified"],
