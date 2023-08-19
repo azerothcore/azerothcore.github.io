@@ -1,11 +1,13 @@
 var a02114 =
 [
-    [ "AuraEffect", "d6/df4/a10490.html", "d6/df4/a10490" ],
-    [ "Acore::AbsorbAuraOrderPred", "de/da7/a10494.html", "de/da7/a10494" ],
-    [ "pAuraEffectHandler", "da/d4a/a02114.html#a9e98d9a1c1cc41922f386b184fd7ce67", null ],
-    [ "BrewfestEntries", "da/d4a/a02114.html#a4ee83f582e4ebba3a5aea9ab1a5c9354", [
-      [ "BREWFEST_KODO", "da/d4a/a02114.html#a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5", null ],
-      [ "GREAT_BREWFEST_KODO", "da/d4a/a02114.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa", null ],
-      [ "FRESH_BREWFEST_HOPS", "da/d4a/a02114.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf", null ]
-    ] ]
+    [ "SkillPerfectItemEntry", "d7/d36/a10537.html", "d7/d36/a10537" ],
+    [ "SkillExtraItemEntry", "d9/dae/a10541.html", "d9/dae/a10541" ],
+    [ "SkillExtraItemMap", "da/d4a/a02114.html#a9ba2d7d2e815aee57a701990b858db7b", null ],
+    [ "SkillPerfectItemMap", "da/d4a/a02114.html#ad732be66d93ed6e8f498077f27e2766b", null ],
+    [ "canCreateExtraItems", "da/d4a/a02114.html#a49687e255d65fa15dac5e6a428c5739d", null ],
+    [ "CanCreatePerfectItem", "da/d4a/a02114.html#a818c557864790091814604b6d2175e52", null ],
+    [ "LoadSkillExtraItemTable", "da/d4a/a02114.html#a3244d04018405bafe21acc8bc96cc743", null ],
+    [ "LoadSkillPerfectItemTable", "da/d4a/a02114.html#a121df170a82be5ab5b05999a6be27b69", null ],
+    [ "SkillExtraItemStore", "da/d4a/a02114.html#acc52416c05fbae29bcbfa9f0683485cd", null ],
+    [ "SkillPerfectItemStore", "da/d4a/a02114.html#ac676f0acbf782fa2d31bd66b8eaa8260", null ]
 ];

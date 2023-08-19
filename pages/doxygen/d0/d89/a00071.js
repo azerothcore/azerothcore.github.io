@@ -1,7 +1,7 @@
 var a00071 =
 [
-    [ "VMAP::ManagedModel", "d8/d20/a04686.html", "d8/d20/a04686" ],
-    [ "VMAP::VMapMgr2", "d8/d18/a04690.html", "d8/d18/a04690" ],
+    [ "VMAP::ManagedModel", "d2/d91/a04697.html", "d2/d91/a04697" ],
+    [ "VMAP::VMapMgr2", "df/d8c/a04701.html", "df/d8c/a04701" ],
     [ "FILENAMEBUFFER_SIZE", "d0/d89/a00071.html#aebe91d3f560a4221b135ef03b21a485f", null ],
     [ "MAP_FILENAME_EXTENSION2", "d0/d89/a00071.html#aad39c14e5fae9fd5141df154332ae6fd", null ],
     [ "InstanceTreeMap", "d0/d89/a00071.html#a38798cd0b87931dbaeda34fa316c2f6f", null ],

@@ -1,29 +1,38 @@
 var a01358 =
 [
-    [ "HashMapHolder< T >", "d2/d63/a08326.html", "d2/d63/a08326" ],
-    [ "AddObject", "de/d5c/a01358.html#a0726eba7e71a7c6d4f6f90b4dfb410f8", null ],
-    [ "AddObject", "de/d5c/a01358.html#a2f3be0f1bc71493623f991ad879c8be4", null ],
-    [ "FindConnectedPlayer", "de/d5c/a01358.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0", null ],
-    [ "FindPlayer", "de/d5c/a01358.html#a9ede56180a13f102ad195136eadb97ee", null ],
-    [ "FindPlayerByLowGUID", "de/d5c/a01358.html#a106c85352229fc2c097d9e021b4ce297", null ],
-    [ "FindPlayerByName", "de/d5c/a01358.html#af5cb6806842c9689cf1d5f43ffdc4b0a", null ],
-    [ "GetCorpse", "de/d5c/a01358.html#a9031db6958a68a6fda60e3c0f37d639f", null ],
-    [ "GetCreature", "de/d5c/a01358.html#ae42e503fe79bbeaea1aaa665418c43f8", null ],
-    [ "GetCreatureOrPetOrVehicle", "de/d5c/a01358.html#abe7c8995443541417f52b00973dbde6f", null ],
-    [ "GetDynamicObject", "de/d5c/a01358.html#a76097a1f20df3f0e83516b1175a17397", null ],
-    [ "GetGameObject", "de/d5c/a01358.html#a424a63829a446dac6f97a464cc64ed48", null ],
-    [ "GetObjectByTypeMask", "de/d5c/a01358.html#a0bfd3fb4a5f43a4159bbd0b176186e19", null ],
-    [ "GetPet", "de/d5c/a01358.html#a76e4ca902836751980d6157a3eed7967", null ],
-    [ "GetPlayer", "de/d5c/a01358.html#aeb3657e7ad09335b9a9ffa50473aa216", null ],
-    [ "GetPlayer", "de/d5c/a01358.html#a9179a3b50b384405892a8e8e538617b4", null ],
-    [ "GetPlayers", "de/d5c/a01358.html#a868ecab21b3e6e3ac68beed32f4ea793", null ],
-    [ "GetSpawnedCreatureByDBGUID", "de/d5c/a01358.html#a4cebdea9476a004a8a1bd57c40d1f3ae", null ],
-    [ "GetSpawnedGameObjectByDBGUID", "de/d5c/a01358.html#a6639665d2704cbd06727004567caac15", null ],
-    [ "GetTransport", "de/d5c/a01358.html#a2ddde0dc109d262af644c232a315afd7", null ],
-    [ "GetUnit", "de/d5c/a01358.html#a02c2dfb59db7d7e2501dcc9a4f9baf07", null ],
-    [ "GetWorldObject", "de/d5c/a01358.html#ade254f98439319c444ce701c75d4f93a", null ],
-    [ "RemoveObject", "de/d5c/a01358.html#a43f4538cfa587672688705f6f7a60edc", null ],
-    [ "RemoveObject", "de/d5c/a01358.html#ad72db398e2ff25a82a93e89fb67c56ff", null ],
-    [ "SaveAllPlayers", "de/d5c/a01358.html#a0fba0222d2e46026727c6e898a7f35bc", null ],
-    [ "UpdatePlayerNameMapReference", "de/d5c/a01358.html#a8a088e6967b9972662d788beffba14d4", null ]
+    [ "PassengerInfo", "d3/d65/a08333.html", "d3/d65/a08333" ],
+    [ "VehicleSeat", "da/d32/a08337.html", "da/d32/a08337" ],
+    [ "VehicleAccessory", "d9/de9/a08341.html", "d9/de9/a08341" ],
+    [ "TransportBase", "de/d91/a08345.html", "de/d91/a08345" ],
+    [ "SeatMap", "de/d5c/a01358.html#a2dadb2596b27d20ebbc12696cb7b9a74", null ],
+    [ "VehicleAccessoryContainer", "de/d5c/a01358.html#a5b46179616c0e205a7c933e02f87160b", null ],
+    [ "VehicleAccessoryList", "de/d5c/a01358.html#af5d682a742080008bd21db9bba6e162f", null ],
+    [ "PowerType", "de/d5c/a01358.html#a0d0e3226055ad5266e487b58fd01cebd", [
+      [ "POWER_STEAM", "de/d5c/a01358.html#a0d0e3226055ad5266e487b58fd01cebda687679964e834b0ca1543e4dd62ad47f", null ],
+      [ "POWER_PYRITE", "de/d5c/a01358.html#a0d0e3226055ad5266e487b58fd01cebda80a2f688d9270400c0a412df595754d9", null ],
+      [ "POWER_HEAT", "de/d5c/a01358.html#a0d0e3226055ad5266e487b58fd01cebda84c681da1fcd67b223f97fd81f534434", null ],
+      [ "POWER_OOZE", "de/d5c/a01358.html#a0d0e3226055ad5266e487b58fd01cebda9bc45bf37416c880275746bf261a4097", null ],
+      [ "POWER_BLOOD", "de/d5c/a01358.html#a0d0e3226055ad5266e487b58fd01cebda73464121f88e583ed4c4f89280fd7d68", null ],
+      [ "POWER_WRATH", "de/d5c/a01358.html#a0d0e3226055ad5266e487b58fd01cebda94e6111f7ab9d0e57b77b1b3f70faab1", null ]
+    ] ],
+    [ "VehicleFlags", "de/d5c/a01358.html#a6f71ae83254cc7417ec04e6ac2a55f7a", [
+      [ "VEHICLE_FLAG_NO_STRAFE", "de/d5c/a01358.html#a6f71ae83254cc7417ec04e6ac2a55f7aa42ade3ec25a77cbf106f1da2cc732a6b", null ],
+      [ "VEHICLE_FLAG_NO_JUMPING", "de/d5c/a01358.html#a6f71ae83254cc7417ec04e6ac2a55f7aa283b85a441a9087bd98ed48a34707c6f", null ],
+      [ "VEHICLE_FLAG_FULLSPEEDTURNING", "de/d5c/a01358.html#a6f71ae83254cc7417ec04e6ac2a55f7aa8eb5fb073cde2366b27d7726b55593b1", null ],
+      [ "VEHICLE_FLAG_ALLOW_PITCHING", "de/d5c/a01358.html#a6f71ae83254cc7417ec04e6ac2a55f7aa929f5dba0c217566377740ffbde2195f", null ],
+      [ "VEHICLE_FLAG_FULLSPEEDPITCHING", "de/d5c/a01358.html#a6f71ae83254cc7417ec04e6ac2a55f7aaeeead2f047ca8fa51f9fb779867cd2c5", null ],
+      [ "VEHICLE_FLAG_CUSTOM_PITCH", "de/d5c/a01358.html#a6f71ae83254cc7417ec04e6ac2a55f7aaadfdb0e47bbca692a5cada5b07577a22", null ],
+      [ "VEHICLE_FLAG_ADJUST_AIM_ANGLE", "de/d5c/a01358.html#a6f71ae83254cc7417ec04e6ac2a55f7aa2cdd4b1bec19233a8162dc420ecde103", null ],
+      [ "VEHICLE_FLAG_ADJUST_AIM_POWER", "de/d5c/a01358.html#a6f71ae83254cc7417ec04e6ac2a55f7aadf965323e550d3307799178679544dd5", null ]
+    ] ],
+    [ "VehicleNPCs", "de/d5c/a01358.html#aecacfdf074f78c4655fc7b038cce5c06", [
+      [ "NPC_EIDOLON_WATCHER", "de/d5c/a01358.html#aecacfdf074f78c4655fc7b038cce5c06a1ad291a45a8ceaff91f636890e29dcb8", null ],
+      [ "NPC_LITHE_STALKER", "de/d5c/a01358.html#aecacfdf074f78c4655fc7b038cce5c06a5a7d35fc890662fca47daf84cc7c0612", null ]
+    ] ],
+    [ "VehicleSpells", "de/d5c/a01358.html#a5829b6d4bd25b5c2a56495142fa8ca54", [
+      [ "VEHICLE_SPELL_RIDE_HARDCODED", "de/d5c/a01358.html#a5829b6d4bd25b5c2a56495142fa8ca54adc19864d7c866905ca0c5bcec8b60119", null ],
+      [ "VEHICLE_SPELL_PARACHUTE", "de/d5c/a01358.html#a5829b6d4bd25b5c2a56495142fa8ca54a9d7d863fbfbc5b74e135ff1c825f2eae", null ],
+      [ "VEHICLE_SPELL_GEIST_CONTROL_END", "de/d5c/a01358.html#a5829b6d4bd25b5c2a56495142fa8ca54ac4b6447ce07cbd236c81e6cc097a42fe", null ],
+      [ "VEHICLE_SPELL_SHADE_CONTROL_END", "de/d5c/a01358.html#a5829b6d4bd25b5c2a56495142fa8ca54aa4ccb8c6147a5a23c813ae796ebe267b", null ]
+    ] ]
 ];

@@ -1,38 +1,36 @@
 var a04007 =
 [
-    [ "BloodFurnaceScriptName", "d2/dfc/a04007.html#a059e1a38f9d79807d65ad8edfd39138f", null ],
-    [ "DataHeader", "d2/dfc/a04007.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "RegisterBloodFurnaceCreatureAI", "d2/dfc/a04007.html#a681938cba5eeb9c62242905fbed9b7ab", null ],
-    [ "bloodFurnace", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521", [
-      [ "DATA_THE_MAKER", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521a217584223ad4e053515b9ba1c45f6f1c", null ],
-      [ "DATA_BROGGOK", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521ab4ee9b3fa6f2378216eaad263527118d", null ],
-      [ "DATA_KELIDAN", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3", null ],
-      [ "MAX_ENCOUNTER", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521a7913656ef56deb3793c0c5f3d999d80d", null ],
-      [ "DATA_DOOR1", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521a5be731cf2d344b403486f7319fae9830", null ],
-      [ "DATA_DOOR2", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521ab8bd986eb150e659f71fa84f45e63bb7", null ],
-      [ "DATA_DOOR3", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521aa433f4d5fa76b9f181264383b4a98a7f", null ],
-      [ "DATA_BROGGOK_REAR_DOOR", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521a2aeb6a52358b7f3b9d29f01fd6c3c9b4", null ],
-      [ "DATA_BROGGOK_LEVER", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521a00c166107a310e864a95d0aa174e6a2d", null ],
-      [ "DATA_DOOR6", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521a06ff2fef4decc65fc813d31bc70d967a", null ],
-      [ "DATA_PRISON_CELL1", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521a38e1047c0f32ee1086b17ab937b93133", null ],
-      [ "DATA_PRISON_CELL2", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521a3073b7783a2fb29629dd8144a46cf27b", null ],
-      [ "DATA_PRISON_CELL3", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521a43cb03f70352747a1b21db3ad18d45cc", null ],
-      [ "DATA_PRISON_CELL4", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521add420385ff32f4362b994bc24207cde2", null ],
-      [ "ACTION_ACTIVATE_BROGGOK", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521a2839e46e2718d788680e6ab738e5304b", null ],
-      [ "ACTION_PREPARE_BROGGOK", "d2/dfc/a04007.html#ae8bfbe71365d644cb4c1b500e73ec521a0a587bd74e99773bd5a5cc3d91a33aa5", null ]
+    [ "boss_high_king_maulgar", "d5/d6a/a25269.html", "d5/d6a/a25269" ],
+    [ "boss_olm_the_summoner", "d7/da1/a25273.html", "d7/da1/a25273" ],
+    [ "boss_kiggler_the_crazed", "d0/dcd/a25277.html", "d0/dcd/a25277" ],
+    [ "boss_blindeye_the_seer", "dc/d9d/a25281.html", "dc/d9d/a25281" ],
+    [ "boss_krosh_firehand", "d9/d29/a25285.html", "d9/d29/a25285" ],
+    [ "HighKingMaulgar", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00", [
+      [ "SAY_AGGRO", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a47c752fff069f3e55065795eef2a9bfe", null ],
+      [ "SAY_ENRAGE", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00ac90d9311ef3cf3f33564ce22ff904f54", null ],
+      [ "SAY_OGRE_DEATH", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a95b1d5ce0a72c3cd74ad2936384e0327", null ],
+      [ "SAY_SLAY", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a9e64f6e600dd42567d18006912811f75", null ],
+      [ "SAY_DEATH", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a04c962d9b6aaafde54ff92a54369135e", null ],
+      [ "SPELL_ARCING_SMASH", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00abfd4b3a49fefdc02e654db0e63326f1e", null ],
+      [ "SPELL_MIGHTY_BLOW", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00ae9c68ac99f2257b412925e1b55e98716", null ],
+      [ "SPELL_WHIRLWIND", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00aed3f27157e41ec7644a53b6f9a827801", null ],
+      [ "SPELL_BERSERKER_C", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a3310668bd975bc2e17281127230ab8c4", null ],
+      [ "SPELL_ROAR", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a2850de7b373712096ae835fe75a3632f", null ],
+      [ "SPELL_FLURRY", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a98984f299eb2988a14d18b17e10cae58", null ],
+      [ "SPELL_DARK_DECAY", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00af01fc976fe7d4ab3beae4c372bc5920c", null ],
+      [ "SPELL_DEATH_COIL", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a196972e452f4cb5df032e5119d25f163", null ],
+      [ "SPELL_SUMMON_WFH", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a2e3a5283de8e1145f42de375883b6112", null ],
+      [ "SPELL_GREATER_POLYMORPH", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a1dd7faa947ee359df60cc4dfc87aa9df", null ],
+      [ "SPELL_LIGHTNING_BOLT", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a920803a7ad734282762d93767b701526", null ],
+      [ "SPELL_ARCANE_SHOCK", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a70217cff0adeb1a0499b1651a82f03ef", null ],
+      [ "SPELL_ARCANE_EXPLOSION", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a6cef4c5e88133771f6b27aec8b8cfdce", null ],
+      [ "SPELL_GREATER_PW_SHIELD", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a55ae8f41cbf9520dcf85fbec5a89d7d0", null ],
+      [ "SPELL_HEAL", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a69fcca2d13e03c684fa0459f960ef9a7", null ],
+      [ "SPELL_PRAYER_OH", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a60e7f4938fc88cf1649f00a81e4ea95b", null ],
+      [ "SPELL_GREATER_FIREBALL", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00ab7f9ec669b70354ccaba25559dda41d7", null ],
+      [ "SPELL_SPELLSHIELD", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a37fcb71489a9591a31c6f74520ed175e", null ],
+      [ "SPELL_BLAST_WAVE", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a70309c041527816c73053b7d9b387f88", null ],
+      [ "ACTION_ADD_DEATH", "d2/dfc/a04007.html#a79b8e9b872a1c2b80ceefb2d55901a00a37c2463b1e6a48c0812bd3a0df718ffd", null ]
     ] ],
-    [ "BloodFurnaceGO", "d2/dfc/a04007.html#a74a34510d05b4c79015fd0ba024b4e27", [
-      [ "GO_BROGGOK_DOOR_FRONT", "d2/dfc/a04007.html#a74a34510d05b4c79015fd0ba024b4e27a7f079434fee3d7babbf2e014b16ba058", null ],
-      [ "GO_BROGGOK_DOOR_REAR", "d2/dfc/a04007.html#a74a34510d05b4c79015fd0ba024b4e27af6a7585ba449b6a97baf1bc94725580f", null ],
-      [ "GO_BROGGOK_LEVER", "d2/dfc/a04007.html#a74a34510d05b4c79015fd0ba024b4e27ad6160ee46c205c3ad0b533952de34294", null ]
-    ] ],
-    [ "bloodFurnaceNPC", "d2/dfc/a04007.html#aa518f004f7df866d1fc0e781b6a5f3a0", [
-      [ "NPC_THE_MAKER", "d2/dfc/a04007.html#aa518f004f7df866d1fc0e781b6a5f3a0adee32b124f549802c329b672679b8333", null ],
-      [ "NPC_BROGGOK", "d2/dfc/a04007.html#aa518f004f7df866d1fc0e781b6a5f3a0a4cf62e33a7fa35ef63ad878dfeeb0ad9", null ],
-      [ "NPC_KELIDAN", "d2/dfc/a04007.html#aa518f004f7df866d1fc0e781b6a5f3a0a6332b11d449d4fd83c67fc13c06d7210", null ],
-      [ "NPC_NASCENT_FEL_ORC", "d2/dfc/a04007.html#aa518f004f7df866d1fc0e781b6a5f3a0a2d648c17cf1d4c62de4d35b07d1bf8c7", null ],
-      [ "NPC_CHANNELER", "d2/dfc/a04007.html#aa518f004f7df866d1fc0e781b6a5f3a0a829f7c3a21ad299d21aa23035ca5e53d", null ]
-    ] ],
-    [ "GetBloodFurnaceAI", "d2/dfc/a04007.html#a4aa87dfa17e2fb43b14c2ca77bb22aeb", null ],
-    [ "EncounterCount", "d2/dfc/a04007.html#ae6104e16f72c5b3e12bd4250dde032ce", null ]
+    [ "AddSC_boss_high_king_maulgar", "d2/dfc/a04007.html#a834deb3700299f1a26f70d1db3e7c804", null ]
 ];

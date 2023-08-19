@@ -1,25 +1,35 @@
 var a03863 =
 [
-    [ "boss_grandmaster_vorpil", "d0/d30/a24310.html", "d0/d30/a24310" ],
-    [ "npc_voidtraveler", "d7/dc1/a24314.html", "d7/dc1/a24314" ],
-    [ "GrandmasterVorpil", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2", [
-      [ "SAY_INTRO", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2af5bc3db04213b3bf118af6ce85b5a637", null ],
-      [ "SAY_AGGRO", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2a47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SAY_HELP", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2a13e3c4fbf4ffac2b5a7fc5c14d049293", null ],
-      [ "SAY_SLAY", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2a9e64f6e600dd42567d18006912811f75", null ],
-      [ "SAY_DEATH", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2a04c962d9b6aaafde54ff92a54369135e", null ],
-      [ "SPELL_RAIN_OF_FIRE", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2a770475c37ddfbb0a8c98a0c8a7c98f0d", null ],
-      [ "SPELL_DRAW_SHADOWS", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2a3b0c5710cb5f2ec408a1ffffc8b5ac05", null ],
-      [ "SPELL_SHADOWBOLT_VOLLEY", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2a9920244895e362fd1d3b8789ac5f5811", null ],
-      [ "SPELL_BANISH", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2aac24cc2caebd844c628ef25f29cd4140", null ],
-      [ "NPC_VOID_TRAVELER", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2acdd8c6d92808b3e8e35ccd823d9822ff", null ],
-      [ "SPELL_SACRIFICE", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2aa2bb3f7214745b5e9789671b55bd90ee", null ],
-      [ "SPELL_SHADOW_NOVA", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2adb72665839c4e1a455c082fd2ab65b43", null ],
-      [ "SPELL_EMPOWERING_SHADOWS", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2a43bdb6fa5359af3837a20118a4f3863d", null ],
-      [ "NPC_VOID_PORTAL", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2a37fddc840f4a770c09369daa287a4d4e", null ],
-      [ "SPELL_VOID_PORTAL_VISUAL", "d4/db7/a03863.html#a71819e2e981a5c01536ce8371389e5b2a00905be6ff2387c27bb9ba391e54249a", null ]
+    [ "DataHeaders", "d4/db7/a03863.html#a5b5ca0ae07e92e9cad54568049f06fce", null ],
+    [ "RegisterSethekkHallsCreatureAI", "d4/db7/a03863.html#a4d0e02e340e57e5ff9f0184f82b086d5", null ],
+    [ "SethekkHallsScriptName", "d4/db7/a03863.html#a96ebd14b5dafc2480cbdb13e0bc4b7ab", null ],
+    [ "eIds", "d4/db7/a03863.html#a69c4601e4dd1496f746404c6abe87291", [
+      [ "NPC_VOICE_OF_THE_RAVEN_GOD", "d4/db7/a03863.html#a69c4601e4dd1496f746404c6abe87291aad4ab883c15374d38bc38b0f71f0c86a", null ],
+      [ "NPC_ANZU", "d4/db7/a03863.html#a69c4601e4dd1496f746404c6abe87291af130c29d37cee0370ac78ac4be4e415f", null ],
+      [ "GO_IKISS_DOOR", "d4/db7/a03863.html#a69c4601e4dd1496f746404c6abe87291a7975fc4f8b3558e660375d98a9d0e54e", null ],
+      [ "GO_THE_TALON_KINGS_COFFER", "d4/db7/a03863.html#a69c4601e4dd1496f746404c6abe87291a7957c3a97be229f195e4375af7b06e2c", null ]
     ] ],
-    [ "AddSC_boss_grandmaster_vorpil", "d4/db7/a03863.html#af79bca9b81cdd4bec8ed244213f42deb", null ],
-    [ "VoidPortalCoords", "d4/db7/a03863.html#adff0c0bba49e4e02cde6a9cd4d77e020", null ],
-    [ "VorpilPosition", "d4/db7/a03863.html#a2eabc22870206fb595c73ad86cc767ed", null ]
+    [ "Encounters", "d4/db7/a03863.html#abf7d0c9385f088b09a017ee50e9db6ee", [
+      [ "DATA_DARKWEAVER_SYTH", "d4/db7/a03863.html#abf7d0c9385f088b09a017ee50e9db6eea6dbed6ec6697669d80047612efd58da9", null ],
+      [ "DATA_ANZU", "d4/db7/a03863.html#abf7d0c9385f088b09a017ee50e9db6eeac072367637c0d4080d6d25a349b54a54", null ],
+      [ "DATA_IKISS", "d4/db7/a03863.html#abf7d0c9385f088b09a017ee50e9db6eea354bfb39a3150d5f75a42abc68cbcc83", null ]
+    ] ],
+    [ "eTypes", "d4/db7/a03863.html#a31365a35c315c6cb485bcd31f5ba77fd", [
+      [ "DATA_MAGUS_TELESTRA_EVENT", "dd/d25/a03545.html#a31365a35c315c6cb485bcd31f5ba77fda097adced7c95a2c9718c2c785bee7f83", null ],
+      [ "DATA_ANOMALUS_EVENT", "dd/d25/a03545.html#a31365a35c315c6cb485bcd31f5ba77fdaaf86ee46d11b318ef5caffe5d123342a", null ],
+      [ "DATA_ORMOROK_EVENT", "dd/d25/a03545.html#a31365a35c315c6cb485bcd31f5ba77fda521150b4f00d388d28870138ef89029a", null ],
+      [ "DATA_KERISTRASZA_EVENT", "dd/d25/a03545.html#a31365a35c315c6cb485bcd31f5ba77fdacc731df49caf259ade6ae981d7b6fffa", null ],
+      [ "DATA_COMMANDER_EVENT", "dd/d25/a03545.html#a31365a35c315c6cb485bcd31f5ba77fdaeec4cc47ddf1f8b45982ab9b09609204", null ],
+      [ "DATA_TELESTRA_ORB", "dd/d25/a03545.html#a31365a35c315c6cb485bcd31f5ba77fda6070c92aa13cfc41ea707f2e4f317c49", null ],
+      [ "DATA_ANOMALUS_ORB", "dd/d25/a03545.html#a31365a35c315c6cb485bcd31f5ba77fda7ca67e2df8f6c5ba3b64a58ffe838f79", null ],
+      [ "DATA_ORMOROK_ORB", "dd/d25/a03545.html#a31365a35c315c6cb485bcd31f5ba77fda04925ab93b3def016402fa3d6c763cb8", null ],
+      [ "MAX_ENCOUNTERS", "dd/d25/a03545.html#a31365a35c315c6cb485bcd31f5ba77fda9cfa5bdc17e1d5a590d300b530b36a25", null ],
+      [ "DATA_IKISSDOOREVENT", "d4/db7/a03863.html#a31365a35c315c6cb485bcd31f5ba77fda4254e5b20964fa4c45d7bed553c3cb95", null ],
+      [ "TYPE_ANZU_ENCOUNTER", "d4/db7/a03863.html#a31365a35c315c6cb485bcd31f5ba77fda7184f794bd903d92cba3eb6fa7297784", null ]
+    ] ],
+    [ "InstanceData", "d4/db7/a03863.html#a453c4190aaa5e59675ce6366d48c4778", [
+      [ "DATA_GO_TALON_KING_COFFER", "d4/db7/a03863.html#a453c4190aaa5e59675ce6366d48c4778a25477ff5678a4450f584b7e148c91101", null ]
+    ] ],
+    [ "GetSethekkHallsAI", "d4/db7/a03863.html#a9b5213e8c6cd59c731bb4eaad803766d", null ],
+    [ "EncounterCount", "d4/db7/a03863.html#ae1fbcd81e7256d27efa0288994753839", null ]
 ];

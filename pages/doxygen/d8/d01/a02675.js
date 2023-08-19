@@ -1,5 +1,6 @@
 var a02675 =
 [
-    [ "spell_q12779_an_end_to_all_things", "d8/db4/a12602.html", "d8/db4/a12602" ],
-    [ "AddSC_the_scarlet_enclave_c3", "d8/d01/a02675.html#add963c2bc2b515348b9b7c636d176927", null ]
+    [ "instance_magisters_terrace", "d7/d32/a12409.html", "d7/d32/a12409" ],
+    [ "instance_magisters_terrace::instance_magisters_terrace_InstanceMapScript", "dc/d83/a12413.html", "dc/d83/a12413" ],
+    [ "AddSC_instance_magisters_terrace", "d8/d01/a02675.html#a39e3bff767d59081afebb72eeb3a1646", null ]
 ];

@@ -1,21 +1,23 @@
 var a02792 =
 [
-    [ "LocationXYZ", "de/d6f/a13402.html", "de/d6f/a13402" ],
-    [ "npc_rinji", "d3/d83/a13406.html", "d3/d83/a13406" ],
-    [ "npc_rinji::npc_rinjiAI", "d2/dd5/a13410.html", "d2/dd5/a13410" ],
-    [ "Rinji", "de/db6/a02792.html#ab769c87cc823749a5fe9cc0ed4f59133", [
-      [ "SAY_RIN_BY_OUTRUNNER", "de/db6/a02792.html#ab769c87cc823749a5fe9cc0ed4f59133a3aaaf930cf9ab49ca1d76cc6ed5e766c", null ],
-      [ "SAY_RIN_FREE", "de/db6/a02792.html#ab769c87cc823749a5fe9cc0ed4f59133a18a3ea60620bdbd5ef82292e56df01d3", null ],
-      [ "SAY_RIN_HELP", "de/db6/a02792.html#ab769c87cc823749a5fe9cc0ed4f59133af6414cba0564a077856ea0ee01cde0e0", null ],
-      [ "SAY_RIN_COMPLETE", "de/db6/a02792.html#ab769c87cc823749a5fe9cc0ed4f59133a2e8b271174b0c30e02c7d465daca4632", null ],
-      [ "SAY_RIN_PROGRESS_1", "de/db6/a02792.html#ab769c87cc823749a5fe9cc0ed4f59133a8f06b066d2b30fd7440ab8d0c0450aa5", null ],
-      [ "SAY_RIN_PROGRESS_2", "de/db6/a02792.html#ab769c87cc823749a5fe9cc0ed4f59133a9d77a031db4f3a40f412949a95be80c5", null ],
-      [ "QUEST_RINJI_TRAPPED", "de/db6/a02792.html#ab769c87cc823749a5fe9cc0ed4f59133aeb5734ecb62da42fe708673351c073e8", null ],
-      [ "NPC_RANGER", "de/db6/a02792.html#ab769c87cc823749a5fe9cc0ed4f59133aec7fcfc9b715f5aeadff781115a0e69e", null ],
-      [ "NPC_OUTRUNNER", "de/db6/a02792.html#ab769c87cc823749a5fe9cc0ed4f59133abc36fa763814aa6d572492b462e191a2", null ],
-      [ "GO_RINJI_CAGE", "de/db6/a02792.html#ab769c87cc823749a5fe9cc0ed4f59133a8b71e8dfde4865f3891f672d000410fb", null ]
+    [ "npc_eris_hevenfire", "d7/df6/a13309.html", "d7/df6/a13309" ],
+    [ "npc_eris_hevenfire::npc_eris_hevenfireAI", "db/d00/a13313.html", "db/d00/a13313" ],
+    [ "npc_balance_of_light_and_shadow", "d4/d3c/a13317.html", "d4/d3c/a13317" ],
+    [ "npc_balance_of_light_and_shadow::npc_balance_of_light_and_shadowAI", "d4/da7/a13321.html", "d4/da7/a13321" ],
+    [ "npc_augustus_the_touched", "d6/d1c/a13325.html", "d6/d1c/a13325" ],
+    [ "eEris", "de/db6/a02792.html#a0846b7169aa45fd1ef72775a5f6e36fe", [
+      [ "QUEST_BALANCE_OF_LIGHT_AND_SHADOW", "de/db6/a02792.html#a0846b7169aa45fd1ef72775a5f6e36fea893fed7c9aba464b46eda93ba0ff910e", null ],
+      [ "ITEM_EYE_OF_DIVINITY", "de/db6/a02792.html#a0846b7169aa45fd1ef72775a5f6e36feaa330f1e90d7e18c5cec4f6ac9eccbf9b", null ],
+      [ "NPC_INJURED_PEASANT", "de/db6/a02792.html#a0846b7169aa45fd1ef72775a5f6e36feaae13148e0ec5731f2bc25c5cd83fb54a", null ],
+      [ "NPC_PLAGUED_PEASANT", "de/db6/a02792.html#a0846b7169aa45fd1ef72775a5f6e36fea2e04645dc1fe7fae413d5c2c903c89d2", null ],
+      [ "NPC_SCOURGE_ARCHER", "de/db6/a02792.html#a0846b7169aa45fd1ef72775a5f6e36fea50dd59f1eeb08594a61c6ad576ad2814", null ],
+      [ "EVENT_SUMMON_PEASANTS", "de/db6/a02792.html#a0846b7169aa45fd1ef72775a5f6e36fea499f23b6c79690c613e046b3e6394937", null ],
+      [ "EVENT_CHECK_PLAYER", "de/db6/a02792.html#a0846b7169aa45fd1ef72775a5f6e36fea3d3d147dbdefaa5a8280f3d1bcc15ea8", null ],
+      [ "EVENT_SUMMON_ARCHERS", "de/db6/a02792.html#a0846b7169aa45fd1ef72775a5f6e36fea84afa1291830b37278989be41610fb72", null ],
+      [ "SPELL_SHOOT", "de/db6/a02792.html#a0846b7169aa45fd1ef72775a5f6e36fea1b728fa1bb0194534b5b491d35ed871c", null ],
+      [ "SPELL_DEATHS_DOOR", "de/db6/a02792.html#a0846b7169aa45fd1ef72775a5f6e36fea59bc5812f6dcf3f0e45b673f923490e7", null ],
+      [ "SPELL_SEETHING_PLAGUE", "de/db6/a02792.html#a0846b7169aa45fd1ef72775a5f6e36feac366f4ed224210fd4352c0ac9fb1c12a", null ],
+      [ "SPELL_ERIS_BLESSING", "de/db6/a02792.html#a0846b7169aa45fd1ef72775a5f6e36feaaedc6f0db3ab3db342fe3379082ce633", null ]
     ] ],
-    [ "AddSC_hinterlands", "de/db6/a02792.html#a0b6f7497a7db75be5fe9d90d14c46720", null ],
-    [ "AmbushMoveTo", "de/db6/a02792.html#aa2e998c0f3d966c32be9106221fe957c", null ],
-    [ "AmbushSpawn", "de/db6/a02792.html#ace1d91ebeb7be507ec886616fad7eef4", null ]
+    [ "AddSC_eastern_plaguelands", "de/db6/a02792.html#aaef7747656518bf0ce052d780430ed88", null ]
 ];

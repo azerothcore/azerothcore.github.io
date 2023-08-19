@@ -1,7 +1,7 @@
 var a01019 =
 [
-    [ "Acore::Impl::ChatCommands::FilteredCommandListIterator", "de/d75/a07034.html", "de/d75/a07034" ],
-    [ "ChatSubCommandMap", "db/daf/a01019.html#a306b7e46fd4791f088a8919720238f3d", null ],
-    [ "LogCommandUsage", "db/daf/a01019.html#a8dc2bbcf5b90559262a46829632f332e", null ],
-    [ "COMMAND_MAP", "db/daf/a01019.html#a569e79432c3876f4ac0b961e8a783003", null ]
+    [ "ChannelMgr", "de/d2e/a07065.html", "de/d2e/a07065" ],
+    [ "AllianceChannelMgr", "d2/d4d/a07069.html", "d2/d4d/a07069" ],
+    [ "HordeChannelMgr", "d4/db7/a07073.html", "d4/db7/a07073" ],
+    [ "MAX_CHANNEL_PASS_STR", "db/daf/a01019.html#a06f16ee81d2214d67575f108b76f6333", null ]
 ];

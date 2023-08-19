@@ -1,14 +1,16 @@
 var a01301 =
 [
-    [ "BeforeVisibilityDestroy", "d3/d07/a01301.html#a8172910e1dfdc7b56ca3931dd2fab1fb", null ],
-    [ "BeforeVisibilityDestroy< Creature >", "d3/d07/a01301.html#a62188ab6a72d08b62bf37442dbbfdaa6", null ],
-    [ "getProbabilityOfLevelUp", "d3/d07/a01301.html#aa890f698ac89e4049e1107c05d065495", null ],
-    [ "SkillGainChance", "d3/d07/a01301.html#a66adde9ba6a85d585f6e6e8355499aa6", null ],
-    [ "UpdateVisibilityOf_helper", "d3/d07/a01301.html#a5f5d6b73fc1fb15a0cde612641ba3433", null ],
-    [ "UpdateVisibilityOf_helper", "d3/d07/a01301.html#aa522147fa6130f7d54551f137424bd15", null ],
-    [ "UpdateVisibilityOf_helper", "d3/d07/a01301.html#ac411c559a97e183268339b1ea63a84b6", null ],
-    [ "UpdateVisibilityOf_helper", "d3/d07/a01301.html#a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77", null ],
-    [ "bonusSkillLevels", "d3/d07/a01301.html#a72b3624ee55553e28f82ef06d7c74c6a", null ],
-    [ "bonusSkillLevelsSize", "d3/d07/a01301.html#a2462e5521a90194e3f5c525e3a62d842", null ],
-    [ "ZONE_UPDATE_INTERVAL", "d3/d07/a01301.html#afabbcd46bf6f03c5dca10b117810b710", null ]
+    [ "PlayerSetting", "d2/d9f/a08173.html", "d2/d9f/a08173" ],
+    [ "PlayerSettingMap", "d3/d07/a01301.html#a03676554928fdf5649c8c7f77a128d04", null ],
+    [ "PlayerSettingVector", "d3/d07/a01301.html#a5c88535ec12f87cc432b1c594bf05326", null ],
+    [ "AnnouncerFlags", "d3/d07/a01301.html#a32dfba2d10d91879403874fc75b928fd", [
+      [ "ANNOUNCER_FLAG_DISABLE_BG_QUEUE", "d3/d07/a01301.html#a32dfba2d10d91879403874fc75b928fdade902d5cd94d828fb33601d0d2461828", null ],
+      [ "ANNOUNCER_FLAG_DISABLE_ARENA_QUEUE", "d3/d07/a01301.html#a32dfba2d10d91879403874fc75b928fda9135a4bbd55879aac0e222d69a6a1704", null ],
+      [ "ANNOUNCER_FLAG_DISABLE_AUTOBROADCAST", "d3/d07/a01301.html#a32dfba2d10d91879403874fc75b928fda8cc308de4e117be878954235d6580c5e", null ]
+    ] ],
+    [ "CharacterSettingIndexes", "d3/d07/a01301.html#acd2ee27596acf5e6804faaf9e7b6a1f5", [
+      [ "SETTING_ANNOUNCER_FLAGS", "d3/d07/a01301.html#acd2ee27596acf5e6804faaf9e7b6a1f5a87ac7ec64e9a96e600fff40b442b4ca4", null ],
+      [ "MAX_CHAR_SETTINGS", "d3/d07/a01301.html#acd2ee27596acf5e6804faaf9e7b6a1f5af9d926aa507c306441abf0cd93f9412c", null ]
+    ] ],
+    [ "AzerothcorePSSource", "d3/d07/a01301.html#a50fa156f5e934ed3fa7108da4c510f28", null ]
 ];

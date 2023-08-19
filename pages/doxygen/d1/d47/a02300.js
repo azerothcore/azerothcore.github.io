@@ -1,5 +1,6 @@
 var a02300 =
 [
-    [ "gear_commandscript", "d8/d06/a11050.html", "d8/d06/a11050" ],
-    [ "AddSC_gear_commandscript", "d1/d47/a02300.html#a8f5ae2609cea7d63d76141e1a5feaf27", null ]
+    [ "debug_commandscript", "d3/d0d/a11085.html", "d3/d0d/a11085" ],
+    [ "debug_commandscript::CreatureCountWorker", "d8/d58/a11089.html", "d8/d58/a11089" ],
+    [ "AddSC_debug_commandscript", "d1/d47/a02300.html#abae44bbc8eb2fb66a5596017ea83583f", null ]
 ];

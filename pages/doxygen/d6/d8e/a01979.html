@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/game/Server/Packet.cpp File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/game/Scripting/ScriptMgr.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,20 +105,445 @@ $(document).ready(function(){initNavTree('d6/d8e/a01979.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Packet.cpp File Reference</div></div>
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
+  <div class="headertitle"><div class="title">ScriptMgr.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Packet.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AchievementMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ArenaTeam.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AuctionHouseMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Battleground.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DBCStores.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DynamicObject.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameEventMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LFGMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PetDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">QuestDef.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Tuples.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Types.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Weather.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &lt;atomic&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09697.html">ScriptObject</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d77/a09701.html">UpdatableScript&lt; TObject &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a09705.html">SpellScriptLoader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7b/a09709.html">ServerScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd7/a09713.html">WorldScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbc/a09717.html">FormulaScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df8/a09721.html">MapScript&lt; TMap &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d29/a09725.html">WorldMapScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9e/a09729.html">InstanceMapScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d32/a09733.html">BattlegroundMapScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da4/a09737.html">ItemScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d27/a09741.html">UnitScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5d/a09745.html">MovementHandlerScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d25/a09749.html">AllMapScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d4b/a09753.html">AllCreatureScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3b/a09757.html">AllItemScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddb/a09761.html">AllGameObjectScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d58/a09765.html">CreatureScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/ddf/a09769.html">GameObjectScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d91/a09773.html">AreaTriggerScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/a09777.html">OnlyOnceAreaTriggerScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df8/a09781.html">BattlegroundScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d65/a09785.html">OutdoorPvPScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d12/a09789.html">CommandScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd6/a09793.html">WeatherScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a09797.html">AuctionHouseScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d77/a09801.html">ConditionScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a09805.html">VehicleScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2c/a09809.html">DynamicObjectScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d33/a09813.html">TransportScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d62/a09817.html">AchievementCriteriaScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/a09821.html">PlayerScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8a/a09825.html">AccountScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dd8/a09829.html">GuildScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d3e/a09833.html">GroupScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d07/a09837.html">GlobalScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d68/a09841.html">BGScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/a09845.html">ArenaTeamScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/da3/a09849.html">SpellSC</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d1e/a09853.html">ModuleScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df7/a09857.html">GameEventScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d42/a09861.html">MailScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d92/a09865.html">AchievementScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d61/a09869.html">PetScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d7b/a09873.html">ArenaScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc1/a09877.html">MiscScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d8e/a09881.html">CommandSC</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db5/a09885.html">DatabaseScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d15/a09889.html">WorldObjectScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a09893.html">LootScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df6/a09897.html">ElunaScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d3c/a09901.html">ScriptMgr</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/daa/a09905.html">GenericSpellAndAuraScriptLoader&lt; Ts &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/ddf/a09909.html">GenericCreatureScript&lt; AI &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da0/a09913.html">FactoryCreatureScript&lt; AI, AIFactory &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db6/a09917.html">GenericGameObjectScript&lt; AI &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfb/a09921.html">FactoryGameObjectScript&lt; AI, AIFactory &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de2/a09925.html">ScriptRegistry&lt; TScript &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:dd/d6e/a04485"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6e/a04485.html">Acore</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dc/dc2/a04525"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc2/a04525.html">Acore::ChatCommands</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d1/d56/a04544"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d56/a04544.html">Acore::SpellScripts</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a8728f27355f4ea3a1907f50ea6bb7dfe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8e/a01979.html#a8728f27355f4ea3a1907f50ea6bb7dfe">VISIBLE_RANGE</a>&#160;&#160;&#160;166.0f</td></tr>
+<tr class="separator:a8728f27355f4ea3a1907f50ea6bb7dfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedecf91f4fce46852db865deae243e1f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8e/a01979.html#aedecf91f4fce46852db865deae243e1f">RegisterSpellScriptWithArgs</a>(spell_script,  script_name, ...)&#160;&#160;&#160;new <a class="el" href="../../df/daa/a09905.html">GenericSpellAndAuraScriptLoader</a>&lt;spell_script, decltype(std::make_tuple(__VA_ARGS__))&gt;(script_name, std::make_tuple(__VA_ARGS__))</td></tr>
+<tr class="separator:aedecf91f4fce46852db865deae243e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae221e5976ab29ba14fec3b073a03670f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(spell_script)&#160;&#160;&#160;<a class="el" href="../../d6/d8e/a01979.html#aedecf91f4fce46852db865deae243e1f">RegisterSpellScriptWithArgs</a>(spell_script, #spell_script)</td></tr>
+<tr class="separator:ae221e5976ab29ba14fec3b073a03670f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeffc3c8d08a35d5969c33508488e9051"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8e/a01979.html#aeffc3c8d08a35d5969c33508488e9051">RegisterSpellAndAuraScriptPairWithArgs</a>(script_1,  script_2,  script_name, ...)&#160;&#160;&#160;new <a class="el" href="../../df/daa/a09905.html">GenericSpellAndAuraScriptLoader</a>&lt;script_1, script_2, decltype(std::make_tuple(__VA_ARGS__))&gt;(script_name, std::make_tuple(__VA_ARGS__))</td></tr>
+<tr class="separator:aeffc3c8d08a35d5969c33508488e9051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69b21d1b83cecaba944f4e9379bc866c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8e/a01979.html#a69b21d1b83cecaba944f4e9379bc866c">RegisterSpellAndAuraScriptPair</a>(script_1,  script_2)&#160;&#160;&#160;<a class="el" href="../../d6/d8e/a01979.html#aeffc3c8d08a35d5969c33508488e9051">RegisterSpellAndAuraScriptPairWithArgs</a>(script_1, script_2, #script_1)</td></tr>
+<tr class="separator:a69b21d1b83cecaba944f4e9379bc866c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e7352841895df7117e2830448eb533f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8e/a01979.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(ai_name)&#160;&#160;&#160;new <a class="el" href="../../d4/ddf/a09909.html">GenericCreatureScript</a>&lt;ai_name&gt;(#ai_name)</td></tr>
+<tr class="separator:a5e7352841895df7117e2830448eb533f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25cc02ecf50f52ec8cdff096060b8be1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8e/a01979.html#a25cc02ecf50f52ec8cdff096060b8be1">RegisterCreatureAIWithFactory</a>(ai_name,  factory_fn)&#160;&#160;&#160;new <a class="el" href="../../d9/da0/a09913.html">FactoryCreatureScript</a>&lt;ai_name, &amp;factory_fn&gt;(#ai_name)</td></tr>
+<tr class="separator:a25cc02ecf50f52ec8cdff096060b8be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87397a2ba2a1acd88f62793eae9aa30e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8e/a01979.html#a87397a2ba2a1acd88f62793eae9aa30e">RegisterGameObjectAI</a>(ai_name)&#160;&#160;&#160;new <a class="el" href="../../d8/db6/a09917.html">GenericGameObjectScript</a>&lt;ai_name&gt;(#ai_name)</td></tr>
+<tr class="separator:a87397a2ba2a1acd88f62793eae9aa30e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1614f98721d8a94351c4be15a72e499f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8e/a01979.html#a1614f98721d8a94351c4be15a72e499f">RegisterGameObjectAIWithFactory</a>(ai_name,  factory_fn)&#160;&#160;&#160;new <a class="el" href="../../de/dfb/a09921.html">FactoryGameObjectScript</a>&lt;ai_name, &amp;factory_fn&gt;(#ai_name)</td></tr>
+<tr class="separator:a1614f98721d8a94351c4be15a72e499f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8161e629869974bc49b1cbfc73c1087"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8e/a01979.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a>&#160;&#160;&#160;<a class="el" href="../../d5/d3c/a09901.html#affb1862a353fbc0e9b89eb664fe5f797">ScriptMgr::instance</a>()</td></tr>
+<tr class="separator:ae8161e629869974bc49b1cbfc73c1087"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a2b573b538dcbf3da43ae603709d93bf2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a2b573b538dcbf3da43ae603709d93bf2"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/d56/a04544.html#a2b573b538dcbf3da43ae603709d93bf2">Acore::SpellScripts::is_SpellScript</a> = std::is_base_of&lt; <a class="el" href="../../d8/d5d/a10737.html">SpellScript</a>, T &gt;</td></tr>
+<tr class="separator:a2b573b538dcbf3da43ae603709d93bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08facc7292565931370e1cc514f726e1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a08facc7292565931370e1cc514f726e1"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/d56/a04544.html#a08facc7292565931370e1cc514f726e1">Acore::SpellScripts::is_AuraScript</a> = std::is_base_of&lt; <a class="el" href="../../d1/de2/a10777.html">AuraScript</a>, T &gt;</td></tr>
+<tr class="separator:a08facc7292565931370e1cc514f726e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a5e7352841895df7117e2830448eb533f" name="a5e7352841895df7117e2830448eb533f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e7352841895df7117e2830448eb533f">&#9670;&#160;</a></span>RegisterCreatureAI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RegisterCreatureAI</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ai_name</td><td>)</td>
+          <td>&#160;&#160;&#160;new <a class="el" href="../../d4/ddf/a09909.html">GenericCreatureScript</a>&lt;ai_name&gt;(#ai_name)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25cc02ecf50f52ec8cdff096060b8be1" name="a25cc02ecf50f52ec8cdff096060b8be1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25cc02ecf50f52ec8cdff096060b8be1">&#9670;&#160;</a></span>RegisterCreatureAIWithFactory</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RegisterCreatureAIWithFactory</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ai_name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">factory_fn&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;new <a class="el" href="../../d9/da0/a09913.html">FactoryCreatureScript</a>&lt;ai_name, &amp;factory_fn&gt;(#ai_name)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87397a2ba2a1acd88f62793eae9aa30e" name="a87397a2ba2a1acd88f62793eae9aa30e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87397a2ba2a1acd88f62793eae9aa30e">&#9670;&#160;</a></span>RegisterGameObjectAI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RegisterGameObjectAI</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ai_name</td><td>)</td>
+          <td>&#160;&#160;&#160;new <a class="el" href="../../d8/db6/a09917.html">GenericGameObjectScript</a>&lt;ai_name&gt;(#ai_name)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1614f98721d8a94351c4be15a72e499f" name="a1614f98721d8a94351c4be15a72e499f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1614f98721d8a94351c4be15a72e499f">&#9670;&#160;</a></span>RegisterGameObjectAIWithFactory</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RegisterGameObjectAIWithFactory</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ai_name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">factory_fn&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;new <a class="el" href="../../de/dfb/a09921.html">FactoryGameObjectScript</a>&lt;ai_name, &amp;factory_fn&gt;(#ai_name)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69b21d1b83cecaba944f4e9379bc866c" name="a69b21d1b83cecaba944f4e9379bc866c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69b21d1b83cecaba944f4e9379bc866c">&#9670;&#160;</a></span>RegisterSpellAndAuraScriptPair</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RegisterSpellAndAuraScriptPair</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">script_1, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">script_2&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/d8e/a01979.html#aeffc3c8d08a35d5969c33508488e9051">RegisterSpellAndAuraScriptPairWithArgs</a>(script_1, script_2, #script_1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeffc3c8d08a35d5969c33508488e9051" name="aeffc3c8d08a35d5969c33508488e9051"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeffc3c8d08a35d5969c33508488e9051">&#9670;&#160;</a></span>RegisterSpellAndAuraScriptPairWithArgs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RegisterSpellAndAuraScriptPairWithArgs</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">script_1, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">script_2, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">script_name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;new <a class="el" href="../../df/daa/a09905.html">GenericSpellAndAuraScriptLoader</a>&lt;script_1, script_2, decltype(std::make_tuple(__VA_ARGS__))&gt;(script_name, std::make_tuple(__VA_ARGS__))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae221e5976ab29ba14fec3b073a03670f" name="ae221e5976ab29ba14fec3b073a03670f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae221e5976ab29ba14fec3b073a03670f">&#9670;&#160;</a></span>RegisterSpellScript</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RegisterSpellScript</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">spell_script</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d6/d8e/a01979.html#aedecf91f4fce46852db865deae243e1f">RegisterSpellScriptWithArgs</a>(spell_script, #spell_script)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aedecf91f4fce46852db865deae243e1f" name="aedecf91f4fce46852db865deae243e1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedecf91f4fce46852db865deae243e1f">&#9670;&#160;</a></span>RegisterSpellScriptWithArgs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RegisterSpellScriptWithArgs</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">spell_script, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">script_name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;new <a class="el" href="../../df/daa/a09905.html">GenericSpellAndAuraScriptLoader</a>&lt;spell_script, decltype(std::make_tuple(__VA_ARGS__))&gt;(script_name, std::make_tuple(__VA_ARGS__))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8161e629869974bc49b1cbfc73c1087" name="ae8161e629869974bc49b1cbfc73c1087"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8161e629869974bc49b1cbfc73c1087">&#9670;&#160;</a></span>sScriptMgr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define sScriptMgr&#160;&#160;&#160;<a class="el" href="../../d5/d3c/a09901.html#affb1862a353fbc0e9b89eb664fe5f797">ScriptMgr::instance</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8728f27355f4ea3a1907f50ea6bb7dfe" name="a8728f27355f4ea3a1907f50ea6bb7dfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8728f27355f4ea3a1907f50ea6bb7dfe">&#9670;&#160;</a></span>VISIBLE_RANGE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VISIBLE_RANGE&#160;&#160;&#160;166.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_315286625446b425c001eecd2b17ef1a.html">Server</a></li><li class="navelem"><a class="el" href="../../d6/d8e/a01979.html">Packet.cpp</a></li>
-    <li class="footer">Generated on Wed May 17 2023 23:04:33 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../d6/d8e/a01979.html">ScriptMgr.h</a></li>
+    <li class="footer">Generated on Sun Aug 20 2023 00:18:56 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

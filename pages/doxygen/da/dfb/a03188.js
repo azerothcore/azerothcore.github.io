@@ -1,47 +1,34 @@
 var a03188 =
 [
-    [ "npc_aquementas", "d4/d34/a15694.html", "d4/d34/a15694" ],
-    [ "npc_aquementas::npc_aquementasAI", "d1/dcc/a15698.html", "d1/dcc/a15698" ],
-    [ "npc_custodian_of_time", "dd/dae/a15702.html", "dd/dae/a15702" ],
-    [ "npc_custodian_of_time::npc_custodian_of_timeAI", "d1/dc1/a15706.html", "d1/dc1/a15706" ],
-    [ "npc_steward_of_time", "d6/dc4/a15710.html", "d6/dc4/a15710" ],
-    [ "npc_stone_watcher_of_norgannon", "da/d13/a15714.html", "da/d13/a15714" ],
-    [ "npc_tooga", "d0/d35/a15718.html", "d0/d35/a15718" ],
-    [ "npc_tooga::npc_toogaAI", "d6/da4/a15722.html", "d6/da4/a15722" ],
-    [ "Aquementas", "da/dfb/a03188.html#a664764efa00aaadfd6e4510fe26486d8", [
-      [ "AGGRO_YELL_AQUE", "da/dfb/a03188.html#a664764efa00aaadfd6e4510fe26486d8a704ce77b08e582a06d3e38b4714ff5e3", null ],
-      [ "SPELL_AQUA_JET", "da/dfb/a03188.html#a664764efa00aaadfd6e4510fe26486d8a4ee489332c793185c566210d9bf91269", null ],
-      [ "SPELL_FROST_SHOCK", "da/dfb/a03188.html#a664764efa00aaadfd6e4510fe26486d8a73b0724093ccf1b7960c55c236c1502c", null ]
+    [ "npc_shenthul", "d0/d05/a15545.html", "d0/d05/a15545" ],
+    [ "npc_shenthul::npc_shenthulAI", "dc/d02/a15549.html", "dc/d02/a15549" ],
+    [ "npc_thrall_warchief", "da/d04/a15553.html", "da/d04/a15553" ],
+    [ "npc_thrall_warchief::npc_thrall_warchiefAI", "d4/dab/a15557.html", "d4/dab/a15557" ],
+    [ "GOSSIP_HTW", "da/dfb/a03188.html#a3d8ba2e55b55ef5190acadaabaf787b7", null ],
+    [ "GOSSIP_STW1", "da/dfb/a03188.html#a0f89a1c9e4158cdd1031768255ee04e4", null ],
+    [ "GOSSIP_STW2", "da/dfb/a03188.html#afbe6bde9be74ec299e7693ac09eece84", null ],
+    [ "GOSSIP_STW3", "da/dfb/a03188.html#aeda096fbd053c7e7b850c456732cf081", null ],
+    [ "GOSSIP_STW4", "da/dfb/a03188.html#a9c5cc64386438e4a7b4c1402d5be61e0", null ],
+    [ "GOSSIP_STW5", "da/dfb/a03188.html#a9dfae3053d5bf91665a2ee88ad1cf41f", null ],
+    [ "GOSSIP_STW6", "da/dfb/a03188.html#a520407d68d6596f6c4f3f80003246597", null ],
+    [ "Shenthul", "da/dfb/a03188.html#ad7610ac6c92203784dba98a80488da79", [
+      [ "QUEST_SHATTERED_SALUTE", "da/dfb/a03188.html#ad7610ac6c92203784dba98a80488da79a38993f500c01e7bc0ae8dd3a83848ff0", null ]
     ] ],
-    [ "CustodianOfTime", "da/dfb/a03188.html#a37701b2c74106cf0388b7bb342de1bf6", [
-      [ "WHISPER_CUSTODIAN_1", "da/dfb/a03188.html#a37701b2c74106cf0388b7bb342de1bf6a25d9b01e13803e0edc1678a64d7b2b0a", null ],
-      [ "WHISPER_CUSTODIAN_2", "da/dfb/a03188.html#a37701b2c74106cf0388b7bb342de1bf6a94972f2086da11a89348b01001f0f78b", null ],
-      [ "WHISPER_CUSTODIAN_3", "da/dfb/a03188.html#a37701b2c74106cf0388b7bb342de1bf6a06594b919a53dcb69dd5d8b1617a18d8", null ],
-      [ "WHISPER_CUSTODIAN_4", "da/dfb/a03188.html#a37701b2c74106cf0388b7bb342de1bf6a108cce45652b8a8986c6f7ec5026ffe5", null ],
-      [ "WHISPER_CUSTODIAN_5", "da/dfb/a03188.html#a37701b2c74106cf0388b7bb342de1bf6a196d6e1ffdf8de102970f8a54e399e12", null ],
-      [ "WHISPER_CUSTODIAN_6", "da/dfb/a03188.html#a37701b2c74106cf0388b7bb342de1bf6a530330eb596dc0e4c8549320e77f0707", null ],
-      [ "WHISPER_CUSTODIAN_7", "da/dfb/a03188.html#a37701b2c74106cf0388b7bb342de1bf6a4110ed2c02dfa60cdc563d53a24e5507", null ],
-      [ "WHISPER_CUSTODIAN_8", "da/dfb/a03188.html#a37701b2c74106cf0388b7bb342de1bf6ac502f63ee8f999f45e4599cb07f7c9fb", null ],
-      [ "WHISPER_CUSTODIAN_9", "da/dfb/a03188.html#a37701b2c74106cf0388b7bb342de1bf6ad0c4bfda8d7326ad9de433ef312d80fe", null ],
-      [ "WHISPER_CUSTODIAN_10", "da/dfb/a03188.html#a37701b2c74106cf0388b7bb342de1bf6a3e9024cc1ad59a04f50c4e5aa6108f0b", null ],
-      [ "WHISPER_CUSTODIAN_11", "da/dfb/a03188.html#a37701b2c74106cf0388b7bb342de1bf6a709706759bc4cad92916d8b1f070c1a5", null ],
-      [ "WHISPER_CUSTODIAN_12", "da/dfb/a03188.html#a37701b2c74106cf0388b7bb342de1bf6a25fc2c55641b1187b7c365330336f3eb", null ],
-      [ "WHISPER_CUSTODIAN_13", "da/dfb/a03188.html#a37701b2c74106cf0388b7bb342de1bf6aaeee6879311fff39df2258f56000ed46", null ],
-      [ "WHISPER_CUSTODIAN_14", "da/dfb/a03188.html#a37701b2c74106cf0388b7bb342de1bf6adb8c6e85b360e8f939f58c4d98c9ff5d", null ]
+    [ "ThrallWarchief", "da/dfb/a03188.html#afd6a91707270117e029c73fd474fec86", [
+      [ "QUEST_6566", "da/dfb/a03188.html#afd6a91707270117e029c73fd474fec86ac51c5a86a4571e5a8cfc37d97e53ad7d", null ],
+      [ "SPELL_CHAIN_LIGHTNING", "da/dfb/a03188.html#afd6a91707270117e029c73fd474fec86ac0997e72929070d8e30cc0f49cc4539d", null ],
+      [ "SPELL_SHOCK", "da/dfb/a03188.html#afd6a91707270117e029c73fd474fec86a30aa4cac2f70a310466b3fb0f2d10eab", null ],
+      [ "QUEST_FOR_THE_HORDE", "da/dfb/a03188.html#afd6a91707270117e029c73fd474fec86aed442141280385194a0a8b73d7e489af", null ],
+      [ "SPELL_WARCHIEF_BLESSING", "da/dfb/a03188.html#afd6a91707270117e029c73fd474fec86a567e6044eaae260d8ab29c346613b225", null ],
+      [ "NPC_HERALD_OF_THRALL", "da/dfb/a03188.html#afd6a91707270117e029c73fd474fec86a3533aba0519168d4cfb3446a1bbde5bc", null ],
+      [ "ACTION_START_TALKING", "da/dfb/a03188.html#afd6a91707270117e029c73fd474fec86a322b9b49cd88bc70c039be2aa4e0c7fd", null ],
+      [ "SAY_THRALL_ON_QUEST_REWARD_0", "da/dfb/a03188.html#afd6a91707270117e029c73fd474fec86a64ac3588375f611524513fd4d4293a1b", null ],
+      [ "SAY_THRALL_ON_QUEST_REWARD_1", "da/dfb/a03188.html#afd6a91707270117e029c73fd474fec86a3a6a88801e0a276bd78e5299ffb76302", null ],
+      [ "AREA_ORGRIMMAR", "da/dfb/a03188.html#afd6a91707270117e029c73fd474fec86ad2dc06a1b56bb07677ef211cafd8a835", null ],
+      [ "AREA_RAZOR_HILL", "da/dfb/a03188.html#afd6a91707270117e029c73fd474fec86ae88321c626be966eda1d5aca34feda6e", null ],
+      [ "AREA_CAMP_TAURAJO", "da/dfb/a03188.html#afd6a91707270117e029c73fd474fec86a709f6c4a2cd059fc6e7da390a36546b9", null ],
+      [ "AREA_CROSSROADS", "da/dfb/a03188.html#afd6a91707270117e029c73fd474fec86ac472b1d2152c18bfc58b3ca21b3b64ec", null ]
     ] ],
-    [ "Tooga", "da/dfb/a03188.html#ae0596032f6a7ef3f5e96279535462629", [
-      [ "SAY_TOOG_WORRIED", "da/dfb/a03188.html#ae0596032f6a7ef3f5e96279535462629a9a83c37dc7eb5238cefd3bd723fe62e6", null ],
-      [ "SAY_TOOG_POST_1", "da/dfb/a03188.html#ae0596032f6a7ef3f5e96279535462629a4238ab12002edc45629b758df841bd73", null ],
-      [ "SAY_TORT_POST_2", "da/dfb/a03188.html#ae0596032f6a7ef3f5e96279535462629a5dfaa68e10085dafec6d4f97cb9cedfc", null ],
-      [ "SAY_TOOG_POST_3", "da/dfb/a03188.html#ae0596032f6a7ef3f5e96279535462629adafc2f58d5120a13bf01183d6feeaf9c", null ],
-      [ "SAY_TORT_POST_4", "da/dfb/a03188.html#ae0596032f6a7ef3f5e96279535462629a94e61a4f152705539aae94bb20ba457d", null ],
-      [ "SAY_TOOG_POST_5", "da/dfb/a03188.html#ae0596032f6a7ef3f5e96279535462629ae2f254cfc020d86b4bcf78e25bb09cf6", null ],
-      [ "SAY_TORT_POST_6", "da/dfb/a03188.html#ae0596032f6a7ef3f5e96279535462629a8774c87d4b15b03b2f521d3f8551f473", null ],
-      [ "QUEST_TOOGA", "da/dfb/a03188.html#ae0596032f6a7ef3f5e96279535462629aa7fd99bb32abd80385f2ce67dab6271c", null ],
-      [ "NPC_TORTA", "da/dfb/a03188.html#ae0596032f6a7ef3f5e96279535462629a19a2b5b25e017a5c600fd55148cad421", null ],
-      [ "POINT_ID_TO_WATER", "da/dfb/a03188.html#ae0596032f6a7ef3f5e96279535462629afa7d708cb04f36a055f8e17403d6ba98", null ],
-      [ "FACTION_TOOG_ESCORTEE", "da/dfb/a03188.html#ae0596032f6a7ef3f5e96279535462629a1fc13ca51d1cd9614d2f9af06e3c274e", null ]
-    ] ],
-    [ "AddSC_tanaris", "da/dfb/a03188.html#accb894d274ef2ad335966f8efb2265ae", null ],
-    [ "ToWaterLoc", "da/dfb/a03188.html#a637f2ece77285feff35a76f446e13296", null ]
+    [ "AddSC_orgrimmar", "da/dfb/a03188.html#aec4388ea6d2e4bbc1d279b3a4687c4c6", null ],
+    [ "heraldOfThrallPos", "da/dfb/a03188.html#a016aeee1d0eac9c78c522520663670f0", null ]
 ];

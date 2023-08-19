@@ -1,8 +1,9 @@
 var a04421 =
 [
-    [ "fixname2", "d4/d86/a04421.html#a505f827307521d389b41e8f0b238c354", null ],
-    [ "fixnamen", "d4/d86/a04421.html#a4df61017ffd84478bbfc579aec447880", null ],
-    [ "GetExtension", "d4/d86/a04421.html#ac3f75fc482c41471364c2c3e8bd1dd96", null ],
-    [ "GetPlainName", "d4/d86/a04421.html#a5e577b4c8e75312883ba4e8c571908ca", null ],
-    [ "GetPlainName", "d4/d86/a04421.html#a939d4568b4058bf826a517f55cb963af", null ]
+    [ "ListFilesResult", "d4/d86/a04421.html#a030b28c9f552c0de4a4b4844fc5e6101", [
+      [ "LISTFILE_DIRECTORY_NOT_FOUND", "d4/d86/a04421.html#a030b28c9f552c0de4a4b4844fc5e6101a868c0f60f6afa222577730606ed493a6", null ],
+      [ "LISTFILE_OK", "d4/d86/a04421.html#a030b28c9f552c0de4a4b4844fc5e6101a952e90f65bfd2eefbd80a8b830eb5687", null ]
+    ] ],
+    [ "getDirContents", "d4/d86/a04421.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab", null ],
+    [ "matchWildcardFilter", "d4/d86/a04421.html#a0b1c31a5b3e8bebc7fa860b40f7997e1", null ]
 ];

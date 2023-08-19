@@ -1,4 +1,5 @@
 var a00818 =
 [
-    [ "AC_SAI_IS_BOOLEAN_VALID", "d3/d60/a00818.html#a9495a79442bfba89f12b76791020fe73", null ]
+    [ "SmartTrigger", "d4/d11/a05953.html", "d4/d11/a05953" ],
+    [ "AddSC_SmartScripts", "d3/d60/a00818.html#ab6012619ba76775b314475ec60f8c7d7", null ]
 ];

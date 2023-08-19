@@ -1,5 +1,5 @@
 var a02276 =
 [
-    [ "cache_commandscript", "dc/d38/a11010.html", "dc/d38/a11010" ],
-    [ "AddSC_cache_commandscript", "d2/d81/a02276.html#a293f65606c1750692d4046d4fe4c4adc", null ]
+    [ "arena_commandscript", "de/d67/a11049.html", "de/d67/a11049" ],
+    [ "AddSC_arena_commandscript", "d2/d81/a02276.html#aa94d37f012ac02e97a1021713b7dbeeb", null ]
 ];

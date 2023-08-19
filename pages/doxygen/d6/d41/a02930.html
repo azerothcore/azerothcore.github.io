@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/scripts/Kalimdor/BlackfathomDeeps/instance_blackfathom_deeps.cpp File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/scripts/Events/pilgrims_bounty.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,49 +107,473 @@ $(document).ready(function(){initNavTree('d6/d41/a02930.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">instance_blackfathom_deeps.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">pilgrims_bounty.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CombatAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PassiveAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">blackfathom_deeps.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d30/a14482.html">instance_blackfathom_deeps</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d55/a14369.html">npc_pilgrims_bounty_chair</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d98/a14486.html">instance_blackfathom_deeps::instance_blackfathom_deeps_InstanceMapScript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dad/a14373.html">npc_pilgrims_bounty_plate</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/deb/a14377.html">spell_pilgrims_bounty_pass_generic</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db5/a14381.html">spell_pilgrims_bounty_feast_on_generic</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d01/a14385.html">spell_pilgrims_bounty_turkey_tracker</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/a14389.html">spell_pilgrims_bounty_serve_generic</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de2/a14393.html">spell_pilgrims_bounty_food_aura</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d9c/a14397.html">spell_pilgrims_bounty_food</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/a14401.html">achievement_pb_pilgrims_peril</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/def/a14405.html">achievement_pb_terokkar_turkey_time</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a17b51282bc11e48a2d4a6fb006c041c7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7">tableEvent</a> { <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ab336a68b1b24b6d0004e3e0dd7b09147">SPELL_PASS_TURKEY</a> = 66250
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7abeaf8474ae3c53f6d2918a2f365c5717">SPELL_PASS_STUFFING</a> = 66259
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aa9b0d4ca80e0f749477942b4ec43c8f8">SPELL_PASS_PIE</a> = 66260
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a7fd47148d791dd7392b5e1fc69c02da4">SPELL_PASS_CRANBERRY</a> = 66261
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ac4313ee2ee1800d75436d554c4a1e966">SPELL_PASS_SWEET_POTATO</a> = 66262
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aa5931d70053310df21f77bd52ec96125">SPELL_VISUAL_THROW_TURKEY</a> = 61822
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a41fd5712c812c0289502fc623df6e6b4">SPELL_VISUAL_THROW_STUFFING</a> = 61823
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7acab7c3f158088ebdafcc019f17359fdd">SPELL_VISUAL_THROW_PIE</a> = 61825
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a7147fa8e1a282b2df457ca86cd4a3898">SPELL_VISUAL_THROW_CRANBERRY</a> = 61821
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ab820572aa06225fa43273f1346661d34">SPELL_VISUAL_THROW_SWEET_POTATO</a> = 61824
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a0cd49186e5d081887d78b0bb20098a29">SPELL_VISUAL_BOUNCE_TURKEY</a> = 61928
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ac6b3784997f1eb8d74ab80280485da20">SPELL_VISUAL_BOUNCE_STUFFING</a> = 61927
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7adb3d4f90ff253ff917b1b300cccda8f3">SPELL_VISUAL_BOUNCE_PIE</a> = 61926
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a02696c5b9b77f9862745417131372105">SPELL_VISUAL_BOUNCE_CRANBERRY</a> = 61925
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a31bd9f24fab5448513846ab958512750">SPELL_VISUAL_BOUNCE_SWEET_POTATO</a> = 61929
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ac5c3ba3142fb13863475729780756d9d">SPELL_PLATE_TURKEY</a> = 61835
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a7d6e9e43d9236874f0b3b12e8eb9912a">SPELL_PLATE_STUFFING</a> = 61836
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a0d4094b892f2ac959af875d2bf933540">SPELL_PLATE_PIE</a> = 61838
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a6f88ba195792b4c90ed0bd2b96ecc0fa">SPELL_PLATE_CRANBERRY</a> = 61833
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a93f8a2495f597aa4d3b1c9ca46761604">SPELL_PLATE_SWEET_POTATO</a> = 61837
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a8a2144b4e21c7e1070cd8f7f760d56eb">SPELL_STORE_TURKEY</a> = 61807
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a3706096d70b8456876e5a4ac8a7e039a">SPELL_STORE_STUFFING</a> = 61806
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7af37421b641f608bba4617ed795a3118b">SPELL_STORE_PIE</a> = 61805
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a675ee1c86a6a05b7bce157810d57ad28">SPELL_STORE_CRANBERRY</a> = 61804
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a9410bbcf5a692445f28c0230f173937f">SPELL_STORE_SWEET_POTATO</a> = 61808
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7acd673cf8adcfa02494d9d7c7653c89dd">SPELL_CAN_EAT_TURKEY</a> = 61801
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a68b35aa17726d464710292d62bae3554">SPELL_CAN_EAT_STUFFING</a> = 61800
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7abb1d720af73e51821e969dc854f54c9e">SPELL_CAN_EAT_PIE</a> = 61799
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a4d8f8fcbf888867a4485e0af7c348d7c">SPELL_CAN_EAT_CRANBERRY</a> = 61798
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7afb8d44e9af9b91822bb3e61624cb133d">SPELL_CAN_EAT_SWEET_POTATO</a> = 61802
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aa9f8a8815601d48c9c40b968243391cb">SPELL_FEAST_ON_TURKEY</a> = 61784
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ad20e997b3bbf3ead28dc4094aa065402">SPELL_FEAST_ON_STUFFING</a> = 61788
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a001b0c7d4b5074a5d5ccac1c065c449b">SPELL_FEAST_ON_PIE</a> = 61787
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7af933f1f45468bbd217d6dac33c2de29c">SPELL_FEAST_ON_CRANBERRY</a> = 61785
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ae514e0651b5e208e09fb58097b3977d2">SPELL_FEAST_ON_SWEET_POTATOES</a> = 61786
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a071fcf980125c3528a1d4c1bdb6725c0">SPELL_PLAYER_TURKEY</a> = 61842
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ad6aef64852fe279b98b21ad925b02b65">SPELL_PLAYER_STUFFING</a> = 61843
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ae339e284be616c2c47a7c759163fe3eb">SPELL_PLAYER_PIE</a> = 61845
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ac7b7f86c1e4eea78c0ffc3d8e56fb28f">SPELL_PLAYER_CRANBERRY</a> = 61841
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a78bf366ef7f6a74f48c35a1df960d614">SPELL_PLAYER_SWEET_POTATOES</a> = 61844
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a3f26dc9a85acef4c1f25e4fcc17e5ce2">SPELL_WELL_FED_TURKEY</a> = 65414
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a9a6204ea6b24f92cd68ea431bca42122">SPELL_WELL_FED_STUFFING</a> = 65416
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ae7138e4852153ed4a5f32470a44f8fed">SPELL_WELL_FED_PIE</a> = 65415
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ae715e069a31c646c191e15b8d951511c">SPELL_WELL_FED_CRANBERRY</a> = 65412
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a600808363ea61bd3a9ab16b5d2e099b6">SPELL_WELL_FED_SWEET_POTATOES</a> = 65410
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aa86f7b51866b4677c5d50f3a3e9e7f11">SPELL_ACHI_PASS_TURKEY</a> = 66373
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ac8f37e8bd4544d5e087f66f7dc742b53">SPELL_ACHI_PASS_STUFFING</a> = 66375
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a106162ecc91d5290eed5bac56103d09d">SPELL_ACHI_PASS_PIE</a> = 66374
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aba93502fb51a7e1b9f3cb6fe9bf9487b">SPELL_ACHI_PASS_CRANBERRY</a> = 66372
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aee41e540ca9e91f5f9cf3e8ad1a703e9">SPELL_ACHI_PASS_SWEET_POTATOES</a> = 66376
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ad82bd90fe8323d641abd87cd171aefc3">SPELL_SPIRIT_OF_SHARING</a> = 61849
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ad45896a1e2bb3ac1e6a144a28d1a382d">NPC_STRUDY_PLATE</a> = 32839
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7af123ed0b1519d23c3d2b6893528728a9">NPC_BOUNTIFUL_TABLE</a> = 32823
+<br />
+ }</td></tr>
+<tr class="separator:a17b51282bc11e48a2d4a6fb006c041c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4346b8a9ad1045517da63cf84a516503"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d41/a02930.html#a4346b8a9ad1045517da63cf84a516503">tTracker</a> { <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a4346b8a9ad1045517da63cf84a516503a12de9832032749ad5758fb8c95c39ebd">SPELL_TURKEY_TRACKER</a> = 62014
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a4346b8a9ad1045517da63cf84a516503a608e37335ddccc18e6fed0d521403204">SPELL_ACHI_TURKINATOR_CREDIT</a> = 62021
+<br />
+ }</td></tr>
+<tr class="separator:a4346b8a9ad1045517da63cf84a516503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69be5d950d460acc15fb9d888c199d78"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d41/a02930.html#a69be5d950d460acc15fb9d888c199d78">pilgrimsPeril</a> { <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a69be5d950d460acc15fb9d888c199d78a69a8dcd9249ed51936202f586f18ffb3">ITEM_PILGRIMS_ROBE</a> = 46824
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a69be5d950d460acc15fb9d888c199d78aed1f363d3588d736f083aece179ee120">ITEM_PILGRIMS_ATTIRE</a> = 46800
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a69be5d950d460acc15fb9d888c199d78af334148ee02e339a8bb862bffdf516d3">ITEM_PILGRIMS_DRESS</a> = 44785
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d41/a02930.html#a69be5d950d460acc15fb9d888c199d78a92c84a9287089f59286996aefb3e1df9">ITEM_PILGRIMS_HAT</a> = 46723
+<br />
+ }</td></tr>
+<tr class="separator:a69be5d950d460acc15fb9d888c199d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6df6617d1b66a2f3d1f610218af85c18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d41/a02930.html#a6df6617d1b66a2f3d1f610218af85c18">AddSC_instance_blackfathom_deeps</a> ()</td></tr>
-<tr class="separator:a6df6617d1b66a2f3d1f610218af85c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e59953c9b1731e315c9c6b9148a88e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d41/a02930.html#a8e59953c9b1731e315c9c6b9148a88e6">AddSC_event_pilgrims_end_scripts</a> ()</td></tr>
+<tr class="separator:a8e59953c9b1731e315c9c6b9148a88e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a6df6617d1b66a2f3d1f610218af85c18" name="a6df6617d1b66a2f3d1f610218af85c18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6df6617d1b66a2f3d1f610218af85c18">&#9670;&#160;</a></span>AddSC_instance_blackfathom_deeps()</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a69be5d950d460acc15fb9d888c199d78" name="a69be5d950d460acc15fb9d888c199d78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69be5d950d460acc15fb9d888c199d78">&#9670;&#160;</a></span>pilgrimsPeril</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_instance_blackfathom_deeps </td>
+          <td class="memname">enum <a class="el" href="../../d6/d41/a02930.html#a69be5d950d460acc15fb9d888c199d78">pilgrimsPeril</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a69be5d950d460acc15fb9d888c199d78a69a8dcd9249ed51936202f586f18ffb3" name="a69be5d950d460acc15fb9d888c199d78a69a8dcd9249ed51936202f586f18ffb3"></a>ITEM_PILGRIMS_ROBE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a69be5d950d460acc15fb9d888c199d78aed1f363d3588d736f083aece179ee120" name="a69be5d950d460acc15fb9d888c199d78aed1f363d3588d736f083aece179ee120"></a>ITEM_PILGRIMS_ATTIRE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a69be5d950d460acc15fb9d888c199d78af334148ee02e339a8bb862bffdf516d3" name="a69be5d950d460acc15fb9d888c199d78af334148ee02e339a8bb862bffdf516d3"></a>ITEM_PILGRIMS_DRESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a69be5d950d460acc15fb9d888c199d78a92c84a9287089f59286996aefb3e1df9" name="a69be5d950d460acc15fb9d888c199d78a92c84a9287089f59286996aefb3e1df9"></a>ITEM_PILGRIMS_HAT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  625</span>{</div>
+<div class="line"><span class="lineno">  626</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a69be5d950d460acc15fb9d888c199d78a69a8dcd9249ed51936202f586f18ffb3">ITEM_PILGRIMS_ROBE</a>          = 46824,</div>
+<div class="line"><span class="lineno">  627</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a69be5d950d460acc15fb9d888c199d78aed1f363d3588d736f083aece179ee120">ITEM_PILGRIMS_ATTIRE</a>        = 46800,</div>
+<div class="line"><span class="lineno">  628</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a69be5d950d460acc15fb9d888c199d78af334148ee02e339a8bb862bffdf516d3">ITEM_PILGRIMS_DRESS</a>         = 44785,</div>
+<div class="line"><span class="lineno">  629</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a69be5d950d460acc15fb9d888c199d78a92c84a9287089f59286996aefb3e1df9">ITEM_PILGRIMS_HAT</a>           = 46723,</div>
+<div class="line"><span class="lineno">  630</span>};</div>
+<div class="ttc" id="aa02930_html_a69be5d950d460acc15fb9d888c199d78a69a8dcd9249ed51936202f586f18ffb3"><div class="ttname"><a href="../../d6/d41/a02930.html#a69be5d950d460acc15fb9d888c199d78a69a8dcd9249ed51936202f586f18ffb3">ITEM_PILGRIMS_ROBE</a></div><div class="ttdeci">@ ITEM_PILGRIMS_ROBE</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:626</div></div>
+<div class="ttc" id="aa02930_html_a69be5d950d460acc15fb9d888c199d78a92c84a9287089f59286996aefb3e1df9"><div class="ttname"><a href="../../d6/d41/a02930.html#a69be5d950d460acc15fb9d888c199d78a92c84a9287089f59286996aefb3e1df9">ITEM_PILGRIMS_HAT</a></div><div class="ttdeci">@ ITEM_PILGRIMS_HAT</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:629</div></div>
+<div class="ttc" id="aa02930_html_a69be5d950d460acc15fb9d888c199d78aed1f363d3588d736f083aece179ee120"><div class="ttname"><a href="../../d6/d41/a02930.html#a69be5d950d460acc15fb9d888c199d78aed1f363d3588d736f083aece179ee120">ITEM_PILGRIMS_ATTIRE</a></div><div class="ttdeci">@ ITEM_PILGRIMS_ATTIRE</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:627</div></div>
+<div class="ttc" id="aa02930_html_a69be5d950d460acc15fb9d888c199d78af334148ee02e339a8bb862bffdf516d3"><div class="ttname"><a href="../../d6/d41/a02930.html#a69be5d950d460acc15fb9d888c199d78af334148ee02e339a8bb862bffdf516d3">ITEM_PILGRIMS_DRESS</a></div><div class="ttdeci">@ ITEM_PILGRIMS_DRESS</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:628</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a17b51282bc11e48a2d4a6fb006c041c7" name="a17b51282bc11e48a2d4a6fb006c041c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17b51282bc11e48a2d4a6fb006c041c7">&#9670;&#160;</a></span>tableEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7">tableEvent</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7ab336a68b1b24b6d0004e3e0dd7b09147" name="a17b51282bc11e48a2d4a6fb006c041c7ab336a68b1b24b6d0004e3e0dd7b09147"></a>SPELL_PASS_TURKEY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7abeaf8474ae3c53f6d2918a2f365c5717" name="a17b51282bc11e48a2d4a6fb006c041c7abeaf8474ae3c53f6d2918a2f365c5717"></a>SPELL_PASS_STUFFING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7aa9b0d4ca80e0f749477942b4ec43c8f8" name="a17b51282bc11e48a2d4a6fb006c041c7aa9b0d4ca80e0f749477942b4ec43c8f8"></a>SPELL_PASS_PIE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a7fd47148d791dd7392b5e1fc69c02da4" name="a17b51282bc11e48a2d4a6fb006c041c7a7fd47148d791dd7392b5e1fc69c02da4"></a>SPELL_PASS_CRANBERRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7ac4313ee2ee1800d75436d554c4a1e966" name="a17b51282bc11e48a2d4a6fb006c041c7ac4313ee2ee1800d75436d554c4a1e966"></a>SPELL_PASS_SWEET_POTATO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7aa5931d70053310df21f77bd52ec96125" name="a17b51282bc11e48a2d4a6fb006c041c7aa5931d70053310df21f77bd52ec96125"></a>SPELL_VISUAL_THROW_TURKEY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a41fd5712c812c0289502fc623df6e6b4" name="a17b51282bc11e48a2d4a6fb006c041c7a41fd5712c812c0289502fc623df6e6b4"></a>SPELL_VISUAL_THROW_STUFFING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7acab7c3f158088ebdafcc019f17359fdd" name="a17b51282bc11e48a2d4a6fb006c041c7acab7c3f158088ebdafcc019f17359fdd"></a>SPELL_VISUAL_THROW_PIE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a7147fa8e1a282b2df457ca86cd4a3898" name="a17b51282bc11e48a2d4a6fb006c041c7a7147fa8e1a282b2df457ca86cd4a3898"></a>SPELL_VISUAL_THROW_CRANBERRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7ab820572aa06225fa43273f1346661d34" name="a17b51282bc11e48a2d4a6fb006c041c7ab820572aa06225fa43273f1346661d34"></a>SPELL_VISUAL_THROW_SWEET_POTATO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a0cd49186e5d081887d78b0bb20098a29" name="a17b51282bc11e48a2d4a6fb006c041c7a0cd49186e5d081887d78b0bb20098a29"></a>SPELL_VISUAL_BOUNCE_TURKEY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7ac6b3784997f1eb8d74ab80280485da20" name="a17b51282bc11e48a2d4a6fb006c041c7ac6b3784997f1eb8d74ab80280485da20"></a>SPELL_VISUAL_BOUNCE_STUFFING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7adb3d4f90ff253ff917b1b300cccda8f3" name="a17b51282bc11e48a2d4a6fb006c041c7adb3d4f90ff253ff917b1b300cccda8f3"></a>SPELL_VISUAL_BOUNCE_PIE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a02696c5b9b77f9862745417131372105" name="a17b51282bc11e48a2d4a6fb006c041c7a02696c5b9b77f9862745417131372105"></a>SPELL_VISUAL_BOUNCE_CRANBERRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a31bd9f24fab5448513846ab958512750" name="a17b51282bc11e48a2d4a6fb006c041c7a31bd9f24fab5448513846ab958512750"></a>SPELL_VISUAL_BOUNCE_SWEET_POTATO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7ac5c3ba3142fb13863475729780756d9d" name="a17b51282bc11e48a2d4a6fb006c041c7ac5c3ba3142fb13863475729780756d9d"></a>SPELL_PLATE_TURKEY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a7d6e9e43d9236874f0b3b12e8eb9912a" name="a17b51282bc11e48a2d4a6fb006c041c7a7d6e9e43d9236874f0b3b12e8eb9912a"></a>SPELL_PLATE_STUFFING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a0d4094b892f2ac959af875d2bf933540" name="a17b51282bc11e48a2d4a6fb006c041c7a0d4094b892f2ac959af875d2bf933540"></a>SPELL_PLATE_PIE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a6f88ba195792b4c90ed0bd2b96ecc0fa" name="a17b51282bc11e48a2d4a6fb006c041c7a6f88ba195792b4c90ed0bd2b96ecc0fa"></a>SPELL_PLATE_CRANBERRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a93f8a2495f597aa4d3b1c9ca46761604" name="a17b51282bc11e48a2d4a6fb006c041c7a93f8a2495f597aa4d3b1c9ca46761604"></a>SPELL_PLATE_SWEET_POTATO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a8a2144b4e21c7e1070cd8f7f760d56eb" name="a17b51282bc11e48a2d4a6fb006c041c7a8a2144b4e21c7e1070cd8f7f760d56eb"></a>SPELL_STORE_TURKEY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a3706096d70b8456876e5a4ac8a7e039a" name="a17b51282bc11e48a2d4a6fb006c041c7a3706096d70b8456876e5a4ac8a7e039a"></a>SPELL_STORE_STUFFING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7af37421b641f608bba4617ed795a3118b" name="a17b51282bc11e48a2d4a6fb006c041c7af37421b641f608bba4617ed795a3118b"></a>SPELL_STORE_PIE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a675ee1c86a6a05b7bce157810d57ad28" name="a17b51282bc11e48a2d4a6fb006c041c7a675ee1c86a6a05b7bce157810d57ad28"></a>SPELL_STORE_CRANBERRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a9410bbcf5a692445f28c0230f173937f" name="a17b51282bc11e48a2d4a6fb006c041c7a9410bbcf5a692445f28c0230f173937f"></a>SPELL_STORE_SWEET_POTATO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7acd673cf8adcfa02494d9d7c7653c89dd" name="a17b51282bc11e48a2d4a6fb006c041c7acd673cf8adcfa02494d9d7c7653c89dd"></a>SPELL_CAN_EAT_TURKEY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a68b35aa17726d464710292d62bae3554" name="a17b51282bc11e48a2d4a6fb006c041c7a68b35aa17726d464710292d62bae3554"></a>SPELL_CAN_EAT_STUFFING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7abb1d720af73e51821e969dc854f54c9e" name="a17b51282bc11e48a2d4a6fb006c041c7abb1d720af73e51821e969dc854f54c9e"></a>SPELL_CAN_EAT_PIE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a4d8f8fcbf888867a4485e0af7c348d7c" name="a17b51282bc11e48a2d4a6fb006c041c7a4d8f8fcbf888867a4485e0af7c348d7c"></a>SPELL_CAN_EAT_CRANBERRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7afb8d44e9af9b91822bb3e61624cb133d" name="a17b51282bc11e48a2d4a6fb006c041c7afb8d44e9af9b91822bb3e61624cb133d"></a>SPELL_CAN_EAT_SWEET_POTATO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7aa9f8a8815601d48c9c40b968243391cb" name="a17b51282bc11e48a2d4a6fb006c041c7aa9f8a8815601d48c9c40b968243391cb"></a>SPELL_FEAST_ON_TURKEY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7ad20e997b3bbf3ead28dc4094aa065402" name="a17b51282bc11e48a2d4a6fb006c041c7ad20e997b3bbf3ead28dc4094aa065402"></a>SPELL_FEAST_ON_STUFFING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a001b0c7d4b5074a5d5ccac1c065c449b" name="a17b51282bc11e48a2d4a6fb006c041c7a001b0c7d4b5074a5d5ccac1c065c449b"></a>SPELL_FEAST_ON_PIE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7af933f1f45468bbd217d6dac33c2de29c" name="a17b51282bc11e48a2d4a6fb006c041c7af933f1f45468bbd217d6dac33c2de29c"></a>SPELL_FEAST_ON_CRANBERRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7ae514e0651b5e208e09fb58097b3977d2" name="a17b51282bc11e48a2d4a6fb006c041c7ae514e0651b5e208e09fb58097b3977d2"></a>SPELL_FEAST_ON_SWEET_POTATOES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a071fcf980125c3528a1d4c1bdb6725c0" name="a17b51282bc11e48a2d4a6fb006c041c7a071fcf980125c3528a1d4c1bdb6725c0"></a>SPELL_PLAYER_TURKEY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7ad6aef64852fe279b98b21ad925b02b65" name="a17b51282bc11e48a2d4a6fb006c041c7ad6aef64852fe279b98b21ad925b02b65"></a>SPELL_PLAYER_STUFFING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7ae339e284be616c2c47a7c759163fe3eb" name="a17b51282bc11e48a2d4a6fb006c041c7ae339e284be616c2c47a7c759163fe3eb"></a>SPELL_PLAYER_PIE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7ac7b7f86c1e4eea78c0ffc3d8e56fb28f" name="a17b51282bc11e48a2d4a6fb006c041c7ac7b7f86c1e4eea78c0ffc3d8e56fb28f"></a>SPELL_PLAYER_CRANBERRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a78bf366ef7f6a74f48c35a1df960d614" name="a17b51282bc11e48a2d4a6fb006c041c7a78bf366ef7f6a74f48c35a1df960d614"></a>SPELL_PLAYER_SWEET_POTATOES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a3f26dc9a85acef4c1f25e4fcc17e5ce2" name="a17b51282bc11e48a2d4a6fb006c041c7a3f26dc9a85acef4c1f25e4fcc17e5ce2"></a>SPELL_WELL_FED_TURKEY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a9a6204ea6b24f92cd68ea431bca42122" name="a17b51282bc11e48a2d4a6fb006c041c7a9a6204ea6b24f92cd68ea431bca42122"></a>SPELL_WELL_FED_STUFFING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7ae7138e4852153ed4a5f32470a44f8fed" name="a17b51282bc11e48a2d4a6fb006c041c7ae7138e4852153ed4a5f32470a44f8fed"></a>SPELL_WELL_FED_PIE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7ae715e069a31c646c191e15b8d951511c" name="a17b51282bc11e48a2d4a6fb006c041c7ae715e069a31c646c191e15b8d951511c"></a>SPELL_WELL_FED_CRANBERRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a600808363ea61bd3a9ab16b5d2e099b6" name="a17b51282bc11e48a2d4a6fb006c041c7a600808363ea61bd3a9ab16b5d2e099b6"></a>SPELL_WELL_FED_SWEET_POTATOES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7aa86f7b51866b4677c5d50f3a3e9e7f11" name="a17b51282bc11e48a2d4a6fb006c041c7aa86f7b51866b4677c5d50f3a3e9e7f11"></a>SPELL_ACHI_PASS_TURKEY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7ac8f37e8bd4544d5e087f66f7dc742b53" name="a17b51282bc11e48a2d4a6fb006c041c7ac8f37e8bd4544d5e087f66f7dc742b53"></a>SPELL_ACHI_PASS_STUFFING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7a106162ecc91d5290eed5bac56103d09d" name="a17b51282bc11e48a2d4a6fb006c041c7a106162ecc91d5290eed5bac56103d09d"></a>SPELL_ACHI_PASS_PIE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7aba93502fb51a7e1b9f3cb6fe9bf9487b" name="a17b51282bc11e48a2d4a6fb006c041c7aba93502fb51a7e1b9f3cb6fe9bf9487b"></a>SPELL_ACHI_PASS_CRANBERRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7aee41e540ca9e91f5f9cf3e8ad1a703e9" name="a17b51282bc11e48a2d4a6fb006c041c7aee41e540ca9e91f5f9cf3e8ad1a703e9"></a>SPELL_ACHI_PASS_SWEET_POTATOES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7ad82bd90fe8323d641abd87cd171aefc3" name="a17b51282bc11e48a2d4a6fb006c041c7ad82bd90fe8323d641abd87cd171aefc3"></a>SPELL_SPIRIT_OF_SHARING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7ad45896a1e2bb3ac1e6a144a28d1a382d" name="a17b51282bc11e48a2d4a6fb006c041c7ad45896a1e2bb3ac1e6a144a28d1a382d"></a>NPC_STRUDY_PLATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17b51282bc11e48a2d4a6fb006c041c7af123ed0b1519d23c3d2b6893528728a9" name="a17b51282bc11e48a2d4a6fb006c041c7af123ed0b1519d23c3d2b6893528728a9"></a>NPC_BOUNTIFUL_TABLE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
+<div class="line"><span class="lineno">   33</span>    <span class="comment">// Spells</span></div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ab336a68b1b24b6d0004e3e0dd7b09147">SPELL_PASS_TURKEY</a>               = 66250,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7abeaf8474ae3c53f6d2918a2f365c5717">SPELL_PASS_STUFFING</a>             = 66259,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aa9b0d4ca80e0f749477942b4ec43c8f8">SPELL_PASS_PIE</a>                  = 66260,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a7fd47148d791dd7392b5e1fc69c02da4">SPELL_PASS_CRANBERRY</a>            = 66261,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ac4313ee2ee1800d75436d554c4a1e966">SPELL_PASS_SWEET_POTATO</a>         = 66262,</div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aa5931d70053310df21f77bd52ec96125">SPELL_VISUAL_THROW_TURKEY</a>       = 61822,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a41fd5712c812c0289502fc623df6e6b4">SPELL_VISUAL_THROW_STUFFING</a>     = 61823,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7acab7c3f158088ebdafcc019f17359fdd">SPELL_VISUAL_THROW_PIE</a>          = 61825,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a7147fa8e1a282b2df457ca86cd4a3898">SPELL_VISUAL_THROW_CRANBERRY</a>    = 61821,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ab820572aa06225fa43273f1346661d34">SPELL_VISUAL_THROW_SWEET_POTATO</a> = 61824,</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a0cd49186e5d081887d78b0bb20098a29">SPELL_VISUAL_BOUNCE_TURKEY</a>      = 61928,</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ac6b3784997f1eb8d74ab80280485da20">SPELL_VISUAL_BOUNCE_STUFFING</a>    = 61927,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7adb3d4f90ff253ff917b1b300cccda8f3">SPELL_VISUAL_BOUNCE_PIE</a>         = 61926,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a02696c5b9b77f9862745417131372105">SPELL_VISUAL_BOUNCE_CRANBERRY</a>   = 61925,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a31bd9f24fab5448513846ab958512750">SPELL_VISUAL_BOUNCE_SWEET_POTATO</a> = 61929,</div>
+<div class="line"><span class="lineno">   51</span> </div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ac5c3ba3142fb13863475729780756d9d">SPELL_PLATE_TURKEY</a>              = 61835,</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a7d6e9e43d9236874f0b3b12e8eb9912a">SPELL_PLATE_STUFFING</a>            = 61836,</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a0d4094b892f2ac959af875d2bf933540">SPELL_PLATE_PIE</a>                 = 61838,</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a6f88ba195792b4c90ed0bd2b96ecc0fa">SPELL_PLATE_CRANBERRY</a>           = 61833,</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a93f8a2495f597aa4d3b1c9ca46761604">SPELL_PLATE_SWEET_POTATO</a>        = 61837,</div>
+<div class="line"><span class="lineno">   57</span> </div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a8a2144b4e21c7e1070cd8f7f760d56eb">SPELL_STORE_TURKEY</a>              = 61807,</div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a3706096d70b8456876e5a4ac8a7e039a">SPELL_STORE_STUFFING</a>            = 61806,</div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7af37421b641f608bba4617ed795a3118b">SPELL_STORE_PIE</a>                 = 61805,</div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a675ee1c86a6a05b7bce157810d57ad28">SPELL_STORE_CRANBERRY</a>           = 61804,</div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a9410bbcf5a692445f28c0230f173937f">SPELL_STORE_SWEET_POTATO</a>        = 61808,</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7acd673cf8adcfa02494d9d7c7653c89dd">SPELL_CAN_EAT_TURKEY</a>            = 61801,</div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a68b35aa17726d464710292d62bae3554">SPELL_CAN_EAT_STUFFING</a>          = 61800,</div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7abb1d720af73e51821e969dc854f54c9e">SPELL_CAN_EAT_PIE</a>               = 61799,</div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a4d8f8fcbf888867a4485e0af7c348d7c">SPELL_CAN_EAT_CRANBERRY</a>         = 61798,</div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7afb8d44e9af9b91822bb3e61624cb133d">SPELL_CAN_EAT_SWEET_POTATO</a>      = 61802,</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aa9f8a8815601d48c9c40b968243391cb">SPELL_FEAST_ON_TURKEY</a>           = 61784,</div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ad20e997b3bbf3ead28dc4094aa065402">SPELL_FEAST_ON_STUFFING</a>         = 61788,</div>
+<div class="line"><span class="lineno">   72</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a001b0c7d4b5074a5d5ccac1c065c449b">SPELL_FEAST_ON_PIE</a>              = 61787,</div>
+<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7af933f1f45468bbd217d6dac33c2de29c">SPELL_FEAST_ON_CRANBERRY</a>        = 61785,</div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ae514e0651b5e208e09fb58097b3977d2">SPELL_FEAST_ON_SWEET_POTATOES</a>   = 61786,</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a071fcf980125c3528a1d4c1bdb6725c0">SPELL_PLAYER_TURKEY</a>             = 61842,</div>
+<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ad6aef64852fe279b98b21ad925b02b65">SPELL_PLAYER_STUFFING</a>           = 61843,</div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ae339e284be616c2c47a7c759163fe3eb">SPELL_PLAYER_PIE</a>                = 61845,</div>
+<div class="line"><span class="lineno">   79</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ac7b7f86c1e4eea78c0ffc3d8e56fb28f">SPELL_PLAYER_CRANBERRY</a>          = 61841,</div>
+<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a78bf366ef7f6a74f48c35a1df960d614">SPELL_PLAYER_SWEET_POTATOES</a>     = 61844,</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a3f26dc9a85acef4c1f25e4fcc17e5ce2">SPELL_WELL_FED_TURKEY</a>           = 65414,</div>
+<div class="line"><span class="lineno">   83</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a9a6204ea6b24f92cd68ea431bca42122">SPELL_WELL_FED_STUFFING</a>         = 65416,</div>
+<div class="line"><span class="lineno">   84</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ae7138e4852153ed4a5f32470a44f8fed">SPELL_WELL_FED_PIE</a>              = 65415,</div>
+<div class="line"><span class="lineno">   85</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ae715e069a31c646c191e15b8d951511c">SPELL_WELL_FED_CRANBERRY</a>        = 65412,</div>
+<div class="line"><span class="lineno">   86</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a600808363ea61bd3a9ab16b5d2e099b6">SPELL_WELL_FED_SWEET_POTATOES</a>   = 65410,</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aa86f7b51866b4677c5d50f3a3e9e7f11">SPELL_ACHI_PASS_TURKEY</a>          = 66373,</div>
+<div class="line"><span class="lineno">   89</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ac8f37e8bd4544d5e087f66f7dc742b53">SPELL_ACHI_PASS_STUFFING</a>        = 66375,</div>
+<div class="line"><span class="lineno">   90</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a106162ecc91d5290eed5bac56103d09d">SPELL_ACHI_PASS_PIE</a>             = 66374,</div>
+<div class="line"><span class="lineno">   91</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aba93502fb51a7e1b9f3cb6fe9bf9487b">SPELL_ACHI_PASS_CRANBERRY</a>       = 66372,</div>
+<div class="line"><span class="lineno">   92</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aee41e540ca9e91f5f9cf3e8ad1a703e9">SPELL_ACHI_PASS_SWEET_POTATOES</a>  = 66376,</div>
+<div class="line"><span class="lineno">   93</span> </div>
+<div class="line"><span class="lineno">   94</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ad82bd90fe8323d641abd87cd171aefc3">SPELL_SPIRIT_OF_SHARING</a>         = 61849,</div>
+<div class="line"><span class="lineno">   95</span> </div>
+<div class="line"><span class="lineno">   96</span>    <span class="comment">// NPCs</span></div>
+<div class="line"><span class="lineno">   97</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ad45896a1e2bb3ac1e6a144a28d1a382d">NPC_STRUDY_PLATE</a>                = 32839,</div>
+<div class="line"><span class="lineno">   98</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7af123ed0b1519d23c3d2b6893528728a9">NPC_BOUNTIFUL_TABLE</a>             = 32823,</div>
+<div class="line"><span class="lineno">   99</span>};</div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a001b0c7d4b5074a5d5ccac1c065c449b"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a001b0c7d4b5074a5d5ccac1c065c449b">SPELL_FEAST_ON_PIE</a></div><div class="ttdeci">@ SPELL_FEAST_ON_PIE</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:72</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a02696c5b9b77f9862745417131372105"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a02696c5b9b77f9862745417131372105">SPELL_VISUAL_BOUNCE_CRANBERRY</a></div><div class="ttdeci">@ SPELL_VISUAL_BOUNCE_CRANBERRY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:49</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a071fcf980125c3528a1d4c1bdb6725c0"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a071fcf980125c3528a1d4c1bdb6725c0">SPELL_PLAYER_TURKEY</a></div><div class="ttdeci">@ SPELL_PLAYER_TURKEY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:76</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a0cd49186e5d081887d78b0bb20098a29"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a0cd49186e5d081887d78b0bb20098a29">SPELL_VISUAL_BOUNCE_TURKEY</a></div><div class="ttdeci">@ SPELL_VISUAL_BOUNCE_TURKEY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:46</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a0d4094b892f2ac959af875d2bf933540"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a0d4094b892f2ac959af875d2bf933540">SPELL_PLATE_PIE</a></div><div class="ttdeci">@ SPELL_PLATE_PIE</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:54</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a106162ecc91d5290eed5bac56103d09d"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a106162ecc91d5290eed5bac56103d09d">SPELL_ACHI_PASS_PIE</a></div><div class="ttdeci">@ SPELL_ACHI_PASS_PIE</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:90</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a31bd9f24fab5448513846ab958512750"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a31bd9f24fab5448513846ab958512750">SPELL_VISUAL_BOUNCE_SWEET_POTATO</a></div><div class="ttdeci">@ SPELL_VISUAL_BOUNCE_SWEET_POTATO</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:50</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a3706096d70b8456876e5a4ac8a7e039a"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a3706096d70b8456876e5a4ac8a7e039a">SPELL_STORE_STUFFING</a></div><div class="ttdeci">@ SPELL_STORE_STUFFING</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:59</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a3f26dc9a85acef4c1f25e4fcc17e5ce2"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a3f26dc9a85acef4c1f25e4fcc17e5ce2">SPELL_WELL_FED_TURKEY</a></div><div class="ttdeci">@ SPELL_WELL_FED_TURKEY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:82</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a41fd5712c812c0289502fc623df6e6b4"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a41fd5712c812c0289502fc623df6e6b4">SPELL_VISUAL_THROW_STUFFING</a></div><div class="ttdeci">@ SPELL_VISUAL_THROW_STUFFING</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:41</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a4d8f8fcbf888867a4485e0af7c348d7c"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a4d8f8fcbf888867a4485e0af7c348d7c">SPELL_CAN_EAT_CRANBERRY</a></div><div class="ttdeci">@ SPELL_CAN_EAT_CRANBERRY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:67</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a600808363ea61bd3a9ab16b5d2e099b6"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a600808363ea61bd3a9ab16b5d2e099b6">SPELL_WELL_FED_SWEET_POTATOES</a></div><div class="ttdeci">@ SPELL_WELL_FED_SWEET_POTATOES</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:86</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a675ee1c86a6a05b7bce157810d57ad28"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a675ee1c86a6a05b7bce157810d57ad28">SPELL_STORE_CRANBERRY</a></div><div class="ttdeci">@ SPELL_STORE_CRANBERRY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:61</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a68b35aa17726d464710292d62bae3554"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a68b35aa17726d464710292d62bae3554">SPELL_CAN_EAT_STUFFING</a></div><div class="ttdeci">@ SPELL_CAN_EAT_STUFFING</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:65</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a6f88ba195792b4c90ed0bd2b96ecc0fa"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a6f88ba195792b4c90ed0bd2b96ecc0fa">SPELL_PLATE_CRANBERRY</a></div><div class="ttdeci">@ SPELL_PLATE_CRANBERRY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:55</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a7147fa8e1a282b2df457ca86cd4a3898"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a7147fa8e1a282b2df457ca86cd4a3898">SPELL_VISUAL_THROW_CRANBERRY</a></div><div class="ttdeci">@ SPELL_VISUAL_THROW_CRANBERRY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:43</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a78bf366ef7f6a74f48c35a1df960d614"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a78bf366ef7f6a74f48c35a1df960d614">SPELL_PLAYER_SWEET_POTATOES</a></div><div class="ttdeci">@ SPELL_PLAYER_SWEET_POTATOES</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:80</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a7d6e9e43d9236874f0b3b12e8eb9912a"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a7d6e9e43d9236874f0b3b12e8eb9912a">SPELL_PLATE_STUFFING</a></div><div class="ttdeci">@ SPELL_PLATE_STUFFING</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:53</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a7fd47148d791dd7392b5e1fc69c02da4"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a7fd47148d791dd7392b5e1fc69c02da4">SPELL_PASS_CRANBERRY</a></div><div class="ttdeci">@ SPELL_PASS_CRANBERRY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:37</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a8a2144b4e21c7e1070cd8f7f760d56eb"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a8a2144b4e21c7e1070cd8f7f760d56eb">SPELL_STORE_TURKEY</a></div><div class="ttdeci">@ SPELL_STORE_TURKEY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:58</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a93f8a2495f597aa4d3b1c9ca46761604"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a93f8a2495f597aa4d3b1c9ca46761604">SPELL_PLATE_SWEET_POTATO</a></div><div class="ttdeci">@ SPELL_PLATE_SWEET_POTATO</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:56</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a9410bbcf5a692445f28c0230f173937f"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a9410bbcf5a692445f28c0230f173937f">SPELL_STORE_SWEET_POTATO</a></div><div class="ttdeci">@ SPELL_STORE_SWEET_POTATO</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:62</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7a9a6204ea6b24f92cd68ea431bca42122"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7a9a6204ea6b24f92cd68ea431bca42122">SPELL_WELL_FED_STUFFING</a></div><div class="ttdeci">@ SPELL_WELL_FED_STUFFING</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:83</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7aa5931d70053310df21f77bd52ec96125"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aa5931d70053310df21f77bd52ec96125">SPELL_VISUAL_THROW_TURKEY</a></div><div class="ttdeci">@ SPELL_VISUAL_THROW_TURKEY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:40</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7aa86f7b51866b4677c5d50f3a3e9e7f11"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aa86f7b51866b4677c5d50f3a3e9e7f11">SPELL_ACHI_PASS_TURKEY</a></div><div class="ttdeci">@ SPELL_ACHI_PASS_TURKEY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:88</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7aa9b0d4ca80e0f749477942b4ec43c8f8"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aa9b0d4ca80e0f749477942b4ec43c8f8">SPELL_PASS_PIE</a></div><div class="ttdeci">@ SPELL_PASS_PIE</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:36</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7aa9f8a8815601d48c9c40b968243391cb"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aa9f8a8815601d48c9c40b968243391cb">SPELL_FEAST_ON_TURKEY</a></div><div class="ttdeci">@ SPELL_FEAST_ON_TURKEY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:70</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7ab336a68b1b24b6d0004e3e0dd7b09147"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ab336a68b1b24b6d0004e3e0dd7b09147">SPELL_PASS_TURKEY</a></div><div class="ttdeci">@ SPELL_PASS_TURKEY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:34</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7ab820572aa06225fa43273f1346661d34"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ab820572aa06225fa43273f1346661d34">SPELL_VISUAL_THROW_SWEET_POTATO</a></div><div class="ttdeci">@ SPELL_VISUAL_THROW_SWEET_POTATO</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:44</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7aba93502fb51a7e1b9f3cb6fe9bf9487b"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aba93502fb51a7e1b9f3cb6fe9bf9487b">SPELL_ACHI_PASS_CRANBERRY</a></div><div class="ttdeci">@ SPELL_ACHI_PASS_CRANBERRY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:91</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7abb1d720af73e51821e969dc854f54c9e"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7abb1d720af73e51821e969dc854f54c9e">SPELL_CAN_EAT_PIE</a></div><div class="ttdeci">@ SPELL_CAN_EAT_PIE</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:66</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7abeaf8474ae3c53f6d2918a2f365c5717"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7abeaf8474ae3c53f6d2918a2f365c5717">SPELL_PASS_STUFFING</a></div><div class="ttdeci">@ SPELL_PASS_STUFFING</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:35</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7ac4313ee2ee1800d75436d554c4a1e966"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ac4313ee2ee1800d75436d554c4a1e966">SPELL_PASS_SWEET_POTATO</a></div><div class="ttdeci">@ SPELL_PASS_SWEET_POTATO</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:38</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7ac5c3ba3142fb13863475729780756d9d"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ac5c3ba3142fb13863475729780756d9d">SPELL_PLATE_TURKEY</a></div><div class="ttdeci">@ SPELL_PLATE_TURKEY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:52</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7ac6b3784997f1eb8d74ab80280485da20"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ac6b3784997f1eb8d74ab80280485da20">SPELL_VISUAL_BOUNCE_STUFFING</a></div><div class="ttdeci">@ SPELL_VISUAL_BOUNCE_STUFFING</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:47</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7ac7b7f86c1e4eea78c0ffc3d8e56fb28f"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ac7b7f86c1e4eea78c0ffc3d8e56fb28f">SPELL_PLAYER_CRANBERRY</a></div><div class="ttdeci">@ SPELL_PLAYER_CRANBERRY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:79</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7ac8f37e8bd4544d5e087f66f7dc742b53"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ac8f37e8bd4544d5e087f66f7dc742b53">SPELL_ACHI_PASS_STUFFING</a></div><div class="ttdeci">@ SPELL_ACHI_PASS_STUFFING</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:89</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7acab7c3f158088ebdafcc019f17359fdd"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7acab7c3f158088ebdafcc019f17359fdd">SPELL_VISUAL_THROW_PIE</a></div><div class="ttdeci">@ SPELL_VISUAL_THROW_PIE</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:42</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7acd673cf8adcfa02494d9d7c7653c89dd"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7acd673cf8adcfa02494d9d7c7653c89dd">SPELL_CAN_EAT_TURKEY</a></div><div class="ttdeci">@ SPELL_CAN_EAT_TURKEY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:64</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7ad20e997b3bbf3ead28dc4094aa065402"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ad20e997b3bbf3ead28dc4094aa065402">SPELL_FEAST_ON_STUFFING</a></div><div class="ttdeci">@ SPELL_FEAST_ON_STUFFING</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:71</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7ad45896a1e2bb3ac1e6a144a28d1a382d"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ad45896a1e2bb3ac1e6a144a28d1a382d">NPC_STRUDY_PLATE</a></div><div class="ttdeci">@ NPC_STRUDY_PLATE</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:97</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7ad6aef64852fe279b98b21ad925b02b65"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ad6aef64852fe279b98b21ad925b02b65">SPELL_PLAYER_STUFFING</a></div><div class="ttdeci">@ SPELL_PLAYER_STUFFING</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:77</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7ad82bd90fe8323d641abd87cd171aefc3"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ad82bd90fe8323d641abd87cd171aefc3">SPELL_SPIRIT_OF_SHARING</a></div><div class="ttdeci">@ SPELL_SPIRIT_OF_SHARING</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:94</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7adb3d4f90ff253ff917b1b300cccda8f3"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7adb3d4f90ff253ff917b1b300cccda8f3">SPELL_VISUAL_BOUNCE_PIE</a></div><div class="ttdeci">@ SPELL_VISUAL_BOUNCE_PIE</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:48</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7ae339e284be616c2c47a7c759163fe3eb"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ae339e284be616c2c47a7c759163fe3eb">SPELL_PLAYER_PIE</a></div><div class="ttdeci">@ SPELL_PLAYER_PIE</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:78</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7ae514e0651b5e208e09fb58097b3977d2"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ae514e0651b5e208e09fb58097b3977d2">SPELL_FEAST_ON_SWEET_POTATOES</a></div><div class="ttdeci">@ SPELL_FEAST_ON_SWEET_POTATOES</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:74</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7ae7138e4852153ed4a5f32470a44f8fed"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ae7138e4852153ed4a5f32470a44f8fed">SPELL_WELL_FED_PIE</a></div><div class="ttdeci">@ SPELL_WELL_FED_PIE</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:84</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7ae715e069a31c646c191e15b8d951511c"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7ae715e069a31c646c191e15b8d951511c">SPELL_WELL_FED_CRANBERRY</a></div><div class="ttdeci">@ SPELL_WELL_FED_CRANBERRY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:85</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7aee41e540ca9e91f5f9cf3e8ad1a703e9"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7aee41e540ca9e91f5f9cf3e8ad1a703e9">SPELL_ACHI_PASS_SWEET_POTATOES</a></div><div class="ttdeci">@ SPELL_ACHI_PASS_SWEET_POTATOES</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:92</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7af123ed0b1519d23c3d2b6893528728a9"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7af123ed0b1519d23c3d2b6893528728a9">NPC_BOUNTIFUL_TABLE</a></div><div class="ttdeci">@ NPC_BOUNTIFUL_TABLE</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:98</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7af37421b641f608bba4617ed795a3118b"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7af37421b641f608bba4617ed795a3118b">SPELL_STORE_PIE</a></div><div class="ttdeci">@ SPELL_STORE_PIE</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:60</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7af933f1f45468bbd217d6dac33c2de29c"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7af933f1f45468bbd217d6dac33c2de29c">SPELL_FEAST_ON_CRANBERRY</a></div><div class="ttdeci">@ SPELL_FEAST_ON_CRANBERRY</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:73</div></div>
+<div class="ttc" id="aa02930_html_a17b51282bc11e48a2d4a6fb006c041c7afb8d44e9af9b91822bb3e61624cb133d"><div class="ttname"><a href="../../d6/d41/a02930.html#a17b51282bc11e48a2d4a6fb006c041c7afb8d44e9af9b91822bb3e61624cb133d">SPELL_CAN_EAT_SWEET_POTATO</a></div><div class="ttdeci">@ SPELL_CAN_EAT_SWEET_POTATO</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:68</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4346b8a9ad1045517da63cf84a516503" name="a4346b8a9ad1045517da63cf84a516503"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4346b8a9ad1045517da63cf84a516503">&#9670;&#160;</a></span>tTracker</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d6/d41/a02930.html#a4346b8a9ad1045517da63cf84a516503">tTracker</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4346b8a9ad1045517da63cf84a516503a12de9832032749ad5758fb8c95c39ebd" name="a4346b8a9ad1045517da63cf84a516503a12de9832032749ad5758fb8c95c39ebd"></a>SPELL_TURKEY_TRACKER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4346b8a9ad1045517da63cf84a516503a608e37335ddccc18e6fed0d521403204" name="a4346b8a9ad1045517da63cf84a516503a608e37335ddccc18e6fed0d521403204"></a>SPELL_ACHI_TURKINATOR_CREDIT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  515</span>{</div>
+<div class="line"><span class="lineno">  516</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a4346b8a9ad1045517da63cf84a516503a12de9832032749ad5758fb8c95c39ebd">SPELL_TURKEY_TRACKER</a>                = 62014,</div>
+<div class="line"><span class="lineno">  517</span>    <a class="code hl_enumvalue" href="../../d6/d41/a02930.html#a4346b8a9ad1045517da63cf84a516503a608e37335ddccc18e6fed0d521403204">SPELL_ACHI_TURKINATOR_CREDIT</a>        = 62021,</div>
+<div class="line"><span class="lineno">  518</span>};</div>
+<div class="ttc" id="aa02930_html_a4346b8a9ad1045517da63cf84a516503a12de9832032749ad5758fb8c95c39ebd"><div class="ttname"><a href="../../d6/d41/a02930.html#a4346b8a9ad1045517da63cf84a516503a12de9832032749ad5758fb8c95c39ebd">SPELL_TURKEY_TRACKER</a></div><div class="ttdeci">@ SPELL_TURKEY_TRACKER</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:516</div></div>
+<div class="ttc" id="aa02930_html_a4346b8a9ad1045517da63cf84a516503a608e37335ddccc18e6fed0d521403204"><div class="ttname"><a href="../../d6/d41/a02930.html#a4346b8a9ad1045517da63cf84a516503a608e37335ddccc18e6fed0d521403204">SPELL_ACHI_TURKINATOR_CREDIT</a></div><div class="ttdeci">@ SPELL_ACHI_TURKINATOR_CREDIT</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:517</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a8e59953c9b1731e315c9c6b9148a88e6" name="a8e59953c9b1731e315c9c6b9148a88e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e59953c9b1731e315c9c6b9148a88e6">&#9670;&#160;</a></span>AddSC_event_pilgrims_end_scripts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_event_pilgrims_end_scripts </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  148</span>{</div>
-<div class="line"><span class="lineno">  149</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d30/a14482.html">instance_blackfathom_deeps</a>();</div>
-<div class="line"><span class="lineno">  150</span>}</div>
-<div class="ttc" id="aa14482_html"><div class="ttname"><a href="../../dc/d30/a14482.html">instance_blackfathom_deeps</a></div><div class="ttdef"><b>Definition:</b> instance_blackfathom_deeps.cpp:23</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  661</span>{</div>
+<div class="line"><span class="lineno">  662</span>    <span class="comment">// Spells</span></div>
+<div class="line"><span class="lineno">  663</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dc/deb/a14377.html">spell_pilgrims_bounty_pass_generic</a>);</div>
+<div class="line"><span class="lineno">  664</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d2/db5/a14381.html">spell_pilgrims_bounty_feast_on_generic</a>);</div>
+<div class="line"><span class="lineno">  665</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d2/d01/a14385.html">spell_pilgrims_bounty_turkey_tracker</a>);</div>
+<div class="line"><span class="lineno">  666</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../df/dcd/a14389.html">spell_pilgrims_bounty_serve_generic</a>);</div>
+<div class="line"><span class="lineno">  667</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#a69b21d1b83cecaba944f4e9379bc866c">RegisterSpellAndAuraScriptPair</a>(<a class="code hl_class" href="../../d8/d9c/a14397.html">spell_pilgrims_bounty_food</a>, <a class="code hl_class" href="../../db/de2/a14393.html">spell_pilgrims_bounty_food_aura</a>);</div>
+<div class="line"><span class="lineno">  668</span> </div>
+<div class="line"><span class="lineno">  669</span>    <span class="comment">// Npcs</span></div>
+<div class="line"><span class="lineno">  670</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d7/d55/a14369.html">npc_pilgrims_bounty_chair</a>);</div>
+<div class="line"><span class="lineno">  671</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d6/dad/a14373.html">npc_pilgrims_bounty_plate</a>);</div>
+<div class="line"><span class="lineno">  672</span> </div>
+<div class="line"><span class="lineno">  673</span>    <span class="comment">// Achievements</span></div>
+<div class="line"><span class="lineno">  674</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d57/a14401.html">achievement_pb_pilgrims_peril</a>();</div>
+<div class="line"><span class="lineno">  675</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/def/a14405.html">achievement_pb_terokkar_turkey_time</a>();</div>
+<div class="line"><span class="lineno">  676</span>}</div>
+<div class="ttc" id="aa01979_html_a5e7352841895df7117e2830448eb533f"><div class="ttname"><a href="../../d6/d8e/a01979.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a></div><div class="ttdeci">#define RegisterCreatureAI(ai_name)</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2732</div></div>
+<div class="ttc" id="aa01979_html_a69b21d1b83cecaba944f4e9379bc866c"><div class="ttname"><a href="../../d6/d8e/a01979.html#a69b21d1b83cecaba944f4e9379bc866c">RegisterSpellAndAuraScriptPair</a></div><div class="ttdeci">#define RegisterSpellAndAuraScriptPair(script_1, script_2)</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2723</div></div>
+<div class="ttc" id="aa01979_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2721</div></div>
+<div class="ttc" id="aa14369_html"><div class="ttname"><a href="../../d7/d55/a14369.html">npc_pilgrims_bounty_chair</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:106</div></div>
+<div class="ttc" id="aa14373_html"><div class="ttname"><a href="../../d6/dad/a14373.html">npc_pilgrims_bounty_plate</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:281</div></div>
+<div class="ttc" id="aa14377_html"><div class="ttname"><a href="../../dc/deb/a14377.html">spell_pilgrims_bounty_pass_generic</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:306</div></div>
+<div class="ttc" id="aa14381_html"><div class="ttname"><a href="../../d2/db5/a14381.html">spell_pilgrims_bounty_feast_on_generic</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:436</div></div>
+<div class="ttc" id="aa14385_html"><div class="ttname"><a href="../../d2/d01/a14385.html">spell_pilgrims_bounty_turkey_tracker</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:521</div></div>
+<div class="ttc" id="aa14389_html"><div class="ttname"><a href="../../df/dcd/a14389.html">spell_pilgrims_bounty_serve_generic</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:559</div></div>
+<div class="ttc" id="aa14393_html"><div class="ttname"><a href="../../db/de2/a14393.html">spell_pilgrims_bounty_food_aura</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:576</div></div>
+<div class="ttc" id="aa14397_html"><div class="ttname"><a href="../../d8/d9c/a14397.html">spell_pilgrims_bounty_food</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:601</div></div>
+<div class="ttc" id="aa14401_html"><div class="ttname"><a href="../../d2/d57/a14401.html">achievement_pb_pilgrims_peril</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:633</div></div>
+<div class="ttc" id="aa14405_html"><div class="ttname"><a href="../../db/def/a14405.html">achievement_pb_terokkar_turkey_time</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:647</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00101">AddKalimdorScripts()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l02732">RegisterCreatureAI</a>, <a class="el" href="../../#l02723">RegisterSpellAndAuraScriptPair</a>, and <a class="el" href="../../#l02721">RegisterSpellScript</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00029">AddEventsScripts()</a>.</p>
 
 </div>
 </div>
@@ -158,8 +582,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ee14a0f6ab8ad29bd27b6821baacc69.html">Kalimdor</a></li><li class="navelem"><a class="el" href="../../dir_b9ce73ca8ddd879a6b939545d1713742.html">BlackfathomDeeps</a></li><li class="navelem"><a class="el" href="../../d6/d41/a02930.html">instance_blackfathom_deeps.cpp</a></li>
-    <li class="footer">Generated on Wed May 17 2023 23:04:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_c818e5878076a3731e7c7d0d4061bd6b.html">Events</a></li><li class="navelem"><a class="el" href="../../d6/d41/a02930.html">pilgrims_bounty.cpp</a></li>
+    <li class="footer">Generated on Sun Aug 20 2023 00:19:06 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

@@ -1,59 +1,21 @@
 var a02804 =
 [
-    [ "npc_deathstalker_erland", "d9/d43/a13454.html", "d9/d43/a13454" ],
-    [ "npc_deathstalker_erland::npc_deathstalker_erlandAI", "d0/db9/a13458.html", "d0/db9/a13458" ],
-    [ "pyrewood_ambush", "d4/df0/a13462.html", "d4/df0/a13462" ],
-    [ "pyrewood_ambush::pyrewood_ambushAI", "d0/d4d/a13466.html", "d0/d4d/a13466" ],
-    [ "npc_ravenclaw_apparition", "d4/d7f/a13470.html", "d4/d7f/a13470" ],
-    [ "npc_ravenclaw_apparition::npc_ravenclaw_apparitionAI", "d8/dd2/a13474.html", "d8/dd2/a13474" ],
-    [ "WAIT_SECS", "df/dd0/a02804.html#a9ad1ed098bd723cdee424425d0e071cb", null ],
-    [ "ApparitionEvents", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416", [
-      [ "EVENT_APPA_INTRO", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416acb7d83e4f63d87d9e07acd3fe790cf3f", null ],
-      [ "EVENT_APPA_SAY_1", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416a5a70df4d34c2d8566d6f1f2223da8358", null ],
-      [ "EVENT_APPA_SAY_2", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416aef4150f2e8b273cda80a22afb309dcbd", null ],
-      [ "EVENT_APPA_SAY_3", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416a50dff15dc08a087b69b6e1f3e759e873", null ],
-      [ "EVENT_APPA_SAY_4", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416aef8c0d8bbd31ac1280da5e1d047b090c", null ],
-      [ "EVENT_APPA_OUTRO", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416a282f4f3128aee30886a27079ebbadade", null ],
-      [ "EVENT_APPA_OUTRO_CROWD", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416a43a816ba27d12306c8859a065298090a", null ],
-      [ "EVENT_APPA_OUTRO_END", "df/dd0/a02804.html#ac7d12f884ef22dca36021fe54df83416a67c26d38a1c04c6defc255ec84508341", null ]
+    [ "LocationXYZ", "da/d2e/a13361.html", "da/d2e/a13361" ],
+    [ "npc_rinji", "dd/dd0/a13365.html", "dd/dd0/a13365" ],
+    [ "npc_rinji::npc_rinjiAI", "d4/d6d/a13369.html", "d4/d6d/a13369" ],
+    [ "Rinji", "df/dd0/a02804.html#ab769c87cc823749a5fe9cc0ed4f59133", [
+      [ "SAY_RIN_BY_OUTRUNNER", "df/dd0/a02804.html#ab769c87cc823749a5fe9cc0ed4f59133a3aaaf930cf9ab49ca1d76cc6ed5e766c", null ],
+      [ "SAY_RIN_FREE", "df/dd0/a02804.html#ab769c87cc823749a5fe9cc0ed4f59133a18a3ea60620bdbd5ef82292e56df01d3", null ],
+      [ "SAY_RIN_HELP", "df/dd0/a02804.html#ab769c87cc823749a5fe9cc0ed4f59133af6414cba0564a077856ea0ee01cde0e0", null ],
+      [ "SAY_RIN_COMPLETE", "df/dd0/a02804.html#ab769c87cc823749a5fe9cc0ed4f59133a2e8b271174b0c30e02c7d465daca4632", null ],
+      [ "SAY_RIN_PROGRESS_1", "df/dd0/a02804.html#ab769c87cc823749a5fe9cc0ed4f59133a8f06b066d2b30fd7440ab8d0c0450aa5", null ],
+      [ "SAY_RIN_PROGRESS_2", "df/dd0/a02804.html#ab769c87cc823749a5fe9cc0ed4f59133a9d77a031db4f3a40f412949a95be80c5", null ],
+      [ "QUEST_RINJI_TRAPPED", "df/dd0/a02804.html#ab769c87cc823749a5fe9cc0ed4f59133aeb5734ecb62da42fe708673351c073e8", null ],
+      [ "NPC_RANGER", "df/dd0/a02804.html#ab769c87cc823749a5fe9cc0ed4f59133aec7fcfc9b715f5aeadff781115a0e69e", null ],
+      [ "NPC_OUTRUNNER", "df/dd0/a02804.html#ab769c87cc823749a5fe9cc0ed4f59133abc36fa763814aa6d572492b462e191a2", null ],
+      [ "GO_RINJI_CAGE", "df/dd0/a02804.html#ab769c87cc823749a5fe9cc0ed4f59133a8b71e8dfde4865f3891f672d000410fb", null ]
     ] ],
-    [ "ApparitionMisc", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3", [
-      [ "NPC_GNOLL_RUNNER", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3aa926c07b3e0e442ce56cd705d02adbb1", null ],
-      [ "NPC_GNOLL_MYSTIC", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3acd80c1eed7ee155c06297c43fe4ded15", null ],
-      [ "EMOTE_CHEER", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a91a471fc43ea92dee1d1ab4ee7792204", null ],
-      [ "EMOTE_GNOLL_CHEER", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a989ea1d9c4ed491fb34d5c665e00cd07", null ],
-      [ "SAY_APPA_INTRO", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a48c8c5efde4afd1945ded15985be957e", null ],
-      [ "SAY_APPA_OUTRO", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3aeaee8eb03b5ecc83ec4c4bce61234a14", null ],
-      [ "SAY_APPA_OPTION_1_1", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a7ce5157a61c4ae4a36c10e911838c759", null ],
-      [ "SAY_APPA_OPTION_1_2", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a09f22f871c7677ce21215036738e9599", null ],
-      [ "SAY_APPA_OPTION_1_3", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a7d6be30b7c3a5eaf04bb4faf64258f4c", null ],
-      [ "SAY_APPA_OPTION_1_4", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3ac5f229a48574f471bef97c854953dd56", null ],
-      [ "SAY_APPA_OPTION_2_1", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3ae47c4533188c68c14269a2ae1e03495a", null ],
-      [ "SAY_APPA_OPTION_2_2", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a906e509283cd756dd51d23385e635c52", null ],
-      [ "SAY_APPA_OPTION_2_3", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a500da27ff93fe5afe164b9cfadf8c97f", null ],
-      [ "SAY_APPA_OPTION_2_4", "df/dd0/a02804.html#a5909181236bb4736208a6dab8aa72de3a9c27b474b7cc468aa2d897347fb9ddab", null ]
-    ] ],
-    [ "Erland", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117", [
-      [ "SAY_QUESTACCEPT", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117ac55a400e0f3da4381ab1048e5115d2d7", null ],
-      [ "SAY_START", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117a2eae21cbf7d110ee89a9798ef6f00239", null ],
-      [ "SAY_AGGRO", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117a47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SAY_PROGRESS", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117a0a1c1c8ee2f4fb58f4e107f259c6a7a5", null ],
-      [ "SAY_LAST", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117a37a618ea7771d6b731851ae8b9a71789", null ],
-      [ "SAY_RANE", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117aa74f95bb40d8ed4f48055905dc06d093", null ],
-      [ "SAY_RANE_ANSWER", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117ab0a630e891967ea5f9e0b2b1d4ff8c7b", null ],
-      [ "SAY_MOVE_QUINN", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117a8b9954338ee30878ef14f9fb11ed1139", null ],
-      [ "SAY_QUINN", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117ac996a5c00ede30152bc87c96f2f29344", null ],
-      [ "SAY_QUINN_ANSWER", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117a5f9017092c9843fc6c48bd100c50f167", null ],
-      [ "SAY_BYE", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117abad8d0d4b1cbadaec38e64cea8c488c4", null ],
-      [ "QUEST_ESCORTING", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117a9dd84d8712737f5cf17048c4475c3c42", null ],
-      [ "NPC_RANE", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117ac32a913ef393de880014e21b55d9f566", null ],
-      [ "NPC_QUINN", "df/dd0/a02804.html#a17833146260016bd364b0aeabe951117aa0a34bb710b174abf06aa875f3a3e82e", null ]
-    ] ],
-    [ "PyrewoodAmbush", "df/dd0/a02804.html#a877721d69d53f57a970e68fafa98f026", [
-      [ "QUEST_PYREWOOD_AMBUSH", "df/dd0/a02804.html#a877721d69d53f57a970e68fafa98f026a92b54f289feb991fd918a0e654bd6c77", null ],
-      [ "NPCSAY_INIT", "df/dd0/a02804.html#a877721d69d53f57a970e68fafa98f026aaa92536cc818f1566c861be10809e186", null ],
-      [ "NPCSAY_END", "df/dd0/a02804.html#a877721d69d53f57a970e68fafa98f026a4cdea1fd3d42985ec1def690f032a68c", null ]
-    ] ],
-    [ "AddSC_silverpine_forest", "df/dd0/a02804.html#a2ba39a6181a7eb3cea0c26335739a06c", null ],
-    [ "PyrewoodSpawnPoints", "df/dd0/a02804.html#aa6dde45459ce647040655253e287cd41", null ]
+    [ "AddSC_hinterlands", "df/dd0/a02804.html#a0b6f7497a7db75be5fe9d90d14c46720", null ],
+    [ "AmbushMoveTo", "df/dd0/a02804.html#aa2e998c0f3d966c32be9106221fe957c", null ],
+    [ "AmbushSpawn", "df/dd0/a02804.html#ace1d91ebeb7be507ec886616fad7eef4", null ]
 ];

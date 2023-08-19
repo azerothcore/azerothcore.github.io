@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/scripts/World/achievement_scripts.cpp File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/scripts/Spells/spell_rogue.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,212 +107,216 @@ $(document).ready(function(){initNavTree('de/d93/a04235.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">achievement_scripts.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">spell_rogue.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">BattlegroundAB.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundAV.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundIC.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundSA.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundWS.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd8/a28810.html">achievement_resilient_victory</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dda/a28321.html">spell_rog_savage_combat</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/da0/a28814.html">achievement_bg_control_all_nodes</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d53/a28325.html">spell_rog_combat_potency</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3a/a28818.html">achievement_save_the_day</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d60/a28329.html">spell_rog_blade_flurry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2c/a28822.html">achievement_bg_ic_resource_glut</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/da2/a28333.html">spell_rog_cheat_death</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df7/a28826.html">achievement_bg_ic_glaive_grave</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d9e/a28337.html">spell_rog_deadly_poison</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dde/a28830.html">achievement_bg_ic_mowed_down</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d58/a28341.html">spell_rog_killing_spree</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d32/a28834.html">achievement_bg_sa_artillery</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d78/a28345.html">spell_rog_killing_spree::spell_rog_killing_spree_SpellScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d87/a28838.html">achievement_arena_by_type</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/a28349.html">spell_rog_killing_spree::spell_rog_killing_spree_AuraScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db5/a28842.html">achievement_sickly_gazelle</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d61/a28353.html">spell_rog_nerves_of_steel</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de2/a28846.html">achievement_everything_counts</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd3/a28357.html">spell_rog_preparation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcf/a28850.html">achievement_bg_av_perfection</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d32/a28361.html">spell_rog_prey_on_the_weak</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db3/a28854.html">achievement_sa_defense_of_the_ancients</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da0/a28365.html">spell_rog_rupture</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d1e/a28858.html">achievement_tilted</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d56/a28369.html">spell_rog_shiv</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dfc/a28862.html">achievement_not_even_a_scratch</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d06/a28373.html">spell_rog_tricks_of_the_trade</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9b/a28866.html">achievement_killed_exp_or_honor_target</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6f/a28377.html">spell_rog_tricks_of_the_trade_proc</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d96/a28870.html">achievement_flirt_with_disaster_perf_check</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df6/a28381.html">spell_rog_pickpocket</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a3113dcef6ca918382eb15e4803d7bb42"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d93/a04235.html#a3113dcef6ca918382eb15e4803d7bb42">KillingSpreeScriptName</a>&#160;&#160;&#160;&quot;spell_rog_killing_spree&quot;</td></tr>
+<tr class="separator:a3113dcef6ca918382eb15e4803d7bb42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a2e77de85e54ed0be0b64c804c9b2eea3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3">ArgentTournamentAreas</a> { <br />
-&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737">AREA_ARGENT_TOURNAMENT_FIELDS</a> = 4658
+<tr class="memitem:a8b34bf8ceba4b8c2efea84d90002d523"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523">RogueSpells</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4">SPELL_ROGUE_BLADE_FLURRY_EXTRA_ATTACK</a> = 22482
 , <br />
-&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf">AREA_RING_OF_ASPIRANTS</a> = 4670
+&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a75fb50ee3a9ea34c6f3cd9c9c69ef812">SPELL_ROGUE_CHEAT_DEATH_COOLDOWN</a> = 31231
 , <br />
-&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d">AREA_RING_OF_ARGENT_VALIANTS</a> = 4671
+&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a6396f8908556e8d41d4588ad332ed220">SPELL_ROGUE_CHEATING_DEATH</a> = 45182
 , <br />
-&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504">AREA_RING_OF_ALLIANCE_VALIANTS</a> = 4672
+&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a7545fa0487a27a1ff5c4f46f11bd6e2d">SPELL_ROGUE_GLYPH_OF_PREPARATION</a> = 56819
 , <br />
-&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826">AREA_RING_OF_HORDE_VALIANTS</a> = 4673
+&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a8724d3e7643b075ffc53dc2b56a6d57e">SPELL_ROGUE_KILLING_SPREE</a> = 51690
 , <br />
-&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7">AREA_RING_OF_CHAMPIONS</a> = 4669
+&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523ac79c792df274373bd828b858423bf788">SPELL_ROGUE_KILLING_SPREE_TELEPORT</a> = 57840
+, <br />
+&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a43c37fb7f4397717d9d461979a347419">SPELL_ROGUE_KILLING_SPREE_WEAPON_DMG</a> = 57841
+, <br />
+&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523aa581c4f979f952b5ab2cd9c3fe4b48b3">SPELL_ROGUE_KILLING_SPREE_DMG_BUFF</a> = 61851
+, <br />
+&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a00ea9db72b7743f8aa77105b26052452">SPELL_ROGUE_PREY_ON_THE_WEAK</a> = 58670
+, <br />
+&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523abbcae24b30508077d3d35d472fda1c1e">SPELL_ROGUE_SHIV_TRIGGERED</a> = 5940
+, <br />
+&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a3e6468283bdb07074e12d6fa6a95de1a">SPELL_ROGUE_TRICKS_OF_THE_TRADE_DMG_BOOST</a> = 57933
+, <br />
+&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a05c69acb7a8f501d078f7fda049926e1">SPELL_ROGUE_TRICKS_OF_THE_TRADE_PROC</a> = 59628
 <br />
  }</td></tr>
-<tr class="separator:a2e77de85e54ed0be0b64c804c9b2eea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59d6aac4e950d8e6a0265a26e1898c13"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d93/a04235.html#a59d6aac4e950d8e6a0265a26e1898c13">FlirtWithDisaster</a> { <br />
-&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a59d6aac4e950d8e6a0265a26e1898c13a51aa967912af69dc7510017e558bbb85">AURA_PERFUME_FOREVER</a> = 70235
-, <br />
-&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a59d6aac4e950d8e6a0265a26e1898c13a6f98457c5232039183c4be4588a067c6">AURA_PERFUME_ENCHANTRESS</a> = 70234
-, <br />
-&#160;&#160;<a class="el" href="../../de/d93/a04235.html#a59d6aac4e950d8e6a0265a26e1898c13afb194a6e19cf65f763d7975e5d842c9c">AURA_PERFUME_VICTORY</a> = 70233
-<br />
- }</td></tr>
-<tr class="separator:a59d6aac4e950d8e6a0265a26e1898c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a8b34bf8ceba4b8c2efea84d90002d523"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5091d6f933800f3313078304ad5c38ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d93/a04235.html#a5091d6f933800f3313078304ad5c38ca">AddSC_achievement_scripts</a> ()</td></tr>
-<tr class="separator:a5091d6f933800f3313078304ad5c38ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a540405afe3345e19487d2db693272b2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d93/a04235.html#a540405afe3345e19487d2db693272b2a">AddSC_rogue_spell_scripts</a> ()</td></tr>
+<tr class="separator:a540405afe3345e19487d2db693272b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a3113dcef6ca918382eb15e4803d7bb42" name="a3113dcef6ca918382eb15e4803d7bb42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3113dcef6ca918382eb15e4803d7bb42">&#9670;&#160;</a></span>KillingSpreeScriptName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define KillingSpreeScriptName&#160;&#160;&#160;&quot;spell_rog_killing_spree&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a2e77de85e54ed0be0b64c804c9b2eea3" name="a2e77de85e54ed0be0b64c804c9b2eea3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e77de85e54ed0be0b64c804c9b2eea3">&#9670;&#160;</a></span>ArgentTournamentAreas</h2>
+<a id="a8b34bf8ceba4b8c2efea84d90002d523" name="a8b34bf8ceba4b8c2efea84d90002d523"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b34bf8ceba4b8c2efea84d90002d523">&#9670;&#160;</a></span>RogueSpells</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3">ArgentTournamentAreas</a></td>
+          <td class="memname">enum <a class="el" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523">RogueSpells</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737" name="a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737"></a>AREA_ARGENT_TOURNAMENT_FIELDS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf" name="a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf"></a>AREA_RING_OF_ASPIRANTS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d" name="a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d"></a>AREA_RING_OF_ARGENT_VALIANTS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504" name="a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504"></a>AREA_RING_OF_ALLIANCE_VALIANTS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826" name="a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826"></a>AREA_RING_OF_HORDE_VALIANTS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7" name="a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7"></a>AREA_RING_OF_CHAMPIONS&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4" name="a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4"></a>SPELL_ROGUE_BLADE_FLURRY_EXTRA_ATTACK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a75fb50ee3a9ea34c6f3cd9c9c69ef812" name="a8b34bf8ceba4b8c2efea84d90002d523a75fb50ee3a9ea34c6f3cd9c9c69ef812"></a>SPELL_ROGUE_CHEAT_DEATH_COOLDOWN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a6396f8908556e8d41d4588ad332ed220" name="a8b34bf8ceba4b8c2efea84d90002d523a6396f8908556e8d41d4588ad332ed220"></a>SPELL_ROGUE_CHEATING_DEATH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a7545fa0487a27a1ff5c4f46f11bd6e2d" name="a8b34bf8ceba4b8c2efea84d90002d523a7545fa0487a27a1ff5c4f46f11bd6e2d"></a>SPELL_ROGUE_GLYPH_OF_PREPARATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a8724d3e7643b075ffc53dc2b56a6d57e" name="a8b34bf8ceba4b8c2efea84d90002d523a8724d3e7643b075ffc53dc2b56a6d57e"></a>SPELL_ROGUE_KILLING_SPREE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523ac79c792df274373bd828b858423bf788" name="a8b34bf8ceba4b8c2efea84d90002d523ac79c792df274373bd828b858423bf788"></a>SPELL_ROGUE_KILLING_SPREE_TELEPORT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a43c37fb7f4397717d9d461979a347419" name="a8b34bf8ceba4b8c2efea84d90002d523a43c37fb7f4397717d9d461979a347419"></a>SPELL_ROGUE_KILLING_SPREE_WEAPON_DMG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523aa581c4f979f952b5ab2cd9c3fe4b48b3" name="a8b34bf8ceba4b8c2efea84d90002d523aa581c4f979f952b5ab2cd9c3fe4b48b3"></a>SPELL_ROGUE_KILLING_SPREE_DMG_BUFF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a00ea9db72b7743f8aa77105b26052452" name="a8b34bf8ceba4b8c2efea84d90002d523a00ea9db72b7743f8aa77105b26052452"></a>SPELL_ROGUE_PREY_ON_THE_WEAK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523abbcae24b30508077d3d35d472fda1c1e" name="a8b34bf8ceba4b8c2efea84d90002d523abbcae24b30508077d3d35d472fda1c1e"></a>SPELL_ROGUE_SHIV_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a3e6468283bdb07074e12d6fa6a95de1a" name="a8b34bf8ceba4b8c2efea84d90002d523a3e6468283bdb07074e12d6fa6a95de1a"></a>SPELL_ROGUE_TRICKS_OF_THE_TRADE_DMG_BOOST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8b34bf8ceba4b8c2efea84d90002d523a05c69acb7a8f501d078f7fda049926e1" name="a8b34bf8ceba4b8c2efea84d90002d523a05c69acb7a8f501d078f7fda049926e1"></a>SPELL_ROGUE_TRICKS_OF_THE_TRADE_PROC&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">  197</span>{</div>
-<div class="line"><span class="lineno">  198</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737">AREA_ARGENT_TOURNAMENT_FIELDS</a>  = 4658,</div>
-<div class="line"><span class="lineno">  199</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf">AREA_RING_OF_ASPIRANTS</a>         = 4670,</div>
-<div class="line"><span class="lineno">  200</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d">AREA_RING_OF_ARGENT_VALIANTS</a>   = 4671,</div>
-<div class="line"><span class="lineno">  201</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504">AREA_RING_OF_ALLIANCE_VALIANTS</a> = 4672,</div>
-<div class="line"><span class="lineno">  202</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826">AREA_RING_OF_HORDE_VALIANTS</a>    = 4673,</div>
-<div class="line"><span class="lineno">  203</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7">AREA_RING_OF_CHAMPIONS</a>         = 4669,</div>
-<div class="line"><span class="lineno">  204</span>};</div>
-<div class="ttc" id="aa04235_html_a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504"><div class="ttname"><a href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504">AREA_RING_OF_ALLIANCE_VALIANTS</a></div><div class="ttdeci">@ AREA_RING_OF_ALLIANCE_VALIANTS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:201</div></div>
-<div class="ttc" id="aa04235_html_a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d"><div class="ttname"><a href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d">AREA_RING_OF_ARGENT_VALIANTS</a></div><div class="ttdeci">@ AREA_RING_OF_ARGENT_VALIANTS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:200</div></div>
-<div class="ttc" id="aa04235_html_a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737"><div class="ttname"><a href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737">AREA_ARGENT_TOURNAMENT_FIELDS</a></div><div class="ttdeci">@ AREA_ARGENT_TOURNAMENT_FIELDS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:198</div></div>
-<div class="ttc" id="aa04235_html_a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7"><div class="ttname"><a href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7">AREA_RING_OF_CHAMPIONS</a></div><div class="ttdeci">@ AREA_RING_OF_CHAMPIONS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:203</div></div>
-<div class="ttc" id="aa04235_html_a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf"><div class="ttname"><a href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf">AREA_RING_OF_ASPIRANTS</a></div><div class="ttdeci">@ AREA_RING_OF_ASPIRANTS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:199</div></div>
-<div class="ttc" id="aa04235_html_a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826"><div class="ttname"><a href="../../de/d93/a04235.html#a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826">AREA_RING_OF_HORDE_VALIANTS</a></div><div class="ttdeci">@ AREA_RING_OF_HORDE_VALIANTS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:202</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a59d6aac4e950d8e6a0265a26e1898c13" name="a59d6aac4e950d8e6a0265a26e1898c13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59d6aac4e950d8e6a0265a26e1898c13">&#9670;&#160;</a></span>FlirtWithDisaster</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../de/d93/a04235.html#a59d6aac4e950d8e6a0265a26e1898c13">FlirtWithDisaster</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a59d6aac4e950d8e6a0265a26e1898c13a51aa967912af69dc7510017e558bbb85" name="a59d6aac4e950d8e6a0265a26e1898c13a51aa967912af69dc7510017e558bbb85"></a>AURA_PERFUME_FOREVER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a59d6aac4e950d8e6a0265a26e1898c13a6f98457c5232039183c4be4588a067c6" name="a59d6aac4e950d8e6a0265a26e1898c13a6f98457c5232039183c4be4588a067c6"></a>AURA_PERFUME_ENCHANTRESS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a59d6aac4e950d8e6a0265a26e1898c13afb194a6e19cf65f763d7975e5d842c9c" name="a59d6aac4e950d8e6a0265a26e1898c13afb194a6e19cf65f763d7975e5d842c9c"></a>AURA_PERFUME_VICTORY&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  255</span>{</div>
-<div class="line"><span class="lineno">  256</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a59d6aac4e950d8e6a0265a26e1898c13a51aa967912af69dc7510017e558bbb85">AURA_PERFUME_FOREVER</a>           = 70235,</div>
-<div class="line"><span class="lineno">  257</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a59d6aac4e950d8e6a0265a26e1898c13a6f98457c5232039183c4be4588a067c6">AURA_PERFUME_ENCHANTRESS</a>       = 70234,</div>
-<div class="line"><span class="lineno">  258</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a59d6aac4e950d8e6a0265a26e1898c13afb194a6e19cf65f763d7975e5d842c9c">AURA_PERFUME_VICTORY</a>           = 70233,</div>
-<div class="line"><span class="lineno">  259</span>};</div>
-<div class="ttc" id="aa04235_html_a59d6aac4e950d8e6a0265a26e1898c13a51aa967912af69dc7510017e558bbb85"><div class="ttname"><a href="../../de/d93/a04235.html#a59d6aac4e950d8e6a0265a26e1898c13a51aa967912af69dc7510017e558bbb85">AURA_PERFUME_FOREVER</a></div><div class="ttdeci">@ AURA_PERFUME_FOREVER</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:256</div></div>
-<div class="ttc" id="aa04235_html_a59d6aac4e950d8e6a0265a26e1898c13a6f98457c5232039183c4be4588a067c6"><div class="ttname"><a href="../../de/d93/a04235.html#a59d6aac4e950d8e6a0265a26e1898c13a6f98457c5232039183c4be4588a067c6">AURA_PERFUME_ENCHANTRESS</a></div><div class="ttdeci">@ AURA_PERFUME_ENCHANTRESS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:257</div></div>
-<div class="ttc" id="aa04235_html_a59d6aac4e950d8e6a0265a26e1898c13afb194a6e19cf65f763d7975e5d842c9c"><div class="ttname"><a href="../../de/d93/a04235.html#a59d6aac4e950d8e6a0265a26e1898c13afb194a6e19cf65f763d7975e5d842c9c">AURA_PERFUME_VICTORY</a></div><div class="ttdeci">@ AURA_PERFUME_VICTORY</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:258</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4">SPELL_ROGUE_BLADE_FLURRY_EXTRA_ATTACK</a>       = 22482,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a75fb50ee3a9ea34c6f3cd9c9c69ef812">SPELL_ROGUE_CHEAT_DEATH_COOLDOWN</a>            = 31231,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a6396f8908556e8d41d4588ad332ed220">SPELL_ROGUE_CHEATING_DEATH</a>                  = 45182,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a7545fa0487a27a1ff5c4f46f11bd6e2d">SPELL_ROGUE_GLYPH_OF_PREPARATION</a>            = 56819,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a8724d3e7643b075ffc53dc2b56a6d57e">SPELL_ROGUE_KILLING_SPREE</a>                   = 51690,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523ac79c792df274373bd828b858423bf788">SPELL_ROGUE_KILLING_SPREE_TELEPORT</a>          = 57840,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a43c37fb7f4397717d9d461979a347419">SPELL_ROGUE_KILLING_SPREE_WEAPON_DMG</a>        = 57841,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523aa581c4f979f952b5ab2cd9c3fe4b48b3">SPELL_ROGUE_KILLING_SPREE_DMG_BUFF</a>          = 61851,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a00ea9db72b7743f8aa77105b26052452">SPELL_ROGUE_PREY_ON_THE_WEAK</a>                = 58670,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523abbcae24b30508077d3d35d472fda1c1e">SPELL_ROGUE_SHIV_TRIGGERED</a>                  = 5940,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a3e6468283bdb07074e12d6fa6a95de1a">SPELL_ROGUE_TRICKS_OF_THE_TRADE_DMG_BOOST</a>   = 57933,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a05c69acb7a8f501d078f7fda049926e1">SPELL_ROGUE_TRICKS_OF_THE_TRADE_PROC</a>        = 59628,</div>
+<div class="line"><span class="lineno">   45</span>};</div>
+<div class="ttc" id="aa04235_html_a8b34bf8ceba4b8c2efea84d90002d523a00ea9db72b7743f8aa77105b26052452"><div class="ttname"><a href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a00ea9db72b7743f8aa77105b26052452">SPELL_ROGUE_PREY_ON_THE_WEAK</a></div><div class="ttdeci">@ SPELL_ROGUE_PREY_ON_THE_WEAK</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:41</div></div>
+<div class="ttc" id="aa04235_html_a8b34bf8ceba4b8c2efea84d90002d523a05c69acb7a8f501d078f7fda049926e1"><div class="ttname"><a href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a05c69acb7a8f501d078f7fda049926e1">SPELL_ROGUE_TRICKS_OF_THE_TRADE_PROC</a></div><div class="ttdeci">@ SPELL_ROGUE_TRICKS_OF_THE_TRADE_PROC</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:44</div></div>
+<div class="ttc" id="aa04235_html_a8b34bf8ceba4b8c2efea84d90002d523a3e6468283bdb07074e12d6fa6a95de1a"><div class="ttname"><a href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a3e6468283bdb07074e12d6fa6a95de1a">SPELL_ROGUE_TRICKS_OF_THE_TRADE_DMG_BOOST</a></div><div class="ttdeci">@ SPELL_ROGUE_TRICKS_OF_THE_TRADE_DMG_BOOST</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:43</div></div>
+<div class="ttc" id="aa04235_html_a8b34bf8ceba4b8c2efea84d90002d523a43c37fb7f4397717d9d461979a347419"><div class="ttname"><a href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a43c37fb7f4397717d9d461979a347419">SPELL_ROGUE_KILLING_SPREE_WEAPON_DMG</a></div><div class="ttdeci">@ SPELL_ROGUE_KILLING_SPREE_WEAPON_DMG</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:39</div></div>
+<div class="ttc" id="aa04235_html_a8b34bf8ceba4b8c2efea84d90002d523a6396f8908556e8d41d4588ad332ed220"><div class="ttname"><a href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a6396f8908556e8d41d4588ad332ed220">SPELL_ROGUE_CHEATING_DEATH</a></div><div class="ttdeci">@ SPELL_ROGUE_CHEATING_DEATH</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:35</div></div>
+<div class="ttc" id="aa04235_html_a8b34bf8ceba4b8c2efea84d90002d523a7545fa0487a27a1ff5c4f46f11bd6e2d"><div class="ttname"><a href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a7545fa0487a27a1ff5c4f46f11bd6e2d">SPELL_ROGUE_GLYPH_OF_PREPARATION</a></div><div class="ttdeci">@ SPELL_ROGUE_GLYPH_OF_PREPARATION</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:36</div></div>
+<div class="ttc" id="aa04235_html_a8b34bf8ceba4b8c2efea84d90002d523a75fb50ee3a9ea34c6f3cd9c9c69ef812"><div class="ttname"><a href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a75fb50ee3a9ea34c6f3cd9c9c69ef812">SPELL_ROGUE_CHEAT_DEATH_COOLDOWN</a></div><div class="ttdeci">@ SPELL_ROGUE_CHEAT_DEATH_COOLDOWN</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:34</div></div>
+<div class="ttc" id="aa04235_html_a8b34bf8ceba4b8c2efea84d90002d523a8724d3e7643b075ffc53dc2b56a6d57e"><div class="ttname"><a href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523a8724d3e7643b075ffc53dc2b56a6d57e">SPELL_ROGUE_KILLING_SPREE</a></div><div class="ttdeci">@ SPELL_ROGUE_KILLING_SPREE</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:37</div></div>
+<div class="ttc" id="aa04235_html_a8b34bf8ceba4b8c2efea84d90002d523aa581c4f979f952b5ab2cd9c3fe4b48b3"><div class="ttname"><a href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523aa581c4f979f952b5ab2cd9c3fe4b48b3">SPELL_ROGUE_KILLING_SPREE_DMG_BUFF</a></div><div class="ttdeci">@ SPELL_ROGUE_KILLING_SPREE_DMG_BUFF</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:40</div></div>
+<div class="ttc" id="aa04235_html_a8b34bf8ceba4b8c2efea84d90002d523abbcae24b30508077d3d35d472fda1c1e"><div class="ttname"><a href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523abbcae24b30508077d3d35d472fda1c1e">SPELL_ROGUE_SHIV_TRIGGERED</a></div><div class="ttdeci">@ SPELL_ROGUE_SHIV_TRIGGERED</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:42</div></div>
+<div class="ttc" id="aa04235_html_a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4"><div class="ttname"><a href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523abd75ddb52a8c3be71d8856b3a34686b4">SPELL_ROGUE_BLADE_FLURRY_EXTRA_ATTACK</a></div><div class="ttdeci">@ SPELL_ROGUE_BLADE_FLURRY_EXTRA_ATTACK</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:33</div></div>
+<div class="ttc" id="aa04235_html_a8b34bf8ceba4b8c2efea84d90002d523ac79c792df274373bd828b858423bf788"><div class="ttname"><a href="../../de/d93/a04235.html#a8b34bf8ceba4b8c2efea84d90002d523ac79c792df274373bd828b858423bf788">SPELL_ROGUE_KILLING_SPREE_TELEPORT</a></div><div class="ttdeci">@ SPELL_ROGUE_KILLING_SPREE_TELEPORT</div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:38</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a5091d6f933800f3313078304ad5c38ca" name="a5091d6f933800f3313078304ad5c38ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5091d6f933800f3313078304ad5c38ca">&#9670;&#160;</a></span>AddSC_achievement_scripts()</h2>
+<a id="a540405afe3345e19487d2db693272b2a" name="a540405afe3345e19487d2db693272b2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a540405afe3345e19487d2db693272b2a">&#9670;&#160;</a></span>AddSC_rogue_spell_scripts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_achievement_scripts </td>
+          <td class="memname">void AddSC_rogue_spell_scripts </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  279</span>{</div>
-<div class="line"><span class="lineno">  280</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/dd8/a28810.html">achievement_resilient_victory</a>();</div>
-<div class="line"><span class="lineno">  281</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/da0/a28814.html">achievement_bg_control_all_nodes</a>();</div>
-<div class="line"><span class="lineno">  282</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/d3a/a28818.html">achievement_save_the_day</a>();</div>
-<div class="line"><span class="lineno">  283</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d2c/a28822.html">achievement_bg_ic_resource_glut</a>();</div>
-<div class="line"><span class="lineno">  284</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/df7/a28826.html">achievement_bg_ic_glaive_grave</a>();</div>
-<div class="line"><span class="lineno">  285</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/dde/a28830.html">achievement_bg_ic_mowed_down</a>();</div>
-<div class="line"><span class="lineno">  286</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d32/a28834.html">achievement_bg_sa_artillery</a>();</div>
-<div class="line"><span class="lineno">  287</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/db5/a28842.html">achievement_sickly_gazelle</a>();</div>
-<div class="line"><span class="lineno">  288</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/de2/a28846.html">achievement_everything_counts</a>();</div>
-<div class="line"><span class="lineno">  289</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/dcf/a28850.html">achievement_bg_av_perfection</a>();</div>
-<div class="line"><span class="lineno">  290</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d87/a28838.html">achievement_arena_by_type</a>(<span class="stringliteral">&quot;achievement_arena_2v2_check&quot;</span>, <a class="code hl_enumvalue" href="../../d7/d92/a00887.html#ad38b6d141d358ab270694a77db413e50aba8dd9984d50b5a179ebf2dec66d8c01">ARENA_TYPE_2v2</a>);</div>
-<div class="line"><span class="lineno">  291</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d87/a28838.html">achievement_arena_by_type</a>(<span class="stringliteral">&quot;achievement_arena_3v3_check&quot;</span>, <a class="code hl_enumvalue" href="../../d7/d92/a00887.html#ad38b6d141d358ab270694a77db413e50aa98d0a1c6432cd3013d20e83937726be">ARENA_TYPE_3v3</a>);</div>
-<div class="line"><span class="lineno">  292</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d87/a28838.html">achievement_arena_by_type</a>(<span class="stringliteral">&quot;achievement_arena_5v5_check&quot;</span>, <a class="code hl_enumvalue" href="../../d7/d92/a00887.html#ad38b6d141d358ab270694a77db413e50a49cde50538e418258d292c3c2f7df512">ARENA_TYPE_5v5</a>);</div>
-<div class="line"><span class="lineno">  293</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/db3/a28854.html">achievement_sa_defense_of_the_ancients</a>();</div>
-<div class="line"><span class="lineno">  294</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/d1e/a28858.html">achievement_tilted</a>();</div>
-<div class="line"><span class="lineno">  295</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/dfc/a28862.html">achievement_not_even_a_scratch</a>();</div>
-<div class="line"><span class="lineno">  296</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d9b/a28866.html">achievement_killed_exp_or_honor_target</a>();</div>
-<div class="line"><span class="lineno">  297</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/d96/a28870.html">achievement_flirt_with_disaster_perf_check</a>();</div>
-<div class="line"><span class="lineno">  298</span>}</div>
-<div class="ttc" id="aa00887_html_ad38b6d141d358ab270694a77db413e50a49cde50538e418258d292c3c2f7df512"><div class="ttname"><a href="../../d7/d92/a00887.html#ad38b6d141d358ab270694a77db413e50a49cde50538e418258d292c3c2f7df512">ARENA_TYPE_5v5</a></div><div class="ttdeci">@ ARENA_TYPE_5v5</div><div class="ttdef"><b>Definition:</b> Battleground.h:214</div></div>
-<div class="ttc" id="aa00887_html_ad38b6d141d358ab270694a77db413e50aa98d0a1c6432cd3013d20e83937726be"><div class="ttname"><a href="../../d7/d92/a00887.html#ad38b6d141d358ab270694a77db413e50aa98d0a1c6432cd3013d20e83937726be">ARENA_TYPE_3v3</a></div><div class="ttdeci">@ ARENA_TYPE_3v3</div><div class="ttdef"><b>Definition:</b> Battleground.h:213</div></div>
-<div class="ttc" id="aa00887_html_ad38b6d141d358ab270694a77db413e50aba8dd9984d50b5a179ebf2dec66d8c01"><div class="ttname"><a href="../../d7/d92/a00887.html#ad38b6d141d358ab270694a77db413e50aba8dd9984d50b5a179ebf2dec66d8c01">ARENA_TYPE_2v2</a></div><div class="ttdeci">@ ARENA_TYPE_2v2</div><div class="ttdef"><b>Definition:</b> Battleground.h:212</div></div>
-<div class="ttc" id="aa28810_html"><div class="ttname"><a href="../../d1/dd8/a28810.html">achievement_resilient_victory</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:29</div></div>
-<div class="ttc" id="aa28814_html"><div class="ttname"><a href="../../d7/da0/a28814.html">achievement_bg_control_all_nodes</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:41</div></div>
-<div class="ttc" id="aa28818_html"><div class="ttname"><a href="../../d1/d3a/a28818.html">achievement_save_the_day</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:53</div></div>
-<div class="ttc" id="aa28822_html"><div class="ttname"><a href="../../dd/d2c/a28822.html">achievement_bg_ic_resource_glut</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:72</div></div>
-<div class="ttc" id="aa28826_html"><div class="ttname"><a href="../../d3/df7/a28826.html">achievement_bg_ic_glaive_grave</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:84</div></div>
-<div class="ttc" id="aa28830_html"><div class="ttname"><a href="../../d6/dde/a28830.html">achievement_bg_ic_mowed_down</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:98</div></div>
-<div class="ttc" id="aa28834_html"><div class="ttname"><a href="../../d9/d32/a28834.html">achievement_bg_sa_artillery</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:112</div></div>
-<div class="ttc" id="aa28838_html"><div class="ttname"><a href="../../d4/d87/a28838.html">achievement_arena_by_type</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:126</div></div>
-<div class="ttc" id="aa28842_html"><div class="ttname"><a href="../../d3/db5/a28842.html">achievement_sickly_gazelle</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:143</div></div>
-<div class="ttc" id="aa28846_html"><div class="ttname"><a href="../../dc/de2/a28846.html">achievement_everything_counts</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:161</div></div>
-<div class="ttc" id="aa28850_html"><div class="ttname"><a href="../../d5/dcf/a28850.html">achievement_bg_av_perfection</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:173</div></div>
-<div class="ttc" id="aa28854_html"><div class="ttname"><a href="../../da/db3/a28854.html">achievement_sa_defense_of_the_ancients</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:185</div></div>
-<div class="ttc" id="aa28858_html"><div class="ttname"><a href="../../df/d1e/a28858.html">achievement_tilted</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:207</div></div>
-<div class="ttc" id="aa28862_html"><div class="ttname"><a href="../../df/dfc/a28862.html">achievement_not_even_a_scratch</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:229</div></div>
-<div class="ttc" id="aa28866_html"><div class="ttname"><a href="../../dd/d9b/a28866.html">achievement_killed_exp_or_honor_target</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:244</div></div>
-<div class="ttc" id="aa28870_html"><div class="ttname"><a href="../../db/d96/a28870.html">achievement_flirt_with_disaster_perf_check</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:262</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  697</span>{</div>
+<div class="line"><span class="lineno">  698</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d3/dda/a28321.html">spell_rog_savage_combat</a>);</div>
+<div class="line"><span class="lineno">  699</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d4/d53/a28325.html">spell_rog_combat_potency</a>);</div>
+<div class="line"><span class="lineno">  700</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dd/d60/a28329.html">spell_rog_blade_flurry</a>);</div>
+<div class="line"><span class="lineno">  701</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d4/da2/a28333.html">spell_rog_cheat_death</a>);</div>
+<div class="line"><span class="lineno">  702</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d1/d9e/a28337.html">spell_rog_deadly_poison</a>);</div>
+<div class="line"><span class="lineno">  703</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d58/a28341.html">spell_rog_killing_spree</a>();</div>
+<div class="line"><span class="lineno">  704</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dc/d61/a28353.html">spell_rog_nerves_of_steel</a>);</div>
+<div class="line"><span class="lineno">  705</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../de/dd3/a28357.html">spell_rog_preparation</a>);</div>
+<div class="line"><span class="lineno">  706</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../de/d32/a28361.html">spell_rog_prey_on_the_weak</a>);</div>
+<div class="line"><span class="lineno">  707</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d2/da0/a28365.html">spell_rog_rupture</a>);</div>
+<div class="line"><span class="lineno">  708</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d3/d56/a28369.html">spell_rog_shiv</a>);</div>
+<div class="line"><span class="lineno">  709</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../de/d06/a28373.html">spell_rog_tricks_of_the_trade</a>);</div>
+<div class="line"><span class="lineno">  710</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d6/d6f/a28377.html">spell_rog_tricks_of_the_trade_proc</a>);</div>
+<div class="line"><span class="lineno">  711</span>    <a class="code hl_define" href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d8/df6/a28381.html">spell_rog_pickpocket</a>);</div>
+<div class="line"><span class="lineno">  712</span>}</div>
+<div class="ttc" id="aa01979_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d6/d8e/a01979.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2721</div></div>
+<div class="ttc" id="aa28321_html"><div class="ttname"><a href="../../d3/dda/a28321.html">spell_rog_savage_combat</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:48</div></div>
+<div class="ttc" id="aa28325_html"><div class="ttname"><a href="../../d4/d53/a28325.html">spell_rog_combat_potency</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:75</div></div>
+<div class="ttc" id="aa28329_html"><div class="ttname"><a href="../../dd/d60/a28329.html">spell_rog_blade_flurry</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:91</div></div>
+<div class="ttc" id="aa28333_html"><div class="ttname"><a href="../../d4/da2/a28333.html">spell_rog_cheat_death</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:146</div></div>
+<div class="ttc" id="aa28337_html"><div class="ttname"><a href="../../d1/d9e/a28337.html">spell_rog_deadly_poison</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:197</div></div>
+<div class="ttc" id="aa28341_html"><div class="ttname"><a href="../../d6/d58/a28341.html">spell_rog_killing_spree</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:286</div></div>
+<div class="ttc" id="aa28353_html"><div class="ttname"><a href="../../dc/d61/a28353.html">spell_rog_nerves_of_steel</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:418</div></div>
+<div class="ttc" id="aa28357_html"><div class="ttname"><a href="../../de/dd3/a28357.html">spell_rog_preparation</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:451</div></div>
+<div class="ttc" id="aa28361_html"><div class="ttname"><a href="../../de/d32/a28361.html">spell_rog_prey_on_the_weak</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:511</div></div>
+<div class="ttc" id="aa28365_html"><div class="ttname"><a href="../../d2/da0/a28365.html">spell_rog_rupture</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:546</div></div>
+<div class="ttc" id="aa28369_html"><div class="ttname"><a href="../../d3/d56/a28369.html">spell_rog_shiv</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:587</div></div>
+<div class="ttc" id="aa28373_html"><div class="ttname"><a href="../../de/d06/a28373.html">spell_rog_tricks_of_the_trade</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:615</div></div>
+<div class="ttc" id="aa28377_html"><div class="ttname"><a href="../../d6/d6f/a28377.html">spell_rog_tricks_of_the_trade_proc</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:664</div></div>
+<div class="ttc" id="aa28381_html"><div class="ttname"><a href="../../d8/df6/a28381.html">spell_rog_pickpocket</a></div><div class="ttdef"><b>Definition:</b> spell_rogue.cpp:679</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00212">ARENA_TYPE_2v2</a>, <a class="el" href="../../#l00213">ARENA_TYPE_3v3</a>, and <a class="el" href="../../#l00214">ARENA_TYPE_5v5</a>.</p>
+<p class="reference">References <a class="el" href="../../#l02721">RegisterSpellScript</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00035">AddSpellsScripts()</a>.</p>
 
 </div>
 </div>
@@ -321,8 +325,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_0a0414616ece51a8570c4e36029d4e29.html">World</a></li><li class="navelem"><a class="el" href="../../de/d93/a04235.html">achievement_scripts.cpp</a></li>
-    <li class="footer">Generated on Wed May 17 2023 23:04:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_a5c81565c813a087452a284baefe3cb6.html">Spells</a></li><li class="navelem"><a class="el" href="../../de/d93/a04235.html">spell_rogue.cpp</a></li>
+    <li class="footer">Generated on Sun Aug 20 2023 00:19:19 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,5 @@
 var a01676 =
 [
-    [ "GetIdleMovementGenerator", "de/d3e/a01676.html#ab03e344726a074f17f8c63d10b67fcc1", null ],
-    [ "isStatic", "de/d3e/a01676.html#a05fec3371a9aee5a6448115a645a505d", null ]
+    [ "MotdMgr", "d4/d04/a09409.html", "d4/d04/a09409" ],
+    [ "sMotdMgr", "de/d3e/a01676.html#a0ad6ba4db6e433e72e172e659af2cada", null ]
 ];

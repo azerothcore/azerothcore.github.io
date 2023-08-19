@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/game/Addons/AddonMgr.h File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/game/Accounts/AccountMgr.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,70 +106,143 @@ $(document).ready(function(){initNavTree('d4/d6a/a00704.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">AddonMgr.h File Reference</div></div>
+  <div class="headertitle"><div class="title">AccountMgr.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &lt;array&gt;</code><br />
-<code>#include &lt;list&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
-<code>#include &lt;utility&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d16/a05746.html">AddonInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d55/a05750.html">SavedAddon</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3f/a05754.html">BannedAddon</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d7/d43/a04505"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d43/a04505.html">AddonMgr</a></td></tr>
+<tr class="memitem:d5/d91/a04516"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d91/a04516.html">AccountMgr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a084249e215f787f3163d5d06ad2d256f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6a/a00704.html#a084249e215f787f3163d5d06ad2d256f">STANDARD_ADDON_CRC</a>&#160;&#160;&#160;0x4c1c776d</td></tr>
-<tr class="separator:a084249e215f787f3163d5d06ad2d256f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a134ebf22666a6525929447b2d869d400"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6a/a00704.html#a134ebf22666a6525929447b2d869d400">MAX_ACCOUNT_STR</a>&#160;&#160;&#160;20</td></tr>
+<tr class="separator:a134ebf22666a6525929447b2d869d400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45827712253b6d66092106cef5ae724b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6a/a00704.html#a45827712253b6d66092106cef5ae724b">MAX_PASS_STR</a>&#160;&#160;&#160;16</td></tr>
+<tr class="separator:a45827712253b6d66092106cef5ae724b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a2ea3deb6be3c64b7b58ed27ccf60c779"><td class="memItemLeft" align="right" valign="top">typedef std::list&lt; <a class="el" href="../../d7/d3f/a05754.html">BannedAddon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d43/a04505.html#a2ea3deb6be3c64b7b58ed27ccf60c779">AddonMgr::BannedAddonList</a></td></tr>
-<tr class="separator:a2ea3deb6be3c64b7b58ed27ccf60c779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a0161874ada0cecbbd1fd5d31da73703e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703e">AccountOpResult</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703ea73449863bb0d97def55bd65307e97f18">AOR_OK</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703eaec4fb519d9e6032adc269ca4a27c38f4">AOR_NAME_TOO_LONG</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703eaed91b79b9e639b8f988c5f06fcfd901c">AOR_PASS_TOO_LONG</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703eae0b6297de7a7e8b516f5fc98a4d8750c">AOR_NAME_ALREADY_EXIST</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703ea05e659ba76ce9dd582551a24f2923b24">AOR_NAME_NOT_EXIST</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703ea368516df3522ada12ce8a39c789a687d">AOR_DB_INTERNAL_ERROR</a>
+<br />
+ }</td></tr>
+<tr class="separator:a0161874ada0cecbbd1fd5d31da73703e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aaa12f5b754e6b664dbfb2428478bee03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d43/a04505.html#aaa12f5b754e6b664dbfb2428478bee03">AddonMgr::LoadFromDB</a> ()</td></tr>
-<tr class="separator:aaa12f5b754e6b664dbfb2428478bee03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85021021149b7eb4d78cbe81e43d3d45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d43/a04505.html#a85021021149b7eb4d78cbe81e43d3d45">AddonMgr::SaveAddon</a> (<a class="el" href="../../d3/d16/a05746.html">AddonInfo</a> const &amp;addon)</td></tr>
-<tr class="separator:a85021021149b7eb4d78cbe81e43d3d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65cb6a88902972060e44c57d7d9ec738"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d55/a05750.html">SavedAddon</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d43/a04505.html#a65cb6a88902972060e44c57d7d9ec738">AddonMgr::GetAddonInfo</a> (const std::string &amp;name)</td></tr>
-<tr class="separator:a65cb6a88902972060e44c57d7d9ec738"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7d0938e7463238a86e8c811e1a58800"><td class="memItemLeft" align="right" valign="top">BannedAddonList const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d43/a04505.html#ad7d0938e7463238a86e8c811e1a58800">AddonMgr::GetBannedAddons</a> ()</td></tr>
-<tr class="separator:ad7d0938e7463238a86e8c811e1a58800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a7668ab60ae56c7e71fce77780bb214"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703e">AccountOpResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d91/a04516.html#a7a7668ab60ae56c7e71fce77780bb214">AccountMgr::CreateAccount</a> (std::string username, std::string password)</td></tr>
+<tr class="separator:a7a7668ab60ae56c7e71fce77780bb214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a120323b16b2a5aefa6aa69e8be5ccef6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703e">AccountOpResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d91/a04516.html#a120323b16b2a5aefa6aa69e8be5ccef6">AccountMgr::DeleteAccount</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId)</td></tr>
+<tr class="separator:a120323b16b2a5aefa6aa69e8be5ccef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3382c6430bfbf14e32ca11b5ac68fc23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703e">AccountOpResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d91/a04516.html#a3382c6430bfbf14e32ca11b5ac68fc23">AccountMgr::ChangeUsername</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId, std::string newUsername, std::string newPassword)</td></tr>
+<tr class="separator:a3382c6430bfbf14e32ca11b5ac68fc23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a9cb892c15d78b5de65738005234ff6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703e">AccountOpResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d91/a04516.html#a6a9cb892c15d78b5de65738005234ff6">AccountMgr::ChangePassword</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId, std::string newPassword)</td></tr>
+<tr class="separator:a6a9cb892c15d78b5de65738005234ff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17c28dfcb31af8f4241bb5210408185a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d91/a04516.html#a17c28dfcb31af8f4241bb5210408185a">AccountMgr::CheckPassword</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId, std::string password)</td></tr>
+<tr class="separator:a17c28dfcb31af8f4241bb5210408185a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa215c9a96c37b8a5d76d980ecf8de114"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d91/a04516.html#aa215c9a96c37b8a5d76d980ecf8de114">AccountMgr::GetId</a> (std::string const &amp;username)</td></tr>
+<tr class="separator:aa215c9a96c37b8a5d76d980ecf8de114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8280510b2564ec6ea76727218c1687b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d91/a04516.html#a8280510b2564ec6ea76727218c1687b3">AccountMgr::GetSecurity</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId)</td></tr>
+<tr class="separator:a8280510b2564ec6ea76727218c1687b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30b6e5cf1733f0143f86aaeff600215c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d91/a04516.html#a30b6e5cf1733f0143f86aaeff600215c">AccountMgr::GetSecurity</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId, <a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> realmId)</td></tr>
+<tr class="separator:a30b6e5cf1733f0143f86aaeff600215c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af911e3860ec519c541d6df35468ee41b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d91/a04516.html#af911e3860ec519c541d6df35468ee41b">AccountMgr::GetName</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId, std::string &amp;name)</td></tr>
+<tr class="separator:af911e3860ec519c541d6df35468ee41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fb760897161c3d463f842b28bcf7c20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d91/a04516.html#a4fb760897161c3d463f842b28bcf7c20">AccountMgr::GetCharactersCount</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId)</td></tr>
+<tr class="separator:a4fb760897161c3d463f842b28bcf7c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63751f144cb7acb57fc20f0caf5e7043"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d91/a04516.html#a63751f144cb7acb57fc20f0caf5e7043">AccountMgr::IsPlayerAccount</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> gmlevel)</td></tr>
+<tr class="separator:a63751f144cb7acb57fc20f0caf5e7043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f5fb2cf0c24e610c09ac734be93c7a9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d91/a04516.html#a2f5fb2cf0c24e610c09ac734be93c7a9">AccountMgr::IsGMAccount</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> gmlevel)</td></tr>
+<tr class="separator:a2f5fb2cf0c24e610c09ac734be93c7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb1b210137b09011677c74011addeefa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d91/a04516.html#adb1b210137b09011677c74011addeefa">AccountMgr::IsAdminAccount</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> gmlevel)</td></tr>
+<tr class="separator:adb1b210137b09011677c74011addeefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81bbc2af33211a3130c6aa215f5607b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d91/a04516.html#a81bbc2af33211a3130c6aa215f5607b7">AccountMgr::IsConsoleAccount</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> gmlevel)</td></tr>
+<tr class="separator:a81bbc2af33211a3130c6aa215f5607b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a084249e215f787f3163d5d06ad2d256f" name="a084249e215f787f3163d5d06ad2d256f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a084249e215f787f3163d5d06ad2d256f">&#9670;&#160;</a></span>STANDARD_ADDON_CRC</h2>
+<a id="a134ebf22666a6525929447b2d869d400" name="a134ebf22666a6525929447b2d869d400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a134ebf22666a6525929447b2d869d400">&#9670;&#160;</a></span>MAX_ACCOUNT_STR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define STANDARD_ADDON_CRC&#160;&#160;&#160;0x4c1c776d</td>
+          <td class="memname">#define MAX_ACCOUNT_STR&#160;&#160;&#160;20</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a45827712253b6d66092106cef5ae724b" name="a45827712253b6d66092106cef5ae724b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45827712253b6d66092106cef5ae724b">&#9670;&#160;</a></span>MAX_PASS_STR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_PASS_STR&#160;&#160;&#160;16</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a0161874ada0cecbbd1fd5d31da73703e" name="a0161874ada0cecbbd1fd5d31da73703e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0161874ada0cecbbd1fd5d31da73703e">&#9670;&#160;</a></span>AccountOpResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703e">AccountOpResult</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0161874ada0cecbbd1fd5d31da73703ea73449863bb0d97def55bd65307e97f18" name="a0161874ada0cecbbd1fd5d31da73703ea73449863bb0d97def55bd65307e97f18"></a>AOR_OK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0161874ada0cecbbd1fd5d31da73703eaec4fb519d9e6032adc269ca4a27c38f4" name="a0161874ada0cecbbd1fd5d31da73703eaec4fb519d9e6032adc269ca4a27c38f4"></a>AOR_NAME_TOO_LONG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0161874ada0cecbbd1fd5d31da73703eaed91b79b9e639b8f988c5f06fcfd901c" name="a0161874ada0cecbbd1fd5d31da73703eaed91b79b9e639b8f988c5f06fcfd901c"></a>AOR_PASS_TOO_LONG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0161874ada0cecbbd1fd5d31da73703eae0b6297de7a7e8b516f5fc98a4d8750c" name="a0161874ada0cecbbd1fd5d31da73703eae0b6297de7a7e8b516f5fc98a4d8750c"></a>AOR_NAME_ALREADY_EXIST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0161874ada0cecbbd1fd5d31da73703ea05e659ba76ce9dd582551a24f2923b24" name="a0161874ada0cecbbd1fd5d31da73703ea05e659ba76ce9dd582551a24f2923b24"></a>AOR_NAME_NOT_EXIST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0161874ada0cecbbd1fd5d31da73703ea368516df3522ada12ce8a39c789a687d" name="a0161874ada0cecbbd1fd5d31da73703ea368516df3522ada12ce8a39c789a687d"></a>AOR_DB_INTERNAL_ERROR&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703ea73449863bb0d97def55bd65307e97f18">AOR_OK</a>,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703eaec4fb519d9e6032adc269ca4a27c38f4">AOR_NAME_TOO_LONG</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703eaed91b79b9e639b8f988c5f06fcfd901c">AOR_PASS_TOO_LONG</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703eae0b6297de7a7e8b516f5fc98a4d8750c">AOR_NAME_ALREADY_EXIST</a>,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703ea05e659ba76ce9dd582551a24f2923b24">AOR_NAME_NOT_EXIST</a>,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703ea368516df3522ada12ce8a39c789a687d">AOR_DB_INTERNAL_ERROR</a></div>
+<div class="line"><span class="lineno">   32</span>};</div>
+<div class="ttc" id="aa00704_html_a0161874ada0cecbbd1fd5d31da73703ea05e659ba76ce9dd582551a24f2923b24"><div class="ttname"><a href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703ea05e659ba76ce9dd582551a24f2923b24">AOR_NAME_NOT_EXIST</a></div><div class="ttdeci">@ AOR_NAME_NOT_EXIST</div><div class="ttdef"><b>Definition:</b> AccountMgr.h:30</div></div>
+<div class="ttc" id="aa00704_html_a0161874ada0cecbbd1fd5d31da73703ea368516df3522ada12ce8a39c789a687d"><div class="ttname"><a href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703ea368516df3522ada12ce8a39c789a687d">AOR_DB_INTERNAL_ERROR</a></div><div class="ttdeci">@ AOR_DB_INTERNAL_ERROR</div><div class="ttdef"><b>Definition:</b> AccountMgr.h:31</div></div>
+<div class="ttc" id="aa00704_html_a0161874ada0cecbbd1fd5d31da73703ea73449863bb0d97def55bd65307e97f18"><div class="ttname"><a href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703ea73449863bb0d97def55bd65307e97f18">AOR_OK</a></div><div class="ttdeci">@ AOR_OK</div><div class="ttdef"><b>Definition:</b> AccountMgr.h:26</div></div>
+<div class="ttc" id="aa00704_html_a0161874ada0cecbbd1fd5d31da73703eae0b6297de7a7e8b516f5fc98a4d8750c"><div class="ttname"><a href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703eae0b6297de7a7e8b516f5fc98a4d8750c">AOR_NAME_ALREADY_EXIST</a></div><div class="ttdeci">@ AOR_NAME_ALREADY_EXIST</div><div class="ttdef"><b>Definition:</b> AccountMgr.h:29</div></div>
+<div class="ttc" id="aa00704_html_a0161874ada0cecbbd1fd5d31da73703eaec4fb519d9e6032adc269ca4a27c38f4"><div class="ttname"><a href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703eaec4fb519d9e6032adc269ca4a27c38f4">AOR_NAME_TOO_LONG</a></div><div class="ttdeci">@ AOR_NAME_TOO_LONG</div><div class="ttdef"><b>Definition:</b> AccountMgr.h:27</div></div>
+<div class="ttc" id="aa00704_html_a0161874ada0cecbbd1fd5d31da73703eaed91b79b9e639b8f988c5f06fcfd901c"><div class="ttname"><a href="../../d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703eaed91b79b9e639b8f988c5f06fcfd901c">AOR_PASS_TOO_LONG</a></div><div class="ttdeci">@ AOR_PASS_TOO_LONG</div><div class="ttdef"><b>Definition:</b> AccountMgr.h:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -177,8 +250,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_76b012f011fb35f3655303cd56fc166e.html">Addons</a></li><li class="navelem"><a class="el" href="../../d4/d6a/a00704.html">AddonMgr.h</a></li>
-    <li class="footer">Generated on Wed May 17 2023 23:04:32 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_f14d503eb20eb3c7d3fc8afc057e3bad.html">Accounts</a></li><li class="navelem"><a class="el" href="../../d4/d6a/a00704.html">AccountMgr.h</a></li>
+    <li class="footer">Generated on Sun Aug 20 2023 00:18:55 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

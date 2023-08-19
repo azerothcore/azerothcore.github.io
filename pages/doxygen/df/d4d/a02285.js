@@ -1,5 +1,5 @@
 var a02285 =
 [
-    [ "cheat_commandscript", "d9/d70/a11026.html", "d9/d70/a11026" ],
-    [ "AddSC_cheat_commandscript", "df/d4d/a02285.html#aafc88882ff0af0beb4632ec2c929fc8c", null ]
+    [ "bf_commandscript", "db/d13/a11061.html", "db/d13/a11061" ],
+    [ "AddSC_bf_commandscript", "df/d4d/a02285.html#a55cfeb06fb5af5d31e3c2627d0db8da8", null ]
 ];

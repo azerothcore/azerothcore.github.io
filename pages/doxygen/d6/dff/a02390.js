@@ -1,5 +1,5 @@
 var a02390 =
 [
-    [ "ticket_commandscript", "d4/d8b/a11178.html", "d4/d8b/a11178" ],
-    [ "AddSC_ticket_commandscript", "d6/dff/a02390.html#ad71463f4442d2e022a92404a4d9dec76", null ]
+    [ "send_commandscript", "d2/d8f/a11217.html", "d2/d8f/a11217" ],
+    [ "AddSC_send_commandscript", "d6/dff/a02390.html#a9f3fee551f6ca7aa7dad83edb2dfe480", null ]
 ];

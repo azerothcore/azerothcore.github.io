@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Member List</title>
+<title>AzerothCore: SQLQueryHolder&lt; T &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -79,7 +79,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('d4/d15/a05404.html','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d1/d0a/a05401.html','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -105,60 +105,105 @@ $(document).ready(function(){initNavTree('d4/d15/a05404.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">CharacterDatabaseConnection Member List</div></div>
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../df/d45/a05398.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">SQLQueryHolder&lt; T &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d4/d15/a05404.html">CharacterDatabaseConnection</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#ab0f98cb1e22a22026f87dbf6edd8b1d7">_HandleMySQLErrno</a>(uint32 errNo, uint8 attempts=5)</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#ade1f91232f3b8714e738dd2f7cc30b32">_Query</a>(std::string_view sql, MySQLResult **pResult, MySQLField **pFields, uint64 *pRowCount, uint32 *pFieldCount)</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a6e4f001afd95446320034731fb12c8e3">_Query</a>(PreparedStatementBase *stmt, MySQLPreparedStatement **mysqlStmt, MySQLResult **pResult, uint64 *pRowCount, uint32 *pFieldCount)</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#ab763784bf989e44c9e9b89f60b40276b">BeginTransaction</a>()</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d15/a05404.html#aa7308d6978756861043c1c0c861bfffc">CharacterDatabaseConnection</a>(MySQLConnectionInfo &amp;connInfo)</td><td class="entry"><a class="el" href="../../d4/d15/a05404.html">CharacterDatabaseConnection</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d4/d15/a05404.html#af7c6148029613ce06159b5867bba9cad">CharacterDatabaseConnection</a>(ProducerConsumerQueue&lt; SQLOperation * &gt; *q, MySQLConnectionInfo &amp;connInfo)</td><td class="entry"><a class="el" href="../../d4/d15/a05404.html">CharacterDatabaseConnection</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a5ac81d3dd7c4cb4829ac3bb22f340f2c">Close</a>()</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a38c23f6a8fab723a3b6c467595da9f0b">CommitTransaction</a>()</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d15/a05404.html#afbbb8d2bb335119e5bc8b37764301db5">DoPrepareStatements</a>() override</td><td class="entry"><a class="el" href="../../d4/d15/a05404.html">CharacterDatabaseConnection</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a6d3a79d89a3a3855e3bfc99676acdcb9">EscapeString</a>(char *to, const char *from, size_t length)</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#ac9bb537b21f3780c8f1a0c11297706d6">Execute</a>(std::string_view sql)</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a023f265786596b49b876b5d8eb6fd4b8">Execute</a>(PreparedStatementBase *stmt)</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a33bfca5cf068fad1c3c675ae37f2f310">ExecuteTransaction</a>(std::shared_ptr&lt; TransactionBase &gt; transaction)</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#ae4e9cf9807f0212a7d5051cad72b4e44">GetLastError</a>()</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a2e60da9b1bd76d96de3ad5b23e5a4e0a">GetPreparedStatement</a>(uint32 index)</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a6dcd919eb0c6b7c8b23922b299729048">GetServerVersion</a>() const</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a056b280e9a3c948a37308b507890d313">LockIfReady</a>()</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#aa9a08dc366602dfb95e58b02a9eb1063">m_connectionFlags</a></td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a4e958b3355a1b39ea672dc27dd38366a">m_connectionInfo</a></td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#aba6677ab672aece8ec00b4a3c33aeff4">m_Mutex</a></td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#aceac12bbc78307049e6685ebcc59237f">m_Mysql</a></td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#ac1a09db6a84f77c5d0dadd777d99b72d">m_prepareError</a></td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a3d2337c42a0463bca0bb123f238f9ba7">m_queue</a></td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#af6c437f04a5b861f8a56c24a372348fe">m_reconnecting</a></td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a5d82989a517e562adb833004fd56ff2a">m_stmts</a></td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a4093dd78c16775e1762b9cdfd7d9823b">m_worker</a></td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a6dd83b2bbcba305735e2ead2e4cac719">MySQLConnection</a>(MySQLConnectionInfo &amp;connInfo)</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a8ee2d30965f757954913b9b11d497114">MySQLConnection</a>(ProducerConsumerQueue&lt; SQLOperation * &gt; *queue, MySQLConnectionInfo &amp;connInfo)</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#aefb504c18dc11aa656d309363da95f3e">MySQLConnection</a>(MySQLConnection const &amp;right)=delete</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a571e0c5ce065b8975e3095a260d18cd7">Open</a>()</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a4b49275cdee9d7864ba9e49c037d31b9">operator=</a>(MySQLConnection const &amp;right)=delete</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a690c6afae2cfa2938700a32fdce91d7d">Ping</a>()</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a345a1b68e7cd2578504521ca0b55eb7e">PreparedStatementContainer</a> typedef</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a1f4f168a16bbd4b589b38a2d12cd3cd0">PrepareStatement</a>(uint32 index, std::string_view sql, ConnectionFlags flags)</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a6ae4039f5646adf6859db05be7974ea1">PrepareStatements</a>()</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a8c05ec510296198c91e98e7d18e9d6c7">Query</a>(std::string_view sql)</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#abf541439a7934a2fa3d8267356f4c631">Query</a>(PreparedStatementBase *stmt)</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#a5b774adbbd056adf560f9b7cfcf2393a">RollbackTransaction</a>()</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d15/a05404.html#a7527387a1261a4307515ed0c56dd6520">Statements</a> typedef</td><td class="entry"><a class="el" href="../../d4/d15/a05404.html">CharacterDatabaseConnection</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#ab2a72378169f8cb860c9c217a198f97b">Unlock</a>()</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d15/a05404.html#a01224074cff69c86792d0b77e804d7f4">~CharacterDatabaseConnection</a>() override</td><td class="entry"><a class="el" href="../../d4/d15/a05404.html">CharacterDatabaseConnection</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../dd/d1f/a05420.html#ad7e23da74a5e7722158939f969af16d7">~MySQLConnection</a>()</td><td class="entry"><a class="el" href="../../dd/d1f/a05420.html">MySQLConnection</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p><code>#include &quot;<a class="el" href="../../">QueryHolder.h</a>&quot;</code></p>
+<div class="dynheader">
+Inheritance diagram for SQLQueryHolder&lt; T &gt;:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d1/d0a/a05401.png" usemap="#SQLQueryHolder_3C_20T_20_3E_map" alt=""/>
+  <map id="SQLQueryHolder_3C_20T_20_3E_map" name="SQLQueryHolder_3C_20T_20_3E_map">
+<area href="../../d9/ddf/a05557.html" alt="SQLQueryHolderBase" shape="rect" coords="218,0,426,24"/>
+<area href="../../d9/db1/a10465.html" alt="AccountInfoQueryHolderPerRealm" shape="rect" coords="0,112,208,136"/>
+<area href="../../d3/d63/a09053.html" alt="LoginQueryHolder" shape="rect" coords="218,112,426,136"/>
+<area href="../../df/d1c/a08025.html" alt="PetLoadQueryHolder" shape="rect" coords="436,112,644,136"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ab4c221f546a0d142f4f0a88bef7e86cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d0a/a05401.html#ab4c221f546a0d142f4f0a88bef7e86cd">SetPreparedQuery</a> (size_t index, <a class="el" href="../../d0/dc6/a05393.html">PreparedStatement</a>&lt; T &gt; *stmt)</td></tr>
+<tr class="separator:ab4c221f546a0d142f4f0a88bef7e86cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a05557"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a05557')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d9/ddf/a05557.html">SQLQueryHolderBase</a></td></tr>
+<tr class="memitem:a05946ea4a26798e5567f632cf9f66eff inherit pub_methods_a05557"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ddf/a05557.html#a05946ea4a26798e5567f632cf9f66eff">SQLQueryHolderBase</a> ()=default</td></tr>
+<tr class="separator:a05946ea4a26798e5567f632cf9f66eff inherit pub_methods_a05557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9e2407821d0c40a728337f174571fc5 inherit pub_methods_a05557"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ddf/a05557.html#aa9e2407821d0c40a728337f174571fc5">~SQLQueryHolderBase</a> ()</td></tr>
+<tr class="separator:aa9e2407821d0c40a728337f174571fc5 inherit pub_methods_a05557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bf0a198b473235b7690798482c1a038 inherit pub_methods_a05557"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ddf/a05557.html#a3bf0a198b473235b7690798482c1a038">SetSize</a> (size_t size)</td></tr>
+<tr class="separator:a3bf0a198b473235b7690798482c1a038 inherit pub_methods_a05557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a441d5abdf5f29d60d522e02e48db60fa inherit pub_methods_a05557"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d3e/a00566.html#ac6110b8d867b5f84f677555d07037acb">PreparedQueryResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ddf/a05557.html#a441d5abdf5f29d60d522e02e48db60fa">GetPreparedResult</a> (size_t index) const</td></tr>
+<tr class="separator:a441d5abdf5f29d60d522e02e48db60fa inherit pub_methods_a05557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affa4329458ce62940506e462917ea00c inherit pub_methods_a05557"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ddf/a05557.html#affa4329458ce62940506e462917ea00c">SetPreparedResult</a> (size_t index, <a class="el" href="../../d1/dfe/a05577.html">PreparedResultSet</a> *result)</td></tr>
+<tr class="separator:affa4329458ce62940506e462917ea00c inherit pub_methods_a05557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_a05557"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a05557')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d9/ddf/a05557.html">SQLQueryHolderBase</a></td></tr>
+<tr class="memitem:a592c0182b92dbe1adf660d8788a7ec77 inherit pro_methods_a05557"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ddf/a05557.html#a592c0182b92dbe1adf660d8788a7ec77">SetPreparedQueryImpl</a> (size_t index, <a class="el" href="../../d1/dfe/a05533.html">PreparedStatementBase</a> *stmt)</td></tr>
+<tr class="separator:a592c0182b92dbe1adf660d8788a7ec77 inherit pro_methods_a05557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+class SQLQueryHolder&lt; T &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab4c221f546a0d142f4f0a88bef7e86cd" name="ab4c221f546a0d142f4f0a88bef7e86cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4c221f546a0d142f4f0a88bef7e86cd">&#9670;&#160;</a></span>SetPreparedQuery()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../d1/d0a/a05401.html">SQLQueryHolder</a>&lt; T &gt;::SetPreparedQuery </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dc6/a05393.html">PreparedStatement</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>stmt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   47</span>    {</div>
+<div class="line"><span class="lineno">   48</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d9/ddf/a05557.html#a592c0182b92dbe1adf660d8788a7ec77">SetPreparedQueryImpl</a>(index, stmt);</div>
+<div class="line"><span class="lineno">   49</span>    }</div>
+<div class="ttc" id="aa05557_html_a592c0182b92dbe1adf660d8788a7ec77"><div class="ttname"><a href="../../d9/ddf/a05557.html#a592c0182b92dbe1adf660d8788a7ec77">SQLQueryHolderBase::SetPreparedQueryImpl</a></div><div class="ttdeci">bool SetPreparedQueryImpl(size_t index, PreparedStatementBase *stmt)</div><div class="ttdef"><b>Definition:</b> QueryHolder.cpp:25</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00025">SQLQueryHolderBase::SetPreparedQueryImpl()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00076">LoginQueryHolder::Initialize()</a>, and <a class="el" href="../../#l00137">PetLoadQueryHolder::PetLoadQueryHolder()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Mar 17 2023 04:04:46 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../d1/d0a/a05401.html">SQLQueryHolder</a></li>
+    <li class="footer">Generated on Sun Aug 20 2023 00:21:14 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

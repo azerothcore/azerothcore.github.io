@@ -1,7 +1,6 @@
 var a03053 =
 [
-    [ "instance_onyxias_lair", "dc/d7a/a14946.html", "dc/d7a/a14946" ],
-    [ "instance_onyxias_lair::instance_onyxias_lair_InstanceMapScript", "d1/db8/a14950.html", "d1/db8/a14950" ],
-    [ "AddSC_instance_onyxias_lair", "d6/dfe/a03053.html#a05fe21b6a553baae55b3b2523efaa9c3", null ],
-    [ "creatureData", "d6/dfe/a03053.html#a412286b689bd324fedd65ddd8dde8afb", null ]
+    [ "instance_maraudon", "db/dab/a14861.html", "db/dab/a14861" ],
+    [ "instance_maraudon::instance_maraudon_InstanceMapScript", "d5/d7d/a14865.html", "d5/d7d/a14865" ],
+    [ "AddSC_instance_maraudon", "d6/dfe/a03053.html#a6ab7baf162a5cf99b16fb0a26d7973cb", null ]
 ];

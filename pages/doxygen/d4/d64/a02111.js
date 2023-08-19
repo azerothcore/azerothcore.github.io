@@ -1,4 +1,7 @@
 var a02111 =
 [
-    [ "AuraEffectHandler", "d4/d64/a02111.html#a2817e7c4c5917ae8deba00b38850e8db", null ]
+    [ "GetExplicitDiscoverySpell", "d4/d64/a02111.html#a7cdb9e342efe04c1ba8caf202b7b0d96", null ],
+    [ "GetSkillDiscoverySpell", "d4/d64/a02111.html#ab50472e4f1f892eb77ce660ef00d808a", null ],
+    [ "HasDiscoveredAllSpells", "d4/d64/a02111.html#abdf3c2fcf65212466dfb54053e35024c", null ],
+    [ "LoadSkillDiscoveryTable", "d4/d64/a02111.html#addd95f0a239a27ed32cd943aa1052019", null ]
 ];

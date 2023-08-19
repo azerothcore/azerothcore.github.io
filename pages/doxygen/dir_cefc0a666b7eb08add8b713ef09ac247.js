@@ -1,5 +1,5 @@
 var dir_cefc0a666b7eb08add8b713ef09ac247 =
 [
-    [ "ServerMotd.cpp", "d4/d41/a01661.html", "d4/d41/a01661" ],
-    [ "ServerMotd.h", "dc/d71/a01664.html", "dc/d71/a01664" ]
+    [ "MotdMgr.cpp", "d9/df5/a01673.html", "d9/df5/a01673" ],
+    [ "MotdMgr.h", "de/d3e/a01676.html", "de/d3e/a01676" ]
 ];

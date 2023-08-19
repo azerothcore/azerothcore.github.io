@@ -1,23 +1,20 @@
 var a02780 =
 [
-    [ "npc_eris_hevenfire", "d0/d3e/a13350.html", "d0/d3e/a13350" ],
-    [ "npc_eris_hevenfire::npc_eris_hevenfireAI", "dd/d89/a13354.html", "dd/d89/a13354" ],
-    [ "npc_balance_of_light_and_shadow", "db/d2a/a13358.html", "db/d2a/a13358" ],
-    [ "npc_balance_of_light_and_shadow::npc_balance_of_light_and_shadowAI", "dd/de0/a13362.html", "dd/de0/a13362" ],
-    [ "npc_augustus_the_touched", "da/d92/a13366.html", "da/d92/a13366" ],
-    [ "eEris", "df/de4/a02780.html#a0846b7169aa45fd1ef72775a5f6e36fe", [
-      [ "QUEST_BALANCE_OF_LIGHT_AND_SHADOW", "df/de4/a02780.html#a0846b7169aa45fd1ef72775a5f6e36fea893fed7c9aba464b46eda93ba0ff910e", null ],
-      [ "ITEM_EYE_OF_DIVINITY", "df/de4/a02780.html#a0846b7169aa45fd1ef72775a5f6e36feaa330f1e90d7e18c5cec4f6ac9eccbf9b", null ],
-      [ "NPC_INJURED_PEASANT", "df/de4/a02780.html#a0846b7169aa45fd1ef72775a5f6e36feaae13148e0ec5731f2bc25c5cd83fb54a", null ],
-      [ "NPC_PLAGUED_PEASANT", "df/de4/a02780.html#a0846b7169aa45fd1ef72775a5f6e36fea2e04645dc1fe7fae413d5c2c903c89d2", null ],
-      [ "NPC_SCOURGE_ARCHER", "df/de4/a02780.html#a0846b7169aa45fd1ef72775a5f6e36fea50dd59f1eeb08594a61c6ad576ad2814", null ],
-      [ "EVENT_SUMMON_PEASANTS", "df/de4/a02780.html#a0846b7169aa45fd1ef72775a5f6e36fea499f23b6c79690c613e046b3e6394937", null ],
-      [ "EVENT_CHECK_PLAYER", "df/de4/a02780.html#a0846b7169aa45fd1ef72775a5f6e36fea3d3d147dbdefaa5a8280f3d1bcc15ea8", null ],
-      [ "EVENT_SUMMON_ARCHERS", "df/de4/a02780.html#a0846b7169aa45fd1ef72775a5f6e36fea84afa1291830b37278989be41610fb72", null ],
-      [ "SPELL_SHOOT", "df/de4/a02780.html#a0846b7169aa45fd1ef72775a5f6e36fea1b728fa1bb0194534b5b491d35ed871c", null ],
-      [ "SPELL_DEATHS_DOOR", "df/de4/a02780.html#a0846b7169aa45fd1ef72775a5f6e36fea59bc5812f6dcf3f0e45b673f923490e7", null ],
-      [ "SPELL_SEETHING_PLAGUE", "df/de4/a02780.html#a0846b7169aa45fd1ef72775a5f6e36feac366f4ed224210fd4352c0ac9fb1c12a", null ],
-      [ "SPELL_ERIS_BLESSING", "df/de4/a02780.html#a0846b7169aa45fd1ef72775a5f6e36feaaedc6f0db3ab3db342fe3379082ce633", null ]
+    [ "npc_professor_phizzlethorpe", "d8/d20/a13277.html", "d8/d20/a13277" ],
+    [ "npc_professor_phizzlethorpe::npc_professor_phizzlethorpeAI", "d2/df2/a13281.html", "d2/df2/a13281" ],
+    [ "ProfessorPhizzlethorpe", "df/de4/a02780.html#a2fbc348d7cc479e3131e261e4a86f0a1", [
+      [ "SAY_PROGRESS_1", "df/de4/a02780.html#a2fbc348d7cc479e3131e261e4a86f0a1ac7ef023ed2cd6e71dcfa4b57f34ffb21", null ],
+      [ "SAY_PROGRESS_2", "df/de4/a02780.html#a2fbc348d7cc479e3131e261e4a86f0a1a967473f354dae95832b5e82733f4cced", null ],
+      [ "SAY_PROGRESS_3", "df/de4/a02780.html#a2fbc348d7cc479e3131e261e4a86f0a1a25cbd1006b2e610756fbd3227fb87dcc", null ],
+      [ "EMOTE_PROGRESS_4", "df/de4/a02780.html#a2fbc348d7cc479e3131e261e4a86f0a1a35c4fc6952e57458ffc3e74698dd2769", null ],
+      [ "SAY_AGGRO", "df/de4/a02780.html#a2fbc348d7cc479e3131e261e4a86f0a1a47c752fff069f3e55065795eef2a9bfe", null ],
+      [ "SAY_PROGRESS_5", "df/de4/a02780.html#a2fbc348d7cc479e3131e261e4a86f0a1aeee7fea4c8b3b6d3b0732bcde69433f3", null ],
+      [ "SAY_PROGRESS_6", "df/de4/a02780.html#a2fbc348d7cc479e3131e261e4a86f0a1a36a5f74e6995b5cd9d8df351e57bfa84", null ],
+      [ "SAY_PROGRESS_7", "df/de4/a02780.html#a2fbc348d7cc479e3131e261e4a86f0a1a9e815bbd308d3234b2feecf6dcd4e4cd", null ],
+      [ "EMOTE_PROGRESS_8", "df/de4/a02780.html#a2fbc348d7cc479e3131e261e4a86f0a1a09177823914cf4cba524cd102c309c4e", null ],
+      [ "SAY_PROGRESS_9", "df/de4/a02780.html#a2fbc348d7cc479e3131e261e4a86f0a1a0d013e69b765c1cc9024427c5967dbdf", null ],
+      [ "QUEST_SUNKEN_TREASURE", "df/de4/a02780.html#a2fbc348d7cc479e3131e261e4a86f0a1a70619c446edf1e13b81824e234d2c7f3", null ],
+      [ "NPC_VENGEFUL_SURGE", "df/de4/a02780.html#a2fbc348d7cc479e3131e261e4a86f0a1aa30485aedeea21658a4aa93a8f361873", null ]
     ] ],
-    [ "AddSC_eastern_plaguelands", "df/de4/a02780.html#aaef7747656518bf0ce052d780430ed88", null ]
+    [ "AddSC_arathi_highlands", "df/de4/a02780.html#a1e4a782474f0928dbacdf32c0ba395fd", null ]
 ];

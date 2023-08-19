@@ -1,10 +1,7 @@
 var a00614 =
 [
-    [ "MySQLConnectionInfo", "d9/da5/a05434.html", "d9/da5/a05434" ],
-    [ "MySQLConnection", "da/d86/a05438.html", "da/d86/a05438" ],
-    [ "ConnectionFlags", "d7/d80/a00614.html#a008b1c9a9206a70569b89aea01ac321f", [
-      [ "CONNECTION_ASYNC", "d7/d80/a00614.html#a008b1c9a9206a70569b89aea01ac321faa12dee499d68ef84c216f874cb104fe9", null ],
-      [ "CONNECTION_SYNCH", "d7/d80/a00614.html#a008b1c9a9206a70569b89aea01ac321fa38de35d7007257d23046b73a6aec7946", null ],
-      [ "CONNECTION_BOTH", "d7/d80/a00614.html#a008b1c9a9206a70569b89aea01ac321fa69536f08cbcdbe5a0ff0d89981fc6b39", null ]
+    [ "ModuleDatabaseConnection", "d5/d95/a05445.html", "d5/d95/a05445" ],
+    [ "ModuleDatabaseStatements", "d7/d80/a00614.html#aed42313161b7b7392108f91df1d9ce8e", [
+      [ "MAX_MODULEDATABASE_STATEMENTS", "d7/d80/a00614.html#aed42313161b7b7392108f91df1d9ce8eabb8a9c8c35c6fa3fa31c75844a12e02e", null ]
     ] ]
 ];

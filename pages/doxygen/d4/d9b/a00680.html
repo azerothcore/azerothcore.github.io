@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/database/Updater/DBUpdater.h File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/database/Logging/AppenderDB.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,78 +105,22 @@ $(document).ready(function(){initNavTree('d4/d9b/a00680.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">DBUpdater.h File Reference</div></div>
+  <div class="headertitle"><div class="title">AppenderDB.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &lt;filesystem&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AppenderDB.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LogMessage.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PreparedStatement.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd0/a05590.html">UpdateException</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddd/a05594.html">DBUpdaterUtil</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d82/a05598.html">DBUpdater&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d5/d55/a04469"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d55/a04469.html">boost</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d2/d71/a04503"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d71/a04503.html">boost::filesystem</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a0c382fe144b0dc101a8b2b9d4ef51010"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9b/a00680.html#a0c382fe144b0dc101a8b2b9d4ef51010">BaseLocation</a> { <br />
-&#160;&#160;<a class="el" href="../../d4/d9b/a00680.html#a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550">LOCATION_REPOSITORY</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d4/d9b/a00680.html#a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c">LOCATION_DOWNLOAD</a>
-<br />
- }</td></tr>
-<tr class="separator:a0c382fe144b0dc101a8b2b9d4ef51010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a0c382fe144b0dc101a8b2b9d4ef51010" name="a0c382fe144b0dc101a8b2b9d4ef51010"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c382fe144b0dc101a8b2b9d4ef51010">&#9670;&#160;</a></span>BaseLocation</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d4/d9b/a00680.html#a0c382fe144b0dc101a8b2b9d4ef51010">BaseLocation</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550" name="a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550"></a>LOCATION_REPOSITORY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c" name="a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c"></a>LOCATION_DOWNLOAD&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   50</span>{</div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d4/d9b/a00680.html#a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550">LOCATION_REPOSITORY</a>,</div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d4/d9b/a00680.html#a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c">LOCATION_DOWNLOAD</a></div>
-<div class="line"><span class="lineno">   53</span>};</div>
-<div class="ttc" id="aa00680_html_a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c"><div class="ttname"><a href="../../d4/d9b/a00680.html#a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c">LOCATION_DOWNLOAD</a></div><div class="ttdeci">@ LOCATION_DOWNLOAD</div><div class="ttdef"><b>Definition:</b> DBUpdater.h:52</div></div>
-<div class="ttc" id="aa00680_html_a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550"><div class="ttname"><a href="../../d4/d9b/a00680.html#a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550">LOCATION_REPOSITORY</a></div><div class="ttdeci">@ LOCATION_REPOSITORY</div><div class="ttdef"><b>Definition:</b> DBUpdater.h:51</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_ac632e0cb7d565e729369f2b018d776c.html">Updater</a></li><li class="navelem"><a class="el" href="../../d4/d9b/a00680.html">DBUpdater.h</a></li>
-    <li class="footer">Generated on Wed May 17 2023 23:04:32 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_0a6176fbf4a4e2963f993c806916a71c.html">Logging</a></li><li class="navelem"><a class="el" href="../../d4/d9b/a00680.html">AppenderDB.cpp</a></li>
+    <li class="footer">Generated on Sun Aug 20 2023 00:18:55 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

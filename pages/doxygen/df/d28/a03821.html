@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/scripts/Outland/Auchindoun/AuchenaiCrypts/boss_shirrak_the_dead_watcher.cpp File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/scripts/OutdoorPvP/outdoorpvp_script_loader.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,169 +106,226 @@ $(document).ready(function(){initNavTree('df/d28/a03821.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">boss_shirrak_the_dead_watcher.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">outdoorpvp_script_loader.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">auchenai_crypts.h</a>&quot;</code><br />
-</div>
+
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da0/a24218.html">boss_shirrak_the_dead_watcher</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/a24222.html">boss_shirrak_the_dead_watcher::boss_shirrak_the_dead_watcherAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d2a/a24226.html">spell_auchenai_possess</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfe/a24230.html">spell_auchenai_possess::spell_auchenai_possess_AuraScript</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a6ce4434b2d0a705b49ac7d977d89146b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146b">eShirrak</a> { <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba1fc3be82e9a8514a5089e65196f551b9">SPELL_INHIBIT_MAGIC</a> = 32264
-, <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba5dff932661b864d3df21370e3cdee19f">SPELL_ATTRACT_MAGIC</a> = 32265
-, <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba9c71edac90f0723d89b2c174af74614e">SPELL_CARNIVOROUS_BITE_N</a> = 36383
-, <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146baf0a99bde31b66a61b7c477851c4d6b1a">SPELL_CARNIVOROUS_BITE_H</a> = 39382
-, <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba5a86308546126dbadb0fb604ab8a5933">SPELL_FIERY_BLAST_N</a> = 32302
-, <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba2448db7bff00eb3efabf8a88bde60ba9">SPELL_FIERY_BLAST_H</a> = 38382
-, <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146bab151d62dbb3f9b3af29b5b025c27fbc7">SPELL_FOCUS_FIRE_VISUAL</a> = 32286
-, <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146baf51ee5a16ea9ca6146d52ef59116e8f1">SPELL_FOCUS_CAST</a> = 32300
-, <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146bacd2ba36f7352b2b1094feec3de0e28b7">EVENT_SPELL_INHIBIT_MAGIC</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba98e7663300371593833ee3e6becf73f8">EVENT_SPELL_ATTRACT_MAGIC</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba0f664ed3d514f0dbdac43e68655655f2">EVENT_SPELL_CARNIVOROUS</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba24f1bcc4c99c1d4b6fb6ed0539480601">EVENT_SPELL_FOCUS_FIRE</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba2595a7ff16bf9ba518f61438ce09f077">EVENT_SPELL_FOCUS_FIRE_2</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba0e7d6b5ef1c8338b9afbc2d9d98f74df">EVENT_SPELL_FOCUS_FIRE_3</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba5c5a151a48a7f026b26578216951756a">ENTRY_FOCUS_FIRE</a> = 18374
-, <br />
-&#160;&#160;<a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba576afb99f0907bf50b3c043106144a98">EMOTE_FOCUSED</a> = 0
-<br />
- }</td></tr>
-<tr class="separator:a6ce4434b2d0a705b49ac7d977d89146b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a21f33e61c0482aa12f745f4ccbea2b46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d28/a03821.html#a21f33e61c0482aa12f745f4ccbea2b46">AddSC_boss_shirrak_the_dead_watcher</a> ()</td></tr>
-<tr class="separator:a21f33e61c0482aa12f745f4ccbea2b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac97adfc1efbcf82840cffa915a55fecb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d28/a03821.html#ac97adfc1efbcf82840cffa915a55fecb">AddSC_outdoorpvp_ep</a> ()</td></tr>
+<tr class="separator:ac97adfc1efbcf82840cffa915a55fecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69303ad6f661d8c009ee493dc4fd486c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d28/a03821.html#a69303ad6f661d8c009ee493dc4fd486c">AddSC_outdoorpvp_hp</a> ()</td></tr>
+<tr class="separator:a69303ad6f661d8c009ee493dc4fd486c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03015585e7619177355fefd05f85e1c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d28/a03821.html#a03015585e7619177355fefd05f85e1c7">AddSC_outdoorpvp_na</a> ()</td></tr>
+<tr class="separator:a03015585e7619177355fefd05f85e1c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dfd2849f525333510ae4febbbc3ae1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d28/a03821.html#a6dfd2849f525333510ae4febbbc3ae1f">AddSC_outdoorpvp_si</a> ()</td></tr>
+<tr class="separator:a6dfd2849f525333510ae4febbbc3ae1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6df553c8dd6e9b81e83110e7beab3646"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d28/a03821.html#a6df553c8dd6e9b81e83110e7beab3646">AddSC_outdoorpvp_tf</a> ()</td></tr>
+<tr class="separator:a6df553c8dd6e9b81e83110e7beab3646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3077d08865fa83f84cf956c392a9091c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d28/a03821.html#a3077d08865fa83f84cf956c392a9091c">AddSC_outdoorpvp_zm</a> ()</td></tr>
+<tr class="separator:a3077d08865fa83f84cf956c392a9091c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04eaa29ec2e34f71e4f7addacc0405c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d28/a03821.html#a04eaa29ec2e34f71e4f7addacc0405c0">AddSC_outdoorpvp_gh</a> ()</td></tr>
+<tr class="separator:a04eaa29ec2e34f71e4f7addacc0405c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a489bdfb4854732e561b6b13b70f67a0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d28/a03821.html#a489bdfb4854732e561b6b13b70f67a0f">AddOutdoorPvPScripts</a> ()</td></tr>
+<tr class="separator:a489bdfb4854732e561b6b13b70f67a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a6ce4434b2d0a705b49ac7d977d89146b" name="a6ce4434b2d0a705b49ac7d977d89146b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ce4434b2d0a705b49ac7d977d89146b">&#9670;&#160;</a></span>eShirrak</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146b">eShirrak</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146ba1fc3be82e9a8514a5089e65196f551b9" name="a6ce4434b2d0a705b49ac7d977d89146ba1fc3be82e9a8514a5089e65196f551b9"></a>SPELL_INHIBIT_MAGIC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146ba5dff932661b864d3df21370e3cdee19f" name="a6ce4434b2d0a705b49ac7d977d89146ba5dff932661b864d3df21370e3cdee19f"></a>SPELL_ATTRACT_MAGIC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146ba9c71edac90f0723d89b2c174af74614e" name="a6ce4434b2d0a705b49ac7d977d89146ba9c71edac90f0723d89b2c174af74614e"></a>SPELL_CARNIVOROUS_BITE_N&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146baf0a99bde31b66a61b7c477851c4d6b1a" name="a6ce4434b2d0a705b49ac7d977d89146baf0a99bde31b66a61b7c477851c4d6b1a"></a>SPELL_CARNIVOROUS_BITE_H&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146ba5a86308546126dbadb0fb604ab8a5933" name="a6ce4434b2d0a705b49ac7d977d89146ba5a86308546126dbadb0fb604ab8a5933"></a>SPELL_FIERY_BLAST_N&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146ba2448db7bff00eb3efabf8a88bde60ba9" name="a6ce4434b2d0a705b49ac7d977d89146ba2448db7bff00eb3efabf8a88bde60ba9"></a>SPELL_FIERY_BLAST_H&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146bab151d62dbb3f9b3af29b5b025c27fbc7" name="a6ce4434b2d0a705b49ac7d977d89146bab151d62dbb3f9b3af29b5b025c27fbc7"></a>SPELL_FOCUS_FIRE_VISUAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146baf51ee5a16ea9ca6146d52ef59116e8f1" name="a6ce4434b2d0a705b49ac7d977d89146baf51ee5a16ea9ca6146d52ef59116e8f1"></a>SPELL_FOCUS_CAST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146bacd2ba36f7352b2b1094feec3de0e28b7" name="a6ce4434b2d0a705b49ac7d977d89146bacd2ba36f7352b2b1094feec3de0e28b7"></a>EVENT_SPELL_INHIBIT_MAGIC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146ba98e7663300371593833ee3e6becf73f8" name="a6ce4434b2d0a705b49ac7d977d89146ba98e7663300371593833ee3e6becf73f8"></a>EVENT_SPELL_ATTRACT_MAGIC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146ba0f664ed3d514f0dbdac43e68655655f2" name="a6ce4434b2d0a705b49ac7d977d89146ba0f664ed3d514f0dbdac43e68655655f2"></a>EVENT_SPELL_CARNIVOROUS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146ba24f1bcc4c99c1d4b6fb6ed0539480601" name="a6ce4434b2d0a705b49ac7d977d89146ba24f1bcc4c99c1d4b6fb6ed0539480601"></a>EVENT_SPELL_FOCUS_FIRE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146ba2595a7ff16bf9ba518f61438ce09f077" name="a6ce4434b2d0a705b49ac7d977d89146ba2595a7ff16bf9ba518f61438ce09f077"></a>EVENT_SPELL_FOCUS_FIRE_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146ba0e7d6b5ef1c8338b9afbc2d9d98f74df" name="a6ce4434b2d0a705b49ac7d977d89146ba0e7d6b5ef1c8338b9afbc2d9d98f74df"></a>EVENT_SPELL_FOCUS_FIRE_3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146ba5c5a151a48a7f026b26578216951756a" name="a6ce4434b2d0a705b49ac7d977d89146ba5c5a151a48a7f026b26578216951756a"></a>ENTRY_FOCUS_FIRE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6ce4434b2d0a705b49ac7d977d89146ba576afb99f0907bf50b3c043106144a98" name="a6ce4434b2d0a705b49ac7d977d89146ba576afb99f0907bf50b3c043106144a98"></a>EMOTE_FOCUSED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba1fc3be82e9a8514a5089e65196f551b9">SPELL_INHIBIT_MAGIC</a>                 = 32264,</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba5dff932661b864d3df21370e3cdee19f">SPELL_ATTRACT_MAGIC</a>                 = 32265,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba9c71edac90f0723d89b2c174af74614e">SPELL_CARNIVOROUS_BITE_N</a>            = 36383,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146baf0a99bde31b66a61b7c477851c4d6b1a">SPELL_CARNIVOROUS_BITE_H</a>            = 39382,</div>
-<div class="line"><span class="lineno">   31</span> </div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba5a86308546126dbadb0fb604ab8a5933">SPELL_FIERY_BLAST_N</a>                 = 32302,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba2448db7bff00eb3efabf8a88bde60ba9">SPELL_FIERY_BLAST_H</a>                 = 38382,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146bab151d62dbb3f9b3af29b5b025c27fbc7">SPELL_FOCUS_FIRE_VISUAL</a>             = 32286,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146baf51ee5a16ea9ca6146d52ef59116e8f1">SPELL_FOCUS_CAST</a>                    = 32300,</div>
-<div class="line"><span class="lineno">   36</span> </div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146bacd2ba36f7352b2b1094feec3de0e28b7">EVENT_SPELL_INHIBIT_MAGIC</a>           = 1,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba98e7663300371593833ee3e6becf73f8">EVENT_SPELL_ATTRACT_MAGIC</a>           = 2,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba0f664ed3d514f0dbdac43e68655655f2">EVENT_SPELL_CARNIVOROUS</a>             = 3,</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba24f1bcc4c99c1d4b6fb6ed0539480601">EVENT_SPELL_FOCUS_FIRE</a>              = 4,</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba2595a7ff16bf9ba518f61438ce09f077">EVENT_SPELL_FOCUS_FIRE_2</a>            = 5,</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba0e7d6b5ef1c8338b9afbc2d9d98f74df">EVENT_SPELL_FOCUS_FIRE_3</a>            = 6,</div>
-<div class="line"><span class="lineno">   43</span> </div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba5c5a151a48a7f026b26578216951756a">ENTRY_FOCUS_FIRE</a>                    = 18374,</div>
-<div class="line"><span class="lineno">   45</span> </div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba576afb99f0907bf50b3c043106144a98">EMOTE_FOCUSED</a>                       = 0</div>
-<div class="line"><span class="lineno">   47</span>};</div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146ba0e7d6b5ef1c8338b9afbc2d9d98f74df"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba0e7d6b5ef1c8338b9afbc2d9d98f74df">EVENT_SPELL_FOCUS_FIRE_3</a></div><div class="ttdeci">@ EVENT_SPELL_FOCUS_FIRE_3</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:42</div></div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146ba0f664ed3d514f0dbdac43e68655655f2"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba0f664ed3d514f0dbdac43e68655655f2">EVENT_SPELL_CARNIVOROUS</a></div><div class="ttdeci">@ EVENT_SPELL_CARNIVOROUS</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:39</div></div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146ba1fc3be82e9a8514a5089e65196f551b9"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba1fc3be82e9a8514a5089e65196f551b9">SPELL_INHIBIT_MAGIC</a></div><div class="ttdeci">@ SPELL_INHIBIT_MAGIC</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:27</div></div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146ba2448db7bff00eb3efabf8a88bde60ba9"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba2448db7bff00eb3efabf8a88bde60ba9">SPELL_FIERY_BLAST_H</a></div><div class="ttdeci">@ SPELL_FIERY_BLAST_H</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:33</div></div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146ba24f1bcc4c99c1d4b6fb6ed0539480601"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba24f1bcc4c99c1d4b6fb6ed0539480601">EVENT_SPELL_FOCUS_FIRE</a></div><div class="ttdeci">@ EVENT_SPELL_FOCUS_FIRE</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:40</div></div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146ba2595a7ff16bf9ba518f61438ce09f077"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba2595a7ff16bf9ba518f61438ce09f077">EVENT_SPELL_FOCUS_FIRE_2</a></div><div class="ttdeci">@ EVENT_SPELL_FOCUS_FIRE_2</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:41</div></div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146ba576afb99f0907bf50b3c043106144a98"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba576afb99f0907bf50b3c043106144a98">EMOTE_FOCUSED</a></div><div class="ttdeci">@ EMOTE_FOCUSED</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:46</div></div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146ba5a86308546126dbadb0fb604ab8a5933"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba5a86308546126dbadb0fb604ab8a5933">SPELL_FIERY_BLAST_N</a></div><div class="ttdeci">@ SPELL_FIERY_BLAST_N</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:32</div></div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146ba5c5a151a48a7f026b26578216951756a"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba5c5a151a48a7f026b26578216951756a">ENTRY_FOCUS_FIRE</a></div><div class="ttdeci">@ ENTRY_FOCUS_FIRE</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:44</div></div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146ba5dff932661b864d3df21370e3cdee19f"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba5dff932661b864d3df21370e3cdee19f">SPELL_ATTRACT_MAGIC</a></div><div class="ttdeci">@ SPELL_ATTRACT_MAGIC</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:28</div></div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146ba98e7663300371593833ee3e6becf73f8"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba98e7663300371593833ee3e6becf73f8">EVENT_SPELL_ATTRACT_MAGIC</a></div><div class="ttdeci">@ EVENT_SPELL_ATTRACT_MAGIC</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:38</div></div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146ba9c71edac90f0723d89b2c174af74614e"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146ba9c71edac90f0723d89b2c174af74614e">SPELL_CARNIVOROUS_BITE_N</a></div><div class="ttdeci">@ SPELL_CARNIVOROUS_BITE_N</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:29</div></div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146bab151d62dbb3f9b3af29b5b025c27fbc7"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146bab151d62dbb3f9b3af29b5b025c27fbc7">SPELL_FOCUS_FIRE_VISUAL</a></div><div class="ttdeci">@ SPELL_FOCUS_FIRE_VISUAL</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:34</div></div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146bacd2ba36f7352b2b1094feec3de0e28b7"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146bacd2ba36f7352b2b1094feec3de0e28b7">EVENT_SPELL_INHIBIT_MAGIC</a></div><div class="ttdeci">@ EVENT_SPELL_INHIBIT_MAGIC</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:37</div></div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146baf0a99bde31b66a61b7c477851c4d6b1a"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146baf0a99bde31b66a61b7c477851c4d6b1a">SPELL_CARNIVOROUS_BITE_H</a></div><div class="ttdeci">@ SPELL_CARNIVOROUS_BITE_H</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:30</div></div>
-<div class="ttc" id="aa03821_html_a6ce4434b2d0a705b49ac7d977d89146baf51ee5a16ea9ca6146d52ef59116e8f1"><div class="ttname"><a href="../../df/d28/a03821.html#a6ce4434b2d0a705b49ac7d977d89146baf51ee5a16ea9ca6146d52ef59116e8f1">SPELL_FOCUS_CAST</a></div><div class="ttdeci">@ SPELL_FOCUS_CAST</div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:35</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a21f33e61c0482aa12f745f4ccbea2b46" name="a21f33e61c0482aa12f745f4ccbea2b46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21f33e61c0482aa12f745f4ccbea2b46">&#9670;&#160;</a></span>AddSC_boss_shirrak_the_dead_watcher()</h2>
+<a id="a489bdfb4854732e561b6b13b70f67a0f" name="a489bdfb4854732e561b6b13b70f67a0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a489bdfb4854732e561b6b13b70f67a0f">&#9670;&#160;</a></span>AddOutdoorPvPScripts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_boss_shirrak_the_dead_watcher </td>
+          <td class="memname">void AddOutdoorPvPScripts </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  238</span>{</div>
-<div class="line"><span class="lineno">  239</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/da0/a24218.html">boss_shirrak_the_dead_watcher</a>();</div>
-<div class="line"><span class="lineno">  240</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d2a/a24226.html">spell_auchenai_possess</a>();</div>
-<div class="line"><span class="lineno">  241</span>}</div>
-<div class="ttc" id="aa24218_html"><div class="ttname"><a href="../../df/da0/a24218.html">boss_shirrak_the_dead_watcher</a></div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:50</div></div>
-<div class="ttc" id="aa24226_html"><div class="ttname"><a href="../../d7/d2a/a24226.html">spell_auchenai_possess</a></div><div class="ttdef"><b>Definition:</b> boss_shirrak_the_dead_watcher.cpp:184</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_function" href="../../df/d28/a03821.html#ac97adfc1efbcf82840cffa915a55fecb">AddSC_outdoorpvp_ep</a>();</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_function" href="../../df/d28/a03821.html#a69303ad6f661d8c009ee493dc4fd486c">AddSC_outdoorpvp_hp</a>();</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_function" href="../../df/d28/a03821.html#a03015585e7619177355fefd05f85e1c7">AddSC_outdoorpvp_na</a>();</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_function" href="../../df/d28/a03821.html#a6dfd2849f525333510ae4febbbc3ae1f">AddSC_outdoorpvp_si</a>();</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_function" href="../../df/d28/a03821.html#a6df553c8dd6e9b81e83110e7beab3646">AddSC_outdoorpvp_tf</a>();</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_function" href="../../df/d28/a03821.html#a3077d08865fa83f84cf956c392a9091c">AddSC_outdoorpvp_zm</a>();</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_function" href="../../df/d28/a03821.html#a04eaa29ec2e34f71e4f7addacc0405c0">AddSC_outdoorpvp_gh</a>();</div>
+<div class="line"><span class="lineno">   38</span>}</div>
+<div class="ttc" id="aa03821_html_a03015585e7619177355fefd05f85e1c7"><div class="ttname"><a href="../../df/d28/a03821.html#a03015585e7619177355fefd05f85e1c7">AddSC_outdoorpvp_na</a></div><div class="ttdeci">void AddSC_outdoorpvp_na()</div><div class="ttdef"><b>Definition:</b> OutdoorPvPNA.cpp:678</div></div>
+<div class="ttc" id="aa03821_html_a04eaa29ec2e34f71e4f7addacc0405c0"><div class="ttname"><a href="../../df/d28/a03821.html#a04eaa29ec2e34f71e4f7addacc0405c0">AddSC_outdoorpvp_gh</a></div><div class="ttdeci">void AddSC_outdoorpvp_gh()</div><div class="ttdef"><b>Definition:</b> OutdoorPvPGH.cpp:129</div></div>
+<div class="ttc" id="aa03821_html_a3077d08865fa83f84cf956c392a9091c"><div class="ttname"><a href="../../df/d28/a03821.html#a3077d08865fa83f84cf956c392a9091c">AddSC_outdoorpvp_zm</a></div><div class="ttdeci">void AddSC_outdoorpvp_zm()</div><div class="ttdef"><b>Definition:</b> OutdoorPvPZM.cpp:469</div></div>
+<div class="ttc" id="aa03821_html_a69303ad6f661d8c009ee493dc4fd486c"><div class="ttname"><a href="../../df/d28/a03821.html#a69303ad6f661d8c009ee493dc4fd486c">AddSC_outdoorpvp_hp</a></div><div class="ttdeci">void AddSC_outdoorpvp_hp()</div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.cpp:367</div></div>
+<div class="ttc" id="aa03821_html_a6df553c8dd6e9b81e83110e7beab3646"><div class="ttname"><a href="../../df/d28/a03821.html#a6df553c8dd6e9b81e83110e7beab3646">AddSC_outdoorpvp_tf</a></div><div class="ttdeci">void AddSC_outdoorpvp_tf()</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.cpp:484</div></div>
+<div class="ttc" id="aa03821_html_a6dfd2849f525333510ae4febbbc3ae1f"><div class="ttname"><a href="../../df/d28/a03821.html#a6dfd2849f525333510ae4febbbc3ae1f">AddSC_outdoorpvp_si</a></div><div class="ttdeci">void AddSC_outdoorpvp_si()</div><div class="ttdef"><b>Definition:</b> OutdoorPvPSI.cpp:262</div></div>
+<div class="ttc" id="aa03821_html_ac97adfc1efbcf82840cffa915a55fecb"><div class="ttname"><a href="../../df/d28/a03821.html#ac97adfc1efbcf82840cffa915a55fecb">AddSC_outdoorpvp_ep</a></div><div class="ttdeci">void AddSC_outdoorpvp_ep()</div><div class="ttdef"><b>Definition:</b> OutdoorPvPEP.cpp:774</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00121">AddOutlandScripts()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00774">AddSC_outdoorpvp_ep()</a>, <a class="el" href="../../#l00129">AddSC_outdoorpvp_gh()</a>, <a class="el" href="../../#l00367">AddSC_outdoorpvp_hp()</a>, <a class="el" href="../../#l00678">AddSC_outdoorpvp_na()</a>, <a class="el" href="../../#l00262">AddSC_outdoorpvp_si()</a>, <a class="el" href="../../#l00484">AddSC_outdoorpvp_tf()</a>, and <a class="el" href="../../#l00469">AddSC_outdoorpvp_zm()</a>.</p>
+
+</div>
+</div>
+<a id="ac97adfc1efbcf82840cffa915a55fecb" name="ac97adfc1efbcf82840cffa915a55fecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac97adfc1efbcf82840cffa915a55fecb">&#9670;&#160;</a></span>AddSC_outdoorpvp_ep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_outdoorpvp_ep </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  775</span>{</div>
+<div class="line"><span class="lineno">  776</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/d44/a24029.html">OutdoorPvP_eastern_plaguelands</a>();</div>
+<div class="line"><span class="lineno">  777</span>}</div>
+<div class="ttc" id="aa24029_html"><div class="ttname"><a href="../../d5/d44/a24029.html">OutdoorPvP_eastern_plaguelands</a></div><div class="ttdef"><b>Definition:</b> OutdoorPvPEP.cpp:761</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00029">AddOutdoorPvPScripts()</a>.</p>
+
+</div>
+</div>
+<a id="a04eaa29ec2e34f71e4f7addacc0405c0" name="a04eaa29ec2e34f71e4f7addacc0405c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04eaa29ec2e34f71e4f7addacc0405c0">&#9670;&#160;</a></span>AddSC_outdoorpvp_gh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_outdoorpvp_gh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  130</span>{</div>
+<div class="line"><span class="lineno">  131</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/d0d/a24053.html">OutdoorPvP_grizzly_hills</a>();</div>
+<div class="line"><span class="lineno">  132</span>}</div>
+<div class="ttc" id="aa24053_html"><div class="ttname"><a href="../../d5/d0d/a24053.html">OutdoorPvP_grizzly_hills</a></div><div class="ttdef"><b>Definition:</b> OutdoorPvPGH.cpp:116</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00029">AddOutdoorPvPScripts()</a>.</p>
+
+</div>
+</div>
+<a id="a69303ad6f661d8c009ee493dc4fd486c" name="a69303ad6f661d8c009ee493dc4fd486c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69303ad6f661d8c009ee493dc4fd486c">&#9670;&#160;</a></span>AddSC_outdoorpvp_hp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_outdoorpvp_hp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  368</span>{</div>
+<div class="line"><span class="lineno">  369</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/dd8/a24065.html">OutdoorPvP_hellfire_peninsula</a>();</div>
+<div class="line"><span class="lineno">  370</span>}</div>
+<div class="ttc" id="aa24065_html"><div class="ttname"><a href="../../df/dd8/a24065.html">OutdoorPvP_hellfire_peninsula</a></div><div class="ttdef"><b>Definition:</b> OutdoorPvPHP.cpp:354</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00029">AddOutdoorPvPScripts()</a>.</p>
+
+</div>
+</div>
+<a id="a03015585e7619177355fefd05f85e1c7" name="a03015585e7619177355fefd05f85e1c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03015585e7619177355fefd05f85e1c7">&#9670;&#160;</a></span>AddSC_outdoorpvp_na()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_outdoorpvp_na </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  679</span>{</div>
+<div class="line"><span class="lineno">  680</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/de8/a24077.html">OutdoorPvP_nagrand</a>();</div>
+<div class="line"><span class="lineno">  681</span>}</div>
+<div class="ttc" id="aa24077_html"><div class="ttname"><a href="../../d5/de8/a24077.html">OutdoorPvP_nagrand</a></div><div class="ttdef"><b>Definition:</b> OutdoorPvPNA.cpp:665</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00029">AddOutdoorPvPScripts()</a>.</p>
+
+</div>
+</div>
+<a id="a6dfd2849f525333510ae4febbbc3ae1f" name="a6dfd2849f525333510ae4febbbc3ae1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dfd2849f525333510ae4febbbc3ae1f">&#9670;&#160;</a></span>AddSC_outdoorpvp_si()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_outdoorpvp_si </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  263</span>{</div>
+<div class="line"><span class="lineno">  264</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d7a/a24089.html">OutdoorPvP_silithus</a>();</div>
+<div class="line"><span class="lineno">  265</span>}</div>
+<div class="ttc" id="aa24089_html"><div class="ttname"><a href="../../dc/d7a/a24089.html">OutdoorPvP_silithus</a></div><div class="ttdef"><b>Definition:</b> OutdoorPvPSI.cpp:249</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00029">AddOutdoorPvPScripts()</a>.</p>
+
+</div>
+</div>
+<a id="a6df553c8dd6e9b81e83110e7beab3646" name="a6df553c8dd6e9b81e83110e7beab3646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6df553c8dd6e9b81e83110e7beab3646">&#9670;&#160;</a></span>AddSC_outdoorpvp_tf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_outdoorpvp_tf </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  485</span>{</div>
+<div class="line"><span class="lineno">  486</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d80/a24097.html">OutdoorPvP_terokkar_forest</a>();</div>
+<div class="line"><span class="lineno">  487</span>}</div>
+<div class="ttc" id="aa24097_html"><div class="ttname"><a href="../../d9/d80/a24097.html">OutdoorPvP_terokkar_forest</a></div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.cpp:471</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00029">AddOutdoorPvPScripts()</a>.</p>
+
+</div>
+</div>
+<a id="a3077d08865fa83f84cf956c392a9091c" name="a3077d08865fa83f84cf956c392a9091c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3077d08865fa83f84cf956c392a9091c">&#9670;&#160;</a></span>AddSC_outdoorpvp_zm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_outdoorpvp_zm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  470</span>{</div>
+<div class="line"><span class="lineno">  471</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/da2/a24113.html">OutdoorPvP_zangarmarsh</a>();</div>
+<div class="line"><span class="lineno">  472</span>}</div>
+<div class="ttc" id="aa24113_html"><div class="ttname"><a href="../../d6/da2/a24113.html">OutdoorPvP_zangarmarsh</a></div><div class="ttdef"><b>Definition:</b> OutdoorPvPZM.cpp:456</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00029">AddOutdoorPvPScripts()</a>.</p>
 
 </div>
 </div>
@@ -277,8 +334,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_aa56e8ce1c3e0d32a59f1a16b86dbc72.html">Outland</a></li><li class="navelem"><a class="el" href="../../dir_c7e05c53196747da9983be071547f846.html">Auchindoun</a></li><li class="navelem"><a class="el" href="../../dir_07a0a020c2e239bb7d6fc2a24a5b9a43.html">AuchenaiCrypts</a></li><li class="navelem"><a class="el" href="../../df/d28/a03821.html">boss_shirrak_the_dead_watcher.cpp</a></li>
-    <li class="footer">Generated on Wed May 17 2023 23:04:49 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ad9d2bd1e1e418dea010d25c4d4f5d3.html">OutdoorPvP</a></li><li class="navelem"><a class="el" href="../../df/d28/a03821.html">outdoorpvp_script_loader.cpp</a></li>
+    <li class="footer">Generated on Sun Aug 20 2023 00:19:15 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,5 @@
 var a02369 =
 [
-    [ "reload_commandscript", "df/d70/a11154.html", "df/d70/a11154" ],
-    [ "AddSC_reload_commandscript", "df/def/a02369.html#ab72bc0a4ad4d6f90fa1e05f5591ed68f", null ]
+    [ "pet_commandscript", "df/d03/a11193.html", "df/d03/a11193" ],
+    [ "AddSC_pet_commandscript", "df/def/a02369.html#a9c7b2cae4f7afb6ae0c9ccc623877625", null ]
 ];

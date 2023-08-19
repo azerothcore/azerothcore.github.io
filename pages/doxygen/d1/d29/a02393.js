@@ -1,5 +1,5 @@
 var a02393 =
 [
-    [ "titles_commandscript", "d6/d6c/a11182.html", "d6/d6c/a11182" ],
-    [ "AddSC_titles_commandscript", "d1/d29/a02393.html#abd13948cbed6e10bdbf797847a0f6839", null ]
+    [ "server_commandscript", "d8/dbb/a11221.html", "d8/dbb/a11221" ],
+    [ "AddSC_server_commandscript", "d1/d29/a02393.html#aaa97392c09b5045a6040d75b224bdf22", null ]
 ];

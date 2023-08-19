@@ -1,11 +1,14 @@
 var a04265 =
 [
-    [ "npc_innkeeper", "dd/d29/a29282.html", "dd/d29/a29282" ],
-    [ "AddSC_npc_innkeeper", "db/d25/a04265.html#a3ffce1ea6cca981888af85ba67364df9", null ],
-    [ "GOSSIP_MENU", "db/d25/a04265.html#a3115623eb3e0408aad7cd637686aaaee", null ],
-    [ "GOSSIP_MENU_EVENT", "db/d25/a04265.html#a6bb09725b9e6b10b76686a9059038e6b", null ],
-    [ "HALLOWEEN_EVENTID", "db/d25/a04265.html#a2e23760d3d379f3fa92c139f067b5984", null ],
-    [ "SPELL_TREAT", "db/d25/a04265.html#a072a033da374692139d9d33e63be89ca", null ],
-    [ "SPELL_TRICK", "db/d25/a04265.html#ad2b2ba30383cca3be221f38a809e2da1", null ],
-    [ "SPELL_TRICKED_OR_TREATED", "db/d25/a04265.html#a022e344eaf73aa8ab6655d2c6aaac688", null ]
+    [ "guard_shattrath_scryer", "d9/db5/a29129.html", "d9/db5/a29129" ],
+    [ "guard_shattrath_scryer::guard_shattrath_scryerAI", "df/d92/a29133.html", "df/d92/a29133" ],
+    [ "guard_shattrath_aldor", "dc/d63/a29137.html", "dc/d63/a29137" ],
+    [ "guard_shattrath_aldor::guard_shattrath_aldorAI", "df/d4b/a29141.html", "df/d4b/a29141" ],
+    [ "GuardShattrath", "db/d25/a04265.html#a7c8fcdd86e1aa9eab132e6321290e79c", [
+      [ "SPELL_BANISHED_SHATTRATH_A", "db/d25/a04265.html#a7c8fcdd86e1aa9eab132e6321290e79ca958387dd7fcdedf036a81cf2ab4f56fe", null ],
+      [ "SPELL_BANISHED_SHATTRATH_S", "db/d25/a04265.html#a7c8fcdd86e1aa9eab132e6321290e79ca78bb081a2031299d661fbce8fd5a3d48", null ],
+      [ "SPELL_BANISH_TELEPORT", "db/d25/a04265.html#a7c8fcdd86e1aa9eab132e6321290e79ca7aecffca2feb1502c591610fee5566e0", null ],
+      [ "SPELL_EXILE", "db/d25/a04265.html#a7c8fcdd86e1aa9eab132e6321290e79ca6758cdbc7bb8447df1f7b3073833463d", null ]
+    ] ],
+    [ "AddSC_guards", "db/d25/a04265.html#acba582cbc90c710c629dd30926acdca4", null ]
 ];

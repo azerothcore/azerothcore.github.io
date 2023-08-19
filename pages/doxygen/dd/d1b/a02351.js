@@ -1,5 +1,5 @@
 var a02351 =
 [
-    [ "modify_commandscript", "da/d5f/a11118.html", "da/d5f/a11118" ],
-    [ "AddSC_modify_commandscript", "dd/d1b/a02351.html#a9cbb6ad3c630cbeb9ba39b4552f72e87", null ]
+    [ "lookup_commandscript", "df/d9b/a11157.html", "df/d9b/a11157" ],
+    [ "AddSC_lookup_commandscript", "dd/d1b/a02351.html#aae75b0f1415c6529e5837e3b27d054f6", null ]
 ];

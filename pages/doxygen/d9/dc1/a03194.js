@@ -1,43 +1,22 @@
 var a03194 =
 [
-    [ "npc_lakota_windsong", "de/ddc/a15758.html", "de/ddc/a15758" ],
-    [ "npc_lakota_windsong::npc_lakota_windsongAI", "df/d0a/a15762.html", "df/d0a/a15762" ],
-    [ "npc_paoka_swiftmountain", "d5/d66/a15766.html", "d5/d66/a15766" ],
-    [ "npc_paoka_swiftmountain::npc_paoka_swiftmountainAI", "d8/d3c/a15770.html", "d8/d3c/a15770" ],
-    [ "npc_plucky", "d5/d81/a15774.html", "d5/d81/a15774" ],
-    [ "npc_plucky::npc_pluckyAI", "df/d40/a15778.html", "df/d40/a15778" ],
-    [ "go_panther_cage", "d7/d2f/a15782.html", "d7/d2f/a15782" ],
-    [ "npc_enraged_panther", "d4/d7d/a15786.html", "d4/d7d/a15786" ],
-    [ "npc_enraged_panther::npc_enraged_pantherAI", "de/da2/a15790.html", "de/da2/a15790" ],
-    [ "GOSSIP_P", "d9/dc1/a03194.html#abe76f0bf6cd768a947537874b5a56330", null ],
-    [ "Lakota", "d9/dc1/a03194.html#ac39a2ad4e9c1ced24984bd5c9acf3745", [
-      [ "SAY_LAKO_START", "d9/dc1/a03194.html#ac39a2ad4e9c1ced24984bd5c9acf3745ad685ecf0f999b3b0859c272226a5b4b0", null ],
-      [ "SAY_LAKO_LOOK_OUT", "d9/dc1/a03194.html#ac39a2ad4e9c1ced24984bd5c9acf3745a1b46b3b897330c62331282922a1cc28f", null ],
-      [ "SAY_LAKO_HERE_COME", "d9/dc1/a03194.html#ac39a2ad4e9c1ced24984bd5c9acf3745ab3d49c68827aa5fe936a35424c8f0e6a", null ],
-      [ "SAY_LAKO_MORE", "d9/dc1/a03194.html#ac39a2ad4e9c1ced24984bd5c9acf3745a2c2cac4bc7f485753ffc62ce9ac53f74", null ],
-      [ "SAY_LAKO_END", "d9/dc1/a03194.html#ac39a2ad4e9c1ced24984bd5c9acf3745aec914a4c9c6b907b2f105307b224a80c", null ],
-      [ "QUEST_FREE_AT_LAST", "d9/dc1/a03194.html#ac39a2ad4e9c1ced24984bd5c9acf3745aaab7b3aeba6646842a5bdadb11feed57", null ],
-      [ "NPC_GRIM_BANDIT", "d9/dc1/a03194.html#ac39a2ad4e9c1ced24984bd5c9acf3745acbe7e3eadbfd99e1aefdd918f0c28923", null ],
-      [ "ID_AMBUSH_1", "d9/dc1/a03194.html#ac39a2ad4e9c1ced24984bd5c9acf3745a6b351de9d4d7cf41632a688dac1d3c33", null ],
-      [ "ID_AMBUSH_2", "d9/dc1/a03194.html#ac39a2ad4e9c1ced24984bd5c9acf3745af63f5bcbb697f260ed4b2b515e6c5820", null ],
-      [ "ID_AMBUSH_3", "d9/dc1/a03194.html#ac39a2ad4e9c1ced24984bd5c9acf3745a104db33b08420d20a3c621920e5af607", null ]
+    [ "npc_braug_dimspirit", "d8/d04/a15613.html", "d8/d04/a15613" ],
+    [ "npc_kaya_flathoof", "dc/d5a/a15617.html", "dc/d5a/a15617" ],
+    [ "npc_kaya_flathoof::npc_kaya_flathoofAI", "d9/dd4/a15621.html", "d9/dd4/a15621" ],
+    [ "GOSSIP_HBD1", "d9/dc1/a03194.html#a487e562e5e99ccd61aa7e93289874033", null ],
+    [ "GOSSIP_HBD2", "d9/dc1/a03194.html#adc43152833884ed78e5debdaaf5d500d", null ],
+    [ "GOSSIP_HBD3", "d9/dc1/a03194.html#aced35316178914dd542d4750f8bbb6cf", null ],
+    [ "GOSSIP_HBD4", "d9/dc1/a03194.html#a182f8c24fa1421c6a7c68e289491400e", null ],
+    [ "GOSSIP_HBD5", "d9/dc1/a03194.html#a34cc0e8072e5c86b2dd23a03fbc8f024", null ],
+    [ "Kaya", "d9/dc1/a03194.html#ab10ce9d7e7d19709d0e99ef45b935f15", [
+      [ "FACTION_ESCORTEE_H", "d9/dc1/a03194.html#ab10ce9d7e7d19709d0e99ef45b935f15a189eaa6b201834d1bd3182efbd449c1f", null ],
+      [ "NPC_GRIMTOTEM_RUFFIAN", "d9/dc1/a03194.html#ab10ce9d7e7d19709d0e99ef45b935f15a01961a91f321286d0ab25df44697f94f", null ],
+      [ "NPC_GRIMTOTEM_BRUTE", "d9/dc1/a03194.html#ab10ce9d7e7d19709d0e99ef45b935f15ac4f5df2a1f9d7cd9aba151ebfa864967", null ],
+      [ "NPC_GRIMTOTEM_SORCERER", "d9/dc1/a03194.html#ab10ce9d7e7d19709d0e99ef45b935f15ac5803d139c1801ccfdba4b115381afd6", null ],
+      [ "SAY_START", "d9/dc1/a03194.html#ab10ce9d7e7d19709d0e99ef45b935f15a2eae21cbf7d110ee89a9798ef6f00239", null ],
+      [ "SAY_AMBUSH", "d9/dc1/a03194.html#ab10ce9d7e7d19709d0e99ef45b935f15a68cb8abe7aeb84b5de4ba23b8f814d1e", null ],
+      [ "SAY_END", "d9/dc1/a03194.html#ab10ce9d7e7d19709d0e99ef45b935f15a40884932ffbbf14d6c380b9022bcfe97", null ],
+      [ "QUEST_PROTECT_KAYA", "d9/dc1/a03194.html#ab10ce9d7e7d19709d0e99ef45b935f15a4a8a823950ae7fb8722359672b427cc6", null ]
     ] ],
-    [ "Packa", "d9/dc1/a03194.html#aa5861ade3620d04c615fc8c237d80102", [
-      [ "SAY_START", "d9/dc1/a03194.html#aa5861ade3620d04c615fc8c237d80102a2eae21cbf7d110ee89a9798ef6f00239", null ],
-      [ "SAY_WYVERN", "d9/dc1/a03194.html#aa5861ade3620d04c615fc8c237d80102a89b65c3f1b01d8e211937b52981ec045", null ],
-      [ "SAY_COMPLETE", "d9/dc1/a03194.html#aa5861ade3620d04c615fc8c237d80102ac31c61437b536671a4aac2cfc0a66fdd", null ],
-      [ "QUEST_HOMEWARD", "d9/dc1/a03194.html#aa5861ade3620d04c615fc8c237d80102a226fac5a4fdf03b5b8cbdb6ff533037c", null ],
-      [ "NPC_WYVERN", "d9/dc1/a03194.html#aa5861ade3620d04c615fc8c237d80102a771d1fc8b6ed270a927ff5a146e4d9de", null ]
-    ] ],
-    [ "PantherCage", "d9/dc1/a03194.html#a59d31c8fc3505146f60a3a4fcbb5b502", [
-      [ "ENRAGED_PANTHER", "d9/dc1/a03194.html#a59d31c8fc3505146f60a3a4fcbb5b502ac2250619d3beb996c27269fc5f7c1f01", null ]
-    ] ],
-    [ "Plucky", "d9/dc1/a03194.html#aba5ef692b96fe4f89e8ffd8c4e37d4e1", [
-      [ "QUEST_SCOOP", "d9/dc1/a03194.html#aba5ef692b96fe4f89e8ffd8c4e37d4e1a6c756d0f0363f4a2918294de15581e1b", null ],
-      [ "SPELL_PLUCKY_HUMAN", "d9/dc1/a03194.html#aba5ef692b96fe4f89e8ffd8c4e37d4e1ae828034bf4e23f2a9ab587c74aea1e47", null ],
-      [ "SPELL_PLUCKY_CHICKEN", "d9/dc1/a03194.html#aba5ef692b96fe4f89e8ffd8c4e37d4e1ae20866bf46f5f2e406792d8e5e6a5179", null ]
-    ] ],
-    [ "AddSC_thousand_needles", "d9/dc1/a03194.html#a58e024bcebfefe3b44080ac0751c36bd", null ],
-    [ "BanditLoc", "d9/dc1/a03194.html#a9d831677b4e878c5a76e7bc332ba6730", null ],
-    [ "WyvernLoc", "d9/dc1/a03194.html#aca7b1639e471cc34f43cd5768265d02a", null ]
+    [ "AddSC_stonetalon_mountains", "d9/dc1/a03194.html#a985f3fb3a28d1163b27b5de21b1ec6cf", null ]
 ];

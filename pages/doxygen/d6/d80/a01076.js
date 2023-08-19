@@ -1,31 +1,18 @@
 var a01076 =
 [
-    [ "DisableType", "d6/d80/a01076.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64c", [
-      [ "DISABLE_TYPE_SPELL", "d6/d80/a01076.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca0f70e5147b74bccf96a1ff907ae92c27", null ],
-      [ "DISABLE_TYPE_QUEST", "d6/d80/a01076.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca53c0091b82a6fc9bc32393f75af1e49e", null ],
-      [ "DISABLE_TYPE_MAP", "d6/d80/a01076.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca7401630edc869fdab991560043243d9c", null ],
-      [ "DISABLE_TYPE_BATTLEGROUND", "d6/d80/a01076.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca9f1b696021b5e159000a608fdfb2e96a", null ],
-      [ "DISABLE_TYPE_ACHIEVEMENT_CRITERIA", "d6/d80/a01076.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64caa8a9feebca9f0cf6b1c70617fc0687d1", null ],
-      [ "DISABLE_TYPE_OUTDOORPVP", "d6/d80/a01076.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf73f51beb622b9096abd95821ac52296", null ],
-      [ "DISABLE_TYPE_VMAP", "d6/d80/a01076.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca3aa1423c0ff6356f4e839a98f97a4aff", null ],
-      [ "DISABLE_TYPE_GO_LOS", "d6/d80/a01076.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf195730ac264e79a67da287555f7c11a", null ],
-      [ "DISABLE_TYPE_LFG_MAP", "d6/d80/a01076.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64cae2e40d752bc7848f3d68d28642b4ea68", null ],
-      [ "DISABLE_TYPE_GAME_EVENT", "d6/d80/a01076.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64cad7a3460f1783f4ff25dfd3a6e5416ff0", null ],
-      [ "DISABLE_TYPE_LOOT", "d6/d80/a01076.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64cac7febee075c9e0d687bd322cd0798f2f", null ]
-    ] ],
-    [ "SpellDisableTypes", "d6/d80/a01076.html#a7b9e8ca1dcd13802fa528f955deaefd7", [
-      [ "SPELL_DISABLE_PLAYER", "d6/d80/a01076.html#a7b9e8ca1dcd13802fa528f955deaefd7aad7fc2c20248b5ccc6c7af46c0627a41", null ],
-      [ "SPELL_DISABLE_CREATURE", "d6/d80/a01076.html#a7b9e8ca1dcd13802fa528f955deaefd7a1af9f400d91b09580b35048cb1ffa707", null ],
-      [ "SPELL_DISABLE_PET", "d6/d80/a01076.html#a7b9e8ca1dcd13802fa528f955deaefd7a69cb584bf80eea477b207020b21810e4", null ],
-      [ "SPELL_DISABLE_DEPRECATED_SPELL", "d6/d80/a01076.html#a7b9e8ca1dcd13802fa528f955deaefd7abf8d2121280a5024433b90335617ad2b", null ],
-      [ "SPELL_DISABLE_MAP", "d6/d80/a01076.html#a7b9e8ca1dcd13802fa528f955deaefd7a814538087543158616640736f8511484", null ],
-      [ "SPELL_DISABLE_AREA", "d6/d80/a01076.html#a7b9e8ca1dcd13802fa528f955deaefd7af0b7760e1bbbca07ae256ffe853a0268", null ],
-      [ "SPELL_DISABLE_LOS", "d6/d80/a01076.html#a7b9e8ca1dcd13802fa528f955deaefd7a1a78c3d652ddec71707bf22ec83df437", null ],
-      [ "MAX_SPELL_DISABLE_TYPE", "d6/d80/a01076.html#a7b9e8ca1dcd13802fa528f955deaefd7ac556c5fec4ec5e1fb62f6f2a5904926d", null ]
-    ] ],
-    [ "CheckQuestDisables", "d6/d80/a01076.html#a2f9fa5dadf6f2da5f01651d37d996377", null ],
-    [ "IsDisabledFor", "d6/d80/a01076.html#a6673bbc719c96febfc86a4220a988ed0", null ],
-    [ "IsPathfindingEnabled", "d6/d80/a01076.html#ad6a338e6f295d785a4f9256703ffbd71", null ],
-    [ "IsVMAPDisabledFor", "d6/d80/a01076.html#a38b182e1836b2197303b2809006f5148", null ],
-    [ "LoadDisables", "d6/d80/a01076.html#adb464165caf6cd436499fa84969eeaf8", null ]
+    [ "UnitBaseEvent", "da/d3a/a07409.html", "da/d3a/a07409" ],
+    [ "ThreatRefStatusChangeEvent", "dc/d89/a07413.html", "dc/d89/a07413" ],
+    [ "ThreatMgrEvent", "df/d98/a07421.html", "df/d98/a07421" ],
+    [ "UEV_ALL_EVENT_MASK", "d6/d80/a01076.html#a99af7f8805c877a694d51ab4feb1e58b", null ],
+    [ "UEV_THREAT_MANAGER_EVENT_MASK", "d6/d80/a01076.html#a28d3aa8f148208fa65f5ef1af46913cc", null ],
+    [ "UEV_THREAT_REF_EVENT_MASK", "d6/d80/a01076.html#aca3c8db6dd274b113d9c3c7755ff5d7a", null ],
+    [ "UNIT_EVENT_TYPE", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97", [
+      [ "UEV_THREAT_REF_ONLINE_STATUS", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9", null ],
+      [ "UEV_THREAT_REF_THREAT_CHANGE", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0", null ],
+      [ "UEV_THREAT_REF_REMOVE_FROM_LIST", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0", null ],
+      [ "UEV_THREAT_REF_ASSECCIBLE_STATUS", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97abd7481924e1cb036704820e5be0407db", null ],
+      [ "UEV_THREAT_SORT_LIST", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a74092d5fa151b78ce0de1ddf3ed05865", null ],
+      [ "UEV_THREAT_SET_NEXT_TARGET", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9", null ],
+      [ "UEV_THREAT_VICTIM_CHANGED", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669", null ]
+    ] ]
 ];

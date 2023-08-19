@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/game/Chat/ChatCommands/ChatCommandHelpers.h File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/game/Chat/ChatCommands/ChatCommand.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -109,81 +109,121 @@ $(document).ready(function(){initNavTree('de/d91/a01034.html','../../'); initRes
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">ChatCommandHelpers.h File Reference</div></div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">ChatCommand.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ChatCommandArgs.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ChatCommandTags.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Optional.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">StringFormat.h</a>&quot;</code><br />
-<code>#include &lt;optional&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;string_view&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">advstd.h</a>&quot;</code><br />
+<code>#include &lt;cstddef&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
+<code>#include &lt;tuple&gt;</code><br />
 <code>#include &lt;type_traits&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;variant&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d77/a07154.html">Acore::Impl::ChatCommands::tag_base&lt; T, typename &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de6/a07089.html">Acore::Impl::ChatCommands::MultiConsumer&lt; Tuple, NextType, offset &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d40/a07158.html">Acore::Impl::ChatCommands::TokenizeResult</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3d/a07093.html">Acore::Impl::ChatCommands::MultiConsumer&lt; Tuple, Optional&lt; NestedNextType &gt;, offset &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc8/a07162.html">Acore::Impl::ChatCommands::are_all_assignable&lt; T, Ts &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d62/a07097.html">Acore::Impl::ChatCommands::HandlerToTuple&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5c/a07166.html">Acore::Impl::ChatCommands::are_all_assignable&lt; void, Ts... &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d32/a07101.html">Acore::Impl::ChatCommands::HandlerToTuple&lt; bool(ChatHandler *, Ts...)&gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0f/a07170.html">Acore::Impl::ChatCommands::get_nth&lt; index, T1, Ts &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d3a/a07105.html">Acore::Impl::ChatCommands::CommandInvoker</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d41/a07174.html">Acore::Impl::ChatCommands::get_nth&lt; 0, T1, Ts... &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da1/a07109.html">Acore::Impl::ChatCommands::CommandPermissions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ddc/a07178.html">Acore::Impl::ChatCommands::ChatCommandResult</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a07113.html">Acore::Impl::ChatCommands::ChatCommandNode</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd5/a07117.html">Acore::ChatCommands::ChatCommandBuilder</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7b/a07121.html">Acore::ChatCommands::ChatCommandBuilder::InvokerEntry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d2/d22/a04473"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d22/a04473.html">Acore</a></td></tr>
+<tr class="memitem:dd/d6e/a04485"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6e/a04485.html">Acore</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d0/d0c/a04484"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0c/a04484.html">Acore::Impl</a></td></tr>
+<tr class="memitem:dc/dc2/a04525"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc2/a04525.html">Acore::ChatCommands</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d1/def/a04512"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/def/a04512.html">Acore::Impl::ChatCommands</a></td></tr>
+<tr class="memitem:d1/d55/a04496"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/a04496.html">Acore::Impl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d9/dbb/a04524"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dbb/a04524.html">Acore::Impl::ChatCommands</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a61f1a636e46a7d78161298ae28844703"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a61f1a636e46a7d78161298ae28844703"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/def/a04512.html#a61f1a636e46a7d78161298ae28844703">Acore::Impl::ChatCommands::tag_base_t</a> = typename tag_base&lt; T &gt;::type</td></tr>
-<tr class="separator:a61f1a636e46a7d78161298ae28844703"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf7271fa50990dbd40fd90f127b9fb3b"><td class="memTemplParams" colspan="2">template&lt;std::size_t index, typename... Ts&gt; </td></tr>
-<tr class="memitem:acf7271fa50990dbd40fd90f127b9fb3b"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/def/a04512.html#acf7271fa50990dbd40fd90f127b9fb3b">Acore::Impl::ChatCommands::get_nth_t</a> = typename get_nth&lt; index, Ts... &gt;::type</td></tr>
-<tr class="separator:acf7271fa50990dbd40fd90f127b9fb3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aa1549a95f760a19b9b7ffd8e669626"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc2/a04525.html#a7aa1549a95f760a19b9b7ffd8e669626">Acore::ChatCommands::ChatCommandTable</a> = std::vector&lt; ChatCommandBuilder &gt;</td></tr>
+<tr class="separator:a7aa1549a95f760a19b9b7ffd8e669626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dd784bc8e3d7db1d11c46886088ad76"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7dd784bc8e3d7db1d11c46886088ad76"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dbb/a04524.html#a7dd784bc8e3d7db1d11c46886088ad76">Acore::Impl::ChatCommands::TupleType</a> = typename HandlerToTuple&lt; T &gt;::type</td></tr>
+<tr class="separator:a7dd784bc8e3d7db1d11c46886088ad76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a399dbe5721f7277a9066752a84065ee4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d91/a01034.html#a399dbe5721f7277a9066752a84065ee4">ChatCommand</a> = <a class="el" href="../../d2/dd5/a07117.html">Acore::ChatCommands::ChatCommandBuilder</a></td></tr>
+<tr class="separator:a399dbe5721f7277a9066752a84065ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a6f2659123367a36f37046e5604215d6b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc2/a04525.html#a6f2659123367a36f37046e5604215d6b">Acore::ChatCommands::Console</a> : bool { <br />
+&#160;&#160;<a class="el" href="../../dc/dc2/a04525.html#a6f2659123367a36f37046e5604215d6babafd7322c6e97d25b6299b5d6fe8920b">Acore::ChatCommands::No</a> = false
+, <br />
+&#160;&#160;<a class="el" href="../../dc/dc2/a04525.html#a6f2659123367a36f37046e5604215d6ba93cba07454f06a4a960172bbd6e2a435">Acore::ChatCommands::Yes</a> = true
+<br />
+ }</td></tr>
+<tr class="separator:a6f2659123367a36f37046e5604215d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aeca95018e8d551d917cf69e0764ccef7"><td class="memItemLeft" align="right" valign="top">TokenizeResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/def/a04512.html#aeca95018e8d551d917cf69e0764ccef7">Acore::Impl::ChatCommands::tokenize</a> (std::string_view args)</td></tr>
-<tr class="separator:aeca95018e8d551d917cf69e0764ccef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae4c9556d5cc172144fa280ca820226d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/def/a04512.html#aae4c9556d5cc172144fa280ca820226d">Acore::Impl::ChatCommands::SendErrorMessageToHandler</a> (<a class="el" href="../../dc/dfc/a07026.html">ChatHandler</a> *handler, std::string_view str)</td></tr>
-<tr class="separator:aae4c9556d5cc172144fa280ca820226d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a671c2d8ee25e88cc8f58246b1486f1de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/def/a04512.html#a671c2d8ee25e88cc8f58246b1486f1de">Acore::Impl::ChatCommands::GetAcoreString</a> (<a class="el" href="../../dc/dfc/a07026.html">ChatHandler</a> const *handler, <a class="el" href="../../d0/dc0/a01652.html#af9ee42b1cf006ecb2d2e74fe71c0761a">AcoreStrings</a> which)</td></tr>
-<tr class="separator:a671c2d8ee25e88cc8f58246b1486f1de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a496bce28eb0bf0ac4b5e1c54c19193b7"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
-<tr class="memitem:a496bce28eb0bf0ac4b5e1c54c19193b7"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/def/a04512.html#a496bce28eb0bf0ac4b5e1c54c19193b7">Acore::Impl::ChatCommands::FormatAcoreString</a> (<a class="el" href="../../dc/dfc/a07026.html">ChatHandler</a> const *handler, <a class="el" href="../../d0/dc0/a01652.html#af9ee42b1cf006ecb2d2e74fe71c0761a">AcoreStrings</a> which, Ts &amp;&amp;... args)</td></tr>
-<tr class="separator:a496bce28eb0bf0ac4b5e1c54c19193b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a068db55731856ca7770e1b09a4225aa2"><td class="memItemLeft" align="right" valign="top">static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/def/a04512.html#a068db55731856ca7770e1b09a4225aa2">Acore::Impl::ChatCommands::COMMAND_DELIMITER</a> = ' '</td></tr>
-<tr class="separator:a068db55731856ca7770e1b09a4225aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cb927687da0e8c0bae77a78fe45d942"><td class="memTemplParams" colspan="2">template&lt;typename Tuple , size_t offset&gt; </td></tr>
+<tr class="memitem:a3cb927687da0e8c0bae77a78fe45d942"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d2/d41/a01037.html#ad9c9d483b96ed400318aed8441ebe7f1">ChatCommandResult</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dbb/a04524.html#a3cb927687da0e8c0bae77a78fe45d942">Acore::Impl::ChatCommands::ConsumeFromOffset</a> (Tuple &amp;, <a class="el" href="../../d9/d8e/a07077.html">ChatHandler</a> const *handler, std::string_view args)</td></tr>
+<tr class="separator:a3cb927687da0e8c0bae77a78fe45d942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c6cb6c985ac8fd7bb2f8b2bab1be30d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc2/a04525.html#a2c6cb6c985ac8fd7bb2f8b2bab1be30d">Acore::ChatCommands::LoadCommandMap</a> ()</td></tr>
+<tr class="separator:a2c6cb6c985ac8fd7bb2f8b2bab1be30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade19080af583292883b932d83992c6fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc2/a04525.html#ade19080af583292883b932d83992c6fe">Acore::ChatCommands::InvalidateCommandMap</a> ()</td></tr>
+<tr class="separator:ade19080af583292883b932d83992c6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca39508e7753f6ca5d9aa21a854c0a77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc2/a04525.html#aca39508e7753f6ca5d9aa21a854c0a77">Acore::ChatCommands::TryExecuteCommand</a> (<a class="el" href="../../d9/d8e/a07077.html">ChatHandler</a> &amp;handler, std::string_view cmd)</td></tr>
+<tr class="separator:aca39508e7753f6ca5d9aa21a854c0a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81e8830ce306f6cfbcd04c92d3e0cc7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc2/a04525.html#a81e8830ce306f6cfbcd04c92d3e0cc7f">Acore::ChatCommands::SendCommandHelpFor</a> (<a class="el" href="../../d9/d8e/a07077.html">ChatHandler</a> &amp;handler, std::string_view cmd)</td></tr>
+<tr class="separator:a81e8830ce306f6cfbcd04c92d3e0cc7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1f396a96afbd90b5c426315c8ba37d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc2/a04525.html#a9a1f396a96afbd90b5c426315c8ba37d">Acore::ChatCommands::GetAutoCompletionsFor</a> (<a class="el" href="../../d9/d8e/a07077.html">ChatHandler</a> const &amp;handler, std::string_view cmd)</td></tr>
+<tr class="separator:a9a1f396a96afbd90b5c426315c8ba37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a399dbe5721f7277a9066752a84065ee4" name="a399dbe5721f7277a9066752a84065ee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a399dbe5721f7277a9066752a84065ee4">&#9670;&#160;</a></span>ChatCommand</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../de/d91/a01034.html#a399dbe5721f7277a9066752a84065ee4">ChatCommand</a> =  <a class="el" href="../../d2/dd5/a07117.html">Acore::ChatCommands::ChatCommandBuilder</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_696eb3df8c264f77a3b72ba3d62ed649.html">Chat</a></li><li class="navelem"><a class="el" href="../../dir_c82f813a65ca3ac2a4f36b7f63ade20a.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../de/d91/a01034.html">ChatCommandHelpers.h</a></li>
-    <li class="footer">Generated on Wed May 17 2023 23:04:33 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_696eb3df8c264f77a3b72ba3d62ed649.html">Chat</a></li><li class="navelem"><a class="el" href="../../dir_c82f813a65ca3ac2a4f36b7f63ade20a.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../de/d91/a01034.html">ChatCommand.h</a></li>
+    <li class="footer">Generated on Sun Aug 20 2023 00:18:55 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

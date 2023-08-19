@@ -1,5 +1,5 @@
 var a02318 =
 [
-    [ "honor_commandscript", "df/d30/a11074.html", "df/d30/a11074" ],
-    [ "AddSC_honor_commandscript", "db/dda/a02318.html#ab7c57f853cb45a82b5563b703a1ee041", null ]
+    [ "go_commandscript", "dd/de3/a11113.html", "dd/de3/a11113" ],
+    [ "AddSC_go_commandscript", "db/dda/a02318.html#a95fcb467686a27e069827ed3775df197", null ]
 ];

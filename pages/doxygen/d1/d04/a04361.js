@@ -1,9 +1,10 @@
 var a04361 =
 [
-    [ "TEST", "d1/d04/a04361.html#a7a11632378897367b979b12423a3f5dd", null ],
-    [ "TEST", "d1/d04/a04361.html#ac23831b7258f696b9e9a4972c42b5a4c", null ],
-    [ "TEST", "d1/d04/a04361.html#a5fcf85473a490662471938a1f773d6e2", null ],
-    [ "TEST", "d1/d04/a04361.html#a8ffadf8c8dbffb858cf2a925473d6bff", null ],
-    [ "TEST", "d1/d04/a04361.html#a23ac78cb09ef0a7b924b271ffefbc6a9", null ],
-    [ "TEST", "d1/d04/a04361.html#a9b7a926251db0fa2bd2678cee360e161", null ]
+    [ "SecretMgr", "dd/d8c/a30245.html", "dd/d8c/a30245" ],
+    [ "SecretMgr::Secret", "d5/dfc/a30249.html", "d5/dfc/a30249" ],
+    [ "sSecretMgr", "d1/d04/a04361.html#a5104e1ebeb8cbf71ec16e9492a3ad622", null ],
+    [ "Secrets", "d1/d04/a04361.html#ab54b0ec728a299f0ff9e8a7796297a01", [
+      [ "SECRET_TOTP_MASTER_KEY", "d1/d04/a04361.html#ab54b0ec728a299f0ff9e8a7796297a01a414121b0e05fa3a392ffe0da5afe0fe9", null ],
+      [ "NUM_SECRETS", "d1/d04/a04361.html#ab54b0ec728a299f0ff9e8a7796297a01a087643d0aa89a708bad0f254697489c6", null ]
+    ] ]
 ];

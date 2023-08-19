@@ -1,10 +1,14 @@
 var a01313 =
 [
-    [ "TradeData", "df/d2d/a08142.html", "df/d2d/a08142" ],
-    [ "TradeSlots", "de/d90/a01313.html#ad8fd978c4198825d89a1f02643d20c62", [
-      [ "TRADE_SLOT_COUNT", "de/d90/a01313.html#ad8fd978c4198825d89a1f02643d20c62a1e8d56a5a22d784c5d388fd8bd206488", null ],
-      [ "TRADE_SLOT_TRADED_COUNT", "de/d90/a01313.html#ad8fd978c4198825d89a1f02643d20c62ab52f8b8c3be8445987c622e4dfacaa79", null ],
-      [ "TRADE_SLOT_NONTRADED", "de/d90/a01313.html#ad8fd978c4198825d89a1f02643d20c62abdab7c30065c4b145dd2e6ce0e27c45f", null ],
-      [ "TRADE_SLOT_INVALID", "de/d90/a01313.html#ad8fd978c4198825d89a1f02643d20c62ab98427dca4bc30e207c0433e5e307ad4", null ]
-    ] ]
+    [ "BeforeVisibilityDestroy", "de/d90/a01313.html#a8172910e1dfdc7b56ca3931dd2fab1fb", null ],
+    [ "BeforeVisibilityDestroy< Creature >", "de/d90/a01313.html#a62188ab6a72d08b62bf37442dbbfdaa6", null ],
+    [ "getProbabilityOfLevelUp", "de/d90/a01313.html#aa890f698ac89e4049e1107c05d065495", null ],
+    [ "SkillGainChance", "de/d90/a01313.html#a66adde9ba6a85d585f6e6e8355499aa6", null ],
+    [ "UpdateVisibilityOf_helper", "de/d90/a01313.html#a5f5d6b73fc1fb15a0cde612641ba3433", null ],
+    [ "UpdateVisibilityOf_helper", "de/d90/a01313.html#aa522147fa6130f7d54551f137424bd15", null ],
+    [ "UpdateVisibilityOf_helper", "de/d90/a01313.html#ac411c559a97e183268339b1ea63a84b6", null ],
+    [ "UpdateVisibilityOf_helper", "de/d90/a01313.html#a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77", null ],
+    [ "bonusSkillLevels", "de/d90/a01313.html#a72b3624ee55553e28f82ef06d7c74c6a", null ],
+    [ "bonusSkillLevelsSize", "de/d90/a01313.html#a2462e5521a90194e3f5c525e3a62d842", null ],
+    [ "ZONE_UPDATE_INTERVAL", "de/d90/a01313.html#afabbcd46bf6f03c5dca10b117810b710", null ]
 ];

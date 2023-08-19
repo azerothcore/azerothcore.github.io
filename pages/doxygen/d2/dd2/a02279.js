@@ -1,5 +1,6 @@
 var a02279 =
 [
-    [ "cast_commandscript", "df/d55/a11014.html", "df/d55/a11014" ],
-    [ "AddSC_cast_commandscript", "d2/dd2/a02279.html#a7b374923a29bdbff68b6e78d2ef4a3e0", null ]
+    [ "bg_commandscript", "da/dc2/a11053.html", "da/dc2/a11053" ],
+    [ "AddSC_bag_commandscript", "d2/dd2/a02279.html#a8fa1e803122341d611168b2b62fde4e5", null ],
+    [ "itemQualityToString", "d2/dd2/a02279.html#af266597924b9d3f439ffc9908001d2cb", null ]
 ];

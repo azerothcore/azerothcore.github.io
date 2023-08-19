@@ -1,8 +1,6 @@
 var a04403 =
 [
-    [ "fixname2", "d3/dd8/a04403.html#a505f827307521d389b41e8f0b238c354", null ],
-    [ "fixnamen", "d3/dd8/a04403.html#a4df61017ffd84478bbfc579aec447880", null ],
-    [ "GetExtension", "d3/dd8/a04403.html#ac3f75fc482c41471364c2c3e8bd1dd96", null ],
-    [ "GetPlainName", "d3/dd8/a04403.html#a5e577b4c8e75312883ba4e8c571908ca", null ],
-    [ "GetPlainName", "d3/dd8/a04403.html#a939d4568b4058bf826a517f55cb963af", null ]
+    [ "_CRT_SECURE_NO_DEPRECATE", "d3/dd8/a04403.html#a411c46599e926f8cdf49c63957255359", null ],
+    [ "MAINMagic", "d3/dd8/a04403.html#a026039bd50ec58444fa975da328951ec", null ],
+    [ "MPHDMagic", "d3/dd8/a04403.html#aac8041bc8ca704e28f2b3054649b3752", null ]
 ];

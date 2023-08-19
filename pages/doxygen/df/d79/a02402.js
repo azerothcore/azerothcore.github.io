@@ -1,5 +1,5 @@
 var a02402 =
 [
-    [ "HandleLearnSpellCommand", "df/d79/a02402.html#acbe37f872cbc981a27671ebdf10904de", null ],
-    [ "HandleUnlearnSpellCommand", "df/d79/a02402.html#ad36f90f90b3d9aaf782f7efc859f7e7a", null ]
+    [ "ticket_commandscript", "de/d8f/a11233.html", "de/d8f/a11233" ],
+    [ "AddSC_ticket_commandscript", "df/d79/a02402.html#ad71463f4442d2e022a92404a4d9dec76", null ]
 ];

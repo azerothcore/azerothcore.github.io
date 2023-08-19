@@ -1,9 +1,13 @@
 var a01085 =
 [
-    [ "FlyByCameraCollection", "d2/df3/a01085.html#a058e5fb250bd785cecc9a6913132dfe4", null ],
-    [ "GetFlyByCameras", "d2/df3/a01085.html#af4a9ba9da1a2f4075cc36b95cce62f6f", null ],
-    [ "LoadM2Cameras", "d2/df3/a01085.html#a036ca5e535b8e25b87a67c20c2ad2d4c", null ],
-    [ "readCamera", "d2/df3/a01085.html#ad7c17022a3ffed42c9d4995f5f6bb7ac", null ],
-    [ "TranslateLocation", "d2/df3/a01085.html#a5274eb8fcc7646fe4fc3ea77ab6de2d9", null ],
-    [ "sFlyByCameraStore", "d2/df3/a01085.html#a4acfeb7e23e1d3a74b66a1c54084e7bc", null ]
+    [ "DisableMgr::anonymous_namespace{DisableMgr.cpp}::DisableData", "d7/dc5/a07437.html", "d7/dc5/a07437" ],
+    [ "DisableMap", "d2/df3/a01085.html#a2b8dd8b0bc5f58e812c1bd969ee833d6", null ],
+    [ "DisableTypeMap", "d2/df3/a01085.html#a1dc7ac8fd11c81da83700d364483165a", null ],
+    [ "CheckQuestDisables", "d2/df3/a01085.html#a2f9fa5dadf6f2da5f01651d37d996377", null ],
+    [ "IsDisabledFor", "d2/df3/a01085.html#a6673bbc719c96febfc86a4220a988ed0", null ],
+    [ "IsPathfindingEnabled", "d2/df3/a01085.html#ad6a338e6f295d785a4f9256703ffbd71", null ],
+    [ "IsVMAPDisabledFor", "d2/df3/a01085.html#a38b182e1836b2197303b2809006f5148", null ],
+    [ "LoadDisables", "d2/df3/a01085.html#adb464165caf6cd436499fa84969eeaf8", null ],
+    [ "m_DisableMap", "d2/df3/a01085.html#a15af74f7cffff305a48d31529df515e7", null ],
+    [ "MAX_DISABLE_TYPES", "d2/df3/a01085.html#a55c2ff1d7d10ed3d5f30071472d692fb", null ]
 ];

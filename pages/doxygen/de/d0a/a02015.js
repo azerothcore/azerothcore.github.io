@@ -1,4 +1,6 @@
 var a02015 =
 [
-    [ "WorldPackets::Combat::SetSheathed", "d6/d21/a09970.html", "d6/d21/a09970" ]
+    [ "WorldPackets::Chat::Emote", "d8/d92/a10009.html", "d8/d92/a10009" ],
+    [ "WorldPackets::Chat::EmoteClient", "d5/d4a/a10013.html", "d5/d4a/a10013" ],
+    [ "WorldPackets::Chat::ChatServerMessage", "d7/d5b/a10017.html", "d7/d5b/a10017" ]
 ];

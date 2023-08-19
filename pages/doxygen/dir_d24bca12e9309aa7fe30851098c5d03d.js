@@ -1,5 +1,5 @@
 var dir_d24bca12e9309aa7fe30851098c5d03d =
 [
-    [ "instance_scarlet_monastery.cpp", "de/db4/a02684.html", "de/db4/a02684" ],
-    [ "scarletmonastery.h", "d5/d25/a02687.html", "d5/d25/a02687" ]
+    [ "instance_scarlet_monastery.cpp", "d8/da6/a02696.html", "d8/da6/a02696" ],
+    [ "scarletmonastery.h", "dd/d9a/a02699.html", "dd/d9a/a02699" ]
 ];

@@ -1,7 +1,8 @@
 var a01226 =
 [
-    [ "operator<<", "dd/d9e/a01226.html#a71323635f122d24189054da615cb39e1", null ],
-    [ "operator<<", "dd/d9e/a01226.html#ab63323f8a9ade40ddd90338538b5c9b5", null ],
-    [ "operator>>", "dd/d9e/a01226.html#a72e22c3226b5f361848aef2c75a6d3fb", null ],
-    [ "operator>>", "dd/d9e/a01226.html#af223d782e9dcf0f80ed4009360aa0d80", null ]
+    [ "GUID_TRAIT_INSTANTIATE_GUID", "dd/d9e/a01226.html#a62c17cbc4f3da3f26f9c1ae3ba2c4953", null ],
+    [ "operator<<", "dd/d9e/a01226.html#a039758f4b57c94c411a4c3882334ada8", null ],
+    [ "operator<<", "dd/d9e/a01226.html#a94ab551ce00fd82dea1532d47ad908bc", null ],
+    [ "operator>>", "dd/d9e/a01226.html#a30aef535f2839648f0ae4648c746d3e2", null ],
+    [ "operator>>", "dd/d9e/a01226.html#a95f3a6eef334b9fcdcaca879532c25d4", null ]
 ];

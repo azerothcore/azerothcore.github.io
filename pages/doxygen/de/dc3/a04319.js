@@ -1,4 +1,5 @@
 var a04319 =
 [
-    [ "NetworkThread< SocketType >", "d2/de9/a30266.html", "d2/de9/a30266" ]
+    [ "DBCStorageBase", "de/def/a29473.html", "de/def/a29473" ],
+    [ "DBCStorage< T >", "d0/d0d/a29477.html", "d0/d0d/a29477" ]
 ];

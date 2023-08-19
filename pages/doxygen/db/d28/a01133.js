@@ -1,20 +1,20 @@
 var a01133 =
 [
-    [ "Corpse", "d1/dd7/a07498.html", "d1/dd7/a07498" ],
-    [ "CORPSE_RECLAIM_RADIUS", "db/d28/a01133.html#a1cebf109f41dcdac8a90086696642782", null ],
-    [ "MAX_CORPSE_TYPE", "db/d28/a01133.html#aec0512ffe7d6a8f7dd8330c334bb4fc3", null ],
-    [ "CorpseFlags", "db/d28/a01133.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537c", [
-      [ "CORPSE_FLAG_NONE", "db/d28/a01133.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca30260079b14373a47aef21b99e8757a2", null ],
-      [ "CORPSE_FLAG_BONES", "db/d28/a01133.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca47ec12fa0520573d7d8ff9231ca4eb8b", null ],
-      [ "CORPSE_FLAG_UNK1", "db/d28/a01133.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca043171119fe69fae07f3668763d40c7c", null ],
-      [ "CORPSE_FLAG_UNK2", "db/d28/a01133.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca769ec96151b713170c051ee6236bbd5e", null ],
-      [ "CORPSE_FLAG_HIDE_HELM", "db/d28/a01133.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca830d0cde7665a938cd48d4018ae0df79", null ],
-      [ "CORPSE_FLAG_HIDE_CLOAK", "db/d28/a01133.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca25bc5b9c02c2cce38be9bb32c2ad335a", null ],
-      [ "CORPSE_FLAG_LOOTABLE", "db/d28/a01133.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537caeb7f1630dc7c0b062b809e65cd4e5f80", null ]
-    ] ],
-    [ "CorpseType", "db/d28/a01133.html#a43260eb47484e62a16a868f79646c683", [
-      [ "CORPSE_BONES", "db/d28/a01133.html#a43260eb47484e62a16a868f79646c683ae7046aabaa7e6f435370eb1c49335356", null ],
-      [ "CORPSE_RESURRECTABLE_PVE", "db/d28/a01133.html#a43260eb47484e62a16a868f79646c683a79e10cac636d94dc5aa8379ecce5cc78", null ],
-      [ "CORPSE_RESURRECTABLE_PVP", "db/d28/a01133.html#a43260eb47484e62a16a868f79646c683a90cccb41a96804ac3340b13ff68241ba", null ]
+    [ "lfg::LfgQueueData", "d5/dd2/a07529.html", "d5/dd2/a07529" ],
+    [ "lfg::LfgWaitTime", "d2/d42/a07533.html", "d2/d42/a07533" ],
+    [ "lfg::LFGQueue", "d2/d96/a07537.html", "d2/d96/a07537" ],
+    [ "LfgCompatibleContainer", "db/d28/a01133.html#a96438cca4cead6c1fc5d31ef643129e9", null ],
+    [ "LfgQueueDataContainer", "db/d28/a01133.html#aa2afec59ce753c11c3d8fddf4fb33991", null ],
+    [ "LfgWaitTimesContainer", "db/d28/a01133.html#a58714a43cbdc03f4008681528fb20447", null ],
+    [ "LfgCompatibility", "db/d28/a01133.html#a33c5b3513de4cd3c5a525f31008618b6", [
+      [ "LFG_COMPATIBILITY_PENDING", "db/d28/a01133.html#a33c5b3513de4cd3c5a525f31008618b6a9bd6f6c66c07537c541c6cf47da9311a", null ],
+      [ "LFG_INCOMPATIBLES_WRONG_GROUP_SIZE", "db/d28/a01133.html#a33c5b3513de4cd3c5a525f31008618b6ab6f6918e09882dce7eb53394dc960123", null ],
+      [ "LFG_INCOMPATIBLES_TOO_MUCH_PLAYERS", "db/d28/a01133.html#a33c5b3513de4cd3c5a525f31008618b6aab66f0e7b36ded30473ed953e96346a1", null ],
+      [ "LFG_INCOMPATIBLES_MULTIPLE_LFG_GROUPS", "db/d28/a01133.html#a33c5b3513de4cd3c5a525f31008618b6a5c52733040385425e0b4fafbbe962c57", null ],
+      [ "LFG_INCOMPATIBLES_HAS_IGNORES", "db/d28/a01133.html#a33c5b3513de4cd3c5a525f31008618b6a232b96c8bc336a74ef0d50fe5092b21b", null ],
+      [ "LFG_INCOMPATIBLES_NO_ROLES", "db/d28/a01133.html#a33c5b3513de4cd3c5a525f31008618b6ad009d10da76a97578ce600e26e253a63", null ],
+      [ "LFG_INCOMPATIBLES_NO_DUNGEONS", "db/d28/a01133.html#a33c5b3513de4cd3c5a525f31008618b6a6db8294000b56babf9050ec1fa80bd33", null ],
+      [ "LFG_COMPATIBLES_WITH_LESS_PLAYERS", "db/d28/a01133.html#a33c5b3513de4cd3c5a525f31008618b6a226ddd4cf32244952984c339a149c93e", null ],
+      [ "LFG_COMPATIBLES_MATCH", "db/d28/a01133.html#a33c5b3513de4cd3c5a525f31008618b6a9dc8d1185a27e48d0f6953fccaa49ba0", null ]
     ] ]
 ];

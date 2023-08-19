@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Impl::ChatCommands::MultiConsumer&lt; Tuple, Optional&lt; NestedNextType &gt;, offset &gt; Struct Template Reference</title>
+<title>AzerothCore: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -79,7 +79,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('d1/d43/a07042.html','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('dc/df5/a07045.html','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -105,108 +105,58 @@ $(document).ready(function(){initNavTree('d1/d43/a07042.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="../../d9/d9d/a07039.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Impl::ChatCommands::MultiConsumer&lt; Tuple, Optional&lt; NestedNextType &gt;, offset &gt; Struct Template Reference</div></div>
+  <div class="headertitle"><div class="title">CalendarEvent Member List</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">ChatCommand.h</a>&quot;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a0e6df60e4195364958e85632e43b4ad0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/ddc/a07178.html">ChatCommandResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d43/a07042.html#a0e6df60e4195364958e85632e43b4ad0">TryConsumeTo</a> (Tuple &amp;tuple, <a class="el" href="../../dc/dfc/a07026.html">ChatHandler</a> const *handler, std::string_view args)</td></tr>
-<tr class="separator:a0e6df60e4195364958e85632e43b4ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename Tuple, typename NestedNextType, size_t offset&gt;<br />
-struct Acore::Impl::ChatCommands::MultiConsumer&lt; Tuple, Optional&lt; NestedNextType &gt;, offset &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0e6df60e4195364958e85632e43b4ad0" name="a0e6df60e4195364958e85632e43b4ad0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e6df60e4195364958e85632e43b4ad0">&#9670;&#160;</a></span>TryConsumeTo()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Tuple , typename NestedNextType , size_t offset&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="../../d9/ddc/a07178.html">ChatCommandResult</a> <a class="el" href="../../d8/d33/a07038.html">Acore::Impl::ChatCommands::MultiConsumer</a>&lt; Tuple, <a class="el" href="../../de/df8/a00440.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; NestedNextType &gt;, offset &gt;::TryConsumeTo </td>
-          <td>(</td>
-          <td class="paramtype">Tuple &amp;&#160;</td>
-          <td class="paramname"><em>tuple</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/dfc/a07026.html">ChatHandler</a> const *&#160;</td>
-          <td class="paramname"><em>handler</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   79</span>        {</div>
-<div class="line"><span class="lineno">   80</span>            <span class="comment">// try with the argument</span></div>
-<div class="line"><span class="lineno">   81</span>            <span class="keyword">auto</span>&amp; myArg = std::get&lt;offset&gt;(tuple);</div>
-<div class="line"><span class="lineno">   82</span>            myArg.emplace();</div>
-<div class="line"><span class="lineno">   83</span> </div>
-<div class="line"><span class="lineno">   84</span>            <a class="code hl_struct" href="../../d9/ddc/a07178.html">ChatCommandResult</a> result1 = ArgInfo&lt;NestedNextType&gt;::TryConsume(myArg.value(), handler, args);</div>
-<div class="line"><span class="lineno">   85</span>            <span class="keywordflow">if</span> (result1)</div>
-<div class="line"><span class="lineno">   86</span>                <span class="keywordflow">if</span> ((result1 = ConsumeFromOffset&lt;Tuple, offset + 1&gt;(tuple, handler, *result1)))</div>
-<div class="line"><span class="lineno">   87</span>                    <span class="keywordflow">return</span> result1;</div>
-<div class="line"><span class="lineno">   88</span>            <span class="comment">// try again omitting the argument</span></div>
-<div class="line"><span class="lineno">   89</span>            myArg = std::nullopt;</div>
-<div class="line"><span class="lineno">   90</span>            <a class="code hl_struct" href="../../d9/ddc/a07178.html">ChatCommandResult</a> result2 = ConsumeFromOffset&lt;Tuple, offset + 1&gt;(tuple, handler, args);</div>
-<div class="line"><span class="lineno">   91</span>            <span class="keywordflow">if</span> (result2)</div>
-<div class="line"><span class="lineno">   92</span>                <span class="keywordflow">return</span> result2;</div>
-<div class="line"><span class="lineno">   93</span>            <span class="keywordflow">if</span> (result1.<a class="code hl_function" href="../../d9/ddc/a07178.html#a74f331d2e68ddf7cefc14b4c47369311">HasErrorMessage</a>() &amp;&amp; result2.<a class="code hl_function" href="../../d9/ddc/a07178.html#a74f331d2e68ddf7cefc14b4c47369311">HasErrorMessage</a>())</div>
-<div class="line"><span class="lineno">   94</span>            {</div>
-<div class="line"><span class="lineno">   95</span>                <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/d22/a04473.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a>(<span class="stringliteral">&quot;{} \&quot;{}\&quot;\n{} \&quot;{}\&quot;&quot;</span>,</div>
-<div class="line"><span class="lineno">   96</span>                    <a class="code hl_function" href="../../d1/def/a04512.html#a671c2d8ee25e88cc8f58246b1486f1de">GetAcoreString</a>(handler, <a class="code hl_enumvalue" href="../../d0/dc0/a01652.html#af9ee42b1cf006ecb2d2e74fe71c0761aa54ac08e38be856a546cd499ea59b4526">LANG_CMDPARSER_EITHER</a>), result2.<a class="code hl_function" href="../../d9/ddc/a07178.html#abb0aa9f55f86ab7d54b7b3a894dcd237">GetErrorMessage</a>(),</div>
-<div class="line"><span class="lineno">   97</span>                    <a class="code hl_function" href="../../d1/def/a04512.html#a671c2d8ee25e88cc8f58246b1486f1de">GetAcoreString</a>(handler, <a class="code hl_enumvalue" href="../../d0/dc0/a01652.html#af9ee42b1cf006ecb2d2e74fe71c0761aa757011eedeaae34319204ed6c68cfd06">LANG_CMDPARSER_OR</a>), result1.<a class="code hl_function" href="../../d9/ddc/a07178.html#abb0aa9f55f86ab7d54b7b3a894dcd237">GetErrorMessage</a>());</div>
-<div class="line"><span class="lineno">   98</span>            }</div>
-<div class="line"><span class="lineno">   99</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (result1.<a class="code hl_function" href="../../d9/ddc/a07178.html#a74f331d2e68ddf7cefc14b4c47369311">HasErrorMessage</a>())</div>
-<div class="line"><span class="lineno">  100</span>                <span class="keywordflow">return</span> result1;</div>
-<div class="line"><span class="lineno">  101</span>            <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  102</span>                <span class="keywordflow">return</span> result2;</div>
-<div class="line"><span class="lineno">  103</span>        }</div>
-<div class="ttc" id="aa01652_html_af9ee42b1cf006ecb2d2e74fe71c0761aa54ac08e38be856a546cd499ea59b4526"><div class="ttname"><a href="../../d0/dc0/a01652.html#af9ee42b1cf006ecb2d2e74fe71c0761aa54ac08e38be856a546cd499ea59b4526">LANG_CMDPARSER_EITHER</a></div><div class="ttdeci">@ LANG_CMDPARSER_EITHER</div><div class="ttdef"><b>Definition:</b> Language.h:1000</div></div>
-<div class="ttc" id="aa01652_html_af9ee42b1cf006ecb2d2e74fe71c0761aa757011eedeaae34319204ed6c68cfd06"><div class="ttname"><a href="../../d0/dc0/a01652.html#af9ee42b1cf006ecb2d2e74fe71c0761aa757011eedeaae34319204ed6c68cfd06">LANG_CMDPARSER_OR</a></div><div class="ttdeci">@ LANG_CMDPARSER_OR</div><div class="ttdef"><b>Definition:</b> Language.h:1001</div></div>
-<div class="ttc" id="aa04473_html_a07b6432e111b17b737269191d9557f20"><div class="ttname"><a href="../../d2/d22/a04473.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a></div><div class="ttdeci">std::string StringFormatFmt(std::string_view fmt, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> StringFormat.h:44</div></div>
-<div class="ttc" id="aa04512_html_a671c2d8ee25e88cc8f58246b1486f1de"><div class="ttname"><a href="../../d1/def/a04512.html#a671c2d8ee25e88cc8f58246b1486f1de">Acore::Impl::ChatCommands::GetAcoreString</a></div><div class="ttdeci">AC_GAME_API char const * GetAcoreString(ChatHandler const *handler, AcoreStrings which)</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.cpp:28</div></div>
-<div class="ttc" id="aa07178_html"><div class="ttname"><a href="../../d9/ddc/a07178.html">Acore::Impl::ChatCommands::ChatCommandResult</a></div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:101</div></div>
-<div class="ttc" id="aa07178_html_a74f331d2e68ddf7cefc14b4c47369311"><div class="ttname"><a href="../../d9/ddc/a07178.html#a74f331d2e68ddf7cefc14b4c47369311">Acore::Impl::ChatCommands::ChatCommandResult::HasErrorMessage</a></div><div class="ttdeci">bool HasErrorMessage() const</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:116</div></div>
-<div class="ttc" id="aa07178_html_abb0aa9f55f86ab7d54b7b3a894dcd237"><div class="ttname"><a href="../../d9/ddc/a07178.html#abb0aa9f55f86ab7d54b7b3a894dcd237">Acore::Impl::ChatCommands::ChatCommandResult::GetErrorMessage</a></div><div class="ttdeci">std::string const &amp; GetErrorMessage() const</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:117</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00028">Acore::Impl::ChatCommands::GetAcoreString()</a>, <a class="el" href="../../#l00117">Acore::Impl::ChatCommands::ChatCommandResult::GetErrorMessage()</a>, <a class="el" href="../../#l00116">Acore::Impl::ChatCommands::ChatCommandResult::HasErrorMessage()</a>, <a class="el" href="../../#l01000">LANG_CMDPARSER_EITHER</a>, <a class="el" href="../../#l01001">LANG_CMDPARSER_OR</a>, and <a class="el" href="../../#l00044">Acore::StringFormatFmt()</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a013a8dbbc2059c35ac7482c59802c334">_creatorGUID</a></td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a37852d77353b86569274368bd6d01076">_description</a></td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a53e35070a245c78af909d2c463792823">_dungeonId</a></td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a00984cdf7353d8e7236da4956eea2976">_eventId</a></td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a7645e983f30557294542e7595eeb4117">_eventTime</a></td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#aa10c3956af3ba9ad7a7599e439e386a5">_flags</a></td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a849efebab349382a1f21b2ec209c2fad">_guildId</a></td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#afb7cefb70b12adb0dee2d67535c9f751">_timezoneTime</a></td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a7b3da974292eea515f91a136ce374ce2">_title</a></td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a3bb48f86b613d9bdcd3011b51a13cfbf">_type</a></td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#ad181c3acd9f5d2537e6de717e3069001">BuildCalendarMailBody</a>() const</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a0fce8ef7d6c645c0e25ab4f8167c9dfc">BuildCalendarMailSubject</a>(ObjectGuid remover) const</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a15ff1b83018d11f0a57ee7f0be45f35e">CalendarEvent</a>(CalendarEvent const &amp;calendarEvent, uint64 eventId)</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#af17038b1fe328a29e649b56e16e5d839">CalendarEvent</a>(uint64 eventId, ObjectGuid creatorGUID, uint32 guildId, CalendarEventType type, int32 dungeonId, time_t eventTime, uint32 flags, time_t timezoneTime, std::string title, std::string description)</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#ad8112a5e8a1a4d50bf01ae5b341b4b0b">CalendarEvent</a>()</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a1e9299779adc7abf42a01eb1c403aa16">GetCreatorGUID</a>() const</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#ae15c35f26ccf8eaaa658dfe31045551d">GetDescription</a>() const</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#aca67561141854ee8d9ac11258dec92c5">GetDungeonId</a>() const</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a712890e4823f1e456493c386389839a0">GetEventId</a>() const</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#addb78b7996e091a9b234c45ac7e1635c">GetEventTime</a>() const</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#af76662460d51a8e29fa5274d03e70c49">GetFlags</a>() const</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#adc569b53aeb4d9892f025aa40e58750f">GetGuildId</a>() const</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a9375a18807867d56ab42c6f01c47b2d1">GetTimeZoneTime</a>() const</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#acd5bdd13096df09cf46824601f6c4402">GetTitle</a>() const</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a2b6f03aef3325c186d713ce5b61e55a5">GetType</a>() const</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a10b124299312e8295b6fa870b5ddbced">IsGuildAnnouncement</a>() const</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#ae2ad380a63bd2a0c854a236c929875f9">IsGuildAnnouncement</a>(uint32 flags)</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a61bf9eeeb5a3bc3b03a775d30e33d654">IsGuildEvent</a>() const</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#adaa40ae2ebbe9b50b1b2370d3b40d91c">IsGuildEvent</a>(uint32 flags)</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a675e81ccb93620db0d6fb808a8621fdf">SetCreatorGUID</a>(ObjectGuid guid)</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a62527e79e56cb81c5d1f699b742459c4">SetDescription</a>(const std::string &amp;description)</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#abbf9d3e9a984bc2a666f39d26e2b0b18">SetDungeonId</a>(int32 dungeonId)</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a661d540d65ee8afd10f348a1029bc48b">SetEventId</a>(uint64 eventId)</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a70f53e59d54ad4a71013d3000f797c5a">SetEventTime</a>(time_t eventTime)</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#afa3869d76998e4c83b48602850508e15">SetFlags</a>(uint32 flags)</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a28266831da31a256773a9f39c0e27897">SetGuildId</a>(uint32 guildId)</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a81549648acfe08ab4d69ca03151531be">SetTimeZoneTime</a>(time_t timezoneTime)</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a7071188f10921377652356a7cd0fe893">SetTitle</a>(const std::string &amp;title)</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#a7788d5d38b52fa2412289ac738e71618">SetType</a>(CalendarEventType type)</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/df5/a07045.html#acf06b49619c9ca1c27ee473ff295f848">~CalendarEvent</a>()</td><td class="entry"><a class="el" href="../../dc/df5/a07045.html">CalendarEvent</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d2/d22/a04473.html">Acore</a></li><li class="navelem"><a class="el" href="../../d0/d0c/a04484.html">Impl</a></li><li class="navelem"><a class="el" href="../../d1/def/a04512.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../d1/d43/a07042.html">MultiConsumer&lt; Tuple, Optional&lt; NestedNextType &gt;, offset &gt;</a></li>
-    <li class="footer">Generated on Wed May 17 2023 23:06:34 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Sun Aug 20 2023 00:19:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

@@ -1,0 +1,6 @@
+var a28101 =
+[
+    [ "HandleScript", "d9/d6c/a28101.html#ae81570045d4984ee5682a0333b1b142d", null ],
+    [ "PrepareSpellScript", "d9/d6c/a28101.html#acb074781e07961998362349a7616fc4e", null ],
+    [ "Register", "d9/d6c/a28101.html#aaf41593da5ebb1118ccb10a5d4d32b26", null ]
+];

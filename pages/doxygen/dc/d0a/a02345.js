@@ -1,8 +1,6 @@
 var a02345 =
 [
-    [ "misc_commandscript", "d8/dd9/a11110.html", "d8/dd9/a11110" ],
-    [ "AddSC_misc_commandscript", "dc/d0a/a02345.html#ac722d20c86b9502b7c4c8ae711cc3917", null ],
-    [ "GetLocalizeCreatureName", "dc/d0a/a02345.html#aaedbdfd3cae227b11684151f41e3b977", null ],
-    [ "SPELL_FREEZE", "dc/d0a/a02345.html#a181bdc61e4eb1d21db975ca0227cb086", null ],
-    [ "SPELL_STUCK", "dc/d0a/a02345.html#a1706df7feb0ef4f693c388033ace5fb7", null ]
+    [ "lfg_commandscript", "d8/dd8/a11149.html", "d8/dd8/a11149" ],
+    [ "AddSC_lfg_commandscript", "dc/d0a/a02345.html#a484938015a7f5ffa8f5b1d0e259d355b", null ],
+    [ "GetPlayerInfo", "dc/d0a/a02345.html#a1d2591add059e8c4daf04b9f706da765", null ]
 ];

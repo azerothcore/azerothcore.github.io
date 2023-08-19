@@ -1,0 +1,25 @@
+var a04905 =
+[
+    [ "Record", "d3/dc4/a04909.html", "d3/dc4/a04909" ],
+    [ "DBCFileLoader", "da/de1/a04905.html#a99ba418c63c49cf9a028626b8e282a01", null ],
+    [ "~DBCFileLoader", "da/de1/a04905.html#a2e8dd3e5d88b870ea01e0c8dbfa55acd", null ],
+    [ "DBCFileLoader", "da/de1/a04905.html#a2e75536e8df1449449b4b6fe5585074d", null ],
+    [ "AutoProduceData", "da/de1/a04905.html#af8810dd9cef9ed82036bbebb4c938521", null ],
+    [ "AutoProduceStrings", "da/de1/a04905.html#a12054e13d90636076ce04587aacf8ff6", null ],
+    [ "GetCols", "da/de1/a04905.html#a3c536a9333a06213a37c95087eaaf8e3", null ],
+    [ "GetFormatRecordSize", "da/de1/a04905.html#a990308cf88d2772db090c37a66e9f9e5", null ],
+    [ "GetNumRows", "da/de1/a04905.html#aeedb51dd9b316063a58a989b175d0bc5", null ],
+    [ "GetOffset", "da/de1/a04905.html#a6c1f7f320033a11faac87b56c716fdbf", null ],
+    [ "getRecord", "da/de1/a04905.html#a1ac587e715c69500f90032abf2e8fad6", null ],
+    [ "GetRowSize", "da/de1/a04905.html#af322bc9e92472463998ca8082c5da3d6", null ],
+    [ "IsLoaded", "da/de1/a04905.html#a28bf265dafc284e9edb55fc1ed261694", null ],
+    [ "Load", "da/de1/a04905.html#a32c6a04567395f66270858c5feb57f5f", null ],
+    [ "operator=", "da/de1/a04905.html#ac2b0f30fb125b8dae385ca8330d02e8b", null ],
+    [ "data", "da/de1/a04905.html#a137152d873bfa3cb2d3860fe6001f404", null ],
+    [ "fieldCount", "da/de1/a04905.html#a920472d71232fa759bce768fdca9a1c4", null ],
+    [ "fieldsOffset", "da/de1/a04905.html#a7aa68d259f6295df3029456bde143862", null ],
+    [ "recordCount", "da/de1/a04905.html#a1a17426b679598ee27363e897b40f2bf", null ],
+    [ "recordSize", "da/de1/a04905.html#ab4f28de7c57a6e25c715bb009ed5f701", null ],
+    [ "stringSize", "da/de1/a04905.html#a0761727ba38d899f337c733873742d69", null ],
+    [ "stringTable", "da/de1/a04905.html#a5961bf01316cc14a075c1b874000e8a2", null ]
+];

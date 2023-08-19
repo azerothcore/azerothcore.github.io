@@ -1,8 +1,7 @@
 var a00665 =
 [
-    [ "TransactionBase", "d0/d5e/a05570.html", "d0/d5e/a05570" ],
-    [ "Transaction< T >", "d0/d12/a05386.html", "d0/d12/a05386" ],
-    [ "TransactionTask", "d3/d27/a05574.html", "d3/d27/a05574" ],
-    [ "TransactionWithResultTask", "d4/de2/a05578.html", "d4/de2/a05578" ],
-    [ "TransactionCallback", "df/da8/a05582.html", "df/da8/a05582" ]
+    [ "FieldTypeToString", "da/d46/a00665.html#a9b1d39b7abfe176191c0ed27188ed310", null ],
+    [ "InitializeDatabaseFieldMetadata", "da/d46/a00665.html#a5e0e57902060d1fcd32688acb949b98e", null ],
+    [ "MysqlTypeToFieldType", "da/d46/a00665.html#a1a26932646b97d033efdf53078561a90", null ],
+    [ "SizeForType", "da/d46/a00665.html#ae077e892df09ce687a0a50be949ad69f", null ]
 ];

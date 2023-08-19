@@ -11,6 +11,6 @@ var dir_c606529abee686f44b65a2777767c446 =
     [ "Pet", "dir_ff1fc60aa0464e46be01116f0901446f.html", "dir_ff1fc60aa0464e46be01116f0901446f" ],
     [ "Spells", "dir_a5c81565c813a087452a284baefe3cb6.html", "dir_a5c81565c813a087452a284baefe3cb6" ],
     [ "World", "dir_0a0414616ece51a8570c4e36029d4e29.html", "dir_0a0414616ece51a8570c4e36029d4e29" ],
-    [ "ScriptLoader.h", "d1/dde/a04187.html", "d1/dde/a04187" ],
-    [ "ScriptPCH.h", "d0/dd2/a04190.html", null ]
+    [ "ScriptLoader.h", "da/db4/a04199.html", "da/db4/a04199" ],
+    [ "ScriptPCH.h", "d1/d8f/a04202.html", null ]
 ];

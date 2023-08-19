@@ -1,4 +1,5 @@
 var a02405 =
 [
-    [ "AddCustomScripts", "dd/d31/a02405.html#a068af514420f658f0c087bbb77628173", null ]
+    [ "titles_commandscript", "d3/daf/a11237.html", "d3/daf/a11237" ],
+    [ "AddSC_titles_commandscript", "dd/d31/a02405.html#abd13948cbed6e10bdbf797847a0f6839", null ]
 ];

@@ -1,16 +1,13 @@
 var a00809 =
 [
-    [ "SmartAI", "dc/d8f/a05938.html", "dc/d8f/a05938" ],
-    [ "SmartGameObjectAI", "df/de3/a05942.html", "df/de3/a05942" ],
-    [ "SmartEscortState", "dd/d7e/a00809.html#a0911043eb49fd7958a828a60e0537d54", [
-      [ "SMART_ESCORT_NONE", "dd/d7e/a00809.html#a0911043eb49fd7958a828a60e0537d54ad51ea013b009290e4eba7f3591d0e889", null ],
-      [ "SMART_ESCORT_ESCORTING", "dd/d7e/a00809.html#a0911043eb49fd7958a828a60e0537d54a0756668fef1eacc6101e9113e974cc19", null ],
-      [ "SMART_ESCORT_RETURNING", "dd/d7e/a00809.html#a0911043eb49fd7958a828a60e0537d54a404e4c2ac36fc3f87779560b58af7fe8", null ],
-      [ "SMART_ESCORT_PAUSED", "dd/d7e/a00809.html#a0911043eb49fd7958a828a60e0537d54a35650bf0f6f9a142acfb5b6e5cd194f7", null ]
-    ] ],
-    [ "SmartEscortVars", "dd/d7e/a00809.html#a598eb331d977fa893d589fe3e6cebfbf", [
-      [ "SMART_ESCORT_MAX_PLAYER_DIST", "dd/d7e/a00809.html#a598eb331d977fa893d589fe3e6cebfbfa43349fe96bf29348a87944e39bacfdba", null ],
-      [ "SMART_MAX_AID_DIST", "dd/d7e/a00809.html#a598eb331d977fa893d589fe3e6cebfbfa74a5b65862962dfdb4c72589d5191c3f", null ]
-    ] ],
-    [ "AddSC_SmartScripts", "dd/d7e/a00809.html#ab6012619ba76775b314475ec60f8c7d7", null ]
+    [ "FollowerAI", "d6/da4/a05949.html", "d6/da4/a05949" ],
+    [ "eFollowState", "dd/d7e/a00809.html#a1ec9c3a60a913ecbf16778626ccf0138", [
+      [ "STATE_FOLLOW_NONE", "dd/d7e/a00809.html#a1ec9c3a60a913ecbf16778626ccf0138a8d3724990b83869077eeef397588a9ae", null ],
+      [ "STATE_FOLLOW_INPROGRESS", "dd/d7e/a00809.html#a1ec9c3a60a913ecbf16778626ccf0138aa4c302e4ec6ca00eb8d737e1b43e9e0b", null ],
+      [ "STATE_FOLLOW_RETURNING", "dd/d7e/a00809.html#a1ec9c3a60a913ecbf16778626ccf0138abc2b0083c7efe88c6be3c67e20de2523", null ],
+      [ "STATE_FOLLOW_PAUSED", "dd/d7e/a00809.html#a1ec9c3a60a913ecbf16778626ccf0138ab64828a6eee48ed5f0060f66fef4dbe6", null ],
+      [ "STATE_FOLLOW_COMPLETE", "dd/d7e/a00809.html#a1ec9c3a60a913ecbf16778626ccf0138a73636e044fe9883bf259a17bc617e7c9", null ],
+      [ "STATE_FOLLOW_PREEVENT", "dd/d7e/a00809.html#a1ec9c3a60a913ecbf16778626ccf0138a5ed17b2670a724e36c47de32fa5e821b", null ],
+      [ "STATE_FOLLOW_POSTEVENT", "dd/d7e/a00809.html#a1ec9c3a60a913ecbf16778626ccf0138a77b50e5da22490d74b38dcebae6e6c6a", null ]
+    ] ]
 ];

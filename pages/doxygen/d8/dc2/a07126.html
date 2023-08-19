@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Impl::ChatCommands::ArgInfo&lt; std::array&lt; T, N &gt;, void &gt; Struct Template Reference</title>
+<title>AzerothCore: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -79,7 +79,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('d8/dc2/a07126.html','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d7/df3/a07129.html','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -105,82 +105,21 @@ $(document).ready(function(){initNavTree('d8/dc2/a07126.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="../../dc/d5e/a07123.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Impl::ChatCommands::ArgInfo&lt; std::array&lt; T, N &gt;, void &gt; Struct Template Reference</div></div>
+  <div class="headertitle"><div class="title">GameTeleVisitor Member List</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">ChatCommandArgs.h</a>&quot;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a295b0e3d45942de473b4f4872b594ebe"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/ddc/a07178.html">ChatCommandResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc2/a07126.html#a295b0e3d45942de473b4f4872b594ebe">TryConsume</a> (std::array&lt; T, N &gt; &amp;val, <a class="el" href="../../dc/dfc/a07026.html">ChatHandler</a> const *handler, std::string_view args)</td></tr>
-<tr class="separator:a295b0e3d45942de473b4f4872b594ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename T, size_t N&gt;<br />
-struct Acore::Impl::ChatCommands::ArgInfo&lt; std::array&lt; T, N &gt;, void &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a295b0e3d45942de473b4f4872b594ebe" name="a295b0e3d45942de473b4f4872b594ebe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a295b0e3d45942de473b4f4872b594ebe">&#9670;&#160;</a></span>TryConsume()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , size_t N&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="../../d9/ddc/a07178.html">ChatCommandResult</a> <a class="el" href="../../d5/d2f/a07094.html">Acore::Impl::ChatCommands::ArgInfo</a>&lt; std::array&lt; T, N &gt;, void &gt;::TryConsume </td>
-          <td>(</td>
-          <td class="paramtype">std::array&lt; T, N &gt; &amp;&#160;</td>
-          <td class="paramname"><em>val</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/dfc/a07026.html">ChatHandler</a> const *&#160;</td>
-          <td class="paramname"><em>handler</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  244</span>        {</div>
-<div class="line"><span class="lineno">  245</span>            <a class="code hl_struct" href="../../d9/ddc/a07178.html">ChatCommandResult</a> next = args;</div>
-<div class="line"><span class="lineno">  246</span>            <span class="keywordflow">for</span> (T&amp; t : val)</div>
-<div class="line"><span class="lineno">  247</span>                <span class="keywordflow">if</span> (!(next = ArgInfo&lt;T&gt;::TryConsume(t, handler, *next)))</div>
-<div class="line"><span class="lineno">  248</span>                    <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  249</span>            <span class="keywordflow">return</span> next;</div>
-<div class="line"><span class="lineno">  250</span>        }</div>
-<div class="ttc" id="aa07178_html"><div class="ttname"><a href="../../d9/ddc/a07178.html">Acore::Impl::ChatCommands::ChatCommandResult</a></div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:101</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d7/df3/a07129.html">GameTeleVisitor</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/df3/a07129.html#abeff0e73688ad4745201c5d817f7a442">operator()</a>(Hyperlink&lt; tele &gt; tele) const</td><td class="entry"><a class="el" href="../../d7/df3/a07129.html">GameTeleVisitor</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d7/df3/a07129.html#a8ee9220d4226b4dd028f3f9c438f34ba">operator()</a>(std::string_view tele) const</td><td class="entry"><a class="el" href="../../d7/df3/a07129.html">GameTeleVisitor</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/df3/a07129.html#adbfeb8f2823f763fdae25b87fbbdcfbf">value_type</a> typedef</td><td class="entry"><a class="el" href="../../d7/df3/a07129.html">GameTeleVisitor</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d2/d22/a04473.html">Acore</a></li><li class="navelem"><a class="el" href="../../d0/d0c/a04484.html">Impl</a></li><li class="navelem"><a class="el" href="../../d1/def/a04512.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../d8/dc2/a07126.html">ArgInfo&lt; std::array&lt; T, N &gt;, void &gt;</a></li>
-    <li class="footer">Generated on Wed May 17 2023 23:06:33 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Sun Aug 20 2023 00:19:46 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

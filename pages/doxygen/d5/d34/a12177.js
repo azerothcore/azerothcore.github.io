@@ -1,0 +1,26 @@
+var a12177 =
+[
+    [ "boss_shade_of_aran", "d5/d34/a12177.html#a581351036c7e09de447f065a4ef82e03", null ],
+    [ "CheckDamageDuringDrinking", "d5/d34/a12177.html#a9567647dd637ffb25a413e2f6f85fec7", null ],
+    [ "FlameWreathEffect", "d5/d34/a12177.html#af625482d809f3de291c6809161f7290a", null ],
+    [ "JustDied", "d5/d34/a12177.html#ac79c249652f1de37b0c7d31a86dd0e51", null ],
+    [ "JustEngagedWith", "d5/d34/a12177.html#a11a9b1a8a24b9bc9965d655a6f856ef0", null ],
+    [ "KilledUnit", "d5/d34/a12177.html#ad7470576e9dd08d5fc47259d8de943b2", null ],
+    [ "Reset", "d5/d34/a12177.html#a03def93f3e3f33d4f760e9f7c7c85d86", null ],
+    [ "SpellHit", "d5/d34/a12177.html#a72c24fdb6246c717d1e403d66886ab76", null ],
+    [ "TriggerArcaneCooldown", "d5/d34/a12177.html#aa20c7e6105599851f515cb1a902ec30a", null ],
+    [ "TriggerFireCooldown", "d5/d34/a12177.html#ab8027e0a093e6c10033018134ed0aac9", null ],
+    [ "TriggerFrostCooldown", "d5/d34/a12177.html#af3518d113d1db3a0c91288556dddc3b2", null ],
+    [ "UpdateAI", "d5/d34/a12177.html#ae80c5bc869136e2ce2c5b4f6cfdc6ea4", null ],
+    [ "_arcaneCooledDown", "d5/d34/a12177.html#aab7adafaba85b3f197bf2ac89b0edef8", null ],
+    [ "_currentHealth", "d5/d34/a12177.html#a0a869c71b4d8c337e500680c52ee0174", null ],
+    [ "_fireCooledDown", "d5/d34/a12177.html#aedc6dc442905a0a600dc06d4415f5dcf", null ],
+    [ "_frostCooledDown", "d5/d34/a12177.html#a2174ba27c642d40e90fac3dcb54199f7", null ],
+    [ "CurrentNormalSpell", "d5/d34/a12177.html#a9af878db5260b716cbb28a51d2867274", null ],
+    [ "Drinking", "d5/d34/a12177.html#a402dab222a3637d516f2945891753dfe", null ],
+    [ "drinkScheduler", "d5/d34/a12177.html#a988d118fb448e8ad13f541e84029fc00", null ],
+    [ "FlameWreathTarget", "d5/d34/a12177.html#a626c337f2c171ec044ee23e10ddb827d", null ],
+    [ "FWTargPosX", "d5/d34/a12177.html#ae031592464b361f4cb6c51cd09e1985b", null ],
+    [ "FWTargPosY", "d5/d34/a12177.html#a1a8b4e97644ff1d4e5ac6b459f425447", null ],
+    [ "LastSuperSpell", "d5/d34/a12177.html#ae4c27ec6ce9ad2487724b7de93fae640", null ]
+];

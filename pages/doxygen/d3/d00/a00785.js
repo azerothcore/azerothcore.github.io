@@ -1,17 +1,9 @@
 var a00785 =
 [
-    [ "SummonList", "db/d9c/a05894.html", "db/d9c/a05894" ],
-    [ "EntryCheckPredicate", "d2/ddb/a05898.html", "d2/ddb/a05898" ],
-    [ "PlayerOrPetCheck", "d7/de6/a05902.html", "d7/de6/a05902" ],
-    [ "ScriptedAI", "d0/dba/a05906.html", "d0/dba/a05906" ],
-    [ "HealthCheckEventData", "d7/d6f/a05910.html", "d7/d6f/a05910" ],
-    [ "BossAI", "de/dec/a05914.html", "de/dec/a05914" ],
-    [ "WorldBossAI", "d5/d90/a05918.html", "d5/d90/a05918" ],
-    [ "CAST_AI", "d3/d00/a00785.html#a0476b18cfebeb691aabb4344ec4f8af3", null ],
-    [ "ObjectList", "d3/d00/a00785.html#acc68161fe019b33e9356ea1473fba71d", null ],
-    [ "GetClosestCreatureWithEntry", "d3/d00/a00785.html#a9ffd6f6c01576a8d3369c3a4f6dbaa0b", null ],
-    [ "GetClosestGameObjectWithEntry", "d3/d00/a00785.html#acaba34b4ac104e5289c265c1f8524b15", null ],
-    [ "GetCreatureListWithEntryInGrid", "d3/d00/a00785.html#ab6a8246d473139627106be4651f6329d", null ],
-    [ "GetDeadCreatureListInGrid", "d3/d00/a00785.html#a4a92c9585e18b56cdbe0d0c0976de7d1", null ],
-    [ "GetGameObjectListWithEntryInGrid", "d3/d00/a00785.html#ae9abb80c4e811509bca88e65cf817276", null ]
+    [ "FactorySelector::PermissibleOrderPred< T >", "dd/d35/a05897.html", "dd/d35/a05897" ],
+    [ "GetPermitFor", "d3/d00/a00785.html#aaf9c138ae6c123d03859db553a39892d", null ],
+    [ "SelectAI", "d3/d00/a00785.html#a10fef1ff3335f4642179ee423b1ff0d6", null ],
+    [ "SelectFactory", "d3/d00/a00785.html#ad553c2186f078e696768d40d217738f8", null ],
+    [ "SelectGameObjectAI", "d3/d00/a00785.html#a2ce404e9b85f551638d8783c01a19860", null ],
+    [ "SelectMovementGenerator", "d3/d00/a00785.html#a203d17bf72c42c0d3fdb77626b01b679", null ]
 ];

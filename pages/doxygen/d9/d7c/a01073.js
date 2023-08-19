@@ -1,13 +1,10 @@
 var a01073 =
 [
-    [ "DisableMgr::anonymous_namespace{DisableMgr.cpp}::DisableData", "db/d6b/a07386.html", "db/d6b/a07386" ],
-    [ "DisableMap", "d9/d7c/a01073.html#a2b8dd8b0bc5f58e812c1bd969ee833d6", null ],
-    [ "DisableTypeMap", "d9/d7c/a01073.html#a1dc7ac8fd11c81da83700d364483165a", null ],
-    [ "CheckQuestDisables", "d9/d7c/a01073.html#a2f9fa5dadf6f2da5f01651d37d996377", null ],
-    [ "IsDisabledFor", "d9/d7c/a01073.html#a6673bbc719c96febfc86a4220a988ed0", null ],
-    [ "IsPathfindingEnabled", "d9/d7c/a01073.html#ad6a338e6f295d785a4f9256703ffbd71", null ],
-    [ "IsVMAPDisabledFor", "d9/d7c/a01073.html#a38b182e1836b2197303b2809006f5148", null ],
-    [ "LoadDisables", "d9/d7c/a01073.html#adb464165caf6cd436499fa84969eeaf8", null ],
-    [ "m_DisableMap", "d9/d7c/a01073.html#a15af74f7cffff305a48d31529df515e7", null ],
-    [ "MAX_DISABLE_TYPES", "d9/d7c/a01073.html#a55c2ff1d7d10ed3d5f30071472d692fb", null ]
+    [ "ThreatCalcHelper", "d6/d00/a07389.html", "d6/d00/a07389" ],
+    [ "HostileReference", "d6/dd7/a07393.html", "d6/dd7/a07393" ],
+    [ "ThreatContainer", "d6/da8/a07397.html", "d6/da8/a07397" ],
+    [ "ThreatMgr", "d4/dd6/a07401.html", "d4/dd6/a07401" ],
+    [ "Acore::ThreatOrderPred", "d0/d3b/a07405.html", "d0/d3b/a07405" ],
+    [ "THREAT_UPDATE_INTERVAL", "d9/d7c/a01073.html#a7173807ed06286e3a91f0497a3588f6b", null ],
+    [ "ThreatReference", "d9/d7c/a01073.html#a62695703be4c945be07f18d2fe6a9a18", null ]
 ];

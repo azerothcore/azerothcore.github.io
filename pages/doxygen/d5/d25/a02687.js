@@ -1,6 +1,5 @@
 var a02687 =
 [
-    [ "DataHeader", "d5/d25/a02687.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "ScarletMonasteryScriptName", "d5/d25/a02687.html#ac64beb71a88e1265849782b79406b585", null ],
-    [ "GetScarletMonasteryAI", "d5/d25/a02687.html#aecdcabc87b1cc31996b702fd11416f35", null ]
+    [ "spell_q12779_an_end_to_all_things", "df/d14/a12561.html", "df/d14/a12561" ],
+    [ "AddSC_the_scarlet_enclave_c3", "d5/d25/a02687.html#add963c2bc2b515348b9b7c636d176927", null ]
 ];

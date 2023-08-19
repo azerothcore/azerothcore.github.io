@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Member List</title>
+<title>AzerothCore: std::hash&lt; ObjectGuid &gt; Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -79,7 +79,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('d9/dff/a07988.html','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d5/deb/a07985.html','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -105,23 +105,60 @@ $(document).ready(function(){initNavTree('d9/dff/a07988.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">PlayerTalent Member List</div></div>
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../dc/da9/a07982.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">std::hash&lt; ObjectGuid &gt; Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d9/dff/a07988.html">PlayerTalent</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/dff/a07988.html#a650926fa9d1bbab336ee7ed3dd0b0b7d">inSpellBook</a></td><td class="entry"><a class="el" href="../../d9/dff/a07988.html">PlayerTalent</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d9/dff/a07988.html#a77968b5562467f85bda04b6f2f41ca29">IsInSpec</a>(uint8 spec)</td><td class="entry"><a class="el" href="../../d9/dff/a07988.html">PlayerTalent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/dff/a07988.html#acc1913a90ca2bd23298d3590843cfbd5">specMask</a></td><td class="entry"><a class="el" href="../../d9/dff/a07988.html">PlayerTalent</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d9/dff/a07988.html#a062758af7e92f7e2263ca0a0fd329151">State</a></td><td class="entry"><a class="el" href="../../d9/dff/a07988.html">PlayerTalent</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/dff/a07988.html#aca9b191361652002f5178179a939e41b">talentID</a></td><td class="entry"><a class="el" href="../../d9/dff/a07988.html">PlayerTalent</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<p><code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:af4f4d77368d6463f60f0862dab31ca5c"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/deb/a07985.html#af4f4d77368d6463f60f0862dab31ca5c">operator()</a> (<a class="el" href="../../da/d3b/a07969.html">ObjectGuid</a> const &amp;key) const</td></tr>
+<tr class="separator:af4f4d77368d6463f60f0862dab31ca5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="af4f4d77368d6463f60f0862dab31ca5c" name="af4f4d77368d6463f60f0862dab31ca5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4f4d77368d6463f60f0862dab31ca5c">&#9670;&#160;</a></span>operator()()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t std::hash&lt; <a class="el" href="../../da/d3b/a07969.html">ObjectGuid</a> &gt;::operator() </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/d3b/a07969.html">ObjectGuid</a> const &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  327</span>            {</div>
+<div class="line"><span class="lineno">  328</span>                <span class="keywordflow">return</span> std::hash&lt;uint64&gt;()(key.GetRawValue());</div>
+<div class="line"><span class="lineno">  329</span>            }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00144">ObjectGuid::GetRawValue()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Mar 17 2023 04:05:17 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../da/d9b/a04531.html">std</a></li><li class="navelem"><a class="el" href="../../d5/deb/a07985.html">hash&lt; ObjectGuid &gt;</a></li>
+    <li class="footer">Generated on Sun Aug 20 2023 00:21:23 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

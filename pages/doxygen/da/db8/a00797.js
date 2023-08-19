@@ -1,13 +1,17 @@
 var a00797 =
 [
-    [ "FollowerAI", "d8/d5e/a05930.html", "d8/d5e/a05930" ],
-    [ "eFollowState", "da/db8/a00797.html#a1ec9c3a60a913ecbf16778626ccf0138", [
-      [ "STATE_FOLLOW_NONE", "da/db8/a00797.html#a1ec9c3a60a913ecbf16778626ccf0138a8d3724990b83869077eeef397588a9ae", null ],
-      [ "STATE_FOLLOW_INPROGRESS", "da/db8/a00797.html#a1ec9c3a60a913ecbf16778626ccf0138aa4c302e4ec6ca00eb8d737e1b43e9e0b", null ],
-      [ "STATE_FOLLOW_RETURNING", "da/db8/a00797.html#a1ec9c3a60a913ecbf16778626ccf0138abc2b0083c7efe88c6be3c67e20de2523", null ],
-      [ "STATE_FOLLOW_PAUSED", "da/db8/a00797.html#a1ec9c3a60a913ecbf16778626ccf0138ab64828a6eee48ed5f0060f66fef4dbe6", null ],
-      [ "STATE_FOLLOW_COMPLETE", "da/db8/a00797.html#a1ec9c3a60a913ecbf16778626ccf0138a73636e044fe9883bf259a17bc617e7c9", null ],
-      [ "STATE_FOLLOW_PREEVENT", "da/db8/a00797.html#a1ec9c3a60a913ecbf16778626ccf0138a5ed17b2670a724e36c47de32fa5e821b", null ],
-      [ "STATE_FOLLOW_POSTEVENT", "da/db8/a00797.html#a1ec9c3a60a913ecbf16778626ccf0138a77b50e5da22490d74b38dcebae6e6c6a", null ]
-    ] ]
+    [ "SummonList", "dc/dec/a05913.html", "dc/dec/a05913" ],
+    [ "EntryCheckPredicate", "de/d82/a05917.html", "de/d82/a05917" ],
+    [ "PlayerOrPetCheck", "d8/d07/a05921.html", "d8/d07/a05921" ],
+    [ "ScriptedAI", "d6/d55/a05925.html", "d6/d55/a05925" ],
+    [ "HealthCheckEventData", "dd/da9/a05929.html", "dd/da9/a05929" ],
+    [ "BossAI", "da/dca/a05933.html", "da/dca/a05933" ],
+    [ "WorldBossAI", "d9/d67/a05937.html", "d9/d67/a05937" ],
+    [ "CAST_AI", "da/db8/a00797.html#a0476b18cfebeb691aabb4344ec4f8af3", null ],
+    [ "ObjectList", "da/db8/a00797.html#acc68161fe019b33e9356ea1473fba71d", null ],
+    [ "GetClosestCreatureWithEntry", "da/db8/a00797.html#a9ffd6f6c01576a8d3369c3a4f6dbaa0b", null ],
+    [ "GetClosestGameObjectWithEntry", "da/db8/a00797.html#acaba34b4ac104e5289c265c1f8524b15", null ],
+    [ "GetCreatureListWithEntryInGrid", "da/db8/a00797.html#ab6a8246d473139627106be4651f6329d", null ],
+    [ "GetDeadCreatureListInGrid", "da/db8/a00797.html#a4a92c9585e18b56cdbe0d0c0976de7d1", null ],
+    [ "GetGameObjectListWithEntryInGrid", "da/db8/a00797.html#ae9abb80c4e811509bca88e65cf817276", null ]
 ];

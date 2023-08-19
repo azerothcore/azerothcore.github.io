@@ -1,14 +1,47 @@
 var a03197 =
 [
-    [ "npc_cairne_bloodhoof", "d6/d09/a15794.html", "d6/d09/a15794" ],
-    [ "npc_cairne_bloodhoof::npc_cairne_bloodhoofAI", "d3/d8a/a15798.html", "d3/d8a/a15798" ],
-    [ "CairneBloodhoof", "dd/d61/a03197.html#a1d11da63be1309061cba3b5e10f2bbd9", [
-      [ "SPELL_BERSERKER_CHARGE", "dd/d61/a03197.html#a1d11da63be1309061cba3b5e10f2bbd9ae34e5e229d0caf06536a990d65605f66", null ],
-      [ "SPELL_CLEAVE", "dd/d61/a03197.html#a1d11da63be1309061cba3b5e10f2bbd9a0de0a536dbf18ec5c2e76cfee1d751eb", null ],
-      [ "SPELL_MORTAL_STRIKE", "dd/d61/a03197.html#a1d11da63be1309061cba3b5e10f2bbd9a7794ace87705e2898f8b60f1f5228110", null ],
-      [ "SPELL_THUNDERCLAP", "dd/d61/a03197.html#a1d11da63be1309061cba3b5e10f2bbd9a7f4e66bb0a1b5b2705975420f645b16e", null ],
-      [ "SPELL_UPPERCUT", "dd/d61/a03197.html#a1d11da63be1309061cba3b5e10f2bbd9aec5ad6f4170f697acf9499e4e06bb065", null ],
-      [ "SPELL_CAIRNES_HOOFPRINT", "dd/d61/a03197.html#a1d11da63be1309061cba3b5e10f2bbd9aa5dbce7c49b1794438bd8cfc874c7104", null ]
+    [ "npc_aquementas", "dc/d5c/a15625.html", "dc/d5c/a15625" ],
+    [ "npc_aquementas::npc_aquementasAI", "d7/d2a/a15629.html", "d7/d2a/a15629" ],
+    [ "npc_custodian_of_time", "d8/d44/a15633.html", "d8/d44/a15633" ],
+    [ "npc_custodian_of_time::npc_custodian_of_timeAI", "dc/d64/a15637.html", "dc/d64/a15637" ],
+    [ "npc_steward_of_time", "de/df0/a15641.html", "de/df0/a15641" ],
+    [ "npc_stone_watcher_of_norgannon", "db/d92/a15645.html", "db/d92/a15645" ],
+    [ "npc_tooga", "d4/d8d/a15649.html", "d4/d8d/a15649" ],
+    [ "npc_tooga::npc_toogaAI", "d0/d84/a15653.html", "d0/d84/a15653" ],
+    [ "Aquementas", "dd/d61/a03197.html#a664764efa00aaadfd6e4510fe26486d8", [
+      [ "AGGRO_YELL_AQUE", "dd/d61/a03197.html#a664764efa00aaadfd6e4510fe26486d8a704ce77b08e582a06d3e38b4714ff5e3", null ],
+      [ "SPELL_AQUA_JET", "dd/d61/a03197.html#a664764efa00aaadfd6e4510fe26486d8a4ee489332c793185c566210d9bf91269", null ],
+      [ "SPELL_FROST_SHOCK", "dd/d61/a03197.html#a664764efa00aaadfd6e4510fe26486d8a73b0724093ccf1b7960c55c236c1502c", null ]
     ] ],
-    [ "AddSC_thunder_bluff", "dd/d61/a03197.html#ae5d674fbd346082d81f6f6720eed1081", null ]
+    [ "CustodianOfTime", "dd/d61/a03197.html#a37701b2c74106cf0388b7bb342de1bf6", [
+      [ "WHISPER_CUSTODIAN_1", "dd/d61/a03197.html#a37701b2c74106cf0388b7bb342de1bf6a25d9b01e13803e0edc1678a64d7b2b0a", null ],
+      [ "WHISPER_CUSTODIAN_2", "dd/d61/a03197.html#a37701b2c74106cf0388b7bb342de1bf6a94972f2086da11a89348b01001f0f78b", null ],
+      [ "WHISPER_CUSTODIAN_3", "dd/d61/a03197.html#a37701b2c74106cf0388b7bb342de1bf6a06594b919a53dcb69dd5d8b1617a18d8", null ],
+      [ "WHISPER_CUSTODIAN_4", "dd/d61/a03197.html#a37701b2c74106cf0388b7bb342de1bf6a108cce45652b8a8986c6f7ec5026ffe5", null ],
+      [ "WHISPER_CUSTODIAN_5", "dd/d61/a03197.html#a37701b2c74106cf0388b7bb342de1bf6a196d6e1ffdf8de102970f8a54e399e12", null ],
+      [ "WHISPER_CUSTODIAN_6", "dd/d61/a03197.html#a37701b2c74106cf0388b7bb342de1bf6a530330eb596dc0e4c8549320e77f0707", null ],
+      [ "WHISPER_CUSTODIAN_7", "dd/d61/a03197.html#a37701b2c74106cf0388b7bb342de1bf6a4110ed2c02dfa60cdc563d53a24e5507", null ],
+      [ "WHISPER_CUSTODIAN_8", "dd/d61/a03197.html#a37701b2c74106cf0388b7bb342de1bf6ac502f63ee8f999f45e4599cb07f7c9fb", null ],
+      [ "WHISPER_CUSTODIAN_9", "dd/d61/a03197.html#a37701b2c74106cf0388b7bb342de1bf6ad0c4bfda8d7326ad9de433ef312d80fe", null ],
+      [ "WHISPER_CUSTODIAN_10", "dd/d61/a03197.html#a37701b2c74106cf0388b7bb342de1bf6a3e9024cc1ad59a04f50c4e5aa6108f0b", null ],
+      [ "WHISPER_CUSTODIAN_11", "dd/d61/a03197.html#a37701b2c74106cf0388b7bb342de1bf6a709706759bc4cad92916d8b1f070c1a5", null ],
+      [ "WHISPER_CUSTODIAN_12", "dd/d61/a03197.html#a37701b2c74106cf0388b7bb342de1bf6a25fc2c55641b1187b7c365330336f3eb", null ],
+      [ "WHISPER_CUSTODIAN_13", "dd/d61/a03197.html#a37701b2c74106cf0388b7bb342de1bf6aaeee6879311fff39df2258f56000ed46", null ],
+      [ "WHISPER_CUSTODIAN_14", "dd/d61/a03197.html#a37701b2c74106cf0388b7bb342de1bf6adb8c6e85b360e8f939f58c4d98c9ff5d", null ]
+    ] ],
+    [ "Tooga", "dd/d61/a03197.html#ae0596032f6a7ef3f5e96279535462629", [
+      [ "SAY_TOOG_WORRIED", "dd/d61/a03197.html#ae0596032f6a7ef3f5e96279535462629a9a83c37dc7eb5238cefd3bd723fe62e6", null ],
+      [ "SAY_TOOG_POST_1", "dd/d61/a03197.html#ae0596032f6a7ef3f5e96279535462629a4238ab12002edc45629b758df841bd73", null ],
+      [ "SAY_TORT_POST_2", "dd/d61/a03197.html#ae0596032f6a7ef3f5e96279535462629a5dfaa68e10085dafec6d4f97cb9cedfc", null ],
+      [ "SAY_TOOG_POST_3", "dd/d61/a03197.html#ae0596032f6a7ef3f5e96279535462629adafc2f58d5120a13bf01183d6feeaf9c", null ],
+      [ "SAY_TORT_POST_4", "dd/d61/a03197.html#ae0596032f6a7ef3f5e96279535462629a94e61a4f152705539aae94bb20ba457d", null ],
+      [ "SAY_TOOG_POST_5", "dd/d61/a03197.html#ae0596032f6a7ef3f5e96279535462629ae2f254cfc020d86b4bcf78e25bb09cf6", null ],
+      [ "SAY_TORT_POST_6", "dd/d61/a03197.html#ae0596032f6a7ef3f5e96279535462629a8774c87d4b15b03b2f521d3f8551f473", null ],
+      [ "QUEST_TOOGA", "dd/d61/a03197.html#ae0596032f6a7ef3f5e96279535462629aa7fd99bb32abd80385f2ce67dab6271c", null ],
+      [ "NPC_TORTA", "dd/d61/a03197.html#ae0596032f6a7ef3f5e96279535462629a19a2b5b25e017a5c600fd55148cad421", null ],
+      [ "POINT_ID_TO_WATER", "dd/d61/a03197.html#ae0596032f6a7ef3f5e96279535462629afa7d708cb04f36a055f8e17403d6ba98", null ],
+      [ "FACTION_TOOG_ESCORTEE", "dd/d61/a03197.html#ae0596032f6a7ef3f5e96279535462629a1fc13ca51d1cd9614d2f9af06e3c274e", null ]
+    ] ],
+    [ "AddSC_tanaris", "dd/d61/a03197.html#accb894d274ef2ad335966f8efb2265ae", null ],
+    [ "ToWaterLoc", "dd/d61/a03197.html#a637f2ece77285feff35a76f446e13296", null ]
 ];

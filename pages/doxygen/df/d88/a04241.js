@@ -1,72 +1,73 @@
 var a04241 =
 [
-    [ "AreaTrigger_at_voltarus_middle", "d6/de5/a28886.html", "d6/de5/a28886" ],
-    [ "AreaTrigger_at_coilfang_waterfall", "d1/df5/a28890.html", "d1/df5/a28890" ],
-    [ "AreaTrigger_at_legion_teleporter", "da/d6d/a28894.html", "da/d6d/a28894" ],
-    [ "AreaTrigger_at_stormwright_shelf", "da/dcf/a28898.html", "da/dcf/a28898" ],
-    [ "AreaTrigger_at_scent_larkorwi", "dc/d97/a28902.html", "dc/d97/a28902" ],
-    [ "AreaTrigger_at_last_rites", "d5/d99/a28906.html", "d5/d99/a28906" ],
-    [ "AreaTrigger_at_sholazar_waygate", "d4/de3/a28910.html", "d4/de3/a28910" ],
-    [ "AreaTrigger_at_nats_landing", "d0/de1/a28914.html", "d0/de1/a28914" ],
-    [ "AreaTrigger_at_sentry_point", "d7/d2b/a28918.html", "d7/d2b/a28918" ],
-    [ "AreaTrigger_at_brewfest", "db/d83/a28922.html", "db/d83/a28922" ],
-    [ "AreaTrigger_at_area_52_entrance", "dd/d77/a28926.html", "dd/d77/a28926" ],
-    [ "Area52Entrance", "df/d88/a04241.html#a7ef276a75040392ab3315082a3518c67", [
-      [ "SPELL_A52_NEURALYZER", "df/d88/a04241.html#a7ef276a75040392ab3315082a3518c67afa491a434774607e1e712c2f79ac322a", null ],
-      [ "NPC_SPOTLIGHT", "df/d88/a04241.html#a7ef276a75040392ab3315082a3518c67acded8211c601c5b237d60a58f65b56ac", null ],
-      [ "SUMMON_COOLDOWN", "df/d88/a04241.html#a7ef276a75040392ab3315082a3518c67aa4b7173ec61f2859f8649f0adcbb37d1", null ],
-      [ "AT_AREA_52_SOUTH", "df/d88/a04241.html#a7ef276a75040392ab3315082a3518c67ac9b6a7b98c7a4b2013ccd61f637851f9", null ],
-      [ "AT_AREA_52_NORTH", "df/d88/a04241.html#a7ef276a75040392ab3315082a3518c67a7eb1ed4b6c4f3ef99e5cdd9b1505a09e", null ],
-      [ "AT_AREA_52_WEST", "df/d88/a04241.html#a7ef276a75040392ab3315082a3518c67a69d8c4647a15efe238a70b1f049ff97f", null ],
-      [ "AT_AREA_52_EAST", "df/d88/a04241.html#a7ef276a75040392ab3315082a3518c67a3173f419da9cf80efa68ca3e99c10528", null ]
+    [ "spell_warl_eye_of_kilrogg", "dd/d25/a28505.html", "dd/d25/a28505" ],
+    [ "spell_warl_shadowflame", "dd/d84/a28509.html", "dd/d84/a28509" ],
+    [ "spell_warl_seduction", "db/d28/a28513.html", "db/d28/a28513" ],
+    [ "spell_warl_improved_demonic_tactics", "d2/db7/a28517.html", "d2/db7/a28517" ],
+    [ "spell_warl_ritual_of_summoning", "db/d06/a28521.html", "db/d06/a28521" ],
+    [ "spell_warl_demonic_aegis", "db/d4a/a28525.html", "db/d4a/a28525" ],
+    [ "spell_warl_demonic_knowledge", "d6/dc7/a28529.html", "d6/dc7/a28529" ],
+    [ "spell_warl_generic_scaling", "da/dd3/a28533.html", "da/dd3/a28533" ],
+    [ "spell_warl_infernal_scaling", "d0/ded/a28537.html", "d0/ded/a28537" ],
+    [ "spell_warl_banish", "d6/d16/a28541.html", "d6/d16/a28541" ],
+    [ "spell_warl_demonic_empowerment", "d9/d8e/a28545.html", "d9/d8e/a28545" ],
+    [ "spell_warl_create_healthstone", "d2/dd6/a28549.html", "d2/dd6/a28549" ],
+    [ "spell_warl_everlasting_affliction", "db/d36/a28553.html", "db/d36/a28553" ],
+    [ "spell_warl_ritual_of_doom_effect", "db/d53/a28557.html", "db/d53/a28557" ],
+    [ "spell_warl_seed_of_corruption", "da/dc3/a28561.html", "da/dc3/a28561" ],
+    [ "spell_warl_soulshatter", "d9/d01/a28565.html", "d9/d01/a28565" ],
+    [ "spell_warl_siphon_life", "d5/d5a/a28569.html", "d5/d5a/a28569" ],
+    [ "spell_warl_life_tap", "d4/d75/a28573.html", "d4/d75/a28573" ],
+    [ "spell_warl_demonic_circle_summon", "d4/d9b/a28577.html", "d4/d9b/a28577" ],
+    [ "spell_warl_demonic_circle_teleport", "db/da9/a28581.html", "db/da9/a28581" ],
+    [ "spell_warl_fel_synergy", "d8/dfa/a28585.html", "d8/dfa/a28585" ],
+    [ "spell_warl_haunt", "d9/dc2/a28589.html", "d9/dc2/a28589" ],
+    [ "spell_warl_haunt_aura", "d8/df4/a28593.html", "d8/df4/a28593" ],
+    [ "spell_warl_unstable_affliction", "df/d78/a28597.html", "df/d78/a28597" ],
+    [ "spell_warl_curse_of_doom", "d5/d35/a28601.html", "d5/d35/a28601" ],
+    [ "spell_warl_health_funnel", "d8/d89/a28605.html", "d8/d89/a28605" ],
+    [ "spell_warl_shadow_ward", "d5/d82/a28609.html", "d5/d82/a28609" ],
+    [ "spell_warl_glyph_of_shadowflame", "da/d92/a28613.html", "da/d92/a28613" ],
+    [ "spell_warl_drain_soul", "db/da2/a28617.html", "db/da2/a28617" ],
+    [ "spell_warl_shadowburn", "dc/d1c/a28621.html", "dc/d1c/a28621" ],
+    [ "spell_warl_glyph_of_felguard", "da/d71/a28625.html", "da/d71/a28625" ],
+    [ "WarlockSpellIcons", "df/d88/a04241.html#a93ac337fe309b60a0dfb634fc04f4246", [
+      [ "WARLOCK_ICON_ID_IMPROVED_LIFE_TAP", "df/d88/a04241.html#a93ac337fe309b60a0dfb634fc04f4246adea40db7f41c66b6468b60477e5469e6", null ],
+      [ "WARLOCK_ICON_ID_MANA_FEED", "df/d88/a04241.html#a93ac337fe309b60a0dfb634fc04f4246aa1df9e85fd9caa7e9a3eaca54c0f5494", null ]
     ] ],
-    [ "AtLastRites", "df/d88/a04241.html#aedd9d40d0b524b4a5da323938c6f1c99", [
-      [ "QUEST_LAST_RITES", "df/d88/a04241.html#aedd9d40d0b524b4a5da323938c6f1c99af622e93bef1f891f43c910aec65feef2", null ],
-      [ "QUEST_BREAKING_THROUGH", "df/d88/a04241.html#aedd9d40d0b524b4a5da323938c6f1c99a0d528966459def04c2372cb96fb03057", null ]
+    [ "WarlockSpells", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570", [
+      [ "SPELL_WARLOCK_DRAIN_SOUL_R1", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a78fa910e2b2e2eff87104f49d25ee588", null ],
+      [ "SPELL_WARLOCK_CREATE_SOULSHARD", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570aa4a25c3186114086798366d05ec22d84", null ],
+      [ "SPELL_WARLOCK_CURSE_OF_DOOM_EFFECT", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a1477d034e08642cf57ae06cfd4e86af8", null ],
+      [ "SPELL_WARLOCK_DEMONIC_CIRCLE_SUMMON", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a5552c8f20346e324ab9bf102651f8ac1", null ],
+      [ "SPELL_WARLOCK_DEMONIC_CIRCLE_TELEPORT", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a177e4014b31635578a8b6eb587abc3a4", null ],
+      [ "SPELL_WARLOCK_DEMONIC_CIRCLE_ALLOW_CAST", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570aa3eca9ef2979d1b58513dea6557fb559", null ],
+      [ "SPELL_WARLOCK_DEMONIC_EMPOWERMENT_SUCCUBUS", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a18f630e1bff91a62467c0b1063e98581", null ],
+      [ "SPELL_WARLOCK_DEMONIC_EMPOWERMENT_VOIDWALKER", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a98dc607d0afc02ef64ae52ddd3f7bd15", null ],
+      [ "SPELL_WARLOCK_DEMONIC_EMPOWERMENT_FELGUARD", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a6886dce2b5564b13a13b68b3550a6c33", null ],
+      [ "SPELL_WARLOCK_DEMONIC_EMPOWERMENT_FELHUNTER", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a8528eb99e358ca3ca225accf5260379c", null ],
+      [ "SPELL_WARLOCK_DEMONIC_EMPOWERMENT_IMP", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570ae85880434e6eca0282993c615ead7552", null ],
+      [ "SPELL_WARLOCK_FEL_SYNERGY_HEAL", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a852bbe5afb9c24a09130027889184463", null ],
+      [ "SPELL_WARLOCK_GLYPH_OF_DRAIN_SOUL_AURA", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a5e4832ebc537e970a0b9f47111a4c275", null ],
+      [ "SPELL_WARLOCK_GLYPH_OF_DRAIN_SOUL_PROC", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a5ad410639278f5cb878c43d335385df5", null ],
+      [ "SPELL_WARLOCK_GLYPH_OF_SHADOWFLAME", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570ac618ca1642e0d815aba85db04ce3d0cc", null ],
+      [ "SPELL_WARLOCK_GLYPH_OF_SIPHON_LIFE", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570ad93fdef2facd4fd7450d64a2554d45a6", null ],
+      [ "SPELL_WARLOCK_HAUNT", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a756d6d4b3616156a1782d5913a6ac6e2", null ],
+      [ "SPELL_WARLOCK_HAUNT_HEAL", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a1303cd92594e020d016c95437550db99", null ],
+      [ "SPELL_WARLOCK_IMPROVED_HEALTHSTONE_R1", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570acde138e1f674d1e33c52f9344118dc21", null ],
+      [ "SPELL_WARLOCK_IMPROVED_HEALTHSTONE_R2", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570aebfbd8d130fbd9189f33869fa00c80be", null ],
+      [ "SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_R1", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a61d392109f1764cb4f00429514bf7526", null ],
+      [ "SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_R2", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570af7a9a877ac9116db61ec310ae310c87a", null ],
+      [ "SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_BUFF_R1", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570af914cb62745580fca35088f980b2759d", null ],
+      [ "SPELL_WARLOCK_IMPROVED_HEALTH_FUNNEL_BUFF_R2", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a193210329f50992d7c79b8960eead40e", null ],
+      [ "SPELL_WARLOCK_LIFE_TAP_ENERGIZE", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a978b2166bda777834fd52fc0ef313098", null ],
+      [ "SPELL_WARLOCK_LIFE_TAP_ENERGIZE_2", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a666925ba35a627b7fcacfd418f07b5b9", null ],
+      [ "SPELL_WARLOCK_SOULSHATTER", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570af475dcd791391d00772aba22b47140a6", null ],
+      [ "SPELL_WARLOCK_SIPHON_LIFE_HEAL", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a20df89f9cb70ec0066cf66eb45d2f1fc", null ],
+      [ "SPELL_WARLOCK_UNSTABLE_AFFLICTION_DISPEL", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570ad95ba7ba12fda07f5930c7c223c14f90", null ],
+      [ "SPELL_WARLOCK_IMPROVED_DRAIN_SOUL_R1", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a4415ada95e780d292c29d0fdcf85724f", null ],
+      [ "SPELL_WARLOCK_IMPROVED_DRAIN_SOUL_PROC", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a87bf6201754bce1b5e511fe9efc6ad56", null ],
+      [ "SPELL_WARLOCK_EYE_OF_KILROGG_FLY", "df/d88/a04241.html#a4245c2f90407b49fba1c8eb66fd58570a643aee1b4ebb09794fb9ae199f48c7f8", null ]
     ] ],
-    [ "Brewfest", "df/d88/a04241.html#a9b234b18092b711f6f11cda755fe0bfd", [
-      [ "NPC_TAPPER_SWINDLEKEG", "df/d88/a04241.html#a9b234b18092b711f6f11cda755fe0bfda91dfef2ce070232ed51a69d9c6399130", null ],
-      [ "NPC_IPFELKOFER_IRONKEG", "df/d88/a04241.html#a9b234b18092b711f6f11cda755fe0bfda39440d09522df095e726cb1da7ab817e", null ],
-      [ "AT_BREWFEST_DUROTAR", "df/d88/a04241.html#a9b234b18092b711f6f11cda755fe0bfda6dbf4e730fdb44d7ceb232e60cee3091", null ],
-      [ "AT_BREWFEST_DUN_MOROGH", "df/d88/a04241.html#a9b234b18092b711f6f11cda755fe0bfda91d9e35e7360f1d853d2f54f54548c61", null ],
-      [ "SAY_WELCOME", "df/d88/a04241.html#a9b234b18092b711f6f11cda755fe0bfda53e43b5d6a57facfdbe1b6559295a32f", null ],
-      [ "AREATRIGGER_TALK_COOLDOWN", "df/d88/a04241.html#a9b234b18092b711f6f11cda755fe0bfda7105e5d2474e31860a9bc9f5075c31e4", null ]
-    ] ],
-    [ "CoilfangGOs", "df/d88/a04241.html#a9670aee8aef02c60b84d4c3d11c963b5", [
-      [ "GO_COILFANG_WATERFALL", "df/d88/a04241.html#a9670aee8aef02c60b84d4c3d11c963b5a30520dfb9388b8cc7b4cbc9b3420d65d", null ]
-    ] ],
-    [ "LegionTeleporter", "df/d88/a04241.html#ad9a6ea877cb24dbb530ccf0e03cb7012", [
-      [ "SPELL_TELE_A_TO", "df/d88/a04241.html#ad9a6ea877cb24dbb530ccf0e03cb7012a09569d3491e5bf73c2d9e897077cd162", null ],
-      [ "QUEST_GAINING_ACCESS_A", "df/d88/a04241.html#ad9a6ea877cb24dbb530ccf0e03cb7012a1746dcba888866f4914d5fa112323879", null ],
-      [ "SPELL_TELE_H_TO", "df/d88/a04241.html#ad9a6ea877cb24dbb530ccf0e03cb7012a0373689ced7bf6fcd5453719eff7dff9", null ],
-      [ "QUEST_GAINING_ACCESS_H", "df/d88/a04241.html#ad9a6ea877cb24dbb530ccf0e03cb7012a90bff047b5c92fa8418685d95440c5ea", null ]
-    ] ],
-    [ "NatsLanding", "df/d88/a04241.html#a5ee4c50b08414290f73ada43c1c71151", [
-      [ "QUEST_NATS_BARGAIN", "df/d88/a04241.html#a5ee4c50b08414290f73ada43c1c71151aeff02bfb540090dbb759b896b3b3627e", null ],
-      [ "SPELL_FISH_PASTE", "df/d88/a04241.html#a5ee4c50b08414290f73ada43c1c71151a84c85ea415f324f0acec6a0e8d8eb8a6", null ],
-      [ "NPC_LURKING_SHARK", "df/d88/a04241.html#a5ee4c50b08414290f73ada43c1c71151af67d7adb069812fe8e3d79aff3f18900", null ]
-    ] ],
-    [ "ScentLarkorwi", "df/d88/a04241.html#a743ca0b810fe5b376233e725f346d416", [
-      [ "QUEST_SCENT_OF_LARKORWI", "df/d88/a04241.html#a743ca0b810fe5b376233e725f346d416a105afbe1f1e3510efdd8ef9fbfe153ee", null ],
-      [ "NPC_LARKORWI_MATE", "df/d88/a04241.html#a743ca0b810fe5b376233e725f346d416adb746f23675f0b248d264a0557ceff5d", null ]
-    ] ],
-    [ "SentryPoint", "df/d88/a04241.html#a24ef89c28423d02750eff95a35b3a275", [
-      [ "SPELL_TELEPORT_VISUAL", "df/d88/a04241.html#a24ef89c28423d02750eff95a35b3a275a73cc106ecf58fcd3a75fa23f9ff7a21c", null ],
-      [ "QUEST_MISSING_DIPLO_PT14", "df/d88/a04241.html#a24ef89c28423d02750eff95a35b3a275a378a874d36260f01327d51d537b33d94", null ],
-      [ "NPC_TERVOSH", "df/d88/a04241.html#a24ef89c28423d02750eff95a35b3a275a0ef56679b82214bad2e052fb8e979c50", null ]
-    ] ],
-    [ "StormwrightShelf", "df/d88/a04241.html#abdd676bd524ed3ea6915b8b1348861dd", [
-      [ "QUEST_STRENGTH_OF_THE_TEMPEST", "df/d88/a04241.html#abdd676bd524ed3ea6915b8b1348861ddae6b91cb73e581fe9558469357a90ec24", null ],
-      [ "SPELL_CREATE_TRUE_POWER_OF_THE_TEMPEST", "df/d88/a04241.html#abdd676bd524ed3ea6915b8b1348861dda55079b9b218f67c0dcae1b7da0dcb277", null ]
-    ] ],
-    [ "Waygate", "df/d88/a04241.html#a2236193178ebaf53d5af62fbf3b76abb", [
-      [ "SPELL_SHOLAZAR_TO_UNGORO_TELEPORT", "df/d88/a04241.html#a2236193178ebaf53d5af62fbf3b76abba8afff48aa5a082d0085f569d43978761", null ],
-      [ "SPELL_UNGORO_TO_SHOLAZAR_TELEPORT", "df/d88/a04241.html#a2236193178ebaf53d5af62fbf3b76abba586711e1e31861a14968d73cbd9041d5", null ],
-      [ "AT_SHOLAZAR", "df/d88/a04241.html#a2236193178ebaf53d5af62fbf3b76abbaf1a146475aa02d59501e15498b0fe668", null ],
-      [ "AT_UNGORO", "df/d88/a04241.html#a2236193178ebaf53d5af62fbf3b76abba7bcd65f5a22bfd6eca72a25d10dfe4d9", null ],
-      [ "QUEST_THE_MAKERS_OVERLOOK", "df/d88/a04241.html#a2236193178ebaf53d5af62fbf3b76abba3bd1ed7bbbb657ff9ae6ea1a1ff6b5ab", null ],
-      [ "QUEST_THE_MAKERS_PERCH", "df/d88/a04241.html#a2236193178ebaf53d5af62fbf3b76abba72261b6dd71d75e850c792ca3b2aeb3b", null ],
-      [ "QUEST_MEETING_A_GREAT_ONE", "df/d88/a04241.html#a2236193178ebaf53d5af62fbf3b76abba20eb419c91228944788d69c97b33380d", null ]
-    ] ],
-    [ "AddSC_areatrigger_scripts", "df/d88/a04241.html#a992f2da647f1f8748c7c9239b52079ad", null ]
+    [ "AddSC_warlock_spell_scripts", "df/d88/a04241.html#a2054657c41c2347732a7d2903e3b8138", null ]
 ];

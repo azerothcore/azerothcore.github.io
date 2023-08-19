@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/game/Entities/Object/ObjectDefines.h File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/game/Entities/Item/ItemEnchantmentMgr.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,747 +106,296 @@ $(document).ready(function(){initNavTree('d1/d34/a01211.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">ObjectDefines.h File Reference</div></div>
+  <div class="headertitle"><div class="title">ItemEnchantmentMgr.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a76b2057afb6996f8080d661890a01c6f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a76b2057afb6996f8080d661890a01c6f">CONTACT_DISTANCE</a>&#160;&#160;&#160;0.5f</td></tr>
-<tr class="separator:a76b2057afb6996f8080d661890a01c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54eb9ac4fb3942c956544c22e84743d4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a54eb9ac4fb3942c956544c22e84743d4">INTERACTION_DISTANCE</a>&#160;&#160;&#160;5.5f</td></tr>
-<tr class="separator:a54eb9ac4fb3942c956544c22e84743d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a076c4dc8a346115fe776c593c413ef2c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a076c4dc8a346115fe776c593c413ef2c">ATTACK_DISTANCE</a>&#160;&#160;&#160;5.0f</td></tr>
-<tr class="separator:a076c4dc8a346115fe776c593c413ef2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7ca43faef12f55e2d72393f26d69ba7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#ad7ca43faef12f55e2d72393f26d69ba7">VISIBILITY_COMPENSATION</a>&#160;&#160;&#160;15.0f</td></tr>
-<tr class="separator:ad7ca43faef12f55e2d72393f26d69ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a627bc4be23b34b8b8be439d4010f5669"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a627bc4be23b34b8b8be439d4010f5669">INSPECT_DISTANCE</a>&#160;&#160;&#160;28.0f</td></tr>
-<tr class="separator:a627bc4be23b34b8b8be439d4010f5669"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaeef4cd88d0d15aab096215c91394412"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#aaeef4cd88d0d15aab096215c91394412">VISIBILITY_INC_FOR_GOBJECTS</a>&#160;&#160;&#160;30.0f</td></tr>
-<tr class="separator:aaeef4cd88d0d15aab096215c91394412"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e825c8fa49d307a4e5b992af744c195"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a7e825c8fa49d307a4e5b992af744c195">SPELL_SEARCHER_COMPENSATION</a>&#160;&#160;&#160;30.0f</td></tr>
-<tr class="separator:a7e825c8fa49d307a4e5b992af744c195"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0046f058b6628976d44bbe6847d4a36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#ac0046f058b6628976d44bbe6847d4a36">TRADE_DISTANCE</a>&#160;&#160;&#160;11.11f</td></tr>
-<tr class="separator:ac0046f058b6628976d44bbe6847d4a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a195874db808f155d535260d5e4080059"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a195874db808f155d535260d5e4080059">MAX_VISIBILITY_DISTANCE</a>&#160;&#160;&#160;250.0f</td></tr>
-<tr class="separator:a195874db808f155d535260d5e4080059"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71fa43e66bd4fe745191d184923d6347"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a71fa43e66bd4fe745191d184923d6347">SIGHT_RANGE_UNIT</a>&#160;&#160;&#160;50.0f</td></tr>
-<tr class="separator:a71fa43e66bd4fe745191d184923d6347"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e53fec710ac40ebac949ac16ed5376c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a4e53fec710ac40ebac949ac16ed5376c">MAX_SEARCHER_DISTANCE</a>&#160;&#160;&#160;150.0f</td></tr>
-<tr class="separator:a4e53fec710ac40ebac949ac16ed5376c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a383cb16bb626159d72cc6b5928429f90"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a383cb16bb626159d72cc6b5928429f90">VISIBILITY_DISTANCE_INFINITE</a>&#160;&#160;&#160;533.0f</td></tr>
-<tr class="separator:a383cb16bb626159d72cc6b5928429f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac42804b48d734699eef6b8f584e2fb90"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#ac42804b48d734699eef6b8f584e2fb90">VISIBILITY_DISTANCE_GIGANTIC</a>&#160;&#160;&#160;400.0f</td></tr>
-<tr class="separator:ac42804b48d734699eef6b8f584e2fb90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c7e0d3a0783990d50e50d41a916a595"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a2c7e0d3a0783990d50e50d41a916a595">VISIBILITY_DISTANCE_LARGE</a>&#160;&#160;&#160;200.0f</td></tr>
-<tr class="separator:a2c7e0d3a0783990d50e50d41a916a595"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ff4df7e2c9ebd38bfd8c298708deba9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a4ff4df7e2c9ebd38bfd8c298708deba9">VISIBILITY_DISTANCE_NORMAL</a>&#160;&#160;&#160;100.0f</td></tr>
-<tr class="separator:a4ff4df7e2c9ebd38bfd8c298708deba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae57720dd4437b418bb332db290c71d45"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#ae57720dd4437b418bb332db290c71d45">VISIBILITY_DISTANCE_SMALL</a>&#160;&#160;&#160;50.0f</td></tr>
-<tr class="separator:ae57720dd4437b418bb332db290c71d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e2fbd681c4b511f283f7b4d429a5f80"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a3e2fbd681c4b511f283f7b4d429a5f80">VISIBILITY_DISTANCE_TINY</a>&#160;&#160;&#160;25.0f</td></tr>
-<tr class="separator:a3e2fbd681c4b511f283f7b4d429a5f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22c041da6769a0cb3ef89726dd33981d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a22c041da6769a0cb3ef89726dd33981d">DEFAULT_VISIBILITY_DISTANCE</a>&#160;&#160;&#160;100.0f</td></tr>
-<tr class="separator:a22c041da6769a0cb3ef89726dd33981d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d99b4056bf875fdb55ac9420fba982a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a9d99b4056bf875fdb55ac9420fba982a">DEFAULT_VISIBILITY_INSTANCE</a>&#160;&#160;&#160;170.0f</td></tr>
-<tr class="separator:a9d99b4056bf875fdb55ac9420fba982a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3366917d44c1184b7eea801c37f75eda"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a3366917d44c1184b7eea801c37f75eda">VISIBILITY_DIST_WINTERGRASP</a>&#160;&#160;&#160;175.0f</td></tr>
-<tr class="separator:a3366917d44c1184b7eea801c37f75eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89f7f74fa54f0edb8bf2fdf50319a39f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a89f7f74fa54f0edb8bf2fdf50319a39f">DEFAULT_VISIBILITY_BGARENAS</a>&#160;&#160;&#160;533.0f</td></tr>
-<tr class="separator:a89f7f74fa54f0edb8bf2fdf50319a39f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a913c166f7a4cd692f382db2df507a059"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a913c166f7a4cd692f382db2df507a059">DEFAULT_WORLD_OBJECT_SIZE</a>&#160;&#160;&#160;0.388999998569489f</td></tr>
-<tr class="separator:a913c166f7a4cd692f382db2df507a059"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac04af878f8585da7f1264b4042bac15b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#ac04af878f8585da7f1264b4042bac15b">DEFAULT_COMBAT_REACH</a>&#160;&#160;&#160;1.5f</td></tr>
-<tr class="separator:ac04af878f8585da7f1264b4042bac15b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6869459c32ee6c2253af552a1144ddc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#ab6869459c32ee6c2253af552a1144ddc">MIN_MELEE_REACH</a>&#160;&#160;&#160;2.0f</td></tr>
-<tr class="separator:ab6869459c32ee6c2253af552a1144ddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9417df9da24d43d6fc32162e559e0b71"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a9417df9da24d43d6fc32162e559e0b71">NOMINAL_MELEE_RANGE</a>&#160;&#160;&#160;5.0f</td></tr>
-<tr class="separator:a9417df9da24d43d6fc32162e559e0b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96e2044bb0ae3b931a0f9f096e883595"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a96e2044bb0ae3b931a0f9f096e883595">MELEE_RANGE</a>&#160;&#160;&#160;(<a class="el" href="../../d1/d34/a01211.html#a9417df9da24d43d6fc32162e559e0b71">NOMINAL_MELEE_RANGE</a> - <a class="el" href="../../d1/d34/a01211.html#ab6869459c32ee6c2253af552a1144ddc">MIN_MELEE_REACH</a> * 2)</td></tr>
-<tr class="separator:a96e2044bb0ae3b931a0f9f096e883595"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87d5f85dfad581145d916013245c2021"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a87d5f85dfad581145d916013245c2021">DEFAULT_COLLISION_HEIGHT</a>&#160;&#160;&#160;2.03128f</td></tr>
-<tr class="separator:a87d5f85dfad581145d916013245c2021"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ae675d6469643e2aca0b1840013245a1d"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1d">VisibilityDistanceType</a> : uint8 { <br />
-&#160;&#160;<a class="el" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da960b44c579bc2f6818d2daaf9e4c16f0">Normal</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da383c05bda6f030a44990d354b24f3338">Tiny</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da2660064e68655415da2628c2ae2f7592">Small</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da3a69b34ce86dacb205936a8094f6c743">Large</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da87ed5c21cfc88672553ccb7896a0160b">Gigantic</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1dab10e24496ff8fec66189548a92a67045">Infinite</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da6a061313d22e51e0f25b7cd4dc065233">Max</a>
-<br />
- }</td></tr>
-<tr class="separator:ae675d6469643e2aca0b1840013245a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:addc54387901d7793730428b2982d3f55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#addc54387901d7793730428b2982d3f55">PAIR64_HIPART</a> (<a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> x)</td></tr>
-<tr class="separator:addc54387901d7793730428b2982d3f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07b26e77b0b1266a3addb26d71a74344"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a07b26e77b0b1266a3addb26d71a74344">PAIR64_LOPART</a> (<a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> x)</td></tr>
-<tr class="separator:a07b26e77b0b1266a3addb26d71a74344"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acce67ab26aa86441d3f07fb597fdf887"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#acce67ab26aa86441d3f07fb597fdf887">MAKE_PAIR16</a> (<a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> l, <a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> h)</td></tr>
-<tr class="separator:acce67ab26aa86441d3f07fb597fdf887"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16746aa380554e93891c528f8edf0df1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a16746aa380554e93891c528f8edf0df1">MAKE_PAIR32</a> (<a class="el" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> l, <a class="el" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> h)</td></tr>
-<tr class="separator:a16746aa380554e93891c528f8edf0df1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a236b098eb2d636d290e08931dcaa1911"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a236b098eb2d636d290e08931dcaa1911">PAIR32_HIPART</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> x)</td></tr>
-<tr class="separator:a236b098eb2d636d290e08931dcaa1911"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7170f91373fc9614734d4365eaebf77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#ae7170f91373fc9614734d4365eaebf77">PAIR32_LOPART</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> x)</td></tr>
-<tr class="separator:ae7170f91373fc9614734d4365eaebf77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a376fabf7bba54eaf928217f860f1c33b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a376fabf7bba54eaf928217f860f1c33b">LoadRandomEnchantmentsTable</a> ()</td></tr>
+<tr class="separator:a376fabf7bba54eaf928217f860f1c33b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76d03c9ceb2d3ac35582eaea4624544f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a76d03c9ceb2d3ac35582eaea4624544f">GetItemEnchantMod</a> (<a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> entry)</td></tr>
+<tr class="separator:a76d03c9ceb2d3ac35582eaea4624544f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25026e783b088b45eebd4db8295b1b87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a01211.html#a25026e783b088b45eebd4db8295b1b87">GenerateEnchSuffixFactor</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> item_id)</td></tr>
+<tr class="separator:a25026e783b088b45eebd4db8295b1b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a076c4dc8a346115fe776c593c413ef2c" name="a076c4dc8a346115fe776c593c413ef2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a076c4dc8a346115fe776c593c413ef2c">&#9670;&#160;</a></span>ATTACK_DISTANCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ATTACK_DISTANCE&#160;&#160;&#160;5.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a76b2057afb6996f8080d661890a01c6f" name="a76b2057afb6996f8080d661890a01c6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76b2057afb6996f8080d661890a01c6f">&#9670;&#160;</a></span>CONTACT_DISTANCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CONTACT_DISTANCE&#160;&#160;&#160;0.5f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a87d5f85dfad581145d916013245c2021" name="a87d5f85dfad581145d916013245c2021"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87d5f85dfad581145d916013245c2021">&#9670;&#160;</a></span>DEFAULT_COLLISION_HEIGHT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEFAULT_COLLISION_HEIGHT&#160;&#160;&#160;2.03128f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac04af878f8585da7f1264b4042bac15b" name="ac04af878f8585da7f1264b4042bac15b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac04af878f8585da7f1264b4042bac15b">&#9670;&#160;</a></span>DEFAULT_COMBAT_REACH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEFAULT_COMBAT_REACH&#160;&#160;&#160;1.5f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a89f7f74fa54f0edb8bf2fdf50319a39f" name="a89f7f74fa54f0edb8bf2fdf50319a39f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89f7f74fa54f0edb8bf2fdf50319a39f">&#9670;&#160;</a></span>DEFAULT_VISIBILITY_BGARENAS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEFAULT_VISIBILITY_BGARENAS&#160;&#160;&#160;533.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a22c041da6769a0cb3ef89726dd33981d" name="a22c041da6769a0cb3ef89726dd33981d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22c041da6769a0cb3ef89726dd33981d">&#9670;&#160;</a></span>DEFAULT_VISIBILITY_DISTANCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEFAULT_VISIBILITY_DISTANCE&#160;&#160;&#160;100.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9d99b4056bf875fdb55ac9420fba982a" name="a9d99b4056bf875fdb55ac9420fba982a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d99b4056bf875fdb55ac9420fba982a">&#9670;&#160;</a></span>DEFAULT_VISIBILITY_INSTANCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEFAULT_VISIBILITY_INSTANCE&#160;&#160;&#160;170.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a913c166f7a4cd692f382db2df507a059" name="a913c166f7a4cd692f382db2df507a059"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a913c166f7a4cd692f382db2df507a059">&#9670;&#160;</a></span>DEFAULT_WORLD_OBJECT_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEFAULT_WORLD_OBJECT_SIZE&#160;&#160;&#160;0.388999998569489f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a627bc4be23b34b8b8be439d4010f5669" name="a627bc4be23b34b8b8be439d4010f5669"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a627bc4be23b34b8b8be439d4010f5669">&#9670;&#160;</a></span>INSPECT_DISTANCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define INSPECT_DISTANCE&#160;&#160;&#160;28.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a54eb9ac4fb3942c956544c22e84743d4" name="a54eb9ac4fb3942c956544c22e84743d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54eb9ac4fb3942c956544c22e84743d4">&#9670;&#160;</a></span>INTERACTION_DISTANCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define INTERACTION_DISTANCE&#160;&#160;&#160;5.5f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4e53fec710ac40ebac949ac16ed5376c" name="a4e53fec710ac40ebac949ac16ed5376c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e53fec710ac40ebac949ac16ed5376c">&#9670;&#160;</a></span>MAX_SEARCHER_DISTANCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_SEARCHER_DISTANCE&#160;&#160;&#160;150.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a195874db808f155d535260d5e4080059" name="a195874db808f155d535260d5e4080059"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a195874db808f155d535260d5e4080059">&#9670;&#160;</a></span>MAX_VISIBILITY_DISTANCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_VISIBILITY_DISTANCE&#160;&#160;&#160;250.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a96e2044bb0ae3b931a0f9f096e883595" name="a96e2044bb0ae3b931a0f9f096e883595"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96e2044bb0ae3b931a0f9f096e883595">&#9670;&#160;</a></span>MELEE_RANGE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MELEE_RANGE&#160;&#160;&#160;(<a class="el" href="../../d1/d34/a01211.html#a9417df9da24d43d6fc32162e559e0b71">NOMINAL_MELEE_RANGE</a> - <a class="el" href="../../d1/d34/a01211.html#ab6869459c32ee6c2253af552a1144ddc">MIN_MELEE_REACH</a> * 2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab6869459c32ee6c2253af552a1144ddc" name="ab6869459c32ee6c2253af552a1144ddc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6869459c32ee6c2253af552a1144ddc">&#9670;&#160;</a></span>MIN_MELEE_REACH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MIN_MELEE_REACH&#160;&#160;&#160;2.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9417df9da24d43d6fc32162e559e0b71" name="a9417df9da24d43d6fc32162e559e0b71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9417df9da24d43d6fc32162e559e0b71">&#9670;&#160;</a></span>NOMINAL_MELEE_RANGE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define NOMINAL_MELEE_RANGE&#160;&#160;&#160;5.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a71fa43e66bd4fe745191d184923d6347" name="a71fa43e66bd4fe745191d184923d6347"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71fa43e66bd4fe745191d184923d6347">&#9670;&#160;</a></span>SIGHT_RANGE_UNIT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SIGHT_RANGE_UNIT&#160;&#160;&#160;50.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7e825c8fa49d307a4e5b992af744c195" name="a7e825c8fa49d307a4e5b992af744c195"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e825c8fa49d307a4e5b992af744c195">&#9670;&#160;</a></span>SPELL_SEARCHER_COMPENSATION</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SPELL_SEARCHER_COMPENSATION&#160;&#160;&#160;30.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac0046f058b6628976d44bbe6847d4a36" name="ac0046f058b6628976d44bbe6847d4a36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0046f058b6628976d44bbe6847d4a36">&#9670;&#160;</a></span>TRADE_DISTANCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TRADE_DISTANCE&#160;&#160;&#160;11.11f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad7ca43faef12f55e2d72393f26d69ba7" name="ad7ca43faef12f55e2d72393f26d69ba7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7ca43faef12f55e2d72393f26d69ba7">&#9670;&#160;</a></span>VISIBILITY_COMPENSATION</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define VISIBILITY_COMPENSATION&#160;&#160;&#160;15.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3366917d44c1184b7eea801c37f75eda" name="a3366917d44c1184b7eea801c37f75eda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3366917d44c1184b7eea801c37f75eda">&#9670;&#160;</a></span>VISIBILITY_DIST_WINTERGRASP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define VISIBILITY_DIST_WINTERGRASP&#160;&#160;&#160;175.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac42804b48d734699eef6b8f584e2fb90" name="ac42804b48d734699eef6b8f584e2fb90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac42804b48d734699eef6b8f584e2fb90">&#9670;&#160;</a></span>VISIBILITY_DISTANCE_GIGANTIC</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define VISIBILITY_DISTANCE_GIGANTIC&#160;&#160;&#160;400.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a383cb16bb626159d72cc6b5928429f90" name="a383cb16bb626159d72cc6b5928429f90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a383cb16bb626159d72cc6b5928429f90">&#9670;&#160;</a></span>VISIBILITY_DISTANCE_INFINITE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define VISIBILITY_DISTANCE_INFINITE&#160;&#160;&#160;533.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2c7e0d3a0783990d50e50d41a916a595" name="a2c7e0d3a0783990d50e50d41a916a595"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c7e0d3a0783990d50e50d41a916a595">&#9670;&#160;</a></span>VISIBILITY_DISTANCE_LARGE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define VISIBILITY_DISTANCE_LARGE&#160;&#160;&#160;200.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4ff4df7e2c9ebd38bfd8c298708deba9" name="a4ff4df7e2c9ebd38bfd8c298708deba9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ff4df7e2c9ebd38bfd8c298708deba9">&#9670;&#160;</a></span>VISIBILITY_DISTANCE_NORMAL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define VISIBILITY_DISTANCE_NORMAL&#160;&#160;&#160;100.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae57720dd4437b418bb332db290c71d45" name="ae57720dd4437b418bb332db290c71d45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae57720dd4437b418bb332db290c71d45">&#9670;&#160;</a></span>VISIBILITY_DISTANCE_SMALL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define VISIBILITY_DISTANCE_SMALL&#160;&#160;&#160;50.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3e2fbd681c4b511f283f7b4d429a5f80" name="a3e2fbd681c4b511f283f7b4d429a5f80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e2fbd681c4b511f283f7b4d429a5f80">&#9670;&#160;</a></span>VISIBILITY_DISTANCE_TINY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define VISIBILITY_DISTANCE_TINY&#160;&#160;&#160;25.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aaeef4cd88d0d15aab096215c91394412" name="aaeef4cd88d0d15aab096215c91394412"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaeef4cd88d0d15aab096215c91394412">&#9670;&#160;</a></span>VISIBILITY_INC_FOR_GOBJECTS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define VISIBILITY_INC_FOR_GOBJECTS&#160;&#160;&#160;30.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ae675d6469643e2aca0b1840013245a1d" name="ae675d6469643e2aca0b1840013245a1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae675d6469643e2aca0b1840013245a1d">&#9670;&#160;</a></span>VisibilityDistanceType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1d">VisibilityDistanceType</a> : <a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae675d6469643e2aca0b1840013245a1da960b44c579bc2f6818d2daaf9e4c16f0" name="ae675d6469643e2aca0b1840013245a1da960b44c579bc2f6818d2daaf9e4c16f0"></a>Normal&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae675d6469643e2aca0b1840013245a1da383c05bda6f030a44990d354b24f3338" name="ae675d6469643e2aca0b1840013245a1da383c05bda6f030a44990d354b24f3338"></a>Tiny&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae675d6469643e2aca0b1840013245a1da2660064e68655415da2628c2ae2f7592" name="ae675d6469643e2aca0b1840013245a1da2660064e68655415da2628c2ae2f7592"></a>Small&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae675d6469643e2aca0b1840013245a1da3a69b34ce86dacb205936a8094f6c743" name="ae675d6469643e2aca0b1840013245a1da3a69b34ce86dacb205936a8094f6c743"></a>Large&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae675d6469643e2aca0b1840013245a1da87ed5c21cfc88672553ccb7896a0160b" name="ae675d6469643e2aca0b1840013245a1da87ed5c21cfc88672553ccb7896a0160b"></a>Gigantic&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae675d6469643e2aca0b1840013245a1dab10e24496ff8fec66189548a92a67045" name="ae675d6469643e2aca0b1840013245a1dab10e24496ff8fec66189548a92a67045"></a>Infinite&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae675d6469643e2aca0b1840013245a1da6a061313d22e51e0f25b7cd4dc065233" name="ae675d6469643e2aca0b1840013245a1da6a061313d22e51e0f25b7cd4dc065233"></a>Max&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   61</span>{</div>
-<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da960b44c579bc2f6818d2daaf9e4c16f0">Normal</a>   = 0,</div>
-<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da383c05bda6f030a44990d354b24f3338">Tiny</a>     = 1,</div>
-<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da2660064e68655415da2628c2ae2f7592">Small</a>    = 2,</div>
-<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da3a69b34ce86dacb205936a8094f6c743">Large</a>    = 3,</div>
-<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da87ed5c21cfc88672553ccb7896a0160b">Gigantic</a> = 4,</div>
-<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1dab10e24496ff8fec66189548a92a67045">Infinite</a> = 5,</div>
-<div class="line"><span class="lineno">   68</span> </div>
-<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da6a061313d22e51e0f25b7cd4dc065233">Max</a></div>
-<div class="line"><span class="lineno">   70</span>};</div>
-<div class="ttc" id="aa01211_html_ae675d6469643e2aca0b1840013245a1da2660064e68655415da2628c2ae2f7592"><div class="ttname"><a href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da2660064e68655415da2628c2ae2f7592">VisibilityDistanceType::Small</a></div><div class="ttdeci">@ Small</div></div>
-<div class="ttc" id="aa01211_html_ae675d6469643e2aca0b1840013245a1da383c05bda6f030a44990d354b24f3338"><div class="ttname"><a href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da383c05bda6f030a44990d354b24f3338">VisibilityDistanceType::Tiny</a></div><div class="ttdeci">@ Tiny</div></div>
-<div class="ttc" id="aa01211_html_ae675d6469643e2aca0b1840013245a1da3a69b34ce86dacb205936a8094f6c743"><div class="ttname"><a href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da3a69b34ce86dacb205936a8094f6c743">VisibilityDistanceType::Large</a></div><div class="ttdeci">@ Large</div></div>
-<div class="ttc" id="aa01211_html_ae675d6469643e2aca0b1840013245a1da6a061313d22e51e0f25b7cd4dc065233"><div class="ttname"><a href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da6a061313d22e51e0f25b7cd4dc065233">VisibilityDistanceType::Max</a></div><div class="ttdeci">@ Max</div></div>
-<div class="ttc" id="aa01211_html_ae675d6469643e2aca0b1840013245a1da87ed5c21cfc88672553ccb7896a0160b"><div class="ttname"><a href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da87ed5c21cfc88672553ccb7896a0160b">VisibilityDistanceType::Gigantic</a></div><div class="ttdeci">@ Gigantic</div></div>
-<div class="ttc" id="aa01211_html_ae675d6469643e2aca0b1840013245a1da960b44c579bc2f6818d2daaf9e4c16f0"><div class="ttname"><a href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1da960b44c579bc2f6818d2daaf9e4c16f0">VisibilityDistanceType::Normal</a></div><div class="ttdeci">@ Normal</div></div>
-<div class="ttc" id="aa01211_html_ae675d6469643e2aca0b1840013245a1dab10e24496ff8fec66189548a92a67045"><div class="ttname"><a href="../../d1/d34/a01211.html#ae675d6469643e2aca0b1840013245a1dab10e24496ff8fec66189548a92a67045">VisibilityDistanceType::Infinite</a></div><div class="ttdeci">@ Infinite</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="acce67ab26aa86441d3f07fb597fdf887" name="acce67ab26aa86441d3f07fb597fdf887"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acce67ab26aa86441d3f07fb597fdf887">&#9670;&#160;</a></span>MAKE_PAIR16()</h2>
+<a id="a25026e783b088b45eebd4db8295b1b87" name="a25026e783b088b45eebd4db8295b1b87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25026e783b088b45eebd4db8295b1b87">&#9670;&#160;</a></span>GenerateEnchSuffixFactor()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> MAKE_PAIR16 </td>
+          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GenerateEnchSuffixFactor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>l</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>item_id</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>h</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   83</span>{</div>
-<div class="line"><span class="lineno">   84</span>    <span class="keywordflow">return</span> <a class="code hl_typedef" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>(l | (<a class="code hl_typedef" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>(h) &lt;&lt; 8));</div>
-<div class="line"><span class="lineno">   85</span>}</div>
-<div class="ttc" id="aa00230_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l09640">ObjectMgr::GetCreatureBaseStats()</a>, and <a class="el" href="../../#l09666">ObjectMgr::LoadCreatureClassLevelStats()</a>.</p>
-
-</div>
-</div>
-<a id="a16746aa380554e93891c528f8edf0df1" name="a16746aa380554e93891c528f8edf0df1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16746aa380554e93891c528f8edf0df1">&#9670;&#160;</a></span>MAKE_PAIR32()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> MAKE_PAIR32 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
-          <td class="paramname"><em>l</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
-          <td class="paramname"><em>h</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   88</span>{</div>
-<div class="line"><span class="lineno">   89</span>    <span class="keywordflow">return</span> <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(l | (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(h) &lt;&lt; 16));</div>
-<div class="line"><span class="lineno">   90</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  123</span>{</div>
+<div class="line"><span class="lineno">  124</span>    <a class="code hl_struct" href="../../d7/de5/a07901.html">ItemTemplate</a> <span class="keyword">const</span>* itemProto = <a class="code hl_define" href="../../d2/d29/a01376.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(item_id);</div>
+<div class="line"><span class="lineno">  125</span> </div>
+<div class="line"><span class="lineno">  126</span>    <span class="keywordflow">if</span> (!itemProto)</div>
+<div class="line"><span class="lineno">  127</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  128</span>    <span class="keywordflow">if</span> (!itemProto-&gt;<a class="code hl_variable" href="../../d7/de5/a07901.html#acf4934f509118a60bcf90dbb893b7e58">RandomSuffix</a>)</div>
+<div class="line"><span class="lineno">  129</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  130</span> </div>
+<div class="line"><span class="lineno">  131</span>    <a class="code hl_struct" href="../../da/d5b/a30033.html">RandomPropertiesPointsEntry</a> <span class="keyword">const</span>* randomProperty = <a class="code hl_variable" href="../../d6/d0d/a01091.html#a0663ae41922720e1d5f53ed43f7423d7">sRandomPropertiesPointsStore</a>.LookupEntry(itemProto-&gt;<a class="code hl_variable" href="../../d7/de5/a07901.html#a21d62ad4a38e5a84305cf783c27c1d39">ItemLevel</a>);</div>
+<div class="line"><span class="lineno">  132</span>    <span class="keywordflow">if</span> (!randomProperty)</div>
+<div class="line"><span class="lineno">  133</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  134</span> </div>
+<div class="line"><span class="lineno">  135</span>    <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> suffixFactor;</div>
+<div class="line"><span class="lineno">  136</span>    <span class="keywordflow">switch</span> (itemProto-&gt;<a class="code hl_variable" href="../../d7/de5/a07901.html#ac47429e999906b62258c7ade930efcbf">InventoryType</a>)</div>
+<div class="line"><span class="lineno">  137</span>    {</div>
+<div class="line"><span class="lineno">  138</span>        <span class="comment">// Items of that type don`t have points</span></div>
+<div class="line"><span class="lineno">  139</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1acc17c9114149a53a3a62ef132aaa6841">INVTYPE_NON_EQUIP</a>:</div>
+<div class="line"><span class="lineno">  140</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1aac84cafd4a3fad90aee9685b0afff462">INVTYPE_BAG</a>:</div>
+<div class="line"><span class="lineno">  141</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1adca3872318331e2a5f3c95dd80838f5f">INVTYPE_TABARD</a>:</div>
+<div class="line"><span class="lineno">  142</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1acde5d85868749e487a7662f649df11ad">INVTYPE_AMMO</a>:</div>
+<div class="line"><span class="lineno">  143</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1ad4e21ef0cfa56e691d9d982141a849e4">INVTYPE_QUIVER</a>:</div>
+<div class="line"><span class="lineno">  144</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a6df30683d5a0d8a30a617cd902529bf2">INVTYPE_RELIC</a>:</div>
+<div class="line"><span class="lineno">  145</span>            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  146</span>        <span class="comment">// Select point coefficient</span></div>
+<div class="line"><span class="lineno">  147</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a1d726ab1e91ba4370a91a84e9cfe04b5">INVTYPE_HEAD</a>:</div>
+<div class="line"><span class="lineno">  148</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a0ad9dd30137bfa28a21e79ce412afc68">INVTYPE_BODY</a>:</div>
+<div class="line"><span class="lineno">  149</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1af2b736117eeda9485c06f5f903f6777f">INVTYPE_CHEST</a>:</div>
+<div class="line"><span class="lineno">  150</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1ae909d8d958266ae8c919c4b7ed206983">INVTYPE_LEGS</a>:</div>
+<div class="line"><span class="lineno">  151</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1aa6021d97341d71ee92c4bdd366c1491d">INVTYPE_2HWEAPON</a>:</div>
+<div class="line"><span class="lineno">  152</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a3e22e849ed0cf8a5cc98ac51085281b6">INVTYPE_ROBE</a>:</div>
+<div class="line"><span class="lineno">  153</span>            suffixFactor = 0;</div>
+<div class="line"><span class="lineno">  154</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  155</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1abc5cec8592b34966c4806d34be126e57">INVTYPE_SHOULDERS</a>:</div>
+<div class="line"><span class="lineno">  156</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a8db05c002af58440ff80a03d4891743c">INVTYPE_WAIST</a>:</div>
+<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1ac564477d61f339db6062c92eb7d8890c">INVTYPE_FEET</a>:</div>
+<div class="line"><span class="lineno">  158</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1afc3d77b951a4063cd59e22006f7e24ff">INVTYPE_HANDS</a>:</div>
+<div class="line"><span class="lineno">  159</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a5e9267552277837eabc99511223700af">INVTYPE_TRINKET</a>:</div>
+<div class="line"><span class="lineno">  160</span>            suffixFactor = 1;</div>
+<div class="line"><span class="lineno">  161</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  162</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1ab4f525d0d5ac2bd14e13b62a434eae18">INVTYPE_NECK</a>:</div>
+<div class="line"><span class="lineno">  163</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a943b1ff4ec6ef38c5d83feff5cd089e7">INVTYPE_WRISTS</a>:</div>
+<div class="line"><span class="lineno">  164</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a0fb6a5ac04b5dec28b32c62c84c9b83d">INVTYPE_FINGER</a>:</div>
+<div class="line"><span class="lineno">  165</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1ad6601fdb0215631c2b4f647a43b3296b">INVTYPE_SHIELD</a>:</div>
+<div class="line"><span class="lineno">  166</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a35ccb0e0d02d4f8adb5ae15f4b4f2351">INVTYPE_CLOAK</a>:</div>
+<div class="line"><span class="lineno">  167</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a4fcd05d96b74ed7d7e4c97cb33605e9e">INVTYPE_HOLDABLE</a>:</div>
+<div class="line"><span class="lineno">  168</span>            suffixFactor = 2;</div>
+<div class="line"><span class="lineno">  169</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  170</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a954063f623e72c620604b459c26c4ad3">INVTYPE_WEAPON</a>:</div>
+<div class="line"><span class="lineno">  171</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a9d412d648bbc325ddfdb468222f605e1">INVTYPE_WEAPONMAINHAND</a>:</div>
+<div class="line"><span class="lineno">  172</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1aa3df49ccbc9b10700cab1815f60aab62">INVTYPE_WEAPONOFFHAND</a>:</div>
+<div class="line"><span class="lineno">  173</span>            suffixFactor = 3;</div>
+<div class="line"><span class="lineno">  174</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  175</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a893eec6f59183350450e3aa76371fbe0">INVTYPE_RANGED</a>:</div>
+<div class="line"><span class="lineno">  176</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a8baed7484de6618b6a471f07ae065e20">INVTYPE_THROWN</a>:</div>
+<div class="line"><span class="lineno">  177</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a93f18d1bdd5ca88c8b1c1269c8460610">INVTYPE_RANGEDRIGHT</a>:</div>
+<div class="line"><span class="lineno">  178</span>            suffixFactor = 4;</div>
+<div class="line"><span class="lineno">  179</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  180</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  181</span>            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  182</span>    }</div>
+<div class="line"><span class="lineno">  183</span>    <span class="comment">// Select rare/epic modifier</span></div>
+<div class="line"><span class="lineno">  184</span>    <span class="keywordflow">switch</span> (itemProto-&gt;<a class="code hl_variable" href="../../d7/de5/a07901.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a>)</div>
+<div class="line"><span class="lineno">  185</span>    {</div>
+<div class="line"><span class="lineno">  186</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dd/db4/a04367.html#a7263b8afa7134894f236b37cc146d021a034177b9460b4065321013cceb4df277">ITEM_QUALITY_UNCOMMON</a>:</div>
+<div class="line"><span class="lineno">  187</span>            <span class="keywordflow">return</span> randomProperty-&gt;<a class="code hl_variable" href="../../da/d5b/a30033.html#a74acb6861a84d5d193038eaa5ac9b12f">UncommonPropertiesPoints</a>[suffixFactor];</div>
+<div class="line"><span class="lineno">  188</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dd/db4/a04367.html#a7263b8afa7134894f236b37cc146d021a5bdfb2a35587ab1272d24c8dffcf849d">ITEM_QUALITY_RARE</a>:</div>
+<div class="line"><span class="lineno">  189</span>            <span class="keywordflow">return</span> randomProperty-&gt;<a class="code hl_variable" href="../../da/d5b/a30033.html#a9359171635ef3e9a0029820fad286368">RarePropertiesPoints</a>[suffixFactor];</div>
+<div class="line"><span class="lineno">  190</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dd/db4/a04367.html#a7263b8afa7134894f236b37cc146d021aff8031480ccc27818d93e34ae1de8723">ITEM_QUALITY_EPIC</a>:</div>
+<div class="line"><span class="lineno">  191</span>            <span class="keywordflow">return</span> randomProperty-&gt;<a class="code hl_variable" href="../../da/d5b/a30033.html#a35dc60a15091357e03032226621340f7">EpicPropertiesPoints</a>[suffixFactor];</div>
+<div class="line"><span class="lineno">  192</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dd/db4/a04367.html#a7263b8afa7134894f236b37cc146d021a62ca005289b46a8bf1bd633f7440b4a4">ITEM_QUALITY_LEGENDARY</a>:</div>
+<div class="line"><span class="lineno">  193</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dd/db4/a04367.html#a7263b8afa7134894f236b37cc146d021af237157bd894c3f26f3f821f28f5f1bf">ITEM_QUALITY_ARTIFACT</a>:</div>
+<div class="line"><span class="lineno">  194</span>            <span class="keywordflow">return</span> 0;                                       <span class="comment">// not have random properties</span></div>
+<div class="line"><span class="lineno">  195</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  196</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  197</span>    }</div>
+<div class="line"><span class="lineno">  198</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  199</span>}</div>
 <div class="ttc" id="aa00230_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aa01091_html_a0663ae41922720e1d5f53ed43f7423d7"><div class="ttname"><a href="../../d6/d0d/a01091.html#a0663ae41922720e1d5f53ed43f7423d7">sRandomPropertiesPointsStore</a></div><div class="ttdeci">DBCStorage&lt; RandomPropertiesPointsEntry &gt; sRandomPropertiesPointsStore(RandomPropertiesPointsfmt)</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1a0ad9dd30137bfa28a21e79ce412afc68"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a0ad9dd30137bfa28a21e79ce412afc68">INVTYPE_BODY</a></div><div class="ttdeci">@ INVTYPE_BODY</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:269</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1a0fb6a5ac04b5dec28b32c62c84c9b83d"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a0fb6a5ac04b5dec28b32c62c84c9b83d">INVTYPE_FINGER</a></div><div class="ttdeci">@ INVTYPE_FINGER</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:276</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1a1d726ab1e91ba4370a91a84e9cfe04b5"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a1d726ab1e91ba4370a91a84e9cfe04b5">INVTYPE_HEAD</a></div><div class="ttdeci">@ INVTYPE_HEAD</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:266</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1a35ccb0e0d02d4f8adb5ae15f4b4f2351"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a35ccb0e0d02d4f8adb5ae15f4b4f2351">INVTYPE_CLOAK</a></div><div class="ttdeci">@ INVTYPE_CLOAK</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:281</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1a3e22e849ed0cf8a5cc98ac51085281b6"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a3e22e849ed0cf8a5cc98ac51085281b6">INVTYPE_ROBE</a></div><div class="ttdeci">@ INVTYPE_ROBE</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:285</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1a4fcd05d96b74ed7d7e4c97cb33605e9e"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a4fcd05d96b74ed7d7e4c97cb33605e9e">INVTYPE_HOLDABLE</a></div><div class="ttdeci">@ INVTYPE_HOLDABLE</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:288</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1a5e9267552277837eabc99511223700af"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a5e9267552277837eabc99511223700af">INVTYPE_TRINKET</a></div><div class="ttdeci">@ INVTYPE_TRINKET</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:277</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1a6df30683d5a0d8a30a617cd902529bf2"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a6df30683d5a0d8a30a617cd902529bf2">INVTYPE_RELIC</a></div><div class="ttdeci">@ INVTYPE_RELIC</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:293</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1a893eec6f59183350450e3aa76371fbe0"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a893eec6f59183350450e3aa76371fbe0">INVTYPE_RANGED</a></div><div class="ttdeci">@ INVTYPE_RANGED</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:280</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1a8baed7484de6618b6a471f07ae065e20"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a8baed7484de6618b6a471f07ae065e20">INVTYPE_THROWN</a></div><div class="ttdeci">@ INVTYPE_THROWN</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:290</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1a8db05c002af58440ff80a03d4891743c"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a8db05c002af58440ff80a03d4891743c">INVTYPE_WAIST</a></div><div class="ttdeci">@ INVTYPE_WAIST</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:271</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1a93f18d1bdd5ca88c8b1c1269c8460610"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a93f18d1bdd5ca88c8b1c1269c8460610">INVTYPE_RANGEDRIGHT</a></div><div class="ttdeci">@ INVTYPE_RANGEDRIGHT</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:291</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1a943b1ff4ec6ef38c5d83feff5cd089e7"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a943b1ff4ec6ef38c5d83feff5cd089e7">INVTYPE_WRISTS</a></div><div class="ttdeci">@ INVTYPE_WRISTS</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:274</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1a954063f623e72c620604b459c26c4ad3"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a954063f623e72c620604b459c26c4ad3">INVTYPE_WEAPON</a></div><div class="ttdeci">@ INVTYPE_WEAPON</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:278</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1a9d412d648bbc325ddfdb468222f605e1"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1a9d412d648bbc325ddfdb468222f605e1">INVTYPE_WEAPONMAINHAND</a></div><div class="ttdeci">@ INVTYPE_WEAPONMAINHAND</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:286</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1aa3df49ccbc9b10700cab1815f60aab62"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1aa3df49ccbc9b10700cab1815f60aab62">INVTYPE_WEAPONOFFHAND</a></div><div class="ttdeci">@ INVTYPE_WEAPONOFFHAND</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:287</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1aa6021d97341d71ee92c4bdd366c1491d"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1aa6021d97341d71ee92c4bdd366c1491d">INVTYPE_2HWEAPON</a></div><div class="ttdeci">@ INVTYPE_2HWEAPON</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:282</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1aac84cafd4a3fad90aee9685b0afff462"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1aac84cafd4a3fad90aee9685b0afff462">INVTYPE_BAG</a></div><div class="ttdeci">@ INVTYPE_BAG</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:283</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1ab4f525d0d5ac2bd14e13b62a434eae18"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1ab4f525d0d5ac2bd14e13b62a434eae18">INVTYPE_NECK</a></div><div class="ttdeci">@ INVTYPE_NECK</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:267</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1abc5cec8592b34966c4806d34be126e57"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1abc5cec8592b34966c4806d34be126e57">INVTYPE_SHOULDERS</a></div><div class="ttdeci">@ INVTYPE_SHOULDERS</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:268</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1ac564477d61f339db6062c92eb7d8890c"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1ac564477d61f339db6062c92eb7d8890c">INVTYPE_FEET</a></div><div class="ttdeci">@ INVTYPE_FEET</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:273</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1acc17c9114149a53a3a62ef132aaa6841"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1acc17c9114149a53a3a62ef132aaa6841">INVTYPE_NON_EQUIP</a></div><div class="ttdeci">@ INVTYPE_NON_EQUIP</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:265</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1acde5d85868749e487a7662f649df11ad"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1acde5d85868749e487a7662f649df11ad">INVTYPE_AMMO</a></div><div class="ttdeci">@ INVTYPE_AMMO</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:289</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1ad4e21ef0cfa56e691d9d982141a849e4"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1ad4e21ef0cfa56e691d9d982141a849e4">INVTYPE_QUIVER</a></div><div class="ttdeci">@ INVTYPE_QUIVER</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:292</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1ad6601fdb0215631c2b4f647a43b3296b"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1ad6601fdb0215631c2b4f647a43b3296b">INVTYPE_SHIELD</a></div><div class="ttdeci">@ INVTYPE_SHIELD</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:279</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1adca3872318331e2a5f3c95dd80838f5f"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1adca3872318331e2a5f3c95dd80838f5f">INVTYPE_TABARD</a></div><div class="ttdeci">@ INVTYPE_TABARD</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:284</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1ae909d8d958266ae8c919c4b7ed206983"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1ae909d8d958266ae8c919c4b7ed206983">INVTYPE_LEGS</a></div><div class="ttdeci">@ INVTYPE_LEGS</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:272</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1af2b736117eeda9485c06f5f903f6777f"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1af2b736117eeda9485c06f5f903f6777f">INVTYPE_CHEST</a></div><div class="ttdeci">@ INVTYPE_CHEST</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:270</div></div>
+<div class="ttc" id="aa01214_html_a2793ea198e8b328078cf49008fa1d5b1afc3d77b951a4063cd59e22006f7e24ff"><div class="ttname"><a href="../../d5/d32/a01214.html#a2793ea198e8b328078cf49008fa1d5b1afc3d77b951a4063cd59e22006f7e24ff">INVTYPE_HANDS</a></div><div class="ttdeci">@ INVTYPE_HANDS</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:275</div></div>
+<div class="ttc" id="aa01376_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d2/d29/a01376.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1640</div></div>
+<div class="ttc" id="aa04367_html_a7263b8afa7134894f236b37cc146d021a034177b9460b4065321013cceb4df277"><div class="ttname"><a href="../../dd/db4/a04367.html#a7263b8afa7134894f236b37cc146d021a034177b9460b4065321013cceb4df277">ITEM_QUALITY_UNCOMMON</a></div><div class="ttdeci">@ ITEM_QUALITY_UNCOMMON</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:303</div></div>
+<div class="ttc" id="aa04367_html_a7263b8afa7134894f236b37cc146d021a5bdfb2a35587ab1272d24c8dffcf849d"><div class="ttname"><a href="../../dd/db4/a04367.html#a7263b8afa7134894f236b37cc146d021a5bdfb2a35587ab1272d24c8dffcf849d">ITEM_QUALITY_RARE</a></div><div class="ttdeci">@ ITEM_QUALITY_RARE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:304</div></div>
+<div class="ttc" id="aa04367_html_a7263b8afa7134894f236b37cc146d021a62ca005289b46a8bf1bd633f7440b4a4"><div class="ttname"><a href="../../dd/db4/a04367.html#a7263b8afa7134894f236b37cc146d021a62ca005289b46a8bf1bd633f7440b4a4">ITEM_QUALITY_LEGENDARY</a></div><div class="ttdeci">@ ITEM_QUALITY_LEGENDARY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:306</div></div>
+<div class="ttc" id="aa04367_html_a7263b8afa7134894f236b37cc146d021af237157bd894c3f26f3f821f28f5f1bf"><div class="ttname"><a href="../../dd/db4/a04367.html#a7263b8afa7134894f236b37cc146d021af237157bd894c3f26f3f821f28f5f1bf">ITEM_QUALITY_ARTIFACT</a></div><div class="ttdeci">@ ITEM_QUALITY_ARTIFACT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:307</div></div>
+<div class="ttc" id="aa04367_html_a7263b8afa7134894f236b37cc146d021aff8031480ccc27818d93e34ae1de8723"><div class="ttname"><a href="../../dd/db4/a04367.html#a7263b8afa7134894f236b37cc146d021aff8031480ccc27818d93e34ae1de8723">ITEM_QUALITY_EPIC</a></div><div class="ttdeci">@ ITEM_QUALITY_EPIC</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:305</div></div>
+<div class="ttc" id="aa07901_html"><div class="ttname"><a href="../../d7/de5/a07901.html">ItemTemplate</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:628</div></div>
+<div class="ttc" id="aa07901_html_a1b4b51353503f83db3be63f5a5786a1f"><div class="ttname"><a href="../../d7/de5/a07901.html#a1b4b51353503f83db3be63f5a5786a1f">ItemTemplate::Quality</a></div><div class="ttdeci">uint32 Quality</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:635</div></div>
+<div class="ttc" id="aa07901_html_a21d62ad4a38e5a84305cf783c27c1d39"><div class="ttname"><a href="../../d7/de5/a07901.html#a21d62ad4a38e5a84305cf783c27c1d39">ItemTemplate::ItemLevel</a></div><div class="ttdeci">uint32 ItemLevel</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:644</div></div>
+<div class="ttc" id="aa07901_html_ac47429e999906b62258c7ade930efcbf"><div class="ttname"><a href="../../d7/de5/a07901.html#ac47429e999906b62258c7ade930efcbf">ItemTemplate::InventoryType</a></div><div class="ttdeci">uint32 InventoryType</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:641</div></div>
+<div class="ttc" id="aa07901_html_acf4934f509118a60bcf90dbb893b7e58"><div class="ttname"><a href="../../d7/de5/a07901.html#acf4934f509118a60bcf90dbb893b7e58">ItemTemplate::RandomSuffix</a></div><div class="ttdeci">int32 RandomSuffix</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:682</div></div>
+<div class="ttc" id="aa30033_html"><div class="ttname"><a href="../../da/d5b/a30033.html">RandomPropertiesPointsEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1462</div></div>
+<div class="ttc" id="aa30033_html_a35dc60a15091357e03032226621340f7"><div class="ttname"><a href="../../da/d5b/a30033.html#a35dc60a15091357e03032226621340f7">RandomPropertiesPointsEntry::EpicPropertiesPoints</a></div><div class="ttdeci">uint32 EpicPropertiesPoints[5]</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1465</div></div>
+<div class="ttc" id="aa30033_html_a74acb6861a84d5d193038eaa5ac9b12f"><div class="ttname"><a href="../../da/d5b/a30033.html#a74acb6861a84d5d193038eaa5ac9b12f">RandomPropertiesPointsEntry::UncommonPropertiesPoints</a></div><div class="ttdeci">uint32 UncommonPropertiesPoints[5]</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1467</div></div>
+<div class="ttc" id="aa30033_html_a9359171635ef3e9a0029820fad286368"><div class="ttname"><a href="../../da/d5b/a30033.html#a9359171635ef3e9a0029820fad286368">RandomPropertiesPointsEntry::RarePropertiesPoints</a></div><div class="ttdeci">uint32 RarePropertiesPoints[5]</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1466</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l13581">Player::_LoadSkills()</a>, <a class="el" href="../../#l02338">ObjectMgr::AddCreatureToGrid()</a>, <a class="el" href="../../#l02644">ObjectMgr::AddGameobjectToGrid()</a>, <a class="el" href="../../#l00080">GossipMenu::AddMenuItem()</a>, <a class="el" href="../../#l01152">ObjectMgr::GetCellObjectGuids()</a>, <a class="el" href="../../#l00943">ObjectMgr::GetDungeonEncounterList()</a>, <a class="el" href="../../#l00142">InstanceSaveMgr::GetExtendedResetTimeFor()</a>, <a class="el" href="../../#l00757">GetMapDifficultyData()</a>, <a class="el" href="../../#l01164">ObjectMgr::GetMapObjectGuids()</a>, <a class="el" href="../../#l01271">ObjectMgr::GetQuestGreetingLocale()</a>, <a class="el" href="../../#l00136">InstanceSaveMgr::GetResetTimeFor()</a>, <a class="el" href="../../#l00478">ObjectMgr::LoadGossipMenuItemsLocales()</a>, <a class="el" href="../../#l05905">ObjectMgr::LoadInstanceEncounters()</a>, <a class="el" href="../../#l06360">ObjectMgr::LoadQuestGreetingsLocales()</a>, <a class="el" href="../../#l00031">Player::PrepareGossipMenu()</a>, <a class="el" href="../../#l02352">ObjectMgr::RemoveCreatureFromGrid()</a>, <a class="el" href="../../#l02658">ObjectMgr::RemoveGameobjectFromGrid()</a>, <a class="el" href="../../#l00153">InstanceSaveMgr::SetExtendedResetTimeFor()</a>, <a class="el" href="../../#l00148">InstanceSaveMgr::SetResetTimeFor()</a>, <a class="el" href="../../#l05239">Player::SetSkill()</a>, and <a class="el" href="../../#l01137">Player::UpdateHonorFields()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l01465">RandomPropertiesPointsEntry::EpicPropertiesPoints</a>, <a class="el" href="../../#l00641">ItemTemplate::InventoryType</a>, <a class="el" href="../../#l00282">INVTYPE_2HWEAPON</a>, <a class="el" href="../../#l00289">INVTYPE_AMMO</a>, <a class="el" href="../../#l00283">INVTYPE_BAG</a>, <a class="el" href="../../#l00269">INVTYPE_BODY</a>, <a class="el" href="../../#l00270">INVTYPE_CHEST</a>, <a class="el" href="../../#l00281">INVTYPE_CLOAK</a>, <a class="el" href="../../#l00273">INVTYPE_FEET</a>, <a class="el" href="../../#l00276">INVTYPE_FINGER</a>, <a class="el" href="../../#l00275">INVTYPE_HANDS</a>, <a class="el" href="../../#l00266">INVTYPE_HEAD</a>, <a class="el" href="../../#l00288">INVTYPE_HOLDABLE</a>, <a class="el" href="../../#l00272">INVTYPE_LEGS</a>, <a class="el" href="../../#l00267">INVTYPE_NECK</a>, <a class="el" href="../../#l00265">INVTYPE_NON_EQUIP</a>, <a class="el" href="../../#l00292">INVTYPE_QUIVER</a>, <a class="el" href="../../#l00280">INVTYPE_RANGED</a>, <a class="el" href="../../#l00291">INVTYPE_RANGEDRIGHT</a>, <a class="el" href="../../#l00293">INVTYPE_RELIC</a>, <a class="el" href="../../#l00285">INVTYPE_ROBE</a>, <a class="el" href="../../#l00279">INVTYPE_SHIELD</a>, <a class="el" href="../../#l00268">INVTYPE_SHOULDERS</a>, <a class="el" href="../../#l00284">INVTYPE_TABARD</a>, <a class="el" href="../../#l00290">INVTYPE_THROWN</a>, <a class="el" href="../../#l00277">INVTYPE_TRINKET</a>, <a class="el" href="../../#l00271">INVTYPE_WAIST</a>, <a class="el" href="../../#l00278">INVTYPE_WEAPON</a>, <a class="el" href="../../#l00286">INVTYPE_WEAPONMAINHAND</a>, <a class="el" href="../../#l00287">INVTYPE_WEAPONOFFHAND</a>, <a class="el" href="../../#l00274">INVTYPE_WRISTS</a>, <a class="el" href="../../#l00307">ITEM_QUALITY_ARTIFACT</a>, <a class="el" href="../../#l00305">ITEM_QUALITY_EPIC</a>, <a class="el" href="../../#l00306">ITEM_QUALITY_LEGENDARY</a>, <a class="el" href="../../#l00304">ITEM_QUALITY_RARE</a>, <a class="el" href="../../#l00303">ITEM_QUALITY_UNCOMMON</a>, <a class="el" href="../../#l00644">ItemTemplate::ItemLevel</a>, <a class="el" href="../../#l00635">ItemTemplate::Quality</a>, <a class="el" href="../../#l00682">ItemTemplate::RandomSuffix</a>, <a class="el" href="../../#l01466">RandomPropertiesPointsEntry::RarePropertiesPoints</a>, <a class="el" href="../../#l01640">sObjectMgr</a>, <a class="el" href="../../d6/d0d/a01091.html#a0663ae41922720e1d5f53ed43f7423d7">sRandomPropertiesPointsStore</a>, and <a class="el" href="../../#l01467">RandomPropertiesPointsEntry::UncommonPropertiesPoints</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00386">LootItem::LootItem()</a>, and <a class="el" href="../../#l00708">Item::UpdateItemSuffixFactor()</a>.</p>
 
 </div>
 </div>
-<a id="a236b098eb2d636d290e08931dcaa1911" name="a236b098eb2d636d290e08931dcaa1911"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a236b098eb2d636d290e08931dcaa1911">&#9670;&#160;</a></span>PAIR32_HIPART()</h2>
+<a id="a76d03c9ceb2d3ac35582eaea4624544f" name="a76d03c9ceb2d3ac35582eaea4624544f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76d03c9ceb2d3ac35582eaea4624544f">&#9670;&#160;</a></span>GetItemEnchantMod()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> PAIR32_HIPART </td>
+          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GetItemEnchantMod </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>x</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>entry</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   93</span>{</div>
-<div class="line"><span class="lineno">   94</span>    <span class="keywordflow">return</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>)((x &gt;&gt; 16) &amp; 0x0000FFFF);</div>
-<div class="line"><span class="lineno">   95</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">   82</span>{</div>
+<div class="line"><span class="lineno">   83</span>    <span class="keywordflow">if</span> (!entry)</div>
+<div class="line"><span class="lineno">   84</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>    <span class="keywordflow">if</span> (entry == -1)</div>
+<div class="line"><span class="lineno">   87</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>    EnchantmentStore::const_iterator tab = <a class="code hl_variable" href="../../d9/d31/a01208.html#a6aeb6f30f019ca8d9839fcf41beb1ac7">RandomItemEnch</a>.find(entry);</div>
+<div class="line"><span class="lineno">   90</span>    <span class="keywordflow">if</span> (tab == <a class="code hl_variable" href="../../d9/d31/a01208.html#a6aeb6f30f019ca8d9839fcf41beb1ac7">RandomItemEnch</a>.end())</div>
+<div class="line"><span class="lineno">   91</span>    {</div>
+<div class="line"><span class="lineno">   92</span>        <a class="code hl_define" href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Item RandomProperty / RandomSuffix id #{} used in `item_template` but it does not have records in `item_enchantment_template` table.&quot;</span>, entry);</div>
+<div class="line"><span class="lineno">   93</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   94</span>    }</div>
+<div class="line"><span class="lineno">   95</span> </div>
+<div class="line"><span class="lineno">   96</span>    <span class="keywordtype">double</span> dRoll = <a class="code hl_function" href="../../d3/def/a00446.html#a66621d09a8cc2aa9476391004fe2c427">rand_chance</a>();</div>
+<div class="line"><span class="lineno">   97</span>    <span class="keywordtype">float</span> fCount = 0;</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span>    <span class="keywordflow">for</span> (EnchStoreList::const_iterator ench_iter = tab-&gt;second.begin(); ench_iter != tab-&gt;second.end(); ++ench_iter)</div>
+<div class="line"><span class="lineno">  100</span>    {</div>
+<div class="line"><span class="lineno">  101</span>        fCount += ench_iter-&gt;chance;</div>
+<div class="line"><span class="lineno">  102</span> </div>
+<div class="line"><span class="lineno">  103</span>        <span class="keywordflow">if</span> (fCount &gt; dRoll)</div>
+<div class="line"><span class="lineno">  104</span>            <span class="keywordflow">return</span> ench_iter-&gt;ench;</div>
+<div class="line"><span class="lineno">  105</span>    }</div>
+<div class="line"><span class="lineno">  106</span> </div>
+<div class="line"><span class="lineno">  107</span>    <span class="comment">//we could get here only if sum of all enchantment chances is lower than 100%</span></div>
+<div class="line"><span class="lineno">  108</span>    dRoll = (<a class="code hl_function" href="../../d3/def/a00446.html#a6ae07d2bb0593d8339e65c136f63ecc0">irand</a>(0, (<span class="keywordtype">int</span>)floor(fCount * 100) + 1)) / 100;</div>
+<div class="line"><span class="lineno">  109</span>    fCount = 0;</div>
+<div class="line"><span class="lineno">  110</span> </div>
+<div class="line"><span class="lineno">  111</span>    <span class="keywordflow">for</span> (EnchStoreList::const_iterator ench_iter = tab-&gt;second.begin(); ench_iter != tab-&gt;second.end(); ++ench_iter)</div>
+<div class="line"><span class="lineno">  112</span>    {</div>
+<div class="line"><span class="lineno">  113</span>        fCount += ench_iter-&gt;chance;</div>
+<div class="line"><span class="lineno">  114</span> </div>
+<div class="line"><span class="lineno">  115</span>        <span class="keywordflow">if</span> (fCount &gt; dRoll)</div>
+<div class="line"><span class="lineno">  116</span>            <span class="keywordflow">return</span> ench_iter-&gt;ench;</div>
+<div class="line"><span class="lineno">  117</span>    }</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  120</span>}</div>
+<div class="ttc" id="aa00317_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+<div class="ttc" id="aa00446_html_a66621d09a8cc2aa9476391004fe2c427"><div class="ttname"><a href="../../d3/def/a00446.html#a66621d09a8cc2aa9476391004fe2c427">rand_chance</a></div><div class="ttdeci">double rand_chance()</div><div class="ttdef"><b>Definition:</b> Random.cpp:83</div></div>
+<div class="ttc" id="aa00446_html_a6ae07d2bb0593d8339e65c136f63ecc0"><div class="ttname"><a href="../../d3/def/a00446.html#a6ae07d2bb0593d8339e65c136f63ecc0">irand</a></div><div class="ttdeci">int32 irand(int32 min, int32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:37</div></div>
+<div class="ttc" id="aa01208_html_a6aeb6f30f019ca8d9839fcf41beb1ac7"><div class="ttname"><a href="../../d9/d31/a01208.html#a6aeb6f30f019ca8d9839fcf41beb1ac7">RandomItemEnch</a></div><div class="ttdeci">static EnchantmentStore RandomItemEnch</div><div class="ttdef"><b>Definition:</b> ItemEnchantmentMgr.cpp:42</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l05350">Player::GetSkillStep()</a>, <a class="el" href="../../#l00052">WorldSession::HandleCalendarGetCalendar()</a>, and <a class="el" href="../../#l00299">InstanceSaveMgr::LoadResetTimes()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00037">irand()</a>, <a class="el" href="../../#l00159">LOG_ERROR</a>, <a class="el" href="../../#l00083">rand_chance()</a>, and <a class="el" href="../../#l00042">RandomItemEnch</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00624">Item::GenerateItemRandomPropertyId()</a>, and <a class="el" href="../../#l02700">ObjectMgr::LoadItemTemplates()</a>.</p>
 
 </div>
 </div>
-<a id="ae7170f91373fc9614734d4365eaebf77" name="ae7170f91373fc9614734d4365eaebf77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7170f91373fc9614734d4365eaebf77">&#9670;&#160;</a></span>PAIR32_LOPART()</h2>
+<a id="a376fabf7bba54eaf928217f860f1c33b" name="a376fabf7bba54eaf928217f860f1c33b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a376fabf7bba54eaf928217f860f1c33b">&#9670;&#160;</a></span>LoadRandomEnchantmentsTable()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> PAIR32_LOPART </td>
+          <td class="memname">void LoadRandomEnchantmentsTable </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>x</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   98</span>{</div>
-<div class="line"><span class="lineno">   99</span>    <span class="keywordflow">return</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>)(x &amp; 0x0000FFFF);</div>
-<div class="line"><span class="lineno">  100</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d4/ddf/a00488.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">   47</span> </div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_variable" href="../../d9/d31/a01208.html#a6aeb6f30f019ca8d9839fcf41beb1ac7">RandomItemEnch</a>.clear();                                 <span class="comment">// for reload case</span></div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>    <span class="comment">//                                                 0      1      2</span></div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_typedef" href="../../d0/d3e/a00566.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d9/d19/a00560.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.Query(<span class="stringliteral">&quot;SELECT entry, ench, chance FROM item_enchantment_template&quot;</span>);</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>    <span class="keywordflow">if</span> (result)</div>
+<div class="line"><span class="lineno">   54</span>    {</div>
+<div class="line"><span class="lineno">   55</span>        <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>        <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">   58</span>        {</div>
+<div class="line"><span class="lineno">   59</span>            <a class="code hl_class" href="../../d7/dde/a05425.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> entry = fields[0].<a class="code hl_function" href="../../d7/dde/a05425.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">   62</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> ench = fields[1].<a class="code hl_function" href="../../d7/dde/a05425.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">   63</span>            <span class="keywordtype">float</span> chance = fields[2].<a class="code hl_function" href="../../d7/dde/a05425.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<span class="keywordtype">float</span>&gt;();</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>            <span class="keywordflow">if</span> (chance &gt; 0.000001f &amp;&amp; chance &lt;= 100.0f)</div>
+<div class="line"><span class="lineno">   66</span>                <a class="code hl_variable" href="../../d9/d31/a01208.html#a6aeb6f30f019ca8d9839fcf41beb1ac7">RandomItemEnch</a>[entry].push_back(<a class="code hl_struct" href="../../d5/daa/a07881.html">EnchStoreItem</a>(ench, chance));</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>            ++count;</div>
+<div class="line"><span class="lineno">   69</span>        } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">   70</span> </div>
+<div class="line"><span class="lineno">   71</span>        <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} Item Enchantment Definitions in {} ms&quot;</span>, count, <a class="code hl_function" href="../../d4/ddf/a00488.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">   72</span>        <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   73</span>    }</div>
+<div class="line"><span class="lineno">   74</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   75</span>    {</div>
+<div class="line"><span class="lineno">   76</span>        <a class="code hl_define" href="../../da/de0/a00317.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 Item Enchantment definitions. DB table `item_enchantment_template` is empty.&quot;</span>);</div>
+<div class="line"><span class="lineno">   77</span>        <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   78</span>    }</div>
+<div class="line"><span class="lineno">   79</span>}</div>
+<div class="ttc" id="aa00317_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:167</div></div>
+<div class="ttc" id="aa00317_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../da/de0/a00317.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:163</div></div>
+<div class="ttc" id="aa00488_html_a23a2c8663a05f2b03a6f85501972e8c0"><div class="ttname"><a href="../../d4/ddf/a00488.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a></div><div class="ttdeci">uint32 GetMSTimeDiffToNow(uint32 oldMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
+<div class="ttc" id="aa00488_html_a4476c8e13ea790c3536f2749105f9cb9"><div class="ttname"><a href="../../d4/ddf/a00488.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a></div><div class="ttdeci">uint32 getMSTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:103</div></div>
+<div class="ttc" id="aa00560_html_afa9a6509f9913c9c7dd3081523badd7c"><div class="ttname"><a href="../../d9/d19/a00560.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; WorldDatabaseConnection &gt; WorldDatabase</div><div class="ttdoc">Accessor to the world database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:20</div></div>
+<div class="ttc" id="aa00566_html_ab0c9feeec448a181290fcb39565b8253"><div class="ttname"><a href="../../d0/d3e/a00566.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; ResultSet &gt; QueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:28</div></div>
+<div class="ttc" id="aa05425_html"><div class="ttname"><a href="../../d7/dde/a05425.html">Field</a></div><div class="ttdoc">Class used to access individual fields of database query result.</div><div class="ttdef"><b>Definition:</b> Field.h:99</div></div>
+<div class="ttc" id="aa05425_html_aae507d21d3570ffdaf1643ba02946f01"><div class="ttname"><a href="../../d7/dde/a05425.html#aae507d21d3570ffdaf1643ba02946f01">Field::Get</a></div><div class="ttdeci">std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;, T &gt; Get() const</div><div class="ttdef"><b>Definition:</b> Field.h:113</div></div>
+<div class="ttc" id="aa07881_html"><div class="ttname"><a href="../../d5/daa/a07881.html">EnchStoreItem</a></div><div class="ttdef"><b>Definition:</b> ItemEnchantmentMgr.cpp:28</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00052">WorldSession::HandleCalendarGetCalendar()</a>, <a class="el" href="../../#l00299">InstanceSaveMgr::LoadResetTimes()</a>, and <a class="el" href="../../#l01137">Player::UpdateHonorFields()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00113">Field::Get()</a>, <a class="el" href="../../#l00103">getMSTime()</a>, <a class="el" href="../../#l00131">GetMSTimeDiffToNow()</a>, <a class="el" href="../../#l00167">LOG_INFO</a>, <a class="el" href="../../#l00163">LOG_WARN</a>, <a class="el" href="../../#l00042">RandomItemEnch</a>, and <a class="el" href="../../#l00020">WorldDatabase</a>.</p>
 
-</div>
-</div>
-<a id="addc54387901d7793730428b2982d3f55" name="addc54387901d7793730428b2982d3f55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addc54387901d7793730428b2982d3f55">&#9670;&#160;</a></span>PAIR64_HIPART()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> PAIR64_HIPART </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td>
-          <td class="paramname"><em>x</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   73</span>{</div>
-<div class="line"><span class="lineno">   74</span>    <span class="keywordflow">return</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)((x &gt;&gt; 32) &amp; <a class="code hl_define" href="../../d1/da8/a00230.html#abf772f43caa1c9ba44098b6bf2bf355c">UI64LIT</a>(0x00000000FFFFFFFF));</div>
-<div class="line"><span class="lineno">   75</span>}</div>
-<div class="ttc" id="aa00230_html_abf772f43caa1c9ba44098b6bf2bf355c"><div class="ttname"><a href="../../d1/da8/a00230.html#abf772f43caa1c9ba44098b6bf2bf355c">UI64LIT</a></div><div class="ttdeci">#define UI64LIT(N)</div><div class="ttdef"><b>Definition:</b> Define.h:98</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00098">UI64LIT</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00671">Object::SetUInt64Value()</a>.</p>
-
-</div>
-</div>
-<a id="a07b26e77b0b1266a3addb26d71a74344" name="a07b26e77b0b1266a3addb26d71a74344"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07b26e77b0b1266a3addb26d71a74344">&#9670;&#160;</a></span>PAIR64_LOPART()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> PAIR64_LOPART </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td>
-          <td class="paramname"><em>x</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   78</span>{</div>
-<div class="line"><span class="lineno">   79</span>    <span class="keywordflow">return</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)(x &amp; <a class="code hl_define" href="../../d1/da8/a00230.html#abf772f43caa1c9ba44098b6bf2bf355c">UI64LIT</a>(0x00000000FFFFFFFF));</div>
-<div class="line"><span class="lineno">   80</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00098">UI64LIT</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00671">Object::SetUInt64Value()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00944">reload_commandscript::HandleReloadItemEnchantementsCommand()</a>, and <a class="el" href="../../#l01490">World::SetInitialWorldSettings()</a>.</p>
 
 </div>
 </div>
@@ -855,8 +404,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_7cceb56be83a77325820340cc4b7f0cb.html">Object</a></li><li class="navelem"><a class="el" href="../../d1/d34/a01211.html">ObjectDefines.h</a></li>
-    <li class="footer">Generated on Wed May 17 2023 23:04:33 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_4b91de77c0d3c1b17ed3a22a8949a24f.html">Item</a></li><li class="navelem"><a class="el" href="../../d1/d34/a01211.html">ItemEnchantmentMgr.h</a></li>
+    <li class="footer">Generated on Sun Aug 20 2023 00:18:56 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

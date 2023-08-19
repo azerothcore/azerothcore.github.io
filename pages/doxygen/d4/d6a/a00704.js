@@ -1,12 +1,27 @@
 var a00704 =
 [
-    [ "AddonInfo", "d3/d16/a05746.html", "d3/d16/a05746" ],
-    [ "SavedAddon", "d7/d55/a05750.html", "d7/d55/a05750" ],
-    [ "BannedAddon", "d7/d3f/a05754.html", "d7/d3f/a05754" ],
-    [ "STANDARD_ADDON_CRC", "d4/d6a/a00704.html#a084249e215f787f3163d5d06ad2d256f", null ],
-    [ "BannedAddonList", "d4/d6a/a00704.html#a2ea3deb6be3c64b7b58ed27ccf60c779", null ],
-    [ "GetAddonInfo", "d4/d6a/a00704.html#a65cb6a88902972060e44c57d7d9ec738", null ],
-    [ "GetBannedAddons", "d4/d6a/a00704.html#ad7d0938e7463238a86e8c811e1a58800", null ],
-    [ "LoadFromDB", "d4/d6a/a00704.html#aaa12f5b754e6b664dbfb2428478bee03", null ],
-    [ "SaveAddon", "d4/d6a/a00704.html#a85021021149b7eb4d78cbe81e43d3d45", null ]
+    [ "MAX_ACCOUNT_STR", "d4/d6a/a00704.html#a134ebf22666a6525929447b2d869d400", null ],
+    [ "MAX_PASS_STR", "d4/d6a/a00704.html#a45827712253b6d66092106cef5ae724b", null ],
+    [ "AccountOpResult", "d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703e", [
+      [ "AOR_OK", "d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703ea73449863bb0d97def55bd65307e97f18", null ],
+      [ "AOR_NAME_TOO_LONG", "d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703eaec4fb519d9e6032adc269ca4a27c38f4", null ],
+      [ "AOR_PASS_TOO_LONG", "d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703eaed91b79b9e639b8f988c5f06fcfd901c", null ],
+      [ "AOR_NAME_ALREADY_EXIST", "d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703eae0b6297de7a7e8b516f5fc98a4d8750c", null ],
+      [ "AOR_NAME_NOT_EXIST", "d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703ea05e659ba76ce9dd582551a24f2923b24", null ],
+      [ "AOR_DB_INTERNAL_ERROR", "d4/d6a/a00704.html#a0161874ada0cecbbd1fd5d31da73703ea368516df3522ada12ce8a39c789a687d", null ]
+    ] ],
+    [ "ChangePassword", "d4/d6a/a00704.html#a6a9cb892c15d78b5de65738005234ff6", null ],
+    [ "ChangeUsername", "d4/d6a/a00704.html#a3382c6430bfbf14e32ca11b5ac68fc23", null ],
+    [ "CheckPassword", "d4/d6a/a00704.html#a17c28dfcb31af8f4241bb5210408185a", null ],
+    [ "CreateAccount", "d4/d6a/a00704.html#a7a7668ab60ae56c7e71fce77780bb214", null ],
+    [ "DeleteAccount", "d4/d6a/a00704.html#a120323b16b2a5aefa6aa69e8be5ccef6", null ],
+    [ "GetCharactersCount", "d4/d6a/a00704.html#a4fb760897161c3d463f842b28bcf7c20", null ],
+    [ "GetId", "d4/d6a/a00704.html#aa215c9a96c37b8a5d76d980ecf8de114", null ],
+    [ "GetName", "d4/d6a/a00704.html#af911e3860ec519c541d6df35468ee41b", null ],
+    [ "GetSecurity", "d4/d6a/a00704.html#a8280510b2564ec6ea76727218c1687b3", null ],
+    [ "GetSecurity", "d4/d6a/a00704.html#a30b6e5cf1733f0143f86aaeff600215c", null ],
+    [ "IsAdminAccount", "d4/d6a/a00704.html#adb1b210137b09011677c74011addeefa", null ],
+    [ "IsConsoleAccount", "d4/d6a/a00704.html#a81bbc2af33211a3130c6aa215f5607b7", null ],
+    [ "IsGMAccount", "d4/d6a/a00704.html#a2f5fb2cf0c24e610c09ac734be93c7a9", null ],
+    [ "IsPlayerAccount", "d4/d6a/a00704.html#a63751f144cb7acb57fc20f0caf5e7043", null ]
 ];

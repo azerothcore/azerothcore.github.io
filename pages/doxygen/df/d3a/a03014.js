@@ -1,36 +1,8 @@
 var a03014 =
 [
-    [ "boss_aeonus", "d6/d92/a14874.html", "d6/d92/a14874" ],
-    [ "Enums", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4", [
-      [ "SAY_AGGRO", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4a47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SAY_BANISH", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4a24b88fffa83116640b9dcfd4596553da", null ],
-      [ "SAY_SLAY", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4a9e64f6e600dd42567d18006912811f75", null ],
-      [ "SAY_DEATH", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4a04c962d9b6aaafde54ff92a54369135e", null ],
-      [ "EMOTE_FRENZY", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4a55f111609d7846e27c2f642b9f46b1ac", null ],
-      [ "SPELL_CLEAVE", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4a0de0a536dbf18ec5c2e76cfee1d751eb", null ],
-      [ "SPELL_TIME_STOP", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4a4154540a366e463e757c18a53e696a51", null ],
-      [ "SPELL_ENRAGE", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4a2a20f56307679be4d4f01a0d3d93cc7e", null ],
-      [ "SPELL_SAND_BREATH", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4a11999a4d1291ae659fde0a08ce95cd4c", null ],
-      [ "SPELL_CORRUPT_MEDIVH", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4a049bbaf1577a59d4557a62d59fac7070", null ],
-      [ "SPELL_BANISH_DRAGON_HELPER", "df/d3a/a03014.html#a00ab157b0083a5c08d8f473793fba8e4abb3f48efd68961d9bcc19f9b6008023c", null ],
-      [ "SAY_AGGRO", "dd/dfd/a03017.html#a00ab157b0083a5c08d8f473793fba8e4a47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SAY_BANISH", "dd/dfd/a03017.html#a00ab157b0083a5c08d8f473793fba8e4a24b88fffa83116640b9dcfd4596553da", null ],
-      [ "SAY_SLAY", "dd/dfd/a03017.html#a00ab157b0083a5c08d8f473793fba8e4a9e64f6e600dd42567d18006912811f75", null ],
-      [ "SAY_DEATH", "dd/dfd/a03017.html#a00ab157b0083a5c08d8f473793fba8e4a04c962d9b6aaafde54ff92a54369135e", null ],
-      [ "SPELL_ARCANE_BLAST", "dd/dfd/a03017.html#a00ab157b0083a5c08d8f473793fba8e4af122c6c3fe00bd98cedb873409dc4803", null ],
-      [ "SPELL_ARCANE_DISCHARGE", "dd/dfd/a03017.html#a00ab157b0083a5c08d8f473793fba8e4a6b3de83bd164f6cd06ecdec80074e576", null ],
-      [ "SPELL_TIME_LAPSE", "dd/dfd/a03017.html#a00ab157b0083a5c08d8f473793fba8e4abf276d995824f99a65014da1cac10b65", null ],
-      [ "SPELL_ATTRACTION", "dd/dfd/a03017.html#a00ab157b0083a5c08d8f473793fba8e4a38d4d31670f85a60d2944cf10d85f74d", null ],
-      [ "SPELL_BANISH_DRAGON_HELPER", "dd/dfd/a03017.html#a00ab157b0083a5c08d8f473793fba8e4abb3f48efd68961d9bcc19f9b6008023c", null ],
-      [ "SAY_AGGRO", "de/dec/a03020.html#a00ab157b0083a5c08d8f473793fba8e4a47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SAY_BANISH", "de/dec/a03020.html#a00ab157b0083a5c08d8f473793fba8e4a24b88fffa83116640b9dcfd4596553da", null ],
-      [ "SAY_SLAY", "de/dec/a03020.html#a00ab157b0083a5c08d8f473793fba8e4a9e64f6e600dd42567d18006912811f75", null ],
-      [ "SAY_DEATH", "de/dec/a03020.html#a00ab157b0083a5c08d8f473793fba8e4a04c962d9b6aaafde54ff92a54369135e", null ],
-      [ "SPELL_HASTEN", "de/dec/a03020.html#a00ab157b0083a5c08d8f473793fba8e4a0b52c5ee5c2913411e77e316414e6cf0", null ],
-      [ "SPELL_MORTAL_WOUND", "de/dec/a03020.html#a00ab157b0083a5c08d8f473793fba8e4ade4f4dd4b7799e3729980832dbc60e4c", null ],
-      [ "SPELL_WING_BUFFET", "de/dec/a03020.html#a00ab157b0083a5c08d8f473793fba8e4a242b1d7745ca37671f734c17434711d2", null ],
-      [ "SPELL_REFLECT", "de/dec/a03020.html#a00ab157b0083a5c08d8f473793fba8e4a792c5fd320887809656c03a1f3f6dad2", null ],
-      [ "SPELL_BANISH_DRAGON_HELPER", "de/dec/a03020.html#a00ab157b0083a5c08d8f473793fba8e4abb3f48efd68961d9bcc19f9b6008023c", null ]
-    ] ],
-    [ "AddSC_boss_aeonus", "df/d3a/a03014.html#a823d3a37eeaefe7ecff6a68197460425", null ]
+    [ "instance_old_hillsbrad", "d3/d25/a14785.html", "d3/d25/a14785" ],
+    [ "instance_old_hillsbrad::instance_old_hillsbrad_InstanceMapScript", "db/d65/a14789.html", "db/d65/a14789" ],
+    [ "AddSC_instance_old_hillsbrad", "df/d3a/a03014.html#a2b3faa69a9526f156ca7bae70c720075", null ],
+    [ "instancePositions", "df/d3a/a03014.html#a79b42da504a3cfde2581f63a639c7936", null ],
+    [ "thrallPositions", "df/d3a/a03014.html#a04c9058e75a93a56057912eb1c896bd0", null ]
 ];

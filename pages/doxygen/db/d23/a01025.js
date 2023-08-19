@@ -1,9 +1,17 @@
 var a01025 =
 [
-    [ "AchievementVisitor", "d5/d31/a07074.html", "d5/d31/a07074" ],
-    [ "GameTeleVisitor", "d3/d86/a07078.html", "d3/d86/a07078" ],
-    [ "ItemTemplateVisitor", "d4/db3/a07082.html", "d4/db3/a07082" ],
-    [ "SpellInfoVisitor", "d3/d45/a07086.html", "d3/d45/a07086" ],
-    [ "QuestVisitor", "dd/dd2/a07090.html", "dd/dd2/a07090" ],
-    [ "ChatCommandResult", "db/d23/a01025.html#ad9c9d483b96ed400318aed8441ebe7f1", null ]
+    [ "GuidLinkType", "db/d23/a01025.html#a7c58fae67eb0c9a1b6f18b403121b2f5", [
+      [ "SPELL_LINK_PLAYER", "db/d23/a01025.html#a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028", null ],
+      [ "SPELL_LINK_CREATURE", "db/d23/a01025.html#a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8", null ],
+      [ "SPELL_LINK_GAMEOBJECT", "db/d23/a01025.html#a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7", null ]
+    ] ],
+    [ "SpellLinkType", "db/d23/a01025.html#a39157073e48b2e925e7227a28d1f09f9", [
+      [ "SPELL_LINK_SPELL", "db/d23/a01025.html#a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd", null ],
+      [ "SPELL_LINK_TALENT", "db/d23/a01025.html#a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56", null ],
+      [ "SPELL_LINK_ENCHANT", "db/d23/a01025.html#a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654", null ],
+      [ "SPELL_LINK_TRADE", "db/d23/a01025.html#a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919", null ],
+      [ "SPELL_LINK_GLYPH", "db/d23/a01025.html#a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e", null ]
+    ] ],
+    [ "guidKeys", "db/d23/a01025.html#ae39447b85bcee503ddb354d2950d638a", null ],
+    [ "spellKeys", "db/d23/a01025.html#a493fba30c4b66be28baeb971844ea593", null ]
 ];

@@ -1,14 +1,7 @@
 var a00893 =
 [
-    [ "BattlegroundData", "db/dc7/a06818.html", "db/dc7/a06818" ],
-    [ "BattlegroundTemplate", "d0/dec/a06822.html", "d0/dec/a06822" ],
-    [ "BattlegroundMgr", "d6/df9/a06826.html", "d6/df9/a06826" ],
-    [ "sBattlegroundMgr", "dc/d2c/a00893.html#abe50926a988d0fff4ee6ba0358c6b278", null ],
-    [ "BattlegroundClientIdsContainer", "dc/d2c/a00893.html#aa4d7efc49483e1820c6d759f0f3613f2", null ],
-    [ "BattlegroundContainer", "dc/d2c/a00893.html#a33858c5514cd62b25f056e4ba170de59", null ],
-    [ "BattleMastersMap", "dc/d2c/a00893.html#a0167dc8561c0fb4a41f0eaa6bea38980", null ],
-    [ "BGFreeSlotQueueContainer", "dc/d2c/a00893.html#a356842317f4215b2ee31abb25b4d54e7", null ],
-    [ "bgMapRef", "dc/d2c/a00893.html#a91490e6276f571e959bcc65a1a7e4007", null ],
-    [ "bgRef", "dc/d2c/a00893.html#a1d8c1781106a97335f700c82ac98e915", null ],
-    [ "bgTypeRef", "dc/d2c/a00893.html#ab13257a97cde6f35eb3aed651e61e20c", null ]
+    [ "ArenaTeamMgr", "d7/db6/a06845.html", "d7/db6/a06845" ],
+    [ "sArenaTeamMgr", "dc/d2c/a00893.html#a94afc7262fb2f00293dc80de8ba547df", null ],
+    [ "MAX_ARENA_TEAM_ID", "dc/d2c/a00893.html#aa472ba6cfd587021965aece0e77797b7", null ],
+    [ "MAX_TEMP_ARENA_TEAM_ID", "dc/d2c/a00893.html#ade4bc52db611f6481d3c8f5e6f346b4c", null ]
 ];
