@@ -31,48 +31,42 @@ layout: default
               <h3><i class="fas fa-cubes"></i> Solid base</h3>
               <p>
                 AzerothCore has a strong and solid base, coming from years of development: it is based on MaNGOS, TrinityCore and SunwellCore.<br>
-                We're improving this reliability offering a project that follows specific versioning rules, allowing you to develop in the right way.
+                We're improving this reliability with continuous development and strict rules to get code merged into the master branch.
               </p>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="feature">
-              <h3><i class="fas fa-gamepad"></i> Playable</h3>
-              <p>
-                Our main goal is to provide a fully working and playable server application.<br>
-                Unlike our predecessors, <strong>any</strong> code change that can somehow affect the gameplay
-                is first reviewed and tested <strong>before</strong> being released to our master branch.
-              </p>
+              <h3><i class="fas fa-gamepad"></i> Stability</h3>
+              <p>We make sure all changes pass the CIs before being merged into the master branch.</p>
             </div>
           </div>
           <div class="clearfix hidden-lg"></div>
           <div class="col-lg-4 col-sm-6">
             <div class="feature">
               <h3><i class="fab fa-github"></i> Open Source</h3>
-              <p>AzerothCore modules are released under <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU AGPL 3.0</a>
-                and <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GNU GPL 2.0</a>,
-                both those licenses are totally free and open source.
-                We believe in <a href="https://www.gnu.org/philosophy/free-sw.en.html">the free software</a>, we love cooperation.</p>
+              <p>The new AzerothCore source components are released under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU AGPL 3.0</a>
+                The old sources based on MaNGOS/TrinityCore are released under the <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GNU GPL 2.0</a>,
+                both those licenses are totally free and open source.</p>
             </div>
           </div>
           <div class="clearfix visible-lg"></div>
           <div class="col-lg-4 col-sm-6">
             <div class="feature">
-              <h3><i class="fas fa-check-circle" aria-hidden="true"></i> Tested, reliable, updated</h3>
-              <p>SunwellCore, the father of AzerothCore, had been running with thousands of players for years.
-                The goal of AzerothCore is to keep this game application updated, continuing its development.</p>
+              <h3><i class="fas fa-check-circle" aria-hidden="true"></i> Blizzlike Content</h3>
+              <p>We strive to make all in-game content to be blizzlike. Therefore we have a high standard for fixes being made.</p>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="feature">
-              <h3><i class="fas fa-users"></i> Community-driven</h3>
-              <p>The main strength of AzerothCore is its community. Users can help us by improving our code base or simply by submitting any bug report. If you want to <a href="http://www.azerothcore.org/wiki/Contribute">contribute</a>, we'd love it!</p>
+              <h3><i class="fas fa-users"></i> Community driven</h3>
+              <p>AzerothCore has an active community of developers, contributors, and users who collaborate, share knowledge, and provide support through forums, Discord channels, and other communication platforms. If you want to <a href="http://www.azerothcore.org/wiki/Contribute">contribute</a>, we'd love it!</p>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
             <div class="feature">
-              <h3><i class="fas fa-cogs"></i> Modular</h3>
-              <p>We try to make our software as <a href="https://en.wikipedia.org/wiki/Modular_programming">modular</a> as possible, because modular software is much easier to extend. <a href="http://www.azerothcore.org/wiki/The-Modular-Structure">Read More...</a></p>
+              <h3><i class="fas fa-cogs"></i> Customization</h3>
+              <p>AzerothCore is designed to be highly modular, allowing developers to extend and customize the game to suit their preferences or create unique gameplay experiences. This flexibility enables the addition of custom features, content, and modifications. <a href="http://www.azerothcore.org/wiki/The-Modular-Structure">Read More...</a></p>
             </div>
           </div>
         </div>
@@ -81,8 +75,8 @@ layout: default
         <hr>
         <div class="row text-center">
           <div class="col-lg-4 col-sm-6">
-            <h2>Latest posts</h2>
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAzerothCore&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=235084510008200" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            <h2>Join Discord!</h2>
+            <iframe src="https://discordapp.com/widget?id=217589275766685707&amp;theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
           </div>
           <div class="col-lg-8 col-sm-6">
             <h2>Latest GitHub commits</h2>
@@ -98,7 +92,7 @@ layout: default
     <script>
       $(function() {
         $('#commits').githubInfoWidget(
-          { user: 'azerothcore', repo: 'azerothcore-wotlk', branch: 'master', last: 15, limitMessageTo: 60 });
+          { user: 'azerothcore', repo: 'azerothcore-wotlk', branch: 'master', last: 10, limitMessageTo: 60 });
 
         $('.chat_head').click(function(){
           $('.chat_body').slideToggle('slow');
