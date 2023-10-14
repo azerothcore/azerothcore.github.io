@@ -53,6 +53,7 @@ document.write(`
   <a id="Unit:GetRaceAsString" class="fn" href="../Unit/GetRaceAsString.html">GetRaceAsString</a>
   <a id="Unit:GetRaceMask" class="fn" href="../Unit/GetRaceMask.html">GetRaceMask</a>
   <a id="Unit:GetSpeed" class="fn" href="../Unit/GetSpeed.html">GetSpeed</a>
+  <a id="Unit:GetSpeedRate" class="fn" href="../Unit/GetSpeedRate.html">GetSpeedRate</a>
   <a id="Unit:GetStandState" class="fn" href="../Unit/GetStandState.html">GetStandState</a>
   <a id="Unit:GetStat" class="fn" href="../Unit/GetStat.html">GetStat</a>
   <a id="Unit:GetThreatList" class="fn" href="../Unit/GetThreatList.html">GetThreatList</a>
@@ -149,6 +150,7 @@ document.write(`
   <a id="Unit:SetSanctuary" class="fn" href="../Unit/SetSanctuary.html">SetSanctuary</a>
   <a id="Unit:SetSheath" class="fn" href="../Unit/SetSheath.html">SetSheath</a>
   <a id="Unit:SetSpeed" class="fn" href="../Unit/SetSpeed.html">SetSpeed</a>
+  <a id="Unit:SetSpeedRate" class="fn" href="../Unit/SetSpeedRate.html">SetSpeedRate</a>
   <a id="Unit:SetStandState" class="fn" href="../Unit/SetStandState.html">SetStandState</a>
   <a id="Unit:SetWaterWalk" class="fn" href="../Unit/SetWaterWalk.html">SetWaterWalk</a>
   <a id="Unit:StopSpellCast" class="fn" href="../Unit/StopSpellCast.html">StopSpellCast</a>
